@@ -9,13 +9,14 @@ Takes raw SKUs with supplier references and produces live, compliant, well-photo
 
 ## The shape of it
 
-Six stages. Stages 2 and 3 run in parallel; everything else is ordered.
+Seven stages. Stages 2 and 3 run in parallel; everything else is ordered.
 
 1. Build the manifest
 2. Generate images (agents) ‖ 3. Write copy (agent)
 4. Audit names against materials
 5. Assemble the review doc
 6. Push to Shopify
+7. Verify against the supplier photographs, then activate
 
 Never publish before the user has seen the doc. Default every product to Draft.
 
@@ -110,6 +111,22 @@ Verify against the store afterwards rather than trusting the agent's report: cou
 
 ---
 
+## 7. Verify against source, then activate
+
+Everything above checks the listing against itself. This stage checks it
+against the factory. Full brief in `references/agent-source-verify.md`.
+
+Build one comparison sheet per SKU (supplier photo beside the published
+images), split them across three Opus agents, and judge metal colour first
+since that is where most failures are. Then act on the verdicts: pass goes
+Active, a copy only failure gets its copy fixed and goes Active, an image
+failure stays or returns to Draft until reshot, and unverifiable is reported
+rather than quietly passed.
+
+Run this even on SKUs that are already live. The first pass over a live
+catalogue of sixty found twenty four mismatches, four of them on products
+that had been active for a day.
+
 ## Things that go wrong
 
 - **Rings floating.** The most common and most damaging failure. Always include the rest-and-contact block.
@@ -127,4 +144,5 @@ Verify against the store afterwards rather than trusting the agent's report: cou
 - `references/agent-copy.md` — brief for the copy agent
 - `references/agent-verify.md` — brief for the image verification gate
 - `references/build_doc.py` — doc, assets and feed generator
+- `references/agent-source-verify.md` — brief for the supplier photo verification gate
 - `references/shopify.md` — mutations, batching and verification queries
