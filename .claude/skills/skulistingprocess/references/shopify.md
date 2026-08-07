@@ -74,6 +74,37 @@ Write each batch to `media_batch_<n>.json` / `update_batch_<n>.json` as `{query,
 
 Run all media batches before any update batch, since updates flip products live.
 
+## Status is not the same as published
+
+**`status: ACTIVE` does not put a product on the storefront.** It only makes it
+eligible. A product also has to be published to the Online Store *publication*,
+and `productUpdate` never touches that. Fifty two products once sat ACTIVE with
+every image and description correct while exactly two were actually reachable
+on the web, because the rest had been published to Point of Sale, Google, Meta
+and the headless channels but never to Online Store.
+
+Check both, always:
+
+```graphql
+active:  productsCount(query: "vendor:'Naira Petite' AND status:active") { count }
+onstore: productsCount(query: "vendor:'Naira Petite' AND status:active AND published_status:published") { count }
+```
+
+If those two numbers differ, the gap is your live catalogue. Fix it with
+`publishablePublish`, aliased 25 per call:
+
+```graphql
+mutation pub($chan: ID!, $p0: ID!, ...) {
+  x0: publishablePublish(id: $p0, input: {publicationId: $chan}) { userErrors { message } }
+}
+```
+
+Get the publication id from `publications(first: 10) { edges { node { id name } } }`
+and pick the one named **Online Store**. Publishing is additive and idempotent,
+so re running it is harmless.
+
+Make this the last step of every push, and re check it after any bulk activation.
+
 ## Verify afterwards
 
 ```graphql
@@ -86,7 +117,7 @@ query {
 }
 ```
 
-Check: expected active count, every product at 3+ media, no product over its intended image count (a pipeline test can leave a duplicate — remove with `productDeleteMedia`), and no dash characters in any description.
+Check: active count equals published-to-Online-Store count, every product at 3+ media, no product over its intended image count (a pipeline test can leave a duplicate — remove with `productDeleteMedia`), and no dash characters in any description.
 
 Renaming does **not** change the handle. Products renamed after going live keep the old URL slug; fix handles and add redirects before driving traffic.
 

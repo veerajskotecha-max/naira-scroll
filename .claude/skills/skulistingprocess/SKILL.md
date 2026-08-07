@@ -135,6 +135,15 @@ that had been active for a day.
 - **Sibling SKUs that contradict each other** (necklace says paperclip, matching bracelet says curb). Resolve toward whichever the images and the parent agree on, and flag it for supplier confirmation.
 - **Low contrast.** Ivory garment on ivory ground with warm skin gives gold nothing to separate against. A saturated ochre silk fixes it.
 - **Tag inheritance.** Silver and rose-gold pieces silently keep an "18k Gold Tone Plated" tag unless the tag builder branches on plating.
+- **Active but invisible.** Setting `status: ACTIVE` does not publish a product to
+  the storefront. It must also be published to the Online Store publication, which
+  `productUpdate` does not do. Always compare the active count against the
+  published count before reporting anything as live.
+- **A supplier reference showing many products at once** (a stacked wrist shot, a
+  styled flat lay) cannot source a single SKU. Descriptions written from one drift
+  onto the neighbouring item: a green bracelet inherited the clear baguette
+  bracelet's stone shape because they sat side by side in the same photo. Demand a
+  single product photo, or shoot from the parameter card instead.
 - **MCP responses over ~50k characters** are written to a file instead of returned. That is useful: request extra fields to force it, then drive the follow-up work from bash.
 
 ## Files
