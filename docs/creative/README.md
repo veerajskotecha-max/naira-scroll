@@ -46,14 +46,53 @@ to collections for exactly this reason).
 
 | # | Territory | Frame | Status |
 |---|---|---|---|
-| 01 | The craft proof | `frames/01-craft-proof.jpg` | re-shot (metal was wrong) |
-| 02 | The demonstration | `frames/02-waterproof-demo.jpg` | re-shot (demo too weak) |
-| 03 | Actual size | `frames/03-actual-size.jpg` | first pass |
-| 04 | On Indian skin | `frames/04-on-indian-skin.jpg` | first pass |
-| 05 | The clasp as design | `frames/05-clasp-as-design.jpg` | re-shot (toggle drifted) |
-| 06 | The box as product | `frames/06-box-as-product.jpg` | first pass |
+| 01 | The craft proof | `frames/01-craft-proof.jpg` | re-shot ×2 — metal, then size |
+| 02 | The demonstration | `frames/02-waterproof-demo.jpg` | re-shot ×2 — demo, then buckle station |
+| 03 | Actual size | `frames/03-actual-size.jpg` | re-shot — inverted scale proof |
+| 04 | On Indian skin | `frames/04-on-indian-skin.jpg` | re-shot — hoop oversized |
+| 05 | The clasp as design | `frames/05-clasp-as-design.jpg` | re-shot ×2 — toggle, then gauge |
+| 06 | The box as product | `frames/06-box-as-product.jpg` | re-shot — pearl type + missing drop |
 
 Full prompts for each are in the published document.
+
+## Dimension audit (added 19 Aug)
+
+Every frame was re-checked against the **manufacturer figures in each product listing**. Five of six
+were wrong on the first build and all six were re-shot.
+
+| SKU | Listed | First build | Corrected |
+|---|---|---|---|
+| Solitaire Whisper Studs | 12mm head, 7mm centre, rhodium | 9mm/5mm, gold | 12mm/7mm, rhodium |
+| Rivière Eternal Necklace | 3mm stones + 12mm flat buckle station | station absent | station present, 4 stones wide |
+| Pearl Halo Studs | 12mm tall, CZ above pearl, no halo | 9mm, "halo", pod claimed larger | 12mm, pod correctly shorter |
+| Woven Gold Hoops | 25mm across | 30mm | 25mm, compact at lobe |
+| Toggle Link Chain | 4mm width, 15mm toggle | 8mm links, 20mm toggle | fine 4mm chain |
+| Baroque Shell Bracelet | shell pearls, pearl drop from ring | "freshwater", no drop | shell, drop present |
+
+The inverted scale proof matters most: a cardamom pod is 8–10mm and the stud is 12mm, so the earring
+is the larger object — the first frame argued the opposite, in an ad whose whole job is honest sizing.
+Nothing in the image looked wrong; only the listing caught it.
+
+## Campaign structure at ₹3,000/day
+
+| Phase | Campaign | Ad set | Daily | Audience |
+|---|---|---|---|---|
+| Weeks 1–2 | Sales — prospecting | A · Broad | ₹1,500 | Advantage+, women 22–44, metro India |
+| Weeks 1–2 | Sales — prospecting | B · Lookalike | ₹1,500 | 1–3% LAL of IG engagers + site visitors |
+| Week 3+ | Sales — prospecting | A / B | ₹1,200 / ₹900 | as above |
+| Week 3+ | Sales — retargeting | C · Warm | ₹900 | 30-day visitors, ATC, engagers |
+
+Three creatives per ad set. At ₹300 CPM, ₹1,500 buys ~1,670 impressions per ad per day — clears the
+1,000-impression read floor inside a day, reaches a usable 3,300 in two. Six creatives read every
+2–3 days; twelve clear in about a week. Kill at 2× target CPA, never before 1,000 impressions or 72h.
+
+All routing is to **collections**, never product pages — 5 units per SKU makes PDP routing a dead end.
+
+## Prior-generation audit
+
+400 unique generations audited (26 Jul – 19 Aug): 61% stated a mm figure, but only **6% used a scale
+referent**, and **41% rendered at 1K** — too thin for 4:5 feed at full width. Four different model IDs
+appear across the history for jobs that requested two.
 
 ## Production rules learned
 
@@ -70,7 +109,8 @@ Full prompts for each are in the published document.
 as `nano_banana_pro` returned as `nano_banana_2`, and `nano_banana_2` returned as
 `nano_banana_flash`. Verify frames by eye, not by metadata.
 
-Cost: 2 credits per 2K generation. Nine generations produced these six.
+Cost: 2 credits per 2K generation. Fifteen generations produced these six, including the dimension
+re-shoot. Twelve launch creatives with a re-shoot round budgeted is roughly 60 credits.
 
 ## Gates before spend
 
