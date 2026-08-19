@@ -1,7 +1,19 @@
 # Naira Petite — Paid Social Creative System
 
-Built 19 Aug 2026. Published document:
+Built 19 Aug 2026. Published as **Naira Main**, a nine-tab consolidation of every research pass:
 https://claude.ai/code/artifact/5d4aec9c-e4c3-431d-93ad-e7038b482219
+
+| Tab | Holds |
+|---|---|
+| Overview | The craft position, the six-brand scoreboard, the ₹3,000 arithmetic |
+| The 500 ads | 498 live creatives — discount gradient, per-brand profiles, vocabulary matrix, offer mechanics, 20 verbatim hooks |
+| Competitors | 22 priced players, India and global, with revenue where public |
+| Campaign | Ad-set structure at ₹3,000/day, corrected KPI table, gated kill sequence |
+| Creative system | Two references, seven setting plates, the control test, the seven-block prompt |
+| Frames | Six dimension-verified territories plus five control frames |
+| Catalogue | 45 active SKUs, fidelity locks, four contradicted titles, 63-SKU unit economics |
+| Defects | 172 itemised findings and the pre-flight checklist |
+| Limits | What none of this claims |
 
 ## Position
 
