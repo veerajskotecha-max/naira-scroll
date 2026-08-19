@@ -39,8 +39,12 @@ to collections for exactly this reason).
 | Tier | SKUs | New assets |
 |---|---|---|
 | Hero | 6–8 | 12 |
-| Working | ~15 | 0 — promote existing on-body frame |
-| Tail | ~28 | 0 — supplier still-life |
+| Working | ~14 | 0 — promote existing on-body frame |
+| Tail | ~24 | 0 — supplier still-life |
+
+The catalogue holds **45 active jewellery SKUs**, not the 51 quoted in earlier passes — a live
+`productsCount` query returns 45 active and 23 draft under vendor Naira Petite. Twenty titles that
+recur throughout the older audits are currently DRAFT, which accounts for the difference.
 
 ## The six territories
 
@@ -86,8 +90,27 @@ and renders the supplier plinth inside the new scene.
 
 ## Merged research
 
-`../research/` now holds three consolidated references totalling ~31,000 words: the competitor
-corpus (498 creatives), production craft and KPI/kill gates, and the 172-defect audit history.
+`../research/` holds four consolidated references: the competitor corpus (498 creatives),
+production craft with corrected KPI and kill gates, the 172-defect audit history, and a per-SKU
+fidelity library covering all 45 active SKUs.
+
+### Four titles that contradict their own listings
+
+| SKU | Title claims | Listing says |
+|---|---|---|
+| `E16355C` Solitaire Whisper Studs | a solitaire, reads as gold | cushion pavé halo, rhodium plated |
+| `WE24089B` Pearl Halo Studs | a halo | 4-claw stone over a shell pearl, no halo anywhere |
+| `YF5214` Star Point Band | gold *or* silver, confirmed at order | one variant, gold only — the choice does not exist |
+| `FE02847B` Verdant Circlet Studs | no `Pearl` tag | a 6mm shell pearl, so filters exclude it |
+
+**Metal comes from the listing's Plating field, never from the product name.** Both of the first two
+rows would mislead anyone briefing off the title — which is exactly how frame 01 was first rendered
+in gold against a rhodium reference.
+
+**SKU codes have been reassigned since the earlier audits.** `JDB201083`, flagged as a wrong-product
+listing, now belongs to a different draft product; the bracelet sold today under that title carries
+`JDB201210` and is internally consistent. Any defect inherited from the audit history needs
+re-verification against a live listing before it is treated as current.
 
 ## Dimension audit (added 19 Aug)
 
