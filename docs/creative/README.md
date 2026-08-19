@@ -55,6 +55,40 @@ to collections for exactly this reason).
 
 Full prompts for each are in the published document.
 
+## The generation system: two references, not one
+
+Set by the brand 19 Aug: prompting uses **two** reference images — the product in Higgsfield slot 1,
+an empty **setting plate** in slot 2. That contradicted the standing single-reference law, so it was
+tested rather than assumed. Full method and the seven plates: `two-slot-system.md` and `plates/`.
+
+Five control frames, same prompt and same product reference, ratios measured in pixels:
+
+| Frame | Product : referent | rendered / true | accuracy |
+|---|---|---|---|
+| Stud, one slot | 12 : 9mm described | 0.84 / 1.33 | 63% — **inverted** |
+| Stud, two slot on S5 | 12 : 9mm shown | 1.18 / 1.33 | 89% |
+| Hoop, one slot | 25 : 9mm described | 2.37 / 2.78 | 85% |
+| Hoop, two slot on S5 | 25 : 9mm shown | 1.87 / 2.78 | 67% — compressed |
+| Hoop, two slot on S7 | 25 : 11mm shown | 1.98 / 2.27 | 87% — recovered |
+
+The plate **compresses the size range toward its own referent** — it pulled the 12mm stud up and the
+25mm hoop down, both toward pod-size. So the rule is not "always use a plate" but **size-match the
+plate's referent to the piece**, within roughly 2.5×. Inside that band it holds at 87–89%; one-slot
+is erratic at 63–85% and inverted the small piece outright.
+
+The compression is not a two-slot artefact: plate S7, generated from text alone with no reference,
+still rendered a 45mm matchstick against an 11mm button at 2.8× instead of 4.1×. Size compression is
+general diffusion behaviour; the plate only transmits it.
+
+**Three measured pairs, not a law.** The prompt gains a seventh block — reference roles, assigning
+what each slot supplies and what to ignore in each — because otherwise the model blends the frames
+and renders the supplier plinth inside the new scene.
+
+## Merged research
+
+`../research/` now holds three consolidated references totalling ~31,000 words: the competitor
+corpus (498 creatives), production craft and KPI/kill gates, and the 172-defect audit history.
+
 ## Dimension audit (added 19 Aug)
 
 Every frame was re-checked against the **manufacturer figures in each product listing**. Five of six
@@ -110,7 +144,7 @@ as `nano_banana_pro` returned as `nano_banana_2`, and `nano_banana_2` returned a
 `nano_banana_flash`. Verify frames by eye, not by metadata.
 
 Cost: 2 credits per 2K generation. Fifteen generations produced these six, including the dimension
-re-shoot. Twelve launch creatives with a re-shoot round budgeted is roughly 60 credits.
+re-shoot; a further fourteen produced the seven setting plates and the five control frames. Twelve launch creatives with a re-shoot round budgeted is roughly 60 credits.
 
 ## Gates before spend
 
