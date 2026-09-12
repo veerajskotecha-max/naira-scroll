@@ -1,0 +1,556 @@
+[
+ {
+  "id": "N01",
+  "frame": "L1",
+  "layout": "specimen",
+  "eyebrow": "Rivière Eternal Necklace",
+  "index": "VIII · 01",
+  "labels": [
+   [
+    "Forty stones",
+    31.0,
+    48.0,
+    0
+   ],
+   [
+    "Forty shadows",
+    31.0,
+    55.5,
+    0
+   ],
+   [
+    "None agreeing",
+    31.0,
+    63.0,
+    0
+   ]
+  ],
+  "footx": 8.4,
+  "footy": 11.5,
+  "lines": [
+   "Every stone brought",
+   "its own sun."
+  ],
+  "size": 60,
+  "note": "The piece fills the frame, so the sheet uses the two fields it leaves: the top band for the line, and the oval the necklace itself encloses for the count.",
+  "labSize": 21,
+  "dot": "#8F4E0E",
+  "footEdge": "top",
+  "footw": 62
+ },
+ {
+  "id": "N02",
+  "frame": "L2",
+  "layout": "angled",
+  "eyebrow": "Marquise Layering Set",
+  "poly": "0% 0%, 78% 0%, 0% 62%",
+  "ground": "#FBF1E6",
+  "ty": 8.5,
+  "tw": 56,
+  "lines": [
+   "The chain holds",
+   "two rooms",
+   "apart."
+  ],
+  "size": 66,
+  "ticks": [
+   "Necklace + bracelet",
+   "₹2,200"
+  ],
+  "note": "The photograph's own bone/lilac border, extended into the graphic. Type lives in one room, the piece in the other."
+ },
+ {
+  "id": "N03",
+  "frame": "L3",
+  "layout": "band",
+  "eyebrow": "Bold Nocturne Bracelet",
+  "index": "VIII · 03",
+  "top": 79.5,
+  "toneBox": [
+   0.05,
+   0.9,
+   0.9,
+   0.08
+  ],
+  "v": 0.24,
+  "lines": [
+   "The shadow runs on."
+  ],
+  "size": 76,
+  "ticks": [
+   "18K gold plated",
+   "316L steel",
+   "Non-tarnish"
+  ],
+  "note": "The band is anchored to a dark the photograph already contains."
+ },
+ {
+  "id": "N04",
+  "frame": "L4",
+  "layout": "tray",
+  "eyebrow": "Halo Curve Ring · two-stone",
+  "cut": 62,
+  "pad": 8.4,
+  "pos": "50% 42%",
+  "lines": [
+   "Two stones,",
+   "one ring."
+  ],
+  "size": 68,
+  "ticks": [
+   "18K gold plated",
+   "316L steel",
+   "Non-tarnish"
+  ],
+  "price": "₹1,799",
+  "sub": "Free shipping",
+  "cta": "Shop rings",
+  "note": "Direct response. Picture on top, paper tray doing the selling."
+ },
+ {
+  "id": "N05",
+  "frame": "L5",
+  "layout": "circle",
+  "eyebrow": "Verdant Circlet Studs",
+  "index": "VIII · 05",
+  "d": 80,
+  "cy": 41,
+  "pos": "45% 45%",
+  "lines": [
+   "The light",
+   "came apart."
+  ],
+  "size": 76,
+  "note": "Porthole. A different silhouette in the grid before anyone reads a word."
+ },
+ {
+  "id": "N06",
+  "frame": "L6",
+  "layout": "vertical",
+  "eyebrow": "Verdant Drop Earrings",
+  "index": "VIII · 06",
+  "x": 79,
+  "y": 11,
+  "lines": [
+   "The shadows climb."
+  ],
+  "size": 92,
+  "note": "The line is set climbing because the frame's shadows climb."
+ },
+ {
+  "id": "N07",
+  "frame": "L7",
+  "layout": "swap",
+  "eyebrow": "Clover Trio Edit",
+  "ground": "#EDE3F2",
+  "top": 40,
+  "capdy": 45.5,
+  "tyy": 13,
+  "crops": [
+   [
+    0.235,
+    0.355,
+    0.625,
+    0.665
+   ],
+   [
+    0.545,
+    0.395,
+    0.935,
+    0.705
+   ]
+  ],
+  "caps": [
+   "A round hoop casts a clover",
+   "A clover casts a circle"
+  ],
+  "lines": [
+   "The shadows",
+   "swapped."
+  ],
+  "size": 82,
+  "note": "Two cells and an interchange mark: the idea is a swap, so the layout is a swap."
+ },
+ {
+  "id": "N08",
+  "frame": "L8",
+  "layout": "whisper",
+  "eyebrow": "Pearl Blossom Earrings · ₹1,299",
+  "y": 13,
+  "lines": [
+   "The pearls are the lamps."
+  ],
+  "size": 58,
+  "note": "The quiet beat. A set of twenty needs one ad that does almost nothing."
+ },
+ {
+  "id": "N09",
+  "frame": "L9",
+  "layout": "overprint",
+  "eyebrow": "Petite Pearl Chain · Naira VIII",
+  "x": 3.2,
+  "y": 6.5,
+  "lines": [
+   "Every shadow",
+   "is a pearl."
+  ],
+  "size": 136,
+  "note": "Poster scale, bleeding off the edge. Confidence, not decoration.",
+  "bleed": [
+   "L",
+   "R"
+  ]
+ },
+ {
+  "id": "N10",
+  "frame": "M1",
+  "layout": "margin",
+  "eyebrow": "Pearl Legacy Necklace",
+  "col": 44,
+  "sb": 34,
+  "pos": "45% 50%",
+  "lines": [
+   "It left",
+   "a record."
+  ],
+  "size": 74,
+  "spec": [
+   "A pearl's width above the chalk.",
+   "A dish printed for every pearl.",
+   "18K gold plated 316L steel  ·  ₹2,200"
+  ],
+  "note": "Magazine margin. The picture is a plate; the column is the caption."
+ },
+ {
+  "id": "N11",
+  "frame": "M2",
+  "layout": "bandtop",
+  "eyebrow": "Petal Pearl Drop Studs",
+  "index": "VI · 02",
+  "h": 28,
+  "ground": "#FFBDA8",
+  "pos": "50% 75%",
+  "lines": [
+   "It dyes the paper",
+   "it sits on."
+  ],
+  "size": 74,
+  "foot": "Damp blotting paper. Nothing added.",
+  "footColour": "#1A1614",
+  "logoMode": "ink",
+  "note": "Coral field. The only saturated creative in the set - it exists to break the pale run."
+ },
+ {
+  "id": "N12",
+  "frame": "M3",
+  "layout": "ticker",
+  "strip": "The texture writes",
+  "sh": 4.6,
+  "t1": 7,
+  "t2": 7,
+  "ty": 17,
+  "ly": 13.0,
+  "lines": [
+   "One roll.",
+   "Ten thousand dots."
+  ],
+  "size": 50,
+  "note": "The ring prints like a block, so the ad is set as printed matter.",
+  "bleed": [
+   "L",
+   "R"
+  ],
+  "lx": 80.8
+ },
+ {
+  "id": "N13",
+  "frame": "M4",
+  "layout": "zoom",
+  "eyebrow": "Pearl Reverie Bracelet",
+  "ty": 71,
+  "tw": 48,
+  "lines": [
+   "Half buried.",
+   "Still gold."
+  ],
+  "size": 70,
+  "ins": [
+   50,
+   58,
+   38
+  ],
+  "insCrop": [
+   0.255,
+   0.595,
+   0.445,
+   0.745
+  ],
+  "icap": "Detail · the wavy ring",
+  "leaders": [
+   [
+    46,
+    64,
+    10
+   ]
+  ],
+  "note": "Answers the question every jewellery shopper actually asks: how big is it really."
+ },
+ {
+  "id": "N14",
+  "frameL": "M5",
+  "frameR": "M6",
+  "frame": "M5",
+  "layout": "diptych",
+  "h": 78,
+  "posL": "83% 50%",
+  "posR": "28% 55%",
+  "capL": "Tissue, torn",
+  "capR": "Chalk, cleared",
+  "capColour": "#1A1614",
+  "lines": [
+   "Two materials,",
+   "two behaviours."
+  ],
+  "size": 62,
+  "ticks": [
+   "18K gold plated",
+   "316L steel",
+   "₹1,199"
+  ],
+  "note": "Two plates, one line. The only creative in the set that shows range."
+ },
+ {
+  "id": "N15",
+  "frame": "M7",
+  "layout": "side",
+  "eyebrow": "Toggle Link Chain",
+  "col": 38,
+  "toneBox": [
+   0.03,
+   0.03,
+   0.2,
+   0.2
+  ],
+  "v": 0.3,
+  "pos": "44% 50%",
+  "lines": [
+   "It cut its",
+   "own bed."
+  ],
+  "size": 60,
+  "sub": "A channel in blush wax, one impression per link.",
+  "price": "₹1,699",
+  "note": "Vertical panel. Nothing else in the set splits the canvas this way."
+ },
+ {
+  "id": "N16",
+  "frame": "M8",
+  "layout": "archw",
+  "eyebrow": "Blush Station Bracelet",
+  "index": "VI · 08",
+  "x": 12,
+  "t": 14,
+  "b": 22,
+  "r": 420,
+  "pos": "50% 100%",
+  "ty": 8.5,
+  "lines": [
+   "Every crease",
+   "points at it."
+  ],
+  "size": 64,
+  "price": "₹1,899",
+  "note": "An arch, because the frame is a fan. The silhouette does the work."
+ },
+ {
+  "id": "N17",
+  "frame": "M9",
+  "layout": "card",
+  "eyebrow": "Blush Cluster Ring",
+  "card": [
+   6,
+   5,
+   54,
+   34
+  ],
+  "lines": [
+   "Sunk to its",
+   "own depth."
+  ],
+  "size": 62,
+  "spec": [
+   "Stands head-first in soft chalk.",
+   "18K gold plated 316L steel"
+  ],
+  "price": "₹1,499",
+  "cta": "Shop rings",
+  "note": "A floating card, placed high - the one creative whose weight is at the top."
+ },
+ {
+  "id": "N18",
+  "frame": "M10",
+  "layout": "radial",
+  "eyebrow": "Clover Charm Necklace",
+  "c": [
+   65.5,
+   75.5
+  ],
+  "rd": 9,
+  "ty": 70,
+  "angles": [
+   95,
+   110,
+   125,
+   140,
+   155,
+   195,
+   210,
+   225,
+   240,
+   255,
+   270,
+   300,
+   330,
+   20,
+   45
+  ],
+  "stroke": "rgba(26,22,20,.26)",
+  "sw": 0.13,
+  "lines": [
+   "Everything folds",
+   "toward it."
+  ],
+  "size": 66,
+  "note": "Hairlines continue the folds the charm is already making. The graphic obeys the frame."
+ },
+ {
+  "id": "N19",
+  "layout": "poster",
+  "eyebrow": "Lilac Hour · nine plates",
+  "index": "NAIRA VIII",
+  "ground": "#E7DEF0",
+  "ty": 14,
+  "hy": 47,
+  "sy": 19.5,
+  "lines": [
+   "The light",
+   "misbehaves."
+  ],
+  "size": 150,
+  "dotFrames": [
+   [
+    "L5",
+    "45% 45%",
+    "The light came apart"
+   ],
+   [
+    "L6",
+    "30% 40%",
+    "The shadows climb"
+   ],
+   [
+    "L7",
+    "48% 58%",
+    "The shadows swapped"
+   ]
+  ],
+  "note": "No product at full size. The feed needs one flat beat or every image ad looks the same."
+ },
+ {
+  "id": "N20",
+  "layout": "ladder",
+  "eyebrow": "The whole ladder",
+  "ground": "#FFF8F5",
+  "ty": 8.5,
+  "by": 33,
+  "fy": 8,
+  "lines": [
+   "Every price,",
+   "in the open."
+  ],
+  "size": 104,
+  "rows": [
+   [
+    "Studs and dainty rings",
+    "₹899 – 1,499",
+    "M6",
+    "42% 62%"
+   ],
+   [
+    "Hoops, drops, statement rings",
+    "₹1,499 – 2,000",
+    "L6",
+    "32% 45%"
+   ],
+   [
+    "Chains and cuffs",
+    "₹1,499 – 2,200",
+    "M7",
+    "50% 40%"
+   ],
+   [
+    "Tennis and statement necklaces",
+    "₹2,000 – 2,900",
+    "L1",
+    "18% 50%"
+   ]
+  ],
+  "ticks": [
+   "18K gold plated",
+   "316L surgical steel",
+   "Non-tarnish",
+   "Waterproof"
+  ],
+  "cta": "Shop the collection",
+  "note": "Tyaani carries an offer in 0% of copy and ranks best of six. This is the anti-discount ad: no offer, total clarity."
+ },
+ {
+  "id": "N21",
+  "frame": "L1",
+  "layout": "numeral",
+  "eyebrow": "Naira · the floor price",
+  "index": "FROM",
+  "ground": "#FFF8F5",
+  "fig": "899",
+  "size": 400,
+  "x": 6.0,
+  "y": 16,
+  "bs": "1120px 1400px",
+  "bp": "-30px -980px",
+  "lines": [
+   "Where it starts."
+  ],
+  "sub": 60,
+  "ty": 43,
+  "fy": 8,
+  "ticks": [
+   "18K gold plated",
+   "316L steel",
+   "Non-tarnish",
+   "Waterproof"
+  ],
+  "note": "The floor price at poster scale, then the three pieces that actually sit at that end of the ladder - a price ad that answers the question it raises.",
+  "subline": "A floor price, not a sale price. It does not move.",
+  "sy": 21,
+  "dotFrames": [
+   [
+    "M6",
+    "42% 62%",
+    "Pearl Drop Studs",
+    "₹899"
+   ],
+   [
+    "L7",
+    "48% 58%",
+    "Clover Trio Edit",
+    "₹1,299"
+   ],
+   [
+    "M9",
+    "50% 55%",
+    "Blush Cluster Ring",
+    "₹1,499"
+   ]
+  ]
+ }
+]

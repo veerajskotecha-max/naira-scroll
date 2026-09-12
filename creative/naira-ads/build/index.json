@@ -1,0 +1,366 @@
+{
+ "set": "NAIRA · 21 paid-social creatives · 4:5",
+ "built_from": "VIII Lilac Hour (9 plates) + VI Soft Matter (10 plates)",
+ "architectures": 21,
+ "average_rating": 8.84,
+ "qa": "21/21 clean - block contrast >= 4.5:1 measured on rendered pixels, 6% side-safe, no clipped marks",
+ "creatives": [
+  {
+   "id": "N01",
+   "layout": "specimen",
+   "role": "brand · craft proof",
+   "rating": 8.6,
+   "frame": "L1",
+   "campaign": "Lilac Hour",
+   "product": "Riviere Eternal Necklace",
+   "sku": "YF7085-NEC",
+   "display": "Every stone brought its own sun.",
+   "price": "",
+   "note": "The piece fills the frame, so the sheet uses the two fields it leaves: the top band for the line, and the oval the necklace itself encloses for the count.",
+   "files": [
+    "ads_new/N01.png (1440x1800)",
+    "ads_new/N01_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N02",
+   "layout": "angled",
+   "role": "brand",
+   "rating": 9.0,
+   "frame": "L2",
+   "campaign": "Lilac Hour",
+   "product": "Marquise Layering Set",
+   "sku": "YF5244",
+   "display": "The chain holds two rooms apart.",
+   "price": "₹2,200",
+   "note": "The photograph's own bone/lilac border, extended into the graphic. Type lives in one room, the piece in the other.",
+   "files": [
+    "ads_new/N02.png (1440x1800)",
+    "ads_new/N02_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N03",
+   "layout": "band",
+   "role": "brand + proof",
+   "rating": 9.0,
+   "frame": "L3",
+   "campaign": "Lilac Hour",
+   "product": "Bold Nocturne Bracelet",
+   "sku": "YF5144-BRA",
+   "display": "The shadow runs on.",
+   "price": "",
+   "note": "The band is anchored to a dark the photograph already contains.",
+   "files": [
+    "ads_new/N03.png (1440x1800)",
+    "ads_new/N03_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N04",
+   "layout": "tray",
+   "role": "direct response",
+   "rating": 9.2,
+   "frame": "L4",
+   "campaign": "Lilac Hour",
+   "product": "Halo Curve Ring",
+   "sku": "YF8453",
+   "display": "Two stones, one ring.",
+   "price": "₹1,799",
+   "note": "Direct response. Picture on top, paper tray doing the selling.",
+   "files": [
+    "ads_new/N04.png (1440x1800)",
+    "ads_new/N04_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N05",
+   "layout": "circle",
+   "role": "brand",
+   "rating": 8.7,
+   "frame": "L5",
+   "campaign": "Lilac Hour",
+   "product": "Verdant Circlet Studs",
+   "sku": "FE02847B",
+   "display": "The light came apart.",
+   "price": "",
+   "note": "Porthole. A different silhouette in the grid before anyone reads a word.",
+   "files": [
+    "ads_new/N05.png (1440x1800)",
+    "ads_new/N05_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N06",
+   "layout": "vertical",
+   "role": "brand",
+   "rating": 9.3,
+   "frame": "L6",
+   "campaign": "Lilac Hour",
+   "product": "Verdant Drop Earrings",
+   "sku": "E21572E1",
+   "display": "The shadows climb.",
+   "price": "",
+   "note": "The line is set climbing because the frame's shadows climb.",
+   "files": [
+    "ads_new/N06.png (1440x1800)",
+    "ads_new/N06_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N07",
+   "layout": "swap",
+   "role": "demonstration",
+   "rating": 8.5,
+   "frame": "L7",
+   "campaign": "Lilac Hour",
+   "product": "Clover Trio Edit",
+   "sku": "JDE0201327",
+   "display": "The shadows swapped.",
+   "price": "",
+   "note": "Two cells and an interchange mark: the idea is a swap, so the layout is a swap.",
+   "files": [
+    "ads_new/N07.png (1440x1800)",
+    "ads_new/N07_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N08",
+   "layout": "whisper",
+   "role": "brand (quiet beat)",
+   "rating": 7.8,
+   "frame": "L8",
+   "campaign": "Lilac Hour",
+   "product": "Pearl Blossom Earrings",
+   "sku": "E20997C",
+   "display": "The pearls are the lamps.",
+   "price": "₹1,299",
+   "note": "The quiet beat. A set of twenty needs one ad that does almost nothing.",
+   "files": [
+    "ads_new/N08.png (1440x1800)",
+    "ads_new/N08_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N09",
+   "layout": "overprint",
+   "role": "thumbstop",
+   "rating": 9.4,
+   "frame": "L9",
+   "campaign": "Lilac Hour",
+   "product": "Petite Pearl Chain",
+   "sku": "YF-DIYChain",
+   "display": "Every shadow is a pearl.",
+   "price": "",
+   "note": "Poster scale, bleeding off the edge. Confidence, not decoration.",
+   "files": [
+    "ads_new/N09.png (1440x1800)",
+    "ads_new/N09_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N10",
+   "layout": "margin",
+   "role": "brand · editorial",
+   "rating": 8.4,
+   "frame": "M1",
+   "campaign": "Soft Matter",
+   "product": "Pearl Legacy Necklace",
+   "sku": "YF3925-NEC",
+   "display": "It left a record.",
+   "price": "Pearl Legacy Necklace",
+   "note": "Magazine margin. The picture is a plate; the column is the caption.",
+   "files": [
+    "ads_new/N10.png (1440x1800)",
+    "ads_new/N10_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N11",
+   "layout": "bandtop",
+   "role": "demonstration",
+   "rating": 9.1,
+   "frame": "M2",
+   "campaign": "Soft Matter",
+   "product": "Petal Pearl Drop Studs",
+   "sku": "E19269B",
+   "display": "It dyes the paper it sits on.",
+   "price": "",
+   "note": "Coral field. The only saturated creative in the set - it exists to break the pale run.",
+   "files": [
+    "ads_new/N11.png (1440x1800)",
+    "ads_new/N11_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N12",
+   "layout": "ticker",
+   "role": "brand · craft proof",
+   "rating": 8.9,
+   "frame": "M3",
+   "campaign": "Soft Matter",
+   "product": "Granule Dome Ring",
+   "sku": "JDR0104337",
+   "display": "One roll. Ten thousand dots.",
+   "price": "",
+   "note": "The ring prints like a block, so the ad is set as printed matter.",
+   "files": [
+    "ads_new/N12.png (1440x1800)",
+    "ads_new/N12_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N13",
+   "layout": "zoom",
+   "role": "actual size",
+   "rating": 8.8,
+   "frame": "M4",
+   "campaign": "Soft Matter",
+   "product": "Pearl Reverie Bracelet",
+   "sku": "JDB2409013",
+   "display": "Half buried. Still gold.",
+   "price": "",
+   "note": "Answers the question every jewellery shopper actually asks: how big is it really.",
+   "files": [
+    "ads_new/N13.png (1440x1800)",
+    "ads_new/N13_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N14",
+   "layout": "diptych",
+   "role": "range",
+   "rating": 8.6,
+   "frame": "M5",
+   "campaign": "Soft Matter",
+   "product": "Brushed Gold Huggies",
+   "sku": "E14776S",
+   "display": "Two materials, two behaviours.",
+   "price": "₹1,199",
+   "note": "Two plates, one line. The only creative in the set that shows range.",
+   "files": [
+    "ads_new/N14.png (1440x1800)",
+    "ads_new/N14_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N15",
+   "layout": "side",
+   "role": "brand + price",
+   "rating": 8.3,
+   "frame": "M7",
+   "campaign": "Soft Matter",
+   "product": "Toggle Link Chain",
+   "sku": "YF5143",
+   "display": "It cut its own bed.",
+   "price": "₹1,699",
+   "note": "Vertical panel. Nothing else in the set splits the canvas this way.",
+   "files": [
+    "ads_new/N15.png (1440x1800)",
+    "ads_new/N15_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N16",
+   "layout": "archw",
+   "role": "brand + price",
+   "rating": 9.0,
+   "frame": "M8",
+   "campaign": "Soft Matter",
+   "product": "Blush Station Bracelet",
+   "sku": "JDB0103317-PK",
+   "display": "Every crease points at it.",
+   "price": "₹1,899",
+   "note": "An arch, because the frame is a fan. The silhouette does the work.",
+   "files": [
+    "ads_new/N16.png (1440x1800)",
+    "ads_new/N16_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N17",
+   "layout": "card",
+   "role": "direct response",
+   "rating": 8.7,
+   "frame": "M9",
+   "campaign": "Soft Matter",
+   "product": "Blush Cluster Ring",
+   "sku": "WR10914B2",
+   "display": "Sunk to its own depth.",
+   "price": "₹1,499",
+   "note": "A floating card, placed high - the one creative whose weight is at the top.",
+   "files": [
+    "ads_new/N17.png (1440x1800)",
+    "ads_new/N17_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N18",
+   "layout": "radial",
+   "role": "brand",
+   "rating": 8.8,
+   "frame": "M10",
+   "campaign": "Soft Matter",
+   "product": "Clover Charm Necklace",
+   "sku": "YF6618",
+   "display": "Everything folds toward it.",
+   "price": "",
+   "note": "Hairlines continue the folds the charm is already making. The graphic obeys the frame.",
+   "files": [
+    "ads_new/N18.png (1440x1800)",
+    "ads_new/N18_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N19",
+   "layout": "poster",
+   "role": "brand poster",
+   "rating": 9.0,
+   "frame": "+",
+   "campaign": "",
+   "product": "",
+   "sku": "",
+   "display": "The light misbehaves.",
+   "price": "",
+   "note": "No product at full size. The feed needs one flat beat or every image ad looks the same.",
+   "files": [
+    "ads_new/N19.png (1440x1800)",
+    "ads_new/N19_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N20",
+   "layout": "ladder",
+   "role": "direct response · anti-discount",
+   "rating": 9.2,
+   "frame": "+",
+   "campaign": "",
+   "product": "",
+   "sku": "",
+   "display": "Every price, in the open.",
+   "price": "The whole ladder",
+   "note": "Tyaani carries an offer in 0% of copy and ranks best of six. This is the anti-discount ad: no offer, total clarity.",
+   "files": [
+    "ads_new/N20.png (1440x1800)",
+    "ads_new/N20_1080.png (1080x1350)"
+   ]
+  },
+  {
+   "id": "N21",
+   "layout": "numeral",
+   "role": "direct response · price floor",
+   "rating": 9.3,
+   "frame": "L1",
+   "campaign": "Lilac Hour",
+   "product": "Riviere Eternal Necklace",
+   "sku": "YF7085-NEC",
+   "display": "Where it starts.",
+   "price": "the floor price",
+   "note": "The floor price at poster scale, then the three pieces that actually sit at that end of the ladder - a price ad that answers the question it raises.",
+   "files": [
+    "ads_new/N21.png (1440x1800)",
+    "ads_new/N21_1080.png (1080x1350)"
+   ]
+  }
+ ]
+}
