@@ -1,0 +1,118 @@
+{
+ "counts": {
+  "theirTotal": 9005,
+  "theirDemifine": 6600,
+  "theirPeers": 6007,
+  "ourJewellery": 55,
+  "ourCouture": 18,
+  "ourOOS": 16
+ },
+ "ourMedianList": 1499,
+ "pools": {
+  "bogo": 2229,
+  "two": 1111,
+  "four": 1111
+ },
+ "bands": {
+  "RING": {
+   "ours": {
+    "n": 13,
+    "p25": 999,
+    "median": 1199,
+    "p75": 1499
+   },
+   "theirs": {
+    "n": 722,
+    "p25": 1199,
+    "median": 2099,
+    "p75": 2651
+   }
+  },
+  "EARRINGS": {
+   "ours": {
+    "n": 15,
+    "p25": 1300,
+    "median": 1499,
+    "p75": 1599
+   },
+   "theirs": {
+    "n": 1754,
+    "p25": 1199,
+    "median": 2229,
+    "p75": 2798
+   }
+  },
+  "BRACELET": {
+   "ours": {
+    "n": 12,
+    "p25": 1249,
+    "median": 1599,
+    "p75": 1900
+   },
+   "theirs": {
+    "n": 1165,
+    "p25": 1111,
+    "median": 2029,
+    "p75": 2729
+   }
+  },
+  "NECKLACE": {
+   "ours": {
+    "n": 14,
+    "p25": 1499,
+    "median": 1599,
+    "p75": 1799
+   },
+   "theirs": {
+    "n": 1645,
+    "p25": 1199,
+    "median": 2169,
+    "p75": 2659
+   }
+  },
+  "SET": {
+   "ours": {
+    "n": 1,
+    "p25": 1199,
+    "median": 1199,
+    "p75": 1199
+   },
+   "theirs": {
+    "n": 721,
+    "p25": 1998,
+    "median": 2266,
+    "p75": 2998
+   }
+  }
+ },
+ "perPiece": [
+  {
+   "basket": 1,
+   "ours": 1499,
+   "bogo": 2229,
+   "two": 1111,
+   "four": 1111
+  },
+  {
+   "basket": 2,
+   "ours": 1349,
+   "bogo": 1115,
+   "two": 950,
+   "four": 1111
+  },
+  {
+   "basket": 3,
+   "ours": 1349,
+   "bogo": 1486,
+   "two": 1003,
+   "four": 1111
+  },
+  {
+   "basket": 4,
+   "ours": 1349,
+   "bogo": 1115,
+   "two": 950,
+   "four": 750
+  }
+ ]
+}
