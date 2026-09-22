@@ -1,0 +1,435 @@
+{
+ "generated": "2026-09-22",
+ "palmonas": {
+  "products": 9005,
+  "variants": 20742,
+  "demifine": 6600,
+  "demifinePeers": 6007,
+  "bestsellers": 373,
+  "bestsellersDemifine": 358,
+  "soldOutDemifine": 0.42,
+  "soldOutByCategory": {
+   "Rings": 42,
+   "Earrings": 46,
+   "Bracelets": 45,
+   "Necklaces": 49,
+   "Sets": 15
+  },
+  "soldOutByBand": [
+   {
+    "band": "0-1,000",
+    "skus": 752,
+    "soldOut": 25,
+    "ourLive": 7,
+    "ourAudit": 0
+   },
+   {
+    "band": "1,000-1,500",
+    "skus": 1644,
+    "soldOut": 56,
+    "ourLive": 27,
+    "ourAudit": 18
+   },
+   {
+    "band": "1,500-2,000",
+    "skus": 485,
+    "soldOut": 19,
+    "ourLive": 18,
+    "ourAudit": 33
+   },
+   {
+    "band": "2,000-2,500",
+    "skus": 1662,
+    "soldOut": 43,
+    "ourLive": 3,
+    "ourAudit": 25
+   },
+   {
+    "band": "2,500-3,000",
+    "skus": 805,
+    "soldOut": 37,
+    "ourLive": 0,
+    "ourAudit": 9
+   },
+   {
+    "band": "3,000-4,000",
+    "skus": 997,
+    "soldOut": 44,
+    "ourLive": 0,
+    "ourAudit": 0
+   },
+   {
+    "band": "4,000+",
+    "skus": 255,
+    "soldOut": 54,
+    "ourLive": 0,
+    "ourAudit": 0
+   }
+  ],
+  "cadenceByMonth": {
+   "2025-04": 193,
+   "2025-05": 326,
+   "2025-06": 799,
+   "2025-07": 194,
+   "2025-08": 222,
+   "2025-09": 81,
+   "2025-10": 231,
+   "2025-11": 111,
+   "2025-12": 608,
+   "2026-01": 578,
+   "2026-02": 261,
+   "2026-03": 104,
+   "2026-04": 573,
+   "2026-05": 694,
+   "2026-06": 35,
+   "2026-07": 45,
+   "2026-08": 56,
+   "2026-09": 83
+  },
+  "motifs": [
+   {
+    "motif": "Heart",
+    "share": 16.5,
+    "soldOut": 33
+   },
+   {
+    "motif": "Chain / link",
+    "share": 15.7,
+    "soldOut": 43
+   },
+   {
+    "motif": "Pearl",
+    "share": 9.7,
+    "soldOut": 39
+   },
+   {
+    "motif": "Hoop",
+    "share": 9.6,
+    "soldOut": 47
+   },
+   {
+    "motif": "CZ / crystal",
+    "share": 7.9,
+    "soldOut": 47
+   },
+   {
+    "motif": "Layered",
+    "share": 5.3,
+    "soldOut": 36
+   },
+   {
+    "motif": "Star / moon",
+    "share": 4.4,
+    "soldOut": 42
+   },
+   {
+    "motif": "Flower / floral",
+    "share": 4.0,
+    "soldOut": 49
+   },
+   {
+    "motif": "Halo / solitaire",
+    "share": 3.0,
+    "soldOut": 43
+   },
+   {
+    "motif": "Emerald / green",
+    "share": 2.4,
+    "soldOut": 56
+   },
+   {
+    "motif": "Butterfly",
+    "share": 1.6,
+    "soldOut": 34
+   },
+   {
+    "motif": "Bow",
+    "share": 1.5,
+    "soldOut": 28
+   },
+   {
+    "motif": "Snake",
+    "share": 1.4,
+    "soldOut": 44
+   },
+   {
+    "motif": "Chandbali / ethnic",
+    "share": 0.8,
+    "soldOut": 60
+   },
+   {
+    "motif": "Leaf / vine",
+    "share": 0.6,
+    "soldOut": 60
+   },
+   {
+    "motif": "Enamel",
+    "share": 0.4,
+    "soldOut": 73
+   },
+   {
+    "motif": "Clover",
+    "share": 0.2,
+    "soldOut": 64
+   },
+   {
+    "motif": "Baguette",
+    "share": 0.2,
+    "soldOut": 80
+   }
+  ],
+  "claims": {
+   "stainless": 60.9,
+   "18k": 51.0,
+   "tarnish": 27.3,
+   "anti-tarnish": 19.9,
+   "waterproof": 19.4,
+   "warranty": 6.7,
+   "lifetime": 6.3
+  },
+  "ipAdjacent": {
+   "Cartier Love screw bangle": 19,
+   "Van Cleef Alhambra clover": 14,
+   "Cartier Juste un Clou nail": 10,
+   "Tiffany T / HardWear / knot": 8,
+   "Bvlgari Serpenti / B.zero": 5
+  },
+  "gold": {
+   "skus": 920,
+   "floor": 5276,
+   "earringsFloor": 5878,
+   "median": 32397
+  },
+  "demifineCeiling": {
+   "p90": 3499,
+   "p95": 3779,
+   "p99": 5494
+  },
+  "bundles": {
+   "Buy1Get1": 842,
+   "B2FOR1899": 1101,
+   "B4FOR2999": 1547,
+   "B242222": 790,
+   "bothB2andB4": 545
+  },
+  "marketing": [
+   "Shraddha Kapoor as face on product pages",
+   "Emily in Paris licensed line",
+   "In Style with Tanya Ghavri stylist collab",
+   "Amazon / CRED / GPay exclusive flat 40-50% and Buy 2 Get 3 Free collections"
+  ]
+ },
+ "naira": {
+  "live": {
+   "n": 55,
+   "mean": 7.24,
+   "photo": 7.4,
+   "tiers": {
+    "Strong": 41,
+    "Hero": 3,
+    "Viable": 11
+   }
+  },
+  "audit": {
+   "n": 85,
+   "mean": 6.2,
+   "photo": 7.22,
+   "tiers": {
+    "Viable": 38,
+    "Strong": 39,
+    "Weak": 7,
+    "Exclude": 1
+   },
+   "distinct": 51,
+   "raw": 8
+  },
+  "capsule": {
+   "n": 7,
+   "mean": 6.29,
+   "photo": 9,
+   "tiers": {
+    "Viable": 4,
+    "Strong": 3
+   }
+  },
+  "pairs": {
+   "n": 55,
+   "cheaperList": 26,
+   "dearer2": 28,
+   "cheaper2": 24,
+   "medGapList": 0,
+   "medGap2": 4,
+   "theirSO": 6,
+   "ourMean": 7.24,
+   "theirMean": 6.84,
+   "ourHigher": 19,
+   "theirHigher": 6,
+   "theirIP": 5,
+   "theirLic": 3,
+   "anyBundle": 42,
+   "dearer4": 41,
+   "cheaper4": 13,
+   "medGap4": 32,
+   "b4count": 33
+  }
+ },
+ "capsule": [
+  {
+   "handle": "zircone-solitaire",
+   "name": "The Zircone Solitaire",
+   "cat": "Rings",
+   "price": 4500,
+   "rating": 5,
+   "photo": 9,
+   "why": "A round solitaire is a nine motif, but Rs 4,500 plated sits above every demi-fine p95 and Rs 800 under Palmonas' cheapest 9kt gold lab-diamond piece; the shopper compares it to real gold.",
+   "flag": "price band",
+   "pnote": "Beautiful render; reads as fine jewellery, but no skin or scale reference anywhere.",
+   "demi": {
+    "t": "Ethereal Prism Solitaire Ring",
+    "price": 3289.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/ethereal-prism-solitaire-ring-41839"
+   },
+   "gold": {
+    "t": "Round Solitaire 9KT Gold Laboratory Grown Diamond Ring",
+    "price": 24961.38,
+    "url": "https://www.palmonas.com/products/round-solitaire-9kt-gold-lab-grown-diamond-ring-72998"
+   },
+   "ceiling": 3289.0
+  },
+  {
+   "handle": "zircone-halo-studs",
+   "name": "Zircone Halo Studs",
+   "cat": "Earrings",
+   "price": 3600,
+   "rating": 6,
+   "photo": 9,
+   "why": "Halo studs are the default gift stud; Rs 3,600 is above their earring p75 of Rs 2,785 but still clearly under gold.",
+   "flag": "price band",
+   "pnote": "Crisp; halo reads.",
+   "demi": {
+    "t": "Golden Halo Spark Hoop Earrings",
+    "price": 2449.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/golden-halo-spark-hoop-earrings-26225"
+   },
+   "gold": {
+    "t": "Classy Halo 9KT Gold Laboratory Grown Diamond Stud Earrings",
+    "price": 16572.53,
+    "url": "https://www.palmonas.com/products/classy-halo-9kt-gold-lab-grown-diamond-stud-earrings-40835"
+   },
+   "ceiling": 2449.0
+  },
+  {
+   "handle": "marigold-signet-ring",
+   "name": "Marigold Signet Ring",
+   "cat": "Rings",
+   "price": 3900,
+   "rating": 6,
+   "photo": 9,
+   "why": "A textured marigold with a blush stone is the most brand-defining piece in the capsule; floral sells out 49 percent at Palmonas, but Rs 3,900 is nearly double their floral median.",
+   "flag": "price band",
+   "pnote": "Texture is superb; a hand shot would fix the scale question.",
+   "demi": {
+    "t": "Flower Statement Ring",
+    "price": 3452.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/flower-statement-ring-49389"
+   },
+   "gold": {
+    "t": "Bloom Cluster 9KT Gold Laboratory Grown Diamond Ring",
+    "price": 15761.44,
+    "url": "https://www.palmonas.com/products/bloom-cluster-9kt-gold-lab-grown-diamond-ring-23521"
+   },
+   "ceiling": 3452.0
+  },
+  {
+   "handle": "sage-vine-band",
+   "name": "Sage Vine Band",
+   "cat": "Rings",
+   "price": 3200,
+   "rating": 7,
+   "photo": 9,
+   "why": "Leaf and vine pieces have the highest sell-through of any motif at Palmonas at 60 percent, on only 44 SKUs; demand exceeds supply and this is the capsule's entry ring.",
+   "flag": "",
+   "pnote": "Delicate; reads well.",
+   "demi": {
+    "t": "Olive Mist Marquise Elegance Ring",
+    "price": 3009.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/olivemist-marquise-elegance-ring-77666"
+   },
+   "gold": {
+    "t": "Divine Rift 9KT Gold Laboratory Grown Diamond Ring",
+    "price": 28238.19,
+    "url": "https://www.palmonas.com/products/divine-rift-lab-grown-diamond-customizable-ring-54512"
+   },
+   "ceiling": 3009.0
+  },
+  {
+   "handle": "pressed-petal-drops",
+   "name": "Pressed Petal Drops",
+   "cat": "Earrings",
+   "price": 4800,
+   "rating": 6,
+   "photo": 9,
+   "why": "Real pressed flowers in resin is a format Palmonas does not carry at all; distinctive and giftable, but Rs 4,800 and resin-durability questions narrow the buyer.",
+   "flag": "price band; durability perception",
+   "pnote": "Petal detail is the story; the render tells it.",
+   "demi": {
+    "t": "Golden Sunflower Stud Earrings",
+    "price": 4595.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/golden-sunflower-stud-earrings-20480"
+   },
+   "gold": {
+    "t": "Floral Whimsy 9KT Gold Laboratory Grown Diamond Stud Earring",
+    "price": 7903.36,
+    "url": "https://www.palmonas.com/products/floral-whimsy-lab-grown-diamond-customizable-stud-earring-71147"
+   },
+   "ceiling": 4595.0
+  },
+  {
+   "handle": "bloom-studs",
+   "name": "Bloom Studs",
+   "cat": "Earrings",
+   "price": 2900,
+   "rating": 7,
+   "photo": 9,
+   "why": "Daisy studs with a sage cabochon; a daisy necklace sits in Palmonas' bestseller list, and at Rs 2,900 this is the capsule's most accessible piece.",
+   "flag": "",
+   "pnote": "Clean.",
+   "demi": {
+    "t": "Golden Blossoms Stud Earrings",
+    "price": 2875.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/golden-blossoms-stud-earrings-60202"
+   },
+   "gold": {
+    "t": "Floral Whimsy 9KT Gold Laboratory Grown Diamond Stud Earring",
+    "price": 7903.36,
+    "url": "https://www.palmonas.com/products/floral-whimsy-lab-grown-diamond-customizable-stud-earring-71147"
+   },
+   "ceiling": 4595.0
+  },
+  {
+   "handle": "chandbali-florale",
+   "name": "Chandbali Florale",
+   "cat": "Earrings",
+   "price": 5600,
+   "rating": 7,
+   "photo": 9,
+   "why": "Palmonas has one chandbali in demi-fine and it is sold out; their ethnic pieces sell out 60 percent at a Rs 3,709 median. An underserved pocket, and this owns it, if Rs 5,600 holds.",
+   "flag": "price band",
+   "pnote": "Filigree reads; would sing on a model.",
+   "demi": {
+    "t": "Golden Chandelier Earrings",
+    "price": 2346.0,
+    "avail": true,
+    "url": "https://www.palmonas.com/products/golden-chandelier-earrings"
+   },
+   "gold": null,
+   "ceiling": 2346.0
+  }
+ ]
+}
