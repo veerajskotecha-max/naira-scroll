@@ -60,3 +60,56 @@ Pair = ₹3,648 → **₹3,283**.
 **Ananya's register is unknown.** These are written warm, plain and slightly dry. With the previous
 creator, guessing the register from nothing produced six tonally wrong concepts. Two or three of her
 recent reels would let the wording be tuned; the structures hold either way.
+
+---
+
+# Review-reel version (24 Sep)
+
+`../NAIRA_Ananya_Review-Reel_Script.pdf` — 2 pages. The brief was reframed as an **honest review
+reel** rather than three concept pitches. `r.html` + `s.css` are the source.
+
+## The one thing that makes a review work
+
+**It has to contain something genuinely negative.** A review that praises everything is an ad
+wearing a review's clothes, and viewers read that instantly. So the reel opens on the flaw:
+
+> *"I'll start with what I don't like."*
+
+Nobody in Indian jewellery opens with a negative, which is exactly why it buys the next thirty
+seconds. It is also the best-evidenced device available — Bernbach's flaw-admission (*Lemon*),
+and the objection-first family that ran 15–25% lower CAC than benefit-led hooks across 52 DTC
+accounts on cold traffic.
+
+**Two negatives, not one.** One reads as a token concession; two reads as an actual opinion.
+
+## Structure (33s)
+
+| | |
+|---|---|
+| 0.5–13.4 | Two honest negatives — the open-back ring, the shell pearl |
+| 13.4 | The pivot is a **hard cut**, not a line. No "but anyway", no "now the good part" |
+| 13.8–25.2 | Mismatched stones · the tiger eye's chatoyancy · the slider · the spec |
+| 28.4 | Prices |
+| 31.2 | **A real verdict**: *"Necklace I'd buy again. Ring if you like things a bit odd."* |
+
+The verdict is deliberately uneven. A review that recommends both pieces equally is not a review.
+
+## The four negatives (page 2)
+
+She picks the two that are actually true for her:
+
+- **A** — open-back ring, fits US 6–8, "you notice it for a day". *Doubles as the sizing answer,
+  which is the biggest blocker on buying a ring online.*
+- **B** — shell pearl, not a sea pearl. *Lands the brand's honesty position in one line.*
+- **C** — 1.5mm chain is fine. *Filters out the buyer who'd have returned it.*
+- **D** — only US 6 ships today. *Verify on the ring page before recording.*
+
+## Three to confirm
+
+1. **How long has she had them?** A review implies ownership. Nothing in the script claims wear
+   time — if it is days, have her say *"I've had these about a week."* A first-impressions review is
+   honest and credible; an implied long-term one is neither.
+2. **Is the tiger eye genuinely natural?** The PDP says so, it is the best line in the reel, and it
+   is the one claim a rival could challenge.
+3. **`BUY2` is 10% on the site**, 20% in the brief. The card uses ten, because that is what the bag
+   applies.
