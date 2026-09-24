@@ -1,5 +1,30 @@
 # FINAL — "I almost didn't order it"
 
+> **Prices moved on 24 Sep 2026.** The current creator card is
+> `s.html` → `../NAIRA_Script_I-Almost-Didnt-Order-It_UPDATED.pdf` — a readable one-page script
+> table. The older dense one-pager (`one.html`) still states ₹1,999 and "+₹150 delivered" and is
+> **superseded**. See "What changed" below.
+
+## What changed on 24 Sep
+
+| | Was | Now |
+|---|---|---|
+| Bold Nocturne Bracelet | ₹1,999 | **₹1,599** (MRP ₹3,200, 50% off) |
+| Charm Box Chain | ₹2,149 | **₹1,599** (MRP ₹3,309, 52% off) |
+| Shipping | ₹150 insured | **Free insured shipping** |
+| Pair offer | briefed as 20% | site says **BUY2 = 10%** → pair ₹2,878 |
+
+Three script lines changed as a result: *"Two thousand rupees…"* → *"Sixteen hundred rupees…"*,
+*"Nineteen ninety-nine. One-fifty delivered."* → *"Fifteen ninety-nine. Free delivery."*, and the
+offer beat now says ten percent rather than twenty.
+
+**The offer percentage is unresolved.** The brief said 20%; the live PDPs say `BUY2` = 10% and
+`BUY3` = 20%. The card uses **10%**, because that is what the customer's bag will actually apply —
+quoting 20% and delivering 10% is the drip-pricing exposure. Confirm and reissue if the site is wrong.
+
+---
+
+
 `../NAIRA_FINAL_Script_I-Almost-Didnt-Order-It.pdf` — one page, A4. The locked shooting script.
 
 29.0s · 9:16 · 71 words · ~2.7 w/sec · 10 beats · clean room, window light, tripod ·
