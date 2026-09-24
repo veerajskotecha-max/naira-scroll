@@ -1,0 +1,1930 @@
+<title>Veeraj Vitals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Dark-first. Light palette below under prefers-color-scheme: light and [data-theme=light]. */
+:root{
+  color-scheme:dark;
+  --bg:#080B0F; --bg2:#0C1117; --card:#11161C; --card2:#171E26; --ink:#EAF1F4; --muted:#8C99A6; --line:#222B35; --track:#26303B;
+  --good:#36D07F; --watch:#F5B83D; --alert:#FF6A5C; --info:#8C99A6;
+  --good-bg:#12301F; --watch-bg:#35290F; --alert-bg:#3A1715; --info-bg:#1C242D;
+  --d-sleep:#6FA8FF; --d-move:#FF7A55; --d-fuel:#F2B544; --d-mind:#A594FF; --d-rec:#2FD3B5;
+  --acc:#2FD3B5; --acc-ink:#04221C; --glow:.55;
+  --c-milk:#7DB4E6; --c-powder:#B58AD9; --c-bread:#DDA766; --c-avocado:#9ACB55; --c-walnut:#B08561;
+  --c-soya:#F2C14E; --c-epigamia:#4CC9C4; --c-chana:#E07A5F; --c-eggs:#EFD35A; --c-fruitveg:#F06A8C;
+  --c-meals:#6F7885; --c-gummies:#F4A6C4; --c-protein:#35C8DC; --c-carbs:#F2C14E; --c-fat:#B58AD9;
+  --font:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  --disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    color-scheme:light;
+    --bg:#EEF1F3; --bg2:#E4E9EC; --card:#FFFFFF; --card2:#F4F6F8; --ink:#0C1216; --muted:#55616C; --line:#DCE2E7; --track:#E3E8EC;
+    --good:#138A45; --watch:#B37200; --alert:#D2392F; --info:#55616C;
+    --good-bg:#E0F3E8; --watch-bg:#FAEED4; --alert-bg:#FBE2DF; --info-bg:#EAEEF1;
+    --d-sleep:#2F6FD6; --d-move:#D9512C; --d-fuel:#B7800F; --d-mind:#6B55E0; --d-rec:#0F8C76;
+    --acc:#0F8C76; --acc-ink:#FFFFFF; --glow:.25;
+    --c-milk:#4F92CF; --c-powder:#8B57B3; --c-bread:#BD8646; --c-avocado:#6A962A; --c-walnut:#7A5234;
+    --c-soya:#DDA020; --c-epigamia:#27A09C; --c-chana:#B14E36; --c-eggs:#CFAE17; --c-fruitveg:#D0456A;
+    --c-meals:#98A1AC; --c-gummies:#E589AC; --c-protein:#1496AB; --c-carbs:#DDA020; --c-fat:#8B57B3;
+  }
+}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#EEF1F3; --bg2:#E4E9EC; --card:#FFFFFF; --card2:#F4F6F8; --ink:#0C1216; --muted:#55616C; --line:#DCE2E7; --track:#E3E8EC;
+  --good:#138A45; --watch:#B37200; --alert:#D2392F; --info:#55616C;
+  --good-bg:#E0F3E8; --watch-bg:#FAEED4; --alert-bg:#FBE2DF; --info-bg:#EAEEF1;
+  --d-sleep:#2F6FD6; --d-move:#D9512C; --d-fuel:#B7800F; --d-mind:#6B55E0; --d-rec:#0F8C76;
+  --acc:#0F8C76; --acc-ink:#FFFFFF; --glow:.25;
+  --c-milk:#4F92CF; --c-powder:#8B57B3; --c-bread:#BD8646; --c-avocado:#6A962A; --c-walnut:#7A5234;
+  --c-soya:#DDA020; --c-epigamia:#27A09C; --c-chana:#B14E36; --c-eggs:#CFAE17; --c-fruitveg:#D0456A;
+  --c-meals:#98A1AC; --c-gummies:#E589AC; --c-protein:#1496AB; --c-carbs:#DDA020; --c-fat:#8B57B3;
+}
+:root[data-theme="dark"]{color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15.5px;line-height:1.45}
+a{color:inherit;text-underline-offset:2px}
+:focus-visible{outline:3px solid var(--c-protein);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px 40px}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.cond{font-stretch:76%;font-variation-settings:"wdth" 76}
+
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:10px 16px;flex-wrap:wrap;padding:22px 0 14px}
+.top h1{margin:0;font-size:36px;line-height:1;font-weight:900;font-stretch:72%;font-variation-settings:"wdth" 72;letter-spacing:-.01em}
+.top p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:700}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.hero{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:920px){.hero{grid-template-columns:430px 1fr}}
+.scorewrap{display:flex;flex-direction:column;align-items:center;gap:10px}
+.bigring{width:210px;height:210px;display:block}
+.bigring text{font-family:var(--font)}
+.subrings{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;width:100%}
+.subrings button{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px;border-radius:12px}
+.subrings button[aria-pressed=true]{background:var(--card2)}
+.subrings button:focus-visible{outline:3px solid var(--c-protein)}
+.subrings svg{width:84px;height:84px}
+.subrings b{font-size:13px}
+.contrib{width:100%;border-top:1px solid var(--line);padding-top:10px;font-size:13.5px}
+.contrib h3{margin:0 0 6px;font-size:14px}
+.contrib ul{list-style:none;margin:0;padding:0}
+.contrib li{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dashed var(--line)}
+.contrib li:last-child{border-bottom:0}
+.contrib .pos{color:var(--good);font-weight:700;white-space:nowrap} .contrib .neg{color:var(--alert);font-weight:700;white-space:nowrap}
+
+.coach h2{margin:0 0 4px;font-size:22px;font-weight:800}
+.coach>p{margin:0 0 12px;color:var(--muted);font-size:14px}
+.insights{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.insights li{display:grid;grid-template-columns:5px 1fr;gap:12px;background:var(--card2);border-radius:14px;padding:12px 14px 12px 0}
+.insights .bar{border-radius:0 4px 4px 0}
+.insights b{display:block;font-size:16px;line-height:1.3}
+.insights p{margin:4px 0 0;color:var(--muted);font-size:14.5px}
+.bar.alert{background:var(--alert)} .bar.watch{background:var(--watch)} .bar.good{background:var(--good)} .bar.info{background:var(--info)}
+
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+@media (min-width:720px){.kpis{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:1080px){.kpis{grid-template-columns:repeat(6,1fr)}}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+.kpi .l{font-size:12.5px;color:var(--muted);font-weight:600}
+.kpi .v{font-size:30px;font-weight:800;line-height:1.05;margin-top:4px;font-stretch:76%;font-variation-settings:"wdth" 76;font-variant-numeric:tabular-nums}
+.kpi .v small{font-size:14px;font-weight:600;color:var(--muted);font-stretch:100%;font-variation-settings:"wdth" 100}
+.kpi .s{font-size:12.5px;color:var(--muted);margin-top:2px}
+.mini{height:6px;background:var(--track);border-radius:9px;margin-top:8px;position:relative;overflow:visible}
+.mini i{position:absolute;left:0;top:0;bottom:0;border-radius:9px}
+.mini em{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--alert)}
+
+section.sec{margin-top:26px}
+.sechead{display:flex;justify-content:space-between;align-items:baseline;gap:6px 16px;flex-wrap:wrap;margin-bottom:10px}
+.sechead h2{margin:0;font-size:22px;font-weight:800;line-height:1.15}
+.sechead p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+
+details.settings{background:var(--card);border:1px solid var(--line);border-radius:18px;margin-top:14px}
+details.settings>summary{cursor:pointer;list-style:none;padding:14px 16px;font-weight:800;font-size:16px;display:flex;justify-content:space-between;align-items:center}
+details.settings>summary::-webkit-details-marker{display:none}
+details.settings>summary::after{content:"+";font-size:22px;font-weight:600;color:var(--muted)}
+details.settings[open]>summary::after{content:"−"}
+.controls{display:grid;gap:14px;grid-template-columns:1fr;padding:0 16px 16px}
+@media (min-width:900px){.controls{grid-template-columns:1fr 1.2fr 1fr}}
+.panel{background:var(--card2);border-radius:14px;padding:14px}
+.panel h3{margin:0 0 10px;font-size:15px}
+.field{margin-bottom:12px}
+.field:last-child{margin-bottom:0}
+.field label,.field .fl{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;font-weight:600;margin-bottom:5px}
+.field output{font-weight:800;font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--c-protein);height:26px;margin:0}
+select{width:100%;font:inherit;font-size:14.5px;padding:8px 10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px}
+.seg{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+.seg label{flex:1;margin:0;display:block;font-size:13.5px;font-weight:600;cursor:pointer}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg span{display:block;text-align:center;padding:8px 4px;border-left:1px solid var(--line)}
+.seg label:first-child span{border-left:0}
+.seg input:checked+span{background:var(--ink);color:var(--card)}
+.seg input:focus-visible+span{outline:3px solid var(--c-protein);outline-offset:-3px}
+.toggle{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
+.toggle:first-of-type{border-top:0}
+.toggle input{width:19px;height:19px;accent-color:var(--c-protein);margin:2px 0 0}
+.toggle b{display:block;font-size:14.5px}
+.toggle small{display:block;color:var(--muted);font-size:12.5px;line-height:1.35}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+button.act{font:inherit;font-weight:700;font-size:14.5px;padding:10px 14px;border-radius:12px;border:1px solid var(--ink);background:var(--ink);color:var(--card);cursor:pointer}
+button.act.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.hint{font-size:12.5px;color:var(--muted);margin-top:6px}
+
+.grid2{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:900px){.grid2{grid-template-columns:1fr 1fr}}
+.chartcard h3{margin:0;font-size:16px}
+.chartcard .cap{margin:2px 0 10px;color:var(--muted);font-size:13.5px}
+.chart{width:100%;max-width:620px;display:block;margin:0 auto}
+.chart text{fill:var(--muted);font-family:var(--font);font-size:10.5px}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .tgt{stroke:var(--ink);stroke-width:1.4;stroke-dasharray:5 4}
+.chart .ul{stroke:var(--alert);stroke-width:1.4;stroke-dasharray:5 4}
+.keyrow{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12.5px;margin-top:8px;justify-content:center}
+.keyrow span{display:inline-flex;align-items:center;gap:6px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px}
+.daytoggle{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.daytoggle button{all:unset;cursor:pointer;padding:6px 10px;font-size:13px;font-weight:700}
+.daytoggle button[aria-pressed=true]{background:var(--ink);color:var(--card)}
+.daytoggle button:focus-visible{outline:3px solid var(--c-protein);outline-offset:-3px}
+.slotlist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+@media (min-width:700px){.slotlist{grid-template-columns:repeat(3,1fr)}}
+.slot{background:var(--card2);border-radius:12px;padding:10px 12px;font-size:13px}
+.slot b{display:flex;justify-content:space-between;font-size:14px}
+.slot .what{color:var(--muted);margin-top:2px;line-height:1.35}
+
+.donuts{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:760px){.donuts{grid-template-columns:1fr 1fr}}
+.dbody{display:grid;grid-template-columns:1fr;gap:10px;align-items:center}
+@media (min-width:430px){.dbody{grid-template-columns:160px 1fr}}
+.dsvg{width:160px;height:160px;margin:0 auto;display:block}
+.dsvg circle.seg-arc{transition:opacity .2s ease,stroke-width .2s ease;cursor:pointer}
+.dsvg.has-focus circle.seg-arc{opacity:.22}
+.dsvg.has-focus circle.seg-arc.on{opacity:1;stroke-width:28}
+.dsvg text{fill:var(--ink);font-family:var(--font)}
+.legend{list-style:none;margin:0;padding:0}
+.legend button{all:unset;box-sizing:border-box;display:grid;grid-template-columns:10px 1fr auto auto;gap:8px;align-items:center;width:100%;padding:6px 4px;border-top:1px solid var(--line);cursor:pointer;font-size:13.5px}
+.legend li:first-child button{border-top:0}
+.legend button[aria-pressed=true]{background:var(--card2)}
+.legend button:focus-visible{outline:3px solid var(--c-protein);outline-offset:-2px}
+.legend .v{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.legend .p{color:var(--muted);font-variant-numeric:tabular-nums;min-width:38px;text-align:right}
+.dnote{font-size:13px;color:var(--muted);margin:10px 0 0}
+
+.micro{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (min-width:720px){.micro{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:center}
+.mcard>div{min-width:0}
+.mcard .chip{margin-top:4px}
+.mcard svg{width:52px;height:52px}
+.mcard b{display:block;font-size:14px}
+.mcard .mv{font-size:13px;font-variant-numeric:tabular-nums}
+.mcard .ms{font-size:12px;color:var(--muted);line-height:1.3;margin-top:2px}
+
+.chip{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.chip.alert{background:var(--alert-bg);color:var(--alert)} .chip.watch{background:var(--watch-bg);color:var(--watch)}
+.chip.good{background:var(--good-bg);color:var(--good)} .chip.info{background:var(--info-bg);color:var(--muted)}
+
+.castack{height:22px;display:flex;border-radius:8px;overflow:hidden;background:var(--track);position:relative;margin:26px 0 8px}
+.castack i{display:block;height:100%}
+.castack em{position:absolute;top:-6px;bottom:-6px;width:2px;background:var(--alert)}
+.castack em span{position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-style:normal;font-size:11px;color:var(--alert);white-space:nowrap;font-weight:700}
+.castack u{position:absolute;top:-6px;bottom:-6px;width:2px;background:var(--ink);text-decoration:none}
+.castack u span{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--muted);white-space:nowrap}
+
+.ledger{display:grid;gap:10px}
+.srow{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:920px){.srow{grid-template-columns:240px 1fr 240px;gap:22px}}
+.srow.dropped{opacity:.55}
+.sname b{display:block;font-size:17px}
+.sname small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.sdose{font-size:13.5px;margin-top:8px;font-variant-numeric:tabular-nums}
+.sdose div{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding:4px 0}
+.sbody{font-size:14.5px;line-height:1.55}
+.sbody p{margin:0 0 .6em}
+.sside{font-size:13.5px}
+.meter{display:flex;gap:4px;margin:4px 0 8px}
+.meter i{width:22px;height:7px;border-radius:3px;background:var(--track)}
+.meter i.on{background:var(--c-protein)}
+.sside dt{font-weight:700;margin-top:8px}
+.sside dd{margin:2px 0 0;color:var(--muted)}
+
+.research{display:grid;gap:10px}
+details.rcard{background:var(--card);border:1px solid var(--line);border-radius:16px}
+details.rcard>summary{cursor:pointer;list-style:none;padding:13px 14px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+details.rcard>summary::-webkit-details-marker{display:none}
+details.rcard>summary b{font-size:15.5px;line-height:1.3}
+details.rcard>summary small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px;font-weight:400}
+.rbody{padding:0 14px 14px;display:grid;gap:10px;grid-template-columns:1fr;font-size:14.5px;line-height:1.55}
+@media (min-width:760px){.rbody{grid-template-columns:1fr 1fr}}
+.rbody h4{margin:0 0 3px;font-size:13px;color:var(--muted)}
+.rbody p{margin:0}
+.rbody .src{grid-column:1/-1;font-size:12.5px;color:var(--muted)}
+
+.cmp{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14.5px}
+.cmp th,.cmp td{text-align:right;padding:8px 0 8px 10px;border-top:1px solid var(--line)}
+.cmp th:first-child,.cmp td:first-child{text-align:left;padding-left:0}
+.cmp thead th{border-top:0;font-size:12.5px;color:var(--muted);font-weight:600}
+.cmp td.better{color:var(--good);font-weight:700} .cmp td.worse{color:var(--alert);font-weight:700}
+
+.uses{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.uses div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.uses b{display:block;font-size:24px;font-weight:800;font-stretch:76%;font-variation-settings:"wdth" 76;font-variant-numeric:tabular-nums}
+.uses span{font-size:12.5px;color:var(--muted);line-height:1.35;display:block}
+.notes{font-size:13.5px;line-height:1.55;color:var(--muted)}
+.notes ul{padding-left:18px;margin:6px 0}
+footer{margin-top:24px;font-size:12.5px;color:var(--muted)}
+
+/* ===== Vitals shell ===== */
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15.5px;line-height:1.5}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+h1,h2,h3{text-wrap:balance}
+.disp{font-family:var(--disp);letter-spacing:.005em}
+.mono{font-family:var(--mono)}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.btn{font:inherit;font-weight:700;font-size:14.5px;padding:10px 16px;border-radius:12px;border:1px solid transparent;background:var(--acc);color:var(--acc-ink);cursor:pointer;transition:transform .15s ease,filter .15s ease}
+.btn:hover{filter:brightness(1.08)} .btn:active{transform:scale(.97)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn[disabled]{opacity:.5;cursor:default}
+
+.v-bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.v-bar .in{max-width:1180px;margin:0 auto;padding-inline:16px;display:flex;align-items:center;gap:14px;min-height:56px}
+.v-brand{font-family:var(--disp);font-weight:900;font-size:22px;letter-spacing:.02em;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.v-brand i{width:10px;height:10px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 0 var(--acc);animation:pulse 1.6s ease-out infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--acc) 70%,transparent)}100%{box-shadow:0 0 0 12px transparent}}
+.v-tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.v-tabs::-webkit-scrollbar{display:none}
+.v-tabs a{text-decoration:none;font-weight:700;font-size:14px;padding:8px 12px;border-radius:10px;color:var(--muted);white-space:nowrap;transition:color .2s,background .2s}
+.v-tabs a[aria-current="page"]{color:var(--ink);background:var(--card2)}
+.v-tabs a span{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px}
+@media (max-width:640px){.v-brand b{display:none}}
+
+.panel-tab{animation:tabIn .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes tabIn{from{transform:translateY(10px)}to{transform:none}}
+
+/* hero */
+.v-hero{position:relative;margin-top:16px;border-radius:24px;overflow:hidden;background:
+  radial-gradient(120% 90% at 85% 0%,color-mix(in srgb,var(--d-mind) 16%,transparent),transparent 60%),
+  radial-gradient(90% 90% at 0% 100%,color-mix(in srgb,var(--d-rec) 14%,transparent),transparent 60%),var(--card);border:1px solid var(--line)}
+.v-hero canvas.ecg{position:absolute;left:0;right:0;top:0;width:100%;height:64px;opacity:.9;pointer-events:none}
+.v-hero .grid{position:relative;display:grid;gap:18px;grid-template-columns:1fr;padding:56px 18px 18px}
+@media (min-width:920px){.v-hero .grid{grid-template-columns:minmax(0,1fr) 400px;padding:60px 26px 24px}}
+.v-greet h1{font-family:var(--disp);font-weight:900;font-size:clamp(40px,7vw,76px);line-height:.92;margin:6px 0 10px;letter-spacing:-.005em}
+.v-greet h1 em{font-style:normal;background:linear-gradient(90deg,var(--d-rec),var(--d-sleep),var(--d-mind),var(--d-move),var(--d-fuel));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:sheen 8s linear infinite}
+@keyframes sheen{to{background-position:200% 0}}
+.v-greet p{margin:0;color:var(--muted);max-width:56ch}
+.v-stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.v-stat{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:8px 12px;min-width:104px}
+.v-stat b{display:block;font-family:var(--disp);font-size:26px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.v-stat small{font-size:12px;color:var(--muted)}
+.v-verdict{margin-top:16px;padding:12px 14px;border-radius:14px;background:var(--card2);border:1px solid var(--line);font-size:14.5px;max-width:64ch}
+.v-verdict b{color:var(--acc)}
+.orbit{position:relative;width:100%;max-width:400px;aspect-ratio:1;margin:0 auto}
+.orbit canvas{position:absolute;inset:0;width:100%;height:100%}
+.orbit .core{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;text-align:center}
+.orbit .core .big{font-family:var(--disp);font-weight:900;font-size:clamp(64px,15vw,92px);line-height:.85;font-variant-numeric:tabular-nums}
+.orbit .core .big small{font-size:.36em;color:var(--muted);font-weight:700}
+.orbit .core .lab{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.orbit .core .grade{margin-top:6px;font-weight:700;font-size:13px;padding:3px 10px;border-radius:99px;background:var(--card2);border:1px solid var(--line)}
+.domains{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin-top:10px}
+.domains button{all:unset;box-sizing:border-box;cursor:pointer;text-align:center;padding:8px 2px;border-radius:12px;border:1px solid transparent;transition:background .2s,border-color .2s}
+.domains button:hover,.domains button[aria-pressed="true"]{background:var(--card2);border-color:var(--line)}
+.domains button:focus-visible{outline:3px solid var(--acc)}
+.domains b{display:block;font-family:var(--disp);font-size:24px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.domains small{font-size:11.5px;color:var(--muted);font-weight:600}
+.domains i{display:block;height:4px;border-radius:4px;margin:6px auto 0;width:70%;background:var(--track);overflow:hidden;position:relative}
+.domains i u{position:absolute;left:0;top:0;bottom:0;border-radius:4px;transition:width .8s cubic-bezier(.2,.8,.2,1)}
+.dom-why{font-size:13.5px;color:var(--muted);margin-top:10px;min-height:3em}
+.dom-why b{color:var(--ink)}
+
+/* layout helpers */
+.v-sec{margin-top:26px}
+.v-head{display:flex;justify-content:space-between;align-items:baseline;gap:6px 16px;flex-wrap:wrap;margin-bottom:12px}
+.v-head h2{margin:0;font-family:var(--disp);font-weight:800;font-size:30px;line-height:1;letter-spacing:.01em}
+.v-head p{margin:0;color:var(--muted);font-size:14px;max-width:62ch}
+.v-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.cols{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:900px){.cols.two{grid-template-columns:1fr 1fr}.cols.sev{grid-template-columns:1.25fr 1fr}.cols.three{grid-template-columns:repeat(3,1fr)}}
+
+/* timeline */
+.tl{position:relative;display:grid;gap:0}
+.tl-row{display:grid;grid-template-columns:56px 18px minmax(0,1fr);gap:10px;align-items:start;padding:7px 0;transition:opacity .3s}
+.tl-row.past{opacity:.45}
+.tl-row .t{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.tl-row .dot{width:14px;height:14px;border-radius:50%;border:3px solid var(--c,var(--acc));background:var(--card);margin-top:3px;position:relative;z-index:1}
+.tl-row.next .dot{background:var(--c,var(--acc));box-shadow:0 0 0 6px color-mix(in srgb,var(--c,var(--acc)) 25%,transparent);animation:beat 1.4s ease-in-out infinite}
+@keyframes beat{50%{box-shadow:0 0 0 11px color-mix(in srgb,var(--c,var(--acc)) 5%,transparent)}}
+.tl-row b{font-size:14.5px;display:block}
+.tl-row small{display:block;color:var(--muted);font-size:13px;line-height:1.4}
+.tl-row .when{font-family:var(--mono);font-size:11.5px;color:var(--c,var(--acc));font-weight:600}
+.tl::before{content:"";position:absolute;left:72px;top:14px;bottom:14px;width:2px;background:var(--line)}
+.tl .prog{position:absolute;left:72px;top:14px;width:2px;background:linear-gradient(var(--d-rec),var(--d-mind));transition:height 1s ease}
+.daymode{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.daymode button{all:unset;cursor:pointer;padding:6px 10px;font-size:13px;font-weight:700}
+.daymode button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.daymode button:focus-visible{outline:3px solid var(--acc);outline-offset:-3px}
+
+/* check-in */
+.ci{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:760px){.ci{grid-template-columns:1fr 1fr}}
+.ci-block{background:var(--card2);border-radius:14px;padding:14px}
+.ci-block h3{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:8px}
+.ci-block h3 i{width:9px;height:9px;border-radius:3px;background:var(--c)}
+.fld{margin-bottom:12px}
+.fld:last-child{margin-bottom:0}
+.fld label,.fld .fl{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;font-weight:600;margin-bottom:5px}
+.fld output{font-family:var(--mono);font-weight:600;font-variant-numeric:tabular-nums}
+.v-range{width:100%;accent-color:var(--c,var(--acc));height:26px;margin:0}
+.faces{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.faces button{all:unset;box-sizing:border-box;cursor:pointer;text-align:center;border:1px solid var(--line);border-radius:10px;padding:6px 0 4px;background:var(--card);transition:transform .15s,border-color .15s,background .15s}
+.faces button svg{width:28px;height:28px;display:block;margin:0 auto}
+.faces button small{font-size:11px;color:var(--muted);font-weight:600}
+.faces button[aria-pressed="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--card));transform:translateY(-2px)}
+.faces button:focus-visible{outline:3px solid var(--acc)}
+.faces button{color:var(--muted)} .faces button[aria-pressed="true"]{color:var(--c)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.tick{all:unset;box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--card);padding:7px 11px;border-radius:99px;font-size:13.5px;font-weight:600;transition:background .2s,border-color .2s,transform .12s}
+.tick::before{content:"";width:14px;height:14px;border-radius:50%;border:2px solid var(--muted);box-sizing:border-box;transition:all .2s}
+.tick[aria-pressed="true"]{border-color:var(--c,var(--acc));background:color-mix(in srgb,var(--c,var(--acc)) 14%,var(--card))}
+.tick[aria-pressed="true"]::before{border-color:var(--c,var(--acc));background:var(--c,var(--acc));box-shadow:inset 0 0 0 2px var(--card)}
+.tick:active{transform:scale(.96)}
+.tick:focus-visible{outline:3px solid var(--acc)}
+.water{display:flex;gap:5px;flex-wrap:wrap}
+.water button{all:unset;cursor:pointer;width:24px;height:34px;border-radius:4px 4px 8px 8px;border:2px solid var(--d-sleep);position:relative;overflow:hidden;box-sizing:border-box}
+.water button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:0;background:var(--d-sleep);transition:height .35s cubic-bezier(.2,.8,.2,1)}
+.water button.on::after{height:100%}
+.water button:focus-visible{outline:3px solid var(--acc)}
+.savebar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:var(--muted)}
+.savebar .st::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--muted);margin-right:7px}
+.savebar .st.ok::before{background:var(--good)} .savebar .st.busy::before{background:var(--watch)}
+textarea.v-ta{width:100%;min-height:84px;font:inherit;font-size:14.5px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);resize:vertical}
+select.v-sel,input.v-in{font:inherit;font-size:14.5px;padding:8px 10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;width:100%}
+
+/* heatmap */
+.heat{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.heat div{aspect-ratio:1;border-radius:6px;background:var(--track);position:relative;display:flex;align-items:flex-end;justify-content:flex-end;padding:3px;font-family:var(--mono);font-size:10px;color:var(--muted);transition:transform .2s}
+.heat div:hover{transform:scale(1.08)}
+.heat div.today{outline:2px solid var(--ink);outline-offset:1px}
+.heatkey{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);margin-top:8px;flex-wrap:wrap}
+.heatkey i{display:inline-block;width:12px;height:12px;border-radius:3px}
+.spark{width:100%;height:120px;display:block}
+.spark text{fill:var(--muted);font-family:var(--mono);font-size:10px}
+
+/* train */
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.week button{all:unset;box-sizing:border-box;cursor:pointer;border:1px solid var(--line);border-radius:12px;padding:8px 4px;text-align:center;background:var(--card);transition:all .2s}
+.week button b{display:block;font-size:13px}
+.week button small{display:block;font-size:10.5px;color:var(--muted);line-height:1.2;margin-top:2px}
+.week button i{display:block;width:8px;height:8px;border-radius:50%;margin:6px auto 0;background:var(--c)}
+.week button[aria-pressed="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--card));transform:translateY(-2px)}
+.week button.today b::after{content:" ·";color:var(--acc)}
+.week button:focus-visible{outline:3px solid var(--acc)}
+.ex{display:grid;gap:8px;margin-top:12px}
+.ex-row{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--card2);border-radius:12px;padding:10px 12px;transition:opacity .25s}
+.ex-row.done{opacity:.6}
+.ex-row.done b{text-decoration:line-through;text-decoration-color:var(--c)}
+.ex-row button{all:unset;cursor:pointer;width:24px;height:24px;border-radius:7px;border:2px solid var(--c);display:grid;place-items:center;box-sizing:border-box}
+.ex-row button:focus-visible{outline:3px solid var(--acc)}
+.ex-row.done button{background:var(--c)}
+.ex-row.done button::after{content:"";width:10px;height:5px;border-left:2.5px solid var(--card);border-bottom:2.5px solid var(--card);transform:rotate(-45deg) translate(1px,-1px)}
+.ex-row b{font-size:14.5px;display:block}
+.ex-row small{color:var(--muted);font-size:12.5px}
+.ex-row .sr{font-family:var(--mono);font-size:13px;font-weight:600;text-align:right;white-space:nowrap}
+.dayprog{height:8px;border-radius:8px;background:var(--track);overflow:hidden;margin-top:12px}
+.dayprog i{display:block;height:100%;background:var(--c,var(--acc));width:0;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.vol{width:100%;display:block}
+.vol text{fill:var(--muted);font-family:var(--font);font-size:11px}
+.vol .lbl{fill:var(--ink);font-weight:600}
+.proj{width:100%;display:block}
+.proj text{fill:var(--muted);font-family:var(--mono);font-size:10px}
+.rules{display:grid;gap:10px;grid-template-columns:1fr}
+@media (min-width:760px){.rules{grid-template-columns:repeat(3,1fr)}}
+.rule{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+.rule .k{font-family:var(--disp);font-size:34px;font-weight:900;line-height:1;color:var(--c)}
+.rule b{display:block;margin:6px 0 4px}
+.rule p{margin:0;color:var(--muted);font-size:14px}
+
+/* mind */
+.breath{display:grid;gap:14px;grid-template-columns:1fr;align-items:center}
+@media (min-width:760px){.breath{grid-template-columns:320px 1fr}}
+.orb{position:relative;width:260px;height:260px;margin:0 auto}
+.orb .ring{position:absolute;inset:0;border-radius:50%;border:2px dashed var(--line)}
+.orb .ball{position:absolute;inset:30px;border-radius:50%;background:radial-gradient(circle at 35% 30%,color-mix(in srgb,var(--d-mind) 70%,white 30%),var(--d-mind) 45%,color-mix(in srgb,var(--d-mind) 40%,var(--bg)) 100%);transform:scale(.55);box-shadow:0 0 60px color-mix(in srgb,var(--d-mind) 55%,transparent)}
+.orb .txt{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff;pointer-events:none}
+.orb .txt b{font-family:var(--disp);font-size:34px;font-weight:800;line-height:1;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+.orb .txt small{font-family:var(--mono);font-size:13px;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+.modes{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.meter-grid{position:relative;aspect-ratio:1;max-width:320px;width:100%;margin:0 auto;border-radius:16px;overflow:hidden;cursor:crosshair;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;touch-action:none}
+.meter-grid div{display:flex;align-items:flex-start;padding:8px;font-size:12px;font-weight:700;color:var(--ink)}
+.meter-grid div:nth-child(1){background:color-mix(in srgb,var(--alert) 26%,var(--card))}
+.meter-grid div:nth-child(2){background:color-mix(in srgb,var(--watch) 26%,var(--card));justify-content:flex-end}
+.meter-grid div:nth-child(3){background:color-mix(in srgb,var(--d-sleep) 24%,var(--card));align-items:flex-end}
+.meter-grid div:nth-child(4){background:color-mix(in srgb,var(--good) 24%,var(--card));align-items:flex-end;justify-content:flex-end}
+.meter-grid .pin{position:absolute;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:var(--ink);border:3px solid var(--card);box-shadow:0 2px 12px rgba(0,0,0,.4);transition:left .3s cubic-bezier(.2,.8,.2,1),top .3s cubic-bezier(.2,.8,.2,1);pointer-events:none}
+.axis{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10.5px;color:var(--muted);max-width:320px;margin:6px auto 0}
+.tools{display:grid;gap:10px;grid-template-columns:1fr}
+@media (min-width:760px){.tools{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1080px){.tools{grid-template-columns:repeat(3,1fr)}}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;transition:transform .2s,border-color .2s}
+.tool:hover{transform:translateY(-3px);border-color:var(--d-mind)}
+.tool .tg{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--d-mind)}
+.tool b{display:block;font-size:16px;margin:4px 0}
+.tool p{margin:0;color:var(--muted);font-size:14px}
+.prompt{font-family:var(--disp);font-size:26px;font-weight:700;line-height:1.1;margin:4px 0 10px}
+.help{border:1px solid var(--line);border-radius:16px;padding:14px;background:var(--card2);font-size:14px}
+.help b{font-family:var(--mono)}
+
+/* coach */
+.prio{display:grid;gap:10px}
+.pr{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+.pr .n{font-family:var(--disp);font-size:40px;font-weight:900;line-height:.9;color:var(--c)}
+.pr b{display:block;font-size:16px}
+.pr p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.pr .imp{display:flex;gap:3px;margin-top:8px;align-items:center;font-size:12px;color:var(--muted)}
+.pr .imp i{width:16px;height:6px;border-radius:3px;background:var(--track)}
+.pr .imp i.on{background:var(--c)}
+.chat{display:flex;flex-direction:column;gap:10px;max-height:520px;overflow-y:auto;padding:4px}
+.msg{max-width:88%;padding:10px 13px;border-radius:14px;font-size:14.5px;white-space:pre-wrap;line-height:1.5}
+.msg.me{align-self:flex-end;background:var(--acc);color:var(--acc-ink);border-bottom-right-radius:4px}
+.msg.ai{align-self:flex-start;background:var(--card2);border:1px solid var(--line);border-bottom-left-radius:4px}
+.msg.ai.think{color:var(--muted);font-style:italic}
+.ask{display:flex;gap:8px;margin-top:10px}
+.ask input{flex:1;min-width:0}
+.labs{display:grid;gap:6px}
+.lab{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
+.lab:first-child{border-top:0}
+.lab input{width:18px;height:18px;accent-color:var(--acc);margin:2px 0 0}
+.lab b{display:block;font-size:14.5px}
+.lab small{color:var(--muted);font-size:13px}
+
+.v-foot{margin-top:28px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,120px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-weight:700;font-size:14px;z-index:50;transition:transform .35s cubic-bezier(.2,.8,.2,1);max-width:calc(100% - 32px)}
+.toast{visibility:hidden}
+.toast.on{transform:translate(-50%,0);visibility:visible}
+[hidden]{display:none!important}
+canvas#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:60}
+.reveal{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{transform:translateY(14px)}to{transform:none}}
+
+/* Fuel tab: old report sits inside; tune its bits to the shell */
+#p-fuel .top h1{font-family:var(--disp);font-weight:900;font-size:40px}
+#p-fuel .sechead h2{font-family:var(--disp);font-weight:800;font-size:28px;letter-spacing:.01em}
+#p-fuel .coach h2{font-family:var(--disp);font-size:28px}
+#p-fuel .kpi .v{font-family:var(--disp)}
+#p-fuel .uses b{font-family:var(--disp)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+</style>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+<nav class="v-bar" aria-label="Sections">
+  <div class="in">
+    <div class="v-brand"><i></i>VEERAJ <b>VITALS</b></div>
+    <div class="v-tabs" role="tablist">
+      <a href="#today" data-tab="today" aria-current="page"><span style="background:var(--d-rec)"></span>Today</a>
+      <a href="#fuel" data-tab="fuel"><span style="background:var(--d-fuel)"></span>Fuel</a>
+      <a href="#train" data-tab="train"><span style="background:var(--d-move)"></span>Train</a>
+      <a href="#mind" data-tab="mind"><span style="background:var(--d-mind)"></span>Mind</a>
+      <a href="#coach" data-tab="coach"><span style="background:var(--d-sleep)"></span>Coach</a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<!-- ================= TODAY ================= -->
+<section id="p-today" class="panel-tab" aria-label="Today">
+  <div class="v-hero">
+    <canvas class="ecg" id="ecg" aria-hidden="true"></canvas>
+    <div class="grid">
+      <div class="v-greet">
+        <div class="eyebrow" id="dateLine">Today</div>
+        <h1><span id="hello">Good evening</span>,<br><em>Veeraj.</em></h1>
+        <p>Your score for today across sleep, movement, food, mind and recovery. It updates as you fill in the check-in below.</p>
+        <div class="v-stats">
+          <div class="v-stat"><b>84<small> kg</small></b><small>175 cm · age 24</small></div>
+          <div class="v-stat"><b id="stFuel">–</b><small>Fuel score</small></div>
+          <div class="v-stat"><b id="stProt">–</b><small>Protein a day</small></div>
+          <div class="v-stat"><b id="stStreak">0</b><small>Day log streak</small></div>
+        </div>
+        <div class="v-verdict" id="verdict"></div>
+      </div>
+      <div>
+        <div class="orbit">
+          <canvas id="orbit" aria-hidden="true"></canvas>
+          <div class="core">
+            <div class="big" id="vScore">0<small>/10</small></div>
+            <div class="lab">Vitality today</div>
+            <div class="grade" id="vGrade">Warming up</div>
+          </div>
+        </div>
+        <div class="domains" id="domains" role="group" aria-label="Score by area"></div>
+        <div class="dom-why" id="domWhy"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="v-sec cols sev">
+    <div>
+      <div class="v-head"><h2>Daily check-in</h2><p id="ciHint">Starts from your typical day. Change what differs.</p></div>
+      <div class="v-card">
+        <div class="ci">
+          <div class="ci-block" style="--c:var(--d-sleep)">
+            <h3><i></i>Sleep</h3>
+            <div class="fld"><label for="ciSleep">Hours slept <output id="oSleep"></output></label><input class="v-range" type="range" id="ciSleep" min="3" max="11" step="0.25" data-f="sleep"></div>
+            <div class="fld"><span class="fl">How rested you feel</span><div class="faces" id="fQual" data-f="sleepQ"></div></div>
+            <div class="fld"><span class="fl">Water, 250 ml glasses <output id="oWater"></output></span><div class="water" id="water"></div></div>
+          </div>
+          <div class="ci-block" style="--c:var(--d-move)">
+            <h3><i></i>Move</h3>
+            <div class="fld"><label for="ciSteps">Steps <output id="oSteps"></output></label><input class="v-range" type="range" id="ciSteps" min="0" max="20000" step="500" data-f="steps"></div>
+            <div class="fld"><span class="fl">Training</span><div class="chips" id="fTrain"></div></div>
+            <div class="fld"><span class="fl">Energy right now</span><div class="faces" id="fEnergy" data-f="energy"></div></div>
+          </div>
+          <div class="ci-block" style="--c:var(--d-fuel)">
+            <h3><i></i>Fuel</h3>
+            <div class="fld"><span class="fl">Protein feeds hit (about 30 g each)</span><div class="chips" id="fMeals"></div></div>
+            <div class="fld"><span class="fl">Also today</span><div class="chips" id="fFood"></div></div>
+          </div>
+          <div class="ci-block" style="--c:var(--d-mind)">
+            <h3><i></i>Mind</h3>
+            <div class="fld"><span class="fl">Mood</span><div class="faces" id="fMood" data-f="mood"></div></div>
+            <div class="fld"><label for="ciStress">Stress <output id="oStress"></output></label><input class="v-range" type="range" id="ciStress" min="1" max="5" step="1" data-f="stress"></div>
+            <div class="fld"><span class="fl">Habits</span><div class="chips" id="fMind"></div></div>
+          </div>
+          <div class="ci-block" style="--c:var(--d-rec);grid-column:1/-1">
+            <h3><i></i>Supplements and recovery</h3>
+            <div class="chips" id="fSupp"></div>
+          </div>
+        </div>
+        <div class="savebar"><span class="st" id="saveSt">Loading your log…</span><button class="btn" type="button" id="btnLog">Log today</button></div>
+      </div>
+    </div>
+    <div>
+      <div class="v-head"><h2>Your day</h2><div class="daymode" role="group" aria-label="Day type"><button type="button" data-m="train" aria-pressed="true">Training day</button><button type="button" data-m="rest" aria-pressed="false">Rest day</button></div></div>
+      <div class="v-card">
+        <p class="eyebrow" id="nextUp" style="margin:0 0 10px">Next up</p>
+        <div class="tl" id="timeline"><div class="prog" id="tlProg"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="v-sec">
+    <div class="v-head"><h2>Last 28 days</h2><p id="histCap">Each logged day adds a square. Tap a square to see that day's score.</p></div>
+    <div class="cols sev">
+      <div class="v-card"><svg class="spark" id="spark" viewBox="0 0 520 120" role="img" aria-label="Vitality score by day"></svg><p class="muted" id="sparkCap" style="margin:6px 0 0;font-size:13px"></p></div>
+      <div class="v-card"><div class="heat" id="heat"></div><div class="heatkey"><span>Low</span><i style="background:var(--track)"></i><i style="background:color-mix(in srgb,var(--d-rec) 35%,var(--track))"></i><i style="background:color-mix(in srgb,var(--d-rec) 65%,var(--track))"></i><i style="background:var(--d-rec)"></i><span>High</span><span id="heatSel" style="margin-left:auto"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FUEL ================= -->
+<section id="p-fuel" class="panel-tab" aria-label="Fuel" hidden>
+  <header class="top">
+    <div>
+      <h1>Fuel Report</h1>
+      <p>A typical week of your food and supplements, scored against the research</p>
+    </div>
+    <div class="pills" id="pills"></div>
+  </header>
+
+  <div class="hero">
+    <div class="card scorewrap">
+      <svg class="bigring" id="bigRing" viewBox="0 0 210 210" role="img" aria-label="Fuel score"></svg>
+      <div class="subrings" id="subRings"></div>
+      <div class="contrib" id="contrib"></div>
+    </div>
+    <div class="card coach">
+      <h2>Coach</h2>
+      <p id="coachLede"></p>
+      <ul class="insights" id="insights"></ul>
+    </div>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <details class="settings" id="settingsBox">
+    <summary>Edit your routine and settings</summary>
+    <div class="controls">
+      <div class="panel">
+        <h3>About you</h3>
+        <div class="field"><label for="weight">Body weight <output id="o-weight"></output></label><input type="range" id="weight" data-k="weight" min="45" max="130" step="1"></div>
+        <div class="field"><label for="height">Height <output id="o-height"></output></label><input type="range" id="height" data-k="height" min="150" max="205" step="1"></div>
+        <div class="field"><label for="age">Age <output id="o-age"></output></label><input type="range" id="age" data-k="age" min="16" max="70" step="1"></div>
+        <div class="field"><span class="fl">Training days a week</span>
+          <div class="seg" role="radiogroup" aria-label="Training days">
+            <label><input type="radio" name="activity" value="light"><span>1–2</span></label>
+            <label><input type="radio" name="activity" value="moderate"><span>3–5</span></label>
+            <label><input type="radio" name="activity" value="high"><span>6+</span></label>
+          </div>
+        </div>
+        <div class="field"><span class="fl">Goal</span>
+          <div class="seg" role="radiogroup" aria-label="Goal">
+            <label><input type="radio" name="goal" value="cut"><span>Lose fat</span></label>
+            <label><input type="radio" name="goal" value="recomp"><span>Recomp</span></label>
+            <label><input type="radio" name="goal" value="bulk"><span>Build</span></label>
+          </div>
+        </div>
+        <div class="field"><label for="meals">Regular lunch and dinner</label>
+          <select id="meals" data-k="meals">
+            <option value="none">Don't count meals</option>
+            <option value="light">Light (about 20 g protein)</option>
+            <option value="typical">Typical dal, roti, rice, sabzi (about 30 g)</option>
+            <option value="heavy">Big portions or paneer daily (about 42 g)</option>
+          </select>
+        </div>
+        <p class="hint" id="targetHint"></p>
+      </div>
+
+      <div class="panel">
+        <h3>Your routine</h3>
+        <div class="field"><label for="milkType">Milk</label>
+          <select id="milkType" data-k="milkType">
+            <option value="sarda">Sarda Farms cow milk (4 g protein / 100 ml)</option>
+            <option value="toned">Toned, 3% fat (3.1 g)</option>
+            <option value="full">Full cream, 6% fat (3.3 g)</option>
+            <option value="double">Double toned, 1.5% fat (3.1 g)</option>
+          </select>
+        </div>
+        <div class="field"><label for="milkMl">Milk a day <output id="o-milkMl"></output></label><input type="range" id="milkMl" data-k="milkMl" min="0" max="1500" step="50"></div>
+        <div class="field"><label for="milkTiming">When you drink it</label>
+          <select id="milkTiming" data-k="milkTiming">
+            <option value="spread">Breakfast, post-workout, bedtime (¼, ¼, ½)</option>
+            <option value="split">Half at breakfast, half at bedtime</option>
+            <option value="morning">All at breakfast</option>
+            <option value="bedtime">All at bedtime</option>
+          </select>
+        </div>
+        <div class="field"><label for="powder">Protein powder</label>
+          <select id="powder" data-k="powder">
+            <option value="protinex">Protinex (34% protein)</option>
+            <option value="whey">Tested whey (80% protein)</option>
+            <option value="none">None</option>
+          </select>
+        </div>
+        <div class="field"><label for="powderServings">Servings a day <output id="o-powderServings"></output></label><input type="range" id="powderServings" data-k="powderServings" min="0" max="3" step="1"></div>
+        <div class="field"><label for="powderTiming">Powder timing</label>
+          <select id="powderTiming" data-k="powderTiming">
+            <option value="bf_pw">Breakfast and post-workout</option>
+            <option value="pw">All post-workout</option>
+            <option value="bf">All at breakfast</option>
+            <option value="bed">At bedtime</option>
+          </select>
+        </div>
+        <div class="field"><label for="epigamia">Epigamia Greek yogurt, 10 g protein servings <output id="o-epigamia"></output></label><input type="range" id="epigamia" data-k="epigamia" min="0" max="3" step="1"></div>
+        <div class="field"><label for="epigamiaSlot">Yogurt timing</label>
+          <select id="epigamiaSlot" data-k="epigamiaSlot">
+            <option value="mid">Mid-morning</option><option value="pw">Post-workout</option><option value="bed">Bedtime</option><option value="bf">Breakfast</option>
+          </select>
+        </div>
+        <div class="field"><label for="bread">Bread slices a day <output id="o-bread"></output></label><input type="range" id="bread" data-k="bread" min="0" max="6" step="1"></div>
+        <div class="field"><label for="avocado">Avocados a day <output id="o-avocado"></output></label><input type="range" id="avocado" data-k="avocado" min="0" max="2" step="0.5"></div>
+        <div class="field"><label for="walnuts">Walnut halves a day <output id="o-walnuts"></output></label><input type="range" id="walnuts" data-k="walnuts" min="0" max="30" step="1"></div>
+        <div class="field"><label for="soya">Soya chunks (1 bowl = 50 g dry)</label>
+          <select id="soya" data-k="soya">
+            <option value="none">None</option>
+            <option value="alternate">1 bowl on alternate days</option>
+            <option value="half">Half a bowl every day</option>
+            <option value="daily">1 bowl every day</option>
+          </select>
+        </div>
+        <div class="field"><label for="soyaSlot">Soya with</label>
+          <select id="soyaSlot" data-k="soyaSlot"><option value="lunch">Lunch</option><option value="dinner">Dinner</option></select>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Try adjustments</h3>
+        <label class="toggle"><input type="checkbox" data-k="addChana"><span><b>Chana or rajma on non-soya days</b><small>Evens out protein; +12 g fibre that day</small></span></label>
+        <label class="toggle"><input type="checkbox" data-k="addFruitVeg"><span><b>1 fruit and 2 cups of vegetables daily</b><small>About 10 g fibre and potassium</small></span></label>
+        <label class="toggle"><input type="checkbox" data-k="addEggs"><span><b>2 eggs at breakfast (if you eat eggs)</b><small>+12.6 g protein, B12, a little vitamin D</small></span></label>
+        <label class="toggle"><input type="checkbox" data-k="addAlgae"><span><b>Algae omega-3, 250 mg EPA + DHA</b><small>The vegetarian source of the omega-3s walnuts can't supply</small></span></label>
+        <label class="toggle"><input type="checkbox" data-k="dropCarnitine"><span><b>Drop the L-carnitine</b><small>Lowest value item in the stack</small></span></label>
+        <div class="btns">
+          <button class="act" type="button" id="applyPlan">Apply recommended plan</button>
+          <button class="act ghost" type="button" id="resetPlan">Back to my current routine</button>
+        </div>
+        <p class="hint">Recommended: Protinex swapped for 1 scoop of whey at breakfast, yogurt moved to bedtime with your milk, chana on non-soya days, fruit and veg, algae omega-3, no carnitine.</p>
+      </div>
+    </div>
+  </details>
+
+  <section class="sec" aria-labelledby="h-timing">
+    <div class="sechead">
+      <h2 id="h-timing">Protein timing</h2>
+      <div id="dayToggleWrap"></div>
+    </div>
+    <div class="card chartcard">
+      <p class="cap" id="timingCap"></p>
+      <svg class="chart" id="timingChart" viewBox="0 0 360 240" role="img" aria-label="Protein per meal slot, stacked by source, with the per-meal target"></svg>
+      <div class="keyrow" id="timingKey"></div>
+      <div class="slotlist" id="slotList"></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-week">
+    <div class="sechead"><h2 id="h-week">Your week</h2><p>Soya on alternate days makes the week uneven. Dashed lines are your targets and limits.</p></div>
+    <div class="grid2">
+      <div class="card chartcard"><h3>Protein per day</h3><p class="cap" id="weekPCap"></p><svg class="chart" id="weekP" viewBox="0 0 360 200" role="img" aria-label="Protein per day of the week"></svg></div>
+      <div class="card chartcard"><h3>Calcium per day</h3><p class="cap" id="weekCaCap"></p><svg class="chart" id="weekCa" viewBox="0 0 360 200" role="img" aria-label="Calcium per day of the week with upper limit"></svg></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-pies">
+    <div class="sechead"><h2 id="h-pies">Where it comes from</h2><p>Weekly totals by source, including your estimated meals. Tap a row to isolate it.</p></div>
+    <div class="donuts">
+      <div class="card chartcard"><h3>Protein by source</h3><p class="cap">Grams across 7 days</p><div class="dbody" id="d-protein"></div><p class="dnote" id="n-protein"></p></div>
+      <div class="card chartcard"><h3>Calories by source</h3><p class="cap">Kilocalories across 7 days</p><div class="dbody" id="d-kcal"></div><p class="dnote" id="n-kcal"></p></div>
+      <div class="card chartcard"><h3>Energy split</h3><p class="cap">Share of calories from protein, carbs and fat</p><div class="dbody" id="d-macro"></div><p class="dnote" id="n-macro"></p></div>
+      <div class="card chartcard"><h3>Fat by source</h3><p class="cap">Grams across 7 days</p><div class="dbody" id="d-fat"></div><p class="dnote" id="n-fat"></p></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-micro">
+    <div class="sechead"><h2 id="h-micro">Micronutrient panel</h2><p>Daily average against Indian (ICMR-NIN) and international references. Potassium and magnesium are estimates.</p></div>
+    <div class="micro" id="micro"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-ca">
+    <div class="sechead"><h2 id="h-ca">Calcium, in detail</h2><p>The one number that needs attention, broken down by source.</p></div>
+    <div class="card">
+      <div id="caStack"></div>
+      <div class="keyrow" id="caKey" style="justify-content:flex-start"></div>
+      <p id="caText" style="margin:12px 0 0;font-size:14.5px;line-height:1.55;max-width:75ch"></p>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-supp">
+    <div class="sechead"><h2 id="h-supp">Supplement stack</h2><p>Your dose against the tested dose, evidence strength and what to watch.</p></div>
+    <div class="ledger" id="ledger"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-plan">
+    <div class="sechead"><h2 id="h-plan">Now versus the recommended plan</h2><p>Same foods otherwise. Daily averages including estimated meals.</p></div>
+    <div class="card" id="compare"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-res">
+    <div class="sechead"><h2 id="h-res">Research library</h2><p>The studies behind every call on this page. Tap one to see what it found and what it means for you.</p></div>
+    <div class="research" id="research"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-uses">
+    <div class="sechead"><h2 id="h-uses">What one week uses</h2><p>For restocking.</p></div>
+    <div class="uses" id="uses"></div>
+  </section>
+
+  <section class="sec notes" aria-labelledby="h-notes">
+    <div class="sechead"><h2 id="h-notes">How the numbers are built</h2></div>
+    <ul>
+      <li>Sarda Farms milk: 4 g protein per 100 ml as on your pack; fat about 3.5 g, so roughly 66 kcal per 100 ml. Calcium assumed 120 mg per 100 ml.</li>
+      <li>Epigamia Natural: 6.1 g protein, 55 kcal and 168 mg calcium per 85 g cup, scaled to your 10 g protein serving (about 140 g).</li>
+      <li>Protinex: 34 g protein, 373 kcal, 54 g carbs and about 1,300 mg added calcium per 100 g; one serving is modelled as 35 g.</li>
+      <li>Soya: 50 g dry Nutrela per bowl (52 g protein, 13 g fibre, 350 mg calcium, 20 mg iron per 100 g). Bread: a 5 g-protein slice of 100 kcal. Avocado: 150 g of flesh. Walnuts: 2 g per half.</li>
+      <li>Meals are an estimate for home-style lunch and dinner. Pick "Don't count meals" to see the routine on its own.</li>
+      <li>Leucine is estimated from each food's typical leucine share: dairy about 9.8%, whey 11%, soy 8%, wheat 7%.</li>
+      <li>Scores: Protein weighs daily total (75%) and how many meals cross the leucine trigger (25%). Nutrients averages coverage of fibre, omega-3s, iron, B12, potassium and magnesium. Safety starts at 100 and loses points for calcium above limits, saturated fat above 10% of calories, refined carbs and carnitine. Fuel score is 40% protein, 30% nutrients, 30% safety.</li>
+      <li>Calorie target uses Mifflin–St Jeor for a man, an activity factor, then −400 kcal to lose fat or +250 to build.</li>
+    </ul>
+  </section>
+
+  <footer>Educational estimate, not medical advice. Labels vary by batch. A yearly blood panel (vitamin D, B12, lipids, liver, kidney, thyroid) is the real check. Tell your doctor you take creatine, since it raises blood creatinine.</footer>
+</section>
+
+<!-- ================= TRAIN ================= -->
+<section id="p-train" class="panel-tab" aria-label="Train" hidden>
+  <div class="v-sec">
+    <div class="v-head"><h2>Your training week</h2><p>Upper/lower split, 4 lifting days plus 2 easy cardio days. This setup suits a recomp at 84 kg: lose fat and keep adding muscle.</p></div>
+    <div class="v-card">
+      <div class="week" id="week" role="group" aria-label="Day of week"></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline;margin-top:14px">
+        <div><div class="eyebrow" id="wkTag"></div><h3 class="disp" id="wkTitle" style="margin:2px 0 0;font-size:30px;font-weight:800;line-height:1"></h3></div>
+        <span class="mono muted" id="wkMeta" style="font-size:13px"></span>
+      </div>
+      <p class="muted" id="wkNote" style="margin:8px 0 0;font-size:14px;max-width:70ch"></p>
+      <div class="dayprog" id="wkProgWrap"><i id="wkProg"></i></div>
+      <div class="ex" id="exList"></div>
+    </div>
+  </div>
+
+  <div class="v-sec cols two">
+    <div class="v-card">
+      <div class="v-head" style="margin-bottom:4px"><h2 style="font-size:24px">Sets per muscle each week</h2></div>
+      <p class="muted" style="margin:0 0 8px;font-size:13.5px">The shaded band is 10 to 20 hard sets a week, the range where muscle growth is strongest in the research. Every muscle in this plan lands inside it.</p>
+      <svg class="vol" id="vol" viewBox="0 0 520 316" role="img" aria-label="Weekly sets per muscle group against the 10 to 20 set range"></svg>
+    </div>
+    <div class="v-card">
+      <div class="v-head" style="margin-bottom:4px"><h2 style="font-size:24px">Recomp projector</h2></div>
+      <p class="muted" style="margin:0 0 8px;font-size:13.5px">A rough 16-week estimate from your calorie balance, protein and training. It shows the likely direction; it is not a promise.</p>
+      <div class="cols two" style="gap:10px">
+        <div class="fld"><label for="pjDef">Daily calories vs need <output id="oPjDef"></output></label><input class="v-range" style="--c:var(--d-move)" type="range" id="pjDef" min="-700" max="300" step="50" value="-350"></div>
+        <div class="fld"><label for="pjBf">Starting body fat, a guess <output id="oPjBf"></output></label><input class="v-range" style="--c:var(--d-move)" type="range" id="pjBf" min="12" max="35" step="1" value="24"></div>
+        <div class="fld"><label for="pjDays">Lifting days a week <output id="oPjDays"></output></label><input class="v-range" style="--c:var(--d-move)" type="range" id="pjDays" min="0" max="6" step="1" value="4"></div>
+        <div class="fld"><label for="pjProt">Days you hit protein <output id="oPjProt"></output></label><input class="v-range" style="--c:var(--d-move)" type="range" id="pjProt" min="0" max="7" step="1" value="6"></div>
+      </div>
+      <svg class="proj" id="proj" viewBox="0 0 520 220" role="img" aria-label="Projected weight, fat mass and lean mass over 16 weeks"></svg>
+      <div class="keyrow" style="display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;margin-top:6px"><span><i class="sw" style="background:var(--ink)"></i> Body weight</span><span><i class="sw" style="background:var(--d-move)"></i> Fat mass</span><span><i class="sw" style="background:var(--d-rec)"></i> Lean mass</span></div>
+      <p id="pjOut" style="margin:8px 0 0;font-size:14px"></p>
+    </div>
+  </div>
+
+  <div class="v-sec">
+    <div class="v-head"><h2>Rules that move the needle</h2></div>
+    <div class="rules">
+      <div class="rule" style="--c:var(--d-move)"><div class="k">+1 rep</div><b>Double progression</b><p>Work each lift in its rep range. Once you hit the top of the range on every set, add 2.5 kg and start again at the bottom.</p></div>
+      <div class="rule" style="--c:var(--d-fuel)"><div class="k">1–3 RIR</div><b>Stop 1 to 3 reps short of failure</b><p>Leave one to three reps in the tank on most sets. You only need to go to failure on the last set of isolation moves.</p></div>
+      <div class="rule" style="--c:var(--d-rec)"><div class="k">8–10k</div><b>Steps, every day</b><p>Walking burns more on a cut than extra cardio, and it doesn't eat into recovery. Take a 10-minute walk after lunch and after dinner.</p></div>
+      <div class="rule" style="--c:var(--d-sleep)"><div class="k">7.5 h+</div><b>Sleep protects the muscle</b><p>In a dieting study, sleeping 5.5 hours instead of 8.5 cut fat loss by 55% and raised the share of weight lost as muscle.</p></div>
+      <div class="rule" style="--c:var(--d-mind)"><div class="k">Wk 6</div><b>Deload every 6th week</b><p>Keep the weights but halve the sets. Your joints and nervous system catch up, and you come back stronger.</p></div>
+      <div class="rule" style="--c:var(--alert)"><div class="k">Stop</div><b>Pain is not a progress signal</b><p>A sharp or joint pain means swap the exercise. Muscle soreness after 1 to 2 days is normal. Pain in the joint is not.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MIND ================= -->
+<section id="p-mind" class="panel-tab" aria-label="Mind" hidden>
+  <div class="v-sec">
+    <div class="v-head"><h2>Breathe</h2><p>Controlled slow breathing is one of the quickest ways to calm your nervous system. In a Stanford study, 5 minutes of cyclic sighing a day improved mood more than mindfulness meditation.</p></div>
+    <div class="v-card breath">
+      <div>
+        <div class="orb"><div class="ring"></div><div class="ball" id="ball"></div><div class="txt"><b id="bPhase">Ready</b><small id="bCount">Tap start</small></div></div>
+      </div>
+      <div>
+        <div class="modes" id="bModes"></div>
+        <p id="bDesc" style="margin:0 0 12px;font-size:14.5px;max-width:60ch"></p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="btn" type="button" id="bStart" style="background:var(--d-mind);color:#fff">Start 5 minutes</button>
+          <button class="btn ghost" type="button" id="bStop" disabled>Stop</button>
+          <span class="mono muted" id="bTimer" style="font-size:13px"></span>
+        </div>
+        <p class="muted" style="font-size:13px;margin:12px 0 0">A full session marks "5 min breathwork" in today's check-in.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="v-sec cols two">
+    <div class="v-card">
+      <div class="v-head" style="margin-bottom:6px"><h2 style="font-size:24px">Mood meter</h2></div>
+      <p class="muted" style="margin:0 0 10px;font-size:13.5px">Tap where you are right now. Naming a feeling precisely makes it easier to handle.</p>
+      <div class="meter-grid" id="meter" role="img" aria-label="Mood meter: tap to place how you feel"><div>Tense, wired</div><div>Driven, up</div><div>Flat, drained</div><div>Calm, settled</div><span class="pin" id="pin"></span></div>
+      <div class="axis"><span>← unpleasant</span><span>pleasant →</span></div>
+      <p id="meterOut" style="margin:12px 0 0;font-size:14.5px"></p>
+    </div>
+    <div class="v-card">
+      <div class="v-head" style="margin-bottom:6px"><h2 style="font-size:24px">Tonight's page</h2></div>
+      <div class="eyebrow">Prompt</div>
+      <div class="prompt" id="jPrompt"></div>
+      <label for="journal" class="eyebrow" style="display:block;margin-bottom:6px">Your answer</label>
+      <textarea class="v-ta" id="journal" placeholder="Two or three lines is enough."></textarea>
+      <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><button class="btn ghost" type="button" id="jNext">Another prompt</button><span class="muted" id="jSt" style="font-size:13px;align-self:center"></span></div>
+    </div>
+  </div>
+
+  <div class="v-sec cols two">
+    <div class="v-card">
+      <div class="v-head" style="margin-bottom:6px"><h2 style="font-size:24px">Sleep window</h2></div>
+      <div class="cols two" style="gap:10px">
+        <div class="fld"><label for="wake">Wake time <output id="oWake"></output></label><input class="v-range" style="--c:var(--d-sleep)" type="range" id="wake" min="300" max="600" step="15" value="450"></div>
+        <div class="fld"><label for="sleepNeed">Sleep you want <output id="oNeed"></output></label><input class="v-range" style="--c:var(--d-sleep)" type="range" id="sleepNeed" min="6.5" max="9" step="0.25" value="8"></div>
+      </div>
+      <svg id="clock" viewBox="0 0 520 90" style="width:100%;display:block" role="img" aria-label="Your 24 hour sleep and caffeine window"></svg>
+      <div id="sleepOut" style="font-size:14px;margin-top:8px"></div>
+    </div>
+    <div class="v-card">
+      <div class="v-head" style="margin-bottom:6px"><h2 style="font-size:24px">Wind-down, last 60 minutes</h2></div>
+      <div class="chips" id="windDown" style="--c:var(--d-sleep)"></div>
+      <p class="muted" style="font-size:13.5px;margin:12px 0 0">Keep the room cool (around 19 to 21 °C with the fan on) and dark. Get morning light within an hour of waking. It sets your body clock more strongly than anything you do at night.</p>
+    </div>
+  </div>
+
+  <div class="v-sec">
+    <div class="v-head"><h2>Founder mode, without the burnout</h2><p>Running Naira means launches, suppliers and ad numbers on your mind at 1 a.m. These are the tools with the best evidence for that kind of load.</p></div>
+    <div class="tools">
+      <div class="tool"><div class="tg">Worry</div><b>A 15-minute worry window</b><p>Pick a fixed time, say 6 p.m. When a worry shows up outside it, jot it down and park it until then. Trials show this cuts worry and helps sleep.</p></div>
+      <div class="tool"><div class="tg">Work</div><b>Shutdown ritual</b><p>End work by writing tomorrow's top 3 and saying "done for today". An open to-do list keeps your mind chewing on it. Writing the plan down lets it stop.</p></div>
+      <div class="tool"><div class="tg">Focus</div><b>90-minute deep blocks</b><p>Do one block before noon with your phone in another room. Keep ads, DMs and supplier calls for the afternoon.</p></div>
+      <div class="tool"><div class="tg">Comparison</div><b>Mute the scroll</b><p>Scrolling other brands' Instagram at night is work that feels like rest. Batch your competitor research into one slot a week.</p></div>
+      <div class="tool"><div class="tg">People</div><b>One real conversation a day</b><p>Loneliness is a well-documented founder risk. Call or meet someone who isn't about the business. It protects you as much as sleep does.</p></div>
+      <div class="tool"><div class="tg">Emotion</div><b>Name it to tame it</b><p>Labelling a feeling ("anxious about the launch") lowers the brain's alarm response in imaging studies. The mood meter above does exactly this.</p></div>
+    </div>
+  </div>
+
+  <div class="v-sec help">
+    <b>If things feel heavy for more than two weeks</b>, or you have thoughts of harming yourself, please talk to someone. In India, Tele-MANAS is free, confidential and open 24 hours: call <b>14416</b> or <b>1-800-891-4416</b>. Talking to a doctor or therapist is a sensible step for your health, the same as seeing a physio for an injury.
+  </div>
+</section>
+
+<!-- ================= COACH ================= -->
+<section id="p-coach" class="panel-tab" aria-label="Coach" hidden>
+  <div class="v-sec cols sev">
+    <div>
+      <div class="v-head"><h2>Your 7 priorities</h2><p>Ranked by how much each one moves your health for the effort it takes. Start at the top.</p></div>
+      <div class="prio" id="prio"></div>
+    </div>
+    <div>
+      <div class="v-head"><h2>Ask your coach</h2><p>Claude answers using your profile, stack and recent check-ins.</p></div>
+      <div class="v-card">
+        <div class="chat" id="chat" aria-live="polite"></div>
+        <div class="chips" id="quickQs" style="margin-top:10px"></div>
+        <form class="ask" id="askForm"><input class="v-in" id="askIn" placeholder="Ask about food, training, sleep, stress…" autocomplete="off"><button class="btn" type="submit" id="askBtn">Ask</button></form>
+        <p class="muted" id="askNote" style="font-size:12.5px;margin:8px 0 0">Uses your Claude account. The first question asks for your permission.</p>
+      </div>
+      <div class="v-card" style="margin-top:14px">
+        <h3 style="margin:0 0 4px;font-size:17px">Yearly blood panel</h3>
+        <p class="muted" style="margin:0 0 8px;font-size:13.5px">Tick each test once it's done. Your ticks are saved.</p>
+        <div class="labs" id="labs"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="v-foot">Built for Veeraj: 84 kg, 175 cm, 24, mostly vegetarian, lifting 3 to 5 days, recomp goal. These are educational estimates, not medical advice. Check anything new with your doctor, especially supplements, and mention creatine before any kidney test.</footer>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script>
+(function(){
+"use strict";
+const $=id=>document.getElementById(id);
+const RM=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+const LS={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d;}catch(e){return d;}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
+const pad=n=>String(n).padStart(2,"0");
+const dayKey=d=>d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+const NOW=new Date(), TODAY=dayKey(NOW), DOW=(NOW.getDay()+6)%7;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const clone=o=>JSON.parse(JSON.stringify(o));
+const fmt=(n,d)=>Number(n).toLocaleString("en-IN",{maximumFractionDigits:d||0,minimumFractionDigits:d||0});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const hm=m=>{m=((m%1440)+1440)%1440;const h=Math.floor(m/60),mi=Math.round(m%60);const h12=((h+11)%12)+1;return h12+(mi?":"+pad(mi):"")+(h<12?" am":" pm");};
+const SVGNS="http://www.w3.org/2000/svg";
+const S=(tag,a)=>{const e=document.createElementNS(SVGNS,tag);for(const k in a){const v=a[k];if(typeof v==="string"&&v.indexOf("var(")===0)e.style.setProperty(k,v);else e.setAttribute(k,v);}return e;};
+let cssCache={},cssAt=0;
+const cv=n=>{const t=performance.now();if(t-cssAt>1000){cssCache={};cssAt=t;}return cssCache[n]||(cssCache[n]=getComputedStyle(document.documentElement).getPropertyValue(n).trim());};
+
+/* ---------- toast + confetti ---------- */
+let toastT;
+function toast(msg){const t=$("toast");t.textContent=msg;t.classList.add("on");clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove("on"),2600);}
+const fx=$("fx"),fctx=fx.getContext("2d");let bits=[],fxOn=false;
+function confetti(x,y){
+  if(RM) return;
+  const W=fx.width=innerWidth*devicePixelRatio,H=fx.height=innerHeight*devicePixelRatio;
+  x=(x==null?innerWidth/2:x)*devicePixelRatio;y=(y==null?innerHeight/3:y)*devicePixelRatio;
+  const cols=["--d-sleep","--d-move","--d-fuel","--d-mind","--d-rec"].map(cv);
+  for(let i=0;i<140;i++){const a=Math.random()*Math.PI*2,s=(4+Math.random()*9)*devicePixelRatio;bits.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-6*devicePixelRatio,r:Math.random()*6,vr:(Math.random()-.5)*.4,c:cols[i%5],w:(4+Math.random()*5)*devicePixelRatio,life:1});}
+  if(!fxOn){fxOn=true;requestAnimationFrame(fxLoop);}
+  function fxLoop(){fctx.clearRect(0,0,W,H);bits.forEach(b=>{b.vy+=.35*devicePixelRatio;b.vx*=.985;b.x+=b.vx;b.y+=b.vy;b.r+=b.vr;b.life-=.008;fctx.save();fctx.globalAlpha=Math.max(0,b.life);fctx.translate(b.x,b.y);fctx.rotate(b.r);fctx.fillStyle=b.c;fctx.fillRect(-b.w/2,-b.w/4,b.w,b.w/2);fctx.restore();});
+    bits=bits.filter(b=>b.life>0&&b.y<H+40);if(bits.length)requestAnimationFrame(fxLoop);else{fxOn=false;fctx.clearRect(0,0,W,H);}}
+}
+
+/* ---------- tabs ---------- */
+const TABS=["today","fuel","train","mind","coach"];
+function show(t,scroll){
+  if(!TABS.includes(t)) t="today";
+  TABS.forEach(x=>{$("p-"+x).hidden=x!==t;});
+  document.querySelectorAll(".v-tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.tab===t?"page":"false"));
+  LS.set("vv-tab",t);
+  if(t==="train") drawTrain();
+  if(t==="mind") drawClock();
+  if(t==="today") layoutTimeline();
+  if(scroll) window.scrollTo({top:0,behavior:RM?"auto":"smooth"});
+}
+document.querySelectorAll(".v-tabs a").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();show(a.dataset.tab,true);try{history.replaceState(null,"","#"+a.dataset.tab);}catch(_){}}));
+
+/* ---------- profile, sleep window ---------- */
+const SW=Object.assign({wake:450,need:8},LS.get("vv-sleepwin",{}));
+const bedMin=()=>SW.wake-SW.need*60;          // minutes, may be negative (previous day)
+const bedT=()=>((bedMin()%1440)+1440)%1440;
+
+/* ---------- training plan ---------- */
+const PLAN=[
+ {d:"Mon",tag:"Lift",title:"Upper A · Strength",short:"Upper A",c:"--d-move",type:"upper",note:"Heavy compound pressing and pulling. Rest 2 to 3 minutes on the first two lifts and 90 seconds on the rest.",
+  ex:[["Barbell bench press","4 × 5–7",{chest:1,triceps:.5,shoulders:.5},"Shoulder blades pinned, touch the lower chest"],["Chest-supported row","4 × 6–8",{back:1,biceps:.5},"Pull elbows to your hips"],["Standing overhead press","3 × 6–8",{shoulders:1,triceps:.5},"Squeeze your glutes, no lean back"],["Lat pulldown","3 × 8–10",{back:1,biceps:.5},"Full stretch at the top"],["Incline dumbbell curl","3 × 10–12",{biceps:1},"Slow on the way down"],["Rope pushdown","3 × 10–12",{triceps:1},"Spread the rope at the bottom"]]},
+ {d:"Tue",tag:"Lift",title:"Lower A · Strength",short:"Lower A",c:"--d-move",type:"lower",note:"Squat pattern day. Warm up with 2 light sets before your working weight.",
+  ex:[["Back squat","4 × 5–7",{quads:1,glutes:.5},"Hip crease below the knee if mobility allows"],["Romanian deadlift","3 × 6–8",{hams:1,glutes:.5},"Push hips back, soft knees, flat back"],["Walking lunge","3 × 10 each leg",{quads:1,glutes:.5},"Long stride works glutes more"],["Lying leg curl","4 × 10–12",{hams:1},"Pause with the pad at your glutes"],["Standing calf raise","4 × 10–15",{calves:1},"2-second pause at the bottom"],["Hanging knee raise","4 × 12",{core:1},"Curl the pelvis up, no swinging"]]},
+ {d:"Wed",tag:"Cardio",title:"Zone 2 + mobility",short:"Zone 2",c:"--d-rec",type:"zone2",note:"Easy cardio at a pace where you can still talk in full sentences, heart rate about 120 to 140. It builds fitness without hurting recovery.",
+  ex:[["Incline walk or cycle","35 min",{},"Nasal breathing is a good pace check"],["Hip and thoracic mobility","10 min",{},"90/90s, open books, deep squat hold"],["Calf raise, bodyweight","3 × 20",{calves:1},"Slow and full range"],["Dead bug","3 × 10 each side",{core:1},"Lower back stays flat on the floor"]]},
+ {d:"Thu",tag:"Lift",title:"Upper B · Size",short:"Upper B",c:"--d-move",type:"upper",note:"Higher reps and a strong mind-muscle focus. Rest about 90 seconds between sets.",
+  ex:[["Incline dumbbell press","4 × 8–10",{chest:1,shoulders:.5,triceps:.5},"30° bench, deep stretch"],["Pull-up or assisted pull-up","4 × 6–10",{back:1,biceps:.5},"Chest to the bar, dead hang"],["Seated cable row","3 × 10–12",{back:1,biceps:.5},"Let the shoulders reach forward"],["Dumbbell lateral raise","4 × 12–15",{shoulders:1},"Lead with the elbows"],["Cable fly","3 × 12–15",{chest:1},"Hug a tree, squeeze 1 second"],["Hammer curl","3 × 10–12",{biceps:1},"No swinging"],["Overhead triceps extension","3 × 10–12",{triceps:1},"Full stretch behind the head"]]},
+ {d:"Fri",tag:"Lift",title:"Lower B · Hinge",short:"Lower B",c:"--d-move",type:"lower",note:"Hinge-focused day. Brace hard on the deadlift and stop the set when your form breaks down.",
+  ex:[["Trap-bar deadlift","4 × 4–6",{glutes:1,hams:.5,quads:.5},"Push the floor away"],["Leg press","3 × 10–12",{quads:1,glutes:.5},"Feet mid-platform, deep"],["Bulgarian split squat","3 × 8–10 each leg",{quads:1,glutes:.5},"Front shin stays roughly vertical"],["Hip thrust","3 × 8–10",{glutes:1,hams:.5},"Chin tucked, pause at the top"],["Seated calf raise","4 × 12–15",{calves:1},"Full stretch"],["Cable crunch","4 × 12–15",{core:1},"Curl the ribs to the hips"]]},
+ {d:"Sat",tag:"Active",title:"Zone 2 or sport",short:"Active",c:"--d-rec",type:"zone2",note:"Badminton, football, a swim or a long walk. Anything you enjoy that gets you to 10,000 steps.",
+  ex:[["Sport or brisk walk","30–45 min",{},"Pick something fun"],["Steps","10,000",{},"Split across the day"]]},
+ {d:"Sun",tag:"Rest",title:"Rest + Sunday reset",short:"Rest",c:"--d-sleep",type:"rest",note:"Recovery is where you grow. Walk, stretch, and set up the week so good choices are easy.",
+  ex:[["Long easy walk","40 min",{},"Outdoors if you can"],["Plan the week's meals","15 min",{},"Soak chana or rajma for Monday"],["Weekly review","15 min",{},"What worked, what's next, what to drop"]]}
+];
+const MUS=[["chest","Chest"],["back","Back"],["shoulders","Shoulders"],["biceps","Biceps"],["triceps","Triceps"],["quads","Quads"],["hams","Hamstrings"],["glutes","Glutes"],["calves","Calves"],["core","Core"]];
+const setsOf=sr=>{const m=/^(\d+)\s×/.exec(sr);return m?+m[1]:0;};
+
+/* ---------- log ---------- */
+const DEFAULT_LOG=()=>({date:TODAY,sleep:7,sleepQ:3,water:6,steps:6000,train:"none",energy:3,
+  meals:{bf:true,mid:false,lunch:true,pw:false,dinner:false,bed:true},food:{veg:false,fruit:false,chana:false},
+  mood:3,stress:3,mind:{breath:false,talk:false,shutdown:false,sun:false,screens:false},
+  supp:{creatine:true,ashwa:true,shilajit:true,hair:true,omega:false},wind:{},moodXY:null,journal:"",sets:{},score:0,logged:false});
+function merge(base,o){const r=clone(base);for(const k in o){if(o[k]&&typeof o[k]==="object"&&!Array.isArray(o[k])&&r[k]&&typeof r[k]==="object")r[k]=Object.assign(r[k],o[k]);else r[k]=o[k];}return r;}
+let log=merge(DEFAULT_LOG(),LS.get("vv-log-"+TODAY,{}));
+let hist=LS.get("vv-hist",{});
+let db=null,dirty=false,saveT=null;
+
+/* ---------- scoring ---------- */
+const DOM=[{k:"sleep",n:"Sleep",c:"--d-sleep"},{k:"move",n:"Move",c:"--d-move"},{k:"fuel",n:"Fuel",c:"--d-fuel"},{k:"mind",n:"Mind",c:"--d-mind"},{k:"rec",n:"Recover",c:"--d-rec"}];
+const MEALS=[["bf","Breakfast","250 ml milk and 1 scoop whey"],["mid","Mid-morning","Epigamia and walnuts"],["lunch","Lunch","a soya or chana bowl with dal"],["pw","Post-workout","250 ml milk"],["dinner","Dinner","paneer or dal with 2 cups of veg"],["bed","Bedtime","500 ml milk and Epigamia"]];
+const trainedT=t=>["upper","lower","zone2","sport"].includes(t);
+function scoreOf(L){
+  const mealsN=Object.values(L.meals||{}).filter(Boolean).length;
+  const m=L.mind||{},sp=L.supp||{},f=L.food||{};
+  const sleep=clamp((L.sleep-5)/2.75,0,1)*.7+(L.sleepQ-1)/4*.3;
+  const move=(trainedT(L.train)?.55:L.train==="rest"?.45:0)+clamp(L.steps/9000,0,1)*.3+(L.energy-1)/4*.15;
+  const fuel=clamp(mealsN/4,0,1)*.6+(f.veg?.15:0)+(f.fruit?.1:0)+(f.chana?.05:0)+clamp(L.water/10,0,1)*.1;
+  const mind=(L.mood-1)/4*.35+(5-L.stress)/4*.25+(m.breath?.15:0)+(m.talk?.1:0)+(m.shutdown?.15:0);
+  const rec=(sp.creatine?.2:0)+(sp.omega?.1:0)+(m.sun?.2:0)+(m.screens?.25:0)+clamp((L.sleep-5)/3,0,1)*.25;
+  const d={sleep,move,fuel,mind,rec};for(const k in d)d[k]=Math.round(clamp(d[k],0,1)*100)/10;
+  d.total=Math.round((d.sleep+d.move+d.fuel+d.mind+d.rec)/5*10)/10;d.mealsN=mealsN;return d;
+}
+const grade=v=>v>=8.5?"Elite day":v>=7?"Strong day":v>=5.5?"Solid, room to push":v>=4?"Patchy, fix one thing":"Recovery day";
+function why(k,L,d){
+  const bed=hm(bedT()),cut=hm(bedT()-480),scr=hm(bedT()-60),p=PLAN[DOW];
+  if(k==="sleep"){ if(L.sleep<7) return "<b>"+fmt(L.sleep,L.sleep%1?2:0)+" h of sleep.</b> Under 7 hours blunts fat loss and recovery. Tonight: lights out by "+bed+".";
+    if(L.sleepQ<=2) return "<b>Enough hours, poor quality.</b> Run the wind-down list in Mind and skip caffeine after "+cut+".";
+    return "<b>Sleep is solid.</b> Keep the "+hm(SW.wake)+" wake time fixed, weekends included."; }
+  if(k==="move"){ if(!trainedT(L.train)&&L.train!=="rest") return "<b>No session logged.</b> Today's plan: "+p.title+". Tick it off in Train.";
+    if(L.steps<8000) return "<b>"+fmt(L.steps)+" steps.</b> A 10-minute walk after lunch and after dinner adds about 2,500.";
+    return "<b>Moving well.</b> "+fmt(L.steps)+" steps and "+(L.train==="rest"?"a planned rest day":"a session done")+"."; }
+  if(k==="fuel"){ if(d.mealsN<4){const miss=MEALS.find(x=>!L.meals[x[0]]&&["bf","lunch","pw","bed"].includes(x[0]))||MEALS.find(x=>!L.meals[x[0]]);return "<b>"+d.mealsN+" of 4 protein feeds.</b> Easiest next one: "+miss[1].toLowerCase()+", "+miss[2]+".";}
+    if(!L.food.veg) return "<b>No vegetables yet.</b> 2 cups at dinner covers fibre and potassium.";
+    return "<b>Fuel is on point.</b> "+d.mealsN+" protein feeds and vegetables in."; }
+  if(k==="mind"){ if(L.stress>=4) return "<b>Stress is high.</b> Do 5 minutes of cyclic sighing in Mind now, and park worries until a 6 pm worry window.";
+    if(L.mood<=2) return "<b>Low mood logged.</b> Get daylight and message one friend. If it lasts two weeks, talk to someone.";
+    if(!L.mind.breath) return "<b>Mind is steady.</b> 5 minutes of breathwork makes it stick.";
+    return "<b>Mind looks good.</b> Breathwork done, stress in check."; }
+  if(!L.supp.creatine) return "<b>Creatine not taken.</b> Take 3 g any time today. It works through daily saturation, so timing doesn't matter.";
+  if(!L.mind.sun) return "<b>No morning light yet.</b> 10 minutes outdoors sets tonight's sleep drive.";
+  if(!L.mind.screens) return "<b>Plan screens down by "+scr+".</b> It's the biggest recovery lever left today.";
+  return "<b>Recovery is covered.</b> Creatine, daylight and screen curfew are all ticked.";
+}
+
+/* ---------- check-in UI ---------- */
+function faceSVG(v){const c=(v-3)*2.6;return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="11" r="1.6" fill="currentColor"/><circle cx="18" cy="11" r="1.6" fill="currentColor"/><path d="M8.5 '+(18.5-c/2)+' Q14 '+(18.5+c)+' 19.5 '+(18.5-c/2)+'" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';}
+function faces(id,key,labels){
+  const el=$(id);el.innerHTML="";
+  labels.forEach((lb,i)=>{const b=document.createElement("button");b.type="button";b.innerHTML=faceSVG(i+1)+"<small>"+lb+"</small>";b.setAttribute("aria-label",lb);
+    b.addEventListener("click",()=>{log[key]=i+1;change();});el.appendChild(b);});
+}
+function chips(id,items,getOn,toggle,color){
+  const el=$(id);el.innerHTML="";
+  items.forEach(it=>{const b=document.createElement("button");b.type="button";b.className="tick";b.textContent=it[1];b.dataset.k=it[0];if(color)b.style.setProperty("--c","var("+color+")");
+    if(it[2])b.title=it[2];b.addEventListener("click",()=>{toggle(it[0]);change();});el.appendChild(b);});
+  el._sync=()=>el.querySelectorAll(".tick").forEach(b=>b.setAttribute("aria-pressed",String(!!getOn(b.dataset.k))));
+}
+faces("fQual","sleepQ",["Wrecked","Tired","OK","Good","Fresh"]);
+faces("fEnergy","energy",["Empty","Low","OK","Good","Charged"]);
+faces("fMood","mood",["Awful","Low","Meh","Good","Great"]);
+chips("fTrain",[["upper","Upper"],["lower","Lower"],["zone2","Zone 2"],["sport","Sport"],["rest","Planned rest"]],k=>log.train===k,k=>{log.train=log.train===k?"none":k;},"--d-move");
+chips("fMeals",MEALS.map(m=>[m[0],m[1],m[2]]),k=>log.meals[k],k=>{log.meals[k]=!log.meals[k];},"--d-fuel");
+chips("fFood",[["veg","2 cups veg"],["fruit","A fruit"],["chana","Chana or rajma"]],k=>log.food[k],k=>{log.food[k]=!log.food[k];},"--d-fuel");
+chips("fMind",[["breath","5 min breathwork"],["talk","Real conversation"],["shutdown","Work shutdown ritual"]],k=>log.mind[k],k=>{log.mind[k]=!log.mind[k];},"--d-mind");
+chips("fSupp",[["creatine","Creatine 3 g"],["ashwa","Ashwagandha"],["shilajit","Shilajit"],["hair","Hair gummies"],["omega","Algae omega-3"],["sun","10 min morning light"],["screens","Screens down 1 h before bed"]],
+  k=>k==="sun"||k==="screens"?log.mind[k]:log.supp[k],k=>{if(k==="sun"||k==="screens")log.mind[k]=!log.mind[k];else log.supp[k]=!log.supp[k];},"--d-rec");
+const water=$("water");for(let i=0;i<12;i++){const b=document.createElement("button");b.type="button";b.setAttribute("aria-label",(i+1)+" glasses");b.addEventListener("click",()=>{log.water=log.water===i+1?i:i+1;change();});water.appendChild(b);}
+[["ciSleep","sleep"],["ciSteps","steps"],["ciStress","stress"]].forEach(([id,k])=>$(id).addEventListener("input",e=>{log[k]=parseFloat(e.target.value);change();}));
+
+function syncInputs(){
+  $("ciSleep").value=log.sleep;$("ciSteps").value=log.steps;$("ciStress").value=log.stress;
+  $("journal").value=log.journal||"";
+}
+function syncUI(){
+  $("oSleep").textContent=fmt(log.sleep,log.sleep%1?2:0)+" h";$("oSteps").textContent=fmt(log.steps);
+  $("oStress").textContent=["","Very low","Low","Medium","High","Very high"][log.stress];$("oWater").textContent=log.water+" · "+fmt(log.water*.25,2).replace(/0$/,"").replace(/\.$/,"")+" L";
+  [["fQual","sleepQ"],["fEnergy","energy"],["fMood","mood"]].forEach(([id,k])=>$(id).querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-pressed",String(log[k]===i+1))));
+  ["fTrain","fMeals","fFood","fMind","fSupp","windDown"].forEach(id=>$(id)._sync&&$(id)._sync());
+  water.querySelectorAll("button").forEach((b,i)=>b.classList.toggle("on",i<log.water));
+}
+
+/* ---------- save ---------- */
+function setSt(cls,msg){const s=$("saveSt");s.className="st "+cls;s.textContent=msg;}
+function change(){dirty=true;renderToday();clearTimeout(saveT);setSt("busy","Saving…");saveT=setTimeout(saveNow,900);}
+async function saveNow(){
+  clearTimeout(saveT);
+  const d=scoreOf(log);log.score=d.total;log.updated=Date.now();
+  hist[TODAY]={date:TODAY,score:d.total};LS.set("vv-log-"+TODAY,log);LS.set("vv-hist",hist);
+  if(db){try{await db.doc("logs/"+TODAY).set(clone(log));setSt("ok","Saved to your Vitals log");}
+    catch(e){setSt("",e&&e.code==="invalid_argument"?"Saved on this device only":"Saved on this device. Cloud save will retry on your next change");}}
+  else setSt("ok","Saved on this device");
+  renderHistory();
+}
+$("btnLog").addEventListener("click",e=>{log.logged=true;saveNow();const r=e.target.getBoundingClientRect();confetti(r.left+r.width/2,r.top);toast("Logged. Vitality "+fmt(scoreOf(log).total,1)+" out of 10");});
+
+function initDb(){
+  if(!(window.claude&&typeof window.claude.use==="function")){setSt("ok","Saving on this device");return;}
+  window.claude.use("db").then(d=>{
+    if(!d){setSt("ok","Saving on this device");return;}
+    db=d;
+    db.collection("logs").orderBy("date","desc").limit(60).onSnapshot(snap=>{
+      snap.docs.forEach(doc=>{const v=doc.data();if(v&&v.date)hist[v.date]={date:v.date,score:v.score||0};});
+      const t=snap.docs.find(doc=>doc.id===TODAY);
+      if(t&&!dirty){log=merge(DEFAULT_LOG(),t.data());syncInputs();}
+      if(!dirty)setSt("ok",t?"Today's log loaded":"Connected to your Vitals log");
+      LS.set("vv-hist",hist);renderToday();renderHistory();
+    },()=>setSt("","Saving on this device only"));
+    db.doc("profile/labs").get().then(s=>{if(s.exists){Object.assign(labsDone,s.data());renderLabs();}}).catch(()=>{});
+  });
+}
+
+/* ---------- orbit + ecg canvases ---------- */
+const orbitC=$("orbit"),octx=orbitC.getContext("2d"),ecgC=$("ecg"),ectx=ecgC.getContext("2d");
+const orb={cur:[0,0,0,0,0],tgt:[0,0,0,0,0],sel:-1,shown:0,tshown:0,parts:[]};
+DOM.forEach((_,i)=>{for(let j=0;j<16;j++)orb.parts.push({ring:i,a:Math.random()*Math.PI*2,s:(.004+Math.random()*.006)*(i%2?1:-1)*(1+i*.15),r:.8+Math.random()*1.6});});
+function fit(c){const r=c.getBoundingClientRect(),dpr=devicePixelRatio||1,w=Math.round(r.width*dpr),h=Math.round(r.height*dpr);if(c.width!==w||c.height!==h){c.width=w;c.height=h;}return {w,h,dpr};}
+let tPrev=performance.now(),ecgX=0;
+function frame(t){
+  const dt=Math.min(50,t-tPrev);tPrev=t;
+  if(!$("p-today").hidden&&!document.hidden){drawOrbit(dt);drawEcg(dt);}
+  if(!RM)requestAnimationFrame(frame);
+}
+function drawOrbit(dt){
+  const {w,h,dpr}=fit(orbitC),R=Math.min(w,h)/2,cx=w/2,cy=h/2,lw=R*.058;
+  const k=RM?1:1-Math.pow(.992,dt);
+  octx.clearRect(0,0,w,h);
+  DOM.forEach((d,i)=>{
+    orb.cur[i]+=(orb.tgt[i]-orb.cur[i])*Math.min(1,k*1.2);
+    const r=R*(.93-i*.105),col=cv(d.c),v=orb.cur[i],a0=-Math.PI/2,a1=a0+v*Math.PI*2,hi=orb.sel===i;
+    octx.lineCap="round";octx.lineWidth=lw*(hi?1.35:1);
+    octx.strokeStyle=cv("--track");octx.globalAlpha=.9;octx.beginPath();octx.arc(cx,cy,r,0,Math.PI*2);octx.stroke();
+    octx.globalAlpha=orb.sel<0||hi?1:.35;octx.strokeStyle=col;octx.shadowColor=col;octx.shadowBlur=(hi?22:12)*dpr*parseFloat(cv("--glow")||.5);
+    if(v>.002){octx.beginPath();octx.arc(cx,cy,r,a0,a1);octx.stroke();}
+    octx.shadowBlur=0;
+    if(v>.002){octx.fillStyle="#fff";octx.globalAlpha=.9;octx.beginPath();octx.arc(cx+Math.cos(a1)*r,cy+Math.sin(a1)*r,lw*.28,0,Math.PI*2);octx.fill();}
+    octx.globalAlpha=1;
+  });
+  orb.parts.forEach(p=>{
+    if(!RM)p.a+=p.s*dt*.06*(.4+orb.cur[p.ring]);
+    const r=R*(.93-p.ring*.105)+Math.sin(p.a*3+p.ring)*lw*.9,ang=((p.a%(Math.PI*2))+Math.PI*2)%(Math.PI*2),rel=((ang+Math.PI/2)%(Math.PI*2))/(Math.PI*2);
+    const inside=rel<=orb.cur[p.ring];octx.fillStyle=cv(DOM[p.ring].c);octx.globalAlpha=inside?.95:.18;
+    octx.beginPath();octx.arc(cx+Math.cos(p.a)*r,cy+Math.sin(p.a)*r,p.r*dpr,0,Math.PI*2);octx.fill();
+  });
+  octx.globalAlpha=1;
+  orb.shown+=(orb.tshown-orb.shown)*Math.min(1,k*1.4);
+  const disp=Math.abs(orb.shown-orb.tshown)<.05?orb.tshown:orb.shown;
+  const el=$("vScore");const txt=fmt(disp,1);if(el._t!==txt){el._t=txt;el.innerHTML=txt+"<small>/10</small>";}
+}
+function ecgY(x){const p=x%260;if(p<120)return 0;if(p<135)return -6*Math.sin((p-120)/15*Math.PI);if(p<150)return 0;if(p<156)return 8;if(p<166)return -34;if(p<174)return 16;if(p<180)return 0;if(p<215)return -9*Math.sin((p-180)/35*Math.PI);return 0;}
+function drawEcg(dt){
+  const {w,h,dpr}=fit(ecgC);ectx.clearRect(0,0,w,h);
+  const speed=.09+orb.tshown*.012;if(!RM)ecgX+=dt*speed;
+  const base=h*.62,col=cv("--acc"),W=w/dpr;
+  const g=ectx.createLinearGradient(0,0,w,0);g.addColorStop(0,"transparent");g.addColorStop(.15,col);g.addColorStop(.85,col);g.addColorStop(1,"transparent");
+  ectx.strokeStyle=g;ectx.lineWidth=1.6*dpr;ectx.lineJoin="round";ectx.beginPath();
+  for(let x=0;x<=W;x+=2){const y=base+ecgY(x+ecgX)*dpr*.8;if(x===0)ectx.moveTo(x*dpr,y);else ectx.lineTo(x*dpr,y);}
+  ectx.globalAlpha=.55;ectx.stroke();ectx.globalAlpha=1;
+}
+
+/* ---------- today render ---------- */
+function renderDomains(d){
+  const host=$("domains");
+  if(!host.children.length) DOM.forEach((dm,i)=>{const b=document.createElement("button");b.type="button";b.innerHTML='<b></b><small>'+dm.n+'</small><i><u style="background:var('+dm.c+')"></u></i>';
+    b.addEventListener("click",()=>{orb.sel=orb.sel===i?-1:i;renderToday();});host.appendChild(b);});
+  [...host.children].forEach((b,i)=>{const v=d[DOM[i].k];b.querySelector("b").textContent=fmt(v,1);b.querySelector("u").style.width=v*10+"%";b.setAttribute("aria-pressed",String(orb.sel===i));b.setAttribute("aria-label",DOM[i].n+" "+fmt(v,1)+" out of 10");});
+}
+function renderToday(){
+  const d=scoreOf(log);
+  orb.tgt=DOM.map(x=>d[x.k]/10);orb.tshown=d.total;
+  if(RM){orb.cur=orb.tgt.slice();orb.shown=d.total;drawOrbit(16);drawEcg(0);}
+  $("vGrade").textContent=grade(d.total);
+  renderDomains(d);
+  const low=DOM.slice().sort((a,b)=>d[a.k]-d[b.k])[0];
+  const sel=orb.sel>=0?DOM[orb.sel]:null;
+  $("domWhy").innerHTML=sel?why(sel.k,log,d):"Tap an area to see what drives it.";
+  $("verdict").innerHTML="Biggest lever today is <b>"+low.n.toLowerCase()+"</b>. "+why(low.k,log,d);
+  syncUI();
+  $("stStreak").textContent=streak();
+}
+function streak(){let n=0;const d=new Date();if(!hist[TODAY])d.setDate(d.getDate()-1);for(;;){if(hist[dayKey(d)]){n++;d.setDate(d.getDate()-1);}else break;}return n;}
+function renderHistory(){
+  const cells=[],heat=$("heat");heat.innerHTML="";
+  for(let i=27;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);const k=dayKey(d);cells.push({k,d,v:hist[k]?hist[k].score:null});}
+  cells.forEach(c=>{const el=document.createElement("div");el.textContent=c.d.getDate();
+    if(c.v!=null){const pc=Math.round(clamp(c.v/10,0,1)*100);el.style.background="color-mix(in srgb,var(--d-rec) "+pc+"%,var(--track))";el.style.color=pc>55?"var(--acc-ink)":"var(--muted)";}
+    if(c.k===TODAY)el.classList.add("today");el.title=c.d.toDateString()+(c.v!=null?": "+fmt(c.v,1):": not logged");
+    el.addEventListener("click",()=>{$("heatSel").textContent=c.d.toLocaleDateString("en-IN",{day:"numeric",month:"short"})+": "+(c.v!=null?fmt(c.v,1)+" / 10":"not logged");});heat.appendChild(el);});
+  const svg=$("spark");while(svg.firstChild)svg.removeChild(svg.firstChild);
+  const W=520,H=120,ml=22,mr=8,mt=10,mb=18,x=i=>ml+(W-ml-mr)*i/27,y=v=>mt+(H-mt-mb)*(1-v/10);
+  [0,5,10].forEach(v=>{svg.appendChild(S("line",{x1:ml,x2:W-mr,y1:y(v),y2:y(v),stroke:"var(--line)"}));const t=S("text",{x:ml-6,y:y(v)+3.5,"text-anchor":"end"});t.textContent=v;svg.appendChild(t);});
+  [0,7,14,21,27].forEach(i=>{const t=S("text",{x:x(i),y:H-4,"text-anchor":i===0?"start":i===27?"end":"middle"});t.textContent=i===27?"Today":cells[i].d.toLocaleDateString("en-IN",{day:"numeric",month:"short"});svg.appendChild(t);});
+  const pts=cells.map((c,i)=>c.v!=null?[x(i),y(c.v)]:null).filter(Boolean);
+  if(pts.length>1){
+    const dl="M"+pts.map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L");
+    const area=S("path",{d:dl+" L"+pts[pts.length-1][0]+" "+y(0)+" L"+pts[0][0]+" "+y(0)+" Z",fill:"var(--d-rec)","fill-opacity":".14"});svg.appendChild(area);
+    const line=S("path",{d:dl,fill:"none",stroke:"var(--d-rec)","stroke-width":"2.2","stroke-linejoin":"round","stroke-linecap":"round"});svg.appendChild(line);
+    if(!RM){const L=line.getTotalLength();line.style.strokeDasharray=L;line.style.strokeDashoffset=L;line.getBoundingClientRect();line.style.transition="stroke-dashoffset 1.2s ease";line.style.strokeDashoffset=0;}
+  }
+  pts.forEach((p,i)=>svg.appendChild(S("circle",{cx:p[0],cy:p[1],r:i===pts.length-1?4:2.5,fill:"var(--d-rec)",stroke:"var(--card)","stroke-width":"1.5"})));
+  const logged=cells.filter(c=>c.v!=null);
+  $("sparkCap").textContent=logged.length<2?"Log a few days and your trend line appears here. Today counts as soon as you change anything.":logged.length+" days logged. Average "+fmt(logged.reduce((a,c)=>a+c.v,0)/logged.length,1)+", best "+fmt(Math.max(...logged.map(c=>c.v)),1)+".";
+  $("stStreak").textContent=streak();
+}
+
+/* ---------- timeline ---------- */
+let dayMode=["upper","lower"].includes(PLAN[DOW].type)?"train":"rest";
+function events(){
+  const W=SW.wake,B=W+(24-SW.need)*60,p=PLAN[DOW],tr=dayMode==="train";
+  return [
+    [W,"Wake, 500 ml water, 10 min daylight","Morning light sets tonight's sleep time","--d-sleep"],
+    [W+30,"Breakfast · protein feed 1","250 ml milk, 1 scoop whey, 2 slices bread, half an avocado. Creatine 3 g.","--d-fuel"],
+    [W+210,"Mid-morning","Epigamia and 12 walnut halves, plus a fruit","--d-fuel"],
+    [810,"Lunch · protein feed 2","Soya bowl or chana with dal, roti, sabzi. 10-minute walk after.","--d-fuel"],
+    [B-480,"Last coffee or chai","Caffeine keeps working for about 8 hours","--d-mind"],
+    [1080,tr?"Train · "+(p.type==="upper"||p.type==="lower"?p.title:"Upper or lower session"):"Zone 2 walk or mobility, 30 min",tr?"Warm up 5 min, log your sets in Train":"Easy pace, still able to talk","--d-move"],
+    [1155,tr?"Post-workout · protein feed 3":"Snack","250 ml milk"+(tr?" within the hour":", or roasted chana"),"--d-fuel"],
+    [1260,"Dinner + 2 cups vegetables","Fibre, potassium, and a 10-minute walk after","--d-fuel"],
+    [B-60,"Screens down, write tomorrow's top 3","Ashwagandha and shilajit gummies now","--d-mind"],
+    [B-30,"Bedtime · protein feed 4","500 ml milk. Its slow casein feeds muscle overnight.","--d-fuel"],
+    [B,"Lights out","Target "+SW.need+" hours to a "+hm(W)+" wake","--d-sleep"]
+  ].sort((a,b)=>a[0]-b[0]);
+}
+function layoutTimeline(){
+  const host=$("timeline"),prog=$("tlProg");host.querySelectorAll(".tl-row").forEach(r=>r.remove());
+  const now=new Date(),nm=now.getHours()*60+now.getMinutes(),ev=events();
+  const nmAdj=nm<SW.wake-120?nm+1440:nm;
+  let nextI=ev.findIndex(e=>e[0]>nmAdj);
+  ev.forEach((e,i)=>{const r=document.createElement("div");r.className="tl-row"+(nextI===-1||i<nextI?" past":"")+(i===nextI?" next":"");r.style.setProperty("--c","var("+e[3]+")");
+    const mins=e[0]-nmAdj;r.innerHTML='<span class="t">'+hm(e[0])+'</span><span class="dot"></span><div>'+(i===nextI?'<span class="when">in '+(mins>=60?Math.floor(mins/60)+" h ":"")+(mins%60)+' min</span>':"")+'<b>'+esc(e[1])+'</b><small>'+esc(e[2])+'</small></div>';host.appendChild(r);});
+  const rows=host.querySelectorAll(".tl-row");
+  $("nextUp").textContent=nextI===-1?"Day done. Lights out and recover.":"Next up: "+ev[nextI][1].split(" · ")[0];
+  requestAnimationFrame(()=>{if(!rows.length)return;const tgt=nextI===-1?rows[rows.length-1]:rows[nextI];prog.style.height=Math.max(0,tgt.offsetTop+3)+"px";});
+}
+document.querySelectorAll(".daymode button").forEach(b=>{b.setAttribute("aria-pressed",String(b.dataset.m===dayMode));b.addEventListener("click",()=>{dayMode=b.dataset.m;document.querySelectorAll(".daymode button").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));layoutTimeline();});});
+setInterval(()=>{if(!$("p-today").hidden)layoutTimeline();},60000);
+
+/* ---------- train ---------- */
+let selDay=DOW;
+function drawTrain(){
+  const wk=$("week");
+  if(!wk.children.length) PLAN.forEach((p,i)=>{const b=document.createElement("button");b.type="button";b.style.setProperty("--c","var("+p.c+")");if(i===DOW)b.classList.add("today");
+    b.innerHTML="<b>"+p.d+"</b><small>"+p.short+"</small><i></i>";b.addEventListener("click",()=>{selDay=i;drawTrain();});wk.appendChild(b);});
+  [...wk.children].forEach((b,i)=>b.setAttribute("aria-pressed",String(i===selDay)));
+  const p=PLAN[selDay],ex=$("exList");
+  $("wkTag").textContent=p.tag+(selDay===DOW?" · today":"");$("wkTitle").textContent=p.title;$("wkNote").textContent=p.note;
+  const sets=p.ex.reduce((a,e)=>a+setsOf(e[1]),0);$("wkMeta").textContent=p.ex.length+" moves"+(sets?" · "+sets+" sets · about "+Math.round(sets*2.6+8)+" min":"");
+  ex.style.setProperty("--c","var("+p.c+")");$("wkProgWrap").style.setProperty("--c","var("+p.c+")");
+  ex.innerHTML="";
+  p.ex.forEach((e,j)=>{const id=p.d+j,done=!!log.sets[id];const r=document.createElement("div");r.className="ex-row"+(done?" done":"");r.style.setProperty("--c","var("+p.c+")");
+    r.innerHTML='<button type="button" aria-label="Mark '+esc(e[0])+' done" aria-pressed="'+done+'"></button><div><b>'+esc(e[0])+'</b><small>'+esc(e[3])+'</small></div><span class="sr">'+esc(e[1])+'</span>';
+    r.querySelector("button").addEventListener("click",ev=>{log.sets[id]=!log.sets[id];const all=p.ex.every((_,k)=>log.sets[p.d+k]);
+      if(all&&selDay===DOW&&!trainedT(log.train)&&p.type!=="rest")log.train=p.type;
+      change();drawTrain();if(all){const rc=ev.target.getBoundingClientRect();confetti(rc.left,rc.top);toast(p.short+" complete. Great work.");}});
+    ex.appendChild(r);});
+  const dn=p.ex.filter((_,k)=>log.sets[p.d+k]).length;requestAnimationFrame(()=>{$("wkProg").style.width=(dn/p.ex.length*100)+"%";});
+  drawVolume();drawProj();
+}
+function drawVolume(){
+  const svg=$("vol");while(svg.firstChild)svg.removeChild(svg.firstChild);
+  const vol={};MUS.forEach(m=>vol[m[0]]=0);PLAN.forEach(p=>p.ex.forEach(e=>{const s=setsOf(e[1]);for(const k in e[2])vol[k]+=s*e[2][k];}));
+  const W=520,ml=92,mr=40,mt=20,rowH=29,max=24,x=v=>ml+(W-ml-mr)*v/max;
+  svg.appendChild(S("rect",{x:x(10),y:mt-6,width:x(20)-x(10),height:rowH*MUS.length+6,fill:"var(--d-move)","fill-opacity":".1",rx:6}));
+  [0,10,20].forEach(v=>{svg.appendChild(S("line",{x1:x(v),x2:x(v),y1:mt-6,y2:mt+rowH*MUS.length,stroke:"var(--line)","stroke-dasharray":v?"4 4":"0"}));const t=S("text",{x:x(v),y:mt-9,"text-anchor":"middle"});t.textContent=v+(v===20?" sets":"");svg.appendChild(t);});
+  MUS.forEach((m,i)=>{const v=vol[m[0]],yy=mt+i*rowH,ok=v>=10&&v<=20;
+    const l=S("text",{x:ml-8,y:yy+rowH/2+4,"text-anchor":"end","class":"lbl"});l.textContent=m[1];svg.appendChild(l);
+    const r=S("rect",{x:ml,y:yy+6,height:rowH-12,width:RM?x(v)-ml:0,rx:5,fill:ok?"var(--d-move)":"var(--watch)"});svg.appendChild(r);
+    if(!RM){r.style.transition="width .9s cubic-bezier(.2,.8,.2,1) "+(i*50)+"ms";requestAnimationFrame(()=>requestAnimationFrame(()=>r.setAttribute("width",x(v)-ml)));}
+    const t=S("text",{x:x(v)+6,y:yy+rowH/2+4});t.textContent=fmt(v,v%1?1:0);t.style.fill="var(--ink)";t.style.fontFamily="var(--mono)";svg.appendChild(t);});
+}
+const PJ={def:-350,bf:24,days:4,prot:6};
+function drawProj(){
+  $("oPjDef").textContent=(PJ.def>0?"+":"")+PJ.def+" kcal";$("oPjBf").textContent=PJ.bf+"%";$("oPjDays").textContent=PJ.days;$("oPjProt").textContent=PJ.prot+" of 7";
+  const W0=84,F0=W0*PJ.bf/100,weeks=16,tot=PJ.def*7/7700;
+  let lean=PJ.days>=3?.06:PJ.days>=1?.03:0;lean*=(.35+.65*PJ.prot/7);if(PJ.def<-500)lean*=.6;if(PJ.days===0&&tot<0)lean=tot*.3;
+  if(PJ.def>0&&PJ.days>=3)lean=Math.min(tot,lean*1.4);
+  const pts=[];for(let w=0;w<=weeks;w++)pts.push({w,wt:tot*w,ln:lean*w,ft:(tot-lean)*w});
+  const all=pts.flatMap(p=>[p.wt,p.ln,p.ft]),lo=Math.min(-1,Math.floor(Math.min(...all))),hi=Math.max(1,Math.ceil(Math.max(...all)));
+  const svg=$("proj");while(svg.firstChild)svg.removeChild(svg.firstChild);
+  const Wd=520,H=220,ml=34,mr=10,mt=12,mb=22,x=w=>ml+(Wd-ml-mr)*w/weeks,y=v=>mt+(H-mt-mb)*(hi-v)/(hi-lo);
+  const step=(hi-lo)>8?2:1;
+  for(let v=lo;v<=hi;v+=step){svg.appendChild(S("line",{x1:ml,x2:Wd-mr,y1:y(v),y2:y(v),stroke:v===0?"var(--muted)":"var(--line)","stroke-width":v===0?1.2:1}));const t=S("text",{x:ml-6,y:y(v)+3.5,"text-anchor":"end"});t.textContent=(v>0?"+":"")+v;svg.appendChild(t);}
+  [0,4,8,12,16].forEach(w=>{const t=S("text",{x:x(w),y:H-6,"text-anchor":w===0?"start":w===16?"end":"middle"});t.textContent=w===0?"Now":"Wk "+w;svg.appendChild(t);});
+  [["wt","var(--ink)"],["ft","var(--d-move)"],["ln","var(--d-rec)"]].forEach(([k,c])=>{
+    const path=S("path",{d:"M"+pts.map(p=>x(p.w).toFixed(1)+" "+y(p[k]).toFixed(1)).join(" L"),fill:"none",stroke:c,"stroke-width":"2.4","stroke-linecap":"round"});svg.appendChild(path);
+    const e=pts[pts.length-1];svg.appendChild(S("circle",{cx:x(e.w),cy:y(e[k]),r:4,fill:c}));
+    if(!RM){const L=path.getTotalLength();path.style.strokeDasharray=L;path.style.strokeDashoffset=L;path.getBoundingClientRect();path.style.transition="stroke-dashoffset .9s ease";path.style.strokeDashoffset=0;}});
+  const e=pts[pts.length-1],wt=W0+e.wt,bf1=(F0+e.ft)/wt*100;
+  $("pjOut").innerHTML="In 16 weeks: about <b>"+fmt(wt,1)+" kg</b>, fat "+(e.ft<=0?"−":"+")+fmt(Math.abs(e.ft),1)+" kg, lean "+(e.ln>=0?"+":"−")+fmt(Math.abs(e.ln),1)+" kg. Body fat "+PJ.bf+"% → <b>"+fmt(bf1,1)+"%</b>."+(PJ.def<-600?" A deficit this steep makes muscle harder to keep.":"");
+}
+[["pjDef","def"],["pjBf","bf"],["pjDays","days"],["pjProt","prot"]].forEach(([id,k])=>{$(id).value=PJ[k];$(id).addEventListener("input",e=>{PJ[k]=+e.target.value;drawProj();});});
+
+/* ---------- mind: breathing ---------- */
+const BREATH={
+  sigh:{n:"Cyclic sighing",d:"Two inhales through the nose, the second one short to top up, then a long slow exhale through the mouth. It had the best mood results in the Stanford trial.",ph:[["Inhale",2,1],["Top up",1,1.08],["Long exhale",6,.55]]},
+  box:{n:"Box 4-4-4-4",d:"Breathe in, hold, breathe out and hold again, 4 seconds each. Navy SEALs use it to stay steady under pressure. Good before a big call.",ph:[["Inhale",4,1],["Hold",4,1],["Exhale",4,.55],["Hold",4,.55]]},
+  f478:{n:"4-7-8 for sleep",d:"In for 4, hold for 7, out for 8 through pursed lips. The long exhale slows your heart rate. Do it in bed with the lights off.",ph:[["Inhale",4,1],["Hold",7,1],["Exhale",8,.55]]},
+  res:{n:"Resonance 5.5",d:"Smooth breathing at 5.5 seconds in and 5.5 out, about 5.5 breaths a minute. That's the rate where heart rate variability peaks.",ph:[["Inhale",5.5,1],["Exhale",5.5,.55]]}
+};
+let bMode=LS.get("vv-bmode","sigh"),bRun=null;
+function bRender(){
+  const m=$("bModes");m.innerHTML="";
+  Object.keys(BREATH).forEach(k=>{const b=document.createElement("button");b.type="button";b.className="tick";b.style.setProperty("--c","var(--d-mind)");b.textContent=BREATH[k].n;b.setAttribute("aria-pressed",String(k===bMode));
+    b.addEventListener("click",()=>{if(bRun)bStop();bMode=k;LS.set("vv-bmode",k);bRender();});m.appendChild(b);});
+  $("bDesc").textContent=BREATH[bMode].d;
+}
+function bStop(done){
+  if(bRun){clearTimeout(bRun.t);clearInterval(bRun.iv);}bRun=null;
+  const ball=$("ball");ball.style.transition="transform 1.2s ease";ball.style.transform="scale(.55)";
+  $("bPhase").textContent=done?"Done":"Ready";$("bCount").textContent=done?"Nice work":"Tap start";$("bTimer").textContent="";
+  $("bStart").disabled=false;$("bStop").disabled=true;
+}
+$("bStart").addEventListener("click",()=>{
+  const M=BREATH[bMode],end=Date.now()+300000;let i=0;bRun={};
+  $("bStart").disabled=true;$("bStop").disabled=false;
+  const ball=$("ball");
+  function step(){
+    if(Date.now()>=end){bStop(true);log.mind.breath=true;change();confetti();toast("5 minutes done. Breathwork ticked for today.");return;}
+    const [name,sec,sc]=M.ph[i%M.ph.length];i++;
+    ball.style.transition="transform "+sec+"s cubic-bezier(.45,0,.55,1)";ball.style.transform="scale("+sc+")";
+    $("bPhase").textContent=name;let left=Math.ceil(sec);$("bCount").textContent=left;
+    clearInterval(bRun.iv);bRun.iv=setInterval(()=>{left--;if(left>0)$("bCount").textContent=left;const r=Math.max(0,end-Date.now());$("bTimer").textContent=Math.floor(r/60000)+":"+pad(Math.floor(r%60000/1000))+" left";},1000);
+    bRun.t=setTimeout(step,sec*1000);
+  }
+  step();
+});
+$("bStop").addEventListener("click",()=>bStop(false));
+
+/* ---------- mind: mood meter ---------- */
+const QUAD=[
+  ["Tense or wired.","Burn it off with a 10-minute brisk walk or 3 rounds of cyclic sighing. Then write down the one thing you're worried about and when you'll deal with it."],
+  ["Driven and up.","Use this energy on your hardest task now, in a 90-minute block with your phone in another room."],
+  ["Flat or drained.","Check the basics first: last night's sleep, water, and whether you've eaten in the last 4 hours. Then get 10 minutes of daylight or message a friend."],
+  ["Calm and settled.","A good state for planning, reflection and sleep. Protect it by staying out of work chat for the rest of the evening."]
+];
+function renderMeter(){
+  const pin=$("pin"),xy=log.moodXY;
+  if(!xy){pin.hidden=true;$("meterOut").textContent="No reading yet today.";return;}
+  pin.hidden=false;pin.style.left=xy[0]*100+"%";pin.style.top=xy[1]*100+"%";
+  const q=(xy[1]<.5?0:2)+(xy[0]<.5?0:1),int=Math.max(Math.abs(xy[0]-.5),Math.abs(xy[1]-.5))*2;
+  $("meterOut").innerHTML="<b>"+(int>.6?"Strongly ":int<.25?"Mildly ":"")+QUAD[q][0].toLowerCase().replace(/^./,c=>c.toUpperCase())+"</b> "+QUAD[q][1];
+}
+$("meter").addEventListener("pointerdown",e=>{const r=e.currentTarget.getBoundingClientRect();log.moodXY=[clamp((e.clientX-r.left)/r.width,0,1),clamp((e.clientY-r.top)/r.height,0,1)].map(v=>Math.round(v*100)/100);renderMeter();change();});
+
+/* ---------- mind: journal ---------- */
+const PROMPTS=["What drained you today, and what gave you energy?","One thing you'd do differently tomorrow?","What are you avoiding, and what's the smallest first step?","Who helped you this week? Tell them.","What went right with Naira today, however small?","If a friend had your day, what would you tell them?","What would make tomorrow a 9 out of 10?","What are you proud of that nobody saw?"];
+let pIdx=(Math.floor(Date.now()/86400000))%PROMPTS.length;
+$("jPrompt").textContent=PROMPTS[pIdx];
+$("jNext").addEventListener("click",()=>{pIdx=(pIdx+1)%PROMPTS.length;$("jPrompt").textContent=PROMPTS[pIdx];});
+let jT;$("journal").addEventListener("input",e=>{log.journal=e.target.value;$("jSt").textContent="Saving…";clearTimeout(jT);jT=setTimeout(()=>{change();$("jSt").textContent="Saved with today's log";},700);});
+
+/* ---------- mind: sleep window ---------- */
+function drawClock(){
+  $("wake").value=SW.wake;$("sleepNeed").value=SW.need;
+  $("oWake").textContent=hm(SW.wake);$("oNeed").textContent=SW.need+" h";
+  const svg=$("clock");while(svg.firstChild)svg.removeChild(svg.firstChild);
+  const W=520,ml=8,mr=8,x0=720,x=m=>ml+(W-ml-mr)*(((m-x0)%1440+1440)%1440)/1440;
+  const bed=bedT(),wake=SW.wake,cut=bed-480,scr=bed-60;
+  const band=(a,b,y,h,c,op)=>{const xa=x(a),xb=x(b);if(xb>=xa)svg.appendChild(S("rect",{x:xa,y,width:xb-xa,height:h,rx:5,fill:c,"fill-opacity":op}));else{svg.appendChild(S("rect",{x:xa,y,width:W-mr-xa,height:h,rx:5,fill:c,"fill-opacity":op}));svg.appendChild(S("rect",{x:ml,y,width:xb-ml,height:h,rx:5,fill:c,"fill-opacity":op}));}};
+  svg.appendChild(S("rect",{x:ml,y:22,width:W-ml-mr,height:30,rx:8,fill:"var(--track)"}));
+  band(cut,bed,22,30,"var(--d-mind)",.25);band(scr,bed,22,30,"var(--d-mind)",.55);band(bed,wake,22,30,"var(--d-sleep)",1);band(wake,wake+30,22,30,"var(--d-fuel)",.9);
+  [720,900,1080,1260,0,180,360,540].forEach(m=>{const t=S("text",{x:x(m)+(m===720?2:0),y:70,"text-anchor":m===720?"start":"middle","font-size":"10.5","font-family":"var(--mono)"});t.textContent=hm(m).replace(":00","");t.style.fill="var(--muted)";svg.appendChild(t);});
+  const now=new Date(),nm=now.getHours()*60+now.getMinutes();svg.appendChild(S("line",{x1:x(nm),x2:x(nm),y1:14,y2:58,stroke:"var(--ink)","stroke-width":2}));
+  const tn=S("text",{x:x(nm),y:10,"text-anchor":"middle","font-size":"10","font-family":"var(--mono)"});tn.textContent="now";tn.style.fill="var(--ink)";svg.appendChild(tn);
+  [[bed,"bed"],[wake,"wake"]].forEach(([m,l])=>{const t=S("text",{x:x(m),y:86,"text-anchor":"middle","font-size":"10.5","font-weight":"700"});t.textContent=l;t.style.fill="var(--d-sleep)";svg.appendChild(t);});
+  $("sleepOut").innerHTML='<span class="chips" style="gap:12px"><span><i class="sw" style="background:var(--d-sleep);display:inline-block;width:10px;height:10px;border-radius:3px"></i> Lights out <b>'+hm(bed)+'</b></span><span><i style="background:var(--d-mind);display:inline-block;width:10px;height:10px;border-radius:3px;opacity:.55"></i> Screens down <b>'+hm(scr)+'</b></span><span><i style="background:var(--d-mind);display:inline-block;width:10px;height:10px;border-radius:3px;opacity:.25"></i> No caffeine after <b>'+hm(cut)+'</b></span><span><i style="background:var(--d-fuel);display:inline-block;width:10px;height:10px;border-radius:3px"></i> Morning light</span></span>';
+}
+[["wake","wake"],["sleepNeed","need"]].forEach(([id,k])=>$(id).addEventListener("input",e=>{SW[k]=+e.target.value;LS.set("vv-sleepwin",SW);drawClock();layoutTimeline();renderToday();}));
+chips("windDown",[["dim","Dim the lights"],["phone","Phone out of the bedroom"],["shower","Warm shower"],["journal","Journal 3 lines"],["top3","Tomorrow's top 3 written"],["cool","Room cool and dark"]],k=>log.wind&&log.wind[k],k=>{log.wind=log.wind||{};log.wind[k]=!log.wind[k];const n=Object.values(log.wind).filter(Boolean).length;if(n>=3&&!log.mind.screens){log.mind.screens=true;toast("Wind-down counted toward recovery");}},"--d-sleep");
+
+/* ---------- coach ---------- */
+const PRIO=[
+  ["--d-fuel",5,"Swap Protinex for 1 scoop of tested whey","About the same protein, roughly 790 mg less added calcium and 35 g fewer carbs a day. That takes you back under the 2,500 mg calcium limit. The Fuel tab shows the before and after."],
+  ["--d-sleep",5,"Sleep 7.5 to 8.5 hours at a fixed wake time","In a dieting trial, people sleeping 5.5 hours lost 55% less fat than those sleeping 8.5, and more of what they lost was muscle. Sleep is the cheapest recomp tool you have."],
+  ["--d-fuel",4,"Four protein feeds of 30 g or more","Breakfast whey and milk, a soya or chana lunch, milk after training, and milk with Epigamia at bedtime. Each feed crosses the leucine trigger, about 2.5 g, that switches on muscle building."],
+  ["--d-move",4,"Lift 4 days, walk 8,000 to 10,000 steps","The upper/lower plan in Train puts every muscle at 10 to 20 hard sets a week. Steps do most of the fat-loss work without eating into recovery."],
+  ["--d-mind",4,"5 minutes of breathwork and a work shutdown ritual","Founder stress builds up. Cyclic sighing lifts mood within days, and writing tomorrow's top 3 lets your brain stop replaying work at night."],
+  ["--d-rec",3,"Add algae omega-3, fruit and 2 cups of veg; drop L-carnitine","This fills your EPA and DHA gap and your fibre gap. Carnitine adds little and raises TMAO, so it can go."],
+  ["--d-sleep",3,"Test vitamin D and B12 this quarter","About half of Indians tested are vitamin D deficient, and vegetarians often run low on B12. A test tells you whether to supplement. Guessing doesn't."]
+];
+$("prio").innerHTML=PRIO.map((p,i)=>'<div class="pr reveal" style="--c:var('+p[0]+');animation-delay:'+(i*60)+'ms"><div class="n">'+(i+1)+'</div><div><b>'+p[2]+'</b><p>'+p[3]+'</p><div class="imp">'+[1,2,3,4,5].map(v=>'<i class="'+(v<=p[1]?"on":"")+'"></i>').join("")+'<span style="margin-left:6px">Impact '+p[1]+' of 5</span></div></div></div>').join("");
+
+const LABS=[["vitd","25-OH vitamin D","About half of Indians tested are low"],["b12","Vitamin B12","Vegetarian risk. Boiling milk destroys some B12."],["lipid","Lipid profile","Lots of dairy fat, so check LDL"],["hba1c","HbA1c and fasting glucose","A baseline for insulin sensitivity"],["lft","Liver function (LFT)","You take ashwagandha"],["kft","Kidney function and eGFR","Creatine raises creatinine, so tell the lab and ask about cystatin C"],["tsh","Thyroid (TSH)","Ashwagandha can nudge thyroid hormones"],["cbc","CBC and ferritin","Plant iron is less absorbed"],["ca","Serum calcium","Your calcium intake has been high"]];
+let labsDone=LS.get("vv-labs",{});
+function renderLabs(){
+  $("labs").innerHTML=LABS.map(l=>'<label class="lab"><input type="checkbox" id="lab-'+l[0]+'" data-l="'+l[0]+'"'+(labsDone[l[0]]?" checked":"")+'><span><b>'+l[1]+'</b><small>'+l[2]+(labsDone[l[0]]?" · done "+esc(labsDone[l[0]]):"")+'</small></span></label>').join("");
+  $("labs").querySelectorAll("input").forEach(i=>i.addEventListener("change",()=>{if(i.checked)labsDone[i.dataset.l]=TODAY;else delete labsDone[i.dataset.l];LS.set("vv-labs",labsDone);
+    if(db)db.doc("profile/labs").set(clone(labsDone)).catch(()=>{});renderLabs();}));
+}
+renderLabs();
+
+let fuelInfo=null;
+window.addEventListener("fuelscore",e=>{fuelInfo=e.detail;$("stFuel").textContent=e.detail.fuel;$("stProt").innerHTML=fmt(e.detail.protein)+"<small> g</small>";});
+
+const chat=$("chat");let turns=[],sample=null,ctl=null;
+function addMsg(cls,text){const m=document.createElement("div");m.className="msg "+cls;m.textContent=text;chat.appendChild(m);chat.scrollTop=chat.scrollHeight;return m;}
+addMsg("ai","Hi Veeraj. I know your routine, your supplement stack and today's check-in. Ask me anything about food, training, sleep, stress or mood.");
+function context(){
+  const d=scoreOf(log),past=Object.values(hist).filter(h=>h.date!==TODAY).sort((a,b)=>a.date<b.date?1:-1).slice(0,7);
+  return "You are Veeraj's personal health coach, covering nutrition, strength training, sleep, and mental and emotional health. Be warm, direct and specific. Keep answers under 180 words unless he asks for more. Use short paragraphs or a few bullets and plain language. Use Indian foods, brands and metric units. Don't diagnose. Point him to a doctor for medical symptoms. For signs of a mental health crisis, mention Tele-MANAS (14416, free, 24 hours, India).\n\n"+
+  "PROFILE: male, 24, 84 kg, 175 cm, mostly vegetarian (eggs optional), lifts 3 to 5 days a week (upper/lower split), goal is recomp (lose fat, keep or gain muscle). Founder of Naira, a demi-fine jewellery brand, so he carries founder stress. Targets: about 150 g protein a day, 4 protein feeds of 30 g+, 7.5 to 8.5 h sleep, wake "+hm(SW.wake)+".\n"+
+  "ROUTINE: Sarda Farms cow milk 1 L a day (4 g protein per 100 ml), Protinex 2 servings (recommended swap: 1 scoop whey), Epigamia Greek yogurt, 2 slices bread, 1 avocado, 12 walnut halves, 50 g dry soya chunks on alternate days, home dal/roti/rice/sabzi. Supplements: creatine 3 g, ashwagandha gummies (~340 mg KSM-66), Man Matters shilajit gummies, Himalaya hair gummies, L-carnitine 2 g (recommended to drop). Known issues: calcium over the 2,500 mg limit because of Protinex, low fibre, no EPA or DHA, saturated fat slightly high.\n"+
+  (fuelInfo?"FUEL REPORT: fuel score "+fuelInfo.fuel+"/100, protein "+Math.round(fuelInfo.protein)+" g a day, calcium "+Math.round(fuelInfo.ca)+" mg a day.\n":"")+
+  "TODAY ("+TODAY+", "+PLAN[DOW].d+", planned: "+PLAN[DOW].title+"): vitality "+d.total+"/10 (sleep "+d.sleep+", move "+d.move+", fuel "+d.fuel+", mind "+d.mind+", recover "+d.rec+"). Slept "+log.sleep+" h, rested "+log.sleepQ+"/5, energy "+log.energy+"/5, mood "+log.mood+"/5, stress "+log.stress+"/5, steps "+log.steps+", water "+log.water+" glasses, training: "+log.train+", protein feeds hit: "+d.mealsN+".\n"+
+  (past.length?"RECENT DAYS (vitality out of 10): "+past.map(h=>h.date+" "+h.score).join(", ")+"\n":"");
+}
+async function ask(q){
+  q=q.trim();if(!q||!sample)return;
+  addMsg("me",q);$("askIn").value="";
+  const think=addMsg("ai think","Thinking…");$("askBtn").disabled=true;
+  const msgs=turns.slice(-6).concat([{role:"user",content:q}]);
+  if(msgs[0].role!=="user")msgs.shift();
+  msgs[0]={role:"user",content:context()+"\nQUESTION: "+msgs[0].content};
+  ctl=new AbortController();
+  try{
+    const r=await sample(msgs,{signal:ctl.signal,cache:false,onText:({text})=>{think.classList.remove("think");think.textContent=text;chat.scrollTop=chat.scrollHeight;}});
+    think.classList.remove("think");think.textContent=r.text;turns.push({role:"user",content:q},{role:"assistant",content:r.text});
+  }catch(e){
+    think.classList.remove("think");
+    const code=e&&e.code;
+    if(e&&e.text){think.textContent=e.text;}
+    else think.textContent=code==="not_granted"?"The coach needs your permission to use your Claude account. Ask again and choose Allow.":code==="rate_limited"?"Too many questions at once. Wait a minute and try again.":code==="cancelled"?"Stopped.":"Couldn't reach the coach just now. Try again in a moment.";
+  }finally{$("askBtn").disabled=false;}
+}
+const QQ=["I slept badly. How do I adjust today?","Build me a 40 g protein veg lunch","What should I eat before training?","I'm anxious about a Naira launch","Is my supplement stack safe?","Plan my Sunday reset"];
+function initCoach(){
+  const qq=$("quickQs");QQ.forEach(q=>{const b=document.createElement("button");b.type="button";b.className="tick";b.style.setProperty("--c","var(--d-sleep)");b.textContent=q;b.addEventListener("click",()=>ask(q));qq.appendChild(b);});
+  $("askForm").addEventListener("submit",e=>{e.preventDefault();ask($("askIn").value);});
+  const off=()=>{$("askForm").hidden=true;qq.hidden=true;$("askNote").textContent="The coach chat works when you open this page in Claude.";};
+  if(!(window.claude&&typeof window.claude.use==="function")){off();return;}
+  $("askBtn").disabled=true;
+  window.claude.use("sample").then(s=>{if(!s){off();return;}sample=s;$("askBtn").disabled=false;});
+}
+
+/* ---------- boot ---------- */
+(function hello(){const h=NOW.getHours();$("hello").textContent=h<5?"Up late":h<12?"Good morning":h<17?"Good afternoon":"Good evening";
+  $("dateLine").textContent=NOW.toLocaleDateString("en-IN",{weekday:"long",day:"numeric",month:"long"})+" · "+PLAN[DOW].title;})();
+syncInputs();bRender();renderMeter();renderToday();renderHistory();layoutTimeline();
+show((location.hash||"").slice(1)||LS.get("vv-tab","today"),false);
+if(!RM)requestAnimationFrame(frame);else{drawOrbit(16);drawEcg(0);}
+addEventListener("resize",()=>{if(RM){drawOrbit(16);drawEcg(0);}layoutTimeline();});
+initDb();initCoach();
+})();
+</script>
+<script>
+(function(){
+"use strict";
+const KEY="fuel-report-v2";
+const ROUTINE={milkType:"sarda",milkMl:1000,milkTiming:"spread",powder:"protinex",powderServings:2,powderTiming:"bf_pw",
+  epigamia:1,epigamiaSlot:"mid",bread:2,avocado:1,walnuts:12,soya:"alternate",soyaSlot:"lunch",
+  addChana:false,addFruitVeg:false,addEggs:false,addAlgae:false,dropCarnitine:false};
+const PERSON={weight:84,height:175,age:24,activity:"moderate",goal:"recomp",meals:"typical"};
+const DEFAULTS=Object.assign({},PERSON,ROUTINE);
+let state=load(); let dayType="soya";
+function load(){ try{const r=localStorage.getItem(KEY); if(r) return Object.assign({},DEFAULTS,JSON.parse(r));}catch(e){} return Object.assign({},DEFAULTS); }
+function save(){ try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){} }
+
+/* nutrients: kcal p c f sat fib ca fe k mg ala epa b12 vd ref */
+const NK=["kcal","p","c","f","sat","fib","ca","fe","k","mg","ala","epa","b12","vd","ref"];
+const N=o=>{const r={};NK.forEach(k=>r[k]=o[k]||0);return r;};
+const MILK={
+  sarda:{short:"Sarda Farms",per100:N({kcal:66,p:4.0,c:4.7,f:3.5,sat:2.3,ca:120,k:150,mg:11,b12:0.4})},
+  toned:{short:"toned",per100:N({kcal:58,p:3.1,c:4.7,f:3.0,sat:1.9,ca:120,k:150,mg:11,b12:0.4})},
+  full:{short:"full cream",per100:N({kcal:87,p:3.3,c:5.0,f:6.0,sat:3.8,ca:120,k:150,mg:11,b12:0.4})},
+  double:{short:"double toned",per100:N({kcal:46,p:3.1,c:4.9,f:1.5,sat:0.95,ca:120,k:150,mg:11,b12:0.4})}
+};
+const FOOD={
+  protinex:N({kcal:130.6,p:11.9,c:19.0,f:0.7,sat:0.35,ca:455,k:273,mg:35,b12:0.18,vd:2.3,ref:12}),
+  whey:N({kcal:120,p:24,c:3,f:1.5,sat:1,ca:120,fe:0.3,k:160,mg:20,b12:0.3}),
+  epigamia:N({kcal:90,p:10,c:6.6,f:3.1,sat:2.0,ca:275,k:200,mg:15,b12:0.5}),
+  bread:N({kcal:100,p:5,c:16,f:1.5,sat:0.3,fib:2.5,ca:40,fe:1.0,k:70,mg:20}),
+  avocado:N({kcal:240,p:3.0,c:12.8,f:22.0,sat:3.2,fib:10,ca:18,fe:0.8,k:728,mg:44,ala:0.17}),
+  walnut:N({kcal:13.1,p:0.30,c:0.27,f:1.30,sat:0.12,fib:0.13,ca:2,fe:0.06,k:8.8,mg:3.2,ala:0.18}),
+  soya:N({kcal:172.5,p:26,c:16.5,f:0.25,sat:0.05,fib:6.5,ca:175,fe:10,k:1000,mg:140}),
+  chana:N({kcal:270,p:14.5,c:45,f:4.2,sat:0.4,fib:12.5,ca:80,fe:4.7,k:460,mg:77,ala:0.1}),
+  eggs:N({kcal:143,p:12.6,c:0.7,f:9.5,sat:3.1,ca:56,fe:1.8,k:138,mg:12,b12:1.1,vd:2.0,epa:40}),
+  fruitveg:N({kcal:130,p:4,c:28,f:0.5,sat:0.1,fib:10,ca:60,fe:1.5,k:600,mg:50}),
+  algae:N({kcal:9,f:1,epa:250}),
+  gummies:N({kcal:32,c:8,ref:8})
+};
+const MEALS={
+  none:null,
+  light:N({kcal:800,p:20,c:115,f:25,sat:7,fib:11,ca:180,fe:6,k:1000,mg:130,ala:0.2}),
+  typical:N({kcal:1100,p:30,c:150,f:35,sat:10,fib:16,ca:250,fe:9,k:1400,mg:180,ala:0.3}),
+  heavy:N({kcal:1500,p:42,c:195,f:52,sat:16,fib:20,ca:420,fe:12,k:1800,mg:230,ala:0.4})
+};
+const LEU={milk:.098,powder:.09,epigamia:.098,bread:.069,avocado:.065,walnut:.075,soya:.08,chana:.071,eggs:.086,fruitveg:.05,meals:.075,algae:0,gummies:0};
+const COLOR={milk:"--c-milk",powder:"--c-powder",epigamia:"--c-epigamia",bread:"--c-bread",avocado:"--c-avocado",walnut:"--c-walnut",
+  soya:"--c-soya",chana:"--c-chana",eggs:"--c-eggs",fruitveg:"--c-fruitveg",meals:"--c-meals",algae:"--c-protein",gummies:"--c-gummies"};
+const SLOTS=[{id:"bf",name:"Breakfast",time:"8:00"},{id:"mid",name:"Mid-morning",time:"11:00"},{id:"lunch",name:"Lunch",time:"13:30"},
+  {id:"pw",name:"Post-workout",time:"18:00"},{id:"dinner",name:"Dinner",time:"21:00"},{id:"bed",name:"Bedtime",time:"22:30"}];
+const SOYA={none:{s:0,o:0,avg:0,pat:[0,0,0,0,0,0,0]},alternate:{s:1,o:0,avg:.5,pat:[1,0,1,0,1,0,1]},
+  half:{s:.5,o:.5,avg:.5,pat:[.5,.5,.5,.5,.5,.5,.5]},daily:{s:1,o:1,avg:1,pat:[1,1,1,1,1,1,1]}};
+const CHANA={none:{s:1,o:1,avg:1},alternate:{s:0,o:1,avg:.5},half:{s:0,o:0,avg:0},daily:{s:0,o:0,avg:0}};
+const MILKT={spread:{bf:.25,pw:.25,bed:.5},split:{bf:.5,bed:.5},morning:{bf:1},bedtime:{bed:1}};
+const POWT={bf_pw:{bf:.5,pw:.5},pw:{pw:1},bf:{bf:1},bed:{bed:1}};
+
+function build(s){
+  const L=[];
+  const add=(key,name,per,s1,o1,avg,pat,slots)=>{ if(avg>0||s1>0||o1>0) L.push({key,name,per,dq:{soya:s1,other:o1},avg,pat,slots}); };
+  const flat=(key,name,per,q,slots)=>add(key,name,per,q,q,q,[q,q,q,q,q,q,q],slots);
+  const m=MILK[s.milkType]||MILK.sarda; const perMl={}; NK.forEach(k=>perMl[k]=m.per100[k]/100);
+  flat("milk","Milk ("+m.short+")",perMl,+s.milkMl,MILKT[s.milkTiming]||MILKT.spread);
+  if(s.powder!=="none") flat("powder",s.powder==="whey"?"Whey":"Protinex",s.powder==="whey"?FOOD.whey:FOOD.protinex,+s.powderServings,POWT[s.powderTiming]||POWT.bf_pw);
+  flat("epigamia","Epigamia yogurt",FOOD.epigamia,+s.epigamia,{[s.epigamiaSlot]:1});
+  flat("bread","Bread",FOOD.bread,+s.bread,{bf:1});
+  flat("avocado","Avocado",FOOD.avocado,+s.avocado,{bf:1});
+  flat("walnut","Walnuts",FOOD.walnut,+s.walnuts,{mid:1});
+  const sy=SOYA[s.soya]||SOYA.alternate;
+  add("soya","Soya chunks",FOOD.soya,sy.s,sy.o,sy.avg,sy.pat,{[s.soyaSlot]:1});
+  if(s.addChana){ const c=CHANA[s.soya]; add("chana","Chana or rajma",FOOD.chana,c.s,c.o,c.avg,sy.pat.map(v=>v===0?1:0),{[s.soyaSlot]:1}); }
+  if(s.addEggs) flat("eggs","Eggs",FOOD.eggs,1,{bf:1});
+  if(s.addFruitVeg) flat("fruitveg","Fruit and veg",FOOD.fruitveg,1,{lunch:.5,dinner:.5});
+  if(MEALS[s.meals]) flat("meals","Home meals",MEALS[s.meals],1,{lunch:.5,dinner:.5});
+  if(s.addAlgae) flat("algae","Algae omega-3",FOOD.algae,1,{bf:1});
+  flat("gummies","Gummy sugar",FOOD.gummies,1,{bf:1});
+  return L;
+}
+const totals=L=>{const t={};NK.forEach(k=>t[k]=0);L.forEach(it=>NK.forEach(k=>t[k]+=it.per[k]*it.avg));return t;};
+const dayTot=(L,d,n)=>L.reduce((a,it)=>a+it.per[n]*it.pat[d],0);
+const sv=(L,key,n)=>{const it=L.find(i=>i.key===key);return it?it.per[n]*it.avg:0;};
+function slotInfo(L,dt){
+  return SLOTS.map(sl=>{
+    let p=0,leu=0; const by=[];
+    L.forEach(it=>{ const f=it.slots[sl.id]||0; if(!f) return; const q=it.dq[dt]; const g=it.per.p*q*f; if(g>0.05){p+=g;leu+=g*(LEU[it.key]||0);by.push({key:it.key,name:it.name,g});} });
+    return Object.assign({},sl,{p,leu,by});
+  });
+}
+function targets(s){
+  const bmr=10*s.weight+6.25*s.height-5*s.age+5;
+  const act={light:1.375,moderate:1.55,high:1.725}[s.activity]||1.55;
+  const tdee=bmr*act, kcal=tdee+({cut:-400,recomp:0,bulk:250}[s.goal]||0);
+  const pk={cut:2.0,recomp:1.8,bulk:1.6}[s.goal]||1.8;
+  return {kcal,tdee,protein:s.weight*pk,pk,perMeal:0.4*s.weight,fib:s.activity==="light"?30:40,ca:1000,caUL:2500,
+    ala:1.6,epa:250,fe:19,b12:2.2,k:3510,mg:400,vd:15};
+}
+function scores(s,t,T,SI){
+  const pCov=Math.min(1,t.p/T.protein);
+  const hits=SI.filter(x=>x.leu>=2.5).length, part=SI.filter(x=>x.leu>=1.8&&x.leu<2.5).length;
+  const dist=Math.min(1,(hits+0.5*part)/4);
+  const protein=Math.round(100*(0.75*pCov+0.25*dist));
+  const covs=[["Fibre",t.fib/T.fib],["Omega-3 ALA",t.ala/T.ala],["EPA + DHA",t.epa/T.epa],["Iron",t.fe/T.fe],["B12",t.b12/T.b12],["Potassium",t.k/T.k],["Magnesium",t.mg/T.mg]];
+  const nutrients=Math.round(100*covs.reduce((a,c)=>a+Math.min(1,c[1]),0)/covs.length);
+  let safety=100; const pen=[];
+  if(t.ca>=T.caUL){safety-=30;pen.push(["Calcium above the 2,500 mg limit",-30]);}
+  else if(t.ca>=0.8*T.caUL){safety-=12;pen.push(["Calcium near the 2,500 mg limit",-12]);}
+  const satPct=t.kcal>0? t.sat*9/t.kcal : 0;
+  if(satPct>0.10){const d=Math.min(20,Math.round((satPct-0.10)*200));safety-=d;pen.push(["Saturated fat "+Math.round(satPct*100)+"% of calories",-d]);}
+  if(t.ref>30){safety-=8;pen.push(["Maltodextrin and sugar "+Math.round(t.ref)+" g a day",-8]);}
+  else if(t.ref>15){safety-=3;pen.push(["Maltodextrin and sugar "+Math.round(t.ref)+" g a day",-3]);}
+  if(!s.dropCarnitine){safety-=10;pen.push(["L-carnitine (TMAO question mark)",-10]);}
+  safety=Math.max(0,Math.min(100,safety));
+  const fuel=Math.round(0.4*protein+0.3*nutrients+0.3*safety);
+  return {fuel,protein,nutrients,safety,hits,part,dist,pCov,covs,pen,satPct};
+}
+
+/* utils */
+const fmt=(n,d)=>Number(n).toLocaleString("en-IN",{maximumFractionDigits:d||0,minimumFractionDigits:d||0});
+const pct=(a,b)=>b>0?Math.round(a/b*100):0;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SVGNS="http://www.w3.org/2000/svg";
+const S=(tag,a)=>{const e=document.createElementNS(SVGNS,tag);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const $=id=>document.getElementById(id);
+const band=v=>v>=67?"good":v>=34?"watch":"alert";
+const bandColor=v=>"var(--"+band(v)+")";
+
+function ringSVG(svg,val,size,stroke,label,sub,color){
+  while(svg.firstChild) svg.removeChild(svg.firstChild);
+  const c=size/2, r=c-stroke/2-2, C=2*Math.PI*r;
+  svg.setAttribute("viewBox","0 0 "+size+" "+size);
+  svg.appendChild(S("circle",{cx:c,cy:c,r,fill:"none","stroke-width":stroke,style:"stroke:var(--track)"}));
+  const arc=S("circle",{cx:c,cy:c,r,fill:"none","stroke-width":stroke,"stroke-linecap":"round",transform:"rotate(-90 "+c+" "+c+")",
+    "stroke-dasharray":(Math.max(0.001,Math.min(1,val))*C)+" "+C});
+  arc.style.stroke=color; svg.appendChild(arc);
+  if(label!=null){ const fs=size*(String(label).length>3?0.21:String(label).length>2?0.25:0.3); const t=S("text",{x:c,y:c+(sub?size*0.02:fs*0.36),"text-anchor":"middle","font-weight":"800","font-size":fs}); t.textContent=label; t.style.fill="var(--ink)"; t.style.fontStretch="76%"; svg.appendChild(t); }
+  if(sub){ const t2=S("text",{x:c,y:c+size*0.2,"text-anchor":"middle","font-size":size*0.085,"font-weight":"600"}); t2.textContent=sub; t2.style.fill="var(--muted)"; svg.appendChild(t2); }
+}
+
+/* controls */
+const UNITS={weight:v=>v+" kg",height:v=>v+" cm",age:v=>v,milkMl:v=>v>=1000?fmt(v/1000,v%1000?2:0)+" L":v+" ml",
+  powderServings:v=>v,epigamia:v=>v,bread:v=>v,avocado:v=>v,walnuts:v=>v};
+function sync(){
+  document.querySelectorAll("[data-k]").forEach(i=>{const k=i.dataset.k; if(i.type==="checkbox") i.checked=!!state[k]; else i.value=state[k]; const o=$("o-"+k); if(o&&UNITS[k]) o.textContent=UNITS[k](state[k]);});
+  ["activity","goal"].forEach(n=>document.querySelectorAll('input[name="'+n+'"]').forEach(r=>r.checked=(r.value===state[n])));
+}
+document.querySelectorAll("[data-k]").forEach(i=>{
+  i.addEventListener(i.type==="range"?"input":"change",()=>{
+    const k=i.dataset.k; state[k]= i.type==="checkbox"? i.checked : i.type==="range"? parseFloat(i.value) : i.value;
+    const o=$("o-"+k); if(o&&UNITS[k]) o.textContent=UNITS[k](state[k]); save(); render();
+  });
+});
+["activity","goal"].forEach(n=>document.querySelectorAll('input[name="'+n+'"]').forEach(r=>r.addEventListener("change",()=>{if(r.checked){state[n]=r.value;save();render();}})));
+const planFor=st=>({powder:"whey",powderServings:1,powderTiming:"bf",epigamiaSlot:"bed",addFruitVeg:true,addAlgae:true,dropCarnitine:true,
+  addChana:(st.soya==="alternate"||st.soya==="none")});
+function applyPlan(){Object.assign(state,planFor(state));save();sync();render();}
+$("applyPlan").addEventListener("click",applyPlan);
+$("resetPlan").addEventListener("click",()=>{Object.assign(state,ROUTINE);save();sync();render();});
+
+/* donut */
+const focus={};
+function donut(id,parts,unit,centerLabel){
+  const host=$(id); host.innerHTML="";
+  parts=parts.filter(p=>p.value>0.0001);
+  const total=parts.reduce((a,p)=>a+p.value,0), R=62, SW=24, C=2*Math.PI*R; let off=0;
+  const svg=S("svg",{viewBox:"0 0 160 160","class":"dsvg",role:"img","aria-label":centerLabel+" "+fmt(total)+" "+unit});
+  const g=S("g",{transform:"rotate(-90 80 80)"}); svg.appendChild(g);
+  let f=focus[id]; if(f&&!parts.some(p=>p.key===f)){f=null;focus[id]=null;}
+  if(f) svg.classList.add("has-focus");
+  parts.forEach(p=>{ const len=total>0?p.value/total*C:0, gap=parts.length>1&&len>3?1.6:0;
+    const c=S("circle",{cx:80,cy:80,r:R,fill:"none","stroke-width":SW,"class":"seg-arc"+(f===p.key?" on":""),"stroke-dasharray":Math.max(len-gap,0)+" "+C,"stroke-dashoffset":-off});
+    c.style.stroke="var("+p.color+")"; c.addEventListener("click",()=>{focus[id]=focus[id]===p.key?null:p.key;render();}); g.appendChild(c); off+=len; });
+  const fp=f?parts.find(p=>p.key===f):null;
+  const t1=S("text",{x:80,y:78,"text-anchor":"middle","font-size":"21","font-weight":"800"}); t1.textContent=fmt(fp?fp.value:total)+" "+unit;
+  const t2=S("text",{x:80,y:97,"text-anchor":"middle","font-size":"10.5"}); t2.textContent=fp?fp.name+", "+pct(fp.value,total)+"%":centerLabel; t2.style.fill="var(--muted)";
+  svg.appendChild(t1); svg.appendChild(t2); host.appendChild(svg);
+  const ul=document.createElement("ul"); ul.className="legend";
+  parts.slice().sort((a,b)=>b.value-a.value).filter(p=>p.value/total>=0.005).forEach(p=>{
+    const li=document.createElement("li"); const b=document.createElement("button"); b.type="button"; b.setAttribute("aria-pressed",String(f===p.key));
+    b.innerHTML='<span class="sw" style="background:var('+p.color+')"></span><span>'+esc(p.name)+'</span><span class="v">'+fmt(p.value)+" "+unit+'</span><span class="p">'+pct(p.value,total)+"%</span>";
+    b.addEventListener("click",()=>{focus[id]=focus[id]===p.key?null:p.key;render();}); li.appendChild(b); ul.appendChild(li); });
+  host.appendChild(ul);
+}
+
+/* bar chart generic */
+function bars(svgId,labels,stacks,opts){
+  const svg=$(svgId); while(svg.firstChild) svg.removeChild(svg.firstChild);
+  const W=360,H=opts.h||200,ml=34,mr=8,mt=16,mb=opts.mb||26,pw=W-ml-mr,ph=H-mt-mb;
+  const totalsArr=stacks.map(st=>st.reduce((a,x)=>a+x.v,0));
+  const ymax=Math.max(opts.line||0,opts.ul||0,Math.max.apply(null,totalsArr))*1.14||1;
+  const step=opts.step||(ymax>2000?500:ymax>180?50:ymax>90?25:10);
+  const y=v=>mt+ph-(v/ymax)*ph;
+  for(let v=0;v<=ymax;v+=step){ svg.appendChild(S("line",{x1:ml,x2:W-mr,y1:y(v),y2:y(v),"class":"grid"})); const t=S("text",{x:ml-5,y:y(v)+3.5,"text-anchor":"end"}); t.textContent=v>=1000?fmt(v/1000,1)+"k":v; svg.appendChild(t); }
+  const n=labels.length, bw=pw/n*(opts.bw||0.6);
+  labels.forEach((lb,i)=>{
+    const x=ml+pw/n*i+(pw/n-bw)/2; let acc=0;
+    stacks[i].forEach(seg=>{ if(seg.v<=0.05) return; const r=S("rect",{x,width:bw,y:y(acc+seg.v),height:Math.max(0,y(acc)-y(acc+seg.v)),rx:1.5}); r.style.fill=seg.color; const ti=S("title",{}); ti.textContent=seg.name+": "+fmt(seg.v,seg.v<10?1:0)+(opts.unit||""); r.appendChild(ti); svg.appendChild(r); acc+=seg.v; });
+    const tl=S("text",{x:x+bw/2,y:H-mb+13,"text-anchor":"middle"}); tl.textContent=lb; svg.appendChild(tl);
+    if(opts.sub){ const ts=S("text",{x:x+bw/2,y:H-mb+24,"text-anchor":"middle","font-size":"9"}); ts.textContent=opts.sub[i]; svg.appendChild(ts); }
+    const tv=S("text",{x:x+bw/2,y:y(acc)-(opts.markers?12:4),"text-anchor":"middle","font-weight":"700"}); tv.textContent=fmt(acc); tv.style.fill="var(--ink)"; svg.appendChild(tv);
+    if(opts.markers){ const mk=opts.markers[i]; if(mk){ const cc=S("circle",{cx:x+bw/2,cy:y(acc)-4,r:3}); cc.style.fill=mk; svg.appendChild(cc);} }
+  });
+  if(opts.line){ svg.appendChild(S("line",{x1:ml,x2:W-mr,y1:y(opts.line),y2:y(opts.line),"class":"tgt"})); const t=S("text",{x:W-mr,y:y(opts.line)-4,"text-anchor":"end","font-weight":"700"}); t.textContent=opts.lineLabel; t.style.fill="var(--ink)"; svg.appendChild(t); }
+  if(opts.ul){ svg.appendChild(S("line",{x1:ml,x2:W-mr,y1:y(opts.ul),y2:y(opts.ul),"class":"ul"})); const t=S("text",{x:ml+2,y:y(opts.ul)-4,"text-anchor":"start","font-weight":"700"}); t.textContent=opts.ulLabel; t.style.fill="var(--alert)"; svg.appendChild(t); }
+}
+
+/* findings */
+function findings(s,t,T,L,SC,SI){
+  const out=[]; const add=(lvl,w,title,body)=>out.push({lvl,w,title,body});
+  const powCa=s.powder==="protinex"?sv(L,"powder","ca"):0;
+  if(t.ca>=T.caUL*0.8){
+    add("alert",100,(t.ca>=T.caUL?"Calcium is over the 2,500 mg daily limit":"Calcium is close to the 2,500 mg daily limit"),
+      "About "+fmt(t.ca)+" mg a day. Research links kidney-stone risk to supplemental calcium, while calcium from food like milk and yogurt was actually protective. "+(powCa>0?"Your supplement-style calcium is the "+fmt(powCa)+" mg added to Protinex, so that is the part to cut.":"Most of yours is food calcium, which is the lower-risk kind."));
+  }
+  const pp=t.p/T.protein;
+  add(pp>=0.95?"good":"watch",pp>=0.95?15:80,pp>=0.95?"Protein target covered: "+fmt(t.p)+" g a day":"Protein is "+pct(t.p,T.protein)+"% of your "+fmt(T.protein)+" g target",
+    "At "+s.weight+" kg on a "+({cut:"fat-loss",recomp:"recomp",bulk:"building"}[s.goal])+" goal you're aiming for "+T.pk+" g per kg. "+(pp<0.95?"You're about "+fmt(T.protein-t.p)+" g short a day, including your meals.":"Research shows gains plateau around 1.6 g per kg, so you're in the zone."));
+  const hits=SC.hits; const weak=SI.filter(x=>x.p>1&&x.leu<1.8).map(x=>x.name.toLowerCase());
+  add(hits>=4?"good":hits>=3?"info":"watch",hits>=4?12:70,"Only "+hits+" of the 4 meals you need cross the muscle-building trigger",
+    "Each meal needs about 2.5 g of leucine, roughly "+fmt(T.perMeal)+" g of protein at your weight, to fully switch on muscle building."+(weak.length?" Weakest on this schedule: "+weak.join(", ").replace(/, ([^,]*)$/," and $1")+".":""));
+  const bed=SI.find(x=>x.id==="bed");
+  if(bed.p>=25) add("good",25,"Your bedtime protein is well placed: "+fmt(bed.p)+" g","Milk protein is about 80% casein, which digests slowly overnight. A 12-week trial found nightly pre-sleep protein added strength and muscle size in young lifters.");
+  else if(s.milkMl>0) add("info",45,"Move more protein to bedtime","You have "+fmt(bed.p)+" g at bedtime. Trials used 30–40 g of slow casein before sleep. Moving Epigamia to bedtime with your milk gets you there without eating more.");
+  if(SC.satPct>0.10) add("watch",60,"Saturated fat is "+Math.round(SC.satPct*100)+"% of calories","WHO advises under 10%. A litre of milk alone gives about "+fmt(sv(L,"milk","sat"))+" g. Ghee at meals adds more. Switching part of the milk to toned, or trimming ghee, fixes it.");
+  if(s.powder==="protinex"&&s.powderServings>=1) add("watch",55,"Protinex: "+fmt(s.powderServings*19)+" g of carbs for "+fmt(s.powderServings*11.9)+" g of protein","You take "+fmt(s.powderServings*35/25,1)+" times the label's 25 g serving. One scoop of tested whey gives 24 g of protein with about 3 g of carbs and far less calcium.");
+  if(t.epa<100) add("watch",50,"No EPA or DHA in your diet","Walnuts give plant omega-3 (ALA), but men convert only a small share to EPA and almost none to DHA. A 250 mg algae oil capsule is the vegetarian fix.");
+  if(t.fib<T.fib*0.85) add("watch",48,"Fibre at "+fmt(t.fib)+" of "+T.fib+" g","Add a fruit and vegetables, or chana on non-soya days. Fibre also steadies blood sugar, which matters with this much milk sugar.");
+  if(!s.dropCarnitine) add("watch",46,"L-carnitine is the easiest thing to drop","Small average weight loss in trials (about 1 kg, mostly in overweight people), no change in body-fat percentage, and it raises TMAO.");
+  const ash=300+40; add("info",40,"Ashwagandha: "+ash+" mg is a stress dose, not a sleep dose","Sleep benefits in a 5-trial analysis were clearest at 600 mg or more for at least 8 weeks. Watch for yellow eyes, dark urine or itching, which are rare liver warning signs.");
+  if(s.milkMl+s.epigamia*140>=500) add("info",30,"Heads-up if you're acne-prone","In 14 studies of people aged 7–30, dairy drinkers had higher odds of acne. The evidence is observational and biased, so only act on it if your skin flares.");
+  add("info",28,"Test vitamin D and B12 once a year","About half of Indians tested are vitamin D deficient. B12 looks covered by milk on paper, but boiling destroys part of it.");
+  add("good",20,"Soy won't touch your testosterone","41 clinical studies found no effect of soy on male hormones, and soy protein builds muscle as well as whey in 9 trials.");
+  const rank={alert:0,watch:1,info:2,good:3}; out.sort((a,b)=>(rank[a.lvl]-rank[b.lvl])||(b.w-a.w)); return out;
+}
+
+/* supplements */
+function ledger(s){
+  const rows=[
+    {n:"Creatine monohydrate",b:"MuscleBlaze CreAMP, Trustified tested",day:"3 g",wk:"21 g",test:"3–5 g a day",ev:5,v:["good","Keep"],
+     body:"<p>The best-supported supplement in your stack. As a mostly vegetarian eater you likely start with lower muscle creatine, and a vegetarian trial found bigger gains in lean mass and strength than in meat-eaters.</p><p>At 84 kg, 3–5 g is right. Going to 5 g is optional.</p>",q:"Micronised monohydrate with third-party certification.",w:"Raises blood creatinine slightly; tell your doctor before a kidney test."},
+    s.powder==="whey"?{n:"Whey protein",b:"Choose Trustified, Labdoor or Informed Sport tested",day:s.powderServings*30+" g",wk:s.powderServings*210+" g",test:"1–2 scoops to fill gaps",ev:4,v:["good","Keep"],
+     body:"<p>About 80% protein and the richest source of leucine, the amino acid that switches on muscle building. One scoop replaces two servings of Protinex.</p>",q:"Depends on the brand; check a current lab certificate.",w:"Pick isolate if milk upsets your stomach."}
+    :{n:"Protinex",b:s.powderServings+" serving(s), about "+s.powderServings*35+" g powder",day:fmt(s.powderServings*11.9)+" g protein",wk:fmt(s.powderServings*245)+" g powder",test:"Label: one 25 g serving",ev:2,v:s.powder==="none"||!s.powderServings?["info","Not in use"]:["watch","Swap or cut"],
+     body:"<p>A milk drink mix rather than a protein powder: skimmed milk powder, maltodextrin and soy isolate, 34% protein. Two servings add about 900 mg of added calcium, the main reason you're over the limit.</p>",q:"Reputable maker; low protein density.",w:"Added calcium stacking with a litre of milk."},
+    {n:"Ashwagandha (KSM-66)",b:"Himalaya gummies + 40 mg in the shilajit gummy",day:"about 340 mg",wk:"about 2.4 g",test:"600 mg a day for strength and sleep",ev:3,v:["good","Keep, with breaks"],
+     body:"<p>Strength trial: 600 mg a day improved bench and leg strength over 8 weeks. Sleep analysis: clearest benefit at 600 mg or more for 8 weeks or longer. You're at about half that, which suits stress relief.</p>",q:"KSM-66 is the most-studied extract; gummies contain sugar.",w:"Rare liver injury 2–12 weeks after starting. Can nudge thyroid hormones. A few weeks off every 2–3 months."},
+    {n:"Shilajit",b:"Man Matters gummies, NABL batch-tested",day:"300–400 mg",wk:"2.1–2.8 g",test:"500 mg a day, purified",ev:2,v:["info","Optional"],
+     body:"<p>The main trial found about 20% higher testosterone in men aged 45–55 after 90 days. There is no equivalent data in healthy 24-year-olds. The 6 mg herb add-ons are token doses.</p><p>Heavy metals are the real risk with Ayurvedic products: a JAMA study found about 1 in 5 sold online contained lead, mercury or arsenic. Yours is batch-tested, which is the right call.</p>",q:"Tested for heavy metals and sugar-free.",w:"Only ever buy lab-tested shilajit."},
+    {n:"Biotin + vitamins C, D, E",b:"Himalaya Healthy Hair gummies",day:"2 gummies",wk:"14 gummies",test:"Helps only if deficient",ev:1,v:["info","Fine, low value"],
+     body:"<p>Daily-requirement biotin plus small amounts of C, D and E. Harmless, but biotin helps hair only if you're deficient, which is rare.</p>",q:"Reputable brand; sugar-sweetened.",w:"The vitamin D dose is small; don't rely on it."},
+    {n:"L-carnitine",b:"Fast&Up L-Carnitine 2000",day:"2 g",wk:"14 g",test:"About 2 g a day in weight-loss trials",ev:2,v:s.dropCarnitine?["good","Dropped"]:["alert","Drop"],drop:s.dropCarnitine,
+     body:"<p>About 1.1 kg average extra weight loss across 43 trials, mostly in overweight people, and no change in body-fat percentage. One 24-week trial saw TMAO, a compound linked to heart risk, rise about tenfold.</p>",q:"The issue is the ingredient, not the brand.",w:"If you keep it, don't run it for months on end."}
+  ];
+  if(s.addAlgae) rows.push({n:"Algae omega-3",b:"EPA + DHA from microalgae",day:"250 mg",wk:"1.75 g",test:"250 mg a day (EFSA)",ev:3,v:["good","Added"],body:"<p>Fills the long-chain omega-3 gap that walnuts can't. Men convert only a small share of plant omega-3 into EPA and almost none into DHA.</p>",q:"Choose one with a published EPA + DHA amount per capsule.",w:"Take it with a meal that has fat."});
+  const host=$("ledger"); host.innerHTML="";
+  rows.forEach(r=>{
+    const d=document.createElement("div"); d.className="srow"+(r.drop||r.v[1]==="Not in use"?" dropped":"");
+    let dots=""; for(let i=1;i<=5;i++) dots+='<i class="'+(i<=r.ev?"on":"")+'"></i>';
+    d.innerHTML='<div><div class="sname"><b>'+r.n+'</b><small>'+r.b+'</small></div><div class="sdose"><div><span>Your dose</span><b>'+r.day+'</b></div><div><span>Per week</span><b>'+r.wk+'</b></div><div><span>Tested dose</span><span>'+r.test+'</span></div></div></div>'+
+      '<div class="sbody">'+r.body+'</div><div class="sside"><span class="chip '+r.v[0]+'">'+r.v[1]+'</span><div style="margin-top:10px;font-weight:700">Strength of evidence</div><div class="meter" aria-label="'+r.ev+' of 5">'+dots+'</div><dl style="margin:0"><dt>Quality</dt><dd>'+r.q+'</dd><dt>Watch for</dt><dd>'+r.w+'</dd></dl></div>';
+    host.appendChild(d);
+  });
+}
+
+/* research library */
+const RESEARCH=[
+  {t:"How much protein you actually need",sub:"Morton et al., Br J Sports Med 2018, 49 trials",v:["good","Strong"],
+   f:"Across 49 trials and 1,863 people, extra protein stopped adding muscle beyond about 1.6 g per kg per day. The upper confidence bound sits near 2.2 g.",
+   y:s=>"At "+s.weight+" kg that's "+fmt(s.weight*1.6)+"–"+fmt(s.weight*2.2)+" g a day. Aim for the top of that range while losing fat.",url:"https://pubmed.ncbi.nlm.nih.gov/28698222/"},
+  {t:"How to split it across the day",sub:"Schoenfeld and Aragon, JISSN 2018",v:["good","Strong"],
+   f:"To maximise muscle building, the review recommends about 0.4 g of protein per kg per meal across at least four meals, which reaches the 1.6 g per kg daily minimum.",
+   y:s=>"That's about "+fmt(s.weight*0.4)+" g per meal for you, four times a day. See the timing chart for which meals fall short.",url:"https://pubmed.ncbi.nlm.nih.gov/29497353/"},
+  {t:"The leucine switch",sub:"Leucine threshold research",v:["info","Useful rule"],
+   f:"Roughly 2.5–3 g of leucine per meal fully switches on muscle building in young adults. Whey is about 11% leucine; soy and dairy casein are lower, so plant-heavy meals need more total protein.",
+   y:()=>"Your milk, yogurt and whey are leucine-rich. Walnuts and bread alone never get there, so pair them with dairy.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5828430/"},
+  {t:"Protein before bed",sub:"Snijders et al., J Nutr 2015; Res et al. 2012",v:["good","Moderate"],
+   f:"In 44 young men over 12 weeks of lifting, a nightly shake with about 30 g of casein produced more strength and muscle size than placebo. A single-night study found 40 g of casein raised overnight muscle building about 22%.",
+   y:()=>"Milk is about 80% casein. Your 500 ml bedtime milk gives 20 g; add the Epigamia and you reach the studied dose.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC6415027"},
+  {t:"Soy protein builds muscle as well as whey",sub:"Messina et al., IJSNEM 2018, 9 trials",v:["good","Strong"],
+   f:"Across 9 studies of 266 lifters, soy produced the same gains in strength and lean mass as whey and other animal proteins.",
+   y:()=>"Your soya bowls are pulling full weight. No need to replace them.",url:"https://repository.essex.ac.uk/22103/"},
+  {t:"Soy does not lower testosterone",sub:"Reed et al., Reproductive Toxicology 2021, 41 studies",v:["good","Strong"],
+   f:"A meta-analysis of 41 clinical studies found no effect of soy or isoflavones on testosterone, free testosterone, estrogen or SHBG in men.",
+   y:()=>"Keep the soya; it isn't working against your shilajit.",url:"https://pubmed.ncbi.nlm.nih.gov/33383165/"},
+  {t:"Calcium from food versus supplements",sub:"Curhan et al., Ann Intern Med 1997, 91,731 women",v:["watch","Nuanced"],
+   f:"Over 12 years, the highest dietary calcium intake came with a lower stone risk (relative risk 0.65), while calcium supplements came with a higher one (1.20). The official 2,500 mg limit still counts every source.",
+   y:()=>"Your dairy calcium is the protective kind. Protinex's added calcium behaves more like a supplement, so trim that first.",url:"https://pubmed.ncbi.nlm.nih.gov/9092314"},
+  {t:"Walnut omega-3 barely becomes DHA",sub:"Conversion studies in humans",v:["watch","Consistent"],
+   f:"Tracer studies show roughly 5% of plant ALA becomes EPA and under 0.5% becomes DHA. Up to 8% conversion to EPA has been reported in men, higher in women.",
+   y:()=>"Walnuts are still good food, but they don't replace EPA and DHA. Algae oil does, without fish.",url:"https://pubmed.ncbi.nlm.nih.gov/17622276/"},
+  {t:"Creatine works better for vegetarians",sub:"Burke et al., Med Sci Sports Exerc 2003",v:["good","Moderate"],
+   f:"Vegetarians started with lower muscle creatine, and on creatine they gained more total creatine, lean tissue and work capacity than meat-eaters over 8 weeks of training.",
+   y:()=>"Your creatine is probably doing more for you than it would for a meat-eater. Take it every day.",url:"https://sponet.de/sponet/Record/4008230"},
+  {t:"Ashwagandha and sleep",sub:"Cheah et al., PLoS One 2021, 5 trials, 400 people",v:["info","Moderate"],
+   f:"A small but significant improvement in overall sleep, clearest in people with insomnia, at 600 mg a day or more, and after at least 8 weeks. No serious side effects were reported in the trials.",
+   y:()=>"At 340 mg you're below the dose that showed the clearest sleep effect. If sleep is your reason, discuss 600 mg with a doctor first.",url:"https://pubmed.ncbi.nlm.nih.gov/34559859/"},
+  {t:"Ashwagandha and the liver",sub:"NIH LiverTox",v:["watch","Rare"],
+   f:"Trials show no liver enzyme changes, but rare cases of liver injury appeared 2–12 weeks after starting commercial products, with jaundice and itching. Most resolved.",
+   y:()=>"Stop and see a doctor if you notice yellow eyes, dark urine or persistent itching.",url:"https://ncbi.nlm.nih.gov/books/NBK548536/"},
+  {t:"Heavy metals in Ayurvedic products",sub:"Saper et al., JAMA 2008, 193 products",v:["alert","Real risk"],
+   f:"About 21% of Ayurvedic medicines bought online contained detectable lead, mercury or arsenic, at similar rates whether made in India or the US.",
+   y:()=>"This is why batch testing matters for shilajit. Stick to products with a lab certificate.",url:"https://stacks.cdc.gov/view/cdc/223623"},
+  {t:"L-carnitine: small payoff, a question mark",sub:"Meta-analysis of 43 trials, 2020; TMAO trials",v:["watch","Low value"],
+   f:"About 1.1 kg of extra weight loss on average, mostly in overweight people, with no change in body-fat percentage. One 24-week trial saw TMAO rise tenfold.",
+   y:()=>"Dropping it costs you almost nothing.",url:"https://pubmed.ncbi.nlm.nih.gov/31743774/"},
+  {t:"Dairy and acne",sub:"Juhl et al., Nutrients 2018, 14 studies, 78,529 people",v:["info","Weak"],
+   f:"In people aged 7–30, any milk was linked to about 28% higher odds of acne, and 2 or more glasses a day to about 43% higher. The studies were observational with signs of publication bias.",
+   y:()=>"Only relevant if your skin breaks out. If it does, the milk is the first thing to test.",url:"https://pubmed.ncbi.nlm.nih.gov/30096883/"},
+  {t:"Vitamin D in India",sub:"Metropolis Healthcare, 2.2 million tests",v:["watch","Common gap"],
+   f:"46.5% of people tested were deficient and another 26% insufficient, with working-age adults among the most affected.",
+   y:()=>"Food and gummies won't settle this. Get a 25-OH vitamin D test.",url:"https://www.business-standard.com/health/nearly-half-of-indians-tested-suffer-from-vitamin-d-deficiency-study-125102901000_1.html"},
+  {t:"Creatine safety",sub:"ISSN position stand, 2017",v:["good","Strong"],
+   f:"The ISSN found no compelling evidence of harm from short- or long-term creatine use in healthy people, and called it the most effective supplement for high-intensity capacity and lean mass.",
+   y:()=>"Safe to keep long term. Stay hydrated.",url:"https://exerciseandsportnutritionlab.com/new-issn-position-stand-on-creatine-supplementation/"}
+];
+function research(s){
+  const host=$("research"); if(host.dataset.built===String(s.weight)) return; host.dataset.built=String(s.weight); host.innerHTML="";
+  RESEARCH.forEach(r=>{
+    const d=document.createElement("details"); d.className="rcard";
+    d.innerHTML='<summary><span><b>'+r.t+'</b><small>'+r.sub+'</small></span><span class="chip '+r.v[0]+'">'+r.v[1]+'</span></summary>'+
+      '<div class="rbody"><div><h4>What the research found</h4><p>'+r.f+'</p></div><div><h4>What it means for you</h4><p>'+r.y(s)+'</p></div><div class="src"><a href="'+r.url+'" target="_blank" rel="noopener">Read the source</a></div></div>';
+    host.appendChild(d);
+  });
+}
+
+/* render */
+function render(){
+  const s=state, L=build(s), t=totals(L), T=targets(s);
+  const SI=slotInfo(L,s.soya==="alternate"?dayType:"soya");
+  const SIavg=(()=>{ if(s.soya!=="alternate") return SI; const a=slotInfo(L,"soya"), b=slotInfo(L,"other"); return a.map((x,i)=>Object.assign({},x,{p:(x.p+b[i].p)/2,leu:(x.leu+b[i].leu)/2})); })();
+  const SC=scores(s,t,T,SIavg);
+  const F=findings(s,t,T,L,SC,SIavg);
+
+  $("pills").innerHTML='<span class="pill">'+s.weight+' kg</span><span class="pill">'+({cut:"Losing fat",recomp:"Recomp",bulk:"Building"}[s.goal])+'</span><span class="pill">'+({light:"1–2",moderate:"3–5",high:"6+"}[s.activity])+' training days</span>';
+
+  ringSVG($("bigRing"),SC.fuel/100,210,16,String(SC.fuel),"Fuel score",bandColor(SC.fuel));
+  const sub=$("subRings"); if(!sub.dataset.ready){ sub.dataset.ready="1"; ["protein","nutrients","safety"].forEach(k=>{ const b=document.createElement("button"); b.type="button"; b.dataset.k=k; b.innerHTML='<svg viewBox="0 0 84 84"></svg><b></b>'; b.addEventListener("click",()=>{ sub.dataset.sel=k; render(); }); sub.appendChild(b); }); sub.dataset.sel="safety"; }
+  const names={protein:"Protein",nutrients:"Nutrients",safety:"Safety"};
+  sub.querySelectorAll("button").forEach(b=>{ const k=b.dataset.k; ringSVG(b.querySelector("svg"),SC[k]/100,84,8,String(SC[k]),null,bandColor(SC[k])); b.querySelector("b").textContent=names[k]; b.setAttribute("aria-pressed",String(sub.dataset.sel===k)); });
+  const sel=sub.dataset.sel; let ch="";
+  if(sel==="protein") ch='<h3>What drives Protein</h3><ul><li><span>Daily protein '+fmt(t.p)+' of '+fmt(T.protein)+' g</span><span class="'+(SC.pCov>=.95?"pos":"neg")+'">'+pct(t.p,T.protein)+'%</span></li><li><span>Meals crossing the leucine trigger</span><span class="'+(SC.hits>=4?"pos":"neg")+'">'+SC.hits+' of 4 needed</span></li><li><span>Partial hits (1.8–2.5 g leucine)</span><span>'+SC.part+'</span></li></ul>';
+  else if(sel==="nutrients") ch='<h3>What drives Nutrients</h3><ul>'+SC.covs.map(c=>'<li><span>'+c[0]+'</span><span class="'+(c[1]>=0.95?"pos":"neg")+'">'+Math.min(999,Math.round(c[1]*100))+'%</span></li>').join("")+'</ul>';
+  else ch='<h3>What drives Safety</h3><ul>'+(SC.pen.length?SC.pen.map(p=>'<li><span>'+p[0]+'</span><span class="neg">'+p[1]+'</span></li>').join(""):'<li><span>No penalties</span><span class="pos">100</span></li>')+'</ul>';
+  $("contrib").innerHTML=ch;
+
+  const alerts=F.filter(f=>f.lvl==="alert").length;
+  $("coachLede").textContent= alerts? "Fuel score "+SC.fuel+". Good foundations, but "+(alerts===1?"one thing needs fixing":alerts+" things need fixing")+" first." : "Fuel score "+SC.fuel+". No red flags. Here's where the next gains are.";
+  $("insights").innerHTML=F.slice(0,4).map(f=>'<li><span class="bar '+f.lvl+'"></span><div><b>'+f.title+'</b><p>'+f.body+'</p></div></li>').join("");
+
+  const satPct=Math.round(SC.satPct*100);
+  const kp=[
+    {l:"Protein a day",v:fmt(t.p),u:"g",s:"Target "+fmt(T.protein)+" g",p:t.p/T.protein,c:bandColor(pct(t.p,T.protein))},
+    {l:"Calories a day",v:fmt(t.kcal),u:"kcal",s:"Target "+fmt(T.kcal),p:t.kcal/T.kcal,c:Math.abs(t.kcal-T.kcal)/T.kcal<0.08?"var(--good)":"var(--watch)"},
+    {l:"Calcium a day",v:fmt(t.ca),u:"mg",s:"Limit 2,500 mg",p:t.ca/T.caUL,c:t.ca>=T.caUL?"var(--alert)":t.ca>=2000?"var(--watch)":"var(--good)",ul:1},
+    {l:"Leucine hits",v:SC.hits,u:"of 4",s:"Meals with 2.5 g leucine",p:SC.hits/4,c:bandColor(SC.hits*25)},
+    {l:"Fibre a day",v:fmt(t.fib),u:"g",s:"Target "+T.fib+" g",p:t.fib/T.fib,c:bandColor(pct(t.fib,T.fib))},
+    {l:"Saturated fat",v:satPct,u:"%",s:"Of calories; aim under 10%",p:satPct/15,c:satPct>10?"var(--watch)":"var(--good)"}
+  ];
+  $("kpis").innerHTML=kp.map(k=>'<div class="kpi"><div class="l">'+k.l+'</div><div class="v">'+k.v+' <small>'+k.u+'</small></div><div class="s">'+k.s+'</div><div class="mini"><i style="width:'+Math.min(100,k.p*100)+'%;background:'+k.c+'"></i></div></div>').join("");
+  $("targetHint").textContent="Targets: about "+fmt(T.kcal)+" kcal and "+fmt(T.protein)+" g protein a day ("+T.pk+" g per kg), about "+fmt(T.perMeal)+" g per meal.";
+
+  /* timing */
+  const dtw=$("dayToggleWrap");
+  if(s.soya==="alternate"){ dtw.innerHTML='<div class="daytoggle" role="group" aria-label="Day type"><button type="button" data-d="soya" aria-pressed="'+(dayType==="soya")+'">Soya day</button><button type="button" data-d="other" aria-pressed="'+(dayType==="other")+'">Other day</button></div>';
+    dtw.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{dayType=b.dataset.d;render();})); } else dtw.innerHTML="";
+  const labels=SI.map(x=>x.name.replace("Mid-morning","Mid-am").replace("Post-workout","Post-WO").replace("Breakfast","Bkfst"));
+  const keys=[...new Set(L.map(i=>i.key))];
+  const stacks=SI.map(x=>keys.map(k=>{const b=x.by.find(z=>z.key===k);return {v:b?b.g:0,color:"var("+COLOR[k]+")",name:(L.find(i=>i.key===k)||{}).name||k};}));
+  bars("timingChart",labels,stacks,{h:240,mb:34,line:T.perMeal,lineLabel:"Per-meal target "+fmt(T.perMeal)+" g",unit:" g",sub:SI.map(x=>x.time),
+    markers:SI.map(x=>x.p<1?null:x.leu>=2.5?"var(--good)":x.leu>=1.8?"var(--watch)":"var(--alert)")});
+  $("timingCap").textContent="Protein at each eating time"+(s.soya==="alternate"?" on a "+(dayType==="soya"?"soya":"non-soya")+" day":"")+". The dot above each bar shows whether it crosses the ~2.5 g leucine trigger: green yes, amber close, red no.";
+  $("timingKey").innerHTML=L.filter(i=>i.per.p*i.avg>0.2).map(i=>'<span><i class="sw" style="background:var('+COLOR[i.key]+')"></i>'+esc(i.name)+'</span>').join("");
+  $("slotList").innerHTML=SI.map(x=>'<div class="slot"><b><span>'+x.name+'</span><span class="num">'+fmt(x.p)+' g</span></b><div class="what">'+(x.by.length?x.by.map(z=>esc(z.name)+" "+fmt(z.g,z.g<10?1:0)+" g").join(", "):"Nothing")+'</div><div class="what">Leucine about '+fmt(x.leu,1)+' g</div></div>').join("");
+
+  /* week */
+  const days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+  const pStacks=days.map((_,d)=>L.filter(i=>i.per.p>0).map(i=>({v:i.per.p*i.pat[d],color:"var("+COLOR[i.key]+")",name:i.name})));
+  bars("weekP",days,pStacks,{line:T.protein,lineLabel:"Target "+fmt(T.protein)+" g",unit:" g"});
+  const pv=days.map((_,d)=>dayTot(L,d,"p")); $("weekPCap").textContent="Biggest day "+fmt(Math.max(...pv))+" g, smallest "+fmt(Math.min(...pv))+" g."+(s.soya==="alternate"?" This week shows 4 soya days; totals use the 3.5-day average.":"");
+  const caStacks=days.map((_,d)=>L.filter(i=>i.per.ca>0).map(i=>({v:i.per.ca*i.pat[d],color:"var("+COLOR[i.key]+")",name:i.name})));
+  bars("weekCa",days,caStacks,{ul:T.caUL,ulLabel:"Limit 2,500 mg",unit:" mg",step:500});
+  const cv=days.map((_,d)=>dayTot(L,d,"ca")); $("weekCaCap").textContent=cv.filter(v=>v>=T.caUL).length+" of 7 days go over the upper limit.";
+
+  /* donuts */
+  const parts=n=>L.map(i=>({key:i.key,name:i.name,value:i.per[n]*i.avg*7,color:COLOR[i.key]}));
+  donut("d-protein",parts("p"),"g","protein a week");
+  donut("d-kcal",parts("kcal"),"kcal","a week");
+  donut("d-fat",parts("f"),"g","fat a week");
+  const pk=t.p*4*7, ck=t.c*4*7, fk=t.f*9*7, tot=pk+ck+fk;
+  donut("d-macro",[{key:"p",name:"Protein",value:pk,color:"--c-protein"},{key:"c",name:"Carbs",value:ck,color:"--c-carbs"},{key:"f",name:"Fat",value:fk,color:"--c-fat"}],"kcal","energy a week");
+  const dairyP=sv(L,"milk","p")+sv(L,"epigamia","p")+(s.powder!=="none"?sv(L,"powder","p"):0);
+  $("n-protein").textContent="Dairy and powder give "+pct(dairyP,t.p)+"% of your protein. That concentration is why calcium and saturated fat run high.";
+  const topk=L.slice().sort((a,b)=>b.per.kcal*b.avg-a.per.kcal*a.avg);
+  $("n-kcal").textContent=topk[0].name+" is the largest calorie source, then "+topk[1].name+" at "+fmt(topk[1].per.kcal*topk[1].avg)+" kcal a day.";
+  $("n-macro").textContent="Protein "+pct(pk,tot)+"%, carbs "+pct(ck,tot)+"%, fat "+pct(fk,tot)+"%. For lifting, 25–35% protein and 20–35% fat is a sensible whole-day range.";
+  $("n-fat").textContent="Avocado and walnuts give "+pct(sv(L,"avocado","f")+sv(L,"walnut","f"),t.f)+"% of your fat, mostly unsaturated. Milk fat is the saturated share.";
+
+  /* micro */
+  const M=[
+    {n:"Calcium",v:t.ca,u:"mg",tg:T.ca,ul:T.caUL,note:"Limit 2,500 mg"},
+    {n:"Fibre",v:t.fib,u:"g",tg:T.fib,note:"ICMR: 30–40 g for men"},
+    {n:"Omega-3 ALA",v:t.ala,u:"g",tg:T.ala,d:1,note:"Mostly walnuts"},
+    {n:"EPA + DHA",v:t.epa,u:"mg",tg:T.epa,note:"Vegetarian gap; algae oil"},
+    {n:"Iron",v:t.fe,u:"mg",tg:T.fe,d:1,note:"Plant iron; pair with vitamin C"},
+    {n:"Vitamin B12",v:t.b12,u:"mcg",tg:T.b12,d:1,note:"From dairy; boiling lowers it"},
+    {n:"Potassium",v:t.k,u:"mg",tg:T.k,note:"Estimate; avocado, milk, soya"},
+    {n:"Magnesium",v:t.mg,u:"mg",tg:T.mg,note:"Estimate; soya, avocado, nuts"},
+    {n:"Vitamin D",v:t.vd,u:"mcg",tg:T.vd,d:1,unknown:1,note:"Sun and a blood test decide this"},
+    {n:"Maltodextrin and sugar",v:t.ref,u:"g",tg:25,inv:1,note:"Protinex base and gummies"},
+    {n:"Saturated fat",v:t.sat,u:"g",tg:t.kcal*0.1/9,inv:1,note:"Aim under 10% of calories"},
+    {n:"Calories",v:t.kcal,u:"kcal",tg:T.kcal,note:"Estimated need "+fmt(T.kcal)}
+  ];
+  $("micro").innerHTML="";
+  M.forEach(m=>{
+    let st,col,ratio;
+    if(m.unknown){st=["info","Test it"];col="var(--muted)";ratio=m.v/m.tg;}
+    else if(m.inv){ratio=m.v/m.tg; st=ratio>1?["watch","Above"]:["good","Within"]; col=ratio>1?"var(--watch)":"var(--good)";}
+    else if(m.ul){ratio=m.v/m.ul; st=m.v>=m.ul?["alert","Over limit"]:m.v>=0.8*m.ul?["watch","Near limit"]:m.v>=m.tg?["good","Covered"]:["watch","Low"]; col="var(--"+st[0]+")";}
+    else {ratio=m.v/m.tg; st=ratio>=0.95?["good","Covered"]:ratio>=0.7?["watch","Nearly there"]:["alert","Gap"]; col="var(--"+st[0]+")";}
+    const d=document.createElement("div"); d.className="mcard";
+    d.innerHTML='<svg viewBox="0 0 60 60"></svg><div><b>'+m.n+'</b><div class="mv">'+fmt(m.v,m.d||0)+" "+m.u+'</div><span class="chip '+st[0]+'">'+st[1]+'</span><div class="ms">'+m.note+'</div></div>';
+    ringSVG(d.querySelector("svg"),ratio,60,7,(m.ul?pct(m.v,m.ul):pct(m.v,m.tg))+"%",null,col);
+    $("micro").appendChild(d);
+  });
+
+  /* calcium detail */
+  const caParts=L.filter(i=>i.per.ca>0).map(i=>({key:i.key,name:i.name,v:i.per.ca*i.avg,fort:i.key==="powder"&&s.powder==="protinex"})).sort((a,b)=>b.v-a.v);
+  const scaleMax=Math.max(T.caUL*1.15,t.ca*1.05);
+  $("caStack").innerHTML='<div class="castack">'+caParts.map(p=>'<i title="'+esc(p.name)+'" style="width:'+(p.v/scaleMax*100)+'%;background:var('+COLOR[p.key]+')'+(p.fort?';background-image:repeating-linear-gradient(45deg,transparent 0 5px,rgba(255,255,255,.35) 5px 8px)':'')+'"></i>').join("")+
+    '<u style="left:'+(T.ca/scaleMax*100)+'%"><span>Need 1,000</span></u><em style="left:'+(T.caUL/scaleMax*100)+'%"><span>Limit 2,500</span></em></div>';
+  $("caKey").innerHTML=caParts.map(p=>'<span><i class="sw" style="background:var('+COLOR[p.key]+')"></i>'+esc(p.name)+" "+fmt(p.v)+" mg"+(p.fort?" (added calcium)":"")+'</span>').join("");
+  const fortCa=caParts.filter(p=>p.fort).reduce((a,p)=>a+p.v,0);
+  $("caText").textContent="Total about "+fmt(t.ca)+" mg a day. "+(fortCa>0?fmt(fortCa)+" mg of it is calcium added to Protinex (striped), and the rest comes from food. ":"All of it comes from food. ")+
+    "A 12-year study of 91,731 women found the highest food-calcium intake had a 35% lower kidney-stone risk, while calcium supplements carried a 20% higher risk. So the food calcium isn't the worry; the added calcium is. The 2,500 mg limit still applies to everything combined.";
+
+  ledger(s);
+
+  /* compare */
+  const ps=Object.assign({},s,planFor(s)), PL=build(ps), pt=totals(PL), PSI=(()=>{ if(ps.soya!=="alternate") return slotInfo(PL,"soya"); const a=slotInfo(PL,"soya"),b=slotInfo(PL,"other"); return a.map((x,i)=>Object.assign({},x,{p:(x.p+b[i].p)/2,leu:(x.leu+b[i].leu)/2})); })();
+  const PSC=scores(ps,pt,T,PSI); const same=Object.keys(planFor(s)).every(k=>s[k]===ps[k]);
+  const rows=[["Fuel score",SC.fuel,PSC.fuel,"",1],["Protein",t.p,pt.p,"g",1],["Leucine hits",SC.hits,PSC.hits,"",1],["Calcium",t.ca,pt.ca,"mg",-1],["Fibre",t.fib,pt.fib,"g",1],["EPA + DHA",t.epa,pt.epa,"mg",1],["Maltodextrin and sugar",t.ref,pt.ref,"g",-1],["Calories",t.kcal,pt.kcal,"kcal",0]];
+  $("compare").innerHTML="<table class='cmp'><thead><tr><th>Per day</th><th>Now</th><th>Plan</th></tr></thead><tbody>"+rows.map(r=>{const d=r[2]-r[1];let c="";if(Math.abs(d)>=1&&r[4]!==0)c=(d*r[4]>0)?"better":"worse";return "<tr><td>"+r[0]+"</td><td>"+fmt(r[1])+" "+r[3]+"</td><td class='"+c+"'>"+fmt(r[2])+" "+r[3]+"</td></tr>";}).join("")+"</tbody></table>"+
+    (same?"<p class='muted' style='margin:10px 0 0;font-size:13.5px'>You're on the recommended plan. Use \"Back to my current routine\" in settings to compare.</p>":"<div class='btns'><button class='act' type='button' id='applyPlan2'>Apply recommended plan</button></div>");
+  const b2=$("applyPlan2"); if(b2) b2.addEventListener("click",applyPlan);
+
+  research(s);
+  try{window.dispatchEvent(new CustomEvent("fuelscore",{detail:{fuel:SC.fuel,protein:t.p,target:T.protein,ca:t.ca}}));}catch(e){}
+
+  /* uses */
+  const cells=[];
+  if(s.milkMl>0) cells.push([fmt(s.milkMl*7/1000,1).replace(".0","")+" L","milk ("+MILK[s.milkType].short+")"]);
+  if(s.powder==="protinex"&&s.powderServings) cells.push([fmt(s.powderServings*245)+" g","Protinex; 1 kg lasts about "+Math.round(1000/(s.powderServings*35))+" days"]);
+  if(s.powder==="whey"&&s.powderServings) cells.push([fmt(s.powderServings*210)+" g","whey; 1 kg lasts about "+Math.round(1000/(s.powderServings*30))+" days"]);
+  if(s.epigamia) cells.push([fmt(s.epigamia*7*140/85,0)+" cups","Epigamia 85 g cups (about "+fmt(s.epigamia*140*7/1000,1)+" kg)"]);
+  if(s.bread) cells.push([s.bread*7+"","slices of bread"]);
+  if(s.avocado) cells.push([fmt(s.avocado*7,1).replace(".0",""),"avocados"]);
+  if(s.walnuts) cells.push([fmt(s.walnuts*14)+" g","walnuts ("+s.walnuts*7+" halves)"]);
+  const sb={none:0,alternate:3.5,half:3.5,daily:7}[s.soya]; if(sb) cells.push([fmt(sb*50)+" g","dry soya chunks"]);
+  if(s.addChana){const cb=CHANA[s.soya].avg*7; if(cb) cells.push([fmt(cb,1).replace(".0","")+" bowls","chana or rajma"]);}
+  if(s.addEggs) cells.push(["14","eggs"]);
+  cells.push(["21 g","creatine; a 250 g tub lasts about 12 weeks"]);
+  cells.push(["42","gummies (shilajit, ashwagandha, hair)"]);
+  if(!s.dropCarnitine) cells.push(["14 g","L-carnitine"]);
+  if(s.addAlgae) cells.push(["7","algae omega-3 capsules"]);
+  $("uses").innerHTML=cells.map(c=>"<div><b>"+c[0]+"</b><span>"+c[1]+"</span></div>").join("");
+}
+sync(); render();
+})();
+</script>
