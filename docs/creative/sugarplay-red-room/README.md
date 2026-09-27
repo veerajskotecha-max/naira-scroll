@@ -5,7 +5,7 @@ photographs before anything was drawn on them; the overlays then behave like the
 catalogue page. Feed 1080×1350 and story 1080×1920 for every card; names and prices read from Shopify at build
 time; every figure on a card exists in that SKU's listing.
 
-Artifact: (link in the session message)
+Artifact: https://claude.ai/artifact/Wkv4Sc7WVQ1thgyd3ETVJc
 
 | Set | Card | Device | Plate | Stock |
 |---|---|---|---|---|
