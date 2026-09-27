@@ -1,0 +1,14 @@
+# The Night Shift — ten sets of five
+
+An overnight creative run for Naira Petite. Each set is planned, rendered, reviewed as a designer, fixed,
+checked against the live listing and exported before the next begins. Every name and price is read from
+Shopify at build time; every frame was looked at against the listing before it was kept.
+
+Artifact (grows set by set): https://claude.ai/artifact/TpK7e9SnaB4gkX5M5oPfsz
+
+| Set | Title | Device | Score |
+|---|---|---|---|
+| 01 | The Dictionary | dictionary page over a macro plate | 9.2 |
+
+Each set folder holds `feed/`, `story/`, two contact sheets and `build/` (the set module and its notes).
+`core.py` is the shared build system; `artifact.py` builds the page.
