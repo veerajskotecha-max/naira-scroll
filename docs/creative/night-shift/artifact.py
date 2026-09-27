@@ -17,7 +17,7 @@ def section(mod):
 <div class="txt"><div class="eb">{k}</div><h3>{E(notes["cards"][k]["title"])}</h3><p>{notes["cards"][k]["why"]}</p><ul class="pc">{pcs}</ul>
 <div class="m">Source <b>{E(notes["cards"][k]["source"])}</b> · Checked: {E(notes["cards"][k]["check"])}</div></div></article>''')
     score=notes["score"]
-    return f'''<section class="set" id="{slug}"><div class="eb">Set {mod.SET["n"]:02d} · {E(notes["device"])}</div><h2>{E(mod.SET["title"])}</h2>
+    return f'''<section class="set" id="{slug}"><div class="eb">Set {int(slug[:2]):02d} · {E(notes["device"])}</div><h2>{E(mod.SET["title"])}</h2>
 <p class="lede">{E(notes["lede"])}</p>
 <div class="plan"><div><span class="m">Idea</span><p>{notes["idea"]}</p></div><div><span class="m">Type</span><p>{notes["type"]}</p></div><div><span class="m">Review</span><p>{notes["review"]}</p></div></div>
 <div class="score"><b>{score}</b><span>/10 after {notes["passes"]} pass{"es" if notes["passes"]!=1 else ""} — {E(notes["verdict"])}</span></div>
