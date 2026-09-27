@@ -9,6 +9,7 @@ Artifact (grows set by set): https://claude.ai/artifact/TpK7e9SnaB4gkX5M5oPfsz
 | Set | Title | Device | Score |
 |---|---|---|---|
 | 01 | The Dictionary | dictionary page over a macro plate | 9.2 |
+| 02 | The Test | wear-test report with PASS/FAIL stamps | 9.2 |
 
 Each set folder holds `feed/`, `story/`, two contact sheets and `build/` (the set module and its notes).
 `core.py` is the shared build system; `artifact.py` builds the page.
