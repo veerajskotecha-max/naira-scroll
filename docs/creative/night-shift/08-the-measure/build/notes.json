@@ -1,0 +1,17 @@
+{
+ "device": "A ruler under every headline",
+ "lede": "(five figures from the listings, each photographed with the bench tool that takes it, each printed on a ruler. a reading, not a promise.)",
+ "idea": "The plan said The Making, but Naira's pieces are surgical steel and plating, not lost-wax and a file, and a set that implied a jeweller's bench would be a lie. So the bench became a place where things are measured rather than made. Five cards, five figures the listings already carry: the inner diameter of a fixed-size ring, the width of a hoop, a stone and its halo, the weight of a chain, the drop of a charm. Each is drawn on an SVG ruler with the value marked in oxblood, and each is photographed with the instrument that reads it: mandrel, calliper, loupe, wax, graph paper.",
+ "type": "A mono label line in oxblood, then the noun in Velista at 132px (THE SIZE. THE WIDTH. THE STONE. THE WEIGHT. THE DROP.), then the ruler: 1.5px baseline, ticks every unit, numbers every five, a marker with the figure in Jost 600. A Cormorant italic aside under it. The foot carries the listing spec, the price and the CTA.",
+ "review": "Pass 1: the ink top bar vanished on the two dark bench plates; a one-unit stud earring from another listing was visible at the corner of the loupe card's story crop; the set's label class collided with the top bar's and turned the corner label oxblood; the story spec on the clover card wrapped. Pass 2: ivory bars on the mandrel and calliper cards, the loupe story plate re-cut to exclude the stud, the class renamed, the spec shortened.",
+ "score": "9.0",
+ "passes": 2,
+ "verdict": "run the hoops and the chain at spend; the ring, the band and the clover set are three, three and five units and belong in organic until the stock moves.",
+ "cards": {
+  "M1": {"title": "THE SIZE.", "why": "The chevron ring on a brass mandrel. A fixed-size ring lives or dies on one number, so the card prints the number: 17.3mm inside, US 7.", "source": "The Bench campaign frame B01 from earlier in the engagement, re-cut.", "check": "US 7, 17.3mm inner diameter and 9.5mm at the chevron on JDR0303312-7; 5 units, non-hero card."},
+  "M2": {"title": "THE WIDTH.", "why": "The braided hoop in the jaws of a vernier calliper, the reading the listing gives: 25mm across.", "source": "The Bench frame B03, re-cut.", "check": "25mm on E20267O; 77 units, hero-safe."},
+  "M3": {"title": "THE STONE.", "why": "The halo band under a loupe, two markers on one ruler: the 8mm stone and the 12mm cushion halo around it.", "source": "The Bench frame B02, cropped so the neighbouring stud (one unit, not listable) is out of frame in both formats.", "check": "8mm round, 12mm halo, US 7 on WR10170K7; 3 units, the floor for a non-hero card."},
+  "M4": {"title": "THE WEIGHT.", "why": "The paperclip chain has been drawn across soft wax and left a channel. Twelve grams, shown as a mark rather than a scale readout.", "source": "Archive frame #626 from the wax series, full resolution.", "check": "4mm, 50cm and 12g on YF5143; 80 units, hero-safe."},
+  "M5": {"title": "THE DROP.", "why": "The clover huggie on engineering graph paper, two markers: the 8.5mm drop and the 10.2mm huggie.", "source": "The Bench frame B09, re-cut.", "check": "10.2mm huggie and 8.5mm drop on JDE0201327; 3 units, non-hero card."}
+ }
+}

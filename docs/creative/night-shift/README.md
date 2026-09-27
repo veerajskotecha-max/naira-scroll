@@ -15,6 +15,7 @@ Artifact (grows set by set): https://claude.ai/artifact/TpK7e9SnaB4gkX5M5oPfsz
 | 05 | The Layer | engineering dimension lines, stacks that add up | 9.1 |
 | 06 | On Every Skin | hex sampled from her collarbone, five-swatch strip | 9.3 |
 | 07 | The Light | one diya, the offer form filled with NONE | 9.4 |
+| 08 | The Measure | five listing figures on a ruler, shot with the bench tool | 9.0 |
 
 Each set folder holds `feed/`, `story/`, two contact sheets and `build/` (the set module and its notes).
 `core.py` is the shared build system; `artifact.py` builds the page.
