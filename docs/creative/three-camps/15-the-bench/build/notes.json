@@ -1,0 +1,17 @@
+{
+ "device": "A flower on the bench",
+ "lede": "(the bench stills with the brand's painted bloom laid on the bench like a flower someone brought in, petals fallen across the plate with the bench's own shadow, the embroidered floral cloth as the table's edge, and the tool's name as the headline.)",
+ "idea": "The Bench is where the brand measures. The first overlays were captions; Set 08 of the Night Shift already gave these plates a ruler. This pass gives them the florals: the site's painted dahlia dropped onto the bench at the scale of a real flower, with a shadow that matches the bench light, so it reads as something left there rather than pasted on; the hero petals scattered as if they fell from it; the site's gold embroidery photograph as the cloth edge between picture and type; the brand flower ghosted into the panel as a watermark. The headline is the tool. The figures are the listing's. Nothing claims the piece was made by hand.",
+ "type": "Velista at 150px with the tool's name in oxblood; a Cormorant italic aside; a trio of figures in Jost 600 at twice the mono size under mono keys. The cloth is a 64px band of the embroidery photograph with a soft shadow; the watermark is the brand flower at 10% opacity, grey-scaled, bleeding off the right edge.",
+ "review": "Verification: the five plates are the Bench frames whose SKUs are still listed — the calliper hoops (77), the mandrel chevron (5), the loupe halo (3, the neighbouring one-unit stud cropped out in both formats), the ear's fluted hoop (4) and the graph-paper clover (3); the wax, buff, bench-pin and wrist frames carry inactive SKUs and were passed over. Pass 1: the bloom covered the top-bar label on three cards. Pass 2: blooms moved below the bar and scaled down; petals kept.",
+ "score": "9.2",
+ "passes": 2,
+ "verdict": "THE CALLIPER. is the lead and the only hero-stock card; the rest are brand pieces until the ring and the set restock.",
+ "cards": {
+  "B1": {"title": "THE CALLIPER.", "why": "The braided hoop in the calliper's jaws, a bloom dropped on the bench beside it, petals on the brass. A reading, not a promise: twenty-five across.", "source": "Bench frame B03, re-cut.", "check": "25mm, no stones on E20267O; 77 units."},
+  "B2": {"title": "THE MANDREL.", "why": "The chevron on the brass mandrel with the bloom at the foot of the tool. A fixed size is a single number, and the card prints it.", "source": "Bench frame B01, re-cut.", "check": "US 7, 17.3mm inside, 9.5mm at the chevron on JDR0303312-7; 5 units, non-hero card."},
+  "B3": {"title": "THE LOUPE.", "why": "The halo band under the loupe, the bloom leaning on the glass, the neighbouring stud cropped out because it has one unit.", "source": "Bench frame B02, cropped in both formats.", "check": "8mm stone, 12mm halo, US 7 on WR10170K7; 3 units, non-hero card."},
+  "B4": {"title": "THE EAR.", "why": "The fluted-disc hoop on the ear, the bloom beside the temple, petals falling past the jaw. The only bench tool with a pulse.", "source": "Bench frame B07, re-cut.", "check": "22mm across, 6mm discs on FE03586B; 4 units, non-hero card."},
+  "B5": {"title": "THE GRID.", "why": "The clover huggie on engineering paper with the bloom at the corner of the sheet. Engineering paper does not round up.", "source": "Bench frame B09, re-cut.", "check": "8.5mm drop, 10.2mm huggie on JDE0201327; 3 units, non-hero card."}
+ }
+}
