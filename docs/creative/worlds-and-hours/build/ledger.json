@@ -1,0 +1,341 @@
+[
+ {
+  "ad": "C1",
+  "n": 677,
+  "gen": "1fb1bc7b-0e1b-476f-8d89-c7a968fbde91",
+  "when": "11 Sep 2026",
+  "prompt": "SHOT — A single still-life advertising frame, 4:5 vertical, one product only.\n\nTHE PRODUCT — IMAGE 1 and IMAGE 2 are the same real bracelet, photographed on set. Reproduce that exact bracelet and nothing else. IMAGE 1 is the authority for how it is built.\n\nCON",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "YF5215",
+    "title": "Heartbead Bracelet",
+    "price": 1299.0,
+    "inv": 29,
+    "waterproof": true
+   }
+  ],
+  "check": "Mirror-polished steel spheres, gold toggle, one gold heart — matches listing. Beads seen through the red glass read red; the strand outside it is plainly steel."
+ },
+ {
+  "ad": "C2",
+  "n": 699,
+  "gen": "25132ba1-5207-43ab-b9b4-2743465c98a1",
+  "when": "11 Sep 2026",
+  "prompt": "ADVERTISING STILL LIFE — \"THE BRACELET IS THE PRISM\". Editorial poster for a petite demi-fine jewellery house. Shot on a 100mm macro lens, product dead sharp.\n\nTHE PRODUCT — LOCKED TO THE REFERENCE IMAGES: the Prism Rivière Bracelet. A continuous straight line",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "B00681C",
+    "title": "Prism Rivière Bracelet",
+    "price": 2399.0,
+    "inv": 77,
+    "waterproof": true
+   }
+  ],
+  "check": "Three colours only (aqua, pink, yellow) in pavé halos, fold-over clasp. Pass."
+ },
+ {
+  "ad": "C3",
+  "n": 1041,
+  "gen": "c97553ca-e94a-41fe-b8ee-da3fff2204dd",
+  "when": "09 Aug 2026",
+  "prompt": "A dark-skinned hand with glossy black almond nails gripping a crushed mirror-chrome soft-drink can. Resting on the crushed chrome, catching hard specular light: a pair of gold-tone hoop earrings formed from a dense multi-strand basket-weave gold braid, hinged ",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "E20267O",
+    "title": "Woven Gold Hoops",
+    "price": 1499.0,
+    "inv": 77,
+    "waterproof": true
+   }
+  ],
+  "check": "Braided rope hoop with flat hinge tab, 25mm proportion against the hand. No stones. Pass."
+ },
+ {
+  "ad": "C4",
+  "n": 1517,
+  "gen": "85841af6-fae0-4f4c-873a-547ef54c514e",
+  "when": "06 Aug 2026",
+  "prompt": "A hard-lit sculptural advertising still life. Preserve the pair of stud earrings from reference 1 exactly: identical warm-neutral gold, identical chunky curved brushed-gold nugget form, identical proportions and surface finish; the surface must stay a soft bru",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "E14776S",
+    "title": "Brushed Gold Huggies",
+    "price": 1099.0,
+    "inv": 16,
+    "waterproof": true
+   }
+  ],
+  "check": "Wide brushed-satin huggies, no stones. Pass."
+ },
+ {
+  "ad": "C5",
+  "n": 630,
+  "gen": "3badd58e-88a5-458d-9005-dccb522593fe",
+  "when": "11 Sep 2026",
+  "prompt": "SHOT — Still life from directly overhead, 100mm. A fine gold paperclip chain has been drawn across a flat slab of soft blush-pink wax, and it has cut a groove as it went: behind the chain runs a clean continuous channel pressed into the wax, and the channel is",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "YF5143",
+    "title": "Toggle Link Chain",
+    "price": 1499.0,
+    "inv": 80,
+    "waterproof": true
+   }
+  ],
+  "check": "4mm paperclip links, plain ring of the toggle at the end. Bar hidden by the crop; ring shown. Pass."
+ },
+ {
+  "ad": "D1",
+  "n": 2464,
+  "gen": "4d465995-a298-4d32-b60e-df28f5d02565",
+  "when": "16 Jul 2026",
+  "prompt": "Clean e-commerce product still-life photograph, catalogue PDP quality, square. Preserve the product from reference 1 exactly: a] Do not redesign, restyle, resize or add anything to the piece. put it on an indian model",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "YF5215",
+    "title": "Heartbead Bracelet",
+    "price": 1299.0,
+    "inv": 29,
+    "waterproof": true
+   }
+  ],
+  "check": "The website's own on-wrist shot: mirror steel spheres, gold toggle, gold heart. Pass."
+ },
+ {
+  "ad": "D1",
+  "n": 693,
+  "gen": "b5f1901f-6f3b-49f6-84c6-e0a23464e2de",
+  "when": "11 Sep 2026",
+  "prompt": "ADVERTISING STILL LIFE — \"DOUBLED\". Editorial poster for a petite demi-fine jewellery house, festive season. Shot on a 100mm macro lens, product dead sharp.\n\nTHE PRODUCT — LOCKED TO THE REFERENCE IMAGES: the Heartbead Bracelet. A strand built entirely from POL",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "YF5215",
+    "title": "Heartbead Bracelet",
+    "price": 1299.0,
+    "inv": 29,
+    "waterproof": true
+   }
+  ],
+  "check": "Same bracelet lying with the tumbler on its side; steel spheres read mirror-bright. Pass."
+ },
+ {
+  "ad": "D2",
+  "n": 709,
+  "gen": "382b55d4-bd53-41e8-9190-2255f6feffd1",
+  "when": "07 Sep 2026",
+  "prompt": "A raw energetic photograph of a NECK AND COLLARBONE AFTER EXERCISE, cropped to the throat, collarbone and one shoulder — no face, chin clipped at the very top edge. She wears one FINE DELICATE gold chain and the skin is running with sweat. FIDELITY LOCK: prese",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "YF5143",
+    "title": "Toggle Link Chain",
+    "price": 1499.0,
+    "inv": 80,
+    "waterproof": true
+   }
+  ],
+  "check": "Keep It On plate 07 (approved 7 Sep): 4mm chain, toggle at front, after-exercise skin. Pass."
+ },
+ {
+  "ad": "D2",
+  "n": 963,
+  "gen": "19d5af6f-41cb-4781-aeb0-b4bd507d5183",
+  "when": "19 Aug 2026",
+  "prompt": "On-body advertising photograph of a FINE gold chain necklace fastened with a T-bar toggle worn at the front of the throat. Preserve from reference 1 exactly: identical warm gold elongated rectangular link chain, same gold tone and polish. THE CLASP MUST BE EXA",
+  "nref": 1,
+  "pieces": [
+   {
+    "sku": "YF5143",
+    "title": "Toggle Link Chain",
+    "price": 1499.0,
+    "inv": 80,
+    "waterproof": true
+   }
+  ],
+  "check": "Paperclip chain, T-bar toggle worn at the front of the throat. Pass."
+ },
+ {
+  "ad": "D3",
+  "n": 2219,
+  "gen": "21d81f3b-46a3-4b8d-a1c6-7b6e175f8734",
+  "when": "21 Jul 2026",
+  "prompt": "Editorial on-wrist lifestyle shot for Naira jewellery brand. A woman's wrist wearing the exact bracelet from the reference image — a silver bracelet with square links each set with a square-cut colored gemstone (light blue, pink, yellow) in a halo of clear pav",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "B00681C",
+    "title": "Prism Rivière Bracelet",
+    "price": 2399.0,
+    "inv": 77,
+    "waterproof": true
+   }
+  ],
+  "check": "On-wrist, three colours only. Pass."
+ },
+ {
+  "ad": "D3",
+  "n": 1045,
+  "gen": "213dc07f-1c6f-4b97-8c6a-c92a96633fa5",
+  "when": "09 Aug 2026",
+  "prompt": "A rhodium silver tennis bracelet — a continuous row of square step-cut pastel zircons in aqua, pink, yellow and lilac repeating, each seated in a cushion-shaped fine pave halo, fold-over box clasp — draped across a mound of shaved ice drenched in dark violet s",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "B00681C",
+    "title": "Prism Rivière Bracelet",
+    "price": 2399.0,
+    "inv": 77,
+    "waterproof": true
+   }
+  ],
+  "check": "Prompt asked for a fourth colour (lilac); the render shows only aqua, pink and yellow — checked stone by stone. Pass."
+ },
+ {
+  "ad": "D4",
+  "n": 1023,
+  "gen": "4e50565d-a0ce-4aa4-ab2f-82feed2c564a",
+  "when": "09 Aug 2026",
+  "prompt": "07:15. Tight crop on a young Indian woman's ear and jaw in a steam-fogged bathroom mirror, one hand tucking damp hair behind the ear. She wears a gold hoop earring made from a dense multi-strand basket-weave gold braid with a hinged latch and a flat polished o",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "E20267O",
+    "title": "Woven Gold Hoops",
+    "price": 1499.0,
+    "inv": 77,
+    "waterproof": true
+   }
+  ],
+  "check": "Woven hoop on the ear; the gold Serpentine chain the prompt also asked for sits below the crop line and is out of frame. Pass with crop."
+ },
+ {
+  "ad": "D4",
+  "n": 1536,
+  "gen": "141d0fbd-ef5f-4659-89d2-41013e3112a3",
+  "when": "06 Aug 2026",
+  "prompt": "A dramatic advertising hero still life. Preserve the pair of hoop earrings from reference 1 exactly: identical warm-neutral gold, identical thick braided rope surface, identical flat tab at the hinge, same shapes, proportions and lustre; the braid must stay a ",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "E20267O",
+    "title": "Woven Gold Hoops",
+    "price": 1499.0,
+    "inv": 77,
+    "waterproof": true
+   }
+  ],
+  "check": "Braided rope hoops, flat hinge tabs, no stones. Pass."
+ },
+ {
+  "ad": "D5",
+  "n": 1017,
+  "gen": "7d3d3b79-42df-492d-b9ec-798e1e788da5",
+  "when": "09 Aug 2026",
+  "prompt": "06:40. A young Indian woman's hand reaching across rumpled bed linen to silence a phone. She wears exactly TWO pieces and nothing else. FIRST, on the index finger, a GOLD open ring built from FOUR fine parallel bands — two of them densely pave-set with tiny cl",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "WR12518B",
+    "title": "Petite Pavé Band",
+    "price": 899.0,
+    "inv": 4,
+    "waterproof": true
+   },
+   {
+    "sku": "YF8156",
+    "title": "Ribbon Bead Bracelet",
+    "price": 799.0,
+    "inv": 3,
+    "waterproof": true
+   }
+  ],
+  "check": "Petite Pavé Band (2 pavé + 2 plain bands, centre stone) and the Ribbon Bead Bracelet on the wrist. Pass."
+ },
+ {
+  "ad": "D5",
+  "n": 1030,
+  "gen": "ee11fd45-458e-4f22-9958-3f422f118498",
+  "when": "09 Aug 2026",
+  "prompt": "10:15. Overhead close crop of a young Indian woman's hands on a laptop keyboard, fingers caught in slight motion blur mid-keystroke, screen glow washing the desk. She wears FOUR pieces: a gold open ring of four fine parallel bands, two pave strands crossing tw",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "WR10170K7",
+    "title": "Whisper Pavé Band",
+    "price": 899.0,
+    "inv": 3,
+    "waterproof": true
+   },
+   {
+    "sku": "YF5214",
+    "title": "Star Point Band",
+    "price": 799.0,
+    "inv": 3,
+    "waterproof": true
+   }
+  ],
+  "check": "Four pieces, all in stock: Star Point Band renders as a proper wide flat ring with one stone per star; Petite Pavé; Whisper Pavé (round brilliant in cushion halo); Ribbon Bead. Pass."
+ },
+ {
+  "ad": "D5",
+  "n": 1024,
+  "gen": "566b81ec-cb2b-4427-bd89-c9cda52ea29a",
+  "when": "09 Aug 2026",
+  "prompt": "17:00. A young Indian woman's hand held out flat past a doorway into falling rain, water beading and running over her skin and wrist, the wet street beyond thrown out of focus. She wears gold hinged huggie earrings with detachable clover charms and matching cl",
+  "nref": 0,
+  "pieces": [
+   {
+    "sku": "B00681C",
+    "title": "Prism Rivière Bracelet",
+    "price": 2399.0,
+    "inv": 77,
+    "waterproof": true
+   },
+   {
+    "sku": "JDE0201327",
+    "title": "Clover Trio Edit",
+    "price": 1999.0,
+    "inv": 3,
+    "waterproof": true
+   }
+  ],
+  "check": "Clover huggie with charm and clover stud on the ear; Prism on the wrist with three colours. One stone at the wrist edge reads pale; not a fourth colour. Pass."
+ },
+ {
+  "ad": "—",
+  "n": 583,
+  "gen": "0563ad45-dee7-4db9-8392-a43d08cae117",
+  "when": "",
+  "prompt": "SHOT — Still life from directly overhead, 100mm. A bracelet of grey pearls with a gold heart charm lies coiled on a sheet of thick soft sage-green felt, and the felt has been compressed under it: ever",
+  "nref": 0,
+  "pieces": [],
+  "check": "REJECTED — rendered as grey pearls; the listing says mirror-polished steel, 'not pearl'. Replaced by #2464."
+ },
+ {
+  "ad": "—",
+  "n": 1028,
+  "gen": "d29e0053-213d-466e-b7d3-ed2fdcd93482",
+  "when": "",
+  "prompt": "18:30. A young Indian woman's raised hand gripping the overhead rail of a moving metro carriage, the crowd and windows behind her dissolved into heavy motion blur. She wears THREE pieces: a wide flat ",
+  "nref": 0,
+  "pieces": [],
+  "check": "REJECTED — the 'Star Point Band' came out as a pavé clover bangle Naira does not sell. Replaced by #1030."
+ },
+ {
+  "ad": "—",
+  "n": 2120,
+  "gen": "a661d880-a5ec-41bf-a9dc-e86ad135f4e0",
+  "when": "",
+  "prompt": "preserve the details exact of the product. settingt  Macro editorial still-life photograph, square. The necklace stands behind a row of three half-filled clear water tumblers so the chain is sliced, f",
+  "nref": 0,
+  "pieces": [],
+  "check": "REJECTED — the tumblers slice the bracelet so the clasp and count cannot be read. Replaced by #2219."
+ }
+]
