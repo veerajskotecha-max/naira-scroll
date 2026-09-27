@@ -1,0 +1,38 @@
+[
+ {
+  "plate": "peach_YF8156_S2_a2.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale (bow oversized against the body): the bow measures ~165 px claw to claw along its axis (centre bar ~x 948, y 1130), while the resting hand's fingernails in the same frame measure ~92-100 px (index, x ~1190-1290 at y 1280-1340) and ~107 px (middle). The bow reads ~1.5-1.7 fingernails long, about 15-17mm against the listed 10mm (+50-70%), and each 5mm heart reads ~7.5-8mm. This breaks the rule 'no wider than a fingernail on the wrist'.",
+   "Wrist cross-check points the same way: the bow is ~0.25 of the visible wrist span along the chain (~655 px, from x 700,y 1590 to x 1000,y 1000), i.e. ~13.8mm at a 55mm wrist (+38%). The top wrist edge is hidden under the resting hand, so this is the most generous reading."
+  ],
+  "notes": [
+   "Construction correct: exactly two clear heart-cut stones with lobes outward and points meeting at a gold centre bar (bow-tie, as in listing photo 6), outer claws, a jump ring each side; fine cable chain (links ~1.0-1.2mm) with spaced satellite beads. The centre bar is smooth where the real one is ribbed (not visible at phone size).",
+   "Satellite beads also run large: ~32 px, i.e. ~2.7-3.2mm vs 2mm listed.",
+   "Metal is yellow gold, not rose/copper: bead, bar and chain hue ~27-29 deg with G/R ~0.68-0.81, matching the listing chain (hue 25-33 deg, G/R 0.70-0.75). The full frame looks pinkish only from the peach grade and skin.",
+   "Worn-shot rules met: no eye, brow, nose, lips, mouth or chin anywhere (top-left is a blurred forearm). The resting hand has a thumb and four natural fingers. The bracelet hand's visible fingers are natural. The bracelet sits on the wrist.",
+   "Lobster clasp and extender are not visible (under the wrist); acceptable in a worn shot.",
+   "An S-shaped fold in the silk at the bottom-left corner (x 30-60, y 2014-2064) is fabric, not text. No watermark.",
+   "Peach backdrop and raw silk read apricot."
+  ],
+  "fix": "Keep the pose, light and framing, but render the bow at ~10 x 5.5mm: the whole bow no wider than one fingernail of the resting hand, each heart about half a nail. Beads 2mm (about a fifth of a nail), chain 1.2mm. Keep yellow gold, and exactly two clear heart stones point to point with the gold centre bar."
+ },
+ {
+  "plate": "peach_YF8156_S4_a2.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale (bow oversized against the apricot): the bow measures ~171 px claw to claw (centre bar ~x 972, y 1720). The apricot halves measure 490-550 px (pitted half ~524x490 at x 778-1302, open half ~550x535 at x 1150-1700). The bow is about 1/3 of an apricot half's width instead of ~1/5, i.e. ~14-16mm vs the listed 10mm (+40-57%), with each heart ~7mm vs 5mm. It is also ~0.6 of the pit's length (pit ~22x26mm) where it should be under half."
+  ],
+  "notes": [
+   "Cross-check: the chain path is ~2090 px, ~178mm at the apricot scale (inside the listed 16-19cm), so the apricots and chain agree and the enlargement is in the bow (bow ~1/12 of the chain length vs ~1/17 on the real piece). Beads ~30-32 px (~2.6-2.8mm, +30-40%). Chain links (~1mm) and the lobster (~8.5mm) look right.",
+   "Construction correct: two clear heart-cut stones with lobes outward and points meeting at a gold centre bar, outer claws, jump rings both sides; fine cable chain with spaced satellite beads; lobster clasp (top-left, x ~507-600, y ~1117-1198) clipped into the end jump ring. One bracelet only.",
+   "No separate extender tail can be distinguished because the lobster is clipped to the end ring. Worth showing a short extender tail in the re-shoot.",
+   "Metal is yellow gold: hue ~28 deg, G/R ~0.70 on the clasp, a bead and the bar, matching the listing chain.",
+   "The chain lies on the apricot flesh and over the pit, then drapes over the rim with contact. Physically plausible.",
+   "Peach dupioni silk and apricots read apricot. No text or watermark (slubs and one tiny dark fleck near the bottom-right corner only)."
+  ],
+  "fix": "Keep the layout, but render the bow at ~10 x 5.5mm: about one fifth of an apricot half's width and under half the pit's length, each heart ~5mm. Beads 2mm, chain 1.2mm, yellow gold. Show the lobster clasp clipped into a short extender chain with its end ring visible."
+ }
+]

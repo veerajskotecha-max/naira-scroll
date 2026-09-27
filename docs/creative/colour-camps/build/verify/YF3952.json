@@ -1,0 +1,33 @@
+[
+ {
+  "plate": "peach_YF3952_S3_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Macro: three haloed heart stations in focus (lower-left, centre, upper-right). A fourth, out of focus, is cut by the right edge (~x1450-1856, y430-620), and the plain paperclip chain runs blurred behind it at the top (~x560-1300, y0-560), joining the run's end. The full count of nine cannot be seen in a macro, but nothing contradicts it.",
+   "Station construction matches listing 0.jpg: a heart-cut clear CZ held in 3 prongs, a single-row pave halo of ~22 round stones, and a deep polished yellow-gold heart cup with soldered side loops. Stations are joined by 2-3 short cable links (ring, oval, ring). The listing's halo is a finer, denser pave band; the plate's halo stones are larger and fewer. It still reads as the same piece.",
+   "The connector cable links are drawn slightly chunky: the oval link is ~0.35-0.4x the heart width, vs ~0.25-0.3x in listing 0.jpg.",
+   "Halo stones on the shadow side render smoky taupe (~RGB 140,110,95) and the lit side near-white (~237,223,218). They read as clear pave at phone size, and the centre stones are colourless.",
+   "Scale: there is no referent in frame. By FFT, the fabric weave pitch is 15-20 px against hearts ~410-420 px wide, i.e. ~21-28 threads per heart. That is consistent with a ~5mm heart on a fine weave, and nothing reads oversized.",
+   "Ground is L83 C23 h56, on the peach target (#EEBBA0, ~h55). No text, logos or extra jewellery; contact shadows are present."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "peach_YF3952_S4_a3.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "SCALE: the hearts are ~1.7-1.8x the ~5mm spec. They measure 105-116 px across (heart at x707-820 = 112 px; heart at x900-1016 = 116 px), while the apricot halves (the 45mm referent) measure ~568-575 px across (left half x354-~930, y1453-2028; right half x1114-1681, y1107-1679). At ~12.7 px/mm each heart reads ~8.5-9mm, about 1/5 of a half's width instead of ~1/9. Cross-check: the paperclip links are ~123-128 px long, ~1.1x the heart width, vs ~1.5-1.9x in listing photos 1-3. So the hearts are inflated relative to their own chain as well.",
+   "IMPOSSIBLE DRAPE: stations 2-3 sit on the left half's cut face and 7-8 on the right half's face, while 4-5 lie on the silk between the halves and 1 and 6 perch on the rims. The halves are ~20mm tall (their shadows run ~345 px), but the connector between stations is only ~80-90 px in plan (~0.75 of a heart). There is no chain to drop off each half and climb back up, so the run behaves as if the halves were flat discs.",
+   "MALFORMED STATION: the 9th station, where the right paperclip chain joins (~x1440-1530, y1150-1250), renders as a bow- or butterfly-shaped pave cluster with a rectangular, baguette-like stone instead of a haloed heart. The count is still nine, but one station is not a heart. At phone size it is only a small sparkle; at 100% it is plainly wrong."
+  ],
+  "notes": [
+   "The station count is nine: a tipped heart at the left rim, seven flat hearts, and the malformed right-end station. Clear CZs, pave halos, polished yellow gold and plain paperclip chain on both sides are all correct.",
+   "Two apricot halves are used where the plan allows one. That is prop arrangement, not a fail.",
+   "The silk ground is L86 C21 h64, slightly toward sand vs the target h55, but still reads pale peach. The upper half is clean copy space. No text or logos."
+  ],
+  "fix": "Re-shoot the flat lay with the necklace lying flat on the silk and ONE apricot half beside it, touching the chain at a single point; no draping over or between halves. State scale as ratios: each heart ~1/9 of the half's width (5mm vs 45mm), the nine-heart run ~1.6 halves long (~73mm), and paperclip links ~1.6x a heart's width. All nine stations must be identical haloed hearts, including the two end stations where the paperclip chain joins."
+ }
+]

@@ -1,0 +1,49 @@
+[
+ {
+  "plate": "lilac_B00681C_S2_a2.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Colour order: 9 stones are visible across the wrist. From the top edge to the under-wrap they are yellow (partial, ~x1110,y820), aqua (1172,837), pink (1220,885), aqua (1265,955), yellow (1310,1037), pink (1347,1130), aqua (1372,1227), yellow (1382,1322), aqua (under-wrap, ~1370,1410). No two neighbours share a colour and all three colours appear. The real piece is not a strict 3-cycle either (3.jpg and 7.jpg show runs like A-P-A-Y), so this order is consistent with it.",
+   "Halo: every visible stone has its own pave halo. The band is about 15 px per side on ~85 px units, about 27% of the stone per side (listing photos: about 26%). It is drawn as a finer micro-pave of about 3 rows of tiny stones, not the listing's crisp double row. The two look the same at phone size.",
+   "Claws: the 7 face-on stones each have 4 short bead claws flush at the corners, matching 0.jpg and 8.jpg. The two edge units seen side-on (top edge ~x1080-1120,y810-850; under-wrap ~x1340-1410,y1360-1420) show their claws in profile as posts of about 12-25 px (~1.3-2.5 mm), a little taller than the real stubby claws. They are only 2-3 px at phone size.",
+   "Stone size on the wrist: stones measure 53-57 px (yellow at 1310,1037; pink at 1347,1130), units ~85 px, pitch ~97 px. The forearm just behind the bracelet (x1450-1600, axis-corrected) is ~498 px across. Taking that as 55 mm gives about 9 px/mm, so a stone is about 6.1 mm (listed 5, +21%). Fingernails measure 79-83 px; taking them as 10 mm gives about 6.7 mm, but the fingertips drape over the cushion at a different depth. Stone-to-wrist ratio is 0.110 here against 0.116 in the real worn listing photo 4.jpg, so the plate shows the same on-body proportion as the real product. It reads on the large side but stays inside tolerance.",
+   "Anatomy and framing: a left hand rests palm-down on a lilac cushion, with a thumb plus four fingers, natural knuckle creases and nails, and no rings or other jewellery. No eye, brow, nose, lips, mouth or chin anywhere; edges were checked. The soft skin shape at the right edge (x1750-1856, y220-680) is an out-of-focus upper arm. The bracelet is worn on the wrist just above the wrist bone, with a loose drape that fits an 18 cm bracelet.",
+   "Stone colours read aqua (hue ~195-200), soft pink (hue ~325-345, a touch mauve under the lilac light) and pale yellow (hue ~39). The lowest yellow (1382,1322) looks champagne in shadow. Facets are a simpler princess-style pattern than the real cushion cut, but they read as crisp faceted square stones.",
+   "Bright polished rhodium silver. Lilac wall (hue ~278) and lilac cushion, so the camp colour reads. No text, logos or watermark."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "lilac_B00681C_S3_a2.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Colour order: the four in-focus units, left to right, are aqua (~x230,y820), pink (~x690,y985), yellow (~x1215,y1235) and aqua (~x1740,y1470). No neighbours are alike and the order is consistent with the real piece. The partial unit at the left edge shows only halo. The blurred row at top-left (x0-800, y380-560) is the far side of the same loop, not a second bracelet.",
+   "Halo: every stone has its own halo, made of about 2 staggered rows of round pave set with bead grains. It is about 23% of the stone width per side (listing photos: about 26%). The pave stones are slightly larger and less regular than the listing's very fine double row, but it reads as the same double pave halo (compared side by side with 8.jpg and 0.jpg).",
+   "Claws: each stone has 4 short ball-tipped claws flush at the corners (pink stone claws at ~x607,794 / 887,915 / 755,1203 / 478,1076). Each is about 9% of the stone width, which matches the short claws on the real piece. No long prongs or spikes.",
+   "Stone colours read aqua (hue ~200), soft pink (hue ~327) and pale yellow (hue ~34, slightly champagne). Bright polished rhodium silver. Faceting and pave are crisp, with nothing melted or garbled.",
+   "Scale: there is no body or botanical referent in this macro. The linen weave cells (~33 px) against the stone (~380-415 px) work out to ~0.4 mm per cell if the stone is 5 mm, which is plausible for linen.",
+   "The bracelet rests across a lilac linen fold with contact. Lilac throughout (hue ~294-300). No text, logos or watermark."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "lilac_B00681C_S4_a2.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Stone count and order: 19 stones are in view, plus the fold-over clasp. Going clockwise from the clasp: A P A P Y P A Y P A P A Y A Y P A Y P (7 aqua, 7 pink, 5 yellow). This matches listing photo 3.jpg (the same standing-loop view) stone for stone. No two neighbours are alike. 7.jpg shows 20 stones laid flat, and the piece is adjustable (15-19 cm links).",
+   "Construction matches 3.jpg: fold-over box clasp with folding latch (~x1013-1327, y967-1173), a slot window in the top wall of each unit, and open backs showing the stone colour on the far-side units.",
+   "Halo: every face-on stone (the 12 in the front and sides) has its own halo, about 25% of the stone per side. It is drawn as a finer micro-pave than the listing's crisp double row. Compared side by side with 3.jpg it reads the same at phone size.",
+   "Claws: each stone has 4 short claws flush at the corners, including the stones seen side-on at the right (~x1330-1540, y1250-1560).",
+   "Scale is checked against the lavender. The spike runs from ~x1055,y1860 to the top whorl at ~x1745,y1440, about 808 px. Taking that as 40 mm gives about 20 px/mm, and the florets at 70-80 px (about 3.5-4 mm) agree. Front stones measure 108-112 px, about 5.5 mm (listed 5, +10%). Units are ~165 px (about 8.3 mm). The loop is about 1170 px wide (about 58 mm), which fits an 18 cm bracelet.",
+   "Pinks look pale in the full frame under the lilac light (hue ~325-330, sat ~0.2-0.25) but read clearly as soft pink when zoomed and at phone size. Yellow (hue ~30) reads pale yellow/champagne and aqua (hue ~211) reads light aqua-blue. Bright polished rhodium silver.",
+   "The prompt asked for a top-down flat lay, but the plate is a three-quarter view of the bracelet standing as a loop, as in 3.jpg. That is a camera-angle note only. The bracelet stands on its edge with contact shadows and caustics, and the lavender lies flat with a matching shadow, so it is physically plausible. Lilac paper (hue ~300-311). No text, logos or watermark. No other jewellery."
+  ],
+  "fix": ""
+ }
+]

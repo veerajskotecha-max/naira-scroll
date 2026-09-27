@@ -1,0 +1,21 @@
+[
+ {
+  "plate": "peach_YF3952_S1_a6.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Heart count: exactly 9 haloed heart stations in one front run. I counted them on a 2x crop (x 230-1220, y 1280-1860) and on a 3x sheet of each heart. The centres are at about (330,1345), (287,1450), (317,1557), (405,1645), (525,1715), (675,1760), (835,1785), (995,1785) and (1140,1745). There are no stones anywhere else on the chain. The run's U shape and the heart orientation (points to the outside of the curve) match listing photo 0.",
+   "Construction matches listing photos 0, 1 and 3. Each station is a clear heart-cut stone held in prongs, framed by a pavé halo and sitting in a polished gold cup. The stations are joined by 2-3 tiny cable links, and the ~70 px gap between hearts is about 0.8x the heart width, as in listing photo 0. A jump ring at each end of the run leads into open elongated paperclip links. Nothing is melted or garbled at phone size, and hearts 5-9 are needle-sharp.",
+   "It reads as a full-length necklace, not a bracelet. Plain paperclip chain runs on both sides. On the left, about 15 links climb to the top of the frame. On the right, about 19 links loop around the apricot and leave the right edge at y≈870. The heart run is only about a fifth of the visible chain.",
+   "Scale (rule 4) is within tolerance. At its widest row the apricot half is 603 px (x 712-1315). The cut-face rim sits about 20mm above the silk, so the comparable hearts are 2-3 (y≈1450-1557), and each is about 84 px across. That is 0.139 of the apricot's width, about 1/7.2, so a heart reads ≈6.3mm against a 45mm apricot. This is about 25% over the ~5mm spec and 11% over 'one eighth of the apricot', so it is inside ±30% but at the large end. The foreground hearts 6-9 measure 88-90 px because they are nearer the camera. The heart pitch (~160 px, about 1.8x the heart width) and the link-to-heart ratio (about 1.3-1.4) match the listing's proportions.",
+   "Stones read clear. The centre stones' mean saturation is 52-62 (0-255 HSV scale), against 55-64 for the same stones in listing photo 0. The metal reads warm yellow gold throughout.",
+   "Closure (check before running): the left chain end ends in a short curb-link extender with a blank teardrop tag, soft-focus and with no legible text or logo, at the top right (x≈975-1340, y≈725-810). The other end leaves the frame. No listing photo shows YF3952's closure and the listing facts do not state one, so the extender is not contradicted. If the real necklace has no extender, retouch out this small out-of-focus section.",
+   "At 100% the gold sides of the heart cups carry a faint crosshatch that looks like the silk weave. It is invisible at phone size, where the cups read polished. Two out-of-focus links, near (455,1245) and (1075,950), have clipped white specular highlights but still read as gold.",
+   "Composition notes only. The silk has soft diagonal folds in the top ~25% of the frame rather than lying perfectly flat. The chain rises to y≈700 (25% from the top), so the clear headline band is the top quarter rather than the top third. The lower quarter is clear.",
+   "Colour: the silk measures L*80-89, C*15-23, h63-65. That is slightly yellower and paler than the plan's peach band (h48-60, C*20-30), but with the apricot half the frame clearly reads peach/apricot. A light peach grade would tighten it.",
+   "Only one necklace. It lies flat on the silk with contact shadows and never crosses the fruit. No text, logo or watermark (all corners and edges checked)."
+  ],
+  "fix": ""
+ }
+]

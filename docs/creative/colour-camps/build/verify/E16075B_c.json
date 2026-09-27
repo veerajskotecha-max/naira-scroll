@@ -1,0 +1,18 @@
+[
+ {
+  "plate": "peach_E16075B_S4_a3.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Construction matches the listing on both bows (a side-by-side with src 0.jpg is near-identical). Each bow has exactly 4 clear stones: 2 pear-cut upper loops pointing into the knot and 2 tapered tails. The bezels are thin, wavy, double-rim yellow gold. The knot is ridged (3 ridges) with the two tiny gold beads at its base: left bow knot at x≈595-655, y≈1015-1130, beads at (587,1110) and (668,1110); right bow knot at x≈1205-1270, y≈1180-1305. The small crystal tips beyond the outer loop ends, at left bow ≈(375,995) and (870,975) and right bow ≈(990,1160) and (1485,1160), are the loop stones seen through the open side galleries, exactly as in src 0/1/5/7. They are not extra stones.",
+   "Scale is on the large side but not clearly oversize against the weave. The left bow is ~510 px wide bezel to bezel (x≈370-882) and ~415 px tall (y≈935-1350). The right bow is ~517 px (x≈978-1495) by ~418 px (y≈1102-1520). Width to height is 1.23, the same as the listing bow (384 × 312 px). Contrast-enhanced, the silk shows a regular grid of thread floats with lattice (8,1) and (1,-7) px in 5 patches around the bows, so the thread pitch is ~8 px. Each bow spans ~64 threads: the listed 15 mm at a 0.23 mm thread, ~19 mm (+28%) at 0.3 mm, and ~25 mm at 0.4 mm.",
+   "Slub cross-check: the vertical slub below the left bow (x≈770-800, y≈1460-1680+) is ~220 px long and 15-40 px thick. That is ~6.5 mm × 0.5-1.2 mm at the true-size scale, an ordinary slub.",
+   "Stones read clear. Mean saturation is 0.19-0.25 (per-pixel 51-64) across 8 stone patches, against 0.19 (48-54) in listing src 0.jpg, so only a warm peach environment cast. The gold is polished yellow gold: knot hue 30-31° against 35° in the listing.",
+   "Both bows stand upright on their tail tips with soft shadows on the silk below, like the listing's upright pose. This is plausible, and nothing floats.",
+   "The pair is shown (allowed) with no extra jewellery. All four corners are clean: no text, logo or watermark. The peach dupioni reads as the peach camp. Nothing is melted or garbled at 2× zoom.",
+   "The listing text says 'Fine gold claws', but the real product in the src photos (and the spec given) is bezel-set in wavy gold frames. The plate correctly follows the photos."
+  ],
+  "fix": ""
+ }
+]

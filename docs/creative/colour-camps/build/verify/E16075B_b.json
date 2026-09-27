@@ -1,0 +1,35 @@
+[
+  {
+    "plate": "peach_E16075B_S1_a2.png",
+    "pass": true,
+    "severity": "minor",
+    "reasons": [],
+    "notes": [
+      "Product matches the listing photos on both bows. Each has exactly 4 clear stones: 2 pear-cut upper loops pointing into the knot and 2 long tapered tails with wide flat ends. Also correct: thin wavy double-rim yellow-gold bezels, a ridged gold knot with the tiny gold beads at its base, and the small crystal tips showing at the outer ends of the loops, as in src 1.jpg and 7.jpg. The left bow is face-up at x255-690, y1225-1650. The right bow is tilted and leans on the almond, with knot ~(845,1215) and the same 4 stones.",
+      "Scale is on the large side but inside the 30% limit. The left bow measures ~405 px bezel to bezel along its own axis, or ~417 px including the crystal tip. The almond measures ~512 px tip to tip, from (878,1397) to ~(1355,1590). Correcting for the almond's ~21 deg tilt or a slightly hidden left tip gives ~520-530 px. The bow/almond ratio is ~0.77-0.81 against 0.65 expected (15/23 mm), so each bow reads ~17.5-18.5 mm (+17-25%). A sharper re-run would make each bow about two-thirds of the almond.",
+      "Physically plausible. The left bow's shadow falls lower-left, matching the almond's shadow. The right bow's right tail sits on the almond's top at x1040-1085, y~1365, and its down tail rests near the fabric.",
+      "Both bows render cleanly at phone size (430 px wide).",
+      "A small gold sliver shows between the right bow's down tail and the almond at x855-880, y1400-1445. It is the bezel side wall seen edge-on and is invisible at phone size.",
+      "No text, logo or watermark (all 4 corners and the full frame checked). Peach silk dupioni background reads as the apricot/peach camp. Only the pair plus an almond, no extra jewellery.",
+      "Listing copy says 'Fine gold claws', but the real product in src photos 0/1/5/6/7 is bezel-set in wavy gold frames. The plate correctly follows the photos. The listing text, not the plate, should be corrected."
+    ],
+    "fix": ""
+  },
+  {
+    "plate": "peach_E16075B_S2_a3.png",
+    "pass": false,
+    "severity": "major",
+    "reasons": [
+      "Scale: the bow is ~40% oversize against the ear. The ear runs from the helix top at y~501 to the lobe's lower edge at y~1077 (the red lobe skin between the tails ends there), so it is ~576 px tall. The bow spans x~1150-1353, ~203 px bezel to bezel, which is 0.35 of ear height. On a ~60 mm ear that is ~21 mm wide against the listed 15 mm. The expected width is 0.25 of ear height, ~145 px. The bow's height is also ~173 px (y955-1128), about 18 mm against ~12 mm real. The bow overhangs the whole lobe on both sides, where a 15 mm bow would sit inside it.",
+      "Face edge: a probable eyebrow tail shows at the right frame edge. A cluster of dark, denser hairs fans in from x~1790-1856, y~490-570. That is level with the top of the ear and ~55 mm in front of the tragus, exactly where the lateral brow tail sits in this near-profile view. The dark orbital hollow shadow sits directly below it at x~1820-1856, y~610-720. The worn-shot rule says any eyebrow, even at the edge, fails."
+    ],
+    "notes": [
+      "The product itself is correct: 4 clear stones (2 pear loops pointing into the knot, 2 tapered tails), a ridged gold knot, thin wavy yellow-gold bezels and crystal tips at the loop ends.",
+      "The stud sits correctly on the lobe. The knot/piercing is at ~(1245,1015), ~6 mm above the lobe edge. Ear anatomy is natural, only one earring is shown and there are no hands.",
+      "Stones have a slightly frosted, granular sparkle at 4x zoom but read as clear CZ at phone size. The knot shows 3 ridges against ~4 in the listing photos, which is not visible at phone size.",
+      "Checked and clear: no chin (the jawline at y~1540-1570 runs straight off the right edge with no chin curve), no eye, lashes, nose or lips. There is no text, logo or watermark, no hair accessories and no necklace.",
+      "Peach backdrop and peach silk top read as the apricot/peach camp."
+    ],
+    "fix": "Regenerate at true scale. The bow should be about a quarter of the ear's height, ~15 mm wide by ~12 mm tall, sitting inside the lobe at about three-quarters of the lobe's width, with the tails not overhanging the lobe edges. Keep the same back three-quarter, ear-level framing, with the knot at the lobe piercing. Turn the head slightly further away, or frame tighter on the ear and neck, so the right edge stops behind the temple: no brow tail and no eye-socket shadow. The current plate's right edge would need to lose at least ~120 px."
+  }
+]

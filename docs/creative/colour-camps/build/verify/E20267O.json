@@ -1,0 +1,20 @@
+[
+ {
+  "plate": "peach_E20267O_S2_a2c.png",
+  "pass": false,
+  "severity": "critical",
+  "reasons": [
+   "CHIN IN FRAME: the jawline at the lower right ends in the rounded chin silhouette (~x1050-1240, y1040-1250 of the 1262x1577 plate), clearly legible at phone size. Aligning with the uncropped master peach_E20267O_S2_a2.png confirms it: the c-crop is exactly a2[y87:1664, x0:1262] (correlation 1.00), and in a2 this bulge is the chin, directly below the lower lip.",
+   "LIP SLIVER: ~5-7 px of the lower lip remain on the right edge at ~x1255-1262, y953-1013 (darker, ~RGB 158-180/105-121/69-93, vs skin ~190/130/88). The eye and lashes clear the edge by only ~10 px and the brow by ~18 px."
+  ],
+  "notes": [
+   "The hoop itself is faithful: a thick interlaced braid of multi-wire gold strands in polished yellow gold, no stones, and one flat disc just under the latch end. Closure is a thin hinged wire with the hinge knuckle at the other end, with no bail, T-bar or ball pin. One hoop in frame, which is allowed for S2.",
+   "Scale is OK. The ear is ~534 px tall (60mm, so ~8.9 px/mm). The hoop's outside is ~263x257 px (x720-983, y720-977), about 29-30mm, ~17% over 25mm and within tolerance. That matches the listing's own worn photo 3.jpg, where the hoop is ~0.5x the ear height.",
+   "Disc finish is borderline. In the lobe's shadow the disc reads satin or caramel (core ~RGB 170,111,63, no specular), while the braid beside it carries bright speculars (p90 L~195). The listing disc is bright mirror-polished (~249,217,163). At phone size it still reads as a flat gold disc.",
+   "The hinged wire runs horizontally through the lobe, ~6-7mm above its lower edge, with the hoop fully face-on in a lateral ear view. This is the usual catalogue look, worn on the lobe where it sits.",
+   "Camp colour is weak. The frame is ~48% black hair and ~44% skin and gold, with only ~8% peach wall at the bottom right (L75 C31 h62); the crop removed the peach blouse. It still reads warm, so it is not a fail on its own.",
+   "No text, logos, extra jewellery or hands."
+  ],
+  "fix": "Re-shoot with the right edge of the frame at the jaw angle or back of the cheek, so no chin, lip, nose, eye or brow can enter. Keep the peach raw-silk blouse and peach wall in frame to carry the camp colour. Keep the hoop at about half the ear height and the disc bright, mirror-polished gold. Stopgap: re-crop the uncropped master a2 to x0-1040, y230-1530 (1040x1300, 4:5). That removes the chin and lips and keeps the hoop ~50 px inside the right edge, but leaves the frame mostly black hair with ~3% peach."
+ }
+]

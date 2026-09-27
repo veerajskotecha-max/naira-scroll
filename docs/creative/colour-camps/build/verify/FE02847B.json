@@ -1,0 +1,47 @@
+[
+ {
+  "plate": "sage_FE02847B_S1_a4g.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Pair correctly mirrored as in listing photos 0 and 2: left stud has the large pearl at ~3 o'clock, the small pearl at ~7 o'clock and the CZ-set star upper-left; right stud is the mirror (large pearl ~9 o'clock, small pearl ~5 o'clock, CZ-set star upper-right). Large pearls face inward, as listed.",
+   "Counts match on both studs, clockwise from upper-right CZ on the left stud: CZ, large pearl, small CZ, CZ, plain gold star, small pearl, CZ, CZ-set star. That makes 5 clear claw-set CZ (one in a star), 2 gold stars and 2 white pearls, plus 1 emerald-green cushion in a gold bezel. Metal is polished yellow gold. Proportions match the listing (stone width/height 0.54 vs 0.57; large pearl 0.25 of stud height, same as listing).",
+   "The grade touched product pixels. The shadowed lower-right ~14-16% of each large pearl was shifted from warm cream (hue ~47 deg) to faint mint (hue ~104 deg, sat ~0.09), and the patch has a mottled edge at 100% zoom. At phone size it reads as plate reflection and the pearls still read white, so it is not a fail. Re-grade with a product mask before final export, or grade from the ungraded a4, whose pearls are clean. CZs, metal and green stones are unchanged (stone mean colour within 1 unit).",
+   "Scale is plausible. The sage leaf is cropped by the left frame edge and defocused in the foreground. At the studs' plane (~22.9 px/mm, stud 458 px tall), its visible tip section is ~28mm long and ~8.5mm wide, and it stays parallel-sided to the frame edge, so the full leaf is at least ~44mm. That is consistent with the ~55mm referent: the stud reads at most ~+25%, under the 30% limit. The leaf is narrow, so the studs look bold beside it.",
+   "Both studs stand upright on the crackle-glaze dish with contact shadows cast to the right, as in listing photo 0. Posts are hidden in the front view.",
+   "No text, logos or watermarks. The frame reads sage (median hue ~145 deg)."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_FE02847B_S3_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "The hero stud matches the listing element for element, clockwise from upper-right: CZ, large pearl, small CZ, CZ, plain star, small pearl, CZ, CZ-set star. That makes 5 CZ, 2 stars and 2 white pearls, with an emerald cushion in a gold bezel and polished gold. Its large pearl sits on its right, matching the listing's left stud.",
+   "The second stud is partly cropped at the right edge (allowed for S3) and is the correct mirror: CZ upper-left, then the large pearl on its left in a gold cup, then a small CZ. It shows the openwork bezel gallery, and its post runs left toward the hero stud, as in listing photo 0.",
+   "The grade left the product untouched (0% of pearl pixels changed).",
+   "There is a soft near-black contact shadow and reflection under the bottom CZ on the glossy glaze. It was already present before grading and reads as a shadow at phone size.",
+   "Macro framing, so there is no listed scale referent. Crackle cells are ~2-4mm at product scale, which is plausible.",
+   "No text, logos or watermarks. The deeper celadon-sage frame (median hue ~146 deg) still reads sage."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_FE02847B_S4_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Pair correctly mirrored: left stud has the large pearl on its right (inner) side and the CZ-set star upper-left; right stud has the large pearl on its left (inner) side and the CZ-set star upper-right. This matches listing photos 0 and 2. The right stud is turned three-quarters and shows the openwork gallery, as in the listing.",
+   "Counts match on both studs: 1 emerald cushion, 5 clear CZ (one in a star), 2 gold stars, 2 white pearls (1 large, 1 small). Polished yellow gold.",
+   "Scale checked against the sage sprig tip (leaf-tip referent ~25mm) at ~25 px/mm (stud ~504 px tall). The largest leaf is ~25-27mm and the whole sprig ~37-40mm, so the stud reads ~19-20mm against the listed 20mm. The linen pitch (~14 px, ~0.55mm per thread, ~18 threads/cm) is consistent with that.",
+   "Grade artifact in the background only: warm gold-reflection pixels in the linen seen through the right stud's circlet were not shifted, which leaves faint orange speckle in the teal weave at 100% zoom. It reads as warm reflection at phone size. About 4-5% of the pearl pixels got a negligible yellow-green shift, invisible at any normal size.",
+   "The right stud's CZs look slightly milky in the three-quarter lighting but still read as clear stones.",
+   "Both studs rest on the linen with soft contact shadows. No text, logos or watermarks. The frame reads sage (median hue ~145 deg)."
+  ],
+  "fix": ""
+ }
+]

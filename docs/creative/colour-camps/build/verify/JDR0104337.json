@@ -1,0 +1,64 @@
+[
+ {
+  "plate": "sage_JDR0104337_S1_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Construction matches listing 0.jpg. The granulated open-lattice dome (about 11 granules across, glaze visible through the openwork) is fixed to the left end of the polished tapered shank. The shank runs behind the dome and round to a single smooth teardrop terminal at the right, with the open gap between terminal and dome. Yellow gold, polished, no stones, no melted granules.",
+   "Scale: the dome is about 490 px wide (x 312-802). The sage-leaf blade runs from the tip (845,1840) to the base (1395,1420). That is about 680 px on screen, or about 790-860 px after correcting for the roughly 40 degree camera tilt taken from the dish ellipse. So the leaf is about 26-28 mm, the young-leaf (~25 mm) referent, and the dome reads about 15-16 mm against the listed 16.8x15.7 mm. The dish reads about 85 mm across, which agrees. If a viewer took the leaf for a mature 55 mm leaf the ring would look about 2x; the leaf's small size and velvet read young, so this is not a fail.",
+   "The leaf rests against or just under the terminal and shank, and there is a contact shadow under the dome. Physically plausible.",
+   "The soft marks inside the shank are blurred reflections, the same as in listing 0.jpg; no legible text. No logos or watermarks.",
+   "The frame reads clearly sage (median background hue about 143 degrees). The upper third and the lower quarter are calm for copy."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_JDR0104337_S2_a2g.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Worn correctly. The dome sits on the back of the proximal phalanx of the middle finger (second finger from the top). The single teardrop terminal rises at that finger's side, out of the crevice next to the ring finger, with a gap of about 4-5 mm to the dome. This matches worn listing photo 3.jpg, and skin shows through the openwork lattice.",
+   "Scale: the dome is about 230x208 px. The same finger is about 232-262 px wide, so the dome is about finger-width, as on the real ring. The most frontal nail is about 120 px wide, which puts the dome at about 1.9 nail widths, or roughly 19 mm against 16.8 mm (+14%). Within tolerance.",
+   "Hand: four fingers are visible and the thumb is hidden beyond the index side in a natural resting pose. No extra or fused fingers; creases, knuckles and the short bare nails look natural.",
+   "No eye, brow, nose, lips or chin anywhere. The pale blurred shape at the left edge (x<150, y about 250-800) is an out-of-focus pale garment (grey-green in the ungraded a2), not skin.",
+   "Nit: the terminal's lower flank looks satin-smooth rather than mirror (the cap is mirror). It reads as polished gold at phone size.",
+   "The INTRO suggests the index finger and the plate shows the middle finger. Styling only.",
+   "Sage wall and sage linen; reads sage (hue about 144 degrees). No text or logos."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_JDR0104337_S3_a2g.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "The macro matches the listing: an open lattice of polished granules with fine connecting granules and glaze visible through the openwork. The beads are crisp, and the edge beads are soft only from depth of field. The shank leaves the back of the dome and ends in one smooth teardrop terminal across the open gap. Yellow gold, polished, no stones. The shadow shows light dots through the openwork, which is consistent.",
+   "There are stylised four-point starburst glints: a large one on the shank's top edge (about 1450,980) and small ones on a few granules (about x 800-900, y 1000-1120). At phone size they read as light glints, not stones, but it would be worth softening them in a regrade.",
+   "No sliver of the referent is in frame (the plan asked for sage-leaf hairs), so scale reads only from the ring itself. Not a fail for a macro.",
+   "The top-left corner falls to near-black green and the grade is a deeper teal-sage than S1/S2/S4. It still reads sage (median background hue about 144 degrees). The grade leaves a slight green fringe around the out-of-focus terminal.",
+   "No text, logos or watermarks."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_JDR0104337_S4_a2g.png",
+  "pass": false,
+  "severity": "critical",
+  "reasons": [
+   "Construction changed: the ring is shown in two pieces. The granulated dome is a loose, separate part. Its smooth base rim (y about 1290) sits above both shank ends, with linen weave visible in the gap across the whole width. Gold segmentation finds two unconnected parts: the dome (bbox x 579-1094, y 981-1297) and the shank (bbox x 544-1169, y 1299-1701), with a minimum gap of about 65 px (about 2 mm at the dome's ~30 px/mm). On the real ring the dome is fixed to one end of the open shank.",
+   "Part added: the shank is drawn as a U-band that ends in two identical polished teardrop/bulb terminals (left at about x 545-620, y 1340-1420; right at about x 1085-1170, y 1300-1380). The product has exactly one teardrop terminal, and its other end carries the dome.",
+   "Perspective is inconsistent with a single object. The U-shank is seen from straight above, but the dome is shown as a wide, low three-quarter face (about 515x316 px, 1.6:1). This makes the dome read as a detachable cap sitting above a band."
+  ],
+  "notes": [
+   "The granulation itself is faithful (about 11 granules across, open lattice) and the metal is the correct yellow gold.",
+   "Scale is fine: the dome is about 515 px wide, the sage-leaf blade about 700 px (about 23 mm) and the whole leaf with petiole about 900 px (about 30 mm). That is the young-leaf referent, and the leaf touches the shank.",
+   "Grade artifact: the warm reflection on the linen inside the U (about x 700-1000, y 1450-1650) was a smooth glow in the ungraded a2. The sage regrade has broken it into a blotchy, pixelated yellow patch that is visible at phone size.",
+   "The shank is drawn as a uniform-width U, not the heavy tapered shank.",
+   "No text, logos or watermarks; the frame reads sage (hue about 145 degrees)."
+  ],
+  "fix": "Re-shoot the overhead flat lay with the ring as ONE continuous piece, matching listing photos 0.jpg and 2.jpg. Lay the ring on its side so that from above the shank reads as an open C. The granulated open-lattice dome must be fixed directly onto one end of the heavy tapered shank (no gap, no seam, never a separate cap), and a single smooth teardrop terminal on the other end points back toward the dome across the opening. Add negatives: never two teardrop ends, never a U-shaped band, never a detached, loose or floating dome, never a two-piece ring. Keep the ~25 mm young sage leaf touching the shank. When regrading, mask the warm reflection inside the shank (or regrade it smoothly) so it does not break into yellow speckle."
+ }
+]

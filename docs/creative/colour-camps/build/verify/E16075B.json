@@ -1,0 +1,34 @@
+[
+ {
+  "plate": "peach_E16075B_S3_a1.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Matches the listing: 4 clear stones (2 pear-cut upper loops pointing into the knot, 2 long tapered tails with wavy notched ends), thin wavy double-rim gold bezels, and a ridged gold knot (3-4 vertical ribs) with the two small gold beads under it. The loop-stone ends show through the open side galleries at the far left and right, exactly as in listing photos 0/1, so they are not extra stones.",
+   "One earring shown, which is allowed for S3. It rests on its tail tips with soft contact shadows on the linen, which is physically plausible.",
+   "There is no size referent in the frame (macro). The bow spans about 815 px, and the linen weave repeats every 18-23 px (FFT). At the listed 15mm that is 0.35-0.45mm per weave unit, which is ordinary linen, so nothing suggests oversizing.",
+   "Frayed linen fibres lower-left of the bow and a slub/crease line across the cloth: background texture only.",
+   "Polished yellow gold. Stones read clear: mean saturation 53-70, against 56 for the stones in listing photo 0, so only warm environment reflections.",
+   "Reads clearly peach/apricot. No text, logo or watermark (all four corners checked)."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "peach_E16075B_S4_a1.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale (rule 4): the bows read about 1.8x their listed size next to the apricot half. Measured at full resolution, the apricot half is about 612 px wide (x 998-1610) and 580 px tall. The front-facing left bow is about 365 px wide (x 505-870) and 290 px tall, so it is 60% of the apricot's width. Against the brief's ~45mm apricot half, the bow reads about 27mm wide, not the listed ~15mm (+79%). The +30% limit is 19.5mm, about 265 px here. True scale is about 205 px, a third of the apricot's width.",
+   "Cross-checks: the apricot stone's long axis is about 340 px, which is shorter than the bow is wide. Real apricot stones are about 20-25mm, so the bow reads more than 21-27mm even by the stone. The right bow leans on the apricot's cut face (same depth) and spans about 380 px even at a three-quarter angle. The left bow's contact row (y≈1530) is level with the apricot's front edge (y≈1550), so perspective does not explain the ratio."
+  ],
+  "notes": [
+   "Construction is otherwise correct on both bows: 4 clear stones each (2 pear loops and 2 tapered tails), wavy double-rim gold bezels, and the ridged knot with its two small beads. The three-quarter-view right bow shows open side galleries as in listing photo 0. Nothing is melted or garbled.",
+   "The pair is shown, which is allowed for S4, and there is no extra jewellery. The left bow stands on its tail tips with a contact shadow and the right bow leans on the apricot: physically plausible.",
+   "Three-quarter still-life angle rather than a strict top-down flat lay: composition note only.",
+   "Stones pick up faint peach reflections from the fruit and silk (right bow, upper-left loop) but still read clear (mean saturation 60-70, against 56 in the listing). Gold reads as yellow gold.",
+   "Reads strongly peach/apricot (dupioni silk and apricot half). No text, logo or watermark (all four corners checked)."
+  ],
+  "fix": "Re-shoot with the bows at true scale. Each bow is about 15mm wide, a third of the apricot half's ~45mm diameter, and clearly shorter than the apricot stone (about as wide as the stone is wide). Keep the bows and the apricot at the same depth. Prompt wording: 'small 15mm stud earrings; the apricot half is three times wider than each bow; each bow is about the width of the apricot stone'. At this framing each bow should be about 200-210 px wide (roughly 0.56x the current size), and 265 px is the limit. Alternatively, use an almond (~23mm) as the referent, with each bow about two-thirds of the almond's length. Keep the 4-stone bow, wavy bezels, ridged knot and peach silk unchanged."
+ }
+]

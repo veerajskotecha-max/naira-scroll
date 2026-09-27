@@ -1,0 +1,62 @@
+[
+ {
+  "plate": "lilac_E16676C_S1_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Link count correct on BOTH earrings, post down: plain polished oval -> small plain connector link -> pave oval -> small plain connector link -> large flat baguette oval (3 ovals + 2 connectors), same as src 1.jpg/3.jpg/4.jpg. Left earring post stub visible at ~(940-950,1055-1070); right earring post hidden under its top oval.",
+   "Pave bar present on both large ovals: crosses the opening at mid-length, perpendicular to the drop axis, both ends meet the inner rim (left bar ~x422-596,y1376-1496; right bar ~x684-864,y1560-1680). At 4x it is rendered as a granular multi-row micro-pave band (a few lilac/brown reflection specks) rather than the listing's single line of round stones; at phone size it reads as a sparkly pave bar, like the real bar in 1.jpg.",
+   "Baguettes set radially all the way round each large oval, clear and crisp; metal bright rhodium-white, polished; nothing melted.",
+   "NON-LILAC AREA: cream/beige backdrop beyond the torn paper edge in the top-left corner, x0-438 y0-389 (~1.9% of frame, mean RGB 243/230/222), plus a thin cream sliver along the top-right, x1204-1536 y0-135 (~0.6%). Frame is ~92% lilac so it still reads lilac; crop or grade the top ~400 px (it also sits in the 9:16 top UI zone).",
+   "Scale OK against the lavender florets: florets ~80-95 px long (~4 mm) -> right earring ~796 px = ~34-40 mm vs 40 mm listed. The sprig itself is short (~600 px, ~26-28 mm at floret scale, ~6 whorls), so the earrings look ~1.3x the flower head; read against a nominal 40 mm spike they would be ~53 mm.",
+   "Large ovals look slightly rounder than the listing (apparent width/length ~0.63 vs ~0.55) - consistent with the oblique camera; big-oval/top-oval length ratio ~2.0 vs ~2.1 in src 1.jpg."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "lilac_E16676C_S2_a2c.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Eyelash visible at the top-right edge: dark lash root at x1158-1187, y17-88 (a2c px; ~30x70 px, luminance ~60-80 against skin ~200). a2c is an exact pixel crop of lilac_E16676C_S2_a2.png at (111,290,1299,1775); in a2 the lashes of the turned-away eye protrude past the cheek silhouette at x~1269-1365, y~310-385, so the crop's right edge (a2 x=1299) cuts through the lash root instead of clearing it."
+  ],
+  "notes": [
+   "Product itself is faithful: post down = plain polished oval -> connector -> pave oval -> connector -> large baguette oval (3 ovals + 2 connectors); pave bar horizontal across the middle of the open oval (x705-832, y930-951) with a single line of ~6 small round clear stones and bead prongs; baguettes radial all round; rhodium-white, polished.",
+   "Worn where it really sits: top oval hangs from the lobe, post goes through the lobe; rear three-quarter view of the right ear. Bare post tip visible behind the lobe at ~(620-668,405-414), no butterfly back shown - plausible for this angle.",
+   "Scale within tolerance: ear top is out of frame; the visible ear in a2 (frame top to lobe bottom, >=795 px) is already longer than the earring (~700 px) and still ~260 px wide at the frame edge, so the drop reads ~37-47 mm vs 40 mm (lobe-height estimate). The listing's own worn photo 4.jpg shows it relatively larger (earring = 0.89x ear height).",
+   "Colour: ~84% of the frame is warm skin / dark hair; lilac only ~16% (backdrop wedge bottom-right). No beige/cream backdrop. Reads as a lilac background, but weakly.",
+   "No nose, lips, chin or eyebrow in frame (the brow tail in a2 sits at y<290, outside this crop)."
+  ],
+  "fix": "Re-crop from lilac_E16676C_S2_a2.png with the right edge at a2 x<=1255 (lash fringe starts at x~1269): e.g. box (0,400,1255,1969) = 1255x1569 (4:5) - no lash/brow pixels in its right strip, and it brings in the lilac garment (lilac share ~17.5%); minimal alternative (111,350,1251,1775) = 1140x1425. If re-shooting: 'head turned further away / camera further behind so no eyelash or eyebrow breaks the cheek silhouette; lilac backdrop and lilac garment in frame'."
+ },
+ {
+  "plate": "lilac_E16676C_S3_a1.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Left earring complete, post down: plain polished oval (post visible through its opening at ~x150-195,y232-450) -> connector -> pave oval -> connector -> large baguette oval = 3 ovals + 2 connectors. Right earring is cut by the right edge but shows the same sequence (top oval, connector, pave oval, connector, big-oval rim) - allowed for S3.",
+   "Pave bar crosses the open oval at mid-length, perpendicular to the drop axis (x~745-1240, y~1255-1540): single line of 7 small round clear stones with bead prongs and a polished side face - matches the listing description (3.jpg hero shows 5 stones, real photos 0.jpg/1.jpg ~6-7 but not resolvable; listing gives no count).",
+   "Baguettes crisp and radial all the way round; the connector loops through the big oval's opening at the top; polished rhodium-white metal with lilac environment tint; nothing melted.",
+   "Macro depth of field softens the top oval and pave oval; strong close-range perspective makes the near big oval look rounder and larger than the upper ovals.",
+   "No scale referent in frame (linen weave pitch ~18 px, i.e. a fine weave).",
+   "Frame ~88% lilac, no beige/cream area. File is RGBA with a fully opaque alpha channel - flatten to RGB before upload."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "lilac_E16676C_S4_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Both earrings complete, post down: plain polished oval (post stubs visible at ~(910-927,1076-1084) and ~(1143-1154,1154-1162)) -> connector -> pave oval -> connector -> large baguette oval = 3 ovals + 2 connectors each.",
+   "Pave bars present on both large ovals, mid-length, perpendicular to the drop axis, meeting the inner rim (left ~x580-700,y1530-1600; right ~x820-960,y1620-1690). At 5x they render as granular multi-row micro-pave instead of a single line of round stones; reads as a sparkly pave bar at phone size.",
+   "Three small 4-point starburst glints added on the big-oval rims (~(775,1520), ~(770,1665), ~(790,1680)) - artificial sparkle, does not hide detail.",
+   "Scale OK against the florets: florets ~80-90 px (~4 mm) -> drop ~712-720 px = ~32-36 mm vs 40 mm listed (-10 to -20%). The sprig is short (~505 px, ~23-25 mm at floret scale), so the earrings look ~1.4x the flower head.",
+   "Frame ~98% lilac; no beige/cream backdrop (only the tan lavender stem and small paper inclusions). Contact shadows present, pieces lie flat."
+  ],
+  "fix": ""
+ }
+]

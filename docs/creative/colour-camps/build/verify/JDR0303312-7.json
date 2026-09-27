@@ -1,0 +1,64 @@
+[
+ {
+  "plate": "sage_JDR0303312-7_S1_a2g.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale: the ring reads about 1.5-1.9x its listed size against the sage leaf. The ring's outer ellipse major axis is ~740 px, which is the true outer diameter of a US 7 ring, ~20.5 mm, so ~36 px/mm; the pave stones at ~37 px (~1.0 mm) agree. At that scale the leaf is only ~1022 px long including stem (stem end ~(800,1995) to tip ~(1347,1133)), ~28 mm projected. The blade is ~310 px wide (~9 mm). Blade width barely changes with camera angle, and the ring is ~2.1-2.4x that width. A ~55 mm sage leaf should be ~2.7x the ring's diameter and have a blade about as wide as the ring. The leaf is drawn almost face-on (outline not skewed, 2.1:1 blade aspect), so even allowing ~25% foreshortening the ring still reads >=1.4x. At phone size the ring looks as large as the leaf blade."
+  ],
+  "notes": [
+   "The ring itself matches listing photo 0.jpg (same pose). Pave V with pointed apex (~12 visible stones per arm), plain polished middle V with soft apex, lower curved pave line (~20 visible stones), plain gold shank, yellow gold, clear round CZ. Construction and counts match.",
+   "Grade touched the product. On the a2g plate a specular highlight on the inner shank (~x540-597, y1412-1450) became a hard-edged mint-green patch, and a thin mint fringe runs along metal edges. The metal still reads gold at phone size, but the product should be masked out of the sage grade.",
+   "White-grey glare smudges on the glaze inside the ring at its base (~x600-780, y1500-1650) read as reflections, not as an extra piece.",
+   "A pale heart-shaped outline on the glaze loops around the ring base and leaf stem (~x430-1180, y1570-2110). This is a background artifact.",
+   "No text or logos. The frame reads sage, and the ring stands on the surface with plausible contact."
+  ],
+  "fix": "Keep this ring render and angle, but make the sage leaf read ~55 mm. The leaf including stem should be ~2.7x the ring's outer diameter, with a blade roughly as wide as the ring (~0.8-1x ring diameter). Alternatively, shrink the ring ~40% relative to the current leaf. Mask the product before the sage grade so its highlights stay gold/neutral. Drop the glare smudge and the heart-shaped outline on the glaze."
+ },
+ {
+  "plate": "sage_JDR0303312-7_S2_a2g.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Construction matches the listing: pave V with pointed apex (~10 stones on the long arm, ~11 on the short arm), plain polished middle V, lower pave line (~17 visible), clear CZ.",
+   "Metal is yellow gold, not rose. Samples on the plain band give hue 31-38 deg against 36 deg in the listing. The warm cast comes from the skin and the low light.",
+   "Hand anatomy is correct: an out-of-focus thumb at top-left plus 4 fingers, with natural nails and knuckles. Finger lengths run middle > ring > index > pinky. The ring sits at the base of the ring finger.",
+   "Scale is OK. The ring is ~305 px across the finger (~20 mm, ~15.5 px/mm), and the chevron height of ~147 px works out to ~9.5 mm (listed 9.5 mm). The ring-finger nail is ~133 px (~8.6 mm).",
+   "The ring is worn with the V pointing toward the knuckle, whereas the listing worn photo points it at the fingertip. That is a styling choice, not a construction change.",
+   "No face features. The blurred skin-toned wedge at the top edge (~x1120-1300, y0-170) has no features (probably the other hand or arm). Crop it if convenient.",
+   "Cosmetic: the a2g grade left hard cut-out edges around the out-of-focus thumb and the top skin wedge against the re-toned backdrop. The frame reads sage, with no text or logos."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_JDR0303312-7_S3_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "The macro is faithful to the listing. The front is a pave V with pointed apex (~11 and ~10 visible stones per arm), then a plain polished V, then the curved pave line along the top (~18 visible), all yellow gold with clear round CZ. Strand order is correct for a ring resting V-down.",
+   "The ring rests on the V apex and the back of the band, with a contact shadow and reflection on the glaze. This is plausible.",
+   "The left ends of the strands are soft from depth of field, not melted.",
+   "Stones look slightly larger and more visibly claw-set than the listing's fine pave. This is not noticeable at phone size.",
+   "The a2g grade added a faint mint fringe and speck to the top edge of the back band, negligible at phone size.",
+   "No referent is needed for a macro. No text. The frame reads sage."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_JDR0303312-7_S4_a2g.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale: the ring reads ~1.6x its listed size against the sage leaf. The view is close to top-down: the ring shows as a flat ellipse with the V rising above it, and the linen weave period is ~11-12 px on both axes. So the leaf is hardly foreshortened. Three measures agree on ~25.4 px/mm: ring outer major axis ~521 px (~20.5 mm), inner opening ~453 px (17.3 mm), pave stones ~30 px (~1.1 mm). At that scale the leaf is ~860 px long including stem (stem end ~(904,1826) to tip ~(1465,1167)) and ~283 px wide, i.e. ~34 x 11 mm. Against a ~55 mm leaf the 17.3 mm inner diameter would read ~28 mm, and the 9.5 mm chevron would read ~16 mm."
+  ],
+  "notes": [
+   "Ring construction matches listing photo 1.jpg: pave V with pointed apex (~12 + ~10 stones), plain polished middle V, lower curved pave line (~17 stones), plain shank, yellow gold, clear CZ.",
+   "The a2g grade gave the inner-shank highlight a faint mint tint and put a thin mint fringe on metal edges. The metal still reads gold.",
+   "There is a lot of empty space above the ring. That is a composition note only.",
+   "No text or logos. The frame reads sage, and the ring stands on the linen with a faint contact shadow."
+  ],
+  "fix": "Keep the ring render, but make the sage leaf read ~55 mm. With the ring at ~520 px, the leaf including stem should be ~2.7x the ring's outer diameter (~1400 px), with a blade ~0.8-1x the ring diameter wide. Alternatively, shrink the ring ~40% relative to the current leaf. Mask the product out of the sage grade."
+ }
+]

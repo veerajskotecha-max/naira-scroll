@@ -1,0 +1,63 @@
+[
+  {
+    "plate": "lilac_WR23569K8_S1_a1.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Matches listing text and listing photo 1.jpg: one clear oval CZ in four claws (projected 228x270 px; 1.18:1 with the head tilted back, consistent with 8x6mm), one continuous oval pave halo, split shank whose two pave strands cross in a twist on each shoulder, plain polished back of band, rhodium silver tone. One ring only.",
+      "Scale OK against the lavender florets. Flat-lying buds measure 120-153 px, so at ~4mm per floret the ring's outer diameter (678 px, x471-1149) reads ~18-23mm (US 7 is ~20.5mm OD) and the stone width reads ~6.0-7.6mm (listed 6mm).",
+      "The lavender head is a short 5-whorl tip (~20mm at floret scale), shorter than the ~40mm referent. The florets are the reliable cue and they agree with the ring.",
+      "Halo and shoulder pave look granular/sugary at 3x zoom but read cleanly as pave at phone size.",
+      "Stone picks up lilac reflections (mean saturation 0.10, same as the paper) but reads clear/white.",
+      "Cream surface edge in the top-left corner (~15% x 5% of frame); frame is ~95% lilac hue.",
+      "The twist reads as a crossover on the shoulders, not the wrap/'knot' around the halo seen in the rounder listing photo 0.jpg. Accepted because the listing text specifies an oval stone in a pave halo with a twisted pave shank, and listing photo 1.jpg shows the same oval halo with a split pave shank."
+    ],
+    "fix": ""
+  },
+  {
+    "plate": "lilac_WR23569K8_S2_a1.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Five natural digits on a left hand, seen from the back: thumb tucked behind the index finger (tip with nail in profile at ~x300,y1040), then index, middle, ring and pinky. Fingertip reach runs middle longest, index and ring similar, pinky shortest.",
+      "The ring sits at the base of the ring finger (4th digit). A dark gap separates that finger from the pinky just below the ring, and the split shank drops into that gap, so the ring wraps the finger plausibly.",
+      "No eye, brow, nose, lips, mouth or chin anywhere. The soft skin-tone band at the far right edge (x>1800, y125-525) is the out-of-focus forearm rising from the wrist. No other jewellery.",
+      "Scale OK. The stone is ~115 px across the finger against a finger width of ~300 px at the ring (~17mm), about 6.2-6.6mm. The halo (~165 px) is about one ring-finger nail width (157 px), i.e. ~10mm.",
+      "Stone long axis runs along the finger (north-south), as in listing photo 1.jpg. It looks slightly rounder here (projected ~1.1:1) because the finger recedes from the camera, which is consistent with 8x6mm.",
+      "Product matches: clear oval CZ in four claws, pave halo, two pave strands crossing on the shoulder, silver tone with warm skin reflections.",
+      "Frame reads lilac (wall and linen, ~62% lilac hue; the rest is skin)."
+    ],
+    "fix": ""
+  },
+  {
+    "plate": "lilac_WR23569K8_S3_a1.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Matches listing: one clear oval CZ in four claws (projected ~367x523 px, ~1.43:1 at this oblique angle, consistent with 8x6mm), crisp single-row bead-set pave halo, two pave strands splitting from the halo and crossing into a twist, plain polished back of band, silver tone. One ring only.",
+      "No listed scale referent in frame (macro on fine fabric). Internal proportions (head vs band) are plausible, and the fine weave (~10 px pitch next to the ring) gives no misleading size cue at phone size.",
+      "Warm cream out-of-focus bokeh fills the top-left ~20% of the frame. The frame still reads lilac (~78% lilac hue); grading can cool the blob if wanted.",
+      "Left side of the halo is soft from shallow depth of field, not melted detail.",
+      "Lilac/pink environment tint on the metal and stone (stone saturation 0.09); still reads clear CZ in rhodium silver. Alpha channel is fully opaque."
+    ],
+    "fix": ""
+  },
+  {
+    "plate": "lilac_WR23569K8_S4_a1.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Ring lies on its side, seen through the finger hole with the head in profile at 12 o'clock: stone crown with front claws, pave halo seen edge-on, basket with triangular gallery windows (matches listing photo 1.jpg), and split shoulders with pave along the outer strand down to about 3 and 9 o'clock.",
+      "Scale is accurate. The inner hole (~358 px) equals 17.3mm (US 7), giving 20.7 px/mm. On that scale the stone is 130-134 px wide in profile (6.3-6.5mm, listed 6mm), the lavender buds are 77-100 px (3.7-4.8mm), and the flowering spike is ~874 px (~42mm, against the ~40mm referent).",
+      "Contact and shadows are consistent. Light comes from the upper left, the ring and lavender shadows fall lower right, and there is a contact shadow along the band. Nothing floats.",
+      "The band's side face shows dark and warm-pink reflection stripes, with a fine dotted texture in the dark stripe at 4x zoom (saturation <=0.23). At phone size it reads as one polished silver band.",
+      "The crossover twist is not visible from this profile angle, which is expected.",
+      "The ring takes up a small part of the frame (copy space), which is composition only. Frame is ~97% lilac hue."
+    ],
+    "fix": ""
+  }
+]

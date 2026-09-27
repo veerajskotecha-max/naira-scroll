@@ -1,0 +1,53 @@
+[
+ {
+  "plate": "sage_YF5143_S1_a4g.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Closure construction changed (rule 1): the clasp ring is a plain, seamless closed torus, not the spring-gate ring. Listing on-body photo 0 shows the heavy tube ending in two flat-cut collared ends at about 11 and 1 o'clock, bridged by a noticeably slimmer gate wire, with a ball push-pin nub on a grooved collar at about 3 o'clock. In S1 the ring (x≈368-673, y≈1640-1892) is a full-thickness tube all the way round. The top arc between the pavé bar and the jump ring (x≈508-555, y≈1638-1667), where the gate should be, has no collars and no slimmer gate wire. The right flank (x≈648-673, y≈1730-1797), where the nub should be, is smooth. Only about 11 o'clock (bar) and 1-2 o'clock (jump ring) are covered, so the viewpoint cannot hide the gate. The clasp is the foreground hero of this frame, so a shopper sees a plain donut ring instead of the sailor-style spring ring they will receive. The S1 prompt asked for the push-pin nub and the generator dropped it."
+  ],
+  "notes": [
+   "The pavé bar is correct: slim, straight and flat-ended, with one row of 7 clear stones. It hangs from a small jump ring on the left chain end and is threaded through the ring at about 11 o'clock. The right chain end joins the ring by a round jump ring at about 1-2 o'clock. Listing photo 0 is too low-res to count its bar stones exactly (roughly 7-9), so 7 is consistent.",
+   "Listing photos 1 and 2 show the ring looking smooth from their angles. Photo 0 is the clearest view and the named reference, and it shows the gate. The S2 plate renders the gate correctly.",
+   "The chain traces as one continuous necklace. From the bar it runs up the left side, over the top and down the right, crosses itself in a soft out-of-focus pile at x≈870-1065, y≈1255-1390, makes one inner spiral, then runs down past (partly under) the leaf to the ring's jump ring. About 45-50 links are visible, with no loose ends and no second chain. The pile is soft from depth of field but reads as overlapping paperclip links at phone size, not melted.",
+   "Scale is within tolerance but high. The ring is 305 px wide and 252 px tall (0.83 foreshortening). The sage-leaf blade runs from its tip (836,1787) to the petiole (1380,1212), ≈875 px once foreshortening is corrected. That makes the ring 0.35x the leaf, ≈19mm against a ~55mm leaf, versus the listed ~15mm (+27%, under the ~30% limit). Link pitch next to the ring is ≈0.44 ring diameters, matching listing photo 0 (0.46).",
+   "Polished warm yellow gold: ring hue median 37°, against 35.5-37.5° for the ring in listing photos 1 and 2. Correct metal and finish; the stones are clear.",
+   "It rests in the celadon dish with contact shadows, and the leaf lies over part of the chain, so it is physically plausible. Only one piece of jewellery.",
+   "Reads sage: ≈91% of pixels are sage/celadon (crackle-glaze dish, linen, sage leaf). No text, logo or watermark (all four corners and the dish checked)."
+  ],
+  "fix": "Keep the set, dish, leaf and composition, and correct only the ring. Inpainting the ring would do, or re-shoot using the S2 plate or listing photo 0 as the clasp reference. Prompt: 'the ring is a spring-gate (sailor) clasp: a heavy polished round tube that stops in two flat-cut collared ends at the top, bridged by a noticeably slimmer gate wire across about one sixth of the circle, with a small ball push-pin nub on a grooved collar a quarter turn round from the gate; the right chain end's jump ring sits on the right-hand collar; never a plain closed donut ring'. Keep the 7-stone flat-ended pavé bar threaded through the ring as it is. The ring is +27% here, close to the limit, so draw it slightly smaller: about 0.27-0.30x the leaf blade length (≈240-265 px at this framing, 311 px is the +30% limit)."
+ },
+ {
+  "plate": "sage_YF5143_S2_a2cg.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "The clasp matches listing on-body photo 0 closely. The heavy round tube ring (x≈683-882, y≈1120-1318) has two flat-cut collared ends at about 11 and 1 o'clock, bridged by a slimmer gate wire, and a ball push-pin nub on a grooved collar at about 3 o'clock. The slim, straight, flat-ended bar carries one row of 7 clear stones, hangs from a small jump ring on the left chain end, and is threaded across the ring at about 10 o'clock into the opening. The right chain end joins at the right-hand collar through an oval link rather than photo 0's round jump ring; the difference is invisible at phone size.",
+   "No face. The top edge crosses mid-neck (skin runs x≈250-1305 at y=0), and a contrast-stretched top strip shows no chin, jaw, lips or mouth. The dark shapes in both top corners are the out-of-focus shirt collar, not hair. No hands.",
+   "Worn where it really sits: the chain circles the neck and the clasp sits at the front just below the suprasternal notch, as in listing photo 0. The drape is natural. Where the chain wraps round the neck sides (x≈130-250 and 1330-1420, y≈190-450) it is soft from depth of field but still reads as paperclip links. Exactly one necklace and no other jewellery.",
+   "Scale matches the listing's own on-body photo. Ring 199 px against a neck width of ≈1055 px at the top edge gives 0.19. Listing photo 0 gives ring 69 px against a mid-neck of ≈367 px, also 0.19 (0.18 vs 0.16 at the height where the chain wraps). Tube thickness to diameter is 0.17 vs 0.19, and link pitch to ring is ≈0.48 vs 0.46. For an 85-110mm neck breadth the ring reads ≈16-21mm. The listing's ~15mm ring and 4mm width figures are inconsistent with its own photos (photo 0 shows the ring ≈7.7x the link width), and this plate follows the photographed product.",
+   "Warm polished yellow gold. Ring hue median 29°, identical to the listing on-body ring (29.5°); both are warmed by skin bounce light and read as gold, not rose. The stones are clear.",
+   "Reads sage through the sage khadi/linen shirt framing the neckline in a V, plus sage background in the top corners (≈22% of pixels sage; skin ≈77%, as expected for a worn crop).",
+   "The crop is exactly 4:5 (1567x1959) and the grade left no halo along the neck edge. No text, logo or watermark (all four corners checked)."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_YF5143_S4_a3g.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Closure construction changed (rule 1): the clasp ring is a plain, seamless closed torus (x≈1003-1286, y≈1623-1850). It has no flat-cut collared ends, no slimmer gate wire, and no push-pin nub or grooved collar, all of which listing on-body photo 0 shows clearly. The upper-left arc between the pavé piece (9 o'clock) and the jump ring (12 o'clock), x≈1010-1083, y≈1630-1690, is a continuous full-thickness tube where the gate should be. The right flank (x≈1257-1287, y≈1673-1790), where the nub should be, is smooth. Nearly the whole circumference is visible, so the viewpoint cannot hide the gate. The clasp is the focal point of the frame, so the ad shows a plain donut ring instead of the spring-gate ring the shopper receives."
+  ],
+  "notes": [
+   "Secondary, fix in the same re-shoot: the pavé piece (x≈882-1107, y≈1677-1760) is drawn as a hollow elongated loop with rounded ends and 7 clear stones on its top face, and the ring passes through it. Listing photos 0 and 2 show a slim solid flat-ended bar threaded through the ring. Photo 1 shows something loop-like from its angle, so on its own this would be a note. It is still a single row of 7 clear stones joined to the lower chain end by a small jump ring.",
+   "Scale is within tolerance. The ring is 283 px wide and ≈230 px tall (0.82 foreshortening). The sage-leaf blade runs from its tip (937,1154) to the petiole (1616,1571), ≈850 px once corrected, so the ring is 0.33x the leaf, ≈18mm against a ~55mm leaf (+22% vs the listed ~15mm).",
+   "One necklace. Both strands leave the frame at the left edge (a composition crop): the upper strand joins the ring by a round jump ring at 12 o'clock, and the lower strand joins the pavé piece by a small jump ring. It lies flat on the linen with soft contact shadows, so it is physically plausible.",
+   "Polished warm yellow gold: ring hue median 36°, matching listing photos 1 and 2 (35.5-37.5°). The stones are clear.",
+   "A faint textured band on the ring's lower-left outer face (x≈1060-1100, y≈1815-1830) is a reflection artifact, not lettering, and is invisible at phone size. No text, logo or watermark (all four corners checked).",
+   "Reads strongly sage (≈95% of pixels): sage linen and a sage leaf. The hard diagonal window-shadow band across the top third is a lighting and composition note only."
+  ],
+  "fix": "Keep the linen, leaf, light and layout, and redraw the clasp. Ring: 'a spring-gate (sailor) clasp: a heavy polished round tube that stops in two flat-cut collared ends at the top, bridged by a noticeably slimmer gate wire across about one sixth of the circle, with a small ball push-pin nub on a grooved collar a quarter turn round from the gate; never a plain closed donut ring'. Bar: 'a slim solid straight gold bar with flat ends and a single row of 7 clear pavé stones, hung from a small jump ring on the chain end and threaded through the ring; never a hollow pavé loop that the ring passes through'. Use the S2 plate or listing photo 0 as the clasp reference. Keep the ring at or slightly below its current size: about 0.27-0.30x the leaf blade length (≈230-255 px at this framing; 302 px is the +30% limit)."
+ }
+]

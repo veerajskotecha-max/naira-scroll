@@ -1,0 +1,59 @@
+[
+  {
+    "plate": "lilac_E20997C_S1_a2.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Both studs of the pair stand upright on lilac handmade paper with a dried lavender sprig. Each one matches the listing: a pave bow of small clear CZ (loop, ribbons and a pave knot showing about 3 stones), an open pave circle, and the pearl sitting in the lower part of the circle. Metal is rhodium silver with a polished finish. The right-hand stud's bow is the mirror of the left one. Listing photo 1 also shows a mirror-image pair, so this is correct.",
+      "Pearl colour matches the listing photos. Mean RGB is ~(219,194,185) and (220,199,193), HSV saturation 0.12-0.15, hue 14-16 deg. Listing photo 0 measures (228,208,191), sat 0.16, hue 28 deg, and photo 3 measures (211,195,183), sat 0.135, hue 25 deg. The pearl reads as the same warm cream/ivory. The lilac light makes it very slightly pinker. It is not golden or dark champagne.",
+      "Scale is within tolerance. The stud is ~523 px tall with a ~240 px pearl, and the lavender florets are ~100-130 px long (~4 mm each). That puts the stud at ~16-21 mm against 18 mm listed. The pearl-to-circle width ratio is 0.585, the same as listing photo 0.",
+      "A blurred stud post shows behind the right-hand stud. Both circles touch the paper and cast contact shadows, the same staging as listing photo 0.",
+      "Background reads clearly lilac (hue ~291-297 deg). No text, logos or watermarks in the frame or corners. The large empty area at the top is copy space (a composition choice)."
+    ],
+    "fix": ""
+  },
+  {
+    "plate": "lilac_E20997C_S2_a2c.png",
+    "pass": false,
+    "severity": "major",
+    "reasons": [
+      "Eyelash visible at the left frame edge. A dark, blurred lash crescent sits at x 0-37 px, y ~940-1015 px of the 1411x1763 plate. Its luminance drops to 25-40 against ~180 for the skin around it, and a sliver of lilac background shows just below it (x 0-15, y ~1000-1060). This plate is an exact crop of S2_a2, taking columns 445-1856 and rows 0-1763. In a2 the same shape is the lash line of the downcast eye, running from x ~400 to ~483, with the eyebrow above it at y ~727-807 ending at x ~447. The crop at x=445 removed the brow but left the inner ~38 px of the lash line in frame. It is still visible as a dark notch at thumbnail size. Rule 3: any eyelash, even at the edge, is a fail."
+    ],
+    "notes": [
+      "The product itself is right. It shows a pave bow with an open loop and knot, a pave circle, and the pearl sitting low in the circle, in rhodium silver tone. It is worn through the lobe, where it really sits, with the circle hanging just below the lobe as in listing photo 3. No hands in frame.",
+      "Pearl reads white-ivory: mean RGB ~(220,208,200), sat 0.09, hue 22 deg. This matches the pearl in worn listing photos 1 and 3 (sat 0.11-0.13, hue 25 deg).",
+      "Scale is within tolerance. The ear measures ~620 px from helix top to lobe (60 mm), giving ~10.3 px/mm. The stud is ~175 px tall, so ~17 mm against 18 mm listed.",
+      "Camp colour is weak after the crop. Only ~2.5% of pixels are lilac (the top-left corner and a sliver at the left edge), against ~34% in uncropped a2. The frame reads mostly as black hair and skin, which is borderline on rule 7. A tighter crop of a2 would not fix this. Cropping at x>=540 (to clear the lashes) with the bottom at y<=1645 (to keep out the rounded under-jaw at a2 y ~1730-1930) leaves only ~0.7% lilac.",
+      "No text, logos or watermarks."
+    ],
+    "fix": "Re-shoot. A re-crop cannot both clear the face and keep the lilac. Frame a rear three-quarter / back-of-head view with the face turned fully away, so no brow, eyelashes, eye, nose, lips, chin or rounded under-jaw enters the frame. Leave a clear margin of at least ~5% of frame width between the frame edge and the face profile. Put a lilac backdrop behind the neck and/or a lilac top at the bottom of the frame so lilac makes up a visible share of the frame. Keep everything else as it is: a single stud worn through the lobe, the pave bow and open pave circle in rhodium silver, and an ivory/warm-cream pearl sitting low in the circle, ~18 mm tall (about 30% of ear height)."
+  },
+  {
+    "plate": "lilac_E20997C_S3_a2.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Macro of a single stud nestled in lilac-dyed cotton bolls; showing one earring is allowed for S3. Detail is crisp and closely matches the left stud in listing photo 0. The bow has an upper-left ribbon, a lower-left tail, a pave knot with 3 stones and an open upper-right loop with a polished inside. The pave is prong-set round clear CZ, about 21 stones on the circle against ~23 in the listing. The circle is complete and the pearl sits in its lower part. Pearl-to-circle width ratio is 0.58, against 0.585 in the listing. Rhodium silver, polished. Nothing melted or garbled.",
+      "Pearl colour matches the listing photos: mean RGB ~(219,198,186), sat 0.154, hue 22 deg, against (228,208,191), sat 0.16, hue 28 deg in listing photo 0. It is a warm cream/ivory. Next to the lilac it looks peachier than it measures, but it is not golden or pink.",
+      "None of the brief's scale referents is in frame. Against the cotton locks (~20-25 mm) the piece reads roughly 18-21 mm, which is plausible for a macro.",
+      "Background clearly reads lilac/mauve (hue ~309-311 deg). Dried brown cotton bracts sit at the top centre and bottom left; these are props only. No text or logos."
+    ],
+    "fix": ""
+  },
+  {
+    "plate": "lilac_E20997C_S4_a2.png",
+    "pass": true,
+    "severity": "none",
+    "reasons": [],
+    "notes": [
+      "Both studs of the pair stand upright on lilac handmade paper with a dried lavender sprig; the staging mirrors listing photo 0. The left stud is a front view: upper-left ribbon, lower-left tail, pave knot with 3 stones, open upper-right loop. The right stud is the angled view, with an open loop, a tall upper loop, a right ribbon and the knot, the same as the listing's right stud. Each has an open pave circle with the pearl sitting low inside. Metal is rhodium silver, polished. No parts added or missing, and no extra jewellery.",
+      "Pearl colour matches the listing photos: mean RGB ~(221,197,189), sat 0.144, hue 16 deg (left) and (214,190,185), sat 0.138, hue 10 deg (right). Saturation is the same as the listing (0.11-0.16). The lilac setting gives a slight blush, but both read as warm cream/ivory, not golden, dark champagne or pink.",
+      "Scale is within tolerance. The stud is ~500-525 px tall with a ~225 px pearl, and the lavender florets measure ~85-115 px (median ~100 px, ~4 mm), giving ~21 mm (+17%) against 18 mm listed. The visible lavender spike is at least ~1100 px and runs off the frame; at 40 mm that bounds the stud at <=19 mm. Both checks fall inside the 30% tolerance.",
+      "A stud post shows behind each circle. Both circles rest on the paper with contact shadows.",
+      "Background clearly reads lilac (hue ~303-310 deg). No text, logos or watermarks."
+    ],
+    "fix": ""
+  }
+]

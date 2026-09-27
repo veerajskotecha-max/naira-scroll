@@ -1,0 +1,68 @@
+[
+ {
+  "plate": "peach_E14776S_S1_a2.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale: huggies read about 1.6x the listed 12mm. The whole almond is fully visible and not foreshortened (498 px long, 261 px wide, W/L 0.53, from (1042,1246) to (1290,1678)), which gives about 21.7 px/mm at 23mm. The right huggie stands 414 px tall (y 1186-1600), about 19mm outer diameter. Its band face is 338 px wide (x 702-1040), about 15.5mm against the listed ~6mm. The left huggie spans 427 px (x 255-682), about 19.7mm.",
+   "Each huggie reads about 0.83 of the almond's length where it should read about 0.5, so both are well past the 30% tolerance. The almond also sits slightly in front of the right huggie, so the true oversize can only be larger."
+  ],
+  "notes": [
+   "The brushed satin finish reads correctly: fine directional brush lines, soft broad highlights, no mirror reflections.",
+   "The metal reads as pale yellow gold. Hue is about 32-34° on the right huggie and about 29° on the left, against about 35° in the listing. The right piece is slightly cooler champagne and the left slightly warmer from the peach silk. This is environment tint only.",
+   "The pair is shown (allowed) at matching sizes. The wide domed band and the C-opening, visible on the left piece, match the listing. No hinge or post is visible, as in the listing.",
+   "The almond leans against the right huggie's edge and both sit on the silk with contact shadows, so this is physically plausible.",
+   "No text, logos or watermarks. The peach/apricot camp reads clearly. The top ~40% is soft-focus fabric (copy space)."
+  ],
+  "fix": "Keep the set (peach raw silk, the pair, one whole almond, brushed pale yellow gold), but draw the huggies at true size. Each huggie's outer diameter should be about half the almond's length (almond ~23mm, huggie ~12mm across). The band should be ~6mm deep, so the band face is only about half the almond's width. Lay the almond flat and fully visible beside the pair, at the same distance from the camera (not leaning on or in front of a huggie), so the size comparison is honest."
+ },
+ {
+  "plate": "peach_E14776S_S2_a3.png",
+  "pass": false,
+  "severity": "critical",
+  "reasons": [
+   "Facial features are visible at the right frame edge. There is an eye with lashes at x≈1817-1856, y≈727-787. The upper and lower lips show in profile at x≈1760-1830, y≈1205-1400, and the chin curve at x≈1700-1765, y≈1410-1600. Any eye, lips or chin in frame is an automatic fail.",
+   "Scale on the ear: huggie about 1.5x the listed 12mm. The ear runs 602 px from the helix top (y≈575) to the lobe bottom (y≈1177), about 10 px/mm at 60mm. The huggie's outer diameter is about 183 px tall (y 1092-1275) and 196 px wide (x 1186-1382), so about 18mm. It reads about 0.30 of the ear's height where it should read about 0.20."
+  ],
+  "notes": [
+   "The metal reads as gold despite a pinkish cast from the skin and wall: hue about 33° against about 35° in the listing, so not rose. The brushed texture is visible on the band.",
+   "One huggie is worn on the lobe, with the lobe hanging into the hoop. Placement is correct and a single earring is allowed. No hands in frame.",
+   "Camp colour comes from the peach top and a pale beige-peach wall. It reads warm peach but more weakly than the still lifes.",
+   "Cropping the right edge to x≤1690 (with a matching 4:5 height) would remove the face, but it would not fix the 1.5x scale, so a re-shoot is still needed.",
+   "No text, logos or watermarks."
+  ],
+  "fix": "Re-shoot from further behind, with the head turned fully away, so nothing past the cheek is in frame: no eye, lashes, brow, nose, lips or chin. End the frame at the cheek or jaw behind the eye line. Draw the huggie at true size: outer diameter about one fifth of the ear's height (~12mm on a ~60mm ear) and a band ~6mm deep. It should hug the lobe snugly just below the piercing, not wrap half the lobe."
+ },
+ {
+  "plate": "peach_E14776S_S3_a2.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "This macro shows a single huggie (allowed) with no size referent in frame, so scale cannot be checked on this plate. The band looks chunky relative to the hoop, in line with the oversize seen in S1/S2/S4. Make sure the ad copy or other frames carry the true ~12mm size.",
+   "The brushed satin finish is excellent: dense directional brush lines across the domed band, never mirror. The metal is warm gold (hue about 28° with peach reflections, against about 35° in the listing) and still reads as yellow gold.",
+   "The form matches the listing: a wide domed band, a clean flat top rim, and the C-end curling up at the top-left with the hollow interior visible. Nothing is melted or garbled.",
+   "There is a tiny bead-like speck on the top rim at about (1670,823) and a few dust flecks along the rim edge. They are invisible at phone size.",
+   "Loose silk fibres cross the band's bottom edge (about x 1030-1220, y 1735-1800) and the foreground. This is background texture only. The huggie rests on the silk with a soft contact shadow.",
+   "No text, logos or watermarks. The pinkish-peach background reads as the peach camp."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "peach_E14776S_S4_a2.png",
+  "pass": false,
+  "severity": "major",
+  "reasons": [
+   "Scale: each huggie reads about as long as the almond, roughly 1.8-2.2x the listed 12mm. The almond is partly tucked under the left huggie. An ellipse fitted to its visible outline gives about 367 × 224 px, so allowing for the hidden tip the full length is about 370-420 px, or about 16-18 px/mm at 23mm.",
+   "Measured on convex hulls, the left huggie is 426 × 282 px (outer diameter × band) and the right is 401 × 305 px. That is about 22-26mm across with a 16-18mm band, against the listed ~12mm and ~6mm.",
+   "The band width alone (282-305 px) is wider than the almond (about 224 px) where it should be about half of it. Huggie-to-almond length is about 1.0 where it should be about 0.5."
+  ],
+  "notes": [
+   "The brushed satin finish and pale yellow gold read correctly: metal hue about 33°, close to the listing's ~35°, with no mirror shine.",
+   "The pair is shown (allowed). Both huggies stand upright on the silk with soft cast shadows, which is plausible. The left piece overlaps the almond's tip.",
+   "The product sits in the lower-left third with a large empty silk field above (copy space).",
+   "No text, logos or watermarks. The peach camp reads clearly."
+  ],
+  "fix": "Keep the overhead flat lay on peach silk, but draw each huggie at ~12mm across, about half the almond's length. The band (~6mm) should be only about half the almond's width. Show the whole almond uncovered, not tucked under a huggie, so the referent reads at full length next to the pair."
+ }
+]

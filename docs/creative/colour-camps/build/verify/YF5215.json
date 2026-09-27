@@ -1,0 +1,62 @@
+[
+ {
+  "plate": "sage_YF5215_S1_a4g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Counted 23 large mirror-polished silver beads plus 2 small silver beads, one at each end of the clasp. Listing photo 3.jpg also shows 23 + 2.",
+   "The construction matches listing photos 1.jpg and 5.jpg. On the bar side: large bead, silver eye pin, small bead, then the gold T-bar lying across the gold ring. On the ring side: gold jump ring, silver link, small bead, then the strand. There is one puffed polished gold heart, hung from the ring on a gold jump ring.",
+   "Scale checked against the sage leaf (blade from about x1330,y1450 to x810,y1875; about 880 px once the ~0.6 tilt foreshortening from the plate ellipse is corrected, taken as 55 mm). Heart about 253 px wide = about 16 mm (listed 15). Front beads about 122 px = about 7.6 mm (listed 6, +27%, inside tolerance).",
+   "The background grade put a faint green cast into the bead shadows and reflections. The beads still read as polished silver.",
+   "The bar's jump ring is hidden under the bar where the bar-side small bead meets the ring edge. The real piece looks the same in 1.jpg, and nothing is garbled at phone size.",
+   "The crackle-glaze plate reads pale mint/celadon sage, so the camp colour reads. No text, logos or extra jewellery. The piece rests on the plate with reflections, so contact is real."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_YF5215_S2_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "No eye, brow, nose, lips, mouth or chin anywhere in the frame, edges checked. The top right (about x1370-1760, y0-500) is a bare upper arm next to a sage sleeve or dress.",
+   "Left hand resting palm-down on sage linen: thumb plus four fingers, natural nails and knuckle creases, no rings or other jewellery.",
+   "Worn on the wrist just above the wrist bone, with the toggle on top and the heart hanging from the ring onto the back of the wrist. The clasp matches 1.jpg: small bead, silver link and gold jump ring on each side.",
+   "Scale: heart about 137 px wide. Wrist about 586 px across at the bracelet (about 58 mm) gives about 13.6 mm; fingernails at 80-90 px (10 mm) give about 15-17 mm. Beads about 57 px = about 5.6-7 mm. All within tolerance.",
+   "The beads read a cool lavender-grey silver from environment tint and a slight grade tint in the shadows, but still read as polished steel. The bar-side gold jump ring (about x1080-1120, y720-760) is a blown pale-cream highlight with a faint mint edge. It is too small to see at phone size.",
+   "Only part of the strand shows, as expected for a worn shot, so the full bead count cannot be checked. The visible runs are consistent with the product.",
+   "Sage wall and sage linen, so the camp colour reads. No text."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_YF5215_S3_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Macro of the clasp that matches listing photo 1.jpg part for part. Bar side: large bead, silver eye pin, small bead, silver link, gold jump ring, gold T-bar across the ring. Ring side: gold jump ring, silver link, small bead, large beads. Heart hangs from the ring on a gold jump ring through its bail.",
+   "Beads are mirror-polished silver with the thin spacer collars the real piece has. The heart is a crisp, puffed, polished gold heart. Nothing is melted or garbled.",
+   "Proportions are consistent with the product: heart width about 2.0-2.1 bead diameters, ring outer diameter about equal to the heart width, bar about 1.7x the ring.",
+   "Tan/rust flecks in the crackle glaze (about x1463,y1002; x1601,y1590; x1567,y1809; x1411,y1924; and the bottom-left edge around x104,y1198 and x138,y2166) could read as dirt. Retouching them is optional.",
+   "The beads show natural reflections of a photographer or window silhouette. These are not a face.",
+   "The out-of-focus beads at the top edge are the far side of the same bracelet, so the piece is not shown twice. Sage/celadon glaze reads as the camp colour. No text."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "sage_YF5215_S4_a2g.png",
+  "pass": true,
+  "severity": "none",
+  "reasons": [],
+  "notes": [
+   "Counted 22 large beads plus 2 small clasp-end beads against 23 + 2 in the listing photo. That is off by 1, within the allowed 2.",
+   "The flat silver spacer collars between the beads match the real piece (visible in 1.jpg). The toggle bar, ring, jump rings, silver links and hanging heart are all correct.",
+   "Scale checked against the sage leaf (blade from x1560,y1258 to x1248,y1675, about 521 px, taken as 55 mm, flat lay). Heart 160 px = about 17 mm (listed 15, +13%). Beads about 70 px = about 7.4 mm (listed 6, +23%). Outer diameter of the laid-out bracelet about 697 px = about 74 mm. It reads slightly large but stays inside 30%.",
+   "The grade adds a faint mint reflection to the heart's left-lobe highlight. The heart still reads as gold.",
+   "Lies flat with soft cast shadows, so contact is real. Sage linen reads as the camp colour. There is large copy space at the top. No text."
+  ],
+  "fix": ""
+ }
+]

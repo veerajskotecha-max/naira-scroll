@@ -1,0 +1,32 @@
+[
+ {
+  "plate": "peach_E20267O_S3_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Braid faithful: thick interlaced braid of many polished yellow-gold strands with raised ridges and the fine inner weave; crisp, not garbled at 1:1 or phone size (front hoop lower arc, x 700-1300, y 1100-1500).",
+   "One smooth solid disc per hoop (front disc ~x 800-1080, y 660-920; back disc at right edge ~x 1660-1856, y 560-820): opaque metal with a bright rim highlight on its top edge; no amber, enamel, stone or translucency. It renders a deeper caramel-gold than the pale braid highlights (disc centre RGB ~219,140,63) because it sits in shade reflecting the peach cloth, but its hue (28-30 deg) equals the braid's own shadowed wires (28 deg), so it still reads as gold. The a2 prompt asked for 'the same pale gold as the braid'; add a highlight on the disc in any re-shoot if an exact match is wanted.",
+   "Closure: thin hinged wire across the top; a tab with a pin hole sits beside the disc, and the cross-shaped catch with the protruding wire tip is at the far end (x ~180-420, y ~780-1060). So the disc sits at the pin-hole-tab end, not directly under the latch fork as in 4 of the 5 listing photos. It matches the right hoop in listing photo 1 and cannot be read at phone size. No extra hardware.",
+   "Back hoop (out of focus, cropped by the right edge) shows the same disc, tab and wire as the front hoop, so the pair reads identical. Showing one or both is allowed for S3.",
+   "Closure and back hoop are in soft focus; the focal plane is the lower braid arc (depth of field, non-blocking).",
+   "No scale referent in a macro, so scale is not assessable here. Proportions match the listing: disc ~0.29 of the hoop diameter vs ~0.30 on the real piece; braid tube ~6.7mm on a 25mm hoop.",
+   "Peach raw-silk ground reads apricot. No text or watermark in any corner. Front hoop is grounded with a cast shadow."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "peach_E20267O_S4_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "reasons": [],
+  "notes": [
+   "Pair lies flat, face-on, both hoops identical and in the same orientation: pin-hole hinge tab at left, thin wire across the top, latch fork with the wire tip protruding at right. Polished yellow-gold braid, crisp and not garbled. No extra hardware, no other jewellery.",
+   "The disc does not read as a round disc in this dead-on flat lay. Each hoop shows one smooth, flat, lens-shaped plate (~6-8mm long, ~2mm wide) just below the pin-hole tab (upper hoop ~x 880-960, y 1000-1120; lower hoop ~x 570-650, y 1270-1420). That is consistent with the disc seen almost edge-on: the listing photos show the disc standing roughly perpendicular to the hoop plane. The latch ends show braid wires only. The placement is the same as in S3. This is a camera-angle limitation, not a misrepresentation, but S4 alone does not show the disc. Run it alongside S3, or re-shoot at a three-quarter angle if the disc must show in this frame.",
+   "Scale vs apricot halves: hoops 346-350 px outer diameter, apricot halves 507-550 px. At 45mm per half the hoops read ~30mm vs 25mm listed (~+20%, inside the 30% tolerance). Braid-to-opening proportions match the listing (tube ~0.26 of diameter, opening ~0.44).",
+   "Grounded: contact/cast shadows on the lower-right of each hoop (ring luminance ~106-155 vs ~215 on the lit side). Apricots lie cut-face up with shadows.",
+   "Peach dupioni silk with slubs plus apricot halves: strongly apricot. No text or watermark in any corner (slubs only)."
+  ],
+  "fix": ""
+ }
+]
