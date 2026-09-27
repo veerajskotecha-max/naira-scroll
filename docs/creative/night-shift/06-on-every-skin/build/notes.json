@@ -1,0 +1,42 @@
+{
+ "device": "Sampled swatch strip",
+ "lede": "(one chain, five complexions. the headline is the hex colour sampled from her collarbone in the picture; the strip beneath shows all five, and the chain is the constant.)",
+ "idea": "Every for-every-skin-tone campaign names the tones, and in India the names are the problem. This set names no one. It samples the colour of each woman's collarbone from the image, prints the number as the headline, and lines all five up under the same chain. The Toggle Link Chain is the deepest stock in the catalogue at 80 units, so the set can run for months without a swap.",
+ "type": "The hex code in Velista at 150px with the hash in Jost and oxblood, a full stop after it because it is a sentence. One line of Cormorant italic beneath. Then the five-cell strip: a square crop of each toggle, a bar of the sampled colour, the code in JetBrains Mono, the current card outlined in a hairline with its code in oxblood. The foot carries the name, the listing's spec, the price and the CTA on one line.",
+ "review": "Pass 1: the price collided with the strip on every story frame and on the one feed card whose aside ran to two lines; the top-right label vanished on the two cards with dark hair in that corner. Pass 2: plates shortened, the price moved onto the CTA line, every aside cut to one line, the two dark-hair cards given an ivory label with an ink logo, the story spec shortened so it holds one line.",
+ "score": "9.3",
+ "passes": 2,
+ "verdict": "the strip is the ad; any one card sells the chain, all five together sell the brand.",
+ "cards": {
+  "S1": {
+   "title": "#DFB190.",
+   "why": "The lightest of the five. The chain's toggle sits dead centre at the collarbone; the hex is sampled from the chest just below it.",
+   "source": "Generated tonight (gen 292d256d) from the toggle chain reference, one product in the frame, the complexion written into the prompt and then sampled back out of the render.",
+   "check": "4mm, 50cm and the 15mm toggle all on YF5143's listing; 80 units in stock; the paperclip links and toggle checked against the listing photographs on every card."
+  },
+  "S2": {
+   "title": "#D7A179.",
+   "why": "A woman in her forties. Lines at the neck, real skin, the same chain. The strip beneath is the only place the five are compared, and it compares numbers, not people.",
+   "source": "Generated tonight (gen 4019b9ec) from the toggle chain reference, one product in the frame, the complexion written into the prompt and then sampled back out of the render.",
+   "check": "4mm, 50cm and the 15mm toggle all on YF5143's listing; 80 units in stock; the paperclip links and toggle checked against the listing photographs on every card."
+  },
+  "S3": {
+   "title": "#C48B5F.",
+   "why": "The middle of the strip, and the card that best explains the idea: her number is printed where a tone name would usually go.",
+   "source": "Generated tonight (gen 1ad525a9) from the toggle chain reference, one product in the frame, the complexion written into the prompt and then sampled back out of the render.",
+   "check": "4mm, 50cm and the 15mm toggle all on YF5143's listing; 80 units in stock; the paperclip links and toggle checked against the listing photographs on every card."
+  },
+  "S4": {
+   "title": "#BA7C58.",
+   "why": "Deep, warm skin against warm gold. The chain reads brighter here than on any other card, which is the point the set is making without saying it.",
+   "source": "Generated tonight (gen 07d02e33) from the toggle chain reference, one product in the frame, the complexion written into the prompt and then sampled back out of the render.",
+   "check": "4mm, 50cm and the 15mm toggle all on YF5143's listing; 80 units in stock; the paperclip links and toggle checked against the listing photographs on every card."
+  },
+  "S5": {
+   "title": "#885740.",
+   "why": "The deepest of the five and the card to run first: gold on very dark skin is the picture the category almost never shows.",
+   "source": "Generated tonight (gen 1dd538eb) from the toggle chain reference, one product in the frame, the complexion written into the prompt and then sampled back out of the render.",
+   "check": "4mm, 50cm and the 15mm toggle all on YF5143's listing; 80 units in stock; the paperclip links and toggle checked against the listing photographs on every card."
+  }
+ }
+}
