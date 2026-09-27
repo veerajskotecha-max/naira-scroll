@@ -5,7 +5,7 @@ evidence. Three of the answers are NO. That is the brand."""
 from core import *
 SET=dict(slug="10-the-answer",title="The Answer",n=5)
 S10=f"{ROOT}/s10"
-TOK={"feed":dict(PLATE="720px",ANS="210px",Q="42px",EV="17px"),"story":dict(PLATE="1170px",ANS="250px",Q="50px",EV="20px")}
+TOK={"feed":dict(PLATE="720px",ANS="210px",Q="42px",EV="18px"),"story":dict(PLATE="1170px",ANS="250px",Q="50px",EV="21px")}
 CSS="""
 .plate{position:absolute;left:0;right:0;top:0;height:var(--PLATE);overflow:hidden;background:#222}
 .plate img{width:100%;height:100%;object-fit:cover;display:block}
@@ -29,13 +29,13 @@ def render(c,fmt):
             f'<div><div class="price">{price(sku)}</div><span class="cta solid">{E(c["cta"])}</span></div></div>')
 CREATIVES=[
  dict(id="A1",file="shower",q="can i shower in it?",a="YES<em>.</em>",ev="Waterproof and tarnish free, so daily wear and water are fine.",src="— the care line on the listing",
-      skus=["YF5215"],water=True,hero=True,spec="6MM STEEL SPHERES · GOLD TOGGLE · SURGICAL STEEL",cta="SHOP THE BRACELET →",render=render,claims=[("YF5215","6mm")]),
+      skus=["YF5215"],water=True,hero=True,spec="6MM STEEL SPHERES · GOLD TOGGLE",cta="SHOP THE BRACELET →",render=render,claims=[("YF5215","6mm")]),
  dict(id="A2",file="tarnish",q="will it tarnish?",a="NO<em>.</em>",ev="Waterproof and tarnish free, so daily wear and water are fine.",src="— the care line on the listing",
-      skus=["E20267O"],water=True,hero=True,spec="BRAIDED HOOPS · 25MM · 18K GOLD TONE · SURGICAL STEEL",cta="SHOP THE HOOPS →",render=render,claims=[("E20267O","25mm")]),
- dict(id="A3",file="gold",q="is it real gold?",a="NO<em>.</em>",ev="18k PVD gold tone plated. Surgical stainless steel.",src="— the listing. which is why it is ₹1,499, not ₹49,000.",
-      skus=["YF5143"],hero=True,spec="4MM PAPERCLIP · 50CM · 18K PVD · SURGICAL STEEL",cta="SHOP THE CHAIN →",render=render,claims=[("YF5143","4mm · 50cm")]),
+      skus=["E20267O"],water=True,hero=True,spec="BRAIDED HOOPS · 25MM · 18K GOLD TONE",cta="SHOP THE HOOPS →",render=render,claims=[("E20267O","25mm")]),
+ dict(id="A3",file="gold",q="is it real gold?",a="NO<em>.</em>",ev="18k PVD gold tone plated. Surgical stainless steel.",src="— the listing. which is why it costs \u20b91,499.",
+      skus=["YF5143"],hero=True,spec="4MM PAPERCLIP · 50CM · 18K PVD",cta="SHOP THE CHAIN →",render=render,claims=[("YF5143","4mm · 50cm")]),
  dict(id="A4",file="perfume",q="and perfume?",a="NO<em>.</em>",ev="Keep it away from perfume and harsh chemicals.",src="— the care line on the listing. spray first, then dress.",
-      skus=["B00681C"],hero=True,spec="CUSHION CZ · 5MM · RHODIUM PLATED · SURGICAL STEEL",cta="SHOP THE BRACELET →",render=render,claims=[("B00681C","5mm")]),
- dict(id="A5",file="fit",q="will it fit my wrist?",a="15 <em>TO</em> 19<em>.</em>",ev="15-19cm adjustable links.",src="— the listing. that is a small wrist to a large one.",
-      skus=["B00681C"],hero=True,spec="CUSHION CZ · 5MM · 15–19CM ADJUSTABLE · RHODIUM",cta="SHOP THE BRACELET →",render=render,claims=[("B00681C","15-19cm · 5mm")]),
+      skus=["B00681C"],hero=True,spec="CUSHION CZ · 5MM · RHODIUM PLATED",cta="SHOP THE BRACELET →",render=render,claims=[("B00681C","5mm")]),
+ dict(id="A5",file="fit",dark=True,logo="logo_ink.png",q="will it fit my wrist?",a="15 <em>TO</em> 19<em>.</em>",ev="15-19cm adjustable links.",src="— the listing. that is a small wrist to a large one.",
+      skus=["B00681C"],hero=True,spec="CUSHION CZ · 5MM · 15–19CM ADJUSTABLE",cta="SHOP THE BRACELET →",render=render,claims=[("B00681C","15-19cm · 5mm")]),
 ]
