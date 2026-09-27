@@ -11,8 +11,16 @@ Artifact: https://claude.ai/artifact/YMzPKFTDB9E5RWSDH1BKEn
 | Camp | Device | Lead card | Hero-stock cards |
 |---|---|---|---|
 | A · Pigment | the colour field is the card; the photo through a petal-shaped window; petals tinted from the pigment | LILAC. (the purple one) | PASTEL., CORNFLOWER. |
-| B · The Long Afternoon | herbarium specimen sheets: mounted plate, sprig and vine pressed across the corners, ruled label, referent named botanically | Specimen 01, the braided hoop | 01 hoops, 05 chain |
-| C · The Bench | a painted bloom left on the bench, petals with the bench's shadow, the embroidery as the cloth edge, the tool as headline | THE CALLIPER. | THE CALLIPER. |
+| B · The Long Afternoon | herbarium sheet on the deck's blush ground: the deck's tulips at the edge, sage-ruled label, coral tulip stamp, referent named botanically | Specimen 01, the braided hoop | 01 hoops, 05 chain |
+| C · The Bench | the deck's sage tile as the lower half: tulips rise across the seam as sage paper silhouettes and become watercolour inside, white wordmark over them, the tool as headline | THE CALLIPER. | THE CALLIPER. |
+
+## The brand deck, and why B and C were redone
+The Naira deck (12 pages: logo options, lock-up, brand look, bag, box) sets the system: watercolour tulips in peach
+with sage leaves; grounds in sage #99B4AE or blush #FFF8F5; the wordmark in white on sage, sage on blush, or black.
+The first pass of camps B and C used the website's dahlia, vine and embroidery instead, and C looked stuck on. Both
+were rebuilt on the deck: its tulip cluster keyed out of the brand-look page (`brand-deck/deck_tulips_*.png`,
+`deck_leaves_*.png`), its white and sage-and-coral wordmarks (`brand-deck/logo_*.png`), its colours. Pigment (camp A)
+already used only the site's petal path and the sampled pigment colours and was kept as is.
 
 ## What the award research changed
 Cannes Lions 2025 print winners (Penny Price Packs, Faber-Castell, Dove, Stella Artois, Oreo, Colgate) reward one idea

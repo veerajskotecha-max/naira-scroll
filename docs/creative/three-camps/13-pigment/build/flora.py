@@ -4,7 +4,7 @@ bloom, the watercolour sprig, the line vine, the flat brand-flower silhouette, t
 import json, re, random, base64, os
 ROOT=os.path.dirname(os.path.abspath(__file__)); FL=f"{ROOT}/floral"
 _P=json.load(open(f"{ROOT}/petals.json")); PAL=_P["palettes"]; PET=_P["petals"]
-ASSET={k:f"{FL}/{v}" for k,v in dict(bloom="bloom.png",sprig="sprig.png",vine="vine.png",flower="brandflower.png",pattern="pattern.png",wallpaper="wallpaper.png",embroidery="embroidery.jpg").items()}
+ASSET={k:f"{FL}/{v}" for k,v in dict(bloom="bloom.png",sprig="sprig.png",vine="vine.png",flower="brandflower.png",pattern="pattern.png",wallpaper="wallpaper.png",embroidery="embroidery.jpg",tulips_blush="deck_tulips_blush.png",leaves_blush="deck_leaves_blush.png",tulips_sage="deck_tulips_sage.png",leaves_sage="deck_leaves_sage.png").items()}
 def uri(path):
     mime="image/png" if path.endswith(".png") else "image/jpeg"
     return f"data:{mime};base64,"+base64.b64encode(open(path,"rb").read()).decode()
@@ -44,3 +44,6 @@ def mix(a,b,t):
 def tint_from(hexcol):
     """petal gradient built from one plate colour: light centre to the colour itself, darker vein"""
     return {"c1":mix(hexcol,"#ffffff",0.75),"c2":mix(hexcol,"#ffffff",0.35),"c3":hexcol,"vein":mix(hexcol,"#1B1512",0.35)}
+
+# brand deck palette (sampled from the deck)
+SAGE="#99B4AE"; BLUSH="#FFF8F5"; PEACH="#F2C4B6"; CORAL="#F0A08F"; SAGE_TXT="#7D9891"
