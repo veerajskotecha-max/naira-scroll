@@ -12,8 +12,8 @@ def section(mod):
     for c in mod.CREATIVES:
         k=c["id"]; skus=skus_of(c)
         pcs="".join(f'<li><span>{E(ROWS[s]["title"])}</span><span class="m">{s} · {rupees(ROWS[s]["price"])} · {ROWS[s]["inv"]} in stock</span></li>' for s in skus)
-        cards.append(f'''<article class="cr"><div class="imgs"><figure><img src="{b64(f'{ROOT}/{slug}/art/{k}_feed.jpg')}" alt="{k} feed"><figcaption>Feed · 1080×1350</figcaption></figure>
-<figure><img src="{b64(f'{ROOT}/{slug}/art/{k}_story.jpg')}" alt="{k} story"><figcaption>Story · 1080×1920</figcaption></figure></div>
+        cards.append(f'''<article class="cr"><div class="imgs"><figure><img src="{b64(f'{ROOT}/{slug}/art/{k}_feed.jpg')}" alt="{k} feed"><figcaption>Feed · 1080×1350 <button class="dl" type="button" data-src="png/{slug}/{k}_feed.png" data-name="naira-{slug}-{k}-feed-1080x1350.png">↓ Download PNG</button></figcaption></figure>
+<figure><img src="{b64(f'{ROOT}/{slug}/art/{k}_story.jpg')}" alt="{k} story"><figcaption>Story · 1080×1920 <button class="dl" type="button" data-src="png/{slug}/{k}_story.png" data-name="naira-{slug}-{k}-story-1080x1920.png">↓ Download PNG</button></figcaption></figure></div>
 <div class="txt"><div class="eb">{k}</div><h3>{E(notes["cards"][k]["title"])}</h3><p>{notes["cards"][k]["why"]}</p><ul class="pc">{pcs}</ul>
 <div class="m">Source <b>{E(notes["cards"][k]["source"])}</b> · Checked: {E(notes["cards"][k]["check"])}</div></div></article>''')
     score=notes["score"]
@@ -51,7 +51,7 @@ p{{max-width:68ch}}
 .score b{{font-family:'Velista','Cormorant Garamond',serif;font-weight:500;font-size:48px;line-height:1}} .score span{{color:var(--mute);font-size:15px}}
 .cr{{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:1.4rem 2.4rem;padding-block:2rem;border-top:1px solid var(--hair)}}
 .cr .imgs{{display:grid;grid-template-columns:1fr .78fr;gap:14px;align-items:start}}
-.cr figure{{margin:0}} .cr img{{width:100%;height:auto;display:block;background:var(--tile)}}
+.cr figure{{margin:0}} .dl{{display:none;float:right;font:inherit;font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ac);background:transparent;cursor:pointer;border:1px solid var(--ac);padding:.25rem .55rem;margin-left:.6rem}} .has-dl .dl{{display:inline-block}} .dl:hover{{background:var(--ac);color:var(--bg)}} .dl[disabled]{{opacity:.5;cursor:default}} .dlnote{{display:none;position:fixed;left:50%;bottom:1.2rem;transform:translateX(-50%);background:var(--ink);color:var(--bg);font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.72rem;letter-spacing:.06em;padding:.55rem .9rem;z-index:99}} .dlnote.on{{display:block}} .cr img{{width:100%;height:auto;display:block;background:var(--tile)}}
 .cr figcaption{{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-top:8px}}
 .pc{{list-style:none;padding:0;margin:1rem 0;display:grid;gap:6px}}
 .pc li{{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;border-bottom:1px solid var(--hair);padding-bottom:6px;font-weight:500}} .pc li .m{{font-weight:400}}
@@ -65,6 +65,27 @@ nav{{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin-top:1.4rem}} nav a{{col
 <nav>{"".join(f'<a href="#{s}">{s}</a>' for s in slugs)}</nav></header>
 {"".join(secs)}
 <section><h2>How every set was gated</h2><p>Names and prices are read from Shopify at build time. A set does not render if a piece is inactive, unavailable, under thirteen units as a hero or under three as a listed piece, or if a water claim sits on a piece whose Care block lacks the waterproof line. Every figure in a spec line is checked against that piece's listing Details. Every frame — archive, website or freshly generated — was looked at against the listing before it was kept; rejected frames are named in each set's notes. Nothing here has been tested against live spend.</p></section>
+<div class="dlnote" id="dlnote"></div>
+<script>
+(async()=>{{
+  const note=document.getElementById('dlnote'); let t=null;
+  const say=(m)=>{{note.textContent=m;note.classList.add('on');clearTimeout(t);t=setTimeout(()=>note.classList.remove('on'),3200);}};
+  const dl=(window.claude&&window.claude.use)?await window.claude.use('downloads'):null;
+  if(!dl) return;
+  document.body.classList.add('has-dl');
+  document.querySelectorAll('button.dl').forEach(b=>b.addEventListener('click',async()=>{{
+    if(b.disabled) return; b.disabled=true; const was=b.textContent; b.textContent='fetching…';
+    try{{
+      const r=await fetch(b.dataset.src); if(!r.ok) throw new Error('fetch '+r.status);
+      const blob=await r.blob(); b.textContent='saving…';
+      await dl.save({{filename:b.dataset.name,data:blob}});
+      say('saved '+b.dataset.name);
+    }}catch(e){{
+      const c=(e&&e.code)||''; if(c!=='declined') say(c==='rate_limited'?'one download at a time — try again in a moment':'could not save this file');
+    }}finally{{ b.disabled=false; b.textContent=was; }}
+  }}));
+}})();
+</script>
 </div>'''
     open(out,"w").write(page); return len(page)
 if __name__=="__main__":
