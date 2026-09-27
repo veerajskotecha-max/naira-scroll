@@ -1,0 +1,17 @@
+{
+ "device": "One-word answers, the listing as evidence",
+ "lede": "(five real questions people ask before they buy, answered in one word, with the listing quoted underneath. three of the answers are no. that is the brand.)",
+ "idea": "Nine sets in, the pattern was clear: the cards that work are the ones where the device is the truth — the ruler, the offer form, the tag, the hex. So the last set drops every device but one. A question in italic, an answer in Velista at 210px, and the listing's own sentence in mono as the evidence. Can I shower in it, yes. Will it tarnish, no. Is it real gold, no. And perfume, no. Will it fit, fifteen to nineteen. Objection handling as brand voice, and the plates are the night's best frames plus two of the brand's own photographs.",
+ "type": "Q. in oxblood mono, the question in Cormorant italic at 42px. The answer in Velista at 210px with the full stop in oxblood, so even NO ends warmly. A. in oxblood, the evidence in JetBrains Mono inside quotation marks, and a Cormorant italic attribution that says where the sentence came from.",
+ "review": "Pass 1: the story specs wrapped on every card; the top-right label vanished over the hair on the wrist card; the gold card's attribution reached for an invented comparison price. Pass 2: specs shortened, the wrist card given an ivory label with an ink logo, the attribution cut to what is true (which is why it costs ₹1,499), the evidence type nudged up a point.",
+ "score": "9.5",
+ "passes": 2,
+ "verdict": "is it real gold. NO. is the most honest jewellery ad in India this year, and it is the one to run first.",
+ "cards": {
+  "A1": {"title": "can i shower in it? YES.", "why": "The Heartbead under a running shower, the water on the skin doing the arguing. The evidence is the care line, verbatim.", "source": "Set 02's shower frame (gen 1168cc2a), re-cut.", "check": "Waterproof flag true on YF5215; the care line quoted word for word; 29 units."},
+  "A2": {"title": "will it tarnish? NO.", "why": "The braided hoops on the ear, from the brand's own listing photograph. The care line says tarnish free, so the card says no.", "source": "The listing's fourth photograph for E20267O, the brand's own.", "check": "Waterproof flag true and the care line verbatim on E20267O; 77 units."},
+  "A3": {"title": "is it real gold? NO.", "why": "The bravest card of the night. 18k PVD gold tone over surgical steel is what the listing says, so the answer is no, and the attribution says why that is the point: it costs ₹1,499.", "source": "Set 06's third skin frame (gen 1ad525a9), re-cut.", "check": "Plating and material quoted from YF5143's listing; 80 units."},
+  "A4": {"title": "and perfume? NO.", "why": "The atomiser mid-spray beside the pastel bracelet. The one thing the care line asks you not to do, said plainly, with the fix: spray first, then dress.", "source": "Set 02's perfume frame (gen 5a3f4dfb), re-cut.", "check": "Care line quoted verbatim from B00681C; 77 units."},
+  "A5": {"title": "will it fit my wrist? 15 TO 19.", "why": "The bracelet on a wrist from the brand's own photograph, and the answer is the listing's range, printed as the headline.", "source": "The listing's fifth photograph for B00681C, the brand's own.", "check": "15-19cm adjustable links on B00681C's listing; 77 units."}
+ }
+}
