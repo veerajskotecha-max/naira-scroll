@@ -1,0 +1,17 @@
+{
+ "device": "The tag is the ad",
+ "lede": "(the blush drawer box with one piece in it, and beneath it a gift tag with TO and FROM already filled in. five relationships, five pieces, one honest price each.)",
+ "idea": "Gift ads show a bow and say for her. This set writes the tag instead: five people everyone has — the sister who borrows, the mother who needs nothing, the friend in colour, the one who doesn't wear jewellery, and you — each matched to a piece with the stock to back it. The box does the brand work; the tag does the persuading.",
+ "type": "No headline: the tag is the headline. A hairline-ruled die-cut with a clipped corner and a punched hole, tinted blush; TO and FROM in oxblood mono, the lines in Cormorant italic at 58px and 40px. The foot carries the piece, its spec, the price and a CTA that says GIFT rather than SHOP.",
+ "review": "Pass 1: the tag sat top-heavy with dead space beneath it. Pass 2: content centred, italics enlarged, blush tint added. Fidelity: every generated box redrew the wordmark as a sans-serif with a leaf, so the real mark was composited onto each lid — the redrawn mark cloned out with a patch of the same lid, the brand's own wordmark placed at the reference box's proportion and tint. The archive hoops box carried the correct mark and served as the box reference. Two story specs shortened to hold one line.",
+ "score": "9.2",
+ "passes": 2,
+ "verdict": "the mum card is the one that gets shared; the you card is the one that converts.",
+ "cards": {
+  "G1": {"title": "to: the sister who borrows everything.", "why": "The braided hoops in the drawer, the one archive box frame whose wordmark was right. From: you, so she finally stops.", "source": "Archive frame #538 at full resolution, re-cut.", "check": "25mm braid on E20267O; 77 units."},
+  "G2": {"title": "to: mum, who says she doesn't need anything.", "why": "The paperclip chain coiled in the drawer with the toggle on top: the most-stocked piece in the catalogue for the most-bought-for person.", "source": "Generated tonight (gen ba0751d3) with the archive box as reference 1 and the chain as reference 2; wordmark composited.", "check": "4mm and 50cm on YF5143; 80 units."},
+  "G3": {"title": "to: the friend who wears colour before noon.", "why": "The pastel rivière looped once in the drawer, aqua, pink and yellow against black velvet. From: the one in black, with love.", "source": "Generated tonight (gen d0d7a853), box reference plus product reference; wordmark composited.", "check": "5mm cushion stones in the listed colour order on B00681C; 77 units."},
+  "G4": {"title": "to: you.", "why": "The steel spheres and the gold heart, bought for oneself. From: you, nobody has to know. The card that converts.", "source": "Generated tonight (gen 39aee452); wordmark composited.", "check": "6mm spheres and the one gold heart on YF5215; 29 units."},
+  "G5": {"title": "to: the one who doesn't wear jewellery.", "why": "Two small brushed huggies with velvet all around them: the piece for the person who says they don't. From: someone who has seen the drawer.", "source": "Generated tonight (gen 93988555); wordmark composited.", "check": "12mm on E14776S; 16 units."}
+ }
+}
