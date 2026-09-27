@@ -1,0 +1,17 @@
+{
+ "device": "The offer block, filled with NONE",
+ "lede": "(festive without a discount. one clay lamp is the only light in every frame, and the offer block that every diwali ad carries is filled in honestly.)",
+ "idea": "From Navratri to Diwali every jewellery brand runs the same ad: a countdown, a code, a strike-through. This set refuses all three. Five pieces, each photographed by a single diya, each carrying the form every festive ad carries — OFFER, CODE, ENDS — filled in with NONE, NONE, NEVER, and one line that is true: LIGHT, ONE DIYA. The pieces are the five deepest-stocked in the catalogue, because a festive set has to survive the festival.",
+ "type": "Ivory Velista on wine at 150px, the second word in blush; a Cormorant italic aside; then a JetBrains Mono form with dotted leaders, the one true field in blush. The plate bleeds into the ground through a 140px gradient so the headline sits in the dark just under the flame. Blush CTA with wine text.",
+ "review": "Pass 1: the layout was proved on an archive still life while the flame frames rendered. The hoops came back as a two-strand twisted rope and were regenerated as a three-strand plait; the huggies submission hit a rate limit and was resent. Pass 2: crops set so each piece sits above the gradient, the huggies' story spec shortened to hold one line.",
+ "score": "9.4",
+ "passes": 2,
+ "verdict": "NO SALE. over the pastel bracelet is the bravest card in the campaign and the one most likely to be screenshotted.",
+ "cards": {
+  "F1": {"title": "NO CODE.", "why": "The paperclip chain coiled beside the lamp, the toggle nearest the camera. The flame is the only light; the gold does the rest.", "source": "Generated tonight (gen 3a30deaa), one product in the frame, the diya as the scale referent.", "check": "4mm, 50cm and the 15mm toggle on YF5143; 80 units."},
+  "F2": {"title": "NO TIMER.", "why": "The braided hoops leaning together on a brass thali, rim-lit by the flame so every crossing of the plait shows.", "source": "Generated tonight (gen 1c68b27f) after a first render twisted the braid into a rope and was rejected.", "check": "25mm and the braid on E20267O; 77 units."},
+  "F3": {"title": "NO SALE.", "why": "The pastel rivière in an S on wine silk. Every stone throws a coloured spark from the one flame: the card that argues the price without a number.", "source": "Generated tonight (gen a00c36e7).", "check": "5mm cushion stones in the aqua, pink, yellow order and the fold-over clasp on B00681C; 77 units."},
+  "F4": {"title": "NO RUSH.", "why": "The steel spheres coiled once around the foot of the lamp, the gold heart and toggle in front where the light is.", "source": "Generated tonight (gen 7c38f2ad).", "check": "6mm mirror spheres, the gold toggle and the one heart on YF5215; 29 units."},
+  "F5": {"title": "NO CATCH.", "why": "Two tiny satin huggies beside a lamp that dwarfs them. The honest scale is the point: they are small, they are ₹1,099, and that is the whole offer.", "source": "Generated tonight (gen 8662dff0).", "check": "12mm across, 6mm deep and the brushed satin finish on E14776S; 16 units."}
+ }
+}
