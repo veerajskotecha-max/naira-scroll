@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 
 SP="/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad"
 ADS=f"{SP}/ads"; HIST=f"{SP}/hist"; ROOT=f"{SP}/sets"
-REPO="/home/user/naira-scroll/docs/creative/night-shift"
+REPO=os.environ.get("NS_REPO","/home/user/naira-scroll/docs/creative/night-shift")
 ROWS={r["sku"]:r for r in json.load(open(f"{ADS}/inventory_rows.json"))}
 DET=json.load(open(f"{ADS}/details.json"))
 FORMATS={"feed":(1080,1350),"story":(1080,1920)}
@@ -57,7 +57,7 @@ TOK={"feed":dict(pad="52px",NAME="24px",MONO="15px",ASIDE="30px",PRICE="34px",CT
 
 def top(label,color=INK,logo=None):
     logo=logo or ("logo_ivory.png" if color==IVORY else "logo_ink.png")
-    return f'<div class="top" style="color:{color}"><img src="{ADS}/{logo}"><span class="lab">{E(label)}</span></div>'
+    return f'<div class="top" style="color:{color}"><img src="{ADS}/{logo}"><span class="lab">{E(label)} · NAIRAFLORE.COM</span></div>'
 
 def page(c,fmt,mod):
     W,H=FORMATS[fmt]; tk=dict(TOK[fmt]); tk.update(getattr(mod,"TOK",{}).get(fmt,{})); tk.update(c.get("tok_"+fmt,{}))
