@@ -178,15 +178,65 @@ def by_type(t):
 # ---- pages ----------------------------------------------------------------------------------
 pages = []
 
-# 1 · cover
-pages.append(("cover", CREAM, "".join([
-    logo(105, 15.5, 46, "brand", anchor="center"),
-    T("DEMI-FINE JEWELLERY &nbsp;·&nbsp; THE CATALOGUE", 105, 28.4, "eyebrow center"),
-    photo(hf("baroque-pearl-lariat:eeed"), 14, 36, 182, 213, fx=0.47, fy=0.52, key="cover"),
-    T("<span class='disp'>SOFTLY, SLOWLY,</span><span class='it' style='margin-left:2.6mm'>worn.</span>", 105, 254, "covertitle center"),
-    rule(14, 278.6, 182, INK, 0.22),
-    T("VOLUME ONE &nbsp;·&nbsp; FESTIVE MMXXVI", 14, 282.2, "folio", extra=f"color:{INK_SOFT}"),
-    T("NAIRAFLORE.COM", 196, 282.2, "folio", extra=f"color:{INK_SOFT};transform:translateX(-100%)"),
+# 1 · cover — "masthead behind the subject": PETITE set across the page, the pearl and bow cut out and laid
+# back over the letters. Both layers come from one crop sized to the bleed (216 x 303 mm), so the cutout
+# registers exactly in the screen and the print master alike.
+def cover_layers():
+    import numpy as np, cv2
+    src = CAMP / "raw/pearl-ribbon-ring/568dbfe1.png"
+    im = Image.open(src).convert("RGB"); W, H = im.size
+    ar, z, fx, fy = 216 / 303, 1.12, 0.5, 0.44
+    cw, ch = (H * ar, H) if W / H > ar else (W, W / ar); cw, ch = cw / z, ch / z
+    cx = min(max(fx * W, cw / 2), W - cw / 2); cy = min(max(fy * H, ch / 2), H - ch / 2)
+    c = im.crop((round(cx - cw / 2), round(cy - ch / 2), round(cx + cw / 2), round(cy + ch / 2)))
+    c.save(IMG / "cover_bg.jpg", "JPEG", quality=92, subsampling=0, optimize=True)
+    pxmm = c.width / 216
+    to_px = lambda mm_x, mm_y: (int((mm_x + 3) * pxmm), int((mm_y + 3) * pxmm))
+    (x0, y0), (x1, y1) = to_px(70, 88), to_px(184, 160)
+    a = np.asarray(c); roi = a[y0:y1, x0:x1].copy()
+    hsv = cv2.cvtColor(roi, cv2.COLOR_RGB2HSV_FULL).astype(float)
+    hh, ss, vv = hsv[..., 0] * 360 / 255, hsv[..., 1] / 255, hsv[..., 2] / 255
+    m = np.full(roi.shape[:2], cv2.GC_PR_BGD, np.uint8)
+    m[((hh < 20) | (hh > 340)) & (ss > 0.45) & (vv < 0.42)] = cv2.GC_BGD
+    obj = ((vv > 0.72) & (ss < 0.30)) | ((hh > 28) & (hh < 58) & (ss > 0.40) & (vv > 0.45))
+    m[obj] = cv2.GC_PR_FGD
+    core = cv2.erode((obj * 255).astype(np.uint8), np.ones((7, 7), np.uint8)) > 0
+    m[core] = cv2.GC_FGD
+    cv2.grabCut(cv2.cvtColor(roi, cv2.COLOR_RGB2BGR), m, None, np.zeros((1, 65)), np.zeros((1, 65)), 6, cv2.GC_INIT_WITH_MASK)
+    fg = ((m == cv2.GC_FGD) | (m == cv2.GC_PR_FGD)).astype(np.uint8)
+    n, lab = cv2.connectedComponents(fg); keep = np.zeros_like(fg)
+    for k in range(1, n):
+        comp = lab == k
+        if (comp & core).any() and comp.sum() > 400:
+            keep[comp] = 1
+    keep = cv2.dilate(cv2.morphologyEx(keep, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8)), np.ones((3, 3), np.uint8))
+    alpha = (cv2.GaussianBlur(keep.astype(np.float32), (0, 0), 1.1) * 255).clip(0, 255).astype(np.uint8)
+    Image.fromarray(np.dstack([roi, alpha])).save(IMG / "cover_fg.png", optimize=True)
+    fl, ft, fw, fh = x0 / pxmm - 3, y0 / pxmm - 3, (x1 - x0) / pxmm, (y1 - y0) / pxmm
+    return ("<img class='ph' src='img/cover_bg.jpg' style='left:-3mm;top:-3mm;width:216mm;height:303mm' alt=''>",
+            f"<img class='ph' src='img/cover_fg.png' style='left:{fl:.3f}mm;top:{ft:.3f}mm;width:{fw:.3f}mm;height:{fh:.3f}mm;object-fit:fill' alt=''>")
+
+
+COVER_BG, COVER_FG = cover_layers()
+ON_RED, ON_RED_2 = PAPER, "#F2CFC4"
+pages.append(("cover", RED_GROUND, "".join([
+    COVER_BG,
+    T("VOLUME ONE &nbsp;·&nbsp; FESTIVE MMXXVI", 14, 13.4, "folio", extra=f"color:{ON_RED_2}"),
+    logo(105, 10.6, 34, "cream-blush", anchor="center"),
+    T("NAIRAFLORE.COM", 196, 13.4, "folio", extra=f"color:{ON_RED_2};transform:translateX(-100%)"),
+    rule(14, 23, 182, ON_RED, 0.35),
+    T("THE DEMI-FINE JEWELLERY CATALOGUE", 105, 27.5, "eyebrow center", extra=f"color:{ON_RED}"),
+    # the masthead: Velista caps fitted to 186 mm, baseline 114 mm
+    f"<svg class='abs' style='left:0;top:0;width:210mm;height:297mm' viewBox='0 0 210 297'>"
+    f"<text x='12' y='114' font-family=\"Velista\" font-size='62' textLength='186' lengthAdjust='spacing' fill='{ON_RED}'>PETITE</text></svg>",
+    COVER_FG,
+    T("<span class='it'>softly, slowly, worn.</span>", 14, 120.5, "h3", extra=f"color:{ON_RED}"),
+    T("<span class='label' style='color:inherit'>FOUR CAMPS</span><br>The Long Afternoon, Sage,<br>Steel &amp; Gold, The Red Room",
+      14, 136, "coverline", w=64),
+    T(f"<span class='label' style='color:inherit'>THE COLLECTION</span><br>{len(LIB)} pieces, from {inr(min(p['price'] for p in LIB.values()))}",
+      14, 158, "coverline", w=64),
+    T(f"<span class='label' style='color:inherit'>ON THE COVER</span><br>Pearl Ribbon Ring, {inr(LIB['pearl-ribbon-ring']['price'])}<br>The Red Room, page 06",
+      14, 268, "coverline", w=60),
 ])))
 
 # 2 · about
@@ -392,6 +442,8 @@ img.ph {{ position:absolute; display:block; object-fit:cover }}
 .label {{ font-family:'Rupee','JostF',sans-serif; font-weight:500; font-size:6.6pt; letter-spacing:.24em; color:{INK}; display:inline-block; margin-bottom:1.2mm }}
 .fine {{ font-family:'Rupee','JostF',sans-serif; font-weight:300; font-size:6.9pt; line-height:1.5; color:{MUTED} }}
 .matline {{ font-family:'Rupee','JostF',sans-serif; font-weight:400; font-size:8.6pt; letter-spacing:.12em; color:{SAGE_DEEP}; white-space:nowrap }}
+.coverline {{ font-family:'Rupee','JostF',sans-serif; font-weight:300; font-size:8.6pt; line-height:1.5; color:#F2CFC4 }}
+.coverline .label {{ color:#FBF5F0 }}
 .caption {{ font-family:'CormI',Georgia,serif; font-style:italic; font-size:11.5pt; color:{INK_SOFT}; white-space:nowrap }}
 .caption-s {{ font-family:'CormI',Georgia,serif; font-style:italic; font-size:9.6pt; color:{INK_SOFT}; white-space:nowrap }}
 .meta {{ font-family:'Rupee','JostF',sans-serif; font-weight:400; font-size:7.6pt; letter-spacing:.06em; color:{INK_SOFT}; white-space:nowrap }}

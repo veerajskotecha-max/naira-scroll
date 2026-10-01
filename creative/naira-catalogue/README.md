@@ -10,7 +10,7 @@ piece), the Shopify plinth photographs and NAIRA's own type, palette and vector 
 
 ## Pages
 
-1. Cover: Baroque Pearl Lariat, worn
+1. Cover: PETITE masthead with the Pearl Ribbon Ring (The Red Room) cut out in front of the letters
 2. About Naira: the house, the Petite promise, materials, the collection at a glance
 3. Camp I · The Long Afternoon
 4. Camp II · Sage
