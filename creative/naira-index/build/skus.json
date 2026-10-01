@@ -1,0 +1,987 @@
+{
+ "dewdrop-bezel-necklace": {
+  "title": "Dewdrop Bezel Necklace",
+  "type": "Necklace",
+  "sku": "YF6403",
+  "price": 999.0,
+  "compare": 2599.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "pearl-legacy-necklace": {
+  "title": "Pearl Legacy Necklace",
+  "type": "Necklace",
+  "sku": "YF3925-NEC",
+  "price": 1799.0,
+  "compare": 3500.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Pearl",
+   "Tarnish Free"
+  ]
+ },
+ "baroque-shell-bracelet": {
+  "title": "Baroque Shell Bracelet",
+  "type": "Bracelet",
+  "sku": "YF3925",
+  "price": 1799.0,
+  "compare": 2900.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Tarnish Free"
+  ]
+ },
+ "lumiere-oval-necklace": {
+  "title": "Lumière Oval Necklace",
+  "type": "Necklace",
+  "sku": "NF-SLN-01",
+  "price": 1499.0,
+  "compare": 2800.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "lumiere-oval-bracelet": {
+  "title": "Lumière Oval Bracelet",
+  "type": "Bracelet",
+  "sku": "NF-SLB-01",
+  "price": 1099.0,
+  "compare": 2599.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "serpentine-whisper-chain-silver": {
+  "title": "Serpentine Whisper Chain — Silver",
+  "type": "Necklace",
+  "sku": "YF8439-SLV",
+  "price": 1499.0,
+  "compare": 3359.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Rhodium Silver Tone Plated",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "bold-nocturne-bracelet": {
+  "title": "Bold Nocturne Bracelet",
+  "type": "Bracelet",
+  "sku": "YF5144-BRA",
+  "price": 1599.0,
+  "compare": 3200.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "bold-nocturne-chain": {
+  "title": "Bold Nocturne Chain",
+  "type": "Necklace",
+  "sku": "YF5144",
+  "price": 1799.0,
+  "compare": 4899.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "petite-pearl-chain": {
+  "title": "Petite Pearl Chain",
+  "type": "Necklace",
+  "sku": "YF-DIYChain",
+  "price": 1299.0,
+  "compare": 2599.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "marquise-layering-set": {
+  "title": "Marquise Layering Set",
+  "type": "Necklace",
+  "sku": "YF5244",
+  "price": 1799.0,
+  "compare": 2999.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "clover-charm-necklace": {
+  "title": "Clover Charm Necklace",
+  "type": "Necklace",
+  "sku": "YF6618",
+  "price": 1299.0,
+  "compare": 2599.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "verdant-drop-earrings": {
+  "title": "Verdant Drop Earrings",
+  "type": "Earrings",
+  "sku": "E21572E1",
+  "price": 1459.0,
+  "compare": 2429.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Sterling Silver Posts"
+  ]
+ },
+ "triple-dawn-cuff": {
+  "title": "Triple Dawn Cuff",
+  "type": "Bracelet",
+  "sku": "JDB0104010",
+  "price": 2299.0,
+  "compare": 4599.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "riviere-of-light-bracelet": {
+  "title": "Rivière of Light Bracelet",
+  "type": "Bracelet",
+  "sku": "JDB201083",
+  "price": 1249.0,
+  "compare": 2269.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "granule-dome-ring": {
+  "title": "Granule Dome Ring",
+  "type": "Ring",
+  "sku": "JDR0104337",
+  "price": 1399.0,
+  "compare": 3249.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "pearl-blossom-earrings": {
+  "title": "Pearl Blossom Earrings",
+  "type": "Earrings",
+  "sku": "E20997C",
+  "price": 1499.0,
+  "compare": 3279.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Rhodium Plated",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "halo-curve-ring": {
+  "title": "Halo Curve Ring",
+  "type": "Ring",
+  "sku": "YF8453",
+  "price": 2049.0,
+  "compare": 3419.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "pearl-reverie-bracelet": {
+  "title": "Pearl Reverie Bracelet",
+  "type": "Bracelet",
+  "sku": "JDB2409013",
+  "price": 899.0,
+  "compare": 1899.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "baguette-eclat-bracelet": {
+  "title": "Baguette Éclat Bracelet",
+  "type": "Bracelet",
+  "sku": "JDB201210",
+  "price": 1800.0,
+  "compare": 2769.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "first-light-set": {
+  "title": "First Light Set",
+  "type": "Jewellery Set",
+  "sku": "JDS0204301-set",
+  "price": 1199.0,
+  "compare": 2909.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Jewellery Set",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "petite-pave-band": {
+  "title": "Petite Pavé Band",
+  "type": "Ring",
+  "sku": "WR12518B",
+  "price": 899.0,
+  "compare": 1819.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "whisper-pave-band": {
+  "title": "Whisper Pavé Band",
+  "type": "Ring",
+  "sku": "WR10170K7",
+  "price": 899.0,
+  "compare": 1799.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "silver-dome-ring": {
+  "title": "Pavé Dome Ring",
+  "type": "Ring",
+  "sku": "JDR0104337-S",
+  "price": 1099.0,
+  "compare": 2999.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "vintage-halo-ring": {
+  "title": "Vintage Halo Ring",
+  "type": "Ring",
+  "sku": "WR23569K8",
+  "price": 999.0,
+  "compare": 2599.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "verdant-circlet-studs": {
+  "title": "Verdant Circlet Studs",
+  "type": "Earrings",
+  "sku": "FE02847B",
+  "price": 1499.0,
+  "compare": 3449.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "verdant-eternity-band": {
+  "title": "Verdant Eternity Band",
+  "type": "Ring",
+  "sku": "WR23024K",
+  "price": 1899.0,
+  "compare": 2919.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "rose-verdant-band": {
+  "title": "Rose Verdant Band",
+  "type": "Ring",
+  "sku": "R18345A1",
+  "price": 1599.0,
+  "compare": 3329.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Rose Gold Tone",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "blush-cluster-ring": {
+  "title": "Blush Cluster Ring",
+  "type": "Ring",
+  "sku": "WR10914B2",
+  "price": 1499.0,
+  "compare": 3079.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "star-point-band": {
+  "title": "Star Point Band",
+  "type": "Ring",
+  "sku": "YF5214",
+  "price": 799.0,
+  "compare": 1500.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "pearl-ribbon-ring": {
+  "title": "Pearl Ribbon Ring",
+  "type": "Ring",
+  "sku": "FR03136B",
+  "price": 1099.0,
+  "compare": 1600.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "chevron-whisper-ring": {
+  "title": "Chevron Whisper Ring",
+  "type": "Ring",
+  "sku": "JDR0303312-7",
+  "price": 1299.0,
+  "compare": 2899.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "cushion-halo-ring": {
+  "title": "Cushion Halo Ring",
+  "type": "Ring",
+  "sku": "WR20902K8",
+  "price": 1199.0,
+  "compare": 2200.0,
+  "available": false,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Ring",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "ribbon-bead-bracelet": {
+  "title": "Ribbon Bead Bracelet",
+  "type": "Bracelet",
+  "sku": "YF8156",
+  "price": 799.0,
+  "compare": 1629.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "heartbead-bracelet": {
+  "title": "Heartbead Bracelet",
+  "type": "Bracelet",
+  "sku": "YF5215",
+  "price": 1299.0,
+  "compare": 2329.0,
+  "available": true,
+  "tags": [
+   "Bracelet",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Tarnish Free",
+   "Two Tone",
+   "Waterproof"
+  ]
+ },
+ "prism-riviere-bracelet": {
+  "title": "Prism Rivière Bracelet",
+  "type": "Bracelet",
+  "sku": "B00681C",
+  "price": 2399.0,
+  "compare": 4200.0,
+  "available": true,
+  "tags": [
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "blush-station-bracelet": {
+  "title": "Blush Station Bracelet",
+  "type": "Bracelet",
+  "sku": "JDB0103317-PK",
+  "price": 1900.0,
+  "compare": 3449.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "baroque-bloom-cuff": {
+  "title": "Baroque Bloom Cuff",
+  "type": "Bracelet",
+  "sku": "YF6671",
+  "price": 1499.0,
+  "compare": 3079.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "pearl-point-studs": {
+  "title": "Pearl Point Studs",
+  "type": "Earrings",
+  "sku": "E19263B",
+  "price": 1499.0,
+  "compare": 3139.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "silver-drop-earrings": {
+  "title": "Trio Oval Drop Earrings",
+  "type": "Earrings",
+  "sku": "E16676C",
+  "price": 1499.0,
+  "compare": 3000.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "brushed-gold-huggies": {
+  "title": "Brushed Gold Huggies",
+  "type": "Earrings",
+  "sku": "E14776S",
+  "price": 1099.0,
+  "compare": 2199.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "pearl-drop-studs": {
+  "title": "Pearl Drop Studs",
+  "type": "Earrings",
+  "sku": "YF8333",
+  "price": 1199.0,
+  "compare": 2919.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "solitaire-whisper-studs": {
+  "title": "Solitaire Whisper Studs",
+  "type": "Earrings",
+  "sku": "E16355C",
+  "price": 1099.0,
+  "compare": 1900.0,
+  "available": true,
+  "tags": [
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Rhodium Plated",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "filigree-bloom-studs": {
+  "title": "Filigree Bloom Studs",
+  "type": "Earrings",
+  "sku": "YF8147",
+  "price": 1499.0,
+  "compare": 2999.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "baguette-arc-hoops": {
+  "title": "Baguette Arc Hoops",
+  "type": "Earrings",
+  "sku": "WE14387B",
+  "price": 1899.0,
+  "compare": 2800.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "textured-gold-hoops": {
+  "title": "Textured Gold Hoops",
+  "type": "Earrings",
+  "sku": "FE03586B",
+  "price": 1699.0,
+  "compare": 3669.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "ribbon-bow-earrings": {
+  "title": "Ribbon Bow Earrings",
+  "type": "Earrings",
+  "sku": "E16075B",
+  "price": 1599.0,
+  "compare": 3539.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "woven-gold-hoops": {
+  "title": "Woven Gold Hoops",
+  "type": "Earrings",
+  "sku": "E20267O",
+  "price": 1499.0,
+  "compare": 2769.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "clover-trio-edit": {
+  "title": "Clover Trio Edit",
+  "type": "Earrings",
+  "sku": "JDE0201327",
+  "price": 1999.0,
+  "compare": 3929.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "molten-bloom-hoops": {
+  "title": "Molten Bloom Hoops",
+  "type": "Earrings",
+  "sku": "JDE0110042",
+  "price": 1300.0,
+  "compare": 2359.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Earrings",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "baroque-pearl-lariat": {
+  "title": "Baroque Pearl Lariat",
+  "type": "Necklace",
+  "sku": "YF8457",
+  "price": 1599.0,
+  "compare": 3829.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Pearl",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "toggle-link-chain": {
+  "title": "Toggle Link Chain",
+  "type": "Necklace",
+  "sku": "YF5143",
+  "price": 1499.0,
+  "compare": 2900.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "charm-box-chain": {
+  "title": "Charm Box Chain",
+  "type": "Necklace",
+  "sku": "YF5146",
+  "price": 1599.0,
+  "compare": 3309.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "serpentine-whisper-chain": {
+  "title": "Serpentine Whisper Chain",
+  "type": "Necklace",
+  "sku": "YF8439",
+  "price": 1849.0,
+  "compare": 3359.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "heartline-paperclip-necklace": {
+  "title": "Heartline Paperclip Necklace",
+  "type": "Necklace",
+  "sku": "YF3952",
+  "price": 1899.0,
+  "compare": 3499.0,
+  "available": true,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ },
+ "riviere-eternal-necklace": {
+  "title": "Rivière Eternal Necklace",
+  "type": "Necklace",
+  "sku": "YF7085-NEC",
+  "price": 1799.0,
+  "compare": 3269.0,
+  "available": false,
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Hypoallergenic",
+   "Naira Petite",
+   "Necklace",
+   "Tarnish Free",
+   "Waterproof"
+  ]
+ }
+}
