@@ -11,7 +11,7 @@ Shopify plinth photographs, at their nairaflore.com prices on 1 October 2026.
 | Lilac | deckled lilac paper, lavender, lilac linen; silver | Pearl Blossom Earrings | `lilac/naira-petite-lilac-edition.pdf` | `lilac/naira-petite-lilac-edition-PRINT-3mm-bleed.pdf` |
 | Sage | a celadon crackle-glaze dish, sage leaves, sage linen; gold | Granule Dome Ring | `sage/naira-petite-sage-edition.pdf` | `sage/naira-petite-sage-edition-PRINT-3mm-bleed.pdf` |
 
-Each folder also has a one-image preview of all ten pages.
+Each folder also has a 5 mm bleed print master (`…-PRINT-5mm-bleed.pdf`, 220 × 307 mm, TrimBox set to A4) for printers that ask for 5 mm, and a one-image preview of all ten pages.
 
 ## Pages (all three editions)
 
@@ -48,6 +48,6 @@ Each folder also has a one-image preview of all ten pages.
 
 `build/build_theme.py` holds the three camps (image ids, crops and copy). `THEME=apricot python3
 build_theme.py` writes the HTML, and `python3 render_theme.py apricot` prints the PDF. Add `BLEED=3` and
-`--bleed` for the print master. The cover cut-outs use the BiRefNet mattes in `build/mattes/`, made with
+`--bleed` for the print master (`BLEED=5` for the 5 mm version). The cover cut-outs use the BiRefNet mattes in `build/mattes/`, made with
 `rembg` from the same crop. The scripts read the Higgsfield originals and the product library from the
 session scratchpad, so they are kept here for reference.

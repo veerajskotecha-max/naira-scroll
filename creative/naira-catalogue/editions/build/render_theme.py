@@ -6,9 +6,11 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 C = Path(__file__).resolve().parent
 theme = sys.argv[1]
+import os
 bleed = "--bleed" in sys.argv
-SRC = C / (f"catalogue-{theme}-bleed.html" if bleed else f"catalogue-{theme}.html")
-PDF = C / "out" / (f"naira-petite-{theme}-edition-PRINT-3mm-bleed.pdf" if bleed else f"naira-petite-{theme}-edition.pdf")
+BL = float(os.environ.get("BLEED", "3")) if bleed else 0.0
+SRC = C / ((f"catalogue-{theme}-bleed.html" if BL == 3 else f"catalogue-{theme}-bleed{BL:g}.html") if bleed else f"catalogue-{theme}.html")
+PDF = C / "out" / (f"naira-petite-{theme}-edition-PRINT-{BL:g}mm-bleed.pdf" if bleed else f"naira-petite-{theme}-edition.pdf")
 
 
 async def main():
@@ -33,7 +35,7 @@ if bleed:
     for page in doc:
         r = page.rect
         page.set_bleedbox(r)
-        page.set_trimbox(fitz.Rect(3 * mm, 3 * mm, r.width - 3 * mm, r.height - 3 * mm))
+        page.set_trimbox(fitz.Rect(BL * mm, BL * mm, r.width - BL * mm, r.height - BL * mm))
 doc.save(PDF, garbage=4, deflate=True)
 PDF.with_suffix(".tmp.pdf").unlink()
 doc = fitz.open(PDF)

@@ -21,7 +21,8 @@ sys.path.insert(0, str(CAMP / "studio"))
 import base  # fonts + logo vector + palette
 
 THEME = os.environ.get("THEME", "apricot")
-BLEED = float(os.environ.get("BLEED", "0"))   # mm; 3 for the print master
+BLEED = float(os.environ.get("BLEED", "0"))   # mm; 3 or 5 for the print masters
+SB = max(BLEED, 3.0)                          # full-bleed art always covers at least 3 mm
 IMG = C / "img_theme" / THEME; IMG.mkdir(parents=True, exist_ok=True)
 LIB = json.load(open(CAMP / "library.json"))
 RAW = json.load(open(C / "raw_index.json"))
@@ -333,31 +334,43 @@ CV = T["cover"]
 
 
 def cover_layers():
-    """The masthead sits behind the piece: one crop sized to the bleed (216 x 303 mm) gives the background, and the
-    piece is laid back over the letters from the same pixels, cut out with a BiRefNet matte of that crop
-    (themes/cut/<theme>_birefnet-general.png, made with rembg) inside the masthead band."""
+    """The masthead sits behind the piece: one crop sized to the bleed gives the background, and the piece is laid back
+    over the letters from the same pixels, cut out with a BiRefNet matte (themes/cut/<theme>_birefnet-general.png,
+    made with rembg on the 3 mm crop) inside the masthead band. The crop covers at least a 3 mm bleed; for a wider
+    bleed the matte is placed back in source pixels and cut to the wider crop, so the cut-out still registers."""
     import numpy as np, cv2
     im = Image.open(raw(CV["src"])).convert("RGB"); W, H = im.size
-    ar, z, fx, fy = 216 / 303, CV["z"], CV["fx"], CV["fy"]
-    cw, ch = (H * ar, H) if W / H > ar else (W, W / ar); cw, ch = cw / z, ch / z
-    cx = min(max(fx * W, cw / 2), W - cw / 2); cy = min(max(fy * H, ch / 2), H - ch / 2)
-    c = im.crop((round(cx - cw / 2), round(cy - ch / 2), round(cx + cw / 2), round(cy + ch / 2)))
-    c.save(IMG / "cover_bg.jpg", "JPEG", quality=92, subsampling=0, optimize=True)
-    matte = Image.open(SCR / "themes" / "cut" / f"{THEME}_birefnet-general.png").convert("L")
-    assert matte.size == c.size, (matte.size, c.size)
-    pxmm = c.width / 216
-    y0 = max(int((CV["base"] - 50 + 3) * pxmm), 0); y1 = int((CV["base"] + 4 + 3) * pxmm)
+    mb = SB
+    pw, ph = 210 + 2 * mb, 297 + 2 * mb
+
+    def window(ar):
+        z, fx, fy = CV["z"], CV["fx"], CV["fy"]
+        cw, ch = (H * ar, H) if W / H > ar else (W, W / ar); cw, ch = cw / z, ch / z
+        cx = min(max(fx * W, cw / 2), W - cw / 2); cy = min(max(fy * H, ch / 2), H - ch / 2)
+        return (round(cx - cw / 2), round(cy - ch / 2), round(cx + cw / 2), round(cy + ch / 2))
+
+    bx = window(pw / ph)
+    c = im.crop(bx)
+    c.save(IMG / f"cover_bg_{mb:g}.jpg", "JPEG", quality=92, subsampling=0, optimize=True)
+    m3 = Image.open(SCR / "themes" / "cut" / f"{THEME}_birefnet-general.png").convert("L")
+    b3 = window(216 / 303)
+    assert m3.size == (b3[2] - b3[0], b3[3] - b3[1]), (m3.size, b3)
+    full = Image.new("L", (W, H), 0); full.paste(m3, (b3[0], b3[1]))
+    matte = full.crop(bx)
+    pxmm = c.width / pw
+    y0 = max(int((CV["base"] - 50 + mb) * pxmm), 0); y1 = int((CV["base"] + 4 + mb) * pxmm)
     a = np.asarray(matte).astype(np.float32) / 255
     a[a < 0.06] = 0
     a = cv2.erode(a, np.ones((3, 3), np.uint8))                      # pull the edge 1 px inside the piece
     a = cv2.GaussianBlur(a, (0, 0), 0.7)
     alpha = (a[y0:y1] * 255).clip(0, 255).astype(np.uint8)
     rgb = np.asarray(c)[y0:y1]
-    Image.fromarray(np.dstack([rgb, alpha])).save(IMG / "cover_fg.png", optimize=True)
-    ft, fh = y0 / pxmm - 3, (y1 - y0) / pxmm
-    return (f"<img class='ph' src='img_theme/{THEME}/cover_bg.jpg' style='left:-3mm;top:-3mm;width:216mm;height:303mm' alt=''>",
-            f"<img class='ph' src='img_theme/{THEME}/cover_fg.png' style='left:-3mm;top:{ft:.3f}mm;width:216mm;"
-            f"height:{fh:.3f}mm;object-fit:fill' alt=''>")
+    Image.fromarray(np.dstack([rgb, alpha])).save(IMG / f"cover_fg_{mb:g}.png", optimize=True)
+    ft, fh = y0 / pxmm - mb, (y1 - y0) / pxmm
+    return (f"<img class='ph' src='img_theme/{THEME}/cover_bg_{mb:g}.jpg' style='left:-{mb:g}mm;top:-{mb:g}mm;"
+            f"width:{pw:g}mm;height:{ph:g}mm' alt=''>",
+            f"<img class='ph' src='img_theme/{THEME}/cover_fg_{mb:g}.png' style='left:-{mb:g}mm;top:{ft:.3f}mm;"
+            f"width:{pw:g}mm;height:{fh:.3f}mm;object-fit:fill' alt=''>")
 
 
 COVER_BG, COVER_FG = cover_layers()
@@ -374,7 +387,7 @@ pages.append(("cover", PAPER, "".join([
     f"<svg class='abs' style='left:0;top:0;width:210mm;height:297mm' viewBox='0 0 210 297'>"
     f"<text x='12' y='{base_y}' font-family=\"Velista\" font-size='62' textLength='186' lengthAdjust='spacing' fill='{CV['mast']}'>PETITE</text></svg>",
     COVER_FG,
-    f"<div class='abs' style='left:-3mm;top:178mm;width:216mm;height:122mm;background:linear-gradient(to bottom,"
+    f"<div class='abs' style='left:-{SB:g}mm;top:178mm;width:{210 + 2 * SB:g}mm;height:{297 + SB - 178:g}mm;background:linear-gradient(to bottom,"
     f"rgba({sc},0) 0%,rgba({sc},{CV['scrim_a'] * 0.75:.2f}) 38%,rgba({sc},{CV['scrim_a']}) 70%,rgba({sc},{CV['scrim_a']}) 100%)'></div>",
     Tx(f"<span class='it'>{CV['tagline']}</span>", 14, 214, "h3", extra=f"color:{CV['tag']}"),
     rule(14, 231, 182, CV["lines"], 0.35),
@@ -481,7 +494,7 @@ pages.append(("camp4", GROUND, "".join([
     Tx(f"{T['name'].upper()} &nbsp;·&nbsp; IV", 14, 16, "eyebrow", extra=f"color:{on4}"),
     Tx(f"<span class='disp'>{c4['title']}</span>", 14, 22, "h1 big", extra=f"color:{on4}"),
     Tx(f"<span class='it'>{c4['line']}</span>", 14, 41, "h3", extra=f"color:{on4}"),
-    f"<div class='abs' style='left:-3mm;top:196mm;width:216mm;height:104mm;background:linear-gradient(to bottom,"
+    f"<div class='abs' style='left:-{SB:g}mm;top:196mm;width:{210 + 2 * SB:g}mm;height:{297 + SB - 196:g}mm;background:linear-gradient(to bottom,"
     f"rgba({s4},0) 0%,rgba({s4},0.55) 40%,rgba({s4},0.72) 100%)'></div>",
     slot(c4["inset"], 196 - 64 * inset_h / 80, inset_y, 64 * inset_h / 80, inset_h, "c4a", extra=f"outline:1.2mm solid {PAPER};"),
     Tx(c4["body"], 14, 236, "body", w=100, extra=f"color:{sub4}"),
@@ -605,6 +618,6 @@ def html():
 
 
 if __name__ == "__main__":
-    out = C / (f"catalogue-{THEME}-bleed.html" if BLEED else f"catalogue-{THEME}.html")
+    out = C / ((f"catalogue-{THEME}-bleed.html" if BLEED == 3 else f"catalogue-{THEME}-bleed{BLEED:g}.html") if BLEED else f"catalogue-{THEME}.html")
     out.write_text(html())
     print(THEME, "pages", len(pages), "->", out.name)
