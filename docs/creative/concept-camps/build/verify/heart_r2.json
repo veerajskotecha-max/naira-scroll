@@ -1,0 +1,76 @@
+[
+ {
+  "plate": "H05_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale: the beads read about 40-48% oversize against both stated body referents (brief rule 4). Just above the bracelet the wrist measures 311 px across (skin edges x661 and x972 at y1650), and the forearm just below it measures 337 px (y1850). Front beads measure 49-50 px (for example the first large bead right of the ring, x909-958, y1753-1801). With the wrist at 55 mm that gives 8.0-8.8 mm per bead, about 8.5 mm or +38% to +46% against 6 mm. The most frontal fingernail (ring finger, around x640-700, y255-340) is about 55 px wide; at 10 mm that gives 8.9 mm (+48%). The beads are 0.9 of a nail wide; the prompt asked for half a nail.",
+   "Cross-check against the listing's own on-wrist photos: beads are 0.10 of the wrist width in listing-3 and 0.105 in listing-5, against 0.15-0.16 here. The heart is 0.18-0.19 of the wrist width there, against 0.28-0.30 here. The whole bracelet sits about 1.5x larger on the wrist than the real piece, so it reads chunky and a shopper would expect a bolder bracelet than they get. The 12 large beads plus clasp visible across the front would also need a bracelet of about 25 cm at this scale, not 18 cm."
+  ],
+  "notes": [
+   "Construction matches listing-1/4. Bar side: small bead, silver link, gold jump ring, then a straight flat-ended polished T-bar threaded through the ring, with its loop showing under the bar. Ring side: gold jump ring at about 2-3 o'clock, silver link, small bead, then the strand. There is exactly one smooth, puffed, polished heart on a gold jump ring at 6 o'clock. Nothing is melted at phone size.",
+   "Heart is 92 px wide (x752-844), about 15.1-16.6 mm by wrist or nail (+1% to +11% against 15 mm), so it is on the brief's number. Heart to bead is 1.85, the same as every listing photo (1.8-1.95). The piece's own proportions are faithful; only its absolute size on the body is wrong. Note: with the real 1.85 ratio, the brief's 15 mm heart and 6 mm bead cannot both hold. The listing on-wrist photos put the real heart at about 10.5-11 mm wide.",
+   "Worn frame, so the full count cannot be checked. 12 large beads (6 each side) plus both small end beads show across the front, consistent with 23.",
+   "Beads read as polished mid-grey steel. They carry hard-edged mirror reflections of the skin and crisp white highlights, with mean luminance 108-144 against 122-143 on the listing-1/4 beads. They do not read as pearl, matte or hematite.",
+   "Hand: five digits. Thumb at the right (tip about x1065,y740), index pointing up-right, middle finger curled behind with only its tip showing between ring and index (about x650-700, y620-650), ring finger straight up, little finger straight up. Order, joints, creases and bare nails are natural. The back of the hand faces the camera (the prompt asked for the palm), and the curled middle finger reads as a mudra. Fingers are long against the slender wrist (ring finger about 660 px from the web, about 115 mm at wrist scale), an elongated dancer's hand. It is not deformed at phone size, so this is a note, not a fail.",
+   "Face scan: all four edges and the dupatta folds were checked. No eye, brow, lash, nose, lips, mouth, chin or jaw anywhere, and no shoulder.",
+   "No text, logos, rings, henna, watch or second bracelet.",
+   "The piece sits where it really would: below the wrist joint, toggle on top, heart hanging toward the elbow under gravity.",
+   "Palette is on-brand: dusty blush plaster wall (hue about 16 deg, saturation 0.2) and blush chiffon, with a calm top third for the headline.",
+   "Ad quality once the scale is fixed would be about 8.2. Elegant and calm, but the bracelet is small in a 9:16 frame and the gesture reads as a graceful hand more than Kathak."
+  ],
+  "fix": "Keep the wall, dupatta, light and bracelet construction, but set scale by the beads and the wrist, not the heart. Replace the worn scale line with: 'a fine, delicate strand: each bead about half the width of her fingernail and about one tenth of the width of her wrist; the gold heart about one fingernail wide, about twice a bead's width and about one fifth of the wrist's width; about ten beads plus the clasp show across the front of the wrist; never chunky, never bold'. Drop the '15mm', 'peppercorn' and 'two and a half beads' heart sizing for worn frames; the real heart is about 1.9 bead widths. Ask for an average adult wrist with naturally proportioned fingers. If the Kathak read matters, ask again for the palm toward the camera. Accept only if bead/wrist is 0.14 or less (aim for 0.11)."
+ },
+ {
+  "plate": "H08_a1.png",
+  "pass": true,
+  "severity": "none",
+  "score": 8.7,
+  "reasons": [],
+  "notes": [
+   "The clasp matches listing-1 part for part. Bar side: large bead, silver eye pin, small bead, silver eye pin, gold jump ring, then the T-bar's loop under the bar (x853-943, y1079-1139). The straight, flat-ended polished T-bar lies across the ring, so the toggle is closed. Ring side: gold jump ring at about 3 o'clock (x1123-1223, y1199-1289), silver jump ring, small bead, then large beads. The ring seam sits at about 3 o'clock, as in listing-1. Exactly one smooth, puffed, polished heart hangs on a gold jump ring through its bail at about 7 o'clock. Every link is crisp; nothing is melted or garbled.",
+   "Scale: no external referent in frame, and the silk twill is far finer than a bead, as briefed. Front beads measure 205-215 px (x1369-1584 and x1574-1779 at about y1150), small end beads about 110 px. The heart is about 423 px wide (x525-948), or 2.0 beads with the heart nearer the lens. Ring outer diameter is about 405 px, about equal to the heart. The bar is about 690 px, 1.7x the ring. These are the listing-1/4 ratios. With a 6 mm bead the heart reads about 12 mm (-19% against 15 mm, matching the real heart at about 1.9 bead widths), inside tolerance.",
+   "Macro crop, so the whole strand is not visible. About 12 large beads show on the upper arc and 3 on the right run, plus both small end beads. The loop closes off-frame right, consistent with 23.",
+   "Beads read as mirror-polished mid-grey steel with crisp window highlights and blush reflections. Mean luminance is 109-117 against 122-143 on the listing beads, a touch darker but clearly polished steel, not pearl or hematite. Each in-focus front bead mirrors a tiny dark head-and-shoulders silhouette of the photographer (about x1479,y1133 and x1674,y1108, about 30 px) with no facial features. It is realistic and invisible at phone size; retouching is optional.",
+   "The blush/rose satin (hue 7-23 deg, saturation 0.14-0.24) reads on-brand. The top-left corner fold is a deeper peach shadow (hue 21, saturation 0.38) but does not read as a beige backdrop. No text, hands or extra jewellery. Contact shadows and the macro depth-of-field fall-off are believable.",
+   "Ad: the gold heart is the brightest and sharpest thing in the frame, the gold-against-silver note reads instantly, and the lower-right third is calm copy space. It stops short of 9+ because the layout closely mirrors the PDP clasp close-up (listing-1) re-set on silk, so the wit depends on the line."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "H09_a1.png",
+  "pass": true,
+  "severity": "none",
+  "score": 8.6,
+  "reasons": [],
+  "notes": [
+   "Count: 22 large beads plus 2 small end beads, checked with numbered markers (listing: 23 plus 2), within the allowed 2. The loop is closed with the toggle closed.",
+   "Construction matches listing-1. Bar side: small bead, silver eye pin, gold jump ring, then the T-bar's loop under the bar, with a straight flat-ended T-bar across a round ring. Ring side: gold jump ring at about 3 o'clock, silver link, small bead. One smooth, puffed, polished heart hangs on a gold jump ring at about 7 o'clock. It rests on the plate (x536-708, y1423-1564) rather than on a katli piece as prompted, which is not a defect.",
+   "Scale against the kaju katli (about 4 cm): the near-horizontal upper-right piece (about x1285-1790, y895-1085) is a 60-degree diamond about 565 px tip to tip, with sides of 325-335 px. Beads beside it are about 80 px. Taking tip to tip as 40 mm gives 14.1 px/mm: bead about 5.7 mm (-5%), heart (172 px, 2.0x the ~85 px beads beside it) about 11.4 mm (-24% against 15 mm, matching the real heart at about 1.9 beads). The visible katli thickness is about 55 px, about 6-7 mm once corrected for the roughly 50-58 deg camera elevation, against 6 mm briefed. Cross-check: the plate (about 1870 px across) at 15 cm gives bead 6.4-6.8 mm and heart 13.8 mm. Inside 30% either way.",
+   "Beads read as mirror-polished steel reflecting the window, katli and plate, with crisp highlights. Mean luminance is 111-132 against 122-143 on the listing beads. They read greyer than the bright varq beside them but share the listing's tone; not pearl, not black.",
+   "Seven katli diamonds with crinkled silver varq (on close inspection the leaf looks a little heavy, like foil), no gold leaf and no other sweets. The strand bridges two short gaps between pieces and is supported at both ends, with contact shadows under the beads. Blush plate, blush linen, a sheer curtain and a deeper rose wall at top, all on-brand. No text, logos, hands or extra jewellery.",
+   "Ad: the pun (silver varq with silver beads, mithai as gifting) reads in a second, and the starburst of katli is festive and thumb-stopping. Soft window light, with crisp speculars on the beads and heart. Held at 8.6 because the bright varq outshines the mid-grey beads, so the bracelet is not the brightest thing and sits small in frame. The upper-left headline area is the curtain's vertical folds rather than a clean field."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "H10_a1.png",
+  "pass": false,
+  "severity": "minor",
+  "score": null,
+  "reasons": [
+   "Off-brand beige/sand/tan backdrop (brief rule 7). The handmade paper fills about 60% of the frame and reads beige, not ivory or blush: hue 28-30 deg, saturation 0.24-0.35, value about 0.75 at x900-1500, y650-850 and at x1500-1856, y2000-2300. Only the sunlit lower-left patch is near-ivory (saturation 0.14-0.15). The curtain is sand (hue 29, saturation 0.29, value 0.78 at x0-1100, y0-800), and the top-right quarter is a flat brown/taupe wall (hue 28, saturation 0.46, value 0.38 at x1300-1856, y0-500). The whole-frame mean (hue 27, saturation 0.26, value 0.77) matches the listing's catalogue beige backdrop (listing-4: hue 29, saturation 0.18-0.27, value 0.81-0.90). At phone size it reads as a beige/cream set, unlike the blush of H05, H08 and H09."
+  ],
+  "notes": [
+   "Product is correct: 24 large beads plus 2 small end beads, checked with numbered markers (listing 23 plus 2, within 2), in a closed loop. Bar side: small bead, silver eye pin, gold jump ring, then a straight flat-ended T-bar across the round ring. Ring side: gold jump ring, silver link, small bead. One smooth, puffed, polished heart on a gold jump ring hangs over the front edge of the stack (x900-1087, y1633-1793). Nothing is melted.",
+   "Scale against the cards (6x9 cm): front beads 85-93 px, back beads about 80 px, heart 187 px wide (2.05 beads). The card's short left edge (x453,y1307 to x907,y920) is 597 px raw, about 800 px once corrected with the bracelet loop's 0.59 aspect. Its long front edge runs at least 1447 px to the frame edge, where it is cut off. With the short side at 60 mm (13.3 px/mm), bead is about 6.4-7.0 mm (+7% to +17%) and heart about 14.1 mm (-6%). The long side implies the cards are at least about 10 cm, a little larger than briefed, so the bracelet does not read oversized. Inside 30%.",
+   "Beads read as polished mid-grey steel with window and paper reflections, matching the listing-4 tone; not pearl or hematite.",
+   "Cards are blank: no writing, stamps or printing. The brown streaks in the handmade paper are fibres, not letters. One grey-brown dash (about x370-535, y2065-2100) looks like a pencil smudge and should be retouched if this frame is kept. The dried rosebud is realistic.",
+   "Concept miss (a note, not a fail): the props read as a stack of 5 flat deckle-edged cards with no envelope flaps. The bracelet lies flat on top instead of wrapping the bundle like a ribbon, so 'Sent with love' does not read in one second.",
+   "Ad quality if the palette were fixed would be about 7.6: warm light and good textures, but the idea is lost.",
+   "A crop cannot rescue it, because the beige paper surrounds the product on every side."
+  ],
+  "fix": "Reshoot. Replace the 'warm ivory handmade paper' with pale blush handmade paper or blush linen, and write 'pale ivory-pink, never cream, beige, sand or tan'. Drop the curtain and the dark wall, or make the background soft blush plaster. Make the props read as envelopes: blank, about 6x9 cm, with visible pointed flaps. Wrap the bracelet once around the bundle's short side like a ribbon, toggle closed on top and heart over the front edge. Keep the current bead and heart scale and the dried rosebud."
+ }
+]

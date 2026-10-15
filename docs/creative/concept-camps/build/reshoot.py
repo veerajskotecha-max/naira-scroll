@@ -50,6 +50,68 @@ fix("W10", [
    "The pair of earrings sits in the half-open drawer of a small plain blush-pink jewellery box about 8cm square, completely plain with no lettering, no logo, no print and no foil, lined with blush silk; the drawer is fully three hoops wide, each hoop only about a third of the drawer's width; outside the box, on the silk beside it, lie a small wooden spool of blush silk thread about 3cm long, a little longer than a hoop, and one dried pink rosebud. Far behind, softly out of focus, glows one small warm diya flame for Diwali."),
   ("the upper left is calm, empty, softly glowing blush, for a headline.", "the upper left is calm, empty, softly glowing blush, never ivory, for a headline.")])
 
+# ---- round 3 (toggle) -----------------------------------------------------------------------------------------------
+CLASP_OLD = ("and a short slim straight gold bar about 9mm long with flat ends, set along its whole length with a single row of tiny clear pave stones, "
+             "the bar joined to the other end of the chain by a small jump ring and threaded through the ring; warm 18k gold tone.")
+CLASP_NEW = ("and a short slim straight gold bar about 9mm long with flat ends, set with ONE single row of about nine tiny clear stones. The two "
+             "chain ends stay separate: one end joins the ring by a small smooth round jump ring around the ring's tube right beside the gate; the "
+             "other end ends in a small smooth round jump ring through the end of the bar. The bar is short, about 0.6 of the ring's outer width, "
+             "and when the clasp is closed it lies diagonally across the front of the ring's upper left with its free end over the opening, never "
+             "hanging below the ring and never in line with the chain. No textured, granulated or lumpy connectors anywhere; warm 18k gold tone. "
+             "The necklace is 50cm long, about 45 paperclip links in all.")
+def tfix(fid, pairs, extra=""):
+    fix(fid, [(CLASP_OLD, CLASP_NEW)] + pairs, extra)
+SW_OLD = "falls in a long soft loop about 22cm deep, both strands hanging straight under their own small weight,"
+SW_NEW = "falls in one long soft loop about 24cm deep, four switch-widths below the lever, about 22 links down each side, both strands hanging straight under their own small weight,"
+tfix("T01", [(SW_OLD, SW_NEW),
+  ("with only the faint long shadow of a dried palm frond, for a headline.", "with only the faint long shadow of a dried palm frond, the frond itself out of frame, for a headline.")])
+tfix("T02", [(SW_OLD, SW_NEW),
+  ("with only the faint long shadow of a dried palm frond, for a headline,", "with only the faint long shadow of a dried palm frond, the frond itself out of frame, for a headline,")],
+  "The ring is about a quarter of the switch's width.")
+tfix("T04", [
+  ("with a few small round dark iron studs, each about 2cm across.", "with a few round dark iron studs, each stud head about 2cm across."),
+  ("and falls in a soft loop about 20cm deep, and the closed toggle clasp hangs at the bottom of the loop at the front, the 15mm ring about the same size as one of the door's iron stud heads;",
+   "and falls in one soft loop about 24cm deep, about twelve stud-widths below the staple, with about 22 links down each side, and the closed toggle clasp hangs at the bottom of the loop at the front; the 15mm ring is clearly smaller than a stud head, about three-quarters of its width, and each paperclip link is about half a stud long;"),
+  ("Only about 40cm of the door's height is in frame, so the necklace reads clearly.", "About 55cm of the door's height is in frame, so the whole loop sits in the middle of the frame.")])
+tfix("T05", [
+  ("the chain sits around the vase's neck and its long loop drapes down over the shoulders and rests against the round belly of the vase, and the closed toggle clasp sits at the front centre, like a clasp turned to the front on a collarbone.",
+   "one single strand goes once around the vase's neck; both sides fall over the shoulders and meet in ONE long loop resting on the belly, the closed toggle at the front centre like a clasp turned to the front on a collarbone; only one strand of chain anywhere in the frame, never doubled, never wrapped twice, never layered.")])
+
+# ---- round 4 (heart) ------------------------------------------------------------------------------------------------
+HEART_OLD = "the puffed heart is about 15mm, the size of a fingernail, clearly bigger than two beads side by side, about two and a half beads wide;"
+HEART_NEW = "the puffed heart is about twice a bead's width, about one fingernail wide;"
+WRIST_OLD = "CRITICAL SCALE: each bead is about half the width of a fingernail and the gold heart about one fingernail wide; the bracelet is a slim strand on the wrist, never chunky."
+WRIST_NEW = ("CRITICAL SCALE: a fine, delicate strand: each bead about half the width of her fingernail and about one tenth of the width of "
+             "her wrist; the gold heart about one fingernail wide, about twice a bead's width and about one fifth of the wrist's width; about "
+             "ten beads plus the clasp show across the front of the wrist; an average adult wrist with naturally proportioned fingers; never "
+             "chunky, never bold.")
+fix("H05", [(WRIST_OLD, WRIST_NEW), ("palm facing the camera, four fingers together", "palm turned toward the camera, four fingers together")])
+fix("H10", [
+  ("A small bundle of four plain blush gift-card envelopes with soft deckled edges, each about 6cm by 9cm, completely blank with no writing, no stamps and no printing, is held together by the bracelet wrapped once around its short side like a ribbon, the gold toggle closed on top and the puffed gold heart hanging over the front edge; one dried pink rosebud lies beside it.",
+   "A small bundle of four plain blush gift envelopes, each about 6cm by 9cm with a visible pointed flap and soft deckled edges, completely blank with no writing, no stamps and no printing, is tied with the bracelet wrapped once around the bundle's short side like a ribbon, passing under the bundle and back over the top, the gold toggle closed on top and the puffed gold heart hanging over the front edge; one dried pink rosebud lies beside it."),
+  ("the bundle lies at a slight angle in the lower right on warm ivory handmade paper with visible fibres; the upper left is calm and empty, for a headline.",
+   "the bundle lies at a slight angle in the lower right on pale blush handmade paper with visible fibres, pale ivory-pink, never cream, beige, sand or tan, in front of a soft blush plaster wall; the upper left is calm and empty, for a headline."),
+  (HEART_OLD, HEART_NEW)])
+
+# ---- round 5 (woven worn frames: new framings that keep the face out by construction) ------------------------------------
+W6_OLD = idx["W06"].split(" Preserve the earrings from reference 1 exactly")[0]
+W6_NEW = ("Editorial on-model advertising photograph, 4:5 frame, photographed from directly behind her, perfectly centred on the back of her head: "
+          "sleek dark hair parted in the middle and woven into one long, thick, glossy braid that falls straight down the centre of her back, "
+          "finished with a blush silk paranda tassel; both ears show symmetrically at the left and right edges of her head, seen from behind, "
+          "and each earlobe wears one of the pair of hoops; because the camera is straight behind her, her face is completely hidden by her own "
+          "head: no cheek, cheekbone, jaw, eyelash, eyebrow, nose or lips anywhere in the frame, only hair, the backs of the ears, the nape, the "
+          "neck, the shoulders and soft blush wall on both sides; a young Indian woman with fair light skin with warm golden undertones, natural "
+          "unretouched texture with visible pores and fine downy hair at the nape; she wears a plain warm ivory cotton kurta.")
+fix("W06", [(W6_OLD, W6_NEW), ("Shallow depth of field, the earring in crisp focus.", "Shallow depth of field, both hoops in crisp focus.")])
+W9_OLD = idx["W09"].split(" Preserve the earrings from reference 1 exactly")[0]
+W9_NEW = ("Editorial on-model advertising photograph, 4:5 frame, a close crop of her right ear seen from slightly behind: her long loose dark "
+          "hair is tucked behind this ear above it, and a soft curtain of the same loose hair falls forward in front of the ear, completely "
+          "covering her cheek, jaw and the whole of her face, so only hair is visible on the face side; in frame are the ear, the earlobe "
+          "wearing one hoop, the hairline, a little of the neck, and a bare shoulder above the plain wide neckline of an ivory cotton top; no "
+          "cheek, cheekbone, jaw, eyelash, eyebrow, nose or lips anywhere, not even at the edge; a young Indian woman with light wheatish skin "
+          "with warm honey undertones, natural unretouched texture with visible pores and fine downy hair.")
+fix("W09", [(W9_OLD, W9_NEW)])
+
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "over_r1.json"
     json.dump(R, open(out, "w"), indent=1, ensure_ascii=False); print(out, sorted(R))

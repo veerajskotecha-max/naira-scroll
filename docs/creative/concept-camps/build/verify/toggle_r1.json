@@ -1,0 +1,98 @@
+[
+ {
+  "plate": "T01_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Bar too long for the ring (rule 1, clasp changed). Straightened along its axis, the pavé bar measures ~110 px from its upper end (x≈1180-1193, y≈1851-1860) to its lower end over the ring opening (≈1247,1943). The ring's outer diameter is 126 x 128 px (x 1182-1307, y 1882-2010). The bar is 0.87x the ring, against 0.6x in the brief and 0.57x measured on ref-clasp.jpg (bar ~237 px, ring ~413 px). That is ~45% too long (≈13 mm on a 15 mm ring instead of 9 mm), and at phone size the bar spans nearly the whole ring.",
+   "Bar not joined to the chain, and the connector is garbled (rules 1 and 5). The bar's upper end is bare: no jump ring, and nothing visibly holds it across the front of the hanging ring. The only connection between chain and clasp is one jump ring at x≈1220-1252, y≈1822-1858. Under it sits a lumpy, granulated, melted-looking connector (x≈1222-1252, y≈1856-1907) fused onto the ring's upper left by the gate. The two strands come down from the lever, then converge and overlap into a single column of links for the last ~5 cm (x≈1205-1250, y≈1620-1830). Only that one connector reaches the clasp, so the necklace does not visibly close through the toggle. In the listing the ring hangs from a smooth jump ring beside the gate, and the bar hangs from its own small jump ring on the other chain end."
+  ],
+  "notes": [
+   "Scale against the switch is fine. The porcelain dome is 508 x 510 px (x≈1060-1568, y≈380-890); at 6 cm that gives 8.47 px/mm. The ring at 126-128 px is 15.0 mm (0% vs 15 mm), and the dome is exactly 4.0 rings wide, as briefed. Face-on links measure 29-31 x 75-76 px (x≈1182-1213, y≈1088-1163), which is 3.5 x 8.9 mm: -11% width and -19% length against 4 x 11 mm.",
+   "Chain length is borderline and not counted as a fail. Each strand has ~19 links at ~68 px pitch from the lever (y≈545) to the clasp (y≈1830). That is ~39 links, about 34 cm in all, against 50 cm (~54 links). The loop hangs 17 cm (1465 px), where a 50 cm chain hooked at its middle would drop ~24 cm. That is about 30% short.",
+   "Bar stones: straightened, the bar shows a double row of micro-pavé, 2 stones abreast and ~17 deep. The listing has a single row of ~9 (ref-clasp.jpg). The row count cannot be resolved at phone size.",
+   "The ring is built correctly: a thick polished tube, a slimmer gate wire across the top running into a flat-cut collar at ~1 o'clock, and a ball push-pin nub at ~2 o'clock above a grooved collar at ~3 o'clock. The gold is warm 18k (median hue 29°; the listing photos measure 25-33°).",
+   "No text or logos. The two switch screws (x≈1220-1265, y≈465-505 and y≈720-765) are plain slotted heads. The wall is blush plaster (hue 24-26°). The ring's soft round shadow on the wall (x≈1450-1550, y≈1930-2050) and a faint vertical chain shadow match the light.",
+   "Composition: an actual dried palm frond and a white muslin curtain fill the left third. The brief asked only for the frond's shadow, so the headline space is busier than briefed. The clasp is small in frame (ring ≈7% of frame width).",
+   "Ad read (not scored, because it fails): 'Toggle on.' lands in a second, and the sunbeam stripe, plaster and porcelain are lovely. The product is a thin vertical strip with a small clasp. With the product fixed this would be about 7.5/10."
+  ],
+  "fix": "Re-shoot, or inpaint the clasp, using listing photo 0 / ref-clasp.jpg as the clasp reference. Add: 'the two chain ends stay separate all the way down: one ends in a small smooth round jump ring around the ring's tube just right of the gate, the other in a small smooth round jump ring through the END of the bar. The bar is short, 0.6 of the ring's width (9 mm on the 15 mm ring), straight, flat-ended, set with ONE single row of about nine tiny clear stones, and lies diagonally across the ring's upper left with its free end over the opening. No textured, granulated or lumpy connectors anywhere.' Make the drop read as 50 cm: a chain hooked at its middle hangs ~24 cm, four switch-widths, about 27 links per side. Show only the palm frond's shadow, not the frond, to clear the headline space."
+ },
+ {
+  "plate": "T02_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Bar wrong in size and shape (rule 1). The pavé piece hangs nearly vertically under the ring from y≈1688 to y≈1782 (x≈742-765), ~94 px long. The ring is 96 x 104 px (x 712-808, y 1621-1725), so the bar is 0.9-0.95x the ring against 0.6x, ~50% too long. It is ~20 px wide (0.2x the ring; the listing bar is ≈0.09x) and carries 2-3 irregular rows of stones. Its outline is lumpy and banana-curved with rounded ends, not a crisp straight bar with flat ends; melted detail.",
+   "Part added under the bar (rule 1). A granulated gold hook or claw sits beside and under the bar's lower half (x≈760-782, y≈1722-1770), between the bar and the jump ring at y≈1770-1800. The brief says nothing under the bar, no hook, no clip. A lumpy granulated mass also fuses the bar's top to the ring's lower inner edge (x≈755-770, y≈1690-1720).",
+   "Closure drawn as a drop (rules 1 and 5). The bar dangles lengthwise below the ring, in line with the chain, so at phone size the clasp reads as a pavé drop hanging from the ring: the pendant look the brief rules out. Pulled lengthwise like this, a real bar would slide out of the ring instead of locking across it.",
+   "Necklace drawn small and short (rule 4). The switch dome is 578 px tall (y≈812-1390); its 485 px width is foreshortened by the side view. At 6 cm that gives 9.6 px/mm. The ring comes to ≈10.8 mm (-28%). Face-on links measure 28-33 x 70-75 px (x≈651-679 and 743-776, y≈1467-1543), which is 2.9-3.4 x 7.3-7.8 mm: -15 to -27% width and -29 to -34% length. The whole loop has only ~39 links (the real chain ~54), so the necklace reads about 28-34 cm. The loop hangs 13.5 cm (lever y≈1010 to bottom y≈2312), where a 50 cm chain would drop ~24 cm."
+  ],
+  "notes": [
+   "The ring itself is a spring ring. A jump ring at ~12 o'clock beside a collar takes the upper chain. A slimmer section runs to ~2 o'clock, with a ball nub at ~2 o'clock and a flat-cut step at ~3 o'clock (x≈785-818, y≈1640-1680). The nub sits at the gate's end rather than a quarter-turn away on a grooved collar; minor.",
+   "One continuous chain over the lever, and the two strands join at the bottom (y≈2250-2312). The clasp sits ~60% of the way down the right strand, not at the bottom of the loop as briefed (composition).",
+   "Bar stones: 2-3 rows of micro-pavé, not the listing's single row of ~9.",
+   "No text, no screws, no logos. Blush wall (hue 22-24°). The chain's cast shadow on the wall to the right matches the light. Gold is correct (hue 28°).",
+   "Ad read (not scored, because it fails): the same pun as T01, and the chain's cast shadow is a nice touch. But a real palm frond fills the top-right of the headline third, the curtain takes the left edge, and the clasp is small and mid-strand. With the product fixed this would be about 7/10."
+  ],
+  "fix": "Use the T01 clasp wording (separate chain ends, smooth round jump rings, a short straight flat-ended bar 0.6x the ring with ONE row of about nine stones) and add: 'the closed toggle hangs at the very bottom of the loop with the bar lying ACROSS the ring's upper left, never dangling below the ring in line with the chain; nothing under the bar, no hook, claw or clip.' Scale: 'the ring is one quarter of the switch's width; links 4 x 11 mm, about 27 per side, so the loop drops ~24 cm, four switch-widths, below the lever.' Keep the top third clear: the palm frond's shadow only, no frond in frame."
+ },
+ {
+  "plate": "T03_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "The ring-side chain is joined wrongly: construction changed and a part missing (rule 1). The trailing chain's paperclip link hooks straight around the ring's tube at ~6:30 o'clock (x≈1000-1035, y≈1435-1475), opposite the gate, with no jump ring. In listing photo 0 and ref-clasp.jpg (the velvet and cube photos agree), the chain joins the ring by a small jump ring beside the gate, in the upper-right quadrant. Here the gate is at ~12:30-2 o'clock, so the attachment sits ~150° away from it, which the real clasp cannot do. At phone size the clasp reads as chain, then bar, then ring with the chain leaving its bottom: a ring dangling under the bar rather than the listing's bar-across-ring closure."
+  ],
+  "notes": [
+   "The rest of the clasp is right. The ring is 189 x 190 px (x 943-1132, y 1298-1488): a flat-cut collared end at ~12:30 (x≈1080-1095, y≈1305-1335), a slimmer gate wire, a collared end at ~2 o'clock, a ball push-pin nub at ~3 (x≈1130-1160, y≈1392-1418) and a grooved collar at ~4 (x≈1100-1135, y≈1415-1440). That is the listing layout rotated ~45°. The bar hangs from a small jump ring at its upper end (x≈1020-1055, y≈1218-1250), is 118 px long (0.62x the ring; spec 0.6x) with flat ends, and has nothing under it.",
+   "Bar stones: a double row of micro-pavé, 2 abreast and ~16-18 deep, on a bar 25 px wide (0.13x the ring). The listing has a single row of ~9. Not resolvable at phone size, but fix it in any reshoot.",
+   "Scale against the lattu is fine. The top is ~690-700 px across its widest axis; at 5 cm that gives ≈13.9 px/mm. The ring comes to 13.5 mm (-10%); the top is 3.7 rings wide against the briefed 3.5. A link beside the clasp measures 43 x 113 px (x≈1019-1062, y≈1113-1228), which is 3.1 x 8.2 mm (-22% / -25%). Links in the foreground look larger only through perspective.",
+   "One continuous chain, with good contact shadows on the table. Both trailing ends leave the right edge (y≈1830 and y≈2020) and close out of frame. About 51 links are visible, consistent with 50 cm. One edge-on link at x≈1585-1640, y≈1535-1600 is soft and slightly smeared in the out-of-focus zone; not visible at phone size.",
+   "Styling: the chain is a loose tangle around the stem and shoulder (x≈1050-1350, y≈900-1250), not two neat turns in the waist groove as briefed. That is prop arrangement, not a fail. A 6-point star glint on the top link (≈1165,930) reads as a filter effect; retouch it out.",
+   "Palette: the shaded back wall in the upper half goes a deep mocha-taupe (RGB ≈110-123 / 74-90 / 56-70). It has the same hue as the blush table, just in shadow, and is not grey, white or sand, but it is darker and browner than the brand's blush. Gold is correct (hue 29°). No text.",
+   "Ad read (not scored, because it fails): the strongest photograph of the five. The lacquer, contact shadows and sunlight are excellent, and the clasp is large, bright and the clearest thing in frame. 'Closes with a turn' ties to the lattu, though at a glance the top reads a little like a bottle. With the attachment fixed and the glint removed this would be about 8/10."
+  ],
+  "fix": "Cheapest route is a retouch of this plate. Remove the paperclip link hooked around the ring at ~6:30. Re-route the trailing chain so it ends in a small smooth round jump ring around the ring's tube just beside the gate, between the collared end at ~2 o'clock and the push-pin nub at ~3. Paint out the star glint at ≈(1165,930). If re-shooting, add: 'the chain end joins the ring by a small round jump ring right beside the gate, never at the bottom of the ring; the bar has ONE single row of about nine tiny stones; the back wall is softly lit warm blush, not deep shade.'"
+ },
+ {
+  "plate": "T04_a1.png",
+  "pass": false,
+  "severity": "critical",
+  "score": null,
+  "reasons": [
+   "Scale far too large (rule 4). The iron stud heads measure 115-120 px (middle stud x≈718-835, y≈1700-1820; left stud x≈100-222, y≈1030-1150); at 2 cm that gives ≈5.9 px/mm. The ring is 148 x 157 px (x 712-860, y 2033-2190), ≈25-26 mm: +70% on 15 mm, and 1.3 stud heads wide. Links measure 37-40 x 110-125 px (for example x≈620-660, y≈1320-1440; the top link over the staple is ~125 px), which is ≈6.3-6.8 x 19-21 mm: +60-70% width and +75-90% length. Even taking the whole stud with its rim (~140 px) as 2 cm, or the briefed ~40 cm of door in frame (6.9 px/mm), the ring is ≈22 mm (+47%) and the links ≈16-18 mm long (+50-64%). It reads as a chunky statement chain, not a fine 4 mm everyday chain.",
+   "Necklace far too short for its own parts (rule 1). The whole closed loop has only ~21 links: 3 over the staple and ~9 down each side (x≈600-920, y≈975-2010). The real 50 cm chain has ~54. Measured in its own ring diameters the necklace is ~16 rings long, against ≈33 for the real piece, so it reads as a short, bracelet-length loop of heavy links."
+  ],
+  "notes": [
+   "The clasp build is the closest to the listing of the five. The ring has a slimmer gate at the top and a jump ring at ~1 o'clock beside it taking the right-hand chain (x≈800-840, y≈2010-2080). A ball push-pin nub sits at ~2:30 (x≈860-890, y≈2080-2095) above a grooved collar at ~3. The bar hangs from its own jump ring (x≈705-745, y≈1975-2015) and lies across the ring's upper left. It is 109 px long (0.71x the ring, +19%, acceptable) with nothing under it.",
+   "Bar stones: a double row of micro-pavé, 2 abreast and ~15 deep, not the listing's single row of ~9. Not resolvable at phone size.",
+   "One continuous closed loop, and each strand ends at its own clasp part. The chain drapes over the iron staple and rests on its top-back edge (y≈975-1070), so nothing floats. Chain and stud shadows agree (light from the right).",
+   "Dusty-rose cracked paint over wood (door hue 8-18°, on palette). No text, numerals, padlock or knocker. Gold is correct (hue 28°).",
+   "The prompt contradicts itself: 'studs each about 2cm' but 'the 15mm ring about the same size as one of the door's iron stud heads'. The ring here came out larger than a stud.",
+   "Ad read (not scored, because it fails): the texture, raking light and heritage door are beautiful and thumb-stopping, with a calm top third for the headline. At true scale this would be about 8/10."
+  ],
+  "fix": "Keep the door, staple, light and layout, and re-shoot the necklace at true scale. Remove the prompt contradiction: 'each iron stud head is 2 cm across; the 15 mm ring is clearly SMALLER than a stud head, about three-quarters of its width; each paperclip link is about half a stud long'. Show the full 50 cm chain: 'hooked over the staple, each side ~24 cm of about 27 links, so the clasp hangs about twelve stud-widths below the staple.' Widen the crop to ~55 cm of door height so the loop sits in the middle with a calm top third and bottom sixth. Ask for the bar's single row of about nine stones."
+ },
+ {
+  "plate": "T05_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Reads as two necklaces (rule 2). The chain forms two separate loops on the vase. An inner short loop carries the toggle (clasp at x≈960-1110, y≈1380-1555, ~7 cm below the neck). An outer, longer loop has no clasp and drops ~10.5 cm to the belly (lowest links x≈980-1110, y≈1800-1840). The two meet only where they pass behind the neck (x≈880-965, y≈985-1100 on the left; x≈1195-1300, y≈960-1090 on the right). There the strands overlap into one column, and nothing in frame shows they are one chain. At a glance this is a layered look: a toggle choker plus a second plain paperclip chain. The product is a single 50 cm strand."
+  ],
+  "notes": [
+   "The link count supports one chain doubled. About 14 links show in the inner loop's front, ~26 in the outer loop's front, and ~12 are hidden behind the ~3.7 cm wrap. That is ~52 links at ~9.9 mm pitch, about 51 cm. As two separate necklaces they would be ~22 cm and ~32 cm, neither of them the product. So 'one chain wrapped twice' is the only length-consistent reading. But a 50 cm chain cannot be doubled on a human neck, so even that reading misleads under 'Made for every neck'. The brief asked for one loop.",
+   "The clasp is excellent and matches the listing closely. The ring is 118 x 128 px (x 975-1093, y 1425-1553). It has a flat-cut collared end at ~12 o'clock and a slimmer gate wire to a jump ring beside the gate at ~1 o'clock taking the right chain (x≈1050-1085, y≈1415-1470). A ball push-pin nub sits at ~3 o'clock on a grooved collar (x≈1065-1110, y≈1480-1505). The bar hangs from its own jump ring (x≈960-990, y≈1380-1420) and lies across the ring's upper left. It is 67 px long (0.54x the ring, -10%), flat-ended, with nothing under it.",
+   "Bar stones: a double row of micro-pavé, 2 abreast and ~13 deep, not the listing's single row of ~9. Not resolvable at phone size.",
+   "Scale is fine. The tulip head is ~395 px tall (y≈350-745); at 5 cm that gives 7.9 px/mm. The vase neck is ~220 px (x≈975-1195), 2.8 cm at that scale, so the two referents agree. The ring comes to ≈15.2-16.2 mm (+1 to +8%), or 16.4-17.5 mm (+9 to +17%) on the neck alone. Face-on links measure 36 x 86-90 px (x≈804-840, y≈1278-1364), which is 4.6 x 10.9-11.4 mm (+14% / -1 to +4%).",
+   "Believable drape and contact shadows on the glaze, with nothing floating. Blush wall and plinth (hue ~20-24°), white muslin at the left edge, gold correct (hue 29°), no text. The vase reads as a squat bottle rather than a slender bud vase (prop, not a fail).",
+   "Ad read (not scored, because it fails): calm, elegant and on palette. The peach tulip and ivory glaze carry the blush story, the clasp is the brightest and clearest thing in frame, and 'Made for every neck' reads at once. As a single loop this would be about 8.5/10, the strongest concept of the five."
+  ],
+  "fix": "Keep the vase, tulip, ledge, light and framing. Re-shoot with the chain once around the neck: 'one single strand goes once around the vase's neck; both sides fall over the shoulders and meet in ONE long loop resting on the belly, the closed toggle at the front centre; only one strand of chain anywhere in frame, never doubled, never wrapped twice, never layered.' Keep this clasp build exactly and add the bar's ONE single row of about nine tiny stones. Do not just paint out the outer loop: the inner loop alone would show a ~22 cm necklace."
+ }
+]
