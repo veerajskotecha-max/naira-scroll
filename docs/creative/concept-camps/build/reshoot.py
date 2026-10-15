@@ -28,6 +28,28 @@ fix("W05", [
   ("Low warm sun from the left;", "Soft daylight from the left, not golden;")],
   "Behind the earrings the warp and wall stay blush and slightly deeper than the gold, so the hoops are the brightest, most saturated thing in the frame.")
 
+# ---- round 2 (woven) ------------------------------------------------------------------------------------------------
+BEHIND = ("the camera is directly behind her, the head turned about 150 degrees away from the camera, so her whole face, profile, "
+          "brow, eyelashes, cheekbone, cheek and jaw are hidden behind her own head and neck; we see only the back of her head, her hair, "
+          "the back of her right ear, her nape and neck; beyond the hoop on the right there is only hair, neck and soft blush wall, with "
+          "clear air between the hoop and the edge of the frame")
+fix("W06", [
+  ("photographed from behind: the back of the head and one long, thick, glossy dark braid falling down the back, finished at its end with a blush silk paranda tassel, the head turned well away from the camera; the ear sits in the upper right third and the right edge of the frame falls just in front of the ear at the jaw hinge, so no cheek, cheekbone, temple, eyebrow, eyelash, eye, nose, lips or mouth appears anywhere, not even at the edge;",
+   "photographed from behind: the back of the head and one long, thick, glossy dark braid falling down the back, finished at its end with a blush silk paranda tassel; " + BEHIND + "; the ear and hoop sit in the right-centre third of the frame, so no cheek, cheekbone, temple, eyebrow, eyelash, eye, nose, lips, jaw or mouth appears anywhere, not even at the edge;"),
+  ("Shallow depth of field, the earring in crisp focus.", "The hoop hangs turned slightly to three-quarters so the flat disc under the latch reads as a round, bright, mirror-polished gold disc. Shallow depth of field, the earring in crisp focus.")])
+fix("W09", [
+  ("photographed from behind the shoulder: the back of the head, the nape and dark hair gathered in a neat low bun fill most of the frame, the head turned well away from the camera; the ear sits in the right third of the frame and the right edge of the frame falls just in front of the ear at the jaw hinge, so no cheek, cheekbone, temple, eyebrow, eyelash, eye, nose, lips or mouth appears anywhere, not even at the edge;",
+   "photographed from behind: the back of the head, the nape and dark hair gathered in a neat low bun fill most of the frame; " + BEHIND + "; the ear and hoop sit in the right-centre third of the frame, the hoop hanging over the neck, so no cheek, cheekbone, temple, eyebrow, eyelash, eye, nose, lips, jaw or mouth appears anywhere, not even at the edge;")])
+fix("W07", [
+  ("The pair of earrings rests on loosely twisted skeins of silk embroidery floss in blush, peach and warm ivory,",
+   "The pair of earrings rests on loosely twisted skeins of silk embroidery floss in blush, dusty rose and pale ivory pastels, never apricot or terracotta, on blush silk,"),
+  ("SCENE: the earrings fill the lower two thirds; calm soft blush floss falls out of focus above.",
+   "The front hoop is turned about 35 degrees so the flat round disc under its latch faces the camera and catches the hard kicker, reading as bright mirror-polished pale gold, exactly like the braid's highlights. SCENE: the earrings fill the lower two thirds; the top quarter is calm, soft blush blur for a headline; no oatmeal or grey anywhere.")])
+fix("W10", [
+  ("The pair of earrings sits in the half-open drawer of a small plain blush-pink jewellery box about 8cm square, completely plain with no lettering, no logo, no print and no foil, lined with blush silk; beside the box lie a small wooden spool of blush silk thread and one dried pink rosebud, on pooled blush silk. The box is about three earrings wide.",
+   "The pair of earrings sits in the half-open drawer of a small plain blush-pink jewellery box about 8cm square, completely plain with no lettering, no logo, no print and no foil, lined with blush silk; the drawer is fully three hoops wide, each hoop only about a third of the drawer's width; outside the box, on the silk beside it, lie a small wooden spool of blush silk thread about 3cm long, a little longer than a hoop, and one dried pink rosebud. Far behind, softly out of focus, glows one small warm diya flame for Diwali."),
+  ("the upper left is calm, empty, softly glowing blush, for a headline.", "the upper left is calm, empty, softly glowing blush, never ivory, for a headline.")])
+
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "over_r1.json"
     json.dump(R, open(out, "w"), indent=1, ensure_ascii=False); print(out, sorted(R))

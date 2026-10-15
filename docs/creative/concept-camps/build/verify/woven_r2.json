@@ -1,0 +1,107 @@
+[
+ {
+  "plate": "W06_a1.png",
+  "pass": false,
+  "severity": "critical",
+  "score": null,
+  "reasons": [
+   "FACE IN FRAME, right side: an eyebrow tail at x≈1495-1545, y≈130-205 and eyelashes at x≈1488-1555, y≈255-305, both legible at phone size. The cheek and cheekbone profile is silhouetted against the wall from x≈1520 (y≈300) down to x≈1413-1455 (y≈800-925). Any eyebrow or eyelash is an automatic fail.",
+   "JAWLINE IN FRAME: the lower border of the jaw is silhouetted against the wall along y≈925-945, from the neck edge (x≈1157) to the jaw angle (x≈1413-1445, y≈880-925), directly under the hoop."
+  ],
+  "notes": [
+   "The hoop itself is faithful. It is a thick interlaced braid of 2-3-wire bundles with raised ridges, crisp at 3x (x 1112-1320, y 563-786), not a tube, simple twist or chain. There are no stones. The gold is warm yellow (midtone Lab hue ≈70, C ≈41), matching the worn listing photos 3/4 (hue 67-69) and close to the studio shots (75).",
+   "Closure is correct. A hinge knuckle with a pin sits at the right end (x≈1245-1265, y≈563-590), the thin wire passes through the lobe, and a notched latch post sits at the left with the wire tip protruding (x≈1155-1180, y≈565-590). There is no bail, loop, T-bar or ball pin.",
+   "The disc shows only edge-on, as a flat lens-shaped plate hanging under the latch post (x≈1172-1185, y≈590-650, ≈60 px ≈ 8 mm at this scale). The real disc stands roughly perpendicular to the hoop plane: listing-0 shows both discs upright while the hoops lie flat. A hoop seen face-on therefore hides it. This is a camera-angle limit, not a misrepresentation, but the signature disc is not legible in this plate.",
+   "Scale is OK. The ear is 436 px tall (helix top y≈175 to lobe bottom y≈611). The hoop is 208 px across (x 1112-1320), with a braid ring of ≈200 px (y 586-786). That is 47.7% of the ear height, so ≈28.6 mm at a 60 mm ear: +14% against 25 mm (target ≈40%). It matches the real worn photos (listing-4 ≈41-49% of ear height, listing-3 ≈53%).",
+   "One earring, no other jewellery, no hands. All four corners are clean, with no text or watermark. The blush plaster wall, ivory kurta and blush paranda are on palette.",
+   "As a photograph it would rate about 8: calm, editorial, and the 'two braids' pun reads instantly. It is not scored because it fails."
+  ],
+  "crop": {
+   "line": "Face-free left of x=1155 (full height), which cuts the hoop at x 1112-1320. Otherwise face-free only inside x≤1340 AND y≤880.",
+   "window_4x5": {
+    "x0": 636,
+    "y0": 0,
+    "x1": 1340,
+    "y1": 880
+   },
+   "size": "704x880 px, 38% of the frame width; needs a 1.53x upscale to 1080x1350",
+   "earring_survives": true,
+   "calm_composition_survives": false,
+   "usable": false,
+   "note": "The hoop survives but is jammed ≈20 px from the right edge, with a strip of cheek skin in front of the ear (x 1262-1340, no contour). The paranda and most of the hair braid are lost, which kills the 'two braids' idea, and the upscale goes soft. Reshoot rather than crop."
+  },
+  "fix": "Reshoot with the camera more directly behind (head turned ≈150° away) so the whole profile, including brow, lashes, cheekbone and jaw angle, is hidden behind the head and neck. The right edge should show only hair, neck and wall, at least ≈150 px beyond the hoop. Keep the long glossy braid, blush paranda tassel, ivory kurta and blush plaster wall. Turn the hoop slightly to three-quarters so the flat disc under the latch reads as a round, bright, mirror-polished gold disc. Keep the hoop at ≈40-50% of the ear's height."
+ },
+ {
+  "plate": "W07_a1.png",
+  "pass": true,
+  "severity": "minor",
+  "score": 8.0,
+  "reasons": [],
+  "notes": [
+   "Braid fidelity is excellent. It is an open interlaced braid of many fine polished wires over a fine-wire inner core, matching listing-1/2, and crisp at 1:1 (front hoop x 325-1335, y 880-1665). It is not a tube, twist or chain. There are no stones. Both hoops are the same size and read round in perspective. The braid tube is ≈0.25 of the diameter (listing ≈0.26).",
+   "Closure is correct on the front hoop. A hinge knuckle with a pin hole and tab sits at x≈790-870, y≈740-1000. The thin wire leads to a notched latch post with the wire tip protruding (x≈370-560, y≈880-960). There is no bail, loop, T-bar or ball pin.",
+   "Disc, front hoop: edge-on as a smooth lens-shaped plate under the latch (x≈480-560, y≈950-1180, ≈250 px ≈ 6 mm), as expected for a disc perpendicular to the hoop plane.",
+   "Disc, back hoop: the only face-on disc (x≈1050-1275, y≈640-900; 0.27 of that hoop's diameter vs ≈0.29 on the real piece). It is opaque and flat, with a bright metallic rim and a specular at (1280,725), so it is not translucent, enamel or domed. But it is out of focus and in shade, and its face reads dull caramel: core RGB ≈182,102,38 (Lab L51 C55 h60), against braid highlights at L72 h74 and the listing disc at ≈248,216,160. Its hue is the same as the braid's own shadowed wires, so this is environment tint rather than a different material. At phone size, though, it reads like a tan button, not the listing's bright mirror disc.",
+   "Scale is consistent. At 25 mm the front hoop gives ≈40 px/mm. Visible floss plies are 8-25 px (≈0.2-0.6 mm), stray filaments 2-3 px (≈0.05-0.08 mm), and the twisted ivory skein ≈640 px thick (≈16 mm). All are realistic for silk embroidery floss, so there is no sign of deviation from 25 mm.",
+   "Gold midtone is Lab hue ≈70, C ≈50 (listing studio 75/46, worn 67/40). That is slightly richer and warmer than the studio shots but still yellow gold, not orange.",
+   "Grounded: the front hoop nests into the ivory skein with a dark contact shadow (y≈1640-1680), and the floss compresses under it.",
+   "The palette drifts warm. The floss reads apricot/terracotta and dusty rose (peach skein ≈186,107,63, Lab C47) more than blush pastel. About 25% of the frame is oatmeal linen (bottom strip, ≈216,194,172, L80 C14 h72) or greige blur (top right, L67 C19). The subject sits on floss, so this is not a beige-backdrop fail, but it is off the blush palette.",
+   "All four corners are clean, with no text or watermark. No needles, hands or other jewellery.",
+   "Score 8.0. The macro is tactile and thumb-stopping, the texture-on-texture idea reads in a second, the light is warm and soft with crisp speculars, and the product is the brightest and sharpest thing. It is held back by a busy frame with little calm copy space, the apricot/oatmeal grade, and the one visible disc reading dull caramel."
+  ],
+  "fix": "Keep the set and the macro optics. (1) Rotate the front hoop ≈30-40° so its disc under the latch faces the camera and catches the hard kicker: bright, mirror-polished pale gold matching the braid highlights. Otherwise light the back hoop's disc so it is not in shade. (2) Move the floss toward blush, dusty rose and ivory pastels, away from apricot and terracotta. (3) Replace the oatmeal linen and the greige top-right blur with blush silk or out-of-focus blush floss. (4) Leave the top ≈25% as calm, soft blush blur for the headline."
+ },
+ {
+  "plate": "W09_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "JAWLINE IN FRAME: the lower border of the jaw is silhouetted against the blush wall along y≈1750-1830, from the jaw angle (x≈1400-1465) to the right edge. Measured skin-to-wall boundary: (1440,1779), (1500,1753), (1700,1776), (1855,1752). It is legible at phone size, and the jawline is a listed fail.",
+   "A broad cheek fills x≈1450-1856, y≈600-1750 in front of the ear, with freckled skin running to the right edge. The prompt put the frame edge at the jaw hinge, just in front of the ear; the plate shows ≈400 px of face beyond it. There is no eye, lash, brow, nose or lips: the right edge was checked at 1-2.5x, and the top right is hair and wall only."
+  ],
+  "notes": [
+   "The braid is faithful: interlaced multi-wire bundles with raised ridges over the fine inner core, crisp at 3x (x 1272-1514, y 1235-1512). There are no stones.",
+   "Closure is correct. A notched latch post sits at the left with the wire tip protruding (x≈1300-1330, y≈1240-1262), the thin wire passes behind the lobe, and a hinge knuckle sits at the right (x≈1415-1440, y≈1240-1275). There is no bail, loop, T-bar or ball pin. The knuckle shows two dark pin holes, a minor rendering quirk invisible at phone size.",
+   "The disc is present and face-on, directly under the latch post (x≈1318-1360, y≈1270-1355; ≈85 px ≈ 0.35 of the hoop, against ≈0.30 on the real piece). It is flat, solid and opaque, with a bright polished rim (≈211,173,129); it is not domed and not translucent. The lobe shades its face brown-gold (≈153,92,44, Lab h61), so it is darker than the listing's mirror disc but still reads as a small flat gold disc at phone size.",
+   "Scale is OK. The ear is 530 px tall (helix top y≈773 to lobe bottom y≈1303). The hoop is 242 px wide (x 1272-1514) and 235 px tall (y 1277-1512), so 45.7% of the ear height: ≈27.4 mm at a 60 mm ear, +10% against 25 mm.",
+   "One earring, no other jewellery, no hands. All four corners are clean, with no text or watermark. The blush wall (≈218,195,184) and ivory shirt collar are on palette.",
+   "As a photograph it would rate about 7.5. It is calm, but the hoop is only ≈3% of the frame and the bun dominates. It is not scored because it fails."
+  ],
+  "crop": {
+   "line": "Face-free above y=1745 (full width), or left of x=1395 (full height; the neck edge), which cuts the hoop at x 1272-1514.",
+   "window_4x5": {
+    "x0": 134,
+    "y0": 0,
+    "x1": 1530,
+    "y1": 1745
+   },
+   "size": "1396x1745 px; downscales to 1080x1350 with no upscale",
+   "earring_survives": true,
+   "calm_composition_survives": false,
+   "usable": false,
+   "note": "This is a stopgap only. The bun, nape, ear and hoop survive, but the hoop sits 16 px from the right edge with a strip of pre-auricular cheek beside it (x 1450-1530, no contour), and the bun's far-left rim is clipped by ≈25 px. The shirt collar starts at y≈1800 and is lost, so the 'work shirt' idea and its copy no longer land."
+  },
+  "fix": "Reshoot from more directly behind (head turned ≈150° away) so the jaw angle and cheek are hidden behind the neck. The right edge should show only neck, hair and wall, and the hoop should hang over the neck with ≥100 px of air to its right. Keep the neat low bun, the crisp ivory work-shirt collar at the bottom and the blush wall. Bring the ear and hoop toward the right-centre third so the hoop is a bigger share of the frame. Keep the disc bright, polished gold and the hoop at ≈40-50% of the ear's height."
+ },
+ {
+  "plate": "W10_a1.png",
+  "pass": true,
+  "severity": "minor",
+  "score": 7.5,
+  "reasons": [],
+  "notes": [
+   "This is the most faithful product rendering of the round. Both hoops show the hinge knuckle with pin hole (left), the thin hinged wire, a notched latch post with the wire tip protruding (right), and a flat round disc hanging just under the latch. The left disc is bright mirror-polished pale gold (≈241,213,170, L87). The right disc is midtone polished gold with a bright edge, the same gold as the braid. The braid is open, interlaced and many-wired with the inner core, crisp at 1.2x. There are no stones. The two hoops match: the right is ≈400 px wide (x 907-1308) and ≈392 px tall, and the left is ≈408 px tall.",
+   "The hoops read large, at the edge of tolerance.",
+   "Against the spool, which is ≈409 px long along its axis (corrected for ≈0.91 foreshortening from the flange ellipse ratio ≈0.40, flange ≈178 px): the hoop is ≈1.0x the spool's length where it should be ≈0.83x. That gives ≈30 mm at a 3 cm spool, +21%.",
+   "Against the drawer: the front edge is 887 px projected, ≈1022 px true (orthographic solve, elevation ≈37°, yaw ≈39°; front corner heights 293 and 313 px). The hoop is 0.40 of the drawer width raw, or 0.42 allowing ≈6% perspective shrink at the hoops' depth, against the 0.31-0.33 that 25 mm needs. The box is ≈2.4-2.5 earrings wide instead of the prompted ≈3, which gives ≈30-34 mm for a 76-80 mm box (+20-36%).",
+   "The box and spool agree with each other: the spool computes at ≈3.2 cm against a 7.6 cm drawer. The central estimate is ≈31 mm, about +25%. That is not a clear breach of 'more than about 30%', but the hoops look chunky in the box.",
+   "The box is plain. There is no lettering, logo, foil or embossing on the sleeve top, the sleeve side or the drawer front (checked at 0.75x). The small blush satin pull-tab on the drawer front is functional, not text. The spool flanges are plain wood.",
+   "The spool sits inside the drawer, not beside the box as prompted; this is composition only. The rosebud lies on the silk with a shadow. The hoops stand on the blush lining, leaning back against the sleeve, with plausible support and shadows.",
+   "Blush silk, the blush box and the ivory sheer curtain are on palette. Warm window light comes from the left, with crisp gold speculars. The upper left is calm enough for copy, though more ivory than blush. All four corners are clean, with no text or watermark.",
+   "Score 7.5. The plate is clean, on palette and true to the product. But the gift-box styling is generic, Diwali is not legible without the copy, the thread pun is weak, and the oversized-looking hoops undercut 'petite'."
+  ],
+  "fix": "Keep the plain blush drawer box, spool, rosebud, pooled silk and light. Draw the hoops smaller relative to the props: the drawer should be ≈3 hoops wide (hoop ≈0.31 of the drawer width; now ≈0.42) and the hoop ≈0.8x the spool's length (now ≈1.0x). Lay the spool beside the box as prompted. Make the upper-left glow blush rather than ivory. Add one soft Diwali cue, for example an out-of-focus diya glow far behind, so the occasion reads without copy."
+ }
+]
