@@ -45,7 +45,7 @@ with a fold-over box clasp (rectangular, with a folding latch). It is a slim lin
 4. **Scale more than about 30% off**, judged against a stated referent or the body. Referents: fingernail ~10mm wide, fingertip
    ~15mm, adult ear ~60mm tall, wrist ~55mm across, cardamom pod ~15mm, tulip head ~50mm, kulhad ~7cm tall, embroidery hoop
    ~15cm, thread spool ~3cm tall, ECG bold square 5mm, music stave ~8mm tall, kaju katli ~4cm, colour pencil ~7mm thick,
-   mukhwas seed ~5mm, porcelain switch ~6cm, lattu ~5cm across, cane octagon hole ~1cm, charpai rope ~8mm.
+   mukhwas seed ~5mm, porcelain switch ~6cm, lattu ~5cm across, cane octagon hole ~1cm, charpai cord ~3mm (laid three to a band, ~9mm).
 5. **Physically impossible:** floating, no contact, impossible drape, a necklace or bracelet that does not connect end to end
    when it should be closed, or a closed clasp drawn open.
 6. **Text, letters, numbers, logos or watermarks** anywhere, including on boxes, pencils, paper or switches. Printed grid lines

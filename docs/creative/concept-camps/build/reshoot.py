@@ -189,6 +189,32 @@ fix("P10", [
   ("the bracelet is laid open and perfectly straight exactly along the stroke, as if it painted it.",
    "the bracelet is laid perfectly straight exactly along the stroke, as if it painted it, and runs off both side edges of the paper and the frame, so neither end shows; each stone in its halo is about the width of the brush's metal ferrule.")])
 
+# ---- round 8 (woven scale: draw the cords the model draws, and give the cane a real 1cm opening) ---------------------------
+def refix(fid, pairs, extra=""):
+    # like fix(), but starts from this frame's latest reshoot prompt instead of its original
+    p = R[fid]
+    for a, b in pairs:
+        assert a in p, (fid, a[:60]); p = p.replace(a, b)
+    R[fid] = (p + (" " + extra if extra else "")).strip()
+refix("W04", [
+  ("single soft blush hand-dyed cotton ropes, each one rope about 8mm thick, as thick as a pencil, never bundles of thin cords, hand-woven over and under in a diagonal lattice with small diamond gaps about 2cm across,",
+   "soft blush hand-dyed cotton cords, each cord about 3mm thick, laid three side by side in flat bands about 9mm wide, hand-woven over and under in a diagonal lattice with small diamond gaps about 2cm across,"),
+  ("each rope is visibly about one and a half times thicker than the braid of the hoop; each earring spans only about three rope widths, and its 13mm opening is narrower than two ropes side by side.",
+   "each cord is a little thinner than the braid of the hoop; each earring spans about eight cords, about three bands of the weave, and its 13mm opening is about one and a half bands wide."),
+  ("the upper left is calm, sunlit weave falling softly out of focus, for a headline.",
+   "the upper left is calm blush weave falling softly out of focus, rosy, never beige or tan, for a headline."),
+  ("Palette: warm ivory linen, blush and peach silk thread, pale honey wood;", "Palette: blush and dusty-rose cotton cord, soft peach, warm ivory light;")],
+  "The braid's end cap at the hinge stays matte and finely stippled, never a second polished disc; each hoop has exactly one polished flat disc, under the latch; each latch wire is a smooth gentle arc.")
+fix("W08", [
+  ("a close crop of the back of a honey-wood bentwood chair with Viennese cane webbing: hand-woven pale natural cane strands forming the classic open octagon pattern, each octagonal hole about 1cm across.",
+   "a close crop of the back of a bentwood chair painted soft blush, with Viennese cane webbing in pale bleached ivory cane: hand-woven cane strands about 2mm wide forming the classic open octagon pattern, each octagonal opening about 1cm across, only a little smaller than the hoop's 13mm centre hole."),
+  ("The pair of earrings is hooked through the cane webbing by their thin latch wires, one a little above the other, each earring about two and a half octagon holes wide: pattern on pattern.",
+   "The pair of earrings hangs from the cane webbing, each thin latch wire threaded behind one cane strand so the hoop visibly hangs from it, one a little above the other; each earring spans only about one and a half octagons of the pattern; the cane strands are visibly about three times wider than one wire of the hoop's braid; the blush bentwood frame bar at the edge of the frame is about as wide as a whole hoop: pattern on pattern."),
+  ("Low warm sun from behind the chair throws the octagon pattern as a sharp soft-edged shadow onto a blush plaster wall behind.",
+   "Low warm sun from behind the chair throws the octagon pattern as a soft-edged shadow onto a sunlit blush plaster wall behind, which stays light, never deep brown shade."),
+  ("SCENE: only about 30cm of the chair back is in frame;", "SCENE: only about 12cm of the chair back is in frame;"),
+  ("Palette: warm ivory linen, blush and peach silk thread, pale honey wood;", "Palette: blush, warm ivory, dusty rose, a breath of peach; bleached ivory cane, never honey, straw or tan;")])
+
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "over_r1.json"
     json.dump(R, open(out, "w"), indent=1, ensure_ascii=False); print(out, sorted(R))

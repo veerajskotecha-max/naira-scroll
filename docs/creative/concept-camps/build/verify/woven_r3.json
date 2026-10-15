@@ -1,0 +1,107 @@
+[
+ {
+  "plate": "W03_a2.png",
+  "pass": true,
+  "severity": "none",
+  "score": 8.6,
+  "reasons": [],
+  "notes": [
+   "Palette rule 7 now met. The linen reads blush: (216,184,173), hue 15-16 deg, sat 0.20-0.22, with a sunlit band at (242,225,214). The wall is dusty rose in shade: (110,73,62), hue 14 deg. Of the non-gold pixels, 67% classify as blush, 20% peach, 8% beige/tan and 5% ivory. The same classifier puts W03_a1 at 63% beige/tan.",
+   "The flat hoop is faithful at 3x and a near copy of listing-1's lying hoop. It has the open interlaced 2-3-wire braid over the fine inner mesh. One flat, round, polished disc stands face-on at the catch end (x 1237-1362, y 1381-1531). Next to it is the notched catch block (x 1363-1413), and one thin wire runs to the far end, where the knuckle sits and the wire tip protrudes (x ~1603, y 1460-1473). No stones.",
+   "The spool hoop has the same braid, with the hinge knuckle and pin at front right (x 1060-1107, y 1010-1080). The wire rises with a slight S and passes behind the rim of the top flange. Its blurred tip comes out on the right (x 1048-1077, y 933-955), so the latch reads as closed onto a catch hidden behind the flange. It is not drawn open. The catch end and its disc are behind the barrel, which is a camera-angle limit. At the hinge end, the oval end cap shows a stippled face and a polished rim (x ~980-1060, y ~1050-1230). This matches the real cap in listing-1/2 at 4x.",
+   "Scale. The spool's top-face ellipse is 441 x 111 px (a view of about 15 deg). Its raw extent is y 776-1547, so the corrected height is about 682 px, or 22.7 px/mm at 3 cm. The flat hoop's braid spans x 1071-1587 = 516 px = 22.7 mm, -9% against 25 mm. The spool hoop spans x 548-1060 = about 512 px = 22.6 mm, -10%. The pair is identical in size.",
+   "Physics, strictly: the drawn barrel (about 365 px, about 16 mm) is wider than the real hoop's 13 mm opening, and the flanges (about 441 px, about 19 mm) are wider still. The real hoop could not ring this spool, and the slim 10 mm bobbin the prompt asked for was not drawn. No viewer will read this, as the earlier verifier noted for a1. Contact shadows sit under the flat hoop, the spool and the thread.",
+   "The gold measures hue 30 deg, sat 0.69-0.70; the listing is 34-35 deg, 0.64-0.65. That is a touch warmer but still pale warm yellow gold. No text, letters or logos, and all four corners are clean.",
+   "AD 8.6. The hoop-on-a-spool pun ('Worked like thread.') reads in a second. The window light is soft with crisp speculars, the linen, wood and thread textures look real, and the top ~30% is a calm dusty-rose wall for the headline. Two things hold it back. The sunlit linen band behind the flat hoop (x 1150-1856, y 980-1250, median luminance 195) and the curtain strip at the left edge (189) are brighter than the gold (median 122-146), so the product is not the brightest thing. The pair also sits fairly central. Optional polish: bring the sunlit band and curtain glow down about a stop."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "W04_a2.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale (rule 4), again. The charpai is still woven from bands of three thin twisted cords, not the single 8 mm ropes the reshoot asked for. Profiles across rotated crops give cords of 55-68 px: the band at (560,1720) measures 55, 68 and 62 px, the vertical band above it about 57 px each, and the band at (1700,1950) about 55 px each. Allowing for the oblique view, they are at most ~85 px. Each cord is about half to two-thirds of the braid's thickness (100-110 px at row y=1700) instead of 1.5x it. Both hoops are about 500 px across (front x 1185-1685, back x 922-1420), so each spans about 6-9 rope widths instead of ~3. At 8 mm per rope, the hoops read as about 47-73 mm, +88% to +190% against 25 mm. Only counting a whole 3-cord band (about 185 px) as one rope brings it near size (about 22 mm, -14%), and the prompt ruled out bundles of thin cords."
+  ],
+  "notes": [
+   "The earlier suspicion of a second disc on the front hoop is withdrawn. The polished oval under its hinge knuckle (x 1399-1488, y 1457-1588; knuckle at x 1468-1518, y 1401-1461) is the braid's end cap: the braid tube runs into its left side. The real piece has this oval cap at about 0.9x the disc's size (listing-1/2 at 4x). Here, though, it is drawn smooth and polished instead of stippled and matte like the real cap and like the back hoop's own cap (x 1040-1121, y 1197-1351). At phone size it reads like a second polished disc beside the real one (x 1561-1641, y 1541-1699), so the reshoot should keep it matte.",
+   "The product is otherwise faithful on both hoops at 2.6x. Each has the open interlaced multi-wire braid over the inner mesh, a hinge knuckle with pin, one thin wire, and a notched catch with the tip protruding. Each has exactly one disc, under the catch (back hoop x 1234-1319, y 1216-1382). No stones; the pair match in size. The front wire is kinked into an S (x ~1500-1650, y ~1420-1550), where the real wire is a gentle arc.",
+   "The gold measures hue 28-30 deg, sat 0.69-0.70: warm, but still yellow gold.",
+   "The palette is mostly on brand. The rope is a dusty peach-rose (lit (224,181,156), shade (173,118,92), hue 19-22 deg), and 80% of the non-gold pixels are blush or peach. The upper-left headline area (x 0-800, y 0-700), though, is a beige blur: (220,187,154), hue 30 deg, sat 0.30. That area is 79% beige/tan, about 20% of the frame. This is a note, not dominant.",
+   "Physics is fine. The back hoop stands on edge in the lattice, and the front hoop leans on it and on the rope, with contact. Neither hangs by its latch wire as briefed. No text; corners clean.",
+   "AD view (not scored): still the strongest texture-on-texture idea in the camp, with good raking light and rope colour. Only the rope scale needs fixing."
+  ],
+  "fix": "Reshoot with the rope drawn fat: 'each pass of the weave is ONE single thick 8 mm blush cotton rope, as thick as a pencil and visibly thicker than the hoop's whole braid; never two or three thin cords laid side by side; each hoop covers only about three ropes, and its 13 mm centre hole is narrower than two ropes side by side; only about 12 cm of the weave is in frame'. Keep the raking sun, the dusty-rose rope and both hoops' braid, knuckle, thin wire, catch and single disc under the catch. Keep the braid's end cap at the hinge matte and stippled, never a second polished disc, and draw the latch wire as a smooth gentle arc. Let the upper-left headline area be out-of-focus blush rope or a blush wall, never beige."
+ },
+ {
+  "plate": "W05_a2.png",
+  "pass": true,
+  "severity": "none",
+  "score": 8.7,
+  "reasons": [],
+  "notes": [
+   "The upper hoop is faithful at 2.8x and a near copy of listing-2. It has the hinge knuckle with pin (x 637-698, y 1015-1111), one thin wire, and a notched catch with the tip protruding (x 810-879, y 1038-1080). One flat polished disc hangs under the catch (x ~770-890, y ~1100-1275) and mirrors the warp as vertical streaks. The braid is open, interlaced and multi-wire over the fine inner mesh, with the stippled end cap at the hinge as on the real piece. The lower hoop is softly out of focus, as briefed, and shows the same parts. No stones, no third earring.",
+   "Both are round hoops turned about 45 deg on the vertical axis, with the inner opening narrowing as in listing-2. The upper braid ring is 457 x 535 px (x 514-972, y ~1095-1630). The lower is 406 x 500 px (x 920-1326, y ~1612-2112), about 7% smaller because it sits further back.",
+   "Hanging. Each latch wire passes behind a small bundle of warp threads (upper x ~689-761, lower x ~1100-1142) and comes back out to its catch. So each hoop is threaded through the warp, as asked, which is plausible.",
+   "Scale (no listed referent). The warp pitch is 14-17 px, with 27-33 threads across the upper hoop's 457 px, and the threads are 8-12 px wide. The 535 px ring spans about 33 pitches against the ~40 asked: about 21 mm at the prompt's implied pitch, -16%. At 25 mm the threads come to about 0.4-0.6 mm on a ~0.8 mm pitch (~30 ends per inch), which is a realistic fine cotton warp.",
+   "The palette is fixed: blush-pink warp (226,194,177), blush plaster wall (203,169,151) and a blush woven band (182,127,101). Of the non-gold pixels, 42% are blush, 51% peach-blush, 3% beige/tan and 4% ivory; the same classifier puts W05_a1 at 63% beige/tan. The honey beech beam across the top ~12% is the palette's pale honey wood.",
+   "The gold measures hue 31-32 deg, sat 0.63-0.64, the closest to the listing in this set. No text on the beam, warp or band; corners clean.",
+   "AD 8.7. The hanging-in-the-loom idea reads in a second. The hoops are large, crisp and faithful, and the pink warp against the gold is graphic and on palette. Two things hold it back. The sunlit warp at upper left (median luminance 195) is as bright as the gold (179). The top third is also sharp threads plus the beam, so the headline sits best on the calm blush wall in the right third (x > 1150)."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "W07_a2.png",
+  "pass": true,
+  "severity": "none",
+  "score": 9.0,
+  "reasons": [],
+  "notes": [
+   "The braid is faithful: an open interlaced braid of many fine polished wires over the inner core, as in listing-1/2, crisp at 1-1.5x. It is not a tube, twist or chain. No stones.",
+   "The front hoop's closure is faithful. It has the hinge knuckle with pin (x 753-853, y 573-700) and the stippled end cap below it, one thin wire, and a notched catch with the tip protruding (x 1007-1173, y 700-807). The flat round disc hangs under the catch (x 863-1080, y 813-1113) and is now turned face-on to the kicker, as the reshoot asked. The back hoop is soft and has the same braid; its closure is hidden behind the front catch.",
+   "The disc reads as bright, mirror-polished gold, with a gold rim and gold falloff at its right edge (240,211,169). Its centre is clipped, though: 88% of the disc face has a minimum channel of 245 or more (about (255,255,252)). The listing disc's brightest area is (243,229,211). At 1080-wide phone size it reads as pale polished gold, not enamel. Pulling the highlight down about 1/3 stop in the grade would make it unmistakably gold.",
+   "Scale is consistent (no listed referent). The front hoop is about 885 x 923 px and round, about 36 px/mm at 25 mm. The dusty-rose skein is about 500-600 px thick (about 14-17 mm), and its plies are 20-40 px (about 0.6-1.1 mm). Both are realistic for twisted six-strand floss.",
+   "Grounded: the front hoop sinks into the dusty-rose skein with a dark contact shadow (y ~1594-1661), and the floss compresses under it.",
+   "The palette is fixed. Of the non-gold pixels, 80% are blush, 11% peach and 4% beige/tan. The floss is blush, dusty rose, peach (229,174,147) and ivory, on blush satin (234,207,199). The top ~24% is a calm dusty-rose blur (187,140,121). The apricot, oatmeal and greige of a1 are gone.",
+   "The gold measures hue 30 deg, sat 0.65. No text, needles or hands; corners clean.",
+   "AD 9.0, the strongest plate of this round. The texture-on-texture idea lands instantly, and the macro is tactile and thumb-stopping. The gold is the brightest, sharpest thing in the frame (p90 luminance 219, against a median of 155 for the top blur). The polished disc now shines, and there is a calm headline band. The only nit is the hot disc."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "W08_a2.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale (rule 4). Against the stated referent (cane octagon hole ~1 cm), each hoop is drawn about 4.4-5 holes wide, about 44-50 mm: +76% to +100% against 25 mm. The hoops measure 366 x 400 px (upper, x 710-1076, y 1013-1413) and 374 x 393 px (lower, x 643-1017, y 1540-1933). I measured 29 octagon openings in the cane field (x 1150-1530, y 870-2500). Their median area-equivalent diameter is 76 px, about 80-90 px allowing for the chair back being turned about 30 deg (the lattice repeats every 137 px across and 162 px down). Two more cues agree. The bentwood bar is about 225 px wide (x 416-640), so each hoop is about 1.75 bar widths: about 35-44 mm for an ordinary 20-25 mm bar. The cane strands (17-26 px) are only 1.2-1.5x the hoop's own braid wires (14-18 px), where real chair cane is about 3x a ~0.9 mm wire. The hoops do span about 2.45 pattern repeats, which is what the prompt's 'two and a half octagon holes' produced. That only fits 25 mm if a whole repeat (hole plus strands) is 1 cm, i.e. a superfine cane with ~5 mm holes on a ~13 mm frame. To a shopper these read as 4-5 cm statement hoops.",
+   "Off-brand (rule 7): a honey and tan field dominates. The honey bentwood frame (228,164,87; hue 33 deg, sat 0.61) and the natural straw cane (209,162,110; hue 31-32 deg, sat 0.47-0.50) fill about 60-65% of the frame. With the hoops masked, the remaining pixels are 50% tan, straw or honey and 45% peach-brown. That peach-brown is the wall, mostly in deep shade at (135,97,75) and lit only at the top, as a peach-beige (204,168,146). Only 4.5% is blush, and the median is (217,163,97). The gold sits on gold-tan cane with little separation. The prompt asked for natural cane and honey wood, so this needs a palette change, not a reroll."
+  ],
+  "notes": [
+   "The product is faithful on both hoops at 1.4-3.2x. Each has the open interlaced braid of 2-3-wire bundles over the fine inner mesh, and the hinge knuckle with pin and stippled end cap at the left (upper knuckle x 829-872, y 963-1013). Each has one thin wire, a notched catch with the tip protruding, and one disc under the catch. The discs are seen near edge-on (upper x 958-1011, y 1041-1170) because the hoops face the camera and the disc stands perpendicular to the hoop, as in listing-0. No stones; the pair match (366 x 400 vs 374 x 393 px).",
+   "Physics. Both latch wires run entirely in front of the cane strands (upper x 866-1034, y ~977-1021; lower x 812-977, y ~1491-1554), so neither hoop is visibly hooked through the webbing as the prompt asked. On an upright chair back nothing holds them, although their shadows fall on the cane, so they do touch it. At phone size most viewers will assume they hang from it, so this is not a fail on its own. The reshoot should still thread each wire behind a strand.",
+   "The gold measures about hue 32-34 deg, sat 0.55-0.61. The tone is right, but it has little separation from the straw cane.",
+   "No text, letters or logos; corners clean. The octagon shadow on the wall is a nice touch.",
+   "AD view (not scored): a graphic pattern-on-pattern idea with crisp hoops, undone by the honey and straw palette and the oversized read."
+  ],
+  "fix": "Change the palette and the scale together. (1) Scale: 'a regular-mesh caned chair back whose octagon openings are about 1 cm, each opening only a little smaller than the hoop's 13 mm centre hole; each hoop spans only about one and a half octagons of the pattern; the cane strands are visibly about three times wider than one wire of the hoop's braid; the bentwood frame bar is about as wide as a whole hoop'. (2) Physics: thread each latch wire behind one cane strand, so each hoop visibly hangs from it. (3) Palette: a blush-painted or whitewashed-pink bentwood frame with pale, bleached ivory cane, never honey, straw or tan. Put it in front of a sunlit blush plaster wall that stays light, not deep brown shade, and carries the octagon shadow. Keep the hoops' braid, knuckle, wire, catch and single disc, and keep the top third as calm wall for the headline."
+ },
+ {
+  "plate": "W10_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "score": 8.5,
+  "reasons": [],
+  "notes": [
+   "The product is faithful on both hoops at 2.6x. Each has the hinge knuckle with pin and stippled end cap at the left, one thin wire, and a notched catch with the tip protruding. One flat polished disc hangs under each catch, facing the camera. The left disc (x 943-1047, y 987-1131) is bright pale gold (250,204,139). The right disc (x 1299-1415, y 1135-1285) has a mottled environment reflection on its left half that still reads polished at phone size. The braid is open and interlaced over the inner mesh. No stones. The pair match: left 400 x 420 px, right 422 x 463 px, with the right one nearer the camera.",
+   "Scale. The drawer's front edge runs 912 px projected along (824,391), from (400,1302) to (1224,1693). Its side runs 541 px along (472,-264). An orthographic solve gives an elevation of about 31 deg, a yaw of about 43 deg and a true front edge of about 1120 px. At a drawer of about 75-78 mm, the hoops are about 0.36-0.42 of the drawer, or about 27-33 mm. The spool (x 92-633; flange 260 px; face ellipse about 100 px wide, so its axis is about 22 deg out of plane) has a true length of about 478 px. That gives a hoop-to-spool ratio of 0.84-0.99, or about 25-30 mm, before allowing for the spool sitting nearer the camera. The central estimate is about 30 mm, +19% against 25 mm (range +8% to +31%). The drawer is about 2.4-2.8 hoops wide against the 3 asked. This is inside the limit and slightly better than a1's ~+25%, but still on the chunky side.",
+   "The box is plain. There is no lettering, logo, foil or embossing on the sleeve top, the sleeve side or the drawer front. The satin pull-tab is unmarked, the spool flanges are plain wood, and the diya is plain terracotta with a moulded rim. No text anywhere; corners clean.",
+   "All three reshoot asks are met. The spool now lies outside the box on the silk, the upper left is calm blush (182,144,127; hue 18.5 deg), and an out-of-focus diya makes Diwali read at a glance. The diya is bigger than asked, though: about 760 px, ~41% of the frame width, at top right (x ~1046-1805, y ~86-595). Its flame clips to white (254,253,248) and is the brightest point in the frame (flame p90 254 against hoops p90 215).",
+   "The palette is on brand: of the non-gold pixels, 57% are blush, 39% peach and 3% beige/tan. The gold measures hue 29-31 deg, sat 0.73. That is the richest in the set but still yellow gold, not orange.",
+   "Physics is fine. The hoops stand on the satin lining with shadows, and the spool and rosebud cast contact shadows.",
+   "AD 8.5: it runs as a Diwali gifting ad. It is warm, on palette and festive, the gold is crisp and faithful, and the copy space is clean. It stays at the bar for three reasons. The styling is a conventional gift-box shot with only a faint thread pun. The hoops look chunky in the drawer. The large, clipped diya flame also pulls the eye. Optional polish: draw the hoops about 15% smaller against the drawer, and set the diya smaller and further back."
+  ],
+  "fix": ""
+ }
+]
