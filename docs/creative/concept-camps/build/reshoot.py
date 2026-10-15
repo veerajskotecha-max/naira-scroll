@@ -112,6 +112,83 @@ W9_NEW = ("Editorial on-model advertising photograph, 4:5 frame, a close crop of
           "with warm honey undertones, natural unretouched texture with visible pores and fine downy hair.")
 fix("W09", [(W9_OLD, W9_NEW)])
 
+# ---- round 6 (heart + toggle) -----------------------------------------------------------------------------------------
+GRID_OLD = "Every bead touches the next, bending only at its fine links; each bead spans just over one bold 5mm square of the grid."
+GRID_NEW = ("Every bead touches the next, bending only at its fine links. Scale against the grid: each bold 5mm square holds exactly 5 by 5 "
+            "small 1mm squares; each 6mm bead spans six small squares, a little more than one bold square; the puffed heart is about two "
+            "and a half bold squares wide; the T-bar is about four bold squares long; laid open, the whole strand runs about 36 bold squares. "
+            "The paper is blank grid with no printed trace at all: the bracelet is the only line on it.")
+fix("H02", [(GRID_OLD, GRID_NEW), (HEART_OLD, HEART_NEW)])
+fix("H03", [
+  ("the bracelet is unfastened and laid along one stave like a melody: the silver beads rise and fall gently across the five lines like a run of notes, and at the end, a little apart on the stave, the gold toggle ring with the puffed gold heart sits like one gold note. Each stave is about 8mm tall, so each 6mm bead covers most of its height.",
+   "the bracelet is ONE single strand with exactly two ends, unfastened: the straight gold T-bar on one end and the gold ring with the heart on the other, fine silver links between the beads, no loose wire ends, never two strands; it is laid in one gentle wave along a single stave like a melody, the silver beads rising and falling across the five lines like a run of notes, and at the end, a little apart on the stave, the gold toggle ring with the puffed gold heart sits like one gold note. Each stave is about 8mm tall: each 6mm bead covers about three quarters of a stave's height, and the heart is about one and a half staves tall."),
+  ("A sheet of aged cream music manuscript paper", "A sheet of pale blush-tinted music manuscript paper"),
+  (HEART_OLD, HEART_NEW)])
+fix("H04", [
+  ("on the pale cream goatskin head of a dholak, an Indian barrel drum, the drum head about 18cm across, three bracelet-widths wide, its natural texture and faint mottling visible;",
+   "on the pale ivory goatskin head of a dholak, an Indian barrel drum, the drum head about 18cm across, three bracelet-widths wide, clean, with only faint natural mottling and no brown stains;"),
+  ("SCENE: the drum fills the lower right two thirds, cropped by the frame; the upper left is calm, softly out-of-focus blush wall, for a headline.",
+   "The toggle is fastened: the T-bar's centre loop passes through the ring. SCENE: the camera is close, so the bracelet's loop fills about 40% of the frame's width; the drum fills the lower right two thirds, cropped by the frame; the upper left is a calm, light, clean blush plaster wall, softly out of focus, never taupe or muddy, for a headline. A pale reflector makes every bead mirror bright light."),
+  (HEART_OLD, HEART_NEW)])
+fix("H06", [
+  ("a chest crop: the top edge of the frame sits across the collarbones, so absolutely no chin, jaw, lips, mouth or any part of the face is anywhere in the frame;",
+   "a chest crop: the top edge of the frame sits across the sweater's round neckline, about 3cm below the collarbones, so the neck, chin, jaw, lips and the whole face are far above and outside the frame;"),
+  (WRIST_OLD, "CRITICAL SCALE: a fine, delicate strand: each bead a little over half the width of her fingernail; the heart about one and a half fingernails wide; never chunky."),
+  ("the gold toggle on top and the gold heart resting against the knit.", "the gold toggle on top, fastened, the T-bar's centre loop passing through the ring, and the gold heart resting against the knit.")])
+fix("H07", [
+  ("the hand is relaxed at the bottom of the frame, fingers gently curled,", "the hand is relaxed, its gently curled fingers leaving the frame at the lower left,"),
+  ("so the puffed gold heart rests exactly on the pulse point;", "so the puffed gold heart rests exactly on the pulse point, a little toward the thumb side;"),
+  ("The wrist sits in the middle third; the top third is calm blush silk softly out of focus, for a headline.",
+   "The wrist sits in the middle third; the top third is empty blush silk softly out of focus, with no hand or fingers in it, for a headline. A pale reflector makes every bead mirror bright light so they read bright silver.")])
+NECK_OLD = "the top edge of the frame sits across the middle of the neck, well below the jaw, the head tilted slightly up and away so that absolutely no chin, jaw, lips, mouth or any part of the face is anywhere in the frame;"
+fix("T08", [(CLASP_OLD, CLASP_NEW), (NECK_OLD,
+   "the top edge of the frame is only about 5cm above the collarbones, while the chin is about 10cm above them, so the chin, jaw, lips and the whole face are far above and outside the frame, the head tilted up and away;"),
+  ("CRITICAL SCALE: this is a fine 4mm chain, about as wide as a grain of rice, and the round ring is about one and a half fingernails wide on the body, small and delicate at the base of the throat; never a statement chain, never chunky.",
+   "CRITICAL SCALE: a fine 4mm chain; the 15mm ring is about one sixth of the width of her neck and only about one and a half times the length of one 11mm link, small and delicate at the base of the throat; never a statement ring, never chunky.")])
+T9_OLD = idx["T09"].split(" Preserve the necklace from reference 1 exactly")[0]
+T9_NEW = ("Editorial on-model advertising photograph, vertical 9:16 frame, in low warm evening sun: the bare right shoulder, collarbone and "
+          "the side of the neck of a young Indian woman with warm deep brown skin with a soft golden glow, natural unretouched texture with "
+          "fine pores, wearing a peach silk slip dress with fine straps; she stands in the lower right of the frame, turned three-quarters "
+          "away, and her neck rises out of the frame's top-right corner, so her head, chin, jaw, lips and ears are entirely outside the frame; "
+          "the necklace lies on her collarbones with the clasp turned to the side so it rests on the right collarbone, facing the camera, "
+          "large and clear in the frame, catching the sun; the upper left forty percent of the frame is calm, softly out-of-focus warm blush "
+          "wall for a headline, with no hair crossing it.")
+fix("T09", [(CLASP_OLD, CLASP_NEW), (T9_OLD, T9_NEW),
+  ("The figure fills the lower sixty percent of the frame; the upper forty percent is a calm, softly out-of-focus warm blush wall for a headline, with no face and no hair crossing it.",
+   "The clasp shows clean flat-cut collars, a slim gate wire and one row of separate tiny stones.")])
+
+# ---- round 7 (prism: whole-bracelet views drew too few, too-big stones) --------------------------------------------------
+P_SCALE_W_OLD = "CRITICAL SCALE: each stone is only about half the width of a fingernail; the bracelet is a slim line of stones on the wrist, never chunky."
+P_SCALE_W_NEW = ("CRITICAL SCALE: each stone is only about half the width of a fingernail and about a third of a fingertip; the wrist is about "
+                 "seven stone-units wide; a slim 8mm line of about twenty small stones, never chunky.")
+fix("P02", [
+  ("the bracelet is laid open and perfectly straight down through all three bands at a right angle, vertically, like a ruled line through the colour; the top fifth of the frame is bare ivory floor above the bands, for a headline",
+   "the bracelet runs perfectly straight down the frame a little right of centre, crossing all three bands at a right angle like a ruled line through the colour, entering at the top edge of the frame and leaving at the bottom edge, so neither end nor the clasp is in the frame; the left half of the top fifth is bare ivory floor, for a headline")])
+fix("P03", [
+  ("is heaped with mukhwas, sugar-coated fennel seeds in pastel aqua, pink, pale yellow and white, each seed about 5mm long, the same size as one of the stones;",
+   "holds a low, loose layer of mukhwas, slim sugar-coated fennel seeds in pastel aqua, pink, pale yellow and white, each seed about 5mm long and 1.5mm thick, fewer and slimmer than the stones;"),
+  ("the bracelet lies in a loose curl on top of the seeds and spills over the rim, its stones echoing the sugar colours; a few seeds are scattered on blush linen beside the bowl.",
+   "the bracelet lies in a loose curl on top of the seeds and spills over the rim, its stones and bright silver the brightest things in the frame; a few seeds are scattered on pale blush linen beside the bowl."),
+  ("the upper left is calm, softly out-of-focus blush, for a headline.", "the upper left is calm, light, softly out-of-focus pale blush with no brown shadow, high-key, for a headline.")])
+fix("P04", [
+  ("The bracelet is closed and rests around the neck of the aqua bottle, slipped down to where the neck widens into the shoulder, the loop tilted at a slight angle like a bangle resting on a bottle, the stones facing the camera; the loop is about 6cm across, a little wider than the aqua bottle's shoulder there.",
+   "The bracelet is a slim 18cm bracelet of about twenty small stones, closed, resting around the neck of the narrow-shouldered aqua bottle, slipped down to where the neck widens, the loop tilted at a slight angle like a bangle resting on a bottle, loose and delicate, the stones facing the camera; the loop is about 6cm across, so about seven or eight stone units span the loop's width; each stone the size of a peppercorn."),
+  ("the upper third is calm warm ivory plaster wall, for a headline.", "the upper third is a calm pale ivory-blush plaster wall, never tan or beige, for a headline.")])
+fix("P05", [
+  ("Nine unbranded hexagonal wooden colour pencils with pastel lacquer, three aqua, three soft pink and three pale butter yellow, each about 7mm thick, lie side by side touching, sharpened tips all pointing up, on warm ivory cold-press paper, with a few curled pencil shavings; the bracelet is laid open and perfectly straight across the middle of the pencils at a right angle, each stone a little narrower than a pencil.",
+   "Eighteen unbranded hexagonal wooden colour pencils with pastel lacquer in repeating aqua, soft pink and pale butter yellow, each about 7mm thick, lie side by side touching across the whole width of the frame, sharpened tips all pointing up, on pale ivory cold-press paper, with a few curled pencil shavings; the bracelet is laid perfectly straight across all of them at a right angle and runs off both side edges of the frame, so neither end shows; each stone is about two-thirds the width of one pencil and each stone in its halo about one pencil wide, so the line crosses about one stone per pencil; the stones repeat aqua, pink, yellow, never two of the same colour side by side.")])
+fix("P06", [
+  ("the bracelet lies open and perfectly straight inside that band of coloured light, its stones glowing.",
+   "the bracelet lies perfectly straight inside that band of coloured light, running along it and out of the frame's left and lower edges, so neither end shows, its stones glowing; the prism is about seven stone-units long."),
+  ("the low sun passing through it lays a soft pastel spectrum", "soft low sun passing through it lays a soft pastel spectrum")])
+fix("P07", [(P_SCALE_W_OLD, P_SCALE_W_NEW),
+  ("a torso crop from the shoulders to the waist: the top edge of the frame sits below the collarbones,",
+   "a closer crop of the forearm and hand resting across the waist of a plain white cotton t-shirt: the top edge of the frame sits at the middle of the chest, far below the collarbones,")])
+fix("P08", [(P_SCALE_W_OLD, P_SCALE_W_NEW)])
+fix("P10", [
+  ("the bracelet is laid open and perfectly straight exactly along the stroke, as if it painted it.",
+   "the bracelet is laid perfectly straight exactly along the stroke, as if it painted it, and runs off both side edges of the paper and the frame, so neither end shows; each stone in its halo is about the width of the brush's metal ferrule.")])
+
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "over_r1.json"
     json.dump(R, open(out, "w"), indent=1, ensure_ascii=False); print(out, sorted(R))

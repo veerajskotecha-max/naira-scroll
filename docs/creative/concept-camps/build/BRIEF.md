@@ -24,7 +24,8 @@ sits at the top of each hoop, just under the latch end. The closure is one thin 
 **Heartbead Bracelet (YF5215), camp `heart`.** About 23 mirror-polished silver steel beads of 6mm (strands may be off by 2), with
 a smaller silver bead at each end, joined by fine silver links. The beads read bright mirror silver, reflecting their
 surroundings; the listing photos show them reflecting grey. Never matte, pearly or black. The clasp is a gold toggle: a round
-ring plus a straight T-bar. Exactly one smooth, puffed, polished gold heart of about 15mm hangs from the ring on a jump ring.
+ring plus a straight T-bar. Exactly one smooth, puffed, polished gold heart hangs from the ring on a jump ring. Measured on the listing photos the heart
+is about 1.9 bead widths across (about 11mm), so judge its size against the beads: 1.5–2.5 bead widths is right.
 
 **Prism Rivière Bracelet (B00681C), camp `prism`.** 18cm (15–19 adjustable), a continuous row of square cushion-cut pastel stones
 of about 5mm, in aqua blue, soft pink and pale yellow. The real piece is not a strict 3-cycle, but no two neighbours share a
