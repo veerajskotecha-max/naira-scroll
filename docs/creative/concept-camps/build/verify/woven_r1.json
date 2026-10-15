@@ -1,0 +1,92 @@
+[
+ {
+  "plate": "W01_a1",
+  "pass": true,
+  "severity": "none",
+  "score": 8.7,
+  "reasons": [],
+  "notes": [
+   "Product faithful on both hoops (2.6x crops): true open interlaced braid of 3-4-wire bundles with the fine inner wire mesh showing through the gaps (not a tube, twist or chain); one flat polished disc standing at the catch end directly under the latch on each hoop (oval because of the ~60 deg view, same geometry as listing-0); closure is a hinge knuckle with pin plus one thin wire into a notched catch, tip just protruding; no bail, loop or T-bar; no stones; pair identical.",
+   "Scale: embroidery hoop outer x 146-1688 = 1542 px (inner linen x 189-1645 = 1456 px) at y~1390, so 10.3 px/mm; hoops 302 px (x 675-977) and 297 px (x 928-1225) = 29.1 mm, +16.5% vs 25 mm (+23.4% if the 15 cm is the inner diameter). The hoop is 5.1 earrings wide vs the six asked: inside the 30% limit but on the large side.",
+   "Both hoops show the same foreshortening (302x251 px and 297x240 px, aspect 0.82-0.83) and read as round rings lying flat.",
+   "Gold reads pale warm yellow: median hue 33 deg, sat 0.68, inside the listing photos' range (hue 28-35 deg, sat 0.62-0.64).",
+   "Camera is ~60 deg oblique (embroidery hoop aspect 0.87), not the 90 deg top-down asked; reads fine.",
+   "Disc faces carry a faint linen-weave reflection at 2x+; they read polished at phone size.",
+   "The blush thread runs under the lower hoop and on to a ~38 mm needle threaded through its eye, rather than being stitched in a loop around one earring as briefed. Contact shadows are present. The brass tightening screw with silver bracket is hardware with no engraving; no text, letters or logos anywhere.",
+   "Palette on brand: blush linen backdrop (hue 14-23 deg), ivory linen in the hoop (sat 0.10), peach and sage embroidery; the top ~30% is calm blush linen for the headline.",
+   "AD view: the pun reads in one second, warm soft light with crisp speculars along every ridge, and real linen, wood and thread texture. It is held back by the small product (each hoop ~16% of frame width), the bright brass and silver screw competing with the gold at upper right, and a slightly heavy orange flare top-left. Optional polish: shrink the hoops toward six-across, use a wooden screw or crop it, and soften the flare."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "W02_a1",
+  "pass": true,
+  "severity": "none",
+  "score": 8.6,
+  "reasons": [],
+  "notes": [
+   "Product faithful on both hoops (2.4x crops): open interlaced multi-wire braid with an inner fine mesh, the polished disc standing at the catch end under the latch on each, hinge knuckle with pin, thin wire and notched catch with the tip protruding; no bail, loop or T-bar; no stones; pair identical.",
+   "Scale: embroidery hoop outer 1448 x 1422 px (x 37-1485, y 732-2154), inner 1331 x 1304 px, so 9.6 px/mm; hoops 275x273 px and 271x270 px = 28.3 mm, +13% vs 25 mm (+24% if 15 cm is the inner diameter). Inside the 30% limit, on the large side (5.3 earrings across vs six asked).",
+   "True near-top-down view (embroidery hoop aspect 0.98); both hoops are round (aspect ~1.0).",
+   "Gold reads pale warm yellow: median hue 31-32 deg, sat 0.68-0.69, inside the listing range.",
+   "Disc faces mirror the linen weave as a fine hatch at 4x; they sample as pale polished gold (hue 31-33 deg, val 0.86), like the listing discs (hue 38, val 0.91-0.98), and read polished at phone size.",
+   "The thread loops around the embroidery rather than around one earring. The ~40 mm needle is threaded through its eye. Contact shadows are present. The brass screw and silver bracket are hardware; no text, letters or logos anywhere.",
+   "Palette on brand: dusty-rose linen (hue 15 deg, about 60% of non-product pixels), ivory linen inside the hoop.",
+   "Copy space is tight. The headline band is clean only to ~23% of the height before the screw (y ~640) and the hoop rim (y ~732) begin, so after the story's top UI only ~9% of the height is left for the headline. The bottom 22% is calm linen.",
+   "AD view: the most graphic and literal hoop-in-a-hoop, with excellent braid detail and crisp speculars. The interior is slightly busy (thread loops, needle and sprig all around the pair) and the product is small in the tall frame."
+  ],
+  "fix": ""
+ },
+ {
+  "plate": "W03_a1",
+  "pass": false,
+  "severity": "minor",
+  "score": null,
+  "reasons": [
+   "Off-brand (rule 7): the oatmeal linen surface reads beige, sand or tan and fills the lower ~55% of the frame. Measured median RGB is (179,152,127) in the shaded foreground and (212,186,156) around the pieces, hue 29-32 deg, sat 0.26-0.29; the ivory linen in W01/W02 measures sat 0.10. 69.5% of non-product pixels fall in the beige/sand/tan class vs 14.5% blush, and the frame median is (200,171,143). Only the sunlit band (245,227,207) reads ivory."
+  ],
+  "notes": [
+   "Product faithful. The flat hoop is a near copy of listing-1's lying hoop: open interlaced braid with fine inner wires, a large polished disc (~135 px, ~6 mm) standing at the catch end, and one thin hinged wire to the far end. The spool hoop shows the same braid and a catch with the wire tip protruding; its disc is not resolvable because that end is behind the barrel or edge-on. No stones; the pair match.",
+   "Scale: spool raw extent y 785-1563 = 778 px; the top face is a 385 x 108 px ellipse (view ~16 deg), giving a corrected height of ~699 px = 23.3 px/mm for 3 cm. Flat hoop x 1093-1639 = 546 px = 23.4 mm (-6% vs 25 mm); spool hoop ~525-545 px = 22.5-23.4 mm. The barrel is 302 px = 13.0 mm vs ~12 mm stated; the flange is 385 px = 16.5 mm.",
+   "Physics reads plausible: the braid passes in front of the barrel, the back half is hidden, and the hoop is wedged at a ~25 deg tilt halfway down with contact. Strictly, a ~13 mm opening could not have passed the 16.5 mm flange, but no viewer will read that.",
+   "Gold hue 30-32 deg, sat 0.66: correct pale warm yellow gold. No text, letters or logos.",
+   "AD view: lovely muslin-softened window light and crisp specular, and the flat hoop is the most faithful render in the set. But the sunlit curtain is brighter than the gold, the pair sits dead centre, and the frame reads as a generic beige still life."
+  ],
+  "fix": "Same set-up, but stand the spool and hoops on pale blush handloom linen (never oatmeal, natural, undyed or sand linen) and lift the foreground shadow fill so it stays blush or ivory instead of going tan; keep a dusty-rose wall and a pale ivory sheer, with the curtain glow lower than the gold so the hoops are the brightest thing. Keep the faithful braid, disc and hinge. Optionally make the spool flanges only slightly wider than the barrel (about 14 mm) so the collar is physically possible."
+ },
+ {
+  "plate": "W04_a1",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale (rule 4): the charpai rope is drawn far too thin for the hoops. Each band is four thin twisted cords. One cord measures 45-52 px across perpendicular to its lay beside the lower hoop (seam profile from (1690,1540) to (1830,1700); ~46 px at (600-850,1600-1750)), or ~60-68 px corrected for the ~40 deg view. The lower hoop is 480 px across (x 1099-1580) and the standing hoop ~420 px tall (y ~1085-1505). Each hoop therefore spans ~7-10 rope widths instead of ~3, and the braid (~84 px radial) is thicker than a rope instead of thinner. Against the 8 mm rope the hoops read ~56-64 mm, about +125% to +155% vs 25 mm (at least +98% on the most conservative measure). Reading a whole 4-cord band as one 8 mm rope instead gives ~16 mm (-36%), so it is outside the 30% limit either way."
+  ],
+  "notes": [
+   "Product faithful on both hoops (1.6-1.8x crops): open interlaced braid with inner fine wires, a large flat polished disc under the catch on each, hinge knuckle with pin, thin wire and notched catch with the tip protruding; no bail, loop or T-bar; no stones; pair identical.",
+   "Gold hue 30 deg, sat 0.73-0.74: a touch richer than the listing (sat 0.62-0.64) under the low sun, but it still reads as yellow gold, not orange.",
+   "Physics OK. The upper hoop stands on its edge in a rope groove instead of hanging by its latch wire as briefed; this is plausible, since the real hoop stands the same way in listing-2. The lower hoop lies tilted in the weave with contact.",
+   "Palette strongly on brand: blush rope is ~90% of non-product pixels. No text, letters or logos.",
+   "The upper-left headline area is busy, sharp weave rather than calm, out-of-focus weave.",
+   "AD view: the strongest idea of the set (texture on texture, all blush, raking sun, crisp gold) and worth reshooting at the right scale."
+  ],
+  "fix": "Reshoot with ONE fat rope per pass instead of bundles of thin cords: 'each rope is a single soft 8 mm blush cotton rope, as thick as a pencil and visibly about 1.5x thicker than the hoop's braid; each band is at most two ropes side by side; each hoop spans only about three rope widths, and its 13 mm opening is narrower than two ropes; only about 12-15 cm of the woven top is in frame'. Keep the hoops' rendering, the blush rope and the raking sun. Hang one hoop by its thin latch wire over a rope crossing, and let the upper-left weave fall out of focus for the headline."
+ },
+ {
+  "plate": "W05_a1",
+  "pass": false,
+  "severity": "minor",
+  "score": null,
+  "reasons": [
+   "Off-brand (rule 7): the frame is a golden beige/tan field. Sunlit cream warp threads sit over a tan out-of-focus room with a honey beech beam; 77.7% of non-product pixels fall in the beige/sand/tan class (non-product median RGB (206,166,133), hue 27 deg, sat 0.35), and blush appears only in the bottom woven band (~17%). The gold hoops sink into the same golden tones with little separation."
+  ],
+  "notes": [
+   "Product faithful. The in-focus hoop matches listing-2: open interlaced braid with inner fine wires, hinge knuckle with pin, one thin wire, catch with the tip protruding, and the flat polished disc directly under it. The softly defocused second hoop shows the same parts. No stones. Both hoops are 480 px tall (y 1147-1627 and ~1480-1960) and identical, round hoops turned on the vertical axis.",
+   "Scale: warp pitch 11-14 px (median 12 px; rows y 1000-2000), so a 480 px hoop spans ~34-44 warp threads vs the ~40 asked, about 0% vs 25 mm (range -15% to +10%). Each thread is ~6 px (~0.3 mm), plausible fine cotton warp, and the beam (~400 px, ~21 mm) is consistent.",
+   "Physics plausible: each hoop sits in the shed, with threads behind its left side and in front of its right side, so it is held by the warp rather than floating. The latch-wire hook over a few threads is not explicit.",
+   "Gold hue 31-32 deg, sat 0.65: matches the listing. No text; the woven edge is a plain hemstitch and the pegs are unmarked.",
+   "AD view: the idea reads, and the woven blush band at the base is lovely. But the backlit threads at upper left outshine the product, and the warp under the beam is busy behind any headline."
+  ],
+  "fix": "Reshoot with blush-dyed warp threads (or ivory warp in front of a softly blurred blush plaster wall) and softer, less golden light, so no part of the frame goes tan or honey-beige. Keep the blush woven band across the bottom sixth. Keep the background behind the hoops darker and blush so the gold is the brightest, most saturated element. Hang the in-focus hoop by its thin latch wire over a few warp threads, with the second softly out of focus lower right, and keep the top third calm (out-of-focus warp or the plain beam) for the headline."
+ }
+]
