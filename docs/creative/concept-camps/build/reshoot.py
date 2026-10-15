@@ -215,6 +215,38 @@ fix("W08", [
   ("SCENE: only about 30cm of the chair back is in frame;", "SCENE: only about 12cm of the chair back is in frame;"),
   ("Palette: warm ivory linen, blush and peach silk thread, pale honey wood;", "Palette: blush, warm ivory, dusty rose, a breath of peach; bleached ivory cane, never honey, straw or tan;")])
 
+# ---- round 9 (toggle: smooth jump rings only, and frames where the length cannot read short) ---------------------------------
+SWITCH_LOOP = ("The chain is hooked over the switch lever at its middle and falls in one long soft loop about 24cm deep, four switch-widths below the lever, "
+               "about 22 links down each side, both strands hanging straight under their own small weight, and the closed toggle clasp hangs at the very "
+               "bottom of the loop, turned to face the camera, sharp and catching a sunbeam; the soft shadow of the chain falls on the wall beside it.")
+SMOOTH = ("Every connector is a plain, small, smooth, round polished jump ring, never a clip, never a granulated or beaded link, never a lobster clasp; "
+          "the links are slim, each link's width about a third of its length.")
+refix("T01", [
+  ("calm, empty, softly lit blush plaster with only the faint long shadow of a dried palm frond, the frond itself out of frame, for a headline.",
+   "calm, empty, softly lit blush plaster with nothing on it at all, only soft window light, for a headline.")],
+  SMOOTH + " The clasp hangs clear of the bottom edge of the frame, with calm wall below it.")
+refix("T02", [
+  (SWITCH_LOOP,
+   "The chain is hooked over the switch lever just beside its clasp: the closed toggle clasp hangs only about 3cm below the lever, turned to face the camera, "
+   "sharp and catching a sunbeam, and the two long strands of the chain fall straight down side by side under their own small weight, all the way down "
+   "and out of the bottom edge of the frame, so the whole chain never fits in the frame; the soft shadow of the chain falls on the wall beside it."),
+  ("SCENE: vertical frame; the switch sits just above the middle; the loop hangs down into the lower half; the top third of the frame is calm, empty, softly lit blush plaster with only the faint long shadow of a dried palm frond, the frond itself out of frame, for a headline, and the bottom sixth is calm plaster too.",
+   "SCENE: vertical frame, only about 20cm of wall in frame; the switch sits just above the middle; the two strands run down through the lower half and out of the frame; the top third of the frame is calm, empty, softly lit blush plaster with nothing on it, for a headline."),
+  ("LIGHT: low warm late-afternoon sun from a window at the left, softened by a muslin curtain,", "LIGHT: low warm late-afternoon sun from a window at the left, softened by a muslin curtain that stays out of frame,")],
+  SMOOTH + " The bar hangs from a small round jump ring that passes through its very top end; that end of the bar touches the jump ring and no part of the bar extends past it.")
+refix("T04", [
+  ("the 15mm ring is clearly smaller than a stud head, about three-quarters of its width, and each paperclip link is about half a stud long;",
+   "the ring is visibly smaller than the iron stud head beside it, only three-quarters of its width, and each paperclip link is three-quarters of the ring's width long;"),
+  ("SCENE: the staple and loop sit in the middle third; the top third of the frame is calm, plain dusty rose door panel for a headline;",
+   "SCENE: the staple and loop sit in the middle third and lower; the top third of the frame is calm, plain dusty rose door panel with no studs and no staple, for a headline;")],
+  SMOOTH)
+refix("T05", [
+  ("The necklace is worn by a slender hand-thrown ceramic bud vase in warm ivory glaze, about 18cm tall, with a narrow neck about 3cm wide, twice the width of the ring, and soft round shoulders like collarbones: one single strand goes once around the vase's neck; both sides fall over the shoulders and meet in ONE long loop resting on the belly, the closed toggle at the front centre like a clasp turned to the front on a collarbone; only one strand of chain anywhere in the frame, never doubled, never wrapped twice, never layered. A single fresh peach tulip stands in the vase, its flower head about 5cm long.",
+   "The necklace is worn by a slender hand-thrown ceramic bottle vase in warm ivory glaze, with a long narrow neck about 3cm wide, twice the width of the ring, and soft round shoulders like collarbones: one single strand goes once around the vase's neck and both sides fall over the shoulders; the closed toggle clasp has been turned to the side and rests on the vase's left shoulder, facing the camera, like a clasp worn to the side on a collarbone; the rest of the long loop falls down the front of the vase and out of the bottom edge of the frame; only one strand of chain anywhere in the frame, never doubled, never wrapped twice, never layered. A single fresh peach tulip stands in the vase, its flower head about 5cm long, cropped by the top edge of the frame."),
+  ("SCENE: the vase stands on a blush plaster ledge in front of a soft blush plaster wall, slightly right of centre; calm empty wall in the upper left for a headline.",
+   "SCENE: a close crop of the vase's neck and shoulders, only about 16cm of the vase in frame, slightly right of centre, in front of a soft, sunlit, warm blush plaster wall that never falls into brown shade; calm empty wall in the upper left for a headline.")],
+  SMOOTH)
+
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "over_r1.json"
     json.dump(R, open(out, "w"), indent=1, ensure_ascii=False); print(out, sorted(R))

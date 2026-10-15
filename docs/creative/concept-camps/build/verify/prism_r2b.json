@@ -1,0 +1,83 @@
+[
+ {
+  "plate": "P06_a2",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale vs the prism (stated referent ~6 cm, asked to be ~7 stone units long): the prism's vertical edges project to ~590-600 px (left edge (1268,148)->(1265,740), front edge (1663,345)->(1640,945)). The stones measure a camera ~53 deg down at mid-frame (claw squares on in-focus units give a y-compression of ~0.80), and the view is shallower at the prism, so the edges are foreshortened by ~0.61-0.73. That makes the true prism length ~815-975 px. The unit pitch at the prism's depth is ~187-198 px (~200 px corrected at mid-strand), so the prism is only ~4.1-5.4 pitches long (best estimate ~4.4) against ~7.1 for 6 cm. The units are therefore +32% (most generous, orthographic) to +74% too big, best estimate ~+60% (pitch ~13.5 mm vs 8.4 mm). Put the other way, at true stone size the prism is only ~3.7 cm tall, with ~2 cm faces (its top face is ~2.3-2.5 pitches across)."
+  ],
+  "notes": [
+   "Colour order, bottom-left to right edge (13 stones, the last one partial): A P A Y A P A P Y A P Y A. Stone hues hold under the spectrum (A 188-193 deg, P 337-355 deg, Y 39-43 deg). No same-colour neighbours, no extra colours, no clear or round stones.",
+   "Construction: square cushion stones, each in its own halo, with four short round bead claws at the corners (they read as short posts at this oblique angle). The side galleries have rectangular windows, as on the real piece. In-focus units: claw-to-claw ~104 px, pitch ~200 px, so stone/unit is ~0.55 (real ~0.66, listing-7). The halo is 3-4 rows of very fine, frosted micro-pave rather than 2 rows of larger pave. Minor, and still reads as a clean pave halo at phone size.",
+   "Metal: the pave reads warm grey with near-white sparkles, but the side walls go a warm brown-grey (hue ~21-24 deg, sat ~0.35-0.42, value 0.3-0.45) under the warm sun and blush paper. It still reads as silver at phone size, but warm and dull rather than the cool, bright rhodium asked.",
+   "No clasp in frame: the strip runs off the bottom-left corner and the right edge, as asked. One continuous line with contact shadows under each unit. The prism stands on the paper with a believable base. The strip now lies along the band, on its pink/yellow half, which fixes the r1 drift. The band runs aqua > pink > yellow, which is a pastel fantasy rather than a real prism order. Non-blocking.",
+   "Blush handmade paper (frame mean RGB ~205,182,171), on-brand. No text on the prism or paper. One piece only. The upper left is calm for a headline.",
+   "Crop: none rescues it. A 4:5 crop below the prism (e.g. [400,960,1475,2304]) removes the referent, but it also removes the idea, and at 1075x1344 px it is barely Meta size.",
+   "Indicative craft score if the scale is fixed: ~8.5 (lovely soft band and warm light; the 'prism' pun reads in one second)."
+  ],
+  "fix": "Make the prism read big against the stones. Lay it on its side with its 6cm length parallel to the strip, so it visibly spans 'about seven stone-units laid end to end; each stone no bigger than a peppercorn, about one twelfth of the prism's length'. Or, if it stands, 'the prism stands 6cm tall, about seven stone-units high'. Ask for 'cool bright rhodium with one crisp white specular edge, never warm brown'.",
+  "crop": null
+ },
+ {
+  "plate": "P10_a2",
+  "pass": false,
+  "severity": "critical",
+  "score": null,
+  "reasons": [
+   "Same-colour neighbours: stones 8 and 9 from the left are both aqua (centres ~(1141,1125) and ~(1294,1068); median hue 188 and 181 deg). Sequence left to right: Y A P Y A P Y A A P Y A, then a halo-only partial at the right edge. Clearly visible at phone size.",
+   "Scale vs the brush ferrule (stated ~5-8 mm; the prompt asked for each stone-with-halo to be about one ferrule wide): the pitch is 165 px (10 pitches from (209,1460) to (1759,896)), the unit ~157 px and the stone ~86 px. The ferrule is ~55-70 px across at the hair end, widening to ~85 px at the crimp. So each unit is ~1.85-2.9 ferrule widths (~14-16 mm at a central ~6.5 mm ferrule, i.e. +75-100%) and each stone ~1.0-1.6 ferrule widths (~8 mm, +50-70%). The same oversize as r1 (ferrule ~55-60 px vs unit ~112-115 px)."
+  ],
+  "notes": [
+   "Every stone is a square cushion in its own halo with four short bead claws. Stone/unit is ~0.55 (real ~0.66), and the halo is 3-4 rows of fine micro-pave. Minor.",
+   "The metal reads bright silver. Shot top-down with soft light and contact shadows. The strip runs off both side edges of the paper and the frame, so no clasp shows, as asked. One piece only.",
+   "The brush handle and ferrule carry no lettering, and the paper has no marks or text. Ivory deckled paper on a warm cream ground, with a calm upper third for the headline. On-brand.",
+   "Soft referents agree with the ferrule: at true 8 mm units, the paper sheet would be only ~82 x 106 mm and the wash ~6 cm deep (3 cm asked).",
+   "Crop: none rescues it. A 4:5 crop that drops one of the two aquas (e.g. [0,560,1216,2080]) also loses the brush and the yellow end of the wash, so the 'it painted the stroke' idea goes.",
+   "Indicative craft score if fixed: ~8.5 (clean, graphic, calm copy space; the idea reads in one second)."
+  ],
+  "fix": "Spell out the order: 'aqua, pink, yellow, aqua, pink, yellow, strictly repeating; never two aquas or any two same colours side by side'. For scale: 'each stone smaller than the brush's metal ferrule; each stone-with-halo no wider than the ferrule; the brush is a size-12 round with an 8mm ferrule'. Keep the top-down paper, the wash and the light.",
+  "crop": null
+ },
+ {
+  "plate": "P07_a2",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale vs fingernail (referent ~10 mm; a stone should be ~0.5 of a nail): face-on units are ~100-103 px and stones ~58-62 px (yellow 745-805 x 1208-1272, aqua 718-778 x 1315-1378). The nails measure index ~55 px, middle ~57 px, ring ~55 px and little ~46 px. So the stone is ~1.1 nail widths: ~10.9 mm (+118%), with a unit of ~18 mm. That is worse than r1 (0.84).",
+   "Scale vs wrist (referent ~55 mm, ~7 stone units wide): the bracelet spans ~510-525 px across the wrist (top edge-on unit ~(880,1020) to bottom ~(740,1525)), only ~5.1-5.2 unit widths. So each unit is ~10.7 mm (+34%) even on the most generous referent. Listing-4 shows ~5.9 units on a real wrist. The hand is drawn small against its wrist (knuckle breadth ~450 px vs wrist ~510 px), which makes the stones read chunkier still."
+  ],
+  "notes": [
+   "Face check: no face feature anywhere. The top edge is the tee's sleeve and chest, with no neckline, chin or jaw. The sides and bottom are tee, arm and blush wall.",
+   "Hand: five digits, all natural. The thumb lies along the top (tip ~(1670,1520)), then index (~(1750,1870)), middle (longest, ~(1685,2020)), ring (~(1540,2060)) and little (~(1340,2040)). Knuckles and creases are natural, and the nails are short and bare-buffed. No rings or watch. The bracelet sits on the wrist of the forearm resting across the waist, where it would really be.",
+   "Visible stones, top to bottom: Y (edge-on) A P Y A P Y (edge-on). No same-colour neighbours, and the metal reads silver. Face-on units have short bead claws at the corners. The two edge-on end units show tall post-like prongs, and the bottom one (~(700-800,1470-1530)) is slightly garbled: a yellow stone with spikes and an aqua sliver. This is invisible at phone size.",
+   "Palette: the white tee is clothing, not a backdrop. Still, ~40% of pixels are bright and low-saturation (RGB ~247,245,245 lit, ~198,189,186 shaded), and the blush wall (RGB ~172-185,136-147,124-132) shows only in the left ~15%. The frame reads white/light grey rather than blush/ivory, so it is borderline on-brand, and the tee is the brightest thing in frame.",
+   "Crop: none fixes it. Cropping out the hand still leaves the units +34% against the wrist.",
+   "Indicative craft score if fixed: ~7.5 (clean but generic e-com; the tee outshines the product)."
+  ],
+  "fix": "This generator keeps the bracelet's size and shrinks the hand, so describe the hand large and the bracelet delicate: 'her hand and fingers large in frame; each coloured stone only half as wide as her fingernail; about seven small squares across the top of her wrist; a slim, delicate 8mm line, never chunky'. Use a blush or ivory knit instead of a white tee, and crop tighter so the bracelet is the brightest thing.",
+  "crop": null
+ },
+ {
+  "plate": "P08_a2",
+  "pass": true,
+  "severity": "minor",
+  "score": 8.0,
+  "reasons": [
+   "Minor (non-blocking): the halo is about twice as wide as the real one. Stone side is ~50-52 px in a unit of ~112 px (pitch ~117 px), so stone/unit is ~0.45 vs ~0.66 on the real piece (listing-7). The halo is 4-6 rows of micro-pave instead of 2 rows. The coloured stones therefore read small in heavy white frames, and each unit is about as wide as the little finger (~0.9 of its ~120 px width, ~11.5-12.5 mm on the finger scale). The line looks chunkier against the slender hand than the wrist proportion suggests.",
+   "Minor (non-blocking): the hand is drawn slim against a broad wrist (wrist span ~630-690 px vs little-finger width ~120 px), so the hand and wrist referents disagree. The verdict rests on the stone and the wrist, which both measure in tolerance (next note)."
+  ],
+  "notes": [
+   "Scale vs wrist (~55 mm, ~7 units): the bracelet spans ~630-690 px from where it turns under the wrist at the top (~(625,1195)) to the bottom (~(955,1740)). That is ~5.6-6.2 unit widths (listing-4: ~5.9), so the unit is ~8.9-9.8 mm (+11-23%). OK.",
+   "Scale vs fingernail: the only nail in frame is the little finger's, cut by the left edge, at ~73 px wide. The stone is ~0.70 of it, i.e. ~5.6 mm against a ~8 mm little-finger nail (+12%), or ~0.56 of a standard 10 mm nail. OK, where r1 measured 0.8-0.87 of the middle and ring nails.",
+   "Face check: no face feature anywhere. The top third is saree fabric, the right edge is the pallu and its blush border, and the left edge is fingers.",
+   "Hand: the back of a left hand. Four fingers (index, middle, ring, little) leave the left edge, and the little finger is the narrowest and shortest. The thumb is hidden on the far side. No extra or fused digits; knuckles and creases are natural and the nails bare. No rings, bangles or henna. The forearm comes out from under a fold of the pallu, which is plausible.",
+   "Colour order along the wrist: Y A P A P Y A P, then a dark partial under the wrist (hues Y 35-46, A 169-191, P 349-8 deg). No same-colour neighbours or extra colours. Square cushion stones, each with four short bead claws at the corners. The metal reads silver with bright pave sparkle, and the side galleries show rectangular windows. The clasp sits on the underside, out of view. Contact shadows fall on the skin.",
+   "Palette: aqua mulmul with a blush border, warm golden skin and warm window light. The frame mean (RGB ~138,143,128) is minty because of the saree's own colour, not a cast: the skin stays warm (hue ~30 deg) and the border reads pink. The top third is a calm mid-tone teal (value ~0.53) that suits white type. No text.",
+   "Ad: the saree-to-stone colour echo reads in one second, with real skin and fabric texture and soft dappled light. Held at 8.0 because the product is small in the 9:16 frame (units ~7% of frame width), the sunlit folds are about as bright as the stones (V p95 0.93 vs 0.96), the fingertips are cut by the left edge, and the heavy halos shrink the colour."
+  ],
+  "fix": "Passes; for a run-as-is 8.5+ version: 'each coloured stone fills about two-thirds of its square; the halo is only a thin double row of pave'. Bring the wrist larger in frame (or crop tighter) with the fingertips inside the frame, and add one hard kicker for a crisp silver edge. Keep the saree, border, light and the calm top third.",
+  "crop": null
+ }
+]

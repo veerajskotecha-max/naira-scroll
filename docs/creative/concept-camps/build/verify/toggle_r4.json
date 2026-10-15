@@ -1,0 +1,93 @@
+[
+  {
+    "plate": "T06_e1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "The requested clasp change was not made, so the clasp is still built wrong (rules 1 and 5). The left chain end still stops in its tiny jump ring (about 30 px, x≈898-935, y≈1650-1680), seated on top of the ring's LEFT gate collar (x≈880-955, y≈1670-1715), exactly as in T06_a1. The pavé bar's upper-left end (flat end at x≈801-818, y≈1642-1666) is bare: no jump ring, ≈85-100 px (≈8 mm) away from that jump ring. Both chain ends therefore still join the ring, one at each gate collar, and the bar is a loose piece lying across the ring's upper left (lower end at ≈(930-950, 1738-1760), over the opening). This toggle could not close the necklace. It shows at a 1.3x tap-to-zoom, and the clasp is the hero of the frame (ring ≈250 px wide).",
+      "The ring is oversized for its own chain and for the kulhad (rule 4). This is inherited from T06_a1, not introduced by the edit. The ring's outer width is ≈248-250 px (x≈810-1060). Face-on links on the kulhad front measure 118-121 px long and ≈40-45 px wide (junction pitch ≈100 px); links beside the ring on the linen measure 114-125 px. The ring is therefore 2.0-2.2 link lengths, against 1.36 in the spec (15 / 11 mm) and 1.2-1.3 in the flat-lay listing photos (cube, velvet), which makes it ≈22-24 mm. The kulhad agrees. Its near wall runs from the rim top at y≈1000 to the base at y≈1578 (578 px). The rim ellipse is 375 x 754 px, so the view is ≈30° from horizontal and the wall's true height is ≈680 px. At 7 cm that is ≈9.7 px/mm, and the ring comes out at ≈24 mm after a ≈6% perspective allowance (+45-60%). Only the cardamom pods (205-215 px, themselves ≈18-19 mm at the chain's scale) put the ring at ≈18 mm (+19%). r2 recorded these links as 150-170 px; measured face-on they are 118-121 px."
+    ],
+    "notes": [
+      "Nothing else drifted structurally, but the edit re-rendered the whole frame: mean absolute difference 6.8 grey levels; after a 3 px blur, p99 is 10 and the maximum 34. The kulhad, chai, steam, pods, the ≈2.5-turn wrap and the right side of the clasp keep their structure; the difference map shows only edge-level re-render outlines there. The linen weave was redrawn in a full-width band at y≈1650-2050 (absolute difference 15-29, signed +6 to +9 in R), and the lower third is slightly warmer (+5 to +9 R). Neither change is visible at phone size.",
+      "The bar's stones regressed. T06_a1 had one row of 10 crisp round stones. T06_e1 has ≈10 fuzzy clusters of 2-4 micro-beads, which read as a granular strip two or three stones wide at 3-5x. At phone size it still reads as a sparkly bar.",
+      "Bar length is unchanged: ≈168 px projected and ≈180 px corrected for foreshortening, 0.67-0.72x the ring (target 0.6, fail line 0.8). It is straight and flat-ended. Nothing sits under the bar and nothing hangs from the ring.",
+      "The ring itself is built right: a thick polished tube with flat-cut collars either side of a slimmer gate wire across the top. The right chain joins by a jump ring around the tube beside the right collar. A ball push-pin nub sits at ≈3-4 o'clock on a grooved collar (x≈1065-1105, y≈1775-1795).",
+      "The links are open, elongated paperclip links in one continuous chain, with no second necklace. No text, logo or watermark. Blush linen, terracotta kulhad and low warm sun. Gold median hue is 28° (T06_a1 31°, listing photos 25°).",
+      "Ad read (not scored, because it fails): the same as T06_a1. With the clasp built right and the ring at true size this would be about 8.7, as r2 judged."
+    ],
+    "fix": "Do not run another whole-frame edit: the model re-rendered everything and ignored the clasp instruction. Use a masked inpaint limited to x≈780-970, y≈1590-1780 (the bar, the left chain's last link and the left gate collar), with ref-clasp.jpg as reference. (1) Remove the small jump ring from the ring's left gate collar, leaving that collar bare and flat-cut. (2) End the left chain's last link in a small smooth round jump ring that passes through a hole at the bar's upper-left end, outside the ring at about 10-11 o'clock. (3) Keep the bar straight and flat-ended, shorten it to ≈150 px (0.6 of the 250 px ring), and restore ONE row of ≈9 crisp round stones as in T06_a1, with its lower end over the ring's opening. Leave the right jump ring, the push-pin and the rest of the frame untouched. If regenerating instead, also bring the ring to true size: about 1.4 link lengths, about one fifth of the kulhad's height (≈15 mm).",
+    "crop": null
+  },
+  {
+    "plate": "T07_a1c.png",
+    "pass": true,
+    "severity": "none",
+    "score": 8.6,
+    "reasons": [],
+    "notes": [
+      "The crop fixed the face fail. T07_a1c is a pixel-exact crop of T07_a1 at [0, 380, 1539, 2304] (maximum absolute difference 0): 1539 x 1924 px, 4:5 to within 0.2 px. In the original, the chin silhouette ends at ≈(550-600, 300) and the under-jaw shadow edge on the neck sits at y≈300-340 (x 600-900), so the cut at y=380 clears it by at least 40 px. Every edge checked: the top shows blush wall, the lit neck (x≈680-880) and the shaded neck (x≈880-1435); the top-right corner (x≈1435-1539, y 0-35) is the white shirt collar, not hair or an ear; the left edge is wall, shirt and hand; the right edge is shoulder skin, chain, collar and shirt; the bottom is forearm, shirt, placket and chest. No eye, brow, nose, lips, chin, jaw or ear anywhere.",
+      "The clasp is still clear and faithful (crop coordinates). The ring is ≈151 px (x≈850-1001), with a flat-cut left collar (x≈875-918, y≈820-855) and a slim gate wire across the top. The right chain joins by a jump ring around the tube beside the right collar (x≈955-1000, y≈830-870). A ball push-pin sits at ≈3 o'clock (x≈1003-1020, y≈880-892) above a grooved collar. The bar hangs from its own small jump ring (x≈810-842, y≈800-835) on the left chain end and lies across the ring's upper left, with its end over the opening. It is ≈96 px long (0.64x the ring), flat-ended, with ONE row of ≈7-8 stones. Nothing sits under the bar and nothing hangs from the ring. Gold median hue is 22°.",
+      "Scale is within tolerance but reads a touch big next to the hand. Ring to link: face-on links on the right strand are 88-90 px, so the ring is 1.7 link lengths (spec 1.36, on-body listing ≈1.65-1.8), about +25% on the spec. Ring to neck is ≈0.17, against ≈0.18-0.19 in the on-body listing photo. The index fingertip measures ≈98-110 px across its axis (nail included), so the ring is ≈1.4-1.6 fingertips. That comes from a slender hand rather than a large ring: the curled fingers are ≈75-80 px wide with nails ≈40-52 px, about 3 curled-finger nails to the ring. At phone size the hand reads natural and elegant.",
+      "One continuous chain: the left strand passes behind the neck's left edge and the right strand leaves at the top-right corner. Open paperclip links. No rings, bracelet or earrings. No text, logo or watermark; the placket's buttonhole is the only mark. Blush wall at the upper left (RGB ≈208/186/174, hue ≈21°), ivory linen, warm window light.",
+      "Ad: the hand-at-the-clasp gesture reads in one second and puts the eye on the toggle. Warm soft light with a crisp specular on the ring, real skin and linen texture, and the clasp is the clearest, highest-contrast point (ring ≈106 px on a 1080 feed). The calm blush field at the upper left (≈x 0-640, y 0-560) takes a headline. It is held below hero level by the ivory shirt, the largest and brightest area (p95 luminance 0.94 against 0.84 on the clasp), and by a classic rather than witty concept."
+    ],
+    "fix": "Runs as-is. Optional: say '15 mm clasp' in the copy or product tag, because the ring reads about one and a half fingertips wide next to the slender hand.",
+    "crop": null
+  },
+  {
+    "plate": "T08_a2.png",
+    "pass": false,
+    "severity": "critical",
+    "score": null,
+    "reasons": [
+      "Face visible (rule 3). The chin is at the top left: its silhouette runs x≈440-700, y 0-370, and it meets the neck at ≈(650-680, 350-370). The underside of the jaw lies in shadow across the top (x≈700-1500, y 0-330). The right ear fills the top-right corner (x≈1530-1856, y 0-200, lobe ending ≈(1600-1700, 200)); it has no earring.",
+      "The clasp has changed: the bar is a long T-bar (rule 1). The pavé bar runs from ≈(855,1695) to ≈(1040,1508), ≈272 px, straight across the whole ring and out past both sides (≈60-70 px beyond the ring at the lower left). The ring is ≈142-147 px (x≈878-1020, y≈1525-1672), so the bar is ≈1.9x the ring against 0.6x, with a single row of ≈17 stones. At phone size it reads as a classic bar-through-ring toggle, the 'never a plain T-bar' case.",
+      "Garbled connector and gate (rule 1). The right chain's last link runs alongside the bar's upper end and ends in a lumpy, granulated connector fused under the bar at ≈(1015-1045, 1545-1565). The gate is drawn as a slim section down the ring's right side, with a ball-ended post standing up at ≈1 o'clock (≈995-1005, 1515-1545) and a band at ≈4-5 o'clock. It is not the flat-cut collared gate at the top with the nub a quarter turn away. Only the left chain joins the ring, by a small jump ring at ≈10-11 o'clock (≈875-900, 1520-1545).",
+      "The links are drawn too long and thin (rule 1). On the right strand the junction pitch is ≈100-108 px, the outer length ≈117 px and the rails ≈21 px across: about 5:1. On the left strand the pitch is ≈77-83 px with rails ≈20 px across: about 4.7:1. The real links are 4 x 11 mm (2.75:1). Against the ring, the chain reads ≈2 mm wide instead of 4 mm."
+    ],
+    "notes": [
+      "Scale against the body is right: the ring is ≈145 px on a neck ≈820-830 px wide at y≈576 (x≈690-1520), so ring to neck is ≈0.175, against ≈0.18-0.19 in the on-body listing photo. Ring to link is ≈1.24.",
+      "One continuous chain over the knit, both strands going up and around the neck (left strand at x≈604-668; right strand reaching x≈1590 at y≈800). No second necklace and no text. Warm gold (median hue 31°). The ivory rib knit is at true scale, with blush wall at the upper left.",
+      "The prompt put the top edge 5 cm above the collarbones with the head tilted up and away. The model still drew the chin, jaw and ear, as it did in T08_a1."
+    ],
+    "fix": "Reshoot. Restate the clasp in one line the model cannot read as a T-bar: 'the bar is SHORT, about 0.6 of the ring's width; it hangs by its end from a small jump ring on the left chain end and lies only across the ring's upper-left quarter, its lower end over the opening and never reaching the far side of the ring; the gate is at the top, between two flat-cut collars, with the ball push-pin a quarter turn away; only the right chain end joins the ring, by a smooth round jump ring beside the gate.' Ask for 'paperclip links 4 x 11 mm, about three times as long as wide'. For the face, plan to crop: generate with the clasp in the lower-middle third and about 25% headroom, then crop away everything above mid-neck, or frame from slightly above, looking down at the collarbones. Keep the ivory rib knit, the light and the palette.",
+    "crop": {
+      "box_xyxy": [168, 404, 1688, 2304],
+      "size_px": [1520, 1900],
+      "aspect": "4:5",
+      "face_free_below_y": 404,
+      "clasp_survives": "Yes. The clasp lands at crop ≈(687-882, 1096-1291), about 45-58% across and 58-68% down. Checked on a rendered crop: the top strip shows only wall, neck and hair.",
+      "est_score_after_crop": null,
+      "rescues_plate": false,
+      "why_not": "The crop removes the chin, jaw and ear but not the long T-bar, the lumpy connector or the thin links, so the plate still fails rule 1. As a photograph the cropped frame would be about 8.0: calm, cosy and on palette, but the ivory knit outshines the gold."
+    }
+  },
+  {
+    "plate": "T09_a2.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Face visible (rule 3). The chin is at the top centre-left: its silhouette runs from (585,0) round to its underside at y≈240-270 (x≈700-1000). The underside of the jaw lies in deep shadow across x≈1000-1536, y 0-380, and meets the throat at ≈(1100-1140, 330-390); its shadow edge on the neck sits at y≈380-420 (x 1120-1320). No lips or ear in frame. The prompt asked for the neck to rise out of the top-right corner with the head entirely outside the frame."
+    ],
+    "notes": [
+      "The clasp is faithful, the best toggle in this round. The ring is ≈156-160 px (x≈1236-1395, y≈1607-1763), with a flat-cut collar at ≈11 o'clock (≈1280-1320, 1600-1635) and a slim gate wire across the top. A right collar sits at ≈1 o'clock, with the right chain's jump ring around the tube beside it (≈1350-1400, 1610-1700). A ball push-pin sits at ≈3 o'clock (≈1405-1420, 1680-1695) above a grooved collar. The bar hangs by its end from its own small round jump ring (≈1215-1250, 1575-1612) on the left chain end and lies across the ring's upper left, with its lower end over the opening. It is ≈116 px, 0.73x the ring (slightly long; fail line 0.8), flat-ended, with ONE row of ≈8-9 stones. Nothing sits under the bar and nothing hangs from the ring. Gold median hue is 22°.",
+      "The links are open paperclip links, ≈80-90 x 25-28 px, so ring to link is ≈1.8-2.0: on the chunky side of the on-body listing (≈1.65-1.8) and +30-45% on the 1.36 spec. Scale against the neck cannot be measured, because the neck runs off the right edge (the visible part alone is at least 410 px).",
+      "One continuous chain: the left strand climbs the neck and passes behind it at ≈(1080-1100, 900-950), and the right strand leaves the right edge at y≈1540-1600. No other jewellery. No text, logo or watermark.",
+      "Skin: the chest and shoulder are covered in dense, small raised bumps (≈3-6 px papules, for example at x 700-1300, y 1800-2400) that read as goosebumps at phone size. This is not a fail, but it costs realism.",
+      "Light and palette are lovely: low warm sun on deep brown skin, peach silk and blush wall, with the gold as the brightest point."
+    ],
+    "fix": "Reshoot rather than run the crop; even after retouching the bumps the crop sits at the run line at best. Keep this clasp build exactly. Frame so the top edge crosses mid-neck below the jaw shadow, with the head turned fully away and out of frame (for example 'shot from behind her right shoulder, looking down onto the collarbone'), or generate with about 20% extra headroom and crop. Ask for 'smooth, even skin with fine pores, no goosebumps, no bumps', and place the clasp on the right third line rather than near the edge. Optionally ask for the ring at about 1.5 link lengths.",
+    "crop": {
+      "box_xyxy": [240, 448, 1536, 2752],
+      "size_px": [1296, 2304],
+      "aspect": "9:16",
+      "face_free_below_y": 448,
+      "clasp_survives": "Yes, clearly. The ring is ≈159 px, 12% of the crop's width (≈133 px on a 1080-wide story), at crop ≈(996-1155, 1159-1315): 77-89% across and 50-57% down. Checked on a rendered crop: the top strip shows only blush wall and neck.",
+      "est_score_after_crop": 8.0,
+      "rescues_plate": false,
+      "why_not": "It is face-free and on palette but scores about 8.0, below the 8.5 run line. The goosebump-like texture across the chest stands out at phone size. The largest 9:16 box pushes the clasp towards the right edge, with the right strand leaving the frame ≈140 px from it. The ring reads a touch chunky (≈1.9 link lengths). A calm wall remains at the top left for a headline (≈crop x 0-880, y 0-650)."
+    }
+  }
+]

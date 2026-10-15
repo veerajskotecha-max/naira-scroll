@@ -1,0 +1,85 @@
+[
+ {
+  "plate": "P02_a2",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Whole bracelet shown end to end again. The prompt asked the strip to enter at the top edge and leave at the bottom edge with no clasp in frame, but both clasp halves are inside the frame: the open receiving frame at x~705-850, y~312-412 and the frame with its opened fold-over latch at y~2352-2522. Between them are only 13 stones, top to bottom A P Y P A Y P A P Y P A Y, against 20 on the real piece (listing-6): 7 missing (-35%).",
+   "Length/proportion: 13 stone centres from y 478.5 to 2283.5 give a pitch of 150.4 px. End to end (y 312-2522) is 2210 px = 14.7 pitches vs ~21.5 for the real 18 cm piece. At the true ~8.4 mm pitch this is a ~12.3 cm bracelet (-32%, below the 15 cm minimum of the adjustable range); read as 18 cm, each unit would be ~12.2 mm (+46%)."
+  ],
+  "notes": [
+   "Stones are right: 13 square cushions, no same-colour neighbours, no extra colours, nothing clear or round. Each sits in its own halo of fine bright pave (about 3 rows of very fine stones vs about 2 larger rows on listing-7, the same minor note as P01) with four short bead claws. Bright rhodium with hard glints on the clasp. Unit 138 px, stone 89 px (ratio 0.65; real ~0.65-0.69).",
+   "Clasp type is correct: the receiving rectangular frame with cross-bar at the top end and the frame with the hinged latch plate folded open at the bottom end (matches listing-3/6). Laid open for a flat lay, so an open clasp is fine.",
+   "Referent (bands, stated ~6 cm): band depths are aqua ~373-438 px, pink 409-416 px, yellow 428-430 px, so ~2.8 pitches or ~3.05 unit widths each. That is ~24 mm at true scale; read as 6 cm bands, the units would be ~19.7 mm (+146%). Following r1 (P01 passed with band-implied +235%), I treat a poured rangoli stripe as a soft referent: it has no fixed width, so a shopper cannot read size from it. Powder grains are 2-3 px = ~0.11-0.17 mm at 17.9 px/mm, consistent with fine powder at true scale. If the 6 cm band is meant as a hard referent, this plate also fails scale at +146%, and no crop fixes it.",
+   "Floor is warm ivory (RGB ~229-253 / 214-239 / 202-224; hue 26-31 deg, sat 0.09-0.12, value 0.90-0.99), the same as the r1 ivory floors judged on-brand. Bands are pastel aqua, pink and butter. No text. Physics fine: the strip presses a straight groove with ridges of powder along both sides, there are soft contact shadows, and nothing floats. The top fifth is bare floor as asked (y 0-575), but the clasp frame sits in it.",
+   "Ad (indicative, if the count were right): ~8.5. The 'colour, ruled into one straight line' idea reads in one second; graphic and on-palette, with soft overhead light and a few hard glints on the metal.",
+   "Crop [192,440,1255,2330] (1063x1890, 9:16) cuts through the first and last halos, with the stones just inside, so the strip runs off the top and bottom edges and no clasp metal is in frame. That leaves 12 pitches in view, the same run-off-the-edges composition as P01, and an estimated 8.5. Its cost: only ~8% bare floor remains at the top, so the headline sits on the aqua band (dark type works, as on P01). It needs a ~1.6% upscale to 1080x1920. The crop rescues the plate only under the r1 soft-band reading above."
+  ],
+  "fix": "Run the 9:16 crop, or reshoot with the strip longer than the frame: 'the bracelet is longer than the frame is tall; the top and bottom edges of the frame each cut through a stone; no clasp and no end anywhere in frame; about 12-14 stone units visible'. If the bands must read as 6 cm: 'each powder band about seven stone-units deep'.",
+  "crop": [
+   192,
+   440,
+   1255,
+   2330
+  ]
+ },
+ {
+  "plate": "P03_a2",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Missing clasp: the free end of the strand lies in plain view on the linen and stops at a bare stone unit (yellow, x~190-350, y~1797-1943). Its outer side has no clasp half, no link and no hinge knuckle (checked at 3-4x); there is only linen beyond it. The real piece carries one half of the fold-over box clasp at each end (listing-3/6), and r1's P03 showed the opened clasp right here. The other end is lost in the defocused curl inside the bowl, so no clasp is visible anywhere and the piece reads as having none (rule 1, parts missing)."
+  ],
+  "notes": [
+   "Sequence from the free end: Y A P Y A P down the spill to the rim, then A Y P Y A Y along the in-focus bowl front, then ~6-7 defocused units at the back of the bowl showing their gallery sides. No same-colour neighbours and no extra colours among the 12 readable stones; the back units' colours can't be read. Square cushion stones, each in a 2-3-row bright pave halo with four short bead claws (short posts in side view, as in listing-0). The side galleries with rectangular windows match listing-0/3. Bright rhodium with warm hard glints.",
+   "Scale vs seeds (referent ~5 mm): face-on units in the bowl are ~150-158 px with stones ~95-100 px. The longest whole seeds beside them are ~95-100 px, i.e. ~5.2 mm at the 8 mm unit calibration (+4%). Seeds on the linen are 100-127 px vs units ~160 px, 5.0-6.4 mm. Within 30%. Seeds are slimmer than r1 (about 3.5:1, ~1.7 mm thick) and read as sugar-coated saunf.",
+   "Palette: the headline zone (top ~35%) is a pale, greyed mauve-blush (RGB ~217,204,203; hue 0-3 deg, sat 0.06, value 0.85). It is pink-tinted, not neutral grey, beige or tan, so not a rule-7 fail, but it is duller and lower-key than the high-key pale blush asked. The linen runs from pale blush to sunlit peach (RGB 245,226,219 to 215,179,160; hue 15-21 deg); the bowl is a cream glaze.",
+   "Physics fine: a plausible drape over the rim, units settle into the seeds, contact shadows on the linen. One continuous strand; no text, no spoon, no second piece.",
+   "Ad (indicative, if the clasp were right): ~8.0. The warm low sun and hard glints are lovely, and the colour echo with the mukhwas reads. It is held down because the pastel seeds still camouflage the stones in the bowl, the defocused back of the curl reads as a jumble of silver galleries, the bright cream bowl competes with the product, and the top is greyed rather than clean blush.",
+   "Crop: [430,0,1856,1783] (4:5, 1426x1783) would put the clasp-less end out of frame, with the spill running off the bottom-left corner and the top ~39% kept for the headline. It still scores only ~8.0, so it is not a rescue; crop set to null."
+  ],
+  "fix": "End the strand on the linen in the opened fold-over box clasp half (rectangular frame with hinged latch plate), or run the spill off the frame's lower-left edge. Keep every unit face-up in the curl. Use a shallower layer of seeds, or ivory/white seeds in the bowl, so the stones sit proud and read as the brightest thing. A high-key pale blush backdrop, not grey-mauve. Keep the low warm sun and hard kicker.",
+  "crop": null
+ },
+ {
+  "plate": "P04_a2",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale vs the closed loop (referent: an 18 cm bracelet is ~62 mm across outer, ~7.75 unit widths). Measured with the front A unit rotated level, a face-on unit is 123.5 px outer (stone 82.5 px, ratio 0.67), with a pitch of ~127.5 px. The loop's outer extremes are at x~454 (y~1175) and x~1038 (y~890), 584 px across and ~650 px along the tilted major axis. So the loop is only ~5.3 unit widths across (~5.5 after allowing ~5% for the front units sitting nearer the camera), vs ~7.75: units are +40-47% too big for the loop. At true 8 mm units the loop is ~42-44 mm across, a bracelet of only ~11 cm.",
+   "Count agrees: the front arc between the two side-on extremes holds P A P A Y A P, ~6.4 pitches, so the whole loop is ~12.7 pitches, about 12 stones plus clasp vs 20 plus clasp (-40%). This is the same failure as r1's P04_a1 (4.8-5.0 unit widths), only slightly improved.",
+   "Halo finish (would also need fixing): matched at the same unit size against listing-7, each halo is a field of ~1-px micro-dots that reads as grey stippled metal. Listing-7 shows about 2 rows of distinct, bright clear pave stones (~1/7 of the unit wide); P02/P05 show fine but sparkling pave. Overall brightness is similar (halo mean luminance 140 vs 143-155 on listing-7), so this is texture, not exposure. At phone size the halos read as dull grey frames rather than a pave halo.",
+   "Off-brand (rule 7, borderline): the wall is a light beige (RGB ~213,193,176; hue 28-29 deg, sat 0.15-0.17, value 0.83-0.85), and the shaded ledge front is tan (RGB ~184,158,132; sat 0.28, value 0.72). Frame mean is hue 31 deg, sat 0.19. That is paler than r1's tan wall (RGB ~207,180,148, sat 0.24-0.29) but clearly darker and yellower than the on-brand ivory floors (sat 0.10-0.12, value 0.92-0.99), and not the ivory-blush asked."
+  ],
+  "notes": [
+   "Front stones, left to right: P (side-on) A P A Y A P. No same-colour neighbours, no extra colours. Square cushions with four short claws. The back-left units show their galleries with a yellow stone visible through one window, which is physically right for a loop round a bottle. The clasp is not visible (behind the neck), so it is not judged.",
+   "The loop tilts ~25 deg on the aqua bottle's shoulder, resting against the neck at the right and lower at the left. That is a plausible drape for a loose loop; no floating.",
+   "Bottles are plain tinted glass: no text, caps, corks, labels or embossing (checked necks, bodies and bases). Soft window light from the left throws pastel caustics on the ledge. The sheer white curtain at the far left is the brightest area in the frame.",
+   "Ad (indicative, if fixed): ~8.0. The light and glass are lovely and the bottle colours echo the stones, but the bracelet is small in the upper-left centre and its grey-textured halos make it the dullest metal in the frame.",
+   "Crop: none. The loop-to-unit proportion is intrinsic, so no crop fixes the scale."
+  ],
+  "fix": "Make the bottle carry the scale: 'a slim aqua bud bottle whose neck is about 2cm and whose shoulder is only about five stone-units wide; the bracelet of twenty small stones hangs loose around it, the closed loop about 6cm across, about eight stone-widths across'. Specify the halo: 'two rows of distinct tiny clear sparkling pave stones, bright white, never grey grit or matte texture'. Use a pale ivory-blush wall (about RGB 240,225,215), never beige or latte, and a paler, lighter ledge.",
+  "crop": null
+ },
+ {
+  "plate": "P05_a2",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale vs pencils (hard referent, ~7 mm thick): 18 pencils touch side by side from x~247 to x~1645, ~77.7 px each (75-78 px on the boundaries mid-field), so ~11.1 px/mm. A face-on unit is ~150-157 px (mean ~154) and a stone ~98-100 px, with a pitch of ~169 px from the stone centres (Y417 to Y1614 over 7 intervals = 171; Y417 to A1757 over 8 = 167.5). So a stone-in-halo spans ~1.98 pencils against the ~1.1 expected: ~13.9 mm vs 8 mm (+73-80%). The stone is ~8.9 mm vs 5 mm (+78%) and the pitch ~15.2 mm vs ~8.4 mm (+81%). The line crosses one stone every ~2.2 pencils, not one per pencil as prompted, and it is worse than r1's P05 (+34-43%)."
+  ],
+  "notes": [
+   "Strip runs off both side edges as asked: halo slivers at x 0-25 and x~1847-1856, no clasp in frame, so the count is not shown. 11 full stones, left to right A P Y A Y P Y A P Y A: no same-colour neighbours, no extra colours, nothing clear or round. Each sits in a bright halo of fine pave (about 3 rows, finer than listing-7's 2) with four short bead claws, with small links between units. Bright rhodium. Stone/unit 0.64.",
+   "Pencils, left to right: A P O(peach) Y A P O Y A A P Y A P Y A P Y. 18 as asked, with peach pencils and two neighbouring aquas (prop note only). Unbranded: no lettering, foil or print on any body or tip (checked at 1x across the field). Three shaving curls, no clutter.",
+   "Paper is warm ivory (RGB ~245,232,218 top to ~231,219,208 bottom; hue 28-33 deg, sat 0.10-0.12, value 0.91-0.96), on-brand. The top third is calm paper for a headline. Soft top light with crisp glints, contact shadows on the pencils, nothing floating, no text.",
+   "Ad (indicative, if fixed): ~8.5. Graphic, on-palette and witty (stones lined up like a pencil box), with a calm headline space.",
+   "Crop: none. The pencils span the frame, so every crop keeps the 2:1 stone-to-pencil error."
+  ],
+  "fix": "Lock the count to the pencils: 'exactly one stone centred on each pencil; the bracelet's stones line up one-for-one with the eighteen pencils, each stone-in-halo exactly one pencil wide, its halo edges meeting the pencil edges; the stone itself narrower than the pencil'. Or use fewer pencils (about 10) and say 'ten stones across ten pencils, one per pencil'. Keep the run-off-both-edges framing, the ivory paper and the calm top third.",
+  "crop": null
+ }
+]
