@@ -25,6 +25,12 @@ def tracked(c, text, font, size, x, y, spacing=0.2, color=INK, align="left"):
     for ch in text:
         c.drawString(x, y, ch); x += pdfmetrics.stringWidth(ch, font, size) + size * spacing
 
+def pdfjpg(p):
+    # The PDF embeds a quality-86 copy so it stays under the 16 MB artifact limit; the full-quality JPGs are on the page.
+    q = f"{SPB}/ads/pdfjpg/{os.path.basename(p)}"; os.makedirs(os.path.dirname(q), exist_ok=True)
+    if not os.path.exists(q) or os.path.getmtime(q) < os.path.getmtime(p): Image.open(p).save(q, quality=86, optimize=True)
+    return q
+
 def main():
     out = sys.argv[1]; os.makedirs(out, exist_ok=True)
     ads = json.load(open(f"{HERE}/ads.json"))["ads"]
@@ -45,13 +51,13 @@ def main():
         row = ads[i:i + cols]; rh = 0
         for k, a in enumerate(row):
             p = f"{SPB}/ads/out/{a['id']}.jpg"; w, h = Image.open(p).size; th = cw * h / w
-            c.drawImage(ImageReader(p), 60 + k * (cw + gx), y - th, cw, th); rh = max(rh, th)
+            c.drawImage(ImageReader(pdfjpg(p)), 60 + k * (cw + gx), y - th, cw, th); rh = max(rh, th)
             s = score.get(a["id"]); tracked(c, a["id"] + (f"  ·  {s:.1f}" if s is not None else ""), "Jost", 10, 60 + k * (cw + gx), y - th - 18, 0.1, MUTE)
         y -= rh + gy
     c.showPage()
     for a in ads:
         p = f"{SPB}/ads/out/{a['id']}.jpg"; w, h = Image.open(p).size
-        c.setPageSize((w, h)); c.drawImage(ImageReader(p), 0, 0, w, h); c.showPage()
+        c.setPageSize((w, h)); c.drawImage(ImageReader(pdfjpg(p)), 0, 0, w, h); c.showPage()
     ctl = [a for a in json.load(open(f"{HERE}/controls.json"))["ads"] if os.path.exists(f"{SPB}/ads/out/{a['id']}.jpg")]
     if ctl:
         c.setPageSize((1080, 1350)); c.setFillColor(PAPER); c.rect(0, 0, 1080, 1350, stroke=0, fill=1)
@@ -63,7 +69,7 @@ def main():
         c.showPage()
         for a in ctl:
             p = f"{SPB}/ads/out/{a['id']}.jpg"; w, h = Image.open(p).size
-            c.setPageSize((w, h)); c.drawImage(ImageReader(p), 0, 0, w, h); c.showPage()
+            c.setPageSize((w, h)); c.drawImage(ImageReader(pdfjpg(p)), 0, 0, w, h); c.showPage()
     c.save(); print(pdf, round(os.path.getsize(pdf) / 1e6, 1), "MB")
 
 if __name__ == "__main__":
