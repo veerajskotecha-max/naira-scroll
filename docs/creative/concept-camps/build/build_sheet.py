@@ -105,14 +105,17 @@ for f in frames: del f["sort"]
 
 # Finished ads: each keeper with its copy set (finished-ads/build_ads.py), scored by the newest review_r*.json.
 FA = os.path.normpath(os.path.join(HERE, "..", "..", "finished-ads"))
-reviews = sorted(glob.glob(f"{FA}/review_r*.json"), key=os.path.getmtime)
+# A score shows only if the reviewer saw this exact version of the ad: review_rN.sig.json snapshots each ad's settings at review time.
+reviews = sorted(glob.glob(f"{FA}/review_r[0-9].json") + glob.glob(f"{FA}/review_r[0-9][0-9].json"), key=os.path.getmtime)
 REV = {r["id"]: r for r in json.load(open(reviews[-1]))} if reviews else {}
+SIG = json.load(open(reviews[-1][:-5] + ".sig.json")) if reviews and os.path.exists(reviews[-1][:-5] + ".sig.json") else {}
+def adsig(a): return json.dumps({k: v for k, v in a.items() if k not in ("id", "src")}, sort_keys=True, ensure_ascii=False)
 byid = {f["id"]: f for f in frames}; finished = []
 os.makedirs(f"{OUT}/ads", exist_ok=True); os.makedirs(f"{OUT}/at", exist_ok=True)
 for a in json.load(open(f"{FA}/ads.json"))["ads"]:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
     if not os.path.exists(src) or a["id"] not in byid: continue
-    fr, r = byid[a["id"]], REV.get(a["id"], {}); im = Image.open(src); w, h = im.size
+    fr, r = byid[a["id"]], (REV.get(a["id"], {}) if SIG.get(a["id"]) == adsig(a) else {}); im = Image.open(src); w, h = im.size
     shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
     im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
     finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a['id']} · finished ad", kind="Finished ad",

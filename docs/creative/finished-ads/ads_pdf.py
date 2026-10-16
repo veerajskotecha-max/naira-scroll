@@ -28,8 +28,11 @@ def tracked(c, text, font, size, x, y, spacing=0.2, color=INK, align="left"):
 def main():
     out = sys.argv[1]; os.makedirs(out, exist_ok=True)
     ads = json.load(open(f"{HERE}/ads.json"))["ads"]
-    reviews = sorted(glob.glob(f"{HERE}/review_r*.json"), key=os.path.getmtime)
-    score = {r["id"]: r["score"] for r in json.load(open(reviews[-1]))} if reviews else {}
+    reviews = sorted(glob.glob(f"{HERE}/review_r[0-9].json") + glob.glob(f"{HERE}/review_r[0-9][0-9].json"), key=os.path.getmtime)
+    sigf = reviews[-1][:-5] + ".sig.json" if reviews else ""
+    sig = json.load(open(sigf)) if sigf and os.path.exists(sigf) else {}
+    cur = {a["id"]: json.dumps({k: v for k, v in a.items() if k not in ("id", "src")}, sort_keys=True, ensure_ascii=False) for a in ads}
+    score = {r["id"]: r["score"] for r in json.load(open(reviews[-1])) if sig.get(r["id"]) == cur.get(r["id"])} if reviews else {}
     pdf = f"{out}/Naira-Ready-To-Run-Ads.pdf"
     c = canvas.Canvas(pdf); c.setTitle("Naira Petite · Ready-to-run ads"); c.setAuthor("Naira Petite")
     PW, PH = 1200, 1700; c.setPageSize((PW, PH)); c.setFillColor(PAPER); c.rect(0, 0, PW, PH, stroke=0, fill=1)
