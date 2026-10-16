@@ -1,0 +1,46 @@
+<title>Edition Two Ads</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Jost:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f7f2ea;--card:#fffcf6;--ink:#1a1614;--muted:#76685b;--line:#e7dccb;--run:#2f6b4f;--run-bg:#e2efe6;--fix:#8a5a12;--fix-bg:#f6ead3;--code:#efe5d6;
+--serif:"Cormorant Garamond",Georgia,serif;--sans:"Jost",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171310;--card:#211b16;--ink:#f3eadc;--muted:#a8998a;--line:#382f27;--run:#9ad3b2;--run-bg:#1f3428;--fix:#efc27a;--fix-bg:#3a2c14;--code:#2b241e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171310;--card:#211b16;--ink:#f3eadc;--muted:#a8998a;--line:#382f27;--run:#9ad3b2;--run-bg:#1f3428;--fix:#efc27a;--fix-bg:#3a2c14;--code:#2b241e;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans)}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 60px}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(34px,6vw,52px);line-height:1.02;margin:0;text-wrap:balance}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.lede{max-width:70ch;color:var(--muted);margin:12px 0 0}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.chip{font:500 13px var(--sans);border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;align-items:start}
+.ad{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;min-width:0}
+.ad img{display:block;width:100%;height:auto}
+.meta{padding:12px 14px 14px}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sc{font:600 15px var(--sans);border-radius:8px;padding:2px 8px;background:var(--code)}
+.sc.run{background:var(--run-bg);color:var(--run)}.sc.fix{background:var(--fix-bg);color:var(--fix)}
+code{font:12px ui-monospace,Menlo,monospace;background:var(--code);padding:1px 6px;border-radius:5px}
+.fmt{font-size:12px;color:var(--muted);margin-left:auto}
+.h{font-family:var(--serif);font-size:22px;line-height:1.1;margin:10px 0 2px}
+.c{font-family:var(--serif);font-style:italic;font-size:17px;margin:0;color:var(--muted)}
+.s,.t{font-size:12.5px;color:var(--muted);margin:8px 0 0}
+details{margin-top:8px;font-size:13px}summary{cursor:pointer;font-weight:500}
+ul{padding-left:18px;margin:6px 0 0}li{margin:4px 0}
+.hidden{display:none!important}
+</style>
+<div class="wrap">
+<p class="eyebrow">Naira Petite · Meta · Edition Two launch</p>
+<h1>Edition Two ads</h1>
+<p class="lede">%%N%% finished ads in the brand layout. Each pairs one new piece, at its true size, with an Indian thing of the same scale, using the account's winning formula: a culture-rhyme headline, then a lowercase "X, not Y" correction. Copy uses listing facts only. Scores come from independent review rounds; %%RUN%% are currently at "run" (9+). Nothing has been placed in Meta.</p>
+<div class="bar" role="toolbar" aria-label="Filter ads"><button class="chip" data-f="all" aria-pressed="true">All</button><button class="chip" data-f="run">Run (9+)</button><button class="chip" data-f="fix">Fix</button><button class="chip" data-f="4x5">Feed</button><button class="chip" data-f="9x16">Story</button></div>
+<div class="grid" id="g">
+%%CARDS%%
+</div>
+</div>
+<script>
+(function(){var c=[].slice.call(document.querySelectorAll('.chip')),a=[].slice.call(document.querySelectorAll('.ad'));
+c.forEach(function(b){b.addEventListener('click',function(){c.forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');var f=b.getAttribute('data-f');
+a.forEach(function(el){var s=f==='all'||el.getAttribute('data-v')===f||el.classList.contains(f);el.classList.toggle('hidden',!s)})})})})();
+</script>
