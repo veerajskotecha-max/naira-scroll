@@ -1,0 +1,52 @@
+[
+  {
+    "plate": "W06_a2.png",
+    "pass": false,
+    "severity": "critical",
+    "score": null,
+    "reasons": [
+      "EYEBROW IN FRAME (rule 3), at the face profile left of the ear. The eyebrow tail is a dark crescent on the brow-ridge silhouette at x 579-593, y 601-646 (min L 61 against the wall's L about 188), clear of the hairline. An eyebrow is an automatic fail.",
+      "EYELASHES IN FRAME (rule 3). The upper lashes fan out past the cheek contour onto the blush wall at x 575-620, y 718-748 (min L 81). On a 1080-wide phone frame this is about 26x17 px and plainly legible.",
+      "JAWLINE IN FRAME (rule 3). Directly under the hoop, the lower border of the jaw is a sharp skin-to-wall silhouette (skin L 121-150 above, wall L 179-196 below). Traced edge: (740,1307), (760,1315), (800,1317), (840,1320), (880,1320), (900,1324), where it meets the neck. At the jaw corner, about (715,1290), it turns up into the cheek contour, which runs through x 646-692 (y 1120-1240) and x 601-613 (y 800-960) to the lashes. The jaw border is about 180 px long (about 105 px at phone size).",
+      "Cause: the head is turned only about 110-120 deg from the camera. This is a lost profile, not a back view, so the whole face outline from brow to jaw sits against the wall on the face side of the ear."
+    ],
+    "notes": [
+      "Braid faithful (3x crop, ring x 750-912, y 947-1134). A thick, open, interlaced braid of 2-3-wire bundles over a fine textured core, with raised ridges and crisp detail. Not a smooth tube, a simple twist or a chain. No stones.",
+      "Disc correct. One flat round disc hangs under the latch post on the right, seen obliquely as a lens about 22x55 px (x 855-884, y 969-1025). That is about 0.35 of the ring height, against about 0.30 on the piece. Lab L 80, C 31, h 75; listing discs are L 84-89, C 28-31, h 84. It reads as pale, mirror-polished gold, not enamel, stone or amber.",
+      "Closure correct (10x crops). On the left, the hinge end is seen side-on with the wire stub entering the lobe (x 790-813, y 946-956). On the right, a latch post has the wire crossing its notch, with the tip protruding (x 858-888, y 950-969), as in listing-1 and listing-2. One thin hinged wire; no bail, loop, T-bar or ball-ended pin.",
+      "Gold: braid midtones Lab h 70, C 44-46. Listing: worn h 63-68, studio h 76. Pale warm yellow gold, not orange or brassy.",
+      "Scale OK. The ear is 372 px tall (helix top y 620 to lobe bottom y 992). The braid ring is 158 px tall (y 975-1133) and 160 px wide (x 750-910). That is 0.425 and 0.43 of ear height against the 0.417 target (25/60 mm): about 25.5-25.8 mm, +2-3%. Including the hinge end (from y 947) it is 186 px = 0.50, about 30 mm, +20%. Within the 30% limit either way.",
+      "One earring, no other jewellery, no hands. The paranda is silk thread with a wrapped silk band and no metal. The hoop hangs plumb through the lobe; no floating. All four corners, contrast-boosted, are clean: no text, letters, logos or watermark.",
+      "Palette on brand. The blush plaster wall is Lab h 49-58, C 9-15, L 69-75, the same family as the passed W06_a3 wall (h 53-57, C 14-15). The kurta is crinkled warm-ivory cotton (h 72, C 8 in shade); its highlights reach near-white (L 95, C 1), but that is garment, not backdrop. The paranda is blush silk. Warm overall, with no cool or green cast.",
+      "Crop rescue not possible. The brow and lashes reach x 620 and the jaw corner and border sit at y 1250-1324 beside and under the hoop. The largest 4:5 window clear of them is about [630,0,1550,1150] (920x1150, needing a 1.17x upscale). It leaves the hoop 16 px from the bottom edge, still keeps the cheek contour at the left edge, and drops the hair braid, paranda and kurta, so the two-braids idea is lost.",
+      "As a photograph, if it were face-free, it would rate about 8.0. The two-braids pun reads in a second: a glossy plait with a blush paranda echoes the braided hoop, with a calm blush wall, soft warm light from the left and a crisp specular on the hoop. It is held back by the small product (the hoop is about 8.6% of the frame width) and the lost profile pulling the eye to the face. It is not scored because it fails."
+    ],
+    "fix": "Use W06_a3, which already passed at 8.6. For any further take, shoot straight from behind as W06_a3 was: camera on the line of her spine, head facing directly away, both ears visible, level and symmetric, so beyond each ear there is only hair, neck and wall, and no brow, lash, cheek or jaw contour anywhere. Do not ask for a turned or three-quarter head: at '150 deg' the model produced a 110-120 deg lost profile. Keep the glossy plait with the blush paranda, the ivory kurta, the blush plaster wall, the crisp braid, the polished disc under the latch and the hoop at about 40-45% of the ear's height.",
+    "crop": null
+  },
+  {
+    "plate": "W09_a2.png",
+    "pass": false,
+    "severity": "critical",
+    "score": null,
+    "reasons": [
+      "EYEBROW IN FRAME (rule 3), at the face profile right of the ear. The eyebrow tail is a dark crescent on the brow-ridge silhouette against the blush wall at x 1278-1293, y 626-663 (min L 86 against the wall's L about 190). An eyebrow is an automatic fail.",
+      "EYELASHES IN FRAME (rule 3). The upper lashes fan out past the cheek contour onto the wall at x 1259-1296, y 777-800 (min L 72). On a 1080-wide phone frame this is about 22x13 px and plainly legible.",
+      "JAWLINE IN FRAME (rule 3). Below and right of the hoop, the lower border of the jaw is a sharp skin-to-wall silhouette (skin L 133-147 above, wall L 178-195 below). Traced edge: (920,1559), (960,1558), (1000,1558), (1040,1553), (1080,1544), (1100,1538), (1120,1523), (1140,1506). From there the cheek contour rises through (1150,1500), (1183,1400), (1230,1300), (1256,1200) and x 1273-1294 (y 850-1150) to the lashes. The jaw border is about 220 px long (about 128 px at phone size).",
+      "Cause: the head is turned only about 110-120 deg from the camera. This is a lost profile, not a back view; the face outline from brow to jaw occupies the wall side of the frame where the prompt asked for only neck, hair and wall."
+    ],
+    "notes": [
+      "Braid faithful (2.6x crop, ring x 919-1130, y 1012-1260). A thick, open, interlaced braid of 2-3-wire bundles over a fine textured core, with raised ridges. It is the crispest rendering of the braid so far. Not a tube, twist or chain. No stones.",
+      "Disc correct. One flat round disc hangs under the latch post on the left, seen obliquely as a lens about 34x73 px (x 958-992, y 1044-1117). That is about 0.34 of the ring height, against about 0.30 on the piece. Lab L 79, C 26, h 70; listing discs are L 84-89, C 28-31, h 84. It reads as pale polished gold, slightly warmer than the listing, not enamel, stone or amber.",
+      "Closure correct (10x crops). On the right, a hinge knuckle is seen end-on with a clear pin hole (x 1058-1075, y 1013-1028), with the wire stub entering the lobe (x 1048-1058). On the left, a latch post (x 967-977, y 1021-1045) has the wire crossing its notch and the tip protruding (x 954-997, y 1028-1035), as in the listing. A soft, out-of-focus pale rod of about 22x6 px sits just above the latch (x 970-992, y 1011-1017) and reads like a second wire segment entering the lobe. At phone size it is about 13x3 px and not legible, so it is not judged a misrepresentation, but the next take should show a single wire. No bail, loop, T-bar or ball-ended pin.",
+      "Gold: braid midtones Lab h 70-72, C 44-50, matching the listing (worn h 63-68, studio h 76). Pale warm yellow gold.",
+      "Scale OK. The ear is 505 px tall (helix top y 570 to lobe bottom y about 1075). The braid ring is 216 px tall (y 1044-1260, below the knuckle) and 211 px wide (x 919-1130). That is 0.428 and 0.418 of ear height against the 0.417 target: about 25.7 mm and 25.1 mm, +3% and +0%. Including the hinge knuckle (from y 1012) it is 248 px = 0.49, about 29.5 mm, +18%. Within the 30% limit.",
+      "One earring, no other jewellery, no hands. The hoop hangs plumb through the lobe; no floating. All four corners, contrast-boosted, are clean: no text, letters, logos or watermark.",
+      "Palette mostly on brand. The blush wall fills the right of the frame (Lab h 46-52, C 11-12, L 72-76). The work-shirt collar is warm ivory with visible topstitching (h 72-74, C 17-18). Minor: a near-white neutral backdrop sliver shows at the left edge, in the top-left corner (x 0-60, y 0-130; L 96, C 2) and behind the nape (x 0-165, y about 1220-1600; L 86, C 1). It is about 1.3% of the frame, not a whole-frame white backdrop, but the next take should keep the blush wall edge to edge.",
+      "Crop rescue not possible. A window clear of the brow, lashes and jaw must stay left of x about 1255 and above y about 1500, for example [58,0,1250,1490] (1192x1490, which downscales). That still keeps the cheek contour sloping into the jaw angle along its right edge (x 1150-1250, y 1200-1490), and it loses the work-shirt collar (from y about 1610) and with it the 'work shirt' idea.",
+      "As a photograph, if it were face-free, it would rate about 7.8. Its strengths are a crisp, bright hoop at about 11.4% of the frame width with a warm specular, sunlit nape skin with real peach fuzz, an ivory collar and calm blush copy space on the right. It is held back by the black bun, the heaviest mass in about 40% of the frame, the lost profile drawing the eye to the face, and the white sliver at the left edge. It is not scored because it fails."
+    ],
+    "fix": "Reshoot straight from behind, the way W06_a3 passed: camera on the line of her spine, head facing directly away, the neat low bun centred on the frame's vertical midline, both ears visible, level and symmetric (hoops on one or both). Beyond each ear there should be only hair, neck and wall, with no brow, lash, cheek or jaw contour anywhere. Stop asking for a turned or three-quarter rear view: in a1, a2 and a3 the model turned the head only about 110-120 deg each time and left the jaw on the wall (here also the brow and lashes). Keep the warm-ivory work-shirt collar at the bottom, the blush wall edge to edge (no white window at the left), the crisp braid, a single hinged wire, the polished disc under the latch and the hoop at about 40-45% of the ear's height.",
+    "crop": null
+  }
+]
