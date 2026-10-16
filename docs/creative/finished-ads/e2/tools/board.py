@@ -6,7 +6,7 @@ H = os.path.dirname(os.path.abspath(__file__)); FA = os.path.dirname(os.path.dir
 SP = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad"
 ads = json.load(open(f"{FA}/e2_ads.json"))["ads"]; e = html.escape
 rev = {}
-for f in sorted(glob.glob(f"{FA}/review_r*.json"), key=lambda f: int(re.search(r"_r(\d+)\.json$", f).group(1))):
+for f in sorted((g for g in glob.glob(f"{FA}/review_r*.json") if re.search(r"_r(\d+)\.json$", g)), key=lambda f: int(re.search(r"_r(\d+)\.json$", f).group(1))):
     n = int(re.search(r"_r(\d+)\.json$", f).group(1))
     if n < 19: continue
     for r in json.load(open(f)): rev.setdefault(r["id"], []).append((n, r))

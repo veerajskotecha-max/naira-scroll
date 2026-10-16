@@ -18,7 +18,7 @@
   {
    "id": "E2_emerald_a1",
    "plate": "E2_emerald_elaichi",
-   "h": "Elaichi, in emerald.",
+   "h": "Elaichi,<br>in emerald.",
    "c": "emerald cubic zirconia, not cardamom.",
    "spec": "Baguette Tennis Bracelet · Emerald",
    "cta": "Shop the bracelet",
@@ -42,7 +42,7 @@
    "at": "tl",
    "w": 420,
    "wm": "ink",
-   "hs": 76
+   "hs": 72
   },
   {
    "id": "E2_studs_a1",
@@ -76,7 +76,7 @@
   {
    "id": "E2_tubogas_a1",
    "plate": "E2_tubogas_churi",
-   "h": "A churi stack, for one finger.",
+   "h": "A churi stack,<br>for one finger.",
    "c": "one ribbed tubogas band, sizes 6 to 8.",
    "spec": "Tubogas Dome Ring · gold or silver tone",
    "cta": "Shop the ring",
@@ -84,8 +84,9 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620,
-   "wm": "ink"
+   "w": 720,
+   "wm": "ink",
+   "hs": 84
   },
   {
    "id": "E2_watch_a1",
@@ -219,7 +220,7 @@
    "fmt": "4:5",
    "at": "tl",
    "w": 470,
-   "hs": 80
+   "hs": 74
   },
   {
    "id": "E2_choker_a1",
@@ -234,9 +235,9 @@
    "fmt": "4:5",
    "at": "tl",
    "w": 450,
-   "band": true,
    "y": 150,
-   "hs": 84
+   "hs": 84,
+   "fscrim": "spec"
   },
   {
    "id": "E2_huggie_a1",
