@@ -128,6 +128,7 @@ sys.path.insert(0, FA); from reviews import current
 ADS_CFG, CTL_CFG = json.load(open(f"{FA}/ads.json"))["ads"], json.load(open(f"{FA}/controls.json"))["ads"]
 REV, CREV = current("review", ADS_CFG), current("controls_review", CTL_CFG)
 byid = {f["id"]: f for f in frames}; finished = []
+def sub_of(a): return a.get("n") or " · ".join(x for x in [a.get("spec"), a.get("price")] if x)   # the brand layout's spec and price
 os.makedirs(f"{OUT}/ads", exist_ok=True); os.makedirs(f"{OUT}/at", exist_ok=True)
 for a in ADS_CFG:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
@@ -136,9 +137,9 @@ for a in ADS_CFG:
     sync(src, f"{OUT}/ads/{a['id']}.jpg"); thumb(im, f"{OUT}/at/{a['id']}.jpg")
     finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a.get('plate', a['id'])} · finished ad" + (" · Story" if a.get("ext") else ""), kind="Finished ad",
         name=a["h"], copy=a["c"], aspect=a["fmt"], w=w, h=h, st="ad", score=r.get("score"), label=r.get("verdict", ""),
-        line=(r.get("strengths") or [a["n"]])[0], reasons=r.get("issues", []), notes=r.get("strengths", []), fix=" ".join(r.get("fixes", [])),
+        line=(r.get("strengths") or [sub_of(a)])[0], reasons=r.get("issues", []), notes=r.get("strengths", []), fix=" ".join(r.get("fixes", [])),
         cr=0, piece=fr["piece"], price=fr["price"], sku=fr["sku"], t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
-        file=f"Naira-Ad-{a['id']}-{slug(a['h'])}.jpg", tw=640, th=round(h * 640 / w), sub=a["n"]))
+        file=f"Naira-Ad-{a['id']}-{slug(a['h'])}.jpg", tw=640, th=round(h * 640 / w), sub=sub_of(a)))
 controls = []
 PIECE_OF = {"toggle": "toggle", "woven": "woven", "heart": "heart", "prism": "prism", "dome": "dome", "verdant": "verdant",
             "quatrefoil": "quatrefoil", "square": "square"}
@@ -153,7 +154,7 @@ for a in CTL_CFG:
         aspect=a["fmt"], w=w, h=h, st="ctl", score=CREV.get(a["id"], {}).get("score"), label="",
         line=(CREV.get(a["id"], {}).get("strengths") or ["The listing’s own close-up, to run beside the crazy ad as the control."])[0],
         reasons=CREV.get(a["id"], {}).get("issues", []), notes=CREV.get(a["id"], {}).get("strengths", []), fix=" ".join(CREV.get(a["id"], {}).get("fixes", [])), cr=0, piece=piece, price=price, sku=sku, t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
-        file=f"Naira-Control-{slug(piece)}{'-Story' if a.get('ext') else ''}.jpg", tw=640, th=round(h * 640 / w), sub=a["n"]))
+        file=f"Naira-Control-{slug(piece)}{'-Story' if a.get('ext') else ''}.jpg", tw=640, th=round(h * 640 / w), sub=sub_of(a)))
 SEC_RANK = {k: i for i, k in enumerate(["toggle", "woven", "heart", "prism", "e1h", "e1b"])}
 finished.sort(key=lambda f: (-(f["score"] or 0), SEC_RANK[f["sec"]], f["n"]))
 
@@ -241,7 +242,8 @@ nxt = dict(lede=(f"{round(201.22 - spent, 2)} credits are left, under the 0.15 t
            items=[["About 85 credits", "About 30 Edition One frames, ₹2,000+ pieces first: Aqua, Quatrefoil, Cluster, Halo and Verdant. "
                                        "Each prompt asks for about 0.6 times the true size, so the piece lands at true size."],
                   ["30 to 40 credits", "The four camps’ gaps, mostly the Toggle clasp and the Prism stone count."],
-                  ["2 credits", "The candy test again at 2K: “Almost edible.” with the Prism Cluster Studs, the idea your data backs."]],
+                  ["2 credits a scene", "Shoot each new set once more without the piece. The real piece can then be set in by hand at true "
+                                        "scale, as the empty candy bowl now carries the Prism bracelet and the Cluster stud."]],
            questions=["Prism Cluster Studs: the listing macro shows 8 tiny pearls; the description and the other photos show 6. Which is right?",
                       "Petite Bow Studs and Verdant Cushion Studs: the listing text says gold, but every photo shows white metal.",
                       "Petite Square Huggies: the description doesn’t mention the seed pearls that appear in every photo."])
@@ -252,8 +254,12 @@ FIN = {f["id"][3:]: f for f in finished}; CTL = {c["id"]: c for c in controls}
 def pick(ids, pool): return [dict(id=i, name=pool[i]["name"] if i in pool else i, score=pool[i]["score"] if i in pool else None,
                                   aspect=pool[i]["aspect"] if i in pool else "") for i in ids if i in pool]
 RUN = [("Prism Rivière Bracelet", "₹2,399 · in stock · the proven product (12 of 16 concept sales)",
-        ["P01_a1", "P09_a1"], ["P02_a2c", "P01_a1-story"], ["ctl_prism", "ctl_prism-story"],
-        "Lead here. A/B the two rangoli Stories (both 10) rather than running them against each other."),
+        ["P01_a1", "prismC1_m1", "P09_a1"], ["P02_a2c", "P01_a1-story"], ["ctl_prism", "ctl_prism-story"],
+        "Lead here. prismC1_m1 is a fresh picture for the account's best ad (the same pun, the real bracelet), so run it in the "
+        "Feed beside P01. A/B the two rangoli Stories (both 10) rather than running them against each other."),
+       ("Prism Cluster Studs", "₹2,399 · pre-order", ["clusterC1_m1"], [], ["ctl_cluster"],
+        "The ‘Almost edible.’ pun on a ₹2,000+ piece, with the real stud. Settle the pearl count on the listing first: the macro "
+        "shows 8, the text says 6."),
        ("Verdant Cushion Studs", "₹2,199 · pre-order", ["verdant1_a1"], ["verdant1_a1-story"], ["ctl_verdant", "ctl_verdant-story"],
         "Fix the listing's metal line (text says yellow gold, photos show white metal) before spending."),
        ("Woven Gold Hoops", "₹1,499 · in stock", ["W01_a1", "W07_a2"], ["W02_a1", "W05_a2"], ["ctl_woven", "ctl_woven-story"],

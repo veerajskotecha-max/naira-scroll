@@ -29,6 +29,70 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative}
 .card{background:rgba(251,248,243,.94);padding:30px 34px 26px}
 """
 
+# The brand layout ("deck", the default): the system of the account's best ad, "Almost edible.", with the Naira deck's wordmark.
+# Headline in Velista capitals (the brand serif), the correction in lowercase Cormorant italic, then a short rule, a spec line of
+# listing facts in tracked Jost capitals, an ink CTA and the price, and the NAIRA wordmark (the deck's tulip I) in the top corner
+# opposite the headline: sage on light grounds, white on dark. Ink #1A1614 and paper #FBF8F3 are the site's own.
+BRAND = f"{HERE}/brand"
+DECK_INK, DECK_PAPER = "#1A1614", "#FBF8F3"
+DECK_CSS = """
+@font-face{font-family:Velista;src:url("file://%(b)s/Velista.ttf");font-weight:400 600}
+@font-face{font-family:CGI;src:url("file://%(f)s/CormorantGaramond-Italic[wght].ttf");font-weight:300 700}
+@font-face{font-family:Jost;src:url("file://%(f)s/Jost[wght].ttf");font-weight:100 900}
+*{box-sizing:border-box}
+html,body{margin:0;width:%(w)dpx;height:%(h)dpx;overflow:hidden}
+body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:var(--tone)}
+.blk{position:absolute;display:flex;flex-direction:column;isolation:isolate}
+.h{font-family:Velista;font-weight:500;font-size:%(hs)dpx;line-height:.9;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance;margin:0}
+.c{font-family:CGI;font-weight:500;font-size:%(cs)dpx;line-height:1.16;text-wrap:balance;margin:%(gap)dpx 0 0}
+.ft{position:absolute;left:%(side)dpx;right:%(side)dpx;bottom:%(bot)dpx;display:flex;justify-content:space-between;align-items:flex-end;isolation:isolate}
+.ft .l{display:flex;flex-direction:column;align-items:flex-start}
+.rule{width:64px;height:2px;background:var(--tone);margin-bottom:16px}
+.spec{font-family:Jost;font-weight:500;font-size:%(ss)dpx;letter-spacing:.24em;text-transform:uppercase;line-height:1.45;max-width:%(sw)dpx}
+.cta{margin-top:22px;background:var(--btn);color:var(--btnt);font-family:Jost;font-weight:600;font-size:%(bs)dpx;letter-spacing:.22em;
+  text-transform:uppercase;padding:%(bp)dpx %(bpx)dpx;line-height:1;white-space:nowrap}
+.price{font-family:Jost;font-weight:500;font-size:%(ps)dpx;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;line-height:1;padding-bottom:%(pp)dpx}
+.wm{position:absolute;height:%(wh)dpx}
+.ft .r{display:flex;flex-direction:column;align-items:flex-end;gap:26px}
+.wmf{height:%(wh)dpx;display:block}
+.band,.tband{position:absolute;left:0;right:0;pointer-events:none}
+.band{bottom:0;height:%(bh)dpx;background:linear-gradient(to top,rgba(255,248,245,.93) 0,rgba(255,248,245,.93) %(bsd)dpx,rgba(255,248,245,0) 100%%)}
+.tband{top:0;height:%(th)dpx;background:linear-gradient(to bottom,rgba(255,248,245,.93) 0,rgba(255,248,245,.93) %(ts)dpx,rgba(255,248,245,0) 100%%)}
+.glow::before{content:"";position:absolute;inset:-80px -100px;z-index:-1;
+  background:radial-gradient(closest-side,var(--glow) 0%%,var(--glow) 42%%,transparent 100%%)}
+"""
+
+def html_deck(ad, bg):
+    W, H = SIZE[ad["fmt"]]; story = ad["fmt"] == "9:16"
+    side = ad.get("x", 64); top, bot = ((340 if ad.get("ext") else 300), 392) if story else (64, 60)
+    cream = ad.get("tone") == "cream"; tone = DECK_PAPER if cream else DECK_INK
+    glow = "rgba(28,22,18,.42)" if cream else "rgba(251,246,240,.80)"
+    btn, btnt = (DECK_PAPER, DECK_INK) if cream else (DECK_INK, DECK_PAPER)
+    if story and not ad.get("story_cta"): ad = dict(ad, cta=None)   # Stories carry Meta's own CTA sticker; one is enough
+    at = ad.get("at", "tl"); foot_h = 150 if ad.get("cta") else 70
+    y = ad.get("y", top if at[0] == "t" else bot + foot_h + 46)
+    pos = {"tl": f"left:{side}px;top:{y}px", "tr": f"right:{side}px;top:{y}px;text-align:right;align-items:flex-end",
+           "bl": f"left:{side}px;bottom:{y}px", "br": f"right:{side}px;bottom:{y}px;text-align:right;align-items:flex-end"}[at]
+    wm_file = {"ink": "logo_ink.png", "white": "logo_white.png", "sage": "logo_sage_dark.png"}[ad.get("wm", "white" if cream else "sage")]
+    wh = ad.get("wh", 40); wm_corner = "left" if at in ("tr",) else "right"
+    wm_y = ad.get("wy", top + 8)
+    foot_wm = ad.get("wmpos", "foot") == "foot"            # default: the wordmark signs off above the price
+    css = DECK_CSS % dict(b=BRAND, f=FONTS, w=W, h=H, bg="file://" + bg, hs=ad.get("hs", 100), cs=ad.get("cs", 40), gap=ad.get("gap", 18),
+                          side=side, bot=bot, ss=ad.get("ss", 18), sw=ad.get("sw", 620), bs=19, bp=21, bpx=32, ps=22, pp=21, wh=wh,
+                          bh=bot + foot_h + 130, bsd=bot + foot_h + 20, th=ad.get("th", y + 330 if at[0] == "t" else 0), ts=ad.get("ts", (y + 330) * .62 if at[0] == "t" else 0))
+    bands = ('<div class="band"></div>' if ad.get("band") else "") + ('<div class="tband"></div>' if ad.get("tband") else "")
+    cls = "blk" + (" glow" if ad.get("scrim") else "")
+    fcls = "ft" + (" glow" if ad.get("fscrim") else "")
+    spec = f'<div class="rule"></div><div class="spec">{glue(ad["spec"])}</div>' if ad.get("spec") else ""
+    cta = f'<div class="cta">{ad["cta"]}</div>' if ad.get("cta") else ""
+    return (f'<meta charset="utf-8"><style>{css}</style><body style="--tone:{tone};--glow:{glow};--btn:{btn};--btnt:{btnt}">' + bands
+            + ("" if foot_wm else f'<img class="wm" src="file://{BRAND}/{wm_file}" style="{wm_corner}:{side}px;top:{wm_y}px">') +
+            f'<div class="{cls}" style="{pos};width:{ad["w"]}px"><h1 class="h">{glue(ad["h"])}</h1>'
+            + (f'<p class="c">{glue(ad["c"])}</p>' if ad.get("c") else "") + '</div>'
+            f'<div class="{fcls}"><div class="l">{spec}{cta}</div><div class="r">'
+            + (f'<img class="wmf" src="file://{BRAND}/{wm_file}">' if foot_wm else "") +
+            f'<div class="price">{glue(ad.get("price", ""))}</div></div></div></body>')
+
 def smooth1d(row, sigma):
     r = int(sigma * 3); x = np.arange(-r, r + 1); k = np.exp(-x ** 2 / (2 * sigma ** 2)); k /= k.sum()
     pad = np.pad(row, ((r, r), (0, 0)), mode="edge")
@@ -112,7 +176,7 @@ def main():
     jobs = []
     for ad in cfg:
         if want and ad["id"] not in want: continue
-        open(f"{WORK}/{ad['id']}.html", "w").write(html(ad, prep(ad)))
+        open(f"{WORK}/{ad['id']}.html", "w").write((html if ad.get("layout") == "v1" else html_deck)(ad, prep(ad)))
         W, H = SIZE[ad["fmt"]]; jobs.append(f"{ad['id']}:{W}:{H}")
     env = dict(os.environ, NODE_PATH=subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip())
     subprocess.run(["node", f"{HERE}/render.cjs", WORK, *jobs], check=True, env=env)

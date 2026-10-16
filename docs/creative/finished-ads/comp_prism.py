@@ -3,7 +3,8 @@
 # about 65 mm across its outer edge (an 18 cm bracelet closed), against sweets of about 2.5 cm. The scene's sun sits low behind
 # the sweets on the left, so each link's shadow falls toward the camera and to the right, and the pink sweet's own shadow falls
 # across the links in front of it. The two sweets the loop passes behind are redrawn over it from the original plate.
-# Usage: comp_prism.py [key=value ...]   Output: <scratchpad>/<out>.png (the full 1536×2048 scene)
+# Usage: comp_prism.py [key=value ...]   Output: <scratchpad>/<out>.png (the full 1536×2048 scene, or with frame=[x0,y0,x1,y1,w]
+# that crop of it rendered w px wide)
 import json, os, sys
 import cv2
 import numpy as np
@@ -32,7 +33,13 @@ for kv in sys.argv[1:]:
     k, v = kv.split("=", 1); P[k] = json.loads(v) if v[:1] in "[{0123456789-." else v
 
 def main():
-    scene = np.asarray(Image.open(SCENE).convert("RGB")).astype(np.float32) / 255; H, W = scene.shape[:2]
+    sc_im = Image.open(SCENE).convert("RGB")
+    if P.get("frame"):                     # [x0, y0, x1, y1, out_w]: render one framing at its own resolution, not upscaled after
+        x0, y0, x1, y1, ow = P["frame"]; f = ow / (x1 - x0)
+        sc_im = sc_im.crop((x0, y0, x1, y1)).resize((ow, round((y1 - y0) * f)), Image.LANCZOS)
+        P.update(cx=(P["cx"] - x0) * f, cy=(P["cy"] - y0) * f, w=P["w"] * f, band=P["band"] * f,
+                 blur=[b * f for b in P["blur"]], balls=[(round((bx - x0) * f), round((by - y0) * f), round(br * f)) for bx, by, br in P["balls"]])
+    scene = np.asarray(sc_im).astype(np.float32) / 255; H, W = scene.shape[:2]
     src = np.asarray(Image.open(SRC).convert("RGB")).astype(np.float32) / 255
     m = cv2.imread(MASK, cv2.IMREAD_GRAYSCALE)
     m = cv2.GaussianBlur(cv2.erode(m, np.ones((3, 3), np.uint8), iterations=1), (0, 0), 1.0).astype(np.float32) / 255
@@ -44,6 +51,11 @@ def main():
     A = np.clip(big[..., 3], 0, 1); S = np.where(A[..., None] > 1e-3, big[..., :3] / np.maximum(A, 1e-3)[..., None], 0)
     a, b = SRC_A * k, SRC_B * ky; cx, cy = P["cx"], P["cy"]
     S = (S * np.array(P["tint"]) * (1 - np.array(P["lift"]) / 255) + np.array(P["lift"]) / 255) * P["gain"]
+    # polished metal mirrors what is around it: the plinth's cream gives way to the sweets' colours nearby
+    if P.get("env", 0):
+        env = cv2.GaussianBlur(scene, (0, 0), 45); env = env / np.maximum(env.mean(-1, keepdims=True), 1e-3)
+        mx_, mn_ = S.max(-1), S.min(-1); metal = np.clip(1 - ((mx_ - mn_) / np.maximum(mx_, 1e-3)) / .12, 0, 1) * A
+        S = S * (1 + P["env"] * metal[..., None] * (env - 1))
     # height of every link pixel above its foot on the contact ellipse (front branch or back branch, whichever band it is in)
     X = np.arange(W, dtype=np.float32)[None, :]; Y = np.arange(H, dtype=np.float32)[:, None]
     q = np.sqrt(np.clip(1 - ((X - cx) / a) ** 2, 0, 1)); yf = cy + b * q; yb = cy - b * q

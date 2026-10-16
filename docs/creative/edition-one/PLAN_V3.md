@@ -73,6 +73,17 @@ The bold v2 set drew the pieces 1.75–2.4× the ratio asked for, more than the 
 | Sweet, and it sparkles, Rivière | the huggie the same size as one sugar crystal | Camera closer, so the hoop is about 20% of the frame width. |
 | W09, Woven | shoot straight from behind, as W06 take 3 | Never ask for a "150° turned" head: it shows the face. |
 
+## No credits needed: composites
+
+When the credits ran out (0.07 left, under the 0.15 the cheapest model costs), the scene test paid for with the last 0.15 became the set. That test is the candy bowl with no product in it. `finished-ads/comp_prism.py` and `comp_cluster.py` cut the real piece out of its own listing photo and set it into that scene by hand:
+
+- **True scale.** The Prism closed loop is about 65 mm across against sweets of about 2.5 cm. The Cluster arc is about 20 mm.
+- **The scene's light.** The sun is low behind the sweets, about 43° up. Every shadow falls toward the camera and to the right, as the sweets' shadows do.
+- **Shadows and occlusion.** Coloured light passes through the stones into their shadows. A sweet's shadow darkens any links it crosses, and the sweets nearer the camera are redrawn over the piece.
+- **The piece itself is not redrawn.** Stone count, order and metal are exactly the listing photo's.
+
+It works only where the scene has no generated product to remove. Every failed Prism frame has the generated bracelet baked into a textured ground, such as pencils, watercolour or a rainbow beam, so those can't be rescued this way. The candy scene is also too low for a 9:16 Story: the loop would sit in the reply-bar zone. The next 2K shoots should include one or two empty scenes, the set without the piece, so more composites can follow at no cost.
+
 ## Cost
 
 - Each 2K image costs 2 credits; reshoots run about 40%.
