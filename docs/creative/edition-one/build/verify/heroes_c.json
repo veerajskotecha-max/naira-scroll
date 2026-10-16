@@ -1,0 +1,60 @@
+[
+  {
+    "plate": "quatrefoil1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale against the brief's stated referent (jaali opening ~60mm) is about 2x off. The stud is 260px wide (x810-1070, y1214-1477). The jaali cut-outs right behind it on the same sill are only ~370-405px wide (right cut-out x830-1200, y230-740; left x320-725). Even allowing 1.2-1.6x for the jaali sitting a few cm further back, the stud reads at 0.4-0.6 of an opening, about 25-35mm against 15mm. The light pool alone would give ~17mm (stud 260px vs pool ~900px, x498-1388, y1230-1700). But light is a soft referent, and the pool is 1.5-2x wider than the cut-outs that are meant to cast it, so the frame contradicts itself and the hard referent governs."
+    ],
+    "notes": [
+      "Product matches listing-1/listing-5: pointed, concave four-point star outline with a continuous clear pave edge. Exactly 4 clear pear-cut petals with their points to the star tips, each framed in gold with a claw at the tip. One round clear centre stone in a bezel inside a small gold four-point frame. Warm yellow gold. The pave is crisp at phone size.",
+      "One stud only, no other jewellery, no text or logos. The sandstone reads warm terracotta-rose (ledge hue ~16-19 deg), not beige or sand.",
+      "The stud stands upright on its bottom tip. Contact at the tip is clean, the cast shadow starts there, and the post's shadow runs back, like the upright stud in listing-1. Plausible.",
+      "Full frame: the upper half was meant to be calm stone for the headline, but a fairly sharp jaali fills it, and a pale blurred curtain/pillar band takes the left ~15%.",
+      "Rescue crop [392,930,1491,2304] (1099x1374, true 4:5, above 1080x1350). It removes every jaali cut-out and the left band. The stud becomes the clear hero, standing in a glowing quatrefoil pool about 3.5x its width (reads ~17mm), with calm shaded stone above and the rough ledge face below for copy. Estimated score for the crop: 8.6. The star-in-matching-light rhyme reads in a second, the hard sun plus the gold specular is beautiful, and the texture and contact are real. It is poetic rather than crazy, and the Mughal cue then rests on the light shape and the headline."
+    ],
+    "fix": "Keep the stud, light and palette. Make the jaali cut-outs read about 4x the stud's width (e.g. 'each jaali cut-out as wide as a palm; the stud a quarter of its width'), or push the jaali well back and fully out of focus, or out of frame, so that only the quatrefoil light pool sets scale. Make the light pool the same shape as the cut-outs, and keep calm blush stone in the upper left for the headline. Or simply use the crop.",
+    "crop": [
+      392,
+      930,
+      1491,
+      2304
+    ]
+  },
+  {
+    "plate": "torsade1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale against the referent (mini croissant ~80mm) is about +30-40%. Each huggie is ~320px across (right x875-1197, left x655-~980, y1280-1590). The back croissant is ~975px tip to tip (~(686,1140) to (1634,980), depth-corrected). That is a ratio of 0.33, ~26mm at the croissant's depth. Taking off 7-12% because the huggies sit ~5cm nearer the camera leaves ~23-25mm against the stated 18mm. The prompt asked for a quarter of a croissant; the plate shows a third. The croissants also look like full-size bakery croissants, so shoppers will read these as mid-size hoops, not huggies."
+    ],
+    "notes": [
+      "Construction matches listing-1/listing-5: chunky mirror-polished yellow gold with deep, smooth diagonal twist ridges (not a wire braid, not plain). The inner-to-outer diameter ratio is ~0.47 (listing-1 ~0.5), there are no stones, and each hoop's thin hinge post is seated across the top (closed).",
+      "Exactly the pair and nothing else. The right huggie leans over the left one, and the contact shadows on the plate are believable.",
+      "No text. The palette is on-brand: blush linen (hue ~17-20 deg), blush-peach plate, warm ivory sheer curtain in the upper left.",
+      "Otherwise a strong ad (~8.8 at correct scale). The twist/croissant rhyme reads instantly, the gold is the brightest specular in frame, and the curtain gives calm copy space in the upper left.",
+      "Minor: a small dark crumb/butter smear on the plate just below the back croissant (~(1220,1270))."
+    ],
+    "fix": "Same scene, smaller huggies. Make each about a quarter of a croissant's length (the two side by side span about half a croissant), roughly the size of a croissant's curled tip. Optionally make the croissants read as minis (a smaller plate, the croissant barely longer than the plate's radius). Keep the ridges, hinge, light and palette exactly as they are.",
+    "crop": null
+  },
+  {
+    "plate": "riviere1_a1.png",
+    "pass": false,
+    "severity": "critical",
+    "score": null,
+    "reasons": [
+      "Wrong stones and setting. The row reads as rectangular step-cut (baguette/emerald-like) blocks with flat mirror facets, split by heavy double bars across the band (x~877-1180, y~1100-1600). Listing-1/listing-5 show round brilliants edge to edge in shared claw beads. Several lower stones are smeared and grainy at zoom. At phone size it reads as a bar-set baguette huggie.",
+      "Scale is far off. The huggie's outer diameter is ~546px (x877-1423, y1097-1603) and the shisha mirror glass is ~155-176px (six mirrors measured), so the huggie is 3.3 mirrors across: ~40mm against 15mm (+160%). Even counting a whole stitched ring (~290px) as 12mm gives ~22mm (+50%). Each stone spans ~100px, about 7mm against 2.5mm. The prompt wanted each mirror a little smaller than the huggie; here a mirror is under a third of it."
+    ],
+    "notes": [
+      "The bright white rhodium metal is right, and it is a single row (not two). The hinge post is seated and the hoop is closed.",
+      "Stones show only on the left half, with the plain band on the right. That matches the 3/4 view in listing-1, but the camera is straight top-down (the mirrors are perfect circles), so the hoop looks oddly tilted instead of lying flat.",
+      "No text, one huggie only. The blush cotton (hue ~13-17 deg) with blush/ivory stitch rings is on-brand, and the shisha rhyme would read well at true scale."
+    ],
+    "fix": "Re-lock the stones: 'about 18 ROUND brilliant-cut stones, each ~2.5mm, edge to edge in shared round claw beads, no bars across the band, never baguettes or step cuts'. Fix the scale: mirrors ~12mm, and the huggie only ~1.25x a mirror's diameter, so the hoop is barely wider than one mirror and smaller than its stitched ring. Lay the hoop truly flat and closed for the top-down view.",
+    "crop": null
+  }
+]
