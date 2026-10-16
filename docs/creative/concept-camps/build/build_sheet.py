@@ -38,6 +38,8 @@ D4 = json.load(open(f"{HERE}/frames.json")); F4 = {f["id"]: f for f in D4["frame
 DE = json.load(open(f"{E1}/frames.json")); FE = {f["id"]: f for f in DE["frames"]}
 FE.update({f["id"]: f for f in json.load(open(f"{E1}/frames_bold.json"))["frames"]})
 FE["clusterC1"] = dict(id="clusterC1", camp="cluster", name="Almost edible", copy="Almost edible.", aspect="4:5")
+# Composites (attempt mN): a real listing photo set by hand into the candy scene the last credits paid for (finished-ads/comp_*.py)
+F4["prismC1"] = dict(id="prismC1", camp="prism", name="Almost edible", copy="Almost edible.", aspect="4:5")
 SK = {s["key"]: s for s in json.load(open(f"{E1}/skus.json"))}
 
 # Shoot order: the job ledgers in submission order, each crop straight after the frame it was cut from.
@@ -53,18 +55,20 @@ for tag, folder in [("c4", HERE), ("e1", E1)]:
 def kind(att):
     if att == "lite": return "1K test"
     if att == "scene": return "Scene test, no product"
+    if re.fullmatch(r"m\d", att): return "Composite, real listing photo"
     t, n, c = re.fullmatch(r"([ae])(\d)(c?)", att).groups()
     return ("Take " if t == "a" else "Edit ") + n + (", cropped" if c else "")
 def order(att):
     if att == "lite": return (9, 0)
     if att == "scene": return (9, 1)
+    if re.fullmatch(r"m\d", att): return (9, 2)
     t, n, c = re.fullmatch(r"([ae])(\d)(c?)", att).groups()
     return (int(n), 1 if c else 0) if t == "a" else (1, 1 + int(n))
 def slug(s): return re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-")
 
 frames = []
 for n, (tag, stem) in enumerate(seq, 1):
-    fid, att = stem.split("_", 1)
+    fid, att = stem.split("_", 1); comp = bool(re.fullmatch(r"m\d", att))
     F = (F4 if tag == "c4" else FE)[fid]; camp = F["camp"]
     sec = camp if tag == "c4" else ("e1b" if re.search(r"[BC]1$", fid) else "e1h")
     v = V.get(stem)
@@ -79,8 +83,8 @@ for n, (tag, stem) in enumerate(seq, 1):
     frames.append(dict(n=n, id=stem, tag=tag, sec=sec, camp=camp, code=(f"{fid} · " if tag == "c4" else "") + kind(att), kind=kind(att),
         name=F["name"], copy=F["copy"], aspect=F["aspect"], w=w, h=h, st=st, score=(v or {}).get("score"), label=label, line=line,
         reasons=(v or {}).get("reasons") or [], notes=(v or {}).get("notes") or [], fix=(v or {}).get("fix") or "",
-        cr=0 if att.endswith("c") else 1 if att == "lite" else 0.15 if att == "scene" else 2, piece=piece, price=price, sku=sku,
-        candy=fid == "clusterC1", mk="scene" if att == "scene" else "candy" if att == "lite" else (camp if tag == "c4" else ("e1b" if re.search(r"[BC]1$", fid) else "e1h")), sort=(E1_ORDER.index(camp) if tag == "e1" else 0, fid, order(att)),
+        cr=0 if att.endswith("c") or comp else 1 if att == "lite" else 0.15 if att == "scene" else 2, piece=piece, price=price, sku=sku,
+        candy=fid == "clusterC1", comp=comp, mk="comp" if comp else "scene" if att == "scene" else "candy" if att == "lite" else (camp if tag == "c4" else ("e1b" if re.search(r"[BC]1$", fid) else "e1h")), sort=(E1_ORDER.index(camp) if tag == "e1" else 0, fid, order(att)),
         t=f"t/{stem}.jpg", f=f"f/{stem}.jpg", file=f"Naira-{stem}-{slug(F['name'])}.jpg"))
 
 # Images: a 640px thumbnail for the sheet and the full-size JPG for the lightbox and saves.
@@ -160,6 +164,9 @@ for k in ["toggle", "woven", "heart", "prism"]:
     sections.append(dict(key=k, kicker=f"Concept camp · {P['name']}", title=TITLES[k], line=C["line"], idea=C["idea"],
                          facts=f"{P['price']} · SKU {P['sku']} · {P['stock']} in stock"))
 sections[1]["extra"] = "W08's first render failed on Higgsfield and its two credits were refunded, so its frames start at take 2."
+sections[3]["extra"] = ("The last card is a composite, not a render: the real bracelet from its listing photo, closed round a sweet in the candy "
+                        "scene the last credits paid for. True scale (an 18 cm bracelet closed, beside sweets about 2.5 cm), the scene's own "
+                        "sun, and the pink sweet's shadow falling across the links in front of it.")
 sections += [
     dict(key="e1h", kicker="Edition One · eleven pre-order pieces", title="First heroes", line="One quiet visual pun per piece.",
          idea=("The first pass at the pre-orders: a doorbell, a box of mints, a specimen box, barfi, rangoli, a jaali screen, a shisha "
@@ -169,7 +176,8 @@ sections += [
          line="One bold everyday object wears each piece, under hard sun.",
          idea=("The style changed after your note. A teacup, a pink cricket ball, a strawberry, a coupe, a lemonade glass, a "
                "shuttlecock, an ice tray, painted nails and rock sugar each wear one piece, close up, in low hard sun, with the product "
-               "big in frame. The last whole credit went on the candy pun your ads proved, and the last 0.15 on a scene test of the same candy bowl, without the stud."), facts="₹1,399 to ₹2,499 · pre-order")]
+               "big in frame. The last whole credit went on the candy pun your ads proved, and the last 0.15 on a scene test of the same candy bowl, without the stud. "
+               "The real stud from its listing macro was then set into that scene by hand, at true size: the last card."), facts="₹1,399 to ₹2,499 · pre-order")]
 for s in sections:
     fs = [f for f in frames if f["sec"] == s["key"]]
     s.update(n=len(fs), keep=sum(f["st"] == "keep" for f in fs), credits=round(sum(f["cr"] for f in fs), 2))
@@ -186,7 +194,8 @@ cnt = lambda fs: (len(fs), sum(f["cr"] for f in fs))
 first = cnt([f for f in c4 if f["kind"] == "Take 1"]); redo = cnt([f for f in c4 if f["kind"] not in ("Take 1",) and f["cr"]])
 retakes = sum(1 for f in c4 if f["kind"] in ("Take 2", "Take 3")); edits = sum(1 for f in c4 if f["kind"].startswith("Edit"))
 heroes = cnt([f for f in frames if f["mk"] == "e1h" and f["cr"]]); bold = cnt([f for f in frames if f["mk"] == "e1b" and f["cr"]])
-candy = cnt([f for f in frames if f["mk"] == "candy"]); scene = cnt([f for f in frames if f["mk"] == "scene"]); crops = sum(1 for f in frames if not f["cr"])
+candy = cnt([f for f in frames if f["mk"] == "candy"]); scene = cnt([f for f in frames if f["mk"] == "scene"])
+comps = sum(1 for f in frames if f["comp"]); crops = sum(1 for f in frames if not f["cr"] and not f["comp"])
 spent = round(sum(f["cr"] for f in frames), 2)
 ledger = [["15 Oct, 23:32", "Credit package added", "", "+200"],
           ["15 Oct, 23:51", f"Four concept camps, first pass: 40 frames. One render failed and its 2 credits were refunded", first[0], first[1]],
@@ -195,8 +204,9 @@ ledger = [["15 Oct, 23:32", "Credit package added", "", "+200"],
           ["16 Oct, 05:42", "Edition One bold v2, after “these aren’t good enough yet”", bold[0], bold[1]],
           ["16 Oct, 05:48", "Candy test on Nano Banana 2 Lite at 1K, the last whole credit", candy[0], candy[1]],
           ["16 Oct, 12:32", "Scene test on Z Image, the candy bowl without the stud: the only model under the last 0.22 credits", scene[0], round(scene[1], 2)],
-          ["", "Crops cut here from passing frames, at no cost", crops, 0]]
-total = dict(images=len(frames), generated=len(frames) - crops, crops=crops, spent=spent, left=round(201.22 - spent, 2), carried=1.22, cheapest=0.15)
+          ["", "Crops cut here from passing frames, at no cost", crops, 0],
+          ["16 Oct, afternoon", "Composites: the real listing photos of the Prism bracelet and the Cluster stud, set into the paid candy scene at true scale, at no cost", comps, 0]]
+total = dict(images=len(frames), generated=len(frames) - crops - comps, crops=crops, comps=comps, spent=spent, left=round(201.22 - spent, 2), carried=1.22, cheapest=0.15)
 
 C = collections.Counter(f["st"] for f in frames)
 stats = dict(keep=len(keepers), keepframes=C["keep"], passed=C["pass"], fail=C["fail"], wait=C["wait"],

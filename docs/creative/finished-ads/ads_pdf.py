@@ -25,10 +25,12 @@ def tracked(c, text, font, size, x, y, spacing=0.2, color=INK, align="left"):
     for ch in text:
         c.drawString(x, y, ch); x += pdfmetrics.stringWidth(ch, font, size) + size * spacing
 
+Q = 80
 def pdfjpg(p):
-    # The PDF embeds a quality-86 copy so it stays under the 16 MB artifact limit; the full-quality JPGs are on the page.
-    q = f"{SPB}/ads/pdfjpg/{os.path.basename(p)}"; os.makedirs(os.path.dirname(q), exist_ok=True)
-    if not os.path.exists(q) or os.path.getmtime(q) < os.path.getmtime(p): Image.open(p).save(q, quality=86, optimize=True)
+    # The PDF embeds a quality-80 copy so it stays under the artifact's 15 MB limit for a binary file; the full-quality JPGs are
+    # on the page.
+    q = f"{SPB}/ads/pdfjpg{Q}/{os.path.basename(p)}"; os.makedirs(os.path.dirname(q), exist_ok=True)
+    if not os.path.exists(q) or os.path.getmtime(q) < os.path.getmtime(p): Image.open(p).save(q, quality=Q, optimize=True)
     return q
 
 def main():

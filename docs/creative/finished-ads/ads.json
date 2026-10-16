@@ -312,6 +312,57 @@
    "w": 760,
    "plate": "H01_e1",
    "ext": "mirror"
+  },
+  {
+   "id": "prismC1_m1",
+   "src": "c4",
+   "fmt": "4:5",
+   "box": [
+    0,
+    512,
+    1229,
+    2048
+   ],
+   "h": "Almost edible.",
+   "c": "Cubic zirconia, not candy.",
+   "n": "18 cm · ₹2,399",
+   "at": "tl",
+   "w": 330,
+   "x": 64
+  },
+  {
+   "id": "prismC1_m1-arm",
+   "src": "c4",
+   "fmt": "4:5",
+   "box": [
+    0,
+    512,
+    1229,
+    2048
+   ],
+   "h": "Arm candy.",
+   "c": "Cubic zirconia, not sugar.",
+   "n": "18 cm · ₹2,399",
+   "at": "tl",
+   "w": 330,
+   "plate": "prismC1_m1",
+   "x": 64
+  },
+  {
+   "id": "clusterC1_m1",
+   "src": "e1",
+   "fmt": "4:5",
+   "box": [
+    40,
+    600,
+    1120,
+    1950
+   ],
+   "h": "Almost edible.",
+   "c": "Coloured stones and pearls, not candy.",
+   "n": "₹2,399 · Pre‑order",
+   "at": "tl",
+   "w": 380
   }
  ]
 }

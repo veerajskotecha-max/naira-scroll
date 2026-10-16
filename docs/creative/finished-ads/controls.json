@@ -188,6 +188,18 @@
    "w": 600,
    "hs": 72,
    "ext": true
+  },
+  {
+   "id": "ctl_cluster",
+   "path": "edition-one/build/refs/cluster/listing-5.jpg",
+   "fmt": "4:5",
+   "h": "Prism Cluster Studs.",
+   "c": "Five coloured stones in a curve, with tiny pearls.",
+   "n": "₹2,399 · Pre‑order",
+   "at": "tl",
+   "w": 620,
+   "hs": 72,
+   "y": 56
   }
  ]
 }

@@ -254,6 +254,7 @@ details p{margin-top:10px}
   <footer>
     <h2>How these were made and checked</h2>
     <p>Every frame was made on Higgsfield from the piece’s own listing photos, one piece per frame. The image model was Nano Banana Pro at 2K; the candy test used Nano Banana 2 Lite at 1K. Each prompt has six parts: the shot, a lock on what must not change, true scale against a known object, the scene, two lights, and what must never appear.</p>
+    <p>The two composites are not renders. The real piece was cut from its own listing photo and set into the candy scene the last credits paid for. It sits at true scale against the sweets, and the scene’s own sun lights it. It casts shadows matched to the sweets’, and the stones let coloured light through. Nothing about the piece was redrawn.</p>
     <p>An independent reviewer then checked every frame against the listing photos for construction, stone count and order, metal, one piece only, no face, true scale and the blush palette. A frame that passes is scored as an ad out of 10, and only 8.5 or more runs. Crops were cut only where the one fault sat at an edge, and were checked again.</p>
   </footer>
 </div>
@@ -320,7 +321,7 @@ function renderHead() {
   $("#rebateCount").textContent = T.images + " frames · " + T.spent + " credits";
   $("#lede").textContent = "Everything the 200-credit top-up made: " + T.images + " frames across the four concept camps and the Edition One pre-orders, each checked against its Shopify listing. Keepers are boxed in red, as on a photographer’s contact sheet; every other frame says why it missed." + (DATA.finished.length ? " The keepers are also finished as ads, ready to run." : "");
   const nums = [[T.spent, "credits spent", "200 bought on 15 Oct and 1.22 carried over. " + T.left + " left."],
-                [T.images, "frames", T.generated + " generated, " + T.crops + " cropped from them."],
+                [T.images, "frames", T.generated + " generated, " + T.crops + " cropped from them, " + T.comps + " composites of real listing photos."],
                 [S.keep, "keepers", "Scored 8.5 or more as an ad.", "keep"],
                 [S.passed, "passed", "Right piece, under the 8.5 bar."],
                 [S.fail, "missed", S.failScale + " of them on scale."]];
@@ -424,7 +425,7 @@ function setFilter(k) {
 }
 
 function renderCredits() {
-  $("#cLede").textContent = "Each square is one credit. A 2K image on Nano Banana Pro costs two; the candy test on Nano Banana 2 Lite cost one; the scene test on Z Image, the only model under the last 0.22, cost 0.15; the " + T.crops + " crops cost nothing. One failed render was refunded. " + T.spent + " credits went on " + T.generated + " images, and " + T.left + " are left, under the " + T.cheapest + " the cheapest model costs.";
+  $("#cLede").textContent = "Each square is one credit. A 2K image on Nano Banana Pro costs two; the candy test on Nano Banana 2 Lite cost one; the scene test on Z Image, the only model under the last 0.22, cost 0.15; the " + T.crops + " crops and the " + T.comps + " composites cost nothing. One failed render was refunded. " + T.spent + " credits went on " + T.generated + " images, and " + T.left + " are left, under the " + T.cheapest + " the cheapest model costs.";
   const sq = $("#squares");
   for (const m of DATA.meter) {
     const full = Math.floor(m.credits + 1e-9), frac = Math.round((m.credits - full) * 100) / 100;

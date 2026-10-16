@@ -1,7 +1,8 @@
 # Builds finished ads from the keepers: each keeper photograph cropped to its exact Meta size (Feed 4:5 at 1080×1350, Stories 9:16
 # at 1080×1920) with the copy from ads.json set in the Naira typefaces, rendered by Chromium. Output: <scratchpad>/ads/out/<id>.jpg
 # and a contact sheet. Usage: build_ads.py [--cfg controls.json] [id ...]   (no ids = all; ads.json by default)
-# An entry with "path" uses that photo (relative to docs/creative) instead of a keeper plate, as the plain controls do.
+# An entry with "path" uses that photo (relative to docs/creative) instead of a keeper plate, as the plain controls do; "box"
+# ([x0, y0, x1, y1] in plate pixels) frames a plate before it is fitted to the format, as the composites need.
 import json, os, re, subprocess, sys
 import numpy as np
 from PIL import Image, ImageFilter
@@ -79,7 +80,9 @@ def extend_mirror(im, off=285, H=1920, max_blur=18, grain=2.2):
 def prep(ad):
     src = os.path.join(HERE, "..", ad["path"]) if "path" in ad else f"{SPB}/{ad['src']}/plates/{ad.get('plate', ad['id'])}.png"
     W, H = SIZE["4:5" if ad.get("ext") else ad["fmt"]]
-    im = Image.open(src).convert("RGB"); w, h = im.size
+    im = Image.open(src).convert("RGB")
+    if "box" in ad: im = im.crop(tuple(ad["box"]))                       # a composite's framing, in plate pixels
+    w, h = im.size
     if w / h > W / H: nw = round(h * W / H); box = (round((w - nw) * ad.get("cx", .5)), 0, round((w - nw) * ad.get("cx", .5)) + nw, h)
     else: nh = round(w * H / W); box = (0, round((h - nh) * ad.get("cy", .5)), w, round((h - nh) * ad.get("cy", .5)) + nh)
     path = f"{WORK}/{ad['id']}_bg.jpg"; im = im.crop(box)
