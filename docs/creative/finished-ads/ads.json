@@ -12,7 +12,9 @@
    "price": "₹1,499",
    "at": "br",
    "w": 560,
-   "scrim": true
+   "scrim": true,
+   "fscrim": true,
+   "wm": "ink"
   },
   {
    "id": "T10_a1",
@@ -23,10 +25,11 @@
    "spec": "Toggle Link Chain · 50 cm · 18k gold tone",
    "cta": "Shop the chain",
    "price": "₹1,499",
-   "at": "br",
+   "at": "tr",
    "w": 520,
-   "scrim": true,
-   "hs": 88
+   "hs": 88,
+   "fscrim": true,
+   "wm": "ink"
   },
   {
    "id": "W01_a1",
@@ -124,8 +127,8 @@
    "id": "H01_e1",
    "src": "c4",
    "fmt": "4:5",
-   "h": "Every beat, a little gold.",
-   "c": "mirror-polished beads and one gold heart.",
+   "h": "Every beat, a little gold.",
+   "c": "mirror-polished beads and one gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
@@ -137,12 +140,13 @@
    "src": "c4",
    "fmt": "4:5",
    "h": "The gold note.",
-   "c": "mirror-polished beads, a gold toggle and heart.",
+   "c": "mirror-polished beads, a gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
    "at": "tl",
-   "w": 560
+   "w": 560,
+   "wm": "ink"
   },
   {
    "id": "H09_a1",
@@ -156,7 +160,9 @@
    "at": "tr",
    "w": 700,
    "scrim": true,
-   "hs": 88
+   "hs": 88,
+   "fscrim": true,
+   "wm": "ink"
   },
   {
    "id": "P01_a1",
@@ -176,14 +182,14 @@
    "fmt": "9:16",
    "h": "Rangoli, in a line.",
    "c": "aqua, pink and yellow, each in its own halo.",
-   "spec": "Prism Rivière · 18 cm · cubic zirconia",
+   "spec": "Prism Rivière<br>18 cm · cubic zirconia",
    "cta": "Shop the bracelet",
    "price": "₹2,399",
    "at": "tl",
    "w": 420,
-   "x": 56,
    "hs": 88,
-   "sw": 380
+   "sw": 380,
+   "wm": "ink"
   },
   {
    "id": "P09_a1",
@@ -196,7 +202,8 @@
    "price": "₹2,399",
    "at": "tl",
    "w": 640,
-   "scrim": true
+   "tband": true,
+   "fscrim": true
   },
   {
    "id": "verdant1_a1",
@@ -360,8 +367,8 @@
    "id": "H01_e1-story",
    "src": "c4",
    "fmt": "9:16",
-   "h": "Every beat, a little gold.",
-   "c": "mirror-polished beads and one gold heart.",
+   "h": "Every beat, a little gold.",
+   "c": "mirror-polished beads and one gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
@@ -387,7 +394,8 @@
     1229,
     2048
    ],
-   "wm": "ink"
+   "wm": "ink",
+   "cs": 36
   },
   {
    "id": "prismC1_m1-arm",
@@ -407,7 +415,8 @@
     2048
    ],
    "plate": "prismC1_m1",
-   "wm": "ink"
+   "wm": "ink",
+   "cs": 36
   },
   {
    "id": "clusterC1_m1",
@@ -447,12 +456,12 @@
    "src": "c4",
    "fmt": "4:5",
    "h": "Sealed with a heart.",
-   "c": "mirror-steel beads and one gold heart.",
+   "c": "mirror-steel beads and one gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
    "at": "tl",
-   "w": 520,
+   "w": 640,
    "scrim": true
   },
   {
@@ -460,7 +469,7 @@
    "src": "c4",
    "fmt": "4:5",
    "h": "On the beat.",
-   "c": "mirror-steel beads and a gold heart, for sangeet season.",
+   "c": "steel beads and a gold‑tone heart, for sangeet season.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
@@ -499,14 +508,14 @@
    "id": "H07_a1",
    "src": "c4",
    "fmt": "9:16",
-   "h": "Right where the beat is.",
-   "c": "mirror-steel beads and a gold heart, on the pulse.",
+   "h": "On the pulse.",
+   "c": "steel beads, a gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
-   "at": "tl",
-   "w": 560,
-   "x": 56
+   "at": "tr",
+   "w": 380,
+   "hs": 92
   },
   {
    "id": "P03_a1",
@@ -519,7 +528,8 @@
    "price": "₹2,399",
    "at": "tl",
    "w": 460,
-   "scrim": true
+   "scrim": true,
+   "band": true
   },
   {
    "id": "P08_a2",

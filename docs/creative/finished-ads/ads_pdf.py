@@ -1,5 +1,6 @@
 # Builds Naira-Ready-To-Run-Ads.pdf: a cover with every finished ad, then one ad per page at its exact pixel size (1 px = 1 pt),
-# then the plain controls (controls.json) to run beside them, for Claude Design or a media buyer. Scores from the newest review.
+# then the plain controls (controls.json) to run beside them, for Claude Design or a media buyer. Scores from the newest review;
+# ads that review drops (weaker duplicates) are left out here and stay on the contact sheet.
 # Usage: ads_pdf.py <outdir>
 import glob, json, os, sys
 from reportlab.pdfgen import canvas
@@ -37,7 +38,8 @@ def main():
     out = sys.argv[1]; os.makedirs(out, exist_ok=True)
     ads = json.load(open(f"{HERE}/ads.json"))["ads"]
     sys.path.insert(0, HERE); from reviews import current
-    score = {k: v["score"] for k, v in current("review", ads).items()}
+    rev = current("review", ads); score = {k: v["score"] for k, v in rev.items()}
+    ads = [a for a in ads if rev.get(a["id"], {}).get("verdict") != "drop"]
     pdf = f"{out}/Naira-Ready-To-Run-Ads.pdf"
     c = canvas.Canvas(pdf); c.setTitle("Naira Petite · Ready-to-run ads"); c.setAuthor("Naira Petite")
     PW, PH = 1200, 1700; c.setPageSize((PW, PH)); c.setFillColor(PAPER); c.rect(0, 0, PW, PH, stroke=0, fill=1)

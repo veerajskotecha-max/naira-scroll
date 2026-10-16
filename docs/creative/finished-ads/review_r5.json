@@ -1,0 +1,439 @@
+[
+ {
+  "id": "T07_a1c",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "Still the most premium frame: the hand at the clasp puts the eye on the toggle, and 'FRONT AND CENTRE.' sits on the chest about 160 px below the ring. The head glow reads as window light on the shirt.",
+   "The headline reads at 13.8:1 (darkest 5% 7.7), the correction at 12.1:1 (6.7) and the price at 13.6:1 (12.2). The claims are listing facts: 50 cm, 18k gold tone, the toggle worn at the front."
+  ],
+  "issues": [
+   "[contrast] The spec line fails: 3.7:1, darkest 5% 2.2:1. 'TOGGLE LINK CHAIN' runs across the forearm at about 2.6-3.3:1, and the shirt's shadow folds at x 484-604 drop to 2.0:1.",
+   "[ceiling: photo] A styling shot with no visual pun. The idea is in the words, and on-body statics are untested. Creative ceiling 9.",
+   "[cap: price] ₹1,499 is under the ₹2,000 line.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"fscrim\": true. Tested: spec 12.7:1 (darkest 5% 5.6), price 14.6:1 (13.8). On the white shirt the foot glow reads as light, not a patch. Takes it to 9, its ceiling.",
+   "[apply, optional] \"wm\": \"ink\". The sage wordmark reads at 2.4:1 on the shirt; the ink one reads at 14.6:1 (13.0).",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px).",
+   "[no layout fix] Going higher needs a visual idea in the photo and a ₹2,000+ offer, such as the chain in a gift set."
+  ]
+ },
+ {
+  "id": "T10_a1",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "Diwali gifting reads in one second: diya, petals, the drawer box, with the gold coil the brightest metal. 'Diwali, sorted.' is short and seasonal, and 'a chain that closes with a turn.' is true of the toggle.",
+   "The headline reads at 11.6:1 (darkest 5% 7.5)."
+  ],
+  "issues": [
+   "[placement] At br the headline sits on the drawer's front corner and the right petal (x 684-1016, y 868-1032), and it covers the drawer's pull tab.",
+   "[brand] The head glow has to lift the drawer's shadow from luminance 0.07 to 0.60 (8.3x). It shows as a white oval of fog over the box, which reads as a patch.",
+   "[contrast] Spec line 6.5:1 but darkest 5% 2.8:1, on the petal's shadow; price 5.3:1 (4.1); correction 9.4:1 (4.2). The sage wordmark sits on the dark cloth at 2.3:1 (darkest 1.3).",
+   "[claim, soft] 'Sorted' promises Diwali delivery (Diwali is 8 Nov), and the prop box implies gift packaging the listing does not mention.",
+   "[ceiling: photo] A gift still life: the idea is in the words. The coil could pass for a bracelet stack; the spec line's '50 cm' carries it. Ceiling 8.5.",
+   "[cap: price] ₹1,499.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"at\": \"tr\", delete \"scrim\", add \"fscrim\": true and \"wm\": \"ink\". Tested: the block moves onto the calm cloth at top right (y 64-287), 52 px above the diya and 78 px above the top petal, and reads without any head glow: headline 7.9:1 (6.3), correction 8.1:1 (6.3), spec 13.2:1 (9.6), price 7.9:1 (7.1), ink wordmark 6.6:1 (5.0). The drawer and its tab are uncovered. The ink wordmark is needed: with the foot glow alone the sage wordmark drops to 1.1:1. Takes it to 8.5.",
+   "[no layout fix] End the ad on the last order date that still delivers before 8 Nov. Don't show or imply a gift box unless orders ship in one.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "H01_e1",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The strongest Heartbead idea: the bracelet is the heartbeat trace and ends in the gold heart. It reads in one second at 390 px, on light blush ECG paper. This is the retouched plate (no printed second trace, no wire nub; frame verdict 8.7, runs as is).",
+   "The headline reads at 14.8:1 (darkest 5% 9.7), the correction at 14.7:1 (9.2), the spec at 13.2:1 (7.3) and the price at 11.8:1 (4.9). The copy ends at y 308, about 130 px above the apex bead."
+  ],
+  "issues": [
+   "[brand] The Velista headline breaks 'EVERY BEAT, A / LITTLE GOLD.', so the article dangles at the end of line 1.",
+   "[claim] 'one gold heart': the listing says gold-tone heart. The correction is the ad's truth line, so it should say gold-tone.",
+   "[brand] The sage wordmark sits on the coral grid at 2.0:1 and its peach tulip vanishes (1.0:1). It is the right variant for a blush ground, but faint at 390 px.",
+   "[cap: price] ₹1,299.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"h\": \"Every beat, a\\u00a0little gold.\" (a U+00A0 no-break space between 'a' and 'little'). Tested: 'EVERY BEAT, / A LITTLE GOLD.' (lines 556 and 666 px).",
+   "[apply] \"c\": \"mirror-polished beads and one gold\\u2011tone heart.\" (U+2011 non-breaking hyphen; Cormorant has the glyph). Tested: one line, 662 px, 14.5:1 (9.1). Both fixes take it to 9.5, the price cap.",
+   "[run] Run this, not H01_a1.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px).",
+   "[no layout fix] A ₹2,000+ offer, such as the bracelet with the toggle chain, lifts the cap."
+  ]
+ },
+ {
+  "id": "H08_a1",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The clasp matches listing-1 part for part, and the gold heart is the brightest, sharpest thing in the frame. Gold against silver reads at once.",
+   "Everything passes, though the headline is the lowest in the set: headline 6.1:1 (darkest 5% 5.2), correction 6.6:1 (5.4), spec 8.3:1 (7.7), price 9.1:1 (8.6)."
+  ],
+  "issues": [
+   "[placement] The full stop of 'heart.' touches the defocused bead strand at about (395, 342).",
+   "[claim] 'a gold toggle and heart': the listing says gold-tone.",
+   "[brand] The sage wordmark is weak on the rose satin: 1.6:1.",
+   "[ceiling: photo] A PDP-style clasp macro. 'The gold note' is wit in the words, not the picture (the pattern that returned 0.58x). Ceiling 8.5.",
+   "[cap: price] ₹1,299.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"c\": \"mirror-polished beads, a gold\\u2011tone heart.\" (U+2011 hyphen). Tested: 'mirror-polished beads, / a gold-tone heart.'; line 2 ends at x 314, about 70 px clear of the beads; 6.4:1 (5.3). Takes it to 8.5. Tested at br, the headline crowds the heart instead.",
+   "[apply, optional] \"wm\": \"ink\": 9.5:1 (8.7) on the satin.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "H09_a1",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The truest food pun in the set: mirror steel against silver varq, in mithai season, on light blush. 'mirror steel, not silver varq.' copies the winner's correction pattern, and every word is true.",
+   "The block ends at y 287, about 45 px above the plate rim. The headline reads at 12.4:1 (darkest 5% 6.2), the correction at 11.3:1 (6.9) and the price at 6.0:1 (5.1). The head glow reads as window light."
+  ],
+  "issues": [
+   "[contrast] The spec line is 7.8:1, but its darkest 5% is 4.2:1 on the linen weave, under the 4.5:1 floor for small type.",
+   "[brand] The sage wordmark almost disappears on the taupe linen: 1.4:1 (darkest 1.1).",
+   "[ceiling: photo] The varq outshines the mid-grey beads, so the bracelet is not the brightest thing (frame verdict 8.6).",
+   "[cap: price] ₹1,299. Creatively a 10.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"fscrim\": true and \"wm\": \"ink\". Tested: spec 14.0:1 (7.3), price 8.5:1 (7.4), ink wordmark 7.9:1 (6.0); the foot glow reads as window light on the linen. With the foot glow alone the sage wordmark drops to 1.3:1, so ink is needed. Takes it to 9.5, the cap.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px).",
+   "[no layout fix] A ₹2,000+ offer, such as the bracelet with the toggle chain, lifts the cap."
+  ]
+ },
+ {
+  "id": "P01_a1",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "It hits every lever the data favours: the proven Prism (12 of 16 concept sales, at 1.63x), ₹2,399 and in stock (68), a pigment-powder pun with the bracelet as the line through the colour, a light pastel ground, Feed 4:5. It reads at 390 px.",
+   "The new layout sits cleanly: headline 14.0:1 (darkest 5% 8.4), correction 14.2:1 (7.8), spec 11.7:1 (5.4), price 11.4:1 (6.5). The copy ends at y 355, about 270 px above the stones, with no glow or band needed. Every claim is a listing fact."
+  ],
+  "issues": [
+   "[brand] The sage wordmark straddles the yellow band's edge: 2.0:1 (darkest 1.4), with the tulip at 1.4:1. Legible at full size, faint at 390 px.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply, optional] \"wm\": \"ink\": 11.5:1 (7.2) across the band and the floor. Black is the deck's variant for a non-blush ground.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px).",
+   "[run] Lead the Prism Feed with this, beside prismC1_m1."
+  ]
+ },
+ {
+  "id": "P02_a2c",
+  "score": 9.5,
+  "verdict": "fix",
+  "strengths": [
+   "The native vertical rangoli: 13 units run the full height and the bracelet fills the frame. The pun reads at 390 px.",
+   "The copy is Stories-safe (y 300-569 and a foot ending at 1528) and about 90 px clear of the bracelet. Headline 14.1:1 (darkest 5% 10.6), correction 14.1:1 (9.4), spec 14.6:1 (11.7), price 13.2:1 (9.8). No CTA, as Stories need."
+  ],
+  "issues": [
+   "[placement] The side margin is 56 px (\"x\": 56); the rest of the set uses 64.",
+   "[brand] The narrow spec (sw 380) wraps as 'PRISM RIVIÈRE · 18 CM · / CUBIC ZIRCONIA', leaving a separator dot hanging at the end of line 1.",
+   "[brand] The sage wordmark sits on yellow powder at 2.2:1, and its peach tulip vanishes (1.1:1).",
+   "[placement] Same idea and slot as P01_a1-story.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] Delete \"x\"; \"spec\": \"Prism Rivière<br>18 cm · cubic zirconia\"; \"wm\": \"ink\". Tested: margin 64 with the headline ending at x 432, still about 90 px clear of the bracelet; the spec reads 'PRISM RIVIÈRE / 18 CM · CUBIC ZIRCONIA' at 14.6:1 (11.8); ink wordmark 13.5:1 (10.9). Makes it a 10.",
+   "[run] Run this as the rangoli Story once fixed: the vertical line shows 13 units against 8 in P01_a1-story. Until then run P01_a1-story. A/B the two only with budget for both.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "P09_a1",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The best product fidelity of the set: crisp cushion stones, halos and claws. 'Rainbow, rainproof.' carries the Waterproof tag, and '5 mm stones' corrects the macro's scale. Prism at ₹2,399, Feed 4:5.",
+   "Price 12.9:1 (11.7). Every claim is a listing fact."
+  ],
+  "issues": [
+   "[placement] The plate's whole top band (y 130-330) is the defocused far side of the bracelet, so the Velista headline and the correction sit on the product.",
+   "[contrast] The left edge is dark. '5 mm' reads at 2.5:1 (darkest 5% 1.6), and the correction overall at 7.3:1 (2.3). The headline's first letters read at 4.0:1 (2.5), the spec at 5.6:1 (3.1), and 'PRISM RIVIÈRE' at 3.2-3.8:1 on the shadowed satin.",
+   "[brand] The head glow lifts the brown top from luminance 0.08 to 0.55 (7.2x), a haze that whitewashes the far side. It reads as a patch.",
+   "[ceiling: photo] Brown satin, darker than the pastel winners. The droplets sit on the satin, not the stones. Ceiling 9.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] Delete \"scrim\"; add \"tband\": true and \"fscrim\": true. Tested: the paper header fades the top quarter evenly, reading as a soft bright top rather than an oval, and pulls the ground toward the pastel norm. Headline 15.3:1 (15.1), correction 9.2:1 (6.8), spec 13.5:1 (5.3), price 14.0:1 (12.6). The far side becomes a pale ghost under the type. Takes it to 9.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px).",
+   "[no layout fix] Only a lighter reshoot with a clean top lifts the ceiling."
+  ]
+ },
+ {
+  "id": "P01_a1-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "A native 9:16 crop of the P01 plate: no extension, bands at full height. The rangoli pun reads at 390 px.",
+   "The copy is Stories-safe (y 300-591, foot ending at 1528) and about 300 px above the stones. Headline 13.3:1 (darkest 5% 6.4), correction 13.4:1 (6.6), spec 11.4:1 (4.9), price 12.6:1 (10.4). The 64 px margins match the set, and there is no CTA."
+  ],
+  "issues": [
+   "[brand] The sage wordmark sits on the yellow band at 2.1:1, and the tulip vanishes (1.1:1).",
+   "[placement] Same idea and slot as P02_a2c. Here the bracelet is a band across the middle, 8 units in frame, so the product takes less of the frame.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply, optional] \"wm\": \"ink\": 12.6:1 (10.5).",
+   "[run] Run it as is until P02_a2c is fixed, then keep it as the B.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "P09_a1-story",
+  "score": 7.5,
+  "verdict": "drop",
+  "strengths": [
+   "The extension is soft satin and looks natural. The copy is Stories-safe (y 340-584, foot ending at 1528). Price 14.8:1 (14.0)."
+  ],
+  "issues": [
+   "[placement] As in the Feed version, the headline and correction sit on the defocused far side of the bracelet (y 415-615 in this frame).",
+   "[contrast] Correction 7.2:1, darkest 5% 2.4:1, with '5 mm' on the dark left edge; spec 4.6:1 (3.0); headline 11.9:1 (4.2).",
+   "[brand] The head glow lifts the brown top 7.1x into a haze, which reads as a patch.",
+   "[ceiling: photo] About 40% of the frame is brown, further from the pastel winners than the Feed version.",
+   "[render] The file on disk predates the config: it still shows a 'SHOP THE BRACELET' button, which the config now leaves out for Stories.",
+   "[placement] A third Prism Story behind P02_a2c and P01_a1-story, both 10-level.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[run] Drop it for this round; P02_a2c and P01_a1-story cover the Prism Story slot.",
+   "[apply] If it is kept as a reserve: \"fscrim\": true lifts the spec to 12.3:1 (4.8), which takes it to 8. The Feed's top-band fix does not carry over: in 9:16 the band is solid only to y 415, so the correction falls in its fade at 4.9:1 (3.5). Tested. Rebuild the render before any export."
+  ]
+ },
+ {
+  "id": "H01_e1-story",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The mirrored extension carries the ECG grid across both seams and reads as one sheet at both sizes. It is the same one-second idea as the Feed version.",
+   "The copy is Stories-safe (y 340-585, foot ending at 1528) and about 135 px above the apex bead. Headline 14.8:1 (darkest 5% 9.7), correction 14.7:1 (9.3), spec 13.0:1 (7.1), price 12.0:1 (6.5)."
+  ],
+  "issues": [
+   "[brand] Same break as the Feed: 'EVERY BEAT, A / LITTLE GOLD.'",
+   "[claim] 'one gold heart' should say gold-tone, as the listing does.",
+   "[render] The file on disk predates the config: it still shows a CTA button, which Stories now leave out.",
+   "[cap: price] ₹1,299.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"h\": \"Every beat, a\\u00a0little gold.\" and \"c\": \"mirror-polished beads and one gold\\u2011tone heart.\" Tested: lines 556 and 666 px, correction 14.5:1 (9.1). Takes it to 9.5, the cap.",
+   "[run] Rebuild the render. This is the Heartbead Story to run.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "prismC1_m1",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The winner's exact words and props ('Almost edible. cubic zirconia, not candy.' with sugared gummies) built around the real listing photo, so product fidelity is guaranteed. It hits every lever: Prism at ₹2,399 and in stock, a candy pun, a light peach ground, Feed 4:5.",
+   "Realism passes at 390 px and at full size: it reads as one photo, the gummy sits convincingly inside the loop, and the edges are clean. Headline 14.3:1 (darkest 5% 14.0), correction 14.2:1 (14.0), spec 13.2:1 (12.5), ink wordmark 3.9:1 (3.4), correct for the peach ground."
+  ],
+  "issues": [
+   "[placement] The correction runs to x 428, and the glass bowl's rim starts at x 433 at the same height, so its full stop nearly touches the bowl.",
+   "[contrast] The price sits on the yellow gummy's shadow: 4.6:1, darkest 5% 4.0:1, marginal for 22 px type. The foot glow lifts it to 7.8:1 (6.0) but fogs the bracelet's front arc (tested), so there is no clean layout fix.",
+   "[ceiling: photo] Tells on a 3x zoom: the bracelet keeps the listing's soft studio light and cooler metal against the hard warm sun on the gummies. The ground inside the loop carries the listing photo's grain (high-pass sigma 3.2 against 1.7 on the generated ground), with a faint ghost of the gallery windows.",
+   "[placement] Same image as prismC1_m1-arm.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"cs\": 36. Tested: the correction ends at x 392, about 41 px clear of the rim, at 14.2:1 (14.0). Takes it to 9.5.",
+   "[no layout fix] The price and the zoom-level light match need a composite tweak: lift the shadow under the price corner and warm the metal's highlights.",
+   "[run] Run this, not prismC1_m1-arm: 'Almost edible.' is the account's proven line (10 of 16 concept sales). Put it beside P01_a1 in the Prism Feed.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "prismC1_m1-arm",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The same convincing composite, with a fresh, true pun: 'Arm candy.' / 'cubic zirconia, not sugar.' Contrast matches prismC1_m1: headline 14.3:1, correction 14.2:1, spec 13.2:1."
+  ],
+  "issues": [
+   "[placement] The correction ends at x 418, about 15 px from the glass rim.",
+   "[contrast] Price 4.6:1 (darkest 5% 4.0) on the gummy shadow, as in prismC1_m1.",
+   "[ceiling: photo] There is no arm in the frame, so half the pun lives in the words. The line has no history, while the same image with 'Almost edible.' carries the account's proven line.",
+   "[render] The file on disk predates the config: it shows the sage wordmark, and the config now sets ink.",
+   "[placement] Same image as prismC1_m1.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"cs\": 36. Tested: the correction ends at x 383, about 50 px clear of the rim.",
+   "[run] Hold it. Once prismC1_m1 has about ₹2,500 of spend, run this as a pure copy test (same image, new line) in the same ad set. Rebuild the render first.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "H10_a2",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "A warm, believable still life with real paper texture. The heart is the brightest, sharpest thing, and 'Sealed with a heart.' ties the envelopes to it.",
+   "Headline 13.4:1 (darkest 5% 10.0), correction 12.2:1 (9.8), spec 13.2:1 (12.3), price 12.1:1 (11.5). The copy ends at y 445, more than 200 px above the envelopes, and the head glow reads as window light."
+  ],
+  "issues": [
+   "[brand] The headline runs to three lines ('SEALED / WITH A / HEART.'), against the kit's two-line maximum.",
+   "[claim] 'one gold heart' should say gold-tone.",
+   "[ceiling: photo] The bracelet lies on the bundle rather than tying it, the product is small (about 33% of the width), and the wall drifts apricot (frame verdict 8.2). Ceiling 8.5.",
+   "[cap: price] ₹1,299.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"w\": 640 and \"c\": \"mirror-steel beads and one gold\\u2011tone heart.\" Tested: 'SEALED WITH / A HEART.' with a one-line correction; headline 13.2:1 (10.9), correction 11.9:1 (10.2); the block ends at y 308. Takes it to 8.5.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "H04_a2",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The clean dholak reshoot: an ivory head with no stains and the loop at about 44% of the frame width. 'For sangeet season' tests an Indian occasion, a lever the data has not tried.",
+   "Headline 13.5:1 (darkest 5% 10.0), correction 13.4:1 (10.2), spec 16.5:1 (15.6), price 15.7:1 (15.6). The foot band reads as the kit's paper band."
+  ],
+  "issues": [
+   "[claim] 'a gold heart' should say gold-tone.",
+   "[brand] The correction splits the noun phrase: 'mirror-steel beads and a gold / heart, for sangeet season.'",
+   "[brand] The band lifts the bottom 340 px from luminance 0.31 to 0.87 and fades the drum's lacing into white. It is heavy, but it reads as designed.",
+   "[ceiling: photo] 'Bracelet on a drum' is pretty rather than witty, and the bright drum head outshines the beads (frame verdict 8.2). Ceiling 8.5.",
+   "[cap: price] ₹1,299.",
+   "[placement] Same copy as H04_a1.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"c\": \"steel beads and a gold\\u2011tone heart, for\\u00a0sangeet\\u00a0season.\" (U+2011 hyphen; U+00A0 spaces). Tested: 'steel beads and a gold-tone heart, / for sangeet season.', with line 1 ending at x 444, clear of the rim; 13.3:1 (10.2). Keeping 'mirror-' pushes line 2 onto the rim's knot (tested). Takes it to 8.5.",
+   "[run] Run this, not H04_a1: a clean head, a larger loop and a lighter wall.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "H01_a1",
+  "score": 7,
+  "verdict": "drop",
+  "strengths": [
+   "'Skips a beat.' breaks cleanly into two lines. Contrast is high: headline 15.6:1 (darkest 5% 11.1), correction 15.5:1 (10.8), spec 13.3:1 (8.0), price 11.8:1 (5.7)."
+  ],
+  "issues": [
+   "[ceiling: photo] This is the unretouched plate. A printed coral ECG trace runs under and beside the strand, out of register, so the frame shows two heartbeat lines, visible at 390 px. A wire nub pokes out at the apex. Its frame verdict says do not run as is (8.0).",
+   "[claim] 'one gold heart' should say gold-tone.",
+   "[placement] Duplicate of H01_e1, which is its retouched edit.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[run] Drop it and run H01_e1. If 'Skips a beat.' should be tested as a line, put it on the H01_e1 plate."
+  ]
+ },
+ {
+  "id": "H07_a1",
+  "score": 7,
+  "verdict": "fix",
+  "strengths": [
+   "The heart rests on the inner wrist, so 'on the pulse' reads in the picture. It is the best on-body Heartbead, a lever the data calls untested rather than failed.",
+   "The copy is Stories-safe (y 300-681, foot ending at 1528). Correction 10.0:1 (darkest 5% 8.1), price 8.2:1 (7.8)."
+  ],
+  "issues": [
+   "[placement] The whole copy block sits on the palm, with its creases under the type, while the plate's only calm satin is at the top right.",
+   "[contrast] Headline line 1 ('RIGHT') reads at 5.5:1 (darkest 5% 3.7) over the finger shadows; the spec at 8.2:1 (3.4).",
+   "[brand] The headline runs to three lines against the kit's two. The correction breaks 'and a / gold heart', and the side margin is 56 px against the set's 64.",
+   "[claim] 'a gold heart' should say gold-tone.",
+   "[ceiling: photo] The soft palm and cropped fingers fill the top third, and the beads read dark (frame verdict 8.0). Ceiling 8.",
+   "[cap: price] ₹1,299.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"at\": \"tr\", delete \"x\", \"w\": 380, \"hs\": 92, \"h\": \"On the pulse.\", \"c\": \"steel beads, a\\u00a0gold\\u2011tone heart.\" Tested: 'ON THE / PULSE.' on the satin at top right (x 704-1016, y 300-468), with the correction at least 76 px from the palm's edge; headline 8.2:1 (4.9), correction 9.1:1 (5.6). The current line can't fit the 330-440 px of clear satin there at brand size (tested at hs 84, 80 and 72: it touches the palm). Takes it to 8.",
+   "[no layout fix] The spec's darkest 5% stays at 3.7:1 (median 8.3:1). The foot glow lifts it to 14.3:1 but reads as a white streak across the forearm (tested).",
+   "[run] Run it as the single on-body Heartbead Story test, behind H01_e1-story.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px)."
+  ]
+ },
+ {
+  "id": "P03_a1",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "An Indian food pun on the hero product: mukhwas after a meal, pastel seeds echoing the stones. 'cubic zirconia, not candied saunf.' follows the winner's correction. Prism at ₹2,399, Feed 4:5.",
+   "Headline 11.6:1 (darkest 5% 5.7), correction 9.3:1 (5.3), spec 11.8:1 (8.0). Every claim is true."
+  ],
+  "issues": [
+   "[contrast] The price fails: it sits on the bowl's dark shadow at 2.3:1 (darkest 5% 1.7). The sage wordmark sits on dark brown there, the wrong variant for the ground.",
+   "[brand] The head glow lifts the dusky linen 3.2x (luminance 0.18 to 0.58) into a visible white oval at top left, which reads as a patch. Without it the headline would fall below 4:1.",
+   "[placement] The foot's rule sits 13 px below the clasp, and the spec and CTA touch two seeds.",
+   "[ceiling: photo] The linen is darker and browner than the pastel winners, and the seeds camouflage the stones and read as candy rice rather than slender saunf (frame verdict 8.0). Ceiling 8.5.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[apply] \"band\": true, the kit's blush paper band for busy feet. Tested: price 15.4:1 (15.2), spec 16.7:1 (16.3), sage wordmark 2.5:1 on paper. It also fades the clasp's lower edge, which is acceptable because the clasp isn't the punchline. The foot glow alone isn't enough: price 4.8:1 (3.4), tested. Takes it to 8.5.",
+   "[apply, code] Set-wide: in build_ads.py DECK_CSS change '.ft .r{...;gap:26px}' to 40px (wordmark-to-price clear space 29 px to 43 px).",
+   "[no layout fix] A reshoot on pale blush linen with slimmer saunf lifts the ceiling."
+  ]
+ },
+ {
+  "id": "P08_a2",
+  "score": 6.5,
+  "verdict": "drop",
+  "strengths": [
+   "The saree-to-stone colour echo and the Indian styling reference read. The headline (12.9:1, darkest 5% 6.8) and correction (13.7:1, 9.5) pass and are Stories-safe."
+  ],
+  "issues": [
+   "[placement] The spec line runs over the fingers: 'PRISM RIVIÈRE' is broken by finger shadows, at 7.0:1 median but 1.1:1 for the darkest 5%. The price sits on a dark teal fold at 8.0:1 (1.9).",
+   "[brand] A sage wordmark on a mint saree: 1.6:1, invisible at 390 px. The head glow is a pale oval on the saree.",
+   "[ceiling: photo] The product is small (units about 7% of the frame width), the pun is in the words, and on-body statics are untested (frame verdict 8.0). Ceiling 8.",
+   "[render] The file on disk predates the config: it still shows a CTA button, which Stories now leave out.",
+   "[placement] A fourth Prism Story.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[run] Drop it. P02_a2c and P01_a1-story carry the Prism Story.",
+   "[apply] If it is kept: \"band\": true and \"wm\": \"ink\" (tested: spec 16.2:1 (14.9), price 16.3:1 (15.3), wordmark 16.2:1). But the band fogs the lower 30% of the frame, fingertips included. The foot glow alone leaves the spec at a darkest 2.7:1 (tested)."
+  ]
+ },
+ {
+  "id": "H05_a2",
+  "score": 7,
+  "verdict": "drop",
+  "strengths": [
+   "A calm dusty-rose wall, Stories-safe copy, and contrast that passes everywhere: headline 9.3:1 (darkest 5% 7.7), correction 9.6:1 (8.0), spec 10.1:1 (7.6), price 10.4:1 (9.3)."
+  ],
+  "issues": [
+   "[ceiling: photo] The Kathak idea does not read: it shows the back of a raised hand. The bracelet is small (about 23% of the width), below centre, and its beads are dull (frame verdict 7.8). Ceiling 7.5.",
+   "[brand] w 340 forces a three-line headline ('KEEPS / YOUR / RHYTHM.'), against the kit's two. The copy hugs the hand, about 30 px from the index fingertip, and the spec runs across the forearm.",
+   "[claim] 'one gold heart' should say gold-tone.",
+   "[cap: price] ₹1,299.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[run] Drop it. H01_e1-story is the Heartbead Story, and H07_a1 is the on-body test.",
+   "[apply] If it is kept: \"w\": 480 and \"c\": \"mirror-steel beads and one gold\\u2011tone heart.\" Tested: 'KEEPS YOUR / RHYTHM.', clear of the hand; headline 9.9:1 (7.8)."
+  ]
+ },
+ {
+  "id": "H04_a1",
+  "score": 7,
+  "verdict": "drop",
+  "strengths": [
+   "The low, warm side light and the long bead shadows are lovely. Its copy matches H04_a2, and contrast passes: headline 11.5:1 (darkest 5% 7.8), correction 11.0:1 (7.4), spec 15.9:1, price 15.2:1."
+  ],
+  "issues": [
+   "[ceiling: photo] The goatskin is stained, the drum head is brighter than the product, and the loop is smaller in frame. Its frame verdict says do not run as is (7.5).",
+   "[brand] The head glow lifts the rose-taupe wall 2.6x (luminance 0.23 to 0.59) into a visible white oval, which reads as a patch.",
+   "[claim] 'a gold heart' should say gold-tone.",
+   "[render] The file on disk predates the config: it has no foot band, which the config now sets.",
+   "[placement] Duplicate of H04_a2.",
+   "[brand] Set-wide: the wordmark's ink ends 29 px above the price's glyphs, under the 40 px clear space (the tulip's height) that the ads brand kit in plain_pdfs.py asks for. Not scored."
+  ],
+  "fixes": [
+   "[run] Drop it and run H04_a2, which has a clean ivory head, a loop at about 44% of the frame width and a lighter wall."
+  ]
+ }
+]
