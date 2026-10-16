@@ -26,11 +26,13 @@ for f in D["frames"]:
     w, h = Image.open(f"{SP}/plates/{stem}.png").size
     notes = v.get("notes") or []
     note = notes[0] if isinstance(notes, list) and notes else (notes if isinstance(notes, str) else "")
-    final.setdefault(f["camp"], []).append(dict(id=f["id"], file=f"{stem}.png", score=v["score"], note=note, w=w, h=h, src=v["src"]))
+    if v["score"] >= BAR or "--all" in sys.argv:     # the deliverables carry only frames that run as-is
+        final.setdefault(f["camp"], []).append(dict(id=f["id"], file=f"{stem}.png", score=v["score"], note=note, w=w, h=h, src=v["src"]))
     table.append((f["id"], f["name"], stem, f"{v['score']:.1f}", "" if v["score"] >= BAR else "below bar"))
 
 for row in table: print("{:4} {:28} {:10} {:5} {}".format(*row))
 ok = sum(1 for r in table if r[3] != "NONE" and r[4] == "")
 print(f"{ok}/{len(table)} frames at {BAR}+")
-if len(sys.argv) > 1:
-    json.dump(final, open(sys.argv[1], "w"), indent=1, ensure_ascii=False); print("wrote", sys.argv[1])
+outp = [a for a in sys.argv[1:] if not a.startswith("--")]
+if outp:
+    json.dump(final, open(outp[0], "w"), indent=1, ensure_ascii=False); print("wrote", outp[0])

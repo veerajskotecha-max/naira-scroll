@@ -1,5 +1,6 @@
 # Builds the board page for the artifact: four camps, every verified frame, a lightbox, and saves for the PDFs and full-size JPGs.
-# Usage: build_page.py <final.json> <outdir>   (outdir receives index.html, web/, full/, pdfs/ are copied separately)
+# Usage: build_page.py <final.json> <outdir> [final_e1.json]   (outdir receives index.html; web/, full/, pdfs/ are copied separately)
+# With final_e1.json the page also carries the Edition One camps and the ad-data band.
 import base64, html, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -13,6 +14,7 @@ stats = json.load(open(f"{out}/stats.json"))        # numbers for the checking n
 
 camps = []
 for n, camp in enumerate(ORDER, 1):
+    if camp not in sel: continue
     P, C = D["pieces"][camp], D["camps"][camp]
     frames = []
     for it in sel[camp]:
@@ -20,11 +22,23 @@ for n, camp in enumerate(ORDER, 1):
         frames.append(dict(id=f["id"], name=f["name"], aspect=f["aspect"], copy=f["copy"], score=it.get("score"),
                            note=it.get("note", ""), w=it["w"], h=it["h"], web=f"web/{f['id']}.jpg", full=f"full/{f['id']}.jpg",
                            fullname=f"Naira-{f['id']}-{f['name'].replace(' ', '-').replace(',', '')}.jpg"))
-    camps.append(dict(key=camp, n=n, title=C["title"], line=C["line"], idea=C["idea"], name=P["name"], price=P["price"],
+    camps.append(dict(key=camp, n=n, group="Concept camp", title=C["title"], line=C["line"], idea=C["idea"], name=P["name"], price=P["price"],
                       sku=P["sku"], stock=P["stock"], pdf=pdfs[camp], frames=frames))
+if len(sys.argv) > 3:
+    E1 = os.path.join(HERE, "..", "..", "edition-one", "build")
+    sel1 = json.load(open(sys.argv[3])); DE = json.load(open(f"{E1}/frames.json"))
+    SK = {s["key"]: s for s in json.load(open(f"{E1}/skus.json"))}
+    for m, k in enumerate(["aqua", "quatrefoil", "cluster", "halo", "verdant", "riviere", "papillon", "torsade", "dome", "square", "bow"], 1):
+        if not sel1.get(k): continue
+        P, C = DE["pieces"][k], DE["camps"][k]
+        frames = [dict(id=it["id"], name=it["name"], aspect=it["aspect"], copy=it["copy"], score=it.get("score"), note=it.get("note", ""),
+                       w=it["w"], h=it["h"], web=f"web/{it['id']}.jpg", full=f"full/{it['id']}.jpg",
+                       fullname=f"Naira-E1-{it['id']}-{it['name'].replace(' ', '-').replace(',', '')}.jpg") for it in sel1[k]]
+        camps.append(dict(key=k, n=m, group="Edition One", title=C["name"], line=P["title"], idea=C["idea"], name=P["title"],
+                          price=f"₹{P['price']:,}", sku=P["sku"], stock=SK[k]["stock"], pdf=pdfs["e1"], frames=frames))
 data = json.dumps(dict(camps=camps, board=pdfs["board"]), ensure_ascii=False)
 
-page = """<title>Naira Concept Camps</title>
+page = """<title>Naira Crazy Camps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap">
@@ -33,15 +47,15 @@ page = """<title>Naira Concept Camps</title>
 /* Layout: a lookbook board. Masthead, then one band per camp (story left, frames right on wide screens, stacked on phones). */
 :root{
   --paper:#F4F0E8; --sheet:#FBF8F3; --ink:#1C1C1C; --muted:#6E625A; --rule:#E2D9CC; --blush:#FBEDE9; --chip:#EFE3D6; --gold:#9C7A3C;
-  --a-toggle:#D8A9A1; --a-woven:#E2BE98; --a-heart:#EDB9B2; --a-prism:#9FD3D9;
+  --a-toggle:#D8A9A1; --a-woven:#E2BE98; --a-heart:#EDB9B2; --a-prism:#9FD3D9; --a-e1:#C9A3C8;
   --display:"Velista","Cormorant Garamond",Georgia,serif; --text:"Cormorant Garamond",Georgia,serif; --label:"Jost","Helvetica Neue",Arial,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#1D1917; --sheet:#25201D; --ink:#F1EAE0; --muted:#B9AA9B; --rule:#3A322D; --blush:#2E2522; --chip:#352C27; --gold:#D6B678;
-  --a-toggle:#B98A83; --a-woven:#C19C77; --a-heart:#C9938C; --a-prism:#76AFB5; color-scheme:dark}}
+  --a-toggle:#B98A83; --a-woven:#C19C77; --a-heart:#C9938C; --a-prism:#76AFB5; --a-e1:#A882A7; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#1D1917; --sheet:#25201D; --ink:#F1EAE0; --muted:#B9AA9B; --rule:#3A322D; --blush:#2E2522; --chip:#352C27; --gold:#D6B678;
-  --a-toggle:#B98A83; --a-woven:#C19C77; --a-heart:#C9938C; --a-prism:#76AFB5; color-scheme:dark}
+  --a-toggle:#B98A83; --a-woven:#C19C77; --a-heart:#C9938C; --a-prism:#76AFB5; --a-e1:#A882A7; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--text);font-size:19px;line-height:1.5;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -57,6 +71,12 @@ button:hover{background:var(--ink);color:var(--paper)} button:focus-visible{outl
 button[disabled]{opacity:.45;cursor:default} button.quiet{border-color:var(--rule)}
 .note{font-family:var(--label);font-size:13px;letter-spacing:.04em;color:var(--muted);min-height:1em}
 .toc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.data{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;border-top:1px solid var(--rule);padding-top:28px}
+.data div{display:grid;gap:6px;align-content:start}
+.data b{font-family:var(--display);font-weight:400;font-size:clamp(34px,4.4vw,48px);line-height:1}
+.data span{font-size:17px;line-height:1.35}
+.datahead{display:grid;gap:8px;max-width:72ch}
+.datahead h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4vw,44px);margin:0}
 .toc a{display:grid;gap:4px;text-decoration:none;color:var(--ink);padding:14px 14px 16px;background:var(--sheet);border-top:3px solid var(--acc)}
 .toc a span:first-child{font-family:var(--display);font-size:24px;line-height:1.1}
 section.camp{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:40px;border-top:1px solid var(--rule);padding-top:36px}
@@ -84,19 +104,20 @@ dialog::backdrop{background:rgba(20,16,14,.82)}
 .lb img{max-height:92vh;width:auto;max-width:100%}
 .lb .side{padding:24px;display:grid;gap:12px;align-content:start}
 .lb .side h4{font-family:var(--display);font-weight:400;font-size:30px;margin:0;line-height:1.1}
-@media (max-width:900px){section.camp{grid-template-columns:minmax(0,1fr)} .story{position:static} .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:900px){.data{grid-template-columns:repeat(2,minmax(0,1fr))} section.camp{grid-template-columns:minmax(0,1fr)} .story{position:static} .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .toc{grid-template-columns:repeat(2,minmax(0,1fr))} .lb{grid-template-columns:minmax(0,1fr)} .lb img{max-height:70vh}}
 @media (max-width:460px){.grid{gap:12px} body{font-size:18px}}
 @media (prefers-reduced-motion:no-preference){figure button.img img{transition:opacity .2s} figure button.img:hover img{opacity:.92}}
 </style>
 <div class="wrap">
   <header>
-    <span class="lab">Naira Petite · Concept camps · October 2026</span>
-    <h1>Concept Camps</h1>
-    <p class="lede">Four in-stock pieces, four ideas, forty photographs, each one checked against its Shopify listing.</p>
+    <span class="lab">Naira Petite · Crazy camps · October 2026</span>
+    <h1>Crazy Camps</h1>
+    <p class="lede">__LEDE__</p>
     <div class="bar"><button id="saveBoard" type="button" disabled>Save the board PDF</button><span class="note" id="boardNote"></span></div>
     <nav class="toc" id="toc" aria-label="Camps"></nav>
   </header>
+  <section id="dataBand" hidden><div class="datahead"><span class="lab">What your ad account says</span><h2>Crazy wins, mostly</h2><p id="dataLede"></p></div><div class="data" id="dataGrid"></div></section>
   <main id="camps" style="display:flex;flex-direction:column;gap:56px"></main>
   <footer>
     <h3>How these were made and checked</h3>
@@ -120,14 +141,14 @@ let downloads = null;
 function render() {
   const toc = $("#toc"), main = $("#camps");
   for (const c of DATA.camps) {
-    const a = el("a", {href: "#" + c.key, style: "--acc:var(--a-" + c.key + ")"}, el("span", {text: c.title}), el("span", {class: "lab", text: c.name}));
+    const a = el("a", {href: "#" + c.key, style: "--acc:var(--a-" + c.key + ", var(--a-e1))"}, el("span", {text: c.title}), el("span", {class: "lab", text: c.name}));
     toc.append(a);
     const story = el("div", {class: "story"},
-      el("span", {class: "swatch", style: "--acc:var(--a-" + c.key + ")"}),
-      el("span", {class: "lab", text: "Camp " + String(c.n).padStart(2, "0") + " · " + c.name}),
+      el("span", {class: "swatch", style: "--acc:var(--a-" + c.key + ", var(--a-e1))"}),
+      el("span", {class: "lab", text: c.group + " · " + c.name}),
       el("h2", {text: c.title}), el("p", {class: "line", text: c.line}), el("p", {text: c.idea}),
-      el("div", {class: "facts"}, el("span", {text: c.price + " · SKU " + c.sku}), el("span", {text: c.stock + " in stock on Shopify, 15 Oct 2026"}), el("span", {text: c.frames.length + " verified frames"})),
-      el("div", {class: "bar"}, el("button", {type: "button", class: "savePdf", "data-file": "pdfs/" + c.pdf, disabled: ""}, document.createTextNode("Save camp PDF"))),
+      el("div", {class: "facts"}, el("span", {text: c.price + " · SKU " + c.sku}), el("span", {text: c.stock + (c.group === "Edition One" ? " available to pre-order" : " in stock on Shopify, 15 Oct 2026")}), el("span", {text: c.frames.length + " verified frames"})),
+      el("div", {class: "bar"}, el("button", {type: "button", class: "savePdf", "data-file": "pdfs/" + c.pdf, disabled: ""}, document.createTextNode(c.group === "Edition One" ? "Save Edition One PDF" : "Save camp PDF"))),
       el("span", {class: "note"}));
     const grid = el("div", {class: "grid"});
     for (const f of c.frames) {
@@ -141,6 +162,7 @@ function render() {
     main.append(el("section", {class: "camp", id: c.key}, story, grid));
   }
   $("#checkNote").textContent = STATS.note;
+  if (STATS.data) { $("#dataLede").textContent = STATS.dataLede; for (const [b, t] of STATS.data) $("#dataGrid").append(el("div", {}, el("b", {text: b}), el("span", {text: t}))); $("#dataBand").hidden = false; }
 }
 
 let current = null;
@@ -182,6 +204,7 @@ render();
 }).catch(() => {});
 </script>
 """
-page = page.replace("__VELISTA__", velista).replace("__DATA__", data).replace("__STATS__", json.dumps(stats, ensure_ascii=False))
+lede = ("Every photograph here passed a check against its Shopify listing: four in-stock concept camps and the Edition One pre-orders." if len(sys.argv) > 3 else "Four in-stock pieces, four ideas, forty photographs, each one checked against its Shopify listing.")
+page = page.replace("__LEDE__", lede).replace("__VELISTA__", velista).replace("__DATA__", data).replace("__STATS__", json.dumps(stats, ensure_ascii=False))
 open(f"{out}/index.html", "w").write(page)
 print(f"{out}/index.html", round(len(page) / 1024), "KB")
