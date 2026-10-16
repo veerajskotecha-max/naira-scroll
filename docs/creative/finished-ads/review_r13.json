@@ -1,0 +1,25 @@
+[
+ {
+  "id": "clusterC1_m1",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The new plate is byte-identical to composite_r3's tested soft=0.4 render (review6/var/r3c_soft0.4.png). Against the r10 plate it changes 11,407 px by at most 11 levels, all inside the stud's box (plate x 344–597, y 1649–1792). Rendered on both plates, the ad differs only inside x 240–543, y 848–1031, by at most 20 levels, and by at most 1 level anywhere else. The config, the HTML and every copy box are unchanged.",
+   "The stud still reads crisply at 390 px. Its 95th-percentile edge gradient is 60.2, against 61.5 on the r10 plate (−2%), and still well above the pink sweet's 32.9 and the right purple sweet's 41.1. At 1080 it softens by 8% (41.0 to 37.7), so it now sits at the sugar's focus, as r3 intended. The cuts, colours and pearls stay distinct.",
+   "Realism is up: composite_r3 scores the plate 9.0. At ad size the light now reads as back-lit, and nothing is physically wrong for where the stud lies. The stud is 27% of the frame width (about 106 px at 390 px), with its own crisp shadow on open paper. Light pastel ground, ₹2,399, the winning 'Almost edible.' system. The claims are listing facts, and no pearl count is stated.",
+   "Contrast is unchanged from r10. Headline 15.6:1 (darkest 5% 14.6). The correction over the left purple sweet reads 13.4:1 (12.3) and 10.4:1 (8.2) on its two lines, with the scrim. Spec line 15.6:1 (13.9), price 14.0:1 (13.1), ink wordmark 7.6:1 (5.2). Neither glow touches the stud or its shadow, which ends 124 px above the rule."
+  ],
+  "issues": [
+   "[ceiling: photo] composite_r3 left the composition to the ad review. The stud still lies apart from the candy, about 1.3% of the frame's area against 6.5% for the pink sweet. So the pun lands through the copy and the colour rhyme in a second or two, not at a glance as in the winner, where the piece sits in the bowl. That holds it at 8.5, as r2 counted it.",
+   "[brand, minor] The headline glow pales the left purple sweet's top half: up to about +70 levels at y 240–280, with saturation falling from 0.25 to 0.16. At 390 px it reads as soft bokeh light.",
+   "[brand, minor] The wordmark straddles the edge of the right purple sweet's cast shadow; it still reads 7.6:1 (5.2).",
+   "[placement] It reuses prismC1_m1's headline in the same candy scene. Run the proven, in-stock Prism first; this is the pre-order test.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] None. scrim: false was tested in r10: the correction falls to 5.3:1 (3.4).",
+   "[no layout fix] For 9 and above, the stud has to move into the candy: B's place with sweetshade=0.6 (composite_r2), or a closer scene. composite_r3's untested glow=0.08 would only lose the amber patch.",
+   "[run] Run it as the Edition One candy test, after Prism."
+  ]
+ }
+]
