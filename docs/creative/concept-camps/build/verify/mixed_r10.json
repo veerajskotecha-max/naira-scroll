@@ -1,0 +1,171 @@
+[
+ {
+  "plate": "T01_a3.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Bar not attached; both chain ends on the ring (rules 1 and 5). This is the same build that failed T03_e1 and T06_e1. At 8x the bar's upper-left end (x≈1130-1148, y≈1808-1825) is a bare flat cut with pavé to the tip and no ring through it. The left strand ends in a small smooth oval link (x≈1170-1195, y≈1765-1810) and a round jump ring (x≈1172-1205, y≈1808-1838). That jump ring sits on the ring's left flat-cut collar, whose dark end face is at x≈1180-1210, y≈1838-1858. It is ≈25-30 px (≈3 mm) right of the bar's end and does not touch it. The right strand joins by a smooth oval jump ring round the tube at ~12:30-1 (x≈1205-1245, y≈1815-1870). So both chain ends hang on the ring, one at each side of the gate, and the bar is a loose piece across the ring's upper left. This toggle could not close the necklace. The listing (ref-clasp.jpg, listing-0-onbody.jpg) hangs the bar from its own jump ring outside the ring at ~10-11 o'clock.",
+   "Clearly short loop (rule 4). Calibration: the switch dome is ≈553 px across (x≈1001-1554); at 6 cm that is ≈9.2 px/mm. Links measure ≈38 × 110 px (≈4.1 × 12 mm), so the links are drawn true. The left strand has 14 links (y≈600-1760) plus the small link, the right strand ≈14-15 (y≈545-1805), and ≈1-2 lie over the lever. That makes ≈30 links against ≈45 (-33%). The chain path is ≈2620 px, ≈28.5 cm, or ≈31 cm with the clasp (-38% against 50 cm). That is ≈19 ring diameters against ≈33 (-42%). The drop from the lever top (y≈545) to the clasp bottom (y≈1983) is ≈1440 px, ≈15.6 cm, against the ≈24 cm a 50 cm chain hooked at its middle gives (-35%). Every measure is past the 30% line, so this is not borderline: the frame shows a ≈30 cm necklace."
+  ],
+  "notes": [
+   "Ring: ≈139 × 148 px (x≈1142-1281, y≈1835-1983), ≈16 mm (+7%), a thick polished tube. A ball push-pin nub sits on a post at ~2 o'clock (x≈1268-1292, y≈1863-1880) above a grooved collar at ~3 (x≈1250-1272, y≈1888-1907). The gate between the left collar (~11:30) and ~1 o'clock is hidden under the right jump ring, so whether it is slimmer cannot be resolved. Nothing hangs from the ring and nothing sits under the bar.",
+   "Bar length is within limits. End centres ≈(1138,1815) and ≈(1208,1898) give ≈109 px, or ≈112 px with the ring's slight turn corrected: 0.73-0.78 of the ring (target 0.6, fail line 0.8). Straight with flat ends. Its stones are dense pavé 2-3 abreast rather than the listing's single row of ~9; not resolvable at phone size.",
+   "Connectors are all smooth; no granulated or clip parts. The paperclip links are open and slim (aspect ≈0.35, spec 0.36).",
+   "Hook and physics: one link passes over the porcelain lever (x≈1200-1255, y≈545-560). Both strands hang straight and nothing floats. One continuous chain; no text, screws or wires. The chain's and switch's shadows fall to the left, so the key light comes from the right where the prompt asked for the left. They agree with each other, so this is not a physics fault.",
+   "Palette is on brand. The wall is blush-peach plaster: (173,138,119) in shade on the left half and (232,196,169) lit below the clasp, hue 21-26°, sat 0.27-0.32. Of the non-gold pixels, 39% are blush, 52% peach and 7% tan. Gold measures hue 30°, sat 0.56.",
+   "Ad read (not scored, because it fails): 'toggle' lands in one second on a real lever, with a calm left half for the headline and a lovely sunbeam and chain shadow. But the product is a thin strip, the ring is ≈7.5% of the frame width, and it sits low at 80-86% of the height. About 8.0 once fixed."
+  ],
+  "fix": "Reshoot (the length cannot be retouched). Clasp wording: 'the LEFT chain end ends in a small round jump ring that passes through the very top end of the bar, outside the ring at about 10 o'clock; that jump ring never touches the ring; the ring's left flat-cut collar is bare; only the RIGHT chain end joins the ring, by a smooth jump ring beside the gate'. Length: '45 links in all, 22 down each side of the lever; the closed toggle hangs about 24 cm, four switch-widths, below the lever'. Frame about 32 cm of wall height so the switch is about a quarter of the frame width in the top fifth, with calm wall below the clasp. Keep the porcelain switch, the hooked lever, the blush plaster, the sunbeam and the chain shadow. Ask for ONE single row of about nine stones on the bar.",
+  "crop": null
+ },
+ {
+  "plate": "T02_a3.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Bar far too long (rule 1). The ring is ≈126 × 144 px (x≈551-677, y≈1650-1794), turned ≈29° on its vertical axis, so its true diameter is ≈144 px. The pavé bar's end centres are ≈(683,1617) and ≈(591,1742), ≈155 px apart: 1.08 of the ring, or 1.13 with the turn corrected. That is against 0.6 briefed and the 0.8 fail line. The bar runs from outside the ring's upper right to deep inside its lower left, so at phone size it reads as a long crossbar.",
+   "Bar not attached; both chain ends on the ring (rules 1 and 5). Both bar ends are bare flat cuts: the upper right at x≈675-692, y≈1605-1630 and the lower left at x≈582-600, y≈1735-1750. At 7x the upper strand runs paperclip link, round jump ring (x≈587-630, y≈1600-1640), small ring (x≈597-622, y≈1628-1655) round the ring's tube at 12 o'clock. The lower strand leaves the ring's bottom at 6 o'clock through a round jump ring (x≈598-640, y≈1805-1845). The ring is therefore an inline connector with a loose bar lying over it, which could not close the necklace. The ring-side chain also joins opposite the gate: the flat-cut end and collar are at ~4 o'clock (x≈640-680, y≈1735-1760) with the ball nub on a post at ~3 (x≈690-705, y≈1720-1735). In the listing one chain end sits beside the gate at the top and the bar hangs from the other."
+  ],
+  "notes": [
+   "Scale is fine. The switch dome is ≈594 px across (x≈466-1060), ≈9.9 px/mm at 6 cm. The ring comes to ≈14.5 mm (-3%) and face-on links to ≈36 × 95 px (≈3.6 × 9.6 mm). Length is not judged for this frame.",
+   "Both strands leave the bottom edge (x≈650 and x≈930 at y=2752), as asked, and it is one continuous chain.",
+   "Prop arrangement, not judged: the chain is not on the lever. It lies over the top of the dome (x≈700-880, y≈800-860), runs down the dome's left flank to the clasp and down its unseen right flank, and emerges below the lower right (x≈965-995, y≈1270). That is plausible from this left-of-centre camera. The clasp hangs ≈6-8 cm below the dome top rather than beside a hooked lever.",
+   "At 6x a small dark, mottled junction (≈20 × 15 px, ≈2 mm; x≈600-620, y≈1795-1810) sits between the ring's bottom and the lower jump ring. It reads lumpy at zoom and is invisible at phone size. Bar stones are dense pavé 2-3 abreast, not one row.",
+   "No text, screws or wires. The top third is calm blush-peach plaster: (210,181,160), hue 25°, sat 0.24. A shaded mauve-taupe band runs down the right ≈18% (x≈1250-1536): (169,144,131), val 0.66. Gold measures hue 31°.",
+   "Ad read (not scored, because it fails): the calm top third and long chain shadow are lovely. But the lever, the 'toggle' pun, is not engaged, and the clasp is small (ring ≈8% of the frame width). About 8.0 once fixed."
+  ],
+  "fix": "Masked inpaint of the clasp only (x≈530-730, y≈1590-1850), with ref-clasp.jpg as reference. (1) Remove the long bar. Draw a short bar ≈85 px (0.6 of the ring), hung by its very end from the upper strand's jump ring OUTSIDE the ring at about 10-11 o'clock, lying across the ring's upper left with its free end over the opening. (2) Unhook the upper strand's small ring from the ring's tube. (3) Move the lower strand's attachment from 6 o'clock to a smooth jump ring around the tube beside the gate. Redraw the gate at the top between two flat-cut collars, with the ball push-pin nub a quarter turn away at 3 o'clock. In a reshoot, hook the chain over the porcelain lever itself, with the clasp hanging about 3 cm below it.",
+  "crop": null
+ },
+ {
+  "plate": "T03_e2.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "The requested fix was not made (rule 1). The chain leaving the BOTTOM of the ring still hooks its paperclip link straight round the tube at ~6:30, opposite the gate, with no jump ring (x≈1000-1040, y≈1440-1500). Side by side at 2.5x it is unchanged from T03_a1. There is no jump ring beside the gate: the collar at ~2 o'clock (x≈1100-1150, y≈1320-1360) and the nub at ~3 (x≈1150-1170, y≈1390-1410) are as in a1. At phone size the clasp still reads chain, bar, ring, with the chain leaving the ring's bottom.",
+   "The edit drifted where it should not have (rule 1, part added). The difference map puts structural change in one diagonal strip only, x≈1150-1470, y≈900-1540 (3 px blurred block means 8-56 against 1-3 elsewhere): the stem tangle and the right-hand strand, not the ring junction. In the tangle a large paperclip link now encircles the lattu's stem (x≈1190-1300, y≈900-1090). A new smooth round ring, ≈65 × 100 px (≈4.7 mm at 13.9 px/mm), sits inside the chain at x≈1305-1370, y≈1050-1155; a continuous paperclip chain has no such ring. The right strand has been re-routed from it down the lattu's right flank (x≈1300-1520, y≈1100-1600). At phone size the new ring reads as part of the tangle, but it is an added part and the edit's only 'jump ring' went to the wrong place."
+  ],
+  "notes": [
+   "Glint: its bright 6-point core at ≈(1160,925) is gone, but two faint rays remain at 6x, running up and up-left from ≈(1160,920). They are invisible at phone size. Paint them out by hand.",
+   "Elsewhere nothing changed structurally. The ring (189-190 px), the bar (118 px, 0.62x the ring, double-row pavé, hung from its own jump ring), the lattu, table, curtain and wall all match a1. The table-chain zones at x≈520-760, y≈1560-1900 and x≈1400-1856, y≈1720-2060 differ by 4-6 grey levels; side by side these are re-rendered highlights on the same links. Whole-frame mean absolute difference is 4.1 (e1 was 3.7). There is a slight global warm shift (mean RGB 178.9/146.0/123.6 → 182.2/146.4/124.9).",
+   "Inherited from a1, unchanged: scale is right (ring ≈13.6 mm against the 5 cm lattu); about 51 links trail out of frame, consistent with 50 cm; gold hue ≈28°; no text. The upper back wall stays deep mocha in shade, as r1 noted.",
+   "Ad read (not scored, because it fails): still the best photograph of the toggle camp, about 8/10 once the junction is right."
+  ],
+  "fix": "Stop using whole-frame edits for this junction: three runs (e1, e2) have changed the wrong strand. Go back to T03_a1 and do a hand composite, or a masked inpaint whose mask covers only x≈990-1170, y≈1380-1500, so nothing at the stem can move. In it, remove the paperclip link hooked round the bottom of the ring. End that trailing strand in a small smooth round jump ring (≈55 px, 0.3 of the ring) round the tube just right of the gate, between the ~2 o'clock collar and the ~3 o'clock nub, and re-route its last link or two up to it. Clone out the star glint and its rays by hand at ≈(1120-1200, 880-960). Keep a1's stem tangle, right strand and bar exactly.",
+  "crop": null
+ },
+ {
+  "plate": "T05_a3.png",
+  "pass": false,
+  "severity": "critical",
+  "score": null,
+  "reasons": [
+   "Clasp construction changed (rules 1 and 5). The ring is ≈228 × 245 px (x≈572-800, y≈1341-1586). The pavé bar's end centres are ≈(472,1565) and ≈(703,1405), ≈281 px apart: ≈1.15-1.2 of the ring against 0.6 and the 0.8 fail line. It sticks ≈100 px out past the ring's left side, so at phone size it reads as a long T-bar. Both bar ends are bare: the lower left at x≈467-483, y≈1547-1577 and the upper right inside the ring at x≈694-708, y≈1397-1413. Both chain ends join the ring instead. The left strand's jump ring goes round the tube at ~11 o'clock (x≈586-642, y≈1355-1422), and the diagonal strand's oval jump ring at ~1 o'clock (x≈739-794, y≈1363-1424). An extra small ring hangs round the tube at ~7 o'clock with nothing on it (x≈589-617, y≈1535-1563), where the listing has nothing hanging from the ring. As drawn the toggle could not fasten.",
+   "Not one closed strand (rules 2 and 5). Both chain ends at the clasp run UP to the neck. The left strand meets the neck's left side at x≈700-740, y≈1030-1060. The diagonal strand climbs to the neck's right side at x≈1110-1190, y≈1060-1130. Together they close a short collar round the neck through the clasp. A third run, the long vertical strand, starts at that same right-side junction: at 4x three link runs meet at x≈1150-1190, y≈1060-1095. It falls down the vase's right flank (x≈1170-1330) and out of the bottom edge. With the clasp on the shoulder, one clasp end should go up round the neck and the other fall down out of frame. Here the long loop hangs from a three-way junction, which a single closed paperclip chain cannot do. It reads as a choker plus a second dangling strand."
+  ],
+  "notes": [
+   "Scale, not counted because the props disagree. The neck is ≈300 px at its narrowest (y≈600) and ≈350 px where the chain wraps (y≈1000). At 3 cm the ring is ≈19.5-24.5 mm (+30 to +63%), and the neck is only ≈1.4 rings wide (prompt 2). The tulip head, ≈783 px wide and so ≈20 px/mm for a 5 cm bloom, puts the ring at ≈12 mm instead. Links are ≈140 px long (ring ≈1.7 link lengths; on-body listing 1.65-1.8).",
+   "The ring is a thick polished tube with a ball nub at ~4 o'clock (x≈778-811, y≈1519-1549) beside a collar, but no slimmer gate section is visible at the top. The bar carries one row of ≈11 stones.",
+   "One vase and one tulip, no text, and soft contact shadows on the glaze. The prompt said the wall must never fall into brown shade, but the left half is in deep shade: (153,116,98), hue 20°, sat 0.36, val 0.60. The right half is sunlit peach: (225,188,160), hue 26°, sat 0.29. Of the non-gold pixels, 33% are blush, 37% peach and 22% tan. Gold measures hue 30°.",
+   "Ad read (not scored, because it fails): the vase-as-collarbones idea reads, and the tulip crop is elegant. But the clasp is a large, confusing knot of rings and bar, and the dark left wall weighs on the headline space. About 8.0 once fixed."
+  ],
+  "fix": "Reshoot. State the clasp and the topology separately. Clasp: 'the bar is SHORT, 0.6 of the ring; it hangs by its very end from a small jump ring on ONE chain end, outside the ring; only the OTHER chain end joins the ring, by one smooth jump ring beside the gate at the top; nothing else on the ring'. Topology: 'the closed toggle rests on the vase's left shoulder; from the clasp ONE strand climbs to the neck, passes once behind it and falls down the right side out of the bottom of the frame; the OTHER strand falls straight down from the clasp out of the bottom of the frame; exactly two strands cross the bottom edge and no strand ends or branches at the neck'. Scale: 'the neck is twice the ring's width'. Keep the ivory bottle, the peach tulip crop and the light, but keep the whole wall in soft sunlit blush.",
+  "crop": null
+ },
+ {
+  "plate": "W04_a3.png",
+  "pass": true,
+  "severity": "minor",
+  "score": 8.3,
+  "reasons": [],
+  "notes": [
+   "Scale passes, with the two charpai referents disagreeing. The hoops measure ≈520-530 px across: the upper ≈465 × 530 px (x 864-1329, y≈990-1520), turned on its axis; the lower ≈520 × 470 px (x≈1179-1701, y≈1420-1891), tilted. Autocorrelation across the cords gives a pitch of 47, 48 and 52 px beside the lower hoop (44-55 px elsewhere), so each hoop spans ≈10.6 cords (prompt 8). At 3 mm a cord that is ≈32 mm (+27%; range +21 to +34%). The cot is woven with 4-5 cords per band instead of three, so bands are ≈200-250 px. Each hoop spans ≈2.1-2.6 bands, which at 9 mm a band is ≈19-24 mm (-24 to -4%). The truth lies between the two; no reading puts the hoops more than ≈30% off at its central estimate. They read a touch chunky against single cords. The braid is ≈100-120 px thick, ≈2.2 cords (real ≈1.8), with an opening of ≈230-250 px.",
+   "Upper hoop is faithful at 2-3x. It has the hinge knuckle with pin at the top left (x≈1020-1060, y≈920-980), one thin wire, and a notched catch with the tip protruding (x≈1200-1240, y≈960-1010). One flat, round, smoothly polished disc hangs under the catch (x≈1160-1250, y≈1030-1190). The braid is open and interlaced, with many polished wires over the fine mesh core. No stones. At the hinge end the braid runs straight into the knuckle with no distinct stippled cap (≈1-2 mm, not resolvable at phone size).",
+   "Lower hoop. It has the knuckle with pin (x≈1435-1500, y≈1395-1440), one thin wire, and a catch with the tip protruding (x≈1690-1720, y≈1440-1500). Under its knuckle sits an oval (x≈1365-1470, y≈1420-1570) with a grained, matte face: high-frequency texture 8.4 against 4.0 on the upper hoop's polished disc. That is the stippled hinge end cap asked for, not a second disc. This hoop's own disc under the catch is not visible; it is on the hidden side at this angle. At phone size the cap reads like the disc. No stones; the pair match in size.",
+   "Physics is fine. The upper hoop stands with its base settled into the weave, and the lower lies across the cords; both have contact shadows. Neither hangs from its latch wire as briefed (prop arrangement).",
+   "Palette is on brand. Of the non-gold pixels, 76.5% are blush, 9% peach, 1.8% tan and 12.5% dark (the shadowed diamond gaps). The cord reads dusty rose: (183,146,140) in the upper left, hue 6-13°, sat 0.23-0.32. Gold measures hue 31°, sat 0.70: warm but still yellow. No text, wooden frame, hands or third earring.",
+   "Why 8.3. The braid-on-charpai idea reads in one second; the raking warm light, crisp speculars and cord fibres are superb; the gold is the brightest, clearest thing. It stays below run-as-is because there is no calm copy space: the whole frame is a high-contrast lattice with near-black diamond gaps, the headline corner included. The pair also sits dead centre rather than in the lower right third, and reads slightly chunky against the single cords."
+  ],
+  "fix": "Keep the weave, the dusty-rose cord, the light and both hoops' builds exactly. Lay a soft blush cloth under the cot so the diamond gaps read light blush instead of dark. Let the top third fall into a smooth blush blur. Place the pair in the lower right third. To tighten scale, ask for 'three cords to a band, each hoop spanning eight cords'. Optional: show the lower hoop's disc under its catch.",
+  "crop": null
+ },
+ {
+  "plate": "W08_a3.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale (rule 4). The hoops are still about 4 octagon holes wide. They measure ≈330 × 323 px (upper; x≈617-946, y≈1052-1375) and ≈353 × 365 px (lower; x≈393-746, y≈1387-1752). In the cane field (x 0-950, y 1850-2700) I found 30 whole octagon openings with a median area-equivalent diameter of ≈85 px, boxes ≈83-100 × 90-113 px. The pattern repeats every ≈136-150 px across and ≈154 px down. Each hoop therefore spans ≈3.7-4.3 openings and ≈2.2-2.5 repeats, against ≈1.5 for a 25 mm hoop on 1 cm octagons. At 1 cm an opening, the hoops are ≈37-41 mm (+47 to +65%). Two more cues agree. The hoop's centre hole (≈150-170 px) is ≈1.8 openings, against 1.3 for 13 mm on 10 mm. The blush bentwood bar is ≈180-190 px wide, so each hoop is ≈1.8 bar widths (prompt ≈1). To a shopper these read as 4 cm statement hoops.",
+   "Cane is not bleached ivory (rule 7, borderline, secondary). The lit cane is (248,219,187), hue 31°, sat 0.25, and its mid-tones (240,207,169), sat 0.30: pale straw-beige, much paler than a2's honey cane but well short of ivory. It fills ≈60% of the frame. Behind it the wall is in deep brown shade, (124,84,60), val 0.49, showing through every opening, and covers the lower right ≈20% at (132,96,75), val 0.52. The prompt forbade that. Of the non-gold pixels, 35% classify as tan or straw, 41% peach and 17% blush."
+  ],
+  "notes": [
+   "Both hoops have the open interlaced braid over the fine mesh core, a knuckle with pin, one thin wire, a catch with the tip protruding and one polished disc, seen near edge-on. No stones. At 4x the upper hoop's disc hangs under its hinge knuckle (pin at x≈805-830, y≈985-1010; plate at x≈800-840, y≈1040-1130), while its catch end at the left (x≈670-700, y≈1010-1050) has none. The lower hoop is built right, with its disc under the catch (x≈640-680, y≈1380-1500). At phone size the discs are thin edge-on slivers and the difference does not read; fix it in the reshoot.",
+   "The lower hoop is drawn ≈8-10% larger than the upper. The latch wires run in front of the cane strands, so neither hoop is visibly threaded through the webbing as asked, but their shadows fall on the cane and they read as hanging.",
+   "The calm top band of lit wall carries a soft octagon shadow, and the blush bentwood bar is on palette at (226,185,160). Gold measures hue 31°, sat 0.63. No text; no third earring.",
+   "Ad read (not scored, because it fails): a graphic pattern-on-pattern idea with crisp gold, held back by the oversized read and the straw-and-brown palette."
+  ],
+  "fix": "Make the cane carry the scale. Use 'a fine Viennese cane with octagon openings about 1 cm; each hoop covers only about one and a half repeats of the pattern, about two openings; the hoop's centre hole is only a little larger than one opening; the bentwood bar is as wide as a whole hoop'. Palette: 'near-white, bleached ivory cane, like whitewashed cane, never straw, beige or honey; behind it a sunlit pale blush wall that stays light through every opening, no brown shade'. Thread each latch wire behind one cane strand. Put each disc under the catch, the end where the wire tip clicks in, never under the hinge pin. Keep the blush bentwood, the octagon wall shadow and the calm top third.",
+  "crop": null
+ },
+ {
+  "plate": "P02_a2c.png",
+  "pass": true,
+  "severity": "minor",
+  "score": 8.5,
+  "reasons": [],
+  "notes": [
+   "The crop is pixel-exact: P02_a2.png at [192,440,1255,2330], maximum absolute difference 0. It is 1063 × 1890 px, aspect 0.5624 against 0.5625 for 9:16. It needs a ≈1.6% upscale to 1080 × 1920.",
+   "Both clasp halves are out of frame. In P02_a2 the receiving frame sits at y≈312-412 and the opened latch half at y≈2352-2522, both outside the crop. The top edge cuts through the first aqua unit's halo, about 6 px into the stone, and the bottom edge through the last yellow unit's halo. At 2x both edges show only halo, stone and powder, with no metal frame, latch or link. The strip runs off both ends, so the count is not shown.",
+   "Colour order is correct. Thirteen stones read top to bottom A P Y P A Y P A P Y P A Y. Median hues are 181-192° (aqua), 345-351° (pink) and 38-43° (yellow); no two neighbours share a colour and there is no fourth colour. Each stone keeps its own colour on every band: the pinks on the aqua and yellow bands, the aqua on the pink band.",
+   "Settings are faithful at 2x. Each square cushion stone sits in its own bright halo of 2-3 rows of fine pavé (finer than listing-7's two rows, the same minor note as P01), held by four short round bead claws at the corners, and the units join by small hinge links. Nothing is clear, round or haloless. The rhodium is bright and sparkling. The unit is 138 px and the stone 89 px (0.65; real 0.65-0.69).",
+   "Scale follows P01's calibration: a poured powder band is a soft referent. The bands are ≈2.8 pitches deep, ≈24 mm at true scale, against the 6 cm asked, which is not a hard fail. Powder grains are 2-3 px, ≈0.11-0.17 mm, plausible for fine rangoli. The 150 px pitch puts ≈10.6 cm of the bracelet in frame.",
+   "Physics and palette: the strip presses a straight groove with powder ridges and soft contact shadows; nothing floats. The floor is warm ivory and the bands pastel aqua, pink and butter. No text; one piece.",
+   "Why 8.5. The 'colour ruled into one straight line' idea reads in one second; it is graphic, on palette and tactile, and the pavé is the brightest, sharpest thing. It sits at the bar, not above it: the top light is soft with no strong hard kicker, only ≈5% bare floor remains at the top so the headline sits on the aqua band (dark type works, as on P01), and the slight upscale costs a little crispness."
+  ],
+  "fix": "Runs as-is. Optional: one small hard specular for a crisp rhodium edge.",
+  "crop": null
+ },
+ {
+  "plate": "H04_a2.png",
+  "pass": true,
+  "severity": "minor",
+  "score": 8.2,
+  "reasons": [],
+  "notes": [
+   "Product is correct. There are 22 large beads, counted bead by bead round the loop (within 23±2). The T-bar end runs large bead, silver link, small bead, gold jump ring to the bar's centre loop. The ring end runs large bead, silver jump ring, gold jump ring, ring, with no small bead (x≈1050-1125, y≈1265-1320); listing-1 shows exactly this, while listing-5 shows a small bead there. The T-bar is straight and flat-ended, ≈314 px, ≈1.75x the ≈180 px ring (listing ≈1.7-1.8), and lies across the ring as fastened. Exactly one smooth, puffed, polished heart (≈187 px wide, 2.3 bead widths) hangs on a jump ring at the ring's lower left. No stones and no second bracelet.",
+   "Beads read polished grey-silver mirror with crisp white highlights and room reflections: median L 119-146 per bead, pooled RGB (148,130,122); the listing measures L ≈105-117. Not black, matte or pearly.",
+   "Scale is borderline but inside the limit. An ellipse fitted to the skin edge of the drum head gives a centre ≈(1390,1110) and axes ≈1930 × 1150 px, ≈10.7 px/mm across 18 cm. Beads measure ≈75 px at the far side of the loop and ≈85 px at the front, ≈82 px at the head's depth, so ≈7.6 mm (+27%; range ≈+15 to +35%). The loop is ≈815 px across, so the head is ≈2.4 loop-widths (prompt 3). Drawn length is ≈19-20 cm. It reads slightly chunky.",
+   "The drum has no metal rings, only peach and blush rope lacing; no sticks and no text. The head is clean warm ivory (235,216,200) with faint mottling and no stains. The wall is dusty rose (207,166,146), hue 20°, sat 0.29. A pale ivory window strip runs down the far left edge. Of the non-gold pixels, 46% are blush, 23% peach and 23% tan (the head's warm ivory). The heart's gold measures hue 31°.",
+   "Why 8.2. Warm, calm and on palette, with a clean skin, soft light, crisp gold and a calm upper-left wall for the headline. The loop fills ≈44% of the frame width as asked. It stays below run-as-is for three reasons. The bright ivory head (median L ≈219) outshines the mid-grey beads (≈134), so the product is not the brightest thing. The beads read a little chunky. And 'bracelet on a drum' is pretty rather than witty: the beat idea needs the copy to land."
+  ],
+  "fix": "Keep the dholak, light, wall and clasp build. Shrink the bracelet about 20% against the drum: 'the drum head is three bracelet-loops across; each bead about one thirtieth of the drum's width'. Use a pale reflector so the beads read brighter mirror silver than the drum skin, and lower the head a third of a stop. Optional, for wit: let the heart sit at the centre of the head like the drum's sweet spot.",
+  "crop": null
+ },
+ {
+  "plate": "H06_a2.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Full frame: chin visible at the top edge (rule 3). The chin spans x≈500-830, y 0-175. Its lower edge sits at y≈151-173 for x 580-800, lowest ≈173 at x≈640-700, and meets the shaded neck at x≈840-860, y≈143-149. The jaw-neck crease to the right stays above y≈100 for x≥950. Hair fills the top corners. This is fixed by the crop below.",
+   "Crop [204,239,1856,2304] is still out of scale (rule 4): the bracelet reads chunky beside her fingers. Fingernails measure ≈55-64 px across (index ≈55, middle ≈64, ring ≈63, little ≈62) and large beads ≈58-60 px (for example x≈652-712, y≈1593-1653). Each bead is therefore ≈0.97 of a nail, against ≈0.6 on the real piece and 'a little over half' in the prompt: ≈9.5 mm (+58%) by the stated fingernail referent. The heart (≈125 px) is ≈2.0 nails, ≈20 mm, against ≈1.1 nails (11 mm) on the real piece and 1.5 in the prompt. The wrist alone would pass. The bracelet spans ≈578 px across it, so beads come to ≈5.9 mm, and bead/span is 0.10 against 0.086 (listing-3) and 0.08 (listing-5), +17-25%. The conflict is anatomy: the hand is drawn ≈40% small for its wrist (fingers ≈85-95 px, hand breadth ≈570 px, the same as the wrist span). In a hand-on-heart close-up the fingers are the size cue, so a shopper would read ≈1 cm beads and a ≈2 cm heart. This repeats H06_a1's failure (r1, +41% by the nail)."
+  ],
+  "notes": [
+   "The crop: [204,239,1856,2304] is 1652 × 2065, exactly 4:5. Its top edge is 66 px below the chin's lowest point and ≥89 px below the chin-jaw boundary at x≥800. Rendered and checked, the top strip shows only blush wall, hair and the neck; no chin, jaw, lips or ear. It keeps the bracelet (x≈470-880, y≈1295-1740), the heart (x≈500-625, y≈1610-1730) and the whole hand out to the fingertips (x≈1820-1850). It cannot start higher with any margin, and it must run to the right edge to keep the fingertips. It does not rescue the plate, because the scale fail remains.",
+   "Construction matches listing-1. A straight, flat-ended T-bar (≈208 px, ≈1.75x the ≈112 × 125 px ring) lies across the ring. The T-bar end runs two large beads, a small bead, then a gold jump ring to the bar's centre. The ring end runs a gold jump ring at ~4 o'clock, a silver link, then a large bead. Exactly one smooth, puffed, polished heart (≈2.1 bead widths) hangs on a jump ring at ~7 o'clock. About 7 large beads and 1 small bead are visible; the rest are behind the wrist, consistent with 23. Beads are mirror grey-silver with crisp highlights, not black or pearly.",
+   "Hand: a right hand on the left of the chest, with five digits (thumb up-left, then index, middle, ring and little). Natural creases, short bare buffed nails, no rings. The bracelet is on that wrist with the toggle on top, where it would really sit.",
+   "Palette is on brand: blush knit (225,195,186), hue 14°, sat 0.17, and a blush wall (199,161,143). No text and no other jewellery.",
+   "Ad read (not scored, because it fails): the hand-on-heart with a gold heart reads in one second, the light is soft and warm, and the skin texture is real. Cropped and at true scale it would score about 8.3. The knit is the brightest area, and the upper left of the crop is knit texture rather than calm wall."
+  ],
+  "fix": "Reshoot rather than run the crop. Draw the hand at natural adult proportion to the bracelet: 'each of her fingernails is about one and a half to two beads wide; each bead is about half a fingernail; the heart is about one fingernail wide; her fingers are about two and a half beads wide; never chunky'. For the face, plan the crop: generate with the sweater neckline at about 20% from the top and the head turned away, then crop above the neckline. Keep the hand-on-heart gesture, the blush knit, the toggle on top and the light.",
+  "crop": [
+   204,
+   239,
+   1856,
+   2304
+  ]
+ }
+]

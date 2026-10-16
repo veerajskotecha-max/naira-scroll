@@ -1,0 +1,410 @@
+{
+ "T01_a1": {
+  "label": "Clasp",
+  "line": "The pavé bar is about 45% too long for the ring and is not joined to the chain."
+ },
+ "T01_a2": {
+  "label": "Clasp",
+  "line": "A lumpy extra clip, like a melted lobster clasp, sits where the chain meets the ring."
+ },
+ "T01_a3": {
+  "label": "Clasp",
+  "line": "The bar is a loose piece with both chain ends on the ring, and the necklace reads about 30 cm, not 50."
+ },
+ "T02_a1": {
+  "label": "Clasp",
+  "line": "The pavé bar dangles below the ring like a drop, about 50% too long, with an extra hook."
+ },
+ "T02_a2": {
+  "label": "Clasp",
+  "line": "The bar is not hung from its end, so it looks centre-hung like a plain T-bar, and the chain is half length."
+ },
+ "T02_a3": {
+  "label": "Clasp",
+  "line": "The pavé bar is longer than the ring and joined to nothing, so the toggle could not close."
+ },
+ "T03_a1": {
+  "label": "Clasp",
+  "line": "The chain hooks straight onto the bottom of the ring instead of a jump ring beside the gate."
+ },
+ "T03_e1": {
+  "label": "Fix not made",
+  "line": "The edit missed the fix: the chain still hooks the ring's bottom, and the bar is now loose."
+ },
+ "T03_e2": {
+  "label": "Fix not made",
+  "line": "The fix was missed again: the chain still hooks the ring's bottom, and a stray ring was added."
+ },
+ "T04_a1": {
+  "label": "Scale",
+  "line": "Drawn about 70% too big against the door studs, with only 21 links, so it reads like a bracelet."
+ },
+ "T04_a2": {
+  "label": "Scale",
+  "line": "The clasp is about 38% too big for the door studs and reads chunky on the fine chain."
+ },
+ "T05_a1": {
+  "label": "Two necklaces",
+  "line": "The chain wraps the vase twice and reads as two layered necklaces, not one 50 cm strand."
+ },
+ "T05_a2": {
+  "label": "Scale",
+  "line": "The chain is only about 25 cm, so it reads as a choker, not the 50 cm necklace."
+ },
+ "T05_a3": {
+  "label": "Clasp",
+  "line": "The bar became a long loose T-bar, and the chain reads as a choker plus a second dangling strand."
+ },
+ "T06_a1": {
+  "label": "Clasp",
+  "line": "The pavé bar is a loose piece joined to nothing, so this toggle could not close the necklace."
+ },
+ "T06_e1": {
+  "label": "Fix not made",
+  "line": "The clasp fix was not made: the bar still lies loose, and the ring reads about 50% too big."
+ },
+ "T07_a1": {
+  "label": "Face in frame",
+  "line": "A chin and jaw crept into the top-left corner of the frame."
+ },
+ "T07_a1c": {
+  "label": "Note",
+  "line": "The hand-at-the-clasp gesture reads in a second and puts the eye straight on the toggle."
+ },
+ "T08_a1": {
+  "label": "Scale",
+  "line": "The ring reads about 27 mm, nearly twice its real 15 mm, and a chin shows at the top."
+ },
+ "T08_a2": {
+  "label": "Clasp",
+  "line": "The bar became a long T-bar across the whole ring, and a chin, jaw and ear show at the top."
+ },
+ "T09_a1": {
+  "label": "Face in frame",
+  "line": "Lips, chin, jaw and an ear fill the top of the frame meant for the headline."
+ },
+ "T09_a2": {
+  "label": "Face in frame",
+  "line": "A chin and the underside of the jaw show at the top of the frame."
+ },
+ "T10_a1": {
+  "label": "Note",
+  "line": "Diwali gifting reads in a second, with warm diya glow and crisp highlights on the ring."
+ },
+ "W01_a1": {
+  "label": "Note",
+  "line": "The hoop-in-a-hoop pun reads in a second, with warm light picking out every ridge of the braid."
+ },
+ "W02_a1": {
+  "label": "Note",
+  "line": "It is the most graphic, literal hoop-in-a-hoop, with excellent braid detail and crisp highlights."
+ },
+ "W03_a1": {
+  "label": "Off-palette",
+  "line": "The oatmeal linen reads beige, off the blush palette, and fills over half the frame."
+ },
+ "W03_a2": {
+  "label": "Note",
+  "line": "The hoop-on-a-spool pun reads in a second, on blush linen with a calm wall for the headline."
+ },
+ "W04_a1": {
+  "label": "Scale",
+  "line": "The charpai rope is drawn far too thin, so the hoops read about 6 cm across, not 25 mm."
+ },
+ "W04_a2": {
+  "label": "Scale",
+  "line": "The rope is still bundles of thin cords, so the hoops read about 5 to 7 cm, not 25 mm."
+ },
+ "W04_a3": {
+  "label": "Note",
+  "line": "There is no calm copy space, as the whole frame is a high-contrast lattice with dark gaps."
+ },
+ "W05_a1": {
+  "label": "Off-palette",
+  "line": "The frame is a golden beige and tan field, and the gold hoops sink into it."
+ },
+ "W05_a2": {
+  "label": "Note",
+  "line": "The hanging-in-the-loom idea reads in a second; the hoops are large, crisp and faithful."
+ },
+ "W06_a1": {
+  "label": "Face in frame",
+  "line": "An eyebrow, eyelashes, cheek and jawline show on the right side of the frame."
+ },
+ "W06_a3": {
+  "label": "Note",
+  "line": "The two-braids pun reads in under a second: one hair braid flanked by two braided gold hoops."
+ },
+ "W07_a1": {
+  "label": "Note",
+  "line": "The floss grades apricot and oatmeal rather than blush, and the one visible disc reads dull caramel."
+ },
+ "W07_a2": {
+  "label": "Note",
+  "line": "The strongest plate of its round: texture on texture lands instantly and the gold is the brightest thing."
+ },
+ "W08_a2": {
+  "label": "Scale",
+  "line": "Against the cane the hoops read as 4 to 5 cm statement hoops, and the honey-tan cane is off palette."
+ },
+ "W08_a3": {
+  "label": "Scale",
+  "line": "The hoops still read as 4 cm statement hoops against the cane, and the cane is straw, not ivory."
+ },
+ "W09_a1": {
+  "label": "Face in frame",
+  "line": "The jawline and a broad cheek show in front of the ear."
+ },
+ "W09_a3": {
+  "label": "Face in frame",
+  "line": "The jawline, a bare cheek and the outline of a nose tip through the hair are all in frame."
+ },
+ "W10_a1": {
+  "label": "Note",
+  "line": "The gift-box styling is generic, Diwali does not read without copy, and the hoops look chunky."
+ },
+ "W10_a2": {
+  "label": "Note",
+  "line": "Runs as a Diwali gifting ad: warm, on palette, with crisp, faithful gold and clean copy space."
+ },
+ "H01_a1": {
+  "label": "Note",
+  "line": "A printed ECG trace under the strand makes two heartbeat lines and muddies the joke."
+ },
+ "H01_e1": {
+  "label": "Note",
+  "line": "The bracelet is now the only heartbeat line, ending in the gold heart: the camp's strongest idea."
+ },
+ "H02_a1": {
+  "label": "Scale",
+  "line": "Drawn about 30% too small for the ECG grid, with the heart about 44% too small."
+ },
+ "H02_a2": {
+  "label": "Scale",
+  "line": "Drawn about 35 to 40% too small for the ECG grid, and 3 beads short at 20, not 23."
+ },
+ "H03_a1": {
+  "label": "Construction",
+  "line": "Reads as a double-strand bracelet with loose wire ends, and the beads are about 45% too big."
+ },
+ "H03_a2": {
+  "label": "Construction",
+  "line": "It has two T-bars, only 14 beads instead of 23, and gaps between the beads like a ball chain."
+ },
+ "H04_a1": {
+  "label": "Note",
+  "line": "Reads as a bracelet on a drum rather than a beat, and the drum head outshines the piece."
+ },
+ "H04_a2": {
+  "label": "Note",
+  "line": "The bright drum skin outshines the grey beads, and the beat idea still needs the copy to land."
+ },
+ "H05_a1": {
+  "label": "Scale",
+  "line": "The beads read about 40 to 48% too big against the wrist and nails, so the bracelet looks chunky."
+ },
+ "H05_a2": {
+  "label": "Note",
+  "line": "The Kathak idea does not read, since we see the back of a spread hand, and the bracelet is small."
+ },
+ "H06_a1": {
+  "label": "Scale",
+  "line": "The beads read about 40% too big against her nails, and a chin shows at the top edge."
+ },
+ "H06_a2": {
+  "label": "Scale",
+  "line": "Beside her fingers the beads read about 1 cm, nearly 60% too big, and a chin shows at the top."
+ },
+ "H07_a1": {
+  "label": "Note",
+  "line": "The palm and fingers fill the top third meant for the headline, and the beads read dark."
+ },
+ "H07_a2": {
+  "label": "Off-palette",
+  "line": "A dark brown wall shows in the top-left corner, right where the headline should sit."
+ },
+ "H08_a1": {
+  "label": "Note",
+  "line": "The gold heart is the brightest, sharpest thing in frame; gold against silver reads instantly."
+ },
+ "H09_a1": {
+  "label": "Note",
+  "line": "The silver-varq pun reads in a second, and the starburst of kaju katli feels festive."
+ },
+ "H10_a1": {
+  "label": "Off-palette",
+  "line": "The handmade paper and curtain read beige and sand, off the blush palette."
+ },
+ "H10_a2": {
+  "label": "Note",
+  "line": "The bracelet lies on the envelopes instead of tying them like a ribbon, so the wit is lost."
+ },
+ "P01_a1": {
+  "label": "Note",
+  "line": "The colour-in-a-straight-line idea reads in a second, and the frame is graphic and on palette."
+ },
+ "P02_a1": {
+  "label": "Stone count",
+  "line": "The whole bracelet shows only 14 stones, not 20, so it reads about 13 cm long."
+ },
+ "P02_a2": {
+  "label": "Stone count",
+  "line": "Both clasp ends show again with only 13 stones, not 20; a crop hiding the ends could rescue it."
+ },
+ "P02_a2c": {
+  "label": "Note",
+  "line": "With the clasp ends cropped out, the colour-in-a-line idea reads in a second; the pavé is the sharpest thing."
+ },
+ "P03_a1": {
+  "label": "Note",
+  "line": "The pastel seeds camouflage the matching stones, and the headline area goes a dusky brown peach."
+ },
+ "P03_a2": {
+  "label": "Clasp",
+  "line": "The free end stops at a bare stone with no clasp, so the bracelet reads as having none."
+ },
+ "P04_a1": {
+  "label": "Scale",
+  "line": "The stones read about 50% too big for the loop, which holds about 13 stones, not 20, on a tan wall."
+ },
+ "P04_a2": {
+  "label": "Scale",
+  "line": "The stones read about 40% too big for the loop, which holds about 12 stones, not 20, with grey halos."
+ },
+ "P05_a1": {
+  "label": "Stone order",
+  "line": "Two pink stones sit side by side, and the whole bracelet has only 9 stones, each as wide as a pencil."
+ },
+ "P05_a2": {
+  "label": "Scale",
+  "line": "Each stone spans about two pencils, not one, so the stones read about 75% too big."
+ },
+ "P06_a1": {
+  "label": "Stone count",
+  "line": "The whole bracelet shows only 12 stones, not 20, so each one reads about 60% too big."
+ },
+ "P06_a2": {
+  "label": "Scale",
+  "line": "Against the 6 cm prism the stones read about 60% too big; the prism looks under 4 cm tall."
+ },
+ "P07_a1": {
+  "label": "Scale",
+  "line": "Each stone is over 80% of a fingernail wide instead of half, so the bracelet reads chunky."
+ },
+ "P07_a2": {
+  "label": "Scale",
+  "line": "Each stone is wider than her fingernail, more than twice its real size."
+ },
+ "P08_a1": {
+  "label": "Scale",
+  "line": "The stones read about 50% too big against her fingernails and wrist."
+ },
+ "P08_a2": {
+  "label": "Note",
+  "line": "The bracelet is small in the tall frame, and halos twice the real width shrink the colour."
+ },
+ "P09_a1": {
+  "label": "Note",
+  "line": "It has the best product fidelity of the set, with a catchlight in every front stone."
+ },
+ "P10_a1": {
+  "label": "Stone count",
+  "line": "The whole bracelet shows only 11 stones, not 20, and neither clasp end has its fold-over latch."
+ },
+ "P10_a2": {
+  "label": "Stone order",
+  "line": "Two aqua stones sit side by side, and against the brush the stones read nearly twice their size."
+ },
+ "aqua1_a1": {
+  "label": "Construction",
+  "line": "The C hoop is bent into a wide hook with an invented stem, and the stones read as all baguettes."
+ },
+ "aquaB1_a1": {
+  "label": "Scale",
+  "line": "Against the lemonade glass the earring reads about 56 mm long, twice its real 27 mm."
+ },
+ "bow1_a1": {
+  "label": "Scale",
+  "line": "On the 5 cm gift box the bow reads about 20 mm, about 43% over its real 14 mm."
+ },
+ "bowB1_a1": {
+  "label": "Scale",
+  "line": "On the strawberry the bow reads about 22 mm, about 57% over its real 14 mm, like a brooch."
+ },
+ "cluster1_a1": {
+  "label": "Pearl count",
+  "line": "It carries 8 seed pearls, copying the macro shot, where the brief and three listing photos show 6."
+ },
+ "clusterB1_a1": {
+  "label": "Stone order",
+  "line": "The last two stones are swapped into a mirror arc, and the stud reads about 45% too big."
+ },
+ "clusterC1_lite": {
+  "label": "Scale",
+  "line": "Against the 2 cm jelly sweets the stud reads about 34 mm, about 70% over its real 20 mm."
+ },
+ "dome1_a1": {
+  "label": "Note",
+  "line": "The not-a-mint idea reads in a second; the gold is the only shine, so the eye goes straight to it."
+ },
+ "domeB1_a1": {
+  "label": "Scale",
+  "line": "On the espresso cup the huggie reads about 27 mm, twice its real 14 mm, like an ordinary handle."
+ },
+ "halo1_a1": {
+  "label": "Note",
+  "line": "The bell plate reads as a trinket dish, so the doorbell idea lands late, and the earring is small."
+ },
+ "haloB1_a1": {
+  "label": "Scale",
+  "line": "Against the shuttlecock the disc reads about 20 mm, not 14 mm, and the earring seems to hover."
+ },
+ "papillon1_a1": {
+  "label": "Scale",
+  "line": "In the specimen box the butterfly reads about 30 mm across, not 18 mm, about 70% too big."
+ },
+ "papillonB1_a1": {
+  "label": "Scale",
+  "line": "Against the coupe the butterfly reads about 25 mm, not 18 mm, and its wings are drawn folded."
+ },
+ "quatrefoil1_a1": {
+  "label": "Scale",
+  "line": "Against the jaali cut-outs the stud reads about 25 to 35 mm, not its real 15 mm."
+ },
+ "quatrefoil1_a1c": {
+  "label": "Note",
+  "line": "Hard low sun and a bright gold glint; the stud is the sharpest thing in its pool of light."
+ },
+ "riviere1_a1": {
+  "label": "Wrong stones",
+  "line": "Baguette-like step-cut blocks replace the round brilliants, and the huggie reads about 40 mm, not 15 mm."
+ },
+ "riviereB1_a1": {
+  "label": "Scale",
+  "line": "Drawn about 45% too big next to the sugar crystals, so it reads as a mid-size hoop."
+ },
+ "square1_a1": {
+  "label": "Scale",
+  "line": "Against the barfi the huggie reads about 23 mm, about 55% over its real 15 mm."
+ },
+ "squareB1_a1": {
+  "label": "Note",
+  "line": "One gold square where an ice cube should be reads in under a second; the gold is the brightest thing."
+ },
+ "torsade1_a1": {
+  "label": "Scale",
+  "line": "Next to the croissants the huggies read about 23 to 25 mm, not 18 mm, like mid-size hoops."
+ },
+ "torsadeB1_a1": {
+  "label": "Scale",
+  "line": "Drawn half a croissant long, about 26 mm, not 18 mm, and the croissants do not read as minis."
+ },
+ "verdant1_a1": {
+  "label": "Note",
+  "line": "The two-peas-in-a-pod idea reads in a second, and the studs are the sharpest sparkle in frame."
+ },
+ "verdantB1_a1": {
+  "label": "Scale",
+  "line": "Against the pink cricket ball each stud reads about 21 mm, about 73% over its real 12 mm."
+ }
+}

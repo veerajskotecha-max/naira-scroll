@@ -1,0 +1,73 @@
+[
+  {
+    "plate": "domeB1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale (rule 4): the huggie is about 26-28mm across against the ~60mm espresso cup, about +90-100% over the real 14mm, i.e. twice true size. Cup: the rim ellipse runs x 30-987 (about 957px), with its back edge at y 486 and front lip at y 914, so it is centred at y 700 with a minor/major ratio of 0.45 (camera about 27 deg above). The foot's contact line is at y 1548, which puts the foot centre at about y 1390-1435 for a foot 500-700px wide. The cup's axis therefore projects to about 690-735px, a true height of about 775-825px, or about 13px/mm. Huggie: x 898-1256, y 922-1302 (about 357x380px), seen almost face-on (its 380/357 aspect matches the listing's 1.06). That is about 0.43-0.46 of the cup's height, against 0.23 for a 14mm huggie and the requested one fifth (0.20), so about 2.2-2.3x the requested ratio. Measured against the rim instead (957px, even assuming a generous 65-75mm-wide cup), it is still about 24-28mm. The close camera is fine, but the hoop is drawn at real-handle size, so a shopper would read it as a large hoop, and the brief's joke (a tiny, doll-sized handle) is lost."
+    ],
+    "notes": [
+      "Product faithful to listing-1 and listing-5. Plain mirror-polished yellow gold, with no stones, texture or engraving. The hoop is thickest at the bottom right (about 105px radial on the 357px hoop, about 0.29, as in the listing) and tapers to a slim hinge bar across the top, with the knuckle at the upper left. The bar is closed, and the closure seam sits at the bottom, at about (1075,1240-1300). The layout mirrors the listing. One huggie only. There is no spoon, biscuit or second earring, and the cup has no handle of its own.",
+      "Contact: the hoop's left side overlaps the cup wall in front of the cup's right silhouette (x 898-987), and there is a warm gold reflection and a shadow on the glaze beside it (x 850-900). It reads as a hoop stuck to the cup, which is the joke, and is not floating. No text, logos or marks on the cup, saucer or paper.",
+      "Palette and light: the paper is peach (about RGB 244,210,183, hue 27 deg, sat 0.25-0.32), warm peach rather than blush but not sand or beige. The cup's shaded front is a large terracotta mass (about RGB 147,89,60). The light comes from the back right, so the cup's long shadow falls front-left and the steam is backlit; the prompt asked for light from the left. A dark diagonal shadow band and the steam cross the top-left headline corner. The calm space is at the top right.",
+      "The gold reads deep amber in the golden-hour sun (hue about 28-32 deg, sat about 0.7), with a crisp starburst specular. It is still clearly yellow gold.",
+      "Idea: 'Handle with care', the huggie as the cup's handle, reads in under a second. The gold is the brightest, sharpest thing in the frame, with real steam, a long shadow and believable ceramic texture. At true scale this would be about an 8.5. As drawn, setting aside the scale fail, it is about an 8.3, because the hoop reads as an ordinary gold handle rather than a tiny, precious one."
+    ],
+    "fix": "Keep the cup, chai, steam, saucer and starburst, and shrink the hoop. Request the huggie at ONE EIGHTH of the cup's height (0.125): 'the 6cm cup is eight huggies tall'. Plain 1.5-1.7x compensation would give 0.233/1.6 = 0.146, about one seventh, but this frame drew about 2.3x the one fifth it asked for. One eighth lands within +/-30% of 14mm for any overshoot from 1.5x to 2.3x (11-17mm). Delete 'five huggies tall' and 'exactly where a handle would be', which pull the hoop up to real-handle size, and anchor the position instead: 'a tiny 14mm hoop stuck to the cup's side just below the rim; its bottom sits well above the cup's midline, and the plain glaze below it is at least three hoops tall'. Keep the hinge bar closed at the top. Bring the sun from the left as written, and keep the top-left corner clear of the shadow band and steam for the headline.",
+    "crop": null
+  },
+  {
+    "plate": "verdantB1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale (rule 4): each stud is about 21mm across against the ~72mm ball, +73% over the real 12mm. The ball spans x 245-1570 (about 1325px) and y 506-1862, about 18.4px/mm. The upper stud's halo, claw tips included, spans x 682-1065 (383px), and the lower stud's x 553-935 (382px). Each is 0.29 of the ball's diameter, against 0.167 for a 12mm stud and the requested one seventh (0.143), so about 2.0x the requested ratio. The studs sit on the ball's near face, about 3.6cm in front of its silhouette plane; even allowing about 9% perspective magnification for that, they are about 19mm, +58%. Cross-check: the seam stitches measure about 55px (about 3mm, as on a real ball), and each stud covers about seven of them along the seam, where a real 12mm stud would cover about four. A shopper would read these as 2cm statement cocktail studs."
+    ],
+    "notes": [
+      "Product faithful to listing-1 and listing-5: one deep emerald-green cushion-cut stone (not round, mint or teal) in a smooth polished bezel, ringed by a scalloped halo of about 20 round clear brilliants in pointed claws. Both studs match each other and nothing melts. The pair is allowed, and there is no other jewellery.",
+      "Metal tint: the bezels pick up a warm champagne cast from the sun and the pink leather (bezel about hue 25 deg, sat 0.37, against 0.16-0.31 for the halo stones). The claws and halo still read as white metal at phone size, but less crisply than the listing's cool rhodium.",
+      "There is no text, maker's gold stamp or logo on the ball; the dark marks on its right face (x 1150-1450, y 800-1600) are scuffs. No bat, stumps or grass. The studs sit on top of the seam rather than beside it, with their posts hidden and crisp shadows falling to the right. Physically plausible.",
+      "Palette: the lit ground is peach (about RGB 250,209,184, hue 23 deg). The top third is a dark cocoa-brown shadowed wall (about RGB 131,96,78, hue 20 deg, val 0.52), so the 'calm peach space top left' that was asked for is dark brown. It is warm rather than grey or black, so it is not a rule-7 fail, but a headline there would need reversed type.",
+      "Idea: 'Day-night Test', the pink Test ball wearing earrings, reads in a second for an Indian audience. The hard left sun, the scuffed leather and the halo sparkle are strong, and the studs are the brightest thing in the frame. If it passed it would rate about 8.0, held back by the dark top third and the centred ball."
+    ],
+    "fix": "Request each stud at ONE TENTH of the ball's diameter (0.10): 'the 7cm ball is ten studs wide'. That is 0.167/1.6 = 0.104, and since this frame drew 2.0x its requested one seventh, one tenth lands within +/-30% of 12mm for any overshoot from 1.5x to 2.0x (11-14mm). Add a countable anchor: 'each stud is only about four seam stitches long'. Place the pair just beside the seam, as written, and keep the bezel and claws bright, cool rhodium white rather than champagne. Light the backdrop so the top third is sunlit blush-peach, not a dark cocoa shadow, leaving calm space for the headline.",
+    "crop": null
+  },
+  {
+    "plate": "bowB1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale (rule 4): the bow is about 22mm wide against the ~30x40mm strawberry, +57% over the real 14mm (range +50% to +65%). The strawberry lies on its side from its tip at x 618 to the calyx at x 1450 (about 832px for 40mm, 20.8px/mm) and from y 827 to y 1511 (about 684px for 30mm, 22.8px/mm). The bow spans x 752-1232 (about 480px) and y 1060-1435. That is 0.70 of the fruit's width and 0.58 of its length, against 0.47 and 0.35 for a 14mm bow, and against the one third of each that the prompt requested. That makes it 1.75x (length) to 2.1x (width) the requested ratio. A 5% allowance for the bow sitting on the fruit's near face still leaves about 20-21mm (+43-50%). Cross-check: the bow spans about 6.4 seed spacings (about 75px, about 3.4mm each), where a 14mm bow would span about four. A shopper would read it as a 2cm brooch-sized bow, not a 14mm stud."
+    ],
+    "notes": [
+      "Product faithful to listing-1 and listing-5. The metal is bright white rhodium. Two open loops have beaded, scalloped lace edges and pavé bands, and two crossing tails end in lace scallops. One clear heart-cut stone sits point-down in claws at the knot, at about (960-1050,1065-1185). Nothing melts at phone size. There is one stud only, with no other fruit, cream or jewellery.",
+      "Physically plausible: the bow lies on the fruit's shoulder with its post hidden, and the strawberry casts a long, crisp shadow to the right. Hard left sun as asked, with a strong specular and rainbow sparks in the heart. There is no text anywhere; the specks near the bottom are dust and glints.",
+      "Palette: the sunlit band is blush-peach (about RGB 253,216,192, hue 24 deg). The top third and the bottom band are dark rose-brown shadow (about RGB 125,76,64, hue 12 deg, val 0.49), so the top-left headline space is dark. It is warm rather than grey, so it is not a rule-7 fail. The cap is on the right rather than the left, which is a composition point only.",
+      "Idea: 'Berry cute', the bow worn by the strawberry like a hair bow, reads instantly, and the white bow is the brightest, sharpest thing on the red fruit. If it passed it would rate about 8.2. The dark diagonal bands split the frame, and the copy space is in shadow."
+    ],
+    "fix": "Request the bow at ONE FIFTH of the strawberry's length (0.20): 'the 4cm strawberry is five bows long; the bow covers only about a quarter of the fruit's width and about four seed spacings'. Plain compensation would give 0.35/1.6 = 0.22, but this frame drew 1.75x its requested length ratio and 2.1x its width ratio. One fifth lands within +/-30% of 14mm for any overshoot from 1.5x to 2.1x (12-17mm). Delete 'the bow a third of the strawberry's width': it conflicts with 'three bows long' and was the ratio overshot most. Keep the white metal, the lace loops and the heart. Light the backdrop so the top-left third is sunlit blush-peach rather than dark rose-brown shadow.",
+    "crop": null
+  },
+  {
+    "plate": "papillonB1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale (rule 4): the butterfly is about 25mm wide against the ~100mm coupe, about +40% over the real 18mm (plausible range +24% to +53%). The coupe runs off the right edge, so I fitted an ellipse to 36 points on the back rim (rms 1.3px). Its centre is at about (1560,940) and its semi-axes are about 980x410px, so the rim is about 1960px wide (1890-2040), or about 19.6px/mm. The fit's left extreme, x 580, falls behind the butterfly and agrees with the bowl's silhouette below it. The lilac wings run from the upper wing tip at y 632 to the lower wing's rim at y 1125, about 500px along the body axis. If the butterfly stands upright as asked, with the camera about 25 deg above, that is about 550px. Listing-5 gives the lilac butterfly a height/width of about 1.06 (about 720x760px), so the wingspan is about 470-520px, 24-26.5mm, or about 0.25 of the coupe's width. That compares with 0.18 true and the requested one seventh (0.143), so it is drawn at about 1.75x the requested ratio. Cross-checks: the near upper wing alone is 190px wide, about 222px once corrected for its turn of about 31 deg, which is about 11.3mm against 8.6mm in listing-5 (+31%). The whole piece, clear outline included, is about 630px tall, about 32mm against about 22mm (+45%). Only the most lenient combination (the butterfly tilted square to the camera, the coupe at the wide end of the fit) gets under 30%.",
+      "Shape (rule 1, secondary): the butterfly is drawn folded. The near wing pair (x 487-700) faces the camera, and its pavé reads as round stones. The far pair is turned almost edge-on: a dark mauve-bronze strip from about (700,1090) to (840,750) whose stones read as compressed rows. Meanwhile the clear-stone loop (x 830-967, y 780-1050) faces the camera in yet another plane. In the listing the four wings and the outline are flat, in one plane. At phone size only two wings read as lilac, and the far side reads as a dark bronze wing."
+    ],
+    "notes": [
+      "Otherwise faithful: lilac micro-pavé in slim gold outlines on the near wings (the colour matches listing-5, with wing averages of about hue 352-3 deg and sat 0.2 in both), an openwork clear-stone outline, a slim plain gold band and warm yellow gold. One ring only, with no straw, fruit or real butterflies, and no text.",
+      "Physically plausible: the ring perches at the rim's left extreme, with the lower wings hanging outside the bowl and the band reaching in over the sherbet. Contact is implied behind the butterfly rather than shown.",
+      "Light comes from the right: the coupe's large shadow falls on the wall at the left (x 0-560, about RGB 152,107,78), whereas the prompt asked for light from the left. The wall is warm apricot-peach (about RGB 250,210,173, hue 29 deg, sat 0.31), at the warm edge of blush-peach but not sand or beige. The upper middle is calm copy space.",
+      "Idea: 'Garnish', a butterfly that has landed on the coupe to sip, reads in about a second, and the glass, sherbet and caustics are beautiful. If it passed it would rate about 8.2. The coupe is cropped hard at the right, so its size does not read, and the far wings are dark."
+    ],
+    "fix": "Request the butterfly at ONE NINTH of the coupe's width (0.11): 'the 10cm coupe is nine butterflies wide'. That is 0.18/1.6 = 0.11, and since this frame drew about 1.75x its requested one seventh, one ninth lands within +/-30% of 18mm for any overshoot from 1.5x to 1.9x (17-21mm). Delete 'a little wider than the finger it sits on', since there is no finger in the frame. Keep the butterfly flat: 'all four lilac wings in one plane, facing the camera, never folded; the clear-stone outline lies flat behind them in the same plane'. Frame so that at least the coupe's whole near half and its stem are in shot, so the coupe's size reads. Bring the hard sun from the left as written, so the coupe's shadow falls to the right and stays off the copy space.",
+    "crop": null
+  }
+]

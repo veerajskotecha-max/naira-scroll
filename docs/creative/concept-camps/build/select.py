@@ -1,4 +1,4 @@
-# Picks the best verified plate per frame from every verdict in verify/ and writes final.json for pdfs.py and build_page.py.
+# Picks the best verified plate per frame from every verdict in verify/ and writes final.json for pdfs.py.
 # A plate qualifies when its latest verdict passes; among qualifiers the highest ad score wins (8.5+ runs as-is).
 # Usage: select.py [final.json]      prints a per-frame table, including frames that still have no passing plate
 import json, os, sys, glob

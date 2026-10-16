@@ -1,0 +1,450 @@
+<title>Naira Contact Sheet</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap">
+<style>
+@font-face{font-family:"Velista";src:url(data:font/ttf;base64,__VELISTA__) format("truetype");font-display:swap}
+/* A photographer's contact sheet for one shoot: the totals, the keepers, every frame grouped by camp with its verdict, where the
+   credits went, what the ad data says, the PDFs and what comes next. Keepers are boxed in grease-pencil red, as on a real sheet. */
+:root{
+  --paper:#F4F0E8; --sheet:#FBF8F3; --ink:#1C1C1C; --muted:#6B5F57; --rule:#E2D9CC; --chip:#EDE2D5; --gold:#7F6129; --mark:#C23B26;
+  --a-toggle:#CF9B92; --a-woven:#E2BE98; --a-heart:#F2B6C6; --a-prism:#9FD3D9; --a-e1h:#C9A3C8; --a-e1b:#F2A97E; --a-candy:#E8CF6A;
+  --scrim:rgba(24,19,16,.84);
+  --display:"Velista","Cormorant Garamond",Georgia,serif; --text:"Cormorant Garamond",Georgia,serif; --label:"Jost","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#1B1816; --sheet:#24201C; --ink:#F1EAE0; --muted:#B5A697; --rule:#3A322C; --chip:#322A25; --gold:#D6B678; --mark:#F0735C;
+  --a-toggle:#B5837B; --a-woven:#C49F78; --a-heart:#D48FA2; --a-prism:#76AFB5; --a-e1h:#A882A7; --a-e1b:#D38A62; --a-candy:#C9AE4C;
+  --scrim:rgba(0,0,0,.86); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1B1816; --sheet:#24201C; --ink:#F1EAE0; --muted:#B5A697; --rule:#3A322C; --chip:#322A25; --gold:#D6B678; --mark:#F0735C;
+  --a-toggle:#B5837B; --a-woven:#C49F78; --a-heart:#D48FA2; --a-prism:#76AFB5; --a-e1h:#A882A7; --a-e1b:#D38A62; --a-candy:#C9AE4C;
+  --scrim:rgba(0,0,0,.86); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--text);font-size:19px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto;padding-block:36px 72px;display:flex;flex-direction:column;gap:80px}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;line-height:1.02;text-wrap:balance}
+p{margin:0}
+.lab{font-family:var(--label);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.small{font-family:var(--label);font-size:12.5px;letter-spacing:.03em;color:var(--muted);line-height:1.45}
+.note{font-family:var(--label);font-size:12.5px;letter-spacing:.03em;color:var(--muted);min-height:1em}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:3px}
+button{font-family:var(--label);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);background:transparent;
+  border:1px solid var(--ink);padding:10px 14px;cursor:pointer;border-radius:0;line-height:1.2}
+button:hover:not([disabled]){background:var(--ink);color:var(--paper)}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--mark);outline-offset:3px}
+button[disabled]{opacity:.4;cursor:default}
+button.quiet{border-color:var(--rule)}
+section{scroll-margin-top:96px}
+
+/* Masthead: a film rebate, the title, the totals. */
+.mast{display:grid;gap:22px}
+.rebate{display:grid;gap:7px}
+.rebate::before,.rebate::after{content:"";height:7px;background:repeating-linear-gradient(90deg,var(--rule) 0 12px,transparent 12px 26px)}
+.rebate div{display:flex;flex-wrap:wrap;gap:6px 26px;font-family:var(--label);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(60px,11vw,138px);line-height:.95}
+.lede{font-style:italic;font-size:clamp(22px,2.7vw,30px);line-height:1.3;max-width:44ch}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));column-gap:26px}
+.nums div{display:grid;gap:4px;align-content:start;padding:16px 0 20px;border-top:1px solid var(--ink)}
+.nums b{font-family:var(--display);font-weight:400;font-size:clamp(40px,5vw,62px);line-height:1}
+.nums .k{font-family:var(--label);font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+.nums .keep b,.nums .keep .k{color:var(--mark)}
+.nums span:last-child{font-size:16px;line-height:1.3;color:var(--muted)}
+.jump{display:flex;flex-wrap:wrap;gap:8px 22px}
+.jump a{font-family:var(--label);font-size:12px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:3px}
+.jump a:hover{border-color:var(--ink)}
+
+.sechead{display:grid;gap:10px;max-width:68ch;margin-bottom:30px}
+.sechead h2{font-size:clamp(36px,5vw,58px)}
+.sechead p{font-size:20px}
+
+/* Grease-pencil box drawn round a keeper. */
+.pic{position:relative;display:block;width:100%;padding:0;border:0;background:var(--sheet);cursor:zoom-in}
+.pic:hover:not([disabled]){background:var(--sheet)}
+.pic img{display:block;width:100%;height:auto;max-width:100%;aspect-ratio:4/5;object-fit:cover}
+.fmt{position:absolute;top:8px;right:8px;font-family:var(--label);font-size:10px;letter-spacing:.12em;background:var(--paper);color:var(--ink);padding:2px 6px}
+.box{position:absolute;inset:-7px;width:calc(100% + 14px);height:calc(100% + 14px);pointer-events:none;overflow:visible}
+.box path{fill:none;stroke:var(--mark);stroke-width:2.6px;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.st{font-family:var(--label);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;padding:3px 7px 2px;justify-self:start;line-height:1.3}
+.st-keep{color:var(--mark);border:1.5px solid var(--mark)}
+.st-pass{color:var(--gold);border:1px solid var(--gold)}
+.st-fail{color:var(--muted);background:var(--chip)}
+.st-wait{color:var(--muted);border:1px dashed var(--muted)}
+
+/* Keepers */
+.kgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 30px;align-items:start}
+.kp{margin:0;display:grid;gap:14px}
+.kp figcaption{display:grid;gap:5px}
+.kp .code{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-family:var(--label);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.kn{font-family:var(--display);font-size:27px;line-height:1.05}
+.hl{font-style:italic;font-size:20px;line-height:1.25}
+
+/* Every frame */
+.tools{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);display:grid;gap:10px;padding-block:12px;
+  border-bottom:1px solid var(--rule);margin-bottom:34px}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.filters .cnt{opacity:.7;margin-left:4px}
+.jumps{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;padding-bottom:2px}
+.jumps::-webkit-scrollbar{display:none}
+.jumps a{font-family:var(--label);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+.jumps a:hover{color:var(--ink)}
+.jumps a[hidden]{display:none}
+.set{display:grid;gap:26px;padding-top:30px;border-top:1px solid var(--rule)}
+.set:first-child{border-top:0;padding-top:0}
+.set+.set{margin-top:64px}
+.sethead{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:18px 48px;align-items:start}
+.setname{display:grid;gap:8px}
+.setname .sw{width:44px;height:6px;background:var(--acc)}
+.setname h3{font-size:clamp(34px,4.2vw,50px)}
+.setname .line{font-style:italic;font-size:22px;line-height:1.25}
+.setidea{display:grid;gap:10px;min-width:0}
+.setidea p{max-width:64ch}
+.facts{font-family:var(--label);font-size:12px;letter-spacing:.08em;color:var(--muted)}
+.fgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:30px 18px;align-items:start}
+.fr{margin:0;display:grid;gap:9px;min-width:0}
+.fr figcaption{display:grid;gap:5px;min-width:0}
+.fr .code{font-family:var(--label);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;gap:8px;align-items:baseline}
+.num{font-variant-numeric:tabular-nums;color:var(--ink);letter-spacing:.06em}
+.nm{font-size:19px;line-height:1.2;font-weight:600}
+.pc{font-family:var(--label);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+.ln{font-size:16px;line-height:1.32;color:var(--muted)}
+.fr[data-st="keep"] .ln{color:var(--ink)}
+
+/* Credits */
+.squares{display:flex;flex-wrap:wrap;gap:4px;max-width:960px}
+.sq{width:16px;height:16px;background:var(--c)}
+.sq.left,.sw.left{background:linear-gradient(90deg,var(--muted) 22%,transparent 22%);box-shadow:inset 0 0 0 1px var(--muted)}
+.legend{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 36px;max-width:960px}
+.legend li{display:grid;grid-template-columns:16px minmax(0,1fr) auto;gap:12px;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:8px}
+.legend .sw{width:16px;height:16px;background:var(--c);align-self:center}
+.lgl{font-size:18px;line-height:1.25}
+.lgn{font-family:var(--label);font-size:12px;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
+.tablewrap{overflow-x:auto;margin-top:44px;max-width:960px}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th{font-family:var(--label);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--ink)}
+td{padding:11px 12px 11px 0;border-bottom:1px solid var(--rule);vertical-align:top;font-size:18px;line-height:1.35}
+td.when{font-family:var(--label);font-size:12.5px;letter-spacing:.03em;color:var(--muted);white-space:nowrap;padding-top:14px}
+.r{text-align:right;font-family:var(--label);font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.tot td{border-bottom:1px solid var(--ink);font-weight:600}
+tr.bal td{border-bottom:0;color:var(--muted)}
+
+/* Ad data */
+.data{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;border-top:1px solid var(--rule);padding-top:26px}
+.data div{display:grid;gap:8px;align-content:start}
+.data b{font-family:var(--display);font-weight:400;font-size:clamp(40px,4.6vw,56px);line-height:1}
+.data span{font-size:18px;line-height:1.35}
+.caveat{margin-top:30px;max-width:70ch;font-size:20px;border-left:3px solid var(--mark);padding-left:18px}
+
+/* PDFs and next */
+.pdfs{list-style:none;margin:0;padding:0;display:grid;max-width:960px}
+.pdfs li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 24px;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule)}
+.pdfs li:first-child{border-top:1px solid var(--rule)}
+.pt{display:grid;gap:3px;min-width:0}
+.ptitle{font-size:22px;line-height:1.2}
+.pt .small{overflow-wrap:anywhere}
+.pb{display:grid;gap:6px;justify-items:end}
+.nextgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;border-top:1px solid var(--rule);padding-top:24px}
+.nextgrid div{display:grid;gap:8px;align-content:start}
+.nextgrid b{font-family:var(--display);font-weight:400;font-size:clamp(28px,3vw,38px);line-height:1.05}
+.qs{margin-top:34px;display:grid;gap:10px;max-width:72ch}
+.qs ol{margin:0;padding-left:1.2em;display:grid;gap:8px}
+footer{border-top:1px solid var(--rule);padding-top:30px;display:grid;gap:14px;max-width:72ch}
+footer h2{font-size:34px}
+
+/* Lightbox */
+dialog{border:0;padding:0;background:var(--paper);color:var(--ink);width:min(96vw,1200px);max-width:96vw;max-height:94vh;overflow:auto}
+dialog::backdrop{background:var(--scrim)}
+.lb{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,380px)}
+.lbpic{position:relative;background:var(--sheet);display:flex;align-items:center;justify-content:center;padding:18px;min-height:40vh}
+.lbpic .frame{position:relative;display:inline-block;max-width:100%}
+.lbpic img{display:block;max-height:calc(94vh - 36px);width:auto;max-width:100%;height:auto}
+.lbside{padding:26px 26px 22px;display:grid;gap:12px;align-content:start;max-height:94vh;overflow:auto}
+.lbside h3{font-size:36px;line-height:1.05}
+.lbside .hl{font-size:21px}
+.lbline{font-size:19px;line-height:1.35}
+details{border-top:1px solid var(--rule);padding-top:10px}
+summary{font-family:var(--label);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);cursor:pointer;padding:2px 0}
+details ul{margin:10px 0 0;padding-left:1.1em;display:grid;gap:8px}
+details li,details p{font-size:16px;line-height:1.42}
+details p{margin-top:10px}
+.lbbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-top:6px}
+.pos{font-family:var(--label);font-size:11.5px;letter-spacing:.1em;color:var(--muted);margin-left:auto}
+
+@media (max-width:1100px){.fgrid{grid-template-columns:repeat(4,minmax(0,1fr))} .kgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.sethead{grid-template-columns:minmax(0,1fr)} .data,.nextgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lb{grid-template-columns:minmax(0,1fr)} .lbpic img{max-height:62vh} .lbside{max-height:none} .fgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:620px){.wrap{gap:64px} .nums{column-gap:18px} .kgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 16px}
+  .fgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px} .legend{grid-template-columns:minmax(0,1fr)} .kn{font-size:22px} .hl{font-size:18px}
+  .sq{width:12px;height:12px} .squares{gap:3px} .data,.nextgrid{grid-template-columns:minmax(0,1fr)} .pdfs li{grid-template-columns:minmax(0,1fr)} .pb{justify-items:start}
+  body{font-size:18px} .ln{font-size:15px} .nm{font-size:17px} dialog{max-height:100vh;width:100vw;max-width:100vw} .lbpic{padding:10px}}
+@media (prefers-reduced-motion:no-preference){.pic img{transition:opacity .2s} .pic:hover img{opacity:.9}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="rebate" aria-hidden="true"><div><span>Naira Petite</span><span>Higgsfield · Nano Banana Pro · 2K</span><span>15 to 16 Oct 2026</span><span id="rebateCount"></span></div></div>
+    <h1>Contact Sheet</h1>
+    <p class="lede" id="lede"></p>
+    <div class="nums" id="nums"></div>
+    <nav class="jump" aria-label="On this page"><a href="#keepers">The keepers</a><a href="#sheet">Every frame</a><a href="#credits">Credits</a><a href="#ad">Ad data</a><a href="#pdfs">PDFs</a><a href="#next">Next</a></nav>
+  </header>
+
+  <section id="keepers">
+    <div class="sechead"><span class="lab">The keepers</span><h2 id="kTitle"></h2><p id="kLede"></p></div>
+    <div class="kgrid" id="kgrid"></div>
+  </section>
+
+  <section id="sheet">
+    <div class="sechead"><span class="lab">Every frame</span><h2 id="sTitle"></h2>
+      <p>Grouped by camp, then by idea and take. The number on each frame is the order it was shot in. Open any frame for the reviewer’s full findings and the fix for the next take.</p></div>
+    <div class="tools"><div class="filters" id="filters" role="group" aria-label="Show"></div><nav class="jumps" id="jumps" aria-label="Camps"></nav></div>
+    <div id="sets"></div>
+  </section>
+
+  <section id="credits">
+    <div class="sechead"><span class="lab">Credits</span><h2>Where the 200 went</h2><p id="cLede"></p></div>
+    <div class="squares" id="squares" role="img"></div>
+    <ul class="legend" id="legend"></ul>
+    <div class="tablewrap"><table id="ledger"></table></div>
+  </section>
+
+  <section id="ad">
+    <div class="sechead"><span class="lab">What your ad account says</span><h2>Crazy wins, mostly</h2><p id="adLede"></p></div>
+    <div class="data" id="adNums"></div>
+    <p class="caveat" id="adCaveat"></p>
+  </section>
+
+  <section id="pdfs">
+    <div class="sechead"><span class="lab">For Claude Design</span><h2>The PDFs</h2>
+      <p>Each camp PDF holds its cover, board and plan, then every keeper on its own page at full 2K size. The photographs carry no text, logo or price; set those in Claude Design.</p></div>
+    <ul class="pdfs" id="pdfList"></ul>
+  </section>
+
+  <section id="next">
+    <div class="sechead"><span class="lab">Next top-up</span><h2>What more credits buy</h2><p id="nextLede"></p></div>
+    <div class="nextgrid" id="nextItems"></div>
+    <div class="qs"><span class="lab">Three questions for you</span><ol id="questions"></ol></div>
+  </section>
+
+  <footer>
+    <h2>How these were made and checked</h2>
+    <p>Every frame was made on Higgsfield from the piece’s own listing photos, one piece per frame. The image model was Nano Banana Pro at 2K; the candy test used Nano Banana 2 Lite at 1K. Each prompt has six parts: the shot, a lock on what must not change, true scale against a known object, the scene, two lights, and what must never appear.</p>
+    <p>An independent reviewer then checked every frame against the listing photos for construction, stone count and order, metal, one piece only, no face, true scale and the blush palette. A frame that passes is scored as an ad out of 10, and only 8.5 or more runs. Crops were cut only where the one fault sat at an edge, and were checked again.</p>
+  </footer>
+</div>
+
+<dialog id="lb" aria-labelledby="lbName">
+  <div class="lb">
+    <div class="lbpic"><div class="frame"><img id="lbImg" alt=""><svg class="box" id="lbBox" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M3 5.5C28 3.2 66 4.2 97.4 3.1C98.6 31 96.8 67 97.8 97C69 98.2 31 96.6 3.6 97.8C2.1 70 3.6 33 1.9 7.2L9.5 3.9"/></svg></div></div>
+    <div class="lbside" id="lbSide">
+      <span class="lab" id="lbCode"></span>
+      <span class="st" id="lbChip"></span>
+      <h3 id="lbName"></h3>
+      <p class="hl" id="lbCopy"></p>
+      <p class="small" id="lbMeta"></p>
+      <p class="lbline" id="lbLine"></p>
+      <details id="dReasons"><summary></summary><ul id="lbReasons"></ul></details>
+      <details id="dNotes"><summary></summary><ul id="lbNotes"></ul></details>
+      <details id="dFix"><summary></summary><p id="lbFix"></p></details>
+      <div class="lbbar"><button id="lbPrev" type="button">← Previous</button><button id="lbNext" type="button">Next →</button><span class="pos" id="lbPos"></span></div>
+      <div class="lbbar"><button id="lbSave" type="button" disabled>Save full-size JPG</button><button id="lbClose" class="quiet" type="button">Close</button></div>
+      <span class="note" id="lbNote"></span>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const DATA = __DATA__;
+const $ = s => document.querySelector(s);
+const el = (t, a = {}, ...kids) => {
+  const e = document.createElement(t);
+  for (const [k, v] of Object.entries(a)) { if (v == null) continue; if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v); }
+  for (const k of kids) if (k != null && k !== false) e.append(k);
+  return e;
+};
+const FMT = {"4:5": "Feed 4:5", "9:16": "Story 9:16"};
+const BOX = '<svg class="box" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M3 5.5C28 3.2 66 4.2 97.4 3.1C98.6 31 96.8 67 97.8 97C69 98.2 31 96.6 3.6 97.8C2.1 70 3.6 33 1.9 7.2L9.5 3.9"/></svg>';
+const F = Object.fromEntries(DATA.frames.map(f => [f.id, f]));
+const T = DATA.total, S = DATA.stats;
+const KEEPERS = DATA.keepers.map(id => F[id]);
+const plural = (n, a, b) => n + " " + (n === 1 ? a : b);
+let downloads = null, cur = null, ctx = [], filt = "all";
+
+function chipText(f) {
+  if (f.st === "keep") return "Keep · " + f.score.toFixed(1);
+  if (f.st === "pass") return "Passed" + (f.score != null ? " · " + f.score.toFixed(1) : "");
+  if (f.st === "fail") return "Missed" + (f.label ? " · " + f.label : "");
+  return "Awaiting check";
+}
+const chip = f => el("span", {class: "st st-" + f.st, text: chipText(f)});
+const altOf = f => f.piece + ": " + f.name + ", " + f.kind.toLowerCase();
+
+function picture(f, list) {
+  const b = el("button", {type: "button", class: "pic", "aria-label": "Open frame " + f.n + ", " + f.name + ", " + f.kind.toLowerCase()},
+    el("img", {src: f.t, alt: altOf(f), loading: "lazy", decoding: "async", width: f.tw, height: f.th}));
+  if (f.aspect !== "4:5") b.append(el("span", {class: "fmt", text: f.aspect}));
+  if (f.st === "keep") b.insertAdjacentHTML("beforeend", BOX);
+  b.addEventListener("click", () => openLb(f, list()));
+  return b;
+}
+
+function renderHead() {
+  $("#rebateCount").textContent = T.images + " frames · " + T.spent + " credits";
+  $("#lede").textContent = "Everything the 200-credit top-up made: " + T.images + " frames across the four concept camps and the Edition One pre-orders, each checked against its Shopify listing. Keepers are boxed in red, as on a photographer’s contact sheet; every other frame says why it missed.";
+  const nums = [[T.spent, "credits spent", "200 bought on 15 Oct and 1.22 carried over. " + T.left + " left."],
+                [T.images, "frames", T.generated + " generated, " + T.crops + " cropped from them."],
+                [S.keep, "keepers", "Scored 8.5 or more as an ad.", "keep"],
+                [S.passed, "passed", "Right piece, under the 8.5 bar."],
+                [S.fail, "missed", S.failScale + " of them on scale."]];
+  if (S.wait) nums.push([S.wait, "awaiting check", "With the reviewer now."]);
+  const box = $("#nums");
+  for (const [n, k, t, c] of nums) box.append(el("div", {class: c || null}, el("b", {text: String(n)}), el("span", {class: "k", text: k}), el("span", {text: t})));
+}
+
+function renderKeepers() {
+  $("#kTitle").textContent = plural(S.keep, "frame", "frames") + " to run";
+  $("#kLede").textContent = "The best take of each idea that scored 8.5 or more as an ad, after passing every check against its listing. Each is in the PDFs at full size.";
+  for (const f of KEEPERS) {
+    $("#kgrid").append(el("figure", {class: "kp"}, picture(f, () => KEEPERS), el("figcaption", {},
+      el("span", {class: "code"}, el("span", {class: "st st-keep", text: "Keep · " + f.score.toFixed(1)}), document.createTextNode(f.piece)),
+      el("span", {class: "kn", text: f.name}), el("span", {class: "hl", text: f.copy}),
+      el("span", {class: "small", text: FMT[f.aspect] + " · " + f.w + "×" + f.h + " · frame " + f.n + " · " + f.code}))));
+  }
+}
+
+function renderSheet() {
+  $("#sTitle").textContent = "All " + T.images + ", keepers and misses";
+  const list = () => DATA.frames.filter(f => filt === "all" || f.st === filt);
+  for (const s of DATA.sections) {
+    const head = el("div", {class: "sethead"},
+      el("div", {class: "setname"}, el("span", {class: "sw"}), el("span", {class: "lab", text: s.kicker}), el("h3", {text: s.title}), el("p", {class: "line", text: s.line})),
+      el("div", {class: "setidea"}, el("p", {text: s.idea}), s.extra ? el("p", {class: "small", text: s.extra}) : null,
+        el("span", {class: "facts", text: s.facts + " · " + plural(s.n, "frame", "frames") + " · " + plural(s.keep, "keeper", "keepers") + " · " + s.credits + " credits"})));
+    const grid = el("div", {class: "fgrid"});
+    for (const f of DATA.frames.filter(f => f.sec === s.key)) {
+      grid.append(el("figure", {class: "fr", "data-st": f.st}, picture(f, list), el("figcaption", {},
+        el("span", {class: "code"}, el("span", {class: "num", text: String(f.n).padStart(3, "0")}), el("span", {text: f.code})),
+        chip(f), el("span", {class: "nm", text: f.name}), f.tag === "e1" ? el("span", {class: "pc", text: f.piece}) : null,
+        el("span", {class: "ln", text: f.line}))));
+    }
+    $("#sets").append(el("section", {class: "set", id: "s-" + s.key, style: "--acc:var(--a-" + s.key + ")"}, head, grid));
+    $("#jumps").append(el("a", {href: "#s-" + s.key, "data-k": s.key, text: s.title}));
+  }
+  const counts = {all: T.images, keep: S.keep, pass: S.passed, fail: S.fail, wait: S.wait};
+  for (const [k, label] of [["all", "All"], ["keep", "Keepers"], ["pass", "Passed"], ["fail", "Missed"], ["wait", "Awaiting check"]]) {
+    if (!counts[k]) continue;
+    const b = el("button", {type: "button", "data-k": k, "aria-pressed": "false"}, document.createTextNode(label), el("span", {class: "cnt", text: String(counts[k])}));
+    b.addEventListener("click", () => setFilter(k));
+    $("#filters").append(b);
+  }
+  let saved = "all"; try { saved = localStorage.getItem("naira-sheet-filter") || "all"; } catch (e) {}
+  setFilter(counts[saved] ? saved : "all");
+}
+
+function setFilter(k) {
+  filt = k;
+  document.querySelectorAll("#filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.k === k)));
+  document.querySelectorAll(".set").forEach(sec => {
+    let n = 0;
+    sec.querySelectorAll(".fr").forEach(fig => { const on = k === "all" || fig.dataset.st === k; fig.hidden = !on; if (on) n++; });
+    sec.hidden = !n;
+    const j = document.querySelector('#jumps a[data-k="' + sec.id.slice(2) + '"]'); if (j) j.hidden = !n;
+  });
+  try { localStorage.setItem("naira-sheet-filter", k); } catch (e) {}
+}
+
+function renderCredits() {
+  $("#cLede").textContent = "Each square is one credit. A 2K image on Nano Banana Pro costs two; the candy test on Nano Banana 2 Lite cost one; the " + T.crops + " crops cost nothing. One failed render was refunded. " + T.spent + " credits went on " + T.generated + " images, and " + T.left + " are left, under the one credit the cheapest model costs.";
+  const sq = $("#squares");
+  for (const m of DATA.meter) for (let i = 0; i < m.credits; i++) sq.append(el("span", {class: "sq", style: "--c:var(--a-" + m.key + ")"}));
+  sq.append(el("span", {class: "sq left"}));
+  sq.setAttribute("aria-label", T.spent + " credits spent, one square each, and " + T.left + " left: " + DATA.meter.map(m => m.label + " " + m.credits).join(", "));
+  for (const m of DATA.meter) $("#legend").append(el("li", {}, el("span", {class: "sw", style: "--c:var(--a-" + m.key + ")"}), el("span", {class: "lgl", text: m.label}),
+    el("span", {class: "lgn", text: m.credits + " cr · " + plural(m.images, "image", "images")})));
+  $("#legend").append(el("li", {}, el("span", {class: "sw left"}), el("span", {class: "lgl", text: "Left in the account"}), el("span", {class: "lgn", text: T.left + " cr"})));
+  const tb = $("#ledger");
+  tb.append(el("thead", {}, el("tr", {}, el("th", {text: "When, IST"}), el("th", {text: "What"}), el("th", {class: "r", text: "Images"}), el("th", {class: "r", text: "Credits"}))));
+  const body = el("tbody");
+  for (const [w, what, imgs, cr] of DATA.ledger)
+    body.append(el("tr", {}, el("td", {class: "when", text: w}), el("td", {text: what}), el("td", {class: "r", text: String(imgs)}),
+      el("td", {class: "r", text: typeof cr === "number" ? (cr ? "−" + cr : "0") : cr})));
+  body.append(el("tr", {class: "tot"}, el("td", {}), el("td", {text: "Spent"}), el("td", {class: "r", text: String(T.images)}), el("td", {class: "r", text: "−" + T.spent})));
+  body.append(el("tr", {class: "bal"}, el("td", {}), el("td", {text: "Left now: 200 bought, plus " + T.carried + " carried over, less " + T.spent + " spent"}), el("td", {}), el("td", {class: "r", text: String(T.left)})));
+  tb.append(body);
+}
+
+function renderRest() {
+  $("#adLede").textContent = DATA.ad.lede;
+  for (const [b, t] of DATA.ad.nums) $("#adNums").append(el("div", {}, el("b", {text: b}), el("span", {text: t})));
+  $("#adCaveat").textContent = DATA.ad.caveat;
+  for (const p of DATA.pdfs) {
+    const note = el("span", {class: "note"});
+    const btn = el("button", {type: "button", class: "savePdf", disabled: "", text: "Save PDF"});
+    btn.addEventListener("click", () => save("pdfs/" + p.file, p.file, note));
+    $("#pdfList").append(el("li", {}, el("div", {class: "pt"}, el("span", {class: "ptitle", text: p.title}), el("span", {class: "small", text: p.pages + " pages · " + p.mb + " MB · " + p.file})),
+      el("div", {class: "pb"}, btn, note)));
+  }
+  $("#nextLede").textContent = DATA.next.lede;
+  for (const [b, t] of DATA.next.items) $("#nextItems").append(el("div", {}, el("b", {text: b}), el("p", {text: t})));
+  for (const q of DATA.next.questions) $("#questions").append(el("li", {text: q}));
+}
+
+const lb = $("#lb");
+function openLb(f, list) { ctx = list; show(f); if (!lb.open) lb.showModal(); }
+function fill(sel, items) { $(sel).replaceChildren(...items.map(t => el("li", {text: t}))); }
+function show(f) {
+  cur = f;
+  const img = $("#lbImg"); img.src = f.t; img.alt = altOf(f); img.width = f.tw; img.height = f.th;
+  const full = new Image(); full.onload = () => { if (cur === f) img.src = f.f; }; full.src = f.f;
+  $("#lbBox").style.display = f.st === "keep" ? "" : "none";
+  $("#lbCode").textContent = "Frame " + f.n + " of " + T.images + " · " + f.code + " · " + FMT[f.aspect] + " · " + f.w + "×" + f.h;
+  const c = $("#lbChip"); c.className = "st st-" + f.st; c.textContent = chipText(f);
+  $("#lbName").textContent = f.name;
+  $("#lbCopy").textContent = f.copy;
+  $("#lbMeta").textContent = f.piece + " · " + f.price + " · SKU " + f.sku + (f.cr ? " · " + f.cr + (f.cr === 1 ? " credit" : " credits") : " · cropped, no credits");
+  $("#lbLine").textContent = f.line;
+  const failed = f.st === "fail";
+  fill("#lbReasons", f.reasons); fill("#lbNotes", f.notes); $("#lbFix").textContent = f.fix;
+  $("#dReasons").hidden = !f.reasons.length; $("#dReasons summary").textContent = failed ? "What the reviewer found" : "Small things the reviewer saw"; $("#dReasons").open = false;
+  $("#dNotes").hidden = !f.notes.length; $("#dNotes summary").textContent = failed ? "Also noted" : "Why it works"; $("#dNotes").open = false;
+  $("#dFix").hidden = !f.fix; $("#dFix summary").textContent = failed ? "What the next take changes" : "The reviewer’s suggestion"; $("#dFix").open = false;
+  const i = ctx.indexOf(f);
+  $("#lbPrev").disabled = i <= 0; $("#lbNext").disabled = i < 0 || i >= ctx.length - 1;
+  $("#lbPos").textContent = i >= 0 ? (i + 1) + " of " + ctx.length : "";
+  $("#lbSave").disabled = !downloads; $("#lbNote").textContent = "";
+  $("#lbSide").scrollTop = 0;
+}
+function step(d) { const i = ctx.indexOf(cur) + d; if (i >= 0 && i < ctx.length) show(ctx[i]); }
+$("#lbPrev").addEventListener("click", () => step(-1));
+$("#lbNext").addEventListener("click", () => step(1));
+$("#lbClose").addEventListener("click", () => lb.close());
+lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+lb.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+});
+$("#lbSave").addEventListener("click", () => cur && save(cur.f, cur.file, $("#lbNote")));
+
+async function save(path, name, note) {
+  if (!downloads) return;
+  note.textContent = "Preparing…";
+  try {
+    const r = await fetch(path); if (!r.ok) throw {code: "missing"};
+    await downloads.save({filename: name, data: await r.blob()});
+    note.textContent = "Saved " + name;
+  } catch (e) {
+    const code = e && e.code;
+    note.textContent = code === "declined" ? "Not saved." : code === "rate_limited" ? "Another save is open. Try again in a moment." :
+      code === "missing" ? "That file did not load. Reload the page and try again." : "Saving isn’t available in this view.";
+  }
+}
+
+renderHead(); renderKeepers(); renderSheet(); renderCredits(); renderRest();
+(window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null)).then(d => {
+  downloads = d; if (!d) return;
+  document.querySelectorAll(".savePdf").forEach(b => { b.disabled = false; });
+  if (cur) $("#lbSave").disabled = false;
+}).catch(() => {});
+</script>
