@@ -55,6 +55,24 @@ Naira's Meta account: 108 jewellery ads, ₹1,59,164 of spend, corrected for nin
 
 Hoops under ₹2,000 can't pay back alone at ₹1,500–3,000 per sale. Shoot them as a **bundle** (two pairs in one frame, priced as a set) or as gift-set frames for Diwali.
 
+## Ready to fire: the bold v2 fixes (from the reviewers, 16 Oct)
+
+The bold v2 set drew the pieces 1.75–2.4× the ratio asked for, more than the usual 1.5–1.7×. So each fix below asks for a smaller ratio than plain compensation would. Each one lands within ±30% of true size across the overshoot seen. Full wording is in `build/verify/bold_*.json` (`fix`).
+
+| Frame | Ask for | Also change |
+|---|---|---|
+| Candy test, Cluster ("Almost edible.") | the stud about two-thirds of one sweet's width | Shoot at 2K, the first frame to shoot. Exactly six pearls as in listing-1, none at the tips. |
+| Handle with care, Dome | the huggie at one eighth of the cup's height | Delete "five huggies tall" and "where a handle would be". Anchor the hoop just below the rim. |
+| Day-night Test, Verdant | each stud at one tenth of the ball's width, about four seam stitches long | Bezel bright rhodium white. Sunlit top third. |
+| Berry cute, Bow | the bow at one fifth of the strawberry's length | Delete "a third of its width". |
+| Garnish, Papillon | the butterfly at one ninth of the coupe's width | All four wings flat in one plane. Show the coupe's near half and stem. |
+| Fresh batch, Torsade | each huggie at one fifth of a mini croissant's length | Tightly rolled minis in one row. The huggies at the same depth. |
+| Chill, Aqua | the earring at one quarter of the glass's width | Frame the top third of the glass. If the C still runs long, use one fifth. |
+| Smash, Halo | the earring at 0.23 of the shuttlecock's height | Shuttlecock upright on its cork. The post through a feather. |
+| Matches your mani, Cluster | the stud no longer than the index fingernail | Lock the asymmetric stone order, unmirrored. |
+| Sweet, and it sparkles, Rivière | the huggie the same size as one sugar crystal | Camera closer, so the hoop is about 20% of the frame width. |
+| W09, Woven | shoot straight from behind, as W06 take 3 | Never ask for a "150° turned" head: it shows the face. |
+
 ## Cost
 
 - Each 2K image costs 2 credits; reshoots run about 40%.
