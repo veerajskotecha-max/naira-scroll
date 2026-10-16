@@ -108,5 +108,10 @@
   "frame": "clusterC1",
   "attempt": "lite1k",
   "job": "4a0491dd-7c54-4d3d-bad4-582505754195"
+ },
+ {
+  "frame": "clusterC1",
+  "attempt": "scene",
+  "job": "e224802e-f895-4ae2-b259-4e221fb4e574"
  }
 ]

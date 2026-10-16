@@ -52,10 +52,12 @@ for tag, folder in [("c4", HERE), ("e1", E1)]:
 
 def kind(att):
     if att == "lite": return "1K test"
+    if att == "scene": return "Scene test, no product"
     t, n, c = re.fullmatch(r"([ae])(\d)(c?)", att).groups()
     return ("Take " if t == "a" else "Edit ") + n + (", cropped" if c else "")
 def order(att):
     if att == "lite": return (9, 0)
+    if att == "scene": return (9, 1)
     t, n, c = re.fullmatch(r"([ae])(\d)(c?)", att).groups()
     return (int(n), 1 if c else 0) if t == "a" else (1, 1 + int(n))
 def slug(s): return re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-")
@@ -66,8 +68,9 @@ for n, (tag, stem) in enumerate(seq, 1):
     F = (F4 if tag == "c4" else FE)[fid]; camp = F["camp"]
     sec = camp if tag == "c4" else ("e1b" if re.search(r"[BC]1$", fid) else "e1h")
     v = V.get(stem)
-    st = "wait" if not v else "keep" if v.get("pass") and (v.get("score") or 0) >= BAR else "pass" if v.get("pass") else "fail"
-    if not v: label, line = "", "With the reviewer now."
+    st = "scene" if att == "scene" else "wait" if not v else "keep" if v.get("pass") and (v.get("score") or 0) >= BAR else "pass" if v.get("pass") else "fail"
+    if att == "scene": label, line = "", "The candy bowl without the stud, on Z Image for the last 0.15 credits: a palette, light and copy-space test for the 2K shoot."
+    elif not v: label, line = "", "With the reviewer now."
     elif stem in LINES: label, line = LINES[stem]["label"], LINES[stem]["line"]
     else: label, line = fallback(v)
     if tag == "c4": P = D4["pieces"][camp]; piece, price, sku = P["name"], P["price"], P["sku"]
@@ -76,8 +79,8 @@ for n, (tag, stem) in enumerate(seq, 1):
     frames.append(dict(n=n, id=stem, tag=tag, sec=sec, camp=camp, code=(f"{fid} · " if tag == "c4" else "") + kind(att), kind=kind(att),
         name=F["name"], copy=F["copy"], aspect=F["aspect"], w=w, h=h, st=st, score=(v or {}).get("score"), label=label, line=line,
         reasons=(v or {}).get("reasons") or [], notes=(v or {}).get("notes") or [], fix=(v or {}).get("fix") or "",
-        cr=0 if att.endswith("c") else 1 if att == "lite" else 2, piece=piece, price=price, sku=sku,
-        candy=fid == "clusterC1", sort=(E1_ORDER.index(camp) if tag == "e1" else 0, fid, order(att)),
+        cr=0 if att.endswith("c") else 1 if att == "lite" else 0.15 if att == "scene" else 2, piece=piece, price=price, sku=sku,
+        candy=fid == "clusterC1", mk="scene" if att == "scene" else "candy" if att == "lite" else (camp if tag == "c4" else ("e1b" if re.search(r"[BC]1$", fid) else "e1h")), sort=(E1_ORDER.index(camp) if tag == "e1" else 0, fid, order(att)),
         t=f"t/{stem}.jpg", f=f"f/{stem}.jpg", file=f"Naira-{stem}-{slug(F['name'])}.jpg"))
 
 # Images: a 640px thumbnail for the sheet and the full-size JPG for the lightbox and saves.
@@ -166,33 +169,34 @@ sections += [
          line="One bold everyday object wears each piece, under hard sun.",
          idea=("The style changed after your note. A teacup, a pink cricket ball, a strawberry, a coupe, a lemonade glass, a "
                "shuttlecock, an ice tray, painted nails and rock sugar each wear one piece, close up, in low hard sun, with the product "
-               "big in frame. The last whole credit went on the candy pun your ads proved."), facts="₹1,399 to ₹2,499 · pre-order")]
+               "big in frame. The last whole credit went on the candy pun your ads proved, and the last 0.15 on a scene test of the same candy bowl, without the stud."), facts="₹1,399 to ₹2,499 · pre-order")]
 for s in sections:
     fs = [f for f in frames if f["sec"] == s["key"]]
-    s.update(n=len(fs), keep=sum(f["st"] == "keep" for f in fs), credits=sum(f["cr"] for f in fs))
+    s.update(n=len(fs), keep=sum(f["st"] == "keep" for f in fs), credits=round(sum(f["cr"] for f in fs), 2))
 
 # Credits: one square per credit, grouped by set, then the ledger from the Higgsfield transaction log (times in IST).
 METER = [("toggle", "The Turn · Toggle Link Chain"), ("woven", "Hand-Woven · Woven Gold Hoops"), ("heart", "Heartbeat · Heartbead Bracelet"),
          ("prism", "Colour, in a Straight Line · Prism Rivière"), ("e1h", "Edition One · first heroes"), ("e1b", "Edition One · bold v2"),
-         ("candy", "Candy test · 1K")]
-def credits_of(k): return sum(f["cr"] for f in frames if (f["candy"] if k == "candy" else f["sec"] == k and not f["candy"]))
-def images_of(k): return sum(1 for f in frames if f["cr"] and (f["candy"] if k == "candy" else f["sec"] == k and not f["candy"]))
+         ("candy", "Candy test · 1K"), ("scene", "Scene test · Z Image")]
+def credits_of(k): return round(sum(f["cr"] for f in frames if f["mk"] == k), 2)
+def images_of(k): return sum(1 for f in frames if f["cr"] and f["mk"] == k)
 meter = [dict(key=k, label=l, credits=credits_of(k), images=images_of(k)) for k, l in METER]
 c4 = [f for f in frames if f["tag"] == "c4"]
 cnt = lambda fs: (len(fs), sum(f["cr"] for f in fs))
 first = cnt([f for f in c4 if f["kind"] == "Take 1"]); redo = cnt([f for f in c4 if f["kind"] not in ("Take 1",) and f["cr"]])
 retakes = sum(1 for f in c4 if f["kind"] in ("Take 2", "Take 3")); edits = sum(1 for f in c4 if f["kind"].startswith("Edit"))
-heroes = cnt([f for f in frames if f["sec"] == "e1h" and f["cr"]]); bold = cnt([f for f in frames if f["sec"] == "e1b" and f["cr"] and not f["candy"]])
-candy = cnt([f for f in frames if f["candy"]]); crops = sum(1 for f in frames if not f["cr"])
-spent = sum(f["cr"] for f in frames)
+heroes = cnt([f for f in frames if f["mk"] == "e1h" and f["cr"]]); bold = cnt([f for f in frames if f["mk"] == "e1b" and f["cr"]])
+candy = cnt([f for f in frames if f["mk"] == "candy"]); scene = cnt([f for f in frames if f["mk"] == "scene"]); crops = sum(1 for f in frames if not f["cr"])
+spent = round(sum(f["cr"] for f in frames), 2)
 ledger = [["15 Oct, 23:32", "Credit package added", "", "+200"],
           ["15 Oct, 23:51", f"Four concept camps, first pass: 40 frames. One render failed and its 2 credits were refunded", first[0], first[1]],
           ["16 Oct, 00:05 to 01:12", f"Retakes ({retakes}) and edits ({edits}) over nine rounds, each fixing what the reviewer found", redo[0], redo[1]],
           ["16 Oct, 05:19", "Edition One heroes, one for each pre-order piece", heroes[0], heroes[1]],
           ["16 Oct, 05:42", "Edition One bold v2, after “these aren’t good enough yet”", bold[0], bold[1]],
           ["16 Oct, 05:48", "Candy test on Nano Banana 2 Lite at 1K, the last whole credit", candy[0], candy[1]],
+          ["16 Oct, 12:32", "Scene test on Z Image, the candy bowl without the stud: the only model under the last 0.22 credits", scene[0], round(scene[1], 2)],
           ["", "Crops cut here from passing frames, at no cost", crops, 0]]
-total = dict(images=len(frames), generated=len(frames) - crops, crops=crops, spent=spent, left=0.22, carried=1.22)
+total = dict(images=len(frames), generated=len(frames) - crops, crops=crops, spent=spent, left=round(201.22 - spent, 2), carried=1.22, cheapest=0.15)
 
 C = collections.Counter(f["st"] for f in frames)
 stats = dict(keep=len(keepers), keepframes=C["keep"], passed=C["pass"], fail=C["fail"], wait=C["wait"],
@@ -222,8 +226,8 @@ ad = dict(lede=("Naira’s own Meta account, every jewellery ad to 12 Oct 2026: 
                   "statistically safe once the friends-and-family orders are removed. These camps follow what won: a visual pun with the "
                   "piece as the punchline, food and measuring tools, light pastel grounds, the 4:5 Feed first, pieces over ₹2,000, and a "
                   "plain craft close-up beside each one as the control."))
-nxt = dict(lede=("0.22 credits are left, under the one credit the cheapest model costs. The next top-up is planned in "
-                 "edition-one/PLAN_V3.md."),
+nxt = dict(lede=(f"{round(201.22 - spent, 2)} credits are left, under the 0.15 the cheapest Higgsfield model costs. The next top-up is "
+                 "planned in edition-one/PLAN_V3.md."),
            items=[["About 85 credits", "About 30 Edition One frames, ₹2,000+ pieces first: Aqua, Quatrefoil, Cluster, Halo and Verdant. "
                                        "Each prompt asks for about 0.6 times the true size, so the piece lands at true size."],
                   ["30 to 40 credits", "The four camps’ gaps, mostly the Toggle clasp and the Prism stone count."],

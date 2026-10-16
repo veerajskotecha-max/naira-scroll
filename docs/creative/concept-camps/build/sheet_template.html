@@ -8,17 +8,17 @@
    credits went, what the ad data says, the PDFs and what comes next. Keepers are boxed in grease-pencil red, as on a real sheet. */
 :root{
   --paper:#F4F0E8; --sheet:#FBF8F3; --ink:#1C1C1C; --muted:#6B5F57; --rule:#E2D9CC; --chip:#EDE2D5; --gold:#7F6129; --mark:#C23B26;
-  --a-toggle:#CF9B92; --a-woven:#E2BE98; --a-heart:#F2B6C6; --a-prism:#9FD3D9; --a-e1h:#C9A3C8; --a-e1b:#F2A97E; --a-candy:#E8CF6A;
+  --a-toggle:#CF9B92; --a-woven:#E2BE98; --a-heart:#F2B6C6; --a-prism:#9FD3D9; --a-e1h:#C9A3C8; --a-e1b:#F2A97E; --a-candy:#E8CF6A; --a-scene:#B9A9D6;
   --scrim:rgba(24,19,16,.84);
   --display:"Velista","Cormorant Garamond",Georgia,serif; --text:"Cormorant Garamond",Georgia,serif; --label:"Jost","Helvetica Neue",Arial,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --paper:#1B1816; --sheet:#24201C; --ink:#F1EAE0; --muted:#B5A697; --rule:#3A322C; --chip:#322A25; --gold:#D6B678; --mark:#F0735C;
-  --a-toggle:#B5837B; --a-woven:#C49F78; --a-heart:#D48FA2; --a-prism:#76AFB5; --a-e1h:#A882A7; --a-e1b:#D38A62; --a-candy:#C9AE4C;
+  --a-toggle:#B5837B; --a-woven:#C49F78; --a-heart:#D48FA2; --a-prism:#76AFB5; --a-e1h:#A882A7; --a-e1b:#D38A62; --a-candy:#C9AE4C; --a-scene:#9A8BB8;
   --scrim:rgba(0,0,0,.86); color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#1B1816; --sheet:#24201C; --ink:#F1EAE0; --muted:#B5A697; --rule:#3A322C; --chip:#322A25; --gold:#D6B678; --mark:#F0735C;
-  --a-toggle:#B5837B; --a-woven:#C49F78; --a-heart:#D48FA2; --a-prism:#76AFB5; --a-e1h:#A882A7; --a-e1b:#D38A62; --a-candy:#C9AE4C;
+  --a-toggle:#B5837B; --a-woven:#C49F78; --a-heart:#D48FA2; --a-prism:#76AFB5; --a-e1h:#A882A7; --a-e1b:#D38A62; --a-candy:#C9AE4C; --a-scene:#9A8BB8;
   --scrim:rgba(0,0,0,.86); color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--text);font-size:19px;line-height:1.5;
@@ -80,6 +80,8 @@ h1{font-size:clamp(60px,11vw,138px);line-height:.95}
 .ap .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
 .ctlhead{margin-top:72px}
 .st-ctl{color:var(--muted);border:1px solid var(--rule)}
+.st-scene{color:var(--muted);border:1px dotted var(--muted)}
+.sq.part{background:linear-gradient(90deg,var(--c) calc(var(--f) * 100%),transparent 0);box-shadow:inset 0 0 0 1px var(--c)}
 
 /* Keepers */
 .kgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 30px;align-items:start}
@@ -124,7 +126,7 @@ h1{font-size:clamp(60px,11vw,138px);line-height:.95}
 /* Credits */
 .squares{display:flex;flex-wrap:wrap;gap:4px;max-width:960px}
 .sq{width:16px;height:16px;background:var(--c)}
-.sq.left,.sw.left{background:linear-gradient(90deg,var(--muted) 22%,transparent 22%);box-shadow:inset 0 0 0 1px var(--muted)}
+.sq.left,.sw.left{background:linear-gradient(90deg,var(--muted) calc(var(--f, .22) * 100%),transparent 0);box-shadow:inset 0 0 0 1px var(--muted)}
 .legend{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 36px;max-width:960px}
 .legend li{display:grid;grid-template-columns:16px minmax(0,1fr) auto;gap:12px;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:8px}
 .legend .sw{width:16px;height:16px;background:var(--c);align-self:center}
@@ -294,6 +296,7 @@ function chipText(f) {
   if (f.st === "pass") return "Passed" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   if (f.st === "fail") return "Missed" + (f.label ? " · " + f.label : "");
   if (f.st === "ad") return f.score != null ? "Review · " + f.score.toFixed(1) : "Finished ad";
+  if (f.st === "scene") return "Scene test";
   if (f.st === "ctl") return "Plain control" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   return "Awaiting check";
 }
@@ -407,14 +410,18 @@ function setFilter(k) {
 }
 
 function renderCredits() {
-  $("#cLede").textContent = "Each square is one credit. A 2K image on Nano Banana Pro costs two; the candy test on Nano Banana 2 Lite cost one; the " + T.crops + " crops cost nothing. One failed render was refunded. " + T.spent + " credits went on " + T.generated + " images, and " + T.left + " are left, under the one credit the cheapest model costs.";
+  $("#cLede").textContent = "Each square is one credit. A 2K image on Nano Banana Pro costs two; the candy test on Nano Banana 2 Lite cost one; the scene test on Z Image, the only model under the last 0.22, cost 0.15; the " + T.crops + " crops cost nothing. One failed render was refunded. " + T.spent + " credits went on " + T.generated + " images, and " + T.left + " are left, under the " + T.cheapest + " the cheapest model costs.";
   const sq = $("#squares");
-  for (const m of DATA.meter) for (let i = 0; i < m.credits; i++) sq.append(el("span", {class: "sq", style: "--c:var(--a-" + m.key + ")"}));
-  sq.append(el("span", {class: "sq left"}));
+  for (const m of DATA.meter) {
+    const full = Math.floor(m.credits + 1e-9), frac = Math.round((m.credits - full) * 100) / 100;
+    for (let i = 0; i < full; i++) sq.append(el("span", {class: "sq", style: "--c:var(--a-" + m.key + ")"}));
+    if (frac > 0) sq.append(el("span", {class: "sq part", style: "--c:var(--a-" + m.key + ");--f:" + frac, title: frac + " credit"}));
+  }
+  sq.append(el("span", {class: "sq left", style: "--f:" + T.left}));
   sq.setAttribute("aria-label", T.spent + " credits spent, one square each, and " + T.left + " left: " + DATA.meter.map(m => m.label + " " + m.credits).join(", "));
   for (const m of DATA.meter) $("#legend").append(el("li", {}, el("span", {class: "sw", style: "--c:var(--a-" + m.key + ")"}), el("span", {class: "lgl", text: m.label}),
     el("span", {class: "lgn", text: m.credits + " cr · " + plural(m.images, "image", "images")})));
-  $("#legend").append(el("li", {}, el("span", {class: "sw left"}), el("span", {class: "lgl", text: "Left in the account"}), el("span", {class: "lgn", text: T.left + " cr"})));
+  $("#legend").append(el("li", {}, el("span", {class: "sw left", style: "--f:" + T.left}), el("span", {class: "lgl", text: "Left in the account"}), el("span", {class: "lgn", text: T.left + " cr"})));
   const tb = $("#ledger");
   tb.append(el("thead", {}, el("tr", {}, el("th", {text: "When, IST"}), el("th", {text: "What"}), el("th", {class: "r", text: "Images"}), el("th", {class: "r", text: "Credits"}))));
   const body = el("tbody");

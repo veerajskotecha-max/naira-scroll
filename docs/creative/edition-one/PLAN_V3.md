@@ -61,7 +61,7 @@ The bold v2 set drew the pieces 1.75–2.4× the ratio asked for, more than the 
 
 | Frame | Ask for | Also change |
 |---|---|---|
-| Candy test, Cluster ("Almost edible.") | the stud about two-thirds of one sweet's width | Shoot at 2K, the first frame to shoot. Exactly six pearls as in listing-1, none at the tips. |
+| Candy test, Cluster ("Almost edible.") | the stud about two-thirds of one sweet's width | Shoot at 2K, the first frame to shoot. Exactly six pearls as in listing-1, none at the tips. The scene is already tested: the last 0.15 credits went on Z Image (text only, no product) for the same bowl. Pastel sugared jellies of about 2 cm in a clear bowl, hard low sun from the left and blush top left all hold, so keep that scene wording. |
 | Handle with care, Dome | the huggie at one eighth of the cup's height | Delete "five huggies tall" and "where a handle would be". Anchor the hoop just below the rim. |
 | Day-night Test, Verdant | each stud at one tenth of the ball's width, about four seam stitches long | Bezel bright rhodium white. Sunlit top third. |
 | Berry cute, Bow | the bow at one fifth of the strawberry's length | Delete "a third of its width". |
