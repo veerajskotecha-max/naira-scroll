@@ -29,6 +29,8 @@ for i in range(n):
     old = ring & (((hsv[..., 1] > S.get("min_sat", 24)) & (dh < 35)) | core)          # the old stone's own pixels, so no fringe survives
     old = cv2.morphologyEx(old.astype(np.uint8), cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
     old = cv2.dilate(old, np.ones((5, 5), np.uint8)).astype(np.float32)
+    hi = S["half_frac"] * si if S.get("half_frac") else half             # a stone's square scales with its own link spacing
+    if S.get("square_only"): old = (d < hi).astype(np.float32)        # just the stone's square: no halo or ground is carried over
     m = cv2.GaussianBlur(old, (0, 0), fe * 0.7)[..., None]
     out = (out * (1 - m) + warped * m).astype(np.uint8)
     print(f"stone {i+1}: {cur[i]}->{tgt[i]} from stone {j+1}")
