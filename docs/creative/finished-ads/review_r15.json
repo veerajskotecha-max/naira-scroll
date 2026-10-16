@@ -1,0 +1,43 @@
+[
+ {
+  "id": "P10_a1c",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "A new line on the hero piece. 'Watercolour, set in stone.' works twice: watercolour made permanent, and stones in their setting. 'cubic zirconia, not paint.' follows the winner's correction ('cubic zirconia, not candy.'). It hits the data's levers: Prism at ₹2,399 and in stock (68), a craft-material visual rhyme (a wash in the stones' three colours, with the bracelet laid along it), a light ivory ground, Feed 4:5. Every claim is a listing fact, and the idea reads at 390 px.",
+   "The crop rescue works. The plate is a native, unscaled crop of the failed P10_a1 frame at [330, 200, 1330, 1977] (template match 0.99999), so r1's three failures are out of frame. Both clasp ends (x about 196-260 and 1590-1650 in the source) are gone, the brush tip ends 30 px past the crop's right edge, and the strip runs off both sides. In frame: an aqua sliver, seven full units (P Y A P Y A P) and 82% of a yellow one, pitch 123 plate px. No same-colour neighbours. Cushion stones sit in two-row pavé halos (closer to listing-7 than P01's three frosted rows), with four bead claws, link bars and silver metal. The soft referents agree with true scale: at the real 8.4 mm pitch the sheet is about 86 mm tall, the wash about 6 cm deep and the paper grain under 1 mm.",
+   "The cleanest copy ground of the Prism set, with no glow or band. Headline 15.8:1 (darkest 5% 15.2), correction 16.4:1 (16.0), spec 12.3:1 (11.2), price 13.3:1 (12.2). The ink wordmark reads 13.6:1 (12.4), 179 px wide, 43 px above the price, its top level with the rule's (4 px). The copy ends at y 309, 450 px above the stones, and the halos end 291 px above the foot. 64 px margins."
+  ],
+  "issues": [
+   "[placement] The sheet's deckled top edge (a faint highlight and a step from the pink backdrop to the cream paper, y 206-212) runs through the foot of 'SET IN STONE.' (caps y 156-227), 14-20 px above the baseline. At 390 px the headline looks as if it stands on a shelf.",
+   "[ceiling: photo] A generated frame, and the stones are the punchline. At 1:1 the yellow and pink stones carry a radial starburst texture instead of the listing's brilliant facets, where P01_a1's are crisp. The pinks lean mauve (hue -4 to -11°, saturation 0.21-0.24, against 1° and 0.17 on listing-7). The order is a strict A-P-Y repeat where the real piece is irregular, with no same-colour neighbours either way. None of it shows at 390 px. Ceiling 9.5.",
+   "[placement] A new line, not a new picture. It is P01_a1's mechanic ('Rangoli, in a line.', 10): the bracelet as a straight horizontal line across aqua, pink and yellow on ivory, top-down, in the same layout and foot. Only the medium (a wash rather than powder bands), the line and the scale differ (units 123 px against P01_a1's 92). At 390 px the two read as siblings, and in one ad set they would compete for the same audience."
+  ],
+  "fixes": [
+   "[apply] \"box\": [0, 170, 1000, 1420]. Tested (P10_a1c__v4c): the sheet's edge moves to y 347-359, 39-51 px below the correction's descenders, so the whole copy block sits on the plain backdrop above the sheet. The bracelet moves down 140 px (halos y 899-1012), still 151 px above the foot. Headline 15.6:1 (15.0), correction 15.9:1 (15.5), spec 12.8:1 (11.7), price 13.5:1 (12.5). The ink wordmark reads 14.3:1 (13.5), 43 px above the price; the margins are unchanged. Takes it to 9.5, its ceiling.",
+   "Tested and rejected: [0, 265, 1000, 1515] leaves the edge between the headline and the correction with 17-25 px on each side, so it reads as a rule through the copy block. [0, 257, 1000, 1507] with \"gap\": 34 gives 26-32 px, but breaks the set's 18 px spacing between headline and correction.",
+   "[no layout fix] 10 needs stones with crisp brilliant facets: a reshoot of the real piece laid straight on the painted sheet, or a regenerated frame.",
+   "[run] Run it as P01_a1's challenger in the Prism Feed ad set (Meta's creative test or equal budgets), not as a third concept beside prismC1_m1 and P01_a1. The winner keeps the slot. If P01_a1 wins, keep this as its refresh for after Diwali, when rangoli dates and watercolour does not."
+  ]
+ },
+ {
+  "id": "P10_a1c-story",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The same new line and plate as P10_a1c: the full 9:16 plate at a 1.08x upscale, with no extension, and the strip running off both sides with seven full units (pitch 133 px). The pun reads at 390 px, and every claim is a listing fact.",
+   "Stories-safe and clean, with no glow, band or CTA (Meta adds its own). The copy sits at y 302-545 and the foot at 1422-1528. Headline 15.7:1 (15.0), correction 16.2:1 (15.8), spec 12.3:1 (11.2), price 13.3:1 (12.0). The ink wordmark reads 13.7:1 (12.7), 43 px above the price, and the halos end 225 px above it."
+  ],
+  "issues": [
+   "[placement] The sheet's top edge (y 530-543) runs along the correction's baseline (y 534; glyphs 505-544), so 'cubic zirconia, not paint.' sits on the edge. It shows at 390 px.",
+   "[brand, minor] The frame ends inside the cast shadow of the sheet's bottom deckle: a dark band (down to RGB about 124,109,94) along the bottom 21 px (y 1899-1919). It sits under Meta's reply bar, but reads as a dirty edge in previews.",
+   "[ceiling: photo] As P10_a1c: at 1:1 the stones show a starburst texture and the pinks lean mauve. Ceiling 9.5.",
+   "[placement] A third Prism Story behind P02_a2c and P01_a1-story (both 10). Like P01_a1-story it is a horizontal band in a tall frame (the halos fill 114 of 1920 px), where P02_a2c's vertical line fills the height with 13 units."
+  ],
+  "fixes": [
+   "[apply] \"y\": 262 and \"box\": [0, 0, 1000, 1740]. Tested (P10_a1c-story__v4b): the copy block moves up 38 px (headline glyphs y 264-426, 14 px below the 250 px Stories line; correction 467-506). The 1.103x frame (crop [10, 0, 989, 1740]) moves the sheet's edge to y 542-548, 36-42 px below the correction's descenders, and now ends on paper above the bottom deckle, so the shadow band is gone. The halos sit at y 1106-1222, 200 px above the wordmark, and the foot is unchanged (1422-1528). Headline 15.6:1 (15.0), correction 15.9:1 (15.5), spec 12.2:1 (11.0), price 13.3:1 (12.0), ink wordmark 14.0:1 (13.2). \"y\": 262 alone (tested) clears the correction by 24-37 px but keeps the shadow band. Takes it to 9.5, its ceiling.",
+   "[no layout fix] As P10_a1c: 10 needs stones with crisp brilliant facets.",
+   "[run] Hold it: Stories are secondary, and P02_a2c and P01_a1-story hold the Prism Story slot. If P10_a1c beats P01_a1 in Feed, swap this in for P01_a1-story as the B to P02_a2c, so the Story test pits two ideas rather than two crops of one."
+  ]
+ }
+]

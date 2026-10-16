@@ -1,0 +1,55 @@
+[
+ {
+  "id": "ctl_verdant",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The price is the live one: ₹1,399 (₹2,199 until today), as skus.json now says. It fits the foot as the old price did. It is right-aligned to the 64 px margin (glyphs x 921–1010), its digits sit on the CTA type's baseline (y 1265), and it is 43 px below the wordmark's ink.",
+   "Price contrast 14.1:1 (darkest 5% 13.6:1) on clean plaster, the same as at ₹2,199.",
+   "Nothing else moved: headline 9.8–14.2:1 (9.5:1), correction 14.6–14.7:1 (14.3:1) and 43 px from the halo's top-left prong, spec 14.5:1 (13.8:1), black wordmark 14.3:1 (12.9:1). An honest macro that makes no metal claim."
+  ],
+  "issues": [
+   "[price] At ₹1,399 the piece is now under the ₹2,000 line the data favours (rule 2). By the controls' convention the price cap is not applied, so the score holds, but this test no longer leads with a ₹2,000+ piece.",
+   "[claim, PDP] The listing text still says yellow gold, while every photo shows white metal. Fix the product page, not the control.",
+   "[brand, minor] Three headline lines against the kit's two, as in r5. Not scored."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "ctl_verdant-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The price is the live one: ₹1,399. It fits the Stories foot as the old price did. It is right-aligned (glyphs x 921–1010), its digits sit on the spec line's baseline (y 1520), and it is 43 px below the wordmark's ink.",
+   "Price contrast 14.3:1 (darkest 5% 13.2:1), against 14.3:1 (13.3:1) at ₹2,199.",
+   "Nothing else moved: headline 9.8–14.1:1 (9.5:1), correction 14.6–14.7:1 (14.2:1) and 45 px from the nearest prong, spec 14.4:1 (13.8:1), wordmark 13.9:1 (11.5:1). All copy is inside the Stories safe zone (ink y 341–1525)."
+  ],
+  "issues": [
+   "[price] As for ctl_verdant: now under ₹2,000, and the cap is not applied to controls.",
+   "[claim, PDP] As for ctl_verdant: the listing text says yellow gold, while the photos show white metal."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "ctl_cluster",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The price is the live one: ₹2,099 (₹2,399 until today), as skus.json now says, and still over ₹2,000. It fits the foot as before. It is right-aligned (glyphs x 917–1010), its digits sit on the CTA type's baseline (y 1265), and it is 43 px below the wordmark's ink.",
+   "Nothing else moved: headline 9.6–10.3:1 (8.9:1), correction 10.2–10.9:1 (9.4:1), spec 13.1:1 (11.9:1), and the black wordmark 11.6:1 (5.6:1) across the plinth's shadow edge. The copy ends 149 px above the stud."
+  ],
+  "issues": [
+   "[contrast] The price still sits on the plinth's shaded face, at 6.3:1 (darkest 5% 5.8:1), the same as the old price. That passes, and it reads at 390 px.",
+   "[claim, PDP] This macro shows 8 tiny pearls, while the listing text and the other photos show 6. The copy rightly gives no count.",
+   "[photo, minor] A dark fibre about 12 px long lies on the plinth at x 995, y 866, about 4 px at 390 px. Not scored."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] Spot the fibre out of listing-5 if the photo is ever retouched."
+  ]
+ }
+]
