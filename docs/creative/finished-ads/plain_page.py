@@ -48,7 +48,9 @@ def main():
                 counts=dict(ready=len(plain["ready"]), reference=len(plain["reference"]), listing=sum(1 for x in items if x["g"] == "list")))
     tpl = open(f"{HERE}/plain_template.html", encoding="utf-8").read()
     b64 = lambda p: base64.b64encode(open(p, "rb").read()).decode()
-    page = (tpl.replace("__VELISTA__", b64(f"{HERE}/brand/Velista.ttf")).replace("__WM_LIGHT__", b64(f"{SPB}/plain/logo_sage_dark_480.png"))
+    for n in ("logo_sage", "logo_white"):           # the deck's sage on blush for the light theme, white for the dark
+        im = Image.open(f"{HERE}/brand/{n}.png"); im.resize((480, round(im.height * 480 / im.width)), Image.LANCZOS).save(f"{SPB}/plain/{n}_480.png")
+    page = (tpl.replace("__VELISTA__", b64(f"{HERE}/brand/Velista.ttf")).replace("__WM_LIGHT__", b64(f"{SPB}/plain/logo_sage_480.png"))
                .replace("__WM_DARK__", b64(f"{SPB}/plain/logo_white_480.png")).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")))
     open(f"{SITE}/index.html", "w", encoding="utf-8").write(page)
     # files map, split so each publish stays under 255 files and 64 MB

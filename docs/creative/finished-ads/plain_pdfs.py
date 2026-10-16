@@ -55,11 +55,12 @@ STATUS = {"keep": "READY FOR ADS · KEEPER", "pass": "READY FOR ADS", "fail": "R
 def brand_page(c):
     c.setPageSize((PW, 1700)); c.setFillColor(BLUSH); c.rect(0, 0, PW, 1700, stroke=0, fill=1)
     tracked(c, "NAIRA PETITE  ·  BRAND KIT FOR THE ADS", "JostMed", 16, 72, 1620, 0.24, MUTE)
-    for k, (f, bg) in enumerate([("logo_sage_dark.png", BLUSH), ("logo_white.png", SAGE), ("logo_ink.png", PAPER)]):
+    for k, (f, bg) in enumerate([("logo_sage.png", BLUSH), ("logo_white.png", SAGE), ("logo_ink.png", PAPER)]):
         y = 1450 - k * 150; c.setFillColor(bg); c.rect(72, y - 20, 520, 130, stroke=0, fill=1)
         c.drawImage(ImageReader(f"{HERE}/brand/{f}"), 112, y + 4, 440, 98, mask="auto")
     c.setFillColor(INK); c.setFont("Corm", 22)
-    for i, ln in enumerate(["The wordmark: sage on blush, white on sage, or black.", "The tulip is the I. Keep clear space of its height;",
+    for i, ln in enumerate(["The wordmark: sage on blush, white on sage, or black.", "In the ads it is black on light photographs and",
+                            "white on dark ones: the sage reads about 2:1 on a photo.", "The tulip is the I. Keep clear space of its height;",
                             "never under 120 px wide in an ad."]):
         c.drawString(640, 1530 - i * 32, ln)
     for k, (name, hx) in enumerate([("Sage", "#99B4AE"), ("Blush", "#FFF8F5"), ("Peach", "#F2C4B6"), ("Coral", "#F0A08F"), ("Ink", "#1A1614"), ("Paper", "#FBF8F3")]):
@@ -85,7 +86,7 @@ def brand_page(c):
 
 def cover(c, title, sub, lines):
     c.setPageSize((PW, 1700)); c.setFillColor(PAPER); c.rect(0, 0, PW, 1700, stroke=0, fill=1)
-    c.drawImage(ImageReader(f"{HERE}/brand/logo_sage_dark.png"), 72, 1520, 330, 74, mask="auto")
+    c.drawImage(ImageReader(f"{HERE}/brand/logo_sage.png"), 72, 1520, 330, 74, mask="auto")
     tracked(c, "PLAIN IMAGES FOR CLAUDE DESIGN  ·  OCTOBER 2026", "JostMed", 16, 72, 1450, 0.24, MUTE)
     c.setFillColor(INK); c.setFont("Velista", 84); y = 1330
     for ln in wrap(title.upper(), "Velista", 84, PW - 144): c.drawString(72, y, ln); y -= 84
