@@ -300,12 +300,12 @@ function chipText(f) {
   if (f.st === "keep") return "Keep · " + f.score.toFixed(1);
   if (f.st === "pass") return "Passed" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   if (f.st === "fail") return "Missed" + (f.label ? " · " + f.label : "");
-  if (f.st === "ad") return f.score != null ? "Review · " + f.score.toFixed(1) : "Finished ad";
+  if (f.st === "ad") return f.score != null ? (f.label === "drop" ? "Dropped · " : "Review · ") + f.score.toFixed(1) : "Finished ad";
   if (f.st === "scene") return "Scene test";
   if (f.st === "ctl") return "Plain control" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   return "Awaiting check";
 }
-const chip = f => el("span", {class: "st st-" + f.st, text: chipText(f)});
+const chip = f => el("span", {class: "st st-" + (f.st === "ad" && f.label === "drop" ? "fail" : f.st), text: chipText(f)});
 const altOf = f => f.piece + ": " + f.name + ", " + f.kind.toLowerCase();
 
 function picture(f, list) {
@@ -326,7 +326,8 @@ function renderHead() {
                 [S.passed, "passed", "Right piece, under the 8.5 bar."],
                 [S.fail, "missed", S.failScale + " of them on scale."]];
   if (S.wait) nums.push([S.wait, "awaiting check", "With the reviewer now."]);
-  if (DATA.finished.length) nums.splice(3, 0, [DATA.finished.length, "ads ready", "Keepers with copy, at Meta’s sizes."]);
+  const toRun = DATA.finished.filter(f => f.label !== "drop").length;
+  if (DATA.finished.length) nums.splice(3, 0, [toRun, "ads to run", "Keepers with copy, at Meta’s sizes, past review."]);
   const box = $("#nums");
   for (const [n, k, t, c] of nums) box.append(el("div", {class: c || null}, el("b", {text: String(n)}), el("span", {class: "k", text: k}), el("span", {text: t})));
 }
@@ -334,9 +335,10 @@ function renderHead() {
 function renderAds() {
   const A = DATA.finished; if (!A.length) return;
   $("#ads").hidden = false; $("#adsLink").hidden = false;
-  const runs = A.filter(f => f.score != null && f.score >= 9).length;
-  $("#aTitle").textContent = A.length + " ads, finished";
-  $("#aLede").textContent = "Each keeper with its copy set, at Meta’s exact sizes: the pun, a plain correction and the exact price, in the Naira typefaces. An independent reviewer scored each one as a paid ad" + (runs ? "; " + runs + " scored 9 or more" : "") + ". Open one for what it flagged.";
+  const live = A.filter(f => f.label !== "drop"), dropped = A.length - live.length;
+  const runs = live.filter(f => f.score != null && f.score >= 9).length;
+  $("#aTitle").textContent = live.length + " ads to run";
+  $("#aLede").textContent = "Each keeper with its copy set, at Meta’s exact sizes: the pun, a plain correction and the exact price, in the Naira typefaces. Independent reviewers scored each one as a paid ad, round after round until every fix landed" + (runs ? "; " + runs + " scored 9 or more" : "") + "." + (dropped ? " The last " + dropped + " are weaker duplicates they dropped, kept here for the record." : "") + " Open one for what it flagged.";
   for (const f of A) {
     const note = el("span", {class: "note"});
     const btn = el("button", {type: "button", class: "saveAd", disabled: "", text: "Save JPG"});

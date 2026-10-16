@@ -128,7 +128,7 @@ sys.path.insert(0, FA); from reviews import current
 ADS_CFG, CTL_CFG = json.load(open(f"{FA}/ads.json"))["ads"], json.load(open(f"{FA}/controls.json"))["ads"]
 REV, CREV = current("review", ADS_CFG), current("controls_review", CTL_CFG)
 byid = {f["id"]: f for f in frames}; finished = []
-def sub_of(a): return a.get("n") or " · ".join(x for x in [a.get("spec"), a.get("price")] if x)   # the brand layout's spec and price
+def sub_of(a): return a.get("n") or " · ".join(x.replace("<br>", " · ") for x in [a.get("spec"), a.get("price")] if x)   # the brand layout's spec and price
 os.makedirs(f"{OUT}/ads", exist_ok=True); os.makedirs(f"{OUT}/at", exist_ok=True)
 for a in ADS_CFG:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
@@ -136,7 +136,7 @@ for a in ADS_CFG:
     fr, r = byid[a.get("plate", a["id"])], REV.get(a["id"], {}); im = Image.open(src); w, h = im.size
     sync(src, f"{OUT}/ads/{a['id']}.jpg"); thumb(im, f"{OUT}/at/{a['id']}.jpg")
     finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a.get('plate', a['id'])} · finished ad" + (" · Story" if a.get("ext") else ""), kind="Finished ad",
-        name=a["h"], copy=a["c"], aspect=a["fmt"], w=w, h=h, st="ad", score=r.get("score"), label=r.get("verdict", ""),
+        name=a["h"], copy=a["c"].replace("<br>", " "), aspect=a["fmt"], w=w, h=h, st="ad", score=r.get("score"), label=r.get("verdict", ""),
         line=(r.get("strengths") or [sub_of(a)])[0], reasons=r.get("issues", []), notes=r.get("strengths", []), fix=" ".join(r.get("fixes", [])),
         cr=0, piece=fr["piece"], price=fr["price"], sku=fr["sku"], t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
         file=f"Naira-Ad-{a['id']}-{slug(a['h'])}.jpg", tw=640, th=round(h * 640 / w), sub=sub_of(a)))
@@ -156,7 +156,7 @@ for a in CTL_CFG:
         reasons=CREV.get(a["id"], {}).get("issues", []), notes=CREV.get(a["id"], {}).get("strengths", []), fix=" ".join(CREV.get(a["id"], {}).get("fixes", [])), cr=0, piece=piece, price=price, sku=sku, t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
         file=f"Naira-Control-{slug(piece)}{'-Story' if a.get('ext') else ''}.jpg", tw=640, th=round(h * 640 / w), sub=sub_of(a)))
 SEC_RANK = {k: i for i, k in enumerate(["toggle", "woven", "heart", "prism", "e1h", "e1b"])}
-finished.sort(key=lambda f: (-(f["score"] or 0), SEC_RANK[f["sec"]], f["n"]))
+finished.sort(key=lambda f: (f["label"] == "drop", -(f["score"] or 0), SEC_RANK[f["sec"]], f["n"]))   # dropped ads last
 
 TITLES = {"toggle": "The Turn", "woven": "Hand-Woven", "heart": "Heartbeat", "prism": "Colour, in a Straight Line"}
 sections = []
