@@ -49,7 +49,7 @@
    "src": "c4",
    "fmt": "9:16",
    "h": "Hoop in a hoop.",
-   "c": "a braid of gold, hanging from the frame.",
+   "c": "woven gold strands, not a plain tube.",
    "spec": "Woven Gold Hoops · 25 mm · 18k gold tone",
    "cta": "Shop the hoops",
    "price": "₹1,499",
@@ -57,7 +57,8 @@
    "w": 900,
    "hs": 70,
    "cs": 34,
-   "band": true
+   "band": true,
+   "y": 262
   },
   {
    "id": "W03_a2",
@@ -69,7 +70,11 @@
    "cta": "Shop the hoops",
    "price": "₹1,499",
    "at": "tl",
-   "w": 560
+   "w": 560,
+   "tband": true,
+   "th": 450,
+   "ts": 400,
+   "wm": "ink"
   },
   {
    "id": "W05_a2",
@@ -82,7 +87,10 @@
    "price": "₹1,499",
    "at": "tr",
    "w": 500,
-   "band": true
+   "band": false,
+   "wmpos": "top",
+   "wm": "ink",
+   "fscrim": true
   },
   {
    "id": "W06_a3",
@@ -90,24 +98,27 @@
    "fmt": "4:5",
    "h": "Woven, twice.",
    "c": "one braid in your hair, two at your ears.",
-   "spec": "Woven Gold Hoops · 25 mm · 18k gold tone",
+   "spec": "25 mm · 18k gold tone",
    "cta": "Shop the hoops",
    "price": "₹1,499",
    "at": "bl",
-   "w": 440
+   "w": 440,
+   "wm": "ink"
   },
   {
    "id": "W07_a2",
    "src": "c4",
    "fmt": "4:5",
    "h": "Braided, like the thread.",
-   "c": "gold strands, worked like a skein.",
+   "c": "a braid of gold strands, 25 mm across.",
    "spec": "Woven Gold Hoops · 25 mm · 18k gold tone",
    "cta": "Shop the hoops",
    "price": "₹1,499",
    "at": "tl",
    "w": 760,
-   "scrim": true
+   "scrim": true,
+   "fscrim": true,
+   "wm": "ink"
   },
   {
    "id": "W10_a2",
@@ -216,7 +227,8 @@
    "price": "₹2,199",
    "at": "tr",
    "w": 720,
-   "scrim": true
+   "scrim": true,
+   "wm": "ink"
   },
   {
    "id": "squareB1_a1",
@@ -251,7 +263,7 @@
    "src": "e1",
    "fmt": "4:5",
    "h": "Mughal, in miniature.",
-   "c": "pavé and pear-cut stones, in gold.",
+   "c": "pavé and pear-cut stones.",
    "spec": "Quatrefoil Éclat Studs · Pre‑order",
    "cta": "Pre‑order",
    "price": "₹2,449",
@@ -300,14 +312,16 @@
    "at": "tr",
    "w": 720,
    "scrim": true,
-   "plate": "verdant1_a1"
+   "plate": "verdant1_a1",
+   "fscrim": true,
+   "wm": "ink"
   },
   {
    "id": "quatrefoil1_a1c-story",
    "src": "e1",
    "fmt": "9:16",
    "h": "Mughal, in miniature.",
-   "c": "pavé and pear-cut stones, in gold.",
+   "c": "pavé and pear-cut stones.",
    "spec": "Quatrefoil Éclat Studs · Pre‑order",
    "cta": "Pre‑order",
    "price": "₹2,449",
@@ -361,7 +375,8 @@
    "at": "tl",
    "w": 700,
    "plate": "W01_a1",
-   "ext": true
+   "ext": true,
+   "band": true
   },
   {
    "id": "H01_e1-story",

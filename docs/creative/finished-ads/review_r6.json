@@ -1,0 +1,394 @@
+[
+ {
+  "id": "W01_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The pun reads in a second at 390 px: braided hoops lying in an embroidery hoop, with the piece as the punchline. Every claim is a listing fact: a braid of strands, 25 mm, 18k gold tone, ₹1,499.",
+   "Contrast is high everywhere: headline 12.9:1 (darkest 5% 12.0), correction 13.0:1 (12.0), spec line 15.3:1 (14.9), price 16.3:1 (16.0).",
+   "The paper foot band starts at y 1010 and fades only the embroidery hoop's lower rim. It reads as a designed foot, and the earrings, which sit above y 900, are untouched. The copy sits on calm linen at y 61–308.",
+   "The wordmark is 179 px wide, sage on the blush band at 2.8:1, with about 180 px of clear space from the spec line."
+  ],
+  "issues": [
+   "[cap: price] ₹1,499 is under the ₹2,000 line. Creatively a 10.",
+   "[brand, minor] build_ads uses a darkened sage (#7D9891) for the wordmark, not the deck's #99B4AE. The deck sage would read only about 2.0:1 on this band. Its peach tulip I reads at 1.45:1, so at 390 px the mark is faint but legible."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer, such as two pairs or the hoops with the chain, lifts the cap."
+  ]
+ },
+ {
+  "id": "W02_a1",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The same hoop-in-a-hoop pun as W01, shot natively for 9:16. The copy is Stories-safe (y 298–420 and y 1419–1527).",
+   "Contrast: headline 9.3:1 (darkest 5% 6.1), correction 9.7:1 (7.1), spec line 15.2:1 (14.9), price 16.6:1 (15.8). The sage wordmark is 2.7:1 on the paper band."
+  ],
+  "issues": [
+   "[claim] 'a braid of gold, hanging from the frame.' is false to the picture. The view is top-down and both hoops lie flat on the linen inside the embroidery hoop; nothing hangs from the frame.",
+   "[placement] The correction's descenders end at y 420, 24 px above the brass screw (top at y 444), and they overlap it across x 413–545, so the copy looks parked on the prop.",
+   "[placement] W01_a1-story is the same idea for the same Stories slot. This native frame should lead.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] c: \"woven gold strands, not a plain tube.\" and y: 262. Tested: the copy sits at y 260–382 (Stories-safe), 62 px above the screw. Headline 9.2:1 (darkest 5% 6.3), correction 9.6:1 (6.7), one line each, matching the Feed's correction. Takes it to 9.5, the price cap.",
+   "[run] Then run it as the hoops Story, ahead of W01_a1-story."
+  ]
+ },
+ {
+  "id": "W03_a2",
+  "score": 7,
+  "verdict": "fix",
+  "strengths": [
+   "The hoop-on-a-spool idea is charming. The foot is clean: spec line 9.5:1 (darkest 5% 7.4), price 9.0:1 (8.4)."
+  ],
+  "issues": [
+   "[contrast] The new layout puts the headline back on the dusky mauve wall that round 1 moved it off. Headline 3.5:1 (darkest 5% 3.2) and correction 3.6:1 (3.2): the thin Velista hairlines and the italic go soft at 390 px.",
+   "[brand] The sage wordmark sits on sunlit linen (median RGB 204,172,162) at 1.48:1 (1.32), which is effectively illegible.",
+   "[ceiling: photo] The top is dusky rather than light pastel, the sunlit linen and curtain are brighter than the gold, and 'Worked like thread.' needs a beat to land. Ceiling 8.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] tband: true, th: 450, ts: 400, wm: \"ink\". Tested: the header paper is solid to y 400 and fades out at y 450, above the spool's top (y 456, lift there 1.5 levels). Headline 15.7:1 (15.6), correction 15.7:1 (15.6), ink wordmark 8.6:1 (7.7). It reads as a designed header, like W04_a3's. Takes it to 8.",
+   "Tested and rejected: scrim: true (12.6:1, but a pale oval fog on the wall, as round 1 found) and at: \"bl\" (the headline lands across the spool hoop).",
+   "[no layout fix] The weakest hoop frame. Spend on W01, W07_a2 and W05 first."
+  ]
+ },
+ {
+  "id": "W05_a2",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "'Hanging by a thread.' is literally what the photo shows, and 'a braid of gold, 25 mm across.' corrects the macro's scale with a real number.",
+   "Copy contrast: headline 8.6:1 (darkest 5% 6.9), correction 8.7:1 (7.6), spec line 16.4:1 (15.7), price 16.3:1 (16.2). The copy is Stories-safe (y 297–634 and y 1419–1527) and about 75 px clear of the upper hoop's latch (y 706)."
+  ],
+  "issues": [
+   "[placement] The wordmark sits on the lower hoop: 985 gold pixels fall inside its box (x 837–1016, y 1419–1459).",
+   "[brand] The paper band washes the lower hoop from y 1340 to its bottom edge at y 1475 (lift up to +60/+105/+158 RGB at y 1440–1460). It reads as a patch over the product, not a designed foot.",
+   "[placement] A Stories-only frame, the weaker placement in the data.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] band: false, wmpos: \"top\", wm: \"ink\", fscrim: true. Tested: the wordmark moves to the top left (x 64–243, y 308–348), opposite the headline, at 9.7:1 (7.3) on the warp. Spec line 14.5:1 (9.3), price 10.1:1 (9.8). The foot glow lifts only the soft back hoop's lowest 40 px (+5 to +90 RGB, against up to +158 over the bottom 135 px with the band). Takes it to 9.5, the price cap.",
+   "Without fscrim the spec line's darkest 5% is 4.0:1 on the warp (tested), under the 4.5 floor."
+  ]
+ },
+ {
+  "id": "W06_a3",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "'Woven, twice.' pays off the rhyme between the plait and the hoops, with no face in frame. Every claim is true.",
+   "Headline 10.0:1 (darkest 5% 8.6) and correction 13.3:1 (9.2) on the kurta. The headline ends at x 409, 43 px clear of the braid (x 452+)."
+  ],
+  "issues": [
+   "[contrast] The spec line (x 64–657, y 1180–1206) runs across the paranda tassel (x 430–593) and the braid's shadow (x 601–655). Its darkest 5% is 2.6:1, under the 4.5 floor, and the tassel is the end of the punchline braid.",
+   "[brand] The sage wordmark is 1.47:1 (1.24) on the kurta and wall (median RGB 195,175,157).",
+   "[ceiling: photo] Each hoop is about 35 px wide on a phone, and on-body statics are untested. Ceiling 8.5.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] spec: \"25 mm · 18k gold tone\", wm: \"ink\". Tested: the spec line ends at x 366, 64 px clear of the tassel, at 9.3:1 (7.5). The ink wordmark reads 8.5:1 (7.2). Takes it to 8.5.",
+   "[no layout fix] Higher needs a tighter reshoot on the ear."
+  ]
+ },
+ {
+  "id": "W07_a2",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The strongest hoop plate (verify 9.0). 'Braided, like the thread.' lands at once because the floss under the hoops is plaited too. Light blush palette, Feed 4:5.",
+   "Headline 13.1:1 (darkest 5% 9.6), correction 10.3:1 (6.1), price 12.1:1 (9.6). The scrim reads as light on the silk."
+  ],
+  "issues": [
+   "[contrast] Spec line 7.9:1, but its darkest 5% is 4.2:1 over the satin folds, under the 4.5 floor.",
+   "[brand] The sage wordmark is 1.62:1 (1.06) on the dusty-rose satin (median RGB 218,179,167).",
+   "[creative, minor] The round 3 correction, '25 mm across', corrected the macro's scale; the front hoop is about 48% of the frame width. Now 25 mm lives only in the 18 px spec line, and 'worked like a skein' is vaguer.",
+   "[placement] Duplicate of W07_a1. Run this one: plate 9.0 against 8.0, blush rather than apricot floss, and a polished disc that shines.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] fscrim: true, wm: \"ink\". Tested: spec line 14.2:1 (6.6), price 13.5:1 (11.4), ink wordmark 12.3:1 (7.9). The glow sits on the satin below the skeins, clear of the hoops. Takes it to 9.5, the price cap.",
+   "[apply, optional] c: \"a braid of gold strands, 25 mm across.\" Tested: one line (x 64–596) at 10.5:1 (6.4). It puts the data's concrete number back where the eye reads it.",
+   "[run] Run this instead of W07_a1."
+  ]
+ },
+ {
+  "id": "W10_a2",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "A warm Diwali gifting frame: the out-of-focus diya makes the occasion read without the copy, and 'One gift, two hoops.' is literally true of a pair.",
+   "Headline 12.0:1 (darkest 5% 6.6), correction 10.7:1 (8.2), spec line 16.3:1 (15.3), price 16.0:1 (15.8). The scrim reads as diya light, and the band fades only the spool and rosebud. The hoops are clear of the band, which starts at y 1010."
+  ],
+  "issues": [
+   "[ceiling: photo] A gift still life: the idea is in the words, the hoops look about 19% chunky in the drawer, and the clipped diya flame is the brightest point. Ceiling 8.5.",
+   "[claim, soft] The box is a prop, not Naira's packaging. 'One gift … for Diwali' implies delivery before Diwali (8 Nov).",
+   "[placement] Duplicate of W10_a1. Run this one: plate 8.5 against 7.5, with the diya cue and the spool outside the box.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None. scrim: false was tested: the headline drops to 5.9:1 (4.2).",
+   "[no layout fix] End the ad on the last order date that still delivers before 8 Nov.",
+   "[run] Run this, not W10_a1."
+  ]
+ },
+ {
+  "id": "verdant1_a1",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "A food pun with the studs as the punchline: two green cushion-cut studs in a pea pod. It reads in a second, on a light blush ground, Feed 4:5, at ₹2,199.",
+   "Every claim is safe: no metal claim, 'green cushion-cut studs, not peas.' and Pre-order.",
+   "Headline 12.0:1 (darkest 5% 7.6), correction 12.1:1 (8.1), spec line 11.3:1 (7.4), price 11.5:1 (10.1). The scrim reads as window light."
+  ],
+  "issues": [
+   "[brand] With no band, the sage wordmark sits on sunlit linen (median RGB 231,203,192) at 2.0:1 (1.7). Its peach tulip I is 1.01:1 there and vanishes, so the mark reads 'NA RA'.",
+   "[cap: pre-order] No ad history. Creatively a 10.",
+   "[claim, PDP] The listing text says yellow gold, while every photo shows white metal. The ad makes no metal claim, but fix the product page before spending."
+  ],
+  "fixes": [
+   "[apply] wm: \"ink\". Tested: 11.8:1 (10.0), and the whole NAIRA reads at 390 px. Takes it to 9.5, the pre-order cap."
+  ]
+ },
+ {
+  "id": "squareB1_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "'Cool, squared.' reads in under a second: one gold square where an ice cube should be. The huggie (y 570–780) sits about 260 px below the copy.",
+   "Headline 14.8:1 (darkest 5% 11.9), correction 10.3:1 (5.5), spec line 16.0:1 (15.7), price 15.7:1 (15.5). The scrim over the ice reads as frost, and the band fades only empty cells.",
+   "The claims are the listing's own words ('a gold huggie'), with no plating claim."
+  ],
+  "issues": [
+   "[cap: price] ₹1,599, and [cap: pre-order] no ad history. Creatively a 10.",
+   "[ceiling: photo, minor] The two starburst flares on the gold look like a filter at full size (verify); they pass as sparkle at 390 px.",
+   "[claim, PDP] The listing text omits the seed pearls that every photo, and this ad, shows. Add them to the product page."
+  ],
+  "fixes": [
+   "[apply] None. at: \"bl\" was tested: the copy lands on the tray rim, worse.",
+   "[no layout fix] A ₹2,000+ offer, such as two pairs, and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "dome1_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "'One of these is not a mint.' works as a find-it game: the huggie is the only metal and the only shine, on light blush paper.",
+   "Headline 13.8:1 (darkest 5% 12.7), correction 14.2:1 (13.2), spec line 16.6:1 (15.9), price 16.2:1 (15.5). The band ghosts only the lowest mint row and reads as a designed fade. The huggie (y 785–967) is clear of it (the band starts at y 1010)."
+  ],
+  "issues": [
+   "[cap: price] ₹1,649, and [cap: pre-order] no ad history. Creatively a 10.",
+   "[ceiling: photo, minor] The mints are puffy, slightly CG-clean rings, and the huggie is about 16% of the frame width."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer, such as two pairs, and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "quatrefoil1_a1c",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "At ₹2,449 this is the highest ticket in the set. Hard low sun throws a crisp shadow, and the stud is the sharpest object in frame.",
+   "The white wordmark is the right variant for the dark ground: 5.7:1 (brightest 5% 5.3). Spec line 7.0:1 (5.6)."
+  ],
+  "issues": [
+   "[placement] 'in gold.' ends at x 536, y 294, touching the stud's top tip (x 532–545, y 282–290): text on the product.",
+   "[contrast] The cream type is soft: headline 5.5:1 (brightest 5% 3.9), correction 4.3:1 (3.4), price 5.1:1 (4.8). Legible at 390 px, but the weakest in the set.",
+   "[ceiling: photo] Dark terracotta rather than light pastel, and no jaali in frame. The shape rhyme (a star in a quatrefoil of light) is not a pun. Ceiling 8.5.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] c: \"pavé and pear-cut stones.\" Tested: the correction ends at x 421, 111 px clear of the stud, at 4.8:1 (3.7). 'In gold' is the listing's own phrase, so nothing true is lost. Takes it to 8.5.",
+   "Tested and rejected: scrim: true lifts the headline to 8.8:1 and the correction to 6.6:1, but the dark glow dims the stud's top by 19%.",
+   "[no layout fix] Run it as the heritage test. Higher needs a reshoot with the jaali's tracery in the light."
+  ]
+ },
+ {
+  "id": "verdant1_a1-story",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "Native 9:16 crop with no extension. The studs are large and plainly the punchline. Headline 12.9:1 (darkest 5% 8.3) and correction 12.5:1 (9.3), Stories-safe at y 297–544."
+  ],
+  "issues": [
+   "[render] out/verdant1_a1-story.jpg is stale: it still carries the in-image 'Pre-order' button that build_ads now drops for Stories. This review scores a fresh render of the current config.",
+   "[contrast] The price sits on the plate's cast shadow on the linen: 5.0:1 (darkest 5% 3.6), under the 4.5 floor. Spec line 11.5:1 (4.9).",
+   "[brand] The sage wordmark sits on the dark shadow (median RGB 113,76,59) at 2.4:1. Sage on brown is not a deck pairing.",
+   "[cap: pre-order] No ad history.",
+   "[claim, PDP] The listing says yellow gold; the photos show white metal. The ad makes no metal claim."
+  ],
+  "fixes": [
+   "[apply] fscrim: true, wm: \"ink\". Tested: price 7.9:1 (6.8), spec line 14.6:1 (13.2), ink wordmark 5.8:1 (3.9). The glow is invisible on the linen and leaves the studs untouched: its first visible change is at y 1324, about 270 px below them. Takes it to 9.5, the pre-order cap.",
+   "[run] Re-render with build_ads.py before upload."
+  ]
+ },
+ {
+  "id": "quatrefoil1_a1c-story",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural: terracotta stone continues above and below. Text is Stories-safe (y 337–1527). Spec line 7.6:1 (brightest 5% 5.8), price 5.2:1 (4.9), white wordmark 6.0:1 (5.5)."
+  ],
+  "issues": [
+   "[render] out/quatrefoil1_a1c-story.jpg is stale: it still carries the cream 'Pre-order' button. This review scores a fresh render of the current config.",
+   "[placement] As in the Feed version, 'in gold.' ends at x 536, y 570, on the stud's top tip (x 535–546, y 564–570).",
+   "[contrast] Cream type: headline 5.4:1 (brightest 5% 3.9), correction 4.6:1 (3.5).",
+   "[ceiling: photo] As the Feed version: no jaali, dark ground. Ceiling 8.5.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] c: \"pavé and pear-cut stones.\" Tested: the correction ends at x 421, clear of the stud, at 5.1:1 (4.0). Takes it to 8.5.",
+   "[run] Re-render before upload."
+  ]
+ },
+ {
+  "id": "dome1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Native crop. The huggie is large at y 1120–1375 and still the only shine, so the find-it mechanic works at 390 px.",
+   "Headline 13.7:1 (darkest 5% 12.7), correction 13.9:1 (13.0), spec line 16.7:1 (15.7), price 16.6:1 (16.4). Stories-safe at y 297–1527. Sage wordmark 2.8:1 on the band."
+  ],
+  "issues": [
+   "[cap: price] ₹1,649, and [cap: pre-order] no ad history. Creatively a 10.",
+   "[brand, minor] The band's fade starts at y 1328 and lays up to about 40% paper over the huggie's lowest 45 px (y 1330–1375). It reads as part of the fade at 390 px."
+  ],
+  "fixes": [
+   "[apply] None. band: false with fscrim was tested: the sage wordmark then lands on the mints at 2.4:1 (1.3), worse.",
+   "[no layout fix] A ₹2,000+ offer and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "squareB1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Native crop anchored left. The huggie sits large in its cell at y 808–1100, about 265 px below the copy.",
+   "Headline 13.2:1 (darkest 5% 11.3), correction 10.8:1 (6.2), spec line 15.9:1 (15.7), price 15.8:1 (15.5). Stories-safe at y 297–1527. The scrim haze reads as frost on the ice."
+  ],
+  "issues": [
+   "[cap: price] ₹1,599, and [cap: pre-order] no ad history. Creatively a 10.",
+   "[ceiling: photo, minor] The starburst flares, as in the Feed version."
+  ],
+  "fixes": [
+   "[apply] None. at: \"bl\" was tested: the headline lands on the tray rim about 70 px below the huggie, worse.",
+   "[no layout fix] As the Feed version: a ₹2,000+ offer and stock landing."
+  ]
+ },
+ {
+  "id": "W01_a1-story",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The top extension is soft linen and looks natural. Headline 12.9:1 (darkest 5% 11.9) and correction 13.2:1 (11.6), Stories-safe at y 337–584."
+  ],
+  "issues": [
+   "[render] out/W01_a1-story.jpg is stale: it still carries the 'Shop the hoops' button. This review scores a fresh render of the current config.",
+   "[contrast] The spec line runs across the embroidery hoop's lower rim and its shadow: 5.7:1, darkest 5% 1.2:1. The sage wordmark sits on the wooden rim at 1.3:1.",
+   "[extension] The bottom seam from round 3 (the sharp linen weave stops at y 1635) still shows at full size.",
+   "[placement] W02_a1 is the same idea shot natively for 9:16. This is the second variant.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] band: true. Tested: spec line 15.2:1 (14.9), price 16.3:1 (15.9), sage wordmark 2.7:1 (2.2) on paper. The band fades the hoop's lower rim as in the Feed version, and its solid part from y 1438 hides the y 1635 seam. Takes it to 9.",
+   "[run] Re-render before upload. Lead with W02_a1 once its correction is fixed."
+  ]
+ },
+ {
+  "id": "clusterC1_m1",
+  "score": 7,
+  "verdict": "fix",
+  "strengths": [
+   "The real listing macro, composited at true scale into the candy scene: the stone order, white metal and arc are faithful (composite_r1). Light pastel ground, ₹2,399, the winning 'Almost edible.' system.",
+   "Headline 14.3:1 (darkest 5% 14.0), correction 14.2:1 (14.0), spec line 13.4:1 (12.6). The claims are listing facts, and no pearl count is stated."
+  ],
+  "issues": [
+   "[render] out/clusterC1_m1.jpg is stale: it shows the sage wordmark, while the config now sets wm: ink. This review scores a fresh render.",
+   "[contrast] The price sits on the purple sweet's shadow at 3.6:1 (darkest 5% 3.2). The ink wordmark sits on the purple and yellow sweets at 2.0:1 (1.3), the wrong variant for that ground.",
+   "[placement] The stud's lowest claw (y 1161) is only 19 px above the spec line (y 1180): the foot crowds the product.",
+   "[ceiling: photo] composite_r1 scores the composite 8.0. The stud is 22% of the frame width (about 85×40 px at 390 px) and rhymes with the sweets only in colour, so the pun doesn't land in the thumbnail, and the sugar out-sparkles it. At full size the soft sideways shadow and evenly lit pearls give the composite away.",
+   "[placement] It reuses prismC1_m1's headline in the same candy scene. Run the proven, in-stock Prism first; this is the pre-order test.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] box: [40, 698, 1120, 2048], fscrim: true. Tested: same 1:1 scale with the frame moved down 98 px, so the stud sits at y 954–1063, 117 px above the spec line, and the foot sits on clear paper. Price 6.7:1 (6.1), spec line 15.6:1 (13.7), ink wordmark 7.6:1 (5.8). The headline and correction stay at 14.2:1. Takes it to 8.",
+   "[no layout fix] To clear 8.5, re-render the composite as composite_r1 sets out (comp_cluster.py shx=38 shy=35 blur=[0.8,2.5] glow=0.3 grain=2.4, and seat the stud against the pink sweet's lower-left flank). The tighter frame [150, 968, 1014, 2048] was tested: the stud grows to about 27% of the width, but the correction lands on a sweet (5.7:1, darkest 5% 3.3), and the 1.25× upscale needs the softened stud the verifier describes."
+  ]
+ },
+ {
+  "id": "W04_a3",
+  "score": 8,
+  "verdict": "run",
+  "strengths": [
+   "The only Indian-reference hoop concept (rule 8: untested). The braid-on-charpai rhyme reads in a second, under superb raking light (verify 8.3).",
+   "All text is very legible: headline 16.0:1 (darkest 5% 15.4), correction 13.3:1 (10.0), spec line 16.2:1 (15.3), price 16.0:1 (15.3). The header band and foot band frame the lattice like a designed card."
+  ],
+  "issues": [
+   "[brand] The foot band (from y 1010) washes the lower hoop's bottom quarter. At its lowest edge (y 1100) the braid is about 76% paper (lift +45/+90/+137 RGB), and at 390 px it dissolves into the band.",
+   "[ceiling: photo] The lattice leaves no calm copy space. The pair sits low and central, and without the copy the charpai reads as a pink lattice rather than a cot. Ceiling 8.5.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[no layout fix] band: false with fscrim and an ink wordmark was tested: the hoop is whole, but the price's darkest 5% falls to 3.7:1 on the lattice's dark gaps and the foot turns busy. The 4:5 crop already uses the plate's full height, so the pair can't move up. A reshoot per mixed_r10 (the pair higher, a blush cloth under the cot) fixes both.",
+   "[run] Run it as a low-budget Indian-reference test, not as a hoop lead."
+  ]
+ },
+ {
+  "id": "W07_a1",
+  "score": 8,
+  "verdict": "drop",
+  "strengths": [
+   "A tactile macro with a true correction that carries the data's concrete number: 'a braided rope of gold strands, 25 mm across.' Headline 14.3:1 (darkest 5% 11.6), spec line 15.4:1, price 16.6:1."
+  ],
+  "issues": [
+   "[placement] Duplicate of W07_a2: the same thread-macro idea with a weaker plate (verify 8.0 against 9.0). The floss is apricot and terracotta with oatmeal linen, off the blush palette; the frame is busy; the visible disc reads dull caramel.",
+   "[contrast] Where '25 mm across.' crosses the peach skein, the correction's darkest 5% falls to 3.6:1.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[run] Run W07_a2 instead.",
+   "[apply, if kept] c: \"a braided rope of gold, 25 mm across.\" Tested: 11.8:1 (6.9), ending at x 583."
+  ]
+ },
+ {
+  "id": "W10_a1",
+  "score": 7.5,
+  "verdict": "drop",
+  "strengths": [
+   "Clean, warm and on palette. Headline 15.7:1 (darkest 5% 11.6), correction 15.2:1 (13.7), and the claims are listing facts."
+  ],
+  "issues": [
+   "[placement] Duplicate of W10_a2 with a weaker plate (verify 7.5 against 8.5). The hoops look about 25% chunky in the drawer, the spool sits inside the box, and nothing in the picture says Diwali: the occasion lives only in the words.",
+   "[creative] 'This Diwali, give texture.' runs to three lines with 'THIS' alone on the first, against the two-word winners.",
+   "[claim, soft] It implies delivery before Diwali (8 Nov).",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[run] Run W10_a2 instead."
+  ]
+ },
+ {
+  "id": "halo1_a1",
+  "score": 6.5,
+  "verdict": "drop",
+  "strengths": [
+   "The claims are true: 'baguettes in a circle, a pearl below.' At ₹2,200 it clears the ₹2,000 line. Headline 13.0:1 and correction 12.2:1 at the median."
+  ],
+  "issues": [
+   "[contrast] The spec line crosses the door casing's chipped paint: 5.3:1, darkest 5% 1.5:1, far under the 4.5 floor. The headline's darkest 5% is 4.2:1 over the casing.",
+   "[brand] The sage wordmark sits on the sand plaster (median RGB 194,170,156) at 1.40:1 (1.19), illegible.",
+   "[ceiling: photo] Plate 7.0 (heroes_a). The bell plate is a concave saucer, so the frame reads as an earring on a trinket dish, and 'Ring twice.' lands after about 2 s. The disc is about 10% of the frame width and the window glow out-shines it. The apricot-sand wall drifts off the blush palette, and the drop pearl is about 25% small.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply, if kept] band: true. Tested: spec line 15.8:1 (15.1), price 16.3:1 (16.1), sage wordmark 2.8:1 on paper. The band fades only the lower casing, clear of the earring. Takes it to 7.",
+   "[no layout fix] Drop until the reshoot heroes_a describes: a flat doorbell rose at the casing's edge, tighter framing, an ivory-blush wall."
+  ]
+ }
+]

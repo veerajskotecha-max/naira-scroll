@@ -31,8 +31,9 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative}
 
 # The brand layout ("deck", the default): the system of the account's best ad, "Almost edible.", with the Naira deck's wordmark.
 # Headline in Velista capitals (the brand serif), the correction in lowercase Cormorant italic, then a short rule, a spec line of
-# listing facts in tracked Jost capitals, an ink CTA and the price, and the NAIRA wordmark (the deck's tulip I) in the top corner
-# opposite the headline: sage on light grounds, white on dark. Ink #1A1614 and paper #FBF8F3 are the site's own.
+# listing facts in tracked Jost capitals, an ink CTA and the price, and the NAIRA wordmark (the deck's tulip I) signed off above
+# the price with its own height of clear space: the deck's black on light grounds, white on dark (the deck's sage, #99B4AE, reads
+# about 2:1 on these photos, so it is only an option). Ink #1A1614 and paper #FBF8F3 are the site's own.
 BRAND = f"{HERE}/brand"
 DECK_INK, DECK_PAPER = "#1A1614", "#FBF8F3"
 DECK_CSS = """
@@ -53,7 +54,7 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:var
   text-transform:uppercase;padding:%(bp)dpx %(bpx)dpx;line-height:1;white-space:nowrap}
 .price{font-family:Jost;font-weight:500;font-size:%(ps)dpx;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;line-height:1;padding-bottom:%(pp)dpx}
 .wm{position:absolute;height:%(wh)dpx}
-.ft .r{display:flex;flex-direction:column;align-items:flex-end;gap:26px}
+.ft .r{display:flex;flex-direction:column;align-items:flex-end;gap:40px}
 .wmf{height:%(wh)dpx;display:block}
 .band,.tband{position:absolute;left:0;right:0;pointer-events:none}
 .band{bottom:0;height:%(bh)dpx;background:linear-gradient(to top,rgba(255,248,245,.93) 0,rgba(255,248,245,.93) %(bsd)dpx,rgba(255,248,245,0) 100%%)}
@@ -73,7 +74,7 @@ def html_deck(ad, bg):
     y = ad.get("y", top if at[0] == "t" else bot + foot_h + 46)
     pos = {"tl": f"left:{side}px;top:{y}px", "tr": f"right:{side}px;top:{y}px;text-align:right;align-items:flex-end",
            "bl": f"left:{side}px;bottom:{y}px", "br": f"right:{side}px;bottom:{y}px;text-align:right;align-items:flex-end"}[at]
-    wm_file = {"ink": "logo_ink.png", "white": "logo_white.png", "sage": "logo_sage_dark.png"}[ad.get("wm", "white" if cream else "sage")]
+    wm_file = {"ink": "logo_ink.png", "white": "logo_white.png", "sage": "logo_sage.png"}[ad.get("wm", "white" if cream else "ink")]
     wh = ad.get("wh", 40); wm_corner = "left" if at in ("tr",) else "right"
     wm_y = ad.get("wy", top + 8)
     foot_wm = ad.get("wmpos", "foot") == "foot"            # default: the wordmark signs off above the price
