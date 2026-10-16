@@ -313,8 +313,9 @@
    "w": 720,
    "scrim": true,
    "plate": "verdant1_a1",
-   "fscrim": true,
-   "wm": "ink"
+   "fscrim": false,
+   "wm": "ink",
+   "band": true
   },
   {
    "id": "quatrefoil1_a1c-story",
@@ -445,12 +446,14 @@
    "at": "tl",
    "w": 440,
    "box": [
-    40,
-    600,
-    1120,
-    1950
+    150,
+    968,
+    1014,
+    2048
    ],
-   "wm": "ink"
+   "wm": "ink",
+   "scrim": true,
+   "fscrim": true
   },
   {
    "id": "W04_a3",
@@ -484,7 +487,7 @@
    "src": "c4",
    "fmt": "4:5",
    "h": "On the beat.",
-   "c": "steel beads and a gold‑tone heart, for sangeet season.",
+   "c": "steel beads and a gold‑tone heart,<br>for sangeet season.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
@@ -512,7 +515,7 @@
    "src": "c4",
    "fmt": "4:5",
    "h": "Skips a beat.",
-   "c": "mirror-steel beads and one gold heart.",
+   "c": "mirror-steel beads and one gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
@@ -530,7 +533,8 @@
    "price": "₹1,299",
    "at": "tr",
    "w": 380,
-   "hs": 92
+   "hs": 92,
+   "band": true
   },
   {
    "id": "P03_a1",
@@ -564,7 +568,7 @@
    "src": "c4",
    "fmt": "9:16",
    "h": "Keeps your rhythm.",
-   "c": "mirror-steel beads and one gold heart.",
+   "c": "mirror-steel beads and one gold‑tone heart.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
@@ -591,7 +595,7 @@
    "src": "c4",
    "fmt": "4:5",
    "h": "On the beat.",
-   "c": "mirror-steel beads and a gold heart, for sangeet season.",
+   "c": "mirror-steel beads and a gold‑tone heart,<br>for sangeet season.",
    "spec": "Heartbead Bracelet · 6 mm steel beads",
    "cta": "Shop the bracelet",
    "price": "₹1,299",

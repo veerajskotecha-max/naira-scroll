@@ -1,0 +1,353 @@
+[
+ {
+  "id": "T07_a1c",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. The foot glow lifts the spec line to 12.6:1 (darkest 5% 5.7) and the price to 14.6:1 (13.8), matching the r5 test (12.7:1 (5.6) and 14.6:1 (13.8)). On the white shirt it reads as window light, not a patch.",
+   "Still the most premium frame: the hand at the clasp leads the eye to the toggle, and 'FRONT AND CENTRE.' sits on the chest about 160 px below the ring. Headline 13.7:1 (7.9), correction 11.9:1 (6.6). Every claim is a listing fact: 50 cm, 18k gold tone, the toggle worn at the front.",
+   "The set-wide changes check out: the ink wordmark reads 14.4:1 (12.7) on the shirt (the sage one read 2.4:1). It is 179 px wide, its ink ends 43 px above the price's glyphs, and its top sits 4 px below the rule's, so the foot's two columns start level and read as one block."
+  ],
+  "issues": [
+   "[brand, minor] The head and foot glows (1.7x and 1.6x) together lift the skin in the shirt's V by about +45 to +70 RGB, to a milky tone. It reads as window light at 390 px; at full size the skin looks a little powdered.",
+   "[ceiling: photo] A styling shot with no visual pun: the idea is in the words, and on-body statics are untested. Ceiling 9.",
+   "[cap: price] ₹1,499 is under the ₹2,000 line."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] Going higher needs a visual idea in the photo and a ₹2,000+ offer, such as the chain in a gift set."
+  ]
+ },
+ {
+  "id": "T10_a1",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. At top right the block sits on the calm cloth (glyphs x 575–1013, y 65–282) with no head glow, about 35 px above the top petal and 55 px above the diya. The drawer and its pull tab are uncovered. Headline 8.0:1 (6.3), correction 8.0:1 (6.3), spec 13.3:1 (9.8), price 8.0:1 (7.2), as tested (7.9:1 (6.3), 8.1:1 (6.3), 13.2:1 (9.6), 7.9:1 (7.1)).",
+   "Diwali gifting reads in one second: diya, petals, the drawer box, with the gold coil the brightest metal. 'a chain that closes with a turn.' is true of the toggle.",
+   "The ink wordmark reads 5.8:1 (4.1) on the cloth, 43 px above the price."
+  ],
+  "issues": [
+   "[brand] The foot glow lifts the dark cloth 2.3x (luminance 0.27 to 0.62) and turns the bottom-centre petal (x 450–730) into a pale ghost (+80 to +125 RGB). At 390 px it passes as soft light; at full size the petal looks fogged.",
+   "[contrast, minor] The ink wordmark is down from 6.6:1 (5.0) in the r5 test to 5.8:1 (4.1): the 40 px gap lifted it 14 px onto darker cloth. Still legible at 390 px.",
+   "[claim, soft] 'Sorted' promises Diwali delivery (Diwali is 8 Nov), and the prop box implies gift packaging the listing does not mention.",
+   "[ceiling: photo] A gift still life: the idea is in the words, and the coil could pass for a bracelet stack; the spec's '50 cm' carries it. Ceiling 8.5.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] End the ad on the last order date that still delivers before 8 Nov. Don't show or imply a gift box unless orders ship in one."
+  ]
+ },
+ {
+  "id": "H01_e1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Both fixes confirmed: 'EVERY BEAT, / A LITTLE GOLD.' (lines 556 and 666 px) and a one-line correction, 'mirror-polished beads and one gold-tone heart.' (x 65–723), at 14.5:1 (9.0). Every claim now matches the listing.",
+   "The strongest Heartbead idea: the bracelet is the heartbeat trace and ends in the gold heart, on light blush ECG paper, and it reads in one second at 390 px. Headline 14.6:1 (9.4), spec 13.0:1 (7.0), price 11.7:1 (4.6). The copy ends at y 310, about 130 px above the apex bead.",
+   "The ink wordmark reads 12.1:1 (6.8) on the grid, where the sage one read 2.0:1 and lost its tulip. 43 px clear above the price."
+  ],
+  "issues": [
+   "[contrast, minor] The price's darkest 5% is 4.6:1, where a coral grid line runs behind it: the lowest number on the ad, just over the 4.5 floor.",
+   "[cap: price] ₹1,299. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] Run this, not H01_a1. It and H09_a1 should lead the Heartbead Feed.",
+   "[no layout fix] A ₹2,000+ offer, such as the bracelet with the toggle chain, lifts the cap."
+  ]
+ },
+ {
+  "id": "H08_a1",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed: 'mirror-polished beads, / a gold-tone heart.' Line 2 ends at x 311, and both lines keep about 35 px from the nearest defocused bead, so the full stop no longer touches the strand. 6.7:1 (5.4).",
+   "The clasp matches listing-1 part for part, and the gold heart is the brightest, sharpest thing in the frame. Headline 6.2:1 (5.3), spec 8.3:1 (7.7), price 9.0:1 (8.6): all pass, though the headline is the lowest in the set.",
+   "The ink wordmark reads 9.5:1 (8.7) on the rose satin (the sage one read 1.6:1)."
+  ],
+  "issues": [
+   "[ceiling: photo] A PDP-style clasp macro. 'The gold note' is wit in the words, not the picture: the pattern that returned 0.58x. Ceiling 8.5.",
+   "[cap: price] ₹1,299."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] The lowest priority of the five Heartbead Feed ads: run it after H01_e1 and H09_a1."
+  ]
+ },
+ {
+  "id": "H09_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed: spec 14.0:1 (7.3) and price 8.5:1 (7.4), exactly as tested. The foot glow (1.9x) reads as window light on the linen; it only softens the plate's lower rim (about +45 RGB at y 1110–1140).",
+   "The truest food pun in the set: mirror steel against silver varq, in mithai season, on light blush. 'mirror steel, not silver varq.' copies the winner's correction, and every word is true. Headline 12.1:1 (6.5), correction 11.2:1 (6.9); the block ends at y 287, about 45 px above the plate.",
+   "The ink wordmark reads 6.8:1 (4.8) on the linen (the sage one read 1.4:1), 43 px above the price."
+  ],
+  "issues": [
+   "[contrast, minor] The wordmark is down from the tested 7.9:1 (6.0) to 6.8:1 (4.8): the 40 px gap lifted it 14 px onto darker linen. Still legible.",
+   "[ceiling: photo] The varq outshines the mid-grey beads, so the bracelet is not the brightest thing (frame verdict 8.6), though the gold heart still pulls the eye.",
+   "[cap: price] ₹1,299. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] Lead the Heartbead Feed with this and H01_e1.",
+   "[no layout fix] A ₹2,000+ offer, such as the bracelet with the toggle chain, lifts the cap."
+  ]
+ },
+ {
+  "id": "P01_a1",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "It hits every lever the data favours: the proven Prism (12 of 16 concept sales, at 1.63x), ₹2,399 and in stock (68), a pigment-powder pun with the bracelet as the line through the colour, a light pastel ground, Feed 4:5. It reads at 390 px.",
+   "The copy is unchanged and clean: headline 14.0:1 (8.3), correction 14.2:1 (8.0), spec 11.7:1 (5.3), price 11.4:1 (6.8). The copy ends at y 355, about 270 px above the stones, with no glow or band. Every claim is a listing fact.",
+   "The set-wide ink default supplies r5's optional fix: the wordmark reads 11.7:1 (5.8) across the yellow band's edge (the sage one read 2.0:1), 43 px above the price, its top level with the rule's. The foot reads as one block."
+  ],
+  "issues": [],
+  "fixes": [
+   "[apply] None.",
+   "[run] Lead the Prism Feed with this, beside prismC1_m1 once its new plate passes."
+  ]
+ },
+ {
+  "id": "P02_a2c",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. The margin is back to 64 px, and the headline's glyphs end at x 429, 91 px clear of the bracelet's left edge. The spec reads 'PRISM RIVIÈRE / 18 CM · CUBIC ZIRCONIA' at 14.6:1 (11.6), with no dot left hanging. The ink wordmark reads 13.5:1 (10.9) on the yellow powder (the sage one read 2.2:1). All as tested.",
+   "The native vertical rangoli: 13 units run the full height and the bracelet fills the frame; the pun reads at 390 px. Headline 14.1:1 (10.6), correction 14.2:1 (10.3), price 13.3:1 (9.7). The copy is Stories-safe (y 297–1528), with no CTA."
+  ],
+  "issues": [
+   "[brand, set-wide] Stories foot (not scored): with no CTA the price keeps the 21 px bottom padding that lines it up with the Feed's CTA, so its baseline (y 1504) floats 17 px above the spec's last baseline (y 1521), and the 40 px gap now lifts the wordmark's top 53 px above the rule (39 px before). The right column towers over the spec, so the foot reads as two loose columns.",
+   "[placement] Same idea and slot as P01_a1-story."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[apply, code] Set-wide, every Story (not scored): in build_ads.py html_deck pass pp=21 if ad.get(\"cta\") else 4, so the price drops its 21 px CTA-matching padding where there is no CTA. Tested on this page with the price padding at 4 px: the price's baseline moves from y 1504 to 1521, on the spec's second line; the wordmark moves to y 1422–1462, still 43 px above the price's glyphs. Feed ads keep 21 px and don't change.",
+   "[run] Run this as the rangoli Story. Keep P01_a1-story as the B, and A/B the two only with budget for both."
+  ]
+ },
+ {
+  "id": "P09_a1",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. The paper header fades the top quarter evenly (5.0x lift), reading as a soft bright top rather than an oval of haze, and the far side becomes a pale ghost under the type. Headline 15.4:1 (15.2), correction 8.7:1 (6.7), spec 13.5:1 (5.3), price 14.0:1 (12.9), in line with the test (15.3:1 (15.1), 9.2:1 (6.8), 13.5:1 (5.3), 14.0:1 (12.6)).",
+   "The best product fidelity of the set: crisp cushion stones, halos and claws. 'Rainbow, rainproof.' carries the Waterproof tag, and '5 mm stones' corrects the macro's scale. Prism at ₹2,399, Feed 4:5. Every claim is a listing fact.",
+   "The ink wordmark (now the default) reads 16.0:1 (15.2) in the foot glow, 43 px above the price."
+  ],
+  "issues": [
+   "[brand, minor] With the header paper at the top and the foot glow (1.8x) at the bottom, where the droplets fade to ghosts, the frame is lit at both ends. It reads as bright bokeh at 390 px.",
+   "[ceiling: photo] Brown satin, darker than the pastel winners, and the droplets sit on the satin, not the stones. Ceiling 9."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] Only a lighter reshoot with a clean top lifts the ceiling.",
+   "[run] The second Prism Feed ad, behind P01_a1."
+  ]
+ },
+ {
+  "id": "P01_a1-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "A native 9:16 crop of the P01 plate with the rangoli bands at full height; the pun reads at 390 px. Unchanged copy: headline 13.3:1 (6.4), correction 13.3:1 (6.1), spec 11.4:1 (4.9), price 12.6:1 (10.3). Stories-safe (y 297–1528), 64 px margins, no CTA.",
+   "The set-wide ink default supplies r5's optional fix: the wordmark reads 12.6:1 (10.5) on the yellow band (the sage one read 2.1:1), 43 px above the price."
+  ],
+  "issues": [
+   "[brand, set-wide] Stories foot (not scored): with no CTA the price keeps the 21 px bottom padding that lines it up with the Feed's CTA, so its baseline (y 1504) floats 17 px above the spec's last baseline (y 1521), and the 40 px gap now lifts the wordmark's top 79 px above the rule (65 px before). The right column towers over the spec, so the foot reads as two loose columns.",
+   "[placement] Same idea and slot as P02_a2c, which shows 13 units against 8 here."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[apply, code] Set-wide, every Story (not scored): in build_ads.py html_deck pass pp=21 if ad.get(\"cta\") else 4, so the price drops its 21 px CTA-matching padding where there is no CTA. Tested on this page with the price padding at 4 px: the price's baseline moves from y 1504 to 1521, on the spec's; the wordmark moves to y 1422–1462, still 43 px clear.",
+   "[run] Keep it as the B to P02_a2c."
+  ]
+ },
+ {
+  "id": "P09_a1-story",
+  "score": 7.5,
+  "verdict": "drop",
+  "strengths": [
+   "The extension is soft satin and looks natural. The render is now current (no CTA). Price 14.8:1 (14.1); the ink default lifts the wordmark to 15.5:1 (13.6)."
+  ],
+  "issues": [
+   "[placement] The headline and correction still sit on the defocused far side of the bracelet (y 340–585).",
+   "[contrast] Correction 7.1:1, darkest 5% 2.5:1, with '5 mm' on the dark left edge; spec 4.6:1 (3.0); headline 11.9:1 (4.4).",
+   "[brand] The head glow lifts the brown top 3.8x (luminance 0.13 to 0.51) into a haze that reads as a patch.",
+   "[ceiling: photo] About 40% of the frame is brown, further from the pastel winners than the Feed version.",
+   "[placement] A third Prism Story behind P02_a2c and P01_a1-story, both 10s."
+  ],
+  "fixes": [
+   "[run] Drop it: the changes don't lift it, and P02_a2c and P01_a1-story cover the Prism Story slot."
+  ]
+ },
+ {
+  "id": "H01_e1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Both fixes confirmed: 'EVERY BEAT, / A LITTLE GOLD.' and a one-line 'mirror-polished beads and one gold-tone heart.' at 14.5:1 (9.0). The render is now current: no CTA.",
+   "The mirrored extension carries the ECG grid across both seams, and the blur it adds sits mostly under the Stories interface. The same one-second idea as the Feed. Headline 14.6:1 (9.7), spec 13.0:1 (7.1), price 12.1:1 (6.5). Stories-safe (y 337–1528), about 135 px above the apex bead.",
+   "The ink wordmark reads 12.5:1 (5.7) on the grid, 43 px above the price."
+  ],
+  "issues": [
+   "[brand, set-wide] Stories foot (not scored): with no CTA the price keeps the 21 px bottom padding that lines it up with the Feed's CTA, so its baseline (y 1504) floats 17 px above the spec's last baseline (y 1521), and the 40 px gap now lifts the wordmark's top 79 px above the rule (65 px before). The right column towers over the spec, so the foot reads as two loose columns.",
+   "[cap: price] ₹1,299."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[apply, code] Set-wide, every Story (not scored): in build_ads.py html_deck pass pp=21 if ad.get(\"cta\") else 4, so the price drops its 21 px CTA-matching padding where there is no CTA. Tested on this page with the price padding at 4 px: the price lands on the spec's baseline (y 1521) and the wordmark at y 1422–1462, 43 px clear.",
+   "[run] This is the Heartbead Story to run."
+  ]
+ },
+ {
+  "id": "H10_a2",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed: 'SEALED WITH / A HEART.' in two lines and a one-line correction (x 65–671) that says gold-tone. Headline 13.3:1 (11.1), correction 11.6:1 (10.1), as tested (13.2:1 (10.9), 11.9:1 (10.2)). The block ends at y 310, about 350 px above the envelopes.",
+   "A warm, believable still life with real paper texture. The heart is the brightest, sharpest thing, and 'Sealed with a heart.' ties the envelopes to it. Spec 13.2:1 (12.3), price 12.1:1 (11.5). The head glow (1.8x) reads as window light from the curtain side.",
+   "The ink wordmark reads 12.1:1 (11.3), about 50 px below the rosebud and 43 px above the price."
+  ],
+  "issues": [
+   "[ceiling: photo] The bracelet lies on the bundle rather than tying it, the product is small (about a third of the width), and the wall drifts apricot (frame verdict 8.2). Ceiling 8.5.",
+   "[cap: price] ₹1,299."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "H04_a2",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "'gold-tone' landed, so the claim is now true. The clean dholak reshoot: an ivory head with no stains and the loop at about 44% of the frame width. 'For sangeet season' tests an Indian occasion the data hasn't tried.",
+   "Headline 13.9:1 (10.1), correction 13.1:1 (10.1), spec 16.5:1 (15.6), price 15.7:1 (15.6). The foot band reads as the kit's paper band, and the ink wordmark reads 15.6:1 on it."
+  ],
+  "issues": [
+   "[brand] The fix did not land as tested. The applied string renders 'steel beads and a gold-tone / heart, for sangeet season.' (lines 380 and 353 px), not r5's 'steel beads and a gold-tone heart, / for sangeet season.': text-wrap: balance prefers the evener split, so the noun phrase is still broken across the lines.",
+   "[brand] The band lifts the bottom 340 px 2.4x and fades the drum's lacing into white. Heavy, but it reads as designed.",
+   "[ceiling: photo] 'Bracelet on a drum' is pretty rather than witty, and the bright drum head outshines the beads (frame verdict 8.2). Ceiling 8.5.",
+   "[cap: price] ₹1,299.",
+   "[placement] Same copy as H04_a1."
+  ],
+  "fixes": [
+   "[apply] \"c\": \"steel beads and a gold\\u2011tone heart,<br>for sangeet season.\" (U+2011 hyphen; an explicit break, as P02_a2c's spec uses). Tested: 'steel beads and a gold-tone heart, / for sangeet season.'; line 1 ends at x 538, about 30 px above the rim's nearest lacing knot; 13.0:1 (10.2). Takes it to 8.5.",
+   "Tested and rejected: a no-break space in 'gold\\u2011tone\\u00a0heart,' gives 'steel beads and a / gold-tone heart, for sangeet season.' instead, with the article dangling and line 2 running to x 558, onto the knot.",
+   "[run] Run this, not H04_a1."
+  ]
+ },
+ {
+  "id": "H01_a1",
+  "score": 7,
+  "verdict": "drop",
+  "strengths": [
+   "'Skips a beat.' breaks cleanly into two lines, and contrast is high: headline 15.6:1 (11.0), correction 15.5:1 (10.7), spec 13.2:1 (7.9), price 11.7:1 (5.3). The ink default lifts the wordmark to 12.2:1 (7.3)."
+  ],
+  "issues": [
+   "[ceiling: photo] The unretouched plate: a printed coral ECG trace runs under and beside the strand, out of register, so the frame shows two heartbeat lines at 390 px, and a wire nub pokes out at the apex. Its frame verdict says do not run as is (8.0).",
+   "[claim] 'one gold heart' still says gold; the listing says gold-tone. Fix it before any revival.",
+   "[placement] Duplicate of H01_e1, its retouched edit."
+  ],
+  "fixes": [
+   "[run] Drop it and run H01_e1. To test 'Skips a beat.' as a line, put it on the H01_e1 plate with 'gold-tone'."
+  ]
+ },
+ {
+  "id": "H07_a1",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "Fix confirmed. 'ON THE / PULSE.' sits on the calm satin at top right (glyphs x 707–1013, y 302–451), about 55 px clear of the palm, and 'steel beads, / a gold-tone heart.' ends 76 px from the palm's edge. Headline 8.5:1 (5.0), correction 9.0:1 (6.1), as tested (8.2:1 (4.9), 9.1:1 (5.6)). Margins are 64 px, and the claim says gold-tone.",
+   "The heart rests on the inner wrist, so 'on the pulse' reads in the picture: the best on-body Heartbead, a lever the data calls untested rather than failed. Stories-safe (y 302–1528). Price 8.2:1 (7.7), ink wordmark 8.6:1 (7.8)."
+  ],
+  "issues": [
+   "[contrast] The spec line still fails the small-type floor: 8.3:1 median but 3.7:1 for the darkest 5%. 'HEA' sits on the satin's shadow fold at the left edge (about 4.0:1 median there, 2.8:1 darkest), and the forearm's edge crosses the line at x 440–480.",
+   "[brand, set-wide] Stories foot (not scored): with no CTA the price keeps the 21 px bottom padding that lines it up with the Feed's CTA, so its baseline (y 1504) floats 17 px above the spec's last baseline (y 1521), and the 40 px gap now lifts the wordmark's top 79 px above the rule (65 px before). The right column towers over the spec, so the foot reads as two loose columns.",
+   "[ceiling: photo] The soft palm and cropped fingers fill the top third, and the beads read dark (frame verdict 8.0). Ceiling 8.",
+   "[cap: price] ₹1,299."
+  ],
+  "fixes": [
+   "[apply] \"band\": true. Tested: spec 16.3:1 (15.7), price 16.3:1 (16.3), ink wordmark 15.3:1 (13.8). The band starts at y 1328, about 90 px below the lowest bead, so the bracelet and heart are untouched. The forearm fades into the blush paper, and more than half the band sits under the Stories interface. It reads as the kit's paper foot. Takes it to 8, its ceiling.",
+   "Tested and rejected: \"fscrim\": true leaves a white streak across the forearm, and 'HEA' still dips to a local 3.9:1.",
+   "[apply, code] Set-wide, every Story (not scored): in build_ads.py html_deck pass pp=21 if ad.get(\"cta\") else 4, so the price drops its 21 px CTA-matching padding where there is no CTA. Tested on this page with the price padding at 4 px: the price lands on the spec's baseline (y 1521), the wordmark at y 1422–1462.",
+   "[run] Run it as the single on-body Heartbead Story test, behind H01_e1-story."
+  ]
+ },
+ {
+  "id": "P03_a1",
+  "score": 8,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. The paper band lifts the price from 2.3:1 to 15.4:1 (15.2) and the spec to 16.7:1 (16.3), as tested. The ink wordmark reads 15.0:1 on the paper, where the sage one sat on dark brown.",
+   "An Indian food pun on the hero product: mukhwas after a meal, pastel seeds echoing the stones, and 'cubic zirconia, not candied saunf.' follows the winner's correction. Prism at ₹2,399, Feed 4:5. Headline 11.1:1 (6.6), correction 9.5:1 (5.4). Every claim is true."
+  ],
+  "issues": [
+   "[brand] The head glow still lifts the dusky linen 3.1x (luminance 0.18 to 0.57) into a white oval at top left. It reads as a patch at full size and as soft light at 390 px, and no tested alternative does better (see fixes).",
+   "[brand, minor] The band fades the clasp end at bottom left (x 100–220, y 1040–1140) into the paper. Acceptable: the clasp isn't the punchline.",
+   "[ceiling: photo] The linen is darker and browner than the pastel winners, and the seeds camouflage the stones and read as candy rice rather than slender saunf (frame verdict 8.0). Ceiling 8.5."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "Tested and rejected: without the head glow the headline drops to 4.0:1 (3.1) and the correction to 3.5:1 (3.3). A paper header (tband, no scrim) reads 15.8:1 (15.6) but fogs the bracelet's top unit and clasp (+47 to +59 RGB).",
+   "[no layout fix] A reshoot on pale blush linen with slimmer saunf lifts the ceiling and removes the need for the glow.",
+   "[run] The third Prism Feed ad, behind P01_a1 and P09_a1."
+  ]
+ },
+ {
+  "id": "P08_a2",
+  "score": 6.5,
+  "verdict": "drop",
+  "strengths": [
+   "The saree-to-stone colour echo and the Indian styling read. The headline (12.9:1, darkest 5% 6.9) and correction (13.8:1, 9.4) pass and are Stories-safe. The render is now current (no CTA)."
+  ],
+  "issues": [
+   "[placement] The spec still runs over the fingers: 7.1:1 median but 1.1:1 for the darkest 5%, with 'PRISM RIVIÈRE' broken by finger shadows. The price sits on a dark teal fold at 8.3:1 (2.0).",
+   "[brand] The ink default lifts the wordmark from 1.6:1 to 9.3:1, but its darkest 5% is 2.1:1 on the saree's folds. The head glow is a pale oval on the saree.",
+   "[brand] 'PASTEL, THE / INDIAN WAY.' leaves the article dangling at the end of line 1.",
+   "[ceiling: photo] The product is small (units about 7% of the frame width), the pun is in the words, and on-body statics are untested (frame verdict 8.0). Ceiling 8.",
+   "[placement] A fourth Prism Story."
+  ],
+  "fixes": [
+   "[run] Drop it: the changes don't lift it. P02_a2c and P01_a1-story carry the Prism Story."
+  ]
+ },
+ {
+  "id": "H05_a2",
+  "score": 7,
+  "verdict": "drop",
+  "strengths": [
+   "A calm dusty-rose wall, Stories-safe copy, and contrast that passes: headline 9.7:1 (7.8), correction 9.7:1 (8.0), spec 10.1:1 (7.7), price 10.3:1 (9.6). Ink wordmark 11.6:1 (11.4)."
+  ],
+  "issues": [
+   "[ceiling: photo] The Kathak idea doesn't read: it shows the back of a raised hand, the bracelet is small (about 23% of the width) and below centre, and its beads are dull (frame verdict 7.8). Ceiling 7.5.",
+   "[brand] w 340 still forces a three-line headline ('KEEPS / YOUR / RHYTHM.') against the kit's two, and the copy hugs the hand, about 30 px from the index fingertip.",
+   "[claim] 'one gold heart' still says gold; the listing says gold-tone.",
+   "[cap: price] ₹1,299."
+  ],
+  "fixes": [
+   "[run] Drop it: the changes don't lift it. H01_e1-story is the Heartbead Story and H07_a1 the on-body test."
+  ]
+ },
+ {
+  "id": "H04_a1",
+  "score": 7,
+  "verdict": "drop",
+  "strengths": [
+   "The low, warm side light and the long bead shadows are lovely, and contrast passes: headline 12.3:1 (7.9), correction 10.6:1 (7.5), spec 15.9:1 (15.3), price 15.2:1 (15.2). The render is now current (the band is in)."
+  ],
+  "issues": [
+   "[ceiling: photo] The goatskin is stained, the drum head is brighter than the product, and the loop is smaller in frame. Its frame verdict says do not run as is (7.5).",
+   "[brand] The head glow lifts the rose-taupe wall 2.6x (luminance 0.22 to 0.57) into a visible white oval, which reads as a patch.",
+   "[claim] 'a gold heart' still says gold; the listing says gold-tone.",
+   "[placement] Duplicate of H04_a2."
+  ],
+  "fixes": [
+   "[run] Drop it and run H04_a2: a clean ivory head, a larger loop and a lighter wall."
+  ]
+ }
+]

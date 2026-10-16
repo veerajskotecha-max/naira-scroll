@@ -1,2 +1,4 @@
 # Reviewers' temporary test configs (build_ads.py --cfg tmp_<name>.json), deleted after each review
 tmp_*.json
+# Python bytecode
+__pycache__/

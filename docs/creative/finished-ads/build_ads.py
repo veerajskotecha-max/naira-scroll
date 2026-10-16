@@ -79,7 +79,7 @@ def html_deck(ad, bg):
     wm_y = ad.get("wy", top + 8)
     foot_wm = ad.get("wmpos", "foot") == "foot"            # default: the wordmark signs off above the price
     css = DECK_CSS % dict(b=BRAND, f=FONTS, w=W, h=H, bg="file://" + bg, hs=ad.get("hs", 100), cs=ad.get("cs", 40), gap=ad.get("gap", 18),
-                          side=side, bot=bot, ss=ad.get("ss", 18), sw=ad.get("sw", 620), bs=19, bp=21, bpx=32, ps=22, pp=21, wh=wh,
+                          side=side, bot=bot, ss=ad.get("ss", 18), sw=ad.get("sw", 620), bs=19, bp=21, bpx=32, ps=22, pp=21 if ad.get("cta") else ad.get("pp", 4), wh=wh,
                           bh=bot + foot_h + 130, bsd=bot + foot_h + 20, th=ad.get("th", y + 330 if at[0] == "t" else 0), ts=ad.get("ts", (y + 330) * .62 if at[0] == "t" else 0))
     bands = ('<div class="band"></div>' if ad.get("band") else "") + ('<div class="tband"></div>' if ad.get("tband") else "")
     cls = "blk" + (" glow" if ad.get("scrim") else "")

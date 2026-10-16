@@ -17,14 +17,16 @@ P = dict(cx=465, cy=1705,      # where the stud's centre sits in the scene (1536
          w=236,                # stud width in px: 0.88 of the neighbouring sweet's diameter (20 mm arc against ~2.2 cm sweets)
          rot=1.5,              # degrees, counter-clockwise
          face=111,             # screen height of the 10 mm face (it rests on its lowest claw and the post tip, about 63° up)
-         shx=50, shy=20,       # where the shadow of the top edge lands, relative to the contact point (from the sweets' shadows:
-                               # the sun is about 43° up, behind and left; the camera about 36° up)
+         shx=38, shy=35,       # where the shadow of the top edge lands, relative to the contact point (from the sweets' shadows:
+                               # about (0.43, 0.66) px per px of height; the sun is about 37° up, behind and left)
          sh=(0.70, 0.54, 0.50),  # ground multiplier in full shadow (sampled in the sweets' cast shadows)
-         blur=(0.8, 5.0),      # penumbra σ at the contact and at the far edge
+         blur=(0.8, 2.5),      # penumbra σ at the contact and at the far edge (a throw of 10 mm or less)
          ao=0.6,               # contact darkening right under the lowest claws
-         tint=(1.0, 0.965, 0.935), lift=(34, 26, 24), gain=0.96,   # warm the metal toward the blush scene, lift its black reflections
-         glow=0.6,             # light the stones let through into their own shadow
-         grain=1.8, out="e1/plates/clusterC1_m1",   # relative to the scratchpad
+         tint=(1.0, 0.965, 0.935), lift=(34, 26, 24),   # warm the metal toward the blush scene, lift its black reflections
+         gain=0.86, rim=0.6,   # the face looks away from the back sun: darker overall, the light carried by the sun rim
+         glow=0.15,            # light the stones let through into their own shadow
+         grain=2.4, out="e1/plates/clusterC1_m1",   # relative to the scratchpad
+         sweetshade=0,         # >0: stud pixels whose sun ray passes through a sweet lose that much sun, and their rim
          sunlit_cap=1,         # ground already in a sweet's shadow takes no second shadow from the stud
          lit=(237.8, 219.2, 208.3))   # the open ground's colour, for reading where the sweets' shadows are
 for kv in sys.argv[1:]:
@@ -63,6 +65,13 @@ def main():
     M1 = np.float32([[1, 0, P.get("rimdx", -1)], [0, 1, P.get("rimdy", -2)]])
     rim = A * (1 - cv2.warpAffine(A, M1, (W, H)))                            # inside the stud, with open air toward the sun
     rim = cv2.GaussianBlur(rim, (0, 0), .7)
+    if P["sweetshade"]:               # for a place beside a sweet: what its shadow covers loses the sun
+        rows_ = np.where(A.max(1) > .5)[0]; yc_ = rows_.max(); f_ = P["face"]
+        Yg, Xg = np.mgrid[:H, :W].astype(np.float32); rise = np.clip(yc_ - Yg, 0, None)
+        tx_ = np.clip(np.round(Xg + P["shx"] / f_ * rise), 0, W - 1).astype(int); ty_ = np.clip(np.round(yc_ + P["shy"] / f_ * rise), 0, H - 1).astype(int)
+        Gs_ = np.clip(cv2.GaussianBlur(scene, (0, 0), 4) / (np.array(P["lit"]) / 255), 0, 1)
+        GT = Gs_[ty_, tx_]; shm_ = float(np.mean(P["sh"])); sunT = np.clip((GT.mean(-1) - shm_) / (1 - shm_), 0, 1)
+        S = S * (1 - P["sweetshade"] * (1 - GT)); rim = rim * sunT
     S = S + (1 - S) * np.clip(rim * P.get("rim", .45), 0, 1)[..., None] * np.array([1, .96, .9])
     # the stones (saturated pixels) pass coloured light into the shadow
     mx, mn = S.max(-1), S.min(-1); sat = np.clip(((mx - mn) / np.maximum(mx, 1e-3) - .18) / .25, 0, 1) * A
