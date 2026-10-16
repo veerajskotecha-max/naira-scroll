@@ -1,0 +1,45 @@
+[
+ {
+  "id": "prismC1_m1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Plate update confirmed. The live plate reproduces exactly from comp_prism.py's current defaults (bshade 0.86, topspec 0, glint 0; maximum difference 0). Against the previous plate (composite_r3's r3_clamp.png), 26,836 px change and every one is darker (median −17.7 levels, luminance ratio 0.862). All of them lie on the back links and the strip between the sweets (plate x 199–761, y 1387–1612; frame x 215–821, y 636–879). Nothing else in the plate moved.",
+   "At full size the back row now sits in the back sun's shade like the front faces, so the loop's light is consistent. Its tops stay bright through the blend, with no seam at 2x. The back-row stones are a touch duller (median 164,123,103 to 145,109,91). At 390 px the darker back row gives the loop more depth, and no tell shows.",
+   "Nothing else moved. The config is unchanged since r14, every layout element sits at its r14 box, and the copy and foot measure exactly as in r14: headline 14.2:1 (darkest 5% 14.0), correction 14.1:1 (13.9), spec 13.2:1 (12.4), price 12.9:1 (11.9), ink wordmark 4.7:1 (3.6), 43 px above the price. The correction still clears the left purple sweet by 39 px. Between the copy and the foot the render equals its new background to the pixel.",
+   "It hits every lever: the account's proven line and props ('Almost edible. cubic zirconia, not candy.', 10 of 16 concept sales) around the real listing photo, which fills 68% of the width. Prism at ₹2,399 and in stock, a candy pun, a light peach ground, Feed 4:5. Every claim is a listing fact."
+  ],
+  "issues": [
+   "[brand, minor] The wordmark sits on the soft edge of the right purple sweet's shadow (58% of its box in shade) at 4.7:1 (3.6). Legible at 390 px, a little murky; no config option clears that shadow (r12).",
+   "[brand, minor] The 1.08x upscale costs about 11% of the front row's fine detail against the old 0.88x frame. The pavé still resolves at 2x, and the difference is invisible at 390 px.",
+   "[ceiling: photo] Still a 9.5 plate (composite r5 calls it a better 9.5). The link tops keep the listing's soft studio highlights with no hard sun sparkle, and the dark notch at the pink sweet's right rim remains (frame x 778–805, y 713–768; about 3 × 20 px at 390). Ceiling 9.5.",
+   "[placement] The same image as prismC1_m1-arm."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] 10 needs hard sun glints on the metal, which composite r5 found a 2-D pass can't place, and the notch fixed with a 3-D sun-visibility test.",
+   "[run] Run this one of the two: 'Almost edible.' is the account's proven line. Put it beside P01_a1 in the Prism Feed."
+  ]
+ },
+ {
+  "id": "prismC1_m1-arm",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "Plate update confirmed. The live plate reproduces exactly from comp_prism.py's current defaults (bshade 0.86, topspec 0, glint 0; maximum difference 0). Against the previous plate (composite_r3's r3_clamp.png), 26,836 px change and every one is darker (median −17.7 levels, luminance ratio 0.862). All of them lie on the back links and the strip between the sweets (plate x 199–761, y 1387–1612; frame x 215–821, y 636–879). Nothing else in the plate moved.",
+   "At full size the back row now sits in the back sun's shade like the front faces, so the loop's light is consistent. Its tops stay bright through the blend, with no seam at 2x. The back-row stones are a touch duller (median 164,123,103 to 145,109,91). At 390 px the darker back row gives the loop more depth, and no tell shows.",
+   "Nothing else moved. The config is unchanged since r14, every layout element sits at its r14 box, and the copy and foot measure exactly as in r14: headline 14.2:1 (darkest 5% 14.0), correction 14.1:1 (13.9), spec 13.2:1 (12.4), price 12.9:1 (11.9), ink wordmark 4.7:1 (3.6), 43 px above the price. The correction still clears the left purple sweet by 42 px. Between the copy and the foot the render equals its new background to the pixel.",
+   "A fresh, true pun on the same image: 'Arm candy.' / 'cubic zirconia, not sugar.'"
+  ],
+  "issues": [
+   "[brand, minor] The wordmark sits on the soft edge of the right purple sweet's shadow (58% of its box in shade) at 4.7:1 (3.6). Legible at 390 px, a little murky; no config option clears that shadow (r12).",
+   "[brand, minor] The 1.08x upscale costs about 11% of the front row's fine detail against the old 0.88x frame. The pavé still resolves at 2x, and the difference is invisible at 390 px.",
+   "[ceiling: photo] There is no arm in the frame, so half the pun lives in the words, and the line has no history. The metal keeps its soft studio highlights, and the notch at the pink sweet's rim remains. Ceiling 9.",
+   "[placement] The same image as prismC1_m1."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] Hold it until prismC1_m1 has about ₹2,500 of spend, then run it as a pure copy test (same image, new line) in the same ad set."
+  ]
+ }
+]
