@@ -47,7 +47,7 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:var
 .h{font-family:Velista;font-weight:500;font-size:%(hs)dpx;line-height:.9;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance;margin:0}
 .c{font-family:CGI;font-weight:500;font-size:%(cs)dpx;line-height:1.16;text-wrap:balance;margin:%(gap)dpx 0 0}
 .ft{position:absolute;left:%(side)dpx;right:%(side)dpx;bottom:%(bot)dpx;display:flex;justify-content:space-between;align-items:flex-end;isolation:isolate}
-.ft .l{display:flex;flex-direction:column;align-items:flex-start}
+.ft .l{display:flex;flex-direction:column;align-items:flex-start;position:relative}
 .rule{width:64px;height:2px;background:var(--tone);margin-bottom:16px}
 .spec{font-family:Jost;font-weight:500;font-size:%(ss)dpx;letter-spacing:.24em;text-transform:uppercase;line-height:1.45;max-width:%(sw)dpx}
 .cta{margin-top:22px;background:var(--btn);color:var(--btnt);font-family:Jost;font-weight:600;font-size:%(bs)dpx;letter-spacing:.22em;
@@ -83,14 +83,15 @@ def html_deck(ad, bg):
                           bh=bot + foot_h + 130, bsd=bot + foot_h + 20, th=ad.get("th", y + 330 if at[0] == "t" else 0), ts=ad.get("ts", (y + 330) * .62 if at[0] == "t" else 0))
     bands = ('<div class="band"></div>' if ad.get("band") else "") + ('<div class="tband"></div>' if ad.get("tband") else "")
     cls = "blk" + (" glow" if ad.get("scrim") else "")
-    fcls = "ft" + (" glow" if ad.get("fscrim") else "")
+    fs = ad.get("fscrim")                                  # true: a glow behind the whole foot; "spec": behind the spec column only
+    fcls, lcls = "ft" + (" glow" if fs and fs != "spec" else ""), "l" + (" glow" if fs == "spec" else "")
     spec = f'<div class="rule"></div><div class="spec">{glue(ad["spec"])}</div>' if ad.get("spec") else ""
     cta = f'<div class="cta">{ad["cta"]}</div>' if ad.get("cta") else ""
     return (f'<meta charset="utf-8"><style>{css}</style><body style="--tone:{tone};--glow:{glow};--btn:{btn};--btnt:{btnt}">' + bands
             + ("" if foot_wm else f'<img class="wm" src="file://{BRAND}/{wm_file}" style="{wm_corner}:{side}px;top:{wm_y}px">') +
             f'<div class="{cls}" style="{pos};width:{ad["w"]}px"><h1 class="h">{glue(ad["h"])}</h1>'
             + (f'<p class="c">{glue(ad["c"])}</p>' if ad.get("c") else "") + '</div>'
-            f'<div class="{fcls}"><div class="l">{spec}{cta}</div><div class="r">'
+            f'<div class="{fcls}"><div class="{lcls}">{spec}{cta}</div><div class="r">'
             + (f'<img class="wmf" src="file://{BRAND}/{wm_file}">' if foot_wm else "") +
             f'<div class="price">{glue(ad.get("price", ""))}</div></div></div></body>')
 
