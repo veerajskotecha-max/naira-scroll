@@ -1,0 +1,6 @@
+{
+ "verdant1_a1": "{\"at\": \"tr\", \"c\": \"green cushion-cut studs, not peas.\", \"cta\": \"Pre‑order\", \"fmt\": \"4:5\", \"h\": \"Two peas in a pod.\", \"price\": \"₹1,399\", \"scrim\": true, \"spec\": \"Verdant Cushion Studs · Pre‑order\", \"w\": 720, \"wm\": \"ink\"}",
+ "verdant1_a1-story": "{\"at\": \"tr\", \"band\": true, \"c\": \"green cushion-cut studs, not peas.\", \"cta\": \"Pre‑order\", \"fmt\": \"9:16\", \"fscrim\": false, \"h\": \"Two peas in a pod.\", \"plate\": \"verdant1_a1\", \"price\": \"₹1,399\", \"scrim\": true, \"spec\": \"Verdant Cushion Studs · Pre‑order\", \"w\": 720, \"wm\": \"ink\"}",
+ "clusterC1_m1": "{\"at\": \"tl\", \"box\": [150, 968, 1014, 2048], \"c\": \"coloured stones and pearls, not candy.\", \"cta\": \"Pre‑order\", \"fmt\": \"4:5\", \"fscrim\": true, \"h\": \"Almost edible.\", \"price\": \"₹2,099\", \"scrim\": true, \"spec\": \"Prism Cluster Studs · Pre‑order\", \"w\": 440, \"wm\": \"ink\"}",
+ "halo1_a1": "{\"at\": \"tl\", \"c\": \"baguettes in a circle, a pearl below.\", \"cta\": \"Pre‑order\", \"fmt\": \"4:5\", \"h\": \"Ring twice.\", \"price\": \"₹1,999\", \"scrim\": true, \"spec\": \"Baguette Halo Drops · Pre‑order\", \"w\": 520}"
+}

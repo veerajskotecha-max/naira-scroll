@@ -1,0 +1,73 @@
+[
+ {
+  "id": "verdant1_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The live price landed cleanly. '₹1,399' matches the store (repriced from ₹2,199 at 09:54 UTC today). Its glyphs sit at x 921–1011, y 1250–1270: the old price's right edge and row, 1 px narrower, still centred on the CTA and 43 px below the wordmark. Price 11.4:1 (darkest 5% 10.2), the same as before. Against an old-price render, only the price digits changed (x 920–974).",
+   "Unchanged: a food pun with the studs as the punchline, two green cushion-cut studs in a pea pod, on light blush in 4:5 Feed. Headline 12.6:1 (8.3), correction 12.0:1 (8.2), spec line 11.4:1 (7.4), ink wordmark 11.7:1 (10.2). It makes no metal claim and states Pre-order."
+  ],
+  "issues": [
+   "[cap: price] ₹1,399 is now under the ₹2,000 line, and [cap: pre-order] no ad history. Both cap at 9.5; creatively a 10. The data's ₹2,000+ lever is now missed, and at ₹1,399 a single pair is further from break-even than the ₹1,499 hoops.",
+   "[claim, PDP] The listing text says yellow gold, while every photo shows white metal. The ad makes no metal claim, but fix the product page before spending."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer, such as two pairs (₹2,798), and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "verdant1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The live price landed cleanly: '₹1,399' sits at x 921–1011, y 1505–1525 on the band, on the spec line's baseline and 43 px below the wordmark. Price 16.0:1 (darkest 5% 15.9), the same as before. Against an old-price render, only the price digits changed (x 920–974).",
+   "Unchanged: native 9:16 crop with the studs large. Headline 13.9:1 (8.7), correction 12.4:1 (9.3), spec line 16.7:1 (15.9), ink wordmark 15.3:1 (12.7). All copy is Stories-safe, and the band leaves the pod and studs untouched."
+  ],
+  "issues": [
+   "[cap: price] ₹1,399 is now under the ₹2,000 line, and [cap: pre-order] no ad history. Both cap at 9.5; creatively a 10.",
+   "[claim, PDP] The listing says yellow gold; the photos show white metal. The ad makes no metal claim."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As the Feed version: a ₹2,000+ offer, such as two pairs, and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "clusterC1_m1",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The live price landed cleanly. '₹2,099' matches the store (repriced from ₹2,399 at 11:15 UTC). Its glyphs sit at x 917–1011, y 1250–1270: the old right edge and row, 1 px wider, centred on the CTA. Price 14.0:1 (darkest 5% 13.1), the same as before. Against an old-price render, only the price digits changed (x 917–974). It still clears the ₹2,000 line, by ₹99, so no price cap applies.",
+   "Unchanged from r13: the r13 plate (byte-identical), with the stud crisp at 390 px. Headline 15.6:1 (14.6), correction 13.4:1 and 10.4:1 on its two lines, spec line 15.6:1 (13.9), ink wordmark 7.6:1 (5.2). The claims are listing facts."
+  ],
+  "issues": [
+   "[ceiling: photo] As r13: the stud lies apart from the candy, about 1.3% of the frame's area against 6.5% for the pink sweet. So the pun lands through the copy and the colour rhyme in a second or two, not at a glance. That holds it at 8.5.",
+   "[brand, minor] The headline glow pales the left purple sweet's top half, and the wordmark straddles a shadow edge, as in r13.",
+   "[placement] It reuses prismC1_m1's headline in the same candy scene. Run the proven, in-stock Prism first; this is the pre-order test.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] For 9 and above, the stud has to move into the candy: B's place with sweetshade=0.6 (composite_r2), or a closer scene.",
+   "[run] Run it as the Edition One candy test, after Prism."
+  ]
+ },
+ {
+  "id": "halo1_a1",
+  "score": 6.5,
+  "verdict": "drop",
+  "strengths": [
+   "The live price landed cleanly. '₹1,999' matches the store (repriced from ₹2,200 at 09:53 UTC). Its glyphs sit at x 920–1011, y 1250–1270: the old right edge and row, 3 px narrower, centred on the CTA. Price 8.1:1 (darkest 5% 6.3), the same as before. Against an old-price render, only the price digits changed. The claims are true: 'baguettes in a circle, a pearl below.' The ink wordmark reads 8.2:1 (6.9)."
+  ],
+  "issues": [
+   "[cap: price] At ₹1,999 it now sits ₹1 under the ₹2,000 line, so the price cap applies on top of [cap: pre-order]. It no longer clears the data's ₹2,000+ lever.",
+   "[contrast] Unchanged: the spec line crosses the door casing's chipped paint at 5.3:1, darkest 5% 1.5:1, far under the 4.5 floor. The headline's first line falls to 3.8:1 at its darkest 5%, and the glow behind it sits on the casing like a white cloud.",
+   "[ceiling: photo] Plate 7.0 (heroes_a). The concave saucer reads as an earring on a trinket dish, and 'Ring twice.' lands after about 2 s."
+  ],
+  "fixes": [
+   "[apply, if kept] band: true (tested in r8: spec line 16.0:1 (15.1), wordmark 16.4:1 (16.2), price on paper, zero lift on the earring). Takes it to 7.",
+   "[no layout fix] Still dropped until the reshoot heroes_a describes: a flat doorbell rose at the casing's edge, tighter framing, an ivory-blush wall."
+  ]
+ }
+]
