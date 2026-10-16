@@ -33,13 +33,13 @@ def tracked(c, text, font, size, x, y, track=0.2, color=INK):
         f = font if ch != "₹" else "Corm"; c.setFont(f, size); c.drawString(x, y, ch); x += pdfmetrics.stringWidth(ch, f, size) + track * size
     return x
 
-def wrap(text, font, size, width):
+def wrap(text, font, size, width):          # a no-break space (U+00A0) keeps words together; it is drawn as a plain space
     out, cur = [], ""
-    for wd in text.split():
+    for wd in re.split(r"[ \t\n]+", text.strip()):
         t = (cur + " " + wd).strip()
-        if pdfmetrics.stringWidth(t, font, size) <= width: cur = t
+        if pdfmetrics.stringWidth(t.replace("\u00a0", " "), font, size) <= width: cur = t
         else: out.append(cur); cur = wd
-    return out + ([cur] if cur else [])
+    return [ln.replace("\u00a0", " ") for ln in out + ([cur] if cur else [])]
 
 def sheet_frames():
     s = open(f"{SPB}/sheet/index.html", encoding="utf-8").read()
@@ -148,7 +148,7 @@ def build(outdir):
             if part == 1 and prefix.startswith("1"): brand_page(c)
             tally = {}
             for it, pg in chunk: tally[pg[2]["title"].split(" · ")[0]] = tally.get(pg[2]["title"].split(" · ")[0], 0) + 1
-            cover(c, f"{title}, part {part} of {len(chunks)}", sub, ["In this part:"] + [f"{k}: {v}" for k, v in tally.items()])
+            cover(c, f"{title}, part\u00a0{part}\u00a0of\u00a0{len(chunks)}", sub, ["In this part:"] + [f"{k}: {v}" for k, v in tally.items()])
             for it, (data, wh, cap) in chunk: photo_page(c, data, wh, cap)
             c.save(); mb = os.path.getsize(fn) / 1e6
             made.append(dict(file=os.path.basename(fn), title=f"{title}, part {part} of {len(chunks)}", count=len(chunk), mb=round(mb, 1),

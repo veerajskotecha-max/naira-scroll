@@ -1,0 +1,28 @@
+[
+ {
+  "plate": "clusterC1_m1.png",
+  "pick": true,
+  "box": [
+   150,
+   968,
+   1014,
+   2048
+  ],
+  "pass": true,
+  "severity": "minor",
+  "score": 9.5,
+  "reasons": [
+   "Light on the stud: this is the first tell at full size, and a subtle one. gain 0.86 and rim 0.6 keep the face below the paper (metal 210,198,195 against the paper's 238,219,208), with the sun on the upper-left rims. But each pearl and stone keeps the macro's soft frontal modelling, a soft highlight on its camera side. A back sun would leave a thin bright crescent on the far upper-left edge, and darker facets with sparkle.",
+   "Coloured glow: the amber patch under the yellow stone peaks at +24 levels, with 853 px changed by more than 8 levels. It is smooth where a sun caustic through a faceted stone would be sharp."
+  ],
+  "notes": [
+   "Install verified. At commit 2440c98, comp_cluster.py is r3's script with soft=0.4 as a default; against my private copy only comments and defaults differ. To reproduce, run python3 -B comp_cluster.py out=review6/r4_cluster from docs/creative/finished-ads. The result has a maximum difference of 0 against both the live /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/e1/plates/clusterC1_m1.png and r3's test render /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/var/r3c_soft0.4.png.",
+   "The finish is fixed. The stud's sharpness index is 0.68 (r3: 0.745), inside the neighbours' range of 0.52 (the pink sweet) to 0.71 (the right purple). Fidelity is 0.977 over 8,533 core px. The softening adds no edge fringe: the alpha 0.3-0.7 ring changes by −1.75 levels on average.",
+   "Unchanged and correct:\n- the shadow, a crisp sheared silhouette over x 373-609, y 1724-1799, deepest 0.681/0.525/0.485 of lit, with 0 px on ground already shaded;\n- the contact on its lowest claw at (470,1761);\n- full sun by the sun-ray test;\n- grain 2.4;\n- the true scale: 235 × 110 px, 0.85 of the pink sweet.\nThe stones and pearls are as before: purple princess, pink baguette, yellow emerald-cut, purple princess, pink baguette. The macro shows 8 pearls where the listing text says six; that is a question for the founder.",
+   "At the framing (box [150,968,1014,2048], a 1.25× upscale), the stud is 294 px of 1080. At 390 px it is 106 px and reads as real. At 1080 it lies convincingly in the sun on open paper.\nScope: as asked, this scores the plate's realism only. Composition (the stud lies apart from the candy) is for the ad review. On r2's basis, which counted it, this plate would be 8.5.",
+   "Score 9.5 on realism (r3: 9.0). The crispness tell is gone. What remains is the soft studio modelling on the pearls and stones and a faint amber glow, both visible only on close inspection."
+  ],
+  "fix": "Open toward 10:\n(1) A listing macro shot under a hard back-left light, so the pearls carry a sun crescent and the stones show darker facets with sparkle. A 2-D grade cannot re-model the pearls.\n(2) glow=0.08, or a sharper caustic, to remove the soft amber patch (untested).\nComposition, outside this score: B's place with sweetshade=0.6 (r2), or a closer scene.",
+  "crop": null
+ }
+]
