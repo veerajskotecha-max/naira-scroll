@@ -1,0 +1,97 @@
+[
+{
+"key": "P11_diya_916",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "9:16",
+"prompt": "Witty editorial advertising still life, 9:16 vertical Story frame, Diwali evening. On a pale ivory lime-plaster floor, three small hand-thrown terracotta diyas, each about 7cm across, burn with small steady flames in a gentle arc at the upper right. The bracelet lies open in a soft curve around their front, and every pastel stone holds a tiny warm reflection of the flames. Preserve the bracelet from reference 1 exactly, with its stones built exactly as in reference 2: a continuous line of square cushion-cut stones about 5mm each in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine pave halo of tiny clear stones, linked in rhodium silver tone with a fold-over clasp. Do not redesign, restyle, resize or add anything; the stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never other colours, and no two neighbouring stones are ever the same colour; every stone keeps its halo of two rows of very fine pave, the halo about a third as wide as the centre stone on each side; each stone is held by four short round bead claws flush at its corners, never long prongs or spikes. Only the background, surface and lighting change. CRITICAL SCALE: each stone is about 5mm, the size of a peppercorn, and each stone in its halo is about 8mm square; the bracelet is about 18cm long and only about 8mm wide, a slim line. The diyas are about nine times the width of the bracelet's line. COPY SPACE: the upper left third is calm, softly glowing empty plaster for a headline. LIGHT: the warm diya flames as the key, a soft cool fill from the left so the aqua and pink keep their colour, one small hard kicker on the silver. ABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.\n\nSTORY FRAME: tall 9:16. The top quarter of the frame is calm, empty background for a headline and the bottom fifth is calm, empty surface for a price line; the jewellery sits in the middle band, at the same true small scale.",
+"medias": [
+{
+"value": "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+"role": "image_references"
+},
+{
+"value": "e7ef630a-57fb-47f7-8a6e-24b056372a66",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_ruby_anaar2_916",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "9:16",
+"prompt": "Witty editorial advertising still life, 9:16 vertical Story frame, for an Indian demi-fine jewellery brand. On a pale ivory lime-plaster surface, half a pomegranate lies cut face up at the upper right edge of the frame, its glistening deep-red arils packed in white pith; seven loose arils have rolled out across the plaster. ONE single ruby baguette tennis bracelet, CLOSED with its box clasp shut, lies as ONE continuous unbroken oval loop in the lower middle, the loose arils around it, its stones exactly the same deep red as the seeds.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A TENNIS BRACELET: ONE continuous line of deep RUBY-RED rectangular BAGUETTE stones set CROSSWISE, side by side like the rungs of a ladder, each stone held by gold claws at its four corners, edge to edge with no gaps, about 5mm wide; a gold box clasp with a fold-over safety tongue. Warm 18k gold tone. The stones stay rectangular baguettes set crosswise, never round, never set lengthways; all stones ruby red, never pink, never orange.\n\nSCALE TEST: Each baguette is 5 by 2.5mm; each pomegranate aril is about 9mm, a little larger than one stone; the closed bracelet is a 5.5cm oval, 5mm wide. There is exactly ONE bracelet and ONE clasp; the loop is never broken into two pieces and never has loose ends. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, empty ivory plaster, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.\n\nSTORY FRAME: tall 9:16. The top quarter of the frame is calm, empty background for a headline and the bottom fifth is calm, empty surface for a price line; the jewellery sits in the middle band, at the same true small scale.",
+"medias": [
+{
+"value": "8f32aadf-cad8-4f98-977d-94d47041723d",
+"role": "image_references"
+},
+{
+"value": "66961974-9e38-48e7-827c-0f68b94881d2",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_studs_mogra_916",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "9:16",
+"prompt": "Witty editorial advertising still life, 9:16 vertical Story frame, for an Indian demi-fine jewellery brand. On pale sage handwoven linen, a loose scatter of fresh white mogra (Arabian jasmine) buds and two half-open blossoms runs diagonally from the upper right; the pair of flower studs lies among the buds in the lower middle, stones up, so the clear petals read as one more small white flower. A faint dew on the petals.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A PAIR OF FLOWER STUD EARRINGS (the GOLD pair in IMAGE 1): each stud is a little four-petal flower: a small polished gold disc at the centre; ONE round clear stone petal to the left, ONE to the right and ONE above; and ONE larger PEAR-cut clear stone petal pointing straight down; all in gold claw settings; a straight post with a butterfly back. Exactly four stones per earring, three round and one pear pointing down; never a halo, never a cluster of many stones, never a dangle.\n\nSCALE TEST: Each stud is about 13mm tall; each jasmine bud is 10 to 14mm, about the same size as a stud, so they look like part of the same bunch. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, empty sage linen, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.\n\nSTORY FRAME: tall 9:16. The top quarter of the frame is calm, empty background for a headline and the bottom fifth is calm, empty surface for a price line; the jewellery sits in the middle band, at the same true small scale.",
+"medias": [
+{
+"value": "f6df72cc-29be-425a-9a23-efef40d8b2fb",
+"role": "image_references"
+},
+{
+"value": "a8eb74ea-0bbe-435f-b544-ca5e67061a64",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_choker_monsoon_916",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "9:16",
+"prompt": "Witty editorial advertising photograph, 9:16 vertical Story frame, monsoon. A close crop of a young Indian woman's neck and collarbones, warm mid-brown skin with golden undertones, bare shoulders, a marigold-saffron silk camisole strap at the edge; fine fresh raindrops bead on her skin and two drops run down toward the collarbone. She wears the slim omega choker at the base of her throat, its marquise stone and the two pear drops on the fine chain falling down the centre line of her chest, the pears echoing the raindrops beside them.\n\nCROP: the frame is cut straight across at the CHIN; NO lips, NO nose, NO eyes anywhere in this picture. Inside the frame: chin edge, neck, collarbones, shoulders, upper chest.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A SLIM OMEGA CHOKER: a smooth round flexible gold collar about 2mm thick; at its centre ONE horizontal marquise-cut clear stone in a claw setting; from it ONE fine chain drops about 6cm carrying ONE small pear-cut clear stone halfway and ONE pear-cut clear stone at the end. Exactly one marquise and two pears; the collar stays a smooth omega, never a link chain, never a tassel.\n\nSCALE TEST: The marquise is 10mm wide, about the width of a raindrop's run; each pear is 6mm, the size of the biggest raindrops; the drop chain is about 6cm, reaching just below the collarbones.\n\nCOPY SPACE: the upper left third of the frame is soft, plain warm cream background beside the neck, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic.\n\nABSENCE LIST: No text, no letters, no logo, no watermark. No eyes, no nose, no lips. No other jewellery, no earrings. No props. No border, no vignette: the photograph fills the frame edge to edge.\n\nSTORY FRAME: tall 9:16. The top quarter of the frame is calm, empty background for a headline and the bottom fifth is calm, empty surface for a price line; the jewellery sits in the middle band, at the same true small scale.",
+"medias": [
+{
+"value": "b1c5bfa1-9350-452e-9056-bdb8ce069746",
+"role": "image_references"
+},
+{
+"value": "24febf46-6d9f-4fa3-b496-ad9e2d23d01c",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "P13_kandil_916",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "9:16",
+"prompt": "Witty editorial advertising still life, 9:16 vertical Story frame, Diwali evening. Three small handmade paper akash kandil lanterns, star-shaped, one aqua, one soft pink, one pale butter yellow, glow softly from within at the upper right, slightly out of focus; below them on a pale ivory lime-plaster floor the bracelet lies open in a gentle curve, each pastel stone carrying the glow of the lantern of its own colour. Preserve the bracelet from reference 1 exactly, with its stones built exactly as in reference 2: a continuous line of square cushion-cut stones about 5mm each in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine pave halo of tiny clear stones, linked in rhodium silver tone with a fold-over clasp. Do not redesign, restyle, resize or add anything; the stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never other colours, and no two neighbouring stones are ever the same colour; every stone keeps its halo of two rows of very fine pave, the halo about a third as wide as the centre stone on each side; each stone is held by four short round bead claws flush at its corners, never long prongs or spikes. Only the background, surface and lighting change. CRITICAL SCALE: each stone is about 5mm, the size of a peppercorn, and each stone in its halo is about 8mm square; the bracelet is about 18cm long and only about 8mm wide, a slim line. Each lantern is about 20cm across, far larger than the bracelet. COPY SPACE: the upper left third is calm, softly lit empty plaster wall for a headline. LIGHT: the lanterns' soft coloured glow, a soft warm fill from the left, one small hard kicker giving the silver a crisp edge and every stone a white catchlight. ABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.\n\nSTORY FRAME: tall 9:16. The top quarter of the frame is calm, empty background for a headline and the bottom fifth is calm, empty surface for a price line; the jewellery sits in the middle band, at the same true small scale.",
+"medias": [
+{
+"value": "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+"role": "image_references"
+},
+{
+"value": "e7ef630a-57fb-47f7-8a6e-24b056372a66",
+"role": "image_references"
+}
+]
+}
+}
+]

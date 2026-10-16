@@ -1,0 +1,21 @@
+[
+{
+"key": "E2_crystal_mishri2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a pale sand-coloured handwoven linen cloth, a small heap of mishri, clear irregular rock-sugar crystals of 5 to 12mm, glints at the upper right in a tiny brass katori bowl, a few crystals spilled onto the linen. The clear baguette tennis bracelet, closed, lies as one oval loop in the CENTRE of the frame, just below the middle, its crisp step-cut stones answering the rough sugar crystals. The LOWER FIFTH of the frame is plain, empty linen with nothing on it.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A TENNIS BRACELET: ONE continuous line of clear rectangular BAGUETTE-cut stones set CROSSWISE, side by side like the rungs of a ladder, each stone in its own slim gold box setting with tiny corner claws, edge to edge with no gaps, about 4mm wide; closed by a slim gold box clasp. Warm 18k gold tone, colourless stones. The stones stay slim rectangular baguettes set crosswise in ONE row, never round brilliants, never two rows, never coloured.\n\nSCALE TEST: Each baguette is about 4mm wide; each sugar crystal is 5 to 12mm, one to three stones across; the katori is about 7cm; the closed bracelet is a 5.5cm oval. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third and the lower fifth of the frame are calm, empty linen, softly lit, for the headline and the price line.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "ea1318ed-e423-4741-ae0f-aa6e61ed5686",
+"role": "image_references"
+},
+{
+"value": "f308b698-de9e-4765-93a1-862455d9690b",
+"role": "image_references"
+}
+]
+}
+}
+]

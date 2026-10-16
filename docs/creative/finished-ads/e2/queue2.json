@@ -1,0 +1,154 @@
+[
+{
+"key": "E2_ruby_anaar2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a pale ivory lime-plaster surface, half a pomegranate lies cut face up at the upper right edge of the frame, its glistening deep-red arils packed in white pith; seven loose arils have rolled out across the plaster. ONE single ruby baguette tennis bracelet, CLOSED with its box clasp shut, lies as ONE continuous unbroken oval loop in the lower middle, the loose arils around it, its stones exactly the same deep red as the seeds.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A TENNIS BRACELET: ONE continuous line of deep RUBY-RED rectangular BAGUETTE stones set CROSSWISE, side by side like the rungs of a ladder, each stone held by gold claws at its four corners, edge to edge with no gaps, about 5mm wide; a gold box clasp with a fold-over safety tongue. Warm 18k gold tone. The stones stay rectangular baguettes set crosswise, never round, never set lengthways; all stones ruby red, never pink, never orange.\n\nSCALE TEST: Each baguette is 5 by 2.5mm; each pomegranate aril is about 9mm, a little larger than one stone; the closed bracelet is a 5.5cm oval, 5mm wide. There is exactly ONE bracelet and ONE clasp; the loop is never broken into two pieces and never has loose ends. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, empty ivory plaster, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "8f32aadf-cad8-4f98-977d-94d47041723d",
+"role": "image_references"
+},
+{
+"value": "66961974-9e38-48e7-827c-0f68b94881d2",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_droplet_rain2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a smooth pale grey slate just after rain, clear water drops of many sizes are beaded across the slate AROUND the cuff; the open cuff lies in the lower middle, perfectly dry, its polished ball end and smooth teardrop end sitting among water drops of the same shapes, so the gold ends look like two more drops. The metal itself carries NO water at all: no drops, no rings, no beads on the gold.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: AN OPEN CUFF BRACELET (the GOLD cuff in IMAGE 1; ignore the silver cuff and the rings): one slim round polished gold wire about 3mm thick bent into an open oval; ONE end finishes in a polished round BALL, the other end swells into a smooth elongated TEARDROP; the two ends sit across a small gap. No stones. One ball and one teardrop, never two balls, never two teardrops, never stones, never closed.\n\nSCALE TEST: The cuff is about 6cm across; its ball end is 9mm; the water drops on the slate range from 2 to 9mm, so the biggest drop matches the ball. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper third of the frame is calm, empty wet slate, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "05a58063-951e-4d9f-b42d-b2e4bfa3c517",
+"role": "image_references"
+},
+{
+"value": "49fb5ec6-4e75-45b6-8b83-09396202750d",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_knot_gath",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a deep red silk dupatta with a thin gold zari border, a corner of the cloth is tied in one soft, loose ceremonial knot (a gathbandhan knot) at the upper right; the gold knot bangle lies in the lower middle on the silk, its polished X knot echoing the tied cloth.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A flexible bangle of round gold snake-coil (tubogas) wire about 5mm thick, finely ribbed all the way round, whose two ends overlap on top of the wrist and are bound by ONE smooth polished X: two polished bands crossing like a kiss. Warm 18k gold tone, no stones. The wire stays a ribbed snake coil, never a smooth tube, never a chain; exactly one polished X at the front; no stones.\n\nSCALE TEST: The bangle is about 6cm across; its X knot is 12mm; the fabric knot is about 7cm, six times the bangle's knot. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, smooth, empty red silk, softly lit, for a headline (headline will be set in cream).\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "64eb7c27-1df1-4bfd-ac18-956a498d56a0",
+"role": "image_references"
+},
+{
+"value": "d6f273cc-a3f1-4799-898e-8ca57739ddae",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_duo_gangajamuni",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a round antique Ganga-Jamuni platter, worked in alternating inlaid bands of warm brass and pale silver metal, the two-tone link necklace lies in a relaxed loop across the lower half, its gold-tone and silver-tone links repeating the platter's two metals.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A NECKLACE of large ELONGATED OVAL links about 20mm long, polished GOLD-tone and SILVER-tone links mixed along its length, each link joined to the next by a short gold connector of two small stacked gold rings like rondelles; a gold lobster clasp with a short extender chain at the back. Two-tone stainless steel. The links stay long smooth ovals, never round, never curb, never paperclip wire; both gold and silver links must show; no pendant.\n\nSCALE TEST: Each oval link is about 20mm long; the platter is 30cm across, its inlaid bands about 15mm wide, close to one link long. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, plain polished metal of the platter rim or soft background, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "212992b6-3e08-49a5-900c-6268047a884f",
+"role": "image_references"
+},
+{
+"value": "d99d4749-f07e-4057-bfe9-b0b7f7c86ded",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_mesh_silk",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a pale ivory lime-plaster surface, a loose skein of raw golden tussar silk yarn lies at the upper right, its fine strands catching the light; the gold woven-mesh cuff lies in the lower middle, its fine woven mesh rhyming with the silk threads.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: An OPEN CUFF bangle: a thick rounded tube about 15mm wide made of fine woven steel MESH, a soft milanese mesh of tiny interlocking links like a mesh watch strap rolled into a tube, bent into a C. Each end is closed by a solid mirror-polished end cap shaped like a flat oval disc; the two caps face each other across a gap of about 2.5cm. Warm 18k gold-tone plating throughout, never brassy. No stones. The mesh stays a fine woven mesh, never chain links, never a smooth solid band, never a braid or a rope; no stones; no clasp; the end caps stay plain polished ovals.\n\nSCALE TEST: The cuff is about 6cm across and its mesh tube 15mm wide; the silk skein is about 15cm long. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, empty ivory plaster, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "2420c01a-9ab6-4f7d-8a3b-f98669d603ef",
+"role": "image_references"
+},
+{
+"value": "284ed0b2-106a-412d-b02c-2d9d37702273",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_meshring_chai",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On a pale ivory lime-plaster surface, an old brass tea strainer (chai channi) with a fine woven mesh bowl lies at the upper right, a few dark tea leaves caught in it, a faint ring of chai on the plaster; the gold mesh band ring stands upright in the lower middle foreground, its fine woven mesh the same weave as the strainer's.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A WIDE MESH BAND RING (the GOLD ring in IMAGE 1; ignore the silver one): a band about 10mm wide made entirely of fine woven metal MESH like a tiny Milanese strap, gently rounded, with neat rolled edges, closed all the way round; no stones, no end caps. Fine woven mesh all round, never smooth, never a chain, never ridged tubogas.\n\nSCALE TEST: The ring is 10mm wide and 17mm across inside; the strainer bowl is 7cm across, four times the ring. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, empty ivory plaster, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "1a5ba20f-55b6-44f4-8650-19a3ae7474cc",
+"role": "image_references"
+},
+{
+"value": "ea086bee-4a9a-4529-a4f2-273502652634",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_roman_ghadi",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising still life, 4:5 vertical frame, for an Indian demi-fine jewellery brand. On cream handmade paper, the face of an old brass wall clock with plain black Roman numerals and slim black hands lies flat at the upper right, partly out of frame; the three-band Roman numeral ring stands upright on its edge in the lower middle foreground, its numerals echoing the clock's. The clock face carries only Roman numerals, no words, no brand.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A STACKED THREE-BAND RING worn as one piece: TOP a slim ROSE-GOLD band engraved with Roman numerals with round clear stones in round bezels between them; MIDDLE a slim SILVER-TONE band with two rows of tiny pavé clear stones; BOTTOM a wider polished GOLD band with Roman numerals CUT RIGHT THROUGH the metal as open windows. The three bands stack flush together. Three bands in this order: rose with stones, silver pavé, gold cut-out; the numerals stay crisp Roman numerals; never merged into one band, never all one colour. No measuring marks.\n\nSCALE TEST: The ring is about 16mm tall and 17mm across inside; the clock face is 25cm across, each numeral on it about 2cm tall. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged.\n\nCOPY SPACE: The upper left third of the frame is calm, empty cream paper, softly lit, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic. \n\nABSENCE LIST: No text, no letters, no logo, no watermark, no price tag anywhere in frame. No hands, no people. No second piece of jewellery. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "4bbbe8b9-4348-413c-a150-16febf4a1100",
+"role": "image_references"
+},
+{
+"value": "a1f8cbad-3cb3-4a36-98d2-fb84b0897e69",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "E2_choker_monsoon",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "Witty editorial advertising photograph, 4:5 vertical frame, monsoon. A close crop of a young Indian woman's neck and collarbones, warm mid-brown skin with golden undertones, bare shoulders, a marigold-saffron silk camisole strap at the edge; fine fresh raindrops bead on her skin and two drops run down toward the collarbone. She wears the slim omega choker at the base of her throat, its marquise stone and the two pear drops on the fine chain falling down the centre line of her chest, the pears echoing the raindrops beside them.\n\nCROP: the frame is cut straight across at the CHIN; NO lips, NO nose, NO eyes anywhere in this picture. Inside the frame: chin edge, neck, collarbones, shoulders, upper chest.\n\nTHE PRODUCT: IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its plaster cube, background and light. IMAGE 2 is the supplier photograph of the same piece, for construction detail only; ignore everything else in it. Preserve the piece exactly: do not redesign, restyle, resize or add anything. CONSTRUCTION LOCK: A SLIM OMEGA CHOKER: a smooth round flexible gold collar about 2mm thick; at its centre ONE horizontal marquise-cut clear stone in a claw setting; from it ONE fine chain drops about 6cm carrying ONE small pear-cut clear stone halfway and ONE pear-cut clear stone at the end. Exactly one marquise and two pears; the collar stays a smooth omega, never a link chain, never a tassel.\n\nSCALE TEST: The marquise is 10mm wide, about the width of a raindrop's run; each pear is 6mm, the size of the biggest raindrops; the drop chain is about 6cm, reaching just below the collarbones.\n\nCOPY SPACE: the upper left third of the frame is soft, plain warm cream background beside the neck, for a headline.\n\nLIGHT: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight, never flat colour. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, dust, believable imperfection, nothing plastic.\n\nABSENCE LIST: No text, no letters, no logo, no watermark. No eyes, no nose, no lips. No other jewellery, no earrings. No props. No border, no vignette: the photograph fills the frame edge to edge.",
+"medias": [
+{
+"value": "b1c5bfa1-9350-452e-9056-bdb8ce069746",
+"role": "image_references"
+},
+{
+"value": "24febf46-6d9f-4fa3-b496-ad9e2d23d01c",
+"role": "image_references"
+}
+]
+}
+}
+]
