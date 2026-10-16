@@ -114,11 +114,11 @@ byid = {f["id"]: f for f in frames}; finished = []
 os.makedirs(f"{OUT}/ads", exist_ok=True); os.makedirs(f"{OUT}/at", exist_ok=True)
 for a in json.load(open(f"{FA}/ads.json"))["ads"]:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
-    if not os.path.exists(src) or a["id"] not in byid: continue
-    fr, r = byid[a["id"]], (REV.get(a["id"], {}) if SIG.get(a["id"]) == adsig(a) else {}); im = Image.open(src); w, h = im.size
+    if not os.path.exists(src) or a.get("plate", a["id"]) not in byid: continue
+    fr, r = byid[a.get("plate", a["id"])], (REV.get(a["id"], {}) if SIG.get(a["id"]) == adsig(a) else {}); im = Image.open(src); w, h = im.size
     shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
     im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
-    finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a['id']} · finished ad", kind="Finished ad",
+    finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a.get('plate', a['id'])} · finished ad" + (" · Story" if a.get("ext") else ""), kind="Finished ad",
         name=a["h"], copy=a["c"], aspect=a["fmt"], w=w, h=h, st="ad", score=r.get("score"), label=r.get("verdict", ""),
         line=(r.get("strengths") or [a["n"]])[0], reasons=r.get("issues", []), notes=r.get("strengths", []), fix=" ".join(r.get("fixes", [])),
         cr=0, piece=fr["piece"], price=fr["price"], sku=fr["sku"], t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",

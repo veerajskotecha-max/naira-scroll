@@ -3,7 +3,8 @@
 # and a contact sheet. Usage: build_ads.py [--cfg controls.json] [id ...]   (no ids = all; ads.json by default)
 # An entry with "path" uses that photo (relative to docs/creative) instead of a keeper plate, as the plain controls do.
 import json, os, re, subprocess, sys
-from PIL import Image
+import numpy as np
+from PIL import Image, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SPB = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad"
@@ -27,18 +28,44 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative}
 .card{background:rgba(251,248,243,.94);padding:30px 34px 26px}
 """
 
+def smooth1d(row, sigma):
+    r = int(sigma * 3); x = np.arange(-r, r + 1); k = np.exp(-x ** 2 / (2 * sigma ** 2)); k /= k.sum()
+    pad = np.pad(row, ((r, r), (0, 0)), mode="edge")
+    return np.stack([np.convolve(pad[:, c], k, mode="valid") for c in range(3)], 1)
+
+def extend916(im):
+    # A 4:5 photo set in a 9:16 frame: above and below, its own backdrop continues from the edge rows and drifts to their mean
+    # colour, with the seams softened and a fine grain to match. The extension sits mostly under the Stories interface.
+    a = np.asarray(im.resize((1080, 1350), Image.LANCZOS)).astype(np.float32); H, off = 1920, 285
+    can = np.zeros((H, 1080, 3), np.float32); can[off:off + 1350] = a
+    for rows, rng in ((a[:30], range(off - 1, -1, -1)), (a[-30:], range(off + 1350, H))):
+        row = smooth1d(rows.mean(0), 25); flat = rows.reshape(-1, 3).mean(0); n = len(rng)
+        for i, y in enumerate(rng):
+            t = min(1, (i / n) ** 0.8); can[y] = row * (1 - t) + flat * t
+    img = Image.fromarray(np.clip(can, 0, 255).astype(np.uint8))
+    blur = img.filter(ImageFilter.GaussianBlur(10)); mp = np.zeros((H, 1080), np.float32)
+    for seam in (off, off + 1350):
+        for d in range(-40, 41):
+            if 0 <= seam + d < H: mp[seam + d] = np.maximum(mp[seam + d], 1 - abs(d) / 40)
+    img = Image.composite(blur, img, Image.fromarray((mp * 255).astype(np.uint8)))
+    g = np.random.default_rng(7).normal(0, 2.2, (H, 1080, 1)).astype(np.float32)
+    mask = np.ones((H, 1, 1), np.float32); mask[off:off + 1350] = 0
+    return Image.fromarray(np.clip(np.asarray(img).astype(np.float32) + g * mask, 0, 255).astype(np.uint8))
+
 def prep(ad):
-    src = os.path.join(HERE, "..", ad["path"]) if "path" in ad else f"{SPB}/{ad['src']}/plates/{ad['id']}.png"; W, H = SIZE[ad["fmt"]]
+    src = os.path.join(HERE, "..", ad["path"]) if "path" in ad else f"{SPB}/{ad['src']}/plates/{ad.get('plate', ad['id'])}.png"
+    W, H = SIZE["4:5" if ad.get("ext") else ad["fmt"]]
     im = Image.open(src).convert("RGB"); w, h = im.size
     if w / h > W / H: nw = round(h * W / H); box = (round((w - nw) * ad.get("cx", .5)), 0, round((w - nw) * ad.get("cx", .5)) + nw, h)
     else: nh = round(w * H / W); box = (0, round((h - nh) * ad.get("cy", .5)), w, round((h - nh) * ad.get("cy", .5)) + nh)
-    path = f"{WORK}/{ad['id']}_bg.jpg"; im.crop(box).resize((W, H), Image.LANCZOS).save(path, quality=95); return path
+    path = f"{WORK}/{ad['id']}_bg.jpg"; im = im.crop(box)
+    (extend916(im) if ad.get("ext") else im.resize((W, H), Image.LANCZOS)).save(path, quality=95); return path
 
 def glue(t):
     return re.sub(r"(\d) (mm|cm)\b", "\\1\u00a0\\2", t)                  # never break a number from its unit
 
 def html(ad, bg):
-    W, H = SIZE[ad["fmt"]]; top, bottom = SAFE[ad["fmt"]]; side = ad.get("x", 72)
+    W, H = SIZE[ad["fmt"]]; top, bottom = (357, 380) if ad.get("ext") else SAFE[ad["fmt"]]; side = ad.get("x", 72)
     pos = {"tl": f"left:{side}px;top:{ad.get('y', top)}px", "tr": f"right:{side}px;top:{ad.get('y', top)}px;text-align:right;align-items:flex-end",
            "bl": f"left:{side}px;bottom:{ad.get('y', bottom if ad['fmt'] == '9:16' else 72)}px",
            "br": f"right:{side}px;bottom:{ad.get('y', bottom if ad['fmt'] == '9:16' else 72)}px;text-align:right;align-items:flex-end"}[ad["at"]]

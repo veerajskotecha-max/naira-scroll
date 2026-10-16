@@ -39,8 +39,8 @@ def main():
     tracked(c, "NAIRA PETITE  ·  READY-TO-RUN ADS  ·  OCTOBER 2026", "JostMed", 16, 60, PH - 80, 0.22)
     c.setFillColor(INK); c.setFont("Velista", 96); c.drawString(60, PH - 220, "Ready to run")
     c.setFont("CormIt", 30)
-    c.drawString(60, PH - 280, f"{len(ads)} finished ads from the keepers: the pun, a plain correction and the exact price.")
-    cols, gx, gy = 6, 20, 54; cw = (PW - 120 - gx * (cols - 1)) / cols; y = PH - 330
+    c.drawString(60, PH - 280, f"{len(ads)} finished ads from the keepers, Feed and Stories: the pun, a plain correction and the exact price.")
+    cols, gx, gy = 9, 16, 46; cw = (PW - 120 - gx * (cols - 1)) / cols; y = PH - 330
     for i in range(0, len(ads), cols):
         row = ads[i:i + cols]; rh = 0
         for k, a in enumerate(row):
