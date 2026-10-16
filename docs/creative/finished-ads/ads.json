@@ -411,7 +411,8 @@
     2048
    ],
    "wm": "ink",
-   "cs": 36
+   "cs": 36,
+   "hs": 88
   },
   {
    "id": "prismC1_m1-arm",
@@ -432,7 +433,8 @@
    ],
    "plate": "prismC1_m1",
    "wm": "ink",
-   "cs": 36
+   "cs": 36,
+   "hs": 88
   },
   {
    "id": "clusterC1_m1",

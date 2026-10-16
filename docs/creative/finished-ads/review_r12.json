@@ -1,0 +1,47 @@
+[
+ {
+  "id": "prismC1_m1",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "r9's corner is fixed by the new frame. With the yellow sweet out of the frame, the price sits on lit paper at 12.9:1 (darkest 5% 11.9; it was 4.7:1 (4.1)). The wordmark is about 90 px clear of the nearest sweet (it touched the yellow one), its ink still 43 px above the price, and its top level with the rule's, so the foot reads as one block.",
+   "The plate is composite_r3's: c4/plates/prismC1_m1.png matches review6/var/r3_clamp.png to the pixel (maximum difference 0), with the footclamp fix, and the ad's background is cut from it. At 2.5x the end links sit on the paper. Realism is the plate verdict's call: 9.5 in r3.",
+   "The tighter frame makes the real bracelet the hero: its loop is 676 plate px, 68% of the width (it was 55%). The front shadow now ends by y 1139, 48–74 px above the spec line's capitals along the front row, against about 10 px before. Headline 14.2:1 (14.0), correction 14.1:1 (13.9), spec 13.2:1 (12.4).",
+   "Against the bowl: 'ALMOST' ends at x 433 and the correction at x 389, while the rim at those heights is at about x 530–545, so both keep more than 95 px from the glass.",
+   "It hits every lever: the account's proven line and props ('Almost edible. cubic zirconia, not candy.', 10 of 16 concept sales) around the real listing photo, Prism at ₹2,399 and in stock, a candy pun, a light peach ground, Feed 4:5. Every claim is a listing fact."
+  ],
+  "issues": [
+   "[placement] The tighter frame brings the left purple sweet up under the copy. Its top is at y 321, so the correction's descenders end 17 px above it (the 'y' of 'candy' at x 369; 30–35 px along most of the line). At 390 px the copy block looks as if it rests on the sweet.",
+   "[brand, minor] The wordmark sits on the soft edge of the right purple sweet's shadow: 58% of its box is in shade, 'NA' on lit paper and 'IRA' in the penumbra. It reads 4.7:1 (darkest 5% 3.6), about the 3.9:1 r5 accepted for this ad, and it is about 90 px below the sweet. Legible at 390 px, a little murky.",
+   "[brand, minor] The 1.08x upscale costs some fine detail. On the front row the high-pass energy is 5.54, against 6.23 in the old 0.88x frame and 6.27 on the plate itself (11% down); the sugar on the pink sweet is 18% down. At 2x the pavé dots still resolve one by one, and at 390 px wide the difference is invisible.",
+   "[ceiling: photo] The metal keeps the listing's soft studio light, with no hard sun glints on the link tops or prongs (composite_r3's open item for 10). Ceiling 9.5.",
+   "[placement] The same image as prismC1_m1-arm."
+  ],
+  "fixes": [
+   "[apply] \"hs\": 88 (the size T10_a1, H09_a1 and P02_a2c use). Tested: 'ALMOST / EDIBLE.' (lines 326 and 282 px), and the correction moves up 22 px, so its descenders end 39 px above the left sweet. Headline 14.2:1 (14.0) and correction 14.1:1 (13.9) are unchanged, and nothing else moves. Takes it to 9.5, its ceiling.",
+   "Tested and rejected: \"hs\": 92 gives only 31 px and \"gap\": 8 only 27 px. A wider frame ([0,768,1024,2048] or [0,748,1040,2048]) clears the sweet by 41–56 px, but it slides the right sweet's shadow over the corner: the price's darkest 5% falls to 5.1 and 4.2:1, and the wordmark to 4.0:1 and 3.9:1, with 72–81% of it in shade.",
+   "[no layout fix] 10 needs sun-side light on the metal: a listing shot under a hard back-left light (composite_r3).",
+   "[run] This is the one of the two to run, once \"hs\" is 88: 'Almost edible.' is the account's proven line. Put it beside P01_a1 in the Prism Feed."
+  ]
+ },
+ {
+  "id": "prismC1_m1-arm",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The same new frame and plate. The price is on lit paper at 12.9:1 (11.9), and the wordmark is about 90 px clear of the nearest sweet, so r9's corner is fixed. The bracelet takes 68% of the width, and the front shadow ends 48–74 px above the spec line.",
+   "A fresh, true pun: 'Arm candy.' / 'cubic zirconia, not sugar.' Headline 14.2:1 (14.0), correction 14.1:1 (13.9), spec 13.2:1 (12.4). 'CANDY.' ends at x 373 and the correction at x 380, more than 150 px from the bowl's rim."
+  ],
+  "issues": [
+   "[placement] As in prismC1_m1, the correction's descenders (the 'g' of 'sugar' at x 339) end 20 px above the left purple sweet.",
+   "[brand, minor] The wordmark sits on the soft edge of the right purple sweet's shadow: 58% of its box is in shade, 'NA' on lit paper and 'IRA' in the penumbra. It reads 4.7:1 (darkest 5% 3.6), about the 3.9:1 r5 accepted for this ad, and it is about 90 px below the sweet. Legible at 390 px, a little murky.",
+   "[brand, minor] The 1.08x upscale costs some fine detail. On the front row the high-pass energy is 5.54, against 6.23 in the old 0.88x frame and 6.27 on the plate itself (11% down); the sugar on the pink sweet is 18% down. At 2x the pavé dots still resolve one by one, and at 390 px wide the difference is invisible.",
+   "[ceiling: photo] There is no arm in the frame, so half the pun lives in the words, and the line has no history. The metal keeps its studio light. Ceiling 9.",
+   "[placement] The same image as prismC1_m1."
+  ],
+  "fixes": [
+   "[apply] \"hs\": 88. Tested: 'ARM / CANDY.' (lines 176 and 275 px), and the correction's descenders end 42 px above the left sweet; headline 14.2:1 (14.0), correction 14.1:1 (13.9). Takes it to 9, its ceiling.",
+   "[run] Hold it. Once prismC1_m1 has about ₹2,500 of spend, run this as a pure copy test (same image, new line) in the same ad set."
+  ]
+ }
+]
