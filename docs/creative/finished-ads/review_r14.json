@@ -1,0 +1,45 @@
+[
+ {
+  "id": "prismC1_m1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed exactly as tested. At hs 88 'ALMOST / EDIBLE.' sets in lines of 326 and 282 px, and the correction moves up 22 px (its box now y 240–282). Its descenders end 39 px above the left purple sweet at the closest point (the 'y' of 'candy' at x 369), where r12 measured 17 px. Headline 14.2:1 (darkest 5% 14.0), correction 14.1:1 (13.9).",
+   "Nothing else moved. The rendered layout matches the r12 hs-88 test in all 12 measured elements, and only the headline block changed against the r12 render. The foot is where it was: rule, spec, CTA, price and wordmark at the same boxes. Between the copy and the foot the render equals the plate crop to the pixel (maximum difference 0). The plate is still composite_r3's (identical to review6/var/r3_clamp.png), in box [0,798,1000,2048].",
+   "The foot is unchanged: spec 13.2:1 (12.4) and price 12.9:1 (11.9) on lit paper. The ink wordmark reads 4.7:1 (3.6), 43 px above the price and about 90 px below the right sweet. The front shadow ends 48–74 px above the spec line.",
+   "It hits every lever: the account's proven line and props ('Almost edible. cubic zirconia, not candy.', 10 of 16 concept sales) around the real listing photo, which fills 68% of the width. Prism at ₹2,399 and in stock, a candy pun, a light peach ground, Feed 4:5. Every claim is a listing fact."
+  ],
+  "issues": [
+   "[brand, minor] The wordmark sits on the soft edge of the right purple sweet's shadow (58% of its box in shade) at 4.7:1 (3.6). Legible at 390 px, a little murky; no config option clears that shadow (r12).",
+   "[brand, minor] The 1.08x upscale costs about 11% of the fine detail on the front row against the old 0.88x frame. The pavé still resolves at 2x, and the difference is invisible at 390 px.",
+   "[ceiling: photo] The metal keeps the listing's soft studio light, with no hard sun glints on the link tops or prongs (composite_r3's open item for 10). Ceiling 9.5.",
+   "[placement] The same image as prismC1_m1-arm."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] 10 needs sun-side light on the metal: a listing shot under a hard back-left light (composite_r3).",
+   "[run] Run this one of the two: 'Almost edible.' is the account's proven line. Put it beside P01_a1 in the Prism Feed."
+  ]
+ },
+ {
+  "id": "prismC1_m1-arm",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed exactly as tested. At hs 88 'ARM / CANDY.' sets in lines of 176 and 275 px, and the correction's descenders (the 'g' of 'sugar' at x 339) end 42 px above the left purple sweet, where r12 measured 20 px. Headline 14.2:1 (14.0), correction 14.1:1 (13.9).",
+   "Nothing else moved. The rendered layout matches the r12 hs-88 test in all 12 measured elements, and only the headline block changed against the r12 render. The foot is where it was: rule, spec, CTA, price and wordmark at the same boxes. Between the copy and the foot the render equals the plate crop to the pixel (maximum difference 0). The plate is still composite_r3's (identical to review6/var/r3_clamp.png), in box [0,798,1000,2048].",
+   "The foot is unchanged: spec 13.2:1 (12.4) and price 12.9:1 (11.9) on lit paper. The ink wordmark reads 4.7:1 (3.6), 43 px above the price and about 90 px below the right sweet. The front shadow ends 48–74 px above the spec line.",
+   "A fresh, true pun on the same image: 'Arm candy.' / 'cubic zirconia, not sugar.'"
+  ],
+  "issues": [
+   "[brand, minor] The wordmark sits on the soft edge of the right purple sweet's shadow (58% of its box in shade) at 4.7:1 (3.6). Legible at 390 px, a little murky; no config option clears that shadow (r12).",
+   "[brand, minor] The 1.08x upscale costs about 11% of the fine detail on the front row against the old 0.88x frame. The pavé still resolves at 2x, and the difference is invisible at 390 px.",
+   "[ceiling: photo] There is no arm in the frame, so half the pun lives in the words, and the line has no history. The metal keeps its studio light. Ceiling 9.",
+   "[placement] The same image as prismC1_m1."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] Hold it until prismC1_m1 has about ₹2,500 of spend, then run it as a pure copy test (same image, new line) in the same ad set."
+  ]
+ }
+]
