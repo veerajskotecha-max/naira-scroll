@@ -1,0 +1,184 @@
+[
+ {
+  "id": "P11_a1-story",
+  "score": 8.4,
+  "verdict": "fix",
+  "strengths": [
+   "The order is now right. Read from the top clasp, the stones run A Y P A Y P A Y P A Y P A Y P A Y P A Y P A Y P A, a strict cycle with 25 links. The one unavoidable repeat, A next to A, falls across the clasp gap, which is the best place for it. At 390 px the loop reads as an even pastel cycle that matches P12 and P13.",
+   "The pastes stay inside the links. A diff against P11_diya_916_orig.png shows every change confined to the eleven stone squares, so there are no blotches, haze or colour on the plaster.",
+   "The r21 layout holds: 'PASTEL.' sits clear of the front diya, the copy and spec respect both Story UI zones, and the warm diya light on the clasp-end stones is still the strongest Diwali signal in the set."
+  ],
+  "issues": [
+   "[photo] Nine or ten of the eleven transplants show the stone inside a second stone. Each donor stone was pasted smaller than the old stone's girdle, so a pale glassy frame of the old colour surrounds the new one. This shows clearly at 2x and faintly at 1x on a phone, and Story viewers see 1x full screen. Render coordinates: yellow (214, 1000) in a grey-white frame; pink (190, 1053) in a pale green-grey frame; aqua (190, 1107) about 10–15° askew with a pinkish rim; yellow (211, 1160) inside an aqua-grey frame; yellow (369, 1287) small in a pale frame, with a white blob on its halo's top-left edge; pink (851, 1164) with an aqua rim on its right and top; aqua (877, 1108) small, rotated about 15°, in a pale frame; pink (830, 1005) with a warped outline, an aqua-grey frame at lower left and a dark speck; aqua (775, 968), next to the clasp, rotated about 20° against its halo with a dark speck at top right. Only the aqua at (298, 1248) is near clean, and it has a thin yellow rim on its right.",
+   "[photo] The worst stone is the yellow at (819, 1217). It fills only the right 60% or so of its girdle, and the left part is a pale white-grey slab. At 1x it reads as a half-white stone.",
+   "[fidelity] The doubled girdles make the transplanted stones look smaller and differently cut from the untouched ones, so the product now misreads in a different way. The left-side yellows at (211, 1160) and (214, 1000) also read amber against the lemon untouched yellows at (360, 880) and (570, 848). The donor was lit by the diya, but these links sit in cool light.",
+   "[scale, minor] Carried from r21: the loop is about twice a diya's width, so the diyas read small.",
+   "[timing] Diwali only. Stop it after 8 November."
+  ],
+  "fixes": [
+   "[retouch, required] Redo the eleven stones. Stop pasting donors that are smaller than the girdle. The most reliable method is to recolour in place: keep each stone's own luminance and facets (its L channel), transfer a*/b* (mean and standard deviation) from an untouched stone of the target colour on the same side of the loop, and mask to the old girdle out to the prong tips with a 1–2 px feather. The geometry then cannot misregister. If you keep transplanting, scale each donor until its girdle covers the old one plus 2–3 px, and match each link's halo rotation.",
+   "[retouch] Clone out the white blob on the halo at (369, 1287) and the dark specks at (830, 1005) and (775, 968). Cool the left-side yellows to match the lemon at (360, 880): about −5° hue and a little less saturation.",
+   "[check] Re-inspect all eleven stones at 2x. No frame, rim or askew stone should remain, and the plaster should stay untouched.",
+   "[fallback, new image] If an in-place recolour cannot clear the frames in time, regenerate the 9:16 plate with a strict cycle. Do not run the current file.",
+   "[set] Pair it with the P12 Feed, and run it only until 8 November."
+  ]
+ },
+ {
+  "id": "P13_a1-story",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "The front row is now strict. From the left it runs P Y A P Y A P Y A, and at 390 px it reads as a clean cycle under the three lanterns, an exact colour rhyme.",
+   "The new yellow at about (186, 1275) is seated well: the girdle fills its halo, the prong sits naturally, and there is no seam or doubled edge at 2x. The diff confines both changes to the two left stones.",
+   "The r21 layout holds. The headline sits below the pink lantern's tip, the copy ends well above the bracelet, and the spec at y ~1515 clears the bottom UI zone. Sharp halos, rhodium and links of about 8 mm keep true scale."
+  ],
+  "issues": [
+   "[retouch] The recoloured pink at the far left, about (141, 1210), keeps a pale aqua band down its lower-left third. It is a two-tone stone at 2x and faintly visible at 1x.",
+   "[retouch, minor] The transplanted yellow at about (186, 1275) is olive or mustard, darker and greener than the lemon front yellows at (545, 1365) and (895, 1280). Its facets are a little smeary.",
+   "[fidelity, minor] The soft back half, seen through the galleries, still breaks the cycle. Two aquas sit side by side right of the clasp, at about (717, 1053) and (794, 1081), the r21 fault. The back-right turn runs P Y P at about (854–942, 1109–1137), and the back-left reads A Y A Y A with no pink. Because it is out of focus this reads as tints, not a count, but the claim that the order runs strictly holds only for the front row.",
+   "[copy, minor] Carried: the headline splits 'akash kandil', and 'in a line' sits over a closed loop. Both were accepted in r21.",
+   "[timing] Diwali only. Stop it after 8 November."
+  ],
+  "fixes": [
+   "[retouch, required] Lab-transfer the far-left stone (about (141, 1210)) to the pink of the front pink at (405, 1355), masked to its full girdle, so no aqua band survives.",
+   "[retouch] Lift the yellow at (186, 1275) toward the front lemon: about +5° hue, a slightly higher L and a little less saturation.",
+   "[retouch] Recolour the soft back-row stones; at that blur a simple hue swap is safe. Do this so the loop cycles all the way round, or at minimum break the aqua pair right of the clasp.",
+   "[set] Hold it behind the P12 Feed. After this retouch it becomes the cleaner of the two Prism Stories, ahead of P11 until P11 is redone."
+  ]
+ },
+ {
+  "id": "E2_knot_a1",
+  "score": 9.4,
+  "verdict": "run",
+  "strengths": [
+   "The sharpen is clean. It sits under a soft circular mask, lifts the weave on the knot's folds and crisps the zari, and at 2x it shows no halo, crunch or mask edge. The knot now reads as cloth rather than plastic, which closes r21's photo note, and it stays naturally behind the bangle's plane of focus.",
+   "Fidelity matches N12_H: a finely ribbed coil running continuously through one smooth polished X.",
+   "'Gathbandhan, daily.' / 'one polished knot, tied for good.' is still the strongest culture rhyme in the set. The red-and-gold palette is premium and reads well at 390 px."
+  ],
+  "issues": [
+   "[layout, minor] Carried: the zari passes behind the 'HA' of 'GATHBANDHAN,'. The letters are legible at 2x and at 390 px, but this is the weakest-contrast spot on the line.",
+   "[timing] Wedding season. Run it now."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[run] Run it now and through wedding season."
+  ]
+ },
+ {
+  "id": "E2_emerald_a1",
+  "score": 9.1,
+  "verdict": "run",
+  "strengths": [
+   "The break is fixed. The headline sets as 'ELAICHI, / IN EMERALD.', which keeps the phrase whole. Line two ends near x 612, about 65 px from the nearest pod, and at 390 px it reads as intended.",
+   "The correction 'not cardamom.' ends about 35 px short of the pods, which points the line at its referent without touching it.",
+   "Fidelity and scale hold: crosswise emerald baguettes in gold claws, the frame-and-tongue clasp, and pods of 15–18 mm. Elaichi belongs with Diwali sweets."
+  ],
+  "issues": [
+   "[layout, minor] Carried: the lower clasp ends at y ~1150, about 37 px above the spec text's cap height, and overlaps its x-range (the clasp spans x ~475–640; the text ends near x 548). It is the tightest foot in the baguette set, but the two read as separate.",
+   "[set] Run it as a colour variant inside the baguette ad set, not on its own."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional] Nudge the plate up 25–30 px so the clasp clears the spec line by about 60 px.",
+   "[run] Run it as the emerald variant in the baguette set."
+  ]
+ },
+ {
+  "id": "E2_roman_a1",
+  "score": 9.1,
+  "verdict": "run",
+  "strengths": [
+   "hs 74 cleared the dial. 'FOR YOUR' now ends near x 405, about 47 px from the dial's rim at that height (it was 25–30 px). 'FINGER.' sits farther clear, and at 390 px the headline and the clock read as separate.",
+   "The dial reads as a real radial clock face, with the lower numerals inverted as they are on such dials and the hands at about 9:10. The clock retouch holds at 1x and at 390 px.",
+   "Fidelity is exact to P08_H, numeral for numeral across the rose band, the two pavé rows and the gold band. 'roman numerals, / in three tones.' is true."
+  ],
+  "issues": [
+   "[photo, minor] The four-point star glint on the pavé band is still there. The plate is byte-identical to E2_roman_ghadi_preglint.png. It is the most visible glint left in the set: it reads as an overlay at 1x and is still visible at 390 px.",
+   "[set, minor] The launch carries two timepiece rhymes, this and the watch."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional, recommended] Drop the star glint; clone in the neighbouring pavé.",
+   "[run] Run it now. It is evergreen."
+  ]
+ },
+ {
+  "id": "E2_tubogas_a1",
+  "score": 9.2,
+  "verdict": "run",
+  "strengths": [
+   "The two-line set landed exactly: 'A CHURI STACK, / FOR ONE FINGER.' keeps 'churi stack' together. It ends near x 705 at y ~200, more than 200 px above the bangle stack, and the block is no longer heavy over the small ring.",
+   "The ring matches P01_H, a puffed dome of fine polished tubogas ridges with no melted joins at 2x. The stack of thin ribbed bangles behind makes the joke in one look.",
+   "The correction and spec sit on plain wall and plinth. The warm ivory light is premium, and at 390 px the hierarchy is among the cleanest in the ring ads."
+  ],
+  "issues": [
+   "[scale, minor] Carried: the ring is about 0.65 of the stack's opening, against a real figure of about 0.3. The foreground placement explains part of it, so it reads a little large rather than wrong."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[run] Run it now. It is evergreen and not tied to a season."
+  ]
+ },
+ {
+  "id": "E2_crystal_a1",
+  "score": 9.1,
+  "verdict": "run",
+  "strengths": [
+   "hs 72 opened the gap. 'FOR KEEPS.' now ends near x 430, about 57 px from the katori's rim (it was about 37), and at 390 px the headline and bowl read as separate.",
+   "Fidelity matches N06_H: crosswise clear baguettes in gold claws, with the box clasp at the top of the loop. The loose mishri beside the bracelet is a natural scale cue.",
+   "'Mishri, for keeps.' / 'clear baguettes, / not rock sugar.' is a precise rhyme. Mishri is Diwali prasad, so the ad is in season."
+  ],
+  "issues": [
+   "[photo, minor] Carried: the front baguettes are a little milky and warm, with less white fire than N06_H.",
+   "[set] It is one of the baguette colour variants."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional] A small dodge or kicker on 4–5 front baguettes so a few facets flash white.",
+   "[run] Run it as the crystal variant in the baguette set, through Diwali and beyond."
+  ]
+ },
+ {
+  "id": "E2_choker_a1",
+  "score": 8.4,
+  "verdict": "fix",
+  "strengths": [
+   "The band is gone and the end pear is sharp. At y ~1085 all three stones the correction names (marquise, mid pear, end pear) read cleanly at 1x and at 390 px.",
+   "The wordmark and price read on the skin at bottom right, in ink on mid-tone skin at about 4:1.",
+   "Carried strengths: the correction wraps as 'a marquise and two pears, / not raindrops.'; fidelity to P14_H (ribbed omega, sideways marquise, two pears); and the earlier rivulet retouch, which shows no patch or seam."
+  ],
+  "issues": [
+   "[layout] The spec glow has become its own blemish. It is a broad milky bloom about 550 px wide (x ~150–680, y ~1100–1350) that whitens the orange strap and lays a white smear across the chest. On skin it reads as a light leak or fog, not a scrim, and at 390 px it is the first thing you see at bottom left. The ad has traded the band's fog over the pear for fog over the body.",
+   "[photo, minor] Carried: the four-point star glint on the marquise is still there. The long rivulet at x ~545 keeps its thick, bulb-ended shape, and the dense beading reads closer to sweat than rain.",
+   "[timing] Monsoon is off-season for an October–November launch, and the idea overlaps the droplet ad."
+  ],
+  "fixes": [
+   "[layout] Shrink the glow to the spec and CTA block (about x 40–640, y 1150–1300) at roughly half its current opacity, with a long feather so it reads as a pool of light. Check that the spec line keeps at least 4.5:1 where it crosses the strap and the shadowed skin.",
+   "[retouch] Remove the star glint on the marquise. Thin the rivulet to about half its width, break it into a trail with one or two separate drops, and remove the bulb end.",
+   "[re-frame, better] Outpaint the plate down by about 150 px so the foot sits on calm lower chest and fabric and needs no glow at all.",
+   "[schedule] Hold it until June, together with the Story."
+  ]
+ },
+ {
+  "id": "P12_a1",
+  "score": 8.7,
+  "verdict": "fix",
+  "strengths": [
+   "Re-confirmed. Read from the clasp the stones run A Y P A Y P A Y P A Y P A Y P, a strict cycle whose transplanted yellows and pinks match the untouched stones in hue. At 1x and at 390 px it is still the cleanest Prism frame: three sarees, three stone colours and one line of light.",
+   "'Matches all three.' / 'aqua, pink and yellow, in one bracelet.' is still the best Prism idea, and it outlives Diwali into wedding season.",
+   "Its transplants are now visibly better seated than P11's, so P12 is the reference for the Prism retouch method."
+  ],
+  "issues": [
+   "[note] The plate and render are timestamped 21:11, three minutes after r21 was filed. This review reads the current files.",
+   "[photo] The r21 misregistrations persist at 2x. The pink at (826, 430) now sits closer to square in its halo but keeps aqua corners on its left and right. The yellow at (718, 509) keeps a thin aqua rim along its top and right. The yellow at (584, 695) shows teal at its lower-right corner. The yellow next to the clasp at (880, 401) is still rotated against its neighbours, with a sliver of a second halo edge on its left. The aqua at (774, 466) sits in a faintly lighter disc of silk, and the aqua at (619, 628) has a white haze along its left halo edge on the pink silk. None of this shows at 1x or at 390 px.",
+   "[layout] Carried: the band still fogs the last two links and the clasp (y ~1080–1160), so at 390 px the bracelet dissolves at bottom left.",
+   "[timing] Fine through Diwali and into wedding season."
+  ],
+  "fixes": [
+   "[retouch, required] Re-seat the stones as r21 specified, or apply the in-place Lab colour transfer recommended for P11 to the affected stones. Clear the aqua corners and rims at (826, 430), (718, 509) and (584, 695). Rotate the yellow at (880, 401) to its halo and clone out the ghost halo edge. Restore the silk around (774, 466) and (619, 628) from P12_saree_orig.png.",
+   "[layout, try now] Use \"fscrim\": \"spec\" in place of \"band\": true so the last links and clasp stay sharp, but keep the glow tight and low. The choker shows what an oversized glow does.",
+   "[re-cut, later] Outpaint or regenerate so the clasp ends at y ≤ 1120, then drop the band.",
+   "[set] Once it is re-seated, make it the Feed lead for Prism."
+  ]
+ }
+]
