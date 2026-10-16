@@ -1,0 +1,2480 @@
+{
+ "products": [
+  {
+   "id": "N01",
+   "title": "Silk Mesh Cuff",
+   "handle": "silk-mesh-cuff",
+   "type": "Bracelet",
+   "price": 1899,
+   "pi": "YF3482",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF3482-G",
+     "pi_line": 6,
+     "qty": 20,
+     "image": "N02_H",
+     "price": null,
+     "cost_usd": 3.95
+    },
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF3482-S",
+     "pi_line": 7,
+     "qty": 20,
+     "image": "N01_H",
+     "price": null,
+     "cost_usd": 3.95
+    }
+   ],
+   "gallery": [
+    "N02_H",
+    "N02_W1",
+    "N02_M",
+    "N01_H",
+    "N01_W1",
+    "N01_M"
+   ],
+   "line": "Soft to the eye, firm on the wrist.",
+   "body": "An open cuff built from a rounded tube of fine woven mesh, about 15mm wide, that ends in two mirror-polished oval caps facing each other across the opening. The mesh catches light like brushed silk, so it reads quietly on its own and holds its own beside a watch. In warm gold or bright silver tone.",
+   "size": "Open cuff, about 6cm across inside; mesh tube about 15mm wide; gap about 2.5cm",
+   "macro_alt": "Fine woven mesh tube with polished oval end caps, silver tone",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bracelet",
+    "Cuff",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N03",
+   "title": "Garnet Cable Cuff",
+   "handle": "garnet-cable-cuff",
+   "type": "Bracelet",
+   "price": 1999,
+   "pi": "—",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "N03-GARNET",
+     "pi_line": null,
+     "qty": null,
+     "image": "N03_H",
+     "price": null,
+     "cost_usd": null
+    }
+   ],
+   "gallery": [
+    "N03_H",
+    "N03_W1",
+    "N03_W2",
+    "N03_M"
+   ],
+   "line": "A twisted cable, finished in gold.",
+   "body": "A slim open cuff of twisted silver-tone cable, about 5mm thick, finished at each end with a gold barrel of two pavé rows and a round garnet-red stone set at the tip. The two tips sit face to face on top of the wrist, so the colour is always in view.",
+   "size": "Open cuff, about 6cm across inside; cable about 5mm; end barrels about 9mm",
+   "macro_alt": "Gold pavé barrels with garnet-red tips on a twisted silver cable",
+   "stones": "Two round garnet-red stones; clear pavé collars",
+   "tags": [
+    "Bracelet",
+    "Cubic Zirconia",
+    "Cuff",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Two Tone",
+    "Waterproof"
+   ],
+   "flags": [
+    "Not on the Yiss Fera PI: confirm supplier code and stock."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "N04",
+   "title": "Triple Coil Wrap Bangle",
+   "handle": "triple-coil-wrap-bangle",
+   "type": "Bracelet",
+   "price": 1899,
+   "pi": "YF3937",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF3937-G",
+     "pi_line": 40,
+     "qty": 10,
+     "image": "N04_H",
+     "price": null,
+     "cost_usd": 4.15
+    },
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF3937-S",
+     "pi_line": 41,
+     "qty": 10,
+     "image": "N04_S",
+     "price": 1799,
+     "cost_usd": 3.51
+    }
+   ],
+   "gallery": [
+    "N04_H",
+    "N04_W1",
+    "N04_M",
+    "N04_S"
+   ],
+   "line": "Three turns, one line of gold.",
+   "body": "One continuous snake-coil wire, finely ribbed and about 4mm thick, wraps the wrist in three stacked turns. Each end finishes in a small rectangular cap set with two rows of clear pavé, one sitting on the top turn and one on the bottom. It looks like a stack, and goes on as one piece. In warm gold or bright silver tone.",
+   "size": "Three turns, about 14mm tall in total; wire about 4mm; flexible wrap",
+   "macro_alt": "Rectangular pavé end cap on the ribbed gold coil",
+   "stones": "Clear pavé end caps",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bangle",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N05",
+   "title": "Marquise Wheat Cuff",
+   "handle": "marquise-wheat-cuff",
+   "type": "Bracelet",
+   "price": 2199,
+   "pi": "YF3508",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF3508",
+     "pi_line": 34,
+     "qty": 20,
+     "image": "N05_H",
+     "price": null,
+     "cost_usd": 4.52
+    }
+   ],
+   "gallery": [
+    "N05_H",
+    "N05_W1",
+    "N05_W2",
+    "N05_M"
+   ],
+   "line": "Two rows of light, leaning into each other.",
+   "body": "An open gold cuff whose front is set with two rows of marquise-cut clear stones, each in its own fine claws and angled like the two sides of a wheat ear. The back is a slim plain band finished with small polished balls, so it slips on at the narrowest part of the wrist.",
+   "size": "Open cuff; stone rows about 14mm wide; each marquise about 7mm",
+   "macro_alt": "Two slanted rows of claw-set marquise stones",
+   "stones": "Clear marquise-cut cubic zirconia, two rows",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Cuff",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "BTB",
+   "title": "Baguette Tennis Bracelet",
+   "handle": "baguette-tennis-bracelet",
+   "type": "Bracelet",
+   "price": 1699,
+   "pi": "YF3165",
+   "status": "NEW",
+   "options": [
+    "Stone"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Crystal"
+     ],
+     "sku": "YF3165-BR-CR",
+     "pi_line": 22,
+     "qty": 30,
+     "image": "N06_H",
+     "price": null,
+     "cost_usd": 4.15
+    },
+    {
+     "options": [
+      "Ruby"
+     ],
+     "sku": "YF3165-BR-RU",
+     "pi_line": 24,
+     "qty": 20,
+     "image": "N16_H",
+     "price": null,
+     "cost_usd": 4.15
+    },
+    {
+     "options": [
+      "Emerald"
+     ],
+     "sku": "YF3165-BR-EM",
+     "pi_line": 26,
+     "qty": 20,
+     "image": "N17_H",
+     "price": null,
+     "cost_usd": 4.15
+    }
+   ],
+   "gallery": [
+    "N06_H",
+    "N06_W1",
+    "N06_M",
+    "N16_H",
+    "N16_W1",
+    "N16_M",
+    "N17_H",
+    "N17_W1",
+    "N17_M"
+   ],
+   "line": "A straight line of light, in three colours.",
+   "body": "A tennis bracelet of rectangular baguettes set crosswise, side by side, each held at its corners by gold claws and closed with a gold box clasp. About 4 to 5mm wide: fine enough for every day, bright enough for evening. In clear Crystal, deep Ruby or Emerald.",
+   "size": "Line about 4–5mm wide; box clasp; length about 17cm (confirm on sample)",
+   "macro_alt": "Crosswise clear baguettes in slim gold box settings",
+   "stones": "Baguette-cut cubic zirconia: Crystal, Ruby or Emerald",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Tennis",
+    "Waterproof"
+   ],
+   "flags": [
+    "Crystal is near-identical to the live Baguette Éclat Bracelet (₹1,800, JDB201210). Either list Crystal here or add this stock to Baguette Éclat; do not run both at different prices."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "DRP",
+   "title": "Droplet Open Ring",
+   "handle": "droplet-open-ring",
+   "type": "Ring",
+   "price": 1199,
+   "pi": "YF3791 ring",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF3791-R-G",
+     "pi_line": 13,
+     "qty": 10,
+     "image": "N08_H",
+     "price": null,
+     "cost_usd": 3.73
+    },
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF3791-R-S",
+     "pi_line": 15,
+     "qty": 10,
+     "image": "N07_H",
+     "price": null,
+     "cost_usd": 3.48
+    }
+   ],
+   "gallery": [
+    "N08_H",
+    "N08_W1",
+    "N08_M",
+    "N07_H",
+    "N07_W1",
+    "N07_M"
+   ],
+   "line": "A ball and a drop, almost touching.",
+   "body": "An open ring of smooth polished wire that swells at one end into a round ball and at the other into a long teardrop, the two sitting side by side on top of the finger. Open at the back, so it adjusts to fit. In warm gold or bright silver tone; pairs with the Droplet Open Cuff.",
+   "size": "Adjustable open ring; ball about 7mm; teardrop about 9mm",
+   "macro_alt": "Polished ball and teardrop ends, silver tone",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Adjustable",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "NSB",
+   "title": "North Star Bangle",
+   "handle": "north-star-bangle",
+   "type": "Bracelet",
+   "price": 1599,
+   "pi": "YF5204",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF5204-S",
+     "pi_line": 51,
+     "qty": 10,
+     "image": "N09_H",
+     "price": null,
+     "cost_usd": 2.18
+    },
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF5204-G",
+     "pi_line": 50,
+     "qty": 10,
+     "image": "N09_G",
+     "price": null,
+     "cost_usd": 2.3
+    }
+   ],
+   "gallery": [
+    "N09_H",
+    "N09_W1",
+    "N09_M",
+    "N09_G"
+   ],
+   "line": "Stars and stones, in turn.",
+   "body": "A slim flat bangle, about 6mm wide and mirror polished, its outer face alternating an engraved eight-point north star with a tiny stone at its heart and a round clear stone set flush in a bezel. In bright silver or warm gold tone.",
+   "size": "Rigid oval bangle; band about 6mm; inner size to confirm",
+   "macro_alt": "Engraved north star beside a bezel-set round stone",
+   "stones": "Clear round cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bangle",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N10",
+   "title": "Tile Stone Bangle",
+   "handle": "tile-stone-bangle",
+   "type": "Bracelet",
+   "price": 1599,
+   "pi": "—",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "N10-TILE",
+     "pi_line": null,
+     "qty": null,
+     "image": "N10_H",
+     "price": null,
+     "cost_usd": null
+    }
+   ],
+   "gallery": [
+    "N10_H",
+    "N10_W1",
+    "N10_W2",
+    "N10_M"
+   ],
+   "line": "Square by square.",
+   "body": "A slim gold bangle built from a row of square tiles, about 4mm each, alternating plain polished gold with a round clear stone framed in a square bezel. Clean and graphic, it stacks easily.",
+   "size": "Rigid bangle; band about 4mm; inner size to confirm",
+   "macro_alt": "Square tiles, plain and stone-set in turn",
+   "stones": "Clear round cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bangle",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "Not on the Yiss Fera PI: confirm supplier code and stock."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "KKB",
+   "title": "Kiss Knot Bangle",
+   "handle": "kiss-knot-bangle",
+   "type": "Bracelet",
+   "price": 1499,
+   "pi": "YF4152",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF4152-G",
+     "pi_line": 11,
+     "qty": 20,
+     "image": "N12_H",
+     "price": null,
+     "cost_usd": 3.2
+    },
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF4152-S",
+     "pi_line": 12,
+     "qty": 20,
+     "image": "N11_H",
+     "price": null,
+     "cost_usd": 3.2
+    }
+   ],
+   "gallery": [
+    "N12_H",
+    "N12_W1",
+    "N12_M",
+    "N11_H",
+    "N11_W1",
+    "N11_M"
+   ],
+   "line": "Two ends, one kiss.",
+   "body": "A flexible snake-coil bangle, finely ribbed and about 5mm thick, whose two ends cross on top of the wrist under one smooth polished X. In warm gold or bright silver tone.",
+   "size": "Flexible bangle; coil about 5mm; X about 12mm",
+   "macro_alt": "Polished X binding the ribbed silver coil",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bangle",
+    "Bracelet",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N13",
+   "title": "Mint Pear Drop Earrings",
+   "handle": "mint-pear-drop-earrings",
+   "type": "Earrings",
+   "price": 1499,
+   "pi": "YF7034",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF7034",
+     "pi_line": 18,
+     "qty": 20,
+     "image": "N13_H",
+     "price": null,
+     "cost_usd": 2.91
+    }
+   ],
+   "gallery": [
+    "N13_H",
+    "N13_W1",
+    "N13_W2",
+    "N13_M"
+   ],
+   "line": "Three small lights, then one of mint.",
+   "body": "From the stud, a short curved line of three small clear pear-cut stones leads down to one larger pear in pale mint green, every stone held in fine gold claws. About 22mm long, it falls just below the lobe.",
+   "size": "About 22mm long; mint pear about 9mm; butterfly backs",
+   "macro_alt": "Mint pear and three clear pears in fine gold claws",
+   "stones": "Pale mint-green pear cubic zirconia; three clear pears per earring",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Earrings",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N14",
+   "title": "Duo Link Necklace",
+   "handle": "duo-link-necklace",
+   "type": "Necklace",
+   "price": 1799,
+   "pi": "YF8079",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF8079-NEC",
+     "pi_line": 38,
+     "qty": 20,
+     "image": "N14_H",
+     "price": null,
+     "cost_usd": 3.65
+    }
+   ],
+   "gallery": [
+    "N14_H",
+    "N14_W1",
+    "N14_W2",
+    "N14_M"
+   ],
+   "line": "Gold and silver, in one line.",
+   "body": "Long oval links in gold tone and silver tone, mixed along the chain and joined by small stacked gold rings, finished with a lobster clasp and a short extender. It settles at the collarbone and wears well with both metals.",
+   "size": "About 45cm plus extender; links about 20mm",
+   "macro_alt": "Gold and silver oval links joined by stacked gold rings",
+   "stones": "None",
+   "tags": [
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Necklace",
+    "Tarnish Free",
+    "Two Tone",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N15",
+   "title": "Duo Link Bracelet",
+   "handle": "duo-link-bracelet",
+   "type": "Bracelet",
+   "price": 1299,
+   "pi": "YF8079",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF8079-BRA",
+     "pi_line": 39,
+     "qty": 20,
+     "image": "N15_H",
+     "price": null,
+     "cost_usd": 2.45
+    }
+   ],
+   "gallery": [
+    "N15_H",
+    "N15_W1",
+    "N15_W2",
+    "N15_M"
+   ],
+   "line": "Gold and silver, in one line.",
+   "body": "The bracelet to the Duo Link Necklace: long oval links in gold tone and silver tone joined by small stacked gold rings, with a lobster clasp and extender.",
+   "size": "About 18cm plus extender; links about 20mm",
+   "macro_alt": "Gold and silver oval links joined by stacked gold rings",
+   "stones": "None",
+   "tags": [
+    "Bracelet",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Two Tone",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "BEB",
+   "title": "Baguette Eternity Band",
+   "handle": "baguette-eternity-band",
+   "type": "Ring",
+   "price": 1499,
+   "pi": "YF3143",
+   "status": "NEW",
+   "options": [
+    "Stone",
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Ruby",
+      "6"
+     ],
+     "sku": "YF3143-RU-6",
+     "pi_line": 58,
+     "qty": 3,
+     "image": "N19_H",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Ruby",
+      "7"
+     ],
+     "sku": "YF3143-RU-7",
+     "pi_line": 58,
+     "qty": 3,
+     "image": "N19_H",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Ruby",
+      "8"
+     ],
+     "sku": "YF3143-RU-8",
+     "pi_line": 58,
+     "qty": 3,
+     "image": "N19_H",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Emerald",
+      "6"
+     ],
+     "sku": "YF3143-EM-6",
+     "pi_line": 59,
+     "qty": 3,
+     "image": "N18_H",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Emerald",
+      "7"
+     ],
+     "sku": "YF3143-EM-7",
+     "pi_line": 59,
+     "qty": 3,
+     "image": "N18_H",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Emerald",
+      "8"
+     ],
+     "sku": "YF3143-EM-8",
+     "pi_line": 59,
+     "qty": 3,
+     "image": "N18_H",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Amethyst",
+      "6"
+     ],
+     "sku": "YF3143-AM-6",
+     "pi_line": 57,
+     "qty": 3,
+     "image": "N19_A",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Amethyst",
+      "7"
+     ],
+     "sku": "YF3143-AM-7",
+     "pi_line": 57,
+     "qty": 3,
+     "image": "N19_A",
+     "price": null,
+     "cost_usd": 2.98
+    },
+    {
+     "options": [
+      "Amethyst",
+      "8"
+     ],
+     "sku": "YF3143-AM-8",
+     "pi_line": 57,
+     "qty": 3,
+     "image": "N19_A",
+     "price": null,
+     "cost_usd": 2.98
+    }
+   ],
+   "gallery": [
+    "N19_H",
+    "N19_W1",
+    "N19_M",
+    "N18_H",
+    "N18_W1",
+    "N18_M",
+    "N19_A"
+   ],
+   "line": "Colour all the way round.",
+   "body": "An eternity band set all the way round with rectangular baguettes laid crosswise, edge to edge, each held by small gold claws. About 5mm wide. In Ruby, Emerald or Amethyst.",
+   "size": "Band about 5mm wide; US sizes 6, 7 and 8 (3 pcs each per colour on this PI)",
+   "macro_alt": "Crosswise ruby baguettes around the band",
+   "stones": "Baguette-cut cubic zirconia: Ruby, Emerald or Amethyst",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Eternity",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "N20",
+   "title": "Pearl Nugget Hoops",
+   "handle": "pearl-nugget-hoops",
+   "type": "Earrings",
+   "price": 1499,
+   "pi": "—",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "N20-PEARL",
+     "pi_line": null,
+     "qty": null,
+     "image": "N20_H",
+     "price": null,
+     "cost_usd": null
+    }
+   ],
+   "gallery": [
+    "N20_H",
+    "N20_W1",
+    "N20_W2",
+    "N20_M"
+   ],
+   "line": "A pearl, held in a glitter of gold.",
+   "body": "Small gold hoops whose lower curve is crowded with short faceted gold beads, slightly jumbled so the edge catches light, cradling one round white pearl inside each hoop. Hinged lever backs.",
+   "size": "About 22mm across; pearl about 10mm; lever-back closure",
+   "macro_alt": "Round white pearl inside a collar of faceted gold beads",
+   "stones": "One round white pearl per hoop (pearl type to confirm)",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Demi Fine",
+    "Earrings",
+    "Hoops",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Pearl",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "Not on the Yiss Fera PI: confirm supplier code, pearl type and stock."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "N21",
+   "title": "Emerald Halo C-Hoops",
+   "handle": "emerald-halo-c-hoops",
+   "type": "Earrings",
+   "price": 1699,
+   "pi": "—",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "N21-HALO",
+     "pi_line": null,
+     "qty": null,
+     "image": "N21_H",
+     "price": null,
+     "cost_usd": null
+    }
+   ],
+   "gallery": [
+    "N21_H",
+    "N21_W1",
+    "N21_W2",
+    "N21_M"
+   ],
+   "line": "Green, ringed in light.",
+   "body": "Open C-shaped half hoops in bright silver tone, their front faces set with a row of small round emerald-green stones, each ringed in tiny clear pavé. Post backs.",
+   "size": "About 22mm tall; post back",
+   "macro_alt": "Emerald stones ringed in clear pavé along the C-hoop",
+   "stones": "Emerald-green round cubic zirconia with clear pavé halos",
+   "tags": [
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Earrings",
+    "Hoops",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "Not on the Yiss Fera PI: confirm supplier code and stock."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "BTN",
+   "title": "Baguette Tennis Necklace",
+   "handle": "baguette-tennis-necklace",
+   "type": "Necklace",
+   "price": 2299,
+   "pi": "YF3165",
+   "status": "NEW",
+   "options": [
+    "Stone"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Ruby"
+     ],
+     "sku": "YF3165-NE-RU",
+     "pi_line": 23,
+     "qty": 20,
+     "image": "N22_H",
+     "price": null,
+     "cost_usd": 5.95
+    },
+    {
+     "options": [
+      "Crystal"
+     ],
+     "sku": "YF3165-NE-CR",
+     "pi_line": 21,
+     "qty": 30,
+     "image": "N22_C",
+     "price": null,
+     "cost_usd": 5.95
+    },
+    {
+     "options": [
+      "Emerald"
+     ],
+     "sku": "YF3165-NE-EM",
+     "pi_line": 25,
+     "qty": 20,
+     "image": "N22_E",
+     "price": null,
+     "cost_usd": 5.95
+    }
+   ],
+   "gallery": [
+    "N22_H",
+    "N22_W1",
+    "N22_M",
+    "N22_C",
+    "N22_E"
+   ],
+   "line": "One line of colour at the base of the neck.",
+   "body": "A tennis necklace of rectangular baguettes set crosswise, side by side, each held at its corners by gold claws, closed with a box clasp. About 5mm wide, it sits close at the base of the neck. In deep Ruby, clear Crystal or Emerald.",
+   "size": "Length to confirm (about 40cm); line about 5mm wide; box clasp",
+   "macro_alt": "Ruby-red baguettes in gold corner claws",
+   "stones": "Baguette-cut cubic zirconia: Ruby, Crystal or Emerald",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Necklace",
+    "Tarnish Free",
+    "Tennis",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "BHG",
+   "title": "Baguette Huggies",
+   "handle": "baguette-huggies",
+   "type": "Earrings",
+   "price": 1399,
+   "pi": "YF3923",
+   "status": "NEW",
+   "options": [
+    "Stone"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Ruby"
+     ],
+     "sku": "YF3923-RU",
+     "pi_line": 54,
+     "qty": 15,
+     "image": "N23_H",
+     "price": null,
+     "cost_usd": 3.19
+    },
+    {
+     "options": [
+      "Crystal"
+     ],
+     "sku": "YF3923-CR",
+     "pi_line": 53,
+     "qty": 15,
+     "image": "N23_C",
+     "price": null,
+     "cost_usd": 3.19
+    },
+    {
+     "options": [
+      "Emerald"
+     ],
+     "sku": "YF3923-EM",
+     "pi_line": 55,
+     "qty": 15,
+     "image": "N23_E",
+     "price": null,
+     "cost_usd": 3.19
+    },
+    {
+     "options": [
+      "Amethyst"
+     ],
+     "sku": "YF3923-AM",
+     "pi_line": 56,
+     "qty": 15,
+     "image": "N23_A",
+     "price": null,
+     "cost_usd": 3.19
+    }
+   ],
+   "gallery": [
+    "N23_H",
+    "N23_W1",
+    "N23_M",
+    "N23_C",
+    "N23_E",
+    "N23_A"
+   ],
+   "line": "A small hoop of colour.",
+   "body": "Gold huggie hoops with one row of baguettes standing crosswise along the lower front, the upper half plain polished gold. Hinged snap closure. In Ruby, Crystal, Emerald or Amethyst.",
+   "size": "About 18mm across; hinged snap closure",
+   "macro_alt": "Row of ruby baguettes along the huggie",
+   "stones": "Baguette-cut cubic zirconia: Ruby, Crystal, Emerald or Amethyst",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Earrings",
+    "Huggies",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "N24",
+   "title": "Emerald Deco Hoops",
+   "handle": "emerald-deco-hoops",
+   "type": "Earrings",
+   "price": 1899,
+   "pi": "—",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "N24-DECO",
+     "pi_line": null,
+     "qty": null,
+     "image": "N24_H",
+     "price": null,
+     "cost_usd": null
+    }
+   ],
+   "gallery": [
+    "N24_H",
+    "N24_W1",
+    "N24_W2",
+    "N24_M"
+   ],
+   "line": "Green and clear, in turn.",
+   "body": "Chunky silver-tone hoops set all the way round the front with square emerald-cut green stones alternating with pairs of clear baguettes, each in bright claws. Post backs.",
+   "size": "About 22mm across; post back",
+   "macro_alt": "Square emerald stone between clear baguettes",
+   "stones": "Emerald-green square cubic zirconia alternating with clear baguettes",
+   "tags": [
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Earrings",
+    "Hoops",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "Not on the Yiss Fera PI: confirm supplier code and stock."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "N25",
+   "title": "Birthstone Heart Necklace",
+   "handle": "birthstone-heart-necklace",
+   "type": "Necklace",
+   "price": 999,
+   "pi": "—",
+   "status": "NEW",
+   "options": [
+    "Month"
+   ],
+   "variants": [
+    {
+     "options": [
+      "January · Garnet"
+     ],
+     "sku": "N25-JAN",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_jan",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "February · Amethyst"
+     ],
+     "sku": "N25-FEB",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_feb",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "March · Aquamarine"
+     ],
+     "sku": "N25-MAR",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_mar",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "April · Crystal"
+     ],
+     "sku": "N25-APR",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_apr",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "May · Emerald"
+     ],
+     "sku": "N25-MAY",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_H",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "June · Light Amethyst"
+     ],
+     "sku": "N25-JUN",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_jun",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "July · Ruby"
+     ],
+     "sku": "N25-JUL",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_jul",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "August · Peridot"
+     ],
+     "sku": "N25-AUG",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_aug",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "September · Sapphire"
+     ],
+     "sku": "N25-SEP",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_sep",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "October · Rose"
+     ],
+     "sku": "N25-OCT",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_oct",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "November · Topaz"
+     ],
+     "sku": "N25-NOV",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_nov",
+     "price": null,
+     "cost_usd": null
+    },
+    {
+     "options": [
+      "December · Blue Zircon"
+     ],
+     "sku": "N25-DEC",
+     "pi_line": null,
+     "qty": null,
+     "image": "N25_dec",
+     "price": null,
+     "cost_usd": null
+    }
+   ],
+   "gallery": [
+    "N25_H",
+    "N25_jan",
+    "N25_feb",
+    "N25_mar",
+    "N25_apr",
+    "N25_jun",
+    "N25_jul",
+    "N25_aug",
+    "N25_sep",
+    "N25_oct",
+    "N25_nov",
+    "N25_dec"
+   ],
+   "line": "A small heart, in your month's colour.",
+   "body": "A fine gold cable chain carrying one small heart-cut stone in four slim claws, the chain fixed at the heart's shoulders so it always sits straight. Choose the colour for your month, or for someone else's.",
+   "size": "Heart about 7mm; chain length to confirm (about 40cm plus extender)",
+   "macro_alt": "Heart-cut stone in four gold claws",
+   "stones": "One heart-cut cubic zirconia in the month's colour",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Birthstone",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Gift",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Necklace",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "Not on the Yiss Fera PI: confirm supplier code and stock per colour.",
+    "The May variant uses the approved green hero."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P01",
+   "title": "Tubogas Dome Ring",
+   "handle": "tubogas-dome-ring",
+   "type": "Ring",
+   "price": 1399,
+   "pi": "YF3608",
+   "status": "NEW",
+   "options": [
+    "Metal",
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold",
+      "6"
+     ],
+     "sku": "YF3608-G-6",
+     "pi_line": 1,
+     "qty": 3,
+     "image": "P01_H",
+     "price": null,
+     "cost_usd": 3.18
+    },
+    {
+     "options": [
+      "Gold",
+      "7"
+     ],
+     "sku": "YF3608-G-7",
+     "pi_line": 1,
+     "qty": 3,
+     "image": "P01_H",
+     "price": null,
+     "cost_usd": 3.18
+    },
+    {
+     "options": [
+      "Gold",
+      "8"
+     ],
+     "sku": "YF3608-G-8",
+     "pi_line": 1,
+     "qty": 3,
+     "image": "P01_H",
+     "price": null,
+     "cost_usd": 3.18
+    },
+    {
+     "options": [
+      "Silver",
+      "6"
+     ],
+     "sku": "YF3608-S-6",
+     "pi_line": 2,
+     "qty": 3,
+     "image": "P01_S",
+     "price": null,
+     "cost_usd": 3.18
+    },
+    {
+     "options": [
+      "Silver",
+      "7"
+     ],
+     "sku": "YF3608-S-7",
+     "pi_line": 2,
+     "qty": 3,
+     "image": "P01_S",
+     "price": null,
+     "cost_usd": 3.18
+    },
+    {
+     "options": [
+      "Silver",
+      "8"
+     ],
+     "sku": "YF3608-S-8",
+     "pi_line": 2,
+     "qty": 3,
+     "image": "P01_S",
+     "price": null,
+     "cost_usd": 3.18
+    }
+   ],
+   "gallery": [
+    "P01_H",
+    "P01_W1",
+    "P01_M",
+    "P01_S"
+   ],
+   "line": "The tubogas idea, scaled to one finger.",
+   "body": "A wide ring of flexible tubogas, about 10mm across the finger, its puffed dome face banded all the way round with fine polished ridges that move like an accordion as the hand bends. No stones, no seams to catch, just a lot of light from one shape. Wear it alone or stacked with a slim band.",
+   "size": "Band about 10mm wide; US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "Fine parallel ridges of the tubogas dome",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Ring",
+    "Tarnish Free",
+    "Tubogas",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P05",
+   "title": "Fine Tennis Bracelet",
+   "handle": "fine-tennis-bracelet",
+   "type": "Bracelet",
+   "price": 1299,
+   "pi": "YF7116",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF7116",
+     "pi_line": 8,
+     "qty": 20,
+     "image": "P05_H",
+     "price": null,
+     "cost_usd": 3.25
+    }
+   ],
+   "gallery": [
+    "P05_H",
+    "P05_W1",
+    "P05_W2",
+    "P05_M"
+   ],
+   "line": "The everyday line of light.",
+   "body": "One continuous row of small round brilliant clear cubic zirconia, each about 2.5mm and each in its own gold claw cup, closed with a slim box clasp. Finer than our Rivière Eternal, so it slips under a cuff or stacks with a watch without crowding it.",
+   "size": "About 17cm long (confirm on sample); stones about 2.5mm",
+   "macro_alt": "Small round stones in gold claw cups, box clasp",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Tennis",
+    "Waterproof"
+   ],
+   "flags": [
+    "Sits close to the live Rivière Eternal Bracelet (YF7085, 3mm stones, draft): keep both only if the stone sizes really differ (2.5mm vs 3–4mm)."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P06",
+   "title": "Petal Flower Studs",
+   "handle": "petal-flower-studs",
+   "type": "Earrings",
+   "price": 1199,
+   "pi": "YF7126",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF7126-G",
+     "pi_line": 10,
+     "qty": 10,
+     "image": "P06_H",
+     "price": null,
+     "cost_usd": 2.65
+    },
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF7126-S",
+     "pi_line": 9,
+     "qty": 10,
+     "image": "P06_S",
+     "price": null,
+     "cost_usd": 2.65
+    }
+   ],
+   "gallery": [
+    "P06_H",
+    "P06_W1",
+    "P06_M",
+    "P06_S"
+   ],
+   "line": "A small flower, cut to catch light.",
+   "body": "Each stud is a four petal bloom: three round clear cubic zirconia around a polished metal centre, and one larger pear cut stone falling below like a petal caught mid-drop. All claw set, on a straight post with a butterfly back, so it sits flat and close to the lobe.",
+   "size": "Each stud about 13mm tall; round stones about 4mm (confirm on sample)",
+   "macro_alt": "Three round petals and the pear petal around the polished centre",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Earrings",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Studs",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "P07",
+   "title": "Droplet Open Cuff",
+   "handle": "droplet-open-cuff",
+   "type": "Bracelet",
+   "price": 1799,
+   "pi": "YF3791 bracelet",
+   "status": "NEW",
+   "options": [
+    "Metal"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold"
+     ],
+     "sku": "YF3791-B-G",
+     "pi_line": 14,
+     "qty": 10,
+     "image": "P07_H",
+     "price": null,
+     "cost_usd": 5.21
+    },
+    {
+     "options": [
+      "Silver"
+     ],
+     "sku": "YF3791-B-S",
+     "pi_line": 16,
+     "qty": 10,
+     "image": "P07_S",
+     "price": null,
+     "cost_usd": 4.68
+    }
+   ],
+   "gallery": [
+    "P07_H",
+    "P07_W1",
+    "P07_M",
+    "P07_S"
+   ],
+   "line": "Two endings, one round, one falling.",
+   "body": "A slim polished open cuff that finishes in two different shapes: a round ball on one end and a smooth teardrop on the other, sitting across a small gap. Matches our Droplet Open Ring, so the two can be worn as a pair.",
+   "size": "Open cuff about 6cm across inside; wire about 3mm; ball about 9mm (confirm on sample)",
+   "macro_alt": "The ball end and the teardrop end across the opening",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bracelet",
+    "Cuff",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": "Pairs with the Droplet Open Ring."
+  },
+  {
+   "id": "P08",
+   "title": "Roman Numeral Trio Ring",
+   "handle": "roman-numeral-trio-ring",
+   "type": "Ring",
+   "price": 1699,
+   "pi": "YF2931",
+   "status": "NEW",
+   "options": [
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "6"
+     ],
+     "sku": "YF2931-6",
+     "pi_line": 17,
+     "qty": 3,
+     "image": "P08_H",
+     "price": null,
+     "cost_usd": 5.15
+    },
+    {
+     "options": [
+      "7"
+     ],
+     "sku": "YF2931-7",
+     "pi_line": 17,
+     "qty": 3,
+     "image": "P08_H",
+     "price": null,
+     "cost_usd": 5.15
+    },
+    {
+     "options": [
+      "8"
+     ],
+     "sku": "YF2931-8",
+     "pi_line": 17,
+     "qty": 3,
+     "image": "P08_H",
+     "price": null,
+     "cost_usd": 5.15
+    }
+   ],
+   "gallery": [
+    "P08_H",
+    "P08_W1",
+    "P08_W2",
+    "P08_M"
+   ],
+   "line": "Three metals, one stack, a clock's worth of numerals.",
+   "body": "Three bands worn as one: a slim rose gold band engraved with Roman numerals and set with small round stones, a silver tone band with two rows of pavé, and a wider gold band with Roman numerals cut right through the metal. Stacked flush, they read as one considered ring.",
+   "size": "About 16mm tall in total (4mm + 4mm + 8mm per supplier diagram); US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "Engraved numerals, pavé rows and cut-out numerals",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Ring",
+    "Tarnish Free",
+    "Tri Tone",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered.",
+    "Tri-tone (rose, silver, gold): confirm the three bands are fixed together, as the supplier photo's side bar suggests."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P09",
+   "title": "Linked Trio Ring",
+   "handle": "linked-trio-ring",
+   "type": "Ring",
+   "price": 1399,
+   "pi": "YF7016",
+   "status": "NEW",
+   "options": [
+    "Metal",
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold",
+      "6"
+     ],
+     "sku": "YF7016-G-6",
+     "pi_line": 19,
+     "qty": 3,
+     "image": "P09_H",
+     "price": null,
+     "cost_usd": 3.28
+    },
+    {
+     "options": [
+      "Gold",
+      "7"
+     ],
+     "sku": "YF7016-G-7",
+     "pi_line": 19,
+     "qty": 3,
+     "image": "P09_H",
+     "price": null,
+     "cost_usd": 3.28
+    },
+    {
+     "options": [
+      "Gold",
+      "8"
+     ],
+     "sku": "YF7016-G-8",
+     "pi_line": 19,
+     "qty": 3,
+     "image": "P09_H",
+     "price": null,
+     "cost_usd": 3.28
+    },
+    {
+     "options": [
+      "Silver",
+      "6"
+     ],
+     "sku": "YF7016-S-6",
+     "pi_line": 20,
+     "qty": 3,
+     "image": "P09_S",
+     "price": null,
+     "cost_usd": 3.28
+    },
+    {
+     "options": [
+      "Silver",
+      "7"
+     ],
+     "sku": "YF7016-S-7",
+     "pi_line": 20,
+     "qty": 3,
+     "image": "P09_S",
+     "price": null,
+     "cost_usd": 3.28
+    },
+    {
+     "options": [
+      "Silver",
+      "8"
+     ],
+     "sku": "YF7016-S-8",
+     "pi_line": 20,
+     "qty": 3,
+     "image": "P09_S",
+     "price": null,
+     "cost_usd": 3.28
+    }
+   ],
+   "gallery": [
+    "P09_H",
+    "P09_W1",
+    "P09_M",
+    "P09_S"
+   ],
+   "line": "Three rings that refuse to be separated.",
+   "body": "A polished band studded with round bezel set stones, a slim pavé band and a ring of box chain, joined by small jump rings so they move together. Wear all three on one finger or spread them across two.",
+   "size": "Studded band about 5mm, pavé band about 2.5mm; US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "The studded band and pavé band joined by a jump ring",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered.",
+    "Construction read from a small supplier thumbnail: check the generated three-ring layout against the physical piece before publishing."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P11",
+   "title": "Crystal Baguette Eternity Ring",
+   "handle": "crystal-baguette-eternity-ring",
+   "type": "Ring",
+   "price": 1699,
+   "pi": "YF2604",
+   "status": "NEW",
+   "options": [
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "6"
+     ],
+     "sku": "YF2604-6",
+     "pi_line": 27,
+     "qty": 3,
+     "image": "P11_H",
+     "price": null,
+     "cost_usd": 5.65
+    },
+    {
+     "options": [
+      "7"
+     ],
+     "sku": "YF2604-7",
+     "pi_line": 27,
+     "qty": 3,
+     "image": "P11_H",
+     "price": null,
+     "cost_usd": 5.65
+    },
+    {
+     "options": [
+      "8"
+     ],
+     "sku": "YF2604-8",
+     "pi_line": 27,
+     "qty": 3,
+     "image": "P11_H",
+     "price": null,
+     "cost_usd": 5.65
+    }
+   ],
+   "gallery": [
+    "P11_H",
+    "P11_W1",
+    "P11_W2",
+    "P11_M"
+   ],
+   "line": "Straight lines, all the way round.",
+   "body": "A full eternity band of clear baguette cut cubic zirconia set crosswise, each stone held by tall gold claws that rise between the stones like a small crown. Bright from every angle, because there is no back to it.",
+   "size": "Band about 5mm wide; US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "Baguettes and the tall claws between them",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Eternity",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P12",
+   "title": "Chain Drop Dome Ring",
+   "handle": "chain-drop-dome-ring",
+   "type": "Ring",
+   "price": 1199,
+   "pi": "YF8086",
+   "status": "NEW",
+   "options": [
+    "Metal",
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold",
+      "6"
+     ],
+     "sku": "YF8086-G-6",
+     "pi_line": 28,
+     "qty": 3,
+     "image": "P12_H",
+     "price": null,
+     "cost_usd": 2.54
+    },
+    {
+     "options": [
+      "Gold",
+      "7"
+     ],
+     "sku": "YF8086-G-7",
+     "pi_line": 28,
+     "qty": 3,
+     "image": "P12_H",
+     "price": null,
+     "cost_usd": 2.54
+    },
+    {
+     "options": [
+      "Gold",
+      "8"
+     ],
+     "sku": "YF8086-G-8",
+     "pi_line": 28,
+     "qty": 3,
+     "image": "P12_H",
+     "price": null,
+     "cost_usd": 2.54
+    },
+    {
+     "options": [
+      "Silver",
+      "6"
+     ],
+     "sku": "YF8086-S-6",
+     "pi_line": 29,
+     "qty": 3,
+     "image": "P12_S",
+     "price": null,
+     "cost_usd": 2.54
+    },
+    {
+     "options": [
+      "Silver",
+      "7"
+     ],
+     "sku": "YF8086-S-7",
+     "pi_line": 29,
+     "qty": 3,
+     "image": "P12_S",
+     "price": null,
+     "cost_usd": 2.54
+    },
+    {
+     "options": [
+      "Silver",
+      "8"
+     ],
+     "sku": "YF8086-S-8",
+     "pi_line": 29,
+     "qty": 3,
+     "image": "P12_S",
+     "price": null,
+     "cost_usd": 2.54
+    }
+   ],
+   "gallery": [
+    "P12_H",
+    "P12_W1",
+    "P12_M",
+    "P12_S"
+   ],
+   "line": "A ring with something to say when you move.",
+   "body": "A chunky polished dome band wrapped by two slim pavé collars, with a short swag of chain between them and a single pear cut stone hanging from it. Quiet when still, a small swing of light when the hand moves.",
+   "size": "Band about 6mm wide; pear about 7mm; US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "Pavé collar, chain swag and pear drop",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P13",
+   "title": "Watch Link Ring",
+   "handle": "watch-link-ring",
+   "type": "Ring",
+   "price": 1199,
+   "pi": "YF2645",
+   "status": "NEW",
+   "options": [
+    "Metal",
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold",
+      "6"
+     ],
+     "sku": "YF2645-G-6",
+     "pi_line": 30,
+     "qty": 3,
+     "image": "P13_H",
+     "price": null,
+     "cost_usd": 2.27
+    },
+    {
+     "options": [
+      "Gold",
+      "7"
+     ],
+     "sku": "YF2645-G-7",
+     "pi_line": 30,
+     "qty": 3,
+     "image": "P13_H",
+     "price": null,
+     "cost_usd": 2.27
+    },
+    {
+     "options": [
+      "Gold",
+      "8"
+     ],
+     "sku": "YF2645-G-8",
+     "pi_line": 30,
+     "qty": 3,
+     "image": "P13_H",
+     "price": null,
+     "cost_usd": 2.27
+    },
+    {
+     "options": [
+      "Silver",
+      "6"
+     ],
+     "sku": "YF2645-S-6",
+     "pi_line": 31,
+     "qty": 3,
+     "image": "P13_S",
+     "price": null,
+     "cost_usd": 2.27
+    },
+    {
+     "options": [
+      "Silver",
+      "7"
+     ],
+     "sku": "YF2645-S-7",
+     "pi_line": 31,
+     "qty": 3,
+     "image": "P13_S",
+     "price": null,
+     "cost_usd": 2.27
+    },
+    {
+     "options": [
+      "Silver",
+      "8"
+     ],
+     "sku": "YF2645-S-8",
+     "pi_line": 31,
+     "qty": 3,
+     "image": "P13_S",
+     "price": null,
+     "cost_usd": 2.27
+    }
+   ],
+   "gallery": [
+    "P13_H",
+    "P13_W1",
+    "P13_M",
+    "P13_S"
+   ],
+   "line": "A watch strap, kept for the finger.",
+   "body": "A wide band built like a classic watch bracelet: three rows of polished links with a softly scalloped edge, smooth on the inside. Heavy looking, comfortable to wear, and very good with a real watch on the same hand.",
+   "size": "Band about 11mm wide; US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "Three rows of polished watch-style links",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "P14",
+   "title": "Marquise Drop Choker",
+   "handle": "marquise-drop-choker",
+   "type": "Necklace",
+   "price": 1599,
+   "pi": "YF7059",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF7059",
+     "pi_line": 35,
+     "qty": 20,
+     "image": "P14_H",
+     "price": null,
+     "cost_usd": 3.15
+    }
+   ],
+   "gallery": [
+    "P14_H",
+    "P14_W1",
+    "P14_W2",
+    "P14_M"
+   ],
+   "line": "A clean collar with one long thought.",
+   "body": "A smooth round omega collar sits close at the base of the throat with a marquise cut stone set sideways at the front. From it, a fine chain falls about 6cm with a small pear stone halfway and another at the end.",
+   "size": "Collar about 2mm; marquise about 10mm; drop about 6cm (confirm length on sample)",
+   "macro_alt": "Marquise stone and the start of the drop",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Choker",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Necklace",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "P15",
+   "title": "Mesh Band Ring",
+   "handle": "mesh-band-ring",
+   "type": "Ring",
+   "price": 999,
+   "pi": "YF3558",
+   "status": "NEW",
+   "options": [
+    "Metal",
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": [
+      "Gold",
+      "6"
+     ],
+     "sku": "YF3558-G-6",
+     "pi_line": 36,
+     "qty": 3,
+     "image": "P15_H",
+     "price": null,
+     "cost_usd": 1.68
+    },
+    {
+     "options": [
+      "Gold",
+      "7"
+     ],
+     "sku": "YF3558-G-7",
+     "pi_line": 36,
+     "qty": 3,
+     "image": "P15_H",
+     "price": null,
+     "cost_usd": 1.68
+    },
+    {
+     "options": [
+      "Gold",
+      "8"
+     ],
+     "sku": "YF3558-G-8",
+     "pi_line": 36,
+     "qty": 3,
+     "image": "P15_H",
+     "price": null,
+     "cost_usd": 1.68
+    },
+    {
+     "options": [
+      "Silver",
+      "6"
+     ],
+     "sku": "YF3558-S-6",
+     "pi_line": 37,
+     "qty": 3,
+     "image": "P15_S",
+     "price": null,
+     "cost_usd": 1.68
+    },
+    {
+     "options": [
+      "Silver",
+      "7"
+     ],
+     "sku": "YF3558-S-7",
+     "pi_line": 37,
+     "qty": 3,
+     "image": "P15_S",
+     "price": null,
+     "cost_usd": 1.68
+    },
+    {
+     "options": [
+      "Silver",
+      "8"
+     ],
+     "sku": "YF3558-S-8",
+     "pi_line": 37,
+     "qty": 3,
+     "image": "P15_S",
+     "price": null,
+     "cost_usd": 1.68
+    }
+   ],
+   "gallery": [
+    "P15_H",
+    "P15_W1",
+    "P15_M",
+    "P15_S"
+   ],
+   "line": "The Silk Mesh texture, cut to a ring.",
+   "body": "A wide band of fine woven metal mesh with neat rolled edges, soft to the eye and flexible on the finger. Pairs with the Silk Mesh Cuff.",
+   "size": "Band about 10mm wide; US ring sizes 6, 7 and 8 (3 pcs each on this PI)",
+   "macro_alt": "Woven mesh texture and rolled edge",
+   "stones": "None",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Rhodium Silver Tone Plated",
+    "Ring",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "PI ships US sizes 6, 7 and 8 only, 3 pcs each: no size 9 variant until it is ordered."
+   ],
+   "notes": "Pairs with the Silk Mesh Cuff."
+  },
+  {
+   "id": "P20",
+   "title": "Bold Nocturne Drops",
+   "handle": "bold-nocturne-drops",
+   "type": "Earrings",
+   "price": 1499,
+   "pi": "YF5144 earrings",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF5144-EAR",
+     "pi_line": 46,
+     "qty": 30,
+     "image": "P20_H",
+     "price": null,
+     "cost_usd": 4.35
+    }
+   ],
+   "gallery": [
+    "P20_H",
+    "P20_W1",
+    "P20_W2",
+    "P20_M"
+   ],
+   "line": "The Bold Nocturne link, worn at the ear.",
+   "body": "Each earring is a polished oval link on a post with a larger pavé set oval link hanging below it, the same links as our Bold Nocturne Chain and Bracelet. Bold enough to wear alone.",
+   "size": "Each earring about 30mm long (confirm on sample)",
+   "macro_alt": "Pavé oval link hanging from its polished link",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Earrings",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": "Completes the live Bold Nocturne Chain and Bracelet set."
+  },
+  {
+   "id": "P23",
+   "title": "Pear Point Open Cuff",
+   "handle": "pear-point-open-cuff",
+   "type": "Bracelet",
+   "price": 1799,
+   "pi": "YF8221",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF8221",
+     "pi_line": 52,
+     "qty": 20,
+     "image": "P23_H",
+     "price": null,
+     "cost_usd": 4.62
+    }
+   ],
+   "gallery": [
+    "P23_H",
+    "P23_W1",
+    "P23_W2",
+    "P23_M"
+   ],
+   "line": "Two points of light, facing each other.",
+   "body": "A slim polished open cuff that tapers to its two ends, each finished with one pear cut clear stone in a claw setting. The two pears face each other across the opening, right where the wrist turns.",
+   "size": "Open cuff about 6cm across inside; pears about 7mm (confirm on sample)",
+   "macro_alt": "The two pear stone ends across the opening",
+   "stones": "Clear cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Bracelet",
+    "Cubic Zirconia",
+    "Cuff",
+    "Demi Fine",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [],
+   "notes": ""
+  },
+  {
+   "id": "C1",
+   "title": "Emerald Square Ear Cuff",
+   "handle": "emerald-square-ear-cuff",
+   "type": "Earrings",
+   "price": 1199,
+   "pi": "YF3652",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF3652-GRN",
+     "pi_line": 33,
+     "qty": 20,
+     "image": "C1_H",
+     "price": null,
+     "cost_usd": 2.72
+    }
+   ],
+   "gallery": [
+    "C1_H",
+    "C1_W1",
+    "C12_W2",
+    "C1_M"
+   ],
+   "line": "One green square, no piercing needed.",
+   "body": "An ear cuff of slim polished gold wire that slides onto the middle ridge of the ear, carrying one square princess cut emerald green stone in four claws. Wear it alone or with the Crystal Pear Ear Cuff above it.",
+   "size": "Cuff about 12mm across; stone about 5mm (confirm on sample)",
+   "macro_alt": "Square emerald-green stone in four gold claws",
+   "stones": "Emerald-green princess-cut cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Ear Cuff",
+    "Earrings",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "The approved packshot shows two cuffs: confirm whether YF3652 is sold as a single cuff or a pair and set the title to match."
+   ],
+   "notes": ""
+  },
+  {
+   "id": "C2",
+   "title": "Crystal Pear Ear Cuff",
+   "handle": "crystal-pear-ear-cuff",
+   "type": "Earrings",
+   "price": 1199,
+   "pi": "YF3652",
+   "status": "NEW",
+   "options": [],
+   "variants": [
+    {
+     "options": [],
+     "sku": "YF3652-WHT",
+     "pi_line": 32,
+     "qty": 20,
+     "image": "C2_H",
+     "price": null,
+     "cost_usd": 2.72
+    }
+   ],
+   "gallery": [
+    "C2_H",
+    "C2_W1",
+    "C12_W2",
+    "C2_M"
+   ],
+   "line": "One clear pear, no piercing needed.",
+   "body": "An ear cuff of slim polished gold wire that slides onto the middle ridge of the ear, carrying one clear pear cut stone in gold claws. Wear it alone or with the Emerald Square Ear Cuff.",
+   "size": "Cuff about 12mm across; pear about 7mm (confirm on sample)",
+   "macro_alt": "Clear pear stone in gold claws",
+   "stones": "Clear pear-cut cubic zirconia",
+   "tags": [
+    "18k Gold Tone Plated",
+    "Cubic Zirconia",
+    "Demi Fine",
+    "Ear Cuff",
+    "Earrings",
+    "Hypoallergenic",
+    "Naira Petite",
+    "Tarnish Free",
+    "Waterproof"
+   ],
+   "flags": [
+    "The approved packshot shows two cuffs: confirm whether YF3652 is sold as a single cuff or a pair and set the title to match."
+   ],
+   "notes": ""
+  }
+ ],
+ "live": [
+  {
+   "title": "Star Point Band",
+   "handle": "star-point-band",
+   "pi": "YF5214",
+   "lines": [
+    48,
+    49
+   ],
+   "action": "Restock Gold (9 pcs: sizes 6, 7, 8 × 3) and ADD a Silver variant (9 pcs: sizes 6, 7, 8 × 3) at ₹799 with the new silver packshot; add Size as an option.",
+   "image": "P22S_H"
+  },
+  {
+   "title": "Rivière Eternal Bracelet",
+   "handle": "riviere-eternal-bracelet",
+   "pi": "YF7085",
+   "lines": [
+    5
+   ],
+   "action": "Currently DRAFT with 4 in stock: 30 more arriving. Re-activate. Optional fresh cube packshot in the new format.",
+   "image": "P04_H"
+  },
+  {
+   "title": "Marquise Layering Set",
+   "handle": "marquise-layering-set",
+   "pi": "YF5244",
+   "lines": [
+    3,
+    4
+   ],
+   "action": "Reorder: 20 tassel + 20 big-zircon necklaces = 20 sets. Restock only.",
+   "image": null
+  },
+  {
+   "title": "Bold Nocturne Chain",
+   "handle": "bold-nocturne-chain",
+   "pi": "YF5144",
+   "lines": [
+    44
+   ],
+   "action": "Reorder: 30 pcs. Restock. PI cost US$7.35 against ₹1,799 retail: review margin.",
+   "image": null
+  },
+  {
+   "title": "Bold Nocturne Bracelet",
+   "handle": "bold-nocturne-bracelet",
+   "pi": "YF5144-BRA",
+   "lines": [
+    45
+   ],
+   "action": "Reorder: 30 pcs. Restock. Link to the new Bold Nocturne Drops.",
+   "image": null
+  },
+  {
+   "title": "Baroque Shell Bracelet",
+   "handle": "baroque-shell-bracelet",
+   "pi": "YF3925",
+   "lines": [
+    43
+   ],
+   "action": "Reorder: 10 pcs (supplier owes 10 more from the last order). PI cost US$10.00 against ₹1,799 retail: review price.",
+   "image": null
+  },
+  {
+   "title": "Halo Curve Ring",
+   "handle": "halo-curve-ring",
+   "pi": "YF8453",
+   "lines": [
+    47
+   ],
+   "action": "Reorder: 20 pcs. Restock.",
+   "image": null
+  },
+  {
+   "title": "Ribbon Bead Bracelet",
+   "handle": "ribbon-bead-bracelet",
+   "pi": "YF8156",
+   "lines": [
+    42
+   ],
+   "action": "Reorder: 20 pcs. Restock.",
+   "image": null
+  }
+ ]
+}

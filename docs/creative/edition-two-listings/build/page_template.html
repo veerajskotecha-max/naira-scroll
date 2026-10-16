@@ -1,0 +1,121 @@
+<title>Edition Two Listing Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap">
+<style>
+:root{--bg:#f6f0e6;--card:#fffbf4;--ink:#2a211b;--muted:#7a6a5c;--line:#e6d9c5;--accent:#c97a12;--accent-ink:#fff8ec;--flag:#fdf0d6;--flag-ink:#7a4a05;--code:#f1e7d7;
+--serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;--sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181411;--card:#221c17;--ink:#f1e7d8;--muted:#a8998a;--line:#3a3029;--accent:#e9a23b;--accent-ink:#1d1307;--flag:#3a2a12;--flag-ink:#f5cf8e;--code:#2d251f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#181411;--card:#221c17;--ink:#f1e7d8;--muted:#a8998a;--line:#3a3029;--accent:#e9a23b;--accent-ink:#1d1307;--flag:#3a2a12;--flag-ink:#f5cf8e;--code:#2d251f;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.02;letter-spacing:-.01em}
+h2{font-size:30px;margin:44px 0 14px}
+h3{font-size:25px;line-height:1.1}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 10px}
+.lede{max-width:66ch;color:var(--muted);margin:12px 0 0}
+.stats{display:flex;flex-wrap:wrap;gap:10px 28px;margin:24px 0 0;padding:16px 0;border-block:1px solid var(--line)}
+.stats div{display:flex;flex-direction:column}.stats b{font-family:var(--serif);font-size:32px;line-height:1}.stats span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.brief{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:22px}
+.brief section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.brief h4{margin:0 0 6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.brief ul{margin:0;padding-left:18px}.brief li{margin:3px 0}
+code{font:12.5px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--code);padding:1px 5px;border-radius:5px;word-break:break-all}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:10px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid var(--line)}
+.chip{font:500 13px var(--sans);border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn{font:600 13px var(--sans);border:0;background:var(--ink);color:var(--bg);border-radius:999px;padding:8px 14px;cursor:pointer;margin-left:auto}
+.grid{display:grid;gap:18px;margin-top:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;min-width:0}
+.card header{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.meta{margin:4px 0 0;color:var(--muted);font-size:13px}
+.price{font-family:var(--serif);font-size:26px;margin:0;white-space:nowrap}
+.strip{display:flex;gap:8px;overflow-x:auto;margin:14px 0 4px;padding-bottom:6px}
+.strip figure{margin:0;flex:0 0 auto;position:relative}
+.strip img{display:block;width:150px;height:auto;aspect-ratio:1288/1600;border-radius:10px;background:var(--code);max-width:none}
+.strip figcaption{position:absolute;left:6px;top:6px;background:var(--card);color:var(--ink);font-size:11px;font-weight:600;border-radius:999px;padding:1px 7px}
+.line{font-family:var(--serif);font-size:21px;margin:12px 0 4px}
+.body{margin:0;max-width:72ch}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:12px 0;font-size:14px}
+dt{color:var(--muted)}dd{margin:0;min-width:0}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid var(--line);padding:6px 8px}
+td{border-bottom:1px solid var(--line);padding:6px 8px;vertical-align:top}
+.flags{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px}
+.flags li{background:var(--flag);color:var(--flag-ink);border-radius:10px;padding:8px 12px;font-size:13.5px}
+.flags li::before{content:"Confirm · ";font-weight:600}
+details{margin-top:12px}summary{cursor:pointer;font-weight:600;font-size:13.5px}
+.urls{font-size:12.5px;padding-left:20px}.urls li{margin:6px 0}.urls .alt{display:block;color:var(--muted)}
+.live td img{border-radius:8px;width:80px;height:auto;max-width:none}
+.hidden{display:none!important}
+footer{margin-top:40px;color:var(--muted);font-size:13px}
+@media (max-width:560px){.card header{flex-direction:column}.strip img{width:120px}.btn{margin-left:0}}
+</style>
+<div class="wrap">
+<p class="eyebrow">Naira Petite · Shopify handoff</p>
+<h1>Edition Two listing kit</h1>
+<p class="lede">Every SKU from the Notion photo set and the Foshan Yiss Fera quotation (PI 2026-09-22: 59 lines, 923 pcs, US$3,476.59), named, priced and photographed in the live Edition One format: cream plaster cube packshot, worn on the saffron-camisole model, then macro, at 1288×1600. Every image was checked against the supplier photo for construction, colour and scale before it went in.</p>
+<div class="stats"><div><b>%%NPROD%%</b><span>new products</span></div><div><b>%%NVAR%%</b><span>variants</span></div><div><b>%%NIMG%%</b><span>verified images</span></div><div><b>%%NLIVE%%</b><span>live listings to update</span></div><div><b>%%NFLAG%%</b><span>points to confirm</span></div></div>
+<div class="brief">
+<section><h4>For the listing agent</h4><ul>
+<li>Create every product as <b>DRAFT</b>, vendor <b>Naira Petite</b>, currency INR.</li>
+<li>Options exactly as listed (Metal, Stone, Size, Month). SKU, price and inventory per variant from the table.</li>
+<li>Add images in the numbered order via each image's public URL. Use the alt text given, and attach each variant's image to that variant.</li>
+<li>Title, tagline and body copy are final. Put the size line under “Size &amp; fit”.</li>
+<li>Read the whole kit as JSON from <code>listing.json</code> or the Copy JSON button.</li>
+</ul></section>
+<section><h4>Do not</h4><ul>
+<li>Do not publish anything that still has a “Confirm” note. The owner clears those first.</li>
+<li>Do not create products for reorders (YF5244, YF7085, YF5144 necklace and bracelet, YF3925, YF8453, YF8156, YF5214 gold): they are already live. See “Live listings to update”.</li>
+<li>Do not change any live product without the owner's go-ahead.</li>
+</ul></section>
+<section><h4>Pricing logic</h4><ul>
+<li>Priced against the live Naira Petite range (₹799 to ₹2,749) and the PI unit cost: roughly 4 to 6 times landed cost (PI price plus about 20% freight and duty), rounded to the store's x99 steps.</li>
+<li>Colour and metal variants share one price, except the silver coil bangle (cheaper on the PI).</li>
+</ul></section>
+</div>
+<div class="bar" role="toolbar" aria-label="Filter products">
+<button class="chip" data-f="all" aria-pressed="true">All</button>
+<button class="chip" data-f="src:PI">New from PI</button>
+<button class="chip" data-f="src:Notion + PI">Notion + PI</button>
+<button class="chip" data-f="src:Notion">Notion only</button>
+%%CHIPS%%
+<button class="chip" data-f="flag">To confirm</button>
+<button class="btn" id="copy">Copy JSON</button>
+</div>
+<h2>New products</h2>
+<div class="grid" id="grid">
+%%CARDS%%
+</div>
+<h2 id="live">Live listings to update</h2>
+<p class="lede">These PI lines are reorders or new variants of products already in the store. Restock them, and add the new variants once the owner approves.</p>
+<div class="tablewrap"><table class="live"><thead><tr><th></th><th>Product</th><th>PI</th><th>Action</th></tr></thead><tbody>%%LIVE%%</tbody></table></div>
+<h2 id="pi">Every PI line, accounted for</h2>
+<div class="tablewrap"><table><thead><tr><th>#</th><th>Code</th><th>PI description</th><th>Qty</th><th>Unit</th><th>Listed as</th></tr></thead><tbody>%%PI%%</tbody></table></div>
+<footer>Images: Nano Banana Pro on Higgsfield, built from the supplier photos, with the approved packshot as the size reference for every worn and macro frame. Ruby frames carry a hue correction so the set matches; one gold variant is warmed to the set's yellow gold. Sizes marked “confirm on sample” are read from supplier photos and need a ruler check on arrival.</footer>
+</div>
+<script type="application/json" id="data">%%JSON%%</script>
+<script>
+(function(){
+  var chips=[].slice.call(document.querySelectorAll('.chip')), cards=[].slice.call(document.querySelectorAll('.card'));
+  chips.forEach(function(c){c.addEventListener('click',function(){
+    chips.forEach(function(x){x.setAttribute('aria-pressed','false')}); c.setAttribute('aria-pressed','true');
+    var f=c.getAttribute('data-f');
+    cards.forEach(function(a){var show=true;
+      if(f.indexOf('src:')===0) show=a.getAttribute('data-src')===f.slice(4);
+      else if(f.indexOf('type:')===0) show=a.getAttribute('data-type')===f.slice(5);
+      else if(f==='flag') show=a.getAttribute('data-flag')==='1';
+      a.classList.toggle('hidden',!show);});
+  });});
+  var b=document.getElementById('copy');
+  b.addEventListener('click',function(){
+    var t=document.getElementById('data').textContent;
+    var done=function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy JSON'},1600)};
+    try{navigator.clipboard.writeText(t).then(done,function(){fallback(t);done()})}catch(e){fallback(t);done()}
+  });
+  function fallback(t){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove()}
+})();
+</script>
