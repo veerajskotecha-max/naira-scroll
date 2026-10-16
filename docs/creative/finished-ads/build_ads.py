@@ -2,7 +2,7 @@
 # at 1080×1920) with the copy from ads.json set in the Naira typefaces, rendered by Chromium. Output: <scratchpad>/ads/out/<id>.jpg
 # and a contact sheet. Usage: build_ads.py [--cfg controls.json] [id ...]   (no ids = all; ads.json by default)
 # An entry with "path" uses that photo (relative to docs/creative) instead of a keeper plate, as the plain controls do.
-import json, os, subprocess, sys
+import json, os, re, subprocess, sys
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -34,6 +34,9 @@ def prep(ad):
     else: nh = round(w * H / W); box = (0, round((h - nh) * ad.get("cy", .5)), w, round((h - nh) * ad.get("cy", .5)) + nh)
     path = f"{WORK}/{ad['id']}_bg.jpg"; im.crop(box).resize((W, H), Image.LANCZOS).save(path, quality=95); return path
 
+def glue(t):
+    return re.sub(r"(\d) (mm|cm)\b", "\\1\u00a0\\2", t)                  # never break a number from its unit
+
 def html(ad, bg):
     W, H = SIZE[ad["fmt"]]; top, bottom = SAFE[ad["fmt"]]; side = ad.get("x", 72)
     pos = {"tl": f"left:{side}px;top:{ad.get('y', top)}px", "tr": f"right:{side}px;top:{ad.get('y', top)}px;text-align:right;align-items:flex-end",
@@ -44,7 +47,7 @@ def html(ad, bg):
     cls = "t" + (" scrim" if ad.get("scrim") else "") + (" card" if ad.get("card") else "")
     css = CSS % dict(f=FONTS, w=W, h=H, bg="file://" + bg, hs=ad.get("hs", 92), cs=ad.get("cs", 42), ns=ad.get("ns", 23), gap=ad.get("gap", 18))
     return (f'<meta charset="utf-8"><style>{css}</style><div class="{cls}" style="{pos};width:{ad["w"]}px;--tone:{tone};--glow:{glow}">'
-            f'<div class="h">{ad["h"]}</div><div class="c">{ad["c"]}</div><div class="n">{ad["n"]}</div></div>')
+            f'<div class="h">{glue(ad["h"])}</div><div class="c">{glue(ad["c"])}</div><div class="n">{glue(ad["n"])}</div></div>')
 
 def main():
     args = sys.argv[1:]; name = "ads.json"

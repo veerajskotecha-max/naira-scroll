@@ -1,0 +1,360 @@
+[
+ {
+  "id": "T07_a1c",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The most premium frame in the set: warm unretouched skin, crisp ivory linen, and the hand's gesture leads the eye straight to the pavé bar and spring ring.",
+   "Copy sits on the shirt and chest, well clear of the chain and clasp; the headline reads easily at 390 px.",
+   "Claims are clean: 50 cm is listing-stated, and wearing the clasp at the front matches the listing's own 'at the front or the side'."
+  ],
+  "issues": [
+   "There's no pun. 'Turn it to the front.' is a five-word styling instruction, and the first line ends on 'to' ('Turn it to / the front.').",
+   "On-body statics are untested in the account (under ₹400 of spend), and ₹1,499 is below the ₹2,000 line the data says a single piece needs to break even.",
+   "The linen fold behind the correction and price line is busy (5th-percentile contrast 2.2–3.5:1). It still reads at phone size."
+  ],
+  "fixes": [
+   "h: \"Front and centre.\" (tested: one line at w 600, x 452–1008; a quick idiom that's literally true of the clasp).",
+   "Keep c and n as they are."
+  ]
+ },
+ {
+  "id": "T10_a1",
+  "score": 7,
+  "verdict": "rework",
+  "strengths": [
+   "Warm, festive and on-palette: blush drawer box, blush diya and peach petals. The chain and its pavé bar are sharp, and Diwali (8 Nov) is three weeks out.",
+   "The card copy is fully legible (about 15:1)."
+  ],
+  "issues": [
+   "'This Diwali, give the turn.' doesn't land in a second: 'the turn' only makes sense if you know the listing line, and the clasp is small in the box.",
+   "No visual pun: a plain gift still life with the idea only in the words, the pattern that returned 0.58× in the account.",
+   "The opaque cream card covers 14% of the frame, including the box's front-right corner and a petal, and reads as a retail sticker rather than slow luxury.",
+   "₹1,499 piece. Low-risk wording: 'closes with a turn, not a catch' is the listing's own line, but the ring is a spring-gate (sailor) ring with a push-pin, which a buyer could call a catch."
+  ],
+  "fixes": [
+   "h: \"Diwali, sorted.\"",
+   "c: \"A paperclip chain that closes with a turn, not a catch.\"",
+   "card: false, scrim: true, w: 520 (keep x 64, y 64, hs 80). Tested: the block sits at x 496–1016, y 1028–1286, the whole box shows, and contrast is about 9:1.",
+   "Keep n \"Toggle Link Chain · ₹1,499\". Adding '50 cm' wraps it at w 520."
+  ]
+ },
+ {
+  "id": "W01_a1",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "A true visual pun with the piece as the punchline: braided hoops inside an embroidery hoop. 'Hoop in a hoop.' lands in under a second at 390 px.",
+   "The correction is plain and true (the brief: a braid of many strands, never a smooth tube), and the price line carries two listing figures, 25 mm and ₹1,499.",
+   "Copy on clean blush linen at about 11:1, well clear of the product. Blush, ivory and honey wood on a light ground are exactly on-brand."
+  ],
+  "issues": [
+   "₹1,499 hoops: the data says a single ₹1,499 pair can't pay for ₹1,500–3,000 per sale, so lead with this in a bundle or gift-set offer, not as a solo hero.",
+   "'Woven gold strands' uses gold as a colour word (the listing says 18k gold tone). Acceptable, since the product is called Woven Gold Hoops, but never say solid or real gold.",
+   "The 23 px price line is about 8 px tall on a phone: legible, but small."
+  ],
+  "fixes": [
+   "Optional: ns: 26 (tested: still one line, x 72–832)."
+  ]
+ },
+ {
+  "id": "W02_a1",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "The same strong hoop-in-a-hoop pun as W01, with the whole embroidery hoop and both earrings sharp in the vertical frame.",
+   "Stories-safe: copy at y 290–509, clear of the top 250 px and the bottom 340 px."
+  ],
+  "issues": [
+   "Claim: 'not cast' is a manufacturing-process claim nothing in the listing or brief supports (both describe only the look: a braid of gold strands, 18k gold tone). The data also notes 'Woven, not cast.' didn't lift results.",
+   "Collision: 'not cast.' ends about 10 px above the brass tightening screw's tip (x≈440, y≈445), and the price line sits level with the screw, 40 px to its left. The copy looks parked on the prop.",
+   "Stories is the weaker placement in the data (concept statics 1.36× against 1.79× on Feed), and the copy block is small for 9:16 (7% of the frame)."
+  ],
+  "fixes": [
+   "c: \"Woven Gold Hoops, 25 mm across.\"",
+   "y: 262. Tested: the block moves up 28 px and the correction clears the screw by about 38 px, still below the 250 px Stories line.",
+   "n: \"₹1,499\" (keeps the price line far from the screw; the page name already says Naira Petite)."
+  ]
+ },
+ {
+  "id": "W03_a2",
+  "score": 7,
+  "verdict": "rework",
+  "strengths": [
+   "A charming prop: one hoop collars a spool of blush thread and the braid is crisp, in warm late-sun light.",
+   "The correction is plain and true."
+  ],
+  "issues": [
+   "Legibility: the copy sits on a mid-dark mauve wall with the bright curtain at its left edge. Contrast is about 4.6:1 (5th percentile 2.8:1) on a busy background, and the correction and price line go soft at 390 px.",
+   "This frame is duskier than the light pastel grounds that won in the account (light concept 1.35×, against 0.49× for dark or saturated plain).",
+   "'Worked like thread.' is slower than W01 (you have to connect spool, thread and braid), and there's no size.",
+   "Tested and rejected: a scrim shows as visible fog on this wall, and cream type loses its first letters over the curtain."
+  ],
+  "fixes": [
+   "at: bl, w: 540 (keep y 72). Tested: the copy moves onto the light linen at x 72–612, y 918–1278, clear of both hoops, at about 10:1.",
+   "c: \"A braid of gold strands, 25 mm across.\"",
+   "Keep n \"Woven Gold Hoops · ₹1,499\"."
+  ]
+ },
+ {
+  "id": "W05_a2",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "A gorgeous macro on loom warp threads: the braid is the brightest, sharpest thing in frame, on a blush and ivory palette.",
+   "The correction 'Woven Gold Hoops, 25 mm across.' is the data's best copy move: a real number that corrects the macro's scale. ('25 millimetres across' on The Width drew 13 carts from 37 landing views.)",
+   "Stories-safe (copy at y 290–650), at about 8:1 on the threads."
+  ],
+  "issues": [
+   "'Texture does the talking.' is the listing line, not a pun, and it ignores the loom right there in the picture.",
+   "Stories is secondary in the data (1.36× against 1.79× on Feed), and this is a ₹1,499 piece."
+  ],
+  "fixes": [
+   "h: \"Hanging by a thread.\" (the hoops literally hang on warp threads; tested at w 460, it breaks 'Hanging by / a thread.').",
+   "Keep c and n."
+  ]
+ },
+ {
+  "id": "W06_a3",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "A smart visual rhyme: a thick plait with a blush paranda between two braided hoops, and 'Woven, twice.' is a two-word headline that pays it off.",
+   "Copy sits on the ivory kurta at about 10:1, clear of the ears and hoops, and there's no face anywhere in frame."
+  ],
+  "issues": [
+   "The correction runs to three lines (12 words, ending in the product name). It's the wordiest block in the set.",
+   "The hoops are small at thumbnail (about 30 px each at 390 px). The glossy black plait takes the eye first, and dark hair fills the middle of a blush frame.",
+   "On-body statics are untested in the account, and this is a ₹1,499 piece."
+  ],
+  "fixes": [
+   "c: \"One braid in your hair, two at your ears.\"",
+   "n: \"25 mm · ₹1,499\". Tested: one line at w 420. 'Woven Gold Hoops · ₹1,499' wraps and runs into the paranda."
+  ]
+ },
+ {
+  "id": "W07_a2",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The richest product macro in the set: the braid against twisted floss, texture on texture, in blush and peach, with the gold as the hero.",
+   "'Woven gold strands, 25 mm across.' corrects the macro's scale with a real number.",
+   "Copy sits on soft blurred blush (about 7:1) in one tidy band above the hoops."
+  ],
+  "issues": [
+   "'Braided, like the skein.' relies on 'skein', which most Indian Instagram users won't know, so the pun doesn't land in a second.",
+   "₹1,499 piece."
+  ],
+  "fixes": [
+   "h: \"Braided, like the thread.\" (tested: one line at w 820)."
+  ]
+ },
+ {
+  "id": "W10_a2",
+  "score": 7,
+  "verdict": "rework",
+  "strengths": [
+   "The hoops are big, bright and sharp in the open drawer, the diya glow is warm, and the palette is on-brand. Good Diwali timing.",
+   "Copy sits clear of the product and the diya."
+  ],
+  "issues": [
+   "'This Diwali, give texture.' is vague: nobody gives 'texture'. There's no visual pun either, just a plain gift still life with the idea in the words.",
+   "Claim: 'boxed and ready' says the hoops ship in a gift box. Nothing in the listing or brief says so, and the blush box is a prop.",
+   "The headline sits on the darker left of the frame (about 5.3:1). Readable, not crisp.",
+   "₹1,499 piece."
+  ],
+  "fixes": [
+   "h: \"One gift, two hoops.\"",
+   "c: \"Woven Gold Hoops, 25 mm across.\" (drops the packaging claim; only bring back 'boxed' if orders really ship in a gift box).",
+   "Keep the layout. Tested: the block sits at x 72–632, y 72–432."
+  ]
+ },
+ {
+  "id": "H01_e1",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "A real visual pun that reads in the thumbnail: the bracelet laid as an ECG heartbeat on pink grid paper, ending on the gold heart. Heartbead, heartbeat.",
+   "Light pastel ground, a clear gap between product and copy (about 130 px), and about 11:1 contrast.",
+   "The correction is plain and true (mirror-polished beads and one gold heart, per the brief)."
+  ],
+  "issues": [
+   "No real number besides the price, though the listing states the 6 mm bead size.",
+   "The headline is five words, against the two-word ideal. The visual carries the pun, so this is minor.",
+   "₹1,299 is the lowest ticket in the set, so the economics are weak for a solo lead."
+  ],
+  "fixes": [
+   "Optional: c: \"6 mm mirror-polished beads and one gold heart.\" (tested: wraps to two lines, and the block starts at y 918, still about 78 px below the lowest bead)."
+  ]
+ },
+ {
+  "id": "H08_a1",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "A beautiful craft macro: the polished puffed heart, the T-bar and the ring are crisp, with mirror beads on blush silk.",
+   "Claims are true, and the copy reads at about 8.5:1. This is the craft close-up the data recommends as a control."
+  ],
+  "issues": [
+   "The headline crowds the heart: 'The' starts about 10 px from the heart's right edge, level with its tip (heart x≈300–550; headline from x 555).",
+   "'The gold note.' is a pun only in the words, on a plain image. That pattern returned 0.58× in the account.",
+   "Awkward break in the correction: 'Silver beads, a gold / toggle, one gold heart.'",
+   "₹1,299 piece."
+  ],
+  "fixes": [
+   "hs: 84. Tested: the headline moves to x≈594 and clears the heart by about 45 px.",
+   "c: \"Mirror-polished beads, a gold toggle and heart.\" Tested: it breaks cleanly after 'beads,' and drops 'silver' as a material word.",
+   "Run it as the Heartbead craft close-up control beside H01 and H09, rather than as a concept ad."
+  ]
+ },
+ {
+  "id": "H09_a1",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "The closest thing in the set to 'Almost edible.': mirror beads looped across silver-varq kaju katli. The food pun reads instantly, and it's mithai season.",
+   "'Sweeter than mithai.' is short and warm, and the correction uses the winning 'X, not Y' shape.",
+   "Feed 4:5 on light blush, with the copy clear of the bracelet."
+  ],
+  "issues": [
+   "Claim: 'Silver beads, not silver varq.' sets the beads against real silver leaf, so it reads as sterling silver. The beads are polished stainless steel in a silver tone (fidelity library: 'polished silver tone steel bead spheres'; earlier sets: '6mm mirror steel').",
+   "The headline contrast is 3.9:1 (5th percentile 2.1:1): 'Sweeter than mithai.' sits on the mid-dark dusty-rose wall.",
+   "₹1,299 piece."
+  ],
+  "fixes": [
+   "c: \"Mirror steel, not silver varq.\" (true, a sharper joke, and still one line at w 470).",
+   "scrim: true. Tested: headline contrast rises to about 9.7:1, with no visible haze on the plate."
+  ]
+ },
+ {
+  "id": "P01_a1",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The account's proven product (Prism concept ads made 12 of 16 concept sales, at 1.63×) on light pastel rangoli powder. Pigment powder is a prop family that has already won here.",
+   "The stones rhyme with the bands and the bracelet is the one straight line through the colour. It reads at thumbnail.",
+   "₹2,399, over ₹2,000. The correction is accurate, and contrast is about 14:1 with the scrim."
+  ],
+  "issues": [
+   "'Colour, in a straight line.' is the listing line, not a pun: five words, breaking awkwardly as 'Colour, in a / straight line.'",
+   "The scrim leaves a faint haze over the top of the aqua band. Acceptable."
+  ],
+  "fixes": [
+   "h: \"Rangoli, in a line.\" Tested: one line, and the block shrinks to y 72–341. It names the joke and is Diwali-timed."
+  ]
+ },
+ {
+  "id": "P02_a2c",
+  "score": 7,
+  "verdict": "rework",
+  "strengths": [
+   "A striking vertical: the Prism runs top to bottom through stacked aqua, pink and yellow bands. It's the hero product at ₹2,399.",
+   "Stories-safe: copy at y 290–881, nothing in the top 250 px or the bottom 340 px."
+  ],
+  "issues": [
+   "The card's right edge (x 524) lands on the halos' outer pavé (x≈520–528), so it clips the bracelet by a few pixels and butts against it for 590 px.",
+   "Bad breaks at w 400: the headline runs to three lines ('Colour, in / a straight / line.'), and the price line orphans '₹2,399' on a line of its own.",
+   "The 94% cream card (468 × 591 px) hides the left of the aqua and pink bands and reads as a sticker. P01's scrim treatment is lighter.",
+   "Stories is secondary in the data."
+  ],
+  "fixes": [
+   "card: false, scrim: true, x: 56, w: 400, hs: 84. Tested: the copy sits at x 56–456, the glow fades before the halos, and contrast is about 14:1.",
+   "h: \"Rangoli, in a line.\" (tested: breaks 'Rangoli, / in a line.').",
+   "n: \"₹2,399 · Prism Rivière\" (one line)."
+  ]
+ },
+ {
+  "id": "P09_a1",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "A thumb-stopping macro: cushion stones in pavé halos, glinting droplets and hard sun. It's the Prism (₹2,399, the proven product) on Feed 4:5.",
+   "Copy sits on the satin under a scrim at about 11:1, below the stones.",
+   "'After the rain.' hints at a rainbow, which the aqua, pink and yellow stones pay off."
+  ],
+  "issues": [
+   "At macro scale the bracelet looks enormous, and the correction gives no size (the listing states 5 mm stones).",
+   "Implied claim: droplets plus 'After the rain.' suggest the piece is fine in water. ads.json's own rule is no water claims, and the briefs don't state water resistance.",
+   "The top of the frame is browner and darker than the pastel winners."
+  ],
+  "fixes": [
+   "c: \"5 mm stones, each in its own halo.\" (tested: one line).",
+   "Before running, confirm the live B00681C Care block still says waterproof (earlier repo audits found 'waterproof and tarnish free' on 46 of 50 listings, and Prism wasn't among the exclusions). If it doesn't, hold this ad: the droplets make the claim, not just the headline."
+  ]
+ },
+ {
+  "id": "verdant1_a1",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The only ad that hits all three data levers: a food pun (two studs in a pea pod), a ₹2,199 piece and Feed 4:5 on blush.",
+   "The correction uses the winning 'X, not Y' shape ('Green cushion-cut studs, not peas.') and wisely makes no metal claim (the listing text says gold, the photos show white metal).",
+   "Deep green stones sparkle against matte peas, and the pun reads at thumbnail."
+  ],
+  "issues": [
+   "'Two of a kind.' undersells the picture. The idiom the image is shouting is 'two peas in a pod'.",
+   "Contrast: the headline and correction cross the dark band where the tabletop meets the wall (headline about 5.1:1; 5th percentile about 2.4:1 under 'cushion-cut').",
+   "Pre-order, and a product with no ad history."
+  ],
+  "fixes": [
+   "h: \"Two peas in a pod.\" (tested: one line at w 780).",
+   "scrim: true. Tested: contrast rises to about 11–12:1 under the headline and correction."
+  ]
+ },
+ {
+  "id": "squareB1_a1",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "The formula, verbatim: a two-word pun headline ('Cool, squared.'), an 'X, not Y' correction ('A gold huggie, not an ice cube.') and a real price.",
+   "One square huggie in a tray of beaded ice cubes reads in a second. Hard sun on blush silicone is bold but on-palette, and it's Feed 4:5.",
+   "Copy sits well clear of the huggie."
+  ],
+  "issues": [
+   "The copy straddles the tray's diagonal rim, so the background behind the words is busy (5th-percentile contrast 3.9:1). Still legible at 390 px.",
+   "₹1,599 and pre-order. The ad shows one huggie while the listing sells a pair, and the price line doesn't name the product."
+  ],
+  "fixes": [
+   "scrim: true. Tested: it softens the rim behind the copy, looks like part of the sunlight, and lifts contrast to about 12:1."
+  ]
+ },
+ {
+  "id": "dome1_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The cleanest take on 'Almost edible.' in the set: one gold huggie among pastel ring mints. The candy pun lands in a second, and the gold is the only shine in the frame.",
+   "'One of these is not a mint.' makes the viewer search for the piece. The correction is plain and true (a plain polished yellow-gold huggie, per the listing).",
+   "Light blush ground, copy on clean paper at about 13:1, nothing near the product, Feed 4:5."
+  ],
+  "issues": [
+   "Short of a 10 only on economics: ₹1,649 and pre-order sit under the ₹2,000 line the data sets for a lead piece. Creatively there's nothing to change.",
+   "The headline is seven words, not two. The 'find it' mechanic earns the length."
+  ],
+  "fixes": [
+   "None required.",
+   "Optional: ns: 26 (tested: still one line) for an easier price read on phones."
+  ]
+ },
+ {
+  "id": "quatrefoil1_a1c",
+  "score": 6.5,
+  "verdict": "rework",
+  "strengths": [
+   "₹2,449 is the highest ticket in the set, and the quatrefoil of jaali light echoing the four-point stud is a quiet, elegant rhyme.",
+   "'Mughal, in miniature.' is a smart double meaning (Mughal miniature painting), and Indian heritage is still an untested angle.",
+   "The copy matches the photos: a four-point pavé star with pear-cut stones."
+  ],
+  "issues": [
+   "The headline fails contrast: ink on shadowed sandstone at 3.0:1 (5th percentile 2.2:1).",
+   "The correction wraps to three lines with a hyphen break ('pear- / cut') and ends about 30 px from the stud's left point, crowding the piece.",
+   "The stud is small at thumbnail and the jaali itself isn't in frame, so the rhyme needs a beat. The terracotta stone is also darker than the pastel winners.",
+   "Listing mismatch, not an ad error: the listing text says 'four-lobed quatrefoil clover … filled edge to edge with micro-pavé', but the listing photos (and this copy) show a pointed star with pear-cut stones. Fix the PDP text so it agrees with the ad."
+  ],
+  "fixes": [
+   "tone: cream, w: 720, hs: 80. Tested: the headline goes onto one line in the shadow band, contrast rises to about 5.4:1, and the whole block ends at y≈279, above the stud.",
+   "c: \"Pavé and pear-cut stones, in gold.\" (one line).",
+   "Keep n \"₹2,449 · Pre‑order\" ('Quatrefoil Éclat Studs · …' wraps at w 720)."
+  ]
+ }
+]
