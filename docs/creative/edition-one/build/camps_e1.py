@@ -34,7 +34,7 @@ ONLY = "Only the background, surface and lighting change."
 
 # ---------------------------------------------------------------- the eleven pieces
 P = {}
-P["aqua"] = dict(title="Aqua Heart Drops", sku="WE22108C3", price=2499, metal="silver",
+P["aqua"] = dict(title="Aqua Heart Drops", sku="WE22108C3", price=1999, metal="silver",
   fid=("Preserve the earrings from reference 1 exactly, built exactly as in reference 2: white-metal half-hoop drop earrings, each an open "
        "C-shaped arc on a straight post, with a row of round clear brilliant stones in tiny claws along the outer front edge and a row of "
        "upright clear baguette stones set along the inner wall, and from the bottom tip of the arc one pale aqua-blue heart-cut stone "
@@ -43,7 +43,7 @@ P["aqua"] = dict(title="Aqua Heart Drops", sku="WE22108C3", price=2499, metal="s
        "never two hearts; the only coloured stone is the heart. " + ONLY),
   size="CRITICAL SCALE: each earring is small, about 27mm long overall: the arc about 17mm tall and the heart about 9mm wide, the size of a fingernail",
   neg="no other jewellery, no third earring")
-P["halo"] = dict(title="Baguette Halo Drops", sku="WE23818B", price=2200, metal="gold",
+P["halo"] = dict(title="Baguette Halo Drops", sku="WE23818B", price=1999, metal="gold",
   fid=("Preserve the earrings from reference 1 exactly, built exactly as in reference 2: yellow-gold drop earrings, each a flat round stud "
        "disc made of a polished gold rim around a sunburst ring of slim clear baguette stones set like rays, with one round white pearl in "
        "a gold collar at its centre, and below the disc one larger round white pearl hanging on a short gold link; exactly two pearls per "
@@ -82,7 +82,7 @@ P["square"] = dict(title="Petite Square Huggies", sku="WE25284B1", price=1599, m
        "round, never a sharp-cornered box; the tiny pearls stay small seed pearls set on the outside of the tube. " + ONLY),
   size="CRITICAL SCALE: each huggie is small, about 15mm across, the size of a fingernail",
   neg="no other jewellery, no third earring, no loose pearls")
-P["cluster"] = dict(title="Prism Cluster Studs", sku="E15838C1", price=2399, metal="silver",
+P["cluster"] = dict(title="Prism Cluster Studs", sku="E15838C1", price=2099, metal="silver",
   fid=("Preserve the earrings from reference 1 exactly, built exactly as in reference 2: white-metal curved cluster stud earrings, each a "
        "gentle arc of five coloured stones in claw settings, in this exact order: a purple square princess stone, a pink baguette, a "
        "larger yellow emerald-cut stone at the centre, a purple square princess stone, a pink baguette, with six tiny round white pearls "
@@ -112,7 +112,7 @@ P["torsade"] = dict(title="Torsade Huggies", sku="E156970", price=1799, metal="g
        "separate wires, never a plain smooth hoop. " + ONLY),
   size="CRITICAL SCALE: each huggie is small, about 18mm across, a little bigger than a fingernail, the hoop about 6mm thick",
   neg="no other jewellery, no third earring")
-P["verdant"] = dict(title="Verdant Cushion Studs", sku="E19712C", price=2199, metal="silver",
+P["verdant"] = dict(title="Verdant Cushion Studs", sku="E19712C", price=1399, metal="silver",
   fid=("Preserve the earrings from reference 1 exactly, built exactly as in reference 2: white-metal halo stud earrings, each one deep "
        "emerald-green cushion-cut stone in a smooth polished bezel, ringed by a scalloped halo of round clear brilliant stones in claws; "
        "bright rhodium silver tone. " + UNDO + " the centre stays one deep green cushion-cut stone, never round, never mint or teal; the "
@@ -121,9 +121,9 @@ P["verdant"] = dict(title="Verdant Cushion Studs", sku="E19712C", price=2199, me
   neg="no other jewellery, no third earring")
 
 CAMPS = {
- "aqua": dict(name="Leave It Running", line="Aqua Heart Drops — Silver, ₹2,499",
+ "aqua": dict(name="Leave It Running", line="Aqua Heart Drops — Silver, ₹1,999",
    idea="The pale aqua heart is a drop of water, or the dot under a question. Wit in one glance."),
- "halo": dict(name="Ring Twice", line="Baguette Halo Drops, ₹2,200",
+ "halo": dict(name="Ring Twice", line="Baguette Halo Drops, ₹1,999",
    idea="A sunburst disc with a pearl at its heart: a doorbell, a flower, the sun. The pearl drop is the dew."),
  "dome": dict(name="Not a Mint", line="Bold Dome Huggies, ₹1,649",
    idea="A plain gold dome huggie hides among everyday rings: mints, a cup handle. Spot the gold one."),
@@ -133,7 +133,7 @@ CAMPS = {
    idea="The bow on the gift, the bow on the pointe shoe, the bow in the hair. Diwali gifting with a wink."),
  "square": dict(name="A Square Meal", line="Petite Square Huggies, ₹1,599",
    idea="Soft squares with seed pearls, among barfi and ice: a square that knows it's sweet."),
- "cluster": dict(name="Rangoli, to Wear", line="Prism Cluster Studs — Silver, ₹2,399",
+ "cluster": dict(name="Rangoli, to Wear", line="Prism Cluster Studs — Silver, ₹2,099",
    idea="Purple, pink and yellow in an arc: Diwali rangoli colours, nail-paint colours, worn on the ear."),
  "quatrefoil": dict(name="Mughal, in Miniature", line="Quatrefoil Éclat Studs, ₹2,449",
    idea="The quatrefoil is the jaali's own shape and the star anise's cousin. Heritage, at earring size."),
@@ -141,7 +141,7 @@ CAMPS = {
    idea="A ring of round brilliants beside mirror-work embroidery and rock-sugar mishri: India already sparkles."),
  "torsade": dict(name="Twisted, Like Breakfast", line="Torsade Huggies, ₹1,799",
    idea="The twist of a croissant, the twist of a silk dori: gold that rhymes with the things you love."),
- "verdant": dict(name="Two of a Kind", line="Verdant Cushion Studs — Silver, ₹2,199",
+ "verdant": dict(name="Two of a Kind", line="Verdant Cushion Studs — Silver, ₹1,399",
    idea="Two green stones sitting in a pea pod where the peas should be. The pair, literally."),
 }
 

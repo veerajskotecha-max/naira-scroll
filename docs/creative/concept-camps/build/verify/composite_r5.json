@@ -1,0 +1,24 @@
+[
+ {
+  "plate": "prismC1_m1.png",
+  "pick": true,
+  "pass": true,
+  "severity": "minor",
+  "score": 9.5,
+  "reasons": [
+   "Light on the metal: this is still the first tell at full size, though the back faces are now shaded. No link, prong or pavé carries a hard sun glint. The link tops and the stones' interiors keep the listing's soft studio highlights, while each sweet beside them has a crisp upper-left rim and sparkle.",
+   "The notch at the pink sweet's right rim. The visible top corner of the back link at x 720-745, y 1458-1509 renders dark and warm (median 155,102,79) where the listing is mid-grey (205,180,159 at (724,1464)). The script's shade step reads the ground at the link's back foot (722-734, 1588), which lies in the deep orange zone between the two sweets (0.75/0.42/0.29 of lit), so the link takes that colour. The matte is clean there. In the ad frame the notch is a median 9 px wide (15 at most) and 56 px tall; at 390 px, 3 × 20 px. At 1:1 it reads as a dark brown notch tucked behind the sweet.",
+   "Faint pale specks of coloured glow remain in the front shadow under the aqua stones, at most 16 levels (glow 0.12)."
+  ],
+  "notes": [
+   "Install verified. At commit 4e3a8c7, comp_prism.py's only change from r4 is bshade=0.86 as a default (topspec and glint stay 0). To reproduce, run python3 -B comp_prism.py out=review6/r5_live from docs/creative/finished-ads. The result has a maximum difference of 0 against both the live /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/c4/plates/prismC1_m1.png and r5's tested render /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/r5_bshade86.png.",
+   "What changed since r4 is the back links' camera-facing faces. They are now shaded ×0.86, like the front faces (fshade 0.86), as the back-left sun requires.\n- Against the r4 plate, 26,683 px are darker (median −18 levels) and none brighter.\n- The back row's bright metal goes from 210,218,209 to 181,188,180, below the sunlit paper (238,219,208).\n- Each back link's top 15-20 px stays lit through a 12 px blend.\n- The back-row stones go from chroma 53.3 to 47.6 (median 157,120,105).\n- No seam: inside the piece's core only 1 px steps by more than 8% over 2 px (8.2%).",
+   "Everything else holds:\n- fidelity 0.946 over 87,444 core px, with stones, order and count as in the listing;\n- the gap under the left-end links is 0 px at every column from x 136 to 202;\n- the front shadow is 40-55 px, its 50% edge 51 px below the foot at x 420;\n- the lit strip under the back links is 0 px at x 200-400 (at x 420-460 the ground lies in the left purple sweet's own shadow tip);\n- the pink sweet's shadow region reads 0.664/0.520/0.494 of lit, the sweet's own value;\n- 2,345 px of added shadow fall on already-shaded ground, all in penumbrae;\n- 0 px change where the mattes are 0.99 or more;\n- sharpness 0.683 against the sweets' 0.52-0.71, and grain 2.4;\n- the scale is 676 px against the pink sweet's 277.8 px.",
+   "At the framing (box [0,798,1000,2048], a 1.08× upscale): the bracelet is 68% of the width. At 390 px no tell shows, and the shaded back row gives the loop depth. At 1080 the back row reads as in shade with its colours intact, and the remaining tells take a close look.",
+   "The other r5 candidates are in /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/composite_r5_candidates.json: sun1 (bshade 0.82) and sun2 (0.78), whose topspec and glint are inert, and a test of working glints that read as stamped dots at 3.5×. All scored 9.5. This plate was the pick.",
+   "Score 9.5, firmer than r4's: the back row no longer looks studio-lit. What keeps it off 10 is the metal's lack of hard sun sparkle, with the tops and stone interiors still soft-lit, and the notch."
+  ],
+  "fix": "Open toward 10.\n(1) A listing shot under a hard back-left light, so the tops carry the sun's white glare and the prongs and pavé carry real sparkle. The 2-D options cannot do this as written. topspec and glint are inert, because their metal mask rejects the warm-graded metal (on 25,390 top px it exceeds 0.5 nowhere). A working-glint test (/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/var/v9_g40.png) read as stamped dots at 3.5×. Enable glints only with a warm-tolerant mask, a random amplitude and size per glint, and a visual check at 3× and 1:1.\n(2) The notch: test each link point against each sweet's sphere in 3-D instead of reading the ground at the link's foot (untested). The two screen-space shortcuts tested in r4 (footocc, shcap) were rejected.\n(3) Optional: glow=0.08 to fade the specks further (untested).",
+  "crop": null
+ }
+]

@@ -172,13 +172,13 @@ sections += [
     dict(key="e1h", kicker="Edition One · eleven pre-order pieces", title="First heroes", line="One quiet visual pun per piece.",
          idea=("The first pass at the pre-orders: a doorbell, a box of mints, a specimen box, barfi, rangoli, a jaali screen, a shisha "
                "mirror, croissants and a pea pod, each holding one piece. Most missed on scale: the generator draws jewellery about 1.5 "
-               "times too big beside a prop."), facts="₹1,399 to ₹2,499 · pre-order"),
+               "times too big beside a prop."), facts="₹1,399 to ₹2,449 · pre-order"),
     dict(key="e1b", kicker="Edition One · after “these aren’t good enough yet”", title="Bold, version two",
          line="One bold everyday object wears each piece, under hard sun.",
          idea=("The style changed after your note. A teacup, a pink cricket ball, a strawberry, a coupe, a lemonade glass, a "
                "shuttlecock, an ice tray, painted nails and rock sugar each wear one piece, close up, in low hard sun, with the product "
                "big in frame. The last whole credit went on the candy pun your ads proved, and the last 0.15 on a scene test of the same candy bowl, without the stud. "
-               "The real stud from its listing macro was then set into that scene by hand, at true size: the last card."), facts="₹1,399 to ₹2,499 · pre-order")]
+               "The real stud from its listing macro was then set into that scene by hand, at true size: the last card."), facts="₹1,399 to ₹2,449 · pre-order")]
 for s in sections:
     fs = [f for f in frames if f["sec"] == s["key"]]
     s.update(n=len(fs), keep=sum(f["st"] == "keep" for f in fs), credits=round(sum(f["cr"] for f in fs), 2))
@@ -257,10 +257,10 @@ RUN = [("Prism Rivière Bracelet", "₹2,399 · in stock · the proven product (
         ["P01_a1", "prismC1_m1", "P09_a1"], ["P02_a2c", "P01_a1-story"], ["ctl_prism", "ctl_prism-story"],
         "Lead here. prismC1_m1 is a fresh picture for the account's best ad (the same pun, the real bracelet), so run it in the "
         "Feed beside P01. A/B the two rangoli Stories (both 10) rather than running them against each other."),
-       ("Prism Cluster Studs", "₹2,399 · pre-order", ["clusterC1_m1"], [], ["ctl_cluster"],
+       ("Prism Cluster Studs", "₹2,099 · pre-order", ["clusterC1_m1"], [], ["ctl_cluster"],
         "The ‘Almost edible.’ pun on a ₹2,000+ piece, with the real stud. Settle the pearl count on the listing first: the macro "
         "shows 8, the text says 6."),
-       ("Verdant Cushion Studs", "₹2,199 · pre-order", ["verdant1_a1"], ["verdant1_a1-story"], ["ctl_verdant", "ctl_verdant-story"],
+       ("Verdant Cushion Studs", "₹1,399 · pre-order", ["verdant1_a1"], ["verdant1_a1-story"], ["ctl_verdant", "ctl_verdant-story"],
         "Fix the listing's metal line (text says yellow gold, photos show white metal) before spending."),
        ("Woven Gold Hoops", "₹1,499 · in stock", ["W01_a1", "W07_a2"], ["W02_a1", "W05_a2"], ["ctl_woven", "ctl_woven-story"],
         "Strongest as part of a ₹2,000+ set; alone, a ₹1,499 pair struggles to pay back."),

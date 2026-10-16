@@ -3,7 +3,7 @@
   "aqua": {
    "title": "Aqua Heart Drops",
    "sku": "WE22108C3",
-   "price": 2499,
+   "price": 1999,
    "metal": "silver",
    "fid": "Preserve the earrings from reference 1 exactly, built exactly as in reference 2: white-metal half-hoop drop earrings, each an open C-shaped arc on a straight post, with a row of round clear brilliant stones in tiny claws along the outer front edge and a row of upright clear baguette stones set along the inner wall, and from the bottom tip of the arc one pale aqua-blue heart-cut stone hangs point-down in a fine silver claw setting on a small loop; bright rhodium silver tone. Do not redesign, restyle, resize or add anything; the arc must stay an open C, never a closed hoop, never gold; the heart must stay one pale icy aqua-blue heart, never deep blue, never sapphire, never pink, never two hearts; the only coloured stone is the heart. Only the background, surface and lighting change.",
    "size": "CRITICAL SCALE: each earring is small, about 27mm long overall: the arc about 17mm tall and the heart about 9mm wide, the size of a fingernail",
@@ -12,7 +12,7 @@
   "halo": {
    "title": "Baguette Halo Drops",
    "sku": "WE23818B",
-   "price": 2200,
+   "price": 1999,
    "metal": "gold",
    "fid": "Preserve the earrings from reference 1 exactly, built exactly as in reference 2: yellow-gold drop earrings, each a flat round stud disc made of a polished gold rim around a sunburst ring of slim clear baguette stones set like rays, with one round white pearl in a gold collar at its centre, and below the disc one larger round white pearl hanging on a short gold link; exactly two pearls per earring; warm 18k gold tone. Do not redesign, restyle, resize or add anything; the baguettes must stay slim straight rectangular baguettes radiating like rays, never round stones, never petals; the centre stays a pearl; the drop stays one single round white pearl. Only the background, surface and lighting change.",
    "size": "CRITICAL SCALE: each earring is about 26mm long: the disc about 14mm across, the size of a fingernail, and the pearl drop about 10mm, the size of a chickpea",
@@ -57,7 +57,7 @@
   "cluster": {
    "title": "Prism Cluster Studs",
    "sku": "E15838C1",
-   "price": 2399,
+   "price": 2099,
    "metal": "silver",
    "fid": "Preserve the earrings from reference 1 exactly, built exactly as in reference 2: white-metal curved cluster stud earrings, each a gentle arc of five coloured stones in claw settings, in this exact order: a purple square princess stone, a pink baguette, a larger yellow emerald-cut stone at the centre, a purple square princess stone, a pink baguette, with six tiny round white pearls tucked into the gaps; bright rhodium silver tone. Do not redesign, restyle, resize or add anything; exactly five coloured stones in that order, purple, pink, yellow, purple, pink; the yellow stone stays the largest, at the centre; the pearls stay tiny. Only the background, surface and lighting change.",
    "size": "CRITICAL SCALE: each stud is small, an arc about 20mm long, as long as a fingertip; the yellow centre stone is about 6mm tall",
@@ -93,7 +93,7 @@
   "verdant": {
    "title": "Verdant Cushion Studs",
    "sku": "E19712C",
-   "price": 2199,
+   "price": 1399,
    "metal": "silver",
    "fid": "Preserve the earrings from reference 1 exactly, built exactly as in reference 2: white-metal halo stud earrings, each one deep emerald-green cushion-cut stone in a smooth polished bezel, ringed by a scalloped halo of round clear brilliant stones in claws; bright rhodium silver tone. Do not redesign, restyle, resize or add anything; the centre stays one deep green cushion-cut stone, never round, never mint or teal; the halo stays one ring of clear round stones; silver-white metal, never gold. Only the background, surface and lighting change.",
    "size": "CRITICAL SCALE: each stud is small, about 12mm across, a little smaller than a fingernail",
@@ -103,12 +103,12 @@
  "camps": {
   "aqua": {
    "name": "Leave It Running",
-   "line": "Aqua Heart Drops — Silver, ₹2,499",
+   "line": "Aqua Heart Drops — Silver, ₹1,999",
    "idea": "The pale aqua heart is a drop of water, or the dot under a question. Wit in one glance."
   },
   "halo": {
    "name": "Ring Twice",
-   "line": "Baguette Halo Drops, ₹2,200",
+   "line": "Baguette Halo Drops, ₹1,999",
    "idea": "A sunburst disc with a pearl at its heart: a doorbell, a flower, the sun. The pearl drop is the dew."
   },
   "dome": {
@@ -133,7 +133,7 @@
   },
   "cluster": {
    "name": "Rangoli, to Wear",
-   "line": "Prism Cluster Studs — Silver, ₹2,399",
+   "line": "Prism Cluster Studs — Silver, ₹2,099",
    "idea": "Purple, pink and yellow in an arc: Diwali rangoli colours, nail-paint colours, worn on the ear."
   },
   "quatrefoil": {
@@ -153,7 +153,7 @@
   },
   "verdant": {
    "name": "Two of a Kind",
-   "line": "Verdant Cushion Studs — Silver, ₹2,199",
+   "line": "Verdant Cushion Studs — Silver, ₹1,399",
    "idea": "Two green stones sitting in a pea pod where the peas should be. The pair, literally."
   }
  },
