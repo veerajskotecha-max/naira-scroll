@@ -236,8 +236,30 @@ nxt = dict(lede=(f"{round(201.22 - spent, 2)} credits are left, under the 0.15 t
                       "Petite Bow Studs and Verdant Cushion Studs: the listing text says gold, but every photo shows white metal.",
                       "Petite Square Huggies: the description doesn’t mention the seed pearls that appear in every photo."])
 
+# Run sheet: each ad set pairs the finished ads with their plain control (AD_PERFORMANCE rule 5: same ad set, judge on cost per
+# purchase), Prism first because it is the proven product and the only one with 10/10 ads; Feed first, Stories second.
+FIN = {f["id"][3:]: f for f in finished}; CTL = {c["id"]: c for c in controls}
+def pick(ids, pool): return [dict(id=i, name=pool[i]["name"] if i in pool else i, score=pool[i]["score"] if i in pool else None,
+                                  aspect=pool[i]["aspect"] if i in pool else "") for i in ids if i in pool]
+RUN = [("Prism Rivière Bracelet", "₹2,399 · in stock · the proven product (12 of 16 concept sales)",
+        ["P01_a1", "P09_a1"], ["P02_a2c", "P01_a1-story"], ["ctl_prism", "ctl_prism-story"],
+        "Lead here. A/B the two rangoli Stories (both 10) rather than running them against each other."),
+       ("Verdant Cushion Studs", "₹2,199 · pre-order", ["verdant1_a1"], ["verdant1_a1-story"], ["ctl_verdant", "ctl_verdant-story"],
+        "Fix the listing's metal line (text says yellow gold, photos show white metal) before spending."),
+       ("Woven Gold Hoops", "₹1,499 · in stock", ["W01_a1", "W07_a2"], ["W02_a1", "W05_a2"], ["ctl_woven", "ctl_woven-story"],
+        "Strongest as part of a ₹2,000+ set; alone, a ₹1,499 pair struggles to pay back."),
+       ("Bold Dome Huggies", "₹1,649 · pre-order", ["dome1_a1"], ["dome1_a1-story"], ["ctl_dome", "ctl_dome-story"],
+        "The closest copy of the ‘Almost edible.’ mechanic. Watch cost per purchase."),
+       ("Petite Square Huggies", "₹1,599 · pre-order", ["squareB1_a1"], ["squareB1_a1-story"], ["ctl_square", "ctl_square-story"],
+        "Name the seed pearls on the listing before spending."),
+       ("Heartbead Bracelet", "₹1,299 · in stock", ["H01_e1", "H09_a1"], ["H01_e1-story"], ["ctl_heart", "ctl_heart-story"],
+        "Lowest ticket in the set; best inside a gift set."),
+       ("Diwali test", "Toggle Link Chain and Woven Gold Hoops · ₹1,499", ["T10_a1", "W10_a2"], [], ["ctl_toggle", "ctl_woven"],
+        "End both on the last order date that still delivers before Diwali (8 Nov).")]
+run = [dict(set=n, facts=fa, feed=pick(fe, FIN), story=pick(st, FIN), ctl=pick(ct, CTL), note=no) for n, fa, fe, st, ct, no in RUN]
+
 data = dict(frames=frames, keepers=[f["id"] for f in keepers], sections=sections, meter=meter, ledger=ledger, total=total,
-            stats=stats, pdfs=pdfs, ad=ad, next=nxt, finished=finished, controls=controls)
+            stats=stats, pdfs=pdfs, ad=ad, next=nxt, finished=finished, controls=controls, run=run)
 velista = base64.b64encode(open(f"{SPB}/c4/fonts/Velista.ttf", "rb").read()).decode()
 page = open(f"{HERE}/sheet_template.html").read()
 page = page.replace("__VELISTA__", velista).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))

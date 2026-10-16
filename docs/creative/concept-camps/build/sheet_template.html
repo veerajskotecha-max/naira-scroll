@@ -79,6 +79,7 @@ h1{font-size:clamp(60px,11vw,138px);line-height:.95}
 .ap .code{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-family:var(--label);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .ap .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
 .ctlhead{margin-top:72px}
+#runTable td{font-size:16.5px} #runTable .set{font-size:19px;font-weight:600} #runTable .pill{font-family:var(--label);font-size:11.5px;letter-spacing:.06em;white-space:nowrap}
 .st-ctl{color:var(--muted);border:1px solid var(--rule)}
 .st-scene{color:var(--muted);border:1px dotted var(--muted)}
 .sq.part{background:linear-gradient(90deg,var(--c) calc(var(--f) * 100%),transparent 0);box-shadow:inset 0 0 0 1px var(--c)}
@@ -208,6 +209,9 @@ details p{margin-top:10px}
     <div class="sechead ctlhead" id="cHead" hidden><span class="lab">The control for each test</span><h2>Plain close-ups</h2>
       <p>Your ad data says to run every crazy ad beside a plain craft close-up of the same piece, in the same ad set, and judge on cost per purchase. These are the listing’s own close-ups, set the same way.</p></div>
     <div class="agrid" id="cgrid"></div>
+    <div class="sechead ctlhead" id="rHead" hidden><span class="lab">How to run them</span><h2>The run sheet</h2>
+      <p>One ad set per piece. Each crazy ad runs beside its plain control, Feed 4:5 first and Stories second, and each is judged on cost per purchase, as your account’s data says. Prism leads: it is the proven product and the only one with 10/10 ads.</p></div>
+    <div class="tablewrap"><table id="runTable"></table></div>
   </section>
 
   <section id="keepers">
@@ -341,6 +345,16 @@ function renderAds() {
       el("span", {class: "kn", text: f.name}), el("span", {class: "small", text: f.sub}),
       el("div", {class: "bar"}, btn, note))));
   }
+}
+
+function renderRun() {
+  if (!DATA.run || !DATA.run.length) return;
+  $("#rHead").hidden = false; const tb = $("#runTable");
+  tb.append(el("thead", {}, el("tr", {}, el("th", {text: "Ad set"}), el("th", {text: "Feed 4:5"}), el("th", {text: "Stories 9:16"}), el("th", {text: "Plain control"}), el("th", {text: "Note"}))));
+  const body = el("tbody");
+  const cell = (list, ctl) => { const td = el("td", {}); list.forEach((x, i) => { if (i) td.append(el("br")); td.append(document.createTextNode(ctl ? (x.aspect === "9:16" ? "Story close-up" : "Feed close-up") : x.name), el("span", {class: "pill", text: x.score != null ? "  ·  " + x.score : ""})); }); if (!list.length) td.append(document.createTextNode("—")); return td; };
+  for (const r of DATA.run) body.append(el("tr", {}, el("td", {}, el("span", {class: "set", text: r.set}), el("br"), el("span", {class: "small", text: r.facts})), cell(r.feed), cell(r.story), cell(r.ctl, true), el("td", {class: "small", text: r.note})));
+  tb.append(body);
 }
 
 function renderControls() {
@@ -499,7 +513,7 @@ async function save(path, name, note) {
   }
 }
 
-renderHead(); renderAds(); renderControls(); renderKeepers(); renderSheet(); renderCredits(); renderRest();
+renderHead(); renderAds(); renderControls(); renderRun(); renderKeepers(); renderSheet(); renderCredits(); renderRest();
 (window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null)).then(d => {
   downloads = d; if (!d) return;
   document.querySelectorAll(".savePdf,.saveAd").forEach(b => { b.disabled = false; });
