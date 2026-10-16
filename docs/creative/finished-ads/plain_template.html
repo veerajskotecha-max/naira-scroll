@@ -1,0 +1,242 @@
+<title>Naira Plain Images</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap">
+<style>
+@font-face{font-family:"Velista";src:url(data:font/ttf;base64,__VELISTA__) format("truetype");font-display:swap}
+/* The Naira deck as a picture library: blush paper, sage rules, the tulip wordmark, Velista capitals. Every photograph here is
+   plain (no copy on it), grouped by whether it passed the listing check, so Claude Design builds ads only from the right ones. */
+:root{
+  --paper:#FFF8F5; --card:#FFFFFF; --ink:#1A1614; --muted:#6E625A; --rule:#EADFD8; --sage:#99B4AE; --sage-ink:#4F6B65;
+  --coral:#B4513B; --peach:#F2C4B6; --chip:#F3E9E3; --scrim:rgba(26,22,20,.86);
+  --display:"Velista","Cormorant Garamond",Georgia,serif; --text:"Cormorant Garamond",Georgia,serif; --label:"Jost","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#1A1716; --card:#24201E; --ink:#F3ECE6; --muted:#B9ABA1; --rule:#3A332F; --sage:#7F9C96; --sage-ink:#A9C7C0;
+  --coral:#F0A08F; --peach:#8E6A60; --chip:#2E2826; --scrim:rgba(0,0,0,.88); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1A1716; --card:#24201E; --ink:#F3ECE6; --muted:#B9ABA1; --rule:#3A332F; --sage:#7F9C96; --sage-ink:#A9C7C0;
+  --coral:#F0A08F; --peach:#8E6A60; --chip:#2E2826; --scrim:rgba(0,0,0,.88); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--text);font-size:19px;line-height:1.5;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto;padding-block:40px 80px;display:flex;flex-direction:column;gap:72px}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;line-height:1;text-transform:uppercase;letter-spacing:.005em;text-wrap:balance}
+p{margin:0}
+.lab{font-family:var(--label);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.small{font-family:var(--label);font-size:12.5px;letter-spacing:.03em;color:var(--muted);line-height:1.45}
+button{font-family:var(--label);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--paper);background:var(--ink);
+  border:1px solid var(--ink);padding:11px 15px;cursor:pointer;border-radius:0;line-height:1.2}
+button.quiet{background:transparent;color:var(--ink);border-color:var(--rule)}
+button:hover:not([disabled]){opacity:.86}
+button:focus-visible,a:focus-visible,summary:focus-visible,.pic:focus-visible{outline:2px solid var(--coral);outline-offset:3px}
+button[disabled]{opacity:.35;cursor:default}
+.wm{display:block;width:min(260px,52vw);height:auto}
+.wm.dark{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wm.light{display:none} :root:not([data-theme="light"]) .wm.dark{display:block}}
+:root[data-theme="dark"] .wm.light{display:none} :root[data-theme="dark"] .wm.dark{display:block}
+
+.mast{display:grid;gap:22px;padding-bottom:36px;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(54px,10vw,128px)}
+.lede{font-style:italic;font-size:clamp(21px,2.6vw,29px);line-height:1.3;max-width:46ch}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));column-gap:26px}
+.nums div{display:grid;gap:4px;align-content:start;padding:14px 0 18px;border-top:2px solid var(--sage)}
+.nums b{font-family:var(--display);font-weight:400;font-size:clamp(40px,5vw,60px);line-height:1}
+.nums .k{font-family:var(--label);font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+.nums span:last-child{font-size:16px;line-height:1.3;color:var(--muted)}
+.jump{display:flex;flex-wrap:wrap;gap:8px 22px}
+.jump a{font-family:var(--label);font-size:12px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;color:inherit;border-bottom:1px solid var(--rule);padding-bottom:3px}
+
+.sechead{display:grid;gap:10px;max-width:70ch;margin-bottom:28px}
+.sechead h2{font-size:clamp(34px,5vw,56px)}
+.sechead p:not(.lab){font-size:20px}
+.pdfs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.pdf{background:var(--card);border:1px solid var(--rule);padding:20px;display:grid;gap:10px;align-content:start;min-width:0}
+.pdf h3{font-size:24px;line-height:1.05}
+.pdf .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.note{font-family:var(--label);font-size:12px;color:var(--muted);min-height:1em}
+.kit{margin-top:18px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.sw{display:flex;gap:6px}
+.sw i{width:22px;height:22px;border:1px solid var(--rule)}
+
+.piece{margin-top:34px}
+.piece h3{font-size:26px;margin-bottom:4px}
+.piece .small{margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:14px}
+.card{display:grid;gap:8px;align-content:start;min-width:0}
+.pic{display:block;width:100%;padding:0;border:1px solid var(--rule);background:var(--chip);cursor:zoom-in;aspect-ratio:4/5;overflow:hidden;color:inherit}
+.pic.tall{aspect-ratio:9/16}
+.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.chip{font-family:var(--label);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;padding:3px 7px;justify-self:start}
+.chip.ready{background:var(--sage);color:#102420}
+.chip.ref{background:transparent;border:1px solid var(--coral);color:var(--coral)}
+.chip.list{background:var(--peach);color:#3A1E16}
+.card .t{font-size:17px;line-height:1.2}
+.card .m{font-family:var(--label);font-size:11.5px;color:var(--muted);letter-spacing:.04em;overflow-wrap:anywhere}
+details.refwrap{border-top:1px solid var(--rule);padding-top:18px}
+details.refwrap summary{cursor:pointer;font-family:var(--label);font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+footer{border-top:1px solid var(--rule);padding-top:26px;display:grid;gap:12px;max-width:72ch}
+footer h2{font-size:30px}
+
+dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100dvh;margin:0}
+dialog::backdrop{background:var(--scrim)}
+.lb{height:100%;display:grid;grid-template-rows:1fr auto;gap:12px;padding:max(14px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(14px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.lb .img{min-height:0;display:flex;align-items:center;justify-content:center}
+.lb img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.lb .bar{background:var(--card);color:var(--ink);padding:14px 16px;display:grid;gap:6px}
+.lb .bar .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.lb .bar .t{font-family:var(--display);text-transform:uppercase;font-size:22px;line-height:1.05}
+.lb .bar .line{font-style:italic;font-size:17px;line-height:1.3}
+.lb .btns{display:flex;gap:8px;flex-wrap:wrap}
+@media (max-width:560px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))} .pdfs{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <img class="wm light" src="data:image/png;base64,__WM_LIGHT__" alt="Naira">
+    <img class="wm dark" src="data:image/png;base64,__WM_DARK__" alt="Naira">
+    <p class="lab">Plain images for Claude Design · October 2026</p>
+    <h1>Plain images</h1>
+    <p class="lede">Every photograph from this round with no copy on it, and the store’s own listing photos. Take the PDFs into Claude Design: each page names the piece, the price and whether the photo passed the listing check.</p>
+    <div class="nums" id="nums"></div>
+    <nav class="jump" aria-label="Sections"><a href="#pdfs">PDFs</a><a href="#ready">Ready for ads</a><a href="#listing">Listing photos</a><a href="#reference">Reference only</a></nav>
+  </header>
+
+  <section id="pdfs">
+    <div class="sechead">
+      <p class="lab">For Claude Design</p>
+      <h2>The PDFs</h2>
+      <p>One photograph per page at up to 2,000 px, with a caption band under it. Each file stays under 15 MB, the limit for one file here, so the set comes in parts. Part 1 of “Ready for ads” opens with the brand kit: the deck’s three wordmarks, the palette, the type, and the layout of the account’s best ad.</p>
+      <div class="kit"><span class="lab">The palette</span><span class="sw" aria-hidden="true"><i style="background:#99B4AE"></i><i style="background:#FFF8F5"></i><i style="background:#F2C4B6"></i><i style="background:#F0A08F"></i><i style="background:#1A1614"></i></span><span class="small">Sage · Blush · Peach · Coral · Ink</span></div>
+    </div>
+    <div class="pdfs" id="pdfList"></div>
+  </section>
+
+  <section id="ready">
+    <div class="sechead">
+      <p class="lab">Passed the listing check</p>
+      <h2>Ready for ads</h2>
+      <p>Each of these shows the piece as the listing does: the right stones in the right order, the right metal, true scale and no face. Build ads from these. The two candy composites are the real listing photos set into a generated scene, so the piece itself was not redrawn.</p>
+    </div>
+    <div id="readyGroups"></div>
+  </section>
+
+  <section id="listing">
+    <div class="sechead">
+      <p class="lab">The store’s own photographs</p>
+      <h2>Listing photos</h2>
+      <p>The product photos from each Shopify listing, for plain ads and controls, and as the truth to check any new picture against.</p>
+    </div>
+    <div id="listingGroups"></div>
+  </section>
+
+  <section id="reference">
+    <div class="sechead">
+      <p class="lab">Failed the listing check</p>
+      <h2>Reference only</h2>
+      <p>These are kept for the record and must not be used for ads. Each one shows the piece wrongly: the wrong stone count or order, a face in frame, or the wrong scale. The reviewer’s reason is on every card.</p>
+    </div>
+    <details class="refwrap"><summary>Show the reference photographs</summary><div id="refGroups"></div></details>
+  </section>
+
+  <footer>
+    <h2>How these were sorted</h2>
+    <p>An independent reviewer checked every photograph against the piece’s listing photos. It looked at construction, stone count and order, metal, one piece only, no face, true scale and the blush palette. Anything that passed is ready for ads; anything that failed is reference only. The listing photos come straight from the store.</p>
+  </footer>
+</div>
+
+<dialog id="lb" aria-labelledby="lbT">
+  <div class="lb">
+    <div class="img"><img id="lbImg" alt=""></div>
+    <div class="bar">
+      <div class="row"><span class="chip" id="lbChip"></span><span class="m small" id="lbMeta"></span></div>
+      <div class="t" id="lbT"></div>
+      <p class="line" id="lbLine"></p>
+      <div class="row"><div class="btns"><button type="button" class="quiet" id="lbPrev">← Previous</button><button type="button" class="quiet" id="lbNext">Next →</button></div>
+        <div class="btns"><button type="button" id="lbSave" disabled>Save JPG</button><button type="button" class="quiet" id="lbClose">Close</button></div></div>
+      <p class="note" id="lbNote"></p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const DATA = __DATA__;
+const $ = s => document.querySelector(s);
+function el(tag, attrs = {}, kids = []) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) { if (k === "text") e.textContent = v; else if (v !== null && v !== undefined) e.setAttribute(k, v); }
+  for (const k of kids) e.append(k); return e;
+}
+let downloads = null, cur = null, order = [];
+const CHIP = {ready: ["ready", "Ready for ads"], ref: ["ref", "Reference only"], list: ["list", "Listing photo"]};
+
+function renderNums() {
+  const n = DATA.counts;
+  [[n.ready, "Ready for ads", "passed the listing check"], [n.listing, "Listing photos", "from the store"],
+   [n.reference, "Reference only", "failed the check"], [DATA.pdfs.length, "PDFs", `${DATA.mb} MB in all, each under 15`]]
+    .forEach(([b, k, s]) => $("#nums").append(el("div", {}, [el("b", {text: String(b)}), el("span", {class: "k", text: k}), el("span", {text: s})])));
+}
+function renderPdfs() {
+  for (const p of DATA.pdfs) {
+    const note = el("p", {class: "note"});
+    const btn = el("button", {type: "button", class: "savePdf", disabled: "", text: "Save PDF"});
+    btn.addEventListener("click", () => save("pdfs/" + p.file, p.file, note));
+    $("#pdfList").append(el("article", {class: "pdf"}, [el("p", {class: "lab", text: p.kind}), el("h3", {text: p.title}),
+      el("p", {class: "small", text: `${p.count} photographs · ${p.mb} MB`}), el("div", {class: "row"}, [btn]), note]));
+  }
+}
+function card(it) {
+  const img = el("img", {src: it.t, alt: it.title + (it.name ? ", " + it.name : ""), loading: "lazy", width: "320", height: it.tall ? "569" : "400"});
+  const b = el("button", {type: "button", class: "pic" + (it.tall ? " tall" : ""), "aria-label": "Open " + it.title + (it.name ? ", " + it.name : "")}, [img]);
+  b.addEventListener("click", () => open(it));
+  const [cls, label] = CHIP[it.g];
+  return el("article", {class: "card"}, [b, el("span", {class: "chip " + cls, text: label}),
+    el("p", {class: "t", text: it.name || it.title}), el("p", {class: "m", text: it.meta})]);
+}
+function renderGroups(target, items) {
+  const by = new Map();
+  for (const it of items) { if (!by.has(it.title)) by.set(it.title, []); by.get(it.title).push(it); }
+  for (const [title, list] of by) {
+    const g = el("div", {class: "grid"}); list.forEach(it => g.append(card(it)));
+    $(target).append(el("div", {class: "piece"}, [el("h3", {text: title}), el("p", {class: "small", text: list[0].price ? `${list[0].price} · ${list.length} photograph${list.length > 1 ? "s" : ""}` : `${list.length} photograph${list.length > 1 ? "s" : ""}`}), g]));
+  }
+}
+function open(it) {
+  cur = it; order = DATA.items.filter(x => x.g === it.g);
+  $("#lbImg").src = it.f; $("#lbImg").alt = it.title + (it.name ? ", " + it.name : "");
+  const [cls, label] = CHIP[it.g]; $("#lbChip").className = "chip " + cls; $("#lbChip").textContent = label;
+  $("#lbMeta").textContent = it.meta; $("#lbT").textContent = it.title + (it.name ? " · " + it.name : "");
+  $("#lbLine").textContent = it.line || ""; $("#lbNote").textContent = ""; $("#lbSave").disabled = !downloads;
+  const lb = $("#lb"); if (!lb.open) lb.showModal();
+}
+function step(d) { if (!cur) return; const i = order.indexOf(cur); open(order[(i + d + order.length) % order.length]); }
+$("#lbPrev").addEventListener("click", () => step(-1)); $("#lbNext").addEventListener("click", () => step(1));
+$("#lbClose").addEventListener("click", () => $("#lb").close());
+$("#lb").addEventListener("click", e => { if (e.target === $("#lb") || e.target.classList.contains("img")) $("#lb").close(); });
+$("#lb").addEventListener("keydown", e => { if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); } else if (e.key === "ArrowRight") { e.preventDefault(); step(1); } });
+$("#lbSave").addEventListener("click", () => cur && save(cur.f, cur.file, $("#lbNote")));
+
+async function save(path, name, note) {
+  if (!downloads) return;
+  note.textContent = "Preparing…";
+  try {
+    const r = await fetch(path); if (!r.ok) throw {code: "missing"};
+    await downloads.save({filename: name, data: await r.blob()});
+    note.textContent = "Saved " + name;
+  } catch (e) {
+    const code = e && e.code;
+    note.textContent = code === "declined" ? "Not saved." : code === "rate_limited" ? "Another save is open. Try again in a moment." :
+      code === "missing" ? "That file did not load. Reload the page and try again." : "Saving isn’t available in this view.";
+  }
+}
+
+renderNums(); renderPdfs();
+renderGroups("#readyGroups", DATA.items.filter(x => x.g === "ready"));
+renderGroups("#listingGroups", DATA.items.filter(x => x.g === "list"));
+renderGroups("#refGroups", DATA.items.filter(x => x.g === "ref"));
+(window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null)).then(d => {
+  downloads = d; if (!d) return;
+  document.querySelectorAll(".savePdf").forEach(b => { b.disabled = false; });
+  if (cur) $("#lbSave").disabled = false;
+}).catch(() => {});
+</script>

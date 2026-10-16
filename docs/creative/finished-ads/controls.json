@@ -32,7 +32,7 @@
    "path": "concept-camps/build/refs/heart/listing-1.jpg",
    "fmt": "4:5",
    "h": "Heartbead Bracelet.",
-   "c": "mirror-polished beads, a gold toggle and heart.",
+   "c": "mirror-polished beads, a gold-tone toggle and heart.",
    "at": "bl",
    "w": 940,
    "hs": 60,
@@ -53,7 +53,8 @@
    "hs": 84,
    "spec": "18 cm · cubic zirconia · rhodium plated",
    "cta": "Shop the bracelet",
-   "price": "₹2,399"
+   "price": "₹2,399",
+   "wm": "ink"
   },
   {
    "id": "ctl_dome",
@@ -81,7 +82,7 @@
    "spec": "Edition One · Pre‑order",
    "cta": "Pre‑order",
    "price": "₹2,199",
-   "cs": 32
+   "cs": 30
   },
   {
    "id": "ctl_quatrefoil",
@@ -102,13 +103,12 @@
    "fmt": "4:5",
    "h": "Petite Square Huggies.",
    "c": "a squared-off gold huggie, hinged.",
-   "at": "bl",
-   "w": 520,
-   "hs": 64,
+   "at": "tl",
+   "w": 330,
+   "hs": 72,
    "spec": "Edition One · Pre‑order",
    "cta": "Pre‑order",
    "price": "₹1,599",
-   "y": 196,
    "cs": 32
   },
   {
@@ -144,14 +144,15 @@
    "path": "concept-camps/build/refs/heart/listing-1.jpg",
    "fmt": "9:16",
    "h": "Heartbead Bracelet.",
-   "c": "mirror-polished beads, a gold toggle and heart.",
+   "c": "mirror-polished beads, a gold-tone toggle and heart.",
    "at": "bl",
-   "w": 560,
-   "hs": 84,
+   "w": 940,
+   "hs": 60,
    "ext": true,
    "spec": "6 mm steel beads · two tone · waterproof",
    "cta": "Shop the bracelet",
-   "price": "₹1,299"
+   "price": "₹1,299",
+   "cs": 32
   },
   {
    "id": "ctl_prism-story",
@@ -165,7 +166,8 @@
    "ext": true,
    "spec": "18 cm · cubic zirconia · rhodium plated",
    "cta": "Shop the bracelet",
-   "price": "₹2,399"
+   "price": "₹2,399",
+   "wm": "ink"
   },
   {
    "id": "ctl_dome-story",
@@ -174,12 +176,13 @@
    "h": "Bold Dome Huggies.",
    "c": "polished gold, with a hinged snap.",
    "at": "tl",
-   "w": 560,
-   "hs": 84,
+   "w": 300,
+   "hs": 72,
    "ext": true,
    "spec": "Edition One · Pre‑order",
    "cta": "Pre‑order",
-   "price": "₹1,649"
+   "price": "₹1,649",
+   "cs": 32
   },
   {
    "id": "ctl_verdant-story",
@@ -188,12 +191,13 @@
    "h": "Verdant Cushion Studs.",
    "c": "a green cushion-cut stone in a halo of clear stones.",
    "at": "tl",
-   "w": 600,
-   "hs": 84,
+   "w": 330,
+   "hs": 72,
    "ext": true,
    "spec": "Edition One · Pre‑order",
    "cta": "Pre‑order",
-   "price": "₹2,199"
+   "price": "₹2,199",
+   "cs": 30
   },
   {
    "id": "ctl_quatrefoil-story",
@@ -215,13 +219,14 @@
    "fmt": "9:16",
    "h": "Petite Square Huggies.",
    "c": "a squared-off gold huggie, hinged.",
-   "at": "bl",
-   "w": 600,
-   "hs": 84,
+   "at": "tl",
+   "w": 330,
+   "hs": 72,
    "ext": true,
    "spec": "Edition One · Pre‑order",
    "cta": "Pre‑order",
-   "price": "₹1,599"
+   "price": "₹1,599",
+   "cs": 32
   },
   {
    "id": "ctl_cluster",
@@ -234,7 +239,8 @@
    "hs": 84,
    "spec": "Edition One · Pre‑order",
    "cta": "Pre‑order",
-   "price": "₹2,399"
+   "price": "₹2,399",
+   "wm": "ink"
   }
  ]
 }

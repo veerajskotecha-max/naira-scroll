@@ -24,7 +24,9 @@ P = dict(cx=465, cy=1705,      # where the stud's centre sits in the scene (1536
          ao=0.6,               # contact darkening right under the lowest claws
          tint=(1.0, 0.965, 0.935), lift=(34, 26, 24), gain=0.96,   # warm the metal toward the blush scene, lift its black reflections
          glow=0.6,             # light the stones let through into their own shadow
-         grain=1.8, out="e1/plates/clusterC1_m1")   # relative to the scratchpad
+         grain=1.8, out="e1/plates/clusterC1_m1",   # relative to the scratchpad
+         sunlit_cap=1,         # ground already in a sweet's shadow takes no second shadow from the stud
+         lit=(237.8, 219.2, 208.3))   # the open ground's colour, for reading where the sweets' shadows are
 for kv in sys.argv[1:]:
     k, v = kv.split("=", 1); P[k] = json.loads(v) if v[:1] in "[{0123456789-." else v
     if isinstance(P[k], list): P[k] = tuple(P[k])
@@ -87,7 +89,11 @@ def main():
     near = np.clip(1 - (yc - low) / P.get("near", 45), 0, 1)
     d = np.arange(H, dtype=np.float32)[:, None] - low[None, :]
     ao = soft(np.where(d > -1, np.exp(-np.maximum(d, 0) / P.get("aolen", 10)), 0).astype(np.float32) * near[None, :], 2.5)
-    dark = np.clip(sh + P["ao"] * ao * (1 - sh), 0, 1)[..., None]
+    dark = np.clip(sh + P["ao"] * ao * (1 - sh), 0, 1)
+    if P["sunlit_cap"]:
+        G = np.clip(cv2.GaussianBlur(scene, (0, 0), 4) / (np.array(P["lit"]) / 255), 0, 1).mean(-1); shm = float(np.mean(P["sh"]))
+        sunlit = np.clip((G - shm) / (1 - shm), 0, 1); dark = dark * sunlit; gl = gl * sunlit
+    dark = dark[..., None]
     mult = 1 - dark * (1 - np.array(P["sh"]))
     lit = scene * mult
     hue = col / np.maximum(col.mean(-1, keepdims=True), 1e-3)                # each stone's colour, at unit brightness

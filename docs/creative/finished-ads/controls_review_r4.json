@@ -1,0 +1,275 @@
+[
+ {
+  "id": "ctl_toggle",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The copy is true against the listing: Toggle Link Chain, paperclip links that close with a turn (the toggle bar and ring), 50 cm, 18k gold tone, waterproof, ₹1,499.",
+   "Contrast: headline 9.1–9.9:1 (darkest 5% 6.6:1), correction 10.7:1 (5.8:1), spec line 15.7:1 (15.2:1), price 14.1:1 (13.7:1). The copy sits at least 200 px from the chain, and the foot sits on clean peach.",
+   "On-brand: Velista capitals, the lowercase Cormorant italic correction, Jost spec and price, the ink CTA, and the deck's sage-on-blush wordmark at 179 px wide (the brand's darker text sage #7D9891, 2.4:1, legible at 390 px). Margins are 64 px at the sides and top and 60 px at the bottom, as on every Feed control."
+  ],
+  "issues": [
+   "[ceiling: photo] A product still, not the craft close-up the data asks for (rule 5). The clasp, which is the selling point, is about 77 px across in the frame (28 px at 390 px) and seen edge-on. Ceiling 8.5, as in r1.",
+   "[photo] The dark out-of-focus prop at the top left sits behind 'TO' of the headline. It pulls the headline's darkest 5% down to 6.6:1. That is still legible, but it is the one dark patch on a light ground."
+  ],
+  "fixes": [
+   "[apply] None with the photos on file. refs/toggle holds only the cube, on-body and velvet shots, plus a 900×780 on-skin clasp.",
+   "[no layout fix] A plain close-up of the clasp from Shopify, 1,600 px or wider, would lift this and the Story."
+  ]
+ },
+ {
+  "id": "ctl_woven",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "A clean craft close-up (listing-2): one hoop hangs in front of the plaster block and one lies on top, on cream. The copy is true: a braid of gold strands, 25 mm across, 18k gold tone, waterproof, ₹1,499.",
+   "Contrast: headline 8.9–9.8:1 (darkest 5% 5.7:1), correction 10.5:1 (7.2:1), spec 15.1:1 (14.7:1), price 14.2:1 (14.0:1). The correction ends about 64 px above the back hoop.",
+   "On-brand type, and the sage wordmark at 179 px reads at 2.4:1 on clean cream."
+  ],
+  "issues": [
+   "[photo] The 896×1200 source is upscaled 1.21×, so the braid is slightly soft at full size. It is fine on a phone."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] The full-resolution original of listing-2, 1,350 px wide or more, makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_heart",
+  "score": 9.5,
+  "verdict": "fix",
+  "strengths": [
+   "The best craft close-up in the set: the gold toggle, T-bar and puffed heart are large and sharp, with the steel beads alongside, on plaster.",
+   "Contrast: headline 12.2:1 (darkest 5% 11.0:1), correction 11.8:1 (10.9:1), spec 11.8:1 (11.1:1), price 13.3:1 (12.6:1). The one-line headline sits about 75 px below the heart's lowest edge.",
+   "The spec line is true: 6 mm steel beads, two tone, waterproof, ₹1,299."
+  ],
+  "issues": [
+   "[claim, soft] 'a gold toggle and heart': the listing says gold-tone heart and Two Tone. Every other control says gold tone wherever the listing does.",
+   "[brand] The headline is set at 60 px, against 84 px on the other in-stock controls. That is the right call for this photo, because a two-line 84 px headline lands on the heart (see ctl_heart-story). It still reads at 21.7 px on a 390 px phone."
+  ],
+  "fixes": [
+   "[apply] c: \"mirror-polished beads, a gold-tone toggle and heart.\" Tested: it stays on one line (ink x 66–646) at 11.9:1 (darkest 5% 11.0:1). This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_prism",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "A macro of the front stones in their halos (listing-7) with almost no lilac cast. The copy is true: aqua, pink and yellow stones, each in a halo; 18 cm, cubic zirconia, rhodium plated; ₹2,399.",
+   "Contrast: headline 13.0–13.3:1 (darkest 5% 11.9:1), correction 13.1–13.2:1 (12.3:1), spec 13.1:1 (12.3:1). The top of the È accent sits about 44 px below the front halos."
+  ],
+  "issues": [
+   "[brand] The wordmark straddles the plinth's vertical edge at about x 890. The edge cuts through the first 'A', leaving the peach tulip I, 'R' and 'A' on the shaded side face, where sage on tan measures 1.09:1 (darkest 5% 1.06:1). The tulip disappears, the mark reads 'NA RA' at 390 px, and it has no clear space.",
+   "[contrast] The price sits on the same shaded face at 6.2:1 (darkest 5% 5.8:1). That passes, but it is the lowest price contrast in the set.",
+   "[photo] The 896×1200 source is upscaled 1.21×. The back stones are soft by design."
+  ],
+  "fixes": [
+   "[apply] wm: \"ink\". The deck's black wordmark keeps the set's sign-off above the price. Tested: 6.3:1 on the shaded face (darkest 5% 5.4:1), and it reads across the edge at 390 px. Moving it to the top instead (wmpos: \"top\") gives 2.1:1 on the clean wall but leaves the price alone in the foot, so ink is better. This makes it a 9.5.",
+   "[no layout fix] A full-resolution original of listing-7 makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_dome",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "An honest polished close-up (listing-5), hinge visible, on cream. The narrow column (w 300) keeps the copy off the hoop: 'HUGGIES.' clears its top-left by about 39 px and the correction by about 65 px.",
+   "Contrast: headline 11.4–11.8:1 (darkest 5% 11.1:1), correction 12.4–12.8:1 (12.2:1), spec 14.8:1 (14.4:1), price 12.7:1 (12.2:1). The sage wordmark reads at 2.0:1 on the warmer cream.",
+   "The copy is true to the listing text: polished gold with a hinged snap ('plain polished, hinged snap closure'), Edition One, pre-order, ₹1,649."
+  ],
+  "issues": [
+   "[claim, PDP] 'Gold' follows the listing text ('solid mid-weight yellow gold huggie', per edition-one/build/skus.json), which carries no plating tag. If the hoop is plated, as ₹1,649 suggests, the PDP should say so, and the correction should then say gold-tone, as the in-stock controls do."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ },
+ {
+  "id": "ctl_verdant",
+  "score": 9.5,
+  "verdict": "fix",
+  "strengths": [
+   "An honest macro (listing-5): the emerald-green cushion stone and clear halo in white metal. The copy makes no metal claim.",
+   "Contrast: headline 9.8–14.2:1 (darkest 5% 9.5:1), correction 14.6–14.8:1 (14.3:1), spec 14.5:1 (13.9:1), price 14.1:1 (13.6:1)."
+  ],
+  "issues": [
+   "[placement] The ends of both correction lines ('stone', 'stones.') sit about 25 px from the halo's top-left prong. That is tight: r1 flagged 18 px and accepted 33 px as clean.",
+   "[claim, PDP] The listing text still says yellow gold, while every photo shows white metal. Fix the product page, not the control."
+  ],
+  "fixes": [
+   "[apply] cs: 30. Tested: both lines get shorter and the gap to the prong rises to about 43 px, at 14.6–14.7:1 (darkest 5% 14.3:1). The correction keeps its two lines. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_quatrefoil",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "An honest macro: a pavé star outline, four pear-cut petals and a bezel-set centre stone in yellow gold. The copy describes exactly that.",
+   "Contrast: headline 12.2:1 (darkest 5% 10.8:1), correction 15.0:1 (13.6:1), spec 15.3:1 (14.3:1), price 14.5:1 (12.6:1). The correction ends about 37 px above the star's top tip.",
+   "At ₹2,449, the highest ticket among the controls."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text describes a 'four-lobed quatrefoil clover … micro-pavé', which the photos contradict. The control follows the photos; fix the PDP text."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ },
+ {
+  "id": "ctl_square",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "An honest macro (listing-5): a squared-off polished huggie with its hinge and seed pearls. The copy is true and reads at 14.5–14.6:1 (darkest 5% 12.2:1); it rightly doesn't claim the pearls."
+  ],
+  "issues": [
+   "[placement] The tops of 'R' and 'E' in 'SQUARE' touch the huggie's soft lower edge. 38 headline pixels fall on the gold, and the 'E' is about 4 px from the hard edge at x 507.",
+   "[placement] The block is squeezed from below too. The correction's descenders end 8 px above the rule, against 28 px on ctl_heart and 74 px on ctl_prism.",
+   "[claim, PDP] The pearls show in every photo, but the listing text never names them. As for ctl_dome, the text calls it yellow gold with no plating tag."
+  ],
+  "fixes": [
+   "[apply] at: \"tl\", w: 330, hs: 72, cs: 32, and delete \"y\". Tested: this gives the same narrow top-left column as ctl_dome and ctl_verdant. The headline runs at ink y 65–247 and the correction at y 282–352, on clean cream, at 14.3–14.5:1 (darkest 5% 14.2:1). That is at least 101 px from the gold and about 50 px left of the top pearl, and the foot stands alone on clean cream. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_toggle-story",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes on the plain studio backdrop. The copy is inside the Stories safe zone (ink y 342–1521): headline 9.1–9.9:1 (darkest 5% 6.6:1), correction 10.7:1 (5.9:1), spec 15.5:1 (15.1:1), price 13.8:1 (13.5:1).",
+   "It has no in-image CTA, as briefed, and the copy is the Feed's true copy."
+  ],
+  "issues": [
+   "[ceiling: photo] As in the Feed, the clasp is small and seen edge-on, and it is the selling point. Ceiling 8.5."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A plain close-up of the clasp, 1,600 px or wider."
+  ]
+ },
+ {
+  "id": "ctl_woven-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes. The copy is inside the safe zone (ink y 342–1521): headline 8.9–9.8:1 (darkest 5% 5.7:1), correction 10.5:1 (6.8:1), spec 15.1:1 (14.8:1), price 14.1:1 (13.8:1). The correction ends about 72 px above the back hoop."
+  ],
+  "issues": [
+   "[photo] The 896 px source is upscaled 1.21×."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As for ctl_woven, a full-resolution original makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_heart-story",
+  "score": 6.5,
+  "verdict": "fix",
+  "strengths": [
+   "The spec, price and wordmark are clear of the Stories interface (ink ends at y 1521), and the plaster extension at the bottom looks natural."
+  ],
+  "issues": [
+   "[placement] The headline sits on the heart. 'TBEAD' in 'HEARTBEAD' crosses its lower half, with 3,515 headline pixels on the gold, and the darkest 5% under the headline falls to 1.8:1. The Feed was re-set to a one-line 60 px headline for exactly this reason; the Story wasn't.",
+   "[claim, soft] 'a gold toggle and heart', as in the Feed: the listing says gold-tone.",
+   "[extension] The strand runs off the photo's top edge, so the beads smear upward into grey streaks over y 0–285. It is mostly under the Stories header but visible at full size (as in r2)."
+  ],
+  "fixes": [
+   "[apply] hs: 60, w: 940, cs: 32, as the Feed. Tested: the headline runs on one line at ink y 1304–1346, about 75 px below the heart, at 12.5:1 (darkest 5% 11.0:1). The correction runs on one line at y 1381–1413 at 11.8:1 (11.0:1), and everything stays inside the safe zone. Also set c: \"mirror-polished beads, a gold-tone toggle and heart.\" (one line at w 940). This makes it a 9.5; the smeared top extension keeps it off a 10."
+  ]
+ },
+ {
+  "id": "ctl_prism-story",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural: the plinth and backdrop continue softly. The copy is inside the safe zone (ink y 1143–1521), with the headline about 77 px below the front halos: headline 12.9–13.1:1 (darkest 5% 11.9:1), correction 13.1–13.2:1 (12.4:1), spec 12.9:1 (12.3:1)."
+  ],
+  "issues": [
+   "[brand] As in the Feed, the wordmark straddles the plinth edge. The tulip I, 'R' and 'A' fall on the shaded face at 1.1:1 (darkest 5% 1.07:1), and the mark reads 'NA RA' at 390 px.",
+   "[contrast] The price sits on the shaded face at 6.2:1 (darkest 5% 5.9:1). That passes.",
+   "[photo] The 896 px source is upscaled 1.21×."
+  ],
+  "fixes": [
+   "[apply] wm: \"ink\". Tested: 6.3:1 on the shaded face (darkest 5% 5.4:1), in the same place as on the Feed. This makes it a 9.5.",
+   "[no layout fix] A full-resolution original of listing-7 makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_dome-story",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural on plain paper, and the copy is inside the safe zone (ink y 342–1521)."
+  ],
+  "issues": [
+   "[placement] The correction runs onto the hoop. Set on one line at w 560, 'hinged snap.' ends at x 535 across the hoop's top arm, with 286 correction pixels on the gold. r3's fix (y 341 on a 72 px headline) was lost when the brand layout's 84 px headline came in."
+  ],
+  "fixes": [
+   "[apply] w: 300, hs: 72, cs: 32, as the Feed. Tested: the headline runs three lines at ink y 341–523, about 46 px clear of the hoop. The correction runs two lines at y 558–628, about 71 px clear. Contrast is 11.4–11.8:1 (darkest 5% 11.0:1) for the headline and 12.3–12.7:1 (12.1:1) for the correction. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_verdant-story",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural, and the copy is inside the safe zone (ink y 342–1521). It makes no metal claim."
+  ],
+  "issues": [
+   "[placement] The correction sits on the halo. At 40 px in a 600 px column, 'stone' touches the top-left prong and 'stones.' runs onto the clear stones below it, with 96 correction pixels on the halo. r3's y 341 fix was lost in the new layout.",
+   "[claim, PDP] As for ctl_verdant: the listing text says yellow gold, while the photos show white metal."
+  ],
+  "fixes": [
+   "[apply] w: 330, hs: 72, cs: 30: the Feed's column plus the Feed's fix. Tested: the headline runs at ink y 341–523 and the correction at y 556–621, about 45 px from the nearest prong, at 14.6–14.7:1 (darkest 5% 14.2:1). At cs 32 the gap would be only 26 px. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_quatrefoil-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes. The copy is inside the safe zone (ink y 342–1521): headline 12.0:1 (darkest 5% 10.7:1), correction 14.9:1 (12.9:1), spec 15.0:1 (14.3:1), price 14.3:1 (12.9:1). The correction ends about 45 px above the star's tip.",
+   "An honest macro with true copy."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text still describes a micro-pavé clover. Fix the product page."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ },
+ {
+  "id": "ctl_square-story",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural, and the copy is inside the safe zone (ink y 1198–1521)."
+  ],
+  "issues": [
+   "[placement] The headline sits on the huggie. 'QUARE' in 'SQUARE' (84 px, w 600) crosses its lower-left face, with 2,632 headline pixels on the gold. The r3 version (72 px, with the copy about 40 px below the huggie) didn't survive the brand layout: the foot now fills y 1419–1528 and pushes the block up onto the piece."
+  ],
+  "fixes": [
+   "[apply] at: \"tl\", w: 330, hs: 72, cs: 32, matching the proposed ctl_square fix. Tested: the headline runs at ink y 341–523 and the correction at y 558–628, on clean cream, at 14.3–14.4:1 (darkest 5% 14.2:1). That is at least 108 px from the gold and about 50 px left of the top pearl. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_cluster",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "An honest macro (listing-5) of the curved cluster: purple, pink and yellow stones with tiny pearls, sharp at 0.84× from a 1,288 px source. The copy is true: five coloured stones in a curve, with tiny pearls; Edition One; pre-order; ₹2,399.",
+   "Contrast: headline 9.6–10.2:1 (darkest 5% 8.8:1), correction 10.2–11.5:1 (9.4:1), spec 13.1:1 (11.9:1). The copy ends about 146 px above the stud."
+  ],
+  "issues": [
+   "[brand] The plinth's shadow edge runs through the 'R' of the wordmark. The mark measures 2.0:1 overall, but its darkest 5% is 1.02:1, and the 'RA' fades at 390 px.",
+   "[contrast] The price sits on the shaded face at 6.3:1 (darkest 5% 5.8:1). That passes.",
+   "[claim, PDP] This macro shows 8 tiny pearls, while the listing text and the other photos show 6 (an open question in PLAN_V3). The copy rightly gives no count."
+  ],
+  "fixes": [
+   "[apply] wm: \"ink\". Tested: 11.7:1 (darkest 5% 5.7:1), legible across the edge at 390 px, with the sign-off kept above the price. This makes it a 10."
+  ]
+ }
+]
