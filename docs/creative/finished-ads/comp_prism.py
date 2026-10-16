@@ -39,7 +39,10 @@ P = dict(cx=480, cy=1626,      # centre of the loop's contact ellipse in the sce
          contact="mask", cblend=1, sunlit_cap=1, soft=0.5, wall=78, wallshade=1.0, rim=0,
          # the front links face away from the back sun: faces darker, a sun rim on their tops, but none on links in a sweet's shadow
          front=1, fshade=0.86, frim=0.35, rimsun=1,
-         footclamp=1)     # the cut-out has no hole at the loop's ends: keep the front foot from lying below the piece itself
+         footclamp=1,     # the cut-out has no hole at the loop's ends: keep the front foot from lying below the piece itself
+         # sun on the metal (off by default; a test): the low back sun sits near the mirror angle of the links' flat tops, so the
+         # tops glare (topspec) with a few hot glints (glint), and the back links' camera-facing inner walls fall into shade (bshade)
+         topspec=0, glint=0, bshade=1.0)
 for kv in sys.argv[1:]:
     k, v = kv.split("=", 1); P[k] = json.loads(v) if v[:1] in "[{0123456789-." else v
 
@@ -158,6 +161,21 @@ def main():
         S = S * (1 - (1 - P["wallshade"]) * wsh[..., None])
     if P["rim"]:
         S = S + (1 - S) * np.clip(rim * P["rim"], 0, 1)[..., None] * np.array([1, .96, .9])
+    if P["topspec"] or P["glint"] or P["bshade"] != 1.0:
+        shm_ = float(np.mean(P["sh"])); sun_ = np.clip((Gf.mean(-1) - shm_) / (1 - shm_), 0, 1)    # the sun's share at each foot
+        xfade = np.clip((0.75 - np.abs(X - cx) / a) / 0.12 + 0.5, 0, 1)
+        if P["bshade"] != 1.0:        # back links: the visible inner walls face the camera, away from the sun
+            S = S * (1 - (1 - P["bshade"]) * (wsh * (1 - wf) * xfade)[..., None])
+        mx_, mn_ = S.max(-1), S.min(-1); metal_ = np.clip(1 - ((mx_ - mn_) / np.maximum(mx_, 1e-3)) / .12, 0, 1)
+        topm = (1 - wsh) * metal_ * A * sun_
+        if P["topspec"]:
+            S = S + (1 - S) * np.clip(P["topspec"] * topm, 0, 1)[..., None] * np.array([1, .97, .92])
+        if P["glint"]:                # the brightest points of the sunlit tops bloom into hard glints
+            Lm = S.mean(-1) * (topm > .5)
+            thr = np.percentile(Lm[topm > .5], 99.3) if (topm > .5).any() else 2
+            pts = ((Lm >= thr) & (Lm == cv2.dilate(Lm, np.ones((5, 5), np.uint8)))).astype(np.float32)
+            bloom = np.clip(cv2.GaussianBlur(pts, (0, 0), 1.1) * 9, 0, 1)
+            S = S + (1 - S) * np.clip(P["glint"] * bloom, 0, 1)[..., None]
     # each link pixel's shadow: from its foot, toward the camera and to the right, in proportion to its height
     ys, xs = np.nonzero(A > .02); al = A[ys, xs]; hh = hpx[ys, xs]
     if P["wall"]:                     # above the wall the link is its flat top: same height, footprint further back
