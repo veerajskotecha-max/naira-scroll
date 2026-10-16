@@ -33,10 +33,10 @@ prod("BTB", "Baguette Tennis Bracelet", "baguette-tennis-bracelet", "Bracelet", 
      ["N06_H", "N06_W1", "N06_M", "N16_H", "N16_W1", "N16_M", "N17_H", "N17_W1", "N17_M"], ["Tennis", "Cubic Zirconia"] + GOLD,
      ["Crystal is near-identical to the live Baguette Éclat Bracelet (₹1,800, JDB201210). Either list Crystal here or add this stock to Baguette Éclat; do not run both at different prices."],
      pi="YF3165")
-prod("DRP", "Droplet Open Ring", "droplet-open-ring", "Ring", 1199, "N07", ["Metal"],
+prod("DRP", "Droplet Open Ring", "droplet-open-ring", "Ring", 1399, "N07", ["Metal"],
      [v(["Gold"], "YF3791-R-G", 13, 10, "N08_H", cost=3.73), v(["Silver"], "YF3791-R-S", 15, 10, "N07_H", cost=3.48)],
      ["N08_H", "N08_W1", "N08_M", "N07_H", "N07_W1", "N07_M"], ["Adjustable"] + GOLD + SILV, pi="YF3791 ring")
-prod("NSB", "North Star Bangle", "north-star-bangle", "Bracelet", 1599, "N09", ["Metal"],
+prod("NSB", "North Star Bangle", "north-star-bangle", "Bracelet", 1499, "N09", ["Metal"],
      [v(["Silver"], "YF5204-S", 51, 10, "N09_H", cost=2.18), v(["Gold"], "YF5204-G", 50, 10, "N09_G", cost=2.30)],
      ["N09_H", "N09_W1", "N09_M", "N09_G"], ["Bangle", "Cubic Zirconia"] + GOLD + SILV, pi="YF5204")
 prod("N10", "Tile Stone Bangle", "tile-stone-bangle", "Bracelet", 1599, "N10", [], [v([], "N10-TILE", None, None, "N10_H")],
@@ -83,17 +83,17 @@ prod("P05", "Fine Tennis Bracelet", "fine-tennis-bracelet", "Bracelet", 1299, "P
 prod("P06", "Petal Flower Studs", "petal-flower-studs", "Earrings", 1199, "P06", ["Metal"],
      [v(["Gold"], "YF7126-G", 10, 10, "P06_H", cost=2.65), v(["Silver"], "YF7126-S", 9, 10, "P06_S", cost=2.65)],
      ["P06_H", "P06_W1", "P06_M", "P06_S"], ["Studs", "Cubic Zirconia"] + GOLD + SILV, pi="YF7126")
-prod("P07", "Droplet Open Cuff", "droplet-open-cuff", "Bracelet", 1799, "P07", ["Metal"],
+prod("P07", "Droplet Open Cuff", "droplet-open-cuff", "Bracelet", 1899, "P07", ["Metal"],
      [v(["Gold"], "YF3791-B-G", 14, 10, "P07_H", cost=5.21), v(["Silver"], "YF3791-B-S", 16, 10, "P07_S", cost=4.68)],
      ["P07_H", "P07_W1", "P07_M", "P07_S"], ["Cuff"] + GOLD + SILV, notes="Pairs with the Droplet Open Ring.", pi="YF3791 bracelet")
-prod("P08", "Roman Numeral Trio Ring", "roman-numeral-trio-ring", "Ring", 1699, "P08", ["Size"],
+prod("P08", "Roman Numeral Trio Ring", "roman-numeral-trio-ring", "Ring", 1899, "P08", ["Size"],
      [v([s], f"YF2931-{s}", 17, 3, "P08_H", cost=5.15) for s in SIZES],
      ["P08_H", "P08_W1", "P08_M"], ["Tri Tone", "Cubic Zirconia"], [RING_FLAG, "Tri-tone (rose, silver, gold): confirm the three bands are fixed together, as the supplier photo's side bar suggests."], pi="YF2931")
 prod("P09", "Linked Trio Ring", "linked-trio-ring", "Ring", 1399, "P09", ["Metal", "Size"],
      sized("Gold", "YF7016-G", 19, 9, "P09_H", 3.28) + sized("Silver", "YF7016-S", 20, 9, "P09_S", 3.28),
      ["P09_H", "P09_W1", "P09_M", "P09_S"], ["Cubic Zirconia"] + GOLD + SILV,
      [RING_FLAG, "Construction read from a small supplier thumbnail: check the generated three-ring layout against the physical piece before publishing."], pi="YF7016")
-prod("P11", "Crystal Baguette Eternity Ring", "crystal-baguette-eternity-ring", "Ring", 1699, "P11", ["Size"],
+prod("P11", "Crystal Baguette Eternity Ring", "crystal-baguette-eternity-ring", "Ring", 1899, "P11", ["Size"],
      [v([s], f"YF2604-{s}", 27, 3, "P11_H", cost=5.65) for s in SIZES], ["P11_H", "P11_W1", "P11_M"], ["Eternity", "Cubic Zirconia"] + GOLD, [RING_FLAG], pi="YF2604")
 prod("P12", "Chain Drop Dome Ring", "chain-drop-dome-ring", "Ring", 1199, "P12", ["Metal", "Size"],
      sized("Gold", "YF8086-G", 28, 9, "P12_H", 2.54) + sized("Silver", "YF8086-S", 29, 9, "P12_S", 2.54),
@@ -106,7 +106,7 @@ prod("P14", "Marquise Drop Choker", "marquise-drop-choker", "Necklace", 1599, "P
 prod("P15", "Mesh Band Ring", "mesh-band-ring", "Ring", 999, "P15", ["Metal", "Size"],
      sized("Gold", "YF3558-G", 36, 9, "P15_H", 1.68) + sized("Silver", "YF3558-S", 37, 9, "P15_S", 1.68),
      ["P15_H", "P15_W1", "P15_M", "P15_S"], GOLD + SILV, [RING_FLAG], notes="Pairs with the Silk Mesh Cuff.", pi="YF3558")
-prod("P20", "Bold Nocturne Drops", "bold-nocturne-drops", "Earrings", 1499, "P20", [], [v([], "YF5144-EAR", 46, 30, "P20_H", cost=4.35)],
+prod("P20", "Bold Nocturne Drops", "bold-nocturne-drops", "Earrings", 1599, "P20", [], [v([], "YF5144-EAR", 46, 30, "P20_H", cost=4.35)],
      ["P20_H", "P20_W1", "P20_M"], ["Cubic Zirconia"] + GOLD, notes="Completes the live Bold Nocturne Chain and Bracelet set.", pi="YF5144 earrings")
 prod("P23", "Pear Point Open Cuff", "pear-point-open-cuff", "Bracelet", 1799, "P23", [], [v([], "YF8221", 52, 20, "P23_H", cost=4.62)],
      ["P23_H", "P23_W1", "P23_M"], ["Cuff", "Cubic Zirconia"] + GOLD, pi="YF8221")

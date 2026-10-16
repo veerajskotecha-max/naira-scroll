@@ -4,8 +4,8 @@ import json, os, sys
 import numpy as np
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__))
-CROP = {"N07_H": 0.62, "N08_H": 0.62, "N18_H": 0.66, "N19_H": 0.66}   # centre-crop fraction for small rings
-CENTRE = {"N07_H": (0.5, 0.40), "N08_H": (0.5, 0.40), "N18_H": (0.5, 0.42), "N19_H": (0.5, 0.42)}
+CROP = {"N07_H": 0.62, "N08_H": 0.62, "N18_H": 0.66, "N19_H": 0.66, "C1_W1": 0.97, "C12_W2": 0.76}   # centre-crop fraction for small rings
+CENTRE = {"N07_H": (0.5, 0.40), "N08_H": (0.5, 0.40), "N18_H": (0.5, 0.42), "N19_H": (0.5, 0.42), "C1_W1": (0.5, 0.515), "C12_W2": (0.42, 0.5)}
 DEEPEN = {"N23_H", "N23_W1", "N23_W2", "N23_M", "N22_W1", "N22_W2", "N22_M", "N22_H", "N19_H", "N19_W1", "N19_M"}
 def deepen_red(im):
     a = np.asarray(im).astype(np.float32) / 255.0

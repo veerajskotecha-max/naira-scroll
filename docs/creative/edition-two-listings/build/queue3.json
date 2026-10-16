@@ -1,0 +1,25 @@
+[
+{
+"key": "P12_M",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: Extreme macro, 4:5, of the WHOLE ring standing upright on its edge on the top face of a cream plaster cube, seen very close: the CLOSED polished dome band, both slim pavé collars, the short swag of cable chain between them and the pear drop hanging from it. The band is one continuous closed circle with NO gap, NO open end and NO flat end disc anywhere. Camera very close; the ring fills about two thirds of the frame; razor-sharp on the stones and the metal edges, the plaster behind falling softly out of focus.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority for the plaster, the background and the light only.\n\nCONSTRUCTION LOCK: A CHUNKY DOMED BAND RING (the GOLD ring in IMAGE 1): a polished rounded dome band about 6mm wide, closed all the way round; TWO slim pavé-set collars wrap the band a little apart; a short loop of gold cable chain swags between the two collars, and ONE pear-cut clear stone in a claw setting hangs from the chain. One pear drop, one short swag of chain, two pavé collars; never several drops, never a charm cluster. The band is a CLOSED ring, never open, never split, never with a cut end.\n\nSCALE TEST: The band is 6mm wide and 17mm across inside; the pear is 7mm, smaller than a fingernail.\n\nLIGHT: Soft large key from camera-left, one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a bright moving highlight and a dark rolled edge on every curve, and every stone shows internal sparkle and a hard white point, never flat colour.\n\nABSENCE LIST: No hand, no ear, no model, no fabric, no props. No second piece of jewellery. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "5b5b85bc-4302-4ba2-bc8c-2e5f3698be13",
+"role": "image_references"
+},
+{
+"value": "c8675b2e-ef96-41ae-af68-469d1ceb4b5f",
+"role": "image_references"
+},
+{
+"value": "d9cf3baf-ed10-4f13-ba70-81a8f3ead91f",
+"role": "image_references"
+}
+]
+}
+}
+]

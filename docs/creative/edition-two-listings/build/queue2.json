@@ -1,0 +1,370 @@
+[
+{
+"key": "P05_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulder, forearm and hand.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on ONE wrist; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A FINE TENNIS BRACELET: ONE continuous line of SMALL round brilliant-cut clear stones, each about 2.5mm, each in a tiny gold claw cup, linked edge to edge with no gaps; closed by a slim gold box clasp. One row of small ROUND stones only, never baguettes, never two rows, never coloured, never chunky.\n\nSCALE TEST: Each stone is 2.5mm, the size of a mustard seed; the line is under 3mm wide, a whisper-thin sparkle. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "8c3b6e95-4352-4e30-b546-f7c5d043ba72",
+"role": "image_references"
+},
+{
+"value": "07aadacd-a3d0-4339-a9f9-7ac02ff824f0",
+"role": "image_references"
+},
+{
+"value": "0c899647-3a71-476d-8141-5b9e0b42cc4e",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "P08_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: Worn ring frame, 4:5: the BACK OF ONE HAND held up flat and square to camera in front of the collarbone, fingers together and relaxed, the ring on the ring finger large and legible.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: hand, fingers, wrist, collarbone and shoulder.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on the ring finger only; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A STACKED THREE-BAND RING worn as one piece: TOP a slim ROSE-GOLD band engraved with Roman numerals with round clear stones in round bezels between them; MIDDLE a slim SILVER-TONE band with two rows of tiny pavé clear stones; BOTTOM a wider polished GOLD band with Roman numerals CUT RIGHT THROUGH the metal as open windows. The three bands stack flush together. Three bands in this order: rose with stones, silver pavé, gold cut-out; the numerals stay crisp Roman numerals; never merged into one band, never all one colour. No measuring marks.\n\nSCALE TEST: About 16mm tall in total, covering most of the finger segment. On the hand it is a real-size ring on a finger about 17mm across: the band is never wider than the finger segment between two knuckles and never looks like a cuff. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: rose-gold tone, bright silver tone and warm gold tone exactly where IMAGE 1 shows them. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "a1f8cbad-3cb3-4a36-98d2-fb84b0897e69",
+"role": "image_references"
+},
+{
+"value": "4bbbe8b9-4348-413c-a150-16febf4a1100",
+"role": "image_references"
+},
+{
+"value": "d19c010a-c90b-4584-b05d-48d6423770d4",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "P11_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: Worn ring frame, 4:5: the BACK OF ONE HAND held up flat and square to camera in front of the collarbone, fingers together and relaxed, the ring on the ring finger large and legible.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: hand, fingers, wrist, collarbone and shoulder.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on the ring finger only; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A FULL ETERNITY RING: a gold band set ALL THE WAY ROUND with clear rectangular BAGUETTE-cut stones placed CROSSWISE side by side, each held by tall gold claw prongs at its corners, the prongs standing up between the stones like a little crown. Baguettes only, set crosswise in ONE row, never round, never coloured, never a half band.\n\nSCALE TEST: The band is 5mm wide; each baguette 5 by 2.5mm. On the hand it is a real-size ring on a finger about 17mm across: the band is never wider than the finger segment between two knuckles and never looks like a cuff. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "9899fa75-52ac-45d1-ba1e-0186d7d4b5d5",
+"role": "image_references"
+},
+{
+"value": "5ed27910-4d3c-4e28-aba1-90a9ae0df46b",
+"role": "image_references"
+},
+{
+"value": "d19c010a-c90b-4584-b05d-48d6423770d4",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "P14_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A worn photograph, the head and shoulders turned a quarter to the side, the necklace following the collarbone, close enough that its links or stones are countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulders and upper chest.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn around the neck; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A SLIM OMEGA CHOKER: a smooth round flexible gold collar about 2mm thick; at its centre ONE horizontal marquise-cut clear stone in a claw setting; from it ONE fine chain drops about 6cm carrying ONE small pear-cut clear stone halfway and ONE pear-cut clear stone at the end. Exactly one marquise and two pears; the collar stays a smooth omega, never a link chain, never a tassel.\n\nSCALE TEST: The marquise is 10mm wide; each pear 6mm; the collar 2mm thick. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "24febf46-6d9f-4fa3-b496-ad9e2d23d01c",
+"role": "image_references"
+},
+{
+"value": "b1c5bfa1-9350-452e-9056-bdb8ce069746",
+"role": "image_references"
+},
+{
+"value": "fd78da3e-a92d-423c-ad14-760305cc8f08",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "P20_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A tight beauty close-up of the ear and the jaw line, the camera brought close so every stone on the earring is countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: the ear, the jaw, the cheek below the nose, the neck, the collarbone and the shoulder. A cropped beauty detail, NOT a portrait.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn in the earlobe; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A PAIR OF LINK DROP EARRINGS: each earring is ONE small polished gold oval link at the top on a post, from which hangs ONE larger oval link fully PAVÉ-SET with tiny clear stones. Two links per earring: plain on top, pavé below; never longer chains, never hoops.\n\nSCALE TEST: Each earring is about 30mm long, a little longer than an earlobe. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "bd144619-225c-444e-9aaa-46a21033a5e6",
+"role": "image_references"
+},
+{
+"value": "26a613aa-9135-4142-a29b-28c6c0a6fafd",
+"role": "image_references"
+},
+{
+"value": "e1e967bf-2b40-48fd-9eb0-245d7ffb85ce",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "P23_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulder, forearm and hand.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on ONE wrist; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A SLIM OPEN CUFF: a polished flat gold band about 4mm wide that tapers toward its two ends; EACH end carries ONE pear-cut clear stone in a claw setting; the two pears face each other across the opening. Exactly two pear stones, one on each end; never round, never coloured, never closed.\n\nSCALE TEST: On the wrist the cuff is about 6cm across, a slim 4mm band hugging a 55mm wrist; each pear is 7mm, smaller than a fingernail. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "12863b63-a58e-4657-94f4-0f30db1f4683",
+"role": "image_references"
+},
+{
+"value": "dad2f440-c13e-41ab-b49a-1a22fa5bf499",
+"role": "image_references"
+},
+{
+"value": "0c899647-3a71-476d-8141-5b9e0b42cc4e",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N03_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulder, forearm and hand.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on ONE wrist; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: An OPEN CUFF of twisted silver-tone CABLE: a 5mm rope-twist wire with deep spiral grooves, bent into a C. Each end carries a short gold-tone barrel made of two polished gold rings with TWO rows of tiny clear pave stones between them, and the very tip of each end is capped by ONE round deep garnet-red stone in a gold bezel, facing outward. Silver cable, gold-tone ends, garnet tips. The cable stays a twisted rope cable, never smooth wire, never a chain; exactly one garnet-red stone at each tip, never clear, never pink; the barrels stay gold with two pave rows.\n\nSCALE TEST: The cable is 5mm thick, about a tenth of a 55mm wrist's width; each gold end barrel is about 9mm long and the garnet about 6mm across. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: polished gold tone and bright silver tone exactly where IMAGE 1 shows them. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "3a659672-c98b-4489-b835-d0466a89ef1a",
+"role": "image_references"
+},
+{
+"value": "65132e1d-4a4d-41e3-bbcc-982550644cc6",
+"role": "image_references"
+},
+{
+"value": "0c899647-3a71-476d-8141-5b9e0b42cc4e",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N05_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulder, forearm and hand.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on ONE wrist; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: An OPEN CUFF in warm gold whose front half is set with TWO parallel rows of clear MARQUISE-cut stones, long pointed ovals about 7mm, each held in its own fine gold claws, the stones laid at a slant so the two rows lean in opposite directions like the two sides of a wheat ear, a herringbone. The back half is a slim plain gold band and each end finishes in a small polished gold ball. Warm 18k gold tone, colourless stones. The stones stay pointed marquise ovals in two slanted rows, never round brilliants, never baguettes, never one row; colourless stones only.\n\nSCALE TEST: Each marquise is about 7mm long; the two rows together are about 14mm wide, a quarter of a 55mm wrist. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "fae07f2d-0772-4c3c-a1fc-66878a7968af",
+"role": "image_references"
+},
+{
+"value": "ceab1eb7-8a4f-461c-ad63-54f90e10e772",
+"role": "image_references"
+},
+{
+"value": "0c899647-3a71-476d-8141-5b9e0b42cc4e",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N10_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulder, forearm and hand.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on ONE wrist; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A slim rigid gold BANGLE about 4mm wide built of a row of small SQUARE segments, alternating: a plain polished gold square, then a square holding ONE round clear stone in a square bezel frame, then plain again, all round the front. Warm 18k gold tone. The segments stay squares; one round stone per stone-square; never baguettes, never a chain.\n\nSCALE TEST: The band is 4mm wide, about a fourteenth of a 55mm wrist; each square is 4mm. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "598527b7-128b-4a60-9b22-ab92757ed9eb",
+"role": "image_references"
+},
+{
+"value": "5fbce2cb-83b6-48d1-a624-7d668dc0357c",
+"role": "image_references"
+},
+{
+"value": "0c899647-3a71-476d-8141-5b9e0b42cc4e",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N13_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A tight beauty close-up of the ear and the jaw line, the camera brought close so every stone on the earring is countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: the ear, the jaw, the cheek below the nose, the neck, the collarbone and the shoulder. A cropped beauty detail, NOT a portrait.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn in the earlobe; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A pair of DROP EARRINGS in warm gold: from the stud post, a short curved line of THREE small clear PEAR-cut stones, each about 4mm in fine gold claws, leads down to ONE larger pale lime-green (peridot) PEAR-cut stone about 9mm long in a gold claw setting at the bottom; butterfly backs. Exactly three small clear pears and one larger pale lime-green pear per earring; the green stays pale mint-lime, never deep emerald, never blue.\n\nSCALE TEST: Each earring is about 22mm long: an earlobe is 18mm, so the green pear hangs just below the lobe and never reaches the jaw. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "1e3e8130-1a1a-47de-821f-06b70d3b0226",
+"role": "image_references"
+},
+{
+"value": "42506178-6d6e-4368-81b7-e069df890e96",
+"role": "image_references"
+},
+{
+"value": "e1e967bf-2b40-48fd-9eb0-245d7ffb85ce",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N14_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A worn photograph, the head and shoulders turned a quarter to the side, the necklace following the collarbone, close enough that its links or stones are countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulders and upper chest.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn around the neck; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A NECKLACE of large ELONGATED OVAL links about 20mm long, polished GOLD-tone and SILVER-tone links mixed along its length, each link joined to the next by a short gold connector of two small stacked gold rings like rondelles; a gold lobster clasp with a short extender chain at the back. Two-tone stainless steel. The links stay long smooth ovals, never round, never curb, never paperclip wire; both gold and silver links must show; no pendant.\n\nSCALE TEST: The necklace is about 45cm long; each oval link is 20mm long, a little longer than the gap between the collarbones' inner ends is wide. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: polished gold tone and bright silver tone exactly where IMAGE 1 shows them. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "d99d4749-f07e-4057-bfe9-b0b7f7c86ded",
+"role": "image_references"
+},
+{
+"value": "212992b6-3e08-49a5-900c-6268047a884f",
+"role": "image_references"
+},
+{
+"value": "fd78da3e-a92d-423c-ad14-760305cc8f08",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N15_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: chin, neck, collarbones, shoulder, forearm and hand.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn on ONE wrist; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: A BRACELET of large ELONGATED OVAL links about 20mm long, polished GOLD-tone and SILVER-tone links mixed along its length, each link joined to the next by a short gold connector of two small stacked gold rings like rondelles; a gold lobster clasp with a short extender chain. Two-tone stainless steel. The links stay long smooth ovals, never round, never curb; both gold and silver links must show; no charm.\n\nSCALE TEST: The bracelet is about 18cm; each oval link is 20mm long, about a third of a 55mm wrist. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: polished gold tone and bright silver tone exactly where IMAGE 1 shows them. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "56faad2c-9fec-4bc1-a322-50e6de2617cf",
+"role": "image_references"
+},
+{
+"value": "2df89627-29f7-4476-85d3-63be694d264b",
+"role": "image_references"
+},
+{
+"value": "0c899647-3a71-476d-8141-5b9e0b42cc4e",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N20_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A tight beauty close-up of the ear and the jaw line, the camera brought close so every stone on the earring is countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: the ear, the jaw, the cheek below the nose, the neck, the collarbone and the shoulder. A cropped beauty detail, NOT a portrait.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn in the earlobe; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: Small round gold HOOP earrings about 22mm across with a hinged lever-back closure. The lower three quarters of each hoop is a crowded collar of MANY short chunky faceted gold BEADS packed shoulder to shoulder and slightly jumbled, so the outer edge glitters like a ragged fringe; the top quarter is bare polished wire with the latch. Nested inside each hoop sits ONE large round white PEARL about 10mm, with a soft satin lustre. One pearl per hoop, warm white, never cream or grey; the gold collar stays chunky faceted beads, never smooth, never stones.\n\nSCALE TEST: An earlobe is 18mm; the hoop is 22mm across and the pearl 10mm, just under half the hoop's width. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: warm 18k gold tone, never brassy, orange or greenish. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "fcab69f3-0f75-47ee-a898-ef2f8c76631a",
+"role": "image_references"
+},
+{
+"value": "71b611a2-44b9-4a03-86af-f3b69f82f3e6",
+"role": "image_references"
+},
+{
+"value": "e1e967bf-2b40-48fd-9eb0-245d7ffb85ce",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N21_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A tight beauty close-up of the ear and the jaw line, the camera brought close so every stone on the earring is countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: the ear, the jaw, the cheek below the nose, the neck, the collarbone and the shoulder. A cropped beauty detail, NOT a portrait.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn in the earlobe; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: Silver-tone C-shaped HALF-HOOP earrings about 22mm tall, open at the back, on a straight post with clear backs: the front face of the arc is set with a row of small round EMERALD-GREEN stones, each one ringed by tiny clear pave stones, close together all along the arc. Bright rhodium silver tone. The arc stays an open C, never a closed hoop; green stones in clear halos, never all clear; silver metal, never gold.\n\nSCALE TEST: An earlobe is 18mm; the C is 22mm tall, a little taller than the lobe; each green stone about 3mm. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: bright rhodium silver tone, never grey or dull, never gold. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "09656e3d-2f87-4049-b976-9ad20b4efa42",
+"role": "image_references"
+},
+{
+"value": "8c973cb6-5520-4f9b-a7cd-5eb6189c994b",
+"role": "image_references"
+},
+{
+"value": "e1e967bf-2b40-48fd-9eb0-245d7ffb85ce",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "N24_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A tight beauty close-up of the ear and the jaw line, the camera brought close so every stone on the earring is countable. 4:5 vertical, full bleed.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: the ear, the jaw, the cheek below the nose, the neck, the collarbone and the shoulder. A cropped beauty detail, NOT a portrait.\n\nTHE PRODUCT: IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY, and ignore the hands, tray, tags and background in it. IMAGE 2 is our approved packshot of this exact piece: the authority on its size, proportions, metal colour and finish; the piece in this picture must match it exactly. IMAGE 3 is the authority on the model, skin, garment, hair, ground and light: match it exactly, but she wears ONLY the piece from IMAGE 1, worn in the earlobe; any other jewellery in IMAGE 3 is removed.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: Chunky silver-tone HOOP earrings about 22mm across on a post: each hoop is set all the way round its front with ALTERNATING stones: a large square emerald-cut deep EMERALD-GREEN stone, then a pair of clear rectangular baguettes, then green again, each in bright silver claws. Bright rhodium silver tone. Green squares alternate with clear baguettes, never all green, never all clear; silver metal, never gold.\n\nSCALE TEST: An earlobe is 18mm; the hoop is 22mm across and each green square about 6mm. The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. No nail polish colour. No props, no flowers. Metal: bright rhodium silver tone, never grey or dull, never gold. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "97fd9cdd-aab8-4196-a3af-8ed1f00c4984",
+"role": "image_references"
+},
+{
+"value": "d1afa5e5-8b39-4073-a253-61a637b3dc7f",
+"role": "image_references"
+},
+{
+"value": "e1e967bf-2b40-48fd-9eb0-245d7ffb85ce",
+"role": "image_references"
+}
+]
+}
+},
+{
+"key": "C12_W2",
+"params": {
+"model": "nano_banana_pro",
+"resolution": "2k",
+"aspect_ratio": "4:5",
+"prompt": "SHOT: A tight worn beauty detail, 4:5 vertical, full bleed: the ear in clean side profile, hair tucked behind it, the camera close so the ear fills about half the frame and both cuffs are large and legible.\n\nCROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture. Inside the frame: the ear, the jaw, the cheek below the nose, the neck. A cropped beauty detail, NOT a portrait.\n\nTHE PRODUCT: IMAGE 1 shows exactly how these two cuffs are worn together and is the authority on their construction and placement. IMAGE 2 is our approved packshot of the green square-stone cuff and IMAGE 3 of the clear pear-stone cuff: the authority on their size, metal and stones. She wears exactly TWO ear cuffs on the same ear, both clipped onto the middle ridge of the ear (the conch): the clear PEAR-stone cuff higher, the green SQUARE-stone cuff just below it, both stones facing forward; the earlobe is bare.\n\nTHE PLATE: A young Indian woman, late twenties, warm mid-brown skin with golden undertones. Long dark brown hair in loose natural waves. Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.\n\nCONSTRUCTION LOCK: Each cuff is an open C of slim round polished gold wire about 1.5mm thick and about 12mm across. One carries ONE square princess-cut deep emerald-green stone in four gold claws; the other ONE pear-cut clear colourless stone in gold claws. Never hoops with hinges, never stud posts, never more than two cuffs.\n\nSCALE TEST: The ear is about 6cm tall; each stone is 5 to 7mm, smaller than a fingernail; the cuffs are small accents on the ear's middle ridge.\n\nABSENCE LIST: No eyes, no eyebrows, no forehead. No earrings in the lobe, no necklace, no other jewellery. No props. Metal: warm 18k gold tone. No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: the image fills the whole frame edge to edge.",
+"medias": [
+{
+"value": "182c2435-f362-4bbc-80dc-d1f7ba2f6264",
+"role": "image_references"
+},
+{
+"value": "a9ab9e79-aba8-4f2b-9689-936abc48ee37",
+"role": "image_references"
+},
+{
+"value": "d2f39ff3-5ae9-400e-a90f-33a9ea80da80",
+"role": "image_references"
+}
+]
+}
+}
+]
