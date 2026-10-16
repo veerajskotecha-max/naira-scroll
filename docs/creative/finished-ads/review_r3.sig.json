@@ -1,0 +1,18 @@
+{
+ "T07_a1c": "{\"at\": \"br\", \"c\": \"The toggle clasp, worn as the pendant.\", \"fmt\": \"4:5\", \"h\": \"Front and centre.\", \"n\": \"Toggle Link Chain · 50 cm · ₹1,499\", \"scrim\": true, \"w\": 600}",
+ "W06_a3": "{\"at\": \"bl\", \"c\": \"One braid in your hair, two at your ears.\", \"cs\": 38, \"fmt\": \"4:5\", \"h\": \"Woven, twice.\", \"n\": \"25 mm · ₹1,499\", \"w\": 420, \"x\": 56}",
+ "W07_a2": "{\"at\": \"tl\", \"c\": \"Woven gold strands, 25 mm across.\", \"fmt\": \"4:5\", \"h\": \"Braided, like the thread.\", \"n\": \"Woven Gold Hoops · ₹1,499\", \"scrim\": true, \"w\": 820}",
+ "W10_a2": "{\"at\": \"tl\", \"c\": \"Woven Gold Hoops, 25 mm across.\", \"fmt\": \"4:5\", \"h\": \"One gift, two hoops.\", \"n\": \"₹1,499 · Naira Petite\", \"scrim\": true, \"w\": 560}",
+ "H09_a1": "{\"at\": \"tr\", \"c\": \"Mirror steel, not silver varq.\", \"fmt\": \"4:5\", \"h\": \"Sweeter than mithai.\", \"hs\": 84, \"n\": \"Heartbead Bracelet · ₹1,299\", \"scrim\": true, \"w\": 760}",
+ "P01_a1": "{\"at\": \"tl\", \"c\": \"Aqua, pink and yellow stones, each in its own halo.\", \"fmt\": \"4:5\", \"h\": \"Rangoli, in a line.\", \"n\": \"Prism Rivière Bracelet · ₹2,399\", \"w\": 640}",
+ "P02_a2c": "{\"at\": \"tl\", \"c\": \"Aqua, pink and yellow, each in its own halo.\", \"fmt\": \"9:16\", \"h\": \"Rangoli, in a line.\", \"hs\": 84, \"n\": \"₹2,399 · Prism Rivière\", \"w\": 400, \"x\": 56}",
+ "P09_a1": "{\"at\": \"bl\", \"c\": \"5 mm stones, each in its own halo.\", \"fmt\": \"4:5\", \"h\": \"Rainbow, rainproof.\", \"n\": \"Prism Rivière Bracelet · ₹2,399\", \"scrim\": true, \"w\": 720}",
+ "P01_a1-story": "{\"at\": \"tl\", \"c\": \"Aqua, pink and yellow stones, each in its own halo.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Rangoli, in a line.\", \"n\": \"Prism Rivière Bracelet · ₹2,399\", \"plate\": \"P01_a1\", \"w\": 640}",
+ "P09_a1-story": "{\"at\": \"bl\", \"c\": \"5 mm stones, each in its own halo.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Rainbow, rainproof.\", \"n\": \"Prism Rivière Bracelet · ₹2,399\", \"plate\": \"P09_a1\", \"scrim\": true, \"w\": 720}",
+ "verdant1_a1-story": "{\"at\": \"tr\", \"c\": \"Green cushion-cut studs, not peas.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Two peas in a pod.\", \"n\": \"Verdant Cushion Studs · ₹2,199 · Pre‑order\", \"plate\": \"verdant1_a1\", \"scrim\": true, \"w\": 780}",
+ "quatrefoil1_a1c-story": "{\"at\": \"tl\", \"c\": \"Pavé and pear-cut stones, in gold.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Mughal, in miniature.\", \"hs\": 80, \"n\": \"₹2,449 · Pre‑order\", \"plate\": \"quatrefoil1_a1c\", \"tone\": \"cream\", \"w\": 720}",
+ "dome1_a1-story": "{\"at\": \"tl\", \"c\": \"Bold Dome Huggies, polished gold.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"One of these is not a mint.\", \"n\": \"₹1,649 · Pre‑order · Naira Petite\", \"ns\": 26, \"plate\": \"dome1_a1\", \"w\": 640}",
+ "squareB1_a1-story": "{\"at\": \"bl\", \"c\": \"A gold huggie, not an ice cube.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Cool, squared.\", \"n\": \"₹1,599 · Pre‑order · Naira Petite\", \"plate\": \"squareB1_a1\", \"scrim\": true, \"w\": 540}",
+ "W01_a1-story": "{\"at\": \"tl\", \"c\": \"Woven gold strands, not a plain tube.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Hoop in a hoop.\", \"n\": \"Woven Gold Hoops · 25 mm · ₹1,499\", \"ns\": 26, \"plate\": \"W01_a1\", \"w\": 760}",
+ "H01_e1-story": "{\"at\": \"bl\", \"c\": \"6 mm mirror-polished beads and one gold heart.\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Every beat, a little gold.\", \"n\": \"Heartbead Bracelet · ₹1,299\", \"plate\": \"H01_e1\", \"w\": 760}"
+}

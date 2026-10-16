@@ -222,8 +222,7 @@
    "n": "Prism Rivière Bracelet · ₹2,399",
    "at": "tl",
    "w": 640,
-   "plate": "P01_a1",
-   "ext": true
+   "plate": "P01_a1"
   },
   {
    "id": "P09_a1-story",
@@ -248,8 +247,7 @@
    "at": "tr",
    "w": 780,
    "scrim": true,
-   "plate": "verdant1_a1",
-   "ext": true
+   "plate": "verdant1_a1"
   },
   {
    "id": "quatrefoil1_a1c-story",
@@ -275,8 +273,7 @@
    "at": "tl",
    "w": 640,
    "ns": 26,
-   "plate": "dome1_a1",
-   "ext": true
+   "plate": "dome1_a1"
   },
   {
    "id": "squareB1_a1-story",
@@ -289,7 +286,7 @@
    "w": 540,
    "scrim": true,
    "plate": "squareB1_a1",
-   "ext": true
+   "cx": 0
   },
   {
    "id": "W01_a1-story",
@@ -314,7 +311,7 @@
    "at": "bl",
    "w": 760,
    "plate": "H01_e1",
-   "ext": true
+   "ext": "mirror"
   }
  ]
 }

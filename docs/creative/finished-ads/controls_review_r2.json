@@ -1,0 +1,182 @@
+[
+ {
+  "id": "ctl_woven",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "A clean craft close-up from the listing (listing-2): one hoop in front of a plaster block and one on top, on cream. It shares the palette of the hoop concept ads, so the test now isolates the concept.",
+   "The copy is true (a braid of gold strands, 25 mm, ₹1,499) and fits on one line. It reads at 8.9:1, 9.5:1 and 7.5:1, about 45 px above the back hoop."
+  ],
+  "issues": [
+   "[photo] The source is 896 px wide and upscaled 1.21×, so the braid is slightly soft at full size. It is fine on a phone."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] The full-resolution original of this listing photo, 1,350 px wide or more, makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_prism",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "A macro of the front stones in their halos (listing-7) with almost no lilac cast, which makes it a fair partner for P01, P02 and P09.",
+   "The copy sits on the plinth face at 12–12.6:1, about 77 px below the stones."
+  ],
+  "issues": [
+   "[photo] The source is 896 px wide and upscaled 1.21×. The back stones are soft by design."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A full-resolution original makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_dome",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The copy sits on clean cream above the hoop at 11:1, about 40 px clear of its top.",
+   "An honest polished close-up with true copy: polished gold, a hinged snap, ₹1,649 and pre-order."
+  ],
+  "issues": [
+   "None."
+  ],
+  "fixes": [
+   "None."
+  ]
+ },
+ {
+  "id": "ctl_verdant",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "At y 56 the price line is about 33 px from the nearest halo prong, up from 18 px. Contrast is 9.7–13.8:1.",
+   "An honest macro with no metal claim."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text says yellow gold, while its photos show white metal. Fix the product page, not the control."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ },
+ {
+  "id": "ctl_toggle-story",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes on the plain studio backdrop. The copy is clear of the Stories interface (y 362–600) at 9.4:1, 8.3:1 and 7.7:1."
+  ],
+  "issues": [
+   "[photo] As with the Feed control, the clasp is small (about 25 px on a phone) and seen edge-on, and it is the selling point. There is no better plain photo on file."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A plain close-up of the clasp from Shopify, 1,600 px or wider, would lift both versions."
+  ]
+ },
+ {
+  "id": "ctl_woven-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes. The copy is clear of the interface (y 362–550) at 8.9:1, 9.5:1 and 7.5:1."
+  ],
+  "issues": [
+   "[photo] The source is 896 px wide and upscaled 1.21×."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As for ctl_woven, a full-resolution original makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_heart-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The copy is clear of the interface (y 1295–1534), reads at 11–12:1 and sits about 60 px below the heart. The bottom extension, plaster, looks natural."
+  ],
+  "issues": [
+   "[extension] The strand runs off the photo's top edge, so the beads smear upward into the extension (y 0–285). It is mostly under the Stories header but visible at full size.",
+   "A native crop enlarges the heart but puts the headline on it (tested), so keep this version."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "ctl_prism-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural: the plinth and backdrop continue softly. The copy sits on the plinth face (y 1295–1534) at 12:1, well below the stones."
+  ],
+  "issues": [
+   "[photo] The source is 896 px wide and upscaled 1.21×."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As for ctl_prism, a full-resolution original makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_dome-story",
+  "score": 9.5,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural on plain paper. The copy is clear of the interface and reads at 11:1."
+  ],
+  "issues": [
+   "[clean] The Feed control's y 56 fix didn't carry over. At the Story default (y 357, which is the photo's own y 72) the correction ends about 25 px above the top of the hoop."
+  ],
+  "fixes": [
+   "[apply] y: 341, which is the Feed's y 56 plus the 285 px photo offset. Tested: about 41 px of clearance, with the ink starting at y 346, still below the 250 px line. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_verdant-story",
+  "score": 9.5,
+  "verdict": "fix",
+  "strengths": [
+   "The extension looks natural. The copy is clear of the interface (y 362–600) at 9.8:1, 12.9:1 and 13.9:1."
+  ],
+  "issues": [
+   "[clean] The same carry-over: at y 357 the price line sits as close to the top-left halo prongs as the Feed control did before its y 56 fix."
+  ],
+  "fixes": [
+   "[apply] y: 341. Tested: the ink starts at y 346, and the copy sits exactly where the Feed control sits relative to the photo. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_quatrefoil-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes. The copy is clear of the interface (y 358–600), reads at 11–14:1 and sits well clear of the star.",
+   "An honest macro with true copy."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text still describes a micro-pavé clover, while the photos show a star with pear-cut stones. Fix the product page."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ },
+ {
+  "id": "ctl_square-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes. The copy is clear of the interface (y 1353–1534) at 13.5:1, about 40 px below the huggie's bottom edge.",
+   "An honest macro with true copy."
+  ],
+  "issues": [
+   "[claim, PDP] The seed pearls aren't named in the listing text, so the copy rightly doesn't claim them."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ }
+]

@@ -149,7 +149,8 @@
    "at": "tl",
    "w": 560,
    "hs": 72,
-   "ext": true
+   "ext": true,
+   "y": 341
   },
   {
    "id": "ctl_verdant-story",
@@ -161,7 +162,8 @@
    "at": "tl",
    "w": 600,
    "hs": 72,
-   "ext": true
+   "ext": true,
+   "y": 341
   },
   {
    "id": "ctl_quatrefoil-story",

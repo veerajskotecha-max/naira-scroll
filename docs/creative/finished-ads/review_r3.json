@@ -1,0 +1,264 @@
+[
+ {
+  "id": "T07_a1c",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "The scrim fixed the busy linen. The headline now reads at 11.8:1, the correction at 14:1 and the price line at 12.1:1, whose darkest 5% rose from 2.2:1 to 6:1. The glow reads as window light on the shirt.",
+   "Still the most premium frame in the set, with the copy well clear of the chain and clasp. The claims are listing facts: 50 cm, and the toggle worn at the front."
+  ],
+  "issues": [
+   "[ceiling: photo] A styling shot with no visual pun. The idea lives only in the words (the pattern that returned 0.58× in the account), and on-body statics are untested. Creative ceiling 9.",
+   "[cap: price] ₹1,499 is under the ₹2,000 line the data sets for a single piece."
+  ],
+  "fixes": [
+   "[apply] None. It is at its creative ceiling.",
+   "[no layout fix] Going higher needs a visual idea in the photo, plus a ₹2,000+ offer such as the chain in a gift set."
+  ]
+ },
+ {
+  "id": "W06_a3",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The correction now clears the paranda tassel by 42 px (it touched it in r2), stays on two lines and reads at 10.3:1. The headline reads at 13.8:1 on the kurta.",
+   "'Woven, twice.' still pays off the rhyme between the plait and the hoops, with no face in frame."
+  ],
+  "issues": [
+   "[ceiling: photo] The hoops are about 30 px each on a phone, and the glossy black plait takes the eye first. On-body statics are untested. Ceiling 8.5.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None. It is at its ceiling.",
+   "[no layout fix] Only a tighter reshoot on the ear, with each hoop at least a fifth of the frame width, would lift it."
+  ]
+ },
+ {
+  "id": "W07_a2",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The scrim lifted the soft type: the correction from 4.9:1 to 11.3:1 and the price line from 4.7:1 to 8.8:1. The glow reads as light on the silk.",
+   "'Braided, like the thread.' lands at once because the floss under the hoops is plaited too, and '25 mm across' corrects the macro's scale."
+  ],
+  "issues": [
+   "[cap: price] ₹1,499. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer, such as two pairs or hoops plus the chain, lifts the cap."
+  ]
+ },
+ {
+  "id": "W10_a2",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The scrim lifted the headline from 5.5:1 to 10.7:1. The correction reads at 11.8:1 and the price line at 9.3:1, and the glow sits naturally beside the diya.",
+   "The copy is true: one pair, 25 mm, and no box claim."
+  ],
+  "issues": [
+   "[ceiling: photo] A gift still life: the idea is in the words, not the picture. Ceiling 8.5.",
+   "[claim, soft] The prop gift box is still in the photo, and 'One gift' implies delivery before Diwali.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None to the layout.",
+   "[no layout fix] End the ad on the last order date that still delivers before Diwali (8 Nov)."
+  ]
+ },
+ {
+  "id": "H09_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "'Sweeter than mithai.' now sits on one line, and the whole block ends at y 283, about 50 px above the plate rim (in r2 the price line sat on the rim). Contrast is 9.8:1, 11.2:1 and 9.9:1.",
+   "The truest food pun in the set: mirror steel against silver varq, in mithai season, on light blush. 'Mirror steel, not silver varq.' is accurate."
+  ],
+  "issues": [
+   "[cap: price] ₹1,299. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer, such as the bracelet and the chain as a set, lifts the cap."
+  ]
+ },
+ {
+  "id": "P01_a1",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "With the scrim off, the rangoli bands keep their full colour where the eye lands first. The copy still reads at 12.1:1, 12.6:1 and 12.2:1, with its darkest 5% at about 7:1.",
+   "It hits every lever the data favours: the proven Prism (12 of 16 concept sales, at 1.63×), ₹2,399 and in stock, a pigment-powder visual pun with the bracelet as the ruled line through the colour, a light pastel ground and Feed 4:5.",
+   "The copy is true and sits about 290 px above the bracelet."
+  ],
+  "issues": [
+   "None. Lead with this."
+  ],
+  "fixes": [
+   "None."
+  ]
+ },
+ {
+  "id": "P02_a2c",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "Clean now, with the two-line correction and no scrim. The copy sits at y 297–627 (Stories-safe), reads at 13.3:1, 12.8:1 and 15.0:1, and is about 120 px clear of the halos.",
+   "The native vertical version of the rangoli idea: the bracelet runs top to bottom through stacked bands, and the stones are big at phone size."
+  ],
+  "issues": [
+   "[placement] This and P01_a1-story are the same idea for the same slot. Run one as the rangoli Story, or A/B them, so they don't bid against each other."
+  ],
+  "fixes": [
+   "None."
+  ]
+ },
+ {
+  "id": "P09_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "'Rainbow, rainproof.' is a two-word pun that carries the listing's waterproof claim, and '5 mm stones, each in its own halo.' gives the real number. The headline and correction sit on one line each, at 11.8:1 and 11.5:1, about 120 px below the stones.",
+   "The proven product at ₹2,399, a thumb-stopping macro, Feed 4:5."
+  ],
+  "issues": [
+   "[ceiling: photo] The top third is browner and darker than the pastel winners, and the macro makes the 5 mm stones look huge. Ceiling 9.5."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] Only a lighter reshoot lifts it."
+  ]
+ },
+ {
+  "id": "P01_a1-story",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is clear of the Stories interface: ink at y 364–620, nothing in the top 250 px or the bottom 340 px, at 12:1.",
+   "The same winning idea and product as P01."
+  ],
+  "issues": [
+   "[extension] Artificial. The powder texture stops on a hard line at y 285 and y 1635, and the bands turn into vertical smears above and below. It is obvious at full size and shows as a blur band at 390 px.",
+   "[placement] It duplicates P02_a2c, the native vertical rangoli Story. Here the bracelet is a thin band, with stones about 25 px on a phone."
+  ],
+  "fixes": [
+   "[apply] Delete \"ext\": true, keeping fmt 9:16 and plate P01_a1 (cx defaults to 0.5). build_ads then crops the 1856×2304 plate to 9:16 instead of extending it: 1296×2304, a 0.83× downscale. Tested: the bands run the full height, the stones are 1.4× bigger, and the copy sits at y 297–553 at 11.8:1 (darkest 5% 7.1:1). This makes it a 10.",
+   "[run] Then run it or P02_a2c as the rangoli Story, or A/B the two."
+  ]
+ },
+ {
+  "id": "P09_a1-story",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes. The plate's top and bottom rows are already out-of-focus satin, so the continuation is seamless.",
+   "The copy is clear of the interface (y 1328–1534) and reads at 12:1."
+  ],
+  "issues": [
+   "[ceiling: photo] The extension adds 285 px more of the dark brown satin at the top, so about 40% of the frame is brown, further from the pastel winners than the Feed version. Ceiling 9."
+  ],
+  "fixes": [
+   "[apply] None. A native crop doesn't help: it keeps the brown top and puts the copy on the front stones.",
+   "[no layout fix] Lead the Prism Stories with P02_a2c, or with P01_a1-story once it is cropped."
+  ]
+ },
+ {
+  "id": "verdant1_a1-story",
+  "score": 9,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is clear of the interface (y 364–570) and reads at 11–12:1. The top extension, soft wall and curtain, looks natural.",
+   "The same food pun and correction as the Feed version, at ₹2,199."
+  ],
+  "issues": [
+   "[extension] The bottom is artificial at full size: the sharp linen weave stops at y 1635 and turns into a blurred band. At 390 px it shows as a soft band, mostly under the reply bar.",
+   "[cap: pre-order] No ad history.",
+   "[claim, PDP] The listing text still says yellow gold, while the photos show white metal."
+  ],
+  "fixes": [
+   "[apply] Delete \"ext\": true for a native 9:16 crop of the plate (cx 0.5). Tested: no extension at all, the studs 1.4× bigger (about 170 px each), the pod's tips cropped naturally by the frame, and the copy at y 297–503 at 11.9:1. Takes it to 9.5, the pre-order cap."
+  ]
+ },
+ {
+  "id": "quatrefoil1_a1c-story",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The extension looks natural at both sizes: soft terracotta stone continues above and below.",
+   "The copy is clear of the interface (y 363–558). Cream type at 5.4:1, 5.6:1 and 5.2:1. At ₹2,449 this is the highest ticket in the set."
+  ],
+  "issues": [
+   "[ceiling: photo] As in the Feed version: the jaali isn't in frame, the stud is small at thumbnail, and the stone is darker than the pastel winners. Ceiling 8.5.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply, optional] scrim: true lifts the cream type to about 8:1, as tested on the Feed version. Legibility doesn't require it.",
+   "[no layout fix] Run it as the heritage test. Going higher needs a reshoot with the jaali in frame."
+  ]
+ },
+ {
+  "id": "dome1_a1-story",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is clear of the interface (y 364–664) and reads at 13:1. The top extension is plain paper and looks natural."
+  ],
+  "issues": [
+   "[extension] The bottom is artificial: below y 1635 the last row of mints is smeared into vertical streaks, visible at full size and at 390 px.",
+   "[cap: price] ₹1,649, and [cap: pre-order] no ad history."
+  ],
+  "fixes": [
+   "[apply] Delete \"ext\": true for a native 9:16 crop of the plate (cx 0.5). Tested: no extension, the mints cropped by the frame edges, the huggie 1.4× bigger at y 1120–1370 (about 210 px above the bottom 340 px zone), and the copy at y 297–597 at 13.1:1. Takes it to 9.5, the price and pre-order caps."
+  ]
+ },
+ {
+  "id": "squareB1_a1-story",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is clear of the interface (y 1328–1534) and reads at 11–13:1."
+  ],
+  "issues": [
+   "[extension] Artificial at both sizes. The tray runs off the plate's top and right edges, so the extension smears the tray corner and the ice into streaks at the top and bottom right. A mirrored extension doubles the tray corner (tested), so that isn't the fix.",
+   "[cap: price] ₹1,599, and [cap: pre-order] no ad history."
+  ],
+  "fixes": [
+   "[apply] Delete \"ext\": true and add cx: 0 for a native 9:16 crop anchored left. Tested: no extension, the huggie large and central in the tray, and the copy on the plain peach shadow at 11.4:1. Takes it to 9.5, the caps."
+  ]
+ },
+ {
+  "id": "W01_a1-story",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "The top extension, soft linen, looks natural. The copy is clear of the interface (y 364–574) and reads at 12:1."
+  ],
+  "issues": [
+   "[extension] The bottom seam shows at full size: the sharp linen weave stops at y 1635 and turns into a blurred band. It sits under the reply bar and passes at 390 px.",
+   "[placement] W02_a1 is the same idea shot natively for 9:16 and scores 9.5. A 9:16 crop would cut the embroidery hoop, which spans 83% of the frame width, and a mirrored extension reflects its rim (tested).",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None that improves it.",
+   "[no layout fix] Run W02_a1 as the hoops Story first. Keep this one only as a second variant."
+  ]
+ },
+ {
+  "id": "H01_e1-story",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is clear of the interface (y 1187–1534), reads at 11–12:1 and sits about 60 px under the lowest bead."
+  ],
+  "issues": [
+   "[extension] Artificial. The grid stops on a hard line at y 285 and y 1635 and the extension is plain pink, so the sheet looks cut out. It is obvious at full size and visible at 390 px.",
+   "A native crop can't fix it, because the ECG runs edge to edge from the T-bar to the heart.",
+   "[cap: price] ₹1,299."
+  ],
+  "fixes": [
+   "[apply, code] Give this ad a mirrored extension. Fill each extension by mirroring the photo's edge band across the seam (frame row 284−d = photo row d; frame row 1635+d = photo row 1349−d). Blend toward stronger Gaussian blurs (3, 7, 12, 18 px) as d grows, with weight (d/285)^0.75, and drift the outer 40% toward the edge band's mean colour. Prototype: /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review3/tools/extend_mirror.py (function extend_mirror). Tested: the grid continues across both seams and softens like shallow focus. Takes it to 9.5, the price cap.",
+   "Make it a per-ad setting, for example \"ext\": \"mirror\", so only H01 uses it. The mirror reflects objects on W01, squareB1 and the top edge of verdant1 (tested)."
+  ]
+ }
+]

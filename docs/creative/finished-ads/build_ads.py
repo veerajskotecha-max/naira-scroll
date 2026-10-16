@@ -52,6 +52,30 @@ def extend916(im):
     mask = np.ones((H, 1, 1), np.float32); mask[off:off + 1350] = 0
     return Image.fromarray(np.clip(np.asarray(img).astype(np.float32) + g * mask, 0, 255).astype(np.uint8))
 
+def extend_mirror(im, off=285, H=1920, max_blur=18, grain=2.2):
+    # For frames whose texture runs to the edge (the ECG grid): mirror the photo's edge band across each seam, sharp at the seam
+    # and blurring progressively away from it, then drift the outer 40% toward the edge colour under the Stories interface.
+    a = np.asarray(im.resize((1080, 1350), Image.LANCZOS)).astype(np.float32)
+    can = np.zeros((H, 1080, 3), np.float32); can[off:off + 1350] = a
+    n_top, n_bot = off, H - off - 1350
+    for d in range(n_top): can[off - 1 - d] = a[min(d, 1349)]
+    for d in range(n_bot): can[off + 1350 + d] = a[max(1349 - d, 0)]
+    base = Image.fromarray(np.clip(can, 0, 255).astype(np.uint8))
+    L = [np.asarray(x).astype(np.float32) for x in [base] + [base.filter(ImageFilter.GaussianBlur(r)) for r in (3, 7, 12, max_blur)]]
+    out = can.copy()
+    for d in range(max(n_top, n_bot)):
+        t = (d / max(n_top, n_bot)) ** 0.75 * (len(L) - 1); i = min(int(t), len(L) - 2); f = t - i
+        for y in ([off - 1 - d] if d < n_top else []) + ([off + 1350 + d] if d < n_bot else []):
+            out[y] = L[i][y] * (1 - f) + L[i + 1][y] * f
+    for rng, band in ((range(0, off), a[:40]), (range(off + 1350, H), a[-40:])):
+        flat = band.reshape(-1, 3).mean(0)
+        for y in rng:
+            d = (off - 1 - y) if y < off else (y - off - 1350); n = n_top if y < off else n_bot
+            w = max(0.0, (d / n - 0.6) / 0.4) * 0.7; out[y] = out[y] * (1 - w) + flat * w
+    g = np.random.default_rng(7).normal(0, grain, (H, 1080, 1)).astype(np.float32)
+    mask = np.ones((H, 1, 1), np.float32); mask[off:off + 1350] = 0
+    return Image.fromarray(np.clip(out + g * mask, 0, 255).astype(np.uint8))
+
 def prep(ad):
     src = os.path.join(HERE, "..", ad["path"]) if "path" in ad else f"{SPB}/{ad['src']}/plates/{ad.get('plate', ad['id'])}.png"
     W, H = SIZE["4:5" if ad.get("ext") else ad["fmt"]]
@@ -59,7 +83,8 @@ def prep(ad):
     if w / h > W / H: nw = round(h * W / H); box = (round((w - nw) * ad.get("cx", .5)), 0, round((w - nw) * ad.get("cx", .5)) + nw, h)
     else: nh = round(w * H / W); box = (0, round((h - nh) * ad.get("cy", .5)), w, round((h - nh) * ad.get("cy", .5)) + nh)
     path = f"{WORK}/{ad['id']}_bg.jpg"; im = im.crop(box)
-    (extend916(im) if ad.get("ext") else im.resize((W, H), Image.LANCZOS)).save(path, quality=95); return path
+    ext = ad.get("ext")
+    (extend_mirror(im) if ext == "mirror" else extend916(im) if ext else im.resize((W, H), Image.LANCZOS)).save(path, quality=95); return path
 
 def glue(t):
     return re.sub(r"(\d) (mm|cm)\b", "\\1\u00a0\\2", t)                  # never break a number from its unit
