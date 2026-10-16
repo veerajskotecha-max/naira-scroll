@@ -1,0 +1,146 @@
+[
+ {
+  "id": "clusterC1_m1",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The new plate is Cluster A from composite_r2 with its back-sun grade (byte-identical to review6/var/cA_fix.png), in the plate reviewer's box [150,968,1014,2048]. The stud is 27% of the frame width (about 106 px at 390 px). It lies on open paper with its own crisp shadow and is the one sparkle that is not a sweet. Light pastel ground, ₹2,399, the winning 'Almost edible.' system. The claims are listing facts, and no pearl count is stated.",
+   "r6's contrast problems are gone. Price 14.0:1 (darkest 5% 13.1) on lit paper, where it was 3.6:1 (3.2). Spec line 15.6:1 (13.9). Ink wordmark 7.6:1 (5.2), where it was 2.0:1 (1.3) on the sweets. Headline 15.6:1 (14.6).",
+   "The scrim earns its place over the left purple sweet: the correction's two lines read 13.4:1 (12.3) and 10.4:1 (8.2). Without it (tested) they fall to 6.0:1 (4.0) and 5.1:1 (3.2), with the italic hairlines on sugar grain.",
+   "Neither glow touches the stud or its shadow (zero lift over x 240–560, y 840–1045). The shadow ends at y 1039, 124 px above the rule."
+  ],
+  "issues": [
+   "[ceiling: photo] composite_r2 scores this plate 8.5 in this box. Studio light on the face and the stud's distance from the candy hold it under 9. The pun lands through the copy and the colour rhyme in a second or two, not at a glance: the stud is about 1.3% of the frame's area, against 6.5% for the pink sweet. The installed plate adds r2's back-sun grade; its verdict (r3) is pending.",
+   "[brand, minor] The headline glow pales the left purple sweet's top half: up to about +70 levels at y 240–280 (raw 181,160,174 becomes 237,229,227), and its saturation falls from 0.25 to 0.16. At full size the sweet's top dissolves into white; at 390 px it reads as soft bokeh light.",
+   "[brand, minor] The wordmark straddles the edge of the right purple sweet's cast shadow (raw median 152,115,103 beneath it, lifted to 189,164,153 by the foot glow), so its right half sits on darker ground. It still reads 7.6:1 (5.2).",
+   "[placement] It reuses prismC1_m1's headline in the same candy scene. Run the proven, in-stock Prism first; this is the pre-order test.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] None. scrim: false was tested: the correction falls to 5.3:1 (3.4), worse than the haze.",
+   "[no layout fix] Higher needs composite_r2's step (3): move the stud into the candy at B's place and shade it where the sweet shades it. Or a closer scene, with a true-size stud at about 30% of the frame.",
+   "[run] Run it as the Edition One candy test, after Prism."
+  ]
+ },
+ {
+  "id": "W02_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories price padding landed: the price shares the spec line's baseline (both at y 1520), and the wordmark dropped 17 px to y 1422–1462. The faded embroidery-hoop rim now clears the N by about 17–24 px, where in r8 it touched. Ink wordmark 15.7:1 (darkest 5% 13.2), up from 14.0:1 (9.8).",
+   "The copy is unchanged. 'woven gold strands, not a plain tube.' is true to the top-down photo. Headline 9.2:1 (6.4) and correction 9.6:1 (6.8), one line each, 62 px above the screw. Spec line 15.1:1 (14.9), price 16.6:1 (15.8). All copy sits at y 263–1524, Stories-safe."
+  ],
+  "issues": [
+   "[brand, minor] The rim still sits inside the tulip-height clear space (40 px), but at 17–24 px it no longer touches the mark, and it is a faded prop.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] Run it as the hoops Story, ahead of W01_a1-story."
+  ]
+ },
+ {
+  "id": "W05_a2",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "The Stories price padding landed: the price (10.2:1, darkest 5% 9.6) now sits on the spec line's baseline (y 1520), 29 px below the lower hoop's lowest gold and 13 px to its right. The top-left ink wordmark is unchanged at 9.7:1 (7.3).",
+   "'Hanging by a thread.' is literally what the photo shows, and 'a braid of gold, 25 mm across.' gives the macro its real scale. Headline 8.8:1 (7.0), correction 8.6:1 (7.7), spec line 14.5:1 (10.0). All copy sits at y 302–1524, Stories-safe."
+  ],
+  "issues": [
+   "[brand] Unchanged since r8: the full-width foot glow lays 13% paper on the lower hoop's gold at y 1420, 37% at y 1440, 58% at y 1460 and 61% at y 1470–1479. That is a mean lift of +50/+79/+108 at y 1460–1469. The base of the punchline turns milky at full size and dissolves into the light band at 390 px.",
+   "[placement] Stories-only: there is no 4:5 Feed version of this idea.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None. As tested in r8, removing fscrim drops the spec line's darkest 5% to 3.9:1 (4.4:1 with the shorter spec).",
+   "[no layout fix] The builder option r8 proposed would take it to 9.5, the price cap: centre the foot glow on the spec column. Simulated: spec line 14.2:1 (11.4), price 8.0:1 (7.5) unaided, zero lift on the hoop. It is not in build_ads.py yet."
+  ]
+ },
+ {
+  "id": "verdant1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "r8's fix landed as tested: band: true, fscrim: false. Spec line 16.7:1 (darkest 5% 15.9) and price 16.0:1 (15.9). The ink wordmark reads 15.3:1 (12.7) on paper, better than the 12.9:1 (9.6) tested, because the new price padding drops it 17 px onto the band's solid part. The pod and studs get zero lift, and the plate's lower rim fades the way the other Story bands fade.",
+   "Native 9:16 crop; the studs are large and plainly the punchline. Headline 13.9:1 (8.7), correction 12.4:1 (9.3). All copy sits at y 302–1524, Stories-safe."
+  ],
+  "issues": [
+   "[cap: pre-order] No ad history. Creatively a 10.",
+   "[claim, PDP] The listing says yellow gold; the photos show white metal. The ad makes no metal claim, but fix the product page before spending."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "quatrefoil1_a1c-story",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories price padding landed: the price (5.2:1, brightest 5% 4.9) sits on the spec line's baseline. The white wordmark (6.0:1, 5.5) sits on the ground below the ledge, clear of its edge.",
+   "The copy is unchanged. The correction ends at x 419, 116 px clear of the stud, at 5.1:1 (3.9). The extension looks natural. Spec line 7.6:1 (5.8). All copy sits at y 341–1524, Stories-safe."
+  ],
+  "issues": [
+   "[contrast] Cream type: headline 5.5:1 (brightest 5% 4.0), correction 5.1:1 (3.9).",
+   "[ceiling: photo] No jaali in frame, and a dark ground. Ceiling 8.5.",
+   "[cap: pre-order] No ad history."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] The Stories half of the heritage test."
+  ]
+ },
+ {
+  "id": "dome1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories price padding landed: price and spec share a baseline (y 1520). The wordmark, now at y 1422–1462, reads 16.5:1 (darkest 5% 14.5) on the band, about 88 px from the huggie.",
+   "Unchanged: the huggie is large at y 1120–1375 and still the only shine. Headline 13.7:1 (12.7), correction 13.9:1 (13.0), spec line 16.6:1 (15.7), price 16.6:1 (16.4). All copy sits at y 301–1524, Stories-safe."
+  ],
+  "issues": [
+   "[cap: price] ₹1,649, and [cap: pre-order] no ad history. Creatively a 10.",
+   "[brand, minor] As in r8, the band's fade lays 6–38% paper over the huggie's lowest 45 px (y 1330–1379), and a ghosted mint sits behind the wordmark's 'RA'. Both read as part of the fade at 390 px."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "squareB1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories price padding landed: price and spec share a baseline (y 1520). The wordmark reads 15.5:1 (darkest 5% 13.3) over the ghosted tray, up from 13.8:1 (10.7).",
+   "Unchanged: the huggie sits large in its cell at y 808–1110, untouched by the scrim or the band. Headline 13.1:1 (9.6), correction 11.2:1 (7.1), spec line 15.9:1 (15.7), price 15.6:1 (15.6). All copy sits at y 302–1524, Stories-safe."
+  ],
+  "issues": [
+   "[cap: price] ₹1,599, and [cap: pre-order] no ad history. Creatively a 10.",
+   "[ceiling: photo, minor] The starburst flares, as in the Feed version."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer and stock landing lift the caps."
+  ]
+ },
+ {
+  "id": "W01_a1-story",
+  "score": 9,
+  "verdict": "run",
+  "strengths": [
+   "The Stories price padding landed: the price shares the spec line's baseline (y 1520). The wordmark, now at y 1422–1462, clears the faded embroidery-hoop rim by about 12–20 px, where r8 measured about 5 px. Ink wordmark 15.7:1 (darkest 5% 13.1), spec line 15.1:1 (14.9), price 16.3:1 (15.9).",
+   "Unchanged: the top extension is soft linen and looks natural, and the band's solid paper hides the y 1635 seam. Headline 12.8:1 (11.9) and correction 13.2:1 (11.6). All copy sits at y 342–1524, Stories-safe."
+  ],
+  "issues": [
+   "[brand, minor] The rim stays inside the tulip-height clear space, at 12–20 px, but it no longer crowds the N.",
+   "[placement] W02_a1 is the same idea shot natively for 9:16, with larger hoops. This extended 4:5 plate is the second variant.",
+   "[cap: price] ₹1,499."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[run] Run it second to W02_a1, as its rotation."
+  ]
+ }
+]
