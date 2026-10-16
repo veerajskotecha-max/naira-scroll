@@ -40,9 +40,9 @@ P = dict(cx=480, cy=1626,      # centre of the loop's contact ellipse in the sce
          # the front links face away from the back sun: faces darker, a sun rim on their tops, but none on links in a sweet's shadow
          front=1, fshade=0.86, frim=0.35, rimsun=1,
          footclamp=1,     # the cut-out has no hole at the loop's ends: keep the front foot from lying below the piece itself
-         # sun on the metal (off by default; a test): the low back sun sits near the mirror angle of the links' flat tops, so the
+         # sun on the metal: the low back sun sits near the mirror angle of the links' flat tops, so the
          # tops glare (topspec) with a few hot glints (glint), and the back links' camera-facing inner walls fall into shade (bshade)
-         topspec=0, glint=0, bshade=1.0)
+         topspec=0, glint=0, bshade=0.86)
 for kv in sys.argv[1:]:
     k, v = kv.split("=", 1); P[k] = json.loads(v) if v[:1] in "[{0123456789-." else v
 
