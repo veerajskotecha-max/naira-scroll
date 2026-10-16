@@ -91,7 +91,7 @@
    "id": "E2_watch_a1",
    "plate": "E2_watch_haath",
    "h": "Papa's watch, minus the time.",
-   "c": "three rows of links,<br>for one finger.",
+   "c": "three rows of links,<br>not a strap.",
    "spec": "Watch Link Ring · gold or silver tone",
    "cta": "Shop the ring",
    "price": "₹1,199",
@@ -99,7 +99,8 @@
    "fmt": "4:5",
    "at": "tl",
    "w": 700,
-   "wm": "ink"
+   "wm": "ink",
+   "hs": 84
   },
   {
    "id": "E2_droplet_a1",
@@ -223,7 +224,7 @@
    "id": "E2_choker_a1",
    "plate": "E2_choker_monsoon",
    "h": "Monsoon, to wear.",
-   "c": "a marquise and two pears, not raindrops.",
+   "c": "a marquise and two pears,<br>not raindrops.",
    "spec": "Marquise Drop Choker · cubic zirconia",
    "cta": "Shop the choker",
    "price": "₹1,599",
@@ -322,7 +323,8 @@
    "fmt": "9:16",
    "at": "tl",
    "w": 620,
-   "wm": "ink"
+   "wm": "ink",
+   "hs": 90
   },
   {
    "id": "E2_ruby_a1-story",
@@ -336,7 +338,13 @@
    "fmt": "9:16",
    "at": "tl",
    "w": 620,
-   "wm": "ink"
+   "wm": "ink",
+   "box": [
+    0,
+    110,
+    1536,
+    2752
+   ]
   },
   {
    "id": "E2_studs_a1-story",
@@ -350,13 +358,19 @@
    "fmt": "9:16",
    "at": "tl",
    "w": 620,
-   "wm": "ink"
+   "wm": "ink",
+   "box": [
+    0,
+    130,
+    1536,
+    2752
+   ]
   },
   {
    "id": "E2_choker_a1-story",
    "plate": "E2_choker_monsoon_916",
    "h": "Monsoon, to wear.",
-   "c": "a marquise and two pears, not raindrops.",
+   "c": "a marquise and two pears,<br>not raindrops.",
    "spec": "Marquise Drop Choker · cubic zirconia",
    "cta": "Shop the choker",
    "price": "₹1,599",
@@ -364,9 +378,9 @@
    "src": "e2",
    "fmt": "9:16",
    "at": "tl",
-   "w": 620,
+   "w": 450,
    "band": true,
-   "hs": 84
+   "hs": 76
   },
   {
    "id": "P13_a1-story",
@@ -381,7 +395,8 @@
    "fmt": "9:16",
    "at": "tl",
    "w": 440,
-   "hs": 66
+   "hs": 80,
+   "y": 560
   }
  ]
 }

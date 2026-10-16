@@ -1,0 +1,385 @@
+[
+ {
+  "id": "E2_droplet_a1",
+  "score": 8.0,
+  "verdict": "fix",
+  "strengths": [
+   "The r19 copy fault is fixed. 'a ball and a teardrop, in gold tone.' no longer implies solid gold and agrees with the spec line ('gold or silver tone').",
+   "The cuff matches P07_H: a ball at one end, a teardrop at the other, and a slim round wire. At 2x the ball's neck reads as a soft swell rather than a melted join, so it is acceptable.",
+   "The layout is clean. The copy sits on open grey ground and the foot is clear. At 390 px the gold reads strongly against the cool backdrop."
+  ],
+  "issues": [
+   "[photo] The plate was not re-shot. Each end still sits in a domed, gel-like puddle with a thick meniscus, which reads as silicone rather than water at 2x. The drops still form an even halo around the cuff, which reads as CG rather than rain.",
+   "[idea] There is still no Indian referent. 'Caught mid-drop.' describes the photo; it is not a culture rhyme. Rain is generic, it overlaps the choker's raindrop idea, and monsoon is over by an October–November launch.",
+   "[timing] This is a rain image in a Diwali and wedding-season window."
+  ],
+  "fixes": [
+   "[re-shoot, recommended] Use r19's Boondi idea. The cuff goes on a brass plate of boondi, with \"h\": \"Boondi, in gold tone.\" and \"c\": \"a ball and a teardrop, not a laddoo.\". Boondi is a Diwali sweet at the right scale.",
+   "[if the plate is kept] Retouch both puddles into thin, flat water films and break the drop halo into a random scatter, with a few drops cut off by the frame edge."
+  ]
+ },
+ {
+  "id": "E2_choker_a1",
+  "score": 8.1,
+  "verdict": "fix",
+  "strengths": [
+   "The r19 face collision is fixed. The headline now sets at y ~150–300 on the beige wall, and the correction ends near x 355, well left of the neck (x ~557).",
+   "The amber rivulet retouch is clean. The trail is desaturated to a clear, skin-tinted water line with no patch, seam or halo at 2x, and it no longer reads as honey or oil.",
+   "Fidelity to P14_H holds: the fine ribbed omega, the sideways marquise, and a pear mid-chain plus an end pear.",
+   "The shape rhyme (a marquise and pears as raindrops) is strong."
+  ],
+  "issues": [
+   "[layout] Not resolved from r19: the paper band still fogs the end pear (y ~1085–1125). One of the three stones the correction names is ghosted, and at 390 px the pendant fades out.",
+   "[layout, minor] 'MONSOON,' tucks under the jaw. The top-right of 'N,' sits about 25–40 px below the chin line, so at 390 px the headline appears to hang off the chin.",
+   "[copy/layout, minor] The correction breaks as 'a marquise and two / pears, not raindrops.', which splits 'two pears' across the line. r19 intended the break to fall after 'pears,'.",
+   "[photo, minor] The rivulet keeps its thick, bulb-ended drip shape, and the dense beading still reads closer to sweat than rain. A four-point star glint overlay sits on the marquise.",
+   "[timing/set] Monsoon is off-season for an October–November launch, and the idea overlaps the droplet ad."
+  ],
+  "fixes": [
+   "\"c\": \"a marquise and two pears,<br>not raindrops.\". The explicit break defeats the balanced wrap. Line one is about 360 px and ends near x 425, about 130 px clear of the neck.",
+   "[re-frame] Outpaint the plate to the left and bottom, or regenerate with the pendant higher, so the end pear lands at y ≤ 1000. Until then, \"fscrim\": \"spec\" in place of \"band\": true would at least keep the pear sharp. Check the spec contrast on the skin before using it.",
+   "[optional] Drop the star glint on the marquise.",
+   "[schedule] Hold until June. Give the November slot to a festive idea."
+  ]
+ },
+ {
+  "id": "P12_a1",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "The stone order is fixed. Read from the clasp, the line now runs A Y P A Y P A Y P A Y P A Y P, a strict three-colour cycle in the same rotation as the reference photos.",
+   "The r19 clasp-on-spec collision is gone. The spec line now sits on the paper band.",
+   "This is still the best Prism idea. 'Matches all three.' over the yellow, pink and aqua silk sarees is a wardrobe insight, not just a festival prop, and it will outlive Diwali into wedding season."
+  ],
+  "issues": [
+   "[photo] Retouch defect: the recolour leaked. On the aqua stone at about (600, 630), a teal tab of colour about 20 × 65 px spills past the halo's top-left corner onto the yellow and pink silk (x ~594–615, y ~597–665). It is plain at 2x and visible at full size, and it contradicts the 'no bleed' note on the retouch.",
+   "[photo, minor] The recoloured yellows (e.g. at about (830, 385)) grade greenish, toward chartreuse, beside the original warm canary yellows, so at 2x they hint at a fourth colour. The recoloured pinks are a touch more saturated than the original pinks, and the lowest yellow keeps pink-lilac facet reflections.",
+   "[layout] The band now fogs the last three links and the clasp. At 390 px the bracelet dissolves into haze at bottom left, which is the effect r19 asked to remove on duo.",
+   "[layout, minor] The wordmark and price still sit on the aqua saree's zari border.",
+   "[set] This is one of three Diwali Prism concepts."
+  ],
+  "fixes": [
+   "[retouch, required] Re-mask the aqua stone at (600, 630) to the stone's girdle only, and restore the silk and halo pixels from P12_saree_orig.png.",
+   "[retouch] Pull the recoloured yellows about 8–10° warmer, toward the original yellows' hue, and match their saturation. Bring the new pinks down to the original pinks' chroma.",
+   "[re-cut, later] Regenerate or outpaint so the lower clasp ends at y ≤ 1120, then drop the band.",
+   "[set] Once the spill is fixed, this is the Prism challenger to test. Hold P11 and P13 behind it."
+  ]
+ },
+ {
+  "id": "E2_mint_a1",
+  "score": 7.8,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is fixed. 'a pale mint pear, not a lime slice.' names the stone the way the product does and matches the lime wheel in the glass.",
+   "The earrings match N13_H: a marquise and a small clear pear above a mint pear, in gold claws.",
+   "The nimbu pani rhyme is clean and bright, and the layout is tidy."
+  ],
+  "issues": [
+   "[scale] Not resolved, because the plate was not re-shot. The mint pear is about 0.55–0.6 of the lime half's diameter and the earring is about 0.8 of the glass's width. Real figures are about 0.18 and 0.3. Even allowing for the earrings being nearer the lens, a 22 mm earring reads as about 5 cm, which is a returns risk.",
+   "[layout, minor] The left earring's lower pear still ends about 50 px above the spec rule.",
+   "[timing, minor] Nimbu pani reads as a summer drink, which is mild for November."
+  ],
+  "fixes": [
+   "[re-shoot, required] Shoot the earrings at true scale, with the mint pear about 1/5 of the lime half. For example, put both earrings on a coaster in the foreground with the glass and lime set further back.",
+   "[hold] Do not run until it is re-shot. Scale is the one fault a layout change cannot fix."
+  ]
+ },
+ {
+  "id": "E2_crystal_a1",
+  "score": 9.0,
+  "verdict": "run",
+  "strengths": [
+   "The r19 layout fault is fixed. The correction sets as 'clear baguettes, / not rock sugar.', ending near x 300, far from the katori. 'FOR KEEPS.' ends about 40 px from the blurred bowl rim.",
+   "Fidelity matches N06_H: crosswise clear baguettes in gold corner claws and a box clasp at the top of the loop.",
+   "'Mishri, for keeps.' is a precise rhyme. Rock sugar and baguettes share their clarity and their faceted blocks, and the loose mishri crystals beside the bracelet act as a scale cue.",
+   "Mishri is used as Diwali prasad, so the referent fits the season."
+  ],
+  "issues": [
+   "[photo, minor] The front baguettes are still a little milky, with less white fire than N06_H. The light is soft and flat.",
+   "[set] It shares its composition with ruby and emerald, so it should run as a variant, not a separate concept."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional photo] Add a small kicker so a few facets flash white.",
+   "[run] Run it as the crystal variant in the baguette ad set."
+  ]
+ },
+ {
+  "id": "E2_watch_a1",
+  "score": 8.1,
+  "verdict": "fix",
+  "strengths": [
+   "'Papa's watch, minus the time.' gives the ad the Indian family referent it lacked. The two-tone dad watch is a real cultural object, and the line is warmer than r19's 'Watch, minus the time.'.",
+   "The ring matches P13_H: three rows of scalloped links, smooth inside.",
+   "The photo craft is good, with warm light and handmade paper."
+  ],
+  "issues": [
+   "[layout] Not resolved. The longer headline sets in three lines ('PAPA'S WATCH, / MINUS / THE TIME.') with 'MINUS' stranded, and the last line still lands on the strap. The period of 'TIME.' (x ~485–495, y ~305–317) sits about 12–20 px above the strap's top-left link (y ~323–337). At 390 px the headline rests on the bracelet.",
+   "[copy, set] The correction kept 'for one finger'. r19 asked for 'three rows of links, not a strap.' to drop the set's repeated 'for one finger' (tubogas headline, plus roman's 'for your finger').",
+   "[brand risk] The prop is still a close Rolex Datejust lookalike, with a fluted gold bezel and a two-tone Jubilee bracelet. The handless dial can read as a broken or AI watch.",
+   "[scale] The ring is still about 0.9 of the watch case's width, against a real figure of about 0.55."
+  ],
+  "fixes": [
+   "\"hs\": 84 (keep \"w\": 700). The headline then sets in two lines, 'PAPA'S WATCH, / MINUS THE TIME.' (about 550 and 640 px wide), ending near y 215, about 110 px clear of the strap.",
+   "\"c\": \"three rows of links,<br>not a strap.\"",
+   "[re-shoot] Use an unbranded two-tone watch with a plain bezel and hands at 10:10, and the ring at about half the case's diameter."
+  ]
+ },
+ {
+  "id": "P11_a1",
+  "score": 8.6,
+  "verdict": "fix",
+  "strengths": [
+   "Both r19 layout faults are fixed. The headline now sets 'DIWALI, / IN PASTEL.' with no orphan, and the correction wraps 'cubic zirconia that / catches every diya.', ending near x 330, more than 200 px clear of the flames.",
+   "The diyas give a timely and unmistakable Diwali signal, and the pastel against terracotta is attractive at 390 px.",
+   "The halos, the rhodium and the fold-over clasp ends are crisp."
+  ],
+  "issues": [
+   "[fidelity] Not resolved. This plate was not recoloured, so the stones still run Y P A P A Y A P A Y A P A Y (6 aqua, 4 pink, 4 yellow), not a three-colour cycle.",
+   "[fidelity/scale, minor] Only 14 links span the 18 cm piece, so each link reads about 12 mm. The listing's 5 mm cushions in halos give about 20 links of about 8 mm. Against the diyas, the stones read about 1.4x large.",
+   "[photo, minor] The stones are lit cool and even, with no amber bounce from three lit diyas beside them, so the bracelet still reads composited into the scene.",
+   "[timing] Diwali is 8 November 2026. A diya ad dates the day after, so it has a short run.",
+   "[set] It is one of three Diwali Prism concepts."
+  ],
+  "fixes": [
+   "[retouch] Recolour the stones into a strict aqua → yellow → pink cycle, matching P12. Mask each stone at its girdle and check the halos for spill (see P12's leak).",
+   "[retouch, optional] Add a 2–3% warm bounce on the stones nearest the diyas.",
+   "[set] Hold it behind P12. If a diya Prism ad runs, the Story version has the better light."
+  ]
+ },
+ {
+  "id": "E2_chai_a1",
+  "score": 9.0,
+  "verdict": "run",
+  "strengths": [
+   "The copy is fixed. 'a woven mesh band, / not a strainer.' is the formula and true, and it removes the misleading 'the same fine mesh'.",
+   "The layout is fixed. At hs 92 the period of 'UPGRADED.' is about 40 px above the strainer's handle loop.",
+   "The ring matches P15_H's twisted mesh with rolled edges exactly. The channi, the loose leaves and the chai ring stain make a lovely everyday Indian rhyme, and chai suits winter."
+  ],
+  "issues": [
+   "[scale, minor] Not re-shot. The ring is about 0.55 of the strainer bowl's width against a real figure of about 0.3. It is in the foreground, which explains part of it, but it still reads a little chunky (the same allowance r19 gave tubogas).",
+   "[photo, minor] The tea stain ring is very even and reads slightly staged."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional re-shoot] Bring the strainer forward or the ring back, so the ring is about 1/3 of the bowl's width."
+  ]
+ },
+ {
+  "id": "E2_roman_a1",
+  "score": 9.1,
+  "verdict": "run",
+  "strengths": [
+   "The clock retouch works. Six o'clock now reads VI, set upside-down to match the dial's radial numerals (VII and VIII beside it follow the same orientation), and the brushed brass is continuous where the extra bar was removed. At 390 px and at full size it reads as a real dial.",
+   "The copy is fixed. 'roman numerals, / in three tones.' is lowercase and true to the 'Tri Tone' listing.",
+   "The ring matches P08_H exactly: a rose band with numerals and bezel stones, two rows of silver pavé, and a gold band with cut-through numerals.",
+   "'Ghadi, for your finger.' carries the Hindi word, and with the watch ad now 'Papa's watch' the two timepiece ads are distinct.",
+   "The layout is clean, with about 75 px between 'YOUR' and the dial rim."
+  ],
+  "issues": [
+   "[photo, minor] At 2x the VI's top serif shows a faint notch at its left end, where the removed bar's serif was cut (around (930, 487)). It is not visible at 1x or 390 px.",
+   "[photo, minor] The four-point star glint on the pavé band is still there. It reads as an overlay.",
+   "[set, minor] There are still two timepiece rhymes in one launch."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional] Drop the star glint, and clone the serif notch smooth."
+  ]
+ },
+ {
+  "id": "E2_silk_a1",
+  "score": 9.0,
+  "verdict": "run",
+  "strengths": [
+   "'Resham, in metal.' fixes r19's weakest headline. It gives the Indian word, the hank becomes the referent, and 'fine woven mesh, not silk.' now answers the headline instead of the product name.",
+   "The cuff matches N02_H: a mesh tube with one oval polished end-face and one cylindrical cap.",
+   "The light is warm and even, the composition is calm, and the copy is well clear of the strands. Resham suits wedding season."
+  ],
+  "issues": [
+   "[photo, minor] Unchanged plate: at 390 px the hank's flat, matte strands still read closer to raffia than to lustrous silk.",
+   "[fidelity, minor] The mesh grades a touch paler and more champagne than N02_H's deeper gold."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional photo] Add a specular sweep along the hank so it reads as silk."
+  ]
+ },
+ {
+  "id": "P13_a1",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "The copy is fixed. 'aqua, pink and yellow, / not paper.' turns the spec into the formula and pays off the kandil.",
+   "The bracelet is crisp, with sharp halos and rhodium and a link size close to the real ~8 mm. The back links fall naturally out of focus.",
+   "The pastel akash kandils make a precise colour rhyme and a strong Diwali signal."
+  ],
+  "issues": [
+   "[fidelity] Not resolved, because this plate was not recoloured. The front row runs A P A P Y A P A, and the back row has two aquas side by side after the clasp.",
+   "[copy, minor] 'in a line' still sits over a bracelet laid as a closed loop.",
+   "[layout, minor] The period of 'LINE.' is about 15 px from the blurred aqua lantern's edge, and the comma of 'KANDIL,' about 28 px from its tip. At 390 px 'LINE.' appears to touch the lantern.",
+   "[timing] Diwali-specific, so it should stop running after 8 November."
+  ],
+  "fixes": [
+   "[retouch] Recolour the stones into a strict three-colour cycle, matching P12's order and hues.",
+   "\"hs\": 78. 'IN A LINE.' then ends about 25 px further left.",
+   "[set] Hold it behind P12 as the second Diwali Prism."
+  ]
+ },
+ {
+  "id": "E2_duo_a1",
+  "score": 9.0,
+  "verdict": "run",
+  "strengths": [
+   "The r19 fog is mostly fixed. With fscrim in place of the band, the chain's lower loop is visible down to y ~1150. The spec reads at high contrast (ink ~12 on ~213), and the price at about 6:1.",
+   "The fidelity to N14 holds: alternating gold and silver paperclip links, stacked ring connectors, a lobster clasp and an extender.",
+   "'Ganga-Jamuni, in a chain.' over an engraved two-tone thali is the best culture rhyme in the set. The craft term names the exact metal mix, and the thali is festive."
+  ],
+  "issues": [
+   "[layout, minor] The fscrim glow is a broad milky bloom at bottom centre-right (x ~450–900). It washes the lowest loop's links paler, and at 390 px it reads a little like haze on the metal.",
+   "[photo, minor] The star glint overlay at about (915, 745) is still there, and the chain still runs off the right edge twice."
+  ],
+  "fixes": [
+   "[apply] None required.",
+   "[optional] \"fscrim\": \"spec\". This puts the glow behind the spec column only, so the chain stays crisp. Drop the glint."
+  ]
+ },
+ {
+  "id": "E2_coil_a1",
+  "score": 8.7,
+  "verdict": "fix",
+  "strengths": [
+   "The jalebi recolour reads at feed size. It is now saffron-orange, so at 390 px the spiral says jalebi immediately, and the recolour is clean: the brass plate keeps its own colour with only a plausible warm reflection, and there are no seams.",
+   "The bangle matches N04_H: three ribbed turns and two pavé caps.",
+   "'Jalebi, minus the syrup.' is witty and festive, so it is timely through Diwali."
+  ],
+  "issues": [
+   "[photo] The recolour fixed the hue but not the texture. At 2x the jalebi is still smooth, translucent and gummy, with no crisp, ridged, fried skin, so it reads as orange jelly candy to anyone who looks.",
+   "[layout] Not resolved. The bangle's lowest turn (x ~440–680, y ~1150–1195) still sits level with the spec line, starting about 50 px right of 'BANGLE'. At 390 px the bangle appears to stand on the foot.",
+   "[layout, minor] A dark plaster speck right after the price's last 9 reads as a trailing period ('₹1,899.') at 390 px."
+  ],
+  "fixes": [
+   "[retouch] Add surface texture to the jalebi: a fine fried crinkle and matte ridges under the syrup gloss, with less translucency. Or regenerate it on the same plate.",
+   "[re-cut] Place the bangle about 60 px higher, with the lowest turn at y ≤ 1130.",
+   "[retouch] Clone out the speck at about (1020, 1268)."
+  ]
+ },
+ {
+  "id": "E2_star_a1",
+  "score": 8.8,
+  "verdict": "fix",
+  "strengths": [
+   "The bezel retouch works. The left bezel now holds a clear faceted stone, with a radial brilliant pattern and neutral rhodium tones, matching the right bezel. At 390 px it reads as a stone, not a hole, and there is no patch or seam around the collet.",
+   "'Dhruv tara, on the wrist.' is a perfect name rhyme. The four-point sky star above the bangle pays it off, and the night-sky backdrop is premium.",
+   "The layout is clean, with cream type on navy at high contrast."
+  ],
+  "issues": [
+   "[fidelity] Not resolved. The engraved stars are still eight equal, petal-like points (a daisy). N09_H's star is a compass star with 4 long and 4 short points, which is what makes it read as 'north star'.",
+   "[fidelity, minor] The bezels still show an inner pavé ring that N09_H's simple collet does not have. At 2x the rebuilt stone's facets are slightly too regular, like a pinwheel.",
+   "[photo, minor] At 2x the glitter cloth reads as sequin fabric."
+  ],
+  "fixes": [
+   "[retouch] Redraw each engraved star as a compass star with 4 long and 4 short fine points around the centre stone, as in N09_H.",
+   "[optional] Simplify the bezels to a plain polished collet."
+  ]
+ },
+ {
+  "id": "P11_a1-story",
+  "score": 8.5,
+  "verdict": "fix",
+  "strengths": [
+   "It is a native 9:16 re-shoot, not a stretched Feed plate. The top 290 px and bottom 380 px are clear of copy, and the foot ends at y ~1525.",
+   "The light is better than the Feed's. The diyas throw a warm wash across the plaster and onto the clasp-end stones, so the bracelet sits in the scene.",
+   "Fidelity is closer to the real piece than the Feed's. About 25 links of about 7 mm fit the 18 cm length, and the open fold-over clasp shows its construction."
+  ],
+  "issues": [
+   "[fidelity] The stone order is irregular. From the top clasp end it runs A Y P A Y P A P Y P A P Y A P A Y P A P A P Y A P (9 aqua, 6 yellow, 10 pink), with a run of P A P A P.",
+   "[layout] The period of 'PASTEL.' (x ~505–513, y ~455–463) sits about 15–20 px from the front diya's rim (x ~521–533 at y ~462–468). At 390 px the headline touches the diya.",
+   "[scale, minor] The bracelet's loop is about twice a diya's width, so the diyas read as 3–4 cm cups, or the bracelet as large.",
+   "[timing] Diwali-only. Stop it after 8 November."
+  ],
+  "fixes": [
+   "\"hs\": 90. 'IN PASTEL.' then ends near x 470, about 90 px clear of the rim.",
+   "[retouch] Recolour into a strict three-colour cycle, matching P12.",
+   "[set] If a diya Prism ad runs, use this Story with P12 as the Feed lead."
+  ]
+ },
+ {
+  "id": "E2_ruby_a1-story",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "The rubies grade a deeper crimson than the Feed version, closer to N16_H. This answers r19's optional hue note.",
+   "Fidelity matches N16_H: crosswise baguettes in gold T-tab claws, about 40 stones, and the fold-over clasp with its stamped tongue.",
+   "True scale holds. The arils run about 1 cm against a bracelet about 6.5 cm across. The scattered arils make the 'not seeds' joke visible.",
+   "'Anaar season.' is the strongest rhyme in the baguette set, and it is in season. The headline and correction sit in clear plaster below the 290 px safe zone."
+  ],
+  "issues": [
+   "[layout] The foot is crowded. The bracelet's front edge ends at y ~1465, about 20 px above the spec rule (y ~1485), and the wordmark sits on the bracelet's red cast shadow, about 30 px from its right shoulder. At 390 px the bracelet appears to sit on the spec line.",
+   "[photo, minor] The four-point star glint overlay at about (715, 1335) is still there. At 2x the clasp's stamped hallmark is garbled glyphs, though it is invisible at 1x."
+  ],
+  "fixes": [
+   "[re-cut] Shift the plate up about 70 px, cropping the pomegranate's top in the safe zone and extending the plain plaster at the bottom, so the bracelet ends at y ≤ 1400 and the wordmark sits on clean plaster.",
+   "[optional] Drop the star glint.",
+   "[run] With the foot cleared, run it as the Story lead for the baguette set."
+  ]
+ },
+ {
+  "id": "E2_studs_a1-story",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "Fidelity matches P06_H exactly: three round stones and a pear around a polished gold disc, with gold claws and butterfly backs. There is no overlay glint.",
+   "The mogra buds and open double flowers are at true scale against the studs (a bud head of about 1.2 cm), and the sage linen is a fresh, calm Story ground.",
+   "'Mogra that stays.' is a clean rhyme, and gajra mogra carries a wedding association into November. The copy sits clear of the flowers, with about 95 px to the nearest bud."
+  ],
+  "issues": [
+   "[layout] The bottom-left mogra bud ends at y ~1475, about 10 px above the spec rule (y ~1485, x 64–128) and directly over it. At 390 px the rule touches the bud.",
+   "[photo, minor] Some open flowers read more like gardenia than mogra at 2x, and the stones are a little milky. Mogra peaks in summer, but the headline claims no season."
+  ],
+  "fixes": [
+   "[retouch] Remove or shorten the bottom-left bud (x 0–175, y ~1280–1475), or shift the plate up about 60 px so the bud ends at least 60 px above the rule.",
+   "[run] Run it once the foot is clear."
+  ]
+ },
+ {
+  "id": "E2_choker_a1-story",
+  "score": 7.6,
+  "verdict": "fix",
+  "strengths": [
+   "Fidelity to P14_H holds: the ribbed omega, the sideways marquise, the mid-chain pear and the end pear.",
+   "The end pear sits mostly above the band's fade, better than the Feed version, and the copy and foot respect both Story safe zones."
+  ],
+  "issues": [
+   "[layout] The correction is printed on the neck. At w 620 it runs on one line, and 'raindrops.' (x ~520–642, y ~505–540) crosses the neck's edge (x ~502). This is the collision r19 flagged on the Feed, and the Feed fix (w 450, y 150) was not carried over. 'MONSOON,' also ends about 30 px from the neck.",
+   "[photo] The retouch was not applied to this plate. Both rivulets on the chest are still amber or honey-coloured and viscous, and read as oil or sweat.",
+   "[photo, minor] Star glint on the marquise.",
+   "[timing/set] Monsoon is off-season, and the idea overlaps the droplet ad."
+  ],
+  "fixes": [
+   "\"w\": 450, \"hs\": 76, \"c\": \"a marquise and two pears,<br>not raindrops.\". 'MONSOON,' then ends near x 430 and the correction's first line near x 425, both about 70 px clear of the neck (x ~502).",
+   "[retouch] Desaturate both rivulets on E2_choker_monsoon_916, as was done on the Feed plate.",
+   "[schedule] Hold until June, along with the Feed version."
+  ]
+ },
+ {
+  "id": "P13_a1-story",
+  "score": 8.6,
+  "verdict": "fix",
+  "strengths": [
+   "It is a native 9:16 re-shoot. The lanterns fill the top, the copy starts below the 290 px safe zone, and the bracelet's foot is about 55 px clear of the rule.",
+   "The links are true to the piece: about 8 mm cushions in halos, rhodium and a fold-over clasp. The out-of-focus back row reads naturally as link backs.",
+   "The copy is the fixed version, 'aqua, pink and yellow, / not paper.', with a warm lantern glow and a strong Diwali signal."
+  ],
+  "issues": [
+   "[fidelity] The stone order is irregular. The front row runs A P A P Y A P Y A, and the back row has two aquas side by side after the clasp.",
+   "[layout] The period of 'LINE.' (x ~333, y ~465) sits about 20–25 px from the blurred pink lantern's left tip (x ~355, y ~455). At 390 px they touch.",
+   "[layout, minor] At hs 66 the headline is the smallest in the Story set (others are 84–100) and reads light at 390 px.",
+   "[copy, minor] 'in a line' sits over a closed loop. Diwali-only timing."
+  ],
+  "fixes": [
+   "[retouch] Recolour into a strict three-colour cycle, matching P12.",
+   "\"y\": 560, \"hs\": 80. This drops the copy block below the pink lantern's left tip, into the clear wall between its arms and the bracelet. The headline sets at y ~560–760 and the correction ends near y 860. 'IN A LINE.' ends near x 390, about 80 px from the lantern's lower arm tip at about (480, 790), and the copy stays about 140 px above the bracelet. Check it after rendering.",
+   "[set] Hold it behind the P12 Feed and P11 Story."
+  ]
+ }
+]
