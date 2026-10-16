@@ -103,5 +103,10 @@
   "frame": "aquaB1",
   "attempt": "a1",
   "job": "659c9544-b31e-46d3-ba63-f957fa590900"
+ },
+ {
+  "frame": "clusterC1",
+  "attempt": "lite1k",
+  "job": "4a0491dd-7c54-4d3d-bad4-582505754195"
  }
 ]

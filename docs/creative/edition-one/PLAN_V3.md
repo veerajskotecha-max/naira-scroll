@@ -1,0 +1,68 @@
+# Edition One: version 3 plan (ready for the next Higgsfield top-up)
+
+Written 16 Oct 2026, after the hero round, the bold v2 round and the ad-performance research (`build/AD_PERFORMANCE.md`).
+
+## What the account's own data says
+
+Naira's Meta account: 108 jewellery ads, ₹1,59,164 of spend, corrected for nine friends-and-family orders.
+
+- **Concept statics beat plain statics:**
+
+  | | ROAS |
+  |---|---|
+  | Concept statics | 1.44× |
+  | Plain statics | 0.57× |
+  | Plain, all | 0.90× |
+
+  Concept also won outbound click-through in 10 of 10 side-by-side ad sets. The lead rests on one image, "Almost edible." (the Prism bracelet in gummy sweets, 10 of the 16 concept sales), and the data is thin. Treat it as direction, not law.
+- **What won:**
+  - visual puns where the piece is the punchline, readable in the thumbnail;
+  - food and candy, and measuring tools ("The Width", a hoop in a brass calliper);
+  - light pastel grounds;
+  - the 4:5 Instagram Feed;
+  - pieces over ₹2,000.
+- **What didn't:**
+  - puns carried only in the words;
+  - dark plinths;
+  - Reels for statics;
+  - halved fruit (apricot);
+  - copy-only cards.
+- **Copy formula that won:** a two-word headline, a plain-spoken correction and a real number. For example: "Almost edible. *Cubic zirconia, not candy.*" and "25 millimetres across."
+
+## How we shoot
+
+- **The grammar:** one bold everyday object wears the piece, the camera is close, the sun is hard and low, and the ground is blush-peach.
+- **Never ask the piece to make a shape.** The question mark bent the Aqua C out of true.
+- **Compensate the scale bias.** The generator draws jewellery about 1.5–1.7× the ratio asked for against a prop. Ask for about 0.6× the true ratio. For example, ask for a stud that is "a tenth of the cricket ball's width" to get the true ~1/6.
+- **Verify every plate** against the listing photos with `BRIEF.md`. Run only plates scoring 8.5+.
+- **Feed 4:5 first;** Stories only for the proven winners.
+
+## Frames to shoot, by priority (₹2,000+ pieces first)
+
+| Piece | ₹ | Have (verified 8.5+) | Next frames |
+|---|---|---|---|
+| Aqua Heart Drops | 2,499 | — | Chill (lemonade glass) if it passes; **Almost edible** among pastel hard candies; Leave it running (tap) |
+| Quatrefoil Éclat Studs | 2,449 | jaali-light crop (pending) | **Kaju katli** (the stud on a diamond katli with silver varq); quatrefoil **cookie cutter** in blush dough; star anise |
+| Prism Cluster Studs | 2,399 | — | **Almost edible** at 2K (the 1K lite test reads instantly); Matches your mani; rangoli with six pearls |
+| Baguette Halo Drops | 2,200 | — | **Almost a snack**: the pearl drop among makhana (white puffs, pearl-sized); doorbell with a flat plate; shuttlecock at true size |
+| Verdant Cushion Studs | 2,199 | Two of a kind (peas) 8.6 | Day-night Test (pink ball) recalibrated; **pistachios** ("Pista, but forever") |
+| Rivière Huggies | 1,999 | — | Mishri at true size; **The Width** (brass calliper) |
+| Lilac Papillon Ring | 1,899 | — | Garnish (coupe rim) recalibrated; Caught one (net) |
+| Torsade Huggies | 1,799 | — | Croissants recalibrated; The Width |
+| Bold Dome Huggies | 1,649 | Not a mint 8.5 | Handle with care (cup) if it passes; The Width |
+| Petite Square Huggies | 1,599 | — | Cool, squared (ice tray) if it passes; barfi recalibrated |
+| Petite Bow Studs | 1,399 | — | Berry cute (strawberry) if it passes; gift box recalibrated |
+
+Hoops under ₹2,000 can't pay back alone at ₹1,500–3,000 per sale. Shoot them as a **bundle** (two pairs in one frame, priced as a set) or as gift-set frames for Diwali.
+
+## Cost
+
+- Each 2K image costs 2 credits; reshoots run about 40%.
+- The table above is about 30 frames, roughly 85 credits including reshoots.
+- The four concept camps need about 30–40 credits more to fill their gaps.
+
+## Open questions for the founder
+
+- **Prism Cluster Studs:** the listing macro shows 8 tiny pearls; the description and the other photos show 6. Which is right?
+- **Petite Bow Studs and Verdant Cushion Studs:** the listing text says gold; every photo shows white metal.
+- **Petite Square Huggies:** the description doesn't mention the seed pearls that appear in every photo.
