@@ -1,0 +1,86 @@
+[
+ {
+  "id": "P01_a1-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. It is now a native 9:16 crop of the plate: no extension and no seam, with the rangoli bands running the full height. The render matches the crop tested in r3.",
+   "The stones are 1.4× bigger than in the extended version (about 47 px each on a phone). The copy sits at y 297–553, well inside the Stories safe zone, and about 340 px above the bracelet.",
+   "Contrast is 11.6:1 for the headline, 12.0:1 for the correction and 11.9:1 for the price line (darkest 5% about 7:1). Everything reads at 390 px.",
+   "It is the strongest concept in the account (rangoli pun, Prism at ₹2,399 and in stock, light pastel), now with nothing fake in the frame."
+  ],
+  "issues": [
+   "[placement] This and P02_a2c (also a 10) are the same idea for the same Stories slot. Run one, or A/B the two, so they don't bid against each other."
+  ],
+  "fixes": [
+   "None."
+  ]
+ },
+ {
+  "id": "verdant1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. A native crop, so the hard band where the linen weave stopped is gone. The pod's tips are cropped by the frame the way a photographer would crop them.",
+   "The studs are about 170 px each and plainly the punchline. The copy sits at y 297–503 (Stories-safe) at 12.0:1, 12.6:1 and 11.1:1, with the scrim reading as window light."
+  ],
+  "issues": [
+   "[cap: pre-order] No ad history yet. Creatively a 10.",
+   "[claim, PDP] The listing text still says yellow gold, while the photos show white metal. The ad makes no metal claim; fix the product page before spending."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] The cap lifts when stock lands or the first pre-orders convert."
+  ]
+ },
+ {
+  "id": "dome1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. A native crop: the streaked mints are gone, and the mints run naturally off the frame edges.",
+   "The huggie is 1.4× bigger at y 1120–1370, about 210 px above the bottom 340 px reserved for the Stories interface. It is still the only shine in the frame, so the 'find it' mechanic works at 390 px.",
+   "The copy sits at y 297–597 (Stories-safe) at about 13:1."
+  ],
+  "issues": [
+   "[cap: price] ₹1,649, and [cap: pre-order] no ad history. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer (for example two pairs) and stock landing would lift the caps."
+  ]
+ },
+ {
+  "id": "squareB1_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. A native crop anchored left (cx 0): no smeared tray, and the huggie sits large in its cell with its pearls and hinge readable.",
+   "The copy sits on the plain peach shadow at y 1328–1534 (Stories-safe), about 75 px clear of the tray rim, at 11.2:1, 12.2:1 and 10.4:1."
+  ],
+  "issues": [
+   "[cap: price] ₹1,599, and [cap: pre-order] no ad history. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As dome1: a ₹2,000+ offer and stock landing."
+  ]
+ },
+ {
+  "id": "H01_e1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. The mirrored extension carries the ECG grid across both seams (y 285 and y 1635) with no hard line. It softens progressively like shallow focus and fades to plain pink under the Stories interface. It reads as one sheet at full size and at 390 px.",
+   "The build_ads.py version produces the same result as the tested prototype.",
+   "The copy sits at y 1187–1534 (Stories-safe), well clear of the bracelet, at 12.2:1, 11.6:1 and 11.5:1."
+  ],
+  "issues": [
+   "[cap: price] ₹1,299. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer (for example the bracelet with the toggle chain) lifts the cap."
+  ]
+ }
+]

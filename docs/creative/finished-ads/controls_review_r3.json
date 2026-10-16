@@ -1,0 +1,32 @@
+[
+ {
+  "id": "ctl_dome-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. At y 341 the copy sits exactly where the Feed control's sits relative to the photo (photo y 56). The price line now clears the hoop's left arm by about 33 px, and the correction clears the hinge by about 45 px.",
+   "The copy is inside the Stories safe zone (ink at y 346–534) at about 11:1 on plain cream. The extension is seamless, and the copy is true (polished gold, hinged snap, ₹1,649, pre-order)."
+  ],
+  "issues": [
+   "None."
+  ],
+  "fixes": [
+   "None."
+  ]
+ },
+ {
+  "id": "ctl_verdant-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed. At y 341 the price line clears the top-left halo prong by about 32 px, matching the Feed control.",
+   "The copy is inside the Stories safe zone (ink at y 346–584) at 9.7:1, 12.4:1 and 13.8:1. The extension is seamless, and the ad makes no metal claim."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text says yellow gold, while its photos show white metal. Fix the product page, not the control."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ }
+]
