@@ -62,6 +62,12 @@ shopper sees the photos. Look at the listing photos for the product first.
    | pea | ~8mm |
    | barfi square | ~30mm |
    | gift box | ~50mm |
+   | pink cricket ball | ~72mm across |
+   | strawberry | ~30mm wide, ~40mm long |
+   | coupe glass | ~100mm wide, rim ~3mm |
+   | tall lemonade glass | ~70mm wide |
+   | badminton shuttlecock | ~70mm tall, cork base ~25mm |
+   | mini croissant (stated) | ~60mm long |
    | porcelain bell plate | ~40mm |
    | espresso cup | ~60mm tall |
    | star anise | ~30mm |
@@ -98,6 +104,10 @@ one second (the piece replaces or rhymes with an everyday object). Weight the id
 - realism (texture, grain, contact);
 - calm copy space;
 - thumb-stopping quality.
+
+## Version 2 (bold) frames
+Frames with ids ending in B1 are the bold set: one everyday object wears the piece, hard sun, close camera. Judge them the
+same way, against the object's real size. A close camera is fine; an enlarged piece is not.
 
 ## Output
 For each plate, an object: {"plate", "pass", "severity": "none|minor|major|critical", "score", "reasons": [located, measured

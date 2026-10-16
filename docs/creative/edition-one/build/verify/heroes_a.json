@@ -1,0 +1,75 @@
+[
+  {
+    "plate": "aqua1_a1.png",
+    "pass": false,
+    "severity": "critical",
+    "score": null,
+    "reasons": [
+      "Shape and proportions changed. The listing C (listing-1) is a tall, narrow half hoop, about 1.2 hearts wide and 2.4 hearts tall (about 210x420px against a 175px heart). The heart hangs from its bottom, and a short curl continues past the bail. The plate redraws it as a round question-mark hook about 480px (2.5 hearts) wide (x 685-1165, centre about (925,990)). The band then runs on as an invented straight stem about 230px long, from about (1065,1110) to (912,1280), and the heart hangs from the end of the stem. Relative to the heart, the curl is about twice as wide as the real piece, and the piece is about 4.2 hearts long against about 3.7 in listing-1.",
+      "Wrong stones. The listing's main feature, a row of large round claw-set brilliants along the outer front edge, is not readable: about 6-7 per hoop in listing-1, about 13 in the listing-5 macro. Instead the whole band face is about 25 tapered baguettes radiating across its full width, separated by milgrain-beaded rails with ball claws. Only tiny square chips sit at the outer edge (zooms at (670-970, 770-1090) and (1020-1180, 890-1210)). At phone size it reads as an all-baguette hoop with milgrain, which the product is not.",
+      "Post missing. The hook tip at about (685-790, 1030-1075) is a squared-off end. The real piece has a straight post projecting from its top tip (listing-1, listing-5), and it would show in a flat-lay."
+    ],
+    "notes": [
+      "Correct: one earring only, bright white rhodium metal, one pale icy aqua heart (about 190px wide, (820-1010, 1390-1590)) hanging point-down on a small loop. No drawn or printed question mark, and no text anywhere.",
+      "Backdrop on-brand: blush cotton paper (about RGB 244,222,214, hue 17) with a deckled edge along the bottom. The contact shadow and paper texture are believable, and the upper half is calm copy space.",
+      "No fixed-size referent in frame (paper only), so scale is not judged.",
+      "Both listing earrings open the same way (front face up they make a mirrored '?'). A C that opens down-left is therefore a mirror image. That is acceptable as a left/right flip, but the arc must not be bent, widened or lengthened to fake the stem.",
+      "The idea reads in under a second. With a faithful piece this concept would be close to hero quality."
+    ],
+    "fix": "Lock the earring to listing-1/listing-5. It is a tall, narrow C half hoop, about as wide as the heart and about twice as tall. It has large round claw-set brilliants along the outer front edge, upright baguettes only on the inner wall, no milgrain, and a straight post at the upper tip, lying flat on the paper and visible. The heart hangs from the bottom of the C, with the short curl continuing past the bail. Build the question mark from orientation only: the C opens down-left (mirror image allowed), its curve is the hook, and the heart sits just below as the dot. Accept a looser question mark. Remove 'curls exactly like the hook of a question mark' and add: 'the hoop is not bent, widened, lengthened or given a stem; its curve, length and stones stay exactly as in the reference.'",
+    "crop": null
+  },
+  {
+    "plate": "halo1_a1.png",
+    "pass": true,
+    "severity": "minor",
+    "score": 7.0,
+    "reasons": [
+      "Drop pearl slightly small. It is about 102px across (x 1209-1311, y 1285-1387) against a disc of about 180px (x 1172-1352), a ratio of 0.57 against about 0.66-0.70 in listing-1. Measured against the 40mm plate (about 570px) that is about 7mm against about 9-10mm, roughly 25% under: inside the 30% tolerance but visible next to the listing.",
+      "The 'bell plate' is drawn as a concave saucer with a raised rim and a well (about 570px across, x 986-1556, centre about (1271,1150)), not a flat bell plate. Next to the door casing (about 540px of moulding, x 240-780) it reads as about 7-10cm rather than 4cm, so a viewer who takes scale from the door may read the earring at about 1.5-2x life size. Against the stated 4cm referent the disc is about 12.5mm against 14mm (-11%): pass.",
+      "Palette drift. The plaster wall is apricot-sand rather than ivory-blush: sunlit area (1500-1800, 200-500) about RGB 229,200,174, hue 28, sat 0.24. That is the same hue family as the listing's sand backdrop, only warmer and more saturated, and the blush survives only in the door frame. I judged it a warm peach limewash in low sun rather than a beige/tan backdrop fail, but it is at the edge."
+    ],
+    "notes": [
+      "Product faithful: polished gold rim, and a sunburst of slim tapered baguettes set as rays with bead claws. There are about 30-40 rays, a little finer than listing-5's 24-28, which cannot be resolved at phone size. The centre pearl sits in a beaded gold collar, and one larger white drop pearl hangs on a short gold link with a cap. Exactly two pearls, warm yellow gold, one earring only.",
+      "No text, numbers, switch, wire or nameplate. Physically plausible: the disc is set into the plate centre, the drop hangs plumb, and shadows fall consistently to the right.",
+      "Idea: with 'Ring twice.' the doorbell reading arrives after a beat (about 2s), not in one second. The saucer shape and the drop pearl lying inside the dish make it read as an earring on a wall-hung trinket dish.",
+      "The product is small (disc about 10% of frame width) and is not the brightest thing: the window glow at left and the sunlit plaster outshine it. Light and realism are excellent: raking low sun, muslin glow, chipped paint, crisp speculars on the gold and pearls. Calm copy space is upper right; the left 40% is busy with the casing and window.",
+      "A tighter 4:5 crop [560,480,1856,2100] (1296x1620) would enlarge the product and drop the window glow, but would not lift it to 8.5, so crop is null."
+    ],
+    "fix": "Make the bell plate a flat, shallow round ivory porcelain plate about 4cm across: a doorbell rose, not a saucer with a well. Fix it right at the edge of the door casing at doorbell height. The disc is the button, and the drop pearl hangs just below the plate's lower rim, outside the plate. Frame tighter so the plate and earring are about a third of the frame width, with the window glow out of frame or dimmer than the gold. Keep the drop pearl about 70% of the disc diameter. Pull the wall back to a rosy ivory-blush limewash, not apricot or sand.",
+    "crop": null
+  },
+  {
+    "plate": "dome1_a1.png",
+    "pass": true,
+    "severity": "none",
+    "score": 8.5,
+    "reasons": [],
+    "notes": [
+      "Product faithful: plain mirror-polished warm yellow gold, with no stones, texture or engraving. The thick dome sits at the bottom (about 70px radial on a hoop about 295px across, ratio 0.24 against about 0.26 in listing-1) and tapers to a slim hinged bar at the top between stepped shoulders. The closure seam is at lower right, as in the listing-5 macro. Hinge closed, lying flat, one huggie only, (926-1220, 1344-1644).",
+      "Scale: the huggie is about 295px and each mint about 270px (all about 22 mints consistent). That puts it at about 16mm against the 15mm referent, against 14mm real (+17%): within tolerance.",
+      "Mints are plain, with no lettering, marks, packet or wrapper (checked at full resolution across all rows). No text anywhere. Blush paper (about RGB 239,217,203, hue 23) with pale-pink and ivory mints: on palette, no cast, no clutter.",
+      "The idea reads in one second. The gold is the only metal and the only shine, so the eye goes straight to it. The upper 40% is calm paper for the headline. Soft top-left light with crisp highlights on the gold, and the contact shadow under the huggie is soft but present.",
+      "Small deductions: the mints are puffy, uniform, slightly CG-clean rings, closer to candy donuts than flat mints. The light is a touch even and commercial rather than afternoon-warm, and the huggie is only about 16% of frame width."
+    ],
+    "fix": "",
+    "crop": null
+  },
+  {
+    "plate": "papillon1_a1.png",
+    "pass": false,
+    "severity": "major",
+    "score": null,
+    "reasons": [
+      "Scale about 1.7x. The specimen box's front rim runs from about (50,1396) to (1310,1704), about 1300px for the stated ~150mm. At the ring's depth the box is about 1240px wide, or about 8.3px/mm. The lilac butterfly spans about 250px (x 856-1106), about 30mm. With the clear-stone outline it spans about 338px (x 832-1170), about 40mm. The real ring is about 18mm (about 22mm with the outline). Put another way, the ring fills about 20-27% of the box width where the real one would fill about 12-15%: 60-80% oversize, beyond the 30% limit."
+    ],
+    "notes": [
+      "Construction faithful: one four-wing butterfly with lilac micro-pavé wings in slim gold outlines, and a plain gold body bar. Behind it, a larger openwork outline of clear stones is offset as in the listing, with the open frame at upper right and the outline hugging the left wings. Slim plain gold band, warm yellow gold. No extra jewellery, no pins in the ring, no labels, handwriting or text.",
+      "Physically plausible: the ring lies band-flat on the linen with the butterfly upright toward the camera, with a contact shadow falling right. A few tiny pinholes in the blush linen sell the specimen idea.",
+      "The idea ('The rare one': the ring as a collector's prize specimen) reads in about a second. The light is lovely: low sun through muslin, with glass-lid reflections.",
+      "Palette is on the warm edge: the walnut box is a large mid-brown mass (about 35% of frame), and the upper-left wall is peach-tan (about RGB 203,170,148, hue 24). Not a fail, but a reshoot should use a paler or blush-washed box."
+    ],
+    "fix": "Render the ring at true scale: the butterfly about 18mm wide (about 22mm with the clear outline), about one eighth of the 15cm box's width, with the band about fingertip-sized. To keep the product big in frame, bring the camera in so the linen and one front corner of the box fill the frame and the ring is about a quarter of the frame width. Alternatively, specify a small single-specimen box about 8cm wide. State the ratio in the prompt: 'the ring is small in the box: the butterfly spans one eighth of the box width.' Prefer a pale limewashed or blush-stained box to dark walnut, and keep the wall blush-ivory.",
+    "crop": null
+  }
+]

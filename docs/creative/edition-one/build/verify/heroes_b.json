@@ -1,0 +1,67 @@
+[
+ {
+  "plate": "bow1_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale (rule 4): the hero bow on the ribbon crossing is about 20 mm wide against the ~50 mm gift box, about 43% over the real 14 mm. The lid's top-face corners are at roughly left (603,1354), back (1027,943), right (1658,1162) and near (1252,1556). A homography that treats the lid as a 50 x 50 mm square gives 6.55 mm per 100 px along a horizontal line at the stud's depth (y about 1150-1300); a horizontal line on a level surface stays parallel to the image plane, so this holds whether the bow lies flat or tilts toward the camera. The stud spans x about 969-1275 and y about 1104-1358, which is 306 px, so it is about 20.0 mm. That is about 0.40 of the lid's width at its depth, against 0.28 for a 14 mm bow, and about 5 ribbon-widths, against about 3. The twin on the linen (x about 443-760, 317 px) sits nearer the camera and still works out to about 18 mm. A shopper would read this as a bow about 2 cm across, not 14 mm."
+  ],
+  "notes": [
+   "The construction matches listing-1 and listing-5. The metal is bright white rhodium; warm sun tints it, but it still reads as silver. Each stud has two open loops with a pavé band and beaded, scalloped lace edges, plus two crossing tails that are lace-edged on their outer sides. One clear heart-cut stone sits point-down in claws at the knot. Both studs match each other, and nothing melts at phone size.",
+   "Only the two earrings appear: no ribbon bow, gift tag or extra box, and no text. The embossed crackle on the paper is texture, not lettering. The curtain and linen are blush (HSV hue 17-22°, saturation 0.22-0.27), not beige. Low warm window light comes from the left, with a hard specular edge on the metal. Contact shadows are soft but present under both studs.",
+   "If it passed it would rate about 8.0-8.2 as an ad. The idea, the stud as the gift's bow, reads instantly. Against that, the twin in the foreground is as large and sharp as the hero and competes with it, and the crackle paper and the grid-weave curtain in the copy area add noise."
+  ],
+  "fix": "Render the bows at true scale. On the 5 cm lid each bow spans only about a quarter of the lid's width, about three ribbon-widths (14 mm bow on a 5 mm ribbon), covering the ribbon crossing and a little more. To keep the bow readable, move the camera closer so the lid fills about 60% of the frame width; the bow is then about 17% of the frame width. Put the second stud further back and softer, so the bow on the lid is the brightest, sharpest thing. Use plain or very finely textured blush paper, and keep the low warm side light and the heart catchlight.",
+  "crop": null
+ },
+ {
+  "plate": "square1_a1.png",
+  "pass": false,
+  "severity": "major",
+  "score": null,
+  "reasons": [
+   "Scale (rule 4): the standing huggie is about 23 mm across against a ~30 mm barfi square, about 55% over the real 15 mm. Its body spans x about 1102-1360 (258 px; 313 px with the pearls) and y about 770-1035, and it stands in the middle of the centre barfi. That barfi sits at 45° to the camera, so the span between its left and right corners is its diagonal, 42.4 mm for a 30 mm square, and that diagonal runs parallel to the image plane at the hoop's depth. The span is x about 1002-1470, or about 468 px, which gives 11.0 px/mm. The front barfi is a check: its diagonal of about 505 px (x 975-1480) gives 11.9 px/mm at its nearer depth. The hoop is therefore about 23 mm, or about 0.78 of a barfi edge, where the brief asks for half. The lying twin on the linen (x about 262-639 including the pearls, nearer the camera) works out to roughly 18-20 mm, also oversized."
+  ],
+  "notes": [
+   "The construction matches the listing. Each hoop is a warm yellow-gold rounded tube bent into a soft-cornered square. The closure wire is drawn closed at the top, and the hinge seam sits on the bottom bar just right of centre, as in listing-1. Each hoop has exactly 4 seed pearls: 2 on each side face, near the upper and lower corners, about 29% and 72% of the way down the side. That matches listing-1 on both hoops, and the lying hoop shows the same 2+2 layout on the faces next to its hinge bar. Pearl width to hoop width is about 0.12, as in the listing.",
+   "There is one small drift. The two post ends at the top of the standing hoop are drawn slightly peaked instead of rounded, but this does not register at phone size.",
+   "Only the two earrings appear, and there is no text. The props are barfi with silver varq and pistachio only. The linen and throw are blush and dusty rose (HSV hue 18-19°), not beige. The standing hoop's base sits in the varq with a contact shadow, and the warm window light comes from the left.",
+   "If it passed it would rate about 7.8 as an ad. The square-on-square rhyme reads, but nine varq-topped barfi with pistachio slivers make a busy, sparkly plate that competes with the gold, so the hoop is not the brightest thing in the frame."
+  ],
+  "fix": "Keep the build and fix the size. Each huggie's outer width equals half a barfi's edge (15 mm on a 30 mm square), so the standing hoop covers only the middle half of the barfi's top. Use fewer barfi (3-4, or a single row) with plainer varq, and move the camera closer so the centre barfi is about 35% of the frame width and the hoop about 17%. Keep 4 pearls per hoop, 2 on each side face near the corners.",
+  "crop": null
+ },
+ {
+  "plate": "cluster1_a1.png",
+  "pass": false,
+  "severity": "minor",
+  "score": null,
+  "reasons": [
+   "Pearl count (rule 1): the stud carries 8 seed pearls, but the brief and three of the four listing photos (listing-1 both earrings, listing-2 and listing-4 worn) show 6. The plate's pearls sit at about (1027,913) above the first purple's outer tip, (1160,990), (1083,1097), (1203,1193), (1410,1247), (1517,1090), (1567,1217) and (1687,1103) at the far right tip. In the listing, one pearl sits directly above the yellow centre and none sits at either outer tip. The plate has no pearl above the yellow and one at each tip. The plate copies the listing-5 macro exactly, and that macro shows 8 pearls in this layout, so it contradicts the pair and worn photos. The plate therefore matches one listing photo but not the piece shown in the other three."
+  ],
+  "notes": [
+   "Everything else is right. The metal is white rhodium, with round bead claws. Left to right the stones run purple princess (set as a diamond), pink baguette, yellow emerald-cut (the largest, about 167 x 220 px), purple princess, pink baguette. Pearl width to the yellow stone's height is about 0.23, against about 0.26 in the listing. There is one stud only, no other jewellery and no text.",
+   "Scale: the rangoli is a soft referent, and the piece's own proportions match the listing. The arc is drawn small: if the stud is about 20 mm, each band is about 2.5 mm wide and the whole arc about 3.5 cm, not 12 cm. The powder grains stay far finer than the pearls, so the frame is consistent with itself.",
+   "The backdrop is pale warm-ivory plaster (HSV hue 21-25°, saturation 0.11-0.15, value 0.91-0.95). That is near-ivory rather than beige, although it is the yellowest of these four plates. The camera is oblique instead of the top-down view the prompt asked for; that is a composition choice, not a fail.",
+   "If the brand confirms that the 8-pearl macro shows the current piece, this plate passes at about 8.6. The stud is the brightest, crispest thing in the frame, the powder reads as its colours spilling out, the top half is clean copy space, and the light is soft with crisp catchlights. The arc reads a little more as a pastel rainbow than as a rangoli."
+  ],
+  "fix": "Use six pearls only, placed as in listing-1 and listing-2: one in the upper gap between the first purple and the first pink; one under the first purple; one under the first pink at the yellow's lower left; one directly above the yellow centre; one larger pearl at the yellow's lower right; and one under the gap between the second purple and the second pink. Put no pearls at the two outer tips. Use a close crop of listing-1, not the listing-5 macro, as the construction reference, or state 'never eight pearls, no pearl at either end'. Keep everything else. Optionally, draw the rangoli larger with one dot or curl motif so it reads as rangoli rather than a rainbow.",
+  "crop": null
+ },
+ {
+  "plate": "verdant1_a1.png",
+  "pass": true,
+  "severity": "none",
+  "score": 8.6,
+  "reasons": [],
+  "notes": [
+   "The piece matches listing-1 and listing-5. The metal is white rhodium, and the centre is a deep emerald-green cushion cut (not round, mint or teal) in a smooth polished bezel. One scalloped halo of round clear brilliants sits in pointed claws and gives the same sunburst outline as the listing. Both studs match, and nothing melts.",
+   "Scale: the studs span x about 717-931 and 956-1176, about 214-220 px each. Fully visible peas measure about 122-144 px (for example x 1350-1494 and 433-556). Stud width is therefore about 1.6-1.7 times a pea, against 1.5 for 12 mm on 8 mm, which makes the studs about 13 mm, roughly 10% over and well inside tolerance.",
+   "There are exactly two studs, no other vegetables and no text. The linen, curtain and plate are blush (HSV hue 17-19°), and the green stays inside the pod. Warm window light comes from the left, with a hard specular in the halos. The studs rest on the peas, with soft shadows beneath them.",
+   "The idea, two peas in a pod, reads in a second, and the studs are the sharpest sparkle in the frame. The studs rest on top of the pea row, with peas visible under their lower edges, rather than literally replacing two peas. The peas look slightly uniform and glossy. Depth of field is deeper than the macro the prompt asked for. Each stud is only about 12% of the frame width, and the saturated lime pod competes with them a little."
+  ],
+  "fix": "Runs as-is. Optional polish for a reshoot: seat the two studs down in the row, in the gaps where two peas were, so peas show only on either side; use slightly more varied, matte peas; move the camera closer or use a shallower depth of field so the studs are larger in frame.",
+  "crop": null
+ }
+]
