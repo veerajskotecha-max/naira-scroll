@@ -40,7 +40,7 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 520,
+   "w": 420,
    "wm": "ink",
    "hs": 76
   },
@@ -63,7 +63,7 @@
    "id": "E2_mint_a1",
    "plate": "E2_mint_nimbu",
    "h": "Nimbu pani, to wear.",
-   "c": "a pale lime pear, not a lime wedge.",
+   "c": "a pale mint pear, not a lime slice.",
    "spec": "Mint Pear Drop Earrings · cubic zirconia",
    "cta": "Shop the earrings",
    "price": "₹1,499",
@@ -90,7 +90,7 @@
   {
    "id": "E2_watch_a1",
    "plate": "E2_watch_haath",
-   "h": "Watch, minus the time.",
+   "h": "Papa's watch, minus the time.",
    "c": "three rows of links,<br>for one finger.",
    "spec": "Watch Link Ring · gold or silver tone",
    "cta": "Shop the ring",
@@ -98,14 +98,14 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620,
+   "w": 700,
    "wm": "ink"
   },
   {
    "id": "E2_droplet_a1",
    "plate": "E2_droplet_rain2",
    "h": "Caught mid-drop.",
-   "c": "a ball and a teardrop, in polished gold.",
+   "c": "a ball and a teardrop, in gold tone.",
    "spec": "Droplet Open Cuff · gold or silver tone",
    "cta": "Shop the cuff",
    "price": "₹1,899",
@@ -118,7 +118,7 @@
   {
    "id": "P11_a1",
    "plate": "P11_diya",
-   "h": "Diwali, in pastel.",
+   "h": "Diwali,<br>in pastel.",
    "c": "cubic zirconia that catches every diya.",
    "spec": "Prism Rivière · 18 cm · cubic zirconia",
    "cta": "Shop the bracelet",
@@ -126,7 +126,7 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620,
+   "w": 520,
    "wm": "ink"
   },
   {
@@ -141,7 +141,8 @@
    "fmt": "4:5",
    "at": "tl",
    "w": 500,
-   "wm": "ink"
+   "wm": "ink",
+   "band": true
   },
   {
    "id": "E2_knot_a1",
@@ -172,12 +173,12 @@
    "at": "tl",
    "w": 760,
    "hs": 86,
-   "band": true
+   "fscrim": true
   },
   {
    "id": "E2_silk_a1",
    "plate": "E2_mesh_silk",
-   "h": "Spun like silk.",
+   "h": "Resham, in metal.",
    "c": "fine woven mesh, not silk.",
    "spec": "Silk Mesh Cuff · gold or silver tone",
    "cta": "Shop the cuff",
@@ -192,7 +193,7 @@
    "id": "E2_chai_a1",
    "plate": "E2_meshring_chai",
    "h": "Chai channi, upgraded.",
-   "c": "the same fine mesh,<br>for one finger.",
+   "c": "a woven mesh band,<br>not a strainer.",
    "spec": "Mesh Band Ring · sizes 6 to 8",
    "cta": "Shop the ring",
    "price": "₹999",
@@ -200,13 +201,14 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620
+   "w": 620,
+   "hs": 92
   },
   {
    "id": "E2_roman_a1",
    "plate": "E2_roman_ghadi",
    "h": "Ghadi,<br>for your<br>finger.",
-   "c": "Roman numerals<br>in three metals.",
+   "c": "roman numerals,<br>in three tones.",
    "spec": "Roman Numeral Trio Ring · sizes 6 to 8",
    "cta": "Shop the ring",
    "price": "₹1,899",
@@ -229,8 +231,10 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620,
-   "band": true
+   "w": 450,
+   "band": true,
+   "y": 150,
+   "hs": 84
   },
   {
    "id": "E2_huggie_a1",
@@ -295,7 +299,7 @@
    "id": "P13_a1",
    "plate": "P13_kandil",
    "h": "Akash kandil,<br>in a line.",
-   "c": "aqua, pink and yellow cubic zirconia.",
+   "c": "aqua, pink and yellow,<br>not paper.",
    "spec": "Prism Rivière · 18 cm · cubic zirconia",
    "cta": "Shop the bracelet",
    "price": "₹2,399",
@@ -309,7 +313,7 @@
   {
    "id": "P11_a1-story",
    "plate": "P11_diya_916",
-   "h": "Diwali, in pastel.",
+   "h": "Diwali,<br>in pastel.",
    "c": "cubic zirconia that<br>catches every diya.",
    "spec": "Prism Rivière · 18 cm · cubic zirconia",
    "cta": "Shop the bracelet",
@@ -361,13 +365,14 @@
    "fmt": "9:16",
    "at": "tl",
    "w": 620,
-   "band": true
+   "band": true,
+   "hs": 84
   },
   {
    "id": "P13_a1-story",
    "plate": "P13_kandil_916",
    "h": "Akash kandil,<br>in a line.",
-   "c": "aqua, pink and yellow cubic zirconia.",
+   "c": "aqua, pink and yellow,<br>not paper.",
    "spec": "Prism Rivière · 18 cm · cubic zirconia",
    "cta": "Shop the bracelet",
    "price": "₹2,399",
