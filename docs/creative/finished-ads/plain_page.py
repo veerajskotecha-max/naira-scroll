@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); CRE = os.path.normpath(f"{HER
 SPB = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad"
 SITE, PDFS = f"{SPB}/plain/site", f"{SPB}/plain/pdfs"
 SHEET_URL = "https://claude.ai/artifact/MBR3rFTZWmy3XYHx2Xovrn"     # the contact sheet, whose t/ and f/ files are reused
-LOCAL_FRAMES = {"prismC1_m1", "clusterC1_m1"}                     # not yet on the published contact sheet
+LOCAL_FRAMES = {"prismC1_m1", "clusterC1_m1", "P10_a1c"}          # changed or added since the contact sheet last published them
 
 def frames():
     s = open(f"{SPB}/sheet/index.html", encoding="utf-8").read()

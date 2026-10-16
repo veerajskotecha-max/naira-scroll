@@ -1,0 +1,44 @@
+[
+ {
+  "id": "P10_a1c",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed exactly as tested. ads.json carries \"box\": [0, 170, 1000, 1420], and commit 2fa9443 changed nothing else. The render is built from it: its HTML equals html_deck's output, and its background equals a fresh crop of the unchanged plate (P10_a1c.png, same file as r15). It matches the r15 test P10_a1c__v4c in every element box, line box, glyph bound and contrast figure, and the JPEG is the same size to the byte (430,414). Against the r15 render no copy element moved; only the photo is reframed.",
+   "The sheet's edge now runs at y 347-359, 39-51 px below the correction's descenders (last ink row 308), so the whole copy block sits on the plain backdrop. At 390 px the headline no longer stands on a shelf. The frame ends inside the wash, so no paper shows under the CTA. The halos run y 899-1012, 590 px below the copy and 151 px above the foot.",
+   "Headline 15.6:1 (darkest 5% 15.0), correction 15.9:1 (15.5), spec 12.8:1 (11.7), price 13.5:1 (12.5). The ink wordmark reads 14.3:1 (13.5), 179 px wide, 43 px above the price, its top level with the rule's (4 px). 64 px margins, no glow or band.",
+   "It hits the data's levers: Prism at ₹2,399 and in stock, a craft-material rhyme (the wash in the stones' three colours, the bracelet laid along it), a light ivory ground, Feed 4:5 and the winner's correction formula ('cubic zirconia, not paint.'). Every claim is a listing fact, and the pun reads at 390 px. The plate is prism_r3c's verified crop (pass, 8.5)."
+  ],
+  "issues": [
+   "[placement, minor] The right edge still kisses the last yellow stone's bezel (prism_r3c), visible at 2x. The 34 px re-cut that clears it was not taken, because it would need the plate re-verified.",
+   "[ceiling: photo] Unchanged from r15. The yellows carry a radial starburst and the pinks fine streaks instead of brilliant facets; the yellows' rays show at 1:1, where P01_a1's stones are crisp. The link gaps are 12-14% of a unit, against 4-6% on the real piece. The light is flat with no kicker on the rims, and the aqua-pink overlap is a grey-lilac band. None of it shows at 390 px. Ceiling 9.5.",
+   "[placement] A new line on P01_a1's picture: the bracelet as a straight line across aqua, pink and yellow on ivory, in the same layout. At 390 px the two read as siblings, so they should not run as two concepts in one ad set."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] Clearing the right-edge kiss needs the plate re-cut at P10_a1 [296, 200, 1296, 1977] and re-verified (prism_r3c's window). Optional.",
+   "[no layout fix] 10 needs crisp brilliant facets, units that nearly touch and a hard kicker on the rims: a reshoot of the real piece on the painted sheet, or a regenerated frame.",
+   "[run] Run it as P01_a1's challenger in the Prism Feed ad set (Meta's creative test or equal budgets), not as a third concept beside prismC1_m1 and P01_a1. The winner keeps the slot. If P01_a1 wins, keep this as its refresh for after Diwali, when rangoli dates and watercolour does not."
+  ]
+ },
+ {
+  "id": "P10_a1c-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "Fix confirmed exactly as tested. ads.json carries \"y\": 262 and \"box\": [0, 0, 1000, 1740], and nothing else changed. The render's HTML equals html_deck's output, and its background is a fresh 1.103x crop of the unchanged plate ([10, 0, 989, 1740]). It matches the r15 test P10_a1c-story__v4b in every element box, line box, glyph bound and contrast figure, and the JPEG is the same size to the byte (561,860). Against the r15 render only the copy block moved, up exactly 38 px (block top y 300 to 262). The foot is where it was (1422-1528).",
+   "The headline's glyphs start at y 264, 14 px below the 250 px Stories line, and the correction ends at 506. The sheet's edge runs at y 542-548, 36-42 px below the correction, so all the copy sits on the backdrop. The frame now ends on paper: the bottom 25 rows average grey 224 and lighter, where the old frame's shadow band went down to RGB about 124,109,94. The halos run y 1106-1222, 200 px above the wordmark. Stories-safe: text spans y 264-1528, with no CTA.",
+   "Headline 15.6:1 (15.0), correction 15.9:1 (15.5), spec 12.2:1 (11.0), price 13.3:1 (12.0). The ink wordmark reads 14.0:1 (13.2), 43 px above the price. The pun reads at 390 px, and every claim is a listing fact."
+  ],
+  "issues": [
+   "[placement, minor] As in the Feed, the right edge kisses the last yellow stone's bezel (visible at 2x). The re-cut was not taken, pending re-verification.",
+   "[ceiling: photo] As P10_a1c: starburst and streaked stones, airier link gaps, flat light and the grey-lilac overlap. Ceiling 9.5.",
+   "[placement] A third Prism Story behind P02_a2c and P01_a1-story (both 10). It is a horizontal band in a tall frame (the halos fill 116 of 1920 px), where P02_a2c's vertical line fills the height with 13 units."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As P10_a1c: the plate re-cut (optional), and crisp facets, nearly touching units and a rim kicker for 10.",
+   "[run] Hold it: Stories are secondary, and P02_a2c and P01_a1-story hold the Prism Story slot. If P10_a1c beats P01_a1 in Feed, swap this in for P01_a1-story as the B to P02_a2c, so the Story test pits two ideas rather than two crops of one."
+  ]
+ }
+]
