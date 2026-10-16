@@ -1,0 +1,136 @@
+[
+ {
+  "id": "ctl_toggle-story",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, and the foot reads as one block: rule and spec on the left, wordmark and price on the right, one shared bottom line.",
+   "Copy unchanged and inside the Stories safe zone (ink y 341–1525): headline 9.1–9.9:1 (darkest 5% 6.6:1), correction 10.7:1 (5.9:1), spec 15.5:1 (15.1:1), price 14.0:1 (13.6:1). The black wordmark reads at 12.7:1 (11.1:1) on the floor beside the cube, 427 px from the chain.",
+   "No in-image CTA, as briefed, and the copy is the Feed's true copy. The extension looks natural at both sizes on the plain studio backdrop."
+  ],
+  "issues": [
+   "[ceiling: photo] As in the Feed, the clasp is small (about 80 px across) and seen edge-on, and it is the selling point. Ceiling 8.5."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A plain close-up of the clasp, 1,600 px or wider."
+  ]
+ },
+ {
+  "id": "ctl_woven-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, on clean cream 78 px below the block's bottom edge and clear of both hoops.",
+   "Copy unchanged and inside the safe zone (ink y 341–1525): headline 8.9–9.8:1 (darkest 5% 5.7:1), correction 10.5:1 (6.8:1), spec 15.1:1 (14.8:1), price 14.1:1 (13.8:1), wordmark 13.5:1 (12.9:1). The correction ends 72 px above the back hoop.",
+   "The extension looks natural at both sizes."
+  ],
+  "issues": [
+   "[photo] The 896 px source is upscaled 1.21×."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] As for ctl_woven, a full-resolution original of listing-2, at least 1,080 px wide, makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_heart-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, now below the correction's line (ink bottom 1413) and 190 px to its right. At 390 px it reads as the foot's sign-off, no longer as the end of the correction line.",
+   "Copy unchanged since r5: the 60 px headline on one line at ink y 1303–1347, 69 px below the heart, at 12.5:1 (darkest 5% 11.0:1), and the gold-tone correction on one line at y 1381–1413 at 11.9:1 (11.0:1). Spec 11.8:1 (11.1:1), price 13.5:1 (13.0:1). All copy is inside the safe zone (ink y 1303–1525).",
+   "The black wordmark reads at 13.8:1 (13.2:1), 339 px clear of the bracelet, and the plaster extension at the bottom looks natural."
+  ],
+  "issues": [
+   "[extension] The strand runs off the photo's top edge, so the beads smear upward into grey streaks over y 0–285. It is mostly under the Stories header but visible at full size, as in r2, r4 and r5.",
+   "[brand, minor] The wordmark's top sits 9 px below the correction's descenders. The 190 px between them keeps its clear space. Not scored."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] The top smear needs a photo with backdrop above the strand: the 4:5 crop already uses listing-1's full height."
+  ]
+ },
+ {
+  "id": "ctl_prism-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, 13 px below the correction's last line and 460 px to its right.",
+   "The black wordmark crosses the plinth's edge at 6.3:1 (darkest 5% 5.6:1) and reads as NAIRA at 390 px, 326 px clear of the bracelet.",
+   "Copy unchanged and inside the safe zone (ink y 1143–1525), with the headline 79 px below the front halos: headline 12.9–13.1:1 (11.9:1), correction 13.1–13.2:1 (12.4:1), spec 12.9:1 (12.3:1). The extension looks natural."
+  ],
+  "issues": [
+   "[contrast] The price sits on the plinth's shaded face at 6.2:1 (darkest 5% 5.9:1). That passes.",
+   "[photo] The 896 px source is upscaled 1.21×."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A full-resolution original of listing-7 makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_dome-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, 180 px from the hoop. Wordmark 11.7:1 (darkest 5% 10.3:1), price 12.1:1 (11.3:1).",
+   "Copy unchanged: in the narrow column the headline runs three lines at ink y 341–523, 45 px clear of the hoop, and the correction two lines at y 558–628, 70 px clear. Headline 11.4–11.8:1 (11.0:1), correction 12.3–12.6:1 (12.1:1), spec 14.8:1 (14.1:1).",
+   "The extension looks natural on plain paper, and everything is inside the safe zone (ink y 341–1525)."
+  ],
+  "issues": [
+   "[claim, PDP] As for ctl_dome: 'gold' follows the listing text ('solid mid-weight yellow gold huggie'), which has no plating tag."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "ctl_verdant-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, 164 px from the stud. Wordmark 13.9:1 (darkest 5% 11.5:1), price 14.3:1 (13.3:1).",
+   "Copy unchanged: the headline at ink y 341–523 and the correction at y 556–622, 45 px from the nearest prong. Headline 9.8–14.1:1 (9.5:1), correction 14.6–14.7:1 (14.2:1), spec 14.4:1 (13.8:1).",
+   "The extension looks natural, the copy is inside the safe zone (ink y 341–1525), and it makes no metal claim."
+  ],
+  "issues": [
+   "[claim, PDP] As for ctl_verdant: the listing text says yellow gold, while the photos show white metal."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "ctl_quatrefoil-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, 284 px from the stud. Wordmark 14.1:1 (darkest 5% 12.4:1), price 14.3:1 (13.4:1).",
+   "Copy unchanged and inside the safe zone (ink y 341–1525): headline 11.5–14.0:1 (10.7:1), correction 14.9:1 (12.8:1), spec 15.0:1 (14.3:1). The correction ends 45 px above the star's tip.",
+   "An honest macro with true copy, and the extension looks natural at both sizes."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text still describes a micro-pavé clover. Fix the product page."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ },
+ {
+  "id": "ctl_square-story",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "The Stories foot fix landed: with no CTA the price's padding is now 4 px, so its digits (y 1505–1520) share the spec line's baseline (capitals 1508–1520). The wordmark signs off above the price at y 1422–1462, 43 px clear of it, on the huggie's soft shadow, 110 px below the lower pearl. Wordmark 11.5:1 (darkest 5% 10.0:1), price 13.3:1 (12.7:1).",
+   "Copy unchanged: the headline at ink y 341–523 and the correction at y 558–628, on clean cream, at 14.3–14.4:1 (14.2:1) and 14.4:1 (14.3:1), 111 px from the gold and about 45 px left of the out-of-focus top pearl. Spec 14.3:1 (13.6:1).",
+   "The extension looks natural, and the copy is inside the safe zone (ink y 341–1525)."
+  ],
+  "issues": [
+   "[claim, PDP] As for ctl_square: the listing text never names the pearls and calls the huggie yellow gold with no plating tag."
+  ],
+  "fixes": [
+   "[apply] None."
+  ]
+ }
+]
