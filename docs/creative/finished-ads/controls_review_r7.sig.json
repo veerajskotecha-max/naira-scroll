@@ -1,0 +1,5 @@
+{
+ "ctl_verdant": "{\"at\": \"tl\", \"c\": \"a green cushion-cut stone in a halo of clear stones.\", \"cs\": 30, \"cta\": \"Pre‑order\", \"fmt\": \"4:5\", \"h\": \"Verdant Cushion Studs.\", \"hs\": 72, \"path\": \"edition-one/build/refs/verdant/listing-5.jpg\", \"price\": \"₹1,399\", \"spec\": \"Edition One · Pre‑order\", \"w\": 330}",
+ "ctl_verdant-story": "{\"at\": \"tl\", \"c\": \"a green cushion-cut stone in a halo of clear stones.\", \"cs\": 30, \"cta\": \"Pre‑order\", \"ext\": true, \"fmt\": \"9:16\", \"h\": \"Verdant Cushion Studs.\", \"hs\": 72, \"path\": \"edition-one/build/refs/verdant/listing-5.jpg\", \"price\": \"₹1,399\", \"spec\": \"Edition One · Pre‑order\", \"w\": 330}",
+ "ctl_cluster": "{\"at\": \"tl\", \"c\": \"five coloured stones in a curve, with tiny pearls.\", \"cta\": \"Pre‑order\", \"fmt\": \"4:5\", \"h\": \"Prism Cluster Studs.\", \"hs\": 84, \"path\": \"edition-one/build/refs/cluster/listing-5.jpg\", \"price\": \"₹2,099\", \"spec\": \"Edition One · Pre‑order\", \"w\": 620, \"wm\": \"ink\"}"
+}
