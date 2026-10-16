@@ -18,7 +18,7 @@
   {
    "id": "E2_emerald_a1",
    "plate": "E2_emerald_elaichi",
-   "h": "Elaichi green.",
+   "h": "Elaichi, in emerald.",
    "c": "emerald cubic zirconia, not cardamom.",
    "spec": "Baguette Tennis Bracelet · Emerald",
    "cta": "Shop the bracelet",
@@ -158,7 +158,8 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620
+   "w": 620,
+   "hs": 92
   },
   {
    "id": "E2_duo_a1",
@@ -240,8 +241,8 @@
   {
    "id": "E2_huggie_a1",
    "plate": "E2_huggie_jamun",
-   "h": "Jamun season.",
-   "c": "amethyst cubic zirconia, no stains.",
+   "h": "Jamun, without<br>the stains.",
+   "c": "amethyst cubic zirconia,<br>not fruit.",
    "spec": "Baguette Huggies · Amethyst",
    "cta": "Shop the huggies",
    "price": "₹1,399",
@@ -249,7 +250,8 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620
+   "w": 600,
+   "hs": 84
   },
   {
    "id": "E2_coil_a1",
@@ -279,7 +281,8 @@
    "src": "e2",
    "fmt": "4:5",
    "at": "tl",
-   "w": 620
+   "w": 620,
+   "hs": 90
   },
   {
    "id": "E2_star_a1",
