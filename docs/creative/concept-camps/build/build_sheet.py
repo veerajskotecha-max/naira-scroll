@@ -103,6 +103,17 @@ for f in frames:
 frames.sort(key=lambda f: (SEC_ORDER.index(f["sec"]), f["sort"]))
 for f in frames: del f["sort"]
 
+def sync(src, dst):
+    # Copy only when the bytes differ, so a republish uploads just what changed.
+    if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src) or open(dst, "rb").read() != open(src, "rb").read():
+        shutil.copy(src, dst)
+
+def thumb(im, dst, w=640):
+    # Write a thumbnail only when it would differ from the one on disk.
+    import io
+    b = io.BytesIO(); im.resize((w, round(im.height * w / im.width)), Image.LANCZOS).save(b, "JPEG", quality=80, optimize=True, progressive=True)
+    if not os.path.exists(dst) or open(dst, "rb").read() != b.getvalue(): open(dst, "wb").write(b.getvalue())
+
 # Finished ads: each keeper with its copy set (finished-ads/build_ads.py), scored by the newest review_r*.json.
 FA = os.path.normpath(os.path.join(HERE, "..", "..", "finished-ads"))
 # A score shows only if a reviewer saw this exact version of the ad (each round's .sig.json snapshot; see finished-ads/reviews.py).
@@ -115,8 +126,7 @@ for a in ADS_CFG:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
     if not os.path.exists(src) or a.get("plate", a["id"]) not in byid: continue
     fr, r = byid[a.get("plate", a["id"])], REV.get(a["id"], {}); im = Image.open(src); w, h = im.size
-    shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
-    im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
+    sync(src, f"{OUT}/ads/{a['id']}.jpg"); thumb(im, f"{OUT}/at/{a['id']}.jpg")
     finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a.get('plate', a['id'])} · finished ad" + (" · Story" if a.get("ext") else ""), kind="Finished ad",
         name=a["h"], copy=a["c"], aspect=a["fmt"], w=w, h=h, st="ad", score=r.get("score"), label=r.get("verdict", ""),
         line=(r.get("strengths") or [a["n"]])[0], reasons=r.get("issues", []), notes=r.get("strengths", []), fix=" ".join(r.get("fixes", [])),
@@ -131,8 +141,7 @@ for a in CTL_CFG:
     k = a["id"].split("_", 1)[1].split("-")[0]; im = Image.open(src); w, h = im.size
     if k in D4["pieces"]: P = D4["pieces"][k]; piece, price, sku = P["name"], P["price"], P["sku"]
     else: P = DE["pieces"][k]; piece, price, sku = P["title"], f"₹{P['price']:,}", P["sku"]
-    shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
-    im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
+    sync(src, f"{OUT}/ads/{a['id']}.jpg"); thumb(im, f"{OUT}/at/{a['id']}.jpg")
     controls.append(dict(n=0, id=a["id"], tag="ctl", sec="", code=f"{piece} · plain control" + (" · Story" if a.get("ext") else ""), kind="Plain control", name=a["h"], copy=a["c"],
         aspect=a["fmt"], w=w, h=h, st="ctl", score=CREV.get(a["id"], {}).get("score"), label="",
         line=(CREV.get(a["id"], {}).get("strengths") or ["The listing’s own close-up, to run beside the crazy ad as the control."])[0],
@@ -193,12 +202,11 @@ PDF_TITLES = [("Ready-To-Run", "Ready-to-run ads, one per page"), ("Toggle", f"{
               ("Woven", f"{TITLES['woven']} · Woven Gold Hoops"), ("Heartbead", f"{TITLES['heart']} · Heartbead Bracelet"),
               ("Prism", f"{TITLES['prism']} · Prism Rivière Bracelet"), ("Board", "The four concept camps on one board"),
               ("Edition-One", "Edition One · every keeper")]
-for f in os.listdir(f"{OUT}/pdfs"): os.remove(f"{OUT}/pdfs/{f}")
 pdfs = []
 for src in [f"{SPB}/c4/pdf_out", f"{SPB}/e1/pdf_out", f"{SPB}/ads/pdf_out"]:
     if not os.path.isdir(src): continue
     for fn in os.listdir(src):
-        shutil.copy(f"{src}/{fn}", f"{OUT}/pdfs/{fn}")
+        sync(f"{src}/{fn}", f"{OUT}/pdfs/{fn}")
         b = open(f"{src}/{fn}", "rb").read()
         i, title = next((i, t) for i, (k, t) in enumerate(PDF_TITLES) if k in fn)
         pdfs.append(dict(file=fn, title=title, order=i, pages=len(re.findall(rb"/Type\s*/Page[^s]", b)), mb=round(len(b) / 1e6, 1)))
