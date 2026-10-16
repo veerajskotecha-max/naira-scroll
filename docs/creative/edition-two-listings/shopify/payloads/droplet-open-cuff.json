@@ -1,0 +1,133 @@
+{
+ "title": "Droplet Open Cuff",
+ "handle": "droplet-open-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bracelet",
+  "Cuff",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Two endings, one round, one falling. A slim polished open cuff that finishes in two different shapes: a round ball on one end and a smooth teardrop on the other, sitting across a small gap. Matches our Droplet Open Ring, so the two can be worn as a pair.</p><p><strong>STYLING TIP:</strong> Pair it with the Droplet Open Ring in the same metal.</p><p><strong>Details</strong></p><ul>\n<li>Style: Slim open cuff</li>\n<li>Wire: Approximately 3mm, polished</li>\n<li>Ends: A round ball, approximately 9mm, and a smooth teardrop</li>\n<li>Inner width: Approximately 6cm</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Droplet Open Cuff — Bracelet | Naira Petite",
+  "description": "A slim polished open cuff that finishes in two different shapes: a round ball on one end and a smooth teardrop on the other, sitting across a small gap. Droplet Open Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF3791-B-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "519"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/05f1d7b4-fc89-44e1-8d4f-765509365760.jpg",
+    "alt": "Droplet Open Cuff, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF3791-B-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "466"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cbe697e0-9878-426e-b7fe-82c55421d16e.jpg",
+    "alt": "Droplet Open Cuff, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/05f1d7b4-fc89-44e1-8d4f-765509365760.jpg",
+   "alt": "Droplet Open Cuff, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/00d3b44c-07f1-418a-b3b9-93bce5a5fe7f.jpg",
+   "alt": "Droplet Open Cuff, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/57697f83-3c2d-4c13-ab7a-073ac8e3d524.jpg",
+   "alt": "Droplet Open Cuff, Gold — macro detail: the ball end and the teardrop end across the opening",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cbe697e0-9878-426e-b7fe-82c55421d16e.jpg",
+   "alt": "Droplet Open Cuff, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "title": "Marquise Drop Choker",
+ "handle": "marquise-drop-choker",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Choker",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Necklace",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>A clean collar with one long thought. A smooth round omega collar sits close at the base of the throat with a marquise cut stone set sideways at the front. From it, a fine chain falls about 6cm with a small pear stone halfway and another at the end.</p><p><strong>STYLING TIP:</strong> Wear it with an open neckline so the drop falls clear.</p><p><strong>Details</strong></p><ul>\n<li>Collar: Smooth round omega, approximately 2mm</li>\n<li>Stone: One marquise cut clear cubic zirconia, approximately 10mm, set sideways at the front</li>\n<li>Drop: A fine chain of approximately 6cm with one small pear stone halfway and another at the end</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Marquise Drop Choker — Necklace | Naira Petite",
+  "description": "A smooth round omega collar sits close at the base of the throat with a marquise cut stone set sideways at the front. Marquise Drop Choker by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1599",
+   "sku": "YF7059",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "314"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dc345e2c-9a1a-48da-8775-ba3c459d2ff6.jpg",
+   "alt": "Marquise Drop Choker — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bf0bae37-cd41-4fad-b8fb-819010b1f72e.jpg",
+   "alt": "Marquise Drop Choker — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f939e14e-aeb4-4059-a6a8-d823173b17ed.jpg",
+   "alt": "Marquise Drop Choker — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dbe1bcdc-c7cf-442c-9251-c2bb08b382d5.jpg",
+   "alt": "Marquise Drop Choker — macro detail: marquise stone and the start of the drop",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

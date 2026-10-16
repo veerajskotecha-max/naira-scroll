@@ -1,0 +1,143 @@
+{
+ "title": "Droplet Open Ring",
+ "handle": "droplet-open-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Adjustable",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Ring",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>A ball and a drop, almost touching. An open ring of smooth polished wire that swells at one end into a round ball and at the other into a long teardrop, the two sitting side by side on top of the finger. Open at the back, so it adjusts to fit. In warm gold or bright silver tone; pairs with the Droplet Open Cuff.</p><p><strong>STYLING TIP:</strong> Wear it with the Droplet Open Cuff in the same metal.</p><p><strong>Details</strong></p><ul>\n<li>Style: Adjustable open ring</li>\n<li>Ends: A round ball, approximately 7mm, and a long teardrop, approximately 9mm</li>\n<li>Fit: Open at the back, so it adjusts to fit</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Droplet Open Ring — Ring | Naira Petite",
+  "description": "An open ring of smooth polished wire that swells at one end into a round ball and at the other into a long teardrop, the two sitting side by side on top of the finger. Droplet Open Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1399",
+   "sku": "YF3791-R-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "372"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/858efaeb-dfc2-45da-a2fd-f71d07cdc82a.jpg",
+    "alt": "Droplet Open Ring, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1399",
+   "sku": "YF3791-R-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "347"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f6d9266a-7555-4983-8e9e-7a3ba82e00b0.jpg",
+    "alt": "Droplet Open Ring, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/858efaeb-dfc2-45da-a2fd-f71d07cdc82a.jpg",
+   "alt": "Droplet Open Ring, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c300a2dd-67f0-42d2-8335-0fd476632f0b.jpg",
+   "alt": "Droplet Open Ring, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/59825541-7606-4d1a-9ddb-3352554aa5a6.jpg",
+   "alt": "Droplet Open Ring, Gold — macro detail: polished ball and teardrop ends, gold tone",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f6d9266a-7555-4983-8e9e-7a3ba82e00b0.jpg",
+   "alt": "Droplet Open Ring, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7340ff0a-3660-45ec-b3b7-752e7fda1fdc.jpg",
+   "alt": "Droplet Open Ring, Silver — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/abfa6c36-f548-49f0-b467-60f42690a7fd.jpg",
+   "alt": "Droplet Open Ring, Silver — macro detail: polished ball and teardrop ends, silver tone",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

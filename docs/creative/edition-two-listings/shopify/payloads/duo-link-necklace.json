@@ -1,0 +1,103 @@
+{
+ "title": "Duo Link Necklace",
+ "handle": "duo-link-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "tags": [
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Necklace",
+  "Tarnish Free",
+  "Two Tone",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Gold and silver, in one line. Long oval links in gold tone and silver tone, mixed along the chain and joined by small stacked gold rings, finished with a lobster clasp and a short extender. It settles at the collarbone and wears well with both metals.</p><p><strong>STYLING TIP:</strong> Wear it with the Duo Link Bracelet, or with your gold and silver rings together.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 45cm plus a short extender</li>\n<li>Chain: Long oval links in gold tone and silver tone, approximately 20mm, joined by small stacked gold rings</li>\n<li>Closure: Lobster clasp with extender</li>\n<li>Plating: 18k gold tone plated and rhodium plated silver tone</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Duo Link Necklace — Necklace | Naira Petite",
+  "description": "Long oval links in gold tone and silver tone, mixed along the chain and joined by small stacked gold rings, finished with a lobster clasp and a short extender. Duo Link Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1799",
+   "sku": "YF8079-NEC",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "364"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/66a75f48-9196-4235-be6c-69d86e691bcf.jpg",
+   "alt": "Duo Link Necklace — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/397a1db7-31b5-4137-8bcf-f15a4ae9588b.jpg",
+   "alt": "Duo Link Necklace — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/22d589df-c119-4c2e-a6ff-aa52f2fd6b9b.jpg",
+   "alt": "Duo Link Necklace — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e23e8a07-ae1a-45ac-8247-c430a09cf025.jpg",
+   "alt": "Duo Link Necklace — macro detail: gold and silver oval links joined by stacked gold rings",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

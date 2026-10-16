@@ -1,0 +1,105 @@
+{
+ "title": "Pear Point Open Cuff",
+ "handle": "pear-point-open-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Cuff",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Two points of light, facing each other. A slim polished open cuff that tapers to its two ends, each finished with one pear cut clear stone in a claw setting. The two pears face each other across the opening, right where the wrist turns.</p><p><strong>STYLING TIP:</strong> Wear it with the opening on top of the wrist so both pears show.</p><p><strong>Details</strong></p><ul>\n<li>Style: Slim open cuff</li>\n<li>Band: Polished, approximately 4mm, tapering to the ends</li>\n<li>Stones: One pear cut clear cubic zirconia, approximately 7mm, at each end</li>\n<li>Inner width: Approximately 6cm</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Pear Point Open Cuff — Bracelet | Naira Petite",
+  "description": "A slim polished open cuff that tapers to its two ends, each finished with one pear cut clear stone in a claw setting. Pear Point Open Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1799",
+   "sku": "YF8221",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "460"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ba00044f-03ad-44c0-893d-502943ddf280.jpg",
+   "alt": "Pear Point Open Cuff — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/62b1fe01-882d-413a-aa05-9154c4bead10.jpg",
+   "alt": "Pear Point Open Cuff — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/eb0631f1-b969-4667-a8de-011ce8155504.jpg",
+   "alt": "Pear Point Open Cuff — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5305617b-094d-42a7-a115-0848289dabc6.jpg",
+   "alt": "Pear Point Open Cuff — macro detail: the two pear stone ends across the opening",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "title": "Mesh Band Ring",
+ "handle": "mesh-band-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Ring",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>The Silk Mesh texture, cut to a ring. A wide band of fine woven metal mesh with neat rolled edges, soft to the eye and flexible on the finger. Pairs with the Silk Mesh Cuff.</p><p><strong>STYLING TIP:</strong> Pair it with the Silk Mesh Cuff in the same metal.</p><p><strong>Details</strong></p><ul>\n<li>Width: Approximately 10mm</li>\n<li>Construction: Fine woven metal mesh with neat rolled edges</li>\n<li>Sizes: US 6, 7 and 8</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Mesh Band Ring — Ring | Naira Petite",
+  "description": "A wide band of fine woven metal mesh with neat rolled edges, soft to the eye and flexible on the finger. Mesh Band Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  },
+  {
+   "name": "Size",
+   "values": [
+    {
+     "name": "6"
+    },
+    {
+     "name": "7"
+    },
+    {
+     "name": "8"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    },
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "999",
+   "sku": "YF3558-G-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "167"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d09d09ef-1fee-4149-9b0c-4faa7092ae35.jpg",
+    "alt": "Mesh Band Ring, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    },
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "999",
+   "sku": "YF3558-G-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "167"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d09d09ef-1fee-4149-9b0c-4faa7092ae35.jpg",
+    "alt": "Mesh Band Ring, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    },
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "999",
+   "sku": "YF3558-G-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "167"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d09d09ef-1fee-4149-9b0c-4faa7092ae35.jpg",
+    "alt": "Mesh Band Ring, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    },
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "999",
+   "sku": "YF3558-S-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "167"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c742356d-bc04-4907-ac4c-fa31c6828ad6.jpg",
+    "alt": "Mesh Band Ring, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    },
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "999",
+   "sku": "YF3558-S-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "167"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c742356d-bc04-4907-ac4c-fa31c6828ad6.jpg",
+    "alt": "Mesh Band Ring, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    },
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "999",
+   "sku": "YF3558-S-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "167"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c742356d-bc04-4907-ac4c-fa31c6828ad6.jpg",
+    "alt": "Mesh Band Ring, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d09d09ef-1fee-4149-9b0c-4faa7092ae35.jpg",
+   "alt": "Mesh Band Ring, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/48ad3e52-8e66-4d69-9fbe-fcd13283444a.jpg",
+   "alt": "Mesh Band Ring, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/62b10ecf-13f7-4be6-b9f4-994c680c582c.jpg",
+   "alt": "Mesh Band Ring, Gold — macro detail: woven mesh texture and rolled edge",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c742356d-bc04-4907-ac4c-fa31c6828ad6.jpg",
+   "alt": "Mesh Band Ring, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "title": "Kiss Knot Bangle",
+ "handle": "kiss-knot-bangle",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bangle",
+  "Bracelet",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Two ends, one kiss. A flexible snake-coil bangle, finely ribbed and about 5mm thick, whose two ends cross on top of the wrist under one smooth polished X. In warm gold or bright silver tone.</p><p><strong>STYLING TIP:</strong> Wear gold and silver together with both knots on top of the wrist.</p><p><strong>Details</strong></p><ul>\n<li>Construction: Flexible ribbed snake coil, approximately 5mm thick</li>\n<li>Front: The two ends cross under one smooth polished X, approximately 12mm</li>\n<li>Fit: Flexible, slips over the hand</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Kiss Knot Bangle — Bracelet | Naira Petite",
+  "description": "A flexible snake-coil bangle, finely ribbed and about 5mm thick, whose two ends cross on top of the wrist under one smooth polished X. Kiss Knot Bangle by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF4152-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "319"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/34e7babc-ac3e-4b6b-af9d-bfd865e04acb.jpg",
+    "alt": "Kiss Knot Bangle, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF4152-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "319"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f76b61c6-7c16-42ac-b184-85efc90e5e4c.jpg",
+    "alt": "Kiss Knot Bangle, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/34e7babc-ac3e-4b6b-af9d-bfd865e04acb.jpg",
+   "alt": "Kiss Knot Bangle, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a8ca1bb0-e182-4b05-9713-3bea77a22c38.jpg",
+   "alt": "Kiss Knot Bangle, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5b6c2015-24bc-4758-91b6-daf34527f089.jpg",
+   "alt": "Kiss Knot Bangle, Gold — macro detail: polished X binding the ribbed gold coil",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f76b61c6-7c16-42ac-b184-85efc90e5e4c.jpg",
+   "alt": "Kiss Knot Bangle, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7c23ee52-4e09-44f8-9b77-e26f0e7a996b.jpg",
+   "alt": "Kiss Knot Bangle, Silver — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/36535007-531d-46de-8a32-dd18abb9ecbd.jpg",
+   "alt": "Kiss Knot Bangle, Silver — macro detail: polished X binding the ribbed silver coil",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

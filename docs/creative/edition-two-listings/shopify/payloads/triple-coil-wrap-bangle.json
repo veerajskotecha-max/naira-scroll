@@ -1,0 +1,134 @@
+{
+ "title": "Triple Coil Wrap Bangle",
+ "handle": "triple-coil-wrap-bangle",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bangle",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Three turns, one line of gold. One continuous snake-coil wire, finely ribbed and about 4mm thick, wraps the wrist in three stacked turns. Each end finishes in a small rectangular cap set with two rows of clear pavé, one sitting on the top turn and one on the bottom. It looks like a stack, and goes on as one piece. In warm gold or bright silver tone.</p><p><strong>STYLING TIP:</strong> Wear it alone. It already looks like a stack of three.</p><p><strong>Details</strong></p><ul>\n<li>Construction: One continuous ribbed snake coil wire, approximately 4mm, wound in three turns</li>\n<li>Height: Approximately 14mm across the three turns</li>\n<li>Ends: Two small rectangular caps set with clear pavé, on the top and bottom turns</li>\n<li>Fit: Flexible wrap that eases over the hand</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Triple Coil Wrap Bangle — Bracelet | Naira Petite",
+  "description": "One continuous snake-coil wire, finely ribbed and about 4mm thick, wraps the wrist in three stacked turns. Triple Coil Wrap Bangle by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF3937-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "413"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/87436043-9d68-4895-a17b-cb96cb426c7b.jpg",
+    "alt": "Triple Coil Wrap Bangle, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1799",
+   "sku": "YF3937-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "350"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/47b2dcfc-aedf-4f43-b7cd-f45fe7d4bdbe.jpg",
+    "alt": "Triple Coil Wrap Bangle, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/87436043-9d68-4895-a17b-cb96cb426c7b.jpg",
+   "alt": "Triple Coil Wrap Bangle, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e125186a-2769-4d99-a659-a15a02046fdf.jpg",
+   "alt": "Triple Coil Wrap Bangle, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/383f2cf8-0c1b-4480-9c6d-7a940bc727ee.jpg",
+   "alt": "Triple Coil Wrap Bangle, Gold — macro detail: rectangular pavé end cap on the ribbed gold coil",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/47b2dcfc-aedf-4f43-b7cd-f45fe7d4bdbe.jpg",
+   "alt": "Triple Coil Wrap Bangle, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

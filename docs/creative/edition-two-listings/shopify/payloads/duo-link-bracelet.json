@@ -1,0 +1,103 @@
+{
+ "title": "Duo Link Bracelet",
+ "handle": "duo-link-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "Bracelet",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Two Tone",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Gold and silver, in one line. The bracelet to the Duo Link Necklace: long oval links in gold tone and silver tone joined by small stacked gold rings, with a lobster clasp and extender.</p><p><strong>STYLING TIP:</strong> Pair it with the Duo Link Necklace, or with a gold watch.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 18cm plus a short extender</li>\n<li>Chain: Long oval links in gold tone and silver tone, approximately 20mm, joined by small stacked gold rings</li>\n<li>Closure: Lobster clasp with extender</li>\n<li>Plating: 18k gold tone plated and rhodium plated silver tone</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Duo Link Bracelet — Bracelet | Naira Petite",
+  "description": "The bracelet to the Duo Link Necklace: long oval links in gold tone and silver tone joined by small stacked gold rings, with a lobster clasp and extender. Duo Link Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1299",
+   "sku": "YF8079-BRA",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "244"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ad28df0a-ae8a-4ff1-aee1-d4fb29d1529f.jpg",
+   "alt": "Duo Link Bracelet — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/386698d3-f311-44cb-a67c-72595f10beb6.jpg",
+   "alt": "Duo Link Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e0df61b1-abd3-4540-83ba-e7730a2b5803.jpg",
+   "alt": "Duo Link Bracelet — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3997b203-fe3c-4dfc-80b4-fe0cca49e224.jpg",
+   "alt": "Duo Link Bracelet — macro detail: gold and silver oval links joined by stacked gold rings",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

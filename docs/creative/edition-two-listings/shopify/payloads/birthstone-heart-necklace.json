@@ -1,0 +1,389 @@
+{
+ "title": "Birthstone Heart Necklace",
+ "handle": "birthstone-heart-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Birthstone",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Gift",
+  "Naira Petite",
+  "Necklace"
+ ],
+ "descriptionHtml": "<p>A small heart, in your month&#x27;s colour. A fine gold cable chain carrying one small heart-cut stone in four slim claws, the chain fixed at the heart&#x27;s shoulders so it always sits straight. Choose the colour for your month, or for someone else&#x27;s.</p><p><strong>STYLING TIP:</strong> Give it in the month&#x27;s colour, or layer two hearts for two birthdays.</p><p><strong>Details</strong></p><ul>\n<li>Pendant: One heart cut cubic zirconia, approximately 7mm, in four slim gold claws</li>\n<li>Chain: Fine gold cable, fixed at the heart&#x27;s shoulders so it sits straight</li>\n<li>Length: Approximately 40cm plus extender</li>\n<li>Colours: January garnet, February amethyst, March aquamarine, April crystal, May emerald, June light amethyst, July ruby, August peridot, September sapphire, October rose, November topaz, December blue zircon</li>\n<li>Finish: Gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Birthstone Heart Necklace — Necklace | Naira Petite",
+  "description": "A fine gold cable chain carrying one small heart-cut stone in four slim claws, the chain fixed at the heart's shoulders so it always sits straight. Birthstone Heart Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Month",
+   "values": [
+    {
+     "name": "January · Garnet"
+    },
+    {
+     "name": "February · Amethyst"
+    },
+    {
+     "name": "March · Aquamarine"
+    },
+    {
+     "name": "April · Crystal"
+    },
+    {
+     "name": "May · Emerald"
+    },
+    {
+     "name": "June · Light Amethyst"
+    },
+    {
+     "name": "July · Ruby"
+    },
+    {
+     "name": "August · Peridot"
+    },
+    {
+     "name": "September · Sapphire"
+    },
+    {
+     "name": "October · Rose"
+    },
+    {
+     "name": "November · Topaz"
+    },
+    {
+     "name": "December · Blue Zircon"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "January · Garnet"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-JAN",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3f9a7808-ddd5-4bce-b777-85a6c6102c74.jpg",
+    "alt": "Birthstone Heart Necklace, January · Garnet — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "February · Amethyst"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-FEB",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/23e282f8-bf57-4380-af94-1e8ded6d4b85.jpg",
+    "alt": "Birthstone Heart Necklace, February · Amethyst — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "March · Aquamarine"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-MAR",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/63d279fb-55c1-4536-8142-2fd8cf254171.jpg",
+    "alt": "Birthstone Heart Necklace, March · Aquamarine — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "April · Crystal"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-APR",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c9006708-2f0d-4b8a-a590-da0aaf163462.jpg",
+    "alt": "Birthstone Heart Necklace, April · Crystal — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "May · Emerald"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-MAY",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3741041e-7c59-4bf7-97d6-f7724ce59844.jpg",
+    "alt": "Birthstone Heart Necklace, May · Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "June · Light Amethyst"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-JUN",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/54cfbde6-f57f-44a6-9cc8-6a85d688127c.jpg",
+    "alt": "Birthstone Heart Necklace, June · Light Amethyst — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "July · Ruby"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-JUL",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c5273c25-af8c-46f6-83d9-1bcb0e2497b2.jpg",
+    "alt": "Birthstone Heart Necklace, July · Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "August · Peridot"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-AUG",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d2f5faa5-d7a9-4215-a6b2-14afd3aa9f22.jpg",
+    "alt": "Birthstone Heart Necklace, August · Peridot — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "September · Sapphire"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-SEP",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/16c533e5-fb41-469e-84c3-0bfee0ba0fab.jpg",
+    "alt": "Birthstone Heart Necklace, September · Sapphire — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "October · Rose"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-OCT",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/78759702-cf5f-4b0a-ac5a-576ed17de43a.jpg",
+    "alt": "Birthstone Heart Necklace, October · Rose — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "November · Topaz"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-NOV",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/76994b2f-45c1-47cc-becc-e4ec5061b177.jpg",
+    "alt": "Birthstone Heart Necklace, November · Topaz — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Month",
+     "name": "December · Blue Zircon"
+    }
+   ],
+   "price": "999",
+   "sku": "N25-DEC",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3fc8db1d-4686-4014-b8ba-924ce2ae179d.jpg",
+    "alt": "Birthstone Heart Necklace, December · Blue Zircon — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3741041e-7c59-4bf7-97d6-f7724ce59844.jpg",
+   "alt": "Birthstone Heart Necklace, May · Emerald — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3f9a7808-ddd5-4bce-b777-85a6c6102c74.jpg",
+   "alt": "Birthstone Heart Necklace, January · Garnet — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/23e282f8-bf57-4380-af94-1e8ded6d4b85.jpg",
+   "alt": "Birthstone Heart Necklace, February · Amethyst — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/63d279fb-55c1-4536-8142-2fd8cf254171.jpg",
+   "alt": "Birthstone Heart Necklace, March · Aquamarine — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c9006708-2f0d-4b8a-a590-da0aaf163462.jpg",
+   "alt": "Birthstone Heart Necklace, April · Crystal — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/54cfbde6-f57f-44a6-9cc8-6a85d688127c.jpg",
+   "alt": "Birthstone Heart Necklace, June · Light Amethyst — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c5273c25-af8c-46f6-83d9-1bcb0e2497b2.jpg",
+   "alt": "Birthstone Heart Necklace, July · Ruby — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d2f5faa5-d7a9-4215-a6b2-14afd3aa9f22.jpg",
+   "alt": "Birthstone Heart Necklace, August · Peridot — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/16c533e5-fb41-469e-84c3-0bfee0ba0fab.jpg",
+   "alt": "Birthstone Heart Necklace, September · Sapphire — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/78759702-cf5f-4b0a-ac5a-576ed17de43a.jpg",
+   "alt": "Birthstone Heart Necklace, October · Rose — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/76994b2f-45c1-47cc-becc-e4ec5061b177.jpg",
+   "alt": "Birthstone Heart Necklace, November · Topaz — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3fc8db1d-4686-4014-b8ba-924ce2ae179d.jpg",
+   "alt": "Birthstone Heart Necklace, December · Blue Zircon — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

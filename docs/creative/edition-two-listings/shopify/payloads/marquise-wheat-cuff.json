@@ -1,0 +1,105 @@
+{
+ "title": "Marquise Wheat Cuff",
+ "handle": "marquise-wheat-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Cuff",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Two rows of light, leaning into each other. An open gold cuff whose front is set with two rows of marquise-cut clear stones, each in its own fine claws and angled like the two sides of a wheat ear. The back is a slim plain band finished with small polished balls, so it slips on at the narrowest part of the wrist.</p><p><strong>STYLING TIP:</strong> Let it be the only bracelet, with a bare neckline and hair pulled back.</p><p><strong>Details</strong></p><ul>\n<li>Style: Open cuff</li>\n<li>Stones: Two slanted rows of clear marquise cut cubic zirconia, approximately 7mm each</li>\n<li>Width: Approximately 14mm across the stone rows</li>\n<li>Setting: Fine claw settings, laid like the grains of a wheat ear</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Marquise Wheat Cuff — Bracelet | Naira Petite",
+  "description": "An open gold cuff whose front is set with two rows of marquise-cut clear stones, each in its own fine claws and angled like the two sides of a wheat ear. Marquise Wheat Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "2199",
+   "sku": "YF3508",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "450"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c1f0c2d5-f487-4ff2-b5d3-787b8f58ae12.jpg",
+   "alt": "Marquise Wheat Cuff — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f8435c4c-74d7-4516-811f-bba7dd3ee1c7.jpg",
+   "alt": "Marquise Wheat Cuff — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f5fc3486-f9e6-4cb9-a0ec-5244f748c9f4.jpg",
+   "alt": "Marquise Wheat Cuff — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/509c45da-7f03-4394-9bea-c4121251e1fa.jpg",
+   "alt": "Marquise Wheat Cuff — macro detail: two slanted rows of claw-set marquise stones",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

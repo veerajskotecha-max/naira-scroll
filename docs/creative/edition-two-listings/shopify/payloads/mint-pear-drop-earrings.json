@@ -1,0 +1,104 @@
+{
+ "title": "Mint Pear Drop Earrings",
+ "handle": "mint-pear-drop-earrings",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Three small lights, then one of mint. From the stud, a short curved line of three small clear pear-cut stones leads down to one larger pear in pale mint green, every stone held in fine gold claws. About 22mm long, it falls just below the lobe.</p><p><strong>STYLING TIP:</strong> Wear them with hair tucked back and a white or ivory neckline so the mint reads.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 22mm</li>\n<li>Stones: Three small clear pear cut cubic zirconia leading to one pale mint green pear, approximately 9mm</li>\n<li>Setting: Fine gold claws</li>\n<li>Closure: Post with butterfly back</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Mint Pear Drop Earrings — Earrings | Naira Petite",
+  "description": "From the stud, a short curved line of three small clear pear-cut stones leads down to one larger pear in pale mint green, every stone held in fine gold claws. Mint Pear Drop Earrings by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF7034",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "290"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cd17d6d9-9942-4cc4-8723-9908bdfac3bd.jpg",
+   "alt": "Mint Pear Drop Earrings — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3620633c-c3dc-47b9-893e-7aa011d9d616.jpg",
+   "alt": "Mint Pear Drop Earrings — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/044461d7-959e-48b1-bb9d-59c505743495.jpg",
+   "alt": "Mint Pear Drop Earrings — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bf4a0203-0a3d-4d50-8c35-36863d1b9282.jpg",
+   "alt": "Mint Pear Drop Earrings — macro detail: mint pear and three clear pears in fine gold claws",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

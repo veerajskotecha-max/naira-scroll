@@ -1,0 +1,105 @@
+{
+ "title": "Fine Tennis Bracelet",
+ "handle": "fine-tennis-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Tennis",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>The everyday line of light. One continuous row of small round brilliant clear cubic zirconia, each about 2.5mm and each in its own gold claw cup, closed with a slim box clasp. Finer than our Rivière Eternal, so it slips under a cuff or stacks with a watch without crowding it.</p><p><strong>STYLING TIP:</strong> Wear it beside a watch every day.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stones: Round brilliant clear cubic zirconia, approximately 2.5mm each</li>\n<li>Setting: Each stone in its own gold claw cup, edge to edge</li>\n<li>Closure: Box clasp</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Fine Tennis Bracelet — Bracelet | Naira Petite",
+  "description": "One continuous row of small round brilliant clear cubic zirconia, each about 2.5mm and each in its own gold claw cup, closed with a slim box clasp. Fine Tennis Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1299",
+   "sku": "YF7116",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "324"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/9cbd7508-b1e8-479b-9b46-8b1e232dc34f.jpg",
+   "alt": "Fine Tennis Bracelet — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7737f41a-0601-4f88-b4b3-52993e452a7d.jpg",
+   "alt": "Fine Tennis Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/69c117e6-a6d2-4f7e-9e5e-5c61527c6564.jpg",
+   "alt": "Fine Tennis Bracelet — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/0f8e44f4-2e3f-4d63-ad4e-82334aeea8da.jpg",
+   "alt": "Fine Tennis Bracelet — macro detail: small round stones in gold claw cups, box clasp",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

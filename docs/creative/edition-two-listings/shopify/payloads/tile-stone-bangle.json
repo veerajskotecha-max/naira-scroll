@@ -1,0 +1,101 @@
+{
+ "title": "Tile Stone Bangle",
+ "handle": "tile-stone-bangle",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bangle",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Square by square. A slim gold bangle built from a row of square tiles, about 4mm each, alternating plain polished gold with a round clear stone framed in a square bezel. Clean and graphic, it stacks easily.</p><p><strong>STYLING TIP:</strong> Stack it with a fine chain bracelet so the square line has something soft beside it.</p><p><strong>Details</strong></p><ul>\n<li>Style: Slim rigid bangle</li>\n<li>Pattern: Square tiles, approximately 4mm, alternating plain polished gold with a round clear stone in a square bezel</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Tile Stone Bangle — Bracelet | Naira Petite",
+  "description": "A slim gold bangle built from a row of square tiles, about 4mm each, alternating plain polished gold with a round clear stone framed in a square bezel. Tile Stone Bangle by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1599",
+   "sku": "N10-TILE",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6ee838bc-b864-45cf-9472-955407a53caf.jpg",
+   "alt": "Tile Stone Bangle — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f71bc35e-867b-4bab-94df-7df78df30028.jpg",
+   "alt": "Tile Stone Bangle — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/847be5d8-532e-43d5-adaf-a965114e1b28.jpg",
+   "alt": "Tile Stone Bangle — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/437a1592-cede-4892-8444-105a4411af13.jpg",
+   "alt": "Tile Stone Bangle — macro detail: square tiles, plain and stone-set in turn",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

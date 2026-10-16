@@ -1,0 +1,181 @@
+{
+ "title": "Baguette Tennis Bracelet",
+ "handle": "baguette-tennis-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Tennis",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>A straight line of light, in three colours. A tennis bracelet of rectangular baguettes set crosswise, side by side, each held at its corners by gold claws and closed with a gold box clasp. About 4 to 5mm wide: fine enough for every day, bright enough for evening. In clear Crystal, deep Ruby or Emerald.</p><p><strong>STYLING TIP:</strong> Wear two colours together, ruby with crystal, for a stack that reads festive without trying.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Rectangular baguette cut cubic zirconia set crosswise, the line approximately 4 to 5mm wide</li>\n<li>Colours: Crystal, Ruby or Emerald</li>\n<li>Setting: Each stone held at its corners by fine gold claws</li>\n<li>Closure: Box clasp with fold over safety</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Baguette Tennis Bracelet — Bracelet | Naira Petite",
+  "description": "A tennis bracelet of rectangular baguettes set crosswise, side by side, each held at its corners by gold claws and closed with a gold box clasp. Baguette Tennis Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Stone",
+   "values": [
+    {
+     "name": "Crystal"
+    },
+    {
+     "name": "Ruby"
+    },
+    {
+     "name": "Emerald"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Crystal"
+    }
+   ],
+   "price": "1699",
+   "sku": "YF3165-BR-CR",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "413"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d0f971cc-451f-4aac-a786-a130a4d22e1c.jpg",
+    "alt": "Baguette Tennis Bracelet, Crystal — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Ruby"
+    }
+   ],
+   "price": "1699",
+   "sku": "YF3165-BR-RU",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "413"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/608b5c38-74e0-4aeb-99d9-35f4b34c07e4.jpg",
+    "alt": "Baguette Tennis Bracelet, Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Emerald"
+    }
+   ],
+   "price": "1699",
+   "sku": "YF3165-BR-EM",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "413"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c7f34dc2-d7c5-4aac-aad8-1c87ff3f2925.jpg",
+    "alt": "Baguette Tennis Bracelet, Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d0f971cc-451f-4aac-a786-a130a4d22e1c.jpg",
+   "alt": "Baguette Tennis Bracelet, Crystal — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1a764637-5cc7-4cf1-8590-c29cc33dcfa0.jpg",
+   "alt": "Baguette Tennis Bracelet, Crystal — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ced7a11e-b7de-4b0b-bcb8-a9fb7b884153.jpg",
+   "alt": "Baguette Tennis Bracelet, Crystal — macro detail: crosswise clear baguettes in slim gold box settings",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/608b5c38-74e0-4aeb-99d9-35f4b34c07e4.jpg",
+   "alt": "Baguette Tennis Bracelet, Ruby — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/4ad1768a-2e42-465c-a53c-0c2fe0285895.jpg",
+   "alt": "Baguette Tennis Bracelet, Ruby — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a03b0e01-40f0-4d89-a4b5-be02ef9d3025.jpg",
+   "alt": "Baguette Tennis Bracelet, Ruby — macro detail: crosswise ruby red baguettes in slim gold box settings",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c7f34dc2-d7c5-4aac-aad8-1c87ff3f2925.jpg",
+   "alt": "Baguette Tennis Bracelet, Emerald — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/101920cf-d803-4314-b002-9812389a4584.jpg",
+   "alt": "Baguette Tennis Bracelet, Emerald — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/df7d7f8a-3db4-4fc9-bb45-9d9ba1060f84.jpg",
+   "alt": "Baguette Tennis Bracelet, Emerald — macro detail: crosswise emerald green baguettes in slim gold box settings",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "title": "Garnet Cable Cuff",
+ "handle": "garnet-cable-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "Bracelet",
+  "Cubic Zirconia",
+  "Cuff",
+  "Demi Fine",
+  "Edition Two",
+  "Naira Petite",
+  "Two Tone"
+ ],
+ "descriptionHtml": "<p>A twisted cable, finished in gold. A slim open cuff of twisted silver-tone cable, about 5mm thick, finished at each end with a gold barrel of two pavé rows and a round garnet-red stone set at the tip. The two tips sit face to face on top of the wrist, so the colour is always in view.</p><p><strong>STYLING TIP:</strong> Stack it with a plain gold bangle so the gold ends have company.</p><p><strong>Details</strong></p><ul>\n<li>Style: Slim open cuff</li>\n<li>Cable: Twisted silver tone cable, approximately 5mm thick</li>\n<li>Ends: Gold tone barrels, approximately 9mm, each with two rows of clear pavé</li>\n<li>Stones: One round garnet red stone at each tip</li>\n<li>Inner width: Approximately 6cm</li>\n<li>Finish: Silver tone cable with 18k gold tone ends</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Garnet Cable Cuff — Bracelet | Naira Petite",
+  "description": "A slim open cuff of twisted silver-tone cable, about 5mm thick, finished at each end with a gold barrel of two pavé rows and a round garnet-red stone set at the tip. Garnet Cable Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1999",
+   "sku": "N03-GARNET",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a9f45ee4-e983-4789-9933-b841b30502da.jpg",
+   "alt": "Garnet Cable Cuff — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/0897fe7c-e191-4717-a50e-27d7661ad641.jpg",
+   "alt": "Garnet Cable Cuff — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6e2efaa9-fb8e-43b0-afe5-bfacfdeb66f8.jpg",
+   "alt": "Garnet Cable Cuff — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/818e1ad9-4616-480d-934b-90b2ae37846f.jpg",
+   "alt": "Garnet Cable Cuff — macro detail: gold pavé barrels with garnet-red tips on a twisted silver cable",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

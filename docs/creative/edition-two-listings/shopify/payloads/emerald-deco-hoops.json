@@ -1,0 +1,101 @@
+{
+ "title": "Emerald Deco Hoops",
+ "handle": "emerald-deco-hoops",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Hoops",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated"
+ ],
+ "descriptionHtml": "<p>Green and clear, in turn. Chunky silver-tone hoops set all the way round the front with square emerald-cut green stones alternating with pairs of clear baguettes, each in bright claws. Post backs.</p><p><strong>STYLING TIP:</strong> Let them be the statement, with hair up and no necklace.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 22mm across</li>\n<li>Stones: Square emerald green cubic zirconia alternating with pairs of clear baguettes</li>\n<li>Setting: Bright claws</li>\n<li>Closure: Post back</li>\n<li>Finish: Bright silver tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Emerald Deco Hoops — Earrings | Naira Petite",
+  "description": "Chunky silver-tone hoops set all the way round the front with square emerald-cut green stones alternating with pairs of clear baguettes, each in bright claws. Emerald Deco Hoops by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1899",
+   "sku": "N24-DECO",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/53383841-4e22-4839-b1d3-e270f930ebba.jpg",
+   "alt": "Emerald Deco Hoops — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2bfaa83c-ca4b-493c-bbe3-6d5443b371f4.jpg",
+   "alt": "Emerald Deco Hoops — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d8a5ca9c-64ae-4a7d-a722-4cbd3897ce50.jpg",
+   "alt": "Emerald Deco Hoops — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/67a9a867-ec89-4288-ae31-abae55c188b2.jpg",
+   "alt": "Emerald Deco Hoops — macro detail: square emerald stone between clear baguettes",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

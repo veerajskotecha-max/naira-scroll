@@ -1,0 +1,143 @@
+{
+ "title": "Silk Mesh Cuff",
+ "handle": "silk-mesh-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bracelet",
+  "Cuff",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Soft to the eye, firm on the wrist. An open cuff built from a rounded tube of fine woven mesh, about 15mm wide, that ends in two mirror-polished oval caps facing each other across the opening. The mesh catches light like brushed silk, so it reads quietly on its own and holds its own beside a watch. In warm gold or bright silver tone.</p><p><strong>STYLING TIP:</strong> Wear it on the wrist opposite your watch, or pair it with the Mesh Band Ring in the same metal.</p><p><strong>Details</strong></p><ul>\n<li>Style: Open cuff</li>\n<li>Mesh: Rounded tube of fine woven mesh, approximately 15mm wide</li>\n<li>Ends: Two mirror polished oval caps facing each other</li>\n<li>Inner width: Approximately 6cm, with an opening of about 2.5cm</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Silk Mesh Cuff — Bracelet | Naira Petite",
+  "description": "An open cuff built from a rounded tube of fine woven mesh, about 15mm wide, that ends in two mirror-polished oval caps facing each other across the opening. Silk Mesh Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF3482-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "393"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ce20c7ee-80cb-4f9a-a2f6-8615ac42b863.jpg",
+    "alt": "Silk Mesh Cuff, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF3482-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "393"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3645cd29-aff9-45b6-b781-e3d6291a50ee.jpg",
+    "alt": "Silk Mesh Cuff, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ce20c7ee-80cb-4f9a-a2f6-8615ac42b863.jpg",
+   "alt": "Silk Mesh Cuff, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/50a1fddc-3fde-4961-bea9-1709c109165c.jpg",
+   "alt": "Silk Mesh Cuff, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a4cf6397-264c-469f-9b41-2af4ca0d511c.jpg",
+   "alt": "Silk Mesh Cuff, Gold — macro detail: fine woven mesh tube with polished oval end caps, gold tone",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3645cd29-aff9-45b6-b781-e3d6291a50ee.jpg",
+   "alt": "Silk Mesh Cuff, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/db7098d0-b035-4227-86a2-bb24f4e4f9b5.jpg",
+   "alt": "Silk Mesh Cuff, Silver — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6e7cdf05-4266-4c60-ace7-c53c293ecdf3.jpg",
+   "alt": "Silk Mesh Cuff, Silver — macro detail: fine woven mesh tube with polished oval end caps, silver tone",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

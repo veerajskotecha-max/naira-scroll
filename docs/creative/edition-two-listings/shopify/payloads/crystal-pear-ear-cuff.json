@@ -1,0 +1,105 @@
+{
+ "title": "Crystal Pear Ear Cuff",
+ "handle": "crystal-pear-ear-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Ear Cuff",
+  "Earrings",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>One clear pear, no piercing needed. An ear cuff of slim polished gold wire that slides onto the middle ridge of the ear, carrying one clear pear cut stone in gold claws. Wear it alone or with the Emerald Square Ear Cuff.</p><p><strong>STYLING TIP:</strong> Wear it with the Emerald Square Ear Cuff on the same ear.</p><p><strong>Details</strong></p><ul>\n<li>Style: Ear cuff, no piercing needed</li>\n<li>Size: Approximately 12mm across</li>\n<li>Stone: One pear cut clear cubic zirconia, approximately 7mm, in gold claws</li>\n<li>Fit: Slides onto the middle ridge of the ear</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Crystal Pear Ear Cuff — Earrings | Naira Petite",
+  "description": "An ear cuff of slim polished gold wire that slides onto the middle ridge of the ear, carrying one clear pear cut stone in gold claws. Crystal Pear Ear Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1199",
+   "sku": "YF3652-WHT",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "271"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/0c3d6cb2-16f2-4185-bd55-40c464a22b1a.jpg",
+   "alt": "Crystal Pear Ear Cuff — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2f852ca2-c186-4c24-a83a-f0060a9451e4.jpg",
+   "alt": "Crystal Pear Ear Cuff — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1f3eb55e-55f6-4f90-b4aa-7bcd6fa8b885.jpg",
+   "alt": "Crystal Pear Ear Cuff — worn on the ear above the Emerald Square Ear Cuff, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/0dc65ea8-23e8-40e4-8858-7bb765aac5ce.jpg",
+   "alt": "Crystal Pear Ear Cuff — macro detail: clear pear stone in gold claws",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

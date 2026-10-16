@@ -1,0 +1,101 @@
+{
+ "title": "Emerald Halo C-Hoops",
+ "handle": "emerald-halo-c-hoops",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Hoops",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated"
+ ],
+ "descriptionHtml": "<p>Green, ringed in light. Open C-shaped half hoops in bright silver tone, their front faces set with a row of small round emerald-green stones, each ringed in tiny clear pavé. Post backs.</p><p><strong>STYLING TIP:</strong> Wear them with ivory or deep green.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 22mm tall</li>\n<li>Stones: Small round emerald green cubic zirconia, each ringed in clear pavé</li>\n<li>Shape: Open C shaped half hoop</li>\n<li>Closure: Post back</li>\n<li>Finish: Bright silver tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Emerald Halo C-Hoops — Earrings | Naira Petite",
+  "description": "Open C-shaped half hoops in bright silver tone, their front faces set with a row of small round emerald-green stones, each ringed in tiny clear pavé. Emerald Halo C-Hoops by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1699",
+   "sku": "N21-HALO",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/23919771-9988-4795-a4ae-b9ccc71d502f.jpg",
+   "alt": "Emerald Halo C-Hoops — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d3e2702c-5d2a-4b8d-bb97-baf4a58f257b.jpg",
+   "alt": "Emerald Halo C-Hoops — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/56562c37-ef75-4589-9c08-8cf1f0b48984.jpg",
+   "alt": "Emerald Halo C-Hoops — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8c87ff77-b8ff-40a7-b7a6-04f721b01939.jpg",
+   "alt": "Emerald Halo C-Hoops — macro detail: emerald stones ringed in clear pavé along the C-hoop",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

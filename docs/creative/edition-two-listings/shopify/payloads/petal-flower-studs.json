@@ -1,0 +1,134 @@
+{
+ "title": "Petal Flower Studs",
+ "handle": "petal-flower-studs",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Studs",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>A small flower, cut to catch light. Each stud is a four petal bloom: three round clear cubic zirconia around a polished metal centre, and one larger pear cut stone falling below like a petal caught mid-drop. All claw set, on a straight post with a butterfly back, so it sits flat and close to the lobe.</p><p><strong>STYLING TIP:</strong> Wear them every day, or as a second piercing beside a small hoop.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 13mm tall</li>\n<li>Stones: Three round clear cubic zirconia, approximately 4mm, and one pear cut stone below</li>\n<li>Centre: Polished metal disc</li>\n<li>Closure: Post with butterfly back</li>\n<li>Plating: 18k gold tone plated or rhodium plated silver tone (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Petal Flower Studs — Earrings | Naira Petite",
+  "description": "Each stud is a four petal bloom: three round clear cubic zirconia around a polished metal centre, and one larger pear cut stone falling below like a petal caught mid-drop. Petal Flower Studs by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Gold"
+    },
+    {
+     "name": "Silver"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1199",
+   "sku": "YF7126-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "264"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dbf16a22-30c8-4453-9b92-3e75a241ebdc.jpg",
+    "alt": "Petal Flower Studs, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1199",
+   "sku": "YF7126-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "264"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8a01854a-5ad6-46ac-9555-a3f8bc90ac97.jpg",
+    "alt": "Petal Flower Studs, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dbf16a22-30c8-4453-9b92-3e75a241ebdc.jpg",
+   "alt": "Petal Flower Studs, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/63ca5b07-ca61-44fa-b90d-ed1375f7601a.jpg",
+   "alt": "Petal Flower Studs, Gold — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/9df3c92e-d985-4890-8d19-8a37f8d30681.jpg",
+   "alt": "Petal Flower Studs, Gold — macro detail: three round petals and the pear petal around the polished centre",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8a01854a-5ad6-46ac-9555-a3f8bc90ac97.jpg",
+   "alt": "Petal Flower Studs, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

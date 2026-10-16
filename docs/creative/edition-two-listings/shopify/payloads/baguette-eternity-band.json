@@ -1,0 +1,341 @@
+{
+ "title": "Baguette Eternity Band",
+ "handle": "baguette-eternity-band",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Eternity",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Ring",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Colour all the way round. An eternity band set all the way round with rectangular baguettes laid crosswise, edge to edge, each held by small gold claws. About 5mm wide. In Ruby, Emerald or Amethyst.</p><p><strong>STYLING TIP:</strong> Stack two colours on one finger, or wear one beside a plain gold band.</p><p><strong>Details</strong></p><ul>\n<li>Width: Approximately 5mm</li>\n<li>Stones: Rectangular baguette cut cubic zirconia set crosswise all the way round</li>\n<li>Colours: Ruby, Emerald or Amethyst</li>\n<li>Setting: Small gold claws at each stone&#x27;s corners</li>\n<li>Sizes: US 6, 7 and 8</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Baguette Eternity Band — Ring | Naira Petite",
+  "description": "An eternity band set all the way round with rectangular baguettes laid crosswise, edge to edge, each held by small gold claws. Baguette Eternity Band by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Stone",
+   "values": [
+    {
+     "name": "Ruby"
+    },
+    {
+     "name": "Emerald"
+    },
+    {
+     "name": "Amethyst"
+    }
+   ]
+  },
+  {
+   "name": "Size",
+   "values": [
+    {
+     "name": "6"
+    },
+    {
+     "name": "7"
+    },
+    {
+     "name": "8"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Ruby"
+    },
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-RU-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2507ca8a-c3d5-4e1f-9184-3ea46ce1631d.jpg",
+    "alt": "Baguette Eternity Band, Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Ruby"
+    },
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-RU-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2507ca8a-c3d5-4e1f-9184-3ea46ce1631d.jpg",
+    "alt": "Baguette Eternity Band, Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Ruby"
+    },
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-RU-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2507ca8a-c3d5-4e1f-9184-3ea46ce1631d.jpg",
+    "alt": "Baguette Eternity Band, Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Emerald"
+    },
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-EM-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/af259fb9-85af-427c-b280-ceccc26fc85f.jpg",
+    "alt": "Baguette Eternity Band, Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Emerald"
+    },
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-EM-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/af259fb9-85af-427c-b280-ceccc26fc85f.jpg",
+    "alt": "Baguette Eternity Band, Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Emerald"
+    },
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-EM-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/af259fb9-85af-427c-b280-ceccc26fc85f.jpg",
+    "alt": "Baguette Eternity Band, Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Amethyst"
+    },
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-AM-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2cfe7170-1667-4f9c-b0fb-bdfc941528ab.jpg",
+    "alt": "Baguette Eternity Band, Amethyst — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Amethyst"
+    },
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-AM-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2cfe7170-1667-4f9c-b0fb-bdfc941528ab.jpg",
+    "alt": "Baguette Eternity Band, Amethyst — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Amethyst"
+    },
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF3143-AM-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "297"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2cfe7170-1667-4f9c-b0fb-bdfc941528ab.jpg",
+    "alt": "Baguette Eternity Band, Amethyst — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2507ca8a-c3d5-4e1f-9184-3ea46ce1631d.jpg",
+   "alt": "Baguette Eternity Band, Ruby — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/41a04678-07e8-4276-946b-51f440200887.jpg",
+   "alt": "Baguette Eternity Band, Ruby — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7dbea90b-c5a8-4a5f-8fb1-8c985fcf0d42.jpg",
+   "alt": "Baguette Eternity Band, Ruby — macro detail: crosswise ruby baguettes around the band",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/af259fb9-85af-427c-b280-ceccc26fc85f.jpg",
+   "alt": "Baguette Eternity Band, Emerald — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7fd28870-9349-417f-b095-871eeb3c59de.jpg",
+   "alt": "Baguette Eternity Band, Emerald — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/429017a4-1f8e-44d0-a405-d0ee16c642a0.jpg",
+   "alt": "Baguette Eternity Band, Emerald — macro detail: crosswise emerald green baguettes around the band",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2cfe7170-1667-4f9c-b0fb-bdfc941528ab.jpg",
+   "alt": "Baguette Eternity Band, Amethyst — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

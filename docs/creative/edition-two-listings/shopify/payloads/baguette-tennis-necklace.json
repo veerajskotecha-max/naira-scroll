@@ -1,0 +1,161 @@
+{
+ "title": "Baguette Tennis Necklace",
+ "handle": "baguette-tennis-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Necklace",
+  "Tarnish Free",
+  "Tennis",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>One line of colour at the base of the neck. A tennis necklace of rectangular baguettes set crosswise, side by side, each held at its corners by gold claws, closed with a box clasp. About 5mm wide, it sits close at the base of the neck. In deep Ruby, clear Crystal or Emerald.</p><p><strong>STYLING TIP:</strong> Wear it close at the base of the neck with an open neckline, and add the matching bracelet.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 40cm</li>\n<li>Stone: Rectangular baguette cut cubic zirconia set crosswise, the line approximately 5mm wide</li>\n<li>Colours: Ruby, Crystal or Emerald</li>\n<li>Setting: Each stone held at its corners by fine gold claws</li>\n<li>Closure: Box clasp</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Baguette Tennis Necklace — Necklace | Naira Petite",
+  "description": "A tennis necklace of rectangular baguettes set crosswise, side by side, each held at its corners by gold claws, closed with a box clasp. Baguette Tennis Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Stone",
+   "values": [
+    {
+     "name": "Ruby"
+    },
+    {
+     "name": "Crystal"
+    },
+    {
+     "name": "Emerald"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Ruby"
+    }
+   ],
+   "price": "2299",
+   "sku": "YF3165-NE-RU",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "593"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a69ad59d-37b1-443f-a03a-df9fd5fbab70.jpg",
+    "alt": "Baguette Tennis Necklace, Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Crystal"
+    }
+   ],
+   "price": "2299",
+   "sku": "YF3165-NE-CR",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "593"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/42fb467f-1368-4074-b8b5-fcb0594f8d98.jpg",
+    "alt": "Baguette Tennis Necklace, Crystal — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Emerald"
+    }
+   ],
+   "price": "2299",
+   "sku": "YF3165-NE-EM",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "593"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e454d2ab-3207-4cc7-a0ba-03d4b5a57ccc.jpg",
+    "alt": "Baguette Tennis Necklace, Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a69ad59d-37b1-443f-a03a-df9fd5fbab70.jpg",
+   "alt": "Baguette Tennis Necklace, Ruby — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/9b36b650-29a8-4234-be6a-bf51164734ce.jpg",
+   "alt": "Baguette Tennis Necklace, Ruby — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/72c41201-4e2b-45ee-bf46-25fc01062625.jpg",
+   "alt": "Baguette Tennis Necklace, Ruby — macro detail: ruby-red baguettes in gold corner claws",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/42fb467f-1368-4074-b8b5-fcb0594f8d98.jpg",
+   "alt": "Baguette Tennis Necklace, Crystal — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e454d2ab-3207-4cc7-a0ba-03d4b5a57ccc.jpg",
+   "alt": "Baguette Tennis Necklace, Emerald — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

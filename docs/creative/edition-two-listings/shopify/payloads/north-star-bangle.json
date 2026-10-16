@@ -1,0 +1,134 @@
+{
+ "title": "North Star Bangle",
+ "handle": "north-star-bangle",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Bangle",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Stars and stones, in turn. A slim flat bangle, about 6mm wide and mirror polished, its outer face alternating an engraved eight-point north star with a tiny stone at its heart and a round clear stone set flush in a bezel. In bright silver or warm gold tone.</p><p><strong>STYLING TIP:</strong> Stack the silver and the gold together on one wrist.</p><p><strong>Details</strong></p><ul>\n<li>Style: Slim rigid oval bangle</li>\n<li>Band: Approximately 6mm wide, mirror polished</li>\n<li>Pattern: Engraved eight point north stars, each with a tiny stone at its centre, alternating with round clear cubic zirconia in flush bezels</li>\n<li>Plating: Rhodium plated silver tone or 18k gold tone plated (choose above)</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "North Star Bangle — Bracelet | Naira Petite",
+  "description": "A slim flat bangle, about 6mm wide and mirror polished, its outer face alternating an engraved eight-point north star with a tiny stone at its heart and a round clear stone set flush in a bezel. North Star Bangle by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Metal",
+   "values": [
+    {
+     "name": "Silver"
+    },
+    {
+     "name": "Gold"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Silver"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF5204-S",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "217"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/75ac3058-b397-4e09-9313-96bef7c64918.jpg",
+    "alt": "North Star Bangle, Silver — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Metal",
+     "name": "Gold"
+    }
+   ],
+   "price": "1499",
+   "sku": "YF5204-G",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "229"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/b8a96ec4-7945-44b1-aaa8-b2adbe7ee5e6.jpg",
+    "alt": "North Star Bangle, Gold — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/75ac3058-b397-4e09-9313-96bef7c64918.jpg",
+   "alt": "North Star Bangle, Silver — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/b6a37868-58d8-4972-8c9b-c51b08de71cc.jpg",
+   "alt": "North Star Bangle, Silver — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ad7e0845-ade1-4e64-b00f-01b7d9b96948.jpg",
+   "alt": "North Star Bangle, Silver — macro detail: engraved north star beside a bezel-set round stone",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/b8a96ec4-7945-44b1-aaa8-b2adbe7ee5e6.jpg",
+   "alt": "North Star Bangle, Gold — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

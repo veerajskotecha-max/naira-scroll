@@ -1,0 +1,156 @@
+{
+ "title": "Crystal Baguette Eternity Ring",
+ "handle": "crystal-baguette-eternity-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Eternity",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Ring",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Straight lines, all the way round. A full eternity band of clear baguette cut cubic zirconia set crosswise, each stone held by tall gold claws that rise between the stones like a small crown. Bright from every angle, because there is no back to it.</p><p><strong>STYLING TIP:</strong> Stack it with the Baguette Eternity Band in a colour.</p><p><strong>Details</strong></p><ul>\n<li>Width: Approximately 5mm</li>\n<li>Stones: Clear baguette cut cubic zirconia set crosswise all the way round</li>\n<li>Setting: Tall gold claws between the stones</li>\n<li>Sizes: US 6, 7 and 8</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Crystal Baguette Eternity Ring — Ring | Naira Petite",
+  "description": "A full eternity band of clear baguette cut cubic zirconia set crosswise, each stone held by tall gold claws that rise between the stones like a small crown. Crystal Baguette Eternity Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Size",
+   "values": [
+    {
+     "name": "6"
+    },
+    {
+     "name": "7"
+    },
+    {
+     "name": "8"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF2604-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "563"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3bedf26d-84de-4497-bda9-bfd45d44afa3.jpg",
+    "alt": "Crystal Baguette Eternity Ring — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF2604-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "563"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3bedf26d-84de-4497-bda9-bfd45d44afa3.jpg",
+    "alt": "Crystal Baguette Eternity Ring — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF2604-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "563"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3bedf26d-84de-4497-bda9-bfd45d44afa3.jpg",
+    "alt": "Crystal Baguette Eternity Ring — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3bedf26d-84de-4497-bda9-bfd45d44afa3.jpg",
+   "alt": "Crystal Baguette Eternity Ring — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/fec3d521-6d0e-4529-8f39-4a8b7e798945.jpg",
+   "alt": "Crystal Baguette Eternity Ring — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1456811a-f631-4b3b-8a1d-f78a82e7be96.jpg",
+   "alt": "Crystal Baguette Eternity Ring — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c7ff718b-5ee9-45da-95a9-49896388279f.jpg",
+   "alt": "Crystal Baguette Eternity Ring — macro detail: baguettes and the tall claws between them",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "title": "Roman Numeral Trio Ring",
+ "handle": "roman-numeral-trio-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "tags": [
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Ring",
+  "Tarnish Free",
+  "Tri Tone",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>Three metals, one stack, a clock&#x27;s worth of numerals. Three bands worn as one: a slim rose gold band engraved with Roman numerals and set with small round stones, a silver tone band with two rows of pavé, and a wider gold band with Roman numerals cut right through the metal. Stacked flush, they read as one considered ring.</p><p><strong>STYLING TIP:</strong> Wear it as your one statement ring with gold and silver pieces alike.</p><p><strong>Details</strong></p><ul>\n<li>Construction: Three bands fixed as one</li>\n<li>Top: Rose gold tone band engraved with Roman numerals and set with small round stones</li>\n<li>Middle: Silver tone band with two rows of pavé</li>\n<li>Bottom: Gold tone band with Roman numerals cut through the metal</li>\n<li>Height: Approximately 16mm</li>\n<li>Sizes: US 6, 7 and 8</li>\n<li>Plating: Rose gold tone, rhodium silver tone and 18k gold tone</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Roman Numeral Trio Ring — Ring | Naira Petite",
+  "description": "Three bands worn as one: a slim rose gold band engraved with Roman numerals and set with small round stones, a silver tone band with two rows of pavé, and a wider gold band with Roman numerals cut right through the metal. Roman Numeral Trio Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Size",
+   "values": [
+    {
+     "name": "6"
+    },
+    {
+     "name": "7"
+    },
+    {
+     "name": "8"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Size",
+     "name": "6"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF2931-6",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "513"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/83675981-d19c-44bb-9ac2-8450be634ec7.jpg",
+    "alt": "Roman Numeral Trio Ring — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Size",
+     "name": "7"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF2931-7",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "513"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/83675981-d19c-44bb-9ac2-8450be634ec7.jpg",
+    "alt": "Roman Numeral Trio Ring — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Size",
+     "name": "8"
+    }
+   ],
+   "price": "1899",
+   "sku": "YF2931-8",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "513"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/83675981-d19c-44bb-9ac2-8450be634ec7.jpg",
+    "alt": "Roman Numeral Trio Ring — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/83675981-d19c-44bb-9ac2-8450be634ec7.jpg",
+   "alt": "Roman Numeral Trio Ring — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8659a0ee-1117-468b-8743-6b2573d750ea.jpg",
+   "alt": "Roman Numeral Trio Ring — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f7c5c45d-425f-420e-8b5a-f692442440dd.jpg",
+   "alt": "Roman Numeral Trio Ring — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5e997f91-4967-4cc7-b655-625fcddf87bb.jpg",
+   "alt": "Roman Numeral Trio Ring — macro detail: engraved numerals, pavé rows and cut-out numerals",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

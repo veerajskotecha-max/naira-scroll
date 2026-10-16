@@ -1,0 +1,104 @@
+{
+ "title": "Bold Nocturne Drops",
+ "handle": "bold-nocturne-drops",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>The Bold Nocturne link, worn at the ear. Each earring is a polished oval link on a post with a larger pavé set oval link hanging below it, the same links as our Bold Nocturne Chain and Bracelet. Bold enough to wear alone.</p><p><strong>STYLING TIP:</strong> Wear them with the Bold Nocturne Chain or Bracelet.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 30mm</li>\n<li>Construction: A polished oval link on a post, with a larger pavé set oval link hanging below</li>\n<li>Stone: Clear cubic zirconia pavé</li>\n<li>Closure: Post back</li>\n<li>Plating: 18k PVD gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Bold Nocturne Drops — Earrings | Naira Petite",
+  "description": "Each earring is a polished oval link on a post with a larger pavé set oval link hanging below it, the same links as our Bold Nocturne Chain and Bracelet. Bold Nocturne Drops by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1599",
+   "sku": "YF5144-EAR",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "433"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2ceb34a3-b476-49ae-8c5d-2dde451ded7e.jpg",
+   "alt": "Bold Nocturne Drops — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/68a9e839-d00d-4448-999e-aaa571f1107f.jpg",
+   "alt": "Bold Nocturne Drops — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/62e25ceb-7f67-4d8e-b728-d7b605a48773.jpg",
+   "alt": "Bold Nocturne Drops — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c9ca1b62-4346-48f0-a7e8-9e4b0ed80ce0.jpg",
+   "alt": "Bold Nocturne Drops — macro detail: pavé oval link hanging from its polished link",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "title": "Pearl Nugget Hoops",
+ "handle": "pearl-nugget-hoops",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Hoops",
+  "Naira Petite",
+  "Pearl"
+ ],
+ "descriptionHtml": "<p>A pearl, held in a glitter of gold. Small gold hoops whose lower curve is crowded with short faceted gold beads, slightly jumbled so the edge catches light, cradling one round white pearl inside each hoop. Hinged lever backs.</p><p><strong>STYLING TIP:</strong> Wear them with a crisp white shirt or a silk blouse.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 22mm across</li>\n<li>Pearl: One round white pearl, approximately 10mm, inside each hoop</li>\n<li>Detail: Lower curve set with short faceted gold beads</li>\n<li>Closure: Hinged lever back</li>\n<li>Finish: Gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Pearl Nugget Hoops — Earrings | Naira Petite",
+  "description": "Small gold hoops whose lower curve is crowded with short faceted gold beads, slightly jumbled so the edge catches light, cradling one round white pearl inside each hoop. Pearl Nugget Hoops by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1499",
+   "sku": "N20-PEARL",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6909c402-078c-4ef4-b45e-e1a0a3c9e028.jpg",
+   "alt": "Pearl Nugget Hoops — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/62694769-f633-42d9-8f17-86950a8fe6b4.jpg",
+   "alt": "Pearl Nugget Hoops — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ca4d173f-7be7-4493-a00c-1c1568f47a6c.jpg",
+   "alt": "Pearl Nugget Hoops — worn, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/64a00391-9520-4e3d-abf3-b674ba114bc5.jpg",
+   "alt": "Pearl Nugget Hoops — macro detail: round white pearl inside a collar of faceted gold beads",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

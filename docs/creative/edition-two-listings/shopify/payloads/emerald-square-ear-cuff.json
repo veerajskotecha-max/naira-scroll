@@ -1,0 +1,105 @@
+{
+ "title": "Emerald Square Ear Cuff",
+ "handle": "emerald-square-ear-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Ear Cuff",
+  "Earrings",
+  "Edition Two",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>One green square, no piercing needed. An ear cuff of slim polished gold wire that slides onto the middle ridge of the ear, carrying one square princess cut emerald green stone in four claws. Wear it alone or with the Crystal Pear Ear Cuff above it.</p><p><strong>STYLING TIP:</strong> Wear it with the Crystal Pear Ear Cuff on the same ear.</p><p><strong>Details</strong></p><ul>\n<li>Style: Ear cuff, no piercing needed</li>\n<li>Size: Approximately 12mm across</li>\n<li>Stone: One square princess cut emerald green cubic zirconia, approximately 5mm, in four claws</li>\n<li>Fit: Slides onto the middle ridge of the ear</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Emerald Square Ear Cuff — Earrings | Naira Petite",
+  "description": "An ear cuff of slim polished gold wire that slides onto the middle ridge of the ear, carrying one square princess cut emerald green stone in four claws. Emerald Square Ear Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "price": "1199",
+   "sku": "YF3652-GRN",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "271"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/05a363a8-8850-4a6a-82ac-a408cd7f6668.jpg",
+   "alt": "Emerald Square Ear Cuff — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2a26e97c-66d3-4d9a-8980-8c1f0b9543c7.jpg",
+   "alt": "Emerald Square Ear Cuff — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1f3eb55e-55f6-4f90-b4aa-7bcd6fa8b885.jpg",
+   "alt": "Emerald Square Ear Cuff — worn on the ear with the Crystal Pear Ear Cuff above it, close detail",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/12720d19-5240-4da9-8fbd-594771092bd9.jpg",
+   "alt": "Emerald Square Ear Cuff — macro detail: square emerald-green stone in four gold claws",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "title": "Baguette Huggies",
+ "handle": "baguette-huggies",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Edition Two",
+  "Huggies",
+  "Hypoallergenic",
+  "Naira Petite",
+  "Tarnish Free",
+  "Waterproof"
+ ],
+ "descriptionHtml": "<p>A small hoop of colour. Gold huggie hoops with one row of baguettes standing crosswise along the lower front, the upper half plain polished gold. Hinged snap closure. In Ruby, Crystal, Emerald or Amethyst.</p><p><strong>STYLING TIP:</strong> Mismatch them, one ruby and one emerald, or wear a pair beside the matching band.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 18mm across</li>\n<li>Stones: One row of baguette cut cubic zirconia standing crosswise along the lower front</li>\n<li>Colours: Ruby, Crystal, Emerald or Amethyst</li>\n<li>Upper half: Plain polished gold</li>\n<li>Closure: Hinged snap</li>\n<li>Plating: 18k gold tone plated</li>\n<li>Material: Surgical stainless steel</li>\n</ul><p><strong>Care</strong></p><p>Waterproof and tarnish free, so daily wear and water are fine. Keep it away from perfume and harsh chemicals, wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Baguette Huggies — Earrings | Naira Petite",
+  "description": "Gold huggie hoops with one row of baguettes standing crosswise along the lower front, the upper half plain polished gold. Baguette Huggies by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Stone",
+   "values": [
+    {
+     "name": "Ruby"
+    },
+    {
+     "name": "Crystal"
+    },
+    {
+     "name": "Emerald"
+    },
+    {
+     "name": "Amethyst"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Ruby"
+    }
+   ],
+   "price": "1399",
+   "sku": "YF3923-RU",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "318"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5b1db5cf-e98e-41c3-b411-f3d165cbf67c.jpg",
+    "alt": "Baguette Huggies, Ruby — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Crystal"
+    }
+   ],
+   "price": "1399",
+   "sku": "YF3923-CR",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "318"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/151d0f0a-6c0b-4873-abb8-598755e393d1.jpg",
+    "alt": "Baguette Huggies, Crystal — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Emerald"
+    }
+   ],
+   "price": "1399",
+   "sku": "YF3923-EM",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "318"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bff78c83-b184-47e8-a791-5454d010026b.jpg",
+    "alt": "Baguette Huggies, Emerald — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Stone",
+     "name": "Amethyst"
+    }
+   ],
+   "price": "1399",
+   "sku": "YF3923-AM",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "318"
+   },
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1d6e2afc-d943-4530-a5c9-c044ee6b187d.jpg",
+    "alt": "Baguette Huggies, Amethyst — on a cream plaster block, the full piece straight on",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5b1db5cf-e98e-41c3-b411-f3d165cbf67c.jpg",
+   "alt": "Baguette Huggies, Ruby — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c3ad7bfa-7b97-4712-b86f-cc06ee1225f0.jpg",
+   "alt": "Baguette Huggies, Ruby — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ece05919-85ce-40bd-8f72-7c75fe2da47b.jpg",
+   "alt": "Baguette Huggies, Ruby — macro detail: row of ruby baguettes along the huggie",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/151d0f0a-6c0b-4873-abb8-598755e393d1.jpg",
+   "alt": "Baguette Huggies, Crystal — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bff78c83-b184-47e8-a791-5454d010026b.jpg",
+   "alt": "Baguette Huggies, Emerald — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1d6e2afc-d943-4530-a5c9-c044ee6b187d.jpg",
+   "alt": "Baguette Huggies, Amethyst — on a cream plaster block, the full piece straight on",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

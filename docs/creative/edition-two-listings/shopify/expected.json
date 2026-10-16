@@ -1,0 +1,439 @@
+{
+ "baguette-eternity-band": {
+  "t": "Baguette Eternity Band",
+  "v": 9,
+  "m": 7,
+  "skus": [
+   "YF3143-AM-6",
+   "YF3143-AM-7",
+   "YF3143-AM-8",
+   "YF3143-EM-6",
+   "YF3143-EM-7",
+   "YF3143-EM-8",
+   "YF3143-RU-6",
+   "YF3143-RU-7",
+   "YF3143-RU-8"
+  ],
+  "prices": [
+   "1499"
+  ]
+ },
+ "baguette-huggies": {
+  "t": "Baguette Huggies",
+  "v": 4,
+  "m": 6,
+  "skus": [
+   "YF3923-AM",
+   "YF3923-CR",
+   "YF3923-EM",
+   "YF3923-RU"
+  ],
+  "prices": [
+   "1399"
+  ]
+ },
+ "baguette-tennis-bracelet": {
+  "t": "Baguette Tennis Bracelet",
+  "v": 3,
+  "m": 9,
+  "skus": [
+   "YF3165-BR-CR",
+   "YF3165-BR-EM",
+   "YF3165-BR-RU"
+  ],
+  "prices": [
+   "1699"
+  ]
+ },
+ "baguette-tennis-necklace": {
+  "t": "Baguette Tennis Necklace",
+  "v": 3,
+  "m": 5,
+  "skus": [
+   "YF3165-NE-CR",
+   "YF3165-NE-EM",
+   "YF3165-NE-RU"
+  ],
+  "prices": [
+   "2299"
+  ]
+ },
+ "birthstone-heart-necklace": {
+  "t": "Birthstone Heart Necklace",
+  "v": 12,
+  "m": 12,
+  "skus": [
+   "N25-APR",
+   "N25-AUG",
+   "N25-DEC",
+   "N25-FEB",
+   "N25-JAN",
+   "N25-JUL",
+   "N25-JUN",
+   "N25-MAR",
+   "N25-MAY",
+   "N25-NOV",
+   "N25-OCT",
+   "N25-SEP"
+  ],
+  "prices": [
+   "999"
+  ]
+ },
+ "bold-nocturne-drops": {
+  "t": "Bold Nocturne Drops",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF5144-EAR"
+  ],
+  "prices": [
+   "1599"
+  ]
+ },
+ "chain-drop-dome-ring": {
+  "t": "Chain Drop Dome Ring",
+  "v": 6,
+  "m": 4,
+  "skus": [
+   "YF8086-G-6",
+   "YF8086-G-7",
+   "YF8086-G-8",
+   "YF8086-S-6",
+   "YF8086-S-7",
+   "YF8086-S-8"
+  ],
+  "prices": [
+   "1199"
+  ]
+ },
+ "crystal-baguette-eternity-ring": {
+  "t": "Crystal Baguette Eternity Ring",
+  "v": 3,
+  "m": 4,
+  "skus": [
+   "YF2604-6",
+   "YF2604-7",
+   "YF2604-8"
+  ],
+  "prices": [
+   "1899"
+  ]
+ },
+ "crystal-pear-ear-cuff": {
+  "t": "Crystal Pear Ear Cuff",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF3652-WHT"
+  ],
+  "prices": [
+   "1199"
+  ]
+ },
+ "droplet-open-cuff": {
+  "t": "Droplet Open Cuff",
+  "v": 2,
+  "m": 4,
+  "skus": [
+   "YF3791-B-G",
+   "YF3791-B-S"
+  ],
+  "prices": [
+   "1899"
+  ]
+ },
+ "droplet-open-ring": {
+  "t": "Droplet Open Ring",
+  "v": 2,
+  "m": 6,
+  "skus": [
+   "YF3791-R-G",
+   "YF3791-R-S"
+  ],
+  "prices": [
+   "1399"
+  ]
+ },
+ "duo-link-bracelet": {
+  "t": "Duo Link Bracelet",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF8079-BRA"
+  ],
+  "prices": [
+   "1299"
+  ]
+ },
+ "duo-link-necklace": {
+  "t": "Duo Link Necklace",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF8079-NEC"
+  ],
+  "prices": [
+   "1799"
+  ]
+ },
+ "emerald-deco-hoops": {
+  "t": "Emerald Deco Hoops",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "N24-DECO"
+  ],
+  "prices": [
+   "1899"
+  ]
+ },
+ "emerald-halo-c-hoops": {
+  "t": "Emerald Halo C-Hoops",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "N21-HALO"
+  ],
+  "prices": [
+   "1699"
+  ]
+ },
+ "emerald-square-ear-cuff": {
+  "t": "Emerald Square Ear Cuff",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF3652-GRN"
+  ],
+  "prices": [
+   "1199"
+  ]
+ },
+ "fine-tennis-bracelet": {
+  "t": "Fine Tennis Bracelet",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF7116"
+  ],
+  "prices": [
+   "1299"
+  ]
+ },
+ "garnet-cable-cuff": {
+  "t": "Garnet Cable Cuff",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "N03-GARNET"
+  ],
+  "prices": [
+   "1999"
+  ]
+ },
+ "kiss-knot-bangle": {
+  "t": "Kiss Knot Bangle",
+  "v": 2,
+  "m": 6,
+  "skus": [
+   "YF4152-G",
+   "YF4152-S"
+  ],
+  "prices": [
+   "1499"
+  ]
+ },
+ "linked-trio-ring": {
+  "t": "Linked Trio Ring",
+  "v": 6,
+  "m": 4,
+  "skus": [
+   "YF7016-G-6",
+   "YF7016-G-7",
+   "YF7016-G-8",
+   "YF7016-S-6",
+   "YF7016-S-7",
+   "YF7016-S-8"
+  ],
+  "prices": [
+   "1399"
+  ]
+ },
+ "marquise-drop-choker": {
+  "t": "Marquise Drop Choker",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF7059"
+  ],
+  "prices": [
+   "1599"
+  ]
+ },
+ "marquise-wheat-cuff": {
+  "t": "Marquise Wheat Cuff",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF3508"
+  ],
+  "prices": [
+   "2199"
+  ]
+ },
+ "mesh-band-ring": {
+  "t": "Mesh Band Ring",
+  "v": 6,
+  "m": 4,
+  "skus": [
+   "YF3558-G-6",
+   "YF3558-G-7",
+   "YF3558-G-8",
+   "YF3558-S-6",
+   "YF3558-S-7",
+   "YF3558-S-8"
+  ],
+  "prices": [
+   "999"
+  ]
+ },
+ "mint-pear-drop-earrings": {
+  "t": "Mint Pear Drop Earrings",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF7034"
+  ],
+  "prices": [
+   "1499"
+  ]
+ },
+ "north-star-bangle": {
+  "t": "North Star Bangle",
+  "v": 2,
+  "m": 4,
+  "skus": [
+   "YF5204-G",
+   "YF5204-S"
+  ],
+  "prices": [
+   "1499"
+  ]
+ },
+ "pear-point-open-cuff": {
+  "t": "Pear Point Open Cuff",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "YF8221"
+  ],
+  "prices": [
+   "1799"
+  ]
+ },
+ "pearl-nugget-hoops": {
+  "t": "Pearl Nugget Hoops",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "N20-PEARL"
+  ],
+  "prices": [
+   "1499"
+  ]
+ },
+ "petal-flower-studs": {
+  "t": "Petal Flower Studs",
+  "v": 2,
+  "m": 4,
+  "skus": [
+   "YF7126-G",
+   "YF7126-S"
+  ],
+  "prices": [
+   "1199"
+  ]
+ },
+ "roman-numeral-trio-ring": {
+  "t": "Roman Numeral Trio Ring",
+  "v": 3,
+  "m": 4,
+  "skus": [
+   "YF2931-6",
+   "YF2931-7",
+   "YF2931-8"
+  ],
+  "prices": [
+   "1899"
+  ]
+ },
+ "silk-mesh-cuff": {
+  "t": "Silk Mesh Cuff",
+  "v": 2,
+  "m": 6,
+  "skus": [
+   "YF3482-G",
+   "YF3482-S"
+  ],
+  "prices": [
+   "1899"
+  ]
+ },
+ "tile-stone-bangle": {
+  "t": "Tile Stone Bangle",
+  "v": 1,
+  "m": 4,
+  "skus": [
+   "N10-TILE"
+  ],
+  "prices": [
+   "1599"
+  ]
+ },
+ "triple-coil-wrap-bangle": {
+  "t": "Triple Coil Wrap Bangle",
+  "v": 2,
+  "m": 4,
+  "skus": [
+   "YF3937-G",
+   "YF3937-S"
+  ],
+  "prices": [
+   "1799",
+   "1899"
+  ]
+ },
+ "tubogas-dome-ring": {
+  "t": "Tubogas Dome Ring",
+  "v": 6,
+  "m": 4,
+  "skus": [
+   "YF3608-G-6",
+   "YF3608-G-7",
+   "YF3608-G-8",
+   "YF3608-S-6",
+   "YF3608-S-7",
+   "YF3608-S-8"
+  ],
+  "prices": [
+   "1399"
+  ]
+ },
+ "watch-link-ring": {
+  "t": "Watch Link Ring",
+  "v": 6,
+  "m": 4,
+  "skus": [
+   "YF2645-G-6",
+   "YF2645-G-7",
+   "YF2645-G-8",
+   "YF2645-S-6",
+   "YF2645-S-7",
+   "YF2645-S-8"
+  ],
+  "prices": [
+   "1199"
+  ]
+ }
+}
