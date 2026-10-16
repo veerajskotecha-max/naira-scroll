@@ -1,0 +1,127 @@
+[
+ {
+  "id": "ctl_toggle",
+  "score": 8.5,
+  "verdict": "run",
+  "strengths": [
+   "A real listing photo on a plaster cube: honest, light and on-palette. Pairs with T07 and T10.",
+   "The copy is true ('close with a turn' is the listing's own line; 50 cm; ₹1,499) and sits on clean peach at 9.4:1, 8.3:1 and 7.7:1."
+  ],
+  "issues": [
+   "[photo] A product still, not the craft close-up the data asks for (rule 5). The clasp, which is the selling point, is about 25 px on a phone and seen edge-on.",
+   "[photo] A dark, out-of-focus shape fills the top-left corner behind the first letters of the headline.",
+   "The refs hold no better plain photo: ref-clasp.jpg is 900×780 and on skin, listing-2 is on dark green velvet, and listing-0 shows the chin."
+  ],
+  "fixes": [
+   "[apply] None with the photos on file.",
+   "[no layout fix] If Shopify has a plain close-up of the clasp at 1,600 px or more, swap it in."
+  ]
+ },
+ {
+  "id": "ctl_woven",
+  "score": 6,
+  "verdict": "fix",
+  "strengths": [
+   "Honest: a real listing photo with true copy (a braid of gold strands, 25 mm, ₹1,499). Pairs with the seven hoop ads."
+  ],
+  "issues": [
+   "[fairness] The photo is an oxblood wet dome, the account's worst static family (0.49×) and retired for prospecting. The hoop concept ads are blush and ivory, so this control would test palette as well as concept.",
+   "[clean] A 'NAIRA' wordmark and a flower logo are baked into the photo, so the ad carries two logos on top of the overlay copy.",
+   "[history] It's the image behind the 'Woven, not cast.' Story that already ran (₹1,333, 1 sale), so it isn't a fresh control."
+  ],
+  "fixes": [
+   "[apply] path: \"concept-camps/build/refs/woven/listing-2.jpg\", tone: ink, at: tl, w: 720. Tested: one hoop hangs in front of a plaster block and the other lies on top, a clean craft close-up that matches the other controls. The correction fits one line, at 8.9:1, 9.5:1 and 7.5:1. Takes it to 9.5. The 896 px source is upscaled 1.21×, which is slightly soft at full size but not on a phone."
+  ]
+ },
+ {
+  "id": "ctl_heart",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "A true craft close-up from the listing: the gold toggle, T-bar and puffed heart large and sharp, with the beads alongside, on plaster. Pairs with H01, H08 and H09.",
+   "The copy is true and matches H08 (mirror-polished beads, gold toggle and heart, ₹1,299). It reads at 11–12:1 and sits clear of the piece.",
+   "Fair: the same palette family and the same facts as the Heartbead concept ads."
+  ],
+  "issues": [
+   "None that matter. The beads read gunmetal grey here, which is how the listing shows them."
+  ],
+  "fixes": [
+   "None."
+  ]
+ },
+ {
+  "id": "ctl_prism",
+  "score": 8,
+  "verdict": "fix",
+  "strengths": [
+   "An honest listing photo of the whole bracelet with its fold-over clasp. True copy at 12:1. Pairs with P01, P02 and P09."
+  ],
+  "issues": [
+   "[fairness] A product shot, not a close-up. Each stone is about 15 px on a phone, so the halos don't read, while P01 and P09 show the stones big.",
+   "[honesty] Two stones at the back right fall into shade and read lilac, a fourth colour the real piece doesn't have (the repo's audit flagged lilac in Prism listing imagery). The copy says aqua, pink and yellow."
+  ],
+  "fixes": [
+   "[apply] path: \"concept-camps/build/refs/prism/listing-7.jpg\", at: bl. Tested: a macro of the front stones in their halos, with almost no lilac cast (0.1% of pink pixels lean violet, against 1.4% in listing-3), and the copy on the plaster face at 12:1. Top left would fail at 2.0:1 over the shadow. Takes it to 9.5. The 896 px source is upscaled 1.21×."
+  ]
+ },
+ {
+  "id": "ctl_dome",
+  "score": 7.5,
+  "verdict": "fix",
+  "strengths": [
+   "A gorgeous plain craft close-up from the listing: a mirror-polished dome huggie with its hinge visible, on cream. Pairs with dome1.",
+   "The copy is true: 'Polished gold, with a hinged snap.' matches the listing's 'plain polished, hinged snap closure', and the price line reads '₹1,649 · Pre-order'."
+  ],
+  "issues": [
+   "[clean] 'Huggies.' sits on the hoop's bottom curve. The darkest 5% of the headline falls to 2.3:1 where the letters cross the gold reflections."
+  ],
+  "fixes": [
+   "[apply] at: tl, y: 56. Tested: the copy moves onto clean cream above the hoop, with the price line about 30 px clear, at 11:1 throughout. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_verdant",
+  "score": 9.5,
+  "verdict": "fix",
+  "strengths": [
+   "An honest macro from the listing: an emerald-green cushion stone and clear halo in white metal, as the photos show. The copy makes no metal claim. Pairs with verdant1.",
+   "True copy, legible at 9.8–13.9:1."
+  ],
+  "issues": [
+   "[clean] The copy ends 18 px from the nearest halo prong, which is tight.",
+   "[claim, PDP] The listing text says yellow gold, but the photos show white metal (as with verdant1)."
+  ],
+  "fixes": [
+   "[apply] y: 56. Tested: clearance rises to 33 px. This makes it a 10."
+  ]
+ },
+ {
+  "id": "ctl_quatrefoil",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "An honest macro: a pavé star outline, four pear-cut petals, a round centre stone, in yellow gold. The copy describes exactly that. Pairs with quatrefoil1.",
+   "11–14:1 on clean cream, well clear of the star."
+  ],
+  "issues": [
+   "[claim, PDP] The listing text describes a 'four-lobed quatrefoil clover … micro-pavé', which the photos contradict. The control and the ad follow the photos; fix the PDP text."
+  ],
+  "fixes": [
+   "None to the control."
+  ]
+ },
+ {
+  "id": "ctl_square",
+  "score": 10,
+  "verdict": "run",
+  "strengths": [
+   "An honest macro: a squared-off polished huggie with its hinge and seed pearls. True copy at 13.6:1, about 50 px clear of the huggie. Pairs with squareB1."
+  ],
+  "issues": [
+   "[claim, PDP] The pearls show in every listing photo, but the text never names them. The copy rightly doesn't claim them until the PDP does."
+  ],
+  "fixes": [
+   "None. Once the PDP names the pearls, c: \"Squared-off gold, set with seed pearls.\" (or the PDP's own wording) fits one line at w: 700 (tested)."
+  ]
+ }
+]

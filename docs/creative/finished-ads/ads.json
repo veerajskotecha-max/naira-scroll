@@ -9,7 +9,8 @@
    "c": "The toggle clasp, worn as the pendant.",
    "n": "Toggle Link Chain · 50 cm · ₹1,499",
    "at": "br",
-   "w": 600
+   "w": 600,
+   "scrim": true
   },
   {
    "id": "T10_a1",
@@ -75,7 +76,9 @@
    "c": "One braid in your hair, two at your ears.",
    "n": "25 mm · ₹1,499",
    "at": "bl",
-   "w": 420
+   "w": 420,
+   "x": 56,
+   "cs": 38
   },
   {
    "id": "W07_a2",
@@ -85,7 +88,8 @@
    "c": "Woven gold strands, 25 mm across.",
    "n": "Woven Gold Hoops · ₹1,499",
    "at": "tl",
-   "w": 820
+   "w": 820,
+   "scrim": true
   },
   {
    "id": "W10_a2",
@@ -95,7 +99,8 @@
    "c": "Woven Gold Hoops, 25 mm across.",
    "n": "₹1,499 · Naira Petite",
    "at": "tl",
-   "w": 560
+   "w": 560,
+   "scrim": true
   },
   {
    "id": "H01_e1",
@@ -126,8 +131,9 @@
    "c": "Mirror steel, not silver varq.",
    "n": "Heartbead Bracelet · ₹1,299",
    "at": "tr",
-   "w": 470,
-   "scrim": true
+   "w": 760,
+   "scrim": true,
+   "hs": 84
   },
   {
    "id": "P01_a1",
@@ -137,31 +143,29 @@
    "c": "Aqua, pink and yellow stones, each in its own halo.",
    "n": "Prism Rivière Bracelet · ₹2,399",
    "at": "tl",
-   "w": 640,
-   "scrim": true
+   "w": 640
   },
   {
    "id": "P02_a2c",
    "src": "c4",
    "fmt": "9:16",
    "h": "Rangoli, in a line.",
-   "c": "Aqua, pink and yellow stones, each in its own halo.",
+   "c": "Aqua, pink and yellow, each in its own halo.",
    "n": "₹2,399 · Prism Rivière",
    "at": "tl",
    "w": 400,
    "x": 56,
-   "scrim": true,
    "hs": 84
   },
   {
    "id": "P09_a1",
    "src": "c4",
    "fmt": "4:5",
-   "h": "After the rain.",
-   "c": "Waterproof. 5 mm stones, each in a halo.",
+   "h": "Rainbow, rainproof.",
+   "c": "5 mm stones, each in its own halo.",
    "n": "Prism Rivière Bracelet · ₹2,399",
    "at": "bl",
-   "w": 560,
+   "w": 720,
    "scrim": true
   },
   {
@@ -218,7 +222,6 @@
    "n": "Prism Rivière Bracelet · ₹2,399",
    "at": "tl",
    "w": 640,
-   "scrim": true,
    "plate": "P01_a1",
    "ext": true
   },
@@ -226,11 +229,11 @@
    "id": "P09_a1-story",
    "src": "c4",
    "fmt": "9:16",
-   "h": "After the rain.",
-   "c": "Waterproof. 5 mm stones, each in a halo.",
+   "h": "Rainbow, rainproof.",
+   "c": "5 mm stones, each in its own halo.",
    "n": "Prism Rivière Bracelet · ₹2,399",
    "at": "bl",
-   "w": 560,
+   "w": 720,
    "scrim": true,
    "plate": "P09_a1",
    "ext": true
