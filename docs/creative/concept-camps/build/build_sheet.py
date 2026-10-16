@@ -254,9 +254,11 @@ FIN = {f["id"][3:]: f for f in finished}; CTL = {c["id"]: c for c in controls}
 def pick(ids, pool): return [dict(id=i, name=pool[i]["name"] if i in pool else i, score=pool[i]["score"] if i in pool else None,
                                   aspect=pool[i]["aspect"] if i in pool else "") for i in ids if i in pool]
 RUN = [("Prism Rivière Bracelet", "₹2,399 · in stock · the proven product (12 of 16 concept sales)",
-        ["P01_a1", "prismC1_m1", "P09_a1"], ["P02_a2c", "P01_a1-story"], ["ctl_prism", "ctl_prism-story"],
+        ["P01_a1", "prismC1_m1", "P10_a1c", "P09_a1"], ["P02_a2c", "P01_a1-story"], ["ctl_prism", "ctl_prism-story"],
         "Lead here. prismC1_m1 is a fresh picture for the account's best ad (the same pun, the real bracelet), so run it in the "
-        "Feed beside P01. A/B the two rangoli Stories (both 10) rather than running them against each other."),
+        "Feed beside P01. P10_a1c (‘Watercolour, set in stone.’) is P01's head-to-head challenger, not a third concept: the winner "
+        "keeps the slot, and the loser becomes the refresh after Diwali. A/B the two rangoli Stories (both 10) rather than running "
+        "them against each other; hold P10_a1c-story until P10_a1c wins its Feed test."),
        ("Prism Cluster Studs", "₹2,099 · pre-order", ["clusterC1_m1"], [], ["ctl_cluster"],
         "The ‘Almost edible.’ pun on a ₹2,000+ piece, with the real stud. Settle the pearl count on the listing first: the macro "
         "shows 8, the text says 6."),
