@@ -2,7 +2,7 @@
 # One, each with its reviewer verdict, plus the keepers, the credit ledger, the ad data and the PDFs.
 # Output: <scratchpad>/sheet (index.html, t/ thumbnails, f/ full-size JPGs, pdfs/). Card lines come from sheet_lines.json when it
 # has the frame, otherwise from the verdict itself. Usage: build_sheet.py
-import base64, collections, glob, json, os, re, shutil
+import base64, collections, glob, json, os, re, shutil, sys
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -105,17 +105,16 @@ for f in frames: del f["sort"]
 
 # Finished ads: each keeper with its copy set (finished-ads/build_ads.py), scored by the newest review_r*.json.
 FA = os.path.normpath(os.path.join(HERE, "..", "..", "finished-ads"))
-# A score shows only if the reviewer saw this exact version of the ad: review_rN.sig.json snapshots each ad's settings at review time.
-reviews = sorted(glob.glob(f"{FA}/review_r[0-9].json") + glob.glob(f"{FA}/review_r[0-9][0-9].json"), key=os.path.getmtime)
-REV = {r["id"]: r for r in json.load(open(reviews[-1]))} if reviews else {}
-SIG = json.load(open(reviews[-1][:-5] + ".sig.json")) if reviews and os.path.exists(reviews[-1][:-5] + ".sig.json") else {}
-def adsig(a): return json.dumps({k: v for k, v in a.items() if k not in ("id", "src")}, sort_keys=True, ensure_ascii=False)
+# A score shows only if a reviewer saw this exact version of the ad (each round's .sig.json snapshot; see finished-ads/reviews.py).
+sys.path.insert(0, FA); from reviews import current
+ADS_CFG, CTL_CFG = json.load(open(f"{FA}/ads.json"))["ads"], json.load(open(f"{FA}/controls.json"))["ads"]
+REV, CREV = current("review", ADS_CFG), current("controls_review", CTL_CFG)
 byid = {f["id"]: f for f in frames}; finished = []
 os.makedirs(f"{OUT}/ads", exist_ok=True); os.makedirs(f"{OUT}/at", exist_ok=True)
-for a in json.load(open(f"{FA}/ads.json"))["ads"]:
+for a in ADS_CFG:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
     if not os.path.exists(src) or a.get("plate", a["id"]) not in byid: continue
-    fr, r = byid[a.get("plate", a["id"])], (REV.get(a["id"], {}) if SIG.get(a["id"]) == adsig(a) else {}); im = Image.open(src); w, h = im.size
+    fr, r = byid[a.get("plate", a["id"])], REV.get(a["id"], {}); im = Image.open(src); w, h = im.size
     shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
     im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
     finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a.get('plate', a['id'])} · finished ad" + (" · Story" if a.get("ext") else ""), kind="Finished ad",
@@ -126,18 +125,19 @@ for a in json.load(open(f"{FA}/ads.json"))["ads"]:
 controls = []
 PIECE_OF = {"toggle": "toggle", "woven": "woven", "heart": "heart", "prism": "prism", "dome": "dome", "verdant": "verdant",
             "quatrefoil": "quatrefoil", "square": "square"}
-for a in json.load(open(f"{FA}/controls.json"))["ads"]:
+for a in CTL_CFG:
     src = f"{SPB}/ads/out/{a['id']}.jpg"
     if not os.path.exists(src): continue
-    k = a["id"].split("_", 1)[1]; im = Image.open(src); w, h = im.size
+    k = a["id"].split("_", 1)[1].split("-")[0]; im = Image.open(src); w, h = im.size
     if k in D4["pieces"]: P = D4["pieces"][k]; piece, price, sku = P["name"], P["price"], P["sku"]
     else: P = DE["pieces"][k]; piece, price, sku = P["title"], f"₹{P['price']:,}", P["sku"]
     shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
     im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
-    controls.append(dict(n=0, id=a["id"], tag="ctl", sec="", code=f"{piece} · plain control", kind="Plain control", name=a["h"], copy=a["c"],
-        aspect=a["fmt"], w=w, h=h, st="ctl", score=None, label="", line="The listing’s own close-up, to run beside the crazy ad as the control.",
-        reasons=[], notes=[], fix="", cr=0, piece=piece, price=price, sku=sku, t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
-        file=f"Naira-Control-{slug(piece)}.jpg", tw=640, th=round(h * 640 / w), sub=a["n"]))
+    controls.append(dict(n=0, id=a["id"], tag="ctl", sec="", code=f"{piece} · plain control" + (" · Story" if a.get("ext") else ""), kind="Plain control", name=a["h"], copy=a["c"],
+        aspect=a["fmt"], w=w, h=h, st="ctl", score=CREV.get(a["id"], {}).get("score"), label="",
+        line=(CREV.get(a["id"], {}).get("strengths") or ["The listing’s own close-up, to run beside the crazy ad as the control."])[0],
+        reasons=CREV.get(a["id"], {}).get("issues", []), notes=CREV.get(a["id"], {}).get("strengths", []), fix=" ".join(CREV.get(a["id"], {}).get("fixes", [])), cr=0, piece=piece, price=price, sku=sku, t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
+        file=f"Naira-Control-{slug(piece)}{'-Story' if a.get('ext') else ''}.jpg", tw=640, th=round(h * 640 / w), sub=a["n"]))
 SEC_RANK = {k: i for i, k in enumerate(["toggle", "woven", "heart", "prism", "e1h", "e1b"])}
 finished.sort(key=lambda f: (-(f["score"] or 0), SEC_RANK[f["sec"]], f["n"]))
 

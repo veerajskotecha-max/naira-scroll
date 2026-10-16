@@ -294,7 +294,7 @@ function chipText(f) {
   if (f.st === "pass") return "Passed" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   if (f.st === "fail") return "Missed" + (f.label ? " · " + f.label : "");
   if (f.st === "ad") return f.score != null ? "Review · " + f.score.toFixed(1) : "Finished ad";
-  if (f.st === "ctl") return "Plain control";
+  if (f.st === "ctl") return "Plain control" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   return "Awaiting check";
 }
 const chip = f => el("span", {class: "st st-" + f.st, text: chipText(f)});
