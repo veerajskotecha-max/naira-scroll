@@ -38,7 +38,8 @@ P = dict(cx=480, cy=1626,      # centre of the loop's contact ellipse in the sce
          # rather than the link tops, the piece softened to the scene's focus, the metal warmed toward the sweets
          contact="mask", cblend=1, sunlit_cap=1, soft=0.5, wall=78, wallshade=1.0, rim=0,
          # the front links face away from the back sun: faces darker, a sun rim on their tops, but none on links in a sweet's shadow
-         front=1, fshade=0.86, frim=0.35, rimsun=1)
+         front=1, fshade=0.86, frim=0.35, rimsun=1,
+         footclamp=1)     # the cut-out has no hole at the loop's ends: keep the front foot from lying below the piece itself
 for kv in sys.argv[1:]:
     k, v = kv.split("=", 1); P[k] = json.loads(v) if v[:1] in "[{0123456789-." else v
 
@@ -120,6 +121,12 @@ def main():
                 sel = (xx >= x_lo) & (xx <= x_hi) & ~ins
                 wgt = np.clip((xx[sel] - xl) / max(i0 - xl, 1), 0, 1) if i == i0 else np.clip((xr - xx[sel]) / max(xr - i1, 1), 0, 1)
                 yf[0, sel] = ef[sel] + dfi * wgt; yb[0, sel] = eb_[sel] + dbi * wgt
+    if P["footclamp"]:                # the front foot never lies below the piece's own lowest pixel in a column (composite_r3)
+        has = A.max(0) > .5; xi = np.arange(W)
+        lowA = ((H - 1) - np.argmax((A > .5)[::-1], axis=0)).astype(np.float32)
+        lowA = np.interp(xi, xi[has], lowA[has])
+        lowA = np.convolve(np.pad(lowA, 3, mode="edge"), np.ones(7) / 7, "valid")
+        cl = has & (yf[0] > lowA + 1); yf = yf.copy(); yf[0, cl] = lowA[cl] + 1
     band = P["band"]
     front = np.abs(Y - (yf - band / 2)) <= np.abs(Y - (yb - band / 2))
     foot = np.where(front, yf, yb) * np.ones_like(Y); hpx = np.clip(foot - Y, 0, None)

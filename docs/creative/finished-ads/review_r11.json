@@ -1,0 +1,20 @@
+[
+ {
+  "id": "W05_a2",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The spec-column glow landed as r8 simulated it. Spec line 14.2:1 (darkest 5% 11.4). The price reads 7.8:1 (7.4) unaided on the plain wall, on the spec line's baseline, 30 px below the hoop's lowest gold (y 1475). The top-left ink wordmark is unchanged at 9.7:1 (7.3).",
+   "The lower hoop is whole again. Not one of its gold pixels is lifted, even by one level, where r10 measured 13–61% paper over its lowest 60 px. The glow's footprint is x 0–744, y 1406–1606, and its faint edge passes about 11 px from the gold on the warp beside it. At 390 px the base is crisp, and the glow reads as soft light on the threads behind the spec line.",
+   "'Hanging by a thread.' is literally what the photo shows, and 'a braid of gold, 25 mm across.' gives the macro its real scale. Headline 8.8:1 (7.0), correction 8.6:1 (7.7), ending 72 px above the upper hoop's latch. All copy sits at y 302–1524, Stories-safe, and every claim is a listing fact."
+  ],
+  "issues": [
+   "[placement] Stories-only: there is no 4:5 Feed version of this idea, the data's stronger placement.",
+   "[cap: price] ₹1,499 is under the ₹2,000 line. Creatively a 10."
+  ],
+  "fixes": [
+   "[apply] None.",
+   "[no layout fix] A ₹2,000+ offer, such as two pairs or the hoops with the chain, lifts the cap."
+  ]
+ }
+]

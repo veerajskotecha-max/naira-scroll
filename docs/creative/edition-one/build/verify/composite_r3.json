@@ -1,0 +1,29 @@
+[
+ {
+  "plate": "clusterC1_m1.png",
+  "pick": true,
+  "box": [
+   150,
+   968,
+   1014,
+   2048
+  ],
+  "pass": true,
+  "severity": "minor",
+  "score": 9.0,
+  "reasons": [
+   "Light on the stud: still the first tell at full size, but weaker. gain 0.86 and rim 0.6 take the face below the paper, to metal 210,199,196 against the sunlit paper's 238,219,208, and put the sun on the upper-left rims, which suits a face turned away from the back-left sun. But each pearl and stone keeps the macro's soft frontal modelling, the soft highlight on its camera side. A back sun would leave only a thin bright crescent on the far upper-left edge.",
+   "Finish: the stud is crisper than the sweet beside it: sharpness index 0.745 against 0.52 for the pink sweet (and 0.71 for the right purple). The ad's 1.25× upscale softens both alike, so at 1080 the stud still looks a touch sharper than the sugar next to it.",
+   "Coloured glow: at glow 0.15 the amber patch under the yellow stone peaks at +24 levels (r2: +47), with 841 px changed by more than 8 levels. It is smooth where a sun caustic through a faceted stone would be sharp."
+  ],
+  "notes": [
+   "Install verified. At commit e7d1a78, comp_cluster.py defaults to cluster_A plus gain=0.86, rim=0.6, glow=0.15 (shx 38, shy 35, blur 0.8/2.5, grain 2.4, sweetshade 0). Only comments and defaults differ from r2's private copy /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/tools/comp_cluster_v6.py. To reproduce, run python3 -B comp_cluster.py out=review6/r3_cluster from docs/creative/finished-ads. The result has a maximum difference of 0 against both the live /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/e1/plates/clusterC1_m1.png and r2's test render /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/var/cA_fix.png.",
+   "Fidelity holds. The high-pass luma correlates 0.982 with the placed listing-5.jpg over 8,533 core px (0.989 before the regrade). Left to right: purple princess, pink baguette, yellow emerald-cut (the centre and the largest), purple princess, pink baguette, with the macro's 8 pearls. The listing text says six; that count is a question for the founder, as before.",
+   "Shadow and contact are unchanged from r2 and correct. The shadow is a crisp sheared silhouette over x 373-609, y 1724-1799. It follows the sweets' sun projected onto a face leaning back to 63°: the top edge's shadow lands at (+38,+35), 43° on screen. The deepest point is 0.681/0.525/0.485 of lit, against the sweets' 0.66-0.70/0.52-0.54/0.49-0.50, and 0 px fall on ground already shaded. The stud rests on its lowest claw at (470,1761), and by the sun-ray test no part of it is in a sweet's shadow. Grain 2.4, against 1.05-2.45 on the paper around it. Scale is true: 235 × 110 px, 0.85 of the pink sweet.",
+   "At the framing (box [150,968,1014,2048], a 1.25× upscale): at 390 px wide a viewer would not suspect a composite. At 1080 it lies convincingly in the sun on open paper, and the tells above take a close look. Scope: as asked, this scores the plate's realism only. r2's composition point is left to the ad review: the stud lies apart from the candy, 27% of the frame's width. On r2's basis, which counted that, this plate would still be 8.5.",
+   "Score 9.0 on realism. At ad size the light now reads as back-lit, and nothing is physically wrong for where the stud lies."
+  ],
+  "fix": "Tested in a private copy, /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/tools/comp_cluster_v7.py: the installed comp_cluster.py plus one option. Its defaults reproduce the live plate with a maximum difference of 0.\n(1) soft: right after `rgb, a = place(); h, w = a.shape`, when soft > 0, add `rgb = np.clip(cv2.GaussianBlur(rgb.astype(np.float32), (0, 0), P[\"soft\"]), 0, 1)`. At soft=0.4 (render /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/review6/var/r3c_soft0.4.png, made with python3 -B comp_cluster_v7.py soft=0.4) the sharpness index falls from 0.745 to 0.68, inside the neighbours' 0.52-0.71, and fidelity is 0.977. At soft=0.6 it reaches 0.50, but fidelity drops to 0.922.\n(2) Untested: glow=0.08, or a sharper caustic, to lose the soft amber patch.\n(3) For 10: a listing macro shot under a hard back-left light, so the pearls carry a sun crescent instead of studio highlights.\nComposition, outside this score: B's place with sweetshade=0.6 (r2), or a closer scene.",
+  "crop": null
+ }
+]

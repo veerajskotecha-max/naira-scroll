@@ -27,6 +27,7 @@ P = dict(cx=465, cy=1705,      # where the stud's centre sits in the scene (1536
          glow=0.15,            # light the stones let through into their own shadow
          grain=2.4, out="e1/plates/clusterC1_m1",   # relative to the scratchpad
          sweetshade=0,         # >0: stud pixels whose sun ray passes through a sweet lose that much sun, and their rim
+         soft=0.4,             # soften the macro to the neighbouring sweets' focus (composite_r3)
          sunlit_cap=1,         # ground already in a sweet's shadow takes no second shadow from the stud
          lit=(237.8, 219.2, 208.3))   # the open ground's colour, for reading where the sweets' shadows are
 for kv in sys.argv[1:]:
@@ -53,6 +54,7 @@ def place():
 def main():
     scene = np.asarray(Image.open(SCENE).convert("RGB")).astype(np.float32) / 255; H, W = scene.shape[:2]
     rgb, a = place(); h, w = a.shape
+    if P["soft"]: rgb = np.clip(cv2.GaussianBlur(rgb.astype(np.float32), (0, 0), P["soft"]), 0, 1)
     ox, oy = round(P["cx"] - w / 2), round(P["cy"] - h / 2)
     A = np.zeros((H, W), np.float32); A[oy:oy + h, ox:ox + w] = a
     S = np.zeros((H, W, 3), np.float32); S[oy:oy + h, ox:ox + w] = rgb
