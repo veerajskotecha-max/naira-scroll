@@ -103,6 +103,41 @@ for f in frames:
 frames.sort(key=lambda f: (SEC_ORDER.index(f["sec"]), f["sort"]))
 for f in frames: del f["sort"]
 
+# Finished ads: each keeper with its copy set (finished-ads/build_ads.py), scored by the newest review_r*.json.
+FA = os.path.normpath(os.path.join(HERE, "..", "..", "finished-ads"))
+reviews = sorted(glob.glob(f"{FA}/review_r*.json"), key=os.path.getmtime)
+REV = {r["id"]: r for r in json.load(open(reviews[-1]))} if reviews else {}
+byid = {f["id"]: f for f in frames}; finished = []
+os.makedirs(f"{OUT}/ads", exist_ok=True); os.makedirs(f"{OUT}/at", exist_ok=True)
+for a in json.load(open(f"{FA}/ads.json"))["ads"]:
+    src = f"{SPB}/ads/out/{a['id']}.jpg"
+    if not os.path.exists(src) or a["id"] not in byid: continue
+    fr, r = byid[a["id"]], REV.get(a["id"], {}); im = Image.open(src); w, h = im.size
+    shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
+    im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
+    finished.append(dict(n=fr["n"], id="ad_" + a["id"], tag=fr["tag"], sec=fr["sec"], code=f"{a['id']} · finished ad", kind="Finished ad",
+        name=a["h"], copy=a["c"], aspect=a["fmt"], w=w, h=h, st="ad", score=r.get("score"), label=r.get("verdict", ""),
+        line=(r.get("strengths") or [a["n"]])[0], reasons=r.get("issues", []), notes=r.get("strengths", []), fix=" ".join(r.get("fixes", [])),
+        cr=0, piece=fr["piece"], price=fr["price"], sku=fr["sku"], t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
+        file=f"Naira-Ad-{a['id']}-{slug(a['h'])}.jpg", tw=640, th=round(h * 640 / w), sub=a["n"]))
+controls = []
+PIECE_OF = {"toggle": "toggle", "woven": "woven", "heart": "heart", "prism": "prism", "dome": "dome", "verdant": "verdant",
+            "quatrefoil": "quatrefoil", "square": "square"}
+for a in json.load(open(f"{FA}/controls.json"))["ads"]:
+    src = f"{SPB}/ads/out/{a['id']}.jpg"
+    if not os.path.exists(src): continue
+    k = a["id"].split("_", 1)[1]; im = Image.open(src); w, h = im.size
+    if k in D4["pieces"]: P = D4["pieces"][k]; piece, price, sku = P["name"], P["price"], P["sku"]
+    else: P = DE["pieces"][k]; piece, price, sku = P["title"], f"₹{P['price']:,}", P["sku"]
+    shutil.copy(src, f"{OUT}/ads/{a['id']}.jpg")
+    im.resize((640, round(h * 640 / w)), Image.LANCZOS).save(f"{OUT}/at/{a['id']}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
+    controls.append(dict(n=0, id=a["id"], tag="ctl", sec="", code=f"{piece} · plain control", kind="Plain control", name=a["h"], copy=a["c"],
+        aspect=a["fmt"], w=w, h=h, st="ctl", score=None, label="", line="The listing’s own close-up, to run beside the crazy ad as the control.",
+        reasons=[], notes=[], fix="", cr=0, piece=piece, price=price, sku=sku, t=f"at/{a['id']}.jpg", f=f"ads/{a['id']}.jpg",
+        file=f"Naira-Control-{slug(piece)}.jpg", tw=640, th=round(h * 640 / w), sub=a["n"]))
+SEC_RANK = {k: i for i, k in enumerate(["toggle", "woven", "heart", "prism", "e1h", "e1b"])}
+finished.sort(key=lambda f: (-(f["score"] or 0), SEC_RANK[f["sec"]], f["n"]))
+
 TITLES = {"toggle": "The Turn", "woven": "Hand-Woven", "heart": "Heartbeat", "prism": "Colour, in a Straight Line"}
 sections = []
 for k in ["toggle", "woven", "heart", "prism"]:
@@ -151,12 +186,14 @@ C = collections.Counter(f["st"] for f in frames)
 stats = dict(keep=len(keepers), keepframes=C["keep"], passed=C["pass"], fail=C["fail"], wait=C["wait"],
              failScale=sum(1 for f in frames if f["st"] == "fail" and f["label"] == "Scale"))
 
-PDF_TITLES = [("Toggle", f"{TITLES['toggle']} · Toggle Link Chain"), ("Woven", f"{TITLES['woven']} · Woven Gold Hoops"),
-              ("Heartbead", f"{TITLES['heart']} · Heartbead Bracelet"), ("Prism", f"{TITLES['prism']} · Prism Rivière Bracelet"),
-              ("Board", "The four concept camps on one board"), ("Edition-One", "Edition One · every keeper")]
+PDF_TITLES = [("Ready-To-Run", "Ready-to-run ads, one per page"), ("Toggle", f"{TITLES['toggle']} · Toggle Link Chain"),
+              ("Woven", f"{TITLES['woven']} · Woven Gold Hoops"), ("Heartbead", f"{TITLES['heart']} · Heartbead Bracelet"),
+              ("Prism", f"{TITLES['prism']} · Prism Rivière Bracelet"), ("Board", "The four concept camps on one board"),
+              ("Edition-One", "Edition One · every keeper")]
 for f in os.listdir(f"{OUT}/pdfs"): os.remove(f"{OUT}/pdfs/{f}")
 pdfs = []
-for src in [f"{SPB}/c4/pdf_out", f"{SPB}/e1/pdf_out"]:
+for src in [f"{SPB}/c4/pdf_out", f"{SPB}/e1/pdf_out", f"{SPB}/ads/pdf_out"]:
+    if not os.path.isdir(src): continue
     for fn in os.listdir(src):
         shutil.copy(f"{src}/{fn}", f"{OUT}/pdfs/{fn}")
         b = open(f"{src}/{fn}", "rb").read()
@@ -185,7 +222,7 @@ nxt = dict(lede=("0.22 credits are left, under the one credit the cheapest model
                       "Petite Square Huggies: the description doesn’t mention the seed pearls that appear in every photo."])
 
 data = dict(frames=frames, keepers=[f["id"] for f in keepers], sections=sections, meter=meter, ledger=ledger, total=total,
-            stats=stats, pdfs=pdfs, ad=ad, next=nxt)
+            stats=stats, pdfs=pdfs, ad=ad, next=nxt, finished=finished, controls=controls)
 velista = base64.b64encode(open(f"{SPB}/c4/fonts/Velista.ttf", "rb").read()).decode()
 page = open(f"{HERE}/sheet_template.html").read()
 page = page.replace("__VELISTA__", velista).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))

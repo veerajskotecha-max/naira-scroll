@@ -1,0 +1,94 @@
+{
+ "note": "Plain craft close-ups to run beside the crazy ads in the same ad set (AD_PERFORMANCE.md: judge on cost per purchase). Real listing photos, the product name, a plain description from the listing and the price. Same layout knobs as ads.json; path is the listing photo.",
+ "ads": [
+  {
+   "id": "ctl_toggle",
+   "path": "concept-camps/build/refs/toggle/listing-1-cube.jpg",
+   "fmt": "4:5",
+   "h": "Toggle Link Chain.",
+   "c": "Paperclip links that close with a turn.",
+   "n": "50 cm · ₹1,499",
+   "at": "tl",
+   "w": 560,
+   "hs": 72
+  },
+  {
+   "id": "ctl_woven",
+   "path": "concept-camps/build/refs/woven/listing-0.jpg",
+   "fmt": "4:5",
+   "h": "Woven Gold Hoops.",
+   "c": "A braid of gold strands, 25 mm across.",
+   "n": "₹1,499",
+   "at": "bl",
+   "w": 600,
+   "hs": 72,
+   "tone": "cream"
+  },
+  {
+   "id": "ctl_heart",
+   "path": "concept-camps/build/refs/heart/listing-1.jpg",
+   "fmt": "4:5",
+   "h": "Heartbead Bracelet.",
+   "c": "Mirror-polished beads, a gold toggle and heart.",
+   "n": "₹1,299",
+   "at": "bl",
+   "w": 560,
+   "hs": 72
+  },
+  {
+   "id": "ctl_prism",
+   "path": "concept-camps/build/refs/prism/listing-3.jpg",
+   "fmt": "4:5",
+   "h": "Prism Rivière Bracelet.",
+   "c": "Aqua, pink and yellow stones, each in a halo.",
+   "n": "₹2,399",
+   "at": "bl",
+   "w": 620,
+   "hs": 72
+  },
+  {
+   "id": "ctl_dome",
+   "path": "edition-one/build/refs/dome/listing-5.jpg",
+   "fmt": "4:5",
+   "h": "Bold Dome Huggies.",
+   "c": "Polished gold, with a hinged snap.",
+   "n": "₹1,649 · Pre‑order",
+   "at": "bl",
+   "w": 560,
+   "hs": 72
+  },
+  {
+   "id": "ctl_verdant",
+   "path": "edition-one/build/refs/verdant/listing-5.jpg",
+   "fmt": "4:5",
+   "h": "Verdant Cushion Studs.",
+   "c": "A green cushion-cut stone in a halo of clear stones.",
+   "n": "₹2,199 · Pre‑order",
+   "at": "tl",
+   "w": 600,
+   "hs": 72
+  },
+  {
+   "id": "ctl_quatrefoil",
+   "path": "edition-one/build/refs/quatrefoil/listing-5.jpg",
+   "fmt": "4:5",
+   "h": "Quatrefoil Éclat Studs.",
+   "c": "A pavé star with four pear-cut petals.",
+   "n": "₹2,449 · Pre‑order",
+   "at": "tl",
+   "w": 600,
+   "hs": 72
+  },
+  {
+   "id": "ctl_square",
+   "path": "edition-one/build/refs/square/listing-5.jpg",
+   "fmt": "4:5",
+   "h": "Petite Square Huggies.",
+   "c": "A squared-off gold huggie, hinged.",
+   "n": "₹1,599 · Pre‑order",
+   "at": "bl",
+   "w": 600,
+   "hs": 72
+  }
+ ]
+}

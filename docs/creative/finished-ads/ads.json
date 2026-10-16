@@ -1,0 +1,203 @@
+{
+ "note": "Finished ads from the 19 keepers. Each: the pun headline, a plain-spoken correction, then the exact price (sizes only where the listing gives them). No metal claim where the listing text and photos disagree (Verdant, Bow); no ad claims water resistance. at: tl tr bl br (corner the copy sits in); w: copy width in px; y/x: offsets from that corner; tone: ink or cream; scrim: soft paper glow behind the copy; card: a cream label behind the copy.",
+ "ads": [
+  {
+   "id": "T07_a1c",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Turn it to the front.",
+   "c": "The toggle clasp, worn as the pendant.",
+   "n": "Toggle Link Chain · 50 cm · ₹1,499",
+   "at": "br",
+   "w": 600
+  },
+  {
+   "id": "T10_a1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "This Diwali, give the turn.",
+   "c": "A chain that closes with a turn, not a catch.",
+   "n": "Toggle Link Chain · ₹1,499",
+   "at": "br",
+   "w": 440,
+   "card": true,
+   "x": 64,
+   "y": 64,
+   "hs": 80
+  },
+  {
+   "id": "W01_a1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Hoop in a hoop.",
+   "c": "Woven gold strands, not a plain tube.",
+   "n": "Woven Gold Hoops · 25 mm · ₹1,499",
+   "at": "tl",
+   "w": 760
+  },
+  {
+   "id": "W02_a1",
+   "src": "c4",
+   "fmt": "9:16",
+   "h": "Hoop in a hoop.",
+   "c": "Woven Gold Hoops, not cast.",
+   "n": "₹1,499 · Naira Petite",
+   "at": "tl",
+   "w": 640
+  },
+  {
+   "id": "W03_a2",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Worked like thread.",
+   "c": "A braid of gold strands, not a plain tube.",
+   "n": "Woven Gold Hoops · ₹1,499",
+   "at": "tl",
+   "w": 460
+  },
+  {
+   "id": "W05_a2",
+   "src": "c4",
+   "fmt": "9:16",
+   "h": "Texture does the talking.",
+   "c": "Woven Gold Hoops, 25 mm across.",
+   "n": "₹1,499 · Naira Petite",
+   "at": "tr",
+   "w": 460
+  },
+  {
+   "id": "W06_a3",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Woven, twice.",
+   "c": "One braid in your hair, two at your ears. Woven Gold Hoops.",
+   "n": "₹1,499 · Naira Petite",
+   "at": "bl",
+   "w": 420
+  },
+  {
+   "id": "W07_a2",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Braided, like the skein.",
+   "c": "Woven gold strands, 25 mm across.",
+   "n": "Woven Gold Hoops · ₹1,499",
+   "at": "tl",
+   "w": 820
+  },
+  {
+   "id": "W10_a2",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "This Diwali, give texture.",
+   "c": "Woven Gold Hoops, boxed and ready.",
+   "n": "₹1,499 · Naira Petite",
+   "at": "tl",
+   "w": 560
+  },
+  {
+   "id": "H01_e1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Every beat, a little gold.",
+   "c": "Mirror-polished beads and one gold heart.",
+   "n": "Heartbead Bracelet · ₹1,299",
+   "at": "bl",
+   "w": 760
+  },
+  {
+   "id": "H08_a1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "The gold note.",
+   "c": "Silver beads, a gold toggle, one gold heart.",
+   "n": "Heartbead Bracelet · ₹1,299",
+   "at": "br",
+   "w": 520
+  },
+  {
+   "id": "H09_a1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Sweeter than mithai.",
+   "c": "Silver beads, not silver varq.",
+   "n": "Heartbead Bracelet · ₹1,299",
+   "at": "tr",
+   "w": 470
+  },
+  {
+   "id": "P01_a1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "Colour, in a straight line.",
+   "c": "Aqua, pink and yellow stones, each in its own halo.",
+   "n": "Prism Rivière Bracelet · ₹2,399",
+   "at": "tl",
+   "w": 640,
+   "scrim": true
+  },
+  {
+   "id": "P02_a2c",
+   "src": "c4",
+   "fmt": "9:16",
+   "h": "Colour, in a straight line.",
+   "c": "Aqua, pink and yellow stones, each in its own halo.",
+   "n": "Prism Rivière Bracelet · ₹2,399",
+   "at": "tl",
+   "w": 400,
+   "card": true,
+   "x": 56
+  },
+  {
+   "id": "P09_a1",
+   "src": "c4",
+   "fmt": "4:5",
+   "h": "After the rain.",
+   "c": "Every stone sits in its own halo.",
+   "n": "Prism Rivière Bracelet · ₹2,399",
+   "at": "bl",
+   "w": 560,
+   "scrim": true
+  },
+  {
+   "id": "verdant1_a1",
+   "src": "e1",
+   "fmt": "4:5",
+   "h": "Two of a kind.",
+   "c": "Green cushion-cut studs, not peas.",
+   "n": "Verdant Cushion Studs · ₹2,199 · Pre‑order",
+   "at": "tr",
+   "w": 780
+  },
+  {
+   "id": "squareB1_a1",
+   "src": "e1",
+   "fmt": "4:5",
+   "h": "Cool, squared.",
+   "c": "A gold huggie, not an ice cube.",
+   "n": "₹1,599 · Pre‑order · Naira Petite",
+   "at": "bl",
+   "w": 540
+  },
+  {
+   "id": "dome1_a1",
+   "src": "e1",
+   "fmt": "4:5",
+   "h": "One of these is not a mint.",
+   "c": "Bold Dome Huggies, polished gold.",
+   "n": "₹1,649 · Pre‑order · Naira Petite",
+   "at": "tl",
+   "w": 640
+  },
+  {
+   "id": "quatrefoil1_a1c",
+   "src": "e1",
+   "fmt": "4:5",
+   "h": "Mughal, in miniature.",
+   "c": "A four-point star of pavé and pear-cut stones, in gold.",
+   "n": "₹2,449 · Pre‑order",
+   "at": "tl",
+   "w": 400
+  }
+ ]
+}

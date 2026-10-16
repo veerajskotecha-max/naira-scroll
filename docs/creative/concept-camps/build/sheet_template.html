@@ -71,6 +71,15 @@ h1{font-size:clamp(60px,11vw,138px);line-height:.95}
 .st-pass{color:var(--gold);border:1px solid var(--gold)}
 .st-fail{color:var(--muted);background:var(--chip)}
 .st-wait{color:var(--muted);border:1px dashed var(--muted)}
+.st-ad{color:var(--paper);background:var(--ink)}
+.agrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:44px 28px;align-items:start}
+.native img{aspect-ratio:auto;object-fit:fill}
+.ap{margin:0;display:grid;gap:12px}
+.ap figcaption{display:grid;gap:5px}
+.ap .code{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-family:var(--label);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ap .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
+.ctlhead{margin-top:72px}
+.st-ctl{color:var(--muted);border:1px solid var(--rule)}
 
 /* Keepers */
 .kgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 30px;align-items:start}
@@ -172,10 +181,10 @@ details p{margin-top:10px}
 .lbbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-top:6px}
 .pos{font-family:var(--label);font-size:11.5px;letter-spacing:.1em;color:var(--muted);margin-left:auto}
 
-@media (max-width:1100px){.fgrid{grid-template-columns:repeat(4,minmax(0,1fr))} .kgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:1100px){.fgrid{grid-template-columns:repeat(4,minmax(0,1fr))} .kgrid,.agrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:900px){.sethead{grid-template-columns:minmax(0,1fr)} .data,.nextgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .lb{grid-template-columns:minmax(0,1fr)} .lbpic img{max-height:62vh} .lbside{max-height:none} .fgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media (max-width:620px){.wrap{gap:64px} .nums{column-gap:18px} .kgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 16px}
+@media (max-width:620px){.wrap{gap:64px} .nums{column-gap:18px} .kgrid,.agrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 16px}
   .fgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px} .legend{grid-template-columns:minmax(0,1fr)} .kn{font-size:22px} .hl{font-size:18px}
   .sq{width:12px;height:12px} .squares{gap:3px} .data,.nextgrid{grid-template-columns:minmax(0,1fr)} .pdfs li{grid-template-columns:minmax(0,1fr)} .pb{justify-items:start}
   body{font-size:18px} .ln{font-size:15px} .nm{font-size:17px} dialog{max-height:100vh;width:100vw;max-width:100vw} .lbpic{padding:10px}}
@@ -188,8 +197,16 @@ details p{margin-top:10px}
     <h1>Contact Sheet</h1>
     <p class="lede" id="lede"></p>
     <div class="nums" id="nums"></div>
-    <nav class="jump" aria-label="On this page"><a href="#keepers">The keepers</a><a href="#sheet">Every frame</a><a href="#credits">Credits</a><a href="#ad">Ad data</a><a href="#pdfs">PDFs</a><a href="#next">Next</a></nav>
+    <nav class="jump" aria-label="On this page"><a href="#ads" id="adsLink" hidden>Ready to run</a><a href="#keepers">The keepers</a><a href="#sheet">Every frame</a><a href="#credits">Credits</a><a href="#ad">Ad data</a><a href="#pdfs">PDFs</a><a href="#next">Next</a></nav>
   </header>
+
+  <section id="ads" hidden>
+    <div class="sechead"><span class="lab">Ready to run</span><h2 id="aTitle"></h2><p id="aLede"></p></div>
+    <div class="agrid" id="agrid"></div>
+    <div class="sechead ctlhead" id="cHead" hidden><span class="lab">The control for each test</span><h2>Plain close-ups</h2>
+      <p>Your ad data says to run every crazy ad beside a plain craft close-up of the same piece, in the same ad set, and judge on cost per purchase. These are the listing’s own close-ups, set the same way.</p></div>
+    <div class="agrid" id="cgrid"></div>
+  </section>
 
   <section id="keepers">
     <div class="sechead"><span class="lab">The keepers</span><h2 id="kTitle"></h2><p id="kLede"></p></div>
@@ -276,15 +293,17 @@ function chipText(f) {
   if (f.st === "keep") return "Keep · " + f.score.toFixed(1);
   if (f.st === "pass") return "Passed" + (f.score != null ? " · " + f.score.toFixed(1) : "");
   if (f.st === "fail") return "Missed" + (f.label ? " · " + f.label : "");
+  if (f.st === "ad") return f.score != null ? "Review · " + f.score.toFixed(1) : "Finished ad";
+  if (f.st === "ctl") return "Plain control";
   return "Awaiting check";
 }
 const chip = f => el("span", {class: "st st-" + f.st, text: chipText(f)});
 const altOf = f => f.piece + ": " + f.name + ", " + f.kind.toLowerCase();
 
 function picture(f, list) {
-  const b = el("button", {type: "button", class: "pic", "aria-label": "Open frame " + f.n + ", " + f.name + ", " + f.kind.toLowerCase()},
+  const b = el("button", {type: "button", class: "pic" + (f.st === "ad" || f.st === "ctl" ? " native" : ""), "aria-label": (f.st === "ad" || f.st === "ctl" ? "Open ad: " : "Open frame " + f.n + ", ") + f.name + ", " + f.kind.toLowerCase()},
     el("img", {src: f.t, alt: altOf(f), loading: "lazy", decoding: "async", width: f.tw, height: f.th}));
-  if (f.aspect !== "4:5") b.append(el("span", {class: "fmt", text: f.aspect}));
+  if (f.aspect !== "4:5" && f.st !== "ad" && f.st !== "ctl") b.append(el("span", {class: "fmt", text: f.aspect}));
   if (f.st === "keep") b.insertAdjacentHTML("beforeend", BOX);
   b.addEventListener("click", () => openLb(f, list()));
   return b;
@@ -292,15 +311,47 @@ function picture(f, list) {
 
 function renderHead() {
   $("#rebateCount").textContent = T.images + " frames · " + T.spent + " credits";
-  $("#lede").textContent = "Everything the 200-credit top-up made: " + T.images + " frames across the four concept camps and the Edition One pre-orders, each checked against its Shopify listing. Keepers are boxed in red, as on a photographer’s contact sheet; every other frame says why it missed.";
+  $("#lede").textContent = "Everything the 200-credit top-up made: " + T.images + " frames across the four concept camps and the Edition One pre-orders, each checked against its Shopify listing. Keepers are boxed in red, as on a photographer’s contact sheet; every other frame says why it missed." + (DATA.finished.length ? " The keepers are also finished as ads, ready to run." : "");
   const nums = [[T.spent, "credits spent", "200 bought on 15 Oct and 1.22 carried over. " + T.left + " left."],
                 [T.images, "frames", T.generated + " generated, " + T.crops + " cropped from them."],
                 [S.keep, "keepers", "Scored 8.5 or more as an ad.", "keep"],
                 [S.passed, "passed", "Right piece, under the 8.5 bar."],
                 [S.fail, "missed", S.failScale + " of them on scale."]];
   if (S.wait) nums.push([S.wait, "awaiting check", "With the reviewer now."]);
+  if (DATA.finished.length) nums.splice(3, 0, [DATA.finished.length, "ads ready", "Keepers with copy, at Meta’s sizes."]);
   const box = $("#nums");
   for (const [n, k, t, c] of nums) box.append(el("div", {class: c || null}, el("b", {text: String(n)}), el("span", {class: "k", text: k}), el("span", {text: t})));
+}
+
+function renderAds() {
+  const A = DATA.finished; if (!A.length) return;
+  $("#ads").hidden = false; $("#adsLink").hidden = false;
+  const runs = A.filter(f => f.score != null && f.score >= 9).length;
+  $("#aTitle").textContent = A.length + " ads, finished";
+  $("#aLede").textContent = "Each keeper with its copy set, at Meta’s exact sizes: the pun, a plain correction and the exact price, in the Naira typefaces. An independent reviewer scored each one as a paid ad" + (runs ? "; " + runs + " scored 9 or more" : "") + ". Open one for what it flagged.";
+  for (const f of A) {
+    const note = el("span", {class: "note"});
+    const btn = el("button", {type: "button", class: "saveAd", disabled: "", text: "Save JPG"});
+    btn.addEventListener("click", () => save(f.f, f.file, note));
+    $("#agrid").append(el("figure", {class: "ap"}, picture(f, () => A), el("figcaption", {},
+      el("span", {class: "code"}, chip(f), document.createTextNode(FMT[f.aspect])),
+      el("span", {class: "kn", text: f.name}), el("span", {class: "small", text: f.sub}),
+      el("div", {class: "bar"}, btn, note))));
+  }
+}
+
+function renderControls() {
+  const C = DATA.controls; if (!C.length) return;
+  $("#cHead").hidden = false;
+  for (const f of C) {
+    const note = el("span", {class: "note"});
+    const btn = el("button", {type: "button", class: "saveAd", disabled: "", text: "Save JPG"});
+    btn.addEventListener("click", () => save(f.f, f.file, note));
+    $("#cgrid").append(el("figure", {class: "ap"}, picture(f, () => C), el("figcaption", {},
+      el("span", {class: "code"}, chip(f), document.createTextNode(FMT[f.aspect])),
+      el("span", {class: "kn", text: f.piece}), el("span", {class: "small", text: f.sub}),
+      el("div", {class: "bar"}, btn, note))));
+  }
 }
 
 function renderKeepers() {
@@ -399,17 +450,17 @@ function show(f) {
   const img = $("#lbImg"); img.src = f.t; img.alt = altOf(f); img.width = f.tw; img.height = f.th;
   const full = new Image(); full.onload = () => { if (cur === f) img.src = f.f; }; full.src = f.f;
   $("#lbBox").style.display = f.st === "keep" ? "" : "none";
-  $("#lbCode").textContent = "Frame " + f.n + " of " + T.images + " · " + f.code + " · " + FMT[f.aspect] + " · " + f.w + "×" + f.h;
+  $("#lbCode").textContent = (f.st === "ctl" ? "Plain control · listing photo" : f.st === "ad" ? "Finished ad · from frame " + f.n : "Frame " + f.n + " of " + T.images) + " · " + f.code.replace(" · finished ad", "") + " · " + FMT[f.aspect] + " · " + f.w + "×" + f.h;
   const c = $("#lbChip"); c.className = "st st-" + f.st; c.textContent = chipText(f);
   $("#lbName").textContent = f.name;
   $("#lbCopy").textContent = f.copy;
-  $("#lbMeta").textContent = f.piece + " · " + f.price + " · SKU " + f.sku + (f.cr ? " · " + f.cr + (f.cr === 1 ? " credit" : " credits") : " · cropped, no credits");
+  $("#lbMeta").textContent = f.piece + " · " + f.price + " · SKU " + f.sku + (f.st === "ad" || f.st === "ctl" ? "" : f.cr ? " · " + f.cr + (f.cr === 1 ? " credit" : " credits") : " · cropped, no credits");
   $("#lbLine").textContent = f.line;
-  const failed = f.st === "fail";
+  const failed = f.st === "fail", isAd = f.st === "ad";
   fill("#lbReasons", f.reasons); fill("#lbNotes", f.notes); $("#lbFix").textContent = f.fix;
-  $("#dReasons").hidden = !f.reasons.length; $("#dReasons summary").textContent = failed ? "What the reviewer found" : "Small things the reviewer saw"; $("#dReasons").open = false;
+  $("#dReasons").hidden = !f.reasons.length; $("#dReasons summary").textContent = isAd ? "What the reviewer flagged" : failed ? "What the reviewer found" : "Small things the reviewer saw"; $("#dReasons").open = false;
   $("#dNotes").hidden = !f.notes.length; $("#dNotes summary").textContent = failed ? "Also noted" : "Why it works"; $("#dNotes").open = false;
-  $("#dFix").hidden = !f.fix; $("#dFix summary").textContent = failed ? "What the next take changes" : "The reviewer’s suggestion"; $("#dFix").open = false;
+  $("#dFix").hidden = !f.fix; $("#dFix summary").textContent = isAd ? "Fixes for the next pass" : failed ? "What the next take changes" : "The reviewer’s suggestion"; $("#dFix").open = false;
   const i = ctx.indexOf(f);
   $("#lbPrev").disabled = i <= 0; $("#lbNext").disabled = i < 0 || i >= ctx.length - 1;
   $("#lbPos").textContent = i >= 0 ? (i + 1) + " of " + ctx.length : "";
@@ -441,10 +492,10 @@ async function save(path, name, note) {
   }
 }
 
-renderHead(); renderKeepers(); renderSheet(); renderCredits(); renderRest();
+renderHead(); renderAds(); renderControls(); renderKeepers(); renderSheet(); renderCredits(); renderRest();
 (window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null)).then(d => {
   downloads = d; if (!d) return;
-  document.querySelectorAll(".savePdf").forEach(b => { b.disabled = false; });
+  document.querySelectorAll(".savePdf,.saveAd").forEach(b => { b.disabled = false; });
   if (cur) $("#lbSave").disabled = false;
 }).catch(() => {});
 </script>
