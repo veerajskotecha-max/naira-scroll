@@ -1,0 +1,56 @@
+{
+ "checked": "2026-10-17",
+ "all_active_on_6_channels": true,
+ "pi_restocks_added": {
+  "bold-nocturne-chain": "24+30=54",
+  "marquise-layering-set": "20+20=40",
+  "riviere-eternal-bracelet": "4+30=34 (re-activated)",
+  "bold-nocturne-bracelet": "20+30=50",
+  "baroque-shell-bracelet": "13+10=23",
+  "ribbon-bead-bracelet": "15+20=35",
+  "halo-curve-ring": "25+20=45",
+  "star-point-band": "Gold 3+9=12; new Silver variant YF5214-S 9 at 799 with packshot"
+ },
+ "kavnar_set_to_sheet": {
+  "deco-ribbon-hoops": "20->30 (activated)",
+  "molten-panel-bracelet": "20->30",
+  "torsade-pearl-cuff": "20->30 (activated)",
+  "riviere-huggies-silver": "20->21",
+  "petite-bow-studs": "30->17",
+  "petite-square-huggies": "30->22"
+ },
+ "kavnar_left_as_is": {
+  "woven-gold-hoops": 67,
+  "brushed-gold-huggies": 35,
+  "cushion-halo-ring": 60,
+  "blush-cluster-ring": "3 (WR10914B2 next batch)"
+ },
+ "activated": [
+  "riviere-eternal-bracelet",
+  "deco-ribbon-hoops",
+  "torsade-pearl-cuff",
+  "pearl-circlet-studs"
+ ],
+ "channels_completed": [
+  "verdant-cushion-studs (was active on no channel)",
+  "baguette-halo-drops",
+  "torsade-huggies",
+  "prism-cluster-studs-silver",
+  "aqua-heart-drops-silver",
+  "lilac-papillon-ring",
+  "petite-square-huggies",
+  "petite-bow-studs",
+  "riviere-huggies-silver"
+ ],
+ "kept_draft_no_quantity": [
+  "garnet-cable-cuff",
+  "tile-stone-bangle",
+  "birthstone-heart-necklace"
+ ],
+ "kavnar_not_in_store": [
+  "WR11875B (next batch)",
+  "WR19575B x5",
+  "WR11922C x5",
+  "N5818B x3"
+ ]
+}

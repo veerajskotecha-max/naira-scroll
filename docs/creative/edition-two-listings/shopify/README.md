@@ -42,3 +42,7 @@ Live since 2026-10-17: 31 products Active and published on all six channels (Onl
 | Triple Coil Wrap Bangle | 2 | 4 | 1799, 1899 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10344377417890) |
 | Tubogas Dome Ring | 6 | 4 | 1399 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10344381513890) |
 | Watch Link Ring | 6 | 4 | 1199 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10344382693538) |
+
+## Live products updated 2026-10-17
+
+From the owner's answers: PI restock quantities added on top of current stock for the 8 live reorders (Rivière Eternal Bracelet re-activated; Star Point Band now has Gold and a new Silver variant); six KAVNAR products set to the quotation counts; Deco Ribbon Hoops, Torsade Pearl Cuff and Pearl Circlet Studs activated; all 28 invoice products published on all six channels. Woven Gold Hoops, Brushed Gold Huggies, Cushion Halo Ring and the next-batch rings were left as they were. Details in `live_products_2026-10-17.json`.
