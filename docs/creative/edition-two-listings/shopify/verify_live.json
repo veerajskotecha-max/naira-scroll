@@ -1,0 +1,61 @@
+{
+ "checked": "2026-10-17",
+ "channels": [
+  "Online Store",
+  "Point of Sale",
+  "Facebook & Instagram",
+  "Google & YouTube",
+  "Naira Headless",
+  "Lovable"
+ ],
+ "active_all_6_channels": {
+  "silk-mesh-cuff": 40,
+  "triple-coil-wrap-bangle": 20,
+  "marquise-wheat-cuff": 20,
+  "baguette-tennis-bracelet": 70,
+  "droplet-open-ring": 20,
+  "north-star-bangle": 20,
+  "kiss-knot-bangle": 40,
+  "mint-pear-drop-earrings": 20,
+  "duo-link-necklace": 20,
+  "duo-link-bracelet": 20,
+  "baguette-eternity-band": 27,
+  "pearl-nugget-hoops": 5,
+  "emerald-halo-c-hoops": 10,
+  "baguette-tennis-necklace": 70,
+  "baguette-huggies": 60,
+  "emerald-deco-hoops": 10,
+  "tubogas-dome-ring": 18,
+  "fine-tennis-bracelet": 20,
+  "petal-flower-studs": 20,
+  "droplet-open-cuff": 20,
+  "roman-numeral-trio-ring": 9,
+  "linked-trio-ring": 18,
+  "crystal-baguette-eternity-ring": 9,
+  "chain-drop-dome-ring": 18,
+  "watch-link-ring": 12,
+  "marquise-drop-choker": 20,
+  "mesh-band-ring": 12,
+  "bold-nocturne-drops": 20,
+  "pear-point-open-cuff": 20,
+  "emerald-square-ear-cuff": 20,
+  "crystal-pear-ear-cuff": 10
+ },
+ "draft_no_supplier_quantity": [
+  "garnet-cable-cuff",
+  "tile-stone-bangle",
+  "birthstone-heart-necklace"
+ ],
+ "stock_entered_in_admin_kept": {
+  "watch-link-ring": "2 per size (PI 3)",
+  "mesh-band-ring": "2 per size (PI 3)",
+  "bold-nocturne-drops": "20 (PI 30)",
+  "pear-point-open-cuff": "20 (PI 20)",
+  "crystal-pear-ear-cuff": "10 (PI 20)"
+ },
+ "kavnar_lines_used": {
+  "WE25240B": "pearl-nugget-hoops 5",
+  "E22645C1": "emerald-halo-c-hoops 10",
+  "WE24517C1": "emerald-deco-hoops 10"
+ }
+}

@@ -4,7 +4,7 @@
 
 Verified after the push: all 34 are DRAFT with vendor Naira Petite and a full description; 96 variants with the right SKUs and prices; 161 images, all READY (none failed); each colour or metal variant has its own image attached. See `verify_draft.json`.
 
-Not done yet: publishing to sales channels and setting status to Active. Both wait on the owner's go-ahead.
+Live since 2026-10-17: 31 products Active and published on all six channels (Online Store, Point of Sale, Facebook & Instagram, Google & YouTube, Naira Headless, Lovable), with stock set from the supplier invoices: Foshan Yiss Fera PI 2026-09-22 and the KAVNAR quotation (Pearl Nugget Hoops 5, Emerald Halo C-Hoops 10, Emerald Deco Hoops 10). Stock already typed in the admin was kept (Watch Link Ring, Mesh Band Ring, Bold Nocturne Drops, Pear Point Open Cuff, Crystal Pear Ear Cuff). Garnet Cable Cuff, Tile Stone Bangle and Birthstone Heart Necklace stay in draft: neither invoice lists them. See `verify_live.json` and `inventory_set_2026-10-17.json`.
 
 | Product | Variants | Images | Prices (INR) | Admin |
 |---|---:|---:|---|---|
