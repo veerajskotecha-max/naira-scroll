@@ -1,0 +1,236 @@
+{
+ "E2_ruby_anaar2": {
+  "ad": "E2_ruby_a1",
+  "concept": "Anaar",
+  "gloss": "pomegranate",
+  "ok": true,
+  "note": "A small four-point glint sits on the centre front stone: retouch it out if the ad runs large. Ruby, emerald and crystal share one layout, so run them as colour variants in one ad set.",
+  "facts": "Baguette Tennis Bracelet, Ruby. ₹1,699. Ruby-red baguette cubic zirconia set crosswise in 18k gold tone plated claws, box clasp, about 17 cm.",
+  "scene": "A halved pomegranate (anaar) top right, loose arils scattered, the crimson baguette bracelet in the centre on blush plaster."
+ },
+ "E2_emerald_elaichi": {
+  "ad": "E2_emerald_a1",
+  "concept": "Elaichi",
+  "gloss": "green cardamom",
+  "ok": true,
+  "note": "The lower clasp sits low in the frame: keep the spec line clear of it. A colour variant of the ruby and crystal photos.",
+  "facts": "Baguette Tennis Bracelet, Emerald. ₹1,699. Emerald-green baguette cubic zirconia in 18k gold tone claws.",
+  "scene": "Green cardamom (elaichi) pods, a few split open showing black seeds, top right; the emerald bracelet in an S-curve on ivory."
+ },
+ "E2_crystal_mishri2": {
+  "ad": "E2_crystal_a1",
+  "concept": "Mishri",
+  "gloss": "rock sugar",
+  "ok": true,
+  "note": "The front stones read a little milky and warm up close. A colour variant of the ruby and emerald photos.",
+  "facts": "Baguette Tennis Bracelet, Crystal. ₹1,699. Clear baguette cubic zirconia in 18k gold tone claws.",
+  "scene": "A brass katori heaped with mishri (rock sugar) top right, loose crystals scattered, the clear baguette bracelet on beige linen."
+ },
+ "E2_studs_mogra": {
+  "ad": "E2_studs_a1",
+  "concept": "Mogra",
+  "gloss": "jasmine",
+  "ok": true,
+  "note": "A small glint on the right stud. A blurred flower makes the bottom-right corner busy, so give the wordmark and price a soft scrim there.",
+  "facts": "Petal Flower Studs. ₹1,199. Each stud: three round clear cubic zirconia and one pear stone around a polished centre; 18k gold tone (also silver tone).",
+  "scene": "Loose white mogra (jasmine) flowers and buds on sage linen; the two gold flower studs among them."
+ },
+ "E2_mint_nimbu": {
+  "ad": "E2_mint_a1",
+  "concept": "Nimbu pani",
+  "gloss": "lime drink",
+  "ok": false,
+  "note": "The earrings read about three times too big against the lime and the glass. Crop tight on the earrings, or use the listing photos instead.",
+  "facts": "Mint Pear Drop Earrings. ₹1,499. Three small clear pear stones leading to one pale mint green pear, cubic zirconia, 18k gold tone, about 22 mm.",
+  "scene": "A tall glass of nimbu pani with a lime wheel and mint sprig, a halved lime beside it; the earrings in front on white plaster."
+ },
+ "E2_tubogas_churi": {
+  "ad": "E2_tubogas_a1",
+  "concept": "Chudiyan",
+  "gloss": "a bangle stack",
+  "ok": true,
+  "note": "The ring reads a little large against the bangles because it stands in front of them.",
+  "facts": "Tubogas Dome Ring. ₹1,399. Wide flexible ribbed tubogas band, about 10 mm, gold or silver tone, US sizes 6, 7, 8.",
+  "scene": "A tall stack of thin ribbed gold bangles (chudiyan) behind; the gold tubogas ring standing on a plaster block in front."
+ },
+ "E2_watch_haath": {
+  "ad": "E2_watch_a1",
+  "concept": "Papa’s watch",
+  "gloss": "a two-tone wristwatch",
+  "ok": false,
+  "note": "The prop watch looks like a well-known luxury watch, and its dial has no hands. Crop the watch out or reshoot before running it.",
+  "facts": "Watch Link Ring. ₹1,199. Wide band built like a watch bracelet: three rows of polished links; gold or silver tone; sizes 6 to 8.",
+  "scene": "A two-tone link-bracelet wristwatch (no brand visible) lying on handmade paper; the gold watch-link ring standing in front."
+ },
+ "E2_droplet_rain2": {
+  "ad": "E2_droplet_a1",
+  "concept": "Rain",
+  "gloss": "water drops",
+  "ok": false,
+  "note": "Up close the puddles at the cuff’s ends read as gel and the drops ring it too evenly. Rain is also off-season for an October–November launch.",
+  "facts": "Droplet Open Cuff. ₹1,899. Slim polished open cuff ending in a round ball on one end and a smooth teardrop on the other, a small gap between; gold or silver tone.",
+  "scene": "The gold cuff on a cool grey wet surface, ringed by scattered water droplets; the ball and teardrop ends face each other at the front."
+ },
+ "P11_diya": {
+  "ad": "P11_a1",
+  "concept": "Diya",
+  "gloss": "Diwali clay lamps",
+  "ok": false,
+  "note": "The stones do not follow the bracelet’s aqua, pink, yellow order, and they are lit cool beside warm flames. Diwali only: stop it after 8 November.",
+  "facts": "Prism Rivière bracelet. ₹2,399. 18 cm line of square aqua, pink and yellow cubic zirconia, each in a halo of small clear stones, silver tone.",
+  "scene": "Three lit clay diyas top right on cream plaster; the pastel Prism bracelet curving in front of them."
+ },
+ "P12_saree": {
+  "ad": "P12_a1",
+  "concept": "Sarees",
+  "gloss": "three silk sarees",
+  "ok": false,
+  "note": "A few stones show thin rims of the wrong colour at full size; on a phone they read fine. Keep copy off the clasp at bottom left. Runs through Diwali into wedding season.",
+  "facts": "Prism Rivière bracelet. ₹2,399. 18 cm line of square aqua, pink and yellow cubic zirconia, each in a halo of small clear stones, silver tone.",
+  "scene": "Three folded silk sarees stacked, yellow on top, pink, then aqua, with gold zari borders; the bracelet laid across them."
+ },
+ "E2_knot_gath": {
+  "ad": "E2_knot_a1",
+  "concept": "Gathbandhan",
+  "gloss": "the wedding knot",
+  "ok": true,
+  "note": "The zari stripe crosses the top left, the weakest spot for headline contrast. Wedding season: run it now.",
+  "facts": "Kiss Knot Bangle. ₹1,499. Flexible ribbed snake-coil bangle whose two ends cross under one smooth polished X on top; gold or silver tone.",
+  "scene": "Deep red silk with a gold zari stripe, knotted at the top like a wedding gathbandhan knot; the gold bangle lying on the silk."
+ },
+ "E2_duo_gangajamuni": {
+  "ad": "E2_duo_a1",
+  "concept": "Ganga-Jamuni",
+  "gloss": "two metals together",
+  "ok": true,
+  "note": "A small glint on one link; the chain runs off the right edge twice.",
+  "facts": "Duo Link Necklace. ₹1,799. Long oval links in gold tone and silver tone mixed along the chain, joined by small gold rings; about 45 cm.",
+  "scene": "The two-tone chain curled on an engraved brass-and-silver thali (Ganga-Jamuni metalwork) in warm light."
+ },
+ "E2_mesh_silk": {
+  "ad": "E2_silk_a1",
+  "concept": "Resham",
+  "gloss": "silk thread",
+  "ok": true,
+  "note": "On a phone the silk hank reads a little like raffia.",
+  "facts": "Silk Mesh Cuff. ₹1,899. Open cuff of a rounded tube of fine woven metal mesh, about 15 mm wide, with two polished oval end caps; gold or silver tone.",
+  "scene": "A loose hank of glossy golden silk thread (resham, the colour of zari) behind; the gold mesh cuff in front on plaster."
+ },
+ "E2_meshring_chai": {
+  "ad": "E2_chai_a1",
+  "concept": "Chai channi",
+  "gloss": "the tea strainer",
+  "ok": true,
+  "note": "The ring reads a little chunky because it sits in front, and the tea-stain ring looks staged up close.",
+  "facts": "Mesh Band Ring. ₹999. Wide band of fine woven metal mesh with rolled edges; gold or silver tone; sizes 6 to 8.",
+  "scene": "A worn brass chai strainer (channi) holding used tea leaves, a chai-glass ring stain on the surface; the gold mesh ring in front."
+ },
+ "E2_roman_ghadi": {
+  "ad": "E2_roman_a1",
+  "concept": "Ghadi",
+  "gloss": "a clock face",
+  "ok": true,
+  "note": "A four-point glint on the pavé band is the most visible in the set: retouch it out for large sizes. Don’t run it beside the watch photo, the other timepiece idea.",
+  "facts": "Roman Numeral Trio Ring. ₹1,899. Three bands fixed as one: rose gold tone with engraved Roman numerals and small stones, silver tone with two pavé rows, gold tone with cut-out Roman numerals; sizes 6 to 8.",
+  "scene": "A large brass clock dial with Roman numerals and hands top right; the three-tone ring standing in front."
+ },
+ "E2_choker_monsoon": {
+  "ad": "E2_choker_a1",
+  "concept": "Monsoon",
+  "gloss": "rain on skin",
+  "ok": false,
+  "note": "The long water rivulets read as sweat at phone size, and a glint sits on the marquise. Rain is off-season now.",
+  "facts": "Marquise Drop Choker. ₹1,599. Smooth omega collar with a marquise cubic zirconia set sideways at the front; a fine chain falls about 6 cm with a small pear halfway and another at the end; 18k gold tone.",
+  "scene": "Close crop of a woman's neck and collarbone (no face) with water droplets on the skin, saffron camisole strap; the choker with its marquise and two pears."
+ },
+ "E2_huggie_jamun": {
+  "ad": "E2_huggie_a1",
+  "concept": "Jamun",
+  "gloss": "Indian blackberry",
+  "ok": true,
+  "note": "The amethyst reads lilac, lighter than the fruit. Jamun is a summer fruit, so don’t claim a season.",
+  "facts": "Baguette Huggies, Amethyst. ₹1,399. Gold tone huggie hoops with one row of amethyst baguette cubic zirconia along the lower front; hinged snap.",
+  "scene": "A small heap of jamun fruits, one cut open showing purple flesh, a purple juice stain on cream plaster; the amethyst huggies in front."
+ },
+ "E2_coil_jalebi": {
+  "ad": "E2_coil_a1",
+  "concept": "Jalebi",
+  "gloss": "the fried sweet",
+  "ok": false,
+  "note": "Up close the jalebi reads as orange jelly candy, not a crisp fried sweet. The bangle’s lowest turn sits low, so keep the spec line clear of it.",
+  "facts": "Triple Coil Wrap Bangle. ₹1,899 gold (₹1,799 silver). One continuous ribbed snake-coil wire wrapping the wrist in three turns, each end with a small rectangular pavé cap.",
+  "scene": "A brass plate of orange jalebi coils top right; the gold triple-coil bangle standing in front on ivory."
+ },
+ "E2_tennis_phuljhadi": {
+  "ad": "E2_tennis_a1",
+  "concept": "Phuljhadi",
+  "gloss": "a Diwali sparkler",
+  "ok": true,
+  "note": "The stones read slightly milky up close, with a small glint on the right side.",
+  "facts": "Fine Tennis Bracelet. ₹1,299. One continuous row of small round clear cubic zirconia, about 2.5 mm each, in gold tone claw cups; box clasp.",
+  "scene": "A lit phuljhadi (sparkler) in a small brass holder throwing sparks on dark slate; the fine gold tennis bracelet in front."
+ },
+ "E2_star_dhruv": {
+  "ad": "E2_star_a1",
+  "concept": "Dhruv tara",
+  "gloss": "the north star",
+  "ok": false,
+  "note": "The engraved stars read as eight-petal daisies, not the listing’s four-long, four-short compass star, and the cloth reads as sequins up close.",
+  "facts": "North Star Bangle. ₹1,499. Slim flat mirror-polished bangle, its outer face alternating engraved eight-point north stars with round clear stones in flush bezels; silver or gold tone.",
+  "scene": "Deep navy night sky dotted with tiny stars and one bright star top right; the silver bangle in front catching light."
+ },
+ "P13_kandil": {
+  "ad": "P13_a1",
+  "concept": "Akash kandil",
+  "gloss": "Diwali paper lanterns",
+  "ok": false,
+  "note": "The front row’s stone order is wrong (aqua, pink, aqua, pink, yellow…). Diwali only: stop it after 8 November.",
+  "facts": "Prism Rivière bracelet. ₹2,399. 18 cm line of square aqua, pink and yellow cubic zirconia, each in a halo of small clear stones, silver tone.",
+  "scene": "Three glowing pastel paper star lanterns (akash kandils) in aqua, pink and yellow top right; the bracelet laid in a loop on cream below."
+ },
+ "P11_diya_916": {
+  "ad": "P11_a1-story",
+  "concept": "Diya",
+  "gloss": "Diwali clay lamps",
+  "ok": false,
+  "note": "Most of the recoloured stones show a stone inside a stone, and one yellow is half white. Fix it before running. Diwali only.",
+  "facts": "Prism Rivière bracelet. ₹2,399. 18 cm line of square aqua, pink and yellow cubic zirconia, each in a halo of small clear stones, silver tone.",
+  "scene": "Three lit clay diyas top right on cream plaster; the pastel Prism bracelet curving in front of them."
+ },
+ "E2_ruby_anaar2_916": {
+  "ad": "E2_ruby_a1-story",
+  "concept": "Anaar",
+  "gloss": "pomegranate",
+  "ok": true,
+  "note": "The tightest foot in the Stories: the front prongs sit about 40 px above the spec line. A small glint, and the clasp hallmark is garbled up close.",
+  "facts": "Baguette Tennis Bracelet, Ruby. ₹1,699. Ruby-red baguette cubic zirconia set crosswise in 18k gold tone plated claws, box clasp, about 17 cm.",
+  "scene": "A halved pomegranate (anaar) top right, loose arils scattered, the crimson baguette bracelet in the centre on blush plaster."
+ },
+ "E2_studs_mogra_916": {
+  "ad": "E2_studs_a1-story",
+  "concept": "Mogra",
+  "gloss": "jasmine",
+  "ok": true,
+  "note": "Some open flowers read as gardenia up close, and a bud is cut off by the left edge.",
+  "facts": "Petal Flower Studs. ₹1,199. Each stud: three round clear cubic zirconia and one pear stone around a polished centre; 18k gold tone (also silver tone).",
+  "scene": "Loose white mogra (jasmine) flowers and buds on sage linen; the two gold flower studs among them."
+ },
+ "E2_choker_monsoon_916": {
+  "ad": "E2_choker_a1-story",
+  "concept": "Monsoon",
+  "gloss": "rain on skin",
+  "ok": false,
+  "note": "The rivulets read as sweat on the chest at phone size. Rain is off-season now.",
+  "facts": "Marquise Drop Choker. ₹1,599. Smooth omega collar with a marquise cubic zirconia set sideways at the front; a fine chain falls about 6 cm with a small pear halfway and another at the end; 18k gold tone.",
+  "scene": "Close crop of a woman's neck and collarbone (no face) with water droplets on the skin, saffron camisole strap; the choker with its marquise and two pears."
+ },
+ "P13_kandil_916": {
+  "ad": "P13_a1-story",
+  "concept": "Akash kandil",
+  "gloss": "Diwali paper lanterns",
+  "ok": false,
+  "note": "One pink stone is two-tone and one yellow reads olive; two aquas sit side by side on the back row. Diwali only.",
+  "facts": "Prism Rivière bracelet. ₹2,399. 18 cm line of square aqua, pink and yellow cubic zirconia, each in a halo of small clear stones, silver tone.",
+  "scene": "Three glowing pastel paper star lanterns (akash kandils) in aqua, pink and yellow top right; the bracelet laid in a loop on cream below."
+ }
+}

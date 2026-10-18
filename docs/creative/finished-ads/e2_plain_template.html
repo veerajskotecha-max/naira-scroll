@@ -1,0 +1,318 @@
+<title>Edition Two Plain Images</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap">
+<style>
+@font-face{font-family:"Velista";src:url(data:font/ttf;base64,__VELISTA__) format("truetype");font-display:swap}
+/* The Naira deck as a picture library for Edition Two: blush paper, sage rules, the tulip wordmark, Velista capitals. The ad
+   photographs are the clean plates (no copy on them); the listing photos are the store's own. Built by e2_plain.py. */
+:root{
+  --paper:#FFF8F5; --card:#FFFFFF; --ink:#1A1614; --muted:#6E625A; --rule:#EADFD8; --sage:#99B4AE; --sage-ink:#4F6B65;
+  --coral:#B4513B; --peach:#F2C4B6; --chip:#F3E9E3; --scrim:rgba(26,22,20,.86); --wash:#F7EEE9;
+  --display:"Velista","Cormorant Garamond",Georgia,serif; --text:"Cormorant Garamond",Georgia,serif; --label:"Jost","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#1A1716; --card:#24201E; --ink:#F3ECE6; --muted:#B9ABA1; --rule:#3A332F; --sage:#7F9C96; --sage-ink:#A9C7C0;
+  --coral:#F0A08F; --peach:#8E6A60; --chip:#2E2826; --scrim:rgba(0,0,0,.88); --wash:#211D1B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1A1716; --card:#24201E; --ink:#F3ECE6; --muted:#B9ABA1; --rule:#3A332F; --sage:#7F9C96; --sage-ink:#A9C7C0;
+  --coral:#F0A08F; --peach:#8E6A60; --chip:#2E2826; --scrim:rgba(0,0,0,.88); --wash:#211D1B; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--text);font-size:19px;line-height:1.5;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto;padding-block:40px 80px;display:flex;flex-direction:column;gap:72px}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;margin:0;line-height:1;text-transform:uppercase;letter-spacing:.005em;text-wrap:balance}
+h1,h2,h3,h4,.nums b,.lb .bar .t{font-variant-ligatures:none}      /* Velista's TT and NN ligatures garble some names */
+p{margin:0}
+.lab{font-family:var(--label);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.small{font-family:var(--label);font-size:12.5px;letter-spacing:.03em;color:var(--muted);line-height:1.45}
+button{font-family:var(--label);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--paper);background:var(--ink);
+  border:1px solid var(--ink);padding:11px 15px;cursor:pointer;border-radius:0;line-height:1.2}
+button.quiet{background:transparent;color:var(--ink);border-color:var(--rule)}
+button:hover:not([disabled]){opacity:.86}
+button:focus-visible,a:focus-visible,.pic:focus-visible{outline:2px solid var(--coral);outline-offset:3px}
+button[disabled]{opacity:.35;cursor:default}
+.wm{display:block;width:min(260px,52vw);height:auto}
+.wm.dark{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wm.light{display:none} :root:not([data-theme="light"]) .wm.dark{display:block}}
+:root[data-theme="dark"] .wm.light{display:none} :root[data-theme="dark"] .wm.dark{display:block}
+
+.mast{display:grid;gap:22px;padding-bottom:36px;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(54px,10vw,128px)}
+.lede{font-style:italic;font-size:clamp(21px,2.6vw,29px);line-height:1.3;max-width:48ch}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));column-gap:26px}
+.nums div{display:grid;gap:4px;align-content:start;padding:14px 0 18px;border-top:2px solid var(--sage)}
+.nums b{font-family:var(--display);font-weight:400;font-size:clamp(40px,5vw,60px);line-height:1}
+.nums .k{font-family:var(--label);font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+.nums span:last-child{font-size:16px;line-height:1.3;color:var(--muted)}
+.jump{display:flex;flex-wrap:wrap;gap:8px 22px}
+.jump a{font-family:var(--label);font-size:12px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;color:inherit;border-bottom:1px solid var(--rule);padding-bottom:3px}
+
+.sechead{display:grid;gap:10px;max-width:70ch;margin-bottom:28px}
+.sechead h2{font-size:clamp(34px,5vw,56px)}
+.sechead p:not(.lab){font-size:20px}
+
+.brief{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--sage);padding:22px 24px;display:grid;gap:16px;max-width:82ch}
+.brief ol{margin:0;padding-left:1.3em;display:grid;gap:10px;font-size:18.5px;line-height:1.45}
+.brief ol li::marker{font-family:var(--label);font-size:12px;color:var(--muted)}
+.brief .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+
+.pdfs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.pdf{background:var(--card);border:1px solid var(--rule);padding:20px;display:grid;gap:10px;align-content:start;min-width:0}
+.pdf h3{font-size:22px;line-height:1.05}
+.pdf .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.note{font-family:var(--label);font-size:12px;color:var(--muted);min-height:1em}
+.kit{margin-top:18px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.sw{display:flex;gap:6px}
+.sw i{width:22px;height:22px;border:1px solid var(--rule)}
+
+.type{margin-top:46px;padding-top:14px;border-top:2px solid var(--sage);display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.type h3{font-size:clamp(28px,4vw,40px)}
+.piece{margin-top:30px}
+.piece h4{font-size:24px;margin-bottom:6px}
+.piece .head{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
+.piece .tag{font-style:italic;font-size:17px;line-height:1.35;margin-bottom:12px;max-width:70ch}
+.piece .small{margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:14px}
+.card{display:grid;gap:8px;align-content:start;min-width:0}
+.pic{display:block;width:100%;padding:0;border:1px solid var(--rule);background:var(--chip);cursor:zoom-in;aspect-ratio:4/5;overflow:hidden;color:inherit}
+.pic.tall{aspect-ratio:9/16}
+.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.chip{font-family:var(--label);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;padding:3px 7px;justify-self:start}
+.chip.ready{background:var(--sage);color:#102420}
+.chip.care,.chip.draft{background:transparent;border:1px solid var(--coral);color:var(--coral)}
+.chip.list,.chip.sale{background:var(--peach);color:#3A1E16}
+.card .t{font-size:17px;line-height:1.2}
+.card .m{font-family:var(--label);font-size:11.5px;color:var(--muted);letter-spacing:.04em;overflow-wrap:anywhere}
+
+.marks{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.mark{border:1px solid var(--rule);background:var(--card);display:grid;gap:12px;padding:0 0 18px;min-width:0}
+.mark .bg{display:flex;align-items:center;justify-content:center;padding:34px 24px;min-height:150px}
+.mark .bg img{width:min(220px,80%);height:auto}
+.mark .bg.ink{background:#FBF8F3} .mark .bg.white{background:#99B4AE} .mark .bg.sage{background:#FFF8F5}
+.mark p,.mark .row{padding:0 18px}
+.mark .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+footer{border-top:1px solid var(--rule);padding-top:26px;display:grid;gap:12px;max-width:72ch}
+footer h2{font-size:30px}
+
+dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100dvh;margin:0}
+dialog::backdrop{background:var(--scrim)}
+.lb{height:100%;display:grid;grid-template-rows:1fr auto;gap:12px;padding:max(14px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(14px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.lb .img{min-height:0;display:flex;align-items:center;justify-content:center}
+.lb img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.lb .bar{background:var(--card);color:var(--ink);padding:14px 16px;display:grid;gap:6px;max-height:46dvh;overflow-y:auto}
+.lb .bar .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.lb .bar .t{font-family:var(--display);text-transform:uppercase;font-size:22px;line-height:1.05}
+.lb .bar .line{font-style:italic;font-size:17px;line-height:1.3}
+.lb .bar .sub{font-size:15.5px;line-height:1.35;color:var(--muted)}
+.lb .btns{display:flex;gap:8px;flex-wrap:wrap}
+@media (max-width:560px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))} .pdfs,.marks{grid-template-columns:1fr} .brief{padding:18px 16px}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <img class="wm light" src="data:image/png;base64,__WM_LIGHT__" alt="Naira">
+    <img class="wm dark" src="data:image/png;base64,__WM_DARK__" alt="Naira">
+    <p class="lab">Edition Two · HD images for Claude · October 2026</p>
+    <h1>Edition Two</h1>
+    <p class="lede">Every clean ad photograph and every listing photo for the 34 new pieces, at full size. Share this page or its PDFs with Claude to make ads: each photo names the piece, the price and anything to watch for.</p>
+    <div class="nums" id="nums"></div>
+    <nav class="jump" aria-label="Sections"><a href="#brief">The brief</a><a href="#pdfs">PDFs</a><a href="#ads">Ad photos</a><a href="#listing">Listing photos</a><a href="#marks">Wordmarks</a></nav>
+  </header>
+
+  <section id="brief">
+    <div class="sechead">
+      <p class="lab">Paste this into Claude first</p>
+      <h2>The brief</h2>
+      <p>The rules every Edition Two ad follows: what the pieces are made of, what the copy may claim, and how the type sits. The first PDF opens with the same brief and the brand kit.</p>
+    </div>
+    <div class="brief">
+      <ol id="briefList"></ol>
+      <div class="row"><button type="button" id="copyBrief">Copy the brief</button><span class="note" id="copyNote" aria-live="polite"></span></div>
+    </div>
+  </section>
+
+  <section id="pdfs">
+    <div class="sechead">
+      <p class="lab">For Claude Design</p>
+      <h2>The PDFs</h2>
+      <p>One photograph per page at full resolution, with a caption band under it. Each file stays under 15 MB, the limit for one file here, so the bracelets come in two parts. The ready ad photos open with the brand kit and the brief.</p>
+      <div class="kit"><span class="lab">The palette</span><span class="sw" aria-hidden="true"><i style="background:#99B4AE"></i><i style="background:#FFF8F5"></i><i style="background:#F2C4B6"></i><i style="background:#F0A08F"></i><i style="background:#1A1614"></i></span><span class="small">Sage · Blush · Peach · Coral · Ink</span></div>
+    </div>
+    <div class="pdfs" id="pdfList"></div>
+  </section>
+
+  <section id="ads">
+    <div class="sechead">
+      <p class="lab">No copy on them</p>
+      <h2>Ad photos</h2>
+      <p>The clean plates behind the Edition Two ads: each photograph before any type went on. Feed photos are 4:5 and Story photos 9:16, all at full size. Green chips are ready for ads. Coral chips have a fault named in the note, so crop around it, fix it, or use a ready photo.</p>
+    </div>
+    <div id="adGroups"></div>
+  </section>
+
+  <section id="listing">
+    <div class="sechead">
+      <p class="lab">The store’s own photographs</p>
+      <h2>Listing photos</h2>
+      <p>Every photo on the 34 new Shopify listings, at 1288×1600. They are the truth to check any ad against. Three pieces are still drafts with no stock, so make no ads for them yet.</p>
+    </div>
+    <div id="listingGroups"></div>
+  </section>
+
+  <section id="marks">
+    <div class="sechead">
+      <p class="lab">Brand files</p>
+      <h2>Wordmarks</h2>
+      <p>The tulip is the I. Keep clear space of its height around the mark, and never set it under 120 px wide in an ad.</p>
+    </div>
+    <div class="marks" id="markList"></div>
+  </section>
+
+  <footer>
+    <h2>How these were checked</h2>
+    <p>An independent reviewer checked every ad photo against the piece’s listing photos for construction, stone count and order, metal, scale and finish. The note on each photo is what that review found. The listing photos are the ones on the store, with the store’s captions.</p>
+  </footer>
+</div>
+
+<dialog id="lb" aria-labelledby="lbT">
+  <div class="lb">
+    <div class="img"><img id="lbImg" alt=""></div>
+    <div class="bar">
+      <div class="row"><span class="chip" id="lbChip"></span><span class="m small" id="lbMeta"></span></div>
+      <div class="t" id="lbT"></div>
+      <p class="line" id="lbLine"></p>
+      <p class="sub" id="lbSub"></p>
+      <div class="row"><div class="btns"><button type="button" class="quiet" id="lbPrev">← Previous</button><button type="button" class="quiet" id="lbNext">Next →</button></div>
+        <div class="btns"><button type="button" id="lbSave" disabled>Save JPG</button><button type="button" class="quiet" id="lbClose">Close</button></div></div>
+      <p class="note" id="lbNote" aria-live="polite"></p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const DATA = __DATA__;
+const $ = s => document.querySelector(s);
+function el(tag, attrs = {}, kids = []) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) { if (k === "text") e.textContent = v; else if (v !== null && v !== undefined) e.setAttribute(k, v); }
+  for (const k of kids) e.append(k); return e;
+}
+let downloads = null, cur = null, order = [];
+const LIST = DATA.products.flatMap(p => p.photos.map(ph => Object.assign({}, ph, {p})));
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+
+function chipFor(it) {
+  if (it.g === "ad") return it.ok ? ["ready", "Ready for ads"] : ["care", "Use with care"];
+  return it.p.sale ? ["list", "Listing photo"] : ["draft", "Draft · no ads yet"];
+}
+function renderNums() {
+  const n = DATA.counts;
+  [[n.ads, "Ad photos", `${n.ready} ready, ${n.ads - n.ready} with a note`], [n.listing, "Listing photos", `for ${n.pieces} pieces`],
+   [n.sale, "On sale", `${n.pieces - n.sale} still drafts`], [DATA.pdfs.length, "PDFs", `${DATA.mb} MB in all, each under 15`]]
+    .forEach(([b, k, s]) => $("#nums").append(el("div", {}, [el("b", {text: String(b)}), el("span", {class: "k", text: k}), el("span", {text: s})])));
+}
+function briefText() { return "Naira Petite · Edition Two · ad brief\n\n" + DATA.brief.map((p, i) => `${i + 1}. ${p}`).join("\n\n"); }
+function renderBrief() {
+  DATA.brief.forEach(p => $("#briefList").append(el("li", {text: p})));
+  $("#copyBrief").addEventListener("click", () => {
+    const note = $("#copyNote");
+    const fallback = () => { const r = document.createRange(); r.selectNodeContents($("#briefList")); const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      note.textContent = "Selected: press Ctrl+C (or long-press and Copy)."; };
+    try { navigator.clipboard.writeText(briefText()).then(() => { note.textContent = "Copied. Paste it into Claude with the link or the PDFs."; }, fallback); }
+    catch (e) { fallback(); }
+  });
+}
+function renderPdfs() {
+  for (const p of DATA.pdfs) {
+    const note = el("p", {class: "note", "aria-live": "polite"});
+    const btn = el("button", {type: "button", class: "savePdf", disabled: "", text: "Save PDF"});
+    btn.addEventListener("click", () => save("pdfs/" + p.file, p.file, note));
+    $("#pdfList").append(el("article", {class: "pdf"}, [el("p", {class: "lab", text: p.kind}), el("h3", {text: p.title}),
+      el("p", {class: "small", text: `${plural(p.count, "photograph")} · ${p.mb} MB`}), el("div", {class: "row"}, [btn]), note]));
+  }
+}
+function card(it, label, meta) {
+  const alt = it.title + (it.name ? ", " + it.name : "");
+  const img = el("img", {src: it.t, alt, loading: "lazy", width: "320", height: it.tall ? "569" : "400"});
+  const b = el("button", {type: "button", class: "pic" + (it.tall ? " tall" : ""), "aria-label": "Open " + alt}, [img]);
+  b.addEventListener("click", () => open(it));
+  const [cls, chip] = chipFor(it);
+  return el("article", {class: "card"}, [b, el("span", {class: "chip " + cls, text: chip}), el("p", {class: "t", text: label}), el("p", {class: "m", text: meta})]);
+}
+function renderAds() {
+  const by = new Map();
+  for (const it of DATA.ads) { if (!by.has(it.title)) by.set(it.title, []); by.get(it.title).push(it); }
+  for (const [title, list] of by) {
+    const g = el("div", {class: "grid"}); list.forEach(it => g.append(card(it, it.name, it.meta)));
+    $("#adGroups").append(el("div", {class: "piece"}, [el("h4", {text: title}), el("p", {class: "small", text: `${list[0].price} · ${plural(list.length, "photograph")}`}), g]));
+  }
+}
+function renderListing() {
+  for (const t of DATA.types) {
+    const ps = DATA.products.filter(p => p.type === t.key); if (!ps.length) continue;
+    const n = ps.reduce((a, p) => a + p.photos.length, 0);
+    const box = el("div", {}, [el("div", {class: "type"}, [el("h3", {text: t.label}), el("span", {class: "small", text: `${plural(ps.length, "piece")} · ${plural(n, "photo")}`})])]);
+    for (const p of ps) {
+      const g = el("div", {class: "grid"});
+      p.photos.forEach((ph, i) => { const it = LIST.find(x => x.p === p && x.id === ph.id); g.append(card(it, it.name || `Photo ${i + 1}`, it.line)); });
+      const facts = [p.price, p.code, p.options].filter(Boolean).join(" · ");
+      box.append(el("div", {class: "piece"}, [
+        el("div", {class: "head"}, [el("h4", {text: p.title}), el("span", {class: "chip " + (p.sale ? "sale" : "draft"), text: p.sale ? "On sale" : "Draft · no ads yet"})]),
+        el("p", {class: "small", text: facts}), el("p", {class: "tag", text: `${p.tagline} ${p.size}.`}), g]));
+    }
+    $("#listingGroups").append(box);
+  }
+}
+function renderMarks() {
+  const cls = ["ink", "white", "sage"];
+  DATA.marks.forEach((m, i) => {
+    const note = el("p", {class: "note", "aria-live": "polite"});
+    const btn = el("button", {type: "button", class: "savePdf", disabled: "", text: "Save PNG"});
+    btn.addEventListener("click", () => save("brand/" + m.file, m.file, note));
+    $("#markList").append(el("article", {class: "mark"}, [el("div", {class: "bg " + cls[i]}, [el("img", {src: "brand/" + m.file, alt: "Naira wordmark, " + m.line.toLowerCase()})]),
+      el("p", {class: "lab", text: m.line}), el("div", {class: "row"}, [el("span", {class: "small", text: m.file}), btn]), note]));
+  });
+}
+function open(it) {
+  cur = it; order = it.g === "ad" ? DATA.ads : LIST;
+  $("#lbImg").src = it.f; $("#lbImg").alt = it.title + (it.name ? ", " + it.name : "");
+  const [cls, chip] = chipFor(it); $("#lbChip").className = "chip " + cls; $("#lbChip").textContent = chip;
+  $("#lbT").textContent = it.title + (it.name ? " · " + it.name : "");
+  if (it.g === "ad") {
+    $("#lbMeta").textContent = `${it.price} · ${it.meta}`; $("#lbLine").textContent = it.note; $("#lbSub").textContent = it.facts;
+  } else {
+    const p = it.p; $("#lbMeta").textContent = `${p.price} · ${p.code} · ${it.meta}`; $("#lbLine").textContent = it.line;
+    $("#lbSub").textContent = [p.size, p.stones && p.stones !== "None" ? "Stones: " + p.stones : "", p.options].filter(Boolean).join(" · ");
+  }
+  $("#lbNote").textContent = ""; $("#lbSave").disabled = !downloads;
+  const lb = $("#lb"); if (!lb.open) lb.showModal();
+}
+function step(d) { if (!cur) return; const i = order.indexOf(cur); open(order[(i + d + order.length) % order.length]); }
+$("#lbPrev").addEventListener("click", () => step(-1)); $("#lbNext").addEventListener("click", () => step(1));
+$("#lbClose").addEventListener("click", () => $("#lb").close());
+$("#lb").addEventListener("click", e => { if (e.target === $("#lb") || e.target.classList.contains("img")) $("#lb").close(); });
+$("#lb").addEventListener("keydown", e => { if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); } else if (e.key === "ArrowRight") { e.preventDefault(); step(1); } });
+$("#lbSave").addEventListener("click", () => cur && save(cur.f, cur.file, $("#lbNote")));
+
+async function save(path, name, note) {
+  if (!downloads) return;
+  note.textContent = "Preparing…";
+  try {
+    const r = await fetch(path); if (!r.ok) throw {code: "missing"};
+    await downloads.save({filename: name, data: await r.blob()});
+    note.textContent = "Saved " + name;
+  } catch (e) {
+    const code = e && e.code;
+    note.textContent = code === "declined" ? "Not saved." : code === "rate_limited" ? "Another save is open. Try again in a moment." :
+      code === "missing" ? "That file did not load. Reload the page and try again." : "Saving isn’t available in this view.";
+  }
+}
+
+renderNums(); renderBrief(); renderPdfs(); renderAds(); renderListing(); renderMarks();
+(window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null)).then(d => {
+  downloads = d; if (!d) return;
+  document.querySelectorAll(".savePdf").forEach(b => { b.disabled = false; });
+  if (cur) $("#lbSave").disabled = false;
+}).catch(() => {});
+</script>
