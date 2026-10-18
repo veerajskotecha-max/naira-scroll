@@ -6,7 +6,7 @@
 # note per plate), ../edition-two-listings/kit/listing.json, ../edition-two-listings/exports/ and
 # ../edition-two-listings/shopify/verify_live.json (which pieces are on sale).
 # Usage: e2_plain.py     writes <scratchpad>/e2plain/site/ and <scratchpad>/e2plain/publish.json (the files map for each publish)
-import ast, base64, json, os, re, shutil
+import ast, base64, csv, io, json, os, re, shutil
 from PIL import Image
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
@@ -31,10 +31,11 @@ BRIEF = [
     "are estimates, so keep them out of the copy.",
     "The hook: an Indian culture rhyme at the piece’s own scale, then a lowercase “X, not Y” correction that states the true "
     "material. The account’s best ad: “Almost edible.” / “cubic zirconia, not candy.”",
-    "The layout: headline in Velista capitals, about 100 px on a 1080 px ad and two lines at most; the correction in Cormorant "
-    "Garamond italic, lowercase, about 40 px; a spec line in Jost Medium capitals at 0.24 em tracking, listing facts only; on Feed "
-    "an ink button with paper type (Stories use Meta’s own sticker); the wordmark signing off above the price, bottom right. "
-    "Black wordmark on light photos, white on dark.",
+    "The layout: a small coral tag pill on top (NEW · EDITION TWO, DIWALI EDIT or SHAADI EDIT); a two-voice headline, Velista "
+    "capitals with the punchline in Cormorant Garamond italic, about 80–100 px on a 1080 px ad; the correction in lowercase "
+    "Cormorant italic, about 40 px; a spec line in Jost Medium capitals at 0.24 em tracking, listing facts only; on Feed an ink "
+    "SHOP NOW button (Stories use Meta’s own sticker); the wordmark signing off above a 32 px price, bottom right. Black wordmark "
+    "on light photos, white on dark, with a paper tag pill on dark photos.",
     "Sizes: Feed 4:5 at 1080×1350, keeping 72 px clear at top and bottom. Stories 9:16 at 1080×1920, with no copy in the top "
     "290 px or the bottom 380 px.",
     "Timing: Diwali is 8 November 2026, so stop the diya and kandil ads after it. Rain is off-season for this launch.",
@@ -75,10 +76,11 @@ def plates():
 
 def finished():
     ads = json.load(open(f"{HERE}/e2_ads.json"))["ads"]; rev = reviews.current("review", ads)
+    meta = json.load(open(f"{HERE}/e2/meta_copy.json", encoding="utf-8"))
     timing = ast.literal_eval(re.search(r"TIMING = (\{.*?\})\n", open(f"{HERE}/e2/tools/board.py").read(), re.S).group(1))
     order = {}
     for a in ads: order.setdefault(a["spec"].split(" · ")[0], len(order))
-    flat = lambda t: re.sub(r"\s*<br>\s*", " ", t)
+    flat = lambda t: re.sub(r"<[^>]+>", "", re.sub(r"\s*<br>\s*", " ", t))
     out = []
     for a in ads:
         src = f"{HERE}/e2/out/{a['id']}.jpg"; w, h = Image.open(src).size; r = rev.get(a["id"])
@@ -88,8 +90,22 @@ def finished():
                         score=r["score"] if r else None, verdict=r["verdict"] if r else None, w=w, h=h, tall=story,
                         meta=f"{'Story 9:16' if story else 'Feed 4:5'} · {w}×{h} px",
                         t=f"at/{a['id']}.jpg", f=f"af/{a['id']}.jpg", file=f"Naira-E2-ad-{a['id']}.jpg",
-                        rank=(order[prod], story)))
+                        rank=(order[prod], story), tag=a.get("tag", ""), **{f"m_{k}": v for k, v in meta[a["id"].replace("-story", "")].items()}))
     return sorted(out, key=lambda x: x["rank"])
+
+def manifest(fins):                     # ready-to-upload pack: one row per ad, the image's published path, and its Meta fields
+    rows = [dict(ad_id=x["id"], format="Story 9:16" if x["tall"] else "Feed 4:5", size=f"{x['w']}x{x['h']}", image=x["f"], product=x["title"],
+                 price=x["price"], on_image_headline=x["name"], on_image_correction=x["line"], primary_text=x["m_primary"],
+                 headline=x["m_headline"], description=x["m_description"], call_to_action=x["m_cta"], url=x["m_url"],
+                 placements="Stories, Reels" if x["tall"] else "Feed (Facebook and Instagram), Explore", when_to_run=x["timing"])
+            for x in fins]
+    os.makedirs(f"{SITE}/ads", exist_ok=True)
+    json.dump(dict(brand="Naira Petite", store="https://www.nairaflore.com", note="Ready-to-upload Meta ads for Edition Two. Each image is "
+                   "final; paste the copy fields as they are. Stories share their Feed ad's copy.", ads=rows),
+              open(f"{SITE}/ads/naira-e2-ads.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    b = io.StringIO(); w = csv.DictWriter(b, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+    open(f"{SITE}/ads/naira-e2-ads.csv", "w", encoding="utf-8-sig").write(b.getvalue())
+    return ["ads/naira-e2-ads.json", "ads/naira-e2-ads.csv"]      # the page zips the 26 images itself (archives can't be published)
 
 def products():
     live = json.load(open(f"{LST}/shopify/verify_live.json")); drafts = set(live["draft_no_supplier_quantity"])
@@ -135,9 +151,9 @@ def ad_cap(it):
                 name=it["name"].replace(" · ", ", "), meta=f"{it['price']}  ·  {it['meta']}  ·  {it['id']}", line=it["note"], sub=it["facts"])
 
 def fin_cap(it):
-    st = (f"FINISHED AD  ·  REVIEW {it['score']:g}  ·  " + ("RUNS AS IT IS" if it["verdict"] == "run" else "FIX BEFORE RUNNING")) if it["score"] else "FINISHED AD"
-    return dict(status=st, warn=it["verdict"] != "run", title=it["title"], name=it["name"],
-                meta=f"{it['price']}  ·  {it['meta']}  ·  {it['id']}", line=it["line"], sub=f"Spec line: {it['spec']}  ·  When to run: {it['timing']}")
+    return dict(status="READY TO UPLOAD  ·  " + ("STORY 9:16" if it["tall"] else "FEED 4:5"), warn=False, title=it["title"], name=it["name"],
+                meta=f"{it['price']}  ·  {it['meta']}  ·  {it['id']}  ·  {it['m_url'].replace('https://www.', '')}", line=it["m_primary"],
+                sub=f"Headline: {it['m_headline']}  ·  Description: {it['m_description']}  ·  CTA: Shop now  ·  When to run: {it['timing']}")
 
 def list_cap(p, it):
     return dict(status=("ON SALE" if p["sale"] else "DRAFT · NOT ON SALE YET, NO ADS") + "  ·  THE STORE’S LISTING PHOTO", warn=not p["sale"],
@@ -167,8 +183,8 @@ def pdfs(ads, prods, fins):
     parts = split(fins, lambda x: os.path.getsize(x["src"]))
     for k, part in enumerate(parts, 1):
         tag = f", part {k} of {len(parts)}" if len(parts) > 1 else ""
-        write(f"Naira-E2-0-Finished-ads{f'-{k}' if len(parts) > 1 else ''}.pdf", f"Edition Two finished ads{tag}",
-              "The ads as they run, with the round 23 hooks: the layout system applied, piece by piece.", "Finished ads",
+        write(f"Naira-E2-0-Finished-ads{f'-{k}' if len(parts) > 1 else ''}.pdf", f"Edition Two ready-to-upload ads{tag}",
+              "Every finished ad with its Meta copy under it: primary text, headline, description, call to action and link.", "Finished ads",
               [(x, fin_cap(x)) for x in part])
     def kit(c):
         P.brand_page(c); P.cover(c, "Edition Two: the ad brief", "Read this before making an ad from these photographs.", BRIEF)
@@ -200,10 +216,10 @@ def main():
     marks = [("Naira-wordmark-ink.png", "logo_ink.png", "Black, for light photographs"), ("Naira-wordmark-white.png", "logo_white.png",
              "White, for dark photographs"), ("Naira-wordmark-sage.png", "logo_sage.png", "Sage, on blush paper only")]
     for fn, src, _ in marks: shutil.copyfile(f"{HERE}/brand/{src}", f"{SITE}/brand/{fn}")
-    made = pdfs(ads, prods, fins)
+    made = pdfs(ads, prods, fins); packs = manifest(fins)
     strip = lambda it: {k: v for k, v in it.items() if k not in ("src", "rank", "w", "h")}
     data = dict(fins=[strip(x) for x in fins], ads=[strip(x) for x in ads], products=[dict(p, photos=[strip(x) for x in p["photos"]]) for p in prods],
-                types=[dict(key=t, label=l) for t, l in TYPES], pdfs=made, marks=[dict(file=f, line=l) for f, _, l in marks],
+                types=[dict(key=t, label=l) for t, l in TYPES], pdfs=made, packs=packs, marks=[dict(file=f, line=l) for f, _, l in marks],
                 brief=BRIEF, mb=round(sum(p["mb"] for p in made), 1),
                 counts=dict(fins=len(fins), run=sum(x["verdict"] == "run" for x in fins), ads=len(ads), ready=sum(x["ok"] for x in ads), listing=sum(len(p["photos"]) for p in prods),
                             pieces=len(prods), sale=sum(p["sale"] for p in prods)))
@@ -216,7 +232,7 @@ def main():
     open(f"{SITE}/index.html", "w", encoding="utf-8").write(page)
     # files map in publish order (page and thumbnails first, so the page works from the first publish), each under 250 files and 60 MB
     paths = ([x["t"] for x in fins] + [x["t"] for x in ads] + [it["t"] for p in prods for it in p["photos"]] + [f"brand/{f}" for f, _, _ in marks] +
-             [x["f"] for x in fins] + [x["f"] for x in ads] + [it["f"] for p in prods for it in p["photos"]] + [f"pdfs/{p['file']}" for p in made])
+             [x["f"] for x in fins] + packs + [x["f"] for x in ads] + [it["f"] for p in prods for it in p["photos"]] + [f"pdfs/{p['file']}" for p in made])
     paths = list(dict.fromkeys(paths)); bins, cur, s = [], {}, 0
     for p in paths:
         sz = os.path.getsize(f"{SITE}/{p}")

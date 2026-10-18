@@ -46,6 +46,9 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:var
 .blk{position:absolute;display:flex;flex-direction:column;isolation:isolate}
 .h{font-family:Velista;font-weight:500;font-size:%(hs)dpx;line-height:.9;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance;margin:0}
 .c{font-family:CGI;font-weight:500;font-size:%(cs)dpx;line-height:1.16;text-wrap:balance;margin:%(gap)dpx 0 0}
+.h em{font-family:CGI;font-style:italic;font-weight:500;text-transform:none;letter-spacing:0;font-size:1.12em;line-height:.86}
+.tag{align-self:flex-start;font-family:Jost;font-weight:600;font-size:17px;letter-spacing:.22em;text-transform:uppercase;line-height:1;
+  padding:9px 15px 8px;margin:0 0 20px;border-radius:999px;background:var(--tagbg);color:var(--tagfg)}
 .ft{position:absolute;left:%(side)dpx;right:%(side)dpx;bottom:%(bot)dpx;display:flex;justify-content:space-between;align-items:flex-end;isolation:isolate}
 .ft .l{display:flex;flex-direction:column;align-items:flex-start;position:relative}
 .rule{width:64px;height:2px;background:var(--tone);margin-bottom:16px}
@@ -94,9 +97,11 @@ def html_deck(ad, bg):
     lcls, rcls = "l" + (" glow" if fs in ("spec", "cols") else ""), "r" + (" glow" if fs == "cols" else "")
     spec = f'<div class="rule"></div><div class="spec">{glue(ad["spec"])}</div>' if ad.get("spec") else ""
     cta = f'<div class="cta">{ad["cta"]}</div>' if ad.get("cta") else ""
-    return (f'<meta charset="utf-8"><style>{css}</style><body style="--tone:{tone};--glow:{glow};--btn:{btn};--btnt:{btnt}">' + bands
+    tagbg, tagfg = (DECK_PAPER, DECK_INK) if cream else ("#F0A08F", DECK_INK)      # the deck's coral pill; paper on dark photos
+    tag = f'<div class="tag">{ad["tag"]}</div>' if ad.get("tag") else ""
+    return (f'<meta charset="utf-8"><style>{css}</style><body style="--tone:{tone};--glow:{glow};--btn:{btn};--btnt:{btnt};--tagbg:{tagbg};--tagfg:{tagfg}">' + bands
             + ("" if foot_wm else f'<img class="wm" src="file://{BRAND}/{wm_file}" style="{wm_corner}:{side}px;top:{wm_y}px">') +
-            f'<div class="{cls}" style="{pos};width:{ad["w"]}px"><h1 class="h">{glue(ad["h"])}</h1>'
+            f'<div class="{cls}" style="{pos};width:{ad["w"]}px">{tag}<h1 class="h">{glue(ad["h"])}</h1>'
             + (f'<p class="c">{glue(ad["c"])}</p>' if ad.get("c") else "") + '</div>'
             f'<div class="{fcls}"><div class="{lcls}">{spec}{cta}</div><div class="{rcls}">'
             + (f'<img class="wmf" src="file://{BRAND}/{wm_file}">' if foot_wm else "") +

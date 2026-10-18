@@ -75,8 +75,8 @@ h1{font-size:clamp(54px,10vw,128px)}
 .piece .tag{font-style:italic;font-size:17px;line-height:1.35;margin-bottom:12px;max-width:70ch}
 .piece .small{margin-bottom:12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:14px}
-.card{display:grid;gap:8px;align-content:start;min-width:0}
-.pic{display:block;width:100%;padding:0;border:1px solid var(--rule);background:var(--chip);cursor:zoom-in;aspect-ratio:4/5;overflow:hidden;color:inherit}
+.card{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;align-content:start;min-width:0}
+.pic{display:block;width:100%;min-width:0;padding:0;border:1px solid var(--rule);background:var(--chip);cursor:zoom-in;aspect-ratio:4/5;overflow:hidden;color:inherit}
 .pic.tall{aspect-ratio:9/16}
 .pic img{width:100%;height:100%;object-fit:cover;display:block}
 .chip{font-family:var(--label);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;padding:3px 7px;justify-self:start}
@@ -86,6 +86,21 @@ h1{font-size:clamp(54px,10vw,128px)}
 .card .t{font-size:17px;line-height:1.2}
 .card .m{font-family:var(--label);font-size:11.5px;color:var(--muted);letter-spacing:.04em;overflow-wrap:anywhere}
 
+.packs{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:8px}
+.forclaude{background:var(--wash);border:1px solid var(--rule);padding:16px 18px;font-size:17px;line-height:1.45;max-width:82ch;margin-bottom:26px}
+.forclaude code{font-family:ui-monospace,Menlo,monospace;font-size:13.5px;background:var(--card);padding:1px 5px}
+.readygrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:22px}
+.rcard{background:var(--card);border:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr);align-content:start;min-width:0}
+.rcard .pic{border:0;border-bottom:1px solid var(--rule)}
+.rcard .body{padding:14px 16px 16px;display:grid;gap:10px}
+.rcard .top{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+.rcard h4{font-size:21px}
+.fld{display:grid;gap:4px;border-top:1px solid var(--rule);padding-top:9px}
+.fld .k{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.fld .v{font-size:16.5px;line-height:1.35;overflow-wrap:anywhere}
+.fld .v.url{font-family:var(--label);font-size:12.5px;color:var(--muted)}
+button.mini{padding:6px 9px;font-size:10px;letter-spacing:.16em}
+.rcard .acts{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .marks{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
 .mark{border:1px solid var(--rule);background:var(--card);display:grid;gap:12px;padding:0 0 18px;min-width:0}
 .mark .bg{display:flex;align-items:center;justify-content:center;padding:34px 24px;min-height:150px}
@@ -116,10 +131,21 @@ dialog::backdrop{background:var(--scrim)}
     <img class="wm dark" src="data:image/png;base64,__WM_DARK__" alt="Naira">
     <p class="lab">Edition Two · HD images for Claude · October 2026</p>
     <h1>Edition Two</h1>
-    <p class="lede">The finished ads, the clean photographs behind them and every listing photo for the 34 new pieces, at full size. Share this page or its PDFs with Claude to make ads: each image names the piece, the price and anything to watch for.</p>
+    <p class="lede">26 finished Meta ads, ready to upload, each with its primary text, headline, description, call to action and product link. Below them: the clean photographs, every listing photo for the 34 new pieces, the brief and the brand files.</p>
     <div class="nums" id="nums"></div>
-    <nav class="jump" aria-label="Sections"><a href="#brief">The brief</a><a href="#pdfs">PDFs</a><a href="#finished">Finished ads</a><a href="#ads">Ad photos</a><a href="#listing">Listing photos</a><a href="#marks">Wordmarks</a></nav>
+    <nav class="jump" aria-label="Sections"><a href="#finished">Ready-to-upload ads</a><a href="#brief">The brief</a><a href="#pdfs">PDFs</a><a href="#ads">Ad photos</a><a href="#listing">Listing photos</a><a href="#marks">Wordmarks</a></nav>
   </header>
+
+  <section id="finished">
+    <div class="sechead">
+      <p class="lab">Upload these</p>
+      <h2>Ready-to-upload ads</h2>
+      <p>21 Feed ads at 1080×1350 and 5 Stories at 1080×1920, in the Naira brand layout. Each card has the copy for Meta’s fields; copy it as it is, set the call to action to Shop now and use the link shown. Stories share their Feed ad’s copy.</p>
+    </div>
+    <div class="forclaude"><b>For Claude, making the Meta ads:</b> every ad is listed in <code>ads/naira-e2-ads.json</code> (also <code>ads/naira-e2-ads.csv</code>) with its image path (<code>af/&lt;ad_id&gt;.jpg</code>), format, primary text, headline, description, call to action (SHOP_NOW) and destination URL. The images are final: upload them as they are, with no extra text, crop or filter. Keep ruby, emerald and crystal out of one carousel, and don’t run choker and droplet in the same week. Run the Diwali-edit ads until 8 November and Still lit until about 25 November.</div>
+    <div class="packs" id="packList"></div>
+    <div class="readygrid" id="finGroups"></div>
+  </section>
 
   <section id="brief">
     <div class="sechead">
@@ -143,14 +169,6 @@ dialog::backdrop{background:var(--scrim)}
     <div class="pdfs" id="pdfList"></div>
   </section>
 
-  <section id="finished">
-    <div class="sechead">
-      <p class="lab">As they run</p>
-      <h2>Finished ads</h2>
-      <p>The Edition Two ads with the new hooks: Feed at 1080×1350 and Stories at 1080×1920, each with its independent review score. Post them as they are, or use them as the model for new ones: the headline rhymes with something Indian in the photo, and the correction says what the piece really is.</p>
-    </div>
-    <div id="finGroups"></div>
-  </section>
 
   <section id="ads">
     <div class="sechead">
@@ -200,6 +218,7 @@ dialog::backdrop{background:var(--scrim)}
   </div>
 </dialog>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script>
 const DATA = __DATA__;
 const $ = s => document.querySelector(s);
@@ -214,13 +233,13 @@ const LIST = DATA.products.flatMap(p => p.photos.map(ph => Object.assign({}, ph,
 const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 
 function chipFor(it) {
-  if (it.g === "fin") return it.score == null ? ["list", "Finished ad"] : it.verdict === "run" ? ["ready", `Runs · ${it.score}`] : ["care", `Fix first · ${it.score}`];
+  if (it.g === "fin") return ["ready", it.tall ? "Story 9:16 · ready" : "Feed 4:5 · ready"];
   if (it.g === "ad") return it.ok ? ["ready", "Ready for ads"] : ["care", "Use with care"];
   return it.p.sale ? ["list", "Listing photo"] : ["draft", "Draft · no ads yet"];
 }
 function renderNums() {
   const n = DATA.counts;
-  [[n.fins, "Finished ads", `${n.run} run as they are`], [n.ads, "Ad photos", `${n.ready} ready, ${n.ads - n.ready} with a note`],
+  [[n.fins, "Ready-to-upload ads", `${n.fins - DATA.fins.filter(x => x.tall).length} Feed, ${DATA.fins.filter(x => x.tall).length} Story`], [n.ads, "Ad photos", `${n.ready} ready, ${n.ads - n.ready} with a note`],
    [n.listing, "Listing photos", `${n.pieces} pieces, ${n.sale} on sale`], [DATA.pdfs.length, "PDFs", `${DATA.mb} MB in all, each under 15`]]
     .forEach(([b, k, s]) => $("#nums").append(el("div", {}, [el("b", {text: String(b)}), el("span", {class: "k", text: k}), el("span", {text: s})])));
 }
@@ -252,12 +271,57 @@ function card(it, label, meta) {
   const [cls, chip] = chipFor(it);
   return el("article", {class: "card"}, [b, el("span", {class: "chip " + cls, text: chip}), el("p", {class: "t", text: label}), el("p", {class: "m", text: meta})]);
 }
+function copyBtn(text, note) {
+  const b = el("button", {type: "button", class: "quiet mini", text: "Copy"});
+  b.addEventListener("click", () => {
+    try { navigator.clipboard.writeText(text).then(() => { note.textContent = "Copied."; }, () => { note.textContent = "Select the text and copy it."; }); }
+    catch (e) { note.textContent = "Select the text and copy it."; }
+  });
+  return b;
+}
 function renderFins() {
-  const by = new Map();
-  for (const it of FIN) { if (!by.has(it.title)) by.set(it.title, []); by.get(it.title).push(it); }
-  for (const [title, list] of by) {
-    const g = el("div", {class: "grid"}); list.forEach(it => g.append(card(it, it.name, it.meta)));
-    $("#finGroups").append(el("div", {class: "piece"}, [el("h4", {text: title}), el("p", {class: "small", text: `${list[0].price} · ${plural(list.length, "ad")}`}), g]));
+  const labels = {"ads/naira-e2-ads.csv": "Save the copy sheet (CSV)", "ads/naira-e2-ads.json": "Save the manifest (JSON)"};
+  const pnote = el("p", {class: "note", "aria-live": "polite"});
+  const zb = el("button", {type: "button", class: "savePdf", disabled: "", text: `Save all ${FIN.length} ads (ZIP)`});
+  zb.addEventListener("click", async () => {
+    if (!downloads || !window.JSZip) { pnote.textContent = "Saving isn’t available in this view."; return; }
+    pnote.textContent = "Packing the ads…";
+    try {
+      const zip = new JSZip(), dir = zip.folder("Naira-E2-ads");
+      for (const it of FIN) {
+        const r = await fetch(it.f); if (!r.ok) throw {code: "missing"};
+        dir.file(`${it.id}-${it.tall ? "story-1080x1920" : "feed-1080x1350"}.jpg`, await r.blob());
+      }
+      for (const p of DATA.packs) { const r = await fetch(p); if (r.ok) dir.file(p.split("/").pop(), await r.blob()); }
+      const blob = await zip.generateAsync({type: "blob", compression: "STORE"});
+      await downloads.save({filename: "Naira-E2-ready-ads.zip", data: blob});
+      pnote.textContent = "Saved Naira-E2-ready-ads.zip";
+    } catch (e) {
+      const code = e && e.code;
+      pnote.textContent = code === "declined" ? "Not saved." : code === "rate_limited" ? "Another save is open. Try again in a moment." :
+        code === "missing" ? "An image did not load. Reload the page and try again." : "Saving isn’t available in this view.";
+    }
+  });
+  $("#packList").append(zb);
+  for (const p of DATA.packs) {
+    const b = el("button", {type: "button", class: "savePdf" + (p.endsWith(".zip") ? "" : " quiet"), disabled: "", text: labels[p] || p});
+    b.addEventListener("click", () => save(p, p.split("/").pop(), pnote)); $("#packList").append(b);
+  }
+  $("#packList").append(pnote);
+  for (const it of FIN) {
+    const note = el("p", {class: "note", "aria-live": "polite"});
+    const img = el("img", {src: it.t, alt: `${it.title} ad: ${it.name}`, loading: "lazy", width: "480", height: it.tall ? "853" : "600"});
+    const pic = el("button", {type: "button", class: "pic" + (it.tall ? " tall" : ""), "aria-label": `Open the ${it.title} ad`}, [img]);
+    pic.addEventListener("click", () => open(it));
+    const fld = (k, v, cls) => el("div", {class: "fld"}, [el("div", {class: "k"}, [el("span", {class: "lab", text: k}), copyBtn(v, note)]), el("p", {class: "v" + (cls ? " " + cls : ""), text: v})]);
+    const sv = el("button", {type: "button", class: "savePdf", disabled: "", text: "Save JPG"});
+    sv.addEventListener("click", () => save(it.f, it.file, note));
+    $("#finGroups").append(el("article", {class: "rcard"}, [pic, el("div", {class: "body"}, [
+      el("div", {class: "top"}, [el("span", {class: "chip ready", text: it.tall ? "Story 9:16" : "Feed 4:5"}), el("code", {class: "small", text: it.id})]),
+      el("h4", {text: it.title}), el("p", {class: "small", text: [it.price, it.tag, "run: " + it.timing].filter(Boolean).join(" · ")}),
+      fld("Primary text", it.m_primary), fld("Headline", it.m_headline), fld("Description", it.m_description),
+      el("div", {class: "fld"}, [el("span", {class: "lab", text: "Call to action"}), el("p", {class: "v", text: "Shop now"})]),
+      fld("Link", it.m_url, "url"), el("div", {class: "acts"}, [sv]), note])]));
   }
 }
 function renderAds() {
@@ -300,8 +364,8 @@ function open(it) {
   const [cls, chip] = chipFor(it); $("#lbChip").className = "chip " + cls; $("#lbChip").textContent = chip;
   $("#lbT").textContent = it.title + (it.name ? " · " + it.name : "");
   if (it.g === "fin") {
-    $("#lbMeta").textContent = `${it.price} · ${it.meta}`; $("#lbLine").textContent = it.line;
-    $("#lbSub").textContent = `Spec line: ${it.spec} · When to run: ${it.timing}`;
+    $("#lbMeta").textContent = `${it.price} · ${it.meta}`; $("#lbLine").textContent = it.m_primary;
+    $("#lbSub").textContent = `Headline: ${it.m_headline} · Description: ${it.m_description} · CTA: Shop now · ${it.m_url}`;
   } else if (it.g === "ad") {
     $("#lbMeta").textContent = `${it.price} · ${it.meta}`; $("#lbLine").textContent = it.note; $("#lbSub").textContent = it.facts;
   } else {
