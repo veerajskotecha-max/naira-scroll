@@ -1,16 +1,18 @@
-# Builds the "Edition Two Plain Images" artifact: the 26 clean Edition Two ad photographs (no copy on them) at full size, every
-# Shopify listing photo for the 34 new pieces at 1288×1600, the wordmarks, and PDFs for Claude Design: a brand-kit page and the
-# ad brief, then one photograph per page with a caption band (piece, price, and what to watch for). JPEGs go into the PDFs as they
-# are, never re-encoded, and each PDF stays under 14.5 MB (the artifact's limit for one file is 15 MB).
-# Sources: e2_ads.json, e2/plates/, e2/plain_notes.json (concept and photo note per plate), ../edition-two-listings/kit/listing.json,
-# ../edition-two-listings/exports/ and ../edition-two-listings/shopify/verify_live.json (which pieces are on sale).
+# Builds the "Edition Two Plain Images" artifact: the 26 finished Edition Two ads, the 26 clean ad photographs behind them (no copy
+# on them) at full size, every Shopify listing photo for the 34 new pieces at 1288×1600, the wordmarks, and PDFs for Claude Design:
+# a brand-kit page and the ad brief, then one image per page with a caption band (piece, price, and what to watch for). JPEGs go
+# into the PDFs as they are, never re-encoded, and each PDF stays under 14.5 MB (the artifact's limit for one file is 15 MB).
+# Sources: e2_ads.json, e2/out/ (the finished ads) and their signed reviews, e2/plates/, e2/plain_notes.json (concept and photo
+# note per plate), ../edition-two-listings/kit/listing.json, ../edition-two-listings/exports/ and
+# ../edition-two-listings/shopify/verify_live.json (which pieces are on sale).
 # Usage: e2_plain.py     writes <scratchpad>/e2plain/site/ and <scratchpad>/e2plain/publish.json (the files map for each publish)
-import base64, json, os, re, shutil
+import ast, base64, json, os, re, shutil
 from PIL import Image
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.lib.colors import HexColor
 import plain_pdfs as P
+import reviews
 
 HERE = os.path.dirname(os.path.abspath(__file__)); CRE = os.path.normpath(f"{HERE}/.."); LST = f"{CRE}/edition-two-listings"
 SPB = P.SPB; OUT = f"{SPB}/e2plain"; SITE = f"{OUT}/site"
@@ -71,6 +73,24 @@ def plates():
                         rank=(order[a["spec"].split(" · ")[0]], a["fmt"] == "9:16")))
     return sorted(out, key=lambda x: x["rank"])
 
+def finished():
+    ads = json.load(open(f"{HERE}/e2_ads.json"))["ads"]; rev = reviews.current("review", ads)
+    timing = ast.literal_eval(re.search(r"TIMING = (\{.*?\})\n", open(f"{HERE}/e2/tools/board.py").read(), re.S).group(1))
+    order = {}
+    for a in ads: order.setdefault(a["spec"].split(" · ")[0], len(order))
+    flat = lambda t: re.sub(r"\s*<br>\s*", " ", t)
+    out = []
+    for a in ads:
+        src = f"{HERE}/e2/out/{a['id']}.jpg"; w, h = Image.open(src).size; r = rev.get(a["id"])
+        prod = a["spec"].split(" · ")[0]; story = a["fmt"] == "9:16"
+        out.append(dict(g="fin", id=a["id"], src=src, title=TITLE.get(prod, prod), name=flat(a["h"]), line=flat(a["c"]), price=a["price"],
+                        spec=a["spec"], timing=next((v for k, v in timing.items() if a["id"].startswith(k)), "Now"),
+                        score=r["score"] if r else None, verdict=r["verdict"] if r else None, w=w, h=h, tall=story,
+                        meta=f"{'Story 9:16' if story else 'Feed 4:5'} · {w}×{h} px",
+                        t=f"at/{a['id']}.jpg", f=f"af/{a['id']}.jpg", file=f"Naira-E2-ad-{a['id']}.jpg",
+                        rank=(order[prod], story)))
+    return sorted(out, key=lambda x: x["rank"])
+
 def products():
     live = json.load(open(f"{LST}/shopify/verify_live.json")); drafts = set(live["draft_no_supplier_quantity"])
     out = []
@@ -114,6 +134,11 @@ def ad_cap(it):
     return dict(status="READY FOR ADS" if it["ok"] else "USE WITH CARE · READ THE NOTE", warn=not it["ok"], title=it["title"],
                 name=it["name"].replace(" · ", ", "), meta=f"{it['price']}  ·  {it['meta']}  ·  {it['id']}", line=it["note"], sub=it["facts"])
 
+def fin_cap(it):
+    st = (f"FINISHED AD  ·  REVIEW {it['score']:g}  ·  " + ("RUNS AS IT IS" if it["verdict"] == "run" else "FIX BEFORE RUNNING")) if it["score"] else "FINISHED AD"
+    return dict(status=st, warn=it["verdict"] != "run", title=it["title"], name=it["name"],
+                meta=f"{it['price']}  ·  {it['meta']}  ·  {it['id']}", line=it["line"], sub=f"Spec line: {it['spec']}  ·  When to run: {it['timing']}")
+
 def list_cap(p, it):
     return dict(status=("ON SALE" if p["sale"] else "DRAFT · NOT ON SALE YET, NO ADS") + "  ·  THE STORE’S LISTING PHOTO", warn=not p["sale"],
                 title=p["title"], name=it["name"].lower(), meta=f"{p['price']}  ·  {p['code']}  ·  {it['meta']}  ·  {it['id']}",
@@ -127,17 +152,24 @@ def split(items, size):                 # contiguous parts of near-equal size, e
         cur.append(x); s += size(x)
     return parts + [cur]
 
-def pdfs(ads, prods):
+def pdfs(ads, prods, fins):
     os.makedirs(f"{SITE}/pdfs", exist_ok=True); made = []
     def write(fn, title, sub, kind, pages, first=None):
         path = f"{SITE}/pdfs/{fn}"; c = canvas.Canvas(path); c.setTitle(f"Naira Petite · {title}")
         if first: first(c)
         tally = {}
         for it, cap in pages: tally[it["title"]] = tally.get(it["title"], 0) + 1
-        P.cover(c, title, sub, ["In this file:"] + [f"{k}: {v} photograph{'s' if v > 1 else ''}" for k, v in tally.items()])
+        unit = "ad" if kind == "Finished ads" else "photograph"
+        P.cover(c, title, sub, ["In this file:"] + [f"{k}: {v} {unit}{'s' if v > 1 else ''}" for k, v in tally.items()])
         for it, cap in pages: photo_page(c, it, cap)
         c.save(); mb = os.path.getsize(path) / 1e6; assert mb < P.LIMIT / 1e6, (fn, mb)
         made.append(dict(file=fn, title=title, kind=kind, count=len(pages), mb=round(mb, 1))); print(fn, len(pages), f"{mb:.1f} MB")
+    parts = split(fins, lambda x: os.path.getsize(x["src"]))
+    for k, part in enumerate(parts, 1):
+        tag = f", part {k} of {len(parts)}" if len(parts) > 1 else ""
+        write(f"Naira-E2-0-Finished-ads{f'-{k}' if len(parts) > 1 else ''}.pdf", f"Edition Two finished ads{tag}",
+              "The ads as they run, with the round 23 hooks: the layout system applied, piece by piece.", "Finished ads",
+              [(x, fin_cap(x)) for x in part])
     def kit(c):
         P.brand_page(c); P.cover(c, "Edition Two: the ad brief", "Read this before making an ad from these photographs.", BRIEF)
     for ok, fn, title, sub, kind in [
@@ -159,20 +191,21 @@ def pdfs(ads, prods):
 
 # ---- page ----
 def main():
-    for d in ("t", "f", "l", "lf", "brand", "pdfs"): os.makedirs(f"{SITE}/{d}", exist_ok=True)
-    ads, prods = plates(), products()
+    for d in ("at", "af", "t", "f", "l", "lf", "brand", "pdfs"): os.makedirs(f"{SITE}/{d}", exist_ok=True)
+    ads, prods, fins = plates(), products(), finished()
+    for it in fins: thumb(it["src"], f"{SITE}/{it['t']}", 480); shutil.copyfile(it["src"], f"{SITE}/{it['f']}")
     for it in ads: thumb(it["src"], f"{SITE}/{it['t']}"); shutil.copyfile(it["src"], f"{SITE}/{it['f']}")
     for p in prods:
         for it in p["photos"]: thumb(it["src"], f"{SITE}/{it['t']}"); shutil.copyfile(it["src"], f"{SITE}/{it['f']}")
     marks = [("Naira-wordmark-ink.png", "logo_ink.png", "Black, for light photographs"), ("Naira-wordmark-white.png", "logo_white.png",
              "White, for dark photographs"), ("Naira-wordmark-sage.png", "logo_sage.png", "Sage, on blush paper only")]
     for fn, src, _ in marks: shutil.copyfile(f"{HERE}/brand/{src}", f"{SITE}/brand/{fn}")
-    made = pdfs(ads, prods)
+    made = pdfs(ads, prods, fins)
     strip = lambda it: {k: v for k, v in it.items() if k not in ("src", "rank", "w", "h")}
-    data = dict(ads=[strip(x) for x in ads], products=[dict(p, photos=[strip(x) for x in p["photos"]]) for p in prods],
+    data = dict(fins=[strip(x) for x in fins], ads=[strip(x) for x in ads], products=[dict(p, photos=[strip(x) for x in p["photos"]]) for p in prods],
                 types=[dict(key=t, label=l) for t, l in TYPES], pdfs=made, marks=[dict(file=f, line=l) for f, _, l in marks],
                 brief=BRIEF, mb=round(sum(p["mb"] for p in made), 1),
-                counts=dict(ads=len(ads), ready=sum(x["ok"] for x in ads), listing=sum(len(p["photos"]) for p in prods),
+                counts=dict(fins=len(fins), run=sum(x["verdict"] == "run" for x in fins), ads=len(ads), ready=sum(x["ok"] for x in ads), listing=sum(len(p["photos"]) for p in prods),
                             pieces=len(prods), sale=sum(p["sale"] for p in prods)))
     b64 = lambda p: base64.b64encode(open(p, "rb").read()).decode()
     for n in ("logo_sage", "logo_white"):
@@ -182,8 +215,8 @@ def main():
                .replace("__WM_DARK__", b64(f"{OUT}/logo_white_480.png")).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")))
     open(f"{SITE}/index.html", "w", encoding="utf-8").write(page)
     # files map in publish order (page and thumbnails first, so the page works from the first publish), each under 250 files and 60 MB
-    paths = ([x["t"] for x in ads] + [it["t"] for p in prods for it in p["photos"]] + [f"brand/{f}" for f, _, _ in marks] +
-             [x["f"] for x in ads] + [it["f"] for p in prods for it in p["photos"]] + [f"pdfs/{p['file']}" for p in made])
+    paths = ([x["t"] for x in fins] + [x["t"] for x in ads] + [it["t"] for p in prods for it in p["photos"]] + [f"brand/{f}" for f, _, _ in marks] +
+             [x["f"] for x in fins] + [x["f"] for x in ads] + [it["f"] for p in prods for it in p["photos"]] + [f"pdfs/{p['file']}" for p in made])
     paths = list(dict.fromkeys(paths)); bins, cur, s = [], {}, 0
     for p in paths:
         sz = os.path.getsize(f"{SITE}/{p}")

@@ -1,0 +1,528 @@
+[
+ {
+  "id": "E2_ruby_a1",
+  "score": 9.6,
+  "verdict": "run",
+  "strengths": [
+   "'Anaar, pre-peeled.' lands in under a second. The baguettes read as a row of arils, and 'pre-peeled' is both the quick-commerce pack (peeled pomegranate) and the old chore of peeling anaar for someone you love. It is specific, urban and Indian at once.",
+   "'ruby-red cubic zirconia, not seeds.' uses the hero's construction ('not candy') with a two-word payoff. It is truthful and matches the listing's Ruby variant.",
+   "The rhyme is literal: loose arils lie at the same scale as the stones, and the cut fruit shows where the red comes from.",
+   "Clean layout. The period of 'PRE-PEELED.' is 54 px from the rind (x 516 vs 570 at y 198), and the nearest aril ends 93 px above the spec cap line. The caps are about 60 px tall, about 22 px at 390 px wide."
+  ],
+  "issues": [
+   "[photo, minor, known] Star glint on the front baguette (about x 580, y 878).",
+   "[layout, minor, template-wide] At 390 px wide the spec line is about 4 px cap height (12 px at 1080) and the price digits about 6 px (17 px at 1080). The price is the one number that sells, and it is the hardest thing on the card to read.",
+   "[set, minor] The correction shape ('<colour> cubic zirconia, not <food>.') recurs on emerald, crystal, mint and huggie, and 11 of the 21 feed corrections end in 'not X'. This is the strongest use of the shape, so this one should keep it."
+  ],
+  "fixes": [
+   "Run as is.",
+   "Template, all ads (optional): price font size 22 -> 30 px (digits about 9 px tall on a phone)."
+  ]
+ },
+ {
+  "id": "E2_emerald_a1",
+  "score": 8.7,
+  "verdict": "fix",
+  "strengths": [
+   "Elaichi in chai is a daily ritual for the whole audience. 'Too pretty for chai.' is conversational and sets as two even serif lines (TOO PRETTY / FOR CHAI.).",
+   "'emerald-green cubic zirconia, not elaichi.' is truthful and finishes the joke in the hero's shape.",
+   "The props stay clear of the copy: the nearest pod is about 132 px from the 'Y' of PRETTY, and the loose pod is about 170 px from 'elaichi.'."
+  ],
+  "issues": [
+   "[copy, moderate] The joke takes two steps (green bracelet -> elaichi -> chai) and rests on a colour-only rhyme: glossy emerald baguettes against matte olive pods. Without the correction, the headline doesn't connect to the bracelet.",
+   "[copy, minor] 'Too pretty for chai' also reads as 'too dressed up for a chai date', which works against the listing's 'fine enough for every day'.",
+   "[set, moderate] Chai is also the subject of E2_chai_a1 (tea strainer, 'Promoted from the kitchen.'). Food and kitchen referents already fill 7 of the 21 feed ads (anaar, elaichi, mishri, nimbu pani, tea strainer, jamun, jalebi), and a second chai joke is the first repeat a viewer will notice.",
+   "[layout, minor] The box clasp drops to y 1157 at x 547, 30 px above the cap line of '· EMERALD' (y 1187), and its shadow comes within about 12 px. It is the only product in my 13 that pushes into the foot."
+  ],
+  "fixes": [
+   "Headline: 'Too pretty to crush.' (TOO PRETTY / TO CRUSH.). Elaichi gets crushed for chai, and the split pods in the photo show it. The joke takes one step, the set loses its second 'chai', and 'crush' adds a light second meaning. Same line lengths as now, so it fits at hs 96, w 580.",
+   "Correction: keep 'emerald-green cubic zirconia, not elaichi.'",
+   "Layout (optional): the foot is plain plaster, so the plate can be moved up about 30 px with a 30 px plaster extension at the bottom. That gives the clasp 60 px or more above the spec. Otherwise accept it."
+  ]
+ },
+ {
+  "id": "E2_crystal_a1",
+  "score": 8.8,
+  "verdict": "fix",
+  "strengths": [
+   "Mishri in a brass katori is a precise, warm Indian referent (after-meal mishri, prasad, Diwali). The clear rock-sugar chunks are the closest visual rhyme to clear baguettes anywhere in the set.",
+   "'clear cubic zirconia, not mishri.' is truthful and crisp.",
+   "The copy stays clear of the props: the period of 'NOTHING.' is 74 px from the bowl rim (x 414 vs 488), and the nearest loose crystal is about 50 px below 'mishri.'."
+  ],
+  "issues": [
+   "[copy, moderate] 'Sweet nothing.' is a soft pun. It needs the correction to resolve, and 'nothing' undersells a ₹1,699 bracelet. It doesn't stop the thumb the way 'Anaar, pre-peeled.' does.",
+   "[set, moderate] This is the second no-sugar joke next to coil's 'SUGAR-FREE JALEBI.', with the hero's 'not candy' behind both. On the contact sheet they read as one idea.",
+   "[layout, minor] The headline sits on the shadowed corner of the linen (median rgb 162,139,121) at about 5.5:1, the lowest headline contrast in my 13. The hairline strokes of the 'W' in 'SWEET' soften at 390 px.",
+   "[photo, minor] About 300 px of empty linen sits under the bracelet (y 850-1150), while the copy is packed into the top third."
+  ],
+  "fixes": [
+   "Headline: 'Don't crunch.' (DON'T / CRUNCH.). It plays on the urge to grab and crunch mishri from the bowl, belongs to the 'Almost edible.' family and has no sugar word. It must stay two short lines: at hs 84 the block can't grow past w 420 because the bowl rim starts at x 488, and a third line would push the correction into the loose crystals at y 340-440.",
+   "Correction: keep 'clear cubic zirconia, not mishri.'",
+   "If coil's headline changes instead, 'Sweet nothing.' can stay (about 8.9)."
+  ]
+ },
+ {
+  "id": "E2_studs_a1",
+  "score": 8.6,
+  "verdict": "fix",
+  "strengths": [
+   "'Almost fragrant.' is a deliberate callback to the best-ever 'Almost edible.': same rhythm, a new sense. Mogra (gajra, weddings, puja) is the most loved flower in this audience's life.",
+   "'four cubic zirconia petals, not mogra.' matches the listing exactly: three round stones and one pear around a polished centre.",
+   "The sage linen and white flowers bring a fresh colour to the sheet. The headline period is about 80 px from the nearest bud."
+  ],
+  "issues": [
+   "[copy, serious, blocks running] The spec line reads '18K GOLD TONE'. It is the only karat number in the set. At phone size '18K GOLD' is what registers, and that is the kind of gold claim the brief rules out. It also leaves out the Silver option the listing sells, while every other metal-option ad says 'GOLD OR SILVER TONE'.",
+   "[layout, minor] The NAIRA wordmark (x 837-1015, y 1167-1206) sits on the big white jasmine. The price (x 921-1012, y 1250-1267) straddles a petal edge, half on white petal and half on grey linen, so the foot has no quiet ground. Dark on white still reads.",
+   "[photo, minor, known] Star glint on the right stud's centre.",
+   "[set, minor] 'Almost ___.' borrows the hero's frame. That works once, but no third 'Almost' should get in."
+  ],
+  "fixes": [
+   "Spec: 'Petal Flower Studs · gold or silver tone'. Make the same change on the studs Story.",
+   "Headline and correction: keep. With the spec fixed, this is about a 9.2."
+  ]
+ },
+ {
+  "id": "E2_mint_a1",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "Nimbu pani is universal, and 'cooler' works twice (temperature and style), so the headline reads in a beat.",
+   "The correction is truthful, and 'pale mint' is the listing's own colour.",
+   "The text zone is clear: the glass edge is 58 px to the right of 'THAN' (x 549 vs 607)."
+  ],
+  "issues": [
+   "[copy, minor] 'not a lime slice' is the weakest rhyme in my 13: the stone is a pear and the slice is a disc. The mint sprig in the same glass is a better match in shape (a pointed oval, like the pear cut) and in name (the product is 'Mint').",
+   "[copy, minor] Seasonal drift: nimbu pani is a summer drink, and this runs from Diwali into the winter weddings. 'Cooler' still works as style, so it is not fatal.",
+   "[layout, minor] The left earring's lowest claw is at y 1138, 49 px above the spec cap line, and its shadow comes within about 25 px of '· CUBIC ZIRCONIA'.",
+   "[photo, minor, known] The earrings are oversized against the lime and glass, which undercuts the same-scale rule.",
+   "[set, minor] This is another drink next to the chai jokes (emerald, E2_chai) and another food referent (7 of 21)."
+  ],
+  "fixes": [
+   "Correction: 'pale mint cubic zirconia,<br>not pudina.' Keep the break so it holds today's two-line shape and the glass gap.",
+   "Headline: keep 'Cooler than nimbu pani.'"
+  ]
+ },
+ {
+  "id": "E2_tubogas_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "The best idea in my 13. The ribbed dome reads as a stack of thin bangles, the prop is that stack, and 'on silent' is the phone setting every working woman uses in meetings. It lands in under a second.",
+   "'not a clinking stack' keeps the sound joke going and is true.",
+   "The largest headline in the set (caps about 72 px, about 26 px on a phone). The copy ends at y 354 and the stack starts at y 410 (x 680 and up), so nothing touches. The foot sits on clean plaster (spec about 11.5:1)."
+  ],
+  "issues": [
+   "[copy, minor] 'band' is ambiguous next to a headline about chudiyan, because it can read as a bangle. The correction is the place to say 'ring'. The spec and CTA do say it, but at 4-6 px on a phone.",
+   "[copy, minor] 'tubogas' is trade jargon most of the audience won't know. It is in the product name, so it costs little, but the correction doesn't need it."
+  ],
+  "fixes": [
+   "Run. Optional correction: 'one ribbed dome ring, not a clinking stack.'"
+  ]
+ },
+ {
+  "id": "E2_watch_a1",
+  "score": 9.3,
+  "verdict": "run",
+  "strengths": [
+   "It turns a specific, warm memory into a fit promise: Papa's heavy two-tone watch sliding off a small wrist. It lands in a beat and suits Diwali gifting.",
+   "The correction pays off 'finally fits' with the listing's real sizes (6, 7 and 8, checked).",
+   "The rhyme is strong: the watch bracelet's links and the ring's three rows of links are the same object at two scales.",
+   "The layout is clear: '8.' ends 41 px above the strap (y 284 vs 325), and the ring ends about 135 px above the spec."
+  ],
+  "issues": [
+   "[photo, minor, known] The prop reads as a luxury two-tone watch and has no hands. 'Papa's watch' points the eye straight at it.",
+   "[copy, minor] The correction is a spec rather than a correction: it never says ring or tone, and 'three rows of links' could describe a strap.",
+   "[set, minor] This is the second timepiece in the launch, next to roman's clock ('Off the clock.'), and both are gold and steel on cream."
+  ],
+  "fixes": [
+   "Run. Optional correction: 'a ring of watch links, sizes 6 to 8.' (one line, ends about x 555 and about 40 px above the strap)."
+  ]
+ },
+ {
+  "id": "E2_droplet_a1",
+  "score": 8.1,
+  "verdict": "fix",
+  "strengths": [
+   "It describes the piece's defining detail, a ball and a teardrop a small gap apart, and the correction matches the listing.",
+   "The type is clean and legible on the grey ground (headline about 10:1), and the lowest drop is about 68 px above the spec."
+  ],
+  "issues": [
+   "[copy, serious] There is no Indian referent and no joke: water drops on grey, and a line that would suit a perfume. It is the only ad in my 13 whose headline neither rhymes with the prop nor carries a cultural hook, so it won't stop the thumb in this set.",
+   "[photo, minor, known] The puddles read as gel, and the cool grey-blue plate is off the cream and blush palette. The water staging also hints at water resistance, so the copy must stay away from rain, splash and water words. It currently does.",
+   "[set, minor] This is the second water-drop image, next to choker's 'Dew, cut and set.'"
+  ],
+  "fixes": [
+   "Headline: 'Happy tears only.' (HAPPY TEARS / ONLY.). One line carries the wedding-season tears, the teardrop end and the drops on the plate. At hs 100, 'HAPPY TEARS' is about 605 px, so keep w 620 or drop to hs 92.",
+   "Correction: keep 'a polished ball and a teardrop, in gold tone.'"
+  ]
+ },
+ {
+  "id": "P11_a1",
+  "score": 9.2,
+  "verdict": "run",
+  "strengths": [
+   "'Diya, meet your match.' works twice: the matchstick that lights a diya, and a rival in glow. It is dated to 8 Nov.",
+   "Three lit diyas give warm light and true scale against the bracelet.",
+   "The copy stays clear of the flames: the period of 'MATCH.' is about 75 px above the diya rim, and the correction ends about 144 px left of the nearest flame."
+  ],
+  "issues": [
+   "[copy, minor] 'catches every flame' promises a flame-lit sparkle the photo doesn't show, because the stones are lit cool (known). Next to open flames it can also flash 'catches fire'.",
+   "[photo, minor, known] The stone order is not a clean three-colour cycle, and the stones are lit cool.",
+   "[set, moderate] Prism Rivière carries three feed ads (P11, P12, P13). P11 and P13 are both Diwali-light ideas (diya, kandil), and tennis's phuljhadi makes a third. P11 is the strongest of them and should be the one that stays."
+  ],
+  "fixes": [
+   "Run. Optional correction: 'pastel cubic zirconia,<br>no oil, no wick.' Break after the comma so the line stays off the top diya's flame at x 555."
+  ]
+ },
+ {
+  "id": "P12_a1",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "The sharpest wedding-season insight in my 13. You can't repeat an outfit across haldi, mehendi and sangeet (the photos last forever), so the one thing you can repeat is the bracelet.",
+   "There is a second meaning: the stones themselves repeat, and here the cycle reads cleanly (yellow, aqua, pink, five times).",
+   "The rhyme is exact: three folded silk sarees with zari borders in the bracelet's three colours.",
+   "The copy is well clear of the fabric (180 px or more)."
+  ],
+  "issues": [
+   "[layout, moderate] The cream band behind the foot (340 px tall, 93% from y 1120, fading from y 1010) lays about a 93% veil over the last link and clasp (x 200-340, y 1060-1180) and about 36% over the link above. The bracelet seems to evaporate into the foot. The clasp sits only about 12 px above the spec line, so the band can't simply be removed.",
+   "[layout, minor] Headline font size 72 (caps about 51 px) is the smallest in the set, tied with duo: about 18 px on a phone, against about 26 px for tubogas.",
+   "[copy, minor] The correction lists colours but not what the piece is, and its colour list nearly repeats P13's ('aqua, pink and yellow cubic zirconia, not paper.').",
+   "[photo, minor, known] Thin colour rims on a few stones.",
+   "[set, minor] This is the third Prism Rivière ad."
+  ],
+  "fixes": [
+   "Correction: 'one cubic zirconia bracelet<br>for haldi, mehendi and sangeet.' It names the three functions the three sarees stand for and states the material. Line 2 ends at about x 484, about 150 px clear of the saree.",
+   "Headline: keep 'The only repeat allowed.' Optional: hs 72 -> 80 with w 580 -> 660 (line 1 ends about x 700, and the saree edge is at y 260 there).",
+   "Band: start the fade at y 1110 and the solid part at y 1190 (bh about 240, bsd about 160). On this plate the spec sits on plain cream table and needs little help, the wordmark over the zari still gets about 65-93%, and the last link comes back to about 50-70% visible."
+  ]
+ },
+ {
+  "id": "E2_knot_a1",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "'Mandap to Monday.' is alliterative, quick and exactly on season: buy it for the pheras, wear it to work.",
+   "The red silk with a zari border tied in a knot is the gathbandhan, so 'tied for good' lands both as marriage and as a promise the knot won't come undone. It is the wittiest correction in my 13.",
+   "White on red gives the strongest contrast in the set (headline about 11:1, spec about 8:1). The inverted CTA is handled, and it is the only red ground on the sheet."
+  ],
+  "issues": [
+   "[layout, minor] The top-right serif of the 'Y' in 'MONDAY.' (about x 557, y 150) is about 6 px from the soft edge of the blurred zari band, which brightens to about 150/255 by x 588. The white serif loses its edge there.",
+   "[set, moderate] Same idea as duo's 'Saree or shirt? Both.' (from Indian occasion to everyday). This one is better rhymed, so keep it and change duo."
+  ],
+  "fixes": [
+   "Run as is. Optional: hs 92 -> 88 pulls 'MONDAY.' in to about x 542 and leaves about 24 px to the zari."
+  ]
+ },
+ {
+  "id": "E2_duo_a1",
+  "score": 8.4,
+  "verdict": "fix",
+  "strengths": [
+   "A clear, everyday versatility promise in Indian terms, and 'Both.' answers the two tones.",
+   "'gold tone and silver tone, link by link.' is exact (the listing has links in gold tone and silver tone) and has a good rhythm.",
+   "The engraved two-tone thali (brass bands on silver) is a rich, festive referent."
+  ],
+  "issues": [
+   "[copy, moderate] The headline ignores the photo. There is no saree and no shirt, while the prop, Ganga-Jamuni metalwork with brass and silver on one thali, is the exact rhyme for a two-tone chain and goes unused. Avoid 'thali' in a necklace line, because in Tamil Nadu and Kerala 'thali' means the wedding necklace.",
+   "[set, moderate] It repeats knot's 'Mandap to Monday.' idea (Indian occasion to office), so the set ends up with two versatility headlines.",
+   "[layout, moderate] The foot glow (fscrim) lays about 41% white over the chain's lowest loop (x 360-700, y 1090-1160). The loop's bottom is 27 px above the spec cap line and level with the rule, so the necklace looks unfinished and the plate looks hazed.",
+   "[layout, minor] Font size 72 (caps about 52 px), tied for smallest in the set, sits on the mottled wall (median rgb 176,160,141, about 7:1). At 390 px it reads greyer than the rest.",
+   "[photo, minor, known] Star glint on the chain (about x 910, y 745)."
+  ],
+  "fixes": [
+   "Headline: 'Ganga-Jamuni, link by link.' (GANGA-JAMUNI, / LINK BY LINK.) at hs 84. Use a non-breaking hyphen (U+2011) in Ganga-Jamuni.",
+   "Correction: 'gold tone and silver tone,<br>on one chain.' It explains the craft term for readers who don't know it. Break after the comma, because on one line it would end about x 600, only about 25 px above the rim highlight.",
+   "Foot: change fscrim true -> 'spec' (glow behind the left column only), so the loop comes back to about 20% veil or less. Then check the price against the engraving."
+  ]
+ },
+ {
+  "id": "E2_silk_a1",
+  "score": 9.2,
+  "verdict": "run",
+  "strengths": [
+   "Saree vocabulary gives an instant festive picture. 'No pleats' is a real pain point (pinning pleats before a function), so the cuff offers the zari shimmer without the drape.",
+   "The gold skein rhymes with the mesh in colour and texture, at the same scale.",
+   "The layout is clear: the nearest loose strand is 58 px from the period of 'PLEATS.', the correction ends about 115 px from the thread, and the thread is about 49 px from the wordmark."
+  ],
+  "issues": [
+   "[photo, minor, known] The thread reads a little like raffia, which makes 'zari' (metallic thread) work harder.",
+   "[set, minor] 'fine woven mesh ... not thread.' sits next to chai's 'a woven mesh band, not a tea strainer.': two 'woven mesh ... not X' corrections in one launch, and 11 of the 21 feed corrections end in 'not X'."
+  ],
+  "fixes": [
+   "Run. Optional correction: 'fine gold-tone mesh,<br>no safety pins needed.' It carries the pleats joke on (pleats need pins) and drops the duplicate 'woven mesh ... not X'. Keep the break, because on one line it would run into the thread at x 430-560."
+  ]
+ },
+ {
+  "id": "E2_chai_a1",
+  "score": 9.0,
+  "verdict": "run",
+  "strengths": [
+   "'PROMOTED FROM THE KITCHEN.' is a fresh shape for this set: a career idiom, not another 'NOUN, TWIST.' split. It lands in a second: strainer mesh, ring mesh, and the ring got the promotion. A wink that suits working women 22-40.",
+   "The visual rhyme is exact. Strainer and ring share the woven texture and the brass/gold tone, and the strainer sits behind the ring, so the eye reads referent, then product.",
+   "Correction 'a woven mesh band, not a tea strainer.' is the house formula and is true to the listing (fine woven metal mesh). It makes no metal or stone claim. Spec 'MESH BAND RING · SIZES 6 TO 8' matches US 6-8, and ₹999 is correct.",
+   "The copy block is clean. The period of 'KITCHEN.' (x≈567, y≈195) clears the strainer handle by ≈55 px, and 'band,' ends ≈148 px from the handle loop. Two balanced lines of 59 px caps, about 21 px on a 390 px phone."
+  ],
+  "issues": [
+   "[photo, minor] Known and logged: the chai ring stain looks staged. Not scored.",
+   "[copy, minor] 'Promoted' plus 'kitchen' can be read through a gender lens, as in women 'promoted from the kitchen'. Most of this audience will take it as a wink, but it is the one line in the set that touches a live debate. Watch the comments in the first 48 h.",
+   "[copy, minor] Pairing a ₹999 ring with a kitchen utensil risks a 'made of strainer mesh' read. 'Promoted' does the lifting, so that word must stay.",
+   "[set, moderate] This is the second chai referent in the launch, after E2_emerald_a1 'TOO PRETTY FOR CHAI.' (elaichi). Food and kitchen now carry 7 of the 21 feeds: anaar, elaichi, mishri, nimbu pani, strainer, jamun, jalebi.",
+   "[set, minor] Across the whole launch, spec lines are 12 px caps (≈4 px on a 390 px phone) and prices are ≈18 px (≈6.5 px). On a phone they are texture, not information. That is acceptable only because the ad unit repeats the price."
+  ],
+  "fixes": [
+   "Run as is.",
+   "Deliver E2_chai_a1 and E2_emerald_a1 in different ad sets and carousels so the two chai jokes never sit side by side."
+  ]
+ },
+ {
+  "id": "E2_roman_a1",
+  "score": 8.6,
+  "verdict": "fix",
+  "strengths": [
+   "'OFF THE CLOCK.' lands in a second with a clean double meaning: the numerals have come off the dial, and this is the ring for after work.",
+   "The tall serif capitals echo the dial's roman numerals, so the type and the prop share one visual language.",
+   "Correction 'roman numerals and pavé, in three tones.' is true to the listing (rose gold tone, silver tone and gold tone bands, with a pavé middle). It also tells the buyer why the ring costs ₹1,899.",
+   "The copy block is clean. The dial rim sits ≈99 px right of 'THE', ≈125 px from 'CLOCK.' and ≈87 px from 'and'. The dial numerals are in correct radial order (XII at top, VI inverted at the bottom)."
+  ],
+  "issues": [
+   "[photo, minor] Known and logged: small star glint on the pavé band (≈520, 830). Not scored.",
+   "[copy, moderate] A generic English idiom with no Indian hook. With the choker, it is one of two E2 feeds in this batch with no Indian word in the copy and no Indian object in the photo. It reads like a watch-brand line and gives up the voice that carries 'ANAAR, PRE-PEELED.'",
+   "[set, moderate] This is the second ring-plus-timepiece ad, alongside E2_watch_a1 'PAPA'S WATCH, FINALLY FITS.'. Side by side, they read as one idea twice.",
+   "[copy, minor] Nothing on the ad says cubic zirconia. 'Pavé' on its own invites a diamond assumption that only the price corrects."
+  ],
+  "fixes": [
+   "Headline: 'SHUBH GHADI.', broken as 'SHUBH / GHADI.'. Both lines are ≈280 px or less at the current 65 px caps, so the dial still clears by more than 100 px. The pun (ghadi as clock, ghadi as moment) ties the dial to Dhanteras and wedding-muhurat buying. Because ghadi also means watch, this makes the ad-set split from E2_watch_a1 essential.",
+   "Correction: 'roman numerals and cubic zirconia pavé, in three tones.', set in three lines: 'roman numerals and / cubic zirconia pavé, / in three tones.'. The longest line is ≈290 px and clears the dial rim (x≈445 at y≈300-360) by ≈90 px. If the team keeps 'OFF THE CLOCK.', this correction alone takes the ad to about 8.8.",
+   "Keep this ad out of any ad set or carousel that carries E2_watch_a1."
+  ]
+ },
+ {
+  "id": "E2_choker_a1",
+  "score": 8.2,
+  "verdict": "fix",
+  "strengths": [
+   "The most arresting plate in the batch. Skin, a saffron satin strap and a single marquise stop the thumb, and it is the only on-body shot in the launch.",
+   "Correction 'a marquise and two pears, in cubic zirconia.' is precise and true to the listing: one marquise, one pear halfway down the chain and one at the end. The fruit sense of 'pears' is a quiet bonus.",
+   "The headline steers the droplets toward 'dew', which is the right instinct given the known sweat read.",
+   "The headline sits on clean cream, and the spec line holds at least 5.3:1 contrast over strap and skin."
+  ],
+  "issues": [
+   "[copy, moderate] 'DEW, CUT AND SET.' needs a second read. The break 'DEW, CUT / AND SET.' splits the jeweller's phrase 'cut and set' across two lines, so the eye first reads 'Dew, cut'. 'Dew' is also the one referent in this batch with no Indian or seasonal anchor.",
+   "[layout, moderate] The bottom scrim reads as a milky smear on her chest. Skin around and right of the CTA (x≈380-560, y≈1120-1290) is lifted to ≈190-228 luminance against ≈100-160 for the surrounding skin. On a phone it looks like a light leak or powder.",
+   "[photo, moderate] Known and logged: the droplets and rivulets (for example, the run at x≈545, y≈740-1040) can read as sweat. Not scored.",
+   "[photo, minor] Not on the logged list: an eight-ray starburst glint on the marquise at ≈(818, 697). It is the same type of fault as the logged roman and ruby glints. The Story plate does not have it.",
+   "[layout, minor] The headline is tucked under the jaw: the chin's underside comes within ≈53 px of the 'T' in 'CUT', and the neck edge at x≈556 limits any headline to about 300 px per line.",
+   "[set, minor] One more 'NOUN, TWIST.' comma headline. 8 of the 21 feed headlines now use that shape."
+  ],
+  "fixes": [
+   "Headline: 'DEWY FINISH.', broken as 'DEWY / FINISH.'. At the current 51 px caps the lines are ≈170 px and ≈250 px wide, well clear of the jaw and neck. Correction unchanged: 'a marquise and two pears, in cubic zirconia.'. 'Dewy finish' is a beauty-counter term this audience knows; it frames the droplets as a chosen glow and makes the choker the finishing touch.",
+   "Spec: 'MARQUISE DROP CHOKER · GOLD TONE'. The listing says 18k gold tone plated, so the spec line adds a fact instead of repeating 'cubic zirconia'.",
+   "Replace the radial scrim with a low linear gradient, at y≥1160 and no more than 35% white, or with a tight shadow under the spec type only. Keep the spec line at 4.5:1 or better without lifting the skin above ≈170 luminance."
+  ]
+ },
+ {
+  "id": "E2_huggie_a1",
+  "score": 9.3,
+  "verdict": "run",
+  "strengths": [
+   "'PURPLE TONGUE NOT INCLUDED.' is the sharpest joke among the seven E2 feeds here. A universal Indian childhood memory, the jamun-stained tongue, is dressed as a packaging disclaimer. It lands in a second with the bitten jamun and its juice in frame.",
+   "Correction 'amethyst-purple cubic zirconia, not jamun.' follows the hero formula ('not candy') exactly and is truthful. Spec 'BAGUETTE HUGGIES · AMETHYST' uses the listing's colour name, and ₹1,399 is correct.",
+   "The composition reads top to bottom: headline, jamun pile, juice stain, huggies. The stain's trail leads the eye to the product.",
+   "The layout is clean. The period of 'INCLUDED.' (≈570, 183) is ≈87 px from the nearest jamun, and 'TONGUE' ends ≈88 px above the pile. Two balanced 13-character lines read well in tall serif capitals."
+  ],
+  "issues": [
+   "[photo, minor] Known and logged: the amethyst grades lilac, which weakens the purple rhyme with the jamun. Not scored.",
+   "[copy, minor] Jamun is a June-July fruit. In an October-December flight it plays as nostalgia rather than season. That is fine, but it is the one off-season referent.",
+   "[copy, minor] 'AMETHYST' alone in the spec line can read as the gemstone. The correction clears it in the same glance, so leave it, but never let this spec line run without the correction, for example in a catalogue crop.",
+   "[set, minor] This is the sixth food referent of 21 feeds. It is one of the two strongest, so if the food lane has to thin, this one should stay."
+  ],
+  "fixes": [
+   "Run as is."
+  ]
+ },
+ {
+  "id": "E2_coil_a1",
+  "score": 9.2,
+  "verdict": "run",
+  "strengths": [
+   "'SUGAR-FREE JALEBI.' lands in a second: the coil is the jalebi, and 'sugar-free' is the Diwali-mithai phrase every family has a relative asking for. Two words, rooted, and timed for the season.",
+   "The shape rhyme is literal: the jalebi spiral on a brass thali next to the three-turn coil.",
+   "Naming 'JALEBI' outright rescues the plate from its known jelly read.",
+   "Correction 'one coil, three turns, two cubic zirconia caps.' counts the construction exactly as the listing describes it: one continuous coil, three turns, two pavé caps.",
+   "Clean top: 'caps.' ends ≈70 px from the thali rim, and 'SUGAR-FREE' is ≈170 px clear of it."
+  ],
+  "issues": [
+   "[photo, minor] Known and logged: the jalebi reads as jelly up close. Not scored.",
+   "[set, minor] This is the second sugar joke in the launch, after E2_crystal_a1 'SWEET NOTHING.' (mishri).",
+   "[layout, minor] The bangle base runs down to y≈1214, level with the spec line and ≈72 px from 'BANGLE', which looks slightly crowded on a phone. It also means the spec line cannot grow: adding '· GOLD TONE' would run into the bangle at x≈471. The short spec line has to stay."
+  ],
+  "fixes": [
+   "Run as is.",
+   "Do not deliver it in the same carousel or ad set as E2_crystal_a1 'SWEET NOTHING.'."
+  ]
+ },
+ {
+  "id": "E2_tennis_a1",
+  "score": 8.4,
+  "verdict": "fix",
+  "strengths": [
+   "The most kinetic plate in the launch. A lit phuljhadi on slate is an instant Diwali signal, and the white-on-dark treatment adds range to a cream-heavy feed.",
+   "'HOLD THIS ONE CLOSE.' is warm and giftable, with a real twist for anyone raised on 'phuljhadi door se pakdo': this is the sparkle you can keep close.",
+   "The correction is truthful and on formula. Spec 'FINE TENNIS BRACELET · CUBIC ZIRCONIA' and ₹1,299 match the listing.",
+   "The sparks stay clear of the type: the nearest streak is ≈60 px from the period of 'CLOSE.'."
+  ],
+  "issues": [
+   "[layout, moderate] The white italic correction sits on the brightest part of the warm glow: contrast is ≈2.9:1 median and ≈2.2:1 worst, with the background at about RGB 186,140,98 behind 'small cubic zirconia'. At 390 px wide that is roughly 10 px italic at under 3:1, so the punchline is the hardest thing on the ad to read. The headline measures ≈3.6-4.1:1 median and ≈2.2-2.5:1 worst at its left end.",
+   "[copy, moderate] On its own the headline is greeting-card generic. The phuljhadi contrast only lands once the correction is read, so it fails the one-second test that 'ANAAR, PRE-PEELED.' passes. Next to a burning sparkler, 'this one' can also flash as 'hold the sparkler close' for a beat.",
+   "[copy, minor] 'small cubic zirconia stones' undersells the piece: 'small' is the first adjective the buyer meets, and 'stones' repeats 'cubic zirconia'.",
+   "[photo, minor] Known and logged: the stones are slightly milky, with a glint at ≈(820, 885). Not scored.",
+   "[set, minor] This is a second Diwali fire-and-light joke alongside P11 'DIYA, MEET YOUR MATCH.' ('catches every flame'). Fine across ad sets, flat side by side."
+  ],
+  "fixes": [
+   "Correction: 'a line of cubic zirconia, not a phuljhadi.', broken as 'a line of cubic zirconia, / not a phuljhadi.'. The longest line is ≈350 px, still ≈80 px from the nearest spark bloom. The headline stays 'HOLD THIS ONE CLOSE.'.",
+   "Darken the glow behind the copy block (about x 50-470, y 50-320) by ~30-35% luminance, or add a soft dark radial behind it, until both the headline and the correction reach 4.5:1. Check the line starts at x≈65-200, where the glow peaks."
+  ]
+ },
+ {
+  "id": "E2_star_a1",
+  "score": 8.9,
+  "verdict": "fix",
+  "strengths": [
+   "'DHRUV TARA, WITHIN REACH.' is rooted twice: Dhruva is the star no one can reach, and the pole star is shown to the bride at Hindu weddings, which suits the wedding-season flight. 'Within reach' doubles as a price wink at ₹1,499.",
+   "One of three dark grounds in the launch and the only blue one, so it is a strong colour stop in a cream feed. The white type measures at least 9.8:1 on the correction and at least 5.1:1 on the spec line, worst case.",
+   "Correction 'engraved north stars and clear cubic zirconia.' is exactly the listing: engraved eight-point stars alternating with bezel-set CZ. Spec 'NORTH STAR BANGLE · SILVER OR GOLD TONE' is truthful.",
+   "The largest headline in the batch (70 px caps, ≈25 px on a phone), clean against the bokeh. The nearest speck is ≈80 px from 'TARA,'."
+  ],
+  "issues": [
+   "[layout, minor] The correction runs as one ≈640 px line (x 65-705), the only single-line correction in this batch. Its period stops ≈35-47 px short of the four-point flare at about (790, 275), so on a phone the flare looks like a sticker stuck on the end of the sentence.",
+   "[layout, minor] A sequin speck at ≈(881, 1254) sits 38 px left of '₹1,499' at cap height and reads as a bullet ('• ₹1,499'). Another sits inside the A of NAIRA at ≈(888, 1189).",
+   "[copy, minor] More poetic than witty, and 'within reach' is a stock phrase. For English-first or South Indian viewers, 'DHRUV TARA' in capitals can read as two first names (Dhruv, Tara) until the stars register.",
+   "[photo, minor] Known and logged: the engraved stars read as eight-petal daisies, and the cloth reads as sequins. Not scored.",
+   "[set, minor] Another 'NOUN, TWIST.' comma headline (8 of 21 feeds)."
+  ],
+  "fixes": [
+   "Break the correction into two lines: 'engraved north stars and / clear cubic zirconia.'. The longest line is ≈335 px, leaving ≈340 px of air before the flare. Copy otherwise unchanged.",
+   "Clone out the two sequin specks at ≈(881, 1254) and ≈(888, 1189). This is a 3-4 px retouch, not a reshoot."
+  ]
+ },
+ {
+  "id": "P13_a1",
+  "score": 8.4,
+  "verdict": "fix",
+  "strengths": [
+   "The prettiest Diwali plate in the set. The aqua, pink and yellow paper kandils match the bracelet's three stone colours one to one, and the warm backlight sells the season.",
+   "The correction names the colours and the truth: 'aqua, pink and yellow cubic zirconia, not paper.'. Spec 'PRISM RIVIÈRE · 18 CM · CUBIC ZIRCONIA' and ₹2,399 match the listing.",
+   "The copy column is clean. The blurred aqua star tip comes within ≈45 px of the comma in 'DIWALI,' and leads the eye in rather than crowding it. The correction clears the star by ≈63-74 px."
+  ],
+  "issues": [
+   "[copy, moderate] 'DIWALI, KEPT.' is cryptic. The viewer has to build the idea (kandils come down after Diwali; this one stays) in two steps, and 'not paper' is the only clue. With the choker, it is one of the two slowest headlines in this batch.",
+   "[set, moderate] Same bracelet, same festival and the same 'DI-, -.' headline shape as P11's 'DIYA, MEET YOUR MATCH.'. On the contact sheet the two read as variants of one ad, and P12 is a third feed for the same piece.",
+   "[copy, minor] 'not paper' is generic where the house formula usually names the referent ('not jamun', 'not a phuljhadi').",
+   "[photo, minor] Known and logged: the front-row stone order is wrong. Not scored."
+  ],
+  "fixes": [
+   "Correction: 'the kandil's colours, in cubic zirconia.', in two lines: 'the kandil's colours, / in cubic zirconia.'. Both lines are ≈315 px or less and clear the aqua star by at least 60 px. The headline stays 'DIWALI, KEPT.'; the correction now says what was kept. Use the same correction on the P13 Story.",
+   "Never deliver P13 and P11 in the same ad set or carousel. P11 is the stronger of the two."
+  ]
+ },
+ {
+  "id": "P11_a1-story",
+  "score": 9.0,
+  "verdict": "run",
+  "strengths": [
+   "'DIYA, MEET YOUR MATCH.' carries three meanings at once: the matchstick that lights a diya, an equal, and the wedding-season rishta. It lands in a second with three lit diyas in frame.",
+   "Correction 'pastel cubic zirconia that catches every flame.' ties the stones to the flames and is truthful: aqua, pink and yellow CZ in clear halos, ₹2,399.",
+   "Story safe zones are respected. The headline caps start at y=302, 12 px under the 290 line. The spec line ends at y=1520 and the price at y=1523, 17-20 px above the 1540 line.",
+   "The diya flames sit right beside 'flame.', so the type and the prop rhyme."
+  ],
+  "issues": [
+   "[layout, minor] The period of 'flame.' (x≈410, y≈522) sits ≈46 px from the left diya's outer wall (x≈456), and 'MATCH.' is ≈56 px from its rim. That is about 17-20 px on a phone, tight against the loudest object in the frame.",
+   "[photo, minor] Not on the logged list: the bracelet is laid with its box clasp open (tongue at ≈665-735 x, 860-920 y; box at ≈612-745 x, 930-1000 y), which reads as unfastened or broken for a beat.",
+   "[photo, minor] Known and logged: the recoloured stones show a stone inside a stone. Not scored.",
+   "[copy, minor] 'catches every flame' can flash as 'catches fire' next to open flames. Most viewers will take the poetic reading, so leave it.",
+   "[set, moderate] The P11 and P13 Stories both put the same Prism Rivière in a Diwali scene under 'DI-, -.' headlines. Back to back in a Story sequence, the second looks like a duplicate."
+  ],
+  "fixes": [
+   "Run. Re-break the correction as 'pastel cubic zirconia that / catches every flame.'. Line 1 then ends at x≈412 (≈70 px from the diya rim), and 'flame.' ends at x≈336 (≈120 px from the wall). Words unchanged.",
+   "Schedule the P11 and P13 Stories in different sequences or flights. If only one runs, keep P11."
+  ]
+ },
+ {
+  "id": "E2_ruby_a1-story",
+  "score": 9.5,
+  "verdict": "run",
+  "strengths": [
+   "'ANAAR, PRE-PEELED.' is the campaign's best line. Every Indian woman knows the labour, or the love, of peeling anaar. The joke lands before the eye reaches the bracelet, and the ruby baguettes really do look like arils.",
+   "Correction 'ruby-red cubic zirconia, not seeds.' follows the 'not candy' formula exactly and is truthful. Spec 'BAGUETTE TENNIS BRACELET · RUBY' uses the listing's colour name, and ₹1,699 is correct.",
+   "The Story layout is clean. Headline caps start at y=302, inside the 290 line. 'PRE-PEELED.' clears the pomegranate rim by ≈63 px and 'seeds.' by ≈58 px. The nearest stone is ≈65 px from the NAIRA mark, and the spec and price end at y=1520 and y=1523.",
+   "The half pomegranate fills the top band where copy can't go, so the frame never looks empty."
+  ],
+  "issues": [
+   "[photo, minor] Known and logged: small star glint on the bracelet at ≈(705, 1310). Not scored.",
+   "[copy, minor] 'RUBY' alone in the spec line can read as the gemstone. The correction resolves it in the same glance."
+  ],
+  "fixes": [
+   "Run as is."
+  ]
+ },
+ {
+  "id": "E2_studs_a1-story",
+  "score": 9.3,
+  "verdict": "run",
+  "strengths": [
+   "'ALMOST FRAGRANT.' is a deliberate sibling of the account's best ad, 'Almost edible.': the same two-word shape with a new sense. Mogra makes it instant: gajra, weddings, every grandmother's hair.",
+   "Correction 'four cubic zirconia petals, not mogra.' is exact to the listing (three round CZ and one pear around a metal centre) and on formula. ₹1,199 is correct.",
+   "The sage linen ground gives the Story sequence a colour break from the cream plates.",
+   "Safe zones are respected: headline caps start at y=303, and the spec and price end at y=1520 and y=1523. The copy clears the nearest bloom by at least 110 px."
+  ],
+  "issues": [
+   "[copy, minor] 'PETAL FLOWER STUDS · 18K GOLD TONE' matches the listing ('18k gold tone plated'), but it is the only '18K' in the launch. To someone skimming, '18K' signals karat gold, which the brief's 'gold tone' rule exists to avoid.",
+   "[layout, minor] The lower-left mogra bud ends at y≈1450, ≈34 px above the spec rule (y=1484). On a phone (≈12 px) the rule looks pinned under the bud.",
+   "[set, minor] If 'Almost edible.' is still in rotation, keep the two apart within one sequence so the echo reads as a signature, not a re-run."
+  ],
+  "fixes": [
+   "Spec: 'PETAL FLOWER STUDS · GOLD TONE'. Keep '18K' only if legal wants listing-verbatim specs everywhere.",
+   "Otherwise run as is."
+  ]
+ },
+ {
+  "id": "E2_choker_a1-story",
+  "score": 7.8,
+  "verdict": "fix",
+  "strengths": [
+   "The taller crop shows the drop at full length. The pendant line reads clearly from the marquise (≈620-720 x, 880-940 y) down to the last pear (≈548-600 x, 1310-1380 y).",
+   "The copy sits on clean cream inside the safe zones: headline caps start at y=302, and the spec and price end at y=1520 and y=1523. Unlike the feed, the Story marquise has no starburst glint."
+  ],
+  "issues": [
+   "[layout, moderate] The bottom fade looks unfinished. Skin goes to near-white within ≈100 px (y≈1340 to 1440), exactly where the last pear hangs (y≈1310-1380). Below that, a ghosted torso and strap show through a ≈92% veil down to a hard full-width seam at y≈1700, then flat cream. On a phone the lower quarter reads as fog with a band across it.",
+   "[photo, moderate] Known and logged: the two long rivulets (about x 440-500 and 710-790, y≈940-1340) are far more prominent than in the feed and read as sweat. 'Dew' in the headline does not cover running water. Not scored.",
+   "[copy, moderate] Same headline problem as the feed: 'DEW, CUT / AND SET.' splits 'cut and set' across two lines and needs a second read.",
+   "[set, minor] The same comma-construction repetition as the feed."
+  ],
+  "fixes": [
+   "Use the same copy as the fixed feed: 'DEWY FINISH.' broken as 'DEWY / FINISH.', correction 'a marquise and two pears, in cubic zirconia.', spec 'MARQUISE DROP CHOKER · GOLD TONE'.",
+   "Rebuild the bottom. Start the fade below the last pear (y 1420 or lower) and run one smooth gradient to the frame edge with no step at y≈1700. Hide the ghost strap and shoulder (x 0-200 and 880-1080, y 1440-1700) under the fade, or clone them out."
+  ]
+ },
+ {
+  "id": "P13_a1-story",
+  "score": 8.3,
+  "verdict": "fix",
+  "strengths": [
+   "The taller crop lets all three kandils glow above the copy and gives the bracelet a full-width hero position.",
+   "The copy sits in a clean beige pocket. The comma of 'DIWALI,' is ≈110 px from the pink star, and 'paper.' is ≈82 px from its lower arm. Placing the headline mid-frame (caps from y=563) is the most readable Story position.",
+   "The spec and price end at y=1520 and y=1523, inside the 1540 line. The front pink stone ends ≈44 px above the NAIRA mark."
+  ],
+  "issues": [
+   "[copy, moderate] Same as the feed: 'DIWALI, KEPT.' leaves the viewer to supply the idea.",
+   "[set, moderate] In a Story sequence this sits next to P11's 'DIYA, MEET YOUR MATCH.', with the same bracelet and the same 'DI-, -.' shape, so whichever runs second looks like a repeat.",
+   "[layout, minor] The headline starts at y=563, while the other four Stories start at y≈302. That works for this Story alone, but in one sequence the copy jumps 261 px between Stories.",
+   "[photo, minor] Known and logged: a two-tone pink stone and an olive yellow. Not scored."
+  ],
+  "fixes": [
+   "Correction: 'the kandil's colours, in cubic zirconia.', in two lines as on the feed. The headline stays 'DIWALI, KEPT.'.",
+   "Run the P13 and P11 Stories in different sequences or flights."
+  ]
+ }
+]

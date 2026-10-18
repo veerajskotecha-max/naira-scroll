@@ -10,8 +10,8 @@ for f in sorted((g for g in glob.glob(f"{FA}/review_r*.json") if re.search(r"_r(
     n = int(re.search(r"_r(\d+)\.json$", f).group(1))
     if n < 19: continue
     for r in json.load(open(f)): rev.setdefault(r["id"], []).append((n, r))
-TIMING = {"P11": "Diwali window (to 8 Nov)", "P13": "Diwali window (to 8 Nov)", "P12": "Diwali + wedding season", "E2_choker": "Hold to June (monsoon)",
-          "E2_droplet": "Hold to June (rain)", "E2_mint": "Hold: re-shoot at true scale", "E2_tennis": "Now, through Diwali", "E2_knot": "Now, wedding season"}
+TIMING = {"P11": "Diwali window (to 8 Nov)", "P13": "Diwali and the week after", "P12": "Diwali + wedding season", "E2_choker": "Now (dew, not monsoon)",
+          "E2_droplet": "Now", "E2_mint": "Hold: re-shoot at true scale", "E2_tennis": "Now, through Diwali", "E2_knot": "Now, wedding season"}
 os.makedirs(f"{OUT}/img", exist_ok=True); cards = []
 order = sorted(ads, key=lambda a: -(rev.get(a["id"], [(0, {"score": 0})])[-1][1]["score"]))
 for a in order:

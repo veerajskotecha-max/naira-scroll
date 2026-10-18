@@ -4,8 +4,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap">
 <style>
 @font-face{font-family:"Velista";src:url(data:font/ttf;base64,__VELISTA__) format("truetype");font-display:swap}
-/* The Naira deck as a picture library for Edition Two: blush paper, sage rules, the tulip wordmark, Velista capitals. The ad
-   photographs are the clean plates (no copy on them); the listing photos are the store's own. Built by e2_plain.py. */
+/* The Naira deck as a picture library for Edition Two: blush paper, sage rules, the tulip wordmark, Velista capitals. The
+   finished ads as they run, the clean plates behind them (no copy on them), and the store's own listing photos. Built by
+   e2_plain.py. */
 :root{
   --paper:#FFF8F5; --card:#FFFFFF; --ink:#1A1614; --muted:#6E625A; --rule:#EADFD8; --sage:#99B4AE; --sage-ink:#4F6B65;
   --coral:#B4513B; --peach:#F2C4B6; --chip:#F3E9E3; --scrim:rgba(26,22,20,.86); --wash:#F7EEE9;
@@ -115,9 +116,9 @@ dialog::backdrop{background:var(--scrim)}
     <img class="wm dark" src="data:image/png;base64,__WM_DARK__" alt="Naira">
     <p class="lab">Edition Two · HD images for Claude · October 2026</p>
     <h1>Edition Two</h1>
-    <p class="lede">Every clean ad photograph and every listing photo for the 34 new pieces, at full size. Share this page or its PDFs with Claude to make ads: each photo names the piece, the price and anything to watch for.</p>
+    <p class="lede">The finished ads, the clean photographs behind them and every listing photo for the 34 new pieces, at full size. Share this page or its PDFs with Claude to make ads: each image names the piece, the price and anything to watch for.</p>
     <div class="nums" id="nums"></div>
-    <nav class="jump" aria-label="Sections"><a href="#brief">The brief</a><a href="#pdfs">PDFs</a><a href="#ads">Ad photos</a><a href="#listing">Listing photos</a><a href="#marks">Wordmarks</a></nav>
+    <nav class="jump" aria-label="Sections"><a href="#brief">The brief</a><a href="#pdfs">PDFs</a><a href="#finished">Finished ads</a><a href="#ads">Ad photos</a><a href="#listing">Listing photos</a><a href="#marks">Wordmarks</a></nav>
   </header>
 
   <section id="brief">
@@ -136,10 +137,19 @@ dialog::backdrop{background:var(--scrim)}
     <div class="sechead">
       <p class="lab">For Claude Design</p>
       <h2>The PDFs</h2>
-      <p>One photograph per page at full resolution, with a caption band under it. Each file stays under 15 MB, the limit for one file here, so the bracelets come in two parts. The ready ad photos open with the brand kit and the brief.</p>
+      <p>One image per page at full resolution, with a caption band under it. Each file stays under 15 MB, the limit for one file here, so the bracelets come in two parts. The ready ad photos open with the brand kit and the brief.</p>
       <div class="kit"><span class="lab">The palette</span><span class="sw" aria-hidden="true"><i style="background:#99B4AE"></i><i style="background:#FFF8F5"></i><i style="background:#F2C4B6"></i><i style="background:#F0A08F"></i><i style="background:#1A1614"></i></span><span class="small">Sage · Blush · Peach · Coral · Ink</span></div>
     </div>
     <div class="pdfs" id="pdfList"></div>
+  </section>
+
+  <section id="finished">
+    <div class="sechead">
+      <p class="lab">As they run</p>
+      <h2>Finished ads</h2>
+      <p>The Edition Two ads with the new hooks: Feed at 1080×1350 and Stories at 1080×1920, each with its independent review score. Post them as they are, or use them as the model for new ones: the headline rhymes with something Indian in the photo, and the correction says what the piece really is.</p>
+    </div>
+    <div id="finGroups"></div>
   </section>
 
   <section id="ads">
@@ -199,17 +209,19 @@ function el(tag, attrs = {}, kids = []) {
   for (const k of kids) e.append(k); return e;
 }
 let downloads = null, cur = null, order = [];
+const FIN = DATA.fins;
 const LIST = DATA.products.flatMap(p => p.photos.map(ph => Object.assign({}, ph, {p})));
 const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 
 function chipFor(it) {
+  if (it.g === "fin") return it.score == null ? ["list", "Finished ad"] : it.verdict === "run" ? ["ready", `Runs · ${it.score}`] : ["care", `Fix first · ${it.score}`];
   if (it.g === "ad") return it.ok ? ["ready", "Ready for ads"] : ["care", "Use with care"];
   return it.p.sale ? ["list", "Listing photo"] : ["draft", "Draft · no ads yet"];
 }
 function renderNums() {
   const n = DATA.counts;
-  [[n.ads, "Ad photos", `${n.ready} ready, ${n.ads - n.ready} with a note`], [n.listing, "Listing photos", `for ${n.pieces} pieces`],
-   [n.sale, "On sale", `${n.pieces - n.sale} still drafts`], [DATA.pdfs.length, "PDFs", `${DATA.mb} MB in all, each under 15`]]
+  [[n.fins, "Finished ads", `${n.run} run as they are`], [n.ads, "Ad photos", `${n.ready} ready, ${n.ads - n.ready} with a note`],
+   [n.listing, "Listing photos", `${n.pieces} pieces, ${n.sale} on sale`], [DATA.pdfs.length, "PDFs", `${DATA.mb} MB in all, each under 15`]]
     .forEach(([b, k, s]) => $("#nums").append(el("div", {}, [el("b", {text: String(b)}), el("span", {class: "k", text: k}), el("span", {text: s})])));
 }
 function briefText() { return "Naira Petite · Edition Two · ad brief\n\n" + DATA.brief.map((p, i) => `${i + 1}. ${p}`).join("\n\n"); }
@@ -239,6 +251,14 @@ function card(it, label, meta) {
   b.addEventListener("click", () => open(it));
   const [cls, chip] = chipFor(it);
   return el("article", {class: "card"}, [b, el("span", {class: "chip " + cls, text: chip}), el("p", {class: "t", text: label}), el("p", {class: "m", text: meta})]);
+}
+function renderFins() {
+  const by = new Map();
+  for (const it of FIN) { if (!by.has(it.title)) by.set(it.title, []); by.get(it.title).push(it); }
+  for (const [title, list] of by) {
+    const g = el("div", {class: "grid"}); list.forEach(it => g.append(card(it, it.name, it.meta)));
+    $("#finGroups").append(el("div", {class: "piece"}, [el("h4", {text: title}), el("p", {class: "small", text: `${list[0].price} · ${plural(list.length, "ad")}`}), g]));
+  }
 }
 function renderAds() {
   const by = new Map();
@@ -275,11 +295,14 @@ function renderMarks() {
   });
 }
 function open(it) {
-  cur = it; order = it.g === "ad" ? DATA.ads : LIST;
+  cur = it; order = it.g === "fin" ? FIN : it.g === "ad" ? DATA.ads : LIST;
   $("#lbImg").src = it.f; $("#lbImg").alt = it.title + (it.name ? ", " + it.name : "");
   const [cls, chip] = chipFor(it); $("#lbChip").className = "chip " + cls; $("#lbChip").textContent = chip;
   $("#lbT").textContent = it.title + (it.name ? " · " + it.name : "");
-  if (it.g === "ad") {
+  if (it.g === "fin") {
+    $("#lbMeta").textContent = `${it.price} · ${it.meta}`; $("#lbLine").textContent = it.line;
+    $("#lbSub").textContent = `Spec line: ${it.spec} · When to run: ${it.timing}`;
+  } else if (it.g === "ad") {
     $("#lbMeta").textContent = `${it.price} · ${it.meta}`; $("#lbLine").textContent = it.note; $("#lbSub").textContent = it.facts;
   } else {
     const p = it.p; $("#lbMeta").textContent = `${p.price} · ${p.code} · ${it.meta}`; $("#lbLine").textContent = it.line;
@@ -309,7 +332,7 @@ async function save(path, name, note) {
   }
 }
 
-renderNums(); renderBrief(); renderPdfs(); renderAds(); renderListing(); renderMarks();
+renderNums(); renderBrief(); renderPdfs(); renderFins(); renderAds(); renderListing(); renderMarks();
 (window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null)).then(d => {
   downloads = d; if (!d) return;
   document.querySelectorAll(".savePdf").forEach(b => { b.disabled = false; });

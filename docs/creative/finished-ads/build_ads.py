@@ -54,10 +54,10 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:var
   text-transform:uppercase;padding:%(bp)dpx %(bpx)dpx;line-height:1;white-space:nowrap}
 .price{font-family:Jost;font-weight:500;font-size:%(ps)dpx;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;line-height:1;padding-bottom:%(pp)dpx}
 .wm{position:absolute;height:%(wh)dpx}
-.ft .r{display:flex;flex-direction:column;align-items:flex-end;gap:40px}
+.ft .r{display:flex;flex-direction:column;align-items:flex-end;gap:40px;position:relative}
 .wmf{height:%(wh)dpx;display:block}
 .band,.tband{position:absolute;left:0;right:0;pointer-events:none}
-.band{bottom:0;height:%(bh)dpx;background:linear-gradient(to top,rgba(255,248,245,.93) 0,rgba(255,248,245,.93) %(bsd)dpx,rgba(255,248,245,0) 100%%)}
+.band{bottom:0;height:%(bh)dpx;background:linear-gradient(to top,rgba(255,248,245,%(ba)s) 0,rgba(255,248,245,%(ba)s) %(bsd)dpx,rgba(255,248,245,0) 100%%)}
 .tband{top:0;height:%(th)dpx;background:linear-gradient(to bottom,rgba(255,248,245,.93) 0,rgba(255,248,245,.93) %(ts)dpx,rgba(255,248,245,0) 100%%)}
 .glow::before{content:"";position:absolute;inset:-80px -100px;z-index:-1;
   background:radial-gradient(closest-side,var(--glow) 0%%,var(--glow) 42%%,transparent 100%%)}
@@ -79,19 +79,26 @@ def html_deck(ad, bg):
     wm_y = ad.get("wy", top + 8)
     foot_wm = ad.get("wmpos", "foot") == "foot"            # default: the wordmark signs off above the price
     css = DECK_CSS % dict(b=BRAND, f=FONTS, w=W, h=H, bg="file://" + bg, hs=ad.get("hs", 100), cs=ad.get("cs", 40), gap=ad.get("gap", 18),
-                          side=side, bot=bot, ss=ad.get("ss", 18), sw=ad.get("sw", 620), bs=19, bp=21, bpx=32, ps=22, pp=21 if ad.get("cta") else ad.get("pp", 4), wh=wh,
-                          bh=bot + foot_h + 130, bsd=bot + foot_h + 20, th=ad.get("th", y + 330 if at[0] == "t" else 0), ts=ad.get("ts", (y + 330) * .62 if at[0] == "t" else 0))
+                          side=side, bot=bot, ss=ad.get("ss", 18), sw=ad.get("sw", 620), bs=19, bp=21, bpx=32, ps=ad.get("ps", 22), pp=21 if ad.get("cta") else ad.get("pp", 4), wh=wh,
+                          bh=ad.get("bh", bot + foot_h + 130), bsd=ad.get("bsd", bot + foot_h + 20), ba=ad.get("balpha", .93), th=ad.get("th", y + 330 if at[0] == "t" else 0), ts=ad.get("ts", (y + 330) * .62 if at[0] == "t" else 0))
     bands = ('<div class="band"></div>' if ad.get("band") else "") + ('<div class="tband"></div>' if ad.get("tband") else "")
+    ls = ad.get("lshade")             # {"w", "y0", "y1", "a"}: a feathered dark shade from the left edge, for cream copy on a bright patch
+    if ls:
+        bands += (f'<div style="position:absolute;left:0;top:{ls["y0"]}px;width:{ls["w"]}px;height:{ls["y1"] - ls["y0"]}px;pointer-events:none;'
+                  f'background:linear-gradient(to right,rgba(24,16,10,{ls["a"]}) 0,rgba(24,16,10,{ls["a"]}) 40%,rgba(24,16,10,0) 100%);'
+                  f'-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 18%,#000 72%,transparent 100%);'
+                  f'mask-image:linear-gradient(to bottom,transparent 0,#000 18%,#000 72%,transparent 100%)"></div>')
     cls = "blk" + (" glow" if ad.get("scrim") else "")
-    fs = ad.get("fscrim")                                  # true: a glow behind the whole foot; "spec": behind the spec column only
-    fcls, lcls = "ft" + (" glow" if fs and fs != "spec" else ""), "l" + (" glow" if fs == "spec" else "")
+    fs = ad.get("fscrim")    # true: a glow behind the whole foot; "spec": behind the spec column only; "cols": behind each column
+    fcls = "ft" + (" glow" if fs and fs not in ("spec", "cols") else "")
+    lcls, rcls = "l" + (" glow" if fs in ("spec", "cols") else ""), "r" + (" glow" if fs == "cols" else "")
     spec = f'<div class="rule"></div><div class="spec">{glue(ad["spec"])}</div>' if ad.get("spec") else ""
     cta = f'<div class="cta">{ad["cta"]}</div>' if ad.get("cta") else ""
     return (f'<meta charset="utf-8"><style>{css}</style><body style="--tone:{tone};--glow:{glow};--btn:{btn};--btnt:{btnt}">' + bands
             + ("" if foot_wm else f'<img class="wm" src="file://{BRAND}/{wm_file}" style="{wm_corner}:{side}px;top:{wm_y}px">') +
             f'<div class="{cls}" style="{pos};width:{ad["w"]}px"><h1 class="h">{glue(ad["h"])}</h1>'
             + (f'<p class="c">{glue(ad["c"])}</p>' if ad.get("c") else "") + '</div>'
-            f'<div class="{fcls}"><div class="{lcls}">{spec}{cta}</div><div class="r">'
+            f'<div class="{fcls}"><div class="{lcls}">{spec}{cta}</div><div class="{rcls}">'
             + (f'<img class="wmf" src="file://{BRAND}/{wm_file}">' if foot_wm else "") +
             f'<div class="price">{glue(ad.get("price", ""))}</div></div></div></body>')
 
@@ -173,7 +180,7 @@ def html(ad, bg):
 def main():
     args = sys.argv[1:]; name = "ads.json"
     if "--cfg" in args: i = args.index("--cfg"); name = args[i + 1]; del args[i:i + 2]
-    cfg = json.load(open(f"{HERE}/{name}"))["ads"]; want = args
+    cfg = json.load(open(os.path.join(HERE, name)))["ads"]; want = args           # name may also be an absolute path
     for d in [OUT, WORK]: os.makedirs(d, exist_ok=True)
     jobs = []
     for ad in cfg:
@@ -191,7 +198,7 @@ def main():
     for r in rows:
         for k, im in enumerate(r): sheet.paste(im, (12 + k * (tw + 12), y))
         y += max(i.height for i in r) + 12
-    sheet.save(f"{SPB}/ads/sheet_{name.split('.')[0]}.jpg", quality=86); print("sheet", sheet.size)
+    sheet.save(f"{SPB}/ads/sheet_{os.path.basename(name).split('.')[0]}.jpg", quality=86); print("sheet", sheet.size)
 
 if __name__ == "__main__":
     main()
