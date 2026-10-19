@@ -45,6 +45,8 @@ button[disabled]{opacity:.35;cursor:default}
   background:var(--pill);color:#1A1614}
 .t{font-family:var(--display);text-transform:uppercase;font-size:19px;line-height:1.05;font-variant-ligatures:none}
 .hook{font-style:italic;font-size:17px;line-height:1.25}
+.when{font-family:var(--label);font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:baseline}
+.when.hold{color:var(--coral);font-weight:600}
 .fld{display:grid;gap:4px;border-top:1px solid var(--rule);padding-top:8px}
 .fld .k{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .fld .v{font-size:15.5px;line-height:1.35;overflow-wrap:anywhere}
@@ -121,6 +123,7 @@ for (const it of S) {
     el("div", {class: "body"}, [
       el("div", {class: "top"}, [it.tag ? el("span", {class: "pill", text: it.tag}) : el("span"), el("span", {class: "lab", text: it.price})]),
       el("p", {class: "t", text: it.title}), el("p", {class: "hook", text: it.hook}),
+      el("p", {class: "when" + (it.when.startsWith("Hold") ? " hold" : "")}, [el("span", {class: "lab", text: "Post"}), it.when]),
       dl, fld("Link sticker", it.url, "url"), fld("Caption", it.caption), note])]));
 }
 $("#all").addEventListener("click", async () => {
@@ -134,7 +137,7 @@ $("#all").addEventListener("click", async () => {
       const r = await fetch(it.f); if (!r.ok) throw {code: "missing"};
       dir.file(it.file, await r.blob()); n++; note.textContent = `Packing the Stories… ${n}/${S.length}`;
     }
-    dir.file("captions-and-links.txt", S.map(it => `${it.file}\n${it.caption}\nLink: ${it.url}\n`).join("\n"));
+    dir.file("captions-and-links.txt", S.map(it => `${it.file}\nPost: ${it.when}\n${it.caption}\nLink: ${it.url}\n`).join("\n"));
     const blob = await zip.generateAsync({type: "blob", compression: "STORE"});
     await downloads.save({filename: "Naira-Stories.zip", data: blob});
     note.textContent = "Saved Naira-Stories.zip";
