@@ -112,10 +112,10 @@ def smooth1d(row, sigma):
     pad = np.pad(row, ((r, r), (0, 0)), mode="edge")
     return np.stack([np.convolve(pad[:, c], k, mode="valid") for c in range(3)], 1)
 
-def extend916(im):
+def extend916(im, off=285):
     # A 4:5 photo set in a 9:16 frame: above and below, its own backdrop continues from the edge rows and drifts to their mean
     # colour, with the seams softened and a fine grain to match. The extension sits mostly under the Stories interface.
-    a = np.asarray(im.resize((1080, 1350), Image.LANCZOS)).astype(np.float32); H, off = 1920, 285
+    a = np.asarray(im.resize((1080, 1350), Image.LANCZOS)).astype(np.float32); H = 1920
     can = np.zeros((H, 1080, 3), np.float32); can[off:off + 1350] = a
     for rows, rng in ((a[:30], range(off - 1, -1, -1)), (a[-30:], range(off + 1350, H))):
         row = smooth1d(rows.mean(0), 25); flat = rows.reshape(-1, 3).mean(0); n = len(rng)
@@ -165,7 +165,7 @@ def prep(ad):
     else: nh = round(w * H / W); box = (0, round((h - nh) * ad.get("cy", .5)), w, round((h - nh) * ad.get("cy", .5)) + nh)
     path = f"{WORK}/{ad['id']}_bg.jpg"; im = im.crop(box)
     ext = ad.get("ext")
-    (extend_mirror(im) if ext == "mirror" else extend916(im) if ext else im.resize((W, H), Image.LANCZOS)).save(path, quality=95); return path
+    (extend_mirror(im, off=ad.get("eoff", 285)) if ext == "mirror" else extend916(im, ad.get("eoff", 285)) if ext else im.resize((W, H), Image.LANCZOS)).save(path, quality=95); return path
 
 def glue(t):
     return re.sub(r"(\d) (mm|cm)\b", "\\1\u00a0\\2", t)                  # never break a number from its unit
