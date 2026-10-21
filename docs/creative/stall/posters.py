@@ -18,7 +18,7 @@ IMG, WORK, OUT = f"{SP}/stall/img", f"{SP}/stall/work", f"{SP}/stall/out"
 PLATES = os.path.normpath(f"{HERE}/../colour-camps/plates")
 FONTS, BRAND = f"{SP}/cat/fonts", C.BRAND
 W, H = 2304, 3456                                   # 24 × 36 in at 96 px/in
-URL = "https://www.nairaflore.com/?utm_source=stall&utm_medium=poster&utm_campaign=fashion-mantra-nashik"
+URL = "https://nairaflore.com/?utm_source=stall"   # short, so the QR has few, large modules and scans from a distance
 ROWS = {r["handle"]: r for r in json.load(open(f"{SP}/cat/src/products_pick.json"))}
 def price(h): return f"₹{ROWS[h]['price']:,}"
 
@@ -93,11 +93,11 @@ html,body{width:%(W)spx;height:%(H)spx;overflow:hidden}
 def head(t): return HEAD % dict(t, f=FONTS, b=BRAND, W=W, H=H)
 
 def footer(t, qr=True, y=3236):
-    x = f'<div class="rule" style="top:{y}px"></div>'
+    x = f'<div class="rule" style="top:{y}px;right:{560 if qr else 150}px"></div>'
     x += f'<div class="a" style="left:150px;top:{y + 52}px;font:400 italic 54px/1 CGI">nairaflore.com</div>'
     x += f'<div class="a c" style="top:{y + 64}px;font:600 22px/1 Jost;letter-spacing:.42em;padding-left:.42em;opacity:.8">SOFTLY, SLOWLY, WORN.</div>'
     if qr:
-        x += f'<div class="a" style="right:150px;top:{y + 36}px;display:flex;align-items:center;gap:22px"><span class="label" style="font-size:20px;color:{t["acc"]}">Scan to shop</span>{qr_svg(t["deep"], 150)}</div>'
+        x += f'<div class="a" style="right:150px;top:{y + 12}px;display:flex;align-items:center;gap:22px"><span class="label" style="font-size:20px;color:{t["acc"]}">Scan to shop</span>{qr_svg(t["deep"], 160)}</div>'
     else:
         x += f'<div class="a" style="right:150px;top:{y + 64}px;font:600 22px/1 Jost;letter-spacing:.42em;opacity:.8">NAIRA PETITE</div>'
     return x

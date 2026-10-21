@@ -27,8 +27,8 @@ Seven wall posters for the shell-scheme stall, one per panel.
 
 Spares, built but not in the set: SAGE edit and About us (`posters.py sage-edit about`).
 
-Every QR opens `nairaflore.com` with `utm_source=stall&utm_medium=poster&utm_campaign=fashion-mantra-nashik`, so stall
-traffic shows up separately in Shopify analytics. Prices are the live store prices of 20 Oct 2026.
+Every QR opens `nairaflore.com/?utm_source=stall`, so stall traffic shows up separately in Shopify analytics. The
+link is kept short so the codes have large modules and scan from a distance. Prices are the live store prices of 20 Oct 2026.
 
 ## Building
 
