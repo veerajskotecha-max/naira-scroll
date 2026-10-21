@@ -6,13 +6,16 @@
 # Usage: popup.py  -> <scratchpad>/pop/out/naira-popup-<name>.jpg
 import os, subprocess, sys
 sys.path.insert(0, os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "catalogue")))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import cards as C
 import covers as V
+import florals as F
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SP = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/pop"
 WORK, OUT = f"{SP}/work", f"{SP}/out"
 STALL = f"{SP}/work/stall_clean.jpg"          # the stall photo with the hanging cable painted out
+CUTOUT = f"{SP}/work/fg.png"                  # her and the jewellery table cut out of the stall (cutout.py)
 W, H = 1080, 1920
 INK, PAPER, CORAL, PILL, MARK = "#1A1614", "#FFF8F5", "#B4513B", "#F0A08F", "#E2412B"
 DAY, DATE, SHOW, VENUE = "Wednesday", "21 October", "Fashion Mantra", "Emerald Park, Nashik"
@@ -111,7 +114,47 @@ def admit():
           f'<path d="M250,1628 C430,1600 650,1600 850,1585" style="filter:drop-shadow(0 2px 0 {PAPER})"/></g></svg>')
     return x + '<div class="grain"></div>'
 
-DESIGNS = {"arch": arch, "say-hi": say_hi, "admit": admit}
+def carn(x, y, s, rot, **k):
+    return F.place(f'<g transform="translate(-104,-420)">{F.carnation(**k)}</g>', x, y, s, rot)
+
+def say_hi_floral():
+    """Her and the jewellery table cut out, set in a cream arch framed by carnation sprigs, on a scalloped card."""
+    x = V.head(W, H, .16) + '<div class="a" style="inset:0;background:linear-gradient(#FFF8F5,#F8E4DB 45%,#F2D2C6)"></div>'
+    x += f'<img class="a" src="file://{C.BRAND}/logo_ink.png" style="left:{W / 2 - 170}px;top:236px;width:340px">'
+    x += f'<div class="a" style="left:0;right:0;top:340px;text-align:center;font:600 22px/1 Jost;letter-spacing:.5em;color:{CORAL};margin-left:.25em">LIVE IN NASHIK</div>'
+    x += f'<div class="a" style="left:0;right:0;top:380px;text-align:center;font:128px/.92 Velista;color:{INK}">SEE YOU<br>TODAY</div>'
+    ax, ay, aw, ah = 170, 664, 740, 760
+    x += f'<div class="a" style="left:{ax - 16}px;top:{ay - 16}px;width:{aw + 32}px;height:{ah + 16}px;border:2px solid {PILL};border-bottom:0;border-radius:{(aw + 32) / 2}px {(aw + 32) / 2}px 0 0"></div>'
+    x += f'<div class="a" style="left:{ax}px;top:{ay}px;width:{aw}px;height:{ah}px;border-radius:{aw / 2}px {aw / 2}px 0 0;background:radial-gradient(ellipse at 50% 30%,#FFFDFB,#FBEDE6)"></div>'
+    back = (F.place(F.leaf_spray(seed=4), 150, 1120, 1.0, -40) + F.place(F.leaf_spray(seed=6, color="#B9CCC6"), 930, 1110, .95, 38)
+            + carn(236, 1150, 1.15, -8, bloom=CORAL, seed=3) + carn(870, 1160, 1.1, 9, bloom=PILL, seed=5)
+            + F.place(F.bud(color=PILL), 120, 1080, 1.0, -22) + F.place(F.bud(), 965, 1070, .95, 20)
+            + F.place(F.blossom(40, PILL, CORAL, rot=8), 300, 800) + F.place(F.blossom(26, "#FFF8F5", CORAL, rot=20), 352, 742)
+            + F.place(F.blossom(38, CORAL, "#7E2F1F", rot=30), 790, 800) + F.place(F.blossom(24, "#FFF8F5", CORAL), 742, 748)
+            + F.sparkle(190, 470, 26, CORAL) + F.sparkle(905, 430, 20, CORAL) + F.sparkle(150, 640, 13, PILL))
+    x += f'<svg class="a" style="left:0;top:0;overflow:visible" width="{W}" height="{H}">{back}</svg>'
+    x += f'<img class="a" src="file://{CUTOUT}" style="left:0;top:640px;width:1080px;filter:drop-shadow(0 18px 28px rgba(90,40,25,.18))">'
+    # scalloped card holding the details, hiding the cut at the bottom of the table
+    top = 1392; sc = ""
+    for i in range(19):
+        cx = i * 60; sc += f"{'M' if i == 0 else 'L'}{cx},{top + 14} A30,30 0 0 1 {cx + 60},{top + 14} "
+    card = f'<path d="{sc} L1080,1920 L0,1920Z" fill="#FFF8F5"/><path d="M60,{top + 40} L1020,{top + 40}" stroke="{PILL}" stroke-width="1.5"/>'
+    front = (F.place(F.leaf_spray(seed=8), 60, 1500, .9, 52) + F.place(F.leaf_spray(seed=9, color="#B9CCC6"), 1020, 1500, .9, -52)
+             + F.place(F.blossom(46, CORAL, "#7E2F1F", rot=12), 92, 1400) + F.place(F.blossom(32, PILL, CORAL, rot=40), 168, 1440)
+             + F.place(F.blossom(46, PILL, CORAL, rot=24), 988, 1398) + F.place(F.blossom(30, CORAL, "#7E2F1F", rot=4), 912, 1446))
+    x += f'<svg class="a" style="left:0;top:0;overflow:visible;filter:drop-shadow(0 -8px 18px rgba(90,40,25,.12))" width="{W}" height="{H}">{card}</svg>'
+    x += f'<svg class="a" style="left:0;top:0;overflow:visible" width="{W}" height="{H}">{front}</svg>'
+    y = 1468
+    x += f'<div class="a" style="left:0;right:0;top:{y}px;text-align:center;font:700 28px/1 Jost;letter-spacing:.2em;color:{INK};margin-left:.1em">FASHION MANTRA EXHIBITION</div>'
+    x += f'<div class="a" style="left:0;right:0;top:{y + 46}px;text-align:center;font:500 italic 62px/1 CGI;color:{INK}">{VENUE}</div>'
+    x += (f'<div class="a" style="left:0;right:0;top:{y + 132}px;text-align:center"><span style="display:inline-block;padding:14px 26px 13px;background:{INK};'
+          f'color:{PAPER};font:600 22px/1 Jost;letter-spacing:.3em">{DAY.upper()} · 21 OCT · TODAY</span></div>')
+    svg = f'<svg class="a" style="left:0;top:0;overflow:visible" width="{W}" height="{H}"><g fill="none" stroke="{MARK}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">'
+    svg += f'<path d="{V.arrow(650, 676, 540, 708, -.3)}"/></g></svg>'
+    x += svg + f'<div class="a" style="left:610px;top:616px;width:320px;text-align:center;font:42px/1 Marker;color:{MARK};transform:rotate(-5deg);text-shadow:0 2px 0 #FFFDFB">come say hi!</div>'
+    return x + '<div class="grain"></div>'
+
+DESIGNS = {"arch": arch, "say-hi": say_hi_floral, "say-hi-polaroid": say_hi, "admit": admit}
 
 def main(names):
     os.makedirs(WORK, exist_ok=True); os.makedirs(OUT, exist_ok=True); C.WORK = WORK; jobs = []
