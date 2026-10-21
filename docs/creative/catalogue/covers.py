@@ -4,14 +4,21 @@
 #   2 "Now Showing"      a Bollywood film poster: CHAMAK in gold-tone 3D type, the cast of pieces, a billing block
 #   3 "The Naira Times"  a tabloid front page: SHE WORE IT ALL., a lead photo, side stories with prices, an EXTRA! stamp
 # Usage: covers.py [wall|poster|times ...]  -> <scratchpad>/cat/out/covers/naira-cover-<name>-<1x1|4x5|9x16>.jpg
+# A fourth layout, "2x3" (1080×1620), is the 24 × 36 in stall poster; ../stall/covers_print.py renders it for print and sets
+# the print hooks below (RES, UP, SR, QR).
 import html, json, math, os, random, subprocess, sys
 from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import cards as C
 
 WORK, OUT = f"{C.SP}/work/covers", f"{C.SP}/out/covers"
-FORMATS = {"1x1": (1080, 1080), "4x5": (1080, 1350), "9x16": (1080, 1920)}
+FORMATS = {"1x1": (1080, 1080), "4x5": (1080, 1350), "9x16": (1080, 1920), "2x3": (1080, 1620)}
+SCREEN = ("1x1", "4x5", "9x16")
 MARKER = "#E2412B"
+RES = 1.0      # print: crops are cut at RES × their layout size
+UP = {}        # print: source photo -> an upscaled copy of it
+SR = None      # print: SR(path, rect, size, name) -> path, for crops enlarged more than 1.6×
+QR = None      # print: QR(colour, size) -> svg markup of the shop QR code
 rows = {r["handle"]: r for r in json.load(open(f"{C.SRC}/products_pick.json"))}
 boxes = C.load_boxes()
 COUNT = len(rows); LO = min(r["price"] for r in rows.values()); HI = max(r["price"] for r in rows.values())
@@ -34,15 +41,16 @@ HEAD = """<!doctype html><html><head><meta charset="utf-8"><style>
 
 def head(w, h, grain=.22): return HEAD % dict(f=C.FONTS, w=w, h=h, grain=grain)
 
-def photo(handle, kind, aspect, size, fill=None, ycen=.5, smin=.5, name=None, focus=True):
+def photo(handle, kind, aspect, size, fill=None, ycen=.5, smin=.5, name=None, focus=True, sr=True):
     """A crop of a product's worn/alt/close photo round the piece, cut to `size` and saved for a cover."""
-    r = rows[handle]; path = f"{C.SRC}/full/{handle}-{kind}.jpg"; W, H = Image.open(path).size
+    r = rows[handle]; path = f"{C.SRC}/full/{handle}-{kind}.jpg"; path = UP.get(path, path); W, H = Image.open(path).size
     key = f'{r["n"]}{"a" if kind == "alt" else "w"}'
     b = boxes.get(key) if kind in ("worn", "alt") and r["worn"] else None
     fo = (b["focus"] if focus else b["box"]) if b else [.3, .3, .7, .7]
     rect = C.crop(W, H, fo, aspect, fill or C.FILL.get(r["type"], .6), ycen, smin)
-    p, _ = C.cut(path, rect, size, name or f"cov-{handle}-{kind}-{size[0]}x{size[1]}")
-    return p
+    px = (round(size[0] * RES), round(size[1] * RES)); name = name or f"cov-{handle}-{kind}-{size[0]}x{size[1]}"
+    if SR and sr and rect[2] * 1.6 < px[0]: return SR(path, rect, px, name)
+    return C.cut(path, rect, px, name)[0]
 
 def scribble(cx, cy, rx, ry, seed, turns=1.16):
     """A hand-drawn marker loop: a little more than one turn, wobbling and spiralling out."""
@@ -74,12 +82,17 @@ def tape(x, y, w, h, rot, seed):
     return (f'<svg class="a" style="left:{x}px;top:{y}px;overflow:visible;transform:rotate({rot}deg)" width="{w}" height="{h}">'
             f'<polygon points="{pts}" fill="rgba(255,248,236,.86)" style="filter:drop-shadow(0 3px 6px rgba(0,0,0,.18))"/></svg>')
 
+def qr_card(x, y, size, bg="#FFF8F5", fg="#1A1614", pad=12, ring=None):
+    """The shop QR on a small card (print layouts only)."""
+    b = f"box-shadow:0 0 0 2px {ring};" if ring else "box-shadow:0 10px 26px rgba(0,0,0,.28);"
+    return f'<div class="a" style="left:{x}px;top:{y}px;padding:{pad}px;background:{bg};{b}">{QR(fg, size)}</div>'
+
 # ---------------------------------------------------------------- 1 The Wall
 WALL_NOTES = [("mine.", -8), ("obsessed", 6), ("her gift", -5), ("shaadi ✓", 7), ("need", -6), ("both colours", 5)]
 
 def wall(fmt):
     w, h = FORMATS[fmt]
-    cols, rws = {"1x1": (9, 9), "4x5": (8, 10), "9x16": (6, 11)}[fmt]
+    cols, rws = {"1x1": (9, 9), "4x5": (8, 10), "9x16": (6, 11), "2x3": (7, 11)}[fmt]
     gap = 4; tw = (w - gap * (cols + 1)) / cols; th = tw
     order = sorted((r for r in rows.values() if r["worn"]), key=lambda r: r["n"])
     cats = {}
@@ -93,12 +106,12 @@ def wall(fmt):
     x = head(w, h, .16) + f'<div class="a" style="inset:0;background:#FFF8F5"></div>'
     for i, r in enumerate(body):
         c, rr = i % cols, i // cols
-        p = photo(r["handle"], "worn", 1, (300, 300), ycen=.5, name=f"tile-{r['handle']}")
+        p = photo(r["handle"], "worn", 1, (300, 300) if fmt != "2x3" else (150, 150), ycen=.5, name=f"tile-{r['handle']}", sr=False)
         x += f'<img class="a" src="file://{p}" style="left:{gap + c * (tw + gap):.1f}px;top:{gap + rr * (th + gap):.1f}px;width:{tw:.1f}px;height:{th:.1f}px">'
     x += f'<div class="a" style="inset:0;background:radial-gradient(ellipse at 50% 52%,rgba(26,22,20,.42),rgba(26,22,20,.12) 46%,rgba(26,22,20,0) 70%)"></div>'
     # badge
-    cx, cy, R = w / 2, {"1x1": 560, "4x5": 690, "9x16": 960}[fmt], {"1x1": 300, "4x5": 318, "9x16": 350}[fmt]
-    top = {"1x1": 34, "4x5": 44, "9x16": 250}[fmt]
+    cx, cy, R = w / 2, {"1x1": 560, "4x5": 690, "9x16": 960, "2x3": 790}[fmt], {"1x1": 300, "4x5": 318, "9x16": 350, "2x3": 330}[fmt]
+    top = {"1x1": 34, "4x5": 44, "9x16": 250, "2x3": 48}[fmt]
     x += (f'<svg class="a" style="left:0;top:0;overflow:visible" width="{w}" height="{h}"><g transform="rotate(-7 {cx} {cy})" '
           f'style="filter:drop-shadow(0 26px 40px rgba(20,10,5,.45))"><polygon points="{scallop(cx, cy, R)}" fill="#F0A08F"/>'
           f'<circle cx="{cx}" cy="{cy}" r="{R - 30}" fill="none" stroke="#1A1614" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/></g></svg>')
@@ -110,14 +123,13 @@ def wall(fmt):
           f'<div style="font:500 italic {44 * s:.0f}px/1.05 CGI">worn by her, ready for you.</div>'
           f'<div style="font:600 {26 * s:.0f}px/1 Jost;letter-spacing:.2em;margin-top:{22 * s:.0f}px">{COUNT} PIECES · ₹{LO:,}–₹{HI:,}</div>'
           f'<div style="font:700 {21 * s:.0f}px/1 Jost;letter-spacing:.3em;margin-top:{20 * s:.0f}px;padding:{13 * s:.0f}px {24 * s:.0f}px;'
-          f'background:#1A1614;color:#FFF8F5;border-radius:999px">SHOP NOW →</div></div>')
+          f'background:#1A1614;color:#FFF8F5;border-radius:999px">{"SCAN TO SHOP" if fmt == "2x3" else "SHOP NOW →"}</div></div>')
     # masthead on tape
-    top = {"1x1": 34, "4x5": 44, "9x16": 250}[fmt]
     x += tape(w / 2 - 300, top - 16, 600, 128, -2.5, 3)
     x += f'<img class="a" src="file://{C.BRAND}/logo_ink.png" style="left:{w / 2 - 230}px;top:{top + 8}px;width:460px;transform:rotate(-2.5deg)">'
     # marker loops on a few tiles, away from the badge and the masthead
     picks = {"1x1": [(1, 7), (6, 0), (7, 7), (2, 1)], "4x5": [(2, 6), (7, 0), (8, 7), (2, 1), (5, 7)],
-             "9x16": [(2, 5), (7, 0), (7, 5), (3, 0), (5, 5)]}[fmt]
+             "9x16": [(2, 5), (7, 0), (7, 5), (3, 0), (5, 5)], "2x3": [(2, 6), (7, 0), (7, 6), (2, 0), (5, 6)]}[fmt]
     svg = f'<svg class="a" style="left:0;top:0;overflow:visible" width="{w}" height="{h}"><g fill="none" stroke="{MARKER}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="filter:drop-shadow(0 2px 2px rgba(0,0,0,.25))">'
     notes = ""
     for k, (rr, c) in enumerate(picks):
@@ -134,11 +146,15 @@ def wall(fmt):
         notes += (f'<div class="a" style="left:{nx - 130:.0f}px;top:{ny - 20:.0f}px;width:260px;text-align:center;'
                   f'font:38px/1 Marker;color:{MARKER};transform:rotate({rot}deg);text-shadow:0 2px 0 #FFF8F5,0 0 10px rgba(255,248,245,.9)">{html.escape(word)}</div>')
     x += svg + "</g></svg>" + notes
-    if fmt != "1x1":
+    if fmt == "2x3":
+        x += (f'<div class="a" style="left:0;right:0;top:1500px;height:120px;background:#1A1614;color:#FFF8F5;display:flex;align-items:center;'
+              f'padding-left:70px;font:600 28px/1 Jost;letter-spacing:.3em">SCAN TO SHOP ALL {COUNT} &nbsp;→</div>')
+        x += qr_card(856, 1392, 160)
+    elif fmt != "1x1":
         by = {"4x5": 1262, "9x16": 1590}[fmt]
         x += (f'<div class="a" style="left:0;right:0;top:{by}px;height:72px;background:#1A1614;color:#FFF8F5;display:flex;align-items:center;'
               f'justify-content:center;font:600 24px/1 Jost;letter-spacing:.32em">ALL {COUNT} IN STOCK · TAP TO SHOP</div>')
-    x += '<div class="grain"></div>'
+    if fmt != "2x3": x += '<div class="grain"></div>'
     return x
 
 # ---------------------------------------------------------------- 2 Now Showing
@@ -160,14 +176,14 @@ def sparkle(x, y, s, o=1):
 
 def poster(fmt):
     w, h = FORMATS[fmt]
-    ph_h = {"1x1": 1080, "4x5": 1350, "9x16": 1500}[fmt]
+    ph_h = {"1x1": 1080, "4x5": 1350, "9x16": 1500, "2x3": 1340}[fmt]
     p = photo("verdant-drop-earrings", "worn", w / ph_h, (w, ph_h), fill=.18, ycen=.32, smin=.9, name=f"poster-{fmt}")
     x = head(w, h, .3) + f'<div class="a" style="inset:0;background:#120C08"></div>'
     x += f'<img class="a" src="file://{p}" style="left:0;top:0;width:{w}px;height:{ph_h}px;filter:saturate(1.08) contrast(1.06)">'
     x += (f'<div class="a" style="left:0;top:0;width:{w}px;height:{ph_h}px;background:radial-gradient(ellipse 80% 70% at 60% 30%,rgba(0,0,0,0) 40%,rgba(12,7,4,.55) 100%),'
           f'linear-gradient(rgba(12,7,4,.55),rgba(12,7,4,0) 22%,rgba(12,7,4,0) 40%,rgba(12,7,4,.82) 68%,#120C08 100%)"></div>')
     x += f'<div class="a" style="left:0;top:0;width:{w}px;height:{ph_h}px;background:linear-gradient(115deg,rgba(255,150,60,.28),rgba(255,150,60,0) 35%);mix-blend-mode:screen"></div>'
-    T = {"1x1": 40, "4x5": 52, "9x16": 250}[fmt]
+    T = {"1x1": 40, "4x5": 52, "9x16": 250, "2x3": 60}[fmt]
     x += f'<img class="a" src="file://{C.BRAND}/logo_white.png" style="left:{w / 2 - 120}px;top:{T}px;width:240px;opacity:.95">'
     x += (f'<div class="a" style="left:0;right:0;top:{T + 66}px;text-align:center;font:600 19px/1 Jost;letter-spacing:.62em;color:#F4E3C8;'
           f'margin-left:.31em">P R E S E N T S</div>')
@@ -175,16 +191,16 @@ def poster(fmt):
     x += (f'<div class="a" style="left:{w - 168}px;top:{T - 6}px;width:118px;height:118px;border:3px solid #F4E3C8;border-radius:50%;color:#F4E3C8;'
           f'display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg)">'
           f'<div style="font:52px/1 Anton">U</div><div style="font:600 10px/1.25 Jost;letter-spacing:.16em;text-align:center">UNIVERSALLY<br>ADORED</div></div>')
-    ty = {"1x1": 560, "4x5": 612, "9x16": 1000}[fmt]; ts = {"1x1": 232, "4x5": 246, "9x16": 262}[fmt]
+    ty = {"1x1": 560, "4x5": 612, "9x16": 1000, "2x3": 690}[fmt]; ts = {"1x1": 232, "4x5": 246, "9x16": 262, "2x3": 252}[fmt]
     x += gold_title("CHAMAK", ts, 0, ty, w)
     for (sx, sy, ss) in [(.2, .1, 42), (.79, .02, 34), (.62, .74, 26)]:
         x += sparkle(w * sx, ty + ts * sy, ss)
-    tg = ty + ts + {"1x1": 6, "4x5": 14, "9x16": 18}[fmt]
+    tg = ty + ts + {"1x1": 6, "4x5": 14, "9x16": 18, "2x3": 16}[fmt]
     x += (f'<div class="a" style="left:0;right:0;top:{tg}px;text-align:center;font:500 italic {46 if fmt == "1x1" else 52}px/1 CGI;color:#FFF1DD">'
           f'Ek catalogue. {COUNT} kahaaniyan.</div>')
     y = tg + (70 if fmt == "1x1" else 92)
     if fmt != "1x1":
-        cs = 118 if fmt == "4x5" else 150; gapc = 70 if fmt == "4x5" else 60; total = len(CAST) * cs + (len(CAST) - 1) * gapc; x0 = (w - total) / 2
+        cs = {"4x5": 118, "2x3": 128}.get(fmt, 150); gapc = 70 if fmt in ("4x5", "2x3") else 60; total = len(CAST) * cs + (len(CAST) - 1) * gapc; x0 = (w - total) / 2
         for i, hnd in enumerate(CAST):
             cp = photo(hnd, "close", 1, (2 * cs, 2 * cs), fill=.62, name=f"cast-{hnd}")
             cx = x0 + i * (cs + gapc)
@@ -198,11 +214,16 @@ def poster(fmt):
             "MUSIC BY THE JHUMKAS &nbsp; COSTUMES BY YOUR MOOD &nbsp; DIRECTED BY YOU")
     x += (f'<div class="a" style="left:70px;right:70px;top:{y}px;text-align:center;font:{19 if fmt == "1x1" else 21}px/1.25 Anton;letter-spacing:.06em;'
           f'color:#CDB79A;transform:scaleY(1.18);transform-origin:top">{bill}</div>')
-    by = y + {"1x1": 92, "4x5": 104, "9x16": 110}[fmt]
+    by = y + {"1x1": 92, "4x5": 104, "9x16": 110, "2x3": 104}[fmt]
     x += (f'<div class="a" style="left:0;right:0;top:{by}px;text-align:center"><span style="display:inline-block;padding:14px 30px 13px;'
           f'background:linear-gradient(90deg,#B57A2A,#F2C36B,#B57A2A);color:#1A0F07;font:700 22px/1 Jost;letter-spacing:.3em">'
           f'NOW SHOWING · ₹{LO:,} ONWARDS · NAIRAFLORE.COM</span></div>')
-    x += '<div class="grain"></div>'
+    if fmt == "2x3":
+        qy = by + 82
+        x += qr_card(w / 2 - 190, qy, 128, bg="#F7EBD3", fg="#1A0F07", pad=10, ring="#E7C27A")
+        x += (f'<div class="a" style="left:{w / 2 - 20}px;top:{qy + 30}px;color:#F4E3C8"><div style="font:600 18px/1 Jost;letter-spacing:.36em;color:#E7C27A">SCAN TO SHOP</div>'
+              f'<div style="font:500 italic 40px/1 CGI;margin-top:14px">every piece, from ₹{LO:,}</div></div>')
+    else: x += '<div class="grain"></div>'
     return x
 
 # ---------------------------------------------------------------- 3 The Naira Times
@@ -212,7 +233,7 @@ SIDE = [("woven-gold-hoops", "HOOPS SIGHTED AT CHAI STALL", "Witnesses report a 
 
 def times(fmt):
     w, h = FORMATS[fmt]; ink = "#16110E"; red = "#C8321F"
-    T = {"1x1": 28, "4x5": 40, "9x16": 240}[fmt]
+    T = {"1x1": 28, "4x5": 40, "9x16": 240, "2x3": 44}[fmt]
     x = head(w, h, .35) + f'<div class="a" style="inset:0;background:#F2EADF"></div>'
     x += f'<div class="a" style="inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(255,252,244,.6),rgba(201,186,160,.35))"></div>'
     # masthead: THE [NAIRA] TIMES
@@ -222,10 +243,10 @@ def times(fmt):
     y = T + 104
     x += (f'<div class="a" style="left:40px;right:40px;top:{y}px;border-top:3px solid {ink};border-bottom:1px solid {ink};padding:9px 0 8px;'
           f'display:flex;justify-content:space-between;font:600 15px/1 Jost;letter-spacing:.14em;color:{ink}">'
-          f'<span>TUESDAY, 20 OCTOBER 2026</span><span style="font:italic 19px/1 OldStdI;letter-spacing:.02em">“All the jewellery that’s fit to wear”</span>'
+          f'<span>{"NASHIK EDITION · FASHION MANTRA" if fmt == "2x3" else "TUESDAY, 20 OCTOBER 2026"}</span><span style="font:italic 19px/1 OldStdI;letter-spacing:.02em">“All the jewellery that’s fit to wear”</span>'
           f'<span>₹{LO:,} ONWARDS</span></div>')
     y += 48
-    hs = {"1x1": 150, "4x5": 152, "9x16": 214}[fmt]
+    hs = {"1x1": 150, "4x5": 152, "9x16": 214, "2x3": 152}[fmt]
     x += (f'<div class="a" style="left:30px;right:30px;top:{y}px;text-align:center;font:{hs}px/.92 Anton;color:{ink};letter-spacing:.005em;'
           f'transform:scaleY(1.04)">{"SHE WORE<br>IT ALL." if fmt == "9x16" else "SHE WORE IT ALL."}</div>')
     y += round(hs * .98) * (2 if fmt == "9x16" else 1) + 10
@@ -234,7 +255,7 @@ def times(fmt):
     y += 100 if fmt == "9x16" else 62
     x += f'<div class="a" style="left:40px;right:40px;top:{y}px;border-top:1px solid {ink}"></div>'
     y += 18
-    bottom = {"1x1": 1010, "4x5": 1266, "9x16": 1632}[fmt]
+    bottom = {"1x1": 1010, "4x5": 1266, "9x16": 1632, "2x3": 1552}[fmt]
     if fmt == "9x16":
         lead_w, lead_h = 1000, 400
     else:
@@ -262,7 +283,7 @@ def times(fmt):
                   f'<div class="a" style="left:14px;right:14px;bottom:14px;font:27px/1.02 Anton;color:#FFF4E6">{hl}</div>'
                   f'<div class="a" style="left:12px;top:12px;font:700 17px/1 Jost;letter-spacing:.12em;padding:9px 12px 8px;background:{red};color:#FFF4E6">₹{rows[hnd]["price"]:,}</div></div>')
     else:
-        cx0 = 40 + lead_w + 34; cw = w - 40 - cx0; ph = {"1x1": 150, "4x5": 196}[fmt]; step = (bottom - y - 20) / 3
+        cx0 = 40 + lead_w + 34; cw = w - 40 - cx0; ph = {"1x1": 150, "4x5": 196, "2x3": 196}[fmt]; step = (bottom - y - 20) / (4 if fmt == "2x3" else 3)
         x += f'<div class="a" style="left:{cx0 - 18}px;top:{y}px;height:{bottom - y - 30}px;border-left:1px solid {ink}"></div>'
         for i, (hnd, hl, dek) in enumerate(SIDE):
             yy = y + i * step
@@ -272,12 +293,16 @@ def times(fmt):
                   f'<div><div style="font:{25 if fmt == "1x1" else 28}px/1.02 Anton">{hl}</div>'
                   f'<div style="font:italic 16px/1.22 OldStdI;margin-top:6px">{dek}</div>'
                   f'<div style="font:700 15px/1 Jost;letter-spacing:.14em;margin-top:8px;color:{red}">₹{rows[hnd]["price"]:,}</div></div></div>')
+    if fmt == "2x3":
+        qy = y + 3 * step
+        x += qr_card(cx0, qy, 170, bg="#FFFDF7", fg=ink, pad=10, ring=ink)
+        x += (f'<div class="a" style="left:{cx0}px;top:{qy + 206}px;width:{cw}px;font:22px/1.05 Anton;color:{ink}">SCAN TO SHOP THE ISSUE</div>')
     # ticker
-    x += (f'<div class="a" style="left:0;right:0;top:{bottom}px;height:58px;background:{red};color:#FFF4E6;display:flex;align-items:center;'
+    x += (f'<div class="a" style="left:0;right:0;top:{bottom}px;height:{68 if fmt == "2x3" else 58}px;background:{red};color:#FFF4E6;display:flex;align-items:center;'
           f'white-space:nowrap;overflow:hidden;font:27px/1 Anton;letter-spacing:.05em">'
           f'<span style="background:{ink};padding:16px 20px 15px;margin-right:18px">BREAKING</span>'
-          f'ALL {COUNT} PIECES IN STOCK · CUBIC ZIRCONIA · FROM ₹{LO:,}</div>')
-    x += '<div class="grain"></div>'
+          f'{"NAIRA IS AT FASHION MANTRA, EMERALD PARK · FROM ₹" + format(LO, ",") if fmt == "2x3" else "ALL " + str(COUNT) + " PIECES IN STOCK · CUBIC ZIRCONIA · FROM ₹" + format(LO, ",")}</div>')
+    if fmt != "2x3": x += '<div class="grain"></div>'
     return x
 
 BUILDERS = {"wall": wall, "poster": poster, "times": times}
@@ -286,8 +311,8 @@ def main(names):
     os.makedirs(WORK, exist_ok=True); os.makedirs(OUT, exist_ok=True)
     C.WORK = WORK; jobs = []
     for n in names:
-        for fmt, (w, h) in FORMATS.items():
-            k = f"naira-cover-{n}-{fmt}"
+        for fmt in SCREEN:
+            w, h = FORMATS[fmt]; k = f"naira-cover-{n}-{fmt}"
             open(f"{WORK}/{k}.html", "w").write(BUILDERS[n](fmt) + "</body></html>"); jobs.append(f"{k}:{w}:{h}")
     env = dict(os.environ, NODE_PATH="/opt/node-tools/node_modules")
     subprocess.run(["node", f"{C.HERE}/render.cjs", WORK, *jobs], check=True, env=env)
