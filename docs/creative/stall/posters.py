@@ -2,8 +2,9 @@
 # themes of the exhibition standees. One per shell-scheme panel, each 24 × 36 in (2 × 3 ft) portrait:
 #   back:            the three catalogue covers, from covers_print.py
 #   spare (SAGE):    sage-edit (Heartbead hero, four more pieces)  ·  about (who Naira is, three on-model arches)
-#   left  (APRICOT): apricot-edit (Woven Gold Hoops hero)          ·  gifting (the blush box, prices by category)
-#   right (LILAC):   lilac-edit (Prism Rivière hero)               ·  catalogue (twelve on-model pieces, a large QR)
+#   left  (APRICOT): apricot-edit (Ribbon Bow Earrings hero)       ·  gifting (the blush box, prices by category)
+#   right (LILAC):   lilac-edit (Serpentine Whisper Chain hero)    ·  catalogue (twelve on-model pieces, a large QR)
+#   (the heroes differ from the back-wall Apricot and Lilac standees beside them, so no photo appears twice)
 # Pages are laid out at 96 CSS px per inch, so the PDF is exactly 24 × 36 in with the photos embedded at their own
 # resolution; a 150 ppi JPG and a small preview are written too.
 # Usage: posters.py [name ...] -> <scratchpad>/stall/out/Naira-Stall-<wall>-<n>-<name>-24x36in.{pdf,jpg}, previews/
@@ -28,17 +29,17 @@ THEME = {
     "LILAC":   dict(g1="#F2ECF5", g2="#E4D8EC", deep="#3A2D52", acc="#76599B", soft="#DDD0E7", line="rgba(58,45,82,.30)"),
 }
 EDITS = {
-    "APRICOT": dict(word="APRICOT", line="the colour of a slow afternoon.", hero=("A-apricot/i-001.jpg", (.49, .565)), h="woven-gold-hoops",
-                    spec="25 mm braided hoops · gold tone", more=[("brushed-gold-huggies", "A-apricot/i-005.jpg", (.5, .5)),
-                    ("heartline-paperclip-necklace", "A-apricot/i-007.jpg", (.5, .52)), ("ribbon-bow-earrings", "A-apricot/i-009.jpg", (.48, .45)),
+    "APRICOT": dict(word="APRICOT", line="the colour of a slow afternoon.", hero=("A-apricot/i-009.jpg", (.5, .5)), h="ribbon-bow-earrings",
+                    spec="15 mm bow studs · clear cubic zirconia · gold tone", more=[("woven-gold-hoops", "A-apricot/i-001.jpg", (.49, .565)),
+                    ("brushed-gold-huggies", "A-apricot/i-005.jpg", (.5, .5)), ("heartline-paperclip-necklace", "A-apricot/i-007.jpg", (.5, .52)),
                     ("ribbon-bead-bracelet", "A-apricot/i-011.jpg", (.5, .55))]),
     "SAGE":    dict(word="SAGE", line="the colour of quiet.", hero=("B-sage/i-003.jpg", (.55, .49)), h="heartbead-bracelet",
                     spec="6 mm steel beads · gold-tone toggle and heart", more=[("toggle-link-chain", f"{PLATES}/SAGE/sage_YF5143_S1_a5g.jpg", (.45, .46)),
                     ("verdant-circlet-studs", f"{PLATES}/SAGE/sage_FE02847B_S1_a4g.jpg", (.55, .45)), ("granule-dome-ring", f"{PLATES}/SAGE/sage_JDR0104337_S3_a2g.jpg", (.62, .38)),
                     ("chevron-whisper-ring", f"{PLATES}/SAGE/sage_JDR0303312-7_S3_a2g.jpg", (.6, .38))]),
-    "LILAC":   dict(word="LILAC", line="the colour of evening.", hero=("C-lilac/i-006.jpg", (.52, .485)), h="prism-riviere-bracelet",
-                    spec="5 mm cushion-cut cubic zirconia · rhodium", more=[("pearl-blossom-earrings", "C-lilac/i-015.jpg", (.55, .52)),
-                    ("silver-drop-earrings", "C-lilac/i-024.jpg", (.55, .55)), ("serpentine-whisper-chain-silver", "C-lilac/i-037.jpg", (.5, .6)),
+    "LILAC":   dict(word="LILAC", line="the colour of evening.", hero=("C-lilac/i-037.jpg", (.5, .55)), h="serpentine-whisper-chain-silver",
+                    spec="2 mm snake chain · 10 mm cushion-cut cubic zirconia · rhodium", more=[("prism-riviere-bracelet", "C-lilac/i-006.jpg", (.52, .485)),
+                    ("pearl-blossom-earrings", "C-lilac/i-015.jpg", (.55, .52)), ("silver-drop-earrings", "C-lilac/i-024.jpg", (.55, .55)),
                     ("vintage-halo-ring", "C-lilac/i-046.jpg", (.5, .62))]),
 }
 
