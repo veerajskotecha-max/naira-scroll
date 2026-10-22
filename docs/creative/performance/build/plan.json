@@ -170,16 +170,6 @@
   "wave": 2
  },
  {
-  "stem": "baguette-halo-drops-play",
-  "key": "baguette-halo-drops",
-  "format": "play",
-  "campaign": "PERF · Play (object wit) · Oct 2026",
-  "adset": "Earrings",
-  "priority": -0.435,
-  "reserve": true,
-  "wave": 2
- },
- {
   "stem": "pearl-circlet-studs-play",
   "key": "pearl-circlet-studs",
   "format": "play",
@@ -257,16 +247,6 @@
   "adset": "Necklaces & rings",
   "priority": 0.565,
   "reserve": false,
-  "wave": 2
- },
- {
-  "stem": "baguette-tennis-necklace-play",
-  "key": "baguette-tennis-necklace",
-  "format": "play",
-  "campaign": "PERF · Play (object wit) · Oct 2026",
-  "adset": "Necklaces & rings",
-  "priority": -0.135,
-  "reserve": true,
   "wave": 2
  },
  {
@@ -428,16 +408,6 @@
   "priority": 0.505,
   "reserve": false,
   "wave": 2
- },
- {
-  "stem": "bold-dome-huggies-quiet",
-  "key": "bold-dome-huggies",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.505,
-  "reserve": false,
-  "wave": 3
  },
  {
   "stem": "quatrefoil-eclat-studs-quiet",

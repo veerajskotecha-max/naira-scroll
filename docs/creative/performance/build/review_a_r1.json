@@ -1,0 +1,1510 @@
+[
+ {
+  "ad": "aqua-heart-drops-silver-play-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean: headline and subline sit on calm plaster above the pigment cones; the foot is on calm plaster; spec fits on one line.",
+   "Minor: the hearts read sky-blue while the cone they lie under reads mint, so 'The exact blue.' is a slightly loose match at phone size."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "aqua-heart-drops-silver-play-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 300-530 px, foot at 1420-1520 px; cones and earrings in the middle band.",
+   "Same slight heart-versus-cone colour mismatch."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "aqua-heart-drops-silver-rhyme-feed",
+  "score": 8.0,
+  "issues": [
+   "The subline ends about 30 px from the top-left marble: tight, but not touching.",
+   "The earrings read about 1.3-1.4x true size against the kanche (the C arc is about 2.6 marble-widths tall), so it is close to costume scale."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "aqua-heart-drops-silver-rhyme-story",
+  "score": 8.0,
+  "issues": [
+   "Text-free as intended; subject between 620 and 1380 px.",
+   "Earrings read about 1.3x large against the marbles."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "aqua-heart-drops-silver-silk-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean: cream copy bottom right on calm dark teal satin, well clear of the earrings; strong contrast.",
+   "Name line is small at phone size (about 7 px at 400 px wide)."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "aqua-heart-drops-silver-silk-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: cream copy top right (300-525 px) on dark teal with good contrast, clear of the earrings."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-halo-drops-play-feed",
+  "score": 5.0,
+  "issues": [
+   "Wrong scale: each sunburst disc is about 2.1x the width of the shirt buttons beside it (about 23 mm against an 11 mm button; true disc 14 mm) and the pearl drop reads about 14 mm. The joke 'Button up.' invites exactly this comparison, and the spec line says 14 mm, so the picture contradicts the copy. The shoot manifest already marks this frame pass: false (7.5).",
+   "AI starburst glint on the right disc rim.",
+   "Copy placement itself is clean: the headline sits on calm shirt fabric, clear of buttons and earrings."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "ad": "baguette-halo-drops-play-story",
+  "score": 4.5,
+  "issues": [
+   "Same wrong scale: the discs are about 2x the buttons and the frame is marked pass: false in the manifest.",
+   "The spec line 'DISC · PEARL' sits about 5 px under the bottom-left shirt button (y 1395-1510) and the rule touches its edge, so the text collides with the prop.",
+   "AI starburst glint on the right disc."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "ad": "baguette-halo-drops-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean QUIET layout: wordmark top, name/price at the foot on calm linen.",
+   "The discs read about 17-18 mm against the frangipani, a little large; the wordmark sits about 25 px above the top petal (tight)."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-halo-drops-quiet-story",
+  "score": 5.0,
+  "issues": [
+   "Placement fault: the name and price are set at y 640-720, on the top petal of the frangipani directly above the earrings, instead of in the designed foot (about 1460-1520 px). The text sits on the key prop and crowds the jewellery.",
+   "The calm linen below the flower (1400-1580 px) is free."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 400
+  }
+ },
+ {
+  "ad": "baguette-halo-drops-rhyme-feed",
+  "score": 4.5,
+  "issues": [
+   "Text over the key prop: the comma of 'MAKHANA,' and the period of 'MATCHED.' run onto the steel katori rim, and 'HED.' sits over a makhana behind it. The subline 'a pearl drop under a' butts against loose makhana (x 330-450, y 215-300). The whole copy block crosses a busy edge.",
+   "Scale: each disc reads about 1.25-1.4x a makhana, so the earrings look larger than 14 mm. The manifest marks this frame pass: false (7.5, best of two).",
+   "The rhyme itself (pearls with makhana) is strong."
+  ],
+  "fix": {
+   "cy": 0.55,
+   "at": "tl",
+   "w": 380,
+   "hs": 72,
+   "cs": 30,
+   "fixed": true,
+   "y": 40
+  }
+ },
+ {
+  "ad": "baguette-halo-drops-rhyme-story",
+  "score": 7.0,
+  "issues": [
+   "Text-free as intended; the subject sits between 420 and 1500 px.",
+   "Scale: the discs read about 1.25x a makhana, larger than 14 mm (the manifest marks the frame pass: false at 7.5)."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-halo-drops-silk-feed",
+  "score": 7.0,
+  "issues": [
+   "The headline 'The sunburst note.' starts about 10-15 px under the left pearl drop (pearl bottom at about y 945, headline cap top at about 955): the text crowds the jewellery.",
+   "Otherwise clean: ink on calm rose-beige satin with good contrast; construction exact."
+  ],
+  "fix": {
+   "at": "br",
+   "fixed": true,
+   "y": 72
+  }
+ },
+ {
+  "ad": "baguette-halo-drops-silk-story",
+  "score": 7.5,
+  "issues": [
+   "The headline sits about 25 px under the left pearl drop (pearl bottom at about 1260, headline top at about 1285): too tight.",
+   "The copy block ends at about 1500 px, so there is room to drop it about 40 px and stay inside the safe zone."
+  ],
+  "fix": {
+   "at": "br",
+   "fixed": true,
+   "y": 380
+  }
+ },
+ {
+  "ad": "baguette-halo-drops-worn-feed",
+  "score": 8.0,
+  "issues": [
+   "Ink copy lower left on the ivory collar reads well; the end of 'pearl.' reaches the collar's top edge next to the neck skin, but it stays legible.",
+   "Earring true to scale on the lobe; no face parts (cheek only, edge-cropped)."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-halo-drops-worn-story",
+  "score": 7.5,
+  "issues": [
+   "Name line wraps as 'BAGUETTE HALO DROPS ·' / '₹1,499': a dangling dot and a lone price line.",
+   "Cream copy on brown neck skin reads; the block clears the pearl drop by about 25 px horizontally and vertically, which is tight.",
+   "Safe zone respected (bottom at about 1530 px)."
+  ],
+  "fix": {
+   "n": "Baguette Halo Drops<br>₹1,499"
+  }
+ },
+ {
+  "ad": "baguette-huggies-play-feed",
+  "score": 7.5,
+  "issues": [
+   "Scale: each hoop is about as wide as the padlock body, so either the huggies read about 2x their 15 mm or the padlock is a toy. The spec line says 15 mm right under it.",
+   "Construction: the open (left) huggie shows about 10-11 baguettes wrapping past the side; the product has 7 across the lower front.",
+   "The headline 'Click. Locked.' sits beside an open padlock; the mechanism joke works, but 'Locked' over an unlocked lock is a mild mismatch.",
+   "Copy placement is clean: headline on calm plaster, foot clear of the hoops."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-play-story",
+  "score": 7.5,
+  "issues": [
+   "Same scale problem against the padlock and the same extra baguettes on the open hoop.",
+   "Layout clean: copy at 300-445 px, foot at 1420-1525 px; nothing touches the props."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean QUIET layout: wordmark top, name/price at the foot on calm lilac linen.",
+   "Two hoops on a halved fig read as a pair of eyes (an owl face) at a glance, and the fig's cut interior can read as anatomical: a mild taste risk for a premium brand.",
+   "Hoops read about 1.3x true size against the fig."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-quiet-story",
+  "score": 8.0,
+  "issues": [
+   "Clean: wordmark at about 300 px, name/price at 1460-1530 px on calm linen.",
+   "Same 'pair of eyes' read on the fig; hoops slightly large."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-rhyme-feed",
+  "score": 8.5,
+  "issues": [
+   "Strong, truthful rhyme: hoops read true 15 mm against the peas, 7 emerald baguettes, hinge visible.",
+   "Minor: the subline ends about 20 px above the pea-pod stem tip (x 330-470); tight but not touching."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; pod, peas and huggies sit between 570 and 1290 px, clear of both UI bands."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-silk-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean: ink note bottom right on calm rose-beige satin, about 200 px below the hoops; good contrast; 'Seven baguettes' matches the hoops shown."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-silk-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 1320-1535 px on calm satin, inside the safe zone."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-huggies-worn-feed",
+  "score": 8.0,
+  "issues": [
+   "Cream copy lower right on deep neck skin reads well and is clear of the huggie.",
+   "Copy truth (minor): 'Ruby baguettes' can read as real rubies. The rest of the set says 'ruby-red cubic zirconia' or 'Ruby-red baguettes'.",
+   "Huggie reads about 1.4x true size against the ear (about 21 mm against 15 mm).",
+   "No eyes, nose or lips; cheek skin at the right edge only."
+  ],
+  "fix": {
+   "c": "Ruby-red baguettes,<br>small enough for every day."
+  }
+ },
+ {
+  "ad": "baguette-huggies-worn-story",
+  "score": 8.0,
+  "issues": [
+   "Clean placement: copy at 1320-1535 px on neck skin, clear of the earring and inside the safe zone.",
+   "Same 'Ruby baguettes' wording and the same slightly large huggie."
+  ],
+  "fix": {
+   "c": "Ruby-red baguettes,<br>small enough for every day."
+  }
+ },
+ {
+  "ad": "baguette-tennis-bracelet-play-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean layout: headline and subline on calm plaster above the ball; foot on plaster; the pun 'Love, all.' and 'taken literally' land.",
+   "Image: three or four four-point starburst glints on the stones read as an AI or filter effect; the ball's seam is drawn as two straight stripes rather than a real curved seam."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-bracelet-play-story",
+  "score": 7.0,
+  "issues": [
+   "The auto paper band fogs the bottom of the tennis ball (about 1380-1450 px) into a white haze; it looks like a botched fade.",
+   "Same starburst glints and stylised seam."
+  ],
+  "fix": {
+   "fixed": true
+  }
+ },
+ {
+  "ad": "baguette-tennis-bracelet-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean QUIET layout: ink wordmark and name on calm sage linen, centred.",
+   "At phone size the raw mango can read as an avocado; four-point starburst glints on the emerald stones."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-bracelet-quiet-story",
+  "score": 6.0,
+  "issues": [
+   "Legibility fail: the name 'BAGUETTE TENNIS BRACELET' and the price are set in cream on pale sage linen. The thin Velista hairlines vanish ('BAGUETTE' half disappears) and it is unreadable at 400 px wide. The Feed version uses ink and reads fine.",
+   "Starburst glints; mango reads as avocado."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 400
+  }
+ },
+ {
+  "ad": "baguette-tennis-bracelet-rhyme-feed",
+  "score": 7.0,
+  "issues": [
+   "The headline and subline were auto-placed bottom right and stacked on top of the footer, so the lower 400 px holds the headline, subline, spec, button, wordmark and price at once. It reads crowded and the copy crosses the busy brushed-steel streak.",
+   "'ON THE ROCKS.' starts about 45 px under the bracelet's lower edge, which is tight.",
+   "The soft paper band shows as a white fog across the thali at the bottom; the ice reads slightly acrylic.",
+   "Copy truth is fine: 'clear cubic zirconia, not ice.'",
+   "Fix moves the window up (cy 0.5) so the headline sits top left on calm steel; the subline may cross the faint meltwater outline, so keep it at 34 px."
+  ],
+  "fix": {
+   "cy": 0.5,
+   "at": "tl",
+   "w": 460,
+   "hs": 84,
+   "cs": 34,
+   "fixed": true,
+   "y": 60
+  }
+ },
+ {
+  "ad": "baguette-tennis-bracelet-rhyme-story",
+  "score": 8.0,
+  "issues": [
+   "Text-free as intended; bracelet and ice sit between 450 and 1350 px.",
+   "The ice cubes look a little too perfect (acrylic) and the steel is cool-toned, which is off the warm house palette."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-bracelet-silk-feed",
+  "score": 7.5,
+  "issues": [
+   "Name line wraps as 'BAGUETTE TENNIS BRACELET ·' / '₹1,699': a dangling dot and the price stranded on its own line.",
+   "Otherwise clean: ink copy top left on calm blush silk, clear of the bracelet; ruby-red baguettes in crosswise claw boxes read true."
+  ],
+  "fix": {
+   "n": "Baguette Tennis Bracelet<br>₹1,699"
+  }
+ },
+ {
+  "ad": "baguette-tennis-bracelet-silk-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 300-525 px on calm silk, name line on one line, well clear of the bracelet."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-bracelet-worn-feed",
+  "score": 7.5,
+  "issues": [
+   "Scale: the line reads about 9-10 mm wide on the wrist (spec is 6 mm), so the bracelet looks chunkier than it is.",
+   "Two four-point starburst glints on the top stones look like a filter effect.",
+   "Copy placement is fine: ink on ivory mulmul lower left, about 90 px clear of the knuckles."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-bracelet-worn-story",
+  "score": 7.5,
+  "issues": [
+   "Same heavier-than-true line (about 9-10 mm against the 6 mm spec) and the same starburst glints.",
+   "Copy at 1340-1535 px on calm mulmul, clear of the hand and inside the safe zone."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-necklace-play-feed",
+  "score": 5.5,
+  "issues": [
+   "Costume scale: the baguettes read about 2x true size against the small matka. Only about 15 stones cross the front where a 6 mm, 36 cm line would show about 30, so the necklace reads as a chunky costume collar. The manifest already flags it (7.5 after reshoot).",
+   "The soft paper band fogs the lower third of the pot into white haze, which looks like a fade error.",
+   "Starburst glint on the front stones.",
+   "Copy placement is fine: the centred headline sits on the calm wall, well above the pot."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "ad": "baguette-tennis-necklace-play-story",
+  "score": 5.5,
+  "issues": [
+   "Same costume-scale stones (about 2x) on the matka; flagged in the manifest.",
+   "The paper band washes out the bottom of the pot and the plinth (1350-1500 px).",
+   "Starburst glint."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "ad": "baguette-tennis-necklace-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean, symmetrical QUIET layout: ink wordmark top and name/price at the foot on ivory linen; the name sits about 35 px under the coconut husk (tight but clear).",
+   "The stones read about 1.5x large (about 55 stones round a circle that should hold about 100); one starburst glint at right."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-necklace-quiet-story",
+  "score": 8.0,
+  "issues": [
+   "Clean: wordmark at about 300 px and name/price at 1430-1515 px, about 35 px below the coconut.",
+   "Same slightly large stones and starburst glint."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-necklace-rhyme-feed",
+  "score": 6.5,
+  "issues": [
+   "Text touches the key prop: the stem of the top-left chilli runs into the period of 'STUFF.', and the subline ends about 50 px from the chilli body.",
+   "The text's paper glow visibly bleaches that chilli to a washed pink, so the prop the headline jokes about looks faded.",
+   "Otherwise strong: the crimson stones match the chilli skins; crosswise box settings and box clasp are true; the copy is truthful ('ruby-red cubic zirconia')."
+  ],
+  "fix": {
+   "cy": 0.58,
+   "at": "tl",
+   "w": 420,
+   "hs": 84,
+   "cs": 34,
+   "fixed": true,
+   "y": 48
+  }
+ },
+ {
+  "ad": "baguette-tennis-necklace-rhyme-story",
+  "score": 9.0,
+  "issues": [
+   "Text-free as intended. A strong colour rhyme with the subject between 460 and 1560 px; nothing important in the UI bands."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-necklace-silk-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean: ink note bottom right on calm champagne satin, about 90 px below the necklace; good contrast.",
+   "Laid unfastened in a short loop, the 36 cm necklace reads more like a bracelet, and the open box-clasp tongue at the left edge adds clutter."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-necklace-silk-story",
+  "score": 8.0,
+  "issues": [
+   "Clean: copy at 1175-1390 px on calm satin, inside the safe zone.",
+   "Same bracelet-like loop and clasp clutter."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "baguette-tennis-necklace-worn-feed",
+  "score": 6.5,
+  "issues": [
+   "The cream copy top right crosses a busy edge: black hair and loose flyaway strands run through 'baguettes' and 'open collar.', which hurts legibility at phone size.",
+   "The Feed crop (cy 0.40) keeps the underside of the chin and jaw in the top-left corner. The brief wants the crop at the jawline or below, and this is the most face-like corner in the set.",
+   "Stones read slightly heavy (about 8 mm line against the 6 mm spec); otherwise construction is true.",
+   "Fix: cy 0.5 drops the chin out of the crop, and the block goes bottom right on chest skin in ink, where the Story already reads."
+  ],
+  "fix": {
+   "cy": 0.5,
+   "at": "br",
+   "fixed": true,
+   "y": 235
+  }
+ },
+ {
+  "ad": "baguette-tennis-necklace-worn-story",
+  "score": 8.0,
+  "issues": [
+   "Ink copy lower right on mid-tan chest skin reads, though contrast is only moderate; it is clear of the necklace and inside the safe zone (1175-1390 px).",
+   "The chin and jaw underside shows in the top-left 0-290 px. It sits under the Story header band, but it is still a face edge.",
+   "Line slightly heavy against the neck."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-play-feed",
+  "score": 6.5,
+  "issues": [
+   "Text over the key prop: the subline 'a hinged huggie,' sits on the top edge of the yellow pencil (x 0-300, y 170-205), so the letters overlap the prop.",
+   "The prop reads as a faceted yellow rod: no sharpened tip, lead or ferrule, so it barely reads as the pencil the subline names.",
+   "Huggie scale against the rod is plausible (about 2.3x its thickness); construction and hinge are true."
+  ],
+  "fix": {
+   "at": "tr",
+   "w": 460,
+   "fixed": true,
+   "y": 60
+  }
+ },
+ {
+  "ad": "bold-dome-huggies-play-story",
+  "score": 7.5,
+  "issues": [
+   "Placement is clean: the two-line subline ends about 40 px above the pencil; foot at 1420-1525 px.",
+   "The pencil shows no tip, lead or ferrule, so it reads as a yellow rod, which weakens \"closed round a pencil\"."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-quiet-feed",
+  "score": 7.0,
+  "issues": [
+   "Clean QUIET type: wordmark top, name/price at the foot on calm linen.",
+   "Image: the apricot flesh looks glassy and gummy (an AI texture), and the hoops read about 25% large. Two apricot halves side by side, each with a gold ring at its centre, carry a suggestive 'bosom' read at a glance: a taste risk for a premium brand."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-quiet-story",
+  "score": 7.0,
+  "issues": [
+   "Clean type placement (wordmark at about 300 px, name at 1430-1515 px).",
+   "Same glassy apricot texture, oversize hoops and suggestive two-halves read."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-rhyme-feed",
+  "score": 7.0,
+  "issues": [
+   "Bad line break: 'CHUNKY, NOT' / 'CRUNCHY.' splits the phrase; 'not' belongs with 'crunchy'.",
+   "The subline 'huggies, not fryums.' runs across the steel thali rim (x 260-512, y 230-262), a busy edge, held legible only by the glow.",
+   "The soft paper band fogs the lower fryums and thali rim (y 1050-1130).",
+   "Image is good: the hoops read as two more rings among the fryums; hoop is about 3/4 of a fryum (true).",
+   "Fix: cy 0.49 brings calm lime plaster into the top 300 px for the copy. Keep the band: the hoops end about 40 px above it, and it only softens the lower fryums."
+  ],
+  "fix": {
+   "cy": 0.49,
+   "h": "Chunky,<br>not crunchy.",
+   "at": "tl",
+   "w": 640,
+   "hs": 84,
+   "cs": 34,
+   "fixed": true,
+   "y": 64,
+   "band": true
+  }
+ },
+ {
+  "ad": "bold-dome-huggies-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; thali and hoops between 570 and 1560 px; calm lime plaster above.",
+   "Minor: the thali rim reaches the bottom UI band at the right."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-silk-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean: ink note bottom left on calm peach satin, about 130 px below the hoops; the copy is truthful (16 mm, gold tone, hinge).",
+   "Tight macro with no referent: the hoops fill a large part of the frame and read bigger than 16 mm."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-silk-story",
+  "score": 8.0,
+  "issues": [
+   "Clean: copy at 300-525 px top left on calm satin, well above the hoops.",
+   "Same macro scale ambiguity."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-worn-feed",
+  "score": 7.5,
+  "issues": [
+   "Scale: the huggie reads about 20 mm tall and hangs below the lobe like a hoop rather than hugging it (true size 16 mm), so 'Small' in the headline is undercut by the picture.",
+   "The cheek and temple area in front of the ear fills the right third: no eyes, nose or lips, but the crop goes above the jawline, which the brief asks to avoid.",
+   "Copy placement is good: cream on the deep neck skin lower right with solid contrast, clear of the earring."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-dome-huggies-worn-story",
+  "score": 7.5,
+  "issues": [
+   "Same large-reading huggie (about 20 mm) and cheek area above the jawline.",
+   "Copy at 1335-1535 px on neck skin, clear of the earring and inside the safe zone; good contrast."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-play-feed",
+  "score": 7.5,
+  "issues": [
+   "The prop does not prove the fact: the calliper lies under and through the bracelet instead of measuring a link or the length, so 'Measure twice.' is a visual pun without the proof. The manifest marks this frame pass: false (7.5, best of two).",
+   "Layout clean: one-line headline and subline on calm plaster above the calliper; foot on clean plaster; bracelet construction true (one pavé link, lobster clasp, extender with tag)."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-play-story",
+  "score": 7.5,
+  "issues": [
+   "Same non-measuring calliper (manifest pass: false).",
+   "Layout clean: headline at 300-460 px, subline ending about 90 px above the calliper; the wordmark sits about 55 px right of and below the last links, which is tight."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-quiet-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean QUIET layout: wordmark top and name/price centred on calm saffron linen, about 90 px below the pavé link; marigold and bracelet symmetrical.",
+   "Minor: about 12 plain links instead of 14."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-quiet-story",
+  "score": 8.0,
+  "issues": [
+   "The name sits about 65 px under the pavé link, and the light glow behind it shows as a pale blotch on the linen.",
+   "Wordmark at about 300 px, name/price at 1430-1515 px: inside the designed bands."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-rhyme-feed",
+  "score": 7.5,
+  "issues": [
+   "Headline break 'VARQ, BUT' / 'WEARABLE.' leaves 'but' dangling at the end of line 1.",
+   "The subline ends about 30 px above the extender chain: tight.",
+   "The soft paper band fogs the lowest kaju katli piece and the thali rim (y 1080-1350).",
+   "The image is a strong rhyme: varq-covered katli against polished links; the copy is truthful ('gold-tone links, not kaju katli')."
+  ],
+  "fix": {
+   "h": "Varq,<br>but wearable."
+  }
+ },
+ {
+  "ad": "bold-nocturne-bracelet-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; thali, katli and bracelet sit between 440 and 1660 px. The thali rim dips into the bottom 340 px band at the lower edge, but no key detail sits there.",
+   "The varq reads slightly like crinkled foil."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-silk-feed",
+  "score": 7.5,
+  "issues": [
+   "Product fault at zoom: two plain links on the left side (around x 300-420, y 560-760) show a frosted, glittery inner surface, which reads as partial pavé or an AI artefact. The bracelet has exactly one pavé link and the rest are mirror-polished.",
+   "Strong starburst glint on the pavé link (a filter look); it sits about 40 px under the name line.",
+   "Copy placement is clean: ink on calm champagne silk top left."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-silk-story",
+  "score": 7.5,
+  "issues": [
+   "Same frosted plain links and strong starburst glint.",
+   "Copy at 555-775 px on calm silk, clear of the bracelet; safe zones respected; the extender tag reaches about 1610 px, into the bottom UI band."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-worn-feed",
+  "score": 7.5,
+  "issues": [
+   "Name line wraps as 'BOLD NOCTURNE BRACELET ·' / '₹1,599': a dangling dot and the price alone on line 2.",
+   "Ink copy top right on calm linen, about 60 px clear of the hand; good contrast. Bracelet true to scale, one pavé link, natural hand, no face."
+  ],
+  "fix": {
+   "n": "Bold Nocturne Bracelet<br>₹1,599"
+  }
+ },
+ {
+  "ad": "bold-nocturne-bracelet-worn-story",
+  "score": 7.5,
+  "issues": [
+   "Name line wraps as 'BOLD NOCTURNE BRACELET ·' / '₹1,599': a dangling middle dot and the price stranded alone on its own line.",
+   "Otherwise clean: ink copy top right on calm linen, clear of the knuckles (closest gap about 50 px), no face, five natural fingers, pavé link and chunky links true; 'Cuff, rolled.' matches the rolled shirt cuff in frame."
+  ],
+  "fix": {
+   "n": "Bold Nocturne Bracelet<br>₹1,599"
+  }
+ },
+ {
+  "ad": "bold-nocturne-chain-play-feed",
+  "score": 8.5,
+  "issues": [
+   "Minor: 'Worth its weight.' leans on the 'worth its weight in gold' idiom; the subline says gold-tone, so it stays truthful.",
+   "Minor: a short run of fine extender chain shows inside the coil in the pan; reads as tangle at phone size."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-chain-play-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 300-530 px and foot at 1420-1525 px stay inside the Story safe zone; balance and pavé link read clearly.",
+   "Minor: fine extender chain visible inside the coil."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-chain-quiet-feed",
+  "score": 5.0,
+  "issues": [
+   "Placement fault: the name and price are set in the middle of the melon (y 680-765), inside the chain's circle, over the glossy seed cavity, instead of at the foot as the QUIET/Apricot layout requires. The text sits on the key prop and the wet highlights cut into 'NOCTURNE'.",
+   "Product fault at zoom: two or three plain links (left side near 10 o'clock, right side near 3 o'clock) show a granular pavé-like strip on their inner edges; the chain has exactly one pavé link.",
+   "The calm apricot linen below the melon (y 1150-1300) is free for the foot."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 76
+  }
+ },
+ {
+  "ad": "bold-nocturne-chain-quiet-story",
+  "score": 5.0,
+  "issues": [
+   "Placement fault: name and price sit at y 1070-1150, in the middle of the melon inside the chain, not at the foot; text on the key prop and over its glossy flesh.",
+   "Same subtle extra pavé-like texture on two or three plain links (left 10 o'clock, right 3 o'clock).",
+   "Calm linen below the melon (y 1440-1560) is free for the designed foot."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 400
+  }
+ },
+ {
+  "ad": "bold-nocturne-chain-rhyme-feed",
+  "score": 8.0,
+  "issues": [
+   "Headline break 'GOLDEN, BY' / 'THE HANDFUL.' strands 'BY' at the end of line 1, away from its phrase; reads 'Golden, by... the handful'.",
+   "Golden raisins read slightly jumbo against 20 mm links; acceptable.",
+   "Subline ends about 100 px left of the katori rim: clear."
+  ],
+  "fix": {
+   "h": "Golden,<br>by the handful."
+  }
+ },
+ {
+  "ad": "bold-nocturne-chain-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended. Chain loop, single pavé link and kishmish katori all sit between 650 and 1500 px; nothing important in the top 250 px or bottom 340 px.",
+   "Minor: raisins a touch large against the links."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-chain-silk-feed",
+  "score": 8.0,
+  "issues": [
+   "A short section of chain over a silk roll reads more like a bracelet than a 46 cm necklace; the headline does not lean on length, so it is acceptable.",
+   "Name/price line at 18 px becomes about 7 px at 400 px wide: legible only just."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-chain-silk-story",
+  "score": 8.0,
+  "issues": [
+   "Same as Feed: chain section reads bracelet-like; small name line.",
+   "Copy block bottom at about 1530 px, inside the 1580 px limit."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-chain-worn-feed",
+  "score": 7.0,
+  "issues": [
+   "Text touches the jewellery: the right-aligned cream block ends at x about 1005 and the chain links run down the right edge from x about 1012 (y 80-300); 'dark.' and 'pavé,' sit within about 10 px of the links.",
+   "'After dark.' sits on a sun-lit daylight frame; it works only as a play on the name Nocturne.",
+   "No face parts: the frame starts at the neck."
+  ],
+  "fix": {
+   "at": "bl",
+   "w": 600,
+   "fixed": true,
+   "y": 72,
+   "tone": "cream"
+  }
+ },
+ {
+  "ad": "bold-nocturne-chain-worn-story",
+  "score": 7.5,
+  "issues": [
+   "Name line wraps as 'BOLD NOCTURNE CHAIN ·' / '₹1,799': dangling dot and lone price line.",
+   "Cream copy on mid-brown chest skin reads, but the pore highlights add texture behind the 34 px subline.",
+   "Copy bottom at about 1535 px: inside the safe zone. No chin or face in the top band."
+  ],
+  "fix": {
+   "at": "bl",
+   "w": 600,
+   "fixed": true,
+   "y": 380,
+   "tone": "cream"
+  }
+ },
+ {
+  "ad": "brushed-gold-huggies-play-feed",
+  "score": 7.5,
+  "issues": [
+   "Spec line breaks badly: 'SATIN-BRUSHED · 18K GOLD-TONE · HUGGIE' / 'HOOPS', a lone word on line 2.",
+   "Headline period sits visibly apart from the Y ('LITERALLY .'): a Velista kerning gap.",
+   "The huggies read about 1.3-1.4x true size on the brush and look more like two wide rings than huggies at a glance."
+  ],
+  "fix": {
+   "spec": "satin-brushed · 18k gold-tone"
+  }
+ },
+ {
+  "ad": "brushed-gold-huggies-play-story",
+  "score": 7.0,
+  "issues": [
+   "The soft paper band fogs the wooden base of the brush (y 1330-1450), which looks washed-out and cheap.",
+   "Spec line breaks with 'HOOPS' alone on line 2.",
+   "Same 'LITERALLY .' kerning gap; huggies read about 1.3x large."
+  ],
+  "fix": {
+   "spec": "satin-brushed · 18k gold-tone",
+   "fixed": true
+  }
+ },
+ {
+  "ad": "brushed-gold-huggies-quiet-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean QUIET layout: wordmark top and name/price at the foot on calm linen, clear of the rose.",
+   "Minor: huggies read about 1.2x true size in the rose heart."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-quiet-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: wordmark at about 300 px, name/price at 1430-1515 px, both in the designed bands.",
+   "Minor: huggies about 1.2x true size."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-rhyme-feed",
+  "score": 6.5,
+  "issues": [
+   "The soft paper band at the foot washes out the bottom of the right huggie and a cashew at bottom left (y 1070-1240): the jewellery itself is fogged. Moving the crop down (cy 0.53) clears the foot of the cashew and the huggie, so the band is no longer needed.",
+   "Spec line breaks with 'HOOPS' alone on line 2.",
+   "Copy truth: 'Kaju, but gold.' calls the metal gold; the house rule is gold tone (the subline says gold-tone, the headline does not).",
+   "Huggies read about 1.3x large against the cashews."
+  ],
+  "fix": {
+   "cy": 0.53,
+   "at": "tl",
+   "w": 460,
+   "hs": 80,
+   "cs": 34,
+   "fixed": true,
+   "y": 64,
+   "h": "Kaju, in<br>gold tone.",
+   "c": "brushed gold-tone huggies,<br>not cashews.",
+   "spec": "satin-brushed · 18k gold-tone"
+  }
+ },
+ {
+  "ad": "brushed-gold-huggies-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; huggies and katori sit between 330 and 1450 px.",
+   "Minor: huggies about 1.3x large against the cashews."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-silk-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean: ink copy on the calm beige wall top left, well clear of the silk and huggies; good contrast."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-silk-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 340-560 px on the calm wall; safe zones respected."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-worn-feed",
+  "score": 8.0,
+  "issues": [
+   "The first letters of 'Every' and 'BRU' sit on the taupe wall at the hair edge, where cream type has low contrast; the rest reads well on black hair.",
+   "No face parts; one huggie snug on the lobe, true shape."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-worn-story",
+  "score": 7.5,
+  "issues": [
+   "Cream copy sits across the neck-skin/black-clothing edge at lower right; 'Every day,' and the subline sit on mid-tan skin where contrast depends on the dark glow.",
+   "Safe zone respected (copy ends at about 1560 px). No face parts."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-play-feed",
+  "score": 7.5,
+  "issues": [
+   "Bad line break: 'THE' stands alone on line 1 ('THE' / 'CENTRE.'). At 96 px on one line the period would hit the calliper's thumbscrew, so the placer narrowed the block.",
+   "The calliper frames the ring rather than gripping the 8 mm centre, so 'measured' is implied, not shown.",
+   "Ring construction true (round centre in 4 claws, cushion halo, pavé shoulders, silver tone)."
+  ],
+  "fix": {
+   "at": "tl",
+   "w": 640,
+   "hs": 84,
+   "fixed": true,
+   "y": 60
+  }
+ },
+ {
+  "ad": "cushion-halo-ring-play-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: one-line headline at 300-410 px and subline above the calliper on calm plaster; foot at 1420-1525 px.",
+   "Minor: the calliper frames rather than measures the centre."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-quiet-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean QUIET layout: wordmark top and name/price at the foot on calm blush linen, centred and symmetrical.",
+   "Minor: the ring reads about 1.2-1.3x large against the lychee half."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-quiet-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: wordmark at about 300 px and name/price at 1430-1515 px. The name's right half sits over the lychee's soft shadow but stays legible.",
+   "Minor: ring slightly large against the lychee."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-rhyme-feed",
+  "score": 7.5,
+  "issues": [
+   "Footer crosses a busy edge: the spec letters 'SILV' run over a sabudana grain, and the button and price sit among loose grains and their shadows.",
+   "Large four-point starburst glint on the halo top (filter or AI look).",
+   "Headline and subline sit cleanly top left on calm plaster, about 100 px clear of the bowl and 50 px above the glint; the break 'SPOT THE' / 'ODD ONE.' is acceptable.",
+   "Copy is truthful ('cubic zirconia among the sabudana').",
+   "Fix: the band starts about 95 px below the ring and only softens the loose grains under the foot."
+  ],
+  "fix": {
+   "band": true
+  }
+ },
+ {
+  "ad": "cushion-halo-ring-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; ring, katori and grains between 250 and 1620 px, with nothing important in the UI bands.",
+   "Starburst glint on the halo; the grains read a little like frosted beads."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-silk-feed",
+  "score": 9.0,
+  "issues": [
+   "Clean and premium: cream copy top left on deep midnight satin with strong contrast, about 100 px above the ring; the copy accurately describes the round centre, cushion halo and pavé shoulders."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-silk-story",
+  "score": 9.0,
+  "issues": [
+   "Clean: copy at 300-525 px, ring in the middle band, and dark satin below; safe zones respected."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "cushion-halo-ring-worn-feed",
+  "score": 6.5,
+  "issues": [
+   "Copy contradicts the image: the subline says 'for the right hand', but the photograph shows a LEFT hand (thumb tucked at the upper left, back of the hand up; the manifest confirms a left hand) with the ring on the ring finger, the engagement position. 'Say yes to yourself' plus a left ring finger reads as a proposal, the opposite of the self-purchase idea.",
+   "The 'S' of 'Say' sits within about 10-15 px of the little-finger nail: text almost touching the hand.",
+   "Ring true to size and construction; natural hand, five digits."
+  ],
+  "fix": {
+   "at": "br",
+   "hs": 70,
+   "fixed": true,
+   "y": 60,
+   "c": "A cushion halo, chosen by you."
+  }
+ },
+ {
+  "ad": "cushion-halo-ring-worn-story",
+  "score": 7.0,
+  "issues": [
+   "Same copy-image contradiction: 'for the right hand' over a left hand with the ring on the ring finger.",
+   "Layout is clean: ink copy top left (300-470 px) on calm linen, well clear of the hand."
+  ],
+  "fix": {
+   "c": "A cushion halo, chosen by you."
+  }
+ },
+ {
+  "ad": "halo-curve-ring-play-feed",
+  "score": 7.5,
+  "issues": [
+   "The subline ends about 25-30 px above the tiger's eye bezel: the text crowds the jewellery.",
+   "Weak break 'LIGHT, AND' / 'SHADE.' strands 'and' at the end of line 1.",
+   "Typewriter apostrophe in 'doesn't'; the house serif wants a curly apostrophe.",
+   "Strong, truthful object-play: the crystal throws a sparkling shadow and the tiger's eye a solid one."
+  ],
+  "fix": {
+   "h": "Light,<br>and shade.",
+   "c": "one stone lets the sun through; one doesn’t.",
+   "at": "tl",
+   "hs": 84,
+   "cs": 34,
+   "fixed": true,
+   "y": 48
+  }
+ },
+ {
+  "ad": "halo-curve-ring-play-story",
+  "score": 8.0,
+  "issues": [
+   "Same weak break 'LIGHT, AND' / 'SHADE.' and typewriter apostrophe.",
+   "Layout clean: copy at 300-530 px, about 165 px above the ring; foot inside the safe zone; the spec fits on one line."
+  ],
+  "fix": {
+   "h": "Light,<br>and shade.",
+   "c": "one stone lets the sun through; one doesn’t."
+  }
+ },
+ {
+  "ad": "halo-curve-ring-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "The pale glow behind the name shows as a light smudge on the caramel linen (y 1170-1280), which looks slightly cheap.",
+   "Otherwise clean and true: wordmark top and name/price at the foot, centred; ring at true size against the chikoo; the tiger's eye matches the fruit."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "halo-curve-ring-quiet-story",
+  "score": 6.5,
+  "issues": [
+   "Placement fault: the name and price are set at y 530-610, between the wordmark and the fruit, instead of in the designed foot (about 1430-1520 px). This breaks the QUIET structure (logo above, name below) and stacks two text blocks at the top.",
+   "A visible pale glow rectangle sits behind the name on the linen.",
+   "The image itself is good (true size, strong colour rhyme)."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 400
+  }
+ },
+ {
+  "ad": "halo-curve-ring-rhyme-feed",
+  "score": 6.5,
+  "issues": [
+   "Copy truth: 'GUR, IN GOLD.' claims the ring is gold; the metal must read as gold tone. The spec line does not say gold tone either.",
+   "Bad line break: 'GUR, IN' / 'GOLD.' strands 'in' at the end of line 1.",
+   "The NAIRA wordmark touches the small gur crumb at the lower right (crumb bottom at about y 1180, wordmark top at about y 1165): text on the key prop.",
+   "Image: the jaggery shows silky chatoyant banding like tiger's eye stone, more AI than real gur. It sells the rhyme, but a sharp viewer may doubt the prop."
+  ],
+  "fix": {
+   "h": "Gur, set in<br>gold tone.",
+   "cy": 0.52
+  }
+ },
+ {
+  "ad": "halo-curve-ring-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; ring and katori between 400 and 1400 px, clear of both UI bands; smooth domed tiger's eye true to the listing.",
+   "The gur's tiger-stripe banding looks slightly synthetic."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "halo-curve-ring-silk-feed",
+  "score": 7.5,
+  "issues": [
+   "The name line sits about 35 px above the tiger's eye bezel: the copy block crowds the ring.",
+   "Typewriter apostrophe in \"Tiger's\".",
+   "The tiger's eye is faceted here while the main packshot shows a smooth dome; the listing itself is inconsistent, but this differs from the rhyme frame."
+  ],
+  "fix": {
+   "at": "tl",
+   "fixed": true,
+   "y": 72,
+   "c": "Tiger’s eye and champagne crystal<br>on an open gold-tone band."
+  }
+ },
+ {
+  "ad": "halo-curve-ring-silk-story",
+  "score": 8.0,
+  "issues": [
+   "The name line sits about 50 px above the tiger's eye: acceptable but tight.",
+   "Typewriter apostrophe in \"Tiger's\"; faceted tiger's eye (listing inconsistency)."
+  ],
+  "fix": {
+   "c": "Tiger’s eye and champagne crystal<br>on an open gold-tone band."
+  }
+ },
+ {
+  "ad": "halo-curve-ring-worn-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean: ink copy top left on the ivory shirt with good contrast, well clear of the hand; 'Point taken.' fits the ring on the index finger; natural hand with five digits, stones at true size.",
+   "The subline sets as three ragged short lines ('Tiger's eye and' / 'champagne crystal,' / 'side by side.') and uses a typewriter apostrophe."
+  ],
+  "fix": {
+   "c": "Tiger’s eye and champagne crystal,<br>side by side.",
+   "w": 600
+  }
+ },
+ {
+  "ad": "halo-curve-ring-worn-story",
+  "score": 8.0,
+  "issues": [
+   "Clean: copy at 300-560 px on the ivory shirt, about 300 px above the ring; safe zones respected.",
+   "Same three-line ragged subline and typewriter apostrophe."
+  ],
+  "fix": {
+   "c": "Tiger’s eye and champagne crystal,<br>side by side.",
+   "w": 600
+  }
+ },
+ {
+  "ad": "heartbead-bracelet-play-feed",
+  "score": 6.5,
+  "issues": [
+   "Text touches the jewellery: the spec line 'GOLD-TONE TOGGLE AND' starts about 10-15 px under the tip of the gold heart.",
+   "Bad break: the spec wraps with 'HEART' alone on line 2.",
+   "Beads read about 8 mm against the stethoscope (true 6 mm) and look gunmetal grey rather than mirror-polished silver tone.",
+   "Headline and joke land: the stethoscope chest piece 'listens' to the heart; the copy is truthful (surgical steel)."
+  ],
+  "fix": {
+   "spec": "6 mm steel beads · gold-tone heart"
+  }
+ },
+ {
+  "ad": "heartbead-bracelet-play-story",
+  "score": 7.5,
+  "issues": [
+   "Spec wraps with 'HEART' alone on line 2.",
+   "Layout otherwise clean: headline at 300-420 px on calm plaster, foot about 65 px below the heart.",
+   "Beads read slightly large and gunmetal grey."
+  ],
+  "fix": {
+   "spec": "6 mm steel beads · gold-tone heart"
+  }
+ },
+ {
+  "ad": "heartbead-bracelet-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean QUIET layout: wordmark top and name/price at the foot on calm sage linen.",
+   "The beads read gunmetal grey rather than bright silver tone; the guava half can read as a grapefruit or watermelon at a glance."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "heartbead-bracelet-quiet-story",
+  "score": 4.5,
+  "issues": [
+   "Placement fault: the name and price are set at y 530-615, directly on the top rim of the guava, and '₹1,299' touches the top beads. The text sits on the key prop and the jewellery, instead of in the designed foot (about 1430-1520 px), which is calm linen here.",
+   "Gunmetal-looking beads."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 400
+  }
+ },
+ {
+  "ad": "heartbead-bracelet-rhyme-feed",
+  "score": 4.5,
+  "issues": [
+   "Text over the prop and the jewellery: the subline '...one gold-tone heart.' runs across the tip of the paan leaf and the top beads (x 360-575, y 255-290).",
+   "The soft paper band fogs the bottom of the toggle bar and the gold heart (y 1060-1110): the hero detail is washed out.",
+   "Spec wraps with 'HEART' alone on line 2; the headline break 'PAAN, WITH' / 'HEART.' strands 'with'.",
+   "Ink headline over the reflective brushed-steel thali reads, but the streaks behind it are busy.",
+   "Fix: a one-line headline at 72 px and cy 0.55 put the copy about 60 px above the leaf tip. Fixed placement drops the band, so the foot sits in ink on plain brushed steel, about 120 px under the heart."
+  ],
+  "fix": {
+   "cy": 0.55,
+   "h": "Paan, with heart.",
+   "at": "tl",
+   "w": 760,
+   "hs": 72,
+   "cs": 32,
+   "fixed": true,
+   "y": 48,
+   "spec": "6 mm steel beads · gold-tone heart"
+  }
+ },
+ {
+  "ad": "heartbead-bracelet-rhyme-story",
+  "score": 8.0,
+  "issues": [
+   "Text-free as intended; leaf and bracelet sit between 580 and 1440 px, with the gold heart at the leaf's tip.",
+   "The steel thali fills the frame, giving a cool grey cast off the warm house palette; the beads read gunmetal."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "heartbead-bracelet-silk-feed",
+  "score": 8.0,
+  "issues": [
+   "Cream copy lower left on cocoa satin: strong contrast, about 130 px left of the heart.",
+   "'Mirror-polished beads' oversells the picture: the beads render a soft satin grey with dull highlights.",
+   "'Still the gold note.' is a good callback to the 2.38x winner."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "heartbead-bracelet-silk-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 1250-1465 px on calm cocoa satin, inside the safe zone and clear of the heart.",
+   "Beads read satin grey rather than mirror-polished."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "heartbead-bracelet-worn-feed",
+  "score": 6.0,
+  "issues": [
+   "The soft paper band fogs the hand and fingers into white mist (y 1050-1350): the body part dissolves into a ghost, which looks cheap and unnatural.",
+   "Spec wraps with 'HEART' alone on line 2.",
+   "The subline ends about 40 px above the left beads: tight.",
+   "Headline on the taupe wall reads well; bracelet construction (toggle, heart, steel beads) is true."
+  ],
+  "fix": {
+   "layout": "note",
+   "at": "tl",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18,
+   "h": "Sweet on you.",
+   "c": "The charm bracelet, worn.",
+   "n": "Heartbead Bracelet · ₹1,299",
+   "fixed": true,
+   "y": 72
+  }
+ },
+ {
+  "ad": "heartbead-bracelet-worn-story",
+  "score": 5.5,
+  "issues": [
+   "The paper band covers the whole lower third (1350-1920 px) and fogs the hand and fingers into a white haze: very visible and cheap-looking on a Story.",
+   "Spec wraps with 'HEART' alone on line 2.",
+   "Headline and subline (620-850 px) on the calm wall are fine and clear of the bracelet."
+  ],
+  "fix": {
+   "layout": "note",
+   "at": "tl",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18,
+   "h": "Sweet on you.",
+   "c": "The charm bracelet, worn.",
+   "n": "Heartbead Bracelet · ₹1,299",
+   "fixed": true,
+   "y": 300
+  }
+ },
+ {
+  "ad": "kiss-knot-bangle-play-feed",
+  "score": 7.0,
+  "issues": [
+   "Copy truth: the spec reads 'FLEXIBLE · GOLD OR SILVER'. Without 'tone' it claims precious metal; it must say gold tone or silver tone.",
+   "Layout clean: one-line headline and subline on calm plaster; foot about 65 px under the X; wordmark clear of the bangle.",
+   "'Zari, but solid.' could be read as 'solid gold' by a sceptical viewer; the subline 'a coil you can wear' mostly rescues it."
+  ],
+  "fix": {
+   "spec": "flexible · gold tone or silver tone"
+  }
+ },
+ {
+  "ad": "kiss-knot-bangle-play-story",
+  "score": 4.0,
+  "issues": [
+   "The soft paper band fogs the front of the bangle and the polished X, the hero detail, into white (1380-1550 px).",
+   "The NAIRA wordmark sits on the right side of the bangle (x 838-1015, y 1420-1465): text over the jewellery.",
+   "Same 'GOLD OR SILVER' spec without 'tone'.",
+   "Headline break 'ZARI, BUT' / 'SOLID.' strands 'but'.",
+   "The subject runs from 650 to 1540 px, so the deck foot cannot clear the X in this frame. Run the Story text-free, as the rhyme Stories are."
+  ],
+  "fix": {
+   "layout": "plain"
+  }
+ },
+ {
+  "ad": "kiss-knot-bangle-quiet-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean QUIET layout: wordmark top and name/price at the foot on calm apricot linen, centred.",
+   "The halved apricot with its pit cavity has a mildly anatomical read at a glance; the glow behind the name shows as a faint pale smudge.",
+   "Bangle and X true; the gold reads soft champagne."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-quiet-story",
+  "score": 8.0,
+  "issues": [
+   "Name/price at 1430-1515 px, about 65 px below the X; wordmark at about 300 px. Clean.",
+   "Same faint glow smudge and apricot read."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-rhyme-feed",
+  "score": 7.0,
+  "issues": [
+   "Copy truth: the spec reads 'GOLD OR SILVER' without 'tone'.",
+   "The headline and subline sit over the bright thali rim and its reflections (y 60-260): a busy edge; the subline ends about 140 px left of the first murukku.",
+   "The soft paper band fogs the bottom murukku and the thali (y 1050-1350).",
+   "Strong rhyme: the ribbed tubogas against the murukku ridges; bangle construction true."
+  ],
+  "fix": {
+   "spec": "flexible · gold tone or silver tone"
+  }
+ },
+ {
+  "ad": "kiss-knot-bangle-rhyme-story",
+  "score": 8.5,
+  "issues": [
+   "Text-free as intended; bangle and murukku between 650 and 1560 px. The thali rim runs into the bottom band, but nothing key is there.",
+   "The steel thali gives a cool cast; otherwise clean and true."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-silk-feed",
+  "score": 9.0,
+  "issues": [
+   "Clean and premium: cream copy top left on calm indigo satin with strong contrast, about 95 px above the bangle; the copy is truthful ('silver-tone') and the X and ribbing are crisp."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-silk-story",
+  "score": 9.0,
+  "issues": [
+   "Clean: copy at 300-525 px, bangle in the middle band; safe zones respected."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-worn-feed",
+  "score": 8.0,
+  "issues": [
+   "Ink copy lower left on the calm plaster wall with good contrast; the headline period ends about 50 px from the shirt sleeve.",
+   "The Feed crop clips the tip of the index finger at the top edge.",
+   "The coil reads about 7-8 mm (true 5 mm), slightly heavy; X and ribbing true; natural hand."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-worn-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: right-aligned ink copy at 300-525 px on the calm wall, about 150 px clear of the thumb; safe zones respected.",
+   "Coil slightly heavy against the wrist."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "lilac-papillon-ring-play-feed",
+  "score": 7.5,
+  "issues": [
+   "The subline 'one ring, and its reflection.' ends about 25-30 px above the top-left wing's clear-stone outline: the text crowds the jewellery.",
+   "The soft paper band fogs the lower brass rim of the mirror (y 1080-1150).",
+   "Starburst glint on the upper-right wing (a filter look).",
+   "Concept and construction are strong: two-layer butterfly, lilac pavé and clear outline true; the reflection doubles the butterfly."
+  ],
+  "fix": {
+   "at": "tl",
+   "w": 720,
+   "hs": 80,
+   "cs": 34,
+   "fixed": true,
+   "y": 60
+  }
+ },
+ {
+  "ad": "lilac-papillon-ring-play-story",
+  "score": 7.0,
+  "issues": [
+   "The paper band fogs the bottom of the reflection and the mirror rim (1380-1560 px), and the NAIRA wordmark sits on that fogged rim.",
+   "The subline ends about 25 px above the top wing.",
+   "Starburst glint on the upper-right wing."
+  ],
+  "fix": {
+   "fixed": true,
+   "hs": 84,
+   "cs": 34
+  }
+ },
+ {
+  "ad": "lilac-papillon-ring-quiet-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean QUIET layout: wordmark top and name/price at the foot on calm lilac linen, symmetrical; the butterfly in the rose's heart is construction-true.",
+   "Minor: small starburst glint on the upper-right wing; the name sits about 60 px under the rose's lower petal."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "lilac-papillon-ring-quiet-story",
+  "score": 5.5,
+  "issues": [
+   "Placement fault: the name and price are set at y 530-610, on the rose's top petals, between the wordmark and the ring, instead of in the designed foot (about 1430-1520 px), which is empty calm linen here. Text over the key prop; QUIET structure broken.",
+   "Minor starburst glint."
+  ],
+  "fix": {
+   "fixed": true,
+   "y": 400
+  }
+ },
+ {
+  "ad": "lilac-papillon-ring-rhyme-feed",
+  "score": 7.5,
+  "issues": [
+   "The NAIRA wordmark overlaps the lower petal of the bottom-right butterfly-pea blossom (x 838-960, y 1165-1195): text on the key prop.",
+   "Headline, subline and spec are otherwise clean on calm plaster; the copy is truthful ('lilac pavé wings, not petals'; '18k gold-tone').",
+   "Strong colour and shape rhyme; construction true."
+  ],
+  "fix": {
+   "cy": 0.53
+  }
+ },
+ {
+  "ad": "lilac-papillon-ring-rhyme-story",
+  "score": 9.0,
+  "issues": [
+   "Text-free as intended; ring, blossoms and katori between 450 and 1490 px; calm plaster above. Clean and premium."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "lilac-papillon-ring-silk-feed",
+  "score": 8.0,
+  "issues": [
+   "Clean: ink note bottom right on calm champagne silk with good contrast, about 170 px clear of the ring; the copy is truthful.",
+   "Three four-point starburst glints on the top wings read as a filter effect; a tight macro with no referent makes the 20 mm butterfly look brooch-sized."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "lilac-papillon-ring-silk-story",
+  "score": 8.0,
+  "issues": [
+   "Clean: copy at 1315-1535 px on calm silk, inside the safe zone.",
+   "Same starburst glints and macro scale ambiguity."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "lilac-papillon-ring-worn-feed",
+  "score": 8.5,
+  "issues": [
+   "Clean: ink copy top left on sunlit ivory linen with good contrast, about 100 px clear of the hand; 'Landed.' suits the butterfly on the finger.",
+   "Minor: warm light gives the gold a rosy cast; one starburst glint on the right wing. Natural hand, thumb tucked; true size against the finger."
+  ],
+  "fix": {}
+ },
+ {
+  "ad": "lilac-papillon-ring-worn-story",
+  "score": 8.5,
+  "issues": [
+   "Clean: copy at 300-525 px on calm linen, well above the hand; safe zones respected.",
+   "Same rosy gold cast and single glint."
+  ],
+  "fix": {}
+ }
+]

@@ -23,7 +23,7 @@ def main():
     for d in ("f", "p", "w"): os.makedirs(f"{OUT}/{d}", exist_ok=True)
     for n in ("almost_edible", "E2_ruby_anaar_916", "H08_gold_note", "apricot_quiet", "sweet_on_you_feed", "rangoli_P02"):
         save(f"{SPB}/perf/winners/{n}.jpg", f"{OUT}/w/{n}.jpg", 480, 80)
-    frames = {f["plate"].split("/")[1][:-4]: f for f in json.load(open(f"{HERE}/copy.json"))["frames"]}
+    frames = {f.get("id") or f["plate"].split("/")[-1][:-4]: f for f in json.load(open(f"{HERE}/copy.json"))["frames"]}
     rows = list(csv.DictReader(open(f"{HERE}/meta.csv")))
     plan = {o["stem"]: o for o in json.load(open(f"{HERE}/plan.json"))}
     review = {}
@@ -31,9 +31,11 @@ def main():
         p = f"{HERE}/review_{n}.json"
         if os.path.exists(p):
             for r in json.load(open(p)): review[r["ad"]] = r
-    shots = {}
+    shots, crazy = {}, []
     for g in ("g1", "g2", "g3", "g4"):
         for s in json.load(open(f"{HERE}/shots_{g}.json")): shots[f"{s['key']}-{s['format']}"] = s
+        p = f"{HERE}/shots_crazy_{g}.json"
+        if os.path.exists(p): crazy += json.load(open(p))
     ads = []
     for stem, o in plan.items():
         r = next(x for x in rows if x["ad"] == f"{stem}-feed"); fr = frames[stem]
@@ -51,6 +53,12 @@ def main():
         save(f, f"{OUT}/p/{k}.jpg", 1080, 86)
         plates.append(dict(id=k, key=s["key"], fmt=s["format"], score=s.get("score"), prop=s.get("prop", ""), notes=s.get("notes", ""),
                            flagged=bool(s.get("flagged")) or (s.get("score") or 10) < 8, attempts=s.get("attempts"), t=thumb(f, 240)))
+    for s in crazy:
+        f = f"{PERF}/plates/crazy/{s['id']}.jpg"
+        if not os.path.exists(f): plates.append(dict(id=s["id"], key=s["key"], fmt="crazy", cid=s["id"], score=s.get("score"), empty=True, notes=s.get("notes", ""))); continue
+        save(f, f"{OUT}/p/{s['id']}.jpg", 1080, 86)
+        plates.append(dict(id=s["id"], key=s["key"], fmt="crazy", cid=s["id"], score=s.get("score"), prop=s.get("concept", s.get("prop", "")),
+                           notes=s.get("notes", ""), flagged=(s.get("score") or 10) < 8, t=thumb(f, 240)))
     products = [dict(key=k, name=v[0], price=v[1], stock=C.STOCK[k], cat="Earrings" if k in C.EARRINGS else "Necklaces & rings" if k in C.NECK_RINGS else "Bracelets")
                 for k, v in C.P.items()]
     shutil.copy(f"{HERE}/meta.csv", f"{OUT}/meta.csv")

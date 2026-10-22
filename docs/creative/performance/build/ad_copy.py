@@ -59,11 +59,11 @@ EARRINGS = {"woven-gold-hoops", "brushed-gold-huggies", "baguette-huggies", "bol
 NECK_RINGS = {"toggle-link-chain", "baguette-tennis-necklace", "bold-nocturne-chain", "marquise-layering-set", "cushion-halo-ring",
               "verdant-eternity-band", "halo-curve-ring", "lilac-papillon-ring"}
 # Campaigns: one per overlay family (the thing under test); ad sets by category; five ads live per ad set, the rest wait in waves.
-CAMPAIGN = {"rhyme": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026", "play": "PERF · Play (object wit) · Oct 2026",
+CAMPAIGN = {"crazy": "PERF · Crazy 20 · Oct 2026", "rhyme": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026", "play": "PERF · Play (object wit) · Oct 2026",
             "silk": "PERF · Silk & Worn (gold note) · Oct 2026", "worn": "PERF · Silk & Worn (gold note) · Oct 2026",
             "quiet": "PERF · Quiet · retarget warm · Oct 2026"}
 HOLD = {"pearl-circlet-studs"}   # listing copy says gold tone, every photo shows silver tone: held until the listing is confirmed
-FORMAT_W = {"rhyme": 1.0, "play": .85, "silk": .8, "worn": .8, "quiet": .7}
+FORMAT_W = {"crazy": 1.2, "rhyme": 1.0, "play": .85, "silk": .8, "worn": .8, "quiet": .7}
 
 F = []   # (handle, format, overlay fields, meta fields)
 def rhyme(k, h, c, spec, pt, variant=None, **kw): F.append((k, "rhyme", dict(layout="deck", h=h, c=c, spec=spec, **kw), dict(pt=pt, variant=variant)))
@@ -110,7 +110,7 @@ rhyme("cushion-halo-ring", "Spot the odd one.", "cubic zirconia among the sabuda
       "Spot the odd one. An 8 mm round cubic zirconia in a cushion halo, pavé down the shoulders, in rhodium silver tone. The Cushion Halo Ring, ₹1,199.")
 silk("cushion-halo-ring", "The midnight note.", "A round centre in a cushion halo,<br>pavé down the shoulders.",
      "The midnight note. An 8 mm round cubic zirconia, a cushion halo and pavé shoulders, in rhodium silver tone. The Cushion Halo Ring, ₹1,199.", tone="cream")
-worn("cushion-halo-ring", "Say yes to yourself.", "A cushion halo for the right hand.",
+worn("cushion-halo-ring", "Say yes to yourself.", "A cushion halo,<br>just because.",
      "Say yes to yourself. 💍 An 8 mm round cubic zirconia in a cushion halo, for no occasion at all. The Cushion Halo Ring, ₹1,199.")
 quiet("cushion-halo-ring", "An 8 mm round cubic zirconia in a cushion halo, rhodium silver tone. The Cushion Halo Ring, ₹1,199.")
 play("cushion-halo-ring", "The centre.", "8 mm of cubic zirconia, measured.", "Cushion Halo Ring · cushion halo · silver tone",
@@ -154,25 +154,25 @@ play("marquise-layering-set", "Hangs true.", "two necklaces, layered to the line
      "Hangs true. Two fine necklaces in 18k gold tone, a marquise solitaire and a Y-lariat, layered for you. The Marquise Layering Set, ₹1,599.")
 
 # ---- Silk Mesh Cuff: 19 mm woven mesh tube, polished oval end caps; Gold, Silver
-rhyme("silk-mesh-cuff", "Ghevar, gilded.", "woven gold-tone mesh, not syrup.", "Silk Mesh Cuff · 19 mm mesh · gold or silver",
+rhyme("silk-mesh-cuff", "Ghevar, gilded.", "woven gold-tone mesh, not syrup.", "19 mm mesh · gold or silver tone",
       "Ghevar, gilded. A 19 mm tube of fine woven mesh with mirror-polished end caps. In gold tone or silver tone. The Silk Mesh Cuff, ₹1,499.", "Gold")
 silk("silk-mesh-cuff", "The silver note.", "Woven mesh, soft as cloth,<br>polished at the ends.",
      "The silver note. Fine woven steel mesh that moves like cloth, closed by two polished caps. The Silk Mesh Cuff, ₹1,499.", "Silver", tone="cream")
 worn("silk-mesh-cuff", "Soft, but solid.", "Woven mesh that bends<br>like fabric on the wrist.",
      "Soft, but solid. Woven 18k gold-tone mesh that bends like fabric, open at the side to slip on. The Silk Mesh Cuff, ₹1,499.", "Gold")
 quiet("silk-mesh-cuff", "Fine woven mesh in silver tone, polished oval end caps. Also in gold tone. The Silk Mesh Cuff, ₹1,499.", "Silver")
-play("silk-mesh-cuff", "Strained, in a good way.", "the same weave as your chai strainer.", "Silk Mesh Cuff · 19 mm mesh · gold or silver",
+play("silk-mesh-cuff", "Strained, in a good way.", "the same weave as your chai strainer.", "19 mm mesh · gold or silver tone",
      "Strained, in a good way. ☕ The same fine weave as your chai strainer, rolled into a cuff. In silver tone or gold tone. The Silk Mesh Cuff, ₹1,499.", "Silver")
 
 # ---- Kiss Knot Bangle: flexible ribbed tubogas, ends crossed in one polished X; Gold, Silver
-rhyme("kiss-knot-bangle", "Murukku, minus the oil.", "a ribbed gold-tone coil, crossed in an X.", "Kiss Knot Bangle · flexible · gold or silver",
+rhyme("kiss-knot-bangle", "Murukku, minus the oil.", "a ribbed gold-tone coil, crossed in an X.", "flexible · gold or silver tone",
       "Murukku, minus the oil. A flexible ribbed bangle whose ends cross in one polished X. The Kiss Knot Bangle, ₹1,199.", "Gold")
 silk("kiss-knot-bangle", "Sealed with an X.", "Ribbed silver-tone coil,<br>crossed like a kiss.",
      "Sealed with an X. 💋 A flexible ribbed bangle in silver tone, its ends crossed in one polished X. The Kiss Knot Bangle, ₹1,199.", "Silver", tone="cream")
 worn("kiss-knot-bangle", "X marks the wrist.", "A flexible coil<br>that gives as you move.",
      "X marks the wrist. A flexible ribbed coil that gives as you move, crossed at the front. The Kiss Knot Bangle, ₹1,199.", "Silver")
 quiet("kiss-knot-bangle", "A flexible ribbed coil in 18k gold tone, crossed in one polished X. Also in silver tone. The Kiss Knot Bangle, ₹1,199.", "Gold")
-play("kiss-knot-bangle", "Zari, but solid.", "a coil you can wear.", "Kiss Knot Bangle · flexible · gold or silver",
+play("kiss-knot-bangle", "Zari, but solid.", "a coil you can wear.", "flexible · gold or silver tone",
      "Zari, but solid. A flexible ribbed coil in 18k gold tone, its ends crossed in one polished X. The Kiss Knot Bangle, ₹1,199.", "Gold")
 
 # ---- Molten Panel Bracelet: 17 cm flat band of small oval plates in 5 staggered rows, box clasp
@@ -235,25 +235,25 @@ play("woven-gold-hoops", "Plait, perfected.", "a 25 mm hoop, braided like a plai
      "Plait, perfected. Braided like a plait, then closed into a 25 mm hoop. 18k gold tone. The Woven Gold Hoops, ₹1,299.")
 
 # ---- Heartbead Bracelet: 6 mm mirror-polished steel beads, a gold-tone toggle and one puffed gold-tone heart
-rhyme("heartbead-bracelet", "Paan, with heart.", "6 mm steel beads, one gold-tone heart.", "6 mm steel beads · gold-tone toggle and heart",
+rhyme("heartbead-bracelet", "Paan, with heart.", "6 mm steel beads, one gold-tone heart.", "6 mm steel · gold-tone heart",
       "Paan, with heart. 💚 6 mm mirror-polished steel beads, a gold-tone toggle and one puffed gold-tone heart. The Heartbead Bracelet, ₹1,299.")
 silk("heartbead-bracelet", "Still the gold note.", "Mirror-polished beads,<br>a gold-tone toggle and heart.",
      "Still the gold note. Mirror-polished 6 mm steel beads with a gold-tone toggle and a puffed heart. The Heartbead Bracelet, ₹1,299.", tone="cream")
-F.append(("heartbead-bracelet", "worn", dict(layout="deck", h="Sweet on you.", c="the charm bracelet, worn.", spec="6 mm steel beads · gold-tone toggle and heart", at="tc", w=900),
+F.append(("heartbead-bracelet", "worn", dict(layout="deck", h="Sweet on you.", c="the charm bracelet, worn.", spec="6 mm steel · gold-tone heart", at="tc", w=900),
           dict(pt="Sweet on you. ❤️ The charm bracelet: 6 mm mirror-polished steel beads, a gold-tone toggle and one puffed heart. The Heartbead Bracelet, ₹1,299.")))
 quiet("heartbead-bracelet", "Mirror-polished steel beads, a gold-tone toggle and heart. The Heartbead Bracelet, ₹1,299.")
-play("heartbead-bracelet", "Listen closely.", "surgical steel, both of them.", "6 mm steel beads · gold-tone toggle and heart",
+play("heartbead-bracelet", "Listen closely.", "surgical steel, both of them.", "6 mm steel · gold-tone heart",
      "Listen closely. 🩺 Mirror-polished surgical steel beads, a gold-tone toggle and one puffed heart. The Heartbead Bracelet, ₹1,299.")
 
 # ---- Brushed Gold Huggies: small satin-brushed gold-tone huggies
-rhyme("brushed-gold-huggies", "Kaju, but gold.", "brushed gold-tone huggies, not cashews.", "satin-brushed · 18k gold-tone · huggie hoops",
-      "Kaju, but gold. Small huggie hoops with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.")
+rhyme("brushed-gold-huggies", "Kaju, in gold tone.", "brushed huggies, not cashews.", "satin-brushed · 18k gold-tone",
+      "Kaju, in gold tone. Small huggie hoops with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.")
 silk("brushed-gold-huggies", "The satin note.", "Brushed, not mirrored,<br>so they never shout.",
      "The satin note. Brushed, not mirror-polished, so the gold glows instead of flashing. The Brushed Gold Huggies, ₹999.")
 worn("brushed-gold-huggies", "Every day, every ear.", "Brushed gold-tone huggies<br>that sit snug at the lobe.",
      "Every day, every ear. Satin-brushed 18k gold-tone huggies that sit snug at the lobe. The Brushed Gold Huggies, ₹999.")
 quiet("brushed-gold-huggies", "Satin-brushed 18k gold-tone huggies. The Brushed Gold Huggies, ₹999.")
-play("brushed-gold-huggies", "Brushed, literally.", "a satin finish, not a mirror.", "satin-brushed · 18k gold-tone · huggie hoops",
+play("brushed-gold-huggies", "Brushed, literally.", "a satin finish, not a mirror.", "satin-brushed · 18k gold-tone",
      "Brushed, literally. A satin-brushed finish on small 18k gold-tone huggies. The Brushed Gold Huggies, ₹999.")
 
 # ---- Ribbon Bead Bracelet: a fine gold-tone chain with a small crystal bow
@@ -279,8 +279,8 @@ play("riviere-eternal-bracelet", "Game, set, match.", "a tennis bracelet that wr
      "Game, set, match. 🎾 One fine line of clear cubic zirconia, flexible enough to wrap a ball. The Rivière Eternal Bracelet, ₹1,449.")
 
 # ---- Halo Curve Ring: open gold-tone bypass ring ending in a tiger's eye and a champagne crystal
-rhyme("halo-curve-ring", "Gur, in gold.", "tiger's eye, not jaggery.", "tiger's eye · champagne crystal · open band",
-      "Gur, in gold. A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.")
+rhyme("halo-curve-ring", "Gur, set.", "tiger's eye, not jaggery.", "tiger's eye · champagne crystal · open band",
+      "Gur, set. A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.")
 silk("halo-curve-ring", "Two stones, one curve.", "Tiger's eye and champagne crystal<br>on an open gold-tone band.",
      "Two stones, one curve. Tiger's eye and champagne crystal on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.")
 worn("halo-curve-ring", "Point taken.", "Tiger's eye and champagne crystal,<br>side by side.",
@@ -307,7 +307,7 @@ silk("bold-dome-huggies", "The dome note.", "16 mm of polished gold tone,<br>ful
      "The dome note. 16 mm huggies, full at the front and slim at the hinge, in polished 18k gold tone. The Bold Dome Huggies, ₹999.")
 worn("bold-dome-huggies", "Small, but loud.", "Chunky 16 mm huggies<br>in polished gold tone.",
      "Small, but loud. Chunky 16 mm dome huggies in mirror-polished 18k gold tone. The Bold Dome Huggies, ₹999.")
-quiet("bold-dome-huggies", "Chunky 16 mm dome huggies in polished 18k gold tone. The Bold Dome Huggies, ₹999.")
+quiet("bold-dome-huggies", "Chunky 16 mm dome huggies in polished 18k gold tone. The Bold Dome Huggies, ₹999.", drop=True)
 play("bold-dome-huggies", "Snap.", "a hinged huggie, closed round a pencil.", "16 mm · hinged · 18k gold-tone",
      "Snap. ✏️ A 16 mm hinged dome huggie in polished 18k gold tone. The Bold Dome Huggies, ₹999.")
 
@@ -377,6 +377,50 @@ quiet("aqua-heart-drops-silver", "Clear brilliants and an icy aqua heart, rhodiu
 play("aqua-heart-drops-silver", "The exact blue.", "an aqua heart, matched to the pigment.", "aqua heart · clear brilliants · silver tone",
      "The exact blue. An icy aqua heart below a curve of clear brilliants. The Aqua Heart Drops, ₹1,499.")
 
+# ---- The crazy 20 (CRAZY.md): theatrical visual jokes; the deck overlay on both Feed and Story, headline larger
+CR = [  # id, handle, headline, correction, spec, primary text opener, variant
+ ("C01", "toggle-link-chain", "Pull for compliments.", "a toggle clasp, not the alarm chain.", "50 cm · paperclip links · toggle clasp",
+  "Pull for compliments. 🚆 50 cm of 18k gold-tone paperclip links that close with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.", None),
+ ("C02", "prism-riviere-bracelet", "Never melts.", "aqua, pink and yellow cubic zirconia, not syrup.", "18 cm · pavé halos · silver tone",
+  "Never melts. 🍧 Aqua, pink and yellow cubic zirconia, each in a pavé halo, on an 18 cm line. The Prism Rivière Bracelet, ₹2,399.", None),
+ ("C03", "prism-riviere-bracelet", "Have your cake. Wear it too.", "pastel cubic zirconia, not sprinkles.", "18 cm · pavé halos · silver tone",
+  "Have your cake. Wear it too. 🎂 Aqua, pink and yellow cubic zirconia in pavé halos. The Prism Rivière Bracelet, ₹2,399.", None),
+ ("C04", "woven-gold-hoops", "Hoopla.", "25 mm braided hoops. every throw a winner.", "25 mm · braided · 18k gold-tone",
+  "Hoopla. 🎡 25 mm hoops of braided gold-tone rope, no stones, all texture. The Woven Gold Hoops, ₹1,299.", None),
+ ("C05", "heartbead-bracelet", "Surgical steel. Zero surgery.", "6 mm steel beads and a gold-tone heart.", "6 mm steel beads · toggle · heart charm",
+  "Surgical steel. Zero surgery. 🩺 Mirror-polished 6 mm surgical steel beads, a gold-tone toggle and one puffed heart. The Heartbead Bracelet, ₹1,299.", None),
+ ("C06", "baguette-tennis-bracelet", "The other baguette.", "clear cubic zirconia, not crust.", "17 cm · baguette-cut CZ · 18k gold-tone",
+  "The other baguette. 🥖 Clear baguette-cut cubic zirconia, edge to edge in 18k gold-tone claws. The Baguette Tennis Bracelet, ₹1,699.", "Crystal"),
+ ("C07", "baguette-tennis-necklace", "Keep it on ice.", "clear baguettes, cold to the eye.", "36 cm · baguette-cut CZ · 18k gold-tone",
+  "Keep it on ice. 🧊 One line of clear baguette cubic zirconia on a 36 cm choker, 18k gold tone. The Baguette Tennis Necklace, ₹2,300.", "Crystal"),
+ ("C08", "cushion-halo-ring", "Sweet proposal.", "an 8 mm centre, on a gulab jamun.", "8 mm centre · cushion halo · silver tone",
+  "Sweet proposal. 💍 An 8 mm round cubic zirconia in a cushion halo, rhodium silver tone. Say yes to yourself. The Cushion Halo Ring, ₹1,199.", None),
+ ("C09", "verdant-eternity-band", "Nazar na lage.", "emerald-green, against the evil eye.", "adjustable · emerald-green CZ · silver tone",
+  "Nazar na lage. 🍋🌶️ Emerald-green ovals along a wave of pavé, open at the back to fit. The Verdant Eternity Band, ₹1,099.", None),
+ ("C10", "bold-nocturne-chain", "Out after midnight.", "chunky gold-tone links, one in pavé.", "46 cm · one pavé link · 18k gold-tone",
+  "Out after midnight. 🛵 Chunky 18k gold-tone links, one set all over in pavé. The Bold Nocturne Chain, ₹1,799.", None),
+ ("C11", "bold-nocturne-bracelet", "Heavy lifting, done.", "chunky gold-tone links, one in pavé.", "20 cm · one pavé link · 18k gold-tone",
+  "Heavy lifting, done. 🏋️ Chunky 18k gold-tone links on a 20 cm bracelet, one link set in pavé. The Bold Nocturne Bracelet, ₹1,599.", None),
+ ("C12", "kiss-knot-bangle", "X marks the spot.", "a ribbed coil, crossed in one polished X.", "flexible · gold or silver tone",
+  "X marks the spot. 🗺️ A flexible ribbed bangle whose ends cross in one polished X. In gold tone or silver tone. The Kiss Knot Bangle, ₹1,199.", "Gold"),
+ ("C13", "lilac-papillon-ring", "Spot the real one.", "lilac pavé wings in 18k gold tone.", "lilac pavé · 18k gold-tone · butterfly",
+  "Spot the real one. 🦋 A gold-tone butterfly ring with lilac pavé wings. The Lilac Papillon Ring, ₹1,299.", None),
+ ("C14", "riviere-eternal-bracelet", "Tennis bracelet. Cricket nation.", "one fine line of clear cubic zirconia.", "one line of clear stones · polished buckle",
+  "Tennis bracelet. Cricket nation. 🏏 One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.", None),
+ ("C15", "quatrefoil-eclat-studs", "Star of the dabba.", "four-point stars, not chakri phool.", "15 mm · four-point star · 18k gold-tone",
+  "Star of the dabba. ⭐ A 15 mm four-point star in clear cubic zirconia: pavé outline, four pear stones, a round centre. The Quatrefoil Éclat Studs, ₹1,299.", None),
+ ("C16", "silk-mesh-cuff", "On air.", "woven mesh, rolled into a cuff.", "19 mm mesh · gold or silver tone",
+  "On air. 🎙️ Fine woven mesh rolled into a cuff, with mirror-polished end caps. In silver tone or gold tone. The Silk Mesh Cuff, ₹1,499.", "Silver"),
+ ("C17", "torsade-pearl-cuff", "Docked in gold.", "twisted cable, a white shell pearl at each end.", "shell pearls · 18k gold-tone",
+  "Docked in gold. ⚓ A twisted 18k gold-tone cable cuff, a white shell pearl at each end in a pavé collar. The Torsade Pearl Cuff, ₹1,399.", None),
+ ("C18", "halo-curve-ring", "Eye of the tiger.", "a tiger's eye and a champagne crystal.", "tiger's eye · champagne crystal · open band",
+  "Eye of the tiger. 🐯 A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.", None),
+ ("C19", "brushed-gold-huggies", "Brush twice daily.", "satin-brushed gold-tone huggies.", "satin-brushed · 18k gold-tone · huggie hoops",
+  "Brush twice daily. 🪥 Small huggies with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.", None),
+ ("C20", "baguette-huggies", "Cherry earrings, grown up.", "ruby baguettes on a 15 mm huggie.", "15 mm · hinged · 18k gold-tone",
+  "Cherry earrings, grown up. 🍒 Ruby-red baguette cubic zirconia across a 15 mm hinged huggie, 18k gold tone. The Baguette Huggies, ₹1,199.", "Ruby"),
+]
+
 def shots():
     """copy space and the jewellery's vertical extent per plate, from the shoot manifests"""
     out = {}
@@ -397,24 +441,24 @@ def plan(rows):
     for r in rows: pairs.setdefault(r["ad"].rsplit("-", 1)[0], r)
     out = []
     for stem, r in pairs.items():
-        k, fmt = stem.rsplit("-", 1)
+        k, fmt = stem.rsplit("-", 1); fmt = re.sub(r"\d+$", "", fmt)          # crazy01 -> crazy
         cat = "Earrings" if k in EARRINGS else "Necklaces & rings" if k in NECK_RINGS else "Bracelets"
         aset = "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d" if fmt == "quiet" else cat
         pri = STOCK[k] / 80 * .6 + FORMAT_W[fmt] * .4 - (1 if r["reserve"] else 0)
         out.append(dict(stem=stem, key=k, format=fmt, campaign=CAMPAIGN[fmt], adset=aset, priority=round(pri, 3), reserve=bool(r["reserve"])))
     for (c, a) in {(o["campaign"], o["adset"]) for o in out}:
         grp = sorted([o for o in out if o["campaign"] == c and o["adset"] == a], key=lambda o: -o["priority"])
-        size = 8 if "Quiet" in c else 5
+        size = 8 if "Quiet" in c else 7 if "Crazy" in c else 5
         for i, o in enumerate(grp): o["wave"] = i // size + 1
     return sorted(out, key=lambda o: (o["campaign"], o["adset"], o["wave"], -o["priority"]))
 
 def review_fixes():
     out = {}
-    for n in ("a", "b"):
+    for n in ("a_r1", "b_r1", "a", "b"):          # round one's fixes stand unless round two gives a new one
         p = f"{HERE}/review_{n}.json"
         if os.path.exists(p):
             for r in json.load(open(p)):
-                if r.get("fix"): out[r["ad"]] = {k: v for k, v in r["fix"].items() if k != "band"}
+                if r.get("fix"): out[r["ad"]] = {**out.get(r["ad"], {}), **{k: v for k, v in r["fix"].items() if k != "band"}}
     return out
 
 def glue_h(h):
@@ -427,6 +471,7 @@ def build():
     for k, fmt, ov, meta in F:
         name, price, noun = P[k]; plate = f"plates/{k}-{fmt}.jpg"
         if not os.path.exists(os.path.join(HERE, "..", plate)): continue
+        if ov.get("drop"): continue
         e = dict(plate=plate, **{x: y for x, y in ov.items() if x != "reserve"})
         if e.get("h"): e["h"] = glue_h(e["h"])
         stem = f"{k}-{fmt}"; fx = {t: FX.get(f"{stem}-{t}", {}) for t in ("feed", "story")}
@@ -451,6 +496,30 @@ def build():
                              reserve="yes" if ov.get("reserve") or k in HOLD else "", primary_text=f"{meta['pt']}\n\n{OFFER}",
                              headline=f"{name} · {price}", cta="SHOP_NOW", url=url(k, fmt, meta.get("variant"))))
     json.dump({"frames": frames}, open(f"{HERE}/copy.json", "w"), ensure_ascii=False, indent=1)
+    CS = {}
+    for g in ("g1", "g2", "g3", "g4"):
+        p = f"{HERE}/shots_crazy_{g}.json"
+        if os.path.exists(p):
+            for x in json.load(open(p)): CS[x.get("id")] = x
+    for cid, k, h, c, spec, pt, variant in CR:
+        plate = f"plates/crazy/{cid}.jpg"
+        if not os.path.exists(os.path.join(HERE, "..", plate)): continue
+        name, price, noun = P[k]; stem = f"{k}-crazy{cid[1:]}"; s_ = CS.get(cid, {})
+        e = dict(id=stem, plate=plate, layout="deck", story="deck", h=glue_h(h), c=c, spec=spec, cta=f"Shop the {noun}", price=price,
+                 at=s_.get("copy_space") if s_.get("copy_space") in ("tl", "tr", "bl", "br") else "tl", w=680, hs=108, cs=40)
+        if s_.get("subject_y"): e["sy"] = s_["subject_y"]; e["cy"] = round(min(max(sum(s_["subject_y"]) / 2, .36), .64), 3)
+        if s_.get("tone") == "dark": e["tone"] = "cream"
+        fx = {t: FX.get(f"{stem}-{t}", {}) for t in ("feed", "story")}
+        if fx["feed"].get("drop"): continue
+        for t in ("feed", "story"):
+            f = {x: y for x, y in fx[t].items() if x != "drop"}
+            if fx[t].get("drop"): f = {"layout": "plain"}
+            if f: e[t] = f
+        frames.append(e)
+        for tag in ("feed", "story"):
+            rows.append(dict(ad=f"{stem}-{tag}", product=name, format="crazy", placement=tag, variant=variant or "",
+                             reserve="yes" if (s_.get("score") or 10) < 8 else "", primary_text=f"{pt}\n\n{OFFER}",
+                             headline=f"{name} · {price}", cta="SHOP_NOW", url=url(k, "crazy", variant)))
     P_ = plan(rows); W = {o["stem"]: o for o in P_}
     for r in rows:
         o = W[r["ad"].rsplit("-", 1)[0]]; r.update(campaign=o["campaign"], adset=o["adset"], wave=o["wave"])
