@@ -69,7 +69,7 @@ def main():
     data = dict(products=products, ads=ads, plates=plates)
     html = open(f"{HERE}/board_template.html").read().replace("/*DATA*/null", json.dumps(data, ensure_ascii=False))
     cz = [a for a in ads if a["fmt"] == "crazy"]
-    for k, v in dict(CZN=len(cz), CZLIVE=sum(1 for a in cz if not a["reserve"]), CZRES=sum(1 for a in cz if a["reserve"]), PAIRS=len(ads),
+    for k, v in dict(CZN=len(cz), CZLIVE=sum(1 for a in cz if not a["reserve"]), CZRES=sum(1 for a in cz if a["reserve"]), CZW1=sum(1 for a in cz if a["wave"] == 1 and not a["reserve"]), CZLATER=sum(1 for a in cz if a["wave"] > 1 and not a["reserve"]), PAIRS=len(ads),
                      ADS=2 * len(ads), PLATES=sum(1 for p in plates if not p.get("empty"))).items():
         html = html.replace("{{%s}}" % k, str(v))
     open(f"{OUT}/index.html", "w").write(html)

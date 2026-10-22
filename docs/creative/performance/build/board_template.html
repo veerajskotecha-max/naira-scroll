@@ -113,7 +113,7 @@ section[hidden]{display:none}
     <div><b>{{PLATES}}</b><span>verified photographs</span></div>
     <div><b>{{ADS}}</b><span>finished ads · {{PAIRS}} Feed 4:5 + {{PAIRS}} Story 9:16</span></div>
     <div><b>5</b><span>new campaigns</span></div>
-    <div><b>₹4,000</b><span>a day for the new campaigns</span></div>
+    <div><b>₹4,500</b><span>a day for the new campaigns</span></div>
   </div>
 
   <h2>The crazy {{CZN}}</h2>
@@ -138,7 +138,7 @@ section[hidden]{display:none}
   <div class="tbl"><table>
     <thead><tr><th>Campaign</th><th>Daily budget</th><th>Ad sets</th><th>Live ads</th><th>Audience</th></tr></thead>
     <tbody>
-      <tr><td><b>PERF · Crazy 20 · Oct 2026</b></td><td class="num">₹1,500</td><td>Bracelets · Earrings · Necklaces &amp; rings (₹300 minimum each)</td><td class="num">{{CZLIVE}} at launch, {{CZRES}} reserves</td><td>Cold: the one-winner audience</td></tr>
+      <tr><td><b>PERF · Crazy · Oct 2026</b></td><td class="num">₹2,000</td><td>Bracelets · Earrings · Necklaces &amp; rings (₹400 minimum each)</td><td class="num">{{CZW1}} at launch (up to 8 per ad set), {{CZLATER}} in later waves, {{CZRES}} reserves</td><td>Cold: the one-winner audience</td></tr>
       <tr><td><b>PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026</b></td><td class="num">₹1,000</td><td>Same three (₹200 minimum each)</td><td class="num">5 per ad set</td><td>Cold: the one-winner audience</td></tr>
       <tr><td><b>PERF · Play (object wit) · Oct 2026</b></td><td class="num">₹500</td><td>Same three (₹100 minimum each)</td><td class="num">5 per ad set</td><td>Cold: the one-winner audience</td></tr>
       <tr><td><b>PERF · Silk &amp; Worn (gold note) · Oct 2026</b></td><td class="num">₹500</td><td>Same three (₹100 minimum each)</td><td class="num">5 per ad set</td><td>Cold: the one-winner audience</td></tr>
@@ -160,7 +160,7 @@ section[hidden]{display:none}
   <div class="tbl"><table>
     <thead><tr><th>When</th><th>What to do</th></tr></thead>
     <tbody>
-      <tr><td class="num">Day 0</td><td>Launch the five PERF campaigns: the {{CZLIVE}} live crazy ads plus Wave 1 of the formats (45 cold, 8 warm). Pause the campaigns listed under "The current account". Keep the E2 fruit plates and the E2 catalogue running.</td></tr>
+      <tr><td class="num">Day 0</td><td>Launch the five PERF campaigns: Wave 1 of the crazy ads ({{CZW1}}) plus Wave 1 of the formats (45 cold, 8 warm). Pause the campaigns listed under "The current account". Keep the E2 fruit plates and the E2 catalogue running.</td></tr>
       <tr><td class="num">Day 3</td><td>First read. Apply the rules below to every ad with 1,000+ impressions or ₹600+ spend. Replace each ad you turn off with the next ad of the same ad set from Wave 2.</td></tr>
       <tr><td class="num">Day 4</td><td>Create PERF · Winners · CBO and move in every ad that has graduated, using "use existing post" so likes and comments carry over.</td></tr>
       <tr><td class="num">Day 6</td><td>Second read; same rules; refill from Wave 2, then Wave 3.</td></tr>
@@ -191,7 +191,7 @@ section[hidden]{display:none}
       <tr><td>Crazy concepts · 16 statics</td><td class="num">Feed 1.81× (3 sales); Stories no sale on ₹1,474</td><td>Pause. Move "The gold note." into PERF · Winners.</td></tr>
       <tr><td>one winner – Copy</td><td class="num">0.61× (1 sale on ₹3,921)</td><td>Pause.</td></tr>
     </tbody></table></div>
-  <p>Total after the change: about ₹6,400 a day (₹4,000 new, ₹2,400 kept), plus PERF · Winners once ads graduate.</p>
+  <p>Total after the change: about ₹6,900 a day (₹4,500 new, ₹2,400 kept), plus PERF · Winners once ads graduate.</p>
 
   <h2>Uploading in Ads Manager</h2>
   <ol class="steps">
@@ -314,7 +314,7 @@ $("#libGroups").addEventListener("click",e=>{const id=e.target.dataset.plate;if(
 
 function checks(){
   const cz=D.plates.filter(x=>x.fmt==="crazy").sort((a,b)=>a.id.localeCompare(b.id));
-  const crazyRow=cz.length?`<h3>The crazy 20</h3><div class="lib">${cz.map(x=>x.empty?`<figure><div class="cell"><div class="empty">${esc(x.id)}: left empty. ${esc((x.notes||"").slice(0,120))}</div></div></figure>`:`<figure style="position:relative"><img src="${x.t}" alt="${esc(x.id)}" loading="lazy" data-plate="${x.id}"><span class="pill sc ${x.flagged?"fl":"ok"}" style="position:absolute;left:6px;top:6px">${x.score??""}</span><figcaption><span>${esc(x.id)}</span><span>${esc(prod[x.key].name).slice(0,22)}</span></figcaption></figure>`).join("")}</div><h3>Five formats per product</h3>`:"";
+  const crazyRow=cz.length?`<h3>The crazy set</h3><div class="lib">${cz.map(x=>x.empty?`<figure><div class="cell"><div class="empty">${esc(x.id)}: left empty. ${esc((x.notes||"").slice(0,120))}</div></div></figure>`:`<figure style="position:relative"><img src="${x.t}" alt="${esc(x.id)}" loading="lazy" data-plate="${x.id}"><span class="pill sc ${x.flagged?"fl":"ok"}" style="position:absolute;left:6px;top:6px">${x.score??""}</span><figcaption><span>${esc(x.id)}</span><span>${esc(prod[x.key].name).slice(0,22)}</span></figcaption></figure>`).join("")}</div><h3>Five formats per product</h3>`:"";
   $("#checkRows").innerHTML=crazyRow+D.products.map(p=>`<div class="rowc"><div class="nm"><b>${esc(p.name)}</b><span>${esc(p.price)} · ${p.stock} in stock · ${esc(p.cat)}</span></div>${FMTS.map(f=>{const x=D.plates.find(y=>y.key===p.key&&y.fmt===f);
     if(!x||x.empty) return `<div class="cell"><div class="empty">${f}: left empty. ${esc((x&&x.notes||"").slice(0,140))}</div></div>`;
     return `<div class="cell"><img src="${x.t}" alt="${esc(p.name)}, ${f}" loading="lazy" data-plate="${x.id}"><span class="pill sc ${x.flagged?"fl":"ok"}">${x.score??""}</span><div class="lab">${f}</div></div>`;}).join("")}</div>`).join("");

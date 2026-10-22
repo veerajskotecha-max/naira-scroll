@@ -59,7 +59,7 @@ EARRINGS = {"woven-gold-hoops", "brushed-gold-huggies", "baguette-huggies", "bol
 NECK_RINGS = {"toggle-link-chain", "baguette-tennis-necklace", "bold-nocturne-chain", "marquise-layering-set", "cushion-halo-ring",
               "verdant-eternity-band", "halo-curve-ring", "lilac-papillon-ring"}
 # Campaigns: one per overlay family (the thing under test); ad sets by category; five ads live per ad set, the rest wait in waves.
-CAMPAIGN = {"crazy": "PERF · Crazy 20 · Oct 2026", "rhyme": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026", "play": "PERF · Play (object wit) · Oct 2026",
+CAMPAIGN = {"crazy": "PERF · Crazy · Oct 2026", "rhyme": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026", "play": "PERF · Play (object wit) · Oct 2026",
             "silk": "PERF · Silk & Worn (gold note) · Oct 2026", "worn": "PERF · Silk & Worn (gold note) · Oct 2026",
             "quiet": "PERF · Quiet · retarget warm · Oct 2026"}
 HOLD = {"pearl-circlet-studs"}   # listing copy says gold tone, every photo shows silver tone: held until the listing is confirmed
