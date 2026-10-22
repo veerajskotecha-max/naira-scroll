@@ -447,6 +447,63 @@ CZ_FIX = {
  "C20": {"h": "Cherry earrings,<br>grown up.", "w": 900, "story": {"at": "tl", "fixed": True, "y": 300, "hs": 96}},
 }
 
+# ---- Crazy round two (CRAZY.md): six retired as too weird, 26 new; the retired ones are not built
+RETIRED = {"C01", "C05", "C08", "C09", "C18", "C19"}
+CR += [
+ ("C23", "toggle-link-chain", "Promoted.", "paperclip links in 18k gold tone, not stationery.", "50 cm · paperclip links · toggle clasp",
+  "Promoted. 📎 50 cm of 18k gold-tone paperclip links that close with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.", None),
+ ("C24", "heartbead-bracelet", "Packed with love.", "polished steel beads and a gold-tone heart.", "6 mm steel beads · toggle · heart charm",
+  "Packed with love. 🍱 Mirror-polished 6 mm steel beads, a gold-tone toggle and one puffed heart. The Heartbead Bracelet, ₹1,299.", None),
+ ("C25", "cushion-halo-ring", "Shagun, upgraded.", "an 8 mm centre in a cushion halo.", "8 mm centre · cushion halo · silver tone",
+  "Shagun, upgraded. 🧧 Keep the ₹1 coin for luck; give the ring. An 8 mm round cubic zirconia in a cushion halo, rhodium silver tone. The Cushion Halo Ring, ₹1,199.", None),
+ ("C26", "verdant-eternity-band", "Caught green-handed.", "emerald-green, and Mitthu has taste.", "adjustable · emerald-green CZ · silver tone",
+  "Caught green-handed. 🦜 Emerald-green ovals along a wave of pavé, open at the back to fit. Even Mitthu wants one. The Verdant Eternity Band, ₹1,099.", None),
+ ("C27", "halo-curve-ring", "Cutting chai.<br>Cut stones.", "a tiger's eye and a champagne crystal.", "tiger's eye · champagne crystal · open band",
+  "Cutting chai. Cut stones. ☕ A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.", None),
+ ("C28", "brushed-gold-huggies", "Dhanteras, sorted.", "satin-brushed huggies in 18k gold tone.", "satin-brushed · 18k gold-tone · huggies",
+  "Dhanteras, sorted. 🪔 Small huggies with a satin-brushed finish in 18k gold tone: the Dhanteras buy you will wear every day. The Brushed Gold Huggies, ₹999.", None),
+ ("C29", "baguette-tennis-necklace", "Perfect pitch.", "clear baguettes, in tune with the keys.", "36 cm · baguette-cut CZ · 18k gold-tone",
+  "Perfect pitch. 🎹 One line of clear baguette cubic zirconia on a 36 cm choker, 18k gold tone. The Baguette Tennis Necklace, ₹2,300.", "Crystal"),
+ ("C30", "prism-riviere-bracelet", "Pick all three.", "aqua, pink and yellow cubic zirconia, not macarons.", "18 cm · pavé halos · silver tone",
+  "Pick all three. 💗 Aqua, pink and yellow cubic zirconia, each in a pavé halo, on an 18 cm line. No choosing needed. The Prism Rivière Bracelet, ₹2,399.", None),
+ ("C31", "baguette-tennis-bracelet", "The phuljhadi<br>that lasts.", "clear baguettes that sparkle after Diwali too.", "17 cm · baguette-cut CZ · 18k gold-tone",
+  "The phuljhadi that lasts. ✨ Clear baguette-cut cubic zirconia, edge to edge in 18k gold-tone claws. It sparkles long after Diwali. The Baguette Tennis Bracelet, ₹1,699.", "Crystal"),
+ ("C32", "woven-gold-hoops", "Marigold,<br>meet gold.", "25 mm braided hoops for the festive door.", "25 mm · braided · 18k gold-tone",
+  "Marigold, meet gold. 🌼 25 mm hoops of braided gold-tone rope, no stones, all texture. Diwali-ready. The Woven Gold Hoops, ₹1,299.", None),
+ ("C33", "bold-nocturne-chain", "On heavy<br>rotation.", "chunky gold-tone links, one in pavé.", "46 cm · one pavé link · 18k gold-tone",
+  "On heavy rotation. 🎶 Chunky 18k gold-tone links, one set all over in pavé. The Bold Nocturne Chain, ₹1,799.", None),
+ ("C34", "bold-nocturne-bracelet", "Knockout.", "chunky gold-tone links, one in pavé.", "20 cm · one pavé link · 18k gold-tone",
+  "Knockout. 🥊 Chunky 18k gold-tone links on a 20 cm bracelet, one link set in pavé. The Bold Nocturne Bracelet, ₹1,599.", None),
+ ("C35", "kiss-knot-bangle", "XOXO.", "a ribbed coil, crossed in one polished X.", "flexible · gold or silver tone",
+  "XOXO. 💋 A flexible ribbed bangle whose ends cross in one polished X: a hug and a kiss, on the wrist. In gold tone or silver tone. The Kiss Knot Bangle, ₹1,199.", "Gold"),
+ ("C36", "silk-mesh-cuff", "Nothing<br>but net.", "woven mesh, rolled into a cuff.", "19 mm mesh · gold or silver tone",
+  "Nothing but net. 🏀 Fine woven mesh rolled into a cuff, with mirror-polished end caps. In gold tone or silver tone. The Silk Mesh Cuff, ₹1,499.", "Gold"),
+ ("C37", "marquise-layering-set", "Monsoon,<br>layered.", "marquise drops, not raindrops.", "40 + 45 cm · 18k gold-tone",
+  "Monsoon, layered. 🌧️ A 40 cm marquise solitaire and a 45 cm Y-lariat in 18k gold tone, made to be worn together. The Marquise Layering Set, ₹1,599.", None),
+ ("C38", "bold-dome-huggies", "Don't pop<br>these.", "16 mm domes, mirror-polished.", "16 mm · hinged · 18k gold-tone",
+  "Don't pop these. 🫧 Chunky 16 mm dome huggies in mirror-polished 18k gold tone, with a hinged snap. The Bold Dome Huggies, ₹999.", None),
+ ("C39", "baguette-halo-drops", "Off the<br>chandelier.", "a sunburst of baguettes and a pearl drop.", "14 mm disc · pearl drop · 18k gold-tone",
+  "Off the chandelier. ✨ A 14 mm sunburst of clear baguettes around a small pearl, with a white pearl drop below. The Baguette Halo Drops, ₹1,499.", None),
+ ("C40", "prism-cluster-studs-silver", "Not for<br>eating.", "purple, pink and yellow cubic zirconia.", "purple · pink · yellow · silver tone",
+  "Not for eating. 🍬 An arc of purple, pink and yellow cubic zirconia with tiny pearls, rhodium silver tone. The Prism Cluster Studs, ₹1,499.", None),
+ ("C41", "aqua-heart-drops-silver", "Sealed with<br>a heart.", "an icy aqua heart below clear brilliants.", "aqua heart · clear brilliants · silver tone",
+  "Sealed with a heart. 💌 A curve of clear brilliants with an icy aqua heart below, rhodium silver tone. The Aqua Heart Drops, ₹1,499.", None),
+ ("C42", "ribbon-bead-bracelet", "Keep the<br>ribbon.", "a crystal bow on a fine gold-tone chain.", "fine chain · crystal bow · 18k gold-tone",
+  "Keep the ribbon. 🎀 A small crystal bow on a fine 18k gold-tone chain. The flowers fade; this stays. The Ribbon Bead Bracelet, ₹799.", None),
+ ("C43", "torsade-pearl-cuff", "Hold the line.", "a twisted cable, a shell pearl at each end.", "shell pearls · 18k gold-tone",
+  "Hold the line. ☎️ A twisted 18k gold-tone cable cuff, a white shell pearl at each end in a pavé collar. The Torsade Pearl Cuff, ₹1,399.", None),
+ ("C44", "baguette-huggies", "Matches the<br>lipstick.", "ruby-red baguettes on a 15 mm huggie.", "15 mm · hinged · 18k gold-tone",
+  "Matches the lipstick. 💄 Ruby-red baguette cubic zirconia across a 15 mm hinged huggie, 18k gold tone. The Baguette Huggies, ₹1,199.", "Ruby"),
+ ("C45", "quatrefoil-eclat-studs", "Your Diwali<br>star.", "four-point stars in clear cubic zirconia.", "15 mm · four-point star · 18k gold-tone",
+  "Your Diwali star. 🪔 A 15 mm four-point star in clear cubic zirconia: pavé outline, four pear stones, a round centre. The Quatrefoil Éclat Studs, ₹1,299.", None),
+ ("C46", "riviere-eternal-bracelet", "Dew,<br>all day.", "one fine line of clear cubic zirconia.", "clear CZ line · buckle clasp",
+  "Dew, all day. 🌿 One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.", None),
+ ("C47", "baguette-tennis-bracelet", "Green signal.", "emerald-green baguettes, all the way round.", "17 cm · baguette-cut CZ · 18k gold-tone",
+  "Green signal. 🟢 Emerald-green baguette cubic zirconia, edge to edge in 18k gold-tone claws. The Baguette Tennis Bracelet, ₹1,699.", "Emerald"),
+ ("C48", "lilac-papillon-ring", "Buddhi ke baal,<br>upgraded.", "lilac pavé wings in 18k gold tone.", "lilac pavé · 18k gold-tone · butterfly",
+  "Buddhi ke baal, upgraded. 🦋 A gold-tone butterfly ring with lilac pavé wings. Sweeter, and it lasts. The Lilac Papillon Ring, ₹1,299.", None),
+]
+
 def shots():
     """copy space and the jewellery's vertical extent per plate, from the shoot manifests"""
     out = {}
@@ -546,10 +603,11 @@ def build():
                              headline=f"{name} · {price}", cta="SHOP_NOW", url=url(k, fmt, meta.get("variant"))))
     CS = {}
     for g in ("g1", "g2", "g3", "g4"):
-        p = f"{HERE}/shots_crazy_{g}.json"
-        if os.path.exists(p):
-            for x in json.load(open(p)): CS[x.get("id")] = x
+        for p in (f"{HERE}/shots_crazy_{g}.json", f"{HERE}/shots_crazy2_{g}.json"):
+            if os.path.exists(p):
+                for x in json.load(open(p)): CS[x.get("id")] = x
     for cid, k, h, c, spec, pt, variant in CR:
+        if cid in RETIRED: continue
         plate = f"plates/crazy/{cid}.jpg"
         if not os.path.exists(os.path.join(HERE, "..", plate)): continue
         name, price, noun = P[k]; stem = f"{k}-crazy{cid[1:]}"; s_ = CS.get(cid, {})

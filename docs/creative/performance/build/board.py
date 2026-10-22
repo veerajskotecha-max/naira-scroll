@@ -34,8 +34,8 @@ def main():
     shots, crazy = {}, []
     for g in ("g1", "g2", "g3", "g4"):
         for s in json.load(open(f"{HERE}/shots_{g}.json")): shots[f"{s['key']}-{s['format']}"] = s
-        p = f"{HERE}/shots_crazy_{g}.json"
-        if os.path.exists(p): crazy += json.load(open(p))
+        for p in (f"{HERE}/shots_crazy_{g}.json", f"{HERE}/shots_crazy2_{g}.json"):
+            if os.path.exists(p): crazy += [x for x in json.load(open(p)) if x.get("id") not in C.RETIRED]
     ads = []
     for stem, o in plan.items():
         r = next(x for x in rows if x["ad"] == f"{stem}-feed"); fr = frames[stem]
