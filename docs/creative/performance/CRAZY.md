@@ -52,3 +52,53 @@ Every frame was scored against the product's lock and reference image; 8 passes,
 | Passed (8 or more) | C01–C06, C08–C14, C16, C18–C20, C22 (8.9) |
 | Reserve (7.5) | C07 (about 58 stones show in the ice where a 36 cm choker has about 110, so it reads short), C15 (each stud reads about 20 mm beside the star anise, against a true 15 mm) |
 | Empty | C17, C21 |
+
+## Round two (22 Oct 2026): six retired, 26 new
+
+The founder found "Nazar na lage." and some others too weird. Crazy has to stay desirable: a place or moment the buyer
+would like to be in, with the joke riding on top. Six concepts are retired and do not run:
+
+| # | Why it is retired |
+|---|---|
+| C01 Laced up. | Jewellery inside a shoe. In many Indian homes shoes are impure and gold is Lakshmi, so this can offend, most of all at Dhanteras. |
+| C05 Surgical steel. | A kidney dish, forceps and a surgical drape: clinical, not desirable. |
+| C08 Sweet proposal. | The gulab jamun's crease reads as a bottom (review round two). |
+| C09 Nazar na lage. | A nimbu-mirchi charm against the evil eye: superstition, roadside, too odd for a gift. |
+| C18 Eye of the tiger. | A lacquered toy tiger: reads childish, not premium. |
+| C19 Brush twice daily. | Earrings on a toothbrush: bathroom, unhygienic. |
+
+New rules on top of the ones above:
+- Nothing clinical, bathroom, superstitious, toy-like, or footwear of any kind.
+- Nothing that can read as a face or a body: no pair of round things with the jewellery on them like eyes, no halved
+  fruit with a cavity, no crease or cleft.
+- The joke can be big, but the world must be beautiful: festive, edible, glamorous, nostalgic.
+- Diwali (8 Nov) and Dhanteras (6 Nov) are the next two weeks; five concepts lean into them.
+
+| # | Product | Scene | Headline |
+|---|---|---|---|
+| C23 | Toggle Link Chain (replaces C01) | A clean writing desk, top-down: a small brass dish spilling ordinary silver office paperclips, and the gold chain running out of the pile in a long loose curve, its open paperclip links clearly the same shape as the clips but gold, the toggle clasp at the end. A fountain pen and cream letter paper at the edge. | Promoted. |
+| C24 | Heartbead Bracelet (replaces C05) | A gleaming three-tier steel tiffin carrier on a sunlit kitchen counter. The bracelet hangs from the tiffin's carrying-handle clip, its mirror-polished steel beads echoing the tiffin, the gold heart charm swinging in front. A folded cotton napkin, warm morning light. | Packed with love. |
+| C25 | Cushion Halo Ring (replaces C08) | A red-and-gold shagun envelope (plain, no text) lying on a silk cloth, one shiny ₹1 coin on it, and the ring standing beside the coin, the same size as the coin. A few marigold petals. | Shagun, upgraded. |
+| C26 | Verdant Eternity Band (replaces C09) | A close portrait of a bright green rose-ringed parakeet on a brass perch, holding the ring in its red beak, the ring's emerald-green stones matching its feathers. Soft green garden behind. | Caught green-handed. |
+| C27 | Halo Curve Ring (replaces C18) | A small glass of cutting chai on a wooden tea-stall counter at golden hour, steam rising, two plain round biscuits beside it. The ring rests on the rim of the glass: the brown tiger's eye matches the chai, the champagne crystal the light. | Cutting chai. Cut stones. |
+| C28 | Brushed Gold Huggies (replaces C19) | A small red velvet pouch spilling a short stack of plain, unmarked gold coins on a brass plate, a lit clay diya glowing beside it. The pair of huggies sits on the top coin. | Dhanteras, sorted. |
+| C29 | Baguette Tennis Necklace | The keys of a black grand piano, close and low. The necklace lies along the white keys, its row of baguette stones echoing the keys. Warm stage light, deep shadows. | Perfect pitch. |
+| C30 | Prism Rivière Bracelet | An open pastel box of macarons in aqua, pink and pale yellow, the bracelet curled among them, every stone matching a macaron. Marble, soft daylight. | Pick all three. |
+| C31 | Baguette Tennis Bracelet (crystal) | Diwali night: the bracelet wrapped once round the wire of a lit phuljhadi (sparkler), gold sparks flying, the clear baguettes catching every spark. Dark warm background, bokeh of diyas. | The phuljhadi that lasts. |
+| C32 | Woven Gold Hoops | A Diwali doorway toran of fresh orange marigold strings and mango leaves; the pair of hoops hangs from the toran among the marigolds, braid echoing the flowers. Warm evening light. | Marigold, meet gold. |
+| C33 | Bold Nocturne Chain | A black vinyl record spinning on a vintage turntable, the chunky chain lying in a loop on the record's label area, the pavé link catching the light. Moody warm light. | On heavy rotation. |
+| C34 | Bold Nocturne Bracelet | A red leather boxing glove, laces at the cuff, on a canvas ring floor; the chunky bracelet around the glove's wrist above the cuff. Dramatic single spotlight. | Knockout. |
+| C35 | Kiss Knot Bangle | A black slate with a chalk tic-tac-toe game: two chalk X's and two chalk O's, and the bangle (an O crossed by its polished X) placed as the winning move in the centre. Chalk dust. | XOXO. |
+| C36 | Silk Mesh Cuff (gold) | A small wall-mounted basketball hoop in a sunny room; the gold mesh cuff hangs from the rim in place of the net, a mini basketball resting below. | Nothing but net. |
+| C37 | Marquise Layering Set | A window pane in the monsoon, beaded with real raindrops; the two layered necklaces hang against the glass, their marquise drops among the raindrops. Soft grey-green garden blur outside. | Monsoon, layered. |
+| C38 | Bold Dome Huggies | A sheet of clear bubble wrap on a pastel ground, the pair of polished dome huggies sitting among the bubbles, domes echoing domes; one popped bubble. | Don't pop these. |
+| C39 | Baguette Halo Drops | The crystal drops of an antique chandelier, close, warm candle bulbs blurred above; the pair of earrings hangs among the crystal drops. | Off the chandelier. |
+| C40 | Prism Cluster Studs | A clear glass candy jar of jelly beans in purple, pink and yellow, lid off; the pair of studs sits on the lid's rim, every stone matching a bean. | Not for eating. |
+| C41 | Aqua Heart Drops | A vintage airmail envelope with a red wax seal pressed into a heart; the pair of earrings lies across it, the aqua hearts beside the seal. Sunlit desk. | Sealed with a heart. |
+| C42 | Ribbon Bead Bracelet | A small hand-tied bouquet of pink garden roses, stems wrapped in paper; the bracelet ties the stems, its crystal bow at the front. Soft daylight. | Keep the ribbon. |
+| C43 | Torsade Pearl Cuff | A vintage cream rotary telephone, its coiled cord curling across the table; the twisted cuff lies beside the coiled cord, twist echoing coil, its two pearls catching light. | Hold the line. |
+| C44 | Baguette Huggies (ruby) | A red lipstick bullet, uncapped, standing on a mirrored tray; the pair of ruby huggies hooked over its gold case, the exact same red. | Matches the lipstick. |
+| C45 | Quatrefoil Éclat Studs | A glowing paper akash kandil (Diwali star lantern) hanging in a window at dusk; the pair of star studs rests on the sill below it, star echoing star. | Your Diwali star. |
+| C46 | Rivière Eternal Bracelet | Dawn macro: blades of lawn grass beaded with dew drops; the bracelet draped along one blade, its line of clear stones beside the line of dew. | Dew, all day. |
+| C47 | Baguette Tennis Bracelet (emerald) | An old brass railway hand-lamp with its green glass lit, on a platform bench at dusk; the emerald bracelet wrapped round the lamp's handle. | Green signal. |
+| C48 | Lilac Papillon Ring | A cloud of pastel pink-lilac buddhi ke baal (candy floss) on a stick at a fair; the ring perched on top of the floss, lilac wings echoing the colour. Fairground bokeh. | Buddhi ke baal, upgraded. |
