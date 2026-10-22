@@ -76,6 +76,7 @@ def html_deck(ad, bg):
     at = ad.get("at", "tl"); foot_h = 150 if ad.get("cta") else 70
     y = ad.get("y", top if at[0] == "t" else bot + foot_h + 46)
     pos = {"tl": f"left:{side}px;top:{y}px", "tr": f"right:{side}px;top:{y}px;text-align:right;align-items:flex-end",
+           "tc": f"left:50%;transform:translateX(-50%);top:{y}px;text-align:center;align-items:center",   # "Sweet On You."
            "bl": f"left:{side}px;bottom:{y}px", "br": f"right:{side}px;bottom:{y}px;text-align:right;align-items:flex-end"}[at]
     wm_file = {"ink": "logo_ink.png", "white": "logo_white.png", "sage": "logo_sage.png"}[ad.get("wm", "white" if cream else "ink")]
     wh = ad.get("wh", 40); wm_corner = "left" if at in ("tr",) else "right"
