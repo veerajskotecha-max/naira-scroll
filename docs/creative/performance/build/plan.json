@@ -70,16 +70,6 @@
   "wave": 2
  },
  {
-  "stem": "prism-riviere-bracelet-play",
-  "key": "prism-riviere-bracelet",
-  "format": "play",
-  "campaign": "PERF · Play (object wit) · Oct 2026",
-  "adset": "Bracelets",
-  "priority": -0.157,
-  "reserve": true,
-  "wave": 2
- },
- {
   "stem": "bold-nocturne-bracelet-play",
   "key": "bold-nocturne-bracelet",
   "format": "play",
@@ -280,16 +270,6 @@
   "wave": 2
  },
  {
-  "stem": "toggle-link-chain-quiet",
-  "key": "toggle-link-chain",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.88,
-  "reserve": false,
-  "wave": 1
- },
- {
   "stem": "baguette-tennis-necklace-quiet",
   "key": "baguette-tennis-necklace",
   "format": "quiet",
@@ -367,7 +347,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.685,
   "reserve": false,
-  "wave": 2
+  "wave": 1
  },
  {
   "stem": "bold-nocturne-bracelet-quiet",
@@ -430,16 +410,6 @@
   "wave": 2
  },
  {
-  "stem": "molten-panel-bracelet-quiet",
-  "key": "molten-panel-bracelet",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.505,
-  "reserve": false,
-  "wave": 2
- },
- {
   "stem": "torsade-pearl-cuff-quiet",
   "key": "torsade-pearl-cuff",
   "format": "quiet",
@@ -447,7 +417,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.505,
   "reserve": false,
-  "wave": 3
+  "wave": 2
  },
  {
   "stem": "lilac-papillon-ring-quiet",
@@ -457,7 +427,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.505,
   "reserve": false,
-  "wave": 3
+  "wave": 2
  },
  {
   "stem": "bold-dome-huggies-quiet",
@@ -480,28 +450,8 @@
   "wave": 3
  },
  {
-  "stem": "verdant-cushion-studs-quiet",
-  "key": "verdant-cushion-studs",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.505,
-  "reserve": false,
-  "wave": 3
- },
- {
   "stem": "baguette-halo-drops-quiet",
   "key": "baguette-halo-drops",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.505,
-  "reserve": false,
-  "wave": 3
- },
- {
-  "stem": "prism-cluster-studs-silver-quiet",
-  "key": "prism-cluster-studs-silver",
   "format": "quiet",
   "campaign": "PERF · Quiet · retarget warm · Oct 2026",
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
@@ -527,7 +477,27 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": -0.465,
   "reserve": true,
-  "wave": 4
+  "wave": 3
+ },
+ {
+  "stem": "molten-panel-bracelet-quiet",
+  "key": "molten-panel-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": -0.495,
+  "reserve": true,
+  "wave": 3
+ },
+ {
+  "stem": "verdant-cushion-studs-quiet",
+  "key": "verdant-cushion-studs",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": -0.495,
+  "reserve": true,
+  "wave": 3
  },
  {
   "stem": "pearl-circlet-studs-quiet",
@@ -537,7 +507,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": -0.495,
   "reserve": true,
-  "wave": 4
+  "wave": 3
  },
  {
   "stem": "prism-riviere-bracelet-rhyme",
@@ -1250,16 +1220,6 @@
   "wave": 2
  },
  {
-  "stem": "verdant-eternity-band-worn",
-  "key": "verdant-eternity-band",
-  "format": "worn",
-  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
-  "adset": "Necklaces & rings",
-  "priority": 0.77,
-  "reserve": false,
-  "wave": 2
- },
- {
   "stem": "bold-nocturne-chain-silk",
   "key": "bold-nocturne-chain",
   "format": "silk",
@@ -1297,7 +1257,7 @@
   "adset": "Necklaces & rings",
   "priority": 0.657,
   "reserve": false,
-  "wave": 3
+  "wave": 2
  },
  {
   "stem": "marquise-layering-set-worn",

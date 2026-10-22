@@ -28,13 +28,24 @@ body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:%(i
 .pr{font-family:Jost;font-weight:500;font-size:%(ps)dpx;letter-spacing:.22em;margin-top:18px;margin-left:.22em}
 """
 
+def calm_foot(bg, story):
+    """distance from the bottom edge for the quiet name block: just under the last busy row of the picture's lower part"""
+    G = grid(bg); cols, rows = G["cols"], G["rows"]; ink = np.array(G["ink"]).reshape(rows, cols)
+    busy = ink[:, int(cols * .15):int(cols * .85)].mean(1)
+    lo, hi = (300, 430) if story else (60, 140); H = rows * CELL
+    for y in range(rows - 1, int(rows * .4), -1):                     # last busy row above the bottom safe edge
+        if y * CELL > H - lo: continue
+        if busy[y] > .32: return int(min(max(H - (y + 1) * CELL - 40 - 96, lo), hi))
+    return lo
+
 def html_quiet(ad, bg):
     W, H = B.SIZE[ad["fmt"]]; story = ad["fmt"] == "9:16"
     top, bot = (300, 400) if story else (70, 76)
+    bot = ad.get("fy") or calm_foot(bg, story)
     ink = B.DECK_PAPER if ad.get("tone") == "cream" else "#2B2622"
     logo = "logo_white.png" if ad.get("tone") == "cream" else "logo_ink.png"
     css = QUIET_CSS % dict(b=B.BRAND, f=B.FONTS, w=W, h=H, bg="file://" + bg, ink=ink, top=ad.get("wy", top), wh=ad.get("wh", 44),
-                           bot=ad.get("fy", bot), ns=ad.get("ns", 40), ps=ad.get("ps", 22))
+                           bot=bot, ns=ad.get("ns", 40), ps=ad.get("ps", 22))
     return (f'<meta charset="utf-8"><style>{css}</style><body><img class="wm" src="file://{B.BRAND}/{logo}">'
             f'<div class="ft"><div class="nm">{B.glue(ad["name"].upper())}</div><div class="pr">{ad["price"]}</div></div></body>')
 
@@ -58,15 +69,14 @@ function put(el,at,w,off,k){const s=el.style;s.left=s.right=s.top=s.bottom=s.tra
 function tone(el,t){const ink=t=='ink';el.style.setProperty('--tone',ink?P.INK:P.PAPER);el.style.setProperty('--glow',ink?'rgba(251,246,240,.80)':'rgba(28,22,18,.42)');
  el.style.setProperty('--btn',ink?P.INK:P.PAPER);el.style.setProperty('--btnt',ink?P.PAPER:P.INK);
  el.querySelectorAll('img.wmf').forEach(i=>i.src=i.src.replace(/logo_(ink|white)/,ink?'logo_ink':'logo_white'));}
-function go(){if(P.quiet&&P.sy)P.sy=[P.sy[0]-70,P.sy[1]+70];const el=document.querySelector(P.sel);const ft=P.foot?document.querySelector('.ft'):null;const fr=ft?ft.getBoundingClientRect():null;let best=null;
+function go(){if(P.fixed){const el=document.querySelector(P.sel);const r=el.getBoundingClientRect();const ci=cost(r,P.ink),cc=cost(r,P.cream);if(!P.lock)tone(el,ci<=cc?'ink':'cream');if(Math.min(ci,cc)>.42)el.classList.add('glow');const ft=P.foot?document.querySelector('.ft'):null;if(ft){const parts=[...ft.children].map(e=>e.getBoundingClientRect());let a=0,b=0;for(const q of parts){a+=cost(q,P.ink);b+=cost(q,P.cream);}tone(ft,a<=b?'ink':'cream');if(Math.min(a,b)/parts.length>.45)[...ft.children].forEach(e=>e.classList.add('glow'));}window.__placed='fixed';return;}if(P.quiet&&P.sy)P.sy=[P.sy[0]-70,P.sy[1]+70];const el=document.querySelector(P.sel);const ft=P.foot?document.querySelector('.ft'):null;const fr=ft?ft.getBoundingClientRect():null;let best=null;
  for(const at of P.ats)for(const w of P.ws)for(const k of[1,.86])for(let i=0;i<P.n;i++){const off=(at[0]=='t'?P.top:P.bot)+i*36;put(el,at,w,off,k);
   const r=el.getBoundingClientRect();if(r.top<P.top-1||r.bottom>P.H-P.bot+1||r.left<0||r.right>P.W)continue;if(fr&&hit(r,{left:fr.left,right:fr.right,top:fr.top-28,bottom:fr.bottom}))continue;
-  const band=(P.sy&&Math.min(r.bottom,P.sy[1])-Math.max(r.top,P.sy[0])>12?.9:0)+(P.quiet&&P.sy&&r.bottom<P.sy[0]?.25:0);const hl=lines(el,'.h',P.lh),xs=Math.max(0,hl-P.hl)*.09;
+  const band=(P.sy&&Math.min(r.bottom,P.sy[1])-Math.max(r.top,P.sy[0])>12?.9:0)+(P.quiet&&P.sy&&r.bottom<P.sy[0]?.25:0);const hl=lines(el,'.h',P.lh),xs=Math.max(0,hl-P.hl)*.2;
   for(const t of['ink','cream']){let c=cost(r,P[t])+band+xs+(k<1?.05:0)+(t!=P.tone0?.06:0)+(at!=P.pref?.04:0)+i*.004;if(!best||c<best.c)best={c,at,w,off,k,t};}}
  if(best){put(el,best.at,best.w,best.off,best.k);tone(el,best.t);if(best.c>.42)el.classList.add(P.quiet?'qglow':'glow');}
  if(ft){const parts=[...ft.children].map(e=>e.getBoundingClientRect());let ci=0,cc=0;for(const r of parts){ci+=cost(r,P.ink);cc+=cost(r,P.cream);}
-  if(Math.min(ci,cc)/parts.length>.5){const b=document.createElement('div');b.className='band';document.body.insertBefore(b,document.body.firstChild);tone(ft,'ink');}
-  else tone(ft,ci<=cc?'ink':'cream');}
+  tone(ft,ci<=cc?'ink':'cream');if(Math.min(ci,cc)/parts.length>.45)[...ft.children].forEach(e=>e.classList.add('glow'));}
  window.__placed=JSON.stringify(best);}
 document.fonts.ready.then(()=>setTimeout(go,30));})();</script>"""
 
@@ -97,7 +107,7 @@ def placer(ad, bg, y0):
     P = dict(grid(bg), sel=".blk" if deck else ".ft" if quiet else ".t", foot=deck, quiet=quiet, W=W, H=H, top=top, bot=bot, n=(26 if ad.get("layout") == "quiet" else 10) if story else (18 if ad.get("layout") == "quiet" else 8), side=ad.get("x", 64 if deck else 72),
              hs=ad.get("hs", 96 if deck else 78), cs=ad.get("cs", 38 if deck else 34), pref=pref, tone0="cream" if ad.get("tone") == "cream" else "ink",
              ats=["bc"] if quiet else ["tl", "tr", "bl", "br"] + (["tc"] if deck else []), ws=[1000] if quiet else sorted({w0, 380, 460, 560, 680}), INK=B.DECK_INK, PAPER=B.DECK_PAPER,
-             sy=band(ad, y0), lh=.9 if deck else .98, hl=2 if deck else 1)
+             sy=band(ad, y0), lh=.9 if deck else .98, hl=2 if deck else 1, fixed=bool(ad.get("fixed")), lock="tone" in ad.get("lock", []))
     return PLACE_JS % json.dumps(P)
 
 def prep(ad):
@@ -115,6 +125,7 @@ def expand(entries):
         for fmt, tag in (("4:5", "feed"), ("9:16", "story")):
             ad = dict(e, fmt=fmt, id=f"{base}-{tag}")
             ad.update(e.get(tag, {}) if isinstance(e.get(tag), dict) else {})
+            if ad.get("drop"): continue
             if fmt == "9:16" and e["plate"].endswith("-rhyme.jpg") and e.get("story") != "deck": ad["layout"] = "plain"
             ads.append(ad)
     return ads
@@ -130,7 +141,7 @@ def main():
         bg, y0 = prep(ad); lay = ad.get("layout", "deck")
         if lay == "plain": Image.open(bg).save(f"{WORK}/{ad['id']}.png"); jobs.append((ad["id"], None)); continue
         page = {"deck": B.html_deck, "note": B.html, "quiet": html_quiet}[lay](dict(ad, layout="v1", sb=band(ad, y0)) if lay == "note" else dict(ad, sb=band(ad, y0)), bg)
-        if lay in ("deck", "note", "quiet") and not ad.get("fixed"): page = page.replace("</body>", "") + placer(ad, bg, y0) + "</body>"
+        if lay in ("deck", "note"): page = page.replace("</body>", "") + placer(ad, bg, y0) + "</body>"
         open(f"{WORK}/{ad['id']}.html", "w").write(page); W, H = B.SIZE[ad["fmt"]]; jobs.append((ad["id"], f"{ad['id']}:{W}:{H}"))
     env = dict(os.environ, NODE_PATH=subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip())
     todo = [j for _, j in jobs if j]

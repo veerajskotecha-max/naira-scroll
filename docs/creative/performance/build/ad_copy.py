@@ -5,7 +5,7 @@
 #   quiet       -> quiet (the Apricot camp: wordmark above, name and price below)
 # A rhyme frame's Story runs with no text, as the 2.94× fruit-plate Story did; its words are in the primary text.
 # Product truth: gold tone / silver tone, cubic zirconia, white shell pearl. Never "real", "diamond", "waterproof", "tarnish-free".
-import csv, json, os
+import csv, json, os, re
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 P = {   # handle: (name, price, the noun the CTA uses)
@@ -158,8 +158,8 @@ rhyme("silk-mesh-cuff", "Ghevar, gilded.", "woven gold-tone mesh, not syrup.", "
       "Ghevar, gilded. A 19 mm tube of fine woven mesh with mirror-polished end caps. In gold tone or silver tone. The Silk Mesh Cuff, ₹1,499.", "Gold")
 silk("silk-mesh-cuff", "The silver note.", "Woven mesh, soft as cloth,<br>polished at the ends.",
      "The silver note. Fine woven steel mesh that moves like cloth, closed by two polished caps. The Silk Mesh Cuff, ₹1,499.", "Silver", tone="cream")
-worn("silk-mesh-cuff", "Soft, but gold.", "Woven mesh that bends<br>like fabric on the wrist.",
-     "Soft, but gold. Woven 18k gold-tone mesh that bends like fabric, open at the side to slip on. The Silk Mesh Cuff, ₹1,499.", "Gold")
+worn("silk-mesh-cuff", "Soft, but solid.", "Woven mesh that bends<br>like fabric on the wrist.",
+     "Soft, but solid. Woven 18k gold-tone mesh that bends like fabric, open at the side to slip on. The Silk Mesh Cuff, ₹1,499.", "Gold")
 quiet("silk-mesh-cuff", "Fine woven mesh in silver tone, polished oval end caps. Also in gold tone. The Silk Mesh Cuff, ₹1,499.", "Silver")
 play("silk-mesh-cuff", "Strained, in a good way.", "the same weave as your chai strainer.", "Silk Mesh Cuff · 19 mm mesh · gold or silver",
      "Strained, in a good way. ☕ The same fine weave as your chai strainer, rolled into a cuff. In silver tone or gold tone. The Silk Mesh Cuff, ₹1,499.", "Silver")
@@ -182,7 +182,7 @@ silk("molten-panel-bracelet", "The molten note.", "Rows of small gold-tone plate
      "The molten note. Rows of small oval plates that drape like a watch strap, closed by a flat box clasp. The Molten Panel Bracelet, ₹1,299.")
 worn("molten-panel-bracelet", "Poured on.", "A flat band of gold-tone plates<br>that moves with the wrist.",
      "Poured on. A flat 17 cm band of small 18k gold-tone plates that moves with the wrist. The Molten Panel Bracelet, ₹1,299.")
-quiet("molten-panel-bracelet", "Rows of small oval plates in 18k gold tone, flat box clasp. The Molten Panel Bracelet, ₹1,299.")
+quiet("molten-panel-bracelet", "Rows of small oval plates in 18k gold tone, flat box clasp. The Molten Panel Bracelet, ₹1,299.", reserve=True)
 play("molten-panel-bracelet", "It bends.", "rows of plates, not one stiff band.", "Molten Panel Bracelet · 17 cm · 18k gold-tone",
      "It bends. Rows of small 18k gold-tone plates, articulated so the band drapes. The Molten Panel Bracelet, ₹1,299.", reserve=True)
 
@@ -217,8 +217,8 @@ rhyme("prism-riviere-bracelet", "After-dinner sparkle.", "pastel cubic zirconia,
       "After-dinner sparkle. 🍬 Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.")
 silk("prism-riviere-bracelet", "The pastel note.", "Aqua, pink and yellow,<br>each in its own halo.",
      "The pastel note. Aqua, pink and yellow cushion cubic zirconia, each framed in pavé, in one straight line. The Prism Rivière Bracelet, ₹2,399.", tone="cream")
-worn("prism-riviere-bracelet", "Every colour, one line.", "Aqua, pink and yellow cushions,<br>adjustable from 15 to 19 cm.",
-     "Every colour, one line. Aqua, pink and yellow cubic zirconia in pavé halos, adjustable from 15 to 19 cm. The Prism Rivière Bracelet, ₹2,399.")
+worn("prism-riviere-bracelet", "Every colour, one line.", "Aqua, pink and yellow cushions,<br>18 cm, flat on the wrist.",
+     "Every colour, one line. Aqua, pink and yellow cubic zirconia in pavé halos, an 18 cm line with a fold-over clasp. The Prism Rivière Bracelet, ₹2,399.")
 quiet("prism-riviere-bracelet", "Aqua, pink and yellow cubic zirconia in pavé halos, rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.")
 play("prism-riviere-bracelet", "Prism, meet prism.", "the light splits; so does the bracelet.", "aqua · pink · yellow · silver tone",
      "Prism, meet prism. 🌈 Aqua, pink and yellow cubic zirconia in one line, each in a pavé halo. The Prism Rivière Bracelet, ₹2,399.", reserve=True)
@@ -231,8 +231,8 @@ silk("woven-gold-hoops", "The braided note.", "25 mm of braided gold-tone rope,<
 worn("woven-gold-hoops", "Bun day.", "Braided gold-tone hoops,<br>25 mm, close at the lobe.",
      "Bun day. Braided 18k gold-tone hoops, 25 mm, that sit close at the lobe. The Woven Gold Hoops, ₹1,299.")
 quiet("woven-gold-hoops", "Braided rope hoops, 25 mm, in 18k gold tone. The Woven Gold Hoops, ₹1,299.")
-play("woven-gold-hoops", "Plaited, not cast.", "braided like rope, then made a hoop.", "25 mm · braided · 18k gold-tone",
-     "Plaited, not cast. Braided like a plait, then closed into a 25 mm hoop. 18k gold tone. The Woven Gold Hoops, ₹1,299.")
+play("woven-gold-hoops", "Plait, perfected.", "a 25 mm hoop, braided like a plait.", "25 mm · braided · 18k gold-tone",
+     "Plait, perfected. Braided like a plait, then closed into a 25 mm hoop. 18k gold tone. The Woven Gold Hoops, ₹1,299.")
 
 # ---- Heartbead Bracelet: 6 mm mirror-polished steel beads, a gold-tone toggle and one puffed gold-tone heart
 rhyme("heartbead-bracelet", "Paan, with heart.", "6 mm steel beads, one gold-tone heart.", "6 mm steel beads · gold-tone toggle and heart",
@@ -257,7 +257,7 @@ play("brushed-gold-huggies", "Brushed, literally.", "a satin finish, not a mirro
      "Brushed, literally. A satin-brushed finish on small 18k gold-tone huggies. The Brushed Gold Huggies, ₹999.")
 
 # ---- Ribbon Bead Bracelet: a fine gold-tone chain with a small crystal bow
-rhyme("ribbon-bead-bracelet", "A bow, edible.", "a crystal bow, not kaju katli.", "fine chain · crystal bow · 18k gold-tone",
+rhyme("ribbon-bead-bracelet", "A bow, edible.", "a crystal bow, not mithai.", "fine chain · crystal bow · 18k gold-tone",
       "A bow, edible? Not this one. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.")
 silk("ribbon-bead-bracelet", "The bow note.", "A small crystal bow<br>on a fine gold-tone chain.",
      "The bow note. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.")
@@ -312,7 +312,7 @@ play("bold-dome-huggies", "Snap.", "a hinged huggie, closed round a pencil.", "1
      "Snap. ✏️ A 16 mm hinged dome huggie in polished 18k gold tone. The Bold Dome Huggies, ₹999.")
 
 # ---- Quatrefoil Éclat Studs: 15 mm four-point star, pavé outline, four pear stones and a round centre, gold tone
-rhyme("quatrefoil-eclat-studs", "Mithai-shaped.", "cubic zirconia stars, not kaju katli.", "15 mm · four-point star · 18k gold-tone",
+rhyme("quatrefoil-eclat-studs", "Mithai-shaped.", "four-point stars, not varq.", "15 mm · four-point star · 18k gold-tone",
       "Mithai-shaped. A 15 mm four-point star in clear cubic zirconia: a pavé outline, four pear stones and a round centre. The Quatrefoil Éclat Studs, ₹1,299.")
 silk("quatrefoil-eclat-studs", "The star note.", "A four-point star in pavé,<br>four pear stones inside.",
      "The star note. A four-point star outlined in pavé, with four pear stones and a round centre inside. The Quatrefoil Éclat Studs, ₹1,299.")
@@ -329,7 +329,7 @@ silk("verdant-cushion-studs", "Green, on navy.", "An emerald-green cushion<br>in
      "Green, on navy. An emerald-green cushion cubic zirconia framed in a sunburst of clear stones. The Verdant Cushion Studs, ₹1,199.", tone="cream")
 worn("verdant-cushion-studs", "One green dot.", "An emerald-green cushion<br>in a halo of clear stones.",
      "One green dot. A 13 mm stud: an emerald-green cushion in a halo of clear cubic zirconia. The Verdant Cushion Studs, ₹1,199.")
-quiet("verdant-cushion-studs", "An emerald-green cushion in a sunburst halo, rhodium silver tone. The Verdant Cushion Studs, ₹1,199.")
+quiet("verdant-cushion-studs", "An emerald-green cushion in a sunburst halo, rhodium silver tone. The Verdant Cushion Studs, ₹1,199.", reserve=True)
 play("verdant-cushion-studs", "The exact green.", "matched, spool by spool.", "13 mm · emerald-green · silver tone",
      "The exact green. 🧵 Emerald-green cubic zirconia in a sunburst halo of clear stones. The Verdant Cushion Studs, ₹1,199.")
 
@@ -360,8 +360,8 @@ rhyme("prism-cluster-studs-silver", "Pastel, with sugar.", "purple, pink and yel
       "Pastel, with sugar. An arc of purple, pink and yellow cubic zirconia with tiny pearls, rhodium silver tone. The Prism Cluster Studs, ₹1,499.")
 silk("prism-cluster-studs-silver", "The colour note.", "Purple, pink and yellow,<br>in one small arc.",
      "The colour note. Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls. The Prism Cluster Studs, ₹1,499.", tone="cream")
-worn("prism-cluster-studs-silver", "Up the ear.", "An arc of purple, pink and yellow<br>along the lobe.",
-     "Up the ear. An arc of purple, pink and yellow cubic zirconia that follows the lobe. The Prism Cluster Studs, ₹1,499.")
+worn("prism-cluster-studs-silver", "Five colours, one lobe.", "Purple, pink and yellow<br>in one small arc.",
+     "Five colours, one lobe. An arc of purple, pink and yellow cubic zirconia with tiny pearls. The Prism Cluster Studs, ₹1,499.")
 quiet("prism-cluster-studs-silver", "An arc of purple, pink and yellow cubic zirconia, rhodium silver tone. The Prism Cluster Studs, ₹1,499.")
 play("prism-cluster-studs-silver", "Watercolour, set in stone.", "purple, pink and yellow cubic zirconia.", "purple · pink · yellow · silver tone",
      "Watercolour, set in stone. 🎨 Purple, pink and yellow cubic zirconia in one small arc. The Prism Cluster Studs, ₹1,499.")
@@ -408,12 +408,34 @@ def plan(rows):
         for i, o in enumerate(grp): o["wave"] = i // size + 1
     return sorted(out, key=lambda o: (o["campaign"], o["adset"], o["wave"], -o["priority"]))
 
+def review_fixes():
+    out = {}
+    for n in ("a", "b"):
+        p = f"{HERE}/review_{n}.json"
+        if os.path.exists(p):
+            for r in json.load(open(p)):
+                if r.get("fix"): out[r["ad"]] = {k: v for k, v in r["fix"].items() if k != "band"}
+    return out
+
+def glue_h(h):
+    """keep a short word with the next one, so no headline line is a lone "IT", "BUT" or "note." """
+    h = re.sub(r"\b(\w{1,3}) (?=\S)", lambda m: m.group(1) + "\u00a0", h)
+    return re.sub(r" (\S+)$", "\u00a0\\1", h)                       # and the last word with the one before it
+
 def build():
-    frames, rows = [], []; S = shots()
+    frames, rows = [], []; S = shots(); global FX; FX = review_fixes()
     for k, fmt, ov, meta in F:
         name, price, noun = P[k]; plate = f"plates/{k}-{fmt}.jpg"
         if not os.path.exists(os.path.join(HERE, "..", plate)): continue
         e = dict(plate=plate, **{x: y for x, y in ov.items() if x != "reserve"})
+        if e.get("h"): e["h"] = glue_h(e["h"])
+        stem = f"{k}-{fmt}"; fx = {t: FX.get(f"{stem}-{t}", {}) for t in ("feed", "story")}
+        if fx["feed"].get("drop"): continue
+        for t in ("feed", "story"):
+            f = dict(fx[t])
+            if f.pop("drop", None): f = {"layout": "plain"}
+            if ov["layout"] == "quiet": f = {x: y for x, y in f.items() if x not in ("y", "fixed")}   # the calm-band finder places the name
+            if f: e[t] = f
         s = S.get(f"{k}-{fmt}", {}); lay = ov["layout"]
         if s.get("subject_y") and "cy" not in e: e["cy"] = round(min(max(sum(s["subject_y"]) / 2, .36), .64), 3)
         if s.get("copy_space") in ("tl", "tr", "bl", "br") and "at" not in e: e["at"] = s["copy_space"]
@@ -421,7 +443,7 @@ def build():
         if s.get("subject_y"): e["sy"] = s["subject_y"]
         if e.get("spec", "").startswith(name + " · "): e["spec"] = e["spec"][len(name) + 3:]          # the Meta headline carries the name
         if lay == "deck": e.update(cta=f"Shop the {noun}", price=price, at=e.get("at", "tl"), w=e.get("w", 640), hs=e.get("hs", 96), cs=e.get("cs", 38))
-        if lay == "note": e.update(n=f"{name} · {price}", at=e.get("at", "tl"), w=e.get("w", 600), hs=e.get("hs", 78), cs=e.get("cs", 34), ns=e.get("ns", 18))
+        if lay == "note": e.update(n=f"{name}\u00a0·\u00a0{price}", at=e.get("at", "tl"), w=e.get("w", 600), hs=e.get("hs", 78), cs=e.get("cs", 34), ns=e.get("ns", 18))
         if lay == "quiet": e.update(name=name, price=price)
         frames.append(e)
         for tag in ("feed", "story"):
