@@ -69,14 +69,14 @@ function put(el,at,w,off,k){const s=el.style;s.left=s.right=s.top=s.bottom=s.tra
 function tone(el,t){const ink=t=='ink';el.style.setProperty('--tone',ink?P.INK:P.PAPER);el.style.setProperty('--glow',ink?'rgba(251,246,240,.80)':'rgba(28,22,18,.42)');
  el.style.setProperty('--btn',ink?P.INK:P.PAPER);el.style.setProperty('--btnt',ink?P.PAPER:P.INK);
  el.querySelectorAll('img.wmf').forEach(i=>i.src=i.src.replace(/logo_(ink|white)/,ink?'logo_ink':'logo_white'));}
-function go(){if(P.fixed){const el=document.querySelector(P.sel);const r=el.getBoundingClientRect();const ci=cost(r,P.ink),cc=cost(r,P.cream);if(!P.lock)tone(el,ci<=cc?'ink':'cream');if(Math.min(ci,cc)>.42)el.classList.add('glow');const ft=P.foot?document.querySelector('.ft'):null;if(ft){const parts=[...ft.children].map(e=>e.getBoundingClientRect());let a=0,b=0;for(const q of parts){a+=cost(q,P.ink);b+=cost(q,P.cream);}tone(ft,a<=b?'ink':'cream');if(Math.min(a,b)/parts.length>.45)[...ft.children].forEach(e=>e.classList.add('glow'));}window.__placed='fixed';return;}if(P.quiet&&P.sy)P.sy=[P.sy[0]-70,P.sy[1]+70];const el=document.querySelector(P.sel);const ft=P.foot?document.querySelector('.ft'):null;const fr=ft?ft.getBoundingClientRect():null;let best=null;
+function go(){if(P.fixed){const el=document.querySelector(P.sel);const r=el.getBoundingClientRect();const ci=cost(r,P.ink),cc=cost(r,P.cream);if(!P.lock)tone(el,ci<=cc?'ink':'cream');if(!P.noglow&&Math.min(ci,cc)>.42)el.classList.add('glow');const ft=P.foot?document.querySelector('.ft'):null;if(ft){const parts=[...ft.children].map(e=>e.getBoundingClientRect());let a=0,b=0;for(const q of parts){a+=cost(q,P.ink);b+=cost(q,P.cream);}tone(ft,a<=b?'ink':'cream');if(!P.noglow&&Math.min(a,b)/parts.length>.45)[...ft.children].forEach(e=>e.classList.add('glow'));}window.__placed='fixed';return;}if(P.quiet&&P.sy)P.sy=[P.sy[0]-70,P.sy[1]+70];const el=document.querySelector(P.sel);const ft=P.foot?document.querySelector('.ft'):null;const fr=ft?ft.getBoundingClientRect():null;let best=null;
  for(const at of P.ats)for(const w of P.ws)for(const k of[1,.86])for(let i=0;i<P.n;i++){const off=(at[0]=='t'?P.top:P.bot)+i*36;put(el,at,w,off,k);
   const r=el.getBoundingClientRect();if(r.top<P.top-1||r.bottom>P.H-P.bot+1||r.left<0||r.right>P.W)continue;if(fr&&hit(r,{left:fr.left,right:fr.right,top:fr.top-28,bottom:fr.bottom}))continue;
   const band=(P.sy&&Math.min(r.bottom,P.sy[1])-Math.max(r.top,P.sy[0])>12?.9:0)+(P.quiet&&P.sy&&r.bottom<P.sy[0]?.25:0);const hl=lines(el,'.h',P.lh),xs=Math.max(0,hl-P.hl)*.2;
   for(const t of['ink','cream']){let c=cost(r,P[t])+band+xs+(k<1?.05:0)+(t!=P.tone0?.06:0)+(at!=P.pref?.04:0)+i*.004;if(!best||c<best.c)best={c,at,w,off,k,t};}}
- if(best){put(el,best.at,best.w,best.off,best.k);tone(el,best.t);if(best.c>.42)el.classList.add(P.quiet?'qglow':'glow');}
+ if(best){put(el,best.at,best.w,best.off,best.k);tone(el,best.t);if(!P.noglow&&best.c>.42)el.classList.add(P.quiet?'qglow':'glow');}
  if(ft){const parts=[...ft.children].map(e=>e.getBoundingClientRect());let ci=0,cc=0;for(const r of parts){ci+=cost(r,P.ink);cc+=cost(r,P.cream);}
-  tone(ft,ci<=cc?'ink':'cream');if(Math.min(ci,cc)/parts.length>.45)[...ft.children].forEach(e=>e.classList.add('glow'));}
+  tone(ft,ci<=cc?'ink':'cream');if(!P.noglow&&Math.min(ci,cc)/parts.length>.45)[...ft.children].forEach(e=>e.classList.add('glow'));}
  window.__placed=JSON.stringify(best);}
 document.fonts.ready.then(()=>setTimeout(go,30));})();</script>"""
 
@@ -107,7 +107,7 @@ def placer(ad, bg, y0):
     P = dict(grid(bg), sel=".blk" if deck else ".ft" if quiet else ".t", foot=deck, quiet=quiet, W=W, H=H, top=top, bot=bot, n=(26 if ad.get("layout") == "quiet" else 10) if story else (18 if ad.get("layout") == "quiet" else 8), side=ad.get("x", 64 if deck else 72),
              hs=ad.get("hs", 96 if deck else 78), cs=ad.get("cs", 38 if deck else 34), pref=pref, tone0="cream" if ad.get("tone") == "cream" else "ink",
              ats=["bc"] if quiet else ["tl", "tr", "bl", "br"] + (["tc"] if deck else []), ws=[1000] if quiet else sorted({w0, 380, 460, 560, 680}), INK=B.DECK_INK, PAPER=B.DECK_PAPER,
-             sy=band(ad, y0), lh=.9 if deck else .98, hl=2 if deck else 1, fixed=bool(ad.get("fixed")), lock="tone" in ad.get("lock", []))
+             sy=band(ad, y0), lh=.9 if deck else .98, hl=2 if deck else 1, fixed=bool(ad.get("fixed")), lock="tone" in ad.get("lock", []), noglow=bool(ad.get("noglow")))
     return PLACE_JS % json.dumps(P)
 
 def prep(ad):

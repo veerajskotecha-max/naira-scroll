@@ -2964,6 +2964,31 @@
    "tone": "cream"
   },
   {
+   "id": "verdant-cushion-studs-crazy22",
+   "plate": "plates/crazy/C22.jpg",
+   "layout": "deck",
+   "story": {
+    "at": "tl",
+    "fixed": true,
+    "y": 300
+   },
+   "h": "Two peas in a pod.",
+   "c": "emerald-green cubic zirconia, not peas.",
+   "spec": "13 mm · cushion halo · silver tone",
+   "cta": "Shop the studs",
+   "price": "₹1,199",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.29,
+    0.84
+   ],
+   "cy": 0.565,
+   "noglow": true
+  },
+  {
    "id": "halo-curve-ring-crazy18",
    "plate": "plates/crazy/C18.jpg",
    "layout": "deck",

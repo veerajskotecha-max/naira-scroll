@@ -1,4 +1,4 @@
-# Naira crazy ads: 20 concepts (22 Oct 2026)
+# Naira crazy ads: 20 ads (22 Oct 2026)
 
 The founder found the five-format set too basic. These 20 push the visual pun much further. Each one is a surreal or
 deeply Indian joke that makes a stranger stop scrolling, then look twice at the jewellery. The account's best seller works
@@ -49,6 +49,6 @@ Every frame was scored against the product's lock and reference image; 8 passes,
 
 | Result | Concepts |
 |---|---|
-| Passed (8 or more) | C01–C06, C08–C14, C16, C18–C20 |
+| Passed (8 or more) | C01–C06, C08–C14, C16, C18–C20, C22 (8.9) |
 | Reserve (7.5) | C07 (about 58 stones show in the ice where a 36 cm choker has about 110, so it reads short), C15 (each stud reads about 20 mm beside the star anise, against a true 15 mm) |
 | Empty | C17, C21 |

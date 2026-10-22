@@ -443,6 +443,7 @@ CZ_FIX = {
  "C14": {"h": "Tennis bracelet.<br>Cricket nation.", "w": 900, "scrim": True, "tone": "cream", "lock": ["tone"], "feed": {"cy": .55}},
  "C18": {"feed": {"cy": .47, "w": 940, "hs": 96}},
  "C19": {"feed": {"cy": .47, "hs": 100}},
+ "C22": {"noglow": True, "story": {"at": "tl", "fixed": True, "y": 300}},
  "C20": {"h": "Cherry earrings,<br>grown up.", "w": 900, "story": {"at": "tl", "fixed": True, "y": 300, "hs": 96}},
 }
 

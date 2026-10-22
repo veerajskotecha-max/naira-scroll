@@ -284,5 +284,40 @@
     "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C19-a1.png"
    }
   ]
+ },
+ {
+  "id": "C22",
+  "concept": "Two peas in a pod: a split green pea pod on a bold flat tomato-red ground, the two Verdant studs taking two of the pea places, faces up, their emerald centres pea-sized.",
+  "headline": "Two peas in a pod.",
+  "key": "verdant-cushion-studs",
+  "title": "Verdant Cushion Studs",
+  "format": "crazy",
+  "file": "plates/crazy/C22.jpg",
+  "job_id": "75adce81-793e-41b2-9691-c4ee5262ef98",
+  "attempts": 1,
+  "score": 8.9,
+  "pass": true,
+  "flagged": false,
+  "notes": "Two peas in a pod: the Verdant studs take two pea places in a split pod on a flat tomato-red ground, their emerald centres pea-sized. Pod and loose peas 0.29-0.84, studs 0.46-0.60. Top 28% is plain red, calm for the headline (top-left or top-right). Reference: listing-1 pair packshot only, in slot 1.",
+  "prop": "split fresh pea pod with peas on a flat tomato-red ground",
+  "copy_space": "tl",
+  "tone": "bold",
+  "subject_y": [
+   0.29,
+   0.84
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising photograph for an Indian demi-fine jewellery brand, shot from directly above: one fresh, plump green pea pod, about 9cm long, split open along its seam and lying on a gentle diagonal across the middle of a bold flat saturated tomato-red paper ground. Inside the open pod sits a neat row of real bright green peas, and the two silver studs take two of the pea places, side by side in the middle of the row, nestled in the pod's pale inner lining, faces up to the camera, their green centres exactly where peas would be. Three or four loose peas have rolled onto the tomato-red ground beside the pod. Real pod texture: waxy matte green skin with fine veins, the pale fleshy inner lining, the little stalk and curled green calyx at one end. The joke reads in one glance: two of these peas are jewellery. IMAGE 1 is our approved product photograph of this exact pair and the authority on it: its construction, size, metal colour and stone colour; ignore its background and light. The piece: 2 studs, 2 green stones. Each stud is about 13mm across: 1 deep emerald-green cushion-cut cubic zirconia, a soft rounded square about 8mm, held in a smooth polished silver bezel; around it one single halo of 22 round clear stones, each held by its own small pointed claws, so the outer edge of the halo is a crisp scalloped sunburst. Bright cool rhodium silver tone. The centre must stay one deep emerald-green cushion cut, never round, never mint, teal or lime; the halo stays one single row of clear round stones, never double, never coloured; the metal stays bright cool silver, never gold, never tinted by the ground. The two studs are identical, both face up, their posts hidden in the pod. Scale test: each pea is about 8 to 9mm across, the same size as a stud's 8mm green centre, so each stud with its halo is only a little wider than a pea; the pod is about 9cm long and 1.5cm wide. A crisp contact shadow sits under the pod, each pea and each stud. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the pod and the studs away from the very top and bottom edges, in the middle of the frame. Copy space: the top third of the frame, plain flat tomato-red ground, is calm and empty for a headline. Light: editorial, one strong hard key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the polished silver bezels show a crisp bright white edge and a dark rolled edge, every halo stone carries internal sparkle and one pure-white catchlight, and each cushion centre glows deep emerald with crisp facet flashes. Honest macro optics: the studs and the peas beside them are needle-sharp, the far end of the pod and the loose peas fall only slightly soft. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No other jewellery beyond the two studs. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "b67e9332-a77c-490f-b768-0fced5bd8f8e"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "75adce81-793e-41b2-9691-c4ee5262ef98",
+    "score": 8.9,
+    "verdict": "PASS (8.9): overhead, a split green pea pod on a diagonal across flat tomato-red paper, a row of real peas with the two studs side by side in two pea places, faces up, and three loose peas with crisp contact shadows. Studs faithful at full size: deep emerald cushion centres in smooth polished bezels, one single halo of round clear stones on small pointed claws, scalloped sunburst edge, cool silver untinted by the red. The 8mm centres match the peas, so the scale proves itself and the joke reads in one glance.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C22-a1.png"
+   }
+  ]
  }
 ]
