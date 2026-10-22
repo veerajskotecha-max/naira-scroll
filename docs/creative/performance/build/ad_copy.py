@@ -423,6 +423,27 @@ CR = [  # id, handle, headline, correction, spec, primary text opener, variant
   "Cherry earrings, grown up. 🍒 Ruby-red baguette cubic zirconia across a 15 mm hinged huggie, 18k gold tone. The Baguette Huggies, ₹1,199.", "Ruby"),
 ]
 
+# Placement for the crazy frames, set by eye from the contact sheets: explicit line breaks, the Feed crop centre (cy), and a fixed
+# corner where the auto-placer would cross the subject. Reviewer fixes still win.
+CZ_FIX = {
+ "C01": {"tone": "cream", "lock": ["tone"]},
+ "C02": {"story": {"h": "Never<br>melts.", "at": "tr", "fixed": True, "y": 760, "w": 420}},
+ "C03": {"h": "Have your cake.<br>Wear it too.", "w": 900, "hs": 96, "feed": {"cy": .40, "at": "tr", "fixed": True, "y": 60},
+         "story": {"at": "tr", "fixed": True, "y": 300}},
+ "C04": {"c": "25 mm braided hoops, every throw a winner.", "hs": 92},
+ "C05": {"h": "Surgical steel.<br>Zero surgery.", "w": 900, "feed": {"cy": .40, "hs": 100},
+         "story": {"at": "tl", "fixed": True, "y": 280, "hs": 80, "c": ""}},
+ "C06": {"h": "The other<br>baguette."},
+ "C09": {"h": "Nazar<br>na<br>lage.", "c": "against the evil eye.", "w": 320, "hs": 88, "cs": 32, "at": "tr", "fixed": True,
+         "feed": {"cy": .45, "y": 60}, "story": {"y": 300}},
+ "C10": {"h": "Out after<br>midnight.", "w": 600, "at": "tl", "fixed": True, "feed": {"cy": .46, "y": 60}, "story": {"y": 300}},
+ "C13": {"h": "Spot the<br>real one.", "feed": {"cy": .47}},
+ "C14": {"h": "Tennis bracelet.<br>Cricket nation.", "w": 900, "scrim": True, "tone": "cream", "lock": ["tone"], "feed": {"cy": .55}},
+ "C18": {"feed": {"cy": .47, "w": 940, "hs": 96}},
+ "C19": {"feed": {"cy": .47, "hs": 100}},
+ "C20": {"h": "Cherry earrings,<br>grown up.", "w": 900, "story": {"at": "tl", "fixed": True, "y": 300, "hs": 96}},
+}
+
 def shots():
     """copy space and the jewellery's vertical extent per plate, from the shoot manifests"""
     out = {}
@@ -497,7 +518,6 @@ def build():
             rows.append(dict(ad=f"{k}-{fmt}-{tag}", product=name, format=fmt, placement=tag, variant=meta.get("variant") or "",
                              reserve="yes" if ov.get("reserve") or k in HOLD else "", primary_text=f"{meta['pt']}\n\n{OFFER}",
                              headline=f"{name} · {price}", cta="SHOP_NOW", url=url(k, fmt, meta.get("variant"))))
-    json.dump({"frames": frames}, open(f"{HERE}/copy.json", "w"), ensure_ascii=False, indent=1)
     CS = {}
     for g in ("g1", "g2", "g3", "g4"):
         p = f"{HERE}/shots_crazy_{g}.json"
@@ -511,10 +531,13 @@ def build():
                  at=s_.get("copy_space") if s_.get("copy_space") in ("tl", "tr", "bl", "br") else "tl", w=680, hs=108, cs=40)
         if s_.get("subject_y"): e["sy"] = s_["subject_y"]; e["cy"] = round(min(max(sum(s_["subject_y"]) / 2, .36), .64), 3)
         if s_.get("tone") == "dark": e["tone"] = "cream"
+        cz = CZ_FIX.get(cid, {}); e.update({x: y for x, y in cz.items() if x not in ("feed", "story")})
+        if "<br>" in e["h"]: e["h"] = "<br>".join(glue_h(x) for x in e["h"].split("<br>"))
         fx = {t: FX.get(f"{stem}-{t}", {}) for t in ("feed", "story")}
         if fx["feed"].get("drop"): continue
         for t in ("feed", "story"):
-            f = {x: y for x, y in fx[t].items() if x != "drop"}
+            f = {**cz.get(t, {}), **{x: y for x, y in fx[t].items() if x != "drop"}}
+            if "<br>" in f.get("h", ""): f["h"] = "<br>".join(glue_h(x) for x in f["h"].split("<br>"))
             if fx[t].get("drop"): f = {"layout": "plain"}
             if f: e[t] = f
         frames.append(e)
@@ -522,6 +545,7 @@ def build():
             rows.append(dict(ad=f"{stem}-{tag}", product=name, format="crazy", placement=tag, variant=variant or "",
                              reserve="yes" if (s_.get("score") or 10) < 8 else "", primary_text=f"{pt}\n\n{OFFER}",
                              headline=f"{name} · {price}", cta="SHOP_NOW", url=url(k, "crazy", variant)))
+    json.dump({"frames": frames}, open(f"{HERE}/copy.json", "w"), ensure_ascii=False, indent=1)
     P_ = plan(rows); W = {o["stem"]: o for o in P_}
     for r in rows:
         o = W[r["ad"].rsplit("-", 1)[0]]; r.update(campaign=o["campaign"], adset=o["adset"], wave=o["wave"])

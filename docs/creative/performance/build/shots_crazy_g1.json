@@ -1,23 +1,26 @@
 [
  {
   "id": "C01",
-  "concept": "Indian Railways sleeper compartment: the necklace hangs where the emergency chain would be, the toggle as the pull handle.",
-  "headline": "Pull for compliments.",
+  "concept": "Laced up: a clean white leather sneaker on a bold flat cobalt-blue ground, the Toggle Link Chain threaded through its eyelets as the lace, the pave toggle closing at the top like a bow.",
+  "headline": "Laced up.",
   "key": "toggle-link-chain",
   "title": "Toggle Link Chain",
   "format": "crazy",
-  "file": null,
-  "job_id": "4654eedc-e0dc-4dfe-b4d2-515d6dedcaf5",
+  "file": "plates/crazy/C01.jpg",
+  "job_id": "1133727a-f665-4094-80b2-866a89be1b19",
   "attempts": 2,
-  "score": 6.8,
-  "pass": false,
+  "score": 8.5,
+  "pass": true,
   "flagged": false,
-  "notes": "EMPTY: a1 (6.5) looped the chain twice with loose ends; a2 (6.8) fixed the hang but drew the toggle bar too long and dropped the clasp into the bottom band. Neither reaches 7.5.",
-  "prop": "sleeper-class train window bar, blue rexine berth, green walls",
+  "notes": "Laced up: the Toggle Link Chain is the shoelace of a plain white leather sneaker on a bold flat cobalt-blue ground, the pave toggle closing on the tongue like a bow. Shoe 0.21-0.83, chain 0.36-0.63, clasp about 0.37. Calm, darker cobalt upper left for the headline. Replaces the retired sleeper-train C01 (jobs f9020c6c-6902-4ded-b42f-c25eefdc22fe 6.5, 4654eedc-e0dc-4dfe-b4d2-515d6dedcaf5 6.8).",
+  "prop": "plain white leather low-top sneaker on a flat cobalt-blue ground",
   "copy_space": "tl",
-  "tone": "light",
-  "subject_y": null,
-  "prompt": "Vertical 9:16 witty, theatrical editorial advertising photograph inside an Indian Railways sleeper-class compartment, built as a set: hard daylight floods in through a barred window, a blue rexine berth runs below it, the walls are painted pale railway green and a round fan grille sits high on the wall, all softly out of focus. Where the red emergency chain would hang, the gold necklace hangs instead: the one closed necklace is draped over a slim steel rod about 12mm thick at a single point, its two lengths of paperclip chain fall straight down side by side and meet at the closed toggle clasp, which dangles at the bottom like the pull handle, needle-sharp and turned to the camera. No passengers, no signs, no lettering anywhere. Fix from the previous attempt: the chain was looped over the rod twice, making four strands with loose free ends; this time it is one single continuous closed necklace over the rod at one point, exactly two hanging lengths joined at the bottom by the clasp, no loose ends, no extra strands. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. The bar is short, only about two thirds of the ring's outer width, lying threaded through the ring across its upper half, never longer than the ring, never hanging below it. Scale test: each window bar is about 12mm thick, a little less than the 15mm spring ring; each paperclip link is 4mm wide and 11mm long; the two hanging lengths drop about 25cm; the berth is about 60cm deep. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the plain green wall beside the window, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "tone": "bold",
+  "subject_y": [
+   0.21,
+   0.83
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising photograph: one clean plain white smooth-leather low-top sneaker, a minimal unbranded court shoe with a smooth unbroken side panel and white enamelled eyelets, stands on a bold flat cobalt-blue seamless paper ground that sweeps up into the background, the whole set one saturated colour. It is seen in a close three-quarter view from the front and a little above, so the laced front of the shoe, from toe cap to collar, fills the middle of the frame. Its usual lace is gone: the gold necklace is the lace, one continuous chain crisscrossing neatly up through every pair of eyelets, its paperclip links running through each eyelet, and its two ends come out of the top pair of eyelets and meet over the tongue, where the toggle closes like a lace bow: the short pave bar threaded through the spring-gate ring, the clasp sitting centred on the top of the tongue, needle-sharp and big in frame. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. The bar is short, only about two thirds of the ring's outer width, lying threaded through the ring across its upper half, never longer than the ring, never hanging below it. The shoe is unbranded: no swoosh, no side stripes, no perforated logo, no heel tab, no tongue label, no stitched emblem, nothing that reads as a brand. There is no ordinary lace and no fabric bow; the chain is the only lace and it is one unbroken chain, never cut into pieces, no loose ends. Scale test: each eyelet is about 5mm across and each paperclip link 4mm wide, so one link just passes through an eyelet; the spring ring is 15mm, about three eyelets wide, and the bar 9mm; the shoe is about 25cm long. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, plain flat cobalt-blue ground, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
   "refs": [
    "d7ae5d59-e64c-42e0-869a-e2cde802e598",
    "905b250a-9517-4d23-b82b-151cc7d16cc4"
@@ -25,17 +28,29 @@
   "all_jobs": [
    {
     "attempt": 1,
-    "job_id": "f9020c6c-6902-4ded-b42f-c25eefdc22fe",
-    "score": 6.5,
-    "verdict": "FAIL: the chain topology is wrong, two separate loops over the rod make four hanging strands with loose free ends and a stray dangling piece, so it no longer reads as one closed necklace. Clasp itself is faithful (gate, nub, short pave bar); sleeper-class set reads well.",
-    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C01-a1.png"
+    "job_id": "62638f2f-7787-487e-825e-c155f02f44ba",
+    "score": 8.2,
+    "verdict": "SUPERSEDED (8.2 on the interim C01b brief): white canvas sneaker on pale terrazzo, chain laced crisscross, faithful toggle on the tongue; shot before the recast asked for white leather on a bold flat colour ground, so not used.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C01b_a1.png"
    },
    {
     "attempt": 2,
+    "job_id": "1133727a-f665-4094-80b2-866a89be1b19",
+    "score": 8.5,
+    "verdict": "PASS (8.5): plain white leather low-top on a flat cobalt-blue seamless, no swoosh, stripes or logo; one paperclip chain laced crisscross through all seven eyelet pairs and the tongue keeper, the toggle closed on the top of the tongue like a bow. Clasp faithful at full size: spring-gate ring with flat-cut ends, slimmer gate and push-pin nub at 3 o'clock, short pave bar about 0.6x the ring threaded through its upper left. Gold reads warm against the blue. Minor: some crossings show both a straight and a diagonal run on top, and the clasp is small on a phone but reads.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C01c_a1.png"
+   }
+  ],
+  "replaced_jobs": [
+   {
+    "job_id": "f9020c6c-6902-4ded-b42f-c25eefdc22fe",
+    "score": 6.5,
+    "concept": "retired sleeper-train concept"
+   },
+   {
     "job_id": "4654eedc-e0dc-4dfe-b4d2-515d6dedcaf5",
     "score": 6.8,
-    "verdict": "FAIL (6.8): the chain now hangs correctly (one loop over the rod, two lengths, clasp at the bottom) and the sleeper set is strong, but the pave bar is drawn long, about 1.4x the ring, lying across and past it, and the clasp hangs at 0.80-0.90, inside the bottom band.",
-    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C01-a2.png"
+    "concept": "retired sleeper-train concept"
    }
   ]
  },

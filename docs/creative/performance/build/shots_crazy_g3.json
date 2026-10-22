@@ -132,7 +132,7 @@
   "attempts": 2,
   "score": 7.5,
   "pass": false,
-  "notes": "EMPTY: no attempt reached 8. Attempt 1 (7.0): FAIL on scale: golden-hour harbour, black iron bollard with a thick twisted mooring rope, the Torsade cuff on the bollard top with both pearls facing; cuff construction faithful, but against the rope (about 4cm) and bollard the cuff reads 15 to 18cm across, costume-sized, because the bollard and rope are drawn toy-small. | Attempt 2 (7.5): Golden-hour harbour, full black iron bollard with a twisted rope looped round it, the Torsade cuff on the bollard top with both pearls facing; construction faithful and the cuff now covers under half the top, but each pearl is still about as thick as the mooring rope, so against a real mooring rope the cuff reads oversized. Below the pass mark.",
+  "notes": "REPLACED by C21 at the coordinator's request. EMPTY: no attempt reached 8. Attempt 1 (7.0): FAIL on scale: golden-hour harbour, black iron bollard with a thick twisted mooring rope, the Torsade cuff on the bollard top with both pearls facing; cuff construction faithful, but against the rope (about 4cm) and bollard the cuff reads 15 to 18cm across, costume-sized, because the bollard and rope are drawn toy-small. | Attempt 2 (7.5): Golden-hour harbour, full black iron bollard with a twisted rope looped round it, the Torsade cuff on the bollard top with both pearls facing; construction faithful and the cuff now covers under half the top, but each pearl is still about as thick as the mooring rope, so against a real mooring rope the cuff reads oversized. Below the pass mark.",
   "prop": "old black iron harbour bollard with a thick three-strand mooring rope, wet harbour wall, golden-hour sea",
   "copy_space": "tl",
   "tone": "light",
@@ -150,5 +150,37 @@
    "4f5d31c6-42e4-41ea-a59f-3e5d4d41580d"
   ],
   "raw_original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C17_a2.png"
+ },
+ {
+  "id": "C21",
+  "concept": "Molten Panel Bracelet lying flat on a hot cast-iron tawa like a dosa just off the heat, flame glow under the rim, a steel spatula beside it",
+  "headline": "Hot off the tawa.",
+  "key": "molten-panel-bracelet",
+  "title": "Molten Panel Bracelet",
+  "format": "crazy",
+  "file": null,
+  "job_id": "b17c2c9f-0396-4e05-b0fd-5ee2cf8e68b3",
+  "attempts": 3,
+  "score": 7.5,
+  "pass": false,
+  "notes": "Replaces C17. Attempts 1-2 used the first brief (tawa beside half a dosa); attempt 3 used the restated flame-lit brief. EMPTY: no attempt reached 8. Attempt 1 (7.5): Black cast-iron pan with steam and half a crisp folded dosa, the Molten Panel laid flat beside it parallel to the dosa edge; exactly 5 staggered rows of oval plates and the box clasp faithful, one continuous photograph. Fails on scale and prop: the band reads about 22 to 25mm wide against the pan and dosa (each plate bigger than the dosa bubbles), the pan is a deep western skillet with a long handle rather than a flat tawa, and the gold reads pale champagne. | Attempt 2 (7.0): Flat black cast-iron tawa with steam and a large crisp folded dosa, the Molten Panel laid flat beside it parallel to the dosa edge; the tawa and the slimmer band now read true against the longer dosa, one continuous photograph. Fails on fidelity: only 4 rows of stubby oval plates instead of 5, with a brushed matte finish. | Attempt 3 (7.5): Restated scene: flat black tawa on a gas stove with an orange flame ring glowing under the rim, a plain steel flat spatula and a wisp of steam; the Molten Panel lies flat and solid (no melting) in warm yellow gold with exactly 5 staggered rows and the box clasp, one continuous photograph that reads well at phone size. Fails on fidelity at full size: only about 15 thick domed plates per row instead of about 28 small flat ovals, so the band reads about 20 to 25mm wide, and mid-band three plates are oversized with exposed pins, breaking the brick stagger. Tiny knob markings in the bottom-right corner would need a crop.",
+  "prop": "flat black cast-iron tawa on a gas stove, orange flame glow under the rim, plain steel flat spatula, a wisp of steam",
+  "copy_space": "tl",
+  "tone": "dark",
+  "subject_y": [
+   0.38,
+   0.82
+  ],
+  "prompt": "Theatrical Indian kitchen editorial photograph from a low three-quarter angle, the camera about 35 degrees above the cooking surface: a well-seasoned matte black cast-iron tawa, a flat round Indian griddle with only a very low lip and no tall walls, sits on a black gas stove, and a warm orange ring of gas flame glows beneath its rim, lighting the rim's edge and the dark stove grate below it. The bracelet lies flat, open and straight on the hot bare tawa in the middle of the frame, running left to right across it like a dosa just lifted off the heat, a thin wisp of steam curling up from the iron behind it; its staggered rows of small satin-polished gold oval plates and its square box clasp face the camera and read clearly. A plain stainless-steel flat dosa spatula with a broad thin blade, no brand and no engraving, rests on the tawa just below the bracelet, its short handle lying across the right side of the tawa. The metal is solid and unchanged: it never melts, drips, glows, softens, bends or warps. Earlier attempts drew the band too wide or with only 4 rows of stubby plates; this bracelet has exactly 5 staggered rows across its 15mm band, each oval plate about twice as long as it is wide, and the band is about one eleventh of the bracelet's own length, a long slim strap in warm yellow gold like IMAGE 1, never pale champagne. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a macro of the same bracelet: take from it only the shape, size and staggered layout of the oval plates. THE PIECE: a flat, flexible 17cm bracelet about 15mm wide made of small flat oval gold plates, each about 6mm by 3mm, laid in exactly 5 staggered rows like brickwork, so each plate sits between two plates of the next row; the plates are articulated so the band bends and drapes like a watch strap. Polished warm 18k gold tone with a soft satin glow on every plate. It closes with 1 flat square gold box clasp. 0 stones. The plates must stay separate flat oval plates in 5 staggered brick-set rows, never a woven mesh, never rectangular watch links, never round fish scales or sequins, never a solid rigid cuff. SCALE TEST: The band is about 15mm wide, about the width of a thumb; each oval plate is about 6mm long; the bracelet is 17cm long, about 5.5cm across when closed. The tawa is about 28cm across, so the 17cm bracelet spans a little over half of it; the spatula's flat steel blade is about 9cm wide and 11cm long, so the bracelet's 15mm band is about a sixth of the blade's width and the bracelet is about one and a half times the blade's length; the whole spatula is about 30cm long, clearly longer than the bracelet. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit within the central 70% of the frame's height; the top 15% and the bottom 15% of the photograph are simply more of the same scene, quiet and uncluttered. The upper-left part of the frame, just below the top 15%, is calm dark kitchen background and soft steam for a headline. LIGHT: one strong warm key light from the upper left, the warm orange flame glow from beneath the rim, deep black iron and one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+  "refs": [
+   "113231e9-b298-4567-bd8b-b37899022644",
+   "d49bace8-52ad-43ae-9a75-34dabcf7eb75"
+  ],
+  "all_job_ids": [
+   "6a987aa1-394b-4b0c-8d55-c9bef31ed87c",
+   "bdc1457e-c621-43ba-8b0f-d45680775276",
+   "b17c2c9f-0396-4e05-b0fd-5ee2cf8e68b3"
+  ],
+  "raw_original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C21_a3.png"
  }
 ]

@@ -2576,6 +2576,467 @@
    "w": 640,
    "hs": 96,
    "cs": 38
+  },
+  {
+   "id": "toggle-link-chain-crazy01",
+   "plate": "plates/crazy/C01.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Laced up.",
+   "c": "a toggle clasp, not a shoelace knot.",
+   "spec": "50 cm · paperclip links · toggle clasp",
+   "cta": "Shop the necklace",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.21,
+    0.83
+   ],
+   "cy": 0.52,
+   "tone": "cream",
+   "lock": [
+    "tone"
+   ]
+  },
+  {
+   "id": "prism-riviere-bracelet-crazy02",
+   "plate": "plates/crazy/C02.jpg",
+   "layout": "deck",
+   "story": {
+    "h": "Never<br>melts.",
+    "at": "tr",
+    "fixed": true,
+    "y": 760,
+    "w": 420
+   },
+   "h": "Never melts.",
+   "c": "aqua, pink and yellow cubic zirconia, not syrup.",
+   "spec": "18 cm · pavé halos · silver tone",
+   "cta": "Shop the bracelet",
+   "price": "₹2,399",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.21,
+    0.77
+   ],
+   "cy": 0.49
+  },
+  {
+   "id": "prism-riviere-bracelet-crazy03",
+   "plate": "plates/crazy/C03.jpg",
+   "layout": "deck",
+   "story": {
+    "at": "tr",
+    "fixed": true,
+    "y": 300
+   },
+   "h": "Have your cake.<br>Wear it too.",
+   "c": "pastel cubic zirconia, not sprinkles.",
+   "spec": "18 cm · pavé halos · silver tone",
+   "cta": "Shop the bracelet",
+   "price": "₹2,399",
+   "at": "tl",
+   "w": 900,
+   "hs": 96,
+   "cs": 40,
+   "sy": [
+    0.25,
+    0.78
+   ],
+   "cy": 0.515,
+   "tone": "cream",
+   "feed": {
+    "cy": 0.4,
+    "at": "tr",
+    "fixed": true,
+    "y": 60
+   }
+  },
+  {
+   "id": "woven-gold-hoops-crazy04",
+   "plate": "plates/crazy/C04.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Hoopla.",
+   "c": "25 mm braided hoops, every throw a winner.",
+   "spec": "25 mm · braided · 18k gold-tone",
+   "cta": "Shop the hoops",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 92,
+   "cs": 40,
+   "sy": [
+    0.135,
+    0.78
+   ],
+   "cy": 0.458,
+   "tone": "cream"
+  },
+  {
+   "id": "heartbead-bracelet-crazy05",
+   "plate": "plates/crazy/C05.jpg",
+   "layout": "deck",
+   "story": {
+    "at": "tl",
+    "fixed": true,
+    "y": 280,
+    "hs": 80,
+    "c": ""
+   },
+   "h": "Surgical steel.<br>Zero surgery.",
+   "c": "6 mm steel beads and a gold-tone heart.",
+   "spec": "6 mm steel beads · toggle · heart charm",
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 900,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.24,
+    0.73
+   ],
+   "cy": 0.485,
+   "tone": "cream",
+   "feed": {
+    "cy": 0.4,
+    "hs": 100
+   }
+  },
+  {
+   "id": "baguette-tennis-bracelet-crazy06",
+   "plate": "plates/crazy/C06.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "The other<br>baguette.",
+   "c": "clear cubic zirconia, not crust.",
+   "spec": "17 cm · baguette-cut CZ · 18k gold-tone",
+   "cta": "Shop the bracelet",
+   "price": "₹1,699",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.27,
+    0.72
+   ],
+   "cy": 0.495,
+   "tone": "cream"
+  },
+  {
+   "id": "baguette-tennis-necklace-crazy07",
+   "plate": "plates/crazy/C07.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Keep it on ice.",
+   "c": "clear baguettes, cold to the eye.",
+   "spec": "36 cm · baguette-cut CZ · 18k gold-tone",
+   "cta": "Shop the necklace",
+   "price": "₹2,300",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.31,
+    0.83
+   ],
+   "cy": 0.57,
+   "tone": "cream"
+  },
+  {
+   "id": "cushion-halo-ring-crazy08",
+   "plate": "plates/crazy/C08.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Sweet proposal.",
+   "c": "an 8 mm centre, on a gulab jamun.",
+   "spec": "8 mm centre · cushion halo · silver tone",
+   "cta": "Shop the ring",
+   "price": "₹1,199",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.41,
+    0.8
+   ],
+   "cy": 0.605,
+   "tone": "cream"
+  },
+  {
+   "id": "verdant-eternity-band-crazy09",
+   "plate": "plates/crazy/C09.jpg",
+   "layout": "deck",
+   "story": {
+    "y": 300
+   },
+   "h": "Nazar<br>na<br>lage.",
+   "c": "against the evil eye.",
+   "spec": "adjustable · emerald-green CZ · silver tone",
+   "cta": "Shop the ring",
+   "price": "₹1,099",
+   "at": "tr",
+   "w": 320,
+   "hs": 88,
+   "cs": 32,
+   "sy": [
+    0.31,
+    0.75
+   ],
+   "cy": 0.53,
+   "fixed": true,
+   "feed": {
+    "cy": 0.45,
+    "y": 60
+   }
+  },
+  {
+   "id": "bold-nocturne-chain-crazy10",
+   "plate": "plates/crazy/C10.jpg",
+   "layout": "deck",
+   "story": {
+    "y": 300
+   },
+   "h": "Out after<br>midnight.",
+   "c": "chunky gold-tone links, one in pavé.",
+   "spec": "46 cm · one pavé link · 18k gold-tone",
+   "cta": "Shop the chain",
+   "price": "₹1,799",
+   "at": "tl",
+   "w": 600,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.36,
+    0.81
+   ],
+   "cy": 0.585,
+   "tone": "cream",
+   "fixed": true,
+   "feed": {
+    "cy": 0.46,
+    "y": 60
+   }
+  },
+  {
+   "id": "bold-nocturne-bracelet-crazy11",
+   "plate": "plates/crazy/C11.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Heavy lifting, done.",
+   "c": "chunky gold-tone links, one in pavé.",
+   "spec": "20 cm · one pavé link · 18k gold-tone",
+   "cta": "Shop the bracelet",
+   "price": "₹1,599",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.46,
+    0.68
+   ],
+   "cy": 0.57,
+   "tone": "cream"
+  },
+  {
+   "id": "kiss-knot-bangle-crazy12",
+   "plate": "plates/crazy/C12.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "X marks the spot.",
+   "c": "a ribbed coil, crossed in one polished X.",
+   "spec": "flexible · gold or silver tone",
+   "cta": "Shop the bangle",
+   "price": "₹1,199",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.38,
+    0.85
+   ],
+   "cy": 0.615
+  },
+  {
+   "id": "lilac-papillon-ring-crazy13",
+   "plate": "plates/crazy/C13.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Spot the<br>real one.",
+   "c": "lilac pavé wings in 18k gold tone.",
+   "spec": "lilac pavé · 18k gold-tone · butterfly",
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.22,
+    0.87
+   ],
+   "cy": 0.545,
+   "tone": "cream",
+   "feed": {
+    "cy": 0.47
+   }
+  },
+  {
+   "id": "riviere-eternal-bracelet-crazy14",
+   "plate": "plates/crazy/C14.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Tennis bracelet.<br>Cricket nation.",
+   "c": "one fine line of clear cubic zirconia.",
+   "spec": "one line of clear stones · polished buckle",
+   "cta": "Shop the bracelet",
+   "price": "₹1,449",
+   "at": "tl",
+   "w": 900,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.45,
+    0.82
+   ],
+   "cy": 0.635,
+   "tone": "cream",
+   "scrim": true,
+   "lock": [
+    "tone"
+   ],
+   "feed": {
+    "cy": 0.55
+   }
+  },
+  {
+   "id": "quatrefoil-eclat-studs-crazy15",
+   "plate": "plates/crazy/C15.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Star of the dabba.",
+   "c": "four-point stars, not chakri phool.",
+   "spec": "15 mm · four-point star · 18k gold-tone",
+   "cta": "Shop the studs",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.25,
+    0.75
+   ],
+   "cy": 0.5,
+   "tone": "cream"
+  },
+  {
+   "id": "silk-mesh-cuff-crazy16",
+   "plate": "plates/crazy/C16.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "On air.",
+   "c": "woven mesh, rolled into a cuff.",
+   "spec": "19 mm mesh · gold or silver tone",
+   "cta": "Shop the cuff",
+   "price": "₹1,499",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.25,
+    0.69
+   ],
+   "cy": 0.47,
+   "tone": "cream"
+  },
+  {
+   "id": "halo-curve-ring-crazy18",
+   "plate": "plates/crazy/C18.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Eye of the tiger.",
+   "c": "a tiger's eye and a champagne crystal.",
+   "spec": "tiger's eye · champagne crystal · open band",
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.2,
+    0.86
+   ],
+   "cy": 0.53,
+   "tone": "cream",
+   "feed": {
+    "cy": 0.47,
+    "w": 940,
+    "hs": 96
+   }
+  },
+  {
+   "id": "brushed-gold-huggies-crazy19",
+   "plate": "plates/crazy/C19.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Brush twice daily.",
+   "c": "satin-brushed gold-tone huggies.",
+   "spec": "satin-brushed · 18k gold-tone · huggie hoops",
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.24,
+    0.86
+   ],
+   "cy": 0.55,
+   "feed": {
+    "cy": 0.47,
+    "hs": 100
+   }
+  },
+  {
+   "id": "baguette-huggies-crazy20",
+   "plate": "plates/crazy/C20.jpg",
+   "layout": "deck",
+   "story": {
+    "at": "tl",
+    "fixed": true,
+    "y": 300,
+    "hs": 96
+   },
+   "h": "Cherry earrings,<br>grown up.",
+   "c": "ruby baguettes on a 15 mm huggie.",
+   "spec": "15 mm · hinged · 18k gold-tone",
+   "cta": "Shop the huggies",
+   "price": "₹1,199",
+   "at": "bl",
+   "w": 900,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.19,
+    0.68
+   ],
+   "cy": 0.435
   }
  ]
 }
