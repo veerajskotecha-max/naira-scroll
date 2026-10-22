@@ -1,0 +1,247 @@
+[
+ {
+  "id": "C33",
+  "key": "bold-nocturne-chain",
+  "variant": null,
+  "concept": "Bold Nocturne Chain lying in a loop round the label of a black vinyl record on a vintage turntable",
+  "headline": "On heavy rotation.",
+  "score": 8.5,
+  "pass": true,
+  "file": "plates/crazy/C33.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.3,
+   0.7
+  ],
+  "tone": "dark",
+  "notes": "Black LP on a vintage walnut-and-aluminium turntable under warm amber light, a plain oxblood label with no printing; the Bold Nocturne Chain lies in one round loop just outside the label like another groove, its single pave link at the front with a star sparkle, the lobster clasp and tagged extender at the back. Links, interlock and exactly 1 pave link faithful; true size against the 10cm label (the pave link reads a touch bigger than its neighbours, as in the reference). Calm dark walnut across the top quarter.",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "45d517e8-37ab-4bae-b49b-11122f63a4dd",
+    "score": 8.5,
+    "pass": true,
+    "chosen": true,
+    "crop": null,
+    "prompt": "Theatrical late-night listening-room editorial photograph, close and from above at a gentle three-quarter angle: a black vinyl record lies on the platter of a vintage walnut-and-brushed-aluminium turntable, its fine grooves glowing with one warm arc of reflected light, its paper centre label a plain deep oxblood red with no printing at all, the small steel spindle at its centre. The necklace lies on the record in one loose round loop, its clasp closed, circling just outside the label like one more groove, its 1 pave link at the front catching the light. The chrome tonearm rests on its stand at the right edge of the record. Moody, warm and inviting, a favourite record at midnight. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail of the same chain: take from it only the thickness of the links and the pave setting of the one stone link. THE PIECE: a bold 46cm necklace of chunky elongated oval links, each a long rounded rectangle like an oversized paperclip, about 11.7mm wide and about 20mm long, made of thick smooth wire with softly flattened sides in mirror-polished warm 18k gold tone; each link is open in the middle and passes through the next. At the centre front sits exactly 1 link of the same shape and size that is completely pave set with tiny clear cubic zirconia over its whole surface; every other link is plain polished gold with 0 stones. At the back: 1 small gold lobster clasp and a 5cm fine extender chain. The links must stay plain smooth elongated oval links, each threaded through the next, never cable links, never curb, rope or Figaro links, never fused into a solid bar; exactly 1 pave link, never 2 or more, and it stays the same size and shape as its neighbours. SCALE TEST: Each link is about 11.7mm wide and 20mm long, about the width of a fingernail; the whole necklace weighs about 47.6g. The record is 30cm across and its label 10cm; the 46cm necklace laid in a round loop is about 15cm across, so it circles just outside the label, and each 20mm link is about a fifth of the label's width; the spindle is about 7mm thick, a little more than half a link's width. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is the calm dark walnut plinth of the turntable in soft shadow, for a headline. LIGHT: one strong warm amber key light from the upper left, deep black and walnut tones and one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "80b5c9a3-3d93-440b-8be0-f86aed168eb0",
+     "76baa48a-006a-4d65-8870-d629a9020e4a"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C33_a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C34",
+  "key": "bold-nocturne-bracelet",
+  "variant": null,
+  "concept": "Bold Nocturne Bracelet draped across the laced wrist cuff of a red leather boxing glove on a ring's canvas floor",
+  "headline": "Knockout.",
+  "score": 7.5,
+  "pass": false,
+  "file": null,
+  "copy_space": "tl",
+  "subject_y": [
+   0.33,
+   0.76
+  ],
+  "tone": "bold",
+  "notes": "EMPTY: no attempt reached 8. Attempt 1 (7.5): Glossy red unbranded boxing glove on a pale canvas ring floor under one spotlight, red ropes behind; the Bold Nocturne Bracelet draped over the laced wrist cuff with the lobster clasp and tag on the canvas. Strong and glamorous at phone size, exactly 1 pave link, but at full size the links read about 1.4 to 1.8 times too big (each about twice a lace width) and the pave link is stretched longer than its neighbours. | Attempt 2 (7.5): Glossy red unbranded glove under a single spotlight on the canvas, ring corner and ropes behind; the Bold Nocturne Bracelet draped over the laced cuff, now at true size (each link about one lace wide) with exactly 1 pave link the same size as its neighbours, the lobster clasp, extender and tag on the canvas. Fails on a countable detail: a second short chain with a second tag pokes out at the far left end, so the bracelet shows 2 tags and 2 extender pieces; the dark ropes and post also sit in the top quarter. Best C34 frame, usable only as a reserve.",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "f016776f-3341-4556-884d-080c67c18256",
+    "score": 7.5,
+    "pass": false,
+    "chosen": false,
+    "crop": null,
+    "prompt": "Theatrical fight-night editorial photograph, low and close on the pale canvas floor of a boxing ring: one glossy red leather boxing glove with no logo and no lettering lies on its side, its white laces tied at the wrist cuff, the red ring ropes softly out of focus behind. The bracelet is draped across the top of the glove's laced wrist cuff like a winner's sash, its 1 pave link on top in the centre catching the spotlight, its two ends falling down either side of the cuff, the lobster clasp and the small oval tag resting on the canvas. Dramatic, glamorous and powerful, a title-fight moment. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail of the same bracelet: take from it only the link thickness and the lobster clasp. THE PIECE: a 20cm bracelet of chunky elongated oval links, each a long rounded rectangle like an oversized paperclip, about 11.7mm wide and about 20mm long, made of thick smooth wire with softly flattened sides in mirror-polished warm 18k gold tone; each link is open in the middle and passes through the next, about 14 links in all. Exactly 1 link, of the same shape and size, is completely pave set with tiny clear cubic zirconia; every other link is plain polished gold with 0 stones. It closes with 1 gold lobster clasp and a 3cm extender chain ending in 1 small flat oval gold tag. The links must stay plain smooth elongated oval links, each threaded through the next, never cable links, never curb, rope or Figaro links, never fused into a solid bangle; exactly 1 pave link, never 2 or more. SCALE TEST: Each link is about 11.7mm wide and 20mm long, about the width of a fingernail; the bracelet is 20cm long, about 6.5cm across when closed, and weighs about 20.6g. The glove is about 30cm long and its laced wrist cuff about 10cm wide; the 20cm bracelet draped across the cuff spans its width and hangs a few centimetres down each side; each 20mm link is about a fifth of the cuff's width, and each lace eyelet is about 8mm, a little smaller than a link's 11.7mm width. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is the calm dark arena air above the ropes, for a headline. LIGHT: one dramatic hard spotlight from above and slightly left as the key, deep saturated red and black, one crisp shadow on the canvas, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "c199724f-98e0-42a6-b7ce-cf8875ce5378",
+     "ead0194e-a145-40b9-8503-60ac48fa04e1"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C34_a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "e2026006-77a9-4494-bf98-702614201ce2",
+    "score": 7.5,
+    "pass": false,
+    "chosen": false,
+    "crop": null,
+    "prompt": "Theatrical fight-night editorial photograph, low and close on the pale canvas floor of a boxing ring: one glossy red leather boxing glove with no logo and no lettering lies on its side, its white laces tied at the wrist cuff, the red ring ropes softly out of focus behind. The bracelet is draped across the top of the glove's laced wrist cuff like a winner's sash, its 1 pave link on top in the centre catching the spotlight, its two ends falling down either side of the cuff, the lobster clasp and the small oval tag resting on the canvas. Dramatic, glamorous and powerful, a title-fight moment. The previous attempt drew the bracelet's links far too big, each link about twice as wide as one of the glove's flat laces, and stretched the pave link longer than its neighbours; this time the glove is a full-size adult boxing glove and every link, the pave link included, is the same small 20mm by 11.7mm link: each link only a little wider than one flat white lace and about a tenth of the cuff's height, about 14 links in all. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail of the same bracelet: take from it only the link thickness and the lobster clasp. THE PIECE: a 20cm bracelet of chunky elongated oval links, each a long rounded rectangle like an oversized paperclip, about 11.7mm wide and about 20mm long, made of thick smooth wire with softly flattened sides in mirror-polished warm 18k gold tone; each link is open in the middle and passes through the next, about 14 links in all. Exactly 1 link, of the same shape and size, is completely pave set with tiny clear cubic zirconia; every other link is plain polished gold with 0 stones. It closes with 1 gold lobster clasp and a 3cm extender chain ending in 1 small flat oval gold tag. The links must stay plain smooth elongated oval links, each threaded through the next, never cable links, never curb, rope or Figaro links, never fused into a solid bangle; exactly 1 pave link, never 2 or more. SCALE TEST: Each link is about 11.7mm wide and 20mm long, about the width of a fingernail; the bracelet is 20cm long, about 6.5cm across when closed, and weighs about 20.6g. The glove is about 30cm long and its laced wrist cuff about 10cm wide; the 20cm bracelet draped across the cuff spans its width and hangs a few centimetres down each side; each 20mm link is about a fifth of the cuff's width, and each lace eyelet is about 8mm, a little smaller than a link's 11.7mm width. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is the calm dark arena air above the ropes, for a headline. LIGHT: one dramatic hard spotlight from above and slightly left as the key, deep saturated red and black, one crisp shadow on the canvas, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "c199724f-98e0-42a6-b7ce-cf8875ce5378",
+     "ead0194e-a145-40b9-8503-60ac48fa04e1"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C34_a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C35",
+  "key": "kiss-knot-bangle",
+  "variant": "gold",
+  "concept": "Kiss Knot Bangle as the winning O, crossed by its polished X, in the centre of a chalk tic-tac-toe game on black slate",
+  "headline": "XOXO.",
+  "score": 8.5,
+  "pass": true,
+  "file": "plates/crazy/C35.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.27,
+   0.9
+  ],
+  "tone": "dark",
+  "notes": "Black slate at a gentle angle with a chalk tic-tac-toe: O and X on top, X at left, O bottom right, and the gold Kiss Knot lying flat in the centre square as the winning O, its polished X at the front, so the diagonal reads O, XO, O. Ribbed tubogas and X match the reference; same perspective as the chalk, tight contact shadow, true size against the chalk stick. Calm dark slate across the top quarter; the chalk stick reaches into the bottom 15%. | Attempt 1 (7.0): Black slate with a chalk tic-tac-toe (O, X, X, O) and the gold Kiss Knot in the centre completing the diagonal of O s; ribbed tubogas and the polished X match the reference. Fails: the bangle copies the reference three-quarter view while the slate is shot from straight above, so it seems to float over a detached shadow and reads pasted in; it is also bigger than the centre square, overlapping the grid lines, with the chalk O s about half its size; beige table strips at the top and bottom edges.",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "584f3a63-e736-4f92-b2a5-c105adff89a4",
+    "score": 7.0,
+    "pass": false,
+    "chosen": false,
+    "crop": null,
+    "prompt": "Theatrical playful editorial photograph from straight above: a matte black slate board fills the frame, and on it a hand-drawn white chalk tic-tac-toe grid of two vertical and two horizontal lines, each square about 8cm. In the top-left square is a chalk O and in the bottom-right square a chalk O, each about 6cm across; in the top-middle square is a chalk X and in the middle-left square a chalk X. The bangle lies flat in the centre square as the winning third O, completing the diagonal of O's from top-left to bottom-right, its polished X binding facing the camera so the bangle reads as an O crossed by an X. Soft drifts of chalk dust, and one short white chalk stick lying at the lower right of the grid. Clever, charming and flirtatious. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close supplier detail of the same polished X binding the ribbed coil: take from it only the shape of the X and the ribbing; ignore everything else in it. THE PIECE: a flexible bangle of round snake-coil (tubogas) wire about 5mm thick, finely ribbed all the way round with tight parallel ridges, about 6cm across, whose 2 ends overlap at the front and are bound by exactly 1 smooth polished X about 10mm across: two polished bands crossing like a kiss. Warm 18k gold tone. 0 stones. The wire must stay a finely ribbed snake coil, never a smooth tube, never a chain, never a twisted rope; exactly 1 polished X at the front, never a bow or a rope knot; 0 stones. SCALE TEST: The coil is 5mm thick, about a tenth of a 55mm wrist; the X is about 10mm across, the size of a fingernail; the bangle is about 6cm across. Each grid square is about 8cm; each chalk O is about 6cm across, the same size as the bangle; the chalk lines are about 6mm wide, a little wider than the 5mm coil; the chalk stick is about 1cm thick and 8cm long, twice as thick as the coil. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is calm bare black slate with a faint haze of chalk dust, for a headline. LIGHT: one strong key light from the upper left, deep matte black slate and crisp white chalk, one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No writing, no words, no letters or numbers other than the chalk game's 2 X's and 2 O's, no logo, no brand, no badge, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "64eb7c27-1df1-4bfd-ac18-956a498d56a0",
+     "ded408fa-f9e3-4960-a904-e8596491b117"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C35_a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "a2592241-a9e4-48ed-bf62-c6e55a3a3526",
+    "score": 8.5,
+    "pass": true,
+    "chosen": true,
+    "crop": null,
+    "prompt": "Theatrical playful editorial photograph from above at a gentle angle, the camera about 60 degrees above the table, so the slate and the bangle are seen in the same soft perspective: a large matte black slate board fills the whole frame edge to edge, with no table showing at any edge, and on it a hand-drawn white chalk tic-tac-toe grid of two vertical and two horizontal lines, each square about 10cm. In the top-left square is a chalk O and in the bottom-right square a chalk O, each drawn about 7cm across, the same size as the bangle; in the top-middle square is a chalk X and in the middle-left square a chalk X. The bangle lies completely flat on the slate inside the centre square, with clear slate between it and the chalk lines on every side, as the winning third O completing the diagonal of O's from top-left to bottom-right; its polished X binding is at the front of the ring facing the camera, so the bangle reads as an O crossed by an X. Its whole underside rests on the slate, with only a thin tight contact shadow. Soft drifts of chalk dust, and one short white chalk stick lying at the lower right of the grid. Clever, charming and flirtatious. The previous attempt shot the slate from straight above but drew the bangle tilted as if seen from the side, floating over a detached shadow, too big for its square and overlapping the lines; this time the bangle lies flat on the slate in exactly the same perspective as the chalk O's, inside its square. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close supplier detail of the same polished X binding the ribbed coil: take from it only the shape of the X and the ribbing; ignore everything else in it. THE PIECE: a flexible bangle of round snake-coil (tubogas) wire about 5mm thick, finely ribbed all the way round with tight parallel ridges, about 6cm across, whose 2 ends overlap at the front and are bound by exactly 1 smooth polished X about 10mm across: two polished bands crossing like a kiss. Warm 18k gold tone. 0 stones. The wire must stay a finely ribbed snake coil, never a smooth tube, never a chain, never a twisted rope; exactly 1 polished X at the front, never a bow or a rope knot; 0 stones. SCALE TEST: The coil is 5mm thick, about a tenth of a 55mm wrist; the X is about 10mm across, the size of a fingernail; the bangle is about 6cm across. Each grid square is about 10cm; each chalk O is about 7cm across, the same size as the bangle, and the bangle fits inside the centre square with space to spare; the chalk lines are about 6mm wide, a little wider than the 5mm coil; the chalk stick is about 1cm thick and 8cm long, twice as thick as the coil. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is calm bare black slate with a faint haze of chalk dust, for a headline. LIGHT: one strong key light from the upper left, deep matte black slate and crisp white chalk, one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No writing, no words, no letters or numbers other than the chalk game's 2 X's and 2 O's, no logo, no brand, no badge, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "64eb7c27-1df1-4bfd-ac18-956a498d56a0",
+     "ded408fa-f9e3-4960-a904-e8596491b117"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C35_a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C36",
+  "key": "silk-mesh-cuff",
+  "variant": "gold",
+  "concept": "Silk Mesh Cuff hanging from the rim of a small design-object basketball hoop in place of the net, a mini ball below",
+  "headline": "Nothing but net.",
+  "score": 8.0,
+  "pass": true,
+  "file": "plates/crazy/C36.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.17,
+   0.8
+  ],
+  "tone": "light",
+  "notes": "Sunny limewash wall striped with window light, a small clear-glass hoop with a slim orange rim; the gold Silk Mesh Cuff hangs from the rim where the net would be, hooked over the rod by its gap, both polished caps showing, and a small orange leather ball with no logo rests on a pale oak shelf below. Woven mesh and caps match the reference; the cuff reads about the rim size, true to the 10cm rim. Doubts: the cuff hangs a little oval, the glass backboard reaches into the right of the top quarter (top left stays calm), and the mini hoop leans playful.",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "bfad0f31-f4ec-49cb-b010-98725710997a",
+    "score": 8.0,
+    "pass": true,
+    "chosen": true,
+    "crop": null,
+    "prompt": "Bright sunny editorial photograph in a warm, airy room: a small, beautifully made wall-mounted basketball hoop, a design object with a clear glass backboard and a slim orange powder-coated steel rim about 10cm across, is fixed to a warm white limewash wall striped with soft window light. There is no net on the rim: in its place the gold cuff hangs from the front of the rim, hooked over the steel rod by its open gap, its woven mesh hanging below the rim where the net would be, both polished oval end caps showing at the top where they grip the rim. Directly below, a small orange leather mini basketball with black seams and no logo rests on a pale oak shelf. Sunny, playful and stylish. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is the supplier photograph of the same cuff: take from it only the weave of the mesh and the shape of the end caps; ignore everything else in it. THE PIECE: an open cuff bangle made of a rounded tube of fine woven steel mesh about 19mm wide, a soft milanese mesh of tiny interlocking links like a mesh watch strap rolled into a tube, bent into a C about 6cm across inside. Each of its 2 ends is closed by 1 solid mirror-polished end cap shaped like a flat oval disc; the 2 caps face each other across a gap of about 2.5cm. Warm 18k gold tone plating throughout, never brassy. 0 stones. The mesh must stay a fine woven mesh with a soft brushed-silk sheen, never chain links, never a smooth solid band, never a braid or a rope; no clasp; the 2 end caps stay plain polished ovals. SCALE TEST: The cuff is about 6cm across inside and the mesh tube is 19mm wide, about the width of a thumb; it weighs about 32g. The rim is a 6mm steel rod bent into a hoop about 10cm across, a little wider than the cuff; the cuff's 19mm mesh tube is about three times as thick as the rim rod; the mini ball is about 9cm across, about one and a half times the cuff's 6cm inner width; the glass backboard is about 14cm wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is calm sunlit limewash wall with soft window shadows, for a headline. LIGHT: strong warm sunlight from a window at the upper left as the key, crisp sunny shadows, bright warm colour, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "2420c01a-9ab6-4f7d-8a3b-f98669d603ef",
+     "284ed0b2-106a-412d-b02c-2d9d37702273"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C36_a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C37",
+  "key": "marquise-layering-set",
+  "variant": null,
+  "concept": "Marquise Layering Set hanging against a rain-beaded window pane in the monsoon, the stones among the raindrops",
+  "headline": "Monsoon, layered.",
+  "score": 8.0,
+  "pass": true,
+  "file": "plates/crazy/C37.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.37,
+   0.88
+  ],
+  "tone": "dark",
+  "notes": "Rain-beaded window over a soft grey-green garden; both necklaces hang against the glass from above, the short marquise point-down in its V, the lariat pear junction and then marquise, marquise and the pear tip, all 5 stones in the right cut and order, hair-fine cable chain, stones true to size among the raindrops. Calm, romantic, desirable. Plate cropped 9:16 (x 101-1536, y 200-2752) to remove the window rail, the empty hook and the left frame strip; the lariat tip sits at about 88% of the height and the hair-fine chains cross the top quarter.",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "2306d8f0-007a-4b21-8707-efe7923b07af",
+    "score": 8.0,
+    "pass": true,
+    "chosen": true,
+    "crop": [
+     101,
+     200,
+     1536,
+     2752
+    ],
+    "prompt": "Soft monsoon editorial photograph through an old window: one clear glass pane fills the whole frame, its outer face beaded all over with real raindrops of every size and a few slow rivulets, the garden outside a soft grey-green blur of wet leaves. On the inside, both necklaces hang together from one small brass hook just above the top edge of the frame, resting lightly against the glass, each chain falling in a long narrow V, the short one inside the long one: the short necklace's marquise hangs point-down at the bottom of its V, and the lariat's pear junction stone hangs below it with the 9cm drop falling straight down, so below the junction pear hang exactly 3 stones, evenly spaced: marquise, marquise, then the pear drop at the tip. The clear stones glint among the raindrops on the glass. Calm, romantic and cosy, a rainy afternoon indoors. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close crop of the same set worn: take from it only the cut and the order of the stones down the two chains; ignore the skin and the shirt. THE PIECE: a set of exactly 2 separate fine necklaces in warm 18k gold tone, both on fine 1.2mm cable chain, shown together. Necklace one, the shorter (40cm), carries exactly 1 marquise-cut clear cubic zirconia of about 13mm hanging point-down from a small gold bail in a 4-claw gold setting. Necklace two, the longer (45cm), is a Y-lariat: its two sides meet at the front at exactly 1 small clear pear-cut stone, point down, in a gold setting; from it a single straight drop of fine chain about 9cm long falls, carrying, in order from the top, exactly 2 small marquise-cut clear stations spaced well apart and then exactly 1 small clear pear-cut drop at the very tip. 4 stones on the lariat and 1 on the short necklace: 5 stones in the whole set, all clear cubic zirconia. The two necklaces must stay 2 separate fine cable chains, never merged into one, never thickened; the lariat drop must stay one single straight fine chain with its stones spaced well apart, never a cluster, a tassel or a fringe; the stones stay marquise and pear cuts, never round, never coloured. SCALE TEST: The marquise stone is about 13mm long, the size of a fingernail; both chains are only 1.2mm thick, hair-fine; the lariat drop is about 9cm. The marquise stone is about 13mm long, two or three times the size of a big raindrop on the glass; the raindrops are 2 to 6mm; both chains are 1.2mm, finer than the thinnest rivulet; the lariat tip ends well above the bottom of the frame. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is calm rain-beaded glass over the soft grey-green garden blur, crossed only by the hair-fine chains rising to the hook, for a headline. LIGHT: soft grey monsoon daylight through the glass as the key, one warm lamp glow from the left on the gold, deep grey-green colour, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "2d2b9571-70d3-404f-8dbc-25b0d702c314",
+     "108744d6-7f96-4b0d-b965-14d959607fc9"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C37_a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C43",
+  "key": "torsade-pearl-cuff",
+  "variant": null,
+  "concept": "Torsade Pearl Cuff lying beside the coiled cord of a vintage cream rotary telephone on a walnut table",
+  "headline": "Hold the line.",
+  "score": 8.0,
+  "pass": true,
+  "file": "plates/crazy/C43.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.2,
+   0.64
+  ],
+  "tone": "dark",
+  "notes": "Cream rotary telephone at the upper right, partly out of frame, its coiled cord curling across glossy walnut; the Torsade cuff lies beside a curl of the cord, both pearls facing, twist echoing coil. Twisted cable, 2-row pave collars and exactly 2 pearls faithful, and now true size: each pearl about one coil wide, the cable as thick as the cord. Warm and nostalgic. Doubt: the handset fills the right half of the top quarter; the top left is calm wall and walnut for the headline. | Attempt 1 (7.0): Cream rotary telephone with a blank dial on glossy walnut, its coiled cord curling down; the Torsade cuff lies by the cord with both pearls facing. Twisted cable, 2-row pave collars and exactly 2 pearls faithful, and the scene is lovely, but the cuff is far too big: nearly two thirds of the telephone width, each pearl wider than a dial finger hole and about 1.6 times the coil.",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "9dbc73c0-427d-4588-a945-e70b088f9b16",
+    "score": 7.0,
+    "pass": false,
+    "chosen": false,
+    "crop": null,
+    "prompt": "Warm nostalgic editorial photograph, close and from above at a gentle three-quarter angle, on a glossy dark walnut side table: a vintage cream rotary telephone, its plain dial's finger holes showing no numbers or letters, sits in the upper middle of the frame just below the calm top quarter, its handset resting in the cradle, and its cream coiled cord curls out from the handset and loops down across the polished walnut in soft springy spirals. The cuff lies flat on the walnut right beside one curl of the cord in the middle of the frame, its opening toward the camera so both pearls face each other, its twisted gold cable echoing the twisted coils of the cord. Warm, nostalgic and inviting, a long afternoon phone call. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a macro of one end of the same cuff: take from it only the twisted ridges, the 2-row pave collar and the pearl. THE PIECE: an open cuff bracelet of solid twisted cable about 5mm thick, its whole surface twisted like a rope into smooth polished spiral ridges, in warm 18k gold tone, about 17cm end to end and open at the back. Each of its 2 ends is capped by a collar of exactly 2 rows of tiny clear pave cubic zirconia separated by a thin gold rib, and finished with exactly 1 large round lustrous white shell pearl about 12mm across; the 2 pearls face each other across the opening. The cuff must stay one solid twisted cable bar with smooth spiral ridges, never a chain, never a braid of separate wires, never a plain smooth wire; exactly 2 pearls, one at each end, never more, never coloured. SCALE TEST: Each pearl is about 12mm across; the cable is about 5mm thick; the cuff is about 6cm across inside. The handset is about 22cm long; the coiled cord is about 12mm across, made of a 4mm cord, so each 12mm pearl is about as wide as one coil and the cuff's 5mm cable is about as thick as the cord; the cuff, about 7cm across, is about a third of the handset's length; each finger hole on the dial is about 18mm, a little bigger than a pearl. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is calm polished walnut and a soft warm wall in shadow, for a headline. LIGHT: one warm lamp key light from the upper left, deep walnut and cream colour, one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "b9deec5e-39e5-41c5-93c4-996a52d8da3e",
+     "4a952de2-d03b-4e26-9580-3e0162e3b6a2"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C43_a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "35c2fb1a-37b7-4daf-a40b-b97f94b59d23",
+    "score": 8.0,
+    "pass": true,
+    "chosen": true,
+    "crop": null,
+    "prompt": "Warm nostalgic editorial photograph, close and from above at a gentle three-quarter angle, on a glossy dark walnut side table: a full-size vintage cream rotary telephone, about 22cm wide, its plain dial's finger holes showing no numbers or letters, sits at the upper right of the frame just below the calm top quarter, partly out of frame at the right edge, its handset resting in the cradle; its cream coiled cord curls out from the handset and loops down and across the polished walnut in soft springy spirals, each coil about 12mm across. The small cuff lies flat on the walnut beside one curl of the cord in the middle of the frame, closer to the camera, its opening toward the camera so both pearls face each other, its twisted gold cable echoing the twisted coils of the cord; around it is plenty of bare polished walnut. Warm, nostalgic and inviting, a long afternoon phone call. The previous attempt drew the cuff far too big, nearly as wide as the telephone, each pearl bigger than a finger hole of the dial and the cable thicker than the cord; this time the cuff is small and true: only about a third of the telephone's width, each 12mm pearl the same width as one coil of the cord and clearly smaller than an 18mm finger hole, the 5mm cable no thicker than the cord itself. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a macro of one end of the same cuff: take from it only the twisted ridges, the 2-row pave collar and the pearl. THE PIECE: an open cuff bracelet of solid twisted cable about 5mm thick, its whole surface twisted like a rope into smooth polished spiral ridges, in warm 18k gold tone, about 17cm end to end and open at the back. Each of its 2 ends is capped by a collar of exactly 2 rows of tiny clear pave cubic zirconia separated by a thin gold rib, and finished with exactly 1 large round lustrous white shell pearl about 12mm across; the 2 pearls face each other across the opening. The cuff must stay one solid twisted cable bar with smooth spiral ridges, never a chain, never a braid of separate wires, never a plain smooth wire; exactly 2 pearls, one at each end, never more, never coloured. SCALE TEST: Each pearl is about 12mm across; the cable is about 5mm thick; the cuff is about 6cm across inside. The handset is about 22cm long; the coiled cord is about 12mm across, made of a 4mm cord, so each 12mm pearl is about as wide as one coil and the cuff's 5mm cable is about as thick as the cord; the cuff, about 7cm across, is about a third of the handset's length; each finger hole on the dial is about 18mm, a little bigger than a pearl. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. A dark believable contact shadow sits directly beneath where the metal touches a surface. COMPOSITION: one single continuous 9:16 vertical photograph, edge to edge, never a collage, never split into panels or strips. The jewellery and the joke sit in the middle of the frame, between about 30% and 80% of its height; the top quarter of the photograph is simply more of the same scene, calm, softly lit and uncluttered, and the bottom of the frame is quiet. The top quarter of the frame is calm polished walnut and a soft warm wall in shadow, for a headline. LIGHT: one warm lamp key light from the upper left, deep walnut and cream colour, one soft shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the background falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, nothing CGI. The world is beautiful and desirable, a premium editorial photograph. ABSENCE LIST: No text, no letters, no numbers, no logo, no brand, no badge, no signage, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people, no faces.",
+    "refs": [
+     "b9deec5e-39e5-41c5-93c4-996a52d8da3e",
+     "4a952de2-d03b-4e26-9580-3e0162e3b6a2"
+    ],
+    "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C43_a2.png"
+   }
+  ]
+ }
+]
