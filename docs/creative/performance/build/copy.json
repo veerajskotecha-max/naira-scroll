@@ -3357,7 +3357,14 @@
     0.88
    ],
    "cy": 0.625,
-   "tone": "cream"
+   "tone": "cream",
+   "feed": {
+    "at": "tr",
+    "fixed": true,
+    "y": 560,
+    "hs": 84,
+    "w": 380
+   }
   },
   {
    "id": "bold-dome-huggies-crazy38",

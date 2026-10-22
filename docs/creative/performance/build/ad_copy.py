@@ -447,6 +447,7 @@ CZ_FIX = {
  "C24": {"h": "Packed<br>with love.", "hs": 92},
  "C28": {"h": "Dhanteras,<br>sorted."},
  "C42": {"h": "Keep<br>the<br>ribbon.", "hs": 84, "w": 330, "at": "tl", "fixed": True, "feed": {"y": 290}, "story": {"y": 300}},
+ "C37": {"feed": {"at": "tr", "fixed": True, "y": 560, "hs": 84, "w": 380}},
  "C20": {"h": "Cherry earrings,<br>grown up.", "w": 900, "story": {"at": "tl", "fixed": True, "y": 300, "hs": 96}},
 }
 
