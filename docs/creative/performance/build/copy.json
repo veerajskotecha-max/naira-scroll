@@ -5,7 +5,7 @@
    "layout": "deck",
    "h": "Hot stuff.",
    "c": "ruby-red cubic zirconia, not chillies.",
-   "spec": "36 cm · 18k gold-tone",
+   "spec": "36 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.58,
     "at": "tl",
@@ -83,7 +83,7 @@
    "layout": "deck",
    "h": "On the rocks.",
    "c": "clear cubic zirconia, not ice.",
-   "spec": "17 cm · 18k gold-tone",
+   "spec": "17 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.5,
     "at": "tl",
@@ -158,7 +158,7 @@
    "layout": "deck",
    "h": "Love, all.",
    "c": "the tennis bracelet, taken literally.",
-   "spec": "17 cm · 18k gold-tone",
+   "spec": "17 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "story": {
     "fixed": true
    },
@@ -179,7 +179,7 @@
    "layout": "deck",
    "h": "Two peas.",
    "c": "emerald cubic zirconia, not matar.",
-   "spec": "15 mm · hinged · 18k gold-tone",
+   "spec": "15 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cy": 0.48,
    "at": "tl",
    "sy": [
@@ -248,7 +248,7 @@
    "layout": "deck",
    "h": "Click. Locked.",
    "c": "a hinged huggie that snaps shut.",
-   "spec": "15 mm · hinged · 18k gold-tone",
+   "spec": "15 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cy": 0.485,
    "at": "tl",
    "sy": [
@@ -366,6 +366,9 @@
    "h": "Meetha paan.",
    "c": "emerald-green cubic zirconia, no supari.",
    "spec": "adjustable · silver tone",
+   "feed": {
+    "h": "Meetha<br>paan."
+   },
    "cy": 0.56,
    "at": "tl",
    "sy": [
@@ -583,7 +586,7 @@
    "layout": "deck",
    "h": "Measure twice.",
    "c": "20 cm of chunky links, one in pavé.",
-   "spec": "20 cm · 18k gold-tone",
+   "spec": "20 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cy": 0.54,
    "at": "tl",
    "sy": [
@@ -603,11 +606,12 @@
    "c": "Two necklaces, one set:<br>a marquise and a Y-drop.",
    "feed": {
     "at": "bl",
-    "w": 420,
-    "hs": 72,
-    "cs": 30,
+    "w": 320,
+    "hs": 60,
+    "cs": 28,
     "fixed": true,
-    "y": 72
+    "y": 72,
+    "h": "Layered,<br>already."
    },
    "story": {
     "at": "tr",
@@ -632,25 +636,29 @@
    "layout": "deck",
    "h": "Hangs true.",
    "c": "two necklaces, layered to the line.",
-   "spec": "40 + 45 cm · 18k gold-tone",
+   "spec": "40 + 45 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
-    "at": "tr",
-    "w": 200,
+    "at": "bl",
+    "w": 340,
     "hs": 64,
     "cs": 30,
     "fixed": true,
-    "y": 64,
+    "y": 256,
     "cy": 0.5,
-    "sw": 340
+    "sw": 340,
+    "h": "Hangs<br>true.",
+    "spec": "40 + 45 cm<br>18k <span style=\"white-space:nowrap\">gold-tone</span>"
    },
    "story": {
-    "at": "tr",
-    "w": 200,
+    "at": "bl",
+    "w": 340,
     "hs": 64,
     "cs": 30,
     "fixed": true,
-    "y": 300,
-    "sw": 340
+    "y": 508,
+    "sw": 340,
+    "h": "Hangs<br>true.",
+    "spec": "40 + 45 cm<br>18k <span style=\"white-space:nowrap\">gold-tone</span>"
    },
    "cy": 0.445,
    "at": "tl",
@@ -670,6 +678,9 @@
    "h": "Ghevar, gilded.",
    "c": "woven gold-tone mesh, not syrup.",
    "spec": "19 mm mesh · gold or silver tone",
+   "feed": {
+    "h": "Ghevar,<br>gilded."
+   },
    "cy": 0.64,
    "at": "tl",
    "sy": [
@@ -735,7 +746,13 @@
    "c": "the same weave as your chai strainer.",
    "spec": "19 mm mesh · gold or silver tone",
    "feed": {
-    "cy": 0.6
+    "cy": 0.6,
+    "at": "tl",
+    "w": 640,
+    "hs": 72,
+    "cs": 34,
+    "fixed": true,
+    "y": 48
    },
    "story": {
     "layout": "plain"
@@ -848,14 +865,15 @@
    "layout": "deck",
    "h": "Bhutta, polished.",
    "c": "gold-tone plates, not kernels.",
-   "spec": "17 cm · 18k gold-tone",
+   "spec": "17 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "at": "tl",
-    "w": 460,
-    "hs": 84,
-    "cs": 34,
+    "w": 340,
+    "hs": 60,
+    "cs": 30,
     "fixed": true,
-    "y": 64
+    "y": 48,
+    "h": "Bhutta,<br>polished."
    },
    "cy": 0.49,
    "at": "tl",
@@ -933,13 +951,14 @@
    "layout": "deck",
    "h": "It bends.",
    "c": "rows of plates, not one stiff band.",
-   "spec": "17 cm · 18k gold-tone",
+   "spec": "17 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "story": {
     "at": "tl",
     "w": 640,
     "fixed": true,
     "y": 300,
-    "sw": 260
+    "sw": 260,
+    "spec": "17 cm · 18k<br><span style=\"white-space:nowrap\">gold-tone</span>"
    },
    "cy": 0.635,
    "at": "tl",
@@ -958,7 +977,7 @@
    "layout": "deck",
    "h": "Makhana, but forever.",
    "c": "white shell pearls, not fox nuts.",
-   "spec": "shell pearls · 18k gold-tone",
+   "spec": "shell pearls · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "at": "tl",
     "w": 380,
@@ -1029,7 +1048,7 @@
    "layout": "deck",
    "h": "Twice as nice.",
    "c": "one cuff, and the mirror's opinion.",
-   "spec": "shell pearls · 18k gold-tone",
+   "spec": "shell pearls · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "at": "tl",
     "w": 640,
@@ -1039,12 +1058,7 @@
     "y": 64
    },
    "story": {
-    "at": "tl",
-    "w": 640,
-    "hs": 88,
-    "cs": 34,
-    "fixed": true,
-    "y": 300
+    "layout": "plain"
    },
    "cy": 0.535,
    "at": "tl",
@@ -1110,7 +1124,8 @@
     "at": "br",
     "w": 600,
     "fixed": true,
-    "y": 72
+    "y": 72,
+    "cy": 0.47
    },
    "story": {
     "at": "br",
@@ -1168,12 +1183,16 @@
    "spec": "50 cm · paperclip links · toggle clasp",
    "feed": {
     "at": "tl",
-    "w": 300,
-    "hs": 80,
+    "w": 280,
+    "hs": 76,
     "cs": 30,
     "fixed": true,
     "y": 64,
-    "cy": 0.6
+    "cy": 0.6,
+    "tone": "ink",
+    "lock": [
+     "tone"
+    ]
    },
    "story": {
     "layout": "plain"
@@ -1196,6 +1215,9 @@
    "h": "After-dinner sparkle.",
    "c": "pastel cubic zirconia, not mukhwas.",
    "spec": "aqua · pink · yellow · silver tone",
+   "feed": {
+    "h": "After-<br>dinner<br>sparkle."
+   },
    "cy": 0.64,
    "at": "tl",
    "sy": [
@@ -1277,7 +1299,7 @@
    "layout": "deck",
    "h": "Twisted, not fried.",
    "c": "braided gold-tone hoops, not murukku.",
-   "spec": "25 mm · braided · 18k gold-tone",
+   "spec": "25 mm · braided · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.56,
     "at": "tl",
@@ -1304,6 +1326,18 @@
    "layout": "note",
    "h": "The braided note.",
    "c": "25 mm of braided gold-tone rope,<br>no stones, all texture.",
+   "feed": {
+    "at": "tl",
+    "w": 600,
+    "fixed": true,
+    "y": 64
+   },
+   "story": {
+    "at": "tl",
+    "w": 600,
+    "fixed": true,
+    "y": 300
+   },
    "cy": 0.485,
    "at": "tl",
    "sy": [
@@ -1350,7 +1384,15 @@
    "layout": "deck",
    "h": "Plait, perfected.",
    "c": "a 25 mm hoop, braided like a plait.",
-   "spec": "25 mm · braided · 18k gold-tone",
+   "spec": "25 mm · braided · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "feed": {
+    "at": "bl",
+    "w": 720,
+    "hs": 84,
+    "cs": 34,
+    "fixed": true,
+    "y": 256
+   },
    "story": {
     "at": "bl",
     "w": 640,
@@ -1374,7 +1416,7 @@
    "layout": "deck",
    "h": "Paan, with heart.",
    "c": "6 mm steel beads, one gold-tone heart.",
-   "spec": "6 mm steel · gold-tone heart",
+   "spec": "6 mm steel · <span style=\"white-space:nowrap\">gold-tone</span> heart",
    "feed": {
     "cy": 0.55,
     "h": "Paan, with heart.",
@@ -1384,7 +1426,7 @@
     "cs": 32,
     "fixed": true,
     "y": 48,
-    "spec": "6 mm steel beads · gold-tone heart"
+    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart"
    },
    "cy": 0.525,
    "at": "tl",
@@ -1421,7 +1463,7 @@
    "layout": "deck",
    "h": "Sweet on you.",
    "c": "the charm bracelet, worn.",
-   "spec": "6 mm steel · gold-tone heart",
+   "spec": "6 mm steel · <span style=\"white-space:nowrap\">gold-tone</span> heart",
    "at": "tc",
    "w": 900,
    "feed": {
@@ -1476,12 +1518,12 @@
    "layout": "deck",
    "h": "Listen closely.",
    "c": "surgical steel, both of them.",
-   "spec": "6 mm steel · gold-tone heart",
+   "spec": "6 mm steel · <span style=\"white-space:nowrap\">gold-tone</span> heart",
    "feed": {
-    "spec": "6 mm steel beads · gold-tone heart"
+    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart"
    },
    "story": {
-    "spec": "6 mm steel beads · gold-tone heart"
+    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart"
    },
    "cy": 0.49,
    "at": "tl",
@@ -1500,7 +1542,7 @@
    "layout": "deck",
    "h": "Kaju, in gold tone.",
    "c": "brushed huggies, not cashews.",
-   "spec": "satin-brushed · 18k gold-tone",
+   "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.53,
     "at": "tl",
@@ -1511,7 +1553,7 @@
     "y": 64,
     "h": "Kaju, in<br>gold tone.",
     "c": "brushed gold-tone huggies,<br>not cashews.",
-    "spec": "satin-brushed · 18k gold-tone"
+    "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span>"
    },
    "cy": 0.46,
    "at": "tl",
@@ -1575,12 +1617,12 @@
    "layout": "deck",
    "h": "Brushed, literally.",
    "c": "a satin finish, not a mirror.",
-   "spec": "satin-brushed · 18k gold-tone",
+   "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
-    "spec": "satin-brushed · 18k gold-tone"
+    "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span>"
    },
    "story": {
-    "spec": "satin-brushed · 18k gold-tone",
+    "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
     "fixed": true
    },
    "cy": 0.565,
@@ -1600,9 +1642,10 @@
    "layout": "deck",
    "h": "A bow, edible.",
    "c": "a crystal bow, not mithai.",
-   "spec": "fine chain · crystal bow · 18k gold-tone",
+   "spec": "fine chain · crystal bow · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
-    "cy": 0.55
+    "cy": 0.55,
+    "h": "A bow,<br>edible."
    },
    "cy": 0.52,
    "at": "tl",
@@ -1666,7 +1709,7 @@
    "layout": "deck",
    "h": "Gift, wrapped.",
    "c": "the bracelet is the ribbon.",
-   "spec": "fine chain · crystal bow · 18k gold-tone",
+   "spec": "fine chain · crystal bow · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cy": 0.51,
    "at": "tl",
    "sy": [
@@ -1685,6 +1728,9 @@
    "h": "Sabudana, set.",
    "c": "clear cubic zirconia, not tapioca.",
    "spec": "one line of clear stones · polished buckle",
+   "feed": {
+    "h": "Sabudana,<br>set."
+   },
    "cy": 0.64,
    "at": "tl",
    "sy": [
@@ -1880,7 +1926,7 @@
    "layout": "deck",
    "h": "Butterfly, pea.",
    "c": "lilac pavé wings, not petals.",
-   "spec": "lilac pavé · 18k gold-tone · butterfly",
+   "spec": "lilac pavé · 18k <span style=\"white-space:nowrap\">gold-tone</span> · butterfly",
    "feed": {
     "cy": 0.53
    },
@@ -1946,7 +1992,7 @@
    "layout": "deck",
    "h": "Butterfly, twice.",
    "c": "one ring, and its reflection.",
-   "spec": "lilac pavé · 18k gold-tone · butterfly",
+   "spec": "lilac pavé · 18k <span style=\"white-space:nowrap\">gold-tone</span> · butterfly",
    "feed": {
     "at": "tl",
     "w": 720,
@@ -1977,7 +2023,7 @@
    "layout": "deck",
    "h": "Chunky, not crunchy.",
    "c": "polished gold-tone huggies, not fryums.",
-   "spec": "16 mm · hinged · 18k gold-tone",
+   "spec": "16 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.49,
     "h": "Chunky,<br>not crunchy.",
@@ -2039,7 +2085,7 @@
    "layout": "deck",
    "h": "Snap.",
    "c": "a hinged huggie, closed round a pencil.",
-   "spec": "16 mm · hinged · 18k gold-tone",
+   "spec": "16 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "at": "tr",
     "w": 460,
@@ -2063,7 +2109,7 @@
    "layout": "deck",
    "h": "Mithai-shaped.",
    "c": "four-point stars, not varq.",
-   "spec": "15 mm · four-point star · 18k gold-tone",
+   "spec": "15 mm · <span style=\"white-space:nowrap\">four-point</span> star · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cy": 0.635,
    "at": "tl",
    "sy": [
@@ -2150,7 +2196,7 @@
    "layout": "deck",
    "h": "Look closer.",
    "c": "four pear stones inside a pavé star.",
-   "spec": "15 mm · four-point star · 18k gold-tone",
+   "spec": "15 mm · <span style=\"white-space:nowrap\">four-point</span> star · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.47,
     "hs": 84,
@@ -2182,14 +2228,15 @@
    "layout": "deck",
    "h": "Pista, polished.",
    "c": "emerald-green cubic zirconia, not pistachios.",
-   "spec": "13 mm · emerald-green · silver tone",
+   "spec": "13 mm · <span style=\"white-space:nowrap\">emerald-green</span> · silver tone",
    "feed": {
     "at": "tl",
     "w": 640,
     "hs": 78,
     "cs": 34,
     "fixed": true,
-    "y": 64
+    "y": 64,
+    "h": "Pista,<br>polished."
    },
    "cy": 0.64,
    "at": "tl",
@@ -2270,7 +2317,7 @@
    "layout": "deck",
    "h": "The exact green.",
    "c": "matched, spool by spool.",
-   "spec": "13 mm · emerald-green · silver tone",
+   "spec": "13 mm · <span style=\"white-space:nowrap\">emerald-green</span> · silver tone",
    "cy": 0.535,
    "at": "tl",
    "sy": [
@@ -2288,7 +2335,7 @@
    "layout": "deck",
    "h": "Makhana, matched.",
    "c": "a pearl drop under a sunburst of baguettes.",
-   "spec": "14 mm disc · pearl drop · 18k gold-tone",
+   "spec": "14 mm disc · pearl drop · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
     "cy": 0.55,
     "at": "tl",
@@ -2374,6 +2421,9 @@
    "h": "Paneer? Pearl.",
    "c": "a cushion pearl in a pavé halo.",
    "spec": "13 mm · cushion pearl · pavé halo",
+   "feed": {
+    "h": "Paneer?<br>Pearl."
+   },
    "cy": 0.64,
    "at": "tl",
    "sy": [
@@ -2471,19 +2521,21 @@
   {
    "plate": "plates/prism-cluster-studs-silver-worn.jpg",
    "layout": "note",
-   "h": "Five colours, one lobe.",
+   "h": "Five stones, one lobe.",
    "c": "Purple, pink and yellow<br>in one small arc.",
    "feed": {
     "at": "br",
     "w": 600,
     "fixed": true,
-    "y": 72
+    "y": 240,
+    "h": "Five stones, one lobe."
    },
    "story": {
     "at": "br",
     "w": 600,
     "fixed": true,
-    "y": 700
+    "y": 700,
+    "h": "Five stones, one lobe."
    },
    "cy": 0.39,
    "at": "tl",
@@ -2665,7 +2717,7 @@
    "story": "deck",
    "h": "Hoopla.",
    "c": "25 mm braided hoops, every throw a winner.",
-   "spec": "25 mm · braided · 18k gold-tone",
+   "spec": "25 mm · braided · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the hoops",
    "price": "₹1,299",
    "at": "tl",
@@ -2717,7 +2769,7 @@
    "story": "deck",
    "h": "The other<br>baguette.",
    "c": "clear cubic zirconia, not crust.",
-   "spec": "17 cm · baguette-cut CZ · 18k gold-tone",
+   "spec": "17 cm · <span style=\"white-space:nowrap\">baguette-cut</span> CZ · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the bracelet",
    "price": "₹1,699",
    "at": "tl",
@@ -2738,7 +2790,7 @@
    "story": "deck",
    "h": "Keep it on ice.",
    "c": "clear baguettes, cold to the eye.",
-   "spec": "36 cm · baguette-cut CZ · 18k gold-tone",
+   "spec": "36 cm · <span style=\"white-space:nowrap\">baguette-cut</span> CZ · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the necklace",
    "price": "₹2,300",
    "at": "tl",
@@ -2782,7 +2834,7 @@
    },
    "h": "Nazar<br>na<br>lage.",
    "c": "against the evil eye.",
-   "spec": "adjustable · emerald-green CZ · silver tone",
+   "spec": "adjustable · <span style=\"white-space:nowrap\">emerald-green</span> CZ · silver tone",
    "cta": "Shop the ring",
    "price": "₹1,099",
    "at": "tr",
@@ -2809,7 +2861,7 @@
    },
    "h": "Out after<br>midnight.",
    "c": "chunky gold-tone links, one in pavé.",
-   "spec": "46 cm · one pavé link · 18k gold-tone",
+   "spec": "46 cm · one pavé link · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the chain",
    "price": "₹1,799",
    "at": "tl",
@@ -2835,7 +2887,7 @@
    "story": "deck",
    "h": "Heavy lifting, done.",
    "c": "chunky gold-tone links, one in pavé.",
-   "spec": "20 cm · one pavé link · 18k gold-tone",
+   "spec": "20 cm · one pavé link · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the bracelet",
    "price": "₹1,599",
    "at": "tl",
@@ -2847,13 +2899,18 @@
     0.68
    ],
    "cy": 0.57,
-   "tone": "cream"
+   "tone": "cream",
+   "feed": {
+    "cy": 0.5
+   }
   },
   {
    "id": "kiss-knot-bangle-crazy12",
    "plate": "plates/crazy/C12.jpg",
    "layout": "deck",
-   "story": "deck",
+   "story": {
+    "fscrim": "cols"
+   },
    "h": "X marks the spot.",
    "c": "a ribbed coil, crossed in one polished X.",
    "spec": "flexible · gold or silver tone",
@@ -2867,16 +2924,25 @@
     0.38,
     0.85
    ],
-   "cy": 0.615
+   "cy": 0.615,
+   "feed": {
+    "cy": 0.5,
+    "at": "tl",
+    "fixed": true,
+    "y": 64,
+    "fscrim": "cols"
+   }
   },
   {
    "id": "lilac-papillon-ring-crazy13",
    "plate": "plates/crazy/C13.jpg",
    "layout": "deck",
-   "story": "deck",
+   "story": {
+    "fscrim": "cols"
+   },
    "h": "Spot the<br>real one.",
    "c": "lilac pavé wings in 18k gold tone.",
-   "spec": "lilac pavé · 18k gold-tone · butterfly",
+   "spec": "lilac pavé · 18k <span style=\"white-space:nowrap\">gold-tone</span> · butterfly",
    "cta": "Shop the ring",
    "price": "₹1,299",
    "at": "tl",
@@ -2890,7 +2956,8 @@
    "cy": 0.545,
    "tone": "cream",
    "feed": {
-    "cy": 0.47
+    "cy": 0.47,
+    "fscrim": "cols"
    }
   },
   {
@@ -2900,7 +2967,7 @@
    "story": "deck",
    "h": "Tennis bracelet.<br>Cricket nation.",
    "c": "one fine line of clear cubic zirconia.",
-   "spec": "one line of clear stones · polished buckle",
+   "spec": "clear CZ line · buckle clasp",
    "cta": "Shop the bracelet",
    "price": "₹1,449",
    "at": "tl",
@@ -2918,17 +2985,28 @@
     "tone"
    ],
    "feed": {
-    "cy": 0.55
+    "cy": 0.58,
+    "at": "tr",
+    "fixed": true,
+    "y": 200,
+    "hs": 88
    }
   },
   {
    "id": "quatrefoil-eclat-studs-crazy15",
    "plate": "plates/crazy/C15.jpg",
    "layout": "deck",
-   "story": "deck",
+   "story": {
+    "at": "tr",
+    "w": 900,
+    "hs": 72,
+    "cs": 30,
+    "fixed": true,
+    "y": 280
+   },
    "h": "Star of the dabba.",
    "c": "four-point stars, not chakri phool.",
-   "spec": "15 mm · four-point star · 18k gold-tone",
+   "spec": "15 mm · <span style=\"white-space:nowrap\">four-point</span> star · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the studs",
    "price": "₹1,299",
    "at": "tl",
@@ -2940,7 +3018,15 @@
     0.75
    ],
    "cy": 0.5,
-   "tone": "cream"
+   "tone": "cream",
+   "feed": {
+    "at": "tr",
+    "w": 900,
+    "hs": 72,
+    "cs": 30,
+    "fixed": true,
+    "y": 48
+   }
   },
   {
    "id": "silk-mesh-cuff-crazy16",
@@ -2968,7 +3054,7 @@
    "plate": "plates/crazy/C22.jpg",
    "layout": "deck",
    "story": {
-    "at": "tl",
+    "at": "tr",
     "fixed": true,
     "y": 300
    },
@@ -3018,10 +3104,12 @@
    "id": "brushed-gold-huggies-crazy19",
    "plate": "plates/crazy/C19.jpg",
    "layout": "deck",
-   "story": "deck",
+   "story": {
+    "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span> · huggies"
+   },
    "h": "Brush twice daily.",
    "c": "satin-brushed gold-tone huggies.",
-   "spec": "satin-brushed · 18k gold-tone · huggie hoops",
+   "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span> · huggie hoops",
    "cta": "Shop the huggies",
    "price": "₹999",
    "at": "tl",
@@ -3035,7 +3123,8 @@
    "cy": 0.55,
    "feed": {
     "cy": 0.47,
-    "hs": 100
+    "hs": 100,
+    "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span> · huggies"
    }
   },
   {
@@ -3045,12 +3134,13 @@
    "story": {
     "at": "tl",
     "fixed": true,
-    "y": 300,
-    "hs": 96
+    "y": 260,
+    "hs": 72,
+    "cs": 32
    },
    "h": "Cherry earrings,<br>grown up.",
    "c": "ruby baguettes on a 15 mm huggie.",
-   "spec": "15 mm · hinged · 18k gold-tone",
+   "spec": "15 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the huggies",
    "price": "₹1,199",
    "at": "bl",
@@ -3061,7 +3151,14 @@
     0.19,
     0.68
    ],
-   "cy": 0.435
+   "cy": 0.435,
+   "feed": {
+    "at": "tl",
+    "fixed": true,
+    "y": 48,
+    "hs": 72,
+    "cs": 32
+   }
   }
  ]
 }

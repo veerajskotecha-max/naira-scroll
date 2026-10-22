@@ -360,8 +360,8 @@ rhyme("prism-cluster-studs-silver", "Pastel, with sugar.", "purple, pink and yel
       "Pastel, with sugar. An arc of purple, pink and yellow cubic zirconia with tiny pearls, rhodium silver tone. The Prism Cluster Studs, ₹1,499.")
 silk("prism-cluster-studs-silver", "The colour note.", "Purple, pink and yellow,<br>in one small arc.",
      "The colour note. Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls. The Prism Cluster Studs, ₹1,499.", tone="cream")
-worn("prism-cluster-studs-silver", "Five colours, one lobe.", "Purple, pink and yellow<br>in one small arc.",
-     "Five colours, one lobe. An arc of purple, pink and yellow cubic zirconia with tiny pearls. The Prism Cluster Studs, ₹1,499.")
+worn("prism-cluster-studs-silver", "Five stones, one lobe.", "Purple, pink and yellow<br>in one small arc.",
+     "Five stones, one lobe. An arc of purple, pink and yellow cubic zirconia with tiny pearls. The Prism Cluster Studs, ₹1,499.")
 quiet("prism-cluster-studs-silver", "An arc of purple, pink and yellow cubic zirconia, rhodium silver tone. The Prism Cluster Studs, ₹1,499.")
 play("prism-cluster-studs-silver", "Watercolour, set in stone.", "purple, pink and yellow cubic zirconia.", "purple · pink · yellow · silver tone",
      "Watercolour, set in stone. 🎨 Purple, pink and yellow cubic zirconia in one small arc. The Prism Cluster Studs, ₹1,499.")
@@ -405,7 +405,7 @@ CR = [  # id, handle, headline, correction, spec, primary text opener, variant
   "X marks the spot. 🗺️ A flexible ribbed bangle whose ends cross in one polished X. In gold tone or silver tone. The Kiss Knot Bangle, ₹1,199.", "Gold"),
  ("C13", "lilac-papillon-ring", "Spot the real one.", "lilac pavé wings in 18k gold tone.", "lilac pavé · 18k gold-tone · butterfly",
   "Spot the real one. 🦋 A gold-tone butterfly ring with lilac pavé wings. The Lilac Papillon Ring, ₹1,299.", None),
- ("C14", "riviere-eternal-bracelet", "Tennis bracelet. Cricket nation.", "one fine line of clear cubic zirconia.", "one line of clear stones · polished buckle",
+ ("C14", "riviere-eternal-bracelet", "Tennis bracelet. Cricket nation.", "one fine line of clear cubic zirconia.", "clear CZ line · buckle clasp",
   "Tennis bracelet. Cricket nation. 🏏 One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.", None),
  ("C15", "quatrefoil-eclat-studs", "Star of the dabba.", "four-point stars, not chakri phool.", "15 mm · four-point star · 18k gold-tone",
   "Star of the dabba. ⭐ A 15 mm four-point star in clear cubic zirconia: pavé outline, four pear stones, a round centre. The Quatrefoil Éclat Studs, ₹1,299.", None),
@@ -481,6 +481,12 @@ def plan(rows):
             if o["reserve"]: o["wave"] = (len(live) - 1) // size + 2 if live else 1
     return sorted(out, key=lambda o: (o["campaign"], o["adset"], o["wave"], -o["priority"]))
 
+# The last word after the reviewers: None sets a reviewer's fix aside (it made the ad worse when rendered); a dict is merged on top
+AFTER = {
+ "verdant-cushion-studs-crazy22-feed": None,                       # cy .6 pushed the headline onto the loose peas
+ "riviere-eternal-bracelet-crazy14-feed": {"cy": .58, "at": "tr", "fixed": True, "y": 200, "hs": 88},   # below the floodlight bloom
+}
+
 def review_fixes():
     out = {}
     for n in ("a_r1", "b_r1", "a", "b"):          # round one's fixes stand unless round two gives a new one
@@ -488,7 +494,14 @@ def review_fixes():
         if os.path.exists(p):
             for r in json.load(open(p)):
                 if r.get("fix"): out[r["ad"]] = {**out.get(r["ad"], {}), **{k: v for k, v in r["fix"].items() if k != "band"}}
+    for ad, f in AFTER.items():
+        if f is None: out.pop(ad, None)
+        else: out[ad] = {**out.get(ad, {}), **f}
     return out
+
+def nowrap(spec):
+    """never break a hyphenated word such as gold-tone across two lines of the spec"""
+    return re.sub(r"(?<![\w<])(\w+(?:-\w+)+)", r'<span style="white-space:nowrap">\1</span>', spec)
 
 def glue_h(h):
     """keep a short word with the next one, so no headline line is a lone "IT", "BUT" or "note." """
@@ -509,6 +522,7 @@ def build():
             f = dict(fx[t])
             if f.pop("drop", None): f = {"layout": "plain"}
             if ov["layout"] == "quiet": f = {x: y for x, y in f.items() if x not in ("y", "fixed")}   # the calm-band finder places the name
+            if f.get("spec"): f["spec"] = nowrap(f["spec"])
             if f: e[t] = f
         s = S.get(f"{k}-{fmt}", {}); lay = ov["layout"]
         if s.get("subject_y") and "cy" not in e: e["cy"] = round(min(max(sum(s["subject_y"]) / 2, .36), .64), 3)
@@ -516,6 +530,7 @@ def build():
         if s.get("tone") == "dark" and "tone" not in e: e["tone"] = "cream"
         if s.get("subject_y"): e["sy"] = s["subject_y"]
         if e.get("spec", "").startswith(name + " · "): e["spec"] = e["spec"][len(name) + 3:]          # the Meta headline carries the name
+        if e.get("spec"): e["spec"] = nowrap(e["spec"])
         if lay == "deck": e.update(cta=f"Shop the {noun}", price=price, at=e.get("at", "tl"), w=e.get("w", 640), hs=e.get("hs", 96), cs=e.get("cs", 38))
         if lay == "note": e.update(n=f"{name}\u00a0·\u00a0{price}", at=e.get("at", "tl"), w=e.get("w", 600), hs=e.get("hs", 78), cs=e.get("cs", 34), ns=e.get("ns", 18))
         if lay == "quiet": e.update(name=name, price=price)
@@ -533,7 +548,7 @@ def build():
         plate = f"plates/crazy/{cid}.jpg"
         if not os.path.exists(os.path.join(HERE, "..", plate)): continue
         name, price, noun = P[k]; stem = f"{k}-crazy{cid[1:]}"; s_ = CS.get(cid, {})
-        e = dict(id=stem, plate=plate, layout="deck", story="deck", h=glue_h(h), c=c, spec=spec, cta=f"Shop the {noun}", price=price,
+        e = dict(id=stem, plate=plate, layout="deck", story="deck", h=glue_h(h), c=c, spec=nowrap(spec), cta=f"Shop the {noun}", price=price,
                  at=s_.get("copy_space") if s_.get("copy_space") in ("tl", "tr", "bl", "br") else "tl", w=680, hs=108, cs=40)
         if s_.get("subject_y"): e["sy"] = s_["subject_y"]; e["cy"] = round(min(max(sum(s_["subject_y"]) / 2, .36), .64), 3)
         if s_.get("tone") == "dark": e["tone"] = "cream"
@@ -544,6 +559,7 @@ def build():
         for t in ("feed", "story"):
             f = {**cz.get(t, {}), **{x: y for x, y in fx[t].items() if x != "drop"}}
             if "<br>" in f.get("h", ""): f["h"] = "<br>".join(glue_h(x) for x in f["h"].split("<br>"))
+            if f.get("spec"): f["spec"] = nowrap(f["spec"])
             if fx[t].get("drop"): f = {"layout": "plain"}
             if f: e[t] = f
         frames.append(e)

@@ -1,57 +1,44 @@
 [
  {
   "ad": "marquise-layering-set-play-feed",
-  "score": 6.0,
-  "issues": [
-   "Headline and subline (tr) are laid across the white plumb-bob string; the string runs through HANGS/TRUE and the italic line.",
-   "The NAIRA wordmark touches the tip of the plumb bob.",
-   "Spec '18K GOLD-TONE' ends on the lariat chain (touching).",
-   "The 4:5 window cuts the lariat's pear tip at the bottom edge, so the set is not shown whole.",
-   "Calm space exists only right of the string (x 815-1016), so the block has to go narrow there. 'sw' 340 wraps the spec into two lines clear of the lariat."
-  ],
+  "score": 6.5,
+  "notes": "The plumb-bob string now runs through the middle of the one-line 'HANGS TRUE.' and the start of 'layered'. The wordmark is now clear of the bob. The spec breaks 'GOLD- / TONE' (bad hyphen break). The calm wall left of the lariat (x 64-380, y 500-1130) takes the block: two short headline lines, and a spec with an explicit break.",
   "fix": {
-   "at": "tr",
-   "w": 200,
+   "h": "Hangs<br>true.",
+   "at": "bl",
+   "w": 340,
    "hs": 64,
    "cs": 30,
    "fixed": true,
-   "y": 64,
-   "cy": 0.5,
-   "sw": 340
+   "y": 256,
+   "spec": "40 + 45 cm<br>18k gold-tone"
   }
  },
  {
   "ad": "marquise-layering-set-play-story",
   "score": 6.5,
-  "issues": [
-   "Headline and subline (tr) are laid across the plumb-bob string.",
-   "The 'GOLD-TONE' end of the spec line touches the hanging lariat chain.",
-   "Move the copy into the strip right of the string, and wrap the spec ('sw' 340)."
-  ],
+  "notes": "Same problems as the feed: the string runs through the headline, and the spec breaks 'GOLD- / TONE'. Use the calm wall left of the lariat.",
   "fix": {
-   "at": "tr",
-   "w": 200,
+   "h": "Hangs<br>true.",
+   "at": "bl",
+   "w": 340,
    "hs": 64,
    "cs": 30,
    "fixed": true,
-   "y": 300,
-   "sw": 340
+   "y": 508,
+   "spec": "40 + 45 cm<br>18k gold-tone"
   }
  },
  {
   "ad": "marquise-layering-set-worn-feed",
-  "score": 6.8,
-  "issues": [
-   "Ink copy (br) crosses the hard white-lapel/skin edge: 'one set:' sits on the lapel and the rest on skin.",
-   "The name line breaks into an orphan '₹1,599' after a dangling '·'.",
-   "The skin carries a heavy bumpy goose-bump texture across the chest (an AI artefact that reads as a skin condition at full size).",
-   "Bottom-left is smooth ivory shirt: set the block there, narrow enough to stay off the skin."
-  ],
+  "score": 7.4,
+  "notes": "The bottom-left placement was applied, but the one-line headline (x 72-505) and the name line (x 72-465) run off the shirt across the lapel shadow onto skin, with a glow haze on the skin. Image: heavy goose-bump skin texture across the chest. Break the headline and narrow the block to the shirt. The name line may still end at the lapel shadow.",
   "fix": {
+   "h": "Layered,<br>already.",
    "at": "bl",
-   "w": 420,
-   "hs": 72,
-   "cs": 30,
+   "w": 320,
+   "hs": 60,
+   "cs": 28,
    "fixed": true,
    "y": 72
   }
@@ -59,883 +46,530 @@
  {
   "ad": "marquise-layering-set-worn-story",
   "score": 7.6,
-  "issues": [
-   "Cream copy (tr) reads on the neck, but the outer chain runs about 20 px from the end of '₹1,599'. Lift the block to the safe-zone edge.",
-   "Same bumpy goose-bump skin texture as the feed."
-  ],
-  "fix": {
-   "at": "tr",
-   "w": 600,
-   "fixed": true,
-   "y": 260
-  }
+  "notes": "Cream copy at top right on the neck reads, and the outer chain is about 30-40 px from the price. The image still has the bumpy goose-bump skin texture, which needs a retouch or reshoot rather than a layout change.",
+  "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-play-feed",
-  "score": 7.3,
-  "issues": [
-   "The layout is clean (headline on plaster, footer clear).",
-   "Image: the band reads about 20-22 mm wide (three pencils) against a true 15 mm, which looks costume-heavy. This is the flagged 7.5 plate, and no layout change fixes it."
-  ],
+  "score": 7.4,
+  "notes": "The layout is clean (one-line headline, footer clear). The image is the flagged 7.5 plate: the band reads about 20 mm wide against the pencil (true 15 mm), which looks chunky.",
   "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-play-story",
-  "score": 6.8,
-  "issues": [
-   "The headline breaks to a lone word: 'IT / BENDS.'.",
-   "The subline breaks awkwardly ('not / one stiff band').",
-   "Spec 'GOLD-TONE' ends about 12 px from the box clasp. Wrap the spec ('sw' 260).",
-   "Same chunky-band scale doubt as the feed."
-  ],
+  "score": 7.2,
+  "notes": "'IT BENDS.' is fixed. My width of 260 now breaks the spec 'GOLD- / TONE'. Set the break explicitly. Same chunky-band scale doubt as the feed.",
   "fix": {
-   "at": "tl",
-   "w": 640,
-   "fixed": true,
-   "y": 300,
-   "sw": 260
+   "spec": "17 cm · 18k<br>gold-tone"
   }
  },
  {
   "ad": "molten-panel-bracelet-quiet-feed",
-  "score": 7.5,
-  "issues": [
-   "The layout is clean and centred.",
-   "Image: the bracelet reads coppery/rose against the yellow gold of the silk and play frames, and the 'mosambi' reads as a lemon. A layout change won't fix this."
-  ],
+  "score": 7.4,
+  "notes": "The layout is clean. The bracelet reads rose/pink gold against the yellow 18k gold tone of the play and silk frames (metal-colour doubt, image only).",
   "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-quiet-story",
-  "score": 3.0,
-  "issues": [
-   "name and price are not at the designed foot: the auto-placer climbed off the bottom. The name and price are set inside the bracelet ring over the fruit, and the type crosses the bracelet on both sides.",
-   "Fix the foot at the designed 400 px from the bottom."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 400
-  }
+  "score": 7.5,
+  "notes": "Fixed: name and price sit at the foot on linen, clear of the fruit. The rose-gold cast remains (image only).",
+  "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-rhyme-feed",
-  "score": 7.6,
-  "issues": [
-   "'POLISHED.' runs onto the corn husk silk at the right end of the line.",
-   "The bracelet's clasp end is cut by the bottom edge and sits between the CTA and the wordmark. The bhutta and bracelet span 68% of the frame, so the 4:5 window is tight.",
-   "Narrow and shrink the headline so it stays on the plaster."
-  ],
+  "score": 6.3,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. 'POLISHED.' now sits across the corn-husk silk and cob tip. Break the headline and set it small enough to end left of the silk (x of about 390).",
   "fix": {
+   "h": "Bhutta,<br>polished.",
    "at": "tl",
-   "w": 460,
-   "hs": 84,
-   "cs": 34,
+   "w": 340,
+   "hs": 60,
+   "cs": 30,
    "fixed": true,
-   "y": 64
+   "y": 48
   }
  },
  {
   "ad": "molten-panel-bracelet-rhyme-story",
   "score": 8.5,
-  "issues": [
-   "Text-free and clean. The bhutta reads clearly."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-silk-feed",
   "score": 8.3,
-  "issues": [
-   "Clean: ink on rose-beige satin. The macro makes the plates a touch chunky."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-silk-story",
   "score": 8.3,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-worn-feed",
-  "score": 7.4,
-  "issues": [
-   "The placer chose a 380 px block, so the subline wraps into three ragged lines ('A flat band of / gold-tone plates / ...').",
-   "The name line breaks into an orphan '₹1,299'.",
-   "The band reads about 20 mm on the wrist (true 15 mm)."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 560,
-   "cs": 32,
-   "fixed": true,
-   "y": 170
-  }
+  "score": 8.0,
+  "notes": "Fixed: two-line subline, one-line name and price, clear of the hand. The band reads a little wide (image).",
+  "fix": {}
  },
  {
   "ad": "molten-panel-bracelet-worn-story",
-  "score": 7.4,
-  "issues": [
-   "Same ragged three-line subline and orphan price as the feed.",
-   "The band reads wide."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 560,
-   "cs": 32,
-   "fixed": true,
-   "y": 450
-  }
+  "score": 8.0,
+  "notes": "Fixed, as the feed.",
+  "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-play-feed",
   "score": 8.5,
-  "issues": [
-   "Clean and witty. The sugar tongs and cubes prove the size."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-play-story",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-quiet-feed",
   "score": 7.5,
-  "issues": [
-   "Image: two heart-shaped lychee halves, each with a pearl dead-centre, read as a pair of eyes or a bust. That is comic or suggestive for paid spend.",
-   "The studs are about half a lychee (about 15 mm), slightly large.",
-   "The type is clean."
-  ],
+  "notes": "The type is clean. Image: two lychee halves, each with a pearl dead-centre, read as eyes or a bust, and the studs are large against the fruit. Reshoot candidate.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-quiet-story",
   "score": 7.5,
-  "issues": [
-   "Same lychee-pair read as the feed. The type sits correctly at the foot."
-  ],
+  "notes": "Same lychee read as the feed. The type is clean.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-rhyme-feed",
-  "score": 8.5,
-  "issues": [
-   "Clean. The paneer katori is visible, the headline is clear of the bowl, and the footer sits on calm linen."
-  ],
-  "fix": {}
+  "score": 6.5,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. 'ARL.' of 'PEARL.' prints over the katori rim and the paneer cubes. Restore the two-line break, which was clean in round 1.",
+  "fix": {
+   "h": "Paneer?<br>Pearl."
+  }
  },
  {
   "ad": "pearl-circlet-studs-rhyme-story",
   "score": 8.6,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-silk-feed",
   "score": 8.5,
-  "issues": [
-   "Cream on cocoa satin: strong contrast and premium."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-silk-story",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-worn-feed",
   "score": 8.0,
-  "issues": [
-   "Cream copy (tr) over the hair and bun reads. No facial features."
-  ],
+  "notes": "Cream over the hair reads. The name line reaches the pale wall but stays legible.",
   "fix": {}
  },
  {
   "ad": "pearl-circlet-studs-worn-story",
   "score": 8.0,
-  "issues": [
-   "As the feed. Copy is inside the safe band."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "prism-cluster-studs-silver-play-feed",
-  "score": 6.5,
-  "issues": [
-   "The headline 'WATERCOLOUR, / SET IN STONE.' overprints the paint tin: 'R,' sits over the purple pan and 'NE.' over the yellow pan.",
-   "Shrink and narrow the block so it ends left of the tin (at 66 px it still sets in two lines)."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 470,
-   "hs": 66,
-   "cs": 32,
-   "fixed": true,
-   "y": 64
-  }
+  "score": 8.4,
+  "notes": "Fixed: the headline and subline clear the paint tin by about 50 px, and the footer is clean.",
+  "fix": {}
  },
  {
   "ad": "prism-cluster-studs-silver-play-story",
   "score": 8.0,
-  "issues": [
-   "The headline clears the tin by about 35 px, which is tight but clean. The spec and foot are clear."
-  ],
+  "notes": "The headline sits about 40 px from the tin lid and box. Tight but clean.",
   "fix": {}
  },
  {
-  "ad": "prism-cluster-studs-silver-quiet-feed",
-  "score": 6.5,
-  "issues": [
-   "Product read: the two studs lie end to end across the rose and read as one long bar brooch or hair clip, not a pair of earrings (product misrepresented).",
-   "The name sits on the rose's lower petal edge."
-  ],
-  "fix": {
-   "drop": true
-  }
- },
- {
-  "ad": "prism-cluster-studs-silver-quiet-story",
-  "score": 4.5,
-  "issues": [
-   "name and price are not at the designed foot: the auto-placer climbed off the bottom. The name and price sit on the rose's upper petals, just above the jewellery.",
-   "Same bar-brooch read as the feed. If it is kept anyway, set the foot fixed at y 400."
-  ],
-  "fix": {
-   "drop": true
-  }
- },
- {
   "ad": "prism-cluster-studs-silver-silk-feed",
-  "score": 8.2,
-  "issues": [
-   "Cream on aubergine is clean. Both studs are drawn in the same orientation (two lefts), which shows in the macro but is minor."
-  ],
+  "score": 8.3,
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "prism-cluster-studs-silver-silk-story",
   "score": 8.3,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "prism-cluster-studs-silver-worn-feed",
-  "score": 7.5,
-  "issues": [
-   "Copy truth: the headline 'Up the ear.' contradicts the picture and its own subline. The arc sits horizontally along the lobe and does not climb the ear. Change the headline in copy.json (for example 'Along the lobe.' or 'One arc, all colour.').",
-   "Stray hair strands cross the cream subline.",
-   "The subline wraps into three ragged lines. A fixed 600 px block keeps the designed two lines."
-  ],
+  "score": 5.5,
+  "notes": "At y 72 the cream name line lands on the white shirt collar, cream on white, which is unreadable. 'arc.' crosses the collar edge. Copy truth: 'Five colours, one lobe.' is false. The lock gives 5 stones in 3 colours (purple, pink, yellow), as the subline itself says. Lift the block onto the neck skin and fix the headline.",
   "fix": {
+   "h": "Five stones, one lobe.",
    "at": "br",
    "w": 600,
    "fixed": true,
-   "y": 72
+   "y": 240
   }
  },
  {
   "ad": "prism-cluster-studs-silver-worn-story",
   "score": 7.5,
-  "issues": [
-   "Same 'Up the ear.' contradiction, which needs a copy change.",
-   "Hair strands run near the copy, and the subline wraps into three ragged lines."
-  ],
+  "notes": "The layout on the neck skin is fine. Same false 'Five colours' headline.",
   "fix": {
-   "at": "br",
-   "w": 600,
-   "fixed": true,
-   "y": 700
+   "h": "Five stones, one lobe."
   }
- },
- {
-  "ad": "prism-riviere-bracelet-play-feed",
-  "score": 7.0,
-  "issues": [
-   "The top edge cuts the glass prism (only its base shows), so 'Prism, meet prism' lands on half a prop.",
-   "Two stylised starburst glints, and about 13 chunky stations: the bracelet reads short and costume-heavy (flagged 7.6 plate).",
-   "No crop fits both the whole prism and the clasp clear of the deck footer. Run the Story only."
-  ],
-  "fix": {
-   "drop": true
-  }
- },
- {
-  "ad": "prism-riviere-bracelet-play-story",
-  "score": 7.6,
-  "issues": [
-   "The prism is fully visible and the copy is clean ('MEET' clears the prism by about 50 px).",
-   "The left clasp ends about 35 px above the spec rule.",
-   "Image doubts remain: starburst glints and chunky, short stations."
-  ],
-  "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-quiet-feed",
   "score": 8.5,
-  "issues": [
-   "Clean: hydrangea on lilac linen, centred."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-quiet-story",
   "score": 8.5,
-  "issues": [
-   "Clean. The foot is correctly placed."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-rhyme-feed",
-  "score": 8.0,
-  "issues": [
-   "The three-line headline 'AFTER- / DINNER / SPARKLE.' is heavy, but the compound-hyphen break is legitimate. The mukhwas katori is visible and the headline is clear of the bowl."
-  ],
-  "fix": {}
+  "score": 6.0,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. 'DINNER SPARKLE.' is set on one line, and 'SPARKLE.' runs into the katori rim and the mukhwas spill, with saunf grains through the letters. Restore the round-1 three-line break, which cleared the bowl.",
+  "fix": {
+   "h": "After-<br>dinner<br>sparkle."
+  }
  },
  {
   "ad": "prism-riviere-bracelet-rhyme-story",
   "score": 8.5,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-silk-feed",
-  "score": 7.8,
-  "issues": [
-   "The name line ('PRISM RIVIÈRE BRACELET · ₹2,399', tl) sits about 30 px above the bracelet's top stations, which is crowded.",
-   "The Story's tr placement works. Use it here too."
-  ],
-  "fix": {
-   "at": "tr",
-   "w": 600,
-   "fixed": true,
-   "y": 64
-  }
+  "score": 8.4,
+  "notes": "Fixed: clean at top right, about 70 px above the bracelet.",
+  "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-silk-story",
   "score": 8.4,
-  "issues": [
-   "Clean (tr, cream on plum)."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-worn-feed",
-  "score": 5.5,
-  "issues": [
-   "Copy truth: 'adjustable from 15 to 19 cm' is unsupported. The product lock and listing give an 18 cm bracelet with a fold-over clasp. Remove it in copy.json (for example 'Aqua, pink and yellow cushions,<br>each in its own pavé halo.').",
-   "'Every colour,' starts on the edge of the hand (br block).",
-   "The name line breaks into an orphan '₹2,399' after a dangling '·', and the subline wraps into three ragged lines.",
-   "Move the block to the calm upper-left bedlinen."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 560,
-   "fixed": true,
-   "y": 64
-  }
+  "score": 8.3,
+  "notes": "Fixed: the copy is true ('18 cm, flat on the wrist'), sits top left on bedlinen, and the name sits on one line.",
+  "fix": {}
  },
  {
   "ad": "prism-riviere-bracelet-worn-story",
-  "score": 5.5,
-  "issues": [
-   "Same unsupported 'adjustable from 15 to 19 cm' claim.",
-   "Orphan '₹2,399' and a ragged three-line subline. Move the block to the upper-left bedlinen."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 560,
-   "fixed": true,
-   "y": 300
-  }
+  "score": 8.3,
+  "notes": "Fixed, as the feed.",
+  "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-play-feed",
-  "score": 6.3,
-  "issues": [
-   "The front stud runs into the deck footer: its left points sit on the end of '18K GOLD-TONE' and its right point is about 20 px from the NAIRA wordmark.",
-   "Raise the window (cy 0.47) so the stud tip lands in the gap between the spec and the wordmark. Slightly smaller type keeps the headline off the loupe."
-  ],
-  "fix": {
-   "cy": 0.47,
-   "hs": 84,
-   "cs": 32,
-   "w": 560
-  }
+  "score": 7.6,
+  "notes": "Improved: the front stud's tip is now about 70 px right of 'GOLD-TONE' and clear of the wordmark, but it still crowds the footer. Image (flagged 7.5): the loupe shows no magnified stud, so the 'look closer' proof is implied rather than shown.",
+  "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-play-story",
-  "score": 7.0,
-  "issues": [
-   "The subline baseline is about 8 px from the edge of the loupe's top plate (touching at phone size).",
-   "'CLOSER.' is about 25 px from the hinge.",
-   "Image: the lens shows no magnified stud, so the 'look closer' proof is implied rather than shown (flagged 7.5 plate)."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 520,
-   "hs": 80,
-   "cs": 30,
-   "fixed": true,
-   "y": 290
-  }
+  "score": 7.6,
+  "notes": "Improved: the subline is about 27 px from the loupe plate, and 'CLOSER.' is about 45 px from the hinge. Same lens doubt as the feed.",
+  "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-quiet-feed",
   "score": 8.3,
-  "issues": [
-   "Clean and symmetrical. The fruit reads as a lemon, which is fine for the ad."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-quiet-story",
   "score": 8.3,
-  "issues": [
-   "Clean. The foot is correctly placed."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-rhyme-feed",
   "score": 8.1,
-  "issues": [
-   "The headline (bl) clears the plate by about 35 px.",
-   "The 'not kaju katli' punchline is also used by the Ribbon Bead rhyme ad, a repeat within the same campaign. The star-vs-rhombus pun is a stretch."
-  ],
+  "notes": "Clean at bottom left. The new 'not varq' line works.",
   "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-rhyme-story",
   "score": 8.5,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-silk-feed",
-  "score": 7.6,
-  "issues": [
-   "The name line breaks into an orphan '₹1,299' after a dangling '·' (the placer narrowed the block).",
-   "Two stylised starburst glints on the right stud."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 600,
-   "fixed": true,
-   "y": 64
-  }
+  "score": 8.0,
+  "notes": "Fixed: the name sits on one line. Stylised starburst glints remain on the right stud (image).",
+  "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-silk-story",
-  "score": 7.6,
-  "issues": [
-   "Same orphan '₹1,299' and starburst glints."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 600,
-   "fixed": true,
-   "y": 410
-  }
+  "score": 8.0,
+  "notes": "Fixed, as the feed.",
+  "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-worn-feed",
-  "score": 7.6,
-  "issues": [
-   "The name line breaks into an orphan '₹1,299'.",
-   "The stud reads about 20 mm on the ear (true 15 mm).",
-   "Cream copy over the neck reads."
-  ],
-  "fix": {
-   "at": "br",
-   "w": 640,
-   "fixed": true,
-   "y": 72
-  }
+  "score": 8.2,
+  "notes": "Fixed: cream at bottom right on the neck, name on one line. The stud is a touch large.",
+  "fix": {}
  },
  {
   "ad": "quatrefoil-eclat-studs-worn-story",
-  "score": 7.6,
-  "issues": [
-   "Same orphan price and slightly large stud."
-  ],
-  "fix": {
-   "at": "br",
-   "w": 640,
-   "fixed": true,
-   "y": 460
-  }
+  "score": 8.2,
+  "notes": "Fixed, as the feed.",
+  "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-play-feed",
   "score": 8.5,
-  "issues": [
-   "Clean. The bracelet as the ribbon on a tiny gift reads at once."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-play-story",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-quiet-feed",
-  "score": 8.3,
-  "issues": [
-   "Clean: peach rose, centred, with the foot on linen."
-  ],
+  "score": 8.0,
+  "notes": "The name sits about 70 px under the bow, a touch tight but clean.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-quiet-story",
-  "score": 4.0,
-  "issues": [
-   "name and price are not at the designed foot: the auto-placer climbed off the bottom. The name and price print over the bracelet's clasp and chain above the rose.",
-   "Fix the foot near the bottom. The bracelet's bow reaches 0.75 of the frame, so use 360 px."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 360
-  }
+  "score": 8.3,
+  "notes": "Fixed: the name and price sit under the bow on linen.",
+  "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-rhyme-feed",
-  "score": 7.6,
-  "issues": [
-   "The crystal bow sits about 35 px above the spec line, crowding the footer. Raise the window (cy 0.55).",
-   "The 'not kaju katli' punchline repeats the Quatrefoil rhyme ad. Consider another line in copy.json.",
-   "The bow reads about 1.5x true size against the katli (flagged in the shoot)."
-  ],
+  "score": 7.2,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. The kaju-katli apex now rises into 'DIB' of 'EDIBLE.', and 'mithai.' ends about 20 px from the varq. The bow now clears the spec by about 70 px. Restore the two-line break.",
   "fix": {
-   "cy": 0.55
+   "h": "A bow,<br>edible."
   }
  },
  {
   "ad": "ribbon-bead-bracelet-rhyme-story",
   "score": 8.5,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-silk-feed",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-silk-story",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-worn-feed",
   "score": 8.2,
-  "issues": [
-   "Cream copy (bl) on the back of the hand reads well."
-  ],
+  "notes": "Cream on the shaded linen and hand reads.",
   "fix": {}
  },
  {
   "ad": "ribbon-bead-bracelet-worn-story",
   "score": 8.0,
-  "issues": [
-   "Ink copy (tr). 'on a fine' and 'RIBBON' sit on the soft forearm edge but stay legible. Minor."
-  ],
+  "notes": "Ink copy straddles the forearm edge, but the glow keeps it legible.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-play-feed",
-  "score": 8.2,
-  "issues": [
-   "Clean and witty. The headline clears the ball. The stones read about 4.5 mm against the listed 3 mm (the listing's own photos look nearer 4 mm)."
-  ],
+  "score": 8.0,
+  "notes": "The subline ends about 20 px above the ball. Tight but clean.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-play-story",
   "score": 8.4,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-quiet-feed",
-  "score": 5.0,
-  "issues": [
-   "name and price are not at the designed foot: the auto-placer climbed off the bottom. The name and price are set inside the bracelet ring over the frangipani, with 'RIVIÈRE' and 'BRACELET' touching the stones on both sides.",
-   "Image: the ring over the flower reads faintly as a brooch (flagged 7.6 plate)."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 76
-  }
+  "score": 7.6,
+  "notes": "Fixed: the name is off the ring, but the new calm-band finder sets it only about 30 px under the clasp. Image is the flagged 7.6 plate (the ring over the flower reads brooch-like, and the stones are large).",
+  "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-quiet-story",
-  "score": 4.0,
-  "issues": [
-   "name and price are not at the designed foot: the auto-placer climbed off the bottom. The name sits inside the bracelet ring and crosses the stones, leaving the bottom 40% empty."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 380
-  }
+  "score": 7.8,
+  "notes": "Fixed: the name sits about 180 px under the clasp on linen. Image is the flagged 7.6 plate.",
+  "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-rhyme-feed",
-  "score": 8.0,
-  "issues": [
-   "The headline clears the bowl rim by about 20 px. The sabudana could read as pearls, but 'not tapioca' covers it."
-  ],
-  "fix": {}
+  "score": 6.0,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. 'SET.' prints over the brass katori rim and the sabudana. Restore the two-line break, which was clean in round 1.",
+  "fix": {
+   "h": "Sabudana,<br>set."
+  }
  },
  {
   "ad": "riviere-eternal-bracelet-rhyme-story",
   "score": 8.3,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-silk-feed",
   "score": 8.6,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-silk-story",
   "score": 8.6,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-worn-feed",
   "score": 8.3,
-  "issues": [
-   "Clean: ink on pale plaster, natural hand."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "riviere-eternal-bracelet-worn-story",
   "score": 8.3,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-play-feed",
-  "score": 7.4,
-  "issues": [
-   "Bad break: 'STRAINED, IN / A GOOD WAY.' strands 'IN' after the comma. Put a <br> after 'Strained,' in copy.json.",
-   "Both polished caps sit beside the spec line on its baseline (crowded footer). Raise the window (cy 0.6) to lift the cuff."
-  ],
+  "score": 6.8,
+  "notes": "Regression: cy 0.6 lifted the strainer into the headline. 'WAY.' prints over the strainer rim, and 'D,' sits next to the handle loop. The caps now clear the spec (about 80 px). A smaller fixed block ends 'IN A GOOD WAY.' near x 580, left of the rim at x 660.",
   "fix": {
-   "cy": 0.6
+   "at": "tl",
+   "w": 640,
+   "hs": 72,
+   "cs": 34,
+   "fixed": true,
+   "y": 48
   }
  },
  {
   "ad": "silk-mesh-cuff-play-story",
-  "score": 4.5,
-  "issues": [
-   "The auto paper band washes out the front of the cuff: both mirror-polished caps (the key detail) fade to white, and the spec line runs across the fade.",
-   "The cuff sits at 0.66-0.82 of the frame, inside the deck footer zone, and a 9:16 Story can't be re-cropped.",
-   "Same 'STRAINED, IN' break."
-  ],
-  "fix": {
-   "drop": true
-  }
+  "score": 8.0,
+  "notes": "Now text-free. The polished caps are sharp, and the strainer pairing reads without words.",
+  "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-quiet-feed",
   "score": 8.2,
-  "issues": [
-   "Clean: lilac dahlia, centred."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-quiet-story",
-  "score": 6.5,
-  "issues": [
-   "name and price are not at the designed foot: the auto-placer climbed off the bottom. The name and price are stacked under the wordmark in the top third, and the foot is empty. This breaks the Apricot layout."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 400
-  }
+  "score": 8.2,
+  "notes": "Fixed: the name sits at the foot under the dahlia.",
+  "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-rhyme-feed",
-  "score": 8.3,
-  "issues": [
-   "Clean. The ghevar is visible and the headline is clear."
-  ],
-  "fix": {}
+  "score": 6.0,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. 'GILDED.' overprints the brass plate rim and the ghevar edge. Restore the two-line break, which was clean in round 1.",
+  "fix": {
+   "h": "Ghevar,<br>gilded."
+  }
  },
  {
   "ad": "silk-mesh-cuff-rhyme-story",
   "score": 8.6,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-silk-feed",
   "score": 8.5,
-  "issues": [
-   "Clean: cream on plum."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-silk-story",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-worn-feed",
-  "score": 7.0,
-  "issues": [
-   "Copy truth: the headline 'Soft, but gold.' presents the metal as gold. It must read as gold tone. Change it in copy.json (for example 'Soft as cloth.' or 'Soft, but gold-tone.').",
-   "The layout is clean."
-  ],
+  "score": 8.4,
+  "notes": "Fixed: the copy reads 'Soft, but solid.' and sits cleanly on linen.",
   "fix": {}
  },
  {
   "ad": "silk-mesh-cuff-worn-story",
-  "score": 7.0,
-  "issues": [
-   "Same 'Soft, but gold.' copy-truth problem. The layout is clean."
-  ],
+  "score": 8.4,
+  "notes": "Fixed, as the feed.",
   "fix": {}
  },
  {
   "ad": "toggle-link-chain-play-feed",
-  "score": 4.0,
-  "issues": [
-   "The auto paper band fogs the toggle clasp, so the bar-through-ring that the headline is about cannot be seen. The clasp sits behind the footer.",
-   "The subline 'a bar through a ring, one turn.' runs onto the kundi ring.",
-   "Raise the window (cy 0.6) so the clasp sits above the footer. A fixed, narrow block stays left of the ring and drops the auto band."
-  ],
+  "score": 6.8,
+  "notes": "Much better: the clasp is sharp with no fog, and the subline clears the ring. The new auto-tone went cream with a dark glow on pale cracked paint, so the price reads as a grey smudge broken by cracks, the white wordmark is low contrast, and the tones are mixed (cream CTA). 'KUNDI.' period touches the brass ring. Lock ink and narrow the block.",
   "fix": {
    "at": "tl",
-   "w": 300,
-   "hs": 80,
+   "w": 280,
+   "hs": 76,
    "cs": 30,
    "fixed": true,
    "y": 64,
-   "cy": 0.6
+   "cy": 0.6,
+   "tone": "ink",
+   "lock": [
+    "tone"
+   ]
   }
  },
  {
   "ad": "toggle-link-chain-play-story",
-  "score": 3.5,
-  "issues": [
-   "The auto paper band fogs the toggle clasp, the subject of the headline.",
-   "The clasp sits at 0.75-0.84 of the frame, inside the deck footer zone, and a 9:16 Story can't be re-cropped."
-  ],
-  "fix": {
-   "drop": true
-  }
- },
- {
-  "ad": "toggle-link-chain-quiet-feed",
-  "score": 6.0,
-  "issues": [
-   "Brand safety: a halved fig standing cut-face-forward, with the ring clasp at its centre and the split below, reads as anatomical. That invites crude comments on paid spend.",
-   "The type is clean. Reshoot with the fig cut-face-up, or use another fruit."
-  ],
-  "fix": {
-   "drop": true
-  }
- },
- {
-  "ad": "toggle-link-chain-quiet-story",
-  "score": 6.0,
-  "issues": [
-   "Same anatomical fig read as the feed. The foot is placed correctly."
-  ],
-  "fix": {
-   "drop": true
-  }
+  "score": 7.4,
+  "notes": "Now text-free. The necklace on the kundi reads and the wit survives. The clasp ring's lower edge dips about 30 px into the bottom 340 px UI zone (image framing).",
+  "fix": {}
  },
  {
   "ad": "toggle-link-chain-rhyme-feed",
-  "score": 6.8,
-  "issues": [
-   "'BAR.' collides with the brass bowl at the top right, and the end of the subline ('kishmish.') touches the white raisins.",
-   "The bowl is cut by the top edge.",
-   "The calm plaster bottom-left, between the chain loop and the clasp, holds a narrow block above the footer."
-  ],
-  "fix": {
-   "at": "bl",
-   "w": 320,
-   "hs": 72,
-   "cs": 30,
-   "fixed": true,
-   "y": 256
-  }
+  "score": 8.0,
+  "notes": "Fixed: the bottom-left block clears the raisins, and 'BAR.' sits about 60 px left of the clasp, so the pun lands beside the pavé bar.",
+  "fix": {}
  },
  {
   "ad": "toggle-link-chain-rhyme-story",
   "score": 8.5,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "toggle-link-chain-silk-feed",
-  "score": 7.2,
-  "issues": [
-   "The name line '... · ₹1,299' (tl) prints over the chain links entering from the top left (touching the jewellery).",
-   "Calm silk is at the lower right."
-  ],
+  "score": 3.5,
+  "notes": "Regression, caused by my round-1 fix: the bottom-right fixed placement ignored the cy 0.37 crop, so the headline 'The apricot note.' now prints straight across the toggle clasp ring, with 'The' and 'apricot' on the gold ring. Move the crop down (cy 0.47 lifts the clasp to about y 735-925) and keep the italic note at bottom right, about 150 px under the clasp.",
   "fix": {
+   "cy": 0.47,
    "at": "br",
    "w": 600,
    "fixed": true,
@@ -944,196 +578,114 @@
  },
  {
   "ad": "toggle-link-chain-silk-story",
-  "score": 7.3,
-  "issues": [
-   "The headline breaks to a lone word: 'The apricot / note.'.",
-   "Cream on mid peach depends on the glow."
-  ],
-  "fix": {
-   "at": "br",
-   "w": 640,
-   "fixed": true,
-   "y": 380
-  }
+  "score": 8.0,
+  "notes": "Fixed: one-line headline at bottom right, about 170 px under the clasp. Cream with a soft dark glow reads on peach.",
+  "fix": {}
  },
  {
   "ad": "toggle-link-chain-worn-feed",
-  "score": 7.0,
-  "issues": [
-   "The subline wraps into three ragged lines.",
-   "The skin is covered in raised dots (goose-bump AI texture) across the chest, unappealing at full size (flagged 7.8 plate)."
-  ],
-  "fix": {
-   "at": "tr",
-   "w": 600,
-   "fixed": true,
-   "y": 64
-  }
+  "score": 7.4,
+  "notes": "Layout fixed: cream at top right on the neck, two-line subline, name on one line. Image: raised goose-bump dots across the chest skin (flagged 7.8 plate), which needs a retouch or reshoot.",
+  "fix": {}
  },
  {
   "ad": "toggle-link-chain-worn-story",
-  "score": 6.8,
-  "issues": [
-   "Ink copy (bl) starts about 30 px under the clasp ring, crowding the hero.",
-   "Ink on mid-tone skin depends on the glow.",
-   "Same dotted-skin texture as the feed."
-  ],
-  "fix": {
-   "at": "tr",
-   "w": 600,
-   "tone": "cream",
-   "fixed": true,
-   "y": 300
-  }
+  "score": 7.3,
+  "notes": "Layout fixed: cream at top right, clasp clear. The name line ends about 30 px from the right chain strand. Same dotted skin as the feed.",
+  "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-play-feed",
-  "score": 7.8,
-  "issues": [
-   "The end of the subline ('mirror's opinion.') sits about 20 px above the left pearl collar (near-touch)."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 640,
-   "hs": 84,
-   "cs": 34,
-   "fixed": true,
-   "y": 64
-  }
+  "score": 8.3,
+  "notes": "Fixed: one-line headline, subline about 70 px above the pearl, clean footer.",
+  "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-play-story",
-  "score": 7.5,
-  "issues": [
-   "The subline sits about 25 px from the pearl collar.",
-   "The auto paper band fogs the reflected lower pearl and the mirror rim. The reflection is the joke."
-  ],
+  "score": 7.0,
+  "notes": "The band is gone and the reflection is intact, but the NAIRA wordmark now sits on the brass mirror frame, with a white glow patch washing the frame (on the key prop). The bright oval glow behind the headline reads as a spotlight vignette. A Story can't be re-cropped or its footer moved, so run it text-free. The reflection carries the joke.",
   "fix": {
-   "at": "tl",
-   "w": 640,
-   "hs": 88,
-   "cs": 34,
-   "fixed": true,
-   "y": 300
+   "drop": true
   }
  },
  {
   "ad": "torsade-pearl-cuff-quiet-feed",
   "score": 8.6,
-  "issues": [
-   "Clean: coconut on ivory linen."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-quiet-story",
-  "score": 8.0,
-  "issues": [
-   "The placer lifted the name to about 30 px under the coconut husk (tight). Fix it at the designed foot."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 400
-  }
+  "score": 8.5,
+  "notes": "Fixed: the name sits at the foot on linen.",
+  "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-rhyme-feed",
-  "score": 6.8,
-  "issues": [
-   "The period of 'FOREVER.' and the end of the subline ('fox nuts.') print over spilled makhana.",
-   "Lone-word headline line: 'MAKHANA, / BUT / FOREVER.'. A copy tweak ('Makhana, forever.') would also help.",
-   "Narrow and shrink the block so it stays on plaster."
-  ],
-  "fix": {
-   "at": "tl",
-   "w": 380,
-   "hs": 68,
-   "cs": 30,
-   "fixed": true,
-   "y": 48
-  }
+  "score": 8.4,
+  "notes": "Fixed: two-line headline on plaster, clear of the makhana (about 25 px), with no lone 'BUT'.",
+  "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-rhyme-story",
   "score": 8.6,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-silk-feed",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-silk-story",
   "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-worn-feed",
   "score": 8.2,
-  "issues": [
-   "Clean. The copy (bl) is on linen."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "torsade-pearl-cuff-worn-story",
   "score": 8.2,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-play-feed",
   "score": 8.4,
-  "issues": [
-   "Clean. The spool colour match works. The studs read a touch large."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-play-story",
   "score": 8.4,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-quiet-feed",
   "score": 7.3,
-  "issues": [
-   "Image: two green studs mirrored either side of the kiwi's pale core read as a pair of cartoon eyes (a face read).",
-   "The studs read about 17-18 mm against the kiwi (large).",
-   "The type is clean."
-  ],
+  "notes": "The type is clean. Image: the two studs either side of the kiwi core read as cartoon eyes, and they read about 18 mm (large). Reshoot candidate.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-quiet-story",
   "score": 7.3,
-  "issues": [
-   "Same kiwi-face read. The type is clean."
-  ],
+  "notes": "Same kiwi-face read as the feed.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-rhyme-feed",
-  "score": 7.2,
-  "issues": [
-   "The 'D' of 'POLISHED.' and its period touch the katori rim and pistachios. Smaller type clears them."
-  ],
+  "score": 6.6,
+  "notes": "Regression. The new glue keeps the whole headline on one line, so it no longer wraps and now runs into the prop. 'ED.' of 'POLISHED.' prints over the top pistachio in the bowl, and the subline ends about 10 px from a shell. Break the headline and keep the round-1 smaller size.",
   "fix": {
+   "h": "Pista,<br>polished.",
    "at": "tl",
    "w": 640,
    "hs": 78,
@@ -1145,242 +697,334 @@
  {
   "ad": "verdant-cushion-studs-rhyme-story",
   "score": 8.6,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "notes": "Text-free and clean.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-silk-feed",
   "score": 8.6,
-  "issues": [
-   "Cream on navy: excellent."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-silk-story",
   "score": 8.6,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-worn-feed",
   "score": 7.9,
-  "issues": [
-   "The ink copy (bl) straddles the soft wall/neck edge: 'dot.' and 'stones.' sit on skin. Still legible.",
-   "The stud reads about 18-20 mm (true 13 mm)."
-  ],
-  "fix": {
-   "at": "bl",
-   "w": 340,
-   "hs": 66,
-   "cs": 30,
-   "fixed": true,
-   "y": 72
-  }
+  "notes": "The copy is now wholly on the pale wall (the straddle is fixed). The 340 px width splits the name 'VERDANT CUSHION / STUDS · ₹1,199', which is acceptable because the price stays with STUDS. The wall is too narrow for a one-line name. The stud reads about 18-20 mm (image).",
+  "fix": {}
  },
  {
   "ad": "verdant-cushion-studs-worn-story",
   "score": 7.9,
-  "issues": [
-   "Same wall/neck-edge straddle and slightly large stud."
-  ],
-  "fix": {
-   "at": "bl",
-   "w": 340,
-   "hs": 66,
-   "cs": 30,
-   "fixed": true,
-   "y": 430
-  }
+  "notes": "As the feed.",
+  "fix": {}
  },
  {
   "ad": "verdant-eternity-band-play-feed",
   "score": 8.5,
-  "issues": [
-   "Clean and witty. The okra is visible and the fit proves the size."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-eternity-band-play-story",
-  "score": 8.6,
-  "issues": [
-   "Clean."
-  ],
+  "score": 8.3,
+  "notes": "The headline period is about 50 px from the okra. Clean.",
   "fix": {}
  },
  {
   "ad": "verdant-eternity-band-quiet-feed",
   "score": 8.0,
-  "issues": [
-   "Clean. The 'amla' reads as a lime slice, and the ring is slightly large."
-  ],
+  "notes": "Clean. The fruit reads as lime rather than amla.",
   "fix": {}
  },
  {
   "ad": "verdant-eternity-band-quiet-story",
-  "score": 7.8,
-  "issues": [
-   "The placer lifted the name to about 90 px under the slice, where thin type sits over the cast shadow. Fix it at the designed foot."
-  ],
-  "fix": {
-   "fixed": true,
-   "y": 400
-  }
- },
- {
-  "ad": "verdant-eternity-band-rhyme-feed",
   "score": 8.0,
-  "issues": [
-   "The betel leaf is visible. Two stylised starburst glints, and the ring reads about 1.5x large against the leaf."
-  ],
+  "notes": "Fixed: the name sits at the foot on linen.",
   "fix": {}
  },
  {
+  "ad": "verdant-eternity-band-rhyme-feed",
+  "score": 7.6,
+  "notes": "The glue sets 'MEETHA PAAN.' on one line, and its period touches the blurred back betel leaf. There are 2 stylised starburst glints, and the ring reads about 1.5x large against the leaf. Restore the two-line break.",
+  "fix": {
+   "h": "Meetha<br>paan."
+  }
+ },
+ {
   "ad": "verdant-eternity-band-rhyme-story",
-  "score": 8.3,
-  "issues": [
-   "Text-free and clean."
-  ],
+  "score": 8.2,
+  "notes": "Text-free. Starburst glints.",
   "fix": {}
  },
  {
   "ad": "verdant-eternity-band-silk-feed",
-  "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "score": 8.4,
+  "notes": "Clean: cream on plum.",
   "fix": {}
  },
  {
   "ad": "verdant-eternity-band-silk-story",
-  "score": 8.5,
-  "issues": [
-   "Clean."
-  ],
+  "score": 8.4,
+  "notes": "Clean.",
   "fix": {}
- },
- {
-  "ad": "verdant-eternity-band-worn-feed",
-  "score": 6.0,
-  "issues": [
-   "Product misrepresented: the ring is drawn with a separate halo around each green oval (a halo eternity band), not the single S-wave of pavé snaking between the ovals.",
-   "'₹1,099' ends on the edge of the hand."
-  ],
-  "fix": {
-   "drop": true
-  }
- },
- {
-  "ad": "verdant-eternity-band-worn-story",
-  "score": 6.0,
-  "issues": [
-   "Same wrong construction (individual halos instead of the pavé wave)."
-  ],
-  "fix": {
-   "drop": true
-  }
  },
  {
   "ad": "woven-gold-hoops-play-feed",
-  "score": 7.6,
-  "issues": [
-   "Copy truth: 'Plaited, not cast.' states a manufacturing method nothing in the listing supports. The hoops are a braided form, possibly cast. Change it in copy.json (for example 'Plaited, then hooped.').",
-   "The layout is clean."
-  ],
-  "fix": {}
+  "score": 5.8,
+  "notes": "Regression: the placer moved the block to the top right, where 'PLAIT,' prints across the golden plait cord (the key prop) and the glow fogs the cord. The copy is now true ('Plait, perfected.'). The calm plaster bottom-left, above the footer, takes the block; the headline ends near x 740 and the loose cords start near x 850.",
+  "fix": {
+   "at": "bl",
+   "w": 720,
+   "hs": 84,
+   "cs": 34,
+   "fixed": true,
+   "y": 256
+  }
  },
  {
   "ad": "woven-gold-hoops-play-story",
   "score": 7.4,
-  "issues": [
-   "Same unverified 'not cast' claim.",
-   "The auto paper band dissolves the cord ends. A fixed block drops the band."
-  ],
-  "fix": {
-   "at": "bl",
-   "w": 640,
-   "fixed": true,
-   "y": 508
-  }
+  "notes": "The headline is clear (about 25 px left of the cords). The footer glow fades the loose cord ends to white behind the wordmark and price, and the wordmark sits about 10 px from a cord. A Story footer can't move. Acceptable.",
+  "fix": {}
  },
  {
   "ad": "woven-gold-hoops-quiet-feed",
   "score": 8.5,
-  "issues": [
-   "Clean: persimmon on apricot linen, the Apricot camp done right."
-  ],
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "woven-gold-hoops-quiet-story",
-  "score": 8.2,
-  "issues": [
-   "Clean. The name sits a little high (about 60 px under the hoop) but is clear."
-  ],
+  "score": 8.3,
+  "notes": "Clean.",
   "fix": {}
  },
  {
   "ad": "woven-gold-hoops-rhyme-feed",
-  "score": 3.5,
-  "issues": [
-   "The auto paper band fogs the front hoop into a ghost.",
-   "The spec '25 MM · BRAIDED · 18K GOLD-TONE' and the CTA print over the faded hoop.",
-   "The headline leaves 'NOT' alone on its line.",
-   "Raise the window (cy 0.56) so the hoops clear the footer. Set the headline at 68 px in a 380 px column left of the murukku ('TWISTED, / NOT FRIED.'). The fixed block drops the band."
-  ],
+  "score": 8.3,
+  "notes": "Fixed: no band, hoops sharp, and the two-line headline clears the murukku. The front hoop sits about 55 px above the spec rule.",
+  "fix": {}
+ },
+ {
+  "ad": "woven-gold-hoops-rhyme-story",
+  "score": 8.0,
+  "notes": "Text-free. The hoops read about 0.8x a murukku (image).",
+  "fix": {}
+ },
+ {
+  "ad": "woven-gold-hoops-silk-feed",
+  "score": 8.1,
+  "notes": "The placer narrowed the block, so the two-line subline now wraps to three ragged lines ('25 mm of braided / gold-tone rope, / ...'). Fix the width.",
   "fix": {
-   "cy": 0.56,
    "at": "tl",
-   "w": 380,
-   "hs": 68,
-   "cs": 32,
+   "w": 600,
    "fixed": true,
    "y": 64
   }
  },
  {
-  "ad": "woven-gold-hoops-rhyme-story",
-  "score": 8.0,
-  "issues": [
-   "Text-free and clean. The hoops read about 0.8x a murukku (large)."
-  ],
-  "fix": {}
- },
- {
-  "ad": "woven-gold-hoops-silk-feed",
-  "score": 8.6,
-  "issues": [
-   "Clean: ink on rose-beige satin."
-  ],
-  "fix": {}
- },
- {
   "ad": "woven-gold-hoops-silk-story",
-  "score": 8.6,
-  "issues": [
-   "Clean."
-  ],
-  "fix": {}
+  "score": 8.1,
+  "notes": "Same three-line subline as the feed.",
+  "fix": {
+   "at": "tl",
+   "w": 600,
+   "fixed": true,
+   "y": 300
+  }
  },
  {
   "ad": "woven-gold-hoops-worn-feed",
   "score": 8.2,
-  "issues": [
-   "Cream copy (br) on the neck reads. The bun is visible and there are no features. The hoop is seen edge-on."
-  ],
+  "notes": "Clean: cream at bottom right on the neck, no features.",
   "fix": {}
  },
  {
   "ad": "woven-gold-hoops-worn-story",
   "score": 8.2,
-  "issues": [
-   "Clean."
-  ],
+  "notes": "Clean.",
   "fix": {}
+ },
+ {
+  "ad": "bold-nocturne-bracelet-crazy11-feed",
+  "score": 7.6,
+  "notes": "Strong theatrical frame, and the joke lands at once. The bracelet is true (elongated oval links, exactly 1 pavé link, lobster clasp and tagged extender, true size on the handle). The subline 'links, one in pavé.' prints across the top of the right dumbbell plate. Two stylised starburst glints. Moving the crop down drops the dumbbell about 130 px under the subline; the extender stays well above the footer.",
+  "fix": {
+   "cy": 0.5
+  }
+ },
+ {
+  "ad": "bold-nocturne-bracelet-crazy11-story",
+  "score": 8.4,
+  "notes": "The subline sits about 20 px above the plate top, tight but clear. The footer on the dark mat is clean. Premium.",
+  "fix": {}
+ },
+ {
+  "ad": "kiss-knot-bangle-crazy12-feed",
+  "score": 6.3,
+  "notes": "The joke lands instantly (polished X on the map's red X), the bangle is true (ribbed tubogas, one polished X), and the candle-lit set is premium. But the top-right headline's 'THE SPOT.' sits on the bangle's top ribs, and map strokes run through the headline. The price '₹1,199' prints dark on the brass dividers and is illegible; the wordmark sits on a divider. Move the crop down and use the Story's clean top-left placement; give the footer a glow. ('fscrim': 'cols' is html_deck's per-column footer glow; if the builder does not pass it through, the footer stays as it is.)",
+  "fix": {
+   "cy": 0.5,
+   "at": "tl",
+   "fixed": true,
+   "y": 64,
+   "fscrim": "cols"
+  }
+ },
+ {
+  "ad": "kiss-knot-bangle-crazy12-story",
+  "score": 7.0,
+  "notes": "The headline and subline are clean on parchment. Footer: the price is illegible on the brass dish and dividers, 'FLEXIBLE' loses its F on the burnt edge, and the spec runs over the divider legs. ('fscrim': 'cols' is html_deck's per-column footer glow; if the builder does not pass it through, the footer stays as it is.)",
+  "fix": {
+   "fscrim": "cols"
+  }
+ },
+ {
+  "ad": "lilac-papillon-ring-crazy13-feed",
+  "score": 7.4,
+  "notes": "Joke lands instantly and the frame is lush and premium; cream headline on dark green is excellent. Ring construction true (lilac pavé wings in gold rims, body bar, offset clear outline), but it reads about 1.3x the real butterfly and is shown face-on with the shank hidden, so it can read as a brooch. Footer: cream wordmark, price and 'BUTTERFLY' sit on pale lilac florets, low contrast at phone size; the ring's lower outline ends 25-35 px above the wordmark. ('fscrim': 'cols' is html_deck's per-column footer glow; if the builder does not pass it through, the footer stays as it is.)",
+  "fix": {
+   "fscrim": "cols"
+  }
+ },
+ {
+  "ad": "lilac-papillon-ring-crazy13-story",
+  "score": 7.6,
+  "notes": "Same footer contrast on the florets as the feed. The ring is about 40 px above the wordmark, and the headline is clean. ('fscrim': 'cols' is html_deck's per-column footer glow; if the builder does not pass it through, the footer stays as it is.)",
+  "fix": {
+   "fscrim": "cols"
+  }
+ },
+ {
+  "ad": "riviere-eternal-bracelet-crazy14-feed",
+  "score": 7.6,
+  "notes": "The joke lands in one glance; very Indian, cinematic and premium. The scrimmed cream headline reads. The spec 'STONES ·' runs over the bracelet's tail on the ball (text on jewellery). Image doubts: the stones read about 5 mm on a 72 mm ball (true 3 mm), and the clasp is drawn as an openwork double loop rather than a plain polished rectangle. Move the crop down so the tail sits about 80 px above the spec rule, and size the headline to clear the bracelet top.",
+  "fix": {
+   "cy": 0.6,
+   "at": "tr",
+   "fixed": true,
+   "y": 64,
+   "hs": 92
+  }
+ },
+ {
+  "ad": "riviere-eternal-bracelet-crazy14-story",
+  "score": 7.7,
+  "notes": "The headline is clean below the floodlight bokeh. The spec still runs over the bracelet's tail; a Story footer can't move. Same stone-size and clasp doubts as the feed.",
+  "fix": {}
+ },
+ {
+  "ad": "quatrefoil-eclat-studs-crazy15-feed",
+  "score": 7.3,
+  "notes": "Bold and very Indian, and the joke lands (stars among star anise). Construction exact (4 pear stones, pavé outline, round centre in a gold flower). Flagged 7.5 plate: the studs read about 20 mm (0.7 of a pod) and are small in a busy frame. The subline 'four-point stars,' prints over the dabba's steel rim, and 'OF' is about 15 px above the rim. A one-line headline at 72 px clears the rim by 55-75 px.",
+  "fix": {
+   "at": "tr",
+   "w": 900,
+   "hs": 72,
+   "cs": 30,
+   "fixed": true,
+   "y": 48
+  }
+ },
+ {
+  "ad": "quatrefoil-eclat-studs-crazy15-story",
+  "score": 7.4,
+  "notes": "The subline touches the dabba rim (rim top about y 495-520 under 'four-point'). The spec crosses scattered coriander seeds. Same scale doubt as the feed.",
+  "fix": {
+   "at": "tr",
+   "w": 900,
+   "hs": 72,
+   "cs": 30,
+   "fixed": true,
+   "y": 280
+  }
+ },
+ {
+  "ad": "silk-mesh-cuff-crazy16-feed",
+  "score": 8.2,
+  "notes": "Theatrical and premium: mesh on mesh reads at once. The cuff is true (woven mesh tube, 2 mirror-polished oval caps across the gap, silver tone). Cream on plum velvet is excellent. The spec ends about 10 px left of the chrome stand. 'On air.' is more mood than gag, but it lands.",
+  "fix": {}
+ },
+ {
+  "ad": "silk-mesh-cuff-crazy16-story",
+  "score": 8.3,
+  "notes": "Clean.",
+  "fix": {}
+ },
+ {
+  "ad": "halo-curve-ring-crazy18-feed",
+  "score": 8.0,
+  "notes": "Charming, and the joke lands at once. The one-line cream headline on teal clears the toy's ears by about 30 px. The ring is true (domed chatoyant tiger's eye, faceted champagne crystal, thin open wire), though the two bezels read as matched regular cushions rather than slightly irregular. The spec crosses the striped leg but the glow keeps it legible.",
+  "fix": {}
+ },
+ {
+  "ad": "halo-curve-ring-crazy18-story",
+  "score": 8.2,
+  "notes": "The headline is about 20 px above the ear tips, tight but clear. The spec sits over the front leg and stays legible.",
+  "fix": {}
+ },
+ {
+  "ad": "brushed-gold-huggies-crazy19-feed",
+  "score": 7.4,
+  "notes": "Clean editorial set; the 'brushed' pun needs the subline but works. The brushed satin band is true, but one huggie is closed round a roughly 12 mm bamboo handle, so the pair read about 18-20 mm against a true 14x10 mm (costume-ish). The spec wraps to an orphan 'HOOPS', and the footer glow throws a white haze across the steel tumbler. Shorten the spec so it fits one line.",
+  "fix": {
+   "spec": "satin-brushed · 18k gold-tone · huggies"
+  }
+ },
+ {
+  "ad": "brushed-gold-huggies-crazy19-story",
+  "score": 7.4,
+  "notes": "Same orphan 'HOOPS', tumbler haze and scale doubt as the feed.",
+  "fix": {
+   "spec": "satin-brushed · 18k gold-tone · huggies"
+  }
+ },
+ {
+  "ad": "baguette-huggies-crazy20-feed",
+  "score": 7.0,
+  "notes": "The strongest idea of the set: the joke lands instantly, on bold candy pink, and reads premium. The huggies are true (7 crosswise ruby baguettes on each front half, gold claws, hinge, true size). But 'UP.' prints over the cherries' tied stem knot. At 72 px, 'GROWN UP.' ends near x 425, left of the knot at x 530.",
+  "fix": {
+   "at": "tl",
+   "fixed": true,
+   "y": 48,
+   "hs": 72,
+   "cs": 32
+  }
+ },
+ {
+  "ad": "baguette-huggies-crazy20-story",
+  "score": 6.8,
+  "notes": "'UP.' sits on the stem knot, the subline's 'huggie.' crosses the left stem, and the auto glow washes the stem tops white (fogs the prop). A smaller fixed block at y 260 ends left of the knot and above the branch.",
+  "fix": {
+   "at": "tl",
+   "fixed": true,
+   "y": 260,
+   "hs": 72,
+   "cs": 32
+  }
+ },
+ {
+  "ad": "verdant-cushion-studs-crazy22-feed",
+  "score": 8.2,
+  "notes": "The joke lands instantly, on bold tomato red, and reads premium. The studs are exact (emerald-green cushion in a silver bezel, scalloped sunburst halo) at about 1.5 peas wide, true for 13 mm. The spec 'TONE' ends about 3 px from a loose pea. Moving the crop lifts the pea about 65 px clear.",
+  "fix": {
+   "cy": 0.6
+  }
+ },
+ {
+  "ad": "verdant-cushion-studs-crazy22-story",
+  "score": 7.0,
+  "notes": "The subline's 'emerald-green' prints over the pod's stalk tip, and the NAIRA wordmark sits on the pod's tip. Move the copy to the calm red at top right. The wordmark on the pod stays, because a Story footer can't move.",
+  "fix": {
+   "at": "tr",
+   "fixed": true,
+   "y": 300
+  }
  }
 ]
