@@ -379,8 +379,8 @@ play("aqua-heart-drops-silver", "The exact blue.", "an aqua heart, matched to th
 
 # ---- The crazy 20 (CRAZY.md): theatrical visual jokes; the deck overlay on both Feed and Story, headline larger
 CR = [  # id, handle, headline, correction, spec, primary text opener, variant
- ("C01", "toggle-link-chain", "Pull for compliments.", "a toggle clasp, not the alarm chain.", "50 cm · paperclip links · toggle clasp",
-  "Pull for compliments. 🚆 50 cm of 18k gold-tone paperclip links that close with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.", None),
+ ("C01", "toggle-link-chain", "Laced up.", "a toggle clasp, not a shoelace knot.", "50 cm · paperclip links · toggle clasp",
+  "Laced up. 👟 50 cm of 18k gold-tone paperclip links that close with a pavé bar through a ring. Wear it at the neck, though. The Toggle Link Chain, ₹1,299.", None),
  ("C02", "prism-riviere-bracelet", "Never melts.", "aqua, pink and yellow cubic zirconia, not syrup.", "18 cm · pavé halos · silver tone",
   "Never melts. 🍧 Aqua, pink and yellow cubic zirconia, each in a pavé halo, on an 18 cm line. The Prism Rivière Bracelet, ₹2,399.", None),
  ("C03", "prism-riviere-bracelet", "Have your cake. Wear it too.", "pastel cubic zirconia, not sprinkles.", "18 cm · pavé halos · silver tone",

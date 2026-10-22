@@ -1,0 +1,273 @@
+[
+ {
+  "id": "C01",
+  "concept": "Indian Railways sleeper compartment: the necklace hangs where the emergency chain would be, the toggle as the pull handle.",
+  "headline": "Pull for compliments.",
+  "key": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "format": "crazy",
+  "file": null,
+  "job_id": "4654eedc-e0dc-4dfe-b4d2-515d6dedcaf5",
+  "attempts": 2,
+  "score": 6.8,
+  "pass": false,
+  "flagged": false,
+  "notes": "EMPTY: a1 (6.5) looped the chain twice with loose ends; a2 (6.8) fixed the hang but drew the toggle bar too long and dropped the clasp into the bottom band. Neither reaches 7.5.",
+  "prop": "sleeper-class train window bar, blue rexine berth, green walls",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": null,
+  "prompt": "Vertical 9:16 witty, theatrical editorial advertising photograph inside an Indian Railways sleeper-class compartment, built as a set: hard daylight floods in through a barred window, a blue rexine berth runs below it, the walls are painted pale railway green and a round fan grille sits high on the wall, all softly out of focus. Where the red emergency chain would hang, the gold necklace hangs instead: the one closed necklace is draped over a slim steel rod about 12mm thick at a single point, its two lengths of paperclip chain fall straight down side by side and meet at the closed toggle clasp, which dangles at the bottom like the pull handle, needle-sharp and turned to the camera. No passengers, no signs, no lettering anywhere. Fix from the previous attempt: the chain was looped over the rod twice, making four strands with loose free ends; this time it is one single continuous closed necklace over the rod at one point, exactly two hanging lengths joined at the bottom by the clasp, no loose ends, no extra strands. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. The bar is short, only about two thirds of the ring's outer width, lying threaded through the ring across its upper half, never longer than the ring, never hanging below it. Scale test: each window bar is about 12mm thick, a little less than the 15mm spring ring; each paperclip link is 4mm wide and 11mm long; the two hanging lengths drop about 25cm; the berth is about 60cm deep. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the plain green wall beside the window, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "f9020c6c-6902-4ded-b42f-c25eefdc22fe",
+    "score": 6.5,
+    "verdict": "FAIL: the chain topology is wrong, two separate loops over the rod make four hanging strands with loose free ends and a stray dangling piece, so it no longer reads as one closed necklace. Clasp itself is faithful (gate, nub, short pave bar); sleeper-class set reads well.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C01-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "4654eedc-e0dc-4dfe-b4d2-515d6dedcaf5",
+    "score": 6.8,
+    "verdict": "FAIL (6.8): the chain now hangs correctly (one loop over the rod, two lengths, clasp at the bottom) and the sleeper set is strong, but the pave bar is drawn long, about 1.4x the ring, lying across and past it, and the clasp hangs at 0.80-0.90, inside the bottom band.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C01-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C02",
+  "concept": "Street-side gola dripping aqua, pink and yellow syrups; the bracelet coiled round its stick.",
+  "headline": "Never melts.",
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "crazy",
+  "file": "plates/crazy/C02.jpg",
+  "job_id": "454d7aeb-27b7-492f-951e-a1fa9493fc5f",
+  "attempts": 1,
+  "score": 8.8,
+  "pass": true,
+  "flagged": false,
+  "notes": "Never melts: the Prism looped round the stick of a pastel gola whose syrups are the stones' own aqua, pink and yellow, against a sunlit pink wall. Bracelet at 0.56-0.76, ice 0.21-0.49; the block base reaches 0.92. Lens-star sparkles on two stones. Calm pink wall upper left.",
+  "prop": "pastel gola (shaved ice) on a wooden stick",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.21,
+   0.77
+  ],
+  "prompt": "Vertical 9:16 witty, sun-drenched editorial advertising photograph of a street-side gola: a round ball of finely shaved ice about 9cm across, packed on a plain wooden stick and drenched in pastel aqua, soft pink and pale butter-yellow syrups, the exact three colours of the bracelet's stones, glistening and just starting to drip, stands upright in a small wooden block on a pastel tabletop against a sunlit, chalky pastel-pink wall with a hard diagonal shadow. The bracelet is coiled in a loose spiral round the wooden stick just under the ice, its aqua, pink and yellow stones repeating the syrups; a few syrup drops have run down the stick above it but never cover the stones. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: the ice ball is about 9cm across, about eleven haloed stones; the stick is about 1cm thick; each stone is 5mm and each stone in its halo 8mm square; the bracelet is 18cm long, about 21 stones. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the sunlit pastel wall, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "454d7aeb-27b7-492f-951e-a1fa9493fc5f",
+    "score": 8.8,
+    "verdict": "PASS: a pastel gola dripping aqua, pink and yellow syrup on a wooden stick in a weathered block against a sunlit pink wall with a hard shadow; the bracelet is looped round the stick under the ice, haloed cushion stones with claws, rhodium silver, no two neighbours alike, true size against the stick.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C02-a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C03",
+  "concept": "A slice of pastel rainbow layer cake with the bracelet as its decoration, every stone matching a sponge layer.",
+  "headline": "Have your cake. Wear it too.",
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "crazy",
+  "file": "plates/crazy/C03.jpg",
+  "job_id": "c4bf2edb-f5e9-42f0-aa77-24f1beec77c6",
+  "attempts": 2,
+  "score": 8.6,
+  "pass": true,
+  "flagged": false,
+  "notes": "Have your cake: the Prism laid over a slice of aqua, pink and yellow layer cake on a vintage pressed-glass stand with pastel sprinkles and a silver fork, deep raspberry backdrop (slice 0.25-0.78; the stand's foot runs to the bottom edge). About 17 stones visible. Calm raspberry backdrop upper left.",
+  "prop": "slice of pastel rainbow layer cake on a glass cake stand",
+  "copy_space": "tl",
+  "tone": "dark",
+  "subject_y": [
+   0.25,
+   0.78
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising photograph: one tall slice of pastel rainbow layer cake, its sponge layers in aqua blue, soft pink and pale butter yellow repeating with thin white cream between them, stands on a vintage pressed-glass cake stand against a deep raspberry-pink backdrop; a scatter of pastel sprinkles and one small plain silver cake fork lie on the stand beside it. The bracelet lies across the top of the slice in a soft loose S like the decoration, one end trailing a little over the edge, its aqua, pink and yellow stones matching the sponge layers below. Fix from the previous attempt: two pink stones sat side by side; this time the stones run strictly aqua, pink, yellow, aqua, pink, yellow along the whole bracelet, so no two neighbouring stones ever share a colour. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: the slice is about 10cm tall and its top about 9cm long, about eleven haloed stones; each sponge layer is about 2cm thick; each stone is 5mm and each stone in its halo 8mm square; the bracelet is 18cm long, about 21 stones. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the plain raspberry backdrop, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "3685add7-ad1a-4ad4-997e-24f12a40b78a",
+    "score": 7.3,
+    "verdict": "FAIL (7.3): two pink stones sit side by side in the middle of the run (breaks the aqua-pink-yellow rotation); otherwise a strong frame, the slice on its side on a pressed-glass stand against raspberry, the bracelet laid down the cream line, halos and claws faithful.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C03-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "c4bf2edb-f5e9-42f0-aa77-24f1beec77c6",
+    "score": 8.6,
+    "verdict": "PASS: aqua, pink and yellow now rotate cleanly with no two neighbours alike; haloed cushion stones with claws, fold-over clasp, rhodium silver; the bracelet runs over the top and down the cut face of a pastel layer-cake slice whose sponges are the stones' own colours, on a pressed-glass stand against raspberry.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C03-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C04",
+  "concept": "Fairground hoopla stall in miniature: one braided hoop ringed round a bottle neck, the other falling mid-air.",
+  "headline": "Hoopla.",
+  "key": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "format": "crazy",
+  "file": "plates/crazy/C04.jpg",
+  "job_id": "c0b0d7a2-bd70-499a-8162-6d6d56dde86a",
+  "attempts": 2,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Hoopla: a braided hoop ringed round a tiny glass soda bottle's neck while its twin falls mid-air above, fairy-light bokeh behind. Plate reframed tighter (0.75 window from the top) to keep the falling hoop off the top edge; this crops away most of the red-and-white striped board. The falling hoop's latch still reaches 0.135. Calm dark bokeh upper left.",
+  "prop": "miniature hoopla stall: tiny glass bottles on a striped board, fairy lights",
+  "copy_space": "tl",
+  "tone": "dark",
+  "subject_y": [
+   0.135,
+   0.78
+  ],
+  "prompt": "Vertical 9:16 witty, theatrical editorial advertising photograph of a fairground hoopla stall in miniature: a tight crowd of small plain clear glass soda bottles, each about 7cm tall with a rounded shoulder and a long slim neck only 9mm wide, no labels, stands on a red-and-white striped board; one braided gold hoop, latch closed, has landed flat and horizontal, ringed perfectly round the slim neck of a bottle in the middle and resting on its shoulder, a won toss; the second hoop is caught mid-air just above it, tilted, falling, frozen sharp by a fast flash. Strings of warm fairy lights glow as soft round bokeh in the dark background. Fix from the previous attempt: the landed hoop hung upright, hooked on the rim of a wide-mouthed vial; this time the bottles have slim 9mm necks, narrower than the hoop's 13mm opening, and the hoop encircles a neck lying flat on the bottle's shoulder, its flat polished disc visible. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the braid, the disc and the latch from it and ignore everything else in it. The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone. The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle. Scale test: each hoop is 25mm across with a 13mm opening, so it slips over a 9mm bottle neck; each bottle is about 6cm tall, about two and a half hoops; the stripes on the board are about 2cm wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the dark bokeh background, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "02d31a5d-43a8-4809-8b64-389b0a3b66d6",
+    "score": 7.4,
+    "verdict": "FAIL (7.4): the 'landed' hoop hangs upright in front of a wide-mouthed vial, hooked on its rim, instead of ringing round a bottle neck, and its inner disc is not visible; the falling hoop, striped board and fairy-light bokeh are strong, braid faithful.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C04-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "c0b0d7a2-bd70-499a-8162-6d6d56dde86a",
+    "score": 8.2,
+    "verdict": "PASS after a light reframe: one braided hoop lies flat round a slim bottle neck on its shoulder (a won toss), the other falls mid-air above, both with braid, flat polished disc and latch; true size against 9mm necks and ~7cm bottles; warm fairy-light bokeh. As shot the falling hoop's top reached 0.10, so the plate is a 0.75-scale window from the top (above 1080x1920), putting it at 0.135 and the landed hoop at 0.67-0.78.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C04-a2.png"
+   }
+  ],
+  "reframe": "0.75,0.48,0.375"
+ },
+ {
+  "id": "C05",
+  "concept": "A gleaming surgical kidney dish on a green drape, the bracelet inside with its gold heart centred, as if just delivered.",
+  "headline": "Surgical steel. Zero surgery.",
+  "key": "heartbead-bracelet",
+  "title": "Heartbead Bracelet",
+  "format": "crazy",
+  "file": "plates/crazy/C05.jpg",
+  "job_id": "a3e35409-ab0f-4281-92c6-73d59edcb040",
+  "attempts": 1,
+  "score": 8.5,
+  "pass": true,
+  "flagged": false,
+  "notes": "Surgical steel, zero surgery: the Heartbead in a gleaming kidney dish on surgical-green drape beside gauze and forceps (dish 0.24-0.73; the forceps run off the bottom edge). Heart sits at the front-left of the coil rather than dead centre. Calm green drape upper left.",
+  "prop": "stainless kidney dish, forceps and gauze on a surgical green drape",
+  "copy_space": "tl",
+  "tone": "dark",
+  "subject_y": [
+   0.24,
+   0.73
+  ],
+  "prompt": "Vertical 9:16 witty, clinical editorial advertising photograph: a gleaming stainless-steel kidney dish lies on a crisp surgical-green drape, a pair of plain steel forceps and a folded square of clean white gauze laid neatly beside it; the bracelet lies coiled inside the dish with its puffed gold heart and gold toggle centred, as if just delivered, its mirror beads echoing the polished steel. Spotless and calm, nothing gory, no blood. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the toggle, the heart and the bead links from it and ignore everything else in it. The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold. The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout. Scale test: the kidney dish is about 25cm long, the bracelet's coil about 6cm across; each bead is 6mm, the size of a peppercorn; the heart is 15mm; the forceps are about 14cm long. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, plain green drape, is calm for a headline. Light: clinical, one strong overhead key light with crisp shadows and deep surgical green, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "a3e35409-ab0f-4281-92c6-73d59edcb040",
+    "score": 8.5,
+    "verdict": "PASS: polished steel kidney dish on a surgical-green drape with folded gauze and needle-holder forceps; the bracelet lies in the dish, mirror beads reflecting the steel, gold toggle and puffed heart at the front; dish and forceps (~15cm and ~14cm) put the beads at a true ~6-7mm.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C05-a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C14",
+  "concept": "A red leather cricket ball on floodlit turf, the tennis bracelet round it along the seam.",
+  "headline": "Tennis bracelet. Cricket nation.",
+  "key": "riviere-eternal-bracelet",
+  "title": "Rivière Eternal Bracelet",
+  "format": "crazy",
+  "file": "plates/crazy/C14.jpg",
+  "job_id": "6a10b65e-7591-4706-97e7-aa20e5f47753",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Tennis bracelet, cricket nation: the Riviere Eternal set into the seam of a plain red cricket ball on floodlit turf at night (ball 0.45-0.82). Doubts: the bracelet follows the seam's full great circle, which a closed 18cm line could not quite span on a 7.2cm ball (the back is hidden); stones read about 4.5mm. Calm floodlight bokeh upper left.",
+  "prop": "red leather cricket ball on floodlit turf",
+  "copy_space": "tl",
+  "tone": "dark",
+  "subject_y": [
+   0.45,
+   0.82
+  ],
+  "prompt": "Vertical 9:16 witty, dramatic editorial advertising photograph at night: a glossy red leather cricket ball with a raised white stitched seam sits on bright green mown turf, stadium floodlights glowing as huge soft white bokeh in the dark behind; the closed bracelet sits round the ball like a ring, running right alongside the white seam, its single polished buckle at the front catching the floodlight. The ball is plain, with no stamp, no gold lettering, no logo. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the four-prong settings and the polished rectangular box clasp from it and ignore everything else in it. The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station. The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm. Scale test: the ball is 7.2cm across; the bracelet is 18cm long, so it circles the ball just beside its widest seam; each stone is 3mm, about the size of one seam stitch; the buckle is 12mm. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the dark floodlit bokeh, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "6a10b65e-7591-4706-97e7-aa20e5f47753",
+    "score": 8.2,
+    "verdict": "PASS: a plain red leather cricket ball (no stamp, no lettering) on floodlit turf with the tennis bracelet laid in its white seam, polished interlocking buckle at the front; round four-prong stones, gold tone.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C14-a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C19",
+  "concept": "A bamboo toothbrush in a steel tumbler on a bathroom shelf, the huggies perched on its bristles.",
+  "headline": "Brush twice daily.",
+  "key": "brushed-gold-huggies",
+  "title": "Brushed Gold Huggies",
+  "format": "crazy",
+  "file": "plates/crazy/C19.jpg",
+  "job_id": "3a31e7be-35d3-420a-b77e-43143d355eca",
+  "attempts": 1,
+  "score": 8.4,
+  "pass": true,
+  "flagged": false,
+  "notes": "Brush twice daily: the brushed huggies clipped onto a bamboo toothbrush (one on the bristles, one on the handle) in a steel tumbler, mint tiles and marble, hard window shadow (huggies 0.28-0.40, tumbler 0.58-0.86). Cool mint surround makes the satin read gold. Calm sunlit tiles upper left.",
+  "prop": "bamboo toothbrush in a steel tumbler, mint tiles",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.24,
+   0.86
+  ],
+  "prompt": "Vertical 9:16 witty, fresh editorial advertising photograph of a bathroom morning: a plain bamboo toothbrush with soft white bristles stands upright in a small polished steel tumbler on a white marble shelf, against pale mint-green glazed tiles in crisp morning sunlight from a window; the pair of warm gold huggies perches on the bristle head, one hooked round a tuft of bristles, and one clear water droplet clings to the bamboo handle. Minty, clean and bright. Both huggies are warm satin yellow gold exactly like IMAGE 1, never silver, never grey. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: the bristle head is about 2.5cm long and 1.2cm wide, nearly twice a huggie's height; each huggie is about 14mm tall; the tumbler is about 9cm tall. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and the joke away from the very top and bottom edges, in the middle of the frame. Copy space: the upper-left part of the frame, the plain mint tiles, is calm for a headline. Light: editorial, one strong key light from the upper left with deep, saturated colour and one crisp natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest optics: the jewellery is needle-sharp and the set falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. A real built set a photographer could shoot, physically plausible in every detail. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people. No signage, no brand marks, no lettering on any prop.",
+  "refs": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "3a31e7be-35d3-420a-b77e-43143d355eca",
+    "score": 8.4,
+    "verdict": "PASS: plain bamboo toothbrush in a polished steel tumbler on a white marble shelf against mint tiles in hard morning sun; one huggie clipped round a bristle tuft, one on the handle, a water droplet hanging from the first; warm satin gold with fine brush lines, true size against the 12mm brush head.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy/raw/C19-a1.png"
+   }
+  ]
+ }
+]
