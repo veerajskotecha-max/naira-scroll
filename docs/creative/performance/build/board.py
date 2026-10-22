@@ -61,6 +61,10 @@ def main():
                            notes=s.get("notes", ""), flagged=(s.get("score") or 10) < 8, t=thumb(f, 240)))
     products = [dict(key=k, name=v[0], price=v[1], stock=C.STOCK[k], cat="Earrings" if k in C.EARRINGS else "Necklaces & rings" if k in C.NECK_RINGS else "Bracelets")
                 for k, v in C.P.items()]
+    keep = {f"{a['stem']}-{t}.jpg" for a in ads for t in ("feed", "story")} | {f"{p['id']}.jpg" for p in plates if not p.get("empty")}
+    for d in ("f", "p"):                                   # files of dropped ads and plates leave the page too
+        for n in os.listdir(f"{OUT}/{d}"):
+            if n not in keep: os.remove(f"{OUT}/{d}/{n}")
     shutil.copy(f"{HERE}/meta.csv", f"{OUT}/meta.csv")
     data = dict(products=products, ads=ads, plates=plates)
     html = open(f"{HERE}/board_template.html").read().replace("/*DATA*/null", json.dumps(data, ensure_ascii=False))

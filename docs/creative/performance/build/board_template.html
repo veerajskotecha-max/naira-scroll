@@ -303,8 +303,8 @@ $("#adGrid").addEventListener("click",e=>{
 $("#csv").addEventListener("click",()=>saveFile("meta.csv","naira-performance-ads-upload.csv"));
 
 const FMTS=["rhyme","silk","worn","quiet","play"];
-function crazyStrip(){const cz=D.ads.filter(a=>a.fmt==="crazy").sort((a,b)=>a.stem.localeCompare(b.stem));
-  $("#crazyStrip").innerHTML=cz.map(a=>`<figure><img src="${a.tf}" alt="${esc(a.h)}" loading="lazy" data-full="f/${a.stem}-feed.jpg" data-stem="${a.stem}"><figcaption><b>${esc(a.h)}</b><br>${esc(prod[a.key].name)} · ${esc(prod[a.key].price)}</figcaption></figure>`).join("");}
+function crazyStrip(){const cn=a=>a.stem.split("-crazy")[1];const cz=D.ads.filter(a=>a.fmt==="crazy").sort((a,b)=>(a.reserve-b.reserve)||cn(a).localeCompare(cn(b)));
+  $("#crazyStrip").innerHTML=cz.map(a=>`<figure><img src="${a.tf}" alt="${esc(a.h)}" loading="lazy" data-full="f/${a.stem}-feed.jpg" data-stem="${a.stem}"><figcaption><b>${esc(a.h)}</b><br>${esc(prod[a.key].name)} · ${esc(prod[a.key].price)}${a.reserve?" · <i>reserve</i>":""}</figcaption></figure>`).join("");}
 $("#crazyStrip").addEventListener("click",e=>{const t=e.target;if(!t.dataset.full)return;const st=t.dataset.stem;lightbox(t.dataset.full,[["Show story",()=>{$("#lbImg").src=`f/${st}-story.jpg`;}],["Show feed",()=>{$("#lbImg").src=`f/${st}-feed.jpg`;}]]);});
 function library(){
   $("#libGroups").innerHTML=D.products.map(p=>{const ps=D.plates.filter(x=>x.key===p.key&&!x.empty).sort((a,b)=>FMTS.indexOf(a.fmt)-FMTS.indexOf(b.fmt));
