@@ -1,8 +1,9 @@
 # Naira Petite performance ads (22 Oct 2026)
 
-This folder holds five new photographs for each of 28 products and 268 finished Meta ads built from them. It also has the
-plan for four new campaigns that test one format each. The 28 products are every product with 30 or more units in stock on
-22 Oct, plus the Heartbead Bracelet.
+This folder holds the crazy set (theatrical visual jokes, one per product, in `CRAZY.md`) and five new photographs for each
+of 28 products, with a finished Feed and Story Meta ad for every photograph. It also has the plan for five new campaigns:
+the crazy ads, then one per format. The 28 products are every product with 30 or more units in stock on 22 Oct, plus the
+Heartbead Bracelet.
 
 ## What the ads copy, and why
 
@@ -19,9 +20,12 @@ The formats come from the account's own results (Meta, main ad account, 15–22 
 ## Contents
 
 - `BRIEF.md`: the shoot brief every worker followed (formats, composition, prompt order, verification).
+- `CRAZY.md`: the crazy concepts, their headlines and results. Their photographs are in `plates/crazy/<id>.jpg`, their
+  ads are `ads/<handle>-crazy<nn>-<feed|story>.jpg`, and their manifests are `build/shots_crazy_g*.json`.
 - `plates/<handle>-<format>.jpg`: 134 verified photographs at 1080×1920, with no text. Six slots are empty after their
   reshoots; their reasons are in the manifests.
-- `ads/<handle>-<format>-<feed|story>.jpg`: 268 finished ads, Feed 1080×1350 and Story 1080×1920.
+- `ads/<handle>-<format>-<feed|story>.jpg`: the finished ads, Feed 1080×1350 and Story 1080×1920. Photographs the
+  reviewers dropped (for example, two quiet frames that read as suggestive) have no ads.
 - `build/shots_g*.json` and `build/products_g*.json`: prompts, job IDs, scores, notes, locks and references.
 - `build/ad_copy.py`: the copy for every ad. It writes `copy.json` (overlays), `meta.csv` (the upload sheet: primary text,
   headline, CTA, URL with variant and UTMs, campaign, ad set, wave) and `plan.json`.

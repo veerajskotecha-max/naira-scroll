@@ -415,6 +415,8 @@ CR = [  # id, handle, headline, correction, spec, primary text opener, variant
   "Docked in gold. ⚓ A twisted 18k gold-tone cable cuff, a white shell pearl at each end in a pavé collar. The Torsade Pearl Cuff, ₹1,399.", None),
  ("C21", "molten-panel-bracelet", "Hot off the tawa.", "gold-tone plates, not dosa lace.", "17 cm · 18k gold-tone · box clasp",
   "Hot off the tawa. 🔥 Rows of small oval plates in satin-polished 18k gold tone, a flat band that drapes. The Molten Panel Bracelet, ₹1,299.", None),
+ ("C22", "verdant-cushion-studs", "Two peas in a pod.", "emerald-green cubic zirconia, not peas.", "13 mm · cushion halo · silver tone",
+  "Two peas in a pod. 🫛 A deep emerald-green cushion cubic zirconia in a sunburst halo of clear stones, rhodium silver tone. The Verdant Cushion Studs, ₹1,199.", None),
  ("C18", "halo-curve-ring", "Eye of the tiger.", "a tiger's eye and a champagne crystal.", "tiger's eye · champagne crystal · open band",
   "Eye of the tiger. 🐯 A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.", None),
  ("C19", "brushed-gold-huggies", "Brush twice daily.", "satin-brushed gold-tone huggies.", "satin-brushed · 18k gold-tone · huggie hoops",
@@ -459,7 +461,7 @@ def url(k, fmt, variant):
     return f"https://www.nairaflore.com/products/{k}?{q}utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_{fmt}&utm_content={k}-{fmt}"
 
 def plan(rows):
-    """campaign, ad set and launch wave for every ad pair; reserves (scored under 8) wait for the last wave"""
+    """campaign, ad set and launch wave for every ad pair; reserves (scored under 8) wait for a wave after the rest"""
     pairs = {}
     for r in rows: pairs.setdefault(r["ad"].rsplit("-", 1)[0], r)
     out = []
@@ -471,8 +473,11 @@ def plan(rows):
         out.append(dict(stem=stem, key=k, format=fmt, campaign=CAMPAIGN[fmt], adset=aset, priority=round(pri, 3), reserve=bool(r["reserve"])))
     for (c, a) in {(o["campaign"], o["adset"]) for o in out}:
         grp = sorted([o for o in out if o["campaign"] == c and o["adset"] == a], key=lambda o: -o["priority"])
-        size = 8 if "Quiet" in c else 7 if "Crazy" in c else 5
-        for i, o in enumerate(grp): o["wave"] = i // size + 1
+        size = 8 if "Quiet" in c or "Crazy" in c else 5
+        live = [o for o in grp if not o["reserve"]]
+        for i, o in enumerate(live): o["wave"] = i // size + 1
+        for o in grp:                                                      # reserves get a wave of their own, after the rest
+            if o["reserve"]: o["wave"] = (len(live) - 1) // size + 2 if live else 1
     return sorted(out, key=lambda o: (o["campaign"], o["adset"], o["wave"], -o["priority"]))
 
 def review_fixes():

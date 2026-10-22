@@ -77,7 +77,7 @@
   "adset": "Bracelets",
   "priority": 0.667,
   "reserve": false,
-  "wave": 2
+  "wave": 1
  },
  {
   "stem": "woven-gold-hoops-crazy04",
@@ -117,7 +117,7 @@
   "adset": "Earrings",
   "priority": -0.295,
   "reserve": true,
-  "wave": 1
+  "wave": 2
  },
  {
   "stem": "toggle-link-chain-crazy01",
@@ -187,7 +187,7 @@
   "adset": "Necklaces & rings",
   "priority": 0.005,
   "reserve": true,
-  "wave": 1
+  "wave": 2
  },
  {
   "stem": "baguette-tennis-bracelet-play",
@@ -267,7 +267,7 @@
   "adset": "Bracelets",
   "priority": -0.285,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "molten-panel-bracelet-play",
@@ -277,7 +277,7 @@
   "adset": "Bracelets",
   "priority": -0.435,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "woven-gold-hoops-play",
@@ -357,7 +357,7 @@
   "adset": "Earrings",
   "priority": -0.435,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "pearl-circlet-studs-play",
@@ -367,7 +367,7 @@
   "adset": "Earrings",
   "priority": -0.435,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "toggle-link-chain-play",
@@ -637,7 +637,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": -0.465,
   "reserve": true,
-  "wave": 3
+  "wave": 4
  },
  {
   "stem": "molten-panel-bracelet-quiet",
@@ -647,7 +647,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": -0.495,
   "reserve": true,
-  "wave": 3
+  "wave": 4
  },
  {
   "stem": "verdant-cushion-studs-quiet",
@@ -657,7 +657,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": -0.495,
   "reserve": true,
-  "wave": 3
+  "wave": 4
  },
  {
   "stem": "pearl-circlet-studs-quiet",
@@ -667,7 +667,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": -0.495,
   "reserve": true,
-  "wave": 3
+  "wave": 4
  },
  {
   "stem": "prism-riviere-bracelet-rhyme",
@@ -847,7 +847,7 @@
   "adset": "Earrings",
   "priority": -0.375,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "pearl-circlet-studs-rhyme",
@@ -857,7 +857,7 @@
   "adset": "Earrings",
   "priority": -0.375,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "toggle-link-chain-rhyme",
@@ -1307,7 +1307,7 @@
   "adset": "Earrings",
   "priority": -0.455,
   "reserve": true,
-  "wave": 4
+  "wave": 5
  },
  {
   "stem": "pearl-circlet-studs-worn",
@@ -1317,7 +1317,7 @@
   "adset": "Earrings",
   "priority": -0.455,
   "reserve": true,
-  "wave": 4
+  "wave": 5
  },
  {
   "stem": "toggle-link-chain-silk",
@@ -1457,6 +1457,6 @@
   "adset": "Necklaces & rings",
   "priority": -0.08,
   "reserve": true,
-  "wave": 3
+  "wave": 4
  }
 ]

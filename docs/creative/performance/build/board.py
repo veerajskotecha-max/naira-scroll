@@ -1,7 +1,7 @@
 # Builds the Naira Performance Ads page: the campaign plan, every ad (Feed + Story) with its upload copy, the clean image library
 # and the verification board. Writes <scratchpad>/perf/artifact/{index.html, t/, f/, p/, pt/, meta.csv} for the Artifact publish.
 # Usage: board.py
-import base64, csv, io, json, os, shutil
+import base64, csv, io, json, os, re, shutil
 from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); PERF = os.path.dirname(HERE)
 SPB = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad"; OUT = f"{SPB}/perf/artifact"
@@ -44,7 +44,7 @@ def main():
 
         sc = [review[f"{stem}-{t}"]["score"] for t in ("feed", "story") if f"{stem}-{t}" in review]
         ads.append(dict(stem=stem, key=o["key"], fmt=o["format"], camp=o["campaign"], adset=o["adset"], wave=o["wave"], reserve=o["reserve"],
-                        h=fr.get("h") or fr.get("name"), pt=r["primary_text"], hl=r["headline"], url=r["url"], variant=r["variant"],
+                        h=re.sub(r"<br>", " ", fr.get("h") or fr.get("name")).replace("\u00a0", " "), pt=r["primary_text"], hl=r["headline"], url=r["url"], variant=r["variant"],
                         score=min(sc) if sc else None, tf=thumb(f"{PERF}/ads/{stem}-feed.jpg", 300), ts=thumb(f"{PERF}/ads/{stem}-story.jpg", 200)))
     plates = []
     for k, s in shots.items():
@@ -64,6 +64,10 @@ def main():
     shutil.copy(f"{HERE}/meta.csv", f"{OUT}/meta.csv")
     data = dict(products=products, ads=ads, plates=plates)
     html = open(f"{HERE}/board_template.html").read().replace("/*DATA*/null", json.dumps(data, ensure_ascii=False))
+    cz = [a for a in ads if a["fmt"] == "crazy"]
+    for k, v in dict(CZN=len(cz), CZLIVE=sum(1 for a in cz if not a["reserve"]), CZRES=sum(1 for a in cz if a["reserve"]), PAIRS=len(ads),
+                     ADS=2 * len(ads), PLATES=sum(1 for p in plates if not p.get("empty"))).items():
+        html = html.replace("{{%s}}" % k, str(v))
     open(f"{OUT}/index.html", "w").write(html)
     print(len(ads), "ad pairs,", sum(1 for p in plates if not p.get("empty")), "plates,", sum(os.path.getsize(os.path.join(dp, f)) for dp, _, fs in os.walk(OUT) for f in fs) // 1_000_000, "MB")
 
