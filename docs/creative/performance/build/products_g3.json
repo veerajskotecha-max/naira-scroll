@@ -1,0 +1,232 @@
+[
+ {
+  "handle": "bold-nocturne-chain",
+  "title": "Bold Nocturne Chain",
+  "price_inr": 1799,
+  "price": "₹1,799",
+  "stock": 54,
+  "metal": "gold tone (18k PVD gold tone plated stainless steel)",
+  "lock": "THE PIECE: a bold 46cm necklace of chunky elongated oval links, each a long rounded rectangle like an oversized paperclip, about 11.7mm wide and about 20mm long, made of thick smooth wire with softly flattened sides in mirror-polished warm 18k gold tone; each link is open in the middle and passes through the next. At the centre front sits exactly 1 link of the same shape and size that is completely pave set with tiny clear cubic zirconia over its whole surface; every other link is plain polished gold with 0 stones. At the back: 1 small gold lobster clasp and a 5cm fine extender chain.",
+  "ref_media_ids": [
+   "80b5c9a3-3d93-440b-8be0-f86aed168eb0",
+   "76baa48a-006a-4d65-8870-d629a9020e4a"
+  ],
+  "ref_names": [
+   "noc_chain_flat",
+   "noc_chain_detail"
+  ],
+  "ref_local": [
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/noc_chain_flat.png",
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/noc_chain_detail.png"
+  ],
+  "neg": "The links must stay plain smooth elongated oval links, each threaded through the next, never cable links, never curb, rope or Figaro links, never fused into a solid bar; exactly 1 pave link, never 2 or more, and it stays the same size and shape as its neighbours.",
+  "size": "Each link is about 11.7mm wide and 20mm long, about the width of a fingernail; the whole necklace weighs about 47.6g.",
+  "ref2_instruction": "IMAGE 2 is a close detail of the same chain: take from it only the thickness of the links and the pave setting of the one stone link.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "No stored lock; written from the listing photos (flat lay and pave-link detail). Link length about 20mm is estimated from the photos; width 11.7mm, 46cm + 5cm extender and 47.6g are from the listing."
+ },
+ {
+  "handle": "bold-nocturne-bracelet",
+  "title": "Bold Nocturne Bracelet",
+  "price_inr": 1599,
+  "price": "₹1,599",
+  "stock": 50,
+  "metal": "gold tone (18k PVD gold tone plated stainless steel)",
+  "lock": "THE PIECE: a 20cm bracelet of chunky elongated oval links, each a long rounded rectangle like an oversized paperclip, about 11.7mm wide and about 20mm long, made of thick smooth wire with softly flattened sides in mirror-polished warm 18k gold tone; each link is open in the middle and passes through the next, about 14 links in all. Exactly 1 link, of the same shape and size, is completely pave set with tiny clear cubic zirconia; every other link is plain polished gold with 0 stones. It closes with 1 gold lobster clasp and a 3cm extender chain ending in 1 small flat oval gold tag.",
+  "ref_media_ids": [
+   "c199724f-98e0-42a6-b7ce-cf8875ce5378",
+   "ead0194e-a145-40b9-8503-60ac48fa04e1"
+  ],
+  "ref_names": [
+   "noc_brac_flat",
+   "noc_brac_detail"
+  ],
+  "ref_local": [
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/noc_brac_flat.png",
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/noc_brac_detail.png"
+  ],
+  "neg": "The links must stay plain smooth elongated oval links, each threaded through the next, never cable links, never curb, rope or Figaro links, never fused into a solid bangle; exactly 1 pave link, never 2 or more.",
+  "size": "Each link is about 11.7mm wide and 20mm long, about the width of a fingernail; the bracelet is 20cm long, about 6.5cm across when closed, and weighs about 20.6g.",
+  "ref2_instruction": "IMAGE 2 is a close detail of the same bracelet: take from it only the link thickness and the lobster clasp.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "No stored lock; written from the listing photos. About 14 links counted on the flat lay; 20cm + 3cm extender, 11.7mm links and 20.6g from the listing."
+ },
+ {
+  "handle": "marquise-layering-set",
+  "title": "Marquise Layering Set",
+  "price_inr": 1599,
+  "price": "₹1,599",
+  "stock": 40,
+  "metal": "gold tone (18k gold tone plated stainless steel)",
+  "lock": "THE PIECE: a set of exactly 2 separate fine necklaces in warm 18k gold tone, both on fine 1.2mm cable chain, shown together. Necklace one, the shorter (40cm), carries exactly 1 marquise-cut clear cubic zirconia of about 13mm hanging point-down from a small gold bail in a 4-claw gold setting. Necklace two, the longer (45cm), is a Y-lariat: its two sides meet at the front at exactly 1 small clear pear-cut stone, point down, in a gold setting; from it a single straight drop of fine chain about 9cm long falls, carrying, in order from the top, exactly 2 small marquise-cut clear stations spaced well apart and then exactly 1 small clear pear-cut drop at the very tip. 4 stones on the lariat and 1 on the short necklace: 5 stones in the whole set, all clear cubic zirconia.",
+  "ref_media_ids": [
+   "2d2b9571-70d3-404f-8dbc-25b0d702c314",
+   "108744d6-7f96-4b0d-b965-14d959607fc9"
+  ],
+  "ref_names": [
+   "mq_0",
+   "mq_crop"
+  ],
+  "ref_local": [
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/mq_0.jpg",
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/mq_1_stones_crop.jpg"
+  ],
+  "neg": "The two necklaces must stay 2 separate fine cable chains, never merged into one, never thickened; the lariat drop must stay one single straight fine chain with its stones spaced well apart, never a cluster, a tassel or a fringe; the stones stay marquise and pear cuts, never round, never coloured.",
+  "size": "The marquise stone is about 13mm long, the size of a fingernail; both chains are only 1.2mm thick, hair-fine; the lariat drop is about 9cm.",
+  "ref2_instruction": "IMAGE 2 is a close crop of the same set worn: take from it only the cut and the order of the stones down the two chains; ignore the skin and the shirt.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "Started from the 04-sku-fidelity-library lock, corrected from the live listing (marquise about 13mm, lariat 45cm with a 9cm drop, live price 1,599) and the photos (pear at the Y junction, 2 marquise stations, pear tip). The first rhyme and silk attempts used an earlier wording without the explicit stone order and only IMAGE 1 (mq_0); every later frame used the lock below with IMAGE 2 = a stones-only crop of the worn listing photo."
+ },
+ {
+  "handle": "silk-mesh-cuff",
+  "title": "Silk Mesh Cuff",
+  "price_inr": 1499,
+  "price": "₹1,499",
+  "stock": 40,
+  "metal": "gold tone (N02) and rhodium silver tone (N01)",
+  "stock_by_variant": {
+   "gold": 20,
+   "silver": 20
+  },
+  "variants": {
+   "gold": {
+    "lock": "THE PIECE: an open cuff bangle made of a rounded tube of fine woven steel mesh about 19mm wide, a soft milanese mesh of tiny interlocking links like a mesh watch strap rolled into a tube, bent into a C about 6cm across inside. Each of its 2 ends is closed by 1 solid mirror-polished end cap shaped like a flat oval disc; the 2 caps face each other across a gap of about 2.5cm. Warm 18k gold tone plating throughout, never brassy. 0 stones.",
+    "ref_media_ids": [
+     "2420c01a-9ab6-4f7d-8a3b-f98669d603ef",
+     "284ed0b2-106a-412d-b02c-2d9d37702273"
+    ],
+    "ref_names": [
+     "N02_H",
+     "N02_mesh_gold"
+    ],
+    "ref_local": [
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/mesh_g1.jpg",
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/listing/refs/N02_mesh_gold.jpg"
+    ]
+   },
+   "silver": {
+    "lock": "THE PIECE: an open cuff bangle made of a rounded tube of fine woven steel mesh about 19mm wide, a soft milanese mesh of tiny interlocking links like a mesh watch strap rolled into a tube, bent into a C about 6cm across inside. Each of its 2 ends is closed by 1 solid mirror-polished end cap shaped like a flat oval disc; the 2 caps face each other across a gap of about 2.5cm. Bright rhodium silver tone throughout. 0 stones.",
+    "ref_media_ids": [
+     "18edc747-34c7-423a-bcea-3b020200aaf7",
+     "d485ed28-af5a-4115-8a9f-e4fef934ea01"
+    ],
+    "ref_names": [
+     "N01_H",
+     "N01_mesh_silver"
+    ],
+    "ref_local": [
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/mesh_s1.jpg",
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/listing/refs/N01_mesh_silver.jpg"
+    ]
+   }
+  },
+  "lock": "THE PIECE: an open cuff bangle made of a rounded tube of fine woven steel mesh about 19mm wide, a soft milanese mesh of tiny interlocking links like a mesh watch strap rolled into a tube, bent into a C about 6cm across inside. Each of its 2 ends is closed by 1 solid mirror-polished end cap shaped like a flat oval disc; the 2 caps face each other across a gap of about 2.5cm. {metal} 0 stones.",
+  "neg": "The mesh must stay a fine woven mesh with a soft brushed-silk sheen, never chain links, never a smooth solid band, never a braid or a rope; no clasp; the 2 end caps stay plain polished ovals.",
+  "size": "The cuff is about 6cm across inside and the mesh tube is 19mm wide, about the width of a thumb; it weighs about 32g.",
+  "ref2_instruction": "IMAGE 2 is the supplier photograph of the same cuff: take from it only the weave of the mesh and the shape of the end caps; ignore everything else in it.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "Lock from listing/skus.json N01/N02 with the mesh width corrected to the live listing's 19mm. IMAGE 1 = approved hero (approved.json N0x_H), IMAGE 2 = supplier photo (ref_ids.json)."
+ },
+ {
+  "handle": "kiss-knot-bangle",
+  "title": "Kiss Knot Bangle",
+  "price_inr": 1199,
+  "price": "₹1,199",
+  "stock": 40,
+  "metal": "gold tone (N12) and rhodium silver tone (N11)",
+  "stock_by_variant": {
+   "gold": 20,
+   "silver": 20
+  },
+  "variants": {
+   "gold": {
+    "lock": "THE PIECE: a flexible bangle of round snake-coil (tubogas) wire about 5mm thick, finely ribbed all the way round with tight parallel ridges, about 6cm across, whose 2 ends overlap at the front and are bound by exactly 1 smooth polished X about 10mm across: two polished bands crossing like a kiss. Warm 18k gold tone. 0 stones.",
+    "ref_media_ids": [
+     "64eb7c27-1df1-4bfd-ac18-956a498d56a0",
+     "ded408fa-f9e3-4960-a904-e8596491b117"
+    ],
+    "ref_names": [
+     "N12_H",
+     "N12_knot_gold_d"
+    ],
+    "ref_local": [
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/knot_g1.jpg",
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/listing/refs/N12_knot_gold_d.jpg"
+    ]
+   },
+   "silver": {
+    "lock": "THE PIECE: a flexible bangle of round snake-coil (tubogas) wire about 5mm thick, finely ribbed all the way round with tight parallel ridges, about 6cm across, whose 2 ends overlap at the front and are bound by exactly 1 smooth polished X about 10mm across: two polished bands crossing like a kiss. Bright rhodium silver tone. 0 stones.",
+    "ref_media_ids": [
+     "eafe7440-ed87-4419-abe2-fec2ef11c5b2",
+     "3cd26f76-fd8b-49c7-8d51-7cc57793c130"
+    ],
+    "ref_names": [
+     "N11_H",
+     "N11_knot_silver_d"
+    ],
+    "ref_local": [
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/knot_s1.jpg",
+     "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/listing/refs/N11_knot_silver_d.jpg"
+    ]
+   }
+  },
+  "lock": "THE PIECE: a flexible bangle of round snake-coil (tubogas) wire about 5mm thick, finely ribbed all the way round with tight parallel ridges, about 6cm across, whose 2 ends overlap at the front and are bound by exactly 1 smooth polished X about 10mm across: two polished bands crossing like a kiss. {metal} 0 stones.",
+  "neg": "The wire must stay a finely ribbed snake coil, never a smooth tube, never a chain, never a twisted rope; exactly 1 polished X at the front, never a bow or a rope knot; 0 stones.",
+  "size": "The coil is 5mm thick, about a tenth of a 55mm wrist; the X is about 10mm across, the size of a fingernail; the bangle is about 6cm across.",
+  "ref2_instruction": "IMAGE 2 is a close supplier detail of the same polished X binding the ribbed coil: take from it only the shape of the X and the ribbing; ignore everything else in it.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "Lock from listing/skus.json N11/N12 with the X size corrected to the live listing's 10mm. IMAGE 1 = approved hero (approved.json N1x_H), IMAGE 2 = supplier macro of the X (ref_ids.json)."
+ },
+ {
+  "handle": "molten-panel-bracelet",
+  "title": "Molten Panel Bracelet",
+  "price_inr": 1299,
+  "price": "₹1,299",
+  "stock": 30,
+  "metal": "gold tone (18k gold tone plated)",
+  "lock": "THE PIECE: a flat, flexible 17cm bracelet about 15mm wide made of small flat oval gold plates, each about 6mm by 3mm, laid in exactly 5 staggered rows like brickwork, so each plate sits between two plates of the next row; the plates are articulated so the band bends and drapes like a watch strap. Polished warm 18k gold tone with a soft satin glow on every plate. It closes with 1 flat square gold box clasp. 0 stones.",
+  "ref_media_ids": [
+   "113231e9-b298-4567-bd8b-b37899022644",
+   "d49bace8-52ad-43ae-9a75-34dabcf7eb75"
+  ],
+  "ref_names": [
+   "mol_1",
+   "mol_5"
+  ],
+  "ref_local": [
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/mol_1.jpg",
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/mol_5.jpg"
+  ],
+  "neg": "The plates must stay separate flat oval plates in 5 staggered brick-set rows, never a woven mesh, never rectangular watch links, never round fish scales or sequins, never a solid rigid cuff.",
+  "size": "The band is about 15mm wide, about the width of a thumb; each oval plate is about 6mm long; the bracelet is 17cm long, about 5.5cm across when closed.",
+  "ref2_instruction": "IMAGE 2 is a macro of the same bracelet: take from it only the shape, size and staggered layout of the oval plates.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "Written from the listing photos. Band width about 15mm and plate size about 6mm are estimated from the worn listing photo (the listing states only 17cm, 5 staggered rows, box clasp)."
+ },
+ {
+  "handle": "torsade-pearl-cuff",
+  "title": "Torsade Pearl Cuff",
+  "price_inr": 1399,
+  "price": "₹1,399",
+  "stock": 30,
+  "metal": "gold tone (18k gold tone plated); shell or faux pearls",
+  "lock": "THE PIECE: an open cuff bracelet of solid twisted cable about 5mm thick, its whole surface twisted like a rope into smooth polished spiral ridges, in warm 18k gold tone, about 17cm end to end and open at the back. Each of its 2 ends is capped by a collar of exactly 2 rows of tiny clear pave cubic zirconia separated by a thin gold rib, and finished with exactly 1 large round lustrous white shell pearl about 12mm across; the 2 pearls face each other across the opening.",
+  "ref_media_ids": [
+   "b9deec5e-39e5-41c5-93c4-996a52d8da3e",
+   "4a952de2-d03b-4e26-9580-3e0162e3b6a2"
+  ],
+  "ref_names": [
+   "tor_1",
+   "tor_5"
+  ],
+  "ref_local": [
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/tor_1.jpg",
+   "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/refs/tor_5.jpg"
+  ],
+  "neg": "The cuff must stay one solid twisted cable bar with smooth spiral ridges, never a chain, never a braid of separate wires, never a plain smooth wire; exactly 2 pearls, one at each end, never more, never coloured.",
+  "size": "Each pearl is about 12mm across; the cable is about 5mm thick; the cuff is about 6cm across inside.",
+  "ref2_instruction": "IMAGE 2 is a macro of one end of the same cuff: take from it only the twisted ridges, the 2-row pave collar and the pearl.",
+  "source": "Live Shopify listing read 22 Oct 2026 (read-only GraphQL); price and stock as given by the lead and confirmed live",
+  "lock_notes": "Written from the listing photos. Pearl about 12mm and cable about 5mm are estimated from the photos; the listing states 17cm end to end. Pearls are described only as white shell pearls, never freshwater or real."
+ }
+]

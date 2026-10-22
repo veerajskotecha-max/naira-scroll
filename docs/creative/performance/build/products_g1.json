@@ -1,0 +1,176 @@
+[
+ {
+  "title": "Toggle Link Chain",
+  "handle": "toggle-link-chain",
+  "price": 1299,
+  "stock": 80,
+  "metal": "18k PVD gold tone (surgical stainless steel)",
+  "lock": "The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar.",
+  "neg": "The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm.",
+  "ref_media_ids": [
+   "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4",
+   "17737c3a-c099-48b7-8537-ca037486a406"
+  ],
+  "ref_roles": {
+   "still": [
+    "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+    "905b250a-9517-4d23-b82b-151cc7d16cc4"
+   ],
+   "worn": [
+    "17737c3a-c099-48b7-8537-ca037486a406",
+    "905b250a-9517-4d23-b82b-151cc7d16cc4"
+   ]
+  },
+  "local_refs": [
+   "docs/creative/toggle-link/build/refs/listing-1-cube.jpg",
+   "docs/creative/toggle-link/build/refs/ref-clasp.jpg",
+   "docs/creative/toggle-link/build/refs/ref-worn.jpg"
+  ],
+  "doubts": "Live price is Rs 1,299 (the build/BRIEF.md truth block still says Rs 1,499). The library lock says 'zero stones' and 'plain ring'; the listing photos show a spring-gate ring and a pave bar with about 9 clear stones, which is what this lock follows. The model tends to draw the pave bar too long; rhyme and quiet needed a reshoot for it."
+ },
+ {
+  "title": "Prism Rivière Bracelet",
+  "handle": "prism-riviere-bracelet",
+  "price": 2399,
+  "stock": 67,
+  "metal": "rhodium plated silver tone (surgical stainless steel)",
+  "lock": "The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp.",
+  "neg": "The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold.",
+  "ref_media_ids": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "ref_roles": {
+   "still": [
+    "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+    "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+   ]
+  },
+  "local_refs": [
+   "scratchpad/perf/g1/refs/pri-d7b.jpg",
+   "scratchpad/perf/g1/refs/pri-e7e.jpg"
+  ],
+  "doubts": "The real piece's own close-up does not run a strict aqua-pink-yellow cycle; frames were passed when no two neighbours share a colour."
+ },
+ {
+  "title": "Woven Gold Hoops",
+  "handle": "woven-gold-hoops",
+  "price": 1299,
+  "stock": 63,
+  "metal": "18k gold tone (surgical stainless steel)",
+  "lock": "The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone.",
+  "neg": "The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle.",
+  "ref_media_ids": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "ref_roles": {
+   "still": [
+    "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+    "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+   ]
+  },
+  "local_refs": [
+   "scratchpad/perf/g1/refs/wov-0.jpg (= Higgsfield ff7f5b3d)",
+   "scratchpad/perf/g1/refs/wov-3.jpg (= Higgsfield c07e6c4f)"
+  ],
+  "doubts": "Lock adds the flat polished disc and hinged latch seen in every listing photo (not in the library lock)."
+ },
+ {
+  "title": "Heartbead Bracelet",
+  "handle": "heartbead-bracelet",
+  "price": 1299,
+  "stock": 25,
+  "metal": "silver tone steel strand with 18k gold tone toggle and heart (surgical stainless steel)",
+  "lock": "The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold.",
+  "neg": "The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout.",
+  "ref_media_ids": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "ref_roles": {
+   "still": [
+    "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+    "aa33c742-104b-4548-b7fe-3f3e20435477"
+   ]
+  },
+  "local_refs": [
+   "docs/creative/concept-camps/build/refs/heart/ (cube listing photo = Higgsfield f76e4dab)",
+   "Higgsfield aa33c742 (clasp detail)"
+  ],
+  "doubts": "Listing says mirror-polished silver-tone steel beads; in every listing photo they read grey-gunmetal because they mirror their surroundings. One older Shopify alt text calls them 'grey pearl', which is wrong."
+ },
+ {
+  "title": "Brushed Gold Huggies",
+  "handle": "brushed-gold-huggies",
+  "price": 999,
+  "stock": 35,
+  "metal": "18k gold tone, brushed satin (surgical stainless steel)",
+  "lock": "The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones.",
+  "neg": "The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop.",
+  "ref_media_ids": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "ref_roles": {
+   "still": [
+    "074dbf30-c51e-4b7c-aefd-2924556094fb",
+    "2774a169-7059-4440-871e-8c08c67c8cfe"
+   ]
+  },
+  "local_refs": [
+   "scratchpad/perf/g1/refs/hug-0.jpg (= Higgsfield 074dbf30)",
+   "scratchpad/perf/g1/refs/hug-macro.jpg (= Higgsfield 2774a169)"
+  ],
+  "doubts": "Size conflict: the live listing says about 14mm by 9.8mm with a 6mm band; the task and the fidelity library say 12mm. The lock follows the live listing. The pale satin gold reads silver beside saturated yellow (QUIET failed twice for that reason)."
+ },
+ {
+  "title": "Ribbon Bead Bracelet",
+  "handle": "ribbon-bead-bracelet",
+  "price": 799,
+  "stock": 35,
+  "metal": "18k gold tone (surgical stainless steel)",
+  "lock": "The piece: a fine 1.2mm gold-tone cable chain, adjustable 16cm to 19cm, dotted with 2mm round gold satellite beads spaced along it; at the centre exactly 2 heart-cut clear cubic zirconia, each 5mm, set side by side in fine gold claws with their points meeting at a tiny gold centre bar, so the pair reads as 1 small bow 10mm wide and 5.5mm tall; a small gold lobster clasp with a short extender.",
+  "neg": "The centre must stay 2 separate clear heart-cut stones meeting at their points, never merged into one stone, never a fabric or metal bow, never larger; the chain stays hair-fine, never thick; no other stones.",
+  "ref_media_ids": [
+   "2d35210b-0da8-412a-a1d2-452f23417430",
+   "4d9050ed-f698-48e4-a236-459a8a3c1935"
+  ],
+  "ref_roles": {
+   "still": [
+    "2d35210b-0da8-412a-a1d2-452f23417430",
+    "4d9050ed-f698-48e4-a236-459a8a3c1935"
+   ]
+  },
+  "local_refs": [
+   "scratchpad/perf/g1/refs/rb-0.jpg (cube listing photo = Higgsfield 2d35210b)",
+   "scratchpad/perf/g1/refs/rb-macro.png (= Higgsfield 4d9050ed)"
+  ],
+  "doubts": "Same piece as the Edition Two 'Bow Chain Bracelet' (P16) lock. The model tends to draw the bow slightly large (1.3-1.5x)."
+ },
+ {
+  "title": "Rivière Eternal Bracelet",
+  "handle": "riviere-eternal-bracelet",
+  "price": 1449,
+  "stock": 34,
+  "metal": "18k gold tone (surgical stainless steel)",
+  "lock": "The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station.",
+  "neg": "The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm.",
+  "ref_media_ids": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "ref_roles": {
+   "still": [
+    "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+    "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+   ]
+  },
+  "local_refs": [
+   "scratchpad/perf/g1/refs/hf-f7ae5df7-5e34-4f79-8482-b39477006e0d.jpg (Edition Two approved packshot, imported as 9330b103)",
+   "scratchpad/perf/g1/refs/riv-alt.png (live listing macro, imported as c6589f6c)"
+  ],
+  "doubts": "Buckle check: the bracelet's own photos (worn and macro) show no separate station; the '12mm polished rectangular buckle station' in the listing copy is the polished interlocking box clasp, worn at the front. The lock therefore has exactly one buckle, which is the clasp. Listing says 3mm stones; the supplier/E2 photos look nearer 4mm. Stock 34 includes the restock the E2 notes mention."
+ }
+]

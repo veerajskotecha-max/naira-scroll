@@ -1,0 +1,1179 @@
+[
+ {
+  "key": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "format": "rhyme",
+  "file": "plates/toggle-link-chain-rhyme.jpg",
+  "job_id": "76342cc0-076c-4f61-b679-bce000ae828e",
+  "attempts": 2,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Necklace in a loose S through golden raisins (kishmish) spilled from a brass katori on ivory lime plaster; the long oval raisins repeat the paperclip links. Clasp at 0.71-0.80. Doubts: the bar is about 0.8x the ring's width (true is ~0.6x) though still shorter than the ring; the katori sits at the top edge (0-0.29), so its upper part falls in the Story top band (the loose raisins carry the rhyme inside the safe band).",
+  "prop": "golden raisins (kishmish) in a brass katori",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.36,
+   0.8
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life for an Indian demi-fine jewellery brand. On pale ivory lime plaster, a small brass katori at the upper right brims with plump golden raisins (kishmish), each a glossy elongated oval 10 to 12mm long, and a dozen loose raisins have rolled across the plaster toward the centre; the gold necklace lies in a relaxed loose S through the loose raisins in the middle of the frame, its open paperclip links the same warm gold and almost the same long oval as the raisins, so the eye has to look twice, and its closed clasp lies flat and turned to the camera, needle-sharp. Fix from the previous attempt: it drew the pave bar far too long, longer than the ring is wide, hanging loose below the ring; this time the bar is short, only about two thirds of the ring's outer width, and it lies threaded through the ring across its upper half, never longer than the ring, never hanging below it. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. Scale test: each paperclip link is 4mm wide and 11mm long, the length of one raisin; the spring ring is 15mm across, a little more than one raisin long; the katori is about 8cm across. A soft contact shadow sits under the chain where it touches the plaster. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "e92cc8d1-5d63-4029-a198-0185b5bd6916",
+    "score": 6.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-rhyme-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "76342cc0-076c-4f61-b679-bce000ae828e",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-rhyme-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "format": "silk",
+  "file": "plates/toggle-link-chain-silk.jpg",
+  "job_id": "10bca6d0-d852-47de-bad3-4ca101fae457",
+  "attempts": 1,
+  "score": 8.6,
+  "pass": true,
+  "flagged": false,
+  "notes": "Necklace on apricot-peach silk charmeuse, clasp on a lit fold crest at 0.50-0.60 of the height; the chain runs off the upper-left edge. Calm silk lower right for an italic headline.",
+  "prop": "apricot-peach silk charmeuse",
+  "copy_space": "br",
+  "tone": "light",
+  "subject_y": [
+   0.14,
+   0.6
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life. The necklace lies alone on softly draped warm apricot-peach silk charmeuse with long, slow, liquid diagonal folds running from upper left to lower right; the chain follows the crest of one long fold and dips into its valley, and the closed clasp rests on the lit crest just above the centre of the frame, the silk dimpled very slightly under the ring. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. Scale test: the spring ring is 15mm across, about one and a half fingernails; each link is 4mm wide; each silk fold is about 4cm from crest to crest, nearly three rings wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame; the jewellery and its key prop sit inside the middle 70% of the frame height, and the top 15% and bottom 15% hold only calm, empty continuation of the background. Copy space: the lower-right third of the middle band is calm, empty, softly lit background for an italic headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "10bca6d0-d852-47de-bad3-4ca101fae457",
+    "score": 8.6,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-silk-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "format": "worn",
+  "file": "plates/toggle-link-chain-worn.jpg",
+  "job_id": "8f0a3378-db3a-4f37-be83-f0bf2724d468",
+  "attempts": 2,
+  "score": 7.8,
+  "pass": true,
+  "flagged": true,
+  "notes": "FLAGGED (both attempts failed as shot; attempt 1 used after reframe, score 7.8). Dusky-skinned collarbone crop in an ivory mulmul kurta, spring-gate clasp with short pave bar at the base of the throat at 0.47-0.59 of the plate. The plate is a 0.76-scale window of the original that removes the chin at the top edge and a blank grey strip at the bottom; the skin shows dense follicle bumps at full size. Calm kurta lower left/bottom for copy.",
+  "prop": "dusky skin, ivory mulmul kurta",
+  "copy_space": "bl",
+  "tone": "light",
+  "subject_y": [
+   0.1,
+   0.59
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop: the base of the neck, the collarbones and the upper chest of a young Indian woman with dusky brown skin, wearing a soft ivory mulmul kurta with a wide open round neckline; the top edge of the frame sits across the middle of the neck, well below the jaw, the head turned slightly away, so no part of the face is in the frame. The necklace sits where it really falls: the chain rests along the collarbones and the closed clasp is turned to the front at the base of the throat, in the middle band of the frame. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. Scale test: the spring ring is 15mm across, about one and a half fingernails, small and delicate at the base of the throat; the chain is a fine 4mm, never a statement chain, never chunky. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame; the necklace sits inside the middle 70% of the frame height, and the top 15% and bottom 15% hold only calm, empty continuation of the background. Copy space: the lower-left third of the middle band is calm and plain for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "17737c3a-c099-48b7-8537-ca037486a406",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "8f0a3378-db3a-4f37-be83-f0bf2724d468",
+    "score": 7.8,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-worn-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "69b9f35a-c3a4-4d29-a549-abba773616ed",
+    "score": 5.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-worn-a2.png"
+   }
+  ],
+  "reframe": "0.76,0.5,0.485"
+ },
+ {
+  "key": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "format": "quiet",
+  "file": "plates/toggle-link-chain-quiet.jpg",
+  "job_id": "e5dba200-03c3-46a6-8a77-1bf9cae8cbdc",
+  "attempts": 2,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Half a purple fig standing cut face forward in the centre of dusty-blush linen, the clasp resting on its rose-pink face and the chain falling away in two symmetrical arcs; top 28% and bottom 35% calm linen for logo and name/price. The fig half stands upright rather than lying face up (reads naturally).",
+  "prop": "halved fresh fig on dusty-blush linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": [
+   0.29,
+   0.63
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life. Half a fresh ripe purple fig, cut cleanly from stem to base, lies cut face up in the exact centre of the frame on dusty-blush handwoven linen in the same soft rose as the fig's flesh; the closed clasp of the necklace rests on the fig's rose-pink cut face, centred, and the two lengths of chain run out from it in two gentle, mirror-symmetrical arcs to the left and right edges of the frame at the same height. Fix from the previous attempt: it drew the pave bar far too long, standing upright across the whole ring and beyond it; this time the bar is short, only about two thirds of the ring's outer width, lying threaded through the ring across its upper half, never longer than the ring; and the two lengths of chain run out in two smooth, even arcs with no loose loops. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. Scale test: the fig half is about 5cm across, three times the 15mm spring ring; each link is 4mm wide. The ring presses a faint dimple into the soft fig flesh, with a soft contact shadow. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the fruit and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "b75867b0-90c4-4e38-851f-b78d07ec3e97",
+    "score": 6.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-quiet-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "e5dba200-03c3-46a6-8a77-1bf9cae8cbdc",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-quiet-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "format": "play",
+  "file": "plates/toggle-link-chain-play.jpg",
+  "job_id": "89728807-db7d-4f5c-bc18-3853596e7ea3",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Kundi door latch on an old blush-painted door; the necklace hangs over the staple and its own ring-and-bar clasp repeats the latch at a third of the size. Plate reframed from the original (0.85-scale 9:16 window, anchored low, still above 1080x1920) so the clasp sits inside the safe band. Copy space upper left on the soft door panel.",
+  "prop": "brass kundi door latch on an old blush wooden door",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.19,
+   0.84
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising photograph. A close crop of an old Indian wooden door painted soft faded blush-pink, its paint worn and cracked; in the middle of the frame a small antique brass kundi door latch is fixed to the door, a round brass ring about 5cm across hanging from an iron staple beside a flat brass hasp. The necklace is hung by its chain over the kundi's staple, the two lengths of chain falling side by side down the door, and its own closed clasp hangs at the front just below the big brass ring, so the small gold ring-and-bar repeats the door's ring-and-latch: the same way of closing, at one third the size. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the clasp from it and ignore everything else in it. The piece: a 50cm necklace of open elongated paperclip links, each link 4mm wide and 11mm long, in polished warm gold tone; it closes with 1 thick polished round gold-tone spring-gate ring 15mm across, a heavy round tube whose 2 flat-cut ends at the top are bridged by a slimmer gate wire, with 1 small ball push-pin nub on a grooved collar at about 3 o'clock; and 1 short slim straight bar 9mm long with flat ends, set along its length with a single row of about 9 tiny clear cubic zirconia, hanging from a small jump ring on the other chain end and threaded through the ring. The only stones are on that bar. The links must stay open elongated paperclip links, never cable, curb, rope or rolo links; the ring must stay a spring-gate sailor ring with its slimmer gate and push-pin nub, never a plain closed donut; the bar must stay short and straight, about 0.6 times the ring's width, never with ball ends, a hook or a shackle, never a lobster clasp; nothing hangs from the ring, no pendant, no charm. Scale test: the kundi's ring is about 5cm across, more than three times the necklace's 15mm spring ring; each link is 4mm wide, about the width of the iron staple. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame; the jewellery and its key prop sit inside the middle 70% of the frame height, and the top 15% and bottom 15% hold only calm, empty continuation of the background. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7ae5d59-e64c-42e0-869a-e2cde802e598",
+   "905b250a-9517-4d23-b82b-151cc7d16cc4"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "89728807-db7d-4f5c-bc18-3853596e7ea3",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/toggle-link-chain-play-a1.png"
+   }
+  ],
+  "reframe": "0.85,0.5,0.575"
+ },
+ {
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "rhyme",
+  "file": "plates/prism-riviere-bracelet-rhyme.jpg",
+  "job_id": "85718981-eab8-4fe3-bd3f-f142aa993672",
+  "attempts": 1,
+  "score": 8.5,
+  "pass": true,
+  "flagged": false,
+  "notes": "Prism bracelet in an open loop through sugar-coated pastel saunf (mukhwas) spilled from a brass katori on ivory lime plaster. Doubt: about 16 stations are drawn, a little fewer than the ~21 of the real 18cm piece; colour sequence is varied rather than strictly aqua-pink-yellow (as in the real piece's own close-up). Bracelet bottom edge at 0.84.",
+  "prop": "pastel sugar-coated saunf (mukhwas) in a brass katori",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.49,
+   0.84
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life, almost edible. On pale ivory lime plaster, a small brass katori at the upper right overflows with sugar-coated saunf mukhwas, tiny candied fennel seeds coated in pastel aqua blue, soft pink, pale butter yellow and white sugar, each about 5mm long, and a loose scatter has spilled across the plaster toward the centre. The bracelet lies in a relaxed open curve through the spill in the lower middle of the frame, its aqua, pink and yellow stones the same pastels and nearly the same size as the candied seeds, so the eye has to look twice. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: each candied fennel seed is about 5mm long, the same size as one centre stone; each stone in its halo is 8mm square; the bracelet is 18cm long and 8mm wide; the katori is about 8cm across. Soft contact shadows under the stones. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame; the jewellery and its key prop sit inside the middle 70% of the frame height, and the top 15% and bottom 15% hold only calm, empty continuation of the background. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "85718981-eab8-4fe3-bd3f-f142aa993672",
+    "score": 8.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-rhyme-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "silk",
+  "file": "plates/prism-riviere-bracelet-silk.jpg",
+  "job_id": "f5c46b56-26f4-4f1e-b5f9-d66ce2f048bf",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Prism bracelet wrapped over a rolled fold of deep plum-mauve silk satin, window glow at the top left. Calm plum silk in the upper right for a headline (the upper left holds the bright window). Stone run at the front is mostly pink/aqua alternating, yellow at the back.",
+  "prop": "deep plum-mauve silk satin",
+  "copy_space": "tr",
+  "tone": "dark",
+  "subject_y": [
+   0.37,
+   0.69
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life. The bracelet lies alone in a loose open curve on softly draped deep plum-mauve silk satin with long soft folds, resting along the lit crest of one long fold in the lower middle of the frame, the fold-over clasp turned away, so its pastel stones glow against the deep colour. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: each stone in its halo is 8mm square, about the width of a fingertip's nail; the bracelet is 18cm long and only 8mm wide, a slim line; each silk fold is about 5cm from crest to crest. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "f5c46b56-26f4-4f1e-b5f9-d66ce2f048bf",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-silk-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "worn",
+  "file": "plates/prism-riviere-bracelet-worn.jpg",
+  "job_id": "874a8ad0-654d-4b47-a72f-be8420aa1817",
+  "attempts": 1,
+  "score": 8.7,
+  "pass": true,
+  "flagged": false,
+  "notes": "Fair-olive wrist resting on ivory cotton bedlinen, rolled ivory shirt cuff at the upper right, bracelet across the wrist bone at 0.42-0.56 of the height; fingers run to the lower edge. Calmest copy space is the upper-left bedlinen.",
+  "prop": "fair-olive wrist, ivory shirt cuff",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.42,
+   0.56
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop of the wrist, hand and forearm of a young Indian woman with fair-olive skin: the forearm lies diagonally across the frame from upper right to lower left, resting on soft ivory cotton bedlinen, the rolled cuff of a crisp ivory cotton shirt at the upper right, the hand relaxed at the lower left with five natural fingers softly curled and short bare nails. The bracelet sits on the wrist bone, its stones facing the camera. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: each stone is only about half the width of a fingernail; the bracelet is a slim 8mm line on the wrist, never chunky. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band, no empty strip; the bracelet on the wrist sits between about 25% and 75% of the frame height. Copy space: the upper-right third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "874a8ad0-654d-4b47-a72f-be8420aa1817",
+    "score": 8.7,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-worn-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "quiet",
+  "file": "plates/prism-riviere-bracelet-quiet.jpg",
+  "job_id": "1520801c-5ed7-4c05-a4df-fd4dcc278051",
+  "attempts": 1,
+  "score": 8.7,
+  "pass": true,
+  "flagged": false,
+  "notes": "Lilac camp QUIET: the bracelet laid in a circle on a single pale lilac-blue hydrangea head, centred on lilac linen; top 25% and bottom 30% calm linen for logo and name/price.",
+  "prop": "pale lilac-blue hydrangea head on lilac linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": [
+   0.34,
+   0.64
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life, seen from slightly above. A single round head of fresh pale lilac-blue hydrangea sits in the exact centre of the frame on pale lilac handwoven linen of the same soft colour; the bracelet is laid in a neat closed circle on top of the flower head, centred and symmetrical, the fold-over clasp at the back, its aqua, pink and yellow stones resting on the florets. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: the hydrangea head is about 12cm across, about twice the width of the bracelet's circle; each floret is about 15mm, two stones wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the flower and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "1520801c-5ed7-4c05-a4df-fd4dcc278051",
+    "score": 8.7,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-quiet-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "prism-riviere-bracelet",
+  "title": "Prism Rivière Bracelet",
+  "format": "play",
+  "file": null,
+  "job_id": "f7fa2e7b-865b-4661-9cb6-296687b0cdc7",
+  "attempts": 2,
+  "score": 7.0,
+  "pass": false,
+  "flagged": false,
+  "notes": "EMPTY: both attempts failed (a1 6.5: stones ~1.7x too big and the bracelet ran off both edges; a2 7.0: two adjacent aqua stones and only 13 stations, a shortened bracelet). Neither reaches 7.5. Concept: the straight bracelet beside aqua, pink and yellow thread spools as a colour key.",
+  "prop": "three silk-thread spools as a colour key",
+  "copy_space": "tr",
+  "tone": "light",
+  "subject_y": null,
+  "prompt": "Vertical 9:16 witty editorial advertising photograph, top-down, the camera looking straight down onto pale ivory lime plaster. The whole bracelet lies perfectly straight, running vertically down the middle of the frame with both of its ends visible, the fold-over clasp end at about 22% and the other end at about 78% of the frame height: colour laid out in a straight line. To its left, three small wooden spools of silk embroidery thread lie on their sides in a vertical column, aqua blue at the top, soft pink in the middle, pale butter yellow at the bottom, like a colour key, a single loose end of thread trailing from each spool. Fix from the previous attempt: it drew every stone far too big, each haloed stone almost half as long as a spool, and ran the bracelet off the top and bottom of the frame; this time each haloed stone is small, only a quarter of a spool's length, and the whole 18cm bracelet, about 21 stones, fits inside the middle of the frame with calm plaster above and below it. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: each spool is about 3cm long, about four stones long; each stone in its halo is 8mm square; the bracelet is 18cm long and 8mm wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the right third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
+   "e7ef630a-57fb-47f7-8a6e-24b056372a66"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "3b7619a2-0fa6-4ba8-8635-6bdd77f3d6c4",
+    "score": 6.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-play-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "f7fa2e7b-865b-4661-9cb6-296687b0cdc7",
+    "score": 7.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-play-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "format": "rhyme",
+  "file": "plates/woven-gold-hoops-rhyme.jpg",
+  "job_id": "995ec231-0f93-46c8-b700-47ab06b9c907",
+  "attempts": 1,
+  "score": 8.1,
+  "pass": true,
+  "flagged": false,
+  "notes": "Pair of Woven hoops (one flat, one on edge) below two crisp golden murukku spirals and crumbs on ivory lime plaster. Doubt: the hoops read about 0.8x a murukku's width (asked for under 0.5x), plausible only if the murukku are the small 4cm kind. Upper-left plaster calm for a headline.",
+  "prop": "golden murukku spirals",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.17,
+   0.8
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life for an Indian demi-fine jewellery brand. On pale ivory lime plaster, two crisp golden murukku, the South Indian rice snack piped in ridged spiral coils about 6cm across, lie at the upper right, one broken in half with a few crumbs; the pair of hoops sits in the lower middle, one lying flat and one standing on its edge leaning against it, their braided gold ridges repeating the ridged golden coils of the murukku, so the eye has to look twice. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the braid, the disc and the latch from it and ignore everything else in it. The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone. The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle. Scale test: each hoop is 25mm across, less than half the width of one murukku; the braid is about 5mm thick, about the thickness of one murukku coil. Soft contact shadows under the hoops. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "995ec231-0f93-46c8-b700-47ab06b9c907",
+    "score": 8.1,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/woven-gold-hoops-rhyme-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "format": "silk",
+  "file": "plates/woven-gold-hoops-silk.jpg",
+  "job_id": "214f105c-3825-46c8-8175-2baa19197e10",
+  "attempts": 1,
+  "score": 8.6,
+  "pass": true,
+  "flagged": false,
+  "notes": "Pair of Woven hoops on a diagonal fold of rose-beige crepe-back satin, one flat and one on edge, at 0.37-0.60 of the height; calm satin upper left for a headline.",
+  "prop": "rose-beige crepe-back satin",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.37,
+   0.6
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life. The pair of hoops lies alone on softly draped rose-beige crepe-back satin with long soft folds running diagonally down the frame, one hoop lying flat on a lit crest and the other standing on its edge against it, in the lower middle of the frame, the satin dimpled slightly under them. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the braid, the disc and the latch from it and ignore everything else in it. The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone. The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle. Scale test: each hoop is 25mm across, about the width of a thumb joint; each silk fold is about 5cm from crest to crest, two hoops wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "214f105c-3825-46c8-8175-2baa19197e10",
+    "score": 8.6,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/woven-gold-hoops-silk-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "format": "worn",
+  "file": "plates/woven-gold-hoops-worn.jpg",
+  "job_id": "5bcff657-2987-43df-a34a-09cf6e1c3828",
+  "attempts": 1,
+  "score": 8.3,
+  "pass": true,
+  "flagged": false,
+  "notes": "Ear and neck from behind, deep brown skin, low bun, ivory shirt collar; one Woven hoop in the lobe at 0.49-0.61. The face is out of frame (only the cheek edge in front of the ear and the jaw angle show). Calm blurred wall upper left.",
+  "prop": "deep brown skin, ear from behind, low bun, ivory shirt collar",
+  "copy_space": "tl",
+  "tone": "dark",
+  "subject_y": [
+   0.28,
+   0.61
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop of the ear and the side of the neck of a young Indian woman with deep brown skin, seen from behind and to the side: her dark hair is swept back into a low bun, one ear is fully visible, and the crisp collar of an ivory cotton shirt runs across the lower part of the frame; the front edge of the frame stops at the back of the jaw, so no cheek, no eye and no part of the face is in the frame. One woven hoop is worn in the earlobe, hanging naturally, the braid catching the light; the other ear is not seen. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the braid, the disc and the latch from it and ignore everything else in it. The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone. The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle. Scale test: the hoop is small on the ear, 25mm across, about 40% of the ear's height and only a little wider than the earlobe; never a statement hoop. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band, no empty strip; the ear and its hoop sits between about 25% and 75% of the frame height. Copy space: the upper-right third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "5bcff657-2987-43df-a34a-09cf6e1c3828",
+    "score": 8.3,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/woven-gold-hoops-worn-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "format": "quiet",
+  "file": "plates/woven-gold-hoops-quiet.jpg",
+  "job_id": "8a6d2933-40bf-4691-a7cc-bba1eb66066c",
+  "attempts": 1,
+  "score": 8.5,
+  "pass": true,
+  "flagged": false,
+  "notes": "Apricot-camp QUIET with a new fruit: a halved persimmon (star core) centred on apricot linen, one hoop on the cut face, one standing in front. Hoops read about 30mm against a ~7cm fruit (slightly generous, within tolerance). Top 30% and bottom 28% calm linen.",
+  "prop": "halved persimmon on apricot linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": [
+   0.31,
+   0.71
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life, the Apricot camp. Half a ripe orange persimmon, cut across its middle so its glossy cut face shows the pale star pattern of its core, lies cut face up in the exact centre of the frame on soft apricot handwoven linen of the same warm orange; one hoop lies flat on the persimmon's cut face and the second hoop stands on its edge leaning against the fruit at the front, centred. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the braid, the disc and the latch from it and ignore everything else in it. The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone. The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle. Scale test: the persimmon half is about 7cm across, nearly three hoops wide; each hoop is 25mm across. A soft contact shadow under each hoop. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the fruit and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "8a6d2933-40bf-4691-a7cc-bba1eb66066c",
+    "score": 8.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/woven-gold-hoops-quiet-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "format": "play",
+  "file": "plates/woven-gold-hoops-play.jpg",
+  "job_id": "ba03865f-2030-4903-bc7a-0b41da3528cf",
+  "attempts": 2,
+  "score": 8.0,
+  "pass": true,
+  "flagged": false,
+  "notes": "Braid proof: a long straight plait of golden silk cord running diagonally off the frame with its unplaited cords at the right, the pair of hoops beside it at 0.48-0.63. The cord has a small wrapped binding where the plaiting stops (reads as rope, not jewellery). Calm plaster lower left; the upper left holds the cord.",
+  "prop": "unfinished three-strand plait of golden silk cord",
+  "copy_space": "bl",
+  "tone": "light",
+  "subject_y": [
+   0.48,
+   0.63
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life. On pale ivory lime plaster, one long three-strand plait of thick golden-yellow silk cord runs in a straight diagonal line right across the frame, entering beyond the upper-left edge and leaving beyond the right edge, like a length of rope from a haberdasher's reel: it has no knot, no wrap, no tassel and never curves into a loop; near the right edge the plaiting stops and the three loose cords run on, unplaited, off the frame. The pair of hoops sits on the plaster just below the plait in the middle of the frame, one lying flat and one standing on its edge, their braid the same three-over-three crossing as the cord: proof that each hoop is truly braided. Fix from the previous attempt: the cord was bent into a curve with a wrapped knot and tassels, so it looked like a braided bracelet; this time the plait is a long straight open length of cord running off both edges of the frame, never a loop, never a bracelet. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the braid, the disc and the latch from it and ignore everything else in it. The piece: 1 pair of hoop earrings, each a round hoop 25mm across made of a thick braid of many polished gold-tone strands about 5mm thick around a 13mm opening, with raised ridges and shadow between the strands; at the top of each hoop 1 small flat round polished gold disc sits on the inner side just under where 1 thin hinged gold latch wire clicks shut; zero stones; pale warm yellow gold tone. The braid must stay a distinct interlaced braid of many fine gold strands with deep ridges, never a smooth tube, never a simple twisted rope, never chain links; both hoops stay identical round 25mm circles, never ovals, never larger; the disc stays solid polished gold, never a stone or enamel; no bail, no dangle. Scale test: each hoop is 25mm across; the braid of the hoop is about 5mm thick, about the same thickness as the silk plait; the plait is a long open length that runs off both edges of the frame. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+   "c07e6c4f-7ab7-4b7a-b64e-85854d549941"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "e88926d2-ea2d-4ff5-82db-30502c483b8b",
+    "score": 6.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/woven-gold-hoops-play-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "ba03865f-2030-4903-bc7a-0b41da3528cf",
+    "score": 8.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/woven-gold-hoops-play-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "heartbead-bracelet",
+  "title": "Heartbead Bracelet",
+  "format": "rhyme",
+  "file": "plates/heartbead-bracelet-rhyme.jpg",
+  "job_id": "cc03495e-ec7b-40db-a424-3df34abe9cb7",
+  "attempts": 1,
+  "score": 8.0,
+  "pass": true,
+  "flagged": false,
+  "notes": "Heartbead looped around one glossy heart-shaped paan (betel) leaf on a polished steel thali; the gold heart sits at the leaf's tip. Doubt: the steel thali fills most of the frame, so the frame is cooler and greyer than the house palette (the brief lists the thali as an allowed surface). Copy space upper left on the thali rim.",
+  "prop": "heart-shaped paan (betel) leaf on a steel thali",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.3,
+   0.75
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life for an Indian demi-fine jewellery brand. On a polished steel thali, one fresh glossy green paan leaf, the heart-shaped betel leaf, lies at the centre with its pointed tip toward the lower left; the bracelet curves in a soft open loop around the leaf, its mirror-steel beads echoing the polished thali, and the puffed gold heart rests just beside the leaf's pointed tip, a small gold heart beside a big green one, so the eye has to look twice. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the toggle, the heart and the bead links from it and ignore everything else in it. The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold. The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout. Scale test: the paan leaf is about 10cm long, more than six times the 15mm heart; each bead is 6mm, the size of a peppercorn; the thali is about 28cm across. Soft contact shadows under the beads. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "cc03495e-ec7b-40db-a424-3df34abe9cb7",
+    "score": 8.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/heartbead-bracelet-rhyme-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "heartbead-bracelet",
+  "title": "Heartbead Bracelet",
+  "format": "silk",
+  "file": "plates/heartbead-bracelet-silk.jpg",
+  "job_id": "c5a94a9f-1c5a-4fcc-977f-8c42f4362691",
+  "attempts": 1,
+  "score": 8.4,
+  "pass": true,
+  "flagged": false,
+  "notes": "The gold note in a new key: Heartbead along the lit crest of one long diagonal fold of deep cocoa-brown silk satin, gold toggle and heart at the front (0.27-0.65). Calm cocoa silk lower right for an italic headline (needs light type).",
+  "prop": "deep cocoa-brown silk satin, one sweeping diagonal fold",
+  "copy_space": "br",
+  "tone": "dark",
+  "subject_y": [
+   0.27,
+   0.65
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life, the gold note in a new key. The bracelet lies alone on softly draped deep cocoa-brown silk satin that rises in one long sweeping diagonal fold from lower left to upper right like a slow wave; the strand lies along the lit crest of that fold in the upper middle of the frame, the gold toggle and the puffed gold heart at the front catching a warm glow, the mirror beads reflecting the warm brown silk. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the toggle, the heart and the bead links from it and ignore everything else in it. The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold. The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout. Scale test: the heart is 15mm, about the size of a fingernail, about two and a half beads wide; each bead is 6mm; the wave fold is about 8cm tall. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the lower-right third of the middle band is calm, empty, softly lit background for an italic headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "c5a94a9f-1c5a-4fcc-977f-8c42f4362691",
+    "score": 8.4,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/heartbead-bracelet-silk-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "heartbead-bracelet",
+  "title": "Heartbead Bracelet",
+  "format": "worn",
+  "file": "plates/heartbead-bracelet-worn.jpg",
+  "job_id": "b37f2082-325f-4434-90da-c807251e6a8e",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Wheatish forearm resting on a cane-chair arm, ivory mulmul sleeve, the bracelet at 0.45-0.55 with toggle and heart turned up. Taupe wall at left gives the upper-left copy space (a touch grey).",
+  "prop": "wheatish wrist on a cane-chair arm, mulmul sleeve",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.45,
+   0.56
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop of the wrist, hand and forearm of a young Indian woman with wheatish skin, the sleeve of a soft ivory mulmul kurta pushed up the forearm; the forearm rests along the smooth honey-wood arm of a cane chair, the hand relaxed over its end with five natural fingers softly curled and short bare nails. The bracelet sits loose on the wrist bone, the gold toggle and gold heart turned up toward the camera. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the toggle, the heart and the bead links from it and ignore everything else in it. The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold. The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout. Scale test: each bead is about half the width of a fingernail and the gold heart about one fingernail wide; the bracelet is a slim strand on the wrist, never chunky. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band, no empty strip; the bracelet on the wrist sits between about 25% and 75% of the frame height. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "b37f2082-325f-4434-90da-c807251e6a8e",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/heartbead-bracelet-worn-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "heartbead-bracelet",
+  "title": "Heartbead Bracelet",
+  "format": "quiet",
+  "file": "plates/heartbead-bracelet-quiet.jpg",
+  "job_id": "15ace21c-437c-4c63-a2d6-955909915922",
+  "attempts": 1,
+  "score": 8.5,
+  "pass": true,
+  "flagged": false,
+  "notes": "Sage-camp QUIET: halved pink guava centred on sage linen with the Heartbead in a ring on its cut face and the gold heart over the rind. Top 29% and bottom 28% calm linen. The guava's flesh pattern reads a little like grapefruit at a glance.",
+  "prop": "halved pink-fleshed guava on sage linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": [
+   0.29,
+   0.72
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life, the Sage camp. Half a ripe pink-fleshed guava, cut across its middle, lies cut face up in the exact centre of the frame on soft sage-green handwoven linen of the same colour as its rind; the bracelet is laid in a neat circle on the cut face around the ring of seeds, the toggle at the bottom centre and the gold heart resting on the pale green rind at the front, centred and symmetrical. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the toggle, the heart and the bead links from it and ignore everything else in it. The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold. The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout. Scale test: the guava half is about 7cm across, a little wider than the bracelet's circle; each bead is 6mm; the heart is 15mm. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the fruit and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "15ace21c-437c-4c63-a2d6-955909915922",
+    "score": 8.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/heartbead-bracelet-quiet-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "heartbead-bracelet",
+  "title": "Heartbead Bracelet",
+  "format": "play",
+  "file": "plates/heartbead-bracelet-play.jpg",
+  "job_id": "16325444-6240-4f2f-96e7-8e236115ab34",
+  "attempts": 1,
+  "score": 8.0,
+  "pass": true,
+  "flagged": false,
+  "notes": "Surgical steel, twice: a plain stethoscope chest piece (same mirror steel as the beads) rests on the strand beside the gold heart on pale blush plaster. Plate reframed (0.74-scale window) to drop letterbox bands the generator drew. Calm plaster upper left. Bracelet 0.24-0.74 of the plate.",
+  "prop": "stethoscope chest piece listening to the heart",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.24,
+   0.74
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life. On pale blush lime plaster, the bracelet lies in a relaxed open curve in the middle of the frame; the polished stainless-steel chest piece of a plain unbranded stethoscope rests against the puffed gold heart, as if listening to it, its soft blush rubber tubing curving away out of the frame; the chest piece is the same mirror surgical stainless steel as the beads. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the toggle, the heart and the bead links from it and ignore everything else in it. The piece: a strand of about 23 mirror-polished silver-tone steel spheres, each 6mm, with 1 smaller silver bead at each end, joined by fine silver links; it closes at the front with 1 round gold-tone toggle ring and 1 straight gold-tone T-bar, and exactly 1 puffed, smooth, polished gold-tone heart 15mm tall hangs from the ring on a small gold jump ring. Two metals: the strand silver, the toggle and heart gold. The beads must stay mirror-polished steel spheres that reflect their surroundings with one crisp white highlight each, never matte, never pearls, never black, never gold; the toggle and heart must stay gold, never silver; exactly 1 heart, puffed and plain, never flat, never engraved, never set with stones; never one single metal colour throughout. Scale test: the chest piece is about 4.5cm across, three times the 15mm heart; each bead is 6mm, the size of a peppercorn. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+   "aa33c742-104b-4548-b7fe-3f3e20435477"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "16325444-6240-4f2f-96e7-8e236115ab34",
+    "score": 8.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/heartbead-bracelet-play-a1.png"
+   }
+  ],
+  "reframe": "0.74,0.55,0.5"
+ },
+ {
+  "key": "brushed-gold-huggies",
+  "title": "Brushed Gold Huggies",
+  "format": "rhyme",
+  "file": "plates/brushed-gold-huggies-rhyme.jpg",
+  "job_id": "75042861-35ce-4344-a908-a3c8763391aa",
+  "attempts": 1,
+  "score": 8.8,
+  "pass": true,
+  "flagged": false,
+  "notes": "Brushed huggies among whole cashews (kaju) spilled from a brass katori on blush linen; the cashews' curve and matte sheen rhyme with the satin bands. Huggies at 0.52-0.70. Calm linen upper left.",
+  "prop": "whole cashews (kaju) in a brass katori",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.17,
+   0.75
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life for an Indian demi-fine jewellery brand. On pale blush handwoven linen, a small brass katori at the upper right is heaped with whole cashew nuts, pale ivory-gold, each a plump curved C about 25mm long with a soft matte bloom, and a few have tumbled onto the linen. The pair of huggies sits among the loose cashews in the lower middle of the frame, one standing upright and one lying on its side, their thick curved bands of soft brushed gold repeating the cashew's curve and matte sheen, so the eye has to look twice. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: each huggie is about 14mm tall, a little over half a cashew's length; the band is 6mm wide, about as thick as a cashew. Soft contact shadows under the huggies. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "75042861-35ce-4344-a908-a3c8763391aa",
+    "score": 8.8,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-rhyme-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "brushed-gold-huggies",
+  "title": "Brushed Gold Huggies",
+  "format": "silk",
+  "file": "plates/brushed-gold-huggies-silk.jpg",
+  "job_id": "45a31cfd-e3ab-4e60-8eee-3311e16a02d7",
+  "attempts": 1,
+  "score": 8.4,
+  "pass": true,
+  "flagged": false,
+  "notes": "Pair of huggies upright on dusty-rose silk satin draped over a low block, at 0.42-0.56; the warm wall behind gives a calm upper-left copy space. Huggies render a touch large in a macro frame.",
+  "prop": "dusty-rose silk satin",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.42,
+   0.56
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life. The pair of huggies stands upright side by side on a gentle plateau of softly draped dusty-rose silk satin with long soft folds, in the lower middle of the frame, the satin dimpled slightly under them, the brushed gold glowing softly against the rose. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: each huggie is about 14mm tall, about the size of a fingernail; each silk fold is about 4cm from crest to crest, three huggies wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "45a31cfd-e3ab-4e60-8eee-3311e16a02d7",
+    "score": 8.4,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-silk-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "brushed-gold-huggies",
+  "title": "Brushed Gold Huggies",
+  "format": "worn",
+  "file": "plates/brushed-gold-huggies-worn.jpg",
+  "job_id": "d5554e67-9422-4fe9-815b-212c7713be05",
+  "attempts": 2,
+  "score": 8.4,
+  "pass": true,
+  "flagged": false,
+  "notes": "Fair-olive ear from behind with hair tucked back and a bare shoulder; one brushed huggie snug on the lobe at 0.45-0.52. No face parts (the earlier attempt showed an eyebrow tail). Copy space is narrow: the taupe wall at the upper left, or the shoulder lower left.",
+  "prop": "fair-olive ear from behind, bare shoulder",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.24,
+   0.52
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop of the ear, the side of the neck and one bare shoulder of a young Indian woman with fair-olive skin, seen from behind: her head is turned away so that the ear faces the camera and her face is turned fully out of the frame; the right edge of the frame passes just in front of the ear through the dark hair of the sideburn, so no temple, no eyebrow, no eye and no cheek are anywhere in the frame; her dark hair is tucked behind the ear. One brushed gold huggie hugs the earlobe snugly; the other ear is not seen. Fix from the previous attempt: the tail of the eyebrow and the corner of the eye showed at the top-right edge; this time the crop stays behind the face entirely, ear, hair, neck and shoulder only. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: the huggie is small and snug, about 14mm tall, hugging only the lower edge of the earlobe, about one fifth of the ear's height; never a statement hoop. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band, no empty strip; the ear and its huggie sits between about 25% and 75% of the frame height. Copy space: the upper-right third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "b9f521a1-2948-4e36-9268-b5b766e9eb94",
+    "score": 5.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-worn-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "d5554e67-9422-4fe9-815b-212c7713be05",
+    "score": 8.4,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-worn-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "brushed-gold-huggies",
+  "title": "Brushed Gold Huggies",
+  "format": "quiet",
+  "file": null,
+  "job_id": "f29a6f01-2fc2-4386-92e5-904b8f82e043",
+  "attempts": 2,
+  "score": 7.0,
+  "pass": false,
+  "flagged": false,
+  "notes": "EMPTY: both attempts (a1 5.5, a2 7.0) read silver beside the bright yellow star-fruit slice; the pixel colour of the metal actually matches the pale satin gold of the listing, so a cooler surround (sage or apricot linen) would likely fix it. Neither reaches 7.5.",
+  "prop": "thick star-fruit slice on butter-yellow linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": null,
+  "prompt": "Vertical 9:16 quiet advertising still life. One thick crosswise slice of ripe golden star fruit (kamrakh), a glossy five-pointed star about 7cm across, lies in the exact centre of the frame on soft clear butter-yellow handwoven linen of the same colour as the fruit; the pair of warm gold huggies stands upright side by side on the centre of the star, centred and symmetrical. Fix from the previous attempt: the huggies came out cool pewter-silver and the linen read beige; this time both huggies are warm 18k gold tone exactly like IMAGE 1, a soft satin yellow gold, never silver, never grey, never pewter, and the linen is a clear soft butter yellow, never beige. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: the star-fruit slice is about 7cm across, five huggies wide; each huggie is about 14mm tall. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the fruit and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "bdcacdde-6f3e-425e-b4cd-fd0445eea1d3",
+    "score": 5.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-quiet-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "f29a6f01-2fc2-4386-92e5-904b8f82e043",
+    "score": 7.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-quiet-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "brushed-gold-huggies",
+  "title": "Brushed Gold Huggies",
+  "format": "play",
+  "file": "plates/brushed-gold-huggies-play.jpg",
+  "job_id": "273c21de-d623-4717-8993-2b795aaccb19",
+  "attempts": 1,
+  "score": 8.3,
+  "pass": true,
+  "flagged": false,
+  "notes": "Brushed, literally: the huggies nested on the bristles of a round wooden brush on blush plaster; brush at 0.36-0.77, huggies 0.40-0.54. Calm plaster upper left.",
+  "prop": "nestled on the bristles of a wooden hairbrush",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.36,
+   0.77
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life, brushed, literally. On pale blush lime plaster, a small round natural-wood hairbrush with dense soft natural bristles lies bristles-up in the middle of the frame; the pair of huggies stands upright side by side, nestled on top of the bristles, their brushed satin gold the visible work of a brush. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: the brush head is about 7cm across, five huggies wide; each bristle tuft is about 3mm; each huggie is about 14mm tall. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "074dbf30-c51e-4b7c-aefd-2924556094fb",
+   "2774a169-7059-4440-871e-8c08c67c8cfe"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "273c21de-d623-4717-8993-2b795aaccb19",
+    "score": 8.3,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-play-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "ribbon-bead-bracelet",
+  "title": "Ribbon Bead Bracelet",
+  "format": "rhyme",
+  "file": "plates/ribbon-bead-bracelet-rhyme.jpg",
+  "job_id": "c59dd926-2c92-4532-96ad-d2e57737ec49",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Ribbon Bead bracelet in an open loop below silver-varq kaju katli set tip to tip into a bow shape (triangular pieces, a third piece behind). Doubt: the bow reads about 1.5x true size against the bracelet loop and the katli are small (~3cm). Calm plaster upper left.",
+  "prop": "two kaju katli diamonds set tip to tip as a bow",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.27,
+   0.77
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life for an Indian demi-fine jewellery brand. On pale ivory lime plaster, two pieces of kaju katli, the diamond-shaped cashew fudge with a shimmering silver varq top, are set tip to tip at the upper right so together they make one big edible bow; below them, in the lower middle of the frame, the bracelet lies in a soft open curve, its tiny bow of two clear heart stones meeting at their points repeating the shape of the sweets, so the eye has to look twice. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the bow, its claws and the beads from it and ignore everything else in it. The piece: a fine 1.2mm gold-tone cable chain, adjustable 16cm to 19cm, dotted with 2mm round gold satellite beads spaced along it; at the centre exactly 2 heart-cut clear cubic zirconia, each 5mm, set side by side in fine gold claws with their points meeting at a tiny gold centre bar, so the pair reads as 1 small bow 10mm wide and 5.5mm tall; a small gold lobster clasp with a short extender. The centre must stay 2 separate clear heart-cut stones meeting at their points, never merged into one stone, never a fabric or metal bow, never larger; the chain stays hair-fine, never thick; no other stones. Scale test: each kaju katli diamond is about 4cm long, eight times one 5mm heart stone; the bracelet's bow is 10mm wide; the chain is 1.2mm, hair-fine. Soft contact shadows under the chain. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "2d35210b-0da8-412a-a1d2-452f23417430",
+   "4d9050ed-f698-48e4-a236-459a8a3c1935"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "c59dd926-2c92-4532-96ad-d2e57737ec49",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/ribbon-bead-bracelet-rhyme-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "ribbon-bead-bracelet",
+  "title": "Ribbon Bead Bracelet",
+  "format": "silk",
+  "file": "plates/ribbon-bead-bracelet-silk.jpg",
+  "job_id": "6335dafa-bee6-483f-a268-cf58afb2350c",
+  "attempts": 1,
+  "score": 8.3,
+  "pass": true,
+  "flagged": false,
+  "notes": "Ribbon Bead bracelet over a rolled fold of pale champagne silk satin, the crystal bow at the front at 0.57-0.64; macro framing makes the bow a touch generous. Calm silk upper left for a headline.",
+  "prop": "pale champagne silk satin",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.45,
+   0.69
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life. The bracelet lies alone in a soft loose S on softly draped pale champagne silk satin with long soft folds, along a lit crest in the lower middle of the frame, the bow at the front facing the camera. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the bow, its claws and the beads from it and ignore everything else in it. The piece: a fine 1.2mm gold-tone cable chain, adjustable 16cm to 19cm, dotted with 2mm round gold satellite beads spaced along it; at the centre exactly 2 heart-cut clear cubic zirconia, each 5mm, set side by side in fine gold claws with their points meeting at a tiny gold centre bar, so the pair reads as 1 small bow 10mm wide and 5.5mm tall; a small gold lobster clasp with a short extender. The centre must stay 2 separate clear heart-cut stones meeting at their points, never merged into one stone, never a fabric or metal bow, never larger; the chain stays hair-fine, never thick; no other stones. Scale test: the bow is 10mm wide, smaller than a fingernail; the chain is 1.2mm; each silk fold is about 4cm from crest to crest. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "2d35210b-0da8-412a-a1d2-452f23417430",
+   "4d9050ed-f698-48e4-a236-459a8a3c1935"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "6335dafa-bee6-483f-a268-cf58afb2350c",
+    "score": 8.3,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/ribbon-bead-bracelet-silk-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "ribbon-bead-bracelet",
+  "title": "Ribbon Bead Bracelet",
+  "format": "worn",
+  "file": "plates/ribbon-bead-bracelet-worn.jpg",
+  "job_id": "9e70e0cd-a8f5-4c93-87f4-a4ae32152783",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Deep brown wrist and hand on ivory bedlinen, ivory mulmul cuff at the top, bow at 0.35-0.40 of the height. Doubt: the bow reads about 1.4x a fingernail (true is about one nail). Calm bedlinen upper left.",
+  "prop": "deep brown wrist on ivory cotton",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.34,
+   0.41
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop of the wrist, hand and forearm of a young Indian woman with deep brown skin: the forearm rests on soft ivory cotton bedlinen, the back of the wrist facing the camera, the hand relaxed with five natural fingers softly curled and short bare nails, the soft sleeve of an ivory mulmul kurta at the upper edge. The bracelet sits on the wrist with its bow centred on top. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the bow, its claws and the beads from it and ignore everything else in it. The piece: a fine 1.2mm gold-tone cable chain, adjustable 16cm to 19cm, dotted with 2mm round gold satellite beads spaced along it; at the centre exactly 2 heart-cut clear cubic zirconia, each 5mm, set side by side in fine gold claws with their points meeting at a tiny gold centre bar, so the pair reads as 1 small bow 10mm wide and 5.5mm tall; a small gold lobster clasp with a short extender. The centre must stay 2 separate clear heart-cut stones meeting at their points, never merged into one stone, never a fabric or metal bow, never larger; the chain stays hair-fine, never thick; no other stones. Scale test: the bow is tiny on the wrist, no wider than one fingernail, and the chain finer than a hair; never chunky. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band, no empty strip; the bracelet on the wrist sits between about 25% and 75% of the frame height. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "2d35210b-0da8-412a-a1d2-452f23417430",
+   "4d9050ed-f698-48e4-a236-459a8a3c1935"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "9e70e0cd-a8f5-4c93-87f4-a4ae32152783",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/ribbon-bead-bracelet-worn-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "ribbon-bead-bracelet",
+  "title": "Ribbon Bead Bracelet",
+  "format": "quiet",
+  "file": "plates/ribbon-bead-bracelet-quiet.jpg",
+  "job_id": "128c9ef4-a900-41d8-9bfe-c2899fdce0de",
+  "attempts": 1,
+  "score": 8.4,
+  "pass": true,
+  "flagged": false,
+  "notes": "Apricot/peach QUIET: the Ribbon Bead bracelet circling a single peach garden rose, centred on peach linen, bow at the bottom centre; top 25% and bottom 25% calm linen.",
+  "prop": "single peach garden rose on peach linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": [
+   0.27,
+   0.75
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life, seen from straight above. One open peach-pink garden rose head sits in the exact centre of the frame on soft peach handwoven linen of the same colour; the bracelet is laid in a neat circle on the rose's outer petals around its centre, the bow at the bottom centre facing the camera, centred and symmetrical. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the bow, its claws and the beads from it and ignore everything else in it. The piece: a fine 1.2mm gold-tone cable chain, adjustable 16cm to 19cm, dotted with 2mm round gold satellite beads spaced along it; at the centre exactly 2 heart-cut clear cubic zirconia, each 5mm, set side by side in fine gold claws with their points meeting at a tiny gold centre bar, so the pair reads as 1 small bow 10mm wide and 5.5mm tall; a small gold lobster clasp with a short extender. The centre must stay 2 separate clear heart-cut stones meeting at their points, never merged into one stone, never a fabric or metal bow, never larger; the chain stays hair-fine, never thick; no other stones. Scale test: the rose is about 8cm across; the bracelet's circle is about 5.5cm; the bow is 10mm wide, about the size of one small petal tip. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the flower and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "2d35210b-0da8-412a-a1d2-452f23417430",
+   "4d9050ed-f698-48e4-a236-459a8a3c1935"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "128c9ef4-a900-41d8-9bfe-c2899fdce0de",
+    "score": 8.4,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/ribbon-bead-bracelet-quiet-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "ribbon-bead-bracelet",
+  "title": "Ribbon Bead Bracelet",
+  "format": "play",
+  "file": "plates/ribbon-bead-bracelet-play.jpg",
+  "job_id": "54ae8a70-9d67-4daf-a9d3-881d1c5a5d81",
+  "attempts": 2,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Two hearts, read as a bow: the bracelet wrapped once around a tiny blush handmade-paper gift packet on ivory plaster, its crystal bow sitting on top where a ribbon bow would be (0.30-0.72). Bow sits slightly left of the packet's centre. Calm plaster upper left.",
+  "prop": "bracelet tied round a tiny paper gift as its ribbon",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.3,
+   0.72
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life. On pale ivory lime plaster, a tiny square gift packet about 4cm across and 2cm deep, neatly folded from plain blush handmade paper, sits in the middle of the frame; the bracelet is wrapped once around it in one direction only, a single band running straight across the top and around the sides, like the one ribbon of a small gift, with its little bow of two heart stones sitting exactly at the centre of the top face where a gift's bow would be; the lobster clasp is hidden underneath. Two hearts, read as a bow. Fix from the previous attempt: the chain crossed the packet both ways like a cross, which one bracelet cannot do; this time there is one single band of chain going around the packet in one direction only, never crossing, never a second strand. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the bow, its claws and the beads from it and ignore everything else in it. The piece: a fine 1.2mm gold-tone cable chain, adjustable 16cm to 19cm, dotted with 2mm round gold satellite beads spaced along it; at the centre exactly 2 heart-cut clear cubic zirconia, each 5mm, set side by side in fine gold claws with their points meeting at a tiny gold centre bar, so the pair reads as 1 small bow 10mm wide and 5.5mm tall; a small gold lobster clasp with a short extender. The centre must stay 2 separate clear heart-cut stones meeting at their points, never merged into one stone, never a fabric or metal bow, never larger; the chain stays hair-fine, never thick; no other stones. Scale test: the packet is about 4cm across, four times the 10mm bow; the bracelet is 16 to 19cm long, just long enough to go once around the packet; the chain is 1.2mm. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and its key prop away from the very top and bottom edges, roughly in the middle two thirds of the height. Copy space: the upper-left part of the frame, away from the jewellery, is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "2d35210b-0da8-412a-a1d2-452f23417430",
+   "4d9050ed-f698-48e4-a236-459a8a3c1935"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "36655724-8c8f-44c6-a2cc-a9ff4641a7f0",
+    "score": 6.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/ribbon-bead-bracelet-play-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "54ae8a70-9d67-4daf-a9d3-881d1c5a5d81",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/ribbon-bead-bracelet-play-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "riviere-eternal-bracelet",
+  "title": "Rivière Eternal Bracelet",
+  "format": "rhyme",
+  "file": "plates/riviere-eternal-bracelet-rhyme.jpg",
+  "job_id": "70efe72e-9fc1-4791-a467-172bf247c3b4",
+  "attempts": 1,
+  "score": 8.0,
+  "pass": true,
+  "flagged": false,
+  "notes": "Riviere Eternal in an open loop through soaked sabudana (tapioca pearls) spilled from a brass katori on ivory plaster; the bracelet runs off the right edge (part of its 18cm length is out of frame). Doubt: the sabudana read opaque white, so a viewer could take them for tiny pearls. Calm plaster upper left.",
+  "prop": "glistening soaked sabudana pearls in a brass katori",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.48,
+   0.81
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life for an Indian demi-fine jewellery brand. On pale ivory lime plaster, a small brass katori at the upper right is filled with soaked sabudana, round tapioca pearls about 3mm each, glistening and translucent with soft white centres, and a little trail of loose pearls has spilled across the plaster; the bracelet lies in a relaxed open curve through the spill in the lower middle of the frame, its round clear stones the same size and shape as the tapioca pearls, so the eye has to look twice, the polished buckle turned to the camera. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the four-prong settings and the polished rectangular box clasp from it and ignore everything else in it. The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station. The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm. Scale test: each tapioca pearl is about 3mm, the same size as one stone; the buckle is 12mm, four stones long; the bracelet is 18cm long; the katori is about 8cm across. Soft contact shadows under the stones. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the upper-left third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "70efe72e-9fc1-4791-a467-172bf247c3b4",
+    "score": 8.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-rhyme-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "riviere-eternal-bracelet",
+  "title": "Rivière Eternal Bracelet",
+  "format": "silk",
+  "file": "plates/riviere-eternal-bracelet-silk.jpg",
+  "job_id": "eaa104ef-47b1-4af1-8beb-ee8e9c808823",
+  "attempts": 2,
+  "score": 8.5,
+  "pass": true,
+  "flagged": false,
+  "notes": "Riviere Eternal closed in a soft loop on a fold of blush silk satin, the single polished buckle at the front (0.43-0.66). Stones read about 3.8mm (listing says about 3mm). Calm silk upper left.",
+  "prop": "soft blush silk satin",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.43,
+   0.66
+  ],
+  "prompt": "Vertical 9:16 editorial advertising still life. The bracelet lies alone closed into a soft oval loop on softly draped soft blush silk satin with long soft folds, resting on a lit crest in the lower middle of the frame, its single polished rectangular buckle, which is also its clasp, closed and turned to the front. Fix from the previous attempt: it drew the bracelet open with clasp pieces on both free ends and a second buckle in the middle; this time the bracelet is closed, with no free ends, and has exactly one polished buckle in the whole line, which is its clasp. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the four-prong settings and the polished rectangular box clasp from it and ignore everything else in it. The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station. The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm. Scale test: each stone is 3mm, the size of a mustard seed; the buckle is 12mm long, about one fingernail; each silk fold is about 4cm from crest to crest. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and its key prop away from the very top and bottom edges, roughly in the middle two thirds of the height. Copy space: the upper-left part of the frame, away from the jewellery, is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "fa8d3d60-e68b-42f1-b69e-5f46ac2e2812",
+    "score": 6.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-silk-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "eaa104ef-47b1-4af1-8beb-ee8e9c808823",
+    "score": 8.5,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-silk-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "riviere-eternal-bracelet",
+  "title": "Rivière Eternal Bracelet",
+  "format": "worn",
+  "file": "plates/riviere-eternal-bracelet-worn.jpg",
+  "job_id": "9fbf90fb-3d3b-41d9-9abd-b9941701584c",
+  "attempts": 1,
+  "score": 8.0,
+  "pass": true,
+  "flagged": false,
+  "notes": "Dusky wrist over a pale lime-plaster ledge with the buckle on top of the wrist at 0.43-0.54. Doubt: the ledge plaster is a pale pistachio tint, slightly green for the house palette. Calm plaster lower left for copy.",
+  "prop": "dusky wrist on a lime-plaster window ledge",
+  "copy_space": "bl",
+  "tone": "light",
+  "subject_y": [
+   0.43,
+   0.54
+  ],
+  "prompt": "Vertical 9:16 editorial on-model close crop of the wrist, hand and forearm of a young Indian woman with dusky brown skin, the sleeve of a crisp ivory cotton shirt rolled once above the wrist; the forearm rests on a pale lime-plaster window ledge, the hand relaxed over its edge with five natural fingers softly curled and short bare nails. The bracelet sits on the wrist with the polished buckle centred on top of the wrist, as it is worn. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the four-prong settings and the polished rectangular box clasp from it and ignore everything else in it. The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station. The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm. Scale test: each stone is about one third the width of a fingernail and the buckle about one fingernail long; the bracelet is a fine bright line on the wrist, never chunky. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band, no empty strip; the bracelet on the wrist sits between about 25% and 75% of the frame height. Copy space: the upper-right third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest optics: the jewellery and the skin around it are sharp, the background falls softly out of focus. Real unretouched skin texture: visible pores, fine downy hair, natural creases, no plastic skin, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No face: nothing above the jawline; no eyes, nose, lips. No earrings, rings, bracelets, watches or necklaces other than the piece itself.",
+  "refs": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "9fbf90fb-3d3b-41d9-9abd-b9941701584c",
+    "score": 8.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-worn-a1.png"
+   }
+  ]
+ },
+ {
+  "key": "riviere-eternal-bracelet",
+  "title": "Rivière Eternal Bracelet",
+  "format": "quiet",
+  "file": "plates/riviere-eternal-bracelet-quiet.jpg",
+  "job_id": "7a6f4c8b-5400-4760-bf4a-d6266c81323d",
+  "attempts": 2,
+  "score": 7.6,
+  "pass": true,
+  "flagged": true,
+  "notes": "FLAGGED (reshoot scored 7.6, taken under the 7.5 rule): Lilac-camp QUIET, the bracelet laid in a near-circle over one white-and-yellow champa (frangipani) on lilac linen, buckle at the bottom centre (0.22-0.73). Doubt: the ring shape over the flower can read faintly as a brooch; stones about 4mm. Calm linen top 22% and bottom 27%.",
+  "prop": "single white champa (frangipani) on lilac linen",
+  "copy_space": "top+bottom",
+  "tone": "light",
+  "subject_y": [
+   0.22,
+   0.73
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life, the Lilac camp, seen from straight above. One fresh white champa flower (frangipani), a real picked bloom with five rounded petals, natural creases and a soft yellow centre, sits in the exact centre of the frame on pale lilac handwoven linen; the bracelet lies loosely on top of the petals in a soft, slightly irregular oval that sags naturally like a flexible chain of stones, clearly a separate bracelet resting on a flower, the polished buckle at the bottom centre, centred and symmetrical. Fix from the previous attempt: the bracelet was a rigid perfect circle framing the flower, so the pair read as one flower brooch; this time the bracelet lies as a relaxed, flexible, slightly uneven oval with a little linen or petal edge showing through, unmistakably a bracelet laid on a real flower. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the four-prong settings and the polished rectangular box clasp from it and ignore everything else in it. The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station. The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm. Scale test: the flower is about 7cm across, a little wider than the bracelet's 5.7cm circle; each stone is 3mm; the buckle is 12mm. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; centred and symmetrical, the flower and the jewellery in the middle of the frame, with plenty of the same calm linen above and below them for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "e8bf5c2e-bcb5-492e-b47d-c2397980437c",
+    "score": 7.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-quiet-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "7a6f4c8b-5400-4760-bf4a-d6266c81323d",
+    "score": 7.6,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-quiet-a2.png"
+   }
+  ]
+ },
+ {
+  "key": "riviere-eternal-bracelet",
+  "title": "Rivière Eternal Bracelet",
+  "format": "play",
+  "file": "plates/riviere-eternal-bracelet-play.jpg",
+  "job_id": "e0f92aa2-31f6-4e38-b595-6d96861c2a0e",
+  "attempts": 1,
+  "score": 8.2,
+  "pass": true,
+  "flagged": false,
+  "notes": "Tennis-bracelet wit and a flexibility proof: the Riviere Eternal wrapped round a plain cream tennis ball on blush plaster, buckle at the front (bracelet 0.45-0.55, ball 0.31-0.70). Doubt: stones read about 4-4.5mm against a 6.7cm ball (listing says about 3mm; supplier photos look nearer 4mm). Calm plaster upper left.",
+  "prop": "wrapped round a plain cream tennis ball",
+  "copy_space": "tl",
+  "tone": "light",
+  "subject_y": [
+   0.31,
+   0.7
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life. On pale blush lime plaster, a plain unbranded pale cream felt tennis ball with no logo and no lettering sits in the middle of the frame; the bracelet is wrapped snugly around the ball just above its middle like a ring of light, the polished buckle at the front, every stone following the curve: proof of how supple the line is. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the four-prong settings and the polished rectangular box clasp from it and ignore everything else in it. The piece: an 18cm bracelet, 1 continuous single row of about 45 round brilliant clear cubic zirconia, each 3mm, each in its own fine gold-tone four-prong basket, linked directly stone to stone; it closes with 1 polished rectangular gold-tone box clasp 12mm long and the same height as the stones, which sits in the line as a small plain polished buckle station. The stones must stay one row of round clear stones linked prong to prong, never two rows, never baguettes, never coloured, never a visible chain between the stones; the buckle stays one plain polished rectangle, never set with stones, never a lobster clasp; no dangle, no charm. Scale test: the ball is 6.7cm across, the bracelet 18cm long, so it circles the ball just above its widest point; each stone is 3mm; the buckle is 12mm. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and its key prop away from the very top and bottom edges, roughly in the middle two thirds of the height. Copy space: the upper-left part of the frame, away from the jewellery, is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "refs": [
+   "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+   "c6589f6c-6302-44d3-bb22-8783532b3ce2"
+  ],
+  "all_jobs": [
+   {
+    "attempt": 1,
+    "job_id": "e0f92aa2-31f6-4e38-b595-6d96861c2a0e",
+    "score": 8.2,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/riviere-eternal-bracelet-play-a1.png"
+   }
+  ]
+ }
+]

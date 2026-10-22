@@ -1,0 +1,917 @@
+{
+ "frames": [
+  {
+   "plate": "plates/baguette-tennis-necklace-rhyme.jpg",
+   "layout": "deck",
+   "h": "Hot stuff.",
+   "c": "ruby-red cubic zirconia, not chillies.",
+   "spec": "36 cm · 18k gold-tone",
+   "cy": 0.63,
+   "at": "tl",
+   "sy": [
+    0.46,
+    0.8
+   ],
+   "cta": "Shop the necklace",
+   "price": "₹2,300",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-tennis-necklace-silk.jpg",
+   "layout": "note",
+   "h": "The green note.",
+   "c": "Emerald-green baguettes,<br>one line, gold-tone claws.",
+   "cy": 0.38,
+   "at": "br",
+   "sy": [
+    0.23,
+    0.53
+   ],
+   "n": "Baguette Tennis Necklace · ₹2,300",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-tennis-necklace-worn.jpg",
+   "layout": "note",
+   "h": "Undone, done.",
+   "c": "One line of clear baguettes<br>for an open collar.",
+   "cy": 0.4,
+   "at": "tl",
+   "sy": [
+    0.24,
+    0.56
+   ],
+   "n": "Baguette Tennis Necklace · ₹2,300",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-tennis-necklace-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.51,
+   "sy": [
+    0.29,
+    0.73
+   ],
+   "name": "Baguette Tennis Necklace",
+   "price": "₹2,300"
+  },
+  {
+   "plate": "plates/baguette-tennis-necklace-play.jpg",
+   "layout": "deck",
+   "h": "Matka, dressed.",
+   "c": "even the pot wanted one.",
+   "spec": "36 cm · 18k gold-tone",
+   "cy": 0.485,
+   "at": "tl",
+   "sy": [
+    0.44,
+    0.53
+   ],
+   "cta": "Shop the necklace",
+   "price": "₹2,300",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-tennis-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "On the rocks.",
+   "c": "clear cubic zirconia, not ice.",
+   "spec": "17 cm · 18k gold-tone",
+   "cy": 0.575,
+   "at": "tl",
+   "sy": [
+    0.45,
+    0.7
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,699",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-tennis-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "The red note.",
+   "c": "Ruby-red baguettes,<br>gold-tone claws.",
+   "cy": 0.51,
+   "at": "tl",
+   "sy": [
+    0.41,
+    0.61
+   ],
+   "n": "Baguette Tennis Bracelet · ₹1,699",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-tennis-bracelet-worn.jpg",
+   "layout": "note",
+   "h": "Green, every day.",
+   "c": "Emerald-green baguettes<br>for a mulmul morning.",
+   "cy": 0.485,
+   "at": "tl",
+   "sy": [
+    0.4,
+    0.57
+   ],
+   "n": "Baguette Tennis Bracelet · ₹1,699",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-tennis-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.52,
+   "sy": [
+    0.33,
+    0.71
+   ],
+   "name": "Baguette Tennis Bracelet",
+   "price": "₹1,699"
+  },
+  {
+   "plate": "plates/baguette-tennis-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "Love, all.",
+   "c": "the tennis bracelet, taken literally.",
+   "spec": "17 cm · 18k gold-tone",
+   "cy": 0.545,
+   "at": "tl",
+   "sy": [
+    0.34,
+    0.75
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,699",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-huggies-rhyme.jpg",
+   "layout": "deck",
+   "h": "Two peas.",
+   "c": "emerald cubic zirconia, not matar.",
+   "spec": "15 mm · hinged · 18k gold-tone",
+   "cy": 0.48,
+   "at": "tl",
+   "sy": [
+    0.3,
+    0.66
+   ],
+   "cta": "Shop the huggies",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-huggies-silk.jpg",
+   "layout": "note",
+   "h": "The clear note.",
+   "c": "Seven baguettes across the front,<br>hinged to close.",
+   "cy": 0.36,
+   "at": "br",
+   "sy": [
+    0.26,
+    0.45
+   ],
+   "n": "Baguette Huggies · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-huggies-worn.jpg",
+   "layout": "note",
+   "h": "A little red.",
+   "c": "Ruby baguettes,<br>small enough for every day.",
+   "cy": 0.55,
+   "at": "tl",
+   "sy": [
+    0.5,
+    0.6
+   ],
+   "n": "Baguette Huggies · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-huggies-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.475,
+   "sy": [
+    0.29,
+    0.66
+   ],
+   "name": "Baguette Huggies",
+   "price": "₹1,199"
+  },
+  {
+   "plate": "plates/baguette-huggies-play.jpg",
+   "layout": "deck",
+   "h": "Click. Locked.",
+   "c": "a hinged huggie that snaps shut.",
+   "spec": "15 mm · hinged · 18k gold-tone",
+   "cy": 0.485,
+   "at": "tl",
+   "sy": [
+    0.26,
+    0.71
+   ],
+   "cta": "Shop the huggies",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/cushion-halo-ring-rhyme.jpg",
+   "layout": "deck",
+   "h": "Spot the odd one.",
+   "c": "cubic zirconia among the sabudana.",
+   "spec": "8 mm centre · silver tone",
+   "cy": 0.5,
+   "at": "tl",
+   "sy": [
+    0.37,
+    0.63
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/cushion-halo-ring-silk.jpg",
+   "layout": "note",
+   "h": "The midnight note.",
+   "c": "A round centre in a cushion halo,<br>pavé down the shoulders.",
+   "tone": "cream",
+   "cy": 0.51,
+   "at": "tl",
+   "sy": [
+    0.37,
+    0.65
+   ],
+   "n": "Cushion Halo Ring · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/cushion-halo-ring-worn.jpg",
+   "layout": "note",
+   "h": "Say yes to yourself.",
+   "c": "A cushion halo for the right hand.",
+   "cy": 0.55,
+   "at": "tl",
+   "sy": [
+    0.51,
+    0.59
+   ],
+   "n": "Cushion Halo Ring · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/cushion-halo-ring-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.5,
+   "sy": [
+    0.34,
+    0.66
+   ],
+   "name": "Cushion Halo Ring",
+   "price": "₹1,199"
+  },
+  {
+   "plate": "plates/cushion-halo-ring-play.jpg",
+   "layout": "deck",
+   "h": "The centre.",
+   "c": "8 mm of cubic zirconia, measured.",
+   "spec": "cushion halo · silver tone",
+   "cy": 0.585,
+   "at": "tl",
+   "sy": [
+    0.51,
+    0.66
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/verdant-eternity-band-rhyme.jpg",
+   "layout": "deck",
+   "h": "Meetha paan.",
+   "c": "emerald-green cubic zirconia, no supari.",
+   "spec": "adjustable · silver tone",
+   "cy": 0.56,
+   "at": "tl",
+   "sy": [
+    0.34,
+    0.78
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,099",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/verdant-eternity-band-silk.jpg",
+   "layout": "note",
+   "h": "Green, all the way round.",
+   "c": "Emerald-green ovals in a wave of pavé,<br>open at the back to fit.",
+   "tone": "cream",
+   "cy": 0.38,
+   "at": "br",
+   "sy": [
+    0.25,
+    0.51
+   ],
+   "n": "Verdant Eternity Band · ₹1,099",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/verdant-eternity-band-worn.jpg",
+   "layout": "note",
+   "h": "One green thing.",
+   "c": "Emerald-green ovals,<br>adjustable to your finger.",
+   "cy": 0.515,
+   "at": "tl",
+   "sy": [
+    0.48,
+    0.55
+   ],
+   "n": "Verdant Eternity Band · ₹1,099",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/verdant-eternity-band-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.515,
+   "sy": [
+    0.33,
+    0.7
+   ],
+   "name": "Verdant Eternity Band",
+   "price": "₹1,099"
+  },
+  {
+   "plate": "plates/verdant-eternity-band-play.jpg",
+   "layout": "deck",
+   "h": "Ladyfinger, ringed.",
+   "c": "the eternity band on a bhindi.",
+   "spec": "adjustable · silver tone",
+   "cy": 0.43,
+   "at": "tl",
+   "sy": [
+    0.2,
+    0.66
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,099",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-nocturne-chain-rhyme.jpg",
+   "layout": "deck",
+   "h": "Raisin the bar.",
+   "c": "chunky gold-tone links, not kishmish.",
+   "spec": "46 cm · one pavé link",
+   "cy": 0.565,
+   "at": "tl",
+   "sy": [
+    0.35,
+    0.78
+   ],
+   "cta": "Shop the chain",
+   "price": "₹1,799",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-nocturne-chain-silk.jpg",
+   "layout": "note",
+   "h": "The bold note.",
+   "c": "Chunky gold-tone links<br>and one link in pavé.",
+   "cy": 0.425,
+   "at": "br",
+   "sy": [
+    0.29,
+    0.56
+   ],
+   "n": "Bold Nocturne Chain · ₹1,799",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/bold-nocturne-chain-worn.jpg",
+   "layout": "note",
+   "h": "After dark.",
+   "c": "Chunky links, one in pavé,<br>right at the centre.",
+   "cy": 0.36,
+   "at": "tl",
+   "sy": [
+    0.05,
+    0.62
+   ],
+   "n": "Bold Nocturne Chain · ₹1,799",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/bold-nocturne-chain-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.505,
+   "sy": [
+    0.26,
+    0.75
+   ],
+   "name": "Bold Nocturne Chain",
+   "price": "₹1,799"
+  },
+  {
+   "plate": "plates/bold-nocturne-chain-play.jpg",
+   "layout": "deck",
+   "h": "Worth its weight.",
+   "c": "46 cm of chunky gold-tone links.",
+   "spec": "46 cm · one pavé link",
+   "cy": 0.575,
+   "at": "tl",
+   "sy": [
+    0.4,
+    0.75
+   ],
+   "cta": "Shop the chain",
+   "price": "₹1,799",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-nocturne-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "Varq, but wearable.",
+   "c": "gold-tone links, not kaju katli.",
+   "spec": "20 cm · one pavé link",
+   "cy": 0.53,
+   "at": "tl",
+   "sy": [
+    0.22,
+    0.84
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,599",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-nocturne-bracelet-worn.jpg",
+   "layout": "note",
+   "h": "Cuff, rolled.",
+   "c": "Chunky links<br>and one in pavé.",
+   "cy": 0.53,
+   "at": "tr",
+   "sy": [
+    0.43,
+    0.63
+   ],
+   "n": "Bold Nocturne Bracelet · ₹1,599",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/bold-nocturne-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.51,
+   "sy": [
+    0.3,
+    0.72
+   ],
+   "name": "Bold Nocturne Bracelet",
+   "price": "₹1,599"
+  },
+  {
+   "plate": "plates/bold-nocturne-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "Measure twice.",
+   "c": "20 cm of chunky links, one in pavé.",
+   "spec": "20 cm · 18k gold-tone",
+   "cy": 0.54,
+   "at": "tl",
+   "sy": [
+    0.32,
+    0.76
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,599",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/marquise-layering-set-worn.jpg",
+   "layout": "note",
+   "h": "Layered, already.",
+   "c": "Two necklaces, one set:<br>a marquise and a Y-drop.",
+   "cy": 0.55,
+   "at": "tl",
+   "sy": [
+    0.28,
+    0.82
+   ],
+   "n": "Marquise Layering Set · ₹1,599",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/marquise-layering-set-play.jpg",
+   "layout": "deck",
+   "h": "Hangs true.",
+   "c": "two necklaces, layered to the line.",
+   "spec": "40 + 45 cm · 18k gold-tone",
+   "cy": 0.445,
+   "at": "tl",
+   "sy": [
+    0.04,
+    0.85
+   ],
+   "cta": "Shop the set",
+   "price": "₹1,599",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/silk-mesh-cuff-rhyme.jpg",
+   "layout": "deck",
+   "h": "Ghevar, gilded.",
+   "c": "woven gold-tone mesh, not syrup.",
+   "spec": "19 mm mesh · gold or silver",
+   "cy": 0.64,
+   "at": "tl",
+   "sy": [
+    0.55,
+    0.82
+   ],
+   "cta": "Shop the cuff",
+   "price": "₹1,499",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/silk-mesh-cuff-silk.jpg",
+   "layout": "note",
+   "h": "The silver note.",
+   "c": "Woven mesh, soft as cloth,<br>polished at the ends.",
+   "tone": "cream",
+   "cy": 0.365,
+   "at": "br",
+   "sy": [
+    0.23,
+    0.5
+   ],
+   "n": "Silk Mesh Cuff · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/silk-mesh-cuff-worn.jpg",
+   "layout": "note",
+   "h": "Soft, but gold.",
+   "c": "Woven mesh that bends<br>like fabric on the wrist.",
+   "cy": 0.555,
+   "at": "tl",
+   "sy": [
+    0.45,
+    0.66
+   ],
+   "n": "Silk Mesh Cuff · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/silk-mesh-cuff-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.53,
+   "sy": [
+    0.37,
+    0.69
+   ],
+   "name": "Silk Mesh Cuff",
+   "price": "₹1,499"
+  },
+  {
+   "plate": "plates/silk-mesh-cuff-play.jpg",
+   "layout": "deck",
+   "h": "Strained, in a good way.",
+   "c": "the same weave as your chai strainer.",
+   "spec": "19 mm mesh · gold or silver",
+   "cy": 0.545,
+   "at": "tl",
+   "sy": [
+    0.27,
+    0.82
+   ],
+   "cta": "Shop the cuff",
+   "price": "₹1,499",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/kiss-knot-bangle-rhyme.jpg",
+   "layout": "deck",
+   "h": "Coiled, not fried.",
+   "c": "gold-tone tubogas, not murukku.",
+   "spec": "flexible · gold or silver",
+   "cy": 0.59,
+   "at": "tl",
+   "sy": [
+    0.38,
+    0.8
+   ],
+   "cta": "Shop the bangle",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/kiss-knot-bangle-silk.jpg",
+   "layout": "note",
+   "h": "Sealed with an X.",
+   "c": "Ribbed silver-tone coil,<br>crossed like a kiss.",
+   "tone": "cream",
+   "cy": 0.595,
+   "at": "tl",
+   "sy": [
+    0.43,
+    0.76
+   ],
+   "n": "Kiss Knot Bangle · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/kiss-knot-bangle-worn.jpg",
+   "layout": "note",
+   "h": "X marks the wrist.",
+   "c": "A flexible coil<br>that gives as you move.",
+   "cy": 0.605,
+   "at": "tr",
+   "sy": [
+    0.54,
+    0.67
+   ],
+   "n": "Kiss Knot Bangle · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/kiss-knot-bangle-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.51,
+   "sy": [
+    0.31,
+    0.71
+   ],
+   "name": "Kiss Knot Bangle",
+   "price": "₹1,199"
+  },
+  {
+   "plate": "plates/kiss-knot-bangle-play.jpg",
+   "layout": "deck",
+   "h": "Zari, but solid.",
+   "c": "a coil you can wear.",
+   "spec": "flexible · gold or silver",
+   "cy": 0.57,
+   "at": "tl",
+   "sy": [
+    0.34,
+    0.8
+   ],
+   "cta": "Shop the bangle",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/molten-panel-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "Bhutta, polished.",
+   "c": "gold-tone plates, not kernels.",
+   "spec": "17 cm · 18k gold-tone",
+   "cy": 0.49,
+   "at": "tl",
+   "sy": [
+    0.15,
+    0.83
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/molten-panel-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "The molten note.",
+   "c": "Rows of small gold-tone plates<br>that drape like a strap.",
+   "cy": 0.58,
+   "at": "tl",
+   "sy": [
+    0.39,
+    0.77
+   ],
+   "n": "Molten Panel Bracelet · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/molten-panel-bracelet-worn.jpg",
+   "layout": "note",
+   "h": "Poured on.",
+   "c": "A flat band of gold-tone plates<br>that moves with the wrist.",
+   "cy": 0.48,
+   "at": "tl",
+   "sy": [
+    0.38,
+    0.58
+   ],
+   "n": "Molten Panel Bracelet · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/molten-panel-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.515,
+   "sy": [
+    0.31,
+    0.72
+   ],
+   "name": "Molten Panel Bracelet",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/molten-panel-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "It bends.",
+   "c": "rows of plates, not one stiff band.",
+   "spec": "17 cm · 18k gold-tone",
+   "cy": 0.635,
+   "at": "tl",
+   "sy": [
+    0.47,
+    0.8
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/torsade-pearl-cuff-rhyme.jpg",
+   "layout": "deck",
+   "h": "Makhana, but forever.",
+   "c": "white shell pearls, not fox nuts.",
+   "spec": "shell pearls · 18k gold-tone",
+   "cy": 0.61,
+   "at": "tl",
+   "sy": [
+    0.47,
+    0.75
+   ],
+   "cta": "Shop the cuff",
+   "price": "₹1,399",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/torsade-pearl-cuff-silk.jpg",
+   "layout": "note",
+   "h": "The pearl note.",
+   "c": "Twisted gold-tone cable,<br>a white shell pearl at each end.",
+   "cy": 0.575,
+   "at": "tl",
+   "sy": [
+    0.4,
+    0.75
+   ],
+   "n": "Torsade Pearl Cuff · ₹1,399",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/torsade-pearl-cuff-worn.jpg",
+   "layout": "note",
+   "h": "Two pearls, one wrist.",
+   "c": "Twisted cable that opens<br>to slip on.",
+   "cy": 0.59,
+   "at": "tr",
+   "sy": [
+    0.48,
+    0.7
+   ],
+   "n": "Torsade Pearl Cuff · ₹1,399",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/torsade-pearl-cuff-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.5,
+   "sy": [
+    0.27,
+    0.73
+   ],
+   "name": "Torsade Pearl Cuff",
+   "price": "₹1,399"
+  },
+  {
+   "plate": "plates/torsade-pearl-cuff-play.jpg",
+   "layout": "deck",
+   "h": "Twice as nice.",
+   "c": "one cuff, and the mirror's opinion.",
+   "spec": "shell pearls · 18k gold-tone",
+   "cy": 0.535,
+   "at": "tl",
+   "sy": [
+    0.31,
+    0.76
+   ],
+   "cta": "Shop the cuff",
+   "price": "₹1,399",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  }
+ ]
+}
