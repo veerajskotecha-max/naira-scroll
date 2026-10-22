@@ -3208,7 +3208,12 @@
    "at": "tl",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.36,
+    0.68
+   ],
+   "cy": 0.52
   },
   {
    "id": "verdant-eternity-band-crazy26",
@@ -3220,10 +3225,16 @@
    "spec": "adjustable · <span style=\"white-space:nowrap\">emerald-green</span> CZ · silver tone",
    "cta": "Shop the ring",
    "price": "₹1,099",
-   "at": "tl",
+   "at": "tr",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.4,
+    0.59
+   ],
+   "cy": 0.495,
+   "tone": "cream"
   },
   {
    "id": "halo-curve-ring-crazy27",
@@ -3238,7 +3249,12 @@
    "at": "tl",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.42,
+    0.56
+   ],
+   "cy": 0.49
   },
   {
    "id": "brushed-gold-huggies-crazy28",
@@ -3274,7 +3290,13 @@
    "at": "tl",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.36,
+    0.73
+   ],
+   "cy": 0.545,
+   "tone": "cream"
   },
   {
    "id": "bold-nocturne-chain-crazy33",
@@ -3296,6 +3318,26 @@
    ],
    "cy": 0.5,
    "tone": "cream"
+  },
+  {
+   "id": "bold-nocturne-bracelet-crazy34",
+   "plate": "plates/crazy/C34.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Knockout.",
+   "c": "chunky gold-tone links, one in pavé.",
+   "spec": "20 cm · one pavé link · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the bracelet",
+   "price": "₹1,599",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.33,
+    0.76
+   ],
+   "cy": 0.545
   },
   {
    "id": "kiss-knot-bangle-crazy35",
@@ -3495,6 +3537,27 @@
    "cy": 0.575
   },
   {
+   "id": "baguette-tennis-bracelet-crazy47",
+   "plate": "plates/crazy/C47.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Green signal.",
+   "c": "emerald-green baguettes, all the way round.",
+   "spec": "17 cm · <span style=\"white-space:nowrap\">baguette-cut</span> CZ · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the bracelet",
+   "price": "₹1,699",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.29,
+    0.58
+   ],
+   "cy": 0.435,
+   "tone": "cream"
+  },
+  {
    "id": "lilac-papillon-ring-crazy48",
    "plate": "plates/crazy/C48.jpg",
    "layout": "deck",
@@ -3507,7 +3570,12 @@
    "at": "tl",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.36,
+    0.59
+   ],
+   "cy": 0.475
   }
  ]
 }

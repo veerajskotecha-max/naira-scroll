@@ -40,14 +40,14 @@
   "headline": "Knockout.",
   "score": 7.5,
   "pass": false,
-  "file": null,
+  "file": "plates/crazy/C34.jpg",
   "copy_space": "tl",
   "subject_y": [
    0.33,
    0.76
   ],
   "tone": "bold",
-  "notes": "EMPTY: no attempt reached 8. Attempt 1 (7.5): Glossy red unbranded boxing glove on a pale canvas ring floor under one spotlight, red ropes behind; the Bold Nocturne Bracelet draped over the laced wrist cuff with the lobster clasp and tag on the canvas. Strong and glamorous at phone size, exactly 1 pave link, but at full size the links read about 1.4 to 1.8 times too big (each about twice a lace width) and the pave link is stretched longer than its neighbours. | Attempt 2 (7.5): Glossy red unbranded glove under a single spotlight on the canvas, ring corner and ropes behind; the Bold Nocturne Bracelet draped over the laced cuff, now at true size (each link about one lace wide) with exactly 1 pave link the same size as its neighbours, the lobster clasp, extender and tag on the canvas. Fails on a countable detail: a second short chain with a second tag pokes out at the far left end, so the bracelet shows 2 tags and 2 extender pieces; the dark ropes and post also sit in the top quarter. Best C34 frame, usable only as a reserve.",
+  "notes": "RESERVE at 7.5: attempt 2, retouched. The stray second chain end and tag at the far left were removed by inpainting (build script: scratchpad perf/retouch/c34.py); what remains reads as the same bracelet passing under the glove. Links still read about 1.4x large. | EMPTY: no attempt reached 8. Attempt 1 (7.5): Glossy red unbranded boxing glove on a pale canvas ring floor under one spotlight, red ropes behind; the Bold Nocturne Bracelet draped over the laced wrist cuff with the lobster clasp and tag on the canvas. Strong and glamorous at phone size, exactly 1 pave link, but at full size the links read about 1.4 to 1.8 times too big (each about twice a lace width) and the pave link is stretched longer than its neighbours. | Attempt 2 (7.5): Glossy red unbranded glove under a single spotlight on the canvas, ring corner and ropes behind; the Bold Nocturne Bracelet draped over the laced cuff, now at true size (each link about one lace wide) with exactly 1 pave link the same size as its neighbours, the lobster clasp, extender and tag on the canvas. Fails on a countable detail: a second short chain with a second tag pokes out at the far left end, so the bracelet shows 2 tags and 2 extender pieces; the dark ropes and post also sit in the top quarter. Best C34 frame, usable only as a reserve.",
   "jobs": [
    {
     "attempt": 1,
@@ -77,7 +77,8 @@
     ],
     "raw": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g3/raw/C34_a2.png"
    }
-  ]
+  ],
+  "flagged": true
  },
  {
   "id": "C35",

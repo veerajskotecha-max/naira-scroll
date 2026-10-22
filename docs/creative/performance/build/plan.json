@@ -40,6 +40,16 @@
   "wave": 1
  },
  {
+  "stem": "baguette-tennis-bracelet-crazy47",
+  "key": "baguette-tennis-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.96,
+  "reserve": false,
+  "wave": 1
+ },
+ {
   "stem": "bold-nocturne-bracelet-crazy11",
   "key": "bold-nocturne-bracelet",
   "format": "crazy",
@@ -77,7 +87,7 @@
   "adset": "Bracelets",
   "priority": 0.78,
   "reserve": false,
-  "wave": 1
+  "wave": 2
  },
  {
   "stem": "silk-mesh-cuff-crazy36",
@@ -138,6 +148,16 @@
   "priority": 0.667,
   "reserve": false,
   "wave": 2
+ },
+ {
+  "stem": "bold-nocturne-bracelet-crazy34",
+  "key": "bold-nocturne-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": -0.145,
+  "reserve": true,
+  "wave": 3
  },
  {
   "stem": "woven-gold-hoops-crazy04",
