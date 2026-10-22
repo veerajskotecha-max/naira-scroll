@@ -556,7 +556,7 @@ PHOTO_RESERVE = {"baguette-huggies-play", "bold-nocturne-chain-quiet", "molten-p
 
 def review_fixes():
     out = {}
-    for n in ("a_r1", "b_r1", "a", "b"):          # round one's fixes stand unless round two gives a new one
+    for n in ("a_r1", "b_r1", "a", "b", "c2"):    # round one's fixes stand unless round two gives a new one; c2 reviews crazy round two
         p = f"{HERE}/review_{n}.json"
         if os.path.exists(p):
             for r in json.load(open(p)):

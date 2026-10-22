@@ -27,7 +27,7 @@ def main():
     rows = list(csv.DictReader(open(f"{HERE}/meta.csv")))
     plan = {o["stem"]: o for o in json.load(open(f"{HERE}/plan.json"))}
     review = {}
-    for n in ("a", "b"):
+    for n in ("a", "b", "c2"):
         p = f"{HERE}/review_{n}.json"
         if os.path.exists(p):
             for r in json.load(open(p)): review[r["ad"]] = r
