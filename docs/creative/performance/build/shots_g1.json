@@ -311,18 +311,21 @@
   "key": "prism-riviere-bracelet",
   "title": "Prism Rivière Bracelet",
   "format": "play",
-  "file": null,
-  "job_id": "f7fa2e7b-865b-4661-9cb6-296687b0cdc7",
-  "attempts": 2,
-  "score": 7.0,
-  "pass": false,
-  "flagged": false,
-  "notes": "EMPTY: both attempts failed (a1 6.5: stones ~1.7x too big and the bracelet ran off both edges; a2 7.0: two adjacent aqua stones and only 13 stations, a shortened bracelet). Neither reaches 7.5. Concept: the straight bracelet beside aqua, pink and yellow thread spools as a colour key.",
-  "prop": "three silk-thread spools as a colour key",
-  "copy_space": "tr",
+  "file": "plates/prism-riviere-bracelet-play.jpg",
+  "job_id": "dac89215-edb4-40a7-9257-c6649d9c55ee",
+  "attempts": 4,
+  "score": 7.6,
+  "pass": true,
+  "flagged": true,
+  "notes": "FLAGGED (coordinator-approved fill, 2nd attempt, 7.6): the Prism laid open along a soft rainbow band thrown by a clear glass prism on ivory plaster, its pastel stones sitting in their own colours of light. Doubts: about 13 stations, so the bracelet reads short (~12cm vs 18cm); the prism top touches the top band (0.09). Earlier spool-key attempts (a1 6.5, a2 7.0) and the first prism attempt (a3 6.8) failed.",
+  "prop": "clear glass prism throwing a spectrum band",
+  "copy_space": "tl",
   "tone": "light",
-  "subject_y": null,
-  "prompt": "Vertical 9:16 witty editorial advertising photograph, top-down, the camera looking straight down onto pale ivory lime plaster. The whole bracelet lies perfectly straight, running vertically down the middle of the frame with both of its ends visible, the fold-over clasp end at about 22% and the other end at about 78% of the frame height: colour laid out in a straight line. To its left, three small wooden spools of silk embroidery thread lie on their sides in a vertical column, aqua blue at the top, soft pink in the middle, pale butter yellow at the bottom, like a colour key, a single loose end of thread trailing from each spool. Fix from the previous attempt: it drew every stone far too big, each haloed stone almost half as long as a spool, and ran the bracelet off the top and bottom of the frame; this time each haloed stone is small, only a quarter of a spool's length, and the whole 18cm bracelet, about 21 stones, fits inside the middle of the frame with calm plaster above and below it. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: each spool is about 3cm long, about four stones long; each stone in its halo is 8mm square; the bracelet is 18cm long and 8mm wide. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame filled edge to edge by the photograph, no blank band; the jewellery and its key prop sit between about 22% and 78% of the frame height, so the top 15% and bottom 15% hold only more of the same calm surface. Copy space: the right third of the middle band is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "subject_y": [
+   0.36,
+   0.76
+  ],
+  "prompt": "Vertical 9:16 witty editorial advertising still life, seen from above and from a little further back. On pale ivory lime plaster, a small clear glass prism stands at the upper right and splits a low beam of window sunlight into one soft rainbow spectrum band that runs in a gentle diagonal across the middle of the frame; the whole bracelet lies in a gentle S along the band, entirely inside the frame with both of its ends and the fold-over clasp visible and wide calm plaster margins on every side, its aqua, pink and yellow stones sitting inside their own colours of light. Fix from the previous attempt: the stones were drawn too big and the bracelet ran off the right edge and the bottom corner; this time the camera is further back, every haloed stone is small, and the whole 18cm bracelet lies in the middle of the frame, well away from every edge. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the build of the stones, halos and claws from it and ignore everything else in it. The piece: an 18cm bracelet, one continuous line of about 21 square cushion-cut pastel cubic zirconia, each 5mm, in the repeating order aqua blue, soft pink, pale yellow, every stone framed by its own fine halo of 2 rows of tiny clear pave, each stone held by 4 short round bead claws at its corners, linked in bright rhodium silver tone, closed by 1 fold-over clasp. The stones must stay cushion-cut pastel stones in the repeating aqua, pink, yellow order, never all one colour, never round, never a fourth colour such as lilac or green, and no two neighbouring stones are ever the same colour; every stone keeps its halo of very fine clear pave, never bare, never long prongs; the metal stays cool bright silver, never gold. Scale test: each stone is 5mm and each stone in its halo is 8mm square, about one twenty-fifth of the frame width; the bracelet is 18cm long, about 21 stones; the glass prism is about 5cm tall, about six haloed stones. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; keep the jewellery and its key prop away from the very top and bottom edges, roughly in the middle two thirds of the height. Copy space: the upper-left part of the frame, away from the jewellery, is calm, empty, softly lit background for a headline. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the metal shows a crisp bright edge and a dark rolled edge on every curve and every stone carries internal sparkle and one pure-white catchlight. The low sunbeam through the prism makes the soft spectrum band on the plaster; the jewellery keeps its true colours. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
   "refs": [
    "d7b3663a-9f07-4fc9-b8ca-d1c0110edcaa",
    "e7ef630a-57fb-47f7-8a6e-24b056372a66"
@@ -339,6 +342,18 @@
     "job_id": "f7fa2e7b-865b-4661-9cb6-296687b0cdc7",
     "score": 7.0,
     "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-play-a2.png"
+   },
+   {
+    "attempt": 3,
+    "job_id": "167bdbb1-579b-47ea-bf71-1a4d31d78b1a",
+    "score": 6.8,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-play-a3.png"
+   },
+   {
+    "attempt": 4,
+    "job_id": "dac89215-edb4-40a7-9257-c6649d9c55ee",
+    "score": 7.6,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/prism-riviere-bracelet-play-a4.png"
    }
   ]
  },
@@ -775,18 +790,21 @@
   "key": "brushed-gold-huggies",
   "title": "Brushed Gold Huggies",
   "format": "quiet",
-  "file": null,
-  "job_id": "f29a6f01-2fc2-4386-92e5-904b8f82e043",
-  "attempts": 2,
-  "score": 7.0,
-  "pass": false,
+  "file": "plates/brushed-gold-huggies-quiet.jpg",
+  "job_id": "a195fa96-b39d-4188-a36c-4e500bdfa8ba",
+  "attempts": 4,
+  "score": 8.4,
+  "pass": true,
   "flagged": false,
-  "notes": "EMPTY: both attempts (a1 5.5, a2 7.0) read silver beside the bright yellow star-fruit slice; the pixel colour of the metal actually matches the pale satin gold of the listing, so a cooler surround (sage or apricot linen) would likely fix it. Neither reaches 7.5.",
-  "prop": "thick star-fruit slice on butter-yellow linen",
+  "notes": "Apricot-camp QUIET (coordinator-approved fill): the pair of brushed huggies set in the heart of one pale peach rose on muted apricot linen; the low-saturation surround makes the pale satin gold read gold (the star-fruit and halved-apricot attempts read silver). Huggies read about 1.2x true size. Top 30% and bottom 35% calm linen.",
+  "prop": "pale peach garden rose on apricot linen",
   "copy_space": "top+bottom",
   "tone": "light",
-  "subject_y": null,
-  "prompt": "Vertical 9:16 quiet advertising still life. One thick crosswise slice of ripe golden star fruit (kamrakh), a glossy five-pointed star about 7cm across, lies in the exact centre of the frame on soft clear butter-yellow handwoven linen of the same colour as the fruit; the pair of warm gold huggies stands upright side by side on the centre of the star, centred and symmetrical. Fix from the previous attempt: the huggies came out cool pewter-silver and the linen read beige; this time both huggies are warm 18k gold tone exactly like IMAGE 1, a soft satin yellow gold, never silver, never grey, never pewter, and the linen is a clear soft butter yellow, never beige. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: the star-fruit slice is about 7cm across, five huggies wide; each huggie is about 14mm tall. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: vertical 9:16 frame, centred and symmetrical; the fruit and the jewellery sit in the middle band of the frame, and the top 20% and bottom 20% are calm, empty, evenly lit linen for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
+  "subject_y": [
+   0.32,
+   0.65
+  ],
+  "prompt": "Vertical 9:16 quiet advertising still life, the Apricot camp. One open pale peach garden rose, seen from slightly above, sits in the exact centre of the frame on soft, muted pale-apricot handwoven linen of the same gentle colour; the pair of warm gold huggies stands upright on the rose's open petals, a little apart from each other, centred and symmetrical. Fix from the previous attempts: against bright yellow and orange fruit the pale satin gold read silver-grey; this time the whole surround is a soft, pale, low-saturation peach, so both huggies read clearly as warm soft yellow gold, exactly the colour of IMAGE 1, never silver, never grey, never pewter. IMAGE 1 is our approved product photograph and the authority on this exact piece: its construction, size, metal colour and stone colour; ignore its background and light. IMAGE 2 is a close detail photograph of the same piece; take only the satin brushed surface and the profile of the band from it and ignore everything else in it. The piece: 1 pair of huggie hoop earrings, each a wide, softly domed flat band 6mm deep curved into a small chunky huggie about 14mm tall and 10mm across, closing with a hidden hinge; soft brushed satin gold-tone surface with very fine parallel brush lines; zero stones. The finish must stay matte brushed satin that scatters light, never a smooth mirror polish; the band stays wide, smooth and plain, never ridged, twisted, hammered or set with stones; never a large hoop. Scale test: the rose is about 7cm across, about five huggies wide; each huggie is about 14mm tall. A soft contact shadow under each huggie. The jewellery keeps its true small size against the referent; it dominates by light and isolation, never by being enlarged. Composition: one single continuous photograph filling the whole 9:16 frame edge to edge, never a collage, no bands, strips or panels; centred and symmetrical, the flower and the jewellery in the middle of the frame, with plenty of the same calm linen above and below them for a logo above and a name and price below. Light: soft large window light from the upper left, one soft natural shadow, plus ONE small hard specular kicker from the right, so the brushed metal shows a soft broad satin sheen with one brighter edge and a darker rolled edge on every curve, never a mirror shine. Honest macro optics: the jewellery is needle-sharp and the scene falls softly out of focus behind it. Real texture everywhere: grain, fibre, believable imperfection, nothing plastic, natural film grain. Absence list: No text, no letters, no logo, no watermark, no price tag. No second piece of jewellery. No border, no vignette. No hands, no people.",
   "refs": [
    "074dbf30-c51e-4b7c-aefd-2924556094fb",
    "2774a169-7059-4440-871e-8c08c67c8cfe"
@@ -803,6 +821,18 @@
     "job_id": "f29a6f01-2fc2-4386-92e5-904b8f82e043",
     "score": 7.0,
     "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-quiet-a2.png"
+   },
+   {
+    "attempt": 3,
+    "job_id": "0638d810-fc0f-4782-a120-6f18d8c5e85d",
+    "score": 7.0,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-quiet-a3.png"
+   },
+   {
+    "attempt": 4,
+    "job_id": "a195fa96-b39d-4188-a36c-4e500bdfa8ba",
+    "score": 8.4,
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1/raw/brushed-gold-huggies-quiet-a4.png"
    }
   ]
  },

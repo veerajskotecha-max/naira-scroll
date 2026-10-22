@@ -410,7 +410,7 @@
   {
    "plate": "plates/bold-nocturne-chain-rhyme.jpg",
    "layout": "deck",
-   "h": "Raisin the bar.",
+   "h": "Golden, by the handful.",
    "c": "chunky gold-tone links, not kishmish.",
    "spec": "46 cm · one pavé link",
    "cy": 0.565,
@@ -672,8 +672,8 @@
   {
    "plate": "plates/kiss-knot-bangle-rhyme.jpg",
    "layout": "deck",
-   "h": "Coiled, not fried.",
-   "c": "gold-tone tubogas, not murukku.",
+   "h": "Murukku, minus the oil.",
+   "c": "a ribbed gold-tone coil, crossed in an X.",
    "spec": "flexible · gold or silver",
    "cy": 0.59,
    "at": "tl",
@@ -909,6 +909,1281 @@
    ],
    "cta": "Shop the cuff",
    "price": "₹1,399",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-nocturne-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "The champagne note.",
+   "c": "Chunky gold-tone links,<br>one of them in pavé.",
+   "cy": 0.64,
+   "at": "tl",
+   "sy": [
+    0.46,
+    0.85
+   ],
+   "n": "Bold Nocturne Bracelet · ₹1,599",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/toggle-link-chain-rhyme.jpg",
+   "layout": "deck",
+   "h": "Raisin the bar.",
+   "c": "a pavé bar, not a kishmish.",
+   "spec": "50 cm · paperclip links · toggle clasp",
+   "cy": 0.58,
+   "at": "tl",
+   "sy": [
+    0.36,
+    0.8
+   ],
+   "cta": "Shop the necklace",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/toggle-link-chain-silk.jpg",
+   "layout": "note",
+   "h": "The apricot note.",
+   "c": "Paperclip links that close<br>with a turn, not a catch.",
+   "cy": 0.37,
+   "at": "br",
+   "sy": [
+    0.14,
+    0.6
+   ],
+   "n": "Toggle Link Chain · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/toggle-link-chain-worn.jpg",
+   "layout": "note",
+   "h": "Front or side.",
+   "c": "Wear the toggle where you like;<br>it closes with a turn.",
+   "cy": 0.36,
+   "at": "bl",
+   "sy": [
+    0.1,
+    0.59
+   ],
+   "n": "Toggle Link Chain · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/toggle-link-chain-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.46,
+   "sy": [
+    0.29,
+    0.63
+   ],
+   "name": "Toggle Link Chain",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/toggle-link-chain-play.jpg",
+   "layout": "deck",
+   "h": "Closes like a kundi.",
+   "c": "a bar through a ring, one turn.",
+   "spec": "50 cm · paperclip links · toggle clasp",
+   "cy": 0.515,
+   "at": "tl",
+   "sy": [
+    0.19,
+    0.84
+   ],
+   "cta": "Shop the necklace",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/prism-riviere-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "After-dinner sparkle.",
+   "c": "pastel cubic zirconia, not mukhwas.",
+   "spec": "aqua · pink · yellow · silver tone",
+   "cy": 0.64,
+   "at": "tl",
+   "sy": [
+    0.49,
+    0.84
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹2,399",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/prism-riviere-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "The pastel note.",
+   "c": "Aqua, pink and yellow,<br>each in its own halo.",
+   "tone": "cream",
+   "cy": 0.53,
+   "at": "tr",
+   "sy": [
+    0.37,
+    0.69
+   ],
+   "n": "Prism Rivière Bracelet · ₹2,399",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/prism-riviere-bracelet-worn.jpg",
+   "layout": "note",
+   "h": "Every colour, one line.",
+   "c": "Aqua, pink and yellow cushions,<br>adjustable from 15 to 19 cm.",
+   "cy": 0.49,
+   "at": "tl",
+   "sy": [
+    0.42,
+    0.56
+   ],
+   "n": "Prism Rivière Bracelet · ₹2,399",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/prism-riviere-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.49,
+   "sy": [
+    0.34,
+    0.64
+   ],
+   "name": "Prism Rivière Bracelet",
+   "price": "₹2,399"
+  },
+  {
+   "plate": "plates/prism-riviere-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "Prism, meet prism.",
+   "c": "the light splits; so does the bracelet.",
+   "spec": "aqua · pink · yellow · silver tone",
+   "cy": 0.56,
+   "at": "tl",
+   "sy": [
+    0.36,
+    0.76
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹2,399",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/woven-gold-hoops-rhyme.jpg",
+   "layout": "deck",
+   "h": "Twisted, not fried.",
+   "c": "braided gold-tone hoops, not murukku.",
+   "spec": "25 mm · braided · 18k gold-tone",
+   "cy": 0.485,
+   "at": "tl",
+   "sy": [
+    0.17,
+    0.8
+   ],
+   "cta": "Shop the hoops",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/woven-gold-hoops-silk.jpg",
+   "layout": "note",
+   "h": "The braided note.",
+   "c": "25 mm of braided gold-tone rope,<br>no stones, all texture.",
+   "cy": 0.485,
+   "at": "tl",
+   "sy": [
+    0.37,
+    0.6
+   ],
+   "n": "Woven Gold Hoops · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/woven-gold-hoops-worn.jpg",
+   "layout": "note",
+   "h": "Bun day.",
+   "c": "Braided gold-tone hoops,<br>25 mm, close at the lobe.",
+   "cy": 0.445,
+   "at": "tl",
+   "tone": "cream",
+   "sy": [
+    0.28,
+    0.61
+   ],
+   "n": "Woven Gold Hoops · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/woven-gold-hoops-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.51,
+   "sy": [
+    0.31,
+    0.71
+   ],
+   "name": "Woven Gold Hoops",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/woven-gold-hoops-play.jpg",
+   "layout": "deck",
+   "h": "Plaited, not cast.",
+   "c": "braided like rope, then made a hoop.",
+   "spec": "25 mm · braided · 18k gold-tone",
+   "cy": 0.555,
+   "at": "bl",
+   "sy": [
+    0.48,
+    0.63
+   ],
+   "cta": "Shop the hoops",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/heartbead-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "Paan, with heart.",
+   "c": "6 mm steel beads, one gold-tone heart.",
+   "spec": "6 mm steel beads · gold-tone toggle and heart",
+   "cy": 0.525,
+   "at": "tl",
+   "sy": [
+    0.3,
+    0.75
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/heartbead-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "Still the gold note.",
+   "c": "Mirror-polished beads,<br>a gold-tone toggle and heart.",
+   "tone": "cream",
+   "cy": 0.46,
+   "at": "br",
+   "sy": [
+    0.27,
+    0.65
+   ],
+   "n": "Heartbead Bracelet · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/heartbead-bracelet-worn.jpg",
+   "layout": "deck",
+   "h": "Sweet on you.",
+   "c": "the charm bracelet, worn.",
+   "spec": "6 mm steel beads · gold-tone toggle and heart",
+   "at": "tc",
+   "w": 900,
+   "cy": 0.505,
+   "sy": [
+    0.45,
+    0.56
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/heartbead-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.505,
+   "sy": [
+    0.29,
+    0.72
+   ],
+   "name": "Heartbead Bracelet",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/heartbead-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "Listen closely.",
+   "c": "surgical steel, both of them.",
+   "spec": "6 mm steel beads · gold-tone toggle and heart",
+   "cy": 0.49,
+   "at": "tl",
+   "sy": [
+    0.24,
+    0.74
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/brushed-gold-huggies-rhyme.jpg",
+   "layout": "deck",
+   "h": "Kaju, but gold.",
+   "c": "brushed gold-tone huggies, not cashews.",
+   "spec": "satin-brushed · 18k gold-tone · huggie hoops",
+   "cy": 0.46,
+   "at": "tl",
+   "sy": [
+    0.17,
+    0.75
+   ],
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/brushed-gold-huggies-silk.jpg",
+   "layout": "note",
+   "h": "The satin note.",
+   "c": "Brushed, not mirrored,<br>so they never shout.",
+   "cy": 0.49,
+   "at": "tl",
+   "sy": [
+    0.42,
+    0.56
+   ],
+   "n": "Brushed Gold Huggies · ₹999",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/brushed-gold-huggies-worn.jpg",
+   "layout": "note",
+   "h": "Every day, every ear.",
+   "c": "Brushed gold-tone huggies<br>that sit snug at the lobe.",
+   "cy": 0.38,
+   "at": "tl",
+   "sy": [
+    0.24,
+    0.52
+   ],
+   "n": "Brushed Gold Huggies · ₹999",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/brushed-gold-huggies-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.485,
+   "sy": [
+    0.32,
+    0.65
+   ],
+   "name": "Brushed Gold Huggies",
+   "price": "₹999"
+  },
+  {
+   "plate": "plates/brushed-gold-huggies-play.jpg",
+   "layout": "deck",
+   "h": "Brushed, literally.",
+   "c": "a satin finish, not a mirror.",
+   "spec": "satin-brushed · 18k gold-tone · huggie hoops",
+   "cy": 0.565,
+   "at": "tl",
+   "sy": [
+    0.36,
+    0.77
+   ],
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/ribbon-bead-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "A bow, edible.",
+   "c": "a crystal bow, not kaju katli.",
+   "spec": "fine chain · crystal bow · 18k gold-tone",
+   "cy": 0.52,
+   "at": "tl",
+   "sy": [
+    0.27,
+    0.77
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹799",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/ribbon-bead-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "The bow note.",
+   "c": "A small crystal bow<br>on a fine gold-tone chain.",
+   "cy": 0.57,
+   "at": "tl",
+   "sy": [
+    0.45,
+    0.69
+   ],
+   "n": "Ribbon Bead Bracelet · ₹799",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/ribbon-bead-bracelet-worn.jpg",
+   "layout": "note",
+   "h": "Tied on.",
+   "c": "A small crystal bow<br>on a fine gold-tone chain.",
+   "cy": 0.375,
+   "at": "tl",
+   "sy": [
+    0.34,
+    0.41
+   ],
+   "n": "Ribbon Bead Bracelet · ₹799",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/ribbon-bead-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.51,
+   "sy": [
+    0.27,
+    0.75
+   ],
+   "name": "Ribbon Bead Bracelet",
+   "price": "₹799"
+  },
+  {
+   "plate": "plates/ribbon-bead-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "Gift, wrapped.",
+   "c": "the bracelet is the ribbon.",
+   "spec": "fine chain · crystal bow · 18k gold-tone",
+   "cy": 0.51,
+   "at": "tl",
+   "sy": [
+    0.3,
+    0.72
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹799",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/riviere-eternal-bracelet-rhyme.jpg",
+   "layout": "deck",
+   "h": "Sabudana, set.",
+   "c": "clear cubic zirconia, not tapioca.",
+   "spec": "one line of clear stones · polished buckle",
+   "cy": 0.64,
+   "at": "tl",
+   "sy": [
+    0.48,
+    0.81
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,449",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/riviere-eternal-bracelet-silk.jpg",
+   "layout": "note",
+   "h": "The fine note.",
+   "c": "One fine line of clear stones,<br>a polished buckle at the front.",
+   "cy": 0.545,
+   "at": "tl",
+   "sy": [
+    0.43,
+    0.66
+   ],
+   "n": "Rivière Eternal Bracelet · ₹1,449",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/riviere-eternal-bracelet-worn.jpg",
+   "layout": "note",
+   "h": "One line, all day.",
+   "c": "Clear stones, edge to edge,<br>a buckle on top.",
+   "cy": 0.485,
+   "at": "bl",
+   "sy": [
+    0.43,
+    0.54
+   ],
+   "n": "Rivière Eternal Bracelet · ₹1,449",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/riviere-eternal-bracelet-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.475,
+   "sy": [
+    0.22,
+    0.73
+   ],
+   "name": "Rivière Eternal Bracelet",
+   "price": "₹1,449"
+  },
+  {
+   "plate": "plates/riviere-eternal-bracelet-play.jpg",
+   "layout": "deck",
+   "h": "Game, set, match.",
+   "c": "a tennis bracelet that wraps a ball.",
+   "spec": "one line of clear stones · polished buckle",
+   "cy": 0.505,
+   "at": "tl",
+   "sy": [
+    0.31,
+    0.7
+   ],
+   "cta": "Shop the bracelet",
+   "price": "₹1,449",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/halo-curve-ring-rhyme.jpg",
+   "layout": "deck",
+   "h": "Gur, in gold.",
+   "c": "tiger's eye, not jaggery.",
+   "spec": "tiger's eye · champagne crystal · open band",
+   "cy": 0.465,
+   "at": "tl",
+   "sy": [
+    0.2,
+    0.73
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/halo-curve-ring-silk.jpg",
+   "layout": "note",
+   "h": "Two stones, one curve.",
+   "c": "Tiger's eye and champagne crystal<br>on an open gold-tone band.",
+   "cy": 0.54,
+   "at": "tl",
+   "sy": [
+    0.42,
+    0.66
+   ],
+   "n": "Halo Curve Ring · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/halo-curve-ring-worn.jpg",
+   "layout": "note",
+   "h": "Point taken.",
+   "c": "Tiger's eye and champagne crystal,<br>side by side.",
+   "cy": 0.49,
+   "at": "tl",
+   "sy": [
+    0.45,
+    0.53
+   ],
+   "n": "Halo Curve Ring · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/halo-curve-ring-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.54,
+   "sy": [
+    0.37,
+    0.71
+   ],
+   "name": "Halo Curve Ring",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/halo-curve-ring-play.jpg",
+   "layout": "deck",
+   "h": "Light, and shade.",
+   "c": "one stone lets the sun through; one doesn't.",
+   "spec": "tiger's eye · champagne crystal · open band",
+   "cy": 0.55,
+   "at": "tl",
+   "sy": [
+    0.36,
+    0.74
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/lilac-papillon-ring-rhyme.jpg",
+   "layout": "deck",
+   "h": "Butterfly, pea.",
+   "c": "lilac pavé wings, not petals.",
+   "spec": "lilac pavé · 18k gold-tone · butterfly",
+   "cy": 0.5,
+   "at": "tl",
+   "sy": [
+    0.23,
+    0.77
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/lilac-papillon-ring-silk.jpg",
+   "layout": "note",
+   "h": "The lilac note.",
+   "c": "A gold-tone butterfly,<br>its wings set in lilac pavé.",
+   "cy": 0.49,
+   "at": "br",
+   "sy": [
+    0.37,
+    0.61
+   ],
+   "n": "Lilac Papillon Ring · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/lilac-papillon-ring-worn.jpg",
+   "layout": "note",
+   "h": "Landed.",
+   "c": "A gold-tone butterfly<br>in lilac pavé.",
+   "cy": 0.5,
+   "at": "tl",
+   "sy": [
+    0.43,
+    0.57
+   ],
+   "n": "Lilac Papillon Ring · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/lilac-papillon-ring-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.505,
+   "sy": [
+    0.27,
+    0.74
+   ],
+   "name": "Lilac Papillon Ring",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/lilac-papillon-ring-play.jpg",
+   "layout": "deck",
+   "h": "Butterfly, twice.",
+   "c": "one ring, and its reflection.",
+   "spec": "lilac pavé · 18k gold-tone · butterfly",
+   "cy": 0.535,
+   "at": "tl",
+   "sy": [
+    0.34,
+    0.73
+   ],
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-dome-huggies-rhyme.jpg",
+   "layout": "deck",
+   "h": "Chunky, not crunchy.",
+   "c": "polished gold-tone huggies, not fryums.",
+   "spec": "16 mm · hinged · 18k gold-tone",
+   "cy": 0.565,
+   "at": "tl",
+   "sy": [
+    0.48,
+    0.65
+   ],
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/bold-dome-huggies-silk.jpg",
+   "layout": "note",
+   "h": "The dome note.",
+   "c": "16 mm of polished gold tone,<br>full at the front, slim at the hinge.",
+   "cy": 0.565,
+   "at": "tl",
+   "sy": [
+    0.42,
+    0.71
+   ],
+   "n": "Bold Dome Huggies · ₹999",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/bold-dome-huggies-worn.jpg",
+   "layout": "note",
+   "h": "Small, but loud.",
+   "c": "Chunky 16 mm huggies<br>in polished gold tone.",
+   "cy": 0.49,
+   "at": "tl",
+   "sy": [
+    0.44,
+    0.54
+   ],
+   "n": "Bold Dome Huggies · ₹999",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/bold-dome-huggies-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.505,
+   "sy": [
+    0.45,
+    0.56
+   ],
+   "name": "Bold Dome Huggies",
+   "price": "₹999"
+  },
+  {
+   "plate": "plates/bold-dome-huggies-play.jpg",
+   "layout": "deck",
+   "h": "Snap.",
+   "c": "a hinged huggie, closed round a pencil.",
+   "spec": "16 mm · hinged · 18k gold-tone",
+   "cy": 0.54,
+   "at": "tl",
+   "sy": [
+    0.31,
+    0.77
+   ],
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/quatrefoil-eclat-studs-rhyme.jpg",
+   "layout": "deck",
+   "h": "Mithai-shaped.",
+   "c": "cubic zirconia stars, not kaju katli.",
+   "spec": "15 mm · four-point star · 18k gold-tone",
+   "cy": 0.635,
+   "at": "tl",
+   "sy": [
+    0.58,
+    0.69
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/quatrefoil-eclat-studs-silk.jpg",
+   "layout": "note",
+   "h": "The star note.",
+   "c": "A four-point star in pavé,<br>four pear stones inside.",
+   "cy": 0.58,
+   "at": "tl",
+   "sy": [
+    0.47,
+    0.69
+   ],
+   "n": "Quatrefoil Éclat Studs · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/quatrefoil-eclat-studs-worn.jpg",
+   "layout": "note",
+   "h": "One star, each ear.",
+   "c": "A 15 mm four-point star<br>in clear cubic zirconia.",
+   "cy": 0.435,
+   "at": "tl",
+   "sy": [
+    0.4,
+    0.47
+   ],
+   "n": "Quatrefoil Éclat Studs · ₹1,299",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/quatrefoil-eclat-studs-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.505,
+   "sy": [
+    0.44,
+    0.57
+   ],
+   "name": "Quatrefoil Éclat Studs",
+   "price": "₹1,299"
+  },
+  {
+   "plate": "plates/quatrefoil-eclat-studs-play.jpg",
+   "layout": "deck",
+   "h": "Look closer.",
+   "c": "four pear stones inside a pavé star.",
+   "spec": "15 mm · four-point star · 18k gold-tone",
+   "cy": 0.435,
+   "at": "tl",
+   "sy": [
+    0.17,
+    0.7
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,299",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/verdant-cushion-studs-rhyme.jpg",
+   "layout": "deck",
+   "h": "Pista, polished.",
+   "c": "emerald-green cubic zirconia, not pistachios.",
+   "spec": "13 mm · emerald-green · silver tone",
+   "cy": 0.64,
+   "at": "tl",
+   "sy": [
+    0.62,
+    0.73
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/verdant-cushion-studs-silk.jpg",
+   "layout": "note",
+   "h": "Green, on navy.",
+   "c": "An emerald-green cushion<br>in a sunburst halo.",
+   "tone": "cream",
+   "cy": 0.52,
+   "at": "tl",
+   "sy": [
+    0.44,
+    0.6
+   ],
+   "n": "Verdant Cushion Studs · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/verdant-cushion-studs-worn.jpg",
+   "layout": "note",
+   "h": "One green dot.",
+   "c": "An emerald-green cushion<br>in a halo of clear stones.",
+   "cy": 0.46,
+   "at": "tl",
+   "sy": [
+    0.42,
+    0.5
+   ],
+   "n": "Verdant Cushion Studs · ₹1,199",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/verdant-cushion-studs-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.505,
+   "sy": [
+    0.45,
+    0.56
+   ],
+   "name": "Verdant Cushion Studs",
+   "price": "₹1,199"
+  },
+  {
+   "plate": "plates/verdant-cushion-studs-play.jpg",
+   "layout": "deck",
+   "h": "The exact green.",
+   "c": "matched, spool by spool.",
+   "spec": "13 mm · emerald-green · silver tone",
+   "cy": 0.535,
+   "at": "tl",
+   "sy": [
+    0.41,
+    0.66
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,199",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-halo-drops-rhyme.jpg",
+   "layout": "deck",
+   "h": "Makhana, matched.",
+   "c": "a pearl drop under a sunburst of baguettes.",
+   "spec": "14 mm disc · pearl drop · 18k gold-tone",
+   "cy": 0.615,
+   "at": "tl",
+   "sy": [
+    0.5,
+    0.73
+   ],
+   "cta": "Shop the earrings",
+   "price": "₹1,499",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/baguette-halo-drops-silk.jpg",
+   "layout": "note",
+   "h": "The sunburst note.",
+   "c": "A ring of clear baguettes,<br>a white pearl drop below.",
+   "cy": 0.515,
+   "at": "tl",
+   "sy": [
+    0.37,
+    0.66
+   ],
+   "n": "Baguette Halo Drops · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-halo-drops-worn.jpg",
+   "layout": "note",
+   "h": "Sunburst, then a pearl.",
+   "c": "A disc of baguettes<br>and a white pearl drop.",
+   "cy": 0.545,
+   "at": "tl",
+   "sy": [
+    0.47,
+    0.62
+   ],
+   "n": "Baguette Halo Drops · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/baguette-halo-drops-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.53,
+   "sy": [
+    0.41,
+    0.65
+   ],
+   "name": "Baguette Halo Drops",
+   "price": "₹1,499"
+  },
+  {
+   "plate": "plates/baguette-halo-drops-play.jpg",
+   "layout": "deck",
+   "h": "Button up.",
+   "c": "a sunburst stud, pearl and all.",
+   "spec": "14 mm disc · pearl drop · 18k gold-tone",
+   "cy": 0.6,
+   "at": "tl",
+   "sy": [
+    0.45,
+    0.75
+   ],
+   "cta": "Shop the earrings",
+   "price": "₹1,499",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/pearl-circlet-studs-rhyme.jpg",
+   "layout": "deck",
+   "h": "Paneer? Pearl.",
+   "c": "a cushion pearl in a pavé halo.",
+   "spec": "13 mm · cushion pearl · pavé halo",
+   "cy": 0.64,
+   "at": "tl",
+   "sy": [
+    0.56,
+    0.79
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,899",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/pearl-circlet-studs-silk.jpg",
+   "layout": "note",
+   "h": "Square, but soft.",
+   "c": "A cushion pearl<br>in a halo of pavé.",
+   "tone": "cream",
+   "cy": 0.535,
+   "at": "tl",
+   "sy": [
+    0.45,
+    0.62
+   ],
+   "n": "Pearl Circlet Studs · ₹1,899",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/pearl-circlet-studs-worn.jpg",
+   "layout": "note",
+   "h": "Hair up, pearl on.",
+   "c": "A cushion pearl<br>framed in pavé.",
+   "cy": 0.445,
+   "at": "tr",
+   "sy": [
+    0.42,
+    0.47
+   ],
+   "n": "Pearl Circlet Studs · ₹1,899",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/pearl-circlet-studs-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.5,
+   "sy": [
+    0.44,
+    0.56
+   ],
+   "name": "Pearl Circlet Studs",
+   "price": "₹1,899"
+  },
+  {
+   "plate": "plates/pearl-circlet-studs-play.jpg",
+   "layout": "deck",
+   "h": "One lump or two?",
+   "c": "a cushion pearl, sugar-cube sized.",
+   "spec": "13 mm · cushion pearl · pavé halo",
+   "cy": 0.545,
+   "at": "tl",
+   "sy": [
+    0.43,
+    0.66
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,899",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/prism-cluster-studs-silver-silk.jpg",
+   "layout": "note",
+   "h": "The colour note.",
+   "c": "Purple, pink and yellow,<br>in one small arc.",
+   "tone": "cream",
+   "cy": 0.53,
+   "at": "tl",
+   "sy": [
+    0.4,
+    0.66
+   ],
+   "n": "Prism Cluster Studs · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/prism-cluster-studs-silver-worn.jpg",
+   "layout": "note",
+   "h": "Up the ear.",
+   "c": "An arc of purple, pink and yellow<br>along the lobe.",
+   "cy": 0.39,
+   "at": "tl",
+   "sy": [
+    0.35,
+    0.43
+   ],
+   "n": "Prism Cluster Studs · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/prism-cluster-studs-silver-quiet.jpg",
+   "layout": "quiet",
+   "cy": 0.495,
+   "sy": [
+    0.46,
+    0.53
+   ],
+   "name": "Prism Cluster Studs",
+   "price": "₹1,499"
+  },
+  {
+   "plate": "plates/prism-cluster-studs-silver-play.jpg",
+   "layout": "deck",
+   "h": "Watercolour, set in stone.",
+   "c": "purple, pink and yellow cubic zirconia.",
+   "spec": "purple · pink · yellow · silver tone",
+   "cy": 0.605,
+   "at": "tl",
+   "sy": [
+    0.52,
+    0.69
+   ],
+   "cta": "Shop the studs",
+   "price": "₹1,499",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/aqua-heart-drops-silver-rhyme.jpg",
+   "layout": "deck",
+   "h": "Kanche, but kept.",
+   "c": "aqua hearts, not marbles.",
+   "spec": "aqua heart · clear brilliants · silver tone",
+   "cy": 0.545,
+   "at": "tl",
+   "sy": [
+    0.43,
+    0.66
+   ],
+   "cta": "Shop the earrings",
+   "price": "₹1,499",
+   "w": 640,
+   "hs": 96,
+   "cs": 38
+  },
+  {
+   "plate": "plates/aqua-heart-drops-silver-silk.jpg",
+   "layout": "note",
+   "h": "The aqua note.",
+   "c": "A curve of clear brilliants,<br>an aqua heart below.",
+   "tone": "cream",
+   "cy": 0.535,
+   "at": "tl",
+   "sy": [
+    0.4,
+    0.67
+   ],
+   "n": "Aqua Heart Drops · ₹1,499",
+   "w": 600,
+   "hs": 78,
+   "cs": 34,
+   "ns": 18
+  },
+  {
+   "plate": "plates/aqua-heart-drops-silver-play.jpg",
+   "layout": "deck",
+   "h": "The exact blue.",
+   "c": "an aqua heart, matched to the pigment.",
+   "spec": "aqua heart · clear brilliants · silver tone",
+   "cy": 0.62,
+   "at": "tl",
+   "sy": [
+    0.56,
+    0.68
+   ],
+   "cta": "Shop the earrings",
+   "price": "₹1,499",
    "w": 640,
    "hs": 96,
    "cs": 38

@@ -21,7 +21,7 @@ QUIET_CSS = """
 html,body{margin:0;width:%(w)dpx;height:%(h)dpx;overflow:hidden}
 body{background:url("%(bg)s") center/cover no-repeat;position:relative;color:%(ink)s}
 .ft{color:var(--tone,%(ink)s);isolation:isolate}
-.qglow::before{content:"";position:absolute;inset:-40px 18%%;z-index:-1;background:radial-gradient(closest-side,var(--glow) 0%%,var(--glow) 45%%,transparent 100%%)}
+.qglow::before{content:"";position:absolute;inset:-34px 22%%;z-index:-1;opacity:.6;background:radial-gradient(closest-side,var(--glow) 0%%,var(--glow) 40%%,transparent 100%%)}
 .wm{position:absolute;left:50%%;transform:translateX(-50%%);top:%(top)dpx;height:%(wh)dpx}
 .ft{position:absolute;left:0;right:0;bottom:%(bot)dpx;text-align:center}
 .nm{font-family:Velista;font-size:%(ns)dpx;letter-spacing:.14em;line-height:1;margin-left:.14em}
@@ -58,7 +58,7 @@ function put(el,at,w,off,k){const s=el.style;s.left=s.right=s.top=s.bottom=s.tra
 function tone(el,t){const ink=t=='ink';el.style.setProperty('--tone',ink?P.INK:P.PAPER);el.style.setProperty('--glow',ink?'rgba(251,246,240,.80)':'rgba(28,22,18,.42)');
  el.style.setProperty('--btn',ink?P.INK:P.PAPER);el.style.setProperty('--btnt',ink?P.PAPER:P.INK);
  el.querySelectorAll('img.wmf').forEach(i=>i.src=i.src.replace(/logo_(ink|white)/,ink?'logo_ink':'logo_white'));}
-function go(){const el=document.querySelector(P.sel);const ft=P.foot?document.querySelector('.ft'):null;const fr=ft?ft.getBoundingClientRect():null;let best=null;
+function go(){if(P.quiet&&P.sy)P.sy=[P.sy[0]-70,P.sy[1]+70];const el=document.querySelector(P.sel);const ft=P.foot?document.querySelector('.ft'):null;const fr=ft?ft.getBoundingClientRect():null;let best=null;
  for(const at of P.ats)for(const w of P.ws)for(const k of[1,.86])for(let i=0;i<P.n;i++){const off=(at[0]=='t'?P.top:P.bot)+i*36;put(el,at,w,off,k);
   const r=el.getBoundingClientRect();if(r.top<P.top-1||r.bottom>P.H-P.bot+1||r.left<0||r.right>P.W)continue;if(fr&&hit(r,{left:fr.left,right:fr.right,top:fr.top-28,bottom:fr.bottom}))continue;
   const band=(P.sy&&Math.min(r.bottom,P.sy[1])-Math.max(r.top,P.sy[0])>12?.9:0)+(P.quiet&&P.sy&&r.bottom<P.sy[0]?.25:0);const hl=lines(el,'.h',P.lh),xs=Math.max(0,hl-P.hl)*.09;

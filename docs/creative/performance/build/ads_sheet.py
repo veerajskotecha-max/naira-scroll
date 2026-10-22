@@ -2,7 +2,7 @@
 import os, sys
 from PIL import Image, ImageDraw, ImageFont
 PERF = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FMTS = ["rhyme", "silk", "worn", "quiet", "play"]; H, PAD = 520, 8
+FMTS = ["rhyme", "silk", "worn", "quiet", "play"]; H, PAD = 430, 6
 F = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
 
 def main(out, *keys):

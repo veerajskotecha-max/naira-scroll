@@ -1,0 +1,1342 @@
+[
+ {
+  "stem": "baguette-tennis-bracelet-play",
+  "key": "baguette-tennis-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.82,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "silk-mesh-cuff-play",
+  "key": "silk-mesh-cuff",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.64,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "kiss-knot-bangle-play",
+  "key": "kiss-knot-bangle",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.64,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "ribbon-bead-bracelet-play",
+  "key": "ribbon-bead-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.603,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "riviere-eternal-bracelet-play",
+  "key": "riviere-eternal-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.595,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "torsade-pearl-cuff-play",
+  "key": "torsade-pearl-cuff",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.565,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "heartbead-bracelet-play",
+  "key": "heartbead-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.528,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "prism-riviere-bracelet-play",
+  "key": "prism-riviere-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": -0.157,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "bold-nocturne-bracelet-play",
+  "key": "bold-nocturne-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": -0.285,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "molten-panel-bracelet-play",
+  "key": "molten-panel-bracelet",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": -0.435,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "woven-gold-hoops-play",
+  "key": "woven-gold-hoops",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.812,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-huggies-play",
+  "key": "baguette-huggies",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.775,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "brushed-gold-huggies-play",
+  "key": "brushed-gold-huggies",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.603,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-dome-huggies-play",
+  "key": "bold-dome-huggies",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.565,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-cushion-studs-play",
+  "key": "verdant-cushion-studs",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.565,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "prism-cluster-studs-silver-play",
+  "key": "prism-cluster-studs-silver",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.565,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "aqua-heart-drops-silver-play",
+  "key": "aqua-heart-drops-silver",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.565,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "quatrefoil-eclat-studs-play",
+  "key": "quatrefoil-eclat-studs",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.435,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "baguette-halo-drops-play",
+  "key": "baguette-halo-drops",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.435,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "pearl-circlet-studs-play",
+  "key": "pearl-circlet-studs",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.435,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "toggle-link-chain-play",
+  "key": "toggle-link-chain",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.94,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-play",
+  "key": "cushion-halo-ring",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.79,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-eternity-band-play",
+  "key": "verdant-eternity-band",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.79,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-chain-play",
+  "key": "bold-nocturne-chain",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.745,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "halo-curve-ring-play",
+  "key": "halo-curve-ring",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.677,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "marquise-layering-set-play",
+  "key": "marquise-layering-set",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.64,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "lilac-papillon-ring-play",
+  "key": "lilac-papillon-ring",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.565,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "baguette-tennis-necklace-play",
+  "key": "baguette-tennis-necklace",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": -0.135,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "toggle-link-chain-quiet",
+  "key": "toggle-link-chain",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.88,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-necklace-quiet",
+  "key": "baguette-tennis-necklace",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.805,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "prism-riviere-bracelet-quiet",
+  "key": "prism-riviere-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.782,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-bracelet-quiet",
+  "key": "baguette-tennis-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.76,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "woven-gold-hoops-quiet",
+  "key": "woven-gold-hoops",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.752,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-quiet",
+  "key": "cushion-halo-ring",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.73,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-eternity-band-quiet",
+  "key": "verdant-eternity-band",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.73,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-huggies-quiet",
+  "key": "baguette-huggies",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.715,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-chain-quiet",
+  "key": "bold-nocturne-chain",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.685,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "bold-nocturne-bracelet-quiet",
+  "key": "bold-nocturne-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.655,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "halo-curve-ring-quiet",
+  "key": "halo-curve-ring",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.617,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "silk-mesh-cuff-quiet",
+  "key": "silk-mesh-cuff",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.58,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "kiss-knot-bangle-quiet",
+  "key": "kiss-knot-bangle",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.58,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "brushed-gold-huggies-quiet",
+  "key": "brushed-gold-huggies",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.542,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "ribbon-bead-bracelet-quiet",
+  "key": "ribbon-bead-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.542,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "molten-panel-bracelet-quiet",
+  "key": "molten-panel-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "torsade-pearl-cuff-quiet",
+  "key": "torsade-pearl-cuff",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "lilac-papillon-ring-quiet",
+  "key": "lilac-papillon-ring",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "bold-dome-huggies-quiet",
+  "key": "bold-dome-huggies",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "quatrefoil-eclat-studs-quiet",
+  "key": "quatrefoil-eclat-studs",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "verdant-cushion-studs-quiet",
+  "key": "verdant-cushion-studs",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "baguette-halo-drops-quiet",
+  "key": "baguette-halo-drops",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "prism-cluster-studs-silver-quiet",
+  "key": "prism-cluster-studs-silver",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.505,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "heartbead-bracelet-quiet",
+  "key": "heartbead-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": 0.467,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "riviere-eternal-bracelet-quiet",
+  "key": "riviere-eternal-bracelet",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": -0.465,
+  "reserve": true,
+  "wave": 4
+ },
+ {
+  "stem": "pearl-circlet-studs-quiet",
+  "key": "pearl-circlet-studs",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": -0.495,
+  "reserve": true,
+  "wave": 4
+ },
+ {
+  "stem": "prism-riviere-bracelet-rhyme",
+  "key": "prism-riviere-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.902,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-bracelet-rhyme",
+  "key": "baguette-tennis-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.88,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-bracelet-rhyme",
+  "key": "bold-nocturne-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.775,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "silk-mesh-cuff-rhyme",
+  "key": "silk-mesh-cuff",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.7,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "kiss-knot-bangle-rhyme",
+  "key": "kiss-knot-bangle",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.7,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "ribbon-bead-bracelet-rhyme",
+  "key": "ribbon-bead-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.663,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "riviere-eternal-bracelet-rhyme",
+  "key": "riviere-eternal-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.655,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "molten-panel-bracelet-rhyme",
+  "key": "molten-panel-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "torsade-pearl-cuff-rhyme",
+  "key": "torsade-pearl-cuff",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "heartbead-bracelet-rhyme",
+  "key": "heartbead-bracelet",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.588,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "woven-gold-hoops-rhyme",
+  "key": "woven-gold-hoops",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.873,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-huggies-rhyme",
+  "key": "baguette-huggies",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.835,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "brushed-gold-huggies-rhyme",
+  "key": "brushed-gold-huggies",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.663,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-dome-huggies-rhyme",
+  "key": "bold-dome-huggies",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "quatrefoil-eclat-studs-rhyme",
+  "key": "quatrefoil-eclat-studs",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-cushion-studs-rhyme",
+  "key": "verdant-cushion-studs",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "aqua-heart-drops-silver-rhyme",
+  "key": "aqua-heart-drops-silver",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "baguette-halo-drops-rhyme",
+  "key": "baguette-halo-drops",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.375,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "pearl-circlet-studs-rhyme",
+  "key": "pearl-circlet-studs",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.375,
+  "reserve": true,
+  "wave": 2
+ },
+ {
+  "stem": "toggle-link-chain-rhyme",
+  "key": "toggle-link-chain",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 1.0,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-necklace-rhyme",
+  "key": "baguette-tennis-necklace",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.925,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-rhyme",
+  "key": "cushion-halo-ring",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.85,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-eternity-band-rhyme",
+  "key": "verdant-eternity-band",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.85,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-chain-rhyme",
+  "key": "bold-nocturne-chain",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.805,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "halo-curve-ring-rhyme",
+  "key": "halo-curve-ring",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.738,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "lilac-papillon-ring-rhyme",
+  "key": "lilac-papillon-ring",
+  "format": "rhyme",
+  "campaign": "PERF · Rhyme (fruit-plate / Almost edible) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.625,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "prism-riviere-bracelet-silk",
+  "key": "prism-riviere-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.823,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "prism-riviere-bracelet-worn",
+  "key": "prism-riviere-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.823,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-bracelet-silk",
+  "key": "baguette-tennis-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.8,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-bracelet-worn",
+  "key": "baguette-tennis-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.8,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-bracelet-worn",
+  "key": "bold-nocturne-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.695,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-bracelet-silk",
+  "key": "bold-nocturne-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.695,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "silk-mesh-cuff-silk",
+  "key": "silk-mesh-cuff",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.62,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "silk-mesh-cuff-worn",
+  "key": "silk-mesh-cuff",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.62,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "kiss-knot-bangle-silk",
+  "key": "kiss-knot-bangle",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.62,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "kiss-knot-bangle-worn",
+  "key": "kiss-knot-bangle",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.62,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "ribbon-bead-bracelet-silk",
+  "key": "ribbon-bead-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.583,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "ribbon-bead-bracelet-worn",
+  "key": "ribbon-bead-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.583,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "riviere-eternal-bracelet-silk",
+  "key": "riviere-eternal-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.575,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "riviere-eternal-bracelet-worn",
+  "key": "riviere-eternal-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.575,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "molten-panel-bracelet-silk",
+  "key": "molten-panel-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "molten-panel-bracelet-worn",
+  "key": "molten-panel-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "torsade-pearl-cuff-silk",
+  "key": "torsade-pearl-cuff",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "torsade-pearl-cuff-worn",
+  "key": "torsade-pearl-cuff",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "heartbead-bracelet-silk",
+  "key": "heartbead-bracelet",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.508,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "heartbead-bracelet-worn",
+  "key": "heartbead-bracelet",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.508,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "woven-gold-hoops-silk",
+  "key": "woven-gold-hoops",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.792,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "woven-gold-hoops-worn",
+  "key": "woven-gold-hoops",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.792,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-huggies-silk",
+  "key": "baguette-huggies",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.755,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-huggies-worn",
+  "key": "baguette-huggies",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.755,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "brushed-gold-huggies-silk",
+  "key": "brushed-gold-huggies",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.583,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "brushed-gold-huggies-worn",
+  "key": "brushed-gold-huggies",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.583,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "bold-dome-huggies-silk",
+  "key": "bold-dome-huggies",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "bold-dome-huggies-worn",
+  "key": "bold-dome-huggies",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "quatrefoil-eclat-studs-silk",
+  "key": "quatrefoil-eclat-studs",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "quatrefoil-eclat-studs-worn",
+  "key": "quatrefoil-eclat-studs",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "verdant-cushion-studs-silk",
+  "key": "verdant-cushion-studs",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "verdant-cushion-studs-worn",
+  "key": "verdant-cushion-studs",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "baguette-halo-drops-silk",
+  "key": "baguette-halo-drops",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "baguette-halo-drops-worn",
+  "key": "baguette-halo-drops",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "prism-cluster-studs-silver-silk",
+  "key": "prism-cluster-studs-silver",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "prism-cluster-studs-silver-worn",
+  "key": "prism-cluster-studs-silver",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "aqua-heart-drops-silver-silk",
+  "key": "aqua-heart-drops-silver",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 4
+ },
+ {
+  "stem": "pearl-circlet-studs-silk",
+  "key": "pearl-circlet-studs",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.455,
+  "reserve": true,
+  "wave": 4
+ },
+ {
+  "stem": "pearl-circlet-studs-worn",
+  "key": "pearl-circlet-studs",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.455,
+  "reserve": true,
+  "wave": 4
+ },
+ {
+  "stem": "toggle-link-chain-silk",
+  "key": "toggle-link-chain",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.92,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-necklace-silk",
+  "key": "baguette-tennis-necklace",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.845,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-necklace-worn",
+  "key": "baguette-tennis-necklace",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.845,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-silk",
+  "key": "cushion-halo-ring",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.77,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-worn",
+  "key": "cushion-halo-ring",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.77,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-eternity-band-silk",
+  "key": "verdant-eternity-band",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.77,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "verdant-eternity-band-worn",
+  "key": "verdant-eternity-band",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.77,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "bold-nocturne-chain-silk",
+  "key": "bold-nocturne-chain",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.725,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "bold-nocturne-chain-worn",
+  "key": "bold-nocturne-chain",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.725,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "halo-curve-ring-silk",
+  "key": "halo-curve-ring",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.657,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "halo-curve-ring-worn",
+  "key": "halo-curve-ring",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.657,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "marquise-layering-set-worn",
+  "key": "marquise-layering-set",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.62,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "lilac-papillon-ring-silk",
+  "key": "lilac-papillon-ring",
+  "format": "silk",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "lilac-papillon-ring-worn",
+  "key": "lilac-papillon-ring",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.545,
+  "reserve": false,
+  "wave": 3
+ },
+ {
+  "stem": "toggle-link-chain-worn",
+  "key": "toggle-link-chain",
+  "format": "worn",
+  "campaign": "PERF · Silk & Worn (gold note) · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": -0.08,
+  "reserve": true,
+  "wave": 3
+ }
+]
