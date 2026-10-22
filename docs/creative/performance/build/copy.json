@@ -3180,14 +3180,14 @@
    "plate": "plates/crazy/C24.jpg",
    "layout": "deck",
    "story": "deck",
-   "h": "Packed with love.",
+   "h": "Packed<br>with love.",
    "c": "polished steel beads and a gold-tone heart.",
    "spec": "6 mm steel beads · toggle · heart charm",
    "cta": "Shop the bracelet",
    "price": "₹1,299",
    "at": "tr",
    "w": 680,
-   "hs": 108,
+   "hs": 92,
    "cs": 40,
    "sy": [
     0.15,
@@ -3200,7 +3200,7 @@
    "plate": "plates/crazy/C28.jpg",
    "layout": "deck",
    "story": "deck",
-   "h": "Dhanteras, sorted.",
+   "h": "Dhanteras,<br>sorted.",
    "c": "satin-brushed huggies in 18k gold tone.",
    "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span> · huggies",
    "cta": "Shop the huggies",
@@ -3217,24 +3217,75 @@
    "tone": "cream"
   },
   {
+   "id": "bold-dome-huggies-crazy38",
+   "plate": "plates/crazy/C38.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Don't pop<br>these.",
+   "c": "16 mm domes, mirror-polished.",
+   "spec": "16 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
+   "id": "baguette-halo-drops-crazy39",
+   "plate": "plates/crazy/C39.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Off the<br>chandelier.",
+   "c": "a sunburst of baguettes and a pearl drop.",
+   "spec": "14 mm disc · pearl drop · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the earrings",
+   "price": "₹1,499",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
+   "id": "aqua-heart-drops-silver-crazy41",
+   "plate": "plates/crazy/C41.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Sealed with<br>a heart.",
+   "c": "an icy aqua heart below clear brilliants.",
+   "spec": "aqua heart · clear brilliants · silver tone",
+   "cta": "Shop the earrings",
+   "price": "₹1,499",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
    "id": "ribbon-bead-bracelet-crazy42",
    "plate": "plates/crazy/C42.jpg",
    "layout": "deck",
-   "story": "deck",
-   "h": "Keep the<br>ribbon.",
+   "story": {
+    "y": 300
+   },
+   "h": "Keep<br>the<br>ribbon.",
    "c": "a crystal bow on a fine gold-tone chain.",
    "spec": "fine chain · crystal bow · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the bracelet",
    "price": "₹799",
    "at": "tl",
-   "w": 680,
-   "hs": 108,
+   "w": 330,
+   "hs": 84,
    "cs": 40,
    "sy": [
     0.12,
     0.92
    ],
-   "cy": 0.52
+   "cy": 0.52,
+   "fixed": true,
+   "feed": {
+    "y": 290
+   }
   },
   {
    "id": "riviere-eternal-bracelet-crazy46",
