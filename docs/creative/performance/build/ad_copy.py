@@ -485,7 +485,12 @@ def plan(rows):
 AFTER = {
  "verdant-cushion-studs-crazy22-feed": None,                       # cy .6 pushed the headline onto the loose peas
  "riviere-eternal-bracelet-crazy14-feed": {"cy": .58, "at": "tr", "fixed": True, "y": 200, "hs": 88},   # below the floodlight bloom
+ "baguette-huggies-quiet-feed": {"drop": True},                    # a halved fig with two hoops reads as a face or anatomical, as the toggle fig did
 }
+
+# Faults in the photograph that no layout fixes (round-two review under 7.5): these run only after the rest of their ad set
+PHOTO_RESERVE = {"baguette-huggies-play", "bold-nocturne-chain-quiet", "molten-panel-bracelet-play", "molten-panel-bracelet-quiet",
+                 "toggle-link-chain-worn", "verdant-cushion-studs-quiet"}
 
 def review_fixes():
     out = {}
@@ -537,7 +542,7 @@ def build():
         frames.append(e)
         for tag in ("feed", "story"):
             rows.append(dict(ad=f"{k}-{fmt}-{tag}", product=name, format=fmt, placement=tag, variant=meta.get("variant") or "",
-                             reserve="yes" if ov.get("reserve") or k in HOLD else "", primary_text=f"{meta['pt']}\n\n{OFFER}",
+                             reserve="yes" if ov.get("reserve") or k in HOLD or f"{k}-{fmt}" in PHOTO_RESERVE else "", primary_text=f"{meta['pt']}\n\n{OFFER}",
                              headline=f"{name} · {price}", cta="SHOP_NOW", url=url(k, fmt, meta.get("variant"))))
     CS = {}
     for g in ("g1", "g2", "g3", "g4"):

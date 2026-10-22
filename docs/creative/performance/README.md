@@ -31,7 +31,9 @@ The formats come from the account's own results (Meta, main ad account, 15–22 
   headline, CTA, URL with variant and UTMs, campaign, ad set, wave) and `plan.json`.
 - `build/perf_ads.py`: renders the ads. A script in each page scores the photograph on a 24 px grid and places the copy
   where it is calmest and reads best: ink or cream type, never across the jewellery.
-- `build/review_a.json` and `build/review_b.json`: the two independent full-size reviews of every ad.
+- `build/review_a.json` and `build/review_b.json`: the two independent full-size reviews of every ad, round two (round one
+  is in `review_*_r1.json`). `ad_copy.py` applies their fixes, then its own `AFTER` list where a fix made an ad worse when
+  rendered. Ads whose remaining fault is in the photograph (`PHOTO_RESERVE`) run only after the rest of their ad set.
 - `build/board.py` and `build/board_template.html`: the published page (plan, ads, images, verification board).
 - `build/sheet.py` and `build/ads_sheet.py`: the review contact sheets.
 

@@ -300,16 +300,6 @@
   "wave": 1
  },
  {
-  "stem": "baguette-huggies-play",
-  "key": "baguette-huggies",
-  "format": "play",
-  "campaign": "PERF · Play (object wit) · Oct 2026",
-  "adset": "Earrings",
-  "priority": 0.775,
-  "reserve": false,
-  "wave": 1
- },
- {
   "stem": "brushed-gold-huggies-play",
   "key": "brushed-gold-huggies",
   "format": "play",
@@ -347,7 +337,7 @@
   "adset": "Earrings",
   "priority": 0.565,
   "reserve": false,
-  "wave": 2
+  "wave": 1
  },
  {
   "stem": "aqua-heart-drops-silver-play",
@@ -358,6 +348,16 @@
   "priority": 0.565,
   "reserve": false,
   "wave": 2
+ },
+ {
+  "stem": "baguette-huggies-play",
+  "key": "baguette-huggies",
+  "format": "play",
+  "campaign": "PERF · Play (object wit) · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.225,
+  "reserve": true,
+  "wave": 3
  },
  {
   "stem": "quatrefoil-eclat-studs-play",
@@ -510,26 +510,6 @@
   "wave": 1
  },
  {
-  "stem": "baguette-huggies-quiet",
-  "key": "baguette-huggies",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.715,
-  "reserve": false,
-  "wave": 1
- },
- {
-  "stem": "bold-nocturne-chain-quiet",
-  "key": "bold-nocturne-chain",
-  "format": "quiet",
-  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
-  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
-  "priority": 0.685,
-  "reserve": false,
-  "wave": 1
- },
- {
   "stem": "bold-nocturne-bracelet-quiet",
   "key": "bold-nocturne-bracelet",
   "format": "quiet",
@@ -537,7 +517,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.655,
   "reserve": false,
-  "wave": 2
+  "wave": 1
  },
  {
   "stem": "halo-curve-ring-quiet",
@@ -547,7 +527,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.617,
   "reserve": false,
-  "wave": 2
+  "wave": 1
  },
  {
   "stem": "silk-mesh-cuff-quiet",
@@ -617,7 +597,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.505,
   "reserve": false,
-  "wave": 3
+  "wave": 2
  },
  {
   "stem": "baguette-halo-drops-quiet",
@@ -627,7 +607,7 @@
   "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
   "priority": 0.505,
   "reserve": false,
-  "wave": 3
+  "wave": 2
  },
  {
   "stem": "heartbead-bracelet-quiet",
@@ -638,6 +618,16 @@
   "priority": 0.467,
   "reserve": false,
   "wave": 3
+ },
+ {
+  "stem": "bold-nocturne-chain-quiet",
+  "key": "bold-nocturne-chain",
+  "format": "quiet",
+  "campaign": "PERF · Quiet · retarget warm · Oct 2026",
+  "adset": "Warm · site visitors 30d + add-to-cart 14d + IG engagers 90d · excl. purchasers 180d",
+  "priority": -0.315,
+  "reserve": true,
+  "wave": 4
  },
  {
   "stem": "riviere-eternal-bracelet-quiet",

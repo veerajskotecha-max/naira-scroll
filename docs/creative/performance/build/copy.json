@@ -32,6 +32,12 @@
    "layout": "note",
    "h": "The green note.",
    "c": "Emerald-green baguettes,<br>one line, gold-tone claws.",
+   "feed": {
+    "n": "Baguette Tennis Necklace<br>₹2,300"
+   },
+   "story": {
+    "n": "Baguette Tennis Necklace<br>₹2,300"
+   },
    "cy": 0.38,
    "at": "br",
    "sy": [
@@ -91,7 +97,12 @@
     "hs": 84,
     "cs": 34,
     "fixed": true,
-    "y": 60
+    "y": 60,
+    "tone": "cream",
+    "lock": [
+     "tone"
+    ],
+    "scrim": true
    },
    "cy": 0.575,
    "at": "tl",
@@ -233,17 +244,6 @@
    "ns": 18
   },
   {
-   "plate": "plates/baguette-huggies-quiet.jpg",
-   "layout": "quiet",
-   "cy": 0.475,
-   "sy": [
-    0.29,
-    0.66
-   ],
-   "name": "Baguette Huggies",
-   "price": "₹1,199"
-  },
-  {
    "plate": "plates/baguette-huggies-play.jpg",
    "layout": "deck",
    "h": "Click. Locked.",
@@ -267,6 +267,9 @@
    "h": "Spot the odd one.",
    "c": "cubic zirconia among the sabudana.",
    "spec": "8 mm centre · silver tone",
+   "feed": {
+    "h": "Spot the<br>odd one."
+   },
    "cy": 0.5,
    "at": "tl",
    "sy": [
@@ -285,6 +288,18 @@
    "h": "The midnight note.",
    "c": "A round centre in a cushion halo,<br>pavé down the shoulders.",
    "tone": "cream",
+   "feed": {
+    "at": "tl",
+    "w": 600,
+    "fixed": true,
+    "y": 72
+   },
+   "story": {
+    "at": "tl",
+    "w": 600,
+    "fixed": true,
+    "y": 340
+   },
    "cy": 0.51,
    "at": "tl",
    "sy": [
@@ -307,7 +322,8 @@
     "hs": 70,
     "fixed": true,
     "y": 60,
-    "c": "A cushion halo, chosen by you."
+    "c": "A cushion halo, chosen by you.",
+    "cy": 0.58
    },
    "story": {
     "c": "A cushion halo, chosen by you."
@@ -347,6 +363,9 @@
     "hs": 84,
     "fixed": true,
     "y": 60
+   },
+   "story": {
+    "c": "8 mm of cubic zirconia,<br>measured."
    },
    "cy": 0.585,
    "at": "tl",
@@ -435,7 +454,8 @@
    "c": "chunky gold-tone links, not kishmish.",
    "spec": "46 cm · one pavé link",
    "feed": {
-    "h": "Golden,<br>by the handful."
+    "h": "Golden,<br>by the handful.",
+    "cs": 34
    },
    "cy": 0.565,
    "at": "tl",
@@ -454,6 +474,12 @@
    "layout": "note",
    "h": "The bold note.",
    "c": "Chunky gold-tone links<br>and one link in pavé.",
+   "feed": {
+    "n": "Bold Nocturne Chain<br>₹1,799"
+   },
+   "story": {
+    "n": "Bold Nocturne Chain<br>₹1,799"
+   },
    "cy": 0.425,
    "at": "br",
    "sy": [
@@ -533,7 +559,13 @@
    "c": "gold-tone links, not kaju katli.",
    "spec": "20 cm · one pavé link",
    "feed": {
-    "h": "Varq,<br>but wearable."
+    "h": "Varq,<br>but wearable.",
+    "at": "tl",
+    "w": 420,
+    "hs": 64,
+    "cs": 30,
+    "fixed": true,
+    "y": 300
    },
    "cy": 0.53,
    "at": "tl",
@@ -776,7 +808,19 @@
    "c": "a ribbed gold-tone coil, crossed in an X.",
    "spec": "flexible · gold or silver tone",
    "feed": {
-    "spec": "flexible · gold tone or silver tone"
+    "spec": "flexible · gold tone or silver tone",
+    "layout": "note",
+    "at": "tl",
+    "w": 560,
+    "hs": 78,
+    "cs": 34,
+    "ns": 18,
+    "h": "Murukku,<br>minus the oil.",
+    "c": "A ribbed gold-tone coil,<br>crossed in an X.",
+    "n": "Kiss Knot Bangle · ₹1,199",
+    "cy": 0.45,
+    "fixed": true,
+    "y": 60
    },
    "cy": 0.59,
    "at": "tl",
@@ -843,7 +887,8 @@
    "c": "a coil you can wear.",
    "spec": "flexible · gold or silver tone",
    "feed": {
-    "spec": "flexible · gold tone or silver tone"
+    "spec": "flexible · gold tone or silver tone",
+    "cy": 0.555
    },
    "story": {
     "layout": "plain"
@@ -1077,6 +1122,12 @@
    "layout": "note",
    "h": "The champagne note.",
    "c": "Chunky gold-tone links,<br>one of them in pavé.",
+   "feed": {
+    "n": "Bold Nocturne Bracelet<br>₹1,599"
+   },
+   "story": {
+    "n": "Bold Nocturne Bracelet<br>₹1,599"
+   },
    "cy": 0.64,
    "at": "tl",
    "sy": [
@@ -1426,7 +1477,12 @@
     "cs": 32,
     "fixed": true,
     "y": 48,
-    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart"
+    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart",
+    "tone": "cream",
+    "lock": [
+     "tone"
+    ],
+    "scrim": true
    },
    "cy": 0.525,
    "at": "tl",
@@ -1446,6 +1502,11 @@
    "h": "Still the gold note.",
    "c": "Mirror-polished beads,<br>a gold-tone toggle and heart.",
    "tone": "cream",
+   "story": {
+    "at": "bl",
+    "fixed": true,
+    "y": 392
+   },
    "cy": 0.46,
    "at": "br",
    "sy": [
@@ -1520,7 +1581,8 @@
    "c": "surgical steel, both of them.",
    "spec": "6 mm steel · <span style=\"white-space:nowrap\">gold-tone</span> heart",
    "feed": {
-    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart"
+    "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart",
+    "cy": 0.53
    },
    "story": {
     "spec": "6 mm steel beads · <span style=\"white-space:nowrap\">gold-tone</span> heart"
@@ -1547,11 +1609,11 @@
     "cy": 0.53,
     "at": "tl",
     "w": 460,
-    "hs": 80,
-    "cs": 34,
+    "hs": 60,
+    "cs": 32,
     "fixed": true,
     "y": 64,
-    "h": "Kaju, in<br>gold tone.",
+    "h": "Kaju,<br>in gold tone.",
     "c": "brushed gold-tone huggies,<br>not cashews.",
     "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span>"
    },
@@ -1814,7 +1876,8 @@
    "spec": "tiger's eye · champagne crystal · open band",
    "feed": {
     "h": "Gur, set in<br>gold tone.",
-    "cy": 0.52
+    "cy": 0.52,
+    "c": "tiger’s eye, not jaggery."
    },
    "cy": 0.465,
    "at": "tl",
@@ -1861,11 +1924,17 @@
    "c": "Tiger's eye and champagne crystal,<br>side by side.",
    "feed": {
     "c": "Tiger’s eye and champagne crystal,<br>side by side.",
-    "w": 600
+    "w": 600,
+    "at": "tl",
+    "fixed": true,
+    "y": 72
    },
    "story": {
     "c": "Tiger’s eye and champagne crystal,<br>side by side.",
-    "w": 600
+    "w": 600,
+    "at": "tl",
+    "fixed": true,
+    "y": 300
    },
    "cy": 0.49,
    "at": "tl",
@@ -1882,6 +1951,14 @@
   {
    "plate": "plates/halo-curve-ring-quiet.jpg",
    "layout": "quiet",
+   "feed": {
+    "ns": 48,
+    "ps": 24
+   },
+   "story": {
+    "ns": 48,
+    "ps": 24
+   },
    "cy": 0.54,
    "sy": [
     0.37,
@@ -1928,7 +2005,12 @@
    "c": "lilac pavé wings, not petals.",
    "spec": "lilac pavé · 18k <span style=\"white-space:nowrap\">gold-tone</span> · butterfly",
    "feed": {
-    "cy": 0.53
+    "cy": 0.53,
+    "hs": 76,
+    "w": 500,
+    "at": "tl",
+    "fixed": true,
+    "y": 56
    },
    "cy": 0.5,
    "at": "tl",
@@ -2004,7 +2086,8 @@
    "story": {
     "fixed": true,
     "hs": 84,
-    "cs": 34
+    "cs": 34,
+    "layout": "plain"
    },
    "cy": 0.535,
    "at": "tl",
@@ -2025,14 +2108,14 @@
    "c": "polished gold-tone huggies, not fryums.",
    "spec": "16 mm · hinged · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "feed": {
-    "cy": 0.49,
-    "h": "Chunky,<br>not crunchy.",
+    "cy": 0.56,
+    "h": "Chunky, not crunchy.",
     "at": "tl",
-    "w": 640,
-    "hs": 84,
-    "cs": 34,
+    "w": 760,
+    "hs": 64,
+    "cs": 30,
     "fixed": true,
-    "y": 64
+    "y": 40
    },
    "cy": 0.565,
    "at": "tl",
@@ -2340,10 +2423,11 @@
     "cy": 0.55,
     "at": "tl",
     "w": 380,
-    "hs": 72,
+    "hs": 64,
     "cs": 30,
     "fixed": true,
-    "y": 40
+    "y": 40,
+    "h": "Makhana,<br>matched."
    },
    "cy": 0.615,
    "at": "tl",
@@ -2651,7 +2735,10 @@
    "tone": "cream",
    "lock": [
     "tone"
-   ]
+   ],
+   "feed": {
+    "c": "a toggle clasp,<br>not a shoelace knot."
+   }
   },
   {
    "id": "prism-riviere-bracelet-crazy02",
@@ -2662,7 +2749,8 @@
     "at": "tr",
     "fixed": true,
     "y": 760,
-    "w": 420
+    "w": 420,
+    "layout": "plain"
    },
    "h": "Never melts.",
    "c": "aqua, pink and yellow cubic zirconia, not syrup.",
@@ -2677,7 +2765,14 @@
     0.21,
     0.77
    ],
-   "cy": 0.49
+   "cy": 0.49,
+   "feed": {
+    "cy": 0.44,
+    "at": "tr",
+    "fixed": true,
+    "y": 40,
+    "spec": "18 cm · silver tone"
+   }
   },
   {
    "id": "prism-riviere-bracelet-crazy03",
@@ -2686,7 +2781,8 @@
    "story": {
     "at": "tr",
     "fixed": true,
-    "y": 300
+    "y": 300,
+    "layout": "plain"
    },
    "h": "Have your cake.<br>Wear it too.",
    "c": "pastel cubic zirconia, not sprinkles.",
@@ -2704,17 +2800,41 @@
    "cy": 0.515,
    "tone": "cream",
    "feed": {
-    "cy": 0.4,
+    "cy": 0.44,
     "at": "tr",
     "fixed": true,
-    "y": 60
+    "y": 60,
+    "layout": "note",
+    "w": 600,
+    "hs": 78,
+    "cs": 34,
+    "ns": 18,
+    "h": "Have your cake.<br>Wear it too.",
+    "c": "Pastel cubic zirconia, not sprinkles.",
+    "n": "Prism Rivière Bracelet · ₹2,399",
+    "tone": "cream",
+    "lock": [
+     "tone"
+    ]
    }
   },
   {
    "id": "woven-gold-hoops-crazy04",
    "plate": "plates/crazy/C04.jpg",
    "layout": "deck",
-   "story": "deck",
+   "story": {
+    "layout": "note",
+    "at": "tl",
+    "w": 340,
+    "hs": 78,
+    "cs": 32,
+    "ns": 18,
+    "h": "Hoopla.",
+    "c": "25 mm braided hoops,<br>every throw a winner.",
+    "n": "Woven Gold Hoops<br>₹1,299",
+    "fixed": true,
+    "y": 300
+   },
    "h": "Hoopla.",
    "c": "25 mm braided hoops, every throw a winner.",
    "spec": "25 mm · braided · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
@@ -2729,7 +2849,20 @@
     0.78
    ],
    "cy": 0.458,
-   "tone": "cream"
+   "tone": "cream",
+   "feed": {
+    "layout": "note",
+    "at": "tl",
+    "w": 340,
+    "hs": 78,
+    "cs": 32,
+    "ns": 18,
+    "h": "Hoopla.",
+    "c": "25 mm braided hoops,<br>every throw a winner.",
+    "n": "Woven Gold Hoops<br>₹1,299",
+    "fixed": true,
+    "y": 60
+   }
   },
   {
    "id": "heartbead-bracelet-crazy05",
@@ -2759,7 +2892,9 @@
    "tone": "cream",
    "feed": {
     "cy": 0.4,
-    "hs": 100
+    "hs": 100,
+    "c": "6 mm steel beads<br>and a gold-tone heart.",
+    "tone": "ink"
    }
   },
   {
@@ -2787,7 +2922,23 @@
    "id": "baguette-tennis-necklace-crazy07",
    "plate": "plates/crazy/C07.jpg",
    "layout": "deck",
-   "story": "deck",
+   "story": {
+    "layout": "note",
+    "at": "tl",
+    "w": 620,
+    "hs": 78,
+    "cs": 34,
+    "ns": 18,
+    "h": "Keep it on ice.",
+    "c": "Clear baguettes, cold to the eye.",
+    "n": "Baguette Tennis Necklace · ₹2,300",
+    "tone": "cream",
+    "lock": [
+     "tone"
+    ],
+    "fixed": true,
+    "y": 300
+   },
    "h": "Keep it on ice.",
    "c": "clear baguettes, cold to the eye.",
    "spec": "36 cm · <span style=\"white-space:nowrap\">baguette-cut</span> CZ · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
@@ -2802,7 +2953,10 @@
     0.83
    ],
    "cy": 0.57,
-   "tone": "cream"
+   "tone": "cream",
+   "feed": {
+    "tone": "ink"
+   }
   },
   {
    "id": "cushion-halo-ring-crazy08",
@@ -2830,7 +2984,21 @@
    "plate": "plates/crazy/C09.jpg",
    "layout": "deck",
    "story": {
-    "y": 300
+    "y": 300,
+    "layout": "note",
+    "at": "tr",
+    "w": 340,
+    "hs": 88,
+    "cs": 32,
+    "ns": 18,
+    "h": "Nazar<br>na lage.",
+    "c": "Emerald-green,<br>against the evil eye.",
+    "n": "Verdant Eternity Band<br>₹1,099",
+    "tone": "ink",
+    "lock": [
+     "tone"
+    ],
+    "fixed": true
    },
    "h": "Nazar<br>na<br>lage.",
    "c": "against the evil eye.",
@@ -2849,7 +3017,21 @@
    "fixed": true,
    "feed": {
     "cy": 0.45,
-    "y": 60
+    "y": 60,
+    "layout": "note",
+    "at": "tr",
+    "w": 340,
+    "hs": 88,
+    "cs": 32,
+    "ns": 18,
+    "h": "Nazar<br>na lage.",
+    "c": "Emerald-green,<br>against the evil eye.",
+    "n": "Verdant Eternity Band<br>₹1,099",
+    "tone": "ink",
+    "lock": [
+     "tone"
+    ],
+    "fixed": true
    }
   },
   {
@@ -2857,7 +3039,8 @@
    "plate": "plates/crazy/C10.jpg",
    "layout": "deck",
    "story": {
-    "y": 300
+    "y": 300,
+    "spec": "46 cm · one pavé link"
    },
    "h": "Out after<br>midnight.",
    "c": "chunky gold-tone links, one in pavé.",
@@ -2876,8 +3059,9 @@
    "tone": "cream",
    "fixed": true,
    "feed": {
-    "cy": 0.46,
-    "y": 60
+    "cy": 0.49,
+    "y": 60,
+    "spec": "46 cm · one pavé link"
    }
   },
   {
