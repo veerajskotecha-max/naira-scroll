@@ -1,0 +1,239 @@
+[
+ {
+  "id": "C23",
+  "key": "toggle-link-chain",
+  "variant": null,
+  "concept": "A clean writing desk from above: a brass dish spilling silver office paperclips, and the gold Toggle Link Chain running out of the pile, its paperclip links the same shape as the clips but gold, the toggle clasp at the end.",
+  "headline": "Promoted.",
+  "score": 8.3,
+  "pass": true,
+  "file": "plates/crazy/C23.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.24,
+   0.71
+  ],
+  "tone": "light",
+  "notes": "Promoted.: silver office clips in a brass dish on a sunlit oak desk, the gold paperclip chain curving out of the pile, the closed toggle in the middle at 0.64-0.70. Dish 0.24-0.43; pen and paper in the bottom-right corner below 0.70. Plain sunlit oak in the top quarter. Reference: the clasp detail photo (905b250a) in slot 1.",
+  "job_id": "48b49d49-4ef2-4c62-815a-216be5ad6dbb",
+  "ref": "905b250a-9517-4d23-b82b-151cc7d16cc4",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "25f2cc9a-1902-4830-a066-e6633380f338",
+    "score": 7.0,
+    "pass": false,
+    "verdict": "FAIL (7.0): the desk, brass dish of silver clips and the gold paperclip chain read at once, but the clasp lies at 0.79-0.85, below the middle band, its ring is a plain donut with no gate or nub, and the pave bar is as long as the ring, with extra pave on the jump ring.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C23-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "48b49d49-4ef2-4c62-815a-216be5ad6dbb",
+    "score": 8.3,
+    "pass": true,
+    "verdict": "PASS (8.3): sunlit oak desk from above, a brass dish of silver office clips with a few spilled, the gold paperclip chain curving out of the pile, the closed clasp at 0.64-0.70. Clasp faithful: spring-gate ring with flat-cut ends, gate and push-pin nub on its collar, a short pave bar about 0.6x the ring threaded through it, plain jump rings. Pen and cream paper bottom right. Minor: the clasp reads about 1.6x large against the links and clips.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C23-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C24",
+  "key": "heartbead-bracelet",
+  "variant": null,
+  "concept": "A gleaming three-tier steel tiffin on a sunlit kitchen counter, the Heartbead bracelet hanging from its carrying-handle clip, steel beads echoing the tiffin, the gold heart in front.",
+  "headline": "Packed with love.",
+  "score": 8.5,
+  "pass": true,
+  "file": "plates/crazy/C24.jpg",
+  "copy_space": "tr",
+  "subject_y": [
+   0.15,
+   0.81
+  ],
+  "tone": "light",
+  "notes": "Packed with love.: the Heartbead hangs over the handle clip of a polished steel tiffin on a sunlit kitchen counter, the gold heart at 0.62-0.67. Tiffin 0.15-0.81. The handle reaches into the top-left quarter; the plain cream wall top right is the headline space.",
+  "job_id": "986ce41a-78ee-42f1-bd4c-5deb6ebab5b2",
+  "ref": "f76e4dab-4aef-4153-af0e-e51f77a5f021",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "e0645a9e-4cb4-4bb6-a7b4-c44517f6fa68",
+    "score": 5.0,
+    "pass": false,
+    "verdict": "FAIL (5.0): collage band: the top 22% is a separate strip of wall, shelf and window with a hard seam. The tiffin, beads on the clip and the gold heart are otherwise good.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C24-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "986ce41a-78ee-42f1-bd4c-5deb6ebab5b2",
+    "score": 8.5,
+    "pass": true,
+    "verdict": "PASS (8.5): one continuous frame, no seam: a polished three-tier steel tiffin on a speckled counter against a plain cream wall, a terracotta gingham napkin; the bracelet hangs over the handle clip, about 23 mirror steel beads, the gold round toggle and T-bar, one puffed gold heart at 0.62-0.67 (its reflection shows in the steel). True to scale against the tiffin. The handle reaches into the top-left quarter, so the headline goes top right.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C24-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C28",
+  "key": "brushed-gold-huggies",
+  "variant": null,
+  "concept": "Dhanteras: a red velvet pouch spilling a short stack of plain gold coins on a brass plate beside a lit clay diya, the pair of Brushed Gold Huggies sitting on the top coin.",
+  "headline": "Dhanteras, sorted.",
+  "score": 8.4,
+  "pass": true,
+  "file": "plates/crazy/C28.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.38,
+   0.79
+  ],
+  "tone": "dark",
+  "notes": "Dhanteras, sorted.: the satin huggies stand on the top coin of five plain gold coins spilling from a red velvet pouch on a brass thali, a lit diya beside them; huggies at 0.56-0.67, thali 0.31-0.87. Warm dark bokeh in the top quarter. Coins carry no design or lettering.",
+  "job_id": "9feadb6c-1a0b-4198-8617-611586fd9129",
+  "ref": "074dbf30-c51e-4b7c-aefd-2924556094fb",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "9feadb6c-1a0b-4198-8617-611586fd9129",
+    "score": 8.4,
+    "pass": true,
+    "verdict": "PASS (8.4): brass thali, a deep-red velvet pouch spilling five plain unmarked gold coins, a lit clay diya and marigold petals; the two satin huggies stand on the top coins, one nested against the other, wide domed bands with fine brush lines in warm gold matching the coins, true to the packshot. Warm dark bokeh above. Minor: the huggies sit about 15% large against the coins and read nested.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C28-a1.png"
+   }
+  ]
+ },
+ {
+  "id": "C30",
+  "key": "prism-riviere-bracelet",
+  "variant": null,
+  "concept": "An open pastel box of aqua, pink and pale-yellow macarons on marble, the Prism Riviere bracelet curled among them, every stone matching a macaron, in the true aqua, pink, yellow repeat.",
+  "headline": "Pick all three.",
+  "score": 7.6,
+  "pass": false,
+  "file": null,
+  "copy_space": "tl",
+  "subject_y": null,
+  "tone": "light",
+  "notes": "EMPTY after 2 attempts. a1 (7.0): closed loop, order pink-aqua-pink-aqua, back stones nearly clear. a2 (7.6): open S-curve with a true aqua, pink, yellow run in the middle, but the order breaks at both ends and the settings take a warm cast. The macaron set itself works; a third try would need a laid-flat straight line of exactly 21 stones.",
+  "job_id": null,
+  "ref": "e7ef630a-57fb-47f7-8a6e-24b056372a66",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "3cb2e623-f674-44ce-b943-032f1ddf8930",
+    "score": 7.0,
+    "pass": false,
+    "verdict": "FAIL (7.0): a lovely open box of aqua, pink and lemon macarons on marble, but the bracelet's order runs pink, aqua, pink, aqua with yellow mostly missing, and the stones on the far side of the loop read nearly clear.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C30-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "67178511-daba-4a6d-90fa-fc32b39f1cea",
+    "score": 7.6,
+    "pass": false,
+    "verdict": "FAIL (7.6): the S-curve across the macarons is lovely and the middle runs a true aqua, pink, yellow cycle, but the order breaks at both ends (pink, aqua, aqua at the clasp; aqua, pink, aqua, pink at the far end) and the setting galleries take a warm gold cast from the yellow macarons.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C30-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C32",
+  "key": "woven-gold-hoops",
+  "variant": null,
+  "concept": "A Diwali doorway toran of fresh orange marigold strings and mango leaves, the pair of Woven Gold Hoops hanging from it among the marigolds, braid echoing the flowers.",
+  "headline": "Marigold, meet gold.",
+  "score": 7.8,
+  "pass": false,
+  "file": null,
+  "copy_space": "tl",
+  "subject_y": null,
+  "tone": "dark",
+  "notes": "EMPTY after 2 attempts. a1 (7.6): disc drawn as a pale matte oval. a2 (7.8): disc fixed, but both hoops are about twice their true 25mm size against the marigolds and mango leaves. A third try should frame tighter on one marigold string, with the hoop no wider than half a flower.",
+  "job_id": null,
+  "ref": "ff7f5b3d-4960-41cc-8588-273a8c8ce8c4",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "482516b0-aed3-4eb5-98c2-c78d15064285",
+    "score": 7.6,
+    "pass": false,
+    "verdict": "FAIL (7.6): festive mango-leaf and marigold toran over a carved door, braid faithful, hoops at two heights, but each disc is a pale matte oval that reads as a moonstone, and the lower hoop hangs to 0.80.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C32-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "11bb674e-705c-477b-8520-e9e9b3ed6c17",
+    "score": 7.8,
+    "pass": false,
+    "verdict": "FAIL (7.8): the disc is now mirror-polished gold and the braid is true to the packshot, against a warm toran and a carved door, but both hoops are drawn about twice their true 25mm size: each is wider than a marigold and nearly half a mango leaf long, so they read as large statement hoops. The lower hoop reaches 0.77.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C32-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C42",
+  "key": "ribbon-bead-bracelet",
+  "variant": null,
+  "concept": "A small hand-tied bouquet of pink garden roses, stems wrapped in paper, tied with the Ribbon Bead Bracelet, its crystal bow at the front.",
+  "headline": "Keep the ribbon.",
+  "score": 8.1,
+  "pass": true,
+  "file": "plates/crazy/C42.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.12,
+   0.92
+  ],
+  "tone": "light",
+  "notes": "Keep the ribbon.: the Ribbon Bead Bracelet ties a paper-wrapped bouquet of pink garden roses on linen, its crystal bow at 0.57-0.60. Roses 0.12-0.45 at the upper right, stems to 0.92 at the lower left. Plain linen top left for the headline.",
+  "job_id": "966f2694-6db5-4124-9d1d-b83142dcd102",
+  "ref": "2d35210b-0da8-412a-a1d2-452f23417430",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "15c830ac-f2d4-4d43-8b69-06a92df052d6",
+    "score": 7.8,
+    "pass": false,
+    "verdict": "FAIL (7.8): pink garden roses in cream paper on linen, the bracelet across the wrap, two heart stones meeting at a centre bar, but the bow is drawn about 2.5x true size against the petals and its own 2mm beads.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C42-a1.png"
+   },
+   {
+    "attempt": 2,
+    "job_id": "966f2694-6db5-4124-9d1d-b83142dcd102",
+    "score": 8.1,
+    "pass": true,
+    "verdict": "PASS (8.1): pink garden roses wrapped in cream paper on linen, the fine gold chain with satellite beads tied around the wrap, the bow of two clear heart stones meeting at a gold centre bar at the front, at 0.57-0.60. Bow now much smaller, about 1.3-1.6x true against the stems and wrap. Romantic and fresh.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C42-a2.png"
+   }
+  ]
+ },
+ {
+  "id": "C46",
+  "key": "riviere-eternal-bracelet",
+  "variant": null,
+  "concept": "Dawn macro: blades of lawn grass beaded with dew, the Riviere Eternal bracelet draped along one blade, its line of clear stones beside the line of dew.",
+  "headline": "Dew, all day.",
+  "score": 8.4,
+  "pass": true,
+  "file": "plates/crazy/C46.jpg",
+  "copy_space": "tl",
+  "subject_y": [
+   0.36,
+   0.79
+  ],
+  "tone": "light",
+  "notes": "Dew, all day.: the Riviere Eternal loops over a dewy grass blade at dawn, its row of round clear stones beside the line of dew, the box clasp visible; bracelet 0.40-0.79. Golden dawn bokeh in the top quarter.",
+  "job_id": "18438003-d087-42c0-becf-8e738ead5bcd",
+  "ref": "9330b103-3ebf-4d2e-bdf2-d180c35273b3",
+  "jobs": [
+   {
+    "attempt": 1,
+    "job_id": "18438003-d087-42c0-becf-8e738ead5bcd",
+    "score": 8.4,
+    "pass": true,
+    "verdict": "PASS (8.4): dawn grass with round dew drops and golden bokeh; the bracelet loops over a dewy blade, one row of round clear stones in gold four-prong baskets lying beside the line of dew, the same size as the drops, the polished box clasp visible. Minor: the loop's foot reaches 0.79 and the stones take a slight warm cast.",
+    "original": "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/g1crazy2/raw/C46-a1.png"
+   }
+  ]
+ }
+]

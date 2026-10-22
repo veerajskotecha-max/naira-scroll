@@ -3154,6 +3154,107 @@
     "hs": 72,
     "cs": 32
    }
+  },
+  {
+   "id": "toggle-link-chain-crazy23",
+   "plate": "plates/crazy/C23.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Promoted.",
+   "c": "paperclip links in 18k gold tone, not stationery.",
+   "spec": "50 cm · paperclip links · toggle clasp",
+   "cta": "Shop the necklace",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.24,
+    0.71
+   ],
+   "cy": 0.475
+  },
+  {
+   "id": "heartbead-bracelet-crazy24",
+   "plate": "plates/crazy/C24.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Packed with love.",
+   "c": "polished steel beads and a gold-tone heart.",
+   "spec": "6 mm steel beads · toggle · heart charm",
+   "cta": "Shop the bracelet",
+   "price": "₹1,299",
+   "at": "tr",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.15,
+    0.81
+   ],
+   "cy": 0.48
+  },
+  {
+   "id": "brushed-gold-huggies-crazy28",
+   "plate": "plates/crazy/C28.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Dhanteras, sorted.",
+   "c": "satin-brushed huggies in 18k gold tone.",
+   "spec": "<span style=\"white-space:nowrap\">satin-brushed</span> · 18k <span style=\"white-space:nowrap\">gold-tone</span> · huggies",
+   "cta": "Shop the huggies",
+   "price": "₹999",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.38,
+    0.79
+   ],
+   "cy": 0.585,
+   "tone": "cream"
+  },
+  {
+   "id": "ribbon-bead-bracelet-crazy42",
+   "plate": "plates/crazy/C42.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Keep the<br>ribbon.",
+   "c": "a crystal bow on a fine gold-tone chain.",
+   "spec": "fine chain · crystal bow · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the bracelet",
+   "price": "₹799",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.12,
+    0.92
+   ],
+   "cy": 0.52
+  },
+  {
+   "id": "riviere-eternal-bracelet-crazy46",
+   "plate": "plates/crazy/C46.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Dew,<br>all day.",
+   "c": "one fine line of clear cubic zirconia.",
+   "spec": "clear CZ line · buckle clasp",
+   "cta": "Shop the bracelet",
+   "price": "₹1,449",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.36,
+    0.79
+   ],
+   "cy": 0.575
   }
  ]
 }

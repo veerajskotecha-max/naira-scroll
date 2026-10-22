@@ -60,6 +60,16 @@
   "wave": 1
  },
  {
+  "stem": "ribbon-bead-bracelet-crazy42",
+  "key": "ribbon-bead-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.742,
+  "reserve": false,
+  "wave": 1
+ },
+ {
   "stem": "riviere-eternal-bracelet-crazy14",
   "key": "riviere-eternal-bracelet",
   "format": "crazy",
@@ -68,6 +78,26 @@
   "priority": 0.735,
   "reserve": false,
   "wave": 1
+ },
+ {
+  "stem": "riviere-eternal-bracelet-crazy46",
+  "key": "riviere-eternal-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.735,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "heartbead-bracelet-crazy24",
+  "key": "heartbead-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.667,
+  "reserve": false,
+  "wave": 2
  },
  {
   "stem": "woven-gold-hoops-crazy04",
@@ -90,6 +120,16 @@
   "wave": 1
  },
  {
+  "stem": "brushed-gold-huggies-crazy28",
+  "key": "brushed-gold-huggies",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.742,
+  "reserve": false,
+  "wave": 1
+ },
+ {
   "stem": "verdant-cushion-studs-crazy22",
   "key": "verdant-cushion-studs",
   "format": "crazy",
@@ -108,6 +148,16 @@
   "priority": -0.295,
   "reserve": true,
   "wave": 2
+ },
+ {
+  "stem": "toggle-link-chain-crazy23",
+  "key": "toggle-link-chain",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 1.08,
+  "reserve": false,
+  "wave": 1
  },
  {
   "stem": "bold-nocturne-chain-crazy10",
