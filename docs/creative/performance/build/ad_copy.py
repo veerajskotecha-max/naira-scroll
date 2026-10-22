@@ -448,6 +448,7 @@ CZ_FIX = {
  "C28": {"h": "Dhanteras,<br>sorted."},
  "C42": {"h": "Keep<br>the<br>ribbon.", "hs": 84, "w": 330, "at": "tl", "fixed": True, "feed": {"y": 290}, "story": {"y": 300}},
  "C37": {"feed": {"at": "tr", "fixed": True, "y": 560, "hs": 84, "w": 380}},
+ "C26": {"h": "Caught<br><span style=\"white-space:nowrap\">green-handed.</span>"},
  "C20": {"h": "Cherry earrings,<br>grown up.", "w": 900, "story": {"at": "tl", "fixed": True, "y": 300, "hs": 96}},
 }
 
@@ -571,6 +572,7 @@ def nowrap(spec):
 
 def glue_h(h):
     """keep a short word with the next one, so no headline line is a lone "IT", "BUT" or "note." """
+    if "<span" in h: return h                                       # breaks set by hand inside markup
     h = re.sub(r"\b(\w{1,3}) (?=\S)", lambda m: m.group(1) + "\u00a0", h)
     return re.sub(r" (\S+)$", "\u00a0\\1", h)                       # and the last word with the one before it
 

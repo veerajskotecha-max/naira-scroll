@@ -3220,7 +3220,7 @@
    "plate": "plates/crazy/C26.jpg",
    "layout": "deck",
    "story": "deck",
-   "h": "Caught green-handed.",
+   "h": "Caught<br><span style=\"white-space:nowrap\">green-handed.</span>",
    "c": "emerald-green, and Mitthu has taste.",
    "spec": "adjustable · <span style=\"white-space:nowrap\">emerald-green</span> CZ · silver tone",
    "cta": "Shop the ring",
