@@ -1,5 +1,165 @@
 [
  {
+  "stem": "prism-riviere-bracelet-crazy02",
+  "key": "prism-riviere-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.982,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "prism-riviere-bracelet-crazy03",
+  "key": "prism-riviere-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.982,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-bracelet-crazy06",
+  "key": "baguette-tennis-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.96,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-bracelet-crazy11",
+  "key": "bold-nocturne-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.855,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "kiss-knot-bangle-crazy12",
+  "key": "kiss-knot-bangle",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.78,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "silk-mesh-cuff-crazy16",
+  "key": "silk-mesh-cuff",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.78,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "riviere-eternal-bracelet-crazy14",
+  "key": "riviere-eternal-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.735,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "heartbead-bracelet-crazy05",
+  "key": "heartbead-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.667,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "woven-gold-hoops-crazy04",
+  "key": "woven-gold-hoops",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.952,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-huggies-crazy20",
+  "key": "baguette-huggies",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.915,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "brushed-gold-huggies-crazy19",
+  "key": "brushed-gold-huggies",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Earrings",
+  "priority": 0.742,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "quatrefoil-eclat-studs-crazy15",
+  "key": "quatrefoil-eclat-studs",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.295,
+  "reserve": true,
+  "wave": 1
+ },
+ {
+  "stem": "baguette-tennis-necklace-crazy07",
+  "key": "baguette-tennis-necklace",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 1.005,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-crazy08",
+  "key": "cushion-halo-ring",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.93,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "bold-nocturne-chain-crazy10",
+  "key": "bold-nocturne-chain",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.885,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "lilac-papillon-ring-crazy13",
+  "key": "lilac-papillon-ring",
+  "format": "crazy",
+  "campaign": "PERF · Crazy 20 · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.705,
+  "reserve": false,
+  "wave": 1
+ },
+ {
   "stem": "baguette-tennis-bracelet-play",
   "key": "baguette-tennis-bracelet",
   "format": "play",
