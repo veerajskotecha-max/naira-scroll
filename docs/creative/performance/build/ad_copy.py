@@ -413,6 +413,8 @@ CR = [  # id, handle, headline, correction, spec, primary text opener, variant
   "On air. 🎙️ Fine woven mesh rolled into a cuff, with mirror-polished end caps. In silver tone or gold tone. The Silk Mesh Cuff, ₹1,499.", "Silver"),
  ("C17", "torsade-pearl-cuff", "Docked in gold.", "twisted cable, a white shell pearl at each end.", "shell pearls · 18k gold-tone",
   "Docked in gold. ⚓ A twisted 18k gold-tone cable cuff, a white shell pearl at each end in a pavé collar. The Torsade Pearl Cuff, ₹1,399.", None),
+ ("C21", "molten-panel-bracelet", "Hot off the tawa.", "gold-tone plates, not dosa lace.", "17 cm · 18k gold-tone · box clasp",
+  "Hot off the tawa. 🔥 Rows of small oval plates in satin-polished 18k gold tone, a flat band that drapes. The Molten Panel Bracelet, ₹1,299.", None),
  ("C18", "halo-curve-ring", "Eye of the tiger.", "a tiger's eye and a champagne crystal.", "tiger's eye · champagne crystal · open band",
   "Eye of the tiger. 🐯 A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.", None),
  ("C19", "brushed-gold-huggies", "Brush twice daily.", "satin-brushed gold-tone huggies.", "satin-brushed · 18k gold-tone · huggie hoops",
