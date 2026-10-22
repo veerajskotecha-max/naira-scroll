@@ -3196,6 +3196,51 @@
    "cy": 0.48
   },
   {
+   "id": "cushion-halo-ring-crazy25",
+   "plate": "plates/crazy/C25.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Shagun, upgraded.",
+   "c": "an 8 mm centre in a cushion halo.",
+   "spec": "8 mm centre · cushion halo · silver tone",
+   "cta": "Shop the ring",
+   "price": "₹1,199",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
+   "id": "verdant-eternity-band-crazy26",
+   "plate": "plates/crazy/C26.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Caught green-handed.",
+   "c": "emerald-green, and Mitthu has taste.",
+   "spec": "adjustable · <span style=\"white-space:nowrap\">emerald-green</span> CZ · silver tone",
+   "cta": "Shop the ring",
+   "price": "₹1,099",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
+   "id": "halo-curve-ring-crazy27",
+   "plate": "plates/crazy/C27.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Cutting chai.<br>Cut stones.",
+   "c": "a tiger's eye and a champagne crystal.",
+   "spec": "tiger's eye · champagne crystal · open band",
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
    "id": "brushed-gold-huggies-crazy28",
    "plate": "plates/crazy/C28.jpg",
    "layout": "deck",
@@ -3217,6 +3262,104 @@
    "tone": "cream"
   },
   {
+   "id": "baguette-tennis-bracelet-crazy31",
+   "plate": "plates/crazy/C31.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "The phuljhadi<br>that lasts.",
+   "c": "clear baguettes that sparkle after Diwali too.",
+   "spec": "17 cm · <span style=\"white-space:nowrap\">baguette-cut</span> CZ · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the bracelet",
+   "price": "₹1,699",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
+  },
+  {
+   "id": "bold-nocturne-chain-crazy33",
+   "plate": "plates/crazy/C33.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "On heavy<br>rotation.",
+   "c": "chunky gold-tone links, one in pavé.",
+   "spec": "46 cm · one pavé link · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the chain",
+   "price": "₹1,799",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.3,
+    0.7
+   ],
+   "cy": 0.5,
+   "tone": "cream"
+  },
+  {
+   "id": "kiss-knot-bangle-crazy35",
+   "plate": "plates/crazy/C35.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "XOXO.",
+   "c": "a ribbed coil, crossed in one polished X.",
+   "spec": "flexible · gold or silver tone",
+   "cta": "Shop the bangle",
+   "price": "₹1,199",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.27,
+    0.9
+   ],
+   "cy": 0.585,
+   "tone": "cream"
+  },
+  {
+   "id": "silk-mesh-cuff-crazy36",
+   "plate": "plates/crazy/C36.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Nothing<br>but net.",
+   "c": "woven mesh, rolled into a cuff.",
+   "spec": "19 mm mesh · gold or silver tone",
+   "cta": "Shop the cuff",
+   "price": "₹1,499",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.17,
+    0.8
+   ],
+   "cy": 0.485
+  },
+  {
+   "id": "marquise-layering-set-crazy37",
+   "plate": "plates/crazy/C37.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Monsoon,<br>layered.",
+   "c": "marquise drops, not raindrops.",
+   "spec": "40 + 45 cm · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the set",
+   "price": "₹1,599",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.37,
+    0.88
+   ],
+   "cy": 0.625,
+   "tone": "cream"
+  },
+  {
    "id": "bold-dome-huggies-crazy38",
    "plate": "plates/crazy/C38.jpg",
    "layout": "deck",
@@ -3229,7 +3372,12 @@
    "at": "tl",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.4,
+    0.76
+   ],
+   "cy": 0.58
   },
   {
    "id": "baguette-halo-drops-crazy39",
@@ -3241,10 +3389,16 @@
    "spec": "14 mm disc · pearl drop · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
    "cta": "Shop the earrings",
    "price": "₹1,499",
-   "at": "tl",
+   "at": "tr",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.31,
+    0.76
+   ],
+   "cy": 0.535,
+   "tone": "cream"
   },
   {
    "id": "aqua-heart-drops-silver-crazy41",
@@ -3259,7 +3413,12 @@
    "at": "tl",
    "w": 680,
    "hs": 108,
-   "cs": 40
+   "cs": 40,
+   "sy": [
+    0.37,
+    0.64
+   ],
+   "cy": 0.505
   },
   {
    "id": "ribbon-bead-bracelet-crazy42",
@@ -3288,6 +3447,27 @@
    }
   },
   {
+   "id": "torsade-pearl-cuff-crazy43",
+   "plate": "plates/crazy/C43.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Hold the line.",
+   "c": "a twisted cable, a shell pearl at each end.",
+   "spec": "shell pearls · 18k <span style=\"white-space:nowrap\">gold-tone</span>",
+   "cta": "Shop the cuff",
+   "price": "₹1,399",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40,
+   "sy": [
+    0.2,
+    0.64
+   ],
+   "cy": 0.42,
+   "tone": "cream"
+  },
+  {
    "id": "riviere-eternal-bracelet-crazy46",
    "plate": "plates/crazy/C46.jpg",
    "layout": "deck",
@@ -3306,6 +3486,21 @@
     0.79
    ],
    "cy": 0.575
+  },
+  {
+   "id": "lilac-papillon-ring-crazy48",
+   "plate": "plates/crazy/C48.jpg",
+   "layout": "deck",
+   "story": "deck",
+   "h": "Buddhi ke baal,<br>upgraded.",
+   "c": "lilac pavé wings in 18k gold tone.",
+   "spec": "lilac pavé · 18k <span style=\"white-space:nowrap\">gold-tone</span> · butterfly",
+   "cta": "Shop the ring",
+   "price": "₹1,299",
+   "at": "tl",
+   "w": 680,
+   "hs": 108,
+   "cs": 40
   }
  ]
 }

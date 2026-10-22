@@ -30,6 +30,16 @@
   "wave": 1
  },
  {
+  "stem": "baguette-tennis-bracelet-crazy31",
+  "key": "baguette-tennis-bracelet",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.96,
+  "reserve": false,
+  "wave": 1
+ },
+ {
   "stem": "bold-nocturne-bracelet-crazy11",
   "key": "bold-nocturne-bracelet",
   "format": "crazy",
@@ -60,6 +70,26 @@
   "wave": 1
  },
  {
+  "stem": "kiss-knot-bangle-crazy35",
+  "key": "kiss-knot-bangle",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.78,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "silk-mesh-cuff-crazy36",
+  "key": "silk-mesh-cuff",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.78,
+  "reserve": false,
+  "wave": 2
+ },
+ {
   "stem": "ribbon-bead-bracelet-crazy42",
   "key": "ribbon-bead-bracelet",
   "format": "crazy",
@@ -67,7 +97,7 @@
   "adset": "Bracelets",
   "priority": 0.742,
   "reserve": false,
-  "wave": 1
+  "wave": 2
  },
  {
   "stem": "riviere-eternal-bracelet-crazy14",
@@ -77,7 +107,7 @@
   "adset": "Bracelets",
   "priority": 0.735,
   "reserve": false,
-  "wave": 1
+  "wave": 2
  },
  {
   "stem": "riviere-eternal-bracelet-crazy46",
@@ -86,6 +116,16 @@
   "campaign": "PERF · Crazy · Oct 2026",
   "adset": "Bracelets",
   "priority": 0.735,
+  "reserve": false,
+  "wave": 2
+ },
+ {
+  "stem": "torsade-pearl-cuff-crazy43",
+  "key": "torsade-pearl-cuff",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Bracelets",
+  "priority": 0.705,
   "reserve": false,
   "wave": 2
  },
@@ -150,16 +190,6 @@
   "wave": 1
  },
  {
-  "stem": "baguette-halo-drops-crazy39",
-  "key": "baguette-halo-drops",
-  "format": "crazy",
-  "campaign": "PERF · Crazy · Oct 2026",
-  "adset": "Earrings",
-  "priority": 0.705,
-  "reserve": false,
-  "wave": 1
- },
- {
   "stem": "aqua-heart-drops-silver-crazy41",
   "key": "aqua-heart-drops-silver",
   "format": "crazy",
@@ -180,12 +210,42 @@
   "wave": 2
  },
  {
+  "stem": "baguette-halo-drops-crazy39",
+  "key": "baguette-halo-drops",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Earrings",
+  "priority": -0.295,
+  "reserve": true,
+  "wave": 2
+ },
+ {
   "stem": "toggle-link-chain-crazy23",
   "key": "toggle-link-chain",
   "format": "crazy",
   "campaign": "PERF · Crazy · Oct 2026",
   "adset": "Necklaces & rings",
   "priority": 1.08,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "cushion-halo-ring-crazy25",
+  "key": "cushion-halo-ring",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.93,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "verdant-eternity-band-crazy26",
+  "key": "verdant-eternity-band",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.93,
   "reserve": false,
   "wave": 1
  },
@@ -200,6 +260,36 @@
   "wave": 1
  },
  {
+  "stem": "bold-nocturne-chain-crazy33",
+  "key": "bold-nocturne-chain",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.885,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "halo-curve-ring-crazy27",
+  "key": "halo-curve-ring",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.817,
+  "reserve": false,
+  "wave": 1
+ },
+ {
+  "stem": "marquise-layering-set-crazy37",
+  "key": "marquise-layering-set",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.78,
+  "reserve": false,
+  "wave": 1
+ },
+ {
   "stem": "lilac-papillon-ring-crazy13",
   "key": "lilac-papillon-ring",
   "format": "crazy",
@@ -210,6 +300,16 @@
   "wave": 1
  },
  {
+  "stem": "lilac-papillon-ring-crazy48",
+  "key": "lilac-papillon-ring",
+  "format": "crazy",
+  "campaign": "PERF · Crazy · Oct 2026",
+  "adset": "Necklaces & rings",
+  "priority": 0.705,
+  "reserve": false,
+  "wave": 2
+ },
+ {
   "stem": "baguette-tennis-necklace-crazy07",
   "key": "baguette-tennis-necklace",
   "format": "crazy",
@@ -217,7 +317,7 @@
   "adset": "Necklaces & rings",
   "priority": 0.005,
   "reserve": true,
-  "wave": 2
+  "wave": 3
  },
  {
   "stem": "baguette-tennis-bracelet-play",
