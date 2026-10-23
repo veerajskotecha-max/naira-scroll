@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-8 shots kept, average score 9.13, 14 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+10 shots kept, average score 9.14, 18 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -80,4 +80,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 06 | Woven Gold Hoops | a black silk folding fan, half open | deep oxblood lime plaster | Make an entrance. | 9.0 | 1 |
 | 07 | Verdant Eternity Band | the flower head of one white calla lily | pale soft sage lime plaster | Always in bloom. | 8.9 | 3 |
 | 08 | Verdant Eternity Band | an emerald-green satin evening clutch with a silver kiss-lock frame | deep bottle-green lime plaster | Dinner in green. | 9.0 | 4 |
+| 09 | Cushion Halo Ring | a blank place card with a thin gold edge and a sprig of baby's breath | pale dove-grey lime plaster | Plus one. | 9.3 | 2 |
+| 10 | Cushion Halo Ring | a small silver chamberstick with a lit ivory candle | deep plum lime plaster | Ask by candlelight. | 9.1 | 2 |
 <!-- /log -->

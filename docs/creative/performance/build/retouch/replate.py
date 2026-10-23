@@ -55,6 +55,7 @@ g = np.stack([cv2.inpaint(np.clip(small[..., c] * 100, 0, 255).astype(np.uint8),
 Pt = P * blur(cv2.resize(g, (w, h), interpolation=cv2.INTER_CUBIC), 20)
 # 2. the piece and its shadow from the difference
 d = np.abs(A - Pt).sum(-1); dl = lum(A) / np.maximum(lum(Pt), 4)
+if HAND: seed = (seed & (blur(d, 1.2) > 40)).astype(np.uint8)          # a neutral ground looks like silver: keep only what the plate lacks
 hsvP = cv2.cvtColor(np.clip(Pt, 0, 255).astype(np.uint8), cv2.COLOR_BGR2HSV)
 cream = lambda X: (X[..., 1] > 40) & (X[..., 2] > 170) & (X[..., 0] >= 10) & (X[..., 0] <= 40)   # petal or paper, never the piece
 Vf = hsv[..., 2].astype(np.float32); sd = np.sqrt(np.maximum(blur(Vf * Vf, 2.0) - blur(Vf, 2.0) ** 2, 0))
@@ -63,7 +64,7 @@ piece_like = ((sd > 16) | (lum(A) < lum(Pt) - 25) | (seed > 0)) & ~lit      # bu
 rr = blur(A, 1.5) / np.maximum(blur(Pt, 1.5), 4); rm = rr.mean(-1)
 shadowlike = (rm > 0.4) & (rm < 0.985) & (np.abs(rr - rm[..., None]).max(-1) < 0.035) & (sd < 16)   # evenly darkened, smooth: a shadow
 if HAND:                                                                   # a ring's outline drawn by hand: outer ellipse minus its opening
-    G =((blur(d, 1.2) > 25) & (band > 0) & ~cream(hsv) & ~(shadowlike if NOSHADOW else False)).astype(np.uint8) | (seed & band)
+    G = ((blur(d, 1.2) > 25) & (band > 0) & ~cream(hsv) & ~(shadowlike if NOSHADOW else False) & ~lit).astype(np.uint8) | (seed & band & ~lit)
 elif RINGFIT:                                                              # a ring: its band follows an ellipse through the stones
     n2, lab2, st2, cen2 = cv2.connectedComponentsWithStats(seed)
     pts = np.float32([cen2[i] for i in range(1, n2) if st2[i][4] > 150]); size = np.median([max(st2[i][2], st2[i][3]) for i in range(1, n2) if st2[i][4] > 150])
@@ -80,13 +81,24 @@ hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
 Z &= cv2.dilate(RZ, disk(40))
+# plus everything the old piece darkened or lit around it, wherever it lies (its shadow, its bounced light)
+touched = ((blur(dl, 4) < 0.975) | (blur(dl, 4) > 1.03)).astype(np.uint8)
+n3, lab3, st3, _ = cv2.connectedComponentsWithStats(touched)
+near = cv2.dilate(Gd, disk(10)) > 0
+Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(RZ, disk(320))
 Zf = blur(cv2.dilate(Z, disk(10)), 8)[..., None]
 k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real shadow only, not noise between the two renders
 same = cream(hsv) == cream(hsvP)                                           # shadow only where both show the same surface
 R = np.where((Z > 0) & same & (G == 0), 1 - (1 - np.minimum(1, blur(dl, 2.0))) * k, 1)
 R = np.minimum(R, np.where(G > 0, 1, R))[..., None]
 Gf = blur(G, 0.9)[..., None]
-base = A * (1 - Zf) + Pt * Zf                                              # the original, with the plate only where the piece was
+# inside the footprint, the plate's broad tone follows the original plaster around it (the model paints the gap a shade off)
+Zm = (Zf[..., 0] > 0.02).astype(np.uint8); q = 4
+lowA = cv2.resize(blur(A, 10), (w // q, h // q), interpolation=cv2.INTER_AREA)
+tgt = np.stack([cv2.inpaint(np.clip(lowA[..., c], 0, 255).astype(np.uint8), cv2.resize(cv2.dilate(Zm, disk(8)), (w // q, h // q), interpolation=cv2.INTER_NEAREST), 8, cv2.INPAINT_TELEA) for c in range(3)], -1).astype(np.float32)
+tgt = blur(cv2.resize(tgt, (w, h), interpolation=cv2.INTER_CUBIC), 6)
+Pm = Pt * np.clip(tgt / np.maximum(blur(Pt, 10), 4), 0.8, 1.25)
+base = A * (1 - Zf) + Pm * Zf                                              # the original, with the plate only where the piece was
 # 3. back at scale s, centred on (ncx, ncy)
 ys, xs = np.nonzero(G); cx, cy = xs.mean(), ys.mean()
 M = np.float32([[s, 0, ncx - s * cx], [0, s, ncy - s * cy]])

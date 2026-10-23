@@ -203,5 +203,61 @@
    "30305b0a (clean plate of c08c for the retouch)"
   ],
   "notes": "c08c: oval emerald-green stones in four claws, the fine pavé wave scalloping between them, the open adjustable back with looped tips, cool silver tone, as in the listing; the ring stands on its band clear of the clutch. The model drew it about 1.5x true size (3.4 kiss-lock balls wide), so it was set back at 0.68 in post on a clean plate of the same frame, scaled from where it stands so it stays grounded, its own shadow carried (raw/c08c_r.png): now about 2.2 balls, true for 21 mm. The clutch fills the top; calm green plaster bottom left for the words, in pale mint."
+ },
+ {
+  "n": "09",
+  "key": "cushion-halo-ring-day",
+  "plate": "plates/crazy3/09-cushion-halo-ring-day.jpg",
+  "raw": "c09a_r",
+  "product": "5",
+  "time": "day",
+  "title": "Cushion Halo Ring",
+  "price": "₹1,199",
+  "variant": null,
+  "handle": "cushion-halo-ring",
+  "ingredient": "a blank place card with a thin gold edge and a sprig of baby's breath",
+  "ground": "pale dove-grey lime plaster",
+  "rhyme": "a seat kept at the wedding table, and the ring that makes someone your plus one",
+  "line": "Plus one.",
+  "ink": "#55504A",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.3,
+  "jobs": [
+   "86b0ec4c (c09a, kept; ring set back at true size)",
+   "bfddba58 (clean plate of c09a for the retouch)"
+  ],
+  "notes": "c09a: one round brilliant in four claws inside a single-row cushion halo, pavé down both shoulders, polished silver shank, cool silver tone, as in the listing; the ring stands on its band clear of the card and the sprig. The model drew it about 1.5x true size against the 9 cm card, so it was set back at 0.64 in post on a clean plate of the same frame, scaled from where it stands, its own shadow carried (raw/c09a_r.png). The card carries no writing, only its gold edge. The card fills the upper right; calm dove-grey plaster bottom left for the words."
+ },
+ {
+  "n": "10",
+  "key": "cushion-halo-ring-night",
+  "plate": "plates/crazy3/10-cushion-halo-ring-night.jpg",
+  "raw": "c10a_r",
+  "product": "5",
+  "time": "night",
+  "title": "Cushion Halo Ring",
+  "price": "₹1,199",
+  "variant": null,
+  "handle": "cushion-halo-ring",
+  "ingredient": "a small silver chamberstick with a lit ivory candle",
+  "ground": "deep plum lime plaster",
+  "rhyme": "the evening you ask, by candlelight",
+  "line": "Ask by candlelight.",
+  "ink": "#F2E6DA",
+  "page_ink": "#5B2A3F",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.1,
+  "jobs": [
+   "1c63e963 (c10a, kept; ring set back at true size)",
+   "911b0f47 (clean plate of c10a for the retouch)"
+  ],
+  "notes": "c10a: the same round brilliant in its single-row cushion halo, pavé shoulders and polished shank, as in the listing, warm with candlelight; the ring stands clear of the chamberstick. The model drew it about 1.6x true size (1.7 candle widths across), so it was set back at 0.62 in post on a clean plate of the same frame, scaled from where it stands; the rising arms of one star glint on the halo were removed, leaving a point of light (raw/c10a_r.png). One small natural flame. The chamberstick fills the upper right; calm plum plaster bottom left for the words, in cream.",
+  "feed_top": 190
  }
 ]
