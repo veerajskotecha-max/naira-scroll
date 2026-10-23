@@ -143,6 +143,32 @@
   "replaces": "almonds, some with their brown skins and some soaked and peeled, one slipped skin; one brown and one peeled almond at the ring"
  },
  {
+  "n": "12",
+  "key": "kiss-knot-bangle",
+  "plate": "plates/colour/12-kiss-knot-bangle.jpg",
+  "raw": "r12a",
+  "title": "Kiss Knot Bangle",
+  "price": "₹1,199",
+  "variant": "Gold",
+  "ingredient": "a plain ivory card with one red lipstick kiss",
+  "ground": "pale blush lime plaster",
+  "rhyme": "the polished X binding the bangle is the X of XOXO, beside a real kiss",
+  "line": "XOXO.",
+  "ink": "#7A2A30",
+  "score": 9.3,
+  "jobs": [
+   "ce4f707f (r12a, kept)"
+  ],
+  "notes": "r12a: a finely ribbed snake-coil bangle whose overlapping ends are bound by one smooth polished X, as in the listing; true scale beside a 9 cm card. The card carries no writing. Calm blush plaster top left for the words. A second option for this bangle: shot 62 (wax-sealed letter) is already approved.",
+  "round": 3,
+  "replaces": "three golden Diwali chakli flecked with sesame, one broken in half, crumbs",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
+ },
+ {
   "n": "13",
   "key": "silk-mesh-cuff",
   "plate": "plates/colour/13-silk-mesh-cuff.jpg",
@@ -234,6 +260,28 @@
   "notes": "r16a: wide softly domed bands in brushed satin with fine parallel lines and a hidden hinge, as in the listing. The huggies read a little large for 14 mm (about 1.4x beside the dish); the dish runs off the right edge. Calm sand plaster top left for the words.",
   "round": 3,
   "replaces": "two rava laddoos, one topped with a cashew and one broken open, crumbs"
+ },
+ {
+  "n": "17",
+  "key": "riviere-eternal-bracelet",
+  "plate": "plates/colour/17-riviere-eternal-bracelet.jpg",
+  "raw": "r17a",
+  "title": "Rivière Eternal Bracelet",
+  "price": "₹1,449",
+  "variant": null,
+  "ingredient": "a tennis ball on a red clay court with a white line",
+  "ground": "the terracotta-red clay of a tennis court",
+  "rhyme": "the tennis bracelet, on court: a line of stones laid along the white court line beside the ball",
+  "line": "Game, set, sparkle.",
+  "ink": "#F6EEE4",
+  "page_ink": "#8A3B22",
+  "score": 9.4,
+  "jobs": [
+   "c6961f6c (r17a, kept)"
+  ],
+  "notes": "r17a: one continuous row of round brilliant clear stones, each in its own gold four-prong basket, linked stone to stone, with the polished box clasp and its fold-over safety, as in the listing. The stones read a touch large. No logo on the ball. A mid-dark terracotta frame: the words sit in cream. A second option for this bracelet: shot 67 (fairy-light ladi) is already approved.",
+  "round": 3,
+  "replaces": "an old steel katori of dry sabudana (sago), grains and sago dust spilled beside the bracelet"
  },
  {
   "n": "18",

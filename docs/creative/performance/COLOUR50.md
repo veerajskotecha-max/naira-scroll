@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-62 shots kept, average score 9.09, 117 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+64 shots kept, average score 9.10, 119 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -111,10 +111,12 @@ The shot log at the end records what was actually shot, kept and why.
 | 05 | Verdant Eternity Band | an open emerald-green velvet ring box with an ivory satin lid | pale soft mint lime plaster | Green means yes. | 9.1 | 1 |
 | 07 | Baguette Tennis Bracelet (Crystal) | a blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath | pale dove-grey lime plaster | RSVP: yes. | 9.4 | 1 |
 | 11 | Halo Curve Ring | two rose heads side by side, one caramel and one champagne | pale warm latte lime plaster | Tum aur main. | 9.5 | 1 |
+| 12 | Kiss Knot Bangle (Gold) | a plain ivory card with one red lipstick kiss | pale blush lime plaster | XOXO. | 9.3 | 1 |
 | 13 | Silk Mesh Cuff (Gold) | two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads | ivory lime plaster | Finer than pheni. | 9.2 | 2 |
 | 14 | Marquise Layering Set | a cut stem of rajnigandha (tuberose) with long closed creamy buds, three fallen buds | pale sage handwoven linen | Blooms after dark. | 9.2 | 2 |
 | 15 | Ribbon Bead Bracelet | a handmade ivory card mithai box tied with one fine gold zari thread in a bow | ivory lime plaster | Comes with its own bow. | 9.0 | 2 |
 | 16 | Brushed Gold Huggies | a small hand-beaten brass trinket dish | pale warm sand lime plaster | Your everyday pair. | 9.0 | 1 |
+| 17 | Rivière Eternal Bracelet | a tennis ball on a red clay court with a white line | the terracotta-red clay of a tennis court | Game, set, sparkle. | 9.4 | 1 |
 | 18 | Lilac Papillon Ring | a drift of fallen lavender jacaranda blossoms, two loose petals | ivory lime plaster | Jacaranda season, all year. | 9.0 | 2 |
 | 19 | Aqua Heart Drops (Silver) | a small hand-painted Jaipur blue-pottery dish in white, pale aqua and soft blue, one chip on the rim | ivory lime plaster | Pink City, blue heart. | 8.8 | 4 |
 | 20 | Prism Cluster Studs (Silver) | three cones of Diwali rangoli powder (violet, baby pink, marigold yellow) and a fingertip drawing the first curved stroke | ivory lime plaster | Rangoli you can wear. | 9.1 | 2 |
