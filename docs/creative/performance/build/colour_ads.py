@@ -6,7 +6,7 @@
 # measures the real text box on the busy-and-tone grid and keeps the cheapest; the type stays in the shot's ink whatever it picks.
 # The grid reads smooth pale props (petha, petals) as calm, so an entry can fix the block with `pos` ({"left"|"right", "top"|"bottom"}
 # in px) after a look at the Feed; `w` narrows the block so a line breaks in two, `hs` sets the line size and `stack` puts the
-# price under the name for a narrow calm column.
+# price (and the variant) under the name for a narrow calm column.
 # Usage: colour_ads.py [NN ...] -> ../ads/colour/<NN>-<handle>-feed.jpg and -story.jpg
 import json, os, subprocess, sys
 from PIL import Image
@@ -49,7 +49,8 @@ def feed(e):
         right = "right" in e["pos"]
         css += ".t{left:auto;top:auto;width:%dpx;%s;%s}" % (e.get("w", 560), ";".join(f"{k}:{v}px" for k, v in e["pos"].items()),
                                                                "align-items:flex-end;text-align:right" if right else "")
-    name = B.glue(e["title"] + (f" · {e['variant']}" if e.get("variant") else ""))
+    name = B.glue(e["title"] + (f" · {e['variant']}" if e.get("variant") and not e.get("stack") else ""))
+    if e.get("stack") and e.get("variant"): e = dict(e, price=f"{e['variant']} &nbsp;·&nbsp; {e['price']}")
     html = (f'<meta charset="utf-8"><style>{css}</style><body><div class="t"><img class="wm" src="file://{logo(e["ink"])}">'
             f'<div class="h">{e["line"]}</div><div class="c">{name}{"<br>" if e.get("stack") else " &nbsp;·&nbsp; "}{e["price"]}</div></div>'
             f'{PLACE_JS % json.dumps(P)}</body>')

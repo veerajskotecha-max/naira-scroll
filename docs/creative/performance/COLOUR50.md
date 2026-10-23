@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-25 shots kept, average score 9.04, 64 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+28 shots kept, average score 9.03, 74 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -130,4 +130,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 23 | Baguette Halo Drops | two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower | ivory lime plaster | In bloom for Diwali. | 9.1 | 2 |
 | 24 | Verdant Cushion Studs (Silver) | two fresh paan (betel) leaves and one whole clove, the pin of a folded paan | ivory lime plaster | Pehenke paan Banaras wala. | 9.0 | 4 |
 | 25 | Quatrefoil Éclat Studs | freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes | ivory lime plaster | Collected at dawn. | 9.1 | 2 |
+| 26 | Bold Dome Huggies | a small group of golden pani puri shells (golgappe), one cracked open, crisp crumbs | ivory lime plaster | Puffed to perfection. | 8.8 | 4 |
+| 27 | Torsade Huggies | two crossed twisted khari puff-pastry straws, a broken piece, golden flakes | ivory lime plaster | The chai-time twist. | 9.1 | 2 |
+| 28 | Baguette Eternity Band (Ruby) | a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain | ivory lime plaster | Worth its weight in kesar. | 8.9 | 4 |
 <!-- /log -->

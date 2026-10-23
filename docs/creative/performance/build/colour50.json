@@ -619,5 +619,34 @@
   ],
   "notes": "Huggies exact: domed, twisted polished ridges all round, hinge visible. Listing size 20x18mm, so about 1.3x against a 2cm khari straw. 27a crowded three straws over the earrings.",
   "feed_top": 170
+ },
+ {
+  "n": "28",
+  "key": "baguette-eternity-band",
+  "plate": "plates/colour/28-baguette-eternity-band.jpg",
+  "raw": "28c",
+  "title": "Baguette Eternity Band",
+  "price": "₹1,299",
+  "variant": "Ruby",
+  "ingredient": "a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain",
+  "ground": "ivory lime plaster",
+  "rhyme": "the raspberry-ruby baguettes = the crimson of kesar threads; saffron is worth more than gold by weight",
+  "line": "Worth its weight in kesar.",
+  "ink": "#6A1A2E",
+  "score": 8.9,
+  "jobs": [
+   "f61989e8 (28a)",
+   "5b88feda (28b)",
+   "819584f1 (28c, kept)",
+   "e58942f6 (28d)"
+  ],
+  "notes": "28a/28b copied the listing hero edge-on, so the band read as a bar. Reshot lying on its side at 35 degrees: 28c reads as a ring of crosswise ruby baguettes in corner claws. Against mongra threads of 1.5-2cm the ring is within about 1.3x. Ruby stock is low (7 of 25; Emerald 9, Amethyst 9).",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 270,
+  "hs": 54,
+  "stack": true
  }
 ]
