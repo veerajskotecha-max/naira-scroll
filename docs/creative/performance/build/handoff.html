@@ -108,11 +108,12 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font
 <header>
   <div class="wm" role="img" aria-label="Naira"></div>
   <h1>Approved ads</h1>
-  <p class="lede">The colour-coded Meta ads, ready to hand to Claude Code. <b>{{APPROVED}} are approved</b> from your review. <b>{{REVIEW}} are redone</b>: the shots you dropped, reshot with a prop that makes sense beside the piece, for your Keep or Drop. <b>{{UNMARKED}}</b> were never marked. Each ad is one photograph in two files: a <b>Story</b> (9:16) with no words, and a <b>Feed</b> (4:5) with the wordmark, one line and the name and price in the shot's own ink.</p>
+  <p class="lede">The colour-coded Meta ads, ready to hand to Claude Code. <b>{{APPROVED}} are approved</b> from your review. <b>{{REVIEW}} are redone</b>: the shots you dropped, reshot with a prop that makes sense beside the piece, for your Keep or Drop. <b>{{UNMARKED}}</b> were never marked. And <b>{{P3}} are new</b> in Crazy ads phase 3: twenty pieces by day and by night, each beside one object that belongs with it, chic and minimal like the two you loved, for your Keep or Drop. Each ad is one photograph in two files: a <b>Story</b> (9:16) with no words, and a <b>Feed</b> (4:5) with the wordmark, one line and the name and price in the shot's own ink.</p>
   <ul class="stats">
     <li><b>{{APPROVED}}</b><span>approved</span></li>
     <li><b>{{REVIEW}}</b><span>redone · to review</span></li>
     <li><b>{{UNMARKED}}</b><span>not marked</span></li>
+    <li><b>{{P3}}</b><span>phase 3 · to review</span></li>
     <li><b>{{FILES}}</b><span>image files</span></li>
   </ul>
   <section class="hand" aria-labelledby="hand-h">
@@ -165,9 +166,10 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font
 const ADS = /*DATA*/null;
 const URL_ = /*URL*/"";
 const HOW = /*HOW*/null;
-const SETS = [["all","All {{TOTAL}}"],["approved","Approved"],["review","Redone"],["unmarked","Not marked"]];
+const SETS = [["all","All {{TOTAL}}"],["approved","Approved"],["phase3","Phase 3"],["review","Redone"],["unmarked","Not marked"]];
 const SECS = {approved: ["Approved", "Kept on the review page. Ready for Claude Code."],
               review: ["Redone", "The shots you dropped, reshot one by one with a prop that answers “why is this here?”: where the piece is worn or given, a true look-alike, or a flower or fruit in the stones' colour. Mark Keep or Drop."],
+              phase3: ["Crazy ads phase 3", "Forty new ads in the style of the two you loved, the tennis bracelet on the blank invitation and beside the satin clutch: twenty pieces, one by day and one by night, each beside one object that belongs with it, on plain plaster, set back at true size where the model drew it large. Odd numbers are day, even numbers night. Mark Keep or Drop."],
               unmarked: ["Not marked", "Never marked on the review page. Paan, gur with sugar and magaz are pantry props like the ones you dropped, so all four stay out until you mark them."]};
 const VERS = [["all","All"],["open","To review"],["keep","Keep"],["drop","Drop"]];
 const CATS = ["All", "Bracelets", "Earrings", "Necklaces & rings"];
@@ -194,6 +196,7 @@ function vOf(n){ return (state[n] && state[n].verdict) || null; }
 function stat(a){                       // the live state: a verdict wins; before the log connects, the hand-off status
   const v = vOf(a.n);
   if (v === "keep") return "approved"; if (v === "drop") return "dropped";
+  if (a.status === "phase3") return "review";
   return live ? (a.status === "unmarked" ? "unmarked" : "review") : a.status;
 }
 function seg(el, items, cur, onPick){
@@ -210,7 +213,7 @@ function card(a){
       <div><button type="button" class="story" data-open="${a.n}:s" aria-label="Open Story ad ${a.n}"><img src="t/${a.n}-s.jpg" width="270" height="480" loading="lazy" alt="Story ad ${a.n}: ${esc(a.title)} with ${esc(a.prop)}, no words"></button><div class="cap"><span>Story 9:16</span></div></div>
     </div>
     <div class="meta">
-      <div class="top"><span class="dot" aria-hidden="true"></span><span>${a.n}</span><span class="pill" id="pill-${a.n}"></span><span>${esc(a.cat)}</span></div>
+      <div class="top"><span class="dot" aria-hidden="true"></span><span>${a.n}</span><span class="pill" id="pill-${a.n}"></span><span>${esc(a.cat)}</span>${a.time ? `<span>${a.time === "day" ? "Day" : "Night"}</span>` : ""}</div>
       <h3>${esc(a.title)}${a.variant ? ` <span class="v">· ${esc(a.variant)}</span>` : ""}</h3>
       <p class="price">${esc(a.price)} · ${stock}</p>
       <p class="line">${esc(a.line)}</p>
@@ -327,7 +330,7 @@ document.addEventListener("keydown", e => { if (!$("#lb").open) return; if (e.ke
 
 function setState(t){ $("#state").textContent = t; }
 render();
-if (/^#a\d\d$/.test(location.hash)) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+if (/^#a(p3-)?\d\d$/.test(location.hash)) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
 setState("Connecting the verdict log…");
 (async () => {
   try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (_) { db = null; }

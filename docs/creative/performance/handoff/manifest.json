@@ -7,7 +7,7 @@
   "Read the founder's verdicts in this artifact's database: collection \"verdicts\", one document per ad, its id the ad number (\"02\"), its field \"verdict\" either \"keep\" or \"drop\". Make an ad only when its verdict is \"keep\". If the verdicts cannot be read, use only ads whose status here is \"approved\".",
   "Each ad is two images of one photograph. The Feed file (1080x1350, 4:5) already carries the NAIRA wordmark, the line and the name and price; use it for Facebook and Instagram Feed and Explore. The Story file (1080x1920, 9:16) is the photograph alone; use it for Stories and Reels. Never crop, retouch or add text to either file.",
   "Give both images the ad's primary_text, headline, cta and url exactly as written here. The url opens the ad's own colour and carries its UTM tags.",
-  "Campaign: \"PERF · Colour (least graphics) · Oct 2026\", one ad set per ad_set value (Bracelets, Earrings, Necklaces & rings), the rows of ads.csv.",
+  "Campaign: \"PERF · Colour (least graphics) · Oct 2026\", one ad set per ad_set value (Bracelets, Earrings, Necklaces & rings), the rows of ads.csv. The Crazy ads phase 3 ads (ids p3-01 to p3-40, their verdicts under the same ids) go in their own campaign, \"PERF · Phase 3 day and night · Oct 2026\", one ad set per ad_set value.",
   "Create every campaign, ad set and ad paused, for the founder to review and switch on. Do not change any live campaign or ad.",
   "Stock is as read from Shopify on 23 Oct 2026. Check stock again before spending on any ad with 10 units or fewer."
  ],
@@ -54,14 +54,21 @@
  "cta": "SHOP_NOW",
  "counts": {
   "approved": 23,
+  "phase3": 40,
   "review": 43,
   "unmarked": 4,
-  "total": 70
+  "total": 110
  },
  "statuses": {
   "approved": "kept by the founder in round two: ready",
   "review": "redone in round three with a sensible prop: make it only once its verdict is keep",
-  "unmarked": "never marked: make it only once its verdict is keep"
+  "unmarked": "never marked: make it only once its verdict is keep",
+  "phase3": "Crazy ads phase 3, new: make it only once its verdict (doc id p3-NN) is keep"
+ },
+ "phase3": {
+  "brief": "CRAZY3.md",
+  "campaign": "PERF · Phase 3 day and night · Oct 2026",
+  "ids": "p3-01 to p3-40, odd numbers day and even numbers night"
  },
  "repo": {
   "repo": "veerajskotecha-max/naira-scroll",
@@ -809,6 +816,1406 @@
    ],
    "replaces": null,
    "notes": "68a: two chunky mirror-polished huggies that swell at the bottom and taper to a slim hinged bar, no texture and no stones, as in the listing; one stands and one lies inside the curve of the bell string. Each huggie is about one and a half bells wide, true for 16 mm hoops and 10 mm ghungroo. 68b was as faithful, with darker antique bells."
+  },
+  {
+   "n": "p3-01",
+   "status": "phase3",
+   "time": "day",
+   "product": "Toggle Link Chain",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "toggle-link-chain",
+   "variant_id": null,
+   "stock_23oct": 79,
+   "ad_set": "Necklaces & rings",
+   "line": "Out by noon.",
+   "prop": "Classic tortoiseshell sunglasses, folded",
+   "why": "The chain you throw on with your sunglasses for a sunny day out",
+   "primary_text": "Out by noon. A 50 cm paperclip chain in 18k gold tone that closes with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Toggle Link Chain · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=01-toggle-link-chain-day",
+   "ink": "#5E4423",
+   "files": {
+    "feed": "ads/p3/01-toggle-link-chain-day-feed.jpg",
+    "story": "ads/p3/01-toggle-link-chain-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/01-toggle-link-chain-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/01-toggle-link-chain-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/01-toggle-link-chain-day.jpg"
+   },
+   "same_product_as": [
+    "p3-02"
+   ],
+   "replaces": null,
+   "notes": "c01a: open paperclip links, the spring-gate sailor ring with its gate and push-pin nub, and the stone bar threaded through it, as in the listing; the bar reads about the ring's width (the listing has it a little shorter). The sunglasses run off the right edge; calm sand plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-02",
+   "status": "phase3",
+   "time": "night",
+   "product": "Toggle Link Chain",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "toggle-link-chain",
+   "variant_id": null,
+   "stock_23oct": 79,
+   "ad_set": "Necklaces & rings",
+   "line": "Date night.",
+   "prop": "One long-stem deep red rose",
+   "why": "Date night: the chain and the rose that comes with it",
+   "primary_text": "Date night. A 50 cm paperclip chain in 18k gold tone that closes with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Toggle Link Chain · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=02-toggle-link-chain-night",
+   "ink": "#F3E9DE",
+   "files": {
+    "feed": "ads/p3/02-toggle-link-chain-night-feed.jpg",
+    "story": "ads/p3/02-toggle-link-chain-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/02-toggle-link-chain-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/02-toggle-link-chain-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/02-toggle-link-chain-night.jpg"
+   },
+   "same_product_as": [
+    "p3-01"
+   ],
+   "replaces": null,
+   "notes": "c02b: open paperclip links, the sailor ring with its gate and nub, and the short stone bar lying across it like a toggle, as in the listing; one small glint by the gate. c02a hung the bar as a long pendant drop. The stem fills the top left, so the words sit at the bottom left in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-03",
+   "status": "phase3",
+   "time": "day",
+   "product": "Prism Rivière Bracelet",
+   "variant": null,
+   "price": "₹2,399",
+   "handle": "prism-riviere-bracelet",
+   "variant_id": null,
+   "stock_23oct": 67,
+   "ad_set": "Bracelets",
+   "line": "Note to self: all three.",
+   "prop": "Three blank deckle-edged notecards in aqua, blush and butter",
+   "why": "Three blank notecards in the bracelet's own three colours: a note to self to wear all three",
+   "primary_text": "Note to self: all three. Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Rivière Bracelet · ₹2,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-riviere-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=03-prism-riviere-bracelet-day",
+   "ink": "#3E4A57",
+   "files": {
+    "feed": "ads/p3/03-prism-riviere-bracelet-day-feed.jpg",
+    "story": "ads/p3/03-prism-riviere-bracelet-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/03-prism-riviere-bracelet-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/03-prism-riviere-bracelet-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/03-prism-riviere-bracelet-day.jpg"
+   },
+   "same_product_as": [
+    "p3-04"
+   ],
+   "replaces": null,
+   "notes": "c03a: square cushion stones in aqua, pink and yellow, each in its own pavé halo, joined halo to halo in rhodium silver tone, as in the listing; the bracelet lies closed in a loop. The bottom of the loop had two yellow stones side by side, so the first was recoloured to aqua in post (raw/c03a_fix.png): no two neighbours now match, though the order is not a strict aqua, pink, yellow repeat. The cards sit top right; calm grey plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-04",
+   "status": "phase3",
+   "time": "night",
+   "product": "Prism Rivière Bracelet",
+   "variant": null,
+   "price": "₹2,399",
+   "handle": "prism-riviere-bracelet",
+   "variant_id": null,
+   "stock_23oct": 67,
+   "ad_set": "Bracelets",
+   "line": "Colour after dark.",
+   "prop": "A mother-of-pearl box clutch",
+   "why": "The pastel stones and the pearl clutch share the same soft colours, after dark",
+   "primary_text": "Colour after dark. Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Rivière Bracelet · ₹2,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-riviere-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=04-prism-riviere-bracelet-night",
+   "ink": "#EDEAE4",
+   "files": {
+    "feed": "ads/p3/04-prism-riviere-bracelet-night-feed.jpg",
+    "story": "ads/p3/04-prism-riviere-bracelet-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/04-prism-riviere-bracelet-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/04-prism-riviere-bracelet-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/04-prism-riviere-bracelet-night.jpg"
+   },
+   "same_product_as": [
+    "p3-03"
+   ],
+   "replaces": null,
+   "notes": "c04a: 16 square cushion stones in aqua, pink and yellow, each in its pavé halo, joined halo to halo with the fold-over box clasp at the end, as in the listing; no two neighbours match. One small star glint on the last yellow stone was removed in post (raw/c04a_fix.png). The clutch sits top right; navy plaster top left for the words, in pearl.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-05",
+   "status": "phase3",
+   "time": "day",
+   "product": "Woven Gold Hoops",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "woven-gold-hoops",
+   "variant_id": null,
+   "stock_23oct": 63,
+   "ad_set": "Earrings",
+   "line": "Effortless, on purpose.",
+   "prop": "A folded ivory linen shirt, its open collar and mother-of-pearl buttons",
+   "why": "A white shirt and gold hoops: the effortless classic, chosen on purpose",
+   "primary_text": "Effortless, on purpose. 25 mm hoops of braided rope in 18k gold tone. No stones, all texture. The Woven Gold Hoops, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Woven Gold Hoops · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=05-woven-gold-hoops-day",
+   "ink": "#5B4632",
+   "files": {
+    "feed": "ads/p3/05-woven-gold-hoops-day-feed.jpg",
+    "story": "ads/p3/05-woven-gold-hoops-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/05-woven-gold-hoops-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/05-woven-gold-hoops-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/05-woven-gold-hoops-day.jpg"
+   },
+   "same_product_as": [
+    "p3-06"
+   ],
+   "replaces": null,
+   "notes": "c05a: an interlaced braid of many fine gold strands, the flat polished disc inside the top and the hinged latch wire, both hoops round and identical, as in the listing. The model drew them about 1.5x true size (3.7 of the shirt's 11 mm buttons across), so they were scaled to 0.64 in post about their own centre, shadows and all, on rebuilt plaster (raw/c05a_s.png): now about 2.4 buttons, true for 25 mm. The shirt fills the upper right; calm oat plaster bottom left for the words. Planned as a knotted silk scarf; the shirt replaced it because a silk knot read as a necktie in round three and the buttons give the hoops a true size.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-06",
+   "status": "phase3",
+   "time": "night",
+   "product": "Woven Gold Hoops",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "woven-gold-hoops",
+   "variant_id": null,
+   "stock_23oct": 63,
+   "ad_set": "Earrings",
+   "line": "Make an entrance.",
+   "prop": "A black silk folding fan, half open",
+   "why": "An evening fan and the gold hoops that go with it: the entrance",
+   "primary_text": "Make an entrance. 25 mm hoops of braided rope in 18k gold tone. No stones, all texture. The Woven Gold Hoops, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Woven Gold Hoops · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=06-woven-gold-hoops-night",
+   "ink": "#F1E4CF",
+   "files": {
+    "feed": "ads/p3/06-woven-gold-hoops-night-feed.jpg",
+    "story": "ads/p3/06-woven-gold-hoops-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/06-woven-gold-hoops-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/06-woven-gold-hoops-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/06-woven-gold-hoops-night.jpg"
+   },
+   "same_product_as": [
+    "p3-05"
+   ],
+   "replaces": null,
+   "notes": "c06a: the same braid, disc and latch, as in the listing; plain black silk leaf on black sticks, no tassel, no pattern. The model drew the hoops about 1.9x true size beside the fan (its sticks only 4.3 hoops long), so they were scaled to 0.55 in post, shadows and all, on rebuilt plaster (raw/c06a_s.png): now about an eighth of the fan's length, true for 25 mm hoops and a 21 cm fan. The fan fills the top; calm oxblood plaster bottom left for the words, in cream. Line changed from the draft Fan favourite., which claims a popularity we have not measured.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-07",
+   "status": "phase3",
+   "time": "day",
+   "product": "Verdant Eternity Band",
+   "variant": null,
+   "price": "₹1,099",
+   "handle": "verdant-eternity-band",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Always in bloom.",
+   "prop": "The flower head of one white calla lily",
+   "why": "The bridal flower that is always in bloom, and the eternity band that stays green",
+   "primary_text": "Always in bloom. Emerald-green oval cubic zirconia along a wave of pavé, in rhodium silver tone. The Verdant Eternity Band, ₹1,099.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Eternity Band · ₹1,099",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-eternity-band?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=07-verdant-eternity-band-day",
+   "ink": "#3E4D41",
+   "files": {
+    "feed": "ads/p3/07-verdant-eternity-band-day-feed.jpg",
+    "story": "ads/p3/07-verdant-eternity-band-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/07-verdant-eternity-band-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/07-verdant-eternity-band-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/07-verdant-eternity-band-day.jpg"
+   },
+   "same_product_as": [
+    "p3-08"
+   ],
+   "replaces": null,
+   "notes": "c07b: oval emerald-green stones in four claws, the fine pavé wave scalloping between them, the open adjustable back with looped tips, cool silver tone, as in the listing. The model drew the ring about 2.6x true size in both tries (twice as wide as the lily's spadix; c07a threaded it on the stem), so it was set back at 0.42 in post on a clean plate of the same frame (the model removed the ring) with a drawn contact and cast shadow (raw/c07b_r.png): now a sixth of the frame, about a quarter of the flower's length. The flower fills the right; calm sage plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-08",
+   "status": "phase3",
+   "time": "night",
+   "product": "Verdant Eternity Band",
+   "variant": null,
+   "price": "₹1,099",
+   "handle": "verdant-eternity-band",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Dinner in green.",
+   "prop": "An emerald-green satin evening clutch with a silver kiss-lock frame",
+   "why": "Dinner in green: the satin clutch and the band that matches it",
+   "primary_text": "Dinner in green. Emerald-green oval cubic zirconia along a wave of pavé, in rhodium silver tone. The Verdant Eternity Band, ₹1,099.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Eternity Band · ₹1,099",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-eternity-band?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=08-verdant-eternity-band-night",
+   "ink": "#EAEFE3",
+   "files": {
+    "feed": "ads/p3/08-verdant-eternity-band-night-feed.jpg",
+    "story": "ads/p3/08-verdant-eternity-band-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/08-verdant-eternity-band-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/08-verdant-eternity-band-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/08-verdant-eternity-band-night.jpg"
+   },
+   "same_product_as": [
+    "p3-07"
+   ],
+   "replaces": null,
+   "notes": "c08c: oval emerald-green stones in four claws, the fine pavé wave scalloping between them, the open adjustable back with looped tips, cool silver tone, as in the listing; the ring stands on its band clear of the clutch. The model drew it about 1.5x true size (3.4 kiss-lock balls wide), so it was set back at 0.68 in post on a clean plate of the same frame, scaled from where it stands so it stays grounded, its own shadow carried (raw/c08c_r.png): now about 2.2 balls, true for 21 mm. The clutch fills the top; calm green plaster bottom left for the words, in pale mint.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-09",
+   "status": "phase3",
+   "time": "day",
+   "product": "Cushion Halo Ring",
+   "variant": null,
+   "price": "₹1,199",
+   "handle": "cushion-halo-ring",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Plus one.",
+   "prop": "A blank place card with a thin gold edge and a sprig of baby's breath",
+   "why": "A seat kept at the wedding table, and the ring that makes someone your plus one",
+   "primary_text": "Plus one. An 8 mm round cubic zirconia in a cushion halo, pavé down the shoulders, in rhodium silver tone. The Cushion Halo Ring, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Cushion Halo Ring · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=09-cushion-halo-ring-day",
+   "ink": "#55504A",
+   "files": {
+    "feed": "ads/p3/09-cushion-halo-ring-day-feed.jpg",
+    "story": "ads/p3/09-cushion-halo-ring-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/09-cushion-halo-ring-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/09-cushion-halo-ring-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/09-cushion-halo-ring-day.jpg"
+   },
+   "same_product_as": [
+    "p3-10"
+   ],
+   "replaces": null,
+   "notes": "c09a: one round brilliant in four claws inside a single-row cushion halo, pavé down both shoulders, polished silver shank, cool silver tone, as in the listing; the ring stands on its band clear of the card and the sprig. The model drew it about 1.5x true size against the 9 cm card, so it was set back at 0.64 in post on a clean plate of the same frame, scaled from where it stands, its own shadow carried (raw/c09a_r.png). The card carries no writing, only its gold edge. The card fills the upper right; calm dove-grey plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-10",
+   "status": "phase3",
+   "time": "night",
+   "product": "Cushion Halo Ring",
+   "variant": null,
+   "price": "₹1,199",
+   "handle": "cushion-halo-ring",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Ask by candlelight.",
+   "prop": "A small silver chamberstick with a lit ivory candle",
+   "why": "The evening you ask, by candlelight",
+   "primary_text": "Ask by candlelight. An 8 mm round cubic zirconia in a cushion halo, pavé down the shoulders, in rhodium silver tone. The Cushion Halo Ring, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Cushion Halo Ring · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=10-cushion-halo-ring-night",
+   "ink": "#F2E6DA",
+   "files": {
+    "feed": "ads/p3/10-cushion-halo-ring-night-feed.jpg",
+    "story": "ads/p3/10-cushion-halo-ring-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/10-cushion-halo-ring-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/10-cushion-halo-ring-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/10-cushion-halo-ring-night.jpg"
+   },
+   "same_product_as": [
+    "p3-09"
+   ],
+   "replaces": null,
+   "notes": "c10a: the same round brilliant in its single-row cushion halo, pavé shoulders and polished shank, as in the listing, warm with candlelight; the ring stands clear of the chamberstick. The model drew it about 1.6x true size (1.7 candle widths across), so it was set back at 0.62 in post on a clean plate of the same frame, scaled from where it stands; the rising arms of one star glint on the halo were removed, leaving a point of light (raw/c10a_r.png). One small natural flame. The chamberstick fills the upper right; calm plum plaster bottom left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-11",
+   "status": "phase3",
+   "time": "day",
+   "product": "Bold Nocturne Chain",
+   "variant": null,
+   "price": "₹1,799",
+   "handle": "bold-nocturne-chain",
+   "variant_id": null,
+   "stock_23oct": 54,
+   "ad_set": "Necklaces & rings",
+   "line": "Meeting at ten.",
+   "prop": "A structured cream leather top-handle bag",
+   "why": "The bag for the ten o'clock meeting, and the bold chain that goes with it",
+   "primary_text": "Meeting at ten. Chunky 18k gold-tone links and one link set all over in pavé. The Bold Nocturne Chain, ₹1,799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Chain · ₹1,799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=11-bold-nocturne-chain-day",
+   "ink": "#54463A",
+   "files": {
+    "feed": "ads/p3/11-bold-nocturne-chain-day-feed.jpg",
+    "story": "ads/p3/11-bold-nocturne-chain-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/11-bold-nocturne-chain-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/11-bold-nocturne-chain-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/11-bold-nocturne-chain-day.jpg"
+   },
+   "same_product_as": [
+    "p3-12"
+   ],
+   "replaces": null,
+   "notes": "c11b: chunky elongated oval links, each threaded through the next, in mirror-polished gold tone, with exactly one fully pavé link, as in the listing; the chain lies clear of the bag and runs off the left edge. The model drew it about 1.6x true size (links 19 mm wide against the bag's 12 mm feet), so it was scaled to 0.62 in post about a point on the left edge, so both strands still leave the frame, shadows and all, on rebuilt plaster (raw/c11b_s.png). c11a tucked the chain under the bag. The bag fills the upper right; calm stone plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-12",
+   "status": "phase3",
+   "time": "night",
+   "product": "Bold Nocturne Chain",
+   "variant": null,
+   "price": "₹1,799",
+   "handle": "bold-nocturne-chain",
+   "variant_id": null,
+   "stock_23oct": 54,
+   "ad_set": "Necklaces & rings",
+   "line": "Out late.",
+   "prop": "One black satin pointed-toe stiletto",
+   "why": "Out late: the heels and the gold that go with them",
+   "primary_text": "Out late. Chunky 18k gold-tone links and one link set all over in pavé. The Bold Nocturne Chain, ₹1,799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Chain · ₹1,799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=12-bold-nocturne-chain-night",
+   "ink": "#EFE6D8",
+   "files": {
+    "feed": "ads/p3/12-bold-nocturne-chain-night-feed.jpg",
+    "story": "ads/p3/12-bold-nocturne-chain-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/12-bold-nocturne-chain-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/12-bold-nocturne-chain-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/12-bold-nocturne-chain-night.jpg"
+   },
+   "same_product_as": [
+    "p3-11"
+   ],
+   "replaces": null,
+   "notes": "c12a: chunky elongated oval links, each threaded through the next, in mirror-polished gold tone, with exactly one fully pavé link, as in the listing; the chain lies clear of the shoe and runs off the right edge. True to within about 1.2x against the stiletto, so it is left as shot (a shrink would leave the chain ending inside the frame). Planned with black leather gloves; one black satin stiletto replaced them, since gloves fit few Indian evenings out. The shoe fills the top right; calm charcoal plaster top left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-13",
+   "status": "phase3",
+   "time": "day",
+   "product": "Bold Nocturne Bracelet",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "bold-nocturne-bracelet",
+   "variant_id": null,
+   "stock_23oct": 50,
+   "ad_set": "Bracelets",
+   "line": "Well read.",
+   "prop": "Two plain linen-bound books with a dusty-rose ribbon marker",
+   "why": "A long afternoon with a good book, and the bracelet that goes with it",
+   "primary_text": "Well read. Chunky 18k gold-tone links and one link set in pavé. The Bold Nocturne Bracelet, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Bracelet · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=13-bold-nocturne-bracelet-day",
+   "ink": "#5A4632",
+   "files": {
+    "feed": "ads/p3/13-bold-nocturne-bracelet-day-feed.jpg",
+    "story": "ads/p3/13-bold-nocturne-bracelet-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/13-bold-nocturne-bracelet-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/13-bold-nocturne-bracelet-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/13-bold-nocturne-bracelet-day.jpg"
+   },
+   "same_product_as": [
+    "p3-14"
+   ],
+   "replaces": null,
+   "notes": "c13a: chunky elongated oval links, each threaded through the next, in polished gold tone, with exactly one fully pavé link, the lobster clasp and the extender with its small tag, as in the listing; the bracelet lies clear of the books and the ribbon. The model drew it about 1.5x true size (links 18 mm wide against the books' 3 cm boards), so it was set back at 0.66 in post on a clean plate of the same frame (raw/c13a_r.png). The books carry no titles. The books fill the upper right; calm sand plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-14",
+   "status": "phase3",
+   "time": "night",
+   "product": "Bold Nocturne Bracelet",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "bold-nocturne-bracelet",
+   "variant_id": null,
+   "stock_23oct": 50,
+   "ad_set": "Bracelets",
+   "line": "Black tie.",
+   "prop": "A pre-tied black silk bow tie",
+   "why": "The invitation said black tie, and the gold that answers it",
+   "primary_text": "Black tie. Chunky 18k gold-tone links and one link set in pavé. The Bold Nocturne Bracelet, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Bracelet · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=14-bold-nocturne-bracelet-night",
+   "ink": "#EFE6D8",
+   "files": {
+    "feed": "ads/p3/14-bold-nocturne-bracelet-night-feed.jpg",
+    "story": "ads/p3/14-bold-nocturne-bracelet-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/14-bold-nocturne-bracelet-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/14-bold-nocturne-bracelet-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/14-bold-nocturne-bracelet-night.jpg"
+   },
+   "same_product_as": [
+    "p3-13"
+   ],
+   "replaces": null,
+   "notes": "c14a: the same chunky links, the one pavé link, the lobster clasp and the extender with its tag, as in the listing; the bracelet lies clear of the bow tie. The model drew it about 1.25x true size against the 12 cm bow tie, so it was set back at 0.8 in post on a clean plate of the same frame (raw/c14a_r.png). The bow tie fills the upper right; calm charcoal plaster bottom left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-15",
+   "status": "phase3",
+   "time": "day",
+   "product": "Halo Curve Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "halo-curve-ring",
+   "variant_id": null,
+   "stock_23oct": 45,
+   "ad_set": "Necklaces & rings",
+   "line": "Hair up, ring on.",
+   "prop": "A tortoiseshell acetate claw hair clip",
+   "why": "The tortoiseshell clip that holds your hair up, and the tiger's eye that echoes it",
+   "primary_text": "Hair up, ring on. A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Halo Curve Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/halo-curve-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=15-halo-curve-ring-day",
+   "ink": "#5A4030",
+   "files": {
+    "feed": "ads/p3/15-halo-curve-ring-day-feed.jpg",
+    "story": "ads/p3/15-halo-curve-ring-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/15-halo-curve-ring-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/15-halo-curve-ring-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/15-halo-curve-ring-day.jpg"
+   },
+   "same_product_as": [
+    "p3-16"
+   ],
+   "replaces": null,
+   "notes": "c15a: an open bypass ring of fine gold wire ending in one banded tiger's eye cabochon and one faceted champagne crystal, each in its own slightly irregular bezel, as in the listing; the ring stands clear of the clip. The model drew it about 1.7x true size (stones 19 mm against the 9 cm clip), so it was set back at 0.6 in post on a clean plate of the same frame, scaled from where it stands, its own shadow carried (raw/c15a_r.png). The clip fills the upper right; calm latte plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-16",
+   "status": "phase3",
+   "time": "night",
+   "product": "Halo Curve Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "halo-curve-ring",
+   "variant_id": null,
+   "stock_23oct": 45,
+   "ad_set": "Necklaces & rings",
+   "line": "Golden hour, extended.",
+   "prop": "A small amber glass votive with a lit tealight",
+   "why": "The amber glow of golden hour, kept going into the evening",
+   "primary_text": "Golden hour, extended. A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Halo Curve Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/halo-curve-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=16-halo-curve-ring-night",
+   "ink": "#F2E4D0",
+   "files": {
+    "feed": "ads/p3/16-halo-curve-ring-night-feed.jpg",
+    "story": "ads/p3/16-halo-curve-ring-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/16-halo-curve-ring-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/16-halo-curve-ring-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/16-halo-curve-ring-night.jpg"
+   },
+   "same_product_as": [
+    "p3-15"
+   ],
+   "replaces": null,
+   "notes": "c16a: the same bypass ring, tiger's eye and champagne crystal in their bezels, as in the listing, warm in the votive's light; the ring stands clear of the votive. The model drew it about 1.7x true size against the 6 cm votive, so it was set back at 0.6 in post on a clean plate of the same frame, scaled from where it stands, its own long shadow carried (raw/c16a_r.png). One small flame inside the glass. The votive fills the upper right; calm chocolate plaster bottom left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-17",
+   "status": "phase3",
+   "time": "day",
+   "product": "Marquise Layering Set",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "marquise-layering-set",
+   "variant_id": null,
+   "stock_23oct": 40,
+   "ad_set": "Necklaces & rings",
+   "line": "Shaadi season.",
+   "prop": "A fresh mogra (jasmine) gajra",
+   "why": "Wedding season: jasmine in the hair and gold at the neck",
+   "primary_text": "Shaadi season. A 40 cm marquise solitaire and a 45 cm Y-lariat, made to be worn together. The Marquise Layering Set, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Marquise Layering Set · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/marquise-layering-set?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=17-marquise-layering-set-day",
+   "ink": "#6A4A44",
+   "files": {
+    "feed": "ads/p3/17-marquise-layering-set-day-feed.jpg",
+    "story": "ads/p3/17-marquise-layering-set-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/17-marquise-layering-set-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/17-marquise-layering-set-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/17-marquise-layering-set-day.jpg"
+   },
+   "same_product_as": [
+    "p3-18"
+   ],
+   "replaces": null,
+   "notes": "c17a: two separate fine gold cable chains, the short one with one marquise in four claws, the Y-lariat with a pear at the junction and a straight drop carrying two small marquise stations and a pear tip, five clear stones in all, as in the listing. The stones read about 1.3x true size against the jasmine buds; the chains run into the gajra, so the frame is left as shot. Planned with an ivory lace fan; a mogra gajra replaced it, since 06 already has a fan and jasmine is the wedding-season flower. The gajra fills the top; calm blush plaster bottom right for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-18",
+   "status": "phase3",
+   "time": "night",
+   "product": "Marquise Layering Set",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "marquise-layering-set",
+   "variant_id": null,
+   "stock_23oct": 40,
+   "ad_set": "Necklaces & rings",
+   "line": "Layered for tonight.",
+   "prop": "A faceted crystal perfume bottle with a gold cap",
+   "why": "Scent and two fine chains, layered for the evening",
+   "primary_text": "Layered for tonight. A 40 cm marquise solitaire and a 45 cm Y-lariat, made to be worn together. The Marquise Layering Set, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Marquise Layering Set · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/marquise-layering-set?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=18-marquise-layering-set-night",
+   "ink": "#EDE6DA",
+   "files": {
+    "feed": "ads/p3/18-marquise-layering-set-night-feed.jpg",
+    "story": "ads/p3/18-marquise-layering-set-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/18-marquise-layering-set-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/18-marquise-layering-set-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/18-marquise-layering-set-night.jpg"
+   },
+   "same_product_as": [
+    "p3-17"
+   ],
+   "replaces": null,
+   "notes": "c18a: the same two fine chains, the marquise solitaire and the Y-lariat with its pear junction, two marquise stations and pear tip, as in the listing; the chains curl up to the foot of the bottle. True to scale against the 5 cm bottle, so the frame is left as shot. No label or lettering on the bottle. The bottle fills the upper right; calm midnight plaster top left for the words, in cream, the line in two.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-19",
+   "status": "phase3",
+   "time": "day",
+   "product": "Ribbon Bead Bracelet",
+   "variant": null,
+   "price": "₹799",
+   "handle": "ribbon-bead-bracelet",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Bracelets",
+   "line": "On pointe.",
+   "prop": "A blush satin ballet flat with a bow",
+   "why": "A bow on the shoe and a bow at the wrist",
+   "primary_text": "On pointe. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Ribbon Bead Bracelet · ₹799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/ribbon-bead-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=19-ribbon-bead-bracelet-day",
+   "ink": "#6A4A44",
+   "files": {
+    "feed": "ads/p3/19-ribbon-bead-bracelet-day-feed.jpg",
+    "story": "ads/p3/19-ribbon-bead-bracelet-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/19-ribbon-bead-bracelet-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/19-ribbon-bead-bracelet-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/19-ribbon-bead-bracelet-day.jpg"
+   },
+   "same_product_as": [
+    "p3-20"
+   ],
+   "replaces": null,
+   "notes": "c19a: a fine gold cable chain dotted with small round beads, the bow of two clear heart-cut stones meeting at a tiny gold bar, the lobster clasp, as in the listing; the bracelet lies clear of the shoe. The model drew the crystal bow about twice its 10 mm against the shoe's 4 cm satin bow, so the bracelet was set back at 0.62 in post on a clean plate of the same frame, which brings the bow to about 12 mm and the loop to a true 5 cm (raw/c19a_r.png). The shoe fills the upper right; calm blush plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-20",
+   "status": "phase3",
+   "time": "night",
+   "product": "Ribbon Bead Bracelet",
+   "variant": null,
+   "price": "₹799",
+   "handle": "ribbon-bead-bracelet",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Bracelets",
+   "line": "Gift-wrapped.",
+   "prop": "A small black gift box tied with a satin bow",
+   "why": "The bow on the box and the bow at the wrist: gift-wrapped",
+   "primary_text": "Gift-wrapped. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Ribbon Bead Bracelet · ₹799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/ribbon-bead-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=20-ribbon-bead-bracelet-night",
+   "ink": "#F4E8E4",
+   "files": {
+    "feed": "ads/p3/20-ribbon-bead-bracelet-night-feed.jpg",
+    "story": "ads/p3/20-ribbon-bead-bracelet-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/20-ribbon-bead-bracelet-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/20-ribbon-bead-bracelet-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/20-ribbon-bead-bracelet-night.jpg"
+   },
+   "same_product_as": [
+    "p3-19"
+   ],
+   "replaces": null,
+   "notes": "c20a: the same fine beaded chain, the bow of two clear heart-cut stones and the lobster clasp, as in the listing; the bracelet lies clear of the box. The model drew the crystal bow about 2.4x its 10 mm against the 9 cm box, so the bracelet was set back at 0.62 in post on a clean plate of the same frame, bow about 1.4x, loop true; the long arms of one star glint on the right heart were removed over the plaster (raw/c20a_r.png). No tag or lettering on the box. The box fills the upper right; calm mauve plaster bottom left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-21",
+   "status": "phase3",
+   "time": "day",
+   "product": "Brushed Gold Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "brushed-gold-huggies",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Earrings",
+   "line": "Nine to five.",
+   "prop": "A closed tan leather notebook with a slim brass pen",
+   "why": "The notebook, the pen and the gold that goes to work",
+   "primary_text": "Nine to five. Small huggie hoops with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Brushed Gold Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=21-brushed-gold-huggies-day",
+   "ink": "#54463A",
+   "files": {
+    "feed": "ads/p3/21-brushed-gold-huggies-day-feed.jpg",
+    "story": "ads/p3/21-brushed-gold-huggies-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/21-brushed-gold-huggies-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/21-brushed-gold-huggies-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/21-brushed-gold-huggies-day.jpg"
+   },
+   "same_product_as": [
+    "p3-22"
+   ],
+   "replaces": null,
+   "notes": "c21a: a pair of wide, softly domed huggies in brushed satin gold tone, the fine brush lines running round the band, as in the listing; the pair lies clear of the notebook and the pen. The model drew them about 3x true size (each about four and a half times as wide as the brass pen is thick), so they were set back at 0.38 in post on a clean plate of the same frame, shadows and all (raw/c21a_r.png): now about 1.6 pen thicknesses, true for 14 mm huggies. The frame was then cropped in at full resolution, so the true-size pair reads in a feed (raw/c21a_rc.png). The notebook and pen fill the upper right; calm stone plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-22",
+   "status": "phase3",
+   "time": "night",
+   "product": "Brushed Gold Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "brushed-gold-huggies",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Earrings",
+   "line": "The classic.",
+   "prop": "The folded ribbed collar of a black knit",
+   "why": "A black knit and small gold huggies: the classic",
+   "primary_text": "The classic. Small huggie hoops with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Brushed Gold Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=22-brushed-gold-huggies-night",
+   "ink": "#EFE6D8",
+   "files": {
+    "feed": "ads/p3/22-brushed-gold-huggies-night-feed.jpg",
+    "story": "ads/p3/22-brushed-gold-huggies-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/22-brushed-gold-huggies-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/22-brushed-gold-huggies-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/22-brushed-gold-huggies-night.jpg"
+   },
+   "same_product_as": [
+    "p3-21"
+   ],
+   "replaces": null,
+   "notes": "c22a: the same wide domed huggies in brushed satin gold tone, as in the listing; the pair lies clear of the knit. The model drew them about 2.5x true size (each spanning about seven of the knit's ribs), so they were set back at 0.4 in post on a clean plate of the same frame, shadows and all (raw/c22a_r.png): now about three ribs. The frame was then cropped in at full resolution, so the true-size pair reads in a feed (raw/c22a_rc.png). The knit fills the upper right; calm charcoal plaster top left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-23",
+   "status": "phase3",
+   "time": "day",
+   "product": "Rivière Eternal Bracelet",
+   "variant": null,
+   "price": "₹1,449",
+   "handle": "riviere-eternal-bracelet",
+   "variant_id": null,
+   "stock_23oct": 34,
+   "ad_set": "Bracelets",
+   "line": "Winter white.",
+   "prop": "A softly folded cream pashmina with a twisted fringe",
+   "why": "Winter white: a soft pashmina and one fine line of light",
+   "primary_text": "Winter white. One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Rivière Eternal Bracelet · ₹1,449",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/riviere-eternal-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=23-riviere-eternal-bracelet-day",
+   "ink": "#5E4C3C",
+   "files": {
+    "feed": "ads/p3/23-riviere-eternal-bracelet-day-feed.jpg",
+    "story": "ads/p3/23-riviere-eternal-bracelet-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/23-riviere-eternal-bracelet-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/23-riviere-eternal-bracelet-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/23-riviere-eternal-bracelet-day.jpg"
+   },
+   "same_product_as": [
+    "p3-24"
+   ],
+   "replaces": null,
+   "notes": "c23a: one fine row of round clear stones, each in its own four-prong gold basket, linked stone to stone, and the polished box clasp with its fold-over safety, as in the listing; the bracelet lies closed in a loop clear of the shawl. The model drew it about 2x true size (each stone about three of the fringe's twists wide), so it was set back at 0.48 in post on a clean plate of the same frame, shadows and all (raw/c23a_r.png): now a stone about a twist wide and the loop a true 6 cm. The frame was then cropped in a little at full resolution (raw/c23a_rc.png). The shawl fills the top and right; calm ivory plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-24",
+   "status": "phase3",
+   "time": "night",
+   "product": "Rivière Eternal Bracelet",
+   "variant": null,
+   "price": "₹1,449",
+   "handle": "riviere-eternal-bracelet",
+   "variant_id": null,
+   "stock_23oct": 34,
+   "ad_set": "Bracelets",
+   "line": "Old Hollywood.",
+   "prop": "A long black satin opera glove",
+   "why": "Old Hollywood: a satin opera glove and one fine line of light",
+   "primary_text": "Old Hollywood. One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Rivière Eternal Bracelet · ₹1,449",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/riviere-eternal-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=24-riviere-eternal-bracelet-night",
+   "ink": "#EFE6D8",
+   "files": {
+    "feed": "ads/p3/24-riviere-eternal-bracelet-night-feed.jpg",
+    "story": "ads/p3/24-riviere-eternal-bracelet-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/24-riviere-eternal-bracelet-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/24-riviere-eternal-bracelet-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/24-riviere-eternal-bracelet-night.jpg"
+   },
+   "same_product_as": [
+    "p3-23"
+   ],
+   "replaces": null,
+   "notes": "c24a: the same fine row of round clear stones in four-prong gold baskets and the box clasp with its fold-over safety, as in the listing, warm in the low light; the bracelet lies closed in a loop clear of the glove. The model drew it about 2.2x true size (its loop as wide as the glove's hand), so it was set back at 0.45 in post on a clean plate of the same frame, its deep shadow on the black kept out of the piece (raw/c24a_r.png): now about three of the glove's fingers across, true for an 18 cm bracelet. The frame was then cropped in a little at full resolution (raw/c24a_rc.png). The glove fills the upper right; calm black plaster top left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-25",
+   "status": "phase3",
+   "time": "day",
+   "product": "Baguette Tennis Necklace",
+   "variant": "Crystal",
+   "price": "₹2,300",
+   "handle": "baguette-tennis-necklace",
+   "variant_id": 50651962441890,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "Dress code: sparkle.",
+   "prop": "A blank ivory wedding invitation with a gold-foil border and a sprig of baby's breath",
+   "why": "The invitation says the dress code is sparkle",
+   "primary_text": "Dress code: sparkle. One line of clear baguette cubic zirconia that sits right at the base of the neck. The Baguette Tennis Necklace, ₹2,300.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Necklace · Crystal · ₹2,300",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-necklace?variant=50651962441890&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=25-baguette-tennis-necklace-day",
+   "ink": "#55504A",
+   "files": {
+    "feed": "ads/p3/25-baguette-tennis-necklace-day-feed.jpg",
+    "story": "ads/p3/25-baguette-tennis-necklace-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/25-baguette-tennis-necklace-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/25-baguette-tennis-necklace-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/25-baguette-tennis-necklace-day.jpg"
+   },
+   "same_product_as": [
+    "p3-26"
+   ],
+   "replaces": null,
+   "notes": "c25a: one continuous line of icy clear baguettes set crosswise like the rungs of a ladder, each in its own slim gold box with four corner claws and a small open window in its side, and the small box clasp, as in the listing; the necklace lies in one loose open loop clear of the card and the sprig. The model drew it about 1.8x true size (the line about 11 mm wide against the 13 cm card, more than two baby's breath flowers), so it was set back at 0.58 in post on a clean plate of the same frame, the soft stones at the back of the loop kept whole (raw/c25a_r.png): now the line about 6 mm and the loop about 30 cm round. The card carries no writing, only its gold-foil border and one embossed gold paisley, as in the loved frame it follows. The card fills the upper right; calm dove-grey plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-26",
+   "status": "phase3",
+   "time": "night",
+   "product": "Baguette Tennis Necklace",
+   "variant": "Crystal",
+   "price": "₹2,300",
+   "handle": "baguette-tennis-necklace",
+   "variant_id": 50651962441890,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "Ready by eight.",
+   "prop": "A small ivory duchess-satin clutch with a gold kiss-lock frame",
+   "why": "Dressed and ready by eight",
+   "primary_text": "Ready by eight. One line of clear baguette cubic zirconia that sits right at the base of the neck. The Baguette Tennis Necklace, ₹2,300.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Necklace · Crystal · ₹2,300",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-necklace?variant=50651962441890&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=26-baguette-tennis-necklace-night",
+   "ink": "#F2E6DC",
+   "files": {
+    "feed": "ads/p3/26-baguette-tennis-necklace-night-feed.jpg",
+    "story": "ads/p3/26-baguette-tennis-necklace-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/26-baguette-tennis-necklace-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/26-baguette-tennis-necklace-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/26-baguette-tennis-necklace-night.jpg"
+   },
+   "same_product_as": [
+    "p3-25"
+   ],
+   "replaces": null,
+   "notes": "c26a: the same line of icy clear crosswise baguettes in slim gold boxes with corner claws, and the box clasp, as in the listing; the necklace lies closed in a loop clear of the clutch. The model drew it about 2.4x true size (the line wider than the kiss-lock's 1 cm balls), so it was set back at 0.58 in post on a clean plate of the same frame, the clutch left exactly as shot (raw/c26a_r.png): now the balls about as wide as the line, as in the loved frame it follows. The model drew fewer stones than a 36 cm choker holds, so the stones are kept about 1.2x and the loop reads a little short rather than the stones large. The clutch fills the upper right; calm aubergine plaster top left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-27",
+   "status": "phase3",
+   "time": "day",
+   "product": "Lilac Papillon Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "lilac-papillon-ring",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "Spring, all year.",
+   "prop": "A fresh sprig of pale lilac blossom",
+   "why": "Spring, all year: a lilac butterfly beside the lilac",
+   "primary_text": "Spring, all year. A gold-tone butterfly whose wings are set edge to edge in lilac pavé. The Lilac Papillon Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Lilac Papillon Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/lilac-papillon-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=27-lilac-papillon-ring-day",
+   "ink": "#5B4A5C",
+   "files": {
+    "feed": "ads/p3/27-lilac-papillon-ring-day-feed.jpg",
+    "story": "ads/p3/27-lilac-papillon-ring-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/27-lilac-papillon-ring-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/27-lilac-papillon-ring-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/27-lilac-papillon-ring-day.jpg"
+   },
+   "same_product_as": [
+    "p3-28"
+   ],
+   "replaces": null,
+   "notes": "c27a: a four-wing butterfly of pale lilac micro-pavé inside raised gold rims with a polished gold body bar, over a larger offset openwork outline of clear stones, on a slim gold shank, as in the listing; the ring stands clear of the sprig. The model drew it about 1.8x true size (the butterfly four lilac florets wide), so it was set back at 0.55 in post on a clean plate of the same frame, scaled from where it rests so it stays grounded (raw/c27a_r.png): now about two florets, true for a 20 mm butterfly. The frame was then cropped in a little at full resolution (raw/c27a_rc.png). The sprig fills the upper right; calm lavender plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-28",
+   "status": "phase3",
+   "time": "night",
+   "product": "Lilac Papillon Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "lilac-papillon-ring",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "Night garden.",
+   "prop": "One deep violet anemone",
+   "why": "A night garden: one dark anemone and a lilac butterfly",
+   "primary_text": "Night garden. A gold-tone butterfly whose wings are set edge to edge in lilac pavé. The Lilac Papillon Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Lilac Papillon Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/lilac-papillon-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=28-lilac-papillon-ring-night",
+   "ink": "#EEE6F0",
+   "files": {
+    "feed": "ads/p3/28-lilac-papillon-ring-night-feed.jpg",
+    "story": "ads/p3/28-lilac-papillon-ring-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/28-lilac-papillon-ring-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/28-lilac-papillon-ring-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/28-lilac-papillon-ring-night.jpg"
+   },
+   "same_product_as": [
+    "p3-27"
+   ],
+   "replaces": null,
+   "notes": "c28a: the same lilac pavé butterfly in gold rims over its offset clear-stone outline, on the slim gold shank, as in the listing, warm in the low light; the ring stands clear of the flower. The model drew it about 1.8x true size (the butterfly twice as wide as the anemone's black centre), so it was set back at 0.57 in post on a clean plate of the same frame, scaled from where it stands, its long evening shadow carried and the old one cleared to its tail (raw/c28a_r.png): now about as wide as the centre, true for a 20 mm butterfly. The frame was then cropped in a little at full resolution (raw/c28a_rc.png). Ink-blue ground in place of the planned aubergine, which 26 already has. The anemone fills the upper right; calm ink-blue plaster top left for the words, in pale lilac.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-29",
+   "status": "phase3",
+   "time": "day",
+   "product": "Aqua Heart Drops",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "aqua-heart-drops-silver",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Something blue.",
+   "prop": "A fresh blue hydrangea head",
+   "why": "Something blue: the hydrangea and the aqua hearts",
+   "primary_text": "Something blue. A curve of clear brilliants with an icy aqua heart below, rhodium silver tone. The Aqua Heart Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Aqua Heart Drops · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=29-aqua-heart-drops-silver-day",
+   "ink": "#3F4D5C",
+   "files": {
+    "feed": "ads/p3/29-aqua-heart-drops-silver-day-feed.jpg",
+    "story": "ads/p3/29-aqua-heart-drops-silver-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/29-aqua-heart-drops-silver-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/29-aqua-heart-drops-silver-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/29-aqua-heart-drops-silver-day.jpg"
+   },
+   "same_product_as": [
+    "p3-30"
+   ],
+   "replaces": null,
+   "notes": "c29a: two open C-shaped half hoops on straight silver posts, each set with one row of round clear stones in tall silver claws (the top one tucked by the post, the inner wall of small baguettes just showing), each with one pale icy aqua heart in fine claws hanging from its tip, cool rhodium silver tone, as in the listing; the pair lies clear of the flower. The model drew them about 1.8x true size (each nearly two florets long), so they were set back at 0.55 in post on a clean plate of the same frame (raw/c29a_r.png): now each about one floret long, true for 29 mm drops. The frame was then cropped in a little at full resolution (raw/c29a_rc.png). The hydrangea fills the upper right; calm pale blue plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-30",
+   "status": "phase3",
+   "time": "night",
+   "product": "Aqua Heart Drops",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "aqua-heart-drops-silver",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Heart of the party.",
+   "prop": "A small mirrored disco ball",
+   "why": "The heart of the party: a mirror ball and the aqua hearts",
+   "primary_text": "Heart of the party. A curve of clear brilliants with an icy aqua heart below, rhodium silver tone. The Aqua Heart Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Aqua Heart Drops · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=30-aqua-heart-drops-silver-night",
+   "ink": "#EAF0EE",
+   "files": {
+    "feed": "ads/p3/30-aqua-heart-drops-silver-night-feed.jpg",
+    "story": "ads/p3/30-aqua-heart-drops-silver-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/30-aqua-heart-drops-silver-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/30-aqua-heart-drops-silver-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/30-aqua-heart-drops-silver-night.jpg"
+   },
+   "same_product_as": [
+    "p3-29"
+   ],
+   "replaces": null,
+   "notes": "c30a: the same open C-hoops with their row of round clear stones in silver claws and one pale icy aqua heart each, as in the listing; the pair lies clear of the ball. The model drew them about 2x true size (each stone wider than the ball's 5 mm mirror tiles), so they were set back at 0.52 in post on a clean plate of the same frame (raw/c30a_r.png): now each earring about a third of the 8 cm ball, true for 29 mm drops. One star-shaped glint on a stone of the right earring was softened to a round point of light first (raw/c30a_g.png). The frame was then cropped in a little at full resolution (raw/c30a_rc.png). A mirrored disco ball in place of the planned silver mesh clutch, since the set already has four clutches. The ball fills the upper right; calm teal plaster bottom left for the words, in pale mint.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-31",
+   "status": "phase3",
+   "time": "day",
+   "product": "Prism Cluster Studs",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "prism-cluster-studs-silver",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Sweet on colour.",
+   "prop": "Three sweet pea flowers in pink, violet and pale lemon",
+   "why": "Sweet on colour: the sweet peas and the studs in the same pink, violet and lemon",
+   "primary_text": "Sweet on colour. Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls. The Prism Cluster Studs, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Cluster Studs · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-cluster-studs-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=31-prism-cluster-studs-silver-day",
+   "ink": "#5E4C3C",
+   "files": {
+    "feed": "ads/p3/31-prism-cluster-studs-silver-day-feed.jpg",
+    "story": "ads/p3/31-prism-cluster-studs-silver-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/31-prism-cluster-studs-silver-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/31-prism-cluster-studs-silver-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/31-prism-cluster-studs-silver-day.jpg"
+   },
+   "same_product_as": [
+    "p3-32"
+   ],
+   "replaces": null,
+   "notes": "c31b: two mirror-image arcs of five coloured stones in bright silver claws, purple princess, pink baguette, yellow emerald cut at the centre, purple princess, pink baguette, with tiny white pearls tucked between them, as in the listing photo; the studs lie clear of the flowers. c31a set the stones symmetrically, purple at both ends, which the product never is, so it was reshot with the order spelled out. The model drew them about 1.9x true size (each stud longer than a sweet pea flower is wide), so they were set back at 0.53 in post on a clean plate of the same frame, the pale pearls kept whole (raw/c31b_r.png): now each about two thirds of a flower, true for 20 mm studs. The frame was then cropped in a little at full resolution (raw/c31b_rc.png). The sweet peas fill the upper right; calm cream plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-32",
+   "status": "phase3",
+   "time": "night",
+   "product": "Prism Cluster Studs",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "prism-cluster-studs-silver",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Last look.",
+   "prop": "An open gold lipstick case with its cap",
+   "why": "The last look in the mirror before going out",
+   "primary_text": "Last look. Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls. The Prism Cluster Studs, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Cluster Studs · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-cluster-studs-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=32-prism-cluster-studs-silver-night",
+   "ink": "#F3E7E0",
+   "files": {
+    "feed": "ads/p3/32-prism-cluster-studs-silver-night-feed.jpg",
+    "story": "ads/p3/32-prism-cluster-studs-silver-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/32-prism-cluster-studs-silver-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/32-prism-cluster-studs-silver-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/32-prism-cluster-studs-silver-night.jpg"
+   },
+   "same_product_as": [
+    "p3-31"
+   ],
+   "replaces": null,
+   "notes": "c32a: the same two mirror-image arcs, purple, pink, yellow, purple, pink in silver claws with tiny white pearls between, as in the listing photo, warm in the low light; the studs lie clear of the lipstick. The model drew them about 1.7x true size (each stud twice as long as the lipstick is thick), so they were set back at 0.6 in post on a clean plate of the same frame (raw/c32a_r.png): now each about as long as the lipstick is thick, true for 20 mm studs. The frame was then cropped in a little at full resolution (raw/c32a_rc.png). Deep rosewood in place of the planned plum, which 10 already has. The lipstick fills the upper right; calm rosewood plaster bottom left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-33",
+   "status": "phase3",
+   "time": "day",
+   "product": "Molten Panel Bracelet",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "molten-panel-bracelet",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Brunch, in gold.",
+   "prop": "A small white espresso cup on its saucer, both with a thin gold rim",
+   "why": "Brunch, in gold: the gold-rimmed cup and the gold bracelet",
+   "primary_text": "Brunch, in gold. Small flat oval plates in five staggered rows like brickwork, in satin-polished 18k gold tone, that bend like a watch strap. The Molten Panel Bracelet, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Molten Panel Bracelet · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/molten-panel-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=33-molten-panel-bracelet-day",
+   "ink": "#5A4632",
+   "files": {
+    "feed": "ads/p3/33-molten-panel-bracelet-day-feed.jpg",
+    "story": "ads/p3/33-molten-panel-bracelet-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/33-molten-panel-bracelet-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/33-molten-panel-bracelet-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/33-molten-panel-bracelet-day.jpg"
+   },
+   "same_product_as": [
+    "p3-34"
+   ],
+   "replaces": null,
+   "notes": "c33a: small flat oval plates in five staggered rows like brickwork, articulated so the band drapes, with the flat square box clasp, in satin-polished gold tone, as in the listing; the bracelet stands on its edge in a loop clear of the saucer. The model drew it about 1.8x true size (the loop as wide as the saucer), so it was set back at 0.55 in post on a clean plate of the same frame, scaled from where it stands so it stays grounded (raw/c33a_r.png): now the loop a little over half the saucer, true for a 17 cm bracelet. A gold-rimmed espresso cup in place of the planned rattan clutch, since the set already has four clutches. The cup fills the upper right; calm sand plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-34",
+   "status": "phase3",
+   "time": "night",
+   "product": "Molten Panel Bracelet",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "molten-panel-bracelet",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Liquid gold.",
+   "prop": "A folded black silk saree with a woven gold zari border",
+   "why": "Liquid gold: the zari and the bracelet",
+   "primary_text": "Liquid gold. Small flat oval plates in five staggered rows like brickwork, in satin-polished 18k gold tone, that bend like a watch strap. The Molten Panel Bracelet, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Molten Panel Bracelet · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/molten-panel-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=34-molten-panel-bracelet-night",
+   "ink": "#F2E6D2",
+   "files": {
+    "feed": "ads/p3/34-molten-panel-bracelet-night-feed.jpg",
+    "story": "ads/p3/34-molten-panel-bracelet-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/34-molten-panel-bracelet-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/34-molten-panel-bracelet-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/34-molten-panel-bracelet-night.jpg"
+   },
+   "same_product_as": [
+    "p3-33"
+   ],
+   "replaces": null,
+   "notes": "c34a: the same five staggered rows of flat oval plates and the square box clasp, glowing in the low light, as in the listing; the bracelet stands in a loop clear of the silk. The model drew it about 1.6x true size (the band wider than the 3 cm zari border), so it was set back at 0.62 in post on a clean plate of the same frame, scaled from where it stands, the saree left exactly as shot (raw/c34a_r.png): now the band about half the border. The frame was then cropped in a little at full resolution (raw/c34a_rc.png). A black silk saree with a gold zari border in place of the planned velvet clutch. The saree fills the top and right; calm charcoal plaster bottom left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-35",
+   "status": "phase3",
+   "time": "day",
+   "product": "Torsade Pearl Cuff",
+   "variant": null,
+   "price": "₹1,399",
+   "handle": "torsade-pearl-cuff",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Classic, with a twist.",
+   "prop": "A padded headband in pearl-white duchess satin",
+   "why": "Classic, with a twist: the satin headband and the twisted gold cuff",
+   "primary_text": "Classic, with a twist. Two white shell pearls at the ends of a twisted 18k gold-tone cuff, with pavé collars. The Torsade Pearl Cuff, ₹1,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Torsade Pearl Cuff · ₹1,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/torsade-pearl-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=35-torsade-pearl-cuff-day",
+   "ink": "#5E4438",
+   "files": {
+    "feed": "ads/p3/35-torsade-pearl-cuff-day-feed.jpg",
+    "story": "ads/p3/35-torsade-pearl-cuff-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/35-torsade-pearl-cuff-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/35-torsade-pearl-cuff-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/35-torsade-pearl-cuff-day.jpg"
+   },
+   "same_product_as": [
+    "p3-36"
+   ],
+   "replaces": null,
+   "notes": "c35a: an open cuff of solid twisted cable with smooth polished spiral ridges, each end capped by a collar of two rows of tiny clear pavé either side of a thin gold rib and one large round white pearl, the two pearls facing each other across the opening, as in the listing; the back of the cuff rests just under the edge of the headband, as if the band were set down on it. True to within about 1.15x against the headband (the 12 mm pearls and the 3 cm padded band agree), so the frame is left as shot: a close macro view, the cuff filling the frame by nearness rather than by being drawn large. The headband fills the upper right; calm blush plaster top left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-36",
+   "status": "phase3",
+   "time": "night",
+   "product": "Torsade Pearl Cuff",
+   "variant": null,
+   "price": "₹1,399",
+   "handle": "torsade-pearl-cuff",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Black bow, white pearls.",
+   "prop": "A large black satin hair bow on a slim clip",
+   "why": "Black bow, white pearls",
+   "primary_text": "Black bow, white pearls. Two white shell pearls at the ends of a twisted 18k gold-tone cuff, with pavé collars. The Torsade Pearl Cuff, ₹1,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Torsade Pearl Cuff · ₹1,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/torsade-pearl-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=36-torsade-pearl-cuff-night",
+   "ink": "#F2E8DC",
+   "files": {
+    "feed": "ads/p3/36-torsade-pearl-cuff-night-feed.jpg",
+    "story": "ads/p3/36-torsade-pearl-cuff-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/36-torsade-pearl-cuff-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/36-torsade-pearl-cuff-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/36-torsade-pearl-cuff-night.jpg"
+   },
+   "same_product_as": [
+    "p3-35"
+   ],
+   "replaces": null,
+   "notes": "c36a: the same twisted gold cable cuff with its two-row pavé collars and two white pearls facing each other across the opening, as in the listing, warm in the low light; the cuff lies clear of the bow. True to within about 1.3x against the bow (about 14 cm wide against the 12 mm pearls), so the frame is left as shot, a close macro view. Warm taupe in place of the planned near-black, which 12, 14, 22, 24 and 34 already have. The bow fills the upper right; calm taupe plaster top left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-37",
+   "status": "phase3",
+   "time": "day",
+   "product": "Baguette Halo Drops",
+   "variant": null,
+   "price": "₹1,499",
+   "handle": "baguette-halo-drops",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Pearl and petal.",
+   "prop": "One white gardenia in full bloom with two glossy leaves",
+   "why": "Pearl and petal: the gardenia and the pearl drops",
+   "primary_text": "Pearl and petal. A 14 mm sunburst of clear baguettes around a small pearl, with a white pearl drop below. The Baguette Halo Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Halo Drops · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-halo-drops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=37-baguette-halo-drops-day",
+   "ink": "#5E4C3C",
+   "files": {
+    "feed": "ads/p3/37-baguette-halo-drops-day-feed.jpg",
+    "story": "ads/p3/37-baguette-halo-drops-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/37-baguette-halo-drops-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/37-baguette-halo-drops-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/37-baguette-halo-drops-day.jpg"
+   },
+   "same_product_as": [
+    "p3-38"
+   ],
+   "replaces": null,
+   "notes": "c37a: two flat sunburst discs of slim clear baguettes inside a polished gold rim and a fine beaded ring, a small white pearl in a gold collar at each centre, and below each a short gold loop and cap holding one larger round white pearl, as in the listing; the pair lies clear of the flower. The model drew them about 1.7x true size against the gardenia and its leaves, so they were set back at 0.6 in post (raw/c37a_r.png) on a plate rebuilt from the frame's own plaster (raw/f37.png, no credits left for a model plate), the discs and pearls taken as exact circles so no shadow came with them. The frame was then cropped in a little at full resolution (raw/c37a_rc.png). The gardenia fills the upper right; calm ivory plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-38",
+   "status": "phase3",
+   "time": "night",
+   "product": "Baguette Halo Drops",
+   "variant": null,
+   "price": "₹1,499",
+   "handle": "baguette-halo-drops",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Diwali, dressed up.",
+   "prop": "One small lit brass diya",
+   "why": "Diwali, dressed up: the brass diya and the gold sunbursts",
+   "primary_text": "Diwali, dressed up. A 14 mm sunburst of clear baguettes around a small pearl, with a white pearl drop below. The Baguette Halo Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Halo Drops · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-halo-drops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=38-baguette-halo-drops-night",
+   "ink": "#F4E6D6",
+   "files": {
+    "feed": "ads/p3/38-baguette-halo-drops-night-feed.jpg",
+    "story": "ads/p3/38-baguette-halo-drops-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/38-baguette-halo-drops-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/38-baguette-halo-drops-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/38-baguette-halo-drops-night.jpg"
+   },
+   "same_product_as": [
+    "p3-37"
+   ],
+   "replaces": null,
+   "notes": "c38a: the same sunburst discs of slim clear baguettes with their centre pearls and hanging pearls, warm in the light of the diya, as in the listing; the pair lies clear of the lamp. The model drew them about 1.8x true size against the diya and its small flame, so they were set back at 0.6 in post (raw/c38a_r.png) on a plate rebuilt from the frame's own plaster (raw/f38.png), the discs and pearls taken as exact circles. The frame was then cropped in a little at full resolution (raw/c38a_rc.png). One small natural flame, no rangoli or marigolds. The diya fills the upper right; calm maroon plaster top left for the words, in cream.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-39",
+   "status": "phase3",
+   "time": "day",
+   "product": "Verdant Cushion Studs",
+   "variant": "Silver",
+   "price": "₹1,199",
+   "handle": "verdant-cushion-studs",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Fresh green.",
+   "prop": "A sprig of silver-dollar eucalyptus",
+   "why": "Fresh green: the eucalyptus and the emerald-green studs",
+   "primary_text": "Fresh green. An emerald-green cushion cubic zirconia in a sunburst halo of clear stones, rhodium silver tone. The Verdant Cushion Studs, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Cushion Studs · Silver · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-cushion-studs?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=39-verdant-cushion-studs-day",
+   "ink": "#3F4A3C",
+   "files": {
+    "feed": "ads/p3/39-verdant-cushion-studs-day-feed.jpg",
+    "story": "ads/p3/39-verdant-cushion-studs-day-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/39-verdant-cushion-studs-day-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/39-verdant-cushion-studs-day-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/39-verdant-cushion-studs-day.jpg"
+   },
+   "same_product_as": [
+    "p3-40"
+   ],
+   "replaces": null,
+   "notes": "c39a: one deep emerald-green cushion cut in a smooth polished silver bezel inside a single halo of round clear stones, each in its own pointed claws, the edge a crisp scalloped sunburst, bright rhodium silver tone, as in the listing; the studs lie clear of the sprig. True to within about 1.0x to 1.3x against the round eucalyptus leaves (each stud about half to two thirds of the big leaf), so the frame is left as shot. The sprig fills the upper right; calm mint plaster bottom left for the words.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
+  },
+  {
+   "n": "p3-40",
+   "status": "phase3",
+   "time": "night",
+   "product": "Verdant Cushion Studs",
+   "variant": "Silver",
+   "price": "₹1,199",
+   "handle": "verdant-cushion-studs",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Emerald hour.",
+   "prop": "A small round polished malachite dish",
+   "why": "The emerald hour: malachite and the green studs",
+   "primary_text": "Emerald hour. An emerald-green cushion cubic zirconia in a sunburst halo of clear stones, rhodium silver tone. The Verdant Cushion Studs, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Cushion Studs · Silver · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-cushion-studs?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_phase3&utm_content=40-verdant-cushion-studs-night",
+   "ink": "#E8F0E4",
+   "files": {
+    "feed": "ads/p3/40-verdant-cushion-studs-night-feed.jpg",
+    "story": "ads/p3/40-verdant-cushion-studs-night-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/crazy3/40-verdant-cushion-studs-night-feed.jpg",
+    "story": "docs/creative/performance/ads/crazy3/40-verdant-cushion-studs-night-story.jpg",
+    "plate": "docs/creative/performance/plates/crazy3/40-verdant-cushion-studs-night.jpg"
+   },
+   "same_product_as": [
+    "p3-39"
+   ],
+   "replaces": null,
+   "notes": "c40a: the same emerald-green cushion in its silver bezel and single scalloped halo of round clear stones, as in the listing, deep in the low light; the studs lie clear of the dish. True to within about 1.1x against the 8 cm dish (judged from its rim, which runs off the frame), so the frame is left as shot. A polished malachite dish in place of the planned green glass perfume bottle, since 18 already has a perfume bottle. The dish fills the upper right; calm forest-green plaster bottom left for the words, in pale mint.",
+   "campaign": "PERF · Phase 3 day and night · Oct 2026"
   },
   {
    "n": "01",
