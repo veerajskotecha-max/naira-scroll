@@ -1162,5 +1162,31 @@
    "top": 84
   },
   "stack": true
+ },
+ {
+  "n": "50",
+  "key": "baguette-tennis-necklace-emerald",
+  "plate": "plates/colour/50-baguette-tennis-necklace-emerald.jpg",
+  "raw": "50b",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Emerald",
+  "ingredient": "a fresh sprig of kadi patta (curry leaves) with loose leaflets",
+  "ground": "warm cream lime plaster",
+  "rhyme": "one line of crosswise emerald baguettes beside the two neat rows of glossy curry leaves on their stalk; kadi patta is the last thing into every tadka",
+  "line": "The finishing tadka.",
+  "ink": "#1E4A2C",
+  "score": 9.1,
+  "feed_top": 380,
+  "jobs": [
+   "6e44e3a6 (50a)",
+   "5f181b39 (50b, kept)"
+  ],
+  "notes": "Fiftieth slot: Pearl Circlet is on hold, so the second colourway of the Baguette Tennis Necklace (Emerald, 20 in stock; Crystal was shot 02). Shot from the emerald listing photo (imported, a3486d0b). 50b: crosswise emerald baguettes in gold box settings with side windows and corner claws, closed box clasp; the sprig runs parallel to the line. Baguette width about a fifth of a leaflet, true. The clasp carries a tiny illegible stamp. 50a was equally faithful with the clasp open and a busier layout.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "stack": true
  }
 ]
