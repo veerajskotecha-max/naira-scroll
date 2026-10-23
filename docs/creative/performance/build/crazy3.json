@@ -896,5 +896,58 @@
    "78a7c0fe (clean plate of c34a for the retouch)"
   ],
   "notes": "c34a: the same five staggered rows of flat oval plates and the square box clasp, glowing in the low light, as in the listing; the bracelet stands in a loop clear of the silk. The model drew it about 1.6x true size (the band wider than the 3 cm zari border), so it was set back at 0.62 in post on a clean plate of the same frame, scaled from where it stands, the saree left exactly as shot (raw/c34a_r.png): now the band about half the border. The frame was then cropped in a little at full resolution (raw/c34a_rc.png). A black silk saree with a gold zari border in place of the planned velvet clutch. The saree fills the top and right; calm charcoal plaster bottom left for the words, in cream."
+ },
+ {
+  "n": "35",
+  "key": "torsade-pearl-cuff-day",
+  "plate": "plates/crazy3/35-torsade-pearl-cuff-day.jpg",
+  "raw": "c35a",
+  "product": "18",
+  "time": "day",
+  "title": "Torsade Pearl Cuff",
+  "price": "₹1,399",
+  "variant": null,
+  "handle": "torsade-pearl-cuff",
+  "ingredient": "a padded headband in pearl-white duchess satin",
+  "ground": "pale blush lime plaster",
+  "rhyme": "classic, with a twist: the satin headband and the twisted gold cuff",
+  "line": "Classic, with a twist.",
+  "ink": "#5E4438",
+  "score": 9.1,
+  "jobs": [
+   "244cc3a0 (c35a, kept as shot)"
+  ],
+  "notes": "c35a: an open cuff of solid twisted cable with smooth polished spiral ridges, each end capped by a collar of two rows of tiny clear pavé either side of a thin gold rib and one large round white pearl, the two pearls facing each other across the opening, as in the listing; the back of the cuff rests just under the edge of the headband, as if the band were set down on it. True to within about 1.15x against the headband (the 12 mm pearls and the 3 cm padded band agree), so the frame is left as shot: a close macro view, the cuff filling the frame by nearness rather than by being drawn large. The headband fills the upper right; calm blush plaster top left for the words.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
+ },
+ {
+  "n": "36",
+  "key": "torsade-pearl-cuff-night",
+  "plate": "plates/crazy3/36-torsade-pearl-cuff-night.jpg",
+  "raw": "c36a",
+  "product": "18",
+  "time": "night",
+  "title": "Torsade Pearl Cuff",
+  "price": "₹1,399",
+  "variant": null,
+  "handle": "torsade-pearl-cuff",
+  "ingredient": "a large black satin hair bow on a slim clip",
+  "ground": "deep warm taupe lime plaster",
+  "rhyme": "black bow, white pearls",
+  "line": "Black bow, white pearls.",
+  "ink": "#F2E8DC",
+  "page_ink": "#3A322C",
+  "score": 9.0,
+  "jobs": [
+   "bae80ef1 (c36a, kept as shot)"
+  ],
+  "notes": "c36a: the same twisted gold cable cuff with its two-row pavé collars and two white pearls facing each other across the opening, as in the listing, warm in the low light; the cuff lies clear of the bow. True to within about 1.3x against the bow (about 14 cm wide against the 12 mm pearls), so the frame is left as shot, a close macro view. Warm taupe in place of the planned near-black, which 12, 14, 22, 24 and 34 already have. The bow fills the upper right; calm taupe plaster top left for the words, in cream.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
  }
 ]
