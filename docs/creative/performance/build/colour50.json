@@ -457,5 +457,76 @@
    "eb70cb31 (20b, kept)"
   ],
   "notes": "Studs exact and mirrored: purple princess, pink baguette, large yellow emerald cut, purple princess, pink baguette, tiny pearls in the gaps. The model added a fingertip drawing the stroke despite the no-hands line; kept, as it is natural, soft-focus and gives true scale (studs about 1.4x). 20a sat on a plinth edge with scattered specks."
+ },
+ {
+  "n": "21",
+  "key": "molten-panel-bracelet",
+  "plate": "plates/colour/21-molten-panel-bracelet.jpg",
+  "raw": "21b",
+  "title": "Molten Panel Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "a heap of golden chana dal (split Bengal gram), loose dal beside the bracelet",
+  "ground": "ivory lime plaster",
+  "rhyme": "each 6mm flat gold oval plate = one split chana dal, same size, shape and golden colour",
+  "line": "Daal mein kuch gold hai.",
+  "ink": "#6A4A14",
+  "score": 9.2,
+  "jobs": [
+   "5461c523 (21a)",
+   "733c6379 (21b, kept)"
+  ],
+  "notes": "Bracelet exact: five staggered brick-set rows of flat oval plates, box clasp; plate about one dal, true scale. Line twists the Hindi idiom daal mein kuch kaala hai. 21a rendered a window frame in the background and laid the band open and straight."
+ },
+ {
+  "n": "22",
+  "key": "torsade-pearl-cuff",
+  "plate": "plates/colour/22-torsade-pearl-cuff.jpg",
+  "raw": "22b",
+  "title": "Torsade Pearl Cuff",
+  "price": "₹1,399",
+  "variant": null,
+  "ingredient": "a heap of makhana (puffed lotus seeds), one makhana beside each pearl",
+  "ground": "ivory lime plaster",
+  "rhyme": "the two round creamy white shell pearls = round creamy white makhana, the same size and white",
+  "line": "Zero-calorie makhana.",
+  "ink": "#5E4519",
+  "score": 9.2,
+  "jobs": [
+   "18a20dae (22a)",
+   "50f49e5f (22b, kept)"
+  ],
+  "notes": "Cuff exact: solid twisted cable, two-row pave collars split by a gold rib, one shell pearl at each end facing across the opening. Makhana about 1.4x a pearl, real. 22a pushed the makhana tight against the ends. Makhana moved here from the baroque shell bracelet (31 now pairs with cowrie shells).",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 380
+ },
+ {
+  "n": "23",
+  "key": "baguette-halo-drops",
+  "plate": "plates/colour/23-baguette-halo-drops.jpg",
+  "raw": "23b",
+  "title": "Baguette Halo Drops",
+  "price": "₹1,499",
+  "variant": null,
+  "ingredient": "two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower",
+  "ground": "ivory lime plaster",
+  "rhyme": "the sunburst of slim clear baguettes = the narrow white rays of a chrysanthemum; pearls = its white",
+  "line": "In bloom for Diwali.",
+  "ink": "#5E4519",
+  "score": 9.1,
+  "jobs": [
+   "cec83701 (23a)",
+   "c97e1b64 (23b, kept)"
+  ],
+  "notes": "Earrings exact: flat gold disc, about 30 radiating baguettes, beaded ring, 5mm pearl centre, 10mm round pearl drop on a loop. Disc about 1.3x true against the 5cm flower. 23a drew the discs about 1.5x and the flowers sharp.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 330,
+  "stack": true
  }
 ]
