@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-52 shots kept, average score 9.06, 136 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+53 shots kept, average score 9.06, 142 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -157,6 +157,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 50 | Baguette Tennis Necklace (Emerald) | a fresh sprig of kadi patta (curry leaves) with loose leaflets | warm cream lime plaster | The finishing tadka. | 9.1 | 2 |
 | 51 | Toggle Link Chain | brass paper clips, one clipped to a sheet of deckled ivory cotton paper | warm ivory lime plaster | Paperclip, promoted. | 9.2 | 2 |
 | 52 | Baguette Tennis Necklace (Crystal) | a fresh mogra gajra, white jasmine buds strung tight on cotton thread | pale sage-green lime plaster | A gajra that never wilts. | 9.3 | 2 |
+| 53 | Prism Rivière Bracelet | three origami paper boats in pastel aqua, pink and butter yellow, with a few raindrops | pale powder-blue lime plaster | Kaagaz ki kashti. | 9.2 | 6 |
 <!-- /log -->
 
 ## Review and upload

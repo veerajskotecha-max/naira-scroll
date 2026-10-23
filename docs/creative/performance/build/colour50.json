@@ -1241,5 +1241,29 @@
   "w": 400,
   "stack": true,
   "feed_top": 170
+ },
+ {
+  "n": "53",
+  "key": "prism-riviere-bracelet",
+  "plate": "plates/colour/53-prism-riviere-bracelet.jpg",
+  "raw": "53e",
+  "title": "Prism Rivière Bracelet",
+  "price": "₹2,399",
+  "variant": null,
+  "ingredient": "three origami paper boats in pastel aqua, pink and butter yellow, with a few raindrops",
+  "ground": "pale powder-blue lime plaster",
+  "rhyme": "aqua, pink and yellow stones = aqua, pink and yellow paper boats on a little stream; the monsoon game every child played, made precious",
+  "line": "Kaagaz ki kashti.",
+  "ink": "#33535F",
+  "score": 9.2,
+  "jobs": [
+   "8d368181 (53a)",
+   "3f9a5be2 (53b)",
+   "cbaa5b0a (53c)",
+   "1edfa67e (53d)",
+   "b8004218 (53e, kept)",
+   "5155d715 (53f)"
+  ],
+  "notes": "53e: square pastel stones in double pavé halos with corner claws, joined halo to halo in silver tone, in a strict aqua, pink, yellow order; exactly three boats; calm upper half. Reshot twice: 53a had no calm corner for the words, 53b put chain links between the stones and star glints on them, 53c set two pinks side by side, 53d drew a fourth boat and only 12 stones, 53f stood a boat on its tip. The stones read a little bolder than 5 mm beside 3 cm boats; there is no fixed-size referent, so the bracelet still reads true."
  }
 ]
