@@ -95,6 +95,32 @@
   "stack": true
  },
  {
+  "n": "07",
+  "key": "baguette-tennis-bracelet",
+  "plate": "plates/colour/07-baguette-tennis-bracelet.jpg",
+  "raw": "r07a",
+  "title": "Baguette Tennis Bracelet",
+  "price": "₹1,699",
+  "variant": "Crystal",
+  "ingredient": "a blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath",
+  "ground": "pale dove-grey lime plaster",
+  "rhyme": "the wedding invitation, and the bracelet you will wear to it",
+  "line": "RSVP: yes.",
+  "ink": "#4F473C",
+  "score": 9.4,
+  "jobs": [
+   "5afd114a (r07a, kept)"
+  ],
+  "notes": "r07a: crosswise baguettes in gold box settings with four corner claws and a box clasp with its safety catch, fastened in a round, as in the listing; the line is a true 6 mm beside a 13 cm card. The card carries no writing. Calm dove-grey plaster top left for the words.",
+  "round": 3,
+  "replaces": "a soft mound of raw long-grain basmati rice with a trail of single grains spilling into the bracelet",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
+ },
+ {
   "n": "13",
   "key": "silk-mesh-cuff",
   "plate": "plates/colour/13-silk-mesh-cuff.jpg",
@@ -573,6 +599,33 @@
   "notes": "r56a: oval green stones in four claws, the clear pave wave scalloping round each, the open adjustable back with looped tips, cool silver tone, as in the listing. Real glossy henna paste. The ring reads slightly large beside the piped leaves. Calm ivory paper top left for the words.",
   "round": 3,
   "replaces": "a fresh money plant cutting, three marbled heart-shaped leaves on a short vine"
+ },
+ {
+  "n": "57",
+  "key": "baguette-tennis-bracelet-crystal",
+  "plate": "plates/colour/57-baguette-tennis-bracelet-crystal.jpg",
+  "raw": "r57a",
+  "title": "Baguette Tennis Bracelet",
+  "price": "₹1,699",
+  "variant": "Crystal",
+  "ingredient": "an ivory duchess-satin kiss-lock evening clutch",
+  "ground": "deep aubergine-plum lime plaster",
+  "rhyme": "a night out: the clutch and the bracelet go on last; crystal and gold on evening plum",
+  "line": "Plans tonight?",
+  "ink": "#F3EBE3",
+  "page_ink": "#4A2A3A",
+  "score": 8.9,
+  "jobs": [
+   "6dc1ed88 (r57a, kept)"
+  ],
+  "notes": "r57a: crosswise baguettes in box settings with corner claws and the box clasp with its fold-over safety, lying unfastened in an S, as in the listing; true fineness beside an 18 cm clutch. The clutch runs off the right edge. A dark frame: the words sit in cream.",
+  "round": 3,
+  "replaces": "the ivory keys of an old teak harmonium",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
  },
  {
   "n": "58",

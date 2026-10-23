@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-33 shots kept, average score 9.13, 79 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+35 shots kept, average score 9.13, 81 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -109,6 +109,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 03 | Prism Rivière Bracelet | sugared almonds in aqua, pink and butter yellow, in an old silver katori | ivory lime plaster | Pick all three. | 9.2 | 2 |
 | 04 | Woven Gold Hoops | the woven gold zari paisley border of an ivory Banarasi silk saree | the ivory Banarasi silk itself | Banarasi, for your ears. | 9.4 | 1 |
 | 05 | Verdant Eternity Band | an open emerald-green velvet ring box with an ivory satin lid | pale soft mint lime plaster | Green means yes. | 9.1 | 1 |
+| 07 | Baguette Tennis Bracelet (Crystal) | a blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath | pale dove-grey lime plaster | RSVP: yes. | 9.4 | 1 |
 | 13 | Silk Mesh Cuff (Gold) | two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads | ivory lime plaster | Finer than pheni. | 9.2 | 2 |
 | 14 | Marquise Layering Set | a cut stem of rajnigandha (tuberose) with long closed creamy buds, three fallen buds | pale sage handwoven linen | Blooms after dark. | 9.2 | 2 |
 | 15 | Ribbon Bead Bracelet | a handmade ivory card mithai box tied with one fine gold zari thread in a bow | ivory lime plaster | Comes with its own bow. | 9.0 | 2 |
@@ -129,6 +130,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 54 | Woven Gold Hoops | a wide, low hand-woven cane jewellery tray | pale warm oat lime plaster | The weave you wear. | 8.8 | 3 |
 | 55 | Cushion Halo Ring | a dandelion seed head, with three seeds drifting free | pale dove-grey lime plaster with a hint of lilac | Make a wish. | 9.3 | 2 |
 | 56 | Verdant Eternity Band | a mehendi cone and a freshly piped leafy henna vine on handmade paper | ivory handmade cotton paper | Mehendi that never fades. | 9.2 | 1 |
+| 57 | Baguette Tennis Bracelet (Crystal) | an ivory duchess-satin kiss-lock evening clutch | deep aubergine-plum lime plaster | Plans tonight? | 8.9 | 1 |
 | 58 | Baguette Huggies (Emerald) | a small stack of green glass bangles, kaanch ki choodiyan, with fine gold lines | pale pistachio-cream lime plaster | Choodi, for your ears. | 9.3 | 2 |
 | 59 | Bold Nocturne Chain | a handmade school paper chain, loops of gold foil paper glued link through link | soft butter-yellow lime plaster | Art class, all grown up. | 9.2 | 2 |
 | 60 | Bold Nocturne Bracelet | a small lit terracotta diya with ghee and a cotton wick | warm terracotta-blush lime plaster | The Diwali glow-up. | 9.3 | 2 |
