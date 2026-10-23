@@ -121,6 +121,28 @@
   "stack": true
  },
  {
+  "n": "11",
+  "key": "halo-curve-ring",
+  "plate": "plates/colour/11-halo-curve-ring.jpg",
+  "raw": "r11a",
+  "title": "Halo Curve Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "two rose heads side by side, one caramel and one champagne",
+  "ground": "pale warm latte lime plaster",
+  "rhyme": "two stones side by side on one ring = two roses side by side = the two of you; each rose in its stone's colour",
+  "line": "Tum aur main.",
+  "ink": "#6B4325",
+  "feed_top": 120,
+  "score": 9.5,
+  "jobs": [
+   "14caeccb (r11a, kept)"
+  ],
+  "notes": "r11a: the opaque banded tiger's eye cabochon and the faceted champagne crystal, each in its own slightly different gold bezel, on a thin 1.5 mm bypass wire, as in the listing; true scale, each stone about a fifth of a rose. The Feed window sits higher (feed_top 120) so the words clear the roses.",
+  "round": 3,
+  "replaces": "almonds, some with their brown skins and some soaked and peeled, one slipped skin; one brown and one peeled almond at the ring"
+ },
+ {
   "n": "13",
   "key": "silk-mesh-cuff",
   "plate": "plates/colour/13-silk-mesh-cuff.jpg",
@@ -191,6 +213,27 @@
   },
   "w": 270,
   "stack": true
+ },
+ {
+  "n": "16",
+  "key": "brushed-gold-huggies",
+  "plate": "plates/colour/16-brushed-gold-huggies.jpg",
+  "raw": "r16a",
+  "title": "Brushed Gold Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "a small hand-beaten brass trinket dish",
+  "ground": "pale warm sand lime plaster",
+  "rhyme": "the dressing-table dish where the everyday pair sleeps; brushed satin gold in hammered brass",
+  "line": "Your everyday pair.",
+  "ink": "#5E4521",
+  "score": 9.0,
+  "jobs": [
+   "7d2d986f (r16a, kept)"
+  ],
+  "notes": "r16a: wide softly domed bands in brushed satin with fine parallel lines and a hidden hinge, as in the listing. The huggies read a little large for 14 mm (about 1.4x beside the dish); the dish runs off the right edge. Calm sand plaster top left for the words.",
+  "round": 3,
+  "replaces": "two rava laddoos, one topped with a cashew and one broken open, crumbs"
  },
  {
   "n": "18",
