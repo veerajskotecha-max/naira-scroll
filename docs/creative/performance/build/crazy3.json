@@ -524,5 +524,52 @@
    "b2525088 (clean plate of c20a for the retouch)"
   ],
   "notes": "c20a: the same fine beaded chain, the bow of two clear heart-cut stones and the lobster clasp, as in the listing; the bracelet lies clear of the box. The model drew the crystal bow about 2.4x its 10 mm against the 9 cm box, so the bracelet was set back at 0.62 in post on a clean plate of the same frame, bow about 1.4x, loop true; the long arms of one star glint on the right heart were removed over the plaster (raw/c20a_r.png). No tag or lettering on the box. The box fills the upper right; calm mauve plaster bottom left for the words, in cream."
+ },
+ {
+  "n": "21",
+  "key": "brushed-gold-huggies-day",
+  "plate": "plates/crazy3/21-brushed-gold-huggies-day.jpg",
+  "raw": "c21a_rc",
+  "product": "11",
+  "time": "day",
+  "title": "Brushed Gold Huggies",
+  "price": "₹999",
+  "variant": null,
+  "handle": "brushed-gold-huggies",
+  "ingredient": "a closed tan leather notebook with a slim brass pen",
+  "ground": "pale warm stone lime plaster",
+  "rhyme": "the notebook, the pen and the gold that goes to work",
+  "line": "Nine to five.",
+  "ink": "#54463A",
+  "score": 9.0,
+  "jobs": [
+   "0141d49a (c21a, kept; huggies set back at true size)",
+   "1e499ef8 (clean plate of c21a for the retouch)"
+  ],
+  "notes": "c21a: a pair of wide, softly domed huggies in brushed satin gold tone, the fine brush lines running round the band, as in the listing; the pair lies clear of the notebook and the pen. The model drew them about 3x true size (each about four and a half times as wide as the brass pen is thick), so they were set back at 0.38 in post on a clean plate of the same frame, shadows and all (raw/c21a_r.png): now about 1.6 pen thicknesses, true for 14 mm huggies. The frame was then cropped in at full resolution, so the true-size pair reads in a feed (raw/c21a_rc.png). The notebook and pen fill the upper right; calm stone plaster top left for the words."
+ },
+ {
+  "n": "22",
+  "key": "brushed-gold-huggies-night",
+  "plate": "plates/crazy3/22-brushed-gold-huggies-night.jpg",
+  "raw": "c22a_rc",
+  "product": "11",
+  "time": "night",
+  "title": "Brushed Gold Huggies",
+  "price": "₹999",
+  "variant": null,
+  "handle": "brushed-gold-huggies",
+  "ingredient": "the folded ribbed collar of a black knit",
+  "ground": "deep near-black charcoal lime plaster",
+  "rhyme": "a black knit and small gold huggies: the classic",
+  "line": "The classic.",
+  "ink": "#EFE6D8",
+  "page_ink": "#36312D",
+  "score": 9.0,
+  "jobs": [
+   "05e16152 (c22a, kept; huggies set back at true size)",
+   "f52293fc (clean plate of c22a for the retouch)"
+  ],
+  "notes": "c22a: the same wide domed huggies in brushed satin gold tone, as in the listing; the pair lies clear of the knit. The model drew them about 2.5x true size (each spanning about seven of the knit's ribs), so they were set back at 0.4 in post on a clean plate of the same frame, shadows and all (raw/c22a_r.png): now about three ribs. The frame was then cropped in at full resolution, so the true-size pair reads in a feed (raw/c22a_rc.png). The knit fills the upper right; calm charcoal plaster top left for the words, in cream."
  }
 ]

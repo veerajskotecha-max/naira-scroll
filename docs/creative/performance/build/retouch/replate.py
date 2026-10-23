@@ -21,7 +21,24 @@ NOTOUCH = "notouch" in a
 #   optional: fill a = fill enclosed holes in the piece's mask smaller than a px (clear stones), never the opening of a loop
 FILL = int(a[a.index("fill") + 1]) if "fill" in a else 0
 #   optional: anchor ax ay = scale about this point (raw px), e.g. where a standing ring touches the ground, so it stays grounded
-ANCHOR = tuple(map(float, a[a.index("anchor") + 1:a.index("anchor") + 3])) if "anchor" in a else None                                                 # with hand: keep evenly darkened ground out of the piece
+ANCHOR = tuple(map(float, a[a.index("anchor") + 1:a.index("anchor") + 3])) if "anchor" in a else None
+#   optional: seedbox x0 y0 x1 y1 = look for the piece's seeds only inside this box (raw px), when a prop shares its colour
+SEEDBOX = tuple(map(int, a[a.index("seedbox") + 1:a.index("seedbox") + 5])) if "seedbox" in a else None
+#   optional: solid = an opaque piece (plain metal, no clear stones): its pale smooth highlights are metal, never light through it
+SOLID = "solid" in a
+#   optional: grabcut = refine the piece's outline by colour and edges (GrabCut), seeded by its strong metal as surely the piece and
+#   by the plaster the plate matches as surely not: for pale metal whose highlights and warm shadows colour thresholds confuse
+GRABCUT = "grabcut" in a
+#   optional: shadowcut <rm> <dev> = never the piece where the frame is darker than the plate by more than rm (a ratio) and evenly
+#   so (colour ratio spread under dev): a deep shadow on a dark ground, which the metal never is
+SHCUT = tuple(map(float, a[a.index("shadowcut") + 1:a.index("shadowcut") + 3])) if "shadowcut" in a else None
+#   optional: cut x1 y1 x2 y2 ... ; = a polygon (raw px, ended by ';') that is never the piece, e.g. a deep contact shadow
+CUT = None
+if "cut" in a:
+    i0 = a.index("cut") + 1; i1 = a.index(";", i0); v = list(map(int, a[i0:i1])); CUT = np.int32(list(zip(v[0::2], v[1::2])))
+#   optional: softshadow r = smooth the measured shadow over r px (darkest first), where the plate redrew the plaster's pores
+#   under the old shadow, so the measured shadow is speckled with them
+SOFT = int(a[a.index("softshadow") + 1]) if "softshadow" in a else 0                                                 # with hand: keep evenly darkened ground out of the piece
 D = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/colour"
 A = cv2.imread(f"{D}/raw/{src}.png").astype(np.float32); P = cv2.imread(f"{D}/raw/{pl}.png").astype(np.float32)
 if P.shape != A.shape: P = cv2.resize(P, (A.shape[1], A.shape[0]), interpolation=cv2.INTER_CUBIC)
@@ -35,6 +52,7 @@ def comps(m, keep):
 hsv = cv2.cvtColor(A.astype(np.uint8), cv2.COLOR_BGR2HSV)
 seed = ((hsv[..., 0] >= hlo) & (hsv[..., 0] <= hhi) & (hsv[..., 1] > 100) & (hsv[..., 2] > 25)).astype(np.uint8)
 seed = cv2.morphologyEx(seed, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+if SEEDBOX: sb = np.zeros_like(seed); sb[SEEDBOX[1]:SEEDBOX[3], SEEDBOX[0]:SEEDBOX[2]] = 1; seed = seed * sb
 if HAND:                                                                   # the outline drawn by hand is the authority on where the piece is
     e = HAND; band = np.zeros_like(seed)
     cv2.ellipse(band, ((e[0], e[1]), (e[2], e[3]), e[4]), 1, -1); cv2.ellipse(band, ((e[5], e[6]), (e[7], e[8]), e[9]), 0, -1)
@@ -70,6 +88,9 @@ cream = lambda X: (X[..., 1] > 40) & (X[..., 2] > 170) & (X[..., 0] >= 10) & (X[
 Vf = hsv[..., 2].astype(np.float32); sd = np.sqrt(np.maximum(blur(Vf * Vf, 2.0) - blur(Vf, 2.0) ** 2, 0))
 lit = (lum(A) > lum(Pt) + 15) & (sd < 22) & (seed == 0) & (hsv[..., 1] < 60)  # light through the piece onto the ground, never saturated metal or stone
 piece_like = ((sd > 16) | (lum(A) < lum(Pt) - 25) | (seed > 0)) & ~lit      # busy as pave, darker (stones), or its own colour
+if SOLID:                                                                  # opaque metal: its own saturated colour or brighter than the plate, never a shadow
+    lit = np.zeros_like(lit); Hh, Ss = hsv[..., 0], hsv[..., 1]
+    piece_like = (seed > 0) | (lum(A) > lum(Pt) + 8) | ((Ss > 75) & (Hh >= hlo) & (Hh <= hhi))
 rr = blur(A, 1.5) / np.maximum(blur(Pt, 1.5), 4); rm = rr.mean(-1)
 shadowlike = (rm > 0.4) & (rm < 0.985) & (np.abs(rr - rm[..., None]).max(-1) < 0.035) & (sd < 16)   # evenly darkened, smooth: a shadow
 if HAND:                                                                   # a ring's outline drawn by hand: outer ellipse minus its opening
@@ -83,6 +104,23 @@ elif RINGFIT:                                                              # a r
 else:
     G = ((blur(d, 1.2) > 60) & (RZ > 0) & ~cream(hsv) & piece_like & ~shadowlike).astype(np.uint8)
 G = cv2.morphologyEx(G, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)) | seed
+if GRABCUT:
+    Au = np.clip(A, 0, 255).astype(np.uint8); db = blur(d, 1.2); Sv, Vv = hsv[..., 1].astype(int), hsv[..., 2].astype(int)
+    zone = cv2.dilate(seed, disk(reach)) > 0
+    gm = np.full((h, w), cv2.GC_BGD, np.uint8); gm[zone] = cv2.GC_PR_BGD
+    gm[zone & (db > 60) & ~((lum(A) < lum(Pt)) & (Sv < 90))] = cv2.GC_PR_FGD           # differs from the plate and is not a pale shadow
+    gm[zone & (db < 30) & (cv2.dilate(seed, disk(4)) == 0)] = cv2.GC_BGD                 # the plaster exactly as the plate has it
+    dev = np.abs(rr - rm[..., None]).max(-1)                                            # how unevenly it differs from the plaster
+    strong = ((seed > 0) & (((dev > 0.11) & (rm > 0.5)) | (lum(A) > lum(Pt) + 5))).astype(np.uint8)   # metal, never its warm shadow
+    gm[zone & (rm < 0.8) & (dev < 0.1) & (lum(A) < lum(Pt) - 20) & (cv2.dilate(strong, disk(5)) == 0)] = cv2.GC_BGD    # its shadow:
+                                                                                         # the plaster evenly darkened, warm bounce allowed
+    gm[cv2.erode(strong, disk(3)) > 0] = cv2.GC_FGD                                     # strong metal
+    gm[zone & (Vv > 246) & (db > 60) & (cv2.dilate(strong, disk(30)) > 0)] = cv2.GC_FGD  # its brightest highlights
+    ys0, xs0 = np.nonzero(zone); r0 = (xs0.min(), ys0.min(), xs0.max() - xs0.min() + 1, ys0.max() - ys0.min() + 1)
+    sub = (slice(r0[1], r0[1] + r0[3]), slice(r0[0], r0[0] + r0[2])); g2 = gm[sub].copy()
+    bg_, fg_ = np.zeros((1, 65), np.float64), np.zeros((1, 65), np.float64)
+    cv2.grabCut(Au[sub], g2, None, bg_, fg_, 6, cv2.GC_INIT_WITH_MASK)
+    G = np.zeros_like(G); G[sub] = ((g2 == cv2.GC_FGD) | (g2 == cv2.GC_PR_FGD)).astype(np.uint8)
 n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(6)))
 keep = [i for i in range(1, n) if (seed[lab == i] > 0).any()]               # only parts that hold the piece's own stones or metal
 G = cv2.morphologyEx(np.isin(lab, keep).astype(np.uint8), cv2.MORPH_CLOSE, disk(6))
@@ -90,6 +128,11 @@ if CLOSE: G = cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(CLOSE))           # dark
 if FILL:                                                                   # clear stones show the ground through them: fill their small holes
     n4, lab4, st4, _ = cv2.connectedComponentsWithStats((G == 0).astype(np.uint8))
     G = (G | np.isin(lab4, [i for i in range(1, n4) if st4[i][4] < FILL and st4[i][0] > 0 and st4[i][1] > 0 and st4[i][0] + st4[i][2] < w and st4[i][1] + st4[i][3] < h])).astype(np.uint8)
+if CUT is not None: cm = np.zeros_like(G); cv2.fillPoly(cm, [CUT], 1); G[cm > 0] = 0
+if SHCUT:
+    dv_ = np.abs(rr - rm[..., None]).max(-1); G[(rm < SHCUT[0]) & (dv_ < SHCUT[1])] = 0
+    G = G & cv2.dilate(cv2.erode(G, disk(6)), disk(12))                        # no thin rims of half-lit shadow away from the body
+    n5, lab5, st5, _ = cv2.connectedComponentsWithStats(G); G = np.isin(lab5, [i for i in range(1, n5) if (seed[lab5 == i] > 0).any() and st5[i][4] > 400]).astype(np.uint8)
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
@@ -104,6 +147,9 @@ Zf = blur(cv2.dilate(Z, disk(10)), 8)[..., None]
 k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real shadow only, not noise between the two renders
 same = cream(hsv) == cream(hsvP)                                           # shadow only where both show the same surface
 R = np.where((Z > 0) & same & (G == 0), 1 - (1 - np.minimum(1, blur(dl, 2.0))) * k, 1)
+if SOFT:                                                                   # (the piece itself left out of the smoothing, so no halo)
+    out_ = (G == 0).astype(np.float32); Re = cv2.erode(np.where(G > 0, 1.0, R).astype(np.float32), disk(SOFT))
+    R = np.where(G > 0, R, np.minimum(1, blur(Re * out_, SOFT) / np.maximum(blur(out_, SOFT), 1e-3)))
 R = np.minimum(R, np.where(G > 0, 1, R))[..., None]
 Gf = blur(G, 0.9)[..., None]
 # inside the footprint, the plate's broad tone follows the original plaster around it (the model paints the gap a shade off)
@@ -121,15 +167,16 @@ M = np.float32([[s, 0, ncx - s * cx], [0, s, ncy - s * cy]])
 if ANCHOR: M = np.float32([[s, 0, ANCHOR[0] * (1 - s)], [0, s, ANCHOR[1] * (1 - s)]])   # or scale about the point it stands on
 pre = lambda m: blur(m, 0.45 / s) if s < 0.8 else m
 warp = lambda m, b: cv2.warpAffine(m, M, (w, h), flags=cv2.INTER_LINEAR, borderValue=b)
-Gs = warp(pre(Gf[..., 0]), 0)[..., None]; As = warp(pre(A), 0)
+Gs = warp(pre(Gf[..., 0]), 0)[..., None]; As = warp(pre(A * Gf), 0)              # premultiplied: no ground leaks into its edge
 if SYNTH:                                                                  # the piece's own outline casts its shadow, light from the upper left
     Ws = (xs.max() - xs.min()) * s; g0 = Gs[..., 0]
     sh = lambda m, fx, fy: cv2.warpAffine(m, np.float32([[1, 0, fx * Ws], [0, 1, fy * Ws]]), (w, h))
     Rs = ((1 - CAST * blur(sh(g0, 0.07, 0.06), 0.04 * Ws)) * (1 - CONTACT * blur(sh(g0, 0.012, 0.014), 0.012 * Ws)))[..., None]
 else:
     Rs = warp(pre(R[..., 0]), 1.0)[..., None]
-out = base * Rs; out = out * (1 - Gs) + As * Gs
+out = base * Rs; out = out * (1 - Gs) + As
 cv2.imwrite(f"{D}/raw/{dst}.png", np.clip(out, 0, 255).astype(np.uint8))
+cv2.imwrite(f"{D}/raw/{dst}_G.png", (G * 255).astype(np.uint8)); cv2.imwrite(f"{D}/raw/{dst}_Z.png", (Z * 255).astype(np.uint8))
 ys2, xs2 = np.nonzero(Z); bx0, by0, bx1, by1 = max(0, xs2.min() - 60), max(0, ys2.min() - 60), min(w, xs2.max() + 60), min(h, ys2.max() + 60)
 viz = A.copy(); viz[G > 0] = (0, 0, 255); viz[(Z > 0) & (G == 0)] = viz[(Z > 0) & (G == 0)] * 0.6 + np.array([255, 0, 0]) * 0.4
 pair = np.concatenate([viz[by0:by1, bx0:bx1], np.full((by1 - by0, 10, 3), 255, np.float32), out[by0:by1, bx0:bx1]], 1)
