@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-37 shots kept, average score 9.14, 83 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+39 shots kept, average score 9.14, 86 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -118,6 +118,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 18 | Lilac Papillon Ring | a drift of fallen lavender jacaranda blossoms, two loose petals | ivory lime plaster | Jacaranda season, all year. | 9.0 | 2 |
 | 19 | Aqua Heart Drops (Silver) | a small hand-painted Jaipur blue-pottery dish in white, pale aqua and soft blue, one chip on the rim | ivory lime plaster | Pink City, blue heart. | 8.8 | 4 |
 | 20 | Prism Cluster Studs (Silver) | three cones of Diwali rangoli powder (violet, baby pink, marigold yellow) and a fingertip drawing the first curved stroke | ivory lime plaster | Rangoli you can wear. | 9.1 | 2 |
+| 21 | Molten Panel Bracelet | an antique-gold silk satin dupatta in soft folds | pale warm ivory lime plaster | Drapes like silk. | 9.1 | 2 |
 | 23 | Baguette Halo Drops | two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower | ivory lime plaster | In bloom for Diwali. | 9.1 | 2 |
 | 24 | Verdant Cushion Studs (Silver) | two fresh paan (betel) leaves and one whole clove, the pin of a folded paan | ivory lime plaster | Pehenke paan Banaras wala. | 9.0 | 4 |
 | 25 | Quatrefoil Éclat Studs | freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes | ivory lime plaster | Collected at dawn. | 9.1 | 2 |
@@ -139,6 +140,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 61 | Halo Curve Ring | three glass marbles (kanche), two amber cat's-eyes and one champagne swirl | pale warm honey-sand lime plaster | Never lose your marbles. | 9.2 | 2 |
 | 62 | Kiss Knot Bangle (Gold) | a small cream envelope of handmade paper, sealed with gold wax pressed with a heart | soft pale blush lime plaster | Sealed with a kiss. | 9.3 | 2 |
 | 64 | Marquise Layering Set | a small paper patang of champagne tissue on a bamboo spine and bow | pale dawn-peach lime plaster | Kai po che! | 9.0 | 6 |
+| 65 | Brushed Gold Huggies | the folded sleeve of a cream cable-knit wool sweater | pale warm oat lime plaster | Sweater-weather gold. | 9.3 | 1 |
 | 66 | Ribbon Bead Bracelet | a white satin school ribbon tied in a double-loop bow with V-cut tails | deep school-uniform navy lime plaster | Mummy's bow, minus the tug. | 9.2 | 2 |
 | 67 | Rivière Eternal Bracelet | a Diwali ladi of tiny warm fairy-light bulbs on fine copper wire | warm dusk-cream lime plaster | A ladi that never fuses. | 9.2 | 2 |
 | 68 | Bold Dome Huggies | a string of brass ghungroo bells on a red cotton cord | soft pale vermilion-blush lime plaster | Ghungroo, on mute. | 9.2 | 2 |

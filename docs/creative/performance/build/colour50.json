@@ -311,6 +311,28 @@
   "notes": "Studs exact and mirrored: purple princess, pink baguette, large yellow emerald cut, purple princess, pink baguette, tiny pearls in the gaps. The model added a fingertip drawing the stroke despite the no-hands line; kept, as it is natural, soft-focus and gives true scale (studs about 1.4x). 20a sat on a plinth edge with scattered specks."
  },
  {
+  "n": "21",
+  "key": "molten-panel-bracelet",
+  "plate": "plates/colour/21-molten-panel-bracelet.jpg",
+  "raw": "r21b",
+  "title": "Molten Panel Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "an antique-gold silk satin dupatta in soft folds",
+  "ground": "pale warm ivory lime plaster",
+  "rhyme": "the bracelet bends and drapes like the silk beside it: gold metal that moves like gold silk",
+  "line": "Drapes like silk.",
+  "ink": "#5E4723",
+  "score": 9.1,
+  "jobs": [
+   "4c2e6202 (r21a)",
+   "dc8742cd (r21b, kept)"
+  ],
+  "notes": "r21b: small flat oval plates in five staggered brick-set rows, articulated, with the square box clasp, standing on its edge in an S, as in the listing. r21a was faithful too but its silk knot read as a necktie. Calm ivory plaster top left for the words.",
+  "round": 3,
+  "replaces": "a heap of golden chana dal (split Bengal gram), loose dal beside the bracelet"
+ },
+ {
   "n": "23",
   "key": "baguette-halo-drops",
   "plate": "plates/colour/23-baguette-halo-drops.jpg",
@@ -804,6 +826,27 @@
    "bottom": 72
   },
   "w": 380
+ },
+ {
+  "n": "65",
+  "key": "brushed-gold-huggies",
+  "plate": "plates/colour/65-brushed-gold-huggies.jpg",
+  "raw": "r65a",
+  "title": "Brushed Gold Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "the folded sleeve of a cream cable-knit wool sweater",
+  "ground": "pale warm oat lime plaster",
+  "rhyme": "the season: soft brushed gold on soft wool, the pair you wear all winter",
+  "line": "Sweater-weather gold.",
+  "ink": "#5E4A2E",
+  "score": 9.3,
+  "jobs": [
+   "04433f20 (r65a, kept)"
+  ],
+  "notes": "r65a: wide softly domed bands in brushed satin with fine parallel lines, one on its side showing the C, as in the listing; true scale, each huggie about half a cable twist. Calm oat plaster top left for the words.",
+  "round": 3,
+  "replaces": "an old wooden sewing spool wound with soft-gold zari thread"
  },
  {
   "n": "66",
