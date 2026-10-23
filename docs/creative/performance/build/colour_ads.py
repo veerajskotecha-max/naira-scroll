@@ -5,7 +5,8 @@
 # Placement is the house placer (perf_ads.PLACE_JS): in the page it tries every corner, width, offset and a slightly smaller size,
 # measures the real text box on the busy-and-tone grid and keeps the cheapest; the type stays in the shot's ink whatever it picks.
 # The grid reads smooth pale props (petha, petals) as calm, so an entry can fix the block with `pos` ({"left"|"right", "top"|"bottom"}
-# in px) after a look at the Feed; `w` narrows the block so a line breaks in two.
+# in px) after a look at the Feed; `w` narrows the block so a line breaks in two, `hs` sets the line size and `stack` puts the
+# price under the name for a narrow calm column.
 # Usage: colour_ads.py [NN ...] -> ../ads/colour/<NN>-<handle>-feed.jpg and -story.jpg
 import json, os, subprocess, sys
 from PIL import Image
@@ -50,7 +51,8 @@ def feed(e):
                                                                "align-items:flex-end;text-align:right" if right else "")
     name = B.glue(e["title"] + (f" · {e['variant']}" if e.get("variant") else ""))
     html = (f'<meta charset="utf-8"><style>{css}</style><body><div class="t"><img class="wm" src="file://{logo(e["ink"])}">'
-            f'<div class="h">{e["line"]}</div><div class="c">{name} &nbsp;·&nbsp; {e["price"]}</div></div>{PLACE_JS % json.dumps(P)}</body>')
+            f'<div class="h">{e["line"]}</div><div class="c">{name}{"<br>" if e.get("stack") else " &nbsp;·&nbsp; "}{e["price"]}</div></div>'
+            f'{PLACE_JS % json.dumps(P)}</body>')
     page = f"{WORK}/{e['n']}-feed.html"; open(page, "w").write(html); return f"{e['n']}-feed"
 
 def main():

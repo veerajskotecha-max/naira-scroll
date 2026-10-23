@@ -236,5 +236,99 @@
    "fc24e076 (11b, kept)"
   ],
   "notes": "Ring exact: thin open bypass wire, banded tiger eye and faceted champagne crystal in unmatched slim bezels; each stone about half an almond, true scale. The brown almond lies under the tiger eye and the peeled one under the crystal, mirroring the pair. 11a crowded the top with the heap."
+ },
+ {
+  "n": "12",
+  "key": "kiss-knot-bangle",
+  "plate": "plates/colour/12-kiss-knot-bangle.jpg",
+  "raw": "12b",
+  "title": "Kiss Knot Bangle",
+  "price": "₹1,199",
+  "variant": "Gold",
+  "ingredient": "three golden Diwali chakli flecked with sesame, one broken in half, crumbs",
+  "ground": "pale sage handwoven linen",
+  "rhyme": "the ribbed gold coil = the piped ridges of a golden chakli spiral; Diwali faral season",
+  "line": "Not for dunking.",
+  "ink": "#5C4313",
+  "score": 9.0,
+  "jobs": [
+   "a8a6c2ea (12a)",
+   "51a78203 (12b, kept)"
+  ],
+  "notes": "Bangle exact: continuous finely ribbed tubogas coil bound by one polished X at the front. Chakli read real (rough fried ridges, black sesame). 12a equally true but the chakli crowd the top. First sage ground. Gold reads a touch rosy in the warm light.",
+  "feed_top": 90
+ },
+ {
+  "n": "13",
+  "key": "silk-mesh-cuff",
+  "plate": "plates/colour/13-silk-mesh-cuff.jpg",
+  "raw": "13b",
+  "title": "Silk Mesh Cuff",
+  "price": "₹1,499",
+  "variant": "Gold",
+  "ingredient": "two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads",
+  "ground": "ivory lime plaster",
+  "rhyme": "the fine woven gold mesh = the hair-fine golden threads of pheni",
+  "line": "Finer than pheni.",
+  "ink": "#5A4518",
+  "score": 9.2,
+  "jobs": [
+   "887225cd (13a)",
+   "cb8fa255 (13b, kept)"
+  ],
+  "notes": "Mesh exact (fine milanese weave rolled into a tube), polished oval end caps facing across the gap. Pheni reads real with a caramelised centre. Cuff to pheni 1.29, true 1.25. 13a enlarged the cuff and cut the pheni at the frame edge. Spelled pheni, not feni (the Goan spirit).",
+  "feed_top": 190
+ },
+ {
+  "n": "14",
+  "key": "marquise-layering-set",
+  "plate": "plates/colour/14-marquise-layering-set.jpg",
+  "raw": "14a",
+  "title": "Marquise Layering Set",
+  "price": "₹1,599",
+  "variant": null,
+  "ingredient": "a cut stem of rajnigandha (tuberose) with long closed creamy buds, three fallen buds",
+  "ground": "pale sage handwoven linen",
+  "rhyme": "clear pointed marquise stones = the pointed creamy tuberose buds; rajnigandha, the night-fragrant flower",
+  "line": "Blooms after dark.",
+  "ink": "#5A4416",
+  "score": 9.2,
+  "jobs": [
+   "aece9b04 (14a, kept)",
+   "71664a5c (14b)"
+  ],
+  "notes": "Set exact: two separate fine cable chains; short one with one 13mm marquise; lariat with the Y pear, two marquise stations spaced apart and a pear tip, five stones in all. Big marquise about half a bud, true scale. 14b lost a marquise station on the lariat drop.",
+  "feed_top": 330,
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
+ },
+ {
+  "n": "15",
+  "key": "ribbon-bead-bracelet",
+  "plate": "plates/colour/15-ribbon-bead-bracelet.jpg",
+  "raw": "15b",
+  "title": "Ribbon Bead Bracelet",
+  "price": "₹799",
+  "variant": null,
+  "ingredient": "a handmade ivory card mithai box tied with one fine gold zari thread in a bow",
+  "ground": "ivory lime plaster",
+  "rhyme": "the hair-fine gold chain = the gold zari thread; the two-heart stone bow = the thread bow; Diwali gifting",
+  "line": "Comes with its own bow.",
+  "ink": "#5E4519",
+  "score": 9.0,
+  "jobs": [
+   "e0c78d00 (15a)",
+   "efa8c3f2 (15b, kept)"
+  ],
+  "notes": "Bow exact: two clear hearts meeting at a gold centre bar in fine claws; satellite beads and lobster clasp true. Hearts about 5.7mm against 5mm true. The only non-ingredient prop of the set, chosen for Diwali gifting. 15a had harder light and hearts about 6.3mm.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 270,
+  "hs": 52,
+  "stack": true
  }
 ]
