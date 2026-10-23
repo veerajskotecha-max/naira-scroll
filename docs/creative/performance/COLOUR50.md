@@ -101,80 +101,40 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-70 shots kept, average score 9.09, 182 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+30 shots kept, average score 9.14, 74 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
-| 01 | Toggle Link Chain | fresh yellow genda marigolds on a cotton thread, loose petals | ivory lime plaster | A garland you wear. | 8.8 | 4 |
-| 02 | Baguette Tennis Necklace (Crystal) | Agra petha: translucent sugar-crusted rectangles on an old brass plate | ivory lime plaster | Agra, in a line. | 9.0 | 2 |
+| 02 | Baguette Tennis Necklace (Crystal) | an ivory raw-silk potli with a gold zari border and gold tassels, the necklace spilling from its mouth | pale blush-pink lime plaster | Packed for the shaadi. | 9.3 | 1 |
 | 03 | Prism Rivière Bracelet | sugared almonds in aqua, pink and butter yellow, in an old silver katori | ivory lime plaster | Pick all three. | 9.2 | 2 |
-| 04 | Woven Gold Hoops | three ripe golden wheat ears, loose grains and a bristle | ivory lime plaster | Harvest gold. | 9.3 | 2 |
-| 05 | Verdant Eternity Band | freshly shelled hara chana in an old brass katori, a papery pod | ivory lime plaster | Fresh from the pod. | 9.2 | 2 |
-| 06 | Cushion Halo Ring | kaju katli with silver varq, a stack on crinkled butter paper and one loose diamond, torn varq flakes | ivory lime plaster | The last piece is yours. | 9.0 | 2 |
-| 07 | Baguette Tennis Bracelet (Crystal) | a soft mound of raw long-grain basmati rice with a trail of single grains spilling into the bracelet | sand handwoven linen | Every grain in line. | 9.1 | 2 |
-| 08 | Baguette Huggies (Emerald) | a loose heap of pistachio pieces with rose-purple skins, a few loose slivers in front | ivory lime plaster | Garnish your ears. | 8.7 | 2 |
-| 09 | Bold Nocturne Chain | broken chunks of golden Kolhapuri jaggery (gur) with crumbs | grey-green Kota stone slab | Good things come in chunks. | 8.8 | 2 |
-| 10 | Bold Nocturne Bracelet | a soft cone of haldi powder and two fresh turmeric roots, one snapped to its orange core | ivory lime plaster | Bring on the haldi. | 9.1 | 4 |
-| 11 | Halo Curve Ring | almonds, some with their brown skins and some soaked and peeled, one slipped skin; one brown and one peeled almond at the ring | cream handmade cotton paper | Good for the memory. | 9.3 | 2 |
-| 12 | Kiss Knot Bangle (Gold) | three golden Diwali chakli flecked with sesame, one broken in half, crumbs | pale sage handwoven linen | Not for dunking. | 9.0 | 2 |
+| 04 | Woven Gold Hoops | the woven gold zari paisley border of an ivory Banarasi silk saree | the ivory Banarasi silk itself | Banarasi, for your ears. | 9.4 | 1 |
 | 13 | Silk Mesh Cuff (Gold) | two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads | ivory lime plaster | Finer than pheni. | 9.2 | 2 |
 | 14 | Marquise Layering Set | a cut stem of rajnigandha (tuberose) with long closed creamy buds, three fallen buds | pale sage handwoven linen | Blooms after dark. | 9.2 | 2 |
 | 15 | Ribbon Bead Bracelet | a handmade ivory card mithai box tied with one fine gold zari thread in a bow | ivory lime plaster | Comes with its own bow. | 9.0 | 2 |
-| 16 | Brushed Gold Huggies | two rava laddoos, one topped with a cashew and one broken open, crumbs | ivory lime plaster | Roasted till golden. | 8.8 | 4 |
-| 17 | Rivière Eternal Bracelet | an old steel katori of dry sabudana (sago), grains and sago dust spilled beside the bracelet | pale grey Kota stone | Sabudana, but make it sparkle. | 8.9 | 6 |
 | 18 | Lilac Papillon Ring | a drift of fallen lavender jacaranda blossoms, two loose petals | ivory lime plaster | Jacaranda season, all year. | 9.0 | 2 |
 | 19 | Aqua Heart Drops (Silver) | a small hand-painted Jaipur blue-pottery dish in white, pale aqua and soft blue, one chip on the rim | ivory lime plaster | Pink City, blue heart. | 8.8 | 4 |
 | 20 | Prism Cluster Studs (Silver) | three cones of Diwali rangoli powder (violet, baby pink, marigold yellow) and a fingertip drawing the first curved stroke | ivory lime plaster | Rangoli you can wear. | 9.1 | 2 |
-| 21 | Molten Panel Bracelet | a heap of golden chana dal (split Bengal gram), loose dal beside the bracelet | ivory lime plaster | Daal mein kuch gold hai. | 9.2 | 2 |
-| 22 | Torsade Pearl Cuff | a heap of makhana (puffed lotus seeds), one makhana beside each pearl | ivory lime plaster | Zero-calorie makhana. | 9.2 | 2 |
 | 23 | Baguette Halo Drops | two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower | ivory lime plaster | In bloom for Diwali. | 9.1 | 2 |
 | 24 | Verdant Cushion Studs (Silver) | two fresh paan (betel) leaves and one whole clove, the pin of a folded paan | ivory lime plaster | Pehenke paan Banaras wala. | 9.0 | 4 |
 | 25 | Quatrefoil Éclat Studs | freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes | ivory lime plaster | Collected at dawn. | 9.1 | 2 |
-| 26 | Bold Dome Huggies | a small group of golden pani puri shells (golgappe), one cracked open, crisp crumbs | ivory lime plaster | Puffed to perfection. | 8.8 | 4 |
-| 27 | Torsade Huggies | two crossed twisted khari puff-pastry straws, a broken piece, golden flakes | ivory lime plaster | The chai-time twist. | 9.1 | 2 |
 | 28 | Baguette Eternity Band (Ruby) | a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain | ivory lime plaster | Worth its weight in kesar. | 8.9 | 4 |
 | 29 | Heartbead Bracelet | edible silver dragees, a soft heap with a few rolled loose towards the bracelet | ivory lime plaster | The icing on the wrist. | 9.1 | 2 |
-| 30 | Serpentine Whisper Chain (Silver) | coarse rock salt crystals (khada namak), a loose heap with two crystals beside the stone | dove-grey lime plaster | Season to taste. | 9.2 | 2 |
-| 31 | Baroque Shell Bracelet | seven cowrie shells thrown as in pachisi, backs and toothed mouths, one touching a pearl | honey-cream lime plaster with a soft diagonal window shadow | Lucky throw. | 9.1 | 4 |
-| 32 | Petite Square Huggies | two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie | pale butter-yellow lime plaster | Too good to re-gift. | 9.1 | 2 |
-| 33 | Rivière Hoops (Silver) | whole cashews (kaju), a loose scatter with one lying beside the flat hoop | warm-grey handwoven linen | Always the first to go. | 9.0 | 2 |
-| 34 | Emerald Square Ear Cuff | the corner of a square of fresh banana leaf with three beads of water | pale sage-green lime plaster | A square meal. | 8.9 | 4 |
-| 35 | Pear Point Open Cuff | loose pink desi rose petals beaded with rose water, two drops on the plaster, one petal touching the cuff | pale blush-pink lime plaster | Two drops of gulab jal. | 9.2 | 4 |
-| 36 | Bold Nocturne Drops | til chikki, four sesame-and-jaggery pieces, loose seeds and a shard, one piece touching a pavé link | warm honey-toned lime plaster | Chikki si chamak. | 8.9 | 2 |
-| 37 | Marquise Drop Choker | a brass katori of chashni (sugar syrup) with one thread falling from a steel spoon | warm cream lime plaster | Ek taar, just right. | 9.0 | 2 |
-| 38 | Droplet Open Cuff (Gold) | gond (edible acacia gum), glassy tears and frosted crackled nuggets, one tear beside the cuff | pale warm ivory lime plaster | The good kind of sticky. | 9.0 | 4 |
-| 39 | Petal Flower Studs (Gold) | whole cloves (laung), a loose heap with three lying apart, one head turned to the camera | warm cream lime plaster | Laung, for your ears. | 9.2 | 2 |
-| 40 | Fine Tennis Bracelet | yellow mustard seeds (peeli rai), a spill with a band of seeds following the bracelet | soft ochre-mustard handwoven linen | Goes with everything. | 9.0 | 2 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
 | 42 | Mint Pear Drop Earrings | a green nashpati, one whole and one cut half, with one loose seed on the plaster | pale celadon-green lime plaster | Pick of the pears. | 9.0 | 4 |
-| 43 | North Star Bangle (Gold) | three thin slices of kamrakh (star fruit) in a little of their own juice | soft primrose-yellow lime plaster | All stars, no sour. | 9.1 | 2 |
-| 44 | Droplet Open Ring (Silver) | a nimbu-mirchi: one kagzi lime and seven green chillies strung on a white cotton thread, the ring leaning on the lime | cool pale grey-white lime plaster | Nazar na lage. | 9.1 | 4 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
-| 46 | Triple Coil Wrap Bangle (Gold) | bhakarwadi, a heap of spiral rounds with crumbs and sesame, one leaning on the bangle | pale warm terracotta lime plaster | Rolled up in gold. | 9.1 | 2 |
-| 47 | Garnet Cable Cuff | dry rajma (red kidney beans), a loose heap with one bean against a garnet tip | soft pale grey handwoven khadi | Sunday best. | 9.1 | 2 |
-| 48 | Charm Box Chain | two motichoor laddoos, one whole and one broken open, with a few loose boondi | pale warm apricot-cream lime plaster | Man mein laddoo phoota. | 9.0 | 4 |
-| 49 | Serpentine Whisper Chain (Gold) | a wooden honey dipper letting one thread of honey fall into a small pool on the stone | pale honey-cream Jaisalmer sandstone | Pours like honey. | 9.2 | 2 |
-| 50 | Baguette Tennis Necklace (Emerald) | a fresh sprig of kadi patta (curry leaves) with loose leaflets | warm cream lime plaster | The finishing tadka. | 9.1 | 2 |
 | 51 | Toggle Link Chain | brass paper clips, one clipped to a sheet of deckled ivory cotton paper | warm ivory lime plaster | Paperclip, promoted. | 9.2 | 2 |
-| 52 | Baguette Tennis Necklace (Crystal) | a fresh mogra gajra, white jasmine buds strung tight on cotton thread | pale sage-green lime plaster | A gajra that never wilts. | 9.3 | 2 |
+| 52 | Baguette Tennis Necklace (Crystal) | a small cut-crystal perfume bottle with a gold collar, golden perfume | pale warm champagne lime plaster | The final touch. | 9.0 | 2 |
 | 53 | Prism Rivière Bracelet | three origami paper boats in pastel aqua, pink and butter yellow, with a few raindrops | pale powder-blue lime plaster | Kaagaz ki kashti. | 9.2 | 6 |
-| 54 | Woven Gold Hoops | a golden silk paranda, a three-strand plait ending in a tassel bound with zari | pale rose-pink lime plaster | All braid, no tangles. | 9.1 | 2 |
 | 55 | Cushion Halo Ring | a dandelion seed head, with three seeds drifting free | pale dove-grey lime plaster with a hint of lilac | Make a wish. | 9.3 | 2 |
-| 56 | Verdant Eternity Band | a fresh money plant cutting, three marbled heart-shaped leaves on a short vine | pale mint-green lime plaster | Grows on you. | 9.1 | 2 |
-| 57 | Baguette Tennis Bracelet (Crystal) | the ivory keys of an old teak harmonium | warm honey teak and old ivory keys | Hits every note. | 9.1 | 4 |
 | 58 | Baguette Huggies (Emerald) | a small stack of green glass bangles, kaanch ki choodiyan, with fine gold lines | pale pistachio-cream lime plaster | Choodi, for your ears. | 9.3 | 2 |
 | 59 | Bold Nocturne Chain | a handmade school paper chain, loops of gold foil paper glued link through link | soft butter-yellow lime plaster | Art class, all grown up. | 9.2 | 2 |
 | 60 | Bold Nocturne Bracelet | a small lit terracotta diya with ghee and a cotton wick | warm terracotta-blush lime plaster | The Diwali glow-up. | 9.3 | 2 |
 | 61 | Halo Curve Ring | three glass marbles (kanche), two amber cat's-eyes and one champagne swirl | pale warm honey-sand lime plaster | Never lose your marbles. | 9.2 | 2 |
 | 62 | Kiss Knot Bangle (Gold) | a small cream envelope of handmade paper, sealed with gold wax pressed with a heart | soft pale blush lime plaster | Sealed with a kiss. | 9.3 | 2 |
-| 63 | Silk Mesh Cuff (Silver) | a little cloud of white cotton wool | deep midnight-blue lime plaster | Chanda mama, paas ke. | 9.3 | 2 |
 | 64 | Marquise Layering Set | a small paper patang of champagne tissue on a bamboo spine and bow | pale dawn-peach lime plaster | Kai po che! | 9.0 | 6 |
-| 65 | Brushed Gold Huggies | an old wooden sewing spool wound with soft-gold zari thread | warm pale linen-beige lime plaster | Spun gold. | 9.1 | 2 |
 | 66 | Ribbon Bead Bracelet | a white satin school ribbon tied in a double-loop bow with V-cut tails | deep school-uniform navy lime plaster | Mummy's bow, minus the tug. | 9.2 | 2 |
 | 67 | Rivière Eternal Bracelet | a Diwali ladi of tiny warm fairy-light bulbs on fine copper wire | warm dusk-cream lime plaster | A ladi that never fuses. | 9.2 | 2 |
 | 68 | Bold Dome Huggies | a string of brass ghungroo bells on a red cotton cord | soft pale vermilion-blush lime plaster | Ghungroo, on mute. | 9.2 | 2 |
-| 69 | Torsade Huggies | a child's skipping rope of twisted cotton with a turned wooden handle | warm pale wheat-gold lime plaster | Skip to the good part. | 9.1 | 2 |
-| 70 | Molten Panel Bracelet | a swatch of ivory net embroidered with rows of gold sequins (sitara), the edge of a lehenga dupatta | soft pale champagne lime plaster | All shimmer, no itch. | 9.1 | 2 |
 <!-- /log -->
 
 ## Round two: review of the 50 and 20 new (shots 51-70)

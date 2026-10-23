@@ -1,5 +1,32 @@
 [
  {
+  "n": "02",
+  "key": "baguette-tennis-necklace",
+  "plate": "plates/colour/02-baguette-tennis-necklace.jpg",
+  "raw": "r02a",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Crystal",
+  "ingredient": "an ivory raw-silk potli with a gold zari border and gold tassels, the necklace spilling from its mouth",
+  "ground": "pale blush-pink lime plaster",
+  "rhyme": "the potli every wedding guest carries = where this necklace travels; ivory, gold and blush, the shaadi palette",
+  "line": "Packed for the shaadi.",
+  "ink": "#6B4A26",
+  "score": 9.3,
+  "jobs": [
+   "c1a9e4a7 (r02a, kept)"
+  ],
+  "notes": "r02a: one row of crosswise baguettes in gold box settings, four corner claws and a window on each box side, as in the listing; both ends stay inside the potli, so the clasp is hidden. The stones read a little large beside a 15 cm potli (the model draws fine lines slightly big). Calm blush plaster top left for the words.",
+  "round": 3,
+  "replaces": "Agra petha: translucent sugar-crusted rectangles on an old brass plate",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true,
+  "w": 380
+ },
+ {
   "n": "03",
   "key": "prism-riviere-bracelet",
   "plate": "plates/colour/03-prism-riviere-bracelet.jpg",
@@ -18,6 +45,27 @@
    "11ed397c-0440-421a-af8e-1ecdd2add104"
   ],
   "notes": "Cushion stones in double pave halos with bead claws and gallery windows, fold-over clasp; no two neighbours share a colour. Variant b turned the plaster into travertine and crowded the frame."
+ },
+ {
+  "n": "04",
+  "key": "woven-gold-hoops",
+  "plate": "plates/colour/04-woven-gold-hoops.jpg",
+  "raw": "r04a",
+  "title": "Woven Gold Hoops",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "the woven gold zari paisley border of an ivory Banarasi silk saree",
+  "ground": "the ivory Banarasi silk itself",
+  "rhyme": "braided gold hoops beside woven gold zari: Banarasi weaving, made to wear",
+  "line": "Banarasi, for your ears.",
+  "ink": "#5E4320",
+  "score": 9.4,
+  "jobs": [
+   "5e0cf888 (r04a, kept)"
+  ],
+  "notes": "r04a: a thick braid of many fine gold strands, the flat polished disc inside the top and the hinged latch wire, both hoops round and identical, as in the listing. The zari border is about two and a half hoops wide. The top tenth is soft out-of-focus fold; calm ivory silk top left for the words.",
+  "round": 3,
+  "replaces": "three ripe golden wheat ears, loose grains and a bristle"
  },
  {
   "n": "13",
@@ -382,6 +430,33 @@
    "top": 84
   },
   "w": 400,
+  "stack": true
+ },
+ {
+  "n": "52",
+  "key": "baguette-tennis-necklace-crystal",
+  "plate": "plates/colour/52-baguette-tennis-necklace-crystal.jpg",
+  "raw": "r52b",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Crystal",
+  "ingredient": "a small cut-crystal perfume bottle with a gold collar, golden perfume",
+  "ground": "pale warm champagne lime plaster",
+  "rhyme": "perfume and the necklace are the last two things you put on before you leave; step-cut glass beside step-cut stones",
+  "line": "The final touch.",
+  "ink": "#6B4A22",
+  "score": 9.0,
+  "jobs": [
+   "1feb0da5 (r52a)",
+   "315fc352 (r52b, kept)"
+  ],
+  "notes": "r52b: crosswise baguettes in gold box settings with corner claws and side windows, as in the listing; the box clasp lies unfastened, the two ends apart, as if about to be put on. Honest scale beside an 8 cm bottle. r52a was as faithful but the low angle showed a window and wall in the top third.",
+  "round": 3,
+  "replaces": "a fresh mogra gajra, white jasmine buds strung tight on cotton thread",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
   "stack": true
  },
  {
