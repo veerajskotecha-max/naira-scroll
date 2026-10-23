@@ -149,5 +149,59 @@
    "76d4521d (c06a, kept; hoops scaled to true size)"
   ],
   "notes": "c06a: the same braid, disc and latch, as in the listing; plain black silk leaf on black sticks, no tassel, no pattern. The model drew the hoops about 1.9x true size beside the fan (its sticks only 4.3 hoops long), so they were scaled to 0.55 in post, shadows and all, on rebuilt plaster (raw/c06a_s.png): now about an eighth of the fan's length, true for 25 mm hoops and a 21 cm fan. The fan fills the top; calm oxblood plaster bottom left for the words, in cream. Line changed from the draft Fan favourite., which claims a popularity we have not measured."
+ },
+ {
+  "n": "07",
+  "key": "verdant-eternity-band-day",
+  "plate": "plates/crazy3/07-verdant-eternity-band-day.jpg",
+  "raw": "c07b_r",
+  "product": "4",
+  "time": "day",
+  "title": "Verdant Eternity Band",
+  "price": "₹1,099",
+  "variant": null,
+  "handle": "verdant-eternity-band",
+  "ingredient": "the flower head of one white calla lily",
+  "ground": "pale soft sage lime plaster",
+  "rhyme": "the bridal flower that is always in bloom, and the eternity band that stays green",
+  "line": "Always in bloom.",
+  "ink": "#3E4D41",
+  "score": 8.9,
+  "jobs": [
+   "b9768b05 (c07a, ring 2.5x, threaded on the stem)",
+   "f3271a47 (c07b, kept; ring set back at true size)",
+   "754c176f (clean plate of c07b for the retouch)"
+  ],
+  "notes": "c07b: oval emerald-green stones in four claws, the fine pavé wave scalloping between them, the open adjustable back with looped tips, cool silver tone, as in the listing. The model drew the ring about 2.6x true size in both tries (twice as wide as the lily's spadix; c07a threaded it on the stem), so it was set back at 0.42 in post on a clean plate of the same frame (the model removed the ring) with a drawn contact and cast shadow (raw/c07b_r.png): now a sixth of the frame, about a quarter of the flower's length. The flower fills the right; calm sage plaster top left for the words."
+ },
+ {
+  "n": "08",
+  "key": "verdant-eternity-band-night",
+  "plate": "plates/crazy3/08-verdant-eternity-band-night.jpg",
+  "raw": "c08c_r",
+  "product": "4",
+  "time": "night",
+  "title": "Verdant Eternity Band",
+  "price": "₹1,099",
+  "variant": null,
+  "handle": "verdant-eternity-band",
+  "ingredient": "an emerald-green satin evening clutch with a silver kiss-lock frame",
+  "ground": "deep bottle-green lime plaster",
+  "rhyme": "dinner in green: the satin clutch and the band that matches it",
+  "line": "Dinner in green.",
+  "ink": "#EAEFE3",
+  "page_ink": "#24503A",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "f6c32aaa (c08a, ring 1.6x, leaning on the clutch frame)",
+   "aea79e4b (failed)",
+   "217b6ab1 (c08c, kept; ring set back at true size)",
+   "30305b0a (clean plate of c08c for the retouch)"
+  ],
+  "notes": "c08c: oval emerald-green stones in four claws, the fine pavé wave scalloping between them, the open adjustable back with looped tips, cool silver tone, as in the listing; the ring stands on its band clear of the clutch. The model drew it about 1.5x true size (3.4 kiss-lock balls wide), so it was set back at 0.68 in post on a clean plate of the same frame, scaled from where it stands so it stays grounded, its own shadow carried (raw/c08c_r.png): now about 2.2 balls, true for 21 mm. The clutch fills the top; calm green plaster bottom left for the words, in pale mint."
  }
 ]

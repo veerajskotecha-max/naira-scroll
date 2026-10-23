@@ -46,6 +46,15 @@ Lines are drafts and are settled shot by shot. Changed so far: 05 has a linen sh
 necktie in round three, and the shirt's buttons give the hoops a true size); 06's line is Make an entrance., since Fan favourite.
 claims a popularity we have not measured.
 
+## True scale
+
+The model draws small pieces too large next to a prop: the hoops came out 1.5x and 1.9x, the emerald band 1.6x to 2.6x in five
+tries, whatever the prompt said about millimetres. So every kept frame is measured against its prop (buttons, kiss-lock balls, a
+fan's sticks, a lily's spadix) and, where the piece is too large, set back at true size in post; the notes of each shot say by
+how much. On a plain plaster ground the piece is lifted out by colour and the plaster rebuilt under it (`build/retouch/shrink.py`);
+where it touches anything else, the model first removes the piece from its own frame to give a clean plate, and the piece is set
+back on it (`build/retouch/replate.py`). Both scripts read the raw downloads in the session scratchpad.
+
 ## Budget
 
 40 frames at 2 credits, plus about 8 reshoots: about 95 credits. 28 credits were left after round three, enough for the first
@@ -59,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-6 shots kept, average score 9.18, 7 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+8 shots kept, average score 9.13, 14 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -69,4 +78,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 04 | Prism Rivière Bracelet | a mother-of-pearl box clutch | deep midnight-navy lime plaster | Colour after dark. | 9.3 | 1 |
 | 05 | Woven Gold Hoops | a folded ivory linen shirt, its open collar and mother-of-pearl buttons | pale warm oat lime plaster | Effortless, on purpose. | 9.2 | 1 |
 | 06 | Woven Gold Hoops | a black silk folding fan, half open | deep oxblood lime plaster | Make an entrance. | 9.0 | 1 |
+| 07 | Verdant Eternity Band | the flower head of one white calla lily | pale soft sage lime plaster | Always in bloom. | 8.9 | 3 |
+| 08 | Verdant Eternity Band | an emerald-green satin evening clutch with a silver kiss-lock frame | deep bottle-green lime plaster | Dinner in green. | 9.0 | 4 |
 <!-- /log -->
