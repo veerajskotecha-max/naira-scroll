@@ -845,5 +845,29 @@
    "left": 76,
    "bottom": 72
   }
+ },
+ {
+  "n": "37",
+  "key": "marquise-drop-choker",
+  "plate": "plates/colour/37-marquise-drop-choker.jpg",
+  "raw": "37a",
+  "title": "Marquise Drop Choker",
+  "price": "₹1,199",
+  "variant": null,
+  "ingredient": "a brass katori of chashni (sugar syrup) with one thread falling from a steel spoon",
+  "ground": "warm cream lime plaster",
+  "rhyme": "the fine drop chain with its two pears = ek taar ki chashni, the one-thread test of Indian sweet-making; brass, syrup and gold in one warm key",
+  "line": "Ek taar, just right.",
+  "ink": "#6A3F12",
+  "score": 9.0,
+  "pos": {
+   "right": 76,
+   "bottom": 72
+  },
+  "jobs": [
+   "84582c50 (37a, kept)",
+   "d91eb815 (37b)"
+  ],
+  "notes": "Collar is the ribbed round snake collar of the listing (the older lock said smooth). 37a: ribbed collar, marquise set sideways in claws, fine cable drop with a small pear halfway and one at the end, both pointing down; the collar circles the katori. One straight thread falls from the spoon, the one-thread test. 37b coils the syrup into a honey ribbon and crops the bowl. The spoon is held from out of frame."
  }
 ]
