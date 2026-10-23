@@ -7,7 +7,8 @@
 # The grid reads smooth pale props (petha, petals) as calm, so an entry can fix the block with `pos` ({"left"|"right", "top"|"bottom"}
 # in px) after a look at the Feed; `w` narrows the block so a line breaks in two, `hs` sets the line size and `stack` puts the
 # price (and the variant) under the name for a narrow calm column.
-# Usage: colour_ads.py [NN ...] -> ../ads/colour/<NN>-<handle>-feed.jpg and -story.jpg
+# Usage: colour_ads.py [--set crazy3] [NN ...] -> ../ads/<set>/<NN>-<key>-feed.jpg and -story.jpg
+#   the default set is colour (build/colour50.json); crazy3 is crazy ads phase 3 (build/crazy3.json)
 import json, os, subprocess, sys
 from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); PERF = os.path.dirname(HERE)
@@ -15,7 +16,9 @@ sys.path.insert(0, HERE); sys.path.insert(0, os.path.normpath(f"{PERF}/../finish
 import build_ads as B
 from perf_ads import grid, PLACE_JS
 
-WORK, OUT = f"{B.SPB}/perf/colour/ads", f"{PERF}/ads/colour"
+SETS = {"colour": "colour50.json", "crazy3": "crazy3.json"}
+ARGS = sys.argv[1:]; SET = ARGS[1] if ARGS[:1] == ["--set"] else "colour"; ARGS = ARGS[2:] if ARGS[:1] == ["--set"] else ARGS
+WORK, OUT = f"{B.SPB}/perf/{SET}/ads", f"{PERF}/ads/{SET}"
 
 CSS = """
 @font-face{font-family:CGI;src:url("file://%(f)s/CormorantGaramond-Italic[wght].ttf");font-weight:300 700}
@@ -58,7 +61,7 @@ def feed(e):
     page = f"{WORK}/{e['n']}-feed.html"; open(page, "w").write(html); return f"{e['n']}-feed"
 
 def main():
-    want = set(sys.argv[1:]); L = json.load(open(f"{HERE}/colour50.json"))
+    want = set(ARGS); L = json.load(open(f"{HERE}/{SETS[SET]}"))
     for d in (WORK, OUT): os.makedirs(d, exist_ok=True)
     jobs, done = [], []
     for e in L:
