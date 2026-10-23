@@ -40,6 +40,12 @@ SOLID = "solid" in a
 SEEDDIFF = "seeddiff" in a
 #   optional: cluster r = seeds within 2r px of each other count as one piece (default 40), for a piece whose pale parts leave gaps
 CLUSTER = int(a[a.index("cluster") + 1]) if "cluster" in a else 40
+#   optional: disc cx cy r (any number of them) = a round part of the piece given exactly, e.g. a white pearl on a pale ground
+DISCS = [tuple(map(float, a[i + 1:i + 4])) for i, tok in enumerate(a) if tok == "disc"]
+#   optional: onlydiscs pad = the piece is only its given discs, up to pad px past their edges, and any keepbox x0 y0 x1 y1 (its small
+#   joining parts, such as the loop between a disc and its pearl): nothing else, so no shadow is taken for it
+ONLYD = int(a[a.index("onlydiscs") + 1]) if "onlydiscs" in a else -1
+KEEPB = [tuple(map(int, a[i + 1:i + 5])) for i, tok in enumerate(a) if tok == "keepbox"]
 #   optional: smoothshadow = never the piece where the frame is smooth and darker than the plate and holds no seed: a shadow,
 #   which faceted stones never are; zpad r = how far the replaced zone reaches past the piece (default 14 px)
 SMOOTHSH = float(a[a.index("smoothshadow") + 1]) if "smoothshadow" in a and a.index("smoothshadow") + 1 < len(a) and a[a.index("smoothshadow") + 1].replace(".", "").isdigit() else (9.0 if "smoothshadow" in a else 0)
@@ -178,6 +184,12 @@ if FILL:                                                                   # cle
 if CUT is not None: G[cmask > 0] = 0
 if DROP is not None: dm = np.zeros_like(G); cv2.fillPoly(dm, DROP, 1); G[dm > 0] = 0
 
+if ONLYD >= 0:
+    allow = np.zeros_like(G)
+    for (dcx, dcy, dr) in DISCS: cv2.circle(allow, (int(round(dcx)), int(round(dcy))), int(round(dr + ONLYD)), 1, -1)
+    for (bx0, by0, bx1, by1) in KEEPB: allow[by0:by1, bx0:bx1] = 1
+    G = G & allow
+for (dcx, dcy, dr) in DISCS: cv2.circle(G, (int(round(dcx)), int(round(dcy))), int(round(dr)), 1, -1)
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(ZPAD)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))

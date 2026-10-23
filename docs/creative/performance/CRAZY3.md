@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-36 shots kept, average score 9.08, 66 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+38 shots kept, average score 9.08, 68 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -108,4 +108,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 34 | Molten Panel Bracelet | a folded black silk saree with a woven gold zari border | deep charcoal lime plaster | Liquid gold. | 9.1 | 2 |
 | 35 | Torsade Pearl Cuff | a padded headband in pearl-white duchess satin | pale blush lime plaster | Classic, with a twist. | 9.1 | 1 |
 | 36 | Torsade Pearl Cuff | a large black satin hair bow on a slim clip | deep warm taupe lime plaster | Black bow, white pearls. | 9.0 | 1 |
+| 37 | Baguette Halo Drops | one white gardenia in full bloom with two glossy leaves | pale warm ivory lime plaster | Pearl and petal. | 9.2 | 1 |
+| 38 | Baguette Halo Drops | one small lit brass diya | deep maroon lime plaster | Diwali, dressed up. | 9.2 | 1 |
 <!-- /log -->
