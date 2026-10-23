@@ -795,5 +795,31 @@
   ],
   "notes": "Sold as one cuff (listing copy: one green square), so one cuff is shown though the listing hero has two. 34a/34b drew the cuff about 2x against a 6cm leaf. Reshot with a 10cm leaf bleeding off the frame and the water beads as referent. 34d keeps the listing proportions (stone about 0.37 of the C) and true size (beads about 4mm, stone about 5mm, C about 14mm); its gold measures hue 34 against 32-33 in the listing photos, so the rosy look is only the green around it. 34c stood the cuff up with a tight C that made the stone about 1.5x too big for its band.",
   "feed_top": 150
+ },
+ {
+  "n": "35",
+  "key": "pear-point-open-cuff",
+  "plate": "plates/colour/35-pear-point-open-cuff.jpg",
+  "raw": "35c",
+  "title": "Pear Point Open Cuff",
+  "price": "₹1,499",
+  "variant": null,
+  "ingredient": "loose pink desi rose petals beaded with rose water, two drops on the plaster, one petal touching the cuff",
+  "ground": "pale blush-pink lime plaster",
+  "rhyme": "the two clear pear stones = two drops of gulab jal on rose petals",
+  "line": "Two drops of gulab jal.",
+  "ink": "#6B2E3B",
+  "score": 9.2,
+  "jobs": [
+   "a494f310 (35a)",
+   "45594ebc (35b)",
+   "3562cb4a (35c, kept)",
+   "3b974d02 (35d)"
+  ],
+  "notes": "35a/35b set both pears with their tips facing each other across the gap; in the listing each point tucks into the V of the band end and the rounded ends face the gap (the brief had said pointing toward each other). Reshot with the orientation spelled out: 35c and 35d both right. 35c kept for the softer plaster and a real spectral caustic thrown by the right stone. Cuff about 6cm, pears about 8mm against petals of 2.5cm.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
  }
 ]

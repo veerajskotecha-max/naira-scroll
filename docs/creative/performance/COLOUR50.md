@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-34 shots kept, average score 9.04, 90 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+35 shots kept, average score 9.04, 94 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -139,4 +139,5 @@ The shot log at the end records what was actually shot, kept and why.
 | 32 | Petite Square Huggies | two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie | pale butter-yellow lime plaster | Too good to re-gift. | 9.1 | 2 |
 | 33 | Rivière Hoops (Silver) | whole cashews (kaju), a loose scatter with one lying beside the flat hoop | warm-grey handwoven linen | Always the first to go. | 9.0 | 2 |
 | 34 | Emerald Square Ear Cuff | the corner of a square of fresh banana leaf with three beads of water | pale sage-green lime plaster | A square meal. | 8.9 | 4 |
+| 35 | Pear Point Open Cuff | loose pink desi rose petals beaded with rose water, two drops on the plaster, one petal touching the cuff | pale blush-pink lime plaster | Two drops of gulab jal. | 9.2 | 4 |
 <!-- /log -->
