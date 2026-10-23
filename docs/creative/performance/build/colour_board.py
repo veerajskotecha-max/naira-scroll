@@ -33,7 +33,7 @@ def main():
         save(feed, f"{OUT}/f/{n}.jpg", 1080, 84); save(story, f"{OUT}/s/{n}.jpg", 810, 84)
         save(feed, f"{OUT}/t/{n}-f.jpg", 480, 78); save(story, f"{OUT}/t/{n}-s.jpg", 270, 78)
         _, _, stock, cat = M.SHOP[n]
-        kind, reason = M.REVIEW.get(n, (None, None))
+        kind, reason = getattr(M, "REVIEW", {}).get(n, (None, None))   # the round-two flags; superseded by the handoff page
         group = "new" if int(n) > 50 else "retired" if kind == "retire" else "kept"
         ads.append(dict(n=n, group=group, flag=dict(kind=kind, reason=reason) if kind else None, title=e["title"], variant=e.get("variant") or "", price=e["price"], stock=stock, cat=cat, ink=e.get("page_ink", e["ink"]),   # page_ink: a dark stand-in where the ad's own ink is cream
                         score=e["score"], line=e["line"], ingredient=e["ingredient"][0].upper() + e["ingredient"][1:],

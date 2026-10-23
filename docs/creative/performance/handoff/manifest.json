@@ -1,0 +1,2319 @@
+{
+ "name": "Naira approved ads · colour-coded set",
+ "as_of": "2026-10-23",
+ "artifact": "https://claude.ai/artifact/8pGjpcLq3EgsZtMjeNC2pt",
+ "shop": "https://www.nairaflore.com",
+ "how_to_use": [
+  "Read the founder's verdicts in this artifact's database: collection \"verdicts\", one document per ad, its id the ad number (\"02\"), its field \"verdict\" either \"keep\" or \"drop\". Make an ad only when its verdict is \"keep\". If the verdicts cannot be read, use only ads whose status here is \"approved\".",
+  "Each ad is two images of one photograph. The Feed file (1080x1350, 4:5) already carries the NAIRA wordmark, the line and the name and price; use it for Facebook and Instagram Feed and Explore. The Story file (1080x1920, 9:16) is the photograph alone; use it for Stories and Reels. Never crop, retouch or add text to either file.",
+  "Give both images the ad's primary_text, headline, cta and url exactly as written here. The url opens the ad's own colour and carries its UTM tags.",
+  "Campaign: \"PERF · Colour (least graphics) · Oct 2026\", one ad set per ad_set value (Bracelets, Earrings, Necklaces & rings), the rows of ads.csv.",
+  "Create every campaign, ad set and ad paused, for the founder to review and switch on. Do not change any live campaign or ad.",
+  "Stock is as read from Shopify on 23 Oct 2026. Check stock again before spending on any ad with 10 units or fewer."
+ ],
+ "verdicts": {
+  "collection": "verdicts",
+  "doc_id": "the ad number, for example \"02\"",
+  "field": "verdict",
+  "keep": "make this ad",
+  "drop": "do not make this ad"
+ },
+ "formats": {
+  "feed": {
+   "size": "1080x1350",
+   "ratio": "4:5",
+   "placements": "Facebook and Instagram Feed, Explore",
+   "text": "wordmark, line and name and price are in the image"
+  },
+  "story": {
+   "size": "1080x1920",
+   "ratio": "9:16",
+   "placements": "Stories and Reels",
+   "text": "none; the words are in the primary text"
+  }
+ },
+ "words": {
+  "say": [
+   "gold tone",
+   "silver tone",
+   "18k gold tone",
+   "rhodium silver tone",
+   "cubic zirconia",
+   "white pearl or white shell pearl, as the listing says"
+  ],
+  "never_say": [
+   "real",
+   "diamond",
+   "waterproof",
+   "tarnish-free",
+   "freshwater"
+  ],
+  "offer": "Take 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+ },
+ "campaign": "PERF · Colour (least graphics) · Oct 2026",
+ "cta": "SHOP_NOW",
+ "counts": {
+  "approved": 23,
+  "review": 43,
+  "unmarked": 4,
+  "total": 70
+ },
+ "statuses": {
+  "approved": "kept by the founder in round two: ready",
+  "review": "redone in round three with a sensible prop: make it only once its verdict is keep",
+  "unmarked": "never marked: make it only once its verdict is keep"
+ },
+ "repo": {
+  "repo": "veerajskotecha-max/naira-scroll",
+  "branch": "claude/higgfield-12-angles-4j09gn",
+  "folder": "docs/creative/performance"
+ },
+ "ads": [
+  {
+   "n": "03",
+   "status": "approved",
+   "product": "Prism Rivière Bracelet",
+   "variant": null,
+   "price": "₹2,399",
+   "handle": "prism-riviere-bracelet",
+   "variant_id": null,
+   "stock_23oct": 67,
+   "ad_set": "Bracelets",
+   "line": "Pick all three.",
+   "prop": "Sugared almonds in aqua, pink and butter yellow, in an old silver katori",
+   "why": "The three pastel stones → the three pastel dragées of an Indian wedding favour",
+   "primary_text": "Pick all three. Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Rivière Bracelet · ₹2,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-riviere-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=03-prism-riviere-bracelet",
+   "ink": "#3E5A63",
+   "files": {
+    "feed": "ads/03-prism-riviere-bracelet-feed.jpg",
+    "story": "ads/03-prism-riviere-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/03-prism-riviere-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/03-prism-riviere-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/03-prism-riviere-bracelet.jpg"
+   },
+   "same_product_as": [
+    "53"
+   ],
+   "replaces": null,
+   "notes": "Cushion stones in double pave halos with bead claws and gallery windows, fold-over clasp; no two neighbours share a colour. Variant b turned the plaster into travertine and crowded the frame."
+  },
+  {
+   "n": "13",
+   "status": "approved",
+   "product": "Silk Mesh Cuff",
+   "variant": "Gold",
+   "price": "₹1,499",
+   "handle": "silk-mesh-cuff",
+   "variant_id": 50651894546594,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Finer than pheni.",
+   "prop": "Two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads",
+   "why": "The fine woven gold mesh → the hair-fine golden threads of pheni",
+   "primary_text": "Finer than pheni. A 19 mm tube of fine woven mesh with mirror-polished end caps, in 18k gold tone. The Silk Mesh Cuff, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Silk Mesh Cuff · Gold · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/silk-mesh-cuff?variant=50651894546594&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=13-silk-mesh-cuff",
+   "ink": "#5A4518",
+   "files": {
+    "feed": "ads/13-silk-mesh-cuff-feed.jpg",
+    "story": "ads/13-silk-mesh-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/13-silk-mesh-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/13-silk-mesh-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/13-silk-mesh-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "Mesh exact (fine milanese weave rolled into a tube), polished oval end caps facing across the gap. Pheni reads real with a caramelised centre. Cuff to pheni 1.29, true 1.25. 13a enlarged the cuff and cut the pheni at the frame edge. Spelled pheni, not feni (the Goan spirit)."
+  },
+  {
+   "n": "14",
+   "status": "approved",
+   "product": "Marquise Layering Set",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "marquise-layering-set",
+   "variant_id": null,
+   "stock_23oct": 40,
+   "ad_set": "Necklaces & rings",
+   "line": "Blooms after dark.",
+   "prop": "A cut stem of rajnigandha (tuberose) with long closed creamy buds, three fallen buds",
+   "why": "Clear pointed marquise stones → the pointed creamy tuberose buds; rajnigandha, the night-fragrant flower",
+   "primary_text": "Blooms after dark. A 40 cm marquise solitaire and a 45 cm Y-lariat, made to be worn together. The Marquise Layering Set, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Marquise Layering Set · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/marquise-layering-set?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=14-marquise-layering-set",
+   "ink": "#5A4416",
+   "files": {
+    "feed": "ads/14-marquise-layering-set-feed.jpg",
+    "story": "ads/14-marquise-layering-set-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/14-marquise-layering-set-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/14-marquise-layering-set-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/14-marquise-layering-set.jpg"
+   },
+   "same_product_as": [
+    "64"
+   ],
+   "replaces": null,
+   "notes": "Set exact: two separate fine cable chains; short one with one 13mm marquise; lariat with the Y pear, two marquise stations spaced apart and a pear tip, five stones in all. Big marquise about half a bud, true scale. 14b lost a marquise station on the lariat drop."
+  },
+  {
+   "n": "15",
+   "status": "approved",
+   "product": "Ribbon Bead Bracelet",
+   "variant": null,
+   "price": "₹799",
+   "handle": "ribbon-bead-bracelet",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Bracelets",
+   "line": "Comes with its own bow.",
+   "prop": "A handmade ivory card mithai box tied with one fine gold zari thread in a bow",
+   "why": "The hair-fine gold chain → the gold zari thread; the two-heart stone bow → the thread bow; Diwali gifting",
+   "primary_text": "Comes with its own bow. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Ribbon Bead Bracelet · ₹799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/ribbon-bead-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=15-ribbon-bead-bracelet",
+   "ink": "#5E4519",
+   "files": {
+    "feed": "ads/15-ribbon-bead-bracelet-feed.jpg",
+    "story": "ads/15-ribbon-bead-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/15-ribbon-bead-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/15-ribbon-bead-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/15-ribbon-bead-bracelet.jpg"
+   },
+   "same_product_as": [
+    "66"
+   ],
+   "replaces": null,
+   "notes": "Bow exact: two clear hearts meeting at a gold centre bar in fine claws; satellite beads and lobster clasp true. Hearts about 5.7mm against 5mm true. The only non-ingredient prop of the set, chosen for Diwali gifting. 15a had harder light and hearts about 6.3mm."
+  },
+  {
+   "n": "18",
+   "status": "approved",
+   "product": "Lilac Papillon Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "lilac-papillon-ring",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "Jacaranda season, all year.",
+   "prop": "A drift of fallen lavender jacaranda blossoms, two loose petals",
+   "why": "The pale lilac pave wings → the lavender of jacaranda; a butterfly landed among fallen flowers",
+   "primary_text": "Jacaranda season, all year. A gold-tone butterfly whose wings are set edge to edge in lilac pavé. The Lilac Papillon Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Lilac Papillon Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/lilac-papillon-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=18-lilac-papillon-ring",
+   "ink": "#4B3A66",
+   "files": {
+    "feed": "ads/18-lilac-papillon-ring-feed.jpg",
+    "story": "ads/18-lilac-papillon-ring-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/18-lilac-papillon-ring-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/18-lilac-papillon-ring-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/18-lilac-papillon-ring.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "Ring exact: lilac micro-pave wings in raised gold rims, polished body bar, open clear-stone outline offset behind, slim shank. Butterfly about two thirds of a blossom, near true. 18a enlarged the ring about 1.5x and set it on a plinth edge."
+  },
+  {
+   "n": "19",
+   "status": "approved",
+   "product": "Aqua Heart Drops",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "aqua-heart-drops-silver",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Pink City, blue heart.",
+   "prop": "A small hand-painted Jaipur blue-pottery dish in white, pale aqua and soft blue, one chip on the rim",
+   "why": "The pale icy aqua heart → the pale turquoise glaze of Jaipur blue pottery; Jaipur is the Pink City",
+   "primary_text": "Pink City, blue heart. A curve of clear brilliants with an icy aqua heart below, rhodium silver tone. The Aqua Heart Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Aqua Heart Drops · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=19-aqua-heart-drops",
+   "ink": "#2F5560",
+   "files": {
+    "feed": "ads/19-aqua-heart-drops-feed.jpg",
+    "story": "ads/19-aqua-heart-drops-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/19-aqua-heart-drops-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/19-aqua-heart-drops-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/19-aqua-heart-drops.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "19a/19b lying flat drifted: small pave and baguettes on the front and earrings about 1.7x the dish. Reshot standing face-on as in the listing front view: 19c shows the six large round stones in claws down each C and the pale aqua heart on its loop. The dish has no fixed size, so scale reads plausible. Second non-ingredient prop (a Jaipur craft)."
+  },
+  {
+   "n": "20",
+   "status": "approved",
+   "product": "Prism Cluster Studs",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "prism-cluster-studs-silver",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Rangoli you can wear.",
+   "prop": "Three cones of Diwali rangoli powder (violet, baby pink, marigold yellow) and a fingertip drawing the first curved stroke",
+   "why": "Violet, pink and yellow stones → the three rangoli colours; the smiling arc → the first rangoli stroke",
+   "primary_text": "Rangoli you can wear. Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls. The Prism Cluster Studs, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Cluster Studs · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-cluster-studs-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=20-prism-cluster-studs",
+   "ink": "#4A2F5C",
+   "files": {
+    "feed": "ads/20-prism-cluster-studs-feed.jpg",
+    "story": "ads/20-prism-cluster-studs-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/20-prism-cluster-studs-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/20-prism-cluster-studs-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/20-prism-cluster-studs.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "Studs exact and mirrored: purple princess, pink baguette, large yellow emerald cut, purple princess, pink baguette, tiny pearls in the gaps. The model added a fingertip drawing the stroke despite the no-hands line; kept, as it is natural, soft-focus and gives true scale (studs about 1.4x). 20a sat on a plinth edge with scattered specks."
+  },
+  {
+   "n": "23",
+   "status": "approved",
+   "product": "Baguette Halo Drops",
+   "variant": null,
+   "price": "₹1,499",
+   "handle": "baguette-halo-drops",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "In bloom for Diwali.",
+   "prop": "Two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower",
+   "why": "The sunburst of slim clear baguettes → the narrow white rays of a chrysanthemum; pearls → its white",
+   "primary_text": "In bloom for Diwali. A 14 mm sunburst of clear baguettes around a small pearl, with a white pearl drop below. The Baguette Halo Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Halo Drops · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-halo-drops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=23-baguette-halo-drops",
+   "ink": "#5E4519",
+   "files": {
+    "feed": "ads/23-baguette-halo-drops-feed.jpg",
+    "story": "ads/23-baguette-halo-drops-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/23-baguette-halo-drops-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/23-baguette-halo-drops-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/23-baguette-halo-drops.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "Earrings exact: flat gold disc, about 30 radiating baguettes, beaded ring, 5mm pearl centre, 10mm round pearl drop on a loop. Disc about 1.3x true against the 5cm flower. 23a drew the discs about 1.5x and the flowers sharp."
+  },
+  {
+   "n": "25",
+   "status": "approved",
+   "product": "Quatrefoil Éclat Studs",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "quatrefoil-eclat-studs",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Collected at dawn.",
+   "prop": "Freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes",
+   "why": "Clear pear stones radiating from a gold centre → white parijat petals around a saffron-gold tube; the studs lie like two more fallen flowers",
+   "primary_text": "Collected at dawn. A 15 mm four-point star in clear cubic zirconia: a pavé outline, four pear stones and a round centre. The Quatrefoil Éclat Studs, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Quatrefoil Éclat Studs · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/quatrefoil-eclat-studs?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=25-quatrefoil-eclat-studs",
+   "ink": "#5E4519",
+   "files": {
+    "feed": "ads/25-quatrefoil-eclat-studs-feed.jpg",
+    "story": "ads/25-quatrefoil-eclat-studs-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/25-quatrefoil-eclat-studs-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/25-quatrefoil-eclat-studs-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/25-quatrefoil-eclat-studs.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "Studs exact: sharp four-point star with inward curves, single pave outline, four outward pear stones in gold frames, round centre in a four-lobed flower, open gaps. Each stud about one flower, true. 25a added leaves and a branch."
+  },
+  {
+   "n": "28",
+   "status": "approved",
+   "product": "Baguette Eternity Band",
+   "variant": "Ruby",
+   "price": "₹1,299",
+   "handle": "baguette-eternity-band",
+   "variant_id": 50651962048674,
+   "stock_23oct": 7,
+   "ad_set": "Necklaces & rings",
+   "line": "Worth its weight in kesar.",
+   "prop": "A loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain",
+   "why": "The raspberry-ruby baguettes → the crimson of kesar threads; saffron is worth more than gold by weight",
+   "primary_text": "Worth its weight in kesar. Ruby-red baguette cubic zirconia set crosswise all the way round, each held by small 18k gold-tone claws. The Baguette Eternity Band, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Eternity Band · Ruby · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-eternity-band?variant=50651962048674&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=28-baguette-eternity-band",
+   "ink": "#6A1A2E",
+   "files": {
+    "feed": "ads/28-baguette-eternity-band-feed.jpg",
+    "story": "ads/28-baguette-eternity-band-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/28-baguette-eternity-band-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/28-baguette-eternity-band-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/28-baguette-eternity-band.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "28a/28b copied the listing hero edge-on, so the band read as a bar. Reshot lying on its side at 35 degrees: 28c reads as a ring of crosswise ruby baguettes in corner claws. Against mongra threads of 1.5-2cm the ring is within about 1.3x. Ruby stock is low (7 of 25; Emerald 9, Amethyst 9)."
+  },
+  {
+   "n": "29",
+   "status": "approved",
+   "product": "Heartbead Bracelet",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "heartbead-bracelet",
+   "variant_id": null,
+   "stock_23oct": 25,
+   "ad_set": "Bracelets",
+   "line": "The icing on the wrist.",
+   "prop": "Edible silver dragees, a soft heap with a few rolled loose towards the bracelet",
+   "why": "The mirror-silver steel beads → bigger twins of the silver dragees on mithai and cakes; the gold heart is the one warm note",
+   "primary_text": "The icing on the wrist. 6 mm mirror-polished steel beads, a gold-tone toggle and one puffed gold-tone heart. The Heartbead Bracelet, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Heartbead Bracelet · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/heartbead-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=29-heartbead-bracelet",
+   "ink": "#47484C",
+   "files": {
+    "feed": "ads/29-heartbead-bracelet-feed.jpg",
+    "story": "ads/29-heartbead-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/29-heartbead-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/29-heartbead-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/29-heartbead-bracelet.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "29b: beads grey-gunmetal mirror steel as every listing photo reads them, gold T-bar, round toggle and one puffed heart on its jump ring, small end beads at the clasp. Bead-to-heart ratio about 0.5, the same as the cube listing close-up. Dragees about half a bead, bright and soft-focus behind. 29a drew the dragees as spare 6mm beads in the same grey, so the rhyme collapsed into loose beads."
+  },
+  {
+   "n": "42",
+   "status": "approved",
+   "product": "Mint Pear Drop Earrings",
+   "variant": null,
+   "price": "₹1,199",
+   "handle": "mint-pear-drop-earrings",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Earrings",
+   "line": "Pick of the pears.",
+   "prop": "A green nashpati, one whole and one cut half, with one loose seed on the plaster",
+   "why": "The pale mint pear-cut stone → the pale green pear; the loose seed is the stone in brown",
+   "primary_text": "Pick of the pears. Three small clear pear-cut cubic zirconia leading down to one pale mint-green pear, in fine 18k gold-tone claws. The Mint Pear Drop Earrings, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Mint Pear Drop Earrings · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/mint-pear-drop-earrings?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=42-mint-pear-drop-earrings",
+   "ink": "#3B4F2E",
+   "files": {
+    "feed": "ads/42-mint-pear-drop-earrings-feed.jpg",
+    "story": "ads/42-mint-pear-drop-earrings-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/42-mint-pear-drop-earrings-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/42-mint-pear-drop-earrings-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/42-mint-pear-drop-earrings.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "42a/42b drew the earrings about 1.6x against the pear (about a third of its height). Reshot touching the cut half with a loose pear seed as the referent: 42c has three clear pears stepping to the mint pear in claws on each earring, the mint stone about 1.3x the seed (true about 1x) and the earring about a quarter of the pear. 42d drew them about 1.4x."
+  },
+  {
+   "n": "51",
+   "status": "approved",
+   "product": "Toggle Link Chain",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "toggle-link-chain",
+   "variant_id": null,
+   "stock_23oct": 79,
+   "ad_set": "Necklaces & rings",
+   "line": "Paperclip, promoted.",
+   "prop": "Brass paper clips, one clipped to a sheet of deckled ivory cotton paper",
+   "why": "Open paperclip links → brass paper clips, gold on gold; the office clip, promoted to jewellery",
+   "primary_text": "Paperclip, promoted. A 50 cm paperclip chain in 18k gold tone that closes with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Toggle Link Chain · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=51-toggle-link-chain",
+   "ink": "#6A4818",
+   "files": {
+    "feed": "ads/51-toggle-link-chain-feed.jpg",
+    "story": "ads/51-toggle-link-chain-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/51-toggle-link-chain-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/51-toggle-link-chain-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/51-toggle-link-chain.jpg"
+   },
+   "same_product_as": [
+    "01"
+   ],
+   "replaces": null,
+   "notes": "51a: open elongated paperclip links, the heavy spring-gate ring with its push-pin nub and a short pavé bar of about 8 stones lying across it, as in the listing. Ring about half a paper clip and each link about a third, true for 15 mm, 11 mm and 33 mm clips. Clips on the paper at the upper right, calm plaster top left. 51b was as faithful but piled the clips in the calm corner."
+  },
+  {
+   "n": "53",
+   "status": "approved",
+   "product": "Prism Rivière Bracelet",
+   "variant": null,
+   "price": "₹2,399",
+   "handle": "prism-riviere-bracelet",
+   "variant_id": null,
+   "stock_23oct": 67,
+   "ad_set": "Bracelets",
+   "line": "Kaagaz ki kashti.",
+   "prop": "Three origami paper boats in pastel aqua, pink and butter yellow, with a few raindrops",
+   "why": "Aqua, pink and yellow stones → aqua, pink and yellow paper boats on a little stream; the monsoon game every child played, made precious",
+   "primary_text": "Kaagaz ki kashti. Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Prism Rivière Bracelet · ₹2,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/prism-riviere-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=53-prism-riviere-bracelet",
+   "ink": "#33535F",
+   "files": {
+    "feed": "ads/53-prism-riviere-bracelet-feed.jpg",
+    "story": "ads/53-prism-riviere-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/53-prism-riviere-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/53-prism-riviere-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/53-prism-riviere-bracelet.jpg"
+   },
+   "same_product_as": [
+    "03"
+   ],
+   "replaces": null,
+   "notes": "53e: square pastel stones in double pavé halos with corner claws, joined halo to halo in silver tone, in a strict aqua, pink, yellow order; exactly three boats; calm upper half. Reshot twice: 53a had no calm corner for the words, 53b put chain links between the stones and star glints on them, 53c set two pinks side by side, 53d drew a fourth boat and only 12 stones, 53f stood a boat on its tip. The stones read a little bolder than 5 mm beside 3 cm boats; there is no fixed-size referent, so the bracelet still reads true."
+  },
+  {
+   "n": "55",
+   "status": "approved",
+   "product": "Cushion Halo Ring",
+   "variant": null,
+   "price": "₹1,199",
+   "handle": "cushion-halo-ring",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Make a wish.",
+   "prop": "A dandelion seed head, with three seeds drifting free",
+   "why": "A ring of tiny stones around one bright centre → a sphere of tiny parachutes around one centre; blow, and make a wish",
+   "primary_text": "Make a wish. An 8 mm round cubic zirconia in a cushion halo, pavé down the shoulders, in rhodium silver tone. The Cushion Halo Ring, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Cushion Halo Ring · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=55-cushion-halo-ring",
+   "ink": "#4A4552",
+   "files": {
+    "feed": "ads/55-cushion-halo-ring-feed.jpg",
+    "story": "ads/55-cushion-halo-ring-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/55-cushion-halo-ring-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/55-cushion-halo-ring-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/55-cushion-halo-ring.jpg"
+   },
+   "same_product_as": [
+    "06"
+   ],
+   "replaces": null,
+   "notes": "55a: one round brilliant in four claws inside a single-row cushion halo, pavé down both shoulders, silver tone, as in the listing; the ring stands on its band beside the seed head with three seeds rising to the right. The halo is a little under half the seed head, true for 12 mm and a 30 mm head. 55b was faithful and slightly truer in scale, but a bright window filled the calm top."
+  },
+  {
+   "n": "58",
+   "status": "approved",
+   "product": "Baguette Huggies",
+   "variant": "Emerald",
+   "price": "₹1,199",
+   "handle": "baguette-huggies",
+   "variant_id": 50651968995490,
+   "stock_23oct": 15,
+   "ad_set": "Earrings",
+   "line": "Choodi, for your ears.",
+   "prop": "A small stack of green glass bangles, kaanch ki choodiyan, with fine gold lines",
+   "why": "Small gold hoops with a row of green stones → the green glass bangles they sit inside; choodiyan for the wrist, choodi for the ears",
+   "primary_text": "Choodi, for your ears. Emerald-green baguette cubic zirconia across the front of a 15 mm hinged huggie, in 18k gold tone. The Baguette Huggies, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Huggies · Emerald · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-huggies?variant=50651968995490&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=58-baguette-huggies-emerald",
+   "ink": "#1F4A30",
+   "files": {
+    "feed": "ads/58-baguette-huggies-emerald-feed.jpg",
+    "story": "ads/58-baguette-huggies-emerald-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/58-baguette-huggies-emerald-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/58-baguette-huggies-emerald-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/58-baguette-huggies-emerald.jpg"
+   },
+   "same_product_as": [
+    "08"
+   ],
+   "replaces": null,
+   "notes": "58b: both huggies stand inside the top bangle, each with one row of seven crosswise emerald baguettes in gold claws on the front half, plain gold behind and the hinge below, as in the listing. Each huggie is about a quarter of a bangle across, true for 15 mm and 6 cm. The glass throws soft green light onto the plaster. 58a was as faithful with the huggies lying flat and overlapping."
+  },
+  {
+   "n": "59",
+   "status": "approved",
+   "product": "Bold Nocturne Chain",
+   "variant": null,
+   "price": "₹1,799",
+   "handle": "bold-nocturne-chain",
+   "variant_id": null,
+   "stock_23oct": 54,
+   "ad_set": "Necklaces & rings",
+   "line": "Art class, all grown up.",
+   "prop": "A handmade school paper chain, loops of gold foil paper glued link through link",
+   "why": "Chunky gold oval links → the gold paper loops of a craft-class chain, curve over curve; the chain you made at seven, grown up",
+   "primary_text": "Art class, all grown up. Chunky 18k gold-tone links and one link set all over in pavé. The Bold Nocturne Chain, ₹1,799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Chain · ₹1,799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=59-bold-nocturne-chain",
+   "ink": "#6A4A12",
+   "files": {
+    "feed": "ads/59-bold-nocturne-chain-feed.jpg",
+    "story": "ads/59-bold-nocturne-chain-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/59-bold-nocturne-chain-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/59-bold-nocturne-chain-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/59-bold-nocturne-chain.jpg"
+   },
+   "same_product_as": [
+    "09"
+   ],
+   "replaces": null,
+   "notes": "59a: chunky elongated oval links in polished gold, each threaded through the next, with exactly one fully pavé link of the same size at the front, as in the listing. The paper loops show their grey paper backs and uneven glued joins, so they read as a real handmade chain. Paper and gold arc in parallel with a calm top. 59b was faithful but its foil loops looked like crumpled cuffs rather than paper."
+  },
+  {
+   "n": "60",
+   "status": "approved",
+   "product": "Bold Nocturne Bracelet",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "bold-nocturne-bracelet",
+   "variant_id": null,
+   "stock_23oct": 50,
+   "ad_set": "Bracelets",
+   "line": "The Diwali glow-up.",
+   "prop": "A small lit terracotta diya with ghee and a cotton wick",
+   "why": "A ring of gold links glowing around the flame → the diya's own glow; the pavé link catches the light like the wick",
+   "primary_text": "The Diwali glow-up. Chunky 18k gold-tone links and one link set in pavé. The Bold Nocturne Bracelet, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Bracelet · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=60-bold-nocturne-bracelet",
+   "ink": "#6B2E1E",
+   "files": {
+    "feed": "ads/60-bold-nocturne-bracelet-feed.jpg",
+    "story": "ads/60-bold-nocturne-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/60-bold-nocturne-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/60-bold-nocturne-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/60-bold-nocturne-bracelet.jpg"
+   },
+   "same_product_as": [
+    "10"
+   ],
+   "replaces": null,
+   "notes": "60a: chunky elongated oval links in polished gold, one fully pavé link at the front, the lobster clasp and the extender ending in a small flat oval tag, as in the listing; the bracelet circles the diya with room to spare and never touches the flame. The diya looks handmade, with ghee, a twisted cotton wick and a soot mark at the spout. 60b was as faithful, with a larger diya crowding the links."
+  },
+  {
+   "n": "62",
+   "status": "approved",
+   "product": "Kiss Knot Bangle",
+   "variant": "Gold",
+   "price": "₹1,199",
+   "handle": "kiss-knot-bangle",
+   "variant_id": 50651938881698,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Sealed with a kiss.",
+   "prop": "A small cream envelope of handmade paper, sealed with gold wax pressed with a heart",
+   "why": "The polished X where the bangle crosses → the X of a kiss, set beside a letter sealed with a heart; gold wax, gold bangle",
+   "primary_text": "Sealed with a kiss. A flexible ribbed bangle whose ends cross in one polished X, in 18k gold tone. The Kiss Knot Bangle, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Kiss Knot Bangle · Gold · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/kiss-knot-bangle?variant=50651938881698&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=62-kiss-knot-bangle",
+   "ink": "#6A3A34",
+   "files": {
+    "feed": "ads/62-kiss-knot-bangle-feed.jpg",
+    "story": "ads/62-kiss-knot-bangle-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/62-kiss-knot-bangle-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/62-kiss-knot-bangle-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/62-kiss-knot-bangle.jpg"
+   },
+   "same_product_as": [
+    "12"
+   ],
+   "replaces": null,
+   "notes": "62a: a finely ribbed snake-coil bangle in gold tone whose ends cross in one polished X, as in the listing; it rests on the envelope with the X beside the seal. The seal carries only a pressed heart, no letters. The bangle is about two thirds of the envelope's width, true for 6 cm and a small 9 cm envelope. 62b was faithful but cut the bangle at the frame edge."
+  },
+  {
+   "n": "64",
+   "status": "approved",
+   "product": "Marquise Layering Set",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "marquise-layering-set",
+   "variant_id": null,
+   "stock_23oct": 40,
+   "ad_set": "Necklaces & rings",
+   "line": "Kai po che!",
+   "prop": "A small paper patang of champagne tissue on a bamboo spine and bow",
+   "why": "The diamond-shaped marquise → the diamond-shaped patang above it, and the lariat's long fine drop → the kite's string; Uttarayan in miniature",
+   "primary_text": "Kai po che! A 40 cm marquise solitaire and a 45 cm Y-lariat, made to be worn together. The Marquise Layering Set, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Marquise Layering Set · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/marquise-layering-set?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=64-marquise-layering-set",
+   "ink": "#6B4226",
+   "files": {
+    "feed": "ads/64-marquise-layering-set-feed.jpg",
+    "story": "ads/64-marquise-layering-set-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/64-marquise-layering-set-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/64-marquise-layering-set-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/64-marquise-layering-set.jpg"
+   },
+   "same_product_as": [
+    "14"
+   ],
+   "replaces": null,
+   "notes": "64b: two separate fine cable chains; the short one carries one large marquise point-down, the Y-lariat meets at a small pear and its drop carries two marquise stations and a pear tip, five stones in all, as in the listing. The kite is a tissue patang on a bamboo spine and bow; the short necklace passes under it and trails out by its tail. Five other frames miscounted the lariat (64a, 64c, 64e, 64f) or ended it in a marquise with a star glint (64d), so 64b stays even though its chains run off the left edge; the Feed carries the words at the bottom left, clear of every chain."
+  },
+  {
+   "n": "66",
+   "status": "approved",
+   "product": "Ribbon Bead Bracelet",
+   "variant": null,
+   "price": "₹799",
+   "handle": "ribbon-bead-bracelet",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Bracelets",
+   "line": "Mummy's bow, minus the tug.",
+   "prop": "A white satin school ribbon tied in a double-loop bow with V-cut tails",
+   "why": "Two heart stones meeting at a gold bar → the satin bow Mummy tied at the end of every plait; white on navy, like the uniform",
+   "primary_text": "Mummy's bow, minus the tug. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Ribbon Bead Bracelet · ₹799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/ribbon-bead-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=66-ribbon-bead-bracelet",
+   "ink": "#F3EEE6",
+   "files": {
+    "feed": "ads/66-ribbon-bead-bracelet-feed.jpg",
+    "story": "ads/66-ribbon-bead-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/66-ribbon-bead-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/66-ribbon-bead-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/66-ribbon-bead-bracelet.jpg"
+   },
+   "same_product_as": [
+    "15"
+   ],
+   "replaces": null,
+   "notes": "66b: a fine gold cable chain with small satellite beads and, at the centre, two separate heart-cut clear stones in claws meeting at a tiny gold bar, plus the lobster clasp and extender, as in the listing. The crystal bow is about a fifth of the satin bow, a touch large for 10 mm beside a 6 cm bow (the model always draws it slightly big). 66a was faithful but showed a bright wall above the navy. A navy frame: the words sit in cream."
+  },
+  {
+   "n": "67",
+   "status": "approved",
+   "product": "Rivière Eternal Bracelet",
+   "variant": null,
+   "price": "₹1,449",
+   "handle": "riviere-eternal-bracelet",
+   "variant_id": null,
+   "stock_23oct": 34,
+   "ad_set": "Bracelets",
+   "line": "A ladi that never fuses.",
+   "prop": "A Diwali ladi of tiny warm fairy-light bulbs on fine copper wire",
+   "why": "One long row of tiny round stones → one long row of tiny warm bulbs; the Diwali ladi that never fuses",
+   "primary_text": "A ladi that never fuses. One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Rivière Eternal Bracelet · ₹1,449",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/riviere-eternal-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=67-riviere-eternal-bracelet",
+   "ink": "#5E4520",
+   "files": {
+    "feed": "ads/67-riviere-eternal-bracelet-feed.jpg",
+    "story": "ads/67-riviere-eternal-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/67-riviere-eternal-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/67-riviere-eternal-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/67-riviere-eternal-bracelet.jpg"
+   },
+   "same_product_as": [
+    "17"
+   ],
+   "replaces": null,
+   "notes": "67a: one continuous row of round brilliant clear stones, each in its own four-prong gold basket and linked stone to stone, with the polished interlocking box clasp sitting in the line like a buckle, as in the listing; the bracelet runs between two loops of a warm fairy-light string. Each stone is a little larger than a 3 mm bulb, true to the 3 to 4 mm the photos show. The bulbs glow as soft round lights, no star glints. 67b was faithful with the clasp at the end of the line."
+  },
+  {
+   "n": "68",
+   "status": "approved",
+   "product": "Bold Dome Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "bold-dome-huggies",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Ghungroo, on mute.",
+   "prop": "A string of brass ghungroo bells on a red cotton cord",
+   "why": "A polished gold dome → a polished brass ghungroo bell, the same round swell and warm shine; one rings, one does not",
+   "primary_text": "Ghungroo, on mute. 16 mm dome huggies in mirror-polished 18k gold tone, with a hinged snap. The Bold Dome Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Dome Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-dome-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=68-bold-dome-huggies",
+   "ink": "#7A2A22",
+   "files": {
+    "feed": "ads/68-bold-dome-huggies-feed.jpg",
+    "story": "ads/68-bold-dome-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/68-bold-dome-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/68-bold-dome-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/68-bold-dome-huggies.jpg"
+   },
+   "same_product_as": [
+    "26"
+   ],
+   "replaces": null,
+   "notes": "68a: two chunky mirror-polished huggies that swell at the bottom and taper to a slim hinged bar, no texture and no stones, as in the listing; one stands and one lies inside the curve of the bell string. Each huggie is about one and a half bells wide, true for 16 mm hoops and 10 mm ghungroo. 68b was as faithful, with darker antique bells."
+  },
+  {
+   "n": "01",
+   "status": "review",
+   "product": "Toggle Link Chain",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "toggle-link-chain",
+   "variant_id": null,
+   "stock_23oct": 79,
+   "ad_set": "Necklaces & rings",
+   "line": "Desk to dinner.",
+   "prop": "The collar of a folded white cotton shirt",
+   "why": "A paperclip chain under a crisp white collar: from the desk to dinner",
+   "primary_text": "Desk to dinner. A 50 cm paperclip chain in 18k gold tone that closes with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Toggle Link Chain · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=01-toggle-link-chain",
+   "ink": "#33465A",
+   "files": {
+    "feed": "ads/01-toggle-link-chain-feed.jpg",
+    "story": "ads/01-toggle-link-chain-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/01-toggle-link-chain-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/01-toggle-link-chain-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/01-toggle-link-chain.jpg"
+   },
+   "same_product_as": [
+    "51"
+   ],
+   "replaces": "fresh yellow genda marigolds on a cotton thread, loose petals",
+   "notes": "r01a: open elongated paperclip links, the spring-gate sailor ring and the short stone-set bar, as in the listing; true scale beside the shirt buttons. One small glint by the clasp. Calm blue-grey plaster top left for the words. A second option for this chain: shot 51 (paper clips) is already approved."
+  },
+  {
+   "n": "02",
+   "status": "review",
+   "product": "Baguette Tennis Necklace",
+   "variant": "Crystal",
+   "price": "₹2,300",
+   "handle": "baguette-tennis-necklace",
+   "variant_id": 50651962441890,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "Packed for the shaadi.",
+   "prop": "An ivory raw-silk potli with a gold zari border and gold tassels, the necklace spilling from its mouth",
+   "why": "The potli every wedding guest carries → where this necklace travels; ivory, gold and blush, the shaadi palette",
+   "primary_text": "Packed for the shaadi. One line of clear baguette cubic zirconia that sits right at the base of the neck. The Baguette Tennis Necklace, ₹2,300.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Necklace · Crystal · ₹2,300",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-necklace?variant=50651962441890&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=02-baguette-tennis-necklace",
+   "ink": "#6B4A26",
+   "files": {
+    "feed": "ads/02-baguette-tennis-necklace-feed.jpg",
+    "story": "ads/02-baguette-tennis-necklace-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/02-baguette-tennis-necklace-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/02-baguette-tennis-necklace-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/02-baguette-tennis-necklace.jpg"
+   },
+   "same_product_as": [
+    "52"
+   ],
+   "replaces": "Agra petha: translucent sugar-crusted rectangles on an old brass plate",
+   "notes": "r02a: one row of crosswise baguettes in gold box settings, four corner claws and a window on each box side, as in the listing; both ends stay inside the potli, so the clasp is hidden. The stones read a little large beside a 15 cm potli (the model draws fine lines slightly big). Calm blush plaster top left for the words."
+  },
+  {
+   "n": "04",
+   "status": "review",
+   "product": "Woven Gold Hoops",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "woven-gold-hoops",
+   "variant_id": null,
+   "stock_23oct": 63,
+   "ad_set": "Earrings",
+   "line": "Banarasi, for your ears.",
+   "prop": "The woven gold zari paisley border of an ivory Banarasi silk saree",
+   "why": "Braided gold hoops beside woven gold zari: Banarasi weaving, made to wear",
+   "primary_text": "Banarasi, for your ears. 25 mm hoops of braided rope in 18k gold tone. No stones, all texture. The Woven Gold Hoops, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Woven Gold Hoops · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=04-woven-gold-hoops",
+   "ink": "#5E4320",
+   "files": {
+    "feed": "ads/04-woven-gold-hoops-feed.jpg",
+    "story": "ads/04-woven-gold-hoops-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/04-woven-gold-hoops-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/04-woven-gold-hoops-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/04-woven-gold-hoops.jpg"
+   },
+   "same_product_as": [
+    "54"
+   ],
+   "replaces": "three ripe golden wheat ears, loose grains and a bristle",
+   "notes": "r04a: a thick braid of many fine gold strands, the flat polished disc inside the top and the hinged latch wire, both hoops round and identical, as in the listing. The zari border is about two and a half hoops wide. The top tenth is soft out-of-focus fold; calm ivory silk top left for the words."
+  },
+  {
+   "n": "05",
+   "status": "review",
+   "product": "Verdant Eternity Band",
+   "variant": null,
+   "price": "₹1,099",
+   "handle": "verdant-eternity-band",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Green means yes.",
+   "prop": "An open emerald-green velvet ring box with an ivory satin lid",
+   "why": "A ring belongs in a ring box: the moment before yes, in the green of its stones",
+   "primary_text": "Green means yes. Emerald-green oval cubic zirconia along a wave of pavé, in rhodium silver tone. The Verdant Eternity Band, ₹1,099.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Eternity Band · ₹1,099",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-eternity-band?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=05-verdant-eternity-band",
+   "ink": "#1E4632",
+   "files": {
+    "feed": "ads/05-verdant-eternity-band-feed.jpg",
+    "story": "ads/05-verdant-eternity-band-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/05-verdant-eternity-band-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/05-verdant-eternity-band-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/05-verdant-eternity-band.jpg"
+   },
+   "same_product_as": [
+    "56"
+   ],
+   "replaces": "freshly shelled hara chana in an old brass katori, a papery pod",
+   "notes": "r05a: oval green stones in four claws, the fine clear pave wave scalloping round each oval, cool silver tone, as in the listing; the open back sits down in the slot. True scale: the ring is about a third of the 5 cm box. Plain lining, no text. Calm mint plaster top left for the words."
+  },
+  {
+   "n": "06",
+   "status": "review",
+   "product": "Cushion Halo Ring",
+   "variant": null,
+   "price": "₹1,199",
+   "handle": "cushion-halo-ring",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Already a yes.",
+   "prop": "An open pearl-white satin ring box",
+   "why": "A halo ring standing in its satin ring box: the answer is already yes",
+   "primary_text": "Already a yes. An 8 mm round cubic zirconia in a cushion halo, pavé down the shoulders, in rhodium silver tone. The Cushion Halo Ring, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Cushion Halo Ring · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=06-cushion-halo-ring",
+   "ink": "#33465A",
+   "files": {
+    "feed": "ads/06-cushion-halo-ring-feed.jpg",
+    "story": "ads/06-cushion-halo-ring-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/06-cushion-halo-ring-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/06-cushion-halo-ring-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/06-cushion-halo-ring.jpg"
+   },
+   "same_product_as": [
+    "55"
+   ],
+   "replaces": "kaju katli with silver varq, a stack on crinkled butter paper and one loose diamond, torn varq flakes",
+   "notes": "r06a: one round brilliant in four claws inside a cushion-shaped single-row halo, pave down the shoulders, cool silver tone, as in the listing; true scale in a 5 cm box. Calm dove-blue plaster top left for the words. A second option for this ring: shot 55 (dandelion wish) is already approved."
+  },
+  {
+   "n": "07",
+   "status": "review",
+   "product": "Baguette Tennis Bracelet",
+   "variant": "Crystal",
+   "price": "₹1,699",
+   "handle": "baguette-tennis-bracelet",
+   "variant_id": 50651931738274,
+   "stock_23oct": 29,
+   "ad_set": "Bracelets",
+   "line": "RSVP: yes.",
+   "prop": "A blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath",
+   "why": "The wedding invitation, and the bracelet you will wear to it",
+   "primary_text": "RSVP: yes. Clear baguette cubic zirconia, lined up edge to edge in 18k gold-tone claws. The Baguette Tennis Bracelet, ₹1,699.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Bracelet · Crystal · ₹1,699",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-bracelet?variant=50651931738274&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=07-baguette-tennis-bracelet",
+   "ink": "#4F473C",
+   "files": {
+    "feed": "ads/07-baguette-tennis-bracelet-feed.jpg",
+    "story": "ads/07-baguette-tennis-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/07-baguette-tennis-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/07-baguette-tennis-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/07-baguette-tennis-bracelet.jpg"
+   },
+   "same_product_as": [
+    "57"
+   ],
+   "replaces": "a soft mound of raw long-grain basmati rice with a trail of single grains spilling into the bracelet",
+   "notes": "r07a: crosswise baguettes in gold box settings with four corner claws and a box clasp with its safety catch, fastened in a round, as in the listing; the line is a true 6 mm beside a 13 cm card. The card carries no writing. Calm dove-grey plaster top left for the words."
+  },
+  {
+   "n": "08",
+   "status": "review",
+   "product": "Baguette Huggies",
+   "variant": "Emerald",
+   "price": "₹1,199",
+   "handle": "baguette-huggies",
+   "variant_id": 50651968995490,
+   "stock_23oct": 15,
+   "ad_set": "Earrings",
+   "line": "Green with envy.",
+   "prop": "A small emerald-green glass trinket dish",
+   "why": "Emerald huggies in an emerald glass dish: green on green, where they live",
+   "primary_text": "Green with envy. Emerald-green baguette cubic zirconia across the front of a 15 mm hinged huggie, in 18k gold tone. The Baguette Huggies, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Huggies · Emerald · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-huggies?variant=50651968995490&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=08-baguette-huggies",
+   "ink": "#1F4A30",
+   "files": {
+    "feed": "ads/08-baguette-huggies-feed.jpg",
+    "story": "ads/08-baguette-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/08-baguette-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/08-baguette-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/08-baguette-huggies.jpg"
+   },
+   "same_product_as": [
+    "58"
+   ],
+   "replaces": "a loose heap of pistachio pieces with rose-purple skins, a few loose slivers in front",
+   "notes": "r08a: small hinged gold huggies with one row of crosswise emerald-green baguettes in gold claws on the lower front half, the back plain, as in the listing; true scale in a 9 cm dish. Calm ivory plaster top left for the words. A second option for these huggies: shot 58 (glass bangles) is already approved."
+  },
+  {
+   "n": "09",
+   "status": "review",
+   "product": "Bold Nocturne Chain",
+   "variant": null,
+   "price": "₹1,799",
+   "handle": "bold-nocturne-chain",
+   "variant_id": null,
+   "stock_23oct": 54,
+   "ad_set": "Necklaces & rings",
+   "line": "Suits you.",
+   "prop": "The lapel of a folded black wool blazer",
+   "why": "Bold gold links on a black lapel: the chain that suits a suit",
+   "primary_text": "Suits you. Chunky 18k gold-tone links and one link set all over in pavé. The Bold Nocturne Chain, ₹1,799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Chain · ₹1,799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=09-bold-nocturne-chain",
+   "ink": "#2E2B2A",
+   "files": {
+    "feed": "ads/09-bold-nocturne-chain-feed.jpg",
+    "story": "ads/09-bold-nocturne-chain-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/09-bold-nocturne-chain-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/09-bold-nocturne-chain-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/09-bold-nocturne-chain.jpg"
+   },
+   "same_product_as": [
+    "59"
+   ],
+   "replaces": "broken chunks of golden Kolhapuri jaggery (gur) with crumbs",
+   "notes": "r09a: chunky polished elongated oval links threaded through each other with exactly one pave link, as in the listing; true scale against the 2 cm horn button. One small glint by the pave link. Calm plaster top left for the words. A second option for this chain: shot 59 (paper chain) is already approved."
+  },
+  {
+   "n": "10",
+   "status": "review",
+   "product": "Bold Nocturne Bracelet",
+   "variant": null,
+   "price": "₹1,599",
+   "handle": "bold-nocturne-bracelet",
+   "variant_id": null,
+   "stock_23oct": 50,
+   "ad_set": "Bracelets",
+   "line": "Big plans.",
+   "prop": "A closed black leather planner with gilt page edges",
+   "why": "Bold links on a black planner: big plans, and the bracelet to match",
+   "primary_text": "Big plans. Chunky 18k gold-tone links and one link set in pavé. The Bold Nocturne Bracelet, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Bracelet · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=10-bold-nocturne-bracelet",
+   "ink": "#2E2B2A",
+   "files": {
+    "feed": "ads/10-bold-nocturne-bracelet-feed.jpg",
+    "story": "ads/10-bold-nocturne-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/10-bold-nocturne-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/10-bold-nocturne-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/10-bold-nocturne-bracelet.jpg"
+   },
+   "same_product_as": [
+    "60"
+   ],
+   "replaces": "a soft cone of haldi powder and two fresh turmeric roots, one snapped to its orange core",
+   "notes": "r10a: chunky polished elongated oval links with exactly one pave link, the lobster clasp and the short extender with its oval tag, as in the listing. No pen, no logo. Calm plaster top left for the words. A second option for this bracelet: shot 60 (Diwali diya) is already approved."
+  },
+  {
+   "n": "11",
+   "status": "review",
+   "product": "Halo Curve Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "halo-curve-ring",
+   "variant_id": null,
+   "stock_23oct": 45,
+   "ad_set": "Necklaces & rings",
+   "line": "Tum aur main.",
+   "prop": "Two rose heads side by side, one caramel and one champagne",
+   "why": "Two stones side by side on one ring → two roses side by side → the two of you; each rose in its stone's colour",
+   "primary_text": "Tum aur main. A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Halo Curve Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/halo-curve-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=11-halo-curve-ring",
+   "ink": "#6B4325",
+   "files": {
+    "feed": "ads/11-halo-curve-ring-feed.jpg",
+    "story": "ads/11-halo-curve-ring-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/11-halo-curve-ring-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/11-halo-curve-ring-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/11-halo-curve-ring.jpg"
+   },
+   "same_product_as": [
+    "61"
+   ],
+   "replaces": "almonds, some with their brown skins and some soaked and peeled, one slipped skin; one brown and one peeled almond at the ring",
+   "notes": "r11a: the opaque banded tiger's eye cabochon and the faceted champagne crystal, each in its own slightly different gold bezel, on a thin 1.5 mm bypass wire, as in the listing; true scale, each stone about a fifth of a rose. The Feed window sits higher (feed_top 120) so the words clear the roses."
+  },
+  {
+   "n": "12",
+   "status": "review",
+   "product": "Kiss Knot Bangle",
+   "variant": "Gold",
+   "price": "₹1,199",
+   "handle": "kiss-knot-bangle",
+   "variant_id": 50651938881698,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "XOXO.",
+   "prop": "A plain ivory card with one red lipstick kiss",
+   "why": "The polished X binding the bangle is the X of XOXO, beside a real kiss",
+   "primary_text": "XOXO. A flexible ribbed bangle whose ends cross in one polished X, in 18k gold tone. The Kiss Knot Bangle, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Kiss Knot Bangle · Gold · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/kiss-knot-bangle?variant=50651938881698&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=12-kiss-knot-bangle",
+   "ink": "#7A2A30",
+   "files": {
+    "feed": "ads/12-kiss-knot-bangle-feed.jpg",
+    "story": "ads/12-kiss-knot-bangle-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/12-kiss-knot-bangle-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/12-kiss-knot-bangle-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/12-kiss-knot-bangle.jpg"
+   },
+   "same_product_as": [
+    "62"
+   ],
+   "replaces": "three golden Diwali chakli flecked with sesame, one broken in half, crumbs",
+   "notes": "r12a: a finely ribbed snake-coil bangle whose overlapping ends are bound by one smooth polished X, as in the listing; true scale beside a 9 cm card. The card carries no writing. Calm blush plaster top left for the words. A second option for this bangle: shot 62 (wax-sealed letter) is already approved."
+  },
+  {
+   "n": "16",
+   "status": "review",
+   "product": "Brushed Gold Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "brushed-gold-huggies",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Earrings",
+   "line": "Your everyday pair.",
+   "prop": "A small hand-beaten brass trinket dish",
+   "why": "The dressing-table dish where the everyday pair sleeps; brushed satin gold in hammered brass",
+   "primary_text": "Your everyday pair. Small huggie hoops with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Brushed Gold Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=16-brushed-gold-huggies",
+   "ink": "#5E4521",
+   "files": {
+    "feed": "ads/16-brushed-gold-huggies-feed.jpg",
+    "story": "ads/16-brushed-gold-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/16-brushed-gold-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/16-brushed-gold-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/16-brushed-gold-huggies.jpg"
+   },
+   "same_product_as": [
+    "65"
+   ],
+   "replaces": "two rava laddoos, one topped with a cashew and one broken open, crumbs",
+   "notes": "r16a: wide softly domed bands in brushed satin with fine parallel lines and a hidden hinge, as in the listing. The huggies read a little large for 14 mm (about 1.4x beside the dish); the dish runs off the right edge. Calm sand plaster top left for the words."
+  },
+  {
+   "n": "17",
+   "status": "review",
+   "product": "Rivière Eternal Bracelet",
+   "variant": null,
+   "price": "₹1,449",
+   "handle": "riviere-eternal-bracelet",
+   "variant_id": null,
+   "stock_23oct": 34,
+   "ad_set": "Bracelets",
+   "line": "Game, set, sparkle.",
+   "prop": "A tennis ball on a red clay court with a white line",
+   "why": "The tennis bracelet, on court: a line of stones laid along the white court line beside the ball",
+   "primary_text": "Game, set, sparkle. One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Rivière Eternal Bracelet · ₹1,449",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/riviere-eternal-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=17-riviere-eternal-bracelet",
+   "ink": "#F6EEE4",
+   "files": {
+    "feed": "ads/17-riviere-eternal-bracelet-feed.jpg",
+    "story": "ads/17-riviere-eternal-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/17-riviere-eternal-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/17-riviere-eternal-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/17-riviere-eternal-bracelet.jpg"
+   },
+   "same_product_as": [
+    "67"
+   ],
+   "replaces": "an old steel katori of dry sabudana (sago), grains and sago dust spilled beside the bracelet",
+   "notes": "r17a: one continuous row of round brilliant clear stones, each in its own gold four-prong basket, linked stone to stone, with the polished box clasp and its fold-over safety, as in the listing. The stones read a touch large. No logo on the ball. A mid-dark terracotta frame: the words sit in cream. A second option for this bracelet: shot 67 (fairy-light ladi) is already approved."
+  },
+  {
+   "n": "21",
+   "status": "review",
+   "product": "Molten Panel Bracelet",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "molten-panel-bracelet",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Drapes like silk.",
+   "prop": "An antique-gold silk satin dupatta in soft folds",
+   "why": "The bracelet bends and drapes like the silk beside it: gold metal that moves like gold silk",
+   "primary_text": "Drapes like silk. Small flat oval plates in five staggered rows like brickwork, in satin-polished 18k gold tone, that bend like a watch strap. The Molten Panel Bracelet, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Molten Panel Bracelet · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/molten-panel-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=21-molten-panel-bracelet",
+   "ink": "#5E4723",
+   "files": {
+    "feed": "ads/21-molten-panel-bracelet-feed.jpg",
+    "story": "ads/21-molten-panel-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/21-molten-panel-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/21-molten-panel-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/21-molten-panel-bracelet.jpg"
+   },
+   "same_product_as": [
+    "70"
+   ],
+   "replaces": "a heap of golden chana dal (split Bengal gram), loose dal beside the bracelet",
+   "notes": "r21b: small flat oval plates in five staggered brick-set rows, articulated, with the square box clasp, standing on its edge in an S, as in the listing. r21a was faithful too but its silk knot read as a necktie. Calm ivory plaster top left for the words."
+  },
+  {
+   "n": "22",
+   "status": "review",
+   "product": "Torsade Pearl Cuff",
+   "variant": null,
+   "price": "₹1,399",
+   "handle": "torsade-pearl-cuff",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Twist and shell.",
+   "prop": "A large open shell lined with iridescent mother-of-pearl",
+   "why": "A twisted cable cuff with shell pearls, beside the shell: the twist, and the shell",
+   "primary_text": "Twist and shell. Two white shell pearls at the ends of a twisted 18k gold-tone cuff, with pavé collars. The Torsade Pearl Cuff, ₹1,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Torsade Pearl Cuff · ₹1,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/torsade-pearl-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=22-torsade-pearl-cuff",
+   "ink": "#3E4C57",
+   "files": {
+    "feed": "ads/22-torsade-pearl-cuff-feed.jpg",
+    "story": "ads/22-torsade-pearl-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/22-torsade-pearl-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/22-torsade-pearl-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/22-torsade-pearl-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "a heap of makhana (puffed lotus seeds), one makhana beside each pearl",
+   "notes": "r22a: one solid twisted cable, each end capped by two rows of clear pave split by a gold rib and one round white shell pearl, the pearls facing across the opening, as in the listing. The cuff reads a touch large beside the shell. The line replaces the plan's \"Straight from the shell.\", which could suggest natural pearls. Calm sea-mist plaster top left for the words."
+  },
+  {
+   "n": "26",
+   "status": "review",
+   "product": "Bold Dome Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "bold-dome-huggies",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Touch-up done.",
+   "prop": "A closed polished gold powder compact",
+   "why": "Mirror-polished domes beside a mirror-polished compact: the last touch-up, done",
+   "primary_text": "Touch-up done. 16 mm dome huggies in mirror-polished 18k gold tone, with a hinged snap. The Bold Dome Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Dome Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-dome-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=26-bold-dome-huggies",
+   "ink": "#6A4A35",
+   "files": {
+    "feed": "ads/26-bold-dome-huggies-feed.jpg",
+    "story": "ads/26-bold-dome-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/26-bold-dome-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/26-bold-dome-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/26-bold-dome-huggies.jpg"
+   },
+   "same_product_as": [
+    "68"
+   ],
+   "replaces": "a small group of golden pani puri shells (golgappe), one cracked open, crisp crumbs",
+   "notes": "r26a: chunky mirror-polished dome huggies that swell at the bottom and taper to a hinged snap, the hairline seam showing, as in the listing; they read a little large beside a 7 cm compact. No logo on the compact. Calm plaster top left for the words. A second option for these huggies: shot 68 (ghungroo) is already approved."
+  },
+  {
+   "n": "27",
+   "status": "review",
+   "product": "Torsade Huggies",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "torsade-huggies",
+   "variant_id": null,
+   "stock_23oct": 29,
+   "ad_set": "Earrings",
+   "line": "A twist on Diwali.",
+   "prop": "Two lit twisted ivory taper candles in brass holders",
+   "why": "The twist of the gold beside the twist of the wax, lit for Diwali",
+   "primary_text": "A twist on Diwali. 20 mm huggies with a fine twisted rope texture all the way round, in 18k gold tone. The Torsade Huggies, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Torsade Huggies · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/torsade-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=27-torsade-huggies",
+   "ink": "#6A4528",
+   "files": {
+    "feed": "ads/27-torsade-huggies-feed.jpg",
+    "story": "ads/27-torsade-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/27-torsade-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/27-torsade-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/27-torsade-huggies.jpg"
+   },
+   "same_product_as": [
+    "69"
+   ],
+   "replaces": "two crossed twisted khari puff-pastry straws, a broken piece, golden flakes",
+   "notes": "r27a: small chunky domed huggies twisted into smooth polished spiral ridges with a hinged snap, as in the listing; true scale beside 2 cm candles. The Feed window sits higher (feed_top 150) so both flames stay in. Calm apricot plaster top left for the words."
+  },
+  {
+   "n": "30",
+   "status": "review",
+   "product": "Serpentine Whisper Chain",
+   "variant": "Silver",
+   "price": "₹1,299",
+   "handle": "serpentine-whisper-chain-silver",
+   "variant_id": null,
+   "stock_23oct": 23,
+   "ad_set": "Necklaces & rings",
+   "line": "Say it with one.",
+   "prop": "One white rose with a short stem",
+   "why": "One stone, one rose: the single cushion solitaire beside a single white rose",
+   "primary_text": "Say it with one. A 2 mm snake chain with one 10 mm cushion-cut clear cubic zirconia in a four-prong basket, in rhodium silver tone. The Serpentine Whisper Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Serpentine Whisper Chain · Silver · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/serpentine-whisper-chain-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=30-serpentine-whisper-chain-silver",
+   "ink": "#4A4658",
+   "files": {
+    "feed": "ads/30-serpentine-whisper-chain-silver-feed.jpg",
+    "story": "ads/30-serpentine-whisper-chain-silver-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/30-serpentine-whisper-chain-silver-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/30-serpentine-whisper-chain-silver-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/30-serpentine-whisper-chain-silver.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "coarse rock salt crystals (khada namak), a loose heap with two crystals beside the stone",
+   "notes": "r30b: one cushion-cut clear stone in an open four-claw basket on a plain bail, on a fine silver snake chain, as in the listing; true scale, the stone about a seventh of the rose. r30a drew a star-shaped sparkle with rainbow rays on the stone. Calm lavender-grey plaster top left for the words."
+  },
+  {
+   "n": "31",
+   "status": "review",
+   "product": "Baroque Shell Bracelet",
+   "variant": null,
+   "price": "₹1,799",
+   "handle": "baroque-shell-bracelet",
+   "variant_id": null,
+   "stock_23oct": 23,
+   "ad_set": "Bracelets",
+   "line": "Made for your chikankari.",
+   "prop": "Pale powder-pink mulmul with white Lucknowi chikankari",
+   "why": "White baroque pearls on white chikan: the bracelet you wear with your chikankari",
+   "primary_text": "Made for your chikankari. Flat baroque white shell pearls, each a different shape, with small gold-tone beads between and one pearl drop on the toggle. The Baroque Shell Bracelet, ₹1,799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baroque Shell Bracelet · ₹1,799",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baroque-shell-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=31-baroque-shell-bracelet",
+   "ink": "#6B3F48",
+   "files": {
+    "feed": "ads/31-baroque-shell-bracelet-feed.jpg",
+    "story": "ads/31-baroque-shell-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/31-baroque-shell-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/31-baroque-shell-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/31-baroque-shell-bracelet.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "seven cowrie shells thrown as in pachisi, backs and toothed mouths, one touching a pearl",
+   "notes": "r31a: nine flat irregular baroque white shell pearls with a small gold bead between each, the round toggle and straight T-bar, and one larger baroque drop on a ball-headed pin, as in the listing; true scale against the embroidered flowers. The embroidery runs across the whole frame, so the words sit over a quiet part of it."
+  },
+  {
+   "n": "32",
+   "status": "review",
+   "product": "Petite Square Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "petite-square-huggies",
+   "variant_id": null,
+   "stock_23oct": 22,
+   "ad_set": "Earrings",
+   "line": "A square deal.",
+   "prop": "A small square ivory gift box tied with a gold satin ribbon",
+   "why": "Square huggies on a square gift box: gifting, square on square",
+   "primary_text": "A square deal. Squared huggies in polished 18k gold tone, with four tiny white pearls on each, two on each side. The Petite Square Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Petite Square Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/petite-square-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=32-petite-square-huggies",
+   "ink": "#3F4A38",
+   "files": {
+    "feed": "ads/32-petite-square-huggies-feed.jpg",
+    "story": "ads/32-petite-square-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/32-petite-square-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/32-petite-square-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/32-petite-square-huggies.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie",
+   "notes": "r32a: softly squared hoops of smooth rounded tube with a hinged snap and four tiny white pearls each on the sides, as in the listing. They read a little large on the 7 cm lid (about 1.5x). The ribbon is tied in a small bow. Calm sage plaster top left for the words."
+  },
+  {
+   "n": "33",
+   "status": "review",
+   "product": "Rivière Hoops",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "riviere-huggies-silver",
+   "variant_id": null,
+   "stock_23oct": 21,
+   "ad_set": "Earrings",
+   "line": "Sangeet-ready.",
+   "prop": "A small mirror disco ball",
+   "why": "The sangeet night: a row of clear stones beside a ball of tiny mirrors, silver on midnight blue",
+   "primary_text": "Sangeet-ready. Open hoops made of one row of slightly oval clear cubic zirconia, each in a beaded cup, in rhodium silver tone. The Rivière Hoops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Rivière Hoops · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/riviere-huggies-silver?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=33-riviere-huggies-silver",
+   "ink": "#E6ECF3",
+   "files": {
+    "feed": "ads/33-riviere-huggies-silver-feed.jpg",
+    "story": "ads/33-riviere-huggies-silver-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/33-riviere-huggies-silver-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/33-riviere-huggies-silver-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/33-riviere-huggies-silver.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "whole cashews (kaju), a loose scatter with one lying beside the flat hoop",
+   "notes": "r33a: open C hoops of one row of slightly oval clear stones, each in a rounded silver cup with a milgrain rim, with the straight post, as in the listing. The hoops read a little large beside the ball, which runs off the right edge. A dark frame: the words sit in pale silver."
+  },
+  {
+   "n": "34",
+   "status": "review",
+   "product": "Emerald Square Ear Cuff",
+   "variant": null,
+   "price": "₹999",
+   "handle": "emerald-square-ear-cuff",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Earrings",
+   "line": "Light as a feather.",
+   "prop": "The eye of a real peacock feather",
+   "why": "An emerald square on the green-and-sapphire eye of a peacock feather: the cuff is as light as the feather",
+   "primary_text": "Light as a feather. No piercing needed: a polished 18k gold-tone cuff with one square emerald-green cubic zirconia in four claws. The Emerald Square Ear Cuff, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Emerald Square Ear Cuff · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/emerald-square-ear-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=34-emerald-square-ear-cuff",
+   "ink": "#1F4A4A",
+   "files": {
+    "feed": "ads/34-emerald-square-ear-cuff-feed.jpg",
+    "story": "ads/34-emerald-square-ear-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/34-emerald-square-ear-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/34-emerald-square-ear-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/34-emerald-square-ear-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "the corner of a square of fresh banana leaf with three beads of water",
+   "notes": "r34c: one tight open C of polished gold with its gap showing and one square princess-cut green stone in four claws, as in the listing. It still reads about 2x the true 13 mm against the feather eye, so it can pass for a small open ring. r34a drew a ring-sized cuff beside the eye; r34b closed it into a ring on the quill. Calm ivory plaster top left for the words."
+  },
+  {
+   "n": "35",
+   "status": "review",
+   "product": "Pear Point Open Cuff",
+   "variant": null,
+   "price": "₹1,499",
+   "handle": "pear-point-open-cuff",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "A pair of pears.",
+   "prop": "Two whole golden pears side by side",
+   "why": "Two pear-cut stones at the ends of the cuff → two pears side by side",
+   "primary_text": "A pair of pears. A slim open cuff in 18k gold tone with one pear-cut clear cubic zirconia at each end. The Pear Point Open Cuff, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Pear Point Open Cuff · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/pear-point-open-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=35-pear-point-open-cuff",
+   "ink": "#4B4A26",
+   "files": {
+    "feed": "ads/35-pear-point-open-cuff-feed.jpg",
+    "story": "ads/35-pear-point-open-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/35-pear-point-open-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/35-pear-point-open-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/35-pear-point-open-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "loose pink desi rose petals beaded with rose water, two drops on the plaster, one petal touching the cuff",
+   "notes": "r35a: a slim polished open cuff tapering at each end, one clear pear-cut stone at each end, as in the listing; true scale beside 7 cm pears. One detail is off: the left stone points into the gap (the listing has both rounded ends facing each other); the right stone is correct. Calm celadon plaster top left for the words."
+  },
+  {
+   "n": "36",
+   "status": "review",
+   "product": "Bold Nocturne Drops",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "bold-nocturne-drops",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Earrings",
+   "line": "Party in a pouch.",
+   "prop": "A small black velvet jewellery pouch with a gold drawstring",
+   "why": "Out for the night: the earrings just tipped from their velvet pouch, sparkle on black",
+   "primary_text": "Party in a pouch. A polished oval link on a post with a larger pavé oval link below, in 18k gold tone. The Bold Nocturne Drops, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Bold Nocturne Drops · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/bold-nocturne-drops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=36-bold-nocturne-drops",
+   "ink": "#2F2C2B",
+   "files": {
+    "feed": "ads/36-bold-nocturne-drops-feed.jpg",
+    "story": "ads/36-bold-nocturne-drops-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/36-bold-nocturne-drops-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/36-bold-nocturne-drops-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/36-bold-nocturne-drops.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "til chikki, four sesame-and-jaggery pieces, loose seeds and a shard, one piece touching a pavé link",
+   "notes": "r36a: a small plain polished oval link on top with a larger oval link paved all round in tiny clear stones, interlocked, as in the listing. The earrings read large beside the pouch (about 2x the true 23 mm; the model draws them big). The pouch runs off the right edge; calm plaster top left for the words."
+  },
+  {
+   "n": "37",
+   "status": "review",
+   "product": "Marquise Drop Choker",
+   "variant": null,
+   "price": "₹1,199",
+   "handle": "marquise-drop-choker",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Necklaces & rings",
+   "line": "Rare, like an orchid.",
+   "prop": "A short spray of white phalaenopsis orchids",
+   "why": "Rare, white and quietly elegant: the choker beside a spray of white orchids",
+   "primary_text": "Rare, like an orchid. A ribbed snake collar with a sideways marquise cubic zirconia and a fine 6 cm drop of two pear stones, in 18k gold tone. The Marquise Drop Choker, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Marquise Drop Choker · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/marquise-drop-choker?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=37-marquise-drop-choker",
+   "ink": "#4F3B4A",
+   "files": {
+    "feed": "ads/37-marquise-drop-choker-feed.jpg",
+    "story": "ads/37-marquise-drop-choker-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/37-marquise-drop-choker-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/37-marquise-drop-choker-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/37-marquise-drop-choker.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "a brass katori of chashni (sugar syrup) with one thread falling from a steel spoon",
+   "notes": "r37a: a slim ribbed gold collar with one marquise set sideways in claws and a fine cable-chain drop carrying a small pear halfway and a pear at the end, both pointing down, as in the listing. The piece reads a little large beside the blooms. Calm mauve plaster top left for the words."
+  },
+  {
+   "n": "38",
+   "status": "review",
+   "product": "Droplet Open Cuff",
+   "variant": "Gold",
+   "price": "₹1,599",
+   "handle": "droplet-open-cuff",
+   "variant_id": 50651971190946,
+   "stock_23oct": 10,
+   "ad_set": "Bracelets",
+   "line": "Just one drop.",
+   "prop": "A cut-glass attar bottle with its glass dauber and one drop of attar",
+   "why": "The cuff's polished teardrop end beside one golden drop of attar: just one drop",
+   "primary_text": "Just one drop. An open cuff of polished 18k gold-tone wire, a ball at one end and a teardrop at the other. No stones. The Droplet Open Cuff, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Droplet Open Cuff · Gold · ₹1,599",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/droplet-open-cuff?variant=50651971190946&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=38-droplet-open-cuff",
+   "ink": "#6A4535",
+   "files": {
+    "feed": "ads/38-droplet-open-cuff-feed.jpg",
+    "story": "ads/38-droplet-open-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/38-droplet-open-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/38-droplet-open-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/38-droplet-open-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "gond (edible acacia gum), glassy tears and frosted crackled nuggets, one tear beside the cuff",
+   "notes": "r38b: a slim polished gold wire cuff with a round ball at one end and a smooth teardrop at the other, facing across a small gap, as in the listing; the teardrop reads a little slimmer than in the listing. The whole cuff sits in the frame; the bottle runs off the right edge. r38a drew the cuff about twice its size and cut it off. Calm plaster top left for the words."
+  },
+  {
+   "n": "39",
+   "status": "review",
+   "product": "Petal Flower Studs",
+   "variant": "Gold",
+   "price": "₹999",
+   "handle": "petal-flower-studs",
+   "variant_id": 50651971125410,
+   "stock_23oct": 10,
+   "ad_set": "Earrings",
+   "line": "Never needs water.",
+   "prop": "A head of white ixora with two leaves and two fallen florets",
+   "why": "Four-petalled studs beside four-petalled ixora florets: flowers that never need water",
+   "primary_text": "Never needs water. Three round clear cubic zirconia and one pear below, around a polished 18k gold-tone centre. The Petal Flower Studs, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Petal Flower Studs · Gold · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/petal-flower-studs?variant=50651971125410&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=39-petal-flower-studs",
+   "ink": "#5E4430",
+   "files": {
+    "feed": "ads/39-petal-flower-studs-feed.jpg",
+    "story": "ads/39-petal-flower-studs-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/39-petal-flower-studs-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/39-petal-flower-studs-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/39-petal-flower-studs.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "whole cloves (laung), a loose heap with three lying apart, one head turned to the camera",
+   "notes": "r39a: each stud a four-petal flower of three round clear stones (left, right, top) and one pear pointing down around a polished gold disc, in fine claws, as in the listing. The studs read a little large (each about two florets). Calm peach plaster top left for the words."
+  },
+  {
+   "n": "40",
+   "status": "review",
+   "product": "Fine Tennis Bracelet",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "fine-tennis-bracelet",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Morning dew, all day.",
+   "prop": "Three blades of fresh grass, one beaded with dew",
+   "why": "A row of tiny stones beside a row of dew drops on a blade of grass: morning sparkle that lasts all day",
+   "primary_text": "Morning dew, all day. One continuous row of small round clear cubic zirconia, each in its own gold-tone claw cup, with a box clasp. The Fine Tennis Bracelet, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Fine Tennis Bracelet · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/fine-tennis-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=40-fine-tennis-bracelet",
+   "ink": "#34483C",
+   "files": {
+    "feed": "ads/40-fine-tennis-bracelet-feed.jpg",
+    "story": "ads/40-fine-tennis-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/40-fine-tennis-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/40-fine-tennis-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/40-fine-tennis-bracelet.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "yellow mustard seeds (peeli rai), a spill with a band of seeds following the bracelet",
+   "notes": "r40b: one continuous line of small round brilliant-cut clear stones, each in its own gold claw cup, with the slim box clasp, as in the listing; the line reads a little wider than 3 mm and runs off the left edge. r40a had a starburst glint on one stone. The Feed window sits at the top (feed_top 0) so the words sit on calm plaster above the bracelet."
+  },
+  {
+   "n": "43",
+   "status": "review",
+   "product": "North Star Bangle",
+   "variant": "Gold",
+   "price": "₹999",
+   "handle": "north-star-bangle",
+   "variant_id": 50651938816162,
+   "stock_23oct": 10,
+   "ad_set": "Bracelets",
+   "line": "Wear the stars this Diwali.",
+   "prop": "A glowing paper star lantern for Diwali",
+   "why": "Engraved north stars on the bangle beside a glowing paper star for Diwali",
+   "primary_text": "Wear the stars this Diwali. A slim mirror-polished bangle in 18k gold tone: engraved north stars alternating with round clear cubic zirconia. The North Star Bangle, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "North Star Bangle · Gold · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/north-star-bangle?variant=50651938816162&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=43-north-star-bangle",
+   "ink": "#F3E6D2",
+   "files": {
+    "feed": "ads/43-north-star-bangle-feed.jpg",
+    "story": "ads/43-north-star-bangle-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/43-north-star-bangle-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/43-north-star-bangle-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/43-north-star-bangle.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "three thin slices of kamrakh (star fruit) in a little of their own juice",
+   "notes": "r43a: a slim flat mirror-polished gold oval bangle, hinged, with engraved eight-pointed stars (a tiny stone in each) alternating with flush bezel-set round stones, as in the listing. The bangle reads a little large beside the lantern, which is a modern stellated paper star rather than a tailed kandil. A dark frame: the words sit in warm cream."
+  },
+  {
+   "n": "44",
+   "status": "review",
+   "product": "Droplet Open Ring",
+   "variant": "Silver",
+   "price": "₹1,299",
+   "handle": "droplet-open-ring",
+   "variant_id": 50651931869346,
+   "stock_23oct": 10,
+   "ad_set": "Necklaces & rings",
+   "line": "Raindrop, made silver.",
+   "prop": "Part of a fresh lotus leaf beaded with water drops",
+   "why": "The ring's polished silver ball and teardrop beside real drops of water on a lotus leaf: a raindrop, made silver",
+   "primary_text": "Raindrop, made silver. An adjustable open ring in polished silver tone, a round ball at one end and a teardrop at the other. The Droplet Open Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Droplet Open Ring · Silver · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/droplet-open-ring?variant=50651931869346&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=44-droplet-open-ring",
+   "ink": "#36454F",
+   "files": {
+    "feed": "ads/44-droplet-open-ring-feed.jpg",
+    "story": "ads/44-droplet-open-ring-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/44-droplet-open-ring-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/44-droplet-open-ring-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/44-droplet-open-ring.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "a nimbu-mirchi: one kagzi lime and seven green chillies strung on a white cotton thread, the ring leaning on the lime",
+   "notes": "r44a: an open thin polished silver wire ring ending in a round ball and a taller teardrop side by side with a small gap, as in the listing; true scale, the ball the size of the larger water drops. Calm grey plaster top left for the words."
+  },
+  {
+   "n": "46",
+   "status": "review",
+   "product": "Triple Coil Wrap Bangle",
+   "variant": "Gold",
+   "price": "₹1,499",
+   "handle": "triple-coil-wrap-bangle",
+   "variant_id": 50651931639970,
+   "stock_23oct": 10,
+   "ad_set": "Bracelets",
+   "line": "Comes pre-wrapped.",
+   "prop": "A spiral of curled gold gift ribbon",
+   "why": "Three turns of ribbed coil beside a curl of gift ribbon: a bangle that comes pre-wrapped",
+   "primary_text": "Comes pre-wrapped. One ribbed snake-coil wire that wraps the wrist twice, each end capped in clear pavé, in 18k gold tone. The Triple Coil Wrap Bangle, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Triple Coil Wrap Bangle · Gold · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/triple-coil-wrap-bangle?variant=50651931639970&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=46-triple-coil-wrap-bangle",
+   "ink": "#6A3F44",
+   "files": {
+    "feed": "ads/46-triple-coil-wrap-bangle-feed.jpg",
+    "story": "ads/46-triple-coil-wrap-bangle-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/46-triple-coil-wrap-bangle-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/46-triple-coil-wrap-bangle-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/46-triple-coil-wrap-bangle.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "bhakarwadi, a heap of spiral rounds with crumbs and sesame, one leaning on the bangle",
+   "notes": "r46a: one continuous finely ribbed tubogas coil in three stacked turns with a pave end cap at the front, as in the listing; only one of the two caps shows and its pave reads as more than two rows. The model left a flat seam band in the bottom tenth, retouched by mirroring the plaster above it (raw/r46a_fix). r46b came back as a picture inside a frame. Calm plaster top left for the words."
+  },
+  {
+   "n": "47",
+   "status": "review",
+   "product": "Garnet Cable Cuff",
+   "variant": null,
+   "price": "₹1,399",
+   "handle": "garnet-cable-cuff",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Anaar season.",
+   "prop": "A ripe pomegranate, neatly scored and opened",
+   "why": "Garnet-red tips beside garnet-red arils: anaar season",
+   "primary_text": "Anaar season. A twisted silver-tone cable cuff with gold-tone pavé ends and one round garnet-red stone at each tip. The Garnet Cable Cuff, ₹1,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Garnet Cable Cuff · ₹1,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/garnet-cable-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=47-garnet-cable-cuff",
+   "ink": "#6B2A2E",
+   "files": {
+    "feed": "ads/47-garnet-cable-cuff-feed.jpg",
+    "story": "ads/47-garnet-cable-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/47-garnet-cable-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/47-garnet-cable-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/47-garnet-cable-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "dry rajma (red kidney beans), a loose heap with one bean against a garnet tip",
+   "notes": "r47a: a slim open cuff of twisted silver cable, each end a gold barrel with two pave rows between polished rings and one round faceted garnet-red stone in a gold bezel at the tip, the two facing across the opening, as in the listing; true scale, each stone the size of an aril. Calm blush plaster top left for the words."
+  },
+  {
+   "n": "48",
+   "status": "review",
+   "product": "Charm Box Chain",
+   "variant": null,
+   "price": "₹1,399",
+   "handle": "charm-box-chain",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Necklaces & rings",
+   "line": "Fresh as mogra.",
+   "prop": "A small heap of fresh mogra buds",
+   "why": "The white pave barrel charm is the size and white of a mogra bud: fresh as mogra, and it stays that way",
+   "primary_text": "Fresh as mogra. A 50 cm fine box chain in 18k gold tone with one barrel charm set all round in clear cubic zirconia. The Charm Box Chain, ₹1,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Charm Box Chain · ₹1,399",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/charm-box-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=48-charm-box-chain",
+   "ink": "#4A4630",
+   "files": {
+    "feed": "ads/48-charm-box-chain-feed.jpg",
+    "story": "ads/48-charm-box-chain-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/48-charm-box-chain-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/48-charm-box-chain-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/48-charm-box-chain.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "two motichoor laddoos, one whole and one broken open, with a few loose boondi",
+   "notes": "r48b: a fine gold box chain threaded through one small cylindrical barrel charm paved in bands between polished gold rims, as in the listing; true scale, the charm about a bud long. One small glint remains on the charm. r48a had star glints, a heavy chain and a plaster step. Calm plaster top left for the words."
+  },
+  {
+   "n": "49",
+   "status": "review",
+   "product": "Serpentine Whisper Chain",
+   "variant": "Gold",
+   "price": "₹1,299",
+   "handle": "serpentine-whisper-chain",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Necklaces & rings",
+   "line": "Gold at heart.",
+   "prop": "Two white champa (frangipani) flowers with golden hearts",
+   "why": "A clear stone in gold beside white champa with golden hearts: gold at heart",
+   "primary_text": "Gold at heart. A 2 mm snake chain with one 10 mm cushion-cut clear cubic zirconia in a four-prong basket, in 18k gold tone. The Serpentine Whisper Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Serpentine Whisper Chain · Gold · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/serpentine-whisper-chain?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=49-serpentine-whisper-chain",
+   "ink": "#5E4420",
+   "files": {
+    "feed": "ads/49-serpentine-whisper-chain-feed.jpg",
+    "story": "ads/49-serpentine-whisper-chain-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/49-serpentine-whisper-chain-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/49-serpentine-whisper-chain-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/49-serpentine-whisper-chain.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "a wooden honey dipper letting one thread of honey fall into a small pool on the stone",
+   "notes": "r49a: one cushion-cut clear stone in an open four-claw gold basket on a plain bail, on a smooth gold snake chain, as in the listing. The pendant reads about twice its true 10 mm beside the flowers. Calm plaster top left for the words."
+  },
+  {
+   "n": "50",
+   "status": "review",
+   "product": "Baguette Tennis Necklace",
+   "variant": "Emerald",
+   "price": "₹2,300",
+   "handle": "baguette-tennis-necklace",
+   "variant_id": 50651962474658,
+   "stock_23oct": 20,
+   "ad_set": "Necklaces & rings",
+   "line": "Matches the Kanjeevaram.",
+   "prop": "The gold zari border of a deep emerald Kanjeevaram silk saree",
+   "why": "An emerald line on the gold zari of an emerald Kanjeevaram: you match your jewellery to your saree",
+   "primary_text": "Matches the Kanjeevaram. Emerald-green baguette cubic zirconia, edge to edge on a 36 cm choker line in 18k gold-tone claws. The Baguette Tennis Necklace, ₹2,300.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Necklace · Emerald · ₹2,300",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-necklace?variant=50651962474658&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=50-baguette-tennis-necklace-emerald",
+   "ink": "#F1EBDC",
+   "files": {
+    "feed": "ads/50-baguette-tennis-necklace-emerald-feed.jpg",
+    "story": "ads/50-baguette-tennis-necklace-emerald-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/50-baguette-tennis-necklace-emerald-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/50-baguette-tennis-necklace-emerald-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/50-baguette-tennis-necklace-emerald.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "a fresh sprig of kadi patta (curry leaves) with loose leaflets",
+   "notes": "r50a: one continuous line of crosswise emerald-green baguettes, each in a gold box setting with corner claws, closed with the gold box clasp, lying in a loop on the zari, as in the listing. A dark emerald frame: the words sit in cream."
+  },
+  {
+   "n": "52",
+   "status": "review",
+   "product": "Baguette Tennis Necklace",
+   "variant": "Crystal",
+   "price": "₹2,300",
+   "handle": "baguette-tennis-necklace",
+   "variant_id": 50651962441890,
+   "stock_23oct": 30,
+   "ad_set": "Necklaces & rings",
+   "line": "The final touch.",
+   "prop": "A small cut-crystal perfume bottle with a gold collar, golden perfume",
+   "why": "Perfume and the necklace are the last two things you put on before you leave; step-cut glass beside step-cut stones",
+   "primary_text": "The final touch. One line of clear baguette cubic zirconia that sits right at the base of the neck. The Baguette Tennis Necklace, ₹2,300.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Necklace · Crystal · ₹2,300",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-necklace?variant=50651962441890&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=52-baguette-tennis-necklace-crystal",
+   "ink": "#6B4A22",
+   "files": {
+    "feed": "ads/52-baguette-tennis-necklace-crystal-feed.jpg",
+    "story": "ads/52-baguette-tennis-necklace-crystal-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/52-baguette-tennis-necklace-crystal-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/52-baguette-tennis-necklace-crystal-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/52-baguette-tennis-necklace-crystal.jpg"
+   },
+   "same_product_as": [
+    "02"
+   ],
+   "replaces": "a fresh mogra gajra, white jasmine buds strung tight on cotton thread",
+   "notes": "r52b: crosswise baguettes in gold box settings with corner claws and side windows, as in the listing; the box clasp lies unfastened, the two ends apart, as if about to be put on. Honest scale beside an 8 cm bottle. r52a was as faithful but the low angle showed a window and wall in the top third."
+  },
+  {
+   "n": "54",
+   "status": "review",
+   "product": "Woven Gold Hoops",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "woven-gold-hoops",
+   "variant_id": null,
+   "stock_23oct": 63,
+   "ad_set": "Earrings",
+   "line": "The weave you wear.",
+   "prop": "A wide, low hand-woven cane jewellery tray",
+   "why": "Where everyday hoops live: a braid of gold strands lying on a weave of cane",
+   "primary_text": "The weave you wear. 25 mm hoops of braided rope in 18k gold tone. No stones, all texture. The Woven Gold Hoops, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Woven Gold Hoops · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=54-woven-gold-hoops",
+   "ink": "#5C4122",
+   "files": {
+    "feed": "ads/54-woven-gold-hoops-feed.jpg",
+    "story": "ads/54-woven-gold-hoops-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/54-woven-gold-hoops-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/54-woven-gold-hoops-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/54-woven-gold-hoops.jpg"
+   },
+   "same_product_as": [
+    "04"
+   ],
+   "replaces": "a golden silk paranda, a three-strand plait ending in a tassel bound with zari",
+   "notes": "r54b: a braid of many fine gold strands, the flat disc inside the top and the hinged latch, both round, as in the listing. The hoops read a little large in the tray (about 1.4x; the model draws them big beside cane); the tray runs off the right edge. r54a leaned one hoop on the rim and drew it about twice its size. Calm plaster top left for the words."
+  },
+  {
+   "n": "56",
+   "status": "review",
+   "product": "Verdant Eternity Band",
+   "variant": null,
+   "price": "₹1,099",
+   "handle": "verdant-eternity-band",
+   "variant_id": null,
+   "stock_23oct": 60,
+   "ad_set": "Necklaces & rings",
+   "line": "Mehendi that never fades.",
+   "prop": "A mehendi cone and a freshly piped leafy henna vine on handmade paper",
+   "why": "The green ovals cradled in a wave of clear stones → a mehendi bel; the vine runs straight into the ring: wedding season, and the green that stays",
+   "primary_text": "Mehendi that never fades. Emerald-green oval cubic zirconia along a wave of pavé, in rhodium silver tone. The Verdant Eternity Band, ₹1,099.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Eternity Band · ₹1,099",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-eternity-band?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=56-verdant-eternity-band",
+   "ink": "#3F4A2C",
+   "files": {
+    "feed": "ads/56-verdant-eternity-band-feed.jpg",
+    "story": "ads/56-verdant-eternity-band-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/56-verdant-eternity-band-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/56-verdant-eternity-band-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/56-verdant-eternity-band.jpg"
+   },
+   "same_product_as": [
+    "05"
+   ],
+   "replaces": "a fresh money plant cutting, three marbled heart-shaped leaves on a short vine",
+   "notes": "r56a: oval green stones in four claws, the clear pave wave scalloping round each, the open adjustable back with looped tips, cool silver tone, as in the listing. Real glossy henna paste. The ring reads slightly large beside the piped leaves. Calm ivory paper top left for the words."
+  },
+  {
+   "n": "57",
+   "status": "review",
+   "product": "Baguette Tennis Bracelet",
+   "variant": "Crystal",
+   "price": "₹1,699",
+   "handle": "baguette-tennis-bracelet",
+   "variant_id": 50651931738274,
+   "stock_23oct": 29,
+   "ad_set": "Bracelets",
+   "line": "Plans tonight?",
+   "prop": "An ivory duchess-satin kiss-lock evening clutch",
+   "why": "A night out: the clutch and the bracelet go on last; crystal and gold on evening plum",
+   "primary_text": "Plans tonight? Clear baguette cubic zirconia, lined up edge to edge in 18k gold-tone claws. The Baguette Tennis Bracelet, ₹1,699.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Baguette Tennis Bracelet · Crystal · ₹1,699",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/baguette-tennis-bracelet?variant=50651931738274&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=57-baguette-tennis-bracelet-crystal",
+   "ink": "#F3EBE3",
+   "files": {
+    "feed": "ads/57-baguette-tennis-bracelet-crystal-feed.jpg",
+    "story": "ads/57-baguette-tennis-bracelet-crystal-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/57-baguette-tennis-bracelet-crystal-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/57-baguette-tennis-bracelet-crystal-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/57-baguette-tennis-bracelet-crystal.jpg"
+   },
+   "same_product_as": [
+    "07"
+   ],
+   "replaces": "the ivory keys of an old teak harmonium",
+   "notes": "r57a: crosswise baguettes in box settings with corner claws and the box clasp with its fold-over safety, lying unfastened in an S, as in the listing; true fineness beside an 18 cm clutch. The clutch runs off the right edge. A dark frame: the words sit in cream."
+  },
+  {
+   "n": "63",
+   "status": "review",
+   "product": "Silk Mesh Cuff",
+   "variant": "Silver",
+   "price": "₹1,499",
+   "handle": "silk-mesh-cuff",
+   "variant_id": 50651894579362,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Soft as silk.",
+   "prop": "A twisted skein of silver-white silk thread",
+   "why": "The silk in its name: fine woven mesh with the same soft sheen as a skein of silk thread",
+   "primary_text": "Soft as silk. A 19 mm tube of fine woven mesh with mirror-polished end caps, in silver tone. The Silk Mesh Cuff, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Silk Mesh Cuff · Silver · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/silk-mesh-cuff?variant=50651894579362&utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=63-silk-mesh-cuff-silver",
+   "ink": "#2F4560",
+   "files": {
+    "feed": "ads/63-silk-mesh-cuff-silver-feed.jpg",
+    "story": "ads/63-silk-mesh-cuff-silver-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/63-silk-mesh-cuff-silver-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/63-silk-mesh-cuff-silver-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/63-silk-mesh-cuff-silver.jpg"
+   },
+   "same_product_as": [],
+   "replaces": "a little cloud of white cotton wool",
+   "notes": "r63a: a rounded tube of fine woven mesh bent into an open C with two polished flat oval end caps facing across the gap, as in the listing. The model warmed the metal to a rose tone; the warm hues on the cuff were neutralised to the listing's cool silver (raw/r63a_silver), leaving the ground and the silk untouched. Calm powder-blue plaster top left for the words."
+  },
+  {
+   "n": "65",
+   "status": "review",
+   "product": "Brushed Gold Huggies",
+   "variant": null,
+   "price": "₹999",
+   "handle": "brushed-gold-huggies",
+   "variant_id": null,
+   "stock_23oct": 35,
+   "ad_set": "Earrings",
+   "line": "Sweater-weather gold.",
+   "prop": "The folded sleeve of a cream cable-knit wool sweater",
+   "why": "The season: soft brushed gold on soft wool, the pair you wear all winter",
+   "primary_text": "Sweater-weather gold. Small huggie hoops with a satin-brushed finish in 18k gold tone. The Brushed Gold Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Brushed Gold Huggies · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=65-brushed-gold-huggies",
+   "ink": "#5E4A2E",
+   "files": {
+    "feed": "ads/65-brushed-gold-huggies-feed.jpg",
+    "story": "ads/65-brushed-gold-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/65-brushed-gold-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/65-brushed-gold-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/65-brushed-gold-huggies.jpg"
+   },
+   "same_product_as": [
+    "16"
+   ],
+   "replaces": "an old wooden sewing spool wound with soft-gold zari thread",
+   "notes": "r65a: wide softly domed bands in brushed satin with fine parallel lines, one on its side showing the C, as in the listing; true scale, each huggie about half a cable twist. Calm oat plaster top left for the words."
+  },
+  {
+   "n": "69",
+   "status": "review",
+   "product": "Torsade Huggies",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "torsade-huggies",
+   "variant_id": null,
+   "stock_23oct": 29,
+   "ad_set": "Earrings",
+   "line": "Mirror, mirror.",
+   "prop": "An antique brass hand mirror with a rope-twist handle, lying face up",
+   "why": "Getting ready: the huggies on the mirror glass, each with its reflection, beside the same twist cast in brass",
+   "primary_text": "Mirror, mirror. 20 mm huggies with a fine twisted rope texture all the way round, in 18k gold tone. The Torsade Huggies, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Torsade Huggies · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/torsade-huggies?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=69-torsade-huggies",
+   "ink": "#6A4530",
+   "files": {
+    "feed": "ads/69-torsade-huggies-feed.jpg",
+    "story": "ads/69-torsade-huggies-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/69-torsade-huggies-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/69-torsade-huggies-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/69-torsade-huggies.jpg"
+   },
+   "same_product_as": [
+    "27"
+   ],
+   "replaces": "a child's skipping rope of twisted cotton with a turned wooden handle",
+   "notes": "r69a: small chunky domed huggies with a fine twisted-rope torsade and a hinged snap, as in the listing, each doubled by a clean reflection; the mirror shows only a pale glow. The huggies read large beside the glass (about 1.5x; the model draws them big). The handle runs off the right edge; calm blush plaster top left for the words."
+  },
+  {
+   "n": "70",
+   "status": "review",
+   "product": "Molten Panel Bracelet",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "molten-panel-bracelet",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Bracelets",
+   "line": "Sunshine on your wrist.",
+   "prop": "One real sunflower head",
+   "why": "A flower in the piece's own colour: golden rows of plates curving round golden petals, sunshine you can wear",
+   "primary_text": "Sunshine on your wrist. Small flat oval plates in five staggered rows like brickwork, in satin-polished 18k gold tone, that bend like a watch strap. The Molten Panel Bracelet, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Molten Panel Bracelet · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/molten-panel-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=70-molten-panel-bracelet",
+   "ink": "#5F4614",
+   "files": {
+    "feed": "ads/70-molten-panel-bracelet-feed.jpg",
+    "story": "ads/70-molten-panel-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/70-molten-panel-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/70-molten-panel-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/70-molten-panel-bracelet.jpg"
+   },
+   "same_product_as": [
+    "21"
+   ],
+   "replaces": "a swatch of ivory net embroidered with rows of gold sequins (sitara), the edge of a lehenga dupatta",
+   "notes": "r70b: small flat oval plates in staggered brick-set rows (five across where countable), articulated, with the square box clasp, as in the listing; true 15 mm width beside a 12 cm sunflower; a natural flower with blemished petals and pollen. The plates read a touch pale. r70a drew four rows and a too-perfect flower. The sunflower runs off the right edge; calm plaster top left for the words."
+  },
+  {
+   "n": "24",
+   "status": "unmarked",
+   "product": "Verdant Cushion Studs",
+   "variant": "Silver",
+   "price": "₹1,199",
+   "handle": "verdant-cushion-studs",
+   "variant_id": null,
+   "stock_23oct": 30,
+   "ad_set": "Earrings",
+   "line": "Pehenke paan Banaras wala.",
+   "prop": "Two fresh paan (betel) leaves and one whole clove, the pin of a folded paan",
+   "why": "Deep emerald cushion stones → the glossy deep green of a paan leaf; the clove is the paan pin and the scale proof",
+   "primary_text": "Pehenke paan Banaras wala. An emerald-green cushion cubic zirconia in a sunburst halo of clear stones, rhodium silver tone. The Verdant Cushion Studs, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Verdant Cushion Studs · Silver · ₹1,199",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/verdant-cushion-studs?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=24-verdant-cushion-studs",
+   "ink": "#1F4A33",
+   "files": {
+    "feed": "ads/24-verdant-cushion-studs-feed.jpg",
+    "story": "ads/24-verdant-cushion-studs-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/24-verdant-cushion-studs-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/24-verdant-cushion-studs-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/24-verdant-cushion-studs.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "24a/24b drew the studs about 30mm against the leaf (2.3x). Reshot with a clove (15mm) beside them and a critical-scale block: 24c studs about one clove long, true. Studs exact: emerald cushion in a polished silver bezel inside a single scalloped halo of clear rounds. Line plays on the song Khaike paan Banaras wala."
+  },
+  {
+   "n": "41",
+   "status": "unmarked",
+   "product": "Duo Link Bracelet",
+   "variant": null,
+   "price": "₹999",
+   "handle": "duo-link-bracelet",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Gur ya cheeni? Dono.",
+   "prop": "A block of golden gur with broken crumbs beside a heap of white sugar (cheeni)",
+   "why": "Gold links and silver links → gur and cheeni, the two sweeteners every Indian kitchen asks you to choose between",
+   "primary_text": "Gur ya cheeni? Dono. Long oval links in gold tone and silver tone, joined by small stacked gold-tone rings. The Duo Link Bracelet, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Duo Link Bracelet · ₹999",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/duo-link-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=41-duo-link-bracelet",
+   "ink": "#4E3F2E",
+   "files": {
+    "feed": "ads/41-duo-link-bracelet-feed.jpg",
+    "story": "ads/41-duo-link-bracelet-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/41-duo-link-bracelet-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/41-duo-link-bracelet-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/41-duo-link-bracelet.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "41a matches the listing hero link for link: three silver and five gold long ovals, stacked gold-ring connectors, two places where gold links hook straight into each other as in the listing, lobster clasp and extender. Link about half the 4cm gur block. Asked for stone-grey plaster and got warm cream, which suits the gur. 41b had the grey ground but a different link order with a silver-to-gold direct hook."
+  },
+  {
+   "n": "45",
+   "status": "unmarked",
+   "product": "Marquise Coil Cuff",
+   "variant": null,
+   "price": "₹1,499",
+   "handle": "marquise-wheat-cuff",
+   "variant_id": null,
+   "stock_23oct": 20,
+   "ad_set": "Bracelets",
+   "line": "Sown in two rows.",
+   "prop": "Magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff",
+   "why": "Each marquise stone is the size and shape of a melon seed, and the two slanted rows read like seeds sown in a herringbone",
+   "primary_text": "Sown in two rows. Clear marquise cubic zirconia set in two slanting rows on an 18k gold-tone coil cuff, with a polished ball at each end. The Marquise Coil Cuff, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Marquise Coil Cuff · ₹1,499",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/marquise-wheat-cuff?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=45-marquise-wheat-cuff",
+   "ink": "#5C4420",
+   "files": {
+    "feed": "ads/45-marquise-wheat-cuff-feed.jpg",
+    "story": "ads/45-marquise-wheat-cuff-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/45-marquise-wheat-cuff-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/45-marquise-wheat-cuff-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/45-marquise-wheat-cuff.jpg"
+   },
+   "same_product_as": [],
+   "replaces": null,
+   "notes": "45a: two rows of marquise stones in gold claw cups slanting in opposite directions as in the listing, plain polished back band with a ball at each end. Seeds about 1.3x a stone against about 1.2x true; cuff about 1.1x. 45b equally faithful with a calmer top left but slightly milky stones."
+  },
+  {
+   "n": "61",
+   "status": "unmarked",
+   "product": "Halo Curve Ring",
+   "variant": null,
+   "price": "₹1,299",
+   "handle": "halo-curve-ring",
+   "variant_id": null,
+   "stock_23oct": 45,
+   "ad_set": "Necklaces & rings",
+   "line": "Never lose your marbles.",
+   "prop": "Three glass marbles (kanche), two amber cat's-eyes and one champagne swirl",
+   "why": "A banded tiger's eye and a champagne crystal → an amber cat's-eye marble and a clear one; the kanche game, kept for good",
+   "primary_text": "Never lose your marbles. A tiger's eye and a champagne crystal, side by side on an open 18k gold-tone band. The Halo Curve Ring, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.",
+   "headline": "Halo Curve Ring · ₹1,299",
+   "cta": "SHOP_NOW",
+   "url": "https://www.nairaflore.com/products/halo-curve-ring?utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content=61-halo-curve-ring",
+   "ink": "#5A3A16",
+   "files": {
+    "feed": "ads/61-halo-curve-ring-feed.jpg",
+    "story": "ads/61-halo-curve-ring-story.jpg"
+   },
+   "repo_files": {
+    "feed": "docs/creative/performance/ads/colour/61-halo-curve-ring-feed.jpg",
+    "story": "docs/creative/performance/ads/colour/61-halo-curve-ring-story.jpg",
+    "plate": "docs/creative/performance/plates/colour/61-halo-curve-ring.jpg"
+   },
+   "same_product_as": [
+    "11"
+   ],
+   "replaces": null,
+   "notes": "61b: an open bypass band of thin gold wire ending in a banded tiger's eye cabochon and a faceted champagne crystal, each in its own slim bezel, as in the listing and the earlier passed plates; the ring stands upright behind three marbles that throw amber light onto the plaster. Each stone is about three quarters of a marble, true for 12 mm stones and 16 mm marbles. 61a was as faithful but spread the marbles out, with one cut by the frame edge."
+  }
+ ]
+}

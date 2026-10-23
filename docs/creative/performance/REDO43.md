@@ -109,3 +109,76 @@ dropped pattern, so they stay out of the approved set until marked.
 One handoff page for Claude Code: the 23 approved ads, ready to use, and the redone ads with Keep and Drop, each with
 the text-free photograph, the Feed and Story files, the line, primary text, headline, link and product facts, plus
 `manifest.json` and `approved.csv` alongside.
+
+## Result (23 Oct 2026)
+
+All 43 slots are redone: 54 frames on Higgsfield (11 of them reshoots, plus one job that failed on Higgsfield's side), 108
+credits, 28 left. Every frame was checked at zoom against the listing photos for construction and scale before it was kept.
+Changes from the plan:
+
+- **22** runs "Twist and shell." instead of "Straight from the shell.", which could suggest natural pearls.
+- **21** lies beside loose dupatta folds instead of a silk knot, which read as a necktie.
+- **46** had a flat band in the bottom tenth from the model; it was retouched by mirroring the plaster above it.
+- **63** came back with a rose cast on the steel; the cuff's warm hues were neutralised to the listing's cool silver.
+- **34** took three frames: the model draws this ear cuff as a small open ring, and the kept frame still reads about twice its
+  true 13 mm.
+- **35**: one of the two pear stones points into the gap instead of away from it.
+- Star-shaped glints were reshot out of 30, 40 and 48; one small glint is left on 01, 09 and 48.
+
+Pieces that read larger than life beside their prop are marked in the table and in each shot's notes; the model draws small
+jewellery big, and these are the ones it did most.
+
+| Slot | Product | New prop | Line | Frames | Note |
+|---|---|---|---|---|---|
+| 02 | Baguette Tennis Necklace · Crystal | an ivory raw-silk potli with a gold zari border and gold tassels, the necklace spilling from its mouth | Packed for the shaadi. | 1 | reads large |
+| 04 | Woven Gold Hoops | the woven gold zari paisley border of an ivory Banarasi silk saree | Banarasi, for your ears. | 1 |  |
+| 05 | Verdant Eternity Band | an open emerald-green velvet ring box with an ivory satin lid | Green means yes. | 1 |  |
+| 07 | Baguette Tennis Bracelet · Crystal | a blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath | RSVP: yes. | 1 |  |
+| 11 | Halo Curve Ring | two rose heads side by side, one caramel and one champagne | Tum aur main. | 1 |  |
+| 16 | Brushed Gold Huggies | a small hand-beaten brass trinket dish | Your everyday pair. | 1 | reads large |
+| 21 | Molten Panel Bracelet | an antique-gold silk satin dupatta in soft folds | Drapes like silk. | 2 |  |
+| 22 | Torsade Pearl Cuff | a large open shell lined with iridescent mother-of-pearl | Twist and shell. | 1 | reads large |
+| 27 | Torsade Huggies | two lit twisted ivory taper candles in brass holders | A twist on Diwali. | 1 |  |
+| 30 | Serpentine Whisper Chain · Silver | one white rose with a short stem | Say it with one. | 2 |  |
+| 31 | Baroque Shell Bracelet | pale powder-pink mulmul with white Lucknowi chikankari | Made for your chikankari. | 1 | reads large |
+| 32 | Petite Square Huggies | a small square ivory gift box tied with a gold satin ribbon | A square deal. | 1 | reads large |
+| 33 | Rivière Hoops · Silver | a small mirror disco ball | Sangeet-ready. | 1 | reads large |
+| 34 | Emerald Square Ear Cuff | the eye of a real peacock feather | Light as a feather. | 3 | reads large |
+| 35 | Pear Point Open Cuff | two whole golden pears side by side | A pair of pears. | 1 | one pear turned |
+| 36 | Bold Nocturne Drops | a small black velvet jewellery pouch with a gold drawstring | Party in a pouch. | 1 | reads large |
+| 37 | Marquise Drop Choker | a short spray of white phalaenopsis orchids | Rare, like an orchid. | 1 | reads large |
+| 38 | Droplet Open Cuff · Gold | a cut-glass attar bottle with its glass dauber and one drop of attar | Just one drop. | 2 |  |
+| 39 | Petal Flower Studs · Gold | a head of white ixora with two leaves and two fallen florets | Never needs water. | 1 | reads large |
+| 40 | Fine Tennis Bracelet | three blades of fresh grass, one beaded with dew | Morning dew, all day. | 2 |  |
+| 43 | North Star Bangle · Gold | a glowing paper star lantern for Diwali | Wear the stars this Diwali. | 1 | reads large |
+| 44 | Droplet Open Ring · Silver | part of a fresh lotus leaf beaded with water drops | Raindrop, made silver. | 1 | reads large |
+| 46 | Triple Coil Wrap Bangle · Gold | a spiral of curled gold gift ribbon | Comes pre-wrapped. | 2 | retouched |
+| 47 | Garnet Cable Cuff | a ripe pomegranate, neatly scored and opened | Anaar season. | 1 |  |
+| 48 | Charm Box Chain | a small heap of fresh mogra buds | Fresh as mogra. | 2 |  |
+| 49 | Serpentine Whisper Chain · Gold | two white champa (frangipani) flowers with golden hearts | Gold at heart. | 1 |  |
+| 50 | Baguette Tennis Necklace · Emerald | the gold zari border of a deep emerald Kanjeevaram silk saree | Matches the Kanjeevaram. | 1 |  |
+| 52 | Baguette Tennis Necklace · Crystal | a small cut-crystal perfume bottle with a gold collar, golden perfume | The final touch. | 2 |  |
+| 54 | Woven Gold Hoops | a wide, low hand-woven cane jewellery tray | The weave you wear. | 2 | reads large |
+| 56 | Verdant Eternity Band | a mehendi cone and a freshly piped leafy henna vine on handmade paper | Mehendi that never fades. | 1 | reads large |
+| 57 | Baguette Tennis Bracelet · Crystal | an ivory duchess-satin kiss-lock evening clutch | Plans tonight? | 1 |  |
+| 63 | Silk Mesh Cuff · Silver | a twisted skein of silver-white silk thread | Soft as silk. | 1 |  |
+| 65 | Brushed Gold Huggies | the folded sleeve of a cream cable-knit wool sweater | Sweater-weather gold. | 1 |  |
+| 69 | Torsade Huggies | an antique brass hand mirror with a rope-twist handle, lying face up | Mirror, mirror. | 1 | reads large |
+| 70 | Molten Panel Bracelet | one real sunflower head | Sunshine on your wrist. | 2 |  |
+| 01 | Toggle Link Chain | the collar of a folded white cotton shirt | Desk to dinner. | 1 |  |
+| 06 | Cushion Halo Ring | an open pearl-white satin ring box | Already a yes. | 1 |  |
+| 08 | Baguette Huggies · Emerald | a small emerald-green glass trinket dish | Green with envy. | 1 |  |
+| 09 | Bold Nocturne Chain | the lapel of a folded black wool blazer | Suits you. | 1 |  |
+| 10 | Bold Nocturne Bracelet | a closed black leather planner with gilt page edges | Big plans. | 1 |  |
+| 12 | Kiss Knot Bangle · Gold | a plain ivory card with one red lipstick kiss | XOXO. | 1 |  |
+| 17 | Rivière Eternal Bracelet | a tennis ball on a red clay court with a white line | Game, set, sparkle. | 1 | reads large |
+| 26 | Bold Dome Huggies | a closed polished gold powder compact | Touch-up done. | 1 | reads large |
+
+## The handoff
+
+**https://claude.ai/artifact/8pGjpcLq3EgsZtMjeNC2pt** holds the 23 approved ads, the 43 redone ads with Keep and Drop, and the
+4 never marked. Every ad has its full-size Feed (1080x1350) and Story (1080x1920), its line, primary text, headline and link.
+`manifest.json`, `ads.csv` and `approved.csv` are on the page and in `handoff/` here. The page's verdict log (collection
+`verdicts`, one document per ad number) is seeded with the 23 keeps; Claude Code makes an ad only when its verdict is `keep`.
+Before handing it over, mark the 43 redone and the 4 unmarked ads on the page, then give Claude Code the link and the brief at
+the top of the page.

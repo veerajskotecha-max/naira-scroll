@@ -1,7 +1,11 @@
-# Colour-coded 50 + round two (51-70): the Meta upload sheet, one row per ad (Feed and Story of each shot), in the columns of meta.csv.
+# Colour-coded ads (Oct 2026): the Meta upload sheet, one row per ad (Feed and Story of each shot), in the columns of meta.csv.
 # The Story carries no words, so the line, the product truth and the offer live in the primary text; the URL opens the shot's
-# own variant. Handles, variant ids and stock were read from Shopify on 23 Oct 2026 (read-only). Round two is wave 2; the
-# `reserve` column carries my review of the first 50 (retire = do not upload, watch = upload, swap first if it lags).
+# own variant. Handles, variant ids and stock were read from Shopify on 23 Oct 2026 (read-only).
+# Status comes from the founder's verdicts on the round-two review page (colour_verdicts.json, read on 23 Oct 2026):
+#   approved  kept in round two                                   -> wave 1, ready to upload
+#   review    dropped in round two and redone in round three with  -> wave 2, upload once kept on the handoff page
+#             a sensible prop (the dropped version is archived in colour_dropped.json and has no row)
+#   unmarked  never marked                                        -> no wave
 # Usage: colour_meta.py -> colour_meta.csv
 import csv, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -69,7 +73,7 @@ TRUTH = {
     "18": "A gold-tone butterfly whose wings are set edge to edge in lilac pavé.",
     "19": "A curve of clear brilliants with an icy aqua heart below, rhodium silver tone.",
     "20": "Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls.",
-    "21": "Small oval plates laid in rows like kernels, in satin-polished 18k gold tone.",
+    "21": "Small flat oval plates in five staggered rows like brickwork, in satin-polished 18k gold tone, that bend like a watch strap.",
     "22": "Two white shell pearls at the ends of a twisted 18k gold-tone cuff, with pavé collars.",
     "23": "A 14 mm sunburst of clear baguettes around a small pearl, with a white pearl drop below.",
     "24": "An emerald-green cushion cubic zirconia in a sunburst halo of clear stones, rhodium silver tone.",
@@ -106,41 +110,40 @@ for new, old in {"51": "01", "52": "02", "53": "03", "54": "04", "55": "06", "56
                  "61": "11", "62": "12", "64": "14", "65": "16", "66": "15", "67": "17", "68": "26", "69": "27", "70": "21"}.items():
     TRUTH[new] = TRUTH[old]
 
-# my review of the first 50 after "elaichi and foods, be careful": retire the broken, crumbed or sticky food; watch the rest of the food
-REVIEW = {
-    "02": ("retire", "Sticky sugared petha under a necklace reads odd, not precious."),
-    "09": ("retire", "Broken gur chunks and crumbs look messy, not golden."),
-    "13": ("retire", "Pheni is a crumbly fried nest with loose threads around the cuff."),
-    "16": ("retire", "A broken rava laddoo and crumbs beside the huggies."),
-    "26": ("retire", "A cracked pani puri shell and crumbs."),
-    "27": ("retire", "Flaking khari straws and crumbs all round the earrings."),
-    "32": ("retire", "A broken soan papdi with loose threads touching a huggie."),
-    "48": ("retire", "A broken motichoor laddoo with loose boondi."),
-    "10": ("watch", "A cone of haldi powder: powder beside gold reads as a stain."),
-    "21": ("watch", "Loose chana dal works, but it is food again."),
-    "39": ("watch", "A heap of cloves, the closest thing here to elaichi."),
-    "41": ("watch", "Gur crumbs beside sugar, messier than the rest."),
-    "47": ("watch", "Dry rajma matches the garnet, but it is food again."),
-}
+V = json.load(open(f"{HERE}/colour_verdicts.json"))   # shot -> {"verdict": "keep" | "drop", "note", "at"}
+CAMPAIGN = "PERF · Colour (least graphics) · Oct 2026"
+COLS = ["ad", "product", "format", "placement", "variant", "reserve", "primary_text", "headline", "cta", "url", "campaign", "adset", "wave"]
+
+def status(n):
+    v = V.get(n, {}).get("verdict")
+    return "approved" if v == "keep" else "review" if v == "drop" else "unmarked"
+
+def ad(e):
+    """one shot's copy and link: the line, the product truth, the offer, the headline and the URL of its own variant"""
+    handle, vid, stock, adset = SHOP[e["n"]]; base = os.path.basename(e["plate"])[:-4]
+    url = f"https://www.nairaflore.com/products/{handle}?" + (f"variant={vid}&" if vid else "") + \
+          f"utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content={base}"
+    line = e["line"].replace("\u2011", "-")          # the Feed keeps a non-breaking hyphen; the copy takes a plain one
+    st = status(e["n"])
+    return dict(base=base, handle=handle, variant_id=vid, stock=stock, adset=adset, url=url, line=line, status=st,
+                headline=" · ".join(x for x in (e["title"], e.get("variant"), e["price"]) if x),
+                primary_text=f"{line} {TRUTH[e['n']]} The {e['title']}, {e['price']}.\n\n{OFFER}",
+                wave={"approved": 1, "review": 2}.get(st, ""))
+
+def rows(L):
+    for e in L:
+        a = ad(e)
+        for t in ("feed", "story"):
+            yield dict(ad=f"{a['base']}-{t}", product=e["title"], format="colour", placement=t, variant=e.get("variant") or "",
+                       reserve="" if a["status"] == "approved" else a["status"], primary_text=a["primary_text"],
+                       headline=a["headline"], cta="SHOP_NOW", url=a["url"], campaign=CAMPAIGN, adset=a["adset"], wave=a["wave"])
 
 def main():
     L = json.load(open(f"{HERE}/colour50.json"))
-    cols = ["ad", "product", "format", "placement", "variant", "reserve", "primary_text", "headline", "cta", "url", "campaign", "adset", "wave"]
     with open(f"{HERE}/colour_meta.csv", "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=cols); w.writeheader()
-        for e in L:
-            handle, vid, stock, adset = SHOP[e["n"]]; base = os.path.basename(e["plate"])[:-4]
-            url = f"https://www.nairaflore.com/products/{handle}?" + (f"variant={vid}&" if vid else "") + \
-                  f"utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content={base}"
-            head = " · ".join(x for x in (e["title"], e.get("variant"), e["price"]) if x)
-            pt = f"{e['line']} {TRUTH[e['n']]} The {e['title']}, {e['price']}.\n\n{OFFER}"
-            flag = REVIEW.get(e["n"], ("", ""))[0]   # retired rows stay in the sheet for the record but join no wave
-            wave = "" if flag == "retire" else 2 if int(e["n"]) > 50 else 1
-            for t in ("feed", "story"):
-                w.writerow(dict(ad=f"{base}-{t}", product=e["title"], format="colour", placement=t, variant=e.get("variant") or "",
-                                reserve=flag, primary_text=pt, headline=head, cta="SHOP_NOW", url=url,
-                                campaign="PERF · Colour 50 (least graphics) · Oct 2026", adset=adset, wave=wave))
-    print(2 * len(L), "rows")
+        w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); n = 0
+        for r in rows(L): w.writerow(r); n += 1
+    print(n, "rows")
 
 if __name__ == "__main__":
     main()
