@@ -100,5 +100,67 @@
    "56dbc47d-c562-4d76-88ed-d15a109d1c58"
   ],
   "notes": "Ring exact: emerald ovals in 4 claws, the S-wave of pave weaving between them, open back with looped tips. Chickpeas about 8mm, true scale. Variant b drew the chickpeas olive-size."
+ },
+ {
+  "n": "06",
+  "key": "cushion-halo-ring",
+  "plate": "plates/colour/06-cushion-halo-ring.jpg",
+  "raw": "06b",
+  "title": "Cushion Halo Ring",
+  "price": "₹1,199",
+  "variant": null,
+  "ingredient": "kaju katli with silver varq, a stack on crinkled butter paper and one loose diamond, torn varq flakes",
+  "ground": "ivory lime plaster",
+  "rhyme": "silver varq = rhodium silver tone; the katli diamond = the cushion halo turned 45 degrees",
+  "line": "The last piece is yours.",
+  "ink": "#45484B",
+  "score": 9.0,
+  "feed_top": 200,
+  "jobs": [
+   "863243d6 (06a)",
+   "42c3e0c4 (06b, kept)"
+  ],
+  "notes": "Halo exact in 06b: one row of small stones with bead claws round a 4-claw round centre, pave shoulders, plain polished shank, cool silver. 06a drew a denser double-looking halo. Ring about 1.2x against a standard katli, reads true. Feed crop starts higher (200px) so the katli stack is whole."
+ },
+ {
+  "n": "07",
+  "key": "baguette-tennis-bracelet",
+  "plate": "plates/colour/07-baguette-tennis-bracelet.jpg",
+  "raw": "07a",
+  "title": "Baguette Tennis Bracelet",
+  "price": "₹1,699",
+  "variant": "Crystal",
+  "ingredient": "a soft mound of raw long-grain basmati rice with a trail of single grains spilling into the bracelet",
+  "ground": "sand handwoven linen",
+  "rhyme": "slim translucent rice grains = slim icy crosswise baguettes, same size and shape",
+  "line": "Every grain in line.",
+  "ink": "#5C4626",
+  "score": 9.1,
+  "feed_top": 170,
+  "jobs": [
+   "ba7c1659 (07a, kept)",
+   "adebcbe1 (07b)"
+  ],
+  "notes": "Construction exact: emerald-cut baguettes crosswise in gold box settings with 4 claws, box clasp with fold-over safety. Grain to baguette width 0.6 (true 0.6), length 1.4 (true 1.15): honest scale. 07b calmer but the rice barely meets the bracelet."
+ },
+ {
+  "n": "08",
+  "key": "baguette-huggies",
+  "plate": "plates/colour/08-baguette-huggies.jpg",
+  "raw": "08a",
+  "title": "Baguette Huggies",
+  "price": "₹1,199",
+  "variant": "Emerald",
+  "ingredient": "a loose heap of pistachio pieces with rose-purple skins, a few loose slivers in front",
+  "ground": "ivory lime plaster",
+  "rhyme": "green pistachio = emerald baguettes; slim slivers = slim crosswise stones; pista is the garnish of every mithai",
+  "line": "Garnish your ears.",
+  "ink": "#1E4A30",
+  "score": 8.7,
+  "jobs": [
+   "2c430f3a (08a, kept)",
+   "d19ce66d (08b)"
+  ],
+  "notes": "Low 20-degree camera for variety. Construction exact: 7 crosswise emerald-cut baguettes with shared bar claws and bead tips on the lower front, hinge and snap bar visible, plain polished upper half. Pistachio reads real but pinker than the stones, so the colour rhyme is softer than the earlier plates. 08b turned the standing huggie edge-on into a column of stones."
  }
 ]
