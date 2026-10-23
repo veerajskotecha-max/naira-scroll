@@ -1016,6 +1016,33 @@
   "stack": true
  },
  {
+  "n": "44",
+  "key": "droplet-open-ring",
+  "plate": "plates/colour/44-droplet-open-ring.jpg",
+  "raw": "44d",
+  "title": "Droplet Open Ring",
+  "price": "₹1,299",
+  "variant": "Silver",
+  "ingredient": "a nimbu-mirchi: one kagzi lime and seven green chillies strung on a white cotton thread, the ring leaning on the lime",
+  "ground": "cool pale grey-white lime plaster",
+  "rhyme": "the silver ball = the round lime, the silver teardrop = the tapering chilli; nimbu-mirchi is the charm hung at Indian doorways against the evil eye",
+  "line": "Nazar na lage.",
+  "ink": "#2E4A22",
+  "score": 9.1,
+  "jobs": [
+   "44abf46e (44a)",
+   "bad966d3 (44b)",
+   "15c83cf6 (44c)",
+   "d0e39619 (44d, kept)"
+  ],
+  "notes": "44a/44b drew the ring about the width of the lime (true about half). Reshot leaning on a 4.5cm lime at the same depth with the chilli width as referent: 44d is 0.6 of the lime. Construction as the gold upright listing photo: thin band, a round ball at one end, and at the other a teardrop whose narrow neck runs into the band and whose round bulb is the free end, the two side by side across a small gap. 44c was true too but its chillies filled the top left.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
+ },
+ {
   "n": "45",
   "key": "marquise-wheat-cuff",
   "plate": "plates/colour/45-marquise-wheat-cuff.jpg",
