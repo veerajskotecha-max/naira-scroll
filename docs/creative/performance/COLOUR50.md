@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-65 shots kept, average score 9.08, 172 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+66 shots kept, average score 9.09, 174 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -170,6 +170,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 63 | Silk Mesh Cuff (Silver) | a little cloud of white cotton wool | deep midnight-blue lime plaster | Chanda mama, paas ke. | 9.3 | 2 |
 | 64 | Marquise Layering Set | a small paper patang of champagne tissue on a bamboo spine and bow | pale dawn-peach lime plaster | Kai po che! | 9.0 | 6 |
 | 65 | Brushed Gold Huggies | an old wooden sewing spool wound with soft-gold zari thread | warm pale linen-beige lime plaster | Spun gold. | 9.1 | 2 |
+| 66 | Ribbon Bead Bracelet | a white satin school ribbon tied in a double-loop bow with V-cut tails | deep school-uniform navy lime plaster | Mummy's bow, minus the tug. | 9.2 | 2 |
 <!-- /log -->
 
 ## Review and upload
