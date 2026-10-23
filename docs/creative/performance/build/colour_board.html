@@ -1,0 +1,286 @@
+<title>Colour-Coded 50</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Jost:wght@400;500&display=swap">
+<style>
+/* Layout: one quiet gallery wall of Feed + Story pairs; the only colour on the page is each shot's own ink */
+:root{
+  --bg:#F2F2EF; --surface:#FFFFFF; --fg:#1D1B19; --muted:#6C665F; --line:#DEDAD3;
+  --keep:#2E6A3B; --reshoot:#94650F; --drop:#9A2E2E; --lift:0%;
+  --display:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
+  --body:"Jost","Futura","Century Gothic","Avenir Next",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#131211; --surface:#1C1B19; --fg:#ECE8E1; --muted:#A49D93; --line:#302D29;
+  --keep:#86C893; --reshoot:#E2B65E; --drop:#E99090; --lift:62%; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#131211; --surface:#1C1B19; --fg:#ECE8E1; --muted:#A49D93; --line:#302D29;
+  --keep:#86C893; --reshoot:#E2B65E; --drop:#E99090; --lift:62%; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--fg); font-family:var(--body); font-size:15px; line-height:1.55;
+  padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); padding-block:0 64px}
+.wrap{max-width:1240px; margin:0 auto}
+header{padding-block:44px 8px; display:grid; gap:18px}
+.wm{width:116px; height:22px; background:var(--fg); -webkit-mask:url(/*LOGO*/) left center/contain no-repeat; mask:url(/*LOGO*/) left center/contain no-repeat}
+h1{font-family:var(--display); font-style:italic; font-weight:500; font-size:clamp(40px, 6vw, 64px); line-height:1; margin:0; letter-spacing:-.01em; text-wrap:balance}
+.lede{max-width:64ch; margin:0; color:var(--muted)}
+.lede b{color:var(--fg); font-weight:500}
+.stats{display:flex; flex-wrap:wrap; gap:8px 28px; margin:4px 0 0; padding:0; list-style:none; font-variant-numeric:tabular-nums}
+.stats li{display:grid}
+.stats b{font-family:var(--display); font-size:30px; font-weight:500; line-height:1.1}
+.stats span{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted)}
+.inks{display:grid; grid-template-columns:repeat(50, minmax(0,1fr)); height:44px; margin-top:22px; border-radius:2px; overflow:hidden; outline:1px solid var(--line)}
+.inks a{display:block; background:var(--ink)}
+.inks a:hover,.inks a:focus-visible{transform:scaleY(1.18); outline:2px solid var(--fg); outline-offset:-2px; z-index:1}
+.inks-cap{display:flex; justify-content:space-between; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-top:6px}
+.how{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:14px 32px; margin:26px 0 6px; padding:18px 0; border-block:1px solid var(--line); font-size:13.5px; color:var(--muted)}
+.how h2{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--fg); font-weight:500; margin:0 0 4px}
+.how p{margin:0}
+.bar{position:sticky; top:env(safe-area-inset-top, 0px); z-index:5; background:var(--bg); display:flex; flex-wrap:wrap; gap:10px 22px; align-items:center; padding-block:12px; border-bottom:1px solid var(--line)}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top, 0px); z-index:10; background:var(--bg)}
+.seg{display:flex; flex-wrap:wrap; gap:4px}
+.seg button,.vd button,.copy,.lb-nav button{font:inherit; font-size:12.5px; letter-spacing:.06em; color:var(--fg); background:transparent; border:1px solid var(--line); border-radius:999px; padding:5px 12px; cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--fg); color:var(--bg); border-color:var(--fg)}
+.seg button:focus-visible,.vd button:focus-visible,.copy:focus-visible,.media button:focus-visible,.lb-nav button:focus-visible,textarea:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
+.tally{margin-left:auto; font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+.tally b{color:var(--fg); font-weight:500}
+.state{font-size:12px; color:var(--muted)}
+.grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap:40px 36px; margin-top:30px}
+.card{display:grid; gap:14px; min-width:0}
+.media{display:grid; grid-template-columns:5fr 2.8fr; gap:10px; align-items:end}
+.media button{all:unset; cursor:zoom-in; display:block; border-radius:2px; overflow:hidden; background:var(--surface)}
+.media img{display:block; width:100%; height:auto}
+.feed img{aspect-ratio:4/5} .story img{aspect-ratio:9/16}
+.cap{display:flex; justify-content:space-between; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); margin-top:5px}
+.meta{display:grid; gap:6px; min-width:0}
+.top{display:flex; align-items:center; gap:10px; font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-variant-numeric:tabular-nums}
+.dot{width:12px; height:12px; border-radius:50%; background:var(--ink); outline:1px solid var(--line)}
+.top .sc{margin-left:auto}
+h3{margin:0; font-weight:500; font-size:16px; letter-spacing:.02em}
+h3 .v{color:var(--muted); font-weight:400}
+.price{margin:0; font-size:13.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+.price .low{color:var(--reshoot)}
+.line{margin:4px 0 2px; font-family:var(--display); font-style:italic; font-size:27px; line-height:1.15; color:color-mix(in oklab, var(--ink), white var(--lift)); text-wrap:balance}
+dl{display:grid; grid-template-columns:auto 1fr; gap:3px 12px; margin:2px 0 0; font-size:13.5px}
+dt{font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); padding-top:3px}
+dd{margin:0; min-width:0}
+details{font-size:13px; color:var(--muted)}
+summary{cursor:pointer; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; padding-block:4px}
+details p{margin:4px 0 0}
+.vd{display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-top:6px}
+.vd button[aria-pressed="true"][data-v="keep"]{background:var(--keep); border-color:var(--keep); color:var(--surface)}
+.vd button[aria-pressed="true"][data-v="reshoot"]{background:var(--reshoot); border-color:var(--reshoot); color:var(--surface)}
+.vd button[aria-pressed="true"][data-v="drop"]{background:var(--drop); border-color:var(--drop); color:var(--surface)}
+.vd button:disabled{opacity:.45; cursor:default}
+.vd .saved{font-size:12px; color:var(--muted)}
+textarea{font:inherit; font-size:13.5px; color:var(--fg); background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:8px 10px; width:100%; min-height:42px; resize:vertical}
+textarea:disabled{opacity:.6}
+.copy{justify-self:start}
+.empty{grid-column:1/-1; color:var(--muted); padding:40px 0; text-align:center}
+dialog{border:0; padding:0; background:transparent; max-width:min(96vw, 1100px); max-height:96vh; color:var(--fg)}
+dialog::backdrop{background:rgba(10,9,8,.86)}
+.lb{display:grid; gap:10px; justify-items:center}
+.lb img{max-height:84vh; max-width:94vw; width:auto; height:auto; display:block; border-radius:2px}
+.lb-nav{display:flex; gap:8px; align-items:center; color:#ECE8E1; font-size:13px}
+.lb-nav button{color:#ECE8E1; border-color:rgba(236,232,225,.4)}
+.lb-nav span{min-width:16ch; text-align:center}
+footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font-size:12.5px; color:var(--muted)}
+@media (max-width:520px){ .line{font-size:24px} .tally{margin-left:0; width:100%} }
+@media (prefers-reduced-motion: reduce){ *{transition:none!important; scroll-behavior:auto!important} }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="wm" role="img" aria-label="Naira"></div>
+  <h1>Colour-Coded 50</h1>
+  <p class="lede">One ad for each of the <b>50 in-stock products</b>, shot one by one in the fruit-plate style that ran best: the piece and one Indian ingredient in a single colour, real light, no graphics. The <b>Story</b> is the photograph alone. The <b>Feed</b> crops it to 4:5 and adds the wordmark, one line and the name and price, all in the shot's own ink.</p>
+  <ul class="stats">
+    <li><b>50</b><span>products</span></li>
+    <li><b>100</b><span>ads · Feed + Story</span></li>
+    <li><b>{{AVG}}</b><span>average score</span></li>
+    <li><b>{{FRAMES}}</b><span>frames rendered</span></li>
+  </ul>
+  <nav class="inks" aria-label="Jump to an ad by its ink colour">{{INKS}}</nav>
+  <div class="inks-cap"><span>01 · highest stock</span><span>each bar is one ad's ink</span><span>50</span></div>
+  <section class="how" aria-label="How to use this page">
+    <div><h2>Review</h2><p>Mark each ad Keep, Reshoot or Drop and add a note. Verdicts save to this page, so they come straight back to me for the next round.</p></div>
+    <div><h2>Upload</h2><p>Copy the upload text on any card: the line, the product truth, the BUY2 and BUY3 offer, the headline and the link to the exact colour. All 100 rows are also in <code>colour_meta.csv</code>.</p></div>
+    <div><h2>Held back</h2><p>Pearl Circlet Studs stay on hold until the listing and the photos agree on gold or silver, so slot 50 is the Emerald colourway of the Baguette Tennis Necklace.</p></div>
+  </section>
+</header>
+
+<div class="bar" role="toolbar" aria-label="Filter the ads">
+  <div class="seg" id="cat" role="group" aria-label="Category"></div>
+  <div class="seg" id="ver" role="group" aria-label="Verdict"></div>
+  <p class="tally" id="tally" aria-live="polite"></p>
+</div>
+<p class="state" id="state"></p>
+
+<main class="grid" id="grid"></main>
+
+<footer>Shot on Higgsfield, one product at a time, each frame checked at zoom against its listing photos for construction and scale. Plates, Feed and Story files, the shot log and the upload sheet are in <code>docs/creative/performance/</code> on the branch.</footer>
+</div>
+
+<dialog id="lb" aria-label="Ad preview">
+  <div class="lb">
+    <img id="lb-img" alt="">
+    <div class="lb-nav">
+      <button type="button" id="lb-prev" aria-label="Previous ad">Previous</button>
+      <span id="lb-cap"></span>
+      <button type="button" id="lb-next" aria-label="Next ad">Next</button>
+      <button type="button" id="lb-close">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const ADS = /*DATA*/null;
+const CATS = ["All", "Bracelets", "Earrings", "Necklaces & rings"];
+const VERS = [["all","All"],["open","To review"],["keep","Keep"],["reshoot","Reshoot"],["drop","Drop"]];
+const state = {};            // n -> {verdict, note}
+let db = null, canWrite = false, cat = "All", ver = "all";
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function seg(el, items, cur, onPick){
+  el.innerHTML = items.map(([k, l]) => `<button type="button" data-k="${esc(k)}" aria-pressed="${k === cur}">${esc(l)}</button>`).join("");
+  el.onclick = e => { const b = e.target.closest("button"); if (b) onPick(b.dataset.k); };
+}
+function card(a){
+  const stock = a.stock <= 10 ? `<span class="low">${a.stock} in stock</span>` : `${a.stock} in stock`;
+  return `<article class="card" id="a${a.n}" style="--ink:${a.ink}" data-n="${a.n}">
+    <div class="media">
+      <div><button type="button" class="feed" data-open="${a.n}:f" aria-label="Open Feed ad ${a.n}"><img src="t/${a.n}-f.jpg" width="480" height="600" loading="lazy" alt="Feed ad ${a.n}: ${esc(a.title)} with ${esc(a.short)}, line: ${esc(a.line)}"></button><div class="cap"><span>Feed 4:5</span></div></div>
+      <div><button type="button" class="story" data-open="${a.n}:s" aria-label="Open Story ad ${a.n}"><img src="t/${a.n}-s.jpg" width="270" height="480" loading="lazy" alt="Story ad ${a.n}: ${esc(a.title)} with ${esc(a.short)}, no text"></button><div class="cap"><span>Story 9:16</span></div></div>
+    </div>
+    <div class="meta">
+      <div class="top"><span class="dot" aria-hidden="true"></span><span>${a.n}</span><span>${esc(a.cat)}</span><span class="sc">${a.score.toFixed(1)} / 10</span></div>
+      <h3>${esc(a.title)}${a.variant ? ` <span class="v">· ${esc(a.variant)}</span>` : ""}</h3>
+      <p class="price">${esc(a.price)} · ${stock}</p>
+      <p class="line">${esc(a.line)}</p>
+      <dl><dt>With</dt><dd>${esc(a.ingredient)}</dd><dt>Why</dt><dd>${esc(a.rhyme)}</dd></dl>
+      <details><summary>Shoot notes · ${a.tries} frame${a.tries > 1 ? "s" : ""}</summary><p>${esc(a.notes)}</p></details>
+      <div class="vd" role="group" aria-label="Verdict for ad ${a.n}">
+        <button type="button" data-v="keep" aria-pressed="false">Keep</button>
+        <button type="button" data-v="reshoot" aria-pressed="false">Reshoot</button>
+        <button type="button" data-v="drop" aria-pressed="false">Drop</button>
+        <span class="saved" id="saved-${a.n}"></span>
+      </div>
+      <label class="state" for="note-${a.n}">Note</label>
+      <textarea id="note-${a.n}" rows="1" placeholder="What to change, if anything"></textarea>
+      <button type="button" class="copy" data-copy="${a.n}">Copy upload text</button>
+    </div>
+  </article>`;
+}
+function vOf(n){ return (state[n] && state[n].verdict) || null; }
+function render(){
+  seg($("#cat"), CATS.map(c => [c, c]), cat, k => { cat = k; render(); });
+  seg($("#ver"), VERS, ver, k => { ver = k; render(); });
+  const shown = ADS.filter(a => (cat === "All" || a.cat === cat) &&
+    (ver === "all" || (ver === "open" ? !vOf(a.n) : vOf(a.n) === ver)));
+  const grid = $("#grid");
+  grid.innerHTML = shown.length ? shown.map(card).join("") : `<p class="empty">No ads match these filters yet.</p>`;
+  shown.forEach(a => paint(a.n));
+  tally();
+}
+function paint(n){
+  const el = document.getElementById("a" + n); if (!el) return;
+  const s = state[n] || {};
+  el.querySelectorAll(".vd button").forEach(b => { b.setAttribute("aria-pressed", String(b.dataset.v === s.verdict)); b.disabled = !canWrite; });
+  const t = $("#note-" + n);
+  if (t && document.activeElement !== t) t.value = s.note || "";
+  if (t) t.disabled = !canWrite;
+}
+function tally(){
+  const c = {keep:0, reshoot:0, drop:0};
+  ADS.forEach(a => { const v = vOf(a.n); if (v) c[v]++; });
+  const open = ADS.length - c.keep - c.reshoot - c.drop;
+  $("#tally").innerHTML = `<b>${c.keep}</b> keep · <b>${c.reshoot}</b> reshoot · <b>${c.drop}</b> drop · <b>${open}</b> to review`;
+}
+
+// one write at a time per ad
+const queue = {};
+function save(n){
+  if (!db || !canWrite) return;
+  const s = state[n] || {};
+  const body = {verdict: s.verdict || null, note: s.note || "", at: new Date().toISOString()};
+  const mark = $("#saved-" + n); if (mark) mark.textContent = "Saving…";
+  queue[n] = (queue[n] || Promise.resolve()).then(() => db.doc("verdicts/" + n).set(body)).then(() => {
+    const m = $("#saved-" + n); if (m) m.textContent = "Saved";
+  }).catch(e => {
+    const m = $("#saved-" + n);
+    if (e && e.code === "invalid_argument") { canWrite = false; ADS.forEach(a => paint(a.n)); setState("This view can read verdicts but not change them."); }
+    if (m) m.textContent = "Not saved";
+  });
+}
+const timers = {};
+document.addEventListener("click", e => {
+  const vb = e.target.closest(".vd button");
+  if (vb && canWrite){
+    const n = vb.closest(".card").dataset.n, v = vb.dataset.v;
+    state[n] = Object.assign({}, state[n], {verdict: (state[n] && state[n].verdict === v) ? null : v});
+    paint(n); tally(); save(n); return;
+  }
+  const cb = e.target.closest(".copy");
+  if (cb){
+    const a = ADS.find(x => x.n === cb.dataset.copy);
+    const text = `${a.pt}\n\nHeadline: ${a.hl}\nLink: ${a.url}`;
+    const done = ok => { cb.textContent = ok ? "Copied" : "Select and copy below"; setTimeout(() => cb.textContent = "Copy upload text", 1800); };
+    try { navigator.clipboard.writeText(text).then(() => done(true), () => fallback(cb, text, done)); } catch (_) { fallback(cb, text, done); }
+    return;
+  }
+  const ob = e.target.closest("[data-open]");
+  if (ob) openLb(ob.dataset.open);
+});
+function fallback(btn, text, done){
+  let t = btn.nextElementSibling;
+  if (!t || t.tagName !== "TEXTAREA"){ t = document.createElement("textarea"); t.rows = 6; t.readOnly = true; btn.after(t); }
+  t.value = text; t.select(); done(false);
+}
+document.addEventListener("input", e => {
+  const t = e.target; if (!t.id || !t.id.startsWith("note-")) return;
+  const n = t.id.slice(5);
+  state[n] = Object.assign({}, state[n], {note: t.value});
+  clearTimeout(timers[n]); timers[n] = setTimeout(() => save(n), 900);
+});
+document.addEventListener("focusout", e => {
+  const t = e.target; if (!t.id || !t.id.startsWith("note-")) return;
+  const n = t.id.slice(5); if (timers[n]) { clearTimeout(timers[n]); timers[n] = null; save(n); }
+});
+
+// lightbox over the filtered order
+let cur = null;
+function openLb(key){ cur = key; showLb(); const d = $("#lb"); if (!d.open) d.showModal(); }
+function showLb(){
+  const [n, k] = cur.split(":"); const a = ADS.find(x => x.n === n);
+  $("#lb-img").src = (k === "f" ? "f/" : "s/") + n + ".jpg";
+  $("#lb-img").alt = `${k === "f" ? "Feed" : "Story"} ad ${n}: ${a.title}`;
+  $("#lb-cap").textContent = `${n} · ${a.title}${a.variant ? " · " + a.variant : ""} · ${k === "f" ? "Feed" : "Story"}`;
+}
+function step(d){
+  const keys = [...document.querySelectorAll("[data-open]")].map(b => b.dataset.open);
+  const i = keys.indexOf(cur); if (i < 0) return; cur = keys[(i + d + keys.length) % keys.length]; showLb();
+}
+$("#lb-prev").onclick = () => step(-1); $("#lb-next").onclick = () => step(1); $("#lb-close").onclick = () => $("#lb").close();
+$("#lb").addEventListener("click", e => { if (e.target.id === "lb") $("#lb").close(); });
+document.addEventListener("keydown", e => { if (!$("#lb").open) return; if (e.key === "ArrowRight") step(1); if (e.key === "ArrowLeft") step(-1); });
+
+function setState(t){ $("#state").textContent = t; }
+render();
+if (/^#a\d\d$/.test(location.hash)) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+setState("Connecting the verdict log…");
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (_) { db = null; }
+  if (!db) { setState("Verdicts save when this page is opened on claude.ai. Everything else works here."); return; }
+  canWrite = true; setState("");
+  ADS.forEach(a => paint(a.n));
+  db.collection("verdicts").onSnapshot(snap => {
+    const seen = new Set();
+    snap.docs.forEach(d => { seen.add(d.id); const x = d.data() || {}; const t = $("#note-" + d.id);
+      state[d.id] = {verdict: x.verdict || null, note: (t && document.activeElement === t) ? t.value : (x.note || "")}; });
+    Object.keys(state).forEach(k => { if (!seen.has(k) && !(queue[k])) delete state[k]; });
+    if (ver === "all") { ADS.forEach(a => paint(a.n)); tally(); } else render();
+  }, () => setState("The verdict log stopped updating. Reload the page to reconnect."));
+})();
+</script>

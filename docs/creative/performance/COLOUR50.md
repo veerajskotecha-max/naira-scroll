@@ -156,3 +156,10 @@ The shot log at the end records what was actually shot, kept and why.
 | 49 | Serpentine Whisper Chain (Gold) | a wooden honey dipper letting one thread of honey fall into a small pool on the stone | pale honey-cream Jaisalmer sandstone | Pours like honey. | 9.2 | 2 |
 | 50 | Baguette Tennis Necklace (Emerald) | a fresh sprig of kadi patta (curry leaves) with loose leaflets | warm cream lime plaster | The finishing tadka. | 9.1 | 2 |
 <!-- /log -->
+
+## Review and upload
+
+- Review page (private to the owner until shared): https://claude.ai/artifact/Dq3xatEwB5fykY9YCNJY1p. Each card has a Keep / Reshoot / Drop verdict and a note, saved in the page's database (collection `verdicts`, one document per shot number), so the next round starts from what was marked.
+- Upload sheet: `build/colour_meta.csv`, 100 rows (Feed and Story per shot) in the columns of `build/meta.csv`, campaign `PERF · Colour 50 (least graphics) · Oct 2026`, ad sets Bracelets / Earrings / Necklaces & rings. The Story carries no words, so the line, the product truth and the BUY2 / BUY3 offer live in the primary text; every link opens the shot's own colour. Handles, variant ids and stock were read from Shopify on 23 Oct 2026.
+- Builders: `build/colour_meta.py` (sheet), `build/colour_board.py` + `build/colour_board.html` (page).
+- Low stock to watch: the Ruby Eternity Band has 7 units (sizes 6, 7, 8 at 3, 1, 3); the gold Droplet Cuff, gold Petal Studs, gold North Star, silver Droplet Ring and gold Triple Coil have 10 each.
