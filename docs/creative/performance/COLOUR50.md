@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-39 shots kept, average score 9.14, 86 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+42 shots kept, average score 9.14, 90 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -119,9 +119,11 @@ The shot log at the end records what was actually shot, kept and why.
 | 19 | Aqua Heart Drops (Silver) | a small hand-painted Jaipur blue-pottery dish in white, pale aqua and soft blue, one chip on the rim | ivory lime plaster | Pink City, blue heart. | 8.8 | 4 |
 | 20 | Prism Cluster Studs (Silver) | three cones of Diwali rangoli powder (violet, baby pink, marigold yellow) and a fingertip drawing the first curved stroke | ivory lime plaster | Rangoli you can wear. | 9.1 | 2 |
 | 21 | Molten Panel Bracelet | an antique-gold silk satin dupatta in soft folds | pale warm ivory lime plaster | Drapes like silk. | 9.1 | 2 |
+| 22 | Torsade Pearl Cuff | a large open shell lined with iridescent mother-of-pearl | pale sea-mist blue-grey lime plaster | Twist and shell. | 9.4 | 1 |
 | 23 | Baguette Halo Drops | two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower | ivory lime plaster | In bloom for Diwali. | 9.1 | 2 |
 | 24 | Verdant Cushion Studs (Silver) | two fresh paan (betel) leaves and one whole clove, the pin of a folded paan | ivory lime plaster | Pehenke paan Banaras wala. | 9.0 | 4 |
 | 25 | Quatrefoil Éclat Studs | freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes | ivory lime plaster | Collected at dawn. | 9.1 | 2 |
+| 27 | Torsade Huggies | two lit twisted ivory taper candles in brass holders | pale warm apricot lime plaster | A twist on Diwali. | 9.2 | 1 |
 | 28 | Baguette Eternity Band (Ruby) | a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain | ivory lime plaster | Worth its weight in kesar. | 8.9 | 4 |
 | 29 | Heartbead Bracelet | edible silver dragees, a soft heap with a few rolled loose towards the bracelet | ivory lime plaster | The icing on the wrist. | 9.1 | 2 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
@@ -144,6 +146,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 66 | Ribbon Bead Bracelet | a white satin school ribbon tied in a double-loop bow with V-cut tails | deep school-uniform navy lime plaster | Mummy's bow, minus the tug. | 9.2 | 2 |
 | 67 | Rivière Eternal Bracelet | a Diwali ladi of tiny warm fairy-light bulbs on fine copper wire | warm dusk-cream lime plaster | A ladi that never fuses. | 9.2 | 2 |
 | 68 | Bold Dome Huggies | a string of brass ghungroo bells on a red cotton cord | soft pale vermilion-blush lime plaster | Ghungroo, on mute. | 9.2 | 2 |
+| 70 | Molten Panel Bracelet | one real sunflower head | pale butter-yellow lime plaster | Sunshine on your wrist. | 8.9 | 2 |
 <!-- /log -->
 
 ## Round two: review of the 50 and 20 new (shots 51-70)

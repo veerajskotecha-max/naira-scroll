@@ -333,6 +333,27 @@
   "replaces": "a heap of golden chana dal (split Bengal gram), loose dal beside the bracelet"
  },
  {
+  "n": "22",
+  "key": "torsade-pearl-cuff",
+  "plate": "plates/colour/22-torsade-pearl-cuff.jpg",
+  "raw": "r22a",
+  "title": "Torsade Pearl Cuff",
+  "price": "₹1,399",
+  "variant": null,
+  "ingredient": "a large open shell lined with iridescent mother-of-pearl",
+  "ground": "pale sea-mist blue-grey lime plaster",
+  "rhyme": "a twisted cable cuff with shell pearls, beside the shell: the twist, and the shell",
+  "line": "Twist and shell.",
+  "ink": "#3E4C57",
+  "score": 9.4,
+  "jobs": [
+   "ee92174f (r22a, kept)"
+  ],
+  "notes": "r22a: one solid twisted cable, each end capped by two rows of clear pave split by a gold rib and one round white shell pearl, the pearls facing across the opening, as in the listing. The cuff reads a touch large beside the shell. The line replaces the plan's \"Straight from the shell.\", which could suggest natural pearls. Calm sea-mist plaster top left for the words.",
+  "round": 3,
+  "replaces": "a heap of makhana (puffed lotus seeds), one makhana beside each pearl"
+ },
+ {
   "n": "23",
   "key": "baguette-halo-drops",
   "plate": "plates/colour/23-baguette-halo-drops.jpg",
@@ -405,6 +426,33 @@
   ],
   "notes": "Studs exact: sharp four-point star with inward curves, single pave outline, four outward pear stones in gold frames, round centre in a four-lobed flower, open gaps. Each stud about one flower, true. 25a added leaves and a branch.",
   "feed_top": 150
+ },
+ {
+  "n": "27",
+  "key": "torsade-huggies",
+  "plate": "plates/colour/27-torsade-huggies.jpg",
+  "raw": "r27a",
+  "title": "Torsade Huggies",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "two lit twisted ivory taper candles in brass holders",
+  "ground": "pale warm apricot lime plaster",
+  "rhyme": "the twist of the gold beside the twist of the wax, lit for Diwali",
+  "line": "A twist on Diwali.",
+  "ink": "#6A4528",
+  "feed_top": 150,
+  "w": 400,
+  "score": 9.2,
+  "jobs": [
+   "b01976a3 (r27a, kept)"
+  ],
+  "notes": "r27a: small chunky domed huggies twisted into smooth polished spiral ridges with a hinged snap, as in the listing; true scale beside 2 cm candles. The Feed window sits higher (feed_top 150) so both flames stay in. Calm apricot plaster top left for the words.",
+  "round": 3,
+  "replaces": "two crossed twisted khari puff-pastry straws, a broken piece, golden flakes",
+  "pos": {
+   "left": 76,
+   "top": 84
+  }
  },
  {
   "n": "28",
@@ -912,5 +960,33 @@
    "fa6689a0 (68b)"
   ],
   "notes": "68a: two chunky mirror-polished huggies that swell at the bottom and taper to a slim hinged bar, no texture and no stones, as in the listing; one stands and one lies inside the curve of the bell string. Each huggie is about one and a half bells wide, true for 16 mm hoops and 10 mm ghungroo. 68b was as faithful, with darker antique bells."
+ },
+ {
+  "n": "70",
+  "key": "molten-panel-bracelet",
+  "plate": "plates/colour/70-molten-panel-bracelet.jpg",
+  "raw": "r70b",
+  "title": "Molten Panel Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "one real sunflower head",
+  "ground": "pale butter-yellow lime plaster",
+  "rhyme": "a flower in the piece's own colour: golden rows of plates curving round golden petals, sunshine you can wear",
+  "line": "Sunshine on your wrist.",
+  "ink": "#5F4614",
+  "score": 8.9,
+  "jobs": [
+   "770ab6f6 (r70a)",
+   "f44cac64 (r70b, kept)"
+  ],
+  "notes": "r70b: small flat oval plates in staggered brick-set rows (five across where countable), articulated, with the square box clasp, as in the listing; true 15 mm width beside a 12 cm sunflower; a natural flower with blemished petals and pollen. The plates read a touch pale. r70a drew four rows and a too-perfect flower. The sunflower runs off the right edge; calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "a swatch of ivory net embroidered with rows of gold sequins (sitara), the edge of a lehenga dupatta",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 360,
+  "stack": true
  }
 ]
