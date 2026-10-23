@@ -622,5 +622,61 @@
    "fa3c82e2 (clean plate of c24a for the retouch)"
   ],
   "notes": "c24a: the same fine row of round clear stones in four-prong gold baskets and the box clasp with its fold-over safety, as in the listing, warm in the low light; the bracelet lies closed in a loop clear of the glove. The model drew it about 2.2x true size (its loop as wide as the glove's hand), so it was set back at 0.45 in post on a clean plate of the same frame, its deep shadow on the black kept out of the piece (raw/c24a_r.png): now about three of the glove's fingers across, true for an 18 cm bracelet. The frame was then cropped in a little at full resolution (raw/c24a_rc.png). The glove fills the upper right; calm black plaster top left for the words, in cream."
+ },
+ {
+  "n": "25",
+  "key": "baguette-tennis-necklace-day",
+  "plate": "plates/crazy3/25-baguette-tennis-necklace-day.jpg",
+  "raw": "c25a_r",
+  "product": "13",
+  "time": "day",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Crystal",
+  "handle": "baguette-tennis-necklace",
+  "ingredient": "a blank ivory wedding invitation with a gold-foil border and a sprig of baby's breath",
+  "ground": "pale dove-grey lime plaster",
+  "rhyme": "the invitation says the dress code is sparkle",
+  "line": "Dress code: sparkle.",
+  "ink": "#55504A",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.2,
+  "jobs": [
+   "25e50e92 (c25a, kept; necklace set back at true size)",
+   "cfe368bd (clean plate of c25a for the retouch)"
+  ],
+  "notes": "c25a: one continuous line of icy clear baguettes set crosswise like the rungs of a ladder, each in its own slim gold box with four corner claws and a small open window in its side, and the small box clasp, as in the listing; the necklace lies in one loose open loop clear of the card and the sprig. The model drew it about 1.8x true size (the line about 11 mm wide against the 13 cm card, more than two baby's breath flowers), so it was set back at 0.58 in post on a clean plate of the same frame, the soft stones at the back of the loop kept whole (raw/c25a_r.png): now the line about 6 mm and the loop about 30 cm round. The card carries no writing, only its gold-foil border and one embossed gold paisley, as in the loved frame it follows. The card fills the upper right; calm dove-grey plaster bottom left for the words.",
+  "feed_top": 470
+ },
+ {
+  "n": "26",
+  "key": "baguette-tennis-necklace-night",
+  "plate": "plates/crazy3/26-baguette-tennis-necklace-night.jpg",
+  "raw": "c26a_r",
+  "product": "13",
+  "time": "night",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Crystal",
+  "handle": "baguette-tennis-necklace",
+  "ingredient": "a small ivory duchess-satin clutch with a gold kiss-lock frame",
+  "ground": "deep aubergine-plum lime plaster",
+  "rhyme": "dressed and ready by eight",
+  "line": "Ready by eight.",
+  "ink": "#F2E6DC",
+  "page_ink": "#4A2C36",
+  "score": 9.1,
+  "jobs": [
+   "8fe0eadb (c26a, kept; necklace set back at true size)",
+   "7c1d3e60 (clean plate of c26a for the retouch)"
+  ],
+  "notes": "c26a: the same line of icy clear crosswise baguettes in slim gold boxes with corner claws, and the box clasp, as in the listing; the necklace lies closed in a loop clear of the clutch. The model drew it about 2.4x true size (the line wider than the kiss-lock's 1 cm balls), so it was set back at 0.58 in post on a clean plate of the same frame, the clutch left exactly as shot (raw/c26a_r.png): now the balls about as wide as the line, as in the loved frame it follows. The model drew fewer stones than a 36 cm choker holds, so the stones are kept about 1.2x and the loop reads a little short rather than the stones large. The clutch fills the upper right; calm aubergine plaster top left for the words, in cream.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
  }
 ]

@@ -24,18 +24,25 @@ FILL = int(a[a.index("fill") + 1]) if "fill" in a else 0
 ANCHOR = tuple(map(float, a[a.index("anchor") + 1:a.index("anchor") + 3])) if "anchor" in a else None
 #   optional: seedbox x0 y0 x1 y1 = look for the piece's seeds only inside this box (raw px), when a prop shares its colour
 SEEDBOX = tuple(map(int, a[a.index("seedbox") + 1:a.index("seedbox") + 5])) if "seedbox" in a else None
+#   optional: cut x1 y1 x2 y2 ... ; = a polygon (raw px, ended by ';') that is never the piece nor
+#   replaced, e.g. a deep contact shadow or a prop beside it
+CUT = None
+if "cut" in a:
+    i0 = a.index("cut") + 1; i1 = a.index(";", i0); v = list(map(int, a[i0:i1])); CUT = np.int32(list(zip(v[0::2], v[1::2])))
 #   optional: solid = an opaque piece (plain metal, no clear stones): its pale smooth highlights are metal, never light through it
 SOLID = "solid" in a
+#   optional: seeddiff = keep only seeds the plate lacks, when a gold prop (a clutch frame) sits by the piece
+SEEDDIFF = "seeddiff" in a
+#   optional: band r = whatever lies within r px of the piece's gold walls is the piece: soft, out-of-focus
+#   clear stones in box settings, which would otherwise read as light through the stones
+BAND = int(a[a.index("band") + 1]) if "band" in a else 0
 #   optional: grabcut = refine the piece's outline by colour and edges (GrabCut), seeded by its strong metal as surely the piece and
 #   by the plaster the plate matches as surely not: for pale metal whose highlights and warm shadows colour thresholds confuse
 GRABCUT = "grabcut" in a
 #   optional: shadowcut <rm> <dev> = never the piece where the frame is darker than the plate by more than rm (a ratio) and evenly
 #   so (colour ratio spread under dev): a deep shadow on a dark ground, which the metal never is
 SHCUT = tuple(map(float, a[a.index("shadowcut") + 1:a.index("shadowcut") + 3])) if "shadowcut" in a else None
-#   optional: cut x1 y1 x2 y2 ... ; = a polygon (raw px, ended by ';') that is never the piece, e.g. a deep contact shadow
-CUT = None
-if "cut" in a:
-    i0 = a.index("cut") + 1; i1 = a.index(";", i0); v = list(map(int, a[i0:i1])); CUT = np.int32(list(zip(v[0::2], v[1::2])))
+
 #   optional: softshadow r = smooth the measured shadow over r px (median, then blur), where the plate redrew the plaster's pores
 #   under the old shadow, so the measured shadow is speckled with them
 SOFT = int(a[a.index("softshadow") + 1]) if "softshadow" in a else 0                                                 # with hand: keep evenly darkened ground out of the piece
@@ -53,6 +60,7 @@ hsv = cv2.cvtColor(A.astype(np.uint8), cv2.COLOR_BGR2HSV)
 seed = ((hsv[..., 0] >= hlo) & (hsv[..., 0] <= hhi) & (hsv[..., 1] > 100) & (hsv[..., 2] > 25)).astype(np.uint8)
 seed = cv2.morphologyEx(seed, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
 if SEEDBOX: sb = np.zeros_like(seed); sb[SEEDBOX[1]:SEEDBOX[3], SEEDBOX[0]:SEEDBOX[2]] = 1; seed = seed * sb
+if CUT is not None: cmask = np.zeros_like(seed); cv2.fillPoly(cmask, [CUT], 1); seed[cmask > 0] = 0
 if HAND:                                                                   # the outline drawn by hand is the authority on where the piece is
     e = HAND; band = np.zeros_like(seed)
     cv2.ellipse(band, ((e[0], e[1]), (e[2], e[3]), e[4]), 1, -1); cv2.ellipse(band, ((e[5], e[6]), (e[7], e[8]), e[9]), 0, -1)
@@ -81,13 +89,16 @@ g = np.stack([cv2.inpaint(np.clip(small[..., c] * 100, 0, 255).astype(np.uint8),
 Pt = P * blur(cv2.resize(g, (w, h), interpolation=cv2.INTER_CUBIC), 20)
 # 2. the piece and its shadow from the difference
 d = np.abs(A - Pt).sum(-1); dl = lum(A) / np.maximum(lum(Pt), 4)
-if HAND: seed = (seed & (blur(d, 1.2) > 40)).astype(np.uint8)          # a neutral ground looks like silver: keep only what the plate lacks
+if HAND or SEEDDIFF: seed = (seed & (blur(d, 1.2) > 40)).astype(np.uint8)   # a neutral ground looks like silver: keep only what the plate lacks
 hsvP = cv2.cvtColor(np.clip(Pt, 0, 255).astype(np.uint8), cv2.COLOR_BGR2HSV)
 cream = lambda X: (X[..., 1] > 40) & (X[..., 2] > 170) & (X[..., 0] >= 10) & (X[..., 0] <= 40) & (not NOCREAM)   # petal or paper, never the piece
                                                                            # (nocream: off for gold, whose highlights are cream too)
 Vf = hsv[..., 2].astype(np.float32); sd = np.sqrt(np.maximum(blur(Vf * Vf, 2.0) - blur(Vf, 2.0) ** 2, 0))
 lit = (lum(A) > lum(Pt) + 15) & (sd < 22) & (seed == 0) & (hsv[..., 1] < 60)  # light through the piece onto the ground, never saturated metal or stone
 piece_like = ((sd > 16) | (lum(A) < lum(Pt) - 25) | (seed > 0)) & ~lit      # busy as pave, darker (stones), or its own colour
+if BAND:
+    inband = cv2.dilate(seed, disk(BAND)) > 0
+    lit = lit & ~inband; piece_like = piece_like | inband
 if SOLID:                                                                  # opaque metal: its own saturated colour or brighter than the plate, never a shadow
     lit = np.zeros_like(lit); Hh, Ss = hsv[..., 0], hsv[..., 1]
     piece_like = (seed > 0) | (lum(A) > lum(Pt) + 8) | ((Ss > 75) & (Hh >= hlo) & (Hh <= hhi))
@@ -133,7 +144,7 @@ if SHCUT:                                                                  # nev
 if FILL:                                                                   # clear stones show the ground through them: fill their small holes
     n4, lab4, st4, _ = cv2.connectedComponentsWithStats((G == 0).astype(np.uint8))
     G = (G | np.isin(lab4, [i for i in range(1, n4) if st4[i][4] < FILL and st4[i][0] > 0 and st4[i][1] > 0 and st4[i][0] + st4[i][2] < w and st4[i][1] + st4[i][3] < h])).astype(np.uint8)
-if CUT is not None: cm = np.zeros_like(G); cv2.fillPoly(cm, [CUT], 1); G[cm > 0] = 0
+if CUT is not None: G[cmask > 0] = 0
 
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
@@ -145,6 +156,7 @@ n3, lab3, st3, _ = cv2.connectedComponentsWithStats(touched)
 near = cv2.dilate(Gd, disk(10)) > 0
 if not NOTOUCH:                                                            # (notouch: when a prop sits close, rely on the shadow reach alone)
     Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(Z, disk(90))
+if CUT is not None: Z[cv2.dilate(cmask, disk(12)) > 0] = 0                 # the prop stays exactly as shot
 Zf = blur(cv2.dilate(Z, disk(10)), 8)[..., None]
 k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real shadow only, not noise between the two renders
 same = cream(hsv) == cream(hsvP)                                           # shadow only where both show the same surface
