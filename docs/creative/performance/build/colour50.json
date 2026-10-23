@@ -1265,5 +1265,31 @@
    "5155d715 (53f)"
   ],
   "notes": "53e: square pastel stones in double pavé halos with corner claws, joined halo to halo in silver tone, in a strict aqua, pink, yellow order; exactly three boats; calm upper half. Reshot twice: 53a had no calm corner for the words, 53b put chain links between the stones and star glints on them, 53c set two pinks side by side, 53d drew a fourth boat and only 12 stones, 53f stood a boat on its tip. The stones read a little bolder than 5 mm beside 3 cm boats; there is no fixed-size referent, so the bracelet still reads true."
+ },
+ {
+  "n": "54",
+  "key": "woven-gold-hoops",
+  "plate": "plates/colour/54-woven-gold-hoops.jpg",
+  "raw": "54b",
+  "title": "Woven Gold Hoops",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "a golden silk paranda, a three-strand plait ending in a tassel bound with zari",
+  "ground": "pale rose-pink lime plaster",
+  "rhyme": "a braid of gold strands = a braid of golden silk; the school-day paranda, without the tangles",
+  "line": "All braid, no tangles.",
+  "ink": "#6B3F44",
+  "score": 9.1,
+  "jobs": [
+   "ccf603a7 (54a)",
+   "b0256169 (54b, kept)"
+  ],
+  "notes": "54b: both hoops an open braid of many polished gold strands, with flat polished discs capping the braid ends at the top and the thin hinged latch wire, as in the listing photos. Each hoop is about twice the plait's width, true for 25 mm hoops and a 12 mm plait. Clean S-curve with the hoops apart and a calm top left. 54a was as faithful, with one hoop over the plait and the tassel running out of the Feed crop.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 420,
+  "stack": true
  }
 ]
