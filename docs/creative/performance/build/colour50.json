@@ -1401,5 +1401,30 @@
   ],
   "notes": "59a: chunky elongated oval links in polished gold, each threaded through the next, with exactly one fully pavé link of the same size at the front, as in the listing. The paper loops show their grey paper backs and uneven glued joins, so they read as a real handmade chain. Paper and gold arc in parallel with a calm top. 59b was faithful but its foil loops looked like crumpled cuffs rather than paper.",
   "feed_top": 150
+ },
+ {
+  "n": "60",
+  "key": "bold-nocturne-bracelet",
+  "plate": "plates/colour/60-bold-nocturne-bracelet.jpg",
+  "raw": "60a",
+  "title": "Bold Nocturne Bracelet",
+  "price": "₹1,599",
+  "variant": null,
+  "ingredient": "a small lit terracotta diya with ghee and a cotton wick",
+  "ground": "warm terracotta-blush lime plaster",
+  "rhyme": "a ring of gold links glowing around the flame = the diya's own glow; the pavé link catches the light like the wick",
+  "line": "The Diwali glow-up.",
+  "ink": "#6B2E1E",
+  "score": 9.3,
+  "jobs": [
+   "c4149820 (60a, kept)",
+   "6d89d348 (60b)"
+  ],
+  "notes": "60a: chunky elongated oval links in polished gold, one fully pavé link at the front, the lobster clasp and the extender ending in a small flat oval tag, as in the listing; the bracelet circles the diya with room to spare and never touches the flame. The diya looks handmade, with ghee, a twisted cotton wick and a soot mark at the spout. 60b was as faithful, with a larger diya crowding the links.",
+  "feed_top": 120,
+  "pos": {
+   "left": 76,
+   "top": 84
+  }
  }
 ]
