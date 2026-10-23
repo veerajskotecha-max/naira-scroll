@@ -1,0 +1,104 @@
+[
+ {
+  "n": "01",
+  "key": "toggle-link-chain",
+  "plate": "plates/colour/01-toggle-link-chain.jpg",
+  "raw": "01b",
+  "title": "Toggle Link Chain",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "fresh yellow genda marigolds on a cotton thread, loose petals",
+  "ground": "ivory lime plaster",
+  "rhyme": "the chain is a garland you wear: marigold gold = 18k gold tone",
+  "line": "A garland you wear.",
+  "ink": "#6E4310",
+  "score": 8.8,
+  "jobs": [
+   "b24a24f7-bcf8-46dc-b306-5ba13709d128",
+   "f6e9e75b-9ed1-470b-8119-9e2a814dcae2 (kept)",
+   "729548b9-9e81-4dd2-9390-962fc77dd985",
+   "658bfa79-c422-4025-b69a-28c6af5c21a3"
+  ],
+  "notes": "Clasp exact (spring-gate ring with gate and push-pin, pave bar threaded through), ring to link 1.4 (true 1.36). Loose petals read as smooth single petals rather than ruffled marigold florets in every attempt; 01b is the most natural. Calm plaster on the left for the feed line."
+ },
+ {
+  "n": "02",
+  "key": "baguette-tennis-necklace",
+  "plate": "plates/colour/02-baguette-tennis-necklace.jpg",
+  "raw": "02a",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Crystal",
+  "ingredient": "Agra petha: translucent sugar-crusted rectangles on an old brass plate",
+  "ground": "ivory lime plaster",
+  "rhyme": "icy clear crosswise baguettes = the translucent glint of petha blocks",
+  "line": "Agra, in a line.",
+  "ink": "#5E4A2C",
+  "score": 9.0,
+  "jobs": [
+   "cbe4e2c5-4d89-4f94-84f7-1a5d7565687e (kept)",
+   "8759329d-b41a-4d14-9f57-fa9a75cfa30c"
+  ],
+  "notes": "Construction exact at full size: crosswise baguettes in gold box settings with side windows and four claws, box clasp with tongue. Petha reads true (translucent, sugar crust). Calm plaster upper left."
+ },
+ {
+  "n": "03",
+  "key": "prism-riviere-bracelet",
+  "plate": "plates/colour/03-prism-riviere-bracelet.jpg",
+  "raw": "03a",
+  "title": "Prism Rivière Bracelet",
+  "price": "₹2,399",
+  "variant": null,
+  "ingredient": "sugared almonds in aqua, pink and butter yellow, in an old silver katori",
+  "ground": "ivory lime plaster",
+  "rhyme": "the three pastel stones = the three pastel dragées of an Indian wedding favour",
+  "line": "Pick all three.",
+  "ink": "#3E5A63",
+  "score": 9.2,
+  "jobs": [
+   "e1830dfb-45ed-4521-9a8d-404e974513cb (kept)",
+   "11ed397c-0440-421a-af8e-1ecdd2add104"
+  ],
+  "notes": "Cushion stones in double pave halos with bead claws and gallery windows, fold-over clasp; no two neighbours share a colour. Variant b turned the plaster into travertine and crowded the frame."
+ },
+ {
+  "n": "04",
+  "key": "woven-gold-hoops",
+  "plate": "plates/colour/04-woven-gold-hoops.jpg",
+  "raw": "04b",
+  "title": "Woven Gold Hoops",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "three ripe golden wheat ears, loose grains and a bristle",
+  "ground": "ivory lime plaster",
+  "rhyme": "the braid of the hoops = the plaited chevron rows of a wheat ear, same warm gold",
+  "line": "Harvest gold.",
+  "ink": "#6A4A1C",
+  "score": 9.3,
+  "jobs": [
+   "c96dce80-1100-49a0-8824-f8b09e2a4083",
+   "f82ab103-db19-46e3-a998-ba3052e6b515 (kept)"
+  ],
+  "notes": "Braid exact (interlaced polished strands), flat disc inside the top under the hinged latch; hoops a third of a wheat ear, true scale. Calm plaster left."
+ },
+ {
+  "n": "05",
+  "key": "verdant-eternity-band",
+  "plate": "plates/colour/05-verdant-eternity-band.jpg",
+  "raw": "05a",
+  "title": "Verdant Eternity Band",
+  "price": "₹1,099",
+  "variant": null,
+  "ingredient": "freshly shelled hara chana in an old brass katori, a papery pod",
+  "ground": "ivory lime plaster",
+  "rhyme": "oval emerald stones = plump green chickpeas, same fresh green and shape",
+  "line": "Fresh from the pod.",
+  "ink": "#24482F",
+  "score": 9.2,
+  "jobs": [
+   "28f7541b-9f1d-4927-a0e1-cd4d6a531018 (kept)",
+   "56dbc47d-c562-4d76-88ed-d15a109d1c58"
+  ],
+  "notes": "Ring exact: emerald ovals in 4 claws, the S-wave of pave weaving between them, open back with looped tips. Chickpeas about 8mm, true scale. Variant b drew the chickpeas olive-size."
+ }
+]
