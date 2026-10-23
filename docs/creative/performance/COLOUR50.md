@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-69 shots kept, average score 9.09, 180 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+70 shots kept, average score 9.09, 182 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -174,6 +174,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 67 | Rivière Eternal Bracelet | a Diwali ladi of tiny warm fairy-light bulbs on fine copper wire | warm dusk-cream lime plaster | A ladi that never fuses. | 9.2 | 2 |
 | 68 | Bold Dome Huggies | a string of brass ghungroo bells on a red cotton cord | soft pale vermilion-blush lime plaster | Ghungroo, on mute. | 9.2 | 2 |
 | 69 | Torsade Huggies | a child's skipping rope of twisted cotton with a turned wooden handle | warm pale wheat-gold lime plaster | Skip to the good part. | 9.1 | 2 |
+| 70 | Molten Panel Bracelet | a swatch of ivory net embroidered with rows of gold sequins (sitara), the edge of a lehenga dupatta | soft pale champagne lime plaster | All shimmer, no itch. | 9.1 | 2 |
 <!-- /log -->
 
 ## Review and upload
