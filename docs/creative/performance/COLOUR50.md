@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-54 shots kept, average score 9.10, 106 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+56 shots kept, average score 9.10, 109 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -136,9 +136,11 @@ The shot log at the end records what was actually shot, kept and why.
 | 37 | Marquise Drop Choker | a short spray of white phalaenopsis orchids | pale smoky-mauve lime plaster | Rare, like an orchid. | 9.1 | 1 |
 | 38 | Droplet Open Cuff (Gold) | a cut-glass attar bottle with its glass dauber and one drop of attar | pale rose-sand lime plaster | Just one drop. | 9.0 | 2 |
 | 39 | Petal Flower Studs (Gold) | a head of white ixora with two leaves and two fallen florets | pale soft peach lime plaster | Never needs water. | 9.1 | 1 |
+| 40 | Fine Tennis Bracelet | three blades of fresh grass, one beaded with dew | pale cool grey-green lime plaster | Morning dew, all day. | 8.8 | 2 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
 | 42 | Mint Pear Drop Earrings | a green nashpati, one whole and one cut half, with one loose seed on the plaster | pale celadon-green lime plaster | Pick of the pears. | 9.0 | 4 |
 | 43 | North Star Bangle (Gold) | a glowing paper star lantern for Diwali | deep indigo-blue lime plaster | Wear the stars this Diwali. | 9.1 | 1 |
+| 44 | Droplet Open Ring (Silver) | part of a fresh lotus leaf beaded with water drops | pale cool grey lime plaster | Raindrop, made silver. | 9.3 | 1 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
 | 51 | Toggle Link Chain | brass paper clips, one clipped to a sheet of deckled ivory cotton paper | warm ivory lime plaster | Paperclip, promoted. | 9.2 | 2 |
 | 52 | Baguette Tennis Necklace (Crystal) | a small cut-crystal perfume bottle with a gold collar, golden perfume | pale warm champagne lime plaster | The final touch. | 9.0 | 2 |

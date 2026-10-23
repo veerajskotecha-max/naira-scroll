@@ -739,6 +739,29 @@
   }
  },
  {
+  "n": "40",
+  "key": "fine-tennis-bracelet",
+  "plate": "plates/colour/40-fine-tennis-bracelet.jpg",
+  "raw": "r40b",
+  "title": "Fine Tennis Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "three blades of fresh grass, one beaded with dew",
+  "ground": "pale cool grey-green lime plaster",
+  "rhyme": "a row of tiny stones beside a row of dew drops on a blade of grass: morning sparkle that lasts all day",
+  "line": "Morning dew, all day.",
+  "ink": "#34483C",
+  "feed_top": 0,
+  "score": 8.8,
+  "jobs": [
+   "fd4819dc (r40a)",
+   "6ce2c5e9 (r40b, kept)"
+  ],
+  "notes": "r40b: one continuous line of small round brilliant-cut clear stones, each in its own gold claw cup, with the slim box clasp, as in the listing; the line reads a little wider than 3 mm and runs off the left edge. r40a had a starburst glint on one stone. The Feed window sits at the top (feed_top 0) so the words sit on calm plaster above the bracelet.",
+  "round": 3,
+  "replaces": "yellow mustard seeds (peeli rai), a spill with a band of seeds following the bracelet"
+ },
+ {
   "n": "41",
   "key": "duo-link-bracelet",
   "plate": "plates/colour/41-duo-link-bracelet.jpg",
@@ -809,6 +832,27 @@
    "left": 76,
    "bottom": 72
   }
+ },
+ {
+  "n": "44",
+  "key": "droplet-open-ring",
+  "plate": "plates/colour/44-droplet-open-ring.jpg",
+  "raw": "r44a",
+  "title": "Droplet Open Ring",
+  "price": "₹1,299",
+  "variant": "Silver",
+  "ingredient": "part of a fresh lotus leaf beaded with water drops",
+  "ground": "pale cool grey lime plaster",
+  "rhyme": "the ring's polished silver ball and teardrop beside real drops of water on a lotus leaf: a raindrop, made silver",
+  "line": "Raindrop, made silver.",
+  "ink": "#36454F",
+  "score": 9.3,
+  "jobs": [
+   "cdc5cdb2 (r44a, kept)"
+  ],
+  "notes": "r44a: an open thin polished silver wire ring ending in a round ball and a taller teardrop side by side with a small gap, as in the listing; true scale, the ball the size of the larger water drops. Calm grey plaster top left for the words.",
+  "round": 3,
+  "replaces": "a nimbu-mirchi: one kagzi lime and seven green chillies strung on a white cotton thread, the ring leaning on the lime"
  },
  {
   "n": "45",
