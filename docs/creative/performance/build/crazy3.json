@@ -571,5 +571,56 @@
    "f52293fc (clean plate of c22a for the retouch)"
   ],
   "notes": "c22a: the same wide domed huggies in brushed satin gold tone, as in the listing; the pair lies clear of the knit. The model drew them about 2.5x true size (each spanning about seven of the knit's ribs), so they were set back at 0.4 in post on a clean plate of the same frame, shadows and all (raw/c22a_r.png): now about three ribs. The frame was then cropped in at full resolution, so the true-size pair reads in a feed (raw/c22a_rc.png). The knit fills the upper right; calm charcoal plaster top left for the words, in cream."
+ },
+ {
+  "n": "23",
+  "key": "riviere-eternal-bracelet-day",
+  "plate": "plates/crazy3/23-riviere-eternal-bracelet-day.jpg",
+  "raw": "c23a_rc",
+  "product": "12",
+  "time": "day",
+  "title": "Rivière Eternal Bracelet",
+  "price": "₹1,449",
+  "variant": null,
+  "handle": "riviere-eternal-bracelet",
+  "ingredient": "a softly folded cream pashmina with a twisted fringe",
+  "ground": "pale warm ivory lime plaster",
+  "rhyme": "winter white: a soft pashmina and one fine line of light",
+  "line": "Winter white.",
+  "ink": "#5E4C3C",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "3ef0b9e9 (c23a, kept; bracelet set back at true size)",
+   "0b49479b (clean plate of c23a for the retouch)"
+  ],
+  "notes": "c23a: one fine row of round clear stones, each in its own four-prong gold basket, linked stone to stone, and the polished box clasp with its fold-over safety, as in the listing; the bracelet lies closed in a loop clear of the shawl. The model drew it about 2x true size (each stone about three of the fringe's twists wide), so it was set back at 0.48 in post on a clean plate of the same frame, shadows and all (raw/c23a_r.png): now a stone about a twist wide and the loop a true 6 cm. The frame was then cropped in a little at full resolution (raw/c23a_rc.png). The shawl fills the top and right; calm ivory plaster bottom left for the words."
+ },
+ {
+  "n": "24",
+  "key": "riviere-eternal-bracelet-night",
+  "plate": "plates/crazy3/24-riviere-eternal-bracelet-night.jpg",
+  "raw": "c24a_rc",
+  "product": "12",
+  "time": "night",
+  "title": "Rivière Eternal Bracelet",
+  "price": "₹1,449",
+  "variant": null,
+  "handle": "riviere-eternal-bracelet",
+  "ingredient": "a long black satin opera glove",
+  "ground": "deep black lime plaster",
+  "rhyme": "old Hollywood: a satin opera glove and one fine line of light",
+  "line": "Old Hollywood.",
+  "ink": "#EFE6D8",
+  "page_ink": "#342C28",
+  "score": 9.0,
+  "jobs": [
+   "f3fcde2c (c24a, kept; bracelet set back at true size)",
+   "fa3c82e2 (clean plate of c24a for the retouch)"
+  ],
+  "notes": "c24a: the same fine row of round clear stones in four-prong gold baskets and the box clasp with its fold-over safety, as in the listing, warm in the low light; the bracelet lies closed in a loop clear of the glove. The model drew it about 2.2x true size (its loop as wide as the glove's hand), so it was set back at 0.45 in post on a clean plate of the same frame, its deep shadow on the black kept out of the piece (raw/c24a_r.png): now about three of the glove's fingers across, true for an 18 cm bracelet. The frame was then cropped in a little at full resolution (raw/c24a_rc.png). The glove fills the upper right; calm black plaster top left for the words, in cream."
  }
 ]

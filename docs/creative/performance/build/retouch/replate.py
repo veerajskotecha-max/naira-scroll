@@ -36,7 +36,7 @@ SHCUT = tuple(map(float, a[a.index("shadowcut") + 1:a.index("shadowcut") + 3])) 
 CUT = None
 if "cut" in a:
     i0 = a.index("cut") + 1; i1 = a.index(";", i0); v = list(map(int, a[i0:i1])); CUT = np.int32(list(zip(v[0::2], v[1::2])))
-#   optional: softshadow r = smooth the measured shadow over r px (darkest first), where the plate redrew the plaster's pores
+#   optional: softshadow r = smooth the measured shadow over r px (median, then blur), where the plate redrew the plaster's pores
 #   under the old shadow, so the measured shadow is speckled with them
 SOFT = int(a[a.index("softshadow") + 1]) if "softshadow" in a else 0                                                 # with hand: keep evenly darkened ground out of the piece
 D = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/colour"
@@ -125,14 +125,16 @@ n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.morphologyEx(G, cv2.MORPH_C
 keep = [i for i in range(1, n) if (seed[lab == i] > 0).any()]               # only parts that hold the piece's own stones or metal
 G = cv2.morphologyEx(np.isin(lab, keep).astype(np.uint8), cv2.MORPH_CLOSE, disk(6))
 if CLOSE: G = cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(CLOSE))           # dark inner walls that mirror the ground go with the metal
+if SHCUT:                                                                  # never within a few px of its metal or its lit stones
+    dv_ = np.abs(rr - rm[..., None]).max(-1); keep_ = cv2.dilate(((seed > 0) | (hsv[..., 2] > 100)).astype(np.uint8), disk(6)) > 0
+    G[(rm < SHCUT[0]) & (dv_ < SHCUT[1]) & ~keep_] = 0
+    G = G & cv2.dilate(cv2.erode(G, disk(6)), disk(12))                        # no thin rims of half-lit shadow away from the body
+    n5, lab5, st5, _ = cv2.connectedComponentsWithStats(G); G = np.isin(lab5, [i for i in range(1, n5) if (seed[lab5 == i] > 0).any() and st5[i][4] > 400]).astype(np.uint8)
 if FILL:                                                                   # clear stones show the ground through them: fill their small holes
     n4, lab4, st4, _ = cv2.connectedComponentsWithStats((G == 0).astype(np.uint8))
     G = (G | np.isin(lab4, [i for i in range(1, n4) if st4[i][4] < FILL and st4[i][0] > 0 and st4[i][1] > 0 and st4[i][0] + st4[i][2] < w and st4[i][1] + st4[i][3] < h])).astype(np.uint8)
 if CUT is not None: cm = np.zeros_like(G); cv2.fillPoly(cm, [CUT], 1); G[cm > 0] = 0
-if SHCUT:
-    dv_ = np.abs(rr - rm[..., None]).max(-1); G[(rm < SHCUT[0]) & (dv_ < SHCUT[1])] = 0
-    G = G & cv2.dilate(cv2.erode(G, disk(6)), disk(12))                        # no thin rims of half-lit shadow away from the body
-    n5, lab5, st5, _ = cv2.connectedComponentsWithStats(G); G = np.isin(lab5, [i for i in range(1, n5) if (seed[lab5 == i] > 0).any() and st5[i][4] > 400]).astype(np.uint8)
+
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
@@ -148,7 +150,7 @@ k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real
 same = cream(hsv) == cream(hsvP)                                           # shadow only where both show the same surface
 R = np.where((Z > 0) & same & (G == 0), 1 - (1 - np.minimum(1, blur(dl, 2.0))) * k, 1)
 if SOFT:                                                                   # (the piece itself left out of the smoothing, so no halo)
-    out_ = (G == 0).astype(np.float32); Re = cv2.erode(np.where(G > 0, 1.0, R).astype(np.float32), disk(SOFT))
+    out_ = (G == 0).astype(np.float32); Re = cv2.medianBlur((np.clip(np.where(G > 0, 1.0, R), 0, 1) * 255).astype(np.uint8), 2 * SOFT + 1).astype(np.float32) / 255
     R = np.where(G > 0, R, np.minimum(1, blur(Re * out_, SOFT) / np.maximum(blur(out_, SOFT), 1e-3)))
 R = np.minimum(R, np.where(G > 0, 1, R))[..., None]
 Gf = blur(G, 0.9)[..., None]

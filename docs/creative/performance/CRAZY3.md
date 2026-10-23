@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-22 shots kept, average score 9.08, 39 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+24 shots kept, average score 9.07, 43 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -94,4 +94,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 20 | Ribbon Bead Bracelet | a small black gift box tied with a satin bow | deep mauve lime plaster | Gift-wrapped. | 8.9 | 2 |
 | 21 | Brushed Gold Huggies | a closed tan leather notebook with a slim brass pen | pale warm stone lime plaster | Nine to five. | 9.0 | 2 |
 | 22 | Brushed Gold Huggies | the folded ribbed collar of a black knit | deep near-black charcoal lime plaster | The classic. | 9.0 | 2 |
+| 23 | Rivière Eternal Bracelet | a softly folded cream pashmina with a twisted fringe | pale warm ivory lime plaster | Winter white. | 9.0 | 2 |
+| 24 | Rivière Eternal Bracelet | a long black satin opera glove | deep black lime plaster | Old Hollywood. | 9.0 | 2 |
 <!-- /log -->
