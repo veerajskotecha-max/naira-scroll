@@ -309,5 +309,60 @@
    "033aa8eb (c12a, kept)"
   ],
   "notes": "c12a: chunky elongated oval links, each threaded through the next, in mirror-polished gold tone, with exactly one fully pavé link, as in the listing; the chain lies clear of the shoe and runs off the right edge. True to within about 1.2x against the stiletto, so it is left as shot (a shrink would leave the chain ending inside the frame). Planned with black leather gloves; one black satin stiletto replaced them, since gloves fit few Indian evenings out. The shoe fills the top right; calm charcoal plaster top left for the words, in cream."
+ },
+ {
+  "n": "13",
+  "key": "bold-nocturne-bracelet-day",
+  "plate": "plates/crazy3/13-bold-nocturne-bracelet-day.jpg",
+  "raw": "c13a_r",
+  "product": "7",
+  "time": "day",
+  "title": "Bold Nocturne Bracelet",
+  "price": "₹1,599",
+  "variant": null,
+  "handle": "bold-nocturne-bracelet",
+  "ingredient": "two plain linen-bound books with a dusty-rose ribbon marker",
+  "ground": "pale warm sand lime plaster",
+  "rhyme": "a long afternoon with a good book, and the bracelet that goes with it",
+  "line": "Well read.",
+  "ink": "#5A4632",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.1,
+  "jobs": [
+   "dad9f9cf (c13a, kept; bracelet set back at true size)",
+   "36a35770 (clean plate of c13a for the retouch)"
+  ],
+  "notes": "c13a: chunky elongated oval links, each threaded through the next, in polished gold tone, with exactly one fully pavé link, the lobster clasp and the extender with its small tag, as in the listing; the bracelet lies clear of the books and the ribbon. The model drew it about 1.5x true size (links 18 mm wide against the books' 3 cm boards), so it was set back at 0.66 in post on a clean plate of the same frame (raw/c13a_r.png). The books carry no titles. The books fill the upper right; calm sand plaster bottom left for the words."
+ },
+ {
+  "n": "14",
+  "key": "bold-nocturne-bracelet-night",
+  "plate": "plates/crazy3/14-bold-nocturne-bracelet-night.jpg",
+  "raw": "c14a_r",
+  "product": "7",
+  "time": "night",
+  "title": "Bold Nocturne Bracelet",
+  "price": "₹1,599",
+  "variant": null,
+  "handle": "bold-nocturne-bracelet",
+  "ingredient": "a pre-tied black silk bow tie",
+  "ground": "deep near-black charcoal lime plaster",
+  "rhyme": "the invitation said black tie, and the gold that answers it",
+  "line": "Black tie.",
+  "ink": "#EFE6D8",
+  "page_ink": "#3A3836",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "e96967d9 (c14a, kept; bracelet set back at true size)",
+   "52b28a43 (clean plate of c14a for the retouch)"
+  ],
+  "notes": "c14a: the same chunky links, the one pavé link, the lobster clasp and the extender with its tag, as in the listing; the bracelet lies clear of the bow tie. The model drew it about 1.25x true size against the 12 cm bow tie, so it was set back at 0.8 in post on a clean plate of the same frame (raw/c14a_r.png). The bow tie fills the upper right; calm charcoal plaster bottom left for the words, in cream."
  }
 ]

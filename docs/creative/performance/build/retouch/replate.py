@@ -13,7 +13,10 @@ SYNTH = "synth" in a; CAST, CONTACT = (float(a[a.index("synth") + 1]), float(a[a
 RINGFIT = "ringfit" in a; BANDW = float(a[a.index("ringfit") + 1]) if RINGFIT else 0
 #   optional: hand cx cy w h ang icx icy iw ih iang = the ring's outline as an outer ellipse minus an inner one (cv2.ellipse terms)
 HAND = [float(v) for v in a[a.index("hand") + 1:a.index("hand") + 11]] if "hand" in a else None
-NOSHADOW = "noshadow" in a                                                 # with hand: keep evenly darkened ground out of the piece
+NOSHADOW = "noshadow" in a
+#   optional: close r = also close the piece's mask by r px, for polished links whose inner walls mirror a dark ground
+CLOSE = int(a[a.index("close") + 1]) if "close" in a else 0
+NOCREAM = "nocream" in a                                                 # with hand: keep evenly darkened ground out of the piece
 D = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/colour"
 A = cv2.imread(f"{D}/raw/{src}.png").astype(np.float32); P = cv2.imread(f"{D}/raw/{pl}.png").astype(np.float32)
 if P.shape != A.shape: P = cv2.resize(P, (A.shape[1], A.shape[0]), interpolation=cv2.INTER_CUBIC)
@@ -57,9 +60,10 @@ Pt = P * blur(cv2.resize(g, (w, h), interpolation=cv2.INTER_CUBIC), 20)
 d = np.abs(A - Pt).sum(-1); dl = lum(A) / np.maximum(lum(Pt), 4)
 if HAND: seed = (seed & (blur(d, 1.2) > 40)).astype(np.uint8)          # a neutral ground looks like silver: keep only what the plate lacks
 hsvP = cv2.cvtColor(np.clip(Pt, 0, 255).astype(np.uint8), cv2.COLOR_BGR2HSV)
-cream = lambda X: (X[..., 1] > 40) & (X[..., 2] > 170) & (X[..., 0] >= 10) & (X[..., 0] <= 40)   # petal or paper, never the piece
+cream = lambda X: (X[..., 1] > 40) & (X[..., 2] > 170) & (X[..., 0] >= 10) & (X[..., 0] <= 40) & (not NOCREAM)   # petal or paper, never the piece
+                                                                           # (nocream: off for gold, whose highlights are cream too)
 Vf = hsv[..., 2].astype(np.float32); sd = np.sqrt(np.maximum(blur(Vf * Vf, 2.0) - blur(Vf, 2.0) ** 2, 0))
-lit = (lum(A) > lum(Pt) + 15) & (sd < 22)                                  # light through the piece onto the ground, never the piece
+lit = (lum(A) > lum(Pt) + 15) & (sd < 22) & (seed == 0) & (hsv[..., 1] < 60)  # light through the piece onto the ground, never saturated metal or stone
 piece_like = ((sd > 16) | (lum(A) < lum(Pt) - 25) | (seed > 0)) & ~lit      # busy as pave, darker (stones), or its own colour
 rr = blur(A, 1.5) / np.maximum(blur(Pt, 1.5), 4); rm = rr.mean(-1)
 shadowlike = (rm > 0.4) & (rm < 0.985) & (np.abs(rr - rm[..., None]).max(-1) < 0.035) & (sd < 16)   # evenly darkened, smooth: a shadow
@@ -77,6 +81,7 @@ G = cv2.morphologyEx(G, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)) | seed
 n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(6)))
 keep = [i for i in range(1, n) if (seed[lab == i] > 0).any()]               # only parts that hold the piece's own stones or metal
 G = cv2.morphologyEx(np.isin(lab, keep).astype(np.uint8), cv2.MORPH_CLOSE, disk(6))
+if CLOSE: G = cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(CLOSE))           # dark inner walls that mirror the ground go with the metal
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
@@ -85,7 +90,7 @@ Z &= cv2.dilate(RZ, disk(40))
 touched = ((blur(dl, 4) < 0.975) | (blur(dl, 4) > 1.03)).astype(np.uint8)
 n3, lab3, st3, _ = cv2.connectedComponentsWithStats(touched)
 near = cv2.dilate(Gd, disk(10)) > 0
-Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(RZ, disk(320))
+Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(Z, disk(90))
 Zf = blur(cv2.dilate(Z, disk(10)), 8)[..., None]
 k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real shadow only, not noise between the two renders
 same = cream(hsv) == cream(hsvP)                                           # shadow only where both show the same surface
@@ -101,6 +106,7 @@ Pm = Pt * np.clip(tgt / np.maximum(blur(Pt, 10), 4), 0.8, 1.25)
 base = A * (1 - Zf) + Pm * Zf                                              # the original, with the plate only where the piece was
 # 3. back at scale s, centred on (ncx, ncy)
 ys, xs = np.nonzero(G); cx, cy = xs.mean(), ys.mean()
+if ncx < 0: ncx, ncy = cx, cy                                             # a negative centre keeps the piece where it is
 M = np.float32([[s, 0, ncx - s * cx], [0, s, ncy - s * cy]])
 pre = lambda m: blur(m, 0.45 / s) if s < 0.8 else m
 warp = lambda m, b: cv2.warpAffine(m, M, (w, h), flags=cv2.INTER_LINEAR, borderValue=b)

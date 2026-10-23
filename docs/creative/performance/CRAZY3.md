@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-12 shots kept, average score 9.12, 21 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+14 shots kept, average score 9.11, 25 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -84,4 +84,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 10 | Cushion Halo Ring | a small silver chamberstick with a lit ivory candle | deep plum lime plaster | Ask by candlelight. | 9.1 | 2 |
 | 11 | Bold Nocturne Chain | a structured cream leather top-handle bag | pale warm stone lime plaster | Meeting at ten. | 9.0 | 2 |
 | 12 | Bold Nocturne Chain | one black satin pointed-toe stiletto | deep charcoal lime plaster | Out late. | 9.0 | 1 |
+| 13 | Bold Nocturne Bracelet | two plain linen-bound books with a dusty-rose ribbon marker | pale warm sand lime plaster | Well read. | 9.1 | 2 |
+| 14 | Bold Nocturne Bracelet | a pre-tied black silk bow tie | deep near-black charcoal lime plaster | Black tie. | 9.0 | 2 |
 <!-- /log -->
