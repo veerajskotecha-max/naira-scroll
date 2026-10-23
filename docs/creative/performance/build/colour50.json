@@ -116,6 +116,32 @@
   "stack": true
  },
  {
+  "n": "06",
+  "key": "cushion-halo-ring",
+  "plate": "plates/colour/06-cushion-halo-ring.jpg",
+  "raw": "r06a",
+  "title": "Cushion Halo Ring",
+  "price": "₹1,199",
+  "variant": null,
+  "ingredient": "an open pearl-white satin ring box",
+  "ground": "pale soft dove-blue lime plaster",
+  "rhyme": "a halo ring standing in its satin ring box: the answer is already yes",
+  "line": "Already a yes.",
+  "ink": "#33465A",
+  "score": 9.1,
+  "jobs": [
+   "9be3389f (r06a, kept)"
+  ],
+  "notes": "r06a: one round brilliant in four claws inside a cushion-shaped single-row halo, pave down the shoulders, cool silver tone, as in the listing; true scale in a 5 cm box. Calm dove-blue plaster top left for the words. A second option for this ring: shot 55 (dandelion wish) is already approved.",
+  "round": 3,
+  "replaces": "kaju katli with silver varq, a stack on crinkled butter paper and one loose diamond, torn varq flakes",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
+ },
+ {
   "n": "07",
   "key": "baguette-tennis-bracelet",
   "plate": "plates/colour/07-baguette-tennis-bracelet.jpg",
@@ -142,6 +168,27 @@
   "stack": true
  },
  {
+  "n": "08",
+  "key": "baguette-huggies",
+  "plate": "plates/colour/08-baguette-huggies.jpg",
+  "raw": "r08a",
+  "title": "Baguette Huggies",
+  "price": "₹1,199",
+  "variant": "Emerald",
+  "ingredient": "a small emerald-green glass trinket dish",
+  "ground": "pale warm ivory lime plaster",
+  "rhyme": "emerald huggies in an emerald glass dish: green on green, where they live",
+  "line": "Green with envy.",
+  "ink": "#1F4A30",
+  "score": 9.2,
+  "jobs": [
+   "1907aae4 (r08a, kept)"
+  ],
+  "notes": "r08a: small hinged gold huggies with one row of crosswise emerald-green baguettes in gold claws on the lower front half, the back plain, as in the listing; true scale in a 9 cm dish. Calm ivory plaster top left for the words. A second option for these huggies: shot 58 (glass bangles) is already approved.",
+  "round": 3,
+  "replaces": "a loose heap of pistachio pieces with rose-purple skins, a few loose slivers in front"
+ },
+ {
   "n": "09",
   "key": "bold-nocturne-chain",
   "plate": "plates/colour/09-bold-nocturne-chain.jpg",
@@ -161,6 +208,27 @@
   "notes": "r09a: chunky polished elongated oval links threaded through each other with exactly one pave link, as in the listing; true scale against the 2 cm horn button. One small glint by the pave link. Calm plaster top left for the words. A second option for this chain: shot 59 (paper chain) is already approved.",
   "round": 3,
   "replaces": "broken chunks of golden Kolhapuri jaggery (gur) with crumbs"
+ },
+ {
+  "n": "10",
+  "key": "bold-nocturne-bracelet",
+  "plate": "plates/colour/10-bold-nocturne-bracelet.jpg",
+  "raw": "r10a",
+  "title": "Bold Nocturne Bracelet",
+  "price": "₹1,599",
+  "variant": null,
+  "ingredient": "a closed black leather planner with gilt page edges",
+  "ground": "pale warm stone-grey lime plaster",
+  "rhyme": "bold links on a black planner: big plans, and the bracelet to match",
+  "line": "Big plans.",
+  "ink": "#2E2B2A",
+  "score": 9.0,
+  "jobs": [
+   "08df02db (r10a, kept)"
+  ],
+  "notes": "r10a: chunky polished elongated oval links with exactly one pave link, the lobster clasp and the short extender with its oval tag, as in the listing. No pen, no logo. Calm plaster top left for the words. A second option for this bracelet: shot 60 (Diwali diya) is already approved.",
+  "round": 3,
+  "replaces": "a soft cone of haldi powder and two fresh turmeric roots, one snapped to its orange core"
  },
  {
   "n": "11",
@@ -516,6 +584,27 @@
   ],
   "notes": "Studs exact: sharp four-point star with inward curves, single pave outline, four outward pear stones in gold frames, round centre in a four-lobed flower, open gaps. Each stud about one flower, true. 25a added leaves and a branch.",
   "feed_top": 150
+ },
+ {
+  "n": "26",
+  "key": "bold-dome-huggies",
+  "plate": "plates/colour/26-bold-dome-huggies.jpg",
+  "raw": "r26a",
+  "title": "Bold Dome Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "a closed polished gold powder compact",
+  "ground": "pale soft blush-nude lime plaster",
+  "rhyme": "mirror-polished domes beside a mirror-polished compact: the last touch-up, done",
+  "line": "Touch-up done.",
+  "ink": "#6A4A35",
+  "score": 9.0,
+  "jobs": [
+   "c643e0a2 (r26a, kept)"
+  ],
+  "notes": "r26a: chunky mirror-polished dome huggies that swell at the bottom and taper to a hinged snap, the hairline seam showing, as in the listing; they read a little large beside a 7 cm compact. No logo on the compact. Calm plaster top left for the words. A second option for these huggies: shot 68 (ghungroo) is already approved.",
+  "round": 3,
+  "replaces": "a small group of golden pani puri shells (golgappe), one cracked open, crisp crumbs"
  },
  {
   "n": "27",

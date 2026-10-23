@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-66 shots kept, average score 9.10, 121 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+70 shots kept, average score 9.10, 125 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -110,8 +110,11 @@ The shot log at the end records what was actually shot, kept and why.
 | 03 | Prism Rivière Bracelet | sugared almonds in aqua, pink and butter yellow, in an old silver katori | ivory lime plaster | Pick all three. | 9.2 | 2 |
 | 04 | Woven Gold Hoops | the woven gold zari paisley border of an ivory Banarasi silk saree | the ivory Banarasi silk itself | Banarasi, for your ears. | 9.4 | 1 |
 | 05 | Verdant Eternity Band | an open emerald-green velvet ring box with an ivory satin lid | pale soft mint lime plaster | Green means yes. | 9.1 | 1 |
+| 06 | Cushion Halo Ring | an open pearl-white satin ring box | pale soft dove-blue lime plaster | Already a yes. | 9.1 | 1 |
 | 07 | Baguette Tennis Bracelet (Crystal) | a blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath | pale dove-grey lime plaster | RSVP: yes. | 9.4 | 1 |
+| 08 | Baguette Huggies (Emerald) | a small emerald-green glass trinket dish | pale warm ivory lime plaster | Green with envy. | 9.2 | 1 |
 | 09 | Bold Nocturne Chain | the lapel of a folded black wool blazer | pale stone-grey lime plaster | Suits you. | 9.0 | 1 |
+| 10 | Bold Nocturne Bracelet | a closed black leather planner with gilt page edges | pale warm stone-grey lime plaster | Big plans. | 9.0 | 1 |
 | 11 | Halo Curve Ring | two rose heads side by side, one caramel and one champagne | pale warm latte lime plaster | Tum aur main. | 9.5 | 1 |
 | 12 | Kiss Knot Bangle (Gold) | a plain ivory card with one red lipstick kiss | pale blush lime plaster | XOXO. | 9.3 | 1 |
 | 13 | Silk Mesh Cuff (Gold) | two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads | ivory lime plaster | Finer than pheni. | 9.2 | 2 |
@@ -127,6 +130,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 23 | Baguette Halo Drops | two white shevanti (chrysanthemum) flower heads and loose petals, the Diwali-season flower | ivory lime plaster | In bloom for Diwali. | 9.1 | 2 |
 | 24 | Verdant Cushion Studs (Silver) | two fresh paan (betel) leaves and one whole clove, the pin of a folded paan | ivory lime plaster | Pehenke paan Banaras wala. | 9.0 | 4 |
 | 25 | Quatrefoil Éclat Studs | freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes | ivory lime plaster | Collected at dawn. | 9.1 | 2 |
+| 26 | Bold Dome Huggies | a closed polished gold powder compact | pale soft blush-nude lime plaster | Touch-up done. | 9.0 | 1 |
 | 27 | Torsade Huggies | two lit twisted ivory taper candles in brass holders | pale warm apricot lime plaster | A twist on Diwali. | 9.2 | 1 |
 | 28 | Baguette Eternity Band (Ruby) | a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain | ivory lime plaster | Worth its weight in kesar. | 8.9 | 4 |
 | 29 | Heartbead Bracelet | edible silver dragees, a soft heap with a few rolled loose towards the bracelet | ivory lime plaster | The icing on the wrist. | 9.1 | 2 |
