@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-30 shots kept, average score 9.04, 78 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+31 shots kept, average score 9.04, 82 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -135,4 +135,5 @@ The shot log at the end records what was actually shot, kept and why.
 | 28 | Baguette Eternity Band (Ruby) | a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain | ivory lime plaster | Worth its weight in kesar. | 8.9 | 4 |
 | 29 | Heartbead Bracelet | edible silver dragees, a soft heap with a few rolled loose towards the bracelet | ivory lime plaster | The icing on the wrist. | 9.1 | 2 |
 | 30 | Serpentine Whisper Chain (Silver) | coarse rock salt crystals (khada namak), a loose heap with two crystals beside the stone | dove-grey lime plaster | Season to taste. | 9.2 | 2 |
+| 31 | Baroque Shell Bracelet | seven cowrie shells thrown as in pachisi, backs and toothed mouths, one touching a pearl | honey-cream lime plaster with a soft diagonal window shadow | Lucky throw. | 9.1 | 4 |
 <!-- /log -->

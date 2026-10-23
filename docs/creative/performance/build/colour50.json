@@ -328,7 +328,6 @@
    "top": 84
   },
   "w": 270,
-  "hs": 52,
   "stack": true
  },
  {
@@ -646,7 +645,6 @@
    "top": 84
   },
   "w": 270,
-  "hs": 54,
   "stack": true
  },
  {
@@ -695,5 +693,32 @@
    "top": 392
   },
   "w": 420
+ },
+ {
+  "n": "31",
+  "key": "baroque-shell-bracelet",
+  "plate": "plates/colour/31-baroque-shell-bracelet.jpg",
+  "raw": "31b",
+  "title": "Baroque Shell Bracelet",
+  "price": "₹1,799",
+  "variant": null,
+  "ingredient": "seven cowrie shells thrown as in pachisi, backs and toothed mouths, one touching a pearl",
+  "ground": "honey-cream lime plaster with a soft diagonal window shadow",
+  "rhyme": "glossy cowrie beside lustrous white shell pearl, ivory and honey with the gold toggle; cowries were dice, small change and a token of luck",
+  "line": "Lucky throw.",
+  "ink": "#6A4A24",
+  "score": 9.1,
+  "jobs": [
+   "ae06115a (31a)",
+   "18a0c19b (31b, kept)",
+   "8d7242a2 (31c)",
+   "3b006f0a (31d)"
+  ],
+  "notes": "31a turned the strand into about 16 small ridged oval pearls with rondelles, dwarfed by the cowries. Reshot with EXACTLY NINE big flat baroque pearls the size of a cowrie (31c, 31d both faithful), but 31b from the first batch had already come back right: nine flat irregular pearls, one small gold bead between each, round toggle and T-bar, one larger drop on a ball-headed pin. 31d hangs the drop below the 4:5 window; 31c looks arranged rather than thrown.",
+  "pos": {
+   "left": 76,
+   "top": 56
+  },
+  "hs": 58
  }
 ]

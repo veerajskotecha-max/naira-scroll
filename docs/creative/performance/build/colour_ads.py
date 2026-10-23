@@ -49,6 +49,7 @@ def feed(e):
         right = "right" in e["pos"]
         css += ".t{left:auto;top:auto;width:%dpx;%s;%s}" % (e.get("w", 560), ";".join(f"{k}:{v}px" for k, v in e["pos"].items()),
                                                                "align-items:flex-end;text-align:right" if right else "")
+        if e.get("hs"): css += ".h{font-size:%dpx}" % e["hs"]   # the placer sizes the line only when it places the block
     name = B.glue(e["title"] + (f" · {e['variant']}" if e.get("variant") and not e.get("stack") else ""))
     if e.get("stack") and e.get("variant"): e = dict(e, price=f"{e['variant']} &nbsp;·&nbsp; {e['price']}")
     html = (f'<meta charset="utf-8"><style>{css}</style><body><div class="t"><img class="wm" src="file://{logo(e["ink"])}">'
