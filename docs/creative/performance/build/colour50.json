@@ -1520,5 +1520,25 @@
    "bottom": 72
   },
   "w": 380
+ },
+ {
+  "n": "65",
+  "key": "brushed-gold-huggies",
+  "plate": "plates/colour/65-brushed-gold-huggies.jpg",
+  "raw": "65a",
+  "title": "Brushed Gold Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "an old wooden sewing spool wound with soft-gold zari thread",
+  "ground": "warm pale linen-beige lime plaster",
+  "rhyme": "the fine parallel brush lines of a satin finish = the fine parallel turns of gold thread on a spool; the same soft gold, spun two ways",
+  "line": "Spun gold.",
+  "ink": "#5E4A22",
+  "score": 9.1,
+  "jobs": [
+   "8da5915e (65a, kept)",
+   "45275135 (65b)"
+  ],
+  "notes": "65a: two chunky huggies of a wide softly domed band with a brushed satin finish of fine parallel lines and a hidden hinge, as in the listing; one leans on the spool and one sits in front. Each huggie is about half the spool's height, true for 14 mm and a 3 cm spool. The pale satin gold sits with the soft zari, so it reads gold, not silver. 65b was as faithful, with the thread running off the left edge."
  }
 ]
