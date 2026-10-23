@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-60 shots kept, average score 9.08, 158 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+61 shots kept, average score 9.08, 160 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -165,6 +165,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 58 | Baguette Huggies (Emerald) | a small stack of green glass bangles, kaanch ki choodiyan, with fine gold lines | pale pistachio-cream lime plaster | Choodi, for your ears. | 9.3 | 2 |
 | 59 | Bold Nocturne Chain | a handmade school paper chain, loops of gold foil paper glued link through link | soft butter-yellow lime plaster | Art class, all grown up. | 9.2 | 2 |
 | 60 | Bold Nocturne Bracelet | a small lit terracotta diya with ghee and a cotton wick | warm terracotta-blush lime plaster | The Diwali glow-up. | 9.3 | 2 |
+| 61 | Halo Curve Ring | three glass marbles (kanche), two amber cat's-eyes and one champagne swirl | pale warm honey-sand lime plaster | Never lose your marbles. | 9.2 | 2 |
 <!-- /log -->
 
 ## Review and upload

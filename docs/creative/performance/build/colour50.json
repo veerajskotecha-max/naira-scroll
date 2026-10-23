@@ -1426,5 +1426,25 @@
    "left": 76,
    "top": 84
   }
+ },
+ {
+  "n": "61",
+  "key": "halo-curve-ring",
+  "plate": "plates/colour/61-halo-curve-ring.jpg",
+  "raw": "61b",
+  "title": "Halo Curve Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "three glass marbles (kanche), two amber cat's-eyes and one champagne swirl",
+  "ground": "pale warm honey-sand lime plaster",
+  "rhyme": "a banded tiger's eye and a champagne crystal = an amber cat's-eye marble and a clear one; the kanche game, kept for good",
+  "line": "Never lose your marbles.",
+  "ink": "#5A3A16",
+  "score": 9.2,
+  "jobs": [
+   "acd559f1 (61a)",
+   "062191d9 (61b, kept)"
+  ],
+  "notes": "61b: an open bypass band of thin gold wire ending in a banded tiger's eye cabochon and a faceted champagne crystal, each in its own slim bezel, as in the listing and the earlier passed plates; the ring stands upright behind three marbles that throw amber light onto the plaster. Each stone is about three quarters of a marble, true for 12 mm stones and 16 mm marbles. 61a was as faithful but spread the marbles out, with one cut by the frame edge."
  }
 ]
