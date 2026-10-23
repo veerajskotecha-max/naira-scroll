@@ -678,5 +678,60 @@
    "left": 76,
    "bottom": 72
   }
+ },
+ {
+  "n": "27",
+  "key": "lilac-papillon-ring-day",
+  "plate": "plates/crazy3/27-lilac-papillon-ring-day.jpg",
+  "raw": "c27a_rc",
+  "product": "14",
+  "time": "day",
+  "title": "Lilac Papillon Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "lilac-papillon-ring",
+  "ingredient": "a fresh sprig of pale lilac blossom",
+  "ground": "pale lavender-grey lime plaster",
+  "rhyme": "spring, all year: a lilac butterfly beside the lilac",
+  "line": "Spring, all year.",
+  "ink": "#5B4A5C",
+  "score": 9.1,
+  "jobs": [
+   "c704acec (c27a, kept; ring set back at true size)",
+   "d1ffeb18 (clean plate of c27a for the retouch)"
+  ],
+  "notes": "c27a: a four-wing butterfly of pale lilac micro-pavé inside raised gold rims with a polished gold body bar, over a larger offset openwork outline of clear stones, on a slim gold shank, as in the listing; the ring stands clear of the sprig. The model drew it about 1.8x true size (the butterfly four lilac florets wide), so it was set back at 0.55 in post on a clean plate of the same frame, scaled from where it rests so it stays grounded (raw/c27a_r.png): now about two florets, true for a 20 mm butterfly. The frame was then cropped in a little at full resolution (raw/c27a_rc.png). The sprig fills the upper right; calm lavender plaster top left for the words.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
+ },
+ {
+  "n": "28",
+  "key": "lilac-papillon-ring-night",
+  "plate": "plates/crazy3/28-lilac-papillon-ring-night.jpg",
+  "raw": "c28a_rc",
+  "product": "14",
+  "time": "night",
+  "title": "Lilac Papillon Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "lilac-papillon-ring",
+  "ingredient": "one deep violet anemone",
+  "ground": "deep ink-blue lime plaster",
+  "rhyme": "a night garden: one dark anemone and a lilac butterfly",
+  "line": "Night garden.",
+  "ink": "#EEE6F0",
+  "page_ink": "#232C3B",
+  "score": 9.1,
+  "jobs": [
+   "99e96271 (c28a, kept; ring set back at true size)",
+   "dedb7403 (clean plate of c28a for the retouch)"
+  ],
+  "notes": "c28a: the same lilac pavé butterfly in gold rims over its offset clear-stone outline, on the slim gold shank, as in the listing, warm in the low light; the ring stands clear of the flower. The model drew it about 1.8x true size (the butterfly twice as wide as the anemone's black centre), so it was set back at 0.57 in post on a clean plate of the same frame, scaled from where it stands, its long evening shadow carried and the old one cleared to its tail (raw/c28a_r.png): now about as wide as the centre, true for a 20 mm butterfly. The frame was then cropped in a little at full resolution (raw/c28a_rc.png). Ink-blue ground in place of the planned aubergine, which 26 already has. The anemone fills the upper right; calm ink-blue plaster top left for the words, in pale lilac.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
  }
 ]

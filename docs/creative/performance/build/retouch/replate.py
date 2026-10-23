@@ -33,6 +33,12 @@ if "cut" in a:
 SOLID = "solid" in a
 #   optional: seeddiff = keep only seeds the plate lacks, when a gold prop (a clutch frame) sits by the piece
 SEEDDIFF = "seeddiff" in a
+#   optional: cluster r = seeds within 2r px of each other count as one piece (default 40), for a piece whose pale parts leave gaps
+CLUSTER = int(a[a.index("cluster") + 1]) if "cluster" in a else 40
+#   optional: zone x1 y1 x2 y2 ... ; = a polygon (raw px) also replaced by the plate, e.g. the far tail of a long old shadow
+XZONE = None
+if "zone" in a:
+    j0 = a.index("zone") + 1; j1 = a.index(";", j0); vz = list(map(int, a[j0:j1])); XZONE = np.int32(list(zip(vz[0::2], vz[1::2])))
 #   optional: band r = whatever lies within r px of the piece's gold walls is the piece: soft, out-of-focus
 #   clear stones in box settings, which would otherwise read as light through the stones
 BAND = int(a[a.index("band") + 1]) if "band" in a else 0
@@ -67,7 +73,7 @@ if HAND:                                                                   # the
     seed = (band > 0) & (((hsv[..., 1] < 60) & (hsv[..., 2] > 110)) | (seed > 0)); seed = seed.astype(np.uint8)
     RZ = cv2.dilate(band, disk(30))
 else:
-    n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.dilate(seed, disk(40)))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.dilate(seed, disk(CLUSTER)))
     seed = seed * (lab == 1 + int(np.argmax(st[1:, 4]))).astype(np.uint8)
     RZ = cv2.dilate(seed, disk(reach))                                     # where the piece can be
 # 1. align: the integer shift that best matches the frame away from the piece, then tone-match
@@ -137,7 +143,7 @@ keep = [i for i in range(1, n) if (seed[lab == i] > 0).any()]               # on
 G = cv2.morphologyEx(np.isin(lab, keep).astype(np.uint8), cv2.MORPH_CLOSE, disk(6))
 if CLOSE: G = cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(CLOSE))           # dark inner walls that mirror the ground go with the metal
 if SHCUT:                                                                  # never within a few px of its metal or its lit stones
-    dv_ = np.abs(rr - rm[..., None]).max(-1); keep_ = cv2.dilate(((seed > 0) | (hsv[..., 2] > 100)).astype(np.uint8), disk(6)) > 0
+    dv_ = np.abs(rr - rm[..., None]).max(-1); keep_ = cv2.dilate(((seed > 0) | (lum(A) > lum(Pt) + 10)).astype(np.uint8), disk(6)) > 0
     G[(rm < SHCUT[0]) & (dv_ < SHCUT[1]) & ~keep_] = 0
     G = G & cv2.dilate(cv2.erode(G, disk(6)), disk(12))                        # no thin rims of half-lit shadow away from the body
     n5, lab5, st5, _ = cv2.connectedComponentsWithStats(G); G = np.isin(lab5, [i for i in range(1, n5) if (seed[lab5 == i] > 0).any() and st5[i][4] > 400]).astype(np.uint8)
@@ -156,6 +162,7 @@ n3, lab3, st3, _ = cv2.connectedComponentsWithStats(touched)
 near = cv2.dilate(Gd, disk(10)) > 0
 if not NOTOUCH:                                                            # (notouch: when a prop sits close, rely on the shadow reach alone)
     Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(Z, disk(90))
+if XZONE is not None: xz = np.zeros_like(Z); cv2.fillPoly(xz, [XZONE], 1); Z |= xz
 if CUT is not None: Z[cv2.dilate(cmask, disk(12)) > 0] = 0                 # the prop stays exactly as shot
 Zf = blur(cv2.dilate(Z, disk(10)), 8)[..., None]
 k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real shadow only, not noise between the two renders

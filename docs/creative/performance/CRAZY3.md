@@ -34,7 +34,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 | 21 · 22 | Brushed Gold Huggies | a tan leather notebook and brass pen · stone | a black cashmere turtleneck collar · near-black | Nine to five. / The classic. |
 | 23 · 24 | Rivière Eternal Bracelet | a folded cream pashmina · ivory | a black satin opera glove · black | Winter white. / Old Hollywood. |
 | 25 · 26 | Baguette Tennis Necklace · Crystal | the loved invitation and baby's breath · dove grey | the loved ivory satin clutch · aubergine | Dress code: sparkle. / Ready by eight. |
-| 27 · 28 | Lilac Papillon Ring | a sprig of lilac · pale lavender | one deep violet anemone · aubergine | Spring, all year. / Night garden. |
+| 27 · 28 | Lilac Papillon Ring | a sprig of lilac · pale lavender | one deep violet anemone · ink blue | Spring, all year. / Night garden. |
 | 29 · 30 | Aqua Heart Drops · Silver | a blue hydrangea head · pale sky | a silver mesh clutch · deep teal | Something blue. / Heart of the party. |
 | 31 · 32 | Prism Cluster Studs · Silver | sweet peas in pink, violet and lemon · cream | a gold lipstick case, open · plum | Sweet on colour. / Last look. |
 | 33 · 34 | Molten Panel Bracelet | a woven rattan clutch · sand | a black velvet clutch with a slim gold frame · charcoal | Brunch, in gold. / Liquid gold. |
@@ -44,7 +44,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 
 Lines are drafts and are settled shot by shot. Changed so far: 05 has a linen shirt in place of the silk scarf (a silk knot read as a
 necktie in round three, and the shirt's buttons give the hoops a true size); 06's line is Make an entrance., since Fan favourite.
-claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out; 17 has a mogra gajra in place of a lace fan, since 06 already has a fan.
+claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out; 17 has a mogra gajra in place of a lace fan, since 06 already has a fan; 28 is on ink blue in place of aubergine, which 26 already has.
 
 ## True scale
 
@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-26 shots kept, average score 9.08, 47 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+28 shots kept, average score 9.08, 51 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -98,4 +98,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 24 | Rivière Eternal Bracelet | a long black satin opera glove | deep black lime plaster | Old Hollywood. | 9.0 | 2 |
 | 25 | Baguette Tennis Necklace (Crystal) | a blank ivory wedding invitation with a gold-foil border and a sprig of baby's breath | pale dove-grey lime plaster | Dress code: sparkle. | 9.2 | 2 |
 | 26 | Baguette Tennis Necklace (Crystal) | a small ivory duchess-satin clutch with a gold kiss-lock frame | deep aubergine-plum lime plaster | Ready by eight. | 9.1 | 2 |
+| 27 | Lilac Papillon Ring | a fresh sprig of pale lilac blossom | pale lavender-grey lime plaster | Spring, all year. | 9.1 | 2 |
+| 28 | Lilac Papillon Ring | one deep violet anemone | deep ink-blue lime plaster | Night garden. | 9.1 | 2 |
 <!-- /log -->
