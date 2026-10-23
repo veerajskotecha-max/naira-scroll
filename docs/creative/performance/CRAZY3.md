@@ -53,17 +53,25 @@ tries, whatever the prompt said about millimetres. So every kept frame is measur
 fan's sticks, a lily's spadix) and, where the piece is too large, set back at true size in post; the notes of each shot say by
 how much. On a plain plaster ground the piece is lifted out by colour and the plaster rebuilt under it (`build/retouch/shrink.py`);
 where it touches anything else, the model first removes the piece from its own frame to give a clean plate, and the piece is set
-back on it (`build/retouch/replate.py`). Both scripts read the raw downloads in the session scratchpad.
+back on it (`build/retouch/replate.py`). When the credits ran out, the last plates were rebuilt from the frame's own light and
+pores instead (`build/retouch/fakeplate.py`), with round parts (sunbursts, pearls) given as exact circles so no shadow came along.
+All three scripts read the raw downloads in the session scratchpad. Six frames needed no set-back: 12, 17 and 18 were true within
+about 1.3x, and 35, 36, 39 and 40 are close macro views true to their props within 1.1x to 1.3x; 25 was set back once its
+necklace measured 1.8x against the card.
 
 ## Budget
 
 40 frames at 2 credits, plus about 8 reshoots: about 95 credits. 28 credits were left after round three, enough for the first
-six products (01-12). The rest needs a top-up of about 70 credits.
+six products (01-12); the rest ran on a top-up. In all, 40 kept frames, 5 first tries reshot (02, 07, 08, 11, 31) and 24 clean
+plates from the model; frames 37 and 38 were set back on free plates, and the balance ended at 0.07 credits, so any further
+reshoot needs a top-up.
 
 ## Files
 
-`build/crazy3.json` (the shot log), `plates/crazy3/` (text-free plates), `ads/crazy3/` (Feed and Story). The finished set joins
-the handoff page as its own section, marked for Keep or Drop.
+`build/crazy3.json` (the shot log), `plates/crazy3/` (text-free plates), `ads/crazy3/` (Feed and Story). The finished set is on
+the handoff page as its own section, Crazy ads phase 3 (https://claude.ai/artifact/8pGjpcLq3EgsZtMjeNC2pt), each ad marked Keep
+or Drop under its id, p3-01 to p3-40; `handoff/manifest.json` and `handoff/ads.csv` carry its files, copy and links, in their
+own paused campaign, PERF · Phase 3 day and night · Oct 2026.
 
 ## Shot log
 
