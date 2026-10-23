@@ -871,6 +871,32 @@
   "notes": "Collar is the ribbed round snake collar of the listing (the older lock said smooth). 37a: ribbed collar, marquise set sideways in claws, fine cable drop with a small pear halfway and one at the end, both pointing down; the collar circles the katori. One straight thread falls from the spoon, the one-thread test. 37b coils the syrup into a honey ribbon and crops the bowl. The spoon is held from out of frame."
  },
  {
+  "n": "38",
+  "key": "droplet-open-cuff",
+  "plate": "plates/colour/38-droplet-open-cuff.jpg",
+  "raw": "38c",
+  "title": "Droplet Open Cuff",
+  "price": "₹1,599",
+  "variant": "Gold",
+  "ingredient": "gond (edible acacia gum), glassy tears and frosted crackled nuggets, one tear beside the cuff",
+  "ground": "pale warm ivory lime plaster",
+  "rhyme": "the cuff ends in a polished ball and a gold teardrop = the amber tears of gond, the gum of Indian winter laddoos",
+  "line": "The good kind of sticky.",
+  "ink": "#6E4516",
+  "score": 9.0,
+  "jobs": [
+   "b694738d (38a)",
+   "462d31e5 (38b)",
+   "f8b0ba6d (38c, kept)",
+   "8e10394f (38d)"
+  ],
+  "notes": "38a fused a gond tear onto the cuff in place of its gold teardrop. 38b was faithful but the teardrop was thin (0.57 of the ball against about 0.9 in the listing) and the gond looked like amber glass. Reshot asking for a full teardrop almost as wide as the ball, both ends solid metal, and natural gond with frosted crackled skins: 38c has the ball and a smooth swelling teardrop at about 0.65, natural gond, and an amber reflection in the gold. 38d pulled the gond into long glassy strings.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
+ },
+ {
   "n": "39",
   "key": "petal-flower-studs",
   "plate": "plates/colour/39-petal-flower-studs.jpg",

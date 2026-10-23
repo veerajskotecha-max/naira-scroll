@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-38 shots kept, average score 9.04, 100 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+39 shots kept, average score 9.04, 104 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -142,5 +142,6 @@ The shot log at the end records what was actually shot, kept and why.
 | 35 | Pear Point Open Cuff | loose pink desi rose petals beaded with rose water, two drops on the plaster, one petal touching the cuff | pale blush-pink lime plaster | Two drops of gulab jal. | 9.2 | 4 |
 | 36 | Bold Nocturne Drops | til chikki, four sesame-and-jaggery pieces, loose seeds and a shard, one piece touching a pavé link | warm honey-toned lime plaster | Chikki si chamak. | 8.9 | 2 |
 | 37 | Marquise Drop Choker | a brass katori of chashni (sugar syrup) with one thread falling from a steel spoon | warm cream lime plaster | Ek taar, just right. | 9.0 | 2 |
+| 38 | Droplet Open Cuff (Gold) | gond (edible acacia gum), glassy tears and frosted crackled nuggets, one tear beside the cuff | pale warm ivory lime plaster | The good kind of sticky. | 9.0 | 4 |
 | 39 | Petal Flower Studs (Gold) | whole cloves (laung), a loose heap with three lying apart, one head turned to the camera | warm cream lime plaster | Laung, for your ears. | 9.2 | 2 |
 <!-- /log -->
