@@ -129,7 +129,8 @@ if BAND:
     lit = lit & ~inband; piece_like = piece_like | inband
 if SOLID:                                                                  # opaque metal: its own saturated colour or brighter than the plate, never a shadow
     lit = np.zeros_like(lit); Hh, Ss = hsv[..., 0], hsv[..., 1]
-    piece_like = (seed > 0) | (lum(A) > lum(Pt) + 8) | ((Ss > 75) & (Hh >= hlo) & (Hh <= hhi))
+    SOLIDS = int(a[a.index("solids") + 1]) if "solids" in a else 75        # optional: solids s = how saturated its own colour must be
+    piece_like = (seed > 0) | (lum(A) > lum(Pt) + 8) | ((Ss > SOLIDS) & (Hh >= hlo) & (Hh <= hhi))
 rr = blur(A, 1.5) / np.maximum(blur(Pt, 1.5), 4); rm = rr.mean(-1)
 shadowlike = (rm > 0.4) & (rm < 0.985) & (np.abs(rr - rm[..., None]).max(-1) < 0.035) & (sd < 16)   # evenly darkened, smooth: a shadow
 if HAND:                                                                   # a ring's outline drawn by hand: outer ellipse minus its opening

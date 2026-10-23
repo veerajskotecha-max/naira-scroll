@@ -844,5 +844,57 @@
    "006ce3d5 (clean plate of c32a for the retouch)"
   ],
   "notes": "c32a: the same two mirror-image arcs, purple, pink, yellow, purple, pink in silver claws with tiny white pearls between, as in the listing photo, warm in the low light; the studs lie clear of the lipstick. The model drew them about 1.7x true size (each stud twice as long as the lipstick is thick), so they were set back at 0.6 in post on a clean plate of the same frame (raw/c32a_r.png): now each about as long as the lipstick is thick, true for 20 mm studs. The frame was then cropped in a little at full resolution (raw/c32a_rc.png). Deep rosewood in place of the planned plum, which 10 already has. The lipstick fills the upper right; calm rosewood plaster bottom left for the words, in cream."
+ },
+ {
+  "n": "33",
+  "key": "molten-panel-bracelet-day",
+  "plate": "plates/crazy3/33-molten-panel-bracelet-day.jpg",
+  "raw": "c33a_r",
+  "product": "17",
+  "time": "day",
+  "title": "Molten Panel Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "molten-panel-bracelet",
+  "ingredient": "a small white espresso cup on its saucer, both with a thin gold rim",
+  "ground": "pale warm sand lime plaster",
+  "rhyme": "brunch, in gold: the gold-rimmed cup and the gold bracelet",
+  "line": "Brunch, in gold.",
+  "ink": "#5A4632",
+  "score": 9.1,
+  "jobs": [
+   "4c637cc1 (c33a, kept; bracelet set back at true size)",
+   "4f2f7b8f (clean plate of c33a for the retouch)"
+  ],
+  "notes": "c33a: small flat oval plates in five staggered rows like brickwork, articulated so the band drapes, with the flat square box clasp, in satin-polished gold tone, as in the listing; the bracelet stands on its edge in a loop clear of the saucer. The model drew it about 1.8x true size (the loop as wide as the saucer), so it was set back at 0.55 in post on a clean plate of the same frame, scaled from where it stands so it stays grounded (raw/c33a_r.png): now the loop a little over half the saucer, true for a 17 cm bracelet. A gold-rimmed espresso cup in place of the planned rattan clutch, since the set already has four clutches. The cup fills the upper right; calm sand plaster top left for the words.",
+  "stack": true
+ },
+ {
+  "n": "34",
+  "key": "molten-panel-bracelet-night",
+  "plate": "plates/crazy3/34-molten-panel-bracelet-night.jpg",
+  "raw": "c34a_rc",
+  "product": "17",
+  "time": "night",
+  "title": "Molten Panel Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "molten-panel-bracelet",
+  "ingredient": "a folded black silk saree with a woven gold zari border",
+  "ground": "deep charcoal lime plaster",
+  "rhyme": "liquid gold: the zari and the bracelet",
+  "line": "Liquid gold.",
+  "ink": "#F2E6D2",
+  "page_ink": "#2E2B28",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.1,
+  "jobs": [
+   "db0c500a (c34a, kept; bracelet set back at true size)",
+   "78a7c0fe (clean plate of c34a for the retouch)"
+  ],
+  "notes": "c34a: the same five staggered rows of flat oval plates and the square box clasp, glowing in the low light, as in the listing; the bracelet stands in a loop clear of the silk. The model drew it about 1.6x true size (the band wider than the 3 cm zari border), so it was set back at 0.62 in post on a clean plate of the same frame, scaled from where it stands, the saree left exactly as shot (raw/c34a_r.png): now the band about half the border. The frame was then cropped in a little at full resolution (raw/c34a_rc.png). A black silk saree with a gold zari border in place of the planned velvet clutch. The saree fills the top and right; calm charcoal plaster bottom left for the words, in cream."
  }
 ]
