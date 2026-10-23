@@ -576,5 +576,48 @@
   ],
   "notes": "Studs exact: sharp four-point star with inward curves, single pave outline, four outward pear stones in gold frames, round centre in a four-lobed flower, open gaps. Each stud about one flower, true. 25a added leaves and a branch.",
   "feed_top": 150
+ },
+ {
+  "n": "26",
+  "key": "bold-dome-huggies",
+  "plate": "plates/colour/26-bold-dome-huggies.jpg",
+  "raw": "26c",
+  "title": "Bold Dome Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "a small group of golden pani puri shells (golgappe), one cracked open, crisp crumbs",
+  "ground": "ivory lime plaster",
+  "rhyme": "the swelling polished gold domes = the puffed golden domes of the puris",
+  "line": "Puffed to perfection.",
+  "ink": "#6A4A14",
+  "score": 8.8,
+  "jobs": [
+   "b179586a (26a)",
+   "00ee159a (26b)",
+   "4ba029e4 (26c, kept)",
+   "5af32daa (26d)"
+  ],
+  "notes": "26a/26b drew the huggies about 2x against the 4cm puri. Reshot touching the puri at the same depth with a critical-scale block: 26c about 1.4x true. Lying hoop shows the swelling dome and hinge; the standing one reads more even. 26d rendered a window in the background."
+ },
+ {
+  "n": "27",
+  "key": "torsade-huggies",
+  "plate": "plates/colour/27-torsade-huggies.jpg",
+  "raw": "27b",
+  "title": "Torsade Huggies",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "two crossed twisted khari puff-pastry straws, a broken piece, golden flakes",
+  "ground": "ivory lime plaster",
+  "rhyme": "the twisted gold rope ridges = the twist of golden khari pastry; khari is the chai-time biscuit",
+  "line": "The chai-time twist.",
+  "ink": "#6A4A14",
+  "score": 9.1,
+  "jobs": [
+   "98c097ca (27a)",
+   "c685ec50 (27b, kept)"
+  ],
+  "notes": "Huggies exact: domed, twisted polished ridges all round, hinge visible. Listing size 20x18mm, so about 1.3x against a 2cm khari straw. 27a crowded three straws over the earrings.",
+  "feed_top": 170
  }
 ]
