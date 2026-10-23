@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-42 shots kept, average score 9.14, 90 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+46 shots kept, average score 9.13, 95 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -126,6 +126,9 @@ The shot log at the end records what was actually shot, kept and why.
 | 27 | Torsade Huggies | two lit twisted ivory taper candles in brass holders | pale warm apricot lime plaster | A twist on Diwali. | 9.2 | 1 |
 | 28 | Baguette Eternity Band (Ruby) | a loose pinch of Kashmiri saffron (kesar) threads, two loose threads and a faint saffron stain | ivory lime plaster | Worth its weight in kesar. | 8.9 | 4 |
 | 29 | Heartbead Bracelet | edible silver dragees, a soft heap with a few rolled loose towards the bracelet | ivory lime plaster | The icing on the wrist. | 9.1 | 2 |
+| 30 | Serpentine Whisper Chain (Silver) | one white rose with a short stem | pale cool lavender-grey lime plaster | Say it with one. | 9.2 | 2 |
+| 31 | Baroque Shell Bracelet | pale powder-pink mulmul with white Lucknowi chikankari | the embroidered mulmul itself | Made for your chikankari. | 9.3 | 1 |
+| 32 | Petite Square Huggies | a small square ivory gift box tied with a gold satin ribbon | pale sage-green lime plaster | A square deal. | 8.9 | 1 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
 | 42 | Mint Pear Drop Earrings | a green nashpati, one whole and one cut half, with one loose seed on the plaster | pale celadon-green lime plaster | Pick of the pears. | 9.0 | 4 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
@@ -146,6 +149,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 66 | Ribbon Bead Bracelet | a white satin school ribbon tied in a double-loop bow with V-cut tails | deep school-uniform navy lime plaster | Mummy's bow, minus the tug. | 9.2 | 2 |
 | 67 | Rivière Eternal Bracelet | a Diwali ladi of tiny warm fairy-light bulbs on fine copper wire | warm dusk-cream lime plaster | A ladi that never fuses. | 9.2 | 2 |
 | 68 | Bold Dome Huggies | a string of brass ghungroo bells on a red cotton cord | soft pale vermilion-blush lime plaster | Ghungroo, on mute. | 9.2 | 2 |
+| 69 | Torsade Huggies | an antique brass hand mirror with a rope-twist handle, lying face up | pale blush lime plaster | Mirror, mirror. | 8.7 | 1 |
 | 70 | Molten Panel Bracelet | one real sunflower head | pale butter-yellow lime plaster | Sunshine on your wrist. | 8.9 | 2 |
 <!-- /log -->
 

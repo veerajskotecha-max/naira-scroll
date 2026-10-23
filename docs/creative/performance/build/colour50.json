@@ -503,6 +503,75 @@
   "notes": "29b: beads grey-gunmetal mirror steel as every listing photo reads them, gold T-bar, round toggle and one puffed heart on its jump ring, small end beads at the clasp. Bead-to-heart ratio about 0.5, the same as the cube listing close-up. Dragees about half a bead, bright and soft-focus behind. 29a drew the dragees as spare 6mm beads in the same grey, so the rhyme collapsed into loose beads."
  },
  {
+  "n": "30",
+  "key": "serpentine-whisper-chain-silver",
+  "plate": "plates/colour/30-serpentine-whisper-chain-silver.jpg",
+  "raw": "r30b",
+  "title": "Serpentine Whisper Chain",
+  "price": "₹1,299",
+  "variant": "Silver",
+  "ingredient": "one white rose with a short stem",
+  "ground": "pale cool lavender-grey lime plaster",
+  "rhyme": "one stone, one rose: the single cushion solitaire beside a single white rose",
+  "line": "Say it with one.",
+  "ink": "#4A4658",
+  "score": 9.2,
+  "jobs": [
+   "027bf29c (r30a)",
+   "f9df9fb3 (r30b, kept)"
+  ],
+  "notes": "r30b: one cushion-cut clear stone in an open four-claw basket on a plain bail, on a fine silver snake chain, as in the listing; true scale, the stone about a seventh of the rose. r30a drew a star-shaped sparkle with rainbow rays on the stone. Calm lavender-grey plaster top left for the words.",
+  "round": 3,
+  "replaces": "coarse rock salt crystals (khada namak), a loose heap with two crystals beside the stone",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
+ },
+ {
+  "n": "31",
+  "key": "baroque-shell-bracelet",
+  "plate": "plates/colour/31-baroque-shell-bracelet.jpg",
+  "raw": "r31a",
+  "title": "Baroque Shell Bracelet",
+  "price": "₹1,799",
+  "variant": null,
+  "ingredient": "pale powder-pink mulmul with white Lucknowi chikankari",
+  "ground": "the embroidered mulmul itself",
+  "rhyme": "white baroque pearls on white chikan: the bracelet you wear with your chikankari",
+  "line": "Made for your chikankari.",
+  "ink": "#6B3F48",
+  "score": 9.3,
+  "jobs": [
+   "62f62a06 (r31a, kept)"
+  ],
+  "notes": "r31a: nine flat irregular baroque white shell pearls with a small gold bead between each, the round toggle and straight T-bar, and one larger baroque drop on a ball-headed pin, as in the listing; true scale against the embroidered flowers. The embroidery runs across the whole frame, so the words sit over a quiet part of it.",
+  "round": 3,
+  "replaces": "seven cowrie shells thrown as in pachisi, backs and toothed mouths, one touching a pearl"
+ },
+ {
+  "n": "32",
+  "key": "petite-square-huggies",
+  "plate": "plates/colour/32-petite-square-huggies.jpg",
+  "raw": "r32a",
+  "title": "Petite Square Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "a small square ivory gift box tied with a gold satin ribbon",
+  "ground": "pale sage-green lime plaster",
+  "rhyme": "square huggies on a square gift box: gifting, square on square",
+  "line": "A square deal.",
+  "ink": "#3F4A38",
+  "score": 8.9,
+  "jobs": [
+   "61e39e6c (r32a, kept)"
+  ],
+  "notes": "r32a: softly squared hoops of smooth rounded tube with a hinged snap and four tiny white pearls each on the sides, as in the listing. They read a little large on the 7 cm lid (about 1.5x). The ribbon is tied in a small bow. Calm sage plaster top left for the words.",
+  "round": 3,
+  "replaces": "two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie"
+ },
+ {
   "n": "41",
   "key": "duo-link-bracelet",
   "plate": "plates/colour/41-duo-link-bracelet.jpg",
@@ -960,6 +1029,27 @@
    "fa6689a0 (68b)"
   ],
   "notes": "68a: two chunky mirror-polished huggies that swell at the bottom and taper to a slim hinged bar, no texture and no stones, as in the listing; one stands and one lies inside the curve of the bell string. Each huggie is about one and a half bells wide, true for 16 mm hoops and 10 mm ghungroo. 68b was as faithful, with darker antique bells."
+ },
+ {
+  "n": "69",
+  "key": "torsade-huggies",
+  "plate": "plates/colour/69-torsade-huggies.jpg",
+  "raw": "r69a",
+  "title": "Torsade Huggies",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "an antique brass hand mirror with a rope-twist handle, lying face up",
+  "ground": "pale blush lime plaster",
+  "rhyme": "getting ready: the huggies on the mirror glass, each with its reflection, beside the same twist cast in brass",
+  "line": "Mirror, mirror.",
+  "ink": "#6A4530",
+  "score": 8.7,
+  "jobs": [
+   "a61b464b (r69a, kept)"
+  ],
+  "notes": "r69a: small chunky domed huggies with a fine twisted-rope torsade and a hinged snap, as in the listing, each doubled by a clean reflection; the mirror shows only a pale glow. The huggies read large beside the glass (about 1.5x; the model draws them big). The handle runs off the right edge; calm blush plaster top left for the words.",
+  "round": 3,
+  "replaces": "a child's skipping rope of twisted cotton with a turned wooden handle"
  },
  {
   "n": "70",
