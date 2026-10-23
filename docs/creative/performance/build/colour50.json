@@ -406,5 +406,56 @@
    "left": 76,
    "bottom": 80
   }
+ },
+ {
+  "n": "19",
+  "key": "aqua-heart-drops",
+  "plate": "plates/colour/19-aqua-heart-drops.jpg",
+  "raw": "19c",
+  "title": "Aqua Heart Drops",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "ingredient": "a small hand-painted Jaipur blue-pottery dish in white, pale aqua and soft blue, one chip on the rim",
+  "ground": "ivory lime plaster",
+  "rhyme": "the pale icy aqua heart = the pale turquoise glaze of Jaipur blue pottery; Jaipur is the Pink City",
+  "line": "Pink City, blue heart.",
+  "ink": "#2F5560",
+  "score": 8.8,
+  "jobs": [
+   "9a1accfb (19a)",
+   "087ed301 (19b)",
+   "ede7b7c4 (19c, kept)",
+   "4fd04cad (19d)"
+  ],
+  "notes": "19a/19b lying flat drifted: small pave and baguettes on the front and earrings about 1.7x the dish. Reshot standing face-on as in the listing front view: 19c shows the six large round stones in claws down each C and the pale aqua heart on its loop. The dish has no fixed size, so scale reads plausible. Second non-ingredient prop (a Jaipur craft).",
+  "feed_top": 480,
+  "pos": {
+   "left": 76,
+   "bottom": 80
+  }
+ },
+ {
+  "n": "20",
+  "key": "prism-cluster-studs",
+  "plate": "plates/colour/20-prism-cluster-studs.jpg",
+  "raw": "20b",
+  "title": "Prism Cluster Studs",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "ingredient": "three cones of Diwali rangoli powder (violet, baby pink, marigold yellow) and a fingertip drawing the first curved stroke",
+  "ground": "ivory lime plaster",
+  "rhyme": "violet, pink and yellow stones = the three rangoli colours; the smiling arc = the first rangoli stroke",
+  "line": "Rangoli you can wear.",
+  "ink": "#4A2F5C",
+  "score": 9.1,
+  "pos": {
+   "right": 76,
+   "bottom": 72
+  },
+  "jobs": [
+   "9f545b19 (20a)",
+   "eb70cb31 (20b, kept)"
+  ],
+  "notes": "Studs exact and mirrored: purple princess, pink baguette, large yellow emerald cut, purple princess, pink baguette, tiny pearls in the gaps. The model added a fingertip drawing the stroke despite the no-hands line; kept, as it is natural, soft-focus and gives true scale (studs about 1.4x). 20a sat on a plinth edge with scattered specks."
  }
 ]
