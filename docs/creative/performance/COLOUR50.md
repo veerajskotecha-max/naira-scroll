@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-50 shots kept, average score 9.05, 132 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+52 shots kept, average score 9.06, 136 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -155,6 +155,8 @@ The shot log at the end records what was actually shot, kept and why.
 | 48 | Charm Box Chain | two motichoor laddoos, one whole and one broken open, with a few loose boondi | pale warm apricot-cream lime plaster | Man mein laddoo phoota. | 9.0 | 4 |
 | 49 | Serpentine Whisper Chain (Gold) | a wooden honey dipper letting one thread of honey fall into a small pool on the stone | pale honey-cream Jaisalmer sandstone | Pours like honey. | 9.2 | 2 |
 | 50 | Baguette Tennis Necklace (Emerald) | a fresh sprig of kadi patta (curry leaves) with loose leaflets | warm cream lime plaster | The finishing tadka. | 9.1 | 2 |
+| 51 | Toggle Link Chain | brass paper clips, one clipped to a sheet of deckled ivory cotton paper | warm ivory lime plaster | Paperclip, promoted. | 9.2 | 2 |
+| 52 | Baguette Tennis Necklace (Crystal) | a fresh mogra gajra, white jasmine buds strung tight on cotton thread | pale sage-green lime plaster | A gajra that never wilts. | 9.3 | 2 |
 <!-- /log -->
 
 ## Review and upload

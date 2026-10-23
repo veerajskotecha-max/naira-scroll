@@ -1188,5 +1188,58 @@
    "bottom": 72
   },
   "stack": true
+ },
+ {
+  "n": "51",
+  "key": "toggle-link-chain",
+  "plate": "plates/colour/51-toggle-link-chain.jpg",
+  "raw": "51a",
+  "title": "Toggle Link Chain",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "brass paper clips, one clipped to a sheet of deckled ivory cotton paper",
+  "ground": "warm ivory lime plaster",
+  "rhyme": "open paperclip links = brass paper clips, gold on gold; the office clip, promoted to jewellery",
+  "line": "Paperclip, promoted.",
+  "ink": "#6A4818",
+  "score": 9.2,
+  "jobs": [
+   "f57e9821 (51a, kept)",
+   "8bdcc852 (51b)"
+  ],
+  "notes": "51a: open elongated paperclip links, the heavy spring-gate ring with its push-pin nub and a short pavé bar of about 8 stones lying across it, as in the listing. Ring about half a paper clip and each link about a third, true for 15 mm, 11 mm and 33 mm clips. Clips on the paper at the upper right, calm plaster top left. 51b was as faithful but piled the clips in the calm corner.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 400,
+  "stack": true
+ },
+ {
+  "n": "52",
+  "key": "baguette-tennis-necklace-crystal",
+  "plate": "plates/colour/52-baguette-tennis-necklace-crystal.jpg",
+  "raw": "52a",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Crystal",
+  "ingredient": "a fresh mogra gajra, white jasmine buds strung tight on cotton thread",
+  "ground": "pale sage-green lime plaster",
+  "rhyme": "a string of white jasmine buds = a string of clear baguettes, one inside the other; the gajra is gone by evening, the necklace is not",
+  "line": "A gajra that never wilts.",
+  "ink": "#33472F",
+  "score": 9.3,
+  "jobs": [
+   "a30e5c2e (52a, kept)",
+   "154bc830 (52b)"
+  ],
+  "notes": "52a: crosswise clear baguettes in gold box settings with corner claws and side windows, the box clasp with its fold-over tongue at the front, as in the crystal listing; the clasp carries a tiny illegible stamp. The necklace line is about half a bud long, true for 6 mm and 14 mm. The gajra looks fresh: plump buds with green calyxes, a few open flowers, no browning. 52b was as faithful but cropped tighter, with the buds drawn large.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 400,
+  "stack": true,
+  "feed_top": 170
  }
 ]
