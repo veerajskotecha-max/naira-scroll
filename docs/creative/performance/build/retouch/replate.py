@@ -35,6 +35,12 @@ SOLID = "solid" in a
 SEEDDIFF = "seeddiff" in a
 #   optional: cluster r = seeds within 2r px of each other count as one piece (default 40), for a piece whose pale parts leave gaps
 CLUSTER = int(a[a.index("cluster") + 1]) if "cluster" in a else 40
+#   optional: smoothshadow = never the piece where the frame is smooth and darker than the plate and holds no seed: a shadow,
+#   which faceted stones never are; zpad r = how far the replaced zone reaches past the piece (default 14 px)
+SMOOTHSH = float(a[a.index("smoothshadow") + 1]) if "smoothshadow" in a and a.index("smoothshadow") + 1 < len(a) and a[a.index("smoothshadow") + 1].replace(".", "").isdigit() else (9.0 if "smoothshadow" in a else 0)
+#   optional: nolit = never treat bright, smooth, pale parts as light through the stones: a clear stone's lit facet stays the piece
+NOLIT = "nolit" in a
+ZPAD = int(a[a.index("zpad") + 1]) if "zpad" in a else 14
 #   optional: zone x1 y1 x2 y2 ... ; = a polygon (raw px) also replaced by the plate, e.g. the far tail of a long old shadow
 XZONE = None
 if "zone" in a:
@@ -63,7 +69,9 @@ def comps(m, keep):
     n, lab, st, _ = cv2.connectedComponentsWithStats(m.astype(np.uint8)); return np.isin(lab, [i for i in range(1, n) if keep(st[i])]).astype(np.uint8)
 # 0. the piece's seeds: its stones or metal by colour, the biggest cluster
 hsv = cv2.cvtColor(A.astype(np.uint8), cv2.COLOR_BGR2HSV)
-seed = ((hsv[..., 0] >= hlo) & (hsv[..., 0] <= hhi) & (hsv[..., 1] > 100) & (hsv[..., 2] > 25)).astype(np.uint8)
+SEEDS_ = int(a[a.index("seeds") + 1]) if "seeds" in a else 100          # optional: seeds s / seedv v = the seeds' least saturation and
+SEEDV_ = int(a[a.index("seedv") + 1]) if "seedv" in a else 25           # brightness, for a pale stone on a ground of its own hue
+seed = ((hsv[..., 0] >= hlo) & (hsv[..., 0] <= hhi) & (hsv[..., 1] > SEEDS_) & (hsv[..., 2] > SEEDV_)).astype(np.uint8)
 seed = cv2.morphologyEx(seed, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
 if SEEDBOX: sb = np.zeros_like(seed); sb[SEEDBOX[1]:SEEDBOX[3], SEEDBOX[0]:SEEDBOX[2]] = 1; seed = seed * sb
 if CUT is not None: cmask = np.zeros_like(seed); cv2.fillPoly(cmask, [CUT], 1); seed[cmask > 0] = 0
@@ -101,6 +109,7 @@ cream = lambda X: (X[..., 1] > 40) & (X[..., 2] > 170) & (X[..., 0] >= 10) & (X[
                                                                            # (nocream: off for gold, whose highlights are cream too)
 Vf = hsv[..., 2].astype(np.float32); sd = np.sqrt(np.maximum(blur(Vf * Vf, 2.0) - blur(Vf, 2.0) ** 2, 0))
 lit = (lum(A) > lum(Pt) + 15) & (sd < 22) & (seed == 0) & (hsv[..., 1] < 60)  # light through the piece onto the ground, never saturated metal or stone
+if NOLIT: lit = np.zeros_like(lit)
 piece_like = ((sd > 16) | (lum(A) < lum(Pt) - 25) | (seed > 0)) & ~lit      # busy as pave, darker (stones), or its own colour
 if BAND:
     inband = cv2.dilate(seed, disk(BAND)) > 0
@@ -120,6 +129,7 @@ elif RINGFIT:                                                              # a r
     G = ((blur(d, 1.2) > 28) & (band > 0) & ~cream(hsv)).astype(np.uint8) | seed
 else:
     G = ((blur(d, 1.2) > 60) & (RZ > 0) & ~cream(hsv) & piece_like & ~shadowlike).astype(np.uint8)
+if SMOOTHSH: G[(sd < SMOOTHSH) & (lum(A) < lum(Pt) - 5) & (seed == 0)] = 0
 G = cv2.morphologyEx(G, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)) | seed
 if GRABCUT:
     Au = np.clip(A, 0, 255).astype(np.uint8); db = blur(d, 1.2); Sv, Vv = hsv[..., 1].astype(int), hsv[..., 2].astype(int)
@@ -153,7 +163,7 @@ if FILL:                                                                   # cle
 if CUT is not None: G[cmask > 0] = 0
 
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
-Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
+Gd = cv2.dilate(G | hull, disk(ZPAD)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
 Z &= cv2.dilate(RZ, disk(40 + max(sx, sy))) if HAND else cv2.dilate(RZ, disk(40))   # the shadow may run past the outline
 # plus everything the old piece darkened or lit around it, wherever it lies (its shadow, its bounced light)

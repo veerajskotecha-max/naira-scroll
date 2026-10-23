@@ -733,5 +733,60 @@
    "left": 76,
    "bottom": 72
   }
+ },
+ {
+  "n": "29",
+  "key": "aqua-heart-drops-silver-day",
+  "plate": "plates/crazy3/29-aqua-heart-drops-silver-day.jpg",
+  "raw": "c29a_rc",
+  "product": "15",
+  "time": "day",
+  "title": "Aqua Heart Drops",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "handle": "aqua-heart-drops-silver",
+  "ingredient": "a fresh blue hydrangea head",
+  "ground": "pale sky-blue lime plaster",
+  "rhyme": "something blue: the hydrangea and the aqua hearts",
+  "line": "Something blue.",
+  "ink": "#3F4D5C",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "82f06c18 (c29a, kept; earrings set back at true size)",
+   "11140ba1 (clean plate of c29a for the retouch)"
+  ],
+  "notes": "c29a: two open C-shaped half hoops on straight silver posts, each set with one row of round clear stones in tall silver claws (the top one tucked by the post, the inner wall of small baguettes just showing), each with one pale icy aqua heart in fine claws hanging from its tip, cool rhodium silver tone, as in the listing; the pair lies clear of the flower. The model drew them about 1.8x true size (each nearly two florets long), so they were set back at 0.55 in post on a clean plate of the same frame (raw/c29a_r.png): now each about one floret long, true for 29 mm drops. The frame was then cropped in a little at full resolution (raw/c29a_rc.png). The hydrangea fills the upper right; calm pale blue plaster bottom left for the words."
+ },
+ {
+  "n": "30",
+  "key": "aqua-heart-drops-silver-night",
+  "plate": "plates/crazy3/30-aqua-heart-drops-silver-night.jpg",
+  "raw": "c30a_rc",
+  "product": "15",
+  "time": "night",
+  "title": "Aqua Heart Drops",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "handle": "aqua-heart-drops-silver",
+  "ingredient": "a small mirrored disco ball",
+  "ground": "deep teal lime plaster",
+  "rhyme": "the heart of the party: a mirror ball and the aqua hearts",
+  "line": "Heart of the party.",
+  "ink": "#EAF0EE",
+  "page_ink": "#1F4246",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.1,
+  "jobs": [
+   "5d7214f6 (c30a, kept; earrings set back at true size)",
+   "760b6171 (clean plate of c30a for the retouch)"
+  ],
+  "notes": "c30a: the same open C-hoops with their row of round clear stones in silver claws and one pale icy aqua heart each, as in the listing; the pair lies clear of the ball. The model drew them about 2x true size (each stone wider than the ball's 5 mm mirror tiles), so they were set back at 0.52 in post on a clean plate of the same frame (raw/c30a_r.png): now each earring about a third of the 8 cm ball, true for 29 mm drops. One star-shaped glint on a stone of the right earring was softened to a round point of light first (raw/c30a_g.png). The frame was then cropped in a little at full resolution (raw/c30a_rc.png). A mirrored disco ball in place of the planned silver mesh clutch, since the set already has four clutches. The ball fills the upper right; calm teal plaster bottom left for the words, in pale mint."
  }
 ]
