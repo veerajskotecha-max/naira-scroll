@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-14 shots kept, average score 9.11, 25 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+16 shots kept, average score 9.09, 29 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -86,4 +86,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 12 | Bold Nocturne Chain | one black satin pointed-toe stiletto | deep charcoal lime plaster | Out late. | 9.0 | 1 |
 | 13 | Bold Nocturne Bracelet | two plain linen-bound books with a dusty-rose ribbon marker | pale warm sand lime plaster | Well read. | 9.1 | 2 |
 | 14 | Bold Nocturne Bracelet | a pre-tied black silk bow tie | deep near-black charcoal lime plaster | Black tie. | 9.0 | 2 |
+| 15 | Halo Curve Ring | a tortoiseshell acetate claw hair clip | soft latte lime plaster | Hair up, ring on. | 8.9 | 2 |
+| 16 | Halo Curve Ring | a small amber glass votive with a lit tealight | deep chocolate lime plaster | Golden hour, extended. | 9.1 | 2 |
 <!-- /log -->

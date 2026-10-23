@@ -364,5 +364,56 @@
    "52b28a43 (clean plate of c14a for the retouch)"
   ],
   "notes": "c14a: the same chunky links, the one pavé link, the lobster clasp and the extender with its tag, as in the listing; the bracelet lies clear of the bow tie. The model drew it about 1.25x true size against the 12 cm bow tie, so it was set back at 0.8 in post on a clean plate of the same frame (raw/c14a_r.png). The bow tie fills the upper right; calm charcoal plaster bottom left for the words, in cream."
+ },
+ {
+  "n": "15",
+  "key": "halo-curve-ring-day",
+  "plate": "plates/crazy3/15-halo-curve-ring-day.jpg",
+  "raw": "c15a_r",
+  "product": "8",
+  "time": "day",
+  "title": "Halo Curve Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "halo-curve-ring",
+  "ingredient": "a tortoiseshell acetate claw hair clip",
+  "ground": "soft latte lime plaster",
+  "rhyme": "the tortoiseshell clip that holds your hair up, and the tiger's eye that echoes it",
+  "line": "Hair up, ring on.",
+  "ink": "#5A4030",
+  "score": 8.9,
+  "jobs": [
+   "dc08848f (c15a, kept; ring set back at true size)",
+   "eb56d96f (clean plate of c15a for the retouch)"
+  ],
+  "notes": "c15a: an open bypass ring of fine gold wire ending in one banded tiger's eye cabochon and one faceted champagne crystal, each in its own slightly irregular bezel, as in the listing; the ring stands clear of the clip. The model drew it about 1.7x true size (stones 19 mm against the 9 cm clip), so it was set back at 0.6 in post on a clean plate of the same frame, scaled from where it stands, its own shadow carried (raw/c15a_r.png). The clip fills the upper right; calm latte plaster top left for the words."
+ },
+ {
+  "n": "16",
+  "key": "halo-curve-ring-night",
+  "plate": "plates/crazy3/16-halo-curve-ring-night.jpg",
+  "raw": "c16a_r",
+  "product": "8",
+  "time": "night",
+  "title": "Halo Curve Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "halo-curve-ring",
+  "ingredient": "a small amber glass votive with a lit tealight",
+  "ground": "deep chocolate lime plaster",
+  "rhyme": "the amber glow of golden hour, kept going into the evening",
+  "line": "Golden hour, extended.",
+  "ink": "#F2E4D0",
+  "page_ink": "#4A2E24",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.1,
+  "jobs": [
+   "bcdb6a94 (c16a, kept; ring set back at true size)",
+   "79b7976b (clean plate of c16a for the retouch)"
+  ],
+  "notes": "c16a: the same bypass ring, tiger's eye and champagne crystal in their bezels, as in the listing, warm in the votive's light; the ring stands clear of the votive. The model drew it about 1.7x true size against the 6 cm votive, so it was set back at 0.6 in post on a clean plate of the same frame, scaled from where it stands, its own long shadow carried (raw/c16a_r.png). One small flame inside the glass. The votive fills the upper right; calm chocolate plaster bottom left for the words, in cream."
  }
 ]

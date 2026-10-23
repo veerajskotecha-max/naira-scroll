@@ -16,7 +16,10 @@ HAND = [float(v) for v in a[a.index("hand") + 1:a.index("hand") + 11]] if "hand"
 NOSHADOW = "noshadow" in a
 #   optional: close r = also close the piece's mask by r px, for polished links whose inner walls mirror a dark ground
 CLOSE = int(a[a.index("close") + 1]) if "close" in a else 0
-NOCREAM = "nocream" in a                                                 # with hand: keep evenly darkened ground out of the piece
+NOCREAM = "nocream" in a
+NOTOUCH = "notouch" in a
+#   optional: anchor ax ay = scale about this point (raw px), e.g. where a standing ring touches the ground, so it stays grounded
+ANCHOR = tuple(map(float, a[a.index("anchor") + 1:a.index("anchor") + 3])) if "anchor" in a else None                                                 # with hand: keep evenly darkened ground out of the piece
 D = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/colour"
 A = cv2.imread(f"{D}/raw/{src}.png").astype(np.float32); P = cv2.imread(f"{D}/raw/{pl}.png").astype(np.float32)
 if P.shape != A.shape: P = cv2.resize(P, (A.shape[1], A.shape[0]), interpolation=cv2.INTER_CUBIC)
@@ -85,12 +88,13 @@ if CLOSE: G = cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(CLOSE))           # dark
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
-Z &= cv2.dilate(RZ, disk(40))
+Z &= cv2.dilate(RZ, disk(40 + max(sx, sy))) if HAND else cv2.dilate(RZ, disk(40))   # the shadow may run past the outline
 # plus everything the old piece darkened or lit around it, wherever it lies (its shadow, its bounced light)
 touched = ((blur(dl, 4) < 0.975) | (blur(dl, 4) > 1.03)).astype(np.uint8)
 n3, lab3, st3, _ = cv2.connectedComponentsWithStats(touched)
 near = cv2.dilate(Gd, disk(10)) > 0
-Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(Z, disk(90))
+if not NOTOUCH:                                                            # (notouch: when a prop sits close, rely on the shadow reach alone)
+    Z |= cv2.dilate(np.isin(lab3, [i for i in range(1, n3) if (near & (lab3 == i)).any()]).astype(np.uint8), disk(16)) & cv2.dilate(Z, disk(90))
 Zf = blur(cv2.dilate(Z, disk(10)), 8)[..., None]
 k = np.clip((0.975 - blur(dl, 2.0)) / 0.05, 0, 1)                         # real shadow only, not noise between the two renders
 same = cream(hsv) == cream(hsvP)                                           # shadow only where both show the same surface
@@ -108,6 +112,7 @@ base = A * (1 - Zf) + Pm * Zf                                              # the
 ys, xs = np.nonzero(G); cx, cy = xs.mean(), ys.mean()
 if ncx < 0: ncx, ncy = cx, cy                                             # a negative centre keeps the piece where it is
 M = np.float32([[s, 0, ncx - s * cx], [0, s, ncy - s * cy]])
+if ANCHOR: M = np.float32([[s, 0, ANCHOR[0] * (1 - s)], [0, s, ANCHOR[1] * (1 - s)]])   # or scale about the point it stands on
 pre = lambda m: blur(m, 0.45 / s) if s < 0.8 else m
 warp = lambda m, b: cv2.warpAffine(m, M, (w, h), flags=cv2.INTER_LINEAR, borderValue=b)
 Gs = warp(pre(Gf[..., 0]), 0)[..., None]; As = warp(pre(A), 0)
