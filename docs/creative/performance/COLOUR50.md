@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-61 shots kept, average score 9.08, 160 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+62 shots kept, average score 9.08, 162 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -166,6 +166,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 59 | Bold Nocturne Chain | a handmade school paper chain, loops of gold foil paper glued link through link | soft butter-yellow lime plaster | Art class, all grown up. | 9.2 | 2 |
 | 60 | Bold Nocturne Bracelet | a small lit terracotta diya with ghee and a cotton wick | warm terracotta-blush lime plaster | The Diwali glow-up. | 9.3 | 2 |
 | 61 | Halo Curve Ring | three glass marbles (kanche), two amber cat's-eyes and one champagne swirl | pale warm honey-sand lime plaster | Never lose your marbles. | 9.2 | 2 |
+| 62 | Kiss Knot Bangle (Gold) | a small cream envelope of handmade paper, sealed with gold wax pressed with a heart | soft pale blush lime plaster | Sealed with a kiss. | 9.3 | 2 |
 <!-- /log -->
 
 ## Review and upload
