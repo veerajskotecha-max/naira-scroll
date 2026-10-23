@@ -1,5 +1,26 @@
 [
  {
+  "n": "01",
+  "key": "toggle-link-chain",
+  "plate": "plates/colour/01-toggle-link-chain.jpg",
+  "raw": "r01a",
+  "title": "Toggle Link Chain",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "the collar of a folded white cotton shirt",
+  "ground": "pale cool blue-grey lime plaster",
+  "rhyme": "a paperclip chain under a crisp white collar: from the desk to dinner",
+  "line": "Desk to dinner.",
+  "ink": "#33465A",
+  "score": 9.0,
+  "jobs": [
+   "e0960ce7 (r01a, kept)"
+  ],
+  "notes": "r01a: open elongated paperclip links, the spring-gate sailor ring and the short stone-set bar, as in the listing; true scale beside the shirt buttons. One small glint by the clasp. Calm blue-grey plaster top left for the words. A second option for this chain: shot 51 (paper clips) is already approved.",
+  "round": 3,
+  "replaces": "fresh yellow genda marigolds on a cotton thread, loose petals"
+ },
+ {
   "n": "02",
   "key": "baguette-tennis-necklace",
   "plate": "plates/colour/02-baguette-tennis-necklace.jpg",
@@ -119,6 +140,27 @@
    "top": 84
   },
   "stack": true
+ },
+ {
+  "n": "09",
+  "key": "bold-nocturne-chain",
+  "plate": "plates/colour/09-bold-nocturne-chain.jpg",
+  "raw": "r09a",
+  "title": "Bold Nocturne Chain",
+  "price": "₹1,799",
+  "variant": null,
+  "ingredient": "the lapel of a folded black wool blazer",
+  "ground": "pale stone-grey lime plaster",
+  "rhyme": "bold gold links on a black lapel: the chain that suits a suit",
+  "line": "Suits you.",
+  "ink": "#2E2B2A",
+  "score": 9.0,
+  "jobs": [
+   "3ac9f73a (r09a, kept)"
+  ],
+  "notes": "r09a: chunky polished elongated oval links threaded through each other with exactly one pave link, as in the listing; true scale against the 2 cm horn button. One small glint by the pave link. Calm plaster top left for the words. A second option for this chain: shot 59 (paper chain) is already approved.",
+  "round": 3,
+  "replaces": "broken chunks of golden Kolhapuri jaggery (gur) with crumbs"
  },
  {
   "n": "11",

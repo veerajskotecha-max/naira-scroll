@@ -101,15 +101,17 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-64 shots kept, average score 9.10, 119 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+66 shots kept, average score 9.10, 121 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
+| 01 | Toggle Link Chain | the collar of a folded white cotton shirt | pale cool blue-grey lime plaster | Desk to dinner. | 9.0 | 1 |
 | 02 | Baguette Tennis Necklace (Crystal) | an ivory raw-silk potli with a gold zari border and gold tassels, the necklace spilling from its mouth | pale blush-pink lime plaster | Packed for the shaadi. | 9.3 | 1 |
 | 03 | Prism Rivière Bracelet | sugared almonds in aqua, pink and butter yellow, in an old silver katori | ivory lime plaster | Pick all three. | 9.2 | 2 |
 | 04 | Woven Gold Hoops | the woven gold zari paisley border of an ivory Banarasi silk saree | the ivory Banarasi silk itself | Banarasi, for your ears. | 9.4 | 1 |
 | 05 | Verdant Eternity Band | an open emerald-green velvet ring box with an ivory satin lid | pale soft mint lime plaster | Green means yes. | 9.1 | 1 |
 | 07 | Baguette Tennis Bracelet (Crystal) | a blank ivory wedding invitation with a gold-foil border, an embossed gold paisley and a sprig of baby's breath | pale dove-grey lime plaster | RSVP: yes. | 9.4 | 1 |
+| 09 | Bold Nocturne Chain | the lapel of a folded black wool blazer | pale stone-grey lime plaster | Suits you. | 9.0 | 1 |
 | 11 | Halo Curve Ring | two rose heads side by side, one caramel and one champagne | pale warm latte lime plaster | Tum aur main. | 9.5 | 1 |
 | 12 | Kiss Knot Bangle (Gold) | a plain ivory card with one red lipstick kiss | pale blush lime plaster | XOXO. | 9.3 | 1 |
 | 13 | Silk Mesh Cuff (Gold) | two lacy discs of pheni (hair-fine fried vermicelli nests), a broken piece, loose threads | ivory lime plaster | Finer than pheni. | 9.2 | 2 |
