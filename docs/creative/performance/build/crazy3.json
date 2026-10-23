@@ -48,5 +48,51 @@
    "2e239ef8 (c02b, kept)"
   ],
   "notes": "c02b: open paperclip links, the sailor ring with its gate and nub, and the short stone bar lying across it like a toggle, as in the listing; one small glint by the gate. c02a hung the bar as a long pendant drop. The stem fills the top left, so the words sit at the bottom left in cream."
+ },
+ {
+  "n": "03",
+  "key": "prism-riviere-bracelet-day",
+  "plate": "plates/crazy3/03-prism-riviere-bracelet-day.jpg",
+  "raw": "c03a_fix",
+  "product": "2",
+  "time": "day",
+  "title": "Prism Rivière Bracelet",
+  "price": "₹2,399",
+  "variant": null,
+  "handle": "prism-riviere-bracelet",
+  "ingredient": "three blank deckle-edged notecards in aqua, blush and butter",
+  "ground": "pale cloud-grey lime plaster",
+  "rhyme": "three blank notecards in the bracelet's own three colours: a note to self to wear all three",
+  "line": "Note to self: all three.",
+  "ink": "#3E4A57",
+  "score": 9.1,
+  "jobs": [
+   "5e2cfd88 (c03a, kept; one stone recoloured)"
+  ],
+  "notes": "c03a: square cushion stones in aqua, pink and yellow, each in its own pavé halo, joined halo to halo in rhodium silver tone, as in the listing; the bracelet lies closed in a loop. The bottom of the loop had two yellow stones side by side, so the first was recoloured to aqua in post (raw/c03a_fix.png): no two neighbours now match, though the order is not a strict aqua, pink, yellow repeat. The cards sit top right; calm grey plaster top left for the words.",
+  "stack": true
+ },
+ {
+  "n": "04",
+  "key": "prism-riviere-bracelet-night",
+  "plate": "plates/crazy3/04-prism-riviere-bracelet-night.jpg",
+  "raw": "c04a_fix",
+  "product": "2",
+  "time": "night",
+  "title": "Prism Rivière Bracelet",
+  "price": "₹2,399",
+  "variant": null,
+  "handle": "prism-riviere-bracelet",
+  "ingredient": "a mother-of-pearl box clutch",
+  "ground": "deep midnight-navy lime plaster",
+  "rhyme": "the pastel stones and the pearl clutch share the same soft colours, after dark",
+  "line": "Colour after dark.",
+  "ink": "#EDEAE4",
+  "page_ink": "#22344D",
+  "score": 9.3,
+  "jobs": [
+   "4d808e9c (c04a, kept; one star glint removed)"
+  ],
+  "notes": "c04a: 16 square cushion stones in aqua, pink and yellow, each in its pavé halo, joined halo to halo with the fold-over box clasp at the end, as in the listing; no two neighbours match. One small star glint on the last yellow stone was removed in post (raw/c04a_fix.png). The clutch sits top right; navy plaster top left for the words, in pearl."
  }
 ]

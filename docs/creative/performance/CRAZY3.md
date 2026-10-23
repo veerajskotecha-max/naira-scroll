@@ -57,10 +57,12 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-2 shots kept, average score 9.25, 3 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+4 shots kept, average score 9.23, 5 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
 | 01 | Toggle Link Chain | classic tortoiseshell sunglasses, folded | pale warm sand lime plaster | Out by noon. | 9.2 | 1 |
 | 02 | Toggle Link Chain | one long-stem deep red rose | deep charcoal-black lime plaster | Date night. | 9.3 | 2 |
+| 03 | Prism Rivière Bracelet | three blank deckle-edged notecards in aqua, blush and butter | pale cloud-grey lime plaster | Note to self: all three. | 9.1 | 1 |
+| 04 | Prism Rivière Bracelet | a mother-of-pearl box clutch | deep midnight-navy lime plaster | Colour after dark. | 9.3 | 1 |
 <!-- /log -->
