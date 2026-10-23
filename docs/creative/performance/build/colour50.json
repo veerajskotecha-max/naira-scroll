@@ -1110,5 +1110,32 @@
    "2c2315a9 (47b, kept)"
   ],
   "notes": "47b: twisted silver rope cable, each end a gold barrel of three rings around two pavé rows, a faceted garnet in a gold bezel at each tip, the two garnets facing each other, as in the listing macro. Cuff about 4.8 beans across (true about 4.3); garnet about half a bean. 47a equally faithful, bean at the other tip and a busier top."
+ },
+ {
+  "n": "48",
+  "key": "charm-box-chain",
+  "plate": "plates/colour/48-charm-box-chain.jpg",
+  "raw": "48d",
+  "title": "Charm Box Chain",
+  "price": "₹1,399",
+  "variant": null,
+  "ingredient": "two motichoor laddoos, one whole and one broken open, with a few loose boondi",
+  "ground": "pale warm apricot-cream lime plaster",
+  "rhyme": "the pavé barrel, packed with tiny points of light = motichoor, packed with tiny golden boondi (the name means crushed pearls); the broken laddoo is the idiom man mein laddoo phoota, a heart bursting with joy",
+  "line": "Man mein laddoo phoota.",
+  "ink": "#6E4514",
+  "score": 9.0,
+  "jobs": [
+   "09512e4d (48a)",
+   "b28a714d (48b)",
+   "3ea973c2 (48c)",
+   "a0caa9f3 (48d, kept)"
+  ],
+  "notes": "48a/48b/48c each put a four-point star glint on the barrel; reshot forbidding star or cross sparkles. 48d: fine square box chain threaded through a barrel of three pavé bands between gold rims, as in the listing macro, no starburst. Barrel about five loose boondi long, true for 2mm motichoor boondi; the laddoos read small (about 3cm).",
+  "pos": {
+   "left": 76,
+   "bottom": 80
+  },
+  "w": 420
  }
 ]
