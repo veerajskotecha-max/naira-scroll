@@ -720,5 +720,32 @@
    "top": 56
   },
   "hs": 58
+ },
+ {
+  "n": "32",
+  "key": "petite-square-huggies",
+  "plate": "plates/colour/32-petite-square-huggies.jpg",
+  "raw": "32a",
+  "title": "Petite Square Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie",
+  "ground": "pale butter-yellow lime plaster",
+  "rhyme": "the squared huggie = the square of a soan papdi cube, golden flake against polished gold; soan papdi is the Diwali box everybody passes on",
+  "line": "Too good to re-gift.",
+  "ink": "#5E4519",
+  "score": 9.1,
+  "feed_top": 150,
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "w": 330,
+  "stack": true,
+  "jobs": [
+   "c0bdcee9 (32a, kept)",
+   "de879368 (32b)"
+  ],
+  "notes": "32a: squared hoops with rounded corners in a smooth thick polished tube, hinge wire and seam as in the listing macro, four tiny pearls on the standing hoop (two each side). Huggie about 0.5 of a cube side against 0.42 true, the earrings sit nearer the lens. A pistachio fleck crept onto one cube in both frames. 32b drew one cube as dense fudge and the hoops about 1.4x. The cubes take the top left of the Feed, so the block sits bottom left under the standing hoop."
  }
 ]
