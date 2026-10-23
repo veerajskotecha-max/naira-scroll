@@ -30,8 +30,9 @@ h1{font-family:var(--display); font-style:italic; font-weight:500; font-size:cla
 .stats li{display:grid}
 .stats b{font-family:var(--display); font-size:30px; font-weight:500; line-height:1.1}
 .stats span{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted)}
-.inks{display:grid; grid-template-columns:repeat(50, minmax(0,1fr)); height:44px; margin-top:22px; border-radius:2px; overflow:hidden; outline:1px solid var(--line)}
+.inks{display:grid; grid-template-columns:repeat({{N}}, minmax(0,1fr)); height:44px; margin-top:22px; border-radius:2px; overflow:hidden; outline:1px solid var(--line)}
 .inks a{display:block; background:var(--ink)}
+.inks a.ret{opacity:.28}
 .inks a:hover,.inks a:focus-visible{transform:scaleY(1.18); outline:2px solid var(--fg); outline-offset:-2px; z-index:1}
 .inks-cap{display:flex; justify-content:space-between; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-top:6px}
 .how{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:14px 32px; margin:26px 0 6px; padding:18px 0; border-block:1px solid var(--line); font-size:13.5px; color:var(--muted)}
@@ -77,6 +78,15 @@ details p{margin:4px 0 0}
 textarea{font:inherit; font-size:13.5px; color:var(--fg); background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:8px 10px; width:100%; min-height:42px; resize:vertical}
 textarea:disabled{opacity:.6}
 .copy{justify-self:start}
+.sec{grid-column:1/-1; display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; margin:18px 0 -14px; padding-bottom:10px; border-bottom:1px solid var(--line)}
+.sec:first-child{margin-top:0}
+.sec h2{margin:0; font-family:var(--display); font-style:italic; font-weight:500; font-size:30px; line-height:1.1}
+.sec p{margin:0; font-size:13px; color:var(--muted)}
+.new{color:var(--keep); font-weight:500}
+.flag{margin:2px 0 0; padding:6px 0 6px 12px; border-left:3px solid var(--reshoot); font-size:13.5px}
+.flag.retire{border-left-color:var(--drop)}
+.flag b{font-weight:500; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; margin-right:6px}
+.card.retired .media{opacity:.62}
 .empty{grid-column:1/-1; color:var(--muted); padding:40px 0; text-align:center}
 dialog{border:0; padding:0; background:transparent; max-width:min(96vw, 1100px); max-height:96vh; color:var(--fg)}
 dialog::backdrop{background:rgba(10,9,8,.86)}
@@ -93,24 +103,27 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font
 <div class="wrap">
 <header>
   <div class="wm" role="img" aria-label="Naira"></div>
-  <h1>Colour-Coded 50</h1>
-  <p class="lede">One ad for each of the <b>50 in-stock products</b>, shot one by one in the fruit-plate style that ran best: the piece and one Indian ingredient in a single colour, real light, no graphics. The <b>Story</b> is the photograph alone. The <b>Feed</b> crops it to 4:5 and adds the wordmark, one line and the name and price, all in the shot's own ink.</p>
+  <h1>Colour-Coded 50 · round two</h1>
+  <p class="lede"><b>20 new ads</b> for the same high-stock products, shot one by one and kept cute and colour-coded with <b>no food at all</b>: paper boats, a gajra, glass bangles, marbles, a kite, ghungroo, fairy lights. Below them are the first 50 with my review: <b>8 food shots retired</b> (broken sweets, crumbs, sticky or flaky food) and <b>5 to watch</b>. The <b>Story</b> is the photograph alone. The <b>Feed</b> crops it to 4:5 and adds the wordmark, one line and the name and price, all in the shot's own ink.</p>
   <ul class="stats">
-    <li><b>50</b><span>products</span></li>
-    <li><b>100</b><span>ads · Feed + Story</span></li>
-    <li><b>{{AVG}}</b><span>average score</span></li>
-    <li><b>{{FRAMES}}</b><span>frames rendered</span></li>
+    <li><b>{{NEW}}</b><span>new ads</span></li>
+    <li><b>{{KEPT}}</b><span>kept from the 50</span></li>
+    <li><b>{{RET}}</b><span>retired</span></li>
+    <li><b>{{AVG}}</b><span>average · new 20</span></li>
+    <li><b>{{FRAMES}}</b><span>frames · round two</span></li>
   </ul>
   <nav class="inks" aria-label="Jump to an ad by its ink colour">{{INKS}}</nav>
-  <div class="inks-cap"><span>01 · highest stock</span><span>each bar is one ad's ink</span><span>50</span></div>
+  <div class="inks-cap"><span>51–70 · new</span><span>each bar is one ad's ink · faded = retired</span><span>01–50</span></div>
   <section class="how" aria-label="How to use this page">
     <div><h2>Review</h2><p>Mark each ad Keep, Reshoot or Drop and add a note. Verdicts save to this page, so they come straight back to me for the next round.</p></div>
-    <div><h2>Upload</h2><p>Copy the upload text on any card: the line, the product truth, the BUY2 and BUY3 offer, the headline and the link to the exact colour. All 100 rows are also in <code>colour_meta.csv</code>.</p></div>
-    <div><h2>Held back</h2><p>Pearl Circlet Studs stay on hold until the listing and the photos agree on gold or silver, so slot 50 is the Emerald colourway of the Baguette Tennis Necklace.</p></div>
+    <div><h2>Upload</h2><p>Copy the upload text on any card: the line, the product truth, the BUY2 and BUY3 offer, the headline and the link to the exact colour. All 140 rows are in <code>colour_meta.csv</code>: the new 20 are wave 2, the retired 8 are marked <code>retire</code> and belong to no wave.</p></div>
+    <div><h2>The food rule</h2><p>No elaichi, spices or powders, no crumbs, bites or broken sweets, and jewellery never sits in food. The new 20 use none. The 5 marked Watch are clean food shots: run them, and swap them first if they lag.</p></div>
+    <div><h2>Held back</h2><p>Pearl Circlet Studs stay on hold until the listing and the photos agree on gold or silver. Petite Square Huggies and Charm Box Chain lose their only colour ad with the retirements.</p></div>
   </section>
 </header>
 
 <div class="bar" role="toolbar" aria-label="Filter the ads">
+  <div class="seg" id="set" role="group" aria-label="Set"></div>
   <div class="seg" id="cat" role="group" aria-label="Category"></div>
   <div class="seg" id="ver" role="group" aria-label="Verdict"></div>
   <p class="tally" id="tally" aria-live="polite"></p>
@@ -136,10 +149,13 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font
 
 <script>
 const ADS = /*DATA*/null;
+const SETS = [["all","All 70"],["new","New 20"],["kept","First 50 · kept"],["watch","Watch"],["retired","Retired"]];
+const SECS = {new: ["New 20", "Cute props, colour-coded, no food."], kept: ["First 50 · kept", "The fruit-plate set that stays, marked Watch where the food could look messy."],
+              retired: ["Retired", "Broken sweets, crumbs, sticky or flaky food: my review, after your note on elaichi and food."]};
 const CATS = ["All", "Bracelets", "Earrings", "Necklaces & rings"];
 const VERS = [["all","All"],["open","To review"],["keep","Keep"],["reshoot","Reshoot"],["drop","Drop"]];
 const state = {};            // n -> {verdict, note}
-let db = null, canWrite = false, cat = "All", ver = "all";
+let db = null, canWrite = false, set = "all", cat = "All", ver = "all";
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
@@ -149,15 +165,16 @@ function seg(el, items, cur, onPick){
 }
 function card(a){
   const stock = a.stock <= 10 ? `<span class="low">${a.stock} in stock</span>` : `${a.stock} in stock`;
-  return `<article class="card" id="a${a.n}" style="--ink:${a.ink}" data-n="${a.n}">
+  return `<article class="card${a.group === "retired" ? " retired" : ""}" id="a${a.n}" style="--ink:${a.ink}" data-n="${a.n}">
     <div class="media">
       <div><button type="button" class="feed" data-open="${a.n}:f" aria-label="Open Feed ad ${a.n}"><img src="t/${a.n}-f.jpg" width="480" height="600" loading="lazy" alt="Feed ad ${a.n}: ${esc(a.title)} with ${esc(a.short)}, line: ${esc(a.line)}"></button><div class="cap"><span>Feed 4:5</span></div></div>
       <div><button type="button" class="story" data-open="${a.n}:s" aria-label="Open Story ad ${a.n}"><img src="t/${a.n}-s.jpg" width="270" height="480" loading="lazy" alt="Story ad ${a.n}: ${esc(a.title)} with ${esc(a.short)}, no text"></button><div class="cap"><span>Story 9:16</span></div></div>
     </div>
     <div class="meta">
-      <div class="top"><span class="dot" aria-hidden="true"></span><span>${a.n}</span><span>${esc(a.cat)}</span><span class="sc">${a.score.toFixed(1)} / 10</span></div>
+      <div class="top"><span class="dot" aria-hidden="true"></span><span>${a.n}</span>${a.group === "new" ? `<span class="new">New</span>` : ""}<span>${esc(a.cat)}</span><span class="sc">${a.score.toFixed(1)} / 10</span></div>
       <h3>${esc(a.title)}${a.variant ? ` <span class="v">· ${esc(a.variant)}</span>` : ""}</h3>
       <p class="price">${esc(a.price)} · ${stock}</p>
+      ${a.flag ? `<p class="flag ${a.flag.kind}"><b>${a.flag.kind === "retire" ? "Retired by me" : "Watch"}</b>${esc(a.flag.reason)}</p>` : ""}
       <p class="line">${esc(a.line)}</p>
       <dl><dt>With</dt><dd>${esc(a.ingredient)}</dd><dt>Why</dt><dd>${esc(a.rhyme)}</dd></dl>
       <details><summary>Shoot notes · ${a.tries} frame${a.tries > 1 ? "s" : ""}</summary><p>${esc(a.notes)}</p></details>
@@ -175,12 +192,17 @@ function card(a){
 }
 function vOf(n){ return (state[n] && state[n].verdict) || null; }
 function render(){
+  seg($("#set"), SETS, set, k => { set = k; render(); });
   seg($("#cat"), CATS.map(c => [c, c]), cat, k => { cat = k; render(); });
   seg($("#ver"), VERS, ver, k => { ver = k; render(); });
-  const shown = ADS.filter(a => (cat === "All" || a.cat === cat) &&
-    (ver === "all" || (ver === "open" ? !vOf(a.n) : vOf(a.n) === ver)));
+  const shown = ADS.filter(a => (set === "all" || (set === "watch" ? a.flag && a.flag.kind === "watch" : a.group === set)) &&
+    (cat === "All" || a.cat === cat) && (ver === "all" || (ver === "open" ? !vOf(a.n) : vOf(a.n) === ver)));
   const grid = $("#grid");
-  grid.innerHTML = shown.length ? shown.map(card).join("") : `<p class="empty">No ads match these filters yet.</p>`;
+  let last = null;
+  grid.innerHTML = shown.length ? shown.map(a => {
+    const head = a.group !== last && SECS[a.group] ? `<div class="sec"><h2>${SECS[a.group][0]}</h2><p>${SECS[a.group][1]}</p></div>` : "";
+    last = a.group; return head + card(a);
+  }).join("") : `<p class="empty">No ads match these filters yet.</p>`;
   shown.forEach(a => paint(a.n));
   tally();
 }

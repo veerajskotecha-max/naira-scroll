@@ -1,6 +1,7 @@
-# Colour-coded 50: the Meta upload sheet, one row per ad (Feed and Story of each shot), in the columns of meta.csv.
+# Colour-coded 50 + round two (51-70): the Meta upload sheet, one row per ad (Feed and Story of each shot), in the columns of meta.csv.
 # The Story carries no words, so the line, the product truth and the offer live in the primary text; the URL opens the shot's
-# own variant. Handles, variant ids and stock were read from Shopify on 23 Oct 2026 (read-only).
+# own variant. Handles, variant ids and stock were read from Shopify on 23 Oct 2026 (read-only). Round two is wave 2; the
+# `reserve` column carries my review of the first 50 (retire = do not upload, watch = upload, swap first if it lags).
 # Usage: colour_meta.py -> colour_meta.csv
 import csv, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -33,6 +34,17 @@ SHOP = {
     "45": ("marquise-wheat-cuff", None, 20, "Bracelets"), "46": ("triple-coil-wrap-bangle", 50651931639970, 10, "Bracelets"),
     "47": ("garnet-cable-cuff", None, 20, "Bracelets"), "48": ("charm-box-chain", None, 20, "Necklaces & rings"),
     "49": ("serpentine-whisper-chain", None, 20, "Necklaces & rings"), "50": ("baguette-tennis-necklace", 50651962474658, 20, "Necklaces & rings"),
+    # round two: the same high-stock products, cute props and no food
+    "51": ("toggle-link-chain", None, 79, "Necklaces & rings"), "52": ("baguette-tennis-necklace", 50651962441890, 30, "Necklaces & rings"),
+    "53": ("prism-riviere-bracelet", None, 67, "Bracelets"), "54": ("woven-gold-hoops", None, 63, "Earrings"),
+    "55": ("cushion-halo-ring", None, 60, "Necklaces & rings"), "56": ("verdant-eternity-band", None, 60, "Necklaces & rings"),
+    "57": ("baguette-tennis-bracelet", 50651931738274, 29, "Bracelets"), "58": ("baguette-huggies", 50651968995490, 15, "Earrings"),
+    "59": ("bold-nocturne-chain", None, 54, "Necklaces & rings"), "60": ("bold-nocturne-bracelet", None, 50, "Bracelets"),
+    "61": ("halo-curve-ring", None, 45, "Necklaces & rings"), "62": ("kiss-knot-bangle", 50651938881698, 20, "Bracelets"),
+    "63": ("silk-mesh-cuff", 50651894579362, 20, "Bracelets"), "64": ("marquise-layering-set", None, 40, "Necklaces & rings"),
+    "65": ("brushed-gold-huggies", None, 35, "Earrings"), "66": ("ribbon-bead-bracelet", None, 35, "Bracelets"),
+    "67": ("riviere-eternal-bracelet", None, 34, "Bracelets"), "68": ("bold-dome-huggies", None, 30, "Earrings"),
+    "69": ("torsade-huggies", None, 29, "Earrings"), "70": ("molten-panel-bracelet", None, 30, "Bracelets"),
 }
 
 # the product truth, one sentence each: gold tone or silver tone, cubic zirconia, white shell pearl, as the listings say
@@ -87,6 +99,28 @@ TRUTH = {
     "48": "A 50 cm fine box chain in 18k gold tone with one barrel charm set all round in clear cubic zirconia.",
     "49": "A 2 mm snake chain with one 10 mm cushion-cut clear cubic zirconia in a four-prong basket, in 18k gold tone.",
     "50": "Emerald-green baguette cubic zirconia, edge to edge on a 36 cm choker line in 18k gold-tone claws.",
+    "63": "A 19 mm tube of fine woven mesh with mirror-polished end caps, in silver tone.",
+}
+# round two shoots the same product (and colourway) as an earlier slot, so it carries the same truth
+for new, old in {"51": "01", "52": "02", "53": "03", "54": "04", "55": "06", "56": "05", "57": "07", "58": "08", "59": "09", "60": "10",
+                 "61": "11", "62": "12", "64": "14", "65": "16", "66": "15", "67": "17", "68": "26", "69": "27", "70": "21"}.items():
+    TRUTH[new] = TRUTH[old]
+
+# my review of the first 50 after "elaichi and foods, be careful": retire the broken, crumbed or sticky food; watch the rest of the food
+REVIEW = {
+    "02": ("retire", "Sticky sugared petha under a necklace reads odd, not precious."),
+    "09": ("retire", "Broken gur chunks and crumbs look messy, not golden."),
+    "13": ("retire", "Pheni is a crumbly fried nest with loose threads around the cuff."),
+    "16": ("retire", "A broken rava laddoo and crumbs beside the huggies."),
+    "26": ("retire", "A cracked pani puri shell and crumbs."),
+    "27": ("retire", "Flaking khari straws and crumbs all round the earrings."),
+    "32": ("retire", "A broken soan papdi with loose threads touching a huggie."),
+    "48": ("retire", "A broken motichoor laddoo with loose boondi."),
+    "10": ("watch", "A cone of haldi powder: powder beside gold reads as a stain."),
+    "21": ("watch", "Loose chana dal works, but it is food again."),
+    "39": ("watch", "A heap of cloves, the closest thing here to elaichi."),
+    "41": ("watch", "Gur crumbs beside sugar, messier than the rest."),
+    "47": ("watch", "Dry rajma matches the garnet, but it is food again."),
 }
 
 def main():
@@ -100,10 +134,12 @@ def main():
                   f"utm_source=meta&utm_medium=paid&utm_campaign=perf_oct26_colour&utm_content={base}"
             head = " · ".join(x for x in (e["title"], e.get("variant"), e["price"]) if x)
             pt = f"{e['line']} {TRUTH[e['n']]} The {e['title']}, {e['price']}.\n\n{OFFER}"
+            flag = REVIEW.get(e["n"], ("", ""))[0]   # retired rows stay in the sheet for the record but join no wave
+            wave = "" if flag == "retire" else 2 if int(e["n"]) > 50 else 1
             for t in ("feed", "story"):
                 w.writerow(dict(ad=f"{base}-{t}", product=e["title"], format="colour", placement=t, variant=e.get("variant") or "",
-                                reserve="", primary_text=pt, headline=head, cta="SHOP_NOW", url=url,
-                                campaign="PERF · Colour 50 (least graphics) · Oct 2026", adset=adset, wave=1))
+                                reserve=flag, primary_text=pt, headline=head, cta="SHOP_NOW", url=url,
+                                campaign="PERF · Colour 50 (least graphics) · Oct 2026", adset=adset, wave=wave))
     print(2 * len(L), "rows")
 
 if __name__ == "__main__":

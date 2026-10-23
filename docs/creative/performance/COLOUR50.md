@@ -1,4 +1,4 @@
-# Naira colour-coded ads: 50 shots, one per product (23 Oct 2026)
+# Naira colour-coded ads: 50 shots, one per product, and round two's 20 (23 Oct 2026)
 
 The founder's direction: elegant, simple, colour-coded shots like the Edition Two jamun and pomegranate plates, with the
 least possible graphics, realistic rather than AI-looking, and creative. Every shot is thought through and made one at a
@@ -177,9 +177,46 @@ The shot log at the end records what was actually shot, kept and why.
 | 70 | Molten Panel Bracelet | a swatch of ivory net embroidered with rows of gold sequins (sitara), the edge of a lehenga dupatta | soft pale champagne lime plaster | All shimmer, no itch. | 9.1 | 2 |
 <!-- /log -->
 
+## Round two: review of the 50 and 20 new (shots 51-70)
+
+The founder's note on the 50: "Elaichi and foods be careful! Make it cute and use good concepts color coded, review these 50,
+i didnt like few, make new 20 now for same high stock goods."
+
+**The rule from here:** no elaichi, spices or powders; no crumbs, bites or broken sweets; jewellery never sits in food. Round two
+uses no food at all: cute, colour-coded props from Indian everyday life, each one rhyming with the piece in colour and shape.
+
+**Retired from the 50 (8):** the food that looks broken, crumbed, sticky or flaky beside the jewellery. They stay on the page,
+faded, and in the sheet as `retire` with no wave.
+
+| # | Product | Why it goes |
+|---|---|---|
+| 02 | Baguette Tennis Necklace (Crystal) | Sticky sugared petha under a necklace reads odd, not precious. Replaced by 52 (gajra). |
+| 09 | Bold Nocturne Chain | Broken gur chunks and crumbs look messy, not golden. Replaced by 59 (paper chain). |
+| 13 | Silk Mesh Cuff (Gold) | Pheni is a crumbly fried nest with loose threads. 63 shoots the Silver colourway. |
+| 16 | Brushed Gold Huggies | A broken rava laddoo and crumbs. Replaced by 65 (zari spool). |
+| 26 | Bold Dome Huggies | A cracked pani puri shell and crumbs. Replaced by 68 (ghungroo). |
+| 27 | Torsade Huggies | Flaking khari straws and crumbs all round the earrings. Replaced by 69 (skipping rope). |
+| 32 | Petite Square Huggies | A broken soan papdi with loose threads touching a huggie. No colour ad until a reshoot. |
+| 48 | Charm Box Chain | A broken motichoor laddoo with loose boondi. No colour ad until a reshoot. |
+
+**Watch (5):** clean food shots that stay in wave 1 but go first if they lag: 10 (a cone of haldi powder), 21 (loose chana
+dal), 39 (cloves, the closest thing here to elaichi), 41 (gur crumbs beside sugar), 47 (dry rajma).
+
+**The new 20 (wave 2):** the same high-stock products, one by one, 50 frames on Higgsfield (100 credits), average score
+9.19. Lines, props and grounds are in the shot log above; notes, kept jobs and rhymes in `build/colour50.json`.
+
+- Cute, Indian, no food: brass paper clips, a mogra gajra, paper boats, a silk paranda, a dandelion, a money plant, harmonium
+  keys, green glass bangles, a craft-class paper chain, a lit diya, glass marbles, a wax-sealed letter, a cotton-cloud moon,
+  a paper patang, a zari spool, a school ribbon, a Diwali ladi, ghungroo, a skipping rope, sequinned net.
+- Reshoots: 53 (paper boats) took three rounds for the strict aqua, pink, yellow order and exactly three boats; 57
+  (harmonium) one round for the true two-and-three black-key pattern; 64 (patang) two rounds, and the kept frame is the only
+  one of six with all five stones right.
+- Three ads sit on dark frames and carry cream words: 57 (teak harmonium), 63 (midnight blue) and 66 (school navy). On the
+  light review page their line uses a dark `page_ink` instead.
+
 ## Review and upload
 
-- Review page (private to the owner until shared): https://claude.ai/artifact/Dq3xatEwB5fykY9YCNJY1p. Each card has a Keep / Reshoot / Drop verdict and a note, saved in the page's database (collection `verdicts`, one document per shot number), so the next round starts from what was marked.
-- Upload sheet: `build/colour_meta.csv`, 100 rows (Feed and Story per shot) in the columns of `build/meta.csv`, campaign `PERF · Colour 50 (least graphics) · Oct 2026`, ad sets Bracelets / Earrings / Necklaces & rings. The Story carries no words, so the line, the product truth and the BUY2 / BUY3 offer live in the primary text; every link opens the shot's own colour. Handles, variant ids and stock were read from Shopify on 23 Oct 2026.
-- Builders: `build/colour_meta.py` (sheet), `build/colour_board.py` + `build/colour_board.html` (page).
+- Review page (private to the owner until shared): https://claude.ai/artifact/Dq3xatEwB5fykY9YCNJY1p. Version 2 opens on the new 20, then the 42 kept, then the 8 retired, with Set, Category and Verdict filters. Each card has a Keep / Reshoot / Drop verdict and a note, saved in the page's database (collection `verdicts`, one document per shot number), so the next round starts from what was marked.
+- Upload sheet: `build/colour_meta.csv`, 140 rows (Feed and Story per shot) in the columns of `build/meta.csv`, campaign `PERF · Colour 50 (least graphics) · Oct 2026`, ad sets Bracelets / Earrings / Necklaces & rings. Wave 1 is the kept 42 (the 5 on watch carry `watch` in `reserve`), wave 2 is the new 20, and the retired 8 carry `retire` and no wave. The Story carries no words, so the line, the product truth and the BUY2 / BUY3 offer live in the primary text; every link opens the shot's own colour. Handles, variant ids and stock were read from Shopify on 23 Oct 2026 (the Silver Silk Mesh Cuff re-checked: ₹1,499, 20 in stock).
+- Builders: `build/colour_meta.py` (sheet and review flags), `build/colour_board.py` + `build/colour_board.html` (page).
 - Low stock to watch: the Ruby Eternity Band has 7 units (sizes 6, 7, 8 at 3, 1, 3); the gold Droplet Cuff, gold Petal Studs, gold North Star, silver Droplet Ring and gold Triple Coil have 10 each.
