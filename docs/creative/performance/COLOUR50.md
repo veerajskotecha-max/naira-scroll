@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-46 shots kept, average score 9.05, 122 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+47 shots kept, average score 9.05, 124 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -151,4 +151,5 @@ The shot log at the end records what was actually shot, kept and why.
 | 44 | Droplet Open Ring (Silver) | a nimbu-mirchi: one kagzi lime and seven green chillies strung on a white cotton thread, the ring leaning on the lime | cool pale grey-white lime plaster | Nazar na lage. | 9.1 | 4 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
 | 46 | Triple Coil Wrap Bangle (Gold) | bhakarwadi, a heap of spiral rounds with crumbs and sesame, one leaning on the bangle | pale warm terracotta lime plaster | Rolled up in gold. | 9.1 | 2 |
+| 47 | Garnet Cable Cuff | dry rajma (red kidney beans), a loose heap with one bean against a garnet tip | soft pale grey handwoven khadi | Sunday best. | 9.1 | 2 |
 <!-- /log -->

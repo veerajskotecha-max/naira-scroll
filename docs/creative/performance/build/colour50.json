@@ -1090,5 +1090,25 @@
    "top": 360
   },
   "stack": true
+ },
+ {
+  "n": "47",
+  "key": "garnet-cable-cuff",
+  "plate": "plates/colour/47-garnet-cable-cuff.jpg",
+  "raw": "47b",
+  "title": "Garnet Cable Cuff",
+  "price": "₹1,399",
+  "variant": null,
+  "ingredient": "dry rajma (red kidney beans), a loose heap with one bean against a garnet tip",
+  "ground": "soft pale grey handwoven khadi",
+  "rhyme": "the deep garnet-red tips = glossy maroon rajma; rajma chawal is the North Indian Sunday lunch",
+  "line": "Sunday best.",
+  "ink": "#6B1E24",
+  "score": 9.1,
+  "jobs": [
+   "7e4ebd2f (47a)",
+   "2c2315a9 (47b, kept)"
+  ],
+  "notes": "47b: twisted silver rope cable, each end a gold barrel of three rings around two pavé rows, a faceted garnet in a gold bezel at each tip, the two garnets facing each other, as in the listing macro. Cuff about 4.8 beans across (true about 4.3); garnet about half a bean. 47a equally faithful, bean at the other tip and a busier top."
  }
 ]
