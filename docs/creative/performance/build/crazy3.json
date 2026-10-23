@@ -94,5 +94,60 @@
    "4d808e9c (c04a, kept; one star glint removed)"
   ],
   "notes": "c04a: 16 square cushion stones in aqua, pink and yellow, each in its pavé halo, joined halo to halo with the fold-over box clasp at the end, as in the listing; no two neighbours match. One small star glint on the last yellow stone was removed in post (raw/c04a_fix.png). The clutch sits top right; navy plaster top left for the words, in pearl."
+ },
+ {
+  "n": "05",
+  "key": "woven-gold-hoops-day",
+  "plate": "plates/crazy3/05-woven-gold-hoops-day.jpg",
+  "raw": "c05a_s",
+  "product": "3",
+  "time": "day",
+  "title": "Woven Gold Hoops",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "woven-gold-hoops",
+  "ingredient": "a folded ivory linen shirt, its open collar and mother-of-pearl buttons",
+  "ground": "pale warm oat lime plaster",
+  "rhyme": "a white shirt and gold hoops: the effortless classic, chosen on purpose",
+  "line": "Effortless, on purpose.",
+  "ink": "#5B4632",
+  "feed_top": 330,
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.2,
+  "jobs": [
+   "6a7566ac (c05a, kept; hoops scaled to true size)"
+  ],
+  "notes": "c05a: an interlaced braid of many fine gold strands, the flat polished disc inside the top and the hinged latch wire, both hoops round and identical, as in the listing. The model drew them about 1.5x true size (3.7 of the shirt's 11 mm buttons across), so they were scaled to 0.64 in post about their own centre, shadows and all, on rebuilt plaster (raw/c05a_s.png): now about 2.4 buttons, true for 25 mm. The shirt fills the upper right; calm oat plaster bottom left for the words. Planned as a knotted silk scarf; the shirt replaced it because a silk knot read as a necktie in round three and the buttons give the hoops a true size."
+ },
+ {
+  "n": "06",
+  "key": "woven-gold-hoops-night",
+  "plate": "plates/crazy3/06-woven-gold-hoops-night.jpg",
+  "raw": "c06a_s",
+  "product": "3",
+  "time": "night",
+  "title": "Woven Gold Hoops",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "woven-gold-hoops",
+  "ingredient": "a black silk folding fan, half open",
+  "ground": "deep oxblood lime plaster",
+  "rhyme": "an evening fan and the gold hoops that go with it: the entrance",
+  "line": "Make an entrance.",
+  "ink": "#F1E4CF",
+  "page_ink": "#6E2A24",
+  "feed_top": 330,
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "76d4521d (c06a, kept; hoops scaled to true size)"
+  ],
+  "notes": "c06a: the same braid, disc and latch, as in the listing; plain black silk leaf on black sticks, no tassel, no pattern. The model drew the hoops about 1.9x true size beside the fan (its sticks only 4.3 hoops long), so they were scaled to 0.55 in post, shadows and all, on rebuilt plaster (raw/c06a_s.png): now about an eighth of the fan's length, true for 25 mm hoops and a 21 cm fan. The fan fills the top; calm oxblood plaster bottom left for the words, in cream. Line changed from the draft Fan favourite., which claims a popularity we have not measured."
  }
 ]

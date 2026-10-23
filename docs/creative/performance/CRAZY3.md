@@ -23,7 +23,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 |---|---|---|---|---|
 | 01 · 02 | Toggle Link Chain | tortoiseshell sunglasses, folded · pale sand | one long-stem red rose · charcoal | Out by noon. / Date night. |
 | 03 · 04 | Prism Rivière Bracelet | three blank notecards in aqua, blush and butter · cloud grey | a mother-of-pearl box clutch · midnight navy | Note to self: all three. / Colour after dark. |
-| 05 · 06 | Woven Gold Hoops | a cream silk twill scarf, knotted · oat | a black silk fan, half open · oxblood | Effortless, on purpose. / Fan favourite. |
+| 05 · 06 | Woven Gold Hoops | a folded ivory linen shirt, its collar and mother-of-pearl buttons · oat | a black silk fan, half open · oxblood | Effortless, on purpose. / Make an entrance. |
 | 07 · 08 | Verdant Eternity Band | one white calla lily · pale sage | an emerald satin clutch · bottle green | Always in bloom. / Dinner in green. |
 | 09 · 10 | Cushion Halo Ring | a blank place card with a gold edge and baby's breath · dove grey | a silver candlestick, lit ivory taper · plum | Plus one. / Ask by candlelight. |
 | 11 · 12 | Bold Nocturne Chain | a structured cream top-handle bag · pale stone | black leather gloves · charcoal | Meeting at ten. / Out late. |
@@ -42,7 +42,9 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 | 37 · 38 | Baguette Halo Drops | one white gardenia · ivory | a lit brass diya · maroon | Pearl and petal. / Diwali, dressed up. |
 | 39 · 40 | Verdant Cushion Studs · Silver | a sprig of eucalyptus · pale mint | a green glass perfume bottle · forest green | Fresh green. / Emerald hour. |
 
-Lines are drafts and are settled shot by shot.
+Lines are drafts and are settled shot by shot. Changed so far: 05 has a linen shirt in place of the silk scarf (a silk knot read as a
+necktie in round three, and the shirt's buttons give the hoops a true size); 06's line is Make an entrance., since Fan favourite.
+claims a popularity we have not measured.
 
 ## Budget
 
@@ -57,7 +59,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-4 shots kept, average score 9.23, 5 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+6 shots kept, average score 9.18, 7 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -65,4 +67,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 02 | Toggle Link Chain | one long-stem deep red rose | deep charcoal-black lime plaster | Date night. | 9.3 | 2 |
 | 03 | Prism Rivière Bracelet | three blank deckle-edged notecards in aqua, blush and butter | pale cloud-grey lime plaster | Note to self: all three. | 9.1 | 1 |
 | 04 | Prism Rivière Bracelet | a mother-of-pearl box clutch | deep midnight-navy lime plaster | Colour after dark. | 9.3 | 1 |
+| 05 | Woven Gold Hoops | a folded ivory linen shirt, its open collar and mother-of-pearl buttons | pale warm oat lime plaster | Effortless, on purpose. | 9.2 | 1 |
+| 06 | Woven Gold Hoops | a black silk folding fan, half open | deep oxblood lime plaster | Make an entrance. | 9.0 | 1 |
 <!-- /log -->
