@@ -648,5 +648,25 @@
   "w": 270,
   "hs": 54,
   "stack": true
+ },
+ {
+  "n": "29",
+  "key": "heartbead-bracelet",
+  "plate": "plates/colour/29-heartbead-bracelet.jpg",
+  "raw": "29b",
+  "title": "Heartbead Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "edible silver dragees, a soft heap with a few rolled loose towards the bracelet",
+  "ground": "ivory lime plaster",
+  "rhyme": "the mirror-silver steel beads = bigger twins of the silver dragees on mithai and cakes; the gold heart is the one warm note",
+  "line": "The icing on the wrist.",
+  "ink": "#47484C",
+  "score": 9.1,
+  "jobs": [
+   "7005936d (29a)",
+   "e1b62364 (29b, kept)"
+  ],
+  "notes": "29b: beads grey-gunmetal mirror steel as every listing photo reads them, gold T-bar, round toggle and one puffed heart on its jump ring, small end beads at the clasp. Bead-to-heart ratio about 0.5, the same as the cube listing close-up. Dragees about half a bead, bright and soft-focus behind. 29a drew the dragees as spare 6mm beads in the same grey, so the rhyme collapsed into loose beads."
  }
 ]
