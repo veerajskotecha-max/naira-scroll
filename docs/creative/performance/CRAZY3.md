@@ -29,7 +29,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 | 11 · 12 | Bold Nocturne Chain | a structured cream top-handle bag · pale stone | one black satin stiletto · charcoal | Meeting at ten. / Out late. |
 | 13 · 14 | Bold Nocturne Bracelet | two linen-bound books with a ribbon marker · sand | a black silk bow tie · near-black | Well read. / Black tie. |
 | 15 · 16 | Halo Curve Ring | a tortoiseshell claw clip · latte | a lit amber glass votive · chocolate | Hair up, ring on. / Golden hour, extended. |
-| 17 · 18 | Marquise Layering Set | an ivory lace hand fan · blush | a crystal perfume atomizer · midnight | Shaadi season. / Layered for tonight. |
+| 17 · 18 | Marquise Layering Set | a fresh mogra (jasmine) gajra · blush | a faceted crystal perfume bottle · midnight | Shaadi season. / Layered for tonight. |
 | 19 · 20 | Ribbon Bead Bracelet | blush satin ballet flats with bows · blush | a black gift box tied with a satin bow · mauve | On pointe. / Gift-wrapped. |
 | 21 · 22 | Brushed Gold Huggies | a tan leather notebook and brass pen · stone | a black cashmere turtleneck collar · near-black | Nine to five. / The classic. |
 | 23 · 24 | Rivière Eternal Bracelet | a folded cream pashmina · ivory | a black satin opera glove · black | Winter white. / Old Hollywood. |
@@ -44,7 +44,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 
 Lines are drafts and are settled shot by shot. Changed so far: 05 has a linen shirt in place of the silk scarf (a silk knot read as a
 necktie in round three, and the shirt's buttons give the hoops a true size); 06's line is Make an entrance., since Fan favourite.
-claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out.
+claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out; 17 has a mogra gajra in place of a lace fan, since 06 already has a fan.
 
 ## True scale
 
@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-16 shots kept, average score 9.09, 29 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+18 shots kept, average score 9.10, 31 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -88,4 +88,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 14 | Bold Nocturne Bracelet | a pre-tied black silk bow tie | deep near-black charcoal lime plaster | Black tie. | 9.0 | 2 |
 | 15 | Halo Curve Ring | a tortoiseshell acetate claw hair clip | soft latte lime plaster | Hair up, ring on. | 8.9 | 2 |
 | 16 | Halo Curve Ring | a small amber glass votive with a lit tealight | deep chocolate lime plaster | Golden hour, extended. | 9.1 | 2 |
+| 17 | Marquise Layering Set | a fresh mogra (jasmine) gajra | pale soft blush lime plaster | Shaadi season. | 9.2 | 1 |
+| 18 | Marquise Layering Set | a faceted crystal perfume bottle with a gold cap | deep midnight-blue lime plaster | Layered for tonight. | 9.1 | 1 |
 <!-- /log -->

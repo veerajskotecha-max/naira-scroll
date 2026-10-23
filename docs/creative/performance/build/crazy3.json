@@ -415,5 +415,59 @@
    "79b7976b (clean plate of c16a for the retouch)"
   ],
   "notes": "c16a: the same bypass ring, tiger's eye and champagne crystal in their bezels, as in the listing, warm in the votive's light; the ring stands clear of the votive. The model drew it about 1.7x true size against the 6 cm votive, so it was set back at 0.6 in post on a clean plate of the same frame, scaled from where it stands, its own long shadow carried (raw/c16a_r.png). One small flame inside the glass. The votive fills the upper right; calm chocolate plaster bottom left for the words, in cream."
+ },
+ {
+  "n": "17",
+  "key": "marquise-layering-set-day",
+  "plate": "plates/crazy3/17-marquise-layering-set-day.jpg",
+  "raw": "c17a",
+  "product": "9",
+  "time": "day",
+  "title": "Marquise Layering Set",
+  "price": "₹1,599",
+  "variant": null,
+  "handle": "marquise-layering-set",
+  "ingredient": "a fresh mogra (jasmine) gajra",
+  "ground": "pale soft blush lime plaster",
+  "rhyme": "wedding season: jasmine in the hair and gold at the neck",
+  "line": "Shaadi season.",
+  "ink": "#6A4A44",
+  "pos": {
+   "right": 76,
+   "bottom": 72
+  },
+  "score": 9.2,
+  "jobs": [
+   "6942cda7 (c17a, kept)"
+  ],
+  "notes": "c17a: two separate fine gold cable chains, the short one with one marquise in four claws, the Y-lariat with a pear at the junction and a straight drop carrying two small marquise stations and a pear tip, five clear stones in all, as in the listing. The stones read about 1.3x true size against the jasmine buds; the chains run into the gajra, so the frame is left as shot. Planned with an ivory lace fan; a mogra gajra replaced it, since 06 already has a fan and jasmine is the wedding-season flower. The gajra fills the top; calm blush plaster bottom right for the words."
+ },
+ {
+  "n": "18",
+  "key": "marquise-layering-set-night",
+  "plate": "plates/crazy3/18-marquise-layering-set-night.jpg",
+  "raw": "c18a",
+  "product": "9",
+  "time": "night",
+  "title": "Marquise Layering Set",
+  "price": "₹1,599",
+  "variant": null,
+  "handle": "marquise-layering-set",
+  "ingredient": "a faceted crystal perfume bottle with a gold cap",
+  "ground": "deep midnight-blue lime plaster",
+  "rhyme": "scent and two fine chains, layered for the evening",
+  "line": "Layered for tonight.",
+  "ink": "#EDE6DA",
+  "page_ink": "#22304A",
+  "w": 420,
+  "score": 9.1,
+  "jobs": [
+   "71f980a8 (c18a, kept)"
+  ],
+  "notes": "c18a: the same two fine chains, the marquise solitaire and the Y-lariat with its pear junction, two marquise stations and pear tip, as in the listing; the chains curl up to the foot of the bottle. True to scale against the 5 cm bottle, so the frame is left as shot. No label or lettering on the bottle. The bottle fills the upper right; calm midnight plaster top left for the words, in cream, the line in two.",
+  "pos": {
+   "left": 76,
+   "top": 64
+  }
  }
 ]
