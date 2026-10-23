@@ -692,6 +692,53 @@
   "stack": true
  },
  {
+  "n": "38",
+  "key": "droplet-open-cuff",
+  "plate": "plates/colour/38-droplet-open-cuff.jpg",
+  "raw": "r38b",
+  "title": "Droplet Open Cuff",
+  "price": "₹1,599",
+  "variant": "Gold",
+  "ingredient": "a cut-glass attar bottle with its glass dauber and one drop of attar",
+  "ground": "pale rose-sand lime plaster",
+  "rhyme": "the cuff's polished teardrop end beside one golden drop of attar: just one drop",
+  "line": "Just one drop.",
+  "ink": "#6A4535",
+  "score": 9.0,
+  "jobs": [
+   "11915b54 (r38a)",
+   "8679a0d1 (r38b, kept)"
+  ],
+  "notes": "r38b: a slim polished gold wire cuff with a round ball at one end and a smooth teardrop at the other, facing across a small gap, as in the listing; the teardrop reads a little slimmer than in the listing. The whole cuff sits in the frame; the bottle runs off the right edge. r38a drew the cuff about twice its size and cut it off. Calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "gond (edible acacia gum), glassy tears and frosted crackled nuggets, one tear beside the cuff"
+ },
+ {
+  "n": "39",
+  "key": "petal-flower-studs",
+  "plate": "plates/colour/39-petal-flower-studs.jpg",
+  "raw": "r39a",
+  "title": "Petal Flower Studs",
+  "price": "₹999",
+  "variant": "Gold",
+  "ingredient": "a head of white ixora with two leaves and two fallen florets",
+  "ground": "pale soft peach lime plaster",
+  "rhyme": "four-petalled studs beside four-petalled ixora florets: flowers that never need water",
+  "line": "Never needs water.",
+  "ink": "#5E4430",
+  "score": 9.1,
+  "jobs": [
+   "c81423ff (r39a, kept)"
+  ],
+  "notes": "r39a: each stud a four-petal flower of three round clear stones (left, right, top) and one pear pointing down around a polished gold disc, in fine claws, as in the listing. The studs read a little large (each about two florets). Calm peach plaster top left for the words.",
+  "round": 3,
+  "replaces": "whole cloves (laung), a loose heap with three lying apart, one head turned to the camera",
+  "pos": {
+   "left": 76,
+   "bottom": 80
+  }
+ },
+ {
   "n": "41",
   "key": "duo-link-bracelet",
   "plate": "plates/colour/41-duo-link-bracelet.jpg",
@@ -732,6 +779,32 @@
    "59af9d03 (42d)"
   ],
   "notes": "42a/42b drew the earrings about 1.6x against the pear (about a third of its height). Reshot touching the cut half with a loose pear seed as the referent: 42c has three clear pears stepping to the mint pear in claws on each earring, the mint stone about 1.3x the seed (true about 1x) and the earring about a quarter of the pear. 42d drew them about 1.4x.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
+ },
+ {
+  "n": "43",
+  "key": "north-star-bangle",
+  "plate": "plates/colour/43-north-star-bangle.jpg",
+  "raw": "r43a",
+  "title": "North Star Bangle",
+  "price": "₹999",
+  "variant": "Gold",
+  "ingredient": "a glowing paper star lantern for Diwali",
+  "ground": "deep indigo-blue lime plaster",
+  "rhyme": "engraved north stars on the bangle beside a glowing paper star for Diwali",
+  "line": "Wear the stars this Diwali.",
+  "ink": "#F3E6D2",
+  "page_ink": "#2C3555",
+  "score": 9.1,
+  "jobs": [
+   "16f3f926 (r43a, kept)"
+  ],
+  "notes": "r43a: a slim flat mirror-polished gold oval bangle, hinged, with engraved eight-pointed stars (a tiny stone in each) alternating with flush bezel-set round stones, as in the listing. The bangle reads a little large beside the lantern, which is a modern stellated paper star rather than a tailed kandil. A dark frame: the words sit in warm cream.",
+  "round": 3,
+  "replaces": "three thin slices of kamrakh (star fruit) in a little of their own juice",
   "pos": {
    "left": 76,
    "bottom": 72
