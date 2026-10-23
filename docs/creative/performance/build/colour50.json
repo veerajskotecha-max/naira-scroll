@@ -772,5 +772,28 @@
    "top": 84
   },
   "w": 400
+ },
+ {
+  "n": "34",
+  "key": "emerald-square-ear-cuff",
+  "plate": "plates/colour/34-emerald-square-ear-cuff.jpg",
+  "raw": "34d",
+  "title": "Emerald Square Ear Cuff",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "the corner of a square of fresh banana leaf with three beads of water",
+  "ground": "pale sage-green lime plaster",
+  "rhyme": "one small square green stone beside one big square green leaf; meals are served on banana leaf",
+  "line": "A square meal.",
+  "ink": "#1F4A33",
+  "score": 8.9,
+  "jobs": [
+   "68cd3199 (34a)",
+   "bed4a076 (34b)",
+   "a05c70fb (34c)",
+   "a8707172 (34d, kept)"
+  ],
+  "notes": "Sold as one cuff (listing copy: one green square), so one cuff is shown though the listing hero has two. 34a/34b drew the cuff about 2x against a 6cm leaf. Reshot with a 10cm leaf bleeding off the frame and the water beads as referent. 34d keeps the listing proportions (stone about 0.37 of the C) and true size (beads about 4mm, stone about 5mm, C about 14mm); its gold measures hue 34 against 32-33 in the listing photos, so the rosy look is only the green around it. 34c stood the cuff up with a tight C that made the stone about 1.5x too big for its band.",
+  "feed_top": 150
  }
 ]

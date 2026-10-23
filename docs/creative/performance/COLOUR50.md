@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-33 shots kept, average score 9.04, 86 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+34 shots kept, average score 9.04, 90 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -138,4 +138,5 @@ The shot log at the end records what was actually shot, kept and why.
 | 31 | Baroque Shell Bracelet | seven cowrie shells thrown as in pachisi, backs and toothed mouths, one touching a pearl | honey-cream lime plaster with a soft diagonal window shadow | Lucky throw. | 9.1 | 4 |
 | 32 | Petite Square Huggies | two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie | pale butter-yellow lime plaster | Too good to re-gift. | 9.1 | 2 |
 | 33 | Rivière Hoops (Silver) | whole cashews (kaju), a loose scatter with one lying beside the flat hoop | warm-grey handwoven linen | Always the first to go. | 9.0 | 2 |
+| 34 | Emerald Square Ear Cuff | the corner of a square of fresh banana leaf with three beads of water | pale sage-green lime plaster | A square meal. | 8.9 | 4 |
 <!-- /log -->
