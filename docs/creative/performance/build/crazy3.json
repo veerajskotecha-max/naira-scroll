@@ -1,0 +1,52 @@
+[
+ {
+  "n": "01",
+  "key": "toggle-link-chain-day",
+  "plate": "plates/crazy3/01-toggle-link-chain-day.jpg",
+  "raw": "c01a",
+  "product": "1",
+  "time": "day",
+  "title": "Toggle Link Chain",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "toggle-link-chain",
+  "ingredient": "classic tortoiseshell sunglasses, folded",
+  "ground": "pale warm sand lime plaster",
+  "rhyme": "the chain you throw on with your sunglasses for a sunny day out",
+  "line": "Out by noon.",
+  "ink": "#5E4423",
+  "score": 9.2,
+  "jobs": [
+   "5576ee56 (c01a, kept)"
+  ],
+  "notes": "c01a: open paperclip links, the spring-gate sailor ring with its gate and push-pin nub, and the stone bar threaded through it, as in the listing; the bar reads about the ring's width (the listing has it a little shorter). The sunglasses run off the right edge; calm sand plaster top left for the words."
+ },
+ {
+  "n": "02",
+  "key": "toggle-link-chain-night",
+  "plate": "plates/crazy3/02-toggle-link-chain-night.jpg",
+  "raw": "c02b",
+  "product": "1",
+  "time": "night",
+  "title": "Toggle Link Chain",
+  "price": "₹1,299",
+  "variant": null,
+  "handle": "toggle-link-chain",
+  "ingredient": "one long-stem deep red rose",
+  "ground": "deep charcoal-black lime plaster",
+  "rhyme": "date night: the chain and the rose that comes with it",
+  "line": "Date night.",
+  "ink": "#F3E9DE",
+  "page_ink": "#7A1F24",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.3,
+  "jobs": [
+   "32583b69 (c02a)",
+   "2e239ef8 (c02b, kept)"
+  ],
+  "notes": "c02b: open paperclip links, the sailor ring with its gate and nub, and the short stone bar lying across it like a toggle, as in the listing; one small glint by the gate. c02a hung the bar as a long pendant drop. The stem fills the top left, so the words sit at the bottom left in cream."
+ }
+]
