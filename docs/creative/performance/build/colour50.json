@@ -1584,5 +1584,25 @@
    "left": 76,
    "top": 84
   }
+ },
+ {
+  "n": "68",
+  "key": "bold-dome-huggies",
+  "plate": "plates/colour/68-bold-dome-huggies.jpg",
+  "raw": "68a",
+  "title": "Bold Dome Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "a string of brass ghungroo bells on a red cotton cord",
+  "ground": "soft pale vermilion-blush lime plaster",
+  "rhyme": "a polished gold dome = a polished brass ghungroo bell, the same round swell and warm shine; one rings, one does not",
+  "line": "Ghungroo, on mute.",
+  "ink": "#7A2A22",
+  "score": 9.2,
+  "jobs": [
+   "b55c54e1 (68a, kept)",
+   "fa6689a0 (68b)"
+  ],
+  "notes": "68a: two chunky mirror-polished huggies that swell at the bottom and taper to a slim hinged bar, no texture and no stones, as in the listing; one stands and one lies inside the curve of the bell string. Each huggie is about one and a half bells wide, true for 16 mm hoops and 10 mm ghungroo. 68b was as faithful, with darker antique bells."
  }
 ]
