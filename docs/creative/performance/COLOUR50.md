@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-61 shots kept, average score 9.09, 116 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+62 shots kept, average score 9.09, 117 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -159,6 +159,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 60 | Bold Nocturne Bracelet | a small lit terracotta diya with ghee and a cotton wick | warm terracotta-blush lime plaster | The Diwali glow-up. | 9.3 | 2 |
 | 61 | Halo Curve Ring | three glass marbles (kanche), two amber cat's-eyes and one champagne swirl | pale warm honey-sand lime plaster | Never lose your marbles. | 9.2 | 2 |
 | 62 | Kiss Knot Bangle (Gold) | a small cream envelope of handmade paper, sealed with gold wax pressed with a heart | soft pale blush lime plaster | Sealed with a kiss. | 9.3 | 2 |
+| 63 | Silk Mesh Cuff (Silver) | a twisted skein of silver-white silk thread | pale powder-blue lime plaster | Soft as silk. | 9.0 | 1 |
 | 64 | Marquise Layering Set | a small paper patang of champagne tissue on a bamboo spine and bow | pale dawn-peach lime plaster | Kai po che! | 9.0 | 6 |
 | 65 | Brushed Gold Huggies | the folded sleeve of a cream cable-knit wool sweater | pale warm oat lime plaster | Sweater-weather gold. | 9.3 | 1 |
 | 66 | Ribbon Bead Bracelet | a white satin school ribbon tied in a double-loop bow with V-cut tails | deep school-uniform navy lime plaster | Mummy's bow, minus the tug. | 9.2 | 2 |

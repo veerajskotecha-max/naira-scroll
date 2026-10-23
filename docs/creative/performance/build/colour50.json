@@ -1283,6 +1283,27 @@
   "notes": "62a: a finely ribbed snake-coil bangle in gold tone whose ends cross in one polished X, as in the listing; it rests on the envelope with the X beside the seal. The seal carries only a pressed heart, no letters. The bangle is about two thirds of the envelope's width, true for 6 cm and a small 9 cm envelope. 62b was faithful but cut the bangle at the frame edge."
  },
  {
+  "n": "63",
+  "key": "silk-mesh-cuff-silver",
+  "plate": "plates/colour/63-silk-mesh-cuff-silver.jpg",
+  "raw": "r63a_silver",
+  "title": "Silk Mesh Cuff",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "ingredient": "a twisted skein of silver-white silk thread",
+  "ground": "pale powder-blue lime plaster",
+  "rhyme": "the silk in its name: fine woven mesh with the same soft sheen as a skein of silk thread",
+  "line": "Soft as silk.",
+  "ink": "#2F4560",
+  "score": 9.0,
+  "jobs": [
+   "69a924a4 (r63a, kept, metal colour corrected)"
+  ],
+  "notes": "r63a: a rounded tube of fine woven mesh bent into an open C with two polished flat oval end caps facing across the gap, as in the listing. The model warmed the metal to a rose tone; the warm hues on the cuff were neutralised to the listing's cool silver (raw/r63a_silver), leaving the ground and the silk untouched. Calm powder-blue plaster top left for the words.",
+  "round": 3,
+  "replaces": "a little cloud of white cotton wool"
+ },
+ {
   "n": "64",
   "key": "marquise-layering-set",
   "plate": "plates/colour/64-marquise-layering-set.jpg",
