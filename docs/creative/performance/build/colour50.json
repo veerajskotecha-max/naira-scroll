@@ -668,5 +668,32 @@
    "e1b62364 (29b, kept)"
   ],
   "notes": "29b: beads grey-gunmetal mirror steel as every listing photo reads them, gold T-bar, round toggle and one puffed heart on its jump ring, small end beads at the clasp. Bead-to-heart ratio about 0.5, the same as the cube listing close-up. Dragees about half a bead, bright and soft-focus behind. 29a drew the dragees as spare 6mm beads in the same grey, so the rhyme collapsed into loose beads."
+ },
+ {
+  "n": "30",
+  "key": "serpentine-whisper-chain-silver",
+  "plate": "plates/colour/30-serpentine-whisper-chain-silver.jpg",
+  "raw": "30b",
+  "title": "Serpentine Whisper Chain",
+  "price": "₹1,299",
+  "variant": "Silver",
+  "ingredient": "coarse rock salt crystals (khada namak), a loose heap with two crystals beside the stone",
+  "ground": "dove-grey lime plaster",
+  "rhyme": "the clear cushion stone among clear salt crystals, so the eye has to look twice to find the jewel; the snake chain lies in its own serpentine S",
+  "line": "Season to taste.",
+  "ink": "#3E474D",
+  "score": 9.2,
+  "feed_top": 340,
+  "jobs": [
+   "07627ef5 (30a)",
+   "d3d113a9 (30b, kept)"
+  ],
+  "notes": "30b: one cushion stone in four ball-tipped claws with the open basket gallery and a polished bail, true scaled snake chain at about a fifth of the stone width, chain enters from the right edge in one S. Stone about the size of the biggest crystals. 30a looped the chain twice down from the top edge across the calm top left. Feed crop lowered to 340 so the crystals at the stone keep a margin; the top of the heap bleeds off the edge.",
+  "stack": true,
+  "pos": {
+   "left": 76,
+   "top": 392
+  },
+  "w": 420
  }
 ]
