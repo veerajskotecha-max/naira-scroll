@@ -469,5 +469,60 @@
    "left": 76,
    "top": 64
   }
+ },
+ {
+  "n": "19",
+  "key": "ribbon-bead-bracelet-day",
+  "plate": "plates/crazy3/19-ribbon-bead-bracelet-day.jpg",
+  "raw": "c19a_r",
+  "product": "10",
+  "time": "day",
+  "title": "Ribbon Bead Bracelet",
+  "price": "₹799",
+  "variant": null,
+  "handle": "ribbon-bead-bracelet",
+  "ingredient": "a blush satin ballet flat with a bow",
+  "ground": "pale soft blush lime plaster",
+  "rhyme": "a bow on the shoe and a bow at the wrist",
+  "line": "On pointe.",
+  "ink": "#6A4A44",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "69bd6627 (c19a, kept; bracelet set back smaller)",
+   "6c971b8a (clean plate of c19a for the retouch)"
+  ],
+  "notes": "c19a: a fine gold cable chain dotted with small round beads, the bow of two clear heart-cut stones meeting at a tiny gold bar, the lobster clasp, as in the listing; the bracelet lies clear of the shoe. The model drew the crystal bow about twice its 10 mm against the shoe's 4 cm satin bow, so the bracelet was set back at 0.62 in post on a clean plate of the same frame, which brings the bow to about 12 mm and the loop to a true 5 cm (raw/c19a_r.png). The shoe fills the upper right; calm blush plaster bottom left for the words."
+ },
+ {
+  "n": "20",
+  "key": "ribbon-bead-bracelet-night",
+  "plate": "plates/crazy3/20-ribbon-bead-bracelet-night.jpg",
+  "raw": "c20a_r",
+  "product": "10",
+  "time": "night",
+  "title": "Ribbon Bead Bracelet",
+  "price": "₹799",
+  "variant": null,
+  "handle": "ribbon-bead-bracelet",
+  "ingredient": "a small black gift box tied with a satin bow",
+  "ground": "deep mauve lime plaster",
+  "rhyme": "the bow on the box and the bow at the wrist: gift-wrapped",
+  "line": "Gift-wrapped.",
+  "ink": "#F4E8E4",
+  "page_ink": "#5E3F48",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 8.9,
+  "jobs": [
+   "5d2574be (c20a, kept; bracelet set back smaller)",
+   "b2525088 (clean plate of c20a for the retouch)"
+  ],
+  "notes": "c20a: the same fine beaded chain, the bow of two clear heart-cut stones and the lobster clasp, as in the listing; the bracelet lies clear of the box. The model drew the crystal bow about 2.4x its 10 mm against the 9 cm box, so the bracelet was set back at 0.62 in post on a clean plate of the same frame, bow about 1.4x, loop true; the long arms of one star glint on the right heart were removed over the plaster (raw/c20a_r.png). No tag or lettering on the box. The box fills the upper right; calm mauve plaster bottom left for the words, in cream."
  }
 ]

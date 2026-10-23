@@ -18,6 +18,8 @@ NOSHADOW = "noshadow" in a
 CLOSE = int(a[a.index("close") + 1]) if "close" in a else 0
 NOCREAM = "nocream" in a
 NOTOUCH = "notouch" in a
+#   optional: fill a = fill enclosed holes in the piece's mask smaller than a px (clear stones), never the opening of a loop
+FILL = int(a[a.index("fill") + 1]) if "fill" in a else 0
 #   optional: anchor ax ay = scale about this point (raw px), e.g. where a standing ring touches the ground, so it stays grounded
 ANCHOR = tuple(map(float, a[a.index("anchor") + 1:a.index("anchor") + 3])) if "anchor" in a else None                                                 # with hand: keep evenly darkened ground out of the piece
 D = "/tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/perf/colour"
@@ -85,6 +87,9 @@ n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.morphologyEx(G, cv2.MORPH_C
 keep = [i for i in range(1, n) if (seed[lab == i] > 0).any()]               # only parts that hold the piece's own stones or metal
 G = cv2.morphologyEx(np.isin(lab, keep).astype(np.uint8), cv2.MORPH_CLOSE, disk(6))
 if CLOSE: G = cv2.morphologyEx(G, cv2.MORPH_CLOSE, disk(CLOSE))           # dark inner walls that mirror the ground go with the metal
+if FILL:                                                                   # clear stones show the ground through them: fill their small holes
+    n4, lab4, st4, _ = cv2.connectedComponentsWithStats((G == 0).astype(np.uint8))
+    G = (G | np.isin(lab4, [i for i in range(1, n4) if st4[i][4] < FILL and st4[i][0] > 0 and st4[i][1] > 0 and st4[i][0] + st4[i][2] < w and st4[i][1] + st4[i][3] < h])).astype(np.uint8)
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(14)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included
 for t in np.linspace(0, 1, 9): Z |= cv2.warpAffine(Gd, np.float32([[1, 0, t * sx], [0, 1, t * sy]]), (w, h))
@@ -106,7 +111,8 @@ Zm = (Zf[..., 0] > 0.02).astype(np.uint8); q = 4
 lowA = cv2.resize(blur(A, 10), (w // q, h // q), interpolation=cv2.INTER_AREA)
 tgt = np.stack([cv2.inpaint(np.clip(lowA[..., c], 0, 255).astype(np.uint8), cv2.resize(cv2.dilate(Zm, disk(8)), (w // q, h // q), interpolation=cv2.INTER_NEAREST), 8, cv2.INPAINT_TELEA) for c in range(3)], -1).astype(np.float32)
 tgt = blur(cv2.resize(tgt, (w, h), interpolation=cv2.INTER_CUBIC), 6)
-Pm = Pt * np.clip(tgt / np.maximum(blur(Pt, 10), 4), 0.8, 1.25)
+gl = blur(np.clip(lum(tgt) / np.maximum(lum(blur(Pt, 25)), 4), 0.9, 1.1), 30)   # brightness only, broad and gentle: never a colour shift
+Pm = Pt * gl[..., None]
 base = A * (1 - Zf) + Pm * Zf                                              # the original, with the plate only where the piece was
 # 3. back at scale s, centred on (ncx, ncy)
 ys, xs = np.nonzero(G); cx, cy = xs.mean(), ys.mean()

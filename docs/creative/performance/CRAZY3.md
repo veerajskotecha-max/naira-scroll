@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-18 shots kept, average score 9.10, 31 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+20 shots kept, average score 9.08, 35 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -90,4 +90,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 16 | Halo Curve Ring | a small amber glass votive with a lit tealight | deep chocolate lime plaster | Golden hour, extended. | 9.1 | 2 |
 | 17 | Marquise Layering Set | a fresh mogra (jasmine) gajra | pale soft blush lime plaster | Shaadi season. | 9.2 | 1 |
 | 18 | Marquise Layering Set | a faceted crystal perfume bottle with a gold cap | deep midnight-blue lime plaster | Layered for tonight. | 9.1 | 1 |
+| 19 | Ribbon Bead Bracelet | a blush satin ballet flat with a bow | pale soft blush lime plaster | On pointe. | 9.0 | 2 |
+| 20 | Ribbon Bead Bracelet | a small black gift box tied with a satin bow | deep mauve lime plaster | Gift-wrapped. | 8.9 | 2 |
 <!-- /log -->
