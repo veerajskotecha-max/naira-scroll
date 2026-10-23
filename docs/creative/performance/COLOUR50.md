@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-47 shots kept, average score 9.13, 96 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+51 shots kept, average score 9.10, 102 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -130,6 +130,10 @@ The shot log at the end records what was actually shot, kept and why.
 | 31 | Baroque Shell Bracelet | pale powder-pink mulmul with white Lucknowi chikankari | the embroidered mulmul itself | Made for your chikankari. | 9.3 | 1 |
 | 32 | Petite Square Huggies | a small square ivory gift box tied with a gold satin ribbon | pale sage-green lime plaster | A square deal. | 8.9 | 1 |
 | 33 | Rivière Hoops (Silver) | a small mirror disco ball | deep midnight-blue lime plaster | Sangeet-ready. | 9.0 | 1 |
+| 34 | Emerald Square Ear Cuff | the eye of a real peacock feather | pale warm ivory lime plaster | Light as a feather. | 8.6 | 3 |
+| 35 | Pear Point Open Cuff | two whole golden pears side by side | pale celadon-green lime plaster | A pair of pears. | 8.8 | 1 |
+| 36 | Bold Nocturne Drops | a small black velvet jewellery pouch with a gold drawstring | pale warm stone-grey lime plaster | Party in a pouch. | 8.6 | 1 |
+| 37 | Marquise Drop Choker | a short spray of white phalaenopsis orchids | pale smoky-mauve lime plaster | Rare, like an orchid. | 9.1 | 1 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
 | 42 | Mint Pear Drop Earrings | a green nashpati, one whole and one cut half, with one loose seed on the plaster | pale celadon-green lime plaster | Pick of the pears. | 9.0 | 4 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |

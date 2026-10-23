@@ -594,6 +594,104 @@
   "replaces": "whole cashews (kaju), a loose scatter with one lying beside the flat hoop"
  },
  {
+  "n": "34",
+  "key": "emerald-square-ear-cuff",
+  "plate": "plates/colour/34-emerald-square-ear-cuff.jpg",
+  "raw": "r34c",
+  "title": "Emerald Square Ear Cuff",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "the eye of a real peacock feather",
+  "ground": "pale warm ivory lime plaster",
+  "rhyme": "an emerald square on the green-and-sapphire eye of a peacock feather: the cuff is as light as the feather",
+  "line": "Light as a feather.",
+  "ink": "#1F4A4A",
+  "score": 8.6,
+  "jobs": [
+   "80aec933 (r34a)",
+   "cbb9d4aa (r34b)",
+   "ae67a23b (r34c, kept)"
+  ],
+  "notes": "r34c: one tight open C of polished gold with its gap showing and one square princess-cut green stone in four claws, as in the listing. It still reads about 2x the true 13 mm against the feather eye, so it can pass for a small open ring. r34a drew a ring-sized cuff beside the eye; r34b closed it into a ring on the quill. Calm ivory plaster top left for the words.",
+  "round": 3,
+  "replaces": "the corner of a square of fresh banana leaf with three beads of water"
+ },
+ {
+  "n": "35",
+  "key": "pear-point-open-cuff",
+  "plate": "plates/colour/35-pear-point-open-cuff.jpg",
+  "raw": "r35a",
+  "title": "Pear Point Open Cuff",
+  "price": "₹1,499",
+  "variant": null,
+  "ingredient": "two whole golden pears side by side",
+  "ground": "pale celadon-green lime plaster",
+  "rhyme": "two pear-cut stones at the ends of the cuff = two pears side by side",
+  "line": "A pair of pears.",
+  "ink": "#4B4A26",
+  "score": 8.8,
+  "jobs": [
+   "5c417e43 (r35a, kept)"
+  ],
+  "notes": "r35a: a slim polished open cuff tapering at each end, one clear pear-cut stone at each end, as in the listing; true scale beside 7 cm pears. One detail is off: the left stone points into the gap (the listing has both rounded ends facing each other); the right stone is correct. Calm celadon plaster top left for the words.",
+  "round": 3,
+  "replaces": "loose pink desi rose petals beaded with rose water, two drops on the plaster, one petal touching the cuff"
+ },
+ {
+  "n": "36",
+  "key": "bold-nocturne-drops",
+  "plate": "plates/colour/36-bold-nocturne-drops.jpg",
+  "raw": "r36a",
+  "title": "Bold Nocturne Drops",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "a small black velvet jewellery pouch with a gold drawstring",
+  "ground": "pale warm stone-grey lime plaster",
+  "rhyme": "out for the night: the earrings just tipped from their velvet pouch, sparkle on black",
+  "line": "Party in a pouch.",
+  "ink": "#2F2C2B",
+  "score": 8.6,
+  "jobs": [
+   "cd423ea7 (r36a, kept)"
+  ],
+  "notes": "r36a: a small plain polished oval link on top with a larger oval link paved all round in tiny clear stones, interlocked, as in the listing. The earrings read large beside the pouch (about 2x the true 23 mm; the model draws them big). The pouch runs off the right edge; calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "til chikki, four sesame-and-jaggery pieces, loose seeds and a shard, one piece touching a pavé link",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 360,
+  "stack": true
+ },
+ {
+  "n": "37",
+  "key": "marquise-drop-choker",
+  "plate": "plates/colour/37-marquise-drop-choker.jpg",
+  "raw": "r37a",
+  "title": "Marquise Drop Choker",
+  "price": "₹1,199",
+  "variant": null,
+  "ingredient": "a short spray of white phalaenopsis orchids",
+  "ground": "pale smoky-mauve lime plaster",
+  "rhyme": "rare, white and quietly elegant: the choker beside a spray of white orchids",
+  "line": "Rare, like an orchid.",
+  "ink": "#4F3B4A",
+  "score": 9.1,
+  "jobs": [
+   "fdd7e5b2 (r37a, kept)"
+  ],
+  "notes": "r37a: a slim ribbed gold collar with one marquise set sideways in claws and a fine cable-chain drop carrying a small pear halfway and a pear at the end, both pointing down, as in the listing. The piece reads a little large beside the blooms. Calm mauve plaster top left for the words.",
+  "round": 3,
+  "replaces": "a brass katori of chashni (sugar syrup) with one thread falling from a steel spoon",
+  "pos": {
+   "left": 64,
+   "top": 64
+  },
+  "w": 330,
+  "stack": true
+ },
+ {
   "n": "41",
   "key": "duo-link-bracelet",
   "plate": "plates/colour/41-duo-link-bracelet.jpg",
