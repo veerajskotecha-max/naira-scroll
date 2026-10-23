@@ -1137,5 +1137,30 @@
    "bottom": 80
   },
   "w": 420
+ },
+ {
+  "n": "49",
+  "key": "serpentine-whisper-chain",
+  "plate": "plates/colour/49-serpentine-whisper-chain.jpg",
+  "raw": "49b",
+  "title": "Serpentine Whisper Chain",
+  "price": "₹1,299",
+  "variant": "Gold",
+  "ingredient": "a wooden honey dipper letting one thread of honey fall into a small pool on the stone",
+  "ground": "pale honey-cream Jaisalmer sandstone",
+  "rhyme": "the fluid gold snake chain = a thread of honey, gold on gold; snake chains are prized for how they pour",
+  "line": "Pours like honey.",
+  "ink": "#6B4614",
+  "score": 9.2,
+  "jobs": [
+   "46c3730a (49a)",
+   "0d2c1a36 (49b, kept)"
+  ],
+  "notes": "49b: fine scaled gold snake chain, one cushion stone in four ball-tipped claws with an open basket gallery and a polished bail, as in the gold listing photos; chain clean and well apart from the honey. Stone about a third of the honey pool. The dipper is held from out of frame. 49a drew the stone larger and ran the chain close to the pool.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
  }
 ]

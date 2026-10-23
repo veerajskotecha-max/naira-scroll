@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-48 shots kept, average score 9.05, 128 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+49 shots kept, average score 9.05, 130 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -153,4 +153,5 @@ The shot log at the end records what was actually shot, kept and why.
 | 46 | Triple Coil Wrap Bangle (Gold) | bhakarwadi, a heap of spiral rounds with crumbs and sesame, one leaning on the bangle | pale warm terracotta lime plaster | Rolled up in gold. | 9.1 | 2 |
 | 47 | Garnet Cable Cuff | dry rajma (red kidney beans), a loose heap with one bean against a garnet tip | soft pale grey handwoven khadi | Sunday best. | 9.1 | 2 |
 | 48 | Charm Box Chain | two motichoor laddoos, one whole and one broken open, with a few loose boondi | pale warm apricot-cream lime plaster | Man mein laddoo phoota. | 9.0 | 4 |
+| 49 | Serpentine Whisper Chain (Gold) | a wooden honey dipper letting one thread of honey fall into a small pool on the stone | pale honey-cream Jaisalmer sandstone | Pours like honey. | 9.2 | 2 |
 <!-- /log -->
