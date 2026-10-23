@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-56 shots kept, average score 9.10, 109 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+58 shots kept, average score 9.10, 112 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -142,6 +142,8 @@ The shot log at the end records what was actually shot, kept and why.
 | 43 | North Star Bangle (Gold) | a glowing paper star lantern for Diwali | deep indigo-blue lime plaster | Wear the stars this Diwali. | 9.1 | 1 |
 | 44 | Droplet Open Ring (Silver) | part of a fresh lotus leaf beaded with water drops | pale cool grey lime plaster | Raindrop, made silver. | 9.3 | 1 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
+| 46 | Triple Coil Wrap Bangle (Gold) | a spiral of curled gold gift ribbon | pale dusty-rose lime plaster | Comes pre‑wrapped. | 8.7 | 2 |
+| 47 | Garnet Cable Cuff | a ripe pomegranate, neatly scored and opened | pale blush-pink lime plaster | Anaar season. | 9.4 | 1 |
 | 51 | Toggle Link Chain | brass paper clips, one clipped to a sheet of deckled ivory cotton paper | warm ivory lime plaster | Paperclip, promoted. | 9.2 | 2 |
 | 52 | Baguette Tennis Necklace (Crystal) | a small cut-crystal perfume bottle with a gold collar, golden perfume | pale warm champagne lime plaster | The final touch. | 9.0 | 2 |
 | 53 | Prism Rivière Bracelet | three origami paper boats in pastel aqua, pink and butter yellow, with a few raindrops | pale powder-blue lime plaster | Kaagaz ki kashti. | 9.2 | 6 |

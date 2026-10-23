@@ -879,6 +879,61 @@
   }
  },
  {
+  "n": "46",
+  "key": "triple-coil-wrap-bangle",
+  "plate": "plates/colour/46-triple-coil-wrap-bangle.jpg",
+  "raw": "r46a_fix",
+  "title": "Triple Coil Wrap Bangle",
+  "price": "₹1,499",
+  "variant": "Gold",
+  "ingredient": "a spiral of curled gold gift ribbon",
+  "ground": "pale dusty-rose lime plaster",
+  "rhyme": "three turns of ribbed coil beside a curl of gift ribbon: a bangle that comes pre-wrapped",
+  "line": "Comes pre‑wrapped.",
+  "ink": "#6A3F44",
+  "score": 8.7,
+  "jobs": [
+   "505ccbf3 (r46a, kept, bottom tenth retouched)",
+   "da9ed5b4 (r46b)"
+  ],
+  "notes": "r46a: one continuous finely ribbed tubogas coil in three stacked turns with a pave end cap at the front, as in the listing; only one of the two caps shows and its pave reads as more than two rows. The model left a flat seam band in the bottom tenth, retouched by mirroring the plaster above it (raw/r46a_fix). r46b came back as a picture inside a frame. Calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "bhakarwadi, a heap of spiral rounds with crumbs and sesame, one leaning on the bangle",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 360,
+  "stack": true
+ },
+ {
+  "n": "47",
+  "key": "garnet-cable-cuff",
+  "plate": "plates/colour/47-garnet-cable-cuff.jpg",
+  "raw": "r47a",
+  "title": "Garnet Cable Cuff",
+  "price": "₹1,399",
+  "variant": null,
+  "ingredient": "a ripe pomegranate, neatly scored and opened",
+  "ground": "pale blush-pink lime plaster",
+  "rhyme": "garnet-red tips beside garnet-red arils: anaar season",
+  "line": "Anaar season.",
+  "ink": "#6B2A2E",
+  "score": 9.4,
+  "jobs": [
+   "c5a2c83b (r47a, kept)"
+  ],
+  "notes": "r47a: a slim open cuff of twisted silver cable, each end a gold barrel with two pave rows between polished rings and one round faceted garnet-red stone in a gold bezel at the tip, the two facing across the opening, as in the listing; true scale, each stone the size of an aril. Calm blush plaster top left for the words.",
+  "round": 3,
+  "replaces": "dry rajma (red kidney beans), a loose heap with one bean against a garnet tip",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 300,
+  "stack": true
+ },
+ {
   "n": "51",
   "key": "toggle-link-chain",
   "plate": "plates/colour/51-toggle-link-chain.jpg",
