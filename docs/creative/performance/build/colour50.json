@@ -934,6 +934,81 @@
   "stack": true
  },
  {
+  "n": "48",
+  "key": "charm-box-chain",
+  "plate": "plates/colour/48-charm-box-chain.jpg",
+  "raw": "r48b",
+  "title": "Charm Box Chain",
+  "price": "₹1,399",
+  "variant": null,
+  "ingredient": "a small heap of fresh mogra buds",
+  "ground": "pale warm linen-beige lime plaster",
+  "rhyme": "the white pave barrel charm is the size and white of a mogra bud: fresh as mogra, and it stays that way",
+  "line": "Fresh as mogra.",
+  "ink": "#4A4630",
+  "score": 9.0,
+  "jobs": [
+   "92664dc5 (r48a)",
+   "ac196fd4 (r48b, kept)"
+  ],
+  "notes": "r48b: a fine gold box chain threaded through one small cylindrical barrel charm paved in bands between polished gold rims, as in the listing; true scale, the charm about a bud long. One small glint remains on the charm. r48a had star glints, a heavy chain and a plaster step. Calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "two motichoor laddoos, one whole and one broken open, with a few loose boondi"
+ },
+ {
+  "n": "49",
+  "key": "serpentine-whisper-chain",
+  "plate": "plates/colour/49-serpentine-whisper-chain.jpg",
+  "raw": "r49a",
+  "title": "Serpentine Whisper Chain",
+  "price": "₹1,299",
+  "variant": "Gold",
+  "ingredient": "two white champa (frangipani) flowers with golden hearts",
+  "ground": "pale soft honey-cream lime plaster",
+  "rhyme": "a clear stone in gold beside white champa with golden hearts: gold at heart",
+  "line": "Gold at heart.",
+  "ink": "#5E4420",
+  "score": 8.9,
+  "jobs": [
+   "142a423f (r49a, kept)"
+  ],
+  "notes": "r49a: one cushion-cut clear stone in an open four-claw gold basket on a plain bail, on a smooth gold snake chain, as in the listing. The pendant reads about twice its true 10 mm beside the flowers. Calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "a wooden honey dipper letting one thread of honey fall into a small pool on the stone",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "stack": true
+ },
+ {
+  "n": "50",
+  "key": "baguette-tennis-necklace-emerald",
+  "plate": "plates/colour/50-baguette-tennis-necklace-emerald.jpg",
+  "raw": "r50a",
+  "title": "Baguette Tennis Necklace",
+  "price": "₹2,300",
+  "variant": "Emerald",
+  "ingredient": "the gold zari border of a deep emerald Kanjeevaram silk saree",
+  "ground": "the emerald Kanjeevaram silk itself",
+  "rhyme": "an emerald line on the gold zari of an emerald Kanjeevaram: you match your jewellery to your saree",
+  "line": "Matches the Kanjeevaram.",
+  "ink": "#F1EBDC",
+  "page_ink": "#1F4A30",
+  "score": 9.2,
+  "jobs": [
+   "9a5400e0 (r50a, kept)"
+  ],
+  "notes": "r50a: one continuous line of crosswise emerald-green baguettes, each in a gold box setting with corner claws, closed with the gold box clasp, lying in a loop on the zari, as in the listing. A dark emerald frame: the words sit in cream.",
+  "round": 3,
+  "replaces": "a fresh sprig of kadi patta (curry leaves) with loose leaflets",
+  "pos": {
+   "left": 76,
+   "top": 60
+  },
+  "w": 660
+ },
+ {
   "n": "51",
   "key": "toggle-link-chain",
   "plate": "plates/colour/51-toggle-link-chain.jpg",

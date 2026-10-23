@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-58 shots kept, average score 9.10, 112 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+61 shots kept, average score 9.09, 116 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -144,6 +144,9 @@ The shot log at the end records what was actually shot, kept and why.
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
 | 46 | Triple Coil Wrap Bangle (Gold) | a spiral of curled gold gift ribbon | pale dusty-rose lime plaster | Comes pre‑wrapped. | 8.7 | 2 |
 | 47 | Garnet Cable Cuff | a ripe pomegranate, neatly scored and opened | pale blush-pink lime plaster | Anaar season. | 9.4 | 1 |
+| 48 | Charm Box Chain | a small heap of fresh mogra buds | pale warm linen-beige lime plaster | Fresh as mogra. | 9.0 | 2 |
+| 49 | Serpentine Whisper Chain (Gold) | two white champa (frangipani) flowers with golden hearts | pale soft honey-cream lime plaster | Gold at heart. | 8.9 | 1 |
+| 50 | Baguette Tennis Necklace (Emerald) | the gold zari border of a deep emerald Kanjeevaram silk saree | the emerald Kanjeevaram silk itself | Matches the Kanjeevaram. | 9.2 | 1 |
 | 51 | Toggle Link Chain | brass paper clips, one clipped to a sheet of deckled ivory cotton paper | warm ivory lime plaster | Paperclip, promoted. | 9.2 | 2 |
 | 52 | Baguette Tennis Necklace (Crystal) | a small cut-crystal perfume bottle with a gold collar, golden perfume | pale warm champagne lime plaster | The final touch. | 9.0 | 2 |
 | 53 | Prism Rivière Bracelet | three origami paper boats in pastel aqua, pink and butter yellow, with a few raindrops | pale powder-blue lime plaster | Kaagaz ki kashti. | 9.2 | 6 |
