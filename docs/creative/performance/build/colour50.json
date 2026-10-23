@@ -1014,5 +1014,29 @@
   "w": 300,
   "hs": 58,
   "stack": true
+ },
+ {
+  "n": "45",
+  "key": "marquise-wheat-cuff",
+  "plate": "plates/colour/45-marquise-wheat-cuff.jpg",
+  "raw": "45a",
+  "title": "Marquise Coil Cuff",
+  "price": "₹1,499",
+  "variant": null,
+  "ingredient": "magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff",
+  "ground": "warm sand-beige handwoven linen",
+  "rhyme": "each marquise stone is the size and shape of a melon seed, and the two slanted rows read like seeds sown in a herringbone",
+  "line": "Sown in two rows.",
+  "ink": "#5C4420",
+  "score": 9.1,
+  "jobs": [
+   "c5800292 (45a, kept)",
+   "430a1a81 (45b)"
+  ],
+  "notes": "45a: two rows of marquise stones in gold claw cups slanting in opposite directions as in the listing, plain polished back band with a ball at each end. Seeds about 1.3x a stone against about 1.2x true; cuff about 1.1x. 45b equally faithful with a calmer top left but slightly milky stones.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
  }
 ]
