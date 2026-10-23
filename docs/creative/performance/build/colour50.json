@@ -528,5 +528,53 @@
   },
   "w": 330,
   "stack": true
+ },
+ {
+  "n": "24",
+  "key": "verdant-cushion-studs",
+  "plate": "plates/colour/24-verdant-cushion-studs.jpg",
+  "raw": "24c",
+  "title": "Verdant Cushion Studs",
+  "price": "₹1,199",
+  "variant": "Silver",
+  "ingredient": "two fresh paan (betel) leaves and one whole clove, the pin of a folded paan",
+  "ground": "ivory lime plaster",
+  "rhyme": "deep emerald cushion stones = the glossy deep green of a paan leaf; the clove is the paan pin and the scale proof",
+  "line": "Pehenke paan Banaras wala.",
+  "ink": "#1F4A33",
+  "score": 9.0,
+  "jobs": [
+   "a399bd19 (24a)",
+   "0bd2bb52 (24b)",
+   "46aa9df2 (24c, kept)",
+   "a1350795 (24d)"
+  ],
+  "notes": "24a/24b drew the studs about 30mm against the leaf (2.3x). Reshot with a clove (15mm) beside them and a critical-scale block: 24c studs about one clove long, true. Studs exact: emerald cushion in a polished silver bezel inside a single scalloped halo of clear rounds. Line plays on the song Khaike paan Banaras wala.",
+  "feed_top": 560,
+  "pos": {
+   "left": 76,
+   "bottom": 80
+  }
+ },
+ {
+  "n": "25",
+  "key": "quatrefoil-eclat-studs",
+  "plate": "plates/colour/25-quatrefoil-eclat-studs.jpg",
+  "raw": "25b",
+  "title": "Quatrefoil Éclat Studs",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "freshly fallen parijat (harsingar, night jasmine) flowers, white petals on saffron-orange tubes",
+  "ground": "ivory lime plaster",
+  "rhyme": "clear pear stones radiating from a gold centre = white parijat petals around a saffron-gold tube; the studs lie like two more fallen flowers",
+  "line": "Collected at dawn.",
+  "ink": "#5E4519",
+  "score": 9.1,
+  "jobs": [
+   "cb527f4f (25a)",
+   "b154be50 (25b, kept)"
+  ],
+  "notes": "Studs exact: sharp four-point star with inward curves, single pave outline, four outward pear stones in gold frames, round centre in a four-lobed flower, open gaps. Each stud about one flower, true. 25a added leaves and a branch.",
+  "feed_top": 150
  }
 ]
