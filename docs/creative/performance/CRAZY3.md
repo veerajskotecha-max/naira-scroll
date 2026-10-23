@@ -40,11 +40,11 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 | 33 · 34 | Molten Panel Bracelet | a gold-rimmed espresso cup on its saucer · sand | a black silk saree with a gold zari border · charcoal | Brunch, in gold. / Liquid gold. |
 | 35 · 36 | Torsade Pearl Cuff | a pearl-white satin headband · blush | a black satin hair bow · warm taupe | Classic, with a twist. / Black bow, white pearls. |
 | 37 · 38 | Baguette Halo Drops | one white gardenia · ivory | a lit brass diya · maroon | Pearl and petal. / Diwali, dressed up. |
-| 39 · 40 | Verdant Cushion Studs · Silver | a sprig of eucalyptus · pale mint | a green glass perfume bottle · forest green | Fresh green. / Emerald hour. |
+| 39 · 40 | Verdant Cushion Studs · Silver | a sprig of eucalyptus · pale mint | a small polished malachite dish · forest green | Fresh green. / Emerald hour. |
 
 Lines are drafts and are settled shot by shot. Changed so far: 05 has a linen shirt in place of the silk scarf (a silk knot read as a
 necktie in round three, and the shirt's buttons give the hoops a true size); 06's line is Make an entrance., since Fan favourite.
-claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out; 17 has a mogra gajra in place of a lace fan, since 06 already has a fan; 28 is on ink blue in place of aubergine, which 26 already has; 30 has a mirrored disco ball in place of a silver mesh clutch, since the set already has four clutches; 32 is on deep rosewood in place of plum, which 10 already has; 33 and 34 have a gold-rimmed espresso cup and a black silk saree with a zari border in place of two more clutches; 36 is on warm taupe in place of near-black, which five frames already have.
+claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out; 17 has a mogra gajra in place of a lace fan, since 06 already has a fan; 28 is on ink blue in place of aubergine, which 26 already has; 30 has a mirrored disco ball in place of a silver mesh clutch, since the set already has four clutches; 32 is on deep rosewood in place of plum, which 10 already has; 33 and 34 have a gold-rimmed espresso cup and a black silk saree with a zari border in place of two more clutches; 36 is on warm taupe in place of near-black, which five frames already have; 40 has a malachite dish in place of a green glass perfume bottle, since 18 already has a perfume bottle.
 
 ## True scale
 
@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-38 shots kept, average score 9.08, 68 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+40 shots kept, average score 9.08, 70 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -110,4 +110,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 36 | Torsade Pearl Cuff | a large black satin hair bow on a slim clip | deep warm taupe lime plaster | Black bow, white pearls. | 9.0 | 1 |
 | 37 | Baguette Halo Drops | one white gardenia in full bloom with two glossy leaves | pale warm ivory lime plaster | Pearl and petal. | 9.2 | 1 |
 | 38 | Baguette Halo Drops | one small lit brass diya | deep maroon lime plaster | Diwali, dressed up. | 9.2 | 1 |
+| 39 | Verdant Cushion Studs (Silver) | a sprig of silver-dollar eucalyptus | pale mint lime plaster | Fresh green. | 9.1 | 1 |
+| 40 | Verdant Cushion Studs (Silver) | a small round polished malachite dish | deep forest-green lime plaster | Emerald hour. | 9.1 | 1 |
 <!-- /log -->
