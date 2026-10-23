@@ -572,6 +572,28 @@
   "replaces": "two cubes of soan papdi, one broken open, loose flaky threads, one flake touching a huggie"
  },
  {
+  "n": "33",
+  "key": "riviere-huggies-silver",
+  "plate": "plates/colour/33-riviere-huggies-silver.jpg",
+  "raw": "r33a",
+  "title": "Rivière Hoops",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "ingredient": "a small mirror disco ball",
+  "ground": "deep midnight-blue lime plaster",
+  "rhyme": "the sangeet night: a row of clear stones beside a ball of tiny mirrors, silver on midnight blue",
+  "line": "Sangeet-ready.",
+  "ink": "#E6ECF3",
+  "page_ink": "#2A3A57",
+  "score": 9.0,
+  "jobs": [
+   "02df1db5 (r33a, kept)"
+  ],
+  "notes": "r33a: open C hoops of one row of slightly oval clear stones, each in a rounded silver cup with a milgrain rim, with the straight post, as in the listing. The hoops read a little large beside the ball, which runs off the right edge. A dark frame: the words sit in pale silver.",
+  "round": 3,
+  "replaces": "whole cashews (kaju), a loose scatter with one lying beside the flat hoop"
+ },
+ {
   "n": "41",
   "key": "duo-link-bracelet",
   "plate": "plates/colour/41-duo-link-bracelet.jpg",

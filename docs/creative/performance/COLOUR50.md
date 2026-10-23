@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-46 shots kept, average score 9.13, 95 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+47 shots kept, average score 9.13, 96 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -129,6 +129,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 30 | Serpentine Whisper Chain (Silver) | one white rose with a short stem | pale cool lavender-grey lime plaster | Say it with one. | 9.2 | 2 |
 | 31 | Baroque Shell Bracelet | pale powder-pink mulmul with white Lucknowi chikankari | the embroidered mulmul itself | Made for your chikankari. | 9.3 | 1 |
 | 32 | Petite Square Huggies | a small square ivory gift box tied with a gold satin ribbon | pale sage-green lime plaster | A square deal. | 8.9 | 1 |
+| 33 | Rivière Hoops (Silver) | a small mirror disco ball | deep midnight-blue lime plaster | Sangeet-ready. | 9.0 | 1 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
 | 42 | Mint Pear Drop Earrings | a green nashpati, one whole and one cut half, with one loose seed on the plaster | pale celadon-green lime plaster | Pick of the pears. | 9.0 | 4 |
 | 45 | Marquise Coil Cuff | magaz (peeled melon seeds), a loose heap with a pair of seeds beside the cuff | warm sand-beige handwoven linen | Sown in two rows. | 9.1 | 2 |
