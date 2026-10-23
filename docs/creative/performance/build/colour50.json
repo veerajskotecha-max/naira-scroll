@@ -330,5 +330,81 @@
   "w": 270,
   "hs": 52,
   "stack": true
+ },
+ {
+  "n": "16",
+  "key": "brushed-gold-huggies",
+  "plate": "plates/colour/16-brushed-gold-huggies.jpg",
+  "raw": "16c",
+  "title": "Brushed Gold Huggies",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "two rava laddoos, one topped with a cashew and one broken open, crumbs",
+  "ground": "ivory lime plaster",
+  "rhyme": "the pale satin-brushed gold = the pale matte gold of a ghee-roasted rava laddoo; Diwali",
+  "line": "Roasted till golden.",
+  "ink": "#5F4A1E",
+  "score": 8.8,
+  "jobs": [
+   "4a09ba84 (16a)",
+   "2c795142 (16b)",
+   "38a3f17d (16c, kept)",
+   "2b12ccbd (16d)"
+  ],
+  "notes": "16a/16b drew the huggies 2.5 to 3 times too large against the cashew. Reshot with the earrings touching the laddoos at the same depth and a critical-scale block: 16c is about 1.3x true (huggie a third of a laddoo). Brushed satin finish and pale gold true; hinge side visible."
+ },
+ {
+  "n": "17",
+  "key": "riviere-eternal-bracelet",
+  "plate": "plates/colour/17-riviere-eternal-bracelet.jpg",
+  "raw": "17f",
+  "title": "Rivière Eternal Bracelet",
+  "price": "₹1,449",
+  "variant": null,
+  "ingredient": "an old steel katori of dry sabudana (sago), grains and sago dust spilled beside the bracelet",
+  "ground": "pale grey Kota stone",
+  "rhyme": "round 3-4mm stones = round 3mm sago grains, one sparkling and one chalky white",
+  "line": "Sabudana, but make it sparkle.",
+  "ink": "#5A4416",
+  "score": 8.9,
+  "jobs": [
+   "ed7dd459 (17a)",
+   "dde686fe (17b)",
+   "23004100 (17c)",
+   "b60213ba (17d)",
+   "46bc65c7 (17e)",
+   "d34e875d (17f, kept)"
+  ],
+  "notes": "Round one drew drilled bead-like sago (reads as beads or pearls) and star glints. Round two in a steel katori read as food but the soaked clump looked like jelly. Round three, dry only: 17f reads as sago (irregular chalky grains, powder), grains the size of the stones, bracelet exact with box clasp and fold-over safety, no glints.",
+  "stack": true,
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 420
+ },
+ {
+  "n": "18",
+  "key": "lilac-papillon-ring",
+  "plate": "plates/colour/18-lilac-papillon-ring.jpg",
+  "raw": "18b",
+  "title": "Lilac Papillon Ring",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "a drift of fallen lavender jacaranda blossoms, two loose petals",
+  "ground": "ivory lime plaster",
+  "rhyme": "the pale lilac pave wings = the lavender of jacaranda; a butterfly landed among fallen flowers",
+  "line": "Jacaranda season, all year.",
+  "ink": "#4B3A66",
+  "score": 9.0,
+  "jobs": [
+   "df33dff7 (18a)",
+   "e4e0ac61 (18b, kept)"
+  ],
+  "notes": "Ring exact: lilac micro-pave wings in raised gold rims, polished body bar, open clear-stone outline offset behind, slim shank. Butterfly about two thirds of a blossom, near true. 18a enlarged the ring about 1.5x and set it on a plinth edge.",
+  "pos": {
+   "left": 76,
+   "bottom": 80
+  }
  }
 ]
