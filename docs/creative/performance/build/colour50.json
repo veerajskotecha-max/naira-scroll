@@ -1065,5 +1065,30 @@
    "left": 76,
    "bottom": 72
   }
+ },
+ {
+  "n": "46",
+  "key": "triple-coil-wrap-bangle",
+  "plate": "plates/colour/46-triple-coil-wrap-bangle.jpg",
+  "raw": "46b",
+  "title": "Triple Coil Wrap Bangle",
+  "price": "₹1,499",
+  "variant": "Gold",
+  "ingredient": "bhakarwadi, a heap of spiral rounds with crumbs and sesame, one leaning on the bangle",
+  "ground": "pale warm terracotta lime plaster",
+  "rhyme": "the coiled tubogas bangle = the rolled spiral of bhakarwadi, gold on golden-brown",
+  "line": "Rolled up in gold.",
+  "ink": "#5E3F1E",
+  "score": 9.1,
+  "jobs": [
+   "5434679a (46a)",
+   "978c1f7c (46b, kept)"
+  ],
+  "notes": "46b: one continuous finely ribbed tubogas coil showing three lines at the front, two rectangular caps with two rows of pavé, one on the upper turn at the left and one on the lower turn, as in the listing. Bangle about 1.7x a bhakarwadi round, which suits a large 4cm piece. 46a was equally faithful with a cleaner prop layout but put a four-point star glint on the middle coil.",
+  "pos": {
+   "left": 76,
+   "top": 360
+  },
+  "stack": true
  }
 ]
