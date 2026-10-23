@@ -68,6 +68,33 @@
   "replaces": "three ripe golden wheat ears, loose grains and a bristle"
  },
  {
+  "n": "05",
+  "key": "verdant-eternity-band",
+  "plate": "plates/colour/05-verdant-eternity-band.jpg",
+  "raw": "r05a",
+  "title": "Verdant Eternity Band",
+  "price": "₹1,099",
+  "variant": null,
+  "ingredient": "an open emerald-green velvet ring box with an ivory satin lid",
+  "ground": "pale soft mint lime plaster",
+  "rhyme": "a ring belongs in a ring box: the moment before yes, in the green of its stones",
+  "line": "Green means yes.",
+  "ink": "#1E4632",
+  "score": 9.1,
+  "jobs": [
+   "6d42978a (r05a, kept)"
+  ],
+  "notes": "r05a: oval green stones in four claws, the fine clear pave wave scalloping round each oval, cool silver tone, as in the listing; the open back sits down in the slot. True scale: the ring is about a third of the 5 cm box. Plain lining, no text. Calm mint plaster top left for the words.",
+  "round": 3,
+  "replaces": "freshly shelled hara chana in an old brass katori, a papery pod",
+  "pos": {
+   "left": 60,
+   "top": 84
+  },
+  "w": 330,
+  "stack": true
+ },
+ {
   "n": "13",
   "key": "silk-mesh-cuff",
   "plate": "plates/colour/13-silk-mesh-cuff.jpg",
@@ -484,6 +511,29 @@
   "notes": "53e: square pastel stones in double pavé halos with corner claws, joined halo to halo in silver tone, in a strict aqua, pink, yellow order; exactly three boats; calm upper half. Reshot twice: 53a had no calm corner for the words, 53b put chain links between the stones and star glints on them, 53c set two pinks side by side, 53d drew a fourth boat and only 12 stones, 53f stood a boat on its tip. The stones read a little bolder than 5 mm beside 3 cm boats; there is no fixed-size referent, so the bracelet still reads true."
  },
  {
+  "n": "54",
+  "key": "woven-gold-hoops",
+  "plate": "plates/colour/54-woven-gold-hoops.jpg",
+  "raw": "r54b",
+  "title": "Woven Gold Hoops",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "a wide, low hand-woven cane jewellery tray",
+  "ground": "pale warm oat lime plaster",
+  "rhyme": "where everyday hoops live: a braid of gold strands lying on a weave of cane",
+  "line": "The weave you wear.",
+  "ink": "#5C4122",
+  "score": 8.8,
+  "jobs": [
+   "baf89713 (failed)",
+   "c010ce7d (r54a)",
+   "329dfaa7 (r54b, kept)"
+  ],
+  "notes": "r54b: a braid of many fine gold strands, the flat disc inside the top and the hinged latch, both round, as in the listing. The hoops read a little large in the tray (about 1.4x; the model draws them big beside cane); the tray runs off the right edge. r54a leaned one hoop on the rim and drew it about twice its size. Calm plaster top left for the words.",
+  "round": 3,
+  "replaces": "a golden silk paranda, a three-strand plait ending in a tassel bound with zari"
+ },
+ {
   "n": "55",
   "key": "cushion-halo-ring",
   "plate": "plates/colour/55-cushion-halo-ring.jpg",
@@ -502,6 +552,27 @@
    "af586ddf (55b)"
   ],
   "notes": "55a: one round brilliant in four claws inside a single-row cushion halo, pavé down both shoulders, silver tone, as in the listing; the ring stands on its band beside the seed head with three seeds rising to the right. The halo is a little under half the seed head, true for 12 mm and a 30 mm head. 55b was faithful and slightly truer in scale, but a bright window filled the calm top."
+ },
+ {
+  "n": "56",
+  "key": "verdant-eternity-band",
+  "plate": "plates/colour/56-verdant-eternity-band.jpg",
+  "raw": "r56a",
+  "title": "Verdant Eternity Band",
+  "price": "₹1,099",
+  "variant": null,
+  "ingredient": "a mehendi cone and a freshly piped leafy henna vine on handmade paper",
+  "ground": "ivory handmade cotton paper",
+  "rhyme": "the green ovals cradled in a wave of clear stones = a mehendi bel; the vine runs straight into the ring: wedding season, and the green that stays",
+  "line": "Mehendi that never fades.",
+  "ink": "#3F4A2C",
+  "score": 9.2,
+  "jobs": [
+   "3661971f (r56a, kept)"
+  ],
+  "notes": "r56a: oval green stones in four claws, the clear pave wave scalloping round each, the open adjustable back with looped tips, cool silver tone, as in the listing. Real glossy henna paste. The ring reads slightly large beside the piped leaves. Calm ivory paper top left for the words.",
+  "round": 3,
+  "replaces": "a fresh money plant cutting, three marbled heart-shaped leaves on a short vine"
  },
  {
   "n": "58",
