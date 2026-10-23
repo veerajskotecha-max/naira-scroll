@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-57 shots kept, average score 9.07, 152 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+58 shots kept, average score 9.07, 154 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -162,6 +162,7 @@ The shot log at the end records what was actually shot, kept and why.
 | 55 | Cushion Halo Ring | a dandelion seed head, with three seeds drifting free | pale dove-grey lime plaster with a hint of lilac | Make a wish. | 9.3 | 2 |
 | 56 | Verdant Eternity Band | a fresh money plant cutting, three marbled heart-shaped leaves on a short vine | pale mint-green lime plaster | Grows on you. | 9.1 | 2 |
 | 57 | Baguette Tennis Bracelet (Crystal) | the ivory keys of an old teak harmonium | warm honey teak and old ivory keys | Hits every note. | 9.1 | 4 |
+| 58 | Baguette Huggies (Emerald) | a small stack of green glass bangles, kaanch ki choodiyan, with fine gold lines | pale pistachio-cream lime plaster | Choodi, for your ears. | 9.3 | 2 |
 <!-- /log -->
 
 ## Review and upload

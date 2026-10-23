@@ -1360,5 +1360,25 @@
   },
   "w": 420,
   "stack": true
+ },
+ {
+  "n": "58",
+  "key": "baguette-huggies-emerald",
+  "plate": "plates/colour/58-baguette-huggies-emerald.jpg",
+  "raw": "58b",
+  "title": "Baguette Huggies",
+  "price": "₹1,199",
+  "variant": "Emerald",
+  "ingredient": "a small stack of green glass bangles, kaanch ki choodiyan, with fine gold lines",
+  "ground": "pale pistachio-cream lime plaster",
+  "rhyme": "small gold hoops with a row of green stones = the green glass bangles they sit inside; choodiyan for the wrist, choodi for the ears",
+  "line": "Choodi, for your ears.",
+  "ink": "#1F4A30",
+  "score": 9.3,
+  "jobs": [
+   "daa15e7c (58a)",
+   "a5214b35 (58b, kept)"
+  ],
+  "notes": "58b: both huggies stand inside the top bangle, each with one row of seven crosswise emerald baguettes in gold claws on the front half, plain gold behind and the hinge below, as in the listing. Each huggie is about a quarter of a bangle across, true for 15 mm and 6 cm. The glass throws soft green light onto the plaster. 58a was as faithful with the huggies lying flat and overlapping."
  }
 ]
