@@ -259,5 +259,55 @@
   ],
   "notes": "c10a: the same round brilliant in its single-row cushion halo, pavé shoulders and polished shank, as in the listing, warm with candlelight; the ring stands clear of the chamberstick. The model drew it about 1.6x true size (1.7 candle widths across), so it was set back at 0.62 in post on a clean plate of the same frame, scaled from where it stands; the rising arms of one star glint on the halo were removed, leaving a point of light (raw/c10a_r.png). One small natural flame. The chamberstick fills the upper right; calm plum plaster bottom left for the words, in cream.",
   "feed_top": 190
+ },
+ {
+  "n": "11",
+  "key": "bold-nocturne-chain-day",
+  "plate": "plates/crazy3/11-bold-nocturne-chain-day.jpg",
+  "raw": "c11b_s",
+  "product": "6",
+  "time": "day",
+  "title": "Bold Nocturne Chain",
+  "price": "₹1,799",
+  "variant": null,
+  "handle": "bold-nocturne-chain",
+  "ingredient": "a structured cream leather top-handle bag",
+  "ground": "pale warm stone lime plaster",
+  "rhyme": "the bag for the ten o'clock meeting, and the bold chain that goes with it",
+  "line": "Meeting at ten.",
+  "ink": "#54463A",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "8bb96826 (c11a, chain under the bag, 1.5x)",
+   "443960c5 (c11b, kept; chain scaled to true size)"
+  ],
+  "notes": "c11b: chunky elongated oval links, each threaded through the next, in mirror-polished gold tone, with exactly one fully pavé link, as in the listing; the chain lies clear of the bag and runs off the left edge. The model drew it about 1.6x true size (links 19 mm wide against the bag's 12 mm feet), so it was scaled to 0.62 in post about a point on the left edge, so both strands still leave the frame, shadows and all, on rebuilt plaster (raw/c11b_s.png). c11a tucked the chain under the bag. The bag fills the upper right; calm stone plaster bottom left for the words."
+ },
+ {
+  "n": "12",
+  "key": "bold-nocturne-chain-night",
+  "plate": "plates/crazy3/12-bold-nocturne-chain-night.jpg",
+  "raw": "c12a",
+  "product": "6",
+  "time": "night",
+  "title": "Bold Nocturne Chain",
+  "price": "₹1,799",
+  "variant": null,
+  "handle": "bold-nocturne-chain",
+  "ingredient": "one black satin pointed-toe stiletto",
+  "ground": "deep charcoal lime plaster",
+  "rhyme": "out late: the heels and the gold that go with them",
+  "line": "Out late.",
+  "ink": "#EFE6D8",
+  "page_ink": "#3A3836",
+  "score": 9.0,
+  "jobs": [
+   "033aa8eb (c12a, kept)"
+  ],
+  "notes": "c12a: chunky elongated oval links, each threaded through the next, in mirror-polished gold tone, with exactly one fully pavé link, as in the listing; the chain lies clear of the shoe and runs off the right edge. True to within about 1.2x against the stiletto, so it is left as shot (a shrink would leave the chain ending inside the frame). Planned with black leather gloves; one black satin stiletto replaced them, since gloves fit few Indian evenings out. The shoe fills the top right; calm charcoal plaster top left for the words, in cream."
  }
 ]

@@ -26,7 +26,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 | 05 · 06 | Woven Gold Hoops | a folded ivory linen shirt, its collar and mother-of-pearl buttons · oat | a black silk fan, half open · oxblood | Effortless, on purpose. / Make an entrance. |
 | 07 · 08 | Verdant Eternity Band | one white calla lily · pale sage | an emerald satin clutch · bottle green | Always in bloom. / Dinner in green. |
 | 09 · 10 | Cushion Halo Ring | a blank place card with a gold edge and baby's breath · dove grey | a silver candlestick, lit ivory taper · plum | Plus one. / Ask by candlelight. |
-| 11 · 12 | Bold Nocturne Chain | a structured cream top-handle bag · pale stone | black leather gloves · charcoal | Meeting at ten. / Out late. |
+| 11 · 12 | Bold Nocturne Chain | a structured cream top-handle bag · pale stone | one black satin stiletto · charcoal | Meeting at ten. / Out late. |
 | 13 · 14 | Bold Nocturne Bracelet | two linen-bound books with a ribbon marker · sand | a black silk bow tie · near-black | Well read. / Black tie. |
 | 15 · 16 | Halo Curve Ring | a tortoiseshell claw clip · latte | a lit amber glass votive · chocolate | Hair up, ring on. / Golden hour, extended. |
 | 17 · 18 | Marquise Layering Set | an ivory lace hand fan · blush | a crystal perfume atomizer · midnight | Shaadi season. / Layered for tonight. |
@@ -44,7 +44,7 @@ and price in the shot's ink. Each frame is shot one at a time and checked at zoo
 
 Lines are drafts and are settled shot by shot. Changed so far: 05 has a linen shirt in place of the silk scarf (a silk knot read as a
 necktie in round three, and the shirt's buttons give the hoops a true size); 06's line is Make an entrance., since Fan favourite.
-claims a popularity we have not measured.
+claims a popularity we have not measured; 12 has a black satin stiletto in place of leather gloves, which fit few Indian evenings out.
 
 ## True scale
 
@@ -68,7 +68,7 @@ the handoff page as its own section, marked for Keep or Drop.
 ## Shot log
 
 <!-- log -->
-10 shots kept, average score 9.14, 18 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
+12 shots kept, average score 9.12, 21 frames rendered. Each shot's notes, kept job and rhyme are in `build/crazy3.json`; plates in `plates/crazy3/`, Feed and Story ads in `ads/crazy3/`.
 
 | # | Product | Object | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -82,4 +82,6 @@ the handoff page as its own section, marked for Keep or Drop.
 | 08 | Verdant Eternity Band | an emerald-green satin evening clutch with a silver kiss-lock frame | deep bottle-green lime plaster | Dinner in green. | 9.0 | 4 |
 | 09 | Cushion Halo Ring | a blank place card with a thin gold edge and a sprig of baby's breath | pale dove-grey lime plaster | Plus one. | 9.3 | 2 |
 | 10 | Cushion Halo Ring | a small silver chamberstick with a lit ivory candle | deep plum lime plaster | Ask by candlelight. | 9.1 | 2 |
+| 11 | Bold Nocturne Chain | a structured cream leather top-handle bag | pale warm stone lime plaster | Meeting at ten. | 9.0 | 2 |
+| 12 | Bold Nocturne Chain | one black satin pointed-toe stiletto | deep charcoal lime plaster | Out late. | 9.0 | 1 |
 <!-- /log -->
