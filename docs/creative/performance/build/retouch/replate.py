@@ -26,9 +26,14 @@ ANCHOR = tuple(map(float, a[a.index("anchor") + 1:a.index("anchor") + 3])) if "a
 SEEDBOX = tuple(map(int, a[a.index("seedbox") + 1:a.index("seedbox") + 5])) if "seedbox" in a else None
 #   optional: cut x1 y1 x2 y2 ... ; = a polygon (raw px, ended by ';') that is never the piece nor
 #   replaced, e.g. a deep contact shadow or a prop beside it
-CUT = None
-if "cut" in a:
-    i0 = a.index("cut") + 1; i1 = a.index(";", i0); v = list(map(int, a[i0:i1])); CUT = np.int32(list(zip(v[0::2], v[1::2])))
+DROP = None                                                                # optional: drop x1 y1 ... ; = never the piece, but still replaced
+for i, tok in enumerate(a):                                                #   by the plate (an old shadow or coloured light under the piece)
+    if tok == "drop":
+        i1 = a.index(";", i + 1); v = list(map(int, a[i + 1:i1])); DROP = (DROP or []) + [np.int32(list(zip(v[0::2], v[1::2])))]
+CUT = None                                                                 # (several cuts may be given, each ended by ';')
+for i, tok in enumerate(a):
+    if tok == "cut":
+        i1 = a.index(";", i + 1); v = list(map(int, a[i + 1:i1])); CUT = (CUT or []) + [np.int32(list(zip(v[0::2], v[1::2])))]
 #   optional: solid = an opaque piece (plain metal, no clear stones): its pale smooth highlights are metal, never light through it
 SOLID = "solid" in a
 #   optional: seeddiff = keep only seeds the plate lacks, when a gold prop (a clutch frame) sits by the piece
@@ -48,6 +53,10 @@ if "zone" in a:
 #   optional: band r = whatever lies within r px of the piece's gold walls is the piece: soft, out-of-focus
 #   clear stones in box settings, which would otherwise read as light through the stones
 BAND = int(a[a.index("band") + 1]) if "band" in a else 0
+#   optional: bandd t = inside the band the piece needs to differ from the plate only by t (pale pearls on a pale ground);
+#   seedsd t = seeds must be busy (local brightness spread above t): faceted stones, never the smooth coloured light they throw
+BANDD = float(a[a.index("bandd") + 1]) if "bandd" in a else 0
+SEEDSD = float(a[a.index("seedsd") + 1]) if "seedsd" in a else 0
 #   optional: grabcut = refine the piece's outline by colour and edges (GrabCut), seeded by its strong metal as surely the piece and
 #   by the plaster the plate matches as surely not: for pale metal whose highlights and warm shadows colour thresholds confuse
 GRABCUT = "grabcut" in a
@@ -72,9 +81,12 @@ hsv = cv2.cvtColor(A.astype(np.uint8), cv2.COLOR_BGR2HSV)
 SEEDS_ = int(a[a.index("seeds") + 1]) if "seeds" in a else 100          # optional: seeds s / seedv v = the seeds' least saturation and
 SEEDV_ = int(a[a.index("seedv") + 1]) if "seedv" in a else 25           # brightness, for a pale stone on a ground of its own hue
 seed = ((hsv[..., 0] >= hlo) & (hsv[..., 0] <= hhi) & (hsv[..., 1] > SEEDS_) & (hsv[..., 2] > SEEDV_)).astype(np.uint8)
+if "hue2" in a:                                                            # optional: hue2 lo hi = a second stone colour that also seeds the piece
+    h2lo, h2hi = map(int, a[a.index("hue2") + 1:a.index("hue2") + 3])
+    seed |= ((hsv[..., 0] >= h2lo) & (hsv[..., 0] <= h2hi) & (hsv[..., 1] > SEEDS_) & (hsv[..., 2] > SEEDV_)).astype(np.uint8)
 seed = cv2.morphologyEx(seed, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
 if SEEDBOX: sb = np.zeros_like(seed); sb[SEEDBOX[1]:SEEDBOX[3], SEEDBOX[0]:SEEDBOX[2]] = 1; seed = seed * sb
-if CUT is not None: cmask = np.zeros_like(seed); cv2.fillPoly(cmask, [CUT], 1); seed[cmask > 0] = 0
+if CUT is not None: cmask = np.zeros_like(seed); cv2.fillPoly(cmask, CUT, 1); seed[cmask > 0] = 0
 if HAND:                                                                   # the outline drawn by hand is the authority on where the piece is
     e = HAND; band = np.zeros_like(seed)
     cv2.ellipse(band, ((e[0], e[1]), (e[2], e[3]), e[4]), 1, -1); cv2.ellipse(band, ((e[5], e[6]), (e[7], e[8]), e[9]), 0, -1)
@@ -111,6 +123,7 @@ Vf = hsv[..., 2].astype(np.float32); sd = np.sqrt(np.maximum(blur(Vf * Vf, 2.0) 
 lit = (lum(A) > lum(Pt) + 15) & (sd < 22) & (seed == 0) & (hsv[..., 1] < 60)  # light through the piece onto the ground, never saturated metal or stone
 if NOLIT: lit = np.zeros_like(lit)
 piece_like = ((sd > 16) | (lum(A) < lum(Pt) - 25) | (seed > 0)) & ~lit      # busy as pave, darker (stones), or its own colour
+if SEEDSD: seed = (seed & (blur(sd, 2) > SEEDSD)).astype(np.uint8)
 if BAND:
     inband = cv2.dilate(seed, disk(BAND)) > 0
     lit = lit & ~inband; piece_like = piece_like | inband
@@ -129,6 +142,7 @@ elif RINGFIT:                                                              # a r
     G = ((blur(d, 1.2) > 28) & (band > 0) & ~cream(hsv)).astype(np.uint8) | seed
 else:
     G = ((blur(d, 1.2) > 60) & (RZ > 0) & ~cream(hsv) & piece_like & ~shadowlike).astype(np.uint8)
+    if BAND and BANDD: G |= ((blur(d, 1.2) > BANDD) & inband & (RZ > 0) & ~shadowlike).astype(np.uint8)
 if SMOOTHSH: G[(sd < SMOOTHSH) & (lum(A) < lum(Pt) - 5) & (seed == 0)] = 0
 G = cv2.morphologyEx(G, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)) | seed
 if GRABCUT:
@@ -161,6 +175,7 @@ if FILL:                                                                   # cle
     n4, lab4, st4, _ = cv2.connectedComponentsWithStats((G == 0).astype(np.uint8))
     G = (G | np.isin(lab4, [i for i in range(1, n4) if st4[i][4] < FILL and st4[i][0] > 0 and st4[i][1] > 0 and st4[i][0] + st4[i][2] < w and st4[i][1] + st4[i][3] < h])).astype(np.uint8)
 if CUT is not None: G[cmask > 0] = 0
+if DROP is not None: dm = np.zeros_like(G); cv2.fillPoly(dm, DROP, 1); G[dm > 0] = 0
 
 hull = np.zeros_like(G); cv2.fillPoly(hull, [cv2.convexHull(np.argwhere(G > 0)[:, ::-1].astype(np.int32))], 1)
 Gd = cv2.dilate(G | hull, disk(ZPAD)); Z = np.zeros_like(G)                   # the whole outline, the ring's opening included

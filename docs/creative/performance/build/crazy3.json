@@ -788,5 +788,61 @@
    "760b6171 (clean plate of c30a for the retouch)"
   ],
   "notes": "c30a: the same open C-hoops with their row of round clear stones in silver claws and one pale icy aqua heart each, as in the listing; the pair lies clear of the ball. The model drew them about 2x true size (each stone wider than the ball's 5 mm mirror tiles), so they were set back at 0.52 in post on a clean plate of the same frame (raw/c30a_r.png): now each earring about a third of the 8 cm ball, true for 29 mm drops. One star-shaped glint on a stone of the right earring was softened to a round point of light first (raw/c30a_g.png). The frame was then cropped in a little at full resolution (raw/c30a_rc.png). A mirrored disco ball in place of the planned silver mesh clutch, since the set already has four clutches. The ball fills the upper right; calm teal plaster bottom left for the words, in pale mint."
+ },
+ {
+  "n": "31",
+  "key": "prism-cluster-studs-silver-day",
+  "plate": "plates/crazy3/31-prism-cluster-studs-silver-day.jpg",
+  "raw": "c31b_rc",
+  "product": "16",
+  "time": "day",
+  "title": "Prism Cluster Studs",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "handle": "prism-cluster-studs-silver",
+  "ingredient": "three sweet pea flowers in pink, violet and pale lemon",
+  "ground": "pale warm cream lime plaster",
+  "rhyme": "sweet on colour: the sweet peas and the studs in the same pink, violet and lemon",
+  "line": "Sweet on colour.",
+  "ink": "#5E4C3C",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.1,
+  "jobs": [
+   "f725ef42 (c31a, rejected: stones in a mirrored order)",
+   "865029ee (c31b, kept; studs set back at true size)",
+   "b7d744f0 (clean plate of c31b for the retouch)"
+  ],
+  "notes": "c31b: two mirror-image arcs of five coloured stones in bright silver claws, purple princess, pink baguette, yellow emerald cut at the centre, purple princess, pink baguette, with tiny white pearls tucked between them, as in the listing photo; the studs lie clear of the flowers. c31a set the stones symmetrically, purple at both ends, which the product never is, so it was reshot with the order spelled out. The model drew them about 1.9x true size (each stud longer than a sweet pea flower is wide), so they were set back at 0.53 in post on a clean plate of the same frame, the pale pearls kept whole (raw/c31b_r.png): now each about two thirds of a flower, true for 20 mm studs. The frame was then cropped in a little at full resolution (raw/c31b_rc.png). The sweet peas fill the upper right; calm cream plaster bottom left for the words."
+ },
+ {
+  "n": "32",
+  "key": "prism-cluster-studs-silver-night",
+  "plate": "plates/crazy3/32-prism-cluster-studs-silver-night.jpg",
+  "raw": "c32a_rc",
+  "product": "16",
+  "time": "night",
+  "title": "Prism Cluster Studs",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "handle": "prism-cluster-studs-silver",
+  "ingredient": "an open gold lipstick case with its cap",
+  "ground": "deep rosewood lime plaster",
+  "rhyme": "the last look in the mirror before going out",
+  "line": "Last look.",
+  "ink": "#F3E7E0",
+  "page_ink": "#4A2620",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "score": 9.0,
+  "jobs": [
+   "5729e733 (c32a, kept; studs set back at true size)",
+   "006ce3d5 (clean plate of c32a for the retouch)"
+  ],
+  "notes": "c32a: the same two mirror-image arcs, purple, pink, yellow, purple, pink in silver claws with tiny white pearls between, as in the listing photo, warm in the low light; the studs lie clear of the lipstick. The model drew them about 1.7x true size (each stud twice as long as the lipstick is thick), so they were set back at 0.6 in post on a clean plate of the same frame (raw/c32a_r.png): now each about as long as the lipstick is thick, true for 20 mm studs. The frame was then cropped in a little at full resolution (raw/c32a_rc.png). Deep rosewood in place of the planned plum, which 10 already has. The lipstick fills the upper right; calm rosewood plaster bottom left for the words, in cream."
  }
 ]
