@@ -1466,5 +1466,30 @@
    "79cfffa4 (62b)"
   ],
   "notes": "62a: a finely ribbed snake-coil bangle in gold tone whose ends cross in one polished X, as in the listing; it rests on the envelope with the X beside the seal. The seal carries only a pressed heart, no letters. The bangle is about two thirds of the envelope's width, true for 6 cm and a small 9 cm envelope. 62b was faithful but cut the bangle at the frame edge."
+ },
+ {
+  "n": "63",
+  "key": "silk-mesh-cuff-silver",
+  "plate": "plates/colour/63-silk-mesh-cuff-silver.jpg",
+  "raw": "63a",
+  "title": "Silk Mesh Cuff",
+  "price": "₹1,499",
+  "variant": "Silver",
+  "ingredient": "a little cloud of white cotton wool",
+  "ground": "deep midnight-blue lime plaster",
+  "rhyme": "the open C of a silver cuff = a crescent moon resting on a cloud; Chanda mama door ke, brought close",
+  "line": "Chanda mama, paas ke.",
+  "ink": "#DCE6F2",
+  "score": 9.3,
+  "jobs": [
+   "4c9febf0 (63a, kept)",
+   "a8cda48b (63b)"
+  ],
+  "notes": "63a: one rounded tube of fine woven mesh bent into an open C with a polished flat oval cap on each end, silver tone, as in the silver listing; the cuff stands upright on the cotton like a crescent moon. The cuff is a little narrower than the cloud, true for 7 cm and an 8 cm puff. 63b laid the cuff flat across the cotton and cut it at the frame edge. A night-blue frame: the words sit in pale moon silver.",
+  "feed_top": 100,
+  "pos": {
+   "left": 76,
+   "top": 84
+  }
  }
 ]
