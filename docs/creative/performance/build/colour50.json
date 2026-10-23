@@ -961,5 +961,58 @@
    "8f023906 (41b)"
   ],
   "notes": "41a matches the listing hero link for link: three silver and five gold long ovals, stacked gold-ring connectors, two places where gold links hook straight into each other as in the listing, lobster clasp and extender. Link about half the 4cm gur block. Asked for stone-grey plaster and got warm cream, which suits the gur. 41b had the grey ground but a different link order with a silver-to-gold direct hook."
+ },
+ {
+  "n": "42",
+  "key": "mint-pear-drop-earrings",
+  "plate": "plates/colour/42-mint-pear-drop-earrings.jpg",
+  "raw": "42c",
+  "title": "Mint Pear Drop Earrings",
+  "price": "₹1,199",
+  "variant": null,
+  "ingredient": "a green nashpati, one whole and one cut half, with one loose seed on the plaster",
+  "ground": "pale celadon-green lime plaster",
+  "rhyme": "the pale mint pear-cut stone = the pale green pear; the loose seed is the stone in brown",
+  "line": "Pick of the pears.",
+  "ink": "#3B4F2E",
+  "score": 9.0,
+  "jobs": [
+   "5f742a03 (42a)",
+   "d97a4f4e (42b)",
+   "837c6ddc (42c, kept)",
+   "59af9d03 (42d)"
+  ],
+  "notes": "42a/42b drew the earrings about 1.6x against the pear (about a third of its height). Reshot touching the cut half with a loose pear seed as the referent: 42c has three clear pears stepping to the mint pear in claws on each earring, the mint stone about 1.3x the seed (true about 1x) and the earring about a quarter of the pear. 42d drew them about 1.4x.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
+ },
+ {
+  "n": "43",
+  "key": "north-star-bangle",
+  "plate": "plates/colour/43-north-star-bangle.jpg",
+  "raw": "43a",
+  "title": "North Star Bangle",
+  "price": "₹999",
+  "variant": "Gold",
+  "ingredient": "three thin slices of kamrakh (star fruit) in a little of their own juice",
+  "ground": "soft primrose-yellow lime plaster",
+  "rhyme": "the engraved north stars on the gold band = the star cross-section of kamrakh, gold on gold; star fruit is famously sour",
+  "line": "All stars, no sour.",
+  "ink": "#5B4712",
+  "score": 9.1,
+  "jobs": [
+   "54468a1e (43a, kept)",
+   "6311d784 (43b)"
+  ],
+  "notes": "Shot from the gold listing photo (imported, 97b466d1) with the silver macro for the engraving only. 43a: slim flat polished gold band with the hinge, engraved eight-point stars each with a tiny stone alternating with round stones in flush bezels, as in the listing. Bangle about 1.3x a slice against about 0.8-1x true for a small kamrakh, within what the fruit allows. 43b equally faithful, bangle flatter and slices bleeding off the edge.",
+  "pos": {
+   "left": 76,
+   "top": 84
+  },
+  "w": 300,
+  "hs": 58,
+  "stack": true
  }
 ]

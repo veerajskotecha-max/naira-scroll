@@ -101,7 +101,7 @@ The shot log at the end records what was actually shot, kept and why.
 ## Shot log
 
 <!-- log -->
-41 shots kept, average score 9.04, 108 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
+43 shots kept, average score 9.04, 114 frames rendered. Each shot's notes, kept job and rhyme are in `build/colour50.json`; plates in `plates/colour/`, Feed and Story ads in `ads/colour/`.
 
 | # | Product | Ingredient | Ground | Line | Score | Tries |
 |---|---|---|---|---|---|---|
@@ -146,4 +146,6 @@ The shot log at the end records what was actually shot, kept and why.
 | 39 | Petal Flower Studs (Gold) | whole cloves (laung), a loose heap with three lying apart, one head turned to the camera | warm cream lime plaster | Laung, for your ears. | 9.2 | 2 |
 | 40 | Fine Tennis Bracelet | yellow mustard seeds (peeli rai), a spill with a band of seeds following the bracelet | soft ochre-mustard handwoven linen | Goes with everything. | 9.0 | 2 |
 | 41 | Duo Link Bracelet | a block of golden gur with broken crumbs beside a heap of white sugar (cheeni) | warm cream lime plaster | Gur ya cheeni? Dono. | 9.1 | 2 |
+| 42 | Mint Pear Drop Earrings | a green nashpati, one whole and one cut half, with one loose seed on the plaster | pale celadon-green lime plaster | Pick of the pears. | 9.0 | 4 |
+| 43 | North Star Bangle (Gold) | three thin slices of kamrakh (star fruit) in a little of their own juice | soft primrose-yellow lime plaster | All stars, no sour. | 9.1 | 2 |
 <!-- /log -->
