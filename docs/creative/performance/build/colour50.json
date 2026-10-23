@@ -1491,5 +1491,34 @@
    "left": 76,
    "top": 84
   }
+ },
+ {
+  "n": "64",
+  "key": "marquise-layering-set",
+  "plate": "plates/colour/64-marquise-layering-set.jpg",
+  "raw": "64b",
+  "title": "Marquise Layering Set",
+  "price": "₹1,599",
+  "variant": null,
+  "ingredient": "a small paper patang of champagne tissue on a bamboo spine and bow",
+  "ground": "pale dawn-peach lime plaster",
+  "rhyme": "the diamond-shaped marquise = the diamond-shaped patang above it, and the lariat's long fine drop = the kite's string; Uttarayan in miniature",
+  "line": "Kai po che!",
+  "ink": "#6B4226",
+  "score": 9.0,
+  "jobs": [
+   "6fb3c613 (64a)",
+   "f878e25a (64b, kept)",
+   "c68bbb35 (64c)",
+   "e76f0531 (64d)",
+   "dac5946f (64e)",
+   "55fe47bc (64f)"
+  ],
+  "notes": "64b: two separate fine cable chains; the short one carries one large marquise point-down, the Y-lariat meets at a small pear and its drop carries two marquise stations and a pear tip, five stones in all, as in the listing. The kite is a tissue patang on a bamboo spine and bow; the short necklace passes under it and trails out by its tail. Five other frames miscounted the lariat (64a, 64c, 64e, 64f) or ended it in a marquise with a star glint (64d), so 64b stays even though its chains run off the left edge; the Feed carries the words at the bottom left, clear of every chain.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  },
+  "w": 380
  }
 ]
