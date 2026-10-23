@@ -921,5 +921,45 @@
   },
   "w": 340,
   "stack": true
+ },
+ {
+  "n": "40",
+  "key": "fine-tennis-bracelet",
+  "plate": "plates/colour/40-fine-tennis-bracelet.jpg",
+  "raw": "40b",
+  "title": "Fine Tennis Bracelet",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "yellow mustard seeds (peeli rai), a spill with a band of seeds following the bracelet",
+  "ground": "soft ochre-mustard handwoven linen",
+  "rhyme": "one line of tiny round stones beside one line of tiny round mustard seeds; rai goes into every tadka, as the bracelet goes with every outfit",
+  "line": "Goes with everything.",
+  "ink": "#5C4310",
+  "score": 9.0,
+  "jobs": [
+   "bbc9d915 (40a)",
+   "e42dabaf (40b, kept)"
+  ],
+  "notes": "40b: one row of round stones in four-claw gold cups edge to edge, a real box clasp with tongue and latch, stones about 1.5 seeds wide (3mm against 2mm seeds); the seeds run as a band parallel to the bracelet. 40a scattered the seeds naturally but put a four-point star glint on one stone by the clasp."
+ },
+ {
+  "n": "41",
+  "key": "duo-link-bracelet",
+  "plate": "plates/colour/41-duo-link-bracelet.jpg",
+  "raw": "41a",
+  "title": "Duo Link Bracelet",
+  "price": "₹999",
+  "variant": null,
+  "ingredient": "a block of golden gur with broken crumbs beside a heap of white sugar (cheeni)",
+  "ground": "warm cream lime plaster",
+  "rhyme": "gold links and silver links = gur and cheeni, the two sweeteners every Indian kitchen asks you to choose between",
+  "line": "Gur ya cheeni? Dono.",
+  "ink": "#4E3F2E",
+  "score": 9.1,
+  "jobs": [
+   "6f85a9ad (41a, kept)",
+   "8f023906 (41b)"
+  ],
+  "notes": "41a matches the listing hero link for link: three silver and five gold long ovals, stacked gold-ring connectors, two places where gold links hook straight into each other as in the listing, lobster clasp and extender. Link about half the 4cm gur block. Asked for stone-grey plaster and got warm cream, which suits the gur. 41b had the grey ground but a different link order with a silver-to-gold direct hook."
  }
 ]
