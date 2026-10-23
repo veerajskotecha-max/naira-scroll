@@ -821,5 +821,29 @@
    "left": 76,
    "bottom": 72
   }
+ },
+ {
+  "n": "36",
+  "key": "bold-nocturne-drops",
+  "plate": "plates/colour/36-bold-nocturne-drops.jpg",
+  "raw": "36a",
+  "title": "Bold Nocturne Drops",
+  "price": "₹1,299",
+  "variant": null,
+  "ingredient": "til chikki, four sesame-and-jaggery pieces, loose seeds and a shard, one piece touching a pavé link",
+  "ground": "warm honey-toned lime plaster",
+  "rhyme": "the pavé link, tiny white stones packed in gold = sesame packed in golden jaggery",
+  "line": "Chikki si chamak.",
+  "ink": "#6A4214",
+  "score": 8.9,
+  "jobs": [
+   "35778362 (36a, kept)",
+   "be9817d9 (36b)"
+  ],
+  "notes": "The listing hero and macro show three parts per earring: a polished oval on the post, a smaller polished connector and the big pavé link (the brief wrongly said two links). 36a draws all three on both earrings with the posts; 36b drops the connector on one earring. Earring about 1.3-1.5x against a 35mm chikki piece, within what chikki sizes allow. The line avoids set-in-gold wording because the piece is gold tone.",
+  "pos": {
+   "left": 76,
+   "bottom": 72
+  }
  }
 ]
