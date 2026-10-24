@@ -1,0 +1,154 @@
+{
+ "title": "Bougainvillea Vine Bracelet",
+ "handle": "bougainvillea-vine-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Rhodium Silver Tone Plated"
+ ],
+ "descriptionHtml": "<p>A vine in bloom, around the wrist. A slender silver tone vine of curving stems and small pavé leaves, with five flowers along it: two small five petal flowers on each side and one larger six petal flower of about 11mm at the centre, each with a tiny clear cubic zirconia at its heart. In Fuchsia, with a deep ruby red centre flower, or Violet, with a soft lilac centre flower. It closes with a fold over clasp. Wear it to a garden lunch or a sangeet.</p><p><strong>STYLING TIP:</strong> Wear it alone with a sleeveless blouse so the whole vine shows.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Flowers: Four small five petal flowers, approximately 7mm, and one six petal centre flower, approximately 11mm</li>\n<li>Stones: Coloured cubic zirconia petals, clear cubic zirconia centres, joints and pavé leaves</li>\n<li>Colours: Fuchsia with a ruby red centre flower, or Violet with a lilac centre flower</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Bright silver tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/bougainvillea-vine-bracelet-size-guide.jpg\" alt=\"Size guide — Bougainvillea Vine Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Bougainvillea Vine Bracelet — Bracelet | Naira Petite",
+  "description": "A slender silver tone vine of curving stems and small pavé leaves, with five flowers along it: two small five petal flowers on each side and one larger six petal flower of about 11mm at the centre, each with a tiny clear cubic zirconia at its heart. Bougainvillea Vine Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Colour",
+   "values": [
+    {
+     "name": "Fuchsia"
+    },
+    {
+     "name": "Violet"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Colour",
+     "name": "Fuchsia"
+    }
+   ],
+   "sku": "ADT07-FU",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ],
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cc0216ff-c115-4a94-9846-c50d7a219e9d.jpg",
+    "alt": "Bougainvillea Vine Bracelet, Fuchsia — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Colour",
+     "name": "Violet"
+    }
+   ],
+   "sku": "ADT07-VI",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ],
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7591363a-9a7e-4c44-a13b-fc3f61c7fae2.jpg",
+    "alt": "Bougainvillea Vine Bracelet, Violet — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cc0216ff-c115-4a94-9846-c50d7a219e9d.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Fuchsia — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6066a87b-7c44-44fa-8452-08945991d910.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Fuchsia — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cd1549a2-30ab-45fc-94c7-c922c1229319.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Fuchsia — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5dbae19f-dc28-4b08-899e-9cc259df7c7f.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Fuchsia — macro detail: the ruby red centre flower and pavé leaves",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7591363a-9a7e-4c44-a13b-fc3f61c7fae2.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Violet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ad8779b6-781a-4c33-abe6-66a6fa9077cd.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Violet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8b07045d-418c-481e-8e49-6ec921b1909f.jpg",
+   "alt": "Bougainvillea Vine Bracelet, Violet — macro detail: the lilac centre flower and pavé leaves",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+# Raw 1856×2304 Higgsfield frames (266 MB). fetch.py downloads them again from results.json; colour.py rebuilds A6_Hc.png
+build/out/
+# Higgsfield upload response: presigned upload URLs carrying session tokens
+build/upload_refs_resp.json
+__pycache__/

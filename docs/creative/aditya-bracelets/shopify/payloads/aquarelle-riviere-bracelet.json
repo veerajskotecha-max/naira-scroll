@@ -1,0 +1,155 @@
+{
+ "title": "Aquarelle Rivière Bracelet",
+ "handle": "aquarelle-riviere-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>One fine line, in two colours. A fine tennis bracelet of small round brilliant cut cubic zirconia of about 3mm, each stone in its own gold four claw cup and linked straight into the next, closed with a slim fold over clasp. In bright Royal Blue or soft Lavender. Fine enough for every day, and easy to stack two together.</p><p><strong>STYLING TIP:</strong> Wear Royal Blue and Lavender together on one wrist.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Round brilliant cut cubic zirconia, approximately 3mm each</li>\n<li>Colours: Royal Blue or Lavender</li>\n<li>Setting: Individual gold four claw cups linked directly to one another</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/aquarelle-riviere-bracelet-size-guide.jpg\" alt=\"Size guide — Aquarelle Rivière Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Aquarelle Rivière Bracelet — Bracelet | Naira Petite",
+  "description": "A fine tennis bracelet of small round brilliant cut cubic zirconia of about 3mm, each stone in its own gold four claw cup and linked straight into the next, closed with a slim fold over clasp. Aquarelle Rivière Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Colour",
+   "values": [
+    {
+     "name": "Royal Blue"
+    },
+    {
+     "name": "Lavender"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Colour",
+     "name": "Royal Blue"
+    }
+   ],
+   "sku": "ADT06-RB",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ],
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/4dc0f424-9008-4041-8e51-e2d4ec88440e.jpg",
+    "alt": "Aquarelle Rivière Bracelet, Royal Blue — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   }
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Colour",
+     "name": "Lavender"
+    }
+   ],
+   "sku": "ADT06-LV",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ],
+   "file": {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/07e409bc-0d8f-4e52-8238-68055b147d5a.jpg",
+    "alt": "Aquarelle Rivière Bracelet, Lavender — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   }
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/4dc0f424-9008-4041-8e51-e2d4ec88440e.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Royal Blue — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ee4adbf6-2bab-4df6-8107-ae3641bb29d6.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Royal Blue — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bbedbf67-874a-4066-b6d3-adcf6a3cc6e9.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Royal Blue — macro detail: small round royal blue stones in gold claw cups",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/07e409bc-0d8f-4e52-8238-68055b147d5a.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Lavender — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d47856d0-658b-4f9f-b759-12d5816602b9.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Lavender — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f0c4fba5-58cb-4868-b243-21a3fec3846b.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Lavender — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6ea90d88-738c-48f8-bd71-d2a36e286f42.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Lavender — macro detail: small round lavender stones in gold claw cups",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

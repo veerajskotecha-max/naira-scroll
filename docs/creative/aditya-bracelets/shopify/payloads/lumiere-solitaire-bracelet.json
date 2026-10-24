@@ -1,0 +1,107 @@
+{
+ "title": "Lumière Solitaire Bracelet",
+ "handle": "lumiere-solitaire-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>One larger light, in a line of ovals. Oval cut clear cubic zirconia of about 5mm by 3mm are set crosswise, each turned so its long axis runs across the row and held at its flanks by slim gold claws. At the centre sits one larger round brilliant stone of about 7mm in its own four claw setting, so the bracelet has a front. A slim gold box clasp closes it. Wear it to a wedding with the solitaire on top of the wrist.</p><p><strong>STYLING TIP:</strong> Turn the solitaire to the top of the wrist and wear it alone.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Oval cut clear cubic zirconia, approximately 5mm by 3mm, set crosswise</li>\n<li>Centre stone: One round brilliant clear cubic zirconia, approximately 7mm, in a four claw setting</li>\n<li>Setting: Slim gold claws at the flanks of every stone, linked directly</li>\n<li>Closure: Box clasp</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/lumiere-solitaire-bracelet-size-guide.jpg\" alt=\"Size guide — Lumière Solitaire Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Lumière Solitaire Bracelet — Bracelet | Naira Petite",
+  "description": "Oval cut clear cubic zirconia of about 5mm by 3mm are set crosswise, each turned so its long axis runs across the row and held at its flanks by slim gold claws. Lumière Solitaire Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT08",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e67760da-136b-47bf-b67a-3be07e2051b1.jpg",
+   "alt": "Lumière Solitaire Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/08b9f7f8-0b87-47df-bb43-fce9f9e17381.jpg",
+   "alt": "Lumière Solitaire Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f1e4c362-9924-410f-bb88-d75410184ab8.jpg",
+   "alt": "Lumière Solitaire Bracelet — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/279ab8ca-93d6-4d12-94f3-e0937f9f4fa7.jpg",
+   "alt": "Lumière Solitaire Bracelet — macro detail: the round centre stone between crosswise ovals",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

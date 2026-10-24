@@ -1,0 +1,434 @@
+[
+ {
+  "handle": "clarte-baguette-bracelet",
+  "title": "Clarté Baguette Bracelet",
+  "product_id": "gid://shopify/Product/10353404903586",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT01",
+    "option": "Default Title",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A1_H",
+    "export": "exports/clarte-baguette-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/2c9ec1b5-c452-4a67-9c99-1975027bf4a0.jpg?v=1792873975",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A1_W1",
+    "export": "exports/clarte-baguette-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/a5140875-60ff-40eb-8636-d802300d5b68.jpg?v=1792873975",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A1_W2",
+    "export": "exports/clarte-baguette-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/bee1a50d-9981-44ab-ae94-823f09149d5d.jpg?v=1792873974",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A1_M",
+    "export": "exports/clarte-baguette-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e354d66a-85a6-4f22-808c-acd62aeb1ea0.jpg?v=1792873975",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "sorbet-riviere-bracelet",
+  "title": "Sorbet Rivière Bracelet",
+  "product_id": "gid://shopify/Product/10353404936354",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT02",
+    "option": "Default Title",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A2_H",
+    "export": "exports/sorbet-riviere-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/1cd8a502-782f-417e-a36f-31f747d2964a.jpg?v=1792873976",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A2_W1",
+    "export": "exports/sorbet-riviere-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/90fd0ae5-9e36-4f6b-bd00-0f95c8336b66.jpg?v=1792873976",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A2_W2",
+    "export": "exports/sorbet-riviere-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/896b9201-3289-42c5-8d80-5ab1fe25ce36.jpg?v=1792873975",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A2_M",
+    "export": "exports/sorbet-riviere-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cc3ebef7-c025-45a9-b761-3e5838fbf04b.jpg?v=1792873975",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "emerald-carre-bracelet",
+  "title": "Emerald Carré Bracelet",
+  "product_id": "gid://shopify/Product/10353404969122",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT03",
+    "option": "Default Title",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A3_H",
+    "export": "exports/emerald-carre-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/79741e22-1516-4701-99ec-536ee5234591.jpg?v=1792873977",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A3_W1",
+    "export": "exports/emerald-carre-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/a8f405e8-ccf0-492b-937a-35f0769d4be7.jpg?v=1792873977",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A3_W2",
+    "export": "exports/emerald-carre-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/dd37908d-55b0-48b5-b013-c4c1701fda77.jpg?v=1792873977",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A3_M",
+    "export": "exports/emerald-carre-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/4e4babbd-c736-4eea-89b9-73037211732f.jpg?v=1792873977",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "riviere-classique-bracelet",
+  "title": "Rivière Classique Bracelet",
+  "product_id": "gid://shopify/Product/10353405001890",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT04",
+    "option": "Default Title",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A4_H",
+    "export": "exports/riviere-classique-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/77d2a61c-2c65-417d-ae11-b33ab0d0e1a9.jpg?v=1792873979",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A4_W1",
+    "export": "exports/riviere-classique-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/d7f2ee2d-2bbd-41a1-a9b7-a8ac2a10bde1.jpg?v=1792873979",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A4_W2",
+    "export": "exports/riviere-classique-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/7c2e484f-5838-438f-a58d-38e2c00b99e9.jpg?v=1792873979",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A4_M",
+    "export": "exports/riviere-classique-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/046759ce-7779-4783-8ba0-aa4f1d0feb2a.jpg?v=1792873979",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "midnight-riviere-bracelet",
+  "title": "Midnight Rivière Bracelet",
+  "product_id": "gid://shopify/Product/10353413259426",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT05",
+    "option": "Default Title",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A5_H",
+    "export": "exports/midnight-riviere-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/c92da519-cfba-40af-bac1-6c61d4c1e29b.jpg?v=1792876279",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A5_W1",
+    "export": "exports/midnight-riviere-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8d5d929d-6937-4fa9-9d24-0aae124e5d3d.jpg?v=1792876279",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A5_W2",
+    "export": "exports/midnight-riviere-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/a5a95bb2-a2e7-45dc-ab44-c150c9f1a003.jpg?v=1792876279",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A5_M",
+    "export": "exports/midnight-riviere-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/d6dd0a0b-2822-478c-b397-ecaaaf6d554d.jpg?v=1792876280",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "aquarelle-riviere-bracelet",
+  "title": "Aquarelle Rivière Bracelet",
+  "product_id": "gid://shopify/Product/10353413292194",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT06-RB",
+    "option": "Royal Blue",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": 1
+   },
+   {
+    "sku": "ADT06-LV",
+    "option": "Lavender",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": 4
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A6_H",
+    "export": "exports/aquarelle-riviere-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/4dc0f424-9008-4041-8e51-e2d4ec88440e.jpg?v=1792876280",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A6_W1",
+    "export": "exports/aquarelle-riviere-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ee4adbf6-2bab-4df6-8107-ae3641bb29d6.jpg?v=1792876280",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A6_M",
+    "export": "exports/aquarelle-riviere-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/bbedbf67-874a-4066-b6d3-adcf6a3cc6e9.jpg?v=1792876280",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A7_H",
+    "export": "exports/aquarelle-riviere-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/07e409bc-0d8f-4e52-8238-68055b147d5a.jpg?v=1792876280",
+    "status": "READY"
+   },
+   {
+    "position": 5,
+    "key": "A7_W1",
+    "export": "exports/aquarelle-riviere-bracelet-05.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/d47856d0-658b-4f9f-b759-12d5816602b9.jpg?v=1792876280",
+    "status": "READY"
+   },
+   {
+    "position": 6,
+    "key": "A7_W2",
+    "export": "exports/aquarelle-riviere-bracelet-06.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f0c4fba5-58cb-4868-b243-21a3fec3846b.jpg?v=1792876280",
+    "status": "READY"
+   },
+   {
+    "position": 7,
+    "key": "A7_M",
+    "export": "exports/aquarelle-riviere-bracelet-07.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6ea90d88-738c-48f8-bd71-d2a36e286f42.jpg?v=1792876280",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "bougainvillea-vine-bracelet",
+  "title": "Bougainvillea Vine Bracelet",
+  "product_id": "gid://shopify/Product/10353413324962",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT07-FU",
+    "option": "Fuchsia",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": 1
+   },
+   {
+    "sku": "ADT07-VI",
+    "option": "Violet",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": 5
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A8_H",
+    "export": "exports/bougainvillea-vine-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cc0216ff-c115-4a94-9846-c50d7a219e9d.jpg?v=1792876281",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A8_W1",
+    "export": "exports/bougainvillea-vine-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6066a87b-7c44-44fa-8452-08945991d910.jpg?v=1792876281",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A8_W2",
+    "export": "exports/bougainvillea-vine-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cd1549a2-30ab-45fc-94c7-c922c1229319.jpg?v=1792876281",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A8_M",
+    "export": "exports/bougainvillea-vine-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/5dbae19f-dc28-4b08-899e-9cc259df7c7f.jpg?v=1792876281",
+    "status": "READY"
+   },
+   {
+    "position": 5,
+    "key": "A9_H",
+    "export": "exports/bougainvillea-vine-bracelet-05.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/7591363a-9a7e-4c44-a13b-fc3f61c7fae2.jpg?v=1792876281",
+    "status": "READY"
+   },
+   {
+    "position": 6,
+    "key": "A9_W1",
+    "export": "exports/bougainvillea-vine-bracelet-06.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ad8779b6-781a-4c33-abe6-66a6fa9077cd.jpg?v=1792876281",
+    "status": "READY"
+   },
+   {
+    "position": 7,
+    "key": "A9_M",
+    "export": "exports/bougainvillea-vine-bracelet-07.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8b07045d-418c-481e-8e49-6ec921b1909f.jpg?v=1792876281",
+    "status": "READY"
+   }
+  ]
+ },
+ {
+  "handle": "lumiere-solitaire-bracelet",
+  "title": "Lumière Solitaire Bracelet",
+  "product_id": "gid://shopify/Product/10353413357730",
+  "status": "DRAFT",
+  "price": "unset (0.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT08",
+    "option": "Default Title",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A10_H",
+    "export": "exports/lumiere-solitaire-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e67760da-136b-47bf-b67a-3be07e2051b1.jpg?v=1792876282",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A10_W1",
+    "export": "exports/lumiere-solitaire-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/08b9f7f8-0b87-47df-bb43-fce9f9e17381.jpg?v=1792876282",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A10_W2",
+    "export": "exports/lumiere-solitaire-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f1e4c362-9924-410f-bb88-d75410184ab8.jpg?v=1792876282",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A10_M",
+    "export": "exports/lumiere-solitaire-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/279ab8ca-93d6-4d12-94f3-e0937f9f4fa7.jpg?v=1792876282",
+    "status": "READY"
+   }
+  ]
+ }
+]

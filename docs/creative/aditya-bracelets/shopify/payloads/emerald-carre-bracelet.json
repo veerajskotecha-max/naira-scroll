@@ -1,0 +1,107 @@
+{
+ "title": "Emerald Carré Bracelet",
+ "handle": "emerald-carre-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>Green, squared off. A tennis bracelet of square princess cut emerald green cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of colour. It closes with a slim fold over clasp. The stones are green cubic zirconia rather than emerald. Wear it to a mehendi, or with a crisp white shirt when you want one strong note of colour.</p><p><strong>STYLING TIP:</strong> Pair it with a clear line bracelet so the green sits between two rows of light.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Square princess cut emerald green cubic zirconia, approximately 4mm each</li>\n<li>Setting: Square gold four claw settings, linked edge to edge</li>\n<li>Closure: Fold over clasp</li>\n<li>Stone note: Green cubic zirconia, not emerald</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/emerald-carre-bracelet-size-guide.jpg\" alt=\"Size guide — Emerald Carré Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Emerald Carré Bracelet — Bracelet | Naira Petite",
+  "description": "A tennis bracelet of square princess cut emerald green cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of colour. Emerald Carré Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT03",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/79741e22-1516-4701-99ec-536ee5234591.jpg",
+   "alt": "Emerald Carré Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a8f405e8-ccf0-492b-937a-35f0769d4be7.jpg",
+   "alt": "Emerald Carré Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dd37908d-55b0-48b5-b013-c4c1701fda77.jpg",
+   "alt": "Emerald Carré Bracelet — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/4e4babbd-c736-4eea-89b9-73037211732f.jpg",
+   "alt": "Emerald Carré Bracelet — macro detail: square emerald green stones in square gold claw settings",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "title": "Sorbet Rivière Bracelet",
+ "handle": "sorbet-riviere-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>Soft colour, a stone at a time. A fine tennis bracelet of round brilliant cut cubic zirconia of about 3mm in sorbet pastels, baby pink, pale lime and lilac blue, mixed along the line so the colours keep changing. Each stone sits in its own gold four claw cup, linked straight into the next, and a slim fold over clasp keeps the line flat on the wrist. Wear it with white linen in summer, or with a pastel kurta for a day function.</p><p><strong>STYLING TIP:</strong> Wear it with white linen and one plain gold ring so the pastels lead.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Round brilliant cut cubic zirconia, approximately 3mm each</li>\n<li>Colours: Baby pink, pale lime and lilac blue, mixed along the line</li>\n<li>Setting: Individual gold four claw cups linked directly to one another</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/sorbet-riviere-bracelet-size-guide.jpg\" alt=\"Size guide — Sorbet Rivière Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Sorbet Rivière Bracelet — Bracelet | Naira Petite",
+  "description": "A fine tennis bracelet of round brilliant cut cubic zirconia of about 3mm in sorbet pastels, baby pink, pale lime and lilac blue, mixed along the line so the colours keep changing. Sorbet Rivière Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT02",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1cd8a502-782f-417e-a36f-31f747d2964a.jpg",
+   "alt": "Sorbet Rivière Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/90fd0ae5-9e36-4f6b-bd00-0f95c8336b66.jpg",
+   "alt": "Sorbet Rivière Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/896b9201-3289-42c5-8d80-5ab1fe25ce36.jpg",
+   "alt": "Sorbet Rivière Bracelet — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cc3ebef7-c025-45a9-b761-3e5838fbf04b.jpg",
+   "alt": "Sorbet Rivière Bracelet — macro detail: pastel pink, lime and lilac stones in gold claw cups",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "title": "Rivière Classique Bracelet",
+ "handle": "riviere-classique-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>The classic, kept simple. One continuous line of round brilliant cut clear cubic zirconia of about 3.5mm, each stone held in its own gold four claw cup and linked straight into the next, with nothing to interrupt the row. A slim gold box clasp closes it. It is the tennis bracelet in its plainest and most useful form: wear it every day, or stack it with a watch.</p><p><strong>STYLING TIP:</strong> Wear it on the same wrist as a slim watch.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Round brilliant cut clear cubic zirconia, approximately 3.5mm each</li>\n<li>Setting: Individual gold four claw cups linked directly to one another</li>\n<li>Closure: Box clasp</li>\n<li>Finish: Polished gold tone</li>\n<li>Material: Stainless steel</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/riviere-classique-bracelet-size-guide.jpg\" alt=\"Size guide — Rivière Classique Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Rivière Classique Bracelet — Bracelet | Naira Petite",
+  "description": "One continuous line of round brilliant cut clear cubic zirconia of about 3.5mm, each stone held in its own gold four claw cup and linked straight into the next, with nothing to interrupt the row. Rivière Classique Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT04",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/77d2a61c-2c65-417d-ae11-b33ab0d0e1a9.jpg",
+   "alt": "Rivière Classique Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d7f2ee2d-2bbd-41a1-a9b7-a8ac2a10bde1.jpg",
+   "alt": "Rivière Classique Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7c2e484f-5838-438f-a58d-38e2c00b99e9.jpg",
+   "alt": "Rivière Classique Bracelet — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/046759ce-7779-4783-8ba0-aa4f1d0feb2a.jpg",
+   "alt": "Rivière Classique Bracelet — macro detail: round clear stones in gold four claw cups",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}
