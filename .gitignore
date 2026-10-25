@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python bytecode from the creative build scripts
+__pycache__/
+*.pyc
