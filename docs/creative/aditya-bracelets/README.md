@@ -52,6 +52,9 @@ Verified after the push (`shopify/pushed.json`):
 - 10 variants with SKUs ADT01–ADT08, each tracked with 5 available at Forest Colony Parijat Nagar.
 - 38 images, all READY. Each colour option has its own hero attached.
 - Google and Facebook category metafields are set (191, Apparel & Accessories > Jewelry > Bracelets).
+- The product category is set to Apparel & Accessories > Jewelry > Bracelets (`aa-6-3`), added 2026-10-25.
+- The vendor and type rules already place all 8 in the Shop All and Bracelets collections.
+- Since 2026-10-25 each product is attached to the same 6 sales channels as the live bracelets: Online Store, Point of Sale, Facebook & Instagram, Google & YouTube, Naira Headless and Lovable. Shopify shows nothing on a channel while a product is DRAFT, so each reads "not published" there until it is switched to Active.
 
 `build/cdn_compare.py` downloads every image and size guide back from the Shopify CDN and matches it to its local export. All 46 match, each in the right position (`shopify/cdn_check.txt`).
 
@@ -59,7 +62,7 @@ Care copy is the plain line, with no waterproof, tarnish-free or hypoallergenic 
 
 ## Before publishing
 
-1. **Prices.** Every variant is at 0.00, left for the owner.
+1. **Prices.** Every variant is at 0.00, left for the owner. Set the price before switching a product to Active: it goes live on all 6 channels at that moment. Cost per item is also empty; the live bracelets carry one, which feeds the margin reports.
 2. **Adjustable lengths.** Every listing says "Approximately 17cm" because no slider or extender shows in the photos. For the pieces that adjust from 15 to 19 cm, `sizeguide.py` takes an adjust range, and the Length line should change to match.
 3. **Overlaps with live products** (see `shopify/overlaps.jpg`):
    - ADT01 matches Baguette Éclat Bracelet (live, 15 units) and the Crystal option of Baguette Tennis Bracelet (live, 58).
