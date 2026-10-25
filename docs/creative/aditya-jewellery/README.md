@@ -100,7 +100,15 @@ jubilee-style watch strap, so ADT18 was reshot, renamed and rewritten.
   Bangle tag, a new SEO title and description, and the rigid-bangle copy. The owner's two PVD plating lines and the care text
   are kept as written. Price, cost, stock, status and channels are untouched. The handle stays `watch-link-bracelet`, so
   nothing that points at the old address breaks.
-- **Still open.** The bangle's inner size, and whether it opens on a hinge.
+- **The live listing (product 9338087342242, BSS00028, 30 in stock) is the same piece.** On 25 Oct its hero, worn and macro
+  photos were replaced in place with the three bangle exports. The flexible side-worn photo and the 17 cm strap size guide
+  came off the product, and the copy now describes a rigid bangle. The owner's PVD lines and care text are kept. The before
+  state is in `shopify/molten-panel-before/`.
+- **Renamed Molten Panel Bangle** (22:53 UTC, at the owner's request), with the three image alts to match. The handle stays
+  `molten-panel-bracelet`, so links and ads still land. The type stays Bracelet, so it stays in the Bracelets collection.
+  The live page shows the new name once it loads. The site's prerendered title tag, which link previews read, still said
+  Bracelet just after the change.
+- **Still open.** The bangle's inner size, and whether it opens on a hinge. The draft ADT18 duplicates the live listing.
 
 ## Shopify
 

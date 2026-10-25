@@ -1,23 +1,25 @@
 {
  "product": "gid://shopify/Product/9338087342242",
  "handle": "molten-panel-bracelet",
+ "title": "Molten Panel Bangle",
  "status": "ACTIVE",
  "changed_at": "2026-10-25T21:07Z",
+ "renamed_at": "2026-10-25T22:53Z (owner's request; was Molten Panel Bracelet; handle, type Bracelet, tags and channels unchanged)",
  "images": [
   {
    "id": "gid://shopify/MediaImage/37280289325218",
    "from": "exports/watch-link-bracelet-01.jpg",
-   "alt": "Molten Panel Bracelet — rigid bangle standing on a cream plaster block, the full piece"
+   "alt": "Molten Panel Bangle — rigid bangle standing on a cream plaster block, the full piece"
   },
   {
    "id": "gid://shopify/MediaImage/37280289357986",
    "from": "exports/watch-link-bracelet-02.jpg",
-   "alt": "Molten Panel Bracelet — worn on the model's wrist"
+   "alt": "Molten Panel Bangle — worn on the model's wrist"
   },
   {
    "id": "gid://shopify/MediaImage/37280289456290",
    "from": "exports/watch-link-bracelet-03.jpg",
-   "alt": "Molten Panel Bracelet — macro detail: small polished oval plates in staggered rows on the rigid band"
+   "alt": "Molten Panel Bangle — macro detail: small polished oval plates in staggered rows on the rigid band"
   },
   {
    "id": "gid://shopify/MediaImage/37245466149026",
