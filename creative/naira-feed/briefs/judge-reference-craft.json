@@ -1,0 +1,142 @@
+{
+  "lens": "Art director measuring each grid against @projecttteteatete (PTAT): nameable world, recurring emblem/lockup, named series, illustration + cut-out + photo mixing, Indian everyday objects as stages, dense vs breathing alternation, big colour fields, reel covers designed into the grid; judged at 36% thumbnail (391x521 tiles), row by row, including how row 4 (P3 P2 P1) sits on the live LAC / flower / BONE row.",
+  "scores": [
+    {
+      "proposal": "proposal-indian-pop.json · MANGAL: the Tuesday gold season",
+      "total_out_of_100": 87,
+      "criteria": "Idea strength 9: MANGAL means both auspicious and Tuesday, which turns the owner's 'Not locker gold. Tuesday gold.' into the season's title; ten House Rules from Mummy's house give each tile a real joke (moon first, dabba never goes back empty, 501, two rings call me back). | Nameability in 3 s 9: a 92 px MANGAL seal on 10 tiles (~33 px in the grid, readable) plus a nine-script key art; the world is 'a season called Mangal, staged in Mummy's house'. | Reference depth 10: the closest to PTAT on every axis: multi-script key art (MILNI), a lockup bracketed by two motifs (tulips + chaabi standing in for marigolds + mehndi hand), series with volumes (House Rule N°, Mangal Thali vol 1, Shaadi Calendar vol 1), a real photo inside a drawn frame (almirah mirror = the PTAT armoire), a steel serving surface as the guide (thali = PTAT tray), everyday objects as the stage on every tile. | Grid rhythm 8: the LAC/BONE value checkerboard runs up all five rows, the Tuesday posts make up column 3, and each row has one loud, one quiet and one mid tile; but only three tiles breathe (P5, P9, P11), and even those carry the full type stack. | Emblem/lockup 9: the strongest emblem of the four. It reads at thumbnail size, keeps the same band on every tile and changes its script each post, which makes it collectible. It is diluted by a second NAIRA wordmark top-left on most tiles. | Layout per post 8: the object compositions are excellent (P2 chalni, P3 almirah, P7 lifafa with a taped coin, P12 antarpat), but every tile stacks wordmark + eyebrow + setup + headline + turn + object + 'shown larger' + price label + lockup, which risks sameness and clutter. | Carousel storytelling 9: P4 (thali, then five katori cards, then a menu card), P3 (almirah, then the locker list in Mummy's hand, then the facts) and P10 (calendar, then torn date leaves, then a summary) each have a real turn; the many 3-slide posts are formulaic but tight. | Reel thinking 9: P8 (the phone rings twice and a huggie lands with each ring), P12 (the antarpat drops through akshata to reveal the necklace) and P9 (saved boxes, then real boxes, then service facts) each move for a reason and have designed 3:4-safe covers. | Thumb-stop 9: saturated grounds, a big two-ink lockup and drawn objects make the most eye-catching grid, PTAT's energy in Naira inks. | Distinctiveness 7: the multi-script system is ownable, but marigold and festive grounds plus Indian-mom nostalgia (almirah, missed call, ₹501 envelope) are common in Indian D2C social, and P1 is close to a literal MILNI transposition.",
+      "best_posts": [
+        "P3 Not locker gold. Tuesday gold.: the drawn Godrej-era almirah has a real hoop-on-ear photo in its door mirror and the chaabi in the lock. It is the best translation of PTAT's wardrobe tile in any proposal, and the oxblood floor stands the almirah on the LAC tile below.",
+        "P2 Moon first.: a steel chalni on a plum night with the real Droplet Open Ring as the moon, labelled 'the moon' and 'the first sip'. The product's shape is the joke.",
+        "P8 Two rings: call me back. (reel): the keypad phone rings twice and a huggie lands with each ring. A shared-memory loop for the 35-54 buyer that a viewer can name in a second.",
+        "P12 Shubh mangal. Saavdhan. (reel): the antarpat drops through akshata to reveal the ruby necklace. It bookends P1 on the diagonal, the way MILNI's key art anchors PTAT's grid.",
+        "P4 Five days. Five katoris.: a top-down steel thali takes the place of PTAT's 'Accessory Guide vol 1' tray, and the menu-card index ('ek aur?') carries the BUY2/BUY3 line in the caption.",
+        "P7 Five hundred and one.: the shagun lifafa with the coin taped on and the Heartbead spilling out. The best detail in the set."
+      ],
+      "weakest_posts": [
+        "P1 key art: nine scripts stacked on a marigold sunburst with side garlands and an arched ribbon is the most derivative tile of all four proposals (MILNI in Naira inks). Its thumbnail is a wall of lettering, every script word is a glyph risk, and marigold over BONE may read as the orange the owner rejects.",
+        "P10 Shaadi Calendar: 34 px dates and 20 px Kalam labels turn to texture at 36%. Only 'SIX FUNCTIONS.' and the red circles read, and it overlaps P8's calendar-like index move.",
+        "P5 rangoli photo: a full type stack (wordmark, eyebrow, setup, headline, turn, label, lockup) over a busy powder-stripe photo. It is meant to be the row's breathing tile and does not breathe.",
+        "P9 good box reel cover: the real box photo is lovely, but the cover is half headline band and half photo, and it is the weakest of the three reel covers in column 1."
+      ],
+      "fatal_or_must_fix": [
+        "Every Indic string (ten languages, nine scripts, plus शुभ, नोव्हेंबर, शुभमंगल सावधान) must be rendered in Chromium and signed off glyph by glyph by native readers before anything ships. One broken conjunct on the key art is a public failure.",
+        "Cut the density. On tiles that carry the MANGAL seal, drop the top-left NAIRA wordmark (or the setup line), and move the ₹ price label off covers into slide 2 or the caption. As specified, ten tiles carry about nine text and graphic layers each.",
+        "Test marigold (P1, P10 slide 4) and coral (P7) against the owner's dislike of orange: render them next to LAC/BONE and shift toward apricot/blush if they read brassy.",
+        "Make P1 less of a MILNI copy: fewer scripts on the cover (MANGAL + मंगळ + two others), more air, and move the full nine-script set to slide 2.",
+        "The added faces (the Tiro family, Gulzar, Noto Serif Gujarati and Malayalam, Kalam) need the owner's sign-off. Prices drift, so re-read the roster on each render day, because this option prints ₹ on covers."
+      ],
+      "graftable_ideas": [
+        "Rotating script under one fixed lockup ('Today's mangal: <language>'): a collect-them-all device any option could use for one Devanagari line per tile.",
+        "'shown larger.' as an honest scale note beside any enlarged cut-out.",
+        "Two rings, call me back: the huggies-as-missed-call reel.",
+        "The antarpat-drop reveal as a wedding-season finale reel.",
+        "A thali/katori serving surface plus a menu-card index as a festive gift guide.",
+        "Mummy's handwritten locker list as the turn slide inside a drawn object."
+      ]
+    },
+    {
+      "proposal": "proposal-free-best.json · NAIRA MATCHING CENTRE · मॅचिंग सेंटर",
+      "total_out_of_100": 84,
+      "criteria": "Idea strength 9: an Indian institution that is literally true for a couture house (swatch, tape, order slip) and works as a service (send the outfit on WhatsApp, get three matches). 'Matched to the moon / the kandil / the sequins / every muhurat' gives every tile a hook. | Nameability in 3 s 8: the signboard (NAIRA / MATCHING CENTRE / मॅचिंग सेंटर) at both diagonal corners plus a shade tag on 9 covers reads as 'a shade card / matching centre'. The tag text is unreadable at 36%, but the chip and tag shape carry it. | Reference depth 9: one sign in five scripts (MILNI move), a repeating object lockup (tag), named series (The Match, Shade Card vol 1/2, माप The Measurements, The Sample Blouse), [01]-[05] index carousels (PTAT r4c1), drawn objects (chalni, kandil, blouse on hanger, tulsi, mehendi cone, slip, bill), cut-outs on fabric, and photo slides inside. | Grid rhythm 9: the grid itself is a 12-shade card (no two adjacent grounds alike; three violets, three greens, three reds, three lights), the LAC/BONE checkerboard continues up all rows, the loud tiles zigzag P1, P6, P8, P12, and the reels sit in column 3 as on PTAT. | Emblem/lockup 8: the hang-tag (240x330, ~87x119 in the grid) plus signboard bookends is a good PTAT equivalent, but the tag moves position and rotation tile to tile, so it repeats less than MILNI's fixed bottom-third lockup. | Layout per post 8: clean single-piece compositions on big colour fields (P1 swatch fan, P2 moon and chalni, P6 kandil, P9 '36 CM.' at 200 px), though the pinked-swatch-plus-cut-out formula repeats on most covers. | Carousel storytelling 9: P1 (sign, then what a matching centre is, how it works, five scripts, series legend) is the best key-art explanation in any proposal; P3 sample blouse (four people, four samples), P8 programme index (five functions, then bring your programme) and P12 (bill with total) all end in a usable CTA. | Reel thinking 7: only two reels. P7's swatch-to-stone match cuts and comment hook are good; P10 is a generic macro-and-sparkle product reel on an AI sequin texture. | Thumb-stop 8: the signboard, kandil, 'SEND THIS TO YOUR BROTHER.' on red room and the huge 36 CM. stop the scroll; P7 and P11 are calm. | Distinctiveness 9: no Indian jewellery feed uses the matching-centre counter or a shade-card grid, and it is anchored in Naira's real couture origin rather than borrowed nostalgia.",
+      "best_posts": [
+        "P1 Open for the season: a painted sage signboard over a fabric fan with the ruby bracelet on the red swatch and the SHADE N° 01 tag. Key art that explains the world in one look, followed by the best 5-slide explainer of the four proposals.",
+        "P9 36 CM.: 200 px Velista on quiet apricot, the necklace on organza and a tape bracketing 0-36. The best thumbnail headline of the four proposals and a proper breathing tile.",
+        "P6 The kandil stays up all month.: a paper-cut akash kandil in Prism Rivière's own aqua, pink and yellow glows on bottle green. Festive without red-and-gold and very Maharashtrian.",
+        "P4 Send this to your brother.: three-line headline on red room with a split gold-and-silver swatch under the Duo Link. Built to be forwarded (sends signal).",
+        "P3 The sample blouse: a quiet line-drawn blouse on a hanger with the Heartbead looped over the hook, then four people and four samples. The most human gift guide in the set.",
+        "P12 Guest orders undertaken.: the cream signboard on lac with the ruby set. A strong top-left closer that rhymes with LAC."
+      ],
+      "weakest_posts": [
+        "P11 tulsi: the only product-free tile, sitting in the top row (the most-seen row from 22 Nov). Charming, but it spends prime grid space on a greeting.",
+        "P10 Matched to the sequins (reel): a standard macro, light-sweep and price reel over an AI sequin texture, the least conceptual reel across all four proposals.",
+        "P7 Which shade are you? cover: a 2x2 swatch grid with four small huggies reads as a catalogue swatch page at 36%, close to the P8 index next to it.",
+        "P5 IS IT GOLD?: an honest and brave idea, but at thumbnail size the question is what reads, on Dhanteras, and the answer sits at 48 px."
+      ],
+      "fatal_or_must_fix": [
+        "Fix the tag's position: put it in the same corner and at the same scale on every cover, as PTAT keeps MILNI in the bottom third. Today it wanders (top-right on P6 and P11, right-middle on P1 and P2, left on P4), so it is less of an emblem than it could be.",
+        "Put a piece in the top row's middle or swap P11 to a product tile. The top row should not carry a product-free greeting through the December muhurats.",
+        "Add a third reel or make P10 a concept, for example a tape measure reveal or the trial-room curtain from the Fitting Book. Two reels, one of them generic, under-uses the format against PTAT's 4 of 9.",
+        "The three Higgsfield textures (silk, Paithani, sequins) must not read AI-made. Fall back to flat SVG swatches if they do.",
+        "The WhatsApp 'three matches with photographs' promise on P1, P3, P8, P11 and P12 needs operational sign-off for the festive fortnight. The five-script signboard (P1 slide 4) needs native-reader checks."
+      ],
+      "graftable_ideas": [
+        "The grid as a 12-shade card, each tile a named, numbered colour ground.",
+        "Signboard bookends on the grid diagonal (P1 bottom-right open, P12 top-left 'GUEST ORDERS UNDERTAKEN.').",
+        "'SEND THIS TO YOUR BROTHER.', a tile whose whole job is to be forwarded.",
+        "Exact-measurement hero tiles ('36 CM.' at 200 px with a tape bracket).",
+        "The sample-blouse method as a gifting guide: match to what she already wears.",
+        "A bill/order slip with a total as the BUY3 slide, no discount on the art."
+      ]
+    },
+    {
+      "proposal": "proposal-retro-print.json · FLOWER BRAND · The Naira Reissue (पुनर्मुद्रण)",
+      "total_out_of_100": 80,
+      "criteria": "Idea strength 9: 'flat ink, one real thing'. Twelve pieces of everyday Indian print reissued in Naira's inks, with the piece as the only photographed object; the per-tile wit is the highest of the four (DD slate for the 11-week silence, Chand Nikla, Do Choti, the matchbox as the Naira box, ANAR, No Enclosures, Side A/Side B). | Nameability in 3 s 8: 'retro Indian print labels' is instantly legible as a world, but the names (THE NAIRA REISSUE, NAIRA TALKIES, DUKAAN, KAAGAZ) are not on the tiles at grid size. | Reference depth 8: it quotes vernacular idioms (directly answering PTAT's r1c3 signboard and r2c2 Bollywood poster), has a consistent slug and seal, one Devanagari line per frame, and cut-outs in drawn worlds. But there is almost no photo-led tile, and the three series names live only in captions and colophons. | Grid rhythm 7: loud, quiet and mid are planned per row and the P1 colour bars run their oxblood into BONE (a clever seam), but every cover is a flat-vector print object with its own ornament (scallops, sunburst, stars, kairi border, perforations), so there is texture monotony and no photographic breathing tile. | Emblem/lockup 8: the FLOWER BRAND seal in a printer's oval, centred in an identical slug band on all 12 covers, is the most conceptually perfect emblem ('___ Brand' trade marks) and is promoted to the format's own mark on P4 and P5. It is small at 36% (~40x49 px). | Layout per post 8: strong poster logic (P1 bars, P2 poster, P8 cassette, P4 label), but P5's cover has no jewellery and P12 is set mostly at 16-34 px. | Carousel storytelling 7: mostly 2-3 slides ending in the same ORIGINAL / REISSUE / PIECE colophon. Elegant but repetitive, with fewer useful guides; P5 mithai box, P10 stamp and P11 wedding card are the exceptions. | Reel thinking 9: P1 (TV snow, then bars, then the slate, then a channel per stone colour), P4 (the matchbox drawer slides out a piece at a time, then the real box) and P8 (pencil rewind, then the cassette flips from gold to rhodium) are three of the best motion ideas in the competition. | Thumb-stop 9: the colour bars, film poster, ANAR and cassette are instant nostalgia hooks. | Distinctiveness 7: disciplined and ownable through the seal, but retro Indian packaging and DD nostalgia is a widely used aesthetic in Indian D2C and meme culture, and it risks reading as costume for a premium jewellery brand.",
+      "best_posts": [
+        "P1 The Interruption (reel): Doordarshan colour bars reprinted in the four Baguette Huggies stone colours with 'रुकावट के लिए खेद है' on the slate. The best relaunch idea of any proposal; it owns the 76-day silence, and the oxblood band runs straight into BONE.",
+        "P2 Chand Nikla: a single-screen film poster on a plum night where the moon is the cushion stone. PTAT's Rekha F.O.M.O tile answered with the piece as the star.",
+        "P8 Two Sides (reel): a lilac cassette with the gold and rhodium Kiss Knot bangles as its reels; the pencil rewind and flip show metal choice better than any guide could.",
+        "P4 Safety Box (reel): the Naira box was always a matchbox. Packaging as the product, with a real drawer motion and an end on the real box.",
+        "P3 Do Choti: the fancy-store earring card with a line-drawn woman's plaits and the real Woven Gold Hoop pinned through her drawn ear. Delicate and true."
+      ],
+      "weakest_posts": [
+        "P12 December, Already Full: the top-left tile every visitor sees first is a calendar grid of 16-34 px dates and 18 px scribbles, so it reads as texture at 36%. Its biggest word, DECEMBER, is 84 px.",
+        "P5 Assorted: the mithai-lid cover shows a seal, a word and four line icons but no jewellery; the product only appears on slide 2.",
+        "P9 Name: Mummy: label fields at 26-52 px and a fine bracelet make it nearly illegible as a thumbnail, though it is a lovely idea on tap.",
+        "P6 ANAR: marigold ground + bottle-green panel + sunburst + star border + sparks is the closest any Naira tile comes to kitsch. A firecracker on Diwali day in a pollution-ban year is also a sensitivity."
+      ],
+      "fatal_or_must_fix": [
+        "Rebuild P12 for the top-left slot: a grid-readable headline (DECEMBER. ALREADY FULL. at 140 px+) over a simpler page, or swap it with a bolder tile such as P8 or P2.",
+        "Put a piece on P5's cover. The open box with four pieces as sweets is the better cover.",
+        "Make the named series visible on covers (NAIRA TALKIES / DUKAAN / KAAGAZ in the slug). Otherwise 'named series' only exists in the captions.",
+        "Give each row at least one photo-led breathing tile (for example P11's arch photo full-bleed, or a worn photo cover). PTAT alternates drawn and photographed tiles, and here all twelve covers are flat vector.",
+        "Native-reader check of every Devanagari line; owner sign-off for Kalam and for promoting the flower to a solid seal; hold the line on ornament per tile."
+      ],
+      "graftable_ideas": [
+        "The Doordarshan 'रुकावट के लिए खेद है' relaunch reel for the first post after the silence.",
+        "The matchbox-drawer reel for the Naira box (packaging as product).",
+        "Cassette Side A / Side B for any two-metal Edition Two piece.",
+        "The ORIGINAL / REISSUE / PIECE colophon as a closing slide format.",
+        "A 'FLOWER BRAND' trade-mark seal built from the I-flower.",
+        "A Nashik Road stamp for home-city pride.",
+        "Misregistered two-ink titles, used on only a few covers."
+      ]
+    },
+    {
+      "proposal": "proposal-couture-scrapbook.json · The Fitting Book",
+      "total_out_of_100": 72,
+      "criteria": "Idea strength 8: the jewellery feed as the couture house's own fitting notebook, where house rules cross-reference across pages ('see page one'). The most coherent intellectual system, and true to Naira, but the wit is quieter (Chalni for the wrist, Measurements: not needed, The thimble comes off at six). | Nameability in 3 s 6: the grid reads as 'a tailor's notebook', but its name sits in 22 px Jost (~8 px in the grid) and the house label is too small to name anything at 36%. | Reference depth 7: excellent illustration + cut-out + photo mixing (croquis, pinned cut-outs, pinked couture swatches, a drawn curtain and dress form framing real photos, a numbered [01]-[05] look list of real couture figures), four named series and big colour fields. But there is no multi-script line, little Indian vernacular quotation, and the stages are tailor's tools rather than everyday Indian objects. | Grid rhythm 7: one dark tile per row on a zigzag, an inverted checkerboard over LAC/flower/BONE with P2 in LAC's exact oxblood, and studio reels in column 3. But four pale paper tiles (P1, P3, P9, P11) carry 3 px sage croquis that turn to hairlines at 36% and read as similar near-empty pages. | Emblem/lockup 6: a woven house label stitched on every cover in the same place is the right idea, but at 300x96 (~108x35 px in the grid) it is a small cream rectangle, far from MILNI's presence. | Layout per post 7: the colour-field tiles are beautiful (P2 hoop-moon on LAC, P6 25 MM tape on bottle green, P8 thimble on lilac), but the paper pages stack pins, swatches, cut-outs, up to three Kalam notes with arrows and a label. That is scrapbook-soup risk, and P12 is overloaded. | Carousel storytelling 9: the most useful and saveable of the four. Neckline lengths (P3, 8 slides with arcs), sleeve lengths (P9), dupatta rules (P11) and the look list (P12) all close on priced index pages and call back to earlier pages. | Reel thinking 8: order slips that write themselves, tear and tuck under the box (P4); a trial-room curtain sliding open on a real V-neck photo (P7); a dress form that draws itself while the necklace travels onto it (P10). Purposeful motion built from stills. | Thumb-stop 6: refined and premium, but the pale croquis pages and small pinned pieces are low contrast at thumbnail size; only the dark tiles stop the scroll. | Distinctiveness 8: no Indian demi-fine brand can claim a real couture fitting room, and it avoids the nostalgia clichés, but the pinned-notebook atelier look is a familiar Pinterest/fashion-student aesthetic.",
+      "best_posts": [
+        "P2 Chalni, for the wrist.: a brass embroidery hoop becomes the Karwa Chauth sieve and the moon, with the Silk Mesh Cuff inside, on LAC's exact oxblood; the hoop circle sits directly over the old flower tile. The best single tile of the set.",
+        "P6 25 MM.: the Woven Gold Hoop on a tailor's tape at true scale on bottle green, 168 px headline. Quiet confidence on Diwali day.",
+        "P3 First the neckline.: a croquis torso with 36/40/45/50 cm arcs, then six necklines with real worn photos and a priced index. The most saveable carousel in the competition.",
+        "P7 Follow the V. (reel): a drawn plum curtain and brass rail open on a real photo while chalk traces the V and the lariat. A direct, elegant translation of PTAT's drawn wardrobe around a photo.",
+        "P11 Nothing for the net to catch.: net-dupatta drapes over croquis heads. A wedding problem no jewellery feed talks about."
+      ],
+      "weakest_posts": [
+        "P12 The Look List: the top-left anchor carries five couture figures at 352 px, five pieces at 100 px (~36 px in the grid), five tags, a four-line note, a headline and the label. It is the busiest tile, the jewellery vanishes, and the models wear non-Naira earrings.",
+        "P9 The sleeve decides the wrist.: an abstract sleeve pattern block in 3 px sage on pale pattern paper is near-invisible at 36%, the third pale croquis tile in the grid.",
+        "P8 The thimble comes off at six.: a drawn SVG thimble beside a photographic ring risks reading flat. The line is a stretch, and the headline runs three lines.",
+        "P1 The thread decides the metal.: a good idea, but the opener is a ruled page with two swatches, two bangles, three pins and two notes. It does not announce a season the way PTAT's key art does."
+      ],
+      "fatal_or_must_fix": [
+        "Enlarge the emblem or add a grid-legible series mark. A 108x35 px label cannot carry the 'one book' read that MILNI's lockup carries.",
+        "Simplify P12 for the top-left slot: three functions or one figure with one dominant piece. Crop or confirm the couture models' own non-Naira earrings.",
+        "Kalam handwriting is a fourth face, at up to three notes per page. Replace it with the founder's scanned handwriting or cut it to one note per cover, or the book tips into the scrapbook clutter the owner rejected.",
+        "Add at least one Indian vernacular stage or one Devanagari line. As specified, the grid is the least 'Indian pop' of the four, against an owner brief that asked for PTAT depth.",
+        "Several on-model plates (marquise/02, baguette-necklace/04 and /08, toggle/02) are Higgsfield generations. Check that each reads real at 1080."
+      ],
+      "graftable_ideas": [
+        "House rules that cross-reference across posts ('page one explains why'), which gives a grid memory.",
+        "The neckline-length guide with croquis arcs (36/40/45/50 cm), an ideal second माप post for the Matching Centre.",
+        "The dupatta-net rule (huggies under a net dupatta) as a wedding-season guide.",
+        "The trial-room curtain reel that frames a real worn photo.",
+        "The embroidery hoop as the Karwa Chauth moon/chalni.",
+        "Order slips that write themselves and tuck under the Naira box as a gifting reel.",
+        "Pinked couture swatches cut from real Naira Flore outfits, held by glass-head pins."
+      ]
+    }
+  ],
+  "recommendation": "Show the owner MANGAL (indian-pop) and NAIRA MATCHING CENTRE (free-best). They are the two highest scores, and they are two different answers to her brief rather than two versions of one. MANGAL is the full PTAT-depth answer: Indian pop, saturated, multi-script, a lockup that reads at thumbnail size, and Mummy's-house objects as stages. Matching Centre is the premium answer: a couture-true Indian institution, a 12-shade colour-card grid, and service built in. Retro Print (80) sits in the same nostalgia-vernacular territory as MANGAL and loses to it on photo mixing, series legibility and the top-left tile. The Fitting Book (72) sits in the same couture territory as Matching Centre and loses on emblem, thumb-stop and Indian-pop depth. Before rendering, graft as follows. Into MANGAL: cut the per-tile density (drop the top-left wordmark where the seal is present, take ₹ off covers), make P1 less of a literal MILNI copy, and test marigold and coral against the owner's dislike of orange. If the nine-script poster fails native checks, Retro's DD-slate 'रुकावट के लिए खेद है' relaunch reel is the fallback P1 and fits the house-and-TV world. Retro's cassette Side A/B reel could replace P10 (calendar) for the two-metal Kiss Knot. Into Matching Centre: fix the shade tag to one position and scale on every cover; swap P11's product-free tulsi tile or add a piece to it; replace P10's generic macro reel with the Fitting Book's trial-room curtain reel (the trial room belongs in a matching shop); and add the Fitting Book's neckline-length croquis guide as a second माप post. Both options then keep a breathing tile per row, a lockup legible at 391x521, designed 3:4-safe reel covers, and a bottom row that answers LAC/flower/BONE value for value."
+}

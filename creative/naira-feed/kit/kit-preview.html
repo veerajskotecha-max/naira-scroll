@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Naira feed kit</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 1600px; background: var(--nf-ivory); color: var(--nf-ink); font-family: var(--nf-font-label); font-weight: 400; -webkit-font-smoothing: antialiased; }
+  .sec { padding: 56px 64px; border-bottom: 1px solid var(--nf-linen); }
+  .eyebrow { font-family: var(--nf-font-label); font-weight: 500; font-size: 13px; letter-spacing: .28em; text-transform: uppercase; color: var(--nf-gold-text); margin-bottom: 22px; display: flex; gap: 14px; align-items: center; }
+  .eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--nf-gold); }
+  h1 { font-family: var(--nf-font-display); font-weight: 400; font-size: 64px; line-height: 1; letter-spacing: .01em; }
+  .turn { font-family: var(--nf-font-editorial); font-style: italic; font-weight: 400; font-size: 30px; color: rgb(26 22 20 / .72); margin-top: 10px; }
+  .row { display: flex; gap: 24px; align-items: stretch; }
+  .tile { flex: 1; padding: 34px 30px 22px; display: flex; flex-direction: column; justify-content: space-between; min-height: 230px; }
+  .tile img, .tile svg { display: block; width: 100%; height: auto; }
+  .cap { font-size: 12px; letter-spacing: .08em; margin-top: 16px; opacity: .8; }
+  .sw-group { margin-bottom: 26px; }
+  .sw-group h3 { font-family: var(--nf-font-label); font-weight: 500; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--nf-warm-grey); margin-bottom: 10px; }
+  .sws { display: flex; flex-wrap: wrap; gap: 10px; }
+  .sw { width: 128px; }
+  .chip { height: 64px; border: 1px solid rgb(26 22 20 / .08); }
+  .sw b { display: block; font-weight: 500; font-size: 11.5px; margin-top: 6px; line-height: 1.25; }
+  .sw span { font-size: 11px; color: var(--nf-warm-grey); letter-spacing: .04em; }
+  .spec { display: grid; grid-template-columns: 250px 1fr; gap: 10px 28px; align-items: baseline; }
+  .spec .k { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--nf-warm-grey); }
+  .motifs { display: flex; gap: 18px; align-items: flex-end; flex-wrap: wrap; }
+  .motifs figure { background: var(--bag-cream); padding: 12px; border: 1px solid var(--nf-linen); }
+  .motifs figure img { display: block; height: 170px; width: auto; }
+  .motifs figcaption { font-size: 10.5px; margin-top: 6px; color: var(--nf-warm-grey); max-width: 230px; }
+</style></head>
+<body>
+
+<div class="sec" style="padding-bottom:40px">
+  <div class="eyebrow">Naira Flore · feed kit · 25 October 2026</div>
+  <h1>THE KIT</h1>
+  <div class="turn">wordmark, flower, colour and type, from the house's own files.</div>
+</div>
+
+<!-- 1 · Wordmark -->
+<div class="sec">
+  <div class="eyebrow">01 · Wordmark (vector, kit/naira-wordmark*.svg)</div>
+  <div class="row">
+    <div class="tile" style="background:var(--id-cream);color:var(--nf-sage);--naira-flower:var(--nf-blush)">
+      <div id="wm-a"></div>
+      <div class="cap" style="color:var(--nf-ink)">Brand · sage #99B4AF letters, blush #FFBDA8 flower · on identity cream #FFF8F5</div>
+    </div>
+    <div class="tile" style="background:var(--nf-ivory);color:var(--nf-ink);--naira-flower:var(--nf-ink)">
+      <div id="wm-b"></div>
+      <div class="cap">Ink, one colour · #1A1614 on ivory #FBF3EC</div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:24px">
+    <div class="tile" style="background:var(--expo-green);color:var(--expo-cream);--naira-flower:var(--nf-blush)">
+      <div id="wm-c"></div>
+      <div class="cap">Cream + blush on exhibition green #2E4238 (as the Club Aquarium poster)</div>
+    </div>
+    <div class="tile" style="background:var(--nf-ivory);color:var(--nf-ink)">
+      <img src="motifs/logo/marketing-kit-logo-wordmark-800.png" alt="">
+      <div class="cap">Reference bitmap: marketing-assets/kit/logo-wordmark.png. Vector vs the site's 4000px footer logo: 96.4% pixel IoU at 1642px wide; the residue is one-pixel anti-aliased edges.</div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:24px">
+    <div class="tile" style="background:var(--ed-lilac-ground);color:var(--ed-lilac-mast);--naira-flower:var(--nf-blush);flex:1.2">
+      <div id="wm-d"></div>
+      <div class="cap">Lilac edition mast #4E3C66 on lilac ground #C9B6CB</div>
+    </div>
+    <div class="tile" style="background:var(--nf-ivory-deep);flex:.45;align-items:center">
+      <img src="naira-flower-blush.svg" alt="" style="height:170px;width:auto">
+      <div class="cap">Flower alone · blush</div>
+    </div>
+    <div class="tile" style="background:var(--nf-sage-logo-deep);color:var(--nf-cream);flex:.45;align-items:center">
+      <div id="fl-a" style="height:170px"></div>
+      <div class="cap">Flower · currentColor</div>
+    </div>
+    <div class="tile" style="background:var(--ad-marigold);color:var(--ad-ink);flex:.45;align-items:center">
+      <div id="fl-b" style="height:170px"></div>
+      <div class="cap">Flower · ink on marigold</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2 · Palette -->
+<div class="sec">
+  <div class="eyebrow">02 · Colour (kit/tokens.css)</div>
+  <div id="palette"></div>
+</div>
+
+<!-- 3 · Type -->
+<div class="sec">
+  <div class="eyebrow">03 · Type</div>
+  <div class="spec">
+    <div class="k">Velista 400 · display<br><small>unicase: always caps · no ₹ · no ·</small></div>
+    <div style="font-family:var(--nf-font-display);font-size:76px;line-height:1.05">ALMOST A RAINBOW. A rain.</div>
+    <div class="k">Cormorant Garamond italic<br><small>the lowercase turn</small></div>
+    <div style="font-family:var(--nf-font-editorial);font-style:italic;font-size:46px;line-height:1.1">three colours, not seven. made to stay gold.</div>
+    <div class="k">Jost 300 · support</div>
+    <div style="font-family:var(--nf-font-label);font-weight:300;font-size:28px;letter-spacing:.08em">Prism Rivière Bracelet · [ rhodium coated ] · waterproof</div>
+    <div class="k">Jost 500 · eyebrow</div>
+    <div style="font-family:var(--nf-font-label);font-weight:500;font-size:18px;letter-spacing:.32em;text-transform:uppercase">Naira Petite · the demi-fine edit</div>
+    <div class="k">Price · Jost + Poppins ₹</div>
+    <div style="font-family:var(--nf-font-label);font-weight:500;font-size:40px">₹799 · ₹1,499 · ₹2,399</div>
+    <div class="k">Option · Tiro Devanagari Marathi</div>
+    <div style="font-family:var(--nf-font-devanagari);font-size:52px;line-height:1.2">दिवाळी · नाशिक <span style="font-style:italic">· Diwali, Nashik</span></div>
+    <div class="k">Option · Rozha One</div>
+    <div style="font-family:'Rozha One';font-size:52px;line-height:1.15">शुभ दीपावली · FESTIVE EDIT</div>
+    <div class="k">Option · Yatra One</div>
+    <div style="font-family:'Yatra One';font-size:46px;line-height:1.2">रंगोली · Rangoli Room</div>
+    <div class="k">Option · Kalam (hand)</div>
+    <div style="font-family:'Kalam';font-size:38px">a note from the Nashik studio.</div>
+    <div class="k">Option · Gotu</div>
+    <div style="font-family:'Gotu';font-size:38px">नाशिक · made in small batches</div>
+    <div class="k">Option · Playfair Display italic</div>
+    <div style="font-family:'Playfair Display';font-style:italic;font-weight:700;font-size:46px">the wedding season edit</div>
+    <div class="k">Option · DM Serif Display</div>
+    <div style="font-family:'DM Serif Display';font-size:46px">Nine Nights <i>· nine hearts</i></div>
+  </div>
+</div>
+
+<!-- 4 · Motifs -->
+<div class="sec" style="border-bottom:0">
+  <div class="eyebrow">04 · Motifs that already exist (kit/motifs/)</div>
+  <div class="motifs">
+    <figure><img src="motifs/botanical/leaf-sprig-1.png" alt=""><figcaption>leaf-sprig-1 · watercolour, from the bag</figcaption></figure>
+    <figure><img src="motifs/botanical/leaf-sprig-2.png" alt=""><figcaption>leaf-sprig-2 · watercolour vine</figcaption></figure>
+    <figure><img src="motifs/botanical/tulip-cluster-br.svg" alt=""><figcaption>tulip-cluster-br · vector, bag</figcaption></figure>
+    <figure><img src="motifs/botanical/tulip-open.svg" alt=""><figcaption>tulip-open · vector</figcaption></figure>
+    <figure><img src="motifs/box/naira-box-poster.webp" alt=""><figcaption>Naira box render · blush sleeve</figcaption></figure>
+    <figure><img src="motifs/box/ring-cut-34.webp" alt=""><figcaption>solitaire render (site)</figcaption></figure>
+    <figure><img src="motifs/pattern/site-paisley-lilac-gold.webp" alt=""><figcaption>paisley · lilac + gold (site philosophy bg)</figcaption></figure>
+    <figure><img src="motifs/pattern/site-hibiscus-grid.webp" alt=""><figcaption>hibiscus + grid (site, couture side)</figcaption></figure>
+    <figure><img src="motifs/photo-cutouts/exhibition-stall-cutout.png" alt=""><figcaption>exhibition stall cutout (transparent PNG)</figcaption></figure>
+  </div>
+</div>
+
+<script>
+  // Inline the SVGs so currentColor and --naira-flower apply (an <img> cannot inherit them).
+  async function inline(id, file) {
+    const t = await (await fetch(file)).text();
+    document.getElementById(id).innerHTML = t.replace(/ width="\d+" height="\d+"/, ' style="width:100%;height:auto;display:block"');
+  }
+  async function inlineH(id, file) {
+    const t = await (await fetch(file)).text();
+    document.getElementById(id).innerHTML = t.replace(/ width="[\d.]+" height="\d+"/, ' style="height:100%;width:auto;display:block;margin:auto"');
+  }
+  const P = [
+    ['Site core · src/index.css', [['ivory','#FBF3EC'],['ivory-deep','#F4EBE2'],['ink','#1A1614'],['gold','#C99A4C'],['gold-deep','#B0843A'],['gold-shadow','#9A7634'],['gold-text','#80612A'],['sage','#99B4AF'],['blush','#FFBDA8'],['sage-logo','#8EA9A1'],['sage-logo-deep (CTA)','#4F7268'],['cream','#F6F3EE'],['warm-grey','#6B625B'],['linen','#E3D9CE'],['announce strip','#AEBDB6']]],
+    ['Identity + ad system · BRAND.md', [['id cream','#FFF8F5'],['id sage','#99B4AF'],['id coral','#FFBDA8'],['ad marigold','#E8973A'],['marigold deep','#8F4E0E'],['ad ink','#1A1614'],['ground warm','#FBF1E6'],['ground lilac','#EDE3F2']]],
+    ['Bag illustration · motifs.py', [['bag cream','#FBF5F0'],['coral','#F6AE96'],['coral deep','#EC957A'],['coral light','#FBCCBA'],['coral back','#E4886F'],['leaf sage','#9DB5AD'],['leaf deep','#7F9A91'],['leaf light','#BBCDC6'],['bag ink','#3D3530']]],
+    ['Catalogue Vol. One · build.py', [['cream','#F4F0E8'],['paper','#FBF5F0'],['blush','#FBEDE9'],['blush mid','#F2CFC4'],['ink','#1C1C1C'],['ink soft','#3D3530'],['muted','#6B615A'],['sage deep','#5E7A70'],['coral deep','#B8604A'],['sage ground','#9CB1A5'],['red room','#4B191A']]],
+    ['Edition · Apricot', [['paper','#FCF5EF'],['ground','#F0C9AC'],['tint','#F7E1D2'],['deep','#A9532B'],['head','#7A3D20'],['on ground','#4A2B1D']]],
+    ['Edition · Lilac', [['paper','#F8F5F8'],['ground','#C9B6CB'],['tint','#ECE4EF'],['deep','#5E4A78'],['mast','#4E3C66'],['on ground','#2E2338']]],
+    ['Edition · Sage', [['paper','#F6F6F1'],['ground','#AFBFA9'],['tint','#E3EAE1'],['deep','#3F5A4C'],['on ground','#1F2E25'],['mast','#F2EFE6']]],
+    ['Exhibition poster · poster.py', [['green','#2E4238'],['green mid','#3A5448'],['green light','#4C6A5C'],['green deep','#263830'],['cream','#F6EFE6'],['date gold','#E7C27A'],['kicker','#E9D9C6'],['italic blush','#F2CFC4']]],
+  ];
+  document.getElementById('palette').innerHTML = P.map(([g, list]) =>
+    `<div class="sw-group"><h3>${g}</h3><div class="sws">` +
+    list.map(([n, h]) => `<div class="sw"><div class="chip" style="background:${h}"></div><b>${n}</b><span>${h}</span></div>`).join('') +
+    `</div></div>`).join('');
+  Promise.all([
+    inline('wm-a', 'naira-wordmark.svg'), inline('wm-b', 'naira-wordmark.svg'),
+    inline('wm-c', 'naira-wordmark.svg'), inline('wm-d', 'naira-wordmark.svg'),
+    inlineH('fl-a', 'naira-flower.svg'), inlineH('fl-b', 'naira-flower.svg'),
+  ]).then(() => { document.body.dataset.ready = '1'; });
+</script>
+</body></html>

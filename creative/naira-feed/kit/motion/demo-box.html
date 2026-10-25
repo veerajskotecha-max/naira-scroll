@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="motion.css">
+<style>
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#4E3C66}
+.stage{position:absolute;left:0;top:0;width:1080px;height:1920px;perspective:2200px;perspective-origin:50% 30%}
+/* the box: a 640 x 640 footprint, 210 tall; tilted to a three-quarter view */
+.box{position:absolute;left:220px;top:760px;width:640px;height:640px;transform-style:preserve-3d;transform:rotateX(58deg) rotateZ(-28deg)}
+.face{position:absolute;backface-visibility:hidden}
+/* sleeve: top + left + right walls; open at front and back */
+.s-top{width:640px;height:640px;background:#F3CFC6 url(../motifs/box/naira-box-print.webp) center/62% auto no-repeat;transform:translateZ(210px)}
+.s-left{width:210px;height:640px;background:#E9B9AE;transform-origin:left;transform:rotateY(-90deg)}
+.s-right{width:210px;height:640px;background:#DDA79B;left:640px;transform-origin:left;transform:rotateY(-90deg) translateZ(-0px)}
+.s-bottom{width:640px;height:640px;background:#C99088;transform:translateZ(0)}
+/* drawer: slides along +Y (toward the viewer) */
+.drawer{position:absolute;left:8px;top:0;width:624px;height:640px;transform-style:preserve-3d;animation:drawer-out 1.8s var(--ease-out) 1s both;--drawer-travel:430px}
+.d-floor{width:624px;height:640px;background:#2A2230;transform:translateZ(4px)}
+.d-front{width:624px;height:196px;background:#F6D8D0;top:640px;transform-origin:top;transform:rotateX(90deg)}
+.tab{position:absolute;left:282px;top:70px;width:60px;height:56px;border-radius:0 0 30px 30px;background:#E9B9AE}
+.d-side{width:196px;height:640px;background:#EDC3B9;transform-origin:left;transform:rotateY(-90deg)}
+.d-side.r{left:624px}
+/* pop-up layers lying flat in the drawer, standing up one after another */
+.pop{position:absolute;transform-origin:bottom center;transform-style:preserve-3d}
+@keyframes stand{from{transform:translateZ(6px) rotateX(-90deg)}to{transform:translateZ(6px) rotateX(-180deg)}}
+.moon{width:220px;height:220px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#FFF8E7,#F2DFB4 70%)}
+</style></head><body>
+<div class="stage"><div class="box">
+  <div class="face s-bottom"></div>
+  <div class="drawer">
+    <div class="face d-floor"></div>
+    <div class="face d-side"></div><div class="face d-side r"></div>
+    <div class="pop" style="left:200px;top:120px;width:220px;height:220px;animation:stand 1.2s var(--ease-out) 2.6s both"><div class="moon"></div></div>
+    <div class="pop" style="left:60px;top:300px;width:504px;height:200px;animation:stand 1.2s var(--ease-out) 3.1s both">
+      <svg width="504" height="200" viewBox="0 0 504 200"><path d="M0 200 V120 l40 -40 l40 40 V60 h60 v60 l50 -70 l50 70 V90 h80 v110 Z" fill="#3B2F45"/><path d="M330 200 V100 l60 -50 l60 50 v100 Z" fill="#33283C"/></svg></div>
+    <div class="face d-front"><div class="tab"></div></div>
+  </div>
+  <div class="face s-left"></div><div class="face s-right"></div>
+  <div class="face s-top"></div>
+</div></div>
+</body></html>

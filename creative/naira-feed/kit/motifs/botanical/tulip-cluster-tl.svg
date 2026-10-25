@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.454 -0.151 2.321 1.843" width="600" height="476"><path d="M0.6,1.42 Q0.945,1.185 1.05,0.95" stroke="#7F9A91" stroke-width="0.024" fill="none" stroke-linecap="round" opacity="1.0"/><path d="M0.38,1.5 Q0.56,1.4100000000000001 0.5,1.32" stroke="#7F9A91" stroke-width="0.024" fill="none" stroke-linecap="round" opacity="1.0"/><path d="M0.95,1.55 Q1.3,1.4849999999999999 1.55,1.42" stroke="#7F9A91" stroke-width="0.024" fill="none" stroke-linecap="round" opacity="1.0"/><g transform="translate(-0.15,1.4) rotate(-36) scale(0.014499999999999999,0.014499999999999999)" opacity="1.0">
+  <path d="M0,0 C18,-24 56,-36 100,-22 C78,2 38,14 0,0 Z" fill="#BBCDC6"/>
+  <path d="M3,-1 C28,-10 60,-16 93,-21" stroke="#FBF5F0" stroke-width="1.5" fill="none" opacity=".6"/>
+</g><g transform="translate(-0.1,1.62) rotate(-10) scale(0.0125,0.0125)" opacity="1.0">
+  <path d="M0,0 C24,-30 60,-40 92,-46 C100,-40 96,-30 84,-26 C60,-14 34,4 0,0 Z" fill="#9DB5AD"/>
+  <path d="M4,-2 C30,-12 58,-24 86,-36" stroke="#FBF5F0" stroke-width="1.4" fill="none" opacity=".5"/>
+</g><g transform="translate(1.05,0.95) rotate(12) scale(0.012) translate(0,30)" opacity="1.0">
+  <path d="M-2,-36 C-24,-46 -36,-70 -27,-94 C-17,-84 -8,-70 -2,-54 Z" fill="#E4886F"/>
+  <path d="M2,-36 C24,-46 36,-70 27,-94 C17,-84 8,-70 2,-54 Z" fill="#E4886F"/>
+  <path d="M0,-32 C-30,-36 -46,-62 -35,-104 C-24,-94 -12,-78 -3,-58 C-4,-48 -2,-40 0,-32 Z" fill="#EC957A"/>
+  <path d="M0,-32 C30,-36 46,-62 35,-104 C24,-94 12,-78 3,-58 C4,-48 2,-40 0,-32 Z" fill="#FBCCBA"/>
+  <path d="M0,-30 C-17,-42 -24,-74 0,-110 C24,-74 17,-42 0,-30 Z" fill="#F6AE96"/>
+  <path d="M-1,-42 C-9,-54 -11,-76 -1,-98 C5,-80 5,-60 -1,-42 Z" fill="#FBCCBA" opacity=".55"/>
+</g><g transform="translate(0.5,1.32) rotate(-14) scale(0.0088) translate(0,30)" opacity="1.0">
+  <path d="M-2,-36 C-24,-46 -36,-70 -27,-94 C-17,-84 -8,-70 -2,-54 Z" fill="#E4886F"/>
+  <path d="M2,-36 C24,-46 36,-70 27,-94 C17,-84 8,-70 2,-54 Z" fill="#E4886F"/>
+  <path d="M0,-32 C-30,-36 -46,-62 -35,-104 C-24,-94 -12,-78 -3,-58 C-4,-48 -2,-40 0,-32 Z" fill="#EC957A"/>
+  <path d="M0,-32 C30,-36 46,-62 35,-104 C24,-94 12,-78 3,-58 C4,-48 2,-40 0,-32 Z" fill="#FBCCBA"/>
+  <path d="M0,-30 C-17,-42 -24,-74 0,-110 C24,-74 17,-42 0,-30 Z" fill="#F6AE96"/>
+  <path d="M-1,-42 C-9,-54 -11,-76 -1,-98 C5,-80 5,-60 -1,-42 Z" fill="#FBCCBA" opacity=".55"/>
+</g><g transform="translate(1.55,1.42) rotate(26) scale(0.0062) translate(0,30)" opacity="1.0">
+  <path d="M0,-30 C-15,-42 -17,-70 0,-98 C17,-70 15,-42 0,-30 Z" fill="#EC957A"/>
+  <path d="M-1,-40 C-8,-52 -8,-72 -1,-90 C4,-74 4,-56 -1,-40 Z" fill="#F6AE96" opacity=".7"/>
+</g></svg>

@@ -1,0 +1,143 @@
+/* ════════════════════════════════════════════════════════════════════════
+   NAIRA FLORE · feed kit tokens
+   Built 25 Oct 2026 for the Instagram feed work. Paths are relative to this file
+   (kit/), so an HTML page in kit/ or one that links ../kit/tokens.css both work
+   as long as the fonts/ folder sits beside this file.
+
+   Every colour below is copied from a named source; nothing is invented.
+     site   = naira-scroll-3790bf3e/src/index.css (NAIRA FLORE DESIGN TOKENS) + tailwind.config.ts
+     brand  = naira-scroll/creative/naira-ads/build/BRAND.md (identity + ad-system palettes)
+     bag    = naira-scroll/creative/naira-bag/build/motifs.py (tulip illustration palette)
+     cat    = naira-scroll/creative/naira-catalogue/build/build.py (Volume One)
+     ed     = naira-scroll/creative/naira-catalogue/editions/build/build_theme.py (camp editions)
+     expo   = naira-scroll/creative/naira-exhibition-poster/poster.py
+   ════════════════════════════════════════════════════════════════════════ */
+
+/* ── Fonts ──────────────────────────────────────────────────────────────── */
+
+/* Velista: the brand display serif (Toni Studio, (c) 2025). UNICASE: lowercase
+   codepoints draw the capitals, so it always reads as caps. It has NO ₹ glyph,
+   NO middle dot (·) and NO em dash; set those in another face. */
+@font-face { font-family: 'Velista'; src: url('fonts/Velista.woff2') format('woff2'), url('fonts/Velista.ttf') format('truetype');
+  font-weight: 400 600; font-style: normal; font-display: block; }
+
+/* Jost (labels, support). Variable wght 100-900. No ₹ glyph: unicode-range lets
+   the next family in the stack (Poppins) draw it. */
+@font-face { font-family: 'Jost'; src: url('fonts/Jost-VF-latin.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: block;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Jost'; src: url('fonts/Jost-VF-latin-ext.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: block;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* Cormorant Garamond (editorial italic turns). Variable wght 300-700. Has ₹ (latin-ext). */
+@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/CormorantGaramond-VF-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: block;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/CormorantGaramond-VF-latin-ext.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: block;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/CormorantGaramond-VF-italic-latin.woff2') format('woff2'); font-weight: 300 700; font-style: italic; font-display: block;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/CormorantGaramond-VF-italic-latin-ext.woff2') format('woff2'); font-weight: 300 700; font-style: italic; font-display: block;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* Poppins: the catalogue's ₹ face (catalogue/editions README: "Poppins (for ₹)"). */
+@font-face { font-family: 'Poppins'; src: url('fonts/Poppins-400-latin.woff2') format('woff2'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Poppins'; src: url('fonts/Poppins-400-latin-ext.woff2') format('woff2'); font-weight: 400; font-display: block; unicode-range: U+0100-02BA, U+20A0-20C0; }
+@font-face { font-family: 'Poppins'; src: url('fonts/Poppins-500-latin.woff2') format('woff2'); font-weight: 500; font-display: block; }
+@font-face { font-family: 'Poppins'; src: url('fonts/Poppins-500-latin-ext.woff2') format('woff2'); font-weight: 500; font-display: block; unicode-range: U+0100-02BA, U+20A0-20C0; }
+@font-face { font-family: 'Poppins'; src: url('fonts/Poppins-400-devanagari.woff2') format('woff2'); font-weight: 400; font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09; }
+
+/* Indian-pop display / script options (NOT in the current brand system; for the
+   feed's illustrated, collage register only, and only after owner sign-off). */
+@font-face { font-family: 'Tiro Devanagari Marathi'; src: url('fonts/TiroDevanagariMarathi-400-devanagari.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+@font-face { font-family: 'Tiro Devanagari Marathi'; src: url('fonts/TiroDevanagariMarathi-400-latin.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'Tiro Devanagari Marathi'; src: url('fonts/TiroDevanagariMarathi-400-italic-devanagari.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+@font-face { font-family: 'Tiro Devanagari Marathi'; src: url('fonts/TiroDevanagariMarathi-400-italic-latin.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: block; }
+@font-face { font-family: 'Rozha One'; src: url('fonts/RozhaOne-400-devanagari.woff2') format('woff2'); font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+@font-face { font-family: 'Rozha One'; src: url('fonts/RozhaOne-400-latin.woff2') format('woff2'); font-display: block; }
+@font-face { font-family: 'Yatra One'; src: url('fonts/YatraOne-400-devanagari.woff2') format('woff2'); font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+@font-face { font-family: 'Yatra One'; src: url('fonts/YatraOne-400-latin.woff2') format('woff2'); font-display: block; }
+@font-face { font-family: 'Kalam'; src: url('fonts/Kalam-300-latin.woff2') format('woff2'); font-weight: 300; font-display: block; }
+@font-face { font-family: 'Kalam'; src: url('fonts/Kalam-400-latin.woff2') format('woff2'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Kalam'; src: url('fonts/Kalam-700-latin.woff2') format('woff2'); font-weight: 700; font-display: block; }
+@font-face { font-family: 'Kalam'; src: url('fonts/Kalam-400-devanagari.woff2') format('woff2'); font-weight: 400; font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+@font-face { font-family: 'Gotu'; src: url('fonts/Gotu-400-latin.woff2') format('woff2'); font-display: block; }
+@font-face { font-family: 'Gotu'; src: url('fonts/Gotu-400-devanagari.woff2') format('woff2'); font-display: block; unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+@font-face { font-family: 'Playfair Display'; src: url('fonts/PlayfairDisplay-VF-latin.woff2') format('woff2'); font-weight: 400 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Playfair Display'; src: url('fonts/PlayfairDisplay-VF-italic-latin.woff2') format('woff2'); font-weight: 400 900; font-style: italic; font-display: block; }
+@font-face { font-family: 'DM Serif Display'; src: url('fonts/DMSerifDisplay-400-latin.woff2') format('woff2'); font-style: normal; font-display: block; }
+@font-face { font-family: 'DM Serif Display'; src: url('fonts/DMSerifDisplay-400-italic-latin.woff2') format('woff2'); font-style: italic; font-display: block; }
+
+:root {
+  /* ── Type stacks ─────────────────────────────────────────────────────── */
+  --nf-font-display: 'Velista', 'Cormorant Garamond', Georgia, serif;          /* site */
+  --nf-font-editorial: 'Cormorant Garamond', Georgia, serif;                   /* site */
+  --nf-font-label: 'Jost', 'Poppins', 'Inter', sans-serif;                     /* site + ₹ fallback */
+  --nf-font-rupee: 'Poppins', 'Cormorant Garamond', sans-serif;                /* cat: ₹ */
+  --nf-font-devanagari: 'Tiro Devanagari Marathi', 'Gotu', serif;              /* feed option */
+  --nf-font-pop: 'Rozha One', 'Yatra One', serif;                              /* feed option */
+  --nf-font-hand: 'Kalam', cursive;                                            /* feed option */
+
+  /* ── Site primitives (src/index.css, exact) ──────────────────────────── */
+  --nf-ivory: #FBF3EC;          /* page ground */
+  --nf-ivory-deep: #F4EBE2;     /* pressed-linen packshot ground */
+  --nf-ink: #1A1614;            /* near-black text */
+  --nf-gold: #C99A4C;           /* bright gold: hairlines, dots, sparkle */
+  --nf-gold-deep: #B0843A;      /* eyebrows, focus, Secure Checkout gold */
+  --nf-gold-shadow: #9A7634;    /* small gold text on ivory */
+  --nf-gold-text: #80612A;      /* small gold lettering, AA on ivory */
+  --nf-sage: #99B4AF;           /* brand sage: the wordmark letters */
+  --nf-blush: #FFBDA8;          /* pressed-flower blush: the wordmark flower */
+  --nf-sage-logo: #8EA9A1;      /* hsl(162 14% 61%), footer block */
+  --nf-sage-logo-deep: #4F7268; /* hsl(162 18% 38%), buy buttons (--nf-cta) */
+  --nf-cta-hover: #416258;      /* hsl(162 20% 32%) */
+  --nf-cream: #F6F3EE;          /* hsl(33 33% 95%), text on the sage footer */
+  --nf-warm-grey: #6B625B;      /* hsl(24 8% 39%), muted text on ivory, 5.4:1 */
+  --nf-linen: #E3D9CE;          /* hsl(32 28% 85%), hairline border */
+  --nf-announce: #AEBDB6;       /* AnnouncementBar strip ground */
+  --nf-enamel-blush: #F5A58F;   /* lib/nairaFlower/config.ts, 3D flower enamel base */
+
+  /* ── Identity palette (BRAND.md) ─────────────────────────────────────── */
+  --id-cream: #FFF8F5;
+  --id-sage: #99B4AF;
+  --id-coral: #FFBDA8;          /* same value as --nf-blush; BRAND.md calls it Coral */
+
+  /* ── Ad-system palette (BRAND.md + naira-ads/build/studio.py) ───────── */
+  --ad-cream: #FFF8F5;
+  --ad-marigold: #E8973A;       /* eyebrow + rule only */
+  --ad-marigold-deep: #8F4E0E;  /* small dots / index marks */
+  --ad-ink: #1A1614;
+  --ad-ground-warm: #FBF1E6;    /* ads.json grounds */
+  --ad-ground-lilac: #EDE3F2;
+  --ad-ground-lilac-2: #E7DEF0;
+
+  /* ── Bag + card illustration palette (motifs.py) ─────────────────────── */
+  --bag-cream: #FBF5F0;
+  --bag-coral: #F6AE96; --bag-coral-deep: #EC957A; --bag-coral-light: #FBCCBA; --bag-coral-back: #E4886F;
+  --bag-sage: #9DB5AD;  --bag-sage-deep: #7F9A91;  --bag-sage-light: #BBCDC6;
+  --bag-ink: #3D3530;
+
+  /* ── Catalogue Volume One (build.py) ─────────────────────────────────── */
+  --cat-cream: #F4F0E8; --cat-paper: #FBF5F0; --cat-blush: #FBEDE9; --cat-blush-mid: #F2CFC4;
+  --cat-ink: #1C1C1C; --cat-ink-soft: #3D3530; --cat-muted: #6B615A;
+  --cat-sage-deep: #5E7A70; --cat-coral-deep: #B8604A;
+  --cat-sage-ground: #9CB1A5;   /* Camp II · Sage */
+  --cat-red-ground: #4B191A;    /* Camp IV · The Red Room */
+
+  /* ── Catalogue camp editions (build_theme.py) ────────────────────────── */
+  --ed-apricot-paper: #FCF5EF; --ed-apricot-ground: #F0C9AC; --ed-apricot-deep: #A9532B; --ed-apricot-tint: #F7E1D2; --ed-apricot-on: #4A2B1D; --ed-apricot-head: #7A3D20;
+  --ed-lilac-paper: #F8F5F8;   --ed-lilac-ground: #C9B6CB;   --ed-lilac-deep: #5E4A78;   --ed-lilac-tint: #ECE4EF;   --ed-lilac-on: #2E2338;   --ed-lilac-mast: #4E3C66;
+  --ed-sage-paper: #F6F6F1;    --ed-sage-ground: #AFBFA9;    --ed-sage-deep: #3F5A4C;    --ed-sage-tint: #E3EAE1;    --ed-sage-on: #1F2E25;    --ed-sage-mast: #F2EFE6;
+
+  /* ── Exhibition poster (poster.py) ───────────────────────────────────── */
+  --expo-green: #2E4238; --expo-green-mid: #3A5448; --expo-green-light: #4C6A5C; --expo-green-deep: #263830;
+  --expo-cream: #F6EFE6; --expo-gold: #E7C27A; --expo-kicker: #E9D9C6; --expo-blush: #F2CFC4;
+
+  /* ── Tracking ladder (site) ──────────────────────────────────────────── */
+  --nf-track-8: 0.08em; --nf-track-16: 0.16em; --nf-track-20: 0.2em; --nf-track-24: 0.24em;
+  --nf-track-28: 0.28em; --nf-track-32: 0.32em; --nf-track-40: 0.4em;
+
+  /* Radius: 0 on every brand surface (site rule). */
+  --nf-radius: 0px;
+}
+
+/* Never use (site debt / third-party): hsl(186 35% 28%) = #2E5B60, the old teal in
+   WishlistDrawer.tsx; Paytm #002970 / #00BAF2 and PhonePe #5F259F (payment marks only). */

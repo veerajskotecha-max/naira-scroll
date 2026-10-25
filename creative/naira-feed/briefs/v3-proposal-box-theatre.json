@@ -1,0 +1,1076 @@
+{
+ "name": "THE BOX THEATRE · Season One (प्रयोग 01 to 12)",
+ "one_line": "Every post opens the real blush Naira box: three bells, the drawer slides out, a paper theatre rises inside it, and one real piece takes the stage; twelve shows from Karwa Chauth to the first muhurat, and a grid of twelve little theatres.",
+ "big_idea": "THE IDEA IN ONE BREATH. Every Naira piece already arrives in the same blush box: a card sleeve, a drawer, a ribbon pull tab, NAIRA printed on the lid with the flower as the I. Seen from the drawer end it is a proscenium; pulled out, the drawer is a stage. So this season the box becomes a theatre with a cast of one. Every post is a SHOW: three soft bells, the drawer slides out at the website box's own 1.1 s, a layered paper set hinges up inside it (pop-up book, sanjhi cut, laser-cut card, crepe paper), the real piece rises through a trap in the stage floor the way the solitaire rises from its cushion on nairaflore.com, it takes a bow and catches the light, the set folds flat, the drawer slides home, and the programme tells you its name and price. A stranger names it in three seconds: 'the pink jewellery box that turns into a tiny theatre'.\n\nWHY A THEATRE, AND WHY THIS BOX. (1) The box is the one object the buyer, the website and the feed share: it turns above the footer of every page (NairaBox3D), it opens in the bag (BagGiftBox: 'tap to open'), it is in 53 of 56 listings, and every listing promises 'You will receive your piece in a Naira Petite box.' The owner tuned it herself (a 35 s turn, the opening is 'the shopper's'). On Instagram the shopper's tap becomes the shopper's swipe. (2) Packaging is the only topic that ever broke out on this account: 'The Naira Experience' unboxing reel 3,410 likes and 'Unboxing couture, the Naira way' 1,467, against a median of 9.5; packaging-as-product is flagged as an unclaimed lane in Indian demi-fine. (3) The lineage is Indian and adult: the mela bioscope (a painted box you peer into), the Rajasthani kaavad (a box whose doors open to tell a story), Marathi natak (three bells, then the curtain), the toy theatre, the pop-up wedding card. (4) The theatre gives every Indian moment of the season a stage device that is also a joke: the late star (Karwa Chauth), the line he will never say (Bhai Dooj), the understudy (Dhanteras), the lighting rig with one dead bulb (Diwali), the encore (Padwa and Bhaubeej), Tree 3 in the school play (Children's Day), the front row (wedding guests), rehearsals (sangeet), the invitation that came in a box (wedding gifts), the curtain call (the set). Twelve devices, one stage.\n\nTHE RULE THAT MAKES IT PREMIUM: ONE REAL THING. Everything on stage is paper except the piece. The set is cut card in the brand's own colours with real paper texture and soft contact shadows; the piece is the photographed, cut-out real listing photo at a believable size inside the box; the box is the real packaging, drawn from the site's own CSS box (same proportions, same card colours, same lid print). Nothing is generated that could be mistaken for jewellery, nobody's face appears, and the motion obeys the box's own house rule: things rise through slots, slide from the wings or hinge up; nothing fades in except light.\n\nTHE GRID IS A SHELF OF TWELVE THEATRES. On eleven covers the box sits at the same place and size (600 px wide, its sleeve on a shelf line at y 1046 of the tile), so every row reads as three little theatres on one shelf and the wordmark on the lid is legible at 391x521 (about 135 px wide in the grid; tested in a prototype). The twelve grounds are three colour columns (lac and blush on the left, the lilac aisle in the middle, sage and green on the right) in a value checkerboard that continues LAC / flower / BONE upward; light tiles are MATINEES posted at 12:00, dark tiles are NIGHT SHOWS posted in the evening, so the light and dark rhythm is also the posting rhythm. A ticket stub under each box numbers the show (SHOW 01 to 12, 'प्रयोग', the Marathi theatre word for a performance), and the season ends top-left on THE FINALE: the one show with a cast of three (the Ruby set, the BUY3 basket), bookending the opening curtain of Show 01 on the long diagonal.",
+ "why_better_than_A_and_B": "Read against the three judges (brand 81/78/69/64, reference craft 87/84/80/72, commerce 80/75/69/68) and the two front-runners they name, NAIRA MATCHING CENTRE (A, every lens's top or second) and MANGAL or THE NAIRA REISSUE (B):\n1. MOTION IS THE IDEA, NOT A FORMAT. A had 2 reels and the craft judge called its P10 'the least conceptual reel across all four proposals'; B's best motion ideas (Reissue's matchbox drawer, MANGAL's antarpat drop) were single posts. Here all 12 posts move under one grammar (bells, pull, rise, bow, close), 7 reels and 5 carousels with 17 video slides, every reel loops seamlessly (its last frame is its first), and the tempo is the owner's own: drawer out 1.1 s and home 1.0 s, glint every 4 s, the 3.2 s float, clip-never-fade, all lifted from src/lib/nairaBox/config.ts.\n2. THE EMBLEM IS THE BRAND'S REAL OBJECT, FIXED IN PLACE. The judges' main fix for A was 'the tag wanders' (it moves and rotates tile to tile); for the Fitting Book 'a 108x35 px label cannot carry the one-book read'; for the Reissue 'no cover carries the NAIRA wordmark'. Here the emblem is the box itself, same position and scale on 11 covers, about 215 px wide in the grid, and it carries the real wordmark on its lid (the lid counts as the frame's one wordmark, the rule the judges applied to box-lid photos).\n3. IT OWNS A LANE NOBODY HAS: packaging as the stage. Unboxing is this account's only breakout topic (3,410 and 1,467 likes vs a 9.5 median). Retro's 'IT WAS ALWAYS A MATCHBOX' was judged one of the best motion ideas in the competition; this option builds the whole season on that insight instead of spending it on one post.\n4. LOWER EXECUTION RISK THAN EITHER. A's danger was 'the humble institution done cheaply' and three AI textiles; MANGAL's was density, about 13 typefaces, ten unverified scripts and a dozen bespoke object drawings ('not safely a one-day build'). Here ONE stage kit (the site's CSS box ported to plain HTML + a paper-flat helper + slot reveal + glint) is built once and re-dressed 12 times; sets are flat cut-paper shapes (the register agents render well: silhouettes, lattices, panels) lit with real paper texture; no anatomy, no faces, no hands; three brand faces plus ONE Devanagari word (प्रयोग) that repeats on every ticket, so one native check covers the season.\n5. EVERY TILE SELLS, AND THE BASKETS ARE THE STORY. No product-free tile (A's P11 was flagged). 15 named pieces, all in stock at 12 or more per variant, 8 of them Edition Two; the bestsellers lead (Prism, Woven, Ruby, Heartbead, Brushed Huggies); unsold deep stock gets jobs (Ruby necklace 70/0, Kiss Knot 40/0, Fine Tennis 20/0, Mint Pear 20/0, Silk Mesh 40/0, Bold Nocturne Drops 19/1). Baskets are built into the narrative: P3 four boxes for four people, P9 mismatched huggies (the listing's own styling tip, two pairs = BUY2), P12 the season's one cast of three (the Ruby set = BUY3, a payoff the grid has been setting up since the karwa wore the bracelet in Show 02). Gift posts land with delivery time: gifts 1 Nov, Bhai Dooj 3 Nov, wedding gift 20 Nov.\n6. THE WIT IS AS INDIAN AS B AND AS TRUE AS A. Even the karwa dressed up; he will never say the line; the star stays in the locker; one bulb is always out; outfits don't repeat; you were Tree 3; the front row sees it all; rehearsals three weeks; the card came in a box. Each line is a shared memory for a 35 to 54 buyer, none mocks anyone, and the Cormorant turns are written as stage directions in parentheses, which is both the house voice ('(texture does the talking here.)') and how scripts are set.\n7. THE GRID IS A COMPOSITION AT PROFILE SCALE: one shelf line per row, three colour columns in a checkerboard of value that grows out of LAC / flower / BONE, matinee and night-show tiles that match their posting times, dense-mid-quiet weight left to right in every row, and an opening curtain (bottom-right) answered by a curtain call (top-left).\n8. A SOUND SIGNATURE. Three soft bells open every reel (the Marathi theatre's third bell), so the series is recognisable with the screen off.",
+ "why_it_fits": "BRAND. It is built from what the house already owns and has already tuned: the blush drawer box and its lid print, the CSS box in src/components/giftbox/NairaBoxCSS.tsx (proportions BOX w 1.6, d 1.6, h 0.7; card #D9BAB3, card-deep #C9A69E, rim #E8D2CB), the owner's motion numbers, the deck tulips and sage sprigs as painted scenery (never stuck on), Velista caps with a lowercase Cormorant turn, Jost labels, numbered series (the couture side's N° habit), sharp corners, the bracketed material kicker, the camp palettes (lac, red room, lilac, sage, bottle green). The wordmark appears only where the real box carries it. Nothing claims craft origin for the jewellery: the paper is ours, the pieces are named and described from their listings.\nDATA. (a) Packaging is the one topic that broke out: 3,410 and 1,467 likes vs median 9.5. (b) The buyer is a woman 35 to 54 (64% of purchases), Maharashtra 46%: the season is staged in her calendar and memories (Marathi natak bells, Padwa and Bhaubeej, Aai and Vahini, the school annual day, the sangeet rehearsal, the box invitation). (c) What sells is one piece + one everyday Indian object + one witty line + one exact fact: each show has exactly that (the karwa, the script, the locker, the ladi, the school tree, the wedding chairs, the laser-cut card) and one listing fact on the end card. (d) Ruby is the hero stone and Edition Two is the season's story: Ruby opens the festive run (Show 02) and closes the season as a set (Show 12); 8 of the 15 pieces are Edition Two. (e) 69% of orders are one piece: 'cast of one' is the format, and the three basket shows are designed exceptions. (f) Sunday 12:00 and evenings 18:00 to 21:00 carry the orders: matinees post at 12:00, night shows at 17:00 to 19:00. (g) Reels sold reach, not baskets, in paid; so every reel ends on a programme card with the price and every guide is a carousel (stills plus loops), which is where 84% of purchases came from.\nOWNER TASTE. Indian everyday wit with restraint; lilac (a whole lilac column); moody night grounds (lac, red room, plum, bottle green, deep sage); deck florals as scenery; clean, one piece per frame; exact facts; slow, calm motion at her own tempo; no lyrics; no black grounds, no sand or beige, no cool light, no faces, no stickers or stamps, no discount art.\nREFERENCE. PTAT's system, Naira's own world: a recurring lockup on every tile (the box + ticket, where MILNI had the slab word + hand + marigolds), an event told in waves (twelve shows of one season), a drawn frame around a real thing (PTAT's drawn wardrobe around a real girl; here a paper set around a real piece), a steel-tray-style guide (the four-box tower), script + caps (Cormorant stage directions + Velista), named series and numbers (SHOW 01 to 12), big colour fields, reels in a designed grid.",
+ "motion_language": "THE HOUSE RITUAL (every reel; carousels use the same beats as loops). 0.00 HOUSE: the box shut, title above, footlights off; the shut box breathes (translateY 0 to -6 px and back over 3.2 s, its shadow scaling 1 to 0.96: the website box's HOVER period). 0.20 / 0.70 / 1.20 THREE BELLS (sound) with three light cues: bell 1 a warm wash rises behind the box (radial #FFF4E0, opacity 0 to .22); bell 2 the nine footlights on the drawer front's top lip come up (d 6 px dots, core #FFE8B0, 14 px glow, 0.3 s); bell 3 the title and stage direction exit upward through a mask (slide up 120 px, clipped, 0.6 s, cubic-bezier(0.65,0,0.35,1)). 1.50 to 2.60 THE PULL: the drawer slides out, 1.10 s, cubic-bezier(0.22,1,0.36,1) (REVEAL.open, --nf-ease-reveal); the ribbon tab swings 6 degrees and settles. From 72% out (smoothstep 0.72, as on the site) THE RISE: paper flats hinge up from the stage plane back to front, rotateX 90 to -2 to 0 degrees about their base, 0.62 s each, ease-reveal, stagger 0.08 s: paper settles, it never bounces (overshoot 2 degrees max). THE ENTRANCE: the piece rises through a slot in the stage (translateY 100% to 0 inside an overflow-hidden window whose foot is the slot), 0.9 s, ease-reveal: the website ring's own rise. THE SCENE: one action per show (5 to 8 s). THE BOW: the piece dips 8 px and returns (0.5 s, ease-in-out) and the four-point glint (the site's GLINT: white core + two crossed lines, masked, scale 0.6 to 1 to 0.6, opacity 0 to 1 to 0 over 0.6 s) blooms on its brightest stone; while the piece is up the glint repeats every 4.0 s (REVEAL.glintEvery). THE CLOSE: the piece sinks through its slot (0.6 s), flats fold front to back (rotateX 0 to 90, 0.45 s, stagger 0.06 s), the drawer slides home in 1.0 s, ease-in-out (REVEAL.close), footlights dim. THE PROGRAMME (end card): name, price, one fact and nairaflore.com rise line by line through a slot in the title zone (0.6 s, stagger 0.08 s), the ticket rises from a slot under the shelf (0.5 s), hold 1.6 to 2.4 s. THE RETURN: programme exits up, title returns from below; the final frame is pixel-identical to the first, so Instagram's autoplay loop is seamless.\nTEMPO CONSTANTS (owner-tuned, reused): drawer 1.1 s out / 1.0 s home; glint every 4 s; float 3.2 s; any continuous rotation at the box's 10.3 degrees/s (one turn per 35 s) and never faster than the header flower's 36 degrees/s (one turn per 10 s); stagger 30 to 80 ms; the only linear motion is constant motion (a moon rising, a scroll rolling, a light chasing).\nEASING: entrances and the drawer cubic-bezier(0.22,1,0.36,1); moves on screen cubic-bezier(0.65,0,0.35,1); constant motion linear; nothing ever eases in (no ease-in starts).\nWHAT ENTERS HOW: pieces and text rise through slots; scenery hinges up (pop-up) or flies in on strings from above the frame (necklaces, ladis, the moon on its brass rod); props slide from the wings and are clipped by the drawer's side windows; light is the only thing allowed to fade (washes, glows, spot pools, stars, bulbs). This is the box's own rule: the ring is hidden by clipping planes, never by fading, because a fade left a ghost of it over the lid.\nWHAT NEVER MOVES: the camera's seat (a fixed view from the stalls: rotateX -32 degrees, rotateY 0, perspective 6400 px, about 10.7x the lid width; a single push-in of at most 3% during the scene, returned before the close); the box's place on the shelf line; the lid print (never animated, never covered: every flat obeys the print-safe height rule); the ticket's position; type never animates letter by letter (except P4's script, typed by a left-to-right slot wipe because typing is its joke) and is never warped, bounced or scaled.\nLOOP LOGIC: reels 14 to 18 s, last frame = first frame; carousel video slides 4 to 6 s at 1080x1440, first frame = last frame (slide 1's first frame is the designed cover, so the grid tile is exact); 30 fps; H.264 High, yuv420p, +faststart (tools/reel.cjs; add width and height arguments for 1080x1440, a one-line change).\nSOUND: three soft brass hand-bell rings at 0.20, 0.70, 1.20 s open every reel (the series' signature); the drawer is a card-on-card slide; flats are soft paper flaps; the bow is one small glass 'ting'. Music from Instagram's library at posting, instrumental only, never lyrics: one instrument family per show (music box, santoor, sitar, harmonium, piano, tabla and claps, shehnai).",
+ "grid_system": {
+  "palette": "GROUNDS (full-bleed flat field + paper grain at .18; the box is always the real blush, never recoloured): three colour columns, value alternating so LAC / flower / BONE continues upward.\nCOLUMN 1 (left, LAC FAMILY, dense shows): P12 r1c1 lac #42060E (night) · P9 r2c1 blush-mid #F2CFC4 (matinee) · P6 r3c1 red room #4B191A (night) · P3 r4c1 pale blush #FBEDE9 (matinee) · above the live LAC tile, so the red column starts and ends in lac.\nCOLUMN 2 (centre, THE LILAC AISLE): P11 r1c2 lilac #E7DEF0 (matinee) · P8 r2c2 lilac deep #5E4A78 (night) · P5 r3c2 lilac tint #ECE4EF (matinee) · P2 r4c2 lilac mast #4E3C66 (night) · above the cream flower tile.\nCOLUMN 3 (right, SAGE FAMILY, quiet shows): P10 r1c3 sage deep #3F5A4C (night) · P7 r2c3 sage tint #E3EAE1 (matinee) · P4 r3c3 bottle green #2E4238 (night) · P1 r4c3 sage ground #AFBFA9 (matinee; the brand's own pairing: blush box on sage, the wordmark's two colours) · above the live BONE tile.\nINKS: on light grounds ink #1A1614 (titles), ink-soft #3D3530 (stage directions), warm-grey #6B625B (small labels), lilac-on #2E2338 on P11; on dark grounds cream #F6EFE6 (titles), blush-mid #F2CFC4 (stage directions), kicker #E9D9C6 (small labels).\nTHE BOX (from src/lib/nairaBox/config.ts and NairaBoxCSS.tsx, exact): lid gradient #F2DED8 > #E6CCC5 > #DDBFB8 (140deg), card #D9BAB3, card-deep #C9A69E (base, back), right side #C8A69F > #B9968F, left side #D8B8B1 > #CBA9A2, rim #E8D2CB (1.2% of lid width, every open edge), lid print = kit/naira-wordmark.svg in #4A4440 at .86 opacity, 62% of lid width, centred; ribbon pull tab #E9C2BA satin with a 1 px #F6E2DC highlight; stage plane (the drawer's velvet top, radial #2E2527 > #141112) is always covered by the show's PAPER FLOOR, so no black ever shows beyond the drawer's 18 px rim.\nSET PAPERS (cut card, always textured with plate AP-01 at multiply .35 and a 1.5 px top-left edge highlight rgba(255,255,255,.35)): tulip coral #F6AE96 / #EC957A / #FBCCBA, leaf sage #9DB5AD / #7F9A91, blush #F2CFC4, ivory #FBF3EC, aubergine #2E2338, lilac deep #5E4A78, lac red (curtain) #7A1E24, steel-warm #CBC4BF (lockers), brass #B0843A (rods, keyholes, rims), gold paper #C99A4C (pelmets, ropes), terracotta #B8604A (karwa), crepe green #6E9A6A, crepe sun #F3D27A, kraft #B8946A (school trees only). LIGHT COLOURS (fade-allowed, mix-blend screen): warm wash #FFF4E0, footlight #FFE8B0, spot #FFF1D6, prism pools aqua #BFE3E0 / pink #F6C9D0 / lemon #F3E6A8, ladi bulbs blush #F6C9D0 / lemon #F3E6A8 / mint #CFE5D6 / ivory #FBF3EC with core #FFF7E6.\nCONTRAST (WCAG, computed): cream on lac 14.4, red room 12.5, bottle green 9.3, lilac mast 8.4, lilac deep 6.7, sage deep 6.5; blush-mid on lilac mast 6.7; ink on sage ground 9.3, ink-soft on sage ground 6.2; ink on every pale ground 11 or more; lilac-on #2E2338 on #E7DEF0 11.7. Gold #C99A4C, sage and blush are decoration only on light grounds. 60/30/10 per tile: ground 60, box + set 30, piece + light 10; the piece's metal is the only saturated metal in frame (brass rods are thin).",
+  "type_system": "Three brand roles + one Devanagari word, nothing else (no Kalam, Rozha, Yatra, Playfair, DM Serif).\n(1) VELISTA 400 (kit/fonts/Velista.woff2), CAPS ONLY, titles and the series name. Glyphs A-Z 0-9 . , ; : ! ? & ' \" - ( ) @ # % / only: NO ₹, NO ·, NO °, NO accented letters (RIVIÈRE, PAVÉ and N° are always Jost). Cover titles 104 px (one-line titles 120 px), line-height 1.0, letter-spacing .02em, centred; reel titles 76 to 84 px. Every title ends with a full stop.\n(2) CORMORANT GARAMOND ITALIC 400, lowercase, ALWAYS A STAGE DIRECTION IN PARENTHESES: '(the drawer is the stage.)'. 44 px on covers, 36 to 40 px in reels, 26 px on rod cards. This is the house's existing aside voice and how play scripts set directions, so the script + caps pairing has a reason.\n(3) JOST (kit VF): labels 500 caps tracking .22 to .32em (13 to 30 px); support 400 (22 to 28 px); prices Jost 400 with font-family 'Jost','Poppins' so ₹ falls back to Poppins; piece names always in Jost caps, never Velista. Per frame: at most one eyebrow + two Jost lines (the end card is the programme, its own format).\n(4) TIRO DEVANAGARI MARATHI 400, one word only, repeated on every ticket: प्रयोग (the Marathi theatre word for one performance of a play, as in 'the 500th प्रयोग'). One native check covers the season; P7's caption carries one Marathi greeting (दिवाळी पाडव्याच्या हार्दिक शुभेच्छा) that needs the same check. Nothing else in Indic script.\nWORDMARK: only ever as the lid print on the box (kit/naira-wordmark.svg, #4A4440 at .86), so it appears once per frame by construction; never typed, never a second mark in the frame (P3's tower stacks the boxes so only the top lid shows; P12's season slide lists the shows in type rather than showing twelve lids). Punctuation: no em dashes, no exclamation marks, no emoji; middots only in Jost metadata.",
+  "emblem": "THE BOX ITSELF, the real Naira packaging, in one fixed pose and place: a CSS 3D box ported from NairaBoxCSS.tsx (W = lid width, D = W, H = 0.4375 W), seen near-orthographically (perspective 6400 px, about 10.7 W, so the drawer does not balloon toward the lens; the site's 5 W was tested and reads like a corridor at this size), camera rotateX(-32deg) rotateY(0deg) so the drawer end faces the viewer squarely (symmetry; NAIRA on the lid reads upright from the drawer side, as on the real box). The lid print is kit/naira-wordmark.svg, #4A4440 at .86, 62% of the lid width, centred on the lid. PROTOTYPED (work/v3box/proto/p2-cover-proto.html): at W 640 the lid projects 350 px deep, the drawer front 246 px tall, and 380 px of drawer travel shows 240 px of stage; so the build uses W 600. GRID / COVER (1080x1440 tile): W 600, sleeve front-bottom edge centred at (540, 1046) (the SHELF LINE); shut, the box spans about y 494 to 1046; open (drawer travel E = 340) the stage spans about y 823 to 1035 and the drawer front reaches about y 1264, leaving the ticket at y 1308 to 1390 clear (measured in the prototype). REEL VIDEO (1080x1920 frames): the same W 600, sleeve front-bottom at (540, 1042), lid back edge about y 490, drawer front about y 1239 open (E = 320), all clear of Instagram's bottom UI. The box is the same size in the same place on 11 of 12 covers (P3 is the deliberate exception: four boxes stacked, W 300). At 391x521 the box is about 215 px wide and NAIRA on its lid about 135 px: tested legible at that size, and it is the real wordmark on the real object.\nTHE STAGE FLOOR: the real drawer bed is black velvet; on stage it is always covered by a PAPER FLOOR (a flat lying on the stage plane, inset 18 px from the drawer walls) in each show's floor colour, so the owner's 'no black grounds' holds and the floor becomes part of the set (P2 a terrace of tiles, P10 a rehearsal floor of tape, P1 ivory boards). Only the drawer's 18 px rim and a 4 px shadow at the sleeve edge show around it.\nPRINT-SAFE RULE (keeps the wordmark visible behind every set, checked in the prototype): the print's front edge sits about 0.43 D (258 px) behind the lid's front edge, so a flat standing d px in front of the lid's front edge may be at most h = (258 + d) / 1.6 px tall (1/tan 32deg = 1.6): 161 px at the lid edge, 222 at d 100, 286 at d 200, 374 at d 340. Flats outside the print's x range (the lid's outer 19% each side) may be taller. Anything taller goes behind the box (rising above the lid into the sky: the moon) or flies in at the sides.",
+  "lockup": "THE TICKET STUB, under every box, same place and size on every cover and every end card: an old Indian theatre ticket. COVER: 400 x 82 px at x 340 to 740, y 1308 to 1390 (reel covers: y 1548 to 1630). REEL END CARD: 400 x 82 px at x 340 to 740, y 1062 to 1144, rising from a slot under the shelf. CONSTRUCTION: ivory card #FBF3EC with AP-01 paper at multiply .25, 1 px border rgba(26,22,20,.14), four 7 px quarter-circle punch notches at the corners (a ticket shape, not rounded corners), shadow 0 6 px 12 px rgba(20,10,10,.18). STUB x 0 to 96: Jost 500 12 px tracking .3em #6B625B 'SHOW' over Velista 40 px #1A1614 two-digit number '01' to '12'; perforation at x 96 (3 px dots on an 8 px pitch, #1A1614 at 35%). BODY x 112 to 388: Velista 28 px #1A1614 'THE BOX THEATRE' (tracking .04em, baseline 34); Jost 500 12 px tracking .32em #6B625B 'MATINEE · ADMIT ONE' or 'NIGHT SHOW · ADMIT ONE' (baseline 54); Jost 400 11 px tracking .2em #6B625B 'SEASON ONE' left and Tiro Devanagari Marathi 17 px #6B625B 'प्रयोग' right (baseline 72). The ticket is ivory on every ground, so on night shows it is the one pale shape under the glowing box. At 36% it reads as a ticket shape with a number; the box above it carries the brand.",
+  "recurring_devices": "Build these once as STAGE KIT (work/v3box/stage-kit/: box.js, flat.js, ritual.js, glint.js, ticket.js), then dress each show.\n1 BOX: the port of NairaBoxCSS.tsx + pose.ts (faces as divs; the open drawer is the same convex box made longer and drawn through fixed windows, which keeps Chrome's face sorting clean), with four additions: the stage plane (the pulled-out top face) is where flats stand and is covered by the show's PAPER FLOOR (a flat lying on the plane, inset 18 px, AP-01 texture, the colour and pattern given per show); nine FOOTLIGHTS on the drawer front's top lip; and the RIBBON TAB on the drawer front (0.16 W x 0.055 W loop of #E9C2BA satin, from the 3D box's tab).\n2 FLAT: a paper set piece (inline SVG path + fill + AP-01 texture at multiply .35 + 1.5 px edge highlight + drop-shadow 0 6px 10px rgba(30,15,10,.28) cast on the stage), parented to the stage plane at depth d with transform-origin at its base, animated rotateX 90 > -2 > 0. Heights obey the print-safe rule.\n3 TRAP (slot reveal): an overflow-hidden window whose bottom edge is a line on the stage; the piece or text inside travels translateY 100% > 0. Pieces are 2D cut-outs turned to face the camera (the ring sprite's method, ringFacing = pose).\n4 ROD CARD: a 220 x 110 ivory card (AP-01) on a 2 px brass #B0843A rod that rises from behind the box at stage left (x 90 to 310) or right (x 770 to 990): Jost 500 20 px caps label + Velista 36 to 44 px line + Cormorant 26 px direction. The toy theatre's placard. Max one per show (P7 uses two, one per encore).\n5 FLY: thin threads (1.5 px #E9D9C6 at 70%) from above the frame that lower scenery or a necklace onto the stage (descend 0.9 s ease-reveal, settle sway 1.5 degrees).\n6 LIGHT: warm wash behind the box, footlights, a spot (soft cone, linear-gradient + radial pool on the stage, #FFF1D6, screen, .35 to .45). The only fading things.\n7 GLINT: the site's four-point glint (GLINT and GLINT_FADE in NairaBoxCSS.tsx), every 4 s on the piece's brightest stone.\n8 STAGE DIRECTIONS: every Cormorant line is written as a direction in parentheses.\n9 THE PROGRAMME: the end card (piece name in Jost caps, price in Jost/Poppins, one bracketed fact in Cormorant, nairaflore.com) over the shut box, ticket below.\n10 THE SHELF LINE: a 2 px line across the full tile at the box's foot (y 1046 on covers), ground darkened 10% on light grounds and lightened 12% on dark ones, so the three boxes in a row stand on one continuous shelf across the gutters.\n11 THE THREE BELLS (sound).",
+  "rhythm_map": "ROW 1 (top, week 4, wedding season opens): P12 r1c1 THE FINALE · lac night · DENSE (curtain + three pieces) · carousel | P11 r1c2 THE CARD CAME IN A BOX · lilac matinee · MID (laser-cut arch, elephants, bangle) · carousel | P10 r1c3 REHEARSALS: THREE WEEKS · sage-deep night · QUIET (tape marks, two drops) · reel.\nROW 2 (week 3, after Diwali): P9 r2c1 THE FRONT ROW · blush matinee · DENSE (four wedding chairs + two huggies + loupe) · carousel | P8 r2c2 YOU WERE TREE 3 · lilac-deep night · MID (three cardboard trees) · reel | P7 r2c3 ENCORE · sage-tint matinee · QUIET (one chain on a paper bust before a small painted scroll) · reel.\nROW 3 (week 2, Dhanteras to Diwali): P6 r3c1 ONE BULB IS ALWAYS OUT · red-room night · DENSE (ladi swags across the whole tile) · reel | P5 r3c2 THE STAR STAYS IN THE LOCKER · lilac-tint matinee · MID (locker wall + hoops) · carousel | P4 r3c3 HE WILL NEVER SAY THE LINE · bottle-green night · QUIET (one script page, one heart) · reel.\nROW 4 (week 1, Karwa Chauth to gifts): P3 r4c1 FOUR BOXES · pale-blush matinee · DENSE (four-box tower) · carousel | P2 r4c2 EVEN THE KARWA DRESSED UP · lilac-mast night · MID (terrace, karwa, moon) · reel | P1 r4c3 PLEASE TAKE YOUR SEATS · sage matinee · QUIET (the box shut, a line of light at the drawer) · reel.\nEvery row reads dense > mid > quiet left to right; the left column is festive and full, the right column breathes; the lilac aisle is always the middle weight. Value checkerboard in every row and column. Formats: 7 reels (P1 P2 P4 P6 P7 P8 P10) and 5 carousels (P3 P5 P9 P11 P12) holding 17 video slides; every row has at least one reel and one carousel. Box states vary so the shelf is never twelve copies: shut with a light leak (P1), open with a sky prop (P2), a tower of four (P3), open with one page (P4), open with a wall (P5), open under strings (P6), open on a bioscope scroll (P7), open with props sliding (P8), open behind chairs (P9), open with flown drops (P10), open with a lace arch (P11), open behind a curtain (P12). THE LONG DIAGONAL: P1 bottom-right raises the curtain; P12 top-left takes the curtain call.",
+  "transition_to_existing_grid": "The first row of the season (P3 P2 P1) sits on the live row LAC (oxblood) | flower (cream) | BONE (oxblood). Value: light over LAC, dark over the cream flower, light over BONE, so the checkerboard simply continues upward. Colour: the red column starts on LAC and ends on P12's lac (#42060E, sampled from the LAC tile) at the very top; the lilac aisle starts over the flower tile, and P2's box lid carries the same flower-as-I in NAIRA directly above the flower tile; the sage column starts over BONE with P1's sage, and P1's line of warm light at the drawer and its red curtain (inside, in the reel) rhyme with BONE's oxblood below. Nothing is deleted or re-ordered: the twelve shows grow out of the August launch row like a new season on the same stage. Post strictly P1 to P12, three a week, so each week completes one row; if a post slips, use grid reordering rather than doubling up on a day.",
+  "pins": "None during the rollout (pins must be 0 or 3 or they shift every row). After 22 Nov, optionally pin a full row of three in this order: P12 THE FINALE (the Ruby set), P11 THE CARD CAME IN A BOX (wedding gifts), P1 PLEASE TAKE YOUR SEATS (the world explained) for the December muhurats; pinning three keeps the column logic intact."
+ },
+ "ai_plates": [
+  {
+   "id": "AP-01",
+   "used_in": "every set flat (texture at multiply .35), the ticket, rod cards, P4 script page, P2 moon, P3 name tags, end-card programmes, P12 cast list",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": false,
+   "prompt": "Flat overhead scan of a single sheet of handmade cotton rag paper, warm ivory white, long visible cotton fibres and a soft felted surface, faint natural tonal variation, evenly lit with no shadows and no light falloff, no folds, no creases, no edges visible, the paper fills the frame edge to edge, seamless tileable texture, true neutral warm white balance. No text, no watermark, no objects, no stains. Avoid: beige, sand, tan, yellowed paper, grey cast, cool cast, vignette, glossy sheen."
+  },
+  {
+   "id": "AP-02",
+   "used_in": "the box faces (lid, sides, drawer front) at multiply .40 over the box colours, so the box reads as real satin card on every cover and frame",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": false,
+   "prompt": "Flat overhead macro scan of satin-finish coated paperboard from a premium jewellery gift box, very pale blush pink, a fine even tooth and a faint linen emboss across the surface, soft diffuse light, perfectly flat, no edges, no corners, no folds, seamless tileable texture. No text, no logo, no print, no watermark. Avoid: glossy plastic sheen, glitter, strong grain, peach or orange cast, beige."
+  },
+  {
+   "id": "AP-03",
+   "used_in": "P1 house curtain (multiplied over lac red #7A1E24) and P12 finale curtain (multiplied over blush #F2CFC4): one plate, two colours, animated as a drop curtain that flies up (translateY, clipped by the gold pelmet)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "4:3",
+   "transparent": false,
+   "prompt": "Straight-on front view of a stage drop curtain made entirely of pleated ivory paper: tall even vertical accordion pleats of matte handmade paper filling the whole frame edge to edge, soft light from the upper left raking across the folds so every pleat has one lit face and one shadowed face, a neat narrow folded hem along the bottom edge, no perspective, no stage, no floor, no ropes, no tassels. Paper craft, tactile and matte. No text, no logos, no people, no velvet, no gold. Avoid: fabric, satin sheen, wrinkles, curved swags, grey cast."
+  },
+  {
+   "id": "AP-04",
+   "used_in": "P8 crepe-paper sun and the crepe foliage on the three school trees (multiplied over #F3D27A and #6E9A6A)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": false,
+   "prompt": "Flat overhead macro scan of white crepe paper, fine regular horizontal crinkles running across the whole frame, matte, soft even daylight, no folds, no edges, seamless tileable texture. No text, no objects. Avoid: tissue shine, glitter, grey cast, colour cast."
+  },
+  {
+   "id": "AP-05",
+   "used_in": "P8 the three cardboard school-play trees (trunks and stands) and the label board",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": false,
+   "prompt": "Flat front scan of plain kraft cardboard, warm light brown, faint fibre speckle and a few soft scuffs, matte, evenly lit, filling the frame edge to edge, seamless tileable. No text, no tape, no stamps, no barcodes, no printing. Avoid: corrugated holes, dark stains, orange cast, grey cast."
+  },
+  {
+   "id": "AP-06",
+   "used_in": "P2 the karwa standing on the terrace parapet (wears the Ruby Baguette Tennis Bracelet; the designer splits the neck into a back mask and a front mask so the bracelet passes behind and in front)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": true,
+   "prompt": "A small Indian earthen karwa pot made as a delicate paper-craft sculpture: a round belly, a short narrow neck, a small spout on one side and a little flat lid, built from layered matte card in soft terracotta (#B8604A) with hand-painted ivory dots and a thin ivory zigzag band around the shoulder, straight front view with the spout pointing left, soft studio light from the upper left, isolated on a fully transparent background, no ground shadow. No thread, no jewellery, no flowers, no lamp, no food, no text, no people. Avoid: glossy ceramic, real clay photo look, orange cast."
+  },
+  {
+   "id": "AP-07",
+   "used_in": "P7 encore backdrop panel A, DIWALI (the painted scroll behind the stage; three panels roll left on the encores)",
+   "model": "nano_banana_pro (2k)",
+   "aspect": "16:9",
+   "transparent": false,
+   "prompt": "Gouache painting on textured paper in the style of a hand-painted Indian theatre backdrop, flat and decorative, soft brushwork: night view of the window wall of an old Maharashtrian home, deep plum and aubergine walls, a glowing five-point paper star lantern (akash kandil) hanging in the open window, a neat row of small lit clay oil lamps along the window sill, warm golden light spilling onto the wall, the centre of the picture calm and uncluttered, detail kept to the left and right edges. No people, no faces, no text, no letters, no signage, no jewellery, no fireworks. Palette: plum #4E3C66, aubergine #2E2338, lac red, warm gold light, ivory."
+  },
+  {
+   "id": "AP-08",
+   "used_in": "P7 encore backdrop panel B, PADWA (morning)",
+   "model": "nano_banana_pro (2k)",
+   "aspect": "16:9",
+   "transparent": false,
+   "prompt": "Gouache painting on textured paper in the style of a hand-painted Indian theatre backdrop, flat and decorative, soft brushwork: morning at the front door of a Maharashtrian home, pale sage-green walls, a carved wooden door frame, a fresh rangoli of simple petals and dots on the threshold in blush, ivory and sage, a toran of green mango leaves across the top of the door, clear soft morning light, the centre calm and uncluttered. No people, no faces, no text, no letters, no jewellery, no marigolds. Palette: sage #AFBFA9, ivory, blush #F2CFC4, leaf green, warm wood."
+  },
+  {
+   "id": "AP-09",
+   "used_in": "P7 encore backdrop panel C, BHAUBEEJ (afternoon)",
+   "model": "nano_banana_pro (2k)",
+   "aspect": "16:9",
+   "transparent": false,
+   "prompt": "Gouache painting on textured paper in the style of a hand-painted Indian theatre backdrop, flat and decorative, soft brushwork: afternoon in a Maharashtrian home, a low carved wooden stool (chowrang) against a warm blush-painted wall, on it a brass aarti plate holding one small lit oil lamp, a tiny bowl of kumkum and a few grains of rice, a folded ivory handkerchief beside the plate, warm afternoon window light falling in a soft rectangle on the wall, the centre calm. No people, no faces, no hands, no text, no letters, no jewellery, no sweets. Palette: blush #F2CFC4, ivory, warm brass, sage accents."
+  },
+  {
+   "id": "AP-10",
+   "used_in": "P8 the school-play backdrop flat behind the three cardboard trees",
+   "model": "nano_banana_pro (2k)",
+   "aspect": "16:9",
+   "transparent": false,
+   "prompt": "A child's wax-crayon drawing made as the painted backdrop for a school play: a simple forest of round scribbled green treetops on brown trunks, a few birds drawn as small 'v' strokes, a pale crayon sky, heavy visible crayon texture, on light brown kraft paper, naive and charming, the drawing fills the frame. No sun, no people, no animals with faces, no text, no letters, no numbers. Avoid: digital look, perfect symmetry, neon colours."
+  },
+  {
+   "id": "AP-11",
+   "used_in": "P8 the tied-back stage curtains framing the school stage (left half and right half; the designer splits and mirrors)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "3:2",
+   "transparent": true,
+   "prompt": "A pair of small theatre curtains made of pleated matte paper in dusty rose (#C98A8F), drawn open and tied back to the left and right with twisted gold paper rope, a short scalloped paper valance across the top, straight front view, soft even light, isolated on a fully transparent background, nothing between the curtains. No stage, no floor, no text, no people, no velvet. Avoid: fabric sheen, red, orange cast."
+  },
+  {
+   "id": "AP-12",
+   "used_in": "P9 the front row: four wedding chairs seen from behind at the front of the stage (the designer separates the four chairs into four layers)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "3:2",
+   "transparent": true,
+   "prompt": "Four Indian wedding banquet chairs in a straight row seen from directly behind, each wearing a fitted ivory fabric chair cover with a blush pink satin sash tied in a bow at the back, rendered as a delicate paper-craft model in folded card, soft even light from above, isolated on a fully transparent background, no floor, no shadow. No people, no text, no flowers, no stage. Avoid: glossy plastic, grey cast, perspective distortion."
+  },
+  {
+   "id": "AP-13",
+   "used_in": "P11 the laser-cut wedding-card arch standing at the back of the stage (front arch at 100%, a second copy at 82% behind it for depth)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": true,
+   "prompt": "A laser-cut ivory paper arch in the style of an Indian wedding invitation: a scalloped mandap-like arch with fine floral filigree and a jaali lattice band, perfectly symmetrical, straight front view, the paper's thickness visible along the cut edges, soft light, isolated on a fully transparent background, open in the centre. No text, no letters, no names, no deities, no figures, no people. Avoid: gold foil, glitter, grey cast."
+  },
+  {
+   "id": "AP-14",
+   "used_in": "P11 the two laser-cut elephants either side of the arch (one generated, mirrored for the pair)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": true,
+   "prompt": "A single laser-cut ivory paper elephant in the style of an Indian wedding invitation, side profile facing right, trunk raised in greeting, an ornamental saddle cloth cut as fine filigree, the paper's thickness visible at the edges, soft light, isolated on a fully transparent background. No rider, no howdah, no text, no letters, no people. Avoid: gold foil, glitter, cartoon style."
+  },
+  {
+   "id": "AP-15",
+   "used_in": "P6 the balcony railing at the back of the stage (cream paper jaali the ladi hangs behind)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "4:1",
+   "transparent": true,
+   "prompt": "A long balcony railing made of laser-cut cream paper (#E9D9C6): a repeating Indian jaali lattice of interlocking quatrefoils between a plain top rail and bottom rail, straight front view, paper thickness visible at the cut edges, soft even light, isolated on a fully transparent background. No text, no plants, no lights, no people. Avoid: metal, gold, grey cast."
+  },
+  {
+   "id": "AP-16",
+   "used_in": "gold paper for the pelmets (P1, P12), the P8 curtain ropes, the P3 tag threads' knots and the rod-card rods' caps (multiplied over #C99A4C)",
+   "model": "gpt_image_2_5 (quality medium, 2k)",
+   "aspect": "1:1",
+   "transparent": false,
+   "prompt": "Flat overhead scan of matte warm gold paper with a very fine hammered texture, soft even light, no folds, no edges, seamless tileable texture. Warm neutral gold, not brassy, not orange, not mirror-shiny. No text, no glitter, no foil wrinkles."
+  }
+ ],
+ "posts": [
+  {
+   "p": 1,
+   "grid_pos": "r4c3",
+   "date": "Tue 27 Oct 2026",
+   "time_ist": "12:00",
+   "format": "reel (1080x1920, designed cover uploaded separately)",
+   "duration_s": 18,
+   "loop": true,
+   "title": "PLEASE TAKE YOUR SEATS.",
+   "series": "THE BOX THEATRE · SHOW 01 · MATINEE (season opener; bookend 1 of 2 on the long diagonal)",
+   "tone": "quiet, welcoming, the world explained in one ritual; the row's breathing tile",
+   "product_handles": [
+    "prism-riviere-bracelet"
+   ],
+   "prices_and_stock": "Prism Rivière Bracelet ₹2,399 (roster 25 Oct; compare-at not shown anywhere), 67 in stock, single variant, not pre-order, gift-friendly, no sizing. #1 by revenue (14 units, ₹27,649 in 120 days). Re-read the price on the posting morning; the price appears only on the end card and in the caption.",
+   "concept": "The relaunch after 76 silent days, staged as the first night of a season. Every Naira piece already arrives in this blush box; today the box is a theatre and the audience is asked, politely, to sit down. The reel performs the whole house ritual once, slowly, so every later show can be shorter: three bells, the drawer slides out, a lac-red paper curtain rises on a backdrop painted with the brand deck's own coral tulips and sage blades, and the lead actor rises through the trap: the Prism Rivière Bracelet, whose three stone colours (aqua, soft pink, pale yellow) come back to it as three coloured stage lights that meet on it and mix to warm white. The joke is gentle and the idea is legible in three seconds: a jewellery box that is a stage, with a cast of one. The cover is the quietest tile of the season: the box shut, a line of warm light leaking at the drawer, the show about to start.",
+   "cover": "1080x1920 still; the grid tile is y 240 to 1680 (all y below are TILE coordinates: add 240 for the canvas). GROUND sage #AFBFA9 full canvas + grain .18. TITLE Velista 104 px ink #1A1614, centred, 'PLEASE TAKE' baseline 290, 'YOUR SEATS.' baseline 394 (line 1 about 640 px wide, cap top 217: clear of the icon zone x>=907/y<=202). STAGE DIRECTION Cormorant Garamond italic 44 px ink-soft #3D3530 centred baseline 456: '(the drawer is the stage.)'. SHELF LINE 2 px #9DAD97 across the full width at y 1046. BOX W 600 centred, sleeve front-bottom edge at (540, 1046), shut except a 6% pull (drawer travel 20 px): along the gap a 2 px #FFE7B8 line of light with a 40 px bloom rgba(255,231,184,.55) (screen), and a 10 px sliver of the lac-red pleated curtain's top edge visible in the gap; the nine footlights on the drawer lip lit; the ribbon tab hanging straight. CONTACT SHADOW ellipse 680x52 at (540, 1052) rgba(26,22,20,.24) blur 10. TICKET 'SHOW 01 · MATINEE · ADMIT ONE' at x 340 to 740, y 1308 to 1390. Nothing else. AT 391x521 READS: the two-line title (cap height about 27 px), the blush box with NAIRA on its lid (about 135 px wide), the line of light, the pale ticket. The canvas outside the tile (y 0 to 240, 1680 to 1920) is plain ground.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. P1 SET (reel units, video layout: box W 600, front-bottom at (540, 1042), drawer travel E 320; depths d are measured forward from the lid's front edge). L1 ground #AFBFA9 + grain. L2 warm wash: radial-gradient(ellipse 620x420 at the box centre, #FFF4E0, transparent), screen, opacity 0 to .22. L3 BOX. L4 F1 HOUSE BACKDROP flat, d 18, 560 x 170 (print-safe max 172): blush paper #F2CFC4 + AP-01; painted scenery made only of kit art: kit/motifs/botanical/tulip-cluster-bl.svg (left, 210 px) and tulip-cluster-br.svg (right, 210 px) rising from the bottom corners, kit/motifs/botanical/leaf-sprig-1.png at 55% opacity, 240 px, centred behind; a 6 px ivory border. L5 F2 PELMET flat, d 36, 600 x 180: two slim gold-paper posts (AP-16 over #C99A4C, 14 px wide) at x 254 and 826 carrying a scalloped valance (jhalar) 600 x 30 at the top, 12 scallops, #C99A4C with a 1 px #9A7634 underline. L6 F3 HOUSE CURTAIN, d 40, 572 x 158 between the posts: AP-03 multiplied over lac red #7A1E24; it flies up behind the valance (clip-path at the valance's lower edge). L7 PLINTH: an ivory card block 150 x 34 (front face #FBF3EC, top #F4EBE2) at d 200, rising with the piece. L8 PIECE cutouts/prism-riviere-bracelet/x00-trim.png (966x588) scaled to 380 x 231, standing on the plinth facing camera (rotateX(32deg) counter-tilt so it faces the lens), inside a TRAP window whose foot is the plinth top. L9 COLOUR POOLS (light): three ellipses 300 x 130 on the stage + soft cones from the wings: aqua #BFE3E0, pink #F6C9D0, lemon #F3E6A8, opacity .45, mix-blend screen. L10 ROD CARD right (x 770 to 990, y 330 to 440): Jost 500 20 px tracking .28em 'TONIGHT' / Velista 40 'CAST OF ONE.' / Cormorant 26 '(three colours, one light.)'. L11 GLINT sprite 120 px on the pink stone nearest the centre. L12 PROGRAMME (end card) and L13 TICKET. L14 title + stage direction (top zone, masked at y 290). PAPER FLOOR (covers the velvet, inset 18 px): ivory boards: #F4EBE2 paper with 1 px #E3D9CE plank lines every 40 px running front to back (the house stage).",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE. Frame = video layout: sage ground, box shut and breathing (translateY 0 to -6 px over 3.2 s, sine), title 'PLEASE TAKE / YOUR SEATS.' Velista 76 ink #1A1614, baselines 340 and 420, direction '(the drawer is the stage.)' Cormorant 38 #3D3530 baseline 466. Footlights off."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "THREE BELLS. 0.20 bell 1: L2 warm wash opacity 0 to .22 (0.5 s, ease-out). 0.70 bell 2: footlights 0 to 1 (0.3 s); ribbon tab swings 4 deg and settles. 1.20 bell 3: title and direction slide up 120 px into the top mask (0.6 s, cubic-bezier(0.65,0,0.35,1))."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL. Drawer travel 0 to 320 px (1.10 s, cubic-bezier(0.22,1,0.36,1)). Ribbon tab swings 6 deg, settles by 2.9."
+    },
+    {
+     "t": "2.30-3.10",
+     "what": "THE RISE. From 72% out: F1 house backdrop, F2 pelmet, F3 curtain (closed) hinge up about their base lines, rotateX 90 > -2 > 0 deg, 0.62 s each, ease-reveal, stagger 0.08 s. We see a lac-red curtain under a gold scalloped valance."
+    },
+    {
+     "t": "3.10-3.60",
+     "what": "A warm spot (cone + pool, #FFF1D6, screen) fades up on the curtain, opacity 0 to .40."
+    },
+    {
+     "t": "3.60-5.00",
+     "what": "CURTAIN UP. F3 flies up 170 px behind the valance (translateY, 1.4 s, cubic-bezier(0.65,0,0.35,1)), clipped at the valance's lower edge, revealing the tulip backdrop. The spot widens to light the whole stage (pool 300 > 460 px)."
+    },
+    {
+     "t": "5.00-5.90",
+     "what": "THE ENTRANCE. Plinth + Prism Rivière Bracelet rise together through the trap at d 200 (translateY 100% > 0, 0.9 s, ease-reveal). From 5.0 a slow push-in of the whole stage group starts, scale 1.00 > 1.03 (linear to 11.8)."
+    },
+    {
+     "t": "5.90-8.20",
+     "what": "THREE LIGHTS. The aqua pool slides in from stage left (x -260 > bracelet, 1.2 s, ease-reveal), the pink pool from stage right (start 6.2), the lemon pool from above (start 6.5). Where all three overlap on the bracelet the screen blend reads warm white; the stones' own aqua, pink and yellow answer them."
+    },
+    {
+     "t": "8.20-9.00",
+     "what": "ROD CARD rises from behind the box at right (0.6 s, ease-reveal): 'TONIGHT' / 'CAST OF ONE.' / '(three colours, one light.)'."
+    },
+    {
+     "t": "9.00-9.50",
+     "what": "THE BOW. Bracelet + plinth dip 8 px and return (0.5 s, ease-in-out); GLINT on the centre pink stone at 9.30 (0.6 s)."
+    },
+    {
+     "t": "9.50-11.80",
+     "what": "HOLD. Colour pools breathe ±5% (2.3 s, sine). Nothing else moves."
+    },
+    {
+     "t": "11.80-12.90",
+     "what": "Rod card sinks (0.5 s). Colour pools slide back to the wings (0.6 s). Bracelet and plinth sink through the trap (0.6 s, from 12.3). Push-in returns to 1.00 by 12.9."
+    },
+    {
+     "t": "12.90-13.80",
+     "what": "THE CLOSE. Curtain falls (0.6 s, ease-in-out), then pelmet and backdrop fold front to back (rotateX 0 > 90, 0.45 s, stagger 0.06 s). Spot out."
+    },
+    {
+     "t": "13.80-14.80",
+     "what": "Drawer home (1.0 s, ease-in-out). Footlights and warm wash dim to 0 by 14.8."
+    },
+    {
+     "t": "14.80-15.40",
+     "what": "THE PROGRAMME rises line by line through a slot at y 300 (0.6 s, stagger 0.08): Jost 500 30 px tracking .22em #1A1614 'PRISM RIVIÈRE BRACELET' (baseline 352) / Jost 400 46 px '₹2,399' (Poppins ₹, baseline 418) / Cormorant italic 32 px #3D3530 '[ rhodium plated · adjustable 15 to 19 cm ]' (baseline 470) / Jost 400 26 px tracking .08em 'nairaflore.com' (baseline 516). Ticket 'SHOW 01 · MATINEE' rises from the slot under the shelf (y 1062 to 1144, 0.5 s)."
+    },
+    {
+     "t": "15.40-17.20",
+     "what": "HOLD the end card; the shut box breathes."
+    },
+    {
+     "t": "17.20-18.00",
+     "what": "THE RETURN. Programme and ticket exit up/down through their slots (0.4 s); title and direction rise back into place (0.6 s). The last frame equals the first frame: seamless loop."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box (video layout) on sage; programme above: 'PRISM RIVIÈRE BRACELET' / '₹2,399' / '[ rhodium plated · adjustable 15 to 19 cm ]' / 'nairaflore.com'; ticket 'SHOW 01 · MATINEE · ADMIT ONE · प्रयोग' under the shelf; the box lid is the frame's one wordmark. Held 1.8 s, then the loop return.",
+   "sound": "Instagram library at posting, instrumental only: a slow music-box or celesta piece, 60 to 70 bpm, no vocals (search 'music box', 'celesta lullaby instrumental'); keep the music at about 60% under the effects. Effects baked into the file: three soft brass hand-bell rings at 0.20, 0.70, 1.20 s (the series signature); card drawer slide 1.50 s; three soft paper flaps 2.30 to 2.50 s; a rope-and-pulley whisper under the curtain rise 3.60 to 5.00 s; one small glass 'ting' at 9.30 s; drawer home 13.80 s with a soft card tap at 14.80 s.",
+   "caption": "We went quiet for a while. Please take your seats.\n\nEvery Naira piece arrives in this blush box, with a drawer and a little ribbon to pull. This season we are opening it like a stage: twelve shows, three a week, one piece in each.\n\nTonight's cast of one is the Prism Rivière Bracelet: aqua, soft pink and pale yellow cushion-cut stones in one straight line, each in its own fine pavé halo, adjustable from 15 to 19 cm.\n\n₹2,399. Free insured shipping and cash on delivery across India.\n\n[ prism rivière bracelet · rhodium plated · cast of one ]",
+   "first_comment": "In the theatres many of us grew up with, the third bell meant the curtain was going up. Next show: the karwa gets dressed. #NairaFlore #NairaPetite #DemiFineJewellery #PrismRiviere #TheBoxTheatre",
+   "alt_text": "Cover of a short video: on a sage green background a blush pink Naira gift box sits shut, NAIRA printed on its lid, a thin line of warm light glowing where the drawer meets the sleeve. Above it: Please take your seats. (the drawer is the stage.) A small theatre ticket below reads Show 01, The Box Theatre, matinee, admit one. In the video three bells ring, the drawer slides out, a red paper curtain rises on a painted backdrop of coral tulips, and a silver-tone bracelet of aqua, pink and pale yellow stones rises onto the stage under three coloured lights before the box closes again.",
+   "why": "It opens the grid after 76 days of silence (last post 9 Aug) while Meta keeps sending about ₹2.07 lakh of traffic to the profile, so P1 must explain the world and sell the piece people clicked. Prism Rivière is the #1 piece by revenue (14 units, ₹27,649 in 120 days), 67 in stock, a 9/10 market score; its story copy sold (11 purchases on ₹20k) where the price-led 'from ₹899' copy of the same image got 0 purchases, so the caption tells its facts, not its discount. The reel performs the full ritual once so viewers learn the grammar the next eleven posts rely on, and the bells become the series' sound. Packaging is the account's only breakout topic (unboxing reels 3,410 and 1,467 likes vs median 9.5). Tuesday 12:00 is a matinee slot inside the 12:00 to 21:00 window that carries 78% of orders. The quiet cover gives the first row its breathing tile and rhymes its line of warm light with the BONE tile below.",
+   "claims_check": "Price ₹2,399 and stock 67 match roster.json (25 Oct). 'rhodium plated': tags 'Rhodium Plated'; listing 'Plating: rhodium coated' (CLAUDE.md house phrase). 'adjustable from 15 to 19 cm', 'cushion cut... aqua blue, soft pink and pale yellow', 'each stone framed by a fine pavé halo': listing. 'Every Naira piece arrives in this blush box': every listing ends 'You will receive your piece in a Naira Petite box.'; the box appears in 53 of 56 listings. 'Free insured shipping' (SHIPPING_CHARGE 0) and 'cash on delivery' are SAFE; never 'free COD'. No water, tarnish or hypoallergenic claim anywhere. No gold wording (rhodium piece; 'made to stay gold.' not used). No code, percentage or MRP on any frame. 'We went quiet for a while' is true (no post since 9 Aug). The third-bell line is hedged ('many of us grew up with') and sits in the first comment; owner to confirm she is happy with it. The tulip backdrop uses only kit art; nothing AI-generated is jewellery."
+  },
+  {
+   "p": 2,
+   "grid_pos": "r4c2",
+   "date": "Thu 29 Oct 2026 (Karwa Chauth; the date is never printed)",
+   "time_ist": "18:30",
+   "format": "reel (1080x1920, designed cover)",
+   "duration_s": 16,
+   "loop": true,
+   "title": "EVEN THE KARWA DRESSED UP.",
+   "series": "THE BOX THEATRE · SHOW 02 · NIGHT SHOW (Karwa Chauth)",
+   "tone": "warm, affectionate wit on the night itself; mid-weight tile",
+   "product_handles": [
+    "baguette-tennis-bracelet"
+   ],
+   "prices_and_stock": "Baguette Tennis Bracelet, Ruby ₹1,699 (all variants ₹1,699): Ruby 12, Crystal 29, Emerald 16 in stock on 25 Oct (57 total). Ruby sells about 0.9 a day since 16 Oct: STOCK GUARD on the posting morning: if Ruby is 7 or fewer, the karwa wears the Ruby Baguette Tennis Necklace instead (₹2,300, Ruby 20; cutouts/baguette-tennis-necklace/01-trim.png wrapped twice round the neck) and the caption and end card swap to it; never post a variant under 5.",
+   "concept": "Karwa Chauth is the one night everyone dresses for the moon: the red saree, the mehendi, the bangles, the full shringaar. So on our stage, even the karwa (the spouted clay pot the fast is named for) is dressed: the Ruby Baguette Tennis Bracelet sits round its neck like the thread a karwa is usually tied with. The stage is a paper-cut terrace: a far skyline with lit windows, a parapet, a water tank, a TV antenna, a clothesline, and above it the star of the night, a paper moon on a brass rod that rises from behind the box, stops halfway (late, as every year) and only then comes up. Ruby is the hero stone and red is the night's colour; the joke is loving, not about anyone, and the piece is the punchline: the pot got the best seat and the best jewellery.",
+   "cover": "1080x1920 still; tile y 240 to 1680 (tile coordinates below). GROUND lilac mast #4E3C66 + grain .18; 34 star pinpricks (2 to 4 px dots #FFF4D6, opacity .5 to 1) scattered in y 60 to 560 and down both side margins (none in the icon zone x>=907, y<=202). TITLE Velista 104 cream #F6EFE6, 'EVEN THE KARWA' baseline 290 (scale to fit 700 px if wider), 'DRESSED UP.' baseline 394. DIRECTION Cormorant 44 blush-mid #F2CFC4 baseline 456: '(the moon, as usual, is running late.)'. SHELF LINE 2 px #5F4D77 at y 1046. BOX W 600 at (540, 1046), drawer fully out (E 340), footlights lit. SET (cover scale, d from the lid's front edge): F1 far skyline, lilac deep #5E4A78 paper, 600 x 140 at d 8 (max 166), a row of mid-rise silhouettes with water tanks, 14 lit windows (6x8 px #FFE3A3); F2 terrace, aubergine #2E2338, d 120: a full-width parapet 600 x 70, a water-tank cylinder at left rising to 220 tall, a TV antenna of 2 px lines, a clothesline with two pegs across the right; KARWA AP-06 (190 px tall) at d 230 on the parapet, centred at x 470; the Ruby bracelet round its neck. MOON: ivory paper disc d 150 (AP-01, deckled edge), glow halo d 280 #FFF1D0 at .35 screen, risen at the right at centre (875, 545), partly hidden behind the lid's back-right corner (the lid's back edge is at about y 494), clear of the stage direction above. Warm spot on the karwa. TICKET 'SHOW 02 · NIGHT SHOW' x 340 to 740, y 1308 to 1390. AT 391x521 READS: cream two-line title on violet, a glowing blush box, a pale moon, a small terracotta pot with a red ring at its neck, the ticket.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. P2 SET (video units: box W 600 at (540, 1042), E 320). L1 ground #4E3C66 + grain. L2 STARS: 40 pinprick dots #FFF4D6 (2 to 4 px) in the sky zone and margins, each with its own opacity loop .3<>1 (2.4 to 3.6 s, random phase; light may fade). L3 warm wash. L4 BOX. L5 F1 FAR SKYLINE, d 8, 560 x 130, lilac deep #5E4A78 + AP-01: inline SVG of six mid-rise blocks with rooftop water tanks, 14 window dots #FFE3A3 that switch on in a 0.4 s random cascade. L6 F2 TERRACE, d 110, aubergine #2E2338 + AP-01: parapet 600 x 64; water tank (cylinder silhouette 70 x 110 with a lid band) at x 300; TV antenna (2 px lines, 90 tall) at x 690; clothesline (1.5 px #E9D9C6) from x 600 to 800 with two 10 px pegs. L7 KARWA AP-06 scaled to 170 px tall, at d 210, x 470, inside a TRAP slot cut in the parapet top; split into KARWA-BACK (body) and KARWA-NECK-FRONT (a mask of the front half of the neck) so the bracelet passes behind and in front. L8 PIECE cutouts/baguette-tennis-bracelet/01-trim.png (868x493, Ruby) scaled to 190 x 108, rotated -4 deg, centred on the karwa's neck: its back half sits between KARWA-BACK and KARWA-NECK-FRONT (mask the far arc), its front arc in front; it rises with the karwa as one group. L9 MOON: ivory disc d 140 (AP-01 + a 1 px deckle edge #E9D9C6), glow halo d 260 radial #FFF1D0 > transparent at .35 screen, on a 2 px brass rod #B0843A, starting hidden behind the box at x 790, rising to its top at y 300. L10 ROD CARD left (x 90 to 310, y 330 to 440): Jost 500 20 'MOONRISE' / Velista 40 'ANY MINUTE.' / Cormorant 26 '(it says this every year.)'. L11 warm spot on the karwa; L12 GLINT on the front ruby baguettes; L13 PROGRAMME; L14 TICKET; L15 title + direction. PAPER FLOOR (covers the velvet, inset 18 px): terrace tiles: aubergine #2E2338 paper with a faint 80 px grid of rgba(255,255,255,.05) lines (tested in the prototype).",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE: violet night, stars at rest (.5), box shut and breathing; title 'EVEN THE KARWA / DRESSED UP.' Velista 76 cream (baselines 340, 420), direction Cormorant 36 blush-mid (466)."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "BELLS. 0.20 stars begin to twinkle (their opacity loops start); 0.70 footlights up and warm wash to .18; 1.20 title and direction exit up through the top mask (0.6 s)."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL: drawer out 320 px (1.10 s, ease-reveal)."
+    },
+    {
+     "t": "2.30-3.10",
+     "what": "THE RISE: F1 skyline then F2 terrace hinge up (rotateX 90 > -2 > 0, 0.62 s, stagger 0.08). At 2.9 the skyline's 14 windows switch on in a 0.4 s random cascade."
+    },
+    {
+     "t": "3.10-4.00",
+     "what": "THE ENTRANCE: the karwa, already wearing the Ruby bracelet, rises through its slot in the parapet (0.9 s, ease-reveal). Warm spot fades up on it (.38)."
+    },
+    {
+     "t": "4.00-4.40",
+     "what": "GLINT on the front ruby baguettes at 4.20."
+    },
+    {
+     "t": "4.40-5.20",
+     "what": "The moon's rod pushes the moon up from behind the box at x 790: its rim clears the lid's back edge and rises 70 px (linear, 90 px/s)."
+    },
+    {
+     "t": "5.20-6.40",
+     "what": "THE STAR IS LATE: the moon stops halfway, a 1 deg wobble on its rod (0.4 s), then perfectly still. At 5.40 the ROD CARD rises at stage left: 'MOONRISE' / 'ANY MINUTE.' / '(it says this every year.)'."
+    },
+    {
+     "t": "6.40-8.60",
+     "what": "The moon resumes, rising linear at 60 px/s to its full height (top edge y 300); its glow halo fades up 0 > .35 as it clears the box. Slow push-in of the stage group 1.00 > 1.03 (from 3.1 to 10.8)."
+    },
+    {
+     "t": "8.60-9.20",
+     "what": "MOONLIGHT: an ivory rim-light (light only) appears on the karwa's right edge; the bracelet glints twice (8.70, 9.00)."
+    },
+    {
+     "t": "9.20-10.80",
+     "what": "HOLD: stars twinkle, the moon's glow breathes ±4% (3.2 s)."
+    },
+    {
+     "t": "10.80-12.10",
+     "what": "Rod card sinks (0.5 s). From 11.3 the moon sinks behind the box (0.8 s, linear) while the karwa sinks through its slot (0.6 s) and the flats fold front to back (0.45 s, stagger 0.06). Push returns to 1.00."
+    },
+    {
+     "t": "12.10-13.10",
+     "what": "Drawer home (1.0 s, ease-in-out); footlights and wash dim; stars keep twinkling."
+    },
+    {
+     "t": "13.10-13.70",
+     "what": "PROGRAMME rises: 'BAGUETTE TENNIS BRACELET · RUBY' (Jost 500 28 tracking .22em cream) / '₹1,699' (Jost 400 46) / '[ ruby-red cubic zirconia · 18k gold tone plated ]' (Cormorant 32 blush-mid) / 'nairaflore.com' (Jost 400 26). Ticket 'SHOW 02 · NIGHT SHOW' rises under the shelf."
+    },
+    {
+     "t": "13.70-15.20",
+     "what": "HOLD the end card."
+    },
+    {
+     "t": "15.20-16.00",
+     "what": "RETURN: programme and ticket out, title back; stars return to rest .5. Last frame = first frame."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box on the violet night under twinkling stars; programme: 'BAGUETTE TENNIS BRACELET · RUBY' / '₹1,699' / '[ ruby-red cubic zirconia · 18k gold tone plated ]' / 'nairaflore.com'; ticket 'SHOW 02 · NIGHT SHOW'. (If the stock guard swaps the piece: 'BAGUETTE TENNIS NECKLACE · RUBY' / '₹2,300'.)",
+   "sound": "Instagram library, instrumental only: a slow santoor or sitar night piece, unhurried, no vocals (search 'santoor', 'night raga instrumental'). Effects: bells 0.20 / 0.70 / 1.20; drawer 1.50; two paper flaps 2.30 / 2.38; a soft wooden 'tok' when the moon stops (5.20); a faint rising shimmer under the moonrise (6.40 to 8.60); a glass 'ting' at 8.70; drawer home 12.10.",
+   "caption": "Everyone dresses up for the moon tonight. Even the karwa.\n\nThe moon, as usual, is running late, so the karwa waited in the Ruby Baguette Tennis Bracelet: ruby-red baguette cubic zirconia set crosswise, each stone held at its corners by gold tone claws, closed with a box clasp. About 17 cm.\n\nTo everyone keeping the fast: a clear sky and an early moon.\n\n₹1,699, in Ruby, Crystal or Emerald.\n\n[ baguette tennis bracelet · ruby · 18k gold tone plated · dressed for the moon ]",
+   "first_comment": "What time did the moon reach your terrace? #KarwaChauth #NairaFlore #NairaPetite #RubyBracelet #EditionTwo",
+   "alt_text": "Cover of a short video on a deep violet night with pinprick stars: a blush pink Naira gift box with its drawer pulled out like a stage. On it stands a paper-cut terrace with a water tank, a TV antenna and a skyline of lit windows, and a small terracotta paper karwa pot wearing a ruby-red, gold-tone tennis bracelet round its neck. A pale paper moon rises behind the box. Above: Even the karwa dressed up. (the moon, as usual, is running late.) A ticket below reads Show 02, night show.",
+   "why": "Posted on Karwa Chauth at 18:30, before moonrise, when the audience is dressed, waiting and on their phones. Ruby is the hero stone: Ruby is 8 of the 13 Baguette Tennis Bracelets sold since 16 Oct, and 'Anaar, pre-peeled.' on this exact piece is the best ad the account has run (₹335 per purchase, ROAS 4.52); red is the night's colour. Only 1 of 24 brands in the category ad harvest mentions Karwa Chauth. The formula that sells (one piece + one everyday Indian object + one witty line + one fact) is exactly here: the karwa, 'even the karwa dressed up', 17 cm. It is a moment post, not a delivery promise (the caption makes none). The night ground sits dark above the cream flower tile, and the box's NAIRA, flower-as-I, sits directly over the live flower tile.",
+   "claims_check": "₹1,699 for every variant (roster). Ruby 12 / Crystal 29 / Emerald 16 on 25 Oct; stock guard above. 'ruby-red baguette cubic zirconia': Ruby is a colour name, never 'ruby' as a stone claim; listing: 'Rectangular baguette cut cubic zirconia set crosswise... held at its corners by fine gold claws... Box clasp with fold over safety... Approximately 17cm'. Caption says 'gold tone claws' (never bare 'gold'); alt text says 'gold-tone'. Tags 18k Gold Tone Plated, Edition Two. No water or tarnish claim (Edition Two rule). No date anywhere on the image (Karwa Chauth sources split 28/29 Oct). The karwa is drawn with respect (decorated, not joked about); a karwa is traditionally tied with thread, the bracelet stands in for it; owner to confirm comfort. No 'made to stay gold.' needed. The moonrise card makes no time claim ('any minute')."
+  },
+  {
+   "p": 3,
+   "grid_pos": "r4c1",
+   "date": "Sun 1 Nov 2026",
+   "time_ist": "12:00",
+   "format": "carousel, 6 slides (1080x1440): slides 1 to 5 are video loops, slide 6 a still",
+   "duration_s": 6,
+   "loop": true,
+   "title": "FOUR BOXES.",
+   "series": "THE BOX THEATRE · SHOW 03 · MATINEE (the family matinee: Diwali gift guide)",
+   "tone": "warm, funny, generous; the row's dense tile",
+   "product_handles": [
+    "baroque-shell-bracelet",
+    "silk-mesh-cuff",
+    "ribbon-bead-bracelet",
+    "brushed-gold-huggies"
+   ],
+   "prices_and_stock": "Baroque Shell Bracelet ₹1,799 (23 in stock). Silk Mesh Cuff ₹1,499, shown in Gold (Gold 20 / Silver 20). Ribbon Bead Bracelet ₹799 (34). Brushed Gold Huggies ₹999 (35). All gift-friendly, no sizing, not pre-order. List total ₹5,096; the bill is never discounted on the art.",
+   "concept": "Diwali gifting as theatre's oldest comedy: you buy for four people, three of them say 'you shouldn't have', and the fourth (you) does not. The cover breaks the one-box rule on purpose: four blush Naira boxes stacked into a tower like a chest of drawers, each drawer pulled out a little, a paper tag on each ribbon: AAI, VAHINI, THE ONE WHO BORROWS, ME. Only the top lid shows, so the wordmark still appears once. Each swipe opens one box: the drawer slides out, the tag swings, the piece rises. The fourth is the punchline and the truth: the cheapest piece goes to 'me', and it is the one she will wear the most.",
+   "cover": "Slide 1, 1080x1440, first frame of its loop. GROUND pale blush #FBEDE9 + grain. TITLE Velista 120 ink #1A1614, one line, centred, baseline 300 ('FOUR BOXES.', about 760 px wide, cap top 216). DIRECTION Cormorant 44 #3D3530 centred baseline 368: '(three of them will say you shouldn't have.)'. SHELF LINE 2 px #E9D3CC at y 1046. THE TOWER: four Naira boxes W 300 (H 131) stacked squarely, centred x 540, the bottom box's sleeve front-bottom at (540, 1046); only the top lid is visible (NAIRA about 185 px wide; the tower spans about y 443 to 1046). Drawers pulled out (top to bottom) 0.45 / 0.30 / 0.55 / 0.25 of travel (E max 150), each overhanging the box below like a chest of drawers; each drawer's stage holds its piece standing and facing camera: top Baroque Shell Bracelet (cutouts/baroque-shell-bracelet/00-trim.png, 200 px wide), second Silk Mesh Cuff Gold (silk-mesh-cuff/00-trim.png, 190 px), third Ribbon Bead Bracelet (ribbon-bead-bracelet/00-trim.png, 210 px), bottom Brushed Gold Huggies (brushed-gold-huggies/00-trim.png, 120 px). From each ribbon tab hangs an ivory tag 92 x 50 (AP-01, punched hole, 1 px thread #B0843A) in Jost 500 15 px tracking .2em #1A1614: 'AAI', 'VAHINI', 'THE ONE / WHO BORROWS', 'ME', tags alternating slightly left and right (rotate -4 / 3 / -2 / 4 deg). Contact shadow under the tower. TICKET 'SHOW 03 · MATINEE' x 340 to 740, y 1308 to 1390. AT 391x521 READS: 'FOUR BOXES.' (cap height 30 px), a tall stack of blush boxes with little drawers out and tags, small glints of pearl and gold, the ticket.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. P3: TOWER = four BOX instances W 300, D 300, H 131, pose -32/0, each translated up by its projected front height so they stack; the lids of boxes 2 to 4 are never drawn (hidden by the box above), which keeps one wordmark per frame. Each drawer stage holds: a PIECE cutout (named in cover) inside a TRAP window, a TAG (AP-01 card + Jost text + thread) parented to the ribbon tab with transform-origin at the thread's top. Slides 2 to 5 reuse the single BOX W 600 (grid layout) with the same TAG on the ribbon and the PIECE at d 220: Baroque Shell 360 px wide, Silk Mesh 340, Ribbon Bead 380, Brushed Huggies 220. Slide 6: PROGRAMME SHEET 840 x 1100 ivory (AP-01), sharp corners, shadow 0 18px 30px rgba(40,20,20,.18), four rows each with a 150 px cutout thumbnail (the same four trims). PAPER FLOOR (covers the velvet, inset 18 px): each drawer of the tower and each slide's single box: blush card #F2CFC4, plain.",
+   "storyboard": [
+    {
+     "t": "S1 0.0-6.0 (loop)",
+     "what": "Cover tower. Tags sway ±3 deg about their threads (3.2 s sine, phases offset 0.4 s). Each drawer breathes out and back 10 px (6.0 s sine, offsets 0.5 s). Glints in turn: pearl drop 1.0, mesh cap 2.5, bow stones 4.0, huggie satin sheen (a soft diagonal light sweep, not a glint) 5.5. Frame 6.0 = frame 0."
+    },
+    {
+     "t": "S2 0.0-5.0 (loop) AAI.",
+     "what": "Single box W 600 on pale blush, drawer starts at 0.5 out with the stage empty. 0.0-0.6 drawer to 1.0 (ease-reveal); 0.4-1.3 Baroque Shell Bracelet rises through the trap; the AAI tag on the ribbon swings 6 deg and settles; 2.0 glint on the pearl drop; 1.3-3.9 hold, spot breathing; 3.9-4.4 piece sinks; 4.4-5.0 drawer back to 0.5. Static type: 'AAI.' Velista 104 (baseline 290); '(will say you shouldn't have. will wear it to every wedding.)' Cormorant 40 two lines (baselines 356, 400); bottom (y 1308-1390): Jost 500 24 tracking .22em 'BAROQUE SHELL BRACELET · ₹1,799' and Cormorant 30 '[ flat shell pearls, no two alike · a toggle worn at the front ]'."
+    },
+    {
+     "t": "S3 0.0-5.0 (loop) VAHINI.",
+     "what": "Same timing. Silk Mesh Cuff, Gold; glint on a polished end cap at 2.0. Type: 'VAHINI.' / '(will say you shouldn't have. will ask where it's from.)' / 'SILK MESH CUFF · GOLD TONE · ₹1,499' / '[ woven mesh about 15 mm wide · slips on through a 2.5 cm opening ]'."
+    },
+    {
+     "t": "S4 0.0-5.0 (loop) THE ONE WHO BORROWS.",
+     "what": "Same timing. Ribbon Bead Bracelet; glint on the two heart-cut stones at 2.0. Type: 'THE ONE WHO / BORROWS.' (Velista 96, two lines) / '(will say you shouldn't have. will stop borrowing yours.)' / 'RIBBON BEAD BRACELET · ₹799' / '[ two heart-cut stones that read as a bow · adjusts 16 to 19 cm ]'."
+    },
+    {
+     "t": "S5 0.0-5.0 (loop) ME.",
+     "what": "Same timing. Brushed Gold Huggies; instead of a glint, a soft satin light sweep crosses them at 2.0 (they are brushed, not mirror). Type: 'ME.' / '(will not say you shouldn't have.)' / 'BRUSHED GOLD HUGGIES · ₹999' / '[ brushed satin, not mirror · about 12 mm ]'."
+    },
+    {
+     "t": "S6 still",
+     "what": "THE CAST. Ivory programme sheet on pale blush. Jost 500 16 tracking .3em #6B625B 'THE BOX THEATRE · SHOW 03 · THE FAMILY MATINEE' (top), Velista 72 'THE CAST.'; four rows (180 px each): thumbnail, role in Velista 34 ('AAI', 'VAHINI', 'THE ONE WHO BORROWS', 'ME'), a dotted leader (2 px dots, 8 px pitch, #B0843A), piece name Jost 500 20 caps, price Jost 400 28. Footer Cormorant 34 '(every piece arrives in its own box.)' and Jost 400 20 'nairaflore.com'. No code on the art."
+    }
+   ],
+   "carousel_slides": "S1 cover tower (video loop 6 s) · S2 AAI: Baroque Shell Bracelet (video loop 5 s) · S3 VAHINI: Silk Mesh Cuff in gold tone (video loop 5 s) · S4 THE ONE WHO BORROWS: Ribbon Bead Bracelet (video loop 5 s) · S5 ME: Brushed Gold Huggies (video loop 5 s) · S6 THE CAST programme with the four prices (still). All 1080x1440 on pale blush #FBEDE9; every loop's first frame equals its last; S1's first frame is the designed cover. Render loops with tools/reel.cjs at 1080x1440.",
+   "end_card": "S6 is the end card: THE CAST programme sheet (role, piece, price) with '(every piece arrives in its own box.)' and nairaflore.com; the ticket on S1 carries the series lockup.",
+   "sound": "Carousels play their own audio quietly: add a short music-box phrase (Instagram library, instrumental) to the carousel; each video slide carries one soft drawer slide at 0.0 s and a paper tag flick at 0.6 s; no bells in carousels (the bells belong to reels).",
+   "caption": "Four boxes, four people. Three of them will say you shouldn't have.\n\nAai: the Baroque Shell Bracelet, flat shell pearls with no two alike, on a toggle worn at the front. ₹1,799.\nVahini: the Silk Mesh Cuff in gold tone, a woven mesh about 15 mm wide that slips on. ₹1,499.\nThe one who borrows: the Ribbon Bead Bracelet, two heart-cut stones that read as a bow. ₹799.\nYou: the Brushed Gold Huggies, satin rather than mirror. ₹999. You will wear yours the most.\n\nEach piece arrives in its own blush Naira box. Delivery takes 3 to 5 working days.\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.\n\n[ four boxes · four people · one of them is you ]",
+   "first_comment": "Who is your fourth box for? #DiwaliGifts #NairaFlore #NairaPetite #GiftsForHer #DemiFineJewellery",
+   "alt_text": "A tall stack of four blush pink Naira gift boxes on a pale blush background, each drawer pulled out a little like a chest of drawers, a small ivory tag hanging from each ribbon: Aai, Vahini, The one who borrows, Me. In the drawers stand a shell-pearl bracelet on a gold-tone toggle, a gold-tone woven mesh cuff, a fine bracelet with a small bow of two heart-shaped stones, and a pair of brushed gold-tone huggie earrings. Above: Four boxes. (three of them will say you shouldn't have.) A ticket below reads Show 03, matinee.",
+   "why": "Sunday 12:00 is the biggest order day and hour (Sunday is 38 of 129 orders), and 1 Nov leaves 3 to 5 working days for delivery before Diwali (8 Nov), Padwa (10) and Bhaubeej (11), the timing the commerce judge asked for. 69% of orders are one piece and break-even needs bigger baskets: four gifts in one post makes BUY2/BUY3 the natural move, stated once in the caption, never on the art. Every piece is gift-friendly (no sizing), in stock 20 or more and priced ₹799 to ₹1,799 (the core band); Brushed Gold Huggies is a top-7 seller and the ₹999 entry piece; the Silk Mesh Cuff (Edition Two, 40 in stock, 0 sold) and Baroque Shell Bracelet (23 in stock) get a reason to sell. Aai and Vahini speak to the 46% in Maharashtra; the caption keeps it pan-Indian. It is the row's dense tile, a PTAT-style guide, and the one cover where the box multiplies.",
+   "claims_check": "Prices and stock from roster.json. Baroque Shell: listing 'Flat baroque shell pearls... gold tone toggle clasp, T bar through ring... Material: Shell pearl'; the listing says keep it out of water, so no water claim anywhere. Silk Mesh: 'woven mesh, approximately 15mm wide... opening of about 2.5cm'. Ribbon Bead: 'two heart cut clear cubic zirconia... reads as a small bow... adjusts 16cm to 19cm'. Brushed Gold Huggies: 'about 12mm... soft brushed satin gold, not mirror polished'. 'Each piece arrives in its own box': every listing says 'You will receive your piece in a Naira Petite box'; owner to confirm that a four-piece order is packed as four boxes (if not, change the caption line to 'Every order arrives in the blush Naira box'). Delivery '3 to 5 working days' is the site's serviceability line; no order-by date. Offer line is the exact approved line, caption only. Alt text uses 'gold-tone' throughout. Wordmark once: only the top lid is drawn."
+  },
+  {
+   "p": 4,
+   "grid_pos": "r3c3",
+   "date": "Tue 3 Nov 2026",
+   "time_ist": "19:00",
+   "format": "reel (1080x1920, designed cover)",
+   "duration_s": 15,
+   "loop": true,
+   "title": "HE WILL NEVER SAY THE LINE.",
+   "series": "THE BOX THEATRE · SHOW 04 · NIGHT SHOW (Bhai Dooj, 8 days ahead)",
+   "tone": "tender, very sendable; the row's quiet tile",
+   "product_handles": [
+    "heartbead-bracelet"
+   ],
+   "prices_and_stock": "Heartbead Bracelet ₹1,299, 25 in stock, single variant, rhodium plated two-tone, not pre-order, gift-friendly. #4 bestseller (11 units in 120 days).",
+   "concept": "Bhai Dooj as a two-hander: the oldest play in any family. On the stage stands the script. 'BHAI DOOJ. a play in one act, for two.' DIDI: (puts the tilak. waits.) BHAI: 'Didi, I love y' and a pencil strikes it out, replaced by the stage direction '(hands her a box. says nothing.)'. Then a paper heart pops up out of the page and the Heartbead Bracelet rises into it: a strand of mirror-bright rhodium beads with one puffed gold tone heart. Brothers do not say the line; the heart says it. It is built to be forwarded by sisters (and taken as a hint), posted eight days early so it can arrive.",
+   "cover": "1080x1920 still; tile y 240 to 1680 (tile coordinates). GROUND bottle green #2E4238 + grain. TITLE Velista 104 cream #F6EFE6: 'HE WILL NEVER' (baseline 290, fit 700 px), 'SAY THE LINE.' (394). DIRECTION Cormorant 44 blush-mid #F2CFC4 (456): '(so the heart says it.)'. SHELF LINE 2 px #43574D at y 1046. BOX W 600 at (540, 1046), drawer out (E 340), footlights lit. SCRIPT PAGE (AP-01 ivory) 420 x 240 standing at d 130 (print-safe max 242), its top-right corner curled (a 40 px lighter triangle + soft shadow); typed in Jost 400 18 px #1A1614 with the names in Jost 500 caps and the directions in Cormorant italic: 'BHAI DOOJ' (Velista 28), '(a play in one act, for two.)', 'DIDI (puts the tilak. waits.)', 'BHAI Didi, I love y' struck through by a 2.5 px graphite line #3D3530, 'BHAI (hands her a box. says nothing.)'. POP-UP HEART: blush #F2CFC4 paper heart 190 px wide, V-folded down its centre (left half 4% darker), at d 300 rising from the page's foot. PIECE cutouts/heartbead-bracelet/00-trim.png scaled to 300 px tall, its puffed gold heart centred in the paper heart, the bead strand curling up to the left. Warm spot on the heart. TICKET 'SHOW 04 · NIGHT SHOW'. AT 391x521 READS: cream title on green, the blush box, a white page with one crossed-out line, a pink heart with a gold heart in it.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. P4 (video units, box W 600, E 320): L1 ground #2E4238 + grain. L2 warm wash. L3 BOX. L4 SCRIPT PAGE flat, d 120, 400 x 230 (print-safe max 236), AP-01 ivory, curled corner, each typed line in its own overflow-hidden line box revealed by a left-to-right clip (width 0 > 100%), so typing reads as a slot wipe: line 1 'BHAI DOOJ' Velista 26; line 2 '(a play in one act, for two.)' Cormorant 18; line 3 'DIDI' Jost 500 15 caps + '(puts the tilak. waits.)' Cormorant 17; line 4 'BHAI' + 'Didi, I love y' Jost 400 17; STRIKE an SVG path 2.5 px #3D3530 with a slight hand wobble over line 4 (stroke-dashoffset 1 > 0); line 5 'BHAI' + '(hands her a box. says nothing.)'. L5 POP-UP HEART, d 280: two SVG half-hearts in blush #F2CFC4 (left half #E8C3B8) hinged at the centre line, rotateY ±90 > 0. L6 PIECE heartbead-bracelet/00-trim.png at 270 px tall inside a TRAP whose foot is the page's foot line. L7 ROD CARD right: Jost 500 20 'STAGE DIRECTION' / Cormorant 26 '(sister forwards this. brother takes the hint.)'. L8 GLINT on the gold heart. L9 PROGRAMME, L10 TICKET, L11 title. PAPER FLOOR (covers the velvet, inset 18 px): a large ivory sheet #F4EBE2 with faint ruled lines #E3D9CE every 28 px, as if the script lies on its own pages.",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE: bottle green, box shut, breathing; title 'HE WILL NEVER / SAY THE LINE.' Velista 76 cream; direction '(so the heart says it.)' Cormorant 36 blush-mid."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "BELLS: wash, footlights, title exits."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL: drawer out (1.10 s, ease-reveal)."
+    },
+    {
+     "t": "2.30-2.92",
+     "what": "THE RISE: the blank script page hinges up (rotateX 90 > -2 > 0, 0.62 s)."
+    },
+    {
+     "t": "2.95-5.20",
+     "what": "TYPING (slot wipes, linear, about 0.03 s per character, one soft key tick per line): line 1 'BHAI DOOJ' (2.95-3.40), line 2 '(a play in one act, for two.)' (3.40-3.90), line 3 'DIDI (puts the tilak. waits.)' (3.95-4.60), line 4 'BHAI  Didi, I love y' (4.65-5.20): the wipe stops mid-word."
+    },
+    {
+     "t": "5.20-5.60",
+     "what": "THE STRIKE: a graphite pencil line crosses out 'Didi, I love y' (stroke-dashoffset, 0.4 s, ease-in-out). Pencil scratch sound."
+    },
+    {
+     "t": "5.70-6.40",
+     "what": "Line 5 types: 'BHAI  (hands her a box. says nothing.)'."
+    },
+    {
+     "t": "6.40-7.10",
+     "what": "POP-UP: the blush paper heart unfolds from the page's foot (both halves rotateY ±90 > 0 about the centre fold, 0.7 s, ease-reveal). Paper pop sound."
+    },
+    {
+     "t": "7.10-8.00",
+     "what": "THE ENTRANCE: the Heartbead Bracelet rises through the trap until its puffed gold heart sits in the paper heart's centre (0.9 s, ease-reveal). Warm spot fades up (.40)."
+    },
+    {
+     "t": "8.00-8.50",
+     "what": "THE BOW: the bracelet dips 8 px and returns; GLINT on the gold heart at 8.20."
+    },
+    {
+     "t": "8.50-10.00",
+     "what": "ROD CARD rises at right (0.6 s): 'STAGE DIRECTION' / '(sister forwards this. brother takes the hint.)'. Slow push-in 1.00 > 1.03 (from 7.1), back to 1.00 by 11.0."
+    },
+    {
+     "t": "10.00-11.00",
+     "what": "Rod card sinks; bracelet sinks (0.6 s); the heart folds shut (0.45 s); the page folds down (0.45 s)."
+    },
+    {
+     "t": "11.00-12.00",
+     "what": "Drawer home (1.0 s, ease-in-out); footlights out."
+    },
+    {
+     "t": "12.00-12.60",
+     "what": "PROGRAMME: 'HEARTBEAD BRACELET' (Jost 500 30 cream) / '₹1,299' (Jost 400 46) / '[ rhodium plated beads · one puffed 18k gold tone heart ]' (Cormorant 32 blush-mid) / 'nairaflore.com'. Ticket 'SHOW 04 · NIGHT SHOW'."
+    },
+    {
+     "t": "12.60-14.20",
+     "what": "HOLD."
+    },
+    {
+     "t": "14.20-15.00",
+     "what": "RETURN to the first frame."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box on bottle green; 'HEARTBEAD BRACELET' / '₹1,299' / '[ rhodium plated beads · one puffed 18k gold tone heart ]' / 'nairaflore.com'; ticket 'SHOW 04 · NIGHT SHOW'.",
+   "sound": "Instagram library, instrumental only: sparse warm piano with soft strings (search 'gentle piano', 'tender instrumental'). Effects: bells 0.20 / 0.70 / 1.20; drawer 1.50; one very soft key tick at the start of each typed line (2.95, 3.40, 3.95, 4.65, 5.70); a pencil scratch 5.20; a paper pop 6.40; a glass 'ting' 8.20; drawer home 11.00.",
+   "caption": "He will never say the line. On Bhai Dooj he doesn't have to.\n\nThe Heartbead Bracelet: mirror-polished rhodium plated beads, a gold tone toggle at the front and one puffed gold tone heart, about 15 mm, hanging from it. Two metals, but only just. The heart says the line for him.\n\n₹1,299. Delivery takes 3 to 5 working days.\n\n[ heartbead bracelet · rhodium plated with one gold note · send this to him ]",
+   "first_comment": "Tag the brother who has never once said it. #BhaiDooj #Bhaubeej #NairaFlore #NairaPetite #GiftForSister",
+   "alt_text": "Cover of a short video on a bottle green background: a blush pink Naira gift box with its drawer out like a stage. On it stands a typed paper script titled Bhai Dooj, a play in one act, for two; the line 'Didi, I love y' is crossed out in pencil and followed by the stage direction 'hands her a box, says nothing'. In front, a blush paper heart pops up, holding a puffed gold-tone heart charm on a bracelet of mirror-bright silver-tone beads. Above: He will never say the line. (so the heart says it.) A ticket below reads Show 04, night show.",
+   "why": "Bhai Dooj is Wed 11 Nov; posting on Tue 3 Nov leaves the 3 to 5 working days delivery needs (the commerce judge's timing rule). Heartbead is the #4 bestseller (11 units), 25 in stock, a 9/10 market piece whose Palmonas twins sold out, and 'The gold note.' sold on it in ads (3 purchases at ₹1,086). It is a gift that men can buy without saying anything, and men 18 to 24 converted at ROAS 2.21 in the ad data (gifting). The post is designed for sends (sisters forward it to brothers), the signal Instagram weighs most for reach. Night show at 19:00, inside the 18:00 to 21:00 order peak. Quiet tile for row 3.",
+   "claims_check": "₹1,299 and 25 in stock (roster). Tags Rhodium Plated, Two Tone, Hypoallergenic, Tarnish Free, Waterproof, but no tag claim is used. Listing: 'polished rhodium coated steel beads of about 6mm... mirror polished, not matte and not pearl... gold tone toggle bar and ring... one puffed gold tone heart of about 15mm'; 'Two metals, but only just.' is the listing's own first line. Never 'steel' or 'pearl' in copy; alt text says 'silver-tone beads'. Never 'made to stay gold.' (rhodium-led piece). No Bhai Dooj date on the image (some sources say 10 Nov). No line duplicates the running paid ad C22 'NOT AN ENVELOPE THIS YEAR.'. 'Didi' and the tilak are respectful; nobody is mocked."
+  },
+  {
+   "p": 5,
+   "grid_pos": "r3c2",
+   "date": "Fri 6 Nov 2026 (Dhanteras)",
+   "time_ist": "12:00",
+   "format": "carousel, 5 slides (1080x1440): S1, S2 and S4 video loops; S3 and S5 stills",
+   "duration_s": 5,
+   "loop": true,
+   "title": "THE STAR STAYS IN THE LOCKER.",
+   "series": "THE BOX THEATRE · SHOW 05 · MATINEE (Dhanteras, told straight)",
+   "tone": "dry, honest, affectionate about real gold; mid-weight tile",
+   "product_handles": [
+    "woven-gold-hoops"
+   ],
+   "prices_and_stock": "Woven Gold Hoops ₹1,299 a pair (live; ads once said ₹1,499 and ₹1,799: use the live price), 63 in stock, single variant, not pre-order. #1 piece by units (20 in 120 days), market score 9.",
+   "concept": "Dhanteras is when Indian families buy gold, and that gold goes to the bank locker; it comes out for weddings and goes straight back. In theatre terms the locker gold is the star who never comes out, and every other day is played by the understudy. So the stage is a paper wall of small numbered locker doors (one tagged DO NOT DISTURB), and in the spotlight in front of it stand the Woven Gold Hoops: 25 mm, a braided rope of gold tone strands, no stones, 18k gold tone plated, said out loud. It answers Dhanteras honestly without a 'buy gold' frame, respects real gold rather than competing with it, and lands the owner's own line: not locker gold, Tuesday gold.",
+   "cover": "Slide 1, 1080x1440 (first frame of its loop). GROUND lilac tint #ECE4EF + grain. TITLE Velista 104 ink #1A1614: 'THE STAR STAYS' (baseline 290, fit 700 px), 'IN THE LOCKER.' (394). DIRECTION Cormorant 44 #3D3530 (456): '(the understudy goes on every day.)'. SHELF LINE 2 px #D6CBDA at y 1046. BOX W 600 at (540, 1046), drawer out (E 340). LOCKER WALL flat at d 10, 600 x 160 (max 168), warm steel card #CBC4BF + AP-01, 3 rows x 4 doors (each about 140 x 46, seams 6 px #B3ABA5), each door a brass keyhole 8 x 14 #B0843A and a number plate Jost 500 11 #6B625B '101' to '112'; door '107' carries a tiny ivory tag on a thread, Jost 500 9 'DO NOT DISTURB'. SPOT: warm cone from upper left onto centre stage (#FFF1D6, .40). PIECE cutouts/woven-gold-hoops/00-trim.png scaled to 330 px wide, standing at d 240 in the pool. LABEL EASEL at stage right (x 770 to 860, d 300): ivory card 90 x 70 on a 2 px brass easel, Jost 500 9 'THE UNDERSTUDY' / Jost 400 9 'WOVEN GOLD HOOPS' / '18K GOLD TONE PLATED' (so the tone sits in the same frame as 'locker'). TICKET 'SHOW 05 · MATINEE'. AT 391x521 READS: the two-line title, a grey grid of little doors, two braided gold-tone hoops in a pool of light, the box and ticket.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. P5: L1 ground #ECE4EF + grain. L2 BOX W 600 (grid layout on every slide). L3 LOCKER WALL flat (inline SVG; each door its own <g> so door 107 can rotate about its left hinge). L4 TAG on door 107 (AP-01, thread 1 px #B0843A, transform-origin at the thread's top). L5 SPOT cone + pool. L6 PIECE woven-gold-hoops/00-trim.png (589x450) at 330 px. L7 LABEL EASEL. L8 GLINT on the upper hoop's braid highlight. L9 TICKET (S1). S2 LOCKER DOOR CLOSE-UP: the door-107 group scaled 3x (420 x 168) centred on lilac tint with its keyhole, number plate and tag, a warm glow layer behind it (radial #FFE7B8, revealed only when the door opens). S3 PHOTO WINDOW: assets/shopify/woven-gold-hoops/03.jpg (896x1200) at 720 x 964 inside a 12 px ivory mat, shadow 0 16px 28px rgba(40,20,30,.16). S4 PHOTO full bleed: assets/higgsfield/0711_contact-sheet-hand-woven_woven-gold-hoops_96f0685b.png (1856x2304) cropped to 1728x2304 and scaled to 1080x1440, a soft diagonal light sweep layer (linear-gradient 115deg, rgba(255,248,236,0) > .22 > 0, screen) over the hoop. S5 shut box + PROGRAMME + TICKET. PAPER FLOOR (covers the velvet, inset 18 px): a bank-lobby chequer: #D8D0CB paper with 60 px squares of #CBC4BF.",
+   "storyboard": [
+    {
+     "t": "S1 0.0-5.0 (loop)",
+     "what": "Cover. The spot breathes .34 > .42 > .34 (5 s sine). 2.2-2.7: door 107 rattles on its hinge (rotateY 0 > -7 > 0 deg, ease-in-out) and its DO NOT DISTURB tag swings 8 deg: the star is tempted, and stays in. 3.6: GLINT on the upper hoop. Frame 5.0 = frame 0."
+    },
+    {
+     "t": "S2 0.0-5.0 (loop) THE STAR.",
+     "what": "Velista 104 'THE STAR.' (baseline 290); Cormorant 44 two lines '(locker gold. comes out for weddings,' / 'then goes straight back.)' (356, 404). The door close-up centred at y 820. 1.5-2.3 the door opens a crack (rotateY 0 > -14 deg, ease-reveal) and warm light leaks from inside (glow 0 > .6, light only); holds 0.6 s; 2.9-3.4 it shuts (ease-in-out), glow out. Nothing comes out. Frame 5.0 = frame 0."
+    },
+    {
+     "t": "S3 still THE UNDERSTUDY.",
+     "what": "Velista 104 'THE UNDERSTUDY.' (baseline 250; fit 900 px, min 92 px); the photo window centred (y 300 to 1264); below it Jost 500 18 tracking .24em #1A1614 'ABOUT 25 MM ACROSS · A BRAIDED ROPE OF GOLD TONE STRANDS · NO STONES · ONE PAIR' (two lines, baselines 1312, 1340) and Cormorant 32 #3D3530 '[ 18k gold tone plated ]' (1384)."
+    },
+    {
+     "t": "S4 0.0-5.0 (loop)",
+     "what": "Worn plate, full bleed: a woman seen from behind, a long plait, the woven hoop at her ear. Cormorant 44 #1A1614 over the plain upper wall, left-aligned at x 72, baselines 150 and 198: '(on, every day. the office,' / 'the school run, the sangeet.)'. Motion: a soft light sweep crosses the hoop left to right (1.2-2.4, linear) and nothing else; frame 5.0 = frame 0."
+    },
+    {
+     "t": "S5 still",
+     "what": "END CARD: the shut box W 600 on lilac tint at (540, 1046); programme in the title zone: 'WOVEN GOLD HOOPS' (Jost 500 30 tracking .22em, baseline 300) / '₹1,299 a pair' (Jost 400 46, 366) / '[ 18k gold tone plated · about 25 mm ]' (Cormorant 32, 418) / 'nairaflore.com' (Jost 400 26, 464); ticket 'SHOW 05 · MATINEE'."
+    }
+   ],
+   "carousel_slides": "S1 cover: the locker wall and the hoops in the spot (video loop 5 s) · S2 THE STAR: locker door 107 opens a crack and shuts (video loop 5 s) · S3 THE UNDERSTUDY: the hoops on their plinth with the facts (still) · S4 worn: the plait and the hoop, light sweep (video loop 5 s) · S5 end card: shut box, price, tone, url, ticket (still). All 1080x1440 on lilac tint except S4 (full-bleed photo).",
+   "end_card": "S5: shut box on lilac tint; 'WOVEN GOLD HOOPS' / '₹1,299 a pair' / '[ 18k gold tone plated · about 25 mm ]' / 'nairaflore.com'; ticket 'SHOW 05 · MATINEE'.",
+   "sound": "Carousel audio (Instagram library, instrumental): a light, dry pizzicato-strings or harpsichord piece, unhurried (search 'pizzicato', 'light classical instrumental'). Effects in the loops: S1 a tiny metal rattle at 2.2; S2 a steel door creak 1.5 and a soft clunk 3.4.",
+   "caption": "Dhanteras is for the locker. The star stays in there and comes out for weddings.\n\nEvery other day belongs to the understudy: the Woven Gold Hoops, about 25 mm across, a braided rope of gold tone strands, no stones. 18k gold tone plated, and we will always say so. Not locker gold. Tuesday gold.\n\n₹1,299 a pair. Free insured shipping and cash on delivery across India.\n\n[ woven gold hoops · 18k gold tone plated · the understudy, every day ]",
+   "first_comment": "Happy Dhanteras. What does your everyday understudy look like? #Dhanteras #NairaFlore #NairaPetite #EverydayJewellery #DemiFineJewellery",
+   "alt_text": "A blush pink Naira gift box on a pale lilac background, its drawer out like a stage. Behind, a paper wall of twelve small numbered locker doors; one carries a tiny tag reading Do not disturb. In a warm spotlight on the stage stand a pair of chunky braided gold-tone hoop earrings, with a small label: The understudy, Woven Gold Hoops, 18k gold tone plated. Above: The star stays in the locker. (the understudy goes on every day.) A ticket below reads Show 05, matinee.",
+   "why": "Dhanteras is the category's loudest day ('Buy 1 Get 1 | 18K Gold' ads this week); Naira answers it honestly, which is the house's proven voice ('is it real gold? NO.' was an owner-loved line). 'Not locker gold. Tuesday gold.' is the owner's own top-scored line; here it gets a theatre frame that also explains demi-fine in one image. Woven Gold Hoops is the #1 piece by units (20 in 120 days), 63 in stock, and the proof framing that worked on it in ads ('THE WIDTH.', '25mm of braided gold rope. No stones.') carries the facts slide. A matinee at 12:00 on the day itself; a carousel because stills and carousels in feed and stories earned 84% of purchases.",
+   "claims_check": "₹1,299 and 63 in stock (roster); tags 18k Gold Tone Plated. Listing: 'about 25mm across... a thick braided rope of gold strands... no stones... Sold as: One pair... Plating: 18k gold tone plated'. 'Locker gold' and 'the star' refer to the viewer's own gold, not ours; '18k gold tone plated' sits in the same frame on S1 (label), S3 and S5, and right before 'Not locker gold. Tuesday gold.' in the caption, so the idiom can never read as a gold-content claim (the judges' rule for MANGAL's P3). No 'buy gold' frame. No water or tarnish claims. S4 is a Higgsfield plate from the Hand-Woven contact sheet: check the braid against the listing photo before use (it must stay a braid); if it fails, use assets/shopify/woven-gold-hoops/04.jpg (real on-ear) inside a framed window instead of full bleed. Alt text says 'gold-tone'."
+  },
+  {
+   "p": 6,
+   "grid_pos": "r3c1",
+   "date": "Sun 8 Nov 2026 (Diwali)",
+   "time_ist": "17:00",
+   "format": "reel (1080x1920, designed cover)",
+   "duration_s": 16,
+   "loop": true,
+   "title": "ONE BULB IS ALWAYS OUT.",
+   "series": "THE BOX THEATRE · SHOW 06 · NIGHT SHOW (Diwali)",
+   "tone": "festive, knowing, funny; the row's dense tile",
+   "product_handles": [
+    "fine-tennis-bracelet"
+   ],
+   "prices_and_stock": "Fine Tennis Bracelet ₹1,299, 20 in stock, single variant, Edition Two, gift-friendly, not pre-order, 0 sold so far (content can move it).",
+   "concept": "Every Indian balcony on Diwali has a ladi (a string of small lights) and every ladi has one bulb that is out. The stage is a cream paper jaali balcony; two swags of paper bulbs fly in from the top corners of the frame, switch on and chase in waves, and bulb 9 stays dark (it flickers once, hopefully, and dies again). In front of them rises the piece that is itself a line of lights: the Fine Tennis Bracelet, one continuous row of 2.5 mm round stones, whose own glint chases stone by stone in time with the ladi and never goes out. Diwali without a diya, marigold or rangoli, told through the one thing every household recognises.",
+   "cover": "1080x1920 still; tile y 240 to 1680. GROUND red room #4B191A + grain. TITLE Velista 104 cream: 'ONE BULB IS' (baseline 290), 'ALWAYS OUT.' (394). DIRECTION Cormorant 44 blush-mid (456): '(this line of light stays on.)'. SHELF LINE 2 px #5E2A2B at y 1046. BOX W 600 at (540, 1046), drawer out. JAALI AP-15 (cream #E9D9C6) 600 x 104 at d 10 (max 168). LADI: two swags of 1.5 px thread #E7C27A: the left swag from (40, 520) dipping to (250, 850) then running behind the jaali to (540, 872); the right swag from (540, 872) up past the box's right side to (1040, 520) (none of it in the icon zone, none over the lid print, which sits at about y 616 to 669). 26 paper bulbs (teardrops 22 x 30, glassine look: fill at .45 + a core radial #FFF7E6 and a 26 px halo in the bulb colour, screen) cycling blush #F6C9D0, lemon #F3E6A8, mint #CFE5D6, ivory #FBF3EC; about two thirds lit; BULB 9 (left swag, 4th from the jaali) dark at .25. PIECE cutouts/fine-tennis-bracelet/00-trim.png scaled to 340 px wide, standing at d 240 on an ivory plinth 140 x 30, in a warm pool. TICKET 'SHOW 06 · NIGHT SHOW'. AT 391x521 READS: cream title on deep red, two arcs of small coloured lights across the whole tile with one dark, the blush box, a fine gold-tone line of stones.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. P6 (video units, box W 600, E 320): L1 ground #4B191A + grain. L2 warm wash. L3 BOX. L4 JAALI AP-15 flat at d 10, 560 x 96. L5 LADI group: the two thread paths (SVG) + 26 bulb nodes placed along them by path length; each bulb = SVG teardrop (fill colour at .45) + core radial #FFF7E6 + halo 26 px (screen), with its own 'level' variable 0 to 1 driven by Web Animations; bulb 9 locked at .25. The whole ladi group starts translated up 700 px (above the frame) on its threads. L6 PLINTH ivory 130 x 28 at d 230. L7 PIECE fine-tennis-bracelet/00-trim.png (777x477) at 330 px wide in a TRAP. L8 STONE GLINT: a 70 px four-point glint sprite with offset-path along the bracelet's visible front arc (26 stops). L9 ROD CARD left: Jost 500 20 'THE LADI' / Velista 40 'BULB 9.' / Cormorant 26 '(worked last year. will work next year.)'. L10 PROGRAMME, L11 TICKET, L12 title. PAPER FLOOR (covers the velvet, inset 18 px): a balcony floor of blush paper #E9C2BA with a 10 px cream #E9D9C6 border.",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE: deep red, box shut and breathing; title 'ONE BULB IS / ALWAYS OUT.' Velista 76 cream; direction '(this line of light stays on.)' Cormorant 36 blush-mid. The ladi is above the frame."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "BELLS: warm wash, footlights, title exits."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL: drawer out (1.10 s)."
+    },
+    {
+     "t": "2.30-2.92",
+     "what": "THE RISE: the cream jaali hinges up (0.62 s)."
+    },
+    {
+     "t": "2.95-4.15",
+     "what": "THE FLY: both swags of the ladi descend from above the frame on their threads (translateY -700 > 0, 1.2 s, ease-reveal) and settle with a 6 px sway (two damped swings, 0.8 s). All bulbs unlit (.45 colour, no core)."
+    },
+    {
+     "t": "4.15-5.30",
+     "what": "SWITCH ON: bulbs light one by one from the left end to the right end (level 0 > 1 in 0.15 s each, stagger 0.04 s), except bulb 9, which stays at .25. The eye finds the dark one."
+    },
+    {
+     "t": "5.30-6.20",
+     "what": "THE ENTRANCE: plinth and Fine Tennis Bracelet rise through the trap (0.9 s, ease-reveal); warm pool on them (.40). The ladi's CHASE begins: every bulb's level runs .45 <> 1 as a travelling wave (period 1.6 s, wavelength 6 bulbs, linear phase), bulb 9 always .25."
+    },
+    {
+     "t": "6.20-9.60",
+     "what": "THE BRACELET'S OWN LADI: the stone glint travels along the bracelet's front arc, one stone every 0.06 s, in phase with the ladi wave, so its stones sparkle like a string of bulbs. Slow push-in 1.00 > 1.03 (from 5.3 to 11.4)."
+    },
+    {
+     "t": "9.60-10.30",
+     "what": "ROD CARD rises at stage left beside the left swag: 'THE LADI' / 'BULB 9.' / '(worked last year. will work next year.)'."
+    },
+    {
+     "t": "10.30-10.90",
+     "what": "HOPE: bulb 9 flickers .25 > .9 > .25 > .9 > .25 (0.6 s, light only) with a tiny electrical tick, then stays dark. At 10.60 the bracelet glints, steady."
+    },
+    {
+     "t": "10.90-12.00",
+     "what": "Rod card sinks; the chase stops with every bulb but 9 steady at 1; the bracelet and plinth sink (0.6 s, from 11.4)."
+    },
+    {
+     "t": "12.00-12.70",
+     "what": "The ladi flies out upward (translateY 0 > -700, 0.7 s, ease-in-out); the jaali folds (0.45 s). Push back to 1.00."
+    },
+    {
+     "t": "12.70-13.70",
+     "what": "Drawer home (1.0 s); footlights out."
+    },
+    {
+     "t": "13.70-14.30",
+     "what": "PROGRAMME: 'FINE TENNIS BRACELET' / '₹1,299' / '[ round clear cubic zirconia, about 2.5 mm each, in gold tone claw cups ]' / 'nairaflore.com'; ticket 'SHOW 06 · NIGHT SHOW'."
+    },
+    {
+     "t": "14.30-15.20",
+     "what": "HOLD."
+    },
+    {
+     "t": "15.20-16.00",
+     "what": "RETURN to the first frame."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box on deep red; 'FINE TENNIS BRACELET' / '₹1,299' / '[ round clear cubic zirconia, about 2.5 mm each, in gold tone claw cups ]' / 'nairaflore.com'; ticket 'SHOW 06 · NIGHT SHOW'.",
+   "sound": "Instagram library, instrumental only: a calm sitar with soft tabla, festive but unhurried, no bhajan, no vocals (search 'sitar instrumental', 'diwali instrumental calm'). Effects: bells 0.20 / 0.70 / 1.20; drawer 1.50; a light rustle as the ladi descends 2.95; a soft rising click sequence under the switch-on 4.15 to 5.30; a tiny electrical tick at 10.30 and 10.60; a glass 'ting' 10.60; drawer home 12.70.",
+   "caption": "One bulb is always out. Every ladi, every balcony, every year.\n\nThis line of light stays on: the Fine Tennis Bracelet, one continuous row of round brilliant clear cubic zirconia, each about 2.5 mm and each in its own gold tone claw cup, closed with a slim box clasp. About 17 cm, fine enough for every day, and for tonight.\n\nShubh Deepavali from all of us at Naira.\n\n₹1,299.\n\n[ fine tennis bracelet · 18k gold tone plated · no spare bulbs needed ]",
+   "first_comment": "Which bulb is out on your balcony this year? #ShubhDeepavali #Diwali #NairaFlore #NairaPetite #TennisBracelet",
+   "alt_text": "Cover of a short video on a deep red night: a blush pink Naira gift box with its drawer out like a stage, a cream paper balcony railing behind, and two swags of small paper lights in blush, lemon, mint and ivory hanging from the top corners across the frame; one bulb is dark. On the stage stands a fine gold-tone tennis bracelet of small round clear stones. Above: One bulb is always out. (this line of light stays on.) A ticket below reads Show 06, night show.",
+   "why": "Diwali Sunday, posted at 17:00 before the Lakshmi puja muhurat, a dense festive tile at the start of the red column. It decouples festive from the category's red-and-gold-and-diya cliché (the paid never-list) with an observation everyone shares, which is the house's best-performing kind of wit. Tennis and rivière lines over-index 4.5x among competitor bestsellers; this piece is Edition Two, 20 in stock and unsold, and its own listing calls it 'the everyday line of light', so the post's joke is the listing's truth. A reel on the biggest night of the season, for reach; the price is on the end card for the people who stay.",
+   "claims_check": "₹1,299 and 20 in stock (roster); tags 18k Gold Tone Plated, Edition Two. Listing: 'One continuous row of small round brilliant clear cubic zirconia, each about 2.5mm and each in its own gold claw cup... slim box clasp... Approximately 17cm'; caption says 'gold tone claw cup'. No water or tarnish claim (Edition Two rule). No firecracker, diya, rangoli or marigold. 'Shubh Deepavali' only in the caption. The ladi is paper, the bracelet is the only real object."
+  },
+  {
+   "p": 7,
+   "grid_pos": "r2c3",
+   "date": "Tue 10 Nov 2026 (Diwali Padwa)",
+   "time_ist": "12:00",
+   "format": "reel (1080x1920, designed cover)",
+   "duration_s": 18,
+   "loop": true,
+   "title": "ENCORE.",
+   "series": "THE BOX THEATRE · SHOW 07 · MATINEE (Padwa and Bhaubeej: the two encores)",
+   "tone": "light, knowing, Maharashtrian; the row's quiet tile",
+   "product_handles": [
+    "bold-nocturne-chain"
+   ],
+   "prices_and_stock": "Bold Nocturne Chain ₹1,799, 53 in stock, single variant, not pre-order, gift-friendly. 2 sold in 120 days; the full Nocturne trio (chain + bracelet + drops) was bought together once (order #1134, BUY3).",
+   "concept": "In Maharashtra, Diwali takes two encores: Padwa and Bhaubeej. Three days, three outfits, because outfits never repeat; jewellery can, and should. The stage is a bioscope: a painted scroll on two wooden rollers that cranks from DIWALI (a night window with a paper lantern) to PADWA (a morning doorway with a fresh rangoli) to BHAUBEEJ (an afternoon aarti thali on a low stool), while a paper blouse on the costume rail in the wings is swapped each time. In the middle, on a plain paper necklace bust, the Bold Nocturne Chain never moves: 'a chain with enough presence to be the whole outfit', in its listing's words. The audience calls for an encore twice; the chain comes back both times. It also sets up the wedding season, where every function runs three days.",
+   "cover": "1080x1920 still; tile y 240 to 1680. GROUND sage tint #E3EAE1 + grain. TITLE Velista 120 ink #1A1614, one line 'ENCORE.' centred baseline 320 (about 600 px wide, cap top 236). DIRECTION Cormorant 44 #3D3530 baseline 398: '(outfits don't repeat. this can.)'. SHELF LINE 2 px #CBD6CB at y 1046. BOX W 600 at (540, 1046), drawer out (E 340). SET: the BIOSCOPE SCROLL frame at d 10 (560 x 160, max 168): a paper frame in ivory with two turned 'wooden' rollers (kraft #B8946A, 22 px wide) at its left and right ends, the painted window 500 x 136 showing panel B (AP-08, PADWA morning doorway with rangoli); the NECKLACE BUST at d 170 (ivory card #FBF3EC + AP-01, a plain neck-and-shoulders display form 170 x 210, no head) with the Bold Nocturne Chain draped at its neckline, the pavé link at the centre front; a small placard on a stick at stage front-right (d 330, x 760): ivory card 120 x 44, Velista 26 'PADWA.'. Warm spot on the bust. TICKET 'SHOW 07 · MATINEE'. AT 391x521 READS: 'ENCORE.' large, a pale green tile, the blush box, a small painted scene behind, a gold-tone chain on a white bust.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. WINGS = a rectangular clip on the set group between the box's side edges, so props that slide off stage disappear at the box's sides. P7 (video units, box W 600, E 320): L1 ground #E3EAE1 + grain. L2 warm wash. L3 BOX. L4 SCROLL FRAME flat at d 10, 540 x 160: ivory frame + two kraft rollers with 6 spokes drawn on their end caps (the spokes rotate 120 deg per scroll change); inside an overflow-hidden window 480 x 136, a strip of the three painted panels AP-07 (DIWALI night), AP-08 (PADWA morning), AP-09 (BHAUBEEJ afternoon) laid side by side, each cropped to 480 x 136, the strip translating -480 px per change. L5 COSTUME RAIL flat at stage left (d 110, x 250 to 360): a gold-paper rail on two posts with a paper hanger and a BLOUSE flat (a simple short-sleeved blouse silhouette, 90 x 70): purple #4E3C66 with a 6 px gold border (Diwali), then haldi yellow #E8C35A (Padwa), then leaf green #2F5E46 (Bhaubeej); each blouse slides in from and out to the left WING. L6 NECKLACE BUST at d 170, 160 x 200 (ivory + AP-01), rising through the TRAP with the PIECE cutouts/bold-nocturne-chain/00-trim.png (861x883) scaled to 230 x 236, positioned so the two strands meet at the bust's neckline and the pavé link hangs at centre front. L7 PLACARD on a stick (d 330, x 760): ivory card 110 x 40, Velista 24, text 'DIWALI.' then 'PADWA.' then 'BHAUBEEJ.' (the card flips rotateY 0 > 90 > 0 at each change, the text swapped at 90). L8 ROD CARD right (x 770 to 990): Jost 500 20 'ENCORE' / Cormorant 26 '(the audience asked.)', second time '(they asked again.)'. L9 GLINT on the pavé link. L10 PROGRAMME, L11 TICKET, L12 title. PAPER FLOOR (covers the velvet, inset 18 px): a cotton durrie: ivory #F4EBE2 and sage #AFBFA9 stripes 24 px wide, running across the stage.",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE: sage tint, box shut and breathing; title 'ENCORE.' Velista 96 ink baseline 400; direction '(outfits don't repeat. this can.)' Cormorant 36 #3D3530 baseline 466."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "BELLS: wash, footlights, title exits."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL: drawer out (1.10 s)."
+    },
+    {
+     "t": "2.30-3.00",
+     "what": "THE RISE: scroll frame (on panel A, DIWALI night) and costume rail (purple blouse) hinge up; placard 'DIWALI.' rises on its stick."
+    },
+    {
+     "t": "3.00-3.90",
+     "what": "THE ENTRANCE: the bust rises through the trap wearing the Bold Nocturne Chain (0.9 s, ease-reveal). Warm spot (.40)."
+    },
+    {
+     "t": "3.90-5.20",
+     "what": "GLINT on the pavé link at 4.20. Hold."
+    },
+    {
+     "t": "5.20-6.00",
+     "what": "ENCORE 1: soft applause; the ROD CARD rises at right: 'ENCORE' / '(the audience asked.)'."
+    },
+    {
+     "t": "6.00-6.90",
+     "what": "THE CHANGE: the scroll cranks to panel B, PADWA morning (strip translateX -480, 0.9 s, cubic-bezier(0.65,0,0.35,1); roller spokes turn 120 deg); the purple blouse slides off into the left wing and the haldi-yellow one slides in (0.45 s each); the placard flips to 'PADWA.'. The chain does not move."
+    },
+    {
+     "t": "6.90-9.60",
+     "what": "Rod card sinks (0.5 s). GLINT on the pavé link at 7.70. Hold; slow push-in 1.00 > 1.03 across 3.9 to 13.4."
+    },
+    {
+     "t": "9.60-10.40",
+     "what": "ENCORE 2: applause; rod card rises: 'ENCORE' / '(they asked again.)'."
+    },
+    {
+     "t": "10.40-11.30",
+     "what": "THE CHANGE: scroll to panel C, BHAUBEEJ afternoon; the green blouse replaces the yellow; placard flips to 'BHAUBEEJ.'. The chain stays."
+    },
+    {
+     "t": "11.30-13.40",
+     "what": "Rod card sinks; GLINT at 12.00; hold."
+    },
+    {
+     "t": "13.40-14.60",
+     "what": "THE CLOSE: bust and chain sink (0.6 s); placard, rail and scroll fold (0.45 s, stagger 0.06); drawer home (1.0 s, from 13.6). Push back to 1.00."
+    },
+    {
+     "t": "14.60-15.20",
+     "what": "PROGRAMME: 'BOLD NOCTURNE CHAIN' / '₹1,799' / '[ elongated paperclip links, one set in pavé · 18k gold tone plated ]' / 'nairaflore.com'; ticket 'SHOW 07 · MATINEE'. The scroll strip is reset to panel A while hidden."
+    },
+    {
+     "t": "15.20-17.20",
+     "what": "HOLD."
+    },
+    {
+     "t": "17.20-18.00",
+     "what": "RETURN to the first frame."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box on sage tint; 'BOLD NOCTURNE CHAIN' / '₹1,799' / '[ elongated paperclip links, one set in pavé · 18k gold tone plated ]' / 'nairaflore.com'; ticket 'SHOW 07 · MATINEE'.",
+   "sound": "Instagram library, instrumental only: a harmonium-led piece with the feel of Marathi natya sangeet, no vocals (search 'harmonium instrumental'). Effects: bells 0.20 / 0.70 / 1.20; drawer 1.50; paper flaps 2.30; two short warm applause bursts (1.2 s each) at 5.20 and 9.60; a wooden roller creak under each scroll change (6.00, 10.40); a glass 'ting' at 4.20; drawer home 13.60.",
+   "caption": "Outfits don't repeat. Jewellery can.\n\nIn Maharashtra, Diwali takes two encores: Padwa today, Bhaubeej tomorrow. Three days, three outfits, one chain. The Bold Nocturne Chain is bold elongated paperclip links in warm gold tone, with one link set in clear cubic zirconia pavé, so a single point of sparkle breaks the run. Enough presence to be the whole outfit, three days running, and at every three-day wedding after.\n\nदिवाळी पाडव्याच्या हार्दिक शुभेच्छा.\n\n₹1,799.\n\n[ bold nocturne chain · 18k gold tone plated · encore, encore ]",
+   "first_comment": "Which piece do you wear all three days? #DiwaliPadwa #Bhaubeej #NairaFlore #NairaPetite #StatementNecklace",
+   "alt_text": "Cover of a short video on a pale sage background: a blush pink Naira gift box with its drawer out like a stage. Behind, a small painted scroll on two wooden rollers shows a morning doorway with a fresh rangoli; in front, a plain white necklace bust wears a bold gold-tone paperclip chain with one sparkling pavé link at the front, and a tiny placard reads Padwa. Above: Encore. (outfits don't repeat. this can.) A ticket below reads Show 07, matinee.",
+   "why": "Posted at 12:00 on Padwa, between Diwali (8 Nov) and Bhaubeej (11 Nov): the 46% of buyers in Maharashtra (Mumbai and Nashik) live this three-day stretch, and the caption explains it for everyone else. 'Outfits don't repeat' is a near-universal social rule for Indian women at functions; turning it into a reason to own one strong piece is the house's 'worn, not saved' message with a joke. The Bold Nocturne Chain has 53 in stock and only 2 sold, and the trio has already sold as a BUY3 set: Show 10's drops complete it, and the caption cross-references. The scroll is the bioscope (the mela peep box) made literal, and the post pivots the feed from festival to the wedding season's three-day functions. Quiet tile in the right column.",
+   "claims_check": "₹1,799 and 53 in stock (roster); tags 18k Gold Tone Plated. Listing: 'bold elongated oval paperclip links in warm gold tone, with one link pave set with clear cubic zirconia so a single point of sparkle breaks the run of plain metal'; 'A chain with enough presence to be the whole outfit' is the listing's first line. No length stated (the listing gives none). No water or tarnish claim. The three painted panels are AI gouache plates (AP-07 to AP-09) with no people, text or jewellery; they are scenery, clearly paper theatre. The Marathi line needs a native reader before posting (owner's sign-off on Devanagari in captions). 'Bhaubeej' is Maharashtra's Bhai Dooj; 'Padwa today' is correct for Tue 10 Nov per Drik Panchang (Bali Pratipada)."
+  },
+  {
+   "p": 8,
+   "grid_pos": "r2c2",
+   "date": "Fri 13 Nov 2026 (eve of Children's Day)",
+   "time_ist": "19:00",
+   "format": "reel (1080x1920, designed cover)",
+   "duration_s": 15,
+   "loop": true,
+   "title": "YOU WERE TREE 3.",
+   "series": "THE BOX THEATRE · SHOW 08 · NIGHT SHOW (Children's Day, for the grown-up)",
+   "tone": "nostalgic, funny, tender; mid-weight tile",
+   "product_handles": [
+    "mint-pear-drop-earrings"
+   ],
+   "prices_and_stock": "Mint Pear Drop Earrings ₹1,199, 20 in stock, single variant, Edition Two, gift-friendly, not pre-order, 0 sold so far.",
+   "concept": "Children's Day, for the person who actually buys: the mother who was once in the school annual day, playing Tree 3. Our stage is that school stage: dusty-rose paper curtains, a crayon forest on kraft paper, a crepe-paper sun on a stick, and three cardboard trees labelled TREE 1, TREE 2, TREE 3. Tree 3 has stage fright and trembles; its two leaves are the Mint Pear Drop Earrings (three small clear pears falling to one pale mint pear, like a leaf). Then Trees 1 and 2 slide into the wings, Tree 3 slides to centre stage, the spotlight lands, the audience claps and the tree bows. This year, you get the lead.",
+   "cover": "1080x1920 still; tile y 240 to 1680. GROUND lilac deep #5E4A78 + grain. TITLE Velista 104 cream: 'YOU WERE' (baseline 290), 'TREE 3.' (394). DIRECTION Cormorant 44 blush-mid (456): '(annual day. this year, the lead.)'. SHELF LINE 2 px #705D89 at y 1046. BOX W 600 at (540, 1046), drawer out (E 340). SET: CRAYON BACKDROP AP-10 at d 10 (560 x 160); SCHOOL CURTAINS AP-11 split as two side flats at d 40 (each 110 x 250, x 220 to 330 and 750 to 860, outside the lid print's x range); CREPE SUN (AP-04 over #F3D27A, d 80, 70 px with 10 crepe rays) on a 2 px stick at upper left (x 300); THREE TREES at d 210 (each 120 x 250: kraft trunk AP-05 + crepe foliage AP-04 over #6E9A6A, on a small wooden stand), at x 390, 540, 690, each with a pinned ivory label 64 x 22, Jost 500 12 'TREE 1' / 'TREE 2' / 'TREE 3'; the Mint Pear Drop Earrings (cutouts/mint-pear-drop-earrings/00-trim.png split into the two earrings, each about 60 x 70) hang from Tree 3's foliage edges like two leaves. A warm spot on Tree 3. TICKET 'SHOW 08 · NIGHT SHOW'. AT 391x521 READS: 'YOU WERE / TREE 3.', the box as a school stage, three green paper trees, a yellow sun, two pale green drops on the right tree.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. WINGS = a rectangular clip on the set group between the box's side edges, so props that slide off stage disappear at the box's sides. P8 (video units, box W 600, E 320): L1 ground #5E4A78 + grain. L2 warm wash. L3 BOX. L4 CRAYON BACKDROP AP-10 flat at d 10, 540 x 160. L5 CURTAINS AP-11 as two side flats at d 36 (x 245 to 345 and 735 to 835, 232 tall; beside the print, so taller than the print-safe line is allowed). L6 SUN flat (crepe disc 64 px + rays) on a stick behind the backdrop's left (x 300), rising through a slot in the backdrop top. L7 TREES: three groups at d 200 (x 400, 540, 680), each = stand + trunk (AP-05) + foliage (three overlapping crepe clumps, AP-04 over #6E9A6A, highlight clump #86AE7F) + label (AP-01, Jost 500 12); transform-origin at the stand's base. L8 PIECE: the two earrings from cutouts/mint-pear-drop-earrings/00-trim.png (827x401, split at x 413) each scaled to 56 x 64, hung from Tree 3's foliage at its left and right edges by their posts, transform-origin at the post (pendulum). L9 SPOT on Tree 3 (cone + pool). L10 ROD CARD left: Jost 500 20 'ANNUAL DAY' / Velista 40 'TREE 3.' / Cormorant 26 '(no lines. stood very still.)'. L11 GLINT on each pear in turn. L12 PROGRAMME, L13 TICKET, L14 title. The WINGS clip hides trees that slide past the box's sides. PAPER FLOOR (covers the velvet, inset 18 px): a school stage of painted boards: #C9A57E paper with plank lines #B8946A every 36 px.",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE: lilac deep, box shut and breathing; title 'YOU WERE / TREE 3.' Velista 76 cream; direction '(annual day. this year, the lead.)' Cormorant 36 blush-mid."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "BELLS: wash, footlights, title exits."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL: drawer out (1.10 s)."
+    },
+    {
+     "t": "2.30-3.20",
+     "what": "THE RISE: crayon backdrop, then the two curtain flats, then the three trees pop up one after another (0.62 s each, stagger 0.15 s); Tree 3 rises already wearing its two mint 'leaves'."
+    },
+    {
+     "t": "3.20-3.90",
+     "what": "The crepe sun rises on its stick from behind the backdrop (0.7 s, ease-reveal) and starts a hand-held wobble, rotate ±3 deg (1.4 s sine)."
+    },
+    {
+     "t": "4.00-5.00",
+     "what": "STAGE FRIGHT: Tree 3 trembles, rotate ±1.2 deg about its base at 1.6 Hz for 1.0 s, then stills; the earrings swing ±4 deg as pendulums and settle (0.8 s damped)."
+    },
+    {
+     "t": "5.00-5.80",
+     "what": "ROD CARD rises at stage left: 'ANNUAL DAY' / 'TREE 3.' / '(no lines. stood very still.)'."
+    },
+    {
+     "t": "5.80-7.20",
+     "what": "RECAST: Trees 1 and 2 slide off into the left wing (translateX -420, 1.0 s, cubic-bezier(0.65,0,0.35,1)), clipped at the box's left side; Tree 3 slides to centre stage (translateX -140, 1.0 s, start 6.2). The earrings swing gently with the move and settle."
+    },
+    {
+     "t": "7.20-8.00",
+     "what": "THE LEAD: a warm spot lands on Tree 3 (pool and cone fade 0 > .45, light only); the sun's wobble settles to still."
+    },
+    {
+     "t": "8.00-8.60",
+     "what": "GLINTS run down each earring: the three clear pears then the mint pear (8.10, 8.25, 8.40, 8.55)."
+    },
+    {
+     "t": "8.60-9.40",
+     "what": "Applause. THE BOW: Tree 3 bows (rotateX 0 > 8 > 0 deg about its base, 0.8 s, ease-in-out); the earrings swing forward and back."
+    },
+    {
+     "t": "9.40-10.60",
+     "what": "HOLD. Rod card sinks at 10.0. Slow push-in 1.00 > 1.03 from 3.2, returning by 11.6."
+    },
+    {
+     "t": "10.60-12.00",
+     "what": "THE CLOSE: sun sinks; Tree 3, curtains and backdrop fold (0.45 s, stagger 0.06); drawer home (1.0 s, from 11.0)."
+    },
+    {
+     "t": "12.00-12.60",
+     "what": "PROGRAMME: 'MINT PEAR DROP EARRINGS' / '₹1,199' / '[ three clear pears, then one pale mint pear · about 22 mm ]' / 'nairaflore.com'; ticket 'SHOW 08 · NIGHT SHOW'. Trees 1 and 2 are reset off-stage while hidden."
+    },
+    {
+     "t": "12.60-14.20",
+     "what": "HOLD."
+    },
+    {
+     "t": "14.20-15.00",
+     "what": "RETURN to the first frame."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box on lilac deep; 'MINT PEAR DROP EARRINGS' / '₹1,199' / '[ three clear pears, then one pale mint pear · about 22 mm ]' / 'nairaflore.com'; ticket 'SHOW 08 · NIGHT SHOW'.",
+   "sound": "Instagram library, instrumental only: a light, slightly wobbly school-piano piece, playful but gentle, no vocals (search 'playful piano instrumental'). Effects: bells 0.20 / 0.70 / 1.20; drawer 1.50; three cardboard 'pops' as the trees rise (2.6 to 3.0); a faint crepe-paper rustle under the sun's wobble; a short warm applause at 8.60 (1.5 s); glass 'tings' on the glints; drawer home 11.0.",
+   "caption": "You were Tree 3. You stood very still, and you never forgot a line, because Tree 3 had none.\n\nThis Children's Day, a small correction: the lead. The Mint Pear Drop Earrings: three small clear pear-cut stones leading down to one pale mint green pear, every stone in fine gold tone claws. About 22 mm, falling just below the lobe.\n\n₹1,199.\n\n[ mint pear drop earrings · 18k gold tone plated · finally, the lead ]",
+   "first_comment": "What were you in the school play? Tree, cloud, villager 2? #ChildrensDay #NairaFlore #NairaPetite #DropEarrings #AnnualDay",
+   "alt_text": "Cover of a short video on a deep lilac background: a blush pink Naira gift box with its drawer out, set as a school stage with dusty-rose paper curtains, a crayon forest backdrop, a crepe-paper sun on a stick and three cardboard trees labelled Tree 1, Tree 2 and Tree 3. Two drop earrings of small clear stones and a pale mint green pear-shaped stone hang from Tree 3 like leaves. Above: You were Tree 3. (annual day. this year, the lead.) A ticket below reads Show 08, night show.",
+   "why": "Children's Day (Sat 14 Nov) told to the actual buyer: women 35 to 54 are 64% of purchases, and almost all of them sat in (or through) a school annual day; the Retro proposal's 'Name: Mummy' insight was judged one of the most sendable in the competition, and this is its theatre version with a prompt built for comments ('Tree, cloud, villager 2?'). The piece is Edition Two, 20 in stock and unsold; green and pear shapes over-index in the market (1.5 to 1.7x and 2.25x). The night show at 19:00 on Friday sits in the evening order peak. It is the middle weight of row 2 and the funniest motion in the season (a nervous tree that gets the lead).",
+   "claims_check": "₹1,199 and 20 in stock (roster); tags 18k Gold Tone Plated, Edition Two. Listing: 'three small clear pear cut cubic zirconia leading to one pale mint green pear, approximately 9mm... fine gold claws... approximately 22mm... post with butterfly back'. 'mint green', never 'emerald' or 'peridot'. No water or tarnish claim (Edition Two rule). No child is depicted (trees and labels only). The crayon backdrop is an AI plate (AP-10) of a child-style drawing: check it does not read AI-made; if it does, draw the forest as flat SVG scribbles over AP-05 kraft."
+  },
+  {
+   "p": 9,
+   "grid_pos": "r2c1",
+   "date": "Sun 15 Nov 2026",
+   "time_ist": "12:00",
+   "format": "carousel, 6 slides (1080x1440): S1, S2 and S3 video loops; S4, S5, S6 stills",
+   "duration_s": 5,
+   "loop": true,
+   "title": "THE FRONT ROW SEES IT ALL.",
+   "series": "THE BOX THEATRE · SHOW 09 · MATINEE (the wedding guest, up close)",
+   "tone": "witty, confident, a styling lesson; the row's dense tile",
+   "product_handles": [
+    "baguette-huggies"
+   ],
+   "prices_and_stock": "Baguette Huggies ₹1,199 a pair, every colour: Ruby 12, Crystal 15, Emerald 15, Amethyst 15 (57 total). STOCK GUARD on the posting morning: if Ruby is 7 or fewer, the cover pairs Emerald with Amethyst and the caption says so.",
+   "concept": "At an Indian wedding the front row is family, and family notices everything: so let them notice something you meant. On our stage, four wedding chairs in white covers with blush sashes sit with their backs to us, and on a raised paper stage beyond them stand two single Baguette Huggies: one Ruby, one Emerald. Mismatching them is not a mistake, it is the listing's own styling note ('Mismatch them, one ruby and one emerald'); a paper loupe glides over them, the front row's view. The post is the proven 'finished to be seen up close' message in a wedding frame, and it turns a styling tip into a two-pair basket.",
+   "cover": "Slide 1, 1080x1440 (first frame of its loop). GROUND blush-mid #F2CFC4 + grain. TITLE Velista 104 ink: 'THE FRONT ROW' (baseline 290, fit 700 px), 'SEES IT ALL.' (394). DIRECTION Cormorant 44 #3D3530 (456): '(even that you mismatched them on purpose.)'. SHELF LINE 2 px #DDB7AC at y 1046. BOX W 600 at (540, 1046), drawer out (E 340). SET: a RAISED STAGE riser (ivory card, 300 x 54 front face, at d 170) with a scalloped gold-paper skirt; on it two single huggies, the upright huggie of cutouts/baguette-huggies/00-trim.png (Ruby) and of /02-trim.png (Emerald), each about 120 px tall, 40 px apart, in a warm spot; the FRONT ROW AP-12 at d 340: four chairs from behind, each about 116 x 140, sashes and bows facing us, lower than the riser so the huggies stay clear; the LOUPE (SVG: a brass ring #B0843A 10 px, d 140, glass with one soft highlight arc, a short brass handle) on a rod at right above the stage (x 760 to 900, y 700). TICKET 'SHOW 09 · MATINEE'. AT 391x521 READS: the two-line title, the blush box, a row of white chair backs with pink bows, one red and one green dot of colour on a little stage.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. WINGS = a rectangular clip on the set group between the box's side edges, so props that slide off stage disappear at the box's sides. P9: L1 ground #F2CFC4 + grain. L2 BOX W 600 (grid layout). L3 RISER flat at d 170 (ivory + AP-01, gold scalloped skirt AP-16). L4 PIECES: the upright huggie cropped from baguette-huggies/00-trim.png (Ruby, 616x446: crop the left, upright hoop) and from /02-trim.png (Emerald), each about 120 px tall, inside TRAP windows on the riser top. L5 FRONT ROW AP-12 at d 340, four chair layers. L6 LOUPE (SVG) on a brass rod; inside its glass, a clipped copy of L4 scaled 1.6x and re-centred on the lens (the magnified view). L7 SPOT. L8 GLINTS (ruby, emerald). L9 TICKET. S2: assets/shopify/baguette-huggies/03.jpg (Ruby macro, 1200x1491) scaled to 1159 x 1440 and centre-cropped to 1080 x 1440, plus a light-sweep layer. S3: BOX W 600 with an ivory four-slot shelf on the stage and the four upright huggies (cutouts 00 Ruby, 01 Crystal, 02 Emerald, 03 Amethyst). S4: the Ruby and Emerald upright huggies at 360 px tall on blush. S5: assets/shopify/baguette-huggies/01.jpg (Ruby worn) cropped to x 35 to 100%, so only the ear, jaw line, neck and shoulder show (no lips, no eyes). S6: shut box + PROGRAMME + TICKET. PAPER FLOOR (covers the velvet, inset 18 px): an ivory floor #F4EBE2 with a blush #F2CFC4 aisle runner 120 px wide down the centre, toward the riser.",
+   "storyboard": [
+    {
+     "t": "S1 0.0-5.0 (loop)",
+     "what": "Cover. 1.0-2.2 the loupe glides on its rod from the right wing to hover over the two huggies (ease-reveal), showing them 1.6x larger inside the glass; 2.2-3.2 it holds; 3.2-4.4 it glides back (ease-in-out). GLINT on the Ruby at 1.6 and on the Emerald at 2.8. The chairs never move. Frame 5.0 = frame 0."
+    },
+    {
+     "t": "S2 0.0-5.0 (loop) UP CLOSE.",
+     "what": "The Ruby macro full bleed. A soft light sweep crosses the baguettes left to right (1.0-2.2, linear, light only); nothing else moves. Type over the plain plaster at the bottom: Jost 500 20 tracking .24em #1A1614 'RUBY, UP CLOSE' (baseline 1300) and Cormorant 36 #3D3530 '(one row of baguettes, standing crosswise along the lower front.)' (1352)."
+    },
+    {
+     "t": "S3 0.0-5.0 (loop) FOUR COLOURS.",
+     "what": "Velista 104 'FOUR COLOURS.' (290) and Cormorant 44 '(choose two. wear one of each.)' (356). The box with an ivory four-slot shelf on its stage: Ruby, Crystal, Emerald, Amethyst rise one by one through their slots (0.0-1.6, stagger 0.25, 0.9 s each), labels in Jost 500 14 beneath; glints in sequence (2.0, 2.4, 2.8, 3.2); they sink (4.2-4.8). Frame 5.0 = frame 0 (slots empty, drawer out)."
+    },
+    {
+     "t": "S4 still MISMATCH THEM.",
+     "what": "Velista 104 'MISMATCH THEM.' (290); Cormorant 44 '(it says so on the label. we wrote it.)' (356); the Ruby and Emerald upright huggies large (360 px tall) side by side at y 520 to 880 with soft contact shadows; Jost 500 18 tracking .24em at the foot: 'OUR OWN STYLING NOTE: ONE RUBY AND ONE EMERALD'."
+    },
+    {
+     "t": "S5 still",
+     "what": "The worn Ruby huggie (cropped as in layers), full bleed; Cormorant 40 #1A1614 top-left on the plain wall: '(about 18 mm. close to the ear.)'."
+    },
+    {
+     "t": "S6 still",
+     "what": "END CARD: shut box on blush-mid; programme 'BAGUETTE HUGGIES' / '₹1,199 a pair' / '[ about 18 mm across · 18k gold tone plated ]' / Jost 500 16 'RUBY · CRYSTAL · EMERALD · AMETHYST' / 'nairaflore.com'; ticket 'SHOW 09 · MATINEE'."
+    }
+   ],
+   "carousel_slides": "S1 cover: the front row, two mismatched huggies on a raised stage, the loupe (video loop 5 s) · S2 Ruby, up close (video loop 5 s, light sweep) · S3 four colours rise (video loop 5 s) · S4 MISMATCH THEM, the styling note (still) · S5 worn, ear and neck only (still) · S6 end card with price and the four colours (still). All 1080x1440; S1, S3, S4, S6 on blush-mid #F2CFC4.",
+   "end_card": "S6: shut box on blush-mid; 'BAGUETTE HUGGIES' / '₹1,199 a pair' / '[ about 18 mm across · 18k gold tone plated ]' / 'RUBY · CRYSTAL · EMERALD · AMETHYST' / 'nairaflore.com'; ticket 'SHOW 09 · MATINEE'.",
+   "sound": "Carousel audio (Instagram library, instrumental): a light shehnai-free wedding instrumental on santoor or sarod, calm (search 'wedding instrumental santoor'). Loops carry only a soft glass 'ting' on each glint.",
+   "caption": "The front row sees it all. At a wedding the front row is family, and family notices.\n\nSo give them something to notice: one Ruby huggie and one Emerald. Mismatching them is our own styling note, not an accident. Baguette Huggies are about 18 mm across, one row of baguette cubic zirconia standing crosswise along the lower front, the top half plain polished gold tone, with a hinged snap. In Ruby, Crystal, Emerald or Amethyst.\n\n₹1,199 a pair. Two pairs make one mismatched pair, and a spare of each. Take 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.\n\n[ baguette huggies · 18k gold tone plated · mismatched on purpose ]",
+   "first_comment": "Which two would you mismatch? Ruby, Crystal, Emerald or Amethyst. #WeddingGuest #NairaFlore #NairaPetite #HuggieEarrings #EditionTwo",
+   "alt_text": "A blush pink Naira gift box on a blush background, its drawer out like a stage. On a small raised paper stage stand two single hoop earrings, one set with a row of ruby-red stones and one with green stones, both gold-tone; in front of them, four wedding chairs in white covers with blush bows sit with their backs to us, and a small brass magnifying glass hangs above. Above: The front row sees it all. (even that you mismatched them on purpose.) A ticket below reads Show 09, matinee.",
+   "why": "Sunday 12:00 (the best order slot) six days before the season's first muhurat (21 Nov) with more on 24 to 26 Nov: the weekend guests plan outfits and jewellery. In paid tests, 'finished to be seen up close' beat 'daily wear' 3.8 to 2.2 add-to-carts per ₹1,000 (p about 0.002): this is that message in a wedding frame. Baguette Huggies have 57 in stock across four colours, Ruby sold 3 of 3 in orders, and they are bought with the Ruby bracelet; huggies over-index 1.6x among competitor bestsellers. The listing's own styling note turns into a two-pair basket (BUY2), which is what break-even needs (69% of orders are a single piece). Dense tile at the left of row 2.",
+   "claims_check": "₹1,199 a pair (every colour) and variant stock from roster.json; stock guard above. Listing: 'Approximately 18mm across... one row of baguette cut cubic zirconia standing crosswise along the lower front... upper half plain polished gold... hinged snap'; styling tip 'Mismatch them, one ruby and one emerald' (so 'our own styling note' is true). Colour names only (Ruby, Emerald, Amethyst are colours; never stones); no water or tarnish claim (Edition Two). 'Two pairs make one mismatched pair, and a spare of each' is arithmetic, not a claim. S2's macro is the Ruby variant and is labelled so. S5 is cropped to show no lips or eyes (owner rule: no faces on product tiles). The chairs are a paper prop (AP-12) and the front row is never shown as people."
+  },
+  {
+   "p": 10,
+   "grid_pos": "r1c3",
+   "date": "Tue 17 Nov 2026",
+   "time_ist": "19:00",
+   "format": "reel (1080x1920, designed cover)",
+   "duration_s": 15,
+   "loop": true,
+   "title": "REHEARSALS: THREE WEEKS.",
+   "series": "THE BOX THEATRE · SHOW 10 · NIGHT SHOW (sangeet season)",
+   "tone": "funny, rhythmic, warm; the row's quiet tile",
+   "product_handles": [
+    "bold-nocturne-drops"
+   ],
+   "prices_and_stock": "Bold Nocturne Drops ₹1,299, 19 in stock, single variant, Edition Two, not pre-order. Completes the Nocturne trio with the chain from Show 07 (Chain 53, Bracelet 49).",
+   "concept": "Every family sangeet: three weeks of rehearsals for a four-minute performance. On our stage: a rehearsal mirror (silvered paper) with a taped note, tape marks on the floor, and two drops hanging from a little gold fly bar like two dancers. A rod card counts 5, 6, 7, 8 and the Bold Nocturne Drops swing in time, rehearsing; then 'AND...', the floor lights up in squares like every sangeet's LED floor, the drops swing once, properly, and sparkle; four beats and it's over. 'Understated until it moves', in the house's own words, and these are made to move.",
+   "cover": "1080x1920 still; tile y 240 to 1680. GROUND sage deep #3F5A4C + grain. TITLE Velista 104 cream: 'REHEARSALS:' (baseline 290), 'THREE WEEKS.' (394). DIRECTION Cormorant 44 blush-mid (456): '(performance: four minutes. the drops: all night.)' (fit 860 px; 40 px if needed). SHELF LINE 2 px #536C60 at y 1046. BOX W 600 at (540, 1046), drawer out (E 340). SET: REHEARSAL MIRROR at d 10 (560 x 160): silvered paper #D9D4DE with two soft diagonal sheen bands (white 25%) and a 6 px gold-paper frame, a taped ivory note at its top-left (70 x 48, Jost 500 9 'SANGEET · SONG 3 · FROM THE TOP'); FLOOR on the stage plane (drawn in the plane's perspective): two X marks of blush #F2CFC4 and lemon #F3E6A8 paper tape (strips 34 x 7) and a row of tape numbers '1 2 3 4' in Jost 500 18 ivory; FLY BAR: a gold-paper rod (AP-16) 320 x 6 at y 520, and the two Bold Nocturne Drops (cutouts/bold-nocturne-drops/00-trim.png split in two, each rotated to hang vertical, about 70 x 150) hanging from it on 1.5 px threads at x 470 and 610, at d 200, each tilted a few degrees in opposite directions (mid-swing). A warm spot on the drops. TICKET 'SHOW 10 · NIGHT SHOW'. AT 391x521 READS: cream title on deep green, the box with tape marks, two sparkly gold-tone drops hanging like dancers.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. WINGS = a rectangular clip on the set group between the box's side edges, so props that slide off stage disappear at the box's sides. P10 (video units, box W 600, E 320): L1 ground #3F5A4C + grain. L2 warm wash. L3 BOX. L4 MIRROR flat at d 10, 540 x 160 (+ the taped note). L5 FLOOR MARKS: inline SVG on the stage plane (inside the tray window, so they foreshorten with it): two tape X's, numbers 1 to 4, each strip revealed by a clip. L6 LED FLOOR: 6 x 2 paper squares on the stage plane (each about 80 x 40 before foreshortening), each with a glow layer #FFF2D2 (screen) driven 0 > 1. L7 FLY BAR (AP-16) with two threads; the bar and drops start translated up 320 px. L8 PIECE: the two drops from bold-nocturne-drops/00-trim.png (619x356, split at x 310), each rotated upright, about 64 x 140, transform-origin at the top link's post (pendulum). L9 ROD CARD left: Jost 500 20 'REHEARSAL' + a slot in which Velista 44 counts rise: '5', '6', '7', '8', then 'AND'. L10 SPOT on the drops. L11 GLINTS on the pavé links. L12 PROGRAMME, L13 TICKET, L14 title. PAPER FLOOR (covers the velvet, inset 18 px): a rehearsal floor of sage-grey paper #C8D3CB (the tape marks and LED squares sit on it).",
+   "storyboard": [
+    {
+     "t": "0.00-0.20",
+     "what": "HOUSE: sage deep, box shut and breathing; title 'REHEARSALS: / THREE WEEKS.' Velista 76 cream; direction Cormorant 36 blush-mid (two lines if needed)."
+    },
+    {
+     "t": "0.20-1.20",
+     "what": "BELLS: wash, footlights, title exits."
+    },
+    {
+     "t": "1.50-2.60",
+     "what": "THE PULL: drawer out (1.10 s)."
+    },
+    {
+     "t": "2.30-3.20",
+     "what": "THE RISE: the mirror hinges up (0.62 s); the tape marks lay themselves down on the floor (each strip clip-revealed in 0.15 s, staggered 0.05 s, 2.60-3.20)."
+    },
+    {
+     "t": "2.90-3.80",
+     "what": "THE FLY: the gold bar and both drops descend from above (translateY -320 > 0, 0.9 s, ease-reveal), settle with a 1.5 deg sway."
+    },
+    {
+     "t": "3.80-7.80",
+     "what": "REHEARSAL: the ROD CARD rises at stage left (3.8-4.3) and counts '5', '6', '7', '8' twice, one number rising through its slot every 0.5 s (4.3-7.8). The drops swing ±5 deg on each count (0.5 s half-swings, ease-in-out), in opposite phase like a duet; the floor marks pulse (opacity .7 <> 1, light)."
+    },
+    {
+     "t": "7.80-8.30",
+     "what": "'AND': the card shows 'AND'; everything stills for half a second."
+    },
+    {
+     "t": "8.30-10.30",
+     "what": "PERFORMANCE: the LED floor squares light in a checker chase (0.25 s steps, glow 0 > 1 > .6), a warm spot hits the drops (.45), the drops swing once ±8 deg together and settle; GLINTS on the pavé at 8.80 and 9.60. Slow push-in 1.00 > 1.03 across 3.8 to 10.3."
+    },
+    {
+     "t": "10.30-10.70",
+     "what": "Four minutes over: the floor squares dim to 0 (light); the card sinks."
+    },
+    {
+     "t": "10.70-11.90",
+     "what": "THE CLOSE: bar and drops fly out upward (0.6 s); mirror folds; tape marks clip away; drawer home (1.0 s, from 10.9); push back to 1.00."
+    },
+    {
+     "t": "11.90-12.50",
+     "what": "PROGRAMME: 'BOLD NOCTURNE DROPS' / '₹1,299' / '[ a polished oval link, a pavé oval link below · about 30 mm ]' / 'nairaflore.com'; ticket 'SHOW 10 · NIGHT SHOW'."
+    },
+    {
+     "t": "12.50-14.20",
+     "what": "HOLD."
+    },
+    {
+     "t": "14.20-15.00",
+     "what": "RETURN to the first frame."
+    }
+   ],
+   "carousel_slides": "",
+   "end_card": "Shut box on sage deep; 'BOLD NOCTURNE DROPS' / '₹1,299' / '[ a polished oval link, a pavé oval link below · about 30 mm ]' / 'nairaflore.com'; ticket 'SHOW 10 · NIGHT SHOW'.",
+   "sound": "Instagram library, instrumental only: tabla with soft handclaps, about 90 bpm, festive but uncluttered, no film song and no vocals (search 'tabla instrumental', 'dholak instrumental'). Effects: bells 0.20 / 0.70 / 1.20; drawer 1.50; tape 'zips' under the floor marks 2.60; soft claps on the eight counts 4.3 to 7.8; a hush at 7.80; a light shimmer under the floor chase 8.30 to 10.30; glass 'tings' 8.80 and 9.60; drawer home 10.90.",
+   "caption": "Rehearsals: three weeks. Performance: four minutes. Every sangeet, every family.\n\nThe Bold Nocturne Drops: a polished oval link on a post with a larger pavé-set oval link hanging below it, about 30 mm, so they move when you do. The same links as the Bold Nocturne Chain from Show 07, if you want the set.\n\n₹1,299.\n\n[ bold nocturne drops · 18k gold tone plated · 5, 6, 7, 8 ]",
+   "first_comment": "Who in your family is rehearsing the hardest this year? #Sangeet #WeddingSeason #NairaFlore #NairaPetite #StatementEarrings",
+   "alt_text": "Cover of a short video on a deep green background: a blush pink Naira gift box with its drawer out like a stage, set as a rehearsal room with a silvered paper mirror and tape marks on the floor. Two gold-tone drop earrings, each a polished oval link with a sparkling pavé oval link below, hang from a small gold-paper bar like two dancers. Above: Rehearsals: three weeks. (performance: four minutes. the drops: all night.) A ticket below reads Show 10, night show.",
+   "why": "The first muhurats are 21 and 24 to 26 Nov, so sangeet rehearsals are happening in every family this week: the joke is lived, not observed. A statement drop is the sangeet's piece (it moves and catches stage light); Bold Nocturne Drops are Edition Two with 19 in stock, and they complete the Nocturne trio (chain 53, bracelet 49), which has sold as a three-piece BUY3 basket before; the caption points back to Show 07 to build it again. Night show at 19:00. The quiet tile at the top right, opposite the Finale.",
+   "claims_check": "₹1,299 and 19 in stock (roster); tags 18k Gold Tone Plated, Edition Two. Listing: 'a polished oval link on a post with a larger pavé set oval link hanging below... approximately 30mm... clear cubic zirconia pavé... post back... the same links as our Bold Nocturne Chain and Bracelet'. No water or tarnish claim (Edition Two). 'Three weeks' and 'four minutes' are a joke about rehearsals, not product facts. No song lyrics or film music anywhere; the taped note names no song."
+  },
+  {
+   "p": 11,
+   "grid_pos": "r1c2",
+   "date": "Fri 20 Nov 2026 (eve of Tulsi Vivah and the first muhurat)",
+   "time_ist": "12:00",
+   "format": "carousel, 6 slides (1080x1440): S1, S2, S3, S5 video loops; S4 and S6 stills",
+   "duration_s": 6,
+   "loop": true,
+   "title": "THE CARD CAME IN A BOX.",
+   "series": "THE BOX THEATRE · SHOW 11 · MATINEE (wedding gifts)",
+   "tone": "graceful, observant, gift-led; mid-weight tile",
+   "product_handles": [
+    "kiss-knot-bangle"
+   ],
+   "prices_and_stock": "Kiss Knot Bangle ₹1,199 in both finishes: Gold 20, Silver (rhodium) 20; Edition Two; gift-friendly (flexible, slips over the hand, no sizing); 0 sold so far.",
+   "concept": "This season's wedding invitations arrive in boxes (laser-cut lids, pop-up mandaps, little drawers of dry fruit). So the gift should too. Our stage is the invitation: a laser-cut ivory arch and a pair of laser-cut elephants rise in the drawer, and between them stands the Kiss Knot Bangle, a ribbed gold tone coil whose two ends cross under one polished X: 'Two ends, one kiss', the listing's own words, and the obvious gift for someone who has just tied the knot. The drawer's ribbon tab is tied with a gold bow: every piece arrives in its own box, ready to give.",
+   "cover": "Slide 1, 1080x1440 (first frame of its loop). GROUND lilac #E7DEF0 + grain. TITLE Velista 104 lilac-on #2E2338: 'THE CARD CAME' (baseline 290, fit 700 px), 'IN A BOX.' (394). DIRECTION Cormorant 44 lilac mast #4E3C66 (456): '(so should the gift.)'. SHELF LINE 2 px #D3C7DF at y 1046. BOX W 600 at (540, 1046), drawer out (E 340); a thin gold-paper ribbon (AP-16, 6 px) tied in a bow on the ribbon tab. SET: LASER-CUT ARCH AP-13 at d 20 (360 x 170, max 174), centred; ELEPHANTS AP-14 (one mirrored) at d 170, 150 x 130 each, at x 330 and 750 facing the centre, trunks raised; PIECE cutouts/kiss-knot-bangle/00-trim.png (Gold, 849x389) scaled to 300 px wide, standing on edge at d 240, x 540, on an ivory plinth 120 x 28, the X facing camera; a warm light behind the arch casting a soft lace-patterned pool on the stage. TICKET 'SHOW 11 · MATINEE'. AT 391x521 READS: the two-line title on pale lilac, an ivory lace arch and two ivory elephants inside the blush box, a gold-tone bangle with an X at the centre, a gold bow.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. WINGS = a rectangular clip on the set group between the box's side edges, so props that slide off stage disappear at the box's sides. P11: L1 ground #E7DEF0 + grain. L2 BOX W 600 (grid layout) + GIFT BOW (AP-16 ribbon, two loops and tails, 70 px) on the tab. L3 ARCH AP-13 flat at d 20. L4 LACE LIGHT: a radial light #FFF1D6 behind the arch, masked by a blurred (6 px) copy of the arch's alpha projected onto the stage plane, mix-blend screen, travelling left to right. L5 ELEPHANTS AP-14 (and its mirror) as two flats at d 170. L6 PLINTH + PIECE kiss-knot-bangle/00-trim.png at 300 px wide in a TRAP. L7 GLINT on the polished X. L8 TICKET. S2: an INVITATION BOX (SVG, NOT the Naira box: a plain lilac #C9B6CB card box 520 x 360 seen from the same camera, with an ivory laser-cut lid of AP-13 pattern; no text, no names) whose lid hinges open to reveal a small pop-up arch. S3: assets/shopify/kiss-knot-bangle/03.jpg (Gold macro, 1200x1491) scaled to 1159 x 1440 and centre-cropped, + light sweep. S4: assets/shopify/kiss-knot-bangle/01.jpg (Gold worn) cropped to y 25 to 100% (below the chin; no lips) and scaled to cover. S5: the Gold (00) and Silver (01) cutouts at 380 px wide, side by side in two TRAP slots on an ivory riser inside the box. S6: shut box with the gold bow + PROGRAMME + TICKET. PAPER FLOOR (covers the velvet, inset 18 px): lilac paper #D9CCE3 with a laser-cut lace edge 14 px deep along the front.",
+   "storyboard": [
+    {
+     "t": "S1 0.0-6.0 (loop)",
+     "what": "Cover. The lace light travels behind the arch from left to right (0.0-4.5, linear), casting a moving lace pattern across the stage and the plinth; it fades out at the right (4.5-5.0) and fades in at the left (5.5-6.0) so frame 6.0 = frame 0 (light only). GLINT on the X at 2.0 and 5.0. Nothing else moves."
+    },
+    {
+     "t": "S2 0.0-5.0 (loop) THE CARD.",
+     "what": "Velista 104 'THE CARD.' (290); Cormorant 44 '(this season, the invitations have drawers.)' (356). The lilac invitation box: 0.6-1.4 its laser-cut lid hinges open (rotateX 0 > -105 deg about the back edge, ease-reveal); 1.2-1.8 a small pop-up arch rises inside; 1.8-3.8 hold; 3.8-4.4 arch folds; 4.4-5.0 lid closes. Frame 5.0 = frame 0."
+    },
+    {
+     "t": "S3 0.0-5.0 (loop) TWO ENDS. ONE KISS.",
+     "what": "The Gold macro full bleed; a light sweep crosses the polished X (1.0-2.2, linear). Velista 88 ink #1A1614 over the plain upper area: 'TWO ENDS.' / 'ONE KISS.' (baselines 170, 262). Jost 500 18 tracking .24em at the foot (baselines 1330, 1358): 'A FLEXIBLE RIBBED COIL, ABOUT 5 MM THICK · ITS ENDS CROSSED UNDER ONE POLISHED X'."
+    },
+    {
+     "t": "S4 still",
+     "what": "The worn Gold bangle, cropped below the chin, full bleed; Cormorant 40 #1A1614 on the plain area: '(slips over the hand. no clasp to fumble with at the mandap.)'."
+    },
+    {
+     "t": "S5 0.0-5.0 (loop) BOTH FINISHES.",
+     "what": "Velista 104 'GOLD TONE.' / 'RHODIUM.' (290, 394); Cormorant 44 '(knots on top, worn together.)' (456). In the box, the Gold and the Silver bangle rise side by side through two slots (0.3-1.2, stagger 0.15); glints 1.6 (gold) and 2.0 (rhodium); hold; sink 3.8-4.4. Frame 5.0 = frame 0."
+    },
+    {
+     "t": "S6 still",
+     "what": "END CARD: shut box with its gold bow on lilac; programme 'KISS KNOT BANGLE' / '₹1,199' / '[ 18k gold tone plated or rhodium plated · slips over the hand ]' / 'nairaflore.com'; ticket 'SHOW 11 · MATINEE'."
+    }
+   ],
+   "carousel_slides": "S1 cover: laser-cut arch, elephants, the bangle, moving lace light (video loop 6 s) · S2 THE CARD: an invitation box opens to a pop-up arch (video loop 5 s) · S3 TWO ENDS. ONE KISS.: the Gold macro with a light sweep (video loop 5 s) · S4 worn, below the chin (still) · S5 GOLD TONE. RHODIUM.: both finishes rise (video loop 5 s) · S6 end card (still). All 1080x1440; S1, S2, S5, S6 on lilac #E7DEF0.",
+   "end_card": "S6: shut box with a gold ribbon bow on lilac; 'KISS KNOT BANGLE' / '₹1,199' / '[ 18k gold tone plated or rhodium plated · slips over the hand ]' / 'nairaflore.com'; ticket 'SHOW 11 · MATINEE'.",
+   "sound": "Carousel audio (Instagram library, instrumental): a gentle sarangi or santoor wedding piece, no shehnai fanfare, no vocals (search 'sarangi instrumental', 'wedding instrumental calm'). Loops: a paper hinge on S2 at 0.6 and a glass 'ting' on each glint.",
+   "caption": "The card came in a box this year. So should the gift.\n\nFor the bride who just tied the knot: the Kiss Knot Bangle. A flexible ribbed coil about 5 mm thick, its two ends crossed on top of the wrist under one polished X. It slips over the hand, so there is no clasp. In gold tone or rhodium; she can wear both, knots on top.\n\n₹1,199. Every piece arrives in its own blush Naira box, ready to give. Delivery takes 3 to 5 working days.\n\n[ kiss knot bangle · 18k gold tone plated or rhodium plated · two ends, one kiss ]",
+   "first_comment": "How many wedding cards on your table this season? #WeddingGift #WeddingSeason #NairaFlore #NairaPetite #Bangle",
+   "alt_text": "A blush pink Naira gift box on a pale lilac background, a small gold-paper bow tied on its ribbon pull, its drawer out like a stage. Inside stand a laser-cut ivory paper arch like a wedding invitation and two laser-cut ivory elephants with raised trunks; between them a ribbed gold-tone coil bangle whose two ends cross under a polished X. Above: The card came in a box. (so should the gift.) A ticket below reads Show 11, matinee.",
+   "why": "Posted at 12:00 on the eve of Tulsi Vivah and the first muhurat (21 Nov), with the next muhurats on 24 to 26 Nov and 2 to 6, 11 to 12 Dec: the right lead time for wedding gifts at 3 to 5 working days. Gifting a bride is a real, recurring purchase for a 35 to 54 buyer and fits demi-fine prices; the box invitation is a current trend that makes the Naira box itself the argument. Kiss Knot Bangle is Edition Two with 40 in stock and 0 sold; bangles over-index 1.9 to 3.9x among competitor bestsellers; it needs no size, which removes the gift-buyer's biggest risk. The listing's own opener ('Two ends, one kiss.') is the headline of its macro slide. Middle weight in the top row.",
+   "claims_check": "₹1,199 for both finishes; Gold 20 and Silver 20 (roster). Tags 18k Gold Tone Plated, Rhodium Silver Tone Plated, Edition Two. Listing: 'A flexible snake-coil bangle, finely ribbed and about 5mm thick, whose two ends cross on top of the wrist under one smooth polished X... Flexible, slips over the hand... 18k gold tone plated or rhodium coated'; styling tip 'Wear gold and rhodium coated together with both knots on top of the wrist'. 'Rhodium plated' for the silver finish; never 'silver' as a metal. No water or tarnish claim (Edition Two). The invitation box in S2 is a plain card box with no text, names or deities; the laser-cut arch and elephants are AI paper props (AP-13, AP-14) with no text. 'Every piece arrives in its own box': listing line 'You will receive your piece in a Naira Petite box'. Delivery 3 to 5 working days; no order-by date."
+  },
+  {
+   "p": 12,
+   "grid_pos": "r1c1",
+   "date": "Sun 22 Nov 2026",
+   "time_ist": "19:00",
+   "format": "carousel, 6 slides (1080x1440): S1, S3 video loops; S2, S4, S5, S6 stills",
+   "duration_s": 6,
+   "loop": true,
+   "title": "THE FINALE. CAST OF THREE.",
+   "series": "THE BOX THEATRE · SHOW 12 · NIGHT SHOW (the finale; bookend 2 of 2 on the long diagonal)",
+   "tone": "celebratory, grateful, the season's payoff; the row's dense tile, top-left",
+   "product_handles": [
+    "baguette-tennis-necklace",
+    "baguette-tennis-bracelet",
+    "baguette-huggies"
+   ],
+   "prices_and_stock": "The Ruby set: Baguette Tennis Necklace, Ruby ₹2,300 (Ruby 20; 70 in stock across colours, 0 sold); Baguette Tennis Bracelet, Ruby ₹1,699 (Ruby 12 on 25 Oct); Baguette Huggies, Ruby ₹1,199 (Ruby 12). List total ₹5,198; the discounted total is never shown on the art. STOCK GUARD on 22 Nov: if any Ruby variant is 7 or fewer, the cast becomes the Crystal set (necklace 30, bracelet 29, huggies 15), every slide and the caption swap to Crystal, and the Show 02 callback reads 'last seen in Ruby, round a karwa'.",
+   "concept": "All season the theatre has had one rule, a cast of one. The finale breaks it: three pieces take the curtain call together, the Ruby set, led by the bracelet that first appeared round the karwa's neck in Show 02. The house curtain from Show 01 returns in blush under the gold valance, the tulip backdrop is back, and the necklace, bracelet and huggies bow one after another while blush paper petals fall (the website's own falling petals) and the curtain dips and rises for the call. The tile sits top-left, where every visitor arrives, answering the opening curtain at bottom-right across the long diagonal. Three pieces is also exactly the BUY3 basket, stated once, calmly, in the caption.",
+   "cover": "Slide 1, 1080x1440 (first frame of its loop). GROUND lac #42060E + grain. TITLE Velista 104 cream #F6EFE6: 'THE FINALE.' (baseline 290), 'CAST OF THREE.' (394; fit 760 px). DIRECTION Cormorant 44 blush-mid (456): '(one piece a show, all season. tonight, the set.)' (fit 860 px). SHELF LINE 2 px #5A1C22 at y 1046. BOX W 600 at (540, 1046), drawer out (E 340), footlights lit. SET: TULIP BACKDROP (as P1: blush paper, kit tulip clusters, leaf sprig) at d 18 (170 tall); GOLD PELMET (posts + scalloped valance, AP-16) at d 36; BLUSH CURTAIN (AP-03 over #F2CFC4) raised, its hem showing as a 14 px pleated band under the valance; the NECKLACE cutouts/baguette-tennis-necklace/01-trim.png (Ruby, 788x1055) scaled to about 200 x 268 and hung on two threads at d 200, its top no higher than 280 px above the stage (print-safe 286 at that depth), centred; the BRACELET cutouts/baguette-tennis-bracelet/01-trim.png (Ruby) at 220 px wide on an ivory riser at d 250, x 390; the HUGGIES cutouts/baguette-huggies/00-trim.png (Ruby pair) at 150 px wide on an ivory riser at d 250, x 690; 4 blush paper petals (the site's HeroPetals petal shape, 18 to 26 px, #F2CFC4 and #FFBDA8) mid-fall. Warm spot on all three. TICKET 'SHOW 12 · NIGHT SHOW'. AT 391x521 READS: cream two-line title on deep lac, the glowing blush box with a gold scalloped valance, three ruby-red sparkles, petals, the ticket.",
+   "layers": "STAGE KIT (shared, build once in work/v3box/stage-kit/): BOX = port of /home/user/naira-scroll-3790bf3e/src/components/giftbox/NairaBoxCSS.tsx + pose.ts (colours from src/lib/nairaBox/config.ts), pose rotateX(-32deg) rotateY(0), perspective 6400 px, lid print kit/naira-wordmark.svg fill #4A4440 opacity .86 at 62% of lid width centred on the lid, reference prototype work/v3box/proto/p2-cover-proto.html, box faces overlaid with AP-02 at multiply .40, 9 footlights on the drawer front's top lip, ribbon tab #E9C2BA; FLAT, TRAP, ROD CARD, FLY, LIGHT, GLINT, TICKET as in grid_system.recurring_devices; grain = kit/post-base.css .grain at .18. WINGS = a rectangular clip on the set group between the box's side edges, so props that slide off stage disappear at the box's sides. P12: L1 ground #42060E + grain. L2 warm wash. L3 BOX W 600 (grid layout). L4 TULIP BACKDROP flat (P1's, rescaled). L5 PELMET flat. L6 CURTAIN AP-03 over #F2CFC4, translateY between 'up' (hidden behind the valance) and 'half' (hem 30 px above the pieces' tops), clipped at the valance's lower edge. L7 NECKLACE on two threads (FLY), transform-origin at the threads' top. L8 BRACELET and L9 HUGGIES each on an ivory riser in a TRAP window. L10 PETALS: 5 SVG petals (the HeroPetals path from the site) with offset-path falls (4.5 to 5.5 s each, linear, ±12 px sine sway, rotation 40 to 120 deg), staggered so the loop is seamless. L11 SPOT. L12 GLINTS. L13 TICKET. S2: assets/shopify/baguette-tennis-necklace/04.jpg (Ruby worn) cropped to y 35 to 100% (below the chin), cover-fit. S3: assets/shopify/baguette-tennis-bracelet/06.jpg (Ruby macro) scaled to 1159 x 1440 and centre-cropped, + light sweep. S4: assets/shopify/baguette-huggies/02.jpg (Ruby on plaster) cover-fit. S5 and S6: ivory PROGRAMME SHEETS (AP-01) on lac. PAPER FLOOR (covers the velvet, inset 18 px): the ivory boards of Show 01 (#F4EBE2, plank lines #E3D9CE), the bookend.",
+   "storyboard": [
+    {
+     "t": "S1 0.0-6.0 (loop)",
+     "what": "CURTAIN CALL. 0.6 the bracelet bows (dips 10 px and returns, 0.5 s, ease-in-out), 1.0 the necklace bows (its threads lower 10 px and return), 1.4 the huggies bow; GLINTS cascade at 1.0, 1.4, 1.8. 2.6-3.4 the blush curtain lowers to half (ease-in-out); 3.6-4.4 it rises again (the call). Petals fall throughout. Frame 6.0 = frame 0."
+    },
+    {
+     "t": "S2 still THE NECKLACE.",
+     "what": "The Ruby necklace worn at the base of the neck (cropped below the chin), full bleed; Velista 88 ink #1A1614 on the plain wall top-left 'THE NECKLACE.' (baseline 160, x 72); Jost 500 20 tracking .24em at the foot: 'BAGUETTE TENNIS NECKLACE · RUBY · ₹2,300'."
+    },
+    {
+     "t": "S3 0.0-5.0 (loop) THE BRACELET.",
+     "what": "The Ruby macro full bleed; a light sweep crosses the baguettes (1.0-2.2, linear). Velista 88 #1A1614 'THE BRACELET.' over the plain plaster (baseline 160); Cormorant 36 '(first seen in show 02, round a karwa's neck.)' (214); Jost 500 20 at the foot 'BAGUETTE TENNIS BRACELET · RUBY · ₹1,699 · ABOUT 17 CM'. Frame 5.0 = frame 0."
+    },
+    {
+     "t": "S4 still THE HUGGIES.",
+     "what": "The Ruby huggies on their plaster block, full bleed; Velista 88 'THE HUGGIES.' (160); Jost 500 20 at the foot 'BAGUETTE HUGGIES · RUBY · ₹1,199 · ABOUT 18 MM'."
+    },
+    {
+     "t": "S5 still THE CAST.",
+     "what": "Ivory programme sheet 840 x 1100 on lac: Jost 500 16 tracking .3em #6B625B 'THE BOX THEATRE · SHOW 12 · THE FINALE'; Velista 72 'THE CAST.'; three rows (thumbnail 150 px, role in Velista 34 'THE NECKLACE' / 'THE BRACELET' / 'THE HUGGIES', a dotted gold leader, piece name Jost 500 20 caps, price Jost 400 28); a rule; Jost 500 24 'TOGETHER, ₹5,198'; Cormorant 34 '(every piece arrives in its own box.)'; Jost 400 20 'nairaflore.com'. No code on the art."
+    },
+    {
+     "t": "S6 still SEASON ONE.",
+     "what": "Ivory programme sheet on lac: Velista 72 'SEASON ONE.'; Cormorant 36 '(twelve shows. thank you for coming.)'; the playbill in two columns, each line Jost 500 14 number + Velista 22 title: '01 PLEASE TAKE YOUR SEATS.', '02 EVEN THE KARWA DRESSED UP.', '03 FOUR BOXES.', '04 HE WILL NEVER SAY THE LINE.', '05 THE STAR STAYS IN THE LOCKER.', '06 ONE BULB IS ALWAYS OUT.', '07 ENCORE.', '08 YOU WERE TREE 3.', '09 THE FRONT ROW SEES IT ALL.', '10 REHEARSALS: THREE WEEKS.', '11 THE CARD CAME IN A BOX.', '12 THE FINALE.'; the ticket at the foot. No boxes drawn (one wordmark rule)."
+    }
+   ],
+   "carousel_slides": "S1 cover: the curtain call of the Ruby set, petals (video loop 6 s) · S2 THE NECKLACE, worn (still) · S3 THE BRACELET, macro with light sweep and the Show 02 callback (video loop 5 s) · S4 THE HUGGIES (still) · S5 THE CAST: the programme with three prices and the list total (still) · S6 SEASON ONE: the playbill of all twelve shows (still).",
+   "end_card": "S5 THE CAST is the selling end card (three pieces, three prices, 'TOGETHER, ₹5,198', nairaflore.com); S6 SEASON ONE closes the season with the playbill and the ticket.",
+   "sound": "Carousel audio (Instagram library, instrumental): a soft shehnai and strings piece for the wedding season, slow and warm, no vocals (search 'shehnai instrumental'). S1's loop carries a light applause swell at 2.6 and a glass 'ting' on each glint.",
+   "caption": "The finale. All season it was one piece a show. Tonight, a cast of three.\n\nThe Ruby set, in the order you met it: the Baguette Tennis Bracelet (₹1,699) from Show 02, now with the Baguette Tennis Necklace (₹2,300) and the Baguette Huggies (₹1,199). Ruby-red baguette cubic zirconia in 18k gold tone settings, for the wedding nights from here to December.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India.\n\nThank you for coming to season one.\n\n[ the ruby set · 18k gold tone plated · curtain call ]",
+   "first_comment": "Which show was your favourite, 01 to 12? #WeddingSeason #NairaFlore #NairaPetite #RubyJewellery #EditionTwo",
+   "alt_text": "A blush pink Naira gift box on a deep lac red background, its drawer out like a stage under a gold-paper scalloped valance and a raised blush paper curtain, with a backdrop of painted coral tulips. Three ruby-red, gold-tone pieces take a bow: a baguette tennis necklace hanging at the centre, a baguette tennis bracelet at the left and a pair of baguette huggie earrings at the right, while blush paper petals fall. Above: The finale. Cast of three. (one piece a show, all season. tonight, the set.) A ticket below reads Show 12, night show.",
+   "why": "The top-left tile is what every visitor from an ad sees first from 22 Nov through the December muhurats, so it must sell the season's best basket: the Ruby set (₹5,198 list), built on the hero stone (Ruby 8 of 13 bracelets since 16 Oct; ruby huggies sold 3 of 3), the 70-unit necklace that has not sold once, and BUY3, the code the break-even maths needs (69% of orders are one piece). Bracelet + huggies is a known bought-together pair. The series' rule (cast of one) makes three pieces feel like an event, and the callbacks (Show 02's bracelet, Show 01's curtain and tulips) give the grid a memory. Sunday 19:00 is in the evening order peak on the strongest day. The lac ground rhymes with the LAC tile at the bottom of the same column.",
+   "claims_check": "Prices ₹2,300 / ₹1,699 / ₹1,199 (roster; every colour the same price); list total ₹5,198 shown (honest arithmetic, no discount, no strike); the BUY3 saving is never computed on the art. Ruby necklace 20, Ruby bracelet 12, Ruby huggies 12 on 25 Oct; stock guard above. 'Ruby-red baguette cubic zirconia', never 'ruby' as a stone; 'about 17 cm' (bracelet listing) and 'about 18 mm' (huggies listing); the necklace's length is not stated (its listing text is not in the snapshot; the alt text's 36 cm is not quoted). Tags 18k Gold Tone Plated, Edition Two on all three; no water or tarnish claim. The offer line is the exact approved line, caption only. Worn crops show no lips or eyes. The season slide lists titles in type; no second wordmark."
+  }
+ ],
+ "risks": [
+  "BUILD: CSS 3D face sorting. Flats standing on the drawer plane share one preserve-3d context with the box; Chrome can mis-sort intersecting planes. Port NairaBoxCSS.tsx's convex-box approach exactly (the open drawer is the same box made longer, seen through fixed windows), keep every flat parallel to the drawer front, and check every 10th frame. Fallback if sorting fails: render the box's states once as PNG layers (shut, and drawer at each travel) and composite the flats in 2D with a scaleY hinge from their base; the camera never moves, so the fallback looks identical.",
+  "RENDER: tools/reel.cjs is fixed at 1080x1920; carousel loops need width and height arguments (1080x1440), a one-line change. About 3,400 reel frames plus 17 carousel loops at 30 fps; budget roughly 10 to 15 minutes of render per reel. End cards carry live prices baked into video: generate them from roster.json at render time and re-render any post whose price moved before it goes up.",
+  "INSTAGRAM: a carousel whose first slide is a video uses that video's first frame as the grid thumbnail; every slide 1 here starts on the designed cover, but test one draft before the rollout and fall back to a still slide 1 if the grid crops or picks another frame. Reel covers may not be editable after posting: upload the designed cover at publish time. Posting natively keeps 3:4; a scheduler may force 4:5, and everything critical sits inside y 45 to 1395.",
+  "CULTURE AND LANGUAGE: the 'third bell' convention of Marathi theatre (first comment of P1), the word प्रयोग on every ticket, and the Marathi Padwa greeting in P7's caption each need a native reader's sign-off before posting; if any fails, drop it (the ticket works without the word). The karwa wearing a bracelet (P2) is affectionate and decorative, but it touches a ritual object: owner to confirm. Tulsi Vivah is left alone (no product near the plant).",
+  "TONE: 'the understudy' (P5) could be read as calling the piece second-best. It is written as love for real gold plus the owner's own 'Not locker gold. Tuesday gold.'; if the owner prefers, the direction becomes '(the everyday one goes on every day.)' with the same visuals.",
+  "STOCK: Ruby variants (bracelet 12, huggies 12 on 25 Oct, selling about one a day) carry P2, P9's cover and P12. Each post has a written stock guard (swap to the Ruby necklace, to Emerald/Amethyst, or to the Crystal set) to be checked the evening before posting; no hero below 5. Every other piece has 19 or more in stock.",
+  "PACKING TRUTH: P3, P11 and P12 say 'every piece arrives in its own box'. Every listing promises 'You will receive your piece in a Naira Petite box', but the owner must confirm that multi-piece orders are packed one box per piece; if not, those lines become 'Every order arrives in the blush Naira box' (the visuals still hold).",
+  "THE VELVET: the real drawer bed is black velvet. The prototype showed a large black stage when it was left bare, so every show now lays a paper floor over it (terrace tiles, boards, a durrie, a runner); only the drawer's rim shows. The end cards and the caption never claim the floor is part of the packaging.",
+  "AI PLATES: 16 non-jewellery plates (20 credits); the gouache backdrops (AP-07 to AP-09), the crayon forest (AP-10) and the laser-cut props (AP-13, AP-14) are the most likely to read AI-made. Each has a flat SVG fallback (silhouette + paper texture). Nothing generated is jewellery, a face, a hand or text. P5's worn slide uses an existing Higgsfield plate (0711): check the braid against the listing before use, or swap to the real on-ear photo in a framed window.",
+  "SAMENESS: eleven covers share one box in one place. That is the emblem and the grid idea (a shelf of twelve theatres), but at a glance some may read it as repetitive; the variety is carried by twelve grounds in three colour columns, twelve box states and twelve set silhouettes, and P3 deliberately breaks the pattern. If the owner wants more contrast, two covers (P7, P10) can go to a close 'stage view' crop of the drawer without the full box, keeping the ticket.",
+  "PACE: the owner has sent back fast or jittery motion twice. Every timing here is slow (1.1 s drawer, 0.6 s hinges, 4 s glint cadence, at most 3% push-in); review every reel at full size and in slow motion before posting, and cut any scene that feels busy rather than speed it up.",
+  "SOUND: use Instagram's library tracks via the business account only (no lyrics; Indian labels have pursued brands over Reels music); bake only royalty-free effects (bells, drawer, paper, applause, glass ting) into the files, mixed under the music.",
+  "FONTS AND MARKS: Velista's licence for social use is unconfirmed (it is already used in every ad); Tiro Devanagari Marathi is a feed option pending the owner's sign-off. The wordmark appears only as the lid print; P3 hides lower lids and P12's season slide uses type, so no frame ever shows two marks.",
+  "CADENCE: post strictly P1 to P12, three a week, so each week completes one row; no pins during the rollout; if a post slips, use grid reordering rather than doubling up on a day. Captions name no delivery date; the festival gift posts leave the 3 to 5 working days delivery needs (P3 for Diwali, P4 for Bhai Dooj), and the wedding-gift posts aim at the late-November and December muhurats.",
+  "EFFORT: one stage kit (box, flats, slot, rod card, fly, light, glint, ticket, programme) built once, then twelve sets of three to six flats each; most set pieces are silhouettes, lattices and panels. A realistic agent build is two days for the kit and the first three shows, then about half a day per show, plus a native-language check and one owner review round."
+ ]
+}

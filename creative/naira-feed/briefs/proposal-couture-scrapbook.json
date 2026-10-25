@@ -1,0 +1,831 @@
+{
+ "name": "The Fitting Book",
+ "one_line": "Naira Petite styled the way its couture house thinks: twelve pages from the Nashik studio's fitting book, where real Naira Flore fabrics, croquis, tailor's tools and pencilled fitting notes decide which piece goes with which thread, neckline, sleeve, dupatta and function this festive and wedding season.",
+ "big_idea": "Naira is a couture house first (130 of its 140 Instagram posts are couture) that also sells demi-fine jewellery, and until now the two businesses have never spoken to each other on the grid. The Fitting Book makes the jewellery feed the house's own notebook: every post is a numbered page (page one to page twelve) carrying a stitched woven house label, and every page answers a question a couture fitting actually asks before the jewellery is chosen: what thread is the embroidery in, where does the neckline sit, how long is the sleeve, where does the dupatta fall, which function is it for. The answers are house rules that cross-reference each other across the grid (page five's kurta is gold tone because page one says the thread decides the metal; page twelve's sangeet look gets a ring because page nine says full sleeves skip the wrist), so the feed reads as one thought-through system, the way PTAT's MILNI reads as one event. The world is built only from things Naira owns: pinked swatches cut (as photo crops) from real Naira Flore couture pieces, real Naira Petite cut-outs pinned to the page with glass-head dressmaker's pins, pen croquis on pattern paper, the embroidery hoop, the tailor's tape, the thimble, the order book, the trial-room curtain, the dress form and the blush box. Four named series of three run through the twelve pages: FITTING NOTES (big collaged pages: outfit to pieces), PATTERN NOTES (quiet croquis guides: neckline, sleeve, dupatta), WORKTABLE (one tailor's tool, one piece, one exact measured fact, one Indian wink) and THE STUDIO (reels where drawn studio furniture frames real photographs). Maximal in idea and system, premium in execution: one colour field per tile, one tool or one swatch per page, never sticker soup, and the jewellery always the real photograph.",
+ "why_it_fits": "BRAND: it argues the one thing no demi-fine competitor can copy, that Naira is a real made-to-measure couture house in Nashik (brand bible section 1; upclose PLAN: 'NAIRA is a couture house first, so our jewellery gets styled where the thread is'), while never claiming the jewellery is hand-made: the copy only ever says the outfits are made to measure and the jewellery is Naira Petite, 18K gold tone & rhodium plated. It uses only shipped brand assets (Velista caps, Cormorant italic turns, Jost labels, the NAIRA wordmark once per frame inside the label, the deck watercolour sprig, blush/sage/ivory, the LAC oxblood and the exhibition bottle green) and real couture photography from the site (look-1..7, hero_1..3, about-uniquely-yours). DATA: guides and proof are what this audience saves and buys from: 84% of attributed purchases came from IG feed and story stills (data-meta s1), so 9 of 12 posts are stills or carousels; the buyer is a 35-54 metro woman (64% of purchases) dressing for festive and wedding functions, who needs 'what goes with this blouse' more than mood; physical fact framing won ('THE WIDTH.' 9.6 ATC per Rs1k; 'Woven, not cast'); concept statics beat plain 1.44x vs 0.57x ROAS; the object-rhyme wink won the account's best ad ('Anaar, pre-peeled.', ROAS 4.52); Edition Two's story is metal and stone choice (12 pieces in both metals; Ruby 8 of 13 Baguette Tennis Bracelets sold since 16 Oct); necklaces are the under-sold category (28 of 207 units in 120 days) while the Baguette Tennis Necklace sits at 70 in stock with 0 sold, so two of twelve posts teach necklace length; the couture era's biggest posts ever were process and unboxing (3,149 and 3,410 likes), so the Studio reels show process and the box. Every hero is deep stock (19 to 79 units) and every price is today's roster price. OWNER TASTE: Indian everyday-object wit with restraint ('CHALNI, FOR THE WRIST.', 'MEASUREMENTS: NOT NEEDED.', 'THE THIMBLE COMES OFF AT SIX.'), lilac (P8 ground, P1 and P12 swatches), deck florals as one pressed sprig, moody night grounds (oxblood, bottle green, plum: one dark tile per row on a zigzag), clean plates, exact facts in mm and cm, no black, no sand or beige grounds, no stickers or stamps, no grand copy, no discount art, no faces on product tiles (on-model crops start below the lips), no lyrics on reels. REFERENCE: it takes PTAT rows 3 and 4 literally but in Naira's register: the pen-drawn frame around a real photo (r3c3 wardrobe = our trial-room curtain and dress form), the numbered look list with real cut-outs (r4c1 = our THE LOOK LIST [01]-[05] with real Naira Flore couture figures), the ruled-paper page with cut-outs (r4c2 = our ruled fitting pages), the domestic object as display (r3c2 steel tray = our hoop, tape, thimble, order book), script + caps pairing (Velista caps + Cormorant italic), and the 'vol 1' series promise (FITTING NOTES N° 01, page one of twelve). Like MILNI's lockup, the stitched house label sits in the same place on every tile, so twelve different pages read as one book.",
+ "grid_system": {
+  "palette": "All paths below are relative to /tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed. Every colour is a shipped Naira value (kit/tokens.css) or sampled from the current LAC/BONE tiles. PAPER: ivory #FBF3EC (site --nf-ivory) for ruled fitting pages; warm paper #FBF5F0 (cat-paper) for pattern-paper pages. RULES AND GRID: sage tint #C8D8D4 (ruled lines, pattern-paper crosses); margin line blush-mid #F2CFC4. INK: #1A1614 for all type on light grounds; graphite #3D3530 (bag-ink) for handwritten notes, asides and arrows; muted #6B625B for folios and spec lines; croquis pen line sage-deep #4F7268. CHALK AND THREAD: enamel blush #F5A58F (tailor's chalk marks, stitches on the label, chalk dashed lines). METAL LINE: gold #C99A4C for length arcs and hairlines on light grounds; date gold #E7C27A for line work on dark grounds; small gold text #80612A only at 24px+. COLOUR FIELDS (one per tile, edge to edge): LAC oxblood #42060E (sampled from the existing LAC and BONE tiles, rgb 66,6,14), bottle green #2E4238 with a radial lift to #3A5448 at centre (exhibition poster), brand sage #99B4AF, lilac #C9B6CB (lilac edition ground; owner's favourite), plum #4E3C66 with folds in #2E2338 (lilac edition mast/on-ground), blush #F2CFC4 and #FFBDA8, cat-blush #FBEDE9 for stripes and slips. LABEL: cream #F6EFE6 with weave #E9D9C6. ON DARK GROUNDS: type cream #F6EFE6, asides blush #F2CFC4, folios #E9D9C6. Rules: gold is the only saturated metal; marigold appears only as real couture fabric (a swatch or the kurta fill), never as a flat ground; no black, no white, no sand, tan or beige ground; contrast checked: ink on sage 8.1:1, ink on blush 11:1, ink on lilac about 9:1, cream on #42060E about 16:1, #E7C27A on #2E4238 6.4:1, cream on #4E3C66 about 8:1. Radius 0 everywhere.",
+  "type_system": "Fonts from kit/tokens.css (link kit/tokens.css then kit/post-base.css). DISPLAY: Velista 400, caps only (unicase), line-height 0.94, letter-spacing .01em; covers 100-168px so every headline reads in the grid at 36% (>= 90px rule); interior slides 84-104px. Velista has NO rupee sign, NO middle dot, NO em dash, NO degree sign and NO square brackets: set 'N°', '[01]', prices and middots in Jost. ASIDE: Cormorant Garamond italic 400, lowercase, 40-56px, the turn under every headline, ends in a full stop. LABELS AND FOLIOS: Jost 500 caps, 20-24px, tracking .30-.32em, #6B625B (light) or #E9D9C6 (dark). SPEC LINES: Jost 400, 24-28px, #6B625B, sentence case, max two lines. PRICES: Jost 400 30-34px #1A1614 with the rupee sign falling back to Poppins (tokens --nf-font-label), only on index slides, never on covers. HANDWRITTEN FITTING NOTES: Kalam 400, 34-44px, graphite #3D3530 (cream #F6EFE6 on dark), rotated -3 to +3 degrees, max three notes per slide, max eight words per note, each with a pencil arrow (SVG cubic path, 2.5px, round caps, open 14px arrowhead, same colour). Kalam is a stand-in for the founder's own hand: the preferred build scans about 60 short notes written by Vandana in graphite on ivory paper (see risks). Never more than these four roles on one slide.",
+  "emblem_and_recurring_devices": "EMBLEM: THE HOUSE LABEL, a woven garment label stitched onto every cover, the way the house sews its label into every outfit. It holds the NAIRA wordmark (kit/naira-wordmark-ink-blush.svg: ink letters, blush flower as the I), so the wordmark appears once per frame and only there. Build (C-LABEL): rect 300x96 px, fill #F6EFE6; weave = horizontal 1px lines #E9D9C6 every 4px at 50% opacity; folded ends = 10px strips #E9D9C6 at left and right; two X-stitches per end (each X 14px, centred 22px in from the edge, stroke #F5A58F 3px, round caps); shadow 0 4px 10px rgba(40,22,10,.18); wordmark 210px wide centred. RECURRING DEVICES (each with one job, never stacked for decoration): (1) C-PIN glass-head dressmaker's pin: shaft 2.5px, linear gradient #8E8984 to #D9D5CF, 120-150px long, at 30-45 degrees; head circle r=11 with radial gradient (blush #FFD9CC to #F5A58F, sage #C8D8D4 to #7F9A91, or gold #F3DDA6 to #B0843A) plus a 3px white highlight upper-left; drop-shadow 0 2px 3px rgba(0,0,0,.25). Every jewellery cut-out and every swatch is held by one pin. (2) C-PINKED swatch: a real couture fabric photo crop with zigzag pinking-shear edges on all four sides (tooth 16px wide, 8px deep, CSS clip-path polygon), shadow 0 10px 22px rgba(40,22,10,.22); only on FITTING NOTES pages. (3) C-CUT jewellery cut-out with kit/post-base.css .cut shadow; always real product photography, never redrawn. (4) Pen croquis and pattern marks (sage-deep #4F7268 3px line, blush chalk #F5A58F dashed 12/8, notches as 14px triangles, grainline arrows) only on PATTERN NOTES pages. (5) One tailor's tool per WORKTABLE page: the embroidery hoop, the tape measure, the thimble. (6) Drawn studio furniture framing a real photo on THE STUDIO reels: the order pad, the trial-room curtain and mirror, the dress form. (7) The pressed sprig: kit/motifs/botanical/leaf-sprig-2.png (the bag's watercolour vine), one stem only, held by a glassine strip (rect 120x36, rgba(255,255,255,.55), rotated 12 degrees), used at most once per post, only on FITTING NOTES pages. (8) Kalam fitting notes with pencil arrows. PAPERS: C-PAPER-RULED = #FBF3EC, horizontal rules 1.5px #C8D8D4 every 56px from y168, double margin line 2px #F2CFC4 at x120 and x126, kit/post-base.css .grain at opacity .18. C-PAPER-PATTERN = #FBF5F0, plus-marks 10px wide 1.5px #C8D8D4 on a 60px grid, every 4th row and column a dashed 1px #C8D8D4 line (dash 6/6), grain .18.",
+  "lockup": "C-LOCKUP, bottom-left of every cover and every reel cover, same place every time so the grid shows twelve stitched labels in one rhythm: C-LABEL at x72, y1252 (reel covers: y1584, inside the 3:4 grid crop). To its right at x396: line 1 Jost 500 22px tracking .30em 'THE FITTING BOOK' (ink #1A1614 on light, cream #F6EFE6 on dark), top at y1268; line 2 Cormorant Garamond italic 34px 'page one.' ... 'page twelve.' (page number spelled out, = posting order; graphite #3D3530 on light, blush #F2CFC4 on dark), top at y1300. FOLIO top-left on every slide: x72, y64, Jost 500 22px tracking .32em, series name + N° (e.g. 'FITTING NOTES   N° 01'); interior slides add the counter bottom-right ('2 / 7', Jost 500 20px #6B625B, right-aligned to x1008, baseline y1356). Safe zones on every cover: critical content inside x72-1008 and y45-1395; nothing in the top-right 173x202 (x907-1080, y0-202); reel covers keep everything inside the central 1080x1440 (y240-1680) and keep x907-1080, y240-442 clear.",
+  "rhythm_map": "Grid as it reads on the phone after P12 (newest top-left). Each tile: post, weight, ground.\n        c1                               c2                               c3\nr1  P12 LOUD | sage #99B4AF         P11 QUIET | ivory pattern paper   P10 MID photo | blush #F2CFC4 (reel)\n    THE LOOK LIST, 5 couture        NOTHING FOR THE NET TO CATCH      FIRST, THE DRESS FORM. ruby necklace\n    figures + 5 pinned pieces       croquis head + net dupatta        photo inside drawn dress form\nr2  P9 QUIET | ivory pattern paper  P8 MID | lilac #C9B6CB            P7 DARK photo | plum #4E3C66 (reel)\n    THE SLEEVE DECIDES THE WRIST.   THE THIMBLE COMES OFF AT SIX.     FOLLOW THE V. curtain + V-neck photo\nr3  P6 DARK | bottle green #2E4238  P5 LOUD | blush shirting stripe   P4 MID photo | sage #99B4AF (reel)\n    25 MM. tape + woven hoops       SAME KURTA. TWO EVENINGS.         MEASUREMENTS: NOT NEEDED. slips + box\nr4  P3 QUIET | ivory pattern paper  P2 DARK | LAC oxblood #42060E     P1 LOUD | ivory ruled + 2 swatches\n    FIRST THE NECKLINE.             CHALNI, FOR THE WRIST.            THE THREAD DECIDES THE METAL.\nr5  (existing) LAC oxblood          (existing) flower on bone         (existing) BONE oxblood\nSERIES PATTERN: FITTING NOTES (loud collage) at r4c3, r3c2, r1c1; PATTERN NOTES (quiet ivory croquis) at r4c1, r2c1, r1c2; WORKTABLE (one tool on one colour field) at r4c2, r3c1, r2c2; THE STUDIO reels hold column 3 for rows 1-3, as PTAT's reels hold its column 3. Every row has one loud, one quiet, one mid or photo tile, and one dark tile per row steps across the grid on a zigzag (r4c2, r3c1, r2c3) before the top row opens light for the wedding season. No two edge-adjacent tiles share a ground. HOW EACH ROW READS AT THUMBNAIL SIZE: r4 = light / dark / light, three big black or cream headlines over a line drawing, a gold hoop-moon and two fabric squares; it inverts the LAC/flower/BONE checkerboard below. r3 = deep green with a cream '25 MM.' and a gold hoop, a warm blush tile with a marigold kurta shape in the middle, a sage tile with a pale-pink slip and a blush box. r2 = ivory with a big sleeve pattern outline, a lilac tile with a small gold thimble and a green ring, a plum curtain with a warm skin-and-ivory photo in the gap. r1 = sage with five small colourful couture figures, ivory with a pen head under a blush net, blush with a pen dress form holding a photo of a ruby necklace. FORMAT MIX: 6 carousels (P1, P3, P5, P9, P11, P12), 3 singles (P2, P6, P8), 3 reels (P4, P7, P10). THEME MIX: useful guides 6, proof 4 (true size, on-body), gifting 1, house 1; offers only in captions.",
+  "transition_to_existing_grid": "The newest live row is LAC (oxblood #42060E, cream serif caps) | the black flower on bone #F1EDE4 | BONE (oxblood). The bottom new row sits on it as an inverted checkerboard: P3 ivory pattern paper over LAC, P2 LAC oxblood over the bone flower tile, P1 ivory ruled paper over BONE. So the August campaign's own value rhythm (dark, light, dark) is answered once (light, dark, light) and the two rows lock like a chessboard instead of colliding. P2 reuses LAC's exact oxblood, sampled from the tile (rgb 66,6,14), with gold line work, so the old campaign's colour is carried up into the new book; P2's hoop-moon sits directly above the old flower mark, one circle over one flower. The Velista caps headlines echo LAC and BONE's high-contrast serif caps, so the type voice continues while the content changes from a launch title to useful pages. From row 3 up the grid opens into colour (bottle green, blush, sage, lilac, plum), and the top row is light for the wedding season, so a visitor arriving from an ad sees a fresh, useful, current page first and the August campaign last.",
+  "pins": "No pins during the rollout (27 Oct to 22 Nov), so each week completes one clean row. When posting resumes after P12, either pin nothing or pin the whole top row P12, P11, P10 together (a full row, so alignment never shifts); never pin one or two. If a scheduler forces 4:5, nothing critical sits in the top or bottom 45px of any 1080x1440 master, so the crop is safe; post natively from the app to keep 3:4. Upload the designed reel covers at posting (changing a cover later is unverified)."
+ },
+ "posts": [
+  {
+   "p": 1,
+   "grid_pos": "r4c3 (P1)",
+   "date": "Tue 27 Oct 2026",
+   "time_ist": "18:30",
+   "format": "carousel",
+   "slides": 7,
+   "title": "The thread decides the metal.",
+   "series": "FITTING NOTES N° 01",
+   "tone": "loud",
+   "product_handles": [
+    "kiss-knot-bangle",
+    "prism-riviere-bracelet",
+    "heartbead-bracelet",
+    "duo-link-necklace"
+   ],
+   "prices_and_stock": "roster.json 25 Oct: Kiss Knot Bangle Rs1,199 (Gold 20, Silver 20; Edition Two; 0 sold in 120d); Prism Rivière Bracelet Rs2,399 (67; #1 by revenue, 14 sold 120d); Heartbead Bracelet Rs1,299 (25; 11 sold); Duo Link Necklace Rs1,299 (18). Prices appear only on slide 6. Re-read Shopify on posting day.",
+   "concept": "The opener states the house's first rule: before a couture house picks jewellery, it looks at the thread. Gold zari takes gold tone, silver thread takes rhodium, both in one border (Ganga-Jamuni) takes two-tone, and no zari at all lets the stones pick their colour from the fabric. The proof is the same Edition Two bangle in both metals, each pinned to a real Naira Flore couture swatch. It is useful on day one and introduces the book, the label and the pins.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "COVER 1080x1440. Ground C-PAPER-RULED (#FBF3EC, rules #C8D8D4 every 56px from y168, double blush margin #F2CFC4 at x120/x126, grain .18). FOLIO x72 y64 Jost 500 22px tracking .32em #6B625B. HEADLINE Velista 116px #1A1614, lh .94, left x72, top y118, 3 lines, widest line ~720px so nothing passes x880 above y202. SWATCH A (C-PINKED) 410x470 at x88,y520 rotated -4deg: photo crop of assets/local/site__src_assets_lookbook/look-5.webp box (440,880,820,1300) (marigold georgette with gold zari sprigs, Naira Flore couture), scaled to fill. SWATCH B (C-PINKED) 410x470 at x572,y500 rotated +3deg: crop of assets/local/site__public/hero_2.webp box (1920,2010,2370,2490) (lilac silk with silver sequin and ivory thread chevrons; no skin, no flower in frame: nudge the box inside the jacket if needed). PINS: blush-head C-PIN, head at x120,y545, shaft running down-right through swatch A's corner; sage-head C-PIN, head at x958,y522, through swatch B's top-right corner. CUT-OUT 1: cutouts/kiss-knot-bangle/00-trim.png (Gold) width 360, centre x300,y905, rotated -7deg, .cut, overlapping swatch A's lower edge onto the paper; gold-head C-PIN through its left coil (head x150,y930). CUT-OUT 2: cutouts/kiss-knot-bangle/01-trim.png (Silver) width 360, centre x775,y895, rotated +5deg; blush-head C-PIN at x930,y905. NOTES Kalam 400 40px #3D3530: N1 at x96,y1080 rotated -2deg with a pencil arrow curving up from (300,1075) to (300,990); N2 at x560,y1072 rotated +1.5deg, arrow up to the silver bangle. ASIDE Cormorant Garamond italic 46px #3D3530, right-aligned to x1008, baseline y1200. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page one.' top y1300.",
+     "copy": "FITTING NOTES   N° 01 | THE THREAD / DECIDES / THE METAL. | gold thread, gold tone. | silver thread, rhodium. | the same bangle, twice. | [label: NAIRA wordmark] | THE FITTING BOOK | page one."
+    },
+    {
+     "slide": 2,
+     "layout": "Top y0-820: full-bleed photo crop of assets/local/site__src_assets_lookbook/look-5.webp box (380,820,900,1240) scaled to 1080 wide (marigold georgette, gold sprigs), bottom edge pinked (zigzag 16/8) onto C-PAPER-RULED below (y820-1440). CUT-OUT cutouts/kiss-knot-bangle/00-trim.png width 560, centre x540,y800, straddling the pinked edge, .cut; gold-head C-PIN through the left coil. HEADLINE Velista 96px #1A1614 x72 top y980. ASIDE Cormorant italic 52px #3D3530 x72 top y1092. NOTE Kalam 38px #3D3530 2 lines at x600,y990 rotated +2deg, arrow to the bangle's X. SPEC Jost 400 26px #6B625B x72 top y1196, line 2 top y1232. CREDIT Jost 400 18px #6B625B x72 baseline y1356. COUNTER '2 / 7' bottom-right. No folio on the photo.",
+     "copy": "GOLD THREAD, | gold tone. | zari, dabka, gota: / wear the gold. | Kiss Knot Bangle · 18k gold tone plated | Also in gold tone: Silk Mesh Cuff, North Star Bangle, Petal Flower Studs. | Swatch: Naira Flore couture | 2 / 7"
+    },
+    {
+     "slide": 3,
+     "layout": "Same template as slide 2. Top photo: crop of assets/local/site__src_assets_lookbook/look-1.webp box (150,700,800,1193) (navy silk with silver and ivory thread florals; no dupatta, no skin) scaled to 1080 wide, y0-820. CUT-OUT 1 cutouts/kiss-knot-bangle/01-trim.png width 500 centre x360,y800 rotated -4deg; CUT-OUT 2 Prism Rivière (new cut-out CO-01) width 430 centre x770,y860 rotated -8deg; sage-head pins on both. HEADLINE Velista 96px x72 y980; ASIDE Cormorant 52px y1092; NOTE Kalam 38px 2 lines at x600,y1000 rotated -1.5deg with an arrow to the Prism; SPEC Jost 26px y1196 and y1232; CREDIT 18px y1356; COUNTER '3 / 7'.",
+     "copy": "SILVER THREAD, | rhodium. | mukaish, sequins, / ivory on ivory: go cool. | Kiss Knot Bangle, silver tone · rhodium plated | Prism Rivière Bracelet · rhodium plated | Swatch: Naira Flore couture | 3 / 7"
+    },
+    {
+     "slide": 4,
+     "layout": "Ground C-PAPER-RULED full. THREAD CARD (SVG, new asset SVG-THREADCARD) 520x360 at x90,y360 rotated -3deg: card #F6EFE6 with 40px V-notches at both short ends; left half wound with gold thread (diagonal 3px stripes alternating #E7C27A and #C99A4C), right half with silver thread (stripes #E4E1DC and #A8A39D); a loose end leaves each half and the two strands twist together (two intertwined 3px paths) running right to the cut-out. CUT-OUT Heartbead Bracelet (new cut-out CO-07 from assets/shopify/heartbead-bracelet/03.png) width 460 at x560-1020, y430-900, rotated +4deg; gold-head C-PIN through the toggle. HEADLINE Velista 104px #1A1614 x72 top y980. ASIDE Cormorant italic 52px y1100. NOTE Kalam 38px 2 lines at x600,y1010 rotated +2deg, arrow to the heart. SPEC Jost 26px #6B625B y1196 and y1232. COUNTER '4 / 7'.",
+     "copy": "GANGA-JAMUNI, | two-tone. | gold and silver / in one border? both. | Heartbead Bracelet · rhodium beads, gold tone heart | Duo Link Necklace · gold tone and rhodium links | 4 / 7"
+    },
+    {
+     "slide": 5,
+     "layout": "Ground C-PAPER-RULED. SWATCH (C-PINKED) 460x460 at x80,y300 rotated -3deg: crop of assets/local/site__src_assets/testimonials-bl-lehenga.webp box (480,880,880,1240) (printed patchwork: yellow, coral pink and aqua panels; Naira Flore couture); blush-head pin top-left. CUT-OUT Prism Rivière (CO-01) width 520 at x470-990, y560-860, rotated -8deg; sage-head pin through the clasp. Three Kalam 34px labels with pencil arrows, each arrow starting on a matching colour in the swatch and ending on the matching stone: 'yellow' (x560,y500), 'pink' (x700,y960), 'aqua' (x880,y500). HEADLINE Velista 96px x72 top y1000. ASIDE Cormorant italic 50px y1110. SPEC Jost 26px #6B625B y1206. CREDIT 18px y1356. COUNTER '5 / 7'.",
+     "copy": "yellow | pink | aqua | NO ZARI? | let the stones pick from the print. | Prism Rivière Bracelet · rhodium plated · adjusts 15 to 19 cm | Swatch: Naira Flore couture | 5 / 7"
+    },
+    {
+     "slide": 6,
+     "layout": "INDEX. Ground C-PAPER-RULED. TITLE Velista 84px #1A1614 x72 top y110; ASIDE Cormorant italic 44px #3D3530 top y200. Four rows, each 220px tall starting y300: left a cut-out 200px wide pinned with a gold-head pin (row 1 kiss-knot 00 and 01 overlapped; row 2 CO-01 Prism; row 3 CO-07 Heartbead; row 4 a 200x200 square photo crop of assets/shopify/duo-link-necklace/01.jpg centre, framed by a 1px #C99A4C hairline, since no cut-out exists); text from x300: name Jost 500 30px caps tracking .12em #1A1614; spec Jost 400 24px #6B625B below it; price Jost 400 32px #1A1614 right-aligned to x1008 on the name's baseline. FOOTER Jost 400 24px #6B625B x72 top y1250. COUNTER '6 / 7'.",
+     "copy": "THE PIECES | from page one. | KISS KNOT BANGLE | gold tone or silver tone · flexible, slips over the hand | ₹1,199 | PRISM RIVIÈRE BRACELET | rhodium plated · adjusts 15 to 19 cm | ₹2,399 | HEARTBEAD BRACELET | rhodium beads, gold tone heart and toggle | ₹1,299 | DUO LINK NECKLACE | gold tone and rhodium links · about 45 cm | ₹1,299 | Every piece arrives in the Naira box. nairaflore.com | 6 / 7"
+    },
+    {
+     "slide": 7,
+     "layout": "THE HOUSE PAGE. Ground C-PAPER-PATTERN (#FBF5F0). A strip of five C-PINKED swatches, each 170x170, top y150, at x72, x262, x452, x642, x832, rotations -3, +2, -1, +3, -2 deg, each with its own pin (alternate blush, sage, gold heads): SW-MARIGOLD assets/local/site__src_assets_lookbook/look-5.webp (430,900,830,1300); SW-LILAC assets/local/site__public/hero_2.webp (1920,2010,2370,2490); SW-NAVY assets/local/site__src_assets_lookbook/look-1.webp (140,780,540,1180); SW-TREE assets/local/site__src_assets/about-uniquely-yours.webp (300,560,860,1120); SW-ROSE assets/local/site__src_assets/testimonials-tr-fusion.webp (505,540,665,700). HEADLINE Velista 92px #1A1614 centred, 2 lines, top y420. ASIDE Cormorant italic 46px #3D3530 centred top y640, max width 860. BODY Jost 400 26px #6B625B centred, 2 lines, top y800. PRESSED SPRIG: one blush-flowered stem cropped from kit/motifs/botanical/leaf-sprig-2.png, 240px tall, opacity .9, at x800,y960, held by a glassine strip. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page one.' top y1300.",
+     "copy": "FROM THE HOUSE / THAT SEWS. | twelve pages of fitting notes, for the festive and wedding season. | Swatches: Naira Flore couture, made to measure in Nashik. | Jewellery: Naira Petite, 18K gold tone & rhodium plated. | THE FITTING BOOK | page one."
+    }
+   ],
+   "caption": "Before a couture house picks the jewellery, it looks at the thread.\n\nGold thread, gold tone. Silver thread, rhodium. Gold and silver in one border, two-tone. No zari at all, and the stones pick their colour from the print.\n\nPage one of the Fitting Book: twelve pages of notes from our Nashik studio for the festive and wedding season. Save it for your next fitting.\n\n[ kiss knot bangle · 18k gold tone or rhodium plated · same bangle, two threads ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "Swatches: Naira Flore couture, made to measure in Nashik.\n#NairaFlore #NairaPetite #DemiFineJewellery #FestiveJewellery #WeddingGuestStyle",
+   "alt_text": "A page from a notebook on ivory ruled paper. Two fabric swatches with pinked edges are pinned side by side: marigold silk with gold embroidery on the left, lilac silk with silver sequins on the right. Below each lies the same flexible bangle with a crossed X at the front, gold tone on the marigold and silver tone on the lilac. The headline reads The thread decides the metal.",
+   "why": "First post after 76 days of silence (data-meta s5), so it has to establish the world, the label and the useful voice at once. Edition Two (16 Oct) gave the account its best week ever (34 purchases in 6 days) and its story is metal choice: 12 pieces come in both metals; Kiss Knot Bangle has 40 in stock and 0 sales, the kind of piece content moves. Couture is 130 of 140 posts and the couture era's biggest posts were process, so a couture rule is the most Naira way in. Guides are saved and sent (Mosseri: sends are a top signal). Prism Rivière, the #1 piece by revenue, appears where it earns it (slide 5). Tuesday 18:30 sits beside the 18:00 order peak (data-shopify).",
+   "claims_check": "Kiss Knot Bangle tags: 18k Gold Tone Plated + Rhodium Silver Tone Plated, so 'gold tone' / 'silver tone · rhodium plated' are correct; 'flexible, slips over the hand' is the listing's Fit line. Prism: Rhodium Plated; 'adjusts 15 to 19 cm' = listing. Heartbead: Rhodium Plated + Two Tone; listing: rhodium beads, 18k gold tone clasp and charm. Duo Link Necklace: Two Tone; about 45 cm = listing. 'Gold thread' and 'silver thread' describe fabric, never the jewellery metal; the jewellery is never called gold or silver. No waterproof, tarnish or hypoallergenic claim is made anywhere (tags exist, but not needed). Swatches are crops of real Naira Flore couture photos from the site; the copy says the couture is made to measure in Nashik (true per brand bible s1) and says nothing about where the jewellery is made. No price, code or percentage on the cover; prices only on slide 6."
+  },
+  {
+   "p": 2,
+   "grid_pos": "r4c2 (P2)",
+   "date": "Thu 29 Oct 2026 (Karwa Chauth)",
+   "time_ist": "12:30",
+   "format": "static",
+   "slides": 1,
+   "title": "Chalni, for the wrist.",
+   "series": "WORKTABLE N° 01 · the hoop",
+   "tone": "mid",
+   "product_handles": [
+    "silk-mesh-cuff"
+   ],
+   "prices_and_stock": "Silk Mesh Cuff, Gold variant: Rs1,499 (Gold 20, Silver 20, total 40; Edition Two; 0 sold in 120d). Price in caption only by link; none on the image.",
+   "concept": "Karwa Chauth evening, said with one object and no date: the moon seen through a sieve. In the studio the round thing with a net stretched across it is the embroidery hoop, so the hoop becomes the chalni and the moon, and inside it sits the Silk Mesh Cuff, a tube of fine woven mesh. 'Chalni, for the wrist.' follows the owner's best-loved pattern (Choodi, for your ears.) and works for Hindi (chhalni) and Marathi (chaalni) readers alike. The fitting note is real: push a full sleeve to the elbow, a cuff wants a bare wrist.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "1080x1440. Ground LAC oxblood #42060E full bleed (the exact LAC/BONE tile colour), plus a radial lift rgba(246,239,230,.06) centred at x540,y790 radius 520, grain .12. FOLIO x72 y64 Jost 500 22px tracking .32em #E9D9C6. HEADLINE Velista 112px #F6EFE6, x72, line 1 top y112, line 2 top y222 (line 2 ~860px wide, starts below y202). EMBROIDERY HOOP (new asset SVG-HOOP): outer ring circle centre x540,y790 r345 stroke #E7C27A 6px; inner ring r330 stroke #C99A4C 4px; brass screw clamp at the top of the outer ring = two 34x46 rects either side of x540 at y430-476 outlined #E7C27A 3px with a 9px-radius screw circle. Inside r330: moon glow = radial gradient rgba(246,239,230,.22) at centre to rgba(246,239,230,.04) at the rim; stretched net = two sets of 1px #E7C27A lines at 22% opacity, 13px apart, at +45 and -45 deg, clipped to the inner circle. CUT-OUT cutouts/silk-mesh-cuff/00-trim.png (Gold) width 520, centre x540,y815, rotated -10deg, drop-shadow 0 16px 24px rgba(0,0,0,.45). ASIDE Cormorant Garamond italic 48px #F2CFC4, centred on x540, baseline y1205. NOTE Kalam 38px #F6EFE6 at x760,y1288 rotated -3deg (right of the lockup, max width 248px, 2 lines). C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#F6EFE6' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#F2CFC4' 'page two.' top y1300.",
+     "copy": "WORKTABLE   N° 01 | CHALNI, / FOR THE WRIST. | fine woven mesh, for the night you look up. | push the / sleeve up. | [label: NAIRA wordmark] | THE FITTING BOOK | page two."
+    }
+   ],
+   "caption": "Tonight a lot of us will look up at the moon through a chalni.\n\nThis one stays on after. The Silk Mesh Cuff is a rounded tube of fine woven mesh with two mirror-polished caps facing each other across the opening, so it slips on at the narrow of the wrist.\n\nFitting note: if the blouse has full sleeves, push one to the elbow. A cuff wants a bare wrist.\n\n[ silk mesh cuff · 18k gold tone plated · moonrise, give or take ]\n\nAlso in silver tone. Free insured shipping. COD available.",
+   "first_comment": "#NairaFlore #NairaPetite #KarwaChauth #DemiFineJewellery #GoldCuff",
+   "alt_text": "On a deep oxblood ground, a gold line drawing of an embroidery hoop with fine net stretched across it glows like a full moon. Inside the hoop lies an open gold-tone cuff made of fine woven mesh with two polished end caps. The headline reads Chalni, for the wrist.",
+   "why": "Posted on the day (Karwa Chauth, Thu 29 Oct) at the 12:00 order peak, before the evening puja; no date printed (sources split 28/29). The object-rhyme pattern built the account's best ad (Ruby 'Anaar, pre-peeled.', ROAS 4.52, Rs335 per purchase) and concept statics beat plain 1.44x to 0.57x. Silk Mesh Cuff: 40 in stock, 0 sold; Edition Two launch is the season. Night grounds are an owner favourite and #42060E continues LAC directly below this tile.",
+   "claims_check": "Silk Mesh Cuff tags: 18k Gold Tone Plated (Gold variant), Rhodium Silver Tone Plated (Silver); copy says '18k gold tone plated' and 'also in silver tone'. Construction words are the listing's ('rounded tube of fine woven mesh', 'two mirror polished oval caps facing each other', open cuff). No mm on the image: the listing says about 15mm wide but an approved ad said 19mm, so the number stays out until checked. No Karwa Chauth date, no husband or fasting framing, no gold-content claim, no waterproof claim."
+  },
+  {
+   "p": 3,
+   "grid_pos": "r4c1 (P3)",
+   "date": "Sun 1 Nov 2026",
+   "time_ist": "12:00",
+   "format": "carousel",
+   "slides": 8,
+   "title": "First the neckline.",
+   "series": "PATTERN NOTES N° 01 · the neckline",
+   "tone": "quiet",
+   "product_handles": [
+    "baguette-tennis-necklace",
+    "serpentine-whisper-chain-silver",
+    "marquise-layering-set",
+    "toggle-link-chain",
+    "mint-pear-drop-earrings",
+    "bold-nocturne-chain"
+   ],
+   "prices_and_stock": "Baguette Tennis Necklace Rs2,300 (Crystal 30, Ruby 20, Emerald 20; 0 sold); Serpentine Whisper Chain (silver tone) Rs1,299 (23); Marquise Layering Set Rs1,599 (40); Toggle Link Chain Rs1,299 (79, deepest stock in the store); Mint Pear Drop Earrings Rs1,199 (20); Bold Nocturne Chain Rs1,799 (53). Prices on slide 8 only.",
+   "concept": "A couture fitting starts at the neckline, so the necklace should too. Six necklines drawn as pen croquis on pattern paper, each with the chain length that suits it, proved by a real worn photo pinned beside the drawing: boat neck 36 cm, sweetheart one stone at 40, V-neck follow the V, collar or placket go past it at 50, embroidered high neck skip the necklace and do the ear, plain crew one bold chain. It turns the PDP's own size guide (36/40/45/50 cm) into the most saveable post in the set, a week before Diwali.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "COVER. Ground C-PAPER-PATTERN. FOLIO x72 y64 #6B625B. HEADLINE Velista 124px #1A1614 x72 top y112, 2 lines (to ~y345). ASIDE Cormorant italic 52px #3D3530 x72 top y372. CROQUIS (SVG-TORSO) sage-deep #4F7268 3px, coordinates on the 1080x1440 canvas: neck left M482 470 C478 550 476 610 470 670; neck right M598 470 C602 550 604 610 610 670; left shoulder M470 670 C420 698 330 720 262 742 C214 758 196 800 194 870 L192 1200; right shoulder mirrored about x540; collarbones 1.5px M360 730 C420 720 470 730 520 742 and mirror. BOAT NECKLINE blush chalk #F5A58F 4px dashed from (300,735) via (540,768) to (780,735); garment below it filled #F2CFC4 at 55%. FOUR LENGTH ARCS gold #C99A4C at 35% opacity 3px: 36 M470 670 C480 730 600 730 610 670; 40 M462 678 C470 790 610 790 618 678; 45 M452 686 C455 890 625 890 628 686; 50 M444 694 C440 990 640 990 636 694; the 36 arc redrawn solid 4px at 100%. Labels Jost 500 24px #80612A at x905: '36' y720, '40' y790, '45' y890, '50' y990, each with a dotted leader. CUT-OUT cutouts/baguette-tennis-necklace/00-trim.png (Crystal) width 240 at x770,y980 rotated +8deg, blush-head pin. NOTE Kalam 38px #3D3530 at x640,y560 rotated -2deg, arrow to the solid 36 arc. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page three.' top y1300.",
+     "copy": "PATTERN NOTES   N° 01 | FIRST THE / NECKLINE. | then the necklace. | 36 | 40 | 45 | 50 | boat neck: 36 cm, at the base. | [label: NAIRA wordmark] | THE FITTING BOOK | page three."
+    },
+    {
+     "slide": 2,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, headline, rule, croquis box, arc, photo card, note, name, spec, counter positions and styles). SLIDE: boat neckline as on the cover; arc 36 solid, label '36 CM'. PHOTO CARD crop of assets/shopify/baguette-tennis-necklace/04.jpg box (150,320,1050,1430). Below the photo, three small cut-outs fanned and pinned, each 150px wide: cutouts/baguette-tennis-necklace/01-trim.png, 00-trim.png, 02-trim.png at x700-1010, y880-1060. COUNTER '2 / 8'.",
+     "copy": "BOAT NECK. | go short. 36 cm, at the base of the neck. | 36 CM | also off-shoulder, strapless. | BAGUETTE TENNIS NECKLACE | 36 cm · ruby, crystal or emerald cubic zirconia · 18k gold tone plated | 2 / 8"
+    },
+    {
+     "slide": 3,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, headline, rule, croquis box, arc, photo card, note, name, spec, counter positions and styles). SLIDE: sweetheart neckline = two scallops M300 760 C360 700 470 720 540 830 C610 720 720 700 780 760; arc 40 solid with a 10px gold circle at its lowest point (the stone); label '40 CM'. PHOTO CARD crop of assets/shopify/serpentine-whisper-chain-silver/01.png box (100,420,1100,1200), crop below the lips. COUNTER '3 / 8'.",
+     "copy": "SWEETHEART. | one stone, in the open space. | 40 CM | also square necks. | SERPENTINE WHISPER CHAIN | 40 cm + 5 cm extender · 10 mm cushion cubic zirconia · rhodium plated, silver tone | 3 / 8"
+    },
+    {
+     "slide": 4,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, headline, rule, croquis box, arc, photo card, note, name, spec, counter positions and styles). SLIDE: deep V neckline from (300,735) and (780,735) to a point at (540,960); arc 40 solid; a Y-lariat line from the 40 arc's lowest point straight down to y930 with three 8px marquise shapes on it; labels '40 CM' and 'Y'. PHOTO CARD crop of assets/shopify/marquise-layering-set/02.jpg box (150,0,1050,1110). COUNTER '4 / 8'.",
+     "copy": "V-NECK. | follow the V down. | 40 CM | Y | stop just above the point. | MARQUISE LAYERING SET | 40 cm marquise solitaire + Y-lariat · 18k gold tone plated | 4 / 8"
+    },
+    {
+     "slide": 5,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, headline, rule, croquis box, arc, photo card, note, name, spec, counter positions and styles). SLIDE: a standing band collar 36px tall around the neck base (outline #4F7268, fill #F2CFC4 55%) with a centre placket line down to y900 and five 5px ivory buttons; arc 50 solid passing below the collar; label '50 CM'. PHOTO CARD crop of assets/shopify/toggle-link-chain/02.jpg box (60,150,836,896) (crop below the lips). COUNTER '5 / 8'.",
+     "copy": "COLLAR. | kurta or shirt: go past it. 50 cm. | 50 CM | longer than the placket opening. | TOGGLE LINK CHAIN | 50 cm · 4 mm links · 18k gold tone plated | 5 / 8"
+    },
+    {
+     "slide": 6,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, headline, rule, croquis box, arc, photo card, note, name, spec, counter positions and styles). SLIDE: high round neckline hugging the neck base, its edge decorated with a row of 6px blush and gold dots (embroidery); the 45 arc drawn dashed at 40% with a blush chalk X across it; a 6px blush ear marker at (470,500) beside the neck. PHOTO CARD crop of assets/shopify/mint-pear-drop-earrings/03.jpg box (560,150,1140,870) (ear, earring and jaw only; no eye, nose or lips). COUNTER '6 / 8'.",
+     "copy": "EMBROIDERED NECK. | skip it. the blouse is the necklace. | do the ear instead. | MINT PEAR DROP EARRINGS | 22 mm · mint and clear pear cubic zirconia · 18k gold tone plated | 6 / 8"
+    },
+    {
+     "slide": 7,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, headline, rule, croquis box, arc, photo card, note, name, spec, counter positions and styles). SLIDE: plain round crew neckline, no decoration; instead of a thin arc, draw a chain of six open paperclip links (gold #C99A4C 4px outlines, 34x16 each) following the 45 arc, label 'ONE CHAIN'. PHOTO CARD crop of assets/shopify/bold-nocturne-chain/04.png box (100,330,1100,1490) (below the lips). COUNTER '7 / 8'.",
+     "copy": "PLAIN CREW. | one bold chain. nothing else. | ONE CHAIN | co-ords, plain kurtas, a black top. | BOLD NOCTURNE CHAIN | paperclip links, one pavé link · 18k gold tone plated | 7 / 8"
+    },
+    {
+     "slide": 8,
+     "layout": "INDEX. Ground C-PAPER-PATTERN. TITLE Velista 84px #1A1614 x72 top y104; ASIDE Cormorant italic 44px top y196. Left: the cover torso at 50% scale in the box x72-480, y300-900 with all four arcs solid gold and labels. Right column x520-1008: six rows from y300, 140px apart: length Jost 500 26px #80612A, neckline Jost 400 24px #6B625B, piece Jost 500 24px caps #1A1614, price Jost 400 30px right-aligned to x1008. FOOTER Jost 400 22px #6B625B x72 top y1300. COUNTER '8 / 8'.",
+     "copy": "THE LENGTHS. | save it for the next blouse fitting. | 36 CM | boat neck | BAGUETTE TENNIS NECKLACE | ₹2,300 | 40 CM | sweetheart | SERPENTINE WHISPER CHAIN, SILVER TONE | ₹1,299 | 40 CM + Y | V-neck | MARQUISE LAYERING SET | ₹1,599 | 50 CM | collar | TOGGLE LINK CHAIN | ₹1,299 | THE EAR | embroidered neck | MINT PEAR DROP EARRINGS | ₹1,199 | ONE CHAIN | plain crew | BOLD NOCTURNE CHAIN | ₹1,799 | Lengths are approximate, give or take 1 cm. | 8 / 8"
+    }
+   ],
+   "caption": "At a fitting we start at the neckline. The necklace comes after.\n\nBoat neck, go short: 36 cm at the base of the neck. Sweetheart, one stone in the open space. V-neck, follow the V. Collar or kurta placket, go past it at 50 cm. Embroidered neck, skip the necklace and do the ear. Plain crew, one bold chain.\n\nPage three of the Fitting Book. Save it for the next blouse fitting.\n\n[ six necklines · 18k gold tone and rhodium plated · measured, not guessed ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "#NairaFlore #NairaPetite #NecklineGuide #DemiFineJewellery #FestiveStyling",
+   "alt_text": "A pen sketch of a neck and shoulders on pale pattern paper, with a boat neckline marked in pink chalk and four gold arcs showing necklace lengths of 36, 40, 45 and 50 centimetres. A crystal baguette tennis necklace is pinned beside it. The headline reads First the neckline, then the necklace.",
+   "why": "Necklaces are the under-sold category (28 of 207 units in 120 days vs bracelets 68) and the Baguette Tennis Necklace has 70 in stock and 0 sales; Toggle Link Chain is the deepest stock in the store (79). The PDP already carries a 36/40/45/50 cm size guide, so the facts are verified. Sunday is 27% of orders and 12:00 is a peak; one week before Diwali with 3-5 day delivery means orders land in time. A pure guide is the quiet tile row 4 needs, over LAC.",
+   "claims_check": "Lengths: Baguette Tennis Necklace 36 cm (PDP size guide image); Serpentine Whisper Chain Silver 40 cm + 5 cm, 10 mm cushion stone, tag Rhodium Silver Tone Plated; Marquise Layering Set 40 cm solitaire + Y-lariat (listing); Toggle Link Chain 50 cm, 4 mm (listing). The toggle clasp is NOT described: the brand bible says the shipped piece has a spring ring and pavé gate, which conflicts with the listing. Mint Pear 22 mm, gold tone (listing). Bold Nocturne Chain: no length stated because none is listed. All worn photos are the pieces' own Shopify images (on-model plates, cropped below the lips). No waterproof or other tag claims. 'Lengths are approximate, give or take 1 cm' is the size guide's own line."
+  },
+  {
+   "p": 4,
+   "grid_pos": "r3c3 (P4)",
+   "date": "Tue 3 Nov 2026",
+   "time_ist": "18:30",
+   "format": "reel",
+   "slides": 7,
+   "title": "Measurements: not needed.",
+   "series": "THE STUDIO N° 01 · the order book",
+   "tone": "mid",
+   "product_handles": [
+    "brushed-gold-huggies",
+    "ribbon-bead-bracelet",
+    "baguette-huggies"
+   ],
+   "prices_and_stock": "Brushed Gold Huggies Rs999 (35; 8 sold); Ribbon Bead Bracelet Rs799 (34); Baguette Huggies, Amethyst Rs1,199 (Amethyst 15 of 57). All three = Rs2,997 before BUY3. No price on screen.",
+   "concept": "Every couture order starts in the order book with a measurement. Three Diwali gift orders are written on the studio's pink order slips, and on each one the measurements line says 'not needed': earrings have no size and the bracelet adjusts. For Ma at the Lakshmi puja, for Didi on Bhai Dooj, for the friend who always hosts the card party. The slips tear off, stack, and tuck under the blush Naira box. It is the house's unboxing moment told in its own stationery, three weeks of gifting in one reel.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "REEL COVER 1080x1920 (grid shows y240-1680). Ground sage #99B4AF, grain .14. FOLIO x72 y304 Jost 500 22px #1A1614. HEADLINE Velista 100px #1A1614 x72 top y352, 2 lines (line 1 ~790px wide so it ends before x907 above y442). ASIDE Cormorant italic 46px #1A1614 x72 top y572. ORDER SLIP (new asset SVG-ORDERSLIP) 640x820 at x150,y660 rotated -3deg: paper #FBEDE9; perforated top edge = a row of 6px circles every 16px cut out of the slip; header row Jost 500 24px tracking .30em #4F7268 'ORDER' left and 'N° 0417' right; five ruled fields (1.5px #C8D8D4 lines, 120px apart) with labels Jost 500 18px caps #4F7268 at the left of each line; handwritten entries Kalam 400 40px #3D3530 on the lines. CUT-OUT Ribbon Bead Bracelet (new CO-08) width 300 lying across the slip's lower half at x260,y1250, blush-head pin. BOX: Naira box cut-out (new CO-15) width 420 at x620,y1150 rotated +6deg, .cut. C-LOCKUP at y1584 instead of y1252 (label x72,y1584; text x396, tops y1600 and y1632): 'THE FITTING BOOK' / 'page four.'",
+     "copy": "THE STUDIO   N° 01 | MEASUREMENTS: / NOT NEEDED. | three Diwali orders, no fitting. | ORDER | N° 0417 | NAME Didi | OCCASION Bhai Dooj | MEASUREMENTS not needed. it adjusts 16 to 19 cm. | ALTERATIONS none. | PIECE Ribbon Bead Bracelet | [label: NAIRA wordmark] | THE FITTING BOOK | page four."
+    },
+    {
+     "slide": 2,
+     "layout": "BEAT 0.0-0.6s. Sage ground. A stack of three blank order slips slides up from y+700 into place at x150,y600 (ease-out cubic-bezier(.22,1,.36,1)). Folio visible. Foley: paper slide.",
+     "copy": "THE STUDIO   N° 01 | ORDER | N° 0417"
+    },
+    {
+     "slide": 3,
+     "layout": "BEAT 0.6-3.2s. Slip 1 writes itself field by field: each Kalam entry revealed by a left-to-right clip wipe 0.35s, 80ms stagger, pen-scratch foley synced. At 2.4s cutouts/brushed-gold-huggies/00-trim.png (width 300) drops onto the slip (opacity 0 to 1, scale .95 to 1, 0.35s) and a gold-head pin slides in (0.2s, click). 3.2-3.8s: slip 1 tears along the perforation and leaves left (rotate -8deg, translateX -1200px, 0.5s ease-in-out).",
+     "copy": "NAME Ma | OCCASION Lakshmi puja | MEASUREMENTS not needed. | ALTERATIONS none. | PIECE Brushed Gold Huggies"
+    },
+    {
+     "slide": 4,
+     "layout": "BEAT 3.8-6.6s. Slip 2 writes on the same way; at 5.8s the Ribbon Bead Bracelet cut-out (CO-08, width 320) drops in with a blush pin. 6.6-7.2s tear and exit left.",
+     "copy": "NAME Didi | OCCASION Bhai Dooj | MEASUREMENTS not needed. it adjusts 16 to 19 cm. | ALTERATIONS none. | PIECE Ribbon Bead Bracelet"
+    },
+    {
+     "slide": 5,
+     "layout": "BEAT 7.2-10.0s. Slip 3 writes on; at 9.2s cutouts/baguette-huggies/03-trim.png (Amethyst, width 300) drops in with a sage pin.",
+     "copy": "NAME the friend who always hosts | OCCASION the card party | MEASUREMENTS not needed. | ALTERATIONS none. | PIECE Baguette Huggies, Amethyst"
+    },
+    {
+     "slide": 6,
+     "layout": "BEAT 10.0-12.5s. The three torn slips fan back in, stacked with -6, +2, +7 deg rotations; the Naira box cut-out (CO-15) rises from y+400 to its cover position (0.6s ease-out); the slips tuck under it; a sage ribbon (SVG stroke 10px #4F7268) draws round the stack (stroke-dashoffset, 0.8s). Foley: box drawer.",
+     "copy": "(no new words)"
+    },
+    {
+     "slide": 7,
+     "layout": "BEAT 12.5-16.0s END CARD. The cover composition settles; headline fades up 0.4s; the cover aside is replaced by Cormorant italic 46px #1A1614 'every piece arrives in the Naira box.'; lockup holds 2.5s. AUDIO for the whole reel: foley only (paper, pen, tear, pin, drawer) at about -16 LUFS, optionally a soft instrumental from Meta's Sound Collection under it at about -24 LUFS; no lyrics, no trending audio. Keep in-video text inside x60-1020, y270-1250 (reel UI); the cover is uploaded separately.",
+     "copy": "MEASUREMENTS: / NOT NEEDED. | every piece arrives in the Naira box. | THE FITTING BOOK | page four."
+    }
+   ],
+   "caption": "Three Diwali orders. Not one of them needed a measurement.\n\nFor Ma, the Brushed Gold Huggies: 12 mm, satin, no size to guess. For Didi on Bhai Dooj, the Ribbon Bead Bracelet, which adjusts from 16 to 19 cm. For the friend who hosts the card party every year, Baguette Huggies in Amethyst.\n\nEvery piece arrives in the Naira box. Free insured shipping and cash on delivery across India.\n\n[ three gifts · 18k gold tone plated · alterations: none ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "#NairaFlore #NairaPetite #DiwaliGifting #BhaiDooj #DemiFineJewellery",
+   "alt_text": "Reel cover on a sage green ground: a pale pink tailor's order slip, handwritten for Didi for Bhai Dooj with measurements marked not needed, a fine gold bracelet with a small crystal bow pinned to it, and a blush Naira gift box beside it. The headline reads Measurements: not needed.",
+   "why": "Unboxing and packaging are the account's biggest topic ever ('The Naira Experience' unboxing, 3,410 likes). Gifting peaks now to 11 Nov; posted 3 Nov, 3-5 working day delivery reaches Diwali and Bhai Dooj. 69% of orders are one piece, so three named gifts make the BUY3 case without art-side offers. Men 18-24 convert at ROAS 2.21 (gifting signal). Reels bought reach, not baskets (10% of purchases on 72% of impressions), so the gift reel is the week's reach piece. Amethyst answers the owner's love of purple.",
+   "claims_check": "Brushed Gold Huggies 12 mm, brushed satin, no stones, 18k Gold Tone Plated (listing). Ribbon Bead Bracelet adjusts 16-19 cm, 18k Gold Tone Plated (listing). Baguette Huggies Amethyst variant in stock (15), 18k Gold Tone Plated; 'amethyst' is the variant's colour name, not a gemstone claim (caption says 'in Amethyst'). 'Every piece arrives in the Naira box' = SAFE (brand bible). 'Cash on delivery across India' = approved offer line; no 'free COD'. Not duplicating the paid Bhai Dooj line ('NOT AN ENVELOPE THIS YEAR'). No delivery dates on screen."
+  },
+  {
+   "p": 5,
+   "grid_pos": "r3c2 (P5)",
+   "date": "Thu 5 Nov 2026",
+   "time_ist": "19:00",
+   "format": "carousel",
+   "slides": 5,
+   "title": "Same kurta. Two evenings.",
+   "series": "FITTING NOTES N° 02",
+   "tone": "loud",
+   "product_handles": [
+    "petal-flower-studs",
+    "bold-nocturne-drops",
+    "baguette-tennis-bracelet"
+   ],
+   "prices_and_stock": "Petal Flower Studs, Gold Rs999 (Gold 10, Silver 10); Bold Nocturne Drops Rs1,299 (19); Baguette Tennis Bracelet, Ruby Rs1,699 (Ruby 12, Crystal 29, Emerald 16). If Ruby is below 5 on posting day, change the caption and slide 4 to Crystal. Prices on slide 5 only.",
+   "concept": "Diwali week is one outfit worn to two evenings. The kurta (drawn on a hanger, filled with real Naira Flore marigold georgette with gold sprigs) hangs between two garment tags: 7 PM, the puja, small studs close to the lobe; 10 PM, the card party, a longer pavé drop. The Ruby baguette bracelet hangs on the hanger hook because it never comes off. The kurta has gold thread, so everything is gold tone, as page one said.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "COVER. Ground: vertical shirting stripes, 22px #F2CFC4 alternating with 22px #FBEDE9, grain .16. FOLIO x72 y64 #6B625B. HEADLINE Velista 112px #1A1614 x72, line 1 top y112, line 2 top y222 (~860px, below y202). HANGER (SVG-HANGER): hook #B0843A 5px from (540,330) curling to (540,440); bar from (330,450) to (750,450), 14px thick, fill #C99A4C 85% with a 3px #9A7634 underside. KURTA (SVG-KURTA silhouette, outline #3D3530 2px): mandarin collar 80x30 at the bar's centre, shoulders sloping to (330,490) and (750,490), three-quarter sleeves out to cuffs at (250-360,770) and (720-830,770), straight body to a hem at y1180 between x360 and x720, side slits from y980, centre placket to y650 with five 5px ivory buttons. Fill: photo crop assets/local/site__src_assets_lookbook/look-5.webp box (380,820,900,1240) via clipPath, covering the silhouette; inner shading linear-gradient rgba(0,0,0,.10) at the side seams to transparent. Tailor's chalk: two 14px #F5A58F triangles at the side seams at y700 and a dashed chalk hem line at y1160. RUBY BRACELET cutouts/baguette-tennis-bracelet/01-trim.png width 300 hung over the hook at centre (540,400). TAGS: left tag 170x110 #FFBDA8 card with a punched hole and a 1.5px #3D3530 string to the bar's left end, at x90,y560 rotated -8deg; right tag #C8D8D4 at x820,y560 rotated +7deg, string to the right end. Each tag: Jost 500 30px #1A1614 time on line 1, Cormorant italic 30px #3D3530 occasion on line 2. CUT-OUTS under the tags: Petal Flower Studs Gold (new CO-06) width 150 centre (175,770), blush pin; cutouts/bold-nocturne-drops/00-trim.png width 180 centre (905,790), sage pin. NOTE Kalam 38px #3D3530 at x640,y345 with an arrow down-left to the bracelet. ASIDE Cormorant italic 46px #3D3530 right-aligned x1008, baseline y1232. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page five.' top y1300.",
+     "copy": "FITTING NOTES   N° 02 | SAME KURTA. / TWO EVENINGS. | 7 PM | the puja | 10 PM | the card party | the bracelet stays. | the earrings don't. | [label: NAIRA wordmark] | THE FITTING BOOK | page five."
+    },
+    {
+     "slide": 2,
+     "layout": "Ground C-PAPER-RULED. Left: the cover kurta on its hanger at 50% scale in x72-380, y300-860, with the left tag only. Right: CO-06 Petal Flower Studs width 380 at x520-900, y360-700, blush pin. NOTE Kalam 38px at x560,y760, arrow to a stud. HEADLINE Velista 100px x72 top y940; ASIDE Cormorant italic 50px top y1056; SPEC Jost 26px #6B625B top y1180. COUNTER '2 / 5'.",
+     "copy": "13 mm, sits flat. | 7 PM. | close to the lobe, near the diya. | Petal Flower Studs · 18k gold tone plated (also in silver tone) | 2 / 5"
+    },
+    {
+     "slide": 3,
+     "layout": "Same as slide 2 with the right tag; cutouts/bold-nocturne-drops/00-trim.png width 360, sage pin. COUNTER '3 / 5'.",
+     "copy": "30 mm, one pavé link. | 10 PM. | longer, brighter, for a long table. | Bold Nocturne Drops · 18k gold tone plated | 3 / 5"
+    },
+    {
+     "slide": 4,
+     "layout": "Ground C-PAPER-RULED. cutouts/baguette-tennis-bracelet/01-trim.png (Ruby) width 720 across x180-900, y380-700, gold pin through the clasp. NOTE 1 Kalam 38px x600,y740 'box clasp, fold-over safety.' arrow to the clasp. HEADLINE Velista 96px x72 top y940; ASIDE Cormorant 50px top y1052; SPEC Jost 26px top y1176. NOTE 2 Kalam 32px #3D3530 right-aligned x1008 top y1290 rotated -2deg. COUNTER '4 / 5'.",
+     "copy": "box clasp, fold-over safety. | STAYS ON. | from the aarti to the last hand of cards. | Baguette Tennis Bracelet, Ruby · 18k gold tone plated · about 17 cm | gold thread on the kurta, so gold tone. see page one. | 4 / 5"
+    },
+    {
+     "slide": 5,
+     "layout": "INDEX. Ground C-PAPER-RULED. TITLE Velista 84px x72 top y110; ASIDE Cormorant 44px top y200. Three rows of 260px from y320 in the P1 slide 6 row style (cut-out 220px wide left, name/spec/price right). FOOTER Jost 400 24px #6B625B 2 lines top y1250. COUNTER '5 / 5'.",
+     "copy": "THE TWO EVENINGS. | one kurta, three pieces. | PETAL FLOWER STUDS | gold tone or silver tone · 13 mm | ₹999 | BOLD NOCTURNE DROPS | 30 mm · one pavé link | ₹1,299 | BAGUETTE TENNIS BRACELET | ruby, crystal or emerald · about 17 cm | ₹1,699 | Fabric: Naira Flore couture. | Every piece arrives in the Naira box. | 5 / 5"
+    }
+   ],
+   "caption": "Diwali week, one kurta, two evenings. Change the earrings, keep the bracelet.\n\n7 pm, the puja: Petal Flower Studs, 13 mm, close to the lobe. 10 pm, the card party: Bold Nocturne Drops, 30 mm with one pavé link. On the wrist all night, the Baguette Tennis Bracelet in Ruby, with a box clasp and a fold-over safety.\n\nThe kurta has gold thread, so everything is gold tone. Page one explains why.\n\n[ two earrings, one bracelet · 18k gold tone plated · same kurta, nobody noticed ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "#NairaFlore #NairaPetite #DiwaliOutfit #DemiFineJewellery #TennisBracelet",
+   "alt_text": "On a pale blush striped ground, a drawn kurta on a wooden hanger is filled with marigold silk with gold embroidery. A ruby-red baguette tennis bracelet hangs from the hanger's hook. Two garment tags hang either side: 7 PM, the puja, with small gold flower studs, and 10 PM, the card party, with gold pavé link drop earrings.",
+   "why": "Ruby is the hero stone (8 of 13 Baguette Tennis Bracelets sold since 16 Oct were Ruby; Ruby anaar is the best ad, Rs335 per purchase). Repeating one outfit across Diwali week is real and saveable. 'What I wear to the sangeet' style occasion tiles already exist in the owner's ad bank. Thursday 19:00, the eve of Dhanteras, without any 'buy gold' framing. Three pieces make the BUY3 case.",
+   "claims_check": "Petal Flower Studs 13 mm, tags 18k Gold Tone Plated + Rhodium Silver Tone Plated (gold variant shown). Bold Nocturne Drops about 30 mm, pavé oval link, 18k Gold Tone Plated (listing). Baguette Tennis Bracelet about 17 cm, box clasp with fold-over safety, 18k Gold Tone Plated; 'Ruby' is the variant name and the caption says Ruby, never 'ruby stone'. 'Gold thread' describes the fabric. No Dhanteras gold framing, no date. The card party is an occasion word only; no gambling language."
+  },
+  {
+   "p": 6,
+   "grid_pos": "r3c1 (P6)",
+   "date": "Sun 8 Nov 2026 (Diwali)",
+   "time_ist": "11:00",
+   "format": "static",
+   "slides": 1,
+   "title": "25 mm.",
+   "series": "WORKTABLE N° 02 · the tape",
+   "tone": "mid",
+   "product_handles": [
+    "woven-gold-hoops"
+   ],
+   "prices_and_stock": "Woven Gold Hoops Rs1,299 (63 in stock; #1 by units, 20 sold in 120d). No price on the image.",
+   "concept": "A couture house measures everything, so on Diwali morning the bestseller gets measured on the tailor's tape: 25 mm across, braided rope, no stones. Tape and hoop are drawn at the same scale, so the comparison is honest. A quiet, confident tile on the loudest day of the year, on the exhibition's bottle green.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "1080x1440. Ground bottle green #2E4238 with a radial lift to #3A5448 centred x540,y760 radius 600, grain .12. FOLIO x72 y64 #E9D9C6. HEADLINE Velista 168px #F6EFE6 x72 top y104 (one line, ~600px). ASIDE Cormorant italic 52px #F2CFC4 x72 top y300, max width 860 (2 lines). TAPE (new asset SVG-TAPE): a 70px band, fill #F6EFE6 with 1.5px #E9D9C6 edges, running horizontally at y1000-1070 from x-20 to x1100; scale 14px per mm (1 cm = 140px); '0' at x160; mm ticks 10px, half-cm 16px, cm 26px, ticks ink #1A1614 1.5px from the top edge; cm numbers Jost 500 24px #1A1614; the left end curls up into a loose loop (band arc) from x-20 to x150. HOOPS: cutouts/woven-gold-hoops/00-trim.png scaled so the upright hoop's outer diameter = 350px (25 mm on this tape: measure the upright hoop in the trim and scale by 350/d), placed so the upright hoop's left edge sits on x160 and right edge on x510, its bottom touching the tape's top edge at y1000; .cut shadow tinted rgba(0,0,0,.35). Two dashed guides #E7C27A 2px (dash 8/6) from the hoop's left and right extremes down across the tape; a gold #E7C27A bracket over the 0-2.5 span. NOTE Kalam 40px #F6EFE6, 3 lines, at x600,y700 rotated -2deg with an arrow to the hoop. FINE PRINT Jost 400 24px #E9D9C6 x72 top y1150. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#F6EFE6' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#F2CFC4' 'page six.' top y1300.",
+     "copy": "WORKTABLE   N° 02 | 25 MM. | measured by a house that measures for a living. | 0 | 1 | 2 | 3 | 4 | 5 | 6 | braided rope. / no stones. / one pair. | Tape and hoop drawn at the same scale. | [label: NAIRA wordmark] | THE FITTING BOOK | page six."
+    }
+   ],
+   "caption": "25 mm across. We measure people for a living, so we measured the hoops too.\n\nThe Woven Gold Hoops are a thick braided rope of gold-tone strands. No stones at all, just weight, plating and pattern. They carry a plain kurta on their own.\n\nShubh Deepavali from all of us at the studio.\n\n[ woven gold hoops · 18k gold tone plated · 25 mm, checked twice ]\n\nFree insured shipping. COD available.",
+   "first_comment": "#NairaFlore #NairaPetite #HappyDiwali #GoldHoops #DemiFineJewellery",
+   "alt_text": "On a deep bottle green ground, a cream tailor's tape measure runs across the frame and a pair of braided gold-tone hoops sits on it, the upright hoop spanning exactly 25 millimetres between two dashed gold guides. The headline reads 25 mm.",
+   "why": "Woven Gold Hoops are #1 by units (20) with 63 in stock and appear in every multi-piece website order since September. Physical-proof ads beat claims: 'THE WIDTH.' with a 25 mm ruler pulled 9.6 ATC per Rs1k and '25mm of braided gold rope. No stones.' carried the apricot still life (9 purchases). Diwali day 11:00, before evening puja; a quiet tile while every competitor runs 'Festive Sale Is Live'. Bottle green is the exhibition poster's own ground and gives row 3 its dark.",
+   "claims_check": "25 mm, braided rope of gold tone strands, no stones, one pair, 18k Gold Tone Plated = listing details. The tape is drawn at the same scale as the hoop (stated on the image), so nothing is shown at a false scale. Product name contains 'Gold'; copy always says '18k gold tone plated' or 'gold-tone strands', never gold content. No waterproof claim. No diya, no Diwali iconography on the image; the greeting lives in the caption."
+  },
+  {
+   "p": 7,
+   "grid_pos": "r2c3 (P7)",
+   "date": "Tue 10 Nov 2026",
+   "time_ist": "18:30",
+   "format": "reel",
+   "slides": 6,
+   "title": "Follow the V.",
+   "series": "THE STUDIO N° 02 · the trial room",
+   "tone": "mid",
+   "product_handles": [
+    "marquise-layering-set"
+   ],
+   "prices_and_stock": "Marquise Layering Set Rs1,599 (40 in stock; 1 sold in 120d). No price on screen.",
+   "concept": "The trial room after the fitting: a pen-drawn brass rail and plum velvet curtain slide open on a real photo of a V-neck with the Marquise Layering Set. Blush chalk traces the V, gold dashes trace the lariat, and the two lines run parallel: page three's rule (V-neck, follow the V) proved on a person. The reel is the curtain; the cover is the half-open curtain.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "REEL COVER 1080x1920 (grid y240-1680). Ground plum #4E3C66, grain .12. FOLIO x72 y300 Jost 500 22px #E9D9C6 (sits just above the rail's left end). RAIL (new asset SVG-CURTAIN): gold #C99A4C 6px line from x40 to x1040 at y340, finials r12 at both ends, rings r14 stroke #C99A4C 4px every 70px. CURTAINS: left panel x0-330 and right panel x750-1080, from y340 to y1700, vertical folds 40-70px wide alternating linear gradients #4E3C66 to #2E2338 and back, gently waved hem; tiebacks: blush cord #F5A58F 6px gathering each panel at y1060 with a 40px tassel. MIRROR in the opening: gold #E7C27A 4px pen frame, arched top, outer box x300-780, y400-1240; inside it the photo assets/shopify/marquise-layering-set/02.jpg cropped (180,0,1020,1390) and scaled to 470x778 at x305,y440 (the shirt's V and both necklaces; the crop starts at the chin, no face). CHALK: a blush #F5A58F 4px dashed line traces both edges of the shirt's V on the photo; a gold #E7C27A 3px dashed line traces the solitaire chain and the Y-lariat drop. HEADLINE Velista 112px #F6EFE6 centred on x540, 2 lines, tops y1270 and y1380. ASIDE Cormorant italic 44px #F2CFC4 centred, top y1500. C-LOCKUP at y1584 (label x72,y1584; text x396, tops y1600/y1632) in cream and blush: 'THE FITTING BOOK' / 'page seven.'",
+     "copy": "THE STUDIO   N° 02 | FOLLOW / THE V. | the trial room, after the fitting. | [label: NAIRA wordmark] | THE FITTING BOOK | page seven."
+    },
+    {
+     "slide": 2,
+     "layout": "BEAT 0.0-1.6s. Curtains closed (panels meet at x540), rail and rings visible, folio visible; at 0.4s both panels slide outward 230px over 1.2s ease-in-out (cubic-bezier(.65,0,.35,1)). Foley: rings on a rail. The photo inside the mirror is visible through the opening from 0.8s (product visible within the first second).",
+     "copy": "THE STUDIO   N° 02"
+    },
+    {
+     "slide": 3,
+     "layout": "BEAT 1.6-4.6s. Hold on the mirror photo with a slow push (scale 1.00 to 1.04 linear across the whole reel). 3.2-4.4s: the blush chalk line draws along the V (stroke-dashoffset, 1.2s); Kalam 40px #F6EFE6 note writes on at x790,y620 on the right curtain.",
+     "copy": "V-neck."
+    },
+    {
+     "slide": 4,
+     "layout": "BEAT 4.6-6.2s. The gold dashed line draws along the 40 cm chain and down the Y-lariat (1.2s); two Kalam notes write on at x790,y760 and x790,y900.",
+     "copy": "40 cm. | the Y follows the V."
+    },
+    {
+     "slide": 5,
+     "layout": "BEAT 6.2-8.6s. Cut to C-PAPER-PATTERN full frame: Marquise Layering Set photo card PC-MARQUISE (crop of assets/shopify/marquise-layering-set/01.jpg box (0,250,1200,1250), shown 640x533 with a 14px #FBF3EC border and shadow 0 8px 18px rgba(40,22,10,.2)) centred x540,y820, rotated -2deg, gold-head pin at its top edge; Velista 88px #1A1614 centred top y1180; Cormorant italic 46px #3D3530 centred top y1290.",
+     "copy": "TWO NECKLACES, | made to be worn at once."
+    },
+    {
+     "slide": 6,
+     "layout": "BEAT 8.6-12.0s END CARD. Back to the curtain; the panels close halfway (0.8s); the cover composition settles with the headline and lockup; hold 2s. AUDIO: rings-on-rail foley plus a soft instrumental (piano or strings) from Meta's Sound Collection at about -20 LUFS; no lyrics. In-video text inside x60-1020, y270-1250.",
+     "copy": "FOLLOW / THE V. | the trial room, after the fitting. | THE FITTING BOOK | page seven."
+    }
+   ],
+   "caption": "The trial room, after the fitting. A V-neck, answered with a V.\n\nThe Marquise Layering Set is two necklaces made to be worn at once: a fine 40 cm chain with one marquise cubic zirconia, and a Y-lariat with small marquise stations that falls just below it. Follow the line of the neckline and stop just above its point.\n\nPage seven of the Fitting Book. Page three has the other necklines.\n\n[ marquise layering set · 18k gold tone plated · the layering, already done ]\n\nFree insured shipping. COD available.",
+   "first_comment": "#NairaFlore #NairaPetite #LayeredNecklace #DemiFineJewellery #WeddingGuestStyle",
+   "alt_text": "Reel cover: a drawn brass curtain rail and plum velvet curtains open onto a framed photograph of an open ivory shirt with a deep V neckline, worn with two fine gold-tone necklaces, a marquise solitaire and a Y-shaped lariat. Pink chalk traces the V and gold dashes trace the lariat. The headline reads Follow the V.",
+   "why": "Marquise Layering Set has 40 in stock and 1 sale: under-exposed, and its on-model plate is one of the strongest frames in the library (rated 9, faceless). Post-Diwali, before Bhai Dooj, as attention turns to wedding season. Reels hold column 3 like PTAT's, and this one gives row 2 its dark tile. The call-back to page three builds series memory.",
+   "claims_check": "Two necklaces made to be worn at once, 40 cm chain with one marquise cubic zirconia (about 10x5 mm), Y-lariat with 5 mm marquise stations that falls just below it, 18k Gold Tone Plated = listing blurb and details. No clasp claim (the listing's 'no two clasps fighting' wording is ambiguous). The photo is the piece's own Shopify on-model image, cropped at the chin."
+  },
+  {
+   "p": 8,
+   "grid_pos": "r2c2 (P8)",
+   "date": "Fri 13 Nov 2026",
+   "time_ist": "19:00",
+   "format": "static",
+   "slides": 1,
+   "title": "The thimble comes off at six.",
+   "series": "WORKTABLE N° 03 · the thimble",
+   "tone": "mid",
+   "product_handles": [
+    "verdant-eternity-band"
+   ],
+   "prices_and_stock": "Verdant Eternity Band Rs1,099 (60 in stock; 3 sold in 120d; open back, adjusts US 6 to 8, so no size variant to run out of). No price on the image.",
+   "concept": "In a sewing room the only ring that matters is the thimble. After six, this one. The brass thimble (drawn) and the Verdant Eternity Band (real cut-out) stand side by side at their true relative size on lilac, tied by one sage thread. The first post in the set to lead with a ring, and the adjustable one, so size is no barrier.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "1080x1440. Ground lilac #C9B6CB, grain .14. FOLIO x72 y64 Jost 500 22px #2E2338. HEADLINE Velista 112px #1A1614 x72 top y110, 3 lines (to ~y430, widest ~730px). ASIDE Cormorant italic 52px #2E2338 x72 top y466. THIMBLE (new asset SVG-THIMBLE; optional photographic version AI-2): centre x380,y900, 200 wide x 240 tall: domed top, slightly tapered body, dimples as a hex grid of 5px-radius circles stroked #9A7634 1px over the top two-thirds, a plain polished band at the rim; fill linear gradient #E7C27A to #C99A4C to #9A7634 (warm neutral, never orange); a 12px highlight streak rgba(255,255,255,.5) left of centre; contact shadow ellipse rgba(46,35,56,.25) under it. RING cutouts/verdant-eternity-band/00-trim.png width 300, centre x720,y930, rotated +12deg, .cut (ring outer about 1.1x the thimble's width, the true ratio). THREAD: sage-deep #4F7268 2px path leaving the thimble's rim, one loose loop, then passing through the ring (drawn over the front of the band and under the back). NOTE Kalam 40px #2E2338, 2 lines, x600,y1130 rotated +2deg, arrow to the gap in the band's open back. SPEC Jost 400 24px #2E2338 x72 top y1200. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page eight.' top y1300.",
+     "copy": "WORKTABLE   N° 03 | THE THIMBLE / COMES OFF / AT SIX. | the ring goes on. | open back: / adjusts US 6 to 8. | Verdant Eternity Band · green and clear cubic zirconia · rhodium plated | [label: NAIRA wordmark] | THE FITTING BOOK | page eight."
+    }
+   ],
+   "caption": "In a sewing room, the thimble is the only ring that matters. After six, this one.\n\nThe Verdant Eternity Band: oval green cubic zirconia, each in a scalloped pavé of small clear stones, all the way round. Rhodium plated, with an open back that adjusts from US 6 to 8.\n\nGreen cubic zirconia, not emerald. We'd rather tell you.\n\n[ verdant eternity band · rhodium plated · thimble, off duty ]\n\nFree insured shipping. COD available.",
+   "first_comment": "#NairaFlore #NairaPetite #EternityBand #DemiFineJewellery #WeddingSeason",
+   "alt_text": "On a lilac ground, a drawn brass thimble stands beside a silver-tone eternity band set all round with oval green stones and small clear stones, joined by a loose sage thread. The headline reads The thimble comes off at six.",
+   "why": "Rings sell quietly through the catalogue (Roman Numeral Trio 10, Star Point 3, Cushion Halo 2 purchases) but no static has ever led with a ring. Verdant Eternity Band has 60 in stock, and its adjustable open back removes the size question. Green for the wedding season; lilac is the owner's favourite ground; Friday 19:00 sits in the 18:00-21:00 order window.",
+   "claims_check": "Listing: oval emerald-green cubic zirconia about 5x4 mm, scalloped pavé of small clear stones, 'Green cubic zirconia, not emerald', rhodium plated, adjustable US 6 to 8 open back; tag Rhodium Plated. Copy never says emerald (the stone), silver or gold. The thimble is an illustration (or an AI prop), not jewellery, and is drawn at a true relative size."
+  },
+  {
+   "p": 9,
+   "grid_pos": "r2c1 (P9)",
+   "date": "Sun 15 Nov 2026",
+   "time_ist": "12:00",
+   "format": "carousel",
+   "slides": 7,
+   "title": "The sleeve decides the wrist.",
+   "series": "PATTERN NOTES N° 02 · the sleeve",
+   "tone": "quiet",
+   "product_handles": [
+    "pear-point-open-cuff",
+    "triple-coil-wrap-bangle",
+    "baguette-tennis-bracelet",
+    "fine-tennis-bracelet",
+    "droplet-open-ring"
+   ],
+   "prices_and_stock": "Pear Point Open Cuff Rs1,499 (19); Triple Coil Wrap Bangle Rs1,499 (Gold 10, Silver 10); Baguette Tennis Bracelet, Emerald Rs1,699 (Emerald 16); Fine Tennis Bracelet Rs1,299 (20); Droplet Open Ring Rs1,299 (Gold 10, Silver 10). Prices on slide 7 only.",
+   "concept": "Wedding-season blouses go for stitching now, and the sleeve length decides what the wrist can wear. The cover is a real sleeve pattern block with notches and a grainline, cut across at four lengths; each slide gives one length its piece: sleeveless takes a sculptural cuff, cap sleeve a stack that is one piece, elbow a line of colour, three-quarter something fine enough to slip under the hem, full sleeve skips the wrist for a ring.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "COVER. Ground C-PAPER-PATTERN. FOLIO x72 y64. HEADLINE Velista 116px #1A1614 x72 top y110, 3 lines (to ~y430). SLEEVE BLOCK (new asset SVG-SLEEVE-BLOCK), sage-deep #4F7268 3px, fill rgba(242,207,196,.25): cap curve M300 560 C380 480 470 468 540 468 C610 468 700 480 780 560; underarm seams L780 560 L700 1210 and M300 560 L380 1210; wrist line M380 1210 L700 1210; single notch (14px triangle) at (372,512) and double notch at (700,508)/(716,516); grainline: vertical double-headed arrow 2px from (540,560) to (540,1150) with 'GRAIN' Jost 500 16px #4F7268 rotated 90deg beside it. LENGTH LINES blush chalk #F5A58F 3px dashed 12/8 across the block at y640, y830, y1010, y1210; labels Kalam 34px #3D3530 right-aligned to x288: 'cap' y625, 'elbow' y815, 'three-quarter' y995, 'full' y1195; Kalam 34px at x790,y470: 'sleeveless: no pattern at all'. CUT-OUT cutouts/baguette-tennis-bracelet/02-trim.png (Emerald) width 260 at x760,y760 rotated -10deg, gold pin, with a pencil arrow to the elbow line. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page nine.' top y1300.",
+     "copy": "PATTERN NOTES   N° 02 | THE SLEEVE / DECIDES / THE WRIST. | GRAIN | cap | elbow | three-quarter | full | sleeveless: no pattern at all | [label: NAIRA wordmark] | THE FITTING BOOK | page nine."
+    },
+    {
+     "slide": 2,
+     "layout": "TEMPLATE: Ground C-PAPER-PATTERN. FOLIO 'PATTERN NOTES   N° 02' x72 y64. HEADLINE Velista 100px #1A1614 x72 top y104. RULE Cormorant italic 48px #3D3530 x72 top y226. ARM CROQUIS (new asset SVG-ARMS) in the box x90-600, y330-1110: a single arm from shoulder to fingertips, slightly bent, sage-deep #4F7268 3px, with the sleeve for that length drawn over it (fill #F2CFC4 at 55%, edge 2px #4F7268, hem re-drawn as blush chalk #F5A58F 4px dashed). CUT-OUT pinned in the box x620-1010, y420-860 with a gold-head pin. NOTE Kalam 38px #3D3530 at x620,y900 (max 380px wide) with a pencil arrow to the wrist on the drawing. NAME Jost 500 28px caps tracking .12em x72 top y1180; SPEC Jost 400 26px #6B625B top y1222. COUNTER bottom-right. SLIDE: bare arm, no sleeve. CUT-OUT Pear Point Open Cuff (new CO-09) width 400. COUNTER '2 / 7'.",
+     "copy": "SLEEVELESS. | the whole arm is yours. go sculptural. | two pears, facing, where the wrist turns. | PEAR POINT OPEN CUFF | 18k gold tone plated · inner width about 6 cm | 2 / 7"
+    },
+    {
+     "slide": 3,
+     "layout": "TEMPLATE: Ground C-PAPER-PATTERN. FOLIO 'PATTERN NOTES   N° 02' x72 y64. HEADLINE Velista 100px #1A1614 x72 top y104. RULE Cormorant italic 48px #3D3530 x72 top y226. ARM CROQUIS (new asset SVG-ARMS) in the box x90-600, y330-1110: a single arm from shoulder to fingertips, slightly bent, sage-deep #4F7268 3px, with the sleeve for that length drawn over it (fill #F2CFC4 at 55%, edge 2px #4F7268, hem re-drawn as blush chalk #F5A58F 4px dashed). CUT-OUT pinned in the box x620-1010, y420-860 with a gold-head pin. NOTE Kalam 38px #3D3530 at x620,y900 (max 380px wide) with a pencil arrow to the wrist on the drawing. NAME Jost 500 28px caps tracking .12em x72 top y1180; SPEC Jost 400 26px #6B625B top y1222. COUNTER bottom-right. SLIDE: short cap sleeve ending at mid upper arm. CUT-OUT Triple Coil Wrap Bangle, Gold (new CO-10) width 380. COUNTER '3 / 7'.",
+     "copy": "CAP SLEEVE. | a stack, in one piece. | three turns, one bangle. | TRIPLE COIL WRAP BANGLE | gold tone or silver tone · 14 mm across the three turns | 3 / 7"
+    },
+    {
+     "slide": 4,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, arm croquis box, cut-out box, note, name, spec, counter positions and styles). SLIDE: sleeve ending at the elbow, forearm bare. CUT-OUT cutouts/baguette-tennis-bracelet/02-trim.png (Emerald) width 440. COUNTER '4 / 7'.",
+     "copy": "ELBOW. | now the wrist shows. give it colour. | green cubic zirconia, not emerald. | BAGUETTE TENNIS BRACELET, EMERALD | 18k gold tone plated · about 17 cm | 4 / 7"
+    },
+    {
+     "slide": 5,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, arm croquis box, cut-out box, note, name, spec, counter positions and styles). SLIDE: sleeve ending 4 cm above the wrist bone, its hem drawn as a soft edge. CUT-OUT Fine Tennis Bracelet (new CO-11) width 420. COUNTER '5 / 7'.",
+     "copy": "THREE-QUARTER. | fine enough to slip under the hem. | 2.5 mm stones, edge to edge. | FINE TENNIS BRACELET | 18k gold tone plated · about 17 cm | 5 / 7"
+    },
+    {
+     "slide": 6,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, arm croquis box, cut-out box, note, name, spec, counter positions and styles). SLIDE: full sleeve to the wrist with a 60px cuff and two 6px buttons; a simple line hand emerging. CUT-OUT Droplet Open Ring, Gold (new CO-12) width 240 pinned beside the ring finger, arrow to the finger. COUNTER '6 / 7'.",
+     "copy": "FULL SLEEVE. | skip the wrist. the hand still shows. | open at the back, so it adjusts. | DROPLET OPEN RING | gold tone or silver tone | 6 / 7"
+    },
+    {
+     "slide": 7,
+     "layout": "INDEX. Ground C-PAPER-PATTERN. TITLE Velista 84px x72 top y104; ASIDE Cormorant 44px top y196. Five rows of 190px from y300 in the P1 slide 6 row style (cut-out 180px left, sleeve length Jost 500 22px #80612A above the name, name / spec / price right). FOOTER Jost 400 24px #6B625B top y1290. COUNTER '7 / 7'.",
+     "copy": "THE WRISTS. | cut to length. | SLEEVELESS | PEAR POINT OPEN CUFF | ₹1,499 | CAP | TRIPLE COIL WRAP BANGLE | ₹1,499 | ELBOW | BAGUETTE TENNIS BRACELET, EMERALD | ₹1,699 | THREE-QUARTER | FINE TENNIS BRACELET | ₹1,299 | FULL | DROPLET OPEN RING | ₹1,299 | Every piece arrives in the Naira box. | 7 / 7"
+    }
+   ],
+   "caption": "The sleeve decides what the wrist can wear.\n\nSleeveless, go sculptural: a cuff. Cap sleeve, a stack that is one piece. Elbow, a line of colour. Three-quarter, something fine enough to slip under the hem. Full sleeve, skip the wrist and let a ring do it.\n\nPage nine of the Fitting Book, for the blouses going to the tailor this week.\n\n[ five sleeves · 18k gold tone plated · cut to length ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "#NairaFlore #NairaPetite #BlouseDesign #DemiFineJewellery #WeddingGuestStyle",
+   "alt_text": "A sleeve pattern piece drawn in green pen on pale pattern paper, with notches and a grainline arrow, cut across by pink chalk lines marked cap, elbow, three-quarter and full. An emerald-green baguette tennis bracelet is pinned beside the elbow line. The headline reads The sleeve decides the wrist.",
+   "why": "Bracelets are the top category (68 units, Rs88.6k in 120 days) and Edition Two is the first real bangle and cuff range. Wedding muhurats open 21 Nov with 24-26 Nov dates, so blouses are being stitched this week: the advice is timely and couture-native. Sunday 12:00 is the biggest order slot. Emerald gives the green season its colour.",
+   "claims_check": "Pear Point Open Cuff: two 7 mm pear cubic zirconia, inner width about 6 cm, 18k Gold Tone Plated. Triple Coil: about 14 mm across three turns, gold or rhodium (tags 18k Gold Tone Plated + Rhodium Silver Tone Plated). Baguette Tennis Bracelet Emerald: about 17 cm; 'green cubic zirconia, not emerald' because the variant is named Emerald. Fine Tennis: 2.5 mm stones, about 17 cm. Droplet Open Ring: 'open at the back, so it adjusts to fit' (listing). All listing words; no tag claims. 'the blouses going to the tailor' refers to the reader's own blouses, no claim about the house."
+  },
+  {
+   "p": 10,
+   "grid_pos": "r1c3 (P10)",
+   "date": "Tue 17 Nov 2026",
+   "time_ist": "18:30",
+   "format": "reel",
+   "slides": 7,
+   "title": "First, the dress form.",
+   "series": "THE STUDIO N° 03 · the dress form",
+   "tone": "mid",
+   "product_handles": [
+    "baguette-tennis-necklace",
+    "baguette-tennis-bracelet"
+   ],
+   "prices_and_stock": "Baguette Tennis Necklace Rs2,300 (Ruby 20, Crystal 30, Emerald 20; 0 sold in 120d); Baguette Tennis Bracelet Rs1,699 (Ruby 12). If Ruby necklace drops below 5, lead with Crystal. No price on screen.",
+   "concept": "In a couture studio the dress form tries everything first. A pen-drawn dress form on blush; a tape over its shoulder circles 36 in chalk; the ruby necklace cut-out lifts off its pin, travels to the form's neck and dissolves into a real photo of the necklace worn at the base of a neck, framed by the form's own outline. Then the three colours, then the set. The Edition Two necklace nobody has bought yet, shown the way a couture house would show it.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "REEL COVER 1080x1920 (grid y240-1680). Ground blush #F2CFC4, grain .14. FOLIO x72 y300 #6B625B. HEADLINE Velista 104px #1A1614 x72 top y348, 2 lines (to ~y555; widest ~700px). ASIDE Cormorant italic 48px #3D3530 x72 top y585. DRESS FORM (new asset SVG-DRESSFORM), ink #3D3530 3px, centred on x540: neck cap ellipse (540,700) rx62 ry16 filled #FBF5F0; neck column x490-590 from y700 to y760; shoulders curving from (490,760) to (330,800) and down to the armhole at (320,900), mirrored; body to the bust (300,1000), waist (370,1190), hip (335,1330), base edge (360,1380), mirrored; body fill #FBF5F0 with a 1px #E9D9C6 crosshatch at 40%; princess seams dashed 1.5px; stand: 10px #B0843A pole from (540,1380) to (540,1500), a turned knob ellipse at (540,1440), three short legs ending at y1560. PHOTO WINDOW clipped to the form's bodice outline between y760 and y1080: assets/shopify/baguette-tennis-necklace/04.jpg cropped (240,330,960,890), aligned so the ruby necklace sits at the form's neck base (no face: crop below the chin). TAPE (SVG-TAPE strip, 50px, #F6EFE6, ticks #1A1614) draped over the form's right shoulder, hanging to y1350 at x780, numbers 34 35 36 37 visible and '36' circled in blush chalk #F5A58F 3px. NOTE Kalam 38px #3D3530 at x760,y820 rotated +3deg, 2 lines, arrow to the necklace. C-LOCKUP at y1584 (label x72; text x396): 'THE FITTING BOOK' / 'page ten.'",
+     "copy": "THE STUDIO   N° 03 | FIRST, THE / DRESS FORM. | then you. | 34 | 35 | 36 | 37 | 36 cm, / at the base of the neck. | [label: NAIRA wordmark] | THE FITTING BOOK | page ten."
+    },
+    {
+     "slide": 2,
+     "layout": "BEAT 0.0-1.0s. Blush ground; the dress form draws itself (stroke-dashoffset 1.0s); from frame 0 the ruby necklace cut-out cutouts/baguette-tennis-necklace/01-trim.png (width 260) is already pinned at x780,y1150 with a blush pin (product visible immediately).",
+     "copy": "THE STUDIO   N° 03"
+    },
+    {
+     "slide": 3,
+     "layout": "BEAT 1.0-2.4s. The tape slides over the right shoulder (0.6s ease-out); the chalk circle draws round '36' (0.5s).",
+     "copy": "34 | 35 | 36 | 37"
+    },
+    {
+     "slide": 4,
+     "layout": "BEAT 2.4-7.0s. The necklace cut-out lifts off its pin and travels to the form's neck (0.8s ease-in-out, scaling to fit), then cross-dissolves (0.6s) into the photo window (baguette-tennis-necklace/04.jpg crop as on the cover); hold with a slow push 1.00 to 1.03; the Kalam note writes on; 'then you.' fades in.",
+     "copy": "36 cm, / at the base of the neck. | then you."
+    },
+    {
+     "slide": 5,
+     "layout": "BEAT 7.0-9.5s. Cut to C-PAPER-PATTERN full frame: cutouts/baguette-tennis-necklace/00-trim.png (Crystal), 01-trim.png (Ruby) and 02-trim.png (Emerald), each 280px wide, pinned in a row at y700-1100 with blush, gold and sage pins; Velista 84px #1A1614 centred top y1180, 2 lines; Cormorant italic 46px #3D3530 centred top y1380.",
+     "copy": "RUBY, CRYSTAL, / EMERALD. | cubic zirconia, in three colours."
+    },
+    {
+     "slide": 6,
+     "layout": "BEAT 9.5-11.5s. Cut to assets/shopify/baguette-tennis-necklace/08.jpg full-bleed (scaled to cover 1080x1920, crop from below the lips), slow push 1.00 to 1.05; Kalam 40px #F6EFE6 note at x600,y1100 with a soft shadow.",
+     "copy": "with the bracelet: a set."
+    },
+    {
+     "slide": 7,
+     "layout": "BEAT 11.5-14.0s END CARD = cover composition, hold 2.5s. AUDIO: soft instrumental from Meta's Sound Collection at about -20 LUFS plus a tape-whoosh foley; no lyrics. In-video text inside x60-1020, y270-1250 except the end card.",
+     "copy": "FIRST, THE / DRESS FORM. | then you. | THE FITTING BOOK | page ten."
+    }
+   ],
+   "caption": "At the studio, the dress form tries everything first. It has never once said a necklace was too short.\n\nThe Baguette Tennis Necklace is 36 cm, so it sits close at the base of the neck: the length for boat necks, off-shoulder blouses and wedding-season sarees. Baguette cubic zirconia in 18k gold-tone settings, in Ruby, Crystal or Emerald.\n\nWear it with the bracelet and the set is done.\n\n[ baguette tennis necklace · 18k gold tone plated · approved by the dress form ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "#NairaFlore #NairaPetite #TennisNecklace #DemiFineJewellery #WeddingSeason",
+   "alt_text": "Reel cover on a blush ground: a pen drawing of a tailor's dress form on a wooden stand, its bodice opening into a photograph of a ruby-red baguette tennis necklace worn close at the base of the neck. A cream tape measure hangs over the shoulder with 36 circled in pink chalk. The headline reads First, the dress form. Then you.",
+   "why": "The Baguette Tennis Necklace has 70 in stock and 0 sales while its bracelet is the #3 seller (13 since 16 Oct, Ruby 8): 'complete the set' is the obvious push, and 'Baguette Tennis Bracelet + Baguette Huggies' already appear in multi-piece orders. A week before the 24-26 Nov muhurats. The dress form is the couture house's own proof device and the reel is the reach piece of the wedding week.",
+   "claims_check": "36 cm and 'sits close at the base of the neck' = PDP size guide; colours Ruby, Crystal, Emerald are variant names, described as cubic zirconia; '18k gold-tone settings' (the bracelet listing says gold claws; the necklace has no snapshot details, so 'settings' avoids an unverified claw claim); tag 18k Gold Tone Plated. The worn photos are the necklace's own Shopify on-model images cropped below the lips. The cut-out never sits on the drawn form as if worn: it dissolves into the real photo, so no false worn image is made."
+  },
+  {
+   "p": 11,
+   "grid_pos": "r1c2 (P11)",
+   "date": "Fri 20 Nov 2026",
+   "time_ist": "19:00",
+   "format": "carousel",
+   "slides": 6,
+   "title": "Nothing for the net to catch.",
+   "series": "PATTERN NOTES N° 03 · the dupatta",
+   "tone": "quiet",
+   "product_handles": [
+    "baguette-huggies",
+    "brushed-gold-huggies",
+    "mint-pear-drop-earrings",
+    "prism-riviere-bracelet",
+    "marquise-drop-choker"
+   ],
+   "prices_and_stock": "Baguette Huggies, Ruby Rs1,199 (Ruby 12; Crystal 15, Emerald 15, Amethyst 15); Brushed Gold Huggies Rs999 (35); Mint Pear Drop Earrings Rs1,199 (20); Prism Rivière Bracelet Rs2,399 (67); Marquise Drop Choker Rs1,199 (20). If Ruby huggies fall below 5, show Crystal on the cover. Prices on slide 6 only.",
+   "concept": "The wedding-season problem nobody in jewellery talks about: net dupattas catch on drop earrings. Four drapes drawn as pen croquis under translucent net: over the head (puja, gurudwara) takes huggies; on one shoulder takes a drop on the open side; pinned across both shoulders covers the neck, so go to the wrist; no dupatta gives the neckline the stage. Posted the evening before Tulsi Vivah, when the wedding season opens.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "COVER. Ground C-PAPER-PATTERN. FOLIO x72 y64. HEADLINE Velista 112px #1A1614 x72 top y110, 3 lines (to ~y420). ASIDE Cormorant italic 46px #3D3530 x72 top y440. HEAD CROQUIS (SVG-HEADS) centred: head ellipse (540,700) rx140 ry175; neck (480,870)-(470,990) and (600,870)-(610,990); shoulders to (230,1060) and (850,1060), down to y1220; ear markers at (400,710) and (680,710). NET DUPATTA over the head: translucent shape from above the crown (540,500) down both sides to (250,1220) and (830,1220), fill rgba(242,207,196,.5), crosshatch 1px #F5A58F 35%, scalloped gota edge 2px #C99A4C with 3px gold dots every 18px; ear markers visible through it. CUT-OUT cutouts/baguette-huggies/00-trim.png (Ruby) width 220 at x790,y640, blush pin, arrow to the right ear marker. NOTE Kalam 38px #3D3530 at x770,y860 rotated +2deg. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page eleven.' top y1300.",
+     "copy": "PATTERN NOTES   N° 03 | NOTHING FOR / THE NET / TO CATCH. | huggies, under a net dupatta. | 18 mm, / hugs the lobe. | [label: NAIRA wordmark] | THE FITTING BOOK | page eleven."
+    },
+    {
+     "slide": 2,
+     "layout": "TEMPLATE: Ground C-PAPER-PATTERN. FOLIO 'PATTERN NOTES   N° 03' x72 y64. HEADLINE Velista 96px #1A1614 x72 top y104. RULE Cormorant italic 48px #3D3530 x72 top y216. HEAD CROQUIS (new asset SVG-HEADS), sage-deep #4F7268 3px, no facial features: head ellipse centre (430,600) rx120 ry155, hair as a simple centre-parted outline, neck lines (380,750)-(372,870) and (480,750)-(488,870), shoulders to (180,930) and (680,930), arms down to y1120; ear markers 6px #F5A58F at (312,610) and (548,610). Dupatta drawn as net: fill rgba(242,207,196,.5) with a 1px #F5A58F crosshatch at 35% (10px), edge a scalloped 2px #C99A4C line with 3px gold dots every 18px (gota border). CUT-OUT(S) pinned in the box x700-1010, y360-900. NOTE Kalam 38px #3D3530 at x700,y930 with an arrow to the relevant ear, neck or wrist. NAME Jost 500 28px caps x72 top y1180; SPEC Jost 400 26px #6B625B top y1222 (and y1258 for a second piece). COUNTER bottom-right. SLIDE: dupatta over the head as on the cover. CUT-OUTS cutouts/baguette-huggies/00-trim.png (Ruby) width 240 and cutouts/brushed-gold-huggies/00-trim.png width 200, pinned one above the other. COUNTER '2 / 6'.",
+     "copy": "OVER THE HEAD. | puja, gurudwara, the temple: huggies. | nothing hangs, nothing catches. | BAGUETTE HUGGIES, RUBY | 18 mm · 18k gold tone plated | Brushed Gold Huggies · 12 mm · 18k gold tone plated | 2 / 6"
+    },
+    {
+     "slide": 3,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, head croquis, net style, cut-out box, note, name, spec, counter positions and styles). SLIDE: no net over the head; the dupatta falls over the left shoulder only as a translucent band crossing the body; the right ear open. CUT-OUT Mint Pear Drop Earrings (new CO-05) width 200, arrow to the open (right) ear marker. COUNTER '3 / 6'.",
+     "copy": "ONE SHOULDER. | a drop on the open side. | 22 mm, mint at the end. | MINT PEAR DROP EARRINGS | 18k gold tone plated | 3 / 6"
+    },
+    {
+     "slide": 4,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, head croquis, net style, cut-out box, note, name, spec, counter positions and styles). SLIDE: the dupatta pinned at both shoulders like a cape, covering the neck and chest; the right forearm and wrist emerge below it. CUT-OUT Prism Rivière (CO-01) width 400, arrow to the wrist. COUNTER '4 / 6'.",
+     "copy": "BOTH SHOULDERS. | the neck is covered. go to the wrist. | aqua, pink, pale yellow. | PRISM RIVIÈRE BRACELET | rhodium plated · adjusts 15 to 19 cm | 4 / 6"
+    },
+    {
+     "slide": 5,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, head croquis, net style, cut-out box, note, name, spec, counter positions and styles). SLIDE: no dupatta; bare neck with a fine omega collar line drawn in gold at the neck base. CUT-OUT Marquise Drop Choker (new CO-13) width 340, arrow to the neck base. COUNTER '5 / 6'.",
+     "copy": "NO DUPATTA. | the neckline gets the stage. | one marquise, set sideways. | MARQUISE DROP CHOKER | 18k gold tone plated · a 6 cm drop with two small pears | 5 / 6"
+    },
+    {
+     "slide": 6,
+     "layout": "INDEX. Ground C-PAPER-PATTERN. TITLE Velista 84px x72 top y104; ASIDE Cormorant 44px top y196. Five rows of 190px from y300 (drape Jost 500 22px #80612A above each name; cut-out 180px left; name / spec / price right). FOOTER Jost 400 24px #6B625B top y1290. COUNTER '6 / 6'.",
+     "copy": "THE DUPATTA RULES. | four drapes, five pieces. | OVER THE HEAD | BAGUETTE HUGGIES, RUBY | ₹1,199 | OVER THE HEAD | BRUSHED GOLD HUGGIES | ₹999 | ONE SHOULDER | MINT PEAR DROP EARRINGS | ₹1,199 | BOTH SHOULDERS | PRISM RIVIÈRE BRACELET | ₹2,399 | NO DUPATTA | MARQUISE DROP CHOKER | ₹1,199 | Every piece arrives in the Naira box. | 6 / 6"
+    }
+   ],
+   "caption": "Under a net dupatta, wear nothing the net can catch.\n\nOver the head for a puja or the gurudwara: huggies. On one shoulder: a drop on the open side. Pinned across both shoulders: the neck is covered, so go to the wrist. No dupatta at all: the neckline gets the stage.\n\nPage eleven of the Fitting Book, for the wedding season.\n\n[ four drapes · 18k gold tone and rhodium plated · no snags ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "#NairaFlore #NairaPetite #DupattaStyling #DemiFineJewellery #WeddingGuestStyle",
+   "alt_text": "A pen sketch of a head and shoulders on pale pattern paper, covered by a translucent blush net dupatta with a dotted gold border. Ruby-red baguette huggie earrings are pinned beside it with an arrow to the ear. The headline reads Nothing for the net to catch.",
+   "why": "Tulsi Vivah (Sat 21 Nov) opens the wedding season with muhurats on 21 and 24-26 Nov; Friday 19:00 the evening before. A problem-solution guide specific to Indian weddings is the most sendable kind of post (sends are a top signal). Huggies are a deep-stock family (Baguette Huggies 57 across four colours, Brushed 35) and huggies over-index in the market (lift 1.6x).",
+   "claims_check": "Baguette Huggies 18 mm, hinged snap, 18k Gold Tone Plated; Brushed Gold Huggies 12 mm; Mint Pear Drop 22 mm; Prism adjusts 15-19 cm, rhodium plated; Marquise Drop Choker: one 10 mm marquise set sideways, a fine 6 cm drop with a small pear halfway and another at the end, 18k Gold Tone Plated: all listing words. 'Nothing the net can catch' is styling advice about shape (huggies sit on the lobe), not a product guarantee. No religious claim; puja and gurudwara are named only as occasions."
+  },
+  {
+   "p": 12,
+   "grid_pos": "r1c1 (P12)",
+   "date": "Sun 22 Nov 2026",
+   "time_ist": "12:00",
+   "format": "carousel",
+   "slides": 7,
+   "title": "The Look List: five functions.",
+   "series": "FITTING NOTES N° 03",
+   "tone": "loud",
+   "product_handles": [
+    "brushed-gold-huggies",
+    "baguette-huggies",
+    "verdant-eternity-band",
+    "marquise-layering-set",
+    "serpentine-whisper-chain-silver"
+   ],
+   "prices_and_stock": "Brushed Gold Huggies Rs999 (35); Baguette Huggies, Emerald Rs1,199 (Emerald 15); Verdant Eternity Band Rs1,099 (60); Marquise Layering Set Rs1,599 (40); Serpentine Whisper Chain, silver tone Rs1,299 (23). Prices on slide 7 only.",
+   "concept": "The top-left page, the one every visitor sees first through December: five wedding functions, five real Naira Flore couture outfits as numbered cut-outs, one Naira Petite piece pinned to each, every pairing obeying the rules of the earlier pages. Haldi in marigold with gold thread takes brushed gold huggies with no stones for the haldi to settle in. Mehendi in a printed lehenga takes green huggies so the hands stay free for henna. Sangeet in lilac with silver thread and full sleeves takes the ring. The wedding in the tree lehenga's V-neck takes the Y-lariat. The reception in rose and silver thread takes one cool stone. PTAT's numbered look list, as a couture house would plan a trousseau.",
+   "slide_by_slide": [
+    {
+     "slide": 1,
+     "layout": "COVER. Ground brand sage #99B4AF with vertical pinstripes 1px #FBF3EC at 25% every 28px, grain .14. FOLIO x72 y64 Jost 500 22px #1A1614. HEADLINE Velista 116px #1A1614 x72 top y110, 2 lines (to ~y330). ASIDE Cormorant italic 46px #1A1614 x72 top y352. FIGURES (transparent couture cut-outs, scaled to 352px tall, .cut shadow): ROW A tops y430: [01] assets/local/site__src_assets_exhibition/look-6.webp at x72 (194 wide); [02] assets/local/site__src_assets_exhibition/look-4.webp at x390 (247 wide); [03] new CO-16 (hero_2 keyed) at x770 (134 wide). ROW B tops y850: [04] assets/local/site__src_assets_exhibition/look-3.webp at x200 (178 wide); [05] assets/local/site__src_assets_exhibition/look-1.webp at x560 (143 wide). PIECES pinned to the right of each figure at mid-height, each 100px wide with a blush or gold pin: [01] cutouts/brushed-gold-huggies/00-trim.png at x272,y650; [02] cutouts/baguette-huggies/02-trim.png (Emerald) at x643,y650; [03] cutouts/verdant-eternity-band/00-trim.png at x910,y650; [04] PC-MARQUISE photo card 100x100 (pendant detail, 6px ivory border) at x384,y1070; [05] CO-04 Serpentine Whisper Chain Silver at x709,y1070. TAGS: cream #F6EFE6 rectangles 72x40 with Jost 500 24px #1A1614, under each figure's hem: [01] x120,y790; [02] x470,y790; [03] x800,y790; [04] x250,y1206; [05] x590,y1206; never over a face. NOTE Kalam 36px #1A1614, 4 short lines, at x830,y900 rotated +3deg. C-LOCKUP: C-LABEL 300x96 at x72,y1252 (cream #F6EFE6 label, ink-blush wordmark 210px, blush X-stitches); at x396 Jost 500 22px tracking .30em '#1A1614' 'THE FITTING BOOK' top y1268; Cormorant Garamond italic 34px '#3D3530' 'page twelve.' top y1300.",
+     "copy": "FITTING NOTES   N° 03 | THE LOOK / LIST. | haldi, mehendi, sangeet, shaadi, reception. | [01] | [02] | [03] | [04] | [05] | one piece / per function. / swipe for / the why. | [label: NAIRA wordmark] | THE FITTING BOOK | page twelve."
+    },
+    {
+     "slide": 2,
+     "layout": "TEMPLATE: Ground C-PAPER-RULED. FOLIO 'THE LOOK LIST   [0n] / [05]' x72 y64 Jost 500 22px. FIGURE: the function's couture cut-out cropped just below the chin (no face), scaled to 760px tall (max 1.1x upscale), at x60-430, y200-960, .cut shadow. SWATCH (C-PINKED) 300x300 at x520,y170 rotated +3deg with a pin. CUT-OUT of the piece width 380 at x560-940, y520-860 with a gold-head pin. NOTE Kalam 38px #3D3530 at x540,y900, max 2 lines, arrow to the piece. HEADLINE Velista 104px #1A1614 x72 top y1000; RULE Cormorant italic 48px #3D3530 top y1118; SPEC Jost 400 26px #6B625B top y1222. COUNTER bottom-right. SLIDE [01]: figure assets/local/site__src_assets_exhibition/look-6.webp; swatch assets/local/site__src_assets_lookbook/look-5.webp (430,900,830,1300); piece cutouts/brushed-gold-huggies/00-trim.png. COUNTER '2 / 7'.",
+     "copy": "THE LOOK LIST   [01] / [05] | no stones for / the haldi to settle in. | HALDI. | gold thread, gold tone. | Brushed Gold Huggies · 12 mm · brushed, 18k gold tone plated | 2 / 7"
+    },
+    {
+     "slide": 3,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, figure, swatch, cut-out, note, headline, rule, spec, counter positions and styles). SLIDE [02]: figure assets/local/site__src_assets_exhibition/look-4.webp; swatch assets/local/site__src_assets/testimonials-bl-lehenga.webp (300,800,800,1240); piece cutouts/baguette-huggies/02-trim.png (Emerald). COUNTER '3 / 7'.",
+     "copy": "THE LOOK LIST   [02] / [05] | green, picked / from the print. | MEHENDI. | hands for the henna. colour on the ear. | Baguette Huggies, Emerald · 18 mm · 18k gold tone plated | 3 / 7"
+    },
+    {
+     "slide": 4,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, figure, swatch, cut-out, note, headline, rule, spec, counter positions and styles). SLIDE [03]: figure CO-16 (hero_2 keyed); swatch assets/local/site__public/hero_2.webp (1920,2010,2370,2490); piece cutouts/verdant-eternity-band/00-trim.png. COUNTER '4 / 7'.",
+     "copy": "THE LOOK LIST   [03] / [05] | adjusts US 6 to 8. / see page eight. | SANGEET. | silver thread, full sleeves: the ring talks. | Verdant Eternity Band · green and clear cubic zirconia · rhodium plated | 4 / 7"
+    },
+    {
+     "slide": 5,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, figure, swatch, cut-out, note, headline, rule, spec, counter positions and styles). SLIDE [04]: figure assets/local/site__src_assets_exhibition/look-3.webp; swatch assets/local/site__src_assets/about-uniquely-yours.webp (300,560,860,1120); piece = PC-MARQUISE photo card 380x380 with a 12px #FBF3EC border instead of a cut-out. COUNTER '5 / 7'.",
+     "copy": "THE LOOK LIST   [04] / [05] | a V-neck. / see page three. | SHAADI. | follow the V, with a Y. | Marquise Layering Set · 40 cm + Y-lariat · 18k gold tone plated | 5 / 7"
+    },
+    {
+     "slide": 6,
+     "layout": "Same TEMPLATE as slide 2 (ground, folio, figure, swatch, cut-out, note, headline, rule, spec, counter positions and styles). SLIDE [05]: figure assets/local/site__src_assets_exhibition/look-1.webp; swatch assets/local/site__src_assets/testimonials-tr-fusion.webp (505,540,665,700); piece CO-04 Serpentine Whisper Chain Silver. COUNTER '6 / 7'.",
+     "copy": "THE LOOK LIST   [05] / [05] | 10 mm cushion, / one stone. | RECEPTION. | rose and silver thread: go cool. | Serpentine Whisper Chain · 40 cm + 5 cm · rhodium plated, silver tone | 6 / 7"
+    },
+    {
+     "slide": 7,
+     "layout": "INDEX. Ground C-PAPER-RULED. TITLE Velista 84px x72 top y104; ASIDE Cormorant 44px top y196. Five rows of 190px from y300 (function Jost 500 22px #80612A above each name; cut-out 180px left; name / spec / price right). FOOTER Jost 400 24px #6B625B 2 lines top y1270. COUNTER '7 / 7'.",
+     "copy": "FIVE FUNCTIONS. | planned like a trousseau. | [01] HALDI | BRUSHED GOLD HUGGIES | ₹999 | [02] MEHENDI | BAGUETTE HUGGIES, EMERALD | ₹1,199 | [03] SANGEET | VERDANT ETERNITY BAND | ₹1,099 | [04] SHAADI | MARQUISE LAYERING SET | ₹1,599 | [05] RECEPTION | SERPENTINE WHISPER CHAIN, SILVER TONE | ₹1,299 | Outfits: Naira Flore couture, made to measure in Nashik. | Jewellery: Naira Petite. Every piece arrives in the Naira box. | 7 / 7"
+    }
+   ],
+   "caption": "Five functions, five pieces. The wedding season, planned the way a couture house plans a trousseau.\n\nHaldi: brushed gold huggies, no stones for the haldi to settle in. Mehendi: green huggies, hands left free for the henna. Sangeet: full sleeves, so a ring. Shaadi: a V-neck, so the Y-lariat. Reception: one cushion stone in silver tone.\n\nOutfits from Naira Flore couture, made to measure in Nashik. Jewellery from Naira Petite. Page twelve, the last page of this Fitting Book; the other eleven are below.\n\n[ the look list · 18k gold tone and rhodium plated · five functions, no repeats ]\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout.",
+   "first_comment": "Outfits: Naira Flore couture, made to measure in Nashik.\n#NairaFlore #NairaPetite #WeddingSeason #ShaadiSeason #DemiFineJewellery",
+   "alt_text": "On a sage green ground, five small cut-out figures in Naira Flore couture, numbered one to five: a marigold lehenga, a printed patchwork lehenga, a lilac jacket set, a blush lehenga embroidered with trees and a blush draped saree gown. A small piece of jewellery is pinned beside each. The headline reads The Look List, with haldi, mehendi, sangeet, shaadi, reception beneath it.",
+   "why": "The top-left tile is the first thing ad traffic sees through the December muhurats (2-6 and 11-12 Dec), so it must be the most useful, most Naira page: real couture (130 of 140 posts are couture) meeting real jewellery, which no demi-fine competitor can show. Women 35-54 (64% of purchases) dress as wedding guests across five functions; a numbered plan is a save. Sunday 12:00 is the biggest slot. Every pairing obeys pages one, three, eight, nine and eleven, so the book closes on its own logic.",
+   "claims_check": "Figures are Naira Flore couture photos from the site (exhibition look cut-outs and hero_2); captions never say the models wear Naira Petite (their own earrings are too small to read and are cropped out on interior slides). Brushed Gold Huggies 12 mm, no stones; Baguette Huggies Emerald, 18 mm, described as green; Verdant band adjusts US 6-8, rhodium plated, green cubic zirconia not emerald; Marquise Layering Set 40 cm + Y-lariat; Serpentine Whisper Chain Silver 40 + 5 cm, 10 mm cushion, Rhodium Silver Tone Plated. 'Made to measure in Nashik' is said of the outfits only. 'No stones for the haldi to settle in' describes the plain brushed surface, not a stain-proof claim."
+  }
+ ],
+ "new_assets_needed": [
+  {
+   "id": "CO-01",
+   "kind": "cutout",
+   "description": "Prism Rivière Bracelet, full piece on the cream plinth (replaces cutouts/prism-riviere-bracelet/00, whose matte kept the blue velvet form). Used P1 s3, s5, s6; P11 s4, s6.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/prism-riviere-bracelet/05.jpg, downscaled to 1400px long edge; save cutouts/prism-riviere-bracelet/co-01.png and the bbox-trimmed co-01-trim.png (pad 12px); add to cutouts/index.json with handle 'prism-riviere-bracelet'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte. Remove the plinth block completely; keep the fold-over clasp."
+  },
+  {
+   "id": "PC-MARQUISE",
+   "kind": "photo-crop",
+   "description": "Marquise Layering Set still life as a framed photo card (the packshot crops both chains at the frame edge, so a cut-out would look broken). Used P7 beat 4, P12 cover and s5.",
+   "prompt_or_spec": "Crop assets/shopify/marquise-layering-set/01.jpg box (0,250,1200,1250) (the marquise solitaire pendant and the first lariat station on the plinth); show inside a 6-14px #FBF3EC border with shadow 0 8px 18px rgba(40,22,10,.2), pinned at the top edge."
+  },
+  {
+   "id": "CO-04",
+   "kind": "cutout",
+   "description": "Serpentine Whisper Chain in silver tone, hanging pendant on cream. Used P12 cover, s6, index.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/serpentine-whisper-chain-silver/04.webp, downscaled to 1400px long edge; save cutouts/serpentine-whisper-chain-silver/co-04.png and the bbox-trimmed co-04-trim.png (pad 12px); add to cutouts/index.json with handle 'serpentine-whisper-chain-silver'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte. Source is 640x797: use at 300px wide or less."
+  },
+  {
+   "id": "CO-05",
+   "kind": "cutout",
+   "description": "Mint Pear Drop Earrings, the pair straight on. Used P11 s3, s6.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/mint-pear-drop-earrings/02.jpg, downscaled to 1400px long edge; save cutouts/mint-pear-drop-earrings/co-05.png and the bbox-trimmed co-05-trim.png (pad 12px); add to cutouts/index.json with handle 'mint-pear-drop-earrings'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-06",
+   "kind": "cutout",
+   "description": "Petal Flower Studs, Gold variant. Used P5 cover, s2, s5.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/petal-flower-studs/02.jpg, downscaled to 1400px long edge; save cutouts/petal-flower-studs/co-06.png and the bbox-trimmed co-06-trim.png (pad 12px); add to cutouts/index.json with handle 'petal-flower-studs'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-07",
+   "kind": "cutout",
+   "description": "Heartbead Bracelet coiled flat on sage felt, complete strand with toggle and heart (replaces the cropped cutouts/heartbead-bracelet/00). Used P1 s4, s6.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/heartbead-bracelet/03.png, downscaled to 1400px long edge; save cutouts/heartbead-bracelet/co-07.png and the bbox-trimmed co-07-trim.png (pad 12px); add to cutouts/index.json with handle 'heartbead-bracelet'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte. Felt ground is flat sage, so the matte should be clean; keep the felt's dimples out."
+  },
+  {
+   "id": "CO-08",
+   "kind": "cutout",
+   "description": "Ribbon Bead Bracelet on a flat dusty-pink field. Used P4 cover and beat 3.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/ribbon-bead-bracelet/04.png, downscaled to 1400px long edge; save cutouts/ribbon-bead-bracelet/co-08.png and the bbox-trimmed co-08-trim.png (pad 12px); add to cutouts/index.json with handle 'ribbon-bead-bracelet'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte. Very fine 1.2mm chain: inspect at 200%, repair breaks by hand."
+  },
+  {
+   "id": "CO-09",
+   "kind": "cutout",
+   "description": "Pear Point Open Cuff on the plaster block. Used P9 s2, s7.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/pear-point-open-cuff/02.jpg, downscaled to 1400px long edge; save cutouts/pear-point-open-cuff/co-09.png and the bbox-trimmed co-09-trim.png (pad 12px); add to cutouts/index.json with handle 'pear-point-open-cuff'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-10",
+   "kind": "cutout",
+   "description": "Triple Coil Wrap Bangle, Gold. Used P9 s3, s7.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/triple-coil-wrap-bangle/02.jpg, downscaled to 1400px long edge; save cutouts/triple-coil-wrap-bangle/co-10.png and the bbox-trimmed co-10-trim.png (pad 12px); add to cutouts/index.json with handle 'triple-coil-wrap-bangle'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-11",
+   "kind": "cutout",
+   "description": "Fine Tennis Bracelet, full piece. Used P9 s5, s7.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/fine-tennis-bracelet/02.jpg, downscaled to 1400px long edge; save cutouts/fine-tennis-bracelet/co-11.png and the bbox-trimmed co-11-trim.png (pad 12px); add to cutouts/index.json with handle 'fine-tennis-bracelet'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-12",
+   "kind": "cutout",
+   "description": "Droplet Open Ring, Gold. Used P9 s6, s7.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/droplet-open-ring/02.jpg, downscaled to 1400px long edge; save cutouts/droplet-open-ring/co-12.png and the bbox-trimmed co-12-trim.png (pad 12px); add to cutouts/index.json with handle 'droplet-open-ring'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-13",
+   "kind": "cutout",
+   "description": "Marquise Drop Choker, whole piece. Used P11 s5, s6.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/marquise-drop-choker/02.jpg, downscaled to 1400px long edge; save cutouts/marquise-drop-choker/co-13.png and the bbox-trimmed co-13-trim.png (pad 12px); add to cutouts/index.json with handle 'marquise-drop-choker'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte."
+  },
+  {
+   "id": "CO-15",
+   "kind": "cutout",
+   "description": "The closed blush Naira Petite gift box floating on a dusty pink gradient (real packaging photo). Used P4 cover and beats 5-6.",
+   "prompt_or_spec": "BiRefNet (tools/cutouts.py session 'birefnet-general') on assets/shopify/ribbon-bead-bracelet/06.jpg, downscaled to 1400px long edge; save cutouts/naira-box/co-15.png and the bbox-trimmed co-15-trim.png (pad 12px); add to cutouts/index.json with handle 'naira-box'. Check against the listing photo: stone count, clasp, metal colour, no plinth or prop left in the matte. Keep the lid print (wordmark) sharp; it is the box, not a second logo use, but keep it small (420px) so it does not compete with the label."
+  },
+  {
+   "id": "CO-16",
+   "kind": "cutout",
+   "description": "Naira Flore couture figure: lilac embroidered jacket set (hero_2) keyed off white, for P12 [03].",
+   "prompt_or_spec": "BiRefNet on assets/local/site__public/hero_2.webp cropped to its bbox (1180,1153,2741,5263) and downscaled to 1400px tall; save cutouts/couture-lilac-jacket/co-16-trim.png. The flower she holds may stay. For interior slides crop just below the chin."
+  },
+  {
+   "id": "PC-SWATCHES",
+   "kind": "photo-crop",
+   "description": "Real Naira Flore couture fabric swatches for C-PINKED (all from the site's own couture photography).",
+   "prompt_or_spec": "Crop boxes in source pixels: SW-MARIGOLD assets/local/site__src_assets_lookbook/look-5.webp (430,900,830,1300) and large (380,820,900,1240); SW-LILAC assets/local/site__public/hero_2.webp (1920,2010,2370,2490); SW-NAVY assets/local/site__src_assets_lookbook/look-1.webp (140,780,540,1180) and large (150,700,800,1193); SW-PRINT assets/local/site__src_assets/testimonials-bl-lehenga.webp (480,880,880,1240) and (300,800,800,1240); SW-TREE assets/local/site__src_assets/about-uniquely-yours.webp (300,560,860,1120); SW-ROSE assets/local/site__src_assets/testimonials-tr-fusion.webp (505,540,665,700) (small source: display at 300px or less). Rule: no skin, no hands, no non-Naira jewellery inside any swatch; nudge the box within the garment if a crop catches one. Kurta fill for P5: look-5.webp (380,820,900,1240)."
+  },
+  {
+   "id": "PC-ONMODEL",
+   "kind": "photo-crop",
+   "description": "Worn proof photos (the pieces' own Shopify images), always cropped below the lips.",
+   "prompt_or_spec": "baguette-tennis-necklace/04.jpg (150,320,1050,1430) for P3 s2 and (240,330,960,890) for P10; baguette-tennis-necklace/08.jpg full-bleed below the lips for P10 beat 5; serpentine-whisper-chain-silver/01.png (100,420,1100,1200) for P3 s3; marquise-layering-set/02.jpg (150,0,1050,1110) for P3 s4 and (180,0,1020,1390) for P7; toggle-link-chain/02.jpg (60,150,836,896) for P3 s5; mint-pear-drop-earrings/03.jpg (560,150,1140,870) ear, earring and jaw only for P3 s6; bold-nocturne-chain/04.png (100,330,1100,1490) for P3 s7; duo-link-necklace/01.jpg centre 200x200 for P1 s6. All paths under assets/shopify/."
+  },
+  {
+   "id": "SVG-KIT",
+   "kind": "svg-illustration",
+   "description": "The Fitting Book component set, drawn once and reused: C-LABEL, C-PIN (3 head colours), C-PINKED clip-path, C-PAPER-RULED, C-PAPER-PATTERN.",
+   "prompt_or_spec": "Exact specs in grid_system.emblem_and_recurring_devices and grid_system.lockup. Single stroke language: round caps and joins, no outlines on fills except where stated, radius 0."
+  },
+  {
+   "id": "SVG-HOOP",
+   "kind": "svg-illustration",
+   "description": "Embroidery hoop with stretched net (P2).",
+   "prompt_or_spec": "Two concentric rings (r345 6px #E7C27A, r330 4px #C99A4C), brass screw clamp at 12 o'clock, inner moon glow radial gradient, +45/-45 crosshatch net 1px #E7C27A at 22%, 13px pitch, clipped to the inner ring."
+  },
+  {
+   "id": "SVG-TAPE",
+   "kind": "svg-illustration",
+   "description": "Tailor's tape measure at true scale (P6) and a short draped strip (P10).",
+   "prompt_or_spec": "Band #F6EFE6 with #E9D9C6 edges; ticks #1A1614 1.5px: mm 10px, half-cm 16px, cm 26px; Jost 500 24px numbers; P6 scale exactly 14px per mm so the hoop comparison is honest; P10 strip 50px wide, numbers 34-37, '36' circled in #F5A58F 3px chalk."
+  },
+  {
+   "id": "SVG-THIMBLE",
+   "kind": "svg-illustration",
+   "description": "Brass thimble (P8).",
+   "prompt_or_spec": "200x240, domed top, slight taper, hex grid of 5px dimples stroked #9A7634 over the top two-thirds, plain rim band, gradient #E7C27A to #C99A4C to #9A7634, white highlight streak, soft contact shadow. Warm neutral, never orange."
+  },
+  {
+   "id": "SVG-THREADCARD",
+   "kind": "svg-illustration",
+   "description": "Ganga-Jamuni thread card (P1 s4).",
+   "prompt_or_spec": "520x360 ivory card with V-notched ends; left half wound in gold thread stripes (#E7C27A/#C99A4C), right half silver-grey (#E4E1DC/#A8A39D); two loose ends twisting into one strand."
+  },
+  {
+   "id": "SVG-TORSO",
+   "kind": "svg-illustration",
+   "description": "Front croquis torso with six neckline variants and four length arcs (P3).",
+   "prompt_or_spec": "Base paths given in P3 slide 1 (neck, shoulders, collarbones, arcs 36/40/45/50). Neckline variants: boat, sweetheart, deep V with Y-lariat, band collar with placket, high embroidered neck (blush and gold dot border), plain crew with paperclip-link chain. Pen #4F7268 3px; garment fill #F2CFC4 55%; neckline chalk #F5A58F 4px dashed 12/8. Fashion-croquis proportions, no face, no hands."
+  },
+  {
+   "id": "SVG-SLEEVE",
+   "kind": "svg-illustration",
+   "description": "Sleeve pattern block (P9 cover) and five arm croquis with sleeve lengths (P9 s2-s6).",
+   "prompt_or_spec": "Block paths in P9 slide 1 (cap curve, seams, wrist line, notches, grainline). Arms: one slightly bent arm, shoulder to fingertips, 3px #4F7268, sleeve overlays sleeveless / cap / elbow / three-quarter / full with cuff and two buttons; a simple line hand on the full-sleeve slide."
+  },
+  {
+   "id": "SVG-HEADS",
+   "kind": "svg-illustration",
+   "description": "Head-and-shoulders croquis with four dupatta drapes (P11).",
+   "prompt_or_spec": "Featureless head (no eyes, nose or mouth), centre-parted hair outline, neck, shoulders; drapes as translucent blush net with crosshatch and a scalloped gold-dot gota edge: over the head, one shoulder, pinned across both shoulders as a cape, none (with an omega collar line). Ear markers 6px #F5A58F."
+  },
+  {
+   "id": "SVG-DRESSFORM",
+   "kind": "svg-illustration",
+   "description": "Dress form on a turned stand with a photo window in the bodice (P10).",
+   "prompt_or_spec": "Paths in P10 slide 1. Linen fill #FBF5F0 with a faint crosshatch, princess seams dashed, #B0843A turned pole and three short legs; the bodice outline doubles as the clipPath for the photo window."
+  },
+  {
+   "id": "SVG-CURTAIN",
+   "kind": "svg-illustration",
+   "description": "Trial room: brass rail, rings, plum velvet curtain panels with tiebacks, pen mirror frame (P7).",
+   "prompt_or_spec": "Specs in P7 slide 1. Panels animate open and closed by translating each panel 230px; folds are vertical gradient stripes #4E3C66 to #2E2338."
+  },
+  {
+   "id": "SVG-ORDERSLIP",
+   "kind": "svg-illustration",
+   "description": "The studio order pad slip (P4).",
+   "prompt_or_spec": "640x820 #FBEDE9 slip, perforated top edge, header 'ORDER' and 'N° 0417' in Jost 500 #4F7268, five ruled fields with Jost 500 18px caps labels, Kalam entries. Three copies for the reel, each tearing along the perforation."
+  },
+  {
+   "id": "SVG-HANGER-KURTA",
+   "kind": "svg-illustration",
+   "description": "Wooden hanger, kurta silhouette as a clipPath for the marigold fabric, two garment tags (P5).",
+   "prompt_or_spec": "Specs in P5 slide 1. Kurta: mandarin collar, three-quarter sleeves, side slits, centre placket with five buttons, chalk triangles at the side seams and a chalk hem line."
+  },
+  {
+   "id": "AI-1",
+   "kind": "ai-generated-prop",
+   "description": "Optional real paper fibre under the CSS papers (ruled notebook page and pattern tissue), multiplied at 35% so the pages feel scanned, not flat. Non-jewellery.",
+   "prompt_or_spec": "Top-down scan of two blank paper textures, flat even soft daylight, no objects, no text, no shadows, no vignette: (a) a page from an Indian school ruled notebook, warm ivory paper with faint pale sage horizontal rules and a faint blush pink margin line, visible fibre; (b) a sheet of dressmaker's pattern tissue, very pale warm ivory, slightly translucent, a faint printed grid of small plus marks in pale sage, a few soft creases. Each 2160x2880, photographic, true colour, absolutely never sand, tan, beige or golden. Higgsfield, 1 generation each (2 total)."
+  },
+  {
+   "id": "AI-2",
+   "kind": "ai-generated-prop",
+   "description": "Optional photographic brass thimble for P8 if the SVG thimble reads flat next to the photographic ring. Non-jewellery prop.",
+   "prompt_or_spec": "A single small brass dressmaker's thimble standing upright, photographed straight on at eye level, dimpled top two-thirds, plain polished band at the rim, warm neutral brass, not orange, not yellow, soft large key light from upper left plus one small hard specular highlight, isolated on a flat pale lilac #C9B6CB background with a soft contact shadow, photographic macro, 2048x2048, no text, no other objects. Then BiRefNet cut-out. 1 generation. This option's AI total is at most 3 of the shared 8."
+  }
+ ],
+ "risks": [
+  "Kalam is a fourth face and the brand rule says never add one: the handwritten notes need the owner's sign-off. Better and more Naira: Vandana writes the ~60 short notes by hand in graphite on ivory paper, scanned at 600 dpi and used as images; Kalam is only the stand-in.",
+  "The couture photos (look-1..7, hero_1..3) show models wearing their own statement earrings that are not Naira Petite. They appear only as small figures (P12 cover, 352px tall) or cropped below the chin, and no caption says they wear Naira pieces. Confirm with the owner that these outfits and shoots may be used and are current.",
+  "On-model jewellery photos (marquise-layering-set/02, baguette-tennis-necklace/04 and /08, toggle-link-chain/02, serpentine silver/01, bold-nocturne-chain/04) are Higgsfield generations already live on the PDPs. The owner dislikes anything that reads AI-made; if any plate reads synthetic at 1080, swap to the still-life cut-out version of the slide.",
+  "Stock moves: Baguette Tennis Bracelet Ruby (12), Baguette Huggies Ruby (12), Petal Flower Studs Gold (10), Triple Coil Gold (10), Droplet Open Ring Gold (10). Each post names a fallback colour; re-read roster or Shopify the morning of posting and never post a piece below 5.",
+  "Prices drifted three times in October. Prices appear only on index slides and must be re-read from Shopify on the day each post is rendered.",
+  "Silk Mesh Cuff width conflict: listing says about 15 mm, an approved ad said 19 mm. The number is kept off the P2 image; confirm before using it anywhere.",
+  "Toggle Link Chain clasp: the listing says toggle bar and ring, the brand bible's audit says spring ring with a pavé gate. P3 never describes the clasp; fix the listing.",
+  "House rules must stay consistent across pages (thread decides metal, sleeve decides wrist, neckline first, dupatta). QA should check every pairing against pages 1, 3, 9 and 11 before rendering; one contradiction breaks the book's authority.",
+  "Karwa Chauth is observed mostly in North India and less in Maharashtra (46% of buyers). P2 keeps it to one object (the chalni) with no fasting or husband framing, and the cuff stands on its own for anyone who does not observe it.",
+  "'The card party' (P4, P5) is a common Diwali custom; keep it to the occasion name with no gambling words.",
+  "Clutter risk: a notebook can tip into scrapbook soup, which the owner rejected (stickers, stamps, postmarks). Each cover is capped at one swatch or one tool, pins only where something is attached, at most three notes, one pressed sprig in the whole post.",
+  "Velista lacks the degree sign, square brackets, rupee sign and middle dot; any 'N°', '[01]', '₹' or '·' set in Velista will fall back and break. Builders must set those in Jost.",
+  "Reel covers: changing a cover after posting is unverified; upload the designed 1080x1920 cover at posting. A scheduler may crop 3:4 to 4:5; all masters keep the top and bottom 45px clear.",
+  "AI budget: this option uses at most 3 of the ~8 shared Higgsfield elements (AI-1 two textures, AI-2 optional thimble); everything else is SVG or real photography."
+ ]
+}

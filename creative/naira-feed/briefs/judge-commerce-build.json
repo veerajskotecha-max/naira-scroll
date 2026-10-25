@@ -1,0 +1,131 @@
+{
+  "lens": "Growth lead + production lead. Commerce: does each feed sell the right stock (Ruby, Edition Two, deep-stock bestsellers) to the right buyer (women 35-54, Maharashtra 46%, gifting + self, 57% COD, 69% single-piece orders) at the right time (Karwa Chauth, Diwali, Bhai Dooj, wedding season), building baskets (BUY2/BUY3, sets) and a clear path to purchase? Production: can agents build every frame in a day as HTML/CSS/SVG plus real product photography and the 75 existing BiRefNet cut-outs, within roughly 20 AI-generated non-jewellery elements for both options together, with reels made from stills? Checked against roster.json (prices, variant stock, needs_size, tags), the cutouts index, and the image sizes of every referenced source. Every referenced path either exists or is declared as a new asset. Scores are ten criteria at 1-10 each.",
+  "scores": [
+    {
+      "proposal": "proposal-free-best.json (NAIRA MATCHING CENTRE)",
+      "total_out_of_100": 80,
+      "criteria": "Commercial clarity 8: every tile is one piece matched to one occasion, a shade tag and an exact fact, and the key art leads with Ruby. The WhatsApp 'send the outfit, get three matches' counter is a real purchase path for a COD-heavy 35-54 buyer. It loses points because P11 carries no product. | Stock/price discipline 7: Ruby swap rules and prices match the roster. However, P2 heroes the Cushion Halo Ring, which roster lists as needs_size=true, gift_friendly=false and without size variants, so the caption's 'Sizes are on its page' is probably untrue for a Karwa Chauth gift. | Timing 9: the best calendar of the four. The gift guide lands 1 Nov, 'Send this to your brother' lands 3 Nov (8 days before Bhaubeej, time to deliver), Dhanteras is told straight, the programme lands 13 Nov, 36 cm on 15 Nov, sangeet on 17 Nov, and the ruby set the day after the first muhurat. | Basket building 9: the ruby set appears as a bill (Rs 5,198), alongside necklace + bracelet + huggies 'make it a set', a five-function programme, the Nocturne trio and four gifts. The BUY2/BUY3 line appears in 5 captions. | Shareability 8: P4 exists to be forwarded, P7 asks for a one-word comment, and 'Is it gold?' and the matching-centre nostalgia are recognisable to this buyer. It is less laugh-out-loud than MANGAL. | Production feasibility 7: about 46 frames built from a small kit of parametrised components (tag, pinked swatch, tape, signboard, slip, bill). The drawings are moderate: chalni, kandil, blouse flat, tulsi sprig, mehendi cone. | Asset availability 8: most of the '14 new cut-outs' already exist. Huggies in all four colours are cutouts/baguette-huggies/00-03, the Ruby necklace is baguette-tennis-necklace/01, and the Nocturne trio is at 00. Only the marquise, the box and a clean Prism (x00 exists) need work. It also needs 3 AI textures. | Reel feasibility 9: two reels, both made from existing photographs: P7 match-cuts swatches to the four huggie plates, and P10 adds pushes and a light sweep over the Nocturne macros. | Caption conversion 8: hook + fact + price in the caption, the BUY line on 5 posts, the WhatsApp number as a CTA, and COD and shipping in the first comment. | Amateur risk (10 = low) 7: one real piece per frame on flat fields with gold hairlines and a raw-silk texture. The danger is a paint-chip/template look and a 'humble shop' read if the swatches look flat.",
+      "best_posts": [
+        "P3 The Sample Blouse: four proven gift pieces (Heartbead, Ribbon Bead Rs799, Brushed Gold Huggies, Woven Gold Hoops) for Aai, the friend, Vahini and you. Posted 1 Nov, so it can arrive before Diwali, Padwa and Bhaubeej, and it ends on the WhatsApp counter.",
+        "P12 Guest Orders Undertaken: the ruby set on the top-left tile with a bill slide totalling Rs 5,198. It is the BUY3 basket the economics need and it moves the 70-unit necklace.",
+        "P4 Send This To Your Brother: a static designed to be sent, carrying a Rs 999 two-tone Edition Two bracelet (20 in stock, 0 sold), posted early enough for Bhaubeej delivery.",
+        "P1 the signboard: the relaunch staged as a shop opening with Ruby on the red swatch, which explains the system in five slides.",
+        "P9 36 CM: proof framing (the proven 'THE WIDTH.' mechanic) for the deepest unsold stock, with a make-it-a-set slide."
+      ],
+      "weakest_posts": [
+        "P2 The moon is always late: it heroes the Cushion Halo Ring, which is sized but has no size variants and is not gift-friendly, on a gift occasion, posted on the eve so it cannot arrive in time.",
+        "P11 Tulsi Vivah: a greeting with no product in a 12-slot commerce feed. It sets up P12, but it is a lost selling slot.",
+        "P6 The kandil: a strong Prism tile, but the 3D-faceted paper-star SVG with glow is the hardest drawing in the set and could look clip-art if built rushed."
+      ],
+      "fatal_or_must_fix": [
+        "P2: swap the Cushion Halo Ring (roster: needs_size true, no options, gift_friendly false) for the adjustable Droplet Open Ring or the Serpentine Whisper Chain, and delete 'Sizes are on its page'. Otherwise the post pushes a single-size ring as a surprise gift.",
+        "The WhatsApp 'three matches with photographs' promise runs on P1, P3, P8, P11 and P12. The owner must confirm the team can answer it Mon-Sat 10-7 through Diwali. If not, fall back to the site's exact gifting line.",
+        "AI-2, the Paithani swatch with parrot and lotus zari, is the AI element most likely to read AI-made. Replace it with a real Naira Flore couture fabric crop (hero_2 or look-1/look-5, as the Fitting Book does) or a flat SVG swatch. This also saves a credit.",
+        "Reuse existing cut-outs instead of re-cutting: huggies 00-03, necklace Ruby 01-trim, Nocturne 00-trim, Prism x00. Only the marquise (its plinth is left in the matte) and the closed box need new mattes.",
+        "P1 slide 4 sets five scripts. Any board without a native-reader check on the day must be dropped."
+      ],
+      "graftable_ideas": [
+        "The Shade Tag as a recurring hang-tag lockup that carries an exact fact: a cheap, repeatable component that any feed can use.",
+        "The bill slide (three lines and a list-price total, with no discount on the art) as the honest BUY3 closer.",
+        "A WhatsApp matching CTA in captions: a real path to purchase for a COD-heavy 35-54 buyer.",
+        "'SEND THIS TO YOUR BROTHER.' as a send-built static for Bhai Dooj, posted 8 days before.",
+        "'IS IT GOLD? 18k gold tone plated. Solid gold? no.' as the Dhanteras answer to the category's 'Buy 1 Get 1 18K Gold' noise."
+      ]
+    },
+    {
+      "proposal": "proposal-retro-print.json (THE NAIRA REISSUE / FLOWER BRAND)",
+      "total_out_of_100": 75,
+      "criteria": "Commercial clarity 7: each tile pairs one print idiom with one real piece and one fact, and P6 carries the best ad ever (Ruby + anar) into the feed on Diwali. It loses points for three things. The NAIRA wordmark never appears on a cover. An invented 'FLOWER BRAND' mark stands in for the brand on every tile. The P4 cover shows no piece. | Stock/price discipline 9: the heroes are the sellers (Woven, Prism, Ruby bracelet, Heartbead, Brushed) and the unsold deep stock (necklace 70/0, Kiss Knot 40/0, Toggle 79). It has a Ruby stock guard with a swap to the necklace, and prices sit only on colophons and in captions. | Timing 6: the four-gift mithai guide (P5) lands on Dhanteras (6 Nov), too late for delivery before Diwali. Karwa Chauth (P2) and Bhai Dooj (P7) land on the eve. Children's Day as a 'Name: Mummy' post is a clever, well-timed moment, and the wedding posts (P11 20 Nov, P12 22 Nov) are well placed. | Basket building 8: the BUY2/BUY3 line is in 7 captions. 'Take two pairs' on P1 and the Woven + Brushed pairing on P3 build baskets, along with 4 mithai pieces, two metals of one bangle, a necklace into a three-piece set, and the Nocturne trio as BUY3. | Shareability 8: the DD slate, the inland letter, the cassette, the notebook label and the mithai lid are all childhood print this buyer forwards, but no first comment asks anyone to tag or answer. | Production feasibility 7: flat vernacular print (colour bars, labels, perforations, stamps, calendars, cassettes) is the most SVG-native idiom of the four. The only figurative drawing is P3's line drawing of a woman with two plaits. It is about 48 frames with one Devanagari line per frame. | Asset availability 8: every referenced file exists and only 2 AI textures are needed (night sky, paper). The ~12 'new' cut-outs mostly duplicate existing ones. | Reel feasibility 8: TV snow, bars and channels; a matchbox drawer; cassette hubs and a flip. All are graphic CSS animations from stills plus simple foley. | Caption conversion 8: hook, then fact, then price in the caption, with the BUY line on 7 and box/COD on P4. The [ piece · material · wink ] kickers are strong. | Amateur risk (10 = low) 6: limited inks and one real photographic object keep it premium, but retro print is a known Canva trope. Misregistration, test-card bars and the stamp + postmark can tip into costume or kitsch.",
+      "best_posts": [
+        "P6 ANAR: the Ruby Baguette Tennis Bracelet as the Sivakasi flower-pot cracker on Diwali, which extends 'Anaar, pre-peeled.' (Rs 335 per purchase, ROAS 4.52) into the feed on the biggest day.",
+        "P11 The Programme: one necklace, three functions in Emerald, Crystal and Ruby. It pushes the 70-unit, 0-sold necklace toward the Ruby set as BUY3, timed for the eve of Tulsi Vivah.",
+        "P9 Name: Mummy: a Children's Day post aimed at the actual buyer (the mother), with the Rs 799 entry piece. Highly shareable.",
+        "P12 December, Already Full: the Nocturne trio (53/49/19 in stock, already bought together once as a BUY3) on a Marathi wall calendar for the top-left tile.",
+        "P3 Do Choti: the #1 bestseller on a fancy-store earring card, with the Woven + Brushed basket in the caption."
+      ],
+      "weakest_posts": [
+        "P1 The Interruption: the relaunch after 76 days is a reel (reels earned 10% of purchases on 72% of impressions), and the huggies sit at 150 px under a slate. A strong joke on a weak selling format for the one post that must convert ad traffic.",
+        "P4 Safety Box: a matchbox cover with no piece visible, selling three slow movers by name only in a reel.",
+        "P5 Assorted: a good four-gift guide placed on Dhanteras, after the last safe order date for Diwali."
+      ],
+      "fatal_or_must_fix": [
+        "Move the mithai gift guide (P5) to 1-3 Nov and let the Ruby anar hold Diwali day. As placed, the gift guide cannot deliver before Diwali.",
+        "Put NAIRA on every cover (on the seal ribbon or the slug). Ad traffic needs to see the brand they clicked, and 'FLOWER BRAND' alone reads as a different label.",
+        "Make P1 a carousel or static, with the reel moved to week 2, or at least give the cover one Ruby piece large enough to read at 36%.",
+        "P3 woman-from-behind line drawing: keep it to a few strokes (or replace it with an abstract plait). A figurative single-line drawing is the one place this option can look amateur.",
+        "Kalam handwriting on five posts needs owner sign-off, as does the firecracker reference on Diwali, and the India Security Press / Nashik Road wording must be verified."
+      ],
+      "graftable_ideas": [
+        "Extend the best ad with a same-word object: anar for the Ruby baguette on Diwali.",
+        "'Name: Mummy' on Children's Day: an occasion reframed for the real buyer.",
+        "The colophon (THE ORIGINAL / THE REISSUE / THE PIECE) as a consistent last slide that carries price, facts and the URL.",
+        "Wedding card inserts as 'dress codes' (Emerald mehendi, Crystal sangeet, Ruby reception): one SKU shown in three colours as a set builder.",
+        "The DD slate 'रुकावट के लिए खेद है' to own the 76-day silence."
+      ]
+    },
+    {
+      "proposal": "proposal-indian-pop.json (MANGAL: the Tuesday gold season)",
+      "total_out_of_100": 69,
+      "criteria": "Commercial clarity 7: object tiles are exactly the winning formula (almirah, dabba, lifafa, missed-call phone, box), each with one piece and a price label. However, the relaunch cover P1 is a nine-script type poster with no product, and MANGAL = Tuesday = auspicious takes a slide to explain. | Stock/price discipline 9: every bestseller gets a tile (Ruby bracelet, Woven, Prism, Ruby huggies, Heartbead, Brushed, Ruby necklace), unsold deep stock fills the guides, the swap rules are written, and prices match the roster. | Timing 6: the thali (3 Nov) and wedding calendar (17 Nov) are well timed. But the Karwa Chauth (P2, Wed 28) and Bhai Dooj (P7, Tue 10 Nov) gift posts are eves whose captions admit the piece arrives after the day. | Basket building 6: the BUY2/BUY3 line is in only 2 of 12 captions (P4, P10), and most tiles sell one piece with no set or pairing. Even the Ruby huggies, bought with the Ruby bracelet, are not linked. | Shareability 9: the strongest wit in the set, and the owner's own top-scored lines: 'Not locker gold. Tuesday gold.', the dabba never goes back empty ('tag the neighbour'), Rs 501 shagun ('tag the brother'), the missed-call code, and collect-the-script. | Production feasibility 5: zero AI, but about 12 bespoke flat illustrations (almirah open and closed with sarees and locker contents, thali + 5 katoris, dabba with kaju katli, lifafa, 2006 phone with a dot-matrix screen, saved boxes, calendar, antarpat with mehndi hands, chaabi key with a 15-strand tassel). Add nine Indic scripts with keyline and misregistration that need fetched fonts and native-reader checks of ten languages. Not safely a one-day build. | Asset availability 8: every photo exists (rangoli Prism plate, katli Heartbead plate, invitation plate, worn hoop, box photos) and the cut-outs exist except the marquise recut and the box. The Tiro, Gulzar and Noto fonts must be downloaded. | Reel feasibility 8: phone ring-and-wobble, box drop onto a shelf then real box photos, and a cloth drop with akshata. All are simple from stills. | Caption conversion 6: great hooks and the price in the caption, but the offer is in only 2, there is almost no COD or shipping line, 'Today's mangal' adds length, and two captions tell buyers it will arrive late. | Amateur risk (10 = low) 5: steel-shorthand flat objects drawn by agents easily read as clip-art. The MANGAL seal (keyline + offset + tulip + chaabi + eyebrow + label) on 10 tiles risks the density the owner rejects. Two photo-led tiles help.",
+      "best_posts": [
+        "P3 Not locker gold. Tuesday gold.: the owner's 10/10 line with the #1 bestseller (Woven, 63 in stock) in the almirah mirror.",
+        "P6 The dabba never goes back empty: Ruby huggies on Diwali, a Maharashtrian ritual, with a 'tag the neighbour' first comment and all four colours on slide 3.",
+        "P8 Two rings: call me back: the Rs 999 entry bestseller as a shared-memory reel. Cheap to build, very sendable.",
+        "P5 The only rangoli nobody steps on: the proven rangoli Prism plate (12 ATC per Rs 1k) with 'Rhodium is a metal. We checked.' on Dhanteras."
+      ],
+      "weakest_posts": [
+        "P1 MANGAL key art: the relaunch cover has no product. It is nine scripts that must each be native-checked, and the Ruby bracelet only appears on slide 3.",
+        "P2 Moon first: the slot goes to the Droplet Open Ring (0 sold, 10 per metal), posted on the eve with 'it arrives after the moon'.",
+        "P4 The Mangal Thali: five katoris of five pieces with 0-2 sales each, plus a menu card. Heavy to draw, and a weak buy signal.",
+        "P10 The Shaadi Calendar: six unsold pieces on eight slides; the calendar build is easy but the merchandising is thin."
+      ],
+      "fatal_or_must_fix": [
+        "Cut the scripts to the ones a native reader can verify on the day (Marathi, Hindi, maybe one more). Ten languages unchecked on a premium brand is a real public-error risk, and it gates every lockup.",
+        "Put the Ruby bracelet on the P1 cover (or swap P1 for a product-led tile). The first post after 76 days must sell to arriving ad traffic.",
+        "Move the Bhai Dooj envelope (P7) to 3-5 Nov and replace the Karwa Chauth ring with an in-stock bestseller, or accept both as moment posts without gift framing.",
+        "Add the exact BUY2/BUY3 line to the set-friendly captions (P6 Ruby huggies with the bracelet, P12 the Ruby necklace set, P3 Woven with Brushed).",
+        "Simplify the figurative and complex drawings (P12 mehndi hands holding the antarpat; P3 slide 2 open almirah with sarees, velvet ring box, bangles and coins) or replace them with photo frames."
+      ],
+      "graftable_ideas": [
+        "The owner's top-scored lines as headlines: 'Not locker gold. Tuesday gold.', 'The dabba never goes back empty', 'One ring: I've reached. Two rings: call me back.'",
+        "First comments that prompt tags and replies: 'Tag the neighbour whose dabba is still in your kitchen', 'Tag the brother who still gives Rs 501'.",
+        "Reuse owner-approved, proven plates as quiet photo tiles: the rangoli Prism (P01_a1), the kaju katli Heartbead (H09_a1), the invitation + crystal bracelet (approved-ads 07).",
+        "'Rhodium is a metal. We checked.' to handle Dhanteras for a rhodium piece.",
+        "An almirah mirror framing a real worn photo: the PTAT drawn-frame technique with a real product inside."
+      ]
+    },
+    {
+      "proposal": "proposal-couture-scrapbook.json (THE FITTING BOOK)",
+      "total_out_of_100": 68,
+      "criteria": "Commercial clarity 6: the guides are useful, but most covers headline a styling rule rather than a piece, and the couture outfits often upstage the jewellery. The relaunch P1 leads with the Kiss Knot Bangle (0 sold) instead of Ruby or a bestseller. Woven gets one static, and Prism and Heartbead appear only inside carousels. The data warns that couture-led traffic and boosted couture-voice posts did not sell (couture campaigns Rs 55.5k, 0 purchases; boosts ROAS 0.4). | Stock/price discipline 8: all pieces are 18-79 in stock with named colour fallbacks, prices sit on index slides only and are re-read daily. Several 10-unit variants are leaned on (Petal Gold, Triple Coil Gold, Droplet Gold). | Timing 8: the three-gift order-slip reel lands 3 Nov (delivers for Diwali and Bhai Dooj), the Diwali-week kurta 5 Nov, and the sleeve guide in the week blouses go to the tailor. The neckline, dupatta and look-list guides lead into the 21-26 Nov muhurats. Karwa Chauth is a moment post on the day. | Basket building 8: index slides with 4-6 priced pieces, the BUY line in 7 captions, a three-gift reel, and pairings that cross-reference earlier pages. | Shareability 8: the neckline lengths, 'the sleeve decides the wrist' and 'nothing for the net to catch' are save-and-send guides for a 35-54 wedding guest. The wit is gentler, with fewer tag prompts. | Production feasibility 4: about 63 frames plus 3 animated reels with foley. Croquis torso with six necklines, five arm croquis with sleeves and a hand, four featureless heads under net dupattas, a dress form, a kurta clip-path and a velvet curtain. Kalam notes with pencil arrows sit on almost every slide. Too much figurative SVG for agents in a day. | Asset availability 7: the real couture swatches are beautiful and the exhibition figures are already RGBA. However, P1 slides 2-3 upscale 520x420 and 650x493 crops of 1100 px webps to 1080 wide (soft), and the couture photos need usage confirmation. Many 'new' cut-outs (CO-05/06/09/10/11/12/13) already exist in cutouts/. | Reel feasibility 7: order-slip write-on and tear, curtain open, and a dress form dissolving into a worn photo. All work from stills, but the tear and write-on choreography is fiddly and needs foley. | Caption conversion 7: short hook, then fitting note, then kicker, with the BUY line in 7. But prices are absent from almost every caption, there is no WhatsApp or COD line on the guides, and 'Page N of the Fitting Book' is filler. | Amateur risk (10 = low) 5: pins through every cut-out, faux handwriting with arrows, pinked swatches and anatomy drawings by agents add up to the scrapbook-soup risk the owner has already rejected. It caps each page, but the base devices skew craft.",
+      "best_posts": [
+        "P3 First the neckline: six necklines with 36/40/45/50 cm lengths from the PDP size guide. A true save-magnet that sells the 70-unit, 0-sold necklace and Toggle (79).",
+        "P6 25 MM.: Woven Gold Hoops measured on a tailor's tape at true scale on bottle green. The proven 'THE WIDTH.' mechanic, quiet on Diwali.",
+        "P11 Nothing for the net to catch: a wedding-specific problem solved with huggies (deep stock, a family that over-indexes in the market). Highly sendable.",
+        "P4 Measurements: not needed: three named gifts on studio order slips, posted 3 Nov in time for delivery. The unboxing topic is the one that broke out on the account."
+      ],
+      "weakest_posts": [
+        "P1 The thread decides the metal: the relaunch after 76 days heroes a 0-sold bangle across 7 dense slides, with soft upscaled swatch photos.",
+        "P8 The thimble comes off at six: a drawn or AI brass thimble beside the Verdant band (3 sold). The thimble must hold up next to a real photo.",
+        "P12 The Look List: five exhibition couture figures with full faces and their own non-Naira earrings on the top-left product tile. It conflicts with the 'no full faces on product tiles' rule and could imply the wrong jewellery.",
+        "P9 The sleeve decides the wrist: five arm croquis with sleeves and a drawn hand. This anatomy is beyond reliable agent SVG."
+      ],
+      "fatal_or_must_fix": [
+        "Replace anatomy with garment flats: draw necklines on a blouse or bodice flat (no torso), sleeves as pattern blocks only (no arms or hands), dupatta drapes on a hanger or dress form (no heads). Otherwise P3, P9 and P11 look amateur.",
+        "Relaunch P1 with Ruby or a bestseller on the cover (or move the Kiss Knot rule to week 2).",
+        "Do not upscale swatch crops past about 1.3x. Keep the pinked swatches small or use the full-resolution hero_2 (4331x5771).",
+        "P12 cover: crop the couture figures below the chin, as the interior slides already do, or use swatches. Confirm usage rights for the couture shoots.",
+        "Cut carousels to 5 slides and drop Kalam (a fourth face) unless the owner signs off or Vandana's scanned handwriting is available. As written this is the heaviest build of the four.",
+        "Add the price and a COD/shipping line to the captions that currently carry neither."
+      ],
+      "graftable_ideas": [
+        "The neckline-length guide (36/40/45/50 cm) with the Baguette Tennis Necklace and Toggle Link Chain, ideally drawn on a blouse flat.",
+        "'Nothing for the net to catch': huggies under net dupattas as a wedding-guest guide.",
+        "'25 MM.': a tailor's tape at true scale under the Woven Gold Hoops, with 'Tape and hoop drawn at the same scale.'",
+        "Real Naira Flore couture fabric crops as swatches instead of AI fabric (the hero_2 lilac, the look-1 navy and the look-5 marigold are real and beautiful).",
+        "'The thread decides the metal' (gold zari takes gold tone, silver thread takes rhodium) as the simplest explanation of Edition Two's two-metal choice."
+      ]
+    }
+  ],
+  "recommendation": "Show the owner MATCHING CENTRE (proposal-free-best, 80) and THE NAIRA REISSUE (proposal-retro-print, 75). Both sell the right stock with real baskets, and both can be built by agents in a day. Together they need 5 AI textures, well inside the budget (fewer if the Paithani texture becomes a real couture swatch). They are also the most distinct pair. MATCHING CENTRE is the couture-house counter world (swatches, tags, tape, a WhatsApp service). REISSUE is vernacular Indian print nostalgia (DD slate, inland letter, cassette, mithai lid). Pairing Matching Centre with the Fitting Book would show the owner two versions of the same idea, as would pairing Reissue with MANGAL. MANGAL (69) has the best wit and the owner's own top lines but the worst build risk (ten unverified scripts, a dozen bespoke object illustrations) and weak basket building. The Fitting Book (68) has the most useful guides but buries the bestsellers under couture and needs anatomy drawings agents cannot reliably make. Before building: (1) Matching Centre: swap the P2 Cushion Halo Ring (sized, single size, not gift-friendly) for the Droplet Open Ring or Serpentine chain; confirm the WhatsApp matching capacity; replace the AI Paithani with a real couture fabric crop; reuse existing cut-outs. (2) Reissue: move the P5 mithai gift guide to 1-3 Nov so it delivers before Diwali; put NAIRA on every cover; make P1 a still or carousel (or show Ruby large on the reel cover); keep the P3 line drawing minimal. Graft MANGAL's best lines into Reissue captions or a swapped tile ('Not locker gold. Tuesday gold.', the dabba, the missed-call huggies), along with its tag-prompt first comments and the proven rangoli Prism plate. Graft the Fitting Book's neckline-length guide and '25 MM.' tape into Matching Centre's माप series. Across both: re-read Ruby stock (12 bracelet, 12 huggies, selling about one a day) on each posting morning, and put the exact BUY2/BUY3 line on every multi-piece caption."
+}

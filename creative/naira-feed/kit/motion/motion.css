@@ -1,0 +1,88 @@
+/* ════════════════════════════════════════════════════════════════════════
+   NAIRA · motion cookbook (tested with tools/reel.cjs, 25 Oct 2026)
+   Link after tokens.css. Every animation is plain CSS @keyframes, so reel.cjs can
+   seek it frame-exactly (it pauses every animation and sets currentTime = t).
+   House pace: calm. Entrances 0.8–1.4 s, holds ≥ 1.2 s, eases from the list below.
+   Nothing jitters, nothing bounces more than once, nothing spins for fun.
+   Use animation-delay for sequencing and animation-fill-mode: both on everything.
+   ════════════════════════════════════════════════════════════════════════ */
+:root{
+  --ease-out: cubic-bezier(.16,1,.3,1);      /* settles softly: entrances, drawers */
+  --ease-inout: cubic-bezier(.65,0,.35,1);   /* doors, shutters, page turns */
+  --ease-in: cubic-bezier(.5,0,.75,0);       /* exits */
+  --ease-drop: cubic-bezier(.2,.9,.25,1.08); /* a piece landing: one tiny overshoot */
+}
+.m{animation-fill-mode:both;animation-duration:1s;animation-timing-function:var(--ease-out)}
+
+/* ── Entrances ──────────────────────────────────────────────────────────── */
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
+@keyframes fade-out{from{opacity:1}to{opacity:0}}
+@keyframes rise-in{from{opacity:0;transform:translateY(46px)}to{opacity:1;transform:none}}
+@keyframes drop-in{from{opacity:0;transform:translateY(-120px) rotate(-6deg)}60%{opacity:1}to{opacity:1;transform:none}}
+@keyframes scale-in{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+/* type lines: wrap each line in <span class="line"><span class="m type-up">…</span></span> */
+.line{display:block;overflow:hidden;padding-bottom:.08em}
+@keyframes type-up{from{transform:translateY(105%)}to{transform:none}}
+
+/* ── Shutter (rolling steel shutter): .shutter over the shop opening ─────── */
+.shutter{position:absolute;overflow:hidden;
+  background:repeating-linear-gradient(180deg,#C9CFCD 0 22px,#AEB6B4 22px 24px,#DDE2E0 24px 30px,#9EA7A5 30px 32px);
+  box-shadow:inset 0 -14px 0 #8C9593, inset 0 -18px 0 #6F7876}
+@keyframes shutter-up{from{transform:translateY(0)}12%{transform:translateY(-3%)}20%{transform:translateY(-2%)}to{transform:translateY(-101%)}}
+/* use: animation: shutter-up 2.2s var(--ease-inout) 0.6s both;  the 12–20% stutter is the hand-lift */
+
+/* ── Drawer: a box drawer sliding out of its sleeve (2.5D, front view) ───── */
+@keyframes drawer-out{from{transform:translateY(0)}to{transform:translateY(var(--drawer-travel,260px))}}
+@keyframes drawer-in{from{transform:translateY(var(--drawer-travel,260px))}to{transform:translateY(0)}}
+
+/* ── Doors / flaps (3D). Parent needs perspective:1600px ─────────────────── */
+@keyframes door-open-left{from{transform:rotateY(0)}to{transform:rotateY(-108deg)}}
+@keyframes door-open-right{from{transform:rotateY(0)}to{transform:rotateY(108deg)}}
+@keyframes flap-open{from{transform:rotateX(0)}to{transform:rotateX(-170deg)}}
+
+/* ── Line drawing: SVG paths with pathLength="1" and class "draw" ──────── */
+.draw{stroke-dasharray:1;stroke-dashoffset:1;fill:none}
+@keyframes draw{to{stroke-dashoffset:0}}
+/* use: style="animation:draw 1.6s var(--ease-inout) .4s both" ; stagger delays per path */
+
+/* ── Iris (the bioscope / peephole / moon reveal) ────────────────────────── */
+@keyframes iris-open{from{clip-path:circle(0% at var(--ix,50%) var(--iy,50%))}to{clip-path:circle(var(--ir,75%) at var(--ix,50%) var(--iy,50%))}}
+@keyframes iris-close{from{clip-path:circle(var(--ir,75%) at var(--ix,50%) var(--iy,50%))}to{clip-path:circle(0% at var(--ix,50%) var(--iy,50%))}}
+
+/* ── Wipes ───────────────────────────────────────────────────────────────── */
+@keyframes wipe-down{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+@keyframes wipe-right{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0)}}
+
+/* ── Gold glint: <div class="glint" style="--src:url(cut.png)"> over the piece.
+   The sheen is masked by the cut-out's own alpha, so it only crosses the metal. */
+.glint{position:absolute;pointer-events:none;mix-blend-mode:screen;
+  -webkit-mask-image:var(--src);mask-image:var(--src);-webkit-mask-size:100% 100%;mask-size:100% 100%;
+  background:linear-gradient(105deg,transparent 0 38%,rgba(255,248,225,.0) 40%,rgba(255,246,214,.85) 48%,rgba(255,255,255,.95) 50%,rgba(255,246,214,.85) 52%,transparent 60% 100%);
+  background-size:300% 100%;background-position:120% 0}
+@keyframes glint{from{background-position:120% 0}to{background-position:-20% 0}}
+/* use: animation: glint 1.4s var(--ease-inout) 2s both */
+
+/* ── Diya flame + glow ───────────────────────────────────────────────────── */
+.flame{position:absolute;width:22px;height:40px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
+  background:radial-gradient(circle at 50% 70%,#FFF6D8 0 25%,#FFC765 45%,#F08A2E 70%,rgba(240,138,46,0) 72%);transform-origin:50% 100%}
+@keyframes flicker{0%,100%{transform:scale(1,1) rotate(0)}20%{transform:scale(.96,1.06) rotate(-2deg)}45%{transform:scale(1.03,.95) rotate(1.5deg)}70%{transform:scale(.98,1.04) rotate(-1deg)}}
+.glow{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(255,196,110,.55),rgba(255,196,110,0) 70%)}
+@keyframes glow-breathe{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
+@keyframes light-on{0%{opacity:0}8%{opacity:.7}10%{opacity:.1}16%{opacity:.85}19%{opacity:.3}26%,100%{opacity:1}}
+/* light-on = a tube light catching: use once, ~1.2 s */
+
+/* ── Sway (toran, tassel, kandil tails), hang from transform-origin top ──── */
+@keyframes sway{0%,100%{transform:rotate(-2.2deg)}50%{transform:rotate(2.2deg)}}
+
+/* ── Falling petals / confetti of paper (use 6–12, staggered delays) ─────── */
+@keyframes fall{from{transform:translate(0,-140px) rotate(0)}to{transform:translate(var(--dx,60px),2100px) rotate(var(--rot,540deg))}}
+
+/* ── Slow push-in on a plate (Ken Burns, keep ≤ 6%) ──────────────────────── */
+@keyframes push-in{from{transform:scale(1)}to{transform:scale(1.06)}}
+@keyframes drift-x{from{transform:translateX(0)}to{transform:translateX(var(--dx,-40px))}}
+
+/* ── Stamp / seal landing (a printed mark pressed onto paper) ────────────── */
+@keyframes stamp{0%{opacity:0;transform:scale(1.35) rotate(-8deg)}55%{opacity:1;transform:scale(.97) rotate(-3deg)}100%{opacity:1;transform:scale(1) rotate(-3deg)}}
+
+/* ── End card helper ─────────────────────────────────────────────────────── */
+.endcard{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px}
