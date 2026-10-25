@@ -89,5 +89,11 @@ Care copy is the plain line, with no waterproof, tarnish-free or hypoallergenic 
    - ADT03 is close to Verdant Rivière Bracelet (draft, 5) and the Emerald option of Baguette Tennis Bracelet. Those use rectangular stones; ADT03's are square.
    - ADT04 joins four round clear gold lines already in the store: Rivière Eternal (live, 34), the KAVNAR Rivière Eternal (draft, 20), Rivière of Light (live, 0 units) and Fine Tennis (live, 20).
 4. **Violet centre flower.** It is shot with all lilac petals. Some petals look clear in Aditya's photo, which is probably glare; check it against the piece when the stock arrives.
+5. **Lumière size (ADT08).** It was checked against Aditya's photo on 25 Oct, after the owner's review note "Check with real one once" (go live: no). The design matches: crosswise ovals, one round centre stone in claws and a box clasp. The size does not:
+   - On the piece the line is about 5 mm wide, the slim ovals sit about 3 mm apart and the centre stone is about 8 to 9 mm.
+   - The wrist photos draw the line about 1.3× too big: about 6.5 to 7 mm wide, with fewer and rounder ovals, and a centre of about 10.5 to 11 mm.
+   - The hero is closer: its centre is about 8.7 mm, but its line is about 6 mm wide.
+
+   A tennis line can't be warped smaller without changing its stone count, so the fix is a reshoot of all 4 photos, about 8 credits a try. It waits for the owner's go-ahead. The copy's 7 mm centre may also be a little small: Aditya's photo suggests about 8 mm, so check it with a ruler.
 
 Scripts run from this folder's layout with `python3 -I`. `build/out/` (the raw frames) and the Higgsfield upload response, which holds presigned URLs, are not committed (see `.gitignore`).
