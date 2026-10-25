@@ -54,7 +54,7 @@ The recipe is the aditya-bracelets one (`build/build.py`): a hero on the cream p
 
 ### 25 Oct size check
 
-Every worn frame was measured against the body it is on (a mouth is about 48 mm wide, an ear about 58 mm tall, a wrist about 52 mm across, a finger about 16.5 mm), and every supplier photo against Aditya's own hand. Ten worn photos read too big or wrong and were brought to their listed size:
+Every worn frame was measured against the body it is on (a mouth is about 48 mm wide, an ear about 58 mm tall, a wrist about 52 mm across, a finger about 16.5 mm), and every supplier photo against Aditya's own hand. Ten worn photos read too big or wrong. Eight are now at their listed size; for the prism pair the owner kept the 25 Oct photos:
 
 | SKU | Piece | Listed | Worn photo read | Now | How |
 |---|---|---|---|---|---|
@@ -66,13 +66,13 @@ Every worn frame was measured against the body it is on (a mouth is about 48 mm 
 | ADT15 | Bow Pear Drop Necklace | bow 10 mm | 19 mm | 11 mm | pinch, `J07_W1p` |
 | ADT16 | Petite Blossom Bracelet | flower 8.5 mm | 12 mm | 8.5 mm | pinch, `J08_W1p` |
 | ADT19 | Molten Wave Ear Cuff | 15 × 12 mm | removed | 15 mm | new take on the rim, pinched, `J11_W1qp` |
-| ADT24 | Prism Pear Drop Necklace | drop 12 mm | 21 mm | 12.5 mm | cut and scaled, `J16_W1d` |
-| ADT25 | Prism Pear Drop Hoops | 21 mm long | 29 mm | 21 mm | cut and scaled, `J17_W1d` |
+| ADT24 | Prism Pear Drop Necklace | drop 12 mm | 21 mm | 21 mm | the owner kept `J16_W1r2`; the cut-and-scaled `J16_W1d` (12.5 mm) is not used |
+| ADT25 | Prism Pear Drop Hoops | 21 mm long | 29 mm | 29 mm | the owner kept `J17_W1h2`; the cut-and-scaled `J17_W1d` (21 mm) is not used |
 
 - `build/retouch.py` makes every retouched frame from its source take. A *pinch* scales the ellipse round the piece about its centre and eases back to full size, so a chain stays joined to it. *Cut and scaled* clone-stamps the area with plain skin or hair and pastes the piece back smaller from its bail or piercing. The swap cuts the packshot's stud and sets it on a cleaned lobe.
 - Plain shrink edits on Higgsfield came back the same size, and blends of the cut composites redrew three pendants large or added parts, so J02 is the only model output kept (`build/fix_requests.py`). The ear cuff took six takes; every one put the cuff on the lower half of the ear, and the one kept hugs the outer rim above a bare lobe. Higgsfield cost: 22 credits (120.07 to 98.07).
 - On size and left alone: the clover station, open heart, watch link and zigzag photos, the pearl hearts (about 9 mm against 7 mm), and all eight phase 1 bracelets, whose stone counts across the wrist match their 3 to 6 mm stones.
-- Copy: the ear cuff now reads 15 mm across and 12 mm tall (it said 15 mm tall). Against Aditya's thumb it is about 15 to 16 mm across and 12 mm tall.
+- Copy: the ear cuff now reads 15 mm across and 12 mm tall (it said 15 mm tall). Against Aditya's thumb it is about 15 to 16 mm across and 12 mm tall. The prism copy still says a 12 mm drop and 21 mm hoops, smaller than the photos the owner kept and than Aditya's photo (about 17 mm and 30 mm).
 - Open, copy left as it is: (1) the owner's 30% note puts the velvet card at about 52 mm, but Aditya's thumb and the bracelets wrapped round it put it at about 80 mm, which would make the hearts and pears about 1.5 times what the copy now says; a ruler on one Twin Heart stud settles it. (2) Against his fingers the ring stones are bigger than listed: Asscher about 10 mm (8), cushion about 16 × 10 mm (12 × 8), oval about 10 × 8 mm (7 × 5), and the Lumière Solitaire Bracelet's centre stone about 9 to 10 mm (7). The worn ring photos agree with the supplier photos.
 
 ## Shopify
@@ -82,7 +82,7 @@ Verified on 25 Oct 2026 (`shopify/pushed.json`, `shopify/cdn_check.txt`):
 - 18 products with vendor Naira Petite, the product category, the Google and Facebook category metafields, tracked inventory at Forest Colony Parijat Nagar, and the house description (intro, styling tip, details, size guide where there is one, care, box line).
 - All 18 are attached to the same 6 sales channels as the live jewellery: Online Store, Point of Sale, Facebook & Instagram, Google & YouTube, Naira Headless and Lovable (25 Oct, 12:46 UTC).
 - 9 are Active, all set by the owner from Shopify Mobile: ADT20, ADT22, ADT23 and ADT26 first, then ADT09, ADT10, ADT13, ADT14 and ADT15 (25 Oct, about 13:22 UTC). The other 9 are drafts.
-- The owner also changed units on most pieces and some prices (ADT11 ₹800, ADT13 ₹999, ADT15 ₹999, ADT23 ₹699, ADT26 ₹999), and removed the worn photos of ADT09, ADT10, ADT11, ADT14, ADT15 and ADT19. Those edits are kept. The size check added corrected worn photos back to those six as image 2 and replaced ADT13, ADT16, ADT24 and ADT25's in place; nothing else on the listings changed except the ear cuff's size line.
+- The owner also changed units on most pieces and some prices (ADT11 ₹800, ADT13 ₹999, ADT15 ₹999, ADT23 ₹699, ADT26 ₹999), and removed the worn photos of ADT09, ADT10, ADT11, ADT14, ADT15 and ADT19. Those edits are kept. The size check added corrected worn photos back to those six as image 2 and replaced ADT13 and ADT16's in place (ADT24 and ADT25 were replaced too, then set back to their 25 Oct photos at the owner's choice); nothing else on the listings changed except the ear cuff's size line.
 - `build/cdn_compare.py` downloaded all 54 listing images and 8 size guides back from the Shopify CDN (`shopify/cdn_check.txt`, 14:40 UTC): each matches its local export, and no image is closer to another export.
 - `pave-wishbone-ring-size-guide.jpg` (gid://shopify/MediaImage/46555948023970) is still in Shopify Files from before the rename. Nothing uses it.
 
