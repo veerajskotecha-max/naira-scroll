@@ -1,0 +1,189 @@
+{
+ "credits_before": 98.07,
+ "jobs": [
+  {
+   "n": "01",
+   "attempt": 1,
+   "job_id": "c6ed4c1e-e760-4fef-806c-44345166a92c"
+  },
+  {
+   "n": "02",
+   "attempt": 1,
+   "job_id": "616187a1-3ce8-4ffa-9b3d-70be70be9269"
+  },
+  {
+   "n": "06",
+   "attempt": 1,
+   "job_id": "500495ff-7972-4266-9017-84289561f744"
+  },
+  {
+   "n": "07",
+   "attempt": 1,
+   "job_id": "744e4de9-ebb7-41cd-8770-f3b919acf314",
+   "why": "first concept (gold chain with a locker key), dropped after the critique: it cast Naira as the stand-in for real gold"
+  },
+  {
+   "n": "01",
+   "attempt": 2,
+   "job_id": "3d1b1f33-80cc-479b-96f6-f9ce67aaac1b",
+   "why": "attempt 1 drew a bracelet-sized loop, read as the bracelet"
+  },
+  {
+   "n": "01",
+   "attempt": 3,
+   "job_id": "32dd0bde-2ec4-4a85-a457-a20a4da25945",
+   "why": "attempt 2 closed into a circle again with stones as big as the arils; now shown on a silk neck form"
+  },
+  {
+   "n": "01",
+   "attempt": 4,
+   "job_id": "0a2dd110-3bba-490d-9d56-4431d65c3b94",
+   "why": "attempt 3 passed as a necklace but the stones read about 1.5x large; life-size neck form",
+   "result": "the life-size neck form ran out of the frame; attempt 3 kept"
+  },
+  {
+   "n": "02",
+   "attempt": 2,
+   "job_id": "c99e5c84-1482-4a9c-aa36-f204fe1696ff",
+   "why": "review: on the floor the bracelet sits where feet go; now on her wrist above the rangoli"
+  },
+  {
+   "n": "03",
+   "attempt": 1,
+   "job_id": null,
+   "why": "submission refused by Higgsfield (429 rate limit), no job created, no charge"
+  },
+  {
+   "n": "04",
+   "attempt": 1,
+   "job_id": "c7b73344-28fa-4538-a375-fa874511d7f5"
+  },
+  {
+   "n": "05",
+   "attempt": 1,
+   "job_id": "5f2e1e0b-c9e8-46b2-b5a3-7fba705f4995"
+  },
+  {
+   "n": "03",
+   "attempt": 1,
+   "job_id": "970fc912-8b60-42cb-a298-376147a58216",
+   "why": "resubmitted after the 429"
+  },
+  {
+   "n": "07",
+   "attempt": 1,
+   "job_id": null,
+   "why": "submission refused by Higgsfield (429 rate limit), no job created, no charge"
+  },
+  {
+   "n": "08",
+   "attempt": 1,
+   "job_id": "b70009d6-88c6-42f8-9934-ac9745ebf45c"
+  },
+  {
+   "n": "09",
+   "attempt": 1,
+   "job_id": "b26d5cc0-5ff3-4870-841d-5bb607f549cc",
+   "why": "failed on Higgsfield's side; not charged"
+  },
+  {
+   "n": "10",
+   "attempt": 1,
+   "job_id": "8cfbcb5b-7b51-439f-b7cf-5637fa8847cb"
+  },
+  {
+   "n": "03",
+   "attempt": 2,
+   "job_id": "f8763e81-9678-4b63-b60a-02af204bb5ee",
+   "why": "attempt 1 drew a broad hairy wrist that reads as a man's, stones a little large"
+  },
+  {
+   "n": "07",
+   "attempt": 2,
+   "job_id": "ca744819-3115-4608-b1c1-74d90dc828a2",
+   "why": "resubmitted after the 429"
+  },
+  {
+   "n": "09",
+   "attempt": 2,
+   "job_id": "9654b710-76a2-4a7b-bce8-719ebd048611",
+   "why": "resubmitted after the failed job"
+  }
+ ],
+ "credits_after": 66.07,
+ "credits_used": 32,
+ "note": "16 frames charged at 2 credits each (2K, nano_banana_pro); the failed job and the two 429 refusals cost nothing",
+ "kept": [
+  {
+   "n": "01",
+   "job_id": "32dd0bde-2ec4-4a85-a457-a20a4da25945",
+   "attempt": 3,
+   "retouch": null,
+   "score": 8.5,
+   "flag": "the stones read about 1.5x large against the arils; a smaller neck form did not fix it"
+  },
+  {
+   "n": "02",
+   "job_id": "c99e5c84-1482-4a9c-aa36-f204fe1696ff",
+   "attempt": 2,
+   "retouch": null,
+   "score": 9.0
+  },
+  {
+   "n": "03",
+   "job_id": "f8763e81-9678-4b63-b60a-02af204bb5ee",
+   "attempt": 2,
+   "retouch": null,
+   "score": 8.8
+  },
+  {
+   "n": "04",
+   "job_id": "c7b73344-28fa-4538-a375-fa874511d7f5",
+   "attempt": 1,
+   "retouch": null,
+   "score": 9.2
+  },
+  {
+   "n": "05",
+   "job_id": "5f2e1e0b-c9e8-46b2-b5a3-7fba705f4995",
+   "attempt": 1,
+   "retouch": null,
+   "score": 9.0
+  },
+  {
+   "n": "06",
+   "job_id": "500495ff-7972-4266-9017-84289561f744",
+   "attempt": 1,
+   "score": 8.8,
+   "retouch": "the poker chips the model added were inpainted out, then the diya behind the cards was replaced with soft bokeh (a puja lamp does not belong in a card game)"
+  },
+  {
+   "n": "07",
+   "job_id": "ca744819-3115-4608-b1c1-74d90dc828a2",
+   "attempt": 2,
+   "retouch": null,
+   "score": 9.2
+  },
+  {
+   "n": "08",
+   "job_id": "b70009d6-88c6-42f8-9934-ac9745ebf45c",
+   "attempt": 1,
+   "retouch": null,
+   "score": 9.3
+  },
+  {
+   "n": "09",
+   "job_id": "9654b710-76a2-4a7b-bce8-719ebd048611",
+   "attempt": 2,
+   "retouch": null,
+   "score": 9.0
+  },
+  {
+   "n": "10",
+   "job_id": "8cfbcb5b-7b51-439f-b7cf-5637fa8847cb",
+   "attempt": 1,
+   "score": 9.0,
+   "retouch": "four-point star glints over the dark plaster were removed with a local-median mask; the pavé underneath was left untouched"
+  }
+ ]
+}

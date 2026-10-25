@@ -1,0 +1,163 @@
+[
+ {
+  "n": "01",
+  "key": "baguette-tennis-necklace",
+  "plate": "plates/01-baguette-tennis-necklace.jpg",
+  "title": "Baguette Tennis Necklace",
+  "variant": "Ruby",
+  "price": "₹2,300",
+  "line": "Anaar, pre-strung.",
+  "ink": "#6E1F24",
+  "at": "tl",
+  "feed_top": 330
+ },
+ {
+  "n": "02",
+  "key": "prism-riviere-bracelet",
+  "plate": "plates/02-prism-riviere-bracelet.jpg",
+  "title": "Prism Rivière Bracelet",
+  "variant": null,
+  "price": "₹2,399",
+  "line": "Rangoli, at wrist height.",
+  "ink": "#2F4F5A",
+  "at": "tl",
+  "feed_top": 220
+ },
+ {
+  "n": "03",
+  "key": "baguette-tennis-bracelet",
+  "plate": "plates/03-baguette-tennis-bracelet.jpg",
+  "title": "Baguette Tennis Bracelet",
+  "variant": "Crystal",
+  "price": "₹1,699",
+  "line": "The aunties will zoom in.",
+  "ink": "#FBF1E2",
+  "at": "tl",
+  "feed_top": 250,
+  "stack": true,
+  "w": 420
+ },
+ {
+  "n": "04",
+  "key": "toggle-link-chain",
+  "plate": "plates/04-toggle-link-chain.jpg",
+  "title": "Toggle Link Chain",
+  "variant": null,
+  "price": "₹1,299",
+  "line": "Opened, not passed on.",
+  "ink": "#6A4818",
+  "at": "tl",
+  "feed_top": 300
+ },
+ {
+  "n": "05",
+  "key": "woven-gold-hoops",
+  "plate": "plates/05-woven-gold-hoops.jpg",
+  "title": "Woven Gold Hoops",
+  "variant": null,
+  "price": "₹1,299",
+  "line": "Bhai took the hint. For once.",
+  "ink": "#FBF1E2",
+  "at": "tl",
+  "feed_top": 0,
+  "w": 470,
+  "stack": true,
+  "feed": {
+   "pos": {
+    "left": 48,
+    "top": 96
+   },
+   "w": 240,
+   "hs": 52,
+   "cs": 16
+  },
+  "story": {
+   "pos": {
+    "left": 56,
+    "top": 306
+   },
+   "w": 250,
+   "hs": 50,
+   "cs": 15
+  }
+ },
+ {
+  "n": "06",
+  "key": "cushion-halo-ring",
+  "plate": "plates/06-cushion-halo-ring.jpg",
+  "title": "Cushion Halo Ring",
+  "variant": null,
+  "price": "₹1,199",
+  "line": "All eyes on your hand.",
+  "ink": "#FBF1E2",
+  "at": "tl",
+  "feed_top": 200
+ },
+ {
+  "n": "07",
+  "key": "bold-nocturne-chain",
+  "plate": "plates/07-bold-nocturne-chain.jpg",
+  "title": "Bold Nocturne Chain",
+  "variant": null,
+  "price": "₹1,799",
+  "line": "Mummy's saree. My necklace.",
+  "ink": "#5C1A1E",
+  "at": "tl",
+  "feed_top": 300,
+  "w": 470
+ },
+ {
+  "n": "08",
+  "key": "baguette-huggies",
+  "plate": "plates/08-baguette-huggies.jpg",
+  "title": "Baguette Huggies",
+  "variant": "4 colours",
+  "price": "₹1,199 a pair",
+  "line": "Nobody got the better pair.",
+  "ink": "#4F473C",
+  "at": "tl",
+  "feed_top": 330
+ },
+ {
+  "n": "09",
+  "key": "verdant-eternity-band",
+  "plate": "plates/09-verdant-eternity-band.jpg",
+  "title": "Verdant Eternity Band",
+  "variant": null,
+  "price": "₹1,099",
+  "line": "Toran's up. Your turn.",
+  "ink": "#1E4632",
+  "at": "bl",
+  "feed_top": 200,
+  "stack": true,
+  "feed": {
+   "pos": {
+    "left": 60,
+    "bottom": 92
+   },
+   "w": 440,
+   "hs": 60
+  },
+  "story": {
+   "pos": {
+    "left": 60,
+    "bottom": 430
+   },
+   "w": 420,
+   "hs": 60
+  }
+ },
+ {
+  "n": "10",
+  "key": "bold-nocturne-bracelet",
+  "plate": "plates/10-bold-nocturne-bracelet.jpg",
+  "title": "Bold Nocturne Bracelet",
+  "variant": null,
+  "price": "₹1,599",
+  "line": "The only moon out tonight.",
+  "ink": "#F1E3C6",
+  "at": "bl",
+  "feed_top": 250,
+  "pin": true
+ }
+]

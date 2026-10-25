@@ -1,0 +1,456 @@
+<title>Diwali, As It Happens</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap">
+<style>
+/* A Naira proof book for one campaign. The title sits on a night band (Diwali is amavasya, the night with no moon), the rest on ivory
+   paper. Order: the open questions, the evidence (every ad above 4% CTR), the brand, the ten ads with their reasoning and a Keep / Rework
+   verdict each, the critique of draft one, the run plan and the upload sheet. Lines are set in Cormorant italic, as on the ads. */
+:root {
+  --paper: #f4ebe2; --card: #fbf7f2; --ink: #1c1712; --muted: #6a6158; --rule: #e3d8cc; --rule-strong: #cbbfb2;
+  --gold: #8a6826; --gold-soft: #efe3cf; --maroon: #7a2a2c; --maroon-soft: #f4e2dd;
+  --night: #161c38; --night-ink: #f3e7cf; --night-muted: #bdb8cc; --night-rule: #343d6b; --flame: #e0b866;
+  --ok: #2f6b45; --ok-soft: #e1eee4; --warn: #8f5512; --warn-soft: #f5e6d1; --focus: #8a6826; --on-solid: #fbf7f2;
+  --shadow: 0 1px 0 rgba(28, 23, 18, .04);
+  --serif: "Cormorant Garamond", "Cormorant", "Iowan Old Style", Georgia, serif;
+  --sans: "Jost", "Futura", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #13100d; --card: #1c1814; --ink: #f2e9df; --muted: #b0a597; --rule: #332b24; --rule-strong: #4a4037;
+    --gold: #d4b273; --gold-soft: #33291b; --maroon: #eaa9a2; --maroon-soft: #3b2120;
+    --night: #0d1124; --night-ink: #f3e7cf; --night-muted: #a7a2b9; --night-rule: #262d52; --flame: #e0b866;
+    --ok: #8fcca2; --ok-soft: #1d3125; --warn: #e8b56b; --warn-soft: #3a2c17; --focus: #d4b273; --on-solid: #13100d;
+    --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #13100d; --card: #1c1814; --ink: #f2e9df; --muted: #b0a597; --rule: #332b24; --rule-strong: #4a4037;
+  --gold: #d4b273; --gold-soft: #33291b; --maroon: #eaa9a2; --maroon-soft: #3b2120;
+  --night: #0d1124; --night-ink: #f3e7cf; --night-muted: #a7a2b9; --night-rule: #262d52; --flame: #e0b866;
+  --ok: #8fcca2; --ok-soft: #1d3125; --warn: #e8b56b; --warn-soft: #3a2c17; --focus: #d4b273; --on-solid: #13100d;
+  --shadow: none; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; font-weight: 400; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3, h4 { margin: 0; font-weight: 400; text-wrap: balance; }
+p { margin: 0; }
+a { color: inherit; }
+code { font-size: 13px; background: var(--gold-soft); padding: 0 4px; border-radius: 4px; overflow-wrap: anywhere; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+.eyebrow { font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); font-weight: 500; }
+.sl { font-family: var(--serif); font-style: italic; font-weight: 500; }
+.totals dd, .rank, .wstats dd.big, td.sc, .num, .score b, ol.pats b::before { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
+
+/* the night band */
+header.night { background: var(--night); color: var(--night-ink); padding-block: 40px 50px; position: relative; }
+header.night::after { content: ""; position: absolute; left: 0; right: 0; bottom: 18px; height: 6px; opacity: .85;
+  background: radial-gradient(circle, var(--flame) 0 1.6px, transparent 2.3px) center / 26px 6px repeat-x; }
+header.night .wrap { display: grid; gap: 16px; }
+.wm { display: block; width: 112px; height: auto; }
+header.night .eyebrow { color: var(--flame); }
+h1 { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: clamp(46px, 8.5vw, 92px); line-height: .98; letter-spacing: -.01em; }
+.lede { max-width: 60ch; color: var(--night-muted); font-size: 17px; }
+.totals { display: flex; flex-wrap: wrap; gap: 10px 34px; margin: 6px 0 0; padding-top: 14px; border-top: 1px solid var(--night-rule); }
+.totals div { min-width: 0; }
+.totals dt { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--night-muted); }
+.totals dd { margin: 0; font-family: var(--serif); font-size: 32px; line-height: 1.15; }
+.note { font-size: 13px; color: var(--night-muted); }
+
+/* the sticky progress line */
+.progress { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--rule); padding-block: 10px; }
+.progress .row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; font-size: 14px; }
+.progress b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.bar { flex: 1 1 100px; height: 6px; border-radius: 3px; background: var(--rule); overflow: hidden; min-width: 80px; }
+.bar i { display: block; height: 100%; width: 0; background: var(--gold); transition: width .3s; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+.dot.keep { background: var(--ok); } .dot.rework { background: var(--warn); }
+.jump { display: flex; gap: 14px; }
+.jump a { font-size: 13px; color: var(--muted); text-decoration: none; letter-spacing: .04em; }
+.jump a:hover { color: var(--ink); }
+@media (max-width: 860px) { .jump { display: none; } }
+.banner { margin-top: 10px; padding: 9px 14px; border-radius: 8px; background: var(--warn-soft); color: var(--warn); font-size: 14px; }
+.banner button { font: inherit; color: inherit; background: none; border: 1px solid currentColor; border-radius: 6px; padding: 2px 10px; margin-left: 8px; cursor: pointer; }
+
+/* sections */
+.block { padding-block: 46px 6px; display: grid; gap: 14px; }
+h2 { font-family: var(--serif); font-size: clamp(32px, 4.6vw, 46px); line-height: 1.05; }
+.lede2 { max-width: 72ch; color: var(--muted); font-size: 15px; }
+.lede2 i { color: var(--ink); font-family: var(--serif); font-size: 18px; }
+h3.sub { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); font-weight: 500; margin-top: 16px; }
+.qs { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); counter-reset: q; }
+.qs li { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; counter-increment: q; min-width: 0; box-shadow: var(--shadow); }
+.qs strong { display: block; font-weight: 500; margin-bottom: 4px; }
+.qs strong::before { content: counter(q) ". "; color: var(--gold); }
+.qs p { color: var(--muted); font-size: 14px; }
+
+/* the winners */
+.lb { margin: 4px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--rule-strong); }
+.win { display: grid; grid-template-columns: 26px 64px minmax(0, 1fr) auto; gap: 8px 16px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.rank { font-family: var(--serif); font-size: 22px; color: var(--gold); text-align: right; }
+.win img, .win .noimg { width: 64px; height: 80px; object-fit: cover; border-radius: 6px; background: var(--rule); display: block; }
+.noimg { display: grid; place-items: center; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border: 1px dashed var(--rule-strong); }
+.win .noimg, .built .noimg { background: transparent; }
+.wtext { display: grid; gap: 2px; min-width: 0; }
+.wtext .sl { font-size: 23px; line-height: 1.1; }
+.wtext small { font-size: 13px; color: var(--muted); }
+.wmeta { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.wtext p { font-size: 14px; max-width: 64ch; }
+.feedrun { font-size: 12.5px; color: var(--muted); }
+.wstats { margin: 0; display: grid; grid-template-columns: repeat(4, 86px); }
+.wstats div { padding: 0 10px; border-left: 1px solid var(--rule); min-width: 0; }
+.wstats dt { font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+.wstats dd { margin: 0; font-variant-numeric: tabular-nums; font-size: 15px; white-space: nowrap; }
+.wstats dd.big { font-family: var(--serif); font-size: 26px; line-height: 1.1; color: var(--maroon); }
+@media (max-width: 860px) {
+  .win { grid-template-columns: 56px minmax(0, 1fr); }
+  .rank { display: none; }
+  .win img, .win .noimg { width: 56px; height: 70px; }
+  .wstats { grid-column: 1 / -1; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .wstats div:first-child { border-left: 0; padding-left: 0; }
+}
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--card); margin-top: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+caption { text-align: left; padding: 12px 14px 4px; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+th { text-align: left; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 10px 14px; border-bottom: 1px solid var(--rule-strong); white-space: nowrap; }
+td { padding: 9px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td small { display: block; font-size: 12.5px; color: var(--muted); }
+td .sl { font-size: 18px; line-height: 1.2; }
+td.n { font-weight: 600; white-space: nowrap; } td.n a { text-decoration: none; }
+td.sc { font-family: var(--serif); font-size: 21px; } td.r, th.r { text-align: right; }
+.reels { min-width: 560px; } .crit { min-width: 780px; } .flights { min-width: 660px; }
+.kept { font-size: 12px; padding: 2px 10px; border-radius: 999px; background: var(--ok-soft); color: var(--ok); white-space: nowrap; }
+.pats { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); counter-reset: p; }
+.pats li { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; min-width: 0; box-shadow: var(--shadow); }
+ol.pats li { counter-increment: p; }
+.pats b { display: block; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 21px; line-height: 1.15; margin-bottom: 6px; }
+ol.pats b::before { content: counter(p) "\2002"; font-style: normal; color: var(--gold); font-size: 17px; }
+.pats p { font-size: 14px; color: var(--muted); }
+.fails li { background: var(--warn-soft); border-color: transparent; }
+.fails b { color: var(--warn); } .fails p { color: var(--ink); }
+.killedlist b { font-size: 19px; }
+
+/* the brand */
+.brand { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.prose { display: grid; gap: 12px; font-size: 16.5px; max-width: 64ch; }
+.voice { margin: 0; border-top: 1px solid var(--rule-strong); }
+.voice div { padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.voice dt { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 500; }
+.voice dd { margin: 2px 0 0; font-size: 14.5px; }
+@media (max-width: 860px) { .brand { grid-template-columns: 1fr; } }
+
+/* the ten ads: a contact sheet, then one card each */
+.index { margin: 6px 0 4px; padding: 0; list-style: none; display: grid; gap: 14px 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+@media (max-width: 900px) { .index { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .index { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.index a { display: grid; gap: 5px; text-decoration: none; position: relative; min-width: 0; }
+.index img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 8px; background: var(--rule); display: block; }
+.ixl { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 16.5px; line-height: 1.15; }
+.ixn { font-family: var(--sans); font-style: normal; font-size: 11px; font-weight: 600; color: var(--gold); margin-right: 6px; letter-spacing: .04em; }
+.ixs { position: absolute; top: 6px; right: 6px; font-size: 11px; font-weight: 500; border-radius: 999px; padding: 1px 8px; }
+.ixs:empty { display: none; }
+.ixs[data-v="keep"] { background: var(--ok); color: var(--on-solid); }
+.ixs[data-v="rework"] { background: var(--warn); color: var(--on-solid); }
+.ad { background: var(--card); border: 1px solid var(--rule); border-radius: 14px; padding: 18px; display: grid; gap: 16px; margin-top: 16px; scroll-margin-top: 64px; box-shadow: var(--shadow); min-width: 0; }
+.ad[data-v="keep"] { border-color: var(--ok); }
+.ad[data-v="rework"] { border-color: var(--warn); }
+.adhead { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: start; }
+.num { font-family: var(--serif); font-size: 44px; line-height: .9; color: var(--gold); }
+.line { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.02; }
+.admeta { margin-top: 6px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.admeta b { color: var(--ink); font-weight: 600; }
+.score { display: grid; justify-items: end; line-height: 1; }
+.score b { font-family: var(--serif); font-size: 34px; font-weight: 500; }
+.score small { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
+.shots { display: grid; grid-template-columns: 1fr .703fr .703fr; gap: 10px; align-items: start; }
+.shots figure { margin: 0; display: grid; gap: 5px; min-width: 0; }
+.shots a { display: block; }
+.shots img { width: 100%; height: auto; display: block; border-radius: 8px; background: var(--rule); }
+.shots figcaption { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.shots.small { grid-template-columns: 1fr .703fr 1fr .703fr; }
+.regional { display: grid; gap: 8px; border-top: 1px dashed var(--rule-strong); padding-top: 12px; }
+.regional h4 { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); font-weight: 500; }
+.regional p { font-size: 14px; color: var(--muted); }
+@media (max-width: 640px) {
+  .ad { padding: 14px; }
+  .shots { grid-template-columns: 1fr 1fr; }
+  .shots figure.f { grid-column: 1 / -1; }
+  .shots.small { grid-template-columns: 1fr .703fr; }
+  .shots.small figure.f { grid-column: auto; }
+  .adhead { grid-template-columns: auto minmax(0, 1fr); }
+  .score { grid-column: 1 / -1; grid-auto-flow: column; justify-content: start; align-items: baseline; gap: 6px; }
+  .num { font-size: 36px; }
+}
+.why { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px 30px; }
+.why .col { display: grid; gap: 16px; align-content: start; min-width: 0; }
+.why h4 { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); font-weight: 500; margin-bottom: 4px; }
+.why p { font-size: 15px; max-width: 66ch; }
+.why p + p { margin-top: 6px; }
+.why p.where { color: var(--muted); font-size: 13.5px; }
+.why p.aside { margin-top: 8px; font-size: 14px; color: var(--muted); }
+.aside .sl { color: var(--ink); font-size: 17px; }
+.built { margin: 2px 0 8px; padding: 0; list-style: none; display: grid; gap: 8px; }
+.built li { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 10px; align-items: center; }
+.built img, .built .noimg { width: 40px; height: 50px; object-fit: cover; border-radius: 4px; display: block; }
+.built .noimg { font-size: 8px; letter-spacing: .06em; }
+.built span { display: grid; min-width: 0; }
+.built .sl { font-size: 18px; line-height: 1.15; }
+.built small { font-size: 12.5px; color: var(--muted); }
+.killed { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; }
+.killed li { font-size: 14px; color: var(--muted); padding-left: 12px; border-left: 2px solid var(--maroon-soft); }
+.killed .sl { display: block; color: var(--ink); font-size: 18px; line-height: 1.2; }
+.next { background: var(--gold-soft); border-radius: 10px; padding: 12px 14px; }
+@media (max-width: 860px) { .why { grid-template-columns: 1fr; } }
+.shoot { display: grid; gap: 6px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 12px; }
+.shoot b { color: var(--ink); font-weight: 500; }
+.flags { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.flags li { background: var(--warn-soft); color: var(--warn); border-radius: 8px; padding: 7px 12px; font-size: 14px; }
+details.copy { border: 1px solid var(--rule); border-radius: 10px; background: var(--paper); }
+details.copy summary { cursor: pointer; padding: 10px 14px; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; font-weight: 500; }
+.copygrid { display: grid; gap: 12px; padding: 4px 14px 14px; }
+.cp { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; align-items: start; }
+.cp .lbl { grid-column: 1 / -1; }
+.lbl { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.txt { font-size: 14px; background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; min-width: 0; overflow-wrap: anywhere; }
+.txt.pre { white-space: pre-wrap; }
+.txt.url { font-size: 12.5px; color: var(--muted); }
+.cbtn { font: inherit; font-size: 13px; color: var(--ink); background: var(--card); border: 1px solid var(--rule-strong); border-radius: 999px; padding: 5px 14px; cursor: pointer; white-space: nowrap; }
+.cbtn:hover { border-color: var(--ink); }
+.verdict { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px 14px; align-items: end; border-top: 1px solid var(--rule); padding-top: 14px; }
+.seg { display: inline-flex; border: 1px solid var(--rule-strong); border-radius: 999px; overflow: hidden; justify-self: start; }
+.seg button { font: inherit; font-size: 14px; font-weight: 500; color: var(--ink); background: transparent; border: 0; padding: 8px 20px; cursor: pointer; min-height: 42px; }
+.seg button + button { border-left: 1px solid var(--rule-strong); }
+.seg button[data-v="keep"][aria-pressed="true"] { background: var(--ok); color: var(--on-solid); }
+.seg button[data-v="rework"][aria-pressed="true"] { background: var(--warn); color: var(--on-solid); }
+.seg button:disabled { cursor: default; opacity: .55; }
+.note { display: grid; gap: 4px; min-width: 0; }
+.note textarea { font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule-strong); border-radius: 8px; padding: 8px 10px; resize: vertical; min-height: 42px; width: 100%; }
+.note textarea:disabled { opacity: .6; }
+.saved { font-size: 12.5px; color: var(--muted); white-space: nowrap; padding-bottom: 10px; }
+.saved.err { color: var(--warn); white-space: normal; }
+@media (max-width: 640px) { .verdict { grid-template-columns: 1fr; } .saved { padding-bottom: 0; } }
+
+/* the plan and the sheet */
+.sets { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.sets li { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; display: grid; gap: 2px; min-width: 0; }
+.sets b { font-family: var(--serif); font-size: 25px; font-weight: 500; }
+.sets span { color: var(--muted); font-size: 14px; }
+.sets .ns { color: var(--ink); font-variant-numeric: tabular-nums; letter-spacing: .08em; }
+.planprose { display: grid; gap: 8px; max-width: 78ch; font-size: 15px; }
+.planprose b { font-weight: 500; }
+.stock { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+.stock li { background: var(--maroon-soft); border-radius: 999px; padding: 5px 14px; font-size: 14px; }
+.stock b { color: var(--maroon); font-weight: 600; } .stock span { color: var(--muted); }
+details.csv { border: 1px solid var(--rule); border-radius: 10px; background: var(--card); }
+details.csv summary { cursor: pointer; padding: 12px 14px; font-weight: 500; }
+details.csv .cbtn { margin: 0 14px 10px; }
+details.csv pre { margin: 0; padding: 12px 14px; max-height: 460px; overflow: auto; font-size: 12px; line-height: 1.5; border-top: 1px solid var(--rule); white-space: pre; }
+.foot { padding-block: 34px 54px; font-size: 13px; color: var(--muted); }
+</style>
+
+<header class="night">
+  <div class="wrap">
+    <img class="wm" src="logo.png" width="600" height="134" alt="Naira">
+    <p class="eyebrow">Diwali 2026 · ten ads for Meta · 29 Oct – 10 Nov</p>
+    <h1>Diwali, as it happens.</h1>
+    <p class="lede">Ten true moments from the five days of Diwali, one piece in each. Every ad is built on a Naira ad that beat 4% CTR, and every line was written, judged by an independent critic and rewritten before its photograph was made.</p>
+    <dl class="totals">
+      <div><dt>Ads</dt><dd>10</dd></div>
+      <div><dt>Files</dt><dd>@@files@@</dd></div>
+      <div><dt>Credits used</dt><dd>@@credits@@</dd></div>
+      <div><dt>Dhanteras</dt><dd>6 Nov</dd></div>
+      <div><dt>Diwali</dt><dd>8 Nov</dd></div>
+    </dl>
+    <p class="note">Nothing has been uploaded to Meta. The upload sheet is at the end of the page.</p>
+  </div>
+</header>
+
+<div class="progress">
+  <div class="wrap">
+    <div class="row">
+      <span><b id="pDone">0</b> of 10 reviewed</span>
+      <span><i class="dot keep"></i>Keep <b id="pKeep">0</b></span>
+      <span><i class="dot rework"></i>Rework <b id="pRework">0</b></span>
+      <span class="bar" aria-hidden="true"><i id="pBar"></i></span>
+      <nav class="jump" aria-label="Sections"><a href="#evidence">Evidence</a><a href="#brand">Brand</a><a href="#ads">Ads</a><a href="#critique">Critique</a><a href="#plan">Plan</a><a href="#sheet">Sheet</a></nav>
+    </div>
+    <p class="banner" id="dbBanner" hidden></p>
+  </div>
+</div>
+
+<main>
+<section class="wrap block" id="first">
+  <p class="eyebrow">Before you start</p>
+  <ol class="qs">@@qs@@</ol>
+</section>
+
+<section class="wrap block" id="evidence">
+  <p class="eyebrow">The evidence</p>
+  <h2>What beat 4%</h2>
+  <p class="lede2">Every Naira ad above 4% CTR with at least 250 impressions, lifetime, read from Meta on 25 Oct. The March–May ads sold lehengas, a different business, so they are left out. Outbound is the share of people who went on to the shop.</p>
+  @@winners@@
+</section>
+
+<section class="wrap block" id="brand">
+  <p class="eyebrow">The brand</p>
+  <h2>Naira, at Diwali</h2>
+  <div class="brand"><div class="prose">@@brand@@</div><dl class="voice">@@voice@@</dl></div>
+</section>
+
+<section class="wrap block" id="ads">
+  <p class="eyebrow">The ten ads</p>
+  <h2>One moment, one piece, one line</h2>
+  <p class="lede2">Tap a picture to open the full 1080 file. Each ad shows the winner it copies, the lines it beat and what making it changed in the next one. Mark each one Keep or Rework; your verdicts save for everyone who opens this page.</p>
+  <ol class="index">@@idx@@</ol>
+  @@cards@@
+</section>
+
+<section class="wrap block" id="critique">
+  <p class="eyebrow">The critique</p>
+  <h2>Draft one, judged</h2>
+  <p class="lede2">Before any picture was made, an independent critic, briefed as a senior Indian creative director, scored draft one out of 10. Its summary: <i>@@critic@@</i></p>
+  <div class="tablewrap"><table class="crit"><thead><tr><th>Ad</th><th>Draft one</th><th>Score</th><th>Why</th><th>Runs as</th></tr></thead><tbody>@@crit@@</tbody></table></div>
+  <h3 class="sub">Dropped before draft one</h3>
+  <ul class="pats killedlist">@@killed@@</ul>
+</section>
+
+<section class="wrap block" id="plan">
+  <p class="eyebrow">The plan</p>
+  <h2>How to run it</h2>
+  <p class="lede2">Campaign: <b>@@campaign@@</b>. This is a suggestion; nothing is set up in Meta.</p>
+  <ul class="sets">@@sets@@</ul>
+  <div class="planprose">
+    <p><b>Audience.</b> @@audience@@</p>
+    <p><b>Budget.</b> @@budget@@</p>
+    <p><b>Story test.</b> @@ab@@</p>
+    <p><b>Kill rule.</b> @@kill@@</p>
+  </div>
+  <div class="tablewrap"><table class="flights"><thead><tr><th>Ad</th><th>Line</th><th>Ad set</th><th>Flight</th><th class="r">Stock</th></tr></thead><tbody>@@flights@@</tbody></table></div>
+  <h3 class="sub">Stock to watch</h3>
+  <ul class="stock">@@stock@@</ul>
+</section>
+
+<section class="wrap block" id="sheet">
+  <p class="eyebrow">The sheet</p>
+  <h2>Meta upload sheet</h2>
+  <p class="lede2">One row per file, @@rows@@ rows: primary text, headline, call to action, the link with the shot’s variant and UTMs, ad set, flight, regions and stock. In the repo it is <code>docs/creative/diwali-10/build/meta.csv</code>.</p>
+  <details class="csv"><summary>Show meta.csv</summary><button type="button" class="cbtn" data-copy="csv">Copy all</button><pre id="csv">@@csv@@</pre></details>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <p>Everything is in <code>docs/creative/diwali-10/</code> on the branch <code>claude/higgfield-12-angles-4j09gn</code>: the photographs, the ads, the prompts, the overlay copy, the upload sheet and the shoot ledger. Higgsfield credits left: @@left@@.</p>
+</footer>
+
+<script type="application/json" id="data">@@data@@</script>
+<script>
+(() => {
+  "use strict";
+  const ADS = JSON.parse(document.getElementById("data").textContent).ads;
+  const state = {};          // ad number -> {decision, note, by, at}
+  const names = {}, timers = {}, queue = {};
+  let db = null, user = null, me = null, writable = true;
+
+  // ---- copy buttons -------------------------------------------------------------------------------------------------
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-copy]"); if (!b) return;
+    const el = document.getElementById(b.dataset.copy); if (!el) return;
+    const label = b.dataset.label || (b.dataset.label = b.textContent);
+    const done = (text) => { b.textContent = text; setTimeout(() => { b.textContent = label; }, 1800); };
+    const select = () => { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); done("Selected"); };
+    try { navigator.clipboard.writeText(el.textContent).then(() => done("Copied"), select); } catch (_) { select(); }
+  });
+
+  // ---- verdicts -----------------------------------------------------------------------------------------------------
+  const time = (iso) => { try { return new Date(iso).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }); } catch (_) { return ""; } };
+  const form = (n) => document.querySelector(`form.verdict[data-n="${n}"]`);
+  function setSaved(n, text, err) { const el = document.getElementById("saved-" + n); if (el) { el.textContent = text; el.classList.toggle("err", !!err); } }
+  function paintSaved(n) {
+    const s = state[n];
+    if (!s || !(s.decision || s.note)) { setSaved(n, db ? "Not reviewed yet" : "Saving is off in this view"); return; }
+    const who = s.by ? (s.by === me ? "you" : (names[s.by] || "someone")) : "";
+    setSaved(n, `Saved ${time(s.at)}${who ? " by " + who : ""}`);
+  }
+  function paint(n) {
+    const f = form(n); if (!f) return;
+    const s = state[n] || {};
+    f.querySelectorAll(".seg button").forEach((b) => { b.setAttribute("aria-pressed", String(s.decision === b.dataset.v)); b.disabled = !db || !writable; });
+    const t = f.querySelector("textarea");
+    if (document.activeElement !== t && !timers[n]) t.value = s.note || "";
+    t.disabled = !db || !writable;
+    document.getElementById("ad-" + n).dataset.v = s.decision || "";
+    const ix = document.getElementById("ix-" + n);
+    if (ix) { ix.textContent = s.decision === "keep" ? "Keep" : s.decision === "rework" ? "Rework" : ""; ix.dataset.v = s.decision || ""; }
+    paintSaved(n);
+  }
+  function progress() {
+    const s = ADS.map((n) => state[n] || {});
+    const keep = s.filter((x) => x.decision === "keep").length, rework = s.filter((x) => x.decision === "rework").length;
+    document.getElementById("pDone").textContent = keep + rework;
+    document.getElementById("pKeep").textContent = keep;
+    document.getElementById("pRework").textContent = rework;
+    document.getElementById("pBar").style.width = ((keep + rework) / ADS.length * 100) + "%";
+  }
+  function save(n, patch) {
+    if (!db || !writable) return;
+    const next = { decision: "", note: "", ...(state[n] || {}), ...patch, by: me, at: new Date().toISOString() };
+    state[n] = next; paint(n); progress(); setSaved(n, "Saving…");
+    queue[n] = (queue[n] || Promise.resolve()).then(() => db.collection("verdicts").doc(n).set(next)).then(
+      () => paintSaved(n),
+      (err) => {
+        if (err && err.code === "invalid_argument") { writable = false; ADS.forEach(paint); setSaved(n, "You can view this page but not change it.", true); }
+        else setSaved(n, "Could not save: " + ((err && err.message) || "try again"), true);
+      });
+  }
+  function commit(n, t) { const v = t.value.trim(); if (v !== ((state[n] || {}).note || "")) save(n, { note: v }); }
+  document.querySelectorAll("form.verdict").forEach((f) => {
+    const n = f.dataset.n, t = f.querySelector("textarea");
+    f.addEventListener("click", (e) => {
+      const b = e.target.closest(".seg button"); if (!b || b.disabled) return;
+      save(n, { decision: (state[n] || {}).decision === b.dataset.v ? "" : b.dataset.v });
+    });
+    t.addEventListener("input", () => { clearTimeout(timers[n]); timers[n] = setTimeout(() => { delete timers[n]; commit(n, t); }, 900); });
+    t.addEventListener("blur", () => { if (timers[n]) { clearTimeout(timers[n]); delete timers[n]; commit(n, t); } });
+  });
+  async function resolveNames() {
+    if (!user) return;
+    const ids = [...new Set(Object.values(state).map((s) => s.by).filter(Boolean))];
+    if (!ids.length) return;
+    try { const ps = await user.profiles(ids); ids.forEach((id) => { names[id] = (ps[id] && ps[id].name) || "someone"; }); } catch (_) {}
+    ADS.forEach(paintSaved);
+  }
+  ADS.forEach(paint); progress();
+
+  // ---- capabilities: one permission dialog, then the shared store ----------------------------------------------------
+  const banner = document.getElementById("dbBanner");
+  function offline(msg) { banner.hidden = false; banner.textContent = msg; ADS.forEach(paint); }
+  (async () => {
+    const C = window.claude;
+    if (!C || !C.use) { offline("Open this page in Claude to save verdicts. Here it is read only."); return; }
+    const perms = await C.use("permissions");
+    if (perms) perms.request(["db", "user"]).then((st) => {
+      if (st && st.db === "denied") {
+        banner.hidden = false; banner.textContent = "Saving is turned off, so your verdicts will not be kept.";
+        const b = document.createElement("button"); b.type = "button"; b.textContent = "Permissions"; banner.appendChild(b);
+        b.addEventListener("click", () => perms.manage().catch(() => { banner.textContent = "Open the artifact’s Permissions menu to turn saving on."; }));
+      }
+    }).catch(() => {});
+    [db, user] = await Promise.all([C.use("db"), C.use("user")]);
+    if (!db) { offline("Saving is not available in this view, so your verdicts will not be kept."); return; }
+    if (user) {
+      try { me = await user.id(); } catch (_) {}
+      try { const can = await user.can("data.write"); if (can === false) writable = false; } catch (_) {}
+      if (!writable) { banner.hidden = false; banner.textContent = "You can read this page but not change the verdicts."; }
+    }
+    ADS.forEach(paint);
+    db.collection("verdicts").onSnapshot((snap) => {
+      snap.docs.forEach((d) => { if (ADS.includes(d.id) && d.exists) state[d.id] = { ...d.data() }; });
+      ADS.forEach(paint); progress(); resolveNames();
+    }, (err) => offline("The saved verdicts stopped updating (" + ((err && err.code) || "error") + "). Reload the page to reconnect."));
+  })();
+})();
+</script>

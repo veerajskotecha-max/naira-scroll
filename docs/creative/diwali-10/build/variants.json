@@ -1,0 +1,30 @@
+[
+ {
+  "n": "07b",
+  "key": "bold-nocturne-chain",
+  "plate": "plates/07-bold-nocturne-chain.jpg",
+  "title": "Bold Nocturne Chain",
+  "variant": null,
+  "price": "₹1,799",
+  "line": "Amma's saree. My necklace.",
+  "ink": "#5C1A1E",
+  "at": "tl",
+  "feed_top": 300,
+  "w": 470,
+  "region": "South India"
+ },
+ {
+  "n": "07c",
+  "key": "bold-nocturne-chain",
+  "plate": "plates/07-bold-nocturne-chain.jpg",
+  "title": "Bold Nocturne Chain",
+  "variant": null,
+  "price": "₹1,799",
+  "line": "Ma's saree. My necklace.",
+  "ink": "#5C1A1E",
+  "at": "tl",
+  "feed_top": 300,
+  "w": 470,
+  "region": "Bengal and the East"
+ }
+]
