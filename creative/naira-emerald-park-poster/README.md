@@ -3,6 +3,7 @@
 | File | Use |
 |---|---|
 | `naira-thank-you-emerald-park-elegant-4x5.jpg` | **Elegant edition in the house colours**: 2160 × 2700, for posts, chats and groups |
+| `naira-thank-you-emerald-park-elegant-story-9x16.jpg` | **Elegant edition, Instagram Story**: 2160 × 3840, with text inside Instagram's safe area (clear of the top 250 px and bottom 270 px) |
 | `naira-thank-you-emerald-park-elegant-status-9x16.jpg` | **Elegant edition**: 2160 × 3840, for WhatsApp Status and Stories (text kept clear of the top bar and the reply bar) |
 | `naira-thank-you-emerald-park-4x5.jpg` | Emerald and gold edition, 2160 × 2700 |
 | `naira-thank-you-emerald-park-status-9x16.jpg` | Emerald and gold edition, 2160 × 3840 |

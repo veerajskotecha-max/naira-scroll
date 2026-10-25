@@ -174,6 +174,31 @@ def story():
 </div>"""
 
 
+def story_ig():
+    """9:16 Story with Instagram's safe zones: nothing that matters in the top 250 px (profile and progress bar)
+    or the bottom 270 px (the Send message bar)."""
+    H = 1920
+    dl, dt, dw = -80, 722, 1240
+    return H, f"""
+<div class='canvas' style='height:{H}px'>
+  {GRAIN}
+  <div class='frame' style='left:26px;top:26px;right:26px;bottom:26px'></div>
+  <div class='abs' style='left:-36px;top:70px;opacity:.95'>{tulips_svg('tl', 280)}</div>
+  <div class='abs' style='right:-36px;top:70px;opacity:.95'>{tulips_svg('tl', 280, flip=True)}</div>
+  <div class='abs' style='left:0;top:266px;width:1080px'>{logo_svg(54)}</div>
+  <div class='abs kick center' style='top:346px;font-size:14.5px'>Naira Petite &nbsp;·&nbsp; Nashik &nbsp;·&nbsp; October 2026</div>
+  <div class='abs head center' id='hd' style='top:384px;font-size:152px'>THANK YOU</div>
+  <div class='abs it center' style='top:550px;font-size:42px'>for visiting our Emerald Park pop-up.</div>
+  {arch(130, 664, 820, 1920)}
+  <img class='disp' src='display.png' style='left:{dl}px;top:{dt}px;width:{dw}px' alt=''>
+  {stamp(862, 706, 150, n=3)}
+  <div class='fade' style='top:1280px;height:640px;background:linear-gradient(to bottom, rgba(251,245,240,0) 0%, rgba(251,245,240,.92) 42%, rgba(250,243,237,.97) 100%)'></div>
+  <div class='abs it center' style='top:1540px;font-size:28px'>Missed it? The collection is always online.</div>
+  <div class='abs foot center' style='top:1584px;font-size:16.5px'>NAIRAFLORE.COM &nbsp;·&nbsp; WHATSAPP +91 95615 57935</div>
+  <div class='abs foot2 center' style='top:1616px;font-size:14.5px'>Demi-fine jewellery &nbsp;[ 18k gold coated · rhodium coated ]</div>
+</div>"""
+
+
 def page(body):
     return f"<!doctype html><html><head><meta charset='utf-8'><style>{fonts_css()}{CSS}</style></head><body>{body}</body></html>"
 
@@ -183,7 +208,7 @@ async def main():
     which = ["feed", "status"] if which == ["both"] else which
     async with async_playwright() as p:
         b = await p.chromium.launch(executable_path=CHROME)
-        for name, fn in (("feed", feed), ("status", story)):
+        for name, fn in (("feed", feed), ("status", story), ("story", story_ig)):
             if name not in which: continue
             H, body = fn()
             (P / f"{name}-light.html").write_text(page(body))
