@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T12:47Z",
+ "checked": "2026-10-25T14:48Z",
  "products": [
   {
    "sku": "ADT09",
@@ -7,10 +7,10 @@
    "handle": "clover-drop-pendant-necklace",
    "title": "Clover Drop Pendant Necklace",
    "product_id": "gid://shopify/Product/10353568645282",
-   "status": "DRAFT",
+   "status": "ACTIVE",
    "price": "875.00",
    "cost": "250.0",
-   "available": 5,
+   "available": 3,
    "category": "Necklaces",
    "channels": [
     "Online Store",
@@ -30,7 +30,7 @@
     {
      "position": 2,
      "alt": "Clover Drop Pendant Necklace — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cbd07090-1a7b-4d00-b870-3dfd602ec0a6.jpg?v=1792905179",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8ba4b624-8f1d-4773-ae8c-ae06dcb7e5e2.jpg?v=1792938394",
      "status": "READY"
     },
     {
@@ -47,10 +47,10 @@
    "handle": "clover-drop-earrings",
    "title": "Clover Drop Earrings",
    "product_id": "gid://shopify/Product/10353568678050",
-   "status": "DRAFT",
+   "status": "ACTIVE",
    "price": "1015.00",
    "cost": "290.0",
-   "available": 5,
+   "available": 4,
    "category": "Earrings",
    "channels": [
     "Online Store",
@@ -70,7 +70,7 @@
     {
      "position": 2,
      "alt": "Clover Drop Earrings — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f6de968c-3e1d-4895-ae4a-1eaea1d3c434.jpg?v=1792905216",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cf8c70a1-8f85-498c-a5e1-6f84bd340aea.jpg?v=1792938394",
      "status": "READY"
     },
     {
@@ -88,9 +88,9 @@
    "title": "Clover Chain Bracelet",
    "product_id": "gid://shopify/Product/10353569661090",
    "status": "DRAFT",
-   "price": "490.00",
+   "price": "800.00",
    "cost": "140.0",
-   "available": 5,
+   "available": 4,
    "category": "Bracelets",
    "channels": [
     "Online Store",
@@ -110,7 +110,7 @@
     {
      "position": 2,
      "alt": "Clover Chain Bracelet — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6c14111b-e541-4d00-9399-2b0a1a81ad29.jpg?v=1792906045",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/1f7ce63a-76a4-42fd-8c6b-035165ee9165.jpg?v=1792938394",
      "status": "READY"
     },
     {
@@ -167,10 +167,10 @@
    "handle": "twin-heart-necklace",
    "title": "Twin Heart Necklace",
    "product_id": "gid://shopify/Product/10353626218658",
-   "status": "DRAFT",
-   "price": "840.00",
+   "status": "ACTIVE",
+   "price": "999.00",
    "cost": "240.0",
-   "available": 5,
+   "available": 1,
    "category": "Necklaces",
    "channels": [
     "Online Store",
@@ -190,7 +190,7 @@
     {
      "position": 2,
      "alt": "Twin Heart Necklace — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/67771f21-43f5-427c-a1dd-11bd5047be0d.jpg?v=1792930336",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/67771f21-43f5-427c-a1dd-11bd5047be0d.jpg?v=1792936955",
      "status": "READY"
     },
     {
@@ -207,10 +207,10 @@
    "handle": "twin-heart-studs",
    "title": "Twin Heart Studs",
    "product_id": "gid://shopify/Product/10353627136162",
-   "status": "DRAFT",
+   "status": "ACTIVE",
    "price": "910.00",
    "cost": "260.0",
-   "available": 5,
+   "available": 1,
    "category": "Earrings",
    "channels": [
     "Online Store",
@@ -230,7 +230,7 @@
     {
      "position": 2,
      "alt": "Twin Heart Studs — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e7771a3d-da68-4a1e-b5f1-029e30526f88.jpg?v=1792930337",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/938639f7-47b6-4cf7-9b4c-8897da320a7d.jpg?v=1792938876",
      "status": "READY"
     },
     {
@@ -247,8 +247,8 @@
    "handle": "bow-pear-drop-necklace",
    "title": "Bow Pear Drop Necklace",
    "product_id": "gid://shopify/Product/10353627332770",
-   "status": "DRAFT",
-   "price": "875.00",
+   "status": "ACTIVE",
+   "price": "999.00",
    "cost": "250.0",
    "available": 5,
    "category": "Necklaces",
@@ -270,7 +270,7 @@
     {
      "position": 2,
      "alt": "Bow Pear Drop Necklace — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/d8e1d920-5bc5-47c4-ae94-85fbfc4567f1.jpg?v=1792922027",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/88fba78f-b9d5-41de-82c9-ad20a4866d8d.jpg?v=1792938394",
      "status": "READY"
     },
     {
@@ -310,7 +310,7 @@
     {
      "position": 2,
      "alt": "Petite Blossom Bracelet — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e06c4e64-9ce2-4852-8142-ec2925a6faba.jpg?v=1792922030",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e06c4e64-9ce2-4852-8142-ec2925a6faba.jpg?v=1792936956",
      "status": "READY"
     },
     {
@@ -410,7 +410,7 @@
    "status": "DRAFT",
    "price": "490.00",
    "cost": "140.0",
-   "available": 2,
+   "available": 4,
    "category": "Earrings",
    "channels": [
     "Online Store",
@@ -429,6 +429,12 @@
     },
     {
      "position": 2,
+     "alt": "Molten Wave Ear Cuff — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/3ba28b03-f1db-4df0-a68a-3c08083f6872.jpg?v=1792938394",
+     "status": "READY"
+    },
+    {
+     "position": 3,
      "alt": "Molten Wave Ear Cuff — macro detail: the wavy molten loops",
      "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/50db2fbb-cfd9-4e10-9695-7386f43f35f3.jpg?v=1792922726",
      "status": "READY"
@@ -444,7 +450,7 @@
    "status": "ACTIVE",
    "price": "700.00",
    "cost": "200.0",
-   "available": 5,
+   "available": 3,
    "category": "Rings",
    "channels": [
     "Online Store",
@@ -524,7 +530,7 @@
    "status": "ACTIVE",
    "price": "630.00",
    "cost": "180.0",
-   "available": 5,
+   "available": 4,
    "category": "Rings",
    "channels": [
     "Online Store",
@@ -562,9 +568,9 @@
    "title": "Lumière Oval Solitaire Ring",
    "product_id": "gid://shopify/Product/10353628610722",
    "status": "ACTIVE",
-   "price": "630.00",
+   "price": "699.00",
    "cost": "180.0",
-   "available": 5,
+   "available": 3,
    "category": "Rings",
    "channels": [
     "Online Store",
@@ -624,7 +630,7 @@
     {
      "position": 2,
      "alt": "Prism Pear Drop Necklace — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/32d9721b-64dc-4ab0-86a0-17ebea3fb92a.jpg?v=1792930335",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/32d9721b-64dc-4ab0-86a0-17ebea3fb92a.jpg?v=1792936956",
      "status": "READY"
     },
     {
@@ -664,7 +670,7 @@
     {
      "position": 2,
      "alt": "Prism Pear Drop Hoops — worn on the model",
-     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f48a3745-7b11-47f6-b988-6175813aff40.jpg?v=1792930336",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f48a3745-7b11-47f6-b988-6175813aff40.jpg?v=1792936955",
      "status": "READY"
     },
     {
