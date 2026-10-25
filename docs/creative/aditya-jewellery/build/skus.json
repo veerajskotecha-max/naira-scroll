@@ -126,18 +126,31 @@
   "det": null
  },
  "J10": {
-  "name": "Watch Link Bracelet",
-  "kind": "bracelet",
-  "note": "in it the piece lies on a black velvet display card held by fingers: ignore the card, the velvet, the fingers, the price text and the number label.",
-  "lock": "A WATCH LINK BRACELET, no stones: a flat band of watch-strap links like a jubilee watch strap, rows of short rounded high-polish links interlocking in a brick pattern, about 10mm wide and flexible.",
-  "neg": "Watch-strap links only, never a curb chain, never a cable chain, never stones, never a dial; the band stays flat and even in width; high polish, never matte, never textured.",
-  "scale": "The band is about 10mm wide, about a third of the width of a wrist; each link is about 3mm.",
-  "wscale": "The band is about 10mm wide, like a slim watch strap on the wrist.",
-  "place": "lying on the top face in a relaxed closed oval, the links facing up",
-  "macro": "a short run of the interlocking polished watch-strap links, their rounded ends razor-sharp with bright reflections",
+  "name": "Watch Link Bangle",
+  "kind": "bangle",
+  "note": "in it the bangle stands on a dark grey ground under studio light: ignore the ground, the light and the star-shaped sparkle flares, and copy only the bangle.",
+  "lock": "A RIGID WATCH LINK BANGLE, no stones: one closed, rigid oval bangle in high-polish warm gold tone, about 10mm wide, that holds its shape on its own like a kada. Its whole outer face is covered in small rounded oval links, each about 4mm long, set in staggered rows across the narrow band, each row offset by half a link from the next, overlapping like a watch strap or fish scales; every oval is a gently domed, long rounded link, its long side running along the band, every link mirror-polished with a thin dark line of shadow between them. The band runs unbroken all the way round, with no clasp tail and no loose ends.",
+  "neg": "It is RIGID: one fixed oval that never bends, folds, drapes or wraps, never lies limp or flat like a watch strap or a chain; never a flexible strap, never a mesh, never a curb or cable chain, never a coil; no stones, no dial; the band stays even in width all the way round; high polish, never matte, never brushed or textured.",
+  "scale": "The bangle is about 7cm across and its band about 10mm wide, about one seventh of its width; each oval link is about 4mm long.",
+  "wscale": "The band is only about 10mm wide: a little NARROWER THAN HER LITTLE FINGER and about one fifth of the width of her wrist, like a slim watch strap, never a wide cuff; each oval link is tiny, about 2.5mm tall and 4mm long. On the wrist it sits as a rigid, slightly loose ring with a small even gap around the wrist, resting just below the wrist bone; it never wraps tight or follows the wrist like a strap or a watch.",
+  "place": "standing upright on its rim on the top face like a ring stood on its edge, turned about thirty degrees to camera, so it reads as a firm round oval: the polished links of its outer face curve toward the camera at the front and the far side shows through the open middle; it stands on its own, clearly rigid",
+  "macro": "a short section of the narrow band, filling the frame: the staggered rows of small polished oval links overlapping like fish scales, their rounded edges razor-sharp with bright reflections and thin dark lines between them, the band curving gently away out of focus at one side",
   "metal": "gold",
-  "ref": "J10_full",
-  "det": "J10_det"
+  "ref": "J10_kav",
+  "was": {
+   "name": "Watch Link Bracelet",
+   "kind": "bracelet",
+   "note": "in it the piece lies on a black velvet display card held by fingers: ignore the card, the velvet, the fingers, the price text and the number label.",
+   "lock": "A WATCH LINK BRACELET, no stones: a flat band of watch-strap links like a jubilee watch strap, rows of short rounded high-polish links interlocking in a brick pattern, about 10mm wide and flexible.",
+   "neg": "Watch-strap links only, never a curb chain, never a cable chain, never stones, never a dial; the band stays flat and even in width; high polish, never matte, never textured.",
+   "scale": "The band is about 10mm wide, about a third of the width of a wrist; each link is about 3mm.",
+   "wscale": "The band is about 10mm wide, like a slim watch strap on the wrist.",
+   "place": "lying on the top face in a relaxed closed oval, the links facing up",
+   "macro": "a short run of the interlocking polished watch-strap links, their rounded ends razor-sharp with bright reflections",
+   "metal": "gold",
+   "ref": "J10_full",
+   "det": "J10_det"
+  }
  },
  "J11": {
   "name": "Molten Wave Ear Cuff",

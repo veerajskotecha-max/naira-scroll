@@ -1,5 +1,5 @@
 # Aditya jewellery copy of aditya-bracelets/build/build.py: IMAGE 1 wording per piece (skus.json "note"), and an ear cuff kind. Builds Nano Banana Pro listing requests (live Naira listing recipe: plaster-cube packshot, two worn frames on the
-# saffron-camisole model plate, macro). Usage: build.py SKU:SHOT,SKU:SHOT,... start_index -> prints requests JSON.
+# saffron-camisole model plate, macro). A "bangle" is shot like a bracelet but named a rigid bangle (J10, 25 Oct). Usage: build.py SKU:SHOT,SKU:SHOT,... start_index -> prints requests JSON.
 import json, sys, os
 H = os.path.dirname(os.path.abspath(__file__))
 S = json.load(open(f"{H}/skus.json")); R = json.load(open(f"{H}/ref_ids.json")); A = json.load(open(f"{H}/approved.json"))
@@ -14,7 +14,7 @@ MODEL = ("THE PLATE: A young Indian woman, late twenties, warm mid-brown skin wi
 LIP = "CROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture."
 END = ("No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: "
        "the image fills the whole frame edge to edge.")
-NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff"}
+NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff", "bangle": "rigid bangle"}
 METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver": "bright rhodium silver tone, never grey or dull, never gold",
          "two-tone": "polished gold tone and bright silver tone exactly where IMAGE 1 shows them",
          "tri-tone": "rose-gold tone, bright silver tone and warm gold tone exactly where IMAGE 1 shows them"}
@@ -49,11 +49,11 @@ def prompt(k, shot):
              f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {s['scale']}\n\nLIGHT: {LIGHT}\n\n"
              f"ABSENCE LIST: No hand, no ear, no model, no fabric, no props. No second piece of jewellery. Metal: {m}. {END}")
     else:
-        if kind == "bracelet":
+        if kind in ("bracelet", "bangle"):
             plate = "wrist"
-            sh = ("SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the bracelet large and legible in frame. 4:5 vertical, full bleed."
+            sh = (f"SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the {kind} large and legible in frame. 4:5 vertical, full bleed."
                   if shot == "W1" else
-                  "SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the bracelet LARGE in frame and lying on the wrist. 4:5 vertical, full bleed.")
+                  f"SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the {kind} LARGE in frame and {'sitting loosely around' if kind == 'bangle' else 'lying on'} the wrist. 4:5 vertical, full bleed.")
             crop = LIP + " Inside the frame: chin, neck, collarbones, shoulder, forearm and hand."
             where = "worn on ONE wrist"
         elif kind == "ring":

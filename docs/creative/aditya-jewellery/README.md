@@ -13,7 +13,7 @@ Sixteen photos Aditya sent after the bracelets (phase 1, [`../aditya-bracelets`]
 | ADT15 | J07 | Bow Pear Drop Necklace | Necklace | ₹250 | ₹999 | 5 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353627332770) |
 | ADT16 | J08 | Petite Blossom Bracelet | Bracelet | ₹175 | ₹613 | 5 | Draft | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353627365538) |
 | ADT17 | J09 | Open Heart Layered Bracelet | Bracelet | ₹160 | ₹560 | 5 | Draft | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353627398306) |
-| ADT18 | J10 | Watch Link Bracelet | Bracelet | ₹300 | ₹1050 | 5 | Draft | Watch Link (new) | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628479650) |
+| ADT18 | J10 | Watch Link Bangle | Bracelet | ₹300 | ₹1050 | 5 | Draft | Watch Link (new) | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628479650) |
 | ADT19 | J11 | Molten Wave Ear Cuff | Earrings | ₹140 | ₹490 | 4 | Draft | Molten | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628512418) |
 | ADT20 | J12 | Asscher Solitaire Ring | Ring | ₹200 | ₹700 | 3 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628545186) |
 | ADT21 | J13 | Cushion Solitaire Ring | Ring | ₹210 | ₹735 | 5 | Draft | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628577954) |
@@ -35,7 +35,7 @@ The storefront reads sets from the product name (`src/lib/pairings.ts` in the Lo
 
 - **Clover**: the pendant necklace, drop earrings, chain bracelet and station bracelet, beside the live Clover Charm Necklace and Clover Trio Edit.
 - **Twin Heart**: the necklace and the studs.
-- **Watch Link**: the bracelet, beside the live Watch Link Ring.
+- **Watch Link**: the bangle, beside the live Watch Link Ring. Its name still carries "Watch Link", so the set line picks it up.
 - **Adjustable, US 5 to 8**: Asscher Solitaire Ring, Cushion Solitaire Ring, Pavé Zigzag Ring and Lumière Oval Solitaire Ring (`src/data/ringFit.ts`).
 
 Lines that already existed pick up the rest by name: Prism (the pear drop necklace and hoops), Lumière (the oval ring, with the phase 1 Lumière Solitaire Bracelet), Pearl and Molten. The branch passes 425 tests, `tsc` and `vite build`. It needs a merge to main and a Publish in Lovable before the site shows the new sets.
@@ -71,9 +71,36 @@ Every worn frame was measured against the body it is on (a mouth is about 48 mm 
 
 - `build/retouch.py` makes every retouched frame from its source take. A *pinch* scales the ellipse round the piece about its centre and eases back to full size, so a chain stays joined to it. *Cut and scaled* clone-stamps the area with plain skin or hair and pastes the piece back smaller from its bail or piercing. The swap (not used) cuts the packshot's stud and sets it on a cleaned lobe.
 - Plain shrink edits on Higgsfield came back the same size, and blends of the cut composites redrew three pendants large or added parts, so J02 is the only model output kept (`build/fix_requests.py`). The ear cuff took six takes; every one put the cuff on the lower half of the ear, and the one kept hugs the outer rim above a bare lobe. Higgsfield cost: 22 credits (120.07 to 98.07).
-- On size and left alone: the clover station, open heart, watch link and zigzag photos, the pearl hearts (about 9 mm against 7 mm), and all eight phase 1 bracelets, whose stone counts across the wrist match their 3 to 6 mm stones.
+- On size and left alone: the clover station, open heart and zigzag photos (the watch link piece was reshot later that day, below), the pearl hearts (about 9 mm against 7 mm), and all eight phase 1 bracelets, whose stone counts across the wrist match their 3 to 6 mm stones.
 - Copy: the ear cuff now reads 15 mm across and 12 mm tall (it said 15 mm tall). Against Aditya's thumb it is about 15 to 16 mm across and 12 mm tall. The prism copy still says a 12 mm drop and 21 mm hoops, smaller than the photos the owner kept and than Aditya's photo (about 17 mm and 30 mm).
 - Open, copy left as it is: (1) the owner's 30% note puts the velvet card at about 52 mm, but Aditya's thumb and the bracelets wrapped round it put it at about 80 mm, which would make the hearts and pears about 1.5 times what the copy now says; a ruler on one Twin Heart stud settles it. (2) Against his fingers the ring stones are bigger than listed: Asscher about 10 mm (8), cushion about 16 × 10 mm (12 × 8), oval about 10 × 8 mm (7 × 5), and the Lumière Solitaire Bracelet's centre stone about 9 to 10 mm (7). The worn ring photos agree with the supplier photos.
+
+### 25 Oct: the Watch Link piece is a rigid bangle
+
+The owner sent the KAVNAR quotation photo of this piece (BSS00028, US$3.37): a closed, rigid oval bangle whose outer face is
+covered in staggered rows of small domed oval links. It had been shot and described from Aditya's photo as a flexible
+jubilee-style watch strap, so ADT18 was reshot, renamed and rewritten.
+
+- **Reference.** `refs/J10_kav.jpg` is the bangle cut from the owner's screenshot, with the KAVNAR badge painted out
+  (Higgsfield `J10_kav` in `build/ref_ids.json`). It is now IMAGE 1 for every frame; `skus.json` J10 is kind "bangle" (shot
+  like a bracelet, named a rigid bangle), and its lock says rigid, never a strap, a mesh or a chain. The strap spec is kept
+  under `was`.
+- **Frames** (9 on Higgsfield at 2 credits, 18 credits; all in `build/jobs.json`):
+  - Hero: `J10_Hb` (kept), standing on its rim at the right slim width, about one seventh of its diameter. `J10_Hc` lay on
+    its side with the band about twice too wide; `J10_Hd` has the four rows of the KAVNAR photo but a band about 1.5 times too
+    wide, so it was not used.
+  - Worn: `J10_W2c` (kept), the hand at the shoulder, the band about 11 mm on the wrist. `J10_W1b` came back with an
+    aged-paper texture and the band about twice too wide, `J10_W2b` and `J10_W1c` about 1.6 to 2 times too wide.
+  - Macro: `J10_Mc` (kept), a short run of the links on the cube, made from the kept hero. `J10_Mb` drew a chunky cuff.
+- **Rows of links.** The supplier photos disagree (about 4 rows on KAVNAR's, 5 on Aditya's), so the copy says staggered rows
+  without a count. The hero shows 3 rows; the worn and macro shots show 4.
+- **Shopify (product 10353628479650, still a draft).** The three images were replaced in place (`fileUpdate`, same media,
+  same order) with `exports/watch-link-bracelet-01..03.jpg`, and their alt text rewritten. Each one downloaded back from the
+  Shopify CDN matches its export (mean pixel difference under 0.5 of 255). The title is now Watch Link Bangle, with a
+  Bangle tag, a new SEO title and description, and the rigid-bangle copy. The owner's two PVD plating lines and the care text
+  are kept as written. Price, cost, stock, status and channels are untouched. The handle stays `watch-link-bracelet`, so
+  nothing that points at the old address breaks.
+- **Still open.** The bangle's inner size, and whether it opens on a hinge.
 
 ## Shopify
 
@@ -93,7 +120,7 @@ The care copy is the plain line, with no waterproof, tarnish-free or hypoallerge
 1. **Prices**: ADT24 and ADT25 have no price or cost. ADT26 has no cost.
 2. **Sizes**: a ruler on one Twin Heart stud and one ring settles the two open size questions under the size check.
 3. **Storefront claims**: the Lovable site prints "surgical stainless steel · waterproof, anti-tarnish" under every live jewellery piece (`src/hooks/useLiveJewellery.ts`) and shows an Anti-Tarnish badge (`JewelTrustStrip`, `ProductDetails`). That now includes the nine live Aditya pieces. Confirm the base metal with Aditya, or drop the claim for Aditya pieces.
-4. **Lengths**: the necklaces (ADT09, ADT13, ADT15, ADT24, ADT26) and bracelets (ADT11, ADT12, ADT16, ADT17, ADT18) need chain lengths for the copy and a size guide.
+4. **Lengths**: the necklaces (ADT09, ADT13, ADT15, ADT24, ADT26) and bracelets (ADT11, ADT12, ADT16, ADT17) need chain lengths for the copy and a size guide. ADT18 is a rigid bangle: it needs its inner diameter or bangle size (2.4, 2.6, 2.8), and whether it opens on a hinge or slips over the hand.
 5. **Pearl material**: the supplier called ADT26's stones "white heart shaped pearls". The copy calls them pearls; confirm shell, glass or plastic.
 6. Phase 1 still needs prices, its 15 to 19 cm question and its overlap checks (`../aditya-bracelets/README.md`).
 
