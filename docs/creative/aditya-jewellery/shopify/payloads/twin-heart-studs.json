@@ -1,0 +1,104 @@
+{
+ "title": "Twin Heart Studs",
+ "handle": "twin-heart-studs",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-6",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Two hearts on every lobe. Each stud pairs a larger and a smaller heart cut clear cubic zirconia, side by side and touching, in slim gold claws. The two studs are mirror images of each other, and each is about 8.5mm across.</p><p><strong>STYLING TIP:</strong> Wear them with the Twin Heart Necklace.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 8.5mm across</li>\n<li>Stone: Heart cut clear cubic zirconia, approximately 5mm and 3.5mm</li>\n<li>Setting: Slim gold claws</li>\n<li>Pair: The two studs mirror each other</li>\n<li>Closure: Post</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/twin-heart-studs-size-guide.jpg\" alt=\"Size guide — Twin Heart Studs\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Twin Heart Studs — Earrings | Naira Petite",
+  "description": "Each stud pairs a larger and a smaller heart cut clear cubic zirconia, side by side and touching, in slim gold claws. Twin Heart Studs by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT14",
+   "inventoryPolicy": "DENY",
+   "price": "910",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "260"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3b7ed2e8-e691-4be5-a6f8-b9262e475c24.jpg",
+   "alt": "Twin Heart Studs — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e7771a3d-da68-4a1e-b5f1-029e30526f88.jpg",
+   "alt": "Twin Heart Studs — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/af0f3664-5015-4c2e-a7f0-97d326d21445.jpg",
+   "alt": "Twin Heart Studs — macro detail: the larger and smaller hearts side by side",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

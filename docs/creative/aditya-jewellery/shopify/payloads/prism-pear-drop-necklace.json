@@ -1,0 +1,102 @@
+{
+ "title": "Prism Pear Drop Necklace",
+ "handle": "prism-pear-drop-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-8",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Necklace"
+ ],
+ "descriptionHtml": "<p>Pink, lilac and yellow, one under the other. Three pear cut cubic zirconia hang in a line from a fine gold tone cable chain, points up: raspberry pink at the top, lilac in the middle and canary yellow at the bottom, each in fine gold claws. The drop is about 12mm long and sits at the base of the throat.</p><p><strong>STYLING TIP:</strong> Wear it with the Prism Pear Drop Hoops for the matching set.</p><p><strong>Details</strong></p><ul>\n<li>Pendant: Three pear cut stones in a vertical drop, approximately 12mm long</li>\n<li>Stone: Pear cut cubic zirconia in raspberry pink, lilac and canary yellow, approximately 3.5mm each</li>\n<li>Setting: Fine gold claws</li>\n<li>Chain: Fine cable chain</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Prism Pear Drop Necklace — Necklace | Naira Petite",
+  "description": "Three pear cut cubic zirconia hang in a line from a fine gold tone cable chain, points up: raspberry pink at the top, lilac in the middle and canary yellow at the bottom, each in fine gold claws. Prism Pear Drop Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT24",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/961f5311-835a-438d-825a-22c1b274c0ae.jpg",
+   "alt": "Prism Pear Drop Necklace — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/32d9721b-64dc-4ab0-86a0-17ebea3fb92a.jpg",
+   "alt": "Prism Pear Drop Necklace — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7ed1431e-bd87-4f99-a6ec-8834a6e5f652.jpg",
+   "alt": "Prism Pear Drop Necklace — macro detail: the three pears, pink, lilac and yellow",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

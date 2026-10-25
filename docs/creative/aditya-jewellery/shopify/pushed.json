@@ -1,0 +1,719 @@
+{
+ "checked": "2026-10-25T12:47Z",
+ "products": [
+  {
+   "sku": "ADT09",
+   "key": "J01",
+   "handle": "clover-drop-pendant-necklace",
+   "title": "Clover Drop Pendant Necklace",
+   "product_id": "gid://shopify/Product/10353568645282",
+   "status": "DRAFT",
+   "price": "875.00",
+   "cost": "250.0",
+   "available": 5,
+   "category": "Necklaces",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Clover Drop Pendant Necklace — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/c3bb9419-09f0-4150-869b-834a8286f9cd.jpg?v=1792905178",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Clover Drop Pendant Necklace — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cbd07090-1a7b-4d00-b870-3dfd602ec0a6.jpg?v=1792905179",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Clover Drop Pendant Necklace — macro detail: the two clovers and the jump ring between them",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/16816f44-00ee-474e-9403-352b3f31152b.jpg?v=1792905179",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT10",
+   "key": "J02",
+   "handle": "clover-drop-earrings",
+   "title": "Clover Drop Earrings",
+   "product_id": "gid://shopify/Product/10353568678050",
+   "status": "DRAFT",
+   "price": "1015.00",
+   "cost": "290.0",
+   "available": 5,
+   "category": "Earrings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Clover Drop Earrings — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/a9816dbd-6378-443e-9fb6-2c479b85fcc2.jpg?v=1792905216",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Clover Drop Earrings — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f6de968c-3e1d-4895-ae4a-1eaea1d3c434.jpg?v=1792905216",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Clover Drop Earrings — macro detail: four round stones around the gold bead of each clover",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ab72015d-664e-477b-8701-0754f40c073e.jpg?v=1792905216",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT11",
+   "key": "J03",
+   "handle": "clover-chain-bracelet",
+   "title": "Clover Chain Bracelet",
+   "product_id": "gid://shopify/Product/10353569661090",
+   "status": "DRAFT",
+   "price": "490.00",
+   "cost": "140.0",
+   "available": 5,
+   "category": "Bracelets",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Clover Chain Bracelet — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/62aabd0d-7d69-4041-bdc1-7959aca88b05.jpg?v=1792906045",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Clover Chain Bracelet — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6c14111b-e541-4d00-9399-2b0a1a81ad29.jpg?v=1792906045",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Clover Chain Bracelet — macro detail: the clover link and the fine cable chain",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/0749a5a2-2e29-4e55-a7a1-203b885fee20.jpg?v=1792906045",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT12",
+   "key": "J04",
+   "handle": "clover-station-bracelet",
+   "title": "Clover Station Bracelet",
+   "product_id": "gid://shopify/Product/10353626185890",
+   "status": "DRAFT",
+   "price": "875.00",
+   "cost": "250.0",
+   "available": 5,
+   "category": "Bracelets",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Clover Station Bracelet — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/33aa7edd-7f4c-423a-856f-7e5d74493227.jpg?v=1792921661",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Clover Station Bracelet — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/387bc7b8-6bfd-48cd-9961-ecc12ba7afb9.jpg?v=1792921661",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Clover Station Bracelet — macro detail: one clover station on the fine cable chain",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/dff0f2f5-9806-45a5-baf0-11f5b8718147.jpg?v=1792921661",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT13",
+   "key": "J05",
+   "handle": "twin-heart-necklace",
+   "title": "Twin Heart Necklace",
+   "product_id": "gid://shopify/Product/10353626218658",
+   "status": "DRAFT",
+   "price": "840.00",
+   "cost": "240.0",
+   "available": 5,
+   "category": "Necklaces",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Twin Heart Necklace — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e74313e5-a541-4380-9735-31a64db0f3aa.jpg?v=1792930336",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Twin Heart Necklace — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/67771f21-43f5-427c-a1dd-11bd5047be0d.jpg?v=1792930336",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Twin Heart Necklace — macro detail: the two heart cut stones in slim gold claws",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8f8d0945-3813-4bbd-a33b-9547bdb5f1bf.jpg?v=1792921665",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT14",
+   "key": "J06",
+   "handle": "twin-heart-studs",
+   "title": "Twin Heart Studs",
+   "product_id": "gid://shopify/Product/10353627136162",
+   "status": "DRAFT",
+   "price": "910.00",
+   "cost": "260.0",
+   "available": 5,
+   "category": "Earrings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Twin Heart Studs — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/3b7ed2e8-e691-4be5-a6f8-b9262e475c24.jpg?v=1792930336",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Twin Heart Studs — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e7771a3d-da68-4a1e-b5f1-029e30526f88.jpg?v=1792930337",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Twin Heart Studs — macro detail: the larger and smaller hearts side by side",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/af0f3664-5015-4c2e-a7f0-97d326d21445.jpg?v=1792921822",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT15",
+   "key": "J07",
+   "handle": "bow-pear-drop-necklace",
+   "title": "Bow Pear Drop Necklace",
+   "product_id": "gid://shopify/Product/10353627332770",
+   "status": "DRAFT",
+   "price": "875.00",
+   "cost": "250.0",
+   "available": 5,
+   "category": "Necklaces",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Bow Pear Drop Necklace — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6a58f7f0-d3f8-484b-8d52-bb72ea2907a4.jpg?v=1792922027",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Bow Pear Drop Necklace — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/d8e1d920-5bc5-47c4-ae94-85fbfc4567f1.jpg?v=1792922027",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Bow Pear Drop Necklace — macro detail: the heart bow, its gold knot and the pear drop",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/3fc8e7f8-c5e7-4309-a1f3-69b99a3f6a2a.jpg?v=1792922027",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT16",
+   "key": "J08",
+   "handle": "petite-blossom-bracelet",
+   "title": "Petite Blossom Bracelet",
+   "product_id": "gid://shopify/Product/10353627365538",
+   "status": "DRAFT",
+   "price": "613.00",
+   "cost": "175.0",
+   "available": 5,
+   "category": "Bracelets",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Petite Blossom Bracelet — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/60e06785-8526-46a8-9a73-cdc66132d76b.jpg?v=1792922030",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Petite Blossom Bracelet — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e06c4e64-9ce2-4852-8142-ec2925a6faba.jpg?v=1792922030",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Petite Blossom Bracelet — macro detail: the five petal blossom on the fine cable chain",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/22167c08-6571-4ce2-b673-6676c873cd9f.jpg?v=1792922030",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT17",
+   "key": "J09",
+   "handle": "open-heart-layered-bracelet",
+   "title": "Open Heart Layered Bracelet",
+   "product_id": "gid://shopify/Product/10353627398306",
+   "status": "DRAFT",
+   "price": "560.00",
+   "cost": "160.0",
+   "available": 5,
+   "category": "Bracelets",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Open Heart Layered Bracelet — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/1e7f1061-bb5c-43fc-825e-bb180f2068a1.jpg?v=1792922033",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Open Heart Layered Bracelet — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6d77465c-3b80-4fc1-a906-4ef297f16a54.jpg?v=1792922033",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Open Heart Layered Bracelet — close on the plaster block: the open hearts and the beads",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/57d6de2c-cd5e-44b1-a05d-ac5662cbeca2.jpg?v=1792922033",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT18",
+   "key": "J10",
+   "handle": "watch-link-bracelet",
+   "title": "Watch Link Bracelet",
+   "product_id": "gid://shopify/Product/10353628479650",
+   "status": "DRAFT",
+   "price": "1050.00",
+   "cost": "300.0",
+   "available": 5,
+   "category": "Bracelets",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Watch Link Bracelet — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/21cf7949-cdef-44d1-bed7-c4d060fc1517.jpg?v=1792922725",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Watch Link Bracelet — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6bac63ab-b20a-4647-b037-56e66c9e980d.jpg?v=1792922725",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Watch Link Bracelet — macro detail: the rows of polished watch strap links",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/5ed8582d-dbb7-444d-a2f6-11a2a1c86881.jpg?v=1792922725",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT19",
+   "key": "J11",
+   "handle": "molten-wave-ear-cuff",
+   "title": "Molten Wave Ear Cuff",
+   "product_id": "gid://shopify/Product/10353628512418",
+   "status": "DRAFT",
+   "price": "490.00",
+   "cost": "140.0",
+   "available": 2,
+   "category": "Earrings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Molten Wave Ear Cuff — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/420b91bc-66d0-432c-9e33-8c3186d30ce9.jpg?v=1792922726",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Molten Wave Ear Cuff — macro detail: the wavy molten loops",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/50db2fbb-cfd9-4e10-9695-7386f43f35f3.jpg?v=1792922726",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT20",
+   "key": "J12",
+   "handle": "asscher-solitaire-ring",
+   "title": "Asscher Solitaire Ring",
+   "product_id": "gid://shopify/Product/10353628545186",
+   "status": "ACTIVE",
+   "price": "700.00",
+   "cost": "200.0",
+   "available": 5,
+   "category": "Rings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Asscher Solitaire Ring — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/65a2c43a-e8d8-4d46-9cf2-ae1705b82007.jpg?v=1792922727",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Asscher Solitaire Ring — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/840c7d21-2080-4e4c-a5f4-5e267d800341.jpg?v=1792922728",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Asscher Solitaire Ring — macro detail: the Asscher stone's stepped facets and four claws",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e2ea4d23-067a-498b-ab1c-f3918595bba8.jpg?v=1792922727",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT21",
+   "key": "J13",
+   "handle": "cushion-solitaire-ring",
+   "title": "Cushion Solitaire Ring",
+   "product_id": "gid://shopify/Product/10353628577954",
+   "status": "DRAFT",
+   "price": "735.00",
+   "cost": "210.0",
+   "available": 5,
+   "category": "Rings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Cushion Solitaire Ring — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/bdef1558-77c1-4a86-82d7-94de04c12310.jpg?v=1792922728",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Cushion Solitaire Ring — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/1a884f9b-557d-4b18-8438-cd47416991ab.jpg?v=1792922729",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Cushion Solitaire Ring — macro detail: the cushion stone in its thin gold rim",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/26696f88-7b84-4472-b6b7-d4f123ef20aa.jpg?v=1792922728",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT22",
+   "key": "J14",
+   "handle": "pave-zigzag-ring",
+   "title": "Pavé Zigzag Ring",
+   "product_id": "gid://shopify/Product/10353729405090",
+   "status": "ACTIVE",
+   "price": "630.00",
+   "cost": "180.0",
+   "available": 5,
+   "category": "Rings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Pavé Zigzag Ring — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/82dab7e6-cdb8-4710-99e6-ff76de7f2520.jpg?v=1792930333",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Pavé Zigzag Ring — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e7860cbe-e716-4632-99cd-9415f46feac2.jpg?v=1792930333",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Pavé Zigzag Ring — macro detail: the jewelled middle of the zigzag between its two plain arms",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/800422f4-0f51-46d3-9a93-933130466719.jpg?v=1792930334",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT23",
+   "key": "J15",
+   "handle": "lumiere-oval-solitaire-ring",
+   "title": "Lumière Oval Solitaire Ring",
+   "product_id": "gid://shopify/Product/10353628610722",
+   "status": "ACTIVE",
+   "price": "630.00",
+   "cost": "180.0",
+   "available": 5,
+   "category": "Rings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Lumière Oval Solitaire Ring — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e70717da-c98e-4abd-af24-2f7d3d4e4608.jpg?v=1792922730",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Lumière Oval Solitaire Ring — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/66427c08-e0d5-4aa0-ba0a-a08c542005cd.jpg?v=1792922730",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Lumière Oval Solitaire Ring — macro detail: the oval stone and its four claws",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/a1dc62e2-c393-45e8-a824-61f94c01dade.jpg?v=1792922730",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT24",
+   "key": "J16",
+   "handle": "prism-pear-drop-necklace",
+   "title": "Prism Pear Drop Necklace",
+   "product_id": "gid://shopify/Product/10353729437858",
+   "status": "DRAFT",
+   "price": "0.00",
+   "cost": null,
+   "available": 5,
+   "category": "Necklaces",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Prism Pear Drop Necklace — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/961f5311-835a-438d-825a-22c1b274c0ae.jpg?v=1792930334",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Prism Pear Drop Necklace — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/32d9721b-64dc-4ab0-86a0-17ebea3fb92a.jpg?v=1792930335",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Prism Pear Drop Necklace — macro detail: the three pears, pink, lilac and yellow",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/7ed1431e-bd87-4f99-a6ec-8834a6e5f652.jpg?v=1792930335",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT25",
+   "key": "J17",
+   "handle": "prism-pear-drop-hoops",
+   "title": "Prism Pear Drop Hoops",
+   "product_id": "gid://shopify/Product/10353729470626",
+   "status": "DRAFT",
+   "price": "0.00",
+   "cost": null,
+   "available": 5,
+   "category": "Earrings",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Prism Pear Drop Hoops — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/2a5d80ee-0564-40bf-9f82-042c6318472b.jpg?v=1792930336",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Prism Pear Drop Hoops — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/f48a3745-7b11-47f6-b988-6175813aff40.jpg?v=1792930336",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Prism Pear Drop Hoops — macro detail: one hoop and its three pears",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/fcab3621-9f3b-47a0-9f59-893307d7883a.jpg?v=1792930335",
+     "status": "READY"
+    }
+   ]
+  },
+  {
+   "sku": "ADT26",
+   "key": "J18",
+   "handle": "pearl-heart-layered-necklace",
+   "title": "Pearl Heart Layered Necklace",
+   "product_id": "gid://shopify/Product/10353628643490",
+   "status": "ACTIVE",
+   "price": "999.00",
+   "cost": null,
+   "available": 3,
+   "category": "Necklaces",
+   "channels": [
+    "Online Store",
+    "Point of Sale",
+    "Facebook & Instagram",
+    "Google & YouTube",
+    "Naira Headless",
+    "Lovable"
+   ],
+   "media": [
+    {
+     "position": 1,
+     "alt": "Pearl Heart Layered Necklace — on a cream plaster block, the full piece",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8c4e7ba7-49d6-47ec-9520-2b60ac0ba4d7.jpg?v=1792922731",
+     "status": "READY"
+    },
+    {
+     "position": 2,
+     "alt": "Pearl Heart Layered Necklace — worn on the model",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6c8abef2-7a07-4c67-9b3a-9c697e94ecac.jpg?v=1792922732",
+     "status": "READY"
+    },
+    {
+     "position": 3,
+     "alt": "Pearl Heart Layered Necklace — macro detail: two heart pearls and the gold beads between them",
+     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/afca37bf-ce44-47b9-b2ab-ca50a8994acf.jpg?v=1792922732",
+     "status": "READY"
+    }
+   ]
+  }
+ ]
+}

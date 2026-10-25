@@ -1,0 +1,104 @@
+{
+ "title": "Clover Drop Pendant Necklace",
+ "handle": "clover-drop-pendant-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-8",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Necklace"
+ ],
+ "descriptionHtml": "<p>One clover, and a smaller one below. A fine gold tone cable chain holds a four petal clover of round clear cubic zirconia set around a small polished gold bead, and from it a second, smaller clover swings on a tiny jump ring. The upper clover is about 8.5mm across and the whole drop about 17mm, so it sits light at the base of the throat and moves when you do.</p><p><strong>STYLING TIP:</strong> Wear it with the Clover Drop Earrings for the matching set.</p><p><strong>Details</strong></p><ul>\n<li>Pendant: Two clovers, approximately 8.5mm and 6.5mm across, the smaller hanging from the larger</li>\n<li>Drop: Approximately 17mm long</li>\n<li>Stone: Round clear cubic zirconia, four to each clover, approximately 3mm</li>\n<li>Centre: A small polished gold bead in each clover</li>\n<li>Setting: Fine gold claws</li>\n<li>Chain: Fine cable chain</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Clover Drop Pendant Necklace — Necklace | Naira Petite",
+  "description": "A fine gold tone cable chain holds a four petal clover of round clear cubic zirconia set around a small polished gold bead, and from it a second, smaller clover swings on a tiny jump ring. Clover Drop Pendant Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT09",
+   "inventoryPolicy": "DENY",
+   "price": "875",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "250"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c3bb9419-09f0-4150-869b-834a8286f9cd.jpg",
+   "alt": "Clover Drop Pendant Necklace — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cbd07090-1a7b-4d00-b870-3dfd602ec0a6.jpg",
+   "alt": "Clover Drop Pendant Necklace — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/16816f44-00ee-474e-9403-352b3f31152b.jpg",
+   "alt": "Clover Drop Pendant Necklace — macro detail: the two clovers and the jump ring between them",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

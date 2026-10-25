@@ -1,0 +1,103 @@
+{
+ "title": "Open Heart Layered Bracelet",
+ "handle": "open-heart-layered-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Demi Fine",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Two fine chains, two open hearts. Two strands joined at each end: a fine gold tone curb chain carrying two small polished beads, and beneath it a fine cable chain with two open heart outlines, each about 9mm wide, and a single bead between them. No stones, just polished gold tone that layers by itself.</p><p><strong>STYLING TIP:</strong> Wear it alone; the two strands already do the stacking.</p><p><strong>Details</strong></p><ul>\n<li>Strands: Two, joined at both ends</li>\n<li>Upper strand: Fine curb chain with two polished gold beads</li>\n<li>Lower strand: Fine cable chain with two open hearts, approximately 9mm wide, and one bead</li>\n<li>Beads: Approximately 4mm</li>\n<li>Stones: None</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Open Heart Layered Bracelet — Bracelet | Naira Petite",
+  "description": "Two strands joined at each end: a fine gold tone curb chain carrying two small polished beads, and beneath it a fine cable chain with two open heart outlines, each about 9mm wide, and a single bead between them. Open Heart Layered Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT17",
+   "inventoryPolicy": "DENY",
+   "price": "560",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "160"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1e7f1061-bb5c-43fc-825e-bb180f2068a1.jpg",
+   "alt": "Open Heart Layered Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6d77465c-3b80-4fc1-a906-4ef297f16a54.jpg",
+   "alt": "Open Heart Layered Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/57d6de2c-cd5e-44b1-a05d-ac5662cbeca2.jpg",
+   "alt": "Open Heart Layered Bracelet — close on the plaster block: the open hearts and the beads",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

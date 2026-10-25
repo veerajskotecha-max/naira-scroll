@@ -1,0 +1,105 @@
+{
+ "title": "Cushion Solitaire Ring",
+ "handle": "cushion-solitaire-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-9",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Adjustable",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Ring"
+ ],
+ "descriptionHtml": "<p>A long cushion of light, framed in gold. One elongated cushion cut clear cubic zirconia, about 12mm by 8mm, set low in a thin polished gold rim and laid lengthways along the finger on a plain fine band. It adjusts to fit US 5 to 8.</p><p><strong>STYLING TIP:</strong> Let it be the only ring on that hand.</p><p><strong>Details</strong></p><ul>\n<li>Size: Adjustable, fits US 5 to 8</li>\n<li>Stone: Elongated cushion cut clear cubic zirconia, approximately 12mm by 8mm</li>\n<li>Setting: Thin polished gold rim</li>\n<li>Band: Plain polished, approximately 2mm</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cushion-solitaire-ring-size-guide.jpg\" alt=\"Size guide — Cushion Solitaire Ring\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Cushion Solitaire Ring — Ring | Naira Petite",
+  "description": "One elongated cushion cut clear cubic zirconia, about 12mm by 8mm, set low in a thin polished gold rim and laid lengthways along the finger on a plain fine band. Cushion Solitaire Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT21",
+   "inventoryPolicy": "DENY",
+   "price": "735",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "210"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bdef1558-77c1-4a86-82d7-94de04c12310.jpg",
+   "alt": "Cushion Solitaire Ring — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1a884f9b-557d-4b18-8438-cd47416991ab.jpg",
+   "alt": "Cushion Solitaire Ring — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/26696f88-7b84-4472-b6b7-d4f123ef20aa.jpg",
+   "alt": "Cushion Solitaire Ring — macro detail: the cushion stone in its thin gold rim",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "title": "Petite Blossom Bracelet",
+ "handle": "petite-blossom-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>One small flower at the wrist. A five petal blossom of round clear cubic zirconia around a polished gold bead, about 8.5mm across, is set into a fine gold tone cable chain as its centre link. A quiet everyday piece that stacks with any fine chain or tennis line.</p><p><strong>STYLING TIP:</strong> Stack it beside a fine tennis bracelet.</p><p><strong>Details</strong></p><ul>\n<li>Flower: Five petals, approximately 8.5mm across, set as the centre link</li>\n<li>Stone: Round clear cubic zirconia around a polished gold bead</li>\n<li>Setting: Fine gold claws</li>\n<li>Chain: Fine cable chain, approximately 1.5mm</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Petite Blossom Bracelet — Bracelet | Naira Petite",
+  "description": "A five petal blossom of round clear cubic zirconia around a polished gold bead, about 8.5mm across, is set into a fine gold tone cable chain as its centre link. Petite Blossom Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT16",
+   "inventoryPolicy": "DENY",
+   "price": "613",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "175"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/60e06785-8526-46a8-9a73-cdc66132d76b.jpg",
+   "alt": "Petite Blossom Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e06c4e64-9ce2-4852-8142-ec2925a6faba.jpg",
+   "alt": "Petite Blossom Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/22167c08-6571-4ce2-b673-6676c873cd9f.jpg",
+   "alt": "Petite Blossom Bracelet — macro detail: the five petal blossom on the fine cable chain",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

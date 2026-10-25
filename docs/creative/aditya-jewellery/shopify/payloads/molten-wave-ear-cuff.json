@@ -1,0 +1,104 @@
+{
+ "title": "Molten Wave Ear Cuff",
+ "handle": "molten-wave-ear-cuff",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-6",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Demi Fine",
+  "Ear Cuff",
+  "Earrings",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Poured gold, no piercing needed. Five wavy loops of molten, slightly irregular gold tone wire sit side by side to form one wide cuff, about 15mm across. It slides onto the middle of the ear with no piercing, and the rippled surface catches the light at every turn.</p><p><strong>STYLING TIP:</strong> Wear it with the Molten Bloom Hoops on the same ear.</p><p><strong>Details</strong></p><ul>\n<li>Size: Approximately 15mm across and 15mm tall</li>\n<li>Style: Ear cuff, no piercing needed</li>\n<li>Form: Five wavy molten loops side by side</li>\n<li>Fit: Slides onto the middle of the ear</li>\n<li>Sold as: A single cuff</li>\n<li>Stones: None</li>\n<li>Finish: Polished gold tone</li>\n<li>Material: Stainless steel</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/molten-wave-ear-cuff-size-guide.jpg\" alt=\"Size guide — Molten Wave Ear Cuff\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Molten Wave Ear Cuff — Earrings | Naira Petite",
+  "description": "Five wavy loops of molten, slightly irregular gold tone wire sit side by side to form one wide cuff, about 15mm across. Molten Wave Ear Cuff by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT19",
+   "inventoryPolicy": "DENY",
+   "price": "490",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "140"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/420b91bc-66d0-432c-9e33-8c3186d30ce9.jpg",
+   "alt": "Molten Wave Ear Cuff — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/2ad90a98-8f32-4841-9970-c31bad96106a.jpg",
+   "alt": "Molten Wave Ear Cuff — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/50db2fbb-cfd9-4e10-9695-7386f43f35f3.jpg",
+   "alt": "Molten Wave Ear Cuff — macro detail: the wavy molten loops",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

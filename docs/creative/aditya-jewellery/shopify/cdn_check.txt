@@ -1,0 +1,62 @@
+OK  clover-drop-pendant-necklace   #1 http 200  diff 0.33  next-nearest clover-chain-bracelet-01.jpg 12.1
+OK  clover-drop-pendant-necklace   #2 http 200  diff 0.44  next-nearest prism-pear-drop-necklace-02.jpg 32.2
+OK  clover-drop-pendant-necklace   #3 http 200  diff 0.39  next-nearest prism-pear-drop-hoops-03.jpg 24.1
+OK  clover-drop-earrings           #1 http 200  diff 0.34  next-nearest prism-pear-drop-hoops-01.jpg 13.7
+OK  clover-drop-earrings           #2 http 200  diff 0.42  next-nearest molten-wave-ear-cuff-02.jpg 61.1
+OK  clover-drop-earrings           #3 http 200  diff 0.39  next-nearest bow-pear-drop-necklace-03.jpg 22.9
+OK  clover-chain-bracelet          #1 http 200  diff 0.34  next-nearest clover-drop-pendant-necklace-01.jpg 12.1
+OK  clover-chain-bracelet          #2 http 200  diff 0.44  next-nearest watch-link-bracelet-02.jpg 32.5
+OK  clover-chain-bracelet          #3 http 200  diff 0.37  next-nearest lumiere-oval-solitaire-ring-03.jpg 20.4
+OK  clover-station-bracelet        #1 http 200  diff 0.34  next-nearest twin-heart-necklace-01.jpg 10.0
+OK  clover-station-bracelet        #2 http 200  diff 0.43  next-nearest watch-link-bracelet-02.jpg 54.4
+OK  clover-station-bracelet        #3 http 200  diff 0.39  next-nearest petite-blossom-bracelet-03.jpg 21.1
+OK  twin-heart-necklace            #1 http 200  diff 0.33  next-nearest clover-station-bracelet-01.jpg 9.9
+OK  twin-heart-necklace            #2 http 200  diff 0.44  next-nearest prism-pear-drop-necklace-02.jpg 34.4
+OK  twin-heart-necklace            #3 http 200  diff 0.36  next-nearest twin-heart-necklace-01.jpg 24.3
+OK  twin-heart-studs               #1 http 200  diff 0.28  next-nearest lumiere-oval-solitaire-ring-01.jpg 9.7
+OK  twin-heart-studs               #2 http 200  diff 0.42  next-nearest clover-drop-pendant-necklace-02.jpg 55.7
+OK  twin-heart-studs               #3 http 200  diff 0.40  next-nearest lumiere-oval-solitaire-ring-03.jpg 22.6
+OK  bow-pear-drop-necklace         #1 http 200  diff 0.37  next-nearest clover-drop-pendant-necklace-01.jpg 15.9
+OK  bow-pear-drop-necklace         #2 http 200  diff 0.46  next-nearest pearl-heart-layered-necklace-02.jpg 24.7
+OK  bow-pear-drop-necklace         #3 http 200  diff 0.38  next-nearest clover-chain-bracelet-03.jpg 21.5
+OK  petite-blossom-bracelet        #1 http 200  diff 0.33  next-nearest twin-heart-necklace-01.jpg 11.5
+OK  petite-blossom-bracelet        #2 http 200  diff 0.44  next-nearest open-heart-layered-bracelet-02.jpg 5.6
+OK  petite-blossom-bracelet        #3 http 200  diff 0.39  next-nearest lumiere-oval-solitaire-ring-03.jpg 20.1
+OK  open-heart-layered-bracelet    #1 http 200  diff 0.34  next-nearest clover-drop-pendant-necklace-01.jpg 12.2
+OK  open-heart-layered-bracelet    #2 http 200  diff 0.44  next-nearest petite-blossom-bracelet-02.jpg 5.6
+OK  open-heart-layered-bracelet    #3 http 200  diff 0.34  next-nearest clover-station-bracelet-01.jpg 11.3
+OK  watch-link-bracelet            #1 http 200  diff 0.35  next-nearest clover-station-bracelet-01.jpg 17.6
+OK  watch-link-bracelet            #2 http 200  diff 0.45  next-nearest open-heart-layered-bracelet-02.jpg 23.7
+OK  watch-link-bracelet            #3 http 200  diff 0.37  next-nearest open-heart-layered-bracelet-03.jpg 21.2
+OK  molten-wave-ear-cuff           #1 http 200  diff 0.34  next-nearest asscher-solitaire-ring-01.jpg 16.1
+OK  molten-wave-ear-cuff           #3 http 200  diff 0.36  next-nearest asscher-solitaire-ring-01.jpg 17.1
+OK  asscher-solitaire-ring         #1 http 200  diff 0.31  next-nearest twin-heart-studs-01.jpg 13.6
+OK  asscher-solitaire-ring         #2 http 200  diff 0.44  next-nearest cushion-solitaire-ring-02.jpg 36.1
+OK  asscher-solitaire-ring         #3 http 200  diff 0.37  next-nearest lumiere-oval-solitaire-ring-03.jpg 17.0
+OK  cushion-solitaire-ring         #1 http 200  diff 0.31  next-nearest cushion-solitaire-ring-03.jpg 13.0
+OK  cushion-solitaire-ring         #2 http 200  diff 0.45  next-nearest asscher-solitaire-ring-02.jpg 36.1
+OK  cushion-solitaire-ring         #3 http 200  diff 0.33  next-nearest cushion-solitaire-ring-01.jpg 13.0
+OK  lumiere-oval-solitaire-ring    #1 http 200  diff 0.30  next-nearest pave-zigzag-ring-01.jpg 9.3
+OK  lumiere-oval-solitaire-ring    #2 http 200  diff 0.45  next-nearest pave-zigzag-ring-02.jpg 8.1
+OK  lumiere-oval-solitaire-ring    #3 http 200  diff 0.33  next-nearest asscher-solitaire-ring-01.jpg 15.5
+OK  pearl-heart-layered-necklace   #1 http 200  diff 0.34  next-nearest open-heart-layered-bracelet-01.jpg 15.9
+OK  pearl-heart-layered-necklace   #2 http 200  diff 0.46  next-nearest bow-pear-drop-necklace-02.jpg 24.7
+OK  pearl-heart-layered-necklace   #3 http 200  diff 0.36  next-nearest clover-chain-bracelet-01.jpg 23.5
+OK  pave-zigzag-ring               #1 http 200  diff 0.32  next-nearest lumiere-oval-solitaire-ring-01.jpg 9.3
+OK  pave-zigzag-ring               #2 http 200  diff 0.45  next-nearest lumiere-oval-solitaire-ring-02.jpg 8.1
+OK  pave-zigzag-ring               #3 http 200  diff 0.36  next-nearest open-heart-layered-bracelet-03.jpg 18.3
+OK  prism-pear-drop-necklace       #1 http 200  diff 0.32  next-nearest open-heart-layered-bracelet-01.jpg 15.4
+OK  prism-pear-drop-necklace       #2 http 200  diff 0.46  next-nearest clover-drop-pendant-necklace-02.jpg 32.2
+OK  prism-pear-drop-necklace       #3 http 200  diff 0.41  next-nearest clover-drop-pendant-necklace-01.jpg 20.3
+OK  prism-pear-drop-hoops          #1 http 200  diff 0.33  next-nearest clover-drop-earrings-01.jpg 13.7
+OK  prism-pear-drop-hoops          #2 http 200  diff 0.43  next-nearest twin-heart-necklace-02.jpg 54.5
+OK  prism-pear-drop-hoops          #3 http 200  diff 0.39  next-nearest clover-drop-pendant-necklace-03.jpg 24.1
+OK  size guide asscher-solitaire-ring         http 200  diff 0.05
+OK  size guide clover-drop-earrings           http 200  diff 0.20
+OK  size guide cushion-solitaire-ring         http 200  diff 0.05
+OK  size guide lumiere-oval-solitaire-ring    http 200  diff 0.05
+OK  size guide molten-wave-ear-cuff           http 200  diff 0.20
+OK  size guide prism-pear-drop-hoops          http 200  diff 0.12
+OK  size guide twin-heart-studs               http 200  diff 0.15
+OK  size guide pave-zigzag-ring               http 200  diff 0.05
+FAILURES: 0

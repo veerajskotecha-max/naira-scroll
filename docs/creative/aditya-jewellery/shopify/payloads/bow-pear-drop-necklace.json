@@ -1,0 +1,104 @@
+{
+ "title": "Bow Pear Drop Necklace",
+ "handle": "bow-pear-drop-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-8",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Necklace"
+ ],
+ "descriptionHtml": "<p>A bow of two hearts, and a drop below. Two heart shaped clear cubic zirconia meet point to point at a small polished gold knot to form the loops of a bow, and from the knot a single clear pear cut stone hangs on a tiny jump ring. The bow is about 10mm wide and the whole pendant about 15mm tall, on a fine gold tone cable chain.</p><p><strong>STYLING TIP:</strong> Wear it alone at the base of the throat, with a shirt open at the collar.</p><p><strong>Details</strong></p><ul>\n<li>Pendant: A bow of two heart cut stones with a pear drop, approximately 15mm tall</li>\n<li>Bow: Approximately 10mm wide</li>\n<li>Stone: Clear cubic zirconia, two hearts and one pear of approximately 6mm</li>\n<li>Setting: Fine gold claws</li>\n<li>Chain: Fine cable chain</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Bow Pear Drop Necklace — Necklace | Naira Petite",
+  "description": "Two heart shaped clear cubic zirconia meet point to point at a small polished gold knot to form the loops of a bow, and from the knot a single clear pear cut stone hangs on a tiny jump ring. Bow Pear Drop Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT15",
+   "inventoryPolicy": "DENY",
+   "price": "875",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "250"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6a58f7f0-d3f8-484b-8d52-bb72ea2907a4.jpg",
+   "alt": "Bow Pear Drop Necklace — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d8e1d920-5bc5-47c4-ae94-85fbfc4567f1.jpg",
+   "alt": "Bow Pear Drop Necklace — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/3fc8e7f8-c5e7-4309-a1f3-69b99a3f6a2a.jpg",
+   "alt": "Bow Pear Drop Necklace — macro detail: the heart bow, its gold knot and the pear drop",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

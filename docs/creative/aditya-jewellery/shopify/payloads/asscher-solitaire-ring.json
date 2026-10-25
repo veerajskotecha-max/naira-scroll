@@ -1,0 +1,105 @@
+{
+ "title": "Asscher Solitaire Ring",
+ "handle": "asscher-solitaire-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-9",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Adjustable",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Ring"
+ ],
+ "descriptionHtml": "<p>One square of stepped light. A single Asscher cut clear cubic zirconia, about 8mm across, its cut corners and stepped facets drawing the eye down into the stone, held high in four slim gold claws on a plain polished band. It adjusts to fit US 5 to 8.</p><p><strong>STYLING TIP:</strong> Wear it alone, or stack it beside the Pavé Zigzag Ring.</p><p><strong>Details</strong></p><ul>\n<li>Size: Adjustable, fits US 5 to 8</li>\n<li>Stone: Asscher cut clear cubic zirconia, approximately 8mm</li>\n<li>Setting: Four slim gold claws</li>\n<li>Band: Plain polished, approximately 2mm</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/asscher-solitaire-ring-size-guide.jpg\" alt=\"Size guide — Asscher Solitaire Ring\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Asscher Solitaire Ring — Ring | Naira Petite",
+  "description": "A single Asscher cut clear cubic zirconia, about 8mm across, its cut corners and stepped facets drawing the eye down into the stone, held high in four slim gold claws on a plain polished band. Asscher Solitaire Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT20",
+   "inventoryPolicy": "DENY",
+   "price": "700",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "200"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/65a2c43a-e8d8-4d46-9cf2-ae1705b82007.jpg",
+   "alt": "Asscher Solitaire Ring — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/840c7d21-2080-4e4c-a5f4-5e267d800341.jpg",
+   "alt": "Asscher Solitaire Ring — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e2ea4d23-067a-498b-ab1c-f3918595bba8.jpg",
+   "alt": "Asscher Solitaire Ring — macro detail: the Asscher stone's stepped facets and four claws",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

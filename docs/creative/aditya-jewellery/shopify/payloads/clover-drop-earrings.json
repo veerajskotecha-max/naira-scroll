@@ -1,0 +1,104 @@
+{
+ "title": "Clover Drop Earrings",
+ "handle": "clover-drop-earrings",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-6",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Two clovers, one swinging below the other. On each earring a four petal clover of round clear cubic zirconia sits on the lobe, and a second, smaller clover hangs below it on a tiny gold jump ring. About 19mm long, they fall just past the lobe and catch the light as they move.</p><p><strong>STYLING TIP:</strong> Wear them with the Clover Drop Pendant Necklace for the full set.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 19mm</li>\n<li>Clovers: Approximately 8.5mm at the lobe and 6.5mm below</li>\n<li>Stone: Round clear cubic zirconia, four to each clover, around a polished gold bead</li>\n<li>Setting: Fine gold claws</li>\n<li>Closure: Post</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clover-drop-earrings-size-guide.jpg\" alt=\"Size guide — Clover Drop Earrings\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Clover Drop Earrings — Earrings | Naira Petite",
+  "description": "On each earring a four petal clover of round clear cubic zirconia sits on the lobe, and a second, smaller clover hangs below it on a tiny gold jump ring. Clover Drop Earrings by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT10",
+   "inventoryPolicy": "DENY",
+   "price": "1015",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "290"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a9816dbd-6378-443e-9fb6-2c479b85fcc2.jpg",
+   "alt": "Clover Drop Earrings — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f6de968c-3e1d-4895-ae4a-1eaea1d3c434.jpg",
+   "alt": "Clover Drop Earrings — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ab72015d-664e-477b-8701-0754f40c073e.jpg",
+   "alt": "Clover Drop Earrings — macro detail: four round stones around the gold bead of each clover",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

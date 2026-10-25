@@ -1,0 +1,837 @@
+[
+ {
+  "key": "J01",
+  "title": "Clover Drop Pendant Necklace",
+  "handle": "clover-drop-pendant-necklace",
+  "type": "Necklace",
+  "metal": "gold",
+  "cost": 250,
+  "tagline": "One clover, and a smaller one below.",
+  "body": "A fine gold tone cable chain holds a four petal clover of round clear cubic zirconia set around a small polished gold bead, and from it a second, smaller clover swings on a tiny jump ring. The upper clover is about 8.5mm across and the whole drop about 17mm, so it sits light at the base of the throat and moves when you do.",
+  "tip": "Wear it with the Clover Drop Earrings for the matching set.",
+  "details": [
+   "Pendant: Two clovers, approximately 8.5mm and 6.5mm across, the smaller hanging from the larger",
+   "Drop: Approximately 17mm long",
+   "Stone: Round clear cubic zirconia, four to each clover, approximately 3mm",
+   "Centre: A small polished gold bead in each clover",
+   "Setting: Fine gold claws",
+   "Chain: Fine cable chain",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J01_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J01_W1",
+    "worn on the model"
+   ],
+   [
+    "J01_M",
+    "macro detail: the two clovers and the jump ring between them"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT09",
+  "price": 875
+ },
+ {
+  "key": "J02",
+  "title": "Clover Drop Earrings",
+  "handle": "clover-drop-earrings",
+  "type": "Earrings",
+  "metal": "gold",
+  "cost": 290,
+  "tagline": "Two clovers, one swinging below the other.",
+  "body": "On each earring a four petal clover of round clear cubic zirconia sits on the lobe, and a second, smaller clover hangs below it on a tiny gold jump ring. About 19mm long, they fall just past the lobe and catch the light as they move.",
+  "tip": "Wear them with the Clover Drop Pendant Necklace for the full set.",
+  "details": [
+   "Length: Approximately 19mm",
+   "Clovers: Approximately 8.5mm at the lobe and 6.5mm below",
+   "Stone: Round clear cubic zirconia, four to each clover, around a polished gold bead",
+   "Setting: Fine gold claws",
+   "Closure: Post",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J02_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J02_W1",
+    "worn on the model"
+   ],
+   [
+    "J02_M",
+    "macro detail: four round stones around the gold bead of each clover"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": {
+   "kind": "photo",
+   "src": "J02_H",
+   "crop": [
+    200,
+    600,
+    1514
+   ],
+   "line": "19 mm long · clovers 8.5 and 6.5 mm",
+   "callouts": [
+    [
+     "h",
+     545,
+     905,
+     720,
+     "8.5 mm"
+    ],
+    [
+     "v",
+     775,
+     1560,
+     492,
+     "19 mm",
+     "left"
+    ]
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT10",
+  "price": 1015
+ },
+ {
+  "key": "J03",
+  "title": "Clover Chain Bracelet",
+  "handle": "clover-chain-bracelet",
+  "type": "Bracelet",
+  "metal": "gold",
+  "cost": 140,
+  "tagline": "A single clover on a fine chain.",
+  "body": "One four petal clover of round clear cubic zirconia, about 9mm across, is set into a fine gold tone cable chain as its centre link, held at its two side petals so it lies flat on the wrist. Light enough to wear every day and to stack with other fine chains.",
+  "tip": "Stack it with the Clover Station Bracelet, one clover beside three.",
+  "details": [
+   "Clover: Approximately 9mm across, set as the centre link",
+   "Stone: Round clear cubic zirconia, four petals around a polished gold bead",
+   "Setting: Fine gold claws",
+   "Chain: Fine cable chain, approximately 1.5mm",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J03_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J03_W1",
+    "worn on the model"
+   ],
+   [
+    "J03_M",
+    "macro detail: the clover link and the fine cable chain"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT11",
+  "price": 490
+ },
+ {
+  "key": "J04",
+  "title": "Clover Station Bracelet",
+  "handle": "clover-station-bracelet",
+  "type": "Bracelet",
+  "metal": "gold",
+  "cost": 250,
+  "tagline": "Three clovers, spaced along the wrist.",
+  "body": "Three four petal clovers of round clear cubic zirconia, each about 8.5mm across, are set into a fine gold tone cable chain about 2.5cm apart, so one sits on top of the wrist and one falls to each side. Each clover has a small polished gold bead at its centre.",
+  "tip": "Wear it with the Clover Drop Earrings, or stack it with the Clover Chain Bracelet.",
+  "details": [
+   "Clovers: Three, approximately 8.5mm across, about 2.5cm apart",
+   "Stone: Round clear cubic zirconia, four petals around a polished gold bead",
+   "Setting: Fine gold claws",
+   "Chain: Fine cable chain",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J04_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J04_W1",
+    "worn on the model"
+   ],
+   [
+    "J04_M",
+    "macro detail: one clover station on the fine cable chain"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT12",
+  "price": 875
+ },
+ {
+  "key": "J05",
+  "title": "Twin Heart Necklace",
+  "handle": "twin-heart-necklace",
+  "type": "Necklace",
+  "metal": "gold",
+  "cost": 240,
+  "tagline": "Two hearts, one a little smaller.",
+  "body": "A larger and a smaller heart cut clear cubic zirconia sit side by side and touching, each in slim gold claws, with a fine gold tone cable chain fixed at the outer side of each heart so the pair stays centred at the base of the throat. Together they measure about 8.5mm across.",
+  "tip": "Wear it with the Twin Heart Studs, or alone with an open neckline.",
+  "details": [
+   "Pendant: Two hearts side by side, approximately 8.5mm across together",
+   "Stone: Heart cut clear cubic zirconia, approximately 5mm and 3.5mm",
+   "Setting: Slim gold claws",
+   "Chain: Fine cable chain, fixed at both sides of the hearts",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J05_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J05_W1",
+    "worn on the model"
+   ],
+   [
+    "J05_M",
+    "macro detail: the two heart cut stones in slim gold claws"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT13",
+  "price": 840
+ },
+ {
+  "key": "J06",
+  "title": "Twin Heart Studs",
+  "handle": "twin-heart-studs",
+  "type": "Earrings",
+  "metal": "gold",
+  "cost": 260,
+  "tagline": "Two hearts on every lobe.",
+  "body": "Each stud pairs a larger and a smaller heart cut clear cubic zirconia, side by side and touching, in slim gold claws. The two studs are mirror images of each other, and each is about 8.5mm across.",
+  "tip": "Wear them with the Twin Heart Necklace.",
+  "details": [
+   "Size: Approximately 8.5mm across",
+   "Stone: Heart cut clear cubic zirconia, approximately 5mm and 3.5mm",
+   "Setting: Slim gold claws",
+   "Pair: The two studs mirror each other",
+   "Closure: Post",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J06_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J06_W1",
+    "worn on the model"
+   ],
+   [
+    "J06_M",
+    "macro detail: the larger and smaller hearts side by side"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": {
+   "kind": "photo",
+   "src": "J06_H",
+   "crop": [
+    190,
+    520,
+    1500
+   ],
+   "line": "8.5 mm across · hearts 5 and 3.5 mm",
+   "callouts": [
+    [
+     "h",
+     508,
+     882,
+     960,
+     "8.5 mm"
+    ],
+    [
+     "h",
+     997,
+     1214,
+     960,
+     "5 mm"
+    ]
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT14",
+  "price": 910
+ },
+ {
+  "key": "J07",
+  "title": "Bow Pear Drop Necklace",
+  "handle": "bow-pear-drop-necklace",
+  "type": "Necklace",
+  "metal": "gold",
+  "cost": 250,
+  "tagline": "A bow of two hearts, and a drop below.",
+  "body": "Two heart shaped clear cubic zirconia meet point to point at a small polished gold knot to form the loops of a bow, and from the knot a single clear pear cut stone hangs on a tiny jump ring. The bow is about 10mm wide and the whole pendant about 15mm tall, on a fine gold tone cable chain.",
+  "tip": "Wear it alone at the base of the throat, with a shirt open at the collar.",
+  "details": [
+   "Pendant: A bow of two heart cut stones with a pear drop, approximately 15mm tall",
+   "Bow: Approximately 10mm wide",
+   "Stone: Clear cubic zirconia, two hearts and one pear of approximately 6mm",
+   "Setting: Fine gold claws",
+   "Chain: Fine cable chain",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J07_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J07_W1",
+    "worn on the model"
+   ],
+   [
+    "J07_M",
+    "macro detail: the heart bow, its gold knot and the pear drop"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT15",
+  "price": 875
+ },
+ {
+  "key": "J08",
+  "title": "Petite Blossom Bracelet",
+  "handle": "petite-blossom-bracelet",
+  "type": "Bracelet",
+  "metal": "gold",
+  "cost": 175,
+  "tagline": "One small flower at the wrist.",
+  "body": "A five petal blossom of round clear cubic zirconia around a polished gold bead, about 8.5mm across, is set into a fine gold tone cable chain as its centre link. A quiet everyday piece that stacks with any fine chain or tennis line.",
+  "tip": "Stack it beside a fine tennis bracelet.",
+  "details": [
+   "Flower: Five petals, approximately 8.5mm across, set as the centre link",
+   "Stone: Round clear cubic zirconia around a polished gold bead",
+   "Setting: Fine gold claws",
+   "Chain: Fine cable chain, approximately 1.5mm",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J08_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J08_W1",
+    "worn on the model"
+   ],
+   [
+    "J08_M",
+    "macro detail: the five petal blossom on the fine cable chain"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT16",
+  "price": 613
+ },
+ {
+  "key": "J09",
+  "title": "Open Heart Layered Bracelet",
+  "handle": "open-heart-layered-bracelet",
+  "type": "Bracelet",
+  "metal": "gold",
+  "cost": 160,
+  "tagline": "Two fine chains, two open hearts.",
+  "body": "Two strands joined at each end: a fine gold tone curb chain carrying two small polished beads, and beneath it a fine cable chain with two open heart outlines, each about 9mm wide, and a single bead between them. No stones, just polished gold tone that layers by itself.",
+  "tip": "Wear it alone; the two strands already do the stacking.",
+  "details": [
+   "Strands: Two, joined at both ends",
+   "Upper strand: Fine curb chain with two polished gold beads",
+   "Lower strand: Fine cable chain with two open hearts, approximately 9mm wide, and one bead",
+   "Beads: Approximately 4mm",
+   "Stones: None",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J09_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J09_W1",
+    "worn on the model"
+   ],
+   [
+    "J09_D",
+    "close on the plaster block: the open hearts and the beads"
+   ]
+  ],
+  "extra_tags": [],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT17",
+  "price": 560
+ },
+ {
+  "key": "J10",
+  "title": "Watch Link Bracelet",
+  "handle": "watch-link-bracelet",
+  "type": "Bracelet",
+  "metal": "gold",
+  "cost": 300,
+  "tagline": "A watch strap, without the watch.",
+  "body": "A flat, flexible band of short rounded links set in rows like a jubilee watch strap, about 10mm wide and polished bright so every link catches the light. It sits flat on the wrist and moves like fabric.",
+  "tip": "Wear it with the Watch Link Ring, or beside a fine chain for contrast.",
+  "details": [
+   "Width: Approximately 10mm",
+   "Links: Rows of short rounded links, approximately 3mm, in a watch strap pattern",
+   "Stones: None",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J10_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J10_W1",
+    "worn on the model"
+   ],
+   [
+    "J10_M",
+    "macro detail: the rows of polished watch strap links"
+   ]
+  ],
+  "extra_tags": [],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT18",
+  "price": 1050
+ },
+ {
+  "key": "J11",
+  "title": "Molten Wave Ear Cuff",
+  "handle": "molten-wave-ear-cuff",
+  "type": "Earrings",
+  "metal": "gold",
+  "cost": 140,
+  "tagline": "Poured gold, no piercing needed.",
+  "body": "Five wavy loops of molten, slightly irregular gold tone wire sit side by side to form one wide cuff, about 15mm across. It slides onto the middle of the ear with no piercing, and the rippled surface catches the light at every turn.",
+  "tip": "Wear it with the Molten Bloom Hoops on the same ear.",
+  "details": [
+   "Size: Approximately 15mm across and 15mm tall",
+   "Style: Ear cuff, no piercing needed",
+   "Form: Five wavy molten loops side by side",
+   "Fit: Slides onto the middle of the ear",
+   "Sold as: A single cuff",
+   "Stones: None",
+   "Finish: Polished gold tone",
+   "Material: Stainless steel"
+  ],
+  "images": [
+   [
+    "J11_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J11_W1",
+    "worn on the model"
+   ],
+   [
+    "J11_M",
+    "macro detail: the wavy molten loops"
+   ]
+  ],
+  "extra_tags": [
+   "Ear Cuff"
+  ],
+  "sizeguide": {
+   "kind": "photo",
+   "src": "J11_H",
+   "crop": [
+    180,
+    500,
+    1514
+   ],
+   "line": "15 mm across · no piercing needed",
+   "callouts": [
+    [
+     "h",
+     568,
+     1302,
+     640,
+     "15 mm"
+    ]
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT19",
+  "price": 490
+ },
+ {
+  "key": "J12",
+  "title": "Asscher Solitaire Ring",
+  "handle": "asscher-solitaire-ring",
+  "type": "Ring",
+  "metal": "gold",
+  "cost": 200,
+  "tagline": "One square of stepped light.",
+  "body": "A single Asscher cut clear cubic zirconia, about 8mm across, its cut corners and stepped facets drawing the eye down into the stone, held high in four slim gold claws on a plain polished band. It adjusts to fit US 5 to 8.",
+  "tip": "Wear it alone, or stack it beside the Pavé Zigzag Ring.",
+  "details": [
+   "Size: Adjustable, fits US 5 to 8",
+   "Stone: Asscher cut clear cubic zirconia, approximately 8mm",
+   "Setting: Four slim gold claws",
+   "Band: Plain polished, approximately 2mm",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J12_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J12_W1",
+    "worn on the model"
+   ],
+   [
+    "J12_M",
+    "macro detail: the Asscher stone's stepped facets and four claws"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia",
+   "Adjustable"
+  ],
+  "sizeguide": {
+   "kind": "ring",
+   "line": "Adjustable · fits US 5 to 8 · 8 mm stone",
+   "fit": [
+    "5",
+    "8"
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT20",
+  "price": 700
+ },
+ {
+  "key": "J13",
+  "title": "Cushion Solitaire Ring",
+  "handle": "cushion-solitaire-ring",
+  "type": "Ring",
+  "metal": "gold",
+  "cost": 210,
+  "tagline": "A long cushion of light, framed in gold.",
+  "body": "One elongated cushion cut clear cubic zirconia, about 12mm by 8mm, set low in a thin polished gold rim and laid lengthways along the finger on a plain fine band. It adjusts to fit US 5 to 8.",
+  "tip": "Let it be the only ring on that hand.",
+  "details": [
+   "Size: Adjustable, fits US 5 to 8",
+   "Stone: Elongated cushion cut clear cubic zirconia, approximately 12mm by 8mm",
+   "Setting: Thin polished gold rim",
+   "Band: Plain polished, approximately 2mm",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J13_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J13_W1",
+    "worn on the model"
+   ],
+   [
+    "J13_M",
+    "macro detail: the cushion stone in its thin gold rim"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia",
+   "Adjustable"
+  ],
+  "sizeguide": {
+   "kind": "ring",
+   "line": "Adjustable · fits US 5 to 8 · 12 × 8 mm stone",
+   "fit": [
+    "5",
+    "8"
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT21",
+  "price": 735
+ },
+ {
+  "key": "J14",
+  "title": "Pavé Zigzag Ring",
+  "handle": "pave-zigzag-ring",
+  "type": "Ring",
+  "metal": "gold",
+  "cost": 180,
+  "tagline": "A zigzag, lit in the middle.",
+  "body": "A fine polished band breaks into one sharp zigzag across the top of the finger, like a lightning bolt: it rises, turns, crosses, turns and rises again. Only the middle stretch carries stones, a single line of eight tiny round clear cubic zirconia, while the steep arms on either side stay plain polished gold. It adjusts to fit US 5 to 8.",
+  "tip": "Stack it beside the Asscher Solitaire Ring, one line next to one stone.",
+  "details": [
+   "Size: Adjustable, fits US 5 to 8",
+   "Profile: One zigzag with two sharp bends, approximately 9mm tall",
+   "Stone: A single line of eight tiny round clear cubic zirconia along the middle of the zigzag",
+   "Band: Approximately 1.5mm",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J14_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J14_W1",
+    "worn on the model"
+   ],
+   [
+    "J14_M",
+    "macro detail: the jewelled middle of the zigzag between its two plain arms"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia",
+   "Adjustable"
+  ],
+  "sizeguide": {
+   "kind": "ring",
+   "line": "Adjustable · fits US 5 to 8 · zigzag 9 mm tall",
+   "fit": [
+    "5",
+    "8"
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT22",
+  "price": 630
+ },
+ {
+  "key": "J15",
+  "title": "Lumière Oval Solitaire Ring",
+  "handle": "lumiere-oval-solitaire-ring",
+  "type": "Ring",
+  "metal": "gold",
+  "cost": 180,
+  "tagline": "One oval, held in four claws.",
+  "body": "A single oval cut clear cubic zirconia, about 7mm by 5mm, held in four slim gold claws on a plain polished band. Small enough for every day, and part of the Lumière line of oval cut pieces. It adjusts to fit US 5 to 8.",
+  "tip": "Wear it with the Lumière Oval Necklace.",
+  "details": [
+   "Size: Adjustable, fits US 5 to 8",
+   "Stone: Oval cut clear cubic zirconia, approximately 7mm by 5mm",
+   "Setting: Four slim gold claws",
+   "Band: Plain polished, approximately 2mm",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J15_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J15_W1",
+    "worn on the model"
+   ],
+   [
+    "J15_M",
+    "macro detail: the oval stone and its four claws"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia",
+   "Adjustable"
+  ],
+  "sizeguide": {
+   "kind": "ring",
+   "line": "Adjustable · fits US 5 to 8 · 7 × 5 mm stone",
+   "fit": [
+    "5",
+    "8"
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT23",
+  "price": 630
+ },
+ {
+  "key": "J16",
+  "title": "Prism Pear Drop Necklace",
+  "handle": "prism-pear-drop-necklace",
+  "type": "Necklace",
+  "metal": "gold",
+  "cost": null,
+  "tagline": "Pink, lilac and yellow, one under the other.",
+  "body": "Three pear cut cubic zirconia hang in a line from a fine gold tone cable chain, points up: raspberry pink at the top, lilac in the middle and canary yellow at the bottom, each in fine gold claws. The drop is about 12mm long and sits at the base of the throat.",
+  "tip": "Wear it with the Prism Pear Drop Hoops for the matching set.",
+  "details": [
+   "Pendant: Three pear cut stones in a vertical drop, approximately 12mm long",
+   "Stone: Pear cut cubic zirconia in raspberry pink, lilac and canary yellow, approximately 3.5mm each",
+   "Setting: Fine gold claws",
+   "Chain: Fine cable chain",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J16_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J16_W1",
+    "worn on the model"
+   ],
+   [
+    "J16_M",
+    "macro detail: the three pears, pink, lilac and yellow"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": null,
+  "care": "plain",
+  "sku": "ADT24",
+  "price": null
+ },
+ {
+  "key": "J17",
+  "title": "Prism Pear Drop Hoops",
+  "handle": "prism-pear-drop-hoops",
+  "type": "Earrings",
+  "metal": "gold",
+  "cost": null,
+  "tagline": "A huggie, and three colours falling from it.",
+  "body": "A plain polished gold tone huggie hoop carries a drop of three pear cut cubic zirconia, points up: raspberry pink, then lilac, then canary yellow, each in fine gold claws. About 21mm long in all, they fall just below the lobe and move with every turn of the head.",
+  "tip": "Wear them with the Prism Pear Drop Necklace, hair tucked back.",
+  "details": [
+   "Length: Approximately 21mm",
+   "Hoop: Plain polished huggie hoop, approximately 8.5mm",
+   "Stone: Pear cut cubic zirconia in raspberry pink, lilac and canary yellow",
+   "Setting: Fine gold claws",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J17_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J17_W1",
+    "worn on the model"
+   ],
+   [
+    "J17_M",
+    "macro detail: one hoop and its three pears"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "sizeguide": {
+   "kind": "photo",
+   "src": "J17_H",
+   "crop": [
+    200,
+    330,
+    1456
+   ],
+   "portrait": true,
+   "line": "21 mm long · huggie hoop 8.5 mm",
+   "callouts": [
+    [
+     "v",
+     632,
+     1618,
+     630,
+     "21 mm",
+     "left"
+    ],
+    [
+     "v",
+     653,
+     1026,
+     1250,
+     "8.5 mm",
+     "right"
+    ]
+   ]
+  },
+  "care": "plain",
+  "sku": "ADT25",
+  "price": null
+ },
+ {
+  "key": "J18",
+  "title": "Pearl Heart Layered Necklace",
+  "handle": "pearl-heart-layered-necklace",
+  "type": "Necklace",
+  "metal": "gold",
+  "cost": null,
+  "tagline": "A plain line above, pearl hearts below.",
+  "body": "Two strands, layered for you: a fine round gold tone snake chain at the base of the neck and, a little lower, a fine cable chain stationed with white heart shaped pearls, each pointing down, between small polished gold beads. Each heart is about 7mm.",
+  "tip": "Wear it with an open neckline so both strands show.",
+  "details": [
+   "Strands: Two, a snake chain above a pearl station chain",
+   "Pearls: White heart shaped pearls, approximately 7mm, each pointing down",
+   "Beads: Small polished gold beads, approximately 3mm, between the pearls",
+   "Upper strand: Fine round snake chain",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J18_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J18_W1",
+    "worn on the model"
+   ],
+   [
+    "J18_M",
+    "macro detail: two heart pearls and the gold beads between them"
+   ]
+  ],
+  "extra_tags": [
+   "Pearl"
+  ],
+  "sizeguide": null,
+  "care": "pearl",
+  "sku": "ADT26",
+  "price": null
+ }
+]

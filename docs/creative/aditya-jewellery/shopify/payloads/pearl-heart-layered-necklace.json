@@ -1,0 +1,102 @@
+{
+ "title": "Pearl Heart Layered Necklace",
+ "handle": "pearl-heart-layered-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-8",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Demi Fine",
+  "Naira Petite",
+  "Necklace",
+  "Pearl"
+ ],
+ "descriptionHtml": "<p>A plain line above, pearl hearts below. Two strands, layered for you: a fine round gold tone snake chain at the base of the neck and, a little lower, a fine cable chain stationed with white heart shaped pearls, each pointing down, between small polished gold beads. Each heart is about 7mm.</p><p><strong>STYLING TIP:</strong> Wear it with an open neckline so both strands show.</p><p><strong>Details</strong></p><ul>\n<li>Strands: Two, a snake chain above a pearl station chain</li>\n<li>Pearls: White heart shaped pearls, approximately 7mm, each pointing down</li>\n<li>Beads: Small polished gold beads, approximately 3mm, between the pearls</li>\n<li>Upper strand: Fine round snake chain</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Pearls are softer than metal and do not like chemicals. Put it on after perfume, moisturiser and hairspray, keep it out of the shower, the pool and the sea, and wipe it with a soft dry cloth after wearing. Store it flat in its pouch, away from anything that could scratch the surface.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Pearl Heart Layered Necklace — Necklace | Naira Petite",
+  "description": "Two strands, layered for you: a fine round gold tone snake chain at the base of the neck and, a little lower, a fine cable chain stationed with white heart shaped pearls, each pointing down, between small polished gold beads. Pearl Heart Layered Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT26",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8c4e7ba7-49d6-47ec-9520-2b60ac0ba4d7.jpg",
+   "alt": "Pearl Heart Layered Necklace — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6c8abef2-7a07-4c67-9b3a-9c697e94ecac.jpg",
+   "alt": "Pearl Heart Layered Necklace — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/afca37bf-ce44-47b9-b2ab-ca50a8994acf.jpg",
+   "alt": "Pearl Heart Layered Necklace — macro detail: two heart pearls and the gold beads between them",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "title": "Twin Heart Necklace",
+ "handle": "twin-heart-necklace",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Necklace",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-8",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Necklace"
+ ],
+ "descriptionHtml": "<p>Two hearts, one a little smaller. A larger and a smaller heart cut clear cubic zirconia sit side by side and touching, each in slim gold claws, with a fine gold tone cable chain fixed at the outer side of each heart so the pair stays centred at the base of the throat. Together they measure about 8.5mm across.</p><p><strong>STYLING TIP:</strong> Wear it with the Twin Heart Studs, or alone with an open neckline.</p><p><strong>Details</strong></p><ul>\n<li>Pendant: Two hearts side by side, approximately 8.5mm across together</li>\n<li>Stone: Heart cut clear cubic zirconia, approximately 5mm and 3.5mm</li>\n<li>Setting: Slim gold claws</li>\n<li>Chain: Fine cable chain, fixed at both sides of the hearts</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Twin Heart Necklace — Necklace | Naira Petite",
+  "description": "A larger and a smaller heart cut clear cubic zirconia sit side by side and touching, each in slim gold claws, with a fine gold tone cable chain fixed at the outer side of each heart so the pair stays centred at the base of the throat. Twin Heart Necklace by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT13",
+   "inventoryPolicy": "DENY",
+   "price": "840",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "240"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e74313e5-a541-4380-9735-31a64db0f3aa.jpg",
+   "alt": "Twin Heart Necklace — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/67771f21-43f5-427c-a1dd-11bd5047be0d.jpg",
+   "alt": "Twin Heart Necklace — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8f8d0945-3813-4bbd-a33b-9547bdb5f1bf.jpg",
+   "alt": "Twin Heart Necklace — macro detail: the two heart cut stones in slim gold claws",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Necklaces"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "196"
+  }
+ ]
+}

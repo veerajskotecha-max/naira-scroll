@@ -1,0 +1,103 @@
+{
+ "title": "Watch Link Bracelet",
+ "handle": "watch-link-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Demi Fine",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>A watch strap, without the watch. A flat, flexible band of short rounded links set in rows like a jubilee watch strap, about 10mm wide and polished bright so every link catches the light. It sits flat on the wrist and moves like fabric.</p><p><strong>STYLING TIP:</strong> Wear it with the Watch Link Ring, or beside a fine chain for contrast.</p><p><strong>Details</strong></p><ul>\n<li>Width: Approximately 10mm</li>\n<li>Links: Rows of short rounded links, approximately 3mm, in a watch strap pattern</li>\n<li>Stones: None</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Watch Link Bracelet — Bracelet | Naira Petite",
+  "description": "A flat, flexible band of short rounded links set in rows like a jubilee watch strap, about 10mm wide and polished bright so every link catches the light. Watch Link Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT18",
+   "inventoryPolicy": "DENY",
+   "price": "1050",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "300"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/21cf7949-cdef-44d1-bed7-c4d060fc1517.jpg",
+   "alt": "Watch Link Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6bac63ab-b20a-4647-b037-56e66c9e980d.jpg",
+   "alt": "Watch Link Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5ed8582d-dbb7-444d-a2f6-11a2a1c86881.jpg",
+   "alt": "Watch Link Bracelet — macro detail: the rows of polished watch strap links",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

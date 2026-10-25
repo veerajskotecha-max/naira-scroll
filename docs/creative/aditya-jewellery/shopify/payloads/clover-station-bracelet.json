@@ -1,0 +1,104 @@
+{
+ "title": "Clover Station Bracelet",
+ "handle": "clover-station-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Three clovers, spaced along the wrist. Three four petal clovers of round clear cubic zirconia, each about 8.5mm across, are set into a fine gold tone cable chain about 2.5cm apart, so one sits on top of the wrist and one falls to each side. Each clover has a small polished gold bead at its centre.</p><p><strong>STYLING TIP:</strong> Wear it with the Clover Drop Earrings, or stack it with the Clover Chain Bracelet.</p><p><strong>Details</strong></p><ul>\n<li>Clovers: Three, approximately 8.5mm across, about 2.5cm apart</li>\n<li>Stone: Round clear cubic zirconia, four petals around a polished gold bead</li>\n<li>Setting: Fine gold claws</li>\n<li>Chain: Fine cable chain</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Clover Station Bracelet — Bracelet | Naira Petite",
+  "description": "Three four petal clovers of round clear cubic zirconia, each about 8.5mm across, are set into a fine gold tone cable chain about 2.5cm apart, so one sits on top of the wrist and one falls to each side. Clover Station Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT12",
+   "inventoryPolicy": "DENY",
+   "price": "875",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "250"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/33aa7edd-7f4c-423a-856f-7e5d74493227.jpg",
+   "alt": "Clover Station Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/387bc7b8-6bfd-48cd-9961-ecc12ba7afb9.jpg",
+   "alt": "Clover Station Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dff0f2f5-9806-45a5-baf0-11f5b8718147.jpg",
+   "alt": "Clover Station Bracelet — macro detail: one clover station on the fine cable chain",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

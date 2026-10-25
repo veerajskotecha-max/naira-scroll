@@ -1,0 +1,105 @@
+{
+ "title": "Lumière Oval Solitaire Ring",
+ "handle": "lumiere-oval-solitaire-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-9",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Adjustable",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Ring"
+ ],
+ "descriptionHtml": "<p>One oval, held in four claws. A single oval cut clear cubic zirconia, about 7mm by 5mm, held in four slim gold claws on a plain polished band. Small enough for every day, and part of the Lumière line of oval cut pieces. It adjusts to fit US 5 to 8.</p><p><strong>STYLING TIP:</strong> Wear it with the Lumière Oval Necklace.</p><p><strong>Details</strong></p><ul>\n<li>Size: Adjustable, fits US 5 to 8</li>\n<li>Stone: Oval cut clear cubic zirconia, approximately 7mm by 5mm</li>\n<li>Setting: Four slim gold claws</li>\n<li>Band: Plain polished, approximately 2mm</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/lumiere-oval-solitaire-ring-size-guide.jpg\" alt=\"Size guide — Lumière Oval Solitaire Ring\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Lumière Oval Solitaire Ring — Ring | Naira Petite",
+  "description": "A single oval cut clear cubic zirconia, about 7mm by 5mm, held in four slim gold claws on a plain polished band. Lumière Oval Solitaire Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT23",
+   "inventoryPolicy": "DENY",
+   "price": "630",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "180"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e70717da-c98e-4abd-af24-2f7d3d4e4608.jpg",
+   "alt": "Lumière Oval Solitaire Ring — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/66427c08-e0d5-4aa0-ba0a-a08c542005cd.jpg",
+   "alt": "Lumière Oval Solitaire Ring — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a1dc62e2-c393-45e8-a824-61f94c01dade.jpg",
+   "alt": "Lumière Oval Solitaire Ring — macro detail: the oval stone and its four claws",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}

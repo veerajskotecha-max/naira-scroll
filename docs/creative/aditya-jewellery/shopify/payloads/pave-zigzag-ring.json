@@ -1,0 +1,105 @@
+{
+ "title": "Pavé Zigzag Ring",
+ "handle": "pave-zigzag-ring",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Ring",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-9",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Adjustable",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Ring"
+ ],
+ "descriptionHtml": "<p>A zigzag, lit in the middle. A fine polished band breaks into one sharp zigzag across the top of the finger, like a lightning bolt: it rises, turns, crosses, turns and rises again. Only the middle stretch carries stones, a single line of eight tiny round clear cubic zirconia, while the steep arms on either side stay plain polished gold. It adjusts to fit US 5 to 8.</p><p><strong>STYLING TIP:</strong> Stack it beside the Asscher Solitaire Ring, one line next to one stone.</p><p><strong>Details</strong></p><ul>\n<li>Size: Adjustable, fits US 5 to 8</li>\n<li>Profile: One zigzag with two sharp bends, approximately 9mm tall</li>\n<li>Stone: A single line of eight tiny round clear cubic zirconia along the middle of the zigzag</li>\n<li>Band: Approximately 1.5mm</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/pave-zigzag-ring-size-guide.jpg\" alt=\"Size guide — Pavé Zigzag Ring\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Pavé Zigzag Ring — Ring | Naira Petite",
+  "description": "A fine polished band breaks into one sharp zigzag across the top of the finger, like a lightning bolt: it rises, turns, crosses, turns and rises again. Pavé Zigzag Ring by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT22",
+   "inventoryPolicy": "DENY",
+   "price": "630",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "180"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/82dab7e6-cdb8-4710-99e6-ff76de7f2520.jpg",
+   "alt": "Pavé Zigzag Ring — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e7860cbe-e716-4632-99cd-9415f46feac2.jpg",
+   "alt": "Pavé Zigzag Ring — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/800422f4-0f51-46d3-9a93-933130466719.jpg",
+   "alt": "Pavé Zigzag Ring — macro detail: the jewelled middle of the zigzag between its two plain arms",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Rings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "200"
+  }
+ ]
+}
