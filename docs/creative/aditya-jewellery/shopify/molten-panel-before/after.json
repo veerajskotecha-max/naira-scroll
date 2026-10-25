@@ -1,0 +1,33 @@
+{
+ "product": "gid://shopify/Product/9338087342242",
+ "handle": "molten-panel-bracelet",
+ "status": "ACTIVE",
+ "changed_at": "2026-10-25T21:07Z",
+ "images": [
+  {
+   "id": "gid://shopify/MediaImage/37280289325218",
+   "from": "exports/watch-link-bracelet-01.jpg",
+   "alt": "Molten Panel Bracelet — rigid bangle standing on a cream plaster block, the full piece"
+  },
+  {
+   "id": "gid://shopify/MediaImage/37280289357986",
+   "from": "exports/watch-link-bracelet-02.jpg",
+   "alt": "Molten Panel Bracelet — worn on the model's wrist"
+  },
+  {
+   "id": "gid://shopify/MediaImage/37280289456290",
+   "from": "exports/watch-link-bracelet-03.jpg",
+   "alt": "Molten Panel Bracelet — macro detail: small polished oval plates in staggered rows on the rigid band"
+  },
+  {
+   "id": "gid://shopify/MediaImage/37245466149026",
+   "kept": "naira-packaging-b6.jpg"
+  }
+ ],
+ "removed_from_product": [
+  "gid://shopify/MediaImage/37280289423522 (worn, turned to the side: the flexible strap)",
+  "gid://shopify/MediaImage/46509816873122 (size guide: 17 cm strap length)"
+ ],
+ "description": "rigid-bangle copy; Length 17cm, Closure box clasp and the size-guide image dropped; the owner's two PVD lines and the care text kept",
+ "verified": "each image downloaded back from the Shopify CDN: mean pixel difference 0.36-0.48 against the new export, 22.7-45.6 against the old photo"
+}
