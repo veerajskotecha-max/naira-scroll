@@ -421,49 +421,49 @@
     "position": 1,
     "key": "A8_H",
     "export": "exports/bougainvillea-vine-bracelet-01.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cc0216ff-c115-4a94-9846-c50d7a219e9d.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cc0216ff-c115-4a94-9846-c50d7a219e9d.jpg?v=1792964817",
     "status": "READY"
    },
    {
     "position": 2,
     "key": "A8_W1",
     "export": "exports/bougainvillea-vine-bracelet-02.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6066a87b-7c44-44fa-8452-08945991d910.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6066a87b-7c44-44fa-8452-08945991d910.jpg?v=1792964816",
     "status": "READY"
    },
    {
     "position": 3,
     "key": "A8_W2",
     "export": "exports/bougainvillea-vine-bracelet-03.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cd1549a2-30ab-45fc-94c7-c922c1229319.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/cd1549a2-30ab-45fc-94c7-c922c1229319.jpg?v=1792964816",
     "status": "READY"
    },
    {
     "position": 4,
     "key": "A8_M",
     "export": "exports/bougainvillea-vine-bracelet-04.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/5dbae19f-dc28-4b08-899e-9cc259df7c7f.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/5dbae19f-dc28-4b08-899e-9cc259df7c7f.jpg?v=1792964815",
     "status": "READY"
    },
    {
     "position": 5,
     "key": "A9_H",
     "export": "exports/bougainvillea-vine-bracelet-05.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/7591363a-9a7e-4c44-a13b-fc3f61c7fae2.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/7591363a-9a7e-4c44-a13b-fc3f61c7fae2.jpg?v=1792964816",
     "status": "READY"
    },
    {
     "position": 6,
     "key": "A9_W1",
     "export": "exports/bougainvillea-vine-bracelet-06.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ad8779b6-781a-4c33-abe6-66a6fa9077cd.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ad8779b6-781a-4c33-abe6-66a6fa9077cd.jpg?v=1792964816",
     "status": "READY"
    },
    {
     "position": 7,
     "key": "A9_M",
     "export": "exports/bougainvillea-vine-bracelet-07.jpg",
-    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8b07045d-418c-481e-8e49-6ec921b1909f.jpg?v=1792876281",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/8b07045d-418c-481e-8e49-6ec921b1909f.jpg?v=1792964816",
     "status": "READY"
    }
   ],
@@ -480,7 +480,8 @@
    "shop-all",
    "bracelets",
    "discount-scope-all"
-  ]
+  ],
+  "replaced": "2026-10-25: all 7 images replaced in place (fileUpdate, same media ids) with the flower size fix"
  },
  {
   "handle": "lumiere-solitaire-bracelet",

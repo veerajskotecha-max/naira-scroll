@@ -17,7 +17,7 @@ OK  riviere-classique-bracelet   #4 A4_M    http 200  diff 0.39  next-nearest ri
 OK  midnight-riviere-bracelet    #1 A5_H    http 200  diff 0.36  next-nearest aquarelle-riviere-bracelet-04.jpg 12.3
 OK  midnight-riviere-bracelet    #2 A5_W1   http 200  diff 0.45  next-nearest aquarelle-riviere-bracelet-02.jpg 16.9
 OK  midnight-riviere-bracelet    #3 A5_W2   http 200  diff 0.45  next-nearest sorbet-riviere-bracelet-03.jpg 19.0
-OK  midnight-riviere-bracelet    #4 A5_M    http 200  diff 0.47  next-nearest bougainvillea-vine-bracelet-07.jpg 59.1
+OK  midnight-riviere-bracelet    #4 A5_M    http 200  diff 0.47  next-nearest bougainvillea-vine-bracelet-07.jpg 59.9
 OK  aquarelle-riviere-bracelet   #1 A6_H    http 200  diff 0.38  next-nearest aquarelle-riviere-bracelet-04.jpg 3.4
 OK  aquarelle-riviere-bracelet   #2 A6_W1   http 200  diff 0.44  next-nearest midnight-riviere-bracelet-02.jpg 16.9
 OK  aquarelle-riviere-bracelet   #3 A6_M    http 200  diff 0.40  next-nearest aquarelle-riviere-bracelet-07.jpg 23.8
@@ -25,16 +25,16 @@ OK  aquarelle-riviere-bracelet   #4 A7_H    http 200  diff 0.35  next-nearest aq
 OK  aquarelle-riviere-bracelet   #5 A7_W1   http 200  diff 0.44  next-nearest sorbet-riviere-bracelet-02.jpg 5.3
 OK  aquarelle-riviere-bracelet   #6 A7_W2   http 200  diff 0.45  next-nearest riviere-classique-bracelet-02.jpg 34.7
 OK  aquarelle-riviere-bracelet   #7 A7_M    http 200  diff 0.40  next-nearest sorbet-riviere-bracelet-04.jpg 20.5
-OK  bougainvillea-vine-bracelet  #1 A8_H    http 200  diff 0.34  next-nearest bougainvillea-vine-bracelet-05.jpg 4.5
-OK  bougainvillea-vine-bracelet  #2 A8_W1   http 200  diff 0.46  next-nearest emerald-carre-bracelet-02.jpg 52.2
+OK  bougainvillea-vine-bracelet  #1 A8_H    http 200  diff 0.34  next-nearest bougainvillea-vine-bracelet-05.jpg 3.8
+OK  bougainvillea-vine-bracelet  #2 A8_W1   http 200  diff 0.46  next-nearest emerald-carre-bracelet-02.jpg 52.1
 OK  bougainvillea-vine-bracelet  #3 A8_W2   http 200  diff 0.43  next-nearest emerald-carre-bracelet-03.jpg 33.4
-OK  bougainvillea-vine-bracelet  #4 A8_M    http 200  diff 0.39  next-nearest bougainvillea-vine-bracelet-07.jpg 22.9
-OK  bougainvillea-vine-bracelet  #5 A9_H    http 200  diff 0.35  next-nearest bougainvillea-vine-bracelet-01.jpg 4.5
-OK  bougainvillea-vine-bracelet  #6 A9_W1   http 200  diff 0.44  next-nearest emerald-carre-bracelet-02.jpg 36.4
-OK  bougainvillea-vine-bracelet  #7 A9_M    http 200  diff 0.38  next-nearest bougainvillea-vine-bracelet-04.jpg 22.9
+OK  bougainvillea-vine-bracelet  #4 A8_M    http 200  diff 0.39  next-nearest bougainvillea-vine-bracelet-07.jpg 20.9
+OK  bougainvillea-vine-bracelet  #5 A9_H    http 200  diff 0.35  next-nearest bougainvillea-vine-bracelet-01.jpg 3.8
+OK  bougainvillea-vine-bracelet  #6 A9_W1   http 200  diff 0.44  next-nearest emerald-carre-bracelet-02.jpg 36.3
+OK  bougainvillea-vine-bracelet  #7 A9_M    http 200  diff 0.37  next-nearest bougainvillea-vine-bracelet-04.jpg 20.9
 OK  lumiere-solitaire-bracelet   #1 A10_H   http 200  diff 0.39  next-nearest clarte-baguette-bracelet-01.jpg 16.4
 OK  lumiere-solitaire-bracelet   #2 A10_W1  http 200  diff 0.44  next-nearest sorbet-riviere-bracelet-03.jpg 16.5
-OK  lumiere-solitaire-bracelet   #3 A10_W2  http 200  diff 0.42  next-nearest bougainvillea-vine-bracelet-06.jpg 52.8
+OK  lumiere-solitaire-bracelet   #3 A10_W2  http 200  diff 0.42  next-nearest bougainvillea-vine-bracelet-06.jpg 52.7
 OK  lumiere-solitaire-bracelet   #4 A10_M   http 200  diff 0.41  next-nearest riviere-classique-bracelet-01.jpg 24.2
 OK  size guide clarte-baguette-bracelet     http 200  diff 0.03
 OK  size guide sorbet-riviere-bracelet      http 200  diff 0.03

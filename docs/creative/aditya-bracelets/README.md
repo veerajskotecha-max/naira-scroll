@@ -34,6 +34,26 @@ There were four reshoots or fixes:
 - **A9 hero** first showed three flowers. It was rebuilt as an edit of the Fuchsia hero with the colours changed (`A9_H2`).
 - **A4 worn shot** (`A4_W1`) had a paper border and was reshot.
 
+### 25 Oct: Bougainvillea flowers brought down to the piece's size
+
+The owner's review note said the flowers on the piece are smaller than in the photos, by about 30%. Measuring against Aditya's photos (`refs/A8_full.jpg`, `A8_det.jpg`, `A9_full.jpg`, `A9_det.jpg`) agreed:
+
+- On the piece the small flowers are about 0.65 of the centre flower, and the centre flower spans about 4.9 of the round joints beside it.
+- In the photos the centre flower drew about 1.3× too big. That is about 15 mm on the hero's 17 cm loop. In the worn frames it covers about 30% of the wrist's width, where a real 11 mm flower covers about 22%.
+- The small flowers were about 1.2× too big on the wrist, and the right size on the plinth.
+
+`build/retouch.py` fixes the approved takes with no new credits. It warps each image (moving least squares): each flower scales about its own centre, and the joints and leaves beside it slide in with it, so the vine stays joined. The other flowers, the clasp, the plinth edges and the arm's outline are pinned. Only the bare stems and the plain plaster or skin around a flower stretch.
+
+| Take | Centre flower | Small flowers |
+|---|---|---|
+| Heroes `A8_Hs`, `A9_Hs` | 0.76 | unchanged |
+| Worn `A8_W1s` | 0.74 | 0.74; the one on the arm's edge 0.9 |
+| Worn `A8_W2s` | 0.77 | 0.82 |
+| Worn `A9_W1s` | 0.75 | 0.82 |
+| Macros `A8_Ms`, `A9_Ms` | 0.84, from the flower-to-joint ratio in Aditya's close-up | — |
+
+All 7 images were replaced in place on the draft, with the same media ids and order, so each colour option keeps its hero. `shopify/cdn_check.txt` was rerun and all 46 images match. The copy's 7 mm and 11 mm stand.
+
 `export.py` maps those keys and trims a 1.5% inset, which removes the white side strips some worn frames had. It then writes `exports/<handle>-NN.jpg` in listing order. `board.jpg` is the review sheet with one row per product.
 
 Each single-colour product has 4 images. Aquarelle has 7: Royal Blue has hero, worn and macro, and Lavender adds a wrist frame. Bougainvillea also has 7: Fuchsia has 4 and Violet has hero, worn and macro.
