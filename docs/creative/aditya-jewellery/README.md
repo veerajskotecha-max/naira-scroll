@@ -177,11 +177,14 @@ Rivière Bracelet.
   Bougainvillea Vine Bracelet and Sorbet Rivière Bracelet. All five were already in the catalogue, in stock and eligible.
 - **After.** 16 pieces (17 catalogue items, as Bougainvillea has 2 variants). Petite Blossom joins if it goes live. Nothing
   else in the campaign, ad set or ad was changed.
+- **Then the Carré colours** (about 15:00 UTC, at the owner's request): Blush, Sapphire, Champagne and Amethyst Carré
+  (`../aditya-bracelets/README.md`), and Emerald Carré, which stays out while it is a draft. The four new ones reached the
+  catalogue within minutes, eligible and in stock.
+- **Now.** 20 pieces (21 catalogue items). Emerald Carré and Petite Blossom join if they go live.
 - **The ad's text** still says "12 new pieces … from ₹490". The cheapest piece in the set is ₹599.
 - **Photos.** At 13:15 UTC the catalogue still linked the 25 Oct photos of Asscher, Pavé Zigzag, Lumière and Cushion
-  Solitaire, and still had Lumière's 7 × 5 mm copy. Shopify had not yet sent today's changes. For Asscher, Pavé Zigzag and
-  Lumière, those old links still serve the closed-back photos. Once the catalogue catches up, the four `image_url`s should end
-  `?v=1793017396` (Cushion `?v=1793018643`).
+  Solitaire. By 15:00 UTC all four linked today's photos (`?v=1793017396`, Cushion `?v=1793018643`), so the ad shows the
+  open backs.
 
 ## Shopify
 

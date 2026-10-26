@@ -543,5 +543,257 @@
    "bracelets",
    "discount-scope-all"
   ]
+ },
+ {
+  "handle": "blush-carre-bracelet",
+  "title": "Blush Carré Bracelet",
+  "product_id": "gid://shopify/Product/10354825658530",
+  "status": "ACTIVE",
+  "price": "1299.00 (compare at 2500.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT03-BL",
+    "option": "Default Title",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A3_H recoloured",
+    "export": "exports/blush-carre-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/blush-carre-bracelet-01.jpg?v=1793027358",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A3_W1 recoloured",
+    "export": "exports/blush-carre-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/blush-carre-bracelet-02.jpg?v=1793027357",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A3_W2 recoloured",
+    "export": "exports/blush-carre-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/blush-carre-bracelet-03.jpg?v=1793027358",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A3_M recoloured",
+    "export": "exports/blush-carre-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/blush-carre-bracelet-04.jpg?v=1793027358",
+    "status": "READY"
+   }
+  ],
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3 (Apparel & Accessories > Jewelry > Bracelets)",
+  "channels_published": [
+   "Online Store",
+   "Point of Sale",
+   "Facebook & Instagram",
+   "Google & YouTube",
+   "Naira Headless",
+   "Lovable"
+  ],
+  "collections": [
+   "shop-all",
+   "bracelets",
+   "discount-scope-all"
+  ],
+  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/blush-carre-bracelet-size-guide.jpg?v=1793027192",
+  "created": "2026-10-26, from Emerald Carré's photos with the stones recoloured (build/recolour_carre.py)"
+ },
+ {
+  "handle": "sapphire-carre-bracelet",
+  "title": "Sapphire Carré Bracelet",
+  "product_id": "gid://shopify/Product/10354825691298",
+  "status": "ACTIVE",
+  "price": "1299.00 (compare at 2500.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT03-SA",
+    "option": "Default Title",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A3_H recoloured",
+    "export": "exports/sapphire-carre-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/sapphire-carre-bracelet-01.jpg?v=1793027359",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A3_W1 recoloured",
+    "export": "exports/sapphire-carre-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/sapphire-carre-bracelet-02.jpg?v=1793027359",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A3_W2 recoloured",
+    "export": "exports/sapphire-carre-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/sapphire-carre-bracelet-03.jpg?v=1793027360",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A3_M recoloured",
+    "export": "exports/sapphire-carre-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/sapphire-carre-bracelet-04.jpg?v=1793027359",
+    "status": "READY"
+   }
+  ],
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3 (Apparel & Accessories > Jewelry > Bracelets)",
+  "channels_published": [
+   "Online Store",
+   "Point of Sale",
+   "Facebook & Instagram",
+   "Google & YouTube",
+   "Naira Headless",
+   "Lovable"
+  ],
+  "collections": [
+   "shop-all",
+   "bracelets",
+   "discount-scope-all"
+  ],
+  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/sapphire-carre-bracelet-size-guide.jpg?v=1793027191",
+  "created": "2026-10-26, from Emerald Carré's photos with the stones recoloured (build/recolour_carre.py)"
+ },
+ {
+  "handle": "champagne-carre-bracelet",
+  "title": "Champagne Carré Bracelet",
+  "product_id": "gid://shopify/Product/10354825724066",
+  "status": "ACTIVE",
+  "price": "1299.00 (compare at 2500.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT03-CH",
+    "option": "Default Title",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A3_H recoloured",
+    "export": "exports/champagne-carre-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/champagne-carre-bracelet-01.jpg?v=1793027361",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A3_W1 recoloured",
+    "export": "exports/champagne-carre-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/champagne-carre-bracelet-02.jpg?v=1793027361",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A3_W2 recoloured",
+    "export": "exports/champagne-carre-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/champagne-carre-bracelet-03.jpg?v=1793027361",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A3_M recoloured",
+    "export": "exports/champagne-carre-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/champagne-carre-bracelet-04.jpg?v=1793027361",
+    "status": "READY"
+   }
+  ],
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3 (Apparel & Accessories > Jewelry > Bracelets)",
+  "channels_published": [
+   "Online Store",
+   "Point of Sale",
+   "Facebook & Instagram",
+   "Google & YouTube",
+   "Naira Headless",
+   "Lovable"
+  ],
+  "collections": [
+   "shop-all",
+   "bracelets",
+   "discount-scope-all"
+  ],
+  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/champagne-carre-bracelet-size-guide.jpg?v=1793027191",
+  "created": "2026-10-26, from Emerald Carré's photos with the stones recoloured (build/recolour_carre.py)"
+ },
+ {
+  "handle": "amethyst-carre-bracelet",
+  "title": "Amethyst Carré Bracelet",
+  "product_id": "gid://shopify/Product/10354825756834",
+  "status": "ACTIVE",
+  "price": "1299.00 (compare at 2500.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT03-AM",
+    "option": "Default Title",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A3_H recoloured",
+    "export": "exports/amethyst-carre-bracelet-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-01.jpg?v=1793027363",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A3_W1 recoloured",
+    "export": "exports/amethyst-carre-bracelet-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-02.jpg?v=1793027363",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A3_W2 recoloured",
+    "export": "exports/amethyst-carre-bracelet-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-03.jpg?v=1793027363",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A3_M recoloured",
+    "export": "exports/amethyst-carre-bracelet-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-04.jpg?v=1793027362",
+    "status": "READY"
+   }
+  ],
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3 (Apparel & Accessories > Jewelry > Bracelets)",
+  "channels_published": [
+   "Online Store",
+   "Point of Sale",
+   "Facebook & Instagram",
+   "Google & YouTube",
+   "Naira Headless",
+   "Lovable"
+  ],
+  "collections": [
+   "shop-all",
+   "bracelets",
+   "discount-scope-all"
+  ],
+  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-size-guide.jpg?v=1793027191",
+  "created": "2026-10-26, from Emerald Carré's photos with the stones recoloured (build/recolour_carre.py)"
  }
 ]

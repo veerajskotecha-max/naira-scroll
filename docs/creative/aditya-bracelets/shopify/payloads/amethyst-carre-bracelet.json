@@ -1,0 +1,110 @@
+{
+ "title": "Amethyst Carré Bracelet",
+ "handle": "amethyst-carre-bracelet",
+ "status": "ACTIVE",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>Purple, squared off. A tennis bracelet of square princess cut violet purple cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of colour. It closes with a slim fold over clasp. The stones are purple cubic zirconia rather than amethyst. Wear it to a cocktail evening, or with ivory and gold when you want one rich note of colour.</p><p><strong>STYLING TIP:</strong> Pair it with a clear line bracelet so the purple sits between two rows of light.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Square princess cut violet purple cubic zirconia, approximately 4mm each</li>\n<li>Setting: Square gold four claw settings, linked edge to edge</li>\n<li>Closure: Fold over clasp</li>\n<li>Stone note: Purple cubic zirconia, not amethyst</li>\n<li>Finish: Polished gold tone</li>\n<li>Plating: PVD 18K gold coating, anti-tarnish</li>\n<li>PVD vs plating: Regular plating is a soft layer that wears off over time. PVD is bonded to the metal in a vacuum, so it is far harder, stands up to sweat and keeps its colour much longer.</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-size-guide.jpg?v=1793027191\" alt=\"Size guide — Amethyst Carré Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Amethyst Carré Bracelet — Bracelet | Naira Petite",
+  "description": "A tennis bracelet of square princess cut violet purple cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of colour. Amethyst Carré Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT03-AM",
+   "price": "1299.00",
+   "compareAtPrice": "2500.00",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 2
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/e89f6b11-6dd7-4adb-b31b-3b83182fe579/amethyst-carre-bracelet-01.jpg",
+   "alt": "Amethyst Carré Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/2e4b7348-0c0d-4f15-99f7-26056ec810ab/amethyst-carre-bracelet-02.jpg",
+   "alt": "Amethyst Carré Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/e8dff4a5-1444-4453-94b8-eedb63d0ea73/amethyst-carre-bracelet-03.jpg",
+   "alt": "Amethyst Carré Bracelet — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/b7b0cb0b-14fc-4fce-af3a-eb6c7715f658/amethyst-carre-bracelet-04.jpg",
+   "alt": "Amethyst Carré Bracelet — macro detail: square violet purple stones in square gold claw settings",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

@@ -60,6 +60,37 @@ Each single-colour product has 4 images. Aquarelle has 7: Royal Blue has hero, w
 
 Higgsfield cost: 42 generations at 2K, 84 credits. The balance is 116.07.
 
+### 26 Oct: Emerald Carré in four more colours
+
+The owner sent Aditya's photo of the same square-stone tennis line in pink, blue, champagne, green and purple (two of the
+green). They asked for each colour as its own listing, with the green listing's photos in that colour, 2 in stock each,
+and live.
+
+- **Photos, no new shoot** (Higgsfield had 1.32 credits). `build/recolour_carre.py` recolours only the stones in the four
+  Emerald Carré photos. Every pixel at the stones' green hue in CIELab moves to the target colour, keeping its lightness
+  and chroma relative to the stones' median, so facets, glints and shadows stay put. Yellow-greens, where a stone shows
+  through the gold on the far side of the loop, are split into a gold share and a stone share, so no olive is left. The
+  targets were read from Aditya's photo, beside the green under the same light: pale lilac pink, deep sapphire blue, warm
+  champagne, violet. Outside the stones the mean change is under 0.5/255 (the JPEG re-save). At most 162 green pixels
+  remain in a frame, out of 2 million.
+- **Check.** `carre_colours.jpg`: each row starts with Aditya's photo of that colour, then the four listing photos.
+- **Listings** (`shopify/carre_colours.json`, `build/carre_payloads.py`, `shopify/payloads/`), live on all 6 channels, 2
+  each, ₹1,299 against ₹2,500 like the green:
+
+  | SKU | Product | Admin |
+  |---|---|---|
+  | ADT03-BL | Blush Carré Bracelet (pale pink) | [open](https://admin.shopify.com/store/nc5eti-gp/products/10354825658530) |
+  | ADT03-SA | Sapphire Carré Bracelet (blue; the copy says "not sapphire") | [open](https://admin.shopify.com/store/nc5eti-gp/products/10354825691298) |
+  | ADT03-CH | Champagne Carré Bracelet | [open](https://admin.shopify.com/store/nc5eti-gp/products/10354825724066) |
+  | ADT03-AM | Amethyst Carré Bracelet (violet; the copy says "not amethyst") | [open](https://admin.shopify.com/store/nc5eti-gp/products/10354825756834) |
+
+  The copy is Emerald Carré's with the colour swapped. It keeps the green's live PVD lines. Each listing has its own
+  size-guide card (`shopify/sizeguides/`, Shopify Files). The Storefront API reads all four as available, and the CDN
+  copies of the 16 photos match the exports.
+- **Emerald Carré** (green, ADT03) is still a draft with 5 units, as it was.
+- **Catalogue ad.** All five Carré ids are in the ₹500/day New 12 product set (`../aditya-jewellery/README.md`). The four
+  new ones show now; the green joins if it goes live.
+
 ## Shopify
 
 - `shopify/listing.json` is the copy: title, handle, tagline, body, styling tip and details for each product.

@@ -1,0 +1,110 @@
+{
+ "title": "Blush Carré Bracelet",
+ "handle": "blush-carre-bracelet",
+ "status": "ACTIVE",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Naira Petite",
+  "Tennis"
+ ],
+ "descriptionHtml": "<p>Pink, squared off. A tennis bracelet of square princess cut pale pink cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of soft colour. It closes with a slim fold over clasp. Wear it to a haldi or a sangeet, or with a white kurta when you want colour that stays gentle.</p><p><strong>STYLING TIP:</strong> Pair it with a clear line bracelet so the pink sits between two rows of light.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Square princess cut pale pink cubic zirconia, approximately 4mm each</li>\n<li>Setting: Square gold four claw settings, linked edge to edge</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Polished gold tone</li>\n<li>Plating: PVD 18K gold coating, anti-tarnish</li>\n<li>PVD vs plating: Regular plating is a soft layer that wears off over time. PVD is bonded to the metal in a vacuum, so it is far harder, stands up to sweat and keeps its colour much longer.</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/blush-carre-bracelet-size-guide.jpg?v=1793027192\" alt=\"Size guide — Blush Carré Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Blush Carré Bracelet — Bracelet | Naira Petite",
+  "description": "A tennis bracelet of square princess cut pale pink cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of soft colour. Blush Carré Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT03-BL",
+   "price": "1299.00",
+   "compareAtPrice": "2500.00",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 2
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/11950461-ac4b-4d4d-b05f-0e2e5b2a0f77/blush-carre-bracelet-01.jpg",
+   "alt": "Blush Carré Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/35e28838-a640-43e6-92c0-edfac31dd985/blush-carre-bracelet-02.jpg",
+   "alt": "Blush Carré Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/e80e2cb6-dd44-42bd-8610-66605f91484f/blush-carre-bracelet-03.jpg",
+   "alt": "Blush Carré Bracelet — worn on the wrist, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68096065698/files/00f23218-dac5-4839-a8ad-e20479ad1f90/blush-carre-bracelet-04.jpg",
+   "alt": "Blush Carré Bracelet — macro detail: square pale pink stones in square gold claw settings",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

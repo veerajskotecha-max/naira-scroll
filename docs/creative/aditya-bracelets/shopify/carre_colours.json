@@ -1,0 +1,50 @@
+[
+ {
+  "colour": "pink",
+  "title": "Blush Carré Bracelet",
+  "handle": "blush-carre-bracelet",
+  "sku": "ADT03-BL",
+  "tagline": "Pink, squared off.",
+  "body": "A tennis bracelet of square princess cut pale pink cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of soft colour. It closes with a slim fold over clasp. Wear it to a haldi or a sangeet, or with a white kurta when you want colour that stays gentle.",
+  "tip": "Pair it with a clear line bracelet so the pink sits between two rows of light.",
+  "stone": "Square princess cut pale pink cubic zirconia, approximately 4mm each",
+  "stone_note": null,
+  "macro": "square pale pink stones in square gold claw settings"
+ },
+ {
+  "colour": "blue",
+  "title": "Sapphire Carré Bracelet",
+  "handle": "sapphire-carre-bracelet",
+  "sku": "ADT03-SA",
+  "tagline": "Blue, squared off.",
+  "body": "A tennis bracelet of square princess cut sapphire blue cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of deep colour. It closes with a slim fold over clasp. The stones are blue cubic zirconia rather than sapphire. Wear it to an evening reception, or with crisp white when you want one deep note of colour.",
+  "tip": "Pair it with a clear line bracelet so the blue sits between two rows of light.",
+  "stone": "Square princess cut sapphire blue cubic zirconia, approximately 4mm each",
+  "stone_note": "Blue cubic zirconia, not sapphire",
+  "macro": "square sapphire blue stones in square gold claw settings"
+ },
+ {
+  "colour": "champagne",
+  "title": "Champagne Carré Bracelet",
+  "handle": "champagne-carre-bracelet",
+  "sku": "ADT03-CH",
+  "tagline": "Champagne, squared off.",
+  "body": "A tennis bracelet of square princess cut champagne cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of warm colour. It closes with a slim fold over clasp. Wear it every day with gold, or to a festive lunch when you want a glow rather than a flash.",
+  "tip": "Pair it with a clear line bracelet so the champagne sits between two rows of light.",
+  "stone": "Square princess cut champagne cubic zirconia, approximately 4mm each",
+  "stone_note": null,
+  "macro": "square champagne stones in square gold claw settings"
+ },
+ {
+  "colour": "purple",
+  "title": "Amethyst Carré Bracelet",
+  "handle": "amethyst-carre-bracelet",
+  "sku": "ADT03-AM",
+  "tagline": "Purple, squared off.",
+  "body": "A tennis bracelet of square princess cut violet purple cubic zirconia of about 4mm, each stone in its own square gold four claw setting and linked edge to edge, so the line reads as one unbroken band of colour. It closes with a slim fold over clasp. The stones are purple cubic zirconia rather than amethyst. Wear it to a cocktail evening, or with ivory and gold when you want one rich note of colour.",
+  "tip": "Pair it with a clear line bracelet so the purple sits between two rows of light.",
+  "stone": "Square princess cut violet purple cubic zirconia, approximately 4mm each",
+  "stone_note": "Purple cubic zirconia, not amethyst",
+  "macro": "square violet purple stones in square gold claw settings"
+ }
+]
