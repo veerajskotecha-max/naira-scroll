@@ -16,7 +16,7 @@ Sixteen photos Aditya sent after the bracelets (phase 1, [`../aditya-bracelets`]
 | ADT18 | J10 | Watch Link Bangle | Bracelet | ₹300 | ₹1050 | 5 | Draft | Watch Link (new) | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628479650) |
 | ADT19 | J11 | Molten Wave Ear Cuff | Earrings | ₹140 | ₹490 | 4 | Draft | Molten | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628512418) |
 | ADT20 | J12 | Asscher Solitaire Ring | Ring | ₹200 | ₹700 | 3 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628545186) |
-| ADT21 | J13 | Cushion Solitaire Ring | Ring | ₹210 | ₹735 | 5 | Draft | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628577954) |
+| ADT21 | J13 | Cushion Solitaire Ring | Ring | ₹210 | ₹735 | 10 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628577954) |
 | ADT22 | J14 | Pavé Zigzag Ring | Ring | ₹180 | ₹630 | 4 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353729405090) |
 | ADT23 | J15 | Lumière Oval Solitaire Ring | Ring | ₹180 | ₹699 | 3 | **Active** | Lumière | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628610722) |
 | ADT24 | J16 | Prism Pear Drop Necklace | Necklace | — | — | 5 | Draft | Prism | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353729437858) |
@@ -126,6 +126,27 @@ The four Aditya rings were shot with a closed band.
 - **Shopify**: the four exports replaced the photos in place (same media ids and order, `?v=1793017396`). The alts now say the
   band is open at the back. All four read back from the CDN within 0.8 levels of the exports.
 - **Higgsfield**: 4 generations at 2 credits, 8 credits; 5.32 left.
+
+### 26 Oct: Cushion Solitaire redone from the owner's photo
+
+The owner sent Aditya's photo of the piece (IMG_7075: "#14, ₹210, Adjustable"), asked for the open back, 4 images, a size check
+against the finger, and 5 more in stock.
+
+- **Size.** The ring lies on the fingers with the band seen edge-on. Its outside width is about 20 mm (an adjustable ring is
+  about 17 mm inside), and against it the stone in its rim measures about 14.5 × 9.5 mm. The finger width gives about
+  13 × 8.5 mm. The copy said about 12 × 8 mm; it now says about 14 × 9 mm, in the description, `shopify/listing.json`, the
+  payload and the size-guide card ("14 × 9 mm stone", redrawn by `build/sizeguide.py`, replaced in place at `?v=1793018859`).
+- **Hero.** `J13_Ho1`: the ring upright in the Asscher hero's pose, open at the back. The old hero faced the stone straight on
+  and hid the back.
+- **Worn.** `J13_W1o1`: the same model and frame as `J13_W1`, which had the cushion near square and turned across the finger.
+  The stone now runs along the finger, knuckle to tip, as on the real ring. With its rim it measures about 13 × 10 mm against
+  the band's 2 mm.
+- **Kept.** The macro (the stone faces the camera and hides the back) and the size-guide card, so the listing still has 4
+  images: hero, worn, macro and card.
+- **Stock.** 5 → 10, adjusted as "received" at Forest Colony Parijat Nagar.
+- **Shopify.** Both photos and the card were replaced in place (same ids and order), and the alts were updated. The CDN copies
+  match the exports, and the storefront API reads 14mm by 9mm, US 5 to 9, in stock.
+- **Higgsfield.** 2 generations, 4 credits; 1.32 left.
 
 ## Shopify
 
