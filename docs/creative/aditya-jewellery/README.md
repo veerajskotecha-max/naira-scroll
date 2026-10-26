@@ -178,6 +178,10 @@ Rivière Bracelet.
 - **After.** 16 pieces (17 catalogue items, as Bougainvillea has 2 variants). Petite Blossom joins if it goes live. Nothing
   else in the campaign, ad set or ad was changed.
 - **The ad's text** still says "12 new pieces … from ₹490". The cheapest piece in the set is ₹599.
+- **Photos.** At 13:15 UTC the catalogue still linked the 25 Oct photos of Asscher, Pavé Zigzag, Lumière and Cushion
+  Solitaire, and still had Lumière's 7 × 5 mm copy. Shopify had not yet sent today's changes. For Asscher, Pavé Zigzag and
+  Lumière, those old links still serve the closed-back photos. Once the catalogue catches up, the four `image_url`s should end
+  `?v=1793017396` (Cushion `?v=1793018643`).
 
 ## Shopify
 

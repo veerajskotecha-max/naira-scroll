@@ -6,7 +6,7 @@ The owner, 26 Oct: some adjustable rings showed only pre-order on the site. Ever
 
 The live site's list of adjustable rings held 10 handles. Asscher Solitaire, Lumière Oval Solitaire and Pavé Zigzag (live), and Cushion Solitaire (draft), were missing from it. Their pages therefore offered US 5, 6 and 7, and sold US 5 and 7 as pre-orders. The rings on the list offered US 5 to 8, and Cushion Halo offered US 5 to 7.
 
-A closed ring's page opened on "US 6 is in stock" whatever its size. Chevron Whisper and Pearl Ribbon are made in US 7, so the size in stock was sold as a pre-order.
+A closed ring's page opens on "US 6 is in stock". Chevron Whisper and Pearl Ribbon's copy said a fixed US 7, but the owner has since said (26 Oct) that they and Whisper Pavé are US 6, and another session changed their copy on Shopify and `main` (`7fa32e5`). So US 6 is right for every closed ring.
 
 ## Shopify (done and verified)
 
@@ -20,10 +20,10 @@ A closed ring's page opened on "US 6 is in stock" whatever its size. Chevron Whi
 
 Another session put the adjustable-ring fix on `main` as `4426bfd`. A ring is adjustable when it is on the list or Shopify tags it `Adjustable`, and every adjustable ring offers US 5 to 9.
 
-Branch `claude/higgfield-12-angles-4j09gn` (`9b062d7`, snapshot refreshed in `642b0a0`) merges that and adds:
+Branch `claude/higgfield-12-angles-4j09gn` (`9b062d7`, last merged with `main` in `f2c3317`) merges that and adds:
 
-- `stockedSize()`: a closed ring opens on the size it is stocked in (US 7 for Chevron Whisper and Pearl Ribbon, otherwise US 6). That size ships now; the others are pre-orders.
-- The jewellery page FAQ, which still said every ring is US 6 in stock with US 5 and 7 on pre-order.
+- The jewellery page FAQ, which said every ring is US 5 to 7. It now says adjustable rings fit US 5 to 9 and ship in every size, rings sold in sizes show their stock, and a closed ring is US 6 with US 5 and 7 on pre-order.
+- The older detail page (`JewelDetail.tsx`) offers adjustable rings in US 5 to 9.
 - 56px size chips, so five sizes sit on one row on a 360px phone.
 - SEO ring pages updated to US 5 to 9.
 - A regenerated catalogue snapshot.
@@ -36,9 +36,9 @@ Publish in Lovable puts `main` live. Lovable's sync branches are all inside `mai
 |---|---|---|
 | Adjustable (14) | Asscher Solitaire, Blush Cluster, Cushion Halo, Cushion Solitaire (live from 26 Oct afternoon), Droplet Open, Golden Duet, Granule Dome, Halo Curve, Lumière Oval Solitaire, Pavé Zigzag, Petite Pavé, Rose Verdant, Pavé Dome (`silver-dome-ring`), Verdant Eternity | US 5 to 9, every size ships now |
 | Sold in sizes (8) | Baguette Eternity, Chain Drop Dome, Crystal Baguette Eternity, Linked Pair (`linked-trio-ring`), Mesh Band, Star Point, Watch Link (US 5 to 8); Roman Numeral Trio (US 6 to 9, US 8 sold out) | Shopify's own size variants and stock |
-| Closed, one size (5) | Chevron Whisper and Pearl Ribbon (US 7); Vintage Halo (US 6); Whisper Pavé (about 17 mm, "between US 6 and 7", shown as US 6); Lilac Papillon (tagged pre-order, no size in its copy, shown as US 6) | The stocked size ships now; US 5 to 7 otherwise pre-order |
+| Closed, one size (5) | Chevron Whisper, Pearl Ribbon, Whisper Pavé and Vintage Halo (US 6, the owner, 26 Oct); Lilac Papillon (tagged pre-order, no size in its copy, shown as US 6) | US 6 ships now; US 5 and 7 are pre-orders |
 
 ## Open questions
 
 - Is Trio Bloom Ring (draft) adjustable? Its copy says "an open band", but it is not tagged `Adjustable`.
-- Should Whisper Pavé show US 6 or US 6½? What size is Lilac Papillon?
+- What size is Lilac Papillon?
