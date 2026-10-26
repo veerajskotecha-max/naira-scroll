@@ -73,7 +73,7 @@ Every worn frame was measured against the body it is on (a mouth is about 48 mm 
 - Plain shrink edits on Higgsfield came back the same size, and blends of the cut composites redrew three pendants large or added parts, so J02 is the only model output kept (`build/fix_requests.py`). The ear cuff took six takes; every one put the cuff on the lower half of the ear, and the one kept hugs the outer rim above a bare lobe. Higgsfield cost: 22 credits (120.07 to 98.07).
 - On size and left alone: the clover station, open heart and zigzag photos (the watch link piece was reshot later that day, below), the pearl hearts (about 9 mm against 7 mm), and all eight phase 1 bracelets, whose stone counts across the wrist match their 3 to 6 mm stones.
 - Copy: the ear cuff now reads 15 mm across and 12 mm tall (it said 15 mm tall). Against Aditya's thumb it is about 15 to 16 mm across and 12 mm tall. The prism copy still says a 12 mm drop and 21 mm hoops, smaller than the photos the owner kept and than Aditya's photo (about 17 mm and 30 mm).
-- Open, copy left as it is: (1) the owner's 30% note puts the velvet card at about 52 mm, but Aditya's thumb and the bracelets wrapped round it put it at about 80 mm, which would make the hearts and pears about 1.5 times what the copy now says; a ruler on one Twin Heart stud settles it. (2) Against his fingers the ring stones are bigger than listed: Asscher about 10 mm (8), cushion about 16 × 10 mm (12 × 8), oval about 10 × 8 mm (7 × 5), and the Lumière Solitaire Bracelet's centre stone about 9 to 10 mm (7). The worn ring photos agree with the supplier photos.
+- Open, copy left as it is: (1) the owner's 30% note puts the velvet card at about 52 mm, but Aditya's thumb and the bracelets wrapped round it put it at about 80 mm, which would make the hearts and pears about 1.5 times what the copy now says; a ruler on one Twin Heart stud settles it. (2) Against Aditya's fingers the ring stones are bigger than listed: Asscher about 10 mm (8), cushion about 16 × 10 mm (12 × 8), oval about 10 × 8 mm (7 × 5), and the Lumière Solitaire Bracelet's centre stone about 9 to 10 mm (7). The worn ring photos agree with the supplier photos.
 
 ### 25 Oct: the Watch Link piece is a rigid bangle
 
@@ -147,6 +147,37 @@ against the finger, and 5 more in stock.
 - **Shopify.** Both photos and the card were replaced in place (same ids and order), and the alts were updated. The CDN copies
   match the exports, and the storefront API reads 14mm by 9mm, US 5 to 9, in stock.
 - **Higgsfield.** 2 generations, 4 credits; 1.32 left.
+
+### 26 Oct: Lumière Oval measured from Aditya's photo
+
+The owner asked for the Lumière ring to be checked against the ring itself, and its photos and copy updated if needed.
+
+- **Size.** In Aditya's photo (IMG_6847) the ring lies flat on a palm, seen from above. The band's outside width is about
+  19.5 mm, and against it the oval measures about 8.1 × 5.8 mm. The copy said about 7 × 5 mm; it now says about 8 × 6 mm in
+  the description, the search description, `shopify/listing.json`, the payload and the size-guide card ("8 × 6 mm stone",
+  replaced in place at `?v=1793019264`).
+- **Worn.** `J15_W1` had the stone at about 10 × 6.5 mm against the finger, about 20% too big. `build/retouch.py` pinches
+  the stone and claws to 0.82 about their centre and eases back to the untouched frame a few millimetres out (`J15_W1p`).
+  Replaced in place at `?v=1793019265`.
+- **Kept.** The upright hero and the macro show the ring alone, with nothing to read its size against.
+- **Cushion Solitaire.** Its search description still said 12 × 8 mm; it now says 14 × 9 mm.
+- **Higgsfield.** No generations; 1.32 credits left.
+
+### 26 Oct: the New 12 catalogue ad
+
+The owner asked for the pieces they sent to be in the ₹500/day catalogue ad for the 12 new pieces, and then added Sorbet
+Rivière Bracelet.
+
+- **The ad.** Campaign "Naira · Catalogue · 12 new pieces (25 Oct)" (₹500/day, in the naira flore ad account) shows product
+  set `1769665577642357`, "New 12 · Aditya batch ADT09–ADT26 · in stock · 25 Oct", in catalogue `890180200517979`. The set's
+  rule lists Shopify product ids and keeps only what is in stock.
+- **Before.** 11 pieces. The rule's 12th id is Petite Blossom Bracelet, a Shopify draft, so it is not in the catalogue.
+  Pearl Heart Layered Necklace, Lumière Oval and Asscher Solitaire were already in.
+- **Added to the rule**, with the owner's go-ahead: Cushion Solitaire, Prism Pear Drop Hoops, Prism Pear Drop Necklace,
+  Bougainvillea Vine Bracelet and Sorbet Rivière Bracelet. All five were already in the catalogue, in stock and eligible.
+- **After.** 16 pieces (17 catalogue items, as Bougainvillea has 2 variants). Petite Blossom joins if it goes live. Nothing
+  else in the campaign, ad set or ad was changed.
+- **The ad's text** still says "12 new pieces … from ₹490". The cheapest piece in the set is ₹599.
 
 ## Shopify
 
