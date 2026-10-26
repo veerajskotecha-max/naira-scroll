@@ -8,11 +8,14 @@
 # of the cut-and-scaled earring). The owner kept the 25 Oct takes for the twin heart studs (J06_W1e2, over the swapped
 # J06_W1s) and the prism pair (J16_W1r2 and J17_W1h2, over the cut-and-scaled J16_W1d and J17_W1d).
 # The watch link piece is a rigid bangle (the owner's KAVNAR photo, 25 Oct): J10_Hb, J10_W2c and J10_Mc replace the strap frames.
+# 26 Oct, the owner: an adjustable ring's photo that shows the back of the band shows it open. openback.py patches the gap
+# into the approved takes: J12_Ho (Asscher hero), J14_Ho and J14_Mo (Pavé Zigzag hero and macro). The Lumière hero was
+# front-on, its back hidden behind the stone, so J15_Ho1 is a new take: the same ring upright in J12_Ho's pose, open at the back.
 import json, os, sys
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "../exports")
 SRC = {"J09_H": "J09_H2", "J09_D": "J09_H", "J05_H": "J05_Hf", "J06_H": "J06_He", "J06_W1": "J06_W1e2",
-       "J14_H": "J14_Hn", "J14_W1": "J14_W1z", "J14_M": "J14_Mn", "J16_H": "J16_Hg1", "J16_W1": "J16_W1r2",
+       "J14_H": "J14_Ho", "J14_W1": "J14_W1z", "J14_M": "J14_Mo", "J12_H": "J12_Ho", "J15_H": "J15_Ho1", "J16_H": "J16_Hg1", "J16_W1": "J16_W1r2",
        "J17_H": "J17_Hs", "J17_W1": "J17_W1h2", "J01_W1": "J01_W1p", "J02_W1": "J02_W1c", "J03_W1": "J03_W1p",
        "J05_W1": "J05_W1p", "J07_W1": "J07_W1p", "J08_W1": "J08_W1p", "J11_W1": "J11_W1qp",
        "J10_H": "J10_Hb", "J10_W1": "J10_W2c", "J10_M": "J10_Mc"}

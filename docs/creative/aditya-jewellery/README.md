@@ -110,6 +110,23 @@ jubilee-style watch strap, so ADT18 was reshot, renamed and rewritten.
   Bracelet just after the change.
 - **Still open.** The bangle's inner size, and whether it opens on a hinge. The draft ADT18 duplicates the live listing.
 
+### 26 Oct: the adjustable rings show their open back
+
+The owner: a ring photo that shows the back of the band should show it open, so the ring reads as adjustable (US 5 to 9).
+The four Aditya rings were shot with a closed band.
+
+- **Patched with no reshoot** (`build/openback.py`): `J12_Ho`, the Asscher hero, and `J14_Ho` and `J14_Mo`, the Pavé Zigzag
+  hero and macro. In each, Higgsfield drew a gap of about 2 mm with rounded, polished ends at the back of the band (`J12_Ho1`,
+  `J14_Ho1`, `J14_Mo1`). The script aligns that copy to the approved take and feathers in only the patch around the gap. The
+  stone, claws, pavé, light and grain stay the approved take's; outside the patch the pixels are unchanged.
+- **New take**: `J15_Ho1`, the Lumière hero. The old hero faced the stone straight on, so the back of the band was hidden
+  behind it. The new take is the same ring upright, in the Asscher hero's pose, with the gap at the back.
+- **Left alone**: the worn photos (the finger hides the back) and the Asscher, Lumière and Cushion Solitaire macros (the stone
+  hides it). Cushion Solitaire's hero is front-on like Lumière's was, so it can't show the back; a new upright take is 2 credits.
+- **Shopify**: the four exports replaced the photos in place (same media ids and order, `?v=1793017396`). The alts now say the
+  band is open at the back. All four read back from the CDN within 0.8 levels of the exports.
+- **Higgsfield**: 4 generations at 2 credits, 8 credits; 5.32 left.
+
 ## Shopify
 
 Verified on 25 Oct 2026 (`shopify/pushed.json`, `shopify/cdn_check.txt`):
