@@ -1,0 +1,142 @@
+{
+ "p": 5,
+ "title": "The only rangoli nobody steps on.",
+ "format": "static, 1 slide, 1080x1440 (3:4); the owner's clean photo plate (no eyebrow, seal, bracket or wordmark)",
+ "date": "Fri 6 Nov 2026 (Dhanteras)",
+ "time_ist": "12:00",
+ "files": [
+  "01.jpg"
+ ],
+ "caption": "Dhanteras asks for something new and something metal. Rhodium is a metal. We checked.\n\nEvery house draws its rangoli at the door before the first guest, and by Bhai Dooj it has been walked into the doormat. This one goes on the wrist: aqua, pink and pale yellow stones, each in its own halo, adjustable from 15 to 19 cm. Prism Rivière Bracelet, ₹2,399.\n\nToday's mangal: Kannada, ಮಂಗಳ.\n\n[ prism rivière bracelet · rhodium plated · no sweeping required ]",
+ "first_comment": "#NairaFlore #Dhanteras #HappyDhanteras #TennisBracelet #DemiFineJewellery",
+ "alt_text": [
+  "A still life: a rhodium plated bracelet of cushion-cut aqua, pink and pale yellow stones, each ringed with tiny clear stones, laid straight across three stripes of matching coloured powder like a rangoli on cream. Text: The only rangoli nobody steps on. Mangal, ಮಂಗಳ."
+ ],
+ "products": [
+  {
+   "handle": "prism-riviere-bracelet",
+   "variant": "Default",
+   "price": 2399
+  }
+ ],
+ "gate_owner_plate": {
+  "status": "OPEN. Hard gate: nothing posts until the owner signs ONE of two built tiles, A (the plate) or B (the cut-out). Run it by Mon 2 Nov, together with gate_ai_label.",
+  "rule": "Owner signs A (s01, the generated plate P01_a1) or B (s01-fallback-cutout, the listing photograph cut out on drawn stripes), side by side in _work/fix/gate-plate-vs-listing.png. Both are built, checked and exported; the Kannada gate then picks the script or -noscript twin of whichever is signed.",
+  "compare": [
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/_work/fix/gate-plate-vs-listing.png",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01.jpg",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout.jpg",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-thumb.png",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-thumb.png",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/_work/fix/gate-plate-native-detail.png",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/assets/artifacts/plain-images/full/f/P01_a1.jpg",
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/assets/shopify/prism-riviere-bracelet/05.jpg"
+  ],
+  "what_to_judge": "At native resolution the plate's halos are wider than the real piece's: about 2-3 rows of pavé in a pillowed outline, against the listing's tight halo with a polished rim. The plate's links sit apart with a bare connecting bar showing; the real links butt together. The plate's stones read as soft cushions, the listing's as squarer with clipped corners. Colours, their repeating order, the four claws and the cool rhodium white all match. That puts the plate close to never-list 23 ('invented halos/pavé'). The tile no longer prints a price (grid pass r1), but its caption names and prices the piece, so it is still a sales image. A fair likeness at feed scale; the call is the owner's.",
+  "if_signed": "Post A: s01.jpg (or s01-fallback-noscript.jpg, per the Kannada gate) as built. Write the owner's name, the date and 'A' here.",
+  "if_not_signed": "Post B, already built: drawn SVG powder stripes on cream (aqua #A8DCD5 x 120-330, pink #F2B8C9 x 430-640, yellow #F3E3A0 x 740-950) with the real cut-out cutouts/prism-riviere-bracelet/x00-aa-trim.png (x00-trim, anti-aliased matte, 966x588) at 960 px wide, centred (540,867), so the box runs y 575-1159, 58 px under the turn's ink; the same type, and since the grid pass r1 no 'shown larger.' and no label line, only the plate line at 1370 when the Kannada reader signs. Files, alt text and checks are in fallback_built below. Write the owner's name, the date and 'B' here.",
+  "signed_by": null,
+  "signed_on": null,
+  "fallback_built": {
+   "with_kannada_line": {
+    "html": "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout.html",
+    "files": [
+     "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout.jpg"
+    ],
+    "alt_files_45": [
+     "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-45.jpg"
+    ],
+    "thumbs": [
+     "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-thumb.png"
+    ],
+    "caption": "Dhanteras asks for something new and something metal. Rhodium is a metal. We checked.\n\nEvery house draws its rangoli at the door before the first guest, and by Bhai Dooj it has been walked into the doormat. This one goes on the wrist: aqua, pink and pale yellow stones, each in its own halo, adjustable from 15 to 19 cm. Prism Rivière Bracelet, ₹2,399.\n\nToday's mangal: Kannada, ಮಂಗಳ.\n\n[ prism rivière bracelet · rhodium plated · no sweeping required ]",
+    "alt_text": [
+     "A photograph of the real bracelet, cut out and laid across three drawn stripes of aqua, pink and pale yellow powder on cream, like a rangoli: a rhodium plated bracelet of cushion-cut aqua, pink and pale yellow stones, each ringed with tiny clear stones, closed in a loop with its clasp at the top. Text: The only rangoli nobody steps on. Mangal, ಮಂಗಳ."
+    ]
+   },
+   "without_kannada_line": {
+    "html": "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-noscript.html",
+    "files": [
+     "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-noscript.jpg"
+    ],
+    "alt_files_45": [
+     "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-noscript-45.jpg"
+    ],
+    "thumbs": [
+     "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-cutout-noscript-thumb.png"
+    ],
+    "caption": "Dhanteras asks for something new and something metal. Rhodium is a metal. We checked.\n\nEvery house draws its rangoli at the door before the first guest, and by Bhai Dooj it has been walked into the doormat. This one goes on the wrist: aqua, pink and pale yellow stones, each in its own halo, adjustable from 15 to 19 cm. Prism Rivière Bracelet, ₹2,399.\n\nToday's mangal: Marathi, मंगळ.\n\n[ prism rivière bracelet · rhodium plated · no sweeping required ]",
+    "alt_text": [
+     "A photograph of the real bracelet, cut out and laid across three drawn stripes of aqua, pink and pale yellow powder on cream, like a rangoli: a rhodium plated bracelet of cushion-cut aqua, pink and pale yellow stones, each ringed with tiny clear stones, closed in a loop with its clasp at the top. Text: The only rangoli nobody steps on."
+    ]
+   },
+   "note": "Same tile without the 'MANGAL · ಮಂಗಳ' plate line (baseline 1370 since the grid pass r1). Use it, with the Marathi caption, unless a named Kannada reader signs s01-fallback-cutout@2x.png."
+  },
+  "choice": null
+ },
+ "gate_ai_label": {
+  "status": "OPEN. Decide by Mon 2 Nov, together with gate_owner_plate.",
+  "question": "Switch on Instagram's AI label ('AI info') for this upload, or not?",
+  "why": "The plate is a photoreal generated depiction of a product for sale: the tile itself no longer prints a price (grid pass r1, rule 7), but its caption names the piece and gives ₹2,399, so the post as a whole sells it. India's 2026 IT Rules amendment on synthetically generated information makes labelling a live question, and Meta may also label it on its own from the file's metadata. The two gates depend on each other: if the owner wants 'AI info' on a post that sells the piece at ₹2,399, that is a strong case for tile B, and on Dhanteras morning there is no time to switch. Decide both by Mon 2 Nov. Still re-confirm the IT Rules requirement (the rule's text and Instagram's current upload setting) on the posting morning; do not rely on this note.",
+  "image_changes": "None. Nothing on the image changes either way; the label is a setting on the upload.",
+  "applies_to": "Tile A only (s01.jpg and s01-fallback-noscript.jpg use the same generated plate). Tile B contains no generated pixels: the piece is the listing photograph (Shopify image 0) with its background removed and its matte edge smoothed, on flat drawn SVG stripes. Re-ask the question for B on the posting morning if B is signed, but it is not a synthetic depiction.",
+  "record_for_P11": "P11 is the other owner plate (assets/artifacts/approved-ads/ads/07-baguette-tennis-bracelet-story.jpg, Fri 20 Nov). Whatever is decided here, copy the decision and its reason into P11's post.json so both plates get the same treatment.",
+  "decision": null,
+  "decided_by": null,
+  "decided_on": null,
+  "requirement_checked": null,
+  "alt_text_rule": "If this gate decides to label tile A, its alt text starts 'A generated still life:' instead of 'A still life:' (both alt_text arrays), so the screen-reader text says what the upload setting says. Tile B's alt text is unchanged either way."
+ },
+ "if_kannada_reader_has_not_signed": {
+  "files": [
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-noscript.jpg"
+  ],
+  "alt_files_45": [
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-noscript-45.jpg"
+  ],
+  "thumbs": [
+   "/tmp/claude-0/-home-user/aceb438e-f1c8-5500-8bc9-95c87202d43a/scratchpad/feed/render/option-b/p05/s01-fallback-noscript-thumb.png"
+  ],
+  "caption": "Dhanteras asks for something new and something metal. Rhodium is a metal. We checked.\n\nEvery house draws its rangoli at the door before the first guest, and by Bhai Dooj it has been walked into the doormat. This one goes on the wrist: aqua, pink and pale yellow stones, each in its own halo, adjustable from 15 to 19 cm. Prism Rivière Bracelet, ₹2,399.\n\nToday's mangal: Marathi, मंगळ.\n\n[ prism rivière bracelet · rhodium plated · no sweeping required ]",
+  "alt_text": [
+   "A still life: a rhodium plated bracelet of cushion-cut aqua, pink and pale yellow stones, each ringed with tiny clear stones, laid straight across three stripes of matching coloured powder like a rangoli on cream. Text: The only rangoli nobody steps on."
+  ],
+  "note": "Same plate with the 'MANGAL · ಮಂಗಳ' line removed, as the spec says (no fallback word on the image). Post this pair and this caption unless a named Kannada reader signs s01@2x.png. The caption's Marathi line still needs the Marathi reader's sign-off, which the season requires anyway."
+ },
+ "deviations": [
+  "GRID PASS r2 (26 Oct), PLATE LINE CENTRED (system S3): 'MANGAL · ಮಂಗಳ' is now class 'plate-script bl cx' at left 540, baseline 1370 unchanged, on s01.html and s01-fallback-cutout.html (the -noscript twins carry no line). The nine seals all centre on x 540, and P5 (r3c2) and P11 (r1c2) set this line in opposite corners of the same grid column (x 60 here, right edge 1020 there); now all eleven tiles that carry a brand mark carry it on one vertical axis. Measured ink: x 425-655 (centre 540.0), y 1351-1370.5. Contrast of the line against the pixels behind it, per 8 px column band: on the photo plate (ink #1A1614) weakest 4.62:1, median 9.85 (the word now crosses the pink stripe and the right edge of its groove, not the aqua); on the drawn-stripe twin (oxblood) 8.58. The x-60 numbers in the 'Optical left edge' and contrast entries below refer to the old left-set line.",
+  "GRID PASS r1 (26 Oct). The label line 'PRISM RIVIÈRE BRACELET · ₹2,399 · [ RHODIUM PLATED ]' (baseline 1362) is deleted from s01 and all three twins (-noscript, -cutout, -cutout-noscript), following rule 7 (no price on covers); P11, the other clean plate, carries none. Name and price live in the caption.",
+  "GRID PASS r1. The plate line moves to the system's one standard: 'MANGAL ·' in Jost 500 20 px .32em, ಮಂಗಳ at 24 px (was 26), baseline 1370 (was 1318), left x 60, set by .plate-script in system.css. On the photo plate it sits on the aqua powder at 10.7:1 (median of the ground under the word, ink #1A1614); on the drawn stripes the cut-out twin keeps oxblood.",
+  "GRID PASS r1. Both cut-out fallbacks: 'shown larger.' deleted (it now appears on only two scenes in the grid).",
+  "(Grid pass r1: the name-and-price line is deleted, so only the plate line remains, at baseline 1370.) Small-line ink: the 'MANGAL · ಮಂಗಳ' line and the name-and-price line are ink #1A1614 (the system's ink for small Jost on ivory), not oxblood #4B191A and plum #2E2338. Both lines cross the aqua stripe's dark edge groove at x 165-178 (behind the L of MANGAL and the R of RIVIÈRE, mean #5F908C). Per letter against the photo pixels behind it, oxblood measured 4.07:1 and plum 4.32:1 there, under the 4.5:1 floor. Ink measures 5.05:1 on the worst letter (median 11.2 and 10.8). No scrim, no change of position or size. The headline and turn stay oxblood.",
+  "Optical left edge: headline set at x 58, not 60, so the T's crossbar ink starts at x 60.0 (a 2 px hang). The turn is set at x 60, not 64, because at 64 the italic n's entry serif landed at x 65, 5 px right of the headline. Measured ink left edges are now headline 60.0, turn 61.0, script line 60.5, label 60.5 (label set at x 59).",
+  "Alt text: the spec's 'A photograph: a silver-tone bracelet of square ... stones' became 'A still life: a rhodium plated bracelet of cushion-cut ... stones' (AD fix 26 Oct: 'A still life image:' read clunky). 'Still life', not 'photograph': the plate is a generated still life (the brief's own claims_check), and calling it a photograph is untrue for a screen-reader user. 'Rhodium plated', not 'silver-tone': brand-bible never-list 3 (no 'silver' on brand surfaces); the tag is Rhodium Plated. 'Cushion-cut', not 'square': the plate shows soft cushions and brand-bible 4.3 lists the piece as 'aqua, pink, pale yellow cushion stones'. 'Prism Riviere' became 'Prism Rivière'. The Kannada line is described in the main alt text and left out of the no-script version's.",
+  "Caption: '15 to 19cm' became '15 to 19 cm' (a space before the unit, as the listing and the 'Rangoli, in a line.' ad write it). Nothing else changed.",
+  "Added s01-fallback-noscript (the same plate without the script line), so the post can go out on Dhanteras morning whichever way the Kannada sign-off falls. The spec's other fallback (drawn powder stripes plus the x00 cut-out) is now also BUILT, with its own -noscript twin (see gate_owner_plate.fallback_built and the deviations below).",
+  "4:5 alternate (s01-45.jpg, s01-fallback-noscript-45.jpg) is cut from y 90-1440 of the 3:4 master, not the shared tools/export.py centre cut (y 45-1395). The top 348 px of this plate is empty powder, so nothing is lost; the label's bottom margin grows from 29 px to 74 px (measured on the export), where 29 px was under half the 60 px side margin and the lines looked jammed against the edge. Headline ink now starts 259 px from the top. Made with render/option-b/p05/_build/export45.py (same resample and JPEG q93 4:4:4 as export.py). The 3:4 master is unchanged.",
+  "Caption (AD fix 26 Oct): 'Prism Rivière Bracelet, ₹2,399, our bestselling bracelet.' became 'Prism Rivière Bracelet, ₹2,399.' in both captions. The claim depends on the window: 14 vs 13 units over 120 days against Baguette Tennis Bracelet, a tie (13 vs 13) on 60-day orders. A caption stays up long after 6 Nov, and a popularity claim that already reads as a tie sits on never-list 8. The brief's caption still carries the clause; this post does not.",
+  "Fallback geometry (AD fix 26 Oct, brief updated to match): the cut-out is centred (540,867), not (540,715), and 'shown larger.' sits on baseline 1215, not 900. At (540,715) the box covered y 423-1007: re-measured here, 8,180 opaque px of the bracelet sat in the ink box of 'nobody steps on.' (x 60-390, y 458-517), and 'shown larger.' at baseline 900 sat on the piece too (never-list 21). Now 0 px of the piece under any line. (Grid pass r1: 'shown larger.' is deleted from both cut-out fallbacks.)",
+  "Fallback cut-out file: x00-aa-trim.png, not x00-trim.png. x00-trim's matte is binary (0/255) and stair-stepped along every halo at 1:1 (it is shown at 0.994x). Re-matted with p05/_build/rematte_x00.py (4x contour smoothing, 0.5 px erode, 17 alpha levels); RGB byte-identical where visible, alpha never above the old matte, so no old ground can appear. Added to cutouts/README.md.",
+  "Fallback stripes: beyond the spec's 6 px ragged edge and 22% white speckle, each stripe sifts a few grains of its own colour past its edge (density falling off over ~9 px) and wanders ±7 px over its height. With the ragged edge alone the stripes read as torn paper, not poured powder. Still one flat fill per stripe; seeds fixed so every render is identical.",
+  "Fallback inks: the spec's own inks (label plum #2E2338, script line oxblood #4B191A, 'shown larger.' oxblood as the spec writes, not ivory's plum note ink). The plate's switch to ink #1A1614 was only needed over the photo's dark groove; on the drawn stripes the weakest letter is 8.24:1. Grain at .22 (a drawn frame), not .15.",
+  "Fallback 4:5 alternates are cut from y 90-1440 with _build/export45.py, like the plate's, so both tiles crop the same way (label ink ends 74 px above the 4:5 bottom edge)."
+ ],
+ "checks": [
+  "GRID PASS r2 render (26 Oct): s01.html and s01-fallback-cutout.html re-rendered with tools/render.cjs, exported with tools/export.py, and their 4:5 alternates re-cut with _build/export45.py (y 90-1440). Viewed both at 1:1, the line at 2x, and the 391 px thumb.",
+  "GRID PASS r1 render (26 Oct): s01 and the three twins re-rendered with tools/render.cjs against the new system.css, exported with tools/export.py and the 4:5 alternates re-cut with _build/export45.py (y 90-1440: the plate line at 1370 sits 70 px above the 4:5 bottom). No missing images, no font errors. Viewed s01 and s01-fallback-cutout at 1x and the plate line at 2x.",
+  "Price and stock: Prism Rivière Bracelet ₹2,399 = research/roster.json (price 2399.0, MRP 4,200 not shown) and research/data/shopify-live-2026-10-25.json (price 2399, inventory 67). ACTIVE, not pre-order, single variant, far above the 5-unit gate. Re-read Shopify on the posting morning (Fri 6 Nov) and change the caption if the price has moved. Since the grid pass r1 the image carries no price, code, percentage, MRP or date.",
+  "Claims: tags Rhodium Plated and Cubic Zirconia. Image says '[ RHODIUM PLATED ]' only. The caption's 'Rhodium is a metal' (true), 'aqua, pink and pale yellow stones, each in its own halo' and 'adjustable from 15 to 19 cm' come from the listing. 'our bestselling bracelet' is DROPPED (AD fix 26 Oct): 14 vs 13 units over 120 days against Baguette Tennis Bracelet, but 13 vs 13 on 60-day orders, so it can already read as a tie (never-list 8). If the owner wants the clause back, it is recorded here as 'by net sales, ₹27,649 vs ₹17,710' (roster.json revenue_120d, ShopifyQL net sales, 120 days); re-read both windows on the posting morning and drop it again if units are tied or behind. No 'gold' anywhere (rhodium piece), no 'made to stay gold.', no waterproof, tarnish-free, hypoallergenic, silver, diamond or emerald. Dhanteras is not framed as buying gold. A grep of the visible text, both captions, both alt texts and the first comment finds no em or en dashes, exclamation marks, emoji or urgency.",
+  "Script: the image string is exactly the brief's ಮಂಗಳ (U+0CAE U+0C82 U+0C97 U+0CB3, asserted against briefs/option-b.json), drawn by Tiro Kannada (CDP getPlatformFontsForNode: 'Tiro Kannada x4', no fallback face). Viewed at 2x: ಮ, the anusvara ಂ, ಗ and ಳ are all shaped. NATIVE-READER GATE STILL OPEN: this is a visual check, not a sign-off. Without a named Kannada reader's sign-off, post the s01-fallback-noscript files and the fallback caption.",
+  "SUPERSEDED (grid pass r1, the label line is gone; the ₹ is now only in the caption): Fonts on the final render (CDP): headline Velista x16, turn Cormorant Garamond italic, label Jost x51 with the ₹ alone from Poppins x1 (Velista has no ₹ and is never used for it).",
+  "SUPERSEDED (grid pass r1: script line now y ~1350-1376 at baseline 1370, label deleted): Layout and safe areas, measured on the render: headline ink x 60-955, y 348-420 (single line, 100 px Velista); turn y 458-517; script line y 1298-1319; label x 61-773, y 1340-1366. The bracelet's ink sits at y ~672-775, and no type falls in y 600-820. All type is inside y 45-1395. The top-right x 907-1080, y 0-202 is clear, and the 4:5 alternate, cut from y 90-1440, keeps every line: headline ink 259 px from its top, label ink ending 74 px above its bottom edge (measured on s01-45.jpg and s01-fallback-noscript-45.jpg).",
+  "Contrast per letter against the photo pixels behind it (grain included): headline oxblood weakest 5.49:1 (the I over the yellow stripe's edge, large text), median 10.2; turn weakest 7.49, median 10.0; script line (ink) weakest 5.05, median 11.2; label (ink) weakest 5.06, median 10.8. All small text is at 4.5:1 or above. (Grid pass r1: the label is gone; the plate line at 1370 measures 10.7:1 on the aqua powder.)",
+  "Resolution: the plate is 1856x2304 native, shown at 1160x1440 (0.625x), 40 px off each side as specified. Nothing is shown above native size. Grain .15 (.on-photo) is the last layer.",
+  "AI-plate re-check, HARD GATE (gate_owner_plate, OPEN): side by side at native pixels (render/option-b/p05/_work/fix/gate-plate-vs-listing.png), the plate matches the listing (assets/shopify/prism-riviere-bracelet/01.jpg, 05.jpg) on piece type, the three colourways aqua, pink and pale yellow in a repeating order, four claws per stone and cool rhodium white with no brassy cast, one piece in a one-piece frame. It differs on construction: the plate's halos are about 2-3 rows of pavé in a pillowed outline where the listing's are tight with a polished rim; the plate's links sit apart on a bare connecting bar where the real links butt together; its stones are soft cushions where the listing's are squarer with clipped corners. That is close to never-list 23 ('invented halos/pavé') on a tile that prints a price. A fair likeness at feed scale, but not this checker's call. The owner now signs a choice between TWO BUILT tiles, A (this plate) and B (the listing photograph cut out on drawn stripes), side by side with their thumbs and a 1:1 close-up of each piece in render/option-b/p05/_work/fix/gate-plate-vs-listing.png (the first pass's native-pixel sheet is kept as _work/fix/gate-plate-native-detail.png).",
+  "Thumb (391x521, s01-thumb.png): THE ONLY RANGOLI and 'nobody steps on.' both read, the bracelet reads as one line of aqua, pink and yellow, and the bottom lines are texture only, as a quiet plate should be. In a row-3 mock between bottle green (P6 placeholder) and P4's oxblood cover, it sits as the light, quiet middle tile of the D L D checkerboard (render/option-b/p05/_work/row3-mock.png).",
+  "AI label, DECIDE BY MON 2 NOV with gate_owner_plate (gate_ai_label, OPEN): decide whether to switch on Instagram's AI label ('AI info') for tile A. The plate is a photoreal generated depiction of a product for sale, and India's 2026 IT Rules amendment on synthetically generated information makes labelling a live question. If the owner wants the label on a post that sells the piece at ₹2,399 (in its caption; the tile no longer prints a price), that argues for tile B (no generated pixels). If A is labelled, its alt text starts 'A generated still life:'. Re-confirm the requirement on the posting morning. Write the decision, who made it and the requirement checked into gate_ai_label, and copy it to P11 (the other owner plate).",
+  "SUPERSEDED in part (grid pass r1: 'shown larger.' and the label are deleted, the script line is at baseline 1370): FALLBACK TILE B, layout and safe areas (measured on s01-fallback-cutout@2x.png with _build/measure2.cjs + _build/check_cutout.py): headline ink x 60-955, y 348-420; turn x 61-389.5, y 458-516.5; piece opaque x 72.5-1007.5, y 587.5-1147; 'shown larger.' x 889.5-1017.5, y 1193.5-1222; script line x 60.5-296.5, y 1297.5-1318.5; label x 60.5-772.5, y 1340-1366. Piece pixels under any line (ink dilated 2 px, and the whole ink box): 0. Clearance from the piece: turn 83 px, headline 168 px, 'shown larger.' 131 px, script line 205 px, label 193.5 px. All critical content in y 348-1366, inside 45-1395. Top-right x 907-1080, y 0-202: 0 content px (stripes only).",
+  "FALLBACK TILE B, per-letter contrast against the drawn pixels behind each letter (grain included): headline oxblood weakest 8.24 (over pink), median 10.71; turn 9.10, median 9.12; 'shown larger.' 10.71, median 12.57; script line oxblood 9.10, median 9.12; label plum 8.44, median 9.37. All small text far above 4.5:1.",
+  "FALLBACK TILE B, resolution and truth: the cut-out is 966x588 native, shown at 960x584.3 (0.994x), never above native. It is the listing's own photograph (Shopify image 0, prism-riviere-bracelet-0, per cutouts/index.json), RGB untouched: the four claws, the tight halos with a polished rim, the butted links and the fold-over clasp are the real piece's. Kit .cut contact shadow, the same as every Option B cut-out. Fonts (CDP): Velista x16, Cormorant x16 and x13, Jost with Tiro Kannada x4 for ಮಂಗಳ (exact brief string), Jost x51 with the ₹ alone from Poppins. The Kannada native-reader gate applies here exactly as on tile A.",
+  "FALLBACK TILE B, thumb (s01-fallback-cutout-thumb.png and -noscript-thumb.png, 391x521): THE ONLY RANGOLI and 'nobody steps on.' read, the bracelet reads as one loop of aqua, pink and yellow stones across three matching stripes, 'shown larger.' and the bottom lines are texture. It stays a light, quiet middle tile for row 3, like A. Viewed at full size, at 2x (edges, stripes, Kannada) and as the thumb."
+ ]
+}
