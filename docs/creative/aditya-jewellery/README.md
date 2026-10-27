@@ -186,6 +186,43 @@ Rivière Bracelet.
   Solitaire. By 15:00 UTC all four linked today's photos (`?v=1793017396`, Cushion `?v=1793018643`), so the ad shows the
   open backs.
 
+### 27 Oct: three new pieces, waiting on the owner
+
+The owner sent three supplier photos and asked for four listing photos each, then to wait for approval. Nothing is on
+Shopify yet. The proposed listings (name, SKU, price at 3.5 × the supplier price, copy, 5 units) are in
+`shopify/proposed_27oct.json`, the photos in `exports/<handle>-01..04.jpg` (hero, worn, worn close, macro), and the review
+sheet is `oct27_review.jpg` (`build/review_27oct.py`).
+
+| Ref | Supplier | Proposed name | SKU | Cost | Price | Measured |
+|---|---|---|---|---|---|---|
+| J19 | #159 | Solitaire Drop Huggies | ADT27 | ₹185 | ₹648 | 20 mm long; huggie 10.5 mm, 2.5 mm face; stone 4 mm |
+| J20 | #57 | Lotus Pear Drop Studs | ADT28 | ₹270 | ₹945 | 17 mm long; fan 8.5 mm; pear 6 × 4.5 mm |
+| J21 | IMG_6315 | Watch Link Strap Bracelet | ADT29 | ₹300 | ₹1050 | 9 mm wide, about 2.5 mm thick, about 17 cm long |
+
+- **Sizes.** Against the 80 mm velvet card. The bracelet band is 88 to 92 px of the card's 815 px (8.6 to 9.0 mm), with an
+  outer link every 77 px (7.6 mm); the links are about 5 mm long with 2.5 mm gaps. Its length comes from the wrap round the
+  card (twice 80 mm plus the bends, so about 16.5 to 17 cm), and its thickness (about 2.5 mm) from where it curls round
+  the card's edge. A ruler would confirm both.
+- **The bracelet is a five-row strap of hinged links**, like a watch strap. It bends round the wrist but not sideways, so a
+  closed one rests on its rim like a ring. It cannot lie flat in an oval with its links facing up. Heroes H1 to H4 drew a
+  men's watch band 11 to 22 mm wide, standing up, draped or as an open strap. H5 got the slim band. It used a strip of the
+  whole front strand (`refs/J21_strip.jpg`, eleven links across the card), no "watch strap" wording and a 45° camera.
+  Against the loop it reads about 9 to 10 mm. It shows a fold-over clasp at the back. The supplier photo does not show the
+  clasp, so that needs confirming.
+- **Retouches** (`build/retouch.py`).
+  - J19's worn stone drew 0.56 of the huggie's height, against 0.37 in the supplier photo and the hero. It was pinched to
+    0.66 (`J19_W1p`, `J19_W2p`).
+  - J20's worn earrings drew about 24 mm and 28 mm against a 58 mm ear. They were pinched to 0.72 and 0.63, about 17 mm
+    now (`J20_W1p`, `J20_W2p`).
+  - J21's worn band drew 12.5 to 13 mm across the wrist. A new `squeeze` narrows it across its width, along the arm, to 0.72
+    and 0.70 (`J21_W1s`, `J21_W2s`). The band keeps its length round the wrist, and its links come out as long and flat as
+    the supplier's.
+- **J21's macro.** The first macro drew round barrel links. `J21_M2` was shot against a crop of the hero's front band
+  (`refs/J21_heroband.jpg`).
+- **Sets.** "Watch Link" in the bracelet's name puts it in the storefront's Watch Link set, with the Watch Link Ring and
+  the Watch Link Bangle. The studs carry the pear drop motif. The huggies style as huggies.
+- **Higgsfield.** 17 frames, 34 credits; 459.32 left. Two jobs failed on the server and were not charged.
+
 ## Shopify
 
 Verified on 25 Oct 2026 (`shopify/pushed.json`, `shopify/cdn_check.txt`):

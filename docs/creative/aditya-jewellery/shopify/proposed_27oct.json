@@ -1,0 +1,141 @@
+[
+ {
+  "key": "J19",
+  "title": "Solitaire Drop Huggies",
+  "handle": "solitaire-drop-huggies",
+  "type": "Earrings",
+  "metal": "gold",
+  "cost": 185,
+  "price": 648,
+  "sku": "ADT27",
+  "units": 5,
+  "supplier": "#159, ₹185",
+  "tagline": "A plain huggie with one stone below it.",
+  "body": "Each earring is a small polished gold tone huggie with a flat, smooth face, and from a tiny jump ring at its base hangs one round clear cubic zirconia in four fine claws. About 20mm long, the stone sits just below the lobe and moves when you do.",
+  "tip": "Wear them every day on their own, or with a small stud in a second piercing.",
+  "details": [
+   "Length: Approximately 20mm",
+   "Huggie: Approximately 10.5mm tall, with a 2.5mm wide face",
+   "Stone: Round clear cubic zirconia, approximately 4mm",
+   "Setting: Four fine gold claws",
+   "Closure: Hinged huggie",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J19_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J19_W1",
+    "worn on the model"
+   ],
+   [
+    "J19_W2",
+    "worn on the model, close"
+   ],
+   [
+    "J19_M",
+    "macro detail: the huggie, the jump ring and the round stone in four claws"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "care": "plain",
+  "set": "none (styled as huggies)"
+ },
+ {
+  "key": "J20",
+  "title": "Lotus Pear Drop Studs",
+  "handle": "lotus-pear-drop-studs",
+  "type": "Earrings",
+  "metal": "gold",
+  "cost": 270,
+  "price": 945,
+  "sku": "ADT28",
+  "units": 5,
+  "supplier": "#57, ₹270",
+  "tagline": "Three petals, and a drop that falls from them.",
+  "body": "Three marquise cut clear cubic zirconia fan out from the lobe like the petals of a lotus, and below them a pear cut drop hangs point up from a small gold jump ring. About 17mm long, they sit close to the ear and catch the light as they move.",
+  "tip": "Wear them with your hair tucked back so the petals show, from a day at work to dinner.",
+  "details": [
+   "Length: Approximately 17mm",
+   "Fan: Three marquise cut stones, approximately 8.5mm across",
+   "Drop: One pear cut stone, approximately 6mm by 4.5mm",
+   "Stone: Clear cubic zirconia",
+   "Setting: Fine gold claws",
+   "Closure: Post",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J20_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J20_W1",
+    "worn on the model"
+   ],
+   [
+    "J20_W2",
+    "worn on the model, close"
+   ],
+   [
+    "J20_M",
+    "macro detail: the three marquise petals and the pear drop"
+   ]
+  ],
+  "extra_tags": [
+   "Cubic Zirconia"
+  ],
+  "care": "plain",
+  "set": "pear drop motif"
+ },
+ {
+  "key": "J21",
+  "title": "Watch Link Strap Bracelet",
+  "handle": "watch-link-strap-bracelet",
+  "type": "Bracelet",
+  "metal": "gold",
+  "cost": 300,
+  "price": 1050,
+  "sku": "ADT29",
+  "units": 5,
+  "supplier": "IMG_6315, ₹300",
+  "tagline": "The watch strap, without the watch.",
+  "body": "Five rows of polished gold tone links, set like brickwork, make a slim strap about 9mm wide that bends and follows the wrist the way a watch strap does. It is about 17cm long and about 2.5mm thick.",
+  "tip": "Wear it where a watch would sit, with the Watch Link Ring, or stack it with the Watch Link Bangle.",
+  "details": [
+   "Type: Flexible link bracelet; it bends and follows the wrist",
+   "Width: Approximately 9mm",
+   "Thickness: Approximately 2.5mm",
+   "Length: Approximately 17cm",
+   "Links: Five rows of polished links in a brick pattern",
+   "Stones: None",
+   "Closure: Fold over clasp",
+   "Finish: Polished gold tone"
+  ],
+  "images": [
+   [
+    "J21_H",
+    "on a cream plaster block, the full piece"
+   ],
+   [
+    "J21_W1",
+    "worn on the model"
+   ],
+   [
+    "J21_W2",
+    "worn on the model, close"
+   ],
+   [
+    "J21_M",
+    "macro detail: the five rows of links"
+   ]
+  ],
+  "extra_tags": [],
+  "care": "plain",
+  "set": "Watch Link (with the Watch Link Ring and the Watch Link Bangle)"
+ }
+]

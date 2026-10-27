@@ -263,5 +263,47 @@
   "metal": "gold",
   "ref": "J18_full",
   "det": "J18_det"
+ },
+ "J19": {
+  "name": "Solitaire Drop Huggies",
+  "kind": "earring",
+  "note": "in it the pair lies on a black velvet display card held by fingers: ignore the card, the velvet, the fingers, the price text, the number label and the black scribbled patch.",
+  "lock": "A PAIR OF SOLITAIRE DROP HUGGIES: each earring is ONE small plain polished gold huggie hoop, closed into a ring, its outer face flat, smooth and about 2.5mm wide; from a small round gold jump ring at the bottom of the hoop hangs ONE round brilliant-cut clear stone of about 4mm, held in FOUR fine gold claws in a small basket setting. The two earrings are identical.",
+  "neg": "Exactly one round stone per earring, hanging below the hoop on its jump ring, never set into the hoop; the hoop stays plain high-polish gold with no stones and no texture, never a thin wire hoop, never a large hoop; four claws, never a bezel, never a halo; the stone stays colourless and clear.",
+  "scale": "Each earring is only about 20mm long: the huggie about 10.5mm tall and 2.5mm wide, the round stone only about 4mm across, the size of a peppercorn. The pair together spans only about two fifths of the frame width, with clear empty plaster around it.",
+  "wscale": "Each earring is tiny: about 20mm from the top of the huggie to the bottom of the stone, about one third of the height of her ear; the huggie hugs the earlobe and is smaller than the lobe, and the 4mm stone hangs just below the lobe, ending far above the jaw.",
+  "place": "both huggies standing upright side by side on the top face, each round stone hanging below its hoop, face-on to the camera",
+  "macro": "ONE huggie and its round stone in four gold claws, the flat polished face of the hoop and the small jump ring razor-sharp",
+  "metal": "gold",
+  "ref": "J19_full",
+  "det": "J19_det"
+ },
+ "J20": {
+  "name": "Lotus Pear Drop Studs",
+  "kind": "earring",
+  "note": "in it the pair lies on a black velvet display card held by fingers: ignore the card, the velvet, the fingers, the price text and the number label.",
+  "lock": "A PAIR OF LOTUS PEAR DROP STUDS: each earring is a stud of exactly THREE marquise-cut clear stones fanned out from one point like three petals, ONE marquise standing upright in the centre and ONE tilted out to each side, each held by fine gold claws at its tips, on a post; below the fan, from a small round gold jump ring, hangs ONE pear-cut clear stone, its point at the top and its rounded end at the bottom, in a fine gold claw setting. The two earrings are identical.",
+  "neg": "Exactly three marquise stones in the fan, never two, never four or five, never round stones; exactly one pear drop, point up, never upside down, never round; no halo, no pavé, no extra stones; the stones stay colourless and clear; the fan and the drop are joined only by the small jump ring.",
+  "scale": "Each earring is only about 17mm long: the marquise fan about 8.5mm across, its centre marquise about 6mm long, and the pear drop about 6mm long and 4.5mm wide, smaller than a fingernail. The pair together spans only about two fifths of the frame width, with clear empty plaster around it.",
+  "wscale": "Each earring is small: about 17mm long, about one quarter of the height of her ear; the three-petal fan sits on the earlobe and the small pear hangs just below the lobe, ending far above the jaw.",
+  "place": "both earrings lying side by side on the top face, the fans at the top and the pear drops below, the stones facing up to the camera",
+  "macro": "ONE earring: its three marquise petals in their gold claws, the small jump ring and the pear drop razor-sharp",
+  "metal": "gold",
+  "ref": "J20_full",
+  "det": "J20_det"
+ },
+ "J21": {
+  "name": "Watch Strap Bracelet",
+  "kind": "bracelet",
+  "note": "in it the bracelet is wrapped round a black velvet display card about 8cm wide, held by fingers, so only its front strand shows: ignore the card, the velvet, the fingers and the price text. The card and the fingers show its true size: the band is only about one ninth of the card's width.",
+  "lock": "A SLIM FIVE-ROW GOLD LINK BRACELET, no stones, in high-polish warm gold tone, only about 8mm wide and about 2.5mm thick, fully flexible. Across its width it has exactly FIVE rows of small, flat, low polished links set like neat brickwork, each row offset by half a link from the next, with thin dark gaps between them. The two outer rows have flat-topped links about 5mm long and only about 2.5mm tall, about twice as long as they are tall, with a small gap between each; the three middle rows have slimmer links about 5mm long and 1.5mm tall. Every link lies lengthways along the band. There are about 22 links in each row round the whole bracelet. The clasp is hidden.",
+  "neg": "It is FLEXIBLE: it lies flat and settles softly, never a rigid bangle, never a stiff ring standing on its edge. The links are flat and low, never tall round barrels, never chunky blocks; exactly five rows; the band stays narrow, never a wide band, never a cuff, never a heavy men's bracelet; no visible clasp, no loose end; never a chain, never curb, cable or rope chain, never a mesh; no stones, no dial, no charms; high polish, never matte or brushed.",
+  "scale": "The cube's top face is about 9cm across. The closed bracelet, about 17cm round, lies as a soft oval about 6cm long, about two thirds of the width of the top face; its band is only about 8mm wide, about the width of a pencil and about one seventh of the oval's width, so a large open middle of bare plaster shows through the loop, about four times as wide as the band.",
+  "wscale": "The band is only about 8mm wide: narrower than her little finger and about one seventh of the width of her wrist, a slim, delicate bracelet, never a wide cuff or a heavy men's bracelet. It sits close round the wrist just below the wrist bone, its links following the curve of the wrist with only a little slack, clearly flexible.",
+  "place": "closed, lying FLAT on the top face in a soft, slightly irregular oval, the way a supple link bracelet settles when it is set down: its band lies flat on the plaster with the links facing up to the camera, one side of the oval a little flatter than the other, never a perfect stiff circle and never standing on its edge; the clasp is hidden at the back and the whole bracelet is in frame",
+  "macro": "a short section of the band filling the frame: the five rows of flat polished links in their brick pattern, the thin dark gaps between them and the soft bend of the strap razor-sharp",
+  "metal": "gold",
+  "ref": "J21_full",
+  "det": "J21_strip"
  }
 }

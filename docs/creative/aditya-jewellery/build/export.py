@@ -14,6 +14,8 @@
 # Cushion Solitaire, 26 Oct (the owner's photo, IMG_7075): J13_Ho1 is an upright hero open at the back, and J13_W1o1 the worn
 # frame with the stone running along the finger at its measured size (about 14 x 9 mm), where J13_W1 had it near square.
 # Lumière, 26 Oct (Aditya's IMG_6847): the oval is about 8 x 6 mm; J15_W1p pinches the worn stone from about 10 mm (retouch.py).
+# 27 Oct pieces (shopify/proposed_27oct.json, waiting on the owner): the pinched J19 and J20 worn takes, the bracelet's fifth
+# hero J21_H5, its worn takes narrowed across the band (J21_W1s, J21_W2s, retouch.py) and the macro J21_M2.
 import json, os, sys
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "../exports")
@@ -21,7 +23,9 @@ SRC = {"J09_H": "J09_H2", "J09_D": "J09_H", "J05_H": "J05_Hf", "J06_H": "J06_He"
        "J14_H": "J14_Ho", "J14_W1": "J14_W1z", "J14_M": "J14_Mo", "J12_H": "J12_Ho", "J15_H": "J15_Ho1", "J13_H": "J13_Ho1", "J13_W1": "J13_W1o1", "J15_W1": "J15_W1p", "J16_H": "J16_Hg1", "J16_W1": "J16_W1r2",
        "J17_H": "J17_Hs", "J17_W1": "J17_W1h2", "J01_W1": "J01_W1p", "J02_W1": "J02_W1c", "J03_W1": "J03_W1p",
        "J05_W1": "J05_W1p", "J07_W1": "J07_W1p", "J08_W1": "J08_W1p", "J11_W1": "J11_W1qp",
-       "J10_H": "J10_Hb", "J10_W1": "J10_W2c", "J10_M": "J10_Mc"}
+       "J10_H": "J10_Hb", "J10_W1": "J10_W2c", "J10_M": "J10_Mc",
+       "J19_W1": "J19_W1p", "J19_W2": "J19_W2p", "J20_W1": "J20_W1p", "J20_W2": "J20_W2p",
+       "J21_H": "J21_H5", "J21_W1": "J21_W1s", "J21_W2": "J21_W2s", "J21_M": "J21_M2"}
 INSET = 0.015
 def export(key, dst):
     im = Image.open(f"{H}/out/{SRC.get(key, key)}.png").convert("RGB"); w, h = im.size
