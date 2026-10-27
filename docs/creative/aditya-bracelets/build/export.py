@@ -9,6 +9,7 @@ from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "../exports")
 SRC = {"A5_H": "A5_H2", "A6_H": "A6_Hc",
        "A8_H": "A8_Hs", "A8_W1": "A8_W1s", "A8_W2": "A8_W2s", "A8_M": "A8_Ms", "A9_H": "A9_Hs", "A9_W1": "A9_W1s", "A9_M": "A9_Ms"}
+MADE = {f"A8w_{s}" for s in ("H", "W1", "W2", "M")}   # Bougainvillea White: recolour_white.py writes these from the Fuchsia exports
 INSET = 0.015
 def export(key, dst):
     im = Image.open(f"{H}/out/{SRC.get(key, key)}.png").convert("RGB"); w, h = im.size
@@ -22,6 +23,7 @@ if __name__ == "__main__":
     for p in L:
         if only and p["handle"] not in only: continue
         for n, (k, _) in enumerate(p["images"], 1):
+            if k in MADE: emap[k] = f"{p['handle']}-{n:02d}.jpg"; continue
             if k not in A: missing.append(k); continue
             fn = f"{p['handle']}-{n:02d}.jpg"; export(k, f"{OUT}/{fn}"); emap[k] = fn
     json.dump(emap, open(f"{H}/export_map.json", "w"), indent=1)

@@ -10,7 +10,7 @@ Ten bracelets Aditya showed on a WhatsApp video call: nine photos, then a tenth 
 | ADT04 | Rivière Classique Bracelet | — | Round clear, about 3.5 mm | Box | Gold tone; card says stainless steel | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353405001890) |
 | ADT05 | Midnight Rivière Bracelet | — | Round navy blue, about 4 mm | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413259426) |
 | ADT06-RB / ADT06-LV | Aquarelle Rivière Bracelet | Royal Blue / Lavender | Round, about 3 mm | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413292194) |
-| ADT07-FU / ADT07-VI | Bougainvillea Vine Bracelet | Fuchsia / Violet | Vine with 5 flowers: four five-petal flowers, about 7 mm, and one six-petal centre flower, about 11 mm (ruby red on Fuchsia, lilac on Violet); clear pavé leaves | Fold-over tongue into a D ring | Silver tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413324962) |
+| ADT07-FU / ADT07-VI / ADT07-WH | Bougainvillea Vine Bracelet | Fuchsia / Violet / White | Vine with 5 flowers: four five-petal flowers, about 7 mm, and one six-petal centre flower, about 11 mm (ruby red on Fuchsia, lilac on Violet, all clear on White, added 27 Oct); clear pavé leaves | Fold-over tongue into a D ring | Silver tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413324962) |
 | ADT08 | Lumière Solitaire Bracelet | — | Clear ovals, about 5 × 3 mm, set crosswise, with one round centre stone of about 7 mm | Box | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413357730) |
 
 Reference keys A1–A10 follow the photo order. A6 and A7 are the two colours of one design, as are A8 and A9. The single-bracelet crops are in `refs/`: `_full` is the whole piece and `_det` is a close crop.
@@ -56,7 +56,7 @@ All 7 images were replaced in place on the draft, with the same media ids and or
 
 `export.py` maps those keys and trims a 1.5% inset, which removes the white side strips some worn frames had. It then writes `exports/<handle>-NN.jpg` in listing order. `board.jpg` is the review sheet with one row per product.
 
-Each single-colour product has 4 images. Aquarelle has 7: Royal Blue has hero, worn and macro, and Lavender adds a wrist frame. Bougainvillea also has 7: Fuchsia has 4 and Violet has hero, worn and macro.
+Each single-colour product has 4 images. Aquarelle has 7: Royal Blue has hero, worn and macro, and Lavender adds a wrist frame. Bougainvillea has 11: Fuchsia has 4, Violet has hero, worn and macro, and White (27 Oct, below) has 4.
 
 Higgsfield cost: 42 generations at 2K, 84 credits. The balance is 116.07.
 
@@ -90,6 +90,35 @@ and live.
 - **Emerald Carré** (green, ADT03) is still a draft with 5 units, as it was.
 - **Catalogue ad.** All five Carré ids are in the ₹500/day New 12 product set (`../aditya-jewellery/README.md`). The four
   new ones show now; the green joins if it goes live.
+
+### 27 Oct: Bougainvillea in White
+
+The owner sent Aditya's photo of the same vine with every stone clear (`refs/A8w_full.jpg`, `A8w_det.jpg`: five flowers,
+the centre one larger, silver tone). They asked for it on Shopify with 5 in stock, using the photos the other colours
+already had.
+
+- **Photos, no new shoot.** `build/recolour_white.py` turns the four Fuchsia photos (hero, worn, worn close, macro, the
+  25 Oct size-fixed takes) into `exports/bougainvillea-vine-bracelet-08..11.jpg`. Only the coloured stones change, so
+  the vine, its 30%-smaller flowers and the model stay as in the other colours.
+  - Every pixel at the stones' hues (magenta through purple to ruby, CIELab 270° to 40°) loses its colour. This reaches
+    the faint tints on highlights and on the claws that reflected the ruby.
+  - The stone bodies' lightness is mapped by rank onto a clear stone's: dark facet lines, mostly bright, white sparks. So
+    every facet and glint stays where it was. The hero's big centre flower gets the brightest target, the macro's large
+    petals the darkest.
+  - In the worn frames only a box around the bracelet is touched, so the lips, nails and camisole are unchanged. Outside
+    the bracelet the mean change is under 0.11/255. At most 3 coloured pixels remain on a worn bracelet.
+- **Check.** `boug_white.jpg`: Aditya's photo, then the four White photos.
+- **Shopify.** A White option on the live product, made with productVariantsBulkCreate:
+  - SKU ADT07-WH, ₹1,499 against ₹2,000 and cost ₹300, like Fuchsia and Violet.
+  - 5 units at Forest Colony Parijat Nagar.
+  - The four photos, with the White hero as the option's image. The size guide was moved back to the last image.
+  - The copy names all three colours. The owner's PVD lines are kept.
+  - The Storefront API reads White as available. The CDN copies of the 4 photos match the exports (mean difference 0.9 to
+    1.6/255).
+  - `shopify/listing.json` and `build/export_map.json` carry the option and its images. `build/export.py` leaves those
+    four images to `recolour_white.py`.
+- **Catalogue ad.** Bougainvillea is in the ₹500/day New 12 product set, which keeps every in-stock item of the listed
+  products. So White should reach that ad with the Facebook catalogue's next sync. No Meta setting was changed.
 
 ## Shopify
 
