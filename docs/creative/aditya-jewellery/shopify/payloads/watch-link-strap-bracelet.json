@@ -1,0 +1,108 @@
+{
+ "title": "Watch Link Strap Bracelet",
+ "handle": "watch-link-strap-bracelet",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Bracelet",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Bracelet",
+  "Demi Fine",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>The watch strap, without the watch. Five rows of polished gold tone links, set like brickwork, make a slim strap about 9mm wide that bends and follows the wrist the way a watch strap does. It is about 17cm long and about 2.5mm thick.</p><p><strong>STYLING TIP:</strong> Wear it where a watch would sit, with the Watch Link Ring, or stack it with the Watch Link Bangle.</p><p><strong>Details</strong></p><ul>\n<li>Type: Flexible link bracelet; it bends and follows the wrist</li>\n<li>Width: Approximately 9mm</li>\n<li>Thickness: Approximately 2.5mm</li>\n<li>Length: Approximately 17cm</li>\n<li>Links: Five rows of polished links in a brick pattern</li>\n<li>Stones: None</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Watch Link Strap Bracelet — Bracelet | Naira Petite",
+  "description": "Five rows of polished gold tone links, set like brickwork, make a slim strap about 9mm wide that bends and follows the wrist the way a watch strap does. Watch Link Strap Bracelet by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT29",
+   "inventoryPolicy": "DENY",
+   "price": "1050",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "300"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/9d5947e6-bdcb-446a-a13a-83204d01d7e7.jpg",
+   "alt": "Watch Link Strap Bracelet — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/da4e34c2-5431-4ec6-9a69-30f1a5058098.jpg",
+   "alt": "Watch Link Strap Bracelet — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/70cfdd35-971a-4f0b-94ec-53faa2435bbf.jpg",
+   "alt": "Watch Link Strap Bracelet — worn on the model, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f74047e0-593e-4d80-9671-72cb31ad9b5c.jpg",
+   "alt": "Watch Link Strap Bracelet — macro detail: the five rows of links",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Bracelets"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "191"
+  }
+ ]
+}

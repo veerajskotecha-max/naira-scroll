@@ -22,8 +22,11 @@ Sixteen photos Aditya sent after the bracelets (phase 1, [`../aditya-bracelets`]
 | ADT24 | J16 | Prism Pear Drop Necklace | Necklace | — | — | 5 | Draft | Prism | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353729437858) |
 | ADT25 | J17 | Prism Pear Drop Hoops | Earrings | — | — | 5 | Draft | Prism | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353729470626) |
 | ADT26 | J18 | Pearl Heart Layered Necklace | Necklace | — | ₹999 | 3 | **Active** | Pearl | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353628643490) |
+| ADT27 | J19 | Solitaire Drop Huggies | Earrings | ₹185 | ₹648 | 5 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10355441631394) |
+| ADT28 | J20 | Lotus Pear Drop Studs | Earrings | ₹270 | ₹945 | 5 | **Active** | — | [open](https://admin.shopify.com/store/nc5eti-gp/products/10355442876578) |
+| ADT29 | J21 | Watch Link Strap Bracelet | Bracelet | ₹300 | ₹1050 | 5 | **Active** | Watch Link | [open](https://admin.shopify.com/store/nc5eti-gp/products/10355444449442) |
 
-Snapshot of 25 Oct 2026, 14:48 UTC (`shopify/pushed.json`), after the size check below; units, prices and statuses include the owner's own edits from Shopify Mobile. The review page with every phase 1 and phase 2 piece and the owner's approve, changes, go-live, price and notes controls is https://claude.ai/artifact/4CU1RH5ixQMpq4VzLCtZKj. Its answers are stored in the page's `reviews` collection, one document per handle.
+ADT27 to ADT29 were added on 27 Oct (below; `shopify/pushed_27oct.json`). Snapshot of 25 Oct 2026, 14:48 UTC (`shopify/pushed.json`), after the size check below; units, prices and statuses include the owner's own edits from Shopify Mobile. The review page with every phase 1 and phase 2 piece and the owner's approve, changes, go-live, price and notes controls is https://claude.ai/artifact/4CU1RH5ixQMpq4VzLCtZKj. Its answers are stored in the page's `reviews` collection, one document per handle.
 
 ## Prices
 
@@ -44,7 +47,7 @@ Lines that already existed pick up the rest by name: Prism (the pear drop neckla
 
 The recipe is the aditya-bracelets one (`build/build.py`): a hero on the cream plaster cube (`H`), one worn frame on the saffron-camisole model (`W1`) and a macro (`M`). Worn and macro frames pass the approved hero as IMAGE 2. `approved.json` holds the job of every frame in use. `export.py` maps reshot keys to their takes, trims a 1.5% inset and writes `exports/<handle>-NN.jpg`. `board.jpg` is the review sheet.
 
-`sizeguide.py` draws the 1600×1600 size-guide cards in `shopify/sizeguides/`: the ring card for the four rings, and a photo card with measurement bars for the clover drops, the twin heart studs, the ear cuff and the pear drop hoops. Necklaces and bracelets have no card because their chain lengths are not known.
+`sizeguide.py` draws the 1600×1600 size-guide cards in `shopify/sizeguides/`: the ring card for the four rings, and a photo card with measurement bars for the clover drops, the twin heart studs, the ear cuff, the pear drop hoops, and (27 Oct) the solitaire drop huggies and the lotus pear drop studs. Necklaces and bracelets have no card because their chain lengths are not known.
 
 ### 25 Oct reshoot
 
@@ -186,12 +189,24 @@ Rivière Bracelet.
   Solitaire. By 15:00 UTC all four linked today's photos (`?v=1793017396`, Cushion `?v=1793018643`), so the ad shows the
   open backs.
 
-### 27 Oct: three new pieces, waiting on the owner
+### 27 Oct: three new pieces, live at 5 each
 
-The owner sent three supplier photos and asked for four listing photos each, then to wait for approval. Nothing is on
-Shopify yet. The proposed listings (name, SKU, price at 3.5 × the supplier price, copy, 5 units) are in
-`shopify/proposed_27oct.json`, the photos in `exports/<handle>-01..04.jpg` (hero, worn, worn close, macro), and the review
-sheet is `oct27_review.jpg` (`build/review_27oct.py`).
+The owner sent three supplier photos and asked for four listing photos each, then to wait for approval. The review
+sheet `oct27_review.jpg` (`build/review_27oct.py`) showed the proposed listings in `shopify/proposed_27oct.json`: name, SKU,
+price at 3.5 × the supplier price, copy and 5 units. The photos are `exports/<handle>-01..04.jpg` (hero, worn, worn close,
+macro). The owner answered "List at 5 each".
+
+- **Listed** (about 07:00 UTC). The three pieces are in `shopify/listing.json`. `build/shopify_payload.py` now takes
+  handles and built their payloads, and productSet made each one. All three are Active on the six channels, with 5 units
+  at Forest Colony Parijat Nagar, price, cost per item and 4 photos at 1288×1600. Each photo downloaded back from the
+  Shopify CDN matches its export (mean pixel difference 0.8 to 1.6 of 255). The Storefront API shows all three
+  available. The earrings carry size-guide cards in their descriptions (`build/sizeguide.py`; the bars sit on the hero).
+  The bracelet has none, as its length is an estimate. Record: `shopify/pushed_27oct.json`.
+- **Copy.** Plain care line, no PVD or anti-tarnish lines (the base metal is unknown). The bracelet's closure reads
+  "Fold over clasp", as its photos show. The supplier photo does not show the clasp, so that wants a look at the piece.
+- **Storefront.** The jewellery snapshot was regenerated from live Shopify: 135 pieces (Lovable repo, same branch,
+  `b7b1780`). Besides these three, it now holds four pieces the owner set Active this morning: Emerald Carré, Aquarelle
+  Rivière, Lumière Solitaire Bracelet and Tubogas Dome Ring.
 
 | Ref | Supplier | Proposed name | SKU | Cost | Price | Measured |
 |---|---|---|---|---|---|---|
@@ -245,4 +260,4 @@ The care copy is the plain line, with no waterproof, tarnish-free or hypoallerge
 5. **Pearl material**: the supplier called ADT26's stones "white heart shaped pearls". The copy calls them pearls; confirm shell, glass or plastic.
 6. Phase 1 still needs prices, its 15 to 19 cm question and its overlap checks (`../aditya-bracelets/README.md`).
 
-Scripts run from `build/` with `python3 -I`: `build.py` (requests), `fetch.py` (downloads), `export.py`, `sizeguide.py OUTDIR`, `shopify_payload.py` (productSet inputs in `shopify/payloads/`), `put_exports.py` (public URLs for Shopify, `url_map.json`), `cdn_compare.py PRODUCTS_QUERY_JSON DOWNLOAD_DIR`, `board.py`, `retouch.py` (the size-check retouches) and `fix_requests.py` (the size-check Higgsfield requests). `build/out/` holds the raw 1856×2304 frames (565 MB) and is not committed; `fetch.py` downloads them again from `results.json`.
+Scripts run from `build/` with `python3 -I`: `build.py` (requests), `fetch.py` (downloads), `export.py`, `sizeguide.py OUTDIR`, `shopify_payload.py [HANDLE ...]` (productSet inputs in `shopify/payloads/`), `put_exports.py` (public URLs for Shopify, `url_map.json`), `cdn_compare.py PRODUCTS_QUERY_JSON DOWNLOAD_DIR`, `board.py`, `retouch.py` (the size-check retouches, and the 27 Oct band squeeze), `review_27oct.py` (the 27 Oct review sheet) and `fix_requests.py` (the size-check Higgsfield requests). `build/out/` holds the raw 1856×2304 frames (565 MB) and is not committed; `fetch.py` downloads them again from `results.json`.

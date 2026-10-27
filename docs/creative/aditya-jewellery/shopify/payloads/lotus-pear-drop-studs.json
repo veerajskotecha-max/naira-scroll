@@ -1,0 +1,109 @@
+{
+ "title": "Lotus Pear Drop Studs",
+ "handle": "lotus-pear-drop-studs",
+ "status": "DRAFT",
+ "vendor": "Naira Petite",
+ "productType": "Earrings",
+ "category": "gid://shopify/TaxonomyCategory/aa-6-6",
+ "tags": [
+  "18k Gold Tone Plated",
+  "Aditya",
+  "Cubic Zirconia",
+  "Demi Fine",
+  "Earrings",
+  "Naira Petite"
+ ],
+ "descriptionHtml": "<p>Three petals, and a drop that falls from them. Three marquise cut clear cubic zirconia fan out from the lobe like the petals of a lotus, and below them a pear cut drop hangs point up from a small gold jump ring. About 17mm long, they sit close to the ear and catch the light as they move.</p><p><strong>STYLING TIP:</strong> Wear them with your hair tucked back so the petals show, from a day at work to dinner.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17mm</li>\n<li>Fan: Three marquise cut stones, approximately 8.5mm across</li>\n<li>Drop: One pear cut stone, approximately 6mm by 4.5mm</li>\n<li>Stone: Clear cubic zirconia</li>\n<li>Setting: Fine gold claws</li>\n<li>Closure: Post</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/lotus-pear-drop-studs-size-guide.jpg\" alt=\"Size guide — Lotus Pear Drop Studs\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+ "seo": {
+  "title": "Lotus Pear Drop Studs — Earrings | Naira Petite",
+  "description": "Three marquise cut clear cubic zirconia fan out from the lobe like the petals of a lotus, and below them a pear cut drop hangs point up from a small gold jump ring. Lotus Pear Drop Studs by Naira Petite."
+ },
+ "productOptions": [
+  {
+   "name": "Title",
+   "values": [
+    {
+     "name": "Default Title"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Title",
+     "name": "Default Title"
+    }
+   ],
+   "sku": "ADT28",
+   "inventoryPolicy": "DENY",
+   "price": "945",
+   "inventoryItem": {
+    "tracked": true,
+    "cost": "270"
+   },
+   "inventoryQuantities": [
+    {
+     "locationId": "gid://shopify/Location/76267389090",
+     "name": "available",
+     "quantity": 5
+    }
+   ]
+  }
+ ],
+ "files": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/58c83696-d9db-4499-bb5c-2c58d79c1818.jpg",
+   "alt": "Lotus Pear Drop Studs — on a cream plaster block, the full piece",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d33f3cb6-1781-40f9-9094-5f92be1c7ba8.jpg",
+   "alt": "Lotus Pear Drop Studs — worn on the model",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f9eef1f2-0bb7-4744-a3a6-ce28daf6be91.jpg",
+   "alt": "Lotus Pear Drop Studs — worn on the model, close",
+   "contentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f7444e5b-dea4-4552-abc6-a4584fe5488b.jpg",
+   "alt": "Lotus Pear Drop Studs — macro detail: the three marquise petals and the pear drop",
+   "contentType": "IMAGE"
+  }
+ ],
+ "metafields": [
+  {
+   "namespace": "mm-google-shopping",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "Apparel & Accessories > Jewelry > Earrings"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "gender",
+   "type": "single_line_text_field",
+   "value": "Female"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "age_group",
+   "type": "single_line_text_field",
+   "value": "Adult"
+  },
+  {
+   "namespace": "mm-google-shopping",
+   "key": "condition",
+   "type": "single_line_text_field",
+   "value": "New"
+  },
+  {
+   "namespace": "mc-facebook",
+   "key": "google_product_category",
+   "type": "single_line_text_field",
+   "value": "194"
+  }
+ ]
+}

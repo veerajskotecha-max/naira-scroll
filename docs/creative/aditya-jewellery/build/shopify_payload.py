@@ -3,8 +3,8 @@
 # Price is 3.5x the supplier's price on the call photos (the owner's rule for phase 2, 25 Oct); cost per item is that
 # supplier price. Pieces whose photo showed no price stay unpriced.
 # Every variant is tracked with 5 units at the main location. Images come from their public URLs (url_map.json).
-# Usage: shopify_payload.py  -> shopify/payloads/<handle>.json
-import json, os, re, html
+# Usage: shopify_payload.py [HANDLE ...]  -> shopify/payloads/<handle>.json (every piece, or just the handles given)
+import json, os, re, html, sys
 H = os.path.dirname(os.path.abspath(__file__)); S = os.path.join(H, "../shopify")
 L = json.load(open(f"{S}/listing.json")); EMAP = json.load(open(f"{H}/export_map.json")); URL = json.load(open(f"{H}/url_map.json"))
 SG = json.load(open(f"{S}/sizeguide_urls.json"))
@@ -20,8 +20,9 @@ CAT = {"Necklace": ("gid://shopify/TaxonomyCategory/aa-6-8", "Apparel & Accessor
        "Ring": ("gid://shopify/TaxonomyCategory/aa-6-9", "Apparel & Accessories > Jewelry > Rings", "200"),
        "Bracelet": ("gid://shopify/TaxonomyCategory/aa-6-3", "Apparel & Accessories > Jewelry > Bracelets", "191")}
 def first_sentence(s): return re.split(r"(?<=[.!?])\s", s.strip())[0]
-os.makedirs(f"{S}/payloads", exist_ok=True)
+os.makedirs(f"{S}/payloads", exist_ok=True); only = set(sys.argv[1:])
 for p in L:
+    if only and p["handle"] not in only: continue
     t, typ = p["title"], p["type"]; cat, gcat, fcat = CAT[typ]
     guide = (f"<p><img src=\"{SG[p['handle']]}\" alt=\"Size guide — {e(t)}\" width=\"420\"></p>" if p["handle"] in SG else "")
     body = (f"<p>{e(p['tagline'])} {e(p['body'])}</p><p><strong>STYLING TIP:</strong> {e(p['tip'])}</p><p><strong>Details</strong></p><ul>\n"
