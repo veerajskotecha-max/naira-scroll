@@ -1,0 +1,24 @@
+mutation SizeCards28Oct($files: [FileCreateInput!]!, $p0: ProductUpdateInput!, $m0: [CreateMediaInput!], $p1: ProductUpdateInput!, $m1: [CreateMediaInput!], $p2: ProductUpdateInput!, $m2: [CreateMediaInput!], $p3: ProductUpdateInput!, $m3: [CreateMediaInput!], $p4: ProductUpdateInput!, $m4: [CreateMediaInput!], $p5: ProductUpdateInput!, $m5: [CreateMediaInput!], $p6: ProductUpdateInput!, $m6: [CreateMediaInput!], $p7: ProductUpdateInput!, $m7: [CreateMediaInput!], $p8: ProductUpdateInput!, $m8: [CreateMediaInput!], $p9: ProductUpdateInput!, $m9: [CreateMediaInput!], $p10: ProductUpdateInput!, $m10: [CreateMediaInput!], $p11: ProductUpdateInput!, $m11: [CreateMediaInput!], $p12: ProductUpdateInput!, $m12: [CreateMediaInput!], $p13: ProductUpdateInput!, $m13: [CreateMediaInput!], $p14: ProductUpdateInput!, $m14: [CreateMediaInput!], $p15: ProductUpdateInput!, $m15: [CreateMediaInput!], $p16: ProductUpdateInput!, $m16: [CreateMediaInput!], $p17: ProductUpdateInput!, $m17: [CreateMediaInput!], $p18: ProductUpdateInput!, $m18: [CreateMediaInput!], $p19: ProductUpdateInput!, $m19: [CreateMediaInput!], $p20: ProductUpdateInput!, $m20: [CreateMediaInput!]) {
+  c: fileCreate(files: $files) { files { id fileStatus alt } userErrors { field message code } }
+  u0: productUpdate(product: $p0, media: $m0) { product { handle } userErrors { field message } }
+  u1: productUpdate(product: $p1, media: $m1) { product { handle } userErrors { field message } }
+  u2: productUpdate(product: $p2, media: $m2) { product { handle } userErrors { field message } }
+  u3: productUpdate(product: $p3, media: $m3) { product { handle } userErrors { field message } }
+  u4: productUpdate(product: $p4, media: $m4) { product { handle } userErrors { field message } }
+  u5: productUpdate(product: $p5, media: $m5) { product { handle } userErrors { field message } }
+  u6: productUpdate(product: $p6, media: $m6) { product { handle } userErrors { field message } }
+  u7: productUpdate(product: $p7, media: $m7) { product { handle } userErrors { field message } }
+  u8: productUpdate(product: $p8, media: $m8) { product { handle } userErrors { field message } }
+  u9: productUpdate(product: $p9, media: $m9) { product { handle } userErrors { field message } }
+  u10: productUpdate(product: $p10, media: $m10) { product { handle } userErrors { field message } }
+  u11: productUpdate(product: $p11, media: $m11) { product { handle } userErrors { field message } }
+  u12: productUpdate(product: $p12, media: $m12) { product { handle } userErrors { field message } }
+  u13: productUpdate(product: $p13, media: $m13) { product { handle } userErrors { field message } }
+  u14: productUpdate(product: $p14, media: $m14) { product { handle } userErrors { field message } }
+  u15: productUpdate(product: $p15, media: $m15) { product { handle } userErrors { field message } }
+  u16: productUpdate(product: $p16, media: $m16) { product { handle } userErrors { field message } }
+  u17: productUpdate(product: $p17, media: $m17) { product { handle } userErrors { field message } }
+  u18: productUpdate(product: $p18, media: $m18) { product { handle } userErrors { field message } }
+  u19: productUpdate(product: $p19, media: $m19) { product { handle } userErrors { field message } }
+  u20: productUpdate(product: $p20, media: $m20) { product { handle } userErrors { field message } }
+}

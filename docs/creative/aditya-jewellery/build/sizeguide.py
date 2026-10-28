@@ -3,8 +3,9 @@
 #   ring   the house ring card (Chevron Whisper Ring): inner-diameter circle and the US size boxes, with the sizes an
 #          adjustable ring fits filled in;
 #   photo  the house photo card (Crystal Pear Ear Cuff, Clover Trio Edit): the approved hero in a panel, with
-#          measurement bars and labels. Callouts are in raw frame pixels: ["h", x0, x1, y, label] is a bar across,
-#          ["v", y0, y1, x, label(, "left"|"right")] a bar down with its label beside it.
+#          measurement bars and labels. Callouts are in raw frame pixels: ["h", x0, x1, y, label(, "below")] is a bar
+#          across with its label above (or below), ["v", y0, y1, x, label(, "left"|"right")] a bar down with its label
+#          beside it. A spec with "path" reads that image instead of out/<src>.png, and "note" replaces the footnote.
 # Necklaces and bracelets have no card yet: their chain lengths are not known.
 # Usage: sizeguide.py OUTDIR
 import json, os, sys
@@ -25,11 +26,11 @@ def head(d, title):
     tf = ImageFont.truetype(VEL, 65)
     while d.textlength(title.upper(), font=tf, features=NOLIG) > 1320: tf = ImageFont.truetype(VEL, tf.size - 2)
     d.text((800, 170), title.upper(), font=tf, fill=INK, anchor="mm", features=NOLIG)
-def foot(d, line):
+def foot(d, line, note="Measurements are approximate, give or take 1 mm."):
     bf = ImageFont.truetype(J(400), 54)
     while d.textlength(line, font=bf) > 1280: bf = ImageFont.truetype(J(400), bf.size - 2)
     d.text((163, 1383), line, font=bf, fill=INK, anchor="ls")
-    d.text((161, 1444), "Measurements are approximate, give or take 1 mm.", font=ImageFont.truetype(J(300), 27), fill=GREY, anchor="ls")
+    d.text((161, 1444), note, font=ImageFont.truetype(J(300), 27), fill=GREY, anchor="ls")
     spaced(d, (1432, 1481), "NAIRA PETITE", ImageFont.truetype(J(500), 22), GOLD, 7.0, "r")
 def ring(title, spec):
     im = Image.new("RGB", (1600, 1600), BG); d = ImageDraw.Draw(im); head(d, title)
@@ -52,7 +53,7 @@ def photo(title, spec):
     im = Image.new("RGB", (1600, 1600), BG); d = ImageDraw.Draw(im); head(d, title)
     pw, ph = (800, 931) if spec.get("portrait") else (1280, 931); px0, py0 = (1600 - pw) // 2, 288
     cx, cy, cw = spec["crop"]; s = pw / cw; ch = round(ph / s)
-    src = Image.open(f"{H}/out/{SRC.get(spec['src'], spec['src'])}.png").convert("RGB")
+    src = Image.open(spec["path"] if spec.get("path") else f"{H}/out/{SRC.get(spec['src'], spec['src'])}.png").convert("RGB")
     im.paste(src.crop((cx, cy, cx + cw, cy + ch)).resize((pw, ph), Image.LANCZOS), (px0, py0))
     X = lambda x: px0 + (x - cx) * s; Y = lambda y: py0 + (y - cy) * s
     lf = ImageFont.truetype(J(500), 42)
@@ -62,17 +63,17 @@ def photo(title, spec):
         d.text((xc, yc + 1), text, font=lf, fill=INK, anchor="mm"); return w
     for c in spec["callouts"]:
         if c[0] == "h":
-            _, x0, x1, y, text = c; a, b, yy = X(x0), X(x1), Y(y)
+            _, x0, x1, y, text, *side = c; a, b, yy = X(x0), X(x1), Y(y)
             d.line((a, yy, b, yy), fill=INK, width=4)
             for x in (a, b): d.line((x, yy - 18, x, yy + 18), fill=INK, width=4)
-            pill((a + b) / 2, yy - 62, text)
+            pill((a + b) / 2, yy + (62 if side and side[0] == "below" else -62), text)
         else:
             _, y0, y1, x, text, *side = c; a, b, xx = Y(y0), Y(y1), X(x)
             d.line((xx, a, xx, b), fill=INK, width=4)
             for y in (a, b): d.line((xx - 18, y, xx + 18, y), fill=INK, width=4)
             w = d.textlength(text, font=lf) + 52
             pill(xx + (w / 2 + 30) * (1 if side and side[0] == "right" else -1), (a + b) / 2, text)
-    foot(d, spec["line"]); return im
+    foot(d, spec["line"], *([spec["note"]] if spec.get("note") else [])); return im
 if __name__ == "__main__":
     out = sys.argv[1]; os.makedirs(out, exist_ok=True)
     for p in json.load(open(os.path.join(H, "../shopify/listing.json"))):

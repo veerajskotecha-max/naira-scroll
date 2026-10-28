@@ -14,7 +14,7 @@ def spaced(d, xy, text, font, fill, track, anchor="l"):
     for c in text:
         d.text((x, xy[1]), c, font=font, fill=fill); x += d.textlength(c, font=font) + track
 def fmt(v): return f"{v:g}"
-def card(title, length, adjust=None):
+def card(title, length, adjust=None, note="Measurements are approximate, give or take 1 mm."):
     im = Image.new("RGB", (1600, 1600), BG); d = ImageDraw.Draw(im)
     spaced(d, (800, 91), "SIZE GUIDE", ImageFont.truetype(J(500), 27), GOLD, 7.5, "m")
     tf = ImageFont.truetype(VEL, 65)
@@ -44,7 +44,7 @@ def card(title, length, adjust=None):
     bf = ImageFont.truetype(J(400), 54)
     while d.textlength(big, font=bf) > 1280: bf = ImageFont.truetype(J(400), bf.size - 2)
     d.text((163, 1383), big, font=bf, fill=INK, anchor="ls")
-    d.text((161, 1444), "Measurements are approximate, give or take 1 mm.", font=ImageFont.truetype(J(300), 27), fill=GREY, anchor="ls")
+    d.text((161, 1444), note, font=ImageFont.truetype(J(300), 27), fill=GREY, anchor="ls")
     spaced(d, (1432, 1481), "NAIRA PETITE", ImageFont.truetype(J(500), 22), GOLD, 7.0, "r")
     return im
 if __name__ == "__main__":

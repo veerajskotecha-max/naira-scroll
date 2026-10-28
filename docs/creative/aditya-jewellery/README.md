@@ -47,7 +47,7 @@ Lines that already existed pick up the rest by name: Prism (the pear drop neckla
 
 The recipe is the aditya-bracelets one (`build/build.py`): a hero on the cream plaster cube (`H`), one worn frame on the saffron-camisole model (`W1`) and a macro (`M`). Worn and macro frames pass the approved hero as IMAGE 2. `approved.json` holds the job of every frame in use. `export.py` maps reshot keys to their takes, trims a 1.5% inset and writes `exports/<handle>-NN.jpg`. `board.jpg` is the review sheet.
 
-`sizeguide.py` draws the 1600×1600 size-guide cards in `shopify/sizeguides/`: the ring card for the four rings, and a photo card with measurement bars for the clover drops, the twin heart studs, the ear cuff, the pear drop hoops, and (27 Oct) the solitaire drop huggies and the lotus pear drop studs. The Watch Link Strap Bracelet has had the 17 cm bracelet card since 28 Oct. The other necklaces and bracelets have no card because their chain lengths are not known.
+`sizeguide.py` draws the 1600×1600 size-guide cards in `shopify/sizeguides/`: the ring card for the four rings, and a photo card with measurement bars for the clover drops, the twin heart studs, the ear cuff, the pear drop hoops, and (27 Oct) the solitaire drop huggies and the lotus pear drop studs. The Watch Link Strap Bracelet has had the 17 cm bracelet card since 28 Oct. Later that day the Clover Chain, Clover Station and Open Heart Layered bracelets, the Watch Link Bangle and the Pearl Heart Layered Necklace got cards from [`../size-cards`](../size-cards/README.md), with estimated lengths.
 
 ### 25 Oct reshoot
 
@@ -273,6 +273,15 @@ product's description and gallery: 155 at 08:56 UTC, 154 after the owner set Cla
   - Verdant Cushion Studs and Lilac Papillon match "size" in the gallery only because an on-model photo's alt text says
     it. Neither has a card.
 
+### 28 Oct, later: cards for the 21 without one
+
+The owner then asked for the rest without waiting for measurements ("rest do all"), keeping the white Clarté
+unlisted; it is still a Draft. 21 of the 22 now have a card, drawn from the earlier size records and the listings'
+Details and shipped in one mutation. The lengths of five bracelets and four necklaces are estimates. Triple Dawn Cuff
+was skipped because its photos show a different piece from its copy. Sources, checks and the follow-ups are in
+[`../size-cards/README.md`](../size-cards/README.md). A fresh storefront read gives 135 of 136 live jewellery
+listings with the card in both the description and the gallery.
+
 ## Shopify
 
 Verified on 25 Oct 2026 (`shopify/pushed.json`, `shopify/cdn_check.txt`):
@@ -291,7 +300,7 @@ The care copy is the plain line, with no waterproof, tarnish-free or hypoallerge
 1. **Prices**: ADT24 and ADT25 have no price or cost. ADT26 has no cost.
 2. **Sizes**: a ruler on one Twin Heart stud and one ring settles the two open size questions under the size check.
 3. **Storefront claims**: the Lovable site prints "surgical stainless steel · waterproof, anti-tarnish" under every live jewellery piece (`src/hooks/useLiveJewellery.ts`) and shows an Anti-Tarnish badge (`JewelTrustStrip`, `ProductDetails`). That now includes the nine live Aditya pieces. Confirm the base metal with Aditya, or drop the claim for Aditya pieces.
-4. **Lengths**: the necklaces (ADT09, ADT13, ADT15, ADT24, ADT26) and bracelets (ADT11, ADT12, ADT16, ADT17) need chain lengths for the copy and a size guide. ADT18 is a rigid bangle: it needs its inner diameter or bangle size (2.4, 2.6, 2.8), and whether it opens on a hinge or slips over the hand.
+4. **Lengths**: the necklaces (ADT09, ADT13, ADT15, ADT24, ADT26) and bracelets (ADT11, ADT12, ADT16, ADT17) need chain lengths for the copy and a size guide. ADT18 is a rigid bangle: it needs its inner diameter or bangle size (2.4, 2.6, 2.8), and whether it opens on a hinge or slips over the hand. Since 28 Oct ADT11, ADT12, ADT17 and ADT26 have cards with estimated lengths, and ADT18's card shows only its 10 mm width ([`../size-cards`](../size-cards/README.md)); a tape measure should confirm them.
 5. **Pearl material**: the supplier called ADT26's stones "white heart shaped pearls". The copy calls them pearls; confirm shell, glass or plastic.
 6. Phase 1 still needs prices, its 15 to 19 cm question and its overlap checks (`../aditya-bracelets/README.md`).
 
