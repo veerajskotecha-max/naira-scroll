@@ -1,0 +1,96 @@
+{
+ "files": [
+  {
+   "id": "gid://shopify/MediaImage/46553570279586",
+   "referencesToAdd": [
+    "gid://shopify/Product/10353413292194"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46553570345122",
+   "referencesToAdd": [
+    "gid://shopify/Product/10353404903586",
+    "gid://shopify/Product/10365930569890"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46553570377890",
+   "referencesToAdd": [
+    "gid://shopify/Product/10353404969122"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46553570410658",
+   "referencesToAdd": [
+    "gid://shopify/Product/10353413357730"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46553570443426",
+   "referencesToAdd": [
+    "gid://shopify/Product/10353413259426"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46553570476194",
+   "referencesToAdd": [
+    "gid://shopify/Product/10353405001890"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46571699634338",
+   "referencesToAdd": [
+    "gid://shopify/Product/10354825658530"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46571699667106",
+   "referencesToAdd": [
+    "gid://shopify/Product/10354825691298"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46571699699874",
+   "referencesToAdd": [
+    "gid://shopify/Product/10354825724066"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46571699732642",
+   "referencesToAdd": [
+    "gid://shopify/Product/10354825756834"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46577294508194",
+   "referencesToAdd": [
+    "gid://shopify/Product/10355441631394"
+   ]
+  },
+  {
+   "id": "gid://shopify/MediaImage/46577294540962",
+   "referencesToAdd": [
+    "gid://shopify/Product/10355442876578"
+   ]
+  }
+ ],
+ "newFiles": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d4d4f0fe-c290-4c74-af75-cb4410ccd840.jpg",
+   "filename": "watch-link-strap-bracelet-size-guide.jpg",
+   "alt": "Size guide — Watch Link Strap Bracelet",
+   "contentType": "IMAGE"
+  }
+ ],
+ "wl": {
+  "id": "gid://shopify/Product/10355444449442",
+  "descriptionHtml": "<p>The watch strap, without the watch. Five rows of polished gold tone links, set like brickwork, make a slim strap about 9mm wide that bends and follows the wrist the way a watch strap does. It is about 17cm long and about 2.5mm thick.</p><p><strong>STYLING TIP:</strong> Wear it where a watch would sit, with the Watch Link Ring, or stack it with the Watch Link Bangle.</p><p><strong>Details</strong></p><ul>\n<li>Type: Flexible link bracelet; it bends and follows the wrist</li>\n<li>Width: Approximately 9mm</li>\n<li>Thickness: Approximately 2.5mm</li>\n<li>Length: Approximately 17cm</li>\n<li>Links: Five rows of polished links in a brick pattern</li>\n<li>Stones: None</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/watch-link-strap-bracelet-size-guide.jpg\" alt=\"Size guide — Watch Link Strap Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>"
+ },
+ "wlMedia": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d4d4f0fe-c290-4c74-af75-cb4410ccd840.jpg",
+   "alt": "Size guide — Watch Link Strap Bracelet",
+   "mediaContentType": "IMAGE"
+  }
+ ]
+}

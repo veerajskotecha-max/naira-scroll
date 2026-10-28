@@ -47,7 +47,7 @@ Lines that already existed pick up the rest by name: Prism (the pear drop neckla
 
 The recipe is the aditya-bracelets one (`build/build.py`): a hero on the cream plaster cube (`H`), one worn frame on the saffron-camisole model (`W1`) and a macro (`M`). Worn and macro frames pass the approved hero as IMAGE 2. `approved.json` holds the job of every frame in use. `export.py` maps reshot keys to their takes, trims a 1.5% inset and writes `exports/<handle>-NN.jpg`. `board.jpg` is the review sheet.
 
-`sizeguide.py` draws the 1600×1600 size-guide cards in `shopify/sizeguides/`: the ring card for the four rings, and a photo card with measurement bars for the clover drops, the twin heart studs, the ear cuff, the pear drop hoops, and (27 Oct) the solitaire drop huggies and the lotus pear drop studs. Necklaces and bracelets have no card because their chain lengths are not known.
+`sizeguide.py` draws the 1600×1600 size-guide cards in `shopify/sizeguides/`: the ring card for the four rings, and a photo card with measurement bars for the clover drops, the twin heart studs, the ear cuff, the pear drop hoops, and (27 Oct) the solitaire drop huggies and the lotus pear drop studs. The Watch Link Strap Bracelet has had the 17 cm bracelet card since 28 Oct. The other necklaces and bracelets have no card because their chain lengths are not known.
 
 ### 25 Oct reshoot
 
@@ -237,6 +237,41 @@ macro). The owner answered "List at 5 each".
 - **Sets.** "Watch Link" in the bracelet's name puts it in the storefront's Watch Link set, with the Watch Link Ring and
   the Watch Link Bangle. The studs carry the pear drop motif. The huggies style as huggies.
 - **Higgsfield.** 17 frames, 34 credits; 459.32 left. Two jobs failed on the server and were not charged.
+
+### 28 Oct: size cards in every gallery
+
+The owner asked to make sure size cards were uploaded for every listing. The Storefront API was read for every live
+product's description and gallery: 155 at 08:56 UTC, 154 after the owner set Clarté Silver to Draft at 09:12.
+
+- **Fixed in one mutation**, the same request as the Slim Clarté (`../aditya-bracelets/build/ship_28oct.py`, payload
+  `../aditya-bracelets/shopify/payloads/ship_28oct.json`; inputs in `shopify/payloads/sizecards_28oct.json`).
+  - Ten live listings had their card in the description but not the gallery. The card file each description already
+    embeds was added to the end of its gallery (`fileUpdate` `referencesToAdd`, so no copy is made). The ten are
+    Aquarelle Rivière, Emerald, Blush, Sapphire, Champagne and Amethyst Carré, Lumière Solitaire, Midnight Rivière,
+    Solitaire Drop Huggies and Lotus Pear Drop Studs.
+  - The Clarté card was also added to Clarté Silver's gallery, which gained the Slim 5mm that day.
+  - The gold Clarté and Rivière Classique are Drafts the owner set, so their galleries were left.
+  - The Watch Link Strap Bracelet had no card. `build/sizeguide.py` drew its bracelet card (17 cm, like the description;
+    `shopify/sizeguides/watch-link-strap-bracelet-size-guide.jpg`). `fileCreate` stored it under that name for the
+    description, which now shows it before Care. A gallery copy follows the photo added to the listing at 09:16 UTC.
+- **Verified.** All 12 galleries end with their card, READY. The Watch Link Strap card's CDN copy matches the file
+  (0.24/255). A fresh storefront read gives 136 live jewellery listings: 114 have the card in both the description and
+  the gallery, none in the description only, and 22 have no card. The other 18 live products have no product type
+  (clothing and the like) and are out of scope.
+- **Storefront.** The storefront shows a gallery size card last and again in the Details fold. The snapshot was
+  regenerated (Lovable repo, same branch, `9657b0b`; 136 pieces), so those 11 pieces now carry their `sizeGuide`. Clarté
+  Silver left the handle list while it is Draft.
+- **The 22 without a card** need one measurement each before a card can be drawn. Nothing was guessed.
+  - Necklaces (chain length, and any extender): Heartline Paperclip, Pearl Legacy, Baroque Pearl Lariat (the pearl is
+    about 15 mm; the chain is not known), Lumière Oval and Pearl Heart Layered.
+  - Bracelets (length; inner diameter for a bangle or cuff): Triple Dawn Cuff, Heartbead, Lumière Oval, Molten Panel
+    Bangle (10 mm wide), Marquise Coil Cuff, Tile Stone Bangle, Clover Chain, Clover Station, Open Heart Layered and
+    Watch Link Bangle (10 mm wide).
+  - Earrings (size across, or drop length): Baguette Halo Drops, Petite Square Huggies, Pearl Circlet Studs, Petite Bow
+    Studs, Prism Cluster Studs (silver) and Verdant Cushion Studs.
+  - Ring (its size, or whether it adjusts, and the butterfly's width): Lilac Papillon.
+  - Verdant Cushion Studs and Lilac Papillon match "size" in the gallery only because an on-model photo's alt text says
+    it. Neither has a card.
 
 ## Shopify
 

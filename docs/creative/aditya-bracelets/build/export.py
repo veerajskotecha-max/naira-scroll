@@ -7,7 +7,7 @@
 import json, os, sys
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "../exports")
-SRC = {"A5_H": "A5_H2", "A6_H": "A6_Hc",
+SRC = {"A5_H": "A5_H2", "A6_H": "A6_Hc", "A11_H": "A11_H3",
        "A8_H": "A8_Hs", "A8_W1": "A8_W1s", "A8_W2": "A8_W2s", "A8_M": "A8_Ms", "A9_H": "A9_Hs", "A9_W1": "A9_W1s", "A9_M": "A9_Ms"}
 MADE = {f"{c}_{s}" for c in ("A8w", "A7w", "A7p") for s in ("H", "W1", "W2", "M")}   # recolour_white.py writes Bougainvillea White
 # (A8w) from the Fuchsia exports, recolour_aquarelle.py Aquarelle White (A7w) and Pink (A7p) from the Lavender ones

@@ -801,16 +801,25 @@
   "title": "Clarté Baguette Bracelet — Silver",
   "product_id": "gid://shopify/Product/10365930569890",
   "pushed": "2026-10-28",
-  "status": "ACTIVE",
+  "status": "DRAFT (the owner set it to Draft at 09:12 UTC on 28 Oct)",
   "price": "1299.00 (compare at 2500.00)",
   "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
   "variants": [
    {
     "sku": "ADT01-SV",
-    "option": "Default Title",
+    "option": "Classic 6mm",
     "available": 2,
     "on_hand": 2,
-    "image_position": null
+    "image_position": 1,
+    "price": "1299.00 (compare at 2500.00)"
+   },
+   {
+    "sku": "ADT01-SV-SL",
+    "option": "Slim 5mm",
+    "available": 5,
+    "on_hand": 5,
+    "image_position": 5,
+    "price": "1299.00 (compare at 2500.00)"
    }
   ],
   "media": [
@@ -841,6 +850,41 @@
     "export": "exports/clarte-baguette-bracelet-silver-04.jpg",
     "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/5f886e46-4f6e-4829-8b93-05c96a1bc509.jpg?v=1793177393",
     "status": "READY"
+   },
+   {
+    "position": 5,
+    "key": "A11_H",
+    "export": "exports/clarte-baguette-bracelet-silver-05.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/9f5ee4e1-730d-4ee0-84ca-98c40d030ce1.jpg?v=1793180653",
+    "status": "READY"
+   },
+   {
+    "position": 6,
+    "key": "A11_W1",
+    "export": "exports/clarte-baguette-bracelet-silver-06.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/24835d30-180d-4839-8b0a-0b17d2e77be2.jpg?v=1793180653",
+    "status": "READY"
+   },
+   {
+    "position": 7,
+    "key": "A11_W2",
+    "export": "exports/clarte-baguette-bracelet-silver-07.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/525f8467-9e72-4221-abf3-0be7d55596f0.jpg?v=1793180653",
+    "status": "READY"
+   },
+   {
+    "position": 8,
+    "key": "A11_M",
+    "export": "exports/clarte-baguette-bracelet-silver-08.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/69048d71-b914-49af-b296-a23a55158740.jpg?v=1793180653",
+    "status": "READY"
+   },
+   {
+    "position": 9,
+    "key": "size_guide",
+    "export": "shopify/sizeguides/clarte-baguette-bracelet-size-guide.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clarte-baguette-bracelet-size-guide.jpg?v=1792873866",
+    "status": "READY"
    }
   ],
   "category": "gid://shopify/TaxonomyCategory/aa-6-3 (Apparel & Accessories > Jewelry > Bracelets)",
@@ -857,7 +901,9 @@
    "bracelets",
    "discount-scope-all"
   ],
-  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clarte-baguette-bracelet-size-guide.jpg (the gold Clarté's card)"
+  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clarte-baguette-bracelet-size-guide.jpg (the gold Clarté's card); also the last gallery image since 28 Oct (it fits both widths: same 17 cm)",
+  "updated": "2026-10-28 (Width option: Classic 6mm and Slim 5mm)",
+  "option": "Width"
  },
  {
   "handle": "aquarelle-riviere-bracelet",

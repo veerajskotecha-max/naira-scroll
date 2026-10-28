@@ -5,7 +5,7 @@ Ten bracelets Aditya showed on a WhatsApp video call: nine photos, then a tenth 
 | SKU | Product | Option | Stones | Clasp | Finish | Admin |
 |---|---|---|---|---|---|---|
 | ADT01 | Clarté Baguette Bracelet | — | Clear baguettes, about 6 × 3 mm, set crosswise; band about 6 mm wide | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353404903586) |
-| ADT01-SV | Clarté Baguette Bracelet — Silver | — | As ADT01; its own listing, live with 2 units since 28 Oct | Fold-over | Silver tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10365930569890) |
+| ADT01-SV / ADT01-SV-SL | Clarté Baguette Bracelet — Silver | Width: Classic 6mm / Slim 5mm | Classic as ADT01 (2 units); Slim, added 28 Oct with 5 units: clear baguettes about 5 × 2.5 mm, band about 5 mm wide. Its own listing, live from 28 Oct; the owner set it to Draft at 09:12 UTC that day | Fold-over | Silver tone (PVD rhodium) | [open](https://admin.shopify.com/store/nc5eti-gp/products/10365930569890) |
 | ADT02 | Sorbet Rivière Bracelet | — | Round, about 3 mm; baby pink, pale lime and lilac blue mixed along the line | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353404936354) |
 | ADT03 | Emerald Carré Bracelet | — | Square princess cut green, about 4 mm | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353404969122) |
 | ADT04 | Rivière Classique Bracelet | — | Round clear, about 3.5 mm | Box | Gold tone; card says stainless steel | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353405001890) |
@@ -57,7 +57,7 @@ All 7 images were replaced in place on the draft, with the same media ids and or
 
 `export.py` maps those keys and trims a 1.5% inset, which removes the white side strips some worn frames had. It then writes `exports/<handle>-NN.jpg` in listing order. `board.jpg` is the review sheet with one row per product.
 
-Each single-colour product has 4 images. Aquarelle has 12 live: Royal Blue has hero, worn and macro, and Lavender, White and Pink each have hero, wrist and macro. The owner took Lavender's worn-on-the-model photo off the listing on 27 Oct, and White and Pink follow that (28 Oct, below). Bougainvillea has 11: Fuchsia has 4, Violet has hero, worn and macro, and White (27 Oct, below) has 4.
+Each single-colour product has 4 images. Aquarelle has 12 live: Royal Blue has hero, worn and macro, and Lavender, White and Pink each have hero, wrist and macro. The owner took Lavender's worn-on-the-model photo off the listing on 27 Oct, and White and Pink follow that (28 Oct, below). Bougainvillea has 11: Fuchsia has 4, Violet has hero, worn and macro, and White (27 Oct, below) has 4. Clarté Silver has 8: 4 each for Classic 6mm and Slim 5mm (28 Oct, below). Since 28 Oct each live listing's gallery also ends with its size card.
 
 Higgsfield cost: 42 generations at 2K, 84 credits. The balance is 116.07.
 
@@ -161,6 +161,45 @@ together with one approval.
   the exports (0.34–0.45/255), each in its place. The vendor and type rules put Silver in Shop All, Bracelets and the
   discount-scope collection. Its product page returns 200. `shopify/pushed.json` has both entries. The storefront
   snapshot (Lovable repo) was regenerated: 137 pieces.
+- **Not changed.** No Meta setting.
+
+### 28 Oct: Clarté Silver in Slim 5mm
+
+The owner sent Aditya's photo of two thin silver baguette tennis bracelets in "Fashion Jewelry" sleeves. They asked for it
+as a thinner variation on the rhodium-base Clarté, with 5 units, a size chart and 4 photos.
+
+- **Size** (`refs/A11_full.jpg`, `refs/A11_det.jpg`). The line is about 5 mm wide and 17 cm long, with a fold-over clasp
+  and about 60 baguettes of about 5 × 2.5 mm. Two estimates agree: one against the thumb holding the sleeve, one from the
+  stone count. The Classic is about 6 mm. The Slim fits the Clarté size card (same title and 17 cm), so the card stands.
+- **Photos** (`A11` in `build/skus.json`). These are a new shoot, not edits: a 5 mm line has more, smaller stones than the
+  6 mm one.
+  - Hero: the first take read only about 7% slimmer than the Classic hero, so the scale text was tightened. The third
+    take reads 16% slimmer and is the one used (`A11_H3`; `export.py` maps it).
+  - Worn: band width over the visible wrist chord reads 0.117 and 0.100 on the Classic's two frames, and 0.105 and 0.095
+    on the Slim's. About 14 and 16 stones cross the wrist face on the Classic, about 18 on each Slim frame. Together that
+    is about 17–20% slimmer, which matches 5 mm against 6.
+  - At 3 to 4× zoom the worn frames draw tiny glittering beads at the ends of each baguette. Aditya's photo and the hero
+    have plain box settings. An edit pass on both frames (2 jobs) left the beads as they were. At listing size (1288 ×
+    1600) they read as the settings' highlights, so the original frames stand.
+  - Macro: the first job failed on Higgsfield after 15 minutes and was refunded. The resubmitted job carries a new
+    plain-settings clause in A11's `neg`. It shows plain polished box settings with a claw at each corner, finer than
+    the Classic macro.
+  - `exports/clarte-baguette-bracelet-silver-05..08.jpg`. Higgsfield: 9 jobs at 2K, 16 credits net; 420.32 left.
+- **Shopify, one mutation.** `build/ship_28oct.py` builds `shopify/payloads/ship_28oct.json`. The single request:
+  - replaced the Title placeholder with a **Width** option. The existing variant (ADT01-SV, 2 units) became "Classic
+    6mm" and took its own hero, and the four Classic photos' alts now say Classic 6mm;
+  - added **Slim 5mm** (ADT01-SV-SL). It has 5 units at ₹1,299 against ₹2,500, like the Classic, and no cost (the Classic
+    has none). Its photos are hero, worn, worn close and macro, with the hero as the option's image;
+  - put the two widths into the copy: the intro, the styling tip, and the Stone and Width lines. Every other line,
+    including the PVD rhodium lines and the size card, reads as before;
+  - added the Clarté size card to the end of the gallery. The same request put the other listings' cards in their
+    galleries (`../aditya-jewellery/README.md`, 28 Oct).
+- **Verified.** The Width option has both values with variants. Total units 7 (2 + 5), both tracked, both deny
+  overselling. There are 9 media, all READY: Classic 4, Slim 4 at 1288 × 1600, then the card. Each variant has its own
+  hero. The CDN copies of the Slim photos match the exports (0.95–1.47/255). `shopify/pushed.json` has the entry.
+- **Still Draft.** The owner set the listing to Draft at 09:12 UTC, before this request. It was left that way, so the
+  storefront snapshot (Lovable repo, `9657b0b`) no longer lists it. When it goes Active again, regenerate the snapshot.
+- **Check.** `board_28oct_slim.jpg`: Aditya's photo, then the Classic four and the Slim four.
 - **Not changed.** No Meta setting.
 
 ## Shopify
