@@ -79,6 +79,9 @@ The owner approved one mutation: `payloads/ship_28oct_cards.graphql`, with varia
 - **Audit.** A fresh storefront read found 154 live products, 136 of them jewellery. 135 have the card in both the
   description and the gallery. Triple Dawn Cuff is the only jewellery listing without one. The other 18 products have
   no product type (clothing and the like).
+- **Storefront.** The snapshot was regenerated (Lovable repo, same branch, `e90420a`), and its tests pass. 20 snapshot
+  pieces now carry the card as their `sizeGuide`. The Heartline Paperclip Necklace is hand-authored in `jewellery.ts`
+  and takes its card from the live catalogue.
 
 ## Seen on the way, not changed
 
