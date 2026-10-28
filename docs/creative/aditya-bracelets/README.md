@@ -5,11 +5,12 @@ Ten bracelets Aditya showed on a WhatsApp video call: nine photos, then a tenth 
 | SKU | Product | Option | Stones | Clasp | Finish | Admin |
 |---|---|---|---|---|---|---|
 | ADT01 | Clarté Baguette Bracelet | — | Clear baguettes, about 6 × 3 mm, set crosswise; band about 6 mm wide | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353404903586) |
+| ADT01-SV | Clarté Baguette Bracelet — Silver | — | As ADT01; its own listing, live with 2 units since 28 Oct | Fold-over | Silver tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10365930569890) |
 | ADT02 | Sorbet Rivière Bracelet | — | Round, about 3 mm; baby pink, pale lime and lilac blue mixed along the line | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353404936354) |
 | ADT03 | Emerald Carré Bracelet | — | Square princess cut green, about 4 mm | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353404969122) |
 | ADT04 | Rivière Classique Bracelet | — | Round clear, about 3.5 mm | Box | Gold tone; card says stainless steel | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353405001890) |
 | ADT05 | Midnight Rivière Bracelet | — | Round navy blue, about 4 mm | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413259426) |
-| ADT06-RB / ADT06-LV | Aquarelle Rivière Bracelet | Royal Blue / Lavender | Round, about 3 mm | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413292194) |
+| ADT06-RB / ADT06-LV / ADT06-WH / ADT06-PK | Aquarelle Rivière Bracelet | Royal Blue / Lavender / White / Pink | Round, about 3 mm (clear on White, soft pink on Pink; both added 28 Oct with 2 units each) | Fold-over | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413292194) |
 | ADT07-FU / ADT07-VI / ADT07-WH | Bougainvillea Vine Bracelet | Fuchsia / Violet / White | Vine with 5 flowers: four five-petal flowers, about 7 mm, and one six-petal centre flower, about 11 mm (ruby red on Fuchsia, lilac on Violet, all clear on White, added 27 Oct); clear pavé leaves | Fold-over tongue into a D ring | Silver tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413324962) |
 | ADT08 | Lumière Solitaire Bracelet | — | Clear ovals, about 5 × 3 mm, set crosswise, with one round centre stone of about 7 mm | Box | Gold tone | [open](https://admin.shopify.com/store/nc5eti-gp/products/10353413357730) |
 
@@ -56,7 +57,7 @@ All 7 images were replaced in place on the draft, with the same media ids and or
 
 `export.py` maps those keys and trims a 1.5% inset, which removes the white side strips some worn frames had. It then writes `exports/<handle>-NN.jpg` in listing order. `board.jpg` is the review sheet with one row per product.
 
-Each single-colour product has 4 images. Aquarelle has 7: Royal Blue has hero, worn and macro, and Lavender adds a wrist frame. Bougainvillea has 11: Fuchsia has 4, Violet has hero, worn and macro, and White (27 Oct, below) has 4.
+Each single-colour product has 4 images. Aquarelle has 12 live: Royal Blue has hero, worn and macro, and Lavender, White and Pink each have hero, wrist and macro. The owner took Lavender's worn-on-the-model photo off the listing on 27 Oct, and White and Pink follow that (28 Oct, below). Bougainvillea has 11: Fuchsia has 4, Violet has hero, worn and macro, and White (27 Oct, below) has 4.
 
 Higgsfield cost: 42 generations at 2K, 84 credits. The balance is 116.07.
 
@@ -119,6 +120,48 @@ already had.
     four images to `recolour_white.py`.
 - **Catalogue ad.** Bougainvillea is in the ₹500/day New 12 product set, which keeps every in-stock item of the listed
   products. So White should reach that ad with the Facebook catalogue's next sync. No Meta setting was changed.
+
+### 28 Oct: Aquarelle in White and Pink, Clarté in Silver
+
+The owner sent the Aquarelle listing and Aditya's photo of the same fine line in pink (`refs/A7p_full.jpg`). They asked
+for it in white and in pink, with the silver Clarté (2 pieces) from the day before. Everything was to be shipped
+together with one approval.
+
+- **Aquarelle photos, no new shoot.** `build/recolour_aquarelle.py` turns the four Lavender photos into White
+  (`exports/aquarelle-riviere-bracelet-08..11.jpg`) and Pink (`-12..15.jpg`). Only the stones change.
+  - The lavender's facets run from violet at 290° round to rose at 20° (CIELab). The gold, skin, camisole and plaster
+    sit at 40° and up. In the worn frames only a box around the bracelet is touched. A diff map shows every changed
+    pixel on a stone.
+  - White follows `recolour_white.py`. The tint goes, and the stones' lightness is mapped by rank onto a clear stone's.
+    The faint lilac on near-white facets goes too. The warm white is matched to Rivière Classique's clear stones in the
+    same room light.
+  - Pink keeps each pixel's shading relative to the stones' median, as `recolour_carre.py` does. The target, a soft pink
+    (L 72, C 21, 354°), was read from Aditya's photo. A first, stronger pink (C 28) was toned down.
+- **Clarté Silver photos.** These are Higgsfield edits of the four approved gold photos (`A1_*`): "change only the metal
+  to polished rhodium silver, stones icy clear". They are Nano Banana Pro at 2K, 4 jobs (`A1s_*` in
+  `build/approved.json`). A local gold-to-silver recolour failed, because gold's hue overlaps the skin and the plaster.
+  Outside the bracelet the frames changed by a mean of 3.7–4.2/255. `build/export.py` exports them as
+  `exports/clarte-baguette-bracelet-silver-01..04.jpg`.
+- **Check.** `board_28oct.jpg`: the Silver four, the White three and the Pink three, after Aditya's photo.
+- **Shopify, one mutation.** `build/ship_27oct.py` builds `shopify/payloads/ship_27oct.json`. The single request:
+  - added White (ADT06-WH) and Pink (ADT06-PK) to the live Aquarelle at ₹1,299 against ₹1,800, like Royal Blue and
+    Lavender, with no cost (theirs has none) and 2 units each. Each has hero, wrist and macro, with the hero as the
+    option's image. The worn-on-model takes (`-09`, `-13`) are exported but not listed, matching the owner's Lavender
+    edit;
+  - moved the copy to four colours ("In bright Royal Blue, soft Lavender, rose Pink or clear White", a two-colour
+    styling tip, and the Colours line). Every other line, including the owner's PVD lines, reads as before;
+  - created **Clarté Baguette Bracelet — Silver** (ACTIVE, handle `clarte-baguette-bracelet-silver`, ADT01-SV). It has
+    2 units at ₹1,299 against ₹2,500, the Carré lines' price (the gold Clarté is still an unpriced draft). The copy is
+    the gold Clarté's in silver tone, with the PVD rhodium lines the owner uses on silver Bougainvillea. It is tagged
+    Rhodium Silver Tone Plated and shows the gold Clarté's size-guide card, which has the same title and length;
+  - published it to all six channels in the same request. `productSet` cannot publish, so the request turned
+    `autoPublish` on for the six publications just before it and off just after. The listing reached all six within
+    seconds, and `autoPublish` reads false on all six again.
+- **Verified.** The Storefront API reads Silver, White and Pink as available. The CDN copies of the 10 new photos match
+  the exports (0.34–0.45/255), each in its place. The vendor and type rules put Silver in Shop All, Bracelets and the
+  discount-scope collection. Its product page returns 200. `shopify/pushed.json` has both entries. The storefront
+  snapshot (Lovable repo) was regenerated: 137 pieces.
+- **Not changed.** No Meta setting.
 
 ## Shopify
 

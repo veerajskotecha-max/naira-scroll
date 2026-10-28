@@ -795,5 +795,151 @@
   ],
   "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/amethyst-carre-bracelet-size-guide.jpg?v=1793027191",
   "created": "2026-10-26, from Emerald Carré's photos with the stones recoloured (build/recolour_carre.py)"
+ },
+ {
+  "handle": "clarte-baguette-bracelet-silver",
+  "title": "Clarté Baguette Bracelet — Silver",
+  "product_id": "gid://shopify/Product/10365930569890",
+  "pushed": "2026-10-28",
+  "status": "ACTIVE",
+  "price": "1299.00 (compare at 2500.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT01-SV",
+    "option": "Default Title",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": null
+   }
+  ],
+  "media": [
+   {
+    "position": 1,
+    "key": "A1s_H",
+    "export": "exports/clarte-baguette-bracelet-silver-01.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/92fa2e5a-26a8-4e29-8ca7-ab2360bc5ff8.jpg?v=1793177394",
+    "status": "READY"
+   },
+   {
+    "position": 2,
+    "key": "A1s_W1",
+    "export": "exports/clarte-baguette-bracelet-silver-02.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/9cdffef3-c21e-451e-b09c-849738516e03.jpg?v=1793177394",
+    "status": "READY"
+   },
+   {
+    "position": 3,
+    "key": "A1s_W2",
+    "export": "exports/clarte-baguette-bracelet-silver-03.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/30ce63df-4a94-4db7-aa77-c50eff783cf4.jpg?v=1793177394",
+    "status": "READY"
+   },
+   {
+    "position": 4,
+    "key": "A1s_M",
+    "export": "exports/clarte-baguette-bracelet-silver-04.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/5f886e46-4f6e-4829-8b93-05c96a1bc509.jpg?v=1793177393",
+    "status": "READY"
+   }
+  ],
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3 (Apparel & Accessories > Jewelry > Bracelets)",
+  "channels_published": [
+   "Online Store",
+   "Point of Sale",
+   "Facebook & Instagram",
+   "Google & YouTube",
+   "Naira Headless",
+   "Lovable"
+  ],
+  "collections": [
+   "shop-all",
+   "bracelets",
+   "discount-scope-all"
+  ],
+  "size_guide": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clarte-baguette-bracelet-size-guide.jpg (the gold Clarté's card)"
+ },
+ {
+  "handle": "aquarelle-riviere-bracelet",
+  "title": "Aquarelle Rivière Bracelet",
+  "product_id": "gid://shopify/Product/10353413292194",
+  "pushed": "2026-10-28",
+  "change": "White and Pink options added to the live product; copy moved to four colours",
+  "status": "ACTIVE",
+  "price": "1299.00 (compare at 1800.00)",
+  "location": "gid://shopify/Location/76267389090 (Forest Colony Parijat Nagar)",
+  "variants": [
+   {
+    "sku": "ADT06-WH",
+    "option": "White",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": 7
+   },
+   {
+    "sku": "ADT06-PK",
+    "option": "Pink",
+    "available": 2,
+    "on_hand": 2,
+    "image_position": 10
+   }
+  ],
+  "media": [
+   {
+    "position": 7,
+    "key": "A7w_H",
+    "export": "exports/aquarelle-riviere-bracelet-08.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/c008c14c-24c2-4b63-84db-350a793a7d6b.jpg?v=1793177393",
+    "status": "READY"
+   },
+   {
+    "position": 8,
+    "key": "A7w_W2",
+    "export": "exports/aquarelle-riviere-bracelet-10.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/6a6a616f-c68d-4269-9fba-4ff8b3438d6e.jpg?v=1793177393",
+    "status": "READY"
+   },
+   {
+    "position": 9,
+    "key": "A7w_M",
+    "export": "exports/aquarelle-riviere-bracelet-11.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/e7e8f08f-0b86-44ba-a463-861e9f07a31e.jpg?v=1793177393",
+    "status": "READY"
+   },
+   {
+    "position": 10,
+    "key": "A7p_H",
+    "export": "exports/aquarelle-riviere-bracelet-12.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/224df4c0-7f44-4651-9e03-57432cc2669f.jpg?v=1793177392",
+    "status": "READY"
+   },
+   {
+    "position": 11,
+    "key": "A7p_W2",
+    "export": "exports/aquarelle-riviere-bracelet-14.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/b9098b73-182c-426c-b318-be8f2286b617.jpg?v=1793177393",
+    "status": "READY"
+   },
+   {
+    "position": 12,
+    "key": "A7p_M",
+    "export": "exports/aquarelle-riviere-bracelet-15.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/4a2d592e-0a08-4118-b51a-f1521f1d5059.jpg?v=1793177393",
+    "status": "READY"
+   }
+  ],
+  "channels_published": [
+   "Online Store",
+   "Point of Sale",
+   "Facebook & Instagram",
+   "Google & YouTube",
+   "Naira Headless",
+   "Lovable"
+  ],
+  "collections": [
+   "shop-all",
+   "bracelets",
+   "discount-scope-all"
+  ]
  }
 ]

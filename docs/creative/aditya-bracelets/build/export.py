@@ -2,14 +2,15 @@
 # Every frame gets a 1.5% inset crop first: some worn frames carry a thin white "paper edge" down the sides.
 # Heroes that were reshot export from their approved take: A5_H2 and A9_H2, and A6_Hc (A6_H2 with the royal-blue correction from colour.py).
 # The Bougainvillea photos export from the 25 Oct size fix (retouch.py): A8_Hs, A8_W1s, A8_W2s, A8_Ms, A9_Hs (made from
-# A9_H2), A9_W1s and A9_Ms.
+# A9_H2), A9_W1s and A9_Ms. Clarté Silver (A1s_*) is Higgsfield's edit of the gold Clarté photos with only the metal changed.
 # Usage: export.py [handle ...] (no handles: every product)
 import json, os, sys
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "../exports")
 SRC = {"A5_H": "A5_H2", "A6_H": "A6_Hc",
        "A8_H": "A8_Hs", "A8_W1": "A8_W1s", "A8_W2": "A8_W2s", "A8_M": "A8_Ms", "A9_H": "A9_Hs", "A9_W1": "A9_W1s", "A9_M": "A9_Ms"}
-MADE = {f"A8w_{s}" for s in ("H", "W1", "W2", "M")}   # Bougainvillea White: recolour_white.py writes these from the Fuchsia exports
+MADE = {f"{c}_{s}" for c in ("A8w", "A7w", "A7p") for s in ("H", "W1", "W2", "M")}   # recolour_white.py writes Bougainvillea White
+# (A8w) from the Fuchsia exports, recolour_aquarelle.py Aquarelle White (A7w) and Pink (A7p) from the Lavender ones
 INSET = 0.015
 def export(key, dst):
     im = Image.open(f"{H}/out/{SRC.get(key, key)}.png").convert("RGB"); w, h = im.size

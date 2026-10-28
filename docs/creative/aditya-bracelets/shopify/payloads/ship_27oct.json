@@ -1,0 +1,205 @@
+{
+ "aqId": "gid://shopify/Product/10353413292194",
+ "aqVariants": [
+  {
+   "optionValues": [
+    {
+     "optionName": "Colour",
+     "name": "White"
+    }
+   ],
+   "price": "1299.00",
+   "compareAtPrice": "1800.00",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "sku": "ADT06-WH",
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "availableQuantity": 2,
+     "locationId": "gid://shopify/Location/76267389090"
+    }
+   ],
+   "mediaSrc": [
+    "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c008c14c-24c2-4b63-84db-350a793a7d6b.jpg"
+   ]
+  },
+  {
+   "optionValues": [
+    {
+     "optionName": "Colour",
+     "name": "Pink"
+    }
+   ],
+   "price": "1299.00",
+   "compareAtPrice": "1800.00",
+   "inventoryPolicy": "DENY",
+   "inventoryItem": {
+    "sku": "ADT06-PK",
+    "tracked": true
+   },
+   "inventoryQuantities": [
+    {
+     "availableQuantity": 2,
+     "locationId": "gid://shopify/Location/76267389090"
+    }
+   ],
+   "mediaSrc": [
+    "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/224df4c0-7f44-4651-9e03-57432cc2669f.jpg"
+   ]
+  }
+ ],
+ "aqMedia": [
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/c008c14c-24c2-4b63-84db-350a793a7d6b.jpg",
+   "alt": "Aquarelle Rivière Bracelet, White — on a cream plaster block, the full piece",
+   "mediaContentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6a6a616f-c68d-4269-9fba-4ff8b3438d6e.jpg",
+   "alt": "Aquarelle Rivière Bracelet, White — worn on the wrist, close",
+   "mediaContentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/e7e8f08f-0b86-44ba-a463-861e9f07a31e.jpg",
+   "alt": "Aquarelle Rivière Bracelet, White — macro detail: small round clear stones in gold claw cups",
+   "mediaContentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/224df4c0-7f44-4651-9e03-57432cc2669f.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Pink — on a cream plaster block, the full piece",
+   "mediaContentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/b9098b73-182c-426c-b318-be8f2286b617.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Pink — worn on the wrist, close",
+   "mediaContentType": "IMAGE"
+  },
+  {
+   "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/4a2d592e-0a08-4118-b51a-f1521f1d5059.jpg",
+   "alt": "Aquarelle Rivière Bracelet, Pink — macro detail: small round pink stones in gold claw cups",
+   "mediaContentType": "IMAGE"
+  }
+ ],
+ "aqProduct": {
+  "id": "gid://shopify/Product/10353413292194",
+  "descriptionHtml": "<p>One fine line, in four colours. A fine tennis bracelet of small round brilliant cut cubic zirconia of about 3mm, each stone in its own gold four claw cup and linked straight into the next, closed with a slim fold over clasp. In bright Royal Blue, soft Lavender, rose Pink or clear White. Fine enough for every day, and easy to stack two together.</p><p><strong>STYLING TIP:</strong> Wear two colours together on one wrist: Royal Blue with White, or Pink with Lavender.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Round brilliant cut cubic zirconia, approximately 3mm each</li>\n<li>Colours: Royal Blue, Lavender, Pink or White</li>\n<li>Setting: Individual gold four claw cups linked directly to one another</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Polished gold tone</li>\n<li>Plating: PVD 18K gold coating, anti-tarnish</li>\n<li>PVD vs plating: Regular plating is a soft layer that wears off over time. PVD is bonded to the metal in a vacuum, so it is far harder, stands up to sweat and keeps its colour much longer.</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/aquarelle-riviere-bracelet-size-guide.jpg\" alt=\"Size guide — Aquarelle Rivière Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>"
+ },
+ "sv": {
+  "title": "Clarté Baguette Bracelet — Silver",
+  "handle": "clarte-baguette-bracelet-silver",
+  "status": "ACTIVE",
+  "vendor": "Naira Petite",
+  "productType": "Bracelet",
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+  "tags": [
+   "Aditya",
+   "Bracelet",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Naira Petite",
+   "Rhodium Silver Tone Plated",
+   "Tennis"
+  ],
+  "descriptionHtml": "<p>Clear light, cut in straight lines. A tennis bracelet of icy clear baguette cut cubic zirconia set crosswise, side by side like the rungs of a ladder, each stone held at its corners by fine silver tone claws. The line is about 6mm wide and closes with a slim silver tone fold over clasp, so it lies flat and catches the light from every side. Wear it alone with a white shirt, or beside a fine round line for evening.</p><p><strong>STYLING TIP:</strong> Stack it with a fine round tennis bracelet so the two cuts play off each other.</p><p><strong>Details</strong></p><ul>\n<li>Length: Approximately 17cm</li>\n<li>Stone: Baguette cut clear cubic zirconia, approximately 6mm by 3mm, set crosswise</li>\n<li>Width: Approximately 6mm</li>\n<li>Setting: Each stone held at its corners by fine silver tone claws, edge to edge</li>\n<li>Closure: Fold over clasp</li>\n<li>Finish: Bright silver tone</li>\n<li>Plating: PVD rhodium coating, anti-tarnish</li>\n<li>PVD vs plating: Regular plating is a soft layer that wears off over time. PVD is bonded to the metal in a vacuum, so it is far harder, stands up to sweat and keeps its colour much longer.</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clarte-baguette-bracelet-size-guide.jpg\" alt=\"Size guide — Clarté Baguette Bracelet — Silver\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+  "seo": {
+   "title": "Clarté Baguette Bracelet — Silver | Naira Petite",
+   "description": "A tennis bracelet of icy clear baguette cut cubic zirconia set crosswise, side by side like the rungs of a ladder, each stone held at its corners by fine silver tone claws. Clarté Baguette Bracelet — Silver by Naira Petite."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "sku": "ADT01-SV",
+    "price": "1299.00",
+    "compareAtPrice": "2500.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "inventoryQuantities": [
+     {
+      "locationId": "gid://shopify/Location/76267389090",
+      "name": "available",
+      "quantity": 2
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/92fa2e5a-26a8-4e29-8ca7-ab2360bc5ff8.jpg",
+    "alt": "Clarté Baguette Bracelet, Silver — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/9cdffef3-c21e-451e-b09c-849738516e03.jpg",
+    "alt": "Clarté Baguette Bracelet, Silver — worn on the model",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/30ce63df-4a94-4db7-aa77-c50eff783cf4.jpg",
+    "alt": "Clarté Baguette Bracelet, Silver — worn on the wrist, close",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/5f886e46-4f6e-4829-8b93-05c96a1bc509.jpg",
+    "alt": "Clarté Baguette Bracelet, Silver — macro detail: crosswise clear baguettes in fine silver tone claws",
+    "contentType": "IMAGE"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "mm-google-shopping",
+    "key": "google_product_category",
+    "type": "single_line_text_field",
+    "value": "Apparel & Accessories > Jewelry > Bracelets"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "gender",
+    "type": "single_line_text_field",
+    "value": "Female"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "age_group",
+    "type": "single_line_text_field",
+    "value": "Adult"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "mc-facebook",
+    "key": "google_product_category",
+    "type": "single_line_text_field",
+    "value": "191"
+   }
+  ]
+ },
+ "on": {
+  "autoPublish": true
+ },
+ "off": {
+  "autoPublish": false
+ }
+}
