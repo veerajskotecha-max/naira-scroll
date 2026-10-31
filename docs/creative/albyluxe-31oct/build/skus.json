@@ -117,7 +117,8 @@
   "wscale": "Worn, the pendant is about 18mm long in the hollow of the throat on a fine thread of chain, and each earring is about 18mm, about the height of the earlobe.",
   "place": "the necklace laid in a soft V on the top face with its bow and heart at the front, and the two earrings lying just beside it",
   "eplace": "both earrings lying side by side on the top face, the stones facing up",
-  "macro": "ONE bow and heart: the pave bow and the clear heart in its pave halo"
+  "macro": "ONE EARRING ONLY from the set, lying on its side: its pave bow with the clear heart-cut stone in its pave halo hanging below the knot. The necklace and the second earring are NOT in this picture",
+  "mhero": "A08_E"
  },
  "A09": {
   "name": "Trillion Fringe Necklace",
@@ -385,13 +386,13 @@
   "name": "Pastel Drop Bracelet",
   "kind": "bracelet",
   "metal": "gold",
-  "ref": "B07_hd",
-  "note": "it lies on white INSIDE a matching necklace, with two pink code labels: take ONLY the small inner bracelet (the one inside, labelled H00632-151); ignore the outer necklace and the labels.",
-  "lock": "A COLOURED DROP BRACELET: a fine gold cable chain with small faceted stones hanging along it at even spacing, each in its own thin gold bezel: oval and pear stones in pale green, lilac, pink, yellow and blue, the colours alternating; a lobster clasp with a short extender chain.",
-  "neg": "Small single drops only, about eight of them, evenly spaced, in mixed pastel colours; no clusters, no clear stones, no pearls; one fine chain.",
-  "scale": "Each drop is about 5mm; they hang about 2cm apart; the chain is fine; the bracelet is about 17cm long.",
+  "ref": "B13_hd",
+  "note": "it is a crop of the supplier photo: the bracelet lies on white with a pink code label in the middle and parts of a matching necklace at the edges: take ONLY the bracelet; ignore the label and the necklace at the edges.",
+  "lock": "A COLOURED STATION BRACELET with EXACTLY SEVEN small faceted stones, each in its own thin polished gold bezel, on a fine gold cable chain, ALTERNATING between stones set IN the chain and stones HANGING below it. In order from one end: a pale green ROUND stone set in the chain; a lilac CUSHION stone hanging as a drop; a yellow ROUND stone set in the chain; a pink PEAR stone hanging as a drop, point up; a blue ROUND stone set in the chain; a pale green OVAL stone hanging as a drop; a purple ROUND stone set in the chain. The stretch of chain on either side of the lobster clasp, about a third of the bracelet, is PLAIN chain with no stones at all; a short extender chain hangs from the clasp.",
+  "neg": "Exactly seven stones in total, four set in the chain and three hanging, never eight or more, never two drops side by side; the plain stretch by the clasp carries no stone; mixed pastel colours only, no clear stones, no pearls, no clusters; one fine chain.",
+  "scale": "Each stone is about 5mm, smaller than a fingernail; they sit about 2cm apart; the chain is fine; the bracelet is about 17cm long with the extender.",
   "wscale": "On the wrist the drops hang below a fine thread of chain, each smaller than a fingernail.",
   "place": "lying on the top face in a relaxed curve, the drops facing up",
-  "macro": "three of the coloured drops and the fine chain between them"
+  "macro": "three of the stones: a round stone set in the chain, the pink pear hanging below it and the next round stone, with the fine chain between them"
  }
 }

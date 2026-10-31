@@ -1,13 +1,13 @@
 # Builds the owner's review page (../review/): listings.json (names, prices, copy, flags) + frames.json (each listing's
 # approved photos, variant by variant) + ../cards (size cards) + the owner's screenshot crop for each piece (../refs).
-# Writes ../review/img/<handle>-NN.jpg (800x1000 for the photo strip and the zoom), ../review/img/<handle>-size.jpg,
+# Writes ../review/img/<handle>-NN.jpg (800x1000 for the photo strip and the zoom), ../review/img/<handle>-size.jpg, -book.jpg (the buy-book photo),
 # ../review/img/<handle>-src.jpg, and the page's data block in ../review/index.html.
 # Usage: python3 -I review.py
 import json, os, re, unicodedata
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(H, "../review"); IMG = os.path.join(R, "img"); os.makedirs(IMG, exist_ok=True)
 L = json.load(open(os.path.join(H, "listings.json"))); F = json.load(open(os.path.join(H, "frames.json")))
-NOT = json.load(open(os.path.join(H, "not_shot.json")))
+NOT = json.load(open(os.path.join(H, "not_shot.json"))); SK = json.load(open(os.path.join(H, "skus.json")))
 CHK = json.load(open(os.path.join(H, "checks.json"))) if os.path.exists(os.path.join(H, "checks.json")) else {}
 def handle(t):
     t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower(); return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
@@ -33,6 +33,10 @@ for x in L:
     if os.path.exists(card):
         dst = f"img/{h}-size.jpg"; save(card, os.path.join(R, dst), (1000, 1000), "contain")
         images.append({"src": dst, "alt": f"Size guide for {x['title']}", "label": "Size card", "kind": "size"})
+    hd = SK.get(x["id"], {}).get("ref", "")
+    if hd.endswith("_hd") and os.path.exists(os.path.join(H, "../refs", hd + ".jpg")):
+        dst = f"img/{h}-book.jpg"; save(os.path.join(H, "../refs", hd + ".jpg"), os.path.join(R, dst), (800, 800), "contain")
+        images.append({"src": dst, "alt": f"Buy book photo of {x['title']}", "label": "Buy book photo", "kind": "source"})
     ref = os.path.join(H, "../refs", f"{x['id']}_full.jpg")
     if os.path.exists(ref):
         dst = f"img/{h}-src.jpg"; save(ref, os.path.join(R, dst), (800, 800), "contain")
@@ -41,7 +45,8 @@ for x in L:
     variants = ([{"name": v, "sku": s, "units": x["units"]} for v, s in opt[1]] if opt else [{"name": "One style", "sku": x.get("sku", h.upper()[:3]), "units": x["units"]}])
     listings.append({"id": x["id"], "title": x["title"], "handle": h, "type": x["type"], "price": x["price"], "compare": x["compare"],
                      "margin": x.get("margin", ""), "cost": x.get("cost", "not given"), "variants": variants, "intro": x["intro"], "tip": x["tip"],
-                     "details": x["details"], "src": x["src"], "code": x["code"], "flags": x["flags"], "checks": CHK.get(x["id"], []), "images": images})
+                     "details": x["details"], "src": x["src"], "code": x["code"], "flags": x["flags"], "checks": CHK.get(x["id"], []), "book": x.get("book", ""),
+                     "images": images})
 meta = json.load(open(os.path.join(H, "review_meta.json")))
 data = {"listings": listings, "notes": meta["notes"], "how": meta["how"], "notshot": NOT}
 page = open(os.path.join(R, "index.html")).read()

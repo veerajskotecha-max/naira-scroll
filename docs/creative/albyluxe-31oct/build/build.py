@@ -1,7 +1,8 @@
 # Albyluxe and supplier-selection pieces, 31 Oct 2026: a copy of ../../aditya-jewellery/build/build.py (IMAGE 1 wording per piece in
 # skus.json "note"). Builds Nano Banana Pro listing requests in the live Naira listing recipe: plaster-cube packshot, two worn frames on
 # the saffron-camisole model plate, macro. Adds a rose-gold metal and a "set" kind (a necklace with matching earrings): H shows the set,
-# E the earrings alone, W1 both worn, W2 the earring close. Usage: build.py SKU:SHOT,SKU:SHOT,... start_index -> prints requests JSON.
+# E the earrings alone, W1 both worn, W2 the earring close. A spec's "mhero" names a different approved frame as the macro's IMAGE 2
+# (the set's macro is one earring, so it takes the earrings packshot). Usage: build.py SKU:SHOT,SKU:SHOT,... start_index -> prints requests JSON.
 import json, sys, os
 H = os.path.dirname(os.path.abspath(__file__))
 S = json.load(open(f"{H}/skus.json")); R = json.load(open(f"{H}/ref_ids.json")); A = json.load(open(f"{H}/approved.json"))
@@ -15,7 +16,8 @@ MODEL = ("THE PLATE: A young Indian woman, late twenties, warm mid-brown skin wi
          "Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.")
 LIP = "CROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture."
 END = ("No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: "
-       "the image fills the whole frame edge to edge.")
+       "the image fills the whole frame edge to edge. A clean modern digital photograph: no creases, no fold lines, no aged-paper texture, "
+       "no scratches, no film grain.")
 NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff", "bangle": "rigid bangle", "set": "set (the necklace and its pair of earrings)"}
 METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver": "bright rhodium silver tone, never grey or dull, never gold",
          "two-tone": "polished gold tone and bright silver tone exactly where IMAGE 1 shows them",
@@ -34,7 +36,7 @@ def refs(s, plate, hero=None):
     return ids + [PL[plate]], names, len(ids) + 1
 
 def prompt(k, shot):
-    s = S[k]; kind = s["kind"]; m = METAL[s["metal"]]; hero = A.get(f"{k}_H") if shot != "H" else None
+    s = S[k]; kind = s["kind"]; m = METAL[s["metal"]]; hero = A.get(s["mhero"] if shot == "M" and s.get("mhero") else f"{k}_H") if shot != "H" else None
     if shot in ("H", "E"):
         ids, rn, n = refs(s, "block")
         what = (f"ONE {NOUN.get(kind, kind)} only, {s['place']}" if shot == "H" else
@@ -53,7 +55,9 @@ def prompt(k, shot):
              f"razor-sharp on the stones and the metal edges, the rest falling softly out of focus.\n\n"
              f"THE PRODUCT: {rn} IMAGE {n} is the authority for the plaster, the background and the light only.\n\n"
              f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {s['scale']}\n\nLIGHT: {LIGHT}\n\n"
-             f"ABSENCE LIST: No hand, no ear, no model, no fabric, no props. No second piece of jewellery. Metal: {m}. {END}")
+             f"ABSENCE LIST: No hand, no ear, no model, no fabric, no props. No second piece of jewellery."
+             f"{' Only ONE earring is in this picture: its partner from the pair is NOT in frame, no second post, no second stone.' if kind in ('earring', 'set') else ''}"
+             f" Metal: {m}. {END}")
     else:
         if kind in ("bracelet", "bangle"):
             plate = "wrist"
@@ -88,7 +92,7 @@ def prompt(k, shot):
                   if shot == "W1" else
                   "SHOT: A tight beauty close-up of the ear and the jaw line, the camera brought close so every stone on the earring is countable. 4:5 vertical, full bleed.")
             crop = LIP + " Inside the frame: the ear, the jaw, the cheek below the nose, the neck, the collarbone and the shoulder. A cropped beauty detail, NOT a portrait."
-            where = "worn in the earlobe"
+            where = "worn in the earlobe: EXACTLY ONE earring in this ear, through a single piercing, never two earrings stacked on the same ear"
         else:
             plate = "ear34"
             sh = ("SHOT: A worn photograph, square to camera: the necklace at the base of the throat lying flat on the collarbones, centred. 4:5 vertical, full bleed."

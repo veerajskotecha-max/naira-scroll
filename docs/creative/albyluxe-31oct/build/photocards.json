@@ -1,0 +1,282 @@
+{
+ "_about": "Photo size cards for the earrings and the set (sizecards.py). crop = [x, y, width] in raw pixels of out/<src>.png; callouts in the same pixels: ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. The figures are the listing's (listings.json); the bars mark what each figure measures. A07 and B08 lie diagonally in their packshots, so their cards use the close worn frame, where the earring hangs straight.",
+ "A07": {
+  "src": "A07_W2",
+  "portrait": true,
+  "crop": [
+   420,
+   300,
+   500
+  ],
+  "callouts": [
+   [
+    "v",
+    414,
+    717,
+    720,
+    "25 mm",
+    "right"
+   ],
+   [
+    "h",
+    622,
+    690,
+    735,
+    "6 mm",
+    "below"
+   ]
+  ],
+  "line": "Drop about 25 mm · stones 4 × 6, 5 × 7 and 6 × 9 mm"
+ },
+ "A08": {
+  "src": "A08_E",
+  "crop": [
+   420,
+   790,
+   1100
+  ],
+  "callouts": [
+   [
+    "v",
+    950,
+    1465,
+    1380,
+    "18 mm",
+    "right"
+   ],
+   [
+    "h",
+    996,
+    1341,
+    935,
+    "10 mm"
+   ]
+  ],
+  "line": "Earrings 18 mm · bow 10 mm · heart 8 mm · chain length to confirm"
+ },
+ "A12": {
+  "src": "A12_H",
+  "crop": [
+   450,
+   760,
+   1000
+  ],
+  "callouts": [
+   [
+    "v",
+    808,
+    1399,
+    1310,
+    "19 mm",
+    "right"
+   ],
+   [
+    "h",
+    940,
+    1183,
+    1420,
+    "6 mm",
+    "below"
+   ]
+  ],
+  "line": "Drop about 19 mm · huggie 11 mm · heart 6 mm"
+ },
+ "A13": {
+  "src": "A13_H",
+  "crop": [
+   500,
+   760,
+   900
+  ],
+  "callouts": [
+   [
+    "v",
+    844,
+    1372,
+    1240,
+    "13 mm",
+    "right"
+   ],
+   [
+    "h",
+    1005,
+    1072,
+    830,
+    "2 mm"
+   ]
+  ],
+  "line": "Huggie about 13 mm · about 2 mm wide"
+ },
+ "A14": {
+  "src": "A14_H",
+  "crop": [
+   380,
+   690,
+   1150
+  ],
+  "callouts": [
+   [
+    "v",
+    823,
+    1473,
+    1360,
+    "18 mm",
+    "right"
+   ],
+   [
+    "h",
+    1003,
+    1257,
+    800,
+    "8 mm"
+   ],
+   [
+    "h",
+    499,
+    737,
+    1385,
+    "6 mm",
+    "below"
+   ]
+  ],
+  "line": "Drop about 18 mm · huggie 8 mm wide · stone 6 mm"
+ },
+ "A15": {
+  "src": "A15_H",
+  "crop": [
+   500,
+   870,
+   900
+  ],
+  "callouts": [
+   [
+    "h",
+    959,
+    1252,
+    985,
+    "11 mm"
+   ],
+   [
+    "v",
+    1011,
+    1305,
+    1280,
+    "11 mm",
+    "right"
+   ]
+  ],
+  "line": "Heart about 11 mm · stud fitting"
+ },
+ "B05": {
+  "src": "B05_H",
+  "crop": [
+   400,
+   760,
+   1000
+  ],
+  "callouts": [
+   [
+    "h",
+    941,
+    1356,
+    885,
+    "10 mm"
+   ],
+   [
+    "h",
+    619,
+    800,
+    850,
+    "5 mm"
+   ]
+  ],
+  "line": "Cluster about 10 mm · stones 5 mm · stud fitting"
+ },
+ "B06": {
+  "src": "B06_H_lilac",
+  "portrait": true,
+  "crop": [
+   315,
+   500,
+   1150
+  ],
+  "callouts": [
+   [
+    "v",
+    556,
+    1780,
+    1160,
+    "55 mm",
+    "right"
+   ]
+  ],
+  "line": "Drop about 55 mm · stud fitting"
+ },
+ "B08": {
+  "src": "B08_W2",
+  "portrait": true,
+  "crop": [
+   900,
+   300,
+   600
+  ],
+  "callouts": [
+   [
+    "v",
+    490,
+    838,
+    1105,
+    "30 mm",
+    "left"
+   ]
+  ],
+  "line": "Drop about 30 mm · stud fitting"
+ },
+ "B11": {
+  "src": "B11_H",
+  "crop": [
+   420,
+   680,
+   1100
+  ],
+  "callouts": [
+   [
+    "v",
+    730,
+    1433,
+    1340,
+    "15 mm",
+    "right"
+   ]
+  ],
+  "line": "Huggie about 15 mm tall · hinged snap"
+ },
+ "B12": {
+  "src": "B12_H",
+  "portrait": true,
+  "crop": [
+   450,
+   560,
+   1000
+  ],
+  "callouts": [
+   [
+    "v",
+    675,
+    1629,
+    1310,
+    "24 mm",
+    "right"
+   ],
+   [
+    "h",
+    597,
+    843,
+    1600,
+    "8 mm",
+    "below"
+   ]
+  ],
+  "line": "Drop about 24 mm · huggie 12 mm · pear 8 × 10 mm"
+ }
+}

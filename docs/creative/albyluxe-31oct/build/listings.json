@@ -222,7 +222,8 @@
   "flags": [],
   "units": 5,
   "book": "In the buy book: Round and Pear Drop Earrings, Order 4 · 8/10",
-  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)",
+  "sku": "CPDE"
  },
  {
   "id": "A08",
@@ -248,7 +249,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Bow and Heart Gift Set, Order 4 · 8/10",
-  "cost": "pay at most ₹550 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹550 (buy book, for a 60% margin)",
+  "sku": "BHGS"
  },
  {
   "id": "A09",
@@ -272,7 +274,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Stone Fringe Chain, Order 2 · 8/10",
-  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)",
+  "sku": "TFN"
  },
  {
   "id": "A10",
@@ -294,7 +297,8 @@
   "flags": [],
   "units": 5,
   "book": "In the buy book: Green Pear Solitaire Pendant, Next wave · 7/10",
-  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)",
+  "sku": "VPPN"
  },
  {
   "id": "A11",
@@ -319,7 +323,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Heart Bezel Tennis Bracelet, Order 4 · 8/10",
-  "cost": "pay at most ₹475 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)",
+  "sku": "HTB"
  },
  {
   "id": "A12",
@@ -342,7 +347,8 @@
   "flags": [],
   "units": 5,
   "book": "In the buy book: Heart Solitaire Drop Huggies, Order 4 · 8/10",
-  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)",
+  "sku": "HSH"
  },
  {
   "id": "A13",
@@ -367,7 +373,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Slim Pave Huggies, Order 4 · 8/10",
-  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)",
+  "sku": "SPH"
  },
  {
   "id": "A14",
@@ -392,7 +399,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Round Solitaire Drop Huggies, Restock 4 · 8/10",
-  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)",
+  "sku": "SBH"
  },
  {
   "id": "A15",
@@ -418,7 +426,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Pave Open Heart Studs, Order 3 · 7/10",
-  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)",
+  "sku": "POHS"
  },
  {
   "id": "A16",
@@ -442,7 +451,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "HPDN"
  },
  {
   "id": "B01",
@@ -466,7 +476,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Pave Heart Bar Bracelet, Ask first · 6/10",
-  "cost": "not quoted; the buy book asks first for a gold version"
+  "cost": "not quoted; the buy book asks first for a gold version",
+  "sku": "RHBB"
  },
  {
   "id": "B02",
@@ -490,7 +501,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Snake Chain with an Emerald-Cut Station, Order 2 · 8/10",
-  "cost": "pay at most ₹475 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)",
+  "sku": "ESSC"
  },
  {
   "id": "B03",
@@ -515,7 +527,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "CLSN"
  },
  {
   "id": "B04",
@@ -539,7 +552,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Pave Heart Pendant, Ask first · 6/10",
-  "cost": "not quoted; the buy book asks first for a gold version"
+  "cost": "not quoted; the buy book asks first for a gold version",
+  "sku": "RHP"
  },
  {
   "id": "B05",
@@ -565,7 +579,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "PTCS"
  },
  {
   "id": "B06",
@@ -576,11 +591,11 @@
   "price": 1099,
   "compare": 1999,
   "option": null,
-  "intro": "Four colours falling to the jaw. A small pink stud leads a fine gold tone chain set with a pink, a yellow and an aqua oval and a pale green pear, each in a slim bezel, about 55mm long.",
+  "intro": "Four colours falling to the jaw. A small lilac cushion stud leads a fine gold tone chain set with a pink, a yellow and an aqua oval and a pale green pear, each in a slim bezel, about 55mm long.",
   "tip": "Wear them with your hair up and a plain neckline.",
   "details": [
    "Drop: Approximately 55mm",
-   "Stones: Pink, yellow and aqua ovals and a green pear, in gold tone bezels",
+   "Stones: A lilac cushion at the stud, then pink, yellow and aqua ovals and a pale green pear, in gold tone bezels",
    "Fitting: Stud",
    "Sold as: One pair",
    "Metal: Gold tone"
@@ -590,7 +605,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "PLDE"
  },
  {
   "id": "B07",
@@ -609,11 +625,12 @@
    "Metal: Gold tone"
   ],
   "flags": [
-   "The matching bracelet (H00632-151) is in the same photo and is not listed."
+   "The matching bracelet (H00632-151) in the same photo is listed on its own, as the Pastel Drop Bracelet."
   ],
   "units": 5,
   "book": "In the buy book: Pastel Drop Necklace, Next wave · 7/10",
-  "cost": "pay at most ₹475 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)",
+  "sku": "PDN"
  },
  {
   "id": "B08",
@@ -638,7 +655,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "OCDE"
  },
  {
   "id": "B09",
@@ -662,7 +680,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "OCDR"
  },
  {
   "id": "B10",
@@ -686,7 +705,8 @@
   ],
   "units": 5,
   "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
-  "cost": "not given"
+  "cost": "not given",
+  "sku": "OCP"
  },
  {
   "id": "B11",
@@ -711,7 +731,8 @@
   ],
   "units": 5,
   "book": "In the buy book: Aqua Baguette Channel Huggies, Order 3 · 7/10",
-  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)",
+  "sku": "ACH"
  },
  {
   "id": "B12",
@@ -735,8 +756,9 @@
    "Metal: Gold tone"
   ],
   "flags": [
-   "The buy book says to confirm the shade: the stone reads teal green in its photo."
-  ]
+   "The buy book says to confirm the shade. The photos keep the supplier photo's teal green (the same hue, measured), a little deeper in tone."
+  ],
+  "sku": "VPDH"
  },
  {
   "id": "B13",
@@ -750,10 +772,10 @@
   "units": 5,
   "book": "In the buy book: Pastel Drop Bracelet, Order 3 · 7/10",
   "cost": "pay at most ₹475 (buy book, for a 60% margin)",
-  "intro": "Small drops of colour around the wrist. Oval and pear stones in green, lilac, pink, yellow and blue hang at even spacing from a fine gold tone cable chain, each in its own thin bezel.",
+  "intro": "Seven small stones of colour around the wrist. Round stones in green, yellow, blue and purple are set into a fine gold tone cable chain, and between them hang a lilac cushion, a pink pear and a green oval, each in its own thin bezel.",
   "tip": "Wear it with the Pastel Drop Necklace.",
   "details": [
-   "Drops: About eight coloured stones, approximately 5mm, in gold tone bezels",
+   "Stones: Seven, approximately 5mm, in gold tone bezels: four round stones set in the chain and three hanging between them",
    "Chain: Fine cable chain",
    "Length: Approximately 17cm with an extender (to confirm)",
    "Closure: Lobster clasp",
@@ -761,6 +783,7 @@
   ],
   "flags": [
    "Added because the buy book orders it and it is in your screenshot of the necklace; drop it if you did not buy it."
-  ]
+  ],
+  "sku": "PDB"
  }
 ]
