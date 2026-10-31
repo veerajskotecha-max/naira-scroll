@@ -13,8 +13,10 @@ NEW = {"A02": {"A02_W1"}, "B04": {"B04_H", "B04_W1", "B04_W2"},
        "A05": {"A05_H_sapphire", "A05_W1_sapphire", "A05_W2_sapphire", "A05_M_sapphire", "A05_W2", "A05_W2_citrine", "A05_W2_olive"},
        "B02": {"B02_H_side", "B02_W1_side", "B02_W2_side", "B02_M_side"}}
 HOW = ("The reshoots used the same Higgsfield recipe and model as the first round, with each piece's buy-book photo as the reference and a "
-       "rewritten construction lock that names what went wrong (claws not cups, a square huggie, a symmetric heart, a straight bar, stones end "
-       "to end, a clear teardrop). New packshots were checked against the buy book before their worn photos and macros were made from them. "
+       "rewritten construction lock that names what went wrong: claws not cups, a square huggie, a symmetric heart, a straight bar, stones end "
+       "to end, a teardrop hanging point up. New packshots were checked against the buy book before their worn photos and macros were made "
+       "from them. Where a photo was right except for one thing (B04's heart size, A16's chain and stone, a second earring at the edge of A15's "
+       "macro), the photo itself was edited with that one change, so nothing else moved. A02's worn photo was made from our packshot alone. "
        "The navy Sapphire and B02's pink and champagne side stones are recolours of the approved photos that change only those stones.")
 
 def handle(t):
