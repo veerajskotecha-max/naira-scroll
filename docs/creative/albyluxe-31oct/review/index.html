@@ -1,0 +1,305 @@
+<title>Albyluxe Listing Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Layout: a buyer's proof sheet. One cream page, a sticky tally bar, one card per new listing:
+   the photo strip first (what goes on the site), the price and stock line, then the copy and the call. */
+:root {
+  --bg: #FFF8F5;            /* Naira cream */
+  --surface: #FFFFFF;
+  --ink: #1A1614;
+  --ink-2: #625C57;
+  --ink-3: #8C857F;
+  --sage: #99B4AF;
+  --sage-ink: #4F6F69;
+  --sage-soft: #EAF1EF;
+  --blush: #FFBDA8;
+  --blush-soft: #FFEDE6;
+  --line: rgba(153, 180, 175, 0.45);
+  --ok: #3E7A5C;
+  --ok-soft: #E3F1E9;
+  --warn: #9A5B12;
+  --warn-soft: #FBF0E1;
+  --hold: #A3402F;
+  --hold-soft: #F8E6E2;
+  --chip-ink-bg: #1A1614;
+  --chip-ink-fg: #FFF8F5;
+  --shadow: 0 1px 2px rgba(26, 22, 20, 0.05);
+  --display: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+  --text: "Jost", "Futura", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161311; --surface: #201C19; --ink: #F3EBE5; --ink-2: #BDB3AC; --ink-3: #8E857F;
+    --sage: #8DAEA8; --sage-ink: #A8C6C0; --sage-soft: #23302D; --blush: #E7A28D; --blush-soft: #3A2823;
+    --line: rgba(141, 174, 168, 0.26); --ok: #7FC4A1; --ok-soft: #1E3328; --warn: #E2AC66; --warn-soft: #3A2C19;
+    --hold: #EE8E7D; --hold-soft: #3C221D; --chip-ink-bg: #F3EBE5; --chip-ink-fg: #161311; --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161311; --surface: #201C19; --ink: #F3EBE5; --ink-2: #BDB3AC; --ink-3: #8E857F;
+  --sage: #8DAEA8; --sage-ink: #A8C6C0; --sage-soft: #23302D; --blush: #E7A28D; --blush-soft: #3A2823;
+  --line: rgba(141, 174, 168, 0.26); --ok: #7FC4A1; --ok-soft: #1E3328; --warn: #E2AC66; --warn-soft: #3A2C19;
+  --hold: #EE8E7D; --hold-soft: #3C221D; --chip-ink-bg: #F3EBE5; --chip-ink-fg: #161311; --shadow: none; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--text); font-weight: 300; font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+:focus-visible { outline: 2px solid var(--sage-ink); outline-offset: 2px; border-radius: 4px; }
+a { color: inherit; }
+
+.eyebrow { font-size: 11px; letter-spacing: 0.42em; text-transform: uppercase; color: var(--sage-ink); font-weight: 400; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(34px, 5vw, 50px); line-height: 1.02; margin: 10px 0 8px; text-wrap: balance; }
+.dek { font-family: var(--display); font-style: italic; font-size: clamp(18px, 2.2vw, 21px); line-height: 1.35; color: var(--ink-2); max-width: 46em; margin: 0; }
+.facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 22px 0 4px; }
+.fact { border-top: 1px solid var(--sage); padding-top: 10px; }
+.fact b { display: block; font-family: var(--display); font-weight: 600; font-size: 30px; line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
+.fact span { display: block; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-2); margin-top: 6px; line-height: 1.4; }
+ul.notes { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 8px; max-width: 64em; }
+ul.notes li { padding-left: 16px; position: relative; color: var(--ink-2); }
+ul.notes li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 7px; height: 1px; background: var(--sage-ink); }
+ul.notes b { font-weight: 500; color: var(--ink); }
+
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin: 24px 0 18px; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.group { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { appearance: none; font: inherit; font-size: 12.5px; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; cursor: pointer; line-height: 1.2; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip .n { color: var(--ink-3); margin-left: 4px; font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: 0.7; }
+.tally { margin-left: auto; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.tally b { color: var(--ink); font-weight: 500; }
+.sync { font-size: 12px; color: var(--ink-3); }
+
+.list { display: grid; gap: 22px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; min-width: 0; }
+.card[data-d="approve"] { border-color: var(--ok); }
+.card[data-d="change"] { border-color: var(--warn); }
+.card[data-d="hold"] { border-color: var(--hold); }
+.strip { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(150px, 1fr); gap: 2px; overflow-x: auto; scroll-snap-type: x mandatory; background: var(--line); }
+.strip figure { margin: 0; scroll-snap-align: start; background: var(--surface); position: relative; min-width: 0; }
+.strip img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; max-width: 100%; cursor: zoom-in; background: var(--sage-soft); }
+.strip figcaption { position: absolute; left: 6px; bottom: 6px; font-size: 10.5px; letter-spacing: 0.08em; padding: 2px 7px; border-radius: 999px; background: rgba(255, 248, 245, 0.88); color: #1A1614; }
+.strip figure.src img { object-fit: contain; background: #111; }
+.strip figure.card-size img { object-fit: contain; }
+.body { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 18px 28px; padding: 18px 20px 20px; }
+.head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+.name { font-family: var(--display); font-weight: 600; font-size: 26px; line-height: 1.1; margin: 0; text-wrap: balance; }
+.kind { font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--sage-ink); font-weight: 500; }
+.price { font-size: 15px; font-variant-numeric: tabular-nums; margin-top: 6px; }
+.price b { font-weight: 500; }
+.price s { color: var(--ink-3); margin-left: 6px; }
+.price .m { color: var(--ink-2); margin-left: 10px; font-size: 13px; }
+.vars { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.var { font-size: 12px; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.var b { color: var(--ink); font-weight: 500; }
+.intro { margin: 12px 0 0; max-width: 62ch; }
+.tip { margin: 8px 0 0; color: var(--ink-2); font-size: 14px; }
+.tip b { font-weight: 500; color: var(--ink); letter-spacing: 0.06em; font-size: 12px; }
+details { margin-top: 10px; }
+summary { cursor: pointer; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage-ink); font-weight: 500; }
+details ul { margin: 8px 0 0; padding-left: 18px; font-size: 14px; color: var(--ink-2); }
+.meta { font-size: 12.5px; color: var(--ink-3); margin-top: 10px; line-height: 1.5; }
+.flags { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.flags li { font-size: 13px; line-height: 1.45; color: var(--warn); background: var(--warn-soft); border-radius: 8px; padding: 7px 10px; }
+.checks { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; font-size: 12.5px; color: var(--ink-2); }
+.checks li::before { content: "✓ "; color: var(--ok); }
+.decide { display: grid; gap: 10px; align-content: start; }
+.btns { display: flex; flex-wrap: wrap; gap: 6px; }
+.btn { appearance: none; font: inherit; font-size: 13px; font-weight: 500; border-radius: 8px; padding: 8px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.btn[data-v="approve"][aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: var(--chip-ink-fg); }
+.btn[data-v="change"][aria-pressed="true"] { background: var(--warn); border-color: var(--warn); color: var(--chip-ink-fg); }
+.btn[data-v="hold"][aria-pressed="true"] { background: var(--hold); border-color: var(--hold); color: var(--chip-ink-fg); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+label.f { display: grid; gap: 4px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); }
+input, textarea { font: inherit; font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-width: 0; width: 100%; letter-spacing: 0; text-transform: none; }
+textarea { min-height: 64px; resize: vertical; }
+.saved { font-size: 12px; color: var(--ink-3); min-height: 1.2em; }
+.empty { padding: 28px; border: 1px dashed var(--line); border-radius: 12px; color: var(--ink-2); text-align: center; }
+
+.lb { position: fixed; inset: 0; z-index: 20; background: rgba(20, 16, 14, 0.92); display: flex; align-items: center; justify-content: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.lb img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 6px; }
+.lb button { position: absolute; top: calc(12px + env(safe-area-inset-top, 0px)); right: calc(12px + env(safe-area-inset-right, 0px)); appearance: none; border: 0; border-radius: 999px; padding: 8px 14px; font: inherit; font-size: 13px; background: #FFF8F5; color: #1A1614; cursor: pointer; }
+
+.foot { margin-top: 44px; border-top: 1px solid var(--sage); padding-top: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; font-size: 13.5px; color: var(--ink-2); }
+.foot h4 { font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink); font-weight: 500; margin: 0 0 8px; }
+.foot p { margin: 0 0 8px; }
+
+@media (max-width: 760px) {
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .body { grid-template-columns: minmax(0, 1fr); padding: 14px 14px 16px; }
+  .strip { grid-auto-columns: 62%; }
+  .tally { margin-left: 0; flex: 1 1 100%; }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: no-preference) { .card { transition: border-color 0.2s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Naira Petite · New listings · 31 October 2026</div>
+    <h1>Albyluxe and supplier picks, ready for your yes</h1>
+    <p class="dek" id="dek">Every piece from the screenshots you sent, with its listing photos, size card, price, stock and copy. Nothing goes to Shopify until you approve it here and say ship.</p>
+    <div class="facts" id="facts"></div>
+    <ul class="notes" id="notes"></ul>
+  </header>
+
+  <div class="bar" role="toolbar" aria-label="Filter the listings">
+    <div class="group" id="f-type"></div>
+    <div class="group" id="f-dec"></div>
+    <div class="tally" id="tally" aria-live="polite"></div>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer class="foot">
+    <div>
+      <h4>How the photos were made</h4>
+      <p id="how"></p>
+    </div>
+    <div>
+      <h4>What happens next</h4>
+      <p>Tap Approve, Change or Hold on each piece. Change and Hold take a note. Price and stock can be edited before you approve. Your choices are saved on this page; nothing reaches the store until you write "ship" in the chat.</p>
+      <p>Approved pieces go up in one Shopify mutation: active on all six sales channels, with their photos, size card, stock and copy.</p>
+    </div>
+  </footer>
+</div>
+
+<script id="data" type="application/json">{"listings": []}</script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const L = D.listings || [];
+  const state = { type: "All", dec: "All", decisions: {}, db: null, canWrite: false };
+  const $ = (s, r = document) => r.querySelector(s);
+  const el = (t, a = {}, kids = []) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === "text") e.textContent = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v); } for (const k of [].concat(kids)) if (k) e.append(k); return e; };
+  const rs = n => "₹" + Number(n).toLocaleString("en-IN");
+  const TYPES = ["All", "Ring", "Earrings", "Necklace", "Bracelet", "Set"];
+  const DECS = [["All", "All"], ["none", "Waiting"], ["approve", "Approved"], ["change", "Change"], ["hold", "Hold"]];
+
+  // header facts
+  const units = L.reduce((a, x) => a + x.variants.reduce((b, v) => b + v.units, 0), 0);
+  const photos = L.reduce((a, x) => a + x.images.filter(i => i.kind !== "source").length, 0);
+  [[L.length, "new listings"], [L.reduce((a, x) => a + x.variants.length, 0), "variants"], [photos, "photos, size cards included"], [units, "units proposed"]]
+    .forEach(([n, t]) => $("#facts").append(el("div", { class: "fact" }, [el("b", { text: String(n) }), el("span", { text: t })])));
+  (D.notes || []).forEach(n => { const li = el("li"); li.innerHTML = n; $("#notes").append(li); });
+  $("#how").textContent = D.how || "";
+
+  function decOf(id) { return (state.decisions[id] || {}).decision || "none"; }
+  function renderFilters() {
+    const ft = $("#f-type"); ft.textContent = "";
+    TYPES.forEach(t => { const n = t === "All" ? L.length : L.filter(x => x.type === t).length; if (!n) return;
+      ft.append(el("button", { class: "chip", "aria-pressed": String(state.type === t), onclick: () => { state.type = t; render(); } }, [t, el("span", { class: "n", text: String(n) })])); });
+    const fd = $("#f-dec"); fd.textContent = "";
+    DECS.forEach(([k, t]) => { const n = k === "All" ? L.length : L.filter(x => decOf(x.id) === k).length;
+      fd.append(el("button", { class: "chip", "aria-pressed": String(state.dec === k), onclick: () => { state.dec = k; render(); } }, [t, el("span", { class: "n", text: String(n) })])); });
+    const a = L.filter(x => decOf(x.id) === "approve").length, c = L.filter(x => decOf(x.id) === "change").length, h = L.filter(x => decOf(x.id) === "hold").length;
+    $("#tally").innerHTML = `<b>${a}</b> approved · <b>${c}</b> to change · <b>${h}</b> on hold · <b>${L.length - a - c - h}</b> waiting <span class="sync" id="sync">${state.db ? "" : "· choices are not saving yet"}</span>`;
+  }
+
+  function lightbox(src, alt) {
+    const box = el("div", { class: "lb", role: "dialog", "aria-modal": "true", "aria-label": alt || "Photo" });
+    const close = () => { box.remove(); document.removeEventListener("keydown", esc); };
+    const esc = e => { if (e.key === "Escape") close(); };
+    box.append(el("img", { src, alt: alt || "" }), el("button", { onclick: close, text: "Close" }));
+    box.addEventListener("click", e => { if (e.target === box) close(); });
+    document.addEventListener("keydown", esc); document.body.append(box); $("button", box).focus();
+  }
+
+  function card(x) {
+    const d = state.decisions[x.id] || {};
+    const c = el("article", { class: "card", id: "p-" + x.id, "data-d": decOf(x.id) });
+    const strip = el("div", { class: "strip" });
+    x.images.forEach(im => {
+      const f = el("figure", { class: im.kind === "source" ? "src" : im.kind === "size" ? "card-size" : "" });
+      const img = el("img", { src: im.src, alt: im.alt, loading: "lazy", width: "320", height: "400" });
+      img.addEventListener("click", () => lightbox(im.full || im.src, im.alt));
+      f.append(img, el("figcaption", { text: im.label })); strip.append(f);
+    });
+    c.append(strip);
+    const left = el("div", { style: "min-width:0" });
+    left.append(el("div", { class: "head" }, [el("h2", { class: "name", text: x.title }), el("span", { class: "kind", text: x.type })]));
+    const p = el("div", { class: "price" }); p.innerHTML = `<b>${rs(d.price || x.price)}</b><s>${rs(x.compare)}</s><span class="m">${x.margin || ""}</span>`; left.append(p);
+    const vs = el("div", { class: "vars" });
+    x.variants.forEach(v => { const s = el("span", { class: "var" }); s.innerHTML = `<b>${v.name}</b> · ${v.sku} · ${v.units} units`; vs.append(s); });
+    left.append(vs);
+    left.append(el("p", { class: "intro", text: x.intro }));
+    const tip = el("p", { class: "tip" }); tip.append(el("b", { text: "STYLING TIP " }), x.tip); left.append(tip);
+    const det = el("details"); det.append(el("summary", { text: "Details on the listing" }), el("ul", {}, x.details.map(t => el("li", { text: t })))); left.append(det);
+    left.append(el("div", { class: "meta", text: `From: ${x.src} · Supplier code: ${x.code} · Cost: ${x.cost}` }));
+    if (x.checks && x.checks.length) left.append(el("ul", { class: "checks" }, x.checks.map(t => el("li", { text: t }))));
+
+    const right = el("div", { class: "decide" });
+    if (x.flags && x.flags.length) right.append(el("ul", { class: "flags" }, x.flags.map(t => el("li", { text: t }))));
+    const btns = el("div", { class: "btns", role: "group", "aria-label": "Decision for " + x.title });
+    [["approve", "Approve"], ["change", "Change"], ["hold", "Hold"]].forEach(([v, t]) =>
+      btns.append(el("button", { class: "btn", "data-v": v, "aria-pressed": String(decOf(x.id) === v), onclick: () => save(x, { decision: decOf(x.id) === v ? "none" : v }) }, [t])));
+    right.append(btns);
+    const fields = el("div", { class: "fields" });
+    const pi = el("input", { id: "price-" + x.id, type: "number", inputmode: "numeric", min: "0", step: "1", value: String(d.price || x.price) });
+    const ui = el("input", { id: "units-" + x.id, type: "number", inputmode: "numeric", min: "0", step: "1", value: String(d.units ?? x.variants[0].units) });
+    pi.addEventListener("change", () => save(x, { price: Number(pi.value) || x.price }));
+    ui.addEventListener("change", () => save(x, { units: Number(ui.value) }));
+    fields.append(el("label", { class: "f", for: "price-" + x.id }, ["Price, ₹", pi]), el("label", { class: "f", for: "units-" + x.id }, ["Units per variant", ui]));
+    right.append(fields);
+    const ta = el("textarea", { id: "note-" + x.id, placeholder: "What should change? (optional)" }); ta.value = d.note || "";
+    ta.addEventListener("change", () => save(x, { note: ta.value.trim() }));
+    right.append(el("label", { class: "f", for: "note-" + x.id }, ["Note", ta]));
+    right.append(el("div", { class: "saved", id: "saved-" + x.id, text: d.at ? "Saved " + new Date(d.at).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "" }));
+    if (!state.canWrite) right.querySelectorAll("button, input, textarea").forEach(b => b.disabled = !state.db);
+    c.append(el("div", { class: "body" }, [left, right]));
+    return c;
+  }
+
+  // Never rebuild the cards under someone's typing: a snapshot that lands while a field has focus waits for blur.
+  let deferred = false;
+  document.addEventListener("focusout", () => { if (deferred) setTimeout(() => { if (!typing()) { deferred = false; render(); } }, 0); });
+  const typing = () => { const a = document.activeElement; return !!(a && (a.tagName === "TEXTAREA" || a.tagName === "INPUT") && $("#list").contains(a)); };
+  function render() {
+    if (typing()) { deferred = true; renderFilters(); return; }
+    renderFilters();
+    const list = $("#list"); list.textContent = "";
+    const rows = L.filter(x => (state.type === "All" || x.type === state.type) && (state.dec === "All" || decOf(x.id) === state.dec));
+    if (!rows.length) { list.append(el("div", { class: "empty", text: "No pieces match these filters." })); return; }
+    rows.forEach(x => list.append(card(x)));
+  }
+
+  const pending = {};
+  async function save(x, patch) {
+    const cur = Object.assign({}, state.decisions[x.id] || {}, patch, { at: Date.now() });
+    state.decisions[x.id] = cur; render();
+    if (!state.db) return;
+    if (pending[x.id]) { pending[x.id].next = cur; return; }
+    pending[x.id] = { next: null };
+    try {
+      let v = cur;
+      while (v) { await state.db.doc("decisions/" + x.id).set(v); v = pending[x.id].next; pending[x.id].next = null; }
+      const s = document.getElementById("saved-" + x.id); if (s) s.textContent = "Saved";
+    } catch (e) {
+      const s = document.getElementById("saved-" + x.id); if (s) s.textContent = "Not saved: " + (e && e.message ? e.message : "try again");
+    } finally { delete pending[x.id]; }
+  }
+
+  render();
+  (async () => {
+    if (!window.claude || !window.claude.use) return;
+    let db = null;
+    try { db = await window.claude.use("db"); } catch (e) { db = null; }
+    if (!db) return;
+    state.db = db; state.canWrite = true;
+    let t = setTimeout(() => { const s = document.getElementById("sync"); if (s) s.textContent = "· could not load saved choices"; }, 10000);
+    try {
+      db.collection("decisions").onSnapshot(snap => {
+        clearTimeout(t);
+        const next = {};
+        (snap.docs || snap).forEach(doc => { const id = doc.id || (doc.ref && doc.ref.id); const data = typeof doc.data === "function" ? doc.data() : doc.data; if (id) next[id] = data; });
+        state.decisions = Object.assign({}, next);
+        render();
+      }, () => { clearTimeout(t); const s = document.getElementById("sync"); if (s) s.textContent = "· could not load saved choices"; });
+    } catch (e) { clearTimeout(t); render(); }
+  })();
+})();
+</script>

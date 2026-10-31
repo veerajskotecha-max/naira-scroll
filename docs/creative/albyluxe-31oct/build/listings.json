@@ -1,0 +1,662 @@
+[
+ {
+  "id": "A01",
+  "title": "Quintet Stack Ring",
+  "type": "Ring",
+  "src": "#1 albyluxe.com product page",
+  "code": "Albyluxe, no code on the page",
+  "price": 1499,
+  "compare": 2999,
+  "option": [
+   "Size",
+   [
+    [
+     "6",
+     "QSR-6"
+    ],
+    [
+     "7",
+     "QSR-7"
+    ],
+    [
+     "8",
+     "QSR-8"
+    ]
+   ]
+  ],
+  "intro": "Five rings, worn as one. A plain silver tone band, two slim gold tone bands, a wide band of upright baguette cut cubic zirconia and a band of small round stones are stacked and held together by one polished gold tone loop, so the stack always sits in the same order. About 14mm tall on the finger.",
+  "tip": "Wear it alone on the index or middle finger; it does the work of a full stack.",
+  "details": [
+   "Stack: Five bands linked by a gold tone loop, approximately 14mm tall",
+   "Bands: A plain silver tone band, two slim gold tone bands, a baguette channel band and a round-stone band",
+   "Stones: Baguette and round cut clear cubic zirconia",
+   "Size: Closed bands, sizes 6, 7 and 8 (to confirm with Albyluxe)",
+   "Metal: Gold tone and silver tone"
+  ],
+  "flags": [
+   "Closed bands: ask Albyluxe which sizes they stock; the listing assumes 6, 7 and 8."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A02",
+  "title": "Heart Duet Open Ring",
+  "type": "Ring",
+  "src": "#2 worn, #3 AL-058 (re-rated 8)",
+  "code": "AL-058",
+  "price": 999,
+  "compare": 1899,
+  "option": [
+   "Stone",
+   [
+    [
+     "Crystal",
+     "HDR-CZ"
+    ],
+    [
+     "Pearl",
+     "HDR-PL"
+    ]
+   ]
+  ],
+  "intro": "Two hearts, one of gold and one of light. A slim open band of polished gold tone ends in a puffed gold heart on one side and, on the other, a heart cut clear cubic zirconia in fine claws, or a round white shell pearl. The open back adjusts to fit US 5 to 9.",
+  "tip": "Wear it on the index finger with the two hearts turned towards you.",
+  "details": [
+   "Hearts: Puffed gold tone heart, approximately 7mm",
+   "Second motif: Heart cut clear cubic zirconia, approximately 6mm, or a round shell pearl, approximately 6mm",
+   "Pearl: Shell pearl, provenance not stated by the supplier",
+   "Band: Slim open band, approximately 1.5mm",
+   "Size: Open, adjusts to fit US 5 to 9",
+   "Metal: Polished gold tone"
+  ],
+  "flags": [],
+  "units": 5
+ },
+ {
+  "id": "A04",
+  "title": "Duet Emerald-Cut Ring",
+  "type": "Ring",
+  "src": "#4 (green and pink), #19 worn (clear)",
+  "code": "Albyluxe, no code on the photo",
+  "price": 999,
+  "compare": 1899,
+  "option": [
+   "Colour",
+   [
+    [
+     "Green",
+     "DER-GR"
+    ],
+    [
+     "Pink",
+     "DER-PK"
+    ],
+    [
+     "Clear",
+     "DER-CL"
+    ]
+   ]
+  ],
+  "intro": "A pear and a rectangle, side by side. This open ring sets a clear pear cut cubic zirconia beside an emerald cut stone in green, pink or clear, each in slim gold tone claws, in the toi et moi form. The open back adjusts to fit US 5 to 9.",
+  "tip": "The green with a white shirt; the pink with blush and nude.",
+  "details": [
+   "Stones: A clear pear cut cubic zirconia and an emerald cut cubic zirconia, each approximately 5 x 7mm",
+   "Colours: Green, Pink or Clear",
+   "Band: Slim open band, approximately 1.5mm",
+   "Size: Open, adjusts to fit US 5 to 9",
+   "Metal: Polished gold tone"
+  ],
+  "flags": [
+   "Clear is read from the worn photo (#19, arrow); confirm Albyluxe makes it."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A05",
+  "title": "Oval Duet Ring",
+  "type": "Ring",
+  "src": "#5",
+  "code": "Albyluxe, no code on the photo",
+  "price": 999,
+  "compare": 1899,
+  "option": [
+   "Colour",
+   [
+    [
+     "Emerald Green",
+     "ODR-EM"
+    ],
+    [
+     "Sapphire Blue",
+     "ODR-SA"
+    ],
+    [
+     "Citrine Yellow",
+     "ODR-CI"
+    ],
+    [
+     "Olive Green",
+     "ODR-OL"
+    ]
+   ]
+  ],
+  "intro": "An oval of colour with a small pear beside it. A slim polished gold tone band carries an oval cut cubic zirconia in four claws, with a small clear pear cut stone set at a slant beside it. In emerald green, sapphire blue, citrine yellow or olive green.",
+  "tip": "Stack two colours on one finger, or give one as a birthstone ring.",
+  "details": [
+   "Stones: An oval cut coloured cubic zirconia, approximately 5 x 7mm, and a clear pear cut cubic zirconia, approximately 3 x 4mm",
+   "Colours: Emerald Green, Sapphire Blue, Citrine Yellow or Olive Green",
+   "Band: Closed, approximately 2mm",
+   "Size: To confirm with Albyluxe",
+   "Metal: Polished gold tone"
+  ],
+  "flags": [
+   "Closed band: sizes to confirm with Albyluxe."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A06",
+  "title": "Marquise Charm Band",
+  "type": "Ring",
+  "src": "#6 AL-068 (re-rated 7, same as AL-067)",
+  "code": "AL-068 / AL-067",
+  "price": 1099,
+  "compare": 2100,
+  "option": [
+   "Finish",
+   [
+    [
+     "Gold",
+     "MCB-G"
+    ],
+    [
+     "Two-Tone",
+     "MCB-TT"
+    ]
+   ]
+  ],
+  "intro": "A band with something that moves. Two slim bands are joined as one ring, one polished and one set with a fine line of clear cubic zirconia, and a small marquise cut stone hangs from the front on a tiny bail, swinging as your hand moves. In all gold tone, or with the pave band in silver tone.",
+  "tip": "Wear it alone; the charm needs room to move.",
+  "details": [
+   "Band: Two joined bands, approximately 3.5mm together",
+   "Charm: Marquise cut clear cubic zirconia, approximately 4 x 8mm",
+   "Stones: A fine line of clear cubic zirconia",
+   "Size: Closed band, sizes to confirm with Albyluxe",
+   "Finish: Gold tone, or gold tone and silver tone"
+  ],
+  "flags": [
+   "Rated 7, not 8.",
+   "Closed band: sizes to confirm with Albyluxe."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A07",
+  "title": "Cascade Pear Drop Earrings",
+  "type": "Earrings",
+  "src": "#7, AL-423",
+  "code": "AL-423",
+  "price": 999,
+  "compare": 1899,
+  "option": null,
+  "intro": "Three pears, falling in a line. Each earring hangs three pear cut clear cubic zirconia one below the other, each in a slim gold tone collet, growing from a small stone on the lobe to the largest at the end. About 25mm long.",
+  "tip": "For evenings, with your hair worn up.",
+  "details": [
+   "Drop: Approximately 25mm",
+   "Stones: Three pear cut clear cubic zirconia per earring, approximately 4 x 6mm, 5 x 7mm and 6 x 9mm",
+   "Setting: Slim gold tone collets",
+   "Fitting: Stud",
+   "Sold as: One pair",
+   "Material: Stainless steel, as on the supplier's card"
+  ],
+  "flags": [],
+  "units": 5
+ },
+ {
+  "id": "A08",
+  "title": "Bow and Heart Gift Set",
+  "type": "Set",
+  "src": "#8, AL-455",
+  "code": "AL-455",
+  "price": 1499,
+  "compare": 2800,
+  "option": null,
+  "intro": "A bow, and a heart beneath it. The pendant and the two earrings each carry a bow set with small clear cubic zirconia, with a heart cut stone in a fine pave halo hanging below the knot. The pendant hangs on a fine gold tone cable chain, and the set comes boxed, ready to give.",
+  "tip": "Give the set; wear the earrings alone on the days after.",
+  "details": [
+   "Set: A pendant necklace and one pair of drop earrings",
+   "Bow: Approximately 10mm wide, set with clear cubic zirconia",
+   "Heart: Heart cut clear cubic zirconia, approximately 8mm, in a pave halo",
+   "Earrings: Approximately 18mm long, stud fitting",
+   "Chain: Fine cable chain, length to confirm",
+   "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
+  ],
+  "flags": [
+   "The supplier's photo is labelled 316L PVD; the copy says so but makes no waterproof or tarnish claim. Confirm before it goes live."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A09",
+  "title": "Trillion Fringe Necklace",
+  "type": "Necklace",
+  "src": "#9 albyluxe.com",
+  "code": "Albyluxe, no code on the page",
+  "price": 1199,
+  "compare": 2299,
+  "option": null,
+  "intro": "Seven small triangles along a chain. Seven trillion cut clear cubic zirconia, each in a thin gold tone bezel, hang at even spacing across the front of a fine twisted chain, so the line catches the light as you turn.",
+  "tip": "Wear it alone at the collarbone with an open neckline.",
+  "details": [
+   "Drops: Seven trillion cut clear cubic zirconia, approximately 5mm each",
+   "Chain: Fine twisted chain",
+   "Length: Approximately 40cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "Close to the AL-322 Stone Fringe Chain on the buy list; this one has seven trillion drops."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A10",
+  "title": "Verdant Pear Pendant Necklace",
+  "type": "Necklace",
+  "src": "#10 albyluxe.com",
+  "code": "Albyluxe, no code on the page",
+  "price": 999,
+  "compare": 1999,
+  "option": null,
+  "intro": "One green drop. A pear cut cubic zirconia in deep emerald green, about 9 x 13mm, sits point up in slim gold tone claws and hangs from a fine gold tone cable chain.",
+  "tip": "Pair it with the Verdant Cushion Studs.",
+  "details": [
+   "Stone: Pear cut green cubic zirconia, approximately 9 x 13mm",
+   "Setting: Slim gold tone claws",
+   "Chain: Fine cable chain, approximately 45cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "flags": [],
+  "units": 5
+ },
+ {
+  "id": "A11",
+  "title": "Heartline Tennis Bracelet",
+  "type": "Bracelet",
+  "src": "#11 (Every SKU Rated, 49 of 87), AL-628",
+  "code": "AL-628",
+  "price": 1299,
+  "compare": 2500,
+  "option": null,
+  "intro": "A line of small hearts. Heart cut clear cubic zirconia, each about 5mm and each in its own polished gold tone bezel, are linked edge to edge all the way round the wrist, every heart pointing the same way.",
+  "tip": "Wear it with the Heartline Paperclip Necklace.",
+  "details": [
+   "Stones: Heart cut clear cubic zirconia, approximately 5mm each, in gold tone bezels",
+   "Line: Approximately 5mm wide",
+   "Length: Approximately 17cm (to confirm)",
+   "Closure: Box clasp",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "The source photo is blurred; the hero follows the AL-628 frame."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A12",
+  "title": "Heart Solitaire Huggies",
+  "type": "Earrings",
+  "src": "#12, AL-448",
+  "code": "AL-448",
+  "price": 1199,
+  "compare": 1999,
+  "option": null,
+  "intro": "A heart below a small hoop. Each earring is a slim gold tone huggie with a fine line of clear cubic zirconia on its front, and a heart cut clear stone of about 6mm hanging below it in a thin bezel.",
+  "tip": "Every day, or with a stud in a second piercing.",
+  "details": [
+   "Drop: Approximately 19mm",
+   "Hoop: Huggie, approximately 11mm, hinged snap closure",
+   "Stones: Heart cut clear cubic zirconia, approximately 6mm, and small clear cubic zirconia on the hoop",
+   "Sold as: One pair",
+   "Metal: Gold tone"
+  ],
+  "flags": [],
+  "units": 5
+ },
+ {
+  "id": "A13",
+  "title": "Slim Pave Huggies",
+  "type": "Earrings",
+  "src": "#13, AL-461",
+  "code": "AL-461",
+  "price": 999,
+  "compare": 1799,
+  "option": null,
+  "intro": "One line of light around the lobe. Slim gold tone huggies of about 13mm, set down the front with a single row of small round clear cubic zirconia, close with a hinged snap.",
+  "tip": "Stack them with the Brushed Gold Huggies.",
+  "details": [
+   "Size: Approximately 13mm, about 2mm wide",
+   "Stones: One row of round clear cubic zirconia",
+   "Closure: Hinged snap",
+   "Sold as: One pair",
+   "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
+  ],
+  "flags": [
+   "The supplier's photo is labelled 316L PVD; confirm before it goes live."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A14",
+  "title": "Solitaire Bar Huggies",
+  "type": "Earrings",
+  "src": "#14, AL-449",
+  "code": "AL-449",
+  "price": 1199,
+  "compare": 1999,
+  "option": null,
+  "intro": "A bold huggie with one stone. Each earring is a wide polished gold tone huggie, about 8mm across its face, with a round clear cubic zirconia of about 6mm hanging below it in a slim bezel.",
+  "tip": "Wear them with your hair tucked behind the ear.",
+  "details": [
+   "Drop: Approximately 18mm",
+   "Huggie: Polished, approximately 8mm wide",
+   "Stone: Round clear cubic zirconia, approximately 6mm, in a bezel",
+   "Sold as: One pair",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "Close to the live Solitaire Drop Huggies (Rs 649), which are a slim round huggie with a claw-set stone; this is a wide bar huggie with the stone in a bezel."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A15",
+  "title": "Pearl Open Heart Studs",
+  "type": "Earrings",
+  "src": "#15",
+  "code": "Albyluxe, no code on the photo",
+  "price": 899,
+  "compare": 1599,
+  "option": null,
+  "intro": "A heart drawn in tiny pearls. Each stud is an open heart outline of small round white shell pearls, about 11mm across, set in gold tone with the centre left open.",
+  "tip": "Pair them with the Pearl Heart Layered Necklace.",
+  "details": [
+   "Size: Approximately 11mm",
+   "Pearls: Small round shell pearls, provenance not stated by the supplier",
+   "Fitting: Stud",
+   "Sold as: One pair",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "The photo is dark and small: the outline reads as tiny pearls. Confirm pearls, not white stones, and the metal colour."
+  ],
+  "units": 5
+ },
+ {
+  "id": "A16",
+  "title": "Herringbone Pearl Drop Necklace",
+  "type": "Necklace",
+  "src": "#16",
+  "code": "Albyluxe, no code on the photo",
+  "price": 1299,
+  "compare": 2499,
+  "option": null,
+  "intro": "A flat gold chain and one pearl. A polished herringbone chain about 3mm wide lies flat at the neck, with a white teardrop shell pearl hanging at the front.",
+  "tip": "Wear it alone with a white top or a deep neckline.",
+  "details": [
+   "Chain: Flat herringbone chain, approximately 3mm wide",
+   "Pearl: Teardrop shell pearl, approximately 8 x 10mm, provenance not stated by the supplier",
+   "Length: Approximately 45cm (to confirm)",
+   "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
+  ],
+  "flags": [
+   "The supplier's photo is labelled 316L PVD; confirm before it goes live."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B01",
+  "title": "Rouge Heart Bar Bracelet",
+  "type": "Bracelet",
+  "src": "#17 selection PDF, H00617-144 (6/10)",
+  "code": "H00617-144",
+  "price": 1199,
+  "compare": 2199,
+  "option": null,
+  "intro": "A red heart on a curved bar. A smooth rose gold tone bar curves over the top of the wrist, with a puffed heart set all over in small red cubic zirconia and a clear round stone at its centre. A fine chain with a sliding bead closure adjusts the fit.",
+  "tip": "Give it with the Rouge Heart Pendant.",
+  "details": [
+   "Heart: Approximately 11mm, set with red cubic zirconia, with a round clear centre stone of approximately 4mm",
+   "Bar: Smooth and curved",
+   "Closure: Sliding bead, adjustable",
+   "Metal: Rose gold tone"
+  ],
+  "flags": [
+   "Rated 6 in the selection PDF: 'in gold it would be a 7'. Shot in rose gold, as the supplier makes it. Ask if gold exists."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B02",
+  "title": "Emerald Station Snake Chain",
+  "type": "Necklace",
+  "src": "#18 albyluxe.com, #19 worn (arrow)",
+  "code": "Albyluxe, no code on the page",
+  "price": 1199,
+  "compare": 2299,
+  "option": null,
+  "intro": "Green at the centre, light at the sides. A fine round snake chain carries an emerald cut green cubic zirconia in a gold tone bezel at the front, and a small clear round stone at each side.",
+  "tip": "Wear it with the Verdant Pear Pendant for two greens at two lengths.",
+  "details": [
+   "Stations: One emerald cut green cubic zirconia, approximately 6 x 4mm, and two round clear cubic zirconia, approximately 3mm",
+   "Chain: Round snake chain, approximately 1.2mm",
+   "Length: Approximately 42cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "The side stones are small in the photo and read as clear; confirm."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B03",
+  "title": "Confetti Long Station Necklace",
+  "type": "Necklace",
+  "src": "#20, #22 selection PDF, H00592 (7/10)",
+  "code": "H00592",
+  "price": 1799,
+  "compare": 3299,
+  "option": null,
+  "intro": "Every colour on one long chain. Mixed cut stones in yellow, green, lilac, blue, pink and garnet red, each in its own gold tone bezel, are set along a long fine chain, some linked and some hanging. At about 90cm it wraps twice or falls long.",
+  "tip": "Wrap it twice over a black dress.",
+  "details": [
+   "Stones: Mixed cut coloured stones in gold tone bezels",
+   "Length: Approximately 90cm (to confirm)",
+   "Wear: Long, or wrapped twice",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "Selection PDF: 'striking, but loud and off-aesthetic'. Stone material not stated: the copy says coloured stones, not cubic zirconia."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B04",
+  "title": "Rouge Heart Pendant",
+  "type": "Necklace",
+  "src": "#21 selection PDF, N00985-151 (6/10)",
+  "code": "N00985-151",
+  "price": 1199,
+  "compare": 2199,
+  "option": null,
+  "intro": "A red heart with a light at its centre. A puffed heart set all over in small red cubic zirconia, deepening at its edges, holds a clear round stone at its centre and hangs from a fine rose gold tone chain.",
+  "tip": "Pair it with the Rouge Heart Bar Bracelet.",
+  "details": [
+   "Pendant: Approximately 12mm",
+   "Stones: Red cubic zirconia, with a round clear centre stone of approximately 4.5mm",
+   "Chain: Fine cable chain, approximately 45cm (to confirm)",
+   "Metal: Rose gold tone"
+  ],
+  "flags": [
+   "Rated 6 in the selection PDF: rose gold with red pave. Ask if gold exists."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B05",
+  "title": "Pastel Trio Cluster Studs",
+  "type": "Earrings",
+  "src": "#23 selection PDF, E07193-93 (6/10)",
+  "code": "E07193-93",
+  "price": 899,
+  "compare": 1599,
+  "option": null,
+  "intro": "Three soft colours in a cluster. Each stud sets a lilac, a pale yellow and a pink round stone in a tight triangle of gold tone bezels, about 10mm across.",
+  "tip": "Wear them with the Pastel Line Drop Earrings in a second piercing.",
+  "details": [
+   "Stones: Three round coloured stones per stud, approximately 5mm",
+   "Colours: Lilac, pale yellow and pink",
+   "Size: Approximately 10mm",
+   "Fitting: Stud",
+   "Sold as: One pair",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "Rated 6: studs sell slowly at Naira."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B06",
+  "title": "Pastel Line Drop Earrings",
+  "type": "Earrings",
+  "src": "#23 selection PDF, E07162-167 (6/10)",
+  "code": "E07162-167",
+  "price": 1099,
+  "compare": 1999,
+  "option": null,
+  "intro": "Four colours falling to the jaw. A small pink stud leads a fine gold tone chain set with a pink, a yellow and an aqua oval and a pale green pear, each in a slim bezel, about 55mm long.",
+  "tip": "Wear them with your hair up and a plain neckline.",
+  "details": [
+   "Drop: Approximately 55mm",
+   "Stones: Pink, yellow and aqua ovals and a green pear, in gold tone bezels",
+   "Fitting: Stud",
+   "Sold as: One pair",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "Rated 6: an evening earring."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B07",
+  "title": "Pastel Drop Necklace",
+  "type": "Necklace",
+  "src": "#24 selection PDF, N01027-255 (7/10)",
+  "code": "N01027-255",
+  "price": 1299,
+  "compare": 2499,
+  "option": null,
+  "intro": "Small drops of colour along a fine chain. About thirteen small oval and pear stones in green, lilac, pink, yellow and blue hang at even spacing from a fine gold tone cable chain, each in its own thin bezel.",
+  "tip": "Wear it with the Pastel Line Drop Earrings.",
+  "details": [
+   "Drops: About thirteen coloured stones, approximately 5mm, in gold tone bezels",
+   "Chain: Fine cable chain, approximately 40cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "The matching bracelet (H00632-151) is in the same photo and is not listed."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B08",
+  "title": "Ocean Cushion Drop Earrings",
+  "type": "Earrings",
+  "src": "#25 selection PDF, BT-STUD (7/10)",
+  "code": "BT-STUD",
+  "price": 1199,
+  "compare": 2199,
+  "option": null,
+  "intro": "Shades of blue in a short line. Each earring links a deep blue cushion stone, a larger light aqua cushion, a small open circle of clear pave and a last deep blue cushion, each in a polished silver tone bezel, about 30mm long.",
+  "tip": "Pair them with the Ocean Cushion Pendant.",
+  "details": [
+   "Drop: Approximately 30mm",
+   "Stones: Deep blue and aqua cushion cut stones, with a circle of clear cubic zirconia",
+   "Fitting: Stud",
+   "Sold as: One pair",
+   "Metal: Silver tone"
+  ],
+  "flags": [
+   "The PDF calls them 'Blue Topaz': the copy says blue and aqua stones, not topaz."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B09",
+  "title": "Ocean Cushion Duet Ring",
+  "type": "Ring",
+  "src": "#26 selection PDF, BT-RING (7/10)",
+  "code": "BT-RING",
+  "price": 1099,
+  "compare": 1999,
+  "option": null,
+  "intro": "Two blues, passing each other. An open silver tone band crosses at the front with a deep blue cushion stone on one end and a light aqua cushion on the other, each in a polished bezel, with a fine line of clear pave along one shoulder. The open back adjusts to fit US 5 to 9.",
+  "tip": "Wear it with the Ocean Cushion Drop Earrings.",
+  "details": [
+   "Stones: Deep blue and aqua cushion cut stones, approximately 7mm and 6mm, in silver tone bezels",
+   "Band: Open bypass band with a fine line of clear cubic zirconia",
+   "Size: Open, adjusts to fit US 5 to 9",
+   "Metal: Silver tone"
+  ],
+  "flags": [
+   "Silver tone: a point under gold in our ratings."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B10",
+  "title": "Ocean Cushion Pendant",
+  "type": "Necklace",
+  "src": "#27 selection PDF, BT-EMPND (7/10)",
+  "code": "BT-EMPND",
+  "price": 1199,
+  "compare": 2199,
+  "option": null,
+  "intro": "One square of sea blue. A light aqua cushion cut stone of about 9mm sits in a smooth rose gold tone frame with softly rounded corners, hanging from a bail of small clear pave on a fine chain.",
+  "tip": "Wear it with the Ocean Cushion Drop Earrings.",
+  "details": [
+   "Stone: Light aqua cushion cut stone, approximately 9mm, in a frame of approximately 11mm",
+   "Bail: Set with small clear cubic zirconia",
+   "Chain: Fine cable chain, approximately 45cm (to confirm)",
+   "Metal: Rose gold tone"
+  ],
+  "flags": [
+   "The PDF calls it an emerald-cut pendant; the stone in the photo is a cushion, so the copy says cushion."
+  ],
+  "units": 5
+ },
+ {
+  "id": "B11",
+  "title": "Aqua Channel Huggies",
+  "type": "Earrings",
+  "src": "#28 Order 3 page, R28-AL-390",
+  "code": "AL-390",
+  "price": 1199,
+  "compare": 1900,
+  "option": null,
+  "intro": "Three squares of aqua. Each huggie is a long rounded oval of polished gold tone with three square aqua stones set in a channel down its front, closing with a hinged snap.",
+  "tip": "Wear them with the Baguette Huggies in a second piercing.",
+  "details": [
+   "Size: Approximately 15mm tall",
+   "Stones: Three square aqua stones per huggie, in a gold tone channel",
+   "Closure: Hinged snap",
+   "Sold as: One pair",
+   "Material: Stainless steel, as on the supplier's card"
+  ],
+  "flags": [
+   "The Order 3 page calls this a new colour of the live Baguette Huggies. Their build differs (three squares on an oval, not a crosswise row on a round hoop), so it is a separate listing here. The alternative is a fifth colour, Aqua, on the live listing."
+  ],
+  "units": 5
+ }
+]
