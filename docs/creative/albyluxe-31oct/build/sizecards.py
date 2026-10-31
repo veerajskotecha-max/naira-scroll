@@ -23,6 +23,7 @@ SPEC = {
     "A02": ("ring", OPEN), "A04": ("ring", OPEN), "B09": ("ring", OPEN),
     "A11": ("bracelet", (17, None, "Length is approximate.")),
     "B01": ("bracelet", (16, (16, 22), "Adjusts with the sliding bead. Length is approximate.")),
+    "B13": ("bracelet", (17, (17, 20), "Length is approximate.")),
     "A09": ("necklace", ([40], "40 cm · seven drops of 5 mm")),
     "A10": ("necklace", ([45], "45 cm · pear 9 × 13 mm")),
     "A16": ("necklace", ([45], "45 cm · pearl 8 × 10 mm")),

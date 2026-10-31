@@ -36,14 +36,16 @@
   "flags": [
    "Closed bands: ask Albyluxe which sizes they stock; the listing assumes 6, 7 and 8."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "A02",
   "title": "Heart Duet Open Ring",
   "type": "Ring",
-  "src": "#2 worn, #3 AL-058 (re-rated 8)",
-  "code": "AL-058",
+  "src": "#2 worn, #3 AL-058 (re-rated 8), buy book photo",
+  "code": "R28-AL-058",
   "price": 999,
   "compare": 1899,
   "option": [
@@ -70,14 +72,16 @@
    "Metal: Polished gold tone"
   ],
   "flags": [],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Open Heart Ring, Heart Stone or Pearl, Order 4 · 8/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A04",
   "title": "Duet Emerald-Cut Ring",
   "type": "Ring",
-  "src": "#4 (green and pink), #19 worn (clear)",
-  "code": "Albyluxe, no code on the photo",
+  "src": "#4 (green and pink), #19 worn (clear), buy book photo",
+  "code": "R28-AL-004",
   "price": 999,
   "compare": 1899,
   "option": [
@@ -109,14 +113,16 @@
   "flags": [
    "Clear is read from the worn photo (#19, arrow); confirm Albyluxe makes it."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Open Toi-et-Moi Rings, Green and Pink, Order 4 · 8/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A05",
   "title": "Oval Duet Ring",
   "type": "Ring",
-  "src": "#5",
-  "code": "Albyluxe, no code on the photo",
+  "src": "#5, buy book photo",
+  "code": "R28-AL-098",
   "price": 999,
   "compare": 1899,
   "option": [
@@ -152,16 +158,18 @@
   "flags": [
    "Closed band: sizes to confirm with Albyluxe."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Colour Toi-et-Moi Rings, Test 2 · 7/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A06",
   "title": "Marquise Charm Band",
   "type": "Ring",
-  "src": "#6 AL-068 (re-rated 7, same as AL-067)",
-  "code": "AL-068 / AL-067",
-  "price": 1099,
-  "compare": 2100,
+  "src": "#6 AL-068 (re-rated 7, same as AL-067), buy book photo",
+  "code": "R28-AL-068",
+  "price": 999,
+  "compare": 1899,
   "option": [
    "Finish",
    [
@@ -188,14 +196,16 @@
    "Rated 7, not 8.",
    "Closed band: sizes to confirm with Albyluxe."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Double Band with a Marquise Drop Charm, Order 3 · 7/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A07",
   "title": "Cascade Pear Drop Earrings",
   "type": "Earrings",
-  "src": "#7, AL-423",
-  "code": "AL-423",
+  "src": "#7, AL-423, buy book photo",
+  "code": "E-DD (AL-423)",
   "price": 999,
   "compare": 1899,
   "option": null,
@@ -210,14 +220,16 @@
    "Material: Stainless steel, as on the supplier's card"
   ],
   "flags": [],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Round and Pear Drop Earrings, Order 4 · 8/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A08",
   "title": "Bow and Heart Gift Set",
   "type": "Set",
-  "src": "#8, AL-455",
-  "code": "AL-455",
+  "src": "#8, AL-455, buy book photo",
+  "code": "S-BH (AL-455)",
   "price": 1499,
   "compare": 2800,
   "option": null,
@@ -234,16 +246,18 @@
   "flags": [
    "The supplier's photo is labelled 316L PVD; the copy says so but makes no waterproof or tarnish claim. Confirm before it goes live."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Bow and Heart Gift Set, Order 4 · 8/10",
+  "cost": "pay at most ₹550 (buy book, for a 60% margin)"
  },
  {
   "id": "A09",
   "title": "Trillion Fringe Necklace",
   "type": "Necklace",
-  "src": "#9 albyluxe.com",
-  "code": "Albyluxe, no code on the page",
+  "src": "#9 albyluxe.com, buy book p7 (Stone Fringe Chain)",
+  "code": "N-FR (AL-322)",
   "price": 1199,
-  "compare": 2299,
+  "compare": 2199,
   "option": null,
   "intro": "Seven small triangles along a chain. Seven trillion cut clear cubic zirconia, each in a thin gold tone bezel, hang at even spacing across the front of a fine twisted chain, so the line catches the light as you turn.",
   "tip": "Wear it alone at the collarbone with an open neckline.",
@@ -256,16 +270,18 @@
   "flags": [
    "Close to the AL-322 Stone Fringe Chain on the buy list; this one has seven trillion drops."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Stone Fringe Chain, Order 2 · 8/10",
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
  },
  {
   "id": "A10",
   "title": "Verdant Pear Pendant Necklace",
   "type": "Necklace",
-  "src": "#10 albyluxe.com",
-  "code": "Albyluxe, no code on the page",
-  "price": 999,
-  "compare": 1999,
+  "src": "#10 albyluxe.com, buy book photo",
+  "code": "NEW-AL-1024",
+  "price": 1199,
+  "compare": 2199,
   "option": null,
   "intro": "One green drop. A pear cut cubic zirconia in deep emerald green, about 9 x 13mm, sits point up in slim gold tone claws and hangs from a fine gold tone cable chain.",
   "tip": "Pair it with the Verdant Cushion Studs.",
@@ -276,16 +292,18 @@
    "Metal: Gold tone"
   ],
   "flags": [],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Green Pear Solitaire Pendant, Next wave · 7/10",
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
  },
  {
   "id": "A11",
   "title": "Heartline Tennis Bracelet",
   "type": "Bracelet",
-  "src": "#11 (Every SKU Rated, 49 of 87), AL-628",
-  "code": "AL-628",
+  "src": "#11 (Every SKU Rated, 49 of 87), AL-628, buy book photo",
+  "code": "B-HT (AL-628)",
   "price": 1299,
-  "compare": 2500,
+  "compare": 2499,
   "option": null,
   "intro": "A line of small hearts. Heart cut clear cubic zirconia, each about 5mm and each in its own polished gold tone bezel, are linked edge to edge all the way round the wrist, every heart pointing the same way.",
   "tip": "Wear it with the Heartline Paperclip Necklace.",
@@ -299,16 +317,18 @@
   "flags": [
    "The source photo is blurred; the hero follows the AL-628 frame."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Heart Bezel Tennis Bracelet, Order 4 · 8/10",
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)"
  },
  {
   "id": "A12",
   "title": "Heart Solitaire Huggies",
   "type": "Earrings",
-  "src": "#12, AL-448",
-  "code": "AL-448",
+  "src": "#12, AL-448, buy book photo",
+  "code": "E-HD (AL-448)",
   "price": 1199,
-  "compare": 1999,
+  "compare": 2199,
   "option": null,
   "intro": "A heart below a small hoop. Each earring is a slim gold tone huggie with a fine line of clear cubic zirconia on its front, and a heart cut clear stone of about 6mm hanging below it in a thin bezel.",
   "tip": "Every day, or with a stud in a second piercing.",
@@ -320,16 +340,18 @@
    "Metal: Gold tone"
   ],
   "flags": [],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Heart Solitaire Drop Huggies, Order 4 · 8/10",
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
  },
  {
   "id": "A13",
   "title": "Slim Pave Huggies",
   "type": "Earrings",
-  "src": "#13, AL-461",
-  "code": "AL-461",
+  "src": "#13, AL-461, buy book photo",
+  "code": "E-PV (AL-461)",
   "price": 999,
-  "compare": 1799,
+  "compare": 1899,
   "option": null,
   "intro": "One line of light around the lobe. Slim gold tone huggies of about 13mm, set down the front with a single row of small round clear cubic zirconia, close with a hinged snap.",
   "tip": "Stack them with the Brushed Gold Huggies.",
@@ -343,16 +365,18 @@
   "flags": [
    "The supplier's photo is labelled 316L PVD; confirm before it goes live."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Slim Pave Huggies, Order 4 · 8/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A14",
   "title": "Solitaire Bar Huggies",
   "type": "Earrings",
-  "src": "#14, AL-449",
-  "code": "AL-449",
+  "src": "#14, AL-449, buy book photo",
+  "code": "E-RD (AL-449)",
   "price": 1199,
-  "compare": 1999,
+  "compare": 2199,
   "option": null,
   "intro": "A bold huggie with one stone. Each earring is a wide polished gold tone huggie, about 8mm across its face, with a round clear cubic zirconia of about 6mm hanging below it in a slim bezel.",
   "tip": "Wear them with your hair tucked behind the ear.",
@@ -364,32 +388,37 @@
    "Metal: Gold tone"
   ],
   "flags": [
-   "Close to the live Solitaire Drop Huggies (Rs 649), which are a slim round huggie with a claw-set stone; this is a wide bar huggie with the stone in a bezel."
+   "The buy book lists these as RESTOCK 4 for the live Solitaire Drop Huggies (Rs 649), 'same look'. The photos show a wider, chunkier huggie with the stone in a bezel, so they are set up here as a new listing at the book's Rs 1,199. The other way is +4 units on the live listing; tell me which."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Round Solitaire Drop Huggies, Restock 4 · 8/10",
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
  },
  {
   "id": "A15",
-  "title": "Pearl Open Heart Studs",
+  "title": "Pave Open Heart Studs",
   "type": "Earrings",
-  "src": "#15",
-  "code": "Albyluxe, no code on the photo",
-  "price": 899,
-  "compare": 1599,
+  "src": "#15, buy book p4",
+  "code": "E-OH",
+  "price": 999,
+  "compare": 1899,
   "option": null,
-  "intro": "A heart drawn in tiny pearls. Each stud is an open heart outline of small round white shell pearls, about 11mm across, set in gold tone with the centre left open.",
+  "intro": "A heart drawn in light. Each stud is an open heart outline of about 11mm, set with two fine rows of tiny clear cubic zirconia in silver tone, with the centre left open.",
   "tip": "Pair them with the Pearl Heart Layered Necklace.",
   "details": [
    "Size: Approximately 11mm",
-   "Pearls: Small round shell pearls, provenance not stated by the supplier",
+   "Stones: Two fine rows of tiny clear cubic zirconia",
    "Fitting: Stud",
    "Sold as: One pair",
-   "Metal: Gold tone"
+   "Metal: Silver tone"
   ],
   "flags": [
-   "The photo is dark and small: the outline reads as tiny pearls. Confirm pearls, not white stones, and the metal colour."
+   "Corrected from the buy book's photo: the outline is pave stones, not pearls (the first hero showed pearls and was redone).",
+   "The metal reads silver tone in the photo; confirm."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Pave Open Heart Studs, Order 3 · 7/10",
+  "cost": "pay at most ₹360 (buy book, for a 60% margin)"
  },
  {
   "id": "A16",
@@ -411,14 +440,16 @@
   "flags": [
    "The supplier's photo is labelled 316L PVD; confirm before it goes live."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B01",
   "title": "Rouge Heart Bar Bracelet",
   "type": "Bracelet",
-  "src": "#17 selection PDF, H00617-144 (6/10)",
-  "code": "H00617-144",
+  "src": "#17 selection PDF, H00617-144 (6/10), buy book photo",
+  "code": "H00617",
   "price": 1199,
   "compare": 2199,
   "option": null,
@@ -433,16 +464,18 @@
   "flags": [
    "Rated 6 in the selection PDF: 'in gold it would be a 7'. Shot in rose gold, as the supplier makes it. Ask if gold exists."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Pave Heart Bar Bracelet, Ask first · 6/10",
+  "cost": "not quoted; the buy book asks first for a gold version"
  },
  {
   "id": "B02",
   "title": "Emerald Station Snake Chain",
   "type": "Necklace",
-  "src": "#18 albyluxe.com, #19 worn (arrow)",
-  "code": "Albyluxe, no code on the page",
-  "price": 1199,
-  "compare": 2299,
+  "src": "#18 albyluxe.com, #19 worn (arrow), buy book photo",
+  "code": "NEW-AL-1229",
+  "price": 1299,
+  "compare": 2499,
   "option": null,
   "intro": "Green at the centre, light at the sides. A fine round snake chain carries an emerald cut green cubic zirconia in a gold tone bezel at the front, and a small clear round stone at each side.",
   "tip": "Wear it with the Verdant Pear Pendant for two greens at two lengths.",
@@ -455,7 +488,9 @@
   "flags": [
    "The side stones are small in the photo and read as clear; confirm."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Snake Chain with an Emerald-Cut Station, Order 2 · 8/10",
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)"
  },
  {
   "id": "B03",
@@ -478,14 +513,16 @@
    "Selection PDF: 'striking, but loud and off-aesthetic'. Stone material not stated: the copy says coloured stones, not cubic zirconia.",
    "The bust photo also has matching earrings and a matching bracelet (its tag reads 'H00592-18K 手链', bracelet). Only the necklace is listed; its length is not stated, so the copy says about 90cm, to confirm."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B04",
   "title": "Rouge Heart Pendant",
   "type": "Necklace",
-  "src": "#21 selection PDF, N00985-151 (6/10)",
-  "code": "N00985-151",
+  "src": "#21 selection PDF, N00985-151 (6/10), buy book photo",
+  "code": "N00985",
   "price": 1199,
   "compare": 2199,
   "option": null,
@@ -500,7 +537,9 @@
   "flags": [
    "Rated 6 in the selection PDF: rose gold with red pave. Ask if gold exists."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Pave Heart Pendant, Ask first · 6/10",
+  "cost": "not quoted; the buy book asks first for a gold version"
  },
  {
   "id": "B05",
@@ -524,7 +563,9 @@
   "flags": [
    "Rated 6: studs sell slowly at Naira."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B06",
@@ -547,14 +588,16 @@
   "flags": [
    "Rated 6: an evening earring."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B07",
   "title": "Pastel Drop Necklace",
   "type": "Necklace",
-  "src": "#24 selection PDF, N01027-255 (7/10)",
-  "code": "N01027-255",
+  "src": "#24 selection PDF, N01027-255 (7/10), buy book photo",
+  "code": "N01027",
   "price": 1299,
   "compare": 2499,
   "option": null,
@@ -568,7 +611,9 @@
   "flags": [
    "The matching bracelet (H00632-151) is in the same photo and is not listed."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Pastel Drop Necklace, Next wave · 7/10",
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)"
  },
  {
   "id": "B08",
@@ -591,7 +636,9 @@
   "flags": [
    "The PDF calls them 'Blue Topaz': the copy says blue and aqua stones, not topaz."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B09",
@@ -613,7 +660,9 @@
   "flags": [
    "Silver tone: a point under gold in our ratings."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B10",
@@ -635,16 +684,18 @@
   "flags": [
    "The PDF calls it an emerald-cut pendant; the stone in the photo is a cushion, so the copy says cushion."
   ],
-  "units": 5
+  "units": 5,
+  "book": "Not in the 28 to 31 Oct buy book: confirm it was bought",
+  "cost": "not given"
  },
  {
   "id": "B11",
   "title": "Aqua Channel Huggies",
   "type": "Earrings",
-  "src": "#28 Order 3 page, R28-AL-390",
-  "code": "AL-390",
+  "src": "#28 Order 3 page, R28-AL-390, buy book photo",
+  "code": "R28-AL-390",
   "price": 1199,
-  "compare": 1900,
+  "compare": 2199,
   "option": null,
   "intro": "Three squares of aqua. Each huggie is a long rounded oval of polished gold tone with three square aqua stones set in a channel down its front, closing with a hinged snap.",
   "tip": "Wear them with the Baguette Huggies in a second piercing.",
@@ -656,8 +707,60 @@
    "Material: Stainless steel, as on the supplier's card"
   ],
   "flags": [
-   "The Order 3 page calls this a new colour of the live Baguette Huggies. Their build differs (three squares on an oval, not a crosswise row on a round hoop), so it is a separate listing here. The alternative is a fifth colour, Aqua, on the live listing."
+   "The buy book calls this a new colour of the live Baguette Huggies. Their build differs (three squares on a tall oval, not a crosswise row on a round hoop), so it is a separate listing here. The other way is a fifth colour, Aqua, on the live listing; tell me which."
   ],
-  "units": 5
+  "units": 5,
+  "book": "In the buy book: Aqua Baguette Channel Huggies, Order 3 · 7/10",
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)"
+ },
+ {
+  "id": "B12",
+  "title": "Verdant Pear Drop Huggies",
+  "type": "Earrings",
+  "src": "#24 (top of the selection page), buy book p3",
+  "code": "RB Fashion A9, no code",
+  "price": 1199,
+  "compare": 2199,
+  "option": null,
+  "units": 5,
+  "book": "In the buy book: Green Pear Drop Huggies, Order 4 · 8/10",
+  "cost": "pay at most ₹435 (buy book, for a 60% margin)",
+  "intro": "A green drop below a small hoop. Each earring is a slim gold tone huggie set with a channel of small clear cubic zirconia, with a teal green pear cut stone in a smooth gold tone bezel hanging below it.",
+  "tip": "Pair them with the Verdant Pear Pendant Necklace.",
+  "details": [
+   "Drop: Approximately 24mm",
+   "Hoop: Huggie, approximately 12mm, with a channel of clear cubic zirconia",
+   "Stone: Teal green pear cut stone, approximately 8 x 10mm, in a gold tone bezel",
+   "Sold as: One pair",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "The buy book says to confirm the shade: the stone reads teal green in its photo."
+  ]
+ },
+ {
+  "id": "B13",
+  "title": "Pastel Drop Bracelet",
+  "type": "Bracelet",
+  "src": "#24 (inside the necklace, labelled H00632-151), buy book p9",
+  "code": "H00632",
+  "price": 1299,
+  "compare": 2499,
+  "option": null,
+  "units": 5,
+  "book": "In the buy book: Pastel Drop Bracelet, Order 3 · 7/10",
+  "cost": "pay at most ₹475 (buy book, for a 60% margin)",
+  "intro": "Small drops of colour around the wrist. Oval and pear stones in green, lilac, pink, yellow and blue hang at even spacing from a fine gold tone cable chain, each in its own thin bezel.",
+  "tip": "Wear it with the Pastel Drop Necklace.",
+  "details": [
+   "Drops: About eight coloured stones, approximately 5mm, in gold tone bezels",
+   "Chain: Fine cable chain",
+   "Length: Approximately 17cm with an extender (to confirm)",
+   "Closure: Lobster clasp",
+   "Metal: Gold tone"
+  ],
+  "flags": [
+   "Added because the buy book orders it and it is in your screenshot of the necklace; drop it if you did not buy it."
+  ]
  }
 ]
