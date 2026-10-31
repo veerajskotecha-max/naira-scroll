@@ -30,6 +30,11 @@ E["A15_Me"] = ("A15_M", "EDIT IMAGE 1, a macro photograph of one pave open-heart
    "the same softly out-of-focus cream background and plaster, so ONLY ONE earring remains in the picture. Keep everything else in IMAGE 1 "
    "exactly as it is: the heart earring, its stones, its silver-tone metal, its post, the cube, the camera, the framing, the background and the "
    "light. " + END)
+E["B04_plate"] = ("B04_He2", "EDIT IMAGE 1, a packshot of a fine rose-gold chain with a red heart pendant on a cream plaster cube. Make ONE change "
+   "only: REMOVE the heart pendant and its bail entirely, so the fine rose-gold cable chain alone hangs in its V on the plaster, its two arms "
+   "meeting at the point of the V with nothing hanging from it; fill where the pendant was with the same cream plaster, its fine grain and its "
+   "light, and remove the pendant's shadow. Keep everything else in IMAGE 1 exactly as it is: the chain, the cube, the camera, the framing, the "
+   "background and the light. " + END)
 # Usage: edits.py start_index KEY,KEY,... (keys of E; each source is a key of jobs.json). Older keys keep their first prompts for the record.
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}

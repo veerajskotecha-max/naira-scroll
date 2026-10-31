@@ -14,9 +14,9 @@ After the review they asked for three things: make the changes they asked for, h
 
 ## Where things stand
 
-- **The final approval page.** Being built (not published yet).. It is private to the owner.
+- **The final approval page.** <https://claude.ai/artifact/FsneG4AyJgJqAEB5Rn9hRP>. It is private to the owner.
   - It shows the 21 pieces to ship, with every photo, the copy, the price, the variants and the SKUs.
-  - Each piece shows the owner's review note and what was done about it. Frames remade since the review carry a "New" tag.
+  - Each piece shows the owner's review note, what was done about it and what each photo was checked against. Frames remade since the review carry a "New" tag.
   - Each piece has Ship and Hold back. "Approve all N for Shopify" records the sign-off.
   - Choices are saved in the page's database: `final/<id>` and `final/signoff`.
 - **The review page.** <https://claude.ai/artifact/K7RkNg1b5Zbqi58Cxyb5k3>. The owner's decisions are in `decisions/<id>`.
@@ -42,11 +42,11 @@ B05 was approved at ₹3,499 with no compare-at price, the price the owner typed
 | A12 | Heart is wrong | The heart hangs in fine claws, not a gold cup. All four photos are new. |
 | A13 | Square, it is an earring | Square huggies, not round hoops. All four photos are new. |
 | A14 | Plain solitaire, check errors | A plain four-claw solitaire under a smaller huggie. All four photos are new. |
-| A15 | On-model hearts are wrong | Symmetric upright hearts. All four photos are new. |
+| A15 | On-model hearts are wrong | Symmetric upright hearts. All four photos are new; an edit removed part of the second earring from the macro. |
 | A16 | Diamond below, not pearl; the chain is stiff | A clear pear stone hanging point up on a narrow, firm herringbone. Renamed Herringbone Teardrop Necklace, SKU `HTN`. All four photos are new. |
 | B01 | Flexible but straight, not zigzag | The bar runs straight through the heart. All four photos are new. |
 | B02 | Diamond colours wrong | The two side stones are now rose pink (left) and pale champagne (right), recoloured in all four photos. |
-| B04 | Reduce the heart 50% | The heart is half the size in the packshot and both worn photos. |
+| B04 | Reduce the heart 50% | The heart is half its review width in the packshot (50%) and on the model (52%). The copy keeps about 12 mm; the page asks the owner to confirm it against the piece in hand. |
 | B11 | Check the stones: blue, square, full to the end? | Three square aqua stones fill the whole front, end to end. The colour was measured against the buy book and matches. |
 
 ## The 28 listings
@@ -103,10 +103,10 @@ The gift set also has an earrings-only packshot.
 
 - Changed pieces got a rewritten construction lock in `build/skus.json` that names what went wrong: claws not cups, a square huggie, a symmetric heart, a straight bar, stones end to end, a teardrop hanging point up.
 - New packshots were checked against the buy book before their worn frames and macros were made from them.
-- `build/edits.py` makes edit requests: a packshot that is right in construction but wrong in size is given back to the model with one named change, so the cube, the camera and the light stay put.
+- `build/edits.py` makes edit requests: a frame that is right except for one thing is given back to the model with that one change, so the cube, the camera and the light stay put. It made A16's packshot (narrower chain, stone turned point up), shrank B04's heart, removed part of the second earring from A15's macro, and made B04's clean plate.
 - A02's worn frames use our packshot as the only product reference (`"wref": "hero"` in `skus.json`).
 
-**Credits.** Round two of the reshoots is running; the credit totals are added when it is done. Every job id is in `build/jobs.json`. Replaced ones are kept as `*_old`, and the frames from before the review as `*_r1`.
+**Credits.** There were 165 generations in all, about 330 credits: 125 before the review and 40 after it (about 80 credits). 52 credits are left. Every job id is in `build/jobs.json`. Replaced ones are kept as `*_old`, the frames from before the review as `*_r1`, and failed reshoots as `*_f1` and `*_f2`.
 
 ### Checks and fixes
 
@@ -119,6 +119,7 @@ The reshoots after the review are in **What changed** above. Before the review, 
 - **A06 Two-Tone worn frame.** It came with a border and was cropped to the clean picture inside, as `A06t_W1c`. The Two-Tone variant has since been dropped.
 - **B06 top stud.** The shoot drew it pink. `build/topstud.py` recolours it lilac inside a small box in the three frames that show it. B06 is held.
 - **B02 side stones.** `build/sidestones.py` tints the two clear side stones rose pink and pale champagne inside a small ellipse in each frame, and nothing else.
+- **B04 packshot heart.** Two edit requests only brought the heart down to 63% of its review width. `build/shrink.py` did the rest: an edit request made a clean plate of the same frame with the pendant removed, the pendant was warped onto it (unscaled where the chain meets the bail, exactly 80% from the heart down) with a soft contact shadow, and the frame's white balance was set back to the house cream (CIELab a* −4.2), which the chain of edits had warmed.
 
 **Colour variants** come from `build/recolour.py`, which changes only the stone:
 
@@ -150,6 +151,7 @@ Every size is an estimate from photos until the stock is measured.
 - **B02 Emerald Station Snake Chain.** The right side stone is pale champagne: confirm the shade with Albyluxe.
 - **A14 Solitaire Bar Huggies.** A new listing, not +4 units on the live Solitaire Drop Huggies (₹649, `ADT27`). The live pair has a slim 2.5 mm huggie and a 4 mm stone; this one has a wide huggie and a 6 mm stone.
 - **A16 Herringbone Teardrop Necklace.** The chain (about 2 mm) and the drop (about 8 × 12 mm) are measured from the owner's photo; it carries a 316L PVD label.
+- **B04 Rouge Heart Pendant.** The photos are halved, as asked. The copy keeps about 12 mm, because the clear centre stone is about 40% of the heart in the buy-book photo (a 12 mm heart with a 4.5 mm stone). If the heart in hand is smaller, the copy changes.
 - **Closed-band ring sizes.** A01, A05 and A06 assume 6 to 8.
 - **316L PVD labels.** A08, A13 and A16 carry them. The copy quotes the label and makes no waterproof or tarnish claim.
 
@@ -157,7 +159,7 @@ Every size is an estimate from photos until the stock is measured.
 
 - `refs/`: screenshot crops and buy-book crops.
 - `build/`: specs, prompts, job ids, copy and the scripts that make everything below. `build/out/`, the raw frames, is not committed.
-- `exports/`: the listing photos at 1288×1600 (`<handle>-NN.jpg`, variant by variant), from `build/export.py` and `build/frames.json`.
+- `exports/`: 135 listing photos at 1288×1600 (`<handle>-NN.jpg`, variant by variant) for all 28 listings, the held ones included so they can ship later, from `build/export.py` and `build/frames.json`.
 - `cards/`: the size cards (`<handle>-size-guide.jpg`).
 - `review/`: the review page and its images, from `build/review.py`.
 - `final/`: the final approval page and its images, from `build/final.py`.

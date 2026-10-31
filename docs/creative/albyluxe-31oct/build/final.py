@@ -7,6 +7,7 @@ import json, os, re, unicodedata
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(H, "../final"); IMG = os.path.join(R, "img"); os.makedirs(IMG, exist_ok=True)
 L = json.load(open(os.path.join(H, "listings.json"))); F = json.load(open(os.path.join(H, "frames.json"))); SK = json.load(open(os.path.join(H, "skus.json")))
+CK = json.load(open(os.path.join(H, "checks.json")))
 SHOTS = {"H": "Hero", "E": "Earrings", "W1": "Worn", "W2": "Worn close", "M": "Macro"}
 ALL = {"A12", "A13", "A14", "A15", "A16", "B01", "B11"}                      # every frame remade after the review
 NEW = {"A02": {"A02_W1"}, "B04": {"B04_H", "B04_W1", "B04_W2"},
@@ -62,7 +63,7 @@ for x in L:
     variants = [{"name": v, "sku": s, "units": x["units"]} for v, s in opt[1]] if opt else [{"name": "One style", "sku": x["sku"], "units": x["units"]}]
     ship.append({"id": x["id"], "title": x["title"], "handle": h, "type": x["type"], "price": x["price"], "compare": x["compare"],
                  "variants": variants, "intro": x["intro"], "details": x["details"], "flags": x["flags"], "changes": x.get("changes", []),
-                 "owner_note": x.get("owner_note", ""), "images": images})
+                 "owner_note": x.get("owner_note", ""), "checks": CK.get(x["id"], []), "images": images})
 data = {"listings": ship, "held": held, "how": HOW}
 page = open(os.path.join(R, "index.html")).read()
 blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
