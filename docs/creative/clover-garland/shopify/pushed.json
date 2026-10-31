@@ -1,0 +1,53 @@
+{
+ "clover-garland-bracelet": {
+  "id": "gid://shopify/Product/10374743261346",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": "Colour",
+  "variants": {
+   "Sky Blue": [
+    "gid://shopify/ProductVariant/50779949727906",
+    "CLG-SB",
+    5
+   ],
+   "Pink": [
+    "gid://shopify/ProductVariant/50779949760674",
+    "CLG-PK",
+    5
+   ],
+   "White": [
+    "gid://shopify/ProductVariant/50779949793442",
+    "CLG-WH",
+    5
+   ]
+  },
+  "price": "1299.00",
+  "compareAtPrice": "2500.00",
+  "photos": 12,
+  "sizeCard": "clover-garland-bracelet-size-guide.jpg",
+  "shipped": "2026-10-30"
+ },
+ "riviere-classique-necklace": {
+  "id": "gid://shopify/Product/10374743294114",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": "Metal",
+  "variants": {
+   "Silver": [
+    "gid://shopify/ProductVariant/50779949826210",
+    "RCN-S",
+    10
+   ],
+   "Gold": [
+    "gid://shopify/ProductVariant/50779949858978",
+    "RCN-G",
+    10
+   ]
+  },
+  "price": "1499.00",
+  "compareAtPrice": "2800.00",
+  "photos": 8,
+  "sizeCard": "riviere-classique-necklace-size-guide.jpg",
+  "shipped": "2026-10-30"
+ }
+}

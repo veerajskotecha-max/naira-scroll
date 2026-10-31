@@ -1,0 +1,394 @@
+{
+ "on": {
+  "autoPublish": true
+ },
+ "off": {
+  "autoPublish": false
+ },
+ "clover": {
+  "title": "Clover Garland Bracelet",
+  "handle": "clover-garland-bracelet",
+  "status": "ACTIVE",
+  "vendor": "Naira Petite",
+  "productType": "Bracelet",
+  "category": "gid://shopify/TaxonomyCategory/aa-6-3",
+  "tags": [
+   "18k Gold Tone Plated",
+   "Bracelet",
+   "Clover",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Naira Petite"
+  ],
+  "descriptionHtml": "<p>A garland of tiny clovers. Fifteen small four petal clovers, each four round stones in gold tone cups with a fine beaded rim around one small clear stone at the centre, are linked petal to petal by fine gold rings, so the line moves softly with the wrist. In sky blue, rose pink or clear white.</p><p><strong>STYLING TIP:</strong> Wear one alone, or the sky blue and the pink together on one wrist.</p><p><strong>Details</strong></p><ul>\n<li>Clovers: Fifteen, approximately 10mm across, linked petal to petal by small gold tone rings</li>\n<li>Stones: Four round cubic zirconia petals per clover, approximately 3.5mm, around a small clear centre stone</li>\n<li>Colours: Sky Blue, Pink or White</li>\n<li>Setting: Gold tone cups with a fine beaded rim</li>\n<li>Length: Approximately 17cm, adjustable to about 21cm with the extender</li>\n<li>Closure: Lobster clasp with an extender chain</li>\n<li>Metal: Stainless steel, polished gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/clover-garland-bracelet-size-guide.jpg\" alt=\"Size guide — Clover Garland Bracelet\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+  "seo": {
+   "title": "Clover Garland Bracelet | Naira Petite",
+   "description": "Fifteen small four petal clovers, each four round stones in gold tone cups with a fine beaded rim around one small clear stone at the centre, are linked petal to petal by fine gold rings, so the line moves softly with the wrist. Clover Garland Bracelet by Naira Petite."
+  },
+  "productOptions": [
+   {
+    "name": "Colour",
+    "values": [
+     {
+      "name": "Sky Blue"
+     },
+     {
+      "name": "Pink"
+     },
+     {
+      "name": "White"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Colour",
+      "name": "Sky Blue"
+     }
+    ],
+    "sku": "CLG-SB",
+    "price": "1299.00",
+    "compareAtPrice": "2500.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "inventoryQuantities": [
+     {
+      "locationId": "gid://shopify/Location/76267389090",
+      "name": "available",
+      "quantity": 5
+     }
+    ],
+    "file": {
+     "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1f063d04-1258-4ecc-832c-37d657604683.jpg",
+     "contentType": "IMAGE"
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Colour",
+      "name": "Pink"
+     }
+    ],
+    "sku": "CLG-PK",
+    "price": "1299.00",
+    "compareAtPrice": "2500.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "inventoryQuantities": [
+     {
+      "locationId": "gid://shopify/Location/76267389090",
+      "name": "available",
+      "quantity": 5
+     }
+    ],
+    "file": {
+     "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/de9feef2-447b-43e4-b327-b1d007b965b1.jpg",
+     "contentType": "IMAGE"
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Colour",
+      "name": "White"
+     }
+    ],
+    "sku": "CLG-WH",
+    "price": "1299.00",
+    "compareAtPrice": "2500.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "inventoryQuantities": [
+     {
+      "locationId": "gid://shopify/Location/76267389090",
+      "name": "available",
+      "quantity": 5
+     }
+    ],
+    "file": {
+     "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7adc3456-4d5a-433f-b7a1-5dffc3e00cff.jpg",
+     "contentType": "IMAGE"
+    }
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1f063d04-1258-4ecc-832c-37d657604683.jpg",
+    "alt": "Clover Garland Bracelet, Sky Blue — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d483f854-e448-41c7-b4be-4a0c1fff1256.jpg",
+    "alt": "Clover Garland Bracelet, Sky Blue — worn on the model's wrist",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/37d0b5e4-469d-4780-9247-23dffaf18c00.jpg",
+    "alt": "Clover Garland Bracelet, Sky Blue — worn close, the hand resting on the shoulder",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/d78f620d-ed98-41cf-aec6-a3b14ffa5412.jpg",
+    "alt": "Clover Garland Bracelet, Sky Blue — macro detail: the clovers and the gold rings between them",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/de9feef2-447b-43e4-b327-b1d007b965b1.jpg",
+    "alt": "Clover Garland Bracelet, Pink — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/a2a17456-26ff-4a12-b203-b5c3f73c4274.jpg",
+    "alt": "Clover Garland Bracelet, Pink — worn on the model's wrist",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/1c61203f-403d-4912-9615-8622ba3f7ee2.jpg",
+    "alt": "Clover Garland Bracelet, Pink — worn close, the hand resting on the shoulder",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/25f646da-c31c-47c3-bc11-422776ab7562.jpg",
+    "alt": "Clover Garland Bracelet, Pink — macro detail: the clovers and the gold rings between them",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/7adc3456-4d5a-433f-b7a1-5dffc3e00cff.jpg",
+    "alt": "Clover Garland Bracelet, White — on a cream plaster block, the full piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/bcd04837-a88d-418c-93a6-f6e880ece730.jpg",
+    "alt": "Clover Garland Bracelet, White — worn on the model's wrist",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/9247a9bd-8fdd-4c74-bc50-9e6a2ce885af.jpg",
+    "alt": "Clover Garland Bracelet, White — worn close, the hand resting on the shoulder",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/19a59a58-9ed3-4378-9a99-6b086350f700.jpg",
+    "alt": "Clover Garland Bracelet, White — macro detail: the clovers and the gold rings between them",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/dfdc1046-3b17-47ae-8c80-56c249f5930e.jpg",
+    "filename": "clover-garland-bracelet-size-guide.jpg",
+    "alt": "Size guide — Clover Garland Bracelet",
+    "contentType": "IMAGE"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "mm-google-shopping",
+    "key": "google_product_category",
+    "type": "single_line_text_field",
+    "value": "Apparel & Accessories > Jewelry > Bracelets"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "gender",
+    "type": "single_line_text_field",
+    "value": "Female"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "age_group",
+    "type": "single_line_text_field",
+    "value": "Adult"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "mc-facebook",
+    "key": "google_product_category",
+    "type": "single_line_text_field",
+    "value": "191"
+   }
+  ]
+ },
+ "necklace": {
+  "title": "Rivière Classique Necklace",
+  "handle": "riviere-classique-necklace",
+  "status": "ACTIVE",
+  "vendor": "Naira Petite",
+  "productType": "Necklace",
+  "category": "gid://shopify/TaxonomyCategory/aa-6-8",
+  "tags": [
+   "18k Gold Tone Plated",
+   "Cubic Zirconia",
+   "Demi Fine",
+   "Naira Petite",
+   "Necklace",
+   "Rhodium Silver Tone Plated",
+   "Tennis"
+  ],
+  "descriptionHtml": "<p>One unbroken line of light. Round brilliant cut clear cubic zirconia of about 3mm, each in its own four claw cup, are linked edge to edge all the way round, with no chain between them and nothing hanging at the front. At about 40cm it sits at the base of the neck, in silver tone or gold tone.</p><p><strong>STYLING TIP:</strong> Wear it alone with an open neckline, or under a longer pendant chain.</p><p><strong>Details</strong></p><ul>\n<li>Stones: Round brilliant cut clear cubic zirconia, approximately 3mm, each in its own four claw cup</li>\n<li>Line: One continuous row, approximately 3mm wide</li>\n<li>Length: Approximately 40cm</li>\n<li>Closure: Box clasp</li>\n<li>Metal: Silver tone or gold tone</li>\n</ul><p><img src=\"https://cdn.shopify.com/s/files/1/0680/9606/5698/files/riviere-classique-necklace-size-guide.jpg\" alt=\"Size guide — Rivière Classique Necklace\" width=\"420\"></p><p><strong>Care</strong></p><p>Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch.</p><p>You will receive your piece in a Naira Petite box.</p>",
+  "seo": {
+   "title": "Rivière Classique Necklace | Naira Petite",
+   "description": "Round brilliant cut clear cubic zirconia of about 3mm, each in its own four claw cup, are linked edge to edge all the way round, with no chain between them and nothing hanging at the front. Rivière Classique Necklace by Naira Petite."
+  },
+  "productOptions": [
+   {
+    "name": "Metal",
+    "values": [
+     {
+      "name": "Silver"
+     },
+     {
+      "name": "Gold"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Metal",
+      "name": "Silver"
+     }
+    ],
+    "sku": "RCN-S",
+    "price": "1499.00",
+    "compareAtPrice": "2800.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "inventoryQuantities": [
+     {
+      "locationId": "gid://shopify/Location/76267389090",
+      "name": "available",
+      "quantity": 10
+     }
+    ],
+    "file": {
+     "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/01b27e7f-86ea-4d98-bacc-684325b66939.jpg",
+     "contentType": "IMAGE"
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Metal",
+      "name": "Gold"
+     }
+    ],
+    "sku": "RCN-G",
+    "price": "1499.00",
+    "compareAtPrice": "2800.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "inventoryQuantities": [
+     {
+      "locationId": "gid://shopify/Location/76267389090",
+      "name": "available",
+      "quantity": 10
+     }
+    ],
+    "file": {
+     "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ec442d69-f008-4016-95ca-a19cdcae455e.jpg",
+     "contentType": "IMAGE"
+    }
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/01b27e7f-86ea-4d98-bacc-684325b66939.jpg",
+    "alt": "Rivière Classique Necklace, Silver — draped over a cream plaster block",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/078ebaef-f15e-44ff-9a9b-4e80a81b6254.jpg",
+    "alt": "Rivière Classique Necklace, Silver — worn at the base of the neck",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/8f6110f9-361c-4b33-93dc-bd7b0ea9597e.jpg",
+    "alt": "Rivière Classique Necklace, Silver — worn, turned a quarter to the side",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/cf334b47-f090-4fbd-be01-41368ba3b429.jpg",
+    "alt": "Rivière Classique Necklace, Silver — macro detail: the round stones in their four claw cups",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/ec442d69-f008-4016-95ca-a19cdcae455e.jpg",
+    "alt": "Rivière Classique Necklace, Gold — draped over a cream plaster block",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/98349445-5af6-40ee-a360-49a5bb85096f.jpg",
+    "alt": "Rivière Classique Necklace, Gold — worn at the base of the neck",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/6a48012c-88f8-4567-92bb-d6d25c94e843.jpg",
+    "alt": "Rivière Classique Necklace, Gold — worn, turned a quarter to the side",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/f148c585-2f08-48b1-a227-f49f48e1cbb7.jpg",
+    "alt": "Rivière Classique Necklace, Gold — macro detail: the round stones in their four claw cups",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://d2ol7oe51mr4n9.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/50742949-8629-42bc-853f-a6e329a25d69.jpg",
+    "filename": "riviere-classique-necklace-size-guide.jpg",
+    "alt": "Size guide — Rivière Classique Necklace",
+    "contentType": "IMAGE"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "mm-google-shopping",
+    "key": "google_product_category",
+    "type": "single_line_text_field",
+    "value": "Apparel & Accessories > Jewelry > Necklaces"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "gender",
+    "type": "single_line_text_field",
+    "value": "Female"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "age_group",
+    "type": "single_line_text_field",
+    "value": "Adult"
+   },
+   {
+    "namespace": "mm-google-shopping",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "mc-facebook",
+    "key": "google_product_category",
+    "type": "single_line_text_field",
+    "value": "196"
+   }
+  ]
+ }
+}

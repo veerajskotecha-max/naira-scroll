@@ -1,0 +1,16 @@
+mutation Ship30Oct($on: PublicationUpdateInput!, $off: PublicationUpdateInput!, $clover: ProductSetInput!, $necklace: ProductSetInput!) {
+  on0: publicationUpdate(id: "gid://shopify/Publication/164676042914", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on1: publicationUpdate(id: "gid://shopify/Publication/164676108450", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on2: publicationUpdate(id: "gid://shopify/Publication/167637745826", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on3: publicationUpdate(id: "gid://shopify/Publication/175106293922", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on4: publicationUpdate(id: "gid://shopify/Publication/180607254690", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on5: publicationUpdate(id: "gid://shopify/Publication/180607746210", input: $on) { publication { id autoPublish } userErrors { field message } }
+  clover: productSet(input: $clover, synchronous: true) { product { id handle status totalInventory variants(first: 5) { nodes { id title sku price inventoryQuantity } } media(first: 16) { nodes { alt status } } } userErrors { field message code } }
+  necklace: productSet(input: $necklace, synchronous: true) { product { id handle status totalInventory variants(first: 5) { nodes { id title sku price inventoryQuantity } } media(first: 16) { nodes { alt status } } } userErrors { field message code } }
+  off0: publicationUpdate(id: "gid://shopify/Publication/164676042914", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off1: publicationUpdate(id: "gid://shopify/Publication/164676108450", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off2: publicationUpdate(id: "gid://shopify/Publication/167637745826", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off3: publicationUpdate(id: "gid://shopify/Publication/175106293922", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off4: publicationUpdate(id: "gid://shopify/Publication/180607254690", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off5: publicationUpdate(id: "gid://shopify/Publication/180607746210", input: $off) { publication { id autoPublish } userErrors { field message } }
+}
