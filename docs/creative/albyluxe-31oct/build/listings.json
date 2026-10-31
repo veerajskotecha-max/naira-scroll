@@ -411,11 +411,12 @@
   "cost": "pay at most ₹360 (buy book, for a 60% margin)",
   "sku": "SPH",
   "review": "change",
-  "status": "ship",
+  "status": "hold",
   "owner_note": "Sqiare if is ear rinf",
   "changes": [
    "Reshot as square huggies, as in the buy-book photo; the first photos showed round hoops."
-  ]
+  ],
+  "final": "Held back on the final approval page (31 Oct)."
  },
  {
   "id": "A14",
@@ -443,11 +444,12 @@
   "cost": "pay at most ₹435 (buy book, for a 60% margin)",
   "sku": "SBH",
   "review": "change",
-  "status": "ship",
+  "status": "hold",
   "owner_note": "Diamond is plain solitaire and check errors",
   "changes": [
    "The stone is now a plain solitaire in four claws on a small ring, as in the buy-book photo; the first photos set it in a gold cup and drew the huggie too big."
-  ]
+  ],
+  "final": "Held back on the final approval page (31 Oct)."
  },
  {
   "id": "A15",
@@ -507,12 +509,13 @@
   "cost": "not given",
   "sku": "HTN",
   "review": "change",
-  "status": "ship",
+  "status": "hold",
   "owner_note": "Diamond below not pearl and also chain is stiff and check proper",
   "changes": [
    "The drop is a clear stone, not a pearl, as you said: renamed from Herringbone Pearl Drop Necklace, and all four photos reshot with a narrow, firm herringbone chain.",
    "Sizes re-measured from your photo: the chain is about 2 mm wide and the drop about 8 × 12 mm, hanging point up. These are estimates until the stock is measured."
-  ]
+  ],
+  "final": "Held back on the final approval page (31 Oct)."
  },
  {
   "id": "B01",
@@ -834,11 +837,12 @@
   "cost": "pay at most ₹435 (buy book, for a 60% margin)",
   "sku": "ACH",
   "review": "change",
-  "status": "ship",
+  "status": "hold",
   "owner_note": "Check stones how it looks blue its sqiare and full till the end?",
   "changes": [
    "Reshot with the three square aqua stones filling the whole front, end to end, as in the buy-book photo. The colour matches the buy-book photo (measured)."
-  ]
+  ],
+  "final": "Held back on the final approval page (31 Oct)."
  },
  {
   "id": "B12",
