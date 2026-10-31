@@ -26,10 +26,10 @@ SPEC = {
     "B13": ("bracelet", (17, (17, 20), "Length is approximate.")),
     "A09": ("necklace", ([40], "40 cm · seven drops of 5 mm")),
     "A10": ("necklace", ([45], "45 cm · pear 9 × 13 mm")),
-    "A16": ("necklace", ([45], "45 cm · pearl 8 × 10 mm")),
+    "A16": ("necklace", ([45], "45 cm · teardrop 6 × 8 mm")),
     "B02": ("necklace", ([42], "42 cm · emerald-cut 6 × 4 mm")),
     "B03": ("necklace", ([45], "About 90 cm · doubled, about 45 cm")),
-    "B04": ("necklace", ([45], "45 cm · heart 12 mm")),
+    "B04": ("necklace", ([45], "45 cm · heart 6 mm")),
     "B07": ("necklace", ([40], "40 cm · drops of 5 mm")),
     "B10": ("necklace", ([45], "45 cm · cushion 9 mm")),
 }

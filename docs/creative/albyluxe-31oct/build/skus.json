@@ -21,7 +21,7 @@
   "lock": "AN OPEN TOI-ET-MOI RING: a slim plain polished gold band about 1.5mm wide that does NOT close; its two open ends meet side by side at the front and each carries one heart: on one end a PUFFED solid polished gold HEART, smooth and domed, and on the other end ONE clear HEART-shaped faceted stone held in fine gold claws. The two hearts sit side by side, almost touching, facing up.",
   "neg": "Exactly two hearts: one smooth solid gold puffed heart and one clear faceted heart stone; never two gold hearts, never two stones, never a pearl, never a halo or pave around the stone; the band stays plain and slim.",
   "scale": "The gold heart is about 7mm across and the clear heart about 6mm, each smaller than a fingernail; the band is about 1.5mm wide.",
-  "wscale": "On the finger the two hearts together span about 13mm, never wider than the finger; the band is a fine line.",
+  "wscale": "On the finger the two hearts sit side by side ACROSS the top of the finger, level with each other and about the same small size, together about 13mm, never wider than the finger; the gold heart is never bigger than the clear heart; the band is a fine line.",
   "place": "standing upright on the top face, the two hearts at the front facing the camera, the open band behind",
   "macro": "the two hearts side by side: the polished puffed gold heart and the faceted clear heart stone in its claws",
   "det": "A02_worn"
@@ -61,7 +61,7 @@
   "lock": "A SLIM TWO-STONE RING: a plain polished gold band about 2mm wide, CLOSED all the way round, carrying at the top ONE OVAL faceted emerald-green stone in a four-claw gold setting, its long axis along the band, and right beside it ONE small clear PEAR-shaped stone in fine claws, set at a slant.",
   "neg": "Exactly two stones: one green oval and one small clear pear; never a halo, never pave, never three stones; the band is closed and plain, never open, never split; the oval stays oval, never round or emerald-cut.",
   "scale": "The oval is about 5x7mm and the clear pear about 3x4mm; the band is about 2mm wide.",
-  "wscale": "On the finger the two stones span about 10mm, well inside the width of the finger.",
+  "wscale": "On the finger the oval and its ONE small pear span about 10mm; the pear sits on ONE side of the oval only and the other side of the oval is plain band: two stones in all, never three.",
   "place": "standing upright on the top face, the stones at the top facing the camera",
   "macro": "the green oval in its four claws with the small clear pear beside it",
   "det": "A05all_hd"
@@ -166,12 +166,12 @@
   "metal": "gold",
   "ref": "A12_hd",
   "note": "they hang on a black velvet T-shaped earring stand on dark red velvet: ignore the stand and the velvet.",
-  "lock": "A PAIR OF HEART DROP HUGGIES: each is a small gold huggie hoop with a hinged click closure, its front set with one fine line of tiny clear stones, and hanging from the bottom of the hoop ONE clear HEART-shaped faceted stone in a thin gold bezel, point down.",
-  "neg": "One heart per earring, clear, never pink; one fine line of tiny stones on the hoop, never baguettes; no second drop.",
-  "scale": "Each hoop is about 11mm tall and the heart about 6mm; the whole earring about 19mm long.",
-  "wscale": "The huggie hugs the lobe and the heart hangs just below it; the whole earring is about the height of the lobe.",
+  "lock": "A PAIR OF HEART DROP HUGGIES: each is a slim polished gold huggie hoop about 11mm across whose front face is set with ONE row of small clear stones; from the bottom of the hoop a tiny gold jump ring holds ONE clear HEART-shaped faceted stone, point down, held only by FINE GOLD CLAWS at its edge (an open claw setting, the stone's sides and back open to the light), with a small bail at the top between its two lobes.",
+  "neg": "The heart sits in fine claws, NEVER in a solid gold cup, bezel, frame or rim; one clear heart per earring, point down; the hoop is slim with one row of small stones; no halo.",
+  "scale": "Each hoop is about 11mm; the heart is about 6mm across; each earring is about 19mm long.",
+  "wscale": "On the lobe the slim hoop hugs the lobe and the 6mm heart hangs just below it, smaller than a fingernail.",
   "place": "both earrings standing upright side by side on the top face, the hearts hanging at the front",
-  "macro": "ONE huggie, its line of tiny stones and the heart drop in its bezel"
+  "macro": "ONE earring: the clear heart in its fine claws on the jump ring, and the row of small stones on the hoop"
  },
  "A13": {
   "name": "Slim Pave Huggies",
@@ -179,12 +179,12 @@
   "metal": "gold",
   "ref": "A13_hd",
   "note": "they hang on a black velvet T-shaped stand in a shop: ignore the stand, the hand and the bracelets behind.",
-  "lock": "A PAIR OF SLIM PAVE HUGGIES: each is a slim gold huggie hoop about 2mm wide, its front face set with ONE single row of small round clear stones from top to bottom, with a hinged click closure.",
-  "neg": "One row of stones only, never two or three rows, never baguettes; no drops, no charms.",
-  "scale": "Each hoop is about 13mm tall and 2mm wide; each stone is about 1.5mm.",
-  "wscale": "Each huggie hugs the earlobe, about 13mm tall, the size of the lobe.",
-  "place": "both huggies standing upright side by side on the top face, the stone rows facing the camera",
-  "macro": "ONE huggie, its single row of round stones and the gold edges"
+  "lock": "A PAIR OF SQUARE PAVE HUGGIES: each is a slim gold huggie shaped as a ROUNDED SQUARE seen from the side: a straight vertical front edge, a flat straight bottom and a straight back, with small rounded corners, about 13mm tall and 2mm wide; its straight front face is set with ONE row of small round clear stones from top to bottom; hinged click closure at the top.",
+  "neg": "The huggie is a square with softly rounded corners, NEVER a round hoop, never an oval; one row of stones only; no drops, no charms.",
+  "scale": "Each huggie is about 13mm tall, 13mm deep and 2mm wide; each stone is about 1.5mm.",
+  "wscale": "On the lobe each square huggie is about 13mm, its straight front edge running down the front of the lobe.",
+  "place": "both huggies standing upright side by side on the top face, seen from the side so their square shape is clear, the stone rows facing the camera",
+  "macro": "ONE square huggie: its straight row of round stones and one rounded corner"
  },
  "A14": {
   "name": "Solitaire Bar Huggies",
@@ -192,12 +192,12 @@
   "metal": "gold",
   "ref": "A14_hd",
   "note": "they hang on a black velvet T-shaped earring stand on dark red velvet: ignore the stand and the velvet.",
-  "lock": "A PAIR OF BOLD HUGGIE DROPS: each is a chunky polished gold huggie, a wide smooth band about 8mm wide folded round the lobe as a rounded rectangle, and hanging from its bottom ONE round clear faceted stone in a thin gold bezel.",
-  "neg": "One round stone per earring, clear, never pear or heart; the huggie stays smooth polished gold, never pave, never textured.",
-  "scale": "Each huggie is about 8mm wide and 10mm tall; the round stone is about 6mm; the whole earring is about 18mm long.",
-  "wscale": "On the lobe the gold huggie is about 8mm wide and the stone hangs just below the lobe.",
+  "lock": "A PAIR OF SOLITAIRE DROP HUGGIES: each is a WIDE polished gold huggie, a smooth plain band about 8mm wide and about 9mm tall that hugs the lobe; from a small gold jump ring at its bottom hangs ONE round brilliant clear stone of about 6mm in a PLAIN CLAW SETTING (four fine claws holding the stone, its sides open), a plain solitaire with no cup, no bezel and no halo.",
+  "neg": "The stone is a plain claw-set solitaire, NEVER in a gold bezel, cup or collar, never with a halo; the huggie is plain polished gold with no stones and no texture, and never bigger than about 9mm; one drop per earring.",
+  "scale": "Each huggie is about 8mm wide and 9mm tall; the round stone is about 6mm; the whole earring is about 18mm long.",
+  "wscale": "On the lobe the gold huggie is about 8mm wide and the claw-set stone hangs just below the lobe.",
   "place": "both earrings standing upright side by side on the top face, the stones hanging at the front",
-  "macro": "ONE earring: the wide polished gold huggie and the round stone in its bezel"
+  "macro": "ONE earring: the wide polished gold huggie and the round solitaire in its fine claws, hanging from the jump ring"
  },
  "A15": {
   "name": "Pave Open Heart Studs",
@@ -205,25 +205,25 @@
   "metal": "silver",
   "ref": "A15_hd",
   "note": "they sit on a black card in a gift box held in a hand: ignore the card, the box, the hand and the velvet.",
-  "lock": "A PAIR OF OPEN HEART STUDS: each earring is an open HEART OUTLINE with a slightly pointed base, its outline set with TWO fine rows of tiny round clear pave stones side by side in bright silver tone metal, the middle of the heart completely empty, on a post.",
-  "neg": "The heart is an outline only, never filled, never a solid stone; tiny clear pave stones only, never pearls, never coloured; no drops, no halo outside the outline.",
-  "scale": "Each heart is about 11mm across, about the size of a small fingernail; the outline is about 1.5mm wide.",
-  "wscale": "On the earlobe each heart is about 11mm, sitting in the centre of the lobe.",
-  "place": "both studs lying flat side by side on the top face, facing up",
-  "macro": "ONE heart outline and its two fine rows of tiny pave stones"
+  "lock": "A PAIR OF OPEN HEART STUDS: each is a CLASSIC SYMMETRIC HEART OUTLINE standing upright: two equal rounded lobes at the top and one point straight down at the bottom, the left half a mirror image of the right; the outline is set with TWO fine rows of tiny round clear pave stones in bright silver tone metal, and the middle of the heart is completely open; on a post.",
+  "neg": "The heart is upright and perfectly symmetric, NEVER tilted, never slanted, never lopsided, never with one lobe bigger than the other; an outline only, never filled; tiny clear pave only, never pearls; no drops.",
+  "scale": "Each heart is about 11mm across and 11mm tall; the outline is about 1.5mm wide.",
+  "wscale": "On the earlobe each heart is about 11mm, upright with its point straight down, sitting in the centre of the lobe.",
+  "place": "both studs lying flat side by side on the top face, upright, facing up",
+  "macro": "ONE heart: its symmetric outline and its two fine rows of tiny pave stones"
  },
  "A16": {
-  "name": "Herringbone Pearl Drop Necklace",
+  "name": "Herringbone Teardrop Necklace",
   "kind": "necklace",
   "metal": "gold",
   "ref": "A16_full",
-  "note": "it is worn by a woman in a white top: ignore her, her top and her skin, and take only the necklace.",
-  "lock": "A HERRINGBONE PEARL DROP NECKLACE: a flat polished gold HERRINGBONE chain about 3mm wide, and at the front ONE white teardrop pearl hanging from a small gold bail.",
-  "neg": "One pearl only, a white teardrop; the chain stays a flat herringbone that lies flat and shines, never a rope, never a curb, never beads.",
-  "scale": "The chain is about 3mm wide; the pearl is about 8x10mm.",
-  "wscale": "Worn, the chain lies flat on the collarbones and the pearl hangs at the base of the throat, smaller than a fingernail.",
-  "place": "laid on the top face in a soft V, the pearl at the front",
-  "macro": "the herringbone chain and the pearl drop on its bail"
+  "note": "it is worn by a woman in a white top: ignore her, her top and her skin, and take only the necklace. The photo is small and soft: the drop that reads white is a CLEAR faceted cubic zirconia teardrop, not a pearl.",
+  "lock": "A SLIM HERRINGBONE TEARDROP NECKLACE: a NARROW flat polished gold herringbone chain about 2.5mm wide, firm and stiff so it lies in smooth straight runs with clean bends, never in soft folds; at the centre front ONE small clear PEAR-cut faceted stone, a teardrop about 6x8mm with its point up, held in fine gold claws and hanging from a tiny gold bail.",
+  "neg": "The drop is a clear, faceted, sparkling stone, NEVER a pearl, never white or opaque, never a round bead; one drop only; the chain is a narrow herringbone of about 2.5mm, never wide, never a rope, curb or cable.",
+  "scale": "The chain is about 2.5mm wide; the teardrop is about 6x8mm, smaller than a fingernail.",
+  "wscale": "Worn, the narrow chain lies flat and smooth on the collarbones and the small clear teardrop hangs at the base of the throat.",
+  "place": "laid on the top face in a soft V, the teardrop at the front",
+  "macro": "the narrow herringbone chain and the clear teardrop in its fine claws on the bail"
  },
  "B01": {
   "name": "Rouge Heart Bar Bracelet",
@@ -231,12 +231,12 @@
   "metal": "rose",
   "ref": "B01_hd",
   "note": "it is a product photo on cream fabric with a grey score badge in the corner: ignore the badge and the fabric.",
-  "lock": "A HEART BAR SLIDER BRACELET: a smooth curved rose-gold half-bangle BAR at the front, about 6cm long, joined at both ends to a fine rose-gold cable chain with a sliding bead closure; set against one end of the bar, ONE puffed HEART covered all over in tiny RED pave stones, deepening to dark red at its edges, with ONE round clear stone in a polished rose-gold collar at its centre.",
-  "neg": "One heart only, red pave with one clear centre stone; the bar stays smooth and plain; the chain is fine.",
-  "scale": "The heart is about 11mm across with a centre stone of about 4mm; the bar is about 2mm thick.",
-  "wscale": "On the wrist the curved bar lies across the top of the wrist with the heart near one end.",
-  "place": "lying on the top face, the bar curved at the front and the chain looping behind",
-  "macro": "the red pave heart and its clear centre stone in the rose-gold collar"
+  "lock": "A ROUGE HEART BAR BRACELET: a slim, FLEXIBLE rose-gold BAR about 2mm thick that runs in ONE STRAIGHT LINE, with ONE puffed HEART covered all over in tiny red pave stones, deep red shading to pink and orange towards its point, with ONE round clear stone in a polished rose-gold collar at its centre, set IN LINE at the middle of the bar: the bar continues straight out of the left side and the right side of the heart. Both ends of the bar join a fine rose-gold cable chain that closes underneath with a sliding bead.",
+  "neg": "The bar and the heart make one straight line through the heart, NEVER bent into a V, an angle or a zigzag at the heart, never a rigid open cuff; one heart only, red pave with one clear centre stone; the chain is fine.",
+  "scale": "The heart is about 11mm across with a centre stone of about 4mm; the bar is about 2mm thick and about 6cm long.",
+  "wscale": "On the wrist the bar lies straight across the top of the wrist with the heart in the centre, the fine chain running underneath.",
+  "place": "lying on the top face, the bar and the heart in one straight line at the front and the chain looping behind",
+  "macro": "the red pave heart and its clear centre stone, with the straight rose-gold bar running out of both sides of it"
  },
  "B02": {
   "name": "Emerald Station Snake Chain",
@@ -273,8 +273,8 @@
   "note": "it is a product photo on cream with a grey score badge in the corner: ignore the badge.",
   "lock": "A HEART PENDANT: ONE puffed HEART covered all over in tiny RED pave stones, deepening from bright red to dark red at its edges, with ONE round clear stone in a polished rose-gold collar at its centre, hanging from a fine rose-gold cable chain by a small bail.",
   "neg": "One heart only, red pave with one clear centre stone; never a plain metal heart, never pink; one bail, one fine chain.",
-  "scale": "The heart is about 12mm across with a centre stone of about 4.5mm.",
-  "wscale": "Worn, the heart sits just below the hollow of the throat, about the size of a fingernail.",
+  "scale": "The heart is SMALL and dainty: about 6mm across, smaller than a fingernail, with a centre stone of about 2.5mm, on a fine chain.",
+  "wscale": "Worn, the small 6mm heart sits just below the hollow of the throat, about the size of a small fingernail, on a fine thread of chain.",
   "place": "laid on the top face with the chain in a soft V and the heart at the front",
   "macro": "the red pave heart and its clear centre stone in the rose-gold collar"
  },
@@ -362,12 +362,12 @@
   "metal": "gold",
   "ref": "B11_hd",
   "note": "they hang on a white STAINLESS STEEL card held in a hand: ignore the card, the hand and the ring on the finger.",
-  "lock": "A PAIR OF CHANNEL HUGGIES: each is a polished gold huggie shaped as an ELONGATED rounded oval, clearly TALLER than it is deep, like a stretched letter U closed at the top, with a hinged click closure; its flat front face carries a channel of THREE light aqua-blue square stones in a vertical line between two gold rails, with plain polished gold above and below them.",
-  "neg": "Exactly three aqua square stones on each front; never clear, never round stones; the huggie is a tall narrow oval, never a perfect circle, never a wide chunky hoop; no drops.",
-  "scale": "Each huggie is about 15mm tall, 9mm deep and 4mm wide; each stone about 3.5mm.",
+  "lock": "A PAIR OF CHANNEL HUGGIES: each is a polished gold huggie shaped as an ELONGATED rounded oval, clearly TALLER than it is deep, like a stretched letter U closed at the top, with a hinged click closure; its flat front face carries a channel of THREE SQUARE light aqua-blue stones that FILL THE WHOLE STRAIGHT FRONT from the very top to the very bottom, edge to edge, separated only by thin gold bars, with no plain gold section above or below them.",
+  "neg": "Exactly three square aqua-blue stones on each front, filling it end to end; NEVER a plain gold stretch above or below the stones; never clear, never round stones; the huggie is a tall narrow oval, never a perfect circle; no drops.",
+  "scale": "Each huggie is about 15mm tall, 9mm deep and 4mm wide; each square stone is about 4.5mm.",
   "wscale": "Each huggie hugs the earlobe, about 15mm tall.",
   "place": "both huggies standing upright side by side on the top face, the aqua channels facing the camera",
-  "macro": "ONE huggie: the three aqua squares in their gold channel"
+  "macro": "ONE huggie: the three square aqua stones filling its gold channel end to end"
  },
  "B12": {
   "name": "Verdant Pear Drop Huggies",

@@ -1,7 +1,8 @@
 # Stone-only recolours for the 31 Oct rings, after ../../clover-garland/build/recolour.py: the green stones in the approved
 # photos become the other colours the supplier makes, so the ring, its size, the light and the model stay identical.
 #   Duet Emerald-Cut Ring (A04): the green emerald-cut becomes Pink (the soft pink in the owner's photo) or Clear (#19);
-#   Oval Duet Ring (A05): the emerald-green oval becomes Sapphire Blue, Citrine Yellow or Olive Green (the supplier's four).
+#   Oval Duet Ring (A05): the emerald-green oval becomes Sapphire Blue, Citrine Yellow or Olive Green (the supplier's four). Sapphire is the
+#   deep navy of the buy-book photo (measured there at L 21, C 24, hue 292; the first, brighter royal blue was sent back by the owner).
 # The green stone sits at CIELab hue 120-200 degrees with clear chroma; gold, skin, plaster, hair and the saffron camisole sit
 # below 100, so a hue window picks the stone alone. In worn frames only pixels within about 80px of the stone change.
 # A colour keeps each pixel's shading relative to the stone's median; Clear maps lightness by rank onto a clear stone's.
@@ -11,7 +12,7 @@ import os, sys
 import numpy as np, cv2
 from PIL import Image
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "out")
-TARGET = {"pink": (75, 33, 6, 0.85), "sapphire": (36, 46, 285, 1.0), "citrine": (80, 62, 88, 0.8), "olive": (52, 34, 112, 0.9)}
+TARGET = {"pink": (75, 33, 6, 0.85), "sapphire": (29, 31, 291, 0.9), "citrine": (80, 62, 88, 0.8), "olive": (52, 34, 112, 0.9)}
 CLEAR = [40, 62, 84, 92, 97, 99.5, 100]
 NEUTRAL = (0.8, 2.0)
 
