@@ -24,7 +24,8 @@
   "wscale": "On the finger the two hearts sit side by side ACROSS the top of the finger, level with each other and about the same small size, together about 13mm, never wider than the finger; the gold heart is never bigger than the clear heart; the band is a fine line.",
   "place": "standing upright on the top face, the two hearts at the front facing the camera, the open band behind",
   "macro": "the two hearts side by side: the polished puffed gold heart and the faceted clear heart stone in its claws",
-  "det": "A02_worn"
+  "det": "A02_worn",
+  "wref": "hero"
  },
  "A02p": {
   "name": "Heart Duet Open Ring, Pearl",
@@ -218,12 +219,12 @@
   "metal": "gold",
   "ref": "A16_full",
   "note": "it is worn by a woman in a white top: ignore her, her top and her skin, and take only the necklace. The photo is small and soft: the drop that reads white is a CLEAR faceted cubic zirconia teardrop, not a pearl.",
-  "lock": "A SLIM HERRINGBONE TEARDROP NECKLACE: a NARROW flat polished gold herringbone chain about 2.5mm wide, firm and stiff so it lies in smooth straight runs with clean bends, never in soft folds; at the centre front ONE small clear PEAR-cut faceted stone, a teardrop about 6x8mm with its point up, held in fine gold claws and hanging from a tiny gold bail.",
-  "neg": "The drop is a clear, faceted, sparkling stone, NEVER a pearl, never white or opaque, never a round bead; one drop only; the chain is a narrow herringbone of about 2.5mm, never wide, never a rope, curb or cable.",
-  "scale": "The chain is about 2.5mm wide; the teardrop is about 6x8mm, smaller than a fingernail.",
-  "wscale": "Worn, the narrow chain lies flat and smooth on the collarbones and the small clear teardrop hangs at the base of the throat.",
-  "place": "laid on the top face in a soft V, the teardrop at the front",
-  "macro": "the narrow herringbone chain and the clear teardrop in its fine claws on the bail"
+  "lock": "A FINE HERRINGBONE TEARDROP NECKLACE: a NARROW flat polished gold herringbone chain about 2mm wide, stiff, so it lies in smooth straight runs with clean bends, never in soft folds; at the centre front ONE clear PEAR-cut faceted stone, about 8x12mm, hanging POINT UP like a falling drop of water: its narrow pointed tip at the TOP, joined to a tiny gold bail on the chain, and its round full end at the BOTTOM, held in fine gold claws. Next to the teardrop the chain reads as a fine bright line, only about one fifth of the teardrop's width.",
+  "neg": "The drop is a clear, faceted, sparkling stone, NEVER a pearl, never white or opaque, never a round bead; it hangs point UP, never upside down with its wide end at the top, never a shield or heart shape; one drop only; the chain is a narrow 2mm herringbone, never a wide flat ribbon, never as wide as the bail, never a rope, curb or cable.",
+  "scale": "The chain is about 2mm wide, about one fifth of the teardrop's width; the teardrop is about 8x12mm, about the size of a fingernail.",
+  "wscale": "Worn, the fine chain lies flat and smooth on the collarbones like a thin bright line, and the clear teardrop, about the size of a fingernail, hangs point up just below the hollow of the throat.",
+  "place": "laid on the top face in a long smooth V, the teardrop at the point of the V near the front edge",
+  "macro": "the clear teardrop hanging point up from its tiny bail on the narrow herringbone chain, the stone in its fine claws"
  },
  "B01": {
   "name": "Rouge Heart Bar Bracelet",

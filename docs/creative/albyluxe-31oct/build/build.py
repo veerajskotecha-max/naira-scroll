@@ -24,7 +24,10 @@ METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver
          "tri-tone": "rose-gold tone, bright silver tone and warm gold tone exactly where IMAGE 1 shows them",
          "rose": "soft rose-gold tone, a pinkish gold, never copper-orange, never yellow gold, never silver"}
 
-def refs(s, plate, hero=None):
+def refs(s, plate, hero=None, worn=False):
+    if worn and hero and s.get("wref") == "hero":                # the supplier photo kept leaking its backdrop into worn frames
+        return ([hero, PL[plate]], "IMAGE 1 is our approved packshot of this exact piece and the ONLY authority on what it is: copy its construction, "
+                "size, proportions, metal colour and stone colour EXACTLY; ignore its cube and its background.", 2)
     ids = [R[s["ref"]]]
     names = ("IMAGE 1 is the supplier photograph and the ONLY authority on what this piece is: copy its construction, its metal colour and its stone colour EXACTLY; "
              + s["note"])
@@ -100,7 +103,7 @@ def prompt(k, shot):
                   "SHOT: A worn photograph, the head and shoulders turned a quarter to the side, the necklace following the collarbone, close enough that its links or stones are countable. 4:5 vertical, full bleed.")
             crop = LIP + " Inside the frame: chin, neck, collarbones, shoulders and upper chest."
             where = "worn around the neck"
-        ids, rn, n = refs(s, plate, hero)
+        ids, rn, n = refs(s, plate, hero, worn=True)
         p = (f"{sh}\n\n{crop}\n\nTHE PRODUCT: {rn} IMAGE {n} is the authority on the model, skin, garment, hair, ground and light: match it exactly, "
              f"but she wears ONLY the piece from IMAGE 1, {where}; any other jewellery in IMAGE {n} is removed.\n\n{MODEL}\n\n"
              f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {s.get('wscale') or s['scale']} The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\n"
