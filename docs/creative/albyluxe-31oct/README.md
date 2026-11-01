@@ -20,7 +20,10 @@ After the review they asked for three things: make the changes they asked for, h
   - Each piece has Ship and Hold back. "Approve all N for Shopify" records the sign-off.
   - Choices are saved in the page's database: `final/<id>` and `final/signoff`.
 - **The review page.** <https://claude.ai/artifact/K7RkNg1b5Zbqi58Cxyb5k3>. The owner's decisions are in `decisions/<id>`.
-- **Nothing has gone to Shopify.** No Meta ad was changed.
+- **Shipped on 1 Nov (06:47 UTC).** The 17 pieces still marked Ship are live on all 6 sales channels, 5 units per variant:
+  A01, A02, A04, A05, A06, A07, A08, A09, A10, A11, A12, A15, B01, B02, B04, B05 and B12. The owner held back A13, A14, A16
+  and B11 on the final page. With the 7 held at review, 11 pieces are not listed. See "Shipped" below.
+- **No Meta ad was changed.**
 
 ## The owner's review
 
@@ -147,11 +150,12 @@ Every size is an estimate from photos until the stock is measured.
 
 ## Open questions (also on the page)
 
-- **B05 Pastel Trio Cluster Studs.** ₹3,499 with no compare-at price, as typed in the review: confirm, since it was ₹899.
+- **B05 Pastel Trio Cluster Studs.** Live at ₹3,499 with no compare-at price, as typed in the review and kept on the final
+  page. It was ₹899 before the review: say if it should change.
 - **B02 Emerald Station Snake Chain.** The right side stone is pale champagne: confirm the shade with Albyluxe.
-- **A14 Solitaire Bar Huggies.** A new listing, not +4 units on the live Solitaire Drop Huggies (₹649, `ADT27`). The live pair has a slim 2.5 mm huggie and a 4 mm stone; this one has a wide huggie and a 6 mm stone.
-- **A16 Herringbone Teardrop Necklace.** The chain (about 2 mm) and the drop (about 8 × 12 mm) are measured from the owner's photo; it carries a 316L PVD label.
-- **B04 Rouge Heart Pendant.** The photos are halved, as asked. The copy keeps about 12 mm, because the clear centre stone is about 40% of the heart in the buy-book photo (a 12 mm heart with a 4.5 mm stone). If the heart in hand is smaller, the copy changes.
+- **A14 Solitaire Bar Huggies.** A new listing, not +4 units on the live Solitaire Drop Huggies (now ₹799, `ADT27`). The live pair has a slim 2.5 mm huggie and a 4 mm stone; this one has a wide huggie and a 6 mm stone.
+- **A16 Herringbone Teardrop Necklace.** Held back. The chain (about 2 mm) and the drop (about 8 × 12 mm) are measured from the owner's photo; it carries a 316L PVD label.
+- **B04 Rouge Heart Pendant.** Live. The photos are halved, as asked. The copy keeps about 12 mm, because the clear centre stone is about 40% of the heart in the buy-book photo (a 12 mm heart with a 4.5 mm stone). If the heart in hand is smaller, the copy changes.
 - **Closed-band ring sizes.** A01, A05 and A06 assume 6 to 8.
 - **316L PVD labels.** A08, A13 and A16 carry them. The copy quotes the label and makes no waterproof or tarnish claim.
 
@@ -163,12 +167,36 @@ Every size is an estimate from photos until the stock is measured.
 - `cards/`: the size cards (`<handle>-size-guide.jpg`).
 - `review/`: the review page and its images, from `build/review.py`.
 - `final/`: the final approval page and its images, from `build/final.py`.
+- `shopify/`: the ship mutation (`ship_31oct.graphql`, `ship_31oct.json`) and the shipped ids (`pushed_31oct.json`).
 
-## On "ship"
+## Shipped (1 Nov 2026)
 
-Ship only what the owner signs off on the final page (`final/signoff`), in one mutation, as `../clover-garland/build/ship_30oct.py` did:
+The owner said "Ship ones approved". The final page's database held back A13, A14, A16 and B11 and had no sign-off, so the
+17 pieces still marked Ship went. `build/ship_31oct.py` built `shopify/ship_31oct.graphql` and `shopify/ship_31oct.json` from
+`build/listings.json` and `build/frames.json`. `build/put.py` put the exports and cards on Higgsfield's store for public URLs
+(`build/url_map.json`).
 
-1. Put the exports and cards on Higgsfield's store for public URLs (`build/put.py`).
-2. Turn autoPublish on for the six sales channels.
-3. Run one productSet per approved listing: ACTIVE, with variants, stock, photos, each variant's hero, the size card last, metafields and SEO.
-4. Turn autoPublish off again.
+- **The mutation (1 Nov, 06:47 UTC).** It turned autoPublish on for the six sales channels and ran one productSet per listing:
+  ACTIVE, with variants, 5 units each, photos variant by variant, each variant's hero, the size card last under its linked
+  name, metafields and SEO. Then it turned autoPublish off again. No user errors.
+- **Verified (1 Nov, 07:00 UTC).**
+  - All 17 are ACTIVE on all 6 channels: 25 variants at 5 units each (125 in all), inventory policy DENY, prices and
+    compare-at prices as approved. B05 is ₹3,499 with no compare-at price.
+  - Type, category, tags, SEO titles and the Google and Facebook category metafields follow the live listings of each type.
+    autoPublish is off again on all six channels.
+  - All 108 media are READY: 91 photos and 17 size cards, each card last in its gallery. Each variant's image is its own
+    first photo.
+  - All 108 CDN copies match the exports, with a mean difference of 0.45 to 0.52 out of 255. Each matches its own file
+    better than any other in its listing. On the colour rings (A02, A04, A05), compared only where two colours differ, each
+    photo is 16 to 68 times closer to its own colour than to the next.
+  - The Storefront API reads all 17 as available, every variant buyable, the alt texts as built and the size card last in
+    the gallery. Each description's size-guide link returns the card.
+- **Storefront.** The snapshot was regenerated (Lovable repo, same branch, `e9496d3`; 155 live handles, 134 snapshot pieces)
+  and its 454 tests pass. It also picked up changes made in Shopify since 31 Oct: Solitaire Drop Huggies ₹649 to ₹799, Lotus
+  Pear Drop Studs ₹945 to ₹1,099, and the Roman Numeral Trio Ring sold out. `shopify/pushed_31oct.json` has the ids.
+- **The site's own wording.** The storefront adds "anti-tarnish" to every piece's materials line, and "surgical stainless
+  steel" where a Material line names stainless steel (A07, A08). The Shopify copy makes neither claim.
+- **Not done.** No Meta ad was changed. The 11 held pieces are not listed: A13, A14, A16 and B11 from the final page, and B03,
+  B06 to B10 and B13 from the review. Their photos, copy and size cards stay here so they can ship later. Do not rerun
+  `build/ship_31oct.py` as it is: productSet without ids would create the 17 live pieces again. Build a mutation for the held
+  pieces only.

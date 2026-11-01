@@ -1,0 +1,365 @@
+{
+ "quintet-stack-ring": {
+  "id": "gid://shopify/Product/10375501381794",
+  "piece": "A01",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": "Size",
+  "variants": {
+   "6": [
+    "gid://shopify/ProductVariant/50785484701858",
+    "QSR-6",
+    5
+   ],
+   "7": [
+    "gid://shopify/ProductVariant/50785484734626",
+    "QSR-7",
+    5
+   ],
+   "8": [
+    "gid://shopify/ProductVariant/50785484767394",
+    "QSR-8",
+    5
+   ]
+  },
+  "price": "1499.00",
+  "compareAtPrice": "2999.00",
+  "photos": 4,
+  "sizeCard": "quintet-stack-ring-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "heart-duet-open-ring": {
+  "id": "gid://shopify/Product/10375501414562",
+  "piece": "A02",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": "Stone",
+  "variants": {
+   "Crystal": [
+    "gid://shopify/ProductVariant/50785484800162",
+    "HDR-CZ",
+    5
+   ],
+   "Pearl": [
+    "gid://shopify/ProductVariant/50785484832930",
+    "HDR-PL",
+    5
+   ]
+  },
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "photos": 6,
+  "sizeCard": "heart-duet-open-ring-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "duet-emerald-cut-ring": {
+  "id": "gid://shopify/Product/10375501447330",
+  "piece": "A04",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": "Colour",
+  "variants": {
+   "Green": [
+    "gid://shopify/ProductVariant/50785484865698",
+    "DER-GR",
+    5
+   ],
+   "Pink": [
+    "gid://shopify/ProductVariant/50785484898466",
+    "DER-PK",
+    5
+   ],
+   "Clear": [
+    "gid://shopify/ProductVariant/50785484931234",
+    "DER-CL",
+    5
+   ]
+  },
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "photos": 12,
+  "sizeCard": "duet-emerald-cut-ring-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "oval-duet-ring": {
+  "id": "gid://shopify/Product/10375501480098",
+  "piece": "A05",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": "Colour",
+  "variants": {
+   "Emerald Green": [
+    "gid://shopify/ProductVariant/50785484964002",
+    "ODR-EM",
+    5
+   ],
+   "Sapphire Blue": [
+    "gid://shopify/ProductVariant/50785484996770",
+    "ODR-SA",
+    5
+   ],
+   "Citrine Yellow": [
+    "gid://shopify/ProductVariant/50785485029538",
+    "ODR-CI",
+    5
+   ],
+   "Olive Green": [
+    "gid://shopify/ProductVariant/50785485062306",
+    "ODR-OL",
+    5
+   ]
+  },
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "photos": 16,
+  "sizeCard": "oval-duet-ring-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "marquise-charm-band": {
+  "id": "gid://shopify/Product/10375501512866",
+  "piece": "A06",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485095074",
+    "MCB-G",
+    5
+   ]
+  },
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "photos": 4,
+  "sizeCard": "marquise-charm-band-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "cascade-pear-drop-earrings": {
+  "id": "gid://shopify/Product/10375501545634",
+  "piece": "A07",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485127842",
+    "CPDE",
+    5
+   ]
+  },
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "photos": 4,
+  "sizeCard": "cascade-pear-drop-earrings-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "bow-and-heart-gift-set": {
+  "id": "gid://shopify/Product/10375501578402",
+  "piece": "A08",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485160610",
+    "BHGS",
+    5
+   ]
+  },
+  "price": "1499.00",
+  "compareAtPrice": "2800.00",
+  "photos": 5,
+  "sizeCard": "bow-and-heart-gift-set-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "trillion-fringe-necklace": {
+  "id": "gid://shopify/Product/10375501611170",
+  "piece": "A09",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485193378",
+    "TFN",
+    5
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "photos": 4,
+  "sizeCard": "trillion-fringe-necklace-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "verdant-pear-pendant-necklace": {
+  "id": "gid://shopify/Product/10375501643938",
+  "piece": "A10",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485226146",
+    "VPPN",
+    5
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "photos": 4,
+  "sizeCard": "verdant-pear-pendant-necklace-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "heartline-tennis-bracelet": {
+  "id": "gid://shopify/Product/10375501676706",
+  "piece": "A11",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485258914",
+    "HTB",
+    5
+   ]
+  },
+  "price": "1299.00",
+  "compareAtPrice": "2499.00",
+  "photos": 4,
+  "sizeCard": "heartline-tennis-bracelet-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "heart-solitaire-huggies": {
+  "id": "gid://shopify/Product/10375501709474",
+  "piece": "A12",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485291682",
+    "HSH",
+    5
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "photos": 4,
+  "sizeCard": "heart-solitaire-huggies-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "pave-open-heart-studs": {
+  "id": "gid://shopify/Product/10375501742242",
+  "piece": "A15",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485324450",
+    "POHS",
+    5
+   ]
+  },
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "photos": 4,
+  "sizeCard": "pave-open-heart-studs-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "rouge-heart-bar-bracelet": {
+  "id": "gid://shopify/Product/10375501775010",
+  "piece": "B01",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485357218",
+    "RHBB",
+    5
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "photos": 4,
+  "sizeCard": "rouge-heart-bar-bracelet-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "emerald-station-snake-chain": {
+  "id": "gid://shopify/Product/10375501807778",
+  "piece": "B02",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485389986",
+    "ESSC",
+    5
+   ]
+  },
+  "price": "1299.00",
+  "compareAtPrice": "2499.00",
+  "photos": 4,
+  "sizeCard": "emerald-station-snake-chain-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "rouge-heart-pendant": {
+  "id": "gid://shopify/Product/10375501840546",
+  "piece": "B04",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485422754",
+    "RHP",
+    5
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "photos": 4,
+  "sizeCard": "rouge-heart-pendant-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "pastel-trio-cluster-studs": {
+  "id": "gid://shopify/Product/10375501873314",
+  "piece": "B05",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485455522",
+    "PTCS",
+    5
+   ]
+  },
+  "price": "3499.00",
+  "compareAtPrice": null,
+  "photos": 4,
+  "sizeCard": "pastel-trio-cluster-studs-size-guide.jpg",
+  "shipped": "2026-11-01"
+ },
+ "verdant-pear-drop-huggies": {
+  "id": "gid://shopify/Product/10375501906082",
+  "piece": "B12",
+  "status": "ACTIVE",
+  "channels": 6,
+  "option": null,
+  "variants": {
+   "Default Title": [
+    "gid://shopify/ProductVariant/50785485488290",
+    "VPDH",
+    5
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "photos": 4,
+  "sizeCard": "verdant-pear-drop-huggies-size-guide.jpg",
+  "shipped": "2026-11-01"
+ }
+}
