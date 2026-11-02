@@ -1,0 +1,24 @@
+mutation New2Nov($on: PublicationUpdateInput!, $off: PublicationUpdateInput!, $pubs: [PublicationInput!]!, $n01: ProductSetInput!, $n02: ProductSetInput!, $n03: ProductSetInput!, $n04: ProductSetInput!, $n05: ProductSetInput!, $n06: ProductSetInput!, $n07: ProductSetInput!, $n08: ProductSetInput!, $n09: ProductSetInput!) {
+  on0: publicationUpdate(id: "gid://shopify/Publication/164676042914", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on1: publicationUpdate(id: "gid://shopify/Publication/164676108450", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on2: publicationUpdate(id: "gid://shopify/Publication/167637745826", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on3: publicationUpdate(id: "gid://shopify/Publication/175106293922", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on4: publicationUpdate(id: "gid://shopify/Publication/180607254690", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on5: publicationUpdate(id: "gid://shopify/Publication/180607746210", input: $on) { publication { id autoPublish } userErrors { field message } }
+  n01: productSet(input: $n01, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n02: productSet(input: $n02, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n03: productSet(input: $n03, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n04: productSet(input: $n04, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n05: productSet(input: $n05, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n06: productSet(input: $n06, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n07: productSet(input: $n07, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n08: productSet(input: $n08, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  n09: productSet(input: $n09, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  off0: publicationUpdate(id: "gid://shopify/Publication/164676042914", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off1: publicationUpdate(id: "gid://shopify/Publication/164676108450", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off2: publicationUpdate(id: "gid://shopify/Publication/167637745826", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off3: publicationUpdate(id: "gid://shopify/Publication/175106293922", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off4: publicationUpdate(id: "gid://shopify/Publication/180607254690", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off5: publicationUpdate(id: "gid://shopify/Publication/180607746210", input: $off) { publication { id autoPublish } userErrors { field message } }
+  a16pub: publishablePublish(id: "gid://shopify/Product/10377179857058", input: $pubs) { userErrors { field message } }
+}
