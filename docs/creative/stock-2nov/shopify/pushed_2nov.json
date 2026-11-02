@@ -10,7 +10,8 @@
   ],
   "photos": 3,
   "sizeCard": "bow-and-heart-gift-set-size-guide-v2.jpg",
-  "updated": "2026-11-02"
+  "updated": "2026-11-02",
+  "channels": 6
  },
  "heart-solitaire-huggies": {
   "id": "gid://shopify/Product/10375501709474",
@@ -23,7 +24,8 @@
   ],
   "photos": 3,
   "sizeCard": "heart-solitaire-huggies-size-guide-v2.jpg",
-  "updated": "2026-11-02"
+  "updated": "2026-11-02",
+  "channels": 6
  },
  "herringbone-teardrop-necklace": {
   "id": "gid://shopify/Product/10377179857058",
@@ -36,6 +38,142 @@
   ],
   "photos": 4,
   "sizeCard": "herringbone-teardrop-necklace-size-guide.jpg",
-  "created": "2026-11-02"
+  "created": "2026-11-02",
+  "channels": 6
+ },
+ "laurel-marquise-necklace": {
+  "id": "gid://shopify/Product/10377182937250",
+  "piece": "N01",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798484979874",
+   "LMN",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "laurel-marquise-necklace-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "soleil-petal-pendant": {
+  "id": "gid://shopify/Product/10377183002786",
+  "piece": "N02",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485045410",
+   "SPP",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "soleil-petal-pendant-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "pearl-crescent-pendant": {
+  "id": "gid://shopify/Product/10377183035554",
+  "piece": "N03",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485078178",
+   "PCP",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "pearl-crescent-pendant-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "molten-solitaire-pendant": {
+  "id": "gid://shopify/Product/10377183068322",
+  "piece": "N04",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485110946",
+   "MSP",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "molten-solitaire-pendant-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "petite-pear-solitaire-necklace": {
+  "id": "gid://shopify/Product/10377183101090",
+  "piece": "N05",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485143714",
+   "PPSN",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "petite-pear-solitaire-necklace-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "petite-fleur-y-necklace": {
+  "id": "gid://shopify/Product/10377183133858",
+  "piece": "N06",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485176482",
+   "PFYN",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "petite-fleur-y-necklace-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "asscher-solitaire-pendant": {
+  "id": "gid://shopify/Product/10377183166626",
+  "piece": "N07",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485209250",
+   "ASP",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "asscher-solitaire-pendant-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "cushion-bezel-pendant": {
+  "id": "gid://shopify/Product/10377183199394",
+  "piece": "N08",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485242018",
+   "CBP",
+   5
+  ],
+  "photos": 0,
+  "sizeCard": "cushion-bezel-pendant-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
+ },
+ "petite-heart-trio-necklace": {
+  "id": "gid://shopify/Product/10377183232162",
+  "piece": "N09",
+  "status": "DRAFT",
+  "channels": 6,
+  "variant": [
+   "gid://shopify/ProductVariant/50798485274786",
+   "PHTN",
+   5
+  ],
+  "photos": 1,
+  "sizeCard": "petite-heart-trio-necklace-size-guide.jpg",
+  "created": "2026-11-02",
+  "photosPending": true
  }
 }

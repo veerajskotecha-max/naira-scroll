@@ -36,6 +36,15 @@ Other details:
 - The updates left the products' metafields alone (feed categories and SEO tags).
 - `shopify/pushed_2nov.json` has the ids.
 
+## The nine new necklaces as drafts (2 Nov)
+
+The owner said "Start doing all new too! Do for all skus" while the Higgsfield balance stood at 0.16 credits. So `build/ship_new.py` created all nine (N01 to N09) in one mutation:
+- each as a DRAFT with copy, price, SKU, 5 units, feed metafields and its size card;
+- N09 also carries its approved macro;
+- autoPublish was on around the creates, and the Herringbone Teardrop Necklace was published too.
+
+All twelve drafts from 2 Nov are on the six sales channels and show the moment they are set Active. The ids are in `shopify/pushed_2nov.json`.
+
 ## Waiting for credits
 
 Higgsfield ran out after 19 generations, about 38 credits. Still to shoot, 4 photos each:
@@ -45,7 +54,7 @@ Higgsfield ran out after 19 generations, about 38 credits. Still to shoot, 4 pho
 That is about 35 generations, roughly 70 credits plus reshoots. Specs (`build/skus.json`), copy and prices (`build/listings.json`), references (`build/ref_ids.json`) and the size cards (`cards/`) are ready. After a top-up:
 1. `build.py` for H first, then W1, W2 and M from the approved packshot.
 2. Verify against the owner's photos, export, upload with `build/put.py`.
-3. One productSet per piece as DRAFT with 5 units, as `ship_2nov.py` does for A16.
+3. One productSet per draft by id, with the full file list. Pass the size card as `{"id": <its MediaImage id>}`, not re-uploaded: a second upload with the same filename gets renamed and breaks the description's size-guide link.
 
 ## Folder
 
