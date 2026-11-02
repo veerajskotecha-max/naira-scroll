@@ -173,7 +173,9 @@
   "macro": "one earring: the bow of two claw-set heart stones and the halo heart drop below it",
   "nmacro": "the necklace's pendant: the bow of two pave-rimmed heart stones, its gold knot and the halo heart drop, hanging from the fine cable chain",
   "mhero": "A08_H",
-  "detname": " IMAGE 2 is the supplier's photograph of the COMPLETE SET in its box: one necklace whose pendant carries the SAME bow-and-heart motif as each earring, and the pair of earrings; copy its arrangement (pendant and earrings matching), but take the construction of the bow from IMAGE 1. Ignore the box, the black insert and the hand."
+  "detname": " IMAGE 2 is the supplier's photograph of the COMPLETE SET in its box: one necklace whose pendant carries the SAME bow-and-heart motif as each earring, and the pair of earrings; copy its arrangement (pendant and earrings matching), but take the construction of the bow from IMAGE 1. Ignore the box, the black insert and the hand.",
+  "palm": "the necklace and the two earrings lying together in the centre of the open palm, the pendant and the earrings side by side",
+  "pscale": "Each earring and the pendant are about the size of a fingertip."
  },
  "N09": {
   "name": "Petite Heart Trio Necklace",
@@ -187,6 +189,8 @@
   "scale": "The gold heart is about 7mm and the three stones about 2.5mm each, together about 13mm wide, smaller than a fingertip.",
   "wscale": "Worn, the tiny gold heart and its three stones sit at the base of the throat on the fine chain.",
   "place": "laid on the top face in a soft V, the gold heart and its three stones at the point of the V",
-  "macro": "the polished puffed gold heart and the triangle of three small claw-set stones beside it on the fine cable chain"
+  "macro": "the polished puffed gold heart and the triangle of three small claw-set stones beside it on the fine cable chain",
+  "palm": "the necklace lying in the open palm, the gold heart and its three stones in the centre, the fine chain trailing over the fingers",
+  "pscale": "The gold heart is smaller than a fingernail."
  }
 }
