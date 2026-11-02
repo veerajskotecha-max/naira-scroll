@@ -1,0 +1,57 @@
+{
+ "_about": "Photo size cards (sizecards.py): crop = [x, y, width] in raw pixels of out/<src>.png (height = width x 931/1280); callouts ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. Figures from listings.json.",
+ "A12": {
+  "src": "A12_He",
+  "crop": [
+   380,
+   760,
+   1160
+  ],
+  "callouts": [
+   [
+    "h",
+    616,
+    1016,
+    905,
+    "15 mm",
+    "above"
+   ],
+   [
+    "h",
+    517,
+    748,
+    1335,
+    "6.5 mm",
+    "below"
+   ]
+  ],
+  "line": "Hoop about 15 mm · heart 6.5 mm"
+ },
+ "A08": {
+  "src": "A08_M",
+  "crop": [
+   100,
+   520,
+   1700
+  ],
+  "callouts": [
+   [
+    "v",
+    595,
+    1711,
+    1430,
+    "14 mm",
+    "right"
+   ],
+   [
+    "h",
+    575,
+    1358,
+    570,
+    "10 mm",
+    "above"
+   ]
+  ],
+  "line": "Earrings and pendant about 14 mm long · bow 10 mm"
+ }
+}

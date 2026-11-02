@@ -22,8 +22,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -51,8 +50,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -80,8 +78,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -109,8 +106,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -138,8 +134,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -167,8 +162,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -196,8 +190,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -225,8 +218,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "",
   "status": "draft"
@@ -254,8 +246,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "Held at review on 31 Oct; the piece in stock has a polished V at the front, which the earlier photos lacked.",
   "status": "draft"
@@ -275,6 +266,7 @@
    "Hoop: Plain polished huggie, approximately 15mm, hinged snap closure",
    "Drop: Heart cut clear cubic zirconia, approximately 6.5mm, in a closed bezel",
    "Sold as: One pair",
+   "Finish: Polished gold tone",
    "Material: Stainless steel, as on the supplier's card"
   ],
   "photo": 4,
@@ -282,8 +274,7 @@
    "H",
    "W1",
    "W2",
-   "M",
-   "P"
+   "M"
   ],
   "note": "The stock in hand has a plain hoop and a bezel heart; the 1 Nov photos showed a pave hoop and a claw-set heart.",
   "status": "draft"
@@ -297,26 +288,53 @@
   "compare": 2800,
   "units": 5,
   "option": null,
-  "intro": "A bow of hearts, and a heart of gold. Each earring is a bow of two heart cut clear cubic zirconia with a heart in a fine pave halo hanging below it, and the necklace carries a polished puffed gold tone heart beside three small clear stones on a fine cable chain.",
+  "intro": "A bow of hearts, with a heart below. The pendant and each earring carry the same bow of two heart cut clear cubic zirconia in fine pave rims, with a heart cut stone in a pave halo hanging below the knot, and the pendant hangs on a fine gold tone cable chain.",
   "tip": "Give the set; wear the earrings alone on the days after.",
   "details": [
-   "Set: One necklace and one pair of drop earrings",
-   "Earrings: A bow of two heart cut clear cubic zirconia, approximately 6mm each, with a pave halo heart drop; approximately 14mm long, stud fitting",
-   "Necklace: A polished puffed heart, approximately 7mm, beside three small round clear cubic zirconia",
-   "Chain: Fine cable chain with a lobster clasp and extender",
-   "Length: Approximately 42cm plus the extender (to confirm)",
-   "Material: Stainless steel, as on the supplier's card"
+   "Set: One pendant necklace and one pair of drop earrings, matching",
+   "Bow: Two heart cut clear cubic zirconia, approximately 6mm each, in fine pave rims",
+   "Drop: Heart cut clear cubic zirconia in a pave halo, approximately 9mm",
+   "Earrings: Approximately 14mm long, stud fitting",
+   "Pendant: Approximately 14mm long",
+   "Chain: Fine cable chain, length to confirm",
+   "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
   ],
   "photo": 5,
   "shots": [
    "H",
-   "E",
    "W1",
-   "W2",
    "M",
    "MN"
   ],
-  "note": "Photos 5 and 6: the earrings' bow is two heart cut stones, and the necklace is a gold heart with three stones; the 1 Nov photos showed pave bows and halo hearts.",
+  "note": "A complete matching set, as in the buy book: the stock earrings (photo 5) set the bow's stones; photo 6 is a separate necklace (N09).",
+  "status": "draft"
+ },
+ {
+  "id": "N09",
+  "title": "Petite Heart Trio Necklace",
+  "type": "Necklace",
+  "sku": "PHTN",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "intro": "A gold heart and three small lights. A polished puffed gold tone heart of about 7mm sits beside a tiny triangle of three round clear cubic zirconia, side by side along a fine cable chain.",
+  "tip": "Wear it daily, or layer it under the Petite Fleur Y Necklace.",
+  "details": [
+   "Heart: Polished puffed heart, approximately 7mm",
+   "Stones: Three round clear cubic zirconia, approximately 2.5mm, in claw settings",
+   "Chain: Fine cable chain with a lobster clasp and extender",
+   "Length: Approximately 42cm plus the extender (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 6,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "Photo 6, listed on its own: its macro is the approved frame A08_MN.",
   "status": "draft"
  }
 ]

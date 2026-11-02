@@ -1,0 +1,41 @@
+{
+ "bow-and-heart-gift-set": {
+  "id": "gid://shopify/Product/10375501578402",
+  "piece": "A08",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50785485160610",
+   "BHGS",
+   5
+  ],
+  "photos": 3,
+  "sizeCard": "bow-and-heart-gift-set-size-guide-v2.jpg",
+  "updated": "2026-11-02"
+ },
+ "heart-solitaire-huggies": {
+  "id": "gid://shopify/Product/10375501709474",
+  "piece": "A12",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50785485291682",
+   "HSH",
+   5
+  ],
+  "photos": 3,
+  "sizeCard": "heart-solitaire-huggies-size-guide-v2.jpg",
+  "updated": "2026-11-02"
+ },
+ "herringbone-teardrop-necklace": {
+  "id": "gid://shopify/Product/10377179857058",
+  "piece": "A16",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50798476820642",
+   "HTN",
+   5
+  ],
+  "photos": 4,
+  "sizeCard": "herringbone-teardrop-necklace-size-guide.jpg",
+  "created": "2026-11-02"
+ }
+}
