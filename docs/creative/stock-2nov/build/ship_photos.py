@@ -3,6 +3,9 @@
 # draft already holds, passed by id (the size card, and N09's macro), so nothing is uploaded twice and the description's size-guide
 # link keeps its filename. Variant id, SKU, price and stock stay as they are (no inventoryQuantities); metafields are not sent.
 # Each variant's image becomes the packshot. Status stays DRAFT.
+# A08, A12 and A16 (the three pieces fixed on 2 Nov) are in drafts_new.json too, with the media they already hold, so the same
+# mutation adds their in-palm size photo (and A16's worn photo, which had dropped off the draft).
+# Alt text for the in-palm shot (P) is added here, as the 31 Oct table has none.
 # Usage: ship_photos.py [id ...] -> ../shopify/ship_photos.json and ../shopify/ship_photos.graphql
 import json, os, sys
 H = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(H, "../shopify")
@@ -10,6 +13,9 @@ import importlib.util
 s = importlib.util.spec_from_file_location("s2", os.path.join(H, "ship_2nov.py")); S2 = importlib.util.module_from_spec(s); s.loader.exec_module(S2)
 S31 = S2.S31; L = S2.L; URL = json.load(open(os.path.join(H, "url_map.json")))
 F = json.load(open(os.path.join(H, "frames.json"))); D = json.load(open(os.path.join(H, "drafts_new.json")))
+PALM = {"Necklace": "resting in an open palm, to show its size", "Earrings": "the pair resting in an open palm, to show their size",
+        "Set": "the necklace and the earrings resting in an open palm, to show their size"}
+for k, v in PALM.items(): S31.ALTS[k]["P"] = v
 
 def product(i):
     x = L[i]; t, h = x["title"], S31.handle(x["title"]); d = D[i]; files = []
@@ -19,7 +25,8 @@ def product(i):
         else: files.append({"originalSource": URL[f"{h}-{n:02d}.jpg"], "alt": f"{t} — {S31.ALTS[x['type']][sh]}", "contentType": "IMAGE"})
     files.append({"id": d["media"]["card"]})
     v = {"id": d["variant"], "optionValues": [{"optionName": "Title", "name": "Default Title"}], "sku": x["sku"], "price": S31.money(x["price"]),
-         "compareAtPrice": S31.money(x["compare"]), "inventoryPolicy": "DENY", "file": {"originalSource": files[0]["originalSource"], "contentType": "IMAGE"}}
+         "compareAtPrice": S31.money(x["compare"]), "inventoryPolicy": "DENY",
+         "file": files[0] if "id" in files[0] else {"originalSource": files[0]["originalSource"], "contentType": "IMAGE"}}
     return {"status": "DRAFT", "productOptions": [{"name": "Title", "values": [{"name": "Default Title"}]}], "variants": [v], "files": files}
 
 if __name__ == "__main__":
