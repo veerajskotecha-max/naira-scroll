@@ -2,30 +2,46 @@
  "bow-and-heart-gift-set": {
   "id": "gid://shopify/Product/10375501578402",
   "piece": "A08",
-  "status": "DRAFT",
+  "status": "ACTIVE",
   "variant": [
    "gid://shopify/ProductVariant/50785485160610",
    "BHGS",
    5
   ],
-  "photos": 3,
+  "photos": 4,
   "sizeCard": "bow-and-heart-gift-set-size-guide-v2.jpg",
   "updated": "2026-11-02",
-  "channels": 6
+  "channels": 6,
+  "gallery": [
+   "H",
+   "W1",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "heart-solitaire-huggies": {
   "id": "gid://shopify/Product/10375501709474",
   "piece": "A12",
-  "status": "DRAFT",
+  "status": "ACTIVE",
   "variant": [
    "gid://shopify/ProductVariant/50785485291682",
    "HSH",
    5
   ],
-  "photos": 3,
+  "photos": 4,
   "sizeCard": "heart-solitaire-huggies-size-guide-v2.jpg",
   "updated": "2026-11-02",
-  "channels": 6
+  "channels": 6,
+  "gallery": [
+   "H",
+   "W1",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "herringbone-teardrop-necklace": {
   "id": "gid://shopify/Product/10377179857058",
@@ -36,144 +52,226 @@
    "HTN",
    5
   ],
-  "photos": 4,
+  "photos": 5,
   "sizeCard": "herringbone-teardrop-necklace-size-guide.jpg",
   "created": "2026-11-02",
-  "channels": 6
+  "channels": 0,
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "laurel-marquise-necklace": {
   "id": "gid://shopify/Product/10377182937250",
   "piece": "N01",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798484979874",
    "LMN",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "laurel-marquise-necklace-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "soleil-petal-pendant": {
   "id": "gid://shopify/Product/10377183002786",
   "piece": "N02",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485045410",
    "SPP",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "soleil-petal-pendant-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "pearl-crescent-pendant": {
   "id": "gid://shopify/Product/10377183035554",
   "piece": "N03",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485078178",
    "PCP",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "pearl-crescent-pendant-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "molten-solitaire-pendant": {
   "id": "gid://shopify/Product/10377183068322",
   "piece": "N04",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485110946",
    "MSP",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "molten-solitaire-pendant-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "petite-pear-solitaire-necklace": {
   "id": "gid://shopify/Product/10377183101090",
   "piece": "N05",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485143714",
    "PPSN",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "petite-pear-solitaire-necklace-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "petite-fleur-y-necklace": {
   "id": "gid://shopify/Product/10377183133858",
   "piece": "N06",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485176482",
    "PFYN",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "petite-fleur-y-necklace-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "asscher-solitaire-pendant": {
   "id": "gid://shopify/Product/10377183166626",
   "piece": "N07",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485209250",
    "ASP",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "asscher-solitaire-pendant-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "cushion-bezel-pendant": {
   "id": "gid://shopify/Product/10377183199394",
   "piece": "N08",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485242018",
    "CBP",
    5
   ],
-  "photos": 0,
+  "photos": 5,
   "sizeCard": "cushion-bezel-pendant-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
  },
  "petite-heart-trio-necklace": {
   "id": "gid://shopify/Product/10377183232162",
   "piece": "N09",
   "status": "DRAFT",
-  "channels": 6,
+  "channels": 0,
   "variant": [
    "gid://shopify/ProductVariant/50798485274786",
    "PHTN",
    5
   ],
-  "photos": 1,
+  "photos": 5,
   "sizeCard": "petite-heart-trio-necklace-size-guide.jpg",
   "created": "2026-11-02",
-  "photosPending": true
- }
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-02"
+ },
+ "_note": "2 Nov, after the photo update: A08 and A12 had been set ACTIVE by the owner and show 6 channels. Every DRAFT product in the store, older ones included, reads 0 channels, so the ten drafts need their channels checked when they are set Active."
 }

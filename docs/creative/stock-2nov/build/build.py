@@ -64,8 +64,9 @@ def prompt(k, shot):
     else:
         if shot == "P":
             plate = "ring"
-            sh = (f"SHOT: A size photograph, 4:5 vertical, full bleed: {s['palm']}. The model's open hand is held up flat and relaxed in front of the "
-                  "warm cream background, palm to camera, fingers together and gently curved; the camera close and square to the palm, so the piece "
+            sh = (f"SHOT: A size photograph, 4:5 vertical, full bleed: {s['palm']}. The model's hand is turned PALM UP and held nearly LEVEL in front "
+                  "of the warm cream background, as if offering the piece, fingers together and gently curved, never raised upright like a wave or a "
+                  "stop sign; the camera close and a little above, looking down into the palm, so the piece rests in it naturally and "
                   "is legible and is seen at its TRUE small size against the palm and the fingers.")
             crop = "Inside the frame: the open palm, the fingers and the wrist only. No face, no neck, no camisole."
             where = "resting in her open palm, NOT worn"

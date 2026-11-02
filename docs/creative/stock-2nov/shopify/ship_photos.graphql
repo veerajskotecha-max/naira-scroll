@@ -1,0 +1,14 @@
+mutation Photos2Nov($a08: ProductSetInput!, $a08id: ProductSetIdentifiers!, $a12: ProductSetInput!, $a12id: ProductSetIdentifiers!, $a16: ProductSetInput!, $a16id: ProductSetIdentifiers!, $n01: ProductSetInput!, $n01id: ProductSetIdentifiers!, $n02: ProductSetInput!, $n02id: ProductSetIdentifiers!, $n03: ProductSetInput!, $n03id: ProductSetIdentifiers!, $n04: ProductSetInput!, $n04id: ProductSetIdentifiers!, $n05: ProductSetInput!, $n05id: ProductSetIdentifiers!, $n06: ProductSetInput!, $n06id: ProductSetIdentifiers!, $n07: ProductSetInput!, $n07id: ProductSetIdentifiers!, $n08: ProductSetInput!, $n08id: ProductSetIdentifiers!, $n09: ProductSetInput!, $n09id: ProductSetIdentifiers!) {
+  a08: productSet(identifier: $a08id, input: $a08, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  a12: productSet(identifier: $a12id, input: $a12, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  a16: productSet(identifier: $a16id, input: $a16, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n01: productSet(identifier: $n01id, input: $n01, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n02: productSet(identifier: $n02id, input: $n02, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n03: productSet(identifier: $n03id, input: $n03, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n04: productSet(identifier: $n04id, input: $n04, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n05: productSet(identifier: $n05id, input: $n05, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n06: productSet(identifier: $n06id, input: $n06, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n07: productSet(identifier: $n07id, input: $n07, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n08: productSet(identifier: $n08id, input: $n08, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n09: productSet(identifier: $n09id, input: $n09, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+}

@@ -43,18 +43,37 @@ The owner said "Start doing all new too! Do for all skus" while the Higgsfield b
 - N09 also carries its approved macro;
 - autoPublish was on around the creates, and the Herringbone Teardrop Necklace was published too.
 
-All twelve drafts from 2 Nov are on the six sales channels and show the moment they are set Active. The ids are in `shopify/pushed_2nov.json`.
+The ids are in `shopify/pushed_2nov.json`.
 
-## Waiting for credits
+## Photos for all twelve (2 Nov, after the credit top-up)
 
-Higgsfield ran out after 19 generations, about 38 credits. Still to shoot, 4 photos each:
-- N01 to N08: 32 photos.
-- N09: 3 photos. Its macro is the approved frame `N09_M`, the first set macro, which shows exactly that necklace.
+Every piece now has its full gallery plus an in-palm size photo (shot P, the piece resting in an open palm), then its size card. `review/galleries_2nov.jpg` shows all twelve galleries in order.
 
-That is about 35 generations, roughly 70 credits plus reshoots. Specs (`build/skus.json`), copy and prices (`build/listings.json`), references (`build/ref_ids.json`) and the size cards (`cards/`) are ready. After a top-up:
-1. `build.py` for H first, then W1, W2 and M from the approved packshot.
-2. Verify against the owner's photos, export, upload with `build/put.py`.
-3. One productSet per draft by id, with the full file list. Pass the size card as `{"id": <its MediaImage id>}`, not re-uploaded: a second upload with the same filename gets renamed and breaks the description's size-guide link.
+| Piece | Gallery |
+|---|---|
+| N01 to N09, A16 | packshot, worn at the base of the neck, worn turned a quarter, macro, in the palm, size card |
+| A12, A08 | packshot, worn, macro, in the palm, size card |
+
+Generations: 32 in one batch, then 13 fixes and follow-ups, 45 in all, about 90 credits. Every frame was checked against the owner's photos. Changes from that check:
+- **Soleil Petal Pendant (N02).** The stock photo shows five open petals fanned below the stone, from left round to right, and nothing above it. The first spec said six all round. The spec and copy now say five, and the description and SEO text were re-sent. The two edits of the old packshot came out with 7 and 9 petals; a fresh shot from the owner's photo (`N02_Hv`) got five, and W1, W2, M and P were built on it.
+- **Petite Fleur Y Necklace (N06).** The packshot edit (single chain each side, five-stone flower with a gold centre) was approved, then W1, W2, M and P were shot.
+- **In-palm shots.** The first Pear and Cushion palm shots had the hand raised upright, like a stop sign. `build.py` now asks for the palm turned up and nearly level, and both were reshot.
+- **Herringbone Teardrop Necklace (A16).** Its worn-at-the-neck photo had dropped off the draft. It was put back from its export.
+
+`build/ship_photos.py` did the Shopify side in one productSet mutation for all twelve:
+- photos already on a product, and every size card, were passed by media id, so nothing was uploaded twice and the size-guide links keep their filenames;
+- no status was sent;
+- variants kept their ids, SKUs and stock.
+
+Checked afterwards:
+- all 58 media READY, in gallery order, each packshot set as the variant image;
+- 5 units each, prices unchanged;
+- the size-guide links answer 200;
+- the Storefront API shows the new palm photos on the two active pieces.
+
+Status at the update:
+- **ACTIVE:** the Bow and Heart Gift Set (A08) and the Heart Solitaire Huggies (A12). The owner had set them Active; they show all six channels.
+- **DRAFT:** the other ten, at 5 units each. Every DRAFT product in the store reads 0 channels, older ones included, so check channels when they are set Active.
 
 ## Folder
 
