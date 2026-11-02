@@ -18,7 +18,7 @@ F = json.load(open(os.path.join(H, "frames.json"))); D = json.load(open(os.path.
 PALM = {"Necklace": "resting in an open palm, to show its size", "Earrings": "the pair resting in an open palm, to show their size",
         "Set": "the necklace and the earrings resting in an open palm, to show their size"}
 for k, v in PALM.items(): S31.ALTS[k]["P"] = v
-RECOPY = {"N02"}   # Soleil Petal: five petals fanned below the stone (the stock photo), not six all round
+RECOPY = set()   # N02 copy was re-sent on 2 Nov and is now settled   # Soleil Petal: five petals fanned below the stone (the stock photo), not six all round
 
 def product(i):
     x = L[i]; t, h = x["title"], S31.handle(x["title"]); d = D[i]; files = []

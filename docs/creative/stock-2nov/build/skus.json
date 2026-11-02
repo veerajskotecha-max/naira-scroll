@@ -39,15 +39,16 @@
   "metal": "gold",
   "ref": "N03_full",
   "det": "N03_det",
-  "note": "it lies in a white plastic pouch held in a woman's hand: ignore the hand, the pouch and its reflections, and take only the pendant and its chain. The pearl is a smooth round white shell pearl with a soft lustre.",
-  "lock": "A PEARL CRESCENT PENDANT on a fine gold box chain with a small sliding bead: ONE round white pearl, about 10mm, with a soft creamy lustre, held in a small gold cup; around the lower right side of the pearl curves a slim CRESCENT of about eight small round clear stones, each in its own little gold collar, hugging the pearl like a new moon; the chain runs through a small gold bail at the top.",
-  "neg": "One pearl only, round and white, never pink, grey or golden; the crescent of small clear stones follows only part of the pearl's edge, never a full halo all the way round; no other drop; the chain is a fine square box chain, never a rope or cable.",
+  "note": "it lies in a white plastic pouch held in a woman's hand: ignore the hand, the pouch and its reflections, and take only the pendant and its chain. The pearl is a smooth round white shell pearl with a soft lustre. In this photo the chain happens to lie looped around the left side of the pendant inside the pouch: that loop is only how it was packed, NOT part of the design; ignore it.",
+  "lock": "A PEARL CRESCENT PENDANT on a fine gold box chain with a small sliding bead: ONE round white pearl, about 10mm, with a soft creamy lustre; a slim CRESCENT of about eight small round clear stones, each in its own little gold collar, curves around the RIGHT side and the BOTTOM of the pearl, from the top right round to the bottom left, like a new moon; the upper LEFT side of the pearl is bare, just the smooth pearl. The pendant hangs from ONE small gold bail at the top, where the chain passes through; from the bail the fine chain runs straight up on both sides, like any pendant necklace.",
+  "neg": "One pearl only, round and white, never pink, grey or golden; the crescent of small clear stones follows only part of the pearl's edge, never a full halo; the chain NEVER wraps around the pearl, never forms a loop or a gold rim on the pearl's left side and never crosses over the pendant; no other drop; the chain is a fine square box chain, never a rope or cable, never chunky.",
   "scale": "The pearl is about 10mm, about the size of a fingernail; each crescent stone is about 2mm.",
-  "wscale": "Worn, the small pearl with its crescent of stones sits just below the hollow of the throat on the fine box chain.",
+  "wscale": "Worn, the pendant is small: the pearl is about 10mm, about a fifth of the width of her lips, and the whole pendant with its crescent about 14mm; it sits just below the hollow of the throat on the fine box chain.",
   "place": "laid on the top face, the chain in a soft V and the pearl crescent pendant at its point",
   "macro": "the white pearl and the curve of small clear stones in their gold collars beside it",
   "palm": "the pendant lying in the centre of the open palm, its fine box chain trailing over the fingers",
-  "pscale": "The pearl is about the size of a fingernail."
+  "pscale": "The pearl is about the size of one fingernail; the whole pendant is no wider than one finger.",
+  "wref": "hero"
  },
  "N04": {
   "name": "Molten Solitaire Pendant",
@@ -103,14 +104,16 @@
   "metal": "gold",
   "ref": "N07_det",
   "note": "it lies in a white plastic pouch on a black velvet tray: ignore the pouch and the tray, and take only the pendant and its chain.",
-  "lock": "AN ASSCHER SOLITAIRE PENDANT: ONE clear octagonal step-cut (Asscher-cut) stone, about 9mm, its four corners cut off so its outline is an eight-sided octagon, with deep step facets like a hall of mirrors, held in fine gold claws at its corners; a polished gold bail with a single ridge, on a fine flat gold curb chain.",
-  "neg": "The stone is an octagonal step cut with clipped corners, never a round brilliant, never a rounded cushion; clear only; no halo; one stone only.",
-  "scale": "The stone is about 9mm, about the size of a fingernail.",
-  "wscale": "Worn, the clear octagonal stone, about the size of a fingernail, hangs just below the hollow of the throat on the fine chain.",
+  "lock": "AN ASSCHER SOLITAIRE PENDANT: ONE clear octagonal step-cut (Asscher-cut) stone, about 9mm, its four corners cut off so its outline is an eight-sided octagon, with deep step facets like a hall of mirrors, held in fine gold claws at its corners; a SLIM polished gold bail with a single ridge, only about half as tall as the stone; on a FINE, delicate flat gold curb chain about 1mm wide, roughly an eighth of the stone's width, its links tiny.",
+  "neg": "The stone is an octagonal step cut with clipped corners, never a round brilliant, never a rounded cushion; clear only; no halo; one stone only; the chain is fine and delicate, never a chunky or heavy curb chain; the bail is slim and small, never a big chunky bail.",
+  "scale": "The stone is about 9mm, about the size of a fingernail; the chain is about 1mm wide.",
+  "wscale": "Worn, the pendant is small: the stone is about 9mm, about a fifth of the width of her lips, and the fine chain is a thread-thin line; it hangs just below the hollow of the throat.",
   "place": "laid on the top face, the chain in a soft V and the stone at its point",
   "macro": "the octagonal step-cut stone in its gold claws and the ridged gold bail above it",
   "palm": "the pendant lying in the centre of the open palm, its fine chain trailing over the fingers",
-  "pscale": "The stone is about the size of a fingernail."
+  "pscale": "The stone is about the size of a fingernail, a little over half the width of one finger.",
+  "measure": "2 Nov, owner's photo (no hand): the pouch is about 50 to 60mm wide and the stone with its claws spans about 0.18 of it, about 9 to 11mm; the chain is about 0.12 of the stone's width. The first worn shots drew the stone about 13mm, the palm shot about 19mm, and the packshot chain about three times too thick.",
+  "wref": "hero"
  },
  "N08": {
   "name": "Cushion Bezel Pendant",

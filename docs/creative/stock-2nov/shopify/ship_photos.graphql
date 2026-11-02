@@ -1,3 +1,4 @@
-mutation Photos2Nov($n02: ProductSetInput!, $n02id: ProductSetIdentifiers!) {
-  n02: productSet(identifier: $n02id, input: $n02, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+mutation Photos2Nov($n03: ProductSetInput!, $n03id: ProductSetIdentifiers!, $n07: ProductSetInput!, $n07id: ProductSetIdentifiers!) {
+  n03: productSet(identifier: $n03id, input: $n03, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
+  n07: productSet(identifier: $n07id, input: $n07, synchronous: true) { product { id handle status totalInventory mediaCount { count } } userErrors { field message code } }
 }
