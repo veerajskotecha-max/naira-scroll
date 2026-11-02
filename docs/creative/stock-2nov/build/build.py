@@ -53,7 +53,7 @@ def prompt(k, shot):
              f"ABSENCE LIST: No hand, no fingers, no model, no fabric, no props, no flowers, no box. "
             f"{'No jewellery other than this necklace and its two earrings.' if kind == 'set' and shot == 'H' else 'No second piece of jewellery.'} Metal: {m}. {END}")
     elif shot in ("M", "MN"):
-        ids, rn, n = refs(s, "macro", hero)
+        ids, rn, n = refs(s, "macro", hero, worn=True)      # worn=True only matters for wref "hero" pieces
         p = (f"SHOT: Extreme macro, 4:5, of {s['nmacro' if shot == 'MN' else 'macro']}, resting on the top face of a cream plaster cube. Camera very close; the piece fills about two thirds of the frame; "
              f"razor-sharp on the stones and the metal edges, the rest falling softly out of focus.\n\n"
              f"THE PRODUCT: {rn} IMAGE {n} is the authority for the plaster, the background and the light only.\n\n"

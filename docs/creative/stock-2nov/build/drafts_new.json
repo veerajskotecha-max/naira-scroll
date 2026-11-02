@@ -10,7 +10,9 @@
   "product": "gid://shopify/Product/10377183002786",
   "variant": "gid://shopify/ProductVariant/50798485045410",
   "media": {
-   "card": "gid://shopify/MediaImage/46712003231906"
+   "card": "gid://shopify/MediaImage/46712003231906",
+   "H": "gid://shopify/MediaImage/46712237621410",
+   "M": "gid://shopify/MediaImage/46712237719714"
   }
  },
  "N03": {
