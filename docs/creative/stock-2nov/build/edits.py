@@ -87,6 +87,23 @@ E["A13_W1qh"] = ("A13_W1qs", "EDIT IMAGE 1, a photograph of a woman wearing a sl
    "is far too large; shrink it to about HALF of its present height, so it is about 18mm tall: its top stays at the piercing and its bottom ends "
    "only about a centimetre below the bottom of her earlobe, the whole huggie about a quarter to a third of the height of her ear. "
    + A13DESIGN + A13KEEP + END, ["A13_Hg"])
+E["N05_He"] = ("N05_H", "EDIT IMAGE 1, a packshot of a gold pear solitaire pendant necklace on a cream plaster cube. Make TWO changes only: "
+   "(1) the PENDANT becomes smaller: the clear pear-cut stone and its fine claws shrink to about TWO THIRDS of their present size, so the stone "
+   "is only about three chain links wide; (2) the round gold BEAD bail above it becomes much smaller, a TINY polished bead only about a quarter "
+   "of the stone's width, on a small jump ring. Keep the stone's pear shape, point up, its clarity and sparkle, the fine gold cable chain exactly "
+   "as it is (its links keep their size), the cube, the camera, the framing, the background and the light. Metal: warm 18k gold tone. " + END)
+E["N05_Pc"] = ("N05_P_comp", "EDIT IMAGE 1, a retouched photograph of a small clear pear pendant on a fine gold chain resting in an open palm. "
+   "Make it ONE seamless natural photograph: (1) the fine gold cable chain continues naturally from the pendant's tiny bail, running in two thin "
+   "strands across the palm and over the side of the hand out of frame, its links tiny, each about a third of the pear's width; (2) a soft, "
+   "believable contact shadow under the pendant and the chain where they rest on the skin. The PENDANT itself stays EXACTLY as it is in IMAGE 1: "
+   "the same small size, the same position, the same clear pear stone in its fine claws and the same tiny bail. Do NOT enlarge it or redraw it. "
+   "Keep the hand, the palm lines, the fingers, the skin, the hair, the camisole, the background and the light exactly as they are. Metal: warm "
+   "18k gold tone. " + END)
+E["N05_Pcs"] = ("N05_Pc", "EDIT IMAGE 1, a photograph of a small clear pear pendant on a fine gold chain resting in an open palm. Make ONE "
+   "change only: the PENDANT, the pear-cut stone in its fine claws and its bail, is too large; shrink it to about THREE QUARTERS of its present "
+   "size, so the pear is only about a third of the width of one of her fingers and the bail a tiny loop. It stays in the same place on the same "
+   "fine chain. Keep the chain, the hand, the palm lines, the fingers, the skin, the hair, the camisole, the background and the light exactly "
+   "as they are. Metal: warm 18k gold tone. " + END)
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}
     for i, key in enumerate(keys):

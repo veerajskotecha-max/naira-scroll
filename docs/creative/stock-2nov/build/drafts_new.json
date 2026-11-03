@@ -33,7 +33,12 @@
   "product": "gid://shopify/Product/10377183101090",
   "variant": "gid://shopify/ProductVariant/50798485143714",
   "media": {
-   "card": "gid://shopify/MediaImage/46712003362978"
+   "H": "gid://shopify/MediaImage/46716520399010",
+   "W1": "gid://shopify/MediaImage/46716520431778",
+   "W2": "gid://shopify/MediaImage/46716520464546",
+   "M": "gid://shopify/MediaImage/46716520497314",
+   "P": "gid://shopify/MediaImage/46716520530082",
+   "card": "gid://shopify/MediaImage/46716520562850"
   }
  },
  "N06": {

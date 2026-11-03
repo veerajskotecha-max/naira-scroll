@@ -169,7 +169,7 @@
    5
   ],
   "photos": 5,
-  "sizeCard": "petite-pear-solitaire-necklace-size-guide.jpg",
+  "sizeCard": "petite-pear-solitaire-necklace-size-guide-v2.jpg",
   "created": "2026-11-02",
   "gallery": [
    "H",
@@ -179,7 +179,12 @@
    "P",
    "card"
   ],
-  "photosUpdated": "2026-11-02"
+  "photosUpdated": "2026-11-03 (pear redrawn at 6 x 8 mm to match the owner's photo; copy and size card say 6 x 8 mm)",
+  "price": [
+   "1099.00",
+   "1899.00",
+   "set by the owner"
+  ]
  },
  "petite-fleur-y-necklace": {
   "id": "gid://shopify/Product/10377183133858",

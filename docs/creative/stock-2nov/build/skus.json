@@ -73,14 +73,16 @@
   "ref": "N05_full",
   "det": "N05_det",
   "note": "it is in a clear pouch on a white card printed with a butterfly, a dashed line, words and a necklace icon, held in a hand: ignore the hand, the pouch, the card and all its printing, and take only the necklace.",
-  "lock": "A PETITE PEAR SOLITAIRE NECKLACE: ONE clear PEAR-cut faceted stone, about 7x10mm, held in fine gold claws, hanging from a tiny round gold bead bail with its narrow pointed tip at the TOP and its round end at the BOTTOM, on a fine gold cable chain.",
+  "lock": "A PETITE PEAR SOLITAIRE NECKLACE: ONE clear PEAR-cut faceted stone, about 6x8mm, held in fine gold claws, hanging from a TINY round gold bead bail about 1.5mm across, with the stone's narrow pointed tip at the TOP and its round end at the BOTTOM, on a fine gold cable chain whose links are about 2mm long.",
   "neg": "One pear stone only, clear, never coloured, never a pearl; it hangs point up; no halo, no pave, no second drop, no bar.",
-  "scale": "The pear is about 10mm long, about the size of a fingernail.",
-  "wscale": "Worn, the small clear pear, about the size of a fingernail, hangs just below the hollow of the throat on the fine chain.",
+  "scale": "The pear is about 8mm long and 6mm wide, smaller than a fingernail and only about three chain links wide; the bail is tiny, about 1.5mm, about a quarter of the stone's width, never a big ball.",
+  "wscale": "Worn, the pendant is small: the pear is about 8mm long and 6mm wide, about a sixth of the width of her lips, hanging just below the hollow of the throat on the fine chain.",
   "place": "laid on the top face, the chain in a soft V and the pear at its point",
-  "macro": "the clear pear-cut stone in its fine gold claws and the tiny gold bead bail above it",
+  "macro": "the pendant resting on the cube's top face with the fine cable chain running away from its tiny bail in both directions: the clear pear-cut stone in its fine gold claws, point up, and the TINY gold jump-ring bail above it, with several chain links in frame",
   "palm": "the pendant lying in the centre of the open palm, its fine chain trailing over the fingers",
-  "pscale": "The pear is about the size of a fingernail."
+  "pscale": "The pear is about a third of the width of one finger and the bead bail a tiny dot.",
+  "wref": "hero",
+  "measure": "Owner's photo (refs/N05_full): the stone is about 75 x 90 px; the fingers holding the card are about 190-220 px across (about 16 mm) and the cable links about 22 px (about 2 mm), so the pear is about 6 x 7.5 mm, a standard 6 x 8 mm stone, with a bead bail of about 20 px (1.7 mm). The 2 Nov photos drew it about 10 x 14 mm worn, 4.4 chain links wide on the cube (3.4 in hand) and about 1.2 finger widths in the palm, so all were remade on 3 Nov. 3 Nov gallery: packshot edit N05_He (pear about three links wide, tiny bail); W1e and W2e from it (pear about 6.5 x 8.5 mm against the lips); macro N05_Mf; palm N05_Pf = the blended palm frame N05_Pcs with its oversized pendant cloned out from palm texture 170 px below and the true-size cut-out (comp/n05_pendant_cut.png, 0.1286, rotated 40 degrees) pasted on the chain, about 45 x 55 px against 100-110 px fingers."
  },
  "N06": {
   "name": "Petite Fleur Y Necklace",

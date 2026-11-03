@@ -1,0 +1,3 @@
+mutation PetitePearSize($n05: ProductSetInput!, $n05id: ProductSetIdentifiers!) {
+  n05: productSet(identifier: $n05id, input: $n05, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+}

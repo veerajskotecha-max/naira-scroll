@@ -118,6 +118,35 @@ The owner sent one more photo, a pair of gold pave huggies on a STAINLESS STEEL 
   - each Shopify copy matches its export, with a mean difference of 0.2 to 0.44 out of 255.
 - Ids are in `shopify/pushed_2nov.json` and `build/drafts_new.json`.
 
+## Petite Pear Solitaire Necklace (N05) made smaller, 3 Nov
+
+The owner sent a screenshot of the listing: "Reduce sizing check supplier pic".
+
+**True size.** In the owner's photo the pear is about 75 × 90 px, against fingers of about 200 px and cable links of about 22 px. That makes it about 6 × 8 mm, about three chain links wide.
+
+**What the 2 Nov listing had wrong:**
+- the worn shots drew the pear about 10 × 14 mm, and the palm shot about 20 mm;
+- the bail was a big ball;
+- the copy said 7 × 10 mm.
+
+**New photos**, all now about 6 to 7 mm × 8 to 8.5 mm:
+- **Packshot `N05_He`:** an edit of the approved packshot. The pear and its claws come down to about two thirds, about three links wide, and the bail is a tiny bead about a quarter of the stone's width.
+- **Worn `N05_W1e`, `N05_W2e` and macro `N05_Mf`:** rebuilt from `N05_He` only (`wref: hero`). Worn, the pear is tied to about a sixth of her lip width.
+- **Palm `N05_Pf`:** a local composite. The AI blending edit (`N05_Pc`) enlarged the pasted pendant about 1.3 times, and a shrink edit (`N05_Pcs`) barely helped. So the oversized pendant in `N05_Pcs` was covered with palm texture cloned from just below it, tone-matched and feathered. A cut-out of the `N05_He` pendant (`comp/n05_pendant_cut.png`) was then pasted at true size, turned to follow the chain, with a soft shadow. No AI step came after.
+- The 2 Nov frames are kept in `jobs.json` under `_big`.
+- Higgsfield: 7 generations and 2 background removals, 16 credits; the balance went from 297.71 to 281.71.
+
+**Copy and card.** The intro, the details and the SEO text say 6 x 8mm. The new size card `petite-pear-solitaire-necklace-size-guide-v2.jpg` reads "45 cm · pear 6 × 8 mm", and the description's size-guide link points at it.
+
+**Shopify.** `build/ship_n05.py` built one productSet (`shopify/ship_n05.graphql`, `shopify/ship_n05.json`).
+- The five photos and the card replace the old six files.
+- The variant was passed by id with its image only. No status, price or stock was sent, so the piece stays ACTIVE at the owner's new price of ₹1,099 (compare-at ₹1,899) with 5 units.
+- **Checked afterwards:**
+  - all six media READY and in gallery order, with the packshot as the variant image;
+  - the size-guide link answers 200;
+  - each Shopify copy matches its export, with a mean difference of 0.3 to 2.3 out of 255. The 2.3 is the worn shot's silk and hair re-compressed; the file uploaded was the export byte for byte.
+- The new media ids are in `build/drafts_new.json`.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

@@ -19,7 +19,7 @@ SPEC = {
     "N02": ("necklace", ([42], "42 cm · pendant 25 mm across")),
     "N03": ("necklace", ([45], "Adjustable · pearl 10 mm")),
     "N04": ("necklace", ([45], "45 cm · pendant 12 mm")),
-    "N05": ("necklace", ([45], "45 cm · pear 7 × 10 mm")),
+    "N05": ("necklace", ([45], "45 cm · pear 6 × 8 mm")),
     "N06": ("necklace", ([42], "42 cm · flower 6 mm · drop 5 cm")),
     "N07": ("necklace", ([42], "42 cm · Asscher 9 mm")),
     "N08": ("necklace", ([42], "42 cm · bezel 8 mm")),
