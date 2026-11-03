@@ -24,7 +24,7 @@ SPEC = {
     "N07": ("necklace", ([42], "42 cm · Asscher 9 mm")),
     "N08": ("necklace", ([42], "42 cm · bezel 8 mm")),
     "N09": ("necklace", ([42], "42 cm · heart 7 mm")),
-    "A16": ("necklace", ([45], "45 cm · teardrop 8 × 11 mm")),
+    "A16": ("necklace", ([45], "45 cm · teardrop 10 × 13 mm")),
 }
 PHOTO = {k: v for k, v in json.load(open(os.path.join(H, "photocards.json"))).items() if not k.startswith("_")} if os.path.exists(os.path.join(H, "photocards.json")) else {}
 

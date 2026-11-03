@@ -94,10 +94,12 @@
   "product": "gid://shopify/Product/10377179857058",
   "variant": "gid://shopify/ProductVariant/50798476820642",
   "media": {
-   "H": "gid://shopify/MediaImage/46711866261666",
-   "W2": "gid://shopify/MediaImage/46711866327202",
-   "M": "gid://shopify/MediaImage/46711866359970",
-   "card": "gid://shopify/MediaImage/46711866392738"
+   "H": "gid://shopify/MediaImage/46717163077794",
+   "W1": "gid://shopify/MediaImage/46717163110562",
+   "W2": "gid://shopify/MediaImage/46717429219490",
+   "M": "gid://shopify/MediaImage/46717163176098",
+   "P": "gid://shopify/MediaImage/46717163208866",
+   "card": "gid://shopify/MediaImage/46717163241634"
   }
  },
  "A13": {
@@ -110,6 +112,18 @@
    "M": "gid://shopify/MediaImage/46716196323490",
    "P": "gid://shopify/MediaImage/46716196356258",
    "card": "gid://shopify/MediaImage/46716196389026"
+  }
+ },
+ "A15": {
+  "product": "gid://shopify/Product/10375501742242",
+  "variant": "gid://shopify/ProductVariant/50785485324450",
+  "media": {
+   "H": "gid://shopify/MediaImage/46717162848418",
+   "W1": "gid://shopify/MediaImage/46717162881186",
+   "W2": "gid://shopify/MediaImage/46717162913954",
+   "M": "gid://shopify/MediaImage/46717162946722",
+   "P": "gid://shopify/MediaImage/46717162979490",
+   "card": "gid://shopify/MediaImage/46717163012258"
   }
  }
 }

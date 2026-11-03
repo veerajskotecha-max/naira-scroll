@@ -133,20 +133,23 @@
   "pscale": "The pendant is smaller than a fingernail."
  },
  "A16": {
-  "name": "Herringbone Teardrop Necklace",
+  "name": "V-Bar Teardrop Necklace",
   "kind": "necklace",
   "metal": "gold",
   "ref": "A16_full",
-  "det": "A16_det",
+  "det": "A16_chain",
   "note": "it lies in a white plastic pouch held in a hand: ignore the hand and the pouch, and take only the necklace.",
-  "lock": "A HERRINGBONE V TEARDROP NECKLACE: a flat polished gold herringbone chain about 3mm wide that, at the centre front, turns into TWO short smooth polished gold TUBE BARS, each about 15mm long and as wide as the chain, which meet at a point to form a sharp V; from the point of the V hangs ONE clear PEAR-cut faceted stone, about 8x11mm, its narrow tip at the TOP joined to the point of the V, its round end at the BOTTOM, held in fine gold claws.",
-  "neg": "There are two plain polished tube bars forming a V at the front, never a plain bail on the chain; one pear stone, clear, never a pearl; the herringbone chain is flat and about 3mm wide, never a rope, curb or cable.",
-  "scale": "The pear is about 11mm long, about the size of a fingernail; each bar of the V is about 15mm long and the chain about 3mm wide.",
-  "wscale": "Worn, the flat herringbone chain lies smooth on the collarbones, the polished V points down at the centre and the clear teardrop hangs from its point, just below the hollow of the throat.",
+  "lock": "A V-BAR TEARDROP NECKLACE ON A CURB CHAIN: a gold CURB CHAIN about 3.5mm wide, made of small interlocking oval links packed tightly together and pressed flat, each link with bright faceted cut faces that glitter, so the chain reads as a dense flat band of sparkling links with softly rounded edges; at the centre front the chain turns into TWO short smooth polished gold TUBE BARS, each about 15mm long and as wide as the chain, which meet at a point to form a sharp V; from the point of the V hangs ONE clear PEAR-cut faceted stone, about 10x13mm, its narrow tip at the TOP joined to the point of the V, its round end at the BOTTOM, held in fine gold claws; the stone is about two thirds as wide as one bar is long.",
+  "neg": "The chain is a curb chain of separate interlocking links you can count, never a smooth flat herringbone or snake ribbon, never a rope, never a cable chain; two plain polished tube bars form the V, never a plain bail on the chain; one pear stone, clear, never a pearl.",
+  "scale": "The pear is about 13mm long and 10mm wide, about the size of a fingernail; each bar of the V is about 15mm long and the chain about 3.5mm wide, about a third of the pear's width.",
+  "wscale": "Worn, the curb chain lies on the collarbones with its links glinting, the polished V points down at the centre and the clear teardrop hangs from its point just below the hollow of the throat; the pear is about a fifth of the width of her lips.",
   "place": "laid on the top face in a smooth V, the two polished bars and the teardrop at the point of the V",
-  "macro": "the two polished gold bars meeting in a V and the clear pear-cut stone hanging point up from it",
-  "palm": "the necklace lying in the open palm, the polished V and the teardrop in the centre, the herringbone chain over the fingers",
-  "pscale": "The teardrop is about the size of a fingernail; the chain is about as wide as a grain of rice."
+  "macro": "the two polished gold bars meeting in a V, the clear pear-cut stone hanging point up from it, and the faceted curb links of the chain running away from each bar",
+  "palm": "the necklace lying in the open palm, the polished V and the teardrop in the centre, the curb chain over the fingers",
+  "pscale": "The pear is only about two thirds of the width of one of her fingertips and each polished bar about as long as the top joint of her finger; the chain is about a fifth of a fingertip's width.",
+  "wref": "hero",
+  "measure": "Owner's 2 Nov photo (refs/A16_full.jpg), sent again on 3 Nov with the supplier's line 390x5 1,950: the chain is a curb chain of twisted, faceted oval links, not a herringbone. Against the bars (about 170 px each, taken as 15 mm, as on 2 Nov): the chain is about 40 px (about 3.5 mm) and the pear with its claws about 108 px wide and about 140 px tall below the V (about 10 x 13 mm); the 2 Nov copy said 3 mm and 8 x 11 mm. The fingertips (about 170 px, about 16 mm) give the same; the thumb (about 150 px) would make the piece bigger, so these sizes are estimates until the piece is measured.",
+  "detname": " IMAGE 2 is a taller crop of the same phone photo, showing the curb chain, the V and the pear."
  },
  "A12": {
   "name": "Heart Solitaire Huggies",
@@ -218,5 +221,24 @@
   "wscale": "Worn, the slim huggie hangs from the piercing: its stone row runs about 18mm straight down the front of the lobe, about as long as the earlobe is tall, its bottom only about a centimetre below the bottom of the earlobe and the whole huggie about a third of the height of the whole ear; a slim line of light, never a big hoop.",
   "pscale": "Each huggie is about as tall as one finger is wide, a little more, and the pair together covers well under half the palm.",
   "measure": "Owner's 2 Nov photo, same STAINLESS STEEL card as A12: the huggie is 250-257 px tall against a 690 px card (A12: 309 px hoop, 1039 px card, 15 mm), so about 1.22 x the A12 hoop, about 18 mm; the thumb and a USB cable give 19-22 mm. Stones about 14 px at a 19 px pitch, about ten in the row. The 31 Oct listing assumed 13 mm from the buy-book photo. Shape: the hoop passes through the card, so its plane is steep to the camera and its bottom (108 px) is foreshortened; the true depth is 0.6 to 1.0 of the height, and the owner's 31 Oct note on this piece was 'Square, it is an earring'. The first packshot (A13_H) drew a 3:1 paperclip and was replaced. Five packshots were drawn: the generator will not make the outline square (A13_Hs edit 2:1, A13_Hq 2.5:1, the drawing-guided edit A13_Hd 2.4:1); A13_Hg, a fresh packshot guided by the flat outline drawing refs/A13_shape.jpg, came out about 1.9:1, which matches the outline the huggies show in the owner's photo, and was approved."
+ },
+ "A15": {
+  "name": "Pave Open Heart Studs",
+  "kind": "earring",
+  "metal": "gold",
+  "ref": "A15_full",
+  "det": "A15_det",
+  "detname": " IMAGE 2 is a closer view of the same two studs.",
+  "note": "the two studs sit on a white earring card inside a clear plastic bag on black velvet: ignore the card, its printing, the bag, the white thread and the velvet, and take only the earrings. They lie tilted on the card; each heart itself is symmetric.",
+  "lock": "A PAIR OF BOLD OPEN HEART STUDS: each is a CLASSIC SYMMETRIC HEART OUTLINE standing upright, two equal rounded lobes at the top and one point straight down at the bottom, about 20mm across and 19mm tall. The outline is a BROAD flat band about 2.5mm wide, its outer and inner edges finished with a thin polished gold rim, and the band is set with TWO ROWS of tiny round clear stones side by side, running all the way round the heart. Warm polished gold tone metal. The middle of the heart is completely open; a post at the back.",
+  "neg": "The heart is upright and symmetric, never tilted, never lopsided, never with one lobe bigger than the other; the band is broad and carries TWO rows of tiny stones, never one row of big stones, never a thin wire; the metal is gold tone, never silver or white; an outline only, never filled; no drops, no pearls.",
+  "scale": "Each heart is about 20mm across and 19mm tall, about as wide as a thumb; the band is about 2.5mm wide, about an eighth of the heart's width, and each stone is tiny, under 1mm.",
+  "wscale": "Worn, each heart is a bold stud about 20mm across, about as tall as the earlobe itself and about a third of the height of the whole ear, sitting on the centre of the lobe perfectly UPRIGHT, its point straight down at six o'clock and its two lobes level and equal, never tilted or turned.",
+  "place": "both studs lying flat side by side on the top face, upright, facing up",
+  "macro": "ONE heart standing perfectly upright and square to the camera, its point straight down and its two lobes level and equal: its broad band with its two rows of tiny clear stones between thin polished gold rims, and its open centre",
+  "palm": "the pair of studs resting side by side in the open palm, upright, facing up",
+  "pscale": "Each heart is about 20mm, a little wider than one of her fingertips.",
+  "wref": "hero",
+  "measure": "Owner's 3 Nov stock photo (refs/A15_full.jpg, cut from the full photo the owner's crop came from): each heart is about 250 px across against a card about 600 px wide (0.42 of the card); in the 31 Oct buy-book photo (albyluxe-31oct/refs/A15_hd.jpg) each heart is about 157 px against a thumb about 113 px thick at the box edge. Both give about 20 mm; the 31 Oct listing said 11 mm. The band of two stone rows is about 0.13 of the heart's width, about 2.5 mm. The 31 Oct photos drew one row of larger stones in silver tone; the stock is gold tone, as the owner said (\"the heart is gold\")."
  }
 }

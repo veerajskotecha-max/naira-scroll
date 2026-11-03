@@ -147,6 +147,74 @@ The owner sent a screenshot of the listing: "Reduce sizing check supplier pic".
   - each Shopify copy matches its export, with a mean difference of 0.3 to 2.3 out of 255. The 2.3 is the worn shot's silk and hair re-compressed; the file uploaded was the export byte for byte.
 - The new media ids are in `build/drafts_new.json`.
 
+## Pave Open Heart Studs (A15) and V-Bar Teardrop Necklace (A16), 3 Nov
+
+The owner sent two photos: "These 2 products too the heart is gold and also for this chain the pattern of chain on our listing is wrong!"
+- **Photo 1:** the open-heart studs on a "stainless steel" card. It was cropped from a fuller photo of the same pair, saved as `refs/A15_full.jpg`, which is the one measured.
+- **Photo 2:** the 2 Nov photo of the V necklace, forwarded with the supplier's line "390x5 1,950".
+
+### Pave Open Heart Studs (A15)
+
+**What the 31 Oct listing had wrong.** It was made from the buy-book photo:
+- silver tone, with one row of bigger stones;
+- about 11 mm.
+
+**What the stock pair is:**
+- gold tone, a broad band with two rows of tiny stones between polished rims;
+- each heart about 20 × 19 mm. Against the card the heart is about 250 px of a 600 px card. In the buy-book photo it is about 1.4 times the thickness of the thumb holding the box.
+
+**Photos.** Gallery: packshot `A15_He`, worn `A15_W1`, worn close `A15_W2`, macro `A15_M`, in the palm `A15_Pf`, size card.
+- The first packshot `A15_H` leaned both hearts outward, and the worn shots copied the tilt (the 31 Oct note on this piece was "On model heart shapes are wrong"). An edit stood them upright (`A15_He`), and the worn shots and macro were rebuilt from it.
+- A worn shot that showed an eye, and one with a ghost second face, were reshot.
+- **Palm:** generated palm shots drew the hearts about twice their size. So the palm shot is a local composite: a background-removed cut-out of the `A15_He` hearts (the posts through the open centres erased) pasted at 125 px each, about 20 mm against 100 px fingers, onto the empty-palm plate `N02_Pclean`, with a soft shadow.
+- The size card is `pave-open-heart-studs-size-guide-v2.jpg` ("Each heart about 20 × 19 mm · band about 2.5 mm"). The 31 Oct card holds the plain name in Shopify Files.
+
+### V-Bar Teardrop Necklace (A16, was Herringbone Teardrop Necklace)
+
+**The chain.** In hand it is a dense curb chain of flat, faceted, interlocking links, not a smooth herringbone. The 2 Nov lock had said herringbone, "never a rope, curb or cable".
+
+**Sizes.** Against the bars (about 170 px, taken as 15 mm, as on 2 Nov) and the fingertips:
+- the chain is about 3.5 mm;
+- the pear is about 10 × 13 mm (the 2 Nov copy said 3 mm and 8 × 11 mm).
+
+The thumb in the photo would make the piece bigger, so these stay estimates until the piece is measured.
+
+**Photos.** Gallery: packshot `A16_He2`, worn `A16_W1f2`, worn quarter turn `A16_W2q`, macro `A16_M`, in the palm `A16_Ps2`, size card.
+- **Packshot.** Two edits of the 2 Nov packshot:
+  - the first swapped the chain for a curb and set a larger pear straight at the V point;
+  - the second packed the links tight like the real chain.
+- **Worn.**
+  - The generated worn shots drew the necklace about 1.8 times too big (the pear about 0.37 of the lip width against 0.2). Shrink edits brought the quarter view to a pear of about 11 mm; its bars were shortened by a further edit (`A16_W2s2`).
+  - The front view `A16_W1f` was made from `A16_W2s2` so the size carried over, then its bars were shortened (`A16_W1f2`).
+  - Because both of those faced the camera, a true quarter-turn view (`A16_W2q`), also made from `A16_W2s2`, replaced photo 3.
+  - The bars still read about 19 to 21 mm in these frames against the 15 mm in the copy.
+- **Palm.** Halved, then its bars shortened (`A16_Ps2`).
+- The 2 Nov herringbone frames are kept in `jobs.json` under `_herringbone`; their exports and card were removed from `exports/` and `cards/`.
+- The size card is `v-bar-teardrop-necklace-size-guide.jpg` ("45 cm · teardrop 10 × 13 mm").
+
+### Higgsfield
+
+27 generations and one background removal, 55 credits. The balance went from 281.71 to 226.71.
+
+### Shopify
+
+Two productSet mutations: `build/ship_a15a16.py`, then `build/ship_a16_w2.py` for the photo 3 swap. No status, price, compare-at or stock was sent, so both stay DRAFT at their prices with 5 units each.
+- **A15:**
+  - the five photos and the -v2 card;
+  - gold copy and SEO ("Material: Stainless steel, as on the supplier's card");
+  - the tag "Rhodium Silver Tone Plated" swapped for "18k Gold Tone Plated", with the tags sent in full.
+- **A16:**
+  - renamed V-Bar Teardrop Necklace, handle `v-bar-teardrop-necklace` (a draft that was never published); the SKU stays HTN;
+  - curb-chain copy and SEO, the five photos and the new card;
+  - the cost per item set to ₹390 from the supplier's line.
+  - The second mutation passed the four unchanged photos and the card by media id and brought in only the new photo 3.
+- **Checked afterwards:**
+  - six media READY and in gallery order on each, with the packshot as the variant image;
+  - both size-guide links answer 200;
+  - each Shopify copy matches its export, with a mean difference of 0.27 to 1.59 out of 255.
+- Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
+- `review/hearts_vbar_3nov.jpg` sets the owner's photos beside the new galleries.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

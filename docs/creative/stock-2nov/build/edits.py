@@ -104,6 +104,87 @@ E["N05_Pcs"] = ("N05_Pc", "EDIT IMAGE 1, a photograph of a small clear pear pend
    "size, so the pear is only about a third of the width of one of her fingers and the bail a tiny loop. It stays in the same place on the same "
    "fine chain. Keep the chain, the hand, the palm lines, the fingers, the skin, the hair, the camisole, the background and the light exactly "
    "as they are. Metal: warm 18k gold tone. " + END)
+E["A16_He"] = ("A16_H", "EDIT IMAGE 1, a packshot of a gold V-bar teardrop necklace on a cream plaster cube. Make TWO changes only. "
+   "(1) The smooth flat herringbone chain on both sides of the V is REPLACED by a CURB CHAIN exactly like the chain in IMAGE 2, a phone photo of "
+   "the real piece: small interlocking oval links twisted to lie flat, each link with bright faceted cut edges that glitter, the chain about as "
+   "wide as the polished bars and softly rounded in profile, every link separate and countable; never a smooth ribbon, never a herringbone or "
+   "snake chain. (2) The clear pear-cut stone becomes LARGER, about two thirds as wide as one polished bar is long, still pear-shaped with its "
+   "narrow tip at the TOP and its round end at the BOTTOM in fine gold claws, and its tip is joined DIRECTLY to the point of the V by its top "
+   "claw, with no ring and no link between them. Keep the two smooth polished gold tube bars and their sharp V, the cube, the camera, the "
+   "framing, the background and the light exactly as they are in IMAGE 1. Ignore the hand, the plastic pouch and everything else in IMAGE 2. "
+   "Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["A16_chain_ref"])
+E["A16_He2"] = ("A16_He", "EDIT IMAGE 1, a packshot of a gold V-bar teardrop necklace on a curb chain on a cream plaster cube. Make ONE change "
+   "only: the curb chain on both sides of the V becomes a DENSER, FLATTER curb chain exactly like the chain in IMAGE 2, a phone photo of the real "
+   "piece: its links are smaller and packed tightly together, each link overlapping the next so there is almost no open space between them, "
+   "every link pressed flat with bright faceted cut faces that glitter, so the chain reads as a dense flat band of sparkling links, about as wide "
+   "as the polished bars and softly rounded at its edges. Keep the two smooth polished gold tube bars and their sharp V, the clear pear-cut stone "
+   "in its claws at the point of the V, its size, the cube, the camera, the framing, the background and the light exactly as they are in IMAGE 1. "
+   "Ignore the hand, the plastic pouch and everything else in IMAGE 2. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["A16_chain_ref"])
+E["A15_He"] = ("A15_H", "EDIT IMAGE 1, a packshot of a pair of gold open heart pave studs on a cream plaster cube. Make ONE change only: both "
+   "hearts stand perfectly UPRIGHT side by side, square to the camera, each with its point straight down at six o'clock and its two rounded lobes "
+   "level and exactly equal, the left heart a mirror image of the right, never tilted, never turned outward, never lopsided. Keep each heart's size, "
+   "its broad band with its two rows of tiny clear stones, its thin polished gold rims and fine beaded edges, its open centre and its post, and keep "
+   "the cube, the camera, the framing, the background and the light exactly as they are in IMAGE 1. Metal: warm 18k gold tone, never brassy, "
+   "orange or greenish. " + END)
+E["A16_W1s"] = ("A16_W1", "EDIT IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb chain. Make ONE change only: "
+   "the PENDANT becomes HALF its present size: the two smooth polished gold bars become HALF as long, each now only about a third of the width "
+   "of her lips, and the clear pear-cut stone at the point of the V becomes HALF as wide and HALF as tall, now only about a fifth of the width "
+   "of her lips, still in its fine gold claws with its narrow tip at the top joined to the point of the V. The curb chain keeps its present "
+   "width and its dense faceted links, and simply runs a little further down to meet the shorter bars. Keep the woman, her lips, skin, hair, "
+   "hand, camisole, the background, the light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_W2s"] = ("A16_W2", "EDIT IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb chain. Make ONE change only: "
+   "the WHOLE NECKLACE becomes about HALF its present size: the curb chain about HALF as wide, a fine dense band of small faceted links; the two "
+   "smooth polished gold bars HALF as long, each now only about a third of the width of her lips; and the clear pear-cut stone at the point of "
+   "the V HALF as wide and HALF as tall, now only about a fifth of the width of her lips, still in its fine gold claws with its narrow tip at "
+   "the top joined to the point of the V. The necklace still sits at the base of her throat on the collarbones. Keep the woman, her lips, skin, "
+   "hair, camisole, the background, the light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_W1s2"] = ("A16_W1s", "EDIT IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb chain. Make ONE change "
+   "only: the NECKLACE becomes smaller, about SIXTY PERCENT of its present size: the clear pear-cut stone only about a fifth of the width of her "
+   "lips; each smooth polished gold bar only about a third of the width of her "
+   "lips; and the curb chain a little finer, a slim dense band of small faceted links about a third of the pear's width. The pear keeps its fine "
+   "gold claws, its narrow tip at the top joined to the point of the V. Keep the woman, her lips, skin, hair, hand, camisole, the background, the "
+   "light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_W2s2"] = ("A16_W2s", "EDIT IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb chain. Make ONE change "
+   "only: the two smooth polished gold bars that form the V become SHORTER, about TWO THIRDS of their present length, each now only about one and "
+   "a half times as long as the pear stone is wide, and the curb chain runs a little further down to meet them. Keep the clear pear-cut stone "
+   "exactly as it is, its size and claws, at the point of the V, keep the curb chain's links as they are, and keep the woman, her lips, skin, "
+   "hair, camisole, the background, the light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_W1f"] = ("A16_W2s2", "Make a NEW photograph from IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb "
+   "chain: the same woman, the same skin, the same long dark wavy hair, the same marigold silk camisole with narrow straps, the same warm cream "
+   "background and the same soft light, but now SQUARE TO THE CAMERA, her head and shoulders facing straight on, the necklace centred at the base "
+   "of her throat and lying flat on her collarbones. The frame is cut straight across just ABOVE THE UPPER LIP: NO eyes, NO eyebrows, NO forehead; "
+   "inside the frame her lips, chin, neck, collarbones, shoulders and upper chest. The necklace keeps EXACTLY the size it has in IMAGE 1 against "
+   "her body: the clear pear-cut stone only about a fifth of the width of her lips, each smooth polished gold bar only about a third of the width "
+   "of her lips, and the curb chain a slim dense band of small faceted links. IMAGE 2 is our approved packshot of this exact necklace and the "
+   "authority on its construction only: two smooth polished gold tube bars meeting in a sharp V, the clear pear-cut stone in fine gold claws "
+   "hanging point up from the point of the V, and the dense flat curb chain; its size comes ONLY from IMAGE 1. No other jewellery, no hand, no "
+   "props. 4:5 vertical, full bleed. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["A16_He2"])
+E["A16_W1f2"] = ("A16_W1f", "EDIT IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb chain. Make ONE change "
+   "only: the two smooth polished gold bars that form the V become SHORTER, about TWO THIRDS of their present length, each now only about one and "
+   "a half times as long as the pear stone is wide, and the curb chain runs a little further down to meet them. Keep the clear pear-cut stone "
+   "exactly as it is, its size and claws, at the point of the V, keep the curb chain's links as they are, and keep the woman, her lips, skin, "
+   "hair, camisole, the background, the light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_Ps"] = ("A16_P", "EDIT IMAGE 1, a photograph of a gold V-bar teardrop necklace on a curb chain resting in an open palm. Make ONE change "
+   "only: the WHOLE NECKLACE becomes about HALF its present size: the curb chain about HALF as wide, a slim dense band of small faceted links only "
+   "about a fifth of a fingertip's width; the two smooth polished gold bars HALF as long; and the clear pear-cut stone HALF as wide and HALF as "
+   "tall, now only about two thirds of the width of one of her fingertips, still in its fine gold claws with its narrow tip at the top joined to "
+   "the point of the V. The chain still runs across the palm and over the fingers. Keep the hand, the palm lines, the fingers, the skin, the "
+   "background, the light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_Ps2"] = ("A16_Ps", "EDIT IMAGE 1, a photograph of a gold V-bar teardrop necklace on a curb chain resting in an open palm. Make ONE "
+   "change only: the two smooth polished gold bars that form the V become HALF as long, each now only about one and a half times as long as the "
+   "pear stone is wide, and the curb chain runs a little further in to meet them. Keep the clear pear-cut stone exactly as it is, its size and "
+   "its claws, at the point of the V, keep the curb chain's links as they are, and keep the hand, the palm lines, the fingers, the skin, the "
+   "background, the light and the framing exactly as they are. Metal: warm 18k gold tone. " + END)
+E["A16_W2q"] = ("A16_W2s2", "Make a NEW photograph from IMAGE 1, a photograph of a woman wearing a gold V-bar teardrop necklace on a curb "
+   "chain: the same woman, the same skin, the same long dark wavy hair, the same marigold silk camisole with narrow straps, the same warm cream "
+   "background and the same soft light, but now her head and shoulders are TURNED A QUARTER TO ONE SIDE, her jaw line in three-quarter profile, "
+   "the camera a little closer, so her neck and one collarbone are seen at an angle and the necklace follows the curve of her collarbone, its "
+   "polished V and the pear hanging just below the hollow of her throat. The frame is cut straight across just ABOVE THE UPPER LIP: NO eyes, NO "
+   "eyebrows, NO forehead; inside the frame her lips, chin, jaw, neck, collarbones and one shoulder. The necklace keeps EXACTLY the size it has in "
+   "IMAGE 1 against her body: the clear pear-cut stone only about a fifth of the width of her lips, each smooth polished gold bar only about one "
+   "and a half times as long as the pear is wide, and the curb chain a slim dense band of small faceted links. IMAGE 2 is our approved packshot "
+   "of this exact necklace and the authority on its construction only; its size comes ONLY from IMAGE 1. No other jewellery, no hand, no props. "
+   "4:5 vertical, full bleed. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["A16_He2"])
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}
     for i, key in enumerate(keys):

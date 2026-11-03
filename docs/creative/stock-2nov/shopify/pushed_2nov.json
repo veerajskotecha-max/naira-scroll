@@ -43,29 +43,6 @@
   ],
   "photosUpdated": "2026-11-02"
  },
- "herringbone-teardrop-necklace": {
-  "id": "gid://shopify/Product/10377179857058",
-  "piece": "A16",
-  "status": "DRAFT",
-  "variant": [
-   "gid://shopify/ProductVariant/50798476820642",
-   "HTN",
-   5
-  ],
-  "photos": 5,
-  "sizeCard": "herringbone-teardrop-necklace-size-guide.jpg",
-  "created": "2026-11-02",
-  "channels": 0,
-  "gallery": [
-   "H",
-   "W1",
-   "W2",
-   "M",
-   "P",
-   "card"
-  ],
-  "photosUpdated": "2026-11-02"
- },
  "laurel-marquise-necklace": {
   "id": "gid://shopify/Product/10377182937250",
   "piece": "N01",
@@ -303,5 +280,53 @@
   "price": "999.00",
   "compareAtPrice": "1899.00"
  },
- "_note": "Statuses as read on 3 Nov: the owner has set ten of the twelve Active (each on all 6 channels); the Herringbone Teardrop Necklace, the Petite Fleur Y Necklace and the Slim Pave Huggies (created 3 Nov, autoPublish on around the create) are DRAFT, and drafts read 0 channels until they are set Active."
+ "_note": "Statuses as read on 3 Nov: the owner has set ten of the twelve Active (each on all 6 channels); the Herringbone Teardrop Necklace, the Petite Fleur Y Necklace and the Slim Pave Huggies (created 3 Nov, autoPublish on around the create) are DRAFT, and drafts read 0 channels until they are set Active.",
+ "v-bar-teardrop-necklace": {
+  "id": "gid://shopify/Product/10377179857058",
+  "piece": "A16",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50798476820642",
+   "HTN",
+   5
+  ],
+  "photos": 5,
+  "sizeCard": "v-bar-teardrop-necklace-size-guide.jpg",
+  "created": "2026-11-02",
+  "channels": 0,
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-03 (curb chain, pear about 10 x 13 mm; photo 3 swapped for a true quarter turn in a second productSet)",
+  "renamed": "2026-11-03 from Herringbone Teardrop Necklace (handle herringbone-teardrop-necklace); the chain in hand is a curb chain",
+  "unitCost": "390.00 (supplier line 390x5 1,950)"
+ },
+ "pave-open-heart-studs": {
+  "id": "gid://shopify/Product/10375501742242",
+  "piece": "A15",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50785485324450",
+   "POHS",
+   5
+  ],
+  "photos": 5,
+  "sizeCard": "pave-open-heart-studs-size-guide-v2.jpg",
+  "created": "2026-10-31 (albyluxe-31oct)",
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-03 (gold tone, two rows of tiny stones, about 20 mm; silver 11 mm 31 Oct photos replaced)",
+  "tags": "Rhodium Silver Tone Plated swapped for 18k Gold Tone Plated"
+ }
 }

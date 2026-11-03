@@ -1,0 +1,3 @@
+mutation VBarQuarterTurn($a16: ProductSetInput!, $a16id: ProductSetIdentifiers!) {
+  a16: productSet(identifier: $a16id, input: $a16, synchronous: true) { product { id handle title status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+}

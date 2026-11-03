@@ -80,5 +80,32 @@
    ]
   ],
   "line": "Huggie about 18 × 10 mm · band about 2 mm"
+ },
+ "A15": {
+  "src": "A15_He",
+  "crop": [
+   230,
+   650,
+   1400
+  ],
+  "callouts": [
+   [
+    "h",
+    967,
+    1533,
+    1462,
+    "20 mm",
+    "below"
+   ],
+   [
+    "v",
+    867,
+    1425,
+    1575,
+    "19 mm",
+    "right"
+   ]
+  ],
+  "line": "Each heart about 20 × 19 mm · band about 2.5 mm"
  }
 }

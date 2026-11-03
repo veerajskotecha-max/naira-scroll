@@ -225,19 +225,19 @@
  },
  {
   "id": "A16",
-  "title": "Herringbone Teardrop Necklace",
+  "title": "V-Bar Teardrop Necklace",
   "type": "Necklace",
   "sku": "HTN",
   "price": 1299,
   "compare": 2499,
   "units": 5,
   "option": null,
-  "intro": "A polished V and one clear drop. A flat herringbone chain about 3mm wide turns into two smooth gold tone bars that meet in a V at the front, and a pear cut clear cubic zirconia of about 8 x 11mm hangs point up from the point of the V.",
+  "intro": "A polished V and one clear drop. A gold tone curb chain about 3.5mm wide turns into two smooth gold tone bars that meet in a V at the front, and a pear cut clear cubic zirconia of about 10 x 13mm hangs point up from the point of the V.",
   "tip": "Wear it alone with a white top or a deep neckline.",
   "details": [
-   "Chain: Flat herringbone chain, approximately 3mm wide",
+   "Chain: Curb chain with faceted links, approximately 3.5mm wide",
    "Front: Two polished bars, approximately 15mm each, meeting in a V",
-   "Drop: Pear cut clear cubic zirconia, approximately 8 x 11mm, hanging point up in a claw setting",
+   "Drop: Pear cut clear cubic zirconia, approximately 10 x 13mm, hanging point up in a claw setting",
    "Length: Approximately 45cm (to confirm)",
    "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
   ],
@@ -248,8 +248,9 @@
    "W2",
    "M"
   ],
-  "note": "Held at review on 31 Oct; the piece in stock has a polished V at the front, which the earlier photos lacked.",
-  "status": "draft"
+  "note": "Renamed from Herringbone Teardrop Necklace on 3 Nov: the owner said the chain on the listing was wrong. The chain in hand is a curb chain of faceted links, not a herringbone; sizes re-measured against the bars and fingers in the owner's photo. Supplier's line with the photo: 390x5 1,950 (Rs 390 a piece for 5).",
+  "status": "draft",
+  "cost": 390
  },
  {
   "id": "A12",
@@ -366,5 +367,35 @@
   ],
   "tip": "Stack them with the Brushed Gold Huggies.",
   "note": "Held back on 31 Oct. The pair in hand (owner's 2 Nov photo) is about 18mm tall, not the 13mm the buy-book photo suggested, and its stones sit in fine claws, so the 31 Oct photos were not used."
+ },
+ {
+  "id": "A15",
+  "title": "Pave Open Heart Studs",
+  "type": "Earrings",
+  "sku": "POHS",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "status": "draft",
+  "photo": "3 Nov",
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P"
+  ],
+  "intro": "A heart drawn in light. Each stud is a bold open heart of about 20mm in polished gold tone, its broad outline set with two rows of tiny clear cubic zirconia, with the centre left open.",
+  "details": [
+   "Size: Approximately 20mm across and 19mm tall",
+   "Stones: Two rows of tiny clear cubic zirconia round the outline",
+   "Fitting: Stud",
+   "Sold as: One pair",
+   "Finish: Polished gold tone",
+   "Material: Stainless steel, as on the supplier's card"
+  ],
+  "tip": "Pair them with the Pearl Heart Layered Necklace.",
+  "note": "Listed 31 Oct from the buy-book photo as silver tone, about 11mm. The pair in stock (owner's 3 Nov photo, \"the heart is gold\") is gold tone with two rows of tiny stones and about 20mm across, so the photos, copy, size card and tags are redone."
  }
 ]

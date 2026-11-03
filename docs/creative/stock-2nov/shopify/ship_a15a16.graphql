@@ -1,0 +1,4 @@
+mutation HeartAndVBar($a15: ProductSetInput!, $a15id: ProductSetIdentifiers!, $a16: ProductSetInput!, $a16id: ProductSetIdentifiers!) {
+  a15: productSet(identifier: $a15id, input: $a15, synchronous: true) { product { id handle title status totalInventory tags mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  a16: productSet(identifier: $a16id, input: $a16, synchronous: true) { product { id handle title status totalInventory tags mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+}
