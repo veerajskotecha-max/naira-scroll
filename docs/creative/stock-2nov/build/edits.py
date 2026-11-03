@@ -368,6 +368,26 @@ E["MDC_Ls"] = ("MDC_L", SILVER_MDC.format(what="a photograph of a gold choker ne
 E["MDC_5s2"] = ("MDC_5", SILVER_MDC.format(what="a close photograph of a woman wearing a gold choker necklace", keep=KEEP_MODEL).replace(
    "Nothing else changes,", "ALL of the metal is the SAME cool white silver, like platinum, with NO gold, rose, pink or copper tint anywhere: the collar on BOTH sides of the stone, the claws, the whole drop chain and the settings of both pear stones, even where the metal lies against her warm skin. Nothing else changes,"))
 ASPECT = {k: "1:1" for k in ("MDC_2s", "MDC_4s", "MDC_5s", "MDC_Ls", "MDC_5s2")}
+# 3 Nov: Clover Garland Necklace (C2), owner: "Clover size check bracelet keep same sizing for neck". On the Clover Garland Bracelet's worn
+# photos a clover is about 0.22 of the lip width (about 10 mm, as its copy says); on C2_W1_a and C2_W2q_a it is about 0.31 to 0.33 (about
+# 15 mm) with only 12 to 13 across the front, so both are redrawn with the clovers at about two thirds of their size and more of them.
+CLOVER10 = ("EDIT IMAGE 1, {what}. Make ONE change only: every clover on the necklace becomes SMALLER, about TWO THIRDS of its present size: "
+   "each clover about 10mm across, about a FIFTH of the width of her lips, its four round red stones in beaded gold cups and its tiny clear "
+   "centre stone all in proportion. Because the clovers are smaller there are MORE of them, still linked petal to petal by tiny gold rings, "
+   "so the necklace follows exactly the same path round the base of her neck and across her collarbones, with about EIGHTEEN clovers across "
+   "the front from one side of the neck to the other. Keep EVERYTHING else in IMAGE 1 exactly identical: the woman, her skin, her pose, her "
+   "hair, the camisole, the background, the light, the framing and the camera; the clovers keep the same red, the same gold and the same "
+   "design. Nothing else changes, nothing is added. " + END)
+E["C2_W1c"] = ("C2_W1_a", CLOVER10.format(what="a photograph of a woman wearing a red clover necklace, square to camera"))
+E["C2_W2qc"] = ("C2_W2q_a", CLOVER10.format(what="a photograph of a woman wearing a red clover necklace, turned a quarter to the side"))
+# The CLOVER10 edits kept the clovers at their size (about 13 across the front again), so the two frames are rebuilt locally (comp.py
+# garland): the necklace is edited out to a bare plate, and its own clover link is laid back along the same curve at two thirds size.
+BARE_NECK = ("EDIT IMAGE 1, a photograph of a woman wearing a red clover necklace. Make ONE change only: REMOVE the necklace completely, every "
+   "clover and every gold ring: her neck, collarbones and chest are bare skin where it lay, with the same skin tone, texture and light, and "
+   "her hair falls exactly as it does now. Keep EVERYTHING else in IMAGE 1 exactly identical: the woman, her face, her skin, her pose, her "
+   "hair, the camisole, the background, the light, the framing and the camera. No jewellery anywhere. " + END)
+E["C2_W1bare"] = ("C2_W1_a", BARE_NECK)
+E["C2_W2qbare"] = ("C2_W2q_a", BARE_NECK)
 
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}

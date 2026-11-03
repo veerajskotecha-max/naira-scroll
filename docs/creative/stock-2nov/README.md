@@ -533,6 +533,49 @@ One mutation, `MarquiseDropSilver` (`build/ship_mdc_silver_3nov.py`, `shopify/sh
 - The ids are in `shopify/pushed_2nov.json`; `build/mdc_live.json` holds the description as read before the change.
 - `review/marquise_drop_choker_silver_3nov.jpg` sets the gold photos above the silver ones.
 
+## Clover Garland Necklace at the bracelet's clover size, and the two solitaire huggies, 3 Nov evening
+
+**The note.** "Solitaire drop higgies are different, these are different right? Clover size chekc bracleet keep same sizing for neck".
+
+**Huggies.** The two listings are different pieces, as the live copy shows:
+- **Solitaire Drop Huggies** (ADT27, live, from the Aditya stock): a 10.5 mm huggie, a 4 mm stone on a jump ring, no tube.
+- **Solitaire Charm Huggies** (A14, draft, the owner's bag photo): a chunky 13 mm hoop, a square tube, a 6.5 mm stone.
+
+**Clover.** The Clover Garland Bracelet's copy gives about 10 mm clovers and 3.5 mm stones. The necklace's copy and size card already say the same, and its palm photo was composited at 10 mm. The two worn photos were drawn too big:
+- On the bracelet's worn photos a clover is about 0.22 of the lip width.
+- On the necklace's `C2_W1_a` and `C2_W2q_a` it was about 0.31 and 0.33, about 15 mm, with only 12 to 13 clovers across the front.
+
+**First try.** Two edits asking for clovers two thirds the size (`CLOVER10`) came back with the clovers unchanged.
+
+**Fix: `comp.py garland`.**
+- **Bare plates:** the necklace was edited out of each frame (`BARE_NECK`: `C2_W1bare_a`, `C2_W2qbare_a`).
+- **The curve:** the clovers' centres were found from the red stones inside a box that leaves out the hand. A Catmull-Rom curve was fitted through them, ordered round the U.
+- **The links:** cut from the clovers that face the camera most squarely, and only those with a ring stub at both ends. Each link keeps only its own clover and the rings joined to it.
+- **Laying them back:** the links go back along the same curve at 0.70 (W1) and 0.67 (W2q). They are compressed along the chain where it recedes up the sides of the neck, each with a soft contact shadow. Where the bare plate shows hair, the hair covers the chain.
+- **Result:** `C2_W1g` has 17 clovers along the visible neck and `C2_W2qg` has 19. Both are at about 0.22 to 0.24 of the lip width, the bracelet's ratio.
+- **Iterations:** earlier versions had their faults fixed in turn:
+  - two of the "clovers" found were fingertips;
+  - part-hidden end clovers were used as patterns;
+  - neighbour scraps came through;
+  - one link was missing its ring.
+
+  The masks and the links used are in `build/comp/`.
+
+### Higgsfield
+
+4 edits, 8 credits: the two `CLOVER10` edits, which did not take, and the two bare plates. The balance went from 93.71 to 85.71.
+
+### Shopify
+
+One mutation, `CloverNeckSize` (`build/ship_c2_worn_3nov.py`, `shopify/ship_c2_worn_3nov.graphql`, `shopify/ship_c2_worn_3nov.json`).
+- **Change:** the two worn photos were replaced. The packshot, macro, palm and size card were kept by media id, with the packshot as the variant image.
+- **Not sent:** status, copy, price, stock and tags. The necklace stays DRAFT at ₹2,199 with 5 units.
+- **Checked afterwards:**
+  - six media READY, in order;
+  - the served worn photos match the exports, with a mean difference of 1.55 and 1.9 out of 255.
+- A worker restart came before the mutation. The draft's update time and media were checked as unchanged before it was sent.
+- `review/clover_necklace_size_3nov.jpg` sets the bracelet's worn photo beside each necklace photo, before and after.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

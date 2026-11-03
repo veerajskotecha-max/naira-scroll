@@ -1,0 +1,3 @@
+mutation CloverNeckSize($id: ProductSetIdentifiers!, $p: ProductSetInput!) {
+  p: productSet(identifier: $id, input: $p, synchronous: true) { product { id handle status totalInventory mediaCount { count } media(first: 10) { nodes { id alt } } variants(first: 1) { nodes { id sku price inventoryQuantity } } } userErrors { field message code } }
+}
