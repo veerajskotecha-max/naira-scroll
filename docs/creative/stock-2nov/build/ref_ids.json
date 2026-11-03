@@ -38,5 +38,8 @@
  "C2_det": "66da13f9-29ee-4635-a7d6-ede42de8dd63",
  "a14_pair_crop": "fe21361a-f851-4767-999e-3c3e072987d2",
  "c2_run_crop": "085801a6-6d31-4785-ad2e-6d2dbfebb1ce",
- "A13_set": "0fa3b06e-4029-4631-bbe4-c8d5ac62988c"
+ "A13_set": "0fa3b06e-4029-4631-bbe4-c8d5ac62988c",
+ "B1_full": "b0b302e7-7f0c-4cf0-919a-e5b7ac09b25c",
+ "B1_det": "62f477d1-5bf2-465d-9320-99cc50a475c8",
+ "B1_Hc_ref": "a99d36e3-b8fa-412e-a8c6-f96a122be3d6"
 }

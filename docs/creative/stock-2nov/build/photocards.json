@@ -142,5 +142,41 @@
    ]
   ],
   "line": "Hoop about 13 mm · stone about 6.5 mm · about 24 mm long"
+ },
+ "B1": {
+  "src": "B1_Hc",
+  "crop": [
+   190,
+   570,
+   1500
+  ],
+  "callouts": [
+   [
+    "h",
+    392,
+    1517,
+    1130,
+    "6.5 cm inside",
+    "above"
+   ],
+   [
+    "h",
+    795,
+    1067,
+    1267,
+    "1.5 cm",
+    "below"
+   ],
+   [
+    "h",
+    605,
+    795,
+    1400,
+    "8 mm",
+    "below"
+   ]
+  ],
+  "line": "Cable about 4 mm · balls about 8 mm · about 6.5 cm across inside",
+  "note": "Sizes are approximate, measured from a photo of the cuff in hand."
  }
 }

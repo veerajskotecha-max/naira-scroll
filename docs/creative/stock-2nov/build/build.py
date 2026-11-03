@@ -18,11 +18,12 @@ LIP = "CROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes,
 END = ("No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: "
        "the image fills the whole frame edge to edge. A clean modern digital photograph: no creases, no fold lines, no aged-paper texture, "
        "no scratches, no film grain.")
-NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff", "bangle": "rigid bangle", "set": "set (the necklace and its pair of earrings)"}
+NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff", "bangle": "rigid bangle", "cuff": "open cuff bracelet", "set": "set (the necklace and its pair of earrings)"}
 METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver": "bright rhodium silver tone, never grey or dull, never gold",
          "two-tone": "polished gold tone and bright silver tone exactly where IMAGE 1 shows them",
          "tri-tone": "rose-gold tone, bright silver tone and warm gold tone exactly where IMAGE 1 shows them",
-         "rose": "soft rose-gold tone, a pinkish gold, never copper-orange, never yellow gold, never silver"}
+         "rose": "soft rose-gold tone, a pinkish gold, never copper-orange, never yellow gold, never silver",
+         "palegold": "a pale, light yellow gold tone, soft and lemony as on the stock, never deep orange 18k, never brassy, never greenish, never rose, never silver"}
 
 def refs(s, plate, hero=None, worn=False):
     if worn and hero and s.get("wref") == "hero":                # the supplier photo kept leaking its backdrop into worn frames
@@ -71,13 +72,13 @@ def prompt(k, shot):
                   "is legible and is seen at its TRUE small size against the palm and the fingers.")
             crop = "Inside the frame: the open palm, the fingers and the wrist only. No face, no neck, no camisole."
             where = "resting in her open palm, NOT worn"
-        elif kind in ("bracelet", "bangle"):
+        elif kind in ("bracelet", "bangle", "cuff"):
             plate = "wrist"
             sh = (f"SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the {kind} large and legible in frame. 4:5 vertical, full bleed."
                   if shot == "W1" else
-                  f"SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the {kind} LARGE in frame and {'sitting loosely around' if kind == 'bangle' else 'lying on'} the wrist. 4:5 vertical, full bleed.")
+                  f"SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the {kind} LARGE in frame and {'sitting loosely around' if kind in ('bangle', 'cuff') else 'lying on'} the wrist. 4:5 vertical, full bleed.")
             crop = LIP + " Inside the frame: chin, neck, collarbones, shoulder, forearm and hand."
-            where = "worn on ONE wrist"
+            where = "worn on ONE wrist" + (f", {s['wear']}" if s.get("wear") else "")
         elif kind == "ring":
             plate = "ring"
             sh = ("SHOT: A worn photograph: the model's hand raised and resting lightly on her collarbone, the ring finger forward, the camera close enough that the ring is clearly legible. 4:5 vertical, full bleed."
@@ -118,6 +119,11 @@ def prompt(k, shot):
              f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {(s.get('pscale', '') + ' ' + s['scale']) if shot == 'P' else (s.get('wscale') or s['scale'])} The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\n"
              f"ABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. "
              f"No nail polish colour. No props, no flowers. Metal: {m}. {END}")
+    if s.get("stoneless"):                 # a plain metal piece: drop the house lines about stones, so none are invented
+        p = (p.replace(", its metal colour and its stone colour EXACTLY", " and its metal colour EXACTLY")
+              .replace(", metal colour and stone colour EXACTLY", " and metal colour EXACTLY")
+              .replace(", and every stone shows internal sparkle and a hard white point, never flat colour.", ", never flat colour.")
+              .replace("razor-sharp on the stones and the metal edges", "razor-sharp on the metal edges and the twist"))
     return ids, p
 
 if __name__ == "__main__":

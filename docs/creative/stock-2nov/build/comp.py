@@ -11,6 +11,7 @@
 # Usage: python3 -I comp.py palm [CUT OUT HOOP_PX ANGLE CX CY] | run_palm | unloop | worn SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [LOBE_Y]]
 #                           | stud SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [MAXHOLE]]
 #                           | hug  SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [LOBE_Y]]   (worn, with specks under 200 px dropped)
+#                           | tone SRC OUT DH SK [H0 HR SMAX X0 Y0 X1 Y1]   (B1 Orb Cable Cuff: the gold shifted to the paler yellow of the stock)
 import sys, os
 import numpy as np
 from PIL import Image, ImageFilter
@@ -147,6 +148,24 @@ def unloop(src="C2_Pf_a", plate="N02_Pclean", out="C2_Pu", grow=3):
     for _ in range(grow): hand = hand.filter(ImageFilter.MaxFilter(7))
     Image.composite(A, B, hand.filter(ImageFilter.GaussianBlur(4))).save(O(out)); print("unloop", out)
 
+def tone(src, out, dh=9.0, sk=0.8, s0=0.22, s1=0.32, h0=12.0, h1=62.0, hr=6.0, smax=None, box=None):
+    """Shift the gold's hue by dh degrees and scale its saturation by sk (B1 Orb Cable Cuff, 3 Nov: Higgsfield drew a warm orange
+    gold, hue about 32 deg and saturation about 0.5, where the cuffs in the owner's photo, white balance neutral on the bag, read a
+    paler yellow gold of about 40 to 46 deg). The weight ramps in from saturation s0 to s1 and fades at the hue limits, so the cream
+    ground (saturation about 0.19) stays as it is."""
+    im = Image.open(O(src)).convert("RGB"); hsv = np.asarray(im.convert("HSV")).astype(np.float32)
+    h, s = hsv[..., 0] * 360 / 255, hsv[..., 1] / 255
+    w = np.clip((s - s0) / (s1 - s0), 0, 1) * np.clip((h - h0) / hr, 0, 1) * np.clip((h1 - h) / 6, 0, 1)
+    if smax: w *= np.clip((smax - s) / 0.08, 0, 1)            # worn frames: the saffron camisole is far more saturated than the gold
+    if box:                                                   # worn frames: only inside a feathered box round the cuff
+        m = Image.new("L", im.size, 0); m.paste(255, tuple(int(v) for v in box))
+        w *= np.asarray(m.filter(ImageFilter.GaussianBlur(12))).astype(np.float32) / 255
+    hsv[..., 0] = ((h + dh * w) % 360) * 255 / 360; hsv[..., 1] = np.clip(s * (1 - (1 - sk) * w), 0, 1) * 255
+    t = np.asarray(Image.fromarray(np.round(hsv).astype(np.uint8), "HSV").convert("RGB")).astype(np.float32)
+    k = (w > 0.002)[..., None]                                # pixels outside the gold keep their exact RGB (the HSV round trip is lossy)
+    o = np.where(k, t, np.asarray(im).astype(np.float32))
+    Image.fromarray(np.round(o).astype(np.uint8)).save(O(out)); print(out, "toned", dh, sk)
+
 if __name__ == "__main__":
     if sys.argv[1] == "palm" and len(sys.argv) > 2:      # palm CUT OUT HOOP_PX ANGLE CX CY
         c, o, hp, ang, cx, cy = sys.argv[2:8]; palm(float(ang), (int(cx), int(cy)), float(hp), cut_name=c, out=o)
@@ -160,6 +179,10 @@ if __name__ == "__main__":
              int(n[8]) if len(n) > 8 else 900)
     elif sys.argv[1] == "run_palm": run_palm()
     elif sys.argv[1] == "unloop": unloop()
+    elif sys.argv[1] == "tone":                          # tone SRC OUT DH SK [H0 HR SMAX X0 Y0 X1 Y1]: shift the gold hue by DH deg, scale its
+        n = [float(v) for v in sys.argv[4:]]              # saturation by SK; on worn frames, from hue H0 (ramp HR), under SMAX, in the box
+        kw = dict(h0=n[2], hr=n[3], smax=n[4], box=n[5:9]) if len(n) > 2 else {}
+        tone(sys.argv[2], sys.argv[3], n[0], n[1], **kw)
     else:
         s, b, o, *n = sys.argv[2:]; n = [float(v) for v in n]
         worn(s, b, o, tuple(int(v) for v in n[0:4]), (n[4], n[5]), n[6], 38, *[int(v) for v in n[7:9]])

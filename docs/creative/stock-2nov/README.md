@@ -424,6 +424,79 @@ One mutation, `CharmHeartFix` (`build/ship_earrings_3nov.py`, `shopify/ship_earr
 - Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
 - `review/charm_heart_3nov.jpg` sets the owner's photo of each pair beside its five photos and size card.
 
+## Orb Cable Cuff (B1), listed 3 Nov
+
+**The note.** "List this cuff also 10 pieces". It came with a photo of two of the cuffs in a bag beside a thumb.
+
+**What it is.** A plain gold tone open cuff of twisted cable, with a wrapped collar and a round ball at each end, and no stones.
+- It is a new listing. It is not the Garnet Cable Cuff (silver cable, garnet tips) or the Whisper Twist Cuff (DRAFT, a single twist).
+- No supplier card is in the photo, so no material is claimed.
+
+**Measured.** From `refs/B1_full.jpg` and the 2x crop `refs/B1_det.jpg`; the working is in `build/skus.json`. On the front cuff:
+- outside width about 857 px;
+- cable about 44 px;
+- each ball about 100 px;
+- gap between the balls about 173 px;
+- the thumb about 250 px wide at the nail.
+
+With the thumb at about 21 mm, that gives:
+- cable about 4 mm;
+- balls about 8 mm;
+- inside about 6.5 cm;
+- opening about 1.5 cm.
+
+Nothing else in the bag gives a scale, so these are estimates.
+
+**Colour.** The stock reads a paler, lemony yellow gold, a hue of about 38 to 46°, with the white balance neutral on the bag. Higgsfield drew a warmer, orange gold of about 32°.
+- `comp.py tone` shifted the gold in every photo to about 38°.
+- On the worn and palm frames only the cuff is shifted, inside a box with a saturation cap, so skin and the camisole are unchanged.
+- The worn, macro and palm shots were made from the toned packshot, uploaded as `build/comp/B1_Hc_ref.jpg`.
+
+**Photos.** `build/build.py` now takes two new settings:
+- a `cuff` kind, worn on the wrist like a bangle, with a `wear` line for where the opening sits (here, on top of the wrist);
+- a `stoneless` flag that drops the house lines about stones.
+
+The gallery:
+- packshot `B1_H_a`, toned to `B1_Hc`;
+- worn `B1_W1_a` (to `B1_W1t`);
+- worn close `B1_W2_a` (to `B1_W2t`);
+- macro `B1_M_a` (to `B1_Mt`);
+- palm `B1_P_a` (to `B1_Pt`).
+
+The size checks:
+- On the wrist the cuff is about as wide as the wrist and each ball about a sixth of it, which fits 8 mm balls on a 5.5 cm wrist.
+- In the packshot the balls read maybe 15% large against the stock, within the estimate.
+
+The size card is `cards/orb-cable-cuff-size-guide.jpg`, drawn on the toned packshot. Its bars are 6.5 cm inside, 1.5 cm opening and 8 mm ball.
+
+**Copy.** The intro opens "One twisted line, two golden orbs." The details:
+- Open cuff, about 6.5cm across inside, with an opening of about 1.5cm;
+- Twisted gold tone cable of about 4mm;
+- A wrapped collar and an 8mm ball at each end;
+- Sold as one cuff;
+- Finish: gold tone.
+
+The tip is to stack it with the Kiss Knot Bangle in gold.
+
+### Higgsfield
+
+10 generations, 20 credits: two packshots, then two each of worn, worn close, macro and palm. The balance went from 125.71 to 105.71.
+
+### Shopify
+
+One mutation, `OrbCableCuff` (`build/ship_cuff_3nov.py`, `shopify/ship_cuff_3nov.graphql`, `shopify/ship_cuff_3nov.json`). It turned autoPublish on for the six channels, made the create, then turned autoPublish off.
+- **Orb Cable Cuff:**
+  - DRAFT, SKU `OCC`, ₹1,299 with ₹2,299 compare-at, 10 units, inventory policy DENY;
+  - Bracelets category, feed metafields and SEO;
+  - tags 18k Gold Tone Plated, Bracelet, Cuff, Demi Fine and Naira Petite, with no Cubic Zirconia tag because the piece has no stones.
+- **Checked afterwards:**
+  - six media READY, in order, with the packshot as the variant image;
+  - attached to all six channels, and unpublished until it is set Active;
+  - the size-guide link answers 200;
+  - each Shopify copy matches its export, with a mean difference of 0.67 to 2.09 out of 255.
+- Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
+- `review/orb_cable_cuff_3nov.jpg` sets the owner's photo beside the gallery and the card.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

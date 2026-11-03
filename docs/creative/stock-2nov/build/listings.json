@@ -457,5 +457,34 @@
   ],
   "tip": "Pair them with the Petite Pear Solitaire Necklace.",
   "note": "Held back on 31 Oct as Solitaire Bar Huggies (buy-book photo, AL-449). The pair in hand (owner's 3 Nov photo) is a slim round huggie with a charm threaded on it, so the 31 Oct photos (an 8 mm cuff with the stone on a jump ring) were not used. Not the live Solitaire Drop Huggies (ADT27), a different piece. No supplier card in the photo, so no material is claimed. 3 Nov afternoon (owner: 'check if it is correct in detail ... check sizing properly as well always'): against the pair in hand the 3 Nov gallery drew a thin-wire hoop, a small tube and a stone about 0.4 of the hoop; all five photos were redrawn with a thick band (opening about three quarters of the hoop), a tube about a third of the hoop and a stone about half of it, the worn frames at a 13 mm hoop and the palm from the new packshot; the copy now says thick band, 6.5mm stone, 24mm long."
+ },
+ {
+  "id": "B1",
+  "title": "Orb Cable Cuff",
+  "type": "Bracelet",
+  "sku": "OCC",
+  "price": 1299,
+  "compare": 2299,
+  "units": 10,
+  "option": null,
+  "status": "draft",
+  "photo": 5,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P"
+  ],
+  "intro": "One twisted line, two golden orbs. An open cuff of fine twisted gold tone cable, about 4mm thick, finished at each end with a wrapped collar and a smooth round ball of about 8mm; the two balls face each other across the opening, on top of the wrist.",
+  "details": [
+   "Cuff: Open, approximately 6.5cm across inside, with an opening of about 1.5cm between the two balls",
+   "Cable: Twisted gold tone cable, approximately 4mm thick",
+   "Ends: A wrapped collar and a smooth round ball, approximately 8mm, at each end",
+   "Sold as: One cuff",
+   "Finish: Gold tone"
+  ],
+  "tip": "Wear it alone, or stack it with the Kiss Knot Bangle in gold.",
+  "note": "Owner's 3 Nov photo (\"List this cuff also 10 pieces\"): two of the cuffs in a bag beside a thumb. Not the live Garnet Cable Cuff (silver cable, garnet tips) or the Whisper Twist Cuff (DRAFT, a single twist), both different pieces. No supplier card in the photo, so no material is claimed. Sizes are estimates from the thumb (see skus.json measure)."
  }
 ]

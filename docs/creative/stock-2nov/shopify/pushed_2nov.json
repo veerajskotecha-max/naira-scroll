@@ -280,7 +280,7 @@
   "price": "999.00",
   "compareAtPrice": "1899.00"
  },
- "_note": "Statuses as read on 3 Nov after the CloverCharmVBar mutation: the V-Bar Teardrop Necklace and the Pave Open Heart Studs are ACTIVE on all 6 channels (both set Active by the owner at 06:39); the Petite Fleur Y Necklace, the Slim Pave Huggies, the Clover Garland Necklace and the Solitaire Charm Huggies are DRAFT; drafts read 0 channels until they are set Active, but each new draft is attached to all 6 (autoPublish was on around the creates).",
+ "_note": "Statuses as read on 3 Nov after the CloverCharmVBar mutation: the V-Bar Teardrop Necklace and the Pave Open Heart Studs are ACTIVE on all 6 channels (both set Active by the owner at 06:39); the Petite Fleur Y Necklace, the Slim Pave Huggies, the Clover Garland Necklace and the Solitaire Charm Huggies are DRAFT; drafts read 0 channels until they are set Active, but each new draft is attached to all 6 (autoPublish was on around the creates); the Orb Cable Cuff (OrbCableCuff mutation, 3 Nov 12:15) is DRAFT with 10 units, attached to all 6 channels.",
  "v-bar-teardrop-necklace": {
   "id": "gid://shopify/Product/10377179857058",
   "piece": "A16",
@@ -382,5 +382,30 @@
   "compareAtPrice": "2199.00",
   "note": "the 31 Oct A14 frames (an 8 mm cuff, the stone on a jump ring) were not used; the live Solitaire Drop Huggies (ADT27) is a different piece",
   "photosUpdated": "2026-11-03 afternoon v2: thick band (opening about three quarters of the hoop), square tube about a third of the hoop, stone about half of it, worn frames at a 13 mm hoop, palm from the new packshot; copy says 6.5mm stone, 24mm long"
+ },
+ "orb-cable-cuff": {
+  "id": "gid://shopify/Product/10377979101346",
+  "piece": "B1",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50804587495586",
+   "OCC",
+   10
+  ],
+  "photos": 5,
+  "sizeCard": "orb-cable-cuff-size-guide.jpg",
+  "created": "2026-11-03",
+  "channels": 0,
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "price": "1299.00",
+  "compareAtPrice": "2299.00",
+  "note": "owner's 3 Nov photo, \"List this cuff also 10 pieces\"; a plain gold tone cable cuff, no stones, so no Cubic Zirconia tag; the gallery's gold toned to the stock's paler yellow; not the Garnet Cable Cuff or the Whisper Twist Cuff"
  }
 }
