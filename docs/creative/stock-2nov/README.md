@@ -321,6 +321,109 @@ One mutation, `CloverCharmVBar` (`build/ship_3nov.py`, `shopify/ship_3nov.graphq
 - Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
 - `review/clover_charm_vbar_slim_3nov.jpg` sets the owner's photos beside the four galleries.
 
+## Pave Open Heart Studs (A15) and Solitaire Charm Huggies (A14) checked again, 3 Nov afternoon
+
+**The note.** "Create the two earrings, the heart and the solitaire drop one. It already has check if it is correct in detail and do the listings with six images and sizes. These listings need to check colours, diamond placement and everything the heart one. The colour was different so we had rejected. Please make the new colour one and check sizing properly as well always." It came with the owner's photos of both pairs and two necklace screenshots. The screenshots had no instruction, so nothing was done with them.
+
+Each listing has six images: five photos and the size card.
+
+### Pave Open Heart Studs (A15)
+
+- **Checked against `refs/A15_full.jpg` and `refs/A15_det.jpg`.** These matched the owner's photo and were kept:
+  - the gold tone (the colour fixed this morning);
+  - the two rows of tiny stones round the broad outline;
+  - the shape and the posts.
+- **Sizing.** Against the ear, both worn hearts read about 22 mm, not 20.
+  - The earring was edited out of each worn photo to make a bare-lobe plate (`BARE15`: `A15_W1bare_a`, `A15_W2bare_a`).
+  - Each heart was pasted back at 0.92 about the piercing, so it is about 20 mm (`comp.py stud`).
+- **Kept.** The packshot, the macro, the palm and the size card. In the palm the heart reads about 20 mm against the fingers.
+- **Copy.** Unchanged: about 20 mm, gold tone, two rows of tiny stones.
+
+### Solitaire Charm Huggies (A14)
+
+- **Checked against `refs/A14_full.jpg` and `refs/A14_det.jpg`.** This morning's gallery was wrong in three ways:
+  - it drew a thin-wire hoop;
+  - the tube was small;
+  - the stone was about 0.4 of the hoop.
+
+  The pair in hand has:
+  - a thick, flat-faced band, with an opening about three quarters of the hoop;
+  - a chunky square tube, about a third of the hoop;
+  - one small ring;
+  - a round stone in four claws, about half the hoop.
+- **Packshot and macro.** Two rounds of edits, with the detail crop as IMAGE 2 (`A14_det_ref`):
+  - `PROP14` changed the band and tube proportions (`A14_Hp`, `A14_Mp`).
+  - `STONE14` made the stone 1.25 times bigger and kept exactly one jump ring (`A14_Hs2`, `A14_Ms2`).
+
+  The approved frames are `A14_Hs2_b` and `A14_Ms2_b`. On the packshot:
+  - the hoop is 490 px;
+  - the stone with its claws is 256 to 264 px, about 6.5 to 7 mm on a 13 mm hoop;
+  - the whole earring is 883 to 897 px, about 23.5 mm.
+- **Worn.** `WORN14` put the new earring on the bare-lobe plates from this morning, but drew it about 1.5 times too big. `comp.py hug` pasted each earring back at a 13 mm hoop, about a quarter of the ear's height:
+  - W1 at 0.67;
+  - W2 at 0.84.
+
+  Hair specks under 200 px were dropped from the masks.
+- **Palm.** The new packshot's earring was cut out (`A14_Hs2_b_cut`, saved as `build/comp/a14_pair_cut2.png`) and laid in the palm at 13 mm (6.25 px per mm).
+- **Size card.** It was redrawn from the new packshot as `cards/solitaire-charm-huggies-size-guide-v2.jpg`. The callouts are 13 mm hoop, 6.5 mm stone and 24 mm long. The old card is kept because Shopify Files holds its name.
+- **Copy and spec.** The intro and details now say:
+  - a thick band with a hinged snap;
+  - a square tube of about 4 mm;
+  - a clear cubic zirconia of about 6.5 mm in four claws on one small ring;
+  - about 24 mm long;
+  - sold as one pair, polished gold tone.
+
+  The lock and negatives in `build/skus.json` describe the same proportions.
+- **Not the live Solitaire Drop Huggies (ADT27).** That is a different piece: a 10.5 mm huggie with a 4 mm stone and no tube.
+
+### Composites (`build/comp.py`)
+
+- **`stud`.** For an open stud, the mask is built from the shape:
+  - close, then open to cut hair strands;
+  - keep the largest part and fill it solid;
+  - subtract the smoothed big hole.
+
+  The heart's open centre then shows the bare lobe.
+- **`hug`.** This is `worn` with small specks dropped from the mask.
+- **`palm`.** It now takes the cut-out, the output name, the hoop size in px, the angle and the centre.
+
+Commands run:
+
+```
+comp.py stud A15_W1 A15_W1bare_a A15_W1r 720 370 950 600 828 448 0.92
+comp.py stud A15_W2 A15_W2bare_a A15_W2r 1040 440 1330 710 1177 510 0.92
+comp.py hug  A14_W1n_a A14_W1bare_a A14_W1k 1090 470 1290 830 1182 495 0.67
+comp.py hug  A14_W2n_a A14_W2bare_a A14_W2k 1110 470 1270 840 1190 497 0.84
+comp.py palm a14_pair_cut2.png A14_Pk 490 -25 960 1255
+```
+
+### Higgsfield
+
+12 generations and 1 background removal, 25 credits. The balance went from 150.71 to 125.71.
+- **Solitaire Charm:** 10 generations (4 proportion edits, 4 stone edits and 2 worn) and the cut-out, 21 credits.
+- **Open heart:** 2 bare-lobe plates, 4 credits.
+
+### Shopify
+
+One mutation, `CharmHeartFix` (`build/ship_earrings_3nov.py`, `shopify/ship_earrings_3nov.graphql`, `shopify/ship_earrings_3nov.json`), with two updates.
+- **Solitaire Charm Huggies:**
+  - the five new photos and the -v2 card, with the new packshot as the variant image;
+  - the new copy and SEO.
+
+  It stays DRAFT at ₹1,199 with ₹2,199 compare-at and 5 units. It is attached to all six channels and will show once it is set Active.
+- **Pave Open Heart Studs:**
+  - the two new worn photos;
+  - the packshot, macro, palm and card kept by media id;
+  - the description unchanged.
+
+  It stays ACTIVE on all six channels at ₹999 with ₹1,899 compare-at and 5 units.
+- **Checked afterwards:**
+  - both galleries have six media READY, in order;
+  - both size-guide links answer 200;
+  - each Shopify copy matches its export, with a mean difference of 0.67 to 1.52 out of 255.
+- Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
+- `review/charm_heart_3nov.jpg` sets the owner's photo of each pair beside its five photos and size card.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

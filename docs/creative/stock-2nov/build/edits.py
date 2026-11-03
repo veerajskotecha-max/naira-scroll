@@ -300,6 +300,54 @@ for key, src_key, what, rest in (
     ("A13_Ms", "A13_Mq", "an extreme macro of one slim gold rounded-rectangle huggie earring on a cream plaster cube", "the plaster, the camera, the focus, the framing, the background and the light"),
     ("A13_Ps", "A13_P", "a photograph of a pair of slim gold rounded-rectangle huggie earrings resting in an open palm", "the hand, the fingers, the background and the light")):
     E[key] = (src_key, f"EDIT IMAGE 1, {what}. Make ONE change only: " + SET13 + KEEP13.format(rest=rest), ["A13_set_ref"])
+# A14 Solitaire Charm Huggies, 3 Nov afternoon (owner: "check if it is correct in detail ... check sizing properly as well always"). Against the
+# pair in hand (refs/A14_det.jpg: both hoops and the loose charm at 3x, lying flat at one distance) the 3 Nov gallery drew a thin-wire hoop
+# (its opening about 0.83 of the hoop's outer width against about 0.73), the square tube about 0.22 of the hoop's width against about a
+# third, and the stone about 0.4 of it against about a half; the worn frames also read the hoop at 8 to 11 mm against 13 mm.
+PROP14 = ("each earring's PROPORTIONS become exactly like the real pair in IMAGE 2, a close phone photograph of the pair in hand: (1) each HOOP "
+   "is a chunky huggie with a THICK, wide, flat-faced polished band, about 2mm thick and 3mm wide, so its round opening is only about THREE "
+   "QUARTERS of the hoop's outer width, never a thin wire; (2) the square polished gold TUBE threaded on the bottom of each hoop is a CHUNKY "
+   "square bead, about a THIRD of the hoop's outer width on each side, clearly wider and taller than the band that passes through it; (3) "
+   "below the tube, on ONE small round gold jump ring, the round clear brilliant-cut stone in four fine gold claws is BIG, about HALF of the "
+   "hoop's outer width.")
+KEEP14 = (" Keep each hoop's outer size and position and its hinge, and keep {rest} exactly as they are in IMAGE 1. Plain polished gold, no "
+   "stones on the hoop. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+for key, src_key, what, rest in (
+    ("A14_Hp", "A14_H_a", "a packshot of a pair of gold huggie earrings with round stone charms on a cream plaster cube", "the cube, the camera, the framing, the background and the light"),
+    ("A14_Mp", "A14_M_a", "an extreme macro of one gold huggie earring with a round stone charm on a cream plaster cube", "the plaster, the camera, the focus, the framing, the background and the light")):
+    E[key] = (src_key, f"EDIT IMAGE 1, {what}. Make ONE change only: " + PROP14 + KEEP14.format(rest=rest), ["A14_det_ref"])
+# A15 Pave Open Heart Studs, 3 Nov afternoon: against the ear (about 58 mm tall, about 31 mm wide) the heart reads about 22 x 21 mm in W1 and about
+# 22 x 20 mm in W2 against 20 x 19 mm, so each worn frame gets a bare-lobe edit and the heart is pasted back at 0.90 and 0.92 (comp.py worn).
+BARE15 = ("EDIT IMAGE 1, a photograph of a woman's ear with one gold open-heart stud earring. Make ONE change only: REMOVE the earring "
+   "completely, the whole pave heart and its post, so the earlobe is bare with no jewellery at all; the skin of the lobe, the neck and the hair "
+   "behind where the heart sat are continued naturally. Keep everything else in IMAGE 1 exactly as it is: the ear, its shape and position, "
+   "the face, the hair, the camisole, the crop, the background and the light. " + END)
+E["A15_W1bare"] = ("A15_W1", BARE15)
+E["A15_W2bare"] = ("A15_W2", BARE15)
+# The proportion edits thickened the band (opening about 0.74 to 0.77 of the hoop) and gave the tube about a third of the hoop's width,
+# but kept the stone at about 0.42 of the hoop and drew two jump rings; the real charm has one ring and a stone about half the hoop.
+STONE14 = ("Make TWO changes only: (1) the round clear stone of each charm, with its four fine gold claws, becomes LARGER, about one and a "
+   "quarter times its present width, so the stone is HALF as wide as the hoop's outer diameter, as in IMAGE 2, a close phone photograph of "
+   "the real pair, where the stone is about half the hoop's outer width; it stays round, brilliant-cut and clear in four claws; (2) exactly "
+   "ONE small round gold jump ring hangs from the bottom of the square tube and holds the stone's setting directly, never two rings or a "
+   "chain. Keep the hoops, their thick flat-faced bands, the hinges, the square tubes, {rest} exactly as they are in IMAGE 1. Metal: warm "
+   "18k gold tone, never brassy, orange or greenish. " + END)
+E["A14_Hs2"] = ("A14_Hp_a", "EDIT IMAGE 1, a packshot of a pair of chunky gold huggie earrings with round stone charms on a cream plaster "
+   "cube. " + STONE14.format(rest="the cube, the camera, the framing, the background and the light"), ["A14_det_ref"])
+E["A14_Ms2"] = ("A14_Mp_a", "EDIT IMAGE 1, an extreme macro of one chunky gold huggie earring with a round stone charm on a cream plaster "
+   "cube. " + STONE14.format(rest="the plaster, the camera, the focus, the framing, the background and the light"), ["A14_det_ref"])
+# Approved: packshot A14_Hs2_b, macro A14_Ms2_b. The worn frames are drawn again on the bare-lobe frames, with the earring at its true size
+# (any scale left over is fixed with comp.py worn, as on 3 Nov).
+WORN14 = ("EDIT IMAGE 1, {what} with a bare earlobe. Make ONE change only: she wears ONE earring through a piercing in the centre of her "
+   "earlobe: exactly the earring in IMAGE 2, a packshot of the pair, with the same design and proportions: a chunky polished gold huggie hoop "
+   "with a thick flat-faced band, closed and hugging the lobe, a chunky square gold tube threaded on the bottom of the hoop, and below it on "
+   "one small gold jump ring a round clear stone in four fine claws, about half the hoop's width. TRUE SIZE: the hoop is about 13mm across, "
+   "about a QUARTER of the height of her whole ear: its top passes through the piercing and its bottom sits a little below the lower edge of "
+   "the lobe; the tube and the stone hang below it, so the whole earring is about 24mm long, about two fifths of the height of her ear; a "
+   "small bright earring, never a big hoop. Keep everything else in IMAGE 1 exactly as it is: the ear, its shape and position, the face, the "
+   "hair, the camisole, the crop, the background and the light. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+E["A14_W1n"] = ("A14_W1bare_a", WORN14.format(what="a photograph of a woman"), ["A14_Hs2_b"])
+E["A14_W2n"] = ("A14_W2bare_a", WORN14.format(what="a close photograph of a woman's ear"), ["A14_Hs2_b"])
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}
     for i, key in enumerate(keys):

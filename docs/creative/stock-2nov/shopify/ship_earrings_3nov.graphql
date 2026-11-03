@@ -1,0 +1,4 @@
+mutation CharmHeartFix($a14: ProductSetInput!, $a14id: ProductSetIdentifiers!, $a15: ProductSetInput!, $a15id: ProductSetIdentifiers!) {
+  a14: productSet(identifier: $a14id, input: $a14, synchronous: true) { product { id handle status totalInventory tags mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  a15: productSet(identifier: $a15id, input: $a15, synchronous: true) { product { id handle status totalInventory tags mediaCount { count } variants(first: 1) { nodes { id sku price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+}

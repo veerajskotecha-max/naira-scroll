@@ -109,38 +109,38 @@
   "line": "Each heart about 20 × 19 mm · band about 2.5 mm"
  },
  "A14": {
-  "src": "A14_H_a",
+  "src": "A14_Hs2_b",
   "crop": [
    175,
-   560,
+   610,
    1510
   ],
   "callouts": [
    [
     "v",
-    647,
-    1100,
-    560,
+    643,
+    1133,
+    555,
     "13 mm",
     "left"
    ],
    [
     "h",
-    603,
-    845,
-    1545,
-    "6 mm",
+    593,
+    837,
+    1560,
+    "6.5 mm",
     "below"
    ],
    [
     "v",
     692,
-    1558,
+    1589,
     1290,
-    "22 mm",
+    "24 mm",
     "right"
    ]
   ],
-  "line": "Hoop about 13 mm · stone about 6 mm · about 22 mm long"
+  "line": "Hoop about 13 mm · stone about 6.5 mm · about 24 mm long"
  }
 }

@@ -6,21 +6,25 @@
 #  worn: the earring in an original worn frame, masked by its difference from a bare-lobe edit of the same frame and by colour (gold
 #        or a bright colourless stone, so the lobe's own shading stays behind), is scaled about its
 #        piercing point and pasted onto the bare-lobe frame -> out/<key>.png
-# Usage: python3 -I comp.py palm | run_palm | unloop | worn SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [LOBE_Y]]
+#  stud: as worn, for a stud with an open centre (A15 Pave Open Heart Studs, 3 Nov afternoon): only small enclosed holes in the mask are filled, so
+#        the heart's open centre shows the bare-lobe frame behind it.
+# Usage: python3 -I comp.py palm [CUT OUT HOOP_PX ANGLE CX CY] | run_palm | unloop | worn SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [LOBE_Y]]
+#                           | stud SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [MAXHOLE]]
+#                           | hug  SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [LOBE_Y]]   (worn, with specks under 200 px dropped)
 import sys, os
 import numpy as np
 from PIL import Image, ImageFilter
 H = os.path.dirname(os.path.abspath(__file__)); O = lambda k: os.path.join(H, "out", k + ".png")
 
-def palm(angle=-25, centre=(960, 1255), hoop_px=455, hoop_mm=13.0, px_mm=6.25):
-    plate = Image.open(O("N02_Pclean")).convert("RGBA"); cut = Image.open(os.path.join(H, "comp", "a14_pair_cut.png")).convert("RGBA")
+def palm(angle=-25, centre=(960, 1255), hoop_px=455, hoop_mm=13.0, px_mm=6.25, cut_name="a14_pair_cut.png", out="A14_Pcomp"):
+    plate = Image.open(O("N02_Pclean")).convert("RGBA"); cut = Image.open(os.path.join(H, "comp", cut_name)).convert("RGBA")
     s = hoop_mm * px_mm / hoop_px
     cut = cut.resize((round(cut.width * s), round(cut.height * s)), Image.LANCZOS).rotate(angle, resample=Image.BICUBIC, expand=True)
     x, y = centre[0] - cut.width // 2, centre[1] - cut.height // 2
     a = cut.split()[3]
     sh = Image.new("RGBA", cut.size, (60, 35, 20, 0)); sh.putalpha(a.filter(ImageFilter.GaussianBlur(5)).point(lambda v: int(v * 0.38)))
     plate.alpha_composite(sh, (x + 5, y + 7)); plate.alpha_composite(cut, (x, y))
-    plate.convert("RGB").save(O("A14_Pcomp")); print("palm", cut.size, (x, y), round(s, 3))
+    plate.convert("RGB").save(O(out)); print("palm", out, cut.size, (x, y), round(s, 3))
 
 def fill_holes(b):
     """Fill enclosed holes in a boolean mask: flood the background in from the border (4-connected), keep everything else."""
@@ -31,7 +35,72 @@ def fill_holes(b):
             seen[y, x] = True; stack += [(y + 1, x), (y - 1, x), (y, x + 1), (y, x - 1)]
     return ~seen
 
-def worn(src, bare, out, box, anchor, scale, thr=38, dark=95, lobe=0):
+def small_holes(b, box, maxarea):
+    """Fill only the enclosed holes of at most maxarea pixels inside box (the stones' dark facets), so a large enclosed opening such as
+    the open centre of a heart stays open and shows the bare frame behind it."""
+    x0, y0, x1, y1 = box; sub = b[y0:y1, x0:x1].copy(); h, w = sub.shape; lab = np.zeros(sub.shape, np.int32); n = 0
+    for sy in range(h):
+        for sx in range(w):
+            if sub[sy, sx] or lab[sy, sx]: continue
+            n += 1; lab[sy, sx] = n; stack = [(sy, sx)]; pts = []; edge = False
+            while stack:
+                y, x = stack.pop(); pts.append((y, x)); edge |= y in (0, h - 1) or x in (0, w - 1)
+                for yy, xx in ((y + 1, x), (y - 1, x), (y, x + 1), (y, x - 1)):
+                    if 0 <= yy < h and 0 <= xx < w and not sub[yy, xx] and not lab[yy, xx]: lab[yy, xx] = n; stack.append((yy, xx))
+            if not edge and len(pts) <= maxarea:
+                for y, x in pts: sub[y, x] = True
+    out = b.copy(); out[y0:y1, x0:x1] = sub; return out
+
+def largest(b, box):
+    """Keep only the largest 8-connected shape of a boolean mask inside box (the earring); stray patches where the bare-lobe edit
+    also changed the hair or the skin are dropped."""
+    x0, y0, x1, y1 = box; sub = b[y0:y1, x0:x1]; h, w = sub.shape; lab = np.zeros(sub.shape, np.int32); best, n = [], 0
+    for sy in range(h):
+        for sx in range(w):
+            if not sub[sy, sx] or lab[sy, sx]: continue
+            n += 1; lab[sy, sx] = n; stack = [(sy, sx)]; pts = []
+            while stack:
+                y, x = stack.pop(); pts.append((y, x))
+                for yy in (y - 1, y, y + 1):
+                    for xx in (x - 1, x, x + 1):
+                        if 0 <= yy < h and 0 <= xx < w and sub[yy, xx] and not lab[yy, xx]: lab[yy, xx] = n; stack.append((yy, xx))
+            if len(pts) > len(best): best = pts
+    out = np.zeros_like(b)
+    for y, x in best: out[y0 + y, x0 + x] = True
+    return out
+
+def drop_specks(b, box, minpart):
+    """Drop 8-connected shapes of fewer than minpart pixels inside box (stray specks of hair or skin), keeping the earring's parts."""
+    x0, y0, x1, y1 = box; sub = b[y0:y1, x0:x1]; h, w = sub.shape; lab = np.zeros(sub.shape, np.int32); out = np.zeros_like(b); n = 0
+    for sy in range(h):
+        for sx in range(w):
+            if not sub[sy, sx] or lab[sy, sx]: continue
+            n += 1; lab[sy, sx] = n; stack = [(sy, sx)]; pts = []
+            while stack:
+                y, x = stack.pop(); pts.append((y, x))
+                for yy in (y - 1, y, y + 1):
+                    for xx in (x - 1, x, x + 1):
+                        if 0 <= yy < h and 0 <= xx < w and sub[yy, xx] and not lab[yy, xx]: lab[yy, xx] = n; stack.append((yy, xx))
+            if len(pts) >= minpart:
+                for y, x in pts: out[y0 + y, x0 + x] = True
+    return out
+
+def stud_mask(keep, box, maxhole, close=7, cut=9, smooth=9):
+    """The band of an open stud, built by shape: close the speckled band, open it to cut the hair strands and skin patches that touch it,
+    keep the largest shape, fill it solid, and take away its opening (its one large hole) smoothed, so neither stray patches nor a notched
+    inner edge are pasted."""
+    x0, y0, x1, y1 = box; f = lambda a, k, op: np.asarray(Image.fromarray(a).filter(op(k)))
+    sub = (keep[y0:y1, x0:x1] * 255).astype(np.uint8)
+    sub = f(f(sub, close, ImageFilter.MaxFilter), close, ImageFilter.MinFilter)          # close: one solid band
+    sub = f(f(sub, cut, ImageFilter.MinFilter), cut, ImageFilter.MaxFilter)              # open: thin attachments go
+    full = np.zeros(keep.shape, bool); full[y0:y1, x0:x1] = sub > 127
+    band = largest(full, box); solid = fill_holes(band); hole = solid & ~small_holes(band, box, maxhole)
+    hs = (hole[y0:y1, x0:x1] * 255).astype(np.uint8)
+    hs = f(f(hs, smooth, ImageFilter.MinFilter), smooth, ImageFilter.MaxFilter)          # the opening's edge without notches
+    hole[y0:y1, x0:x1] = hs > 127
+    return ((solid & ~hole) * 255).astype(np.uint8)
+
+def worn(src, bare, out, box, anchor, scale, thr=38, dark=95, lobe=0, maxhole=None, minpart=0):
     A = np.asarray(Image.open(O(src)).convert("RGB")).astype(np.int16); B = np.asarray(Image.open(O(bare)).convert("RGB")).astype(np.int16)
     x0, y0, x1, y1 = box; d = np.abs(A - B).sum(axis=2); m = np.zeros(d.shape, np.uint8)
     hsv = np.asarray(Image.open(O(src)).convert("HSV")).astype(np.int16); hh, ss, vv = hsv[..., 0], hsv[..., 1], hsv[..., 2]
@@ -43,7 +112,10 @@ def worn(src, bare, out, box, anchor, scale, thr=38, dark=95, lobe=0):
         keep[lobe:, :] = below[lobe:, :] | keep[lobe:, :]
     m[y0:y1, x0:x1] = keep[y0:y1, x0:x1] * 255
     m = np.asarray(Image.fromarray(m).filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(5)))
-    m = fill_holes(m > 127).astype(np.uint8) * 255                     # the stone's darker facets are not skin
+    if maxhole is None:
+        b = fill_holes(m > 127)                                                          # the stone's darker facets are not skin
+        m = (drop_specks(b, box, minpart) if minpart else b).astype(np.uint8) * 255
+    else: m = stud_mask(keep, box, maxhole)                                             # stud: the heart only, its open centre clean
     mask = Image.fromarray(m).filter(ImageFilter.GaussianBlur(1.2))
     layer = Image.open(O(src)).convert("RGBA"); layer.putalpha(mask); layer = layer.crop(box)
     ax, ay = anchor[0] - x0, anchor[1] - y0
@@ -76,7 +148,16 @@ def unloop(src="C2_Pf_a", plate="N02_Pclean", out="C2_Pu", grow=3):
     Image.composite(A, B, hand.filter(ImageFilter.GaussianBlur(4))).save(O(out)); print("unloop", out)
 
 if __name__ == "__main__":
-    if sys.argv[1] == "palm": palm()
+    if sys.argv[1] == "palm" and len(sys.argv) > 2:      # palm CUT OUT HOOP_PX ANGLE CX CY
+        c, o, hp, ang, cx, cy = sys.argv[2:8]; palm(float(ang), (int(cx), int(cy)), float(hp), cut_name=c, out=o)
+    elif sys.argv[1] == "palm": palm()
+    elif sys.argv[1] == "hug":                           # hug SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [LOBE_Y]]: worn, specks dropped
+        s, b, o, *n = sys.argv[2:]; n = [float(v) for v in n]
+        worn(s, b, o, tuple(int(v) for v in n[0:4]), (n[4], n[5]), n[6], 38, *[int(v) for v in n[7:9]], minpart=200)
+    elif sys.argv[1] == "stud":                          # stud SRC BARE OUT X0 Y0 X1 Y1 AX AY SCALE [DARK [MAXHOLE]]
+        s, b, o, *n = sys.argv[2:]; n = [float(v) for v in n]
+        worn(s, b, o, tuple(int(v) for v in n[0:4]), (n[4], n[5]), n[6], 38, int(n[7]) if len(n) > 7 else 95, 0,
+             int(n[8]) if len(n) > 8 else 900)
     elif sys.argv[1] == "run_palm": run_palm()
     elif sys.argv[1] == "unloop": unloop()
     else:
