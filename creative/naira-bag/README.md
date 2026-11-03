@@ -12,8 +12,8 @@ line "[ 18k gold coated · rhodium coated ]", and a QR to nairaflore.com/jewelle
 | `print/Naira-DCut-Bag-6x9.5x2-PRINT-READY.pdf` | same artwork, text converted to outlines (no fonts needed), dieline switched off |
 | `print/Naira-Bag-FULL-SHEET-17x11.45in.jpg` | one-file upload for the Kraftix online editor (tap Fit to design) |
 | `print/Naira-Bag-FULL-SHEET-17x11.45in-PROOF-cutlines.jpg` | placement proof with cut and fold lines |
-| `print/Naira-Card-2.77x2.76in-PRINT-with-bleed.pdf` | the floral card in full colour, 2.77 × 2.76 in trim + 0.125 in bleed, TrimBox and BleedBox set |
-| `print/Naira-Card-2.77x2.76in-PROOF-cutline.pdf` | the same card with the cut line marked |
+| `print/Naira-Card-2.77x2.76in-PRINT-front-back.pdf` | the floral card in full colour, page 1 front, page 2 back; 2.77 × 2.76 in trim + 0.125 in bleed, TrimBox and BleedBox set. The back carries a thank-you line, a QR to nairaflore.com/jewellery, the care line and the WhatsApp number |
+| `print/Naira-Card-2.77x2.76in-PROOF-front-back.pdf` | the same two sides with the cut line marked |
 
 Both PDFs are one flat sheet, 16.75 × 11.2 in trim plus 0.125 in bleed (page 17 × 11.45 in, TrimBox
 and BleedBox set). Panels left to right: gusset 2 · front 6 · gusset 2 · back 6 · glue 0.75 in.
@@ -38,7 +38,7 @@ cd build
 python3 trace_logo.py      # only if the logo changes (needs src/logo_footer_4000.png and potracer)
 python3 master.py          # renders each layer with Chromium, stacks them as PDF layers with PyMuPDF
 python3 spec.py && python3 master.py assemble   # refresh the spec page, then re-stack
-python3 build2.py card     # the floral card; needs up/sprig1_4k.png and up/sprig2_4k.png
+python3 build2.py card && python3 card_back.py   # the floral card, front and back; needs up/sprig1_4k.png and up/sprig2_4k.png
                            # (master/leaf-sprig-1.png and -2.png flattened onto white will do)
 ```
 
