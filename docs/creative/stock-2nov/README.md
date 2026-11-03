@@ -576,6 +576,28 @@ One mutation, `CloverNeckSize` (`build/ship_c2_worn_3nov.py`, `shopify/ship_c2_w
 - A worker restart came before the mutation. The draft's update time and media were checked as unchanged before it was sent.
 - `review/clover_necklace_size_3nov.jpg` sets the bracelet's worn photo beside each necklace photo, before and after.
 
+## Product page: the Buy 2 / Buy 3 box under the buttons, 3 Nov evening
+
+The owner, with a screenshot of the box ("APPLIED IN YOUR BAG · NO CODE"): "Place this below buy now and all, and with space proper so it doesnt affect conversion on pdp do it right".
+
+- **Where it lives:** the box is `PdpOfferLadder` on the routed product page `JewelDetailNext.tsx`, in the storefront repo `naira-scroll-3790bf3e` (nairaflore.com), not in this repo.
+- **The change:** commit `e4e89cc` on its `claude/higgfield-12-angles-4j09gn` branch, merged with main first.
+  - The box moves from under the price to under Buy Now, Add to cart and the gift line, before the Details fold-downs.
+  - It keeps two rows, with 28px above its top rule and 32px to the folds.
+  - The status line and View bag stay under it.
+- **Measured at 390×844:** Buy Now and Add to cart sit 68px higher at every width.
+  - Marquise Drop Choker (a Metal choice): from 873px to 805px.
+  - Heartbead Bracelet (no choices): from 760px to 692px.
+- **Checked:**
+  - on phone (390×844, 360×640) and desktop (1440×900);
+  - with a piece in the bag, and a ring on a pre-order size ("Not on pre-orders");
+  - the sticky buy bar never sits over the box on screen.
+- **Tests:** the placement test now pins the new order and fails on the old one. The full suite passes (138 files, 937 tests), and tsc and the build are clean.
+- **Merge with main:** it kept main's version of every file. The branch's older snapshot and ring commits stay in its history only.
+- **Live:** the site builds from main, so the box moves once the branch is merged into main.
+- **Rates:** the box reads 10% and 20%, from main's change of the same afternoon (`893d5be`), not the 20% and 30% in the owner's screenshot.
+- `review/pdp_offer_below_buttons_3nov.jpg` shows before and after on both phones and the desktop.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).
