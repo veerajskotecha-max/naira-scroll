@@ -55,7 +55,7 @@
   "line": "Earrings and pendant about 14 mm long · bow 10 mm"
  },
  "A13": {
-  "src": "A13_Hg",
+  "src": "A13_Hs_a",
   "crop": [
    380,
    720,
@@ -107,5 +107,40 @@
    ]
   ],
   "line": "Each heart about 20 × 19 mm · band about 2.5 mm"
+ },
+ "A14": {
+  "src": "A14_H_a",
+  "crop": [
+   175,
+   560,
+   1510
+  ],
+  "callouts": [
+   [
+    "v",
+    647,
+    1100,
+    560,
+    "13 mm",
+    "left"
+   ],
+   [
+    "h",
+    603,
+    845,
+    1545,
+    "6 mm",
+    "below"
+   ],
+   [
+    "v",
+    692,
+    1558,
+    1290,
+    "22 mm",
+    "right"
+   ]
+  ],
+  "line": "Hoop about 13 mm · stone about 6 mm · about 22 mm long"
  }
 }

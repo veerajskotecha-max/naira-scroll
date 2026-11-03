@@ -185,6 +185,121 @@ E["A16_W2q"] = ("A16_W2s2", "Make a NEW photograph from IMAGE 1, a photograph of
    "and a half times as long as the pear is wide, and the curb chain a slim dense band of small faceted links. IMAGE 2 is our approved packshot "
    "of this exact necklace and the authority on its construction only; its size comes ONLY from IMAGE 1. No other jewellery, no hand, no props. "
    "4:5 vertical, full bleed. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["A16_He2"])
+# 3 Nov, second note on A16 ("the chain of other necklace on listing is wrong, the second image"): the stock chain, seen at 6x in
+# refs/A16_chain6x.jpg, is a flat, dense, diamond-cut curb whose links show as narrow slanted rice-grain facets with no holes between
+# them; the gallery drew a round-wire open curb. Each frame keeps everything but the chain.
+CHAIN6 = ("a FLAT, DENSE, diamond-cut gold CURB chain exactly like the chain in IMAGE 2, a close-up phone photograph of the real chain: "
+   "small links pressed flat, each link's bright flat cut face long and narrow like a grain of rice or a slim almond, every link leaning at "
+   "the same slant, the links packed so TIGHTLY against each other that NO holes and NO gaps show between them anywhere, so the chain reads "
+   "as a narrow flat band of slanted glittering facets with softly rounded edges. Never round-wire links, never open links with holes, never "
+   "a chunky Cuban chain, never a cable, rope, box or Figaro chain, never a smooth mirror-flat herringbone or snake chain with no links to see.")
+KEEP6 = "take nothing from IMAGE 2 but the chain's links. Metal: warm 18k gold tone, never brassy, orange or greenish. "
+E["A16_Hc"] = ("A16_He2", "EDIT IMAGE 1, a packshot of a gold V-bar teardrop necklace on a cream plaster cube. Make ONE change only: the chain "
+   "on BOTH sides of the V is REPLACED by " + CHAIN6 + " It is the same chain on the left and on the right, as wide as the polished tube bars "
+   "it runs into, about 3.5mm. Keep the two smooth polished gold tube bars, their sharp V, the clear pear-cut stone and its claws, the cube, "
+   "the camera, the framing, the background and the light exactly as they are in IMAGE 1; " + KEEP6 + END, ["A16_chain6x_ref"])
+E["A16_Mc"] = ("A16_M", "EDIT IMAGE 1, an extreme macro of a gold V-bar teardrop necklace on a cream plaster cube. Make ONE change only: the "
+   "chain on BOTH sides of the V is REPLACED by " + CHAIN6 + " It is as wide as the polished tube bars it runs into, and every link in focus "
+   "shows its narrow slanted cut face. Keep the two smooth polished gold tube bars, their sharp V, the clear pear-cut stone and its claws, the "
+   "plaster, the camera, the focus, the framing, the background and the light exactly as they are in IMAGE 1; " + KEEP6 + END, ["A16_chain6x_ref"])
+for key, src_key, what in (("A16_W1c", "A16_W1f2", "a photograph of a woman wearing a gold V-bar teardrop necklace, square to camera"),
+                           ("A16_W2c", "A16_W2q", "a photograph of a woman wearing a gold V-bar teardrop necklace, turned a quarter to the side")):
+    E[key] = (src_key, f"EDIT IMAGE 1, {what}. Make ONE change only: the chain on BOTH sides of her neck is REPLACED by " + CHAIN6 +
+       " It is the SAME chain on the left side and on the right side of her neck, the same slim width as the polished tube bars it runs "
+       "into, so at this distance it reads as a slim, flat, close-textured line of tiny slanted glints, never as chunky links. Keep the woman, "
+       "her skin, her hair, the camisole, the crop, the two polished bars, the pear stone, their size and their position, the background and "
+       "the light exactly as they are in IMAGE 1; " + KEEP6 + END, ["A16_chain6x_ref"])
+E["A16_Pc"] = ("A16_Ps2", "EDIT IMAGE 1, a photograph of a gold V-bar teardrop necklace resting in an open palm. Make ONE change only: the "
+   "chain is REPLACED by " + CHAIN6 + " It is the same chain on both sides of the V, the same slim width as the polished tube bars it runs "
+   "into. Keep the hand, the fingers, the two polished bars, the pear stone, their size and their position, the background and the light "
+   "exactly as they are in IMAGE 1; " + KEEP6 + END, ["A16_chain6x_ref"])
+# The CHAIN6 edits (A16_Hc, A16_W1c) still drew an open Cuban curb: the word "curb" pulls the model to round wire. Seen again at 6x, the
+# stock chain's grains lean in towards each other in a chevron, as on an ear of wheat, so the second wording names a wheat (spiga) chain.
+CHAIN7 = ("a dense gold WHEAT chain (a spiga chain) exactly like the chain in IMAGE 2, a close-up phone photograph of the real chain: it is "
+   "built of tiny narrow links shaped like grains of rice, each with a bright flat cut face, set in a tight CHEVRON, two rows of grains leaning "
+   "in towards each other along the chain like the grains on an ear of wheat; the grains are packed so tightly that NO holes and NO gaps show "
+   "anywhere, and the chain reads as a slim, softly rounded cord of glittering slanted grains. Never open links with holes, never a curb or "
+   "Cuban chain, never a cable, box or Figaro chain, never a smooth mirror-flat herringbone ribbon, never a snake chain.")
+for k in ("A16_Hc", "A16_Mc", "A16_W1c", "A16_W2c", "A16_Pc"):
+    s, p, x = E[k]; E[k[:-1] + "w"] = (s, p.replace(CHAIN6, CHAIN7).replace(", about 3.5mm.", ", about 3.5mm wide."), x)
+# C2 Clover Garland Necklace (red), 3 Nov: the quarter-view worn frame came back square to camera, a twin of W1, so a true quarter turn is
+# made from the approved W1 (C2_W1_a) to keep the clovers' size; the macro drew the petal stones as ovals, and the stock's are round.
+E["C2_W2q"] = ("C2_W1_a", "Make a NEW photograph from IMAGE 1, a photograph of a woman wearing a red clover-link necklace: the same woman, "
+   "the same skin, the same long dark wavy hair, the same marigold silk camisole with narrow straps, the same warm cream background and the same "
+   "soft light, but now her head and shoulders are TURNED A QUARTER TO ONE SIDE, her jaw line in three-quarter profile, the camera a little "
+   "closer, so her neck and one collarbone are seen at an angle and the necklace follows the curve of her collarbone round the side of her neck. "
+   "The frame is cut straight across just ABOVE THE UPPER LIP: NO eyes, NO eyebrows, NO forehead; inside the frame her lips, chin, jaw, neck, "
+   "collarbones and one shoulder. The necklace keeps EXACTLY the size it has in IMAGE 1 against her body: each clover only about a fifth of the "
+   "width of her lips, a delicate line about 1cm wide. IMAGE 2 is our approved packshot of this exact necklace and the authority on its "
+   "construction only: four round red stones in beaded gold cups round a tiny clear centre stone per clover, one small gold ring between "
+   "clovers; its size comes ONLY from IMAGE 1. No hands, no other jewellery, no props. 4:5 vertical, full bleed. Metal: warm 18k gold tone, "
+   "never brassy, orange or greenish. " + END, ["C2_H_b"])
+E["C2_Me"] = ("C2_M_a", "EDIT IMAGE 1, an extreme macro of a red clover-link necklace on a cream plaster cube. Make ONE change only: every red "
+   "petal stone becomes perfectly ROUND, a true circle as wide as it is long, a round faceted bright clear red stone in its own ROUND gold cup "
+   "with a fine beaded rim, exactly as IMAGE 2 (a close phone photo of the real clovers) shows them; in every clover the four round cups touch "
+   "each other in a two-by-two square round the tiny clear centre stone. Never oval, never pear, never marquise petals. Keep the clovers' size "
+   "and positions, the gold rings between them, the plaster, the camera, the focus, the framing, the background and the light exactly as they "
+   "are in IMAGE 1. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["C2_det_ref"])
+# A14 Solitaire Charm Huggies, 3 Nov: the first worn frame (A14_W1_a) measures about 1.3x: against an ear of about 390 px (about 58 mm)
+# the hoop is about 110 px (about 16.5 mm, not 13) and the stone about 50 px (about 7.5 mm, not 6), so the whole earring is shrunk.
+E["A14_W1s"] = ("A14_W1_a", "EDIT IMAGE 1, a photograph of a woman wearing a slim gold huggie with a round stone charm. Make ONE change only: "
+   "the earring is a little too large: shrink the WHOLE earring together, the slim hoop, the square tube and the round stone, to about FOUR "
+   "FIFTHS of its present size, so the hoop is only about a fifth of the height of the whole ear and hugs the lobe through the same piercing, "
+   "and the round stone is about half the hoop's width. Keep its construction exactly: the slim plain polished hoop, the short square gold tube "
+   "threaded on its bottom, the small ring and the round clear stone in four fine claws hanging below. Keep the woman, the ear, the hair, the "
+   "camisole, the crop, the background and the light exactly as they are in IMAGE 1. Metal: warm 18k gold tone, never brassy, orange or "
+   "greenish. " + END)
+# A14_W2_a (the close ear view) measures about 1.4x: ear about 495 px (about 58 mm), hoop about 158 px (about 18.5 mm), stone about 72 px.
+E["A14_W2s"] = ("A14_W2_a", E["A14_W1s"][1].replace("a little too large", "too large").replace("about FOUR FIFTHS", "about TWO THIRDS"))
+# C2_P_a (the clover necklace in the palm) measures about 1.6x: each clover is about 150 px against fingers about 140 px wide.
+E["C2_Ps"] = ("C2_P_a", "EDIT IMAGE 1, a photograph of a red clover-link necklace gathered in an open palm. Make ONE change only: the necklace "
+   "is far too large for the hand: shrink the WHOLE necklace to about SIXTY PERCENT of its present size, every clover and every ring together, so "
+   "each clover is only about two thirds of the width of one of her fingers and about eight clovers would fit side by side across her palm; the "
+   "line of clovers lies in a looser, smaller coil in the palm with more of the palm showing. Keep its construction exactly: each clover four "
+   "round red stones in beaded gold cups round a tiny clear centre stone, one small gold ring between clovers. Keep the hand, the fingers, the "
+   "camisole, the background and the light exactly as they are in IMAGE 1. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+# A14: the shrink edits (A14_W1s, A14_W2s) dropped the square tube, so the two worn frames are fixed locally instead: the earring is
+# removed by edit (a bare lobe, same frame), then the earring from the original frame, masked by the difference between the two, is
+# pasted back scaled about its piercing to the measured size (comp.py).
+BARE = ("EDIT IMAGE 1, a photograph of a woman's ear with one gold huggie earring. Make ONE change only: REMOVE the earring completely, the "
+   "hoop, the square tube and the round stone, so the earlobe is bare with no jewellery at all; the skin of the lobe, the neck and the hair "
+   "behind where the earring hung are continued naturally. Keep everything else in IMAGE 1 exactly as it is: the ear, its shape and position, "
+   "the face, the hair, the camisole, the crop, the background and the light. " + END)
+E["A14_W1bare"] = ("A14_W1_a", BARE)
+E["A14_W2bare"] = ("A14_W2_a", BARE)
+# C2 palm: the palm edit (C2_Ps) did not shrink, so a run of clovers from the approved packshot was laid across the empty-palm plate at
+# 10 mm (comp.py run_palm -> out/C2_Pcomp.png, uploaded as C2_Pcomp_ref); one blending edit carries the line on over the palm's edges.
+E["C2_Pb"] = ("C2_Pcomp_ref", "EDIT IMAGE 1, a photograph of an open palm with a short line of small red clover links lying across it. Make "
+   "ONE change only: the line is part of a longer necklace, so continue it naturally from BOTH ends with more of the same clovers and small "
+   "gold rings: from its top end the line runs on over the edge of the palm near the base of the thumb and drops out of sight behind the hand; "
+   "from its bottom end it runs on to the lower edge of the palm and a short length hangs down below the hand. Add a soft natural contact "
+   "shadow under every clover. Keep every clover already in IMAGE 1 exactly where it is and EXACTLY its size, each clover only about two "
+   "thirds of the width of one of her fingers, and make the new clovers the same size: four round red stones in beaded gold cups round a tiny "
+   "clear centre stone, one small gold ring between clovers. Keep the hand, the fingers, the camisole, the hair, the background and the light "
+   "exactly as they are in IMAGE 1. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+# C2_Pb_b keeps the design and the 10 mm size, but the loop hanging below the hand shows the clovers' plain gold backs.
+E["C2_Pf"] = ("C2_Pb_b", "EDIT IMAGE 1, a photograph of a red clover-link necklace draped over an open palm, a loop of it hanging below the "
+   "hand. Make ONE change only: the loop that hangs below the hand is turned to show the FRONT of its clovers, so every clover in it shows "
+   "its four round bright red stones in beaded gold cups round a tiny clear centre stone, exactly like the clovers lying on the palm, never "
+   "plain gold backs. Keep the loop's size, shape and position, every clover on the palm, the hand, the fingers, the camisole, the hair, the "
+   "background and the light exactly as they are in IMAGE 1. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+# A13 Slim Pave Huggies, 3 Nov (owner: "Check diamond setting and change it"): the pair in hand (refs/A13_set.jpg, both huggies at 2x from
+# refs/A13_det.jpg) has a row of round stones down the front, each in its own raised claws so the stones stand proud and fill the band's
+# face, and a second row of tiny stones down the outer side of the band; the gallery drew one row of small stones sunk in a railed channel.
+SET13 = ("the STONE SETTING becomes exactly like IMAGE 2, a close phone photograph of the real pair: the stones are NOT sunk in a framed "
+   "channel between polished rails; the front face of the band is filled by ONE row of round clear stones, each held up in its own small "
+   "raised gold claws so the stones stand proud of the band and almost touch, with tiny gold beads between them; and a SECOND row of tiny round "
+   "clear stones runs down the OUTER side of the band right beside the first, so the sparkle wraps round the edge of the band. The stones run "
+   "from the hinge at the top down the front edge to the bottom corner; the bottom, the back and the inside stay plain polished gold.")
+KEEP13 = (" Keep each huggie's rounded-rectangle shape, its size and its hinge, and keep {rest} exactly as they are in IMAGE 1. Metal: warm 18k "
+   "gold tone, never brassy, orange or greenish. " + END)
+for key, src_key, what, rest in (
+    ("A13_Hs", "A13_Hg", "a packshot of a pair of slim gold rounded-rectangle huggie earrings on a cream plaster cube", "the cube, the camera, the framing, the background and the light"),
+    ("A13_W1s", "A13_W1qh", "a photograph of a woman wearing a slim gold rounded-rectangle huggie earring", "the woman, the ear, the hair, the camisole, the crop, the background and the light"),
+    ("A13_W2s", "A13_W2qs", "a close photograph of a woman's ear wearing a slim gold rounded-rectangle huggie earring", "the woman, the ear, the hair, the camisole, the crop, the background and the light"),
+    ("A13_Ms", "A13_Mq", "an extreme macro of one slim gold rounded-rectangle huggie earring on a cream plaster cube", "the plaster, the camera, the focus, the framing, the background and the light"),
+    ("A13_Ps", "A13_P", "a photograph of a pair of slim gold rounded-rectangle huggie earrings resting in an open palm", "the hand, the fingers, the background and the light")):
+    E[key] = (src_key, f"EDIT IMAGE 1, {what}. Make ONE change only: " + SET13 + KEEP13.format(rest=rest), ["A13_set_ref"])
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}
     for i, key in enumerate(keys):

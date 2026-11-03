@@ -94,11 +94,11 @@
   "product": "gid://shopify/Product/10377179857058",
   "variant": "gid://shopify/ProductVariant/50798476820642",
   "media": {
-   "H": "gid://shopify/MediaImage/46717163077794",
-   "W1": "gid://shopify/MediaImage/46717163110562",
-   "W2": "gid://shopify/MediaImage/46717429219490",
-   "M": "gid://shopify/MediaImage/46717163176098",
-   "P": "gid://shopify/MediaImage/46717163208866",
+   "H": "gid://shopify/MediaImage/46723504865442",
+   "W1": "gid://shopify/MediaImage/46723504898210",
+   "W2": "gid://shopify/MediaImage/46723504930978",
+   "M": "gid://shopify/MediaImage/46723504963746",
+   "P": "gid://shopify/MediaImage/46723504996514",
    "card": "gid://shopify/MediaImage/46717163241634"
   }
  },
@@ -106,12 +106,12 @@
   "product": "gid://shopify/Product/10377632645282",
   "variant": "gid://shopify/ProductVariant/50801589944482",
   "media": {
-   "H": "gid://shopify/MediaImage/46716196225186",
-   "W1": "gid://shopify/MediaImage/46716196257954",
-   "W2": "gid://shopify/MediaImage/46716196290722",
-   "M": "gid://shopify/MediaImage/46716196323490",
-   "P": "gid://shopify/MediaImage/46716196356258",
-   "card": "gid://shopify/MediaImage/46716196389026"
+   "H": "gid://shopify/MediaImage/46723505029282",
+   "W1": "gid://shopify/MediaImage/46723505062050",
+   "W2": "gid://shopify/MediaImage/46723505094818",
+   "M": "gid://shopify/MediaImage/46723505127586",
+   "P": "gid://shopify/MediaImage/46723505160354",
+   "card": "gid://shopify/MediaImage/46723505193122"
   }
  },
  "A15": {
@@ -124,6 +124,30 @@
    "M": "gid://shopify/MediaImage/46717162946722",
    "P": "gid://shopify/MediaImage/46717162979490",
    "card": "gid://shopify/MediaImage/46717163012258"
+  }
+ },
+ "C2": {
+  "product": "gid://shopify/Product/10377922838690",
+  "variant": "gid://shopify/ProductVariant/50804419887266",
+  "media": {
+   "H": "gid://shopify/MediaImage/46723504472226",
+   "W1": "gid://shopify/MediaImage/46723504504994",
+   "W2": "gid://shopify/MediaImage/46723504537762",
+   "M": "gid://shopify/MediaImage/46723504570530",
+   "P": "gid://shopify/MediaImage/46723504603298",
+   "card": "gid://shopify/MediaImage/46723504636066"
+  }
+ },
+ "A14": {
+  "product": "gid://shopify/Product/10377922871458",
+  "variant": "gid://shopify/ProductVariant/50804419920034",
+  "media": {
+   "H": "gid://shopify/MediaImage/46723504668834",
+   "W1": "gid://shopify/MediaImage/46723504701602",
+   "W2": "gid://shopify/MediaImage/46723504734370",
+   "M": "gid://shopify/MediaImage/46723504767138",
+   "P": "gid://shopify/MediaImage/46723504799906",
+   "card": "gid://shopify/MediaImage/46723504832674"
   }
  }
 }

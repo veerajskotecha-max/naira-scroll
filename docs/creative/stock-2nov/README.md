@@ -215,10 +215,117 @@ Two productSet mutations: `build/ship_a15a16.py`, then `build/ship_a16_w2.py` fo
 - Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
 - `review/hearts_vbar_3nov.jpg` sets the owner's photos beside the new galleries.
 
+## Clover Garland Necklace, Solitaire Charm Huggies, V-Bar chain and Slim Pave setting, 3 Nov
+
+The owner sent three more notes:
+- "Also list this, check inages we made in higgsfield if we can use thst or this .and do all corrections proper!", with a photo of a pair of gold huggies with a round stone charm in a clear bag (`refs/A14_full.jpg`).
+- "This red necklace also. And the chain of other necklace on listing is weong, the second image", with two photos:
+  - five sleeves of a red clover necklace beside the Laurel Marquise Necklace (`refs/C2_full.jpg` is the front sleeve);
+  - the V-Bar photo with the supplier's line "390x5 1,950".
+- "Check diamond setting and change it", on a screenshot of the Slim Pave Huggies review sheet.
+
+### Clover Garland Necklace (C2), new
+
+**The match.** The same clover as the Clover Garland Bracelet (sky blue, pink and white), in red and at necklace length, on a STAINLESS STEEL card. It is not among the Albyluxe pieces (`albyluxe-31oct/` has no clover), so it carries no Albyluxe tag.
+
+**Sizes.** In the owner's photo a clover is about 78 px and a stone about 27 px, the same ratio as the bracelet, whose clover was measured at about 10 mm. That gives about 7.8 px per mm.
+- Each half of the folded necklace runs about 1,800 px, about 23 cm, so the necklace is about 42 to 46 cm with the clasp, about 34 clovers.
+- The copy says "Approximately 42cm (to confirm)": measure it with a tape.
+
+**Photos.** Gallery: packshot `C2_H_b`, worn `C2_W1_a`, worn quarter turn `C2_W2q_a`, macro `C2_Me_a`, in the palm `C2_Pu`, size card.
+- The first quarter turn (`C2_W2_a`) came back facing the camera, so `C2_W2q_a` was made as a new photograph from `C2_W1_a`, which keeps its size.
+- The macro `C2_M_a` drew oval stones; the edit `C2_Me_a` made them round.
+- **Palm.** The generated palm shot `C2_P_a` drew the clovers about 1.6 times too big, and a shrink edit (`C2_Ps_a`) did not help. So the palm shot is a composite:
+  - a run of clovers cut from the packshot (`comp/c2_run_cut.png`) was laid across the empty-palm plate `N02_Pclean` at 10 mm a clover (`comp.py run_palm`) and uploaded as `C2_Pcomp_ref`;
+  - a blending edit followed. Variant `C2_Pb_a` changed the design and was rejected. In `C2_Pb_b` the loop hanging off the hand showed gold backs, and a front-fix edit (`C2_Pf_a`) did not cure it;
+  - `comp.py unloop` keeps `C2_Pf_a` only inside the hand mask (`comp/n02_hand_mask.png`) and the plate everywhere else, so the hanging loop is gone. A first version that used a threshold left ghost outlines.
+- The size card is `clover-garland-necklace-size-guide.jpg` ("42 cm · clover 10 mm").
+
+### Solitaire Charm Huggies (A14), new
+
+**The match.** A14, held back on 31 Oct as Solitaire Bar Huggies (buy-book photo, AL-449). The pair in hand is a slim plain round huggie with a charm threaded on it: a small square gold tone tube, and below it a round clear stone in four claws.
+
+**The older images were not used:**
+- the 31 Oct A14 frames were drawn from the buy-book photo: an 8 mm cuff with the stone on a jump ring;
+- the live Solitaire Drop Huggies (ADT27) is a different piece.
+
+**Sizes.** In the owner's photo the closed hoop is about 150 px and the stone about half of it.
+- The hoop is taken as about 13 mm, the size AL-449 was booked at. That makes the stone about 6 mm and the earring about 22 mm long.
+- Nothing in the bag gives a second scale, so these are estimates.
+- There is no supplier card in the photo, so no material is claimed.
+
+**Photos.** Gallery: packshot `A14_H_a`, worn `A14_W1c`, worn close `A14_W2c`, macro `A14_M_a`, in the palm `A14_Pcomp`, size card.
+- **Worn.** The generated worn shots (`A14_W1_a`, `A14_W2_a`) drew the earring too big, and the shrink edits (`A14_W1s_a`, `A14_W2s_a`) dropped the square tube. So both worn shots are composites (`comp.py worn`):
+  - an edit took the earring off the lobe (`A14_W1bare_a`, `A14_W2bare_a`);
+  - the earring was cut from the worn shot using the difference between the two frames, kept to gold and stone colours, with its holes filled (`comp/A14_W1c_mask.png`, `comp/A14_W2c_mask.png`);
+  - it was then scaled about the piercing to its true size and laid on the bare lobe;
+  - the first W2 mask lost the back half of the hoop. A lower threshold for shadowed gold and a split at the lobe brought it back.
+- **Palm.** `A14_P_a` stood the pair upright and drew it about 1.3 times too big. The palm shot is a cut-out of the packshot pair (`comp/a14_pair_cut.png`) on the empty-palm plate `N02_Pclean` at 6.25 px per mm, with a soft contact shadow (`comp.py palm`).
+- The size card is `solitaire-charm-huggies-size-guide.jpg` ("Hoop about 13 mm · stone about 6 mm · about 22 mm long").
+
+### V-Bar Teardrop Necklace (A16), chain redrawn again
+
+**The note.** "The other necklace … the second image" is the V-Bar in the owner's second photo. It could also have meant the Laurel Marquise beside the red necklace in the first photo. Its listing was checked against that photo: the three-stone marquise links match, so it was left as it is.
+
+**The chain.** The curb chain drawn earlier on 3 Nov (`CHAIN6`) came out as an open chain of round wire links, like a Cuban chain (`A16_Hc_a`, `A16_Hc_b`, `A16_W1c_a`, `A16_W1c_b`).
+- At 6x (`refs/A16_chain6x.jpg`) the stock chain is a dense wheat (spiga) chain. Its tiny rice-grain links each have a bright flat cut face and lean in a chevron, with no holes.
+- The word "curb" kept pulling the generator to open links. The new wording (`CHAIN7`) names a wheat chain and rules out open links, curb and Cuban chains.
+
+**Photos.** All five were redrawn with `CHAIN7`, using the 6x crop as IMAGE 2, from the approved frames: packshot `A16_Hw_a` (from `A16_He2`), worn `A16_W1w_a` (from `A16_W1f2`), worn quarter turn `A16_W2w_a` (from `A16_W2q`), macro `A16_Mw_a` (from `A16_M`), in the palm `A16_Pw_a` (from `A16_Ps2`).
+- The size card is unchanged and was kept by its media id.
+- The curb frames stay in `jobs.json`.
+
+**Copy.** The intro, the details and the SEO text now say "a dense gold tone wheat chain about 3.5mm wide, its small bright cut links set in a tight chevron". The spec in `build/skus.json` now names a wheat chain too.
+
+**Status.** The owner set the piece Active at 06:39 on 3 Nov, on all six channels, at ₹1,399 (compare-at ₹2,499). The mutation sent no status, price or stock, so these stay as the owner set them. `build/listings.json` now records ₹1,399.
+
+### Slim Pave Huggies (A13), stone setting redrawn
+
+**The note.** "Check diamond setting and change it", on the review sheet.
+
+**What changed.**
+- The earlier gallery drew one small row of stones sunk in a framed channel between polished rails.
+- In a close crop of the owner's photo (`refs/A13_set.jpg`), the stones stand in raised claws, almost touching, and a second row of tiny stones runs along the outer edge of the band.
+
+**Photos.** All five were edited (`SET13` in `build/edits.py`, with the crop as IMAGE 2) from the approved gallery: packshot `A13_Hs_a`, worn `A13_W1s_a`, worn close `A13_W2s_a`, macro `A13_Ms_a`, in the palm `A13_Ps_a`. The shape, size and hinge are unchanged.
+- **Known gap.** The edits put the second row on the inner edge, towards the opening, not the outer edge. The copy describes the pair in hand. The photos can be flipped with five more edits, about 10 credits.
+- The size card was redrawn from the new packshot as `slim-pave-huggies-size-guide-v2.jpg`, because the old card held the plain name in Shopify Files.
+
+**Copy.** The intro and details now read "a row of round clear cubic zirconia in raised claws and a row of tiny stones down the outer side". The spec in `build/skus.json` describes the setting too.
+
+### Higgsfield
+
+37 generations and 2 background removals, 76 credits. The balance went from 226.71 to 150.71.
+- **Clover, Solitaire Charm and the V-Bar chain:** 32 generations (12, 10 and 10) and 2 background removals, 66 credits against the 55 to 60 estimated.
+- **Slim Pave setting:** 5 edits, 10 credits.
+
+### Shopify
+
+One mutation, `CloverCharmVBar` (`build/ship_3nov.py`, `shopify/ship_3nov.graphql`, `shopify/ship_3nov.json`). It turned autoPublish on for the six channels, made the two creates and the two updates, then turned autoPublish off.
+- **Clover Garland Necklace:**
+  - DRAFT, SKU `CLGN-RD`, ₹2,199 with ₹3,499 compare-at, 5 units, inventory policy DENY;
+  - Necklaces category, feed metafields, SEO and tags;
+  - "Material: Stainless steel, as on the supplier's card".
+- **Solitaire Charm Huggies:**
+  - DRAFT, SKU `SCH`, ₹1,199 with ₹2,199 compare-at, 5 units, inventory policy DENY;
+  - Earrings category, feed metafields, SEO and tags;
+  - no material line.
+- **V-Bar Teardrop Necklace:** the five new photos, the card kept by media id, and the wheat copy and SEO.
+- **Slim Pave Huggies:** the five new photos, the -v2 card, and the setting copy and SEO. It stays DRAFT at ₹999.
+- **Checked afterwards:**
+  - all 24 media READY and in gallery order, with the packshot as the variant image on each;
+  - the four size-guide links answer 200;
+  - each Shopify copy matches its export, with a mean difference of 0.74 to 2.29 out of 255 for the photos and 0.27 to 0.73 for the cards;
+  - on the V-Bar and the Slim Pave, in the pixels where the new photos differ from the old, the live photos sit 3 to 7 from the new ones and 67 to 99 from the old;
+  - autoPublish is off again on all six. Both new drafts are attached to all six channels and will show once they are set Active.
+- Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
+- `review/clover_charm_vbar_slim_3nov.jpg` sets the owner's photos beside the four galleries.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).
-- `build/`: specs, copy, job ids, approved frames, and the build, edit, export, card and ship scripts. `build/out/` (raw frames) is not committed.
+- `build/`: specs, copy, job ids, approved frames, and the build, edit, composite (`comp.py`), export, card and ship scripts. `build/comp/` holds the cut-outs and masks for the composites. `build/out/` (raw frames) is not committed.
+- `review/`: sheets that set the owner's photos beside the new galleries.
 - `exports/`: the approved photos at 1288×1600.
 - `cards/`: size cards.
 - `shopify/`: the mutation and the ids.

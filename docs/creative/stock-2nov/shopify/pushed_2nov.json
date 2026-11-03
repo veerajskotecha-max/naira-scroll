@@ -265,7 +265,7 @@
    5
   ],
   "photos": 5,
-  "sizeCard": "slim-pave-huggies-size-guide.jpg",
+  "sizeCard": "slim-pave-huggies-size-guide-v2.jpg",
   "created": "2026-11-03",
   "channels": 0,
   "gallery": [
@@ -276,15 +276,15 @@
    "P",
    "card"
   ],
-  "photosUpdated": "2026-11-03",
+  "photosUpdated": "2026-11-03 v2: stones in raised claws with a row of tiny stones down the outer side, in all five photos and the copy",
   "price": "999.00",
   "compareAtPrice": "1899.00"
  },
- "_note": "Statuses as read on 3 Nov: the owner has set ten of the twelve Active (each on all 6 channels); the Herringbone Teardrop Necklace, the Petite Fleur Y Necklace and the Slim Pave Huggies (created 3 Nov, autoPublish on around the create) are DRAFT, and drafts read 0 channels until they are set Active.",
+ "_note": "Statuses as read on 3 Nov after the CloverCharmVBar mutation: the V-Bar Teardrop Necklace is ACTIVE on all 6 channels (set Active by the owner at 06:39); the Petite Fleur Y Necklace, the Slim Pave Huggies, the Clover Garland Necklace and the Solitaire Charm Huggies are DRAFT; drafts read 0 channels until they are set Active, but each new draft is attached to all 6 (autoPublish was on around the creates).",
  "v-bar-teardrop-necklace": {
   "id": "gid://shopify/Product/10377179857058",
   "piece": "A16",
-  "status": "DRAFT",
+  "status": "ACTIVE",
   "variant": [
    "gid://shopify/ProductVariant/50798476820642",
    "HTN",
@@ -293,7 +293,7 @@
   "photos": 5,
   "sizeCard": "v-bar-teardrop-necklace-size-guide.jpg",
   "created": "2026-11-02",
-  "channels": 0,
+  "channels": 6,
   "gallery": [
    "H",
    "W1",
@@ -302,9 +302,10 @@
    "P",
    "card"
   ],
-  "photosUpdated": "2026-11-03 (curb chain, pear about 10 x 13 mm; photo 3 swapped for a true quarter turn in a second productSet)",
-  "renamed": "2026-11-03 from Herringbone Teardrop Necklace (handle herringbone-teardrop-necklace); the chain in hand is a curb chain",
-  "unitCost": "390.00 (supplier line 390x5 1,950)"
+  "photosUpdated": "2026-11-03 v2: wheat (spiga) chain in all five photos and the copy, replacing the open curb drawn earlier the same day",
+  "renamed": "2026-11-03 from Herringbone Teardrop Necklace (handle herringbone-teardrop-necklace); the chain in hand is a dense wheat (spiga) chain",
+  "unitCost": "390.00 (supplier line 390x5 1,950)",
+  "published": "2026-11-03T06:39:54Z (by the owner)"
  },
  "pave-open-heart-studs": {
   "id": "gid://shopify/Product/10375501742242",
@@ -328,5 +329,55 @@
   ],
   "photosUpdated": "2026-11-03 (gold tone, two rows of tiny stones, about 20 mm; silver 11 mm 31 Oct photos replaced)",
   "tags": "Rhodium Silver Tone Plated swapped for 18k Gold Tone Plated"
+ },
+ "clover-garland-necklace": {
+  "id": "gid://shopify/Product/10377922838690",
+  "piece": "C2",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50804419887266",
+   "CLGN-RD",
+   5
+  ],
+  "photos": 5,
+  "sizeCard": "clover-garland-necklace-size-guide.jpg",
+  "created": "2026-11-03",
+  "channels": 0,
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "price": "2199.00",
+  "compareAtPrice": "3499.00",
+  "note": "length about 42 cm, to confirm; not among the Albyluxe pieces, so no Albyluxe tag"
+ },
+ "solitaire-charm-huggies": {
+  "id": "gid://shopify/Product/10377922871458",
+  "piece": "A14",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50804419920034",
+   "SCH",
+   5
+  ],
+  "photos": 5,
+  "sizeCard": "solitaire-charm-huggies-size-guide.jpg",
+  "created": "2026-11-03",
+  "channels": 0,
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "note": "the 31 Oct A14 frames (an 8 mm cuff, the stone on a jump ring) were not used; the live Solitaire Drop Huggies (ADT27) is a different piece"
  }
 }
