@@ -78,6 +78,46 @@ Status at the update:
 - **ACTIVE:** the Bow and Heart Gift Set (A08) and the Heart Solitaire Huggies (A12). The owner had set them Active; they show all six channels.
 - **DRAFT:** the other ten, at 5 units each. Every DRAFT product in the store reads 0 channels, older ones included, so check channels when they are set Active.
 
+By 3 Nov the owner had set ten of the twelve Active, each on all six channels. The Herringbone Teardrop Necklace (A16) and the Petite Fleur Y Necklace (N06) are still DRAFT.
+
+## Slim Pave Huggies (A13), added 3 Nov
+
+The owner sent one more photo, a pair of gold pave huggies on a STAINLESS STEEL card ("Add this sku too").
+
+**The match.** It is A13 Slim Pave Huggies from the Albyluxe order. That piece was held back on the 31 Oct final page, so it had never been listed. The same card as A12 places it in the same order.
+
+**What the 31 Oct listing had wrong:**
+- **Size.** The pair is about 18 mm tall, not 13 mm. Against the card, the huggie is 1.22 times the A12 hoop (15 mm). The thumb and a USB cable in the photo give 19 to 22 mm.
+- **Setting.** About ten round stones sit in fine claws down the front edge, not in a channel.
+- None of the 31 Oct photos were used.
+
+**Shape.** The owner's 31 Oct review note on this piece was "Square, it is an earring".
+- In the stock photo each huggie hangs through the card at an angle, so the photo cannot settle its true depth.
+- The generator would not draw a square outline:
+  - first packshot `A13_H_clip`: about 3:1;
+  - edit `A13_Hs`: 2:1;
+  - fresh packshot `A13_Hq`: 2.5:1;
+  - drawing-guided edit `A13_Hd`: 2.4:1.
+- A fresh packshot guided by a flat outline drawing (`refs/A13_shape.jpg`) came out about 1.9:1 (`A13_Hg`). That matches the outline the huggies show in the owner's photo, and it was approved.
+- The copy says about 18 × 10 mm, a rectangle with softly rounded corners. If the pair in hand is a true square, the photos and copy need redoing.
+
+**Photos.** Gallery: packshot `A13_Hg`, worn `A13_W1qh`, worn close `A13_W2qs`, upright macro `A13_Mq`, in the palm `A13_P`, size card.
+- W1, W2 and M were made from `A13_Hg` only (`wref: hero`).
+- The first worn shots drew the huggie at about 26 mm and 21 mm against the ear (taken as about 58 mm). Shrink edits brought them to about 19 mm.
+- The palm shot reads about 19 to 21 mm against the fingers and palm.
+- The paperclip-shaped frames are kept in `jobs.json` under `_clip`.
+- Higgsfield: 18 generations, about 39 credits; the balance went from 337.16 to 297.71.
+
+**Shopify.** `build/ship_a13.py` built one mutation (`shopify/ship_a13.graphql`, `shopify/ship_a13.json`). It turned autoPublish on for the six channels, created the product, then turned it off again.
+- **Product:** DRAFT, SKU `SPH`, ₹999 with ₹1,899 compare-at, 5 units, inventory policy DENY.
+- **Copy:** "Material: Stainless steel, as on the supplier's card".
+- **Listing data:** feed metafields, SEO, the Earrings category and tags, as for the A16 create.
+- **Checked afterwards:**
+  - all six media READY and in gallery order, with the packshot as the variant image;
+  - the size-guide link answers 200;
+  - each Shopify copy matches its export, with a mean difference of 0.2 to 0.44 out of 255.
+- Ids are in `shopify/pushed_2nov.json` and `build/drafts_new.json`.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

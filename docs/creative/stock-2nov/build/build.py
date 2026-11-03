@@ -27,7 +27,8 @@ METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver
 def refs(s, plate, hero=None, worn=False):
     if worn and hero and s.get("wref") == "hero":                # the supplier photo kept leaking its backdrop into worn frames
         return ([hero, PL[plate]], "IMAGE 1 is our approved packshot of this exact piece and the ONLY authority on what it is: copy its construction, "
-                "size, proportions, metal colour and stone colour EXACTLY; ignore its cube and its background.", 2)
+                "proportions, metal colour and stone colour EXACTLY; ignore its cube and its background. IMAGE 1 is a close view, "
+                "so the piece's SIZE in this picture comes ONLY from the SCALE TEST below.", 2)
     ids = [R[s["ref"]]]
     names = ("IMAGE 1 is a phone photograph of the actual piece we hold in stock and the ONLY authority on what it is: copy its construction, its metal colour and its stone colour EXACTLY; "
              + s["note"])

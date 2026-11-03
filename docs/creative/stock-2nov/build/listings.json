@@ -1,340 +1,370 @@
 [
-  {
-    "id": "N01",
-    "title": "Laurel Marquise Necklace",
-    "type": "Necklace",
-    "sku": "LMN",
-    "price": 1799,
-    "compare": 3299,
-    "units": 5,
-    "option": null,
-    "intro": "Leaves of light around the neck. Clear marquise cut cubic zirconia, about 5 x 10mm each, are set on a slant in groups of three like leaves on a stem, each stone in its own four claw gold tone setting, and each cluster linked to the next.",
-    "tip": "Wear it alone with an open neckline, or with small studs.",
-    "details": [
-      "Stones: Marquise cut clear cubic zirconia, approximately 5 x 10mm, in four claw settings",
-      "Pattern: Clusters of three stones set on a slant, linked one to the next",
-      "Width: Approximately 9mm",
-      "Length: Approximately 42cm (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 1,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N02",
-    "title": "Soleil Petal Pendant",
-    "type": "Necklace",
-    "sku": "SPP",
-    "price": 1299,
-    "compare": 2499,
-    "units": 5,
-    "option": null,
-    "intro": "A small sun rising at the throat. One round clear cubic zirconia of about 7mm sits up in gold claws, and seven slender polished gold tone petals fan out below it like rays, about 25mm across in all, on a fine snake chain.",
-    "tip": "Let it sit alone on a plain neckline, so the petals catch the light.",
-    "details": [
-      "Pendant: Approximately 25mm across, seven open polished petals fanned below the stone",
-      "Stone: Round clear cubic zirconia, approximately 7mm, in a claw setting",
-      "Chain: Fine snake chain with a lobster clasp and extender",
-      "Length: Approximately 42cm plus the extender (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 2,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N03",
-    "title": "Pearl Crescent Pendant",
-    "type": "Necklace",
-    "sku": "PCP",
-    "price": 1199,
-    "compare": 2199,
-    "units": 5,
-    "option": null,
-    "intro": "A pearl held by a new moon. One round white shell pearl of about 10mm sits in a small gold tone cup, with a slim crescent of small clear cubic zirconia curving around one side of it, on a fine box chain with a sliding bead.",
-    "tip": "Slide the bead to wear it high at the collarbone or lower on a V neck.",
-    "details": [
-      "Pearl: Round white shell pearl, approximately 10mm",
-      "Pearl source: Shell pearl, provenance not stated by the supplier",
-      "Stones: Small round clear cubic zirconia, approximately 2mm, in a crescent",
-      "Chain: Fine box chain with an adjustable sliding bead",
-      "Metal: Gold tone"
-    ],
-    "photo": 3,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N04",
-    "title": "Molten Solitaire Pendant",
-    "type": "Necklace",
-    "sku": "MSP",
-    "price": 1199,
-    "compare": 2199,
-    "units": 5,
-    "option": null,
-    "intro": "A stone in poured gold. One round clear cubic zirconia of about 8mm sits deep inside an irregular frame of polished gold tone that ripples like molten metal, about 12mm across, on a fine cable chain.",
-    "tip": "Pair it with the Molten Bloom Hoops or the Molten Wave Ear Cuff.",
-    "details": [
-      "Pendant: Approximately 12mm, rippled molten frame",
-      "Stone: Round clear cubic zirconia, approximately 8mm",
-      "Chain: Fine cable chain",
-      "Length: Approximately 45cm (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 7,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N05",
-    "title": "Petite Pear Solitaire Necklace",
-    "type": "Necklace",
-    "sku": "PPSN",
-    "price": 999,
-    "compare": 1899,
-    "units": 5,
-    "option": null,
-    "intro": "One small clear drop. A pear cut cubic zirconia of about 7 x 10mm hangs point up in fine gold tone claws from a tiny bead bail, on a fine cable chain.",
-    "tip": "The everyday drop: wear it daily, or layer it under a longer chain.",
-    "details": [
-      "Stone: Pear cut clear cubic zirconia, approximately 7 x 10mm, in a claw setting",
-      "Bail: Small round bead",
-      "Chain: Fine cable chain",
-      "Length: Approximately 45cm (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 8,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N06",
-    "title": "Petite Fleur Y Necklace",
-    "type": "Necklace",
-    "sku": "PFYN",
-    "price": 999,
-    "compare": 1899,
-    "units": 5,
-    "option": null,
-    "intro": "A tiny flower and a fine drop. Five small round clear cubic zirconia form a flower about 6mm across where the chain meets at the front, and a single fine chain falls about 5cm below it, ending in a small polished gold tone flower.",
-    "tip": "Wear it with a deep V or an open collar, so the drop runs straight.",
-    "details": [
-      "Flower: Approximately 6mm, five small round clear cubic zirconia around a gold tone centre",
-      "Drop: Fine chain, approximately 5cm, with a small gold tone flower charm",
-      "Chain: Fine cable chain",
-      "Length: Approximately 42cm (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 10,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N07",
-    "title": "Asscher Solitaire Pendant",
-    "type": "Necklace",
-    "sku": "ASP",
-    "price": 1199,
-    "compare": 2199,
-    "units": 5,
-    "option": null,
-    "intro": "One octagon of light. A clear Asscher cut cubic zirconia of about 9mm, its corners clipped into an octagon and its step facets deep like a hall of mirrors, sits in fine gold tone claws below a ridged bail, on a fine curb chain.",
-    "tip": "Pair it with the Asscher Solitaire Ring.",
-    "details": [
-      "Stone: Asscher cut clear cubic zirconia, approximately 9mm, in a claw setting",
-      "Bail: Polished, with a single ridge",
-      "Chain: Fine curb chain with a lobster clasp and extender",
-      "Length: Approximately 42cm plus the extender (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 11,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "N08",
-    "title": "Cushion Bezel Pendant",
-    "type": "Necklace",
-    "sku": "CBP",
-    "price": 999,
-    "compare": 1899,
-    "units": 5,
-    "option": null,
-    "intro": "A small square of light. A cushion cut clear cubic zirconia of about 6mm sits in a smooth, thick gold tone bezel about 8mm across, hanging from a small round bail on a fine snake chain.",
-    "tip": "Wear it daily; it sits close at the collarbone.",
-    "details": [
-      "Stone: Cushion cut clear cubic zirconia, approximately 6mm",
-      "Setting: Smooth bezel, approximately 8mm",
-      "Chain: Fine round snake chain with a lobster clasp and extender",
-      "Length: Approximately 42cm plus the extender (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 12,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "",
-    "status": "draft"
-  },
-  {
-    "id": "A16",
-    "title": "Herringbone Teardrop Necklace",
-    "type": "Necklace",
-    "sku": "HTN",
-    "price": 1299,
-    "compare": 2499,
-    "units": 5,
-    "option": null,
-    "intro": "A polished V and one clear drop. A flat herringbone chain about 3mm wide turns into two smooth gold tone bars that meet in a V at the front, and a pear cut clear cubic zirconia of about 8 x 11mm hangs point up from the point of the V.",
-    "tip": "Wear it alone with a white top or a deep neckline.",
-    "details": [
-      "Chain: Flat herringbone chain, approximately 3mm wide",
-      "Front: Two polished bars, approximately 15mm each, meeting in a V",
-      "Drop: Pear cut clear cubic zirconia, approximately 8 x 11mm, hanging point up in a claw setting",
-      "Length: Approximately 45cm (to confirm)",
-      "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
-    ],
-    "photo": 9,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "Held at review on 31 Oct; the piece in stock has a polished V at the front, which the earlier photos lacked.",
-    "status": "draft"
-  },
-  {
-    "id": "A12",
-    "title": "Heart Solitaire Huggies",
-    "type": "Earrings",
-    "sku": "HSH",
-    "price": 1199,
-    "compare": 2199,
-    "units": 5,
-    "option": null,
-    "intro": "A heart below a plain hoop. Each earring is a smooth, polished gold tone huggie of about 15mm with a heart cut clear cubic zirconia of about 6.5mm hanging below it in a closed bezel.",
-    "tip": "Every day, or with a stud in a second piercing.",
-    "details": [
-      "Hoop: Plain polished huggie, approximately 15mm, hinged snap closure",
-      "Drop: Heart cut clear cubic zirconia, approximately 6.5mm, in a closed bezel",
-      "Sold as: One pair",
-      "Finish: Polished gold tone",
-      "Material: Stainless steel, as on the supplier's card"
-    ],
-    "photo": 4,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "The stock in hand has a plain hoop and a bezel heart; the 1 Nov photos showed a pave hoop and a claw-set heart.",
-    "status": "draft"
-  },
-  {
-    "id": "A08",
-    "title": "Bow and Heart Gift Set",
-    "type": "Set",
-    "sku": "BHGS",
-    "price": 1499,
-    "compare": 2800,
-    "units": 5,
-    "option": null,
-    "intro": "A bow of hearts, with a heart below. The pendant and each earring carry the same bow of two heart cut clear cubic zirconia in fine pave rims, with a heart cut stone in a pave halo hanging below the knot, and the pendant hangs on a fine gold tone cable chain.",
-    "tip": "Give the set; wear the earrings alone on the days after.",
-    "details": [
-      "Set: One pendant necklace and one pair of drop earrings, matching",
-      "Bow: Two heart cut clear cubic zirconia, approximately 6mm each, in fine pave rims",
-      "Drop: Heart cut clear cubic zirconia in a pave halo, approximately 9mm",
-      "Earrings: Approximately 14mm long, stud fitting",
-      "Pendant: Approximately 14mm long",
-      "Chain: Fine cable chain, length to confirm",
-      "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
-    ],
-    "photo": 5,
-    "shots": [
-      "H",
-      "W1",
-      "M",
-      "MN"
-    ],
-    "note": "A complete matching set, as in the buy book: the stock earrings (photo 5) set the bow's stones; photo 6 is a separate necklace (N09).",
-    "status": "draft"
-  },
-  {
-    "id": "N09",
-    "title": "Petite Heart Trio Necklace",
-    "type": "Necklace",
-    "sku": "PHTN",
-    "price": 999,
-    "compare": 1899,
-    "units": 5,
-    "option": null,
-    "intro": "A gold heart and three small lights. A polished puffed gold tone heart of about 7mm sits beside a tiny triangle of three round clear cubic zirconia, side by side along a fine cable chain.",
-    "tip": "Wear it daily, or layer it under the Petite Fleur Y Necklace.",
-    "details": [
-      "Heart: Polished puffed heart, approximately 7mm",
-      "Stones: Three round clear cubic zirconia, approximately 2.5mm, in claw settings",
-      "Chain: Fine cable chain with a lobster clasp and extender",
-      "Length: Approximately 42cm plus the extender (to confirm)",
-      "Metal: Gold tone"
-    ],
-    "photo": 6,
-    "shots": [
-      "H",
-      "W1",
-      "W2",
-      "M"
-    ],
-    "note": "Photo 6, listed on its own: its macro is the approved frame A08_MN.",
-    "status": "draft"
-  }
+ {
+  "id": "N01",
+  "title": "Laurel Marquise Necklace",
+  "type": "Necklace",
+  "sku": "LMN",
+  "price": 1799,
+  "compare": 3299,
+  "units": 5,
+  "option": null,
+  "intro": "Leaves of light around the neck. Clear marquise cut cubic zirconia, about 5 x 10mm each, are set on a slant in groups of three like leaves on a stem, each stone in its own four claw gold tone setting, and each cluster linked to the next.",
+  "tip": "Wear it alone with an open neckline, or with small studs.",
+  "details": [
+   "Stones: Marquise cut clear cubic zirconia, approximately 5 x 10mm, in four claw settings",
+   "Pattern: Clusters of three stones set on a slant, linked one to the next",
+   "Width: Approximately 9mm",
+   "Length: Approximately 42cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 1,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N02",
+  "title": "Soleil Petal Pendant",
+  "type": "Necklace",
+  "sku": "SPP",
+  "price": 1299,
+  "compare": 2499,
+  "units": 5,
+  "option": null,
+  "intro": "A small sun rising at the throat. One round clear cubic zirconia of about 7mm sits up in gold claws, and seven slender polished gold tone petals fan out below it like rays, about 25mm across in all, on a fine snake chain.",
+  "tip": "Let it sit alone on a plain neckline, so the petals catch the light.",
+  "details": [
+   "Pendant: Approximately 25mm across, seven open polished petals fanned below the stone",
+   "Stone: Round clear cubic zirconia, approximately 7mm, in a claw setting",
+   "Chain: Fine snake chain with a lobster clasp and extender",
+   "Length: Approximately 42cm plus the extender (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 2,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N03",
+  "title": "Pearl Crescent Pendant",
+  "type": "Necklace",
+  "sku": "PCP",
+  "price": 1199,
+  "compare": 2199,
+  "units": 5,
+  "option": null,
+  "intro": "A pearl held by a new moon. One round white shell pearl of about 10mm sits in a small gold tone cup, with a slim crescent of small clear cubic zirconia curving around one side of it, on a fine box chain with a sliding bead.",
+  "tip": "Slide the bead to wear it high at the collarbone or lower on a V neck.",
+  "details": [
+   "Pearl: Round white shell pearl, approximately 10mm",
+   "Pearl source: Shell pearl, provenance not stated by the supplier",
+   "Stones: Small round clear cubic zirconia, approximately 2mm, in a crescent",
+   "Chain: Fine box chain with an adjustable sliding bead",
+   "Metal: Gold tone"
+  ],
+  "photo": 3,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N04",
+  "title": "Molten Solitaire Pendant",
+  "type": "Necklace",
+  "sku": "MSP",
+  "price": 1199,
+  "compare": 2199,
+  "units": 5,
+  "option": null,
+  "intro": "A stone in poured gold. One round clear cubic zirconia of about 8mm sits deep inside an irregular frame of polished gold tone that ripples like molten metal, about 12mm across, on a fine cable chain.",
+  "tip": "Pair it with the Molten Bloom Hoops or the Molten Wave Ear Cuff.",
+  "details": [
+   "Pendant: Approximately 12mm, rippled molten frame",
+   "Stone: Round clear cubic zirconia, approximately 8mm",
+   "Chain: Fine cable chain",
+   "Length: Approximately 45cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 7,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N05",
+  "title": "Petite Pear Solitaire Necklace",
+  "type": "Necklace",
+  "sku": "PPSN",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "intro": "One small clear drop. A pear cut cubic zirconia of about 7 x 10mm hangs point up in fine gold tone claws from a tiny bead bail, on a fine cable chain.",
+  "tip": "The everyday drop: wear it daily, or layer it under a longer chain.",
+  "details": [
+   "Stone: Pear cut clear cubic zirconia, approximately 7 x 10mm, in a claw setting",
+   "Bail: Small round bead",
+   "Chain: Fine cable chain",
+   "Length: Approximately 45cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 8,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N06",
+  "title": "Petite Fleur Y Necklace",
+  "type": "Necklace",
+  "sku": "PFYN",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "intro": "A tiny flower and a fine drop. Five small round clear cubic zirconia form a flower about 6mm across where the chain meets at the front, and a single fine chain falls about 5cm below it, ending in a small polished gold tone flower.",
+  "tip": "Wear it with a deep V or an open collar, so the drop runs straight.",
+  "details": [
+   "Flower: Approximately 6mm, five small round clear cubic zirconia around a gold tone centre",
+   "Drop: Fine chain, approximately 5cm, with a small gold tone flower charm",
+   "Chain: Fine cable chain",
+   "Length: Approximately 42cm (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 10,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N07",
+  "title": "Asscher Solitaire Pendant",
+  "type": "Necklace",
+  "sku": "ASP",
+  "price": 1199,
+  "compare": 2199,
+  "units": 5,
+  "option": null,
+  "intro": "One octagon of light. A clear Asscher cut cubic zirconia of about 9mm, its corners clipped into an octagon and its step facets deep like a hall of mirrors, sits in fine gold tone claws below a ridged bail, on a fine curb chain.",
+  "tip": "Pair it with the Asscher Solitaire Ring.",
+  "details": [
+   "Stone: Asscher cut clear cubic zirconia, approximately 9mm, in a claw setting",
+   "Bail: Polished, with a single ridge",
+   "Chain: Fine curb chain with a lobster clasp and extender",
+   "Length: Approximately 42cm plus the extender (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 11,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "N08",
+  "title": "Cushion Bezel Pendant",
+  "type": "Necklace",
+  "sku": "CBP",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "intro": "A small square of light. A cushion cut clear cubic zirconia of about 6mm sits in a smooth, thick gold tone bezel about 8mm across, hanging from a small round bail on a fine snake chain.",
+  "tip": "Wear it daily; it sits close at the collarbone.",
+  "details": [
+   "Stone: Cushion cut clear cubic zirconia, approximately 6mm",
+   "Setting: Smooth bezel, approximately 8mm",
+   "Chain: Fine round snake chain with a lobster clasp and extender",
+   "Length: Approximately 42cm plus the extender (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 12,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "",
+  "status": "draft"
+ },
+ {
+  "id": "A16",
+  "title": "Herringbone Teardrop Necklace",
+  "type": "Necklace",
+  "sku": "HTN",
+  "price": 1299,
+  "compare": 2499,
+  "units": 5,
+  "option": null,
+  "intro": "A polished V and one clear drop. A flat herringbone chain about 3mm wide turns into two smooth gold tone bars that meet in a V at the front, and a pear cut clear cubic zirconia of about 8 x 11mm hangs point up from the point of the V.",
+  "tip": "Wear it alone with a white top or a deep neckline.",
+  "details": [
+   "Chain: Flat herringbone chain, approximately 3mm wide",
+   "Front: Two polished bars, approximately 15mm each, meeting in a V",
+   "Drop: Pear cut clear cubic zirconia, approximately 8 x 11mm, hanging point up in a claw setting",
+   "Length: Approximately 45cm (to confirm)",
+   "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
+  ],
+  "photo": 9,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "Held at review on 31 Oct; the piece in stock has a polished V at the front, which the earlier photos lacked.",
+  "status": "draft"
+ },
+ {
+  "id": "A12",
+  "title": "Heart Solitaire Huggies",
+  "type": "Earrings",
+  "sku": "HSH",
+  "price": 1199,
+  "compare": 2199,
+  "units": 5,
+  "option": null,
+  "intro": "A heart below a plain hoop. Each earring is a smooth, polished gold tone huggie of about 15mm with a heart cut clear cubic zirconia of about 6.5mm hanging below it in a closed bezel.",
+  "tip": "Every day, or with a stud in a second piercing.",
+  "details": [
+   "Hoop: Plain polished huggie, approximately 15mm, hinged snap closure",
+   "Drop: Heart cut clear cubic zirconia, approximately 6.5mm, in a closed bezel",
+   "Sold as: One pair",
+   "Finish: Polished gold tone",
+   "Material: Stainless steel, as on the supplier's card"
+  ],
+  "photo": 4,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "The stock in hand has a plain hoop and a bezel heart; the 1 Nov photos showed a pave hoop and a claw-set heart.",
+  "status": "draft"
+ },
+ {
+  "id": "A08",
+  "title": "Bow and Heart Gift Set",
+  "type": "Set",
+  "sku": "BHGS",
+  "price": 1499,
+  "compare": 2800,
+  "units": 5,
+  "option": null,
+  "intro": "A bow of hearts, with a heart below. The pendant and each earring carry the same bow of two heart cut clear cubic zirconia in fine pave rims, with a heart cut stone in a pave halo hanging below the knot, and the pendant hangs on a fine gold tone cable chain.",
+  "tip": "Give the set; wear the earrings alone on the days after.",
+  "details": [
+   "Set: One pendant necklace and one pair of drop earrings, matching",
+   "Bow: Two heart cut clear cubic zirconia, approximately 6mm each, in fine pave rims",
+   "Drop: Heart cut clear cubic zirconia in a pave halo, approximately 9mm",
+   "Earrings: Approximately 14mm long, stud fitting",
+   "Pendant: Approximately 14mm long",
+   "Chain: Fine cable chain, length to confirm",
+   "Material: 316L stainless steel with a PVD gold tone finish, as labelled by the supplier"
+  ],
+  "photo": 5,
+  "shots": [
+   "H",
+   "W1",
+   "M",
+   "MN"
+  ],
+  "note": "A complete matching set, as in the buy book: the stock earrings (photo 5) set the bow's stones; photo 6 is a separate necklace (N09).",
+  "status": "draft"
+ },
+ {
+  "id": "N09",
+  "title": "Petite Heart Trio Necklace",
+  "type": "Necklace",
+  "sku": "PHTN",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "intro": "A gold heart and three small lights. A polished puffed gold tone heart of about 7mm sits beside a tiny triangle of three round clear cubic zirconia, side by side along a fine cable chain.",
+  "tip": "Wear it daily, or layer it under the Petite Fleur Y Necklace.",
+  "details": [
+   "Heart: Polished puffed heart, approximately 7mm",
+   "Stones: Three round clear cubic zirconia, approximately 2.5mm, in claw settings",
+   "Chain: Fine cable chain with a lobster clasp and extender",
+   "Length: Approximately 42cm plus the extender (to confirm)",
+   "Metal: Gold tone"
+  ],
+  "photo": 6,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M"
+  ],
+  "note": "Photo 6, listed on its own: its macro is the approved frame A08_MN.",
+  "status": "draft"
+ },
+ {
+  "id": "A13",
+  "title": "Slim Pave Huggies",
+  "type": "Earrings",
+  "sku": "SPH",
+  "price": 999,
+  "compare": 1899,
+  "units": 5,
+  "option": null,
+  "status": "draft",
+  "photo": 5,
+  "shots": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P"
+  ],
+  "intro": "One line of light down a slim rectangle. Gold tone huggies of about 18mm, shaped as a rectangle with softly rounded corners and set down the front with a single row of small round clear cubic zirconia, close with a hinged snap.",
+  "details": [
+   "Size: Approximately 18mm tall and 10mm deep, about 2mm wide",
+   "Stones: One row of small round clear cubic zirconia down the front, in fine claws",
+   "Closure: Hinged snap",
+   "Sold as: One pair",
+   "Finish: Polished gold tone",
+   "Material: Stainless steel, as on the supplier's card"
+  ],
+  "tip": "Stack them with the Brushed Gold Huggies.",
+  "note": "Held back on 31 Oct. The pair in hand (owner's 2 Nov photo) is about 18mm tall, not the 13mm the buy-book photo suggested, and its stones sit in fine claws, so the 31 Oct photos were not used."
+ }
 ]

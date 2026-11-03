@@ -94,5 +94,17 @@
    "M": "gid://shopify/MediaImage/46711866359970",
    "card": "gid://shopify/MediaImage/46711866392738"
   }
+ },
+ "A13": {
+  "product": "gid://shopify/Product/10377632645282",
+  "variant": "gid://shopify/ProductVariant/50801589944482",
+  "media": {
+   "H": "gid://shopify/MediaImage/46716196225186",
+   "W1": "gid://shopify/MediaImage/46716196257954",
+   "W2": "gid://shopify/MediaImage/46716196290722",
+   "M": "gid://shopify/MediaImage/46716196323490",
+   "P": "gid://shopify/MediaImage/46716196356258",
+   "card": "gid://shopify/MediaImage/46716196389026"
+  }
  }
 }

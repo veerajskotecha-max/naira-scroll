@@ -58,6 +58,35 @@ E["N07_He"] = ("N07_H", "EDIT IMAGE 1, a packshot of a gold Asscher solitaire pe
    "smaller and finer: a SLIM polished gold bail with a single ridge, only about half as tall as the stone, and the whole pendant, stone and bail, "
    "about two thirds of its present size. Keep the clear octagonal Asscher step-cut stone, its clipped corners, its fine claws, its clarity and "
    "sparkle, and keep the cube, the camera, the framing, the background and the light exactly as they are. Metal: warm 18k gold tone. " + END)
+A13DESIGN = ("Keep its exact design as IMAGE 2 shows it: a slim rounded-rectangle huggie with ONE row of small round clear stones in tiny "
+   "gold claws down its front edge and a plain polished gold top, bottom and back; only its size changes. ")
+A13KEEP = ("It hangs from the same piercing in the same earlobe. Keep everything else in IMAGE 1 exactly as it is: the model, her skin, the ear, "
+   "the crop, the camisole, the hair, the background and the light. Metal: warm 18k gold tone. ")
+E["A13_W1s"] = ("A13_W1", "EDIT IMAGE 1, a photograph of a woman wearing a slim gold pave huggie earring. Make ONE change only: the HUGGIE is "
+   "too large; shrink it to about TWO THIRDS of its present height, so it is about 18mm tall, about as long as her earlobe is tall and well "
+   "under a third of the height of her whole ear. " + A13DESIGN + A13KEEP + END, ["A13_H"])
+E["A13_W2s"] = ("A13_W2", "EDIT IMAGE 1, a photograph of a woman wearing a slim gold pave huggie earring. Make ONE change only: the HUGGIE is "
+   "a little too large; shrink it to about FOUR FIFTHS of its present height, so it is about 18mm tall, about as long as her earlobe is tall. "
+   + A13DESIGN + A13KEEP + END, ["A13_H"])
+E["A13_Hs"] = ("A13_H", "EDIT IMAGE 1, a packshot of a pair of slim gold pave huggies on a cream plaster cube. Make ONE change only: each "
+   "huggie's side outline becomes a ROUNDED SQUARE instead of a tall narrow rectangle: keep its height exactly as it is, and make it much deeper "
+   "front to back, so its depth is about nine tenths of its height and the open window in its middle is nearly square, its four corners softly "
+   "rounded. Each huggie keeps its slim 2mm band, its ONE row of about ten small round clear stones in tiny gold claws down its front edge, its "
+   "plain polished gold top, bottom and back, and its hinged post in the top edge. Keep the cube, the camera, the framing, the background and the "
+   "light exactly as they are. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+E["A13_Hd"] = ("A13_Hs", "EDIT IMAGE 1, a packshot of a pair of slim gold pave huggies on a cream plaster cube. Make ONE change only: each "
+   "huggie's side outline becomes EXACTLY the shape drawn in IMAGE 2: a ROUNDED SQUARE as deep front to back as it is tall, with straight sides, "
+   "four softly rounded corners and a big square window in the middle, never a tall narrow rectangle. Keep each huggie's height as it is and make "
+   "it as deep as it is tall. IMAGE 2 is only a flat drawing of the outline: keep the real polished gold, the slim 2mm band, the ONE row of about ten "
+   "small round clear stones in tiny gold claws down the front edge, the plain gold top, bottom and back and the hinged post exactly as IMAGE 1 "
+   "shows them. Keep the cube, the camera, the framing, the background and the light exactly as they are. Metal: warm 18k gold tone, never "
+   "brassy, orange or greenish. " + END, ["A13_shape_ref"])
+E["A13_W1qs"] = ("A13_W1q", E["A13_W1s"][1], ["A13_Hg"])      # the same shrinks, on the frames made from the approved packshot A13_Hg
+E["A13_W2qs"] = ("A13_W2q", E["A13_W2s"][1], ["A13_Hg"])
+E["A13_W1qh"] = ("A13_W1qs", "EDIT IMAGE 1, a photograph of a woman wearing a slim gold pave huggie earring. Make ONE change only: the HUGGIE "
+   "is far too large; shrink it to about HALF of its present height, so it is about 18mm tall: its top stays at the piercing and its bottom ends "
+   "only about a centimetre below the bottom of her earlobe, the whole huggie about a quarter to a third of the height of her ear. "
+   + A13DESIGN + A13KEEP + END, ["A13_Hg"])
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}
     for i, key in enumerate(keys):

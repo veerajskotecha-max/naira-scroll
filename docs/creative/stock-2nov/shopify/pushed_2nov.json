@@ -69,8 +69,8 @@
  "laurel-marquise-necklace": {
   "id": "gid://shopify/Product/10377182937250",
   "piece": "N01",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798484979874",
    "LMN",
@@ -92,8 +92,8 @@
  "soleil-petal-pendant": {
   "id": "gid://shopify/Product/10377183002786",
   "piece": "N02",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485045410",
    "SPP",
@@ -115,8 +115,8 @@
  "pearl-crescent-pendant": {
   "id": "gid://shopify/Product/10377183035554",
   "piece": "N03",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485078178",
    "PCP",
@@ -138,8 +138,8 @@
  "molten-solitaire-pendant": {
   "id": "gid://shopify/Product/10377183068322",
   "piece": "N04",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485110946",
    "MSP",
@@ -161,8 +161,8 @@
  "petite-pear-solitaire-necklace": {
   "id": "gid://shopify/Product/10377183101090",
   "piece": "N05",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485143714",
    "PPSN",
@@ -207,8 +207,8 @@
  "asscher-solitaire-pendant": {
   "id": "gid://shopify/Product/10377183166626",
   "piece": "N07",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485209250",
    "ASP",
@@ -230,8 +230,8 @@
  "cushion-bezel-pendant": {
   "id": "gid://shopify/Product/10377183199394",
   "piece": "N08",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485242018",
    "CBP",
@@ -253,8 +253,8 @@
  "petite-heart-trio-necklace": {
   "id": "gid://shopify/Product/10377183232162",
   "piece": "N09",
-  "status": "DRAFT",
-  "channels": 0,
+  "status": "ACTIVE",
+  "channels": 6,
   "variant": [
    "gid://shopify/ProductVariant/50798485274786",
    "PHTN",
@@ -273,5 +273,30 @@
   ],
   "photosUpdated": "2026-11-02"
  },
- "_note": "2 Nov, after the photo update: A08 and A12 had been set ACTIVE by the owner and show 6 channels. Every DRAFT product in the store, older ones included, reads 0 channels, so the ten drafts need their channels checked when they are set Active."
+ "slim-pave-huggies": {
+  "id": "gid://shopify/Product/10377632645282",
+  "piece": "A13",
+  "status": "DRAFT",
+  "variant": [
+   "gid://shopify/ProductVariant/50801589944482",
+   "SPH",
+   5
+  ],
+  "photos": 5,
+  "sizeCard": "slim-pave-huggies-size-guide.jpg",
+  "created": "2026-11-03",
+  "channels": 0,
+  "gallery": [
+   "H",
+   "W1",
+   "W2",
+   "M",
+   "P",
+   "card"
+  ],
+  "photosUpdated": "2026-11-03",
+  "price": "999.00",
+  "compareAtPrice": "1899.00"
+ },
+ "_note": "Statuses as read on 3 Nov: the owner has set ten of the twelve Active (each on all 6 channels); the Herringbone Teardrop Necklace, the Petite Fleur Y Necklace and the Slim Pave Huggies (created 3 Nov, autoPublish on around the create) are DRAFT, and drafts read 0 channels until they are set Active."
 }

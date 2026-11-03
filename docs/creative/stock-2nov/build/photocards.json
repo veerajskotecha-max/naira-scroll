@@ -53,5 +53,32 @@
    ]
   ],
   "line": "Earrings and pendant about 14 mm long · bow 10 mm"
+ },
+ "A13": {
+  "src": "A13_Hg",
+  "crop": [
+   380,
+   720,
+   1120
+  ],
+  "callouts": [
+   [
+    "v",
+    834,
+    1430,
+    1290,
+    "18 mm",
+    "right"
+   ],
+   [
+    "h",
+    596,
+    915,
+    1460,
+    "10 mm",
+    "below"
+   ]
+  ],
+  "line": "Huggie about 18 × 10 mm · band about 2 mm"
  }
 }
