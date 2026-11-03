@@ -497,6 +497,42 @@ One mutation, `OrbCableCuff` (`build/ship_cuff_3nov.py`, `shopify/ship_cuff_3nov
 - Ids are in `build/drafts_new.json` and `shopify/pushed_2nov.json`.
 - `review/orb_cable_cuff_3nov.jpg` sets the owner's photo beside the gallery and the card.
 
+## Marquise Drop Choker in silver, 3 Nov
+
+**The note.** "Add same 10 in silver", with a screenshot of the live listing's worn photo, `marquise-drop-choker_2_worn`.
+
+**The listing.** The Edition Two Marquise Drop Choker (YF7059) was ACTIVE with one gold variant: ₹1,199 with ₹2,388 compare-at, 19 units, cost ₹314. Its gallery had seven media: five photos, the gift box and the size card.
+- The PI lists YF7059 only as "Omega drop necklace", 20 at $3.15, with no colour. No cost was given for the silver.
+- The store's other two-metal pieces (Kiss Knot Bangle, Droplet Open Cuff) use a **Metal** option, Gold and Silver, with one image per variant. The choker follows them.
+
+**Photos.** Each of the five live gold photos was imported from Shopify (`MDC_1`, `MDC_2`, `MDC_4`, `MDC_5`, `MDC_L`). Each was given back to Higgsfield with one change, the metal to bright silver (`SILVER_MDC` in `build/edits.py`, which now keeps each source's 1:1 or 4:5 shape).
+- `MDC_5s_a` kept a pale gold collar beside the stone and drew the drop chain rose-copper against the skin. It was redone as `MDC_5s2_a`, with a line forbidding any gold, rose or copper tint.
+- In every approved edit no gold is left on the metal. Away from the metal the photos moved about 3 to 7 levels out of 255 on average.
+- The exports are `exports/marquise-drop-choker-silver-01..05.jpg`, at the size of the gold originals (one at 1288 × 1600, four at 2048 × 2048).
+
+### Higgsfield
+
+6 edits, 12 credits; one request was refused by a rate limit before it started and was resubmitted. The balance went from 105.71 to 93.71.
+
+### Shopify
+
+One mutation, `MarquiseDropSilver` (`build/ship_mdc_silver_3nov.py`, `shopify/ship_mdc_silver_3nov.graphql`, `shopify/ship_mdc_silver_3nov.json`): a productSet by id, then tagsAdd.
+- **Gold variant:** kept by id. It keeps SKU `YF7059`, its price, compare-at, ₹314 cost and 19 units, none of which were sent, and it now takes the gold cube photo as its image.
+- **Silver variant:**
+  - SKU `YF7059-S`, ₹1,199 with ₹2,388 compare-at, 10 units, inventory policy DENY, tracked;
+  - the silver cube photo as its image;
+  - no cost per item.
+- **Gallery:** the seven live media kept by id, with the five silver photos after the five gold ones: gold ×5, silver ×5, gift box, size card.
+- **Description:** one line changed, "Plating: PVD 18K gold coating, anti-tarnish" to "Metal: Gold, with a PVD 18K gold coating, or silver tone". The rest of the description, the title, the SEO and the status were not changed. The tag Rhodium Silver Tone Plated was added.
+- **Checked afterwards:**
+  - ACTIVE and published on all six channels;
+  - 29 units in total;
+  - 12 media READY, in order;
+  - each variant has its own image;
+  - the served silver photos match the exports, with a mean difference of 0.78 to 2.23 out of 255.
+- The ids are in `shopify/pushed_2nov.json`; `build/mdc_live.json` holds the description as read before the change.
+- `review/marquise_drop_choker_silver_3nov.jpg` sets the gold photos above the silver ones.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

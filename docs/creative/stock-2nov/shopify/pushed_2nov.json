@@ -407,5 +407,34 @@
   "price": "1299.00",
   "compareAtPrice": "2299.00",
   "note": "owner's 3 Nov photo, \"List this cuff also 10 pieces\"; a plain gold tone cable cuff, no stones, so no Cubic Zirconia tag; the gallery's gold toned to the stock's paler yellow; not the Garnet Cable Cuff or the Whisper Twist Cuff"
+ },
+ "marquise-drop-choker": {
+  "id": "gid://shopify/Product/10344382726306",
+  "piece": "Edition Two YF7059",
+  "status": "ACTIVE",
+  "channels": 6,
+  "variants": {
+   "Gold": [
+    "gid://shopify/ProductVariant/50651979415714",
+    "YF7059",
+    19
+   ],
+   "Silver": [
+    "gid://shopify/ProductVariant/50804601028770",
+    "YF7059-S",
+    10
+   ]
+  },
+  "price": "1199.00",
+  "compareAtPrice": "2388.00",
+  "updated": "2026-11-03",
+  "silverMedia": [
+   "gid://shopify/MediaImage/46724206592162",
+   "gid://shopify/MediaImage/46724206624930",
+   "gid://shopify/MediaImage/46724206657698",
+   "gid://shopify/MediaImage/46724206690466",
+   "gid://shopify/MediaImage/46724206723234"
+  ],
+  "note": "owner, 3 Nov: \"Add same 10 in silver\"; Metal option Gold/Silver; the five silver photos are edits of the live gold ones with only the metal changed; the plating line names both metals; no cost per item for the silver"
  }
 }

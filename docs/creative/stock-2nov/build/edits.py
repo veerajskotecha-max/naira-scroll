@@ -348,11 +348,32 @@ WORN14 = ("EDIT IMAGE 1, {what} with a bare earlobe. Make ONE change only: she w
    "hair, the camisole, the crop, the background and the light. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
 E["A14_W1n"] = ("A14_W1bare_a", WORN14.format(what="a photograph of a woman"), ["A14_Hs2_b"])
 E["A14_W2n"] = ("A14_W2bare_a", WORN14.format(what="a close photograph of a woman's ear"), ["A14_Hs2_b"])
+# 3 Nov: the Marquise Drop Choker (Edition Two, YF7059) in silver ("Add same 10 in silver"): the five live gold photos, imported from
+# Shopify as MDC_1 (on the cube, 4:5), MDC_2 (worn), MDC_4 (macro), MDC_5 (worn close) and MDC_L (laid, all 1:1), keep everything but
+# the metal. ASPECT keeps each edit at its source's shape.
+SILVER_MDC = ("EDIT IMAGE 1, {what}. Make ONE change only: the necklace's METAL becomes bright polished SILVER tone, a cool white "
+   "rhodium metal, never gold, never yellow, never grey or dull: the ribbed round snake collar with its fine ridges, the claws holding the "
+   "sideways marquise stone, the fine drop chain and the small settings of the two pear stones are ALL silver. The clear stones stay "
+   "exactly as they are: the same sideways marquise and the same two small pear stones, with the same sizes, positions and sparkle. Keep "
+   "EVERYTHING else in IMAGE 1 exactly identical: {keep}; the necklace's shape, size, length, ribbing and position do not change. Nothing "
+   "else changes, nothing is added or removed. " + END)
+KEEP_OBJ = "the surface, the camera, the framing, the focus, the background and the light"
+KEEP_MODEL = "the woman, her skin, her pose, her garment, the background, the light, the framing and the camera"
+E["MDC_1s"] = ("MDC_1", SILVER_MDC.format(what="a close photograph of a gold choker necklace on a cream plaster cube", keep=KEEP_OBJ.replace("surface", "cube")))
+E["MDC_2s"] = ("MDC_2", SILVER_MDC.format(what="a photograph of a woman wearing a gold choker necklace", keep=KEEP_MODEL))
+E["MDC_4s"] = ("MDC_4", SILVER_MDC.format(what="a macro photograph of a gold choker necklace lying on a cream surface", keep=KEEP_OBJ))
+E["MDC_5s"] = ("MDC_5", SILVER_MDC.format(what="a close photograph of a woman wearing a gold choker necklace", keep=KEEP_MODEL))
+E["MDC_Ls"] = ("MDC_L", SILVER_MDC.format(what="a photograph of a gold choker necklace laid on an ivory surface", keep=KEEP_OBJ))
+# MDC_5s_a kept a pale gold collar beside the stone and drew the drop chain rose-copper on the warm skin, so it is redone with a firmer line.
+E["MDC_5s2"] = ("MDC_5", SILVER_MDC.format(what="a close photograph of a woman wearing a gold choker necklace", keep=KEEP_MODEL).replace(
+   "Nothing else changes,", "ALL of the metal is the SAME cool white silver, like platinum, with NO gold, rose, pink or copper tint anywhere: the collar on BOTH sides of the stone, the claws, the whole drop chain and the settings of both pear stones, even where the metal lies against her warm skin. Nothing else changes,"))
+ASPECT = {k: "1:1" for k in ("MDC_2s", "MDC_4s", "MDC_5s", "MDC_Ls", "MDC_5s2")}
+
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(",") if len(sys.argv) > 2 else list(E); reqs, idx = [], {}
     for i, key in enumerate(keys):
         src, p, *extra = E[key]                                  # optional third item: further jobs.json keys, sent as IMAGE 2, 3...
-        reqs.append({"index": start + i, "params": {"model": "nano_banana_pro", "resolution": "2k", "aspect_ratio": "4:5", "prompt": p,
+        reqs.append({"index": start + i, "params": {"model": "nano_banana_pro", "resolution": "2k", "aspect_ratio": ASPECT.get(key, "4:5"), "prompt": p,
                      "medias": [{"value": J[k], "role": "image_references"} for k in [src] + (extra[0] if extra else [])]}})
         idx[start + i] = key
     json.dump(idx, open(f"{H}/idx_{start}.json", "w")); print(json.dumps(reqs, ensure_ascii=False))

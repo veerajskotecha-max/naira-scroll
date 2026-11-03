@@ -1,0 +1,4 @@
+mutation MarquiseDropSilver($id: ProductSetIdentifiers!, $p: ProductSetInput!, $pid: ID!, $tags: [String!]!) {
+  p: productSet(identifier: $id, input: $p, synchronous: true) { product { id handle status totalInventory options { name optionValues { name } } mediaCount { count } variants(first: 3) { nodes { id sku title price compareAtPrice inventoryQuantity } } } userErrors { field message code } }
+  t: tagsAdd(id: $pid, tags: $tags) { node { id } userErrors { field message } }
+}
