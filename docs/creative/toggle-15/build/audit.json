@@ -1,0 +1,41 @@
+{
+ "_about": "Clasp and chain audit of every existing Toggle Link Chain photo, the generated photo live on the product page, and the five Toggle ads live on Meta (4 Nov 2026). The photo audit was done by an independent checker against the three real listing photos at full zoom; the live ads were checked here. Pixel-level notes for each photo are kept in the session scratchpad (toggle15/audit/).",
+ "truth": {
+  "clasp": "A thick polished spring-gate ring with flat-cut collared ends at the top, a slimmer gate between them, and a small ball push-pin nub on a grooved collar at about 3 o'clock; the right chain joins it by a jump ring beside the gate. On the other chain end, a short pave piece with one row of tiny clear stones, hung from a small jump ring and passing through the ring.",
+  "open_question": "The worn and velvet listing photos show the pave piece as a straight single-row bar, and the description says 'toggle bar'. The cube listing photo shows it as an oval pave hoop threaded on the ring. The new ads draw the straight bar (two of three photos and the description); the owner is asked to check a physical piece.",
+  "proportions": "Judged against the real photos (bar about 0.6x the ring, links about 0.2x the ring wide), because 15 mm ring and 4 mm links cannot both be exact: the real ring reads about 17-20 mm against 4 mm links."
+ },
+ "photos": [
+  {"file": "performance/plates/toggle-link-chain-worn.jpg", "verdict": "pass", "note": "Clasp right in every part; neck and chest only. A grey wall strip at the top left is off-brand."},
+  {"file": "performance/plates/colour/51-toggle-link-chain.jpg", "verdict": "pass", "note": "Clasp right; the gold stationery clips are separate props ('Paperclip, promoted.')."},
+  {"file": "performance/plates/crazy3/02-toggle-link-chain-night.jpg", "verdict": "pass", "note": "Clasp right; the loop holds only about half a 50 cm chain, so no length claim with it."},
+  {"file": "colour-camps/ads/SAGE/SAGE-S1-toggle-link-chain-story-1080x1920.jpg", "verdict": "pass", "note": "Clasp right; green camp ground by design."},
+  {"file": "performance/plates/toggle-link-chain-quiet.jpg", "verdict": "minor", "note": "Clasp right in detail but about 1.3-1.5x large against the chain; not for showing size."},
+  {"file": "performance/plates/toggle-link-chain-silk.jpg", "verdict": "minor", "note": "A small gold spike under the bar; one edit."},
+  {"file": "performance/plates/crazy3/01-toggle-link-chain-day.jpg", "verdict": "minor", "note": "Push-pin nub on the top collar instead of at 3 o'clock; the right chain wraps the ring with no jump ring."},
+  {"file": "performance/ads/toggle-link-chain-crazy23-story.jpg", "verdict": "minor", "note": "Bar hung from its middle like a classic T-bar; two painted starburst glints; shows Rs 1,299."},
+  {"file": "performance/plates/toggle-link-chain-rhyme.jpg", "verdict": "fail", "note": "Bar about 40% too long; fixable with one edit."},
+  {"file": "diwali-10/plates/04-toggle-link-chain.jpg", "verdict": "fail", "note": "Bar about 1.7x too long with 11-12 stones; the chain end wraps the ring with no jump ring. Fixable with one edit."},
+  {"file": "ads-20 raw S1_05_toggle_chain_a.png (ad S1_05)", "verdict": "fail", "note": "The bar's face is silver-white with engraved glyphs instead of pave stones. Fixable with one edit; the ad should not run until then."},
+  {"file": "performance/plates/toggle-link-chain-play.jpg", "verdict": "fail", "note": "Pave hoop instead of the bar; chain drawn about 2x real against the door ring."},
+  {"file": "performance/plates/colour/01-toggle-link-chain.jpg", "verdict": "fail", "note": "Ring and bar both inline in the chain: a closure that cannot close."},
+  {"file": "frames/05-clasp-as-design.jpg", "verdict": "fail", "note": "Classic T-bar toggle: plain closed ring, long stoneless bar."},
+  {"file": "keep-it-on/07-sweat.jpg", "verdict": "fail", "note": "Plain ring, ball-ended stoneless rod bar, brassy metal, face visible."},
+  {"file": "night-shift/01-dictionary E4-toggle", "verdict": "fail", "note": "Plain closed ring, long stoneless rod bar, at macro size."},
+  {"file": "night-shift/03-the-clasp K1-toggle", "verdict": "fail", "note": "Plain ring, rod bar, an added tangle of cable links; its callout 'BAR · ABOUT 15MM' is wrong (the ring is 15 mm, the bar about 9 mm)."},
+  {"file": "worlds-and-hours D2-toggle-0730-20", "verdict": "fail", "note": "Both halves reuse the sweat and clasp-as-design photos."},
+  {"file": "Shopify product media hf_20261021_081238 (live, 3rd gallery image)", "verdict": "fail", "note": "Plain closed donut ring with no gate, collars or push-pin, though they would show at its size; a curved pave hoop several stones wide instead of the single-row bar. Needs replacing."}
+ ],
+ "live_meta_ads": {
+  "checked": "4 Nov 2026; the five Toggle ads in the VK statics ad sets, all ACTIVE",
+  "copy": "All five creatives say 'Toggle Link Chain · Rs 1,099' (Shopify: Rs 1,199), '18k gold tone, anti-tarnish', and 'with codes BUY2 and BUY3 at checkout' (the store applies the discount in the bag with no code).",
+  "ads": [
+   {"ad": "VK F04 (plate) Feed", "verdict": "fail", "note": "Plain closed ring with no gate or nub; straight pave bar."},
+   {"ad": "VK F09 (fork) Feed", "verdict": "fail", "note": "Plain closed ring; pave hoop; a fork prop on a grey-white ground."},
+   {"ad": "VK F11 (spool) Feed", "verdict": "fail", "note": "Spring ring with a nub, but the pave hoop is set with black and clear stones; the real stones are all clear."},
+   {"ad": "VK F17 (hook) Feed", "verdict": "minor", "note": "Spring ring with a nub and a straight single-row pave bar; the closest of the five."},
+   {"ad": "VK S3 Story", "verdict": "fail", "note": "Plain closed ring with no gate or nub."}
+  ],
+  "recommendation": "Pause F04, F09, F11 and S3; correct the price and wording on F17. Nothing has been changed on Meta: the owner decides."
+ }
+}
