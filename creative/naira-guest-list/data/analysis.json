@@ -1,0 +1,262 @@
+{
+ "competitors": [
+  {
+   "n": 1,
+   "brand": "Snitch",
+   "file": "06d08fdf",
+   "what": "Cross-strap sandals, 'JUST STEPPED IN STOCK.' with ₹1599 as the biggest element; caption 'New arrivals starting ₹1599'.",
+   "hook": 7,
+   "offer": 9,
+   "product": 8,
+   "brand_": 7,
+   "cta": 6,
+   "score": 7.4,
+   "note": "Price is the headline and a pun does the stopping. One product, one number, no code. The cleanest launch ad of the ten."
+  },
+  {
+   "n": 2,
+   "brand": "GIVA",
+   "file": "09713cc5",
+   "what": "Chat-bubble story ('Anniversary is in 3 days. Help.' / 'Ordered. You're a lifesaver.'), 'When in doubt, GIFT GIVA.', flat 20% off above ₹999, code BLING.",
+   "hook": 8,
+   "offer": 8,
+   "product": 5,
+   "brand_": 7,
+   "cta": 8,
+   "score": 7.3,
+   "note": "A real gifting insight told as a conversation. The product is a thumbnail inside the story, so the ad sells the brand as a solution, not a piece."
+  },
+  {
+   "n": 3,
+   "brand": "Lenskart",
+   "file": "2e8637a5",
+   "what": "Black acetate frames floating on a blue-grey gradient, 'Own Your Look'; caption carries the code SINGLE and 'designed to become your signature'.",
+   "hook": 5,
+   "offer": 6,
+   "product": 9,
+   "brand_": 8,
+   "cta": 5,
+   "score": 6.6,
+   "note": "Object as sculpture, three-word line. Beautiful and generic: the line could sit on any frame, and the offer lives only in the caption."
+  },
+  {
+   "n": 4,
+   "brand": "Palmonas",
+   "file": "35474260",
+   "what": "'The Man of Style Sale', men's collection at FLAT ₹1111, chain, rings and bracelet stacked on a man in a cream tee.",
+   "hook": 6,
+   "offer": 8,
+   "product": 7,
+   "brand_": 7,
+   "cta": 7,
+   "score": 7.0,
+   "note": "A flat price does the work and the stack shows how to wear it. Nothing says which piece is ₹1111, so the click goes to a sale page, not a product."
+  },
+  {
+   "n": 5,
+   "brand": "GIVA",
+   "file": "61798376",
+   "what": "'Silver rings you'll wear on repeat', four rings on maroon, FLAT 15% OFF on ₹999, code NEW15.",
+   "hook": 6,
+   "offer": 8,
+   "product": 8,
+   "brand_": 7,
+   "cta": 7,
+   "score": 7.2,
+   "note": "A four-ring catalogue with a clear code. The headline says silver while the rings are gold-tone, which is the kind of material muddle Naira's one-fact sub-line avoids."
+  },
+  {
+   "n": 6,
+   "brand": "GIVA",
+   "file": "8fd1c3bd",
+   "what": "'Gift receipt? SHE'S KEEPING IT.' A mock receipt (Her reaction: Priceless, Total: Worth it) beside the box and bracelet; 20% off above ₹999, code BLING.",
+   "hook": 9,
+   "offer": 8,
+   "product": 6,
+   "brand_": 8,
+   "cta": 7,
+   "score": 7.6,
+   "note": "The best of the ten: wit, a gifting insight and the offer mechanics in one visual device. The receipt is a proof prop, which is why the Guest List trio card shows its maths."
+  },
+  {
+   "n": 7,
+   "brand": "GIVA",
+   "file": "91ce68a9",
+   "what": "Split frame: bracelet on a wrist and the same bracelet flat on silk; FLAT 15% OFF on your first purchase, code NEW15.",
+   "hook": 4,
+   "offer": 7,
+   "product": 8,
+   "brand_": 6,
+   "cta": 6,
+   "score": 6.2,
+   "note": "No line at all, the picture carries it. The worn-plus-flat split answers the scale question, which Naira's story cards also do with the piece on skin."
+  },
+  {
+   "n": 8,
+   "brand": "Palmonas",
+   "file": "e16083f9",
+   "what": "'THE SILVER40 SALE · Every woman has a story, some are simply told in silver', a silver-haired model, hand on cheek, earring, ring and pendant; extra 40% off with SILVER40.",
+   "hook": 6,
+   "offer": 9,
+   "product": 6,
+   "brand_": 8,
+   "cta": 7,
+   "score": 7.2,
+   "note": "The casting is the idea: an older woman in a category that never shows one. The offer is the loudest thing in the frame; the three pieces are small."
+  },
+  {
+   "n": 9,
+   "brand": "Palmonas",
+   "file": "fe4b6fa8",
+   "what": "Same SILVER40 sale, a laughing curly-haired model in cream with a silver necklace.",
+   "hook": 5,
+   "offer": 9,
+   "product": 6,
+   "brand_": 7,
+   "cta": 7,
+   "score": 6.8,
+   "note": "Joy as the image, discount as the message. Pleasant, forgettable; the necklace is the smallest thing in the picture."
+  },
+  {
+   "n": 10,
+   "brand": "Lenskart",
+   "file": "ff759a99",
+   "what": "Black frames on an amber gradient, 'Crafted Boldly'; same caption with code SINGLE and 'crafted frames'.",
+   "hook": 5,
+   "offer": 6,
+   "product": 9,
+   "brand_": 8,
+   "cta": 5,
+   "score": 6.6,
+   "note": "A product shot good enough to be a poster, and a line that says nothing. The craft claim is a word, not a fact."
+  }
+ ],
+ "patterns": [
+  "Nine of ten lead with a discount code and a minimum basket (GIVA: BLING 20% off above ₹999, NEW15; Palmonas: SILVER40 extra 40%, FLAT ₹1111). Nobody argues price without a code, so an honest price with Buy 2 / Buy 3 reads as a different kind of brand.",
+  "Not one of the ten states a material fact: no karat, no plating, no waterproof claim. GIVA even calls gold-tone rings silver. One fact per card is open ground.",
+  "Not one uses the calendar. No occasion, no function, no dress code. The wedding-season itinerary is unclaimed.",
+  "GIVA's best work is wit built on a gifting insight (the receipt, the chat). Palmonas sells with casting. Lenskart sells the object as sculpture. Snitch makes the price the headline. The Guest List borrows all four: wit, a face, the object, the price.",
+  "Captions: GIVA writes the offer first ('20% OFF on purchases above ₹999 | Code BLING') and pads with emojis; Palmonas writes motivation ('style isn't about following trends, it's about confidence'). Naira's captions name the function, one piece with its price and one fact, then the offer in plain words, with no emojis and no exclamation marks."
+ ],
+ "twenty": [
+  [
+   "Greener than the mehendi.",
+   8.2,
+   "highest of the twenty; kept as the opening Desire card"
+  ],
+  [
+   "The ₹799 pair (Brushed Gold Huggies)",
+   8.2,
+   "best entry-price hook; kept as the Inform card"
+  ],
+  [
+   "Layered for the sangeet",
+   8.18,
+   "kept the sangeet slot, moved to the deepest-stocked bracelet"
+  ],
+  [
+   "Haldi. Dress code: yellow.",
+   8.07,
+   "strongest thumb-stop; kept with the Woven Gold Hoops"
+  ],
+  [
+   "The ring hand (Cushion Halo)",
+   8.05,
+   "judge asked for a headline: 'Fits every finger at the table.'"
+  ],
+  [
+   "Any three pieces, 20% off.",
+   8.03,
+   "strongest offer card; now shows the maths"
+  ],
+  [
+   "The gift box",
+   7.88,
+   "marked down for not showing the box; the RSVP card shows it"
+  ]
+ ],
+ "meta": {
+  "totals": "100 ads read on 4 November 2026: ₹3.29 lakh spent, 211 purchases, ₹3.34 lakh of sales, blended ROAS 1.02 and ₹1,558 per purchase. The account only pays when it runs catalogue creative at current prices or saturated 9:16 stills.",
+  "winners": [
+   [
+    "Bestsellers catalogue · set 2 · every colour",
+    "4.54%",
+    "2.72",
+    "₹454",
+    "₹14,982"
+   ],
+   [
+    "Catalogue Edition Two · carousel · 31 pieces",
+    "3.69%",
+    "2.60",
+    "₹493",
+    "₹20,230"
+   ],
+   [
+    "Edition Two fruit plate · ruby anaar · Stories 9:16",
+    "4.03%",
+    "2.27",
+    "₹599",
+    "₹14,378"
+   ],
+   [
+    "VK statics · Prism Cluster Studs (rainbow) · Feed",
+    "3.21%",
+    "2.38",
+    "₹664",
+    "₹1,993"
+   ],
+   [
+    "New 12 · catalogue carousel · current price",
+    "2.58%",
+    "1.42",
+    "₹520",
+    "₹7,800"
+   ],
+   [
+    "VK statics · Prism Rivière Bracelet (close) · Story",
+    "3.09%",
+    "0 purchases",
+    "–",
+    "₹2,441"
+   ]
+  ],
+  "losers": [
+   [
+    "Pankti collab reel",
+    "2.90%",
+    "0.79",
+    "₹3,523",
+    "₹28,182"
+   ],
+   [
+    "Clean Metro Prospecting (28 Aug)",
+    "1.54%",
+    "0.63",
+    "₹3,078",
+    "₹46,168"
+   ],
+   [
+    "Statics + Riya collab reel · ₹1,000/day",
+    "2.19%",
+    "0.64",
+    "₹3,344",
+    "₹26,750"
+   ],
+   [
+    "'one winner' copies",
+    "2.51%",
+    "1.25",
+    "₹1,948",
+    "₹25,327"
+   ]
+  ],
+  "lessons": [
+   "Catalogue grids and carousels at the current price are the only format with a cost per purchase under ₹520. The Guest List opens with one and closes with one.",
+   "Saturated 9:16 stills (the fruit plates) take the highest link CTR in the account at 4%. Every Desire card has a saturated story file.",
+   "The prism and rainbow pieces have the highest CTR of any static (3.1 to 3.2%), so the Prism Rivière Bracelet carries the sangeet card with the brand's prism still life.",
+   "Influencer reels and broad prospecting without a catalogue burn ₹3,000 or more per purchase. None of that is in this plan.",
+   "Warm audiences have never had their own ad set. The Warm set runs the trio, the RSVP card and two Desire cards at ₹300/day with a frequency cap."
+  ]
+ }
+}
