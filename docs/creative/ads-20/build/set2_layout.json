@@ -1,0 +1,127 @@
+{
+ "_about": "Set 2 layouts: GIVA's grammar (a two-line serif line with wit, set large at the top on the photo's own clear wall) over Set 1's product tag at the bottom (wordmark, name, price, a note, the buy-more chip). Ink type on light grounds. Where the photo has no clear top (the marquise frame: lips at the top, the Y-drop low), the line moves into the block on the Feed and the Story keeps a compact tag clear of the drop. Prices are the live Shopify prices on 4 Nov 2026.",
+ "ads": [
+  {
+   "key": "S2_06_verdant_band_mehendi",
+   "photo": "raw/S2_06_verdant_band_mehendi_a.png",
+   "line": "Greener than<br>the mehendi.",
+   "line_at": "top",
+   "ttheme": "light",
+   "theme": "light",
+   "name": "Verdant Eternity Band",
+   "price": "₹1,099",
+   "note": "Adjustable, fits US 5 to 9",
+   "cy": {
+    "feed": 0.52,
+    "story": 0.5
+   },
+   "fa": 0.5,
+   "fb": 0.22,
+   "story": {
+    "logo_at": "top",
+    "chip_at": "top",
+    "note": "",
+    "tly": 372
+   },
+   "feed": {
+    "logo_at": "top",
+    "tly": 128,
+    "ths": 80
+   }
+  },
+  {
+   "key": "S2_07_huggies_gajra",
+   "photo": "raw/S2_07_huggies_gajra_c.png",
+   "line": "The gajra's plus-one.",
+   "theme": "light",
+   "name": "Baguette Huggies",
+   "price": "₹1,199",
+   "cy": {
+    "feed": 0.55,
+    "story": 0.5
+   },
+   "hs": 62,
+   "hgap": 16,
+   "fa": 0.8,
+   "fb": 0.42,
+   "story": {
+    "hs": 70
+   },
+   "align": "right",
+   "src": {
+    "feed": [
+     0.18,
+     0.14,
+     1.0,
+     0.86
+    ]
+   },
+   "cx": {
+    "feed": 0.6,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S2_08_kiss_knot_gift",
+   "photo": "raw/S2_08_kiss_knot_gift_b.png",
+   "line": "For the one<br>tying the knot.",
+   "line_at": "top",
+   "ttheme": "light",
+   "theme": "dark",
+   "name": "Kiss Knot Bangle",
+   "price": "₹1,199",
+   "note": "In gold or silver tone",
+   "cy": {
+    "feed": 0.45,
+    "story": 0.5
+   },
+   "feed": {
+    "logo_at": "top",
+    "tly": 122,
+    "ths": 72,
+    "cgap": 18
+   },
+   "fa": 0.72,
+   "fb": 0.32,
+   "story": {
+    "logo_at": "none"
+   }
+  },
+  {
+   "key": "S2_09_marquise_layers_sangeet",
+   "photo": "raw/S2_09_marquise_layers_sangeet_b.png",
+   "line": "Layered for the sangeet.",
+   "name": "Marquise Layering Set",
+   "price": "₹1,599",
+   "hs": 62,
+   "hgap": 16,
+   "story": {
+    "hs": 70
+   },
+   "cy": {
+    "feed": 0.5,
+    "story": 0.5
+   },
+   "fa": 0.62,
+   "fb": 0.28
+  },
+  {
+   "key": "S2_10_verdant_studs_banarasi",
+   "photo": "raw/S2_10_verdant_studs_banarasi_c.png",
+   "line": "Matches the Banarasi.",
+   "name": "Verdant Circlet Studs",
+   "price": "₹1,099",
+   "cy": {
+    "feed": 0.6,
+    "story": 0.5
+   },
+   "hs": 62,
+   "hgap": 16,
+   "fa": 0.86,
+   "fb": 0.5,
+   "story": {
+    "hs": 70
+   }
+  }
+ ]
+}

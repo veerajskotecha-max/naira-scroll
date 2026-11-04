@@ -1,0 +1,65 @@
+{
+ "_about": "Set 1 of 4 (4 Nov 2026): the Palmonas-grade 'Naira studio on skin' series. One warm rosewood backdrop, soft key + hard kicker, tight beauty crops cut at the lips, one piece per frame at its measured size, a different Indian skin tone in each. Generated 9:16 so one photo gives the Story and the 4:5 Feed crop. Prompts follow the imagegenerationnaira skill: shot, fidelity lock, scale, scene, light, negatives.",
+ "common": {
+  "model": "nano_banana_pro",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "scene": "Behind her, a plain seamless studio backdrop of deep warm rosewood brown, smooth and matte, darkening to near-black towards the bottom of the frame. Vertical 9:16 frame: the subject fills the middle of the frame, with plain backdrop above her and the lowest third of the frame falling into soft dark shadow with nothing in it.",
+  "light": "Light: one large soft warm key light from high on the left that wraps the skin in a gentle gradient, plus one small hard specular kicker from the right that puts crisp white points of light on the metal and fire in every stone. Rich tonal contrast; the jewellery is the brightest and sharpest thing in the frame. Shot on a 100mm macro portrait lens at f/4: the piece is needle-sharp and the skin falls softly out of focus away from it. Warm, quiet, expensive, a luxury jewellery house campaign.",
+  "neg": "No text, no letters, no logo, no watermark. No other jewellery anywhere on her: no rings, bangles, earrings or chains other than the one piece. No eyes in frame. Never enlarge the piece; it must look small and true to life on her body. No plastic skin, no CGI look, no blur on the piece."
+ },
+ "ads": [
+  {
+   "key": "S1_01_ruby_necklace",
+   "handle": "baguette-tennis-necklace",
+   "variant": "Ruby",
+   "ref": "0f498f2b-21df-4483-a6df-ea6eb926b256",
+   "shot": "A luxury jewellery campaign photograph: a tight beauty crop of an Indian woman from her lips down to just below her collarbones, her chin lifted a little and turned slightly to her left, the fingertips of one bare hand resting lightly on her collarbone below the necklace.",
+   "lock": "She wears the necklace from reference 1, reproduced exactly: a dainty, fine tennis choker; identical 18k gold tone claws, identical single row of small rectangular ruby-red baguette cut cubic zirconia set crosswise side by side, each baguette only 6mm long and 3mm wide, identical box clasp, same deep ruby colour. Do not redesign, restyle, resize or add anything to the piece; the stones must stay small crosswise baguettes in one single fine row, never long bars, never round stones, never a double row, never a wide collar.",
+   "scale": "CRITICAL SCALE: it is a 36cm choker sitting close at the base of her neck, a fine line of colour, not a collar: the whole line is only 6mm wide, about the width of a pencil, and the neck shows wide above and below it; each baguette is about the size of a grain of rice. A soft contact shadow lies under the line where it rests on her skin.",
+   "skin": "Her skin is a deep, rich brown, glowing and real, with fine pores and a soft natural sheen; minimal makeup; short almond nails in a sheer nude polish; thin black silk camisole straps on her shoulders.",
+   "redo_b": "first try: baguettes long and chunky, the line read as a 12mm collar",
+   "edit_c": "frame b edited after the independent judge read the line as ~1.5x chunky: the baguettes ~30% finer, everything else kept"
+  },
+  {
+   "key": "S1_02_woven_hoops",
+   "handle": "woven-gold-hoops",
+   "ref": "8b8d8de5-a676-4161-b93c-b977aa0fe082",
+   "shot": "A luxury jewellery campaign photograph: a tight beauty crop of an Indian woman's ear, jaw and neck in three-quarter profile, her dark hair swept back into a smooth low bun, the tip of her nose and her lips at the edge of the frame, her fingertips lightly touching the back of her neck.",
+   "lock": "She wears one hoop from reference 1 on the visible ear, reproduced exactly: identical 18k gold tone, identical thick braided rope of several gold strands with raised ridge-and-shadow texture, identical 25mm diameter, zero stones, same hinged hoop shape. Do not redesign, restyle, resize or add anything to the piece; the surface must stay a distinct braided rope of several strands, never smooth out into a plain tube.",
+   "scale": "CRITICAL SCALE: the hoop is 25mm across, about the size of a one-rupee coin; it hangs from the earlobe and its lowest point sits well above the line of the jaw, never larger. A soft contact shadow where it touches the skin of the neck.",
+   "skin": "Her skin is a medium wheatish olive, glowing and real, with fine pores, fine baby hairs at the hairline and a soft natural sheen; minimal makeup; short almond nails in a sheer nude polish; a bare shoulder.",
+   "edit_c": "frame a edited (job a as the reference): hoop ~20% smaller, everything else kept; measured 0.59 of the ear's height (~34mm) before, 0.45 (~25.6mm) after (listing 25mm)"
+  },
+  {
+   "key": "S1_03_prism_riviere",
+   "handle": "prism-riviere-bracelet",
+   "ref": "0be75b6e-d47c-4bdf-a8b7-feb1604eecbb",
+   "shot": "A luxury jewellery campaign photograph: a tight beauty crop of an Indian woman's bare shoulders, collarbones and chin, her left arm raised across her body so that hand rests lightly on her right shoulder and the wrist with the bracelet sits in front of her collarbone, turned towards the camera; only that one hand is in the frame, her other arm relaxed at her side and out of frame.",
+   "lock": "She wears the bracelet from reference 1 on that wrist, reproduced exactly: identical silver tone rhodium metal, identical single continuous row of 5mm cushion cut pastel cubic zirconia, each stone framed by its own fine pave halo, identical repeating colour order of aqua blue, soft pink and pale yellow, identical fold-over clasp. Do not redesign, restyle, resize or add anything to the piece; exactly those 3 colours, never a fourth such as lilac, and always one single row.",
+   "scale": "CRITICAL SCALE: an 18cm bracelet sitting snugly around a slim wrist; each stone is about 5mm, smaller than the nail of her little finger, and the whole line is narrower than her little finger. A soft contact shadow where the bracelet rests on her skin.",
+   "skin": "Her skin is a light warm wheatish tone, glowing and real, with fine pores and a soft natural sheen; minimal makeup; short almond nails in a sheer pale pink polish.",
+   "redo_c": "first try: a second, lower hand with no traceable arm (independent judge, 4 Nov); one hand only"
+  },
+  {
+   "key": "S1_04_cushion_halo_ring",
+   "handle": "cushion-halo-ring",
+   "ref": "b1795652-6954-4833-8c9d-6cf1a85080b7",
+   "shot": "A luxury jewellery campaign photograph: a tight beauty crop of an Indian woman's hand raised to her face, the backs of her fingers resting softly against her jaw and cheek, her lips and the tip of her nose in frame, the ring on her ring finger turned towards the camera.",
+   "lock": "She wears the ring from reference 1 on her ring finger, reproduced exactly: identical silver tone rhodium metal, identical 8mm round brilliant clear cubic zirconia held in four claws, identical cushion-shaped single-row pave halo of about 12mm, identical pave down both shoulders. Do not redesign, restyle, resize or add anything to the piece; the halo must stay cushion shaped and one single row, never a round halo, never two rows.",
+   "scale": "CRITICAL SCALE: the head of the ring is 12mm across, clearly narrower than her finger, with skin showing on both sides of the halo; the centre stone is 8mm, about the size of a peppercorn. A small soft contact shadow where the ring sits on the finger. The sparkle is only tiny natural specular points on the facets: no star-shaped glints, no starburst, no lens flare, no added sparkle effects.",
+   "skin": "Her skin is a dusky medium brown, glowing and real, with fine pores and a soft natural sheen on the knuckles; minimal makeup; short almond nails in a sheer nude polish; a black knit sleeve at the wrist.",
+   "redo_b": "first try: ring head about 1.3x too big and cartoon star glints",
+   "edit_c": "frame b edited after the judge read the head as ~16mm: the head ~20% smaller, now clearly inside the finger's width"
+  },
+  {
+   "key": "S1_05_toggle_chain",
+   "handle": "toggle-link-chain",
+   "ref": "b220904b-e682-40da-8713-c1699d61af73",
+   "shot": "A luxury jewellery campaign photograph: a tight beauty crop of an Indian woman from her lips down to her upper chest, the open collar of a crisp white linen shirt falling back from her collarbones, her head turned slightly.",
+   "lock": "She wears the necklace from reference 1, reproduced exactly: identical 18k gold tone, identical 4mm wide chain of elongated oval cable links, identical gold toggle bar and plain ring clasp of about 15mm worn at the front centre, zero stones. Do not redesign, restyle, resize or add anything to the piece; the closure must stay a toggle bar through a plain round ring, never a lobster clasp and never a pendant.",
+   "scale": "CRITICAL SCALE: the chain is 50cm long, so the ring clasp falls just below the hollow between her collarbones; the ring is about 15mm, the size of a fingertip, and the chain is 4mm wide, a little narrower than a pencil. A soft contact shadow under the chain on her skin.",
+   "skin": "Her skin is a warm medium tan, glowing and real, with fine pores and a soft natural sheen; minimal makeup."
+  }
+ ]
+}

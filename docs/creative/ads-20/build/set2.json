@@ -1,0 +1,77 @@
+{
+ "_about": "Set 2 of 4 (4 Nov 2026): GIVA's grammar (an Indian ritual, hands, a two-line serif line with wit) put on the season that follows Diwali: weddings. Bright warm daylight sets, one festive colour per frame, Set 1's craft rules kept: one piece per frame at its measured size, no starburst glints, the face cropped, a clear band left for type. Type is ink on a light ground (render theme 'light'), the line at the top under the wordmark.",
+ "common": {
+  "model": "nano_banana_pro",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "scene": "The top quarter of the frame is a plain warm ivory wall in soft focus with nothing in it, left clear for type; the bottom sixth of the frame is the same soft ivory, also empty. Vertical 9:16 frame, the subject in the middle.",
+  "light": "Light: bright, soft warm daylight from a large window on the left, diffused, with a gentle natural shadow, plus one small hard specular kicker from the right that puts crisp white points of light on the metal and natural fire in the stones. The sparkle is only tiny natural specular points: no star-shaped glints, no starburst, no lens flare. The jewellery is the sharpest thing in the frame. Shot on a 100mm macro lens at f/4, the piece needle-sharp, the background falling softly out of focus. Fresh, festive, editorial, a luxury jewellery house campaign for the Indian wedding season.",
+  "neg": "No text, no letters, no logo, no watermark. No other jewellery anywhere on her except the one piece. No eyes in frame. Never enlarge the piece; it must look small and true to life on her body. No plastic skin, no CGI look."
+ },
+ "ads": [
+  {
+   "key": "S2_06_verdant_band_mehendi",
+   "handle": "verdant-eternity-band",
+   "line": "Greener than<br>the mehendi.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/verdant-eternity-band-1.jpg?v=1787277727",
+   "shot": "A luxury jewellery campaign photograph: a close crop of an Indian woman's hand resting on a folded silk saree in deep marigold yellow, the back of her hand and her fingers covered in fresh, fine wedding mehendi patterns in deep rust brown, the ring on her ring finger turned towards the camera; only the hand, the wrist and the silk in frame.",
+   "lock": "She wears the ring from reference 1, reproduced exactly: identical silver tone rhodium metal, identical oval emerald-green cubic zirconia of 5mm by 4mm claw set all the way round the band, identical scalloped pave settings of small clear stones between the green stones. Do not redesign, restyle, resize or add anything to the piece; the settings between the green stones must stay scalloped and set with small clear stones, never plain metal links; the metal stays cool silver tone, never gold. The mehendi stops at the edges of the ring and never runs over it.",
+   "scale": "CRITICAL SCALE: a slim eternity band about 4mm tall on the finger, narrower than the space between two knuckles; each green stone is about the size of a grain of rice. A small soft contact shadow where the ring sits on the finger.",
+   "skin": "Her skin is a warm medium brown, real, with fine pores and natural knuckle creases; short almond nails in a sheer nude polish; the mehendi is fine, crisp and hand-drawn, a real paste stain, not printed.",
+   "ref": "3f02e7a6-687d-41fb-8aea-6f97c3dc12bc"
+  },
+  {
+   "key": "S2_07_huggies_gajra",
+   "handle": "baguette-huggies",
+   "variant": "Crystal",
+   "line": "The gajra's<br>plus-one.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/151d0f0a-6c0b-4873-abb8-598755e393d1.jpg?v=1792193136",
+   "shot": "A luxury jewellery campaign photograph: a close crop of an Indian woman's ear, jaw and neck seen from behind in three-quarter profile, her dark hair in a sleek low bun wrapped with a fresh white jasmine gajra, thick strings of jasmine buds circling the bun, one huggie on her earlobe; the jaw and neck in frame, eyes out of frame.",
+   "lock": "She wears one huggie from reference 1 on the visible earlobe, reproduced exactly: identical 18k gold tone hinged huggie hoop, identical single row of clear crystal baguette cut cubic zirconia standing crosswise along the lower front, identical plain polished gold upper half. Do not redesign, restyle, resize or add anything to the piece; the baguettes stay only along the lower front in one row, never all the way round and never round stones.",
+   "scale": "CRITICAL SCALE: the huggie is small, only 15mm across, about the size of her fingernail; it hugs tight to the earlobe and its lowest point sits only a few millimetres below the bottom of the lobe; the whole hoop is shorter than the earlobe is tall and less than a quarter of the height of the ear, never larger. The hinged closure is hidden behind the lobe. A soft contact shadow where it touches the skin.",
+   "skin": "Her skin is a light warm wheatish tone, real, with fine pores and fine baby hairs at the nape; minimal makeup; the jasmine fresh, white and slightly translucent at the petal tips.",
+   "ref": "20c80746-768a-4ab9-a95a-ab996673e083",
+   "redo_b": "first try: the hoop measured about 22mm against the ear, 1.45x the 15mm listing size",
+   "edit_c": "frame b edited (job b as the reference): huggie ~25% smaller, everything else kept; measured ~16mm against the ear (listing 15mm)"
+  },
+  {
+   "key": "S2_08_kiss_knot_gift",
+   "handle": "kiss-knot-bangle",
+   "variant": "Gold",
+   "line": "For the one<br>tying the knot.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/34e7babc-ac3e-4b6b-af9d-bfd865e04acb.jpg?v=1792192531",
+   "shot": "A luxury jewellery campaign photograph: a close crop of an Indian woman's relaxed hand and wrist resting across the lid of a small square blush-pink gift box tied with a thin satin ribbon, the back of her wrist towards the camera so the bangle's X sits on top, the box on a deep red Banarasi silk with a fine gold zari border; only her hand, wrist and forearm, the box and the silk in frame.",
+   "lock": "She wears the bangle from reference 1 on that wrist, reproduced exactly: identical 18k gold tone, identical flexible finely ribbed snake-coil bangle about 5mm thick, identical two ends crossing on top of the wrist under one smooth polished gold X of about 10mm. Do not redesign, restyle, resize or add anything to the piece; the coil stays finely ribbed and round in section, never flat, never a plain smooth bangle, and the ends stay crossed under one X, never a single closed loop.",
+   "scale": "CRITICAL SCALE: the bangle is only 5mm thick, about the thickness of a pencil, and sits loosely around a slim wrist; the polished X is about 10mm across, smaller than her thumbnail. The gift box is small, about 9cm square. A soft contact shadow where the bangle rests on her skin.",
+   "skin": "Her skin is a deep brown, real, with fine pores and natural creases at the wrist; short almond nails in a sheer nude polish.",
+   "ref": "4e3db97b-347b-4e67-a01a-e62079f6f011",
+   "scene": "The photograph fills the whole 9:16 frame edge to edge, with no borders, no frame and no flat bands of colour. The top quarter is the softly out-of-focus warm ivory plaster wall behind her, lit by window light, left clear for type; the bottom sixth is the red silk falling softly out of focus. Vertical 9:16 frame, the subject in the middle.",
+   "redo_b": "first try: flat ivory bands top and bottom (a letterboxed frame) and the hand pressing the box like a button"
+  },
+  {
+   "key": "S2_09_marquise_layers_sangeet",
+   "handle": "marquise-layering-set",
+   "line": "Layered for<br>the sangeet.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/hf_20261021_080921_745509e2-2c90-4129-8162-4360d0e7ce75.png?v=1792570563",
+   "shot": "A luxury jewellery campaign photograph: a crop of an Indian woman from her chin down to her waist, a deep magenta silk sangeet blouse with a fine gold zari border at a scoop neckline, a sheer magenta dupatta over one shoulder, both necklaces from the set worn together on her bare skin above the neckline.",
+   "lock": "She wears both necklaces from reference 1 at once, reproduced exactly as 2 separate pieces: identical 18k gold tone; the shorter a fine 1.2mm cable chain of 40cm holding a single marquise cut clear cubic zirconia of about 13mm at the base of the throat; the longer a 45cm Y-lariat with small marquise stations and a single drop of about 9cm falling just below the first. Do not redesign, restyle, resize, merge or add anything to the pieces; the longer chain must stay a Y with one vertical drop, and the two necklaces stay 2 distinct fine chains.",
+   "scale": "CRITICAL SCALE: both chains are very fine, 1.2mm, about the thickness of a thread of zari; the single marquise is 13mm long, about the length of her thumbnail; the Y-drop is 9cm, ending above the neckline of the blouse. Soft contact shadows under the fine chains on her skin.",
+   "skin": "Her skin is a warm medium tan, real, with fine pores and a smooth natural texture, no goosebumps; minimal makeup.",
+   "scene": "Behind her, a warm deep plum backdrop in soft focus. The lower half of the frame is the saturated magenta silk of the blouse, plain, with nothing in it. Vertical 9:16 frame, the subject in the middle.",
+   "ref": "798f754f-3c85-430b-9809-2e7819057b4b",
+   "redo_b": "first try: pink blouse on a pink set (a weak thumb-stop) and a goosebump-like skin texture (independent judge, 4 Nov); now one saturated colour, magenta, behind the gold"
+  },
+  {
+   "key": "S2_10_verdant_studs_banarasi",
+   "handle": "verdant-circlet-studs",
+   "line": "Matches<br>the Banarasi.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/verdant-circlet-studs-0_45d95fdc-6489-4cc0-b2ee-a407149df50e.jpg?v=1787524534",
+   "shot": "A luxury jewellery campaign photograph: a close crop of an Indian woman's ear, jaw and shoulder in profile, the edge of a deep emerald-green Banarasi silk blouse with a fine gold zari border on her shoulder, her dark hair tucked behind the ear and pinned up, one stud on her earlobe; the jaw, ear and shoulder in frame, eyes out of frame.",
+   "lock": "She wears one stud from reference 1 on the visible earlobe, reproduced exactly: identical 18k gold tone, identical cushion cut emerald-green cubic zirconia of 10mm set over an open circlet of small clear cubic zirconia and gold points, identical white shell pearl of 6mm resting inside the circlet, identical 16.8mm total height, the same three-part structure. Do not redesign, restyle, resize or add anything to the piece; the pearl nested inside the circlet must stay visible, never dropped or hidden behind the green stone.",
+   "scale": "CRITICAL SCALE: the whole stud is 16.8mm tall, about the length of her fingertip, sitting on the lobe and never reaching the jaw; the green stone is 10mm, the pearl 6mm. A soft contact shadow where it touches the skin.",
+   "skin": "Her skin is a dusky medium brown, real, with fine pores and a soft natural sheen; minimal makeup.",
+   "ref": "9db15016-7574-4d63-98f9-c5420a611162",
+   "edit_c": "frame a edited (job a as the reference): stud ~25% smaller, everything else kept; first frame measured ~23mm tall against the ear, the edit ~18mm (listing 16.8mm)"
+  }
+ ]
+}

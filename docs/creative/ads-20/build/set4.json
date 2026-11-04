@@ -1,0 +1,77 @@
+{
+ "_about": "Set 4 of 4 (4 Nov 2026): the best-of set, built on the independent judge's lessons from round 1: (1) Set 2's formula wins: one Indian wedding-season moment, one witty line, the piece at its true size, the price and the bundle chip; (2) every frame checked against the product page with the ear, finger or neck as a ruler, rejected above ~1.2x; (3) one saturated colour behind the piece for the thumb-stop, never pink on pink or cream on cream; (4) four type lines at most (line, name, price, chip) under the wordmark; (5) the photo is composed for the Story first: the piece in the upper half, the lowest 40% plain saturated cloth for the type, every hand counted and every arm traceable. Products: the proven Prism Cluster Studs (2.38x ROAS in October) and four high-stock pieces not yet in Sets 1-3.",
+ "common": {
+  "model": "nano_banana_pro",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "light": "Light: one large soft warm key light from high on the left that wraps the skin in a gentle gradient, plus one small hard specular kicker from the right that puts crisp white points of light on the metal and natural fire in the stones. The sparkle is only tiny natural specular points: no star-shaped glints, no starburst, no lens flare. Rich, saturated colour and tonal contrast; the jewellery is the brightest and sharpest thing in the frame. Shot on a 100mm macro portrait lens at f/4, the piece needle-sharp and the background falling softly out of focus. Festive, editorial, a luxury jewellery house campaign for the Indian wedding season.",
+  "neg": "No text, no letters, no logo, no watermark. No other jewellery anywhere on her except the one piece. No eyes in frame. Never enlarge the piece; it must look small and true to life on her body. Real skin with fine pores and a smooth natural texture, no goosebumps, no plastic skin, no CGI look."
+ },
+ "ads": [
+  {
+   "key": "S4_16_prism_cluster_teal",
+   "handle": "prism-cluster-studs-silver",
+   "line": "Three colours.<br>Zero outfit drama.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/E15838C1_1.jpg?v=1789762799",
+   "ref": "bc53e0b2-4d41-49c9-92bc-ef0ee8c49611",
+   "shot": "A luxury jewellery campaign photograph: a close crop of an Indian woman's ear, jaw and neck in three-quarter profile, her dark hair in a sleek low bun, a deep peacock-teal silk blouse with a fine gold zari edge at her shoulder; one stud on the visible earlobe, the ear in the upper half of the frame.",
+   "lock": "She wears one stud from reference 1 on the visible earlobe, reproduced exactly: identical bright silver tone rhodium metal, identical gentle curved row of five stones: a purple princess cut, a pink baguette, a yellow emerald cut at the centre, then purple and pink again, with tiny round white pearls tucked into the gaps. Do not redesign, restyle, resize or add anything to the piece; the stones stay one curved row of five in exactly those three colours, never a round cluster and never another colour.",
+   "scale": "CRITICAL SCALE: the whole curved row is only 20mm long, following the edge of the earlobe, and the yellow centre stone is 6mm, about the size of a peppercorn; the stud is drawn at its true small size, far less than half the height of her ear, and never reaches the jaw. A soft contact shadow where it touches the skin.",
+   "skin": "Her skin is a warm medium brown, glowing and real; minimal makeup.",
+   "scene": "Behind her, a deep peacock-teal backdrop in soft focus, one saturated colour. The lowest 40% of the frame is the teal silk of her blouse at the shoulder and back, plain, with nothing in it. Vertical 9:16 frame."
+  },
+  {
+   "key": "S4_17_marquise_choker_haldi",
+   "handle": "marquise-drop-choker",
+   "variant": "Gold",
+   "line": "Yellow is<br>the dress code.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/marquise-drop-choker_2_worn.jpg?v=1792711535",
+   "ref": "9cd8d209-5d27-4247-9d1d-c7f3f92b26d7",
+   "shot": "A luxury jewellery campaign photograph: a tight beauty crop of an Indian woman from her lips down to her chest, a bright haldi-yellow cotton kurta with a deep round neckline, two loose marigold petals resting on her shoulder; the choker at the base of her neck in the upper half of the frame.",
+   "lock": "She wears the choker from reference 1, reproduced exactly: identical 18k gold tone ribbed round snake collar about 2mm thick sitting close at the base of the throat, identical single marquise cut clear cubic zirconia of about 12.3mm set sideways at the front in claws, identical fine chain drop of about 6cm falling from it with one small pear stone halfway and another at the end. Do not redesign, restyle, resize or add anything to the piece; the collar stays a fine ribbed round snake chain, never flat and never wide, the marquise stays sideways, and the drop stays one fine chain with two small pear stones.",
+   "scale": "CRITICAL SCALE: the collar is only 2mm thick, about as thick as a strand of spaghetti; the marquise is 12.3mm, about the length of her thumbnail; the drop is 6cm and ends well above the neckline of the kurta. Soft contact shadows under the collar and the chain on her skin.",
+   "skin": "Her skin is a deep, rich brown, glowing and real; minimal makeup.",
+   "scene": "Behind her, a plain warm haldi-yellow wall in soft focus, one saturated colour. The lowest 40% of the frame is the plain yellow kurta, with nothing in it. Vertical 9:16 frame."
+  },
+  {
+   "key": "S4_18_mesh_cuff_reception",
+   "handle": "silk-mesh-cuff",
+   "variant": "Gold",
+   "line": "One cuff.<br>Every function.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ce20c7ee-80cb-4f9a-a2f6-8615ac42b863.jpg?v=1792191015",
+   "ref": "613b355b-2774-48e6-97b7-c63ce3851e64",
+   "shot": "A luxury jewellery campaign photograph: a close crop of one Indian woman's right hand and wrist reaching forward as if to greet someone, the palm turned slightly down, a deep midnight-blue silk saree pallu draped over her forearm; only that one hand and forearm in the frame, the cuff on the wrist in the upper half of the frame.",
+   "lock": "She wears the cuff from reference 1 on that wrist, reproduced exactly: identical 18k gold tone open cuff built from a rounded tube of fine woven mesh about 19mm wide, ending in two mirror polished oval caps facing each other across the opening on the inner wrist. Do not redesign, restyle, resize or add anything to the piece; the mesh stays a fine woven texture like brushed silk, never a smooth plain bangle, and the cuff stays open with two polished caps.",
+   "scale": "CRITICAL SCALE: the cuff is 19mm wide, about as wide as her thumb, sitting on a slim wrist with a little room; it is a slim cuff, never a gauntlet. A soft contact shadow where it rests on her skin.",
+   "skin": "Her skin is a light warm wheatish tone, glowing and real; short almond nails in a sheer nude polish.",
+   "scene": "Behind her, a deep midnight-blue backdrop in soft focus, one saturated colour. The lowest 40% of the frame is the midnight-blue silk falling into soft shadow, plain, with nothing in it. Vertical 9:16 frame.",
+   "line_note": "was 'For the 200 handshakes.'; the frame came back with the hand relaxed at her side, not greeting, so the line now says what the frame shows (round-1 lesson: the line must match the picture)"
+  },
+  {
+   "key": "S4_19_ribbon_bracelet_bridesmaids",
+   "handle": "ribbon-bead-bracelet",
+   "line": "One for every<br>bridesmaid.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/ribbon-bead-bracelet-0_2a52afd2-edcb-4827-8600-e95779d977b8.jpg?v=1787524333",
+   "ref": "a6c107c5-4579-4f4e-851d-c34f94571795",
+   "shot": "A luxury jewellery campaign photograph: a close crop of one Indian woman's hand and wrist resting lightly on the folds of a rani-pink silk lehenga dupatta with a fine gold border; only that one hand in the frame, the bracelet on the wrist in the upper half of the frame.",
+   "lock": "She wears the bracelet from reference 1 on that wrist, reproduced exactly: identical 18k gold tone fine 1.2mm cable chain dotted with tiny 2mm gold beads, identical centre of two small heart cut clear cubic zirconia of about 5mm set side by side like a little bow, in fine gold claws. Do not redesign, restyle, resize or add anything to the piece; the bow stays two small hearts side by side, never one big heart, and the chain stays very fine.",
+   "scale": "CRITICAL SCALE: the bow is tiny, about 10mm wide and 5.5mm tall, smaller than her fingernail; the chain is 1.2mm, as fine as a thread; the beads are 2mm, like mustard seeds. A soft contact shadow where it rests on her skin.",
+   "skin": "Her skin is a dusky medium brown, glowing and real; short almond nails in a sheer nude polish; a few fine lines of fresh mehendi on the back of the hand only, stopping well short of the bracelet.",
+   "scene": "Behind and below her hand, the rani-pink silk fills the frame, one saturated colour; the lowest 40% of the frame is the plain rani-pink silk with nothing in it. Vertical 9:16 frame.",
+   "edit_c": "frame a edited: bow ~35% smaller; against the hand (wrist to fingertip ~18cm) it read ~19mm before and ~13mm after (listing 10mm), still about 1.3x, kept for budget and flagged"
+  },
+  {
+   "key": "S4_20_aqua_heart_something_blue",
+   "handle": "aqua-heart-drops-silver",
+   "line": "Something blue,<br>sorted.",
+   "ref_url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/WE22108C3_1.jpg?v=1789762799",
+   "ref": "57163c9c-58ef-4e1d-a716-c20aee1fba90",
+   "shot": "A luxury jewellery campaign photograph: a close crop of an Indian woman's ear, jaw and neck in three-quarter profile, her dark hair in a sleek low bun, a deep wine-red velvet blouse at her shoulder; one earring on the visible earlobe, the ear in the upper half of the frame.",
+   "lock": "She wears one earring from reference 1 on the visible earlobe, reproduced exactly: identical bright silver tone rhodium metal, identical open C-shaped arc set with round brilliant clear cubic zirconia along the outer edge, identical single pale aqua-blue heart cut stone hanging point down from the lower tip. Do not redesign, restyle, resize or add anything to the piece; the arc stays an open C curve, and there is only one heart, pale aqua blue.",
+   "scale": "CRITICAL SCALE: the whole earring is only 29mm long from the post to the tip of the heart, drawn at its true small size: its whole length is about half the height of her ear and it ends well above the line of the jaw; the heart is about 9mm, the size of her fingernail. A soft contact shadow where it touches the skin.",
+   "skin": "Her skin is a warm medium tan, glowing and real; minimal makeup.",
+   "scene": "Behind her, a deep wine-red backdrop in soft focus, one saturated colour. The lowest 40% of the frame is the wine velvet of her blouse at the shoulder and back, plain, with nothing in it. Vertical 9:16 frame.",
+   "edit_c": "frame a edited: earring ~30% smaller; 0.65 of the ear's height (~37mm) before, 0.48 (~27mm) after (listing 29mm)"
+  }
+ ]
+}

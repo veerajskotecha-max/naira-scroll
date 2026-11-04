@@ -1,0 +1,776 @@
+{
+ "_about": "One scorecard for the competitors' live ads (Meta Ad Library, India, 2-4 Nov 2026), Naira's recent ads (Meta, last 14 days) and each new set. Ten criteria, 0-10 each, weighted; score = weighted mean. Judged by eye on the full-size creative, the same way for every ad.",
+ "weights": {
+  "stop": 0.15,
+  "truth": 0.15,
+  "craft": 0.15,
+  "desire": 0.1,
+  "hierarchy": 0.1,
+  "offer": 0.1,
+  "brand": 0.05,
+  "series": 0.05,
+  "platform": 0.05,
+  "compliance": 0.1
+ },
+ "criteria": {
+  "stop": "Thumb-stop at phone size: contrast, one focal point, something to look at in 0.5 s.",
+  "truth": "Product truth and scale: you can read what the piece is and how big it is on a body.",
+  "craft": "Photo craft: light, metal and stone rendering, skin, set; nothing that reads as CGI.",
+  "desire": "Desire and occasion: styling and mood that make you want to wear it, a moment to wear it to.",
+  "hierarchy": "One message at a time, every word readable on a 390pt-wide phone.",
+  "offer": "Price and the reason to buy now are in the image, or deliberately left to the caption.",
+  "brand": "Wordmark and palette identify the brand without shouting.",
+  "series": "The ad belongs to a system that runs as a carousel and a campaign.",
+  "platform": "4:5 and 9:16 versions, type inside the safe zones, text kept small in area.",
+  "compliance": "Every claim true for the piece and the checkout today; none of Naira's banned words."
+ },
+ "benchmark": [
+  {
+   "id": "PAL-9KT-hero",
+   "brand": "Palmonas",
+   "library_id": "2689659838146399",
+   "what": "on-model espresso studio crop, '9KT Pendant Free' serif offer, outlined Shop now",
+   "s": [
+    8,
+    9,
+    9.5,
+    9,
+    9,
+    9,
+    9,
+    10,
+    8,
+    8
+   ],
+   "score": 8.83
+  },
+  {
+   "id": "PAL-9KT-card",
+   "brand": "Palmonas",
+   "library_id": "2689659838146399",
+   "what": "same carousel, product card: name only",
+   "s": [
+    7,
+    9,
+    9.5,
+    8.5,
+    8,
+    4,
+    9,
+    10,
+    8,
+    8
+   ],
+   "score": 8.03
+  },
+  {
+   "id": "GIVA-tea",
+   "brand": "GIVA",
+   "library_id": "2206004693675233",
+   "what": "'A hot cup of silver, anyone?' chain poured like tea, hands, two-line serif",
+   "s": [
+    9,
+    6.5,
+    8.5,
+    8,
+    9,
+    2,
+    7,
+    7,
+    9,
+    8
+   ],
+   "score": 7.45
+  },
+  {
+   "id": "PAL-catalogue",
+   "brand": "Palmonas",
+   "library_id": "1115252414583790",
+   "what": "catalogue packshot on grey, price in the card title",
+   "s": [
+    5,
+    7,
+    8.5,
+    5,
+    7,
+    8,
+    5,
+    9,
+    8,
+    9
+   ],
+   "score": 7.08
+  },
+  {
+   "id": "GIVA-catalogue",
+   "brand": "GIVA",
+   "library_id": "2014177569269144",
+   "what": "catalogue packshot on white, code BLING in the caption",
+   "s": [
+    4,
+    6,
+    8,
+    4.5,
+    6,
+    7,
+    4,
+    8,
+    8,
+    8
+   ],
+   "score": 6.25
+  }
+ ],
+ "naira_recent": [
+  {
+   "id": "N1-ruby-anaar-story",
+   "ad": "E2 fruit · E2_ruby_anaar2_916",
+   "result_14d": "₹12,578, 20 purchases, 1.89x",
+   "s": [
+    9,
+    7,
+    8.5,
+    7,
+    6,
+    3,
+    3,
+    7,
+    9,
+    10
+   ],
+   "score": 7.22
+  },
+  {
+   "id": "N5-huggies-pouches",
+   "ad": "DIW 08 · Nobody got the better pair.",
+   "result_14d": "₹1,057, 0 purchases",
+   "s": [
+    7.5,
+    7,
+    8,
+    7,
+    6,
+    5,
+    7,
+    7,
+    8,
+    10
+   ],
+   "score": 7.28
+  },
+  {
+   "id": "N3-hoops-apricot",
+   "ad": "Static · Hoops · Apricot quiet",
+   "result_14d": "₹1,986, 1 purchase, 0.75x",
+   "s": [
+    7,
+    6,
+    8,
+    6,
+    7,
+    5,
+    7,
+    8,
+    8,
+    10
+   ],
+   "score": 7.1
+  },
+  {
+   "id": "N4-heartbead-gold-note",
+   "ad": "Crazy · H08_a1 · The gold note.",
+   "result_14d": "₹1,446, 0 purchases",
+   "s": [
+    6.5,
+    6.5,
+    8,
+    6,
+    7.5,
+    5,
+    4,
+    7,
+    8,
+    10
+   ],
+   "score": 6.95
+  },
+  {
+   "id": "N6-eternity-kesar",
+   "ad": "28 · Worth its weight in kesar.",
+   "result_14d": "₹796, 1 purchase, 1.37x",
+   "s": [
+    7,
+    5,
+    8,
+    6.5,
+    6.5,
+    4,
+    7,
+    7,
+    8,
+    10
+   ],
+   "score": 6.8
+  },
+  {
+   "id": "N7-almost-edible",
+   "ad": "W2 · Almost edible (live)",
+   "result_14d": "₹552, 0 purchases",
+   "s": [
+    7.5,
+    6,
+    8,
+    6.5,
+    7.5,
+    6,
+    6,
+    7,
+    8,
+    5
+   ],
+   "flag": "caption still says 20% / 30% off; checkout gives 10% / 20%",
+   "score": 6.77
+  },
+  {
+   "id": "N9-mesh-pheni",
+   "ad": "13 · Finer than pheni.",
+   "result_14d": "₹529, 0 purchases",
+   "s": [
+    6,
+    6,
+    8,
+    5.5,
+    6.5,
+    4,
+    7,
+    7,
+    8,
+    10
+   ],
+   "score": 6.7
+  },
+  {
+   "id": "N2-prism-cluster-vk",
+   "ad": "VK F18 · Prism Cluster Studs",
+   "result_14d": "₹1,993, 3 purchases, 2.38x",
+   "s": [
+    7,
+    6,
+    7.5,
+    6,
+    7,
+    2,
+    8,
+    7,
+    8,
+    8
+   ],
+   "score": 6.53
+  },
+  {
+   "id": "N8-prism-riviere-vk",
+   "ad": "VK S5 · Prism Rivière (close)",
+   "result_14d": "₹2,441, 0 purchases",
+   "s": [
+    7,
+    6,
+    7,
+    5.5,
+    7,
+    2,
+    8,
+    7,
+    8,
+    8
+   ],
+   "score": 6.4
+  }
+ ],
+ "sets": {},
+ "judge": {
+  "_about": "An independent judge (a separate agent that saw only the images and the rubric, never these scores) scored every ad by eye. Round 1: Sets 1-2 as first built; the fixes listed in the README followed. Round 2 (all 20) is added when it is in.",
+  "round1": {
+   "order": [
+    "stop",
+    "truth",
+    "craft",
+    "desire",
+    "hierarchy",
+    "offer",
+    "brand",
+    "series",
+    "platform",
+    "compliance"
+   ],
+   "means": {
+    "benchmark": 7.09,
+    "naira_recent": 6.83,
+    "set1": 7.62,
+    "set2": 8.03
+   },
+   "ads": [
+    {
+     "id": "PAL-9KT-hero",
+     "group": "benchmark",
+     "s": [
+      8,
+      9,
+      9,
+      8.5,
+      9,
+      8,
+      9,
+      9,
+      8,
+      10
+     ],
+     "score": 8.75,
+     "best": "Real editorial shoot of a coordinated heart set at true dainty scale, warm light, and one clear serif offer line.",
+     "fix": "Show a 'from ₹' price beside the free-pendant offer so the ₹20,000 threshold has an entry point."
+    },
+    {
+     "id": "PAL-9KT-card",
+     "group": "benchmark",
+     "s": [
+      7,
+      9,
+      9,
+      7.5,
+      8.5,
+      5,
+      9,
+      9,
+      8,
+      8.5
+     ],
+     "score": 8.0,
+     "best": "Tight on-skin crop makes the pendant's real size, setting and sparkle unmistakable.",
+     "fix": "Repeat the price or the free-pendant offer so the card sells when seen on its own."
+    },
+    {
+     "id": "GIVA-tea",
+     "group": "benchmark",
+     "s": [
+      8.5,
+      7,
+      8,
+      8,
+      9,
+      3,
+      8.5,
+      7,
+      8.5,
+      10
+     ],
+     "score": 7.725,
+     "best": "A witty, instantly legible concept (silver poured from a teapot) with one clean headline.",
+     "fix": "Add a price or offer line: it stops the thumb but gives no reason to buy now."
+    },
+    {
+     "id": "PAL-catalogue",
+     "group": "benchmark",
+     "s": [
+      4,
+      6,
+      8,
+      3.5,
+      6,
+      5,
+      2,
+      6,
+      6,
+      10
+     ],
+     "score": 5.85,
+     "best": "Clean, accurate packshot with good gold rendering and readable chain detail.",
+     "fix": "Put it on a hand: no scale, mood, wordmark or price in the frame."
+    },
+    {
+     "id": "GIVA-catalogue",
+     "group": "benchmark",
+     "s": [
+      2.5,
+      5.5,
+      6.5,
+      2,
+      6,
+      5,
+      2,
+      6,
+      5,
+      10
+     ],
+     "score": 5.125,
+     "best": "The inset zoom honestly shows the link construction.",
+     "fix": "Shoot it on a neck against a darker ground; a fine silver line on white vanishes at phone size."
+    },
+    {
+     "id": "N1_ruby_anaar_story",
+     "group": "naira_recent",
+     "s": [
+      8,
+      6.5,
+      8.5,
+      7.5,
+      6,
+      2,
+      3,
+      7,
+      7.5,
+      10
+     ],
+     "score": 6.875,
+     "best": "Pomegranate seeds rhyme with the ruby-tone baguettes: a rich, well-lit thumb-stop.",
+     "fix": "Add wordmark, name, price and the bundle chip inside the Story safe zone; right now it sells nothing."
+    },
+    {
+     "id": "N2_prism_cluster_vk",
+     "group": "naira_recent",
+     "s": [
+      6.5,
+      5,
+      7.5,
+      6,
+      6.5,
+      2,
+      7.5,
+      7,
+      7,
+      10
+     ],
+     "score": 6.375,
+     "best": "Pastel powder rainbow echoes the stone colours; playful and on-palette.",
+     "fix": "Show it on an ear with name and price; off-body it is unclear what the piece is or how big it is."
+    },
+    {
+     "id": "N3_woven_hoops_quiet",
+     "group": "naira_recent",
+     "s": [
+      6.5,
+      6.5,
+      8.5,
+      7,
+      6.5,
+      5,
+      8,
+      7.5,
+      8,
+      9
+     ],
+     "score": 7.15,
+     "best": "Juicy apricot and peach linen make the woven texture tactile; quiet, confident type.",
+     "fix": "The ₹1,499 is ~8pt: set the price at 10pt or more and add the bundle offer as the reason to buy."
+    },
+    {
+     "id": "N4_heartbead_gold_note",
+     "group": "naira_recent",
+     "s": [
+      7,
+      5.5,
+      8,
+      6.5,
+      7,
+      5,
+      4,
+      6.5,
+      7.5,
+      9
+     ],
+     "score": 6.725,
+     "best": "The gold heart is a clean single focal point on blush satin, with an elegant headline.",
+     "fix": "Add the NAIRA wordmark and an on-wrist frame; the macro makes the beads read bigger than life."
+    },
+    {
+     "id": "N5_baguette_huggies_diw",
+     "group": "naira_recent",
+     "s": [
+      8,
+      6.5,
+      8,
+      7.5,
+      6.5,
+      5.5,
+      8,
+      7.5,
+      7.5,
+      10
+     ],
+     "score": 7.475,
+     "best": "Four jewel-tone potlis form a bold, giftable colour block with a witty line.",
+     "fix": "The info line (price included) is ~7pt: enlarge it and add a 'buy 2' gifting incentive."
+    },
+    {
+     "id": "N6_eternity_kesar",
+     "group": "naira_recent",
+     "s": [
+      7,
+      5.5,
+      8,
+      7.5,
+      6.5,
+      5,
+      8,
+      8,
+      7.5,
+      8.5
+     ],
+     "score": 7.0,
+     "best": "Kesar strands and ruby-tone stones make a culturally sharp still life with a strong line.",
+     "fix": "Say 'Ruby-tone' and show it on a finger: the band reads chunky and 'RUBY' reads like the real stone."
+    },
+    {
+     "id": "N7_almost_edible",
+     "group": "naira_recent",
+     "s": [
+      7.5,
+      6,
+      7,
+      6.5,
+      6,
+      5.5,
+      3,
+      5,
+      7,
+      6.5
+     ],
+     "score": 6.275,
+     "best": "Candy-and-CZ concept with a big, readable headline and an honest 'cubic zirconia, not candy'.",
+     "fix": "Drop 'Anti-tarnish / Surgical steel', add the wordmark, and cut five type elements to two."
+    },
+    {
+     "id": "N8_prism_riviere_vk",
+     "group": "naira_recent",
+     "s": [
+      7.5,
+      5.5,
+      7.5,
+      6,
+      6,
+      2,
+      7.5,
+      7,
+      6,
+      10
+     ],
+     "score": 6.5,
+     "best": "Graphic pastel stripes make a bold, on-palette Story composition.",
+     "fix": "Remove the baked-in SHOP NOW that sits on the Shop-button zone, and add name and price."
+    },
+    {
+     "id": "N9_silk_mesh_pheni",
+     "group": "naira_recent",
+     "s": [
+      6,
+      6.5,
+      8.5,
+      6.5,
+      6.5,
+      5,
+      8,
+      8,
+      8,
+      9
+     ],
+     "score": 7.05,
+     "best": "The pheni-to-mesh texture rhyme is clever and beautifully crafted.",
+     "fix": "Beige-on-beige is a weak stop: add a contrasting ground or an on-wrist shot, and lift the ~8pt price line."
+    },
+    {
+     "id": "S1_01_ruby_necklace",
+     "group": "set1",
+     "s": [
+      8,
+      6,
+      7,
+      7,
+      7.5,
+      8.5,
+      7.5,
+      8.5,
+      8,
+      8.5
+     ],
+     "score": 7.5,
+     "best": "Ruby-red baguettes against deep brown skin and backdrop: the strongest stop in Set 1, with a clean price-plus-bundle card.",
+     "fix": "Render the stones at their true 6x3mm: the collar reads about 1.5x too chunky, close to costume (and say 'Ruby-tone')."
+    },
+    {
+     "id": "S1_02_woven_hoops",
+     "group": "set1",
+     "s": [
+      7.5,
+      7,
+      7.5,
+      7,
+      8,
+      8.5,
+      7.5,
+      8.5,
+      8,
+      9
+     ],
+     "score": 7.75,
+     "best": "Believable profile with crisp woven texture on the lobe and a clean four-line card.",
+     "fix": "Bring the hoop back to its true 25mm (it reads ~33mm tall) and soften the brassy yellow toward the product's real gold."
+    },
+    {
+     "id": "S1_03_prism_riviere",
+     "group": "set1",
+     "s": [
+      7,
+      7,
+      6,
+      6,
+      7.5,
+      8.5,
+      7.5,
+      8.5,
+      8,
+      10
+     ],
+     "score": 7.4,
+     "best": "Pastel halo links pop vividly against warm skin and the dark ground.",
+     "fix": "Reshoot the pose: the crossed arms don't resolve (the lower hand has no plausible owner); use one wrist, one hand."
+    },
+    {
+     "id": "S1_04_cushion_halo_ring",
+     "group": "set1",
+     "s": [
+      7.5,
+      6.5,
+      7.5,
+      6.5,
+      7.5,
+      8.5,
+      7.5,
+      8.5,
+      8,
+      10
+     ],
+     "score": 7.675,
+     "best": "Hand-at-lips beauty pose with one bright sparkle; 'Adjustable, fits US 5 to 9' removes the sizing objection.",
+     "fix": "Scale the head to ~12mm: it currently spans nearly the full finger width and reads as a bigger cocktail ring."
+    },
+    {
+     "id": "S1_05_toggle_chain",
+     "group": "set1",
+     "s": [
+      6.5,
+      7.5,
+      7.5,
+      7,
+      8,
+      8.5,
+      7.5,
+      8.5,
+      8,
+      10
+     ],
+     "score": 7.775,
+     "best": "Most honest scale and styling in Set 1: paperclip chain and clasp on a white shirt, wearable and believable.",
+     "fix": "Add contrast or crop tighter on the clasp; thin gold over white shirt and skin is the weakest stop in the set."
+    },
+    {
+     "id": "S2_06_verdant_band_mehendi",
+     "group": "set2",
+     "s": [
+      8.5,
+      8,
+      8,
+      8.5,
+      8,
+      8.5,
+      8,
+      8,
+      6.5,
+      10
+     ],
+     "score": 8.3,
+     "best": "Mehendi hand on haldi-yellow silk with an emerald-tone band: bold colour, an explicit occasion, a witty line, true scale.",
+     "fix": "Lift the Story text block ~40px (the chip runs 39px into the Shop-button zone) and restore the wordmark in the Story."
+    },
+    {
+     "id": "S2_07_huggies_gajra",
+     "group": "set2",
+     "s": [
+      7.5,
+      8.5,
+      8.5,
+      8.5,
+      7.5,
+      8.5,
+      8,
+      8,
+      8,
+      10
+     ],
+     "score": 8.325,
+     "best": "The most photographic ad here: gajra, a real ear, a true-size 15mm huggie and a sharp occasion line.",
+     "fix": "Make the huggie win the first glance (tighter crop or brighter sparkle); at phone size the gajra out-stops the product."
+    },
+    {
+     "id": "S2_08_kiss_knot_gift",
+     "group": "set2",
+     "s": [
+      6.5,
+      8,
+      7.5,
+      7.5,
+      8,
+      8.5,
+      8,
+      8,
+      7.5,
+      10
+     ],
+     "score": 7.875,
+     "best": "Gift box plus 'tying the knot' gives a clear gifting occasion; the bangle reads at true scale.",
+     "fix": "Add contrast: bring the deep red silk into the Feed frame; the cream/pink palette is a soft thumb-stop."
+    },
+    {
+     "id": "S2_09_marquise_layers_sangeet",
+     "group": "set2",
+     "s": [
+      6,
+      8,
+      7,
+      8,
+      6.5,
+      8.5,
+      8,
+      8,
+      6,
+      10
+     ],
+     "score": 7.55,
+     "best": "Sangeet styling (blush kurta, gota-edged dupatta) makes the layering set feel wearable; chains and marquise at true scale.",
+     "fix": "Cut the six-line stack to four, lift the Story chip ~80px out of the Shop zone, and fix the goosebump skin texture."
+    },
+    {
+     "id": "S2_10_verdant_studs_banarasi",
+     "group": "set2",
+     "s": [
+      7,
+      8.5,
+      8,
+      7.5,
+      7.5,
+      8.5,
+      8,
+      8,
+      8,
+      10
+     ],
+     "score": 8.075,
+     "best": "Green stone pops on the ear at true 16.8mm scale; believable skin, hair and bobby-pin detail.",
+     "fix": "Show the Banarasi in the Feed: the headline promises a match the frame barely shows."
+    }
+   ],
+   "set_notes": {
+    "set1": "A tight, recognisable system (chocolate backdrop, beauty crop, centred card with price + bundle chip) that is more sellable than any recent Naira ad or the competitor catalogue tiles, but about one point below PAL-9KT-hero: no idea or occasion, inflated scale on the necklace and ring, one anatomically broken pose (S1_03), and a dark palette that drifts from Naira's cream/blush identity.",
+    "set2": "The stronger set and the closest to the benchmark: wedding-season moments (mehendi, gajra, gift, sangeet, Banarasi) give every ad an occasion and a line, pieces sit at true spec scale, and craft is the most photographic yet (S2_06/S2_07 approach PAL-9KT-hero). It loses points on soft low-contrast stops (S2_08, S2_09), an overloaded stack on S2_09, and Story cuts that drop the wordmark/headline and push the chip into the Shop zone (S2_06 +39px, S2_09 +79px)."
+   },
+   "lessons": "1) Keep Set 2's formula: one Indian occasion, one witty line, the piece at true spec scale, price plus the bundle chip; it beat Set 1 on desire, truth and craft. 2) Scale-check every frame against the product page (6x3mm stones, ~12mm ring head, 25mm hoop) using the ear, finger or neck as a ruler; reject any frame where the piece reads more than ~1.2x real size. 3) Engineer the stop: put one saturated colour field (haldi yellow, white gajra on black hair, deep red silk) behind the piece; avoid pink-on-pink and cream-on-cream. 4) Cap the type at four lines (headline, name, price, chip) at 10pt or more, and move sublines like 'Two necklaces, worn as one' to the caption. 5) Build Stories from a template, not a re-crop: keep the wordmark and headline, keep every element between y=270 and ~y=1500, and run an anatomy pass (count hands, trace each arm) on every model shot."
+  }
+ }
+}

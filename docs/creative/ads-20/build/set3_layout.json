@@ -1,0 +1,86 @@
+{
+ "_about": "Set 3 layouts: the hero lockup of the Palmonas '9KT Pendant Free' card, at the bottom on the black camisole: the wordmark, the offer in a large upright serif, a sans qualifier that makes it true, the piece and its price on one tracked line, and the chip. Every claim is the storefront's own: 'Applied in your bag, no code' (the PDP offer box), free insured shipping and insured delivery in 3-5 working days (product page and footer), every piece in the Naira gift box (NairaBoxShowcase), cash on delivery on serviceable pincodes (product page). Prices are the live Shopify prices on 4 Nov 2026.",
+ "ads": [
+  {
+   "key": "S3_11_tennis_bracelet_three",
+   "photo": "raw/S3_11_tennis_bracelet_three_b.png",
+   "line": "Any three pieces,<br>20% off.",
+   "line_style": "upright",
+   "sub": "Applied in your bag · no code",
+   "name": "Baguette Tennis Bracelet · ₹1,499",
+   "chip": "Any two · 10% off",
+   "hs": 84,
+   "story": {
+    "hs": 92
+   },
+   "cy": {
+    "feed": 0.5,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S3_12_brushed_huggies_799",
+   "photo": "raw/S3_12_brushed_huggies_799_a.png",
+   "line": "The ₹799 pair.",
+   "line_style": "upright",
+   "sub": "Brushed gold tone · free insured shipping",
+   "name": "Brushed Gold Huggies",
+   "hs": 90,
+   "story": {
+    "hs": 98
+   },
+   "cy": {
+    "feed": 0.5,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S3_13_halo_curve_shipping",
+   "photo": "raw/S3_13_halo_curve_shipping_a.png",
+   "line": "Free insured<br>shipping.",
+   "line_style": "upright",
+   "sub": "Insured delivery in 3–5 working days",
+   "name": "Halo Curve Ring · ₹1,199",
+   "hs": 84,
+   "story": {
+    "hs": 92
+   },
+   "cy": {
+    "feed": 0.55,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S3_14_pearl_nugget_giftbox",
+   "photo": "raw/S3_14_pearl_nugget_giftbox_c.png",
+   "line": "Arrives<br>gift-boxed.",
+   "line_style": "upright",
+   "sub": "Every piece comes in the Naira box",
+   "name": "Pearl Nugget Hoops · ₹1,199",
+   "hs": 84,
+   "story": {
+    "hs": 92
+   },
+   "cy": {
+    "feed": 0.5,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S3_15_emerald_deco_cod",
+   "photo": "raw/S3_15_emerald_deco_cod_d.png",
+   "line": "Pay when<br>it arrives.",
+   "line_style": "upright",
+   "sub": "Cash on delivery on serviceable pincodes",
+   "name": "Emerald Deco Hoops · ₹1,249",
+   "hs": 84,
+   "story": {
+    "hs": 92
+   },
+   "cy": {
+    "feed": 0.5,
+    "story": 0.5
+   }
+  }
+ ]
+}

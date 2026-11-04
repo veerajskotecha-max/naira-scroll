@@ -1,0 +1,113 @@
+{
+ "_about": "Set 4 layouts: one template for every ad, built from the round-1 lessons: the wordmark, a two-line serif line, the name, the price and the bundle chip in one block at the bottom on a saturated ground (four type lines under the wordmark), Feed and Story from the same photo, the Story block ending at y=1500. Ivory type with a light dark fade on deep colours; ink with a faint ivory fade on yellow. Prices are the live Shopify prices on 4 Nov 2026.",
+ "ads": [
+  {
+   "key": "S4_16_prism_cluster_teal",
+   "photo": "raw/S4_16_prism_cluster_teal_a.png",
+   "line": "Three colours.<br>Zero outfit drama.",
+   "name": "Prism Cluster Studs",
+   "price": "₹1,499",
+   "hs": 64,
+   "hgap": 18,
+   "story": {
+    "hs": 72
+   },
+   "fa": 0.62,
+   "fb": 0.26,
+   "cy": {
+    "feed": 0.45,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S4_17_marquise_choker_haldi",
+   "photo": "raw/S4_17_marquise_choker_haldi_a.png",
+   "line": "Yellow is<br>the dress code.",
+   "name": "Marquise Drop Choker",
+   "price": "₹1,199",
+   "theme": "light",
+   "hs": 64,
+   "hgap": 18,
+   "story": {
+    "logo_at": "none",
+    "line": "Yellow is the dress code.",
+    "hs": 60,
+    "name": "Marquise Drop Choker · ₹1,199",
+    "price": ""
+   },
+   "fa": 0.36,
+   "fb": 0.14,
+   "cy": {
+    "feed": 0.651,
+    "story": 0.5
+   },
+   "src": {
+    "story": [
+     0.0,
+     0.18,
+     1.0,
+     1.0
+    ]
+   },
+   "feed": {
+    "bot": 40
+   }
+  },
+  {
+   "key": "S4_18_mesh_cuff_reception",
+   "photo": "raw/S4_18_mesh_cuff_reception_a.png",
+   "line": "One cuff.<br>Every function.",
+   "name": "Silk Mesh Cuff",
+   "price": "₹1,399",
+   "hs": 64,
+   "hgap": 18,
+   "story": {
+    "hs": 72
+   },
+   "fa": 0.6,
+   "fb": 0.25,
+   "cy": {
+    "feed": 0.45,
+    "story": 0.5
+   },
+   "align": "left"
+  },
+  {
+   "key": "S4_19_ribbon_bracelet_bridesmaids",
+   "photo": "raw/S4_19_ribbon_bracelet_bridesmaids_c.png",
+   "line": "One for every<br>bridesmaid.",
+   "name": "Ribbon Bead Bracelet",
+   "price": "₹799",
+   "align": "right",
+   "hs": 64,
+   "hgap": 18,
+   "story": {
+    "hs": 72
+   },
+   "fa": 0.55,
+   "fb": 0.22,
+   "cy": {
+    "feed": 0.45,
+    "story": 0.5
+   }
+  },
+  {
+   "key": "S4_20_aqua_heart_something_blue",
+   "photo": "raw/S4_20_aqua_heart_something_blue_c.png",
+   "line": "Something blue,<br>sorted.",
+   "name": "Aqua Heart Drops",
+   "price": "₹1,499",
+   "hs": 64,
+   "hgap": 18,
+   "story": {
+    "hs": 72
+   },
+   "fa": 0.6,
+   "fb": 0.25,
+   "cy": {
+    "feed": 0.45,
+    "story": 0.5
+   }
+  }
+ ]
+}
