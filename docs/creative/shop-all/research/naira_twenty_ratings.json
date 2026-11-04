@@ -1,0 +1,228 @@
+{
+ "_about": "Independent ratings (4 Nov 2026) of the twenty Naira Twenty ads (docs/creative/ads-20), Feed and Story, out of 10; raters did not see the earlier scores.",
+ "ads": [
+  {
+   "key": "S1_01_ruby_necklace",
+   "hook": "No hook line on the image: logo, BAGUETTE TENNIS NECKLACE, ₹2,099, 'In red, clear or green', and the offer box. Headline: 'Baguette Tennis Necklace · ₹2,099'.",
+   "feed": 6.4,
+   "story": 6.8,
+   "overall": 6.6,
+   "strengths": "The strongest picture in the S1 set. Ruby red on deep warm skin, a low-lit neck crop and a hand at the collarbone. The red baguettes read clearly at phone size. The piece matches the listing close-up (crosswise baguettes in gold tone claws). 'In red, clear or green' quietly widens the offer. The text block is about 13% of the frame. The Story holds all text above y=1500.",
+   "weaknesses": "It is a showroom product card with nothing to earn the stop except the picture. The account's own winner for this colour story ('Anaar, pre-peeled.', 5.49% CTR, 3.63x) is thrown away. It is the priciest piece in the batch (₹2,099), so it is the hardest cold click. The dark maroon seamless and centred stack look like GIVA or Palmonas, and they are identical across all five S1 ads. The offer box is a fixed footer in tracked caps, not a twist. The Story only extends the Feed downward: the bottom 400 px is black dead space. The caption is a spec sheet. The photo is not in the approved Shop All pool.",
+   "shop_all_use": "Not as a lead: it is one piece with no collection signal. It could be the 'red' tile in a colour-sorted Shop All grid or carousel ('Pick your red / green / aqua'). The proven anaar line (H06) is a better red hook than this card."
+  },
+  {
+   "key": "S1_02_woven_hoops",
+   "hook": "No hook line on the image: logo, WOVEN GOLD HOOPS, ₹1,199, and the offer box. Headline: 'Woven Gold Hoops · ₹1,199'.",
+   "feed": 5.6,
+   "story": 6,
+   "overall": 5.8,
+   "strengths": "A clean profile with the hair in a bun and a hand at the neck. The model looks believable and urban. The braid texture is visible up close, and the hoop matches the listing (braid, flat back plate). It is a 'most loved' piece at an easy ₹1,199.",
+   "weaknesses": "The face dominates and the hoop is about 10% of the frame width. Gold on warm skin on a brown ground gives almost no contrast, so on a phone it is a glint. It drops the account's proven craft lines for this exact piece ('Woven, not cast.' 5.81%, 'It has been rolling for miles.' 6.08%), which is the biggest missed opportunity in the batch. 'WOVEN GOLD HOOPS' in caps on the picture reads like a material claim, even though it is the product name. It uses the same template, ground and offer footer as the other S1 ads. In the Story the hoop sits mid-frame with a dead dark bottom. The photo is not in the pool.",
+   "shop_all_use": "Weak as a lead image because the product is too small. The 'most loved' fact could anchor a Shop All 'Most loved three' concept (Prism Rivière, Woven Hoops, Nocturne). Use H07/H08 or the 'Woven, not cast.' line rather than this frame."
+  },
+  {
+   "key": "S1_03_prism_riviere",
+   "hook": "No hook line on the image: logo (Feed only), PRISM RIVIÈRE BRACELET, ₹2,399, and the offer box. Headline: 'Prism Rivière Bracelet · ₹2,399'.",
+   "feed": 6.6,
+   "story": 5.9,
+   "overall": 6.3,
+   "strengths": "The best stone-to-ground contrast in the S1 set: aqua, pink and yellow halos pop against the brown seamless. The bracelet is large, sharp and faithful to the listing (silver tone, each square in a halo). It is the account's best-selling piece, with real pull.",
+   "weaknesses": "The Story has no NAIRA logo, which breaks the brief's 'always show the logo once'. In the Story, the 'RIVIÈRE' accent touches the end of the bracelet. The bare shoulders with an arm across the chest read as implied nudity, which risks Meta's restricted delivery and feels off-voice for a 'sharp friend' brand. It drops this piece's two proven lines ('Almost edible.' 6.21%, 'Rangoli, in a line.' 6.10%). At ₹2,399, the most expensive piece, it is shown as a plain price card. It uses the same template and offer footer. The photo is not in the pool.",
+   "shop_all_use": "The piece can lead a Shop All because it is the hero best seller and is 'most loved'. This image should not: H01 (candy) or H02 (rangoli) with their proven lines are far stronger openers. At most, use it as the 'Bracelets' tile."
+  },
+  {
+   "key": "S1_04_cushion_halo_ring",
+   "hook": "No hook line on the image: logo, CUSHION HALO RING, ₹1,099, 'Adjustable, fits US 5 to 9', and the offer box. Headline: 'Cushion Halo Ring · ₹1,099'.",
+   "feed": 6.5,
+   "story": 6.7,
+   "overall": 6.6,
+   "strengths": "A big, bright, faithful halo ring held at the lips. It is the clearest product read in the S1 set. The 'that look for ₹1,099?' price gap is a genuine stop driver. 'Adjustable, fits US 5 to 9' removes the main friction for buying a ring online.",
+   "weaknesses": "It reads as a solitaire engagement-ring ad, so it borrows the diamond look without naming anything. That works for clicks but sits close to the brief's spirit on 'diamond'. There is no line, so the price gap is left for the viewer to work out. The text sits over the back of the hand, and the knuckles and skin texture behind the type look busy. It uses the same template, brown ground and offer footer. The Story is the Feed extended, with a dead dark bottom. The photo is not in the pool.",
+   "shop_all_use": "Not a lead. It works as the 'Rings' tile in a Shop All carousel. Its 'adjustable US 5 to 9' fact belongs in the Shop All caption as a reason to buy rings without knowing your size."
+  },
+  {
+   "key": "S1_05_toggle_chain",
+   "hook": "No hook line on the image: logo, TOGGLE LINK CHAIN, ₹1,199, and the offer box. Headline: 'Toggle Link Chain · ₹1,199'.",
+   "feed": 5.8,
+   "story": 5.9,
+   "overall": 5.4,
+   "strengths": "The only light S1 frame. The white shirt and bare neck give a crisp, urban, workwear feel and stand out from the four brown cards. The paperclip links read well at phone size. Dark-ink type on a cream gradient is very legible.",
+   "weaknesses": "Fidelity fails. The real piece (listing close-up) has a pavé-set bar and a plain round ring. In this frame the bar is engraved with garbled AI pseudo-letters, and the ring has become a spring/sailor clasp with a lever pin. The brief says never change the jewellery, so this cannot run as is. It also drops the piece's proven 'Paperclip, promoted.' (7.3% on a small sample). It is a generic product card with no stop mechanism. The photo is not in the pool.",
+   "shop_all_use": "No, not in this frame, because of the clasp drift. The workwear white-shirt mood is a useful Shop All register ('Monday to mehendi'), but build it from the pool's toggle-link-chain-worn or H10 photos."
+  },
+  {
+   "key": "S2_06_verdant_band_mehendi",
+   "hook": "'Greener than the mehendi.'",
+   "feed": 7.2,
+   "story": 7.4,
+   "overall": 7.3,
+   "strengths": "The best ad in the batch. A mehendi-covered hand on mustard silk is an instant wedding-season stop for Indian women in November, and the green stones jump off the rust and mustard. The line follows the account's winning formula: it names a familiar Indian thing and turns it. It is wry and short, the 'sharp friend' voice, and the joke rewards anyone who has watched mehendi go on green and come off brown. Clear hierarchy in the Feed: logo, line, then picture, then product block low.",
+   "weaknesses": "The ring is a modest share of the frame, and the hand and mehendi take the eye first. The joke depends on knowing the paste is green, and the photo shows only the brown stain, so some viewers will read it literally. The ring in the photo looks like linked oval halos, while the listing shows ovals tucked into a pavé S-wave. That is a fidelity drift to check before running. In the Story the offer box moves up under the headline, which puts the discount higher in the hierarchy than the brief advises. The lower Story area is empty silk under the reply bar. The photo is not in the pool.",
+   "shop_all_use": "Yes, as a concept: the mehendi hand is the most ownable wedding-season scene in the batch. It could open a Shop All carousel ('Wedding season, sorted: 130+ pieces from ₹599'), followed by on-model tiles. The 'greener than' construct could extend across colours (anaar red, rangoli aqua, haldi yellow) as a whole-collection colour story. The photo would need verification and pool approval first."
+  },
+  {
+   "key": "S2_07_huggies_gajra",
+   "hook": "'The gajra's plus-one.'",
+   "feed": 6.8,
+   "story": 7.3,
+   "overall": 7,
+   "strengths": "A beautiful, specific Indian image: jasmine gajra on a low bun, a soft window light, and a clean ear. The line is wry, warm and exact, very much on brand. The Story is the best-composed Story in the batch: the full bun and gajra give the tall format a reason to exist, and the right-aligned type sits in clean space. The huggie is faithful to the listing's baguette row.",
+   "weaknesses": "The product is tiny, about 8% of the frame width in the Feed. Clear stones on light skin against a white ground nearly disappear on a phone, so the gajra sells the mood and not the earring. 'Plus-one' leans toward generic wedding-guest occasion copy. The caption lists four colours but shows only clear, and the pool notes the ruby has only 4 units. It uses the same offer footer. The photo is not in the pool.",
+   "shop_all_use": "Yes, the hook transfers best of the batch: 'Every outfit's plus-one. 130+ pieces from ₹599.' The gajra frame could be a mood card 1 in a Shop All carousel. It is not the lead product shot, because the jewellery is too small to carry a whole-collection promise."
+  },
+  {
+   "key": "S2_08_kiss_knot_gift",
+   "hook": "'For the one tying the knot.'",
+   "feed": 6.2,
+   "story": 5.6,
+   "overall": 5.9,
+   "strengths": "Big, sharp product read: the polished X and the ribbed coil are unmistakable and faithful to the listing. The knot pun ties the line to the product's name. The gift box and maroon-and-zari fabric set up the 'buying for the women around her' use case.",
+   "weaknesses": "The Story has no NAIRA logo. Story text runs across the gift box's edge and ribbon, which is cluttered and muddy, with dark type over pink. The line is essentially an occasion or gifting line (the brief's sub-2.2% class) with a pun on top. It is also unclear who is buying: a ₹1,199 bangle for a bride can feel thin as a wedding gift. The box is a plain pink box; check that it is the real Naira gift box before implying so. 'In gold or silver tone' shows only gold. The photo is not in the pool.",
+   "shop_all_use": "Partly. 'Every piece arrives in the Naira gift box' is a true whole-collection benefit, and gifting for the wedding season is a real Shop All angle. Lead with the real box and several pieces, not this single bangle on a generic box."
+  },
+  {
+   "key": "S2_09_marquise_layers_sangeet",
+   "hook": "'Layered for the sangeet.'",
+   "feed": 6.4,
+   "story": 6.1,
+   "overall": 6.3,
+   "strengths": "The magenta silk blouse with gold piping is a high-chroma, unmistakably Indian festive ground that stops the scroll. The Y-lariat draws a strong vertical line, and the piece matches the listing well (marquise pendant, lariat stations, pear drop). Season relevance is high.",
+   "weaknesses": "The line is an occasion line that could sell any necklace, which is rule 6 of the brief. The fine chains and small stones get lost at phone size; the blouse sells and the jewellery whispers. In the Story, the blouse's gold piping cuts straight through the NAIRA logo. The deep scoop neckline with cleavage is a mild Meta and brand-tone risk. It uses the same offer footer. The photo is not in the pool.",
+   "shop_all_use": "The construct could work, the image less so. 'Layered' pairs naturally with the multi-buy as the twist ('Layer any three: 20% off, applied in your bag'), which is the most honest way to put the offer in a Shop All ad. The magenta ground could carry a festive Shop All mood card."
+  },
+  {
+   "key": "S2_10_verdant_studs_banarasi",
+   "hook": "'Matches the Banarasi.'",
+   "feed": 6.7,
+   "story": 6.2,
+   "overall": 6.5,
+   "strengths": "The biggest, clearest earring in the batch: an emerald-green cushion on deep skin, highly faithful to the listing (circlet, shell pearls, stars, cubic zirconia). It names a real Indian thing in the stone's colour, and the green blouse with zari border echoes it in the Feed. It has a calm, premium, believable look.",
+   "weaknesses": "The line is a statement, not a turn, so it lacks the twist of the proven 'Anaar, pre-peeled.' In the Story the Banarasi is pushed into the bottom 400 px under the reply bar, so the payoff is lost. White type over the cream wall makes 'Matches the' low contrast in the Story. Even in the Feed the saree is only a corner. The caption doesn't mention the shell pearls, which are visible and a selling point. It uses the same offer footer. The photo is not in the pool.",
+   "shop_all_use": "Yes as a concept: 'Match it to the saree' is a natural whole-collection idea (ruby red, emerald green, aqua and pink across 130+ pieces, all named against outfits Indian women own). This single-stud frame could be one tile of it, not the lead."
+  },
+  {
+   "key": "S3_11_tennis_bracelet_three",
+   "hook": "Any three pieces, 20% off.",
+   "feed": 4.8,
+   "story": 5.3,
+   "overall": 5,
+   "strengths": "The offer is true, simple and carries no code ('applied in your bag'). 'Any three pieces' is the only line in the batch that sends people to the whole range on its own. The crystal baguettes catch light well against the black slip, and the hand-at-throat pose is polished.",
+   "weaknesses": "The headline is the discount, which the brief calls saturated in India and says should sit low or work as the twist. On one bracelet the line contradicts the picture: it says three, it shows one. The bracelet takes only about 30% of the frame width, and the top 40% of the Feed is chin and knuckles. The logo sits right under the bracelet and the headline crosses the wrist; in the Story the logo nearly touches the bracelet's drooping end. Five text layers plus the offer said twice ('20% off' and the 'ANY TWO' box). The photo is not in the Shop All pool. Expect about 2-2.5% CTR.",
+   "shop_all_use": "The hook could lead a Shop All, the image could not. Put 'Any three pieces' or 'Pick three' over a grid or carousel of 3-6 worn pool photos, with the 20% as the second line. Do not put it over a single product."
+  },
+  {
+   "key": "S3_12_brushed_huggies_799",
+   "hook": "The ₹799 pair.",
+   "feed": 6,
+   "story": 6.5,
+   "overall": 6.2,
+   "strengths": "This is the cleanest frame in S3: one piece, one ground, lots of air. The matte brushed huggie is large, sharp and easy to read on the ear. Leading with a ₹799 price is a real stopper for price-checking cold traffic, and it is short and exact. The Story puts the earring in the upper half and keeps the text inside the safe zone.",
+   "weaknesses": "A price hook can sell anything; it gives no Naira-specific reason to stop. 'BRUSHED GOLD HUGGIES' in caps prints 'gold' as a word on the image, though the sub-line says 'gold tone'. The lower-third block has five layers, and the 'BUY 2 · 10% OFF ◆ BUY 3 · 20% OFF' caps box shouts the offer a second time. The mauve and black-slip look matches the rest of S3, so the ads blur together. The photo is not in the pool.",
+   "shop_all_use": "The price idea could lead a Shop All as 'From ₹599' or 'Under ₹999', using the site's price filter, over several entry-price pool pieces (Brushed Gold Huggies, Ribbon Bead Bracelet, Bold Dome Huggies). This image alone would not work for that."
+  },
+  {
+   "key": "S3_13_halo_curve_shipping",
+   "hook": "Free insured shipping.",
+   "feed": 4.5,
+   "story": 5,
+   "overall": 4.7,
+   "strengths": "The photo is striking: deep skin, a golden brown and a champagne stone on the chest, warm and editorial. The caption names the stones as colours, so there are no gem claims. 'Insured' is a real trust detail for Indian buyers.",
+   "weaknesses": "Shipping is a footer line, not a reason to stop, and it could sell any shop online. The headline and logo sit on the fingers in both formats, so the type fights the hand and covers the knuckles next to the ring. The piece gets no name or turn in the headline. The black gradient muddies the lower 40%. Five text layers. The photo is not in the pool. Likely below 2% CTR.",
+   "shop_all_use": "Only as a support line. 'Free insured shipping · 3-5 days' fits in small type under a Shop All headline or in the primary text. It should never lead. The image is a single piece and not in the pool."
+  },
+  {
+   "key": "S3_14_pearl_nugget_giftbox",
+   "hook": "Arrives gift-boxed.",
+   "feed": 4.8,
+   "story": 5.2,
+   "overall": 5,
+   "strengths": "A good tactile close-up: fingers lift the hoop, the shell pearl is bright, and the textured gold-tone nuggets read well. The gift box is true for every piece and suits the wedding and gifting season.",
+   "weaknesses": "The headline promises a box the picture never shows, so there is nothing to see behind the claim. It is a logistics line that could sell anything. The Feed crop cuts the face at half an eye on the left edge, which looks accidental. 'PEARL NUGGET HOOPS' prints 'pearl' without 'shell' on the image. The template is the same as the other S3 ads. The photo is not in the pool.",
+   "shop_all_use": "As a sub-line in a gifting Shop All ('Every piece arrives gift-boxed'), it is strong, but only if the box is on screen. The pool has no box photo, so the line has to live in the copy. The image would not lead."
+  },
+  {
+   "key": "S3_15_emerald_deco_cod",
+   "hook": "Pay when it arrives.",
+   "feed": 4.8,
+   "story": 5.3,
+   "overall": 5,
+   "strengths": "Cash on delivery is a real risk-remover for cold Indian buyers, and the line is plain and friendly. The green-and-silver-tone hoop pops on the blush ground with plenty of air, and the Story's earring position works.",
+   "weaknesses": "The earring is only about 7% of the frame width, too small for a thumb-stop at phone size. COD is a footer reason, not a stopper, and it could sell anything. 'EMERALD DECO HOOPS' prints a gem name on the image, which the copy bans skirt. The skin is over-sharpened, with visible pores and freckle dots that look AI-made. Five text layers, and the same template as S3_11 to S3_14. The photo is not in the pool.",
+   "shop_all_use": "Use it as a trust footer in a Shop All ('Cash on delivery · free insured shipping · 7-day returns'), not as the headline. The image is a single small piece and not in the pool."
+  },
+  {
+   "key": "S4_16_prism_cluster_teal",
+   "hook": "Three colours. Zero outfit drama.",
+   "feed": 5.8,
+   "story": 6.3,
+   "overall": 6,
+   "strengths": "The deep teal ground and teal silk top against purple, yellow and pink stones make the strongest complementary contrast in the batch, and it stands out from the mauve S3 set. The climber is large and sharp on the ear. 'Zero outfit drama' has the wry, friend-like voice the brief asks for. The Story has lots of air and the piece sits in the upper half.",
+   "weaknesses": "The line is clever but generic; it names no Indian thing. This product already won at 5.21% with 'Rangoli you can wear.', and this ad drops that proven mechanism for a weaker benefit line. The price in large serif plus the name plus the offer box makes six layers. In the Story the offer box runs over the gold-piped neckline. The photo is not in the pool.",
+   "shop_all_use": "The hook would not work for a Shop All; it is tied to this product. The colour-block idea (a saturated ground that complements the stones) could carry a 'by colour' Shop All. Build that from pool photos like H02 and H04 instead."
+  },
+  {
+   "key": "S4_17_marquise_choker_haldi",
+   "hook": "Yellow is the dress code.",
+   "feed": 6.8,
+   "story": 5.6,
+   "overall": 6.2,
+   "strengths": "In the Feed this is the best image of the batch. The choker is large and centred, the marquise and pear drops are crisp, and haldi-yellow cloth with marigold petals is an instant wedding-season cue without saying it. The ink type on yellow reads cleanly. This is the batch's closest approach to the 'familiar Indian thing' mechanism.",
+   "weaknesses": "The line hints at haldi but never names it; the brief rewards naming the real thing. The stones are clear, so the yellow belongs to the outfit, not the piece, and the colour-match turn is lost. The heavy goosebump and pore texture on the chest is unflattering at full size. The Story is a regression: the NAIRA logo is missing (the brief requires it once), the headline shrinks to small italic, and the neckline stitch line runs through 'Yellow is the dress code.' The photo is not in the pool.",
+   "shop_all_use": "The concept could lead a Shop All: a wedding season told function by function (haldi yellow, mehendi green, sangeet, reception), with one piece per function. That is a strong carousel frame. This image would only be one card, and it is not in the pool."
+  },
+  {
+   "key": "S4_18_mesh_cuff_reception",
+   "hook": "One cuff. Every function.",
+   "feed": 6,
+   "story": 6.4,
+   "overall": 5.8,
+   "strengths": "Gold tone on deep navy velvet gives the batch's strongest value contrast. The cuff is big in the frame, and the mesh and polished ends are razor-sharp. Left-aligned type on empty navy reads cleanly. The Story trims the offer to 'BUY 3 · 20% OFF', which is cleaner. 'Function' is a nice Indian-English touch.",
+   "weaknesses": "Honesty risk: the cuff looks much chunkier and wider than in the store's own listing photo (silk-mesh-cuff-worn), and the caption calls it 'fine woven mesh'. A buyer could expect a bigger piece than arrives. The line is a generic occasion promise of the kind that stayed under 2.2%. In the Feed the offer box clips the fingertips. The hand skin looks slightly AI-smoothed. The photo is not in the pool. I marked the overall down for the scale risk.",
+   "shop_all_use": "Turn the hook around to 'Every function, one bag', a Shop All built function by function. The image should not lead because of the scale doubt. Use the pool's H05 pheni shot for this piece instead."
+  },
+  {
+   "key": "S4_19_ribbon_bracelet_bridesmaids",
+   "hook": "One for every bridesmaid.",
+   "feed": 6.2,
+   "story": 6.7,
+   "overall": 6.5,
+   "strengths": "This is the smartest ad in the batch. The hook is a specific gifting job that ties straight into the offer: the Story's single 'BUY 3 · 20% OFF' box makes the discount the twist, which is exactly what the brief asks for. Mehendi-stained fingers on rani-pink silk with gota trim say Indian wedding at a glance, and ₹799 makes buying several easy. The pink is the most thumb-stopping colour in the set.",
+   "weaknesses": "The two-heart bow is tiny, about 8% of the frame width, and the hand dominates, so the product barely reads at phone size. The gota trim zigzags through 'bridesmaid', 'RIBBON BEAD BRACELET' and '₹799' in both formats. 'Bridesmaid' is a borrowed idea; 'bride squad' or 'the cousins' would land closer to home. Six text layers in the Feed. The photo is not in the pool.",
+   "shop_all_use": "This is the best Shop All hook of the batch. 'One for every bridesmaid / the cousins. Any three, 20% off.' over a grid of 3-6 under-₹999 and ₹999-1,499 pool pieces naturally builds baskets across the collection. The image could be one card in that grid but should not be the cover."
+  },
+  {
+   "key": "S4_20_aqua_heart_something_blue",
+   "hook": "Something blue, sorted.",
+   "feed": 5.2,
+   "story": 5.6,
+   "overall": 5.4,
+   "strengths": "The pale aqua heart and clear arc show well against maroon velvet, which is a rich festive ground. The Story gives the piece good air and a clean position. 'Sorted' is in voice.",
+   "weaknesses": "'Something blue' is a Western bridal rhyme, not an Indian thing, so it misses the brand's winning mechanism and is weak for the target audience. The heart's blue is very pale and small, about 7% of the frame width, so the line's own promise ('blue') is hard to see at phone size. Six text layers and the repeated offer box. The photo is not in the pool. Likely around 2% CTR.",
+   "shop_all_use": "No. The hook and the image are both single-product and culturally off for this audience. A colour-led Shop All would do this job better with pool photos."
+  }
+ ],
+ "patterns": [
+  "The five S1 ads share one template: a dark brown seamless backdrop, a centred stack of logo, caps name, price and offer box, and no hook. They read like GIVA or Palmonas catalogue cards. Meta will see them as near-duplicate creative, and with no line, nothing but the picture earns the stop.",
+  "S1 drops the account's own proven lines for the same pieces: 'Woven, not cast.' (5.81%) for the hoops, 'Almost edible.' and 'Rangoli, in a line.' (6.2% and 6.1%) for Prism, 'Paperclip, promoted.' (7.3%) for Toggle, and the anaar story (5.49%, 3.63x) for the ruby necklace. It swaps known winners for product cards.",
+  "All 10 carry the same Buy 2 / Buy 3 box in tracked caps as a fixed footer. The discount is never the twist or the payoff; it is wallpaper on a hook the brief calls saturated. In the S2_06 Story it moves up under the headline, the opposite of the brief.",
+  "The captions are spec sheets ('A braided rope of gold tone, 25mm across...') followed by the offer, repeated on every ad. None of them earns the stop, though the brief's top lesson is that the picture sells and the line earns the stop.",
+  "Among the S2 hooks, lines that name and turn an Indian thing in the stone's colour (mehendi, gajra) beat plain occasion lines ('Layered for the sangeet.', 'For the one tying the knot.'). The occasion lines fall into the brief's 'could sell anything' class.",
+  "Product scale is uneven. The earring ads (woven hoops, baguette huggies) show the piece at under 10% of the frame width with low contrast (gold or clear on warm skin), so on a phone they are a glint. The stud, ring, bangle and bracelet frames read far better.",
+  "The Stories are built carelessly. 2 of 10 have no NAIRA logo (S1_03, S2_08), and there are type collisions: the accent touches the bracelet (S1_03), the logo sits on the blouse piping (S2_09), text runs over the box ribbon (S2_08), and white type sits on a cream wall (S2_10). Most Stories just extend the Feed downward and leave 400+ px of dead space instead of air around the piece. Only the gajra Story uses the tall format on purpose.",
+  "There is fidelity drift in the new Higgsfield photos. The Toggle chain's pavé bar became gibberish engraving on a spring-ring clasp, and the Verdant band's pavé S-wave became linked oval halos. None of these 10 photos is in the approved Shop All pool, so any reuse needs verification and approval first.",
+  "The stops that work come from high-chroma Indian textiles and skin contrasts: green on mehendi and mustard, magenta silk, an emerald blouse, pastel stones on brown. Generic brown studio grounds are the weakest. Everything is glossy, studio-polished ad look, the opposite of the lo-fi, platform-native statics that the research says fail least.",
+  "Implied-nudity and low-neckline crops (S1_03 bare shoulders with an arm across the chest, S2_09 deep scoop) add Meta delivery risk and drift from the 'sharp friend' voice.",
+  "No ad in this batch can lead a Shop All as built: all are single-product, and none says 130+ pieces, from ₹599, or names the filters. What transfers are the constructs: 'Every outfit's plus-one', 'Match it to the saree' (a colour-matching collection story), 'Layer any three' with the Buy 3 as the twist, the mehendi hand as a wedding-season opener, and the real Naira gift box as a whole-collection gifting truth.",
+  "None of the 10 can lead a Shop All as built. Every ad shows one piece, and none of the photos are in the Shop All pool: they come from a separate shoot (black slip on mauve, and colour grounds). Only the hooks carry over. Best is 'One for every bridesmaid' plus Buy 3, then 'Any three pieces', a wedding season told function by function (haldi yellow), and 'From ₹599 / The ₹799 pair'. Each needs a multi-piece pool grid or carousel under it.",
+  "Every ad uses the same template: a centred lower-third stack of logo, serif headline, sub-line or price, a tracked caps product name and a boxed caps offer. That is 5-6 text layers, about 25% of the frame, under a black gradient that dulls the photo. Seen one after another in a cold scroll they would merge with each other and with GIVA/Palmonas-style catalogue ads. The account's best seller had no words on the picture.",
+  "The 'BUY 2 · 10% OFF ◆ BUY 3 · 20% OFF' caps box sits on almost every image and is said again in every caption. That is the 'offer as headline shout' the brief warns against. The one place it works is S4_19's Story, where a single 'BUY 3 · 20% OFF' pays off the bridesmaid hook as the twist.",
+  "S3 (11-15) uses logistics or offer facts as headlines: discount, price, shipping, gift box, cash on delivery. They are true and useful, but they are 'lines that could sell anything'. Expect roughly 1.8-2.5% CTR. They belong in the primary text or as small footers.",
+  "S4 (16-20) is clearly stronger, mainly because of saturated grounds that complement the pieces (teal, haldi yellow, navy, rani pink, maroon) and wedding-season cues (mehendi hands, gota, marigold). Colour contrast between ground and piece is the batch's best thumb-stop asset.",
+  "No ad uses the account's proven mechanisms: a familiar Indian thing in the stone's colour, named and turned, or a craft truth written as 'X, not Y'. The occasion lines ('Every function', 'Yellow is the dress code', 'Something blue') hint instead of naming. S4_16 even drops the 5.21% 'Rangoli you can wear.' for a weaker benefit line.",
+  "Pieces are often too small to read at phone size. Earrings and the bow bracelet take only 7-10% of the frame width (S3_15, S4_19, S4_20). The frames that put the piece big (S3_12 huggie, S4_17 choker, S4_18 cuff) are the strongest images.",
+  "Type keeps colliding with the photo: the S3_11 logo sits just under the bracelet, the S3_13 headline runs across the fingers, the S4_18 offer box clips the fingertips, gota trim runs through the S4_19 text, and the S4_17 Story has its headline on the neckline seam and no NAIRA logo at all.",
+  "Stories beat Feeds in 9 of 10 (more air above the piece, text kept inside 270-1500). The exception is S4_17, where the Story shrank the headline and dropped the logo.",
+  "There are fidelity and copy-ban edges to clear before anything runs. The S4_18 cuff looks much chunkier than the store's own listing photo of it, which is a returns and honesty risk. Product names that print banned material or gem words on the image ('BRUSHED GOLD', 'EMERALD', 'PEARL' without 'shell') skirt the rules; name by colour or tone on the image. Over-sharpened skin texture (S3_15, S4_17) reads as AI or unflattering at full size."
+ ]
+}

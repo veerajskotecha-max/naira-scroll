@@ -1,0 +1,436 @@
+{
+ "giva": [
+  {
+   "text": "Primary text not returned by the Ad Library tool. Keyword probes show its creative text contains: free shipping, lifetime, warranty, code, returns, and '925 silver warranty'.",
+   "headline": "Giva Now Delivers in Just 2 Hours",
+   "started": "2026-11-04 (ad 1579055043976887)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains: free shipping, lifetime, warranty, code, returns.",
+   "headline": "Shubh Dhanteras is 2 hours away",
+   "started": "2026-11-04 (ad 1606197977260196)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains: lifetime, warranty, code, returns, and '925 silver warranty'.",
+   "headline": "Celebrate Traditions with Pure Silver",
+   "started": "2026-11-04 (ad 1455317826546656)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains: free shipping.",
+   "headline": "Celebrate with Giva",
+   "started": "2026-11-04 (ad 1130732783032928)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. No probe match was visible (only the top 3 hits of each probe are listed).",
+   "headline": "Make This Diwali Truly Meaningful with GIVA",
+   "started": "2026-11-04 (ad 3324408817746031; also 1629632955292968 from 2026-11-02)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. A catalogue (DPA) carousel: the headline is one product-card title per card. The 2-4 Nov screenshot benchmark (docs/creative/ads-20/build/scores.json, GIVA-catalogue) recorded 'code BLING in the caption'. Sibling ads with the same card set (1304850341746813 and others) match '925 silver warranty'.",
+   "headline": "Silver Grey Pearl Earrings | Silver White Pearl Earrings | Silver Zircon Earrings | Rose Gold Heart Necklace | Silver Leaf Necklace | Silver Mystic Moonbeam Link Chain",
+   "started": "2026-11-03 (ad 2014177569269144)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. This is a live collection ad whose headline is the unfilled template placeholder.",
+   "headline": "default_collection_headline",
+   "started": "2026-11-03 (ads 1664072515759860, 1914849862826485)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. The headline is the auto-pulled Instagram profile title. In the 2-4 Nov benchmark this ad's on-image line was 'A hot cup of silver, anyone?'. That line is on the image, not in the caption.",
+   "headline": "GIVA - Silver-Gold-Lab Grown Diamonds (@giva.co) • Instagram photos and videos",
+   "started": "2026-11-02 (ad 2206004693675233)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. A catalogue carousel. Keyword probes show its creative text contains: certified, and '925 silver warranty'.",
+   "headline": "Silver Minimal Bead Anklet | Marble Edge Gold Plated Hoop Earrings | Silver Nemesis Ring (Size 12) | Golden Mystic Moonbeam Link Chain | Silver Minimal Nazariya Kids Anklet Pair (1 - 5 Years) | Silver Helix Zircon Necklace",
+   "started": "2026-11-02 (ad 2211120599749654)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains: certified, and '925 silver warranty'.",
+   "headline": "Bring Out Your Inner Pataka! 🪔",
+   "started": "2026-11-02 (ads 1797925071254757, 1779131473344960)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains: certified, and '925 silver warranty'. A sibling ad, 983303404246111, headlined 'Flat 20% Off ₹999+ | Code BLING' (started 2026-10-31), matches hypoallergenic.",
+   "headline": "Flat 20% Off ₹999+ | Code: BLING",
+   "started": "2026-11-02 (ads 1472984114774083, 1359894089389650, 1420703883510302 and more)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains '925 silver warranty'.",
+   "headline": "This Diwali, Shine Like a Pataka with GIVA",
+   "started": "2026-11-02 (ads 4484467251882064, 28951911247792399, 1661841471993854)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains '925 silver warranty'.",
+   "headline": "Find your festive favourite at GIVA",
+   "started": "2026-11-02 (ad 2200703144184104)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. This is the only active GIVA ad whose creative text matches 'cash on delivery' (1 of about 434).",
+   "headline": "Buy 2 Get 15% Off | New Customer Exclusive",
+   "started": "2026-10-12 (ad 1896588741746373)",
+   "cta": "not returned by tool"
+  }
+ ],
+ "palmonas": [
+  {
+   "text": "Primary text not returned by the Ad Library tool. Sibling ad 1616728306116032, with the same headline, matches waterproof, 'waterproof anti-tarnish' and demifine. 'Diwali Sale' matches about 1,255 of about 2,158 active Palmonas ads.",
+   "headline": "1000+ Pieces starting at ₹999 | The Diwali Sale",
+   "started": "2026-11-04 (ad 1440209594748173 and dozens of duplicates)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains 'Diwali Sale'. The headline has only 'Diwali', so the word 'Sale' is probably in the body.",
+   "headline": "Buy 9KT on Dhanteras this Diwali. 🪔",
+   "started": "2026-11-04 (ads 2190141815228377, 1451717923573452, 2062929334361631 and more)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. A catalogue (DPA) carousel: each card title is the price and the product name.",
+   "headline": "₹1,199 | Tiny Plates Bracelet | ₹1,199 | Oyster With Tiny Pearl Necklace | ₹1,199 | Small Bar Bracelet | ₹1,199 | Moonstone Quartz Necklace | ₹1,199 | Colourful Stones Necklace | ₹1,199 | Chunky Gold Chain Ring",
+   "started": "2026-11-04 (ad 2223171914899349)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned.",
+   "headline": "FLAT 50% OFF on Diwali Gift boxes | The Diwali Sale",
+   "started": "2026-11-04 (ads 1130492832801273, 2089761691660534)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. A catalogue carousel at one price.",
+   "headline": "₹999 | Cute Heart Bracelet | ₹999 | Star Moon Bracelet | ₹999 | Plain Chain Two Layer Necklace | ₹999 | Round Belle Three Layer Necklace | ₹999 | Plain Oval Hoop Earrings | ₹999 | Infinity Wish Bracelet",
+   "started": "2026-11-04 (ad 1012212311898065)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. A catalogue carousel. Keyword probes show its creative text contains: lifetime, 18k, waterproof, demifine.",
+   "headline": "₹2,580 | Emerald Aventurine Necklace | ₹2,258 | Double Rings Bracelet | ₹1,199 | Tiny Plates Bracelet | ₹2,018 | Cuff Bracelet With Ring | ₹999 | Star Moon Bracelet | ₹1,199 | Small Bar Bracelet",
+   "started": "2026-11-04 (ad 1135072032270160)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. A store-visit ad.",
+   "headline": "📍 Visit PALMONAS Store at Turner Road!",
+   "started": "2026-11-04 (ad 1421008203029306)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains 'code' (also in siblings 1663230995514607 and 2229516194667782).",
+   "headline": "Buy 4 at ₹2,999 | The Diwali Sale",
+   "started": "2026-11-04 (ad 1384709880174491 and about 12 duplicates)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned.",
+   "headline": "1000+ pieces starting at ₹999 | Buy 4 at ₹2,999 | The Diwali Sale",
+   "started": "2026-11-04 (ad 1646768106835552)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned.",
+   "headline": "1000+ pieces at FLAT ₹999 | Buy 4 at ₹2,999 | The Diwali Sale",
+   "started": "2026-11-04 (ad 1434826512007394)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned.",
+   "headline": "EXTRA 40% OFF | The Diwali Sale",
+   "started": "2026-11-03 (ad 2353374625408237 and about 15 duplicates)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned. Keyword probes show its creative text contains 'returns' (16 active Palmonas ads match 'returns').",
+   "headline": "Unwrap Gifts From PALMONAS",
+   "started": "2026-10-07 (ads 1446311397419583, 1639095644673758, 927781033461632)",
+   "cta": "not returned by tool"
+  },
+  {
+   "text": "Primary text not returned, and no headline either. Keyword probes show its creative text contains: waterproof, 'waterproof anti-tarnish', demifine.",
+   "headline": "(empty)",
+   "started": "2026-11-04 (ad 2085556798764460)",
+   "cta": "not returned by tool"
+  }
+ ],
+ "naira": [
+  {
+   "key": "ADS20_S1_01_ruby_necklace",
+   "text": "A fine line of red baguettes, set crosswise in gold tone claws. In red, clear or green cubic zirconia. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S1_02_woven_hoops",
+   "text": "A braided rope of gold tone, 25mm across, made to be worn every day. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S1_03_prism_riviere",
+   "text": "Aqua, pink and yellow, one stone after another, each in its own halo. Silver tone. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S1_04_cushion_halo_ring",
+   "text": "One bright stone in a cushion halo, silver tone, adjustable to fit US 5 to 9. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S1_05_toggle_chain",
+   "text": "Oval links and a toggle clasp worn at the front, in gold tone. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S2_06_verdant_band_mehendi",
+   "text": "Greener than the mehendi: green cubic zirconia all the way round, silver tone, adjustable to fit US 5 to 9. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S2_07_huggies_gajra",
+   "text": "The gajra's plus-one: 15mm gold tone huggies with one row of baguettes, in clear, red, green or purple. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S2_08_kiss_knot_gift",
+   "text": "For the one tying the knot: a ribbed coil bangle crossed under one polished X, in gold or silver tone. Every piece arrives in the Naira gift box."
+  },
+  {
+   "key": "ADS20_S2_09_marquise_layers_sangeet",
+   "text": "Layered for the sangeet: two fine chains, a marquise drop and a Y-lariat, made to be worn together. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S2_10_verdant_studs_banarasi",
+   "text": "Matches the Banarasi: a green cushion stone over an open circlet, gold tone, 16.8mm tall. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S3_11_tennis_bracelet_three",
+   "text": "Pick any three and take 20% off, applied in your bag with no code. Any two, 10% off. Shown: Baguette Tennis Bracelet, ₹1,499."
+  },
+  {
+   "key": "ADS20_S3_12_brushed_huggies_799",
+   "text": "Brushed gold tone huggies, 14mm, with free insured shipping. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S3_13_halo_curve_shipping",
+   "text": "Insured delivery in 3–5 working days, free across India. Shown: Halo Curve Ring, a golden brown stone beside a champagne one, adjustable, ₹1,199."
+  },
+  {
+   "key": "ADS20_S3_14_pearl_nugget_giftbox",
+   "text": "Every piece arrives in the Naira gift box, ready to give. Shown: Pearl Nugget Hoops, ₹1,199. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S3_15_emerald_deco_cod",
+   "text": "Cash on delivery on serviceable pincodes, with UPI, cards and net banking too. Shown: Emerald Deco Hoops in silver tone, ₹1,249."
+  },
+  {
+   "key": "ADS20_S4_16_prism_cluster_teal",
+   "text": "Three colours, zero outfit drama: purple, pink and yellow in one curved row, silver tone. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S4_17_marquise_choker_haldi",
+   "text": "Yellow is the dress code. A fine gold tone collar with a sideways marquise and a 6cm drop. Also in silver tone. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S4_18_mesh_cuff_reception",
+   "text": "One cuff, every function: fine woven mesh with two polished ends, in gold or silver tone. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "ADS20_S4_19_ribbon_bracelet_bridesmaids",
+   "text": "One for every bridesmaid: a fine gold tone chain with a tiny two-heart bow, ₹799. Buy three and take 20% off, applied in your bag."
+  },
+  {
+   "key": "ADS20_S4_20_aqua_heart_something_blue",
+   "text": "Something blue, sorted: an arc of clear stones ending in a pale blue heart, silver tone, 29mm. Buy 2 for 10% off, 3 for 20% off."
+  },
+  {
+   "key": "TOGGLE_X01_kabhi_front",
+   "text": "Kabhi front, kabhi side: the ring-and-bar clasp sits wherever you turn it. 50 cm of 4 mm paperclip links in gold tone. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "TOGGLE_X02_sticky_note",
+   "text": "A necklace you fasten in front, where you can see it, and then leave there. The ring is about 15 mm, with a short bar of tiny clear stones. Gold tone, 50 cm. Every piece arrives in the Naira gift box."
+  },
+  {
+   "key": "TOGGLE_X03_unpopular_opinion",
+   "text": "We said it. A ring clasp and a short bar of tiny clear stones, worn at the front so they show. The Toggle Link Chain, ₹1,199. Free insured shipping."
+  },
+  {
+   "key": "TOGGLE_X04_looks_expensive",
+   "text": "Paperclip links, a front clasp, a line of tiny clear stones. ₹1,199, in the Naira gift box. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "TOGGLE_X05_gem_clip",
+   "text": "Every desk has a box of gem clips. This one got promoted: 50 cm of 4 mm paperclip links in gold tone, with a ring clasp you wear at the front. ₹1,199."
+  },
+  {
+   "key": "TOGGLE_X06_tap_the_link",
+   "text": "The link in question: 4 mm paperclip links, 50 cm, gold tone, with a ring-and-bar clasp at the front. ₹1,199. Free insured shipping."
+  },
+  {
+   "key": "TOGGLE_X07_anatomy",
+   "text": "The ring, about 15 mm. The toggle bar, with one line of tiny clear stones. 50 cm of 4 mm paperclip links. All of it meant to be seen. ₹1,199."
+  },
+  {
+   "key": "TOGGLE_X08_goes_with",
+   "text": "White tee, office shirt, kurta, saree blouse, turtleneck. One chain for all of it, clasp at the front. ₹1,199, in the Naira gift box."
+  },
+  {
+   "key": "TOGGLE_X09_checkerboard",
+   "text": "The clasp is the point: a ring of about 15 mm and a short bar of tiny clear stones, worn at the front or the side. ₹1,199, gift-boxed, free insured shipping."
+  },
+  {
+   "key": "TOGGLE_X10_hook_laga_do",
+   "text": "Nobody needs to do the hook at the back: this one fastens and sits at the front. 50 cm of 4 mm paperclip links in gold tone. ₹1,199. Buy 2 for 10% off, 3 for 20% off, applied in your bag."
+  },
+  {
+   "key": "PERF_03_prism_pick_all_three",
+   "text": "Pick all three. Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_13_mesh_cuff_pheni",
+   "text": "Finer than pheni. A 19 mm tube of fine woven mesh with mirror-polished end caps, in 18k gold tone. The Silk Mesh Cuff, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_20_cluster_rangoli",
+   "text": "Rangoli you can wear. Purple, pink and yellow cubic zirconia in one small arc, with tiny pearls. The Prism Cluster Studs, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_28_eternity_kesar",
+   "text": "Worth its weight in kesar. Ruby-red baguette cubic zirconia set crosswise all the way round, each held by small 18k gold-tone claws. The Baguette Eternity Band, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_58_huggies_choodi",
+   "text": "Choodi, for your ears. Emerald-green baguette cubic zirconia across the front of a 15 mm hinged huggie, in 18k gold tone. The Baguette Huggies, ₹1,199.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_67_riviere_ladi",
+   "text": "A ladi that never fuses. One fine line of clear cubic zirconia with a polished buckle clasp. The Rivière Eternal Bracelet, ₹1,449.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_68_dome_ghungroo",
+   "text": "Ghungroo, on mute. 16 mm dome huggies in mirror-polished 18k gold tone, with a hinged snap. The Bold Dome Huggies, ₹999.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_53_prism_kaagaz_ki_kashti",
+   "text": "Kaagaz ki kashti. Aqua, pink and yellow cubic zirconia, each in its own pavé halo, in rhodium silver tone. The Prism Rivière Bracelet, ₹2,399.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_51_toggle_paperclip_promoted",
+   "text": "Paperclip, promoted. A 50 cm paperclip chain in 18k gold tone that closes with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_66_ribbon_mummys_bow",
+   "text": "Mummy's bow, minus the tug. A small crystal bow on a fine 18k gold-tone chain. The Ribbon Bead Bracelet, ₹799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_19_aqua_heart_pink_city",
+   "text": "Pink City, blue heart. A curve of clear brilliants with an icy aqua heart below, rhodium silver tone. The Aqua Heart Drops, ₹1,499.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_59_nocturne_art_class",
+   "text": "Art class, all grown up. Chunky 18k gold-tone links and one link set all over in pavé. The Bold Nocturne Chain, ₹1,799.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_64_marquise_kai_po_che",
+   "text": "Kai po che! A 40 cm marquise solitaire and a 45 cm Y-lariat, made to be worn together. The Marquise Layering Set, ₹1,599.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_p3-02_toggle_date_night",
+   "text": "Date night. A 50 cm paperclip chain in 18k gold tone that closes with a pavé bar through a ring. The Toggle Link Chain, ₹1,299.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  },
+  {
+   "key": "PERF_p3-25_tennis_necklace_dress_code",
+   "text": "Dress code: sparkle. One line of clear baguette cubic zirconia that sits right at the base of the neck. The Baguette Tennis Necklace, ₹2,300.\n\nTake 2 pieces for 10% off or 3 for 20% off, with codes BUY2 and BUY3 at checkout. Free insured shipping and cash on delivery across India."
+  }
+ ],
+ "comparison": [
+  {
+   "dimension": "Length",
+   "giva": "Bodies not returned, so length was not measured. Headlines run 3-9 words (catalogue headlines are six card titles joined by pipes). The keyword matches suggest long bodies: most of the 14 sampled ads match three to six separate claims (code, lifetime, warranty, returns, certified, free shipping). That is an inference, not a measurement.",
+   "palmonas": "Bodies not returned. The only measured figure is from the 19 Aug 2026 Motion pull (docs/research/01-competitor-corpus.md): median caption 279 characters. Headlines are pipe-joined offer strings, and the catalogue headlines carry six price and name cards.",
+   "naira": "Measured. ads-20: median 129 characters (115-157), 26 words, one paragraph. toggle-15: median 149 (132-200). Manifest: median 272.5 characters (233-327), 51 words, in two paragraphs split by a blank line. The 15 sampled here run 250-308.",
+   "verdict": "Naira's ads-20 length is right: the hook, the fact and most of the offer show before '...more' (about 125 characters in Feed). The manifest's 270 characters, like Palmonas's 279, hide the offer and proof behind '...more'. For Shop All, write 120-180 characters in one paragraph."
+  },
+  {
+   "dimension": "First 5 words (hook before ...more)",
+   "giva": "Headlines lead with the brand, the occasion or the offer: 'Giva Now Delivers in Just', 'Shubh Dhanteras is 2 hours', 'Celebrate Traditions with Pure Silver', 'Flat 20% Off ₹999+ |', 'Bring Out Your Inner Pataka!'. The body openings were not visible.",
+   "palmonas": "Number or offer first: '1000+ Pieces starting at ₹999', 'Buy 4 at ₹2,999 |', 'EXTRA 40% OFF | The', 'Buy 9KT on Dhanteras this', and '₹999 | Cute Heart Bracelet' on the catalogue cards.",
+   "naira": "The manifest opens with a familiar thing, turned, in 2-5 words: 'Finer than pheni.', 'Choodi, for your ears.', 'A ladi that never fuses.', 'Ghungroo, on mute.', 'Rangoli you can wear.'. Some are generic ('Date night.', 'Dress code: sparkle.', 'Make an entrance.'). ads-20 mostly opens with plain description ('A fine line of red', 'A braided rope of gold', 'Oval links and a toggle') or with the offer ('Pick any three and take'). The set-2 openings ('Greener than the mehendi:', 'The gajra's plus-one:') follow the winning grammar.",
+   "verdict": "Naira wins, but only when the first five words name an Indian thing and turn it. That is the grammar behind 'Rangoli, in a line.' (6.10%), 'Anaar, pre-peeled.' (5.49%) and 'Finer than pheni.' (4.32%). ads-20's description-first openings waste the hook. Do not copy the competitors' brand-first or percent-first openings: the brief says discount hooks are saturated in India."
+  },
+  {
+   "dimension": "Offer placement",
+   "giva": "The offer is in the headline ('Flat 20% Off ₹999+ | Code: BLING', 'Buy 2 Get 15% Off | New Customer Exclusive'). 'code' matches about 242 of about 434 active ads. Codes are the house default: in the Aug pull, a code appeared in 105 of 151 creatives and 80% of copy carried an offer.",
+   "palmonas": "The offer is the headline. 'The Diwali Sale' matches about 1,255 of about 2,158 active ads, alongside 'Buy 4 at ₹2,999', 'EXTRA 40% OFF' and 'FLAT 50% OFF on Diwali Gift boxes'. 'code' matches about 96. In the Aug pull, 58% of copy carried an offer and 23% used urgency.",
+   "naira": "The offer comes last. In ads-20 it starts at 53-77% of the way through the caption. The exception is the five set-3 'reason to buy' ads (S3_11 to S3_15), which open with the offer or a service fact. In the manifest the offer sits alone in a second paragraph and still says 'with codes BUY2 and BUY3 at checkout', which is stale: the bag now applies it.",
+   "verdict": "Naira's placement is correct for the brief (offer low in the hierarchy, or as the twist). The wording has to be fixed: 'Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.' No codes, no 'sale', no percent-off against a compare-at price."
+  },
+  {
+   "dimension": "Proof / trust lines (shipping, COD, returns, warranty, ratings)",
+   "giva": "The densest stack. Approximate matches across about 434 active ads: lifetime 237, returns 218, warranty 201, '925 silver warranty' 137, certified 134, free shipping 123, hypoallergenic 103, cash on delivery 1. It also sells speed ('Giva Now Delivers in Just 2 Hours'). Ratings were not tested.",
+   "palmonas": "Material claims rather than service proof: demifine 373, waterproof 62, 18k 55, 'waterproof anti-tarnish' 49, returns 16, lifetime 5, free shipping 0, COD 0. Physical stores appear as proof ('📍 Visit PALMONAS Store at Turner Road!').",
+   "naira": "True, specific service facts: free insured shipping, 3-5 working days, COD on serviceable pincodes, the Naira gift box, adjustable US 5-9. But each ads-20 caption carries at most one, and most carry only the offer. 7-day returns appears in none of the 45 captions. The manifest says 'cash on delivery across India', which overclaims: COD covers serviceable pincodes only.",
+   "verdict": "GIVA wins on volume and Naira wins on truth. A cold Shop All audience needs one short service line per caption, rotated across the 10 ads: free insured shipping in 3-5 working days, 7-day returns, COD on serviceable pincodes, the gift box. Never borrow the durability claims (waterproof, anti-tarnish, hypoallergenic): they are banned for Naira."
+  },
+  {
+   "dimension": "Emoji and formatting",
+   "giva": "Emoji and exclamation marks in headlines ('Bring Out Your Inner Pataka! 🪔'), Title Case throughout, pipes. One live collection ad shows the raw placeholder 'default_collection_headline'. Body emoji could not be seen.",
+   "palmonas": "ALL-CAPS offers ('EXTRA 40% OFF', 'FLAT 50% OFF', 'PALMONAS'), the 🪔 and 📍 emoji, '!', and pipe-stacked price and name strings.",
+   "naira": "No emoji in any caption. No '!' in ads-20 or toggle-15, and one in the manifest ('Kai po che!'). Sentence case. The manifest splits each caption into two paragraphs with a blank line; ads-20 and toggle-15 are single paragraphs. Headlines use '·'.",
+   "verdict": "Naira's restraint is on brand and stands out in a feed full of 🪔 and caps. Keep zero emoji and zero '!' (remove 'Kai po che!'), and keep one paragraph."
+  },
+  {
+   "dimension": "CTA wording",
+   "giva": "The button was not returned by the tool. Headlines are brand-centred invitations ('Find your festive favourite at GIVA', 'Celebrate with Giva'). The same page also runs a franchise lead ad ('Own a GIVA Store').",
+   "palmonas": "The button was not returned. Headlines are imperative: 'Buy 9KT on Dhanteras', 'Buy 4 at ₹2,999', 'Visit PALMONAS Store', 'Unwrap Gifts From PALMONAS'.",
+   "naira": "Shop now on every ad (captions.json; manifest cta SHOP_NOW). The text never says 'shop now' and ends on the offer or a fact. Headline: product · price.",
+   "verdict": "Even on the button, since everyone uses Shop now. Naira should keep the command out of the text. For Shop All, the headline changes job: it should carry the range and the entry price ('130+ pieces, from ₹599'), not one product's name."
+  },
+  {
+   "dimension": "Tone",
+   "giva": "Festive, brand-centred clichés ('Make This Diwali Truly Meaningful', 'Celebrate Traditions with Pure Silver', 'Shine Like a Pataka'). One sharp line: 'Shubh Dhanteras is 2 hours away' ties the festival to the 2-hour delivery.",
+   "palmonas": "A sale machine: one named sale, numbers and caps, repeated across more than a thousand ads. Little voice beyond 'Unwrap Gifts'.",
+   "naira": "A sharp, wry friend who is exact: 'Ghungroo, on mute.', 'Mummy's bow, minus the tug.', 'Three colours, zero outfit drama'. It drifts in the generic occasion lines ('Date night.', 'Dress code: sparkle.', 'Make an entrance.'), the kind the brief's own data puts under 2.2% CTR.",
+   "verdict": "Naira clearly wins. Cut every line that could sell anything."
+  },
+  {
+   "dimension": "Specificity of product facts",
+   "giva": "Material and service facts ('Pure Silver'; 925, silver and warranty together in about 137 ads; '2 Hours'). Product names appear only as catalogue card titles ('Silver Mystic Moonbeam Link Chain'). No sizes visible.",
+   "palmonas": "A price on every catalogue card ('₹2,580 | Emerald Aventurine Necklace'). Range plus price floor ('1000+ pieces starting at ₹999'). No sizes visible.",
+   "naira": "The most specific of the three: mm, cm, cut, colour, setting, tone and exact price with the Indian comma ('15mm gold tone huggies with one row of baguettes', '50 cm of 4 mm paperclip links'). Faults in the manifest: '18k gold tone' and 'rhodium silver tone' where the brief says plain 'gold tone' and 'silver tone', and 'tiger's eye' (a gem name) in the Halo Curve captions. Spacing is inconsistent ('15mm' vs '15 mm').",
+   "verdict": "Naira wins. Palmonas's range-plus-floor line is the one structure worth taking for Shop All, written Naira's way and true: '130+ pieces from ₹599', the four categories, then one named piece with its pool.json price and one exact detail."
+  },
+  {
+   "dimension": "Hinglish",
+   "giva": "Light festive loanwords inside English headlines: 'Pataka' ('Bring Out Your Inner Pataka!', 'Shine Like a Pataka'), 'Shubh Dhanteras'.",
+   "palmonas": "None in the headlines beyond festival names (Diwali, Dhanteras).",
+   "naira": "Hindi nouns and short phrases that carry the hook: 'Kabhi front, kabhi side', 'Kaagaz ki kashti', choodi, ladi, ghungroo, kesar, pheni, mehendi, gajra, sangeet, haldi, Banarasi; also Gujarati 'Kai po che!'. No full Hinglish sentences. The 'hook laga do' idea survived only in the file name: the caption itself is English.",
+   "verdict": "Naira uses it best: one Hindi word or 3-4 word phrase that lands the hook, with the rest in plain English. Keep that dose."
+  }
+ ],
+ "rules": [
+  "1. Length and shape: one paragraph, 120-180 characters, no line breaks. The hook and the range fact must sit inside the first 125 characters so they show before '...more'. Model: 'Rangoli, in a line. One of 130+ pieces from ₹599: the Prism Rivière Bracelet, silver tone, ₹2,399. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.' (159 characters)",
+  "2. First 2-5 words: name one familiar Indian thing that is really in the photo (rangoli, anaar, pheni, mishri, elaichi, potli, toran, a saree pallu) and turn it, or state a craft truth as 'X, not Y' ('Woven, not cast.'). Never open with a percentage, a price, the brand name, 'Shop', 'Celebrate' or 'Discover', or an occasion that could sell anything ('Date night.', 'Dress code: sparkle.').",
+  "3. Sell the range in the next clause: '130+ pieces from ₹599' (never 135, never a rounded-up boast). Add the four categories when there is room: rings, earrings, necklaces, bracelets. For a pool hero you may say 'our most-clicked pieces', and nowhere else.",
+  "4. Name the piece shown, with its exact pool.json price (₹ sign, Indian comma: ₹1,199) and one exact detail (25 mm, ruby red, adjustable US 5 to 9). The photo earns the stop; the caption proves the stop was worth it.",
+  "5. The offer goes last, in these words: 'Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.' No codes (drop BUY2/BUY3), no 'sale', no percent-off against compare-at prices, and never the offer in the first five words.",
+  "6. Add one proof line, rotated across the 10 ads: 'Free insured shipping, 3-5 working days.' / '7-day returns.' / 'Cash on delivery on serviceable pincodes.' (never 'across India') / 'Every piece arrives in the Naira gift box.' At most two per caption. No ratings, order counts or reviews.",
+  "7. Material words: 'gold tone' and 'silver tone' only (drop '18k' and 'rhodium'); 'cubic zirconia' or the colour (ruby red, emerald green, aqua); 'shell pearl'; no gem names (tiger's eye, emerald or ruby as nouns). Never: real, diamond, gold, silver, waterproof, tarnish words, hypoallergenic, stunning, elevate, must-have, luxury.",
+  "8. Formatting: sentence case, full stops, no emoji, no exclamation marks, no hashtags, no pipes, no ALL CAPS except one short word at most. The quiet caption is the differentiator in a feed of 🪔 and 'FLAT 50% OFF'.",
+  "9. Hinglish dose: at most one Hindi word or short phrase, used as or inside the hook, that an urban reader needs no gloss for (kabhi, potli, choodi, ladi, ghungroo). Everything else in plain English.",
+  "10. No urgency or scarcity of any kind: no countdowns, 'limited time', 'only X left', 'hurry' or festival deadlines, even where stock is genuinely low (the Ruby huggies have 4 units).",
+  "11. CTA and headline: leave 'Shop now' to Meta's button and keep it out of the text. Headline at most 40 characters, carrying the range and the entry price ('130+ pieces, from ₹599' or 'All pieces · from ₹599'). Link to https://nairaflore.com/jewellery.",
+  "12. The transfer test: if the caption would still work under a different photo or another brand's ad, rewrite it. Never name or allude to a competitor, and never compare."
+ ],
+ "scores": {
+  "giva": 6,
+  "palmonas": 5,
+  "naira": 7.5,
+  "why": "GIVA and Palmonas are scored provisionally: their primary texts could not be read, so their scores rest on verbatim live headlines, keyword-match counts across their active ads and the 19 Aug 2026 corpus. GIVA 6: the strongest trust stack in the category (lifetime, warranty, returns, certified and free shipping each in roughly 30-55% of active ads) and one clever line ('Shubh Dhanteras is 2 hours away'). Against that: code-led offers (BLING), brand-centred festive clichés, emoji and Title Case, and a live 'default_collection_headline' placeholder. Palmonas 5: one message ('The Diwali Sale') stamped on over a thousand ads, percent and price first, caps and emoji, no service proof (0 free shipping, 0 COD) and durability claims (waterproof, anti-tarnish). Its 'range plus price floor' line and price-per-card catalogue titles are clear, and are the one structure worth taking. Naira 7.5 (ads-20 7.5, toggle-15 8, manifest 6.5 as written today): the best hooks, voice and product specificity, with no emoji, caps or code-speak. It loses points because the 110-caption manifest still says 'codes BUY2 and BUY3 at checkout' and 'cash on delivery across India', uses '18k', 'rhodium' and 'tiger's eye', has one 'Kai po che!' and identical boilerplate behind '...more' at about 270 characters. ads-20 often wastes the first five words on description. Generic occasion hooks recur, 7-day returns is never mentioned, and no caption yet sells the range."
+ },
+ "source_note": "None of the 27 GIVA and Palmonas items holds a real caption: the Meta Ad Library tool does not return primary text, and none was invented. What failed: mcp__meta_ads_mcp__ads_library_search worked (4 Nov 2026, countries IN, ad_active_status ACTIVE) but each ad comes back with only id, page_id, page_name, ad_creative_link_title (the headline), creation and delivery start times, snapshot URL and currency. There is no primary text (ad_creative_bodies), no CTA, no link description and no image. Searches run: page_ids 350941852220221 (GIVA, estimated 434 active), page_ids 104818178629041 (Palmonas, estimated 2,158 active), search_terms 'GIVA' (919), 'Palmonas' (2,250) and 'giva.co' (642; the last three mix in malls, the Eternz reseller and GIVA's sub-brands Heer and Ixia). So the headlines and start dates in giva/palmonas are verbatim and real; each 'text' field says the primary text was not returned and lists keyword-match evidence; CTA is 'not returned by tool'. Fallbacks tried: (1) WebFetch of a snapshot URL (facebook.com/ads/library/?id=1579055043976887) returned HTTP 403. (2) curl of a snapshot URL returned a JavaScript bot-verification page, which I did not try to get around. (3) The Graph API ads_archive without a token returned OAuthException code 1. (4) Motion Creative Analytics get_auth_context returned FORBIDDEN: trial expired. (5) No browser tool is available in this session. Substitute evidence: keyword searches inside each page (search_terms with ACTIVE and IN, checked against the control word 'pomegranate', which returned 0). These are Meta's estimated_total_count and can match any creative text field, so they show presence, not placement or wording. GIVA (of about 434): code 242, lifetime 237, returns 218, warranty 201, '925 silver warranty' 137, certified 134, free shipping 123, hypoallergenic 103, cash on delivery 1. Palmonas (of about 2,158): 'Diwali Sale' 1,255, demifine 373, code 96, waterproof 62, 18k 55, 'waterproof anti-tarnish' 49, returns 16, lifetime 5, free shipping 0, COD 0. Secondary context, labelled where used: /home/user/naira-scroll/docs/research/01-competitor-corpus.md (Motion pull of 19 Aug 2026: Palmonas median caption 279 characters; GIVA code in 105 of 151 creatives; offer in 80% of GIVA copy and 58% of Palmonas copy; urgency 9% vs 23%) and /home/user/naira-scroll/docs/creative/ads-20/build/scores.json (2-4 Nov screenshot benchmark: GIVA catalogue caption carried code BLING). Naira: all 20 from /home/user/naira-scroll/docs/creative/ads-20/captions.json, all 10 from /home/user/naira-scroll/docs/creative/toggle-15/captions.json, and 15 of the 110 distinct primary_text fields in /home/user/naira-scroll/docs/creative/performance/handoff/manifest.json (as_of 2026-10-23), chosen to show both the strong hooks and the generic or rule-breaking ones. The manifest captions are verbatim, so they still say 'with codes BUY2 and BUY3 at checkout' (stale: the bag now applies the offer) and 'cash on delivery across India' (should be serviceable pincodes only). Naira's length and offer-position figures were computed with /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/captions/stats.py. To get the real competitor primary texts, open the snapshot URLs listed in the items in a signed-in browser, or renew Motion, then re-score."
+}
