@@ -78,5 +78,61 @@
    "format": "Feed",
    "why": "A familiar Indian thing turned, one piece on one ground."
   }
- ]
+ ],
+ "round2_recheck": {
+  "_about": "Independent re-check after the first round of fixes (4 Nov 2026). X07 cut after this round.",
+  "verdicts": {
+   "X01_kabhi_front": [
+    "fix",
+    7,
+    "Story subline starts 5 px from the chain"
+   ],
+   "X02_sticky_note": [
+    "pass",
+    8,
+    ""
+   ],
+   "X03_unpopular_opinion": [
+    "pass",
+    6,
+    "cut-off props in the inset photo"
+   ],
+   "X05_gem_clip": [
+    "fix",
+    7,
+    "Story price line rests on the chain"
+   ],
+   "X07_anatomy": [
+    "fix",
+    5,
+    "circle and arrows still land on the metal; more clutter"
+   ],
+   "X08_goes_with": [
+    "pass",
+    7,
+    "Story line break"
+   ],
+   "X09_checkerboard": [
+    "fix",
+    7,
+    "FREE INSURED / SHIPPING reads as two items"
+   ],
+   "X10_hook_laga_do": [
+    "pass",
+    8,
+    ""
+   ]
+  },
+  "rank": [
+   "X02_sticky_note",
+   "X10_hook_laga_do",
+   "X05_gem_clip",
+   "X01_kabhi_front",
+   "X08_goes_with",
+   "X09_checkerboard",
+   "X03_unpopular_opinion",
+   "X07_anatomy"
+  ],
+  "note": "X01, X02, X08 and X10 share the worn photo; X01 and X10 are the same picture with different words, so keep them in separate ad sets."
+ }
 }
