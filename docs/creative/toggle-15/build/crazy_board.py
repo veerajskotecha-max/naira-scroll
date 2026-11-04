@@ -8,12 +8,10 @@ esc = lambda s: html.escape(s or "", quote=True)
 META = [
  ("X01_kabhi_front", "Kabhi front. Kabhi side.", "The clever one", "A Bollywood title turned into a product truth: the clasp sits at the front or the side."),
  ("X02_sticky_note", "Note to self: the clasp goes in FRONT.", "Lo-fi", "A sticky note and a marker arrow on a polished photo: the pattern interrupt."),
- ("X03_unpopular_opinion", "Unpopular opinion: the clasp is the best part of a necklace.", "Platform-native", "A plain post from Naira, the way a feed looks, not the way an ad looks."),
- ("X04_looks_expensive", "Looks expensive. Isn&rsquo;t.", "Price reveal", "The jewellery price-reveal hook, said dry, on the darkest, richest photo."),
+ ("X03_unpopular_opinion", "Unpopular opinion: the clasp should be at the front.", "Platform-native", "A plain post from Naira with the photo inside it, the way a feed looks, not the way an ad looks."),
  ("X05_gem_clip", "Gem clip, promoted.", "Look-alike", "What India calls a paperclip; the best Toggle number came from paperclips."),
- ("X06_tap_the_link", "Tap the link.", "Platform-native", "The chain's links, the web's links: the call to action is the joke."),
- ("X07_anatomy", "Anatomy of a show-off clasp", "Lo-fi", "Marker scribbles that name each part, with only what the listing says."),
- ("X08_goes_with", "Goes with:", "Platform-native", "A checklist note of Indian necklines, ending on a wink."),
+ ("X07_anatomy", "Anatomy of a show-off clasp", "Lo-fi", "Marker scribbles that name each part, with only what the listing says, and a gem clip for scale."),
+ ("X08_goes_with", "Goes with:", "Platform-native", "A short list of Indian necklines, ending on a wink."),
  ("X09_checkerboard", "The clasp is the point.", "The checkerboard", "Four panels: line, worn, detail, price and promises. More time on the ad."),
  ("X10_hook_laga_do", "No more &lsquo;hook laga do&rsquo;.", "Problem, solved", "What everyone says to whoever is nearest, made unnecessary by a front clasp."),
 ]

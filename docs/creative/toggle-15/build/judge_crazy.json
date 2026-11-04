@@ -1,0 +1,82 @@
+{
+ "_about": "Independent judge, round 1, on the ten hook tests as first built (4 Nov 2026). It saw only the images and the rules. The fixes made after it are in 'after'.",
+ "round1": [
+  {
+   "key": "X01_kabhi_front",
+   "overall": 6,
+   "verdict": "fix",
+   "after": "Subline 'The clasp sits front or side'; the Feed wordmark dropped from the skin; the Story's full-width haze replaced by a soft cream cloud behind the type."
+  },
+  {
+   "key": "X02_sticky_note",
+   "overall": 7,
+   "verdict": "pass",
+   "after": "Arrows stop short of the ring's gate collar; the Story wordmark moved between the strands."
+  },
+  {
+   "key": "X03_unpopular_opinion",
+   "overall": 5,
+   "verdict": "fix",
+   "after": "Moved off the sage-leaf photo to a plain post with the chain photo inside the card; the line now about this chain: 'the clasp should be at the front'."
+  },
+  {
+   "key": "X04_looks_expensive",
+   "overall": 4,
+   "verdict": "fail",
+   "after": "Cut: the rose is the hero, the loop reads as a bracelet, and a price-led line frames the brand as a stand-in."
+  },
+  {
+   "key": "X05_gem_clip",
+   "overall": 8,
+   "verdict": "pass",
+   "after": "The Story's clasp lifted above y=1500."
+  },
+  {
+   "key": "X06_tap_the_link",
+   "overall": 3,
+   "verdict": "fail",
+   "after": "Cut: the pun lands on a second read and the blue hyperlink imitates a link that does not exist."
+  },
+  {
+   "key": "X07_anatomy",
+   "overall": 6,
+   "verdict": "fix",
+   "after": "Moved to the gem-clip photo with a label that names the clip as the scale; the circle drawn clear of the metal; arrows stop short; the Story's labels re-laid without collisions."
+  },
+  {
+   "key": "X08_goes_with",
+   "overall": 5,
+   "verdict": "fix",
+   "after": "Four items; hand-drawn ticks without boxes; the Story card ends well above the clasp."
+  },
+  {
+   "key": "X09_checkerboard",
+   "overall": 7,
+   "verdict": "pass",
+   "after": "Info lines at 30 px; the Story grid runs full bleed."
+  },
+  {
+   "key": "X10_hook_laga_do",
+   "overall": 8,
+   "verdict": "pass",
+   "after": "The Feed wordmark dropped from the skin; the Story haze replaced by the cream cloud."
+  }
+ ],
+ "budget_first_round1": [
+  {
+   "key": "X10_hook_laga_do",
+   "format": "Story",
+   "why": "The moment every Indian woman knows, turned into the product's advantage, with the clasp shown where the line says."
+  },
+  {
+   "key": "X02_sticky_note",
+   "format": "Story",
+   "why": "The strongest pattern interrupt: a lo-fi note and an arrow that drags the eye to the clasp."
+  },
+  {
+   "key": "X05_gem_clip",
+   "format": "Feed",
+   "why": "A familiar Indian thing turned, one piece on one ground."
+  }
+ ]
+}
