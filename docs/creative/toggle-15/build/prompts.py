@@ -53,8 +53,9 @@ NEG_FACE = "No face: no eyes, no nose, no lips, no mouth, no chin, no jawline in
 
 def build(s):
     fid = FID_OPEN if s.get("open") else FID
+    if s.get("fid_note"): fid = fid + " " + s["fid_note"]
     parts = [s["shot"], fid, SIZE + "; " + s["scale"], "SCENE: " + s["scene"], s.get("light", LIGHT_SOFT),
-             s.get("optics", ""), s.get("grade", GRADE), NEG, NEG_FACE if s.get("body") else "", s.get("neg", "")]
+             s.get("optics", ""), s.get("grade", GRADE), s.get("neg_base", NEG), NEG_FACE if s.get("body") else "", s.get("neg", "")]
     return " ".join(p.strip() for p in parts if p.strip())
 
 

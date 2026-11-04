@@ -1,0 +1,310 @@
+{
+ "_about": "The independent concept judge (a separate agent that read only concepts.json, the Diwali 10 evidence and the founder's prop rule), 4 Nov 2026. plan.json records what was taken and the two lines changed after it.",
+ "verdicts": [
+  {
+   "id": "C01",
+   "one_second": true,
+   "stop": 8,
+   "click": 7,
+   "line_score": 4,
+   "risk": "Line is 7 words (over the limit) and puts a price on the picture: Rs 1,199 here, Rs 1,299 in the live Diwali 04, and the overlay already prints it. The model may draw the chain as linked wire paperclips: lock flat 4 x 11 mm closed ovals. A messy heap reads junk drawer; lay the clips in tidy rows with a clear channel of air around the chain.",
+   "rank": 1,
+   "better_line": "Gem clip, promoted.",
+   "note": "Keep and lead. India calls paperclips gem clips: a real Indian noun with the proven turn of 'Paperclip, promoted.' (7.32%, but on 41 impressions). Clips at 3x a link sell how fine it is. The alt 'Spot the one that isn't stationery.' is a game nobody loses: gold on silver is found at once."
+  },
+  {
+   "id": "C02",
+   "one_second": true,
+   "stop": 6,
+   "click": 8,
+   "line_score": 8,
+   "risk": "A macro is a promise: the spring-gate ring, push-pin nub and pave bar must match the listing at 5x; models add star glints and swell the pave into big stones. Keep the collarbone in frame so the 15 mm clasp reads at true size, and cast the skin as hers.",
+   "rank": 3,
+   "better_line": null,
+   "note": "Keep. The chain's one difference, shown as the reason to wear it. A design truth in five words. Lead with the Story."
+  },
+  {
+   "id": "C03",
+   "one_second": false,
+   "stop": 5,
+   "click": 5,
+   "line_score": 5,
+   "risk": "Without the line the nape panel is just a hair-up shot; the gap lives only in the words. Two panels halve each picture on Feed and must show the identical chain twice. Teaches what C02 and C05 already teach.",
+   "rank": 12,
+   "better_line": null,
+   "note": "Cut."
+  },
+  {
+   "id": "C04",
+   "one_second": true,
+   "stop": 5,
+   "click": 6,
+   "line_score": 7,
+   "risk": "Turtleneck weather is Delhi NCR and the north from late November; in Mumbai, Chennai, Bengaluru and Hyderabad it reads as Pinterest, not life. A 4 mm chain sinks into a chunky rib: use a fine-gauge knit. Lifestyle shots have been this chain's weakest ('Out by noon.' 1.64%).",
+   "rank": 10,
+   "better_line": null,
+   "note": "Keep, last in the order, in a north-only ad set from mid-November. 'Obviously.' is the right wry turn."
+  },
+  {
+   "id": "C05",
+   "one_second": true,
+   "stop": 5,
+   "click": 6,
+   "line_score": 4,
+   "risk": "Line is 7 words, with no noun and no turn. Two hands working a 15 mm clasp is the hardest frame in the set for a model. The clasp is a spring-gate ring that clips round the pave bar; a model will draw a T-bar threaded through a closed ring. Show one hand letting go of the just-closed clasp.",
+   "rank": 7,
+   "better_line": "No more 'hook laga do'.",
+   "note": "Keep with the new line. Everyone has called someone to do the hook at the back; worn at the front, she does it herself. It names what people say out loud (the Diwali 08 lesson). Hindi-speaking metros only."
+  },
+  {
+   "id": "C06",
+   "one_second": false,
+   "stop": 4,
+   "click": 4,
+   "line_score": 3,
+   "risk": "'Actual size' is untrue on most screens: Instagram scales 1080 px to the phone's width, so 249 px is roughly 14-18 mm depending on the phone, and far off on tablets and desktop. The scale mark needs explaining; nobody holds a phone to the collarbone mid-scroll. Line is 7 words.",
+   "rank": 15,
+   "better_line": null,
+   "note": "Cut. The size doubt is real: answer it with the body (C02's collarbone, N03's fingers) and '15 mm clasp' in the caption."
+  },
+  {
+   "id": "C07",
+   "one_second": true,
+   "stop": 8,
+   "click": 5,
+   "line_score": 5,
+   "risk": "Hard to draw: a 50 cm chain as legible cursive, and the clasp can only dot the i if it sits on the chain end just above the stem; budget for retries. It makes people smile more than it makes them want the chain.",
+   "rank": 4,
+   "better_line": "Small talk, in gold.",
+   "note": "Keep. 'hi.' only repeats what the chain already says; the new line names what the picture is doing and says the chain is fine. Shoot it on oxblood so it does not twin N01's cobalt."
+  },
+  {
+   "id": "C08",
+   "one_second": true,
+   "stop": 7,
+   "click": 4,
+   "line_score": 6,
+   "risk": "A shadow that is both huge and crisp needs a tiny hard light close to the chain; models fake it and it reads CGI. Keep the fingertips and the clasp sharp in frame, or the ad sells light, not the chain.",
+   "rank": 9,
+   "better_line": null,
+   "note": "Keep, low in the order: a true eye-catcher with nothing but the product, but the weakest reason to buy."
+  },
+  {
+   "id": "C09",
+   "one_second": false,
+   "stop": 4,
+   "click": 3,
+   "line_score": 5,
+   "risk": "A chain beside house keys, its ring echoing the split ring, reads as a key chain, which is what India calls a keyring. Brass keys beside it make the gold tone look like hardware.",
+   "rank": 16,
+   "better_line": null,
+   "note": "Cut: a shopper would misread the product."
+  },
+  {
+   "id": "C10",
+   "one_second": false,
+   "stop": 6,
+   "click": 3,
+   "line_score": 4,
+   "risk": "Hung from the almirah key it is a key chain. And the almirah is the locker idea the Diwali critic killed (07): Naira is never what you wear so the family gold can stay locked up. Line is 7 words.",
+   "rank": 14,
+   "better_line": null,
+   "note": "Cut. A great noun pointed the wrong way: it says 'not worth locking up'."
+  },
+  {
+   "id": "C11",
+   "one_second": true,
+   "stop": 8,
+   "click": 6,
+   "line_score": 8,
+   "risk": "The paper-to-metal handover is hard to draw, and the model will grow the gold links to the paper loops' size so a 4 mm chain looks chunky: keep the loops visibly 3-4x bigger. A paper chain was already shot for the Bold Nocturne Chain (59); check its line so this is not a repeat.",
+   "rank": 2,
+   "better_line": null,
+   "note": "Keep, top five. A shape look-alike the founder already approved, a school memory every Indian has, and a line that names it and turns it."
+  },
+  {
+   "id": "C12",
+   "one_second": true,
+   "stop": 6,
+   "click": 7,
+   "line_score": 7,
+   "risk": "White tee and gold chain is every jewellery brand's picture, so it can blur into the feed. Make the 'before' by painting the chain out of the 'after' plate so both halves match.",
+   "rank": 5,
+   "better_line": null,
+   "note": "Keep. The fastest read there is, and it shows the chain worn at true size with the clasp at the front."
+  },
+  {
+   "id": "C13",
+   "one_second": false,
+   "stop": 6,
+   "click": 4,
+   "line_score": 6,
+   "risk": "Without the line, a necklace on an old door latch is a prop that needs explaining, the founder's exact objection. Rusty iron beside gold cheapens it, and a ring-and-bar latch is not how this spring-gate clasp works.",
+   "rank": 13,
+   "better_line": null,
+   "note": "Cut. Nani's door is warm, but the link is a pun."
+  },
+  {
+   "id": "C14",
+   "one_second": true,
+   "stop": 5,
+   "click": 7,
+   "line_score": 7,
+   "risk": "Open box, chain coiled, lid leaning is the Toggle's live Diwali ad (04, 'Opened, not passed on.') nearly frame for frame. The Naira box must match the real one, with no invented lettering. 'For the sister who...' is a stock gifting template.",
+   "rank": 6,
+   "better_line": "Here. Now stop borrowing mine.",
+   "note": "Keep with a new picture: her hand holds the open box out to the camera, so the viewer is the sister. The line is what you say handing it over (the Diwali 08 and 09 lesson)."
+  },
+  {
+   "id": "C15",
+   "one_second": true,
+   "stop": 5,
+   "click": 6,
+   "line_score": 7,
+   "risk": "A Hindi line lands weakly in Chennai, Bengaluru and Hyderabad. A fine chain on white cotton needs side light so the links and front clasp show.",
+   "rank": 8,
+   "better_line": null,
+   "note": "Keep as the Hinglish test. 'Roz wali chai' is in every ear, so 'chain' turns it without trying. Hindi-speaking metros."
+  },
+  {
+   "id": "C16",
+   "one_second": true,
+   "stop": 5,
+   "click": 5,
+   "line_score": 2,
+   "risk": "An offer chip breaks the house overlay (offers go in the primary text as BUY2/BUY3). 'Any three pieces' sends people away from the one product. A discount line could sell anything, the founder's timepass, and it stacks on a Rs 2,900 compare-at.",
+   "rank": 11,
+   "better_line": null,
+   "note": "Cut. Replaced by N04, which sells two of this chain with the Buy 2 offer in the primary text."
+  }
+ ],
+ "picks": [
+  {
+   "order": 1,
+   "id": "C01",
+   "line": "Gem clip, promoted.",
+   "why": "The best Toggle signal (paperclips), a hunt that holds the thumb, gold popping off silver, and a real Indian noun."
+  },
+  {
+   "order": 2,
+   "id": "N01",
+   "line": "Clip art.",
+   "why": "The chain becomes its own name on the best static's ground (gold alone on deep blue, 7.25%); nothing but the product."
+  },
+  {
+   "order": 3,
+   "id": "N03",
+   "line": "Wait, that's the clasp?",
+   "why": "Being asked about it is Naira's highest-CTR moment (11.47%), here as a static aimed at the one thing only this chain has."
+  },
+  {
+   "order": 4,
+   "id": "C11",
+   "line": "The paper chain grew up.",
+   "why": "An approved shape look-alike, a shared school memory, a noun and a turn."
+  },
+  {
+   "order": 5,
+   "id": "C02",
+   "line": "The clasp is the pendant.",
+   "why": "The product's difference in close-up; the click is to see it closer. Story first."
+  },
+  {
+   "order": 6,
+   "id": "C07",
+   "line": "Small talk, in gold.",
+   "why": "Jewellery that writes a word stops the scroll; one piece on one deep ground."
+  },
+  {
+   "order": 7,
+   "id": "C05",
+   "line": "No more 'hook laga do'.",
+   "why": "A getting-ready moment every Indian woman has said out loud, solved by the front clasp."
+  },
+  {
+   "order": 8,
+   "id": "C12",
+   "line": "Plain white tee, fixed.",
+   "why": "Before/after is the fastest read in a feed and shows the chain worn at true size."
+  },
+  {
+   "order": 9,
+   "id": "C14",
+   "line": "Here. Now stop borrowing mine.",
+   "why": "A sibling truth that sells a gift, said while handing it over."
+  },
+  {
+   "order": 10,
+   "id": "N02",
+   "line": "ID card off. Chain stays.",
+   "why": "Desk to dinner acted out with the one object every urban working woman wears."
+  },
+  {
+   "order": 11,
+   "id": "N04",
+   "line": "One to give. One to keep.",
+   "why": "Sells two of this chain to the woman who buys for herself and her people; Buy 2 sits in the primary text."
+  },
+  {
+   "order": 12,
+   "id": "C15",
+   "line": "Roz wali chain.",
+   "why": "The Hinglish test: everyday, in the words people use, with 'roz wali chai' in the ear."
+  },
+  {
+   "order": 13,
+   "id": "C08",
+   "line": "Fine chain. Loud shadow.",
+   "why": "The crazy eye-catcher with no prop: light and product only."
+  },
+  {
+   "order": 14,
+   "id": "N05",
+   "line": "Tap the link.",
+   "why": "The link icon is this chain's link; the call to action in Naira's voice."
+  },
+  {
+   "order": 15,
+   "id": "C04",
+   "line": "Over the turtleneck. Obviously.",
+   "why": "The season test, north only, from mid-November."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "N01",
+   "line": "Clip art.",
+   "picture": "Top-down on saturated cobalt, the whole 50 cm chain laid as the outline of one giant classic paperclip (the three-turn wire shape), about two-thirds of the frame tall with wide air around it; the spring-gate ring at one wire end, the pave bar at the other; links stay flat 4 x 11 mm ovals; hard sun, one crisp shadow; no real paperclip in frame.",
+   "why": "The chain becomes its own name, the move that made the bracelet a moon in Diwali 10. It carries the best Toggle signal (paperclips) on the best static's ground (one gold piece on deep blue, 7.25%). Nothing but the product, so it passes the prop rule, and one continuous line is easier to draw than letters. The line names what the picture literally is."
+  },
+  {
+   "id": "N02",
+   "line": "ID card off. Chain stays.",
+   "picture": "Cropped below the eyes, a woman in a plain shirt in an office lift lobby at dusk lifting a navy fabric lanyard with a blank white ID card over her head; the gold chain stays on her collarbone, ring clasp at the front, catching warm light. The card is blank: no logo, name or photo.",
+   "why": "Every urban working woman in India wears an ID card on a lanyard and takes it off at six. 'Desk to dinner' acted out with a real object, with her in the picture doing the thing (the Diwali 09 lesson). The navy strap keeps the chain from reading as an ID chain."
+  },
+  {
+   "id": "N03",
+   "line": "Wait, that's the clasp?",
+   "picture": "Two women at a cafe table in daylight, cropped at the lips, one leaning in and lifting the clasp at the other's collarbone between thumb and forefinger for a closer look; the spring-gate ring and pave bar sharp and unhidden at the centre, both strands rising out of frame; both hands slim and clearly women's.",
+   "why": "Naira's highest CTR (11.47%) was being asked 'Where is this from?', and the Diwali critic's best line was 'The aunties will zoom in.' This is that moment as a static (statics sell), aimed at the one thing only this chain has; the line is the double-take everyone has at a front clasp. A staged line, not a customer quote. Variant for Hindi-speaking metros: 'Kahan se liya?'"
+  },
+  {
+   "id": "N04",
+   "line": "One to give. One to keep.",
+   "picture": "Two open Naira gift boxes side by side on blush, the same chain coiled in each with the ring on top; a blank kraft tag tied to one box only; lids leaning behind; soft daylight and air above.",
+   "why": "Naira's buyer buys for herself and for the women around her. Two boxes, one tagged, say gift and self-gift in one look and sell two of this one chain; Buy 2 (10% off, automatic) goes in the primary text, so there is no offer chip. Replaces C16."
+  },
+  {
+   "id": "N05",
+   "line": "Tap the link.",
+   "picture": "Macro on blush: two links of the chain crossing at 45 degrees like the link icon, razor sharp, the chain running out of focus at both ends and the ring clasp soft behind, so it reads as a necklace and not two hoops.",
+   "why": "The link icon is the most familiar shape on a phone and it is exactly this chain's link: a true look-alike of its shape and its name. The line is the call to action, said dry. Cheap to draw (two ovals). Low in the order: it can read as clickbait, and a macro hides the 4 mm scale, so the caption carries the size."
+  }
+ ],
+ "budget_first": [
+  "C01",
+  "N01",
+  "N03"
+ ]
+}

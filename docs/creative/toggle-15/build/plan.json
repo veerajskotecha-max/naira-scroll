@@ -1,0 +1,24 @@
+{
+ "_about": "The final 15 Toggle Link Chain ads (4 Nov 2026), in order of expected CTR, after an independent judge cut 6 of 16 candidates (C03, C06, C09, C10, C13, C16) and added 5 (N01-N05). Lines checked against earlier Naira lines: C11's 'The paper chain grew up.' was too close to COLOUR50 #59 'Art class, all grown up.', so it became 'Craft period, paid off.'; C07's judge line 'Small talk, in gold.' became 'It says hi first.' (the chain is gold tone, so no line says gold). No offer chip on the pictures: Buy 2 / Buy 3 goes in the primary text, fewer words on the image (Diwali 10: the best seller had no words; ads-20 judge: cut the type lines).",
+ "price": "Rs 1,199 on Shopify, read 4 Nov 2026 (compare-at Rs 2,900); 79 in stock. The live Diwali 04 ad says Rs 1,299: flagged to the owner.",
+ "ads": [
+  {"no": "01", "concept": "C01", "shot": "T02", "line": "Gem clip, promoted.", "family": "look-alike (name and shape)", "why": "India calls paperclips gem clips; the proven turn of 'Paperclip, promoted.' (7.32% on 41 impressions, the best Toggle number) with the Indian noun. Clips at three times a link sell how fine the chain is."},
+  {"no": "02", "concept": "N01", "shot": "T09", "line": "Clip art.", "family": "product as its own name", "why": "The chain laid as one giant paperclip on cobalt: nothing but the product, on the best static's ground (one gold piece on deep blue, 7.25%)."},
+  {"no": "03", "concept": "N03", "shot": "T10", "line": "Wait, that's the clasp?", "family": "social double-take", "why": "Being asked about a piece is Naira's highest-CTR moment ('Where is this from?' reel, 11.47%); here a friend's fingers lift the front clasp to look. A staged line, not a customer quote."},
+  {"no": "04", "concept": "C11", "shot": "T11", "line": "Craft period, paid off.", "family": "look-alike nostalgia", "why": "Every Indian school had a craft period and a paper chain; the founder kept a paper chain for a chain before (#59)."},
+  {"no": "05", "concept": "C02", "shot": "T01b", "line": "The clasp is the pendant.", "family": "design truth", "why": "The chain's one difference shown close up; the click is to see it closer. Story first."},
+  {"no": "06", "concept": "C07", "shot": "T05", "line": "It says hi first.", "family": "graphic: the chain writes a word", "why": "Jewellery that writes a word stops a scroll; a statement piece starts conversations. Oxblood, so it does not twin 02's cobalt."},
+  {"no": "07", "concept": "C05", "shot": "T04", "line": "No more 'hook laga do'.", "family": "problem, solved (Hinglish)", "why": "Everyone has asked someone to do the hook at the back; worn at the front, she does it herself. Hindi-speaking metros."},
+  {"no": "08", "concept": "C12", "shot": "T12", "line": "Plain white tee, fixed.", "family": "before / after", "why": "The fastest read in a feed; the 'before' is painted out of the 'after' frame so both halves match."},
+  {"no": "09", "concept": "C14", "shot": "T13", "line": "Here. Now stop borrowing mine.", "family": "gifting, said out loud", "why": "A sibling truth, said while handing the box over to the viewer. Start after 5 Nov, when the Diwali 04 box ad ends."},
+  {"no": "10", "concept": "N02", "shot": "T14", "line": "ID card off. Chain stays.", "family": "where it is worn", "why": "Every urban working woman takes her ID lanyard off at six; desk to dinner acted out with a real object."},
+  {"no": "11", "concept": "N04", "shot": "T15", "line": "One to give. One to keep.", "family": "two of this one chain", "why": "Naira's buyer buys for herself and the women around her; Buy 2 for 10% off goes in the primary text. Start after 5 Nov."},
+  {"no": "12", "concept": "C15", "shot": "T16", "line": "Roz wali chain.", "family": "Hinglish everyday", "why": "'Roz wali chai' is in every ear; tests a Hinglish line. Hindi-speaking metros."},
+  {"no": "13", "concept": "C08", "shot": "T06", "line": "Fine chain. Loud shadow.", "family": "graphic: light only", "why": "A look-twice picture with no prop; low in the order, the weakest reason to buy."},
+  {"no": "14", "concept": "N05", "shot": "T17", "line": "Tap the link.", "family": "look-alike (the link icon)", "why": "Two interlocked links are the link icon; the line is the call to action, said dry. The caption carries the size."},
+  {"no": "15", "concept": "C04", "shot": "T03", "line": "Over the turtleneck. Obviously.", "family": "season", "why": "The winter look, run in Delhi NCR and the north from mid-November only."}
+ ],
+ "run_notes": ["Lead every worn ad with the Story (Toggle worn Story 4.38% against Feed 2.15%) and ship a text-free Story beside each.",
+               "Kill rule from Diwali 10: pause any ad under 2% CTR after 1,000 impressions; move its budget to the best two.",
+               "Budget first: 01, 02, 03."]
+}
