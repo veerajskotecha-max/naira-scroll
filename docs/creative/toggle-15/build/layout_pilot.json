@@ -1,0 +1,6 @@
+{"_about": "Pilot draft: C02 'The clasp is the pendant.' from frame T01_clasp_macro_a (bar drawn two stones wide; needs one edit before it runs).",
+ "ads": [
+  {"key": "C02_clasp_pendant_pilot", "photo": "raw/T01_clasp_macro_a.png", "line": "The clasp<br>is the pendant.", "name": "Toggle Link Chain", "price": "₹1,199",
+   "formats": ["feed", "story", "clean"], "src": {"feed": [0, 0.2, 1, 1], "story": [0, 0.17, 1, 1]}, "cy": {"feed": 0.32, "story": 0.38},
+   "fa": 0.7, "fb": 0.32, "hs": 72, "story": {"hs": 84}}
+ ]}
