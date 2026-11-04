@@ -26,7 +26,7 @@ cols = {}
 for h, v in live.items(): cols.setdefault(v["type"], []).append(v["price"])
 
 def img(f, alt):
-    return f"<img src='ads/{f}' alt='{E(alt)}' loading='lazy'>"
+    return f"<img src='ads/{f}' alt='{E(alt)}'>"
 
 def ad_block(a):
     band, on, _ = spec.COL[a["colour"]]
@@ -79,7 +79,7 @@ comp_rows = [(c["n"], E(c["brand"]), E(c["what"]), c["hook"], c["offer"], c["pro
 meta_w = [(E(r[0]), r[1], r[2], r[3], r[4]) for r in an["meta"]["winners"]]
 meta_l = [(E(r[0]), r[1], r[2], r[3], r[4]) for r in an["meta"]["losers"]]
 twenty = [(E(t[0]), f"{t[1]:.2f}", E(t[2])) for t in an["twenty"]]
-stock_rows = [(E(live[h]["title"]), E(t), inr(p), s, "hero" if any(h == x[0] for x in heroes) else ("tile" if any(h in (ad.get("grid", []) + ad.get("trio", []) + ad.get("cover", []) + ad.get("cover_extra", []) + sum([c[2] for c in ad.get("cards", [])], [])) for ad in spec.ADS) else "")) for s, h, t, p in top]
+stock_rows = [(E(live[h]["title"]), E(t), inr(p), s, "hero" if any(live[h]["title"] == x[0] for x in heroes) else ("tile" if any(h in (ad.get("grid", []) + ad.get("trio", []) + ad.get("cover", []) + ad.get("cover_extra", []) + sum([c[2] for c in ad.get("cards", [])], [])) for ad in spec.ADS) else "")) for s, h, t, p in top]
 gen_rows = [
  ("D1 feed", "g01", "Verdant Circlet Studs on an open palm in fresh green mehendi, cone at the edge", "used"),
  ("D1 alternate", "g02", "The studs on the knuckles of a mehendi hand", "held"),
