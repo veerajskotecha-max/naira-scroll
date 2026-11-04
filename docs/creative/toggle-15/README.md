@@ -36,7 +36,9 @@ From the web (vendor research, directional):
 - Curiosity hooks work best with a moderate gap and a quick payoff; lo-fi devices (sticky notes, handwriting) are the usual pattern interrupts ([Trendtrack](https://www.trendtrack.io/blog-post/best-performing-ad-hooks), [Motion](https://motionapp.com/library/hooks/tactics/curiosity)).
 - In India, discount hooks are at very high saturation ([Quickads jewelry report](https://www.quickads.ai/jewelry-report)).
 
-## The ten hook tests (`build/crazy.py`)
+## The hook tests (`build/crazy.py`): ten built, seven kept
+
+Review board: https://claude.ai/artifact/2aan2pM7c1CDncPSb6zm9o (private to the owner until shared).
 
 Higgsfield had 1.71 credits, so these use only the four photos that passed the clasp audit. The crazy is in the hook
 and the format; five share one photo so they test the hook alone. Each is a Feed card and a Story; captions in
@@ -47,10 +49,10 @@ and the format; five share one photo so they test the hook alone. Each is a Feed
 | X01 | Kabhi front. Kabhi side. | The clever one: a Bollywood title turned into a product truth | worn |
 | X02 | Note to self: the clasp goes in FRONT. | Lo-fi: a sticky note and a marker arrow | worn |
 | X03 | Unpopular opinion: the clasp is the best part of a necklace. | Platform-native: a plain post from Naira | sage |
-| X04 | Looks expensive. Isn't. | Price reveal, said dry | night |
+| X04 | Looks expensive. Isn't. | Price reveal, said dry · **cut** (the rose read as the hero; the chain read as a bracelet) | night |
 | X05 | Gem clip, promoted. | Look-alike: what India calls a paperclip | clips |
-| X06 | Tap the link. | Platform-native: the hyperlink pun | night |
-| X07 | Anatomy of a show-off clasp | Lo-fi: marker scribbles on the product | sage |
+| X06 | Tap the link. | Platform-native: the hyperlink pun · **cut** (a fake hyperlink) | night |
+| X07 | Anatomy of a show-off clasp | Lo-fi: marker scribbles on the product · **cut** (the marks kept landing on the metal after two rounds; 5/10) | clips |
 | X08 | Goes with: | Platform-native: a checklist note | worn |
 | X09 | The clasp is the point. | The checkerboard: four panels | worn, sage |
 | X10 | No more 'hook laga do'. | Problem, solved, in the words people say | worn |
@@ -60,3 +62,9 @@ and the format; five share one photo so they test the hook alone. Each is a Feed
 The planned set with new Higgsfield frames, judged independently (`build/judge.json`), waits for about 50 credits. The
 4 Nov pilot (`T01`) drew the clasp right except for a two-stone-wide bar and about 1.5x size against the neck, and the
 shot briefs were tightened for both.
+
+## Judging (`build/judge_crazy.json`)
+
+Three independent rounds. Final scores out of 10: X10 9, X08 8.5, X02 8, X03 7.5, X05 7.5, X01 7, X09 6. Where the judge
+would spend first: X10 (Feed), X08 (Feed), X03 (Feed). X01, X02, X08 and X10 share the worn photo, and X01 and X10 are the
+same picture with different words, so keep those two in separate ad sets.

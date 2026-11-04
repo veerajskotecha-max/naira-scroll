@@ -134,5 +134,68 @@
    "X07_anatomy"
   ],
   "note": "X01, X02, X08 and X10 share the worn photo; X01 and X10 are the same picture with different words, so keep them in separate ad sets."
- }
+ },
+ "ads": [
+  {
+   "key": "X01_kabhi_front",
+   "verdict": "pass",
+   "overall": 7,
+   "defects": []
+  },
+  {
+   "key": "X02_sticky_note",
+   "verdict": "pass",
+   "overall": 8,
+   "defects": []
+  },
+  {
+   "key": "X03_unpopular_opinion",
+   "verdict": "pass",
+   "overall": 7.5,
+   "defects": [],
+   "note": "Story headline re-broken to match the Feed after this check."
+  },
+  {
+   "key": "X05_gem_clip",
+   "verdict": "pass",
+   "overall": 7.5,
+   "defects": []
+  },
+  {
+   "key": "X08_goes_with",
+   "verdict": "pass",
+   "overall": 8.5,
+   "defects": []
+  },
+  {
+   "key": "X09_checkerboard",
+   "verdict": "pass",
+   "overall": 6,
+   "defects": []
+  },
+  {
+   "key": "X10_hook_laga_do",
+   "verdict": "pass",
+   "overall": 9,
+   "defects": []
+  }
+ ],
+ "budget_first": [
+  {
+   "key": "X10_hook_laga_do",
+   "format": "feed",
+   "why": "Strongest cold-scroll insight. 'Hook laga do' is the moment almost every Indian woman knows, asking someone to fasten the necklace at the back, and the benefit (the clasp sits at the front) answers it in one line. Hinglish plus a clean worn close-up with the clasp dead centre. Measured clean: every text line sits on the cream top or plain skin, well away from the chain."
+  },
+  {
+   "key": "X08_goes_with",
+   "format": "feed",
+   "why": "Checklist cards read in about a second, and the punchline 'the Monday after the wedding' is shareable and culturally specific. It sells versatility (kurta, office shirt, saree blouse) without a claim. It uses the same photo as X10, which makes the pair a clean test of the hook alone. The card's corner clears the right strand by ~20 px."
+  },
+  {
+   "key": "X03_unpopular_opinion",
+   "format": "feed",
+   "why": "The tweet-card format is a proven pattern interrupt in Indian D2C feeds, and the contrarian hook invites a reply. Its flat-lay photo adds a second visual to the test instead of a third copy of the worn shot. The Feed is already clean (props removed, natural line break). The Story headline was re-broken to match after this check."
+  }
+ ],
+ "_final": "ads = the final independent check (round 3) after the last fixes; X03 Story re-break applied after it. X04, X06, X07 cut."
 }

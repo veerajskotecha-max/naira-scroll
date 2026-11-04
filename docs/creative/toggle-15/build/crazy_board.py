@@ -10,7 +10,7 @@ META = [
  ("X02_sticky_note", "Note to self: the clasp goes in FRONT.", "Lo-fi", "A sticky note and a marker arrow on a polished photo: the pattern interrupt."),
  ("X03_unpopular_opinion", "Unpopular opinion: the clasp should be at the front.", "Platform-native", "A plain post from Naira with the photo inside it, the way a feed looks, not the way an ad looks."),
  ("X05_gem_clip", "Gem clip, promoted.", "Look-alike", "What India calls a paperclip; the best Toggle number came from paperclips."),
- ("X07_anatomy", "Anatomy of a show-off clasp", "Lo-fi", "Marker scribbles that name each part, with only what the listing says, and a gem clip for scale."),
+
  ("X08_goes_with", "Goes with:", "Platform-native", "A short list of Indian necklines, ending on a wink."),
  ("X09_checkerboard", "The clasp is the point.", "The checkerboard", "Four panels: line, worn, detail, price and promises. More time on the ad."),
  ("X10_hook_laga_do", "No more &lsquo;hook laga do&rsquo;.", "Problem, solved", "What everyone says to whoever is nearest, made unnecessary by a front clasp."),
@@ -39,7 +39,7 @@ def main():
     page = TEMPLATE % {"cards": "".join(cards), "picks": pick_html or "<li>The judge's picks appear here once it has scored the set.</li>", "plan": rows}
     os.makedirs(out, exist_ok=True); open(os.path.join(out, "index.html"), "w").write(page); print(os.path.join(out, "index.html"), len(page))
 
-TEMPLATE = """<title>Toggle Ten</title>
+TEMPLATE = """<title>Toggle Hook Tests</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&family=Kalam:wght@700&display=swap">
@@ -79,8 +79,8 @@ footer{margin-top:72px;border-top:1px solid var(--line);padding-top:18px;font-si
 </style>
 <div class="wrap">
 <p class="eyebrow">Naira · Toggle Link Chain · 4 Nov 2026</p>
-<h1>Ten crazy hooks, one <span class="hand">checked</span> clasp</h1>
-<p class="lede">Ten hook tests for the Toggle Link Chain, each on a format the research backs (lo-fi notes, platform-native posts, the clever line, the checkerboard), all built on photos whose clasp was checked part by part against the listing. An independent judge scored them; the ones it would not run are marked.</p>
+<h1>Seven crazy hooks, one <span class="hand">checked</span> clasp</h1>
+<p class="lede">Seven hook tests for the Toggle Link Chain (ten were built; the judges cut three), each on a format the research backs (lo-fi notes, platform-native posts, the clever line, the checkerboard), all built on photos whose clasp was checked part by part against the listing. Independent judges scored them over three rounds of fixes.</p>
 
 <section id="proof"><header><p class="eyebrow">First, the toggle</p><h2>What was wrong, and what is right</h2>
 <p class="lede">The real clasp: a thick spring-gate ring with a gate and a push-pin nub at three o'clock, and a short bar with one line of tiny clear stones through it. Several photos in use draw something else.</p></header>
@@ -90,12 +90,12 @@ footer{margin-top:72px;border-top:1px solid var(--line);padding-top:18px;font-si
 <figure><img src="proof/live_ads.jpg" alt="The clasp in the five Toggle ads live on Meta" loading="lazy"><figcaption><span class="tag bad">Wrong</span><b>Four of the five live Toggle ads</b> (plate, fork, spool, Story): plain rings, or a hoop with black stones. The hook ad is closest. All five still say ₹1,099 and "anti-tarnish".</figcaption></figure>
 </div>
 <ul class="flags"><li>Nothing has been changed on Shopify or Meta. Replacing the product photo and pausing the four ads wait for the owner.</li>
-<li>Of 19 earlier Toggle photos, 4 pass, 4 have small defects and 11 fail. These ten ads use only the 4 that pass.</li>
+<li>Of 19 earlier Toggle photos, 4 pass, 4 have small defects and 11 fail. These ads use only the 4 that pass.</li>
 <li>One question for a physical piece: the cube listing photo shows the stone piece as a hoop; the worn and velvet photos and the description say bar.</li></ul>
 </section>
 
-<section id="ads"><header><p class="eyebrow">The ten</p><h2>Hook tests, Feed beside Story</h2>
-<p class="lede">Five share one photo on purpose, so they test the hook alone. Every claim is on the product page today; the offer lives in the caption.</p></header>
+<section id="ads"><header><p class="eyebrow">The seven</p><h2>Hook tests, Feed beside Story</h2>
+<p class="lede">Four share one photo on purpose, so they test the hook alone; keep X01 and X10, the same picture with different words, in separate ad sets. Every claim is on the product page today; the offer lives in the caption.</p></header>
 <div class="grid">%(cards)s</div>
 <p class="eyebrow" style="margin-top:34px">Where the judge would spend first</p><ul class="picks">%(picks)s</ul>
 </section>

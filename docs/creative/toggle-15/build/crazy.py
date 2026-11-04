@@ -52,6 +52,31 @@ def place(pl, W, H, s=None, focus=None, at=None):
             % (os.path.join(CR, p["f"]), bw, bh, bx, by))
     return html, m, s
 
+def clone(pl, m, s, poly, d, feather=5, gain=1.0):
+    """Clone stamp: cover the plate polygon `poly` (plate px) with the plate's own pixels from offset d (plate px),
+    feathered by a blurred SVG mask; `gain` matches the brightness of the source paper to the spot it covers."""
+    import urllib.parse
+    p = PL[pl]; xs = [q[0] for q in poly]; ys = [q[1] for q in poly]; pad = feather * 3
+    x0, y0, x1, y1 = min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad
+    bw, bh = x1 - x0, y1 - y0
+    svg = ("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 %d %d' width='%d' height='%d'><filter id='f' x='-20%%' y='-20%%' width='140%%' height='140%%'>"
+           "<feGaussianBlur stdDeviation='%.1f'/></filter><polygon points='%s' fill='white' filter='url(#f)'/></svg>"
+           % (bw, bh, bw, bh, feather, " ".join("%.1f,%.1f" % (x - x0, y - y0) for x, y in poly)))
+    uri = "data:image/svg+xml," + urllib.parse.quote(svg)
+    cx, cy = m(x0, y0)
+    return ('<div class="abs" style="left:%.1fpx;top:%.1fpx;width:%.1fpx;height:%.1fpx;background-image:url(\'file://%s\');background-repeat:no-repeat;'
+            'background-size:%.1fpx %.1fpx;background-position:%.1fpx %.1fpx;filter:brightness(%.3f);-webkit-mask-image:url(&quot;%s&quot;);mask-image:url(&quot;%s&quot;);'
+            '-webkit-mask-size:100%% 100%%;mask-size:100%% 100%%"></div>'
+            % (cx, cy, bw * s, bh * s, os.path.join(CR, p["f"]), p["w"] * s, p["h"] * s, -(x0 + d[0]) * s, -(y0 + d[1]) * s, gain, uri, uri))
+
+# the gem-clip plate's cluster of clips runs off the plate's own right edge (x 1080, y 640-880), so no crop can show
+# their ends: the cluster is cloned out with the clean paper above it; the lone clip under it and the one above stay
+CLUSTER_OUT = [
+ ([(880, 690), (1110, 760), (1110, 905), (1000, 886), (996, 872), (915, 866), (880, 860)], (0, -250), 5, 1.025),
+ ([(776, 800), (790, 740), (810, 700), (880, 690), (905, 692), (905, 862), (870, 858), (800, 852), (776, 830)], (0, -250), 5, 1.037),
+ ([(870, 700), (893, 632), (935, 626), (1000, 662), (1110, 735), (1110, 800), (1000, 760), (880, 735)], (0, -120), 6, 1.012),
+]
+
 def logo(kind, x, y, w, center=False):
     st = "left:%dpx;top:%dpx;width:%dpx" % (x - (w // 2 if center else 0), y, w)
     return '<img class="abs" src="file://%s" style="%s">' % (os.path.join(BRAND, "logo_%s.png" % kind), st)
@@ -99,11 +124,11 @@ def m_check(x, y, col, sz=40, wdt=7):
 INK, IVORY, GOLD, RED = "#1A1614", "#FBF8F3", "#E8C98F", "#D23B2A"
 
 # ---------- the ten ads ----------
-def x01(fmt, W, H, line=("Kabhi front.", "Kabhi side."), sub="The clasp sits front or side"):
+def x01(fmt, W, H, line=("Kabhi front.", "Kabhi side."), sub="The clasp sits front or side", sub_fs=27):
     if fmt == "feed":
         # the tank's neckline dips lowest in the middle (canvas y ~1020), so the block sits on white cotton only
         ph, m, s = place("worn", W, H, focus=PL["worn"]["ring"], at=(540, 523))
-        return (ph + fade("bottom", 380, "251,248,243", .6, 0, .32) +
+        return (ph + fade("bottom", 380, "251,248,243", .6, 0, .32) + logo("ink", 540, 975, 150, center=True) +   # on skin, above the neckline
                 '<div class="abs cgi" style="left:0;right:0;top:1032px;text-align:center;color:%s;font-size:82px">%s<br>%s</div>' % (INK, line[0], line[1]) +
                 '<div class="abs jost" style="left:0;right:0;top:1206px;text-align:center;color:%s;font-size:28px;letter-spacing:.14em">%s</div>' % (INK, sub) +
                 name_price(0, 1252, INK, w=W, align="center", ns=32, ps=52, row=True))
@@ -111,33 +136,36 @@ def x01(fmt, W, H, line=("Kabhi front.", "Kabhi side."), sub="The clasp sits fro
     cloud = '<div class="abs" style="left:40px;top:250px;width:1000px;height:460px;background:radial-gradient(ellipse at 50%% 50%%,rgba(251,248,243,.94) 0%%,rgba(251,248,243,.82) 42%%,rgba(251,248,243,0) 72%%)"></div>'
     return (ph + cloud + logo("ink", 540, 304, 160, center=True) +
             '<div class="abs cgi" style="left:0;right:0;top:372px;text-align:center;color:%s;font-size:104px">%s<br>%s</div>' % (INK, line[0], line[1]) +
-            '<div class="abs jost" style="left:0;right:0;top:594px;text-align:center;color:%s;font-size:30px;letter-spacing:.14em">%s</div>' % (INK, sub) +
+            '<div class="abs jost" style="left:0;right:0;top:594px;text-align:center;color:%s;font-size:%dpx;letter-spacing:.14em">%s</div>' % (INK, sub_fs, sub) +   # X01 at 27 px so the T clears the left chain link
             '<div class="abs" style="left:0;right:0;top:1372px;height:160px;background:linear-gradient(to bottom,rgba(20,11,9,0),rgba(20,11,9,.40) 50%%,rgba(20,11,9,0))"></div>' +
             name_price(0, 1412, IVORY, w=W, align="center", ns=32, ps=58, row=True))
 
 def x10(fmt, W, H):
-    return x01(fmt, W, H, line=("No more", "&lsquo;hook laga do&rsquo;."), sub="The clasp sits at the front")
+    return x01(fmt, W, H, line=("No more", "&lsquo;hook laga do&rsquo;."), sub="The clasp sits at the front", sub_fs=28)   # 28 px: the T clears the left link
 
-def sticky(x, y, w, rot, lines, fs=54, price=True):
+def sticky(x, y, w, rot, lines, fs=54, price=True, sc=1.0):
+    """The note; sc < 1 scales it from its top-left corner (x, y), which then stays put."""
     tape = '<div class="abs" style="left:%dpx;top:-26px;width:170px;height:52px;background:rgba(255,255,255,.55);transform:rotate(-4deg);box-shadow:0 1px 3px rgba(0,0,0,.08)"></div>' % (w // 2 - 85)
     txt = "".join('<div>%s</div>' % l for l in lines)
     pr = ('<div style="margin-top:22px;font-size:%dpx;opacity:.85">Toggle Link Chain, %s</div>' % (int(fs * .62), PRICE)) if price else ""
+    tf = ("rotate(%.1fdeg)" % rot) if sc == 1 else ("rotate(%.1fdeg) scale(%.3f);transform-origin:0 0" % (rot, sc))
     return ('<div class="abs kalam" style="left:%dpx;top:%dpx;width:%dpx;padding:52px 46px 40px;background:linear-gradient(170deg,#FFF3A6,#FFE16B);'
-            'color:#211c12;font-size:%dpx;line-height:1.12;transform:rotate(%.1fdeg);box-shadow:0 22px 34px rgba(0,0,0,.28),0 2px 4px rgba(0,0,0,.12)">%s%s%s</div>'
-            % (x, y, w, fs, rot, tape, txt, pr))
+            'color:#211c12;font-size:%dpx;line-height:1.12;transform:%s;box-shadow:0 22px 34px rgba(0,0,0,.28),0 2px 4px rgba(0,0,0,.12)">%s%s%s</div>'
+            % (x, y, w, fs, tf, tape, txt, pr))
 
 def x02(fmt, W, H):
     lines = ["Note to self:", "the clasp goes", 'in <span style="font-weight:700;text-decoration:underline;text-decoration-thickness:5px;text-underline-offset:8px">FRONT</span>.']
     if fmt == "feed":
         ph, m, s = place("worn", W, H, focus=PL["worn"]["ring"], at=(470, 760))
         rx, ry = m(*PL["worn"]["ring"])
-        body = (ph + sticky(560, 70, 440, 3.5, lines, fs=52) +
+        body = (ph + sticky(475, 51, 440, 3.5, lines, fs=52) +   # 85 px left, 19 px up: the corner clears the right strand
                 m_arrow(590, 492, 420, 560, rx - 8, ry - 114, INK, 9, 38) + logo("ink", 540, 1250, 150, center=True))
     else:
         ph, m, s = place("worn", W, H)
         rx, ry = m(*PL["worn"]["ring"])
         body = (ph + fade("top", 380, "251,248,243", .85, 0, .45) + logo("ink", 400, 304, 150, center=True) +
-                sticky(540, 400, 460, 3.5, lines, fs=56) + m_arrow(580, 820, 400, 880, rx - 8, ry - 116, INK, 10, 40))
+                sticky(515, 380, 460, 3.5, lines, fs=56, sc=0.88) +   # 88%, so its corner clears the right strand; the tape stays under the logo
+                m_arrow(580, 820, 400, 880, rx - 8, ry - 116, INK, 10, 40))
     return body
 
 def post_card(x, y, w, text, fs=46, img=None):
@@ -159,10 +187,11 @@ def post_card(x, y, w, text, fs=46, img=None):
 def x03(fmt, W, H):
     t = "Unpopular opinion: the clasp should be at the front."
     bg = '<div class="abs" style="inset:0;background:linear-gradient(180deg,#F1E4DC,#F6EFE8)"></div>'
-    # the photo inside the post: the chain and clasp from the gem-clip plate, cropped below the clips (they end at y ~1110)
-    if fmt == "feed":
-        return bg + post_card(64, 52, 952, t, fs=48, img=("clips", (300, 1120, 1080, 1900), 868))
-    return bg + post_card(64, 300, 952, t, fs=56, img=("clips", (300, 1120, 1080, 1860), 740))   # the card ends above y=1500
+    # the photo inside the post: the chain and clasp from the gem-clip plate, cropped tight on the clasp: below the lowest
+    # clip's shadow (it ends at y ~1145) and left of the deckle paper, so neither prop is in frame
+    if fmt == "feed":   # set break, so 'at' stays with 'the front'
+        return bg + post_card(64, 52, 952, "Unpopular opinion: the clasp<br>should be at the front.", fs=48, img=("clips", (255, 1150, 855, 1750), 868))
+    return bg + post_card(64, 300, 952, "Unpopular opinion: the clasp<br>should be at the front.", fs=56, img=("clips", (255, 1150, 855, 1662), 740))   # the card ends above y=1500
 
 def x04(fmt, W, H):
     if fmt == "feed":
@@ -180,13 +209,19 @@ def x04(fmt, W, H):
 def x05(fmt, W, H):
     if fmt == "feed":
         ph, m, s = place("clips", W, H, focus=PL["clips"]["ring"], at=(712, 880))
+        ph += "".join(clone("clips", m, s, *c) for c in CLUSTER_OUT)
+        # the clip above the cluster shows only its tail at the Feed's top edge (plate y 570-628): cloned out with the paper under it
+        ph += clone("clips", m, s, [(640, 545), (790, 545), (792, 645), (640, 645)], (0, 100), 5, 0.988)
         return (ph + logo("ink", 72, 1052, 150) +
                 '<div class="abs cgi" style="left:72px;top:1110px;color:%s;font-size:100px">Gem clip, promoted.</div>' % INK +
                 name_price(72, 1230, INK, ns=27, ps=46, row=True))
     ph, m, s = place("clips", W, H, s=1.15, focus=PL["clips"]["ring"], at=(720, 1385))
-    return (ph + logo("ink", 72, 300, 160) +
-            '<div class="abs cgi" style="left:72px;top:376px;color:%s;font-size:118px">Gem clip,<br>promoted.</div>' % INK +
-            name_price(72, 640, INK, ns=30, ps=56, row=True))
+    ph += "".join(clone("clips", m, s, *c) for c in CLUSTER_OUT)
+    # the price line sits 25 px higher than before (the block rises 12 px, the gap under the headline closes 13 px) so it
+    # clears the top strand's links
+    return (ph + logo("ink", 72, 288, 160) +
+            '<div class="abs cgi" style="left:72px;top:364px;color:%s;font-size:118px">Gem clip,<br>promoted.</div>' % INK +
+            name_price(72, 615, INK, ns=30, ps=56, row=True))
 
 def x06(fmt, W, H):
     link = ('<span class="inter" style="font-style:normal;font-weight:600;color:#6FA8FF;text-decoration:underline;text-decoration-thickness:6px;'
@@ -230,20 +265,26 @@ def x07(fmt, W, H):
         body += name_price(64, 1236, INK, ns=32, ps=50, row=True) + logo("ink", 870, 64, 150)
     return body
 
-def checklist(x, y, w, items, fs=46, head=56):
+def checklist(x, y, w, items, fs=46, head=56, sc=1.0, brand=0):
+    """sc < 1 scales the card from its top-left corner; brand > 0 puts an ink NAIRA of that width at the end of the price row."""
     rows = "".join('<div style="display:flex;align-items:center;gap:18px;margin-top:14px"><div style="position:relative;width:48px;height:46px;flex:none">%s</div>'
                    '<div class="kalam" style="font-size:%dpx;line-height:1.1">%s</div></div>' % (m_check(2, 4, RED, 42, 8), fs, it) for it in items)
+    tf = (";transform:scale(%.3f);transform-origin:0 0" % sc) if sc != 1 else ""
+    lg = ('<img src="file://%s" style="width:%dpx;flex:none">' % (os.path.join(BRAND, "logo_ink.png"), brand)) if brand else ""
     return ('<div class="abs inter" style="left:%dpx;top:%dpx;width:%dpx;padding:38px 44px 36px;background:#FFFDF6;border-radius:30px;color:#151515;'
-            'box-shadow:0 18px 40px rgba(0,0,0,.2)"><div style="font-weight:700;font-size:%dpx;letter-spacing:-.02em">Goes with:</div>%s'
-            '<div style="margin-top:24px;font-size:32px;color:#4a4a4a">Toggle Link Chain &middot; %s</div></div>' % (x, y, w, head, rows, PRICE))
+            'box-shadow:0 18px 40px rgba(0,0,0,.2)%s"><div style="font-weight:700;font-size:%dpx;letter-spacing:-.02em">Goes with:</div>%s'
+            '<div style="margin-top:24px;font-size:32px;color:#4a4a4a;display:flex;justify-content:space-between;align-items:center"><span>Toggle Link Chain &middot; %s</span>%s</div></div>'
+            % (x, y, w, tf, head, rows, PRICE, lg))
 
 def x08(fmt, W, H):
-    items = ["kurta", "office shirt", "saree blouse", "the Monday after the wedding"]
+    items = ["kurta", "office shirt", "saree blouse", "the Monday after the&nbsp;wedding"]   # 'the wedding' stays together
     if fmt == "feed":
         ph, m, s = place("worn", W, H, focus=PL["worn"]["ring"], at=(540, 900))
-        return ph + checklist(560, 40, 470, items, fs=40, head=50)
+        # 90% from its top-left corner, so its bottom-right corner clears the right strand; the logo sits bottom-left
+        return ph + checklist(560, 40, 470, items, fs=40, head=50, sc=0.9) + logo("ink", 72, 1250, 150)
     ph, m, s = place("worn", W, H)
-    return ph + checklist(72, 300, 600, items, fs=48, head=58)
+    # 80%, in the neck between the two strands (it hid the whole left strand); the logo closes the price row
+    return ph + checklist(360, 300, 600, items, fs=48, head=58, sc=0.8, brand=140)
 
 def x09(fmt, W, H):
     # checkerboard: text / photo on the first row, photo / text on the second; the Story's rows run edge to edge
@@ -260,17 +301,19 @@ def x09(fmt, W, H):
           '<div class="cgi" style="font-size:%dpx;color:%s">The clasp<br>is the<br>point.</div></div>') % (y1, tw, h1, "flex-start" if st else "center", "420px" if st else "0", 96 if st else 92, INK)
     t2 = ('<div class="abs" style="left:%dpx;top:%dpx;width:%dpx;height:%dpx;background:#1A1614;color:%s;display:flex;flex-direction:column;justify-content:flex-start;padding:%s 52px 0">'
           '<div class="jost" style="font-size:28px;letter-spacing:.14em;margin-bottom:14px">Toggle Link Chain</div><div class="cg" style="font-size:84px;line-height:1">%s</div>'
-          '<div class="jost" style="font-size:30px;letter-spacing:.12em;line-height:1.5;margin-top:22px">Gift-boxed<br>Free insured<br>shipping<br>Front or side</div>'
+          '<div class="jost" style="font-size:30px;letter-spacing:.12em;line-height:1.5;margin-top:22px">Gift-boxed<br><span style="white-space:nowrap">Free insured shipping</span><br>Front or side</div>'
           '<img src="file://%s" style="width:130px;margin-top:30px"></div>') % (tw, y2, tw, h2, IVORY, "110px" if st else "150px", PRICE, os.path.join(BRAND, "logo_white.png"))
     body = (t1 + photo_tile("worn", tw, y1, h1, 1.35, (270, 520 if st else 360)) +
             photo_tile("sage", 0, y2, h2, 1.25, (300, 320 if st else 330)) + t2)
     return body
 
 # X04 (Looks expensive. Isn't.) and X06 (Tap the link.) were cut by the judge: the rose takes over the picture and the
-# chain reads as a bracelet; the blue hyperlink imitates a link that does not exist. Their code stays for the record.
+# chain reads as a bracelet; the blue hyperlink imitates a link that does not exist. X07 (Anatomy of a show-off clasp) was
+# cut after the re-check: the marker circle and arrows kept landing on the metal after two rounds; judge 5/10.
+# Their code stays for the record.
 ADS = {"X01_kabhi_front": x01, "X02_sticky_note": x02, "X03_unpopular_opinion": x03, "X05_gem_clip": x05,
-       "X07_anatomy": x07, "X08_goes_with": x08, "X09_checkerboard": x09, "X10_hook_laga_do": x10}
-CUT = {"X04_looks_expensive": x04, "X06_tap_the_link": x06}
+       "X08_goes_with": x08, "X09_checkerboard": x09, "X10_hook_laga_do": x10}
+CUT = {"X04_looks_expensive": x04, "X06_tap_the_link": x06, "X07_anatomy": x07}
 
 def main():
     keys = sys.argv[1:] or list(ADS)
