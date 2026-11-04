@@ -46,8 +46,12 @@ def main():
         note = judge.get("set_notes", {}).get(gid, "")
         sections.append('<section class="set" id="%s"><header><p class="eyebrow">%s · mean %.2f</p><h2>%s</h2><p class="about">%s</p><p class="note">%s</p></header><div class="grid">%s</div></section>'
                         % (gid, num, mean.get(gid, 0), esc(name), esc(about), esc(note), "".join(cards)))
-    page = TEMPLATE % {"bars": "".join(rows), "sections": "".join(sections), "launch": esc(judge.get("launch", "")),
-                       "bench": esc(bench[0]["id"]), "benchv": bench[0]["score"], "top": esc(top["id"]), "topv": top["score"]}
+    names = {"PAL-9KT-hero": "Palmonas, 9KT Pendant Free", "PAL-9KT-card": "Palmonas, 9KT card", "GIVA-tea": "GIVA, a hot cup of silver",
+             "PAL-catalogue": "Palmonas catalogue", "GIVA-catalogue": "GIVA catalogue"}
+    top_name = (caps.get(top["id"], {}).get("headline", top["id"]).split(" · ")[0])
+    launch = judge.get("launch", "") + " The Story fixes the judge asked for have been made since it scored."
+    page = TEMPLATE % {"bars": "".join(rows), "sections": "".join(sections), "launch": esc(launch),
+                       "bench": esc(names.get(bench[0]["id"], bench[0]["id"])), "benchv": bench[0]["score"], "top": esc(top_name), "topv": top["score"]}
     open(out, "w").write(page); print(out, len(page))
 
 TEMPLATE = """<title>Naira Twenty</title>

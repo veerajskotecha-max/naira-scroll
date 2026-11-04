@@ -84,7 +84,10 @@
    "fa": 0.72,
    "fb": 0.32,
    "story": {
-    "logo_at": "none"
+    "logo_at": "none",
+    "theme": "light",
+    "fa": 0.5,
+    "fb": 0.2
    }
   },
   {

@@ -31,7 +31,7 @@
    "story": {
     "logo_at": "none",
     "line": "Yellow is the dress code.",
-    "hs": 60,
+    "hs": 56,
     "name": "Marquise Drop Choker · ₹1,199",
     "price": ""
    },
@@ -44,7 +44,7 @@
    "src": {
     "story": [
      0.0,
-     0.18,
+     0.22,
      1.0,
      1.0
     ]
@@ -62,7 +62,8 @@
    "hs": 64,
    "hgap": 18,
    "story": {
-    "hs": 72
+    "hs": 72,
+    "chip": "Buy 3 · 20% off"
    },
    "fa": 0.6,
    "fb": 0.25,
@@ -82,7 +83,10 @@
    "hs": 64,
    "hgap": 18,
    "story": {
-    "hs": 72
+    "hs": 72,
+    "chip": "Buy 3 · 20% off",
+    "fa": 0.72,
+    "fb": 0.36
    },
    "fa": 0.55,
    "fb": 0.22,

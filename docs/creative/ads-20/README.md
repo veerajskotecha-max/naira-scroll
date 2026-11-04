@@ -4,6 +4,8 @@ The ask: study how GIVA and Palmonas make their ads, score their ads and ours on
 
 Nothing here has been uploaded to Meta or changed on Shopify. The ads are ready to upload; the owner decides what runs.
 
+The review page, with every Feed card beside its Story, the score and the judge's note: https://claude.ai/artifact/PFfemVEbFQVCZfQbVmVAX5 (private until the owner shares it).
+
 ## Files
 
 | Path | What it is |
@@ -39,7 +41,7 @@ The rubric has ten criteria, weighted: stop .15, truth (product and scale) .15, 
 ## How every frame was checked
 
 - Detail against the product photo: stone count, cut, colour order, metal tone, clasp.
-- Size against the body, with a pixel ruler on the ear, finger, hand or neck, against the size on the product page; anything reading more than about 1.2× its real size was fixed. The fix was an edit pass with the frame as the reference: the piece made smaller, everything else kept.
+- Size against the body, with a pixel ruler on the ear, finger, hand or neck, against the size on the product page; anything reading more than about 1.2× its listed size was fixed. The fix was an edit pass with the frame as the reference: the piece made smaller, everything else kept.
 - Anatomy: hands counted, every arm traced to a shoulder.
 - Type: nothing under 27px on a 1080 canvas (about 10pt on a phone); Story type kept between y=270 and y=1500, clear of the profile bar and the Shop button.
 - Claims: only what the storefront states today. Metals as gold tone or silver tone, colours as colours (never gem names), no durability words.
@@ -48,7 +50,24 @@ Redone or edited along the way, with the reason recorded in `setN.json`: the rub
 
 ## Scores
 
-Round 1, Sets 1 and 2 as first built (weighted mean, 0-10): GIVA and Palmonas live ads 7.09 (the best, Palmonas's 9KT hero, 8.75); Naira's recent ads 6.83; Set 1 7.62; Set 2 8.03. The judge's fixes were applied to Sets 1 and 2 and its lessons became Set 4's brief. Round 2 scores all 20 after those fixes; it is added here when it is in.
+An independent judge (a separate agent that saw only the images and the rubric, never these scores) scored every ad by eye, twice. Weighted mean out of 10:
+
+| Group | Round 1 (Sets 1-2 as first built) | Round 2 (all 20 after the fixes) |
+|---|---|---|
+| GIVA and Palmonas live ads | 7.09 | 7.05 |
+| Naira's recent ads | 6.83 | 6.60 |
+| Set 1 · studio product cards | 7.62 | 7.71 |
+| Set 2 · wedding-season moments | 8.03 | 7.98 |
+| Set 3 · offer heroes | | 7.90 |
+| Set 4 · best of | | 7.90 |
+
+The best competitor ad, Palmonas's 9KT hero, scored 8.75 and 8.57. The 20 new ads average 7.87, about 1.3 above our recent ads. Most of the gain is in truth (every piece on a body at a believable size) and offer (the price and the bundle chip in the image). They sit 0.4 to 0.6 below the Palmonas hero on photo craft (skin that can read as generated) and desire. Most also stack five or six lines of type, where the Palmonas hero uses three or four; that is the next thing to cut.
+
+Top of round 2: Verdant Eternity Band, mehendi (8.20); Brushed Gold Huggies, ₹799 (8.20); Marquise Layering Set, sangeet (8.18); Marquise Drop Choker, haldi (8.07); Cushion Halo Ring and Ribbon Bead Bracelet, bridesmaids (8.05). Lowest: Prism Rivière (7.33, no occasion), Emerald Deco Hoops (7.45, the cheek reads plastic), Toggle Link Chain (7.55, cream on cream).
+
+The judge's launch picks: S2_06 mehendi band, S2_09 sangeet layers, S4_17 haldi choker, S3_12 ₹799 huggies, S4_19 bridesmaid bracelet and S3_11 three-for-20%, with S1_04 as first reserve. They cover a ring, two necklaces, earrings and bracelets from ₹799 to ₹1,599 and test a named wedding moment against a hard reason to buy now.
+
+After round 2, the five Story fixes it asked for were made (the choker headline off the skin, ink type on the bangle's pink box, a short Buy 3 chip clear of the fingers on the cuff and bridesmaid Stories, the prism wordmark off the bracelet); the scores above are from before those fixes.
 
 ## Flags for the owner
 
