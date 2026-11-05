@@ -1,12 +1,17 @@
 # Builds the Shop All review board: the ten ads to run (Feed beside Story, scores, the exact Meta copy and link), the campaign
 # plan, where the photos came from, the other ten, and the ratings of the competitor screenshots, the Naira Twenty ads and the
 # captions. Usage: board.py <out_dir>   (reads ../research/*.json and ../plan.json; images are referenced as ads/ and thumbs/)
-import html, json, os, sys
+import html, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 esc = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 J = lambda p: json.load(open(os.path.join(ROOT, p)))
+
+
+def fill(t, vals):
+    # %(key)s placeholders only, so the CSS can use plain % signs
+    return re.sub(r"%\((\w+)\)s", lambda m: str(vals[m.group(1)]), t)
 
 
 def score(v):
@@ -21,6 +26,8 @@ def main():
     table = {t["no"]: t for t in judging["table"]}
     copy = {c["no"]: c for c in judging["caps"]["ads"]}
     fixed = {f["no"]: f for f in judging["fixed"]}
+    CH = os.path.join(ROOT, "research/changes.json")
+    plain = {c["no"]: c for c in json.load(open(CH))} if os.path.exists(CH) else {}
     picks = judging["pick"]["picks"]
     order = [p["no"] for p in picks]
 
@@ -37,14 +44,14 @@ def main():
 <dt>Headline</dt><dd><span class="t">%(hl)s</span><button type="button" class="cp" data-copy="%(hl)s">Copy</button></dd>
 <dt>Description</dt><dd><span class="t">%(ds)s</span></dd>
 <dt>Link</dt><dd><span class="t url">%(link)s</span><button type="button" class="cp" data-copy="%(link)s">Copy</button></dd></dl>
-<details><summary>Why it is in, and what was fixed</summary><p>%(why)s</p><ul>%(fixes)s</ul><p class="v">%(vline)s</p>%(fb)s</details>
+<details><summary>Why it is in, and what changed after review</summary><p>%(why)s</p><ul>%(fixes)s</ul><p class="v">%(vline)s</p>%(fb)s</details>
 </div></article>""" % {
             "id": no.lower(), "no": no, "i": i, "fam": esc(c["family"]), "name": esc(c["name"]), "role": esc(p["role"]),
             "b": score(t["buyer"]), "d": score(t["director"]), "k": score(t["checker"]),
             "pt": esc(cp.get("primary_text", c["caption"])), "hl": esc(cp.get("headline", c["headline"])), "ds": esc(cp.get("description", "")),
             "fb": ('<p>Fallback if Meta rejects it (same layout, headline changed):</p><div class="pp fb"><img src="ads/%s_feed_fallback.jpg" alt="%s fallback, Feed" loading="lazy"><img src="ads/%s_story_fallback.jpg" alt="%s fallback, Story" loading="lazy"></div>' % (no, esc(c["name"]), no, esc(c["name"]))) if os.path.exists(os.path.join(out, "ads", no + "_feed_fallback.jpg")) else "",
-            "link": esc(link), "why": esc(p["why"]), "fixes": "".join("<li>%s</li>" % esc(x) for x in (f.get("done") or p["fixes"])),
-            "vline": esc(("Independent re-check: %s, %s/10." % ("passes" if v.get("pass") else "still has notes: " + "; ".join(v.get("defects", [])), score(v.get("score")))) if v else "")})
+            "link": esc(link), "why": esc(p["why"]), "fixes": "".join("<li>%s</li>" % esc(x) for x in (plain.get(no, {}).get("changes") or f.get("done") or p["fixes"])),
+            "vline": esc((("Checked again by a reviewer who had not seen it: passes, %s/10 for cold-scroll clicks." % score(v.get("score"))) if v.get("pass") else ("Checked again: still has notes: " + "; ".join(v.get("defects", [])))) + "".join(" " + x for x in plain.get(no, {}).get("still", [])) if v else "")})
 
     rest = []
     why_not = {w["no"]: w["why"] for w in judging["pick"]["why_not"]}
@@ -68,10 +75,10 @@ def main():
     plan_rows = "".join("<tr><th scope='row'>%s</th><td>%s</td></tr>" % (esc(k), esc(v)) for k, v in plan["setup"])
     rules_rows = "".join("<li>%s</li>" % esc(r) for r in plan["rules"])
     flags = "".join("<li>%s</li>" % esc(f) for f in plan["flags"])
-    page = TEMPLATE % {"cards": "".join(cards), "rest": "".join(rest), "comp": comp_rows, "naira": naira_rows, "caprows": cap_rows,
+    page = fill(TEMPLATE, {"cards": "".join(cards), "rest": "".join(rest), "comp": comp_rows, "naira": naira_rows, "caprows": cap_rows,
                        "rules": rules, "src": src_rows, "live": live_rows, "plan": plan_rows, "prules": rules_rows, "flags": flags,
                        "idea": esc(plan["idea"]), "capsg": score(caps["scores"]["giva"]), "capsp": score(caps["scores"]["palmonas"]),
-                       "capsn": score(caps["scores"]["naira"]), "capnote": esc(caps["source_note"]), "link": esc(plan["link_base"])}
+                       "capsn": score(caps["scores"]["naira"]), "capnote": esc(caps.get("short_note") or caps["source_note"]), "link": esc(plan["link_base"])})
     os.makedirs(out, exist_ok=True)
     open(os.path.join(out, "index.html"), "w").write(page)
     print(os.path.join(out, "index.html"), len(page))
@@ -133,7 +140,7 @@ ul.list{padding-left:18px;max-width:84ch;margin:14px 0 0} ul.list li{margin:6px 
 .scores{display:flex;flex-wrap:wrap;gap:12px 32px;margin-top:18px}
 .scores div b{font-family:var(--display);font-size:38px;font-weight:600;line-height:1;display:block} .scores span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
 .note{font-size:13px;color:var(--mute);max-width:84ch;margin-top:12px}
-footer{margin-top:80px;border-top:1px solid var(--line);padding-top:18px;font-size:13px;color:var(--mute);max-width:90ch}
+footer{margin-top:80px;border-top:1px solid var(--line);padding-top:18px;font-size:13px;color:var(--mute);max-width:90ch;overflow-wrap:anywhere}
 @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
 </style>
 <div class="wrap">

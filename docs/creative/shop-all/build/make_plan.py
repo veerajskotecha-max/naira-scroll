@@ -66,7 +66,12 @@ flags = [
  "C01 is the proven 'Almost edible.' photo. With one campaign budget, Meta may pour most of the ₹1,000 into it because it already has clicks; if it takes more than about a third of spend by day 3 while the others starve, pause it for a week so the new ads get a read.",
  "Nothing has been created on Meta and nothing has changed on Shopify.",
 ]
-plan = {"_about": "Shop All campaign plan (5 Nov 2026), built by make_plan.py", "idea": "NEVER JUST ONE. " + concepts["campaign_idea"].split("NEVER JUST ONE.", 1)[-1].strip(),
+IDEA = ("Every ad starts from a familiar Indian thing that never comes alone: a stack of choodis, a masala dabba, Mummy, Didi and me, "
+        "three stripes of rangoli, teen patti's three cards, five wedding functions, an exam question whose answer is 'All of the above'. "
+        "That thing opens onto all 130+ pieces from ₹599, each shown big, named and priced exactly. The multi-buy lands as the punchline "
+        "('= 20% off', 'All of the above. Correct.', 'That's three'), applied in the bag: never a code, never the headline. "
+        "Two of the account's proven photos ('Almost edible.' and the rangoli bracelet) and Mummy's saree bring the stop; the grids, lists and games bring the breadth.")
+plan = {"_about": "Shop All campaign plan (5 Nov 2026), built by make_plan.py", "idea": IDEA,
         "link_base": "https://nairaflore.com/jewellery?utm_source=meta&utm_medium=paid&utm_campaign=shopall_nov26",
         "slugs": slugs, "sources": [dict(ad=a, result=r, used=u) for a, r, u in sources], "live": live, "setup": setup, "rules": rules, "flags": flags}
 json.dump(plan, open(os.path.join(ROOT, "plan.json"), "w"), ensure_ascii=False, indent=1)

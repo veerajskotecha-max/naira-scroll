@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/kit.css">
+<style>
+:root{--ground:#4A1418;--soft:#E2D8CC;--gold-lt:#E2C68A}
+body.feed{background:linear-gradient(to bottom,#4A1418 0,#4A1418 760px,#41111A 1350px);font-variant-numeric:lining-nums}
+/* photo moved down 30px (source y 590-1310); the pavé link ends at y695, then one straight horizontal fade into the saree's maroon */
+.hero{position:absolute;left:0;top:0;width:1080px;height:720px;
+  background:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/heroes/H15_nocturne_chain.jpg") no-repeat;
+  background-size:1080px 1920px;background-position:0 -590px;
+  -webkit-mask-image:linear-gradient(to bottom,#000 0,#000 697px,rgba(0,0,0,.8) 701px,rgba(0,0,0,.5) 707px,rgba(0,0,0,.22) 713px,transparent 720px)}
+.t{position:absolute;white-space:nowrap;line-height:1}
+.l1{left:58px;top:708px;font-family:CGI,serif;font-weight:500;font-size:80px;color:var(--gold-lt)}
+.l2{left:60px;top:794px;font-family:CG,serif;font-weight:600;font-size:80px;color:var(--paper)}
+.logo{left:800px;top:732px;width:220px}
+.tag{right:60px;top:810px;text-align:right;font-family:CG,serif;font-size:30px;line-height:34px}
+.tag b{font-weight:600;color:var(--paper);display:block}
+.tag i{font-style:normal;font-weight:500;color:var(--gold-lt);display:block}
+.range{left:60px;top:884px;font-family:CGI,serif;font-weight:500;font-size:32px;color:var(--soft)}
+.card{position:absolute;top:929px;width:300px;height:272px;border:1px solid var(--gold-hi);border-radius:4px;overflow:hidden;
+  box-shadow:0 10px 24px rgba(0,0,0,.4);background:#c9a98f}
+.card img{position:absolute;display:block}
+.lab{position:absolute;word-spacing:-2px;letter-spacing:-.02em;top:1211px;font-family:CG,serif;font-size:30px;line-height:1;white-space:nowrap}
+.lab b{font-weight:600;color:var(--paper)}
+.lab i{font-style:normal;font-weight:500;color:var(--gold-lt)}
+.offer{left:60px;top:1251px;font-family:CGI,serif;font-weight:500;font-size:36px;color:var(--paper)}
+</style></head>
+<body class="feed">
+<div class="hero"></div>
+
+<div class="t l1">Mummy’s saree.</div>
+<div class="t l2">My chain.</div>
+<img class="logo" style="position:absolute" src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/logo_white.png">
+<div class="t tag"><b>Bold Nocturne Chain</b><i>₹1,799</i></div>
+
+<div class="t range">The saree goes back. These don’t. 130+ pieces from ₹599.</div>
+
+<div class="card" style="left:60px" data-src="worn/prism-cluster-studs-silver-worn.jpg" data-w="1288" data-c="625,300"><img></div>
+<div class="card" style="left:390px" data-src="worn/halo-curve-ring-worn.jpg" data-w="1150" data-c="440,712"><img></div>
+<div class="card" style="left:720px" data-src="worn/aqua-heart-drops-silver-worn.jpg" data-w="1288" data-c="572,405"><img></div>
+
+<div class="lab" style="left:60px"><b>Prism Cluster Studs</b> <i>₹1,499</i></div>
+<div class="lab" style="left:390px"><b>Halo Curve Ring</b> <i>₹1,199</i></div>
+<div class="lab" style="left:720px"><b>Aqua Heart Drops</b> <i>₹1,499</i></div>
+
+<div class="t offer">Any three: 20% off, applied in your bag.</div>
+
+<script>
+// crop = centre x,y in source pixels, drawn 1:1 (no upscaling): the card shows exactly its inner size of the source
+const P='file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/';
+document.querySelectorAll('.card').forEach(c=>{
+  const [cx,cy]=c.dataset.c.split(',').map(Number), W=+c.dataset.w;
+  const iw=c.clientWidth, ih=c.clientHeight, im=c.querySelector('img');
+  im.src=P+c.dataset.src; im.style.width=W+'px'; im.style.left=Math.round(iw/2-cx)+'px'; im.style.top=Math.round(ih/2-cy)+'px';
+});
+</script>
+</body></html>

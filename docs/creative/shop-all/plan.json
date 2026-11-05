@@ -1,6 +1,6 @@
 {
  "_about": "Shop All campaign plan (5 Nov 2026), built by make_plan.py",
- "idea": "NEVER JUST ONE. Every ad starts from a familiar Indian thing that never comes alone: a choodi stack, a masala dabba, Mummy, Didi and me, a haveli wall of windows, three stripes of rangoli, teen patti's three cards, a list of who gets what. That thing opens all 130+ pieces from ₹599, each shown big, named and priced exactly. The multi-buy then lands as the thing's own punchline ('three in a row', 'All of the above. Correct.', '= 20% off', 'That's three'), applied in her bag. It is never a code and never the headline. Four single-winner doors (Almost edible, Rangoli, the Nocturne saree, the anaar necklace) carry the account's proven stops, and the grids, lists, chats and games carry the breadth. The buyer throughout is a woman shopping for herself and the women around her, with no deadline anywhere. Global build rules: ₹ only in CG, CGI, Inter, Kalam, Caveat or Anton, because Jost, Velista, Old Standard and Permanent Marker have no ₹ glyph (several source concepts would have rendered broken prices). Story text and logo sit between y=270 and y=1500. One NAIRA logo per frame, 220-320 px wide.",
+ "idea": "Every ad starts from a familiar Indian thing that never comes alone: a stack of choodis, a masala dabba, Mummy, Didi and me, three stripes of rangoli, teen patti's three cards, five wedding functions, an exam question whose answer is 'All of the above'. That thing opens onto all 130+ pieces from ₹599, each shown big, named and priced exactly. The multi-buy lands as the punchline ('= 20% off', 'All of the above. Correct.', 'That's three'), applied in the bag: never a code, never the headline. Two of the account's proven photos ('Almost edible.' and the rangoli bracelet) and Mummy's saree bring the stop; the grids, lists and games bring the breadth.",
  "link_base": "https://nairaflore.com/jewellery?utm_source=meta&utm_medium=paid&utm_campaign=shopall_nov26",
  "slugs": {
   "C01": "almost_edible_annotated",
@@ -28,52 +28,52 @@
   {
    "ad": "'Almost edible.' Prism Rivière Bracelet in a bowl of sugared sweets",
    "result": "6.21% CTR Story, 5.61% Feed; 10 sales, the account's best-selling concept ad",
-   "used": "C01, C05"
+   "used": "C01"
   },
   {
    "ad": "'Rangoli, in a line.' Prism Rivière Bracelet on rangoli stripes",
    "result": "6.10% CTR Story",
-   "used": "C02, C05, C11, C15"
+   "used": "C02, C11"
   },
   {
    "ad": "'It has been rolling for miles.' / 'Woven, not cast.' Woven Gold Hoops",
    "result": "6.08% and 5.81% CTR",
-   "used": "C05, C07, C09, C12, C14, C15, C16, C17, C19, C20"
+   "used": "C07, C12, C17, C19"
   },
   {
    "ad": "'Anaar, pre-peeled.' Ruby tennis bracelet (sold out); its successor, the ruby necklace with anaar",
    "result": "5.49% CTR, 15 sales at 3.63x; 24 purchases lifetime",
-   "used": "C04, C06, C12"
+   "used": "C07, C12"
   },
   {
    "ad": "'Rangoli you can wear.' Prism Cluster Studs",
    "result": "5.21% CTR Feed",
-   "used": "C02, C05, C11, C15, C17"
+   "used": "C02, C03, C11, C17"
   },
   {
    "ad": "'Finer than pheni.' Silk Mesh Cuff",
    "result": "4.32% CTR",
-   "used": "C05, C06, C07, C10, C13, C14, C18"
+   "used": "C07, C18"
   },
   {
    "ad": "'Nobody got the better pair.' Baguette Huggies",
    "result": "4.01% CTR",
-   "used": "C05, C16"
+   "used": "not in the ten"
   },
   {
    "ad": "'Sealed with a kiss.' Kiss Knot Bangle",
    "result": "3.90% CTR",
-   "used": "C03, C09, C10, C11, C16, C18"
+   "used": "C10, C11, C18"
   },
   {
    "ad": "'Paperclip, promoted.' Toggle Link Chain",
    "result": "7.3% CTR on a small sample (41 impressions)",
-   "used": "C05, C08, C09, C13"
+   "used": "not in the ten"
   },
   {
    "ad": "Catalogue carousels of the on-model listing photos (Bestsellers, Edition Two)",
    "result": "6.28% CTR, 23 purchases, 2.93x in the last 7 days (Bestsellers); 4.37% and 41 purchases lifetime (Edition Two)",
-   "used": "C03, C07, C08, C10, C14, C15, C16, C18"
+   "used": "C02, C03, C07, C10, C17, C18"
   }
  ],
  "live": [
@@ -183,6 +183,8 @@
   "Overlap: three static campaigns already run to similar audiences (VK statics, Winners revived, Naira Twenty). Pausing Winners revived (0.76x) would fund this one without raising total spend. That is your call.",
   "Older captions in the account still say 'with codes BUY2 and BUY3 at checkout'. The codes still work, but the bag applies the offer by itself, so these ten never mention codes.",
   "The store shows percent-off badges against compare-at prices ('43% OFF'). These ads never use them.",
+  "C19 ('Teen patti') shows playing cards at a Diwali card night. It sells jewellery, not betting, but Meta's automated review can be strict about card games. A fallback with the headline 'Card night.' is built and saved; if C19 is rejected, swap that in.",
+  "C01 is the proven 'Almost edible.' photo. With one campaign budget, Meta may pour most of the ₹1,000 into it because it already has clicks; if it takes more than about a third of spend by day 3 while the others starve, pause it for a week so the new ads get a read.",
   "Nothing has been created on Meta and nothing has changed on Shopify."
  ]
 }
