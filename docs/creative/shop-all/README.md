@@ -53,6 +53,13 @@ Each ad adds `utm_source=meta&utm_medium=paid&utm_campaign=shopall_nov26&utm_con
 `ads/fallback/` holds C19 with the headline "Card night." in case Meta's review objects to the card game.
 `ads/other/` holds the ten that were made but not picked; `research/judging.json` says why each sat out.
 
+## The board
+
+Published as a private artifact: https://claude.ai/artifact/EennScYjuLekNowJ6nqvv3 (share it from the page's Share menu).
+`research/changes.json` holds the plain-English note of what changed in each ad after review, written by comparing the
+before and after images. After the re-check, the C01 Story photo was lifted so the whole bracelet clears Meta's Shop now
+button.
+
 ## Rebuilding the board
 
 ```
