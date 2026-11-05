@@ -10,8 +10,11 @@ def slug(s, n=26):
         out.append(w)
     return "_".join(out)
 slugs = {c["no"]: slug(c["name"]) for c in final}
+JP = os.path.join(ROOT, "research/judging.json")
+picked = {p["no"]: p.get("photos", []) for p in json.load(open(JP))["pick"]["picks"]} if os.path.exists(JP) else None
 def used(keys):
-    return ", ".join(c["no"] for c in final if any(any(k in p for k in keys) for p in c["photos"])) or "not used"
+    pool = picked.items() if picked else ((c["no"], c["photos"]) for c in final)
+    return ", ".join(sorted(no for no, ph in pool if any(any(k in p for k in keys) for p in ph))) or "not in the ten"
 sources = [
  ("'Almost edible.' Prism Rivière Bracelet in a bowl of sugared sweets", "6.21% CTR Story, 5.61% Feed; 10 sales, the account's best-selling concept ad", used(["H01"])),
  ("'Rangoli, in a line.' Prism Rivière Bracelet on rangoli stripes", "6.10% CTR Story", used(["H02", "H03"])),
@@ -22,7 +25,7 @@ sources = [
  ("'Nobody got the better pair.' Baguette Huggies", "4.01% CTR", used(["H09", "baguette-huggies"])),
  ("'Sealed with a kiss.' Kiss Knot Bangle", "3.90% CTR", used(["H16", "kiss-knot-bangle"])),
  ("'Paperclip, promoted.' Toggle Link Chain", "7.3% CTR on a small sample (41 impressions)", used(["H10", "toggle-link-chain"])),
- ("Catalogue carousels of the on-model listing photos (Bestsellers, Edition Two)", "6.28% CTR, 23 purchases, 2.93x in the last 7 days (Bestsellers); 4.37% and 41 purchases lifetime (Edition Two)", used(["-worn.jpg"])),
+ ("Catalogue carousels of the on-model listing photos (Bestsellers, Edition Two)", "6.28% CTR, 23 purchases, 2.93x in the last 7 days (Bestsellers); 4.37% and 41 purchases lifetime (Edition Two)", used(["worn/", "-worn.jpg"])),
 ]
 live = [
  ("Catalogue · Bestsellers batch 1 (₹1,500/day)", "₹10,182", "6.28%", "23", "2.93x"),
@@ -59,6 +62,8 @@ flags = [
  "Overlap: three static campaigns already run to similar audiences (VK statics, Winners revived, Naira Twenty). Pausing Winners revived (0.76x) would fund this one without raising total spend. That is your call.",
  "Older captions in the account still say 'with codes BUY2 and BUY3 at checkout'. The codes still work, but the bag applies the offer by itself, so these ten never mention codes.",
  "The store shows percent-off badges against compare-at prices ('43% OFF'). These ads never use them.",
+ "C19 ('Teen patti') shows playing cards at a Diwali card night. It sells jewellery, not betting, but Meta's automated review can be strict about card games. A fallback with the headline 'Card night.' is built and saved; if C19 is rejected, swap that in.",
+ "C01 is the proven 'Almost edible.' photo. With one campaign budget, Meta may pour most of the ₹1,000 into it because it already has clicks; if it takes more than about a third of spend by day 3 while the others starve, pause it for a week so the new ads get a read.",
  "Nothing has been created on Meta and nothing has changed on Shopify.",
 ]
 plan = {"_about": "Shop All campaign plan (5 Nov 2026), built by make_plan.py", "idea": "NEVER JUST ONE. " + concepts["campaign_idea"].split("NEVER JUST ONE.", 1)[-1].strip(),

@@ -37,11 +37,12 @@ def main():
 <dt>Headline</dt><dd><span class="t">%(hl)s</span><button type="button" class="cp" data-copy="%(hl)s">Copy</button></dd>
 <dt>Description</dt><dd><span class="t">%(ds)s</span></dd>
 <dt>Link</dt><dd><span class="t url">%(link)s</span><button type="button" class="cp" data-copy="%(link)s">Copy</button></dd></dl>
-<details><summary>Why it is in, and what was fixed</summary><p>%(why)s</p><ul>%(fixes)s</ul><p class="v">%(vline)s</p></details>
+<details><summary>Why it is in, and what was fixed</summary><p>%(why)s</p><ul>%(fixes)s</ul><p class="v">%(vline)s</p>%(fb)s</details>
 </div></article>""" % {
             "id": no.lower(), "no": no, "i": i, "fam": esc(c["family"]), "name": esc(c["name"]), "role": esc(p["role"]),
             "b": score(t["buyer"]), "d": score(t["director"]), "k": score(t["checker"]),
             "pt": esc(cp.get("primary_text", c["caption"])), "hl": esc(cp.get("headline", c["headline"])), "ds": esc(cp.get("description", "")),
+            "fb": ('<p>Fallback if Meta rejects it (same layout, headline changed):</p><div class="pp fb"><img src="ads/%s_feed_fallback.jpg" alt="%s fallback, Feed" loading="lazy"><img src="ads/%s_story_fallback.jpg" alt="%s fallback, Story" loading="lazy"></div>' % (no, esc(c["name"]), no, esc(c["name"]))) if os.path.exists(os.path.join(out, "ads", no + "_feed_fallback.jpg")) else "",
             "link": esc(link), "why": esc(p["why"]), "fixes": "".join("<li>%s</li>" % esc(x) for x in (f.get("done") or p["fixes"])),
             "vline": esc(("Independent re-check: %s, %s/10." % ("passes" if v.get("pass") else "still has notes: " + "; ".join(v.get("defects", [])), score(v.get("score")))) if v else "")})
 
@@ -122,7 +123,7 @@ tbody th{font-weight:500;width:28%} td.n{font-variant-numeric:tabular-nums;white
 .tw{overflow-x:auto}
 ul.list{padding-left:18px;max-width:84ch;margin:14px 0 0} ul.list li{margin:6px 0}
 .rest{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px;margin-top:22px}
-.th{margin:0;min-width:0} .pp{display:grid;grid-template-columns:5fr 2.81fr;gap:5px;align-items:end}
+.th{margin:0;min-width:0} .fb{max-width:320px;margin-top:8px} .pp{display:grid;grid-template-columns:5fr 2.81fr;gap:5px;align-items:end}
 .th figcaption{font-size:12.5px;color:var(--mute);margin-top:8px} .th b{color:var(--ink);font-weight:500}
 .cmps{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:20px;margin-top:22px}
 .cmp{margin:0;min-width:0} .cmp img{display:block;width:100%;height:auto;background:var(--line)}
