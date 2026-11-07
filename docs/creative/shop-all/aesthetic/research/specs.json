@@ -1,0 +1,491 @@
+[
+ {
+  "no": "A01",
+  "from": "MI2",
+  "name": "One link leads to another",
+  "idea": "An extreme macro of one pavé link of the Bold Nocturne Chain fills the frame on cream. The old saying is literally true of a chain and of a good shop: start with this link and the rest of the collection follows. The breadth line sits directly under the headline, so 'another' visibly means more pieces.",
+  "photos": [
+   {
+    "file": "pool/worn/bold-nocturne-chain-close.jpg",
+    "use": "FEED full bleed, downscaled: source box x300,y150 to x1740,y1950 scaled 0.75 to 1080x1350 (as in plan/mi_preview/mi2_feed_crop.jpg). The pavé link sits at about x200-990, y410-970. Clean cream top-left: no gold left of x953 above y300, or left of x884 above y350. Gold ends by y1050; below that is soft shadow, luminance 179+ from y1100. STORY full bleed, downscaled: source box x525,y0 to x1677,y2048 scaled 0.9375 to 1080x1920. Clean cream above y600 (gold only at x≥948 to y600). The link occupies y600-1450 and reaches x164-468 at y1400-1450, so no text at the bottom. Never above 1.0x, no tint."
+   }
+  ],
+  "palette": "The photo's own cream is the ground. Ink #1A1614 for the headline and breadth line (breadth at 80%). One accent: gold #9A6B2F for the piece credit. No panels, overlays or added colour.",
+  "type": "Headline line 1 in Cormorant Garamond 400, line 2 in Cormorant Garamond Italic 500, tracking -0.01em, ink. Breadth line in CG 500, ink at 80%. Credit in Jost 500 caps, tracking .2em, gold #9A6B2F. Feed sizes: headline 100px, breadth 32px, credit 26px. Story sizes: headline 96px, breadth 30px, credit 24px. Logo logo_ink.png.",
+  "feed_layout": "1080x1350, photo full bleed as specified. HEADLINE at x72: 'One link' in CG 400 100px, cap top y72, baseline 135. 'leads to another.' in CGI 500 100px, baseline 239 (line-height 104), ends about x752. BREADTH directly under it: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 32px, ink 80%, x72, baseline 300. It ends by about x860, at least 90px clear of the top-right link, which starts at x953 at that height. CREDIT bottom-left: 'BOLD NOCTURNE CHAIN · ₹1,799' in Jost 500 caps 26px, tracking .2em, gold #9A6B2F, x72, baseline 1236 (luminance 188+ there). LOGO: logo_ink.png 220px wide, right edge x1008, y1221-1270. Nothing else. There is no caps category line under the headline (removed).",
+  "story_layout": "1080x1920, photo full bleed as specified. All text sits in the clean cream above the link. Top row: logo_ink.png 220px at x72, y290-339. On the same row, 'BOLD NOCTURNE CHAIN · ₹1,799' in Jost 500 caps 24px, tracking .2em, gold #9A6B2F, right-aligned at x1008, baseline 322; it spans about x431-1008, where there is no gold above y350. HEADLINE at x72: 'One link' in CG 400 96px, cap top y400, baseline 460. 'leads to another.' in CGI 500 96px, baseline 560; it ends about x740, and gold at that height starts at x≥948. BREADTH: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 30px, ink 80%, x72, baseline 616; it ends about x800, and gold starts at x883. Nothing below y640: the whole link and its shadow carry the lower frame, and nothing sits at the bottom where the link reaches x164-468.",
+  "feed_text": [
+   "One link",
+   "leads to another.",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.",
+   "BOLD NOCTURNE CHAIN · ₹1,799",
+   "NAIRA (logo_ink.png)"
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png)",
+   "BOLD NOCTURNE CHAIN · ₹1,799",
+   "One link",
+   "leads to another.",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399."
+  ],
+  "why": "Highest combined score (7.96) and the most beautiful single frame in the batch. A razor-sharp pavé macro is a real thumb-stop, and the idiom works three ways (a chain link, a link you tap, one thing leading to another). Bold Nocturne Chain is 'most loved' on the site, and the close-up comes from the listing set behind the 5.73% Bestsellers carousel.",
+  "judge_fixes": [
+   "Art director and fact checker: removed the caps category line under the headline, so breadth is said once and nothing runs into the top-right link at x≈953-988.",
+   "Media buyer: the single breadth line now sits directly under the headline in both formats, so 'another' visibly means more pieces.",
+   "Fact checker: measured the Story; the link reaches x164-468 at y1400-1450, so the concept's bottom credit would have touched the chain. All Story text moved to the clean top zone.",
+   "Bottom-left Feed credit checked against cast shadows: luminance 188+ at y1200-1250.",
+   "Never upscaled (0.75 and 0.9375). ₹1,799 checked against pool.json (17 in stock)."
+  ]
+ },
+ {
+  "no": "A02",
+  "from": "ED2 (with MI3's flat frame and label treatment)",
+  "name": "Sold. The rest are on view.",
+  "idea": "A gallery wall in deep anaar red. The account's best-converting photo, the ruby bracelet with pomegranate, hangs in a thin matte gold frame with a mishri-white mat. Beside it is a flat museum label with a red dot and the word SOLD. The wall text says it plainly: 'Sold. The rest are on view.' The sell-out becomes the invitation to the rest of the shop.",
+  "photos": [
+   {
+    "file": "pool/heroes/H18_ruby_anaar_plate.jpg",
+    "use": "Only inside the framed window, in both formats at 0.45x. Crop source x250-1600, y470-2050 (1350x1580) into a 608x712 window. Measured: the bracelet runs about source x370-1490, so it is about 504px wide in the window. The halved pomegranate enters the top-right corner (window x≈330-608, y0-190). Arils are cut at the left and right edges, with a cluster at bottom-right (window ≈470-540, y≈450-510). Calm plaster fills the bottom ~180px. Preview: curate/ed2_preview.jpg. No price, no recolour."
+   }
+  ],
+  "palette": "Wall: anaar #4A1A20 with 2% monochrome grain and a soft radial light (#57212A at the centre to #4A1A20, radius 900). Mat: #F6EFE6 with a 1px #E2D8CC bevel. Moulding: 6px flat matte gold-tone #A8834A, sampled from the bracelet's gold, no gradient. Wall text: ivory #F3EAE0. Label card: #F3EBE1, flat, no shadow. Label type: ink #1A1614 and #6E645E. The only bright accent is the red dot #B3362A.",
+  "type": "Wall text: 'Sold.' in CGI 500 and 'The rest are on view.' in CG 400, ivory. Label: CG 600 26px (name), CGI 500 26px (material), Jost 500 caps 22px tracking .2em (SOLD). Breadth line: CG 500 (34px Feed, 36px Story), ivory. Logo: logo_white.png 220px.",
+  "feed_layout": "1080x1350, wall as specified. WALL TEXT, one line at x72, baseline 132: 'Sold.' in CGI 500 64px, then a space, then 'The rest are on view.' in CG 400 64px, ivory (about 745px wide). FRAME: outer box x72-780, y176-1006. 6px flat moulding #A8834A. Mat: 44px top and sides, 62px bottom. Window x122-730, y226-938 (608x712) holding the H18 crop, with a 1px #E2D8CC bevel. One soft natural shadow: 0 16px 32px rgba(0,0,0,.30). LABEL: a flat card #F3EBE1, no shadow, square corners, x812-1008 (196 wide), bottom-aligned with the frame at y1006, 258 tall (y748-1006), padding 18. Inside, top to bottom: 'Baguette' / 'Tennis' / 'Bracelet,' / 'Ruby red' in CG 600 26px ink, leading 32. Then 'Gold tone,' / 'cubic zirconia' in CGI 500 26px #6E645E, leading 30. Then 10px of space. Then a 14px red dot #B3362A and, 10px after it, 'SOLD' in Jost 500 caps 22px, tracking .2em, ink. BREADTH: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 34px, ivory, x72, baseline 1080. LOGO: logo_white.png 220px, x788-1008, y1229-1278. All else is empty wall.",
+  "story_layout": "1080x1920, same wall, radial light centred near (420,700). LOGO: logo_white.png 220px, top-right x788-1008, y300-349. WALL TEXT at x72: 'Sold.' in CGI 500 104px, ivory, baseline 384. 'The rest are on view.' in CG 400 84px, ivory, baseline 476 (about 741px wide). The two lines are nearly equal in weight, so the second line is read in the same glance. FRAME: outer x72-780, y540-1370, same moulding, mat, bevel and shadow. Window x122-730, y590-1302 (608x712), same crop. LABEL: the same flat card, x812-1008, bottom-aligned at y1370 (y1112-1370), same contents and sizes. BREADTH: CG 500 36px, ivory, x72, baseline 1446. All text between y300 and 1450. Below y1500 is only wall.",
+  "feed_text": [
+   "Sold. The rest are on view.",
+   "Baguette Tennis Bracelet, Ruby red",
+   "Gold tone, cubic zirconia",
+   "SOLD",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.",
+   "NAIRA (logo_white.png)"
+  ],
+  "story_text": [
+   "NAIRA (logo_white.png)",
+   "Sold.",
+   "The rest are on view.",
+   "Baguette Tennis Bracelet, Ruby red",
+   "Gold tone, cubic zirconia",
+   "SOLD",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399."
+  ],
+  "why": "Second-highest combined score (7.88; the fact checker's 8.4 is the top single score). It is the founder's own seed line and the honest way to reuse the account's best-converting photo (H18: 4.32% CTR, 24 purchases at 2.27x). A dark anaar wall stands out in a cream feed. This is the only H18 ad and the only sold-dot ad in the set.",
+  "judge_fixes": [
+   "Art director, media buyer, fact checker: the CSS gilt gradient is replaced by a 6px flat matte gold-tone moulding (#A8834A, sampled from the bracelet).",
+   "Art director: the drop-shadowed label card is now a flat printed label with no shadow, like a mounted museum card. It stays mishri-cream rather than going straight on the wall, because a red dot on an anaar wall would not read.",
+   "Art director: the frame is bigger. The window is 608x712 at 0.45x, so the bracelet is about 504px wide, up from about 430. Re-measured: the bracelet spans source x370-1490, not 262-1586.",
+   "Fact checker: in the Story, the second line is now 84px under a 104px 'Sold.' (was 58 under 140), so nobody reads 'everything is sold out'.",
+   "H18 rule: no price anywhere, no 'last one', SOLD plus a red dot, 'Ruby red' and 'cubic zirconia' only (never 'ruby' as a stone). MI3 and CO1 dropped so only one sold-dot ad exists."
+  ]
+ },
+ {
+  "no": "A03",
+  "from": "ED1",
+  "name": "The Everything Issue",
+  "idea": "The calmest hoops photo becomes the cover of an issue with NAIRA's own logo as the masthead. The title is 'The Everything Issue'. Where a magazine prints its price, the dateline prints the price of the whole shop, ₹599 to ₹2,399. A small rotated credit names the cover star, and the cover line says what is inside: rings, earrings, necklaces, bracelets.",
+  "photos": [
+   {
+    "file": "pool/heroes/H08_woven_quiet.jpg",
+    "use": "Full bleed at exactly 1.0x. FEED: background-size 1080x1920, background-position 0 -218px (source y218-1568). The upper hoop's top lands at frame y≈380 and the lower hoop's bottom at ≈1147, with the persimmon between. STORY: native, uncropped (hoops at y598-1365). Measured: the right edge (x975-1030) is clean linen, luminance 154-223, only from source y300 to 880. Below that the persimmon's cast shadow drops to luminance 55-90, so the credit must stay above source y880. The left edge is stained (luminance 76-132 at y700-1400), so do not use it. No tint or retouch."
+   }
+  ],
+  "palette": "The photo's peach linen is the cover paper. Ink #1A1614 only (hairline at 45%, credit at 80%). The gold of the hoops and the orange of the persimmon are the only colour. No panels, shadows or gradients.",
+  "type": "Masthead: logo_ink.png 300px. Dateline: Jost 500 caps 22px, tracking .22em. Title: Cormorant Garamond Italic 500 (92px Feed, 96px Story). Rotated credit: Jost 500 caps 22px, tracking .12em, ink 80%. Cover line: CG 500 (36px Feed, 38px Story).",
+  "feed_layout": "1080x1350, H08 as specified. MASTHEAD: logo_ink.png 300px wide (67 tall), centred x390-690, y50-117. DATELINE row, baseline 160: 'ISSUE NO. 1' left at x72, and '₹599 TO ₹2,399' right-aligned at x1008. One 1px ink hairline at 45%, x72-1008, at y180 (the second hairline is removed). TITLE: 'The Everything Issue' in CGI 500 92px, ink, centred, baseline 296, about 740px wide (x≈170-910). Its descenders end ≈316, 64px above the upper hoop (y≈380). ROTATED CREDIT: 'COVER: WOVEN HOOPS, ₹1,199', rotated -90° (reads bottom to top), baseline on x1000, running from y655 up to about y210. That is the clean linen right of the upper hoop, above the persimmon shadow (which starts at frame y≈682), and about 72px right of the title's end. COVER LINE: 'Inside: rings, earrings, necklaces, bracelets.' in CG 500 36px, ink, centred, baseline 1240. Cap top ≈1216, about 69px below the lower hoop (≈1147). Margins 72.",
+  "story_layout": "1080x1920, H08 native. MASTHEAD: logo_ink.png 300px, centred, y290-357. DATELINE baseline 400 ('ISSUE NO. 1' at x72, '₹599 TO ₹2,399' right-aligned at x1008). One hairline at y420, x72-1008, ink 45%. TITLE: CGI 500 96px, centred, baseline 520, about 768px wide (x≈156-924). It stays about 57px above the hoop top (y598) and 58px left of the credit. ROTATED CREDIT: same text and style, baseline on x1000, from y880 up to about y440, all inside the clean column (source y300-880). COVER LINE: CG 500 38px, centred, baseline 1452, 62px below the lower hoop (1365). All text and the logo between y290 and 1460.",
+  "feed_text": [
+   "NAIRA (logo_ink.png masthead)",
+   "ISSUE NO. 1",
+   "₹599 TO ₹2,399",
+   "The Everything Issue",
+   "COVER: WOVEN HOOPS, ₹1,199",
+   "Inside: rings, earrings, necklaces, bracelets."
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png masthead)",
+   "ISSUE NO. 1",
+   "₹599 TO ₹2,399",
+   "The Everything Issue",
+   "COVER: WOVEN HOOPS, ₹1,199",
+   "Inside: rings, earrings, necklaces, bracelets."
+  ],
+  "why": "Combined 7.72. It has the strongest shop-all logic in the batch (a cover opens the whole issue) and uses the proven Woven Gold Hoops photo (5.81-6.08% CTR; 'most loved'). It is the set's only magazine cover, and the masthead is NAIRA's own.",
+  "judge_fixes": [
+   "Art director and media buyer: the title is the hero now, 92/96px (was 68/80), and one hairline is removed so it reads as a cover, not a form header.",
+   "Fact checker: the credit says 'WOVEN HOOPS', not 'WOVEN GOLD HOOPS', so it cannot read as a gold material claim.",
+   "Fact checker: the vertical credit moved off the persimmon's cast shadow. Measured: the right edge is clean only above source y880, so it runs frame y655 to 210 in the Feed and 880 to 440 in the Story. It is shortened to 'COVER: WOVEN HOOPS, ₹1,199' to fit.",
+   "'NOVEMBER 2026' replaced by 'ISSUE NO. 1', so the ad never expires.",
+   "The Feed crop moved to source y218 to give the larger title 64px of air above the hoop. ₹1,199 and ₹599-2,399 checked against pool.json and the brief."
+  ]
+ },
+ {
+  "no": "A04",
+  "from": "MI1",
+  "name": "Subtitled: I'll get the rest",
+  "idea": "A film still. The open palm offering the Woven Gold Hoops is letterboxed in warm black, like a scene from a slow late-night film, and the dialogue runs as subtitles: '– I got you these. / – Cute. I'll get the rest myself.' She is the self-purchaser, and 'the rest' is the whole shop, named in a gold whisper below.",
+  "photos": [
+   {
+    "file": "pool/heroes/H07_woven_diwali.jpg",
+    "use": "Both formats: source box x0,y690 to x1080,y1230 at 1.0x, a 1080x540 widescreen band (2:1). The palm and the two braided hoops sit at centre (hoops at about band x375-655, y250-490), with amber bokeh at left and right. Same crop as plan/mi_preview/mi1_feed_crop.jpg. H13 is NOT used. No tint."
+   }
+  ],
+  "palette": "Warm black #0C0807, sampled from H07's background, with optional 0.5% grain on the black only. Subtitles in mishri #F3EBDD. Whisper in kesar gold #C9A15B. The amber bokeh and gold hoops are the only warm light.",
+  "type": "Subtitles: Cormorant Garamond 500, 50px Feed / 52px Story, #F3EBDD, faint shadow 0 2px 8px rgba(0,0,0,.55). Whisper: Jost 500 caps 24px, tracking .2em, #C9A15B, plus a CGI 500 32px price line in #C9A15B. Logo: logo_white.png 220px.",
+  "feed_layout": "1080x1350, ground #0C0807. LOGO: logo_white.png 220px, centred, y126-175. STILL: H07 band at y300-840, full width, no border. SUBTITLES: a two-line, left-aligned block centred on the frame (block about 714px wide, so the lines start at x≈183), CG 500 50px, #F3EBDD, baselines 920 and 984. Each line starts with an en dash and a space as the speaker mark: '– I got you these.' / '– Cute. I’ll get the rest myself.' WHISPER, centred: 'RINGS · EARRINGS · NECKLACES · BRACELETS' in Jost 500 caps 24px, tracking .2em, #C9A15B, baseline 1152 (about 804px wide). Then '₹599 to ₹2,399' in CGI 500 32px, #C9A15B, centred, baseline 1202. No rules, frames or anything else. Margins at least 72.",
+  "story_layout": "1080x1920, ground #0C0807. LOGO: logo_white.png 220px, centred, y300-349. STILL: the same H07 band (1080x540) at y560-1100. SUBTITLES: the same two-line dual-speaker block, CG 500 52px, #F3EBDD, left-aligned block centred on the frame, baselines 1184 and 1250. WHISPER: Jost 500 caps 24px, tracking .2em, #C9A15B, centred, baseline 1372. Then CGI 500 32px '₹599 to ₹2,399', centred, baseline 1424. Everything above y290 and below 1440 stays black. One still only: no reverse shot.",
+  "feed_text": [
+   "NAIRA (logo_white.png)",
+   "– I got you these.",
+   "– Cute. I’ll get the rest myself.",
+   "RINGS · EARRINGS · NECKLACES · BRACELETS",
+   "₹599 to ₹2,399"
+  ],
+  "story_text": [
+   "NAIRA (logo_white.png)",
+   "– I got you these.",
+   "– Cute. I’ll get the rest myself.",
+   "RINGS · EARRINGS · NECKLACES · BRACELETS",
+   "₹599 to ₹2,399"
+  ],
+  "why": "Combined 7.56 and the strongest thumb-stop of the 18 (8.1-8.2 from the art director and media buyer). Subtitles are read by reflex, gold glows on black, and it looks like nothing else in a cream jewellery feed. Woven Gold Hoops ads ran at 6.08% and 5.81%.",
+  "judge_fixes": [
+   "All three judges: the H13 reverse shot (red cards and green baize, which echo the first ten's Teen patti; the solitaire-look ring, which reads as an engagement upgrade) is removed. A second band cannot be 'tighter' at 1.0x without upscaling, so the Story is one 2:1 still with both subtitle lines.",
+   "Fact checker: the reply is now a self-purchase line, '– Cute. I’ll get the rest myself.', not '– Cute. Where’s the rest?'. It fits the self-buying audience and still names 'the rest'. 'Cute.' stays light.",
+   "Subtitles kept at 50px or more, and the band kept at 540px tall.",
+   "The whisper was 26px with .24em tracking (about 914px, too close to the margins). It is now 24px with .2em (about 804px)."
+  ]
+ },
+ {
+  "no": "A05",
+  "from": "ED4",
+  "name": "The rangoli's done. Come in.",
+  "idea": "An exhibition poster for the whole collection, built on the rangoli-at-the-threshold photo. A rangoli is drawn at the door to welcome people in, so the poster says so: a small italic 'The rangoli’s done.' and then, enormous, 'Come in.' The info block reads like a show's: what is on and the range, and 'Admission free. Shipping too.'",
+  "photos": [
+   {
+    "file": "pool/heroes/H03_prism_wrist_rangoli.jpg",
+    "use": "At exactly 1.0x, full width, as the lower part of both formats, with a hard edge to the paper band. FEED: the photo div is y404-1350, showing source y455-1401 (background-size 1080x1920, background-position 0 -455px inside the div). The bracelet (source x575-780, y553-772) lands at frame y≈502-721, 98px under the band edge. Rangoli dots and petals fill frame y≈1109-1350. STORY: the photo div is y700-1920, showing source y440-1660. The bracelet lands at frame y≈813-1032, and the rangoli flower fills y≈1420-1920."
+   }
+  ],
+  "palette": "Band: cream #F3EDE4 with 2% paper grain. Ink #1A1614 (hairline at 45%, info at 75%). The aqua, pink and yellow of the rangoli and the pastel bracelet are the only colour.",
+  "type": "Kicker: CGI 500 (44px Feed / 50px Story). Title: Cormorant Garamond 400, tracking -0.01em (168px Feed / 176px Story). Info: Jost 500 caps 22px, tracking .22em, ink 75%. Breadth: CG 500 (34px Feed / 36px Story). Logo: logo_ink.png.",
+  "feed_layout": "1080x1350. BAND y0-404: flat cream with grain, hard edge at y404 (no fade, no rule). LOGO: logo_ink.png 220px, top-right x788-1008, y72-121. KICKER: 'The rangoli’s done.' in CGI 500 44px, ink, x72, baseline 124. TITLE: 'Come in.' in CG 400 168px, x72, baseline 272 (cap top ≈166), about 565px wide, ending x≈637. INFO, as two lines right-aligned at x1008, baselines 236 and 272 (the second sits on the title's baseline): 'ADMISSION FREE.' / 'SHIPPING TOO.' in Jost 500 caps 22px, tracking .22em, ink 75% (about x711-1008, 74px clear of the title). HAIRLINE: 1px ink 45%, x72-1008, y312. BREADTH: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 34px, ink, x72, baseline 362. PHOTO: y404-1350 as specified. No text on the photo.",
+  "story_layout": "1080x1920. BAND y0-700: cream with grain, hard edge at y700. LOGO: logo_ink.png 240px, x768-1008, y296-350. KICKER: CGI 500 50px, x72, baseline 344. TITLE: 'Come in.' in CG 400 176px, x72, baseline 540, about 593px wide (ends x≈665). INFO: two lines right-aligned at x1008, Jost 500 caps 22px, tracking .2em, ink 75%, baselines 500 and 540 (about x724-1008). HAIRLINE: ink 45%, x72-1008, y588. BREADTH: CG 500 36px, ink, x72, baseline 642. PHOTO: y700-1920 as specified. All type between y296 and 650.",
+  "feed_text": [
+   "NAIRA (logo_ink.png)",
+   "The rangoli’s done.",
+   "Come in.",
+   "ADMISSION FREE.",
+   "SHIPPING TOO.",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399."
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png)",
+   "The rangoli’s done.",
+   "Come in.",
+   "ADMISSION FREE.",
+   "SHIPPING TOO.",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399."
+  ],
+  "why": "Combined 7.46 (media buyer 7.9). It turns a true cultural insight (a rangoli at the door means welcome) into a shop-all invitation, timed to the season without saying Diwali. H03 shows the 'most loved' Prism Rivière and descends from the 6.10% rangoli winner. The poster band with a hard edge looks printed and expensive.",
+  "judge_fixes": [
+   "Art director: 'OPEN ALL NIGHT' cut (filler, and it reads as a physical store). 'ADMISSION FREE. SHIPPING TOO.' stays on its own, right-aligned.",
+   "Fact checker: the rangoli's meaning is now on the page with the kicker 'The rangoli’s done.', so 'Come in.' is not a generic line.",
+   "Media buyer and fact checker: the band is shortened to 404px and the info block moved to sit beside the title. The photo window grows to 946px, so the bracelet sits 98px under the edge (was about 80) and about 240px of rangoli shows (was about 240 with a cramped wrist).",
+   "'Free insured shipping' checked against the brief. No Diwali words.",
+   "Final-edit note: MI6 (A08) now uses H04 rather than H02, so A05 is the set's only Prism Rivière ad and both can run."
+  ]
+ },
+ {
+  "no": "A06",
+  "from": "MI4",
+  "name": "Left ear, right ear.",
+  "idea": "A mirrored diptych of the store's own on-model photos. Her left ear wears the Emerald Deco Hoops and her right ear the Pearl Nugget Hoops. The two ears face each other across the gutter like a reflection that refused to match. 'Nobody said they had to match.' The offer becomes the styling idea: mix any two, 10% off in your bag.",
+  "photos": [
+   {
+    "file": "pool/worn/emerald-deco-hoops-worn.jpg",
+    "use": "LEFT panel at 1.0x. FEED: source box x584,y0 to x1040,y660 (456x660). It starts at the source's top edge so the whole ear shows. The ear sits at panel x≈176-416, the green hoop at panel y≈350-555, and dark hair fills the right of the panel at the gutter. STORY: source box x584,y0 to x1040,y740 (456x740). Preview: curate/mi4_preview.jpg."
+   },
+   {
+    "file": "pool/worn/pearl-nugget-hoops-worn.jpg",
+    "use": "RIGHT panel at 1.0x. FEED: source box x260,y0 to x716,y660, with the ear at panel x≈40-280, the pearl hoop at panel y≈350-545, and hair at the gutter side. STORY: source box x260,y0 to x716,y740. The two ears sit mirror-symmetric about frame x540 (52px each side of the gutter centre), and the hoops are level. No colour grading between panels."
+   }
+  ],
+  "palette": "Ground: warm beige #EFE3D3 (the listing backdrop, a shade deeper). Ink #1A1614 and #6E645E. One accent: gold #9A6B2F for the hairline and offer. Skin, emerald, pearl and the gold tone come from the photos.",
+  "type": "Labels: CGI 500 28px #6E645E. Headline: Cormorant Garamond 400 (84px Feed / 80px Story), ink. Line: CGI 500 40px #6E645E. Offer: Jost 500 caps 22px, tracking .2em, gold #9A6B2F. Breadth: CGI 500 28px, ink 80%. Logo: logo_ink.png 220px.",
+  "feed_layout": "1080x1350, ground #EFE3D3. PANELS: 456x660 at y72-732, left x72-528 (emerald) and right x552-1008 (pearl), 24px gutter, no borders, no shadows. LABELS: CGI 500 28px #6E645E, baseline 776, left-aligned under each panel: 'Emerald Deco Hoops, ₹1,249' at x72 and 'Pearl Nugget Hoops, ₹1,199' at x552. HEADLINE: 'Left ear, right ear.' in CG 400 84px, ink, centred, baseline 896. LINE: 'Nobody said they had to match.' in CGI 500 40px #6E645E, centred, baseline 960. HAIRLINE: gold #9A6B2F, 1px, 96px long, centred, at y1004. OFFER: 'MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG' in Jost 500 caps 22px, tracking .2em, gold, centred, baseline 1056 (about 775px wide). BREADTH: 'Rings, earrings, necklaces, bracelets, from ₹599.' in CGI 500 28px, ink 80%, centred, baseline 1102. LOGO: logo_ink.png 220px, centred, y1196-1245.",
+  "story_layout": "1080x1920, ground #EFE3D3. LOGO: logo_ink.png 220px, centred, y290-339. PANELS: 456x740 at y380-1120, same x positions, Story crops. LABELS: CGI 28px #6E645E, baseline 1160, under each panel. HEADLINE: CG 400 80px, centred, baseline 1262. LINE: CGI 500 40px #6E645E, centred, baseline 1318. HAIRLINE: gold, 96px, centred, y1352. OFFER: Jost 500 caps 22px, tracking .2em, gold, centred, baseline 1398. BREADTH: CGI 500 28px, ink 80%, centred, baseline 1442. Nothing below y1460.",
+  "feed_text": [
+   "Emerald Deco Hoops, ₹1,249",
+   "Pearl Nugget Hoops, ₹1,199",
+   "Left ear, right ear.",
+   "Nobody said they had to match.",
+   "MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG",
+   "Rings, earrings, necklaces, bracelets, from ₹599.",
+   "NAIRA (logo_ink.png)"
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png)",
+   "Emerald Deco Hoops, ₹1,249",
+   "Pearl Nugget Hoops, ₹1,199",
+   "Left ear, right ear.",
+   "Nobody said they had to match.",
+   "MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG",
+   "Rings, earrings, necklaces, bracelets, from ₹599."
+  ],
+  "why": "Combined 7.46 (media buyer 8.1). It is built on the on-model listing photos behind the account's best purchase driver (Bestsellers carousel 5.73%, 43 purchases at 2.67x). The deliberate mismatch is graphic at phone size, and the Buy-2 offer becomes the twist rather than a shout. It is one of the set's two on-model ads and one of its curated multi-piece frames.",
+  "judge_fixes": [
+   "Fact checker and art director: re-cropped from the source's top edge (y0, not y30) and shifted so the whole ear and hair at the gutter show, reading as a portrait pair. Panels trimmed to 660px so less bare neck shows (media buyer: about 80px less). Previewed: the ears mirror exactly about x540 and the hoops are level (y≈350-555 vs 350-545).",
+   "Art director and media buyer: breadth added after the offer ('Rings, earrings, necklaces, bracelets, from ₹599.'), and the offer now reads 'MIX ANY TWO', so the shop beyond earrings is implied.",
+   "Brief: the offer reads 'applied in your bag'. Only the product name 'Pearl Nugget Hoops' is used: no material claim, never 'freshwater'.",
+   "Prices checked against pool.json: ₹1,249 and ₹1,199."
+  ]
+ },
+ {
+  "no": "A07",
+  "from": "MI5",
+  "name": "Haiku, in three pieces",
+  "idea": "A real 5-7-5 haiku set like printed verse on the calm blush wall above the ruby necklace and anaar: 'Rangoli, for ears. / Elaichi, around the wrist. / Anaar, at the throat.' Each line names a familiar Indian thing in the colour of one Naira piece (the rangoli studs, the elaichi-green bracelet, the anaar-red necklace pictured). A quiet note beside the bust says it is 'Three pieces of a much longer poem.'",
+  "photos": [
+   {
+    "file": "pool/heroes/H06_necklace_anaar.jpg",
+    "use": "At exactly 1.0x in both formats. FEED: background-position 0 -330px (source y330-1680). The wall fills frame y0-410, the neck form starts at y≈410, the necklace sits at y≈520-890, the pomegranate on the right at y≈735-1090, and the arils at x≈495-850, y≈1085-1310. STORY: native and uncropped (wall y0-740, neck form top at y≈740, pomegranate from y≈1065). Do NOT shift down or stretch rows: the top rows run from luminance 204 at left to 232 at right, so any fill would seam. Measured: the wall right of the bust (source x720-1008, y760-1040) is luminance 217-225, clean."
+   }
+  ],
+  "palette": "The photo's blush wall is the page. Ink #1A1614 for the poem, #6E645E for the range. The ruby and pomegranate are the only colour. No panels or overlays.",
+  "type": "Poem: Cormorant Garamond Italic 500 (64px Feed / 66px Story), ink, centred. Footnote: CGI 500 32px, ink. Range: Jost 500 caps 24px, tracking .22em, #6E645E. Logo: logo_ink.png 220px.",
+  "feed_layout": "1080x1350, H06 as specified, no overlays. POEM: CGI 500 64px, ink, centred, line-height 80, baselines 170, 250 and 330. The widest line, 'Elaichi, around the wrist.', is about 670px. The last line ends ≈345, 65px above the neck form (y≈410). FOOTNOTE on the wall right of the bust, right-aligned at x1008: 'Three pieces of a' / 'much longer poem.' in CGI 500 32px, ink, baselines 480 and 520. Below it, '₹599 TO ₹2,399' in Jost 500 caps 24px, tracking .22em, #6E645E, right-aligned at x1008, baseline 566. That wall is clean (source x720-1008, y760-1040), and the pomegranate starts below at y≈735 only for x≥690 lower down, so keep the block above y575 and right of x720. LOGO: logo_ink.png 220px, bottom-right x788-1008, y1219-1268, clear of the arils (the nearest is at x≤685 or y≤1160 there). No tag above the poem.",
+  "story_layout": "1080x1920, H06 native. LOGO: logo_ink.png 220px, centred, y300-349. POEM: CGI 500 66px, ink, centred, line-height 84, baselines 470, 554 and 638. Descenders end ≈652, 88px above the neck form (y≈740). FOOTNOTE: right-aligned at x1008, beside the bust: 'Three pieces of a' / 'much longer poem.' in CGI 500 32px, ink, baselines 830 and 870. Then '₹599 TO ₹2,399' in Jost 500 caps 24px, tracking .22em, #6E645E, baseline 916. That is clean wall: x720-1008 and y760-1040 measure luminance 217-225, and the pomegranate starts at y1065. Nothing below y930.",
+  "feed_text": [
+   "Rangoli, for ears.",
+   "Elaichi, around the wrist.",
+   "Anaar, at the throat.",
+   "Three pieces of a much longer poem.",
+   "₹599 TO ₹2,399",
+   "NAIRA (logo_ink.png)"
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png)",
+   "Rangoli, for ears.",
+   "Elaichi, around the wrist.",
+   "Anaar, at the throat.",
+   "Three pieces of a much longer poem.",
+   "₹599 TO ₹2,399"
+  ],
+  "why": "Combined 7.30 (art director 7.5). It is the freshest idea in the set: the house formula (an Indian thing in the stone's colour: 'Rangoli, in a line.' 6.10%, 'Anaar, pre-peeled.' 5.49%) used three times in one true 5-7-5. It names three categories (ears, wrist, throat) as an edit, on H06 untouched.",
+  "judge_fixes": [
+   "Art director and media buyer: the 'HAIKU, IN THREE PIECES' tag is dropped, so the poem stands alone and only one line explains it.",
+   "Fact checker and art director: no stretched or filled top band in the Story. Measured: H06's top rows run horizontally from luminance 204 to 232, so any extension would seam. The Story uses the photo natively, and the footnote moves to the clean wall right of the bust.",
+   "Feed: the footnote moved from the bottom-left (where it came within about 5px of an aril at x525) to the clean wall right of the bust. The logo stays bottom-right, clear of the arils.",
+   "Syllables verified 5-7-5, and the wording must not be changed. Each line maps to an in-stock piece (Prism Cluster Studs ₹1,499, Emerald Tennis Bracelet ₹1,499, Ruby Tennis Necklace ₹2,099). No prices on the frame.",
+   "ED5 is held as a reserve on the same photo and wall. Never run both."
+  ]
+ },
+ {
+  "no": "A08",
+  "from": "MI6 (plate swapped from H02 to H04)",
+  "name": "Fig. 2 onwards",
+  "idea": "A printed book page. One plate shows the Prism Cluster Studs beside three cones of rangoli powder in their exact colours, captioned like a figure: 'FIG. 1 · Rangoli you can wear.' The foot line borrows how Indian shops write prices: 'Fig. 2 onwards: everything else, ₹599 onwards.' The rest of the book is the shop.",
+  "photos": [
+   {
+    "file": "pool/heroes/H04_cluster_rangoli.jpg",
+    "use": "The plate, downscaled to 0.7778x, full source width, in both formats. Crop source x0,y200 to x1080,y1340 into an 840x887 plate. The violet, pink and yellow cones sit at plate y≈48-420, the powder trail and fingertip run across the middle, and the two studs (source x180-905, y1070-1290) land at plate y≈677-848, about 280px wide each. About 40px of plaster shows below the studs. No border. Preview: curate/mi6_preview.jpg (that preview used a tighter box; use the box here)."
+   }
+  ],
+  "palette": "Ground: paper #FBF8F3 with faint grain. Ink #1A1614, #6E645E for small type, hairlines in ink at 25%. One accent: gold #9A6B2F for 'FIG. 1'. The violet, pink and yellow of the plate are the colour.",
+  "type": "Running head and credit: Jost 500 caps 22px, tracking .2-.24em, #6E645E. 'FIG. 1': Jost 500 caps 22px, tracking .24em, gold. Caption: CGI 500 60px, ink. Foot: CGI 500 (36px Feed / 34px Story), ink, the second-biggest type. Logo: logo_ink.png 200px.",
+  "feed_layout": "1080x1350, paper with grain. The text block and plate share one measure, x120-960, so the page has wide book margins. RUNNING HEAD: 'THE COLLECTION' in Jost 500 caps 22px, tracking .24em, #6E645E, x120, baseline 104. logo_ink.png 200px wide, right-aligned at x960, y76-121. HAIRLINE: 1px ink 25%, x120-960, y144. PLATE: x120-960, y172-1059 (840x887). FIG ROW, baseline 1104: 'FIG. 1' in Jost 500 caps 22px, tracking .24em, gold, at x120, and on the same baseline 'PRISM CLUSTER STUDS · ₹1,499' in Jost 500 caps 22px, tracking .2em, #6E645E, right-aligned at x960. CAPTION: 'Rangoli you can wear.' in CGI 500 60px, ink, x120, baseline 1170. HAIRLINE: ink 25%, x120-960, y1200. FOOT: 'Fig. 2 onwards: everything else, ₹599 onwards.' in CGI 500 36px, ink, x120, baseline 1254, on one line (about 662px within 840). Bottom margin about 96.",
+  "story_layout": "1080x1920, paper with grain, measure x120-960. RUNNING HEAD: 'THE COLLECTION' in Jost caps 22px at x120, baseline 328, with logo_ink.png 200px right-aligned at x960, y296-341. HAIRLINE at y364. PLATE: x120-960, y392-1279, same crop. FIG ROW baseline 1322 ('FIG. 1' left in gold; 'PRISM CLUSTER STUDS · ₹1,499' right in #6E645E). CAPTION: CGI 500 60px, x120, baseline 1388. HAIRLINE at y1416. FOOT: CGI 500 34px, x120, baseline 1466, one line. Nothing below y1480.",
+  "feed_text": [
+   "THE COLLECTION",
+   "NAIRA (logo_ink.png)",
+   "FIG. 1",
+   "PRISM CLUSTER STUDS · ₹1,499",
+   "Rangoli you can wear.",
+   "Fig. 2 onwards: everything else, ₹599 onwards."
+  ],
+  "story_text": [
+   "THE COLLECTION",
+   "NAIRA (logo_ink.png)",
+   "FIG. 1",
+   "PRISM CLUSTER STUDS · ₹1,499",
+   "Rangoli you can wear.",
+   "Fig. 2 onwards: everything else, ₹599 onwards."
+  ],
+  "why": "Combined 7.24 (fact checker 7.6, 'the cleanest build in the set'). The book-figure conceit and the 'onwards' pun frame the hero as Fig. 1 of many. Swapping the plate to H04 ('Rangoli you can wear.' 5.21% CTR, unused anywhere else) removes the two problems the judges named: H02 repeated the first ten's C02, and two Prism Rivière ads competed for one slot. It also adds a new lead photo and the earrings category.",
+  "judge_fixes": [
+   "Art director and media buyer: H02 repeated C02's photo and composition (bracelet across the stripes) and competed with ED4 for the Prism slot. The plate is now H04 (Prism Cluster Studs with matching rangoli cones), so A05 and A08 can both run. If the founder insists on the 6.10% stripes, the concept's original H02 plate can be swapped back, but never in the same flight as C02, and never alongside A05.",
+   "Fact checker and art director: the foot line is shortened to 'Fig. 2 onwards: everything else, ₹599 onwards.' (46 characters, about 662px of the 840 measure), so it can never wrap and kill the pun.",
+   "Media buyer: the foot line is now the second-biggest type (36px), above the 22px credit, and the credit moved onto the FIG row.",
+   "Plate kept at 0.7778x (downscaled). Studs about 280px each. ₹1,499 checked against pool.json (28 in stock).",
+   "Not run beside another book conceit: ED5 is reserve only, and A12's colophon is a spare."
+  ]
+ },
+ {
+  "no": "A09",
+  "from": "ED3 (tiles re-chosen)",
+  "name": "Slip, model's own.",
+  "idea": "A fashion-magazine page. Two on-model listing photos sit side by side, both cropped from the lips down to the mustard slip, under the credit every stylist writes, turned into the headline: 'Slip, model’s own.' The slip is the one thing she cannot buy. The second line closes it: 'Everything else, from ₹599.'",
+  "photos": [
+   {
+    "file": "pool/worn/marquise-drop-choker-worn.jpg",
+    "use": "LEFT tile. FEED 444x740: crop source x252,y126 to x968,y1320 (716x1194) at 0.62x. Lips at tile y≈12-70 and centred, the choker with its marquise and two drops in the middle, and the mustard V-neckline of the slip filling the bottom ≈170px. STORY 444x800: crop source x240,y120 to x980,y1453 at 0.6x, so the slip fills the bottom ≈250px. Preview: curate/ed3_preview.jpg."
+   },
+   {
+    "file": "pool/worn/silk-mesh-cuff-worn.jpg",
+    "use": "RIGHT tile. FEED 444x740: crop source x150,y0 to x890,y1233 (740x1233) at 0.6x. Lips at tile y≈9-69, the same height as the left tile, the slip strap and bodice filling the lower half, and the gold-tone mesh cuff at tile x≈255-405, y≈573-699. STORY 444x800: crop source x150,y0 to x890,y1333 at 0.6x. Never upscale."
+   }
+  ],
+  "palette": "Ground: Naira cream #F4EDE4 with 2% paper grain. Ink #1A1614. One accent: gold #9A6B2F for the second line. Tile keylines #E2D8CC. The mustard slip and warm beige listing backdrop are the colour.",
+  "type": "Headline: CGI 500 (76px Feed / 84px Story), ink. Second line: CG 500 (46px / 50px), gold. Credits: CGI 500 28px, ink 80%. Foot: Jost 500 caps 22px, tracking .18em, ink 75%. Logo: logo_ink.png 200px.",
+  "feed_layout": "1080x1350, cream with grain. HEADLINE: 'Slip, model’s own.' in CGI 500 76px, ink, x72, baseline 150 (about 550px wide). LOGO: logo_ink.png 200px, top-right x808-1008, y96-141. SECOND LINE: 'Everything else, from ₹599.' in CG 500 46px, gold #9A6B2F, x72, baseline 214. DIPTYCH: two tiles 444x740 at y262-1002, left x72-516 (marquise choker) and right x564-1008 (silk mesh cuff), 48px gutter, 1px #E2D8CC keyline, no shadow. CREDITS: CGI 500 28px, ink 80%, baseline 1044, left-aligned to each tile: 'Marquise Drop Choker, ₹1,199' at x72 and 'Silk Mesh Cuff, ₹1,399' at x564. FOOT: 1px ink hairline at 30%, x72-1008, y1176. Below it, 'RINGS · EARRINGS · NECKLACES · BRACELETS' in Jost 500 caps 22px, tracking .18em, ink 75%, x72, baseline 1238, alone on the line. Bottom margin about 112.",
+  "story_layout": "1080x1920, cream with grain. HEADLINE: CGI 500 84px, x72, baseline 370. LOGO: logo_ink.png 200px, x808-1008, y316-361. SECOND LINE: CG 500 50px, gold, x72, baseline 440. DIPTYCH: tiles 444x800 at y496-1296, left x72-516 and right x564-1008, Story crops, 1px #E2D8CC keyline. CREDITS: CGI 28px, ink 80%, baseline 1340, under each tile. FOOT: hairline at y1400, x72-1008. Caps line at x72, baseline 1456. All text between y316 and 1460.",
+  "feed_text": [
+   "Slip, model’s own.",
+   "Everything else, from ₹599.",
+   "Marquise Drop Choker, ₹1,199",
+   "Silk Mesh Cuff, ₹1,399",
+   "RINGS · EARRINGS · NECKLACES · BRACELETS",
+   "NAIRA (logo_ink.png)"
+  ],
+  "story_text": [
+   "Slip, model’s own.",
+   "Everything else, from ₹599.",
+   "Marquise Drop Choker, ₹1,199",
+   "Silk Mesh Cuff, ₹1,399",
+   "RINGS · EARRINGS · NECKLACES · BRACELETS",
+   "NAIRA (logo_ink.png)"
+  ],
+  "why": "Combined 7.12. 'Slip, model’s own. Everything else, from ₹599.' is the best shop-all line in the batch (media buyer). It is the second on-model ad, built on the purchase-driving listing set, and a curated two-piece frame showing two categories at two prices. The new tiles make the joke's object, the slip, unmissable.",
+  "judge_fixes": [
+   "All three judges: the slip was a sliver in the right tile. Both tiles are swapped for the two listing photos with the most slip: the Marquise Drop Choker (full mustard V-neckline) and the Silk Mesh Cuff (strap and bodice across the lower half). Previewed.",
+   "Fact checker: the lips now sit at the same height and near-centre in both tiles (tile y≈9-70; centres within about 36px), so the repetition reads as rhyme.",
+   "This also removes the overlap with A01 (Bold Nocturne Chain) and A05 (Prism Rivière), so every product in the set is different.",
+   "Foot: the logo moved to the top-right, because the caps line (about 720px at .18em) would have run into a bottom-right logo.",
+   "'Model’s own' is a credit idiom on styled photos, not a factual claim. If the founder wants it literal, the headline becomes 'Slip, not for sale.'",
+   "Prices checked against pool.json: ₹1,199 and ₹1,399."
+  ]
+ },
+ {
+  "no": "A10",
+  "from": "CO5 (rebuilt as a true triptych)",
+  "name": "Twisted. Knotted. Polished.",
+  "idea": "A monochrome gold-tone edit: three equal vertical close-ups from one catalogue shoot (a twisted huggie, a knot bangle, a polished dome hoop). Under each is one craft word, and together the words read across as a three-beat line: 'Twisted. Knotted. Polished.' A single breadth line opens the rest of the collection.",
+  "photos": [
+   {
+    "file": "pool/worn/torsade-huggies-close.jpg",
+    "use": "Panel 1. FEED 296x560 at 0.35x: crop source x250,y0 to x1096,y1600. The twisted huggie (source x335-1007, y543-1030) sits at panel y≈190-360, about 235px wide, on the cream plinth. STORY 296x600 at 0.375x: crop source x277,y0 to x1066,y1600."
+   },
+   {
+    "file": "pool/worn/kiss-knot-bangle-close.jpg",
+    "use": "Panel 2. FEED 296x560 at 0.35x: crop source x190,y0 to x1036,y1600, with the knot centred and the ribbed band running out at both edges. STORY 296x600 at 0.375x: crop source x219,y0 to x1007,y1600."
+   },
+   {
+    "file": "pool/worn/bold-dome-huggies-close.jpg",
+    "use": "Panel 3. FEED 296x560 at 0.35x: crop source x225,y0 to x1071,y1600. The polished dome hoop (source x293-1002, y308-1331) stands as a vertical at panel x≈24-272, y≈108-466. STORY 296x600 at 0.375x: crop source x253,y0 to x1042,y1600 (hoop about 266px wide). Preview of all three: curate/co5_preview.jpg."
+   }
+  ],
+  "palette": "Ground: #F4EBE1, sampled from the close-ups' plinth backdrop, with 2% grain. Umber type #3D2A17, from the gold's shadow side. Gold hairlines #C9A15B. Gold, cream and umber only.",
+  "type": "Craft words: Cormorant Garamond Italic 500 (56px Feed / 60px Story), umber. Running head: Jost 500 caps 22px, tracking .28em, umber. Breadth: CG 500 (34px / 36px), umber. Logo: logo_ink.png 200px.",
+  "feed_layout": "1080x1350, ground as specified. The composition is centred vertically with about 215px of air top and bottom. TOP ROW: logo_ink.png 200px at x72, y215-260; 'THE GOLD-TONE EDIT' in Jost 500 caps 22px, tracking .28em, umber, right-aligned at x1008, baseline 247. HAIRLINE: 1px #C9A15B, x72-1008, y295. PANELS: three equal 296x560 verticals at y343-903, x72-368 (torsade), x392-688 (knot) and x712-1008 (dome), 24px gutters, no keylines, no shadows. WORDS: CGI 500 56px, umber, each centred under its panel, baseline 987: 'Twisted.' / 'Knotted.' / 'Polished.' HAIRLINE: gold, x72-1008, y1063. BREADTH: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 34px, umber, centred, baseline 1135. No product names, no prices, no '+' or '='.",
+  "story_layout": "1080x1920, same ground. TOP ROW: logo_ink.png 200px at x72, y330-375; 'THE GOLD-TONE EDIT' right-aligned at x1008, baseline 362. HAIRLINE: gold, y410. PANELS: three 296x600 at y458-1058, same x positions, Story crops. WORDS: CGI 500 60px, umber, centred under each panel, baseline 1150. HAIRLINE: gold, y1230. BREADTH: CG 500 36px, umber, centred, baseline 1304. Nothing below y1320.",
+  "feed_text": [
+   "NAIRA (logo_ink.png)",
+   "THE GOLD-TONE EDIT",
+   "Twisted.",
+   "Knotted.",
+   "Polished.",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399."
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png)",
+   "THE GOLD-TONE EDIT",
+   "Twisted.",
+   "Knotted.",
+   "Polished.",
+   "Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399."
+  ],
+  "why": "Combined 6.58, picked over the slightly higher CO4 (6.74) because the set needs a third curated multi-piece frame, and the AESTHETIC brief seeds 'a monochrome edit (all gold tone)'. The macros are 'genuinely beautiful' (art director) and look like one luxurious shoot (fact checker). The craft-verb rhythm descends from the account's top grammar ('Poured, not made.' 7.25%, 'Woven, not cast.' 5.81%).",
+  "judge_fixes": [
+   "Media buyer (fatal: stacked horizontal strips with prices beside them repeat C18's 'Nobody wears one choodi'): rebuilt as three equal vertical panels with one word each, no names, no prices and no '+' or '=', on cream rather than C18's dark ground.",
+   "Art director: 'Hooked?' and the ledger stacks are cut. Only the three craft words sit under the panels, plus one breadth line.",
+   "The third panel uses the Bold Dome Huggies close-up ('Polished.') instead of the Bold Nocturne link, so A01's photo is not repeated (this also covers the fact checker's crop fix for that photo). Previewed: all three share one plinth and one light.",
+   "Not used: the art director's 'The gold-tone edit. From ₹599.', because no gold-tone piece at ₹599 is verified in the pool (the cheapest gold-tone listing is ₹799). The running head says 'the gold-tone edit' and the breadth line carries the true range.",
+   "All three downscaled (0.35x/0.375x). Pieces in stock: Torsade Huggies 28, Kiss Knot Bangle 35, Bold Dome Huggies 28."
+  ]
+ },
+ {
+  "no": "A11",
+  "from": "CO4",
+  "name": "Hang at ear height.",
+  "idea": "The Woven Gold Hoops still life, framed as a fine-art print with a cream passe-partout on a wall painted the burnt colour of the persimmon's shadow. The mat carries the print's title, 'Two Hoops with Persimmon'. The headline turns the gallery rule 'hang at eye height' into 'Hang at ear height.' The wall line points to the next room: the rest of the collection.",
+  "photos": [
+   {
+    "file": "pool/heroes/H08_woven_quiet.jpg",
+    "use": "Inside the mat window. FEED: crop source x60,y470 to x1020,y1670 at 0.625x into 600x750. The upper hoop sits at window x≈316-541, y≈80-225; the lower hoop at x≈191-412, y≈319-559; the persimmon is centred. STORY: crop source x60,y480 to x1020,y1590 at 0.667x into 640x740 (hoops at window y≈79-590). No tint."
+   }
+  ],
+  "palette": "Wall: burnt persimmon #7A3F1E, sampled from H08's persimmon shadow (#6B3312 to #804C27), with 3% grain. Mat: paper #FBF8F3 with a 1px #D6C3B0 bevel. Wall type: cream #F6EADB (contrast about 6.9:1). Mat type: ink #1A1614. Shadow: rgba(30,12,4,.35).",
+  "type": "Headline: CGI 500 (64px Feed / 76px Story), cream. Print title: CGI 500 34px, ink. Credit: Jost 500 caps 22px, tracking .2em, ink 70%. Wall line: CGI 500 30px, cream 90%. Logo: logo_white.png 200px.",
+  "feed_layout": "1080x1350, wall as specified. HEADLINE: 'Hang at ear height.' in CGI 500 64px, cream, centred, baseline 128. MAT: #FBF8F3 at x170-910, y176-1126 (740x950), with shadow 0 22px 44px rgba(30,12,4,.35) plus 0 3px 8px rgba(30,12,4,.2). WINDOW: x240-840, y246-996 (70px top and sides, 130px bottom), 1px #D6C3B0 bevel, holding the H08 crop. ON THE MAT'S BOTTOM BORDER, left-aligned to the window edge at x240: 'Two Hoops with Persimmon' in CGI 500 34px, ink, baseline 1052; 'WOVEN HOOPS · ₹1,199' in Jost 500 caps 22px, tracking .2em, ink 70%, baseline 1090. WALL LINE: 'Next room: rings, earrings, necklaces, bracelets. From ₹599.' in CGI 500 30px, cream 90%, centred, baseline 1188 (about 720px). LOGO: logo_white.png 200px, centred, y1226-1271. Centred and symmetrical, with no label card and no dot, unlike A02.",
+  "story_layout": "1080x1920, same wall. LOGO: logo_white.png 200px, centred, y296-341. HEADLINE: CGI 500 76px, cream, centred, baseline 440. MAT: x150-930, y480-1400, same shadow. WINDOW: x220-860, y550-1290 (640x740), Story crop. ON THE MAT, left-aligned at x220: print title in CGI 500 34px, ink, baseline 1336; credit in Jost 500 caps 22px, ink 70%, baseline 1374. WALL LINE: CGI 500 30px, cream 90%, centred, baseline 1454. The mat's shadow may fall below y1500; no type does.",
+  "feed_text": [
+   "Hang at ear height.",
+   "Two Hoops with Persimmon",
+   "WOVEN HOOPS · ₹1,199",
+   "Next room: rings, earrings, necklaces, bracelets. From ₹599.",
+   "NAIRA (logo_white.png)"
+  ],
+  "story_text": [
+   "NAIRA (logo_white.png)",
+   "Hang at ear height.",
+   "Two Hoops with Persimmon",
+   "WOVEN HOOPS · ₹1,199",
+   "Next room: rings, earrings, necklaces, bracelets. From ₹599."
+  ],
+  "why": "Combined 6.74, the highest-scoring concept outside the top ten that is buildable. 'Hang at ear height.' is the best single piece of wit in the batch (art director), and the H08 window crop is lovely. It is a spare. FINAL-EDIT RULE: it shares H08 with A03 and the framed-print device with A02, so run it only if A02 or A03 is cut, and never more than one framed print or one H08 ad per flight.",
+  "judge_fixes": [
+   "Media buyer: the pale peach wall (pale on pale, slow in the feed) is replaced by a burnt-persimmon wall sampled from the persimmon's own shadow, for real contrast. The mat is warm paper, never pure white.",
+   "Fact checker: 'WOVEN GOLD HOOPS' becomes 'WOVEN HOOPS', so there is no gold material claim.",
+   "Art director and media buyer (shop-all was one weak italic line): the wall line now says 'Next room: rings, earrings, necklaces, bracelets. From ₹599.', the gallery-with-more-rooms device from the brief. It no longer echoes A02's 'on view'.",
+   "Kept distinct from A02: a single centred print with its title on the mat, no museum label and no sold dot.",
+   "₹1,199 checked against pool.json (53 in stock)."
+  ]
+ },
+ {
+  "no": "A12",
+  "from": "ED6 (cut to one loud line)",
+  "name": "Set in gold tone.",
+  "idea": "The colophon, the small note at the back of a fine book that says what it was set in, written for Naira. 'Set in gold tone.' is both a typographer's phrase and a jeweller's. It is set large on the plaster below a knot bangle resting on a sealed envelope, with two short lines: the range, and that each piece is 'bound' in the Naira gift box.",
+  "photos": [
+   {
+    "file": "pool/heroes/H16_kiss_knot.jpg",
+    "use": "At exactly 1.0x in both formats. FEED: background-position 0 -400px (source y400-1750). The bangle's top is at frame y≈225, and the envelope's lowest corner at ≈935 (left) and ≈850 at centre. Plaster below measures luminance 199-213 for the type. STORY: native and uncropped (no shift, no filled strip). Top plaster at source y260-620 measures luminance 215-222, clean for type above the object. The plaster under the envelope (y1340-1520) measures luminance 199-213."
+   }
+  ],
+  "palette": "The photo's pink plaster is the page. Ink #1A1614 (body at 85%). One accent: gold #9A6B2F for the small label, echoing the wax seal. No rules, panels or shadows.",
+  "type": "Label: Jost 500 caps (22px Feed / 24px Story), tracking .3em, gold. Title: Cormorant Garamond Italic 500 (96px Feed / 104px Story), ink. Two lines: CG 500 (30px / 32px), ink 85%. Logo: logo_ink.png 220px.",
+  "feed_layout": "1080x1350, H16 as specified. LOGO: logo_ink.png 220px, centred x430-650, y72-121, on plain plaster. COLOPHON BLOCK, centred on x540, on the plaster below the envelope: 'COLOPHON' in Jost 500 caps 22px, tracking .3em, gold, baseline 1010 (about 60px below the envelope edge). 'Set in gold tone.' in CGI 500 96px, ink, baseline 1110 (about 653px wide). 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.' in CG 500 30px, ink 85%, baseline 1170 (about 752px). 'Each bound in the Naira gift box.' in CG 500 30px, ink 85%, baseline 1212. Bottom margin about 138. Only these two body lines: do not add more.",
+  "story_layout": "1080x1920, H16 native. LOGO: logo_ink.png 220px, centred, y296-345. 'COLOPHON': Jost 500 caps 24px, tracking .3em, gold, centred, baseline 420. TITLE: 'Set in gold tone.' in CGI 500 104px, ink, centred, baseline 530; descenders end ≈553, 72px above the bangle (y625). The object sits untouched at y625-1335. Under the envelope, centred: 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.' in CG 500 32px, ink 85%, baseline 1430 (cap top ≈1408, about 73px below the envelope's lowest corner). 'Each bound in the Naira gift box.' in CG 500 32px, baseline 1474. All text between y296 and 1480.",
+  "feed_text": [
+   "NAIRA (logo_ink.png)",
+   "COLOPHON",
+   "Set in gold tone.",
+   "Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.",
+   "Each bound in the Naira gift box."
+  ],
+  "story_text": [
+   "NAIRA (logo_ink.png)",
+   "COLOPHON",
+   "Set in gold tone.",
+   "Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.",
+   "Each bound in the Naira gift box."
+  ],
+  "why": "Combined 6.22, but its beauty scores are high (7.6 / 8.0 / 7.5) and it conflicts with nothing else in the set (new photo, new product, a format of its own). That makes it the safest spare. It runs only if one of A01-A10 fails the build review.",
+  "judge_fixes": [
+   "Art director and media buyer (a sleepy paragraph and a pun nobody catches): cut to the gold label, a much larger 'Set in gold tone.' (96/104px, was 76/84), and two short lines. 'Set in gold tone.' reads plainly as jewellery even for anyone who misses the book joke.",
+   "Fact checker (seam risk): the Story no longer shifts the photo or fills a strip under it, so the sunlight patch at source x1000+, y1700-1900 cannot seam. The title goes on the measured-clean top plaster (luminance 215-222) and the two lines under the envelope.",
+   "Dropped the 'Some copies in silver tone. Stones in cubic zirconia.' and shipping lines to keep text well under 12%.",
+   "Facts checked: the range ₹599 to ₹2,399, and every piece arrives in the Naira gift box (brief)."
+  ]
+ }
+]
