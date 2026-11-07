@@ -1,0 +1,1430 @@
+{
+ "table": [
+  {
+   "no": "A01",
+   "art": 8.5,
+   "buyer": 7.6,
+   "check": 8.7,
+   "score": 8.18,
+   "verdicts": {
+    "art": "run",
+    "buyer": "run",
+    "check": "run"
+   },
+   "defects": [
+    "Feed: breadth line wraps to two lines ('Rings, earrings, necklaces, bracelets.' / '₹599 to ₹2,399.', x72-520, y285-360). The spec set it as one line at baseline 300. The headline block becomes a 4-line ragged stack and the second line hangs short.",
+    "Feed: the chain's grey cast shadow forms a heavy blob at bottom-left (x0-450, y880-1080), and a cut link edge shows at the left frame edge (x0-20, y720-1000). That quarter reads muddy, not quiet.",
+    "Feed: the pavé link is centred (centre about x580, y720), not on a power point. The frame is about 70% gold, so it has less than a third of quiet space below the headline.",
+    "Feed: gold Jost credit at 26px (x72-615, baseline 1278) is about 8.7px tall at phone width. Gold #9A6B2F on cream (luminance about 220) holds, but it is the weakest read in the frame.",
+    "Story: the cast shadow fills y1430-1620 under the link. It is inside the reply-bar zone, but it leaves a dull grey lower third.",
+    "Story: the gold credit (x465-1008, baseline 322) shares the logo row at y275-320, just above the 270 safe line. The tight top row competes with the headline below at y400.",
+    "Feed: the piece credit 'BOLD NOCTURNE CHAIN · ₹1,799' (x70-615, y1258-1282) is 26px gold Jost on cream. On a 360px phone it is about 9px with low contrast, so the hero's only price is the faintest text on the frame.",
+    "Feed: the macro gives no sense of scale or body. The pavé link fills x180-990, y410-1020, and she cannot tell whether it is a necklace or a bracelet. Add 'NECKLACE' to the credit.",
+    "Story: the logo (x72-290, y272-322) and credit (x465-1010, y300-322) sit right on the y=270 safe line, under the profile and progress bar on tall phones. Move both down about 60px.",
+    "Story: y1450-1920 is empty soft shadow (25% of the screen) and the link ends at y1415. Shift the crop so the link sits lower and centred.",
+    "Stock: the hero has 17 units. That is fine for a Shop All click, but rotate it out if the chain sells down.",
+    "Story: the breadth line 'Rings, earrings, necklaces, bracelets. / ₹599 to ₹2,399.' is set at 30 px CG at x72-490, y598-668. That is about 10 px on a 360 px phone: legible but the weakest line in the frame.",
+    "Story: the logo and the gold credit (26 px Jost) share one running-head row at y272-321, only 2 px inside the 270 safe line. That is compliant but tight under the IG header.",
+    "Feed: the pavé link sits dead centre (x200-990, y410-1020), not on a third. The composition is a little static. Copy, price (₹1,799) and fidelity are all correct: the crop is a 0.75x downscale, and the mean colour matches the source within 3 units."
+   ],
+   "notes": {
+    "art": "The most beautiful single frame here: a razor-sharp pavé macro, real air top-left, roman/italic headline set with care, and an idiom that works three ways. Small finish issues only.",
+    "buyer": "This is the cream ad that survives the half-second test, because the pavé sparkle still reads at 360px and the link is huge. The idiom turns into the shop-all promise with no effort, and the breadth line sits right under it. Its weakness is that the macro never says what the piece is or how it wears. It is a top-4 ad, so run it.",
+    "check": "Clean, true and beautiful. One logo, the correct price, no banned words, everything in the Story inside y272-668. The line opens the whole shop. Ready to run."
+   }
+  },
+  {
+   "no": "A02",
+   "art": 8.3,
+   "buyer": 7.1,
+   "check": 8.5,
+   "score": 7.86,
+   "verdicts": {
+    "art": "run",
+    "buyer": "fix",
+    "check": "run"
+   },
+   "defects": [
+    "Feed: the right column is dead between the logo (x805-1008, y195-237) and the label (x805-1008, y928-1170). That leaves a 228x690px maroon void, and the asymmetric hang reads left-heavy.",
+    "Feed: the headline 'Sold. The rest are on view.' is one 64px line at baseline 132, about 4.7% of the height. The hook is under-scaled for the darkest, most arresting frame in the set.",
+    "Both: the museum-label rag is uneven, 'Baguette Tennis' / 'Bracelet,' / 'Ruby red' (Feed x822-986, y950-1035), with a long first line and a 9-character second. The spec's even four-line break was better.",
+    "Both: label type is 26px CG and 22px Jost (about 7-9px at phone width). Only the red dot and SOLD read at scroll speed, so the piece name is decoration.",
+    "Story: 420px of empty wall below the breadth line (y1480-1920) and 290px above. The frame floats rather than sits.",
+    "Both: oldstyle figures in '₹599 to ₹2,399' (Feed baseline 1250) drop the 5 and 9s below the baseline. At 34px, beside lining Jost elsewhere, it looks uneven.",
+    "Feed: the framed photo spans only x72-772 (65% of the width), so the bracelet is just x175-620, y675-1005. That is far smaller than in the 4.32% full-bleed original of this photo.",
+    "Feed: the right column x790-1060, y260-920 is empty maroon, and the logo (x805-1008, y190-240) floats above it with nothing to anchor it.",
+    "Feed: the label italics 'Gold tone, cubic zirconia' (x822-950, y1052-1108) are about 22px grey on cream, about 7px on a phone and illegible.",
+    "Both: the only product shown cannot be bought, and nothing bridges to the same baguette bracelet in Emerald green or Crystal (₹1,499, 17 and 38 in stock). Add one whisper line under the breadth line (Feed y1240, Story y1465), for example 'Still on view: in emerald green and crystal.'",
+    "Story: this is the Feed layout on a taller ground. y0-290 and y1490-1920 are flat maroon (38% of the screen). The frame should run about 936px wide.",
+    "Feed: the museum label body is 26 px CG and 'Gold tone, cubic zirconia' is 26 px grey italic (#6E645E) at x822-950, y1052-1108. SOLD is 24 px Jost at y1128-1146. That is about 8-9 px on a phone, so readable only up close.",
+    "Feed: the label breaks as 'Baguette Tennis / Bracelet, / Ruby red', which leaves 'Bracelet,' alone on its own line at x822-910, y985-1005.",
+    "Story: the framed print (x72-772, y520-1392) holds only about 36% of the frame. The Story reads smaller than the Feed, though everything sits inside y295-1482.",
+    "The H18 sold-out rule is fully met: a red dot with SOLD, no price, nothing implying it can be bought, and the headline sends people to the rest. The bracelet really is gold tone, so the label is true."
+   ],
+   "notes": {
+    "art": "The cleverest honest use of the best-converting photo, on a wall that stops the scroll. The gallery devices are flat and disciplined. Only the right column and the rag want a final pass.",
+    "buyer": "The line is honest and clever, and the maroon wall stands out in a cream feed. The trouble is that the account's best-converting photo is shrunk inside a mat, and the hero is sold out. Clicks will come from curiosity, but purchase intent drops unless the ad points to the in-stock emerald and crystal versions of the same bracelet. Fix the bridge line and enlarge the Story frame, then run.",
+    "check": "An honest, elegant use of the best-converting photo, and compliant with the H18 rule. The only weakness is the small label type. Ready to run (raise the label to 28-30 px if there is time)."
+   }
+  },
+  {
+   "no": "A03",
+   "art": 8,
+   "buyer": 8,
+   "check": 7.9,
+   "score": 7.98,
+   "verdicts": {
+    "art": "run",
+    "buyer": "run",
+    "check": "fix"
+   },
+   "defects": [
+    "Both: the dateline 'ISSUE NO. 1' / '₹599 TO ₹2,399' is 22px Jost on mottled linen (background luminance 144-188, Feed y90-115). It is about 7px at phone width and breaks up on the texture.",
+    "Both: the 300px NAIRA masthead (Feed x390-690, y72-137) is timid for a cover. The italic title at 92px outweighs it, so it reads as a page header, not a masthead.",
+    "Feed: reddish stains in the linen at left (x0-250, y650-1100) make the ground look soiled at phone size.",
+    "Feed: the cover line 'Inside: rings, earrings, necklaces, bracelets.' (x225-855, baseline 1258) sits on busy weave (luminance 15-242 inside the line box). The contrast is uneven.",
+    "Feed: the rotated credit (x985-1010, y210-640) ends about 65px from the upper hoop's latch (x925, y450). It is clear, but it crowds the one piece of jewellery it names.",
+    "Set-level: the same H08 hoops-and-persimmon photo carries A11, which weakens both if they run together.",
+    "Feed and Story: the rotated credit 'COVER: WOVEN HOOPS, ₹1,199' (Feed x988-1012, y208-640; Story x988-1012, y428-858) is 26px vertical text and unreadable on a phone, so the hero's price is effectively invisible.",
+    "Feed: the masthead small caps 'ISSUE NO. 1' (x70-275, y95-115) and '₹599 TO ₹2,399' (x755-1010, y95-115) are about 9px on a phone. The price range is the key shop-all fact and is lost here, so repeat it in the bottom cover line (y1235-1265).",
+    "Feed: the cover line 'Inside: rings, earrings…' (x225-855, y1235-1265) sits on textured linen, which makes it weak at 360px.",
+    "Fatigue: this ad shares H08 with A11, so never run both in one flight. H08 also carried the earlier Woven Hoops ads, so warm audiences have seen it.",
+    "Feed and Story: the price credit 'COVER: WOVEN HOOPS, ₹1,199' is 24 px Jost at 80% ink, rotated 90 degrees, on mottled linen. It sits at x988-1012, y210-635 (Feed) and x988-1012, y428-855 (Story). At 360 px it is about 8 px and sideways, so it cannot be read. The only product price in the ad is effectively invisible.",
+    "Feed: 'Inside: rings, earrings, necklaces, bracelets.' (38 px CG) sits on coarse linen weave at x225-855, y1232-1268. The texture breaks up the thin serifs. Story has the same problem at y1432-1468.",
+    "The photo is H08 full-bleed at 1.0x, the same framing as the earlier Woven Hoops ads. A11 uses the same H08 photo and A04 the same product, so three of the twelve sell Woven Gold Hoops.",
+    "The magazine-cover format uses only NAIRA's own logo as the masthead (allowed). 'WOVEN HOOPS' as a short name avoids the bare word 'gold'. Both are fine."
+   ],
+   "notes": {
+    "art": "A warm, confident still life with editorial order. The cover conceit is familiar rather than fresh, but the hierarchy is clean and the hoops are cropped well.",
+    "buyer": "This is the strongest ad in the set. A full-bleed saturated persimmon is a real colour stop, the proven Woven Hoops are large and sharp, and 'The Everything Issue' says Shop All without explaining it. The Story uses the full screen, which suits the account's Stories-beat-Feeds pattern. The only issue is the hero price hidden in vertical type.",
+    "check": "A fun 'Everything Issue' idea with correct facts. Fix: set the cover credit horizontally at 26-28 px (for example under the rule, right-aligned), and put a soft paper strip or a darker ink weight behind the 'Inside' line."
+   }
+  },
+  {
+   "no": "A04",
+   "art": 6.3,
+   "buyer": 7.2,
+   "check": 7.8,
+   "score": 6.96,
+   "verdicts": {
+    "art": "cut",
+    "buyer": "fix",
+    "check": "fix"
+   },
+   "defects": [
+    "Both: the band's bottom edge cuts four fingers and the thumb tip mid-phalanx (Feed y840, x165-1010; Story y1085). That is a classic crop at the joints.",
+    "Both: a man's deeply creased palm fills the band. The hoops are only about 280px wide (Feed x375-655, y490-730), so skin texture, not jewellery, carries the frame. That is unflattering for a women's luxury ad.",
+    "Feed: the letterbox band (y300-840) sits off-centre, with 300px black above and 510px below. The bottom void (y1000-1130 and y1230-1350) feels unplanned rather than cinematic.",
+    "Story: the still fills only 28% of the frame (y545-1085). There is 545px of dead black above and 490px below, so the 9:16 canvas is wasted.",
+    "Both: the subtitle block starts at x260 while the whisper starts at x168 (Feed). Neither shares a left edge or a true centre axis.",
+    "Both: H07 is pushed amber and orange, and the gold reads brassy against the warm bokeh.",
+    "Story: the photo is a 2:1 strip at y540-1090 (29% of the screen), with y0-540 and y1420-1920 flat black. H07 is a native 1080x1920 frame, so run it full bleed at 1.0x and put the subtitles over the dark bokeh.",
+    "Feed: the hoops fill only x375-655, y490-730 (about 5% of the frame) and are about 90px wide on a phone. The man's palm, not the jewellery, is the subject.",
+    "Feed: the top letterbox y0-300 holds only the logo (22% of the frame flat black), and y1230-1350 is flat too. A taller 4:5 photo window would let the image dominate without upscaling.",
+    "Feed: the subtitle block is left-aligned at x258, while the logo and the category line are centred on x540. Real subtitles are centred.",
+    "Fatigue: H07 ran this season as Diwali 10 ad 05, so expect frequency overlap with warm audiences.",
+    "Story: the photo band is only 540 px tall (y545-1083) in a 1920 frame, with 545 px of flat black above and 837 px below. On a phone the hoops are about 93 px wide and the Story feels empty and under-sold. H07 is 1920 tall, so a taller crop at 1.0x (for example 1080x860) is available.",
+    "Story: the logo floats alone at y344-393, 150 px above the band, so it is disconnected from the scene.",
+    "Feed: the band's top edge (y300) slices across the palm at the finger roots (x330-830). This is acceptable as a letterbox, but the hand reads as cut.",
+    "The categories line is 26 px gold Jost at y1150-1172 (Feed) and y1347-1370 (Story), and the price line is 36 px gold italic. Both are legible but faint on black. No product is named or priced, and nothing is false."
+   ],
+   "notes": {
+    "art": "The line is witty and on-voice. The picture is the weakest in the set: a rough palm, a joint-cut crop and acres of black. It does not look like the most beautiful ad in her feed.",
+    "buyer": "The Feed has the best stop and the best audience insight in the batch. A black frame plus subtitles gets read by reflex, and 'I'll get the rest myself' speaks directly to the self-buying woman while meaning the whole shop. The Story throws all of that away on a thin strip, and the hoops are small in both. Rebuild the Story full bleed.",
+    "check": "A witty self-purchase line and a good Feed. The Story wastes the frame. Fix by enlarging the cinematic band in the Story (taller crop at 1.0x) and tightening the logo to it. The Feed can run as is."
+   }
+  },
+  {
+   "no": "A05",
+   "art": 7.7,
+   "buyer": 6.8,
+   "check": 8.8,
+   "score": 7.56,
+   "verdicts": {
+    "art": "fix",
+    "buyer": "fix",
+    "check": "run"
+   },
+   "defects": [
+    "Feed: the type band takes 30% of the frame (y0-404) with six elements: kicker, 168px title, two-line info, hairline, breadth line and logo. That is not 'little text'.",
+    "Both: the bracelet is about 205px wide (Feed x575-780, y500-720; Story y815-1030), about 19% of the width. The hand gesture, not the jewel, is the subject.",
+    "Both: the forearm is cut flat by the hard band edge (Feed y404, x660-1010; Story y700). It reads as an amputation rather than a deliberate entry.",
+    "Feed: the info block's first baseline (236) aligns with nothing. Only its second line sits on the title baseline (272), so the right block floats.",
+    "Feed: only a sliver of the rangoli flower shows at bottom (y1109-1350, cut by the frame edge). The payoff of the idea is mostly cropped away. The Story shows it in full.",
+    "Both: 'ADMISSION FREE. / SHIPPING TOO.' in tracked caps adds a fourth voice to an already busy band. Cut it or the breadth line.",
+    "Feed: the bracelet is only x578-780, y500-725 (about 3% of the frame), about 65px on a phone. The hand and the teak step carry the frame, not the jewellery.",
+    "Feed: the poster band y0-400 takes 30% of the frame with five text items (kicker, 'Come in.', two offer lines, breadth line), well over the ~12% text target.",
+    "Feed and Story: 'The rangoli’s done.' ties the ad to Diwali week (8 Nov). Expect it to read stale and fatigue within about 10 days, which is wrong for an evergreen Shop All flight.",
+    "Story: y0-330 is flat cream above the band, and the bracelet (x578-780, y815-1030) is still small even though the rangoli fills y1400-1920.",
+    "Fatigue: H03 ran as Diwali 10 ad 02, so the photo overlaps with what warm audiences just saw.",
+    "Feed and Story: 'ADMISSION FREE. / SHIPPING TOO.' is 24 px Jost at 75% ink, the smallest text in the ad. It sits at x735-1010, y218-275 (Feed) and x740-1010, y485-542 (Story), about 8 px on a phone.",
+    "Feed: the forearm runs into the hard paper-band edge at y404 (x640-1010), and in the Story at y700. The cut is clean but abrupt.",
+    "The bracelet is not named or priced, so there is no product claim. 'Shipping too' (free) matches 'Free insured shipping'. The photo is at 1.0x and matches the source (mean difference 1.3)."
+   ],
+   "notes": {
+    "art": "A lovely idea ('The rangoli’s done. Come in.') with a beautiful 'Come in.' setting. Edit the band to kicker, title and logo, and the hand-into-rangoli photo will breathe.",
+    "buyer": "'Come in.' is big, confident type and the pastel rangoli is pretty, but the jewellery is a speck and the invitation is close to a generic 'shop now'. The Story is the better of the two. Shrink the text band so the wrist gets more height, and run it only through Diwali week.",
+    "check": "The strongest poster of the set: a familiar Indian thing turned into an invitation, true claims, lots of air, and all Story text in y340-640. Ready to run."
+   }
+  },
+  {
+   "no": "A06",
+   "art": 6.4,
+   "buyer": 7.6,
+   "check": 8.6,
+   "score": 7.32,
+   "verdicts": {
+    "art": "cut",
+    "buyer": "run",
+    "check": "run"
+   },
+   "defects": [
+    "Both: a dark skin mark or scab sits above the right earlobe (Feed about x702, y375; Story about x702, y683) at 1.0x. It is clearly visible at phone size.",
+    "Both: the crops are on the ear, not the jewel. Each ear fills about 60% of its 456px panel, with the canal and pores in macro, while the hoops are about 110x200px (Feed x255-360, y415-625 and x710-830, y425-615). It looks clinical.",
+    "Both: the pearl hoop's inner wall shows red specks (Feed about x790-805, y480-500) that read as a defect in the piece.",
+    "Feed: a centred stack of seven elements (labels at y770, headline at 896, line at 960, gold rule at 1004, offer at 1056, breadth at 1102, logo at 1196-1245). It is a template hierarchy, not restraint.",
+    "Both: the gold caps offer 'MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG' spans 775px (Feed x155-928, baseline 1056). It is the loudest type in the frame after the headline.",
+    "Both: the ₹ glyph in the CGI labels sets smaller and lighter than the oldstyle digits ('₹1,249', Feed x305-370, y760-780).",
+    "Story: 440px of empty beige below the breadth line (y1480-1920). The diptych is not recomposed for 9:16.",
+    "Feed: the product captions (x72-370 and x722-1008, y758-785) are 26px grey italic, about 9px on a phone and nearly unreadable.",
+    "Feed: the lower half y740-1260 is five stacked text tiers (captions, headline, subline, offer, breadth line), so below the photos the frame reads as a text card. Drop the italic breadth line or merge it into the offer.",
+    "Feed: the offer 'MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG' (x155-928, y1040-1062) is gold Jost on cream with low contrast.",
+    "Feed and Story: a visible skin blemish on the pearl ear at Feed x700-725, y365-390 (Story x700-725, y690-715) reads as a mark at full size.",
+    "Story: this is the Feed layout on a taller ground, with y0-290 and y1480-1920 flat cream (38%). Both photos could run about 1.2x taller.",
+    "Fatigue: these listing photos already run in the live Bestsellers carousel, so the faces will be familiar to the warm pool.",
+    "Feed: the captions 'Emerald Deco Hoops, ₹1,249' and 'Pearl Nugget Hoops, ₹1,199' are 30 px grey italic at y755-785. The breadth line 'Rings, earrings, necklaces, bracelets, from ₹599.' is 30 px italic at y1085-1115. On a phone these are about 10 px in mid-grey.",
+    "Story: the captions sit at y1137-1167 and the breadth line at y1442-1472, the same small sizes.",
+    "Both panels are verified at 1.0x and unflipped (mean difference to source under 1.1). The left panel really is her left ear and the right panel her right ear, so the headline is literally true. Prices are exact. 'Mix any two: 10% off, applied in your bag' matches the Buy-2 offer. 'Pearl' appears only in the product name; there is no 'freshwater'."
+   ],
+   "notes": {
+    "art": "The mirror idea is charming, but two giant ears and a visible skin mark kill the luxury read, and the type stack is the busiest in the set.",
+    "buyer": "These are the on-model listing photos the account's best purchase driver is built on, with two large, desirable earrings at different price points. The mismatch idea makes browsing for 'my pair' the reason to click. The offer is the twist, not a shout, and it lifts order value. It is text-heavy below the fold, but it is a solid converter, so run it.",
+    "check": "A disciplined diptych with an accurate offer whisper. Small captions are the only weakness. Ready to run."
+   }
+  },
+  {
+   "no": "A07",
+   "art": 8.5,
+   "buyer": 6.4,
+   "check": 8.6,
+   "score": 7.68,
+   "verdicts": {
+    "art": "run",
+    "buyer": "cut",
+    "check": "run"
+   },
+   "defects": [
+    "Feed: three alignment systems compete. The poem is centred (x250-830, y110-345), the footnote is right-aligned at x1008 (y447-585) and the logo is left-aligned at x72 (y1228-1278). The logo floats alone beside the arils.",
+    "Feed: a lone 48px gold rule above the footnote (x960-1008, y447) is not in the spec. It is an orphan ornament.",
+    "Both: '₹599 TO ₹2,399' in #6E645E Jost caps on the blush wall (Feed baseline 575, x740-1008) is low contrast (about 4:1) at 24px.",
+    "Both: the poem names rangoli studs and an elaichi bracelet that are never shown. The first two lines have no visual payoff for anyone who does not know the catalogue.",
+    "Both: the wall darkens towards the left (luminance about 204 at left, 232 at right), and the top-left corner (x0-200, y0-400) looks vignetted behind the poem.",
+    "Feed: the first line read, 'Rangoli, for ears.' (x345-735, y115-165), and line 2, 'Elaichi, around the wrist.', describe pieces that are not in the frame. Only the anaar necklace (x108-622, y520-890) is shown, so two-thirds of the copy points at nothing.",
+    "Feed: the range '₹599 TO ₹2,399' (x738-1008, y565-588) is grey Jost on blush with very low contrast, and the side note (x730-1008, y470-540) is about 9px on a phone.",
+    "Feed: a blush bust on a blush wall gives weak figure-ground contrast. Only the anaar halves (x690-1055, y740-1090) pop at 360px.",
+    "Story: the same three-line verse at y430-650 is a slow read for a half-second Story tap.",
+    "Fatigue: H06 ran as Diwali 10 ad 01 this season.",
+    "Feed: the side note '₹599 TO ₹2,399' is 26 px grey Jost on blush at x740-1008, y568-588. The contrast is modest at phone size.",
+    "Feed: the logo at bottom-left (x75-290, y1230-1280) sits low on the floor beside the scattered arils (nearest aril at x490-545, y1265-1310). It is fine, but it reads as placed into a gap rather than on the grid.",
+    "Two of the three haiku lines (rangoli earrings, elaichi bracelet) name pieces that are not shown. That is true of the shop (Prism Cluster Studs, Emerald tennis bracelet) but has no visual cue. The ruby necklace is not named or priced, which is fine. The 5-7-5 count holds."
+   ],
+   "notes": {
+    "art": "A real 5-7-5 haiku, set with poise above the ruby necklace and anaar. Calm, witty, exact, and the Story is near-frameable. Unify the Feed's axes and it is the set's best.",
+    "buyer": "The haiku is clever on paper, but the scroll sees blush wallpaper plus 13 words of verse, two-thirds of it about jewellery she cannot see. The house formula works because the picture shows the Indian thing and the stone together. Rebuild it as a triptych of the three named pieces, or as one line ('Anaar, at the throat.'), but do not spend on this version.",
+    "check": "Calm, beautiful, true. The Story keeps everything in y300-940. Ready to run."
+   }
+  },
+  {
+   "no": "A08",
+   "art": 7.1,
+   "buyer": 7.3,
+   "check": 8.4,
+   "score": 7.44,
+   "verdicts": {
+    "art": "fix",
+    "buyer": "fix",
+    "check": "run"
+   },
+   "defects": [
+    "Both: the foot line 'Fig. 2 onwards: everything else, ₹599 onwards.' (Feed x120-775, baseline 1250; Story baseline 1462) uses 'onwards' twice in one line. It reads as a copy error, not a pun.",
+    "Story: the Feed layout is transplanted, not recomposed. There is 290px of blank paper above the running head and 445px below the foot (y1475-1920), and the plate is still only 840px wide.",
+    "Both: the plate is busy (three cones, scattered powder, a finger, a trail across x150-960, y240-1000). It is not one calm dominant image with a third of the frame quiet.",
+    "Both: the FIG row splits colour on one baseline: gold 'FIG. 1' at x120 and grey 'PRISM CLUSTER STUDS · ₹1,499' at x440-960 (Feed baseline 1104). The two greys and the gold together feel fussy at 22px.",
+    "Feed: running head 'THE COLLECTION' at 22px (x120-415, baseline 104) is about 7px at phone width.",
+    "Both: 'Rangoli you can wear.' reuses an earlier campaign headline. The fresh part of the idea is only the weak foot line.",
+    "Feed: 'Fig. 2 onwards: everything else, ₹599 onwards.' (x120-775, y1228-1262) says 'onwards' twice and reads clumsy. It is also the only shop-all line and the smallest text on the frame.",
+    "Feed: the plate is inset with 120px margins (x120-960, y172-1055), giving up about 22% of the width that a full-bleed rangoli photo would use as stop power.",
+    "Feed: 'PRISM CLUSTER STUDS · ₹1,499' (x440-960, y1083-1103) and 'THE COLLECTION' (x120-415, y88-108) are grey Jost, about 9px on a phone.",
+    "Story: the plate runs y383-1268 with flat paper at y0-280 and y1480-1920. The studs (x260-830, y1055-1190) are no bigger than in the Feed, so the Story format adds nothing.",
+    "Fatigue: the headline repeats the 5.21% 'Rangoli you can wear.' word for word. That is fine for cold audiences but stale for anyone who saw the original.",
+    "Feed: the running head 'THE COLLECTION' and the caption 'PRISM CLUSTER STUDS · ₹1,499' are 26 px grey Jost with wide tracking, at y88-108 and x440-960, y1083-1103. About 8.7 px on a phone.",
+    "'Fig. 2 onwards: everything else, ₹599 onwards.' (Feed y1225-1260, Story y1440-1475) uses 'onwards' twice in one line. The pun lands on the second read but feels clunky.",
+    "The headline 'Rangoli you can wear.' reuses the earlier H04 ad's exact line. It is allowed (not one of the first ten) but not new.",
+    "The plate is a clean 0.78x downscale with colours matching the source (mean difference 1.2), and the price is correct."
+   ],
+   "notes": {
+    "art": "A tidy book page with sharp studs, but the copy stumbles on 'onwards' twice and the Story is a padded Feed. Rewrite the foot and recompose the Story.",
+    "buyer": "The violet, pink and yellow cones are among the strongest colour stops here, and the studs are big, sharp and desirable. The book-figure frame shrinks the photo, and the shop-all twist is buried in a repetitive small line. Rewrite it (for example 'Fig. 2 onwards: everything else, from ₹599.') and widen the Story plate, then run.",
+    "check": "An elegant book-plate treatment, correct price, Story text in y297-1475. Ready to run."
+   }
+  },
+  {
+   "no": "A09",
+   "art": 8.3,
+   "buyer": 7.7,
+   "check": 8.5,
+   "score": 8.1,
+   "verdicts": {
+    "art": "run",
+    "buyer": "run",
+    "check": "run"
+   },
+   "defects": [
+    "Feed: the caps footer is justified edge to edge (x72-1008, baseline 1238), with about 60px gaps around each middot. It reads as a website nav bar rather than a whisper. Set it flush-left at natural tracking, or centre it short.",
+    "Feed: the hand in the right tile is cut through the fingers by the tile edge (x1008, y560-700).",
+    "Both: both tiles crop at the philtrum, just under the nose (Feed y262-272). It is a hair too high: the eye snags on the sliver of nose base above the lips.",
+    "Story: 420px of blank cream below the footer (y1500-1920) and 290px above. The diptych is not enlarged to use the 9:16 frame.",
+    "Both: the italic credits at 28px (Feed baseline 1102) are fine, but the two tiles' skin tones differ (left warmer, right cooler and more contrasty). The diptych does not quite read as one sitting.",
+    "Feed: the choker drops are tiny (pendant chain x300-335, y660-860, about 12px wide on a phone), and the cuff is only x818-970, y840-970.",
+    "Feed: lips and chin fill the top of both tiles (y270-470). Two identical mouth crops side by side use space the jewellery could have.",
+    "Feed: the captions (x72-395 and x564-805, y1090-1118) are 28px italic, about 9px on a phone.",
+    "Story: this is the Feed layout on a taller ground, with y0-300 and y1490-1920 flat paper (38%).",
+    "Copy: 'Slip, model’s own.' is fashion-credit jargon many in the audience will not parse. Line 2, 'Everything else, from ₹599.', does the selling, so keep it this prominent.",
+    "Feed: the footer 'RINGS · EARRINGS · NECKLACES · BRACELETS' is 24 px Jost at 75% ink, x72-1008, y1220-1240. That is the floor size. The Story uses 26 px at y1467-1492, only 8 px inside the 1500 line.",
+    "Feed: the right tile cuts the model's fingers at its right edge (x1008, y590-720). Story has the same cut at x1008, y810-950. The cuff itself is whole.",
+    "Feed captions 'Marquise Drop Choker, ₹1,199' and 'Silk Mesh Cuff, ₹1,399' are 30 px italic at y1090-1118. Both prices are exact, and the photos are clean 0.6x downscales."
+   ],
+   "notes": {
+    "art": "The most fashion-literate idea in the set ('Slip, model’s own.'), with a clean hierarchy and on-model photos that echo the best-converting carousel. It feels like a real magazine page.",
+    "buyer": "This has the best shop-all line in the batch: a clear price floor, and 'everything else' invites browsing. Mustard, skin and gold is exactly the on-model catalogue look that drives the account's purchases. The jewellery is a little small inside face-heavy crops, but it is the most purchase-ready creative here, so run it.",
+    "check": "A sharp editorial joke that opens the whole shop, built on the account's best-converting on-model photos. Ready to run."
+   }
+  },
+  {
+   "no": "A10",
+   "art": 7.5,
+   "buyer": 6,
+   "check": 8.6,
+   "score": 7.12,
+   "verdicts": {
+    "art": "fix",
+    "buyer": "cut",
+    "check": "run"
+   },
+   "defects": [
+    "Both: the triptych grounds don't match. Panels 1-2 show a white plinth with diagonal edges cutting across (Feed x72-688, y420-890), and panel 3 is plain warmer beige. The equal frames hold unequal worlds.",
+    "Both: the scale is mismatched. The torsade huggie is about 260px wide and sits low (Feed x92-350, y515-700), while the dome hoop fills the whole panel height (x725-990, y425-790).",
+    "Both: the knot bangle crop is ambiguous. The back of the bangle is a blurred gold bar across the top of panel 2 (Feed x392-688, y450-500), and the front runs off both edges, so few will read it as a bangle.",
+    "Both: 'Twisted. Knotted. Polished.' is generic craft description that any gold brand could own. There is no Indian object and no wit, unlike the rest of the set.",
+    "Story: the logo is moved to the bottom centre (x410-670, y1335-1390), away from the running head at y365. The brand sits under the breadth line like a footer, with 340px empty above and 530px below.",
+    "Feed: flat cream at y0-200 and y1130-1350 (31% of the frame) around beige tiles gives a low-contrast catalogue look, and nothing stops a thumb at 360px.",
+    "Feed: the middle tile (x392-688, y330-890) crops the knot bangle into a band fragment, so 'Knotted.' labels a product nobody can identify on a phone.",
+    "Feed: the tile grounds do not match (tile 1 is a grey-white plinth, tile 3 at x712-1008 is warm pink-beige), so it reads as three shoots, not one edit.",
+    "Story: flat y0-350 and y1400-1920 (45% of the screen) around a small triptych.",
+    "Copy: three craft adjectives with no Indian reference and no tension. It is the 'X, not Y' grammar with the 'not Y' removed.",
+    "Feed: in panel 2 (x392-688, y331-891) the Kiss Knot Bangle is cut at both side edges and its back band is soft. At phone size it reads as a fragment and may not register as a bangle.",
+    "Feed: the composition floats, with 195 px of empty paper above the logo row and about 220 px below the breadth line (y1130-1350). The block sits slightly high.",
+    "The three panels are 0.35x / 0.375x downscales and colour-true. 'The gold-tone edit' is scoped to these three, so there is no material claim. There are no prices, so there is no price risk."
+   ],
+   "notes": {
+    "art": "Calm, premium and well gridded: the most catalogue-correct frame here. It lacks a clever line, and the three panels need matched ground and scale.",
+    "buyer": "This is the sleepy-wallpaper failure: gold on beige on beige, like every demi-fine brand's grid post. The polished dome huggie is lovely, but the frame gives a cold scroller no reason to stop and no question to click on.",
+    "check": "A disciplined, equal-size triptych with a strong three-beat craft line. Ready to run."
+   }
+  },
+  {
+   "no": "A11",
+   "art": 7.8,
+   "buyer": 6.8,
+   "check": 8.3,
+   "score": 7.5,
+   "verdicts": {
+    "art": "fix",
+    "buyer": "cut",
+    "check": "fix"
+   },
+   "defects": [
+    "Both: a heavy near-black moulding (about 12px, Feed x152-928, y178-1162) frames the mat. It is not in the spec and reads as a poster-shop frame against the burnt wall.",
+    "Both: the NAIRA logo is printed on the mat itself (Feed x650-850, y1075-1118; Story x670-870, y1285-1325), as if stamped on the artwork. It muddles the print-on-a-wall fiction. The logo belongs on the wall.",
+    "Both: brown on brown. A burnt wall, a dark frame and peach linen inside leave the hoops as the only light, and the whole frame sits in one muddy value band at phone size.",
+    "Both: inside the window, linen fills the bottom ~250px (Feed y780-1030) under the lower hoop. The crop is loose for a 'fine-art print'.",
+    "Both: lining figures in the mat credit '₹1,199' (Jost) sit beside oldstyle figures in the wall line 'From ₹599.' (CG, Feed baseline 1255). The numerals are mixed.",
+    "Set-level: it uses the same H08 photo as A03.",
+    "Feed: the framed print shrinks the hoops (lower hoop x420-650, y585-830) to about two-thirds of their size in A03, which uses the same photo full bleed.",
+    "Feed: the mat line 'WOVEN HOOPS · ₹1,199' (x230-560, y1100-1120) is 24px grey, about 8px on a phone, and 'NEXT ROOM' (x440-640, y1203-1222) is low-contrast tan on brown.",
+    "Feed: the burnt-brown ground reads muddy at 360px and dulls the persimmon orange.",
+    "Story: flat brown at y0-300 and y1490-1920. The frame (x128-952, y418-1372) does not use the full height.",
+    "Fatigue: it duplicates A03's H08 photo and A02's framed-print device, so it cannot share a flight with either.",
+    "Feed and Story: the price credit 'WOVEN HOOPS · ₹1,199' is set at 22 px Jost at 72% ink, below the 24 px floor. It sits at x230-560, y1102-1120 (Feed) and x210-540, y1311-1329 (Story), about 7 px on a phone.",
+    "Feed: 'NEXT ROOM' is 24 px Jost in 78% cream on the burnt-brown wall at x442-640, y1203-1222 (Story y1412-1431). The contrast is low.",
+    "The logo inside the mat is set at 92% opacity (Feed x650-850, y1075-1118), so it is slightly washed.",
+    "This is the same H08 persimmon photo as A03."
+   ],
+   "notes": {
+    "art": "'Hang at ear height.' is a lovely twist, and the bottom-weighted mat is correct. Lose the black frame, move the logo off the mat and lift the wall a step, and it would be frameable.",
+    "buyer": "'Hang at ear height.' is the wittiest line here, but it is the same photo as A03, framed smaller on a muddier ground. With ₹1,000 a day there is no room to split spend across one photo twice. Keep it on the bench as the A03 replacement when A03 fatigues.",
+    "check": "Gallery wit with true facts. Fix: raise the credit to 26 px at full ink and 'NEXT ROOM' to 26 px at about 90% cream. Then run."
+   }
+  },
+  {
+   "no": "A12",
+   "art": 8,
+   "buyer": 6.2,
+   "check": 7.9,
+   "score": 7.26,
+   "verdicts": {
+    "art": "run",
+    "buyer": "cut",
+    "check": "fix"
+   },
+   "defects": [
+    "Story: the top-right corner shows the edge of the plaster slab and the grey studio beyond, a diagonal from (500,0) to (1080,170) with luminance 113-157 against a 220 ground. The set is visible.",
+    "Feed: soft white light-leak blooms hug the right edge (x1040-1080, y140-240 and y1030-1220; luminance 236-248 against a 213 ground). They look accidental.",
+    "Both: dark plaster speckles sit inside the type zones, around 'COLOPHON' and under the title (Feed about x640-700, y975-1010). That is noise behind the small type.",
+    "Both: 'COLOPHON' (gold Jost 22-24px) is a word most of the audience will not know. The label adds a riddle above an already clever line.",
+    "Feed: the title and both body lines are bottom-stacked (y970-1215) while the logo sits alone at top (y72-121). It works, but the bangle top (y225) to the logo is only about 100px, which crowds the top.",
+    "Feed: 'COLOPHON' (x447-635, y972-990) is printer's jargon most of the audience will not know, and the pun 'Set in gold tone.' (x215-865, y1025-1135) depends on it.",
+    "Feed: the gold wax seal (x352-592, y535-725) is as big and as gold as the bangle's knot (x560-760, y455-600), so the eye lands on the seal, not the product.",
+    "Feed: a blush plaster ground with a cream envelope is low contrast, and the frame reads as soft wallpaper at 360px.",
+    "Feed: light-flare blobs at the right edge (x1000-1080, y60-260 and y980-1120) look like stains at phone size.",
+    "Story: the grey set edge shows top-right (x540-1080, y0-170), and flare blobs sit at x1000-1080, y480-640 and y1330-1500.",
+    "Proof: H16 ('Sealed with a kiss.') is the weakest photo in the pool at 3.90% CTR.",
+    "Claim: 'Set in gold tone.' sits directly above 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399. Each bound in the Naira gift box.' Read as a colophon for the whole collection, it says every piece is gold tone. Many in-stock pieces are silver tone (Prism Rivière, Prism Cluster Studs, Emerald Deco Hoops, Aqua Heart Drops). Rescope it, for example 'This one, set in gold tone.' or 'in gold tone and silver tone'.",
+    "Feed: plaster speckles touch the headline letters (x215-870, y1030-1135). A dark speck just right of 'COLOPHON' (about x668, y978) reads as a stray full stop. 'COLOPHON' itself is 24 px.",
+    "Story: the top-right corner shows the slab edge and grey backdrop (x560-1080, y0-175), which looks accidental.",
+    "Story: the headline (y450-560) and the breadth/gift-box lines (y1400-1480) are about 840 px apart, so the message splits across the frame. 'Colophon' is an obscure word for the target buyer.",
+    "The gift-box claim is true, and the photo is at 1.0x with true colour."
+   ],
+   "notes": {
+    "art": "'Set in gold tone.' is the wittiest exact line in the set, on a calm still life with real air. Clean the Story corner and the edge flares before final.",
+    "buyer": "It is beautiful but sleepy, and the line asks her to know what a colophon is. The gift-box line is a useful reassurance but it sits in small type. The Story's full-bleed bangle is the only strength. It will not earn its share of ₹1,000 a day.",
+    "check": "A lovely still life, but the headline over-claims gold tone for the whole range. Fix the scope wording, nudge the type off the plaster specks, and pull the Story's breadth lines up toward the headline. Then run."
+   }
+  }
+ ],
+ "pick": {
+  "picks": [
+   {
+    "no": "A01",
+    "role": "Opener: single-hero pavé macro on cream (necklace)",
+    "fixes": [
+     "Feed: set the breadth line on ONE line, as the spec says: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 32px, ink 80%, x72, baseline 300, ending by about x860 (at least 90px clear of the top-right link). This removes the 4-line ragged stack.",
+     "Feed: re-crop the photo (now 0.75x, keep it at or below 1.0x) so the pavé link's centre moves off dead-centre toward the lower-right third (about x640, y780). The grey cast-shadow blob (x0-450, y880-1080) and the cut link edge at x0-20 should leave the frame. Keep the top-left cream clean for the headline.",
+     "Credit, both formats: 'BOLD NOCTURNE CHAIN NECKLACE · ₹1,799', so she knows what it is and how it is worn. Jost 500 caps 26px, tracking about .14em, in ink 85% instead of gold #9A6B2F, so the only price reads at 360px. Feed: end it by x720, at least 60px clear of the logo. Story: if it cannot stay 48px or more from the logo on one row, set it right-aligned on two lines.",
+     "Story: move the logo and credit row down from y272-322 (on the 270 safe line) to about y320-370, and move the headline and breadth line down with it. Keep the breadth line at least 40px above the link; drop the headline from 96 to 88px if needed.",
+     "Story: re-crop at 1.0x (now 0.9375x; source about x550-1630, y0-1920) so the link sits about 40px lower and a little larger, with less empty shadow below it."
+    ],
+    "why": "Top score (8.18) and all three judges say run. It is the sharpest frame in the set, the pavé still reads at phone size, and the idiom turns straight into the shop-all promise. Every fix is finish work. Rotate it out if the chain's 17 units sell down.",
+    "photos": [
+     "worn/bold-nocturne-chain (close-up)"
+    ]
+   },
+   {
+    "no": "A09",
+    "role": "On-model curated diptych (2 pieces): the on-model slot",
+    "fixes": [
+     "Feed: stop justifying the footer. Set 'RINGS · EARRINGS · NECKLACES · BRACELETS' in Jost 500 caps 26px, tracking .2em, natural word spacing, flush-left at x72 (the headline's axis), baseline 1238, so it reads as a whisper, not a website nav bar.",
+     "Story: same footer treatment, with the baseline at 1456 or higher (it now sits at y1467-1492, 8px from the 1500 line).",
+     "Both tiles, both formats: move the crop top down about 15px in the source so the edge sits on the upper-lip line, with no sliver of the nose base. Keep it at the same height in both tiles so the lips still match.",
+     "Credits 'Marquise Drop Choker, ₹1,199' and 'Silk Mesh Cuff, ₹1,399': CGI 500 30px at ink 90% (from 28px at 80%)."
+    ],
+    "why": "8.10 and all three judges say run. It is built on the on-model listing photos behind the account's best purchase driver (5.73% CTR, 43 purchases), it has the set's best shop-all line with a price floor, and it is one of only two curated multi-piece frames. The cut fingers at the right tile edge stay: re-cropping would break the matched lips that make the diptych work.",
+    "photos": [
+     "worn/marquise-drop-choker",
+     "worn/silk-mesh-cuff"
+    ]
+   },
+   {
+    "no": "A03",
+    "role": "Colour stop: full-bleed persimmon 'cover', single hero, Story-first",
+    "fixes": [
+     "Delete the rotated credit. Sideways at about 8px on a phone, it hides the hero's only price.",
+     "In its place, make the bottom a centred two-line cover block: 'Cover: Woven Hoops, ₹1,199.' in CGI 500 34px over 'Inside: rings, earrings, necklaces, bracelets, from ₹599.' in CG 600 34px, ink. Feed baselines about 1206 and 1256 (cap top at least 45px below the lower hoop at y about 1147). Story baselines about 1428 and 1476.",
+     "Put a soft, feathered cream wash (about 20%, no visible edge or strip) behind that block so the thin serifs hold on the coarse linen weave.",
+     "Dateline 'ISSUE NO. 1' / '₹599 TO ₹2,399': Jost 500 caps 24px (from 22px) at full ink so it survives the mottled linen.",
+     "Never run it in the same flight as A11, which uses the same H08 photo."
+    ],
+    "why": "7.98, and the buyer calls it the strongest ad in the set. The saturated persimmon stops the thumb in a cream feed, the proven Woven Hoops (5.81-6.08% CTR) are big and sharp, and 'The Everything Issue' says Shop All in three words. The Story uses the full height. The only real defect is the hidden price, which the cover block fixes.",
+    "photos": [
+     "heroes/H08_woven_quiet"
+    ]
+   },
+   {
+    "no": "A02",
+    "role": "Dark gallery wall: the sold-out best converter, used honestly, pointing to the rest",
+    "fixes": [
+     "Feed: enlarge the headline 'Sold. The rest are on view.' from 64px to about 88px, still one line inside x72-1008.",
+     "Label: go back to the spec's even four-line break 'Baguette / Tennis / Bracelet, / Ruby red' so 'Bracelet,' no longer sits alone. Body in CG 600 28px; 'Gold tone, cubic zirconia' in CGI 26px, darkened to about #5A514C; 'SOLD' in Jost 24px.",
+     "Add the bridge inside the label, 14px under SOLD, in CGI 26px ink: 'Also on view: / emerald green, / crystal.' This is the same baguette bracelet, in stock (17 and 38 units). Show no price for the ruby. The taller label (about 390px, still bottom-aligned with the frame) also fills most of the dead right column.",
+     "Breadth line '₹599 to ₹2,399': use lining figures, not oldstyle.",
+     "Story: enlarge the print (window about 0.55-0.6x of H18, still at or below 1.0x) so the frame runs about 840-936px wide. Hang the label at the frame's right foot, or beneath it if it no longer fits beside. Centre the whole hang in y300-1480 so the 420px band of dead wall goes.",
+     "Keep the H18 rule exactly: red dot plus SOLD, no price, nothing that implies it can be bought."
+    ],
+    "why": "7.86. It is the darkest, most arresting frame here and the founder's own seed idea, and it uses the account's best-converting photo (24 purchases) inside the sold-out rule. The buyer's 'fix' was about purchase intent, and pointing to the same bracelet in stock solves it without adding a new element to the wall.",
+    "photos": [
+     "heroes/H18_ruby_anaar_plate (4:5 and 9:16 files)"
+    ]
+   },
+   {
+    "no": "A07",
+    "role": "Verse: ruby necklace and anaar, single hero, the familiar-Indian-thing line",
+    "fixes": [
+     "Reorder the haiku (still 5-7-5) so line one names what is pictured: 'Anaar, at the throat. / Elaichi, around the wrist. / Rangoli, for ears.' Lines two and three become the tease of what is inside, and the footnote 'Three pieces of a much longer poem.' carries the shop-all. Do the same in the Story.",
+     "Feed: move the logo from bottom-left to bottom-right at x788-1008, y1219-1268 (as the spec says; it is clear of the arils), right-aligned with the footnote at x1008. The frame then has two axes (centred verse, right margin) instead of three.",
+     "Feed: delete the orphan 48px gold rule above the footnote (x960-1008, y447).",
+     "'₹599 TO ₹2,399': Jost 500 caps 26px in ink 85% (from 24px #6E645E) to reach 4.5:1 or better on blush. Raise the footnote from CGI 32px to 34px."
+    ],
+    "why": "7.68; art and check both say run. The buyer cut it because two-thirds of the verse points at nothing on screen. That is a copy problem, and reordering fixes it while keeping the poem. It shares ruby and anaar with A02 but not the look: pale blush full bleed on a bust against a maroon wall with a framed print. This piece is also in stock (₹2,099, 20 units).",
+    "photos": [
+     "heroes/H06_necklace_anaar"
+    ]
+   },
+   {
+    "no": "A05",
+    "role": "Diwali-week poster: Prism Rivière on the wrist, 'Come in.'",
+    "fixes": [
+     "Both formats: cut 'ADMISSION FREE. / SHIPPING TOO.' and the hairline. The band keeps the kicker, 'Come in.', the breadth line and the logo.",
+     "Feed: shorten the band from y0-404 to about y0-372 (breadth baseline about 330), and re-seat H03 at 1.0x from source y about 470. The bracelet then sits about 80px under the band edge, and about 50px more of the rangoli flower shows at the bottom.",
+     "Flight: Diwali week only (about 8-15 Nov), then retire it. 'The rangoli's done.' dates it, and H03 ran as Diwali 10 ad 02."
+    ],
+    "why": "7.56; the check judge calls it the strongest poster here. 'Come in.' is big, confident type, and it is the set's only Prism Rivière (the 6.10-6.21% winners) on the pastel rangoli. Cutting the fourth voice in the band answers both the art note ('not little text') and the buyer note (give the wrist more room). It differs from A08's rangoli: a wrist on a teak step under a poster band, against a book plate of powder cones.",
+    "photos": [
+     "heroes/H03_prism_wrist_rangoli"
+    ]
+   },
+   {
+    "no": "A08",
+    "role": "Book plate: Prism Cluster Studs as 'Fig. 1', the rest of the shop as the index",
+    "fixes": [
+     "Foot line: 'Fig. 2 onwards: everything else, from ₹599.' (one 'onwards'). Set it in CGI 500 40px (from 36px) so the only shop-all line is the second-largest type on the page. 'Fig. 2 onwards:' stays gold.",
+     "Put the FIG row and running head in one colour: 'FIG. 1', 'PRISM CLUSTER STUDS · ₹1,499' and 'THE COLLECTION' all in Jost 500 caps 24px, ink 75%. Drop the gold/grey split so gold appears only in the foot.",
+     "Story: recompose it for 9:16 instead of padding the Feed layout. Measure x72-1008. Logo and running-head row at about y285-330. Plate 936px wide at about 0.87x (at or below 1.0x) from source y about 230-1310, keeping the cone tops and the studs, placed at about y370-1306. FIG row about 1346, caption about 1410, foot about 1466. Drop the lower hairline and keep nothing below 1480."
+    ],
+    "why": "7.44. The violet, pink and yellow cones are one of the strongest colour stops in the set, the studs are big and sharp, the headline is a proven 5.21% line, and the figure index is a natural shop-all device. Its defects are all copy and Story layout. The Feed keeps its 120px book margins because they are the idea.",
+    "photos": [
+     "heroes/H04_cluster_rangoli"
+    ]
+   },
+   {
+    "no": "A12",
+    "role": "Quiet still life: Kiss Knot Bangle with gift-box reassurance",
+    "fixes": [
+     "Delete 'COLOPHON' in both formats. All three judges found it obscure, and removing it also removes the plaster speck beside it that reads as a stray full stop.",
+     "Rescope the claim, which now says the whole range is gold tone. The two body lines become 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.' / 'In gold tone and silver tone, each bound in the Naira gift box.' in CG 500 32px, ink 85%. 'Set in gold tone.' then reads as this bangle only.",
+     "Feed: retouch the background only. Clean the light-leak blooms at the right edge (x1000-1080, y60-260 and y980-1220) and the dark plaster specks inside the type block (x200-880, y1020-1220) to the surrounding plaster. Leave the bangle, seal and envelope untouched.",
+     "Story: clean the slab edge and grey studio at top-right (x500-1080, y0-180) and the edge flares (x1000-1080, y480-640 and y1330-1500) with plaster from the clean area next to them. Background only.",
+     "Story: keep the message together above the bangle. Logo y296-345; 'Set in gold tone.' in CGI 96px, baseline about 470; both body lines at about 530 and 570, at least 45px clear of the bangle top (y625). Leave the plaster under the envelope empty."
+    ],
+    "why": "7.26; art says run. The buyer's cut ('sleepy, colophon') and the check judge's over-claim are both copy problems, and dropping COLOPHON and naming both tones fixes them. It is the set's only quiet still life with a gift-box line, which suits the season. H16's 3.90% CTR is the weakest proof in the set, so give it the smallest share and rotate it out first.",
+    "photos": [
+     "heroes/H16_kiss_knot"
+    ]
+   },
+   {
+    "no": "A10",
+    "role": "Curated gold-tone triptych (3 pieces): 'the edit'",
+    "fixes": [
+     "Give the three craft words an Indian turn. Keep 'Twisted.' 'Knotted.' 'Polished.' and add a centred line under each in CGI 500 30px, ink 75%: 'like a choti' / 'like a rakhi' / 'like Nani's brass'. That is the familiar-Indian-thing formula the line was missing, and 'rakhi' tells her the middle piece is worn on the wrist.",
+     "Re-crop all three tiles from their 1288x1600 sources at one shared scale of about 0.41x (now 0.35-0.375x; never above 1.0x). The torsade huggie then fills its tile width (about 276px) like the dome hoop (about 291px), instead of sitting small and low. Centre the knot and keep the back band's curve in the top third so the piece reads as a bangle.",
+     "Feed: grow the tiles to about 296x650 and centre the whole block (logo row to breadth line) vertically. The flat cream bands (now y0-200 and y1130-1350) become even margins of about 170px.",
+     "Story: put the logo back in the top row beside 'THE GOLD-TONE EDIT', not as a footer under the breadth line. Use the same tiles and words, and centre the block in y300-1480."
+    ],
+    "why": "7.12. It is the only three-piece curated edit, and the set needs it next to A09 for the multi-piece mix and the brief's 'gold edit' route. The buyer cut it as sleepy, generic wallpaper, and wittier words plus bigger, scale-matched tiles answer that. The grounds cannot be matched because the plinth is in two of the source photos, so the scale is matched instead. It shares the Kiss Knot Bangle with A12 but nothing else.",
+    "photos": [
+     "worn/torsade-huggies",
+     "worn/kiss-knot-bangle",
+     "worn/bold-dome-huggies"
+    ]
+   },
+   {
+    "no": "A04",
+    "role": "Cinematic dark frame: the self-purchase line, Woven Hoops",
+    "fixes": [
+     "Feed: deepen the still to 1080x630 at 1.0x from H07 source y700-1330. The thumb is then whole, the band's bottom edge crosses the fingers mid-phalanx instead of at the knuckles, and the hoops sit near the band's centre.",
+     "Feed: centre the stack (logo, still, subtitles, whisper) vertically, with about 160px of black above and below, instead of 300px on top and a void at the bottom.",
+     "Both formats: centre each subtitle line on x540, as real subtitles are, so the logo, subtitles and whisper share one axis. Now the block starts at x258 and the whisper at x168.",
+     "Story: rebuild the 540px strip as a 1080x860 still at 1.0x from source y640-1500 (the watch strap at the top edge shows it is his hand; the hoops sit mid-band) at about y380-1240, with the logo directly above at about y300-349. Subtitle baselines about 1306 and 1370, caps whisper about 1420, price line about 1466, nothing below 1480.",
+     "Flight: H07 ran as Diwali 10 ad 05, so start this after Diwali week or exclude that ad's engagers."
+    ],
+    "why": "Lowest score (6.96), picked as the 10th because both alternatives are blocked (A06 is A09's twin, and A11 repeats A03's photo). The art cut was mostly about the crop (the knuckle cut, the black void, the 28% Story strip), and all of that is fixable at 1.0x from H07's full frame. The man's palm is the setup of the joke, not a defect, and the watch strap in the Story makes that plain. The buyer rates it the best stop and the best audience insight in the batch, and it is the set's only black frame. If the rebuilt Feed still reads as a rough palm at 360px, drop it and run nine.",
+    "photos": [
+     "heroes/H07_woven_diwali"
+    ]
+   }
+  ],
+  "why_not": [
+   {
+    "no": "A06",
+    "why": "It reads as A09's twin: a cream on-model diptych with an italic caption under each tile, and A09 is stronger. The art cut also rests on the photos, which no edit can fix: at 1.0x the ears, not the hoops, fill the panels, and the pearl hoop's inner wall shows red specks that cannot be repainted. Bench it for when A09 fatigues."
+   },
+   {
+    "no": "A11",
+    "why": "It uses the same H08 persimmon photo as A03, which outscores it and is the buyer's best ad, and it repeats A02's framed-print device, so it cannot share the flight. Keep it as A03's replacement when A03 fatigues, with its fixes: no black moulding, the logo moved off the mat onto the wall, the credit at 26px full ink, and 'NEXT ROOM' at 26px in about 90% cream."
+   }
+  ]
+ },
+ "fixed": [
+  {
+   "no": "A01",
+   "done": [
+    "Before copies: before_fix/A01_r1_feed.jpg and A01_r1_story.jpg were already there, and their MD5s match the r1 renders exactly, so they are the true before images. An earlier pass had already made some HTML edits but had not re-rendered. I checked each of those edits and finished the rest.",
+    "Feed breadth line is now one line: 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' in CG 500 32px, ink 80%, x72, baseline 300. Measured ink runs x69-713, y277-308. The top-right link starts 326px to its right (the target was at least 90). The 4-line ragged stack is gone.",
+    "Feed re-crop: source box x338-1655, y146-1792 at 0.82x (was 0.75x; never above 1.0x). The pavé link now spans about x164-1040, y458-1102, with its centre at about (602, 780). It was at about (580, 712).",
+    "The cut link edge at the feed's left edge is gone. I checked x0-25: the only gold there is the plain link entering at y815-1010.",
+    "Top-left cream stays clean: the nearest gold is 246px below the headline and 169px below the breadth line.",
+    "Credit, both formats: 'Bold Nocturne Chain · Necklace · ₹1,799' set in Jost 500 caps 26px, ink 85% (no gold). The product name is exactly 'Bold Nocturne Chain'; NECKLACE is its own tag. I checked the worn photo: the piece is worn at the neck, so 'Necklace' is true.",
+    "Feed credit: ink runs x72-716 at baseline 1278, 72px clear of the logo at x788.",
+    "Story credit: on one row it would sit about 10px from the logo, so it is right-aligned on two lines ('BOLD NOCTURNE CHAIN' / 'NECKLACE · ₹1,799') at .14em, ink edge x1007-1008, 350px clear of the logo.",
+    "Story logo and credit row moved down to y316-373 (logo y320-368). Headline baselines are now 514 and 614 and the breadth lines 674 and 714. All text sits inside y270-1500.",
+    "Story headline kept at 96px. The breadth line is 96px above the link (line 1) and 148px above it (line 2), against the 40px minimum, so dropping to 88px was not needed.",
+    "Story re-crop: source x550-1630, y0-1920 at exactly 1.0x (was 0.9375x). The link is about 7% larger and its top moved from y660 to y704. Empty cream and shadow below it shrank from 523px to 430px. The cut ring that showed at the story's left edge is gone too.",
+    "Re-rendered out/A01_feed.jpg and out/A01_story.jpg and looked at both at full size.",
+    "Phone check at 360px: build/A01/phone_feed.jpg and phone_story.jpg are refreshed. Headline, breadth line and the ink credit with ₹1,799 all read.",
+    "Files changed: build/A01/feed.html (credit tracking, with a comment explaining why), feed_photo.png and story_photo.png (both re-cropped from pool/worn/bold-nocturne-chain-close.jpg with Lanczos downscale only; no recolour or warp). story.html already held the requested layout; I checked it and left it unchanged."
+   ],
+   "left": [
+    "Feed credit tracking is .085em, not about .14em. At 26px, .14em runs the line to x771, only 17px from the logo. Ending by x720 with 60px clear allows at most about .085em. The Story credit keeps .14em.",
+    "Feed link centre is at x602, not x640. In this photo the pavé link is about 1,068 source px wide. At 0.82x with the cut ring out of frame, x602 is the furthest right it can sit and still stay whole, about 40px from the right edge. At about x640 the link's right end runs off the frame (0.9-1.0x) or the cut ring comes back (0.75x). I chose to keep the hero link whole.",
+    "The grey shadow could not be fully removed from the feed. It is the soft shadow the plain link casts on the backdrop, directly left of and below the pavé link in the source photo. Any crop that keeps the link whole and moves it right or down keeps it in frame. Its darker core and the gold sliver are out, but a soft grey shadow still sits at about x0-150, y1010-1230, just above the credit, which stays on clean cream. Removing it completely would mean moving the link left (against the ask) or painting over the photo (not allowed).",
+    "Story at 1.0x: the link is about 1,068px wide in a 1,080px frame, so it cannot clear both edges. As in the requested crop, its left pavé tip is clipped by about 12px where the chain leaves the frame on the left, and its right end clears the edge by about 24px."
+   ],
+   "verify": {
+    "no": "A01",
+    "pass": true,
+    "defects": [
+     "All five requested fixes were made. FEED: the breadth line is now one line at x69-713, y276-308 (baseline 300), 162px clear of the gold. The photo is recropped at 0.821x (source x338-1654, y147-1791, below 1.0x). The pavé link sits at about x170-1045, y457-1129, so its centre is about (608,790), close to the (640,780) target. The sliver of the cut link at x0-20 is gone, and the top-left cream is clean. The credit reads 'BOLD NOCTURNE CHAIN · NECKLACE · ₹1,799' in Jost 26px, ink 85%, at x72-716, with 72px clear of the logo (x788-1007). STORY: the logo is at y320-368. The credit sits right-aligned on two lines at x641-1008, y316-373, because one row would have come within about 17px of the logo. The headline stays at 96px (baselines 514/614). The breadth runs over two lines at y651-718 and is at least 88px from the link. The crop is now 1.0x at source x550-1630, y0-1920: the link bottom moved from y1433 to 1517, the top moved down about 15-45px, and the empty space below the link shrank from about 487px to 403px.",
+     "Minor, Story crop: the left end of the pavé link touches the frame edge. Its leftmost point in the source is at about x540-546, near y1040-1100, and the crop starts at x550, so about 5-10px of the curve is clipped just above where the plain link runs off the left edge. At phone size it reads as the chain running off the edge, which is acceptable. A cleaner fix is a crop of about x520-1600, which leaves about 20px clear, or a clear bleed at about x600.",
+     "Minor, Feed credit tracking: it is set at .085em, not the requested ~.14em, so it fits by x720 at 26px. It no longer matches the Story credit (.14em) and is below the 0.18em floor for labels in AESTHETIC.md. It still reads as a tracked label and was a fair trade-off between the two constraints.",
+     "Minor, Feed: the large grey blob is gone, but a softer natural cast shadow remains under the left link (x0-300, y1000-1230, luminance about 200-210 against cream at 245). The left half of the credit sits on its lower edge (background luminance 187-244). Ink contrast is still good, and the shadow reads as photographic, not as a blob.",
+     "Checked and clean: no banned words. The prices are correct: ₹1,799 matches pool.json, and the range is ₹599 to ₹2,399. There are no false claims and exactly one NAIRA logo in each format. Story text and logo stay within y316-718, inside 270-1500. The smallest text is 26px. There are no overlaps and no text on the jewellery: the nearest text is 88px from any gold. Margins are 72px and the left edges of the type line up within 3px. The jewellery is sharp and not upscaled, and there are no artefacts or banding. Everything is legible at 360px."
+    ],
+    "score": 8
+   }
+  },
+  {
+   "no": "A09",
+   "done": [
+    "Feed footer: no longer justified. The old flex/space-between row of spans is now one plain line, 'Rings · Earrings · Necklaces · Bracelets', in Jost 500 caps at 26px (was 24px), tracking .2em, normal word spacing, flush-left at x72 with baseline 1238. It ends at about x840, so it reads as a quiet line under the hairline, not a nav bar. Measured ink: y1220-1237. Colour stays at ink 75%.",
+    "Story footer: same treatment, baseline moved from 1488 to 1456. Measured ink is y1438-1455, 44px clear of the 1500 line (it was 8px).",
+    "Crop tops: the source crop top moved down 15px in all four tiles (choker y0 120 to 135, cuff y0 0 to 15). Scale stays 0.6x and the tiles still start at y270 (feed) and y492 (story). The nose-base shadow along the top edge of the cuff tile is gone and that edge now sits on the upper lip. The choker tile keeps a few pixels of philtrum and shows no nose. Both tiles moved by the same amount, so the lips line up as before. Tiles were regenerated by the existing crops.py (crop plus LANCZOS downscale only, no colour change; grain.png is byte-identical).",
+    "Credits: ink 80% to 90% in both formats. Feed is CGI 500 30px (it was already 30px in the HTML, not 28px). Story credits stay at 32px, the story's larger type scale; I did not shrink them to 30px because the point of the fix is legibility.",
+    "One knock-on change in the story only, to keep it calm. With the footer at 1456 and nothing else moved, the hairline (y1438) would cross the caps (ink from y1438). Moving only the hairline squeezed credits, hairline and caps into about 60px, which looked cramped at phone size; that render is kept at build/A09/story_variant_ruleonly.jpg. So the story tiles are 32px shorter (860 to 828), cut from the bottom only (same top and scale, so the lips are untouched), and the credits (baseline 1396 to 1364) and hairline (1438 to 1406) moved up 32px. This keeps the round-1 spacing exactly: tile to credit baseline 44, credit baseline to hairline 42, hairline to footer baseline 50. The mustard slip still fills the bottom of both tiles. Feed layout is unchanged apart from the requested fixes.",
+    "Re-rendered to out/A09_feed.jpg and out/A09_story.jpg. I looked at both at full size, at phone size (360px wide, build/A09/phone_fix_final.png) and in 1.5x close-ups of the tile tops and footers. Copy, prices (₹1,199 and ₹1,399), headline, dek, logo, palette and grain are unchanged, and all story text sits between y297 and y1456."
+   ],
+   "left": [
+    "Nothing is blocking. The one thing to decide is the story change outside the list: tiles 32px shorter at the bottom, credits and hairline lifted 32px. If a strict 'only the listed changes' reading is wanted, the hairline-only alternative is saved as story_variant_ruleonly.jpg, at the cost of a cramped bottom band.",
+    "Story credits stay at 32px rather than the literal 30px, since 30px would make them smaller, the opposite of the fix's aim. Changing them to 30px is a one-value edit in story.html (.cr font-size)."
+   ],
+   "verify": {
+    "no": "A09",
+    "pass": true,
+    "defects": [
+     "Not a blocker, right tile crop (both formats): moving the crop down 15px puts the top edge right on the peaks of the upper lip. They are clipped by about 1-2 tile px, so the lip just touches the edge. The left tile has about 8px of philtrum above its lip. The mouth lines sit at tile y37 (left) and y26 (right), 11px apart. At phone size this still reads as a planned lips-down crop and the two tiles still match. If someone wants a cleaner edge, move only the right tile's crop up 4-5 source px; that brings back no nose, because the source photo starts at the lip.",
+     "Not a blocker: Story credits are 32px at 90% ink, not the 30px in the request. The Feed credits are 30px at 90%. Going 2px bigger in the Story is fine.",
+     "Not a blocker: the Story has about 460px of plain cream below the footer and about 300px above the headline. The 270-1500 safe zone requires this, and the content is balanced inside it (35px of air at the top, 44px at the bottom)."
+    ],
+    "score": 7.5
+   }
+  },
+  {
+   "no": "A03",
+   "done": [
+    "Deleted the rotated credit in both formats: its div, its CSS and the script that sized it. The right column is now clean linen.",
+    "New centred two-line cover block in both formats. Line 1 is 'Cover: Woven Hoops, ₹1,199.' in CGI 500 34px, ink. Line 2 is 'Inside: rings, earrings, necklaces, bracelets, from ₹599.' in CG 600 34px, ink. Cormorant has its own ₹, so no fallback font is used. The ink is centred within 1px (cx 539/539.5). Line 1 is 342px wide and line 2 is 715px (x182-897).",
+    "Feed placement: the baselines are 1224 and 1269, not about 1206 and 1256. I measured the lower hoop's bottom at y1155 in this build, because the earlier crop is source y210, not y218. The cap height is 21px, so 1206 would have left only about 22px. As measured, the cap top is at 1201, 46px below the hoop, and line 2's ink ends at 1277, a 72px bottom margin.",
+    "Story placement: the baselines are 1434 and 1480 (asked: about 1428 and 1476). The cap top is at 1411, 46px below the hoop bottom at 1365, and the ink ends at 1488, inside the 1500 safe line.",
+    "Cream wash behind the block: --cream #F3EDE4 at 20% at most, feathered on all four sides with smoothstep gradients on both axes. It is 0% at y1158 (Feed) and y1368 (Story), so it never touches the hoop. Measured change on the hoop rows: 0.0 on average, at most 1.3 (JPEG noise). On the linen behind the text, brightness rises by about 6 and the weave contrast drops from 14.5 to 12.2. A before/after crop shows no edge and no strip.",
+    "Flight rule written into the header comment of both HTML files: never run A03 in the same flight as A11 (same H08 photo; I checked that A11's plan uses H08).",
+    "Re-rendered to out/A03_feed.jpg and out/A03_story.jpg. I looked at both at full size, at 360px wide, and in zoomed crops of the block. Both lines and both ₹ signs read at phone size. Line 1 is the quieter italic, as asked.",
+    "Scope check: comparing pixels against the round-1 renders, the only changes are in the old credit column and the cover band. Nothing changed anywhere else. Facts checked: ₹1,199 matches H08 in pool.json, and 'from ₹599' matches the brief."
+   ],
+   "left": [
+    "Dateline NOT changed. The fix asked for Jost 500 caps at 24px, assuming it was 22px. The round-1 build already sets it at 26px Jost 500, uppercase, in full ink (#1A1614, with the ₹ signs in Inter 500 in the same ink). Setting 24px would shrink it, which goes against the reason for the fix and below BRIEF.md's 26px minimum, so I left it at 26px. If 24px is really wanted, change .ear font-size in both HTML files.",
+    "The cover block's line spacing is 45px in the Feed and 46px in the Story (asked: 50 and 48). This was needed to keep the 45px clearance under the hoop and the 72px bottom margin in the Feed at the same time.",
+    "Still true from round 1: the Story has about 430px of plain linen under the block (y1488-1920), in Meta's reply-bar area. I did not touch it."
+   ],
+   "verify": {
+    "no": "A03",
+    "pass": true,
+    "defects": [],
+    "score": 7.8
+   }
+  },
+  {
+   "no": "A02",
+   "done": [
+    "Feed headline: 'Sold. The rest are on view.' is now 88px, with the fit-to-700 removed and the baseline at 140. It stays on one line, with ink at x76-939 and y76-140, inside x72-1008 and clear of the frame at y192.",
+    "Label in both formats: it uses the even four-line break 'Baguette / Tennis / Bracelet, / Ruby red' in CG 600 28px with 34px leading. 'Gold tone, / cubic zirconia' is CGI 26px in #5A514C. 'SOLD' is Jost 24px with the red dot #B3362A.",
+    "Bridge in both formats: 'Also on view: / emerald green, / crystal.' sits inside the label 14px under SOLD, in CGI 26px ink, with no price anywhere. In the Feed the label is x804-1008, y784-1170. That is 386px tall, bottom-aligned with the frame at 1170, and it fills more of the right column.",
+    "Breadth line: '₹599 to ₹2,399' now uses lining figures (font-variant-numeric: lining-nums) in both formats. I checked this zoomed in.",
+    "Story print: I recut the window from the 4:5 H18 master at 0.56x (downscale only, LANCZOS, no colour change). The source box is x290-1797, y712-1760, made with crop_story2.py 0.56 290 712 844 587 into story_window2.jpg. The window is 844x587 and the frame is 936x697 at x72-1008. The bracelet is about 627px wide, up from about 446 in r1. The anaar seeds still enter at top right, one aril sits fully inside on the right, and the bottom aril reads as an aril rather than a sliver.",
+    "Story label: it hangs 22px beneath the frame's right foot, right-aligned to x1008, because a 936px frame leaves no room beside it. It is two columns: name and material, then the red dot, SOLD and the bridge. SOLD shares the first baseline with 'Baguette'. The breadth line sits at the left in two lines of 36px on the same first baseline.",
+    "Story centring: the whole hang now spans exactly y300 (top of the 'Sold.' ink) to y1480 (label bottom). 'Sold.' sits on baseline 375, 'The rest are on view.' on 467, and the logo's bottom is on the 'Sold.' baseline. All text and the logo are inside y300-1480.",
+    "H18 rule: the ad shows only the red dot plus SOLD, with no price and nothing that suggests the ruby can be bought. Nothing else was changed: wall, light, grain, moulding, mat, logo size and position logic, and every other word are as in r1.",
+    "I re-rendered with the kit command to out/A02_feed.jpg and out/A02_story.jpg. I looked at both at full size, at zoomed crops of the labels and breadth line, and at 360px phone width. Both are calm and legible, the headline reads at a glance, and the jewel is sharp."
+   ],
+   "left": [
+    "The bottom band of the Story, y1500-1920, is still plain wall. It is the Story reply and CTA zone, where no text may go, and with the label hung beneath the frame the hang already uses all of y300-1480.",
+    "At 360px phone width the label text is about 9-10px, as the specified 26-28px sizes give. The red dot and SOLD read at a glance. The piece name and the bridge are for people who stop to look.",
+    "'Crystal' for the clear variant and the stock of 17 and 38 come from the fix brief and the judges' notes. I did not re-check them against live Shopify."
+   ],
+   "verify": {
+    "no": "A02",
+    "pass": true,
+    "defects": [
+     "All six fixes are in. (1) Feed headline is 88px CG/CGI on one line, x76-939, baseline 140, top margin 76. (2) The label is back to the even 'Baguette / Tennis / Bracelet, / Ruby red' break in CG 600 28px. The material line is CGI 26px #5A514C and SOLD is Jost 24px. (3) The bridge 'Also on view: / emerald green, / crystal.' is CGI 26px ink, 14px under SOLD. The Feed label is x804-1008, y784-1169 (385px tall), bottom-aligned with the frame at y1170, and the ruby has no price. (4) '₹599 to ₹2,399' now uses lining figures in both formats. (5) The Story window is a 0.56x downscale of H18 (matched by template, r=0.996, mean colour within 0.1). The frame is x72-1008 (936 wide) and y519-1216. The label hangs under the frame's right foot, flush right at x1008. The whole hang runs y300-1479. (6) H18 rule: red dot plus SOLD, no price, and the only things offered are the in-stock emerald green and crystal versions.",
+     "Story, minor crop: the landscape window slices the halved pomegranate horizontally at the top edge. Only a pink sliver of rind with a few arils shows (x580-962, y565-665), which weakens the anaar rhyme that the Feed crop shows in full. An aril is also halved at the left edge (x118, y1065-1140), and an aril sliver pokes up at the bottom edge (x710-775, y1130-1152). That is a small tangent.",
+     "Story, minor: the label top (y1238) is only 22px under the frame bottom (y1216) and sits inside the frame's drop shadow. That is tighter than the roughly 40px from the frame to the breadth cap height beside it, so the label reads as a little cramped against the frame.",
+     "Story, residual: 440px of empty maroon is still below the hang (y1480-1920), with 300px above it. This is unavoidable once the hang is centred in y300-1480 with all text above y1500, and most of it falls under the Story CTA and reply bar. The judge's 'dead band' does not fully go away.",
+     "Feed, minor: a 204x547px void is still in the right column between the logo (y192-237) and the label (y784). The 390px label fills about 40% of the column, not 'most'. It reads as quiet wall rather than a mistake.",
+     "Both, legibility: the label's 24-28px type is about 8-9px on a 360px phone. It is legible and meets the minimum, but only the red dot and SOLD read at scroll speed.",
+     "No problems found on the other checks: no banned words; correct range ₹599 to ₹2,399; 'crystal' is the variant's own Shopify colour name; one NAIRA logo per format (logo_white, 204px); Story text and logo between y300 and y1479; no overlaps; no text on the jewellery; the photo is downscaled only and not recoloured; no stray artefacts."
+    ],
+    "score": 7.6
+   }
+  },
+  {
+   "no": "A07",
+   "done": [
+    "Reordered the haiku in both Feed and Story to 'Anaar, at the throat. / Elaichi, around the wrist. / Rangoli, for ears.' It is still 5-7-5, with the same font, size and baselines. The footnote 'Three pieces / of a much longer poem.' is unchanged and now carries the shop-all. In the render the Feed poem spans y114-338, 72px above the neck form. The Story poem spans y428-662, 78px above the neck form; its new last line has descenders, so it ends 10px lower than before.",
+    "Moved the Feed logo from bottom-left to bottom-right: top 1219px, left 788px. Measured logo ink is x788-1007, y1219-1267, right-aligned with the footnote (ink edge 1007) and the range (1007). The frame now has two axes: the centred verse and the right margin.",
+    "Deleted the Feed's 48px gold rule at x960-1008, y447 and its unused .rule CSS. The footnote and range stay where they were.",
+    "Changed '₹599 TO ₹2,399' from #6E645E to ink at 85% (rgba(26,22,20,.85)) in Feed and Story; it was already Jost 500 caps 26px. Rendered contrast against the blush wall is 9.6:1 in both (the old colour was 4.2:1, and 3.7:1 on the darkest wall pixels).",
+    "The footnote was already CGI 500 34px in both HTML files, so it needed no change.",
+    "Re-rendered both to out/A07_feed.jpg and out/A07_story.jpg. I checked both at full size and at 360px wide (build/A07/phone_pair_fix1.png). The range is now clearly readable at phone size. All Story text and the logo sit between y300 and y940, inside the safe zone. The photo is untouched, nothing else changed, and every fact is still true."
+   ],
+   "left": [
+    "Feed logo is close to an aril. The spec said the nearest aril is at x≤685 or y≤1160, but one aril actually sits at x730-790, y1160-1205. That puts it about 18px diagonally from the top-left of the N (nearest red pixel at 783,1202). At phone size it still reads as separate, but the gap is tight. Moving the logo down to y1229-1278 (the 72px bottom margin) would only gain about 6px, so the coordinates stay as specified. Zoom: build/A07/zoom_feed_logo_fix1.png",
+    "The Story still has the same 48px gold rule above its footnote (x960-1008, y798). The fix was scoped to the Feed, so I left it, but the Feed and Story now differ on this detail. Deleting it in the Story is one line in story.html."
+   ],
+   "verify": {
+    "no": "A07",
+    "pass": true,
+    "defects": [
+     "NON-BLOCKING (Feed): the logo is clear of the arils, but only by about 15px. The aril at x730-790, y1160-1205 sits just up-left of the 'N' (ink x788-1007, y1219-1267). The spec's note 'nearest is at x<=685 or y<=1160' is wrong. At phone size it reads tight but not touching. Optional: move the logo down to y1229-1278 (72px bottom margin) for about 25px of air.",
+     "NON-BLOCKING (Story): the 48px gold rule (x960-1007, y798-799) is still above the footnote. The Feed dropped the same rule as an orphan, so the two formats now differ. The fix asked only for the Feed, so this is acceptable, but dropping it in the Story too would make the pair match.",
+     "HOUSEKEEPING: plan/A07.json still lists the old line order (Rangoli / Elaichi / Anaar), the bottom-left logo, the 32px footnote and the #6E645E 24px range in feed_text, story_text and the layouts. Update it so captions and records match the build.",
+     "VERIFIED, NO DEFECT: (1) the haiku is reordered to 'Anaar, at the throat. / Elaichi, around the wrist. / Rangoli, for ears.' in both Feed and Story, still 5-7-5. (2) Feed logo ink measures x788-1007, y1219-1267, right-aligned with the footnote (1006) and range (1006). (3) Feed gold rule is gone (zone min luminance 218, was 113). (4) Range is Jost 500 caps with an 18-19px cap height (26px), colour rgba(26,22,20,.85), about 9.1:1 on the blush wall (old #6E645E was 4.24:1). Footnote is CGI 34px (22px cap T). Jewellery pixels are identical to before the fix and match H06 at 1.0x. Text area is under 12%. Story text runs y300-939, with nothing outside y270-1500. One logo per format, no banned words, the price range is correct, and no text touches jewellery."
+    ],
+    "score": 7.5
+   }
+  },
+  {
+   "no": "A05",
+   "done": [
+    "Both formats (build/A05/feed.html and story.html): I cut 'ADMISSION FREE. / SHIPPING TOO.' and the hairline, along with their CSS. The band now holds only the kicker, 'Come in.', the breadth line and the logo. None of those moved, except the Feed breadth line.",
+    "Feed: the band is now y0-372 (was 404) and the breadth baseline is 330 (was 356). H03 is re-seated at 1.0x from source y470, so the photo div runs y372-1350 and shows source y470-1448. The bracelet now sits about 83px under the band edge (was 98), and about 47px more of the rangoli flower shows at the bottom. The band's spacing is now even: 32px from the kicker's descender to the title's cap, 33px from the title's baseline to the breadth line's ascenders, and 35px from the breadth line's descenders to the band edge. The right side of the band is empty under the logo.",
+    "Story: only the two cuts. The band (y0-700), the photo (source y440-1660) and the positions of the remaining type are unchanged.",
+    "Re-rendered both: out/A05_feed.jpg and out/A05_story.jpg. A pixel diff against the H03 source gives a mean of about 1.1-1.4 levels in both formats. That is JPEG noise, so the photo is at exactly 1.0x and the jewellery is untouched. The band edge falls exactly at y372 (Feed) and y700 (Story).",
+    "I looked at both renders at full size and at 360 px wide (build/A05/phone_feed.png and phone_story.png). They are calm and legible, nothing touches the jewellery, and all Story type sits between y326 and 646, inside the safe zone.",
+    "Updated the spec plan/A05.json: I removed the info block and hairline from the idea, type, palette, layouts and text lists, set the new photo window, and added round1_fixes. I also added a flight field: 'Diwali week only: run about 8-15 Nov 2026, then retire it. The rangoli’s done. dates it, and H03 ran as Diwali 10 ad 02.' This follows the flight field in A04.json. Every claim left on the ad is the breadth line (rings, earrings, necklaces, bracelets; ₹599 to ₹2,399), which is true."
+   ],
+   "left": [
+    "Story: the cut hairline used to fill the gap between 'Come in.' (baseline 540) and the breadth line (baseline 636). That gap is now about 69px of air, against 33px in the Feed. At phone size it still reads as a calm caption, but the two formats now have a slightly different rhythm. If wanted, raising the Story breadth baseline to about 600 would match the Feed. I left it alone because the brief said to change nothing else.",
+    "build_results.json still lists ADMISSION FREE. / SHIPPING TOO. in A05's final_feed_text and final_story_text. I did not edit it. The orchestrator should refresh that entry when it collects the fixes.",
+    "The Diwali-week flight (about 8-15 Nov 2026, then retire) is recorded in the spec. It still has to be set as the ad's start and end dates when the campaign is built in Meta."
+   ],
+   "verify": {
+    "no": "A05",
+    "pass": true,
+    "defects": [
+     "Minor, non-blocking (Story): the hairline is gone but the type was not re-spaced. The gap from the 'Come in.' baseline (540) to the top of the breadth line (610) is now 70px, twice the 35px gap from the kicker to the title. The feed's gaps are an even 32/32/34. This is optional to fix: the breadth line still reads as a deliberate caption tier, and everything sits inside y326-645.",
+     "Minor, documentation only: the judge_fixes entries in plan/A05.json still say 'ADMISSION FREE. SHIPPING TOO.' stays and the band is 404px. They contradict round1_fixes and the render. Mark them as superseded so whoever builds the run sheet does not bring the line back.",
+     "Minor, process: the Diwali-week flight (run about 8-15 Nov 2026, then retire) is recorded only in the 'flight' field of plan/A05.json. Make sure it reaches the campaign plan or board as a hard end date of 15 Nov. Diwali 2026 falls on 8 Nov, so the ad must start on day one to get the whole week."
+    ],
+    "score": 7
+   }
+  },
+  {
+   "no": "A08",
+   "done": [
+    "Changed the foot line in Feed and Story to 'Fig. 2 onwards: everything else, from ₹599.' (now only one 'onwards'). It is CGI 500 40px and 'Fig. 2 onwards:' stays gold. The Feed CSS already had the foot at 40px, not the 36px the spec named, so its size did not change. The foot is now the second-largest type: caption 64, foot 40, labels 24.",
+    "Set 'THE COLLECTION', 'FIG. 1' and 'PRISM CLUSTER STUDS · ₹1,499' in both formats to Jost 500 caps 24px, ink at 75% (rgba(26,22,20,.75)). This drops the gold FIG label and the grey #6E645E, so gold now appears only in the foot. Letter-spacing is unchanged (.24em, and .2em for the credit). Measured in the render, the running-head caps stay centred on the logo: Feed caps y89-105 against logo y72-120.",
+    "Recomposed the Story for 9:16 (story.html). The measure is x72-1008. The logo (220px, right edge at x1008) spans y283-331, the running-head caps span y301-317 and the hairline is at y350. The plate is 936x936 at x72-1008, y370-1306, scaled to 0.8667x (below 1.0x) from source x0-1080. I used source y236-1316 rather than y230-1310: the cone tops still clear the plate top (purple tip at y398), and the studs get about 30px of plaster below the metal instead of about 24px. The FIG row baseline is at 1346, the caption baseline at 1410 and the foot baseline at 1466. The lower hairline is gone. Ink measures y283-1476, and there is nothing at all below y1480.",
+    "Re-rendered to out/A08_feed.jpg and out/A08_story.jpg. I looked at both at full size, at 360px wide (phone_feed_r4.png and phone_story_r5.png) and as zoomed crops of the text and studs, all in build/A08/. Nothing is cut off, nothing overlaps, no text touches the jewellery and the studs are sharp. The facts are unchanged: ₹1,499 and from ₹599.",
+    "Nothing else changed: the Feed layout, the Feed plate crop, the caption, the logo, the grain and the upper hairline are as they were."
+   ],
+   "left": [
+    "Story spacing is tight. With the given baselines (1346, 1410, 1466) and no lower hairline, the caption and foot read as one compact two-line caption: about 10px clear between the caption's descenders and the foot's ascenders, and about 15px between the FIG row and the caption. It looks intentional and reads cleanly at 360px. If more air is wanted, the plate would have to end a little higher, because the foot cannot move lower without breaking the y1480 limit.",
+    "Spec drift: plan/A08.json still lists the old foot text, 22px labels, a gold FIG. 1, 36/34px foot sizes and the old Story layout. I did not edit the spec, so a later checker comparing renders to it will see differences."
+   ],
+   "verify": {
+    "no": "A08",
+    "pass": true,
+    "defects": [
+     "All three requested fixes are in both formats. Foot line is now 'Fig. 2 onwards: everything else, from ₹599.' with 'onwards' once, set in CGI 500 40px. 'Fig. 2 onwards:' is gold. It is the second-largest type, after the 64px caption and above the 24px labels. 'FIG. 1', 'PRISM CLUSTER STUDS · ₹1,499' and 'THE COLLECTION' are all Jost 500 caps 24px in ink at 75%, so gold now appears only in the foot. The Story was recomposed on a 72-1008 measure (ink measured at x71-1007). The logo and running-head row sit at y283-331. The plate is 936px at 0.8667x from source y236-1316, placed at y370-1305. The FIG row sits at y1328-1349 (baseline 1346), the caption at baseline 1410 and the foot at baseline 1466, ending at y1477. The lower hairline is gone and nothing sits below 1480. The margins scan clean: no stray marks outside the measure or below 1480 in the Story.",
+     "Minor (Story): the text below the plate is tight while 440px of empty paper sits below it. The plate-to-FIG gap is 22px, the FIG row to caption ascenders 14px, and the caption descenders ('y', 'g') to the foot ascenders only about 10px. The requested baselines produce this. It reads as a compact caption block, but 6-8px more between caption and foot would breathe better.",
+     "Minor (Story crop): the violet cone tip sits only 24px below the plate top edge (42px in the Feed). It is kept as asked and balances the roughly 35px of plaster under the studs, but it is tight against the frame.",
+     "Minor: the 24px Jost labels are about 8.6px at a 360px-wide phone view. They are legible and meet the 24px floor and AESTHETIC.md's 22-30px label range, but they fall short of BRIEF.md's older 26px minimum. The 40px foot and 64px caption read clearly.",
+     "Checks passed. Price ₹1,499 matches pool.json, and 'from ₹599' is true for a range of ₹599 to ₹2,399. No banned words, no false claims and no text on the jewellery. The studs are sharp at a 0.78x (Feed) and 0.87x (Story) downscale, and they and the cones are fully in frame. The finger cropped at the plate edge is how the source photo is composed. There is exactly one NAIRA logo (logo_ink, 220px, right edge on the measure), the type is aligned optically, and nothing overlaps."
+    ],
+    "score": 7.5
+   }
+  },
+  {
+   "no": "A12",
+   "done": [
+    "Before-fix copies: before_fix/A12_r1_feed.jpg and before_fix/A12_r1_story.jpg were already there. Their md5 matches the pre-edit renders exactly, so I did not overwrite them. The round-1 HTML is backed up as build/A12/fix2/feed_r1.html and build/A12/fix2/story_r1.html.",
+    "Deleted 'COLOPHON' (the element and its CSS) from both formats.",
+    "Changed the claim in both formats. The two body lines now read 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.' / 'In gold tone and silver tone, each in a Naira gift box.', set in CG 500 32px at ink 85% (rgba(26,22,20,.85)). The headline 'Set in gold tone.' is unchanged and now refers to the bangle alone.",
+    "Background retouch is done with a script (build/A12/fix2/retouch.py) that writes two derived plates at the same 1.0x source coordinates: build/A12/fix2/H16_feed_clean.png and build/A12/fix2/H16_story_clean.png. Each HTML now uses its own plate. The bangle, seal and envelope are masked out (gold detection, an envelope polygon, and a 30px dilation around both). I checked the result: 0 changed pixels on the bangle, the seal or the envelope in either plate.",
+    "Feed retouch: the two right-edge light blooms are replaced with the surrounding plaster tone from a smooth field fitted to clean plaster nearby, and the original grain is kept. The dark plaster specks in the type block (feed x200-880, y1020-1220) are inpainted from the neighbouring plaster, with a feathered box edge. At 4x contrast there is no seam, and nothing looks painted at 360px.",
+    "Story retouch: the grey studio and slab edge at top right are replaced with a harmonic (Laplace) fill of the plaster tone from every clean neighbour, including the lit top-left corner, plus fine plaster grain. The edge flares at y480-640 and from y1330 are cleaned the same way as the Feed blooms. Nothing looks painted at phone size.",
+    "Story layout: the logo is at 220px, y296-344. 'Set in gold tone.' is CGI 96px with baseline 467, ink y397-493. The two body lines have baselines 527 and 567 (ink y504-535 and 544-575). Line 2 ends 45px above the bangle's soft top edge, which I measured at y620 (50px clear of y625). The whole message sits together above the bangle, and the plaster under the envelope is empty.",
+    "Feed layout: everything stays where it was. The title is 117.5px with baseline 1108, and the 32px lines keep baselines 1180 and 1222 (ink y1157-1188 and 1199-1230). Margins are at least 72px, and the bottom margin is 120px.",
+    "Re-rendered out/A12_feed.jpg and out/A12_story.jpg. I looked at both at full size and at 360px wide (build/A12/phone_feed.jpg and build/A12/phone_story.jpg). Both are calm and clean, and no text touches the jewellery."
+   ],
+   "left": [
+    "Departure from the given coordinates: the lower edge flare actually runs from source y1340 to y1660 and is brightest around y1540. Cleaning only y1330-1500 in the Story, or feed y980-1220, would have left half a bloom with a hard cut. So I cleaned the whole flare: Story y1330-1670 and Feed y930-1270. It is background plaster only.",
+    "Departure from the given coordinates: in the Story I removed the old blurred-plaster 'veil' that sat under the envelope (y1384-1500). It only existed to quiet the plaster behind the old body lines. Without the text it would have left a stray soft patch, and the brief asks for that plaster to be left empty. The Feed veil behind its two lines is unchanged.",
+    "Small call to review: in the Story the descender of the 'g' in 'gold' sits about 11px above the ascenders of line 1. This comes from the specified baselines (about 470 / 530). It is tight but nothing touches, and it reads as one unit at phone size.",
+    "Small call to review: in the Feed the 32px body lines are now slightly wider (691px) than the 117.5px title (645px). I left the title size alone, as instructed.",
+    "Plaster specks outside the retouch boxes are left as they were, including the one above 'gold' in the Feed where 'COLOPHON' used to be. With the word gone it reads as plaster texture, not a full stop."
+   ],
+   "verify": {
+    "no": "A12",
+    "pass": true,
+    "defects": [
+     "All six requested fixes are made. (1) 'COLOPHON' is gone from both formats. (2) Both formats carry the two body lines exactly as asked: 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.' and 'In gold tone and silver tone, each in a Naira gift box.', in CG 500 32px at ink 85%. With 'gold tone and silver tone' stated, 'Set in gold tone.' now reads as the pictured bangle only. (3) Feed: the right-edge blooms are cleaned to even plaster (y460-690 and y1330-1670 in source coordinates, which covers feed y60-290 and y930-1270). The specks inside the type block are inpainted with grain. A contrast-stretched check shows no blotch or seam. (4) Story: the slab edge and grey studio at top-right are replaced with a harmonic plaster fill plus grain. A contrast-stretched check shows no residual edge line, and the meeting point with the original sunlight wedge at x≈470 is soft. Both edge flares are cleaned. (5) Story layout measured from the ink: logo y296-344 at 220px; title CGI 96px with ink y398-493 (baseline 467); body line ink at y504-535 and y544-575 (baselines 527 and 567); 50px clear of the bangle top; plaster under the envelope left empty. (6) A pixel diff of both clean plates against H16 shows changes only in the four target zones. The seal and envelope are changed by 0, no bangle pixel is touched (the nearest change is plaster at x990+, y615-669), and the photo sits at 1.0x.",
+     "Nit, Story: the gap from the title's 'g' descender (y493) to the cap top of body line 1 (y504) is only about 11px, against 40px body leading. The stack looks slightly compressed under the title. This comes from the spec's 470/530 baselines. Raising the title about 6-8px (logo-to-title gap is 54px) would give it air. Not blocking.",
+     "Nit, Feed: natural plaster pits remain just outside the cleaned box: a soft ~5px pit under 'gift box.' (x≈799, y≈1239), a small cluster about 40px above 'tone.' (x≈660-760, y≈960-990), and a ~12px pit at the left edge (x≈15, y≈1170). They read as plaster texture and are invisible at phone size, and with COLOPHON gone nothing reads as a stray full stop. No action needed.",
+     "Feed: the faint blurred-plaster veil behind the body lines (x150-930, y1146-1246) shows only under heavy contrast stretch. At 1x and at phone size it is invisible. OK.",
+     "Compliance: no banned words. 'gold tone' and 'silver tone' are used correctly, and there is no 'gold'/'silver' alone, no 'real', 'luxury' or urgency. The ₹599 to ₹2,399 range and the gift-box claim are true per the brief. Exactly one NAIRA logo per format. Story text sits in y296-575, inside 270-1500. The smallest text is 32px. No text touches the jewellery, nothing overlaps, and there are no awkward crops. Text coverage is about 9% in the Feed and 5% in the Story.",
+     "Click potential: beautiful and calm, with the bangle at an upper-right power point, real air, and an honest breadth line that now gives the Shop All job (categories, price range, both tones, gift box). It stays a quiet still life with a mild pun, and H16 is the pool's weakest proof at 3.90% CTR. Expect a solid but not top-of-set performer; give it a small budget share."
+    ],
+    "score": 6.5
+   }
+  },
+  {
+   "no": "A10",
+   "done": [
+    "Indian turn: added a centred line under each craft word in CGI 500 30px at 75% opacity: 'like a choti' / 'like a rakhi' / 'like a temple bell'. 'Twisted.' 'Knotted.' 'Polished.' are unchanged (70px Feed, 74px Story). The lines sit 46px under the word baseline. 'brass' appears nowhere (checked with grep).",
+    "Ink: the 75% uses this frame's own ink, umber #3D2A17 (rgba(61,42,23,.75)), not the kit's #1A1614. That keeps the palette to gold, cream and umber only. If the literal kit ink is wanted, it is a one-token change (--umber75).",
+    "Re-crop: all three tiles now use one shared scale of 0.40x (515x640 from 1288x1600; never above 1.0x). The Feed and Story crops are identical. The torsade huggie sits centred at tile y213-425 and fills the tile width edge to edge, as the dome does. The knot is centred on its full width (source x318-1040) with the band running out at both edges. The back band's curve sits at tile y132-230, in the top third.",
+    "Why 0.40x and 296x640 instead of 0.41x and 296x650: measured on the source, the dome hoop is about 733px wide (x280-1013), not 709. At 0.41x it renders about 300px, wider than the 296px tile, so it was clipped on both sides (I rendered it and saw this). 0.40x is the largest shared scale at which the dome still fits (about 293px, as close to the asked 291px as it gets). 640px is the full source height at that scale.",
+    "Feed: the block (logo row to breadth line) is centred vertically. Measured visible margins are 156px top and 154px bottom, even, instead of the old 200/220 bands. They are about 15px short of 170 because the three new lines add about 38px. I kept the existing spacing rather than squeeze it.",
+    "Story: the logo is back in the top row, logo_ink 240px at x72 (it was a 260px footer), with 'THE GOLD-TONE EDIT' right-aligned at x1008 on the logo's centre line, matching the Feed. The tiles and words are the same as the Feed (the Story keeps its 74px words and 36px breadth). The block is centred in y300-1480: visible content runs y366-1415, so 66px above and 65px below, all inside the safe zone.",
+    "Re-rendered both: out/A10_feed.jpg (1080x1350) and out/A10_story.jpg (1080x1920). I looked at both at full size, at 360px wide (_r5_feed_360.png and _r5_story_360.png in the build folder) and at zoomed crops of the tile edges and type. At phone size it reads calm and even, and the three small lines are quiet but legible.",
+    "Nothing else changed: same ground, grain, gold hairlines, umber type, running head, breadth line and facts. Edited files: build/A10/feed.html and build/A10/story.html.",
+    "Applied the recommended fix in feed.html and story.html. All three tiles now share one scale of 0.375x (image 483x600) in 296x600 tiles, where 1600 x 0.375 fills the 600 px height exactly. Lefts: torsade -100.3px (centre 662), knot -106.6px (centre 679), dome -91.3px (centre 638). The Feed offset changed from 131+640+95 to 131+600+95, and the Story offset from panels+640+98 to panels+600+98. I updated the CSS comments. Nothing else changed: same words, sub-lines, sizes, rules, logo, running head, breadth line, colours and grain.",
+    "Re-rendered both: out/A10_feed.jpg and out/A10_story.jpg. I looked at both at full size and at 360 px phone width, and compared before and after at 360 px.",
+    "Torsade crop fixed (Feed and Story): the huggie no longer reaches the tile edge. Measured in the render it is about 9 px from the left edge and about 10 px from the right. The soft cast shadow on the right runs out of the tile as part of the photo. At 360 px the huggie sits with air on both sides and is no longer jammed against the frame.",
+    "Dome centred on x638. Its gap to the tile edge is now balanced at about 6 px left and about 6 px right, so it no longer touches one side.",
+    "Knot is still centred under the crossing, and the back band sits at tile y about 123-170 of 600, inside the top third.",
+    "Vertical layout measured in the renders. Feed: tiles at y307-906, block (logo top to breadth descender) at y176-1175, margins 176 / 174. Story: tiles at y522-1121, block at y386-1395, centred in the 300-1480 band, with all text and the logo inside 270-1500.",
+    "Re-checked: one NAIRA logo (220 Feed, 240 Story); 'THE GOLD-TONE EDIT'; Twisted. / Knotted. / Polished., with like a choti / like a rakhi / like a temple bell (CGI 500 30px, 75% umber); breadth line 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' unchanged. No text on the jewellery, no overlaps, no artefacts. The 26 px running head and 30 px sub-lines are still legible at phone size."
+   ],
+   "left": [
+    "The spec underestimates the dome's width, so its air is tighter than planned. The real extent in the source is about x258-1017, not 279-997: the matte left flank at source y about 800-900 reaches x258, and the soft out-of-focus right edge reaches about x1017 at y700. That makes it about 285 px wide at 0.375x, not 269, so it has about 6 px of air each side instead of about 13. It is balanced and nothing is clipped, and it reads as an intentional full-height vertical, but at 360 px the gap is only about 2 px. If more air is wanted, the only fix that keeps one shared scale is a smaller scale (for example 0.35x with 296x560 tiles, which gives about 15 px per side). That changes the tile height again, so I did not do it.",
+    "The measured torsade extent here is about x288-1020 (centre about 654), slightly different from the brief's 295-1030 / 662. Even so, the rendered result with left -100.3px is balanced (about 9 / 10 px), so I did not move it further.",
+    "Low-risk note carried forward and not changed: 'temple bell' and 'rakhi' name devotional or festival objects. Only words are used and nothing is shown, so this is not a blocker under the brief."
+   ],
+   "verify": {
+    "no": "A10",
+    "pass": true,
+    "defects": [
+     "Fix 2 deviated from the request on purpose. All three tiles now use one shared scale of 0.375x, not the requested 0.41x. The outcome the fix asked for is met: the torsade huggie is 276px wide and sits centred at tile y200-400, no longer small and low. The knot is centred on x540, and the back band's curve sits at tile y126-190, inside the top third, so the piece reads as a bangle. The dome hoop is 284px wide. The deviation is right: the 0.41x attempt (before_fix/A10_r2_feed.jpg) pushes the dome hoop into both tile edges.",
+     "Fix 3 was only partly made. The Feed tiles are still 296x600, not 296x650, because 600px is the most a 1600px source gives at 0.375x. The other half is done: the block is centred, with even margins of 176px top and 174px bottom. That was reached by enlarging the craft words to 70px (Feed) and 74px (Story). Accept it.",
+     "The dome hoop is tight: about 6px from each tile edge. It is whole, but it is the most crowded of the three tiles.",
+     "Small tone mismatch: the knot tile's backdrop is warmer and more peach than the grey-beige of the other two. It also has a darker photo vignette in its top-left corner (about rgb 156,131,109 at x394, y309 in the Feed). Only noticeable side by side; acceptable.",
+     "Story: with the same 600px tiles, the frame is mostly cream, with empty bands at y0-386 and y1395-1920. It reads as the Feed layout placed inside a Story. This is what was asked for and it sits inside the safe zone. In both formats each piece is only about 90-95px wide at 360px phone width, a built-in limit of a three-up layout.",
+     "Copy: 'rakhi' and 'temple bell' name festival and religious objects. The brief bans showing religious objects, and these are only named, so the risk is low. The reviewer asked for these words, and 'brass' appears nowhere.",
+     "The three small lines (CGI 30px, ink 75%) are faint but readable at phone size, and quiet as requested."
+    ],
+    "score": 7
+   },
+   "first_verify": {
+    "no": "A10",
+    "pass": false,
+    "defects": [
+     "FAIL, crop (Feed and Story): the torsade huggie is cut at the left tile edge. Its real width in the source is about x295-1030, centre about 662, not the plan's x335-1007 / 678. At 0.40x with left:-123.2px, about 5 px of the outer twist falls outside the tile. In both renders the huggie's left side runs flat into the tile edge (Feed x72, y561-637; Story y777-854) with about 7 px of free space on the right. At full size it looks like an accidental slice; at phone size the jewel is jammed against the frame. This is the crop the fix was meant to improve, and it breaks the 'no cut-offs, nothing accidental' rule.",
+     "Crop, contributing: at any shared scale of 0.40x or more the torsade is about 294-301 px wide, so it cannot fit a 296 px tile with air. The requested ~0.41x / ~650 px tiles / ~276 px huggie cannot all be true together; 276 px needs about 0.375x. Recommended fix: one shared scale of 0.375x and 296x600 tiles (1600*0.375 = 600 fills the height exactly). Centre each piece on its measured centre: torsade left = 148-662*0.375 = -100.3px (about 276 px wide, about 10 px air each side), knot -106.6px, dome left = 148-638*0.375 = -91.3px (about 269 px). The Feed block then becomes about 998 px tall, which gives the even margins of about 176 px the request asked for. Minimum fix if 0.40x is kept: torsade left -116.8px (no clip, about 1 px each side) and dome -107.2px.",
+     "Minor, crop: the dome hoop is also off-centre. Its real extent is about source x279-997 (centre about 638, not 646.5), so it sits about 1 px from the left tile edge (touching for about 130 rows) and about 8 px from the right. This is a tangent on one side only. Centre it on x638.",
+     "Checked and OK: the three sub-lines 'like a choti' / 'like a rakhi' / 'like a temple bell' are there, set in CGI 500 30px at 75% umber and centred under each word; there is no 'brass' anywhere. All three tiles share one scale (0.40x, under 1.0x). The knot is centred and the back band sits in the top third (tile y about 133-213 of 640). The Feed tiles are 296x640 and the block (logo to breadth line) is centred with 156/156 px margins (target about 170). In the Story the logo is back in the top row beside 'THE GOLD-TONE EDIT', and the block runs y366-1415, centred in 300-1480, so all text and the logo are inside 270-1500. There is exactly one NAIRA logo (220 / 240 px). Prices ₹599 to ₹2,399 are correct. There are no banned words, no false claims, no text on the jewellery, no overlaps and no stray artefacts (the cream margins are clean). The smallest text is the 26px Jost running head, and the 30px sub-lines stay legible at 390 px phone width.",
+     "Note, low risk: 'temple bell' and 'rakhi' name devotional or festival objects. The brief only bans showing religious objects, and the similes are respectful, so this is not a blocker."
+    ],
+    "score": 7
+   }
+  },
+  {
+   "no": "A04",
+   "done": [
+    "Feed still is now 1080x630 at 1.0x, taken from H07 source y700-1330 and placed at y273-903. The thumb and its nail are whole inside the band. The band's bottom edge crosses the fingers below the knuckle creases. The hoops sit about 45px below the band's centre.",
+    "Feed stack is centred vertically. The logo is at y160-209, the subtitles' baselines are at 979 and 1045, the caps whisper's at 1130 and the price's at 1182. Measured from the render, there are 160px of black above the logo and 162px below the price.",
+    "Both formats: every subtitle line is now centred on its own instead of starting from a shared left edge. In the render, the centres of the logo, both subtitle lines, the whisper and the price fall between x538.5 and x541. The block-alignment code is still in the HTML but no longer used.",
+    "Story still is now 1080x860 at 1.0x from source y640-1500, placed at y380-1240. The watch strap shows at the top edge and the hoops sit mid-band (hoop centre y800, band centre y810). The logo is directly above at y300-349.",
+    "Story text: subtitle baselines at 1300 and 1364, caps whisper at 1423 and price at 1464. The lowest ink is at y1469, nothing is below 1480, and the logo and all text sit between y300 and 1469.",
+    "Small change from the requested story numbers: at exactly 1306, 1370, 1420 and 1466, the descenders of line 2 (g, y, f) came within 16px of the whisper caps. I moved the subtitles up 6px, the whisper down 3px and the price up 2px. The gaps now read: still to line 1, 20px; line 2 to whisper, 24px; whisper to price, 17px.",
+    "Flight rule added as a new \"flight\" field in plan/A04.json: H07 ran as Diwali 10 ad 05, so start this after Diwali week or exclude that ad's engagers. Nothing else in that file changed.",
+    "No other changes: copy, fonts, sizes, colours, grain, logo and the no-tint photo are as before. Edited build/A04/feed.html and build/A04/story.html. New renders are out/A04_feed.jpg and out/A04_story.jpg.",
+    "Looked at both renders at full size, in zoomed crops of the text and the band's top edge, and at phone size (360px wide): build/A04/phone_r4.png. Everything is legible at phone size, the jewellery is sharp and correctly coloured, and nothing overlaps."
+   ],
+   "left": [
+    "Story: because the band was told to end at y1240 and nothing may sit below 1480, the subtitles, whisper and price have to fit in 240px. The whisper sits close under the second subtitle line (24px clear). It reads cleanly at phone size, but it is the tightest spot in the frame. Shortening the band by about 20px would loosen it, if wanted.",
+    "Feed: at source y700 there is a tiny dark notch at the band's top-left (about x345, y273-285). It is the end of the watch strap at the wrist. It is barely visible and I left it, because the source rows were specified.",
+    "The flight rule is only written in the plan file. Whoever builds the campaign has to apply it."
+   ],
+   "verify": {
+    "no": "A04",
+    "pass": true,
+    "defects": [
+     "All five requested fixes were made. Feed: the still is 1080x630 at 1.0x from H07 y700-1330 (CSS offset -700 on the native 1080x1920 source). It sits at y273-902. The thumb is whole, with its nail tip about 12px inside the edge. The bottom edge crosses the fingers below the base creases, not at the knuckles, and the hoops are near the band's centre. Feed stack: logo ink starts at y160 and the price ink ends at y1188, so there is 160px of black above and 161px below. Every line is centred on x540: logo 539.5, subtitles 539.0 and 539.0, whisper 539.5, price 541.0 (italic overhang). Story: the still is 1080x860 at 1.0x from y640-1500, placed at y380-1239. The watch strap shows at the top edge, the hoops are mid-band and the logo is at y300-348. Baselines are about 1300/1364 for the subtitles, 1423 for the whisper and 1464 for the price. The lowest ink is at y1470, so everything sits inside y270-1500. The flight note is recorded in plan/A04.json.",
+     "Minor, Story: the subtitles hug the still. The top of line 1 is 20px below the photo's bottom edge (1239 to 1260), because the baselines went in about 6px higher than the requested 1306/1370. The price sits only 17px under the whisper. This stack is denser than the Feed's rhythm (38/51/27px gaps) while y1470-1920 is empty black. Optional polish: set the baselines to 1306/1370 for about 26px of clearance.",
+     "Minor, Story: the little finger's nail tip ends about 8px above the band's bottom edge, a near-tangent. It cannot be seen at phone size. The watch strap is cut by the top edge on purpose, as the fix asked.",
+     "Minor, Feed: a 10-15px dark sliver of the watch strap's shadow shows at the top edge of the band, at about x335-350. It cannot be seen at phone size.",
+     "Housekeeping: feed_layout and story_layout in plan/A04.json still describe the old 540px band and the left-aligned subtitle block. Update them to match the build.",
+     "Clean on everything else: one NAIRA logo (logo_white, 220px). No banned words. Prices are correct (₹599 to ₹2,399) and there are no claims. The smallest text is the 26px Jost caps whisper, which reads at 360px. No text touches the jewellery and nothing overlaps. No upscaling, the ground is warm black and the text is mishri #F3EBDD, not pure white."
+    ],
+    "score": 8
+   }
+  }
+ ],
+ "panel": [
+  {
+   "ads": [
+    {
+     "no": "A01",
+     "feed": 8.4,
+     "story": 8.6,
+     "overall": 8.5,
+     "verdict": "run",
+     "defects": [
+      "Feed: breadth line wraps to two lines ('Rings, earrings, necklaces, bracelets.' / '₹599 to ₹2,399.', x72-520, y285-360). The spec set it as one line at baseline 300. The headline block becomes a 4-line ragged stack and the second line hangs short.",
+      "Feed: the chain's grey cast shadow forms a heavy blob at bottom-left (x0-450, y880-1080), and a cut link edge shows at the left frame edge (x0-20, y720-1000). That quarter reads muddy, not quiet.",
+      "Feed: the pavé link is centred (centre about x580, y720), not on a power point. The frame is about 70% gold, so it has less than a third of quiet space below the headline.",
+      "Feed: gold Jost credit at 26px (x72-615, baseline 1278) is about 8.7px tall at phone width. Gold #9A6B2F on cream (luminance about 220) holds, but it is the weakest read in the frame.",
+      "Story: the cast shadow fills y1430-1620 under the link. It is inside the reply-bar zone, but it leaves a dull grey lower third.",
+      "Story: the gold credit (x465-1008, baseline 322) shares the logo row at y275-320, just above the 270 safe line. The tight top row competes with the headline below at y400."
+     ],
+     "note": "The most beautiful single frame here: a razor-sharp pavé macro, real air top-left, roman/italic headline set with care, and an idiom that works three ways. Small finish issues only."
+    },
+    {
+     "no": "A02",
+     "feed": 8.2,
+     "story": 8.4,
+     "overall": 8.3,
+     "verdict": "run",
+     "defects": [
+      "Feed: the right column is dead between the logo (x805-1008, y195-237) and the label (x805-1008, y928-1170). That leaves a 228x690px maroon void, and the asymmetric hang reads left-heavy.",
+      "Feed: the headline 'Sold. The rest are on view.' is one 64px line at baseline 132, about 4.7% of the height. The hook is under-scaled for the darkest, most arresting frame in the set.",
+      "Both: the museum-label rag is uneven, 'Baguette Tennis' / 'Bracelet,' / 'Ruby red' (Feed x822-986, y950-1035), with a long first line and a 9-character second. The spec's even four-line break was better.",
+      "Both: label type is 26px CG and 22px Jost (about 7-9px at phone width). Only the red dot and SOLD read at scroll speed, so the piece name is decoration.",
+      "Story: 420px of empty wall below the breadth line (y1480-1920) and 290px above. The frame floats rather than sits.",
+      "Both: oldstyle figures in '₹599 to ₹2,399' (Feed baseline 1250) drop the 5 and 9s below the baseline. At 34px, beside lining Jost elsewhere, it looks uneven."
+     ],
+     "note": "The cleverest honest use of the best-converting photo, on a wall that stops the scroll. The gallery devices are flat and disciplined. Only the right column and the rag want a final pass."
+    },
+    {
+     "no": "A03",
+     "feed": 7.9,
+     "story": 8.1,
+     "overall": 8,
+     "verdict": "run",
+     "defects": [
+      "Both: the dateline 'ISSUE NO. 1' / '₹599 TO ₹2,399' is 22px Jost on mottled linen (background luminance 144-188, Feed y90-115). It is about 7px at phone width and breaks up on the texture.",
+      "Both: the 300px NAIRA masthead (Feed x390-690, y72-137) is timid for a cover. The italic title at 92px outweighs it, so it reads as a page header, not a masthead.",
+      "Feed: reddish stains in the linen at left (x0-250, y650-1100) make the ground look soiled at phone size.",
+      "Feed: the cover line 'Inside: rings, earrings, necklaces, bracelets.' (x225-855, baseline 1258) sits on busy weave (luminance 15-242 inside the line box). The contrast is uneven.",
+      "Feed: the rotated credit (x985-1010, y210-640) ends about 65px from the upper hoop's latch (x925, y450). It is clear, but it crowds the one piece of jewellery it names.",
+      "Set-level: the same H08 hoops-and-persimmon photo carries A11, which weakens both if they run together."
+     ],
+     "note": "A warm, confident still life with editorial order. The cover conceit is familiar rather than fresh, but the hierarchy is clean and the hoops are cropped well."
+    },
+    {
+     "no": "A04",
+     "feed": 6.6,
+     "story": 6,
+     "overall": 6.3,
+     "verdict": "cut",
+     "defects": [
+      "Both: the band's bottom edge cuts four fingers and the thumb tip mid-phalanx (Feed y840, x165-1010; Story y1085). That is a classic crop at the joints.",
+      "Both: a man's deeply creased palm fills the band. The hoops are only about 280px wide (Feed x375-655, y490-730), so skin texture, not jewellery, carries the frame. That is unflattering for a women's luxury ad.",
+      "Feed: the letterbox band (y300-840) sits off-centre, with 300px black above and 510px below. The bottom void (y1000-1130 and y1230-1350) feels unplanned rather than cinematic.",
+      "Story: the still fills only 28% of the frame (y545-1085). There is 545px of dead black above and 490px below, so the 9:16 canvas is wasted.",
+      "Both: the subtitle block starts at x260 while the whisper starts at x168 (Feed). Neither shares a left edge or a true centre axis.",
+      "Both: H07 is pushed amber and orange, and the gold reads brassy against the warm bokeh."
+     ],
+     "note": "The line is witty and on-voice. The picture is the weakest in the set: a rough palm, a joint-cut crop and acres of black. It does not look like the most beautiful ad in her feed."
+    },
+    {
+     "no": "A05",
+     "feed": 7.5,
+     "story": 7.8,
+     "overall": 7.7,
+     "verdict": "fix",
+     "defects": [
+      "Feed: the type band takes 30% of the frame (y0-404) with six elements: kicker, 168px title, two-line info, hairline, breadth line and logo. That is not 'little text'.",
+      "Both: the bracelet is about 205px wide (Feed x575-780, y500-720; Story y815-1030), about 19% of the width. The hand gesture, not the jewel, is the subject.",
+      "Both: the forearm is cut flat by the hard band edge (Feed y404, x660-1010; Story y700). It reads as an amputation rather than a deliberate entry.",
+      "Feed: the info block's first baseline (236) aligns with nothing. Only its second line sits on the title baseline (272), so the right block floats.",
+      "Feed: only a sliver of the rangoli flower shows at bottom (y1109-1350, cut by the frame edge). The payoff of the idea is mostly cropped away. The Story shows it in full.",
+      "Both: 'ADMISSION FREE. / SHIPPING TOO.' in tracked caps adds a fourth voice to an already busy band. Cut it or the breadth line."
+     ],
+     "note": "A lovely idea ('The rangoli’s done. Come in.') with a beautiful 'Come in.' setting. Edit the band to kicker, title and logo, and the hand-into-rangoli photo will breathe."
+    },
+    {
+     "no": "A06",
+     "feed": 6.5,
+     "story": 6.2,
+     "overall": 6.4,
+     "verdict": "cut",
+     "defects": [
+      "Both: a dark skin mark or scab sits above the right earlobe (Feed about x702, y375; Story about x702, y683) at 1.0x. It is clearly visible at phone size.",
+      "Both: the crops are on the ear, not the jewel. Each ear fills about 60% of its 456px panel, with the canal and pores in macro, while the hoops are about 110x200px (Feed x255-360, y415-625 and x710-830, y425-615). It looks clinical.",
+      "Both: the pearl hoop's inner wall shows red specks (Feed about x790-805, y480-500) that read as a defect in the piece.",
+      "Feed: a centred stack of seven elements (labels at y770, headline at 896, line at 960, gold rule at 1004, offer at 1056, breadth at 1102, logo at 1196-1245). It is a template hierarchy, not restraint.",
+      "Both: the gold caps offer 'MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG' spans 775px (Feed x155-928, baseline 1056). It is the loudest type in the frame after the headline.",
+      "Both: the ₹ glyph in the CGI labels sets smaller and lighter than the oldstyle digits ('₹1,249', Feed x305-370, y760-780).",
+      "Story: 440px of empty beige below the breadth line (y1480-1920). The diptych is not recomposed for 9:16."
+     ],
+     "note": "The mirror idea is charming, but two giant ears and a visible skin mark kill the luxury read, and the type stack is the busiest in the set."
+    },
+    {
+     "no": "A07",
+     "feed": 8.3,
+     "story": 8.6,
+     "overall": 8.5,
+     "verdict": "run",
+     "defects": [
+      "Feed: three alignment systems compete. The poem is centred (x250-830, y110-345), the footnote is right-aligned at x1008 (y447-585) and the logo is left-aligned at x72 (y1228-1278). The logo floats alone beside the arils.",
+      "Feed: a lone 48px gold rule above the footnote (x960-1008, y447) is not in the spec. It is an orphan ornament.",
+      "Both: '₹599 TO ₹2,399' in #6E645E Jost caps on the blush wall (Feed baseline 575, x740-1008) is low contrast (about 4:1) at 24px.",
+      "Both: the poem names rangoli studs and an elaichi bracelet that are never shown. The first two lines have no visual payoff for anyone who does not know the catalogue.",
+      "Both: the wall darkens towards the left (luminance about 204 at left, 232 at right), and the top-left corner (x0-200, y0-400) looks vignetted behind the poem."
+     ],
+     "note": "A real 5-7-5 haiku, set with poise above the ruby necklace and anaar. Calm, witty, exact, and the Story is near-frameable. Unify the Feed's axes and it is the set's best."
+    },
+    {
+     "no": "A08",
+     "feed": 7.3,
+     "story": 6.8,
+     "overall": 7.1,
+     "verdict": "fix",
+     "defects": [
+      "Both: the foot line 'Fig. 2 onwards: everything else, ₹599 onwards.' (Feed x120-775, baseline 1250; Story baseline 1462) uses 'onwards' twice in one line. It reads as a copy error, not a pun.",
+      "Story: the Feed layout is transplanted, not recomposed. There is 290px of blank paper above the running head and 445px below the foot (y1475-1920), and the plate is still only 840px wide.",
+      "Both: the plate is busy (three cones, scattered powder, a finger, a trail across x150-960, y240-1000). It is not one calm dominant image with a third of the frame quiet.",
+      "Both: the FIG row splits colour on one baseline: gold 'FIG. 1' at x120 and grey 'PRISM CLUSTER STUDS · ₹1,499' at x440-960 (Feed baseline 1104). The two greys and the gold together feel fussy at 22px.",
+      "Feed: running head 'THE COLLECTION' at 22px (x120-415, baseline 104) is about 7px at phone width.",
+      "Both: 'Rangoli you can wear.' reuses an earlier campaign headline. The fresh part of the idea is only the weak foot line."
+     ],
+     "note": "A tidy book page with sharp studs, but the copy stumbles on 'onwards' twice and the Story is a padded Feed. Rewrite the foot and recompose the Story."
+    },
+    {
+     "no": "A09",
+     "feed": 8.4,
+     "story": 8.1,
+     "overall": 8.3,
+     "verdict": "run",
+     "defects": [
+      "Feed: the caps footer is justified edge to edge (x72-1008, baseline 1238), with about 60px gaps around each middot. It reads as a website nav bar rather than a whisper. Set it flush-left at natural tracking, or centre it short.",
+      "Feed: the hand in the right tile is cut through the fingers by the tile edge (x1008, y560-700).",
+      "Both: both tiles crop at the philtrum, just under the nose (Feed y262-272). It is a hair too high: the eye snags on the sliver of nose base above the lips.",
+      "Story: 420px of blank cream below the footer (y1500-1920) and 290px above. The diptych is not enlarged to use the 9:16 frame.",
+      "Both: the italic credits at 28px (Feed baseline 1102) are fine, but the two tiles' skin tones differ (left warmer, right cooler and more contrasty). The diptych does not quite read as one sitting."
+     ],
+     "note": "The most fashion-literate idea in the set ('Slip, model’s own.'), with a clean hierarchy and on-model photos that echo the best-converting carousel. It feels like a real magazine page."
+    },
+    {
+     "no": "A10",
+     "feed": 7.6,
+     "story": 7.4,
+     "overall": 7.5,
+     "verdict": "fix",
+     "defects": [
+      "Both: the triptych grounds don't match. Panels 1-2 show a white plinth with diagonal edges cutting across (Feed x72-688, y420-890), and panel 3 is plain warmer beige. The equal frames hold unequal worlds.",
+      "Both: the scale is mismatched. The torsade huggie is about 260px wide and sits low (Feed x92-350, y515-700), while the dome hoop fills the whole panel height (x725-990, y425-790).",
+      "Both: the knot bangle crop is ambiguous. The back of the bangle is a blurred gold bar across the top of panel 2 (Feed x392-688, y450-500), and the front runs off both edges, so few will read it as a bangle.",
+      "Both: 'Twisted. Knotted. Polished.' is generic craft description that any gold brand could own. There is no Indian object and no wit, unlike the rest of the set.",
+      "Story: the logo is moved to the bottom centre (x410-670, y1335-1390), away from the running head at y365. The brand sits under the breadth line like a footer, with 340px empty above and 530px below."
+     ],
+     "note": "Calm, premium and well gridded: the most catalogue-correct frame here. It lacks a clever line, and the three panels need matched ground and scale."
+    },
+    {
+     "no": "A11",
+     "feed": 7.7,
+     "story": 7.9,
+     "overall": 7.8,
+     "verdict": "fix",
+     "defects": [
+      "Both: a heavy near-black moulding (about 12px, Feed x152-928, y178-1162) frames the mat. It is not in the spec and reads as a poster-shop frame against the burnt wall.",
+      "Both: the NAIRA logo is printed on the mat itself (Feed x650-850, y1075-1118; Story x670-870, y1285-1325), as if stamped on the artwork. It muddles the print-on-a-wall fiction. The logo belongs on the wall.",
+      "Both: brown on brown. A burnt wall, a dark frame and peach linen inside leave the hoops as the only light, and the whole frame sits in one muddy value band at phone size.",
+      "Both: inside the window, linen fills the bottom ~250px (Feed y780-1030) under the lower hoop. The crop is loose for a 'fine-art print'.",
+      "Both: lining figures in the mat credit '₹1,199' (Jost) sit beside oldstyle figures in the wall line 'From ₹599.' (CG, Feed baseline 1255). The numerals are mixed.",
+      "Set-level: it uses the same H08 photo as A03."
+     ],
+     "note": "'Hang at ear height.' is a lovely twist, and the bottom-weighted mat is correct. Lose the black frame, move the logo off the mat and lift the wall a step, and it would be frameable."
+    },
+    {
+     "no": "A12",
+     "feed": 8.1,
+     "story": 7.9,
+     "overall": 8,
+     "verdict": "run",
+     "defects": [
+      "Story: the top-right corner shows the edge of the plaster slab and the grey studio beyond, a diagonal from (500,0) to (1080,170) with luminance 113-157 against a 220 ground. The set is visible.",
+      "Feed: soft white light-leak blooms hug the right edge (x1040-1080, y140-240 and y1030-1220; luminance 236-248 against a 213 ground). They look accidental.",
+      "Both: dark plaster speckles sit inside the type zones, around 'COLOPHON' and under the title (Feed about x640-700, y975-1010). That is noise behind the small type.",
+      "Both: 'COLOPHON' (gold Jost 22-24px) is a word most of the audience will not know. The label adds a riddle above an already clever line.",
+      "Feed: the title and both body lines are bottom-stacked (y970-1215) while the logo sits alone at top (y72-121). It works, but the bangle top (y225) to the logo is only about 100px, which crowds the top."
+     ],
+     "note": "'Set in gold tone.' is the wittiest exact line in the set, on a calm still life with real air. Clean the Story corner and the edge flares before final."
+    }
+   ]
+  },
+  {
+   "ads": [
+    {
+     "no": "A01",
+     "feed": 7.4,
+     "story": 7.8,
+     "overall": 7.6,
+     "verdict": "run",
+     "defects": [
+      "Feed: the piece credit 'BOLD NOCTURNE CHAIN · ₹1,799' (x70-615, y1258-1282) is 26px gold Jost on cream. On a 360px phone it is about 9px with low contrast, so the hero's only price is the faintest text on the frame.",
+      "Feed: the macro gives no sense of scale or body. The pavé link fills x180-990, y410-1020, and she cannot tell whether it is a necklace or a bracelet. Add 'NECKLACE' to the credit.",
+      "Story: the logo (x72-290, y272-322) and credit (x465-1010, y300-322) sit right on the y=270 safe line, under the profile and progress bar on tall phones. Move both down about 60px.",
+      "Story: y1450-1920 is empty soft shadow (25% of the screen) and the link ends at y1415. Shift the crop so the link sits lower and centred.",
+      "Stock: the hero has 17 units. That is fine for a Shop All click, but rotate it out if the chain sells down."
+     ],
+     "note": "This is the cream ad that survives the half-second test, because the pavé sparkle still reads at 360px and the link is huge. The idiom turns into the shop-all promise with no effort, and the breadth line sits right under it. Its weakness is that the macro never says what the piece is or how it wears. It is a top-4 ad, so run it."
+    },
+    {
+     "no": "A02",
+     "feed": 7.3,
+     "story": 6.9,
+     "overall": 7.1,
+     "verdict": "fix",
+     "defects": [
+      "Feed: the framed photo spans only x72-772 (65% of the width), so the bracelet is just x175-620, y675-1005. That is far smaller than in the 4.32% full-bleed original of this photo.",
+      "Feed: the right column x790-1060, y260-920 is empty maroon, and the logo (x805-1008, y190-240) floats above it with nothing to anchor it.",
+      "Feed: the label italics 'Gold tone, cubic zirconia' (x822-950, y1052-1108) are about 22px grey on cream, about 7px on a phone and illegible.",
+      "Both: the only product shown cannot be bought, and nothing bridges to the same baguette bracelet in Emerald green or Crystal (₹1,499, 17 and 38 in stock). Add one whisper line under the breadth line (Feed y1240, Story y1465), for example 'Still on view: in emerald green and crystal.'",
+      "Story: this is the Feed layout on a taller ground. y0-290 and y1490-1920 are flat maroon (38% of the screen). The frame should run about 936px wide."
+     ],
+     "note": "The line is honest and clever, and the maroon wall stands out in a cream feed. The trouble is that the account's best-converting photo is shrunk inside a mat, and the hero is sold out. Clicks will come from curiosity, but purchase intent drops unless the ad points to the in-stock emerald and crystal versions of the same bracelet. Fix the bridge line and enlarge the Story frame, then run."
+    },
+    {
+     "no": "A03",
+     "feed": 7.8,
+     "story": 8.2,
+     "overall": 8,
+     "verdict": "run",
+     "defects": [
+      "Feed and Story: the rotated credit 'COVER: WOVEN HOOPS, ₹1,199' (Feed x988-1012, y208-640; Story x988-1012, y428-858) is 26px vertical text and unreadable on a phone, so the hero's price is effectively invisible.",
+      "Feed: the masthead small caps 'ISSUE NO. 1' (x70-275, y95-115) and '₹599 TO ₹2,399' (x755-1010, y95-115) are about 9px on a phone. The price range is the key shop-all fact and is lost here, so repeat it in the bottom cover line (y1235-1265).",
+      "Feed: the cover line 'Inside: rings, earrings…' (x225-855, y1235-1265) sits on textured linen, which makes it weak at 360px.",
+      "Fatigue: this ad shares H08 with A11, so never run both in one flight. H08 also carried the earlier Woven Hoops ads, so warm audiences have seen it."
+     ],
+     "note": "This is the strongest ad in the set. A full-bleed saturated persimmon is a real colour stop, the proven Woven Hoops are large and sharp, and 'The Everything Issue' says Shop All without explaining it. The Story uses the full screen, which suits the account's Stories-beat-Feeds pattern. The only issue is the hero price hidden in vertical type."
+    },
+    {
+     "no": "A04",
+     "feed": 7.7,
+     "story": 6.7,
+     "overall": 7.2,
+     "verdict": "fix",
+     "defects": [
+      "Story: the photo is a 2:1 strip at y540-1090 (29% of the screen), with y0-540 and y1420-1920 flat black. H07 is a native 1080x1920 frame, so run it full bleed at 1.0x and put the subtitles over the dark bokeh.",
+      "Feed: the hoops fill only x375-655, y490-730 (about 5% of the frame) and are about 90px wide on a phone. The man's palm, not the jewellery, is the subject.",
+      "Feed: the top letterbox y0-300 holds only the logo (22% of the frame flat black), and y1230-1350 is flat too. A taller 4:5 photo window would let the image dominate without upscaling.",
+      "Feed: the subtitle block is left-aligned at x258, while the logo and the category line are centred on x540. Real subtitles are centred.",
+      "Fatigue: H07 ran this season as Diwali 10 ad 05, so expect frequency overlap with warm audiences."
+     ],
+     "note": "The Feed has the best stop and the best audience insight in the batch. A black frame plus subtitles gets read by reflex, and 'I'll get the rest myself' speaks directly to the self-buying woman while meaning the whole shop. The Story throws all of that away on a thin strip, and the hoops are small in both. Rebuild the Story full bleed."
+    },
+    {
+     "no": "A05",
+     "feed": 6.5,
+     "story": 7.1,
+     "overall": 6.8,
+     "verdict": "fix",
+     "defects": [
+      "Feed: the bracelet is only x578-780, y500-725 (about 3% of the frame), about 65px on a phone. The hand and the teak step carry the frame, not the jewellery.",
+      "Feed: the poster band y0-400 takes 30% of the frame with five text items (kicker, 'Come in.', two offer lines, breadth line), well over the ~12% text target.",
+      "Feed and Story: 'The rangoli’s done.' ties the ad to Diwali week (8 Nov). Expect it to read stale and fatigue within about 10 days, which is wrong for an evergreen Shop All flight.",
+      "Story: y0-330 is flat cream above the band, and the bracelet (x578-780, y815-1030) is still small even though the rangoli fills y1400-1920.",
+      "Fatigue: H03 ran as Diwali 10 ad 02, so the photo overlaps with what warm audiences just saw."
+     ],
+     "note": "'Come in.' is big, confident type and the pastel rangoli is pretty, but the jewellery is a speck and the invitation is close to a generic 'shop now'. The Story is the better of the two. Shrink the text band so the wrist gets more height, and run it only through Diwali week."
+    },
+    {
+     "no": "A06",
+     "feed": 7.6,
+     "story": 7.5,
+     "overall": 7.6,
+     "verdict": "run",
+     "defects": [
+      "Feed: the product captions (x72-370 and x722-1008, y758-785) are 26px grey italic, about 9px on a phone and nearly unreadable.",
+      "Feed: the lower half y740-1260 is five stacked text tiers (captions, headline, subline, offer, breadth line), so below the photos the frame reads as a text card. Drop the italic breadth line or merge it into the offer.",
+      "Feed: the offer 'MIX ANY TWO: 10% OFF, APPLIED IN YOUR BAG' (x155-928, y1040-1062) is gold Jost on cream with low contrast.",
+      "Feed and Story: a visible skin blemish on the pearl ear at Feed x700-725, y365-390 (Story x700-725, y690-715) reads as a mark at full size.",
+      "Story: this is the Feed layout on a taller ground, with y0-290 and y1480-1920 flat cream (38%). Both photos could run about 1.2x taller.",
+      "Fatigue: these listing photos already run in the live Bestsellers carousel, so the faces will be familiar to the warm pool."
+     ],
+     "note": "These are the on-model listing photos the account's best purchase driver is built on, with two large, desirable earrings at different price points. The mismatch idea makes browsing for 'my pair' the reason to click. The offer is the twist, not a shout, and it lifts order value. It is text-heavy below the fold, but it is a solid converter, so run it."
+    },
+    {
+     "no": "A07",
+     "feed": 6.2,
+     "story": 6.6,
+     "overall": 6.4,
+     "verdict": "cut",
+     "defects": [
+      "Feed: the first line read, 'Rangoli, for ears.' (x345-735, y115-165), and line 2, 'Elaichi, around the wrist.', describe pieces that are not in the frame. Only the anaar necklace (x108-622, y520-890) is shown, so two-thirds of the copy points at nothing.",
+      "Feed: the range '₹599 TO ₹2,399' (x738-1008, y565-588) is grey Jost on blush with very low contrast, and the side note (x730-1008, y470-540) is about 9px on a phone.",
+      "Feed: a blush bust on a blush wall gives weak figure-ground contrast. Only the anaar halves (x690-1055, y740-1090) pop at 360px.",
+      "Story: the same three-line verse at y430-650 is a slow read for a half-second Story tap.",
+      "Fatigue: H06 ran as Diwali 10 ad 01 this season."
+     ],
+     "note": "The haiku is clever on paper, but the scroll sees blush wallpaper plus 13 words of verse, two-thirds of it about jewellery she cannot see. The house formula works because the picture shows the Indian thing and the stone together. Rebuild it as a triptych of the three named pieces, or as one line ('Anaar, at the throat.'), but do not spend on this version."
+    },
+    {
+     "no": "A08",
+     "feed": 7.4,
+     "story": 7.2,
+     "overall": 7.3,
+     "verdict": "fix",
+     "defects": [
+      "Feed: 'Fig. 2 onwards: everything else, ₹599 onwards.' (x120-775, y1228-1262) says 'onwards' twice and reads clumsy. It is also the only shop-all line and the smallest text on the frame.",
+      "Feed: the plate is inset with 120px margins (x120-960, y172-1055), giving up about 22% of the width that a full-bleed rangoli photo would use as stop power.",
+      "Feed: 'PRISM CLUSTER STUDS · ₹1,499' (x440-960, y1083-1103) and 'THE COLLECTION' (x120-415, y88-108) are grey Jost, about 9px on a phone.",
+      "Story: the plate runs y383-1268 with flat paper at y0-280 and y1480-1920. The studs (x260-830, y1055-1190) are no bigger than in the Feed, so the Story format adds nothing.",
+      "Fatigue: the headline repeats the 5.21% 'Rangoli you can wear.' word for word. That is fine for cold audiences but stale for anyone who saw the original."
+     ],
+     "note": "The violet, pink and yellow cones are among the strongest colour stops here, and the studs are big, sharp and desirable. The book-figure frame shrinks the photo, and the shop-all twist is buried in a repetitive small line. Rewrite it (for example 'Fig. 2 onwards: everything else, from ₹599.') and widen the Story plate, then run."
+    },
+    {
+     "no": "A09",
+     "feed": 7.7,
+     "story": 7.7,
+     "overall": 7.7,
+     "verdict": "run",
+     "defects": [
+      "Feed: the choker drops are tiny (pendant chain x300-335, y660-860, about 12px wide on a phone), and the cuff is only x818-970, y840-970.",
+      "Feed: lips and chin fill the top of both tiles (y270-470). Two identical mouth crops side by side use space the jewellery could have.",
+      "Feed: the captions (x72-395 and x564-805, y1090-1118) are 28px italic, about 9px on a phone.",
+      "Story: this is the Feed layout on a taller ground, with y0-300 and y1490-1920 flat paper (38%).",
+      "Copy: 'Slip, model’s own.' is fashion-credit jargon many in the audience will not parse. Line 2, 'Everything else, from ₹599.', does the selling, so keep it this prominent."
+     ],
+     "note": "This has the best shop-all line in the batch: a clear price floor, and 'everything else' invites browsing. Mustard, skin and gold is exactly the on-model catalogue look that drives the account's purchases. The jewellery is a little small inside face-heavy crops, but it is the most purchase-ready creative here, so run it."
+    },
+    {
+     "no": "A10",
+     "feed": 6,
+     "story": 6.1,
+     "overall": 6,
+     "verdict": "cut",
+     "defects": [
+      "Feed: flat cream at y0-200 and y1130-1350 (31% of the frame) around beige tiles gives a low-contrast catalogue look, and nothing stops a thumb at 360px.",
+      "Feed: the middle tile (x392-688, y330-890) crops the knot bangle into a band fragment, so 'Knotted.' labels a product nobody can identify on a phone.",
+      "Feed: the tile grounds do not match (tile 1 is a grey-white plinth, tile 3 at x712-1008 is warm pink-beige), so it reads as three shoots, not one edit.",
+      "Story: flat y0-350 and y1400-1920 (45% of the screen) around a small triptych.",
+      "Copy: three craft adjectives with no Indian reference and no tension. It is the 'X, not Y' grammar with the 'not Y' removed."
+     ],
+     "note": "This is the sleepy-wallpaper failure: gold on beige on beige, like every demi-fine brand's grid post. The polished dome huggie is lovely, but the frame gives a cold scroller no reason to stop and no question to click on."
+    },
+    {
+     "no": "A11",
+     "feed": 6.9,
+     "story": 6.8,
+     "overall": 6.8,
+     "verdict": "cut",
+     "defects": [
+      "Feed: the framed print shrinks the hoops (lower hoop x420-650, y585-830) to about two-thirds of their size in A03, which uses the same photo full bleed.",
+      "Feed: the mat line 'WOVEN HOOPS · ₹1,199' (x230-560, y1100-1120) is 24px grey, about 8px on a phone, and 'NEXT ROOM' (x440-640, y1203-1222) is low-contrast tan on brown.",
+      "Feed: the burnt-brown ground reads muddy at 360px and dulls the persimmon orange.",
+      "Story: flat brown at y0-300 and y1490-1920. The frame (x128-952, y418-1372) does not use the full height.",
+      "Fatigue: it duplicates A03's H08 photo and A02's framed-print device, so it cannot share a flight with either."
+     ],
+     "note": "'Hang at ear height.' is the wittiest line here, but it is the same photo as A03, framed smaller on a muddier ground. With ₹1,000 a day there is no room to split spend across one photo twice. Keep it on the bench as the A03 replacement when A03 fatigues."
+    },
+    {
+     "no": "A12",
+     "feed": 6,
+     "story": 6.4,
+     "overall": 6.2,
+     "verdict": "cut",
+     "defects": [
+      "Feed: 'COLOPHON' (x447-635, y972-990) is printer's jargon most of the audience will not know, and the pun 'Set in gold tone.' (x215-865, y1025-1135) depends on it.",
+      "Feed: the gold wax seal (x352-592, y535-725) is as big and as gold as the bangle's knot (x560-760, y455-600), so the eye lands on the seal, not the product.",
+      "Feed: a blush plaster ground with a cream envelope is low contrast, and the frame reads as soft wallpaper at 360px.",
+      "Feed: light-flare blobs at the right edge (x1000-1080, y60-260 and y980-1120) look like stains at phone size.",
+      "Story: the grey set edge shows top-right (x540-1080, y0-170), and flare blobs sit at x1000-1080, y480-640 and y1330-1500.",
+      "Proof: H16 ('Sealed with a kiss.') is the weakest photo in the pool at 3.90% CTR."
+     ],
+     "note": "It is beautiful but sleepy, and the line asks her to know what a colophon is. The gift-box line is a useful reassurance but it sits in small type. The Story's full-bleed bangle is the only strength. It will not earn its share of ₹1,000 a day."
+    }
+   ]
+  },
+  {
+   "ads": [
+    {
+     "no": "A01",
+     "feed": 8.8,
+     "story": 8.6,
+     "overall": 8.7,
+     "verdict": "run",
+     "defects": [
+      "Story: the breadth line 'Rings, earrings, necklaces, bracelets. / ₹599 to ₹2,399.' is set at 30 px CG at x72-490, y598-668. That is about 10 px on a 360 px phone: legible but the weakest line in the frame.",
+      "Story: the logo and the gold credit (26 px Jost) share one running-head row at y272-321, only 2 px inside the 270 safe line. That is compliant but tight under the IG header.",
+      "Feed: the pavé link sits dead centre (x200-990, y410-1020), not on a third. The composition is a little static. Copy, price (₹1,799) and fidelity are all correct: the crop is a 0.75x downscale, and the mean colour matches the source within 3 units."
+     ],
+     "note": "Clean, true and beautiful. One logo, the correct price, no banned words, everything in the Story inside y272-668. The line opens the whole shop. Ready to run."
+    },
+    {
+     "no": "A02",
+     "feed": 8.6,
+     "story": 8.4,
+     "overall": 8.5,
+     "verdict": "run",
+     "defects": [
+      "Feed: the museum label body is 26 px CG and 'Gold tone, cubic zirconia' is 26 px grey italic (#6E645E) at x822-950, y1052-1108. SOLD is 24 px Jost at y1128-1146. That is about 8-9 px on a phone, so readable only up close.",
+      "Feed: the label breaks as 'Baguette Tennis / Bracelet, / Ruby red', which leaves 'Bracelet,' alone on its own line at x822-910, y985-1005.",
+      "Story: the framed print (x72-772, y520-1392) holds only about 36% of the frame. The Story reads smaller than the Feed, though everything sits inside y295-1482.",
+      "The H18 sold-out rule is fully met: a red dot with SOLD, no price, nothing implying it can be bought, and the headline sends people to the rest. The bracelet really is gold tone, so the label is true."
+     ],
+     "note": "An honest, elegant use of the best-converting photo, and compliant with the H18 rule. The only weakness is the small label type. Ready to run (raise the label to 28-30 px if there is time)."
+    },
+    {
+     "no": "A03",
+     "feed": 7.8,
+     "story": 8,
+     "overall": 7.9,
+     "verdict": "fix",
+     "defects": [
+      "Feed and Story: the price credit 'COVER: WOVEN HOOPS, ₹1,199' is 24 px Jost at 80% ink, rotated 90 degrees, on mottled linen. It sits at x988-1012, y210-635 (Feed) and x988-1012, y428-855 (Story). At 360 px it is about 8 px and sideways, so it cannot be read. The only product price in the ad is effectively invisible.",
+      "Feed: 'Inside: rings, earrings, necklaces, bracelets.' (38 px CG) sits on coarse linen weave at x225-855, y1232-1268. The texture breaks up the thin serifs. Story has the same problem at y1432-1468.",
+      "The photo is H08 full-bleed at 1.0x, the same framing as the earlier Woven Hoops ads. A11 uses the same H08 photo and A04 the same product, so three of the twelve sell Woven Gold Hoops.",
+      "The magazine-cover format uses only NAIRA's own logo as the masthead (allowed). 'WOVEN HOOPS' as a short name avoids the bare word 'gold'. Both are fine."
+     ],
+     "note": "A fun 'Everything Issue' idea with correct facts. Fix: set the cover credit horizontally at 26-28 px (for example under the rule, right-aligned), and put a soft paper strip or a darker ink weight behind the 'Inside' line."
+    },
+    {
+     "no": "A04",
+     "feed": 8.2,
+     "story": 7.4,
+     "overall": 7.8,
+     "verdict": "fix",
+     "defects": [
+      "Story: the photo band is only 540 px tall (y545-1083) in a 1920 frame, with 545 px of flat black above and 837 px below. On a phone the hoops are about 93 px wide and the Story feels empty and under-sold. H07 is 1920 tall, so a taller crop at 1.0x (for example 1080x860) is available.",
+      "Story: the logo floats alone at y344-393, 150 px above the band, so it is disconnected from the scene.",
+      "Feed: the band's top edge (y300) slices across the palm at the finger roots (x330-830). This is acceptable as a letterbox, but the hand reads as cut.",
+      "The categories line is 26 px gold Jost at y1150-1172 (Feed) and y1347-1370 (Story), and the price line is 36 px gold italic. Both are legible but faint on black. No product is named or priced, and nothing is false."
+     ],
+     "note": "A witty self-purchase line and a good Feed. The Story wastes the frame. Fix by enlarging the cinematic band in the Story (taller crop at 1.0x) and tightening the logo to it. The Feed can run as is."
+    },
+    {
+     "no": "A05",
+     "feed": 8.9,
+     "story": 8.8,
+     "overall": 8.8,
+     "verdict": "run",
+     "defects": [
+      "Feed and Story: 'ADMISSION FREE. / SHIPPING TOO.' is 24 px Jost at 75% ink, the smallest text in the ad. It sits at x735-1010, y218-275 (Feed) and x740-1010, y485-542 (Story), about 8 px on a phone.",
+      "Feed: the forearm runs into the hard paper-band edge at y404 (x640-1010), and in the Story at y700. The cut is clean but abrupt.",
+      "The bracelet is not named or priced, so there is no product claim. 'Shipping too' (free) matches 'Free insured shipping'. The photo is at 1.0x and matches the source (mean difference 1.3)."
+     ],
+     "note": "The strongest poster of the set: a familiar Indian thing turned into an invitation, true claims, lots of air, and all Story text in y340-640. Ready to run."
+    },
+    {
+     "no": "A06",
+     "feed": 8.7,
+     "story": 8.6,
+     "overall": 8.6,
+     "verdict": "run",
+     "defects": [
+      "Feed: the captions 'Emerald Deco Hoops, ₹1,249' and 'Pearl Nugget Hoops, ₹1,199' are 30 px grey italic at y755-785. The breadth line 'Rings, earrings, necklaces, bracelets, from ₹599.' is 30 px italic at y1085-1115. On a phone these are about 10 px in mid-grey.",
+      "Story: the captions sit at y1137-1167 and the breadth line at y1442-1472, the same small sizes.",
+      "Both panels are verified at 1.0x and unflipped (mean difference to source under 1.1). The left panel really is her left ear and the right panel her right ear, so the headline is literally true. Prices are exact. 'Mix any two: 10% off, applied in your bag' matches the Buy-2 offer. 'Pearl' appears only in the product name; there is no 'freshwater'."
+     ],
+     "note": "A disciplined diptych with an accurate offer whisper. Small captions are the only weakness. Ready to run."
+    },
+    {
+     "no": "A07",
+     "feed": 8.6,
+     "story": 8.7,
+     "overall": 8.6,
+     "verdict": "run",
+     "defects": [
+      "Feed: the side note '₹599 TO ₹2,399' is 26 px grey Jost on blush at x740-1008, y568-588. The contrast is modest at phone size.",
+      "Feed: the logo at bottom-left (x75-290, y1230-1280) sits low on the floor beside the scattered arils (nearest aril at x490-545, y1265-1310). It is fine, but it reads as placed into a gap rather than on the grid.",
+      "Two of the three haiku lines (rangoli earrings, elaichi bracelet) name pieces that are not shown. That is true of the shop (Prism Cluster Studs, Emerald tennis bracelet) but has no visual cue. The ruby necklace is not named or priced, which is fine. The 5-7-5 count holds."
+     ],
+     "note": "Calm, beautiful, true. The Story keeps everything in y300-940. Ready to run."
+    },
+    {
+     "no": "A08",
+     "feed": 8.5,
+     "story": 8.4,
+     "overall": 8.4,
+     "verdict": "run",
+     "defects": [
+      "Feed: the running head 'THE COLLECTION' and the caption 'PRISM CLUSTER STUDS · ₹1,499' are 26 px grey Jost with wide tracking, at y88-108 and x440-960, y1083-1103. About 8.7 px on a phone.",
+      "'Fig. 2 onwards: everything else, ₹599 onwards.' (Feed y1225-1260, Story y1440-1475) uses 'onwards' twice in one line. The pun lands on the second read but feels clunky.",
+      "The headline 'Rangoli you can wear.' reuses the earlier H04 ad's exact line. It is allowed (not one of the first ten) but not new.",
+      "The plate is a clean 0.78x downscale with colours matching the source (mean difference 1.2), and the price is correct."
+     ],
+     "note": "An elegant book-plate treatment, correct price, Story text in y297-1475. Ready to run."
+    },
+    {
+     "no": "A09",
+     "feed": 8.5,
+     "story": 8.6,
+     "overall": 8.5,
+     "verdict": "run",
+     "defects": [
+      "Feed: the footer 'RINGS · EARRINGS · NECKLACES · BRACELETS' is 24 px Jost at 75% ink, x72-1008, y1220-1240. That is the floor size. The Story uses 26 px at y1467-1492, only 8 px inside the 1500 line.",
+      "Feed: the right tile cuts the model's fingers at its right edge (x1008, y590-720). Story has the same cut at x1008, y810-950. The cuff itself is whole.",
+      "Feed captions 'Marquise Drop Choker, ₹1,199' and 'Silk Mesh Cuff, ₹1,399' are 30 px italic at y1090-1118. Both prices are exact, and the photos are clean 0.6x downscales."
+     ],
+     "note": "A sharp editorial joke that opens the whole shop, built on the account's best-converting on-model photos. Ready to run."
+    },
+    {
+     "no": "A10",
+     "feed": 8.7,
+     "story": 8.6,
+     "overall": 8.6,
+     "verdict": "run",
+     "defects": [
+      "Feed: in panel 2 (x392-688, y331-891) the Kiss Knot Bangle is cut at both side edges and its back band is soft. At phone size it reads as a fragment and may not register as a bangle.",
+      "Feed: the composition floats, with 195 px of empty paper above the logo row and about 220 px below the breadth line (y1130-1350). The block sits slightly high.",
+      "The three panels are 0.35x / 0.375x downscales and colour-true. 'The gold-tone edit' is scoped to these three, so there is no material claim. There are no prices, so there is no price risk."
+     ],
+     "note": "A disciplined, equal-size triptych with a strong three-beat craft line. Ready to run."
+    },
+    {
+     "no": "A11",
+     "feed": 8.3,
+     "story": 8.4,
+     "overall": 8.3,
+     "verdict": "fix",
+     "defects": [
+      "Feed and Story: the price credit 'WOVEN HOOPS · ₹1,199' is set at 22 px Jost at 72% ink, below the 24 px floor. It sits at x230-560, y1102-1120 (Feed) and x210-540, y1311-1329 (Story), about 7 px on a phone.",
+      "Feed: 'NEXT ROOM' is 24 px Jost in 78% cream on the burnt-brown wall at x442-640, y1203-1222 (Story y1412-1431). The contrast is low.",
+      "The logo inside the mat is set at 92% opacity (Feed x650-850, y1075-1118), so it is slightly washed.",
+      "This is the same H08 persimmon photo as A03."
+     ],
+     "note": "Gallery wit with true facts. Fix: raise the credit to 26 px at full ink and 'NEXT ROOM' to 26 px at about 90% cream. Then run."
+    },
+    {
+     "no": "A12",
+     "feed": 8,
+     "story": 7.8,
+     "overall": 7.9,
+     "verdict": "fix",
+     "defects": [
+      "Claim: 'Set in gold tone.' sits directly above 'Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399. Each bound in the Naira gift box.' Read as a colophon for the whole collection, it says every piece is gold tone. Many in-stock pieces are silver tone (Prism Rivière, Prism Cluster Studs, Emerald Deco Hoops, Aqua Heart Drops). Rescope it, for example 'This one, set in gold tone.' or 'in gold tone and silver tone'.",
+      "Feed: plaster speckles touch the headline letters (x215-870, y1030-1135). A dark speck just right of 'COLOPHON' (about x668, y978) reads as a stray full stop. 'COLOPHON' itself is 24 px.",
+      "Story: the top-right corner shows the slab edge and grey backdrop (x560-1080, y0-175), which looks accidental.",
+      "Story: the headline (y450-560) and the breadth/gift-box lines (y1400-1480) are about 840 px apart, so the message splits across the frame. 'Colophon' is an obscure word for the target buyer.",
+      "The gift-box claim is true, and the photo is at 1.0x with true colour."
+     ],
+     "note": "A lovely still life, but the headline over-claims gold tone for the whole range. Fix the scope wording, nudge the type off the plaster specks, and pull the Story's breadth lines up toward the headline. Then run."
+    }
+   ]
+  }
+ ],
+ "_about": "Round 2 judging (7 Nov 2026): three judges (art 0.4, buyer 0.4, check 0.2) scored the 12 built ads; a head of creative picked 10 with merged fix lists; each pick was fixed and re-checked by a reviewer who had not seen it."
+}

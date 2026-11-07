@@ -1,0 +1,65 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/kit.css">
+<style>
+:root{--ground:#F4EBE1;--umber:#3D2A17;--umber75:rgba(61,42,23,.75);--hair:#C9A15B}
+body.feed{background:var(--ground);color:var(--umber)}
+.grain{position:absolute;inset:0;background:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall2/build/A10/grain.png");background-size:512px 512px;opacity:.05}
+.logo{position:absolute;left:72px;width:220px}
+.head{position:absolute;right:72px;height:49px;display:flex;align-items:center;
+  font-family:Jost,sans-serif;font-weight:500;font-size:26px;letter-spacing:.28em;text-transform:uppercase;line-height:1;
+  margin-right:-.28em;color:var(--umber)}
+.rule{position:absolute;left:72px;width:936px;height:1px;background:var(--hair)}
+/* tiles: 296x600, all three sources (1288x1600) at one shared scale of 0.375x -> 483x600 */
+.panel{position:absolute;width:296px;height:600px;overflow:hidden}
+.panel img{position:absolute;top:0;width:483px;height:600px}
+.word{position:absolute;width:296px;text-align:center;font-family:CGI,serif;font-style:italic;font-weight:500;font-size:70px;line-height:1;color:var(--umber)}
+.sub{position:absolute;width:296px;text-align:center;font-family:CGI,serif;font-style:italic;font-weight:500;font-size:30px;line-height:1;color:var(--umber75)}
+.breadth{position:absolute;left:72px;width:936px;text-align:center;font-family:CG,serif;font-weight:500;font-size:32px;line-height:1;white-space:nowrap;font-feature-settings:"lnum" 1;color:var(--umber)}
+</style></head>
+<body class="feed">
+<div class="grain"></div>
+<img class="logo" id="lg" src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/logo_ink.png">
+<div class="head" id="hd">The gold-tone edit</div>
+<div class="rule" id="r1"></div>
+
+<!-- horizontal centres in source px (measured): torsade huggie 662, knot 679, dome hoop 638; left = 148 - centre*0.375 -->
+<div class="panel" style="left:72px"><img src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/worn/torsade-huggies-close.jpg" style="left:-100.3px"></div>
+<div class="panel" style="left:392px"><img src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/worn/kiss-knot-bangle-close.jpg" style="left:-106.6px"></div>
+<div class="panel" style="left:712px"><img src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/worn/bold-dome-huggies-close.jpg" style="left:-91.3px"></div>
+
+<div class="word" id="w1" style="left:72px">Twisted.</div>
+<div class="word" id="w2" style="left:392px">Knotted.</div>
+<div class="word" id="w3" style="left:712px">Polished.</div>
+
+<div class="sub" id="s1" style="left:72px">like a choti</div>
+<div class="sub" id="s2" style="left:392px">like a rakhi</div>
+<div class="sub" id="s3" style="left:712px">like a temple bell</div>
+
+<div class="rule" id="r2"></div>
+<div class="breadth" id="br">Rings, earrings, necklaces, bracelets. The whole shop, ₹599 to ₹2,399.</div>
+
+<script>
+// Vertical grid relative to T (logo top). Block = logo top .. breadth descender (~ +8 below baseline).
+const O = {logo:0, r1:83, panels:131, words:131+600+95, subs:0, r2:0, br:0, end:0};
+O.subs = O.words + 46; O.r2 = O.subs + 48; O.br = O.r2 + 70; O.end = O.br + 8;
+const T = Math.round((1350 - O.end) / 2);
+function placeBaseline(el, baseline){
+  const r = document.createElement('span'); r.style.display='inline-block'; r.style.width='0'; r.style.height='0'; r.style.verticalAlign='baseline';
+  el.appendChild(r); el.style.top='0px';
+  const top = el.getBoundingClientRect().top; const b = r.getBoundingClientRect().top;
+  el.style.top = (baseline - (b-top)) + 'px'; r.remove();
+}
+document.fonts.ready.then(()=>{
+  document.getElementById('lg').style.top = T + 'px';
+  document.getElementById('hd').style.top = T + 'px';
+  document.getElementById('r1').style.top = (T + O.r1) + 'px';
+  document.querySelectorAll('.panel').forEach(p=>p.style.top = (T + O.panels) + 'px');
+  ['w1','w2','w3'].forEach(id=>placeBaseline(document.getElementById(id), T + O.words));
+  ['s1','s2','s3'].forEach(id=>placeBaseline(document.getElementById(id), T + O.subs));
+  document.getElementById('r2').style.top = (T + O.r2) + 'px';
+  placeBaseline(document.getElementById('br'), T + O.br);
+  document.title = JSON.stringify({T, end: T + O.end});
+});
+</script>
+</body></html>

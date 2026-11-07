@@ -1,0 +1,53 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/kit.css">
+<style>
+  :root{--ground:#EFE3D3;--mute:#6E645E}
+  html,body{background:var(--ground)}
+  body{background-image:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall2/build/A06/grain.png");background-size:256px 256px}
+  /* both panels at exactly 1.0x of the 1288x1600 source */
+  .panel{position:absolute;top:72px;width:456px;height:660px;background-repeat:no-repeat;background-size:1288px 1600px}
+  .pl{left:72px;background-image:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/worn/emerald-deco-hoops-worn.jpg");background-position:-584px 0}
+  .pr{left:552px;background-image:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/worn/pearl-nugget-hoops-worn.jpg");background-position:-260px 0}
+  .bl{position:absolute;white-space:nowrap;line-height:1}
+  .c{left:0;width:1080px;text-align:center}
+  .lab{font-family:CGI;font-style:italic;font-weight:500;font-size:30px;color:var(--mute)}
+  .lab.r{right:72px;text-align:right}
+  .head{font-family:CG;font-weight:400;font-size:84px;color:var(--ink);letter-spacing:-.005em}
+  .line{font-family:CGI;font-style:italic;font-weight:500;font-size:40px;color:var(--mute)}
+  .offer{font-family:Jost;font-weight:500;font-size:26px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);padding-left:.18em}
+  .breadth{font-family:CGI;font-style:italic;font-weight:500;font-size:30px;color:rgba(26,22,20,.8)}
+  .rule{position:absolute;left:492px;width:96px;height:2px;background:var(--gold)}
+  .logo{position:absolute;left:430px;width:220px}
+</style></head>
+<body class="feed">
+  <div class="panel pl"></div>
+  <div class="panel pr"></div>
+
+  <div class="bl lab" data-b="778" style="left:72px">Emerald Deco Hoops, ₹1,249</div>
+  <div class="bl lab r" data-b="778">Pearl Nugget Hoops, ₹1,199</div>
+
+  <div class="bl c head" data-b="892">Left ear, right ear.</div>
+  <div class="bl c line" data-b="964">Nobody said they had to match.</div>
+  <div class="rule" style="top:1008px"></div>
+  <div class="bl c offer" data-b="1060">Mix any two: 10% off, applied in your bag</div>
+  <div class="bl c breadth" data-b="1108">Rings, earrings, necklaces, bracelets, from ₹599.</div>
+
+  <img class="logo" style="top:1196px" src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/logo_ink.png">
+
+<script>
+// Place each .bl element so its text baseline sits exactly on data-b (px).
+function place(){
+  document.querySelectorAll('.bl').forEach(el=>{
+    el.style.top='0px';
+    const m=document.createElement('i');
+    m.style.cssText='display:inline-block;width:0;height:0;vertical-align:baseline';
+    el.appendChild(m);
+    const b=m.getBoundingClientRect().bottom;
+    el.removeChild(m);
+    el.style.top=(+el.dataset.b - b)+'px';
+  });
+}
+document.fonts.ready.then(place);
+</script>
+</body></html>

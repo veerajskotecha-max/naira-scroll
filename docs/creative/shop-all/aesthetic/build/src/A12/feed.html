@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/kit.css">
+<style>
+/* H16 at exactly 1.0x, source y400-1750. Centre axis x540; 72 px top margin.
+   Plate: fix2/H16_feed_clean.png = H16 with background-only retouch (right-edge light leaks and the dark plaster
+   specks in the type block cleaned to the surrounding plaster; bangle, seal and envelope untouched, see fix2/retouch.py).
+   Baselines: CG/CGI line-height 1 puts the baseline .815em below the box top. */
+:root{--img:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall2/build/A12/fix2/H16_feed_clean.png")}
+.ph{position:absolute;inset:0;background:var(--img) 0 -400px/1080px 1920px no-repeat}
+/* A feathered, softly blurred copy of the same plaster (same position, same tone) sits behind the two small lines only.
+   It never reaches the envelope or bangle. */
+.veil{position:absolute;left:150px;top:1146px;width:780px;height:100px;
+  background:var(--img) -150px -1546px/1080px 1920px no-repeat;filter:blur(7px);opacity:.9;
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 70px,#000 710px,transparent),linear-gradient(to bottom,transparent,#000 18px,#000 82px,transparent);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.t{position:absolute;left:0;right:0;text-align:center;white-space:nowrap;line-height:1;color:var(--ink);font-variant-numeric:lining-nums}
+.ttl{font-family:CGI;font-weight:500;font-size:117.5px;letter-spacing:-.005em;top:calc(1108px - 117.5px*.815);transform:translateX(3px)}
+.b{font-family:CG;font-weight:500;font-size:32px;color:rgba(26,22,20,.85)}
+.b1{top:calc(1180px - 32px*.815)} .b2{top:calc(1222px - 32px*.815)}
+.logo{position:absolute;width:220px;left:430px;top:72px}
+</style></head>
+<body class="feed">
+<div class="ph"></div>
+<div class="veil"></div>
+<img class="logo" src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/logo_ink.png">
+<div class="t ttl">Set in gold tone.</div>
+<div class="t b b1">Rings, earrings, necklaces and bracelets, ₹599 to ₹2,399.</div>
+<div class="t b b2">In gold tone and silver tone, each in a Naira gift box.</div>
+</body></html>

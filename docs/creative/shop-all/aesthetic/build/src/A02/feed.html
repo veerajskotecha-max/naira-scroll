@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/kit.css">
+<style>
+:root{--wall:#4A1A20;--wall-hi:#57212A;--ivory:#F3EAE0;--mat:#F6EFE6;--bevel:#E2D8CC;--moulding:#A8834A;--card:#F3EBE1;--dot:#B3362A}
+body{background:var(--wall);}
+.wall{position:absolute;inset:0;background:radial-gradient(900px 900px at 422px 420px,var(--wall-hi),var(--wall) 100%);}
+.grain{position:absolute;inset:0;background:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall2/build/A02/grain.png");mix-blend-mode:overlay;opacity:.07}
+.t{position:absolute;white-space:nowrap;color:var(--ivory);line-height:1}
+.head{left:72px;font-size:88px}
+.head i{font-family:CGI;font-style:normal;font-weight:500}
+.head span{font-family:CG;font-weight:400}
+.frame{position:absolute;left:72px;top:192px;width:700px;height:978px;background:var(--moulding);padding:6px;
+  box-shadow:0 2px 3px rgba(0,0,0,.28),0 16px 32px rgba(0,0,0,.30)}
+.mat{width:100%;height:100%;background:var(--mat);padding:40px 40px 58px;box-shadow:inset 0 2px 5px rgba(0,0,0,.14)}
+.win{width:608px;height:868px;background:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall2/build/A02/feed_window.jpg");outline:1px solid var(--bevel)}
+.label{position:absolute;left:804px;width:204px;bottom:180px;background:var(--card);padding:18px 18px 20px;color:var(--ink)}
+.label .n{font-family:CG;font-weight:600;font-size:28px;line-height:34px}
+.label .m{font-family:CGI;font-weight:600;font-size:26px;line-height:30px;color:#5A514C;margin-top:8px}
+.label .s{margin-top:16px;display:flex;align-items:center;gap:10px;font-family:Jost;font-weight:500;font-size:24px;letter-spacing:.2em;line-height:1}
+.label .s b{display:block;width:18px;height:18px;border-radius:50%;background:var(--dot)}
+.label .v{margin-top:14px;font-family:CGI;font-weight:600;font-size:26px;line-height:30px;color:var(--ink)}
+.breadth{left:72px;font-family:CG;font-weight:500;font-size:34px;font-variant-numeric:lining-nums}
+.logo{position:absolute;left:804px;width:204px}
+</style></head><body class="feed">
+<div class="wall"></div><div class="grain"></div>
+<div class="t head" data-bl="140"><i>Sold.</i> <span>The rest are on view.</span></div>
+<img class="logo" id="logo" src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/logo_white.png">
+<div class="frame"><div class="mat"><div class="win"></div></div></div>
+<div class="label">
+  <div class="n">Baguette<br>Tennis<br>Bracelet,<br>Ruby red</div>
+  <div class="m">Gold tone,<br>cubic zirconia</div>
+  <div class="s"><b></b>SOLD</div>
+  <div class="v">Also on view:<br>emerald green,<br>crystal.</div>
+</div>
+<div class="t breadth" data-fit="700" data-bl="1258">Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.</div>
+<script>
+document.fonts.ready.then(()=>{
+  document.querySelectorAll('[data-fit]').forEach(el=>{const fs=parseFloat(getComputedStyle(el).fontSize);const w=el.getBoundingClientRect().width;el.style.fontSize=(fs*parseFloat(el.dataset.fit)/w).toFixed(2)+'px';});
+  document.querySelectorAll('[data-bl]').forEach(el=>{
+    const p=document.createElement('span');p.style.cssText='display:inline-block;width:0;height:0;vertical-align:baseline';
+    el.appendChild(p);const off=p.getBoundingClientRect().top-el.getBoundingClientRect().top;
+    el.style.top=(parseFloat(el.dataset.bl)-off)+'px';});
+  // logo heads the label column: its top on the frame top (y192)
+  document.getElementById('logo').style.top='192px';
+});
+</script>
+</body></html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/kit.css">
+<style>
+  html,body{background:#0C0807}
+  body.story{background:#0C0807}
+  .grain{position:absolute;inset:0;background:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall2/build/A04/grain.png") 0 0/1080px 1920px no-repeat;z-index:0}
+  .still{position:absolute;left:0;top:380px;width:1080px;height:860px;z-index:1;
+    background:url("file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/pool/heroes/H07_woven_diwali.jpg") 0 -640px/1080px 1920px no-repeat}
+  .logo{position:absolute;left:430px;top:300px;width:220px;z-index:2}
+  .t{position:absolute;white-space:nowrap;z-index:2;line-height:1;top:0;left:0}
+  .sub{font-family:CG,serif;font-weight:500;font-size:54px;color:#F3EBDD;text-shadow:0 2px 8px rgba(0,0,0,.55);
+    font-feature-settings:"lnum" 1,"kern" 1}
+  .sub.her{font-family:CGI,serif;font-style:italic;font-weight:600}
+  .whisper{font-family:Jost,sans-serif;font-weight:500;font-size:26px;letter-spacing:.18em;text-transform:uppercase;color:#C9A15B}
+  .price{font-family:CGI,serif;font-style:italic;font-weight:500;font-size:36px;color:#C9A15B;font-feature-settings:"lnum" 1}
+</style></head>
+<body class="story">
+  <div class="grain"></div>
+  <div class="still"></div>
+  <img class="logo" src="file:///tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/shopall/kit/logo_white.png" alt="">
+  <div class="t sub" data-base="1300" data-center="1">– I got you these.</div>
+  <div class="t sub her" data-base="1364" data-center="1">– Cute. I’ll get the rest myself.</div>
+  <div class="t whisper" data-base="1423" data-center="1">Rings · Earrings · Necklaces · Bracelets</div>
+  <div class="t price" data-base="1464" data-center="1">₹599 to ₹2,399</div>
+<script>
+function place(){
+  const W=1080;
+  const els=[...document.querySelectorAll('[data-base]')];
+  // baseline
+  for(const el of els){
+    el.style.top='0px';
+    const p=document.createElement('span');
+    p.style.cssText='display:inline-block;width:0;height:0;vertical-align:baseline';
+    el.appendChild(p);
+    const off=p.getBoundingClientRect().top-el.getBoundingClientRect().top;
+    p.remove();
+    el.style.top=(+el.dataset.base-off)+'px';
+  }
+  // ink-width (exclude trailing letter-spacing) for centring
+  function inkW(el){
+    const r=document.createRange(); r.selectNodeContents(el);
+    const rs=[...r.getClientRects()];
+    const ls=parseFloat(getComputedStyle(el).letterSpacing)||0;
+    return el.getBoundingClientRect().width-ls;
+  }
+  for(const el of els.filter(e=>e.dataset.center)){
+    el.style.left=Math.round((W-inkW(el))/2)+'px';
+  }
+  const groups={};
+  for(const el of els.filter(e=>e.dataset.group)){(groups[el.dataset.group]=groups[el.dataset.group]||[]).push(el)}
+  for(const g of Object.values(groups)){
+    const w=Math.max(...g.map(inkW));
+    const L=Math.round((W-w)/2);
+    g.forEach(el=>el.style.left=L+'px');
+  }
+  document.body.dataset.placed='1';
+}
+document.fonts.ready.then(place);
+</script>
+</body></html>

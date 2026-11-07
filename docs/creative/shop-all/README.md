@@ -71,6 +71,10 @@ The board expects web-sized copies in `<out_dir>/ads/`, `<out_dir>/thumbs/` and 
 `build/src/<ad>/` keeps the final Feed and Story HTML of the ten. Their image paths point at the session's working folder
 (the pool photos and a few cut-outs made from them), so they document the layouts rather than rebuild offline.
 
+## Round two: the aesthetic ten
+
+Ten quieter, editorial Shop All ads from the same photo pool are in `aesthetic/` (board: https://claude.ai/artifact/2ffJxDVLpi13HuoGHk537S).
+
 ## Waiting on the owner
 
 - Approval to create the campaign on Meta (nothing has been created).

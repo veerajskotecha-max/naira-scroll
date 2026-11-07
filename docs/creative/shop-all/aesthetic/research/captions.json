@@ -1,0 +1,145 @@
+[
+ {
+  "no": "A01",
+  "primary_text": "Paved, not painted. Every piece from ₹599: the Bold Nocturne Chain, ₹1,799. Cash on delivery on serviceable pincodes. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Follow the link: every piece from ₹599",
+  "description": "Free insured shipping",
+  "checker_problems": [],
+  "draft": {
+   "primary_text": "Paved, not painted. Every piece from ₹599: the Bold Nocturne Chain, ₹1,799. Cash on delivery on serviceable pincodes. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Follow the link: every piece from ₹599",
+   "description": "Free insured shipping"
+  },
+  "sources": "Length 178 (rule 1: 120-180); hook plus range end at character 41 (within 125). Hook 'Paved, not painted.' is a craft truth in 'X, not Y' form (rule 2). The pavé link comes from pool.json H15 ('the chunky gold-tone link chain with a pavé link'), and the photo is the pavé macro. Range 'Every piece from ₹599' is count-free wording (CAPTION_RULES2 rule 3; BRIEF range ₹599 to ₹2,399). Bold Nocturne Chain, ₹1,799, matches pool.json H15 and worn (17 in stock) and the on-image credit. The exact detail is 'paved' (pavé link, H15); 'gold tone' was left out to fit the cash-on-delivery proof. Proof 'Cash on delivery on serviceable pincodes.' is from BRIEF and rule 6. The offer is word for word from rule 5 and sits last. Headline (38 characters) is a link pun that carries the range and the entry price (rule 11). Description 'Free insured shipping' is from BRIEF. No measurements, emoji, exclamation marks, codes, urgency or banned words, and no Hindi. Does not repeat 'One link leads to another' or the on-image range line."
+ },
+ {
+  "no": "A09",
+  "primary_text": "Styled, not sold: the slip. Jewellery, every piece from ₹599: the Silk Mesh Cuff, gold tone, ₹1,399. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Everything but the slip, from ₹599",
+  "description": "COD on serviceable pincodes",
+  "checker_problems": [
+   "'The rest is, from ₹599, like the Silk Mesh Cuff' is a broken clause: the reader has to fill in 'sold' after 'is', and with the commas it reads like a typo. Rewritten as a stylist-credit line ('Jewellery, every piece from ₹599: ...'). Kept the writer's hook 'Styled, not sold: the slip.' and the headline. 176 characters; range ends at character 60."
+  ],
+  "draft": {
+   "primary_text": "Styled, not sold: the slip. The rest is, from ₹599, like the Silk Mesh Cuff, gold tone, ₹1,399. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Everything but the slip, from ₹599",
+   "description": "COD on serviceable pincodes"
+  },
+  "sources": "Length 171; range ends at character 50. Hook 'Styled, not sold: the slip.' is 'X, not Y'. It is true because Naira sells only jewellery (BRIEF), and plan A09 notes the slip is not for sale. Range 'The rest is, from ₹599' is count-free (rule 3; BRIEF). Silk Mesh Cuff, ₹1,399, is from pool.json worn/silk-mesh-cuff (H05 lists it as 'Silk Mesh Cuff (gold tone)'), so the detail 'gold tone' comes from pool.json H05. The image already names both pieces with prices (Marquise Drop Choker ₹1,199, Silk Mesh Cuff ₹1,399), so the caption adds the material instead of repeating both credits. Proof '7-day returns.' is from BRIEF. The offer is exact and last. Headline is 34 characters; it is not 'Everything else, from ₹599' word for word. Description 'COD on serviceable pincodes' is from BRIEF; COD is the only caps word (rule 8). No banned words, no Hindi, no measurements."
+ },
+ {
+  "no": "A03",
+  "primary_text": "Woven, not cast. Every piece in this issue from ₹599; the cover star, Woven Hoops in gold tone, ₹1,199. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "The whole issue, ₹599 to ₹2,399",
+  "description": "Arrives in the Naira gift box",
+  "checker_problems": [],
+  "draft": {
+   "primary_text": "Woven, not cast. Every piece in this issue from ₹599; the cover star, Woven Hoops in gold tone, ₹1,199. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "The whole issue, ₹599 to ₹2,399",
+   "description": "Arrives in the Naira gift box"
+  },
+  "sources": "Length 179; range ends at character 52. Hook 'Woven, not cast.' is the proven craft truth (BRIEF 'What wins' no. 2, 5.81%; pool.json H07 and H08 proof). Range 'Every piece in this issue from ₹599' is count-free and maps to the 'Everything Issue' cover. Woven Hoops, ₹1,199, is from pool.json H08 (53 in stock). pool.json names it 'Woven Gold Hoops'; it is shortened to 'Woven Hoops' to match the on-image cover credit and the plan A03 fact-checker fix, so 'gold' never reads as a material. Detail 'gold tone' is from H07 ('braided gold-tone hoops'). Proof '7-day returns.' is from BRIEF. The offer is exact and last. Headline is 31 characters; its range ₹599 to ₹2,399 is from BRIEF and AESTHETIC. Description 'Arrives in the Naira gift box' is from BRIEF. It does not repeat 'Cover: Woven Hoops, ₹1,199.' or the 'Inside:' line word for word. No banned words, no Hindi, no measurements."
+ },
+ {
+  "no": "A02",
+  "primary_text": "Anaar red, this one's sold. The rest start at ₹599: the Baguette Tennis Bracelet, emerald green, ₹1,499. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "The rest of the gallery, from ₹599",
+  "description": "Free insured shipping",
+  "checker_problems": [
+   "'Anaar red, sold out.' says the colour is sold out, which is false. Only the Ruby red Baguette Tennis Bracelet is at 0 (pool.json H18). The ruby red Baguette Tennis Necklace (H06, 20 in stock), which A07 sells, and the Ruby huggies are both in stock. It must say this piece is sold.",
+   "'the Baguette Tennis Bracelet is ₹1,499 in emerald green' puts the name and price straight after 'sold out', under the photo of the sold-out ruby, and the colour only comes after the price. A quick reader can take ₹1,499 as the pictured ruby's price; the H18 rule is to never show a price for it. Moved the colour before the price, in the 'name, colour, price' order the other ads use. Kept 'Anaar red' as the opening and the H18 honesty. 180 characters; range ends at character 50."
+  ],
+  "draft": {
+   "primary_text": "Anaar red, sold out. The rest start at ₹599; the Baguette Tennis Bracelet is ₹1,499 in emerald green. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "The rest of the gallery, from ₹599",
+   "description": "Free insured shipping"
+  },
+  "sources": "Length 177; range ends at character 43. Hook: anaar (the pomegranate in the H18 photo) turned into the colour name 'anaar red', which AESTHETIC lists as a swatch name; this is the one Hindi word (rule 9). The H18 rule in pool.json is met: the ruby bracelet (Baguette Tennis Bracelet, Ruby red, 0 units on 7 Nov) is said plainly to be sold out, gets no price, is never implied to be buyable, is not called a 'last one', and the line sends people to the rest. Range 'The rest start at ₹599' is from BRIEF. The ₹1,499 in emerald green is pool.json H11 (Baguette Tennis Bracelet, Emerald green, ₹1,499, 17 in stock), and the price completes the on-image label 'Also on view: emerald green, crystal.' Crystal (H12, also ₹1,499) is left out for length. 'Emerald green' is a colour, not a gem noun (rule 7). Proof '7-day returns.' is from BRIEF. The offer is exact and last. Headline is 34 characters and does not repeat 'The rest are on view' word for word. Description is from BRIEF. 'Sold out' is the honest statement the H18 rule requires, not urgency: no countdown and no 'only X left'."
+ },
+ {
+  "no": "A07",
+  "primary_text": "Anaar, in a line. The poem goes on, every piece from ₹599: Baguette Tennis Necklace, ruby red, ₹2,099. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Read on: the collection from ₹599",
+  "description": "Arrives in the Naira gift box",
+  "checker_problems": [],
+  "draft": {
+   "primary_text": "Anaar, in a line. The poem goes on, every piece from ₹599: Baguette Tennis Necklace, ruby red, ₹2,099. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Read on: the collection from ₹599",
+   "description": "Arrives in the Naira gift box"
+  },
+  "sources": "Length 178; range ends at character 57. Hook: anaar (the halved pomegranate in H06) turned on two levels: the baguette stones sit in a line like arils, and it is a line of verse. It echoes 'Rangoli, in a line.' (6.10%, BRIEF) and is the one Hindi word. Range 'every piece from ₹599' is the exact rule 3 wording. 'The poem goes on' completes the on-image footnote 'Three pieces of a much longer poem.' without repeating it. Baguette Tennis Necklace, ruby red, ₹2,099, is from pool.json H06 (20 in stock); 'ruby red' is the pool.json colour name and the rule 4 detail example. The haiku lines are not repeated. Proof '7-day returns.' is from BRIEF. The offer is exact and last. Headline is 33 characters. Description is from BRIEF. No measurements and no banned words; 'ruby' appears only as 'ruby red'."
+ },
+ {
+  "no": "A05",
+  "primary_text": "Rangoli, the first hello. Inside, every piece from ₹599: Prism Rivière Bracelet, silver tone, ₹2,399. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Step inside, ₹599 to ₹2,399",
+  "description": "Free insured shipping",
+  "checker_problems": [
+   "Rule 4: the Prism Rivière Bracelet has a name and price but no exact detail (the writer's own note admits it was dropped for length). Added 'silver tone', which is visible in the photo and is the rule 1 model's detail for this piece.",
+   "'Inside, from ₹599' does not say what starts at ₹599, which makes the range vague. Changed to 'Inside, every piece from ₹599' (rule 3 wording).",
+   "With the detail in, 'Free insured shipping, 3-5 working days.' no longer fits within 180 characters, so the proof is now '7-day returns.'. The description moves from '7-day returns' to 'Free insured shipping' so the ad does not say the same proof twice and still carries shipping. Kept the writer's hook 'Rangoli, the first hello.' 177 characters; range ends at character 55."
+  ],
+  "draft": {
+   "primary_text": "Rangoli, the first hello. Inside, from ₹599: Prism Rivière Bracelet, ₹2,399. Free insured shipping, 3-5 working days. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Step inside, ₹599 to ₹2,399",
+   "description": "7-day returns"
+  },
+  "sources": "Length 178; range ends at character 43. Hook: rangoli (the H03 photo shows a fresh rangoli below a teak threshold), turned into the welcome a home gives at its door. That meaning is the plan A05 insight; rangoli is the one Hindi word. 'Inside, from ₹599' completes 'Come in.' without repeating it; the range is from BRIEF. Prism Rivière Bracelet, ₹2,399, is from pool.json H03 (63 in stock). Its detail (pastel stones, silver tone) is shown in the photo, but there was no room for it next to the longer shipping proof. Free insured shipping and 3-5 working days are both from BRIEF. The offer is exact and last. Headline is 27 characters. Description is from BRIEF. No Diwali or festival-deadline words (rule 10), so the copy itself does not date. The plan still limits this ad to Diwali week because of the image line 'The rangoli's done.' No banned words, no measurements."
+ },
+ {
+  "no": "A08",
+  "primary_text": "Rangoli, set in stone. Fig. 1 of many, from ₹599: Prism Cluster Studs, violet, yellow and pink, ₹1,499. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Turn the page: all pieces from ₹599",
+  "description": "COD on serviceable pincodes",
+  "checker_problems": [],
+  "draft": {
+   "primary_text": "Rangoli, set in stone. Fig. 1 of many, from ₹599: Prism Cluster Studs, violet, yellow and pink, ₹1,499. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Turn the page: all pieces from ₹599",
+   "description": "COD on serviceable pincodes"
+  },
+  "sources": "Length 179; range ends at character 48. Hook: rangoli (the three powder cones in H04) turned with the idiom 'set in stone'. The cubic zirconia stones are set, and the colours now last. Rangoli is the one Hindi word. 'Fig. 1 of many, from ₹599' continues the book-plate conceit, mirrors the rules model 'One of 130+ pieces from ₹599', and is count-free. It does not repeat 'Fig. 2 onwards: everything else, from ₹599.' or 'Rangoli you can wear.' Prism Cluster Studs, ₹1,499, is from pool.json H04 and worn (28 in stock). The detail 'violet, yellow and pink' is from H04 ('violet/yellow/pink cluster studs'). Proof '7-day returns.' is from BRIEF. The offer is exact and last. Headline is 35 characters. Description is from BRIEF. No pearl or gem words, no measurements, no banned words."
+ },
+ {
+  "no": "A12",
+  "primary_text": "Knotted, not tied. Every piece from ₹599: Kiss Knot Bangle, gold tone, ₹1,199. Free insured shipping, 3-5 working days. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Rings to bracelets, from ₹599",
+  "description": "7-day returns",
+  "checker_problems": [],
+  "draft": {
+   "primary_text": "Knotted, not tied. Every piece from ₹599: Kiss Knot Bangle, gold tone, ₹1,199. Free insured shipping, 3-5 working days. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Rings to bracelets, from ₹599",
+   "description": "7-day returns"
+  },
+  "sources": "Length 180, at the rule 1 limit; range ends at character 40. Hook 'Knotted, not tied.' is 'X, not Y' about the knot motif, which H16 calls the 'gold-tone knot bangle'. Range 'Every piece from ₹599' is count-free. Kiss Knot Bangle, ₹1,199, gold tone, is from pool.json H16 (35 in stock). The image already says 'each in a Naira gift box', so the caption uses the shipping proof instead, which also suits the sealed envelope. Free insured shipping and 3-5 working days are from BRIEF. The offer is exact and last. Headline is 29 characters; its categories are the site filters in BRIEF, and it does not repeat the on-image list. Description is from BRIEF. Does not repeat 'Set in gold tone.' No banned words, no Hindi, no measurements."
+ },
+ {
+  "no": "A10",
+  "primary_text": "Three shapes, one tone. The whole shop runs ₹599 to ₹2,399; the Bold Dome Huggies, gold tone, ₹999. 7-day returns. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "The full range, from ₹599",
+  "description": "COD on serviceable pincodes",
+  "checker_problems": [
+   "Coming straight after the hook 'Gold tone, not flat.', and under an image headed 'THE GOLD-TONE EDIT', 'Every piece from ₹599' reads as 'gold-tone pieces from ₹599'. No source backs that up: pool.json's cheapest gold-tone piece is ₹799, and the plan's own A10 note says no gold-tone piece at ₹599 is verified. Rewritten so the range clearly belongs to the whole shop. Kept the writer's hook and the Bold Dome Huggies, ₹999 (the right-hand panel, confirmed in build/A10/feed.html). 180 characters; range ends at character 44.",
+   "Image-level note, outside the caption: the image prints 'Rings, earrings, necklaces, bracelets. ₹599 to ₹2,399.' under 'THE GOLD-TONE EDIT', so it carries the same implication.",
+   "Final edit after the check: the hook 'Gold tone, not flat.' read oddly, so it became 'Three shapes, one tone.', and the range is now said to be the whole shop's. The image's bottom line was changed to match: 'Rings, earrings, necklaces, bracelets. The whole shop, ₹599 to ₹2,399.'"
+  ],
+  "draft": {
+   "primary_text": "Gold tone, not flat. Every piece from ₹599, like the Bold Dome Huggies, ₹999. Cash on delivery on serviceable pincodes. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "The full range, from ₹599",
+   "description": "Free insured shipping"
+  },
+  "sources": "Length 180; range ends at character 42. Hook 'Gold tone, not flat.' is 'X, not Y'. The twisted, knotted and domed forms in the triptych are visible, and the line is a quiet pun on tone and on the 'temple bell' simile on the image. 'Gold tone' is the only material wording (rule 7). Range 'Every piece from ₹599' is said of the whole shop, never 'gold-tone from ₹599'. The plan's A10 note says no gold-tone piece at ₹599 is verified. Bold Dome Huggies, ₹999, is from pool.json worn (28 in stock) and is the right-hand 'Polished.' panel; the image itself names no pieces or prices. The other two pieces (Torsade Huggies ₹1,199 and Kiss Knot Bangle ₹1,199, both in pool.json) are not named, to stay within 180. Proof is from BRIEF. The offer is exact and last. Headline is 25 characters, a pun on a musical range and the product range. Description is from BRIEF. No Hindi (the image already carries choti and rakhi), no banned words, no measurements."
+ },
+ {
+  "no": "A04",
+  "primary_text": "Braided, not wrapped: the Woven Hoops, ₹1,199. The rest is hers, from ₹599. Every piece arrives in the Naira gift box. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+  "headline": "Get the rest yourself, from ₹599",
+  "description": "7-day returns",
+  "checker_problems": [],
+  "draft": {
+   "primary_text": "Braided, not wrapped: the Woven Hoops, ₹1,199. The rest is hers, from ₹599. Every piece arrives in the Naira gift box. Buy 2, get 10% off. Buy 3, get 20% off, applied in your bag.",
+   "headline": "Get the rest yourself, from ₹599",
+   "description": "7-day returns"
+  },
+  "sources": "Length 179; range ends at character 74. Hook 'Braided, not wrapped:' is 'X, not Y'. 'Braided' comes from pool.json H07 ('braided gold-tone hoops'), and 'not wrapped' describes the scene: the hoops are handed over loose in a palm. The gift-box proof answers that line, because even a self-purchase arrives boxed. Gift box is from BRIEF. Woven Hoops, ₹1,199, is from pool.json H07 (53 in stock). pool.json names it 'Woven Gold Hoops'; it is shortened to match A03's credit and to avoid 'gold' as a material word. 'The rest is hers, from ₹599' completes the subtitle 'I'll get the rest myself.' without repeating it; the range is from BRIEF. The piece shares the hook's clause, so the range is the next clause. The offer is exact and last. Headline is 32 characters, a self-purchase line not word for word from the image. Description is from BRIEF. No banned words, no Hindi, no measurements. The plan says to start this ad after Diwali week; the copy has no dates."
+ }
+]
