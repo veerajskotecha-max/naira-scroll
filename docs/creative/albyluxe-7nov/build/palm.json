@@ -1,0 +1,155 @@
+{
+ "_about": "In-palm size photos (palm.py): KEY: [OBJ_PX, OBJ_MM, ANGLE, CX, CY, what OBJ_PX measures in out/KEY_rb.png]. 6.25 px per mm on the plate.",
+ "L01": [
+  258,
+  6,
+  -12,
+  990,
+  1250,
+  "the oval stone's width, 6 mm"
+ ],
+ "L02": [
+  522,
+  10,
+  -12,
+  990,
+  1250,
+  "the marquise's length, 10 mm (the bar then reads about 19 mm)"
+ ],
+ "L03": [
+  678,
+  21,
+  -12,
+  990,
+  1250,
+  "the ring's width across, about 21 mm outside (its pears are drawn smaller than 5 x 7 mm, so they were not used)"
+ ],
+ "L04": [
+  425,
+  15,
+  -20,
+  990,
+  1250,
+  "one stud across, 15 mm; then l04fix.py tone, as every L04 frame"
+ ],
+ "L05": [
+  277,
+  9.5,
+  -20,
+  990,
+  1250,
+  "one octagon stone across, 9.5 mm"
+ ],
+ "L06": [
+  544,
+  15,
+  -12,
+  990,
+  1250,
+  "the shell pearl's length, 15 mm"
+ ],
+ "L07": [
+  1280,
+  80,
+  -14,
+  990,
+  1250,
+  "the row of eleven hearts, about 8 cm"
+ ],
+ "L09": [
+  1485,
+  64,
+  -14,
+  980,
+  1260,
+  "the cuff across the outside, about 64 mm (6 cm inside)"
+ ],
+ "L10": [
+  730,
+  21,
+  -12,
+  990,
+  1250,
+  "the ring's height standing, its outside diameter, about 21 mm"
+ ],
+ "L11": [
+  635,
+  20,
+  -20,
+  990,
+  1250,
+  "a hoop's length, 20 mm"
+ ],
+ "L12": [
+  480,
+  14,
+  -20,
+  990,
+  1250,
+  "one heart stud across, 14 mm"
+ ],
+ "L13": [
+  638,
+  21,
+  -12,
+  990,
+  1250,
+  "the ring across, its outside diameter, about 21 mm"
+ ],
+ "L14": [
+  873,
+  24,
+  -12,
+  990,
+  1250,
+  "the ring's height standing, about 24 mm outside with its stones"
+ ],
+ "L15": [
+  320,
+  10,
+  -20,
+  990,
+  1250,
+  "one emerald-cut stone's length, 10 mm (the stud with its frame 12.5 mm)"
+ ],
+ "L16": [
+  530,
+  19,
+  -10,
+  1000,
+  1230,
+  "one band's height standing, its outside diameter, about 19 mm"
+ ],
+ "L17": [
+  771,
+  22,
+  -12,
+  990,
+  1250,
+  "the ring's height standing, about 22 mm outside with its stones"
+ ],
+ "L18": [
+  500,
+  18,
+  -12,
+  990,
+  1250,
+  "the oval stone's length, 18 mm"
+ ],
+ "L08": [
+  409,
+  12,
+  -14,
+  990,
+  1250,
+  "the heart across, 12 mm (cut out locally: l08cut.py)"
+ ],
+ "L11s": [
+  635,
+  20,
+  -20,
+  990,
+  1250,
+  "as L11, from the silver packshot's cut-out (out/L11s_P.png, saved as L11_Ps)"
+ ]
+}

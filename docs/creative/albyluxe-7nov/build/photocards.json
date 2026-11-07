@@ -1,0 +1,125 @@
+{
+ "_about": "Photo size cards for the earrings and the cuff (sizecards.py). crop = [x, y, width] in raw pixels of out/<src>.png; callouts in the same pixels: ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. Edges are read from each piece's cut-out (out/<id>_rb.png). The figures are the listing's (listings.json).",
+ "L04": {
+  "src": "L04_H_t",
+  "crop": [
+   266,
+   628,
+   1300
+  ],
+  "callouts": [
+   [
+    "h",
+    434,
+    859,
+    1345,
+    "15 mm",
+    "below"
+   ]
+  ],
+  "line": "About 15 mm across · four lilac stones, the largest 6 × 7 mm"
+ },
+ "L05": {
+  "src": "L05_H",
+  "crop": [
+   374,
+   750,
+   1100
+  ],
+  "callouts": [
+   [
+    "h",
+    588,
+    865,
+    1325,
+    "9.5 mm",
+    "below"
+   ]
+  ],
+  "line": "About 9.5 mm across · one octagon stone"
+ },
+ "L09": {
+  "src": "L09_H",
+  "crop": [
+   78,
+   498,
+   1700
+  ],
+  "callouts": [
+   [
+    "h",
+    232,
+    1625,
+    1082,
+    "6 cm inside",
+    "above"
+   ]
+  ],
+  "line": "About 6 cm across inside · stones 5 mm and 4 × 6 mm"
+ },
+ "L11": {
+  "src": "L11_H",
+  "crop": [
+   186,
+   662,
+   1400
+  ],
+  "callouts": [
+   [
+    "v",
+    904,
+    1489,
+    1400,
+    "20 mm",
+    "right"
+   ]
+  ],
+  "line": "About 20 mm long · pear stone about 6 × 9 mm"
+ },
+ "L12": {
+  "src": "L12_H",
+  "crop": [
+   232,
+   628,
+   1400
+  ],
+  "callouts": [
+   [
+    "h",
+    402,
+    899,
+    1395,
+    "14 mm",
+    "below"
+   ]
+  ],
+  "line": "About 14 mm across · baguette and square stones"
+ },
+ "L15": {
+  "src": "L15_H",
+  "crop": [
+   360,
+   637,
+   1200
+  ],
+  "callouts": [
+   [
+    "h",
+    599,
+    939,
+    1227,
+    "10 mm",
+    "below"
+   ],
+   [
+    "v",
+    857,
+    1213,
+    585,
+    "12.5 mm",
+    "left"
+   ]
+  ],
+  "line": "About 10 × 12.5 mm with the frame · stone about 8 × 10 mm"
+ }
+}

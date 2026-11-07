@@ -1,0 +1,211 @@
+{
+ "_about": "Each listing's photos in gallery order, by variant (out/<key>.png): packshot, worn, worn close, macro, in the palm. Keys ending b are redos; _t is the L04 lilac tone (l04fix.py); _red/_white/_clear/_aqua are stone recolours (recolour.py); L11 ...s is the silver edit (edits.py).",
+ "L01": {
+  "": [
+   "L01_H",
+   "L01_W1b",
+   "L01_W2",
+   "L01_M",
+   "L01_P"
+  ]
+ },
+ "L02": {
+  "": [
+   "L02_H",
+   "L02_M",
+   "L02_P"
+  ]
+ },
+ "L03": {
+  "": [
+   "L03_H",
+   "L03_W1",
+   "L03_W2b",
+   "L03_M",
+   "L03_P"
+  ]
+ },
+ "L04": {
+  "": [
+   "L04_H_t",
+   "L04_W1_t",
+   "L04_W2_t",
+   "L04_M_t",
+   "L04_P_t"
+  ]
+ },
+ "L05": {
+  "": [
+   "L05_H",
+   "L05_W1",
+   "L05_W2",
+   "L05_M",
+   "L05_P"
+  ]
+ },
+ "L06": {
+  "": [
+   "L06_H",
+   "L06_W1",
+   "L06_W2",
+   "L06_M",
+   "L06_P"
+  ]
+ },
+ "L07": {
+  "": [
+   "L07_H",
+   "L07_W1",
+   "L07_W2",
+   "L07_Mb",
+   "L07_P"
+  ]
+ },
+ "L08": {
+  "": [
+   "L08_H",
+   "L08_W1",
+   "L08_W2",
+   "L08_M",
+   "L08_P"
+  ]
+ },
+ "L09": {
+  "Pink": [
+   "L09_H",
+   "L09_W1",
+   "L09_W2",
+   "L09_M",
+   "L09_P"
+  ],
+  "Clear": [
+   "L09_H_clear",
+   "L09_W1_clear",
+   "L09_W2_clear",
+   "L09_M_clear",
+   "L09_P_clear"
+  ],
+  "Aqua": [
+   "L09_H_aqua",
+   "L09_W1_aqua",
+   "L09_W2_aqua",
+   "L09_M_aqua",
+   "L09_P_aqua"
+  ]
+ },
+ "L10": {
+  "Green": [
+   "L10_H",
+   "L10_W1",
+   "L10_W2b",
+   "L10_M",
+   "L10_P"
+  ],
+  "White": [
+   "L10_H_white",
+   "L10_W1_white",
+   "L10_W2b_white",
+   "L10_M_white",
+   "L10_P_white"
+  ],
+  "Red": [
+   "L10_H_red",
+   "L10_W1_red",
+   "L10_W2b_red",
+   "L10_M_red",
+   "L10_P_red"
+  ]
+ },
+ "L11": {
+  "Gold": [
+   "L11_H",
+   "L11_W1",
+   "L11_W2",
+   "L11_M",
+   "L11_P"
+  ],
+  "Silver": [
+   "L11_Hs",
+   "L11_W1s",
+   "L11_W2s",
+   "L11_Ms",
+   "L11_Ps"
+  ]
+ },
+ "L12": {
+  "": [
+   "L12_H",
+   "L12_W1",
+   "L12_W2",
+   "L12_M",
+   "L12_P"
+  ]
+ },
+ "L13": {
+  "": [
+   "L13_H",
+   "L13_W1",
+   "L13_W2",
+   "L13_M",
+   "L13_P"
+  ]
+ },
+ "L14": {
+  "Red": [
+   "L14_H_red",
+   "L14_W1_red",
+   "L14_W2_red",
+   "L14_M_red",
+   "L14_P_red"
+  ],
+  "Green": [
+   "L14_H",
+   "L14_W1",
+   "L14_W2",
+   "L14_M",
+   "L14_P"
+  ],
+  "White": [
+   "L14_H_white",
+   "L14_W1_white",
+   "L14_W2_white",
+   "L14_M_white",
+   "L14_P_white"
+  ]
+ },
+ "L15": {
+  "": [
+   "L15_H",
+   "L15_W1",
+   "L15_W2",
+   "L15_M",
+   "L15_P"
+  ]
+ },
+ "L16": {
+  "": [
+   "L16_H",
+   "L16_W1f",
+   "L16_M",
+   "L16_P"
+  ]
+ },
+ "L17": {
+  "": [
+   "L17_H",
+   "L17_W1",
+   "L17_W2",
+   "L17_Mb",
+   "L17_P"
+  ]
+ },
+ "L18": {
+  "": [
+   "L18_H",
+   "L18_W1",
+   "L18_W2",
+   "L18_M",
+   "L18_P"
+  ]
+ }
+}
