@@ -15,6 +15,7 @@ The owner sent 16 photos of Albyluxe pieces, then 4 more, and asked for:
   - It shows all 18 pieces with every listing photo, the size card, the photo each piece was made from, the copy, the price and compare-at price, the variants and SKUs, what was checked and what is still to confirm.
   - Each piece has Approve, Change and Hold, editable price, compare-at and units, and a note. "Approve N for Shopify" records the sign-off.
   - Choices are saved in the page's database: `approve/<id>` and `approve/signoff`.
+- **Audit, 7 Nov ([corrections.md](corrections.md)).** Every piece was checked again against your and the supplier's photos: 22 must-fix items across 14 pieces, the largest being the plain silver band on L10, the cuff shape of L13, the turned construction of L02 and the oversized worn photos on several pieces. Nothing is fixed yet; hold sign-off on those pieces until they are redone. The redos need about 83 Higgsfield credits (balance 6.96).
 - **Nothing has been created or changed on Shopify or Meta.**
 - The ship (one mutation, as `../albyluxe-31oct/build/ship_31oct.py`) runs only after the sign-off and the word "ship".
 
