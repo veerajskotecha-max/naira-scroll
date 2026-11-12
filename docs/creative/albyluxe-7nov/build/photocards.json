@@ -1,5 +1,5 @@
 {
- "_about": "Photo size cards for the earrings and the cuff (sizecards.py). crop = [x, y, width] in raw pixels of out/<src>.png; callouts in the same pixels: ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. Edges are read from each piece's cut-out (out/<id>_rb.png). The figures are the listing's (listings.json).",
+ "_about": "Photo size cards for the earrings and the cuff (sizecards.py). crop = [x, y, width] in raw pixels of out/<src>.png; callouts in the same pixels: ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. Edges are read from each piece's cut-out (out/<id>_rb.png). The figures are the listing's (listings.json). 12 Nov: L05, L09 and L12 re-measured on the remade packshots (L05_Hx toned, L09_He, L12_He) and their cut-outs.",
  "L04": {
   "src": "L04_H_t",
   "crop": [
@@ -17,10 +17,10 @@
     "below"
    ]
   ],
-  "line": "About 15 mm across · four lilac stones, the largest 6 × 7 mm"
+  "line": "About 15 mm across · two 6 × 8.5 mm pears, two 4 × 8 mm marquise"
  },
  "L05": {
-  "src": "L05_H",
+  "src": "L05_Hx_t",
   "crop": [
    374,
    750,
@@ -29,9 +29,9 @@
   "callouts": [
    [
     "h",
-    588,
-    865,
-    1325,
+    525,
+    879,
+    1330,
     "9.5 mm",
     "below"
    ]
@@ -39,7 +39,7 @@
   "line": "About 9.5 mm across · one octagon stone"
  },
  "L09": {
-  "src": "L09_H",
+  "src": "L09_He",
   "crop": [
    78,
    498,
@@ -48,14 +48,14 @@
   "callouts": [
    [
     "h",
-    232,
-    1625,
-    1082,
+    239,
+    1607,
+    1080,
     "6 cm inside",
     "above"
    ]
   ],
-  "line": "About 6 cm across inside · stones 5 mm and 4 × 6 mm"
+  "line": "About 6 cm across inside · stones about 5 mm and 5 × 6 mm"
  },
  "L11": {
   "src": "L11_H",
@@ -67,17 +67,17 @@
   "callouts": [
    [
     "v",
-    904,
-    1489,
+    915,
+    1438,
     1400,
-    "20 mm",
+    "18 mm",
     "right"
    ]
   ],
-  "line": "About 20 mm long · pear stone about 6 × 9 mm"
+  "line": "About 18 mm long · pear stone about 5 × 7 mm"
  },
  "L12": {
-  "src": "L12_H",
+  "src": "L12_He",
   "crop": [
    232,
    628,
@@ -86,8 +86,8 @@
   "callouts": [
    [
     "h",
-    402,
-    899,
+    404,
+    897,
     1395,
     "14 mm",
     "below"
@@ -106,7 +106,7 @@
    [
     "h",
     599,
-    939,
+    895,
     1227,
     "10 mm",
     "below"

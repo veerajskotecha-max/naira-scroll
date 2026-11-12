@@ -35,6 +35,7 @@ def foot(d, line, note="Measurements are approximate, give or take 1 mm."):
 def ring(title, spec):
     im = Image.new("RGB", (1600, 1600), BG); d = ImageDraw.Draw(im); head(d, title)
     lo, hi = spec["fit"]; keys = [u for u, _ in US]; fit = keys[keys.index(lo):keys.index(hi) + 1]
+    if spec.get("sizes"): fit = list(spec["sizes"])   # a closed ring sold in set sizes shades only those (6, 7, 8 must not shade 6½)
     spaced(d, (800, 442), "INNER DIAMETER", ImageFont.truetype(J(400), 30), GREY, 3.2, "m")
     d.ellipse((523, 493, 1077, 1047), outline=RING, width=17)
     mm = f"{dict(US)[lo]}–{dict(US)[hi]} mm"; mf = ImageFont.truetype(J(500), 50); half = d.textlength(mm, font=mf) / 2 + 28

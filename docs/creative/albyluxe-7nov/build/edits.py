@@ -65,6 +65,49 @@ E["L02_W2t"] = ("L02_W2s", "EDIT IMAGE 1, a photograph of a woman holding the ba
    "the molten bar side by side, both lying straight ACROSS the finger, on the same finger in the same place. Keep everything else in IMAGE 1 "
    "exactly as it is: the woman, her hand, her fingers, her skin, the camisole, the crop, the background and the light. Metal: warm 18k gold tone. " + END)
 
+# 12 Nov corrections (../corrections.md). Each is ONE change on an approved frame, so its cube, camera and light stay.
+# Blush Octagon Studs (L05): the packshot drew a square with small clipped corners; the owner's stone is a REGULAR octagon (IMAGE 2: her photo).
+E["L05_He"] = ("L05_H", "EDIT IMAGE 1, a packshot of a pair of blush pink octagon stud earrings on a cream plaster cube. Make ONE change only, the "
+   "SAME on BOTH studs: each stone's outline becomes a REGULAR OCTAGON with all EIGHT sides the SAME length: the four short diagonal corner sides "
+   "grow until they are as long as the four straight sides, so the stone reads almost round, like the outline of the stone in IMAGE 2, never a "
+   "square with small clipped corners. The slim gold setting follows the new outline, with its fine claws at the corners. Keep everything else in "
+   "IMAGE 1 exactly as it is: the stone's colour and sparkle, its size across, the posts, the cube, the camera, the framing, the background and "
+   "the light. Use IMAGE 2 ONLY for the stone's outline. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["L05_det"])
+# Duet Emerald-Cut Cuff (L09): the pink step-cut was a long narrow rectangle; the supplier's is only a little longer than wide and as wide as the square.
+E["L09_He"] = ("L09_H", "EDIT IMAGE 1, a packshot of an open gold cuff bangle with a clear square stone at one end and a pink emerald-cut stone at "
+   "the other, on a cream plaster cube. Make ONE change only: the PINK emerald-cut stone and its gold box become WIDER, so the pink stone is only "
+   "slightly longer than it is wide (about 5 by 6 mm) and as wide as the clear square stone at the other end, with its step-cut facets kept; its "
+   "box grows with it and keeps its four claws. Keep everything else in IMAGE 1 exactly as it is: the clear square stone and its box, the wire, "
+   "the cube, the camera, the framing, the background and the light. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+# Baguette Heart Studs (L12): the two small stones at the lower corners of each heart are SQUARE on the supplier's piece, drawn round.
+E["L12_He"] = ("L12_H", "EDIT IMAGE 1, a packshot of a pair of gold heart stud earrings, each set with clear baguette stones, on a cream plaster "
+   "cube. Make ONE change only, the SAME on BOTH studs: the two small ROUND stones at the lower left and lower right of each heart become small "
+   "clear SQUARE step-cut stones, each in its own square gold collet, as wide as the baguettes beside them, with no claws. Keep everything else in "
+   "IMAGE 1 exactly as it is: the eight baguettes, the rim, the tiny gold beads, the posts, the cube, the camera, the framing, the background and "
+   "the light. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
+# Two-Tone Heart Snake Chain (L07): the macro drew a round chain of coarse scales; the piece (IMAGE 2, the packshot) has a flat, finely ribbed ribbon.
+E["L07_Mc"] = ("L07_Mb", "EDIT IMAGE 1, a macro photograph of three heart beads (polished silver, gold covered in tiny clear stones, polished "
+   "silver) threaded on a silver chain, on a cream plaster cube. Make ONE change only: the CHAIN becomes a FLAT, smooth, bright silver ribbon "
+   "snake chain about a third of a heart's width, with very fine ribbing across it, exactly like the chain in IMAGE 2, never round, never coarse "
+   "rounded scales. Keep everything else in IMAGE 1 exactly as it is: the three hearts, their colours and stones, the cube, the camera, the "
+   "framing, the focus, the background and the light. Metal: bright rhodium silver tone and warm gold tone exactly where IMAGE 1 shows them. " + END, ["L07_H"])
+# Teardrop Pear Hoops (L11) Silver: gold was left on the pear's claws in the silver macro and close worn frame.
+CLAWS_TPH = ("EDIT IMAGE 1, {what}. Make ONE change only: the three small CLAWS holding the clear pear stone, and the little setting under it, "
+   "become the SAME cool bright silver as the hoop: no gold, champagne, bronze or warm tint on them anywhere. Keep EVERYTHING else in IMAGE 1 "
+   "exactly identical: {keep}, the hoop and the pear stone. Nothing else changes. " + END)
+E["L11_Msc"] = ("L11_Ms", CLAWS_TPH.format(what="a macro photograph of a silver teardrop hoop earring with a clear pear stone on a cream plaster cube", keep=KEEP_OBJ))
+E["L11_W2sc"] = ("L11_W2s", CLAWS_TPH.format(what="a close photograph of a woman wearing a silver teardrop hoop earring with a clear pear stone", keep=KEEP_MODEL))
+# 12 Nov: the silver worn frame now comes from the remade W1 (L11_W1y, the hoop at its true size against the ear).
+E["L11_W1ys"] = ("L11_W1y", SILVER_TPH.format(what="a photograph of a woman wearing a gold teardrop hoop earring with a clear pear stone", keep=KEEP_MODEL))
+# Interlocked Baguette Trio Ring (L10): the 7 Nov packshot has the gold square channel and the wide flush-set band right but the SILVER band plain;
+# on the supplier's sheet the silver band carries a channel of green baguettes between silver rails.
+E["L10_He"] = ("L10_H", "EDIT IMAGE 1, a packshot of a stacked ring of three bands (a slim gold band with a channel of small green square stones, a "
+   "plain silver band, and a wide gold band with round green stones set flush) on a cream plaster cube. Make ONE change only: the middle SILVER band "
+   "gets a channel of small rectangular BAGUETTE-cut deep emerald-green stones, set end to end all along its visible face between two thin bright "
+   "silver rails, like the channel of square stones on the gold band beside it but with longer, narrower stones. Keep everything else in IMAGE 1 "
+   "exactly as it is: the gold square-stone band, the wide gold band and its round stones, the band widths, the cube, the camera, the framing, the "
+   "background and the light. Metal: polished gold tone and bright silver tone exactly where IMAGE 1 shows them. " + END)
+
 if __name__ == "__main__":
     start = int(sys.argv[1]); keys = sys.argv[2].split(","); reqs, idx = [], {}
     for i, key in enumerate(keys):

@@ -1,5 +1,5 @@
 {
- "_about": "In-palm size photos (palm.py): KEY: [OBJ_PX, OBJ_MM, ANGLE, CX, CY, what OBJ_PX measures in out/KEY_rb.png]. 6.25 px per mm on the plate.",
+ "_about": "In-palm size photos (palm.py): KEY: [OBJ_PX, OBJ_MM, ANGLE, CX, CY, what OBJ_PX measures in out/KEY_rb.png] or with a 7th value 1 = CLIP (the chain laid off the hand's edge and cut at its outline). 6.25 px per mm on the plate. 12 Nov: re-measured on the new packshots' cut-outs and on the corrections (../corrections.md).",
  "L01": [
   258,
   6,
@@ -9,12 +9,12 @@
   "the oval stone's width, 6 mm"
  ],
  "L02": [
-  522,
-  10,
+  362,
+  10.5,
   -12,
   990,
   1250,
-  "the marquise's length, 10 mm (the bar then reads about 19 mm)"
+  "the marquise's length, 10.5 mm (the owner's photo), on the 12 Nov packshot's cut-out"
  ],
  "L03": [
   678,
@@ -33,12 +33,12 @@
   "one stud across, 15 mm; then l04fix.py tone, as every L04 frame"
  ],
  "L05": [
-  277,
+  357,
   9.5,
   -20,
   990,
   1250,
-  "one octagon stone across, 9.5 mm"
+  "one stud across, 9.5 mm, on the 12 Nov packshot's cut-out; then tone.py L05 as every L05 frame"
  ],
  "L06": [
   544,
@@ -51,50 +51,51 @@
  "L07": [
   1280,
   80,
-  -14,
-  990,
-  1250,
-  "the row of eleven hearts, about 8 cm"
+  -147,
+  1209,
+  1381,
+  "the row of eleven hearts, about 8 cm; the chain arms laid off the hand's edge",
+  1
  ],
  "L09": [
-  1485,
+  1497,
   64,
   -14,
   980,
   1260,
-  "the cuff across the outside, about 64 mm (6 cm inside)"
+  "the cuff across the outside, about 64 mm (6 cm inside), on the 12 Nov packshot's cut-out"
  ],
  "L10": [
-  730,
+  852,
   21,
   -12,
   990,
   1250,
-  "the ring's height standing, its outside diameter, about 21 mm"
+  "the stack's outside diameter, about 21 mm, on the 12 Nov packshot's cut-out"
  ],
  "L11": [
-  635,
-  20,
+  536,
+  18,
   -20,
   990,
   1250,
-  "a hoop's length, 20 mm"
+  "one hoop's length, about 18 mm (was the whole pair's box, 635 px = 20 mm, so each hoop came out about 17 mm)"
  ],
  "L12": [
-  480,
+  494,
   14,
   -20,
   990,
   1250,
-  "one heart stud across, 14 mm"
+  "one heart stud across, 14 mm, on the 12 Nov packshot's cut-out"
  ],
  "L13": [
-  638,
-  21,
+  737,
+  15,
   -12,
   990,
   1250,
-  "the ring across, its outside diameter, about 21 mm"
+  "the lattice lozenge across its widest, about 15 mm, on the 12 Nov packshot's cut-out"
  ],
  "L14": [
   873,
@@ -105,12 +106,12 @@
   "the ring's height standing, about 24 mm outside with its stones"
  ],
  "L15": [
-  320,
-  10,
+  356,
+  12.5,
   -20,
   990,
   1250,
-  "one emerald-cut stone's length, 10 mm (the stud with its frame 12.5 mm)"
+  "one stud's frame height, 12.5 mm (was 320 px = a 10 mm stone, which set them about 11% small); the posts erased (palm.py ERASE)"
  ],
  "L16": [
   530,
@@ -129,24 +130,25 @@
   "the ring's height standing, about 22 mm outside with its stones"
  ],
  "L18": [
-  500,
+  541,
   18,
   -12,
   990,
   1250,
-  "the oval stone's length, 18 mm"
+  "the oval stone's length, 18 mm (was 500 px, which set it about 8% large)"
  ],
  "L08": [
-  409,
-  12,
-  -14,
-  990,
-  1250,
-  "the heart across, 12 mm (cut out locally: l08cut.py)"
+  471,
+  14,
+  -112,
+  1290,
+  1405,
+  "the heart across, 14 mm (1.19 cm on the sheet is its height); cut out by Higgsfield from a crop of the packshot's cube face (L08_rbcrop), the chain laid off the hand's edge",
+  1
  ],
  "L11s": [
-  635,
-  20,
+  536,
+  18,
   -20,
   990,
   1250,

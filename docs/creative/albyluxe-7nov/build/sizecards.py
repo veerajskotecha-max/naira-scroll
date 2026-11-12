@@ -17,12 +17,16 @@ def handle(title):
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 OPEN = {"fit": ("5", "9"), "line": "Open band · adjusts to fit US 5 to 9"}
-CLOSED = {"fit": ("6", "8"), "line": "Closed band · sizes 6 to 8, to confirm"}
+# 12 Nov (../corrections.md): where no photo shows the back of the band, the card says so until Albyluxe confirms it (rebuild then);
+# closed rings shade only the sizes they are sold in (the house card used to shade every size between, 6½ included).
+OPEN_TBC = {"fit": ("5", "9"), "line": "Adjusts to fit US 5 to 9, to confirm"}
+CLOSED = {"fit": ("6", "8"), "sizes": ["6", "7", "8"], "line": "Closed band · US 6, 7 and 8, to confirm"}
 SPEC = {
-    "L01": ("ring", OPEN), "L02": ("ring", OPEN), "L03": ("ring", OPEN), "L06": ("ring", OPEN), "L13": ("ring", OPEN), "L16": ("ring", OPEN),
+    "L03": ("ring", OPEN),
+    "L01": ("ring", OPEN_TBC), "L02": ("ring", OPEN_TBC), "L06": ("ring", OPEN_TBC), "L13": ("ring", OPEN_TBC), "L16": ("ring", OPEN_TBC),
     "L10": ("ring", CLOSED), "L14": ("ring", CLOSED), "L17": ("ring", CLOSED), "L18": ("ring", CLOSED),
-    "L07": ("necklace", ([42], "About 42 cm · eleven hearts of 7 mm")),
-    "L08": ("necklace", ([44, 49], "44 cm + 5 cm extender · heart 12 mm")),
+    "L07": ("necklace", ([42], "About 42 cm, to confirm · eleven hearts of 7 mm")),
+    "L08": ("necklace", ([44, 49], "44 cm + 5 cm extender · heart about 14 mm")),
 }
 PHOTO = {k: v for k, v in json.load(open(os.path.join(H, "photocards.json"))).items() if not k.startswith("_")} if os.path.exists(os.path.join(H, "photocards.json")) else {}
 

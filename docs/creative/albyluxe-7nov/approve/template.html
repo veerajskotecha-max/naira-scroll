@@ -17,13 +17,20 @@
 .assume ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14px; color: var(--ink); max-width: 80ch; }
 .sizes { font-size: 12.5px; color: var(--ink-2); margin-top: 6px; }
 .strip figure.src img { object-fit: contain; background: #111; }
+/* 12 Nov: rings the owner set aside, shown read-only, outside the counts and the sign-off. */
+.card.set { border-style: dashed; }
+.card.set .strip img { filter: saturate(0.8); }
+.badge.set { background: var(--sage-soft); color: var(--sage-ink); }
+.facts { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+@media (max-width: 760px) { .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.why { margin: 10px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--ink); background: var(--sage-soft); border-radius: 8px; padding: 8px 12px; max-width: 70ch; }
 </style>
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">Naira Petite · Albyluxe · Approval · 7 November 2026</div>
+    <div class="eyebrow">Naira Petite · Albyluxe · Approval · 7 November 2026 · updated 12 November</div>
     <h1 id="h1">New pieces to approve</h1>
-    <p class="dek" id="dek">Every piece from your 20 photos (the two-stone rings left out, as you asked), with its listing photos, size card, copy, price, variants and stock. Each photo was checked against your photo or the supplier's. Nothing goes to Shopify until you approve it here and say ship.</p>
+    <p class="dek" id="dek">Every piece from your 20 photos (the two-stone rings left out, as you asked), with its listing photos, size card, copy, price, variants and stock. Each photo was checked against your photo or the supplier's, and the corrections from the audit are now made. Three rings are set aside at the foot of the page, as you asked. Nothing goes to Shopify until you approve it here and say ship.</p>
     <div class="facts" id="facts"></div>
   </header>
 
@@ -48,6 +55,12 @@
 
   <div class="list" id="list"></div>
 
+  <section class="held" id="aside" aria-labelledby="aside-h" hidden>
+    <h2 id="aside-h">Set aside</h2>
+    <p class="lead">Set aside on 12 November, as you asked: these rings are not in the counts above or the sign-off, and nothing more is spent on them until you say. Their photos and notes are kept here as they are.</p>
+    <div class="list" id="aside-list"></div>
+  </section>
+
   <footer class="foot">
     <div>
       <h4>How the photos were made</h4>
@@ -64,7 +77,7 @@
 <script>
 (() => {
   const D = JSON.parse(document.getElementById("data").textContent);
-  const L = D.listings || [];
+  const L = D.listings || [], A = D.aside || [];
   const state = { f: "All", decisions: {}, signoff: null, db: null };
   const $ = (s, r = document) => r.querySelector(s);
   const el = (t, a = {}, kids = []) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === "text") e.textContent = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v); } for (const k of [].concat(kids)) if (k) e.append(k); return e; };
@@ -76,7 +89,7 @@
 
   const units = L.reduce((a, x) => a + nvar(x) * x.units, 0);
   const photos = L.reduce((a, x) => a + x.images.filter(i => i.kind === "photo").length, 0);
-  [[L.length, "pieces"], [L.reduce((a, x) => a + nvar(x), 0), "variants"], [units, "units, as proposed"], [photos, "listing photos"], [L.filter(x => x.flags.length).length, "with something to confirm"]]
+  [[L.length, "pieces"], [L.reduce((a, x) => a + nvar(x), 0), "variants"], [units, "units, as proposed"], [photos, "listing photos"], [L.filter(x => x.flags.length).length, "with something to confirm"]].concat(A.length ? [[A.length, "set aside"]] : [])
     .forEach(([n, t]) => $("#facts").append(el("div", { class: "fact" }, [el("b", { text: String(n) }), el("span", { text: t })])));
   (D.assume || []).forEach(t => $("#assume").append(el("li", { text: t })));
   $("#how").textContent = D.how || "";
@@ -92,7 +105,8 @@
 
   function card(x) {
     const d = dec(x.id);
-    const c = el("article", { class: "card", id: "p-" + x.id, "data-d": decOf(x.id) });
+    const ro = !!x.aside;
+    const c = el("article", ro ? { class: "card set", id: "p-" + x.id } : { class: "card", id: "p-" + x.id, "data-d": decOf(x.id) });
     const strip = el("div", { class: "strip" });
     x.images.forEach(im => {
       const f = el("figure", { class: im.kind === "source" ? "src" : im.kind === "size" ? "card-size" : "" });
@@ -103,7 +117,9 @@
     c.append(strip);
     const left = el("div", { style: "min-width:0" });
     left.append(el("div", { class: "head" }, [el("h2", { class: "name", text: x.title }), el("span", { class: "kind", text: x.type }),
+      ro ? el("span", { class: "badge set", text: "Set aside" }) :
       el("span", { class: "badge " + (x.flags.length ? "chg" : "ok"), text: x.flags.length ? "Something to confirm" : "Ready" })]));
+    if (ro) left.append(el("p", { class: "why", text: x.aside }));
     const p = el("div", { class: "price" }); const pr = val(x, "price"), cp = val(x, "compare");
     p.innerHTML = `<b>${rs(pr)}</b>` + (cp ? `<s>${rs(cp)}</s>` : `<span class="m">no compare-at price</span>`) + `<span class="m">${val(x, "units")} units per variant</span>`; left.append(p);
     const vs = el("div", { class: "vars" });
@@ -118,6 +134,7 @@
     const right = el("div", { class: "decide" });
     if (x.checks && x.checks.length) { right.append(el("p", { class: "checks-h", text: "Checked against the photos" })); right.append(el("ul", { class: "checks" }, x.checks.map(t => el("li", { text: t })))); }
     if (x.flags.length) right.append(el("ul", { class: "flags" }, x.flags.map(t => el("li", { text: t }))));
+    if (ro) { c.append(el("div", { class: "body" }, [left, right])); return c; }
     const btns = el("div", { class: "btns", role: "group", "aria-label": "Decision for " + x.title });
     [["approve", "Approve"], ["change", "Change"], ["hold", "Hold"]].forEach(([v, t]) =>
       btns.append(el("button", { class: "btn", "data-v": v, "aria-pressed": String(decOf(x.id) === v), onclick: () => save(x.id, { decision: decOf(x.id) === v ? "none" : v }) }, [t])));
@@ -191,6 +208,7 @@
     if (!(await write("approve/signoff", v))) $("#so-status").textContent = "Not saved: try again.";
   });
 
+  if (A.length) { $("#aside").hidden = false; A.forEach(x => $("#aside-list").append(card(x))); }
   render();
   (async () => {
     if (!window.claude || !window.claude.use) return;

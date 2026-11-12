@@ -1,6 +1,16 @@
 # Albyluxe 7 Nov: corrections to make
 
-This is an audit, made on 7 Nov 2026, of all 18 pieces against the photos you and the supplier sent: every listing photo (122 across the variants), the copy, the size cards and the in-palm photos. Nothing has been fixed yet. These are the notes the next round works from. Nothing is on Shopify. The approval page still shows the current photos, so please hold sign-off on any piece with a must-fix item until it is redone.
+This is an audit, made on 7 Nov 2026, of all 18 pieces against the photos you and the supplier sent: every listing photo (122 across the variants), the copy, the size cards and the in-palm photos. These were the notes the next round worked from. Nothing is on Shopify.
+
+## Status, 12 Nov
+
+The corrections are made, apart from the items below; the approval page (version 3) shows the redone photos, each card's checks say what was redone, and the README's table for the corrections round lists it piece by piece. 139 credits.
+
+- **Set aside at the owner's word (12 Nov):** L02, L03 and L06, whose photos on the hand kept failing. Their open items stay open and they are out of this sign-off. Done on them before that: L02's packshot, macro and palm rebuilt along the band, and the copy of all three.
+- **Withdrawn rather than fixed:** L08's worn photos (four tries drew the heart 1.5 to 2 times its size; the palm photo shows it true), L17's second worn photo (the back of the hand, failed twice) and L01's third photo (the owner's note).
+- **Improved but not exact, flagged on the page:** L07's first worn photo still reads about 1.3 times; L10's second worn photo is on the middle finger, about 15% large; L12's worn photos read 15 to 16 mm against 14.
+- **Left as is:** the four-point star glint on L14's macro (removing it locally looked worse).
+- **Defaults while Albyluxe's answers are open** (questions 1 to 6 below): L10 four bands with the title kept; L13 the open back as drawn; L15 the beaded edge kept; L17 full eternity; L18 unchanged; L12 at 14 mm. Each is flagged in amber; a different answer means redoing the photos named in its section.
 
 Levels:
 - **Must fix:** the photo or copy shows the piece wrongly, such as a different design, the wrong size on the body, or a false claim.

@@ -16,9 +16,10 @@ MODEL = ("THE PLATE: A young Indian woman, late twenties, warm mid-brown skin wi
          "Bare shoulders, marigold-saffron silk camisole with narrow spaghetti straps. Nails short, bare, pale nude, no polish colour. "
          "Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.")
 LIP = "CROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture."
-END = ("No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: "
-       "the image fills the whole frame edge to edge. A clean modern digital photograph: no creases, no fold lines, no aged-paper texture, "
-       "no scratches, no film grain.")
+# 12 Nov: the old ending named creases, fold lines and aged paper to forbid them, and two worn frames in a row came out as old folded prints
+# (naming a thing primes it): it now describes the clean picture it wants instead.
+END = ("No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. The picture runs edge to edge as a crisp, clean, "
+       "modern digital studio photograph, shot today on a high-resolution digital camera.")
 NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff", "bangle": "rigid bangle", "cuff": "open cuff bracelet", "set": "set (the necklace and its pair of earrings)"}
 METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver": "bright rhodium silver tone, never grey or dull, never gold",
          "two-tone": "polished gold tone and bright silver tone exactly where IMAGE 1 shows them",
@@ -76,17 +77,18 @@ def prompt(k, shot):
             crop = "Inside the frame: the open palm, the fingers and the wrist only. No face, no neck, no camisole."
             where = "resting in her open palm, NOT worn"
         elif kind in ("bracelet", "bangle", "cuff"):
-            plate = "wrist"
-            sh = (f"SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the {kind} large and legible in frame. 4:5 vertical, full bleed."
+            plate = "wrist"   # 12 Nov: no longer asks for the piece "large" (the cuff's stones came out twice their size)
+            sh = (f"SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the {kind} legible in frame at its true small size. 4:5 vertical, full bleed."
                   if shot == "W1" else
-                  f"SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the {kind} LARGE in frame and {'sitting loosely around' if kind in ('bangle', 'cuff') else 'lying on'} the wrist. 4:5 vertical, full bleed.")
+                  f"SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the camera brought close so the {kind} is legible at its true small size, {'sitting loosely around' if kind in ('bangle', 'cuff') else 'lying on'} the wrist. 4:5 vertical, full bleed.")
             crop = LIP + " Inside the frame: chin, neck, collarbones, shoulder, forearm and hand."
             where = "worn on ONE wrist" + (f", {s['wear']}" if s.get("wear") else "")
         elif kind == "ring":
-            plate = "ring"
+            plate = "ring"   # 12 Nov: W2 no longer asks for the ring "large" (rings came out up to twice their size)
             sh = ("SHOT: A worn photograph: the model's hand raised and resting lightly on her collarbone, the ring finger forward, the camera close enough that the ring is clearly legible. 4:5 vertical, full bleed."
                   if shot == "W1" else
-                  "SHOT: Worn ring frame, 4:5: the BACK OF ONE HAND held up flat and square to camera in front of the collarbone, fingers together and relaxed, the ring on the ring finger large and legible.")
+                  "SHOT: Worn ring frame, 4:5: the BACK OF ONE HAND held up flat and square to camera in front of the collarbone, fingers together and relaxed, "
+                   "the camera brought close so the ring on the ring finger is legible at its true small size.")
             crop = LIP + " Inside the frame: hand, fingers, wrist, collarbone and shoulder."
             where = s.get("where", "worn on the ring finger only")
         elif kind == "earcuff":
