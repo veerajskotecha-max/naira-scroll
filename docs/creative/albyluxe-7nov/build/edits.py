@@ -24,6 +24,15 @@ E["L04_Hg"] = ("L04_H", "EDIT IMAGE 1, a packshot of a pair of lilac butterfly s
    "stone keeps exactly its present lilac colour. Keep everything else in IMAGE 1 exactly as it is: the gold bead at each centre, the posts, "
    "the cube, the camera, the framing, the background and the light. Metal: warm 18k gold tone, never brassy, orange or greenish. " + END)
 
+# 13 Nov: the owner says the L03 band is thicker than drawn (their video shows a broad, heavy band with the clusters on thick gold blocks).
+# The 7 Nov packshot has the four stones right, so the band alone is changed on it.
+E["L03_He"] = ("L03_H", "EDIT IMAGE 1, a packshot of an open cluster ring on a cream plaster cube. Make ONE change only: the gold BAND becomes "
+   "BROAD and HEAVY, about 5 to 6mm wide and about 2mm thick, a solid wide band like a cigar band, as IMAGE 2 (the owner's photo of the ring "
+   "worn on a finger) shows, with each open end squared off into a thick gold block under its cluster. Keep everything else in IMAGE 1 exactly "
+   "as it is: the four clear stones (one small round and one pear on one end, two pears with their points turned outward on the other), their "
+   "claws, their positions and their sizes, the row of tiny gold beads, the cube, the camera, the framing, the background and the light. "
+   "Metal: warm 18k gold tone, never brassy, orange or greenish. " + END, ["L03_full"])
+
 # Teardrop Pear Hoops (L11) in silver: the four approved gold frames with the metal changed, as SILVER_MDC in ../../stock-2nov/build/edits.py,
 # with the firmer line that the 3 Nov redo needed (no gold, rose or copper tint anywhere, even against the skin).
 SILVER_TPH = ("EDIT IMAGE 1, {what}. Make ONE change only: the hoop's METAL becomes bright polished SILVER tone, a cool white rhodium "

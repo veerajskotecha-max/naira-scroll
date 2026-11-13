@@ -17,9 +17,11 @@ ASSUME = [
     "12 Nov: the corrections from the 7 Nov audit are done. Each card's list headed Checked against the photos says what was checked "
     "and what was redone. Questions still open with Albyluxe (the bands on the trio ring, the back of the lattice ring, the frame of the "
     "bezel studs, the eternity band, the cocktail ring's setting) are in amber on those cards.",
-    "Three rings are set aside at the foot of the page, as you asked on 12 Nov: the Marquise Molten Bar Ring, the Twin Cluster Open "
-    "Ring and the Baroque Pearl Duet Ring. They are out of this sign-off and the counts above, and nothing more is spent on them until "
-    "you say.",
+    "13 Nov: the in-palm photos are gone from every piece, as you asked: they were a cut-out laid on a photo of a palm, made by hand. No "
+    "photo on a body is put together or resized by hand any more: a photo that came out wrong was made again on Higgsfield or left out.",
+    "The three rings you sent photos of are back and redone from your photos and video: the Marquise Molten Bar Ring with its chunky "
+    "molten bar, the Twin Cluster Open Ring with its broad, heavy band, and the Baroque Pearl Duet Ring. Where the generator could not "
+    "draw a piece at its true size on the body (L02, L06, L09, L13), that piece has no worn photo for now.",
     "The baguette ring you asked for in green, white and red is the Interlocked Baguette Trio Ring. The supplier only shows it in green, "
     "so the White and Red photos are the green photos with only the stones recoloured.",
     "From your second set of photos: both blue rings are in (the Aqua Emerald-Cut Band and the Aqua Oval Cocktail Ring), and so are the "
@@ -36,8 +38,8 @@ ASSUME = [
 HOW = ("Every photo was made on Higgsfield with Nano Banana Pro at 2K, with your photo or the supplier's as the only authority on the design. "
        "The packshot came first and was checked against that photo stone by stone; the worn photos and the macro were then made from the "
        "approved packshot and checked for size against the body (an earlobe is about 18mm, a finger about 17mm wide). Where a photo was "
-       "right except for one thing, that photo was edited with the one change, so nothing else moved; where a worn photo drew the piece too large, the piece was shrunk in place to its true size. The palm photo is a cut-out of the "
-       "approved packshot laid on a photo of an open palm at its true size (about 6 pixels to the millimetre). Colours the supplier does not show are "
+       "right except for one thing, that photo was edited on Higgsfield with the one change, so nothing else moved. No photo on a body is "
+       "put together or resized by hand: a worn photo that came out the wrong size was made again or left out. Colours the supplier does not show are "
        "recolours of the approved photos that change only the stones, and stone colours were matched to your photo the same way.")
 
 def handle(t):

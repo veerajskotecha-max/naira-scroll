@@ -1,26 +1,23 @@
 {
- "_about": "Each listing's photos in gallery order, by variant (out/<key>.png): packshot, worn, worn close, macro, in the palm. Keys ending b, x, y, z are redos (12 Nov: x, y, z, w the corrections round); e an edit; _t a stone tone (tone.py); _s a piece shrunk to its true size in place (shrink.py); f a local fix (l10fix.py, l15fix.py, l16fix.py, l18fix.py, silverfix.py); _red/_white/_clear/_aqua stone recolours (recolour.py); L11 ...s the silver edits (edits.py). Pieces set aside (listings.json 'aside') keep their best photos here.",
+ "_about": "Each listing's photos in gallery order, by variant (out/<key>.png): packshot, worn, worn close, macro. Keys ending b, x, y, z are redos (12 Nov: x, y, z, w the corrections round); e an edit; _t a stone tone (tone.py); _s a piece shrunk to its true size in place (shrink.py); f a local fix (l10fix.py, l15fix.py, l16fix.py, l18fix.py, silverfix.py); _red/_white/_clear/_aqua stone recolours (recolour.py); L11 ...s the silver edits (edits.py). Pieces set aside (listings.json 'aside') keep their best photos here. 13 Nov: the in-palm photos (a cut-out laid on a palm photo, palm.py) are withdrawn at the owner's word: no photo is composited by hand.",
  "L01": {
   "": [
    "L01_H",
    "L01_W1b",
-   "L01_M",
-   "L01_P"
+   "L01_M"
   ]
  },
  "L02": {
   "": [
-   "L02_H2",
-   "L02_Mx",
-   "L02_P"
+   "L02_H3",
+   "L02_My"
   ]
  },
  "L03": {
   "": [
-   "L03_H",
-   "L03_W1y",
-   "L03_M",
-   "L03_P"
+   "L03_H3",
+   "L03_W1v",
+   "L03_Mz"
   ]
  },
  "L04": {
@@ -28,8 +25,7 @@
    "L04_H_t",
    "L04_W1_t",
    "L04_W2_t",
-   "L04_M_t",
-   "L04_P_t"
+   "L04_M_t"
   ]
  },
  "L05": {
@@ -37,16 +33,13 @@
    "L05_Hx_t",
    "L05_W1x_t",
    "L05_W2x_t",
-   "L05_My_t",
-   "L05_P_t"
+   "L05_My_t"
   ]
  },
  "L06": {
   "": [
    "L06_H",
-   "L06_W1y",
-   "L06_M",
-   "L06_P"
+   "L06_M"
   ]
  },
  "L07": {
@@ -54,38 +47,27 @@
    "L07_H",
    "L07_W1w",
    "L07_W2y",
-   "L07_My",
-   "L07_P"
+   "L07_My"
   ]
  },
  "L08": {
   "": [
    "L08_H",
-   "L08_M",
-   "L08_P"
+   "L08_M"
   ]
  },
  "L09": {
   "Pink": [
    "L09_He",
-   "L09_W1y_s",
-   "L09_W2x_s",
-   "L09_Mx",
-   "L09_P"
+   "L09_Mx"
   ],
   "Clear": [
    "L09_He_clear",
-   "L09_W1y_s_clear",
-   "L09_W2x_s_clear",
-   "L09_Mx_clear",
-   "L09_P_clear"
+   "L09_Mx_clear"
   ],
   "Aqua": [
    "L09_He_aqua",
-   "L09_W1y_s_aqua",
-   "L09_W2x_s_aqua",
-   "L09_Mx_aqua",
-   "L09_P_aqua"
+   "L09_Mx_aqua"
   ]
  },
  "L10": {
@@ -93,22 +75,19 @@
    "L10_H3_t",
    "L10_W1xf_t",
    "L10_W2z_t",
-   "L10_Mx_t",
-   "L10_P_t"
+   "L10_Mx_t"
   ],
   "White": [
    "L10_H3_white",
    "L10_W1xf_white",
    "L10_W2z_white",
-   "L10_Mx_white",
-   "L10_P_white"
+   "L10_Mx_white"
   ],
   "Red": [
    "L10_H3_red",
    "L10_W1xf_red",
    "L10_W2z_red",
-   "L10_Mx_red",
-   "L10_P_red"
+   "L10_Mx_red"
   ]
  },
  "L11": {
@@ -116,15 +95,13 @@
    "L11_H",
    "L11_W1y",
    "L11_W2",
-   "L11_M",
-   "L11_P"
+   "L11_M"
   ],
   "Silver": [
    "L11_Hs",
    "L11_W1ys",
    "L11_W2sf",
-   "L11_Msc",
-   "L11_Ps"
+   "L11_Msc"
   ]
  },
  "L12": {
@@ -132,17 +109,13 @@
    "L12_He",
    "L12_W1x",
    "L12_W2x",
-   "L12_Mx",
-   "L12_P"
+   "L12_Mx"
   ]
  },
  "L13": {
   "": [
    "L13_H3",
-   "L13_W1y_s",
-   "L13_W2y_s",
-   "L13_Mx",
-   "L13_P"
+   "L13_Mx"
   ]
  },
  "L14": {
@@ -150,22 +123,19 @@
    "L14_H_red",
    "L14_W1_red",
    "L14_W2_red",
-   "L14_M_red",
-   "L14_P_red"
+   "L14_M_red"
   ],
   "Green": [
    "L14_H_t",
    "L14_W1_t",
    "L14_W2_t",
-   "L14_M_t",
-   "L14_P_t"
+   "L14_M_t"
   ],
   "White": [
    "L14_H_white",
    "L14_W1_white",
    "L14_W2_white",
-   "L14_M_white",
-   "L14_P_white"
+   "L14_M_white"
   ]
  },
  "L15": {
@@ -173,24 +143,21 @@
    "L15_H",
    "L15_W1f",
    "L15_W2f",
-   "L15_M",
-   "L15_P"
+   "L15_M"
   ]
  },
  "L16": {
   "": [
    "L16_H",
    "L16_W1f",
-   "L16_M",
-   "L16_P"
+   "L16_M"
   ]
  },
  "L17": {
   "": [
    "L17_H",
    "L17_W1x",
-   "L17_Mb",
-   "L17_P"
+   "L17_Mb"
   ]
  },
  "L18": {
@@ -198,8 +165,7 @@
    "L18_H",
    "L18_W1",
    "L18_W2",
-   "L18_Mf_t",
-   "L18_P"
+   "L18_Mf_t"
   ]
  }
 }

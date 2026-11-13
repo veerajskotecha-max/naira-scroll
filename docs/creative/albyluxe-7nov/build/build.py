@@ -78,17 +78,19 @@ def prompt(k, shot):
             where = "resting in her open palm, NOT worn"
         elif kind in ("bracelet", "bangle", "cuff"):
             plate = "wrist"   # 12 Nov: no longer asks for the piece "large" (the cuff's stones came out twice their size)
-            sh = (f"SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the {kind} legible in frame at its true small size. 4:5 vertical, full bleed."
+            # 13 Nov: no more "camera close" for worn frames: the whole hand and wrist stay in frame, so the piece is drawn in proportion to them
+            sh = (f"SHOT: A worn photograph: the model's forearm lying across her body, the wrist forward and square to camera, the whole hand and the forearm in frame, the {kind} a small accent at its true size against the wrist. 4:5 vertical, full bleed."
                   if shot == "W1" else
-                  f"SHOT: A CLOSE worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the camera brought close so the {kind} is legible at its true small size, {'sitting loosely around' if kind in ('bangle', 'cuff') else 'lying on'} the wrist. 4:5 vertical, full bleed.")
+                  f"SHOT: A worn photograph: the hand raised and resting flat against the opposite shoulder, the BACK of the wrist square to camera, the whole hand and the forearm in frame, the {kind} {'sitting loosely around' if kind in ('bangle', 'cuff') else 'lying on'} the wrist at its true small size against it. 4:5 vertical, full bleed.")
             crop = LIP + " Inside the frame: chin, neck, collarbones, shoulder, forearm and hand."
             where = "worn on ONE wrist" + (f", {s['wear']}" if s.get("wear") else "")
         elif kind == "ring":
             plate = "ring"   # 12 Nov: W2 no longer asks for the ring "large" (rings came out up to twice their size)
-            sh = ("SHOT: A worn photograph: the model's hand raised and resting lightly on her collarbone, the ring finger forward, the camera close enough that the ring is clearly legible. 4:5 vertical, full bleed."
+            # 13 Nov: the whole hand stays in frame, so the ring is drawn in proportion to it (close framing made rings up to twice their size)
+            sh = ("SHOT: A worn photograph: the model's hand raised and resting lightly on her collarbone, the WHOLE hand in frame, all its fingers and the wrist, the ring a small accent on one finger in true proportion to the hand. 4:5 vertical, full bleed."
                   if shot == "W1" else
                   "SHOT: Worn ring frame, 4:5: the BACK OF ONE HAND held up flat and square to camera in front of the collarbone, fingers together and relaxed, "
-                   "the camera brought close so the ring on the ring finger is legible at its true small size.")
+                   "the whole hand and the wrist in frame, so the ring on the ring finger is seen at its true small size against the hand.")
             crop = LIP + " Inside the frame: hand, fingers, wrist, collarbone and shoulder."
             where = s.get("where", "worn on the ring finger only")
         elif kind == "earcuff":
