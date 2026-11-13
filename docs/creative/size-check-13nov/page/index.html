@@ -1,0 +1,189 @@
+<title>Video Size Check</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: a measuring sheet. A verdict table up top, then one card per piece with the frame it was measured on.
+   Same cream-and-sage identity as the approval pages, so the owner reads it as part of the same work. */
+:root {
+  --bg: #FFF8F5; --surface: #FFFFFF; --ink: #1A1614; --ink-2: #625C57; --ink-3: #8C857F;
+  --sage-ink: #4F6F69; --sage-soft: #EAF1EF; --line: rgba(153, 180, 175, 0.45);
+  --ok: #3E7A5C; --ok-soft: #E3F1E9; --warn: #9A5B12; --warn-soft: #FBF0E1; --hold: #A3402F; --hold-soft: #F8E6E2;
+  --mute: #6E6A66; --mute-soft: #EFEBE8;
+  --display: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+  --text: "Jost", "Futura", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161311; --surface: #201C19; --ink: #F3EBE5; --ink-2: #BDB3AC; --ink-3: #8E857F;
+    --sage-ink: #A8C6C0; --sage-soft: #23302D; --line: rgba(141, 174, 168, 0.26);
+    --ok: #7FC4A1; --ok-soft: #1E3328; --warn: #E2AC66; --warn-soft: #3A2C19; --hold: #EE8E7D; --hold-soft: #3C221D;
+    --mute: #B5ADA6; --mute-soft: #2A2522; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161311; --surface: #201C19; --ink: #F3EBE5; --ink-2: #BDB3AC; --ink-3: #8E857F;
+  --sage-ink: #A8C6C0; --sage-soft: #23302D; --line: rgba(141, 174, 168, 0.26);
+  --ok: #7FC4A1; --ok-soft: #1E3328; --warn: #E2AC66; --warn-soft: #3A2C19; --hold: #EE8E7D; --hold-soft: #3C221D;
+  --mute: #B5ADA6; --mute-soft: #2A2522; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--text); font-weight: 300; font-size: 15px; line-height: 1.55; margin: 0; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-block: 28px 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
+.eyebrow { font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; color: var(--sage-ink); font-weight: 500; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(34px, 5vw, 48px); line-height: 1.04; margin: 8px 0 8px; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 600; font-size: clamp(24px, 3vw, 30px); line-height: 1.1; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--display); font-weight: 600; font-size: 22px; line-height: 1.15; margin: 0; }
+.dek { font-family: var(--display); font-style: italic; font-size: clamp(18px, 2.2vw, 21px); line-height: 1.35; color: var(--ink-2); max-width: 46em; margin: 0; }
+p { margin: 0; max-width: 68ch; }
+.how { background: var(--sage-soft); border-radius: 10px; padding: 16px 18px; display: grid; gap: 8px; }
+.how ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; max-width: 72ch; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); font-weight: 500; }
+tr:last-child td { border-bottom: 0; }
+td.n { font-variant-numeric: tabular-nums; }
+.v { display: inline-block; font-size: 12px; font-weight: 500; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+.v.big { background: var(--hold-soft); color: var(--hold); }
+.v.off { background: var(--warn-soft); color: var(--warn); }
+.v.ok { background: var(--ok-soft); color: var(--ok); }
+.v.na { background: var(--mute-soft); color: var(--mute); }
+.st { font-size: 12px; color: var(--ink-3); }
+.cards { display: grid; gap: 18px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); overflow: hidden; }
+.card figure { margin: 0; background: #111; display: flex; align-items: center; justify-content: center; }
+.card figure img { display: block; width: 100%; height: auto; max-height: 560px; object-fit: contain; }
+.card .body { padding: 16px 18px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.card .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; font-size: 14px; }
+.facts dt { color: var(--ink-3); }
+.facts dd { margin: 0; min-width: 0; }
+.fix { border-left: 3px solid var(--warn); padding-left: 10px; color: var(--ink-2); font-size: 14px; }
+.fix.red { border-left-color: var(--hold); }
+.next { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: grid; gap: 10px; }
+.next ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 76ch; }
+.foot { font-size: 13px; color: var(--ink-3); }
+@media (max-width: 760px) { .card { grid-template-columns: minmax(0, 1fr); } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Naira Petite · size check · 13 November 2026</div>
+    <h1>Your two videos, measured</h1>
+    <p class="dek">Every piece I could match to a listing in your stock video (IMG_7514, 12 Nov) and the ad reel (2 Nov), measured frame by frame and checked against what its listing says.</p>
+  </header>
+
+  <section class="how" aria-labelledby="how-h">
+    <h2 id="how-h">How it was measured</h2>
+    <ul>
+      <li>The keyboard in the video at 38 seconds: its keys are 19 mm apart, so the V-Bar Teardrop, lying on it, is measured to that scale.</li>
+      <li>Everywhere else, your fingers lying on the same bag as the piece: index fingertip about 17.5 mm wide, thumb about 21 mm. The two agree with each other (thumb about 1.2 times the index) and with the keyboard.</li>
+      <li>Finger widths are read by an edge detector across the finger, not by eye; each piece is measured in one to four frames.</li>
+      <li>Every number is a range, good to about 10 to 15 percent. Where a finger was not in the same plane as the piece, the piece is marked "can't tell".</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="sum-h" style="display:grid;gap:12px">
+    <h2 id="sum-h">The verdicts</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Piece</th><th>Listing says</th><th>Video shows</th><th>Verdict</th></tr></thead>
+        <tbody>
+          <tr><td>Soleil Petal Pendant <div class="st">live</div></td><td class="n">about 25 mm across; stone about 7 mm</td><td class="n">about 15 to 20 mm across; stone about 5 to 6 mm</td><td><span class="v big">Listing too big</span></td></tr>
+          <tr><td>V-Bar Teardrop Necklace <div class="st">live</div></td><td class="n">bars about 15 mm; pear about 10 × 13 mm; chain 3.5 mm</td><td class="n">bars about 16 to 19 mm; pear about 10 to 11 × 14 to 16 mm; chain 3.5 to 4 mm</td><td><span class="v off">A little bigger than listed</span></td></tr>
+          <tr><td>Pave Open Heart Studs <div class="st">live</div></td><td class="n">about 20 mm across, 19 mm tall</td><td class="n">about 22 to 24 mm across</td><td><span class="v off">A little bigger than listed</span></td></tr>
+          <tr><td>Clover Garland Necklace, and the Clover Garland Bracelet <div class="st">both live</div></td><td class="n">clovers about 10 mm; stones about 3.5 mm</td><td class="n">clovers about 7 to 10 mm (most frames 8 to 9); stones about 3 mm</td><td><span class="v off">A little smaller than listed</span></td></tr>
+          <tr><td>Heart Solitaire Huggies <div class="st">live</div></td><td class="n">hoop about 15 mm; heart about 6.5 mm</td><td class="n">hoop about 15.5 to 18 mm; heart with its bezel about 7 to 8.5 mm</td><td><span class="v ok">Close</span></td></tr>
+          <tr><td>Petite Pear Solitaire Necklace <div class="st">live</div></td><td class="n">pear about 6 × 8 mm</td><td class="n">pear about 5.5 to 6.5 × 7 to 8 mm</td><td><span class="v ok">Matches</span></td></tr>
+          <tr><td>Asscher Solitaire Pendant <div class="st">draft</div></td><td class="n">stone about 9 mm</td><td class="n">about 8.5 to 9 mm with its claws</td><td><span class="v ok">Matches</span></td></tr>
+          <tr><td>Cushion Bezel Pendant <div class="st">draft</div></td><td class="n">bezel about 8 mm; stone about 6 mm</td><td class="n">bezel about 7 to 7.5 mm; stone about 5.5 to 6 mm</td><td><span class="v ok">Matches</span></td></tr>
+          <tr><td>Bow and Heart Gift Set <div class="st">live</div></td><td class="n">earrings about 14 mm long; drop heart about 9 mm</td><td class="n">about 12 to 19 mm long: the only finger nearby is above the card</td><td><span class="v na">Can't tell</span></td></tr>
+          <!--ADREEL_ROWS-->
+        </tbody>
+      </table>
+    </div>
+    <p class="foot">Also in the stock video, with no listing I could match: a three-stone drop earring on a "STAINLESS STEEL" card (18 to 20 s), a flat chain and tennis chain set marked 695 (41 to 45 s), and curb and marquise chains set with stones (35 to 36 s and 46 s).</p>
+  </section>
+
+  <section aria-labelledby="ev-h" style="display:grid;gap:14px">
+    <h2 id="ev-h">The frames behind each verdict</h2>
+    <div class="cards">
+      <article class="card">
+        <figure><img src="img/soleil-petal.jpg" alt="Video frame at 4.2 seconds: the Soleil Petal pendant boxed in red beside the Asscher pendant boxed in green and a thumb with a blue measuring line" width="1100" height="829" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Soleil Petal Pendant</h3><span class="v big">Listing too big</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>about 25 mm across; stone about 7 mm</dd><dt>Video</dt><dd>about 15 to 20 mm across; stone about 5 to 6 mm</dd><dt>Frames</dt><dd>4.2 s (beside the Asscher pendant and a thumb), 5.2 s and 6.0 s (held between finger and thumb)</dd></dl>
+          <p>In the same frame and at the same scale, the flower is about twice the Asscher stone, which itself measures about 9 mm against your thumb. Its centre stone is about 0.6 of the Asscher stone. All three frames give 15 to 20 mm.</p>
+          <p class="fix red">The worn photos on the listing were sized on 2 Nov to about 31 mm on the neck, so they show it well over one and a half times its real size. The copy, the size card and those photos need redoing.</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="img/v-bar-teardrop.jpg" alt="Video frame at 38.5 seconds: the V-Bar Teardrop necklace in its bag lying on a keyboard, with the bars and pear marked in red and the key spacing in blue" width="900" height="1020" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>V-Bar Teardrop Necklace</h3><span class="v off">A little bigger</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>bars about 15 mm each; pear about 10 × 13 mm; chain about 3.5 mm</dd><dt>Video</dt><dd>bars about 16 to 19 mm; pear about 10 to 11 × 14 to 16 mm with its claws; chain 3.5 to 4 mm</dd><dt>Frames</dt><dd>38.5 to 40.5 s, the bag lying on the keyboard (about 9 px per mm)</dd></dl>
+          <p>This is the most exact measurement in the video: the keys give a true scale in the same frame. Your hand lifts the bottom of the bag a little, which can add a few percent.</p>
+          <p class="fix">Copy and card: bars about 17 mm, pear about 11 × 15 mm.</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="img/pave-open-heart.jpg" alt="Video frame at 10.8 seconds: two pavé open heart studs boxed in red beside an index finger with a blue measuring line" width="900" height="918" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Pave Open Heart Studs</h3><span class="v off">A little bigger</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>about 20 mm across and 19 mm tall</dd><dt>Video</dt><dd>about 22 to 24 mm across</dd><dt>Frames</dt><dd>10.8 s (index finger on the card), 15.2 s (thumb on the bag)</dd></dl>
+          <p>Both frames agree: the hearts are about 1.3 fingertips across.</p>
+          <p class="fix">Copy and card: about 23 mm across.</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="img/clover-garland.jpg" alt="Video frame at 23.8 seconds: two red clovers boxed in red above a finger with a blue measuring line" width="900" height="1582" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Clover Garland Necklace and Bracelet</h3><span class="v off">A little smaller</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>clovers about 10 mm; stones about 3.5 mm</dd><dt>Video</dt><dd>clovers about 7 to 10 mm, most frames 8 to 9; stones about 3 mm</dd><dt>Frames</dt><dd>23.0, 23.8 and 24.7 s (red), 28.5 s (pink, same clover)</dd></dl>
+          <p>The red necklace and the pink bracelet carry the same clover. Four frames average about 8.5 mm.</p>
+          <p class="fix">Copy and cards: clovers about 8 to 9 mm, stones about 3 mm.</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="img/heart-solitaire-huggies.jpg" alt="Video frame at 12.8 seconds: an opened huggie with a heart stone, boxed, beside a finger with a blue measuring line" width="900" height="745" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Heart Solitaire Huggies</h3><span class="v ok">Close</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>hoop about 15 mm; heart about 6.5 mm</dd><dt>Video</dt><dd>hoop about 15.5 to 18 mm; heart with its bezel about 7 to 8.5 mm</dd><dt>Frames</dt><dd>12.8 s</dd></dl>
+          <p>The hoops are opened on their hinges in the bag, which is why they look like a C. The listing's 6.5 mm is the stone alone; the bezel adds about a millimetre.</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="img/petite-pear.jpg" alt="Video frame at 8.8 seconds: the small pear pendant boxed in red below an index finger with a blue measuring line" width="900" height="1998" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Petite Pear Solitaire Necklace</h3><span class="v ok">Matches</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>pear about 6 × 8 mm</dd><dt>Video</dt><dd>about 5.5 to 6.5 × 7 to 8 mm</dd><dt>Frames</dt><dd>8.8 s</dd></dl>
+          <p>The Asscher Solitaire Pendant (about 9 mm with its claws, 4.2 s) and the Cushion Bezel Pendant (bezel about 7 to 7.5 mm, stone 5.5 to 6 mm, 0.0 s) match their listings too.</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="img/bow-and-heart.jpg" alt="Video frame at 32.7 seconds: the bow and heart earrings on a card, with a finger above the card at the top of the bag" width="900" height="929" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Bow and Heart Gift Set</h3><span class="v na">Can't tell</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>earrings about 14 mm long; bow hearts about 6 mm; drop heart about 9 mm</dd><dt>Video</dt><dd>about 12 to 19 mm long</dd><dt>Frames</dt><dd>32.7 s</dd></dl>
+          <p>The only finger in the frame pinches the top of the bag, above the card, so the scale could be anywhere in that range. One photo of an earring next to a ruler, or flat beside a fingertip, would settle it.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="how" id="adreel" aria-labelledby="ad-h">
+    <h2 id="ad-h">The ad reel (2 Nov)</h2>
+    <p>The Woven Gold Hoops, Brushed Gold Huggies, Toggle Link Chain and Cushion Halo Ring are being measured on the people wearing them. Their results go here when they are in.</p>
+  </section>
+
+  <section class="next" aria-labelledby="next-h">
+    <h2 id="next-h">What I'd change, with your go-ahead</h2>
+    <ol>
+      <li>Soleil Petal Pendant: the copy and the size card to about 18 mm across with a 5.5 mm stone, and new worn photos at that size, made on Higgsfield.</li>
+      <li>V-Bar Teardrop, Pave Open Heart Studs and both Clover Garland pieces: the size lines in the copy and their size cards.</li>
+      <li>The Bow and Heart set stays as it is until a ruler photo settles it.</li>
+    </ol>
+    <p class="foot">Nothing has been changed on Shopify. The changes would go in one batch, and only after you say so.</p>
+  </section>
+</div>
