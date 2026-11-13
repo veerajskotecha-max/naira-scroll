@@ -2,7 +2,8 @@
 # (../approve/img/): every listing in listings.json with its frames (frames.json: id -> {variant name: [frame keys]}, out/<key>.png),
 # its size card (../cards/<handle>-size-guide.jpg), the owner's or supplier's photo it was made from, and the checks made on its photos
 # (checks.json). Frames not made yet are left out, so the page can be previewed early. A listing with an "aside" reason (12 Nov: the
-# owner set three rings aside) is shown read-only in its own section, outside the counts and the sign-off.
+# owner set three rings aside) is shown read-only in its own section, outside the counts and the sign-off; so is a listing marked "live"
+# (13 Nov: shipped to Shopify), in a section of its own, so it cannot be signed off and sent twice.
 # Usage: python3 -I approve.py
 import json, os, re, unicodedata
 from PIL import Image
@@ -14,6 +15,10 @@ F = json.load(open(os.path.join(H, "frames.json"))) if os.path.exists(os.path.jo
 CK = json.load(open(os.path.join(H, "checks.json"))) if os.path.exists(os.path.join(H, "checks.json")) else {}
 SHOTS = {"H": "Packshot", "W1": "Worn", "W2": "Worn close", "M": "Macro", "P": "In the palm", "He": "Packshot"}
 ASSUME = [
+    "13 Nov: shipped. The four pieces you approved are live on Shopify on all six sales channels: the Molten Wave Oval Ring and the "
+    "Marquise Molten Bar Ring at ₹1,249, the Twin Cluster Open Ring (adjusts US 6 to 8, as your note said) and the Baroque Pearl Duet "
+    "Ring, with the units you set. They are in their own section at the bottom. The twelve on Hold and the two with no choice yet (the "
+    "heart snake chain and the zigzag eternity ring) stay here with their photos, copy, cards and your choices, to ship later.",
     "12 Nov: the corrections from the 7 Nov audit are done. Each card's list headed Checked against the photos says what was checked "
     "and what was redone. Questions still open with Albyluxe (the bands on the trio ring, the back of the lattice ring, the frame of the "
     "bezel studs, the eternity band, the cocktail ring's setting) are in amber on those cards.",
@@ -78,11 +83,13 @@ for x in L:
     variants = [{"name": v, "sku": s} for v, s in opt[1]] if opt else [{"name": "SKU", "sku": x["sku"]}]
     out.append({"id": x["id"], "title": x["title"], "handle": h, "type": x["type"], "price": x["price"], "compare": x["compare"],
                 "units": x["units"], "variants": variants, "sizes": x.get("sizes"), "intro": x["intro"], "details": x["details"],
-                "tip": x.get("tip", ""), "flags": x["flags"], "checks": CK.get(x["id"], []), "images": images, "aside": x.get("aside")})
-data = {"listings": [o for o in out if not o["aside"]], "aside": [o for o in out if o["aside"]], "assume": ASSUME, "how": HOW}
+                "tip": x.get("tip", ""), "flags": x["flags"], "checks": CK.get(x["id"], []), "images": images, "aside": x.get("aside"),
+                "live": x.get("live")})
+data = {"listings": [o for o in out if not (o["aside"] or o["live"])], "aside": [o for o in out if o["aside"]],
+        "live": [o for o in out if o["live"]], "assume": ASSUME, "how": HOW}
 page = open(os.path.join(A, "template.html")).read().replace("/*BASE*/", open(os.path.join(A, "base.css")).read(), 1)
 blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 page = re.sub(r'(<script id="data" type="application/json">)(.*?)(</script>)', lambda m: m.group(1) + blob + m.group(3), page, count=1, flags=re.S)
 open(os.path.join(A, "index.html"), "w").write(page)
-print(len(data["listings"]), "pieces,", len(data["aside"]), "set aside,", sum(len(l["images"]) for l in out), "images,",
+print(len(data["listings"]), "pieces,", len(data["live"]), "live,", len(data["aside"]), "set aside,", sum(len(l["images"]) for l in out), "images,",
       os.path.getsize(os.path.join(A, "index.html")), "bytes")

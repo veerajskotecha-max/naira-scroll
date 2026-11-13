@@ -21,6 +21,9 @@
 .card.set { border-style: dashed; }
 .card.set .strip img { filter: saturate(0.8); }
 .badge.set { background: var(--sage-soft); color: var(--sage-ink); }
+/* 13 Nov: pieces shipped to Shopify, shown read-only in their own section, outside the counts and the sign-off. */
+.card.live { border-color: var(--sage-ink); }
+.badge.live { background: var(--sage-ink); color: var(--bg); }
 .facts { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 @media (max-width: 760px) { .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .why { margin: 10px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--ink); background: var(--sage-soft); border-radius: 8px; padding: 8px 12px; max-width: 70ch; }
@@ -30,7 +33,7 @@
   <header>
     <div class="eyebrow">Naira Petite · Albyluxe · Approval · 7 November 2026 · updated 13 November</div>
     <h1 id="h1">New pieces to approve</h1>
-    <p class="dek" id="dek">Every piece from your 20 photos (the two-stone rings left out, as you asked), with its listing photos, size card, copy, price, variants and stock. Each photo was checked against your photo or the supplier's, and the corrections from the audit are made. The in-palm photos are removed, and the three rings you sent photos of are redone from them. Nothing goes to Shopify until you approve it here and say ship.</p>
+    <p class="dek" id="dek">Every piece from your 20 photos (the two-stone rings left out, as you asked), with its listing photos, size card, copy, price, variants and stock. Each photo was checked against your photo or the supplier's, and the corrections from the audit are made. The in-palm photos are removed, and the three rings you sent photos of are redone from them. On 13 November the four pieces you approved went live on Shopify (at the bottom of the page); the rest stay here with your choices saved, to ship later.</p>
     <div class="facts" id="facts"></div>
   </header>
 
@@ -55,6 +58,12 @@
 
   <div class="list" id="list"></div>
 
+  <section class="held" id="live" aria-labelledby="live-h" hidden>
+    <h2 id="live-h">Live on Shopify</h2>
+    <p class="lead">Shipped on 13 November, when you said "Ship approved ones": live on all six sales channels with their photos, size card, copy and stock. They are out of the counts and the sign-off above, so they cannot be sent twice.</p>
+    <div class="list" id="live-list"></div>
+  </section>
+
   <section class="held" id="aside" aria-labelledby="aside-h" hidden>
     <h2 id="aside-h">Set aside</h2>
     <p class="lead">Set aside on 12 November, as you asked: these rings are not in the counts above or the sign-off, and nothing more is spent on them until you say. Their photos and notes are kept here as they are.</p>
@@ -77,7 +86,7 @@
 <script>
 (() => {
   const D = JSON.parse(document.getElementById("data").textContent);
-  const L = D.listings || [], A = D.aside || [];
+  const L = D.listings || [], A = D.aside || [], LV = D.live || [];
   const state = { f: "All", decisions: {}, signoff: null, db: null };
   const $ = (s, r = document) => r.querySelector(s);
   const el = (t, a = {}, kids = []) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === "text") e.textContent = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v); } for (const k of [].concat(kids)) if (k) e.append(k); return e; };
@@ -89,7 +98,7 @@
 
   const units = L.reduce((a, x) => a + nvar(x) * x.units, 0);
   const photos = L.reduce((a, x) => a + x.images.filter(i => i.kind === "photo").length, 0);
-  [[L.length, "pieces"], [L.reduce((a, x) => a + nvar(x), 0), "variants"], [units, "units, as proposed"], [photos, "listing photos"], [L.filter(x => x.flags.length).length, "with something to confirm"]].concat(A.length ? [[A.length, "set aside"]] : [])
+  [[L.length, "pieces"], [L.reduce((a, x) => a + nvar(x), 0), "variants"], [units, "units, as proposed"], [photos, "listing photos"], [L.filter(x => x.flags.length).length, "with something to confirm"]].concat(A.length ? [[A.length, "set aside"]] : []).concat(LV.length ? [[LV.length, "live on Shopify"]] : [])
     .forEach(([n, t]) => $("#facts").append(el("div", { class: "fact" }, [el("b", { text: String(n) }), el("span", { text: t })])));
   (D.assume || []).forEach(t => $("#assume").append(el("li", { text: t })));
   $("#how").textContent = D.how || "";
@@ -105,8 +114,8 @@
 
   function card(x) {
     const d = dec(x.id);
-    const ro = !!x.aside;
-    const c = el("article", ro ? { class: "card set", id: "p-" + x.id } : { class: "card", id: "p-" + x.id, "data-d": decOf(x.id) });
+    const ro = !!(x.aside || x.live);
+    const c = el("article", ro ? { class: x.live ? "card live" : "card set", id: "p-" + x.id } : { class: "card", id: "p-" + x.id, "data-d": decOf(x.id) });
     const strip = el("div", { class: "strip" });
     x.images.forEach(im => {
       const f = el("figure", { class: im.kind === "source" ? "src" : im.kind === "size" ? "card-size" : "" });
@@ -117,9 +126,10 @@
     c.append(strip);
     const left = el("div", { style: "min-width:0" });
     left.append(el("div", { class: "head" }, [el("h2", { class: "name", text: x.title }), el("span", { class: "kind", text: x.type }),
+      x.live ? el("span", { class: "badge live", text: "Live on Shopify" }) :
       ro ? el("span", { class: "badge set", text: "Set aside" }) :
       el("span", { class: "badge " + (x.flags.length ? "chg" : "ok"), text: x.flags.length ? "Something to confirm" : "Ready" })]));
-    if (ro) left.append(el("p", { class: "why", text: x.aside }));
+    if (ro) left.append(el("p", { class: "why", text: x.live || x.aside }));
     const p = el("div", { class: "price" }); const pr = val(x, "price"), cp = val(x, "compare");
     p.innerHTML = `<b>${rs(pr)}</b>` + (cp ? `<s>${rs(cp)}</s>` : `<span class="m">no compare-at price</span>`) + `<span class="m">${val(x, "units")} units per variant</span>`; left.append(p);
     const vs = el("div", { class: "vars" });
@@ -208,6 +218,7 @@
     if (!(await write("approve/signoff", v))) $("#so-status").textContent = "Not saved: try again.";
   });
 
+  if (LV.length) { $("#live").hidden = false; LV.forEach(x => $("#live-list").append(card(x))); }
   if (A.length) { $("#aside").hidden = false; A.forEach(x => $("#aside-list").append(card(x))); }
   render();
   (async () => {

@@ -1,0 +1,72 @@
+{
+ "molten-wave-oval-ring": {
+  "id": "gid://shopify/Product/10390747447458",
+  "piece": "L01",
+  "status": "ACTIVE",
+  "variant": "gid://shopify/ProductVariant/50864021930146",
+  "sku": "MWOR",
+  "price": "1249.00",
+  "compareAtPrice": "1999.00",
+  "units": 12,
+  "media": [
+   "gid://shopify/MediaImage/46842979287202",
+   "gid://shopify/MediaImage/46842979319970",
+   "gid://shopify/MediaImage/46842979352738",
+   "gid://shopify/MediaImage/46842979385506"
+  ],
+  "sizeCard": "molten-wave-oval-ring-size-guide.jpg",
+  "shipped": "2026-11-13"
+ },
+ "marquise-molten-bar-ring": {
+  "id": "gid://shopify/Product/10390747480226",
+  "piece": "L02",
+  "status": "ACTIVE",
+  "variant": "gid://shopify/ProductVariant/50864021962914",
+  "sku": "MMBR",
+  "price": "1249.00",
+  "compareAtPrice": "1999.00",
+  "units": 5,
+  "media": [
+   "gid://shopify/MediaImage/46842979451042",
+   "gid://shopify/MediaImage/46842979483810",
+   "gid://shopify/MediaImage/46842979516578",
+   "gid://shopify/MediaImage/46842979549346"
+  ],
+  "sizeCard": "marquise-molten-bar-ring-size-guide.jpg",
+  "shipped": "2026-11-13"
+ },
+ "twin-cluster-open-ring": {
+  "id": "gid://shopify/Product/10390747512994",
+  "piece": "L03",
+  "status": "ACTIVE",
+  "variant": "gid://shopify/ProductVariant/50864021995682",
+  "sku": "TCOR",
+  "price": "1199.00",
+  "compareAtPrice": "2199.00",
+  "units": 12,
+  "media": [
+   "gid://shopify/MediaImage/46842979582114",
+   "gid://shopify/MediaImage/46842979614882",
+   "gid://shopify/MediaImage/46842979647650"
+  ],
+  "sizeCard": "twin-cluster-open-ring-size-guide.jpg",
+  "shipped": "2026-11-13"
+ },
+ "baroque-pearl-duet-ring": {
+  "id": "gid://shopify/Product/10390747545762",
+  "piece": "L06",
+  "status": "ACTIVE",
+  "variant": "gid://shopify/ProductVariant/50864022028450",
+  "sku": "BPDR",
+  "price": "999.00",
+  "compareAtPrice": "1899.00",
+  "units": 5,
+  "media": [
+   "gid://shopify/MediaImage/46842979713186",
+   "gid://shopify/MediaImage/46842979745954",
+   "gid://shopify/MediaImage/46842979778722"
+  ],
+  "sizeCard": "baroque-pearl-duet-ring-size-guide.jpg",
+  "shipped": "2026-11-13"
+ }
+}

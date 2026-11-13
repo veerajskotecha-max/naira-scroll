@@ -13,25 +13,28 @@ On 12 Nov the owner asked for the audit's corrections to be made ("Do changes"),
 
 ## Where things stand
 
-- **The approval page.** <https://claude.ai/artifact/TTS2ManafPXJ3ujNQaNSLR> (version 4, 13 Nov). It is private to the owner.
-  - It shows all 18 pieces up for sign-off with every listing photo, the size card, the photo each piece was made from, the copy, the price and compare-at price, the variants and SKUs, what was checked and redone, and what is still to confirm.
+- **The approval page.** <https://claude.ai/artifact/TTS2ManafPXJ3ujNQaNSLR> (version 7, 13 Nov). It is private to the owner.
+  - Since the 13 Nov ship, the four live pieces sit read-only in a "Live on Shopify" section at the bottom, outside the counts and the sign-off, so they cannot be sent twice. The other 14 are still up for sign-off.
+  - It shows each piece with every listing photo, the size card, the photo each piece was made from, the copy, the price and compare-at price, the variants and SKUs, what was checked and redone, and what is still to confirm.
   - Each piece has Approve, Change and Hold, editable price, compare-at and units, and a note. "Approve N for Shopify" records the sign-off.
   - Choices are saved in the page's database: `approve/<id>` and `approve/signoff`. On 12 Nov the only saved choice was L01, marked Change with the owner's note (done: its third photo is removed). No sign-off yet.
+  - Saved on 13 Nov (read 01:10 UTC): Approve L01 (₹1,249, 12 units), L02 (₹1,249), L03 (12 units, note: adjustable US 6 to 8) and L06; Hold L04, L05, L08 to L13 and L15 to L18; no choice yet on L07 and L14. The sign-off button was not pressed; the owner said ship in the chat. These choices stay in the database for later.
 - **Corrections, 12 Nov.** The 7 Nov audit ([corrections.md](corrections.md)) is worked through: the status of every piece is at the top of that file, and each card's checks on the page say what was redone. Defaults taken while Albyluxe's answers are open: L10 has four bands (title kept), L13 keeps the open back as drawn, L15 keeps the beaded edge, L17 is a full eternity, L18 is unchanged; each is flagged in amber.
 - **13 Nov.** The in-palm photos are withdrawn from every piece, and so are the worn photos that had been resized by hand (L09, L13): no photo on a body is put together or resized by hand. L02, L03 and L06, set aside on 12 Nov, are back and redone from the owner's photos: L02's molten bar is now a chunky rod (it was drawn as a thin wire) and L03's band broad and heavy (it was drawn slim). Worn photos are made directly or left out: L02 has the one the owner picked as correct (the first try, hand at the collarbone); L03, L06, L09 and L13 have none, because every direct try drew them too large or set them over two fingers. The page's set-aside section stays in the template, empty and hidden.
-- **Nothing has been created or changed on Shopify or Meta.**
-- The ship (one mutation, as `../albyluxe-31oct/build/ship_31oct.py`) runs only after the sign-off and the word "ship".
+- **Shipped 13 Nov (01:26 UTC).** L01, L02, L03 and L06 are live on Shopify on all six sales channels. See "Shipped" below.
+- **Held.** The other 14 are not listed. Their photos, copy, cards and page choices stay here to ship later.
+- **No Meta ad was changed.**
 
 ## The pieces
 
 | Id | Name | SKU | Price / compare-at | Variants | Photos |
 |---|---|---|---|---|---|
-| L01 | Molten Wave Oval Ring | MWOR | ₹1,099 / ₹1,999 | adjusts US 5 to 9 | 3 |
-| L02 | Marquise Molten Bar Ring | MMBR | ₹1,099 / ₹1,999 | adjusts US 5 to 9 | 3 |
-| L03 | Twin Cluster Open Ring | TCOR | ₹1,199 / ₹2,199 | adjusts US 5 to 9 | 2 |
+| L01 | Molten Wave Oval Ring | MWOR | ₹1,249 / ₹1,999 (owner), 12 units, **live** | adjusts US 5 to 9 | 3 |
+| L02 | Marquise Molten Bar Ring | MMBR | ₹1,249 / ₹1,999 (owner), **live** | adjusts US 5 to 9 | 3 |
+| L03 | Twin Cluster Open Ring | TCOR | ₹1,199 / ₹2,199, 12 units (owner), **live** | adjusts US 6 to 8 (owner) | 2 |
 | L04 | Lilac Flutter Studs | LFS | ₹999 / ₹1,899 | one | 4 |
 | L05 | Blush Octagon Studs | BOS | ₹999 / ₹1,899 | one | 4 |
-| L06 | Baroque Pearl Duet Ring | BPDR | ₹999 / ₹1,899 | adjusts US 5 to 9 | 2 |
+| L06 | Baroque Pearl Duet Ring | BPDR | ₹999 / ₹1,899, **live** | adjusts US 5 to 9 | 2 |
 | L07 | Two-Tone Heart Snake Chain | TTHS | ₹1,299 / ₹2,499 | one | 4 |
 | L08 | Baguette Heart Necklace | JDN0305301 | ₹1,199 / ₹2,199 | one | 2 |
 | L09 | Duet Emerald-Cut Cuff | DEC-PK, DEC-CL, DEC-AQ | ₹1,199 / ₹2,199 | Pink, Clear, Aqua | 6 |
@@ -45,7 +48,7 @@ On 12 Nov the owner asked for the audit's corrections to be made ("Do changes"),
 | L17 | Aqua Emerald-Cut Band | AECB | ₹1,199 / ₹2,199 | US 6, 7, 8 | 3 |
 | L18 | Aqua Oval Cocktail Ring | AOCR | ₹1,099 / ₹1,999 | US 6, 7, 8 | 4 |
 
-Up for sign-off: 18 pieces, 41 variants, 5 units each as proposed (205 units), 82 listing photos. The three two-stone rings (a pear and an emerald-cut side by side, pink and clear) are left out, as the owner said: they are the
+Put up for sign-off: 18 pieces, 41 variants, 5 units each as proposed (205 units), 82 listing photos. The three two-stone rings (a pear and an emerald-cut side by side, pink and clear) are left out, as the owner said: they are the
 Duet Emerald-Cut Ring already on Shopify as a draft (DER-GR, DER-PK, DER-CL). No SKU or title clashes with the live store (checked on Shopify).
 
 ## How the photos were made and checked
@@ -131,10 +134,49 @@ Ring and cuff worn shots now ask for the whole hand and wrist in frame (`build.p
 - L15: plain or beaded edge (beaded drawn), step or radiant cut.
 - L17: full or half eternity (full drawn). L18: the stone size (about 13 × 18 mm) and whether the oval sits along or across the finger.
 
+## Shipped (13 Nov 2026)
+
+The owner said "Ship approved ones, jomd ones heelp data stored we will use later": ship the approved pieces, and keep the held
+ones' data to use later. The page's database (read at 01:10 UTC) had four pieces on Approve, twelve on Hold, two with no choice
+and no sign-off, so the four marked Approve went, at the prices and units the owner set on the page.
+
+- **Before the ship.**
+  - L03: the owner's note on the page ("for size 6-7-8 adjustable") made its size line "Open, adjusts to fit US 6 to 8" and its
+    card shade US 6 to 8 (`OPEN_68` in `build/sizecards.py`). The note's "same on both sides and probably thicker" fits the redraw
+    from the video frames: a wide, flat band of one width all round.
+  - The size cards of L01, L02 and L06 no longer say "to confirm": the owner approved them as open rings.
+  - Copy: three bare "gold"s became "gold tone" or were cut. L01 opens "Three molten strands, one oval of light."; L06 opens "A
+    pearl and a polished pebble." and its tip says "the pearl and the gold tone nugget".
+  - Read-only checks: none of the four SKUs, titles or handles was in the store, and no file had a card's name. The location and the
+    six channels were as on 31 Oct.
+- **The mutation (01:26 UTC).** `build/put.py` (copied from 31 Oct) put the 10 exports and 4 cards on Higgsfield's store for public
+  URLs (`build/url_map.json`; each copy checked byte for byte). `build/ship_13nov.py` built `shopify/ship_13nov.graphql` and
+  `shopify/ship_13nov.json`: autoPublish on for the six channels, four productSets, autoPublish off. No status was sent (the house
+  rule for productSet); a new product is Active by default, as the page promised. No user errors.
+- **Verified (01:30 UTC).**
+  - All four are ACTIVE and published on all six channels. autoPublish is off again on all six.
+  - L01: ₹1,249 against ₹1,999, 12 units. L02: ₹1,249 against ₹1,999, 5 units. L03: ₹1,199 against ₹2,199, 12 units. L06: ₹999
+    against ₹1,899, 5 units. Stock is tracked at Forest Colony Parijat Nagar, inventory policy DENY.
+  - All 14 media are READY: 10 photos at 1288 × 1600 and 4 cards at 1600 × 1600, each card last in its gallery. Each variant's image
+    is its first photo, and the alt texts are as built.
+  - Every CDN copy matches its export (mean difference 0.69 to 2.34 out of 255) and is far closer to its own file than to any other
+    in its listing (24.9 or more). Each description's size-guide link returns its card.
+  - Type, category, tags, SEO and the Google and Facebook category metafields follow the live ring listings. Ids are in
+    `shopify/pushed_13nov.json`.
+- **Not done.**
+  - The storefront snapshot in the Lovable repo was not regenerated: adding that repo to this session was not allowed. The four
+    rings are on the Lovable sales channel in Shopify.
+  - No Meta ad was changed. The Quintet Stack Ring card swap is still undecided.
+- **Held, kept for later.** L04, L05, L08, L09, L10, L11, L12, L13, L15, L16, L17 and L18 are on Hold, and L07 and L14 have no
+  choice yet. Their copy (`build/listings.json`, status "hold" or "proposed"), exports, cards, references, checks and page choices
+  stay as they are. To ship one later, mark it Approve on the page and build a mutation for those ids only. Do not rerun
+  `build/ship_13nov.py` as it is: productSet without ids would create the four live rings again.
+
 ## Files
 
 - `approve/`: the page (`index.html`, built by `build/approve.py` from `template.html` and `base.css`) and its web photos (`img/`, rebuilt from scratch on each run).
-- `build/`: specs (`skus.json`), listings (`listings.json`, with `aside` on the three set-aside rings), checks (`checks.json`), frames (`frames.json`), job ids (`jobs.json`) and result URLs (`results.json`), batch indexes (`idx_*.json`), prompts (`req_*.json` for 7 Nov, `requests_12nov/`), and the scripts above. `build/out/` (the 2K frames and cut-outs) is not committed.
+- `shopify/`: the 13 Nov ship mutation (`ship_13nov.graphql`, `ship_13nov.json`) and the shipped ids (`pushed_13nov.json`).
+- `build/`: specs (`skus.json`), listings (`listings.json`: `status` shipped, hold or proposed; `live` on the four shipped), checks (`checks.json`), frames (`frames.json`), job ids (`jobs.json`) and result URLs (`results.json`), batch indexes (`idx_*.json`), prompts (`req_*.json` for 7 Nov, `requests_12nov/`), and the scripts above. `build/out/` (the 2K frames and cut-outs) is not committed.
 - `cards/`, `exports/`, `refs/`, and [corrections.md](corrections.md) (the 7 Nov audit, with the 12 Nov status at the top).
 
 ## Rebuilding

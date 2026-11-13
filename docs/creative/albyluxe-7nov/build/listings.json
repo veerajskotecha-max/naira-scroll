@@ -4,15 +4,15 @@
   "title": "Molten Wave Oval Ring",
   "type": "Ring",
   "sku": "MWOR",
-  "price": 1099,
+  "price": 1249,
   "compare": 1999,
-  "units": 5,
+  "units": 12,
   "option": null,
   "src": [
    1
   ],
-  "status": "proposed",
-  "intro": "Three strands of poured gold, one oval of light. Three smooth molten gold tone strands sweep across the finger and fan apart, and the finest of them curls around a clear oval cut cubic zirconia of about 5 x 7mm in slim claws.",
+  "status": "shipped",
+  "intro": "Three molten strands, one oval of light. Three smooth molten gold tone strands sweep across the finger and fan apart, and the finest of them curls around a clear oval cut cubic zirconia of about 5 x 7mm in slim claws.",
   "details": [
    "Stone: One clear oval cut cubic zirconia, approximately 5 x 7mm, held by the curling strand and slim claws",
    "Design: Three molten strands, from a fine one to a bold one of about 2.5mm, covering about 15mm of the finger at the widest",
@@ -21,23 +21,23 @@
   ],
   "tip": "Wear it alone on the index finger, where the strands can be seen.",
   "flags": [
-   "Read from your photo on the hand: that it is open and adjusts is a guess, so check the back of the ring before it ships.",
-   "Your note on the page: the third photo (the second on the hand) is removed and the rest kept, as you asked. It is still marked Change from that note: mark it Approve if it is right now."
-  ]
+   "That the band is open and adjusts from US 5 to 9 is read from your photo: if the back is closed, say so and the size line and card change."
+  ],
+  "live": "Live on Shopify since 13 November, on all six sales channels: ₹1,249 against ₹1,999, 12 units. Photos, size card, copy and stock are as shown here."
  },
  {
   "id": "L02",
   "title": "Marquise Molten Bar Ring",
   "type": "Ring",
   "sku": "MMBR",
-  "price": 1099,
+  "price": 1249,
   "compare": 1999,
   "units": 5,
   "option": null,
   "src": [
    2
   ],
-  "status": "proposed",
+  "status": "shipped",
   "intro": "A cut stone beside a poured line. This open ring sets a clear marquise cut cubic zirconia of about 5.5 x 11mm in four claws beside a long, chunky molten gold tone bar, both following the band, so the two lie side by side across the finger in the toi et moi form.",
   "details": [
    "Stone: One clear marquise cut cubic zirconia, approximately 5.5 x 11mm",
@@ -47,8 +47,9 @@
   ],
   "tip": "Wear it on the middle or ring finger, where the bar can reach past both edges of the finger.",
   "flags": [
-   "Whether the band is open at the back (adjustable) is read from your photo: check it on the piece before it ships."
-  ]
+   "That the band is open and adjusts from US 5 to 9 is read from your photo: if the back is closed, say so and the size line and card change."
+  ],
+  "live": "Live on Shopify since 13 November, on all six sales channels: ₹1,249 against ₹1,999, 5 units. Photos, size card, copy and stock are as shown here."
  },
  {
   "id": "L03",
@@ -57,25 +58,25 @@
   "sku": "TCOR",
   "price": 1199,
   "compare": 2199,
-  "units": 5,
+  "units": 12,
   "option": null,
   "src": [
    3
   ],
-  "status": "proposed",
+  "status": "shipped",
   "intro": "Two small clusters, facing each other. A wide, flat open band of polished gold tone ends in two clusters of clear cubic zirconia that meet across the top of the finger: a large pear with two round stones on one side, and two pears with their points turned outward and a small round on the other.",
   "details": [
    "Stones: Six clear cubic zirconia: three pears and three rounds",
    "Clusters: Approximately 10 to 12mm across each",
    "Band: Wide and flat, approximately 10 to 12mm wide",
-   "Size: Open, adjusts to fit US 5 to 9",
+   "Size: Open, adjusts to fit US 6 to 8",
    "Finish: Polished gold tone"
   ],
   "tip": "Two clusters that meet across the top of the finger: wear it alone on that hand.",
   "flags": [
-   "Redrawn from your three video frames of 13 Nov: six stones (a large pear with two rounds on one end, two pears and a small round on the other) on a flat band of about 10 to 12mm. Please measure the band's width before it ships.",
-   "No photo on the hand for now: two tries changed the stones or split the ring over two fingers."
-  ]
+   "The band's width (about 10 to 12mm in the copy) is read from your video: if it measures differently, say so and the copy changes."
+  ],
+  "live": "Live on Shopify since 13 November, on all six sales channels: ₹1,199 against ₹2,199, 12 units. Photos, size card, copy and stock are as shown here."
  },
  {
   "id": "L04",
@@ -89,7 +90,7 @@
   "src": [
    4
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "Four lilac wings on a gold bead. Each stud sets two marquise and two pear cut cubic zirconia in soft lilac, in fine gold tone claws around a tiny gold bead, so it opens like a butterfly on the lobe.",
   "details": [
    "Size: Approximately 15mm across",
@@ -116,7 +117,7 @@
   "src": [
    5
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "One blush stone, eight equal sides. Each stud holds a single octagon cut cubic zirconia of about 9.5mm in soft blush pink, faceted to catch peach and rose flashes, in a slim gold tone setting.",
   "details": [
    "Size: Approximately 9.5mm across",
@@ -142,20 +143,19 @@
   "src": [
    6
   ],
-  "status": "proposed",
-  "intro": "A pearl and a pebble of gold. This open ring sets a long, ridged baroque shell pearl of about 15 x 7mm in a fine gold tone rim, beside a smooth polished gold tone nugget, the two side by side, each running along the finger.",
+  "status": "shipped",
+  "intro": "A pearl and a polished pebble. This open ring sets a long, ridged baroque shell pearl of about 15 x 7mm in a fine gold tone rim, beside a smooth polished gold tone nugget, the two side by side, each running along the finger.",
   "details": [
    "Pearl: One baroque shell pearl, approximately 15 x 7mm, in a fine gold tone rim",
    "Nugget: Polished gold tone, approximately 12 x 6mm",
    "Size: Open, adjusts to fit US 5 to 9",
    "Finish: Polished gold tone"
   ],
-  "tip": "Let it be the only ring on that hand: the pearl and the gold already make the pair.",
+  "tip": "Let it be the only ring on that hand: the pearl and the gold tone nugget already make the pair.",
   "flags": [
-   "From a soft zoomed screenshot: confirm the pearl type with Albyluxe. The copy says shell pearl, as the house does.",
-   "Open band assumed from the two-head design: check the back of the ring before it ships.",
-   "No photo on the hand: every try drew the pearl too large or set the two heads over two fingers, so none is used."
-  ]
+   "The shell pearl and the open band are read from a screenshot: if either is wrong, say so and the copy changes."
+  ],
+  "live": "Live on Shopify since 13 November, on all six sales channels: ₹999 against ₹1,899, 5 units. Photos, size card, copy and stock are as shown here."
  },
  {
   "id": "L07",
@@ -195,7 +195,7 @@
   "src": [
    8
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "A heart built from straight lines. A domed gold tone heart of about 14mm across holds a mosaic of clear baguette and square cut cubic zirconia standing in columns, joined at both sides to a fine gold tone cable chain so it sits flat at the throat.",
   "details": [
    "Heart: Approximately 14 x 12mm",
@@ -238,7 +238,7 @@
   "src": [
    9
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "Two stones meeting at the wrist. A slim open cuff of polished gold tone wire ends in a clear square cubic zirconia on one side and an emerald cut cubic zirconia in pink, clear or aqua on the other, each in a gold tone box setting.",
   "details": [
    "Stones: One clear square cubic zirconia and one emerald cut cubic zirconia, each approximately 5 to 6mm",
@@ -286,7 +286,7 @@
    10,
    11
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "Three stone bands that move as one. Three stone-set bands, linked by a plain polished gold tone band, roll together on the finger: a slim gold tone band channel set with small square stones, a silver tone band channel set with small baguette stones, and a wider gold tone band with round stones set flush, in green, white or red cubic zirconia.",
   "details": [
    "Width: Approximately 11mm worn together",
@@ -328,7 +328,7 @@
    12,
    13
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "A bold drop with a spark beside it. Each earring is a thick, high polish teardrop hoop of about 18mm with a hinged back, and a clear pear cut cubic zirconia of about 5 x 7mm on a fine wire beside its lower half.",
   "details": [
    "Size: Approximately 18mm long, 7mm at the widest",
@@ -354,7 +354,7 @@
   "src": [
    14
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "The baguette heart, for the ears. Each stud is a gold tone heart of about 14mm with a smooth rounded rim around a mosaic of clear baguette and square cut cubic zirconia standing in columns.",
   "details": [
    "Size: Approximately 14mm across",
@@ -381,7 +381,7 @@
   "src": [
    15
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "Gold worked like lace. A lozenge of fine beaded gold tone circles, about 16mm from point to point, sits on top of the finger on a slim band, its scalloped edges letting the skin show through like lace.",
   "details": [
    "Width: Approximately 15mm at its widest, tapering to the sides",
@@ -456,7 +456,7 @@
   "src": [
    17
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "One clear stone, framed. Each stud is a single emerald-cut cubic zirconia of about 8 by 10mm, closed in a polished gold tone bezel.",
   "details": [
    "Size: Approximately 10 x 12.5mm with the frame",
@@ -484,7 +484,7 @@
   "src": [
    18
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "Two rings with a chain of light between them. Two slim gold tone bands, one for the index finger and one for the ring finger, are joined by a fine chain hung with five small clear charms: three emerald-cut and two pear cubic zirconia, each in a closed gold tone bezel.",
   "details": [
    "Bands: Two slim bands, about 2mm wide",
@@ -516,7 +516,7 @@
   "src": [
    20
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "A row of sea glass for the finger. Pale aqua emerald-cut cubic zirconia of about 4.5 by 6.5mm sit end to end, each in its own polished gold tone box, so from the front the band is all stone.",
   "details": [
    "Width: Approximately 6mm",
@@ -547,7 +547,7 @@
   "src": [
    20
   ],
-  "status": "proposed",
+  "status": "hold",
   "intro": "One big pale aqua oval, simply set. A faceted oval cubic zirconia in a soft mint aqua, about 13 by 18mm, sits in a slim polished gold tone bezel on a slim plain band.",
   "details": [
    "Stone: Pale aqua oval cubic zirconia, approximately 13 x 18mm",
