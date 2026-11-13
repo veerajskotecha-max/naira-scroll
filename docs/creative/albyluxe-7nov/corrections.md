@@ -4,7 +4,7 @@ This is an audit, made on 7 Nov 2026, of all 18 pieces against the photos you an
 
 ## Status, 13 Nov
 
-The owner had every in-palm photo removed and ruled out photos put together by hand, so the in-palm photos and the hand-resized worn photos (L09, L13) are withdrawn. L02, L03 and L06 are back from the side and redone from the owner's photos: L02's bar and L03's band are now as thick as the actual rings. Worn photos that the generator could not make at true size are left out (L06, L09, L13); L02 uses the worn photo the owner picked. Details in the README. 40 credits.
+The owner had every in-palm photo removed and ruled out photos put together by hand, so the in-palm photos and the hand-resized worn photos (L09, L13) are withdrawn. L02, L03 and L06 are back from the side and redone from the owner's photos: L02's bar and L03's band are now as thick as the actual rings. Worn photos that the generator could not make at true size are left out (L03, L06, L09, L13); L02 uses the worn photo the owner picked. L03 was redrawn again from the owner's three clearer video frames: a wide, flat band of about 10 to 12 mm and six stones. Details in the README. 40 credits.
 
 ## Status, 12 Nov
 

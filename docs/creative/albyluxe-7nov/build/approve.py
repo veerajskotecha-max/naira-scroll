@@ -20,8 +20,8 @@ ASSUME = [
     "13 Nov: the in-palm photos are gone from every piece, as you asked: they were a cut-out laid on a photo of a palm, made by hand. No "
     "photo on a body is put together or resized by hand any more: a photo that came out wrong was made again on Higgsfield or left out.",
     "The three rings you sent photos of are back and redone from your photos and video: the Marquise Molten Bar Ring with its chunky "
-    "molten bar, the Twin Cluster Open Ring with its broad, heavy band, and the Baroque Pearl Duet Ring. Where the generator could not "
-    "draw a piece at its true size on the body (L06, L09, L13), that piece has no worn photo for now; L02's photo on the hand is the one "
+    "molten bar, the Twin Cluster Open Ring with its wide, flat band and six stones (from your video frames), and the Baroque Pearl Duet Ring. Where the generator could not "
+    "draw a piece at its true size on the body (L03, L06, L09, L13), that piece has no worn photo for now; L02's photo on the hand is the one "
     "you picked.",
     "The baguette ring you asked for in green, white and red is the Interlocked Baguette Trio Ring. The supplier only shows it in green, "
     "so the White and Red photos are the green photos with only the stones recoloured.",
@@ -70,7 +70,7 @@ for x in L:
     if os.path.exists(card):
         dst = f"img/{h}-size.jpg"; save(card, os.path.join(A, dst), (1000, 1000), "contain")
         images.append({"src": dst, "alt": f"Size card for {x['title']}", "label": "Size card", "kind": "size"})
-    ref = next((os.path.join(H, "../refs", f"{x['id']}_{s}.jpg") for s in ("full", "det") if os.path.exists(os.path.join(H, "../refs", f"{x['id']}_{s}.jpg"))), None)
+    ref = next((os.path.join(H, "../refs", f"{x['id']}_{s}.jpg") for s in ("v2", "full", "det") if os.path.exists(os.path.join(H, "../refs", f"{x['id']}_{s}.jpg"))), None)
     if ref:
         dst = f"img/{h}-src.jpg"; save(ref, os.path.join(A, dst), (800, 800), "contain")
         images.append({"src": dst, "alt": f"The photo {x['title']} was made from", "label": "Your photo", "kind": "source"})

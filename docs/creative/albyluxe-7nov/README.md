@@ -18,7 +18,7 @@ On 12 Nov the owner asked for the audit's corrections to be made ("Do changes"),
   - Each piece has Approve, Change and Hold, editable price, compare-at and units, and a note. "Approve N for Shopify" records the sign-off.
   - Choices are saved in the page's database: `approve/<id>` and `approve/signoff`. On 12 Nov the only saved choice was L01, marked Change with the owner's note (done: its third photo is removed). No sign-off yet.
 - **Corrections, 12 Nov.** The 7 Nov audit ([corrections.md](corrections.md)) is worked through: the status of every piece is at the top of that file, and each card's checks on the page say what was redone. Defaults taken while Albyluxe's answers are open: L10 has four bands (title kept), L13 keeps the open back as drawn, L15 keeps the beaded edge, L17 is a full eternity, L18 is unchanged; each is flagged in amber.
-- **13 Nov.** The in-palm photos are withdrawn from every piece, and so are the worn photos that had been resized by hand (L09, L13): no photo on a body is put together or resized by hand. L02, L03 and L06, set aside on 12 Nov, are back and redone from the owner's photos: L02's molten bar is now a chunky rod (it was drawn as a thin wire) and L03's band broad and heavy (it was drawn slim). Worn photos are made directly or left out: L03 has one, and L02 has the one the owner picked as correct (the first try, hand at the collarbone); L06, L09 and L13 have none, because every direct try drew them too large or set them over two fingers. The page's set-aside section stays in the template, empty and hidden.
+- **13 Nov.** The in-palm photos are withdrawn from every piece, and so are the worn photos that had been resized by hand (L09, L13): no photo on a body is put together or resized by hand. L02, L03 and L06, set aside on 12 Nov, are back and redone from the owner's photos: L02's molten bar is now a chunky rod (it was drawn as a thin wire) and L03's band broad and heavy (it was drawn slim). Worn photos are made directly or left out: L02 has the one the owner picked as correct (the first try, hand at the collarbone); L03, L06, L09 and L13 have none, because every direct try drew them too large or set them over two fingers. The page's set-aside section stays in the template, empty and hidden.
 - **Nothing has been created or changed on Shopify or Meta.**
 - The ship (one mutation, as `../albyluxe-31oct/build/ship_31oct.py`) runs only after the sign-off and the word "ship".
 
@@ -28,7 +28,7 @@ On 12 Nov the owner asked for the audit's corrections to be made ("Do changes"),
 |---|---|---|---|---|---|
 | L01 | Molten Wave Oval Ring | MWOR | ₹1,099 / ₹1,999 | adjusts US 5 to 9 | 3 |
 | L02 | Marquise Molten Bar Ring | MMBR | ₹1,099 / ₹1,999 | adjusts US 5 to 9 | 3 |
-| L03 | Twin Cluster Open Ring | TCOR | ₹1,199 / ₹2,199 | adjusts US 5 to 9 | 3 |
+| L03 | Twin Cluster Open Ring | TCOR | ₹1,199 / ₹2,199 | adjusts US 5 to 9 | 2 |
 | L04 | Lilac Flutter Studs | LFS | ₹999 / ₹1,899 | one | 4 |
 | L05 | Blush Octagon Studs | BOS | ₹999 / ₹1,899 | one | 4 |
 | L06 | Baroque Pearl Duet Ring | BPDR | ₹999 / ₹1,899 | adjusts US 5 to 9 | 2 |
@@ -45,7 +45,7 @@ On 12 Nov the owner asked for the audit's corrections to be made ("Do changes"),
 | L17 | Aqua Emerald-Cut Band | AECB | ₹1,199 / ₹2,199 | US 6, 7, 8 | 3 |
 | L18 | Aqua Oval Cocktail Ring | AOCR | ₹1,099 / ₹1,999 | US 6, 7, 8 | 4 |
 
-Up for sign-off: 18 pieces, 41 variants, 5 units each as proposed (205 units), 83 listing photos. The three two-stone rings (a pear and an emerald-cut side by side, pink and clear) are left out, as the owner said: they are the
+Up for sign-off: 18 pieces, 41 variants, 5 units each as proposed (205 units), 82 listing photos. The three two-stone rings (a pear and an emerald-cut side by side, pink and clear) are left out, as the owner said: they are the
 Duet Emerald-Cut Ring already on Shopify as a draft (DER-GR, DER-PK, DER-CL). No SKU or title clashes with the live store (checked on Shopify).
 
 ## How the photos were made and checked
@@ -106,6 +106,8 @@ What did not work: a Higgsfield edit to shrink a heart in place (L08), to fix a 
 | L06 | Packshot and macro kept (they match the owner's photo). Three worn tries, one guided by the owner's photo: the pearl 1.35 to 2.5 times too long or the heads over two fingers; none is used. |
 | L09 | The hand-resized worn photos withdrawn; two direct tries drew the stones about twice their size; none is used. |
 | L13 | The hand-resized worn photos withdrawn; three direct tries, one guided by the supplier's photo, drew the lozenge 1.2 to 2 times too large or as an oval; none is used. |
+
+Later on 13 Nov the owner sent three clearer frames of their L03 video (`refs/L03_v2.jpg`, `refs/L03_v3.jpg`): the band is a wide, flat cigar band of about 10 to 12 mm with squared edges, and the ring has SIX stones, a large pear with a medium and a small round on one end, two pears with a small round and the bead row on the other, all set low on the band's face. L03 was redone from them (packshot `L03_H5`, macro `L03_M5`; a second packshot drew marquises and extra stones and was rejected); two worn tries changed the stones or split the ring over two fingers, so L03 has no worn photo, and its earlier worn photo (the old four-stone version) is withdrawn. 10 credits.
 
 Ring and cuff worn shots now ask for the whole hand and wrist in frame (`build.py`), and a worn try can be guided by a photo of the piece worn (`build/requests_13nov/req_616.json`, `req_617.json`): neither got these four pieces to true size.
 
