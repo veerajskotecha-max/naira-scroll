@@ -21,7 +21,8 @@ ASSUME = [
     "photo on a body is put together or resized by hand any more: a photo that came out wrong was made again on Higgsfield or left out.",
     "The three rings you sent photos of are back and redone from your photos and video: the Marquise Molten Bar Ring with its chunky "
     "molten bar, the Twin Cluster Open Ring with its broad, heavy band, and the Baroque Pearl Duet Ring. Where the generator could not "
-    "draw a piece at its true size on the body (L02, L06, L09, L13), that piece has no worn photo for now.",
+    "draw a piece at its true size on the body (L06, L09, L13), that piece has no worn photo for now; L02's photo on the hand is the one "
+    "you picked.",
     "The baguette ring you asked for in green, white and red is the Interlocked Baguette Trio Ring. The supplier only shows it in green, "
     "so the White and Red photos are the green photos with only the stones recoloured.",
     "From your second set of photos: both blue rings are in (the Aqua Emerald-Cut Band and the Aqua Oval Cocktail Ring), and so are the "
