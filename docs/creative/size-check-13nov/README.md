@@ -51,10 +51,55 @@ committed: they are 100 MB together, and the frames that matter are in `page/img
 
 ## Results (ad reel)
 
-<!--ADREEL-->
+A background agent measured the reel at 30 fps (frame n is n/30 s). The reel has no keyboard and few fingers on the pieces, so
+the scale comes from a thumbnail (taken as 10.5 to 13 mm), an earlobe (18 to 20 mm), the fingers (15 to 18.5 mm) or the
+chain's own 4 mm links. These are looser than the stock video's numbers.
 
-## Not done
+| Piece | Status | Listing says | Reel shows | Frames | Verdict |
+|---|---|---|---|---|---|
+| Toggle Link Chain (YF5143) | live | "Closure: Gold toggle bar and ring clasp, approximately 15mm"; links 4 mm | ring about 22 to 23 mm across (5.4 to 5.8 link widths); 18.5 to 26 mm against the fingers; bar about 13 to 15 mm; links 3 to 4.8 mm | n420 to n439 (14.0 to 14.6 s) | ring bigger than listed; not changed |
+| Cushion Halo Ring (WR20902K8) | live | stone 8 mm; halo 12 mm | halo 12.1 to 14.9 mm in the box, 10.3 to 12.1 mm worn; stone 0.70 of the halo (listing 0.67) | n650 (21.67 s), n461 to n465 | matches |
+| Woven Gold Hoops (E20267O) | live | 25 mm across | 22.9 to 29.5 mm in the box (depth corrected); 22.3 to 25.6 mm worn | n713 (23.77 s), n461 | matches |
+| Brushed Gold Huggies (E14776S) | live | 14 × 9.8 mm | 13.1 to 14.5 mm tall, 10.4 to 11.5 mm wide | n410 (13.67 s), n406 | matches |
 
-Nothing was changed on Shopify. The proposed corrections (copy size lines and size cards for the Soleil Petal, the V-Bar
-Teardrop, the Pave Open Heart Studs and both Clover Garland pieces, plus new Soleil worn photos at true size) wait for the
-owner's go-ahead, in one batch.
+- **Toggle ring.** In the reel it looks oval (167 to 178 by 115 to 130 px). The agent read it as an oval ring, but the store's
+  close-up (`../concept-camps/build/refs/toggle/ref-clasp.jpg`) shows it round (408 × 413 px), so the oval is its tilt and the
+  long side is its width.
+  - Against the chain's links (30.8 px, listed 4 mm), the ring is about 22 to 23 mm.
+  - The bar is about 0.6 of the ring (237 to 242 px against 410 in the close-up), about 13 to 15 mm, so the listing's 15 mm fits
+    the bar, not the ring.
+  - `tools/toggle.py` draws `page/img/toggle-link-chain.jpg`.
+  - **Not changed.** The same live listing says "non tarnish", "anti-tarnish", "Waterproof and tarnish free" and (SEO)
+    "waterproof and non-tarnish", and its SEO title reads "Ivory Clasp Chain". A fix to the clasp line means sending the whole
+    description, so it waits for the owner's word on those too.
+- **Huggies.** The size card marks the height (14 mm) and the band's front (9.8 mm). The listing's "approximately 6mm deep" is a
+  third measure the card doesn't show and the reel can't reach.
+- **Prices.** The reel's price card (5 to 8.3 s) shows:
+  - Woven Gold Hoops ₹1,199 (struck ₹2,769) against ₹1,049 (₹1,749) on the store;
+  - Brushed Gold Huggies ₹799 (₹1,799) against ₹699 (₹999);
+  - Toggle Link Chain ₹1,199 (₹2,900) against ₹999 (₹1,429);
+  - Cushion Halo Ring ₹1,099 (₹2,200) against ₹999 (₹1,669).
+
+  If the reel still runs as an ad, its prices are out of date. No ad was touched.
+- The agent's evidence images for the three that match are `page/img/cushion-halo-ring.jpg`, `woven-gold-hoops.jpg` and
+  `brushed-gold-huggies.jpg`. Its frames and script stayed in the session scratchpad.
+
+## Shipped, 13 Nov
+
+The owner: "And make changes and ship to the drafts urgently once in depth verification done". All five pieces were live and stay
+live; one Shopify mutation changed their sizes only (`../stock-2nov/build/fix_13nov.py`, recorded in `../stock-2nov/README.md`):
+
+- **Soleil Petal Pendant:** about 18 mm across with a 5.5 mm stone. New size card. The two oversized worn photos are off the
+  listing. Two new tries on 13 Nov still drew the pendant at about 32 to 34 mm, so there is no worn photo for now.
+- **V-Bar Teardrop Necklace:** bars about 17 mm, pear about 10 × 14 mm (the stone without its claws). New size card.
+- **Pave Open Heart Studs:** about 23 mm across and 22 mm tall. New size card.
+- **Clover Garland Necklace and Bracelet:** clovers about 8.5 mm, stones about 3 mm. New card for the necklace.
+
+The page (https://claude.ai/artifact/Mot3ynaP8aPMBtmfbRHHf3, version 2) shows the same.
+
+## Still open
+
+- A worn photo of the Soleil Petal Pendant at its true size (2 credits a try).
+- The Toggle Link Chain's clasp line, and the "waterproof" and "tarnish" wording in the same listing.
+- One ruler photo of a Bow and Heart earring.
+- The reel's prices, if it still runs as an ad.

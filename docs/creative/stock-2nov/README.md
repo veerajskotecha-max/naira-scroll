@@ -598,6 +598,53 @@ The owner, with a screenshot of the box ("APPLIED IN YOUR BAG · NO CODE"): "Pla
 - **Rates:** the box reads 10% and 20%, from main's change of the same afternoon (`893d5be`), not the 20% and 30% in the owner's screenshot.
 - `review/pdp_offer_below_buttons_3nov.jpg` shows before and after on both phones and the desktop.
 
+## Size corrections from the owner's stock video, 13 Nov
+
+**The note.** "Drive video and both video had the solitaire size and other sizes pls verify each size pls in depth!", then "And make changes and ship to the drafts urgently once in depth verification done". The measurements, frame by frame, are in `../size-check-13nov/`. All five listings were live (ACTIVE) and stay live: the batch changed sizes only, not status.
+
+| Piece | Was | Now | Card |
+|---|---|---|---|
+| Soleil Petal Pendant (N02, SPP) | 25 mm across, stone 7 mm | about 18 mm across, stone 5.5 mm | `soleil-petal-pendant-size-guide-v2.jpg` |
+| V-Bar Teardrop Necklace (A16, HTN) | bars 15 mm, pear 10 × 13 mm | bars about 17 mm, pear 10 × 14 mm (the stone without its claws) | `v-bar-teardrop-necklace-size-guide-v2.jpg` |
+| Pave Open Heart Studs (A15, POHS) | 20 × 19 mm | about 23 × 22 mm | `pave-open-heart-studs-size-guide-v3.jpg` |
+| Clover Garland Necklace (C2, CLGN-RD) | clovers 10 mm, stones 3.5 mm | clovers about 8.5 mm, stones 3 mm | `clover-garland-necklace-size-guide-v2.jpg` |
+| Clover Garland Bracelet (CLG) | clovers 10 mm, stones 3.5 mm | clovers about 8.5 mm, stones 3 mm | unchanged (its card shows the length only) |
+
+- **Copy:** only the size phrases changed (`FIX` in `build/fix_13nov.py`), in the description and, where it states a size, the SEO description.
+  - Before sending, the live text was checked to be exactly `ship_2nov.body()` of `listings.json` (an apostrophe is stored plain), and the 30 Oct record (`../clover-garland/shopify/ship_30oct.json`) for the bracelet. So nothing else in the text moved.
+  - `listings.json` now holds the new sizes (`fix_13nov.py --record`).
+- **Cards:** `build/sizecards.py` (N02, A16, C2) and `build/photocards.json` (A15) carry the new sizes. Each card has a new filename, because Shopify renames a duplicate filename and the description links the card by name. `url_map.json` has the four uploads.
+- **Soleil worn photos:** the two worn photos came off the listing.
+  - They were drawn on 2 Nov with the pendant about 31 mm on the neck, more than 1.7 times its size.
+  - Two new tries on 13 Nov (`N02_W1_13nov`, `N02_W2_13nov`) used `skus.json` N02, which now asks for a pendant a third of the lip width. They still drew it about 0.7 of the lip width (about 32 to 34 mm), so neither was used.
+  - A photo on a body is never resized by hand. The listing keeps its macro, its plaster photo and the card until a worn photo at the true size is made.
+- `drafts_new.json` now lists the media each of the four products holds. The new cards' ids are in, and media no longer on the products are out: A15's palm, and C2's two worn photos and palm, had already gone before 13 Nov.
+
+### Higgsfield
+
+4 images, 8 credits (Nano Banana Pro, 2K, 4:5). Jobs are in `build/jobs.json`, results in `build/results.json`.
+- **Jobs 700 and 701** (`N02_W1_13nov_placeholder`, `N02_W2_13nov_placeholder`): sent with the placeholder text `__P700__` and `__P701__` in place of the prompts, a slip in the request. 4 credits went on nothing usable.
+- **Jobs 702 and 703** (`N02_W1_13nov`, `N02_W2_13nov`): the same two requests with the real prompts. Both drew the pendant too big, so neither was used.
+- `fetch.py` had written the 13 Nov try over the 2 Nov `N02_W2t` record. The 2 Nov URL is restored, and the 13 Nov tries have their own keys.
+
+### Shopify
+
+One mutation, `SizeFix13Nov` (`build/fix_13nov.py`, `shopify/fix_13nov.graphql`, `shopify/fix_13nov.json`).
+- **Four `productSet` calls by id** (SPP, HTN, POHS, CLGN-RD). Each sends:
+  - the description, and the SEO description where it states a size, with its title as it was;
+  - the files: the photos that stay, by media id, and the new card by URL under its new filename;
+  - the one variant, by id, with its image, and the Title option that goes with it (as `ship_a16_w2.py`).
+- **One `productUpdate`** for the bracelet's description. It has three colour variants, and its photos are untouched.
+- **Not sent:** status, price, compare-at price, stock, title, tags and metafields.
+- **Removed:** media left out of a `productSet` are deleted. That took Soleil's two worn photos and the old cards of SPP, HTN, POHS and CLGN-RD; they no longer resolve as media.
+- **Checked afterwards:**
+  - no userErrors, and all five still ACTIVE;
+  - prices, compare-at prices and stock as before: SPP ₹999 (₹1,249), 5; HTN ₹1,199 (₹1,499), 5; POHS ₹999 (₹1,249), 5; CLGN-RD ₹2,199 (₹2,749), 5; CLG ₹1,199 (₹1,999), 0 / 10 / 5;
+  - each variant kept its image;
+  - the new cards are READY under their exact filenames (new media 46853167186082, 46853167218850, 46853167251618 and 46853167284386);
+  - each description's card link serves the new card, matching the card here;
+  - the returned descriptions carry the new sizes and the new card links.
+
 ## Folder
 
 - `refs/`: the owner's photos (`*_full.jpg`) and detail crops (`*_det.jpg`).

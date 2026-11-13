@@ -1,5 +1,5 @@
 {
- "_about": "Photo size cards (sizecards.py): crop = [x, y, width] in raw pixels of out/<src>.png (height = width x 931/1280); callouts ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. Figures from listings.json.",
+ "_about": "Photo size cards (sizecards.py): crop = [x, y, width] in raw pixels of out/<src>.png (height = width x 931/1280); callouts ['h', x0, x1, y, label, side] or ['v', y0, y1, x, label, side]. Figures from listings.json. 13 Nov: A15's labels follow the stock video (../../size-check-13nov/); the bars still mark the heart's edges in A15_He.",
  "A12": {
   "src": "A12_He",
   "crop": [
@@ -94,7 +94,7 @@
     967,
     1533,
     1462,
-    "20 mm",
+    "23 mm",
     "below"
    ],
    [
@@ -102,11 +102,11 @@
     867,
     1425,
     1575,
-    "19 mm",
+    "22 mm",
     "right"
    ]
   ],
-  "line": "Each heart about 20 × 19 mm · band about 2.5 mm"
+  "line": "Each heart about 23 × 22 mm · band about 3 mm"
  },
  "A14": {
   "src": "A14_Hs2_b",

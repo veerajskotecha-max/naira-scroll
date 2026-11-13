@@ -16,7 +16,7 @@ def handle(title):
 
 SPEC = {
     "N01": ("necklace", ([42], "42 cm · marquise 5 × 10 mm")),
-    "N02": ("necklace", ([42], "42 cm · pendant 25 mm across")),
+    "N02": ("necklace", ([42], "42 cm · pendant 18 mm across")),   # 13 Nov: measured in the owner's stock video (../../size-check-13nov/)
     "N03": ("necklace", ([45], "Adjustable · pearl 10 mm")),
     "N04": ("necklace", ([45], "45 cm · pendant 12 mm")),
     "N05": ("necklace", ([45], "45 cm · pear 6 × 8 mm")),
@@ -24,8 +24,8 @@ SPEC = {
     "N07": ("necklace", ([42], "42 cm · Asscher 9 mm")),
     "N08": ("necklace", ([42], "42 cm · bezel 8 mm")),
     "N09": ("necklace", ([42], "42 cm · heart 7 mm")),
-    "A16": ("necklace", ([45], "45 cm · teardrop 10 × 13 mm")),
-    "C2": ("necklace", ([42], "42 cm · clover 10 mm")),
+    "A16": ("necklace", ([45], "45 cm · teardrop 10 × 14 mm")),   # 13 Nov: measured on the keyboard in the stock video
+    "C2": ("necklace", ([42], "42 cm · clover 8.5 mm")),   # 13 Nov: measured in the stock video
 }
 PHOTO = {k: v for k, v in json.load(open(os.path.join(H, "photocards.json"))).items() if not k.startswith("_")} if os.path.exists(os.path.join(H, "photocards.json")) else {}
 

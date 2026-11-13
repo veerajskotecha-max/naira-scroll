@@ -61,6 +61,10 @@ td.n { font-variant-numeric: tabular-nums; }
 .facts dd { margin: 0; min-width: 0; }
 .fix { border-left: 3px solid var(--warn); padding-left: 10px; color: var(--ink-2); font-size: 14px; }
 .fix.red { border-left-color: var(--hold); }
+.done { border-left: 3px solid var(--ok); padding-left: 10px; color: var(--ink-2); font-size: 14px; }
+.live { background: var(--ok-soft); border-radius: 10px; padding: 12px 16px; max-width: none; }
+.card.wide { grid-template-columns: minmax(0, 1fr); }
+.card.wide figure img { max-height: none; }
 .next { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: grid; gap: 10px; }
 .next ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 76ch; }
 .foot { font-size: 13px; color: var(--ink-3); }
@@ -73,6 +77,8 @@ td.n { font-variant-numeric: tabular-nums; }
     <h1>Your two videos, measured</h1>
     <p class="dek">Every piece I could match to a listing in your stock video (IMG_7514, 12 Nov) and the ad reel (2 Nov), measured frame by frame and checked against what its listing says.</p>
   </header>
+
+  <p class="live"><strong>Updated later on 13 Nov:</strong> the corrections are live on Shopify, sent in one batch. No status, price or stock was changed. The ad reel's results are in too, further down.</p>
 
   <section class="how" aria-labelledby="how-h">
     <h2 id="how-h">How it was measured</h2>
@@ -90,16 +96,19 @@ td.n { font-variant-numeric: tabular-nums; }
       <table>
         <thead><tr><th>Piece</th><th>Listing says</th><th>Video shows</th><th>Verdict</th></tr></thead>
         <tbody>
-          <tr><td>Soleil Petal Pendant <div class="st">live</div></td><td class="n">about 25 mm across; stone about 7 mm</td><td class="n">about 15 to 20 mm across; stone about 5 to 6 mm</td><td><span class="v big">Listing too big</span></td></tr>
-          <tr><td>V-Bar Teardrop Necklace <div class="st">live</div></td><td class="n">bars about 15 mm; pear about 10 × 13 mm; chain 3.5 mm</td><td class="n">bars about 16 to 19 mm; pear about 10 to 11 × 14 to 16 mm; chain 3.5 to 4 mm</td><td><span class="v off">A little bigger than listed</span></td></tr>
-          <tr><td>Pave Open Heart Studs <div class="st">live</div></td><td class="n">about 20 mm across, 19 mm tall</td><td class="n">about 22 to 24 mm across</td><td><span class="v off">A little bigger than listed</span></td></tr>
-          <tr><td>Clover Garland Necklace, and the Clover Garland Bracelet <div class="st">both live</div></td><td class="n">clovers about 10 mm; stones about 3.5 mm</td><td class="n">clovers about 7 to 10 mm (most frames 8 to 9); stones about 3 mm</td><td><span class="v off">A little smaller than listed</span></td></tr>
+          <tr><td>Soleil Petal Pendant <div class="st">live</div></td><td class="n">about 25 mm across; stone about 7 mm</td><td class="n">about 15 to 20 mm across; stone about 5 to 6 mm</td><td><span class="v big">Listing too big</span><div class="st">fixed 13 Nov</div></td></tr>
+          <tr><td>V-Bar Teardrop Necklace <div class="st">live</div></td><td class="n">bars about 15 mm; pear about 10 × 13 mm; chain 3.5 mm</td><td class="n">bars about 16 to 19 mm; pear about 10 to 11 × 14 to 16 mm; chain 3.5 to 4 mm</td><td><span class="v off">A little bigger than listed</span><div class="st">fixed 13 Nov</div></td></tr>
+          <tr><td>Pave Open Heart Studs <div class="st">live</div></td><td class="n">about 20 mm across, 19 mm tall</td><td class="n">about 22 to 24 mm across</td><td><span class="v off">A little bigger than listed</span><div class="st">fixed 13 Nov</div></td></tr>
+          <tr><td>Clover Garland Necklace, and the Clover Garland Bracelet <div class="st">both live</div></td><td class="n">clovers about 10 mm; stones about 3.5 mm</td><td class="n">clovers about 7 to 10 mm (most frames 8 to 9); stones about 3 mm</td><td><span class="v off">A little smaller than listed</span><div class="st">fixed 13 Nov</div></td></tr>
           <tr><td>Heart Solitaire Huggies <div class="st">live</div></td><td class="n">hoop about 15 mm; heart about 6.5 mm</td><td class="n">hoop about 15.5 to 18 mm; heart with its bezel about 7 to 8.5 mm</td><td><span class="v ok">Close</span></td></tr>
           <tr><td>Petite Pear Solitaire Necklace <div class="st">live</div></td><td class="n">pear about 6 × 8 mm</td><td class="n">pear about 5.5 to 6.5 × 7 to 8 mm</td><td><span class="v ok">Matches</span></td></tr>
           <tr><td>Asscher Solitaire Pendant <div class="st">draft</div></td><td class="n">stone about 9 mm</td><td class="n">about 8.5 to 9 mm with its claws</td><td><span class="v ok">Matches</span></td></tr>
           <tr><td>Cushion Bezel Pendant <div class="st">draft</div></td><td class="n">bezel about 8 mm; stone about 6 mm</td><td class="n">bezel about 7 to 7.5 mm; stone about 5.5 to 6 mm</td><td><span class="v ok">Matches</span></td></tr>
           <tr><td>Bow and Heart Gift Set <div class="st">live</div></td><td class="n">earrings about 14 mm long; drop heart about 9 mm</td><td class="n">about 12 to 19 mm long: the only finger nearby is above the card</td><td><span class="v na">Can't tell</span></td></tr>
-          <!--ADREEL_ROWS-->
+          <tr><td>Toggle Link Chain <div class="st">live · ad reel</div></td><td class="n">clasp "approximately 15mm"; links 4 mm</td><td class="n">clasp ring about 22 to 23 mm across (18.5 to 26 mm against the fingers); bar about 13 to 15 mm; links 3 to 4.8 mm</td><td><span class="v off">Ring bigger than listed</span><div class="st">not changed yet</div></td></tr>
+          <tr><td>Cushion Halo Ring <div class="st">live · ad reel</div></td><td class="n">halo about 12 mm; stone about 8 mm</td><td class="n">halo about 12 to 15 mm in the box, 10 to 12 mm worn; stone 0.70 of the halo (listing 0.67)</td><td><span class="v ok">Matches</span></td></tr>
+          <tr><td>Woven Gold Hoops <div class="st">live · ad reel</div></td><td class="n">about 25 mm across</td><td class="n">about 23 to 27 mm in the box; 22 to 26 mm worn</td><td><span class="v ok">Matches</span></td></tr>
+          <tr><td>Brushed Gold Huggies <div class="st">live · ad reel</div></td><td class="n">about 14 × 9.8 mm</td><td class="n">about 13 to 14.5 mm tall, 10.4 to 11.5 mm wide</td><td><span class="v ok">Matches</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -115,7 +124,7 @@ td.n { font-variant-numeric: tabular-nums; }
           <div class="head"><h3>Soleil Petal Pendant</h3><span class="v big">Listing too big</span></div>
           <dl class="facts"><dt>Listing</dt><dd>about 25 mm across; stone about 7 mm</dd><dt>Video</dt><dd>about 15 to 20 mm across; stone about 5 to 6 mm</dd><dt>Frames</dt><dd>4.2 s (beside the Asscher pendant and a thumb), 5.2 s and 6.0 s (held between finger and thumb)</dd></dl>
           <p>In the same frame and at the same scale, the flower is about twice the Asscher stone, which itself measures about 9 mm against your thumb. Its centre stone is about 0.6 of the Asscher stone. All three frames give 15 to 20 mm.</p>
-          <p class="fix red">The worn photos on the listing were sized on 2 Nov to about 31 mm on the neck, so they show it well over one and a half times its real size. The copy, the size card and those photos need redoing.</p>
+          <p class="done">Changed on 13 Nov: the copy and the size card now say about 18 mm across with a 5.5 mm stone. The two worn photos, drawn on 2 Nov at about 31 mm on the neck, came off the listing. Two new tries on Higgsfield still drew it at about 32 to 34 mm, so the listing has no worn photo for now.</p>
         </div>
       </article>
       <article class="card">
@@ -124,7 +133,7 @@ td.n { font-variant-numeric: tabular-nums; }
           <div class="head"><h3>V-Bar Teardrop Necklace</h3><span class="v off">A little bigger</span></div>
           <dl class="facts"><dt>Listing</dt><dd>bars about 15 mm each; pear about 10 × 13 mm; chain about 3.5 mm</dd><dt>Video</dt><dd>bars about 16 to 19 mm; pear about 10 to 11 × 14 to 16 mm with its claws; chain 3.5 to 4 mm</dd><dt>Frames</dt><dd>38.5 to 40.5 s, the bag lying on the keyboard (about 9 px per mm)</dd></dl>
           <p>This is the most exact measurement in the video: the keys give a true scale in the same frame. Your hand lifts the bottom of the bag a little, which can add a few percent.</p>
-          <p class="fix">Copy and card: bars about 17 mm, pear about 11 × 15 mm.</p>
+          <p class="done">Changed on 13 Nov: bars about 17 mm and the pear about 10 × 14 mm (the stone without its claws), in the copy and on the card.</p>
         </div>
       </article>
       <article class="card">
@@ -133,7 +142,7 @@ td.n { font-variant-numeric: tabular-nums; }
           <div class="head"><h3>Pave Open Heart Studs</h3><span class="v off">A little bigger</span></div>
           <dl class="facts"><dt>Listing</dt><dd>about 20 mm across and 19 mm tall</dd><dt>Video</dt><dd>about 22 to 24 mm across</dd><dt>Frames</dt><dd>10.8 s (index finger on the card), 15.2 s (thumb on the bag)</dd></dl>
           <p>Both frames agree: the hearts are about 1.3 fingertips across.</p>
-          <p class="fix">Copy and card: about 23 mm across.</p>
+          <p class="done">Changed on 13 Nov: about 23 mm across and 22 mm tall, in the copy and on the card.</p>
         </div>
       </article>
       <article class="card">
@@ -142,7 +151,7 @@ td.n { font-variant-numeric: tabular-nums; }
           <div class="head"><h3>Clover Garland Necklace and Bracelet</h3><span class="v off">A little smaller</span></div>
           <dl class="facts"><dt>Listing</dt><dd>clovers about 10 mm; stones about 3.5 mm</dd><dt>Video</dt><dd>clovers about 7 to 10 mm, most frames 8 to 9; stones about 3 mm</dd><dt>Frames</dt><dd>23.0, 23.8 and 24.7 s (red), 28.5 s (pink, same clover)</dd></dl>
           <p>The red necklace and the pink bracelet carry the same clover. Four frames average about 8.5 mm.</p>
-          <p class="fix">Copy and cards: clovers about 8 to 9 mm, stones about 3 mm.</p>
+          <p class="done">Changed on 13 Nov: clovers about 8.5 mm and stones about 3 mm on both listings, and a new card for the necklace. The bracelet's card shows only its length, so it stays.</p>
         </div>
       </article>
       <article class="card">
@@ -172,18 +181,61 @@ td.n { font-variant-numeric: tabular-nums; }
     </div>
   </section>
 
-  <section class="how" id="adreel" aria-labelledby="ad-h">
+  <section id="adreel" aria-labelledby="ad-h" style="display:grid;gap:14px">
     <h2 id="ad-h">The ad reel (2 Nov)</h2>
-    <p>The Woven Gold Hoops, Brushed Gold Huggies, Toggle Link Chain and Cushion Halo Ring are being measured on the people wearing them. Their results go here when they are in.</p>
+    <p>The reel has no keyboard and few fingers on the pieces, so these rest on a thumbnail, an earlobe or the chain's own links. They are looser than the stock video's numbers, so read them as checks, not new sizes.</p>
+    <div class="cards">
+      <article class="card wide">
+        <figure><img src="img/toggle-link-chain.jpg" alt="Left, the ad reel at 14.63 seconds: the toggle clasp ring resting on fingers, its long side marked. Right, the store's close-up of the clasp: a round ring with its width and height marked" width="1188" height="647" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Toggle Link Chain</h3><span class="v off">Ring bigger than listed</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>"Closure: Gold toggle bar and ring clasp, approximately 15mm"; links 4 mm</dd><dt>Video</dt><dd>the ring about 22 to 23 mm across against the links, 18.5 to 26 mm against the fingers; links 3 to 4.8 mm</dd><dt>Frames</dt><dd>14.0 to 14.6 s, the clasp resting on the fingers</dd></dl>
+          <p>The store's close-up shows a round ring, so the oval in the reel is only its tilt. The bar is about 0.6 of the ring, about 13 to 15 mm, so the listing's 15 mm fits the bar, not the ring.</p>
+          <p class="fix">Not changed yet. The same listing also says "waterproof", "non tarnish" and "anti-tarnish", and its SEO title reads "Ivory Clasp Chain". A fix to one line means sending the whole description, so it waits for your word on those too.</p>
+        </div>
+      </article>
+      <article class="card wide">
+        <figure><img src="img/cushion-halo-ring.jpg" alt="The ad reel at 21.67 seconds: the Cushion Halo Ring in its open box, the halo and stone marked, with a zoom on the thumbnail used for scale" width="1881" height="712" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Cushion Halo Ring</h3><span class="v ok">Matches</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>stone about 8 mm; halo about 12 mm; fits US 5 to 9</dd><dt>Video</dt><dd>halo about 12 to 15 mm in the box against a thumbnail, about 10 to 12 mm worn; the stone is 0.70 of the halo</dd><dt>Frames</dt><dd>21.67 s (box), 15.4 to 15.5 s (worn)</dd></dl>
+          <p>The stone-to-halo ratio needs no scale, and it agrees with the listing's 8 to 12 (0.67). The ring's size range can't be read from the video.</p>
+        </div>
+      </article>
+      <article class="card wide">
+        <figure><img src="img/woven-gold-hoops.jpg" alt="The ad reel at 23.77 seconds: the pair of woven hoops in the open box, each marked, with a zoom on the thumbnail used for scale" width="1432" height="732" loading="lazy"></figure>
+        <div class="body">
+          <div class="head"><h3>Woven Gold Hoops</h3><span class="v ok">Matches</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>about 25 mm across</dd><dt>Video</dt><dd>about 23 to 27 mm in the box (against a thumbnail, corrected for depth); 22 to 26 mm worn, against the ear</dd><dt>Frames</dt><dd>23.77 s (box), 15.37 s (worn)</dd></dl>
+        </div>
+      </article>
+      <article class="card wide">
+        <figure><img src="img/brushed-gold-huggies.jpg" alt="The ad reel at 13.67 seconds: a brushed gold huggie in the ear, its height and width marked beside the earlobe" width="760" height="772" loading="lazy" style="max-width:560px;margin:0 auto"></figure>
+        <div class="body">
+          <div class="head"><h3>Brushed Gold Huggies</h3><span class="v ok">Matches</span></div>
+          <dl class="facts"><dt>Listing</dt><dd>about 14 mm by 9.8 mm; "Band: Wide flat band, approximately 6mm deep"</dd><dt>Video</dt><dd>about 13 to 14.5 mm tall and 10.4 to 11.5 mm wide, against the earlobe</dd><dt>Frames</dt><dd>13.67 s, checked at 13.53 s</dd></dl>
+          <p>The size card marks the height (14 mm) and the band's front (9.8 mm). The listing's "6mm deep" is a third measure that the card doesn't show and the video can't reach.</p>
+        </div>
+      </article>
+    </div>
+    <p class="foot">The reel's prices are not the store's. Reel against store: Woven Gold Hoops ₹1,199 (struck ₹2,769) against ₹1,049 (₹1,749); Brushed Gold Huggies ₹799 (₹1,799) against ₹699 (₹999); Toggle Link Chain ₹1,199 (₹2,900) against ₹999 (₹1,429); Cushion Halo Ring ₹1,099 (₹2,200) against ₹999 (₹1,669). If the reel still runs as an ad, its prices are out of date. No ad has been touched.</p>
   </section>
 
   <section class="next" aria-labelledby="next-h">
-    <h2 id="next-h">What I'd change, with your go-ahead</h2>
+    <h2 id="next-h">What changed, and what is still open</h2>
+    <p><strong>Live on Shopify since 13 Nov</strong>, in one batch, with no change to status, price or stock:</p>
     <ol>
-      <li>Soleil Petal Pendant: the copy and the size card to about 18 mm across with a 5.5 mm stone, and new worn photos at that size, made on Higgsfield.</li>
-      <li>V-Bar Teardrop, Pave Open Heart Studs and both Clover Garland pieces: the size lines in the copy and their size cards.</li>
-      <li>The Bow and Heart set stays as it is until a ruler photo settles it.</li>
+      <li>Soleil Petal Pendant: about 18 mm across with a 5.5 mm stone, and a new size card. The two worn photos that showed it far too big are off the listing.</li>
+      <li>V-Bar Teardrop Necklace: bars about 17 mm, pear about 10 × 14 mm, and a new size card.</li>
+      <li>Pave Open Heart Studs: about 23 mm across and 22 mm tall, and a new size card.</li>
+      <li>Clover Garland Necklace and Bracelet: clovers about 8.5 mm, stones about 3 mm, and a new card for the necklace.</li>
     </ol>
-    <p class="foot">Nothing has been changed on Shopify. The changes would go in one batch, and only after you say so.</p>
+    <p><strong>Still open</strong>, each waiting for you:</p>
+    <ol>
+      <li>Soleil Petal Pendant: a worn photo at the true size, at 2 credits a try. The two tries on 13 Nov still came out too big.</li>
+      <li>Toggle Link Chain: the clasp line, plus the "waterproof" and "tarnish" wording in the same listing.</li>
+      <li>Bow and Heart Gift Set: one photo of an earring beside a ruler.</li>
+      <li>The reel's prices, if it still runs as an ad.</li>
+    </ol>
   </section>
 </div>
