@@ -1,0 +1,3 @@
+mutation ToggleClasp13Nov($id: ProductUpdateIdentifiers!, $p: ProductUpdateInput!) {
+  toggle: productUpdate(identifier: $id, product: $p) { product { id handle status updatedAt descriptionHtml seo { title description } tags mediaCount { count } variants(first: 1) { nodes { sku price compareAtPrice inventoryQuantity } } } userErrors { field message } }
+}

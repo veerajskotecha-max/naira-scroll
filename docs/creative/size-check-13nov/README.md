@@ -69,9 +69,16 @@ chain's own 4 mm links. These are looser than the stock video's numbers.
   - The bar is about 0.6 of the ring (237 to 242 px against 410 in the close-up), about 13 to 15 mm, so the listing's 15 mm fits
     the bar, not the ring.
   - `tools/toggle.py` draws `page/img/toggle-link-chain.jpg`.
-  - **Not changed.** The same live listing says "non tarnish", "anti-tarnish", "Waterproof and tarnish free" and (SEO)
-    "waterproof and non-tarnish", and its SEO title reads "Ivory Clasp Chain". A fix to the clasp line means sending the whole
-    description, so it waits for the owner's word on those too.
+  - **Changed on 13 Nov**, after the owner chose "Fix all of it" (`ship/toggle_13nov.py`, `ship/toggle_13nov.graphql`,
+    `ship/toggle_13nov.json`). One `productUpdate` sent the description and SEO only:
+    - the clasp now reads as a ring of about 22mm across and a bar of about 15mm;
+    - "non tarnish", "anti-tarnish" and "Waterproof and tarnish free" are out (Finish: Polished gold tone; Plating: PVD 18k
+      gold tone coating; the store's usual care line);
+    - the SEO title and description name the Toggle Link Chain instead of "Ivory Clasp Chain".
+  - Checked afterwards: no userErrors, still ACTIVE at ₹999 (₹1,429) with 78 in stock and its 7 media; the returned text is
+    the text sent.
+  - **Tags left as they are:** Hypoallergenic, Tarnish Free and Waterproof. They are store-wide (96, 98 and 99 products; 81 of
+    the 174 live products carry Waterproof) and may drive badges or filters, so removing them is the owner's call.
 - **Huggies.** The size card marks the height (14 mm) and the band's front (9.8 mm). The listing's "approximately 6mm deep" is a
   third measure the card doesn't show and the reel can't reach.
 - **Prices.** The reel's price card (5 to 8.3 s) shows:
@@ -86,20 +93,23 @@ chain's own 4 mm links. These are looser than the stock video's numbers.
 
 ## Shipped, 13 Nov
 
-The owner: "And make changes and ship to the drafts urgently once in depth verification done". All five pieces were live and stay
-live; one Shopify mutation changed their sizes only (`../stock-2nov/build/fix_13nov.py`, recorded in `../stock-2nov/README.md`):
+The owner: "And make changes and ship to the drafts urgently once in depth verification done". All five pieces were live, and
+the owner chose to keep them live; one Shopify mutation changed their sizes only (`../stock-2nov/build/fix_13nov.py`, recorded
+in `../stock-2nov/README.md`):
 
 - **Soleil Petal Pendant:** about 18 mm across with a 5.5 mm stone. New size card. The two oversized worn photos are off the
   listing. Two new tries on 13 Nov still drew the pendant at about 32 to 34 mm, so there is no worn photo for now.
 - **V-Bar Teardrop Necklace:** bars about 17 mm, pear about 10 × 14 mm (the stone without its claws). New size card.
 - **Pave Open Heart Studs:** about 23 mm across and 22 mm tall. New size card.
 - **Clover Garland Necklace and Bracelet:** clovers about 8.5 mm, stones about 3 mm. New card for the necklace.
+- **Toggle Link Chain**, a second mutation (above): the clasp ring about 22mm and the bar about 15mm, the waterproof and
+  tarnish wording out of the description, and the SEO under its own name.
 
-The page (https://claude.ai/artifact/Mot3ynaP8aPMBtmfbRHHf3, version 2) shows the same.
+The page (https://claude.ai/artifact/Mot3ynaP8aPMBtmfbRHHf3, version 3) shows the same.
 
 ## Still open
 
 - A worn photo of the Soleil Petal Pendant at its true size (2 credits a try).
-- The Toggle Link Chain's clasp line, and the "waterproof" and "tarnish" wording in the same listing.
+- The tags Waterproof, Tarnish Free and Hypoallergenic, store-wide (about 96 to 99 products).
 - One ruler photo of a Bow and Heart earring.
 - The reel's prices, if it still runs as an ad.
