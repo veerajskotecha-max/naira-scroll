@@ -1,0 +1,73 @@
+{
+ "id": "b02-2",
+ "handle": "brushed-gold-huggies",
+ "product": "Brushed Gold Huggies",
+ "price": 699,
+ "archetype": "A13 Suspended (levitation with detached shadows); zero-credit rescue of try 2 under the amended RULINGS 4 crop rule (b02 loop change 2)",
+ "light": "L1 (one hard warm top spot; the two detached shadows fall straight down, crisp and soft-edged)",
+ "camera": "C2 asked; rendered as the rescue prompt's 50 mm from far back, low and nearly level",
+ "picture": "pics/b02-2.png (try 2, job 6e938236-e5d6-483f-8682-d3071eab6499); nothing scaled, moved or edited",
+ "onImage": {
+  "headline": "The ₹699 pair.",
+  "beat": "any three pieces, 20% off.",
+  "cardLine": "about 14 mm · brushed satin, 18k gold tone",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "sizeTag": null,
+  "callouts": []
+ },
+ "meta": {
+  "primaryText": "The ₹699 pair: Brushed Gold Huggies, about 14 mm, in soft brushed satin 18k gold tone. Any 3 pieces with BUY3: 20% off. And yes, waterproof and tarnish-free.",
+  "headline": "Brushed Gold Huggies · ₹699 · 20% off 3",
+  "description": "Brushed satin · 18k gold tone",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b02&utm_content={{ad.id}}&utm_term=b02-2_a13_brushed-699-levitation"
+ },
+ "story": {
+  "text": [
+   "NAIRA wordmark (logo_ink)",
+   "The ₹699 pair.",
+   "any three pieces, 20% off.",
+   "BRUSHED GOLD HUGGIES  ₹699",
+   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF"
+  ]
+ },
+ "layout": {
+  "crop": {
+   "P": 85,
+   "T": 497,
+   "subjectExtentFeed": "huggies y 333-603, x 283-821 (49.8% of the width); shadows y 831-886, x 262-840; full extent 333-886 (553 px)",
+   "note": "loop.md proposed P 80 (T 468): extent 362-915, which left the shadows 25 px above the wordmark at 940. P 85 gives about 55 px of plain sky above the pair (beat glyphs end about 278) and 54 px below the shadows. The extent is 553 px, 3 px over the gate's 550 band, so no T puts it strictly inside 380-930; the top 47 px sits in the headline band but under the beat, with no collision."
+  },
+  "type": { "h1Face": "Cormorant Garamond italic 500 (A13: a price headline may not be Velista)", "h1Px": 96, "beatPx": 60, "beatRatio": 0.625, "storyH1Px": 80, "storyBeatPx": 52, "storyBeatRatio": 0.65 },
+  "feed": "Light ground (body, not .dark). Headline \"The ₹699 pair.\" Cormorant italic 96 ink, centred, top 96 (glyph box 94-211, x 291-789); beat \"any three pieces, 20% off.\" Cormorant italic 60 in --oxblood, centred, top 214 (box 216-282). Card top 940 to 1252 on plain sky floor in ink with logo_ink; offer box x 177-903 with an oxblood lozenge. No scrim, no size tag (about 17 px/mm on the Feed, under 19).",
+  "story": "Native 9:16 frame (Story y = display y - 7.5; huggies 822-1093, shadows 1320-1376). logo_ink 270-326; headline Cormorant italic 80 ink at 372 (box 364-461); beat 52 oxblood at 470 (465-528); name and price on one baseline at 562 (556-624); offer 652-714 (x 177-903). About 108 px of plain wall between the offer and the pair; nothing below 714.",
+  "contrast": "Measured against the picture under each text box (median, 2nd percentile). Feed: headline 8.6 (8.2), beat oxblood 5.4 (5.2), card 10.3-12.7. Story: headline 8.2, beat 5.1, name/price 8.5, offer 8.6. The kit accent coral-deep would read 1.8:1 on this sky, so the accent is --oxblood on both pages.",
+  "checks": {
+   "feed": { "failed": [], "overflow": [], "fallback": [], "textShare": 0.12, "outside": [], "minFont": 26 },
+   "story": { "failed": [], "overflow": [], "fallback": [], "textShare": 0.064, "outside": [], "minFont": 26 }
+  }
+ },
+ "copyChanges": [
+  "Card line: the brief's \"soft brushed satin, not mirror polished\" uses \"mirror\", which products.md forbids for this SKU; replaced with PLAYBOOK A1's Brushed line \"about 14 mm · brushed satin, 18k gold tone\".",
+  "Primary text: the brief's last sentence \"Never mirror polished, and waterproof.\" replaced by \"And yes, waterproof and tarnish-free.\" (same reason; the claims are allowed for this SKU by RULINGS 1.1 and sit last, as proof). 157 characters; the offer ends at character 119.",
+  "Beat: 52 px in the brief is 0.54 of the 96 px headline, under the PLAYBOOK 4.0 floor of 0.6; set to 60 px (0.625).",
+  "Beat colour: coral-deep to --oxblood for contrast (1.8:1 to 5.4:1)."
+ ],
+ "truthNotes": [
+  "Float: the gap between each huggie and its own shadow is about 1.0x the huggie height; shadows directly below, same shape; no supports.",
+  "Finish: soft brushed satin with fine parallel lines and one broad sheen, not mirror; both identical; zero stones. The right huggie shows its click post and a seam, normal from the opening side.",
+  "Colour (for critic B): the lower halves of both huggies go grey-green from the blue floor bounce (saturation 0.07-0.12); at Feed size they read pale champagne, not silver. Not fixable without a new picture.",
+  "Width: the pair spans about 49-50% of the width (brief 35-45%, rule at least 35%).",
+  "Scale: 338 px for 14 mm on the source is about 17 px/mm on the Feed and Story, under the 19 px/mm trigger, so no size tag; the card line states about 14 mm.",
+  "Face aspect of the left huggie about 0.79 (true about 0.71): slightly squat, within the verifier's pass."
+ ],
+ "abTest": "First live ₹699 ad, first bundle line (BUY3 in the beat) and first honest-surprise (float) ad in ads-500. Read against the winner anchor and against b01's ships; not a clean single-variable test.",
+ "deployment": "Feed and Story both carry the full message. Not scored yet.",
+ "review": {
+  "status": "not scored: both critics score the final JPGs below (loop change 2 and 6)",
+  "scoredFiles": {
+   "feed": "batches/b02/b02-2_feed.jpg (render of 2026-11-19 18:51:53 UTC)",
+   "story": "batches/b02/b02-2_story.jpg (render of 2026-11-19 18:51:54 UTC)"
+  }
+ }
+}
