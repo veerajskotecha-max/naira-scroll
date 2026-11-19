@@ -210,5 +210,173 @@
   "job_id": "85a92bc6-8041-420c-b016-f1f0f2ed23c4",
   "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_174744_85a92bc6-8041-420c-b016-f1f0f2ed23c4.png",
   "try1_job_id": "a51af63b-9874-4e3d-a9ac-7b8bfa292e56"
+ },
+ {
+  "id": "b03-1",
+  "batch": "b03",
+  "handle": "brushed-gold-huggies",
+  "archetype": "A4 Monument Macro (the b03 new move: gold-tone mass on a saturated plum ground, b01-4's note on a second product)",
+  "light": "L1 asked, rendered L1-like soft warm key from the left (brush lines read; satin floor adds a reflection glow under the card)",
+  "camera": "C2",
+  "concept": "The ₹699 pair upright on a deep plum glaze at almost floor level, the only gold in the frame, about 2.1x with the size tag; 'BRUSHED, / NOT POLISHED.' + 'the ₹699 earrings.'; F2 card 'hinged huggie earrings · 18k gold tone PVD', CODES BUY2/BUY3; Story with headline, name, price, offer and a plain size-tag line",
+  "verdict": "ship (after finisher fixes: product type named in the 64 px beat and the card line, Story size tag unboxed; one re-score by both critics due, loop change 6). Note 'gold-tone mass on a saturated dark ground' RETIRED: beat the winner with A only. Pre-launch: confirm ₹699 buys the pair",
+  "weightedA": 7.98,
+  "weightedB": 7.65,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": [
+   "A"
+  ],
+  "anchors": {
+   "feed": {
+    "winner": "win_static_hoops_apricot",
+    "loser": "lose_p2_proof_parody"
+   },
+   "story": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_vks5_prism_close"
+   },
+   "rotation": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_kandil"
+   }
+  },
+  "scoredFile": "batches/b03/b03-1_feed.jpg and b03-1_story.jpg scored at the 19:47:04 UTC renders; final renders 2026-11-19 20:09:21 UTC after the fixes",
+  "feed": "batches/b03/b03-1_feed.jpg",
+  "story": "batches/b03/b03-1_story.jpg",
+  "copy": "batches/b03/b03-1.copy.json",
+  "job_id": "b856168b-fe23-42eb-9881-e1082d6c94d1",
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_b856168b-fe23-42eb-9881-e1082d6c94d1.png"
+ },
+ {
+  "id": "b03-2",
+  "batch": "b03",
+  "handle": "cushion-halo-ring",
+  "archetype": "A1 Product Card (macro, no headline, NAIRA10 offer cell)",
+  "light": "L7 (as asked and rendered)",
+  "camera": "C5",
+  "concept": "Cushion Halo macro on a cocoa block, tone on tone, about 2.4x with 'SHOWN MAGNIFIED · HALO ABOUT 12 MM'; no headline; F2 card '8 mm cubic zirconia · silver tone · adjustable', CODE NAIRA10 · 10% OFF; Story card stack with the tag as one centred plain line",
+  "verdict": "ship (B 'ship', A 'ship after fixes'; finisher centred and unboxed the Story size tag). Strongest thumbnail with B. NAIRA10 is the ONLY card variable against the BUY2/BUY3 ads: read it live as an offer test, not a creative test",
+  "weightedA": 7.9,
+  "weightedB": 7.93,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": [
+   "B"
+  ],
+  "anchors": {
+   "feed": {
+    "winner": "win_static_hoops_apricot",
+    "loser": "lose_p2_proof_parody"
+   },
+   "story": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_vks5_prism_close"
+   },
+   "rotation": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_kandil"
+   }
+  },
+  "scoredFile": "batches/b03/b03-2_feed.jpg (19:46:53 UTC, final, unchanged) and b03-2_story.jpg (scored at 19:46:54 UTC; final render 20:09:36 UTC after the tag fix)",
+  "abTest": "offer: NAIRA10 single-product code vs BUY2/BUY3 on the rest of b03",
+  "feed": "batches/b03/b03-2_feed.jpg",
+  "story": "batches/b03/b03-2_story.jpg",
+  "copy": "batches/b03/b03-2.copy.json",
+  "job_id": "852c5553-7888-4baa-9a23-768ce82f8777",
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_852c5553-7888-4baa-9a23-768ce82f8777.png"
+ },
+ {
+  "id": "b03-3",
+  "batch": "b03",
+  "handle": "halo-curve-ring",
+  "archetype": "A8 Callout Anatomy (Halo Curve's first ad)",
+  "light": "L2 asked, rendered L7-like soft key (both tries)",
+  "camera": "C5",
+  "concept": "Halo Curve in its cube pose on deep (rendered mid-tone) sage, about life size; 'TWO STONES. / ONE OPEN BAND.' with three callouts (TIGER EYE banded, silky sheen; CHAMPAGNE CRYSTAL faceted, pale champagne; OPEN BAND adjusts US 5 to 9 · about 4 g); F2 card 'surgical stainless steel · 18k gold tone PVD', CODES BUY2/BUY3",
+  "verdict": "ship (after finisher fixes: C1 mm replaced by 'banded, silky sheen' (11.8 mm likely the stone's length), metal line restored, callout and card contrast lifted to 4.6:1+ with wall-sage scrims; one re-score by both critics due). Weakest of the batch: stop 6.5 both, desire 6 with B (flat mid-sage reads as a catalogue page); Story lower 750 px is dead floor",
+  "weightedA": 7.4,
+  "weightedB": 7.28,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": [],
+  "anchors": {
+   "feed": {
+    "winner": "win_static_hoops_apricot",
+    "loser": "lose_p2_proof_parody"
+   },
+   "story": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_vks5_prism_close"
+   },
+   "rotation": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_kandil"
+   }
+  },
+  "scoredFile": "batches/b03/b03-3_feed.jpg (scored at 19:57:15 UTC; final render 20:12:01 UTC after the fixes) and b03-3_story.jpg (19:57:16 UTC, final, unchanged)",
+  "feed": "batches/b03/b03-3_feed.jpg",
+  "story": "batches/b03/b03-3_story.jpg",
+  "copy": "batches/b03/b03-3.copy.json",
+  "job_id": "e9f5364c-4c82-4ba4-aca7-974ddd680165",
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_192421_e9f5364c-4c82-4ba4-aca7-974ddd680165.png",
+  "try1_job_id": "8d7a6fa1-461e-4e8e-803f-4ff875a0879f"
+ },
+ {
+  "id": "b03-4",
+  "batch": "b03",
+  "handle": "monochrome-enamel-hoops",
+  "archetype": "A13 Suspended (float), the crazy slot",
+  "light": "L6 (as asked and rendered: overhead footprint shadows, kicker on the rails)",
+  "camera": "C2",
+  "concept": "The pair floating over a terracotta field, each hoop over its own detached shadow; 'BLACK. WHITE. / GOLD TONE.' + styling beat; no claim, no water",
+  "verdict": "dropped: truth and float pass on both tries (1 black + 1 white stripe, 3 rails, open C, gap 0.41-0.43x the hoop), but hoops+shadows run 693 (try 1) and 712 (try 2) Feed px vs 550 allowed; try 2 asked a third of the share and rendered larger. Zero-credit rescue recommended by both critics: try 1 as a card-only A1 at Feed P 100 (extent 134-827, size tag at 851-913, headline on the Story only); the lead's call",
+  "weightedA": null,
+  "weightedB": null,
+  "beatsLoser": null,
+  "beatsWinner": null,
+  "beatsWinnerBy": [],
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "job_id": "90a690db-8c87-43a1-84a5-b96d65579c93",
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_192422_90a690db-8c87-43a1-84a5-b96d65579c93.png",
+  "try1_job_id": "394dd5a7-2134-4249-8675-3519d5c9ab97",
+  "try1_picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_394dd5a7-2134-4249-8675-3519d5c9ab97.png"
+ },
+ {
+  "id": "b03-5",
+  "batch": "b03",
+  "handle": "pearl-double-halo-studs",
+  "archetype": "A6 Single Spotlight (Pearl Double Halo's first ad; no claim, no water)",
+  "light": "L1 pool asked, rendered as a pool with a soft-graded edge (a vignette, not a crisp pool)",
+  "camera": "C3",
+  "concept": "The pair on an ink riser under one high spot, 75% near-black, about life size; staircase 'TWO BANDS. / ONE LIGHT.' + 'for the sangeet, after dark.'; F2 card 'silver tone · cubic zirconia', CODES BUY2/BUY3; Meta headline 'Double Halo Studs · ₹1,199 · 10% off 2'",
+  "verdict": "ship (after B's Meta headline fix; the JPGs are unchanged). Best desire of the batch (7.5 both). Truth at the 8 floor: blush pearl (a* about 6-7 vs ref 2-4), 8 regular bridges vs about 5 irregular, micro-glitter pavé, white specular discs in the upper-left pavé; no copy names the pearl's colour",
+  "weightedA": 7.63,
+  "weightedB": 7.83,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": [],
+  "anchors": {
+   "feed": {
+    "winner": "win_static_hoops_apricot",
+    "loser": "lose_p2_proof_parody"
+   },
+   "story": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_vks5_prism_close"
+   },
+   "rotation": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_kandil"
+   }
+  },
+  "scoredFile": "batches/b03/b03-5_feed.jpg and b03-5_story.jpg, renders of 2026-11-19 19:52:24 UTC (final, unchanged)",
+  "feed": "batches/b03/b03-5_feed.jpg",
+  "story": "batches/b03/b03-5_story.jpg",
+  "copy": "batches/b03/b03-5.copy.json",
+  "job_id": "db922542-6d17-4a32-ba14-7f6966e4a6d6",
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_db922542-6d17-4a32-ba14-7f6966e4a6d6.png"
  }
 ]

@@ -157,3 +157,126 @@ first shape to land.
 first on Verdant Circlet in black-and-white selective colour (board 85), the green stud the only colour, with the circlet's
 internal ratio locked first ("about 1.3× the green stone's width, never twice; the big pearl is a round bead"). The one new
 variable is the single-ear framing from behind; everything else in b03 follows the rules and the fix target above.
+
+### b03
+
+Shipped 4 of 5, the best yield so far (b01 2, b02 1): b03-2 Cushion A1 NAIRA10 macro (mean 7.91), b03-1 Brushed A4 plum
+monument (7.82), b03-5 Pearl Double Halo A6 pool (7.73) and b03-3 Halo Curve A8 callouts (7.34). The batch mean is **7.70**
+(A 7.73, B 7.67), against 7.35. Every ad beat the loser anchor with both critics, and truth is 8 or more on all four with both.
+b03-1 beat the winner with A only and b03-2 with B only, so **no ad has beaten a winner anchor with both critics in three
+batches, and no note is promoted to a rule.** The b03-4 Monochrome float was dropped on extent after its regeneration. The
+finisher's fixes came after scoring, so both critics still owe one re-score of b03-1, the b03-2 Story and the b03-3 Feed
+(brief loop change 6). Full record: `batches/b03/review.md`.
+
+**The new move's outcome: the note "gold-tone mass on a saturated dark ground" is retired** (loop change 3). It needed a win
+over the winner anchor with both critics.
+- A voted to promote it: the plum monument was the first shape on the sheet.
+- B voted no: the Feed beats `win_static_hoops_apricot` only narrowly, and the Story loses to W1's braid and droplets.
+- Over b01 and b03 it won with one critic each time, never with both.
+
+**What worked (notes, not rules)**
+- **The product-only monument fixed stop power** (7.00 → 7.69, the b03 fix target). The method:
+  - the piece is the largest and brightest shape, centred, at 47–76% of the width;
+  - the sliding Feed crop (RULINGS §4) places it;
+  - the extent gate is measured first, before any layout.
+
+  b02's "hair lands first" failure did not recur.
+- **"Exactly as in the macro/pack reference" plus the reference's own pose held construction on all 7 pictures,** with no morph.
+  It is the best fidelity run so far:
+  - Cushion: 4 claws and a single-row halo;
+  - Brushed: satin finish;
+  - Monochrome: 1 + 1 stripes, 3 rails, open C;
+  - Pearl: two bands with a bridged gap;
+  - Halo Curve: two unmatched stones.
+- **Pose and aspect, not size words, control the vertical extent.** b03-3 went from 26% to 21% of the height when the prompt
+  copied the ref's own pose ("about 1.3 times as wide as tall; never stood up tall") and raised the camera to 35°.
+- **Shadow geometry described by its result renders.** "Short, tucked directly behind and under, no further than a quarter of
+  the ring's height; never a long shadow sideways" removed a frame-wide shadow.
+- **Dark saturated grounds (plum, ink) gave the loudest frames.** The mid-tone cocoa and sage read drab. This is a production
+  fact, not a candidate rule.
+- **The price in the beat ("the ₹699 …") was the most legible purchase cue at 200 px.** Purchase cues rose to 8.06.
+- **An evening moment in the beat lifts desire even with no skin.** b03-5's "for the sangeet, after dark." under an L1 pool had
+  the batch's best desire, 7.5 with both critics.
+- **Both critics read the b03-2 macro as a halo ring in half a second.** B rated it the strongest thumbnail, and the NAIRA10
+  single-product offer is live-ready as a clean card-variable test.
+
+**What failed, and why**
+- **Desire fell to 6.94 (A 7.13, B 6.75), the lowest dimension and the only one that fell.**
+  - All four are bare product-on-seamless still lifes, with no skin, prop, rhyme or world.
+  - There has been no worn frame for two batches.
+  - b03-3's flat mid-sage under a soft key scored desire 6 with B ("a catalogue page").
+- **The honest surprise is 0 for 5 over three batches.**
+  - The float died on extent again. A floating pair (hoop, gap and shadow) needs about 700 Feed px at the model's hero size,
+    against 550 for a headline plus a card.
+  - The L1 pool renders as a soft vignette, never a crisp pool.
+- **Size words are ignored below the model's preferred hero size** (about 47–76% of the width, 21–26% of the height for a lone
+  product).
+  - With the 0.7× rule, renders still came out at 1.3–1.85× the share asked.
+  - Asking for a third of the share gave a larger picture (2.5–2.65× the ask).
+- **An upright earring macro does not name its type at 200 px.**
+  - The face-on Brushed huggie read as a cuff or napkin ring to both critics; the finisher had to put "earrings" in the beat.
+  - "Huggie" alone does not help: in India, Huggies is a nappy brand.
+- **Light words that did not render:**
+  - L2 "direct on-camera flash" came out as a soft key twice.
+  - "No horizon line" at a 35° camera gave a seam.
+  - "A satin-sheen glaze floor" gave a reflection glow under the card.
+- **Colour words leak.** "A soft pink-white lustre" gave a blush pearl (a* about 7 against the ref's 2–4). The pearl also showed
+  8 regular bridges (the ref has about 5 irregular ones) and micro-glitter pavé. Truth held at 8 only because the count of
+  bands and gaps was exact.
+- **The brief's reference numbers were wrong twice:**
+  - Monochrome H ÷ W is 1.37 on the pack ref, not 1.65.
+  - Halo Curve's 11.8 mm is probably the stone's length, not its face (8.6–10.2 mm on the worn close ref).
+- **Copy lists parts instead of selling** ("TWO STONES. ONE OPEN BAND.", "TWO BANDS. ONE LIGHT."). The best hooks ("proposal-style",
+  "toi-et-moi") stayed in the primary text.
+- **Three Stories leave the bottom 35–40% as dead floor.** The model centres the piece, and Story text must end by 1250.
+
+**Production hygiene from b04** (finisher fixes, not creative rules)
+- One boxed element per Story: the offer. Size tags in a Story are one plain centred line with no box, because two stacked boxes
+  read as two buttons at 216 px.
+- On mid-tone grounds, 26 px bone needs 4.5:1. Get there with:
+  - Jost 500 on callout lines;
+  - wall-sampled scrims at about .5 with a 40 px feather inside the box (24 px reads as tiles);
+  - the card scrim at .75.
+- Every card line states the metal tone in the listing's own words, for example "surgical stainless steel · 18k gold tone PVD".
+- Meta headlines name the product type. Pearl Double Halo uses "Double Halo Studs · …"; "pearl" appears only inside the full
+  name.
+- Feed text share is a hard gate: A4 stays at .18 or less. A longer beat that crosses it gets shorter words, not a smaller size.
+- Log the rendered light ("L2 asked, rendered L7-like soft key") and any card-only variable (NAIRA10) in the ledger.
+- Credits: 2 per picture, every job served as `nano_banana_2`. The balance read **14.46** after b03, which leaves **2 pictures**
+  for b04 under the 10-credit floor unless the owner adds credits.
+
+**Fix target for b04: desire.** Every frame carries one second element that makes the piece wanted, while the piece still lands
+first at 200 px.
+- At least one worn frame with real skin, using one of the two proven no-face geometries: b02-1's camera behind the head, or
+  F2's lips-to-chest crop.
+  - Deep warm skin with pores, a zari or silk neckline cue, and a dark saturated ground.
+  - The key detail at 15% or more of the Feed width.
+  - Scale locked by a body ratio first; drop anything over 1.2×.
+- Every product-only frame becomes either:
+  - an **A3 Literal Rhyme**: an in-season prop that rhymes and doubles as the true-scale referent, such as a mogra bud by the
+    Pearl studs, a marigold by the Brushed huggies, or chai and mishri by Halo Curve; or
+  - a frame with a **time of day in its light** (an evening pool or a warm window rake) on a material surface.
+- Grounds are dark and saturated only: plum, ink, oxblood, deep teal, or sage "as dark as forest moss". The floor is matte where
+  the card sits.
+- Stories put the piece on a riser whose front face fills the lower third.
+- The first beat is a reason to want the piece; the occasion goes in the second beat.
+- **Acceptance:**
+  - the piece lands first and the rhyme or skin second on the blind 200 px sheet;
+  - desire is 7 or more on every shipped ad with both critics, and the batch desire mean is 7.25 or more;
+  - truth stays at 8 or more, and no dimension falls below 7.
+
+**One new move for b04: the F2 lips-to-chest worn crop on Serpentine Whisper Chain Silver** (23 in stock, claims allowed). It is
+the desire fix both critics name, and it has never been generated in ads-500.
+- No eyes.
+- Deep warm skin with texture.
+- A zari or silk neckline edge.
+- A dark plum or ink ground.
+- The chain's key detail at 15% or more of the Feed width.
+- Scale locked by the collarbone ratio first ("the chain runs along the collarbone, about one third of the shoulder width"),
+  measured, and dropped above 1.2×.
+
+Everything else in b04 follows the rules and the fix target, with no other new variable. With 2 pictures in the budget, this
+slot goes first.
+
+At zero credits before b04, the lead may also lay out the b03-4 float as a card-only A1 at Feed P 100, as both critics
+recommend (see the review). That is a rescue of an existing picture, not a new move.

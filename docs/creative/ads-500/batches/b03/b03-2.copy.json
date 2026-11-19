@@ -1,0 +1,128 @@
+{
+ "id": "b03-2",
+ "handle": "cushion-halo-ring",
+ "product": "Cushion Halo Ring",
+ "price": 999,
+ "archetype": "A1 Product Card (macro, no headline, NAIRA10 offer cell)",
+ "light": "L7 (as asked and as rendered: large soft warm window light from the upper left, small hard kicker from the right; small round speculars with faint fire, no rays or star glints)",
+ "camera": "C5 (100 mm macro at the head's height, tilted down about 10 degrees, front-on)",
+ "picture": "pics/b03-2.png (try 1, job 852c5553-7888-4baa-9a23-768ce82f8777); nothing scaled, moved or edited",
+ "onImage": {
+  "headline": null,
+  "beat": null,
+  "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
+  "offer": "CODE NAIRA10 · 10% OFF",
+  "sizeTag": "Feed: SHOWN MAGNIFIED / HALO ABOUT 12 MM (hairline box, right 72, unchanged). Story: SHOWN MAGNIFIED · HALO ABOUT 12 MM as one centred plain line, no box.",
+  "callouts": []
+ },
+ "meta": {
+  "primaryText": "Proposal-style halo, ₹999: Cushion Halo Ring, 8 mm cubic zirconia, silver tone, adjustable. Code NAIRA10: 10% off any order. Waterproof and tarnish-free, too.",
+  "headline": "Cushion Halo Ring · ₹999 · 10% off",
+  "description": "Code NAIRA10 · any order",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b03&utm_content={{ad.id}}&utm_term=b03-2_a1_cushion-macro-naira10"
+ },
+ "story": {
+  "text": [
+   "NAIRA wordmark (logo_white)",
+   "CUSHION HALO RING  ₹999",
+   "8 mm cubic zirconia · silver tone · adjustable",
+   "CODE NAIRA10 · 10% OFF",
+   "SHOWN MAGNIFIED · HALO ABOUT 12 MM (one centred plain bone line, no box)"
+  ]
+ },
+ "layout": {
+  "crop": {
+   "P": 62,
+   "T": 362.7,
+   "subjectExtentFeed": "ring x 124-946, y 364-847 (halo x 305-777, y 364-839); contact shadow ends about 855; lit block-top strip 852-914; block edge about 905-925; plain block face below 920 (rgb 109,74,57)"
+  },
+  "type": {
+   "h1Px": null,
+   "beatPx": null,
+   "beatRatio": null,
+   "note": "A1 has no headline, so the 0.6 beat rule does not apply."
+  },
+  "scale": "Halo 671 src px for about 12 mm = 39.3 Feed px/mm (about 2.5x on a phone), over the 19 px/mm trigger, so the size tag is on Feed and Story.",
+  "feed": "body.dark, bone type, no scrim. Size tag (kit .sizetag 30 px, Jost 500 caps .12em, 2 px hairline, centred text) at right 72: x 626-1008, y 244-340, its bottom 24 px over the ring's top (364), on calm cocoa backdrop. Card centred on x 540 at top 950 (brief 940; moved 10 px down for air under the block's soft edge at about 905-925, still below the 930 limit): logo_white 950-1006; name 1026-1064; price 1078-1134; line 1148-1186 (x 281-799); offer box 1200-1262 (x 316-764). No type over x 124-946, y 364-914.",
+  "story": "Native 9:16 frame (Story y = src y x 0.703125 - 7.5); the ring at 719-1202, so all type ends by 695. Centred card: logo_white 270-326; name and price on one baseline with a 24 px gap (brief section 3), row 346-402 (name x 296-651, price x 675-784); line 422-460; offer 476-538 (x 316-764). Size tag (finisher, after both critics): one centred plain line with no box, 'SHOWN MAGNIFIED · HALO ABOUT 12 MM', Jost 500 26 .12em bone, line box 650-688 (x 225-855), 31 px over the ring's top (719), so the stack has one axis and the offer stays the only boxed element. Pass 1 used the brief's drop-the-line fallback (logo 270, name 350, price 404, offer 478-540, tag centred 560-656); the offer box and the tag then stacked centred and read as two buttons at 216 px. Joining name and price and moving the tag to the ring's upper right (its Feed position) fixed that and kept the line, so 'cubic zirconia' is on the Story too.",
+  "contrast": "Bone measured against the picture under each text box (median, worst 2%). Feed: tag 4.7 (4.4), wordmark 6.8 (6.2), name 6.7 (6.1), price 6.9 (6.2), line 6.8 (6.1), offer 6.9 (6.1). Story: wordmark 5.4 (5.1), name and price 5.3 (5.0), line 5.2 (4.8), offer 5.1 (4.7), tag 4.7 (4.4). The tag stays full bone at weight 500 (a dimmer bone would drop it near 4:1). Finisher re-measure: the centred Story tag line 4.8 (4.5).",
+  "passes": [
+   "Pass 1: brief layout as written (Feed card 940, tag right 72 at 244-340; Story fallback with the tag centred under the offer). Feed fine; the wordmark sat about 20 px under the block's soft edge. Story: two centred boxes stacked, cluttered at 216 px.",
+   "Pass 2: Feed card to 950. Story restructured (name and price on one baseline, line kept, tag at the ring's upper right).",
+   "Pass 3: Story line and offer 4 px lower so the gap under the price's old-style 999 matches the rest of the stack. Checked at full size and at 216 px beside win_static_hoops_apricot and lose_p2_proof_parody.",
+   "Pass 4 (finisher, after both critics): Story size tag centred on the stack's axis (both critics; B's optional fix, A's fix) and set as one plain line with no box (A; the same unboxing both critics asked for on b03-1), at 650-688. Feed unchanged."
+  ],
+  "checks": {
+   "feed": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.067,
+    "outside": [],
+    "minFont": 26
+   },
+   "story": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.046,
+    "outside": [],
+    "minFont": 26
+   }
+  }
+ },
+ "copyChanges": [
+  "None to the brief's words. Primary text 158 characters, the offer ends at character 124; the claim (waterproof, tarnish-free) sits last, as proof, and Cushion Halo Ring carries those tags (RULINGS section 1.1). Meta headline 34, description 24. Lint: no diamond, real or solid gold, freshwater, bare gold or silver, compare-at price or free shipping.",
+  "Offer box reads CODE NAIRA10 · 10% OFF (one code, so CODE, as RULINGS section 2 words it).",
+  "Finisher after both critics: no word changes. Not applied (A only, logged): the card line 'proposal-style · 8 mm cubic zirconia · adjustable'. B scored the ad 'ship' as it stands; the card line stays '8 mm cubic zirconia · silver tone · adjustable'."
+ ],
+ "truthNotes": [
+  "Verifier: pass-with-notes. One round brilliant centre stone in exactly 4 ball claws, a single-row cushion halo, pavé down each shoulder, cool bright silver tone, the band's back hidden. Centre/halo 0.74, shoulder span/halo 1.74.",
+  "Shoulder span 76.1% of the width (52-66% asked), accepted as a note: the overshoot lies in the soft shoulder tips and the layout fits."
+ ],
+ "abTest": "Both critics: NAIRA10 (CODE NAIRA10 · 10% OFF, any order) is the ONLY card variable against the BUY2/BUY3 ads of b03. Read b03-2 live as an offer test, not a creative test. The card line is unchanged from what both critics scored.",
+ "deployment": "Feed and Story both carry the card and the size tag. Not scored yet.",
+ "review": {
+  "status": "ship. Scored by both critics on the 19:46 renders: A 7.90 ship-after-fixes, B 7.93 ship (none required). Only the Story size tag changed after scoring.",
+  "scores": {
+   "A": {
+    "stop": 8,
+    "message": 8,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 8,
+    "copy": 7.5,
+    "fit": 8,
+    "desire": 7,
+    "cues": 8.5,
+    "weighted": 7.9
+   },
+   "B": {
+    "stop": 8.5,
+    "message": 7.5,
+    "truth": 8,
+    "layout": 8,
+    "brand": 8.5,
+    "copy": 7.5,
+    "fit": 8,
+    "desire": 7,
+    "cues": 8.5,
+    "weighted": 7.93
+   }
+  },
+  "mean": 7.91,
+  "beatsLoser": {
+   "A": true,
+   "B": true
+  },
+  "beatsWinner": {
+   "A": false,
+   "B": true
+  },
+  "scoredFiles": {
+   "feed": "batches/b03/b03-2_feed.jpg (render of 2026-11-19 19:46:53 UTC, unchanged)",
+   "story": "batches/b03/b03-2_story.jpg (render of 2026-11-19 20:09:36 UTC, after the tag fix)"
+  }
+ }
+}

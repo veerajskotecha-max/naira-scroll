@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../kit/kit.css">
+<!-- b03-1 Brushed Gold Huggies · A4 Monument Macro (the b03 new move: gold-tone mass on a saturated plum ground) · Feed 1080x1350.
+     Crop (verify.md): P 56, T 327.6. The pair sits at Feed x 160-965, y 428-930 (contact shadows included); the opening at
+     x 750-940, y 450-900. No type enters that box.
+     Wall above the pair: calm plum rgb(66,33,48), L 41, bone about 11:1. Floor under the card: plum rgb(107,68,73) with two
+     soft reflection streaks (y 944-1220), muted by a scrim in the floor's own plum. Measured contrast (median, against the
+     rendered ground): headline 12.0-12.4, beat gold-light 8.7, size tag 12.8, card 7.6-8.3 (worst 6.4).
+     Finisher, after both critics (19 Nov): the product type now reads in the 64 px beat ("the ₹699 earrings.", x 72-482, 147 px
+     clear of the tag) and in the card line ("hinged huggie earrings · 18k gold tone PVD"), which also drops the third "brushed".
+     "earring pair" and "huggie pair" both pushed text share to .182-.183, over the A4 limit of .18; this beat renders .178. -->
+<style>
+ body { background: #42212F; }
+ .pic { object-position: 50% 56%; }
+ /* Floor scrim, sampled plum (92,56,66): 0 at 930 (never over the contact shadows), quick to .34 under the wordmark and name,
+    .55 at the frame foot. */
+ .scrim { top: 930px; background: linear-gradient(to bottom, rgba(92,56,66,0) 0, rgba(92,56,66,.30) 90px, rgba(92,56,66,.42) 200px,
+          rgba(92,56,66,.55) 420px); }
+ .h1 { position: absolute; left: 72px; top: 96px; font-size: 100px; letter-spacing: .02em; white-space: nowrap; }
+ .beat { position: absolute; left: 72px; top: 304px; font-size: 64px; }
+ .sizetag { right: 72px; top: 304px; }
+ /* Card at 958 (brief 940): 28 px of floor between the contact shadows (930) and the wordmark; the offer box ends at 1256. */
+ .card .wm { margin-bottom: 6px; }
+ .card .name, .card .line { line-height: 1.2; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/b03-1.png">
+ <div class="scrim"></div>
+ <p class="h1">Brushed,<br>not polished.</p>
+ <p class="beat">the ₹699 earrings.</p>
+ <div class="sizetag">Shown magnified<br>about 14 mm tall</div>
+ <div class="card" style="top:958px">
+  <img class="wm" src="../../kit/logo_white.png">
+  <div class="name">Brushed Gold Huggies</div>
+  <div class="price">₹699</div>
+  <div class="line">hinged huggie earrings · 18k gold tone PVD</div>
+  <div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div>
+ </div>
+</body></html>

@@ -1,0 +1,150 @@
+{
+ "id": "b03-3",
+ "handle": "halo-curve-ring",
+ "product": "Halo Curve Ring",
+ "price": 899,
+ "archetype": "A8 Callout Anatomy (Halo Curve's first ad; the explainer role in b03)",
+ "light": "L2 asked (direct flash, hard drop shadow); rendered as an L7-like soft frontal/top key with a short soft shadow down and right, on both tries (verify.md)",
+ "camera": "C5 100 mm macro, three-quarter high view (about 35 degrees), the cube reference pose",
+ "picture": "pics/b03-3.png (try 2, job e9f5364c-4c82-4ba4-aca7-974ddd680165, pass-with-notes); nothing scaled, moved or edited",
+ "onImage": {
+  "headline": "TWO STONES. / ONE OPEN BAND.",
+  "beat": "",
+  "cardLine": "surgical stainless steel · 18k gold tone PVD",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "sizeTag": "",
+  "callouts": [
+   {
+    "label": "TIGER EYE",
+    "line": "banded, silky sheen",
+    "endsOn": "the tiger eye's left bezel rim (metal)"
+   },
+   {
+    "label": "CHAMPAGNE CRYSTAL",
+    "line": "faceted, pale champagne",
+    "endsOn": "the crystal's top bezel rim (metal)"
+   },
+   {
+    "label": "OPEN BAND",
+    "line": "adjusts US 5 to 9 · about 4 g",
+    "endsOn": "the band wire at the open loop (metal)"
+   }
+  ]
+ },
+ "meta": {
+  "primaryText": "Two stones, one open band: Halo Curve Ring, ₹899, tiger eye and champagne crystal in 18k gold tone. BUY2: 10% off 2 pieces. Adjusts US 5 to 9, and waterproof.",
+  "headline": "Halo Curve Ring · ₹899 · 10% off 2",
+  "description": "Tiger eye · champagne crystal",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/halo-curve-ring?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b03&utm_content={{ad.id}}&utm_term=b03-3_a8_halocurve-two-stones"
+ },
+ "story": {
+  "text": [
+   "TWO STONES. / ONE OPEN BAND.",
+   "NAIRA wordmark (logo_white)",
+   "HALO CURVE RING  ₹899",
+   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF"
+  ]
+ },
+ "layout": {
+  "crop": {
+   "P": 63,
+   "T": 368.55,
+   "subjectExtentFeed": "ring x 280-787, y 384-794; shadow tail to y 813 at x 703-960 (430 px; 420 band, 550 RULINGS gate)",
+   "widthShare": 0.469,
+   "scale": "16.8 Feed px/mm, about life size on a phone, so no size tag (the brief's 'Shown magnified' tag is dropped per verify.md); the callouts carry the mm"
+  },
+  "type": {
+   "h1Face": "Velista caps .02em",
+   "h1Px": 88,
+   "beatPx": null,
+   "beatRatio": null,
+   "beatNote": "A8 has callouts, not a beat (brief loop change 5)",
+   "calloutPx": 26,
+   "storyH1Px": 76
+  },
+  "feed": "body.dark on the deep sage. Headline Velista 88 bone, centred, top 86 (ink 91-153 and 177-239, x 196-884), on the dark wall above the soft wall/floor seam (244-276). Callouts (.callout: b Jost 500 26 caps .1em over span Jost 500 26, finisher: the span weight raised from 400 per B): C1 'TIGER EYE / banded, silky sheen' left 72, top 284 (x 72-300); C2 'CHAMPAGNE CRYSTAL / faceted, pale champagne' left 688, top 284 (x 688-1008); C3 'OPEN BAND / adjusts US 5 to 9 · about 4 g' left 72, top 846 (x 72-402, y 846-914). Leaders: 2 px bone lines with 10 px open circles on metal, none crossing a stone: C1 now leaves the block's right edge at (310,318), clear of both lines, to the tiger eye's left bezel rim (444,470); C2 straight down at x 703 from 366 to the crystal's top bezel rim (703,594); C3 from (261,862) to the band wire at the open loop (345,768). Callout scrims (finisher, B): the wall's own sage rgb(77,94,79) at .52, feathered 40 px inside boxes x 24-348 / 640-1056 at y 236-384 (C1, C2) and x 24-450 at y 814-954 (C3); none enters the ring's box x 280-787, y 384-813. Card back at top 940 (B) with the line 'surgical stainless steel · 18k gold tone PVD': logo_white 940-996, name 1016-1054, price 1062-1130, line 1138-1176 (x 293-787), offer box 1190-1252 (x 177-903); 26 px clear under C3. Floor scrim in the wall sage: 0 at 814, .20 at 850, .45 at 890, .62 at 930, .75 from 960 to the foot (finisher, A). No text box over x 280-787, y 384-813.",
+  "story": "Native 9:16 frame (Story y = src y x 0.703125 - 7.5; ring 745-1156, shadow to 1174, seam about 600-640). Order follows the Feed so the F2 lockup stays one block: headline Velista 76 centred, top 272 (ink 276-404); logo_white 476-532; name and price on one baseline, 24 px gap (ink 556-608); offer box 628-690 with a solid fill in the wall sage rgb(77,94,79) because it crosses the seam. 55 px of clear floor above the ring. Callouts are Feed-only (brief); size tag dropped (life size).",
+  "contrast": "Median against the rendered ground, worst = against the 98th-percentile bright pixel. Feed after the finisher's fixes: headline 6.0-6.1 (5.7), C1 5.1 (4.9), C2 5.25 (5.05), C3 5.1 (4.6), name 5.2, line 5.25, offer 5.3. Before: C1 4.1, C2 4.4, C3 4.1 (3.5), card 4.8-4.9. Story (unchanged): headline 5.8, wordmark 6.0, name 6.2, price 6.2, offer 6.3 on its sage fill.",
+  "checks": {
+   "feed": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.167,
+    "outside": [],
+    "minFont": 26
+   },
+   "story": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.066,
+    "outside": [],
+    "minFont": 26
+   }
+  }
+ },
+ "copyChanges": [
+  "No change to the words. The on-image copy and callouts are listing words (tiger eye about 11.8 mm, faceted pale champagne crystal, open band US 5 to 9, 4 g). 'Halo' appears only as the product name, the crystal is never called cubic zirconia, and no banned word appears. ₹899 and the BUY2/BUY3 values match RULINGS §2. Waterproof is allowed for this SKU (RULINGS §1.1) and appears only as the last-line proof in the primary text (learnings rule 8).",
+  "Primary text 158 characters, the offer ends at character 123; Meta headline 34 characters; description 29.",
+  "Size tag dropped (16.8 Feed px/mm is life size; under the 19 px/mm trigger), per verify.md, so three text elements: headline, callout set, card.",
+  "Feed headline 88 px at top 86 (brief 84 at 96), so it sits wholly on the dark wall above the seam; card top 970 (brief 940); C3 top 846 (brief 828).",
+  "Story: headline above the logo (brief had the logo first), so the wordmark, name, price and offer read as one F2 block; the offer box gets the wall-sage fill the verifier asked for.",
+  "Finisher after both critics (19 Nov). C1's second line 'about 11.8 mm' becomes 'banded, silky sheen'. Both critics wanted the line changed: A for the sheen (the stone's selling point) and to drop the fussy decimal; B on truth, because the stone face measures about 8.6-10.2 mm in the worn close ref, so the listing's 11.8 mm is probably the length or diagonal. The number returns once products.md settles it.",
+  "Finisher, B's truth fix: the card line is restored as 'surgical stainless steel · 18k gold tone PVD' (the listing's exact words, products.md G2; B wrote 'surgical steel'), because the metal tone appeared nowhere on the image. The card moves back to top 940.",
+  "Finisher, legibility on the mid-sage floor (both critics: A on the card, B on the callouts): callout second lines Jost 500, feathered wall-sage scrims behind C1-C3 (B), and the card scrim raised to .75 from 960 (A). Every 26 px element now measures 4.6:1 or better at worst.",
+  "Not applied (one critic only, logged): A's C2 line 'faceted, see-through'; A's Story re-order (logo first, as b03-1, b03-2 and b03-5); B's Story fit cue 'ADJUSTS US 5 TO 9 · ABOUT 4 G' under the ring; A's primary text with 'Toi-et-moi'. The Story and Meta copy are unchanged."
+ ],
+ "truthNotes": [
+  "Construction: an open bypass of one smooth round gold-tone wire, the loop reaching left past the tiger eye, the band open between the ends; exactly two unmatched stones in slim irregular bezels (opaque banded golden-brown tiger eye, faceted transparent pale champagne crystal). No halo.",
+  "Ratios (verify.md): tiger eye / wire 7.0, tiger eye / ring width 0.39, ring width / height 1.23.",
+  "Colour: warm-neutral gold (hue 78) on a cooler deep sage (dE76 29-35).",
+  "Scale: about life size (16.8 Feed px/mm), so no 'Shown magnified' claim is printed.",
+  "Critic B: the tiger eye's face measures about 8.6-10.2 mm in the worn close ref, so the listing's 11.8 mm is probably the stone's length or diagonal; a face-width reading would overstate the visible stone by 15-35%. No mm is printed for the stone until products.md settles it.",
+  "Light logged as rendered: L2 asked, rendered L7-like soft key (both tries).",
+  "Weak point (B, desire 6): flat mid-sage under a soft key reads as a catalogue page; the Story's lower 750 px is dead sage floor."
+ ],
+ "review": {
+  "status": "ship (after fixes). Scored by both critics on the 19:57 renders: A 7.40 ship-after-fixes, B 7.28 ship-after-fixes. Fixes applied to the Feed; one re-score by both critics is due under brief loop change 6.",
+  "scores": {
+   "A": {
+    "stop": 6.5,
+    "message": 7.5,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 7.5,
+    "copy": 7,
+    "fit": 8,
+    "desire": 6.5,
+    "cues": 8,
+    "weighted": 7.4
+   },
+   "B": {
+    "stop": 6.5,
+    "message": 8,
+    "truth": 8,
+    "layout": 7,
+    "brand": 7.5,
+    "copy": 8,
+    "fit": 8,
+    "desire": 6,
+    "cues": 7.5,
+    "weighted": 7.28
+   }
+  },
+  "mean": 7.34,
+  "beatsLoser": {
+   "A": true,
+   "B": true
+  },
+  "beatsWinner": {
+   "A": false,
+   "B": false
+  },
+  "scoredFiles": {
+   "feed": "batches/b03/b03-3_feed.jpg (render of 2026-11-19 20:12:01 UTC, after fixes)",
+   "story": "batches/b03/b03-3_story.jpg (render of 2026-11-19 19:57:16 UTC, unchanged)"
+  }
+ }
+}

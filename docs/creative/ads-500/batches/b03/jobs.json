@@ -4,34 +4,72 @@
   "job_id": "b856168b-fe23-42eb-9881-e1082d6c94d1",
   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_b856168b-fe23-42eb-9881-e1082d6c94d1.png",
   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-1.png",
-  "size": "1536x2752"
+  "size": "1536x2752",
+  "requested_model": "nano_banana_pro",
+  "served_model": "nano_banana_2",
+  "regenerated": false,
+  "verdict": "pass-with-notes (try 1; pair 74.5% of width vs 58-70% asked, extent fits at P 56)"
  },
  {
   "id": "b03-2",
   "job_id": "852c5553-7888-4baa-9a23-768ce82f8777",
   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_852c5553-7888-4baa-9a23-768ce82f8777.png",
   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-2.png",
-  "size": "1536x2752"
+  "size": "1536x2752",
+  "requested_model": "nano_banana_pro",
+  "served_model": "nano_banana_2",
+  "regenerated": false,
+  "verdict": "pass-with-notes (try 1; shoulder span 76% of width vs 52-66% asked, extent fits at P 62)"
  },
  {
   "id": "b03-3",
-  "job_id": "8d7a6fa1-461e-4e8e-803f-4ff875a0879f",
-  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_8d7a6fa1-461e-4e8e-803f-4ff875a0879f.png",
+  "job_id": "e9f5364c-4c82-4ba4-aca7-974ddd680165",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_192421_e9f5364c-4c82-4ba4-aca7-974ddd680165.png",
   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-3.png",
-  "size": "1536x2752"
+  "size": "1536x2752",
+  "requested_model": "nano_banana_pro",
+  "served_model": "nano_banana_2",
+  "try1": {
+   "job_id": "8d7a6fa1-461e-4e8e-803f-4ff875a0879f",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_8d7a6fa1-461e-4e8e-803f-4ff875a0879f.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-3_try1.png",
+   "note": "failed extent: ring 506 Feed px tall, ring+shadow 561 (band 420, RULINGS gate 550); long soft shadow to the frame edge; pose taller than the cube ref (W/H 1.0 vs 1.24)"
+  },
+  "regenerated": true,
+  "submitted_at": "2026-11-19T19:24Z (verifier, one generate_image_batch call of 2 jobs; balance 18.46 before, 14.46 after)",
+  "credits": 2,
+  "verdict": "pass-with-notes (try 2 kept; ring+shadow 430 Feed px vs 420 band, fits at P 63; about life size at 16.8 px/mm, so no Shown magnified tag)",
+  "prompt_note": "corrected prompt recorded in verify.md"
  },
  {
   "id": "b03-4",
-  "job_id": "394dd5a7-2134-4249-8675-3519d5c9ab97",
-  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_394dd5a7-2134-4249-8675-3519d5c9ab97.png",
+  "job_id": "90a690db-8c87-43a1-84a5-b96d65579c93",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_192422_90a690db-8c87-43a1-84a5-b96d65579c93.png",
   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-4.png",
-  "size": "1536x2752"
+  "size": "1536x2752",
+  "requested_model": "nano_banana_pro",
+  "served_model": "nano_banana_2",
+  "try1": {
+   "job_id": "394dd5a7-2134-4249-8675-3519d5c9ab97",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_394dd5a7-2134-4249-8675-3519d5c9ab97.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-4_try1.png",
+   "note": "failed extent: hoops+shadows 693 Feed px vs 550; pair 60.7% of width vs 40-52%; 19.9 px/mm"
+  },
+  "regenerated": true,
+  "submitted_at": "2026-11-19T19:24Z (verifier, one generate_image_batch call of 2 jobs; balance 18.46 before, 14.46 after)",
+  "credits": 2,
+  "verdict": "dropped (both tries fail Feed extent: hoops+shadows 693 then 712 Feed px vs 550; construction and float pass; zero-credit card-only rescue possible at P 100, lead decides)",
+  "prompt_note": "corrected prompt recorded in verify.md"
  },
  {
   "id": "b03-5",
   "job_id": "db922542-6d17-4a32-ba14-7f6966e4a6d6",
   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_db922542-6d17-4a32-ba14-7f6966e4a6d6.png",
   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b03/pics/b03-5.png",
-  "size": "1536x2752"
+  "size": "1536x2752",
+  "requested_model": "nano_banana_pro",
+  "served_model": "nano_banana_2",
+  "regenerated": false,
+  "verdict": "pass-with-notes (try 1; pearl reads faintly blush, pool edge soft)"
  }
 ]
