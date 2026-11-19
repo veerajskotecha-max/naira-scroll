@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../kit/kit.css">
+<title>b01-1 Cushion Halo Ring, A6 Single Spotlight, Feed</title>
+<style>
+ body { background: var(--oxblood); }
+ /* Scrim in the picture's own ground (deep oxblood-black), only behind the wordmark and name where the lit pedestal lip
+    sits under them. It starts at y 866, below the ring's foot (metal ends at y 845), so it never darkens the piece. */
+ .scrim { top: 866px; bottom: auto; height: 200px; left: 110px; right: 110px;
+          background: radial-gradient(ellipse closest-side, rgba(24,6,8,.62) 40%, rgba(24,6,8,0) 100%); }
+ /* Offer box is one 26 px line (finisher, b01: the kit's 20 px <small> codes line failed the 26 px floor).
+    F2's separator between the two offers, a flat 9 px lozenge in gold-light, so it reads apart from the middle dots. */
+ .offer .sep { display: inline-block; width: 9px; height: 9px; background: var(--gold-light); transform: rotate(45deg);
+               vertical-align: middle; margin: -4px 20px 0 14px; }
+ .hl { position: absolute; font-size: 76px; letter-spacing: .12em; color: var(--gold-light); white-space: nowrap; }
+ .hl.l1 { left: 72px; top: 96px; }
+ .hl.l2 { left: 232px; top: 174px; }
+ .bt { position: absolute; left: 232px; top: 262px; font-size: 48px; color: var(--bone); white-space: nowrap; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/b01-1.png" alt="">
+ <div class="scrim"></div>
+ <p class="h1 hl l1">Looks like</p>
+ <p class="h1 hl l2">a proposal.</p>
+ <p class="beat bt">priced like a present.</p>
+ <div class="card" style="top:920px">
+  <img class="wm" src="../../kit/logo_white.png" alt="Naira">
+  <div class="name">Cushion Halo Ring</div>
+  <div class="price">₹999</div>
+  <div class="line">8 mm cubic zirconia · silver tone · adjustable</div>
+  <div class="offer">Code BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div>
+ </div>
+</body></html>

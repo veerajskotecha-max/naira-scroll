@@ -1,0 +1,45 @@
+{
+ "id": "b01-4",
+ "handle": "woven-gold-hoops",
+ "product": "Woven Gold Hoops",
+ "price": 1049,
+ "archetype": "A4 Monument Macro, claim as proof",
+ "light": "L1",
+ "camera": "C5",
+ "onImage": {
+  "headline": "BRAIDED HOOPS. / ZERO STONES.",
+  "beat": "and yes, waterproof.",
+  "cardLine": "hoop earrings · 18k gold tone PVD",
+  "offer": "CODE BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "sizeTag": "SHOWN MAGNIFIED / HOOP ABOUT 25 MM",
+  "callouts": []
+ },
+ "meta": {
+  "primaryText": "Braided hoops, zero stones: Woven Gold Hoops, ₹1,049, about 25 mm across, in 18k gold tone PVD. BUY2: 10% off 2 pieces. And yes, waterproof and tarnish-free.",
+  "headline": "Woven Gold Hoops · ₹1,049 · 10% off 2",
+  "description": "18k gold tone PVD · waterproof",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b01&utm_content={{ad.id}}&utm_term=b01-4_a4_texture-waterproof"
+ },
+ "story": {
+  "text": [
+   "NAIRA wordmark",
+   "SHOWN MAGNIFIED / HOOP ABOUT 25 MM",
+   "WOVEN GOLD HOOPS",
+   "₹1,049"
+  ]
+ },
+ "finisher": {
+  "date": "2026-11-19",
+  "changes": [
+   "headline LOUD TEXTURE. -> BRAIDED HOOPS. (names the product type at 200 px), Velista 92 px",
+   "size tag ABOUT 25 MM ACROSS -> HOOP ABOUT 25 MM (Feed and Story)",
+   "card line braided -> hoop earrings",
+   "offer box one 26 px line with the batch lozenge separator",
+   "card top 945 -> 962, gap 14 (clears the droplet under the wordmark)",
+   "Story adds name and price at y 520-618, above the hoop (starts 709)",
+   "primary text first beat matches the headline; 'about 25 mm across' replaces '25 mm of braided' (157 characters, offer ends at 119)",
+   "Meta headline 43 -> 37 characters; description 38 -> 30"
+  ]
+ }
+}

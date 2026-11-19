@@ -1,0 +1,37 @@
+{
+ "id": "b01-1",
+ "handle": "cushion-halo-ring",
+ "product": "Cushion Halo Ring",
+ "price": 999,
+ "archetype": "A6 Single Spotlight",
+ "light": "L1",
+ "camera": "C3",
+ "onImage": {
+  "headline": "LOOKS LIKE / A PROPOSAL.",
+  "beat": "priced like a present.",
+  "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
+  "offer": "CODE BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "sizeTag": null,
+  "callouts": []
+ },
+ "meta": {
+  "primaryText": "Looks like a proposal, priced like a present: Cushion Halo Ring, ₹999, 8 mm cubic zirconia. BUY2: 10% off 2 pieces. Silver tone, adjustable, with an open back.",
+  "headline": "Cushion Halo Ring · ₹999 · 10% off 2",
+  "description": "Silver tone · cubic zirconia",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b01&utm_content={{ad.id}}&utm_term=b01-1_a6_proposal-spotlight"
+ },
+ "story": {
+  "text": null,
+  "note": "A6 no-text twin (no wordmark, no name, no price) kept by critic B and the brief; logged as a test against a name-and-price Story lockup."
+ },
+ "finisher": {
+  "date": "2026-11-19",
+  "changes": [
+   "offer box one 26 px line (was 26 + 20 px small line)",
+   "card top 910 -> 920",
+   "Meta headline 42 -> 36 characters, offer value kept inside 40",
+   "Meta description 41 -> 28 characters"
+  ]
+ }
+}

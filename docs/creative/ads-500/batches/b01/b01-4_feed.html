@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../kit/kit.css">
+<!-- b01-4 Woven Gold Hoops · A4 Monument Macro, claim as proof · Feed 1080x1350 -->
+<style>
+ body { background: var(--plum); }
+ /* Scrim in the ground colour: a soft pool behind the wordmark calms the droplet under "IR"; the linear fade from 880
+    (below the braid's 892 bottom edge) quiets the card ground. Side droplets, the claim's proof, stay bright. */
+ .scrim { top: 880px; background:
+   radial-gradient(ellipse 150px 58px at 565px 82px, rgba(74,37,64,.55), rgba(74,37,64,0)),
+   linear-gradient(to bottom, rgba(74,37,64,0), rgba(74,37,64,.6)); }
+ /* Finisher, b01: the headline names the product type ("BRAIDED HOOPS.") because one flat hoop at 85% of the width
+    reads as a bangle at 200 px (both critics). Velista 92 px so the line fits on one row. */
+ .h1 { position: absolute; left: 72px; top: 88px; font-size: 92px; letter-spacing: .01em; white-space: nowrap; }
+ .beat { position: absolute; left: 72px; top: 296px; font-size: 48px; }
+ .sizetag { right: 72px; top: 292px; }
+ /* Card at 962 clears the droplet at x 365-445, y 905-945 and the braid bottom (892); the one-line offer ends inside 1266. */
+ .card { gap: 14px; }
+ .card .wm { margin-bottom: 4px; }
+ .card .name, .card .line { line-height: 1.2; }
+ /* One offer box across the batch: one 26 px line, b01-1's 9 px gold-light lozenge as the separator. */
+ .offer .sep { display: inline-block; width: 9px; height: 9px; background: var(--gold-light); transform: rotate(45deg);
+               vertical-align: middle; margin: -4px 20px 0 14px; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/b01-4.png">
+ <div class="scrim"></div>
+ <p class="h1">Braided hoops.<br>Zero stones.</p>
+ <p class="beat">and yes, waterproof.</p>
+ <div class="sizetag">Shown magnified<br>hoop about 25 mm</div>
+ <div class="card" style="top:962px">
+  <img class="wm" src="../../kit/logo_white.png">
+  <div class="name">Woven Gold Hoops</div>
+  <div class="price">₹1,049</div>
+  <div class="line">hoop earrings · 18k gold tone PVD</div>
+  <div class="offer">Code BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div>
+ </div>
+</body></html>
