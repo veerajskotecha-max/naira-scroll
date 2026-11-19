@@ -5,3 +5,8 @@
 @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400 700;src:url('fonts/CormorantGaramond-normal-400_700.woff2') format('woff2')}
 @font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:400 800;font-stretch:75% 100%;src:url('fonts/BricolageGrotesque-normal-400_800.woff2') format('woff2')}
 @font-face{font-family:'Anton';font-style:normal;font-weight:400;src:url('fonts/Anton-normal-400.woff2') format('woff2')}
+/* The rupee sign: no kit face has U+20B9, so Noto Sans / Noto Serif subsets stand in under the kit's own family names. */
+@font-face{font-family:'Jost';font-style:normal;font-weight:300 700;src:url('fonts/NotoSans-rupee.woff2') format('woff2');unicode-range:U+20B9}
+@font-face{font-family:'Jost';font-style:italic;font-weight:300 700;src:url('fonts/NotoSans-rupee.woff2') format('woff2');unicode-range:U+20B9}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400 700;src:url('fonts/NotoSerif-rupee.woff2') format('woff2');unicode-range:U+20B9}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400 700;src:url('fonts/NotoSerif-italic-rupee.woff2') format('woff2');unicode-range:U+20B9}

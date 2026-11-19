@@ -1,33 +1,59 @@
-/* Naira Petite ad kit. Link from an ad page as ../../kit/kit.css. Canvas 1080x1350 (Meta feed 4:5).
-   Brand tokens from the brand bible (imagegenerationnaira/references/brand-bible.md) and the site (ink #1A1614, paper #FBF8F3).
-   "Loud" grounds are for colour-block posters only; jewellery photographs stay warm (no cool grade, never brassy gold). */
+/* Naira Petite ad kit v2 (19 Nov 2026), per PLAYBOOK.md section 4.0.
+   Link from an ad page as ../../kit/kit.css. Feed canvas 1080x1350 (4:5); add class "story" to <body> for 1080x1920 (9:16).
+   Type is locked to three families: Velista (display caps), Cormorant Garamond (italic second beat, card price), Jost (everything
+   else). Anton only inside A11 as a labelled experiment. Rupee sign comes from Noto subsets under the same family names (fonts.css).
+   Safe areas: Feed text x 72-1008, y 84-1266. Story text only between y 270 and 1250. */
 @import url("fonts.css");
 :root {
   --ink: #1A1614; --ink-soft: #3B3430; --paper: #FBF8F3; --bone: #F4F0E8; --blush: #FBEDE9; --rose: #F2CFC4;
   --coral: #E79C82; --coral-deep: #C8664A; --sage: #A9BCAD; --sage-deep: #5E7A6C; --gold: #C9A55C; --gold-light: #E4C889;
-  /* loud grounds for posters */
   --terracotta: #B5502F; --saffron: #E8A33A; --oxblood: #6E1F23; --plum: #4A2540; --pista: #B9C98A; --sky: #9EC3D6;
-  --display: "Bricolage Grotesque", "Jost", system-ui, sans-serif;
-  --poster: "Anton", "Bricolage Grotesque", sans-serif;
-  --serif: "Cormorant Garamond", Georgia, serif;
-  --sans: "Jost", system-ui, sans-serif;
-  --wordmark: "Velista", "Cormorant Garamond", serif;
+  --cocoa: #3B2620;
+  --display: "Velista", "Cormorant Garamond", serif;
+  --serif: "Cormorant Garamond", serif;
+  --sans: "Jost", sans-serif;
+  --poster: "Anton", "Jost", sans-serif;
+  --fg: var(--ink); --accent: var(--coral-deep);
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; }
-body { position: relative; background: var(--bone); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
-.pic { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.logo { position: absolute; height: 40px; }            /* logo_ink.png / logo_white.png / logo_sage.png, 40-52px tall */
-.wordmark { font-family: var(--wordmark); letter-spacing: .14em; }
-.eyebrow { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .26em; text-transform: uppercase; }
-.h-display { font-family: var(--display); font-weight: 800; line-height: .95; letter-spacing: -.02em; }
-.h-poster { font-family: var(--poster); text-transform: uppercase; line-height: .9; }
-.h-serif { font-family: var(--serif); font-weight: 600; line-height: 1; }
-.italic { font-family: var(--serif); font-style: italic; font-weight: 500; }
-.body { font-family: var(--sans); font-weight: 400; font-size: 30px; line-height: 1.3; }
-.chip { display: inline-block; font-family: var(--sans); font-weight: 600; font-size: 24px; letter-spacing: .16em; text-transform: uppercase; padding: 12px 22px; border-radius: 999px; }
-.cta { display: inline-block; background: var(--ink); color: var(--paper); font-family: var(--sans); font-weight: 600; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; padding: 22px 38px; }
-.price { font-family: var(--sans); font-weight: 500; font-size: 34px; letter-spacing: .12em; }
-.price s { opacity: .55; font-weight: 400; margin-left: .4em; font-size: .8em; }
-.callout { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 24px; letter-spacing: .08em; }
-.rule { position: absolute; background: currentColor; height: 2px; transform-origin: left center; }
+body.story, html:has(body.story) { height: 1920px; }
+body { position: relative; background: var(--bone); color: var(--fg); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+body.dark { --fg: var(--bone); --accent: var(--gold-light); }
+.pic { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.abs { position: absolute; }
+
+/* Headline: Velista caps. Never digits, rupee, middle dots or dashes inside Velista. Ligatures and contextual swashes off. */
+.h1 { font-family: var(--display); text-transform: uppercase; font-weight: 400; line-height: .98; letter-spacing: .02em;
+      font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0; color: var(--fg);
+      text-wrap: balance; margin: 0; }
+.beat { font-family: var(--serif); font-style: italic; font-weight: 500; line-height: 1.02; color: var(--accent); margin: 0; }
+.poster { font-family: var(--poster); text-transform: uppercase; line-height: .9; margin: 0; }
+.numeral { font-family: var(--sans); font-weight: 300; line-height: .85; letter-spacing: -.02em; }
+.label { font-family: var(--sans); font-weight: 500; font-size: 30px; letter-spacing: .14em; text-transform: uppercase; }
+.foot { font-family: var(--sans); font-weight: 400; font-size: 22px; letter-spacing: .02em; opacity: .85; }
+
+/* The Naira card (F2 lockup): centred on x 540; Feed block y 880-1200, Story y 1000-1250. Set top/bottom on the element. */
+.card { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; color: var(--fg);
+        text-align: center; }
+.card .wm { height: 56px; width: auto; display: block; margin-bottom: 6px; }
+.card .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; }
+.card .price { font-family: var(--serif); font-weight: 500; font-size: 56px; line-height: 1; }
+.card .price s { font-size: .55em; opacity: .6; margin-left: .35em; }
+.card .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; }
+.offer { display: inline-block; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase;
+         border: 2px solid currentColor; padding: 14px 24px; line-height: 1.15; }
+.offer small { display: block; font-size: 20px; letter-spacing: .16em; font-weight: 400; margin-top: 6px; opacity: .9; }
+.wm-top { position: absolute; top: 84px; left: 50%; transform: translateX(-50%); height: 56px; }
+.scrim { position: absolute; left: 0; right: 0; bottom: 0; pointer-events: none; }
+
+/* Size tag, shown when the piece is larger than life (more than about 19 px per listed mm on the 1080 canvas). */
+.sizetag { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 30px; letter-spacing: .12em; text-transform: uppercase;
+           border: 2px solid currentColor; padding: 10px 16px; line-height: 1.2; color: var(--fg); }
+/* Callouts: Jost caps over one Jost line; leaders drawn in an inline SVG (2 px line ending in a 10 px open circle on metal, never stones). */
+.callout { position: absolute; font-family: var(--sans); font-size: 26px; line-height: 1.25; color: var(--fg); }
+.callout b { display: block; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
+.callout span { font-weight: 400; }
+.tab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase;
+       background: var(--bone); color: var(--ink); padding: 10px 16px; }
+svg.overlay { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
