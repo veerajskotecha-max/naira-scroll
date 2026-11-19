@@ -73,6 +73,12 @@ Huggies (crystal 10, emerald 6, amethyst 12, ruby 0), Droplet Open Ring (9 / 11)
 
 - Generate at **9:16, 2K** with the subject inside the central 4:5 window (y 14.8%–85.2% of the frame), so one picture makes both
   the Feed ad (1080×1350, the central crop) and the Story/Reels ad (1080×1920, text only between y 270 and 1250).
+- **Amended 19 Nov, 18:45 UTC (b02 loop change 1):** the Feed may be **any** 4:5 window of the 9:16 picture at the same scale,
+  chosen per picture with `.pic { object-position: 50% P% }` (P 0–100; window top T = 5.85 × P px on the 1080 × 1935 display;
+  Feed y = source y × 0.703125 − T). Nothing in the picture is scaled, moved or edited; the Story stays the native frame. The
+  verifier's placement gate becomes: some T puts the subject's full extent (piece, shadow, referent) inside Feed y 380–930 for a
+  headline-plus-card ad, or 84–930 for a card-only A1. Log the extent, T and P in `verify.md`. Prompts stop giving positions as
+  percentages: ask for the subject centred, sized as a share of the frame height at about 0.7 times the share wanted.
 - Every ad ships as `bNN/<id>_feed.jpg`, `bNN/<id>_story.jpg`, their HTML, and `copy.json` (primary text, headline, description,
   CTA, landing URL with UTMs). Nothing is uploaded to Meta.
 - Type: Velista caps, Cormorant Garamond italic, Jost (kit v2). `kit/render.cjs` reports font fallback, text share, text outside
