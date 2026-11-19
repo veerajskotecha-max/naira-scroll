@@ -160,9 +160,9 @@ variable is the single-ear framing from behind; everything else in b03 follows t
 
 ### b03
 
-Shipped 4 of 5, the best yield so far (b01 2, b02 1): b03-2 Cushion A1 NAIRA10 macro (mean 7.91), b03-1 Brushed A4 plum
-monument (7.82), b03-5 Pearl Double Halo A6 pool (7.73) and b03-3 Halo Curve A8 callouts (7.34). The batch mean is **7.70**
-(A 7.73, B 7.67), against 7.35. Every ad beat the loser anchor with both critics, and truth is 8 or more on all four with both.
+Shipped 4 of 5, the best yield so far (b01 2, b02 2 of 5: b02-1 and b02-5 from the rescue): b03-2 Cushion A1 NAIRA10 macro
+(mean 7.91), b03-1 Brushed A4 plum monument (7.82), b03-5 Pearl Double Halo A6 pool (7.73) and b03-3 Halo Curve A8 callouts
+(7.34). The batch mean is **7.70** (A 7.73, B 7.67), against 7.44 for b02's two (b02-1 7.35, b02-5 7.53). Every ad beat the loser anchor with both critics, and truth is 8 or more on all four with both.
 b03-1 beat the winner with A only and b03-2 with B only, so **no ad has beaten a winner anchor with both critics in three
 batches, and no note is promoted to a rule.** The b03-4 Monochrome float was dropped on extent after its regeneration. The
 finisher's fixes came after scoring, so both critics still owe one re-score of b03-1, the b03-2 Story and the b03-3 Feed

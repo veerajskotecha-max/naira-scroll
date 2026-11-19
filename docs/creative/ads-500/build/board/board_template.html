@@ -1,0 +1,244 @@
+<title>Naira Ads 500</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600&display=swap">
+<style>
+@font-face { font-family: "Velista"; src: url(data:font/ttf;base64,__VELISTA__) format("truetype"); font-display: swap; }
+/* Layout: a plum masthead with the run's numbers, then a grid of finished ads (Feed or Story), then the Meta upload sheet
+   and the pictures that did not ship. The brand kit's own palette and type (Velista caps, Cormorant, Jost). */
+:root {
+  --bg: #F7F3EC; --surface: #FFFDF9; --ink: #1A1614; --muted: #6B5F57; --line: #E2D9CC;
+  --accent: #A8472F; --gold: #8E6D2C; --good: #3F6B52; --band: #4A2540; --band-fg: #F4F0E8; --band-muted: #D9C3CF;
+  --chip: #EFE8DD; --bar: #D9CFC1;
+  --display: "Velista", "Cormorant Garamond", Georgia, serif;
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --sans: "Jost", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #151110; --surface: #211A18; --ink: #F4F0E8; --muted: #B3A79D; --line: #3A2F2B;
+  --accent: #E79C82; --gold: #E4C889; --good: #A9BCAD; --band: #2E1828; --band-fg: #F4F0E8; --band-muted: #C9AFC0;
+  --chip: #2D2421; --bar: #4A3D38; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #151110; --surface: #211A18; --ink: #F4F0E8; --muted: #B3A79D; --line: #3A2F2B;
+  --accent: #E79C82; --gold: #E4C889; --good: #A9BCAD; --band: #2E1828; --band-fg: #F4F0E8; --band-muted: #C9AFC0;
+  --chip: #2D2421; --bar: #4A3D38; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.band { background: var(--band); color: var(--band-fg); }
+header .wrap { padding-block: 40px 32px; display: grid; gap: 22px; }
+.eyebrow { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--band-muted); }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(44px, 8vw, 84px); line-height: .95; letter-spacing: .02em; margin: 0; text-transform: uppercase; text-wrap: balance; }
+.lede { max-width: 62ch; margin: 0; color: var(--band-muted); font-size: 16px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px 28px; border-top: 1px solid color-mix(in srgb, var(--band-fg) 22%, transparent); padding-top: 18px; }
+.stat b { display: block; font-family: var(--serif); font-weight: 500; font-size: 40px; line-height: 1; font-variant-numeric: tabular-nums lining-nums; }
+.stat span { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--band-muted); }
+main .wrap { padding-block: 28px 64px; display: grid; gap: 40px; }
+main .wrap > section { min-width: 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; justify-content: space-between; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+button, select { font: inherit; color: inherit; }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 14px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip:focus-visible, .seg button:focus-visible, .copy:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+label.sort { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+select { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 28px 22px; align-items: start; }
+.ad { display: grid; gap: 12px; min-width: 0; }
+.shot { position: relative; background: var(--chip); border-radius: 6px; overflow: hidden; }
+.shot img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.shot.story img { aspect-ratio: 9 / 16; }
+.seg { display: inline-flex; background: var(--chip); border-radius: 999px; padding: 3px; }
+.seg button { border: 0; background: transparent; color: var(--muted); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.meta-row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.ready { color: var(--good); font-weight: 600; }
+.ad h3 { margin: 0; font-family: var(--serif); font-weight: 600; font-size: 25px; line-height: 1.1; text-wrap: balance; }
+.sub { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.sub .price { font-family: var(--serif); font-weight: 600; font-size: 22px; font-variant-numeric: lining-nums; }
+.sub .offer { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.scores { display: grid; grid-template-columns: auto 1fr auto; gap: 4px 10px; align-items: center; font-size: 13px; font-variant-numeric: tabular-nums; }
+.scores .lab { color: var(--muted); }
+.track { display: block; height: 6px; background: var(--bar); border-radius: 3px; overflow: hidden; }
+.track i { display: block; height: 100%; background: var(--gold); border-radius: 3px; }
+.scores .mean .track i { background: var(--accent); }
+.scores .mean b { font-weight: 600; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 12px; padding: 2px 9px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+.tag.win { color: var(--accent); }
+.onimage { margin: 0; font-family: var(--serif); font-style: italic; font-size: 18px; line-height: 1.3; }
+details { border-top: 1px solid var(--line); padding-top: 8px; }
+summary { cursor: pointer; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+dl.copyblock { display: grid; gap: 10px; margin: 10px 0 0; }
+dl.copyblock div { display: grid; gap: 2px; }
+dt { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+dd { margin: 0; font-size: 14px; overflow-wrap: anywhere; }
+.copy { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; padding: 2px 8px; cursor: pointer; }
+section h2 { font-family: var(--serif); font-weight: 600; font-size: 30px; margin: 0 0 6px; }
+section > p { margin: 0 0 14px; color: var(--muted); max-width: 70ch; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 980px; font-size: 13px; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+th { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--chip); }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+td code { font-size: 12px; overflow-wrap: anywhere; }
+.sheet-actions { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+.btn { border: 1px solid var(--ink); background: var(--ink); color: var(--bg); border-radius: 8px; padding: 8px 16px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.status { font-size: 13px; color: var(--good); }
+ul.held { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 10px 24px; }
+ul.held li { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; min-width: 0; }
+ul.held b { color: var(--ink); font-weight: 600; margin-right: 6px; }
+textarea.fallback { width: 100%; min-height: 120px; font: 12px/1.4 ui-monospace, Menlo, monospace; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; }
+@media (prefers-reduced-motion: no-preference) { .shot img { transition: opacity .2s ease; } }
+</style>
+
+<header class="band">
+  <div class="wrap">
+    <div class="eyebrow">Naira Petite · static Meta ads · made on Higgsfield, 19 Nov 2026</div>
+    <h1>Ads 500</h1>
+    <p class="lede" id="lede"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section aria-labelledby="ready-h">
+      <div class="controls">
+        <div>
+          <h2 id="ready-h">Ready to run</h2>
+        </div>
+        <div class="chips" id="batches" role="group" aria-label="Filter by batch"></div>
+        <label class="sort" for="sort">Sort
+          <select id="sort">
+            <option value="batch">Batch order</option>
+            <option value="score">Highest score</option>
+          </select>
+        </label>
+      </div>
+      <p style="margin:6px 0 18px;color:var(--muted);max-width:72ch">Each ad was scored blind by two critics on the 1–10 rubric (A: creative director; B: product truth and compliance), weighted as in the playbook. Switch any card between its Feed (1080 × 1350) and Story (1080 × 1920) version.</p>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section aria-labelledby="sheet-h">
+      <h2 id="sheet-h">Meta upload sheet</h2>
+      <p>Nothing has been uploaded to Meta. These are the fields Meta asks for, one row per ready ad; the same rows are in <code>docs/creative/ads-500/build/meta_upload.csv</code> in the repository, beside the full-size image files.</p>
+      <div class="sheet-actions">
+        <button class="btn" id="copysheet" type="button">Copy sheet for a spreadsheet</button>
+        <span class="status" id="sheetstatus" role="status"></span>
+      </div>
+      <textarea class="fallback" id="sheetfallback" hidden readonly aria-label="Sheet as tab-separated text"></textarea>
+      <div class="tablewrap"><table id="sheet"></table></div>
+    </section>
+
+    <section aria-labelledby="held-h">
+      <h2 id="held-h">Not shipped</h2>
+      <p>Pictures dropped by the verifier or skeptic, and ads held by the critics. Each reason is from the ledger.</p>
+      <ul class="held" id="held"></ul>
+    </section>
+  </div>
+</main>
+
+<script>
+const DATA = __DATA__;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const fmt = n => (typeof n === 'number' ? n.toFixed(2) : '–');
+const S = DATA.stats;
+
+$('#lede').textContent = `Every ad here was made from its own new Higgsfield picture of an in-stock piece (20 or more units), checked against the real product for construction and true size, laid out in the Naira kit, and passed by both critics. ${S.ads} ads are ready from ${S.pictures} pictures.`;
+$('#stats').innerHTML = [
+  [S.ads, 'Ads ready'], [S.pictures, 'Pictures made'], [fmt(S.mean), 'Mean score of 10'], [S.batches, 'Batches'],
+].map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('');
+
+let state = { batch: 'all', sort: 'batch' };
+try { const saved = JSON.parse(localStorage.getItem('ads500') || '{}'); state = { ...state, ...saved }; } catch (e) {}
+const save = () => { try { localStorage.setItem('ads500', JSON.stringify(state)); } catch (e) {} };
+
+function renderChips() {
+  const all = ['all', ...S.batchList];
+  $('#batches').innerHTML = all.map(b => `<button class="chip" type="button" data-b="${esc(b)}" aria-pressed="${state.batch === b}">${b === 'all' ? 'All' : esc(b)}</button>`).join('');
+}
+$('#batches').addEventListener('click', e => {
+  const b = e.target.closest('button[data-b]'); if (!b) return;
+  state.batch = b.dataset.b; save(); renderChips(); renderGrid();
+});
+$('#sort').value = state.sort;
+$('#sort').addEventListener('change', e => { state.sort = e.target.value; save(); renderGrid(); });
+
+const bar = v => `<span class="track"><i style="width:${typeof v === 'number' ? Math.max(0, Math.min(100, v * 10)) : 0}%"></i></span>`;
+function card(a) {
+  const winBy = a.beatsWinnerBy ? ` (${esc(a.beatsWinnerBy)})` : '';
+  const on = [a.headline, a.beat].filter(Boolean).map(esc).join('<br>');
+  return `<article class="ad" data-id="${esc(a.id)}">
+    <div class="shot">
+      <img src="${esc(a.feed)}" alt="${esc(a.product)} Feed ad ${esc(a.id)}" loading="lazy" width="540" height="675">
+    </div>
+    <div class="meta-row">
+      <div class="seg" role="group" aria-label="Placement"><button type="button" data-v="feed" aria-pressed="true">Feed</button><button type="button" data-v="story" aria-pressed="false">Story</button></div>
+      <span class="ready">Ready</span>
+    </div>
+    <div class="meta-row"><span>${esc(a.id)} · ${esc(a.archetype)}</span></div>
+    <h3>${esc(a.product)}</h3>
+    <div class="sub"><span class="price">${esc(a.price)}</span><span class="offer">${esc(a.offer)}</span></div>
+    <div class="scores">
+      <span class="lab">Critic A</span>${bar(a.A)}<span>${fmt(a.A)}</span>
+      <span class="lab">Critic B</span>${bar(a.B)}<span>${fmt(a.B)}</span>
+      <span class="lab mean"><b>Mean</b></span><span class="mean">${bar(a.mean)}</span><span><b>${fmt(a.mean)}</b></span>
+    </div>
+    <div class="tags">
+      ${a.beatsLoser ? '<span class="tag">Beats the loser anchor</span>' : ''}
+      ${a.beatsWinner ? `<span class="tag win">Beats a winner anchor${winBy}</span>` : ''}
+      ${a.sizeTag ? '<span class="tag">Size tag shown</span>' : ''}
+    </div>
+    ${on ? `<p class="onimage">${on}</p>` : ''}
+    <details>
+      <summary>Meta copy</summary>
+      <dl class="copyblock">
+        ${[['Primary text', a.primaryText], ['Headline', a.metaHeadline], ['Description', a.description], ['Website URL', a.url]]
+          .map(([k, v]) => `<div><dt>${k}<button class="copy" type="button" data-copy="${esc(v)}">Copy</button></dt><dd>${esc(v)}</dd></div>`).join('')}
+      </dl>
+    </details>
+  </article>`;
+}
+function renderGrid() {
+  let list = DATA.ads.filter(a => state.batch === 'all' || a.batch === state.batch);
+  if (state.sort === 'score') list = [...list].sort((x, y) => (y.mean || 0) - (x.mean || 0));
+  $('#grid').innerHTML = list.length ? list.map(card).join('') : '<p class="sub">No ready ads in this batch.</p>';
+}
+$('#grid').addEventListener('click', async e => {
+  const seg = e.target.closest('.seg button');
+  if (seg) {
+    const art = seg.closest('.ad'), a = DATA.ads.find(x => x.id === art.dataset.id), shot = $('.shot', art), img = $('img', shot);
+    const story = seg.dataset.v === 'story';
+    shot.classList.toggle('story', story);
+    img.src = story ? a.story : a.feed;
+    img.width = story ? 405 : 540; img.height = story ? 720 : 675;
+    img.alt = `${a.product} ${story ? 'Story' : 'Feed'} ad ${a.id}`;
+    seg.parentElement.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b === seg)));
+    return;
+  }
+  const cp = e.target.closest('button.copy');
+  if (cp) {
+    try { await navigator.clipboard.writeText(cp.dataset.copy); cp.textContent = 'Copied'; }
+    catch (err) { const dd = cp.closest('div').querySelector('dd'); const r = document.createRange(); r.selectNodeContents(dd); const s = getSelection(); s.removeAllRanges(); s.addRange(r); cp.textContent = 'Selected'; }
+    setTimeout(() => { cp.textContent = 'Copy'; }, 1600);
+  }
+});
+
+const COLS = [['Ad name', a => `NAIRA_ads500_${a.id}_${a.handle}`], ['Feed image', a => a.feedFile], ['Story image', a => a.storyFile],
+  ['Primary text', a => a.primaryText], ['Headline', a => a.metaHeadline], ['Description', a => a.description],
+  ['Call to action', a => a.cta], ['Website URL', a => a.url], ['Mean score', a => fmt(a.mean)]];
+$('#sheet').innerHTML = `<thead><tr>${COLS.map(c => `<th scope="col">${c[0]}</th>`).join('')}</tr></thead><tbody>${DATA.ads.map(a =>
+  `<tr>${COLS.map(([k, f]) => k.includes('image') || k === 'Website URL' ? `<td><code>${esc(f(a))}</code></td>` : `<td class="${k === 'Mean score' ? 'num' : ''}">${esc(f(a))}</td>`).join('')}</tr>`).join('')}</tbody>`;
+const tsv = () => [COLS.map(c => c[0]), ...DATA.ads.map(a => COLS.map(([, f]) => String(f(a)).replace(/[\t\n]/g, ' ')))].map(r => r.join('\t')).join('\n');
+$('#copysheet').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(tsv()); $('#sheetstatus').textContent = `Copied ${DATA.ads.length} rows. Paste into a spreadsheet.`; }
+  catch (err) { const t = $('#sheetfallback'); t.value = tsv(); t.hidden = false; t.select(); $('#sheetstatus').textContent = 'Copy was blocked here; the sheet is selected below.'; }
+});
+
+$('#held').innerHTML = DATA.held.map(h => `<li><b>${esc(h.id)}</b>${esc(h.handle.replace(/-/g, ' '))}: ${esc(h.why)}</li>`).join('');
+renderChips(); renderGrid();
+</script>
