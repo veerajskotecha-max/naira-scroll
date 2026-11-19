@@ -7,9 +7,9 @@
   "light": "L1",
   "camera": "C3",
   "concept": "Ring alone on an oxblood velvet pedestal under one hard spot; 'LOOKS LIKE / A PROPOSAL.' + 'priced like a present.'; F2 card ₹999; no-text Story twin (control)",
-  "verdict": "ship",
-  "weightedA": 7.4,
-  "weightedB": 7.5,
+  "verdict": "ship (re-scored in b04 after the b03 loop change 1 offer fix 'CODES BUY2': A 7.5, B 7.55; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither. The Story stays the named no-text control)",
+  "weightedA": 7.5,
+  "weightedB": 7.55,
   "beatsLoser": true,
   "beatsWinner": false,
   "beatsWinnerBy": [],
@@ -17,7 +17,21 @@
   "story": "batches/b01/b01-1_story.jpg",
   "copy": "batches/b01/b01-1.copy.json",
   "job_id": "810ed20b-9aff-483f-8f68-715342f70d73",
-  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_161837_810ed20b-9aff-483f-8f68-715342f70d73.png"
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_161837_810ed20b-9aff-483f-8f68-715342f70d73.png",
+  "rescore": {
+   "batch": "b04",
+   "sheet": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+   "note": "Feed re-rendered at 20:32:42 with 'Codes BUY2'; the Story (16:46:07) is the no-text twin, unchanged.",
+   "before": {
+    "verdict": "ship",
+    "weightedA": 7.4,
+    "weightedB": 7.5,
+    "beatsWinnerBy": [],
+    "scoredFile": null
+   }
+  },
+  "scoredFile": "batches/b01/b01-1_feed.jpg 2026-11-19 20:32:42.265455828 +0000",
+  "scoredStory": "batches/b01/b01-1_story.jpg 2026-11-19 16:46:07.860647737 +0000"
  },
  {
   "id": "b01-2",
@@ -109,9 +123,9 @@
   "light": "L5 asked, rendered L7-like soft key",
   "camera": "C2",
   "concept": "Braided pair worn at the nape of a wet-haired head seen straight from behind, before a wedding function; water beads as proof, oxblood zari blouse edge; 'BRAIDED HOOPS. / ZERO STONES.' + 'and yes, waterproof.'; F2 card in ink on skin, ₹1,049; Story with headline, name, price and offer",
-  "verdict": "ship (truth 8 with both critics; scale about 1.1-1.2x; stop power 7: each hoop 13% of the width at the frame edges, gold on same-hue apricot; the bead under each hoop reads as an eyelet at 1x; L5 backlight did not render; zari edge in Feed only as corner slivers. Not a picture-only test against b01-4: headline centred, card ink on skin, finisher set .02em and CODES. Run the Story as the stronger arm)",
-  "weightedA": 7.15,
-  "weightedB": 7.55,
+  "verdict": "ship (re-scored in b04 after the b03 loop change 1 beat fix, 56 px = 0.61x: A 7.45, B 7.525; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither)",
+  "weightedA": 7.45,
+  "weightedB": 7.525,
   "beatsLoser": true,
   "beatsWinner": false,
   "beatsWinnerBy": [],
@@ -119,13 +133,26 @@
    "winner": "win_e2_ruby_anaar",
    "loser": "lose_c01_almost_edible_feed"
   },
-  "scoredFile": "batches/b02/b02-1_feed.jpg and b02-1_story.jpg, renders of 2026-11-19 18:15:10 UTC (before the finisher fixes)",
+  "scoredFile": "batches/b02/b02-1_feed.jpg 2026-11-19 20:32:55.233456599 +0000",
   "feed": "batches/b02/b02-1_feed.jpg",
   "story": "batches/b02/b02-1_story.jpg",
   "copy": "batches/b02/b02-1.copy.json",
   "job_id": "12795a65-ab0a-49c6-9143-06f98bb1117c",
   "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_174744_12795a65-ab0a-49c6-9143-06f98bb1117c.png",
-  "try1_job_id": "545045e9-d29d-44a6-a373-8b54991aa63f"
+  "try1_job_id": "545045e9-d29d-44a6-a373-8b54991aa63f",
+  "rescore": {
+   "batch": "b04",
+   "sheet": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+   "note": "Feed re-rendered at 20:32:55 with the 56 px beat; the Story (18:24:08) is unchanged.",
+   "before": {
+    "verdict": "ship (truth 8 with both critics; scale about 1.1-1.2x; stop power 7: each hoop 13% of the width at the frame edges, gold on same-hue apricot; the bead under each hoop reads as an eyelet at 1x; L5 backlight did not render; zari edge in Feed only as corner slivers. Not a picture-only test against b01-4: headline centred, card ink on skin, finisher set .02em and CODES. Run the Story as the stronger arm)",
+    "weightedA": 7.15,
+    "weightedB": 7.55,
+    "beatsWinnerBy": [],
+    "scoredFile": "batches/b02/b02-1_feed.jpg and b02-1_story.jpg, renders of 2026-11-19 18:15:10 UTC (before the finisher fixes)"
+   }
+  },
+  "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000"
  },
  {
   "id": "b02-2",
@@ -211,9 +238,11 @@
   "copy": "batches/b02/b02-5.copy.json",
   "job_id": "a51af63b-9874-4e3d-a9ac-7b8bfa292e56",
   "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_173525_a51af63b-9874-4e3d-a9ac-7b8bfa292e56.png",
-  "scoredFile": "batches/b02/b02-5_feed.jpg and b02-5_story.jpg, renders of 2026-11-19 19:12:07 UTC (after the finisher fixes; round 1 scored the 18:51:54 renders, now overwritten)",
+  "scoredFile": "batches/b02/b02-5_feed.jpg 2026-11-19 19:12:07.317168425 +0000",
   "try2_job_id": "85a92bc6-8041-420c-b016-f1f0f2ed23c4",
-  "rescue": true
+  "rescue": true,
+  "scoredNote": "batches/b02/b02-5_feed.jpg and b02-5_story.jpg, renders of 2026-11-19 19:12:07 UTC (after the finisher fixes; round 1 scored the 18:51:54 renders, now overwritten)",
+  "scoredStory": "batches/b02/b02-5_story.jpg 2026-11-19 19:12:07.665168445 +0000"
  },
  {
   "id": "b03-1",
@@ -223,49 +252,13 @@
   "light": "L1 asked, rendered L1-like soft warm key from the left (brush lines read; satin floor adds a reflection glow under the card)",
   "camera": "C2",
   "concept": "The ₹699 pair upright on a deep plum glaze at almost floor level, the only gold in the frame, about 2.1x with the size tag; 'BRUSHED, / NOT POLISHED.' + 'the ₹699 earrings.'; F2 card 'hinged huggie earrings · 18k gold tone PVD', CODES BUY2/BUY3; Story with headline, name, price, offer and a plain size-tag line",
-  "verdict": "ship (after finisher fixes: product type named in the 64 px beat and the card line, Story size tag unboxed; one re-score by both critics due, loop change 6). Note 'gold-tone mass on a saturated dark ground' RETIRED: beat the winner with A only. Pre-launch: confirm ₹699 buys the pair",
-  "weightedA": 7.98,
-  "weightedB": 7.65,
+  "verdict": "ship (re-scored in b04 after the finisher fixes: round 1 A 8.075 / B 7.725 on the 20:09:21 renders; fixes 'huggie hoop earrings' card line, Story tag 'Shown magnified · earrings about 14 mm tall', A's primary text and B's description; round 2 A 8.125 / B 7.85 on the 22:58:03 renders. Truth 8.5 with both; lowest dimension B desire 6.5; beats the loser and the winner with both critics. Pre-launch, low risk: confirm the ₹699 listing ships both earrings; if it sells one piece, the beat becomes 'the ₹699 huggie.')",
+  "weightedA": 8.125,
+  "weightedB": 7.85,
   "beatsLoser": true,
-  "beatsWinner": false,
+  "beatsWinner": true,
   "beatsWinnerBy": [
-   "A"
-  ],
-  "anchors": {
-   "feed": {
-    "winner": "win_static_hoops_apricot",
-    "loser": "lose_p2_proof_parody"
-   },
-   "story": {
-    "winner": "win_w1_woven_red_story",
-    "loser": "lose_vks5_prism_close"
-   },
-   "rotation": {
-    "winner": "win_w1_woven_red_story",
-    "loser": "lose_kandil"
-   }
-  },
-  "scoredFile": "batches/b03/b03-1_feed.jpg and b03-1_story.jpg scored at the 19:47:04 UTC renders; final renders 2026-11-19 20:09:21 UTC after the fixes",
-  "feed": "batches/b03/b03-1_feed.jpg",
-  "story": "batches/b03/b03-1_story.jpg",
-  "copy": "batches/b03/b03-1.copy.json",
-  "job_id": "b856168b-fe23-42eb-9881-e1082d6c94d1",
-  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_b856168b-fe23-42eb-9881-e1082d6c94d1.png"
- },
- {
-  "id": "b03-2",
-  "batch": "b03",
-  "handle": "cushion-halo-ring",
-  "archetype": "A1 Product Card (macro, no headline, NAIRA10 offer cell)",
-  "light": "L7 (as asked and rendered)",
-  "camera": "C5",
-  "concept": "Cushion Halo macro on a cocoa block, tone on tone, about 2.4x with 'SHOWN MAGNIFIED · HALO ABOUT 12 MM'; no headline; F2 card '8 mm cubic zirconia · silver tone · adjustable', CODE NAIRA10 · 10% OFF; Story card stack with the tag as one centred plain line",
-  "verdict": "ship (B 'ship', A 'ship after fixes'; finisher centred and unboxed the Story size tag). Strongest thumbnail with B. NAIRA10 is the ONLY card variable against the BUY2/BUY3 ads: read it live as an offer test, not a creative test",
-  "weightedA": 7.9,
-  "weightedB": 7.93,
-  "beatsLoser": true,
-  "beatsWinner": false,
-  "beatsWinnerBy": [
+   "A",
    "B"
   ],
   "anchors": {
@@ -282,13 +275,81 @@
     "loser": "lose_kandil"
    }
   },
-  "scoredFile": "batches/b03/b03-2_feed.jpg (19:46:53 UTC, final, unchanged) and b03-2_story.jpg (scored at 19:46:54 UTC; final render 20:09:36 UTC after the tag fix)",
+  "scoredFile": "batches/b03/b03-1_feed.jpg 2026-11-19 22:58:03.305974233 +0000",
+  "feed": "batches/b03/b03-1_feed.jpg",
+  "story": "batches/b03/b03-1_story.jpg",
+  "copy": "batches/b03/b03-1.copy.json",
+  "job_id": "b856168b-fe23-42eb-9881-e1082d6c94d1",
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_b856168b-fe23-42eb-9881-e1082d6c94d1.png",
+  "rescore": {
+   "batch": "b04",
+   "sheet": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+   "note": "Round 1 re-scored the 20:09:21 renders; the b04 fixer then changed the Feed card line and the Story tag (22:58:03), and both critics re-scored those files in round 2.",
+   "before": {
+    "verdict": "ship (after finisher fixes: product type named in the 64 px beat and the card line, Story size tag unboxed; one re-score by both critics due, loop change 6). Note 'gold-tone mass on a saturated dark ground' RETIRED: beat the winner with A only. Pre-launch: confirm ₹699 buys the pair",
+    "weightedA": 7.98,
+    "weightedB": 7.65,
+    "beatsWinnerBy": [
+     "A"
+    ],
+    "scoredFile": "batches/b03/b03-1_feed.jpg and b03-1_story.jpg scored at the 19:47:04 UTC renders; final renders 2026-11-19 20:09:21 UTC after the fixes"
+   }
+  },
+  "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-19 22:58:03.669974254 +0000"
+ },
+ {
+  "id": "b03-2",
+  "batch": "b03",
+  "handle": "cushion-halo-ring",
+  "archetype": "A1 Product Card (macro, no headline, NAIRA10 offer cell)",
+  "light": "L7 (as asked and rendered)",
+  "camera": "C5",
+  "concept": "Cushion Halo macro on a cocoa block, tone on tone, about 2.4x with 'SHOWN MAGNIFIED · HALO ABOUT 12 MM'; no headline; F2 card '8 mm cubic zirconia · silver tone · adjustable', CODE NAIRA10 · 10% OFF; Story card stack with the tag as one centred plain line",
+  "verdict": "ship (re-scored in b04, files unchanged: A 7.95, B 7.975; truth 8.5 with both, lowest dimension desire 7; beats the loser and the winner with both critics. NAIRA10 stays the only card variable: read it live as an offer test)",
+  "weightedA": 7.95,
+  "weightedB": 7.975,
+  "beatsLoser": true,
+  "beatsWinner": true,
+  "beatsWinnerBy": [
+   "A",
+   "B"
+  ],
+  "anchors": {
+   "feed": {
+    "winner": "win_static_hoops_apricot",
+    "loser": "lose_p2_proof_parody"
+   },
+   "story": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_vks5_prism_close"
+   },
+   "rotation": {
+    "winner": "win_w1_woven_red_story",
+    "loser": "lose_kandil"
+   }
+  },
+  "scoredFile": "batches/b03/b03-2_feed.jpg 2026-11-19 19:46:53.993292463 +0000",
   "abTest": "offer: NAIRA10 single-product code vs BUY2/BUY3 on the rest of b03",
   "feed": "batches/b03/b03-2_feed.jpg",
   "story": "batches/b03/b03-2_story.jpg",
   "copy": "batches/b03/b03-2.copy.json",
   "job_id": "852c5553-7888-4baa-9a23-768ce82f8777",
-  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_852c5553-7888-4baa-9a23-768ce82f8777.png"
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_852c5553-7888-4baa-9a23-768ce82f8777.png",
+  "rescore": {
+   "batch": "b04",
+   "sheet": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+   "note": "The Feed (19:46:53) and the Story (20:09:36, after the b03 tag fix) were re-scored as they are; A's records-only lint-line fix in copy.json was not applied (A only).",
+   "before": {
+    "verdict": "ship (B 'ship', A 'ship after fixes'; finisher centred and unboxed the Story size tag). Strongest thumbnail with B. NAIRA10 is the ONLY card variable against the BUY2/BUY3 ads: read it live as an offer test, not a creative test",
+    "weightedA": 7.9,
+    "weightedB": 7.93,
+    "beatsWinnerBy": [
+     "B"
+    ],
+    "scoredFile": "batches/b03/b03-2_feed.jpg (19:46:53 UTC, final, unchanged) and b03-2_story.jpg (scored at 19:46:54 UTC; final render 20:09:36 UTC after the tag fix)"
+   }
+  },
+  "scoredStory": "batches/b03/b03-2_story.jpg 2026-11-19 20:09:36.361373446 +0000"
  },
  {
   "id": "b03-3",
@@ -298,9 +359,9 @@
   "light": "L2 asked, rendered L7-like soft key (both tries)",
   "camera": "C5",
   "concept": "Halo Curve in its cube pose on deep (rendered mid-tone) sage, about life size; 'TWO STONES. / ONE OPEN BAND.' with three callouts (TIGER EYE banded, silky sheen; CHAMPAGNE CRYSTAL faceted, pale champagne; OPEN BAND adjusts US 5 to 9 · about 4 g); F2 card 'surgical stainless steel · 18k gold tone PVD', CODES BUY2/BUY3",
-  "verdict": "ship (after finisher fixes: C1 mm replaced by 'banded, silky sheen' (11.8 mm likely the stone's length), metal line restored, callout and card contrast lifted to 4.6:1+ with wall-sage scrims; one re-score by both critics due). Weakest of the batch: stop 6.5 both, desire 6 with B (flat mid-sage reads as a catalogue page); Story lower 750 px is dead floor",
+  "verdict": "ship (re-scored in b04, files unchanged: A 7.4, B 7.275; truth 8.5 / 8; lowest dimension B desire 6, at the floor; beats the loser with both, the winner with neither. First to cut if budget is short)",
   "weightedA": 7.4,
-  "weightedB": 7.28,
+  "weightedB": 7.275,
   "beatsLoser": true,
   "beatsWinner": false,
   "beatsWinnerBy": [],
@@ -318,13 +379,26 @@
     "loser": "lose_kandil"
    }
   },
-  "scoredFile": "batches/b03/b03-3_feed.jpg (scored at 19:57:15 UTC; final render 20:12:01 UTC after the fixes) and b03-3_story.jpg (19:57:16 UTC, final, unchanged)",
+  "scoredFile": "batches/b03/b03-3_feed.jpg 2026-11-19 20:12:01.305382062 +0000",
   "feed": "batches/b03/b03-3_feed.jpg",
   "story": "batches/b03/b03-3_story.jpg",
   "copy": "batches/b03/b03-3.copy.json",
   "job_id": "e9f5364c-4c82-4ba4-aca7-974ddd680165",
   "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_192421_e9f5364c-4c82-4ba4-aca7-974ddd680165.png",
-  "try1_job_id": "8d7a6fa1-461e-4e8e-803f-4ff875a0879f"
+  "try1_job_id": "8d7a6fa1-461e-4e8e-803f-4ff875a0879f",
+  "rescore": {
+   "batch": "b04",
+   "sheet": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+   "note": "The Feed (20:12:01, after the b03 fixes) and the Story (19:57:16) were re-scored as they are; A's optional C2 line and B's Story fit cue were not applied (one critic each).",
+   "before": {
+    "verdict": "ship (after finisher fixes: C1 mm replaced by 'banded, silky sheen' (11.8 mm likely the stone's length), metal line restored, callout and card contrast lifted to 4.6:1+ with wall-sage scrims; one re-score by both critics due). Weakest of the batch: stop 6.5 both, desire 6 with B (flat mid-sage reads as a catalogue page); Story lower 750 px is dead floor",
+    "weightedA": 7.4,
+    "weightedB": 7.28,
+    "beatsWinnerBy": [],
+    "scoredFile": "batches/b03/b03-3_feed.jpg (scored at 19:57:15 UTC; final render 20:12:01 UTC after the fixes) and b03-3_story.jpg (19:57:16 UTC, final, unchanged)"
+   }
+  },
+  "scoredStory": "batches/b03/b03-3_story.jpg 2026-11-19 19:57:16.089329442 +0000"
  },
  {
   "id": "b03-4",
@@ -376,11 +450,169 @@
     "loser": "lose_kandil"
    }
   },
-  "scoredFile": "batches/b03/b03-5_feed.jpg and b03-5_story.jpg, renders of 2026-11-19 19:52:24 UTC (final, unchanged)",
+  "scoredFile": "batches/b03/b03-5_feed.jpg 2026-11-19 19:52:24.125312087 +0000",
   "feed": "batches/b03/b03-5_feed.jpg",
   "story": "batches/b03/b03-5_story.jpg",
   "copy": "batches/b03/b03-5.copy.json",
   "job_id": "db922542-6d17-4a32-ba14-7f6966e4a6d6",
-  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_db922542-6d17-4a32-ba14-7f6966e4a6d6.png"
+  "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_db922542-6d17-4a32-ba14-7f6966e4a6d6.png",
+  "scoredNote": "batches/b03/b03-5_feed.jpg and b03-5_story.jpg, renders of 2026-11-19 19:52:24 UTC (final, unchanged)",
+  "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-19 19:52:24.485312108 +0000"
+ },
+ {
+  "id": "b04-0",
+  "batch": "b04",
+  "handle": "monochrome-enamel-hoops",
+  "archetype": "A1 Product Card (card only, no Feed headline) on the A13 float picture: the zero-credit rescue of b03-4 try 1 (b03 loop change 3); the A13 headline on the Story only",
+  "light": "L6 (as asked and rendered: overhead soft light casting each shadow straight down, front-left kicker lines on the rails)",
+  "camera": "C2 (100 mm, about 12° above the floor, the pack ref's three-quarter pose)",
+  "concept": "The pair floating over a terracotta field, each hoop over its own detached shadow (board 96); 'Shown magnified · about 20 mm tall' as one plain line under the shadows; ink F2 card with logo_ink on the lit floor, ₹999, 'black and white enamel · gold tone', CODES BUY2/BUY3; Feed P 100; bone Story with 'BLACK. WHITE. GOLD TONE.', name, price, offer and tag; no claim, no water",
+  "verdict": "ship (A 7.825, B 7.725, mean 7.775; truth 8.5 / 8, lowest dimension 7; beats the loser and the winner with both critics; stop 8.5 with both, the first float to ship. A's Meta primary text rewrite not applied (A only). Pre-launch: re-read stock, 24 at pre-flight, do not launch below 20. The picture is b03-4 try 1: keep b03-4 marked dropped so it is never used twice)",
+  "weightedA": 7.825,
+  "weightedB": 7.725,
+  "beatsLoser": true,
+  "beatsWinner": true,
+  "beatsWinnerBy": [
+   "A",
+   "B"
+  ],
+  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "feed": "batches/b04/b04-0_feed.jpg",
+  "story": "batches/b04/b04-0_story.jpg",
+  "copy": "batches/b04/b04-0.copy.json",
+  "job_id": "394dd5a7-2134-4249-8675-3519d5c9ab97",
+  "picture": "batches/b03/pics/b03-4_try1.png",
+  "credits": 0,
+  "scoredFile": "batches/b04/b04-0_feed.jpg 2026-11-19 20:40:50.501484850 +0000",
+  "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000"
+ },
+ {
+  "id": "b04-1",
+  "batch": "b04",
+  "handle": "toggle-link-chain",
+  "archetype": "A2 Worn Editorial, neck-and-collarbone crop (the b04 new move, b03 loop change 4)",
+  "light": "L7 soft warm key + hard kicker asked; rendered an L7-like soft warm key from the upper left, the kicker as crisp specular lines on the ring and bar and small points on the stones",
+  "camera": "C4 (85 mm, front-on at collarbone height, the clasp ref's pose)",
+  "concept": "The Toggle worn with the clasp turned to the front on deep warm skin with pores, plum ground at the neck sides, a plum raw-silk neckline with a zari edge; 'TURN THE CLASP / TO THE FRONT.' + 'so the clasp becomes the jewel.'; F2 card ₹999 with '4 mm paperclip links · 18k gold tone PVD' and a plum-filled CODES BUY2/BUY3 box; Feed P 68; Story with a flat plum top band over the chin underside, headline, name and price, no offer",
+  "verdict": "ship (round 2 on the 22:58:02 Feed after the card-line fix both critics asked for: A 7.725, B 7.725; truth 8.5 with both, lowest dimension 7 (stop, B cues); beats the loser and the winner with both critics. The first worn frame to ship since b02 and the first Toggle ad. The Story has no offer: B's optional Story offer line and A's shorter beat were not applied (one critic each))",
+  "weightedA": 7.725,
+  "weightedB": 7.725,
+  "beatsLoser": true,
+  "beatsWinner": true,
+  "beatsWinnerBy": [
+   "A",
+   "B"
+  ],
+  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "feed": "batches/b04/b04-1_feed.jpg",
+  "story": "batches/b04/b04-1_story.jpg",
+  "copy": "batches/b04/b04-1.copy.json",
+  "job_id": "e4a41cbf-0816-46e5-bdb4-aa09830f1160",
+  "try1_job_id": "bc1892af-bf58-48d4-a3e9-3168bb185d1b",
+  "refused_job_id": "1d629465-6f15-4391-9049-92464fc46f11",
+  "tries": [
+   {
+    "try": 1,
+    "job_id": "bc1892af-bf58-48d4-a3e9-3168bb185d1b",
+    "credits": 2,
+    "verdict": "dropped: scale (ring ÷ neck 0.248, past the 0.24 drop line); chin underside in the Story top. Clasp held construction (bar ÷ ring 0.59-0.61), no morph",
+    "file": "batches/b04/pics/b04-1_try1.png"
+   },
+   {
+    "try": 2,
+    "job_id": "1d629465-6f15-4391-9049-92464fc46f11",
+    "credits": 0,
+    "verdict": "refused by the safety filter (nsfw), no picture, not charged; the prompt was worded mostly around chest and bare skin"
+   },
+   {
+    "try": 2,
+    "attempt": 3,
+    "job_id": "e4a41cbf-0816-46e5-bdb4-aa09830f1160",
+    "credits": 2,
+    "verdict": "pass-with-notes: ring ÷ neck 0.215, about 13 links a side, bar ÷ ring 0.64-0.67; face gate note (chin underside in Story -7.5 to 185, no eye, nose or lips), answered by a flat plum top band",
+    "file": "batches/b04/pics/b04-1.png"
+   }
+  ],
+  "picture": "batches/b04/pics/b04-1.png",
+  "credits": 4,
+  "scoredFile": "batches/b04/b04-1_feed.jpg 2026-11-19 22:58:02.433974181 +0000",
+  "scoredStory": "batches/b04/b04-1_story.jpg 2026-11-19 21:40:44.453698486 +0000"
+ },
+ {
+  "id": "b04-2",
+  "batch": "b04",
+  "handle": "prism-riviere-bracelet",
+  "archetype": "A3 Literal Rhyme (powder, no fixed size)",
+  "light": "L6 soft overhead + hard kicker asked; try 1 rendered an even wash with a weak kicker, try 2 a narrow top pool with crisp pavé sparkle",
+  "camera": "C5 (100 mm macro, about 30-35° above the plinth)",
+  "concept": "The bracelet's three shades (aqua blue, soft pink, pale yellow) as three bands of matte powder running out of it across an ink plinth, VK F18's mechanism moved onto ink; listing line 'Colour without anything loud'",
+  "verdict": "dropped: try 1 extent (loop and powder 563 Feed px against 550; the powder rose to the plinth's back edge and curled under the loop; width 72%, ground L* 35); try 2 composition (extent fixed at 418 Feed px, but the plinth rendered as a corner-on cube whose back corner rises into the headline zone and whose diagonal front edge runs under the card at every valid P). Construction, halos and colour order held on both tries: no morph",
+  "weightedA": null,
+  "weightedB": null,
+  "beatsLoser": null,
+  "beatsWinner": null,
+  "beatsWinnerBy": [],
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "job_id": "be2a29ff-236d-4b20-a9d8-267138be53da",
+  "try1_job_id": "3e49436d-8d75-467a-81b6-a7039982a66c",
+  "picture": "batches/b04/pics/b04-2.png",
+  "credits": 4,
+  "scoredFile": null
+ },
+ {
+  "id": "b04-3",
+  "batch": "b04",
+  "handle": "verdant-circlet-studs",
+  "archetype": "A4 Monument Macro with the selective-colour device (board 85), b04's planned surprise",
+  "light": "L1 hard warm key + soft fill asked; rendered a broad soft key from the upper left and front (weak rake, soft contact shadows)",
+  "camera": "C5 (100 mm macro about 15° above, the pack ref's mirrored pose)",
+  "concept": "The pair upright on a wide charcoal slab of drained silk with a zari border and loose white petals, the studs the only colour (zero coloured pixels outside them); 'ONE BOLD EAR / IS ENOUGH.' + 'for the wedding function.' in the stones' sampled green; boxed size tag 'Shown magnified / about 16.8 mm tall'; F2 card ₹899 'emerald-green cubic zirconia · 18k gold tone', CODES BUY2/BUY3; Feed P 58",
+  "verdict": "ship (A 7.75, B 8.075, mean 7.91, the best b04 ad; truth 8 with both, lowest dimension 7; beats the loser and the winner with both critics; B stop 9. Both critics say the selective colour does not read from the picture alone (the white petals read as a naturally monochrome set); their remedies differ (A: BOLD in the stone green; B: an A/B headline 'THE ONLY COLOUR / IN THE ROOM.'), so neither is applied: the lead's call. Posts drawn steel-grey)",
+  "weightedA": 7.75,
+  "weightedB": 8.075,
+  "beatsLoser": true,
+  "beatsWinner": true,
+  "beatsWinnerBy": [
+   "A",
+   "B"
+  ],
+  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "feed": "batches/b04/b04-3_feed.jpg",
+  "story": "batches/b04/b04-3_story.jpg",
+  "copy": "batches/b04/b04-3.copy.json",
+  "job_id": "9ae8c3aa-328d-4766-b307-c9e8dd9facfc",
+  "picture": "batches/b04/pics/b04-3.png",
+  "credits": 2,
+  "scoredFile": "batches/b04/b04-3_feed.jpg 2026-11-19 22:11:08.205806895 +0000",
+  "scoredStory": "batches/b04/b04-3_story.jpg 2026-11-19 22:11:08.549806915 +0000"
+ },
+ {
+  "id": "b04-4",
+  "batch": "b04",
+  "handle": "serpentine-whisper-chain-silver",
+  "archetype": "A4/A6 for the live read (briefed A6 Single Spotlight; the spot did not render)",
+  "light": "L1 small warm spot + soft fill asked; rendered a broad soft top light on the block top, a near-black velvet face and a frontal fill, no warm spot (both tries)",
+  "camera": "C5 (100 mm macro, level with the block edge on try 2, the plinth ref's pose)",
+  "concept": "The pendant hanging over the edge of a deep teal velvet block, the snake chain running out of both sides almost level, the stone the brightest point; staggered 'ONE CLEAR / POINT OF FOCUS.' + 'for the reception, after dark.'; boxed size tag 'Shown magnified / stone about 10 mm'; F2 card ₹899 '10 mm cubic zirconia · silver tone PVD', CODES BUY2/BUY3; Feed P 33.5",
+  "verdict": "ship (A 7.5, B 7.65, mean 7.575; truth 8 with both; lowest dimension B fit 6.5 because the spot never rendered; beats the loser with both, the winner with B only. A's top-block re-layout not applied (A only). Pre-launch: re-read stock, 23 at 20:50 UTC, do not launch below 20. Bail about 1.35x long, logged)",
+  "weightedA": 7.5,
+  "weightedB": 7.65,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": [
+   "B"
+  ],
+  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "feed": "batches/b04/b04-4_feed.jpg",
+  "story": "batches/b04/b04-4_story.jpg",
+  "copy": "batches/b04/b04-4.copy.json",
+  "job_id": "176ea4c2-5ad0-4ac9-8725-f2e55fc384d9",
+  "try1_job_id": "70fee61b-eabb-4f8b-b71a-2dda21ac5072",
+  "picture": "batches/b04/pics/b04-4.png",
+  "credits": 4,
+  "scoredFile": "batches/b04/b04-4_feed.jpg 2026-11-19 22:36:10.445896193 +0000",
+  "scoredStory": "batches/b04/b04-4_story.jpg 2026-11-19 22:36:10.813896214 +0000"
  }
 ]

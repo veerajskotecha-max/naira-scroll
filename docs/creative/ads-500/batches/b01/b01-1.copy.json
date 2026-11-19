@@ -10,7 +10,7 @@
   "headline": "LOOKS LIKE / A PROPOSAL.",
   "beat": "priced like a present.",
   "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
-  "offer": "CODE BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
   "sizeTag": null,
   "callouts": []
  },
@@ -31,7 +31,26 @@
    "offer box one 26 px line (was 26 + 20 px small line)",
    "card top 910 -> 920",
    "Meta headline 42 -> 36 characters, offer value kept inside 40",
-   "Meta description 41 -> 28 characters"
+   "Meta description 41 -> 28 characters",
+   "offer label Code → Codes (b03 loop change 1); Feed re-rendered 2026-11-19 20:32:42 UTC"
   ]
+ },
+ "review": {
+  "scoredFiles": {
+   "feed": "batches/b01/b01-1_feed.jpg (render of 2026-11-19 20:32:42 UTC, after the offer fix; re-scored by both critics)",
+   "story": "batches/b01/b01-1_story.jpg (render of 2026-11-19 16:46:07 UTC, the no-text A6 twin; re-scored by both critics)"
+  },
+  "rescore": {
+   "A": {
+    "weighted": 7.5,
+    "verdict": "ship"
+   },
+   "B": {
+    "weighted": 7.55,
+    "verdict": "ship"
+   },
+   "mean": 7.525,
+   "note": "Re-score by both critics on the final files (b03 loop change 2). The Story stays the named no-text control arm."
+  }
  }
 }

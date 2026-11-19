@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../kit/kit.css">
+<!-- b04-1 Toggle Link Chain · A2 Worn Editorial (neck-and-collarbone crop; b04's new move, loop change 4) · Feed 1080x1350.
+     Picture: pics/b04-1.png (try 2, job e4a41cbf-0816-46e5-bdb4-aa09830f1160, pass-with-notes). Nothing scaled, moved or edited.
+     Crop P 68, T 397.8: the skeptic's correction of the verifier's P 66. The ring's contact shadow fades out at src 1885-1890,
+     which is Feed 928-931 at P 68 but 940-943 at P 66, under the wordmark. Clasp (jump-ring top to shadow tail) Feed 747-931,
+     x 470-633. Chain's highest point inside the H1/beat x span: Feed 446. Strands in the headline band: x 135-204 and 872-956.
+     Zari centre Feed 1258-1272; it crosses the offer box's two ends (x 177-330 and 750-903). The Feed top is src 566, so the
+     chin (to src 275) and the hair bun (to src 380) are out.
+     Type (measured in Chromium): H1 Velista 76 .02em, two centred lines 96-169 (x 237-843) and 170-243 (x 273-807), 33 px clear
+     of the strands; the brief's 68 left the headline small at 216 px and the text share at .12. Beat Cormorant italic 500 49 px
+     (0.645x) gold-light, 253-312 (x 278-802), 134 px over the chain. Card top 944 (brief 940; 13 px of skin under the shadow
+     tail): wordmark 944-1000, name 1016-1054, price 1059-1127, line 1131-1169, offer box 1180-1242 (x 177-903).
+     Contrast (median, worst 2%, against the rendered ground with type hidden): H1 7.3 (4.8), beat 5.1 (4.1), wordmark 5.4 (3.5),
+     name 5.8 (4.8), price 6.2 (5.3), line 6.1 (4.6), offer 9.5-9.6 (6.8). Without the card radial the chest gave bone 3.4:1.
+     Fixer after critics round 1 (both critics): card line "toggle at the front" became "4 mm paperclip links" (listing words,
+     products.md: paperclip links 4mm wide), so the card no longer repeats the headline and names the link the picture shows. -->
+<style>
+ body { background: #381B20; }
+ .pic { object-position: 50% 68%; }
+ .h1 { position: absolute; left: 0; right: 0; top: 96px; text-align: center; font-size: 76px; letter-spacing: .02em; }
+ .beat { position: absolute; left: 0; right: 0; top: 258px; text-align: center; font-size: 49px; }
+ /* Card radial in the neck's own sampled deep skin (115,65,40 sampled; 112,63,39 used): masked to 0 at 928 so nothing lands on
+    the ring or its shadow, full by 968, densest behind name, price and line, fading out at the sides and the foot. */
+ .sk { position: absolute; left: 0; right: 0; top: 928px; bottom: 0; pointer-events: none;
+       background: radial-gradient(ellipse 52% 58% at 50% 32%, rgba(112,63,39,.7) 0, rgba(112,63,39,.62) 45%, rgba(112,63,39,.28) 78%, rgba(112,63,39,0) 100%);
+       -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 40px); mask-image: linear-gradient(to bottom, transparent 0, #000 40px); }
+ /* The offer's own fill in the sampled plum ground (56,27,32) at .62, in place of a foot scrim: the zari crosses both ends of
+    the box, and a foot scrim muddied the silk and still let the zari run through CODES and 20% OFF. The zari stays visible
+    outside the box and runs under it at the centre (1258), so the box reads as resting on the neckline. */
+ .offer { background: rgba(56,27,32,.62); }
+ .card .name, .card .line { line-height: 1.2; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/b04-1.png">
+ <div class="sk"></div>
+ <p class="h1">Turn the clasp<br>to the front.</p>
+ <p class="beat">so the clasp becomes the jewel.</p>
+ <div class="card" style="top:944px">
+  <img class="wm" src="../../kit/logo_white.png">
+  <div class="name">Toggle Link Chain</div>
+  <div class="price">₹999</div>
+  <div class="line">4 mm paperclip links · 18k gold tone PVD</div>
+  <div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div>
+ </div>
+</body></html>

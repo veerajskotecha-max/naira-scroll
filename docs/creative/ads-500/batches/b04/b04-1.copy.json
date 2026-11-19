@@ -1,0 +1,133 @@
+{
+ "id": "b04-1",
+ "handle": "toggle-link-chain",
+ "product": "Toggle Link Chain",
+ "price": 999,
+ "archetype": "A2 Worn Editorial, neck-and-collarbone crop (b04's new move, b03 loop change 4); the A1 card-only fallback was not needed (the placement gate passes for A2)",
+ "light": "L7 soft warm key plus a hard kicker, as asked; rendered as an L7-like soft warm key from the upper left, with the kicker showing as crisp specular lines on the ring's top and right and on the bar edge and small sharp points on the stones, no rays",
+ "camera": "C4 85 mm worn, front-on at collarbone height (the clasp ref's pose: bar across the ring's upper left, gate and nub at the right)",
+ "picture": "pics/b04-1.png (try 2, job e4a41cbf-0816-46e5-bdb4-aa09830f1160, pass-with-notes); nothing scaled, moved or edited. Try 1 is kept as pics/b04-1_try1.png.",
+ "crop": {
+  "P": 68,
+  "T": 397.8,
+  "note": "The skeptic's correction of the verifier's P 66, re-measured here: the ring's contact shadow fades out at src 1885-1890 (a row profile under the ring returns to the side skin's luminance by 1890), which is Feed 928-931 at P 68 but 940-943 at P 66, under the card's wordmark. Valid range P 67.6-89.5. At P 68: clasp (jump-ring top to shadow tail) Feed 747-931, x 470-633; the chain's highest point inside the H1/beat x span at Feed 446; zari centre Feed 1258-1272; Feed top src 566, so the chin (to src 275) and the hair bun (to src 380) are out."
+ },
+ "onImage": {
+  "headline": "TURN THE CLASP / TO THE FRONT.",
+  "beat": "so the clasp becomes the jewel.",
+  "cardLine": "4 mm paperclip links · 18k gold tone PVD",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "sizeTag": null,
+  "callouts": []
+ },
+ "meta": {
+  "primaryText": "Turn the clasp to the front: Toggle Link Chain, ₹999, paperclip links, a toggle ring of about 22 mm. BUY2: 10% off 2 pieces. 18k gold tone PVD, made for silk.",
+  "headline": "Toggle Link Chain · ₹999 · 10% off 2",
+  "description": "Turn the clasp to the front",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-1_a2_toggle-front"
+ },
+ "story": {
+  "text": [
+   "NAIRA wordmark (logo_white)",
+   "TURN THE CLASP / TO THE FRONT.",
+   "TOGGLE LINK CHAIN  ₹999"
+  ],
+  "dropped": "The offer (brief fallback: at Story 564-626 its 726 px box touches both strands, and 24 px under the ring it would end at 1393, past 1250). The beat is Feed-only."
+ },
+ "layout": {
+  "type": {
+   "h1Face": "Velista caps .02em",
+   "h1Px": 76,
+   "beatPx": 49,
+   "beatRatio": 0.645,
+   "storyH1Px": 76,
+   "storyBeat": "none (Feed-only, per the brief)",
+   "note": "The brief set Velista 68 with a 44 px beat (0.65x). Rendered at 68 the headline read small at 216 px and the Feed text share was .12, so the headline goes to 76 (still inside the A2 range 64-84) with the beat at 49 (0.645x). Line 1 is 606 px (x 237-843), 33 px clear of the strands at x 204 and 872-956; 80 would leave about 20 px."
+  },
+  "feed": "body.dark, ground #381B20 (the sampled plum 56,27,32). H1 Velista 76 bone, centred, top 96: line boxes 96-169 (x 237-843) and 170-243 (x 273-807), over the deep neck between the strands. Beat Cormorant italic 500 49 gold-light, centred, top 258, box 253-312 (x 278-802), 134 px over the chain's highest point in its x span (446). No size tag (6.4 Feed px per listed mm, under the 19 px/mm line; a worn shot with the neck as referent). Card top 944 (brief 940, so 13 px of skin separate the shadow tail at about 931 from the wordmark): logo_white 944-1000, name 1016-1054, price 1059-1127, line \"4 mm paperclip links · 18k gold tone PVD\" 1131-1169 (x 299-781; fixer, both critics), offer box 1180-1242 (x 177-903), 16 px above the zari centre at 1258. Card radial in the neck's own sampled deep skin rgba(112,63,39,.70 core, .62 at 45%, .28 at 78%, 0 at the rim), masked to 0 at 928 and full by 968 so nothing lands on the ring or its shadow. The offer box carries its own fill in the sampled plum (56,27,32) at .62 in place of a foot scrim: the zari crosses both ends of the box, and a plum-silk foot scrim (tried, pass 2) muddied the silk and still let the zari run through CODES and 20% OFF. Nothing over the clasp x 470-633, y 747-931, or over the strands.",
+  "story": "body.dark story, the native 9:16 frame (Story y = src y x 0.703125 - 7.5). The strands come out from behind the neck at Story about 485 (x 137-207 and 895-950), stay outside x 205-895 down to about 700, then converge on the ring at 1137-1307. Centred stack over the dark neck: logo_white 270-326; H1 Velista 76 two lines 368-441 (x 237-843) and 442-515 (x 273-807); name and price on one baseline (24 px gap), row 544-612 (name x 301-645, price x 669-779). Inside every box's x span the chain's highest point is below Story 760 (150 px or more clear). The brief's Velista 64 stack (346-546, 20 px gaps) was cramped; at 76 the gaps are 42 and 33. Top: a flat graphic in the sampled plum ground (#381B20), solid over 0-130 and fading to 0 by 262, over the chin's underside (Story -7.5 to 185) and most of the hair bun (x 872-984, to 254), under the platform header; nothing in the picture is edited. The lead can delete the .top div to run the native frame as generated, or run the ad Feed-only.",
+  "contrast": "Median against the rendered ground under each text box with the type hidden and the scrims kept (worst 2% in brackets). Feed: H1 7.3 (4.8 and 5.7), beat gold-light 5.1 (4.1), wordmark 5.4 (3.5), name 5.8 (4.8), price 6.2 (5.3), line 6.0 (4.4) with the fixer's wider \"4 mm paperclip links\" line (was 6.1 (4.6)), offer 9.5-9.6 (6.8). Before the card radial the chest gave bone 3.4:1 and the wordmark 4.2 with a slower mask. Story: wordmark 13.1 (6.2), H1 8.9 and 7.6 (4.7 and 5.3), name 7.5 (6.1), price 6.7 (5.3).",
+  "thumbnail": "At 216 px (tmp/b04-1_thumbs_216.png) the gold V and the ring land first on both formats, the headline reads as two clean lines, and the card resolves to wordmark, ₹999 and the offer box. Checked beside win_twenty_f2_tennis_ruby, b03-1 and lose_a07_toggle_story (tmp/b04-1L/thumbs_vs.png).",
+  "passes": [
+   "Pass 1: the brief's layout at P 68 (H1 68, beat 44, card 944) with a skin radial whose top edge was not masked and a plum-silk foot scrim from 1110. Clean render, text share .121, but the radial left a visible horizontal edge at its top, the foot scrim turned the silk muddy, and the zari still showed through the offer's ends.",
+   "Pass 2: four card-zone variants (tmp/b04-1L/fA-fD): outlined offer plus foot scrim, offer plus an elliptical plum scrim, filled offer alone, filled offer plus a light foot. The filled offer (A) was the only one that kept the silk rich, the zari visible as the neckline, and the offer clean end to end; the radial's top was masked to fix the edge.",
+   "Pass 3: headline at 72 and 76 (tmp/b04-1L/fE, fF); 76 kept 33 px from the strands and read best at 216 px. Radial re-centred higher and the mask shortened to 40 px, which took the wordmark from 4.2 to 5.4:1. Story re-set at Velista 76 with 42/33 px gaps (sG); a variant adding the card line (sH) was dropped because it repeats 'front' under the headline and crowds the stack."
+  ],
+  "checks": {
+   "feed": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.137,
+    "outside": [],
+    "minFont": 26
+   },
+   "story": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.053,
+    "outside": [],
+    "minFont": 26
+   }
+  }
+ },
+ "copyChanges": [
+  "None to the brief's words on image or in Meta. Primary text 158 characters, the offer ('BUY2: 10% off 2 pieces.') ends at character 124; Meta headline 36 (40 max) with the product type, price and offer; description 27.",
+  "Lint against RULINGS: no diamond, real or solid gold, freshwater, bare 'gold' or 'silver' as the metal (only '18k gold tone PVD'), emerald or ruby, compare-at price or free shipping. No waterproof, tarnish-free or hypoallergenic claim and no water: the Toggle's tags carry the claims but its live care text says 'Keep it dry' (brief pre-flight). 'PVD', 'paperclip links', 'toggle' and 'about 22 mm' are listing words (products.md). BUY2 10% on 2+ and BUY3 20% on 3+ match RULINGS §2; two codes, so 'Codes'. Stock 77 (20+). The UTM landing URL is the only URL; it carries no signature.",
+  "Layout departures from the brief, all logged above: P 68 not 66 (skeptic); H1 76 and beat 49 instead of 68 and 44 (beat ratio kept at 0.645); card top 944 instead of 940; offer fill instead of a plum-silk foot scrim; Story H1 76 instead of 64 with the stack re-spaced; flat plum top band on the Story (the lead's call; one div).",
+  "Fixer after critics round 1 (both critics asked; the wordings differed). Feed card line 'toggle at the front · 18k gold tone PVD' became '4 mm paperclip links · 18k gold tone PVD'. A asked 'paperclip links · 18k gold tone PVD' (stop repeating the headline, name the link in listing words, keep the metal tone); B asked '4 mm paperclip links · 18k gold tone PVD' (stop repeating 'front', add a fact the picture shows). B's wording meets both reasons: 'paperclip links' and 4mm wide are products.md listing words. Same slot, Jost 400 26 bone, line x 299-781, 1131-1169; contrast 6.0 (worst 2% 4.4). Feed re-rendered 2026-11-19 22:58:02 UTC: failed, overflow, fallback and outside empty; textShare .137; minFont 26. Nothing over the clasp or its shadow (x 470-633, y 747-931). Story unchanged.",
+  "Not applied (one critic only, logged for the lead): A's Feed beat 'so it becomes the jewel.' (B did not ask); B's Story offer line 'Code BUY2 · 10% off 2 pieces' at top 640 on a plum fill (A asked for no Story change); B's Story .top band solid #381B20 to 190 px, fading by 262 (A: the band already hides the chin's underside; RULINGS §3 allows a lips-to-chest crop, so it is not a compliance fix). The Story JPG is unchanged."
+ ],
+ "truthNotes": [
+  "Clasp matches the clasp ref (verifier and skeptic): thick round spring-gate sailor ring with gate wire, collar seam, push-pin nub and bail; one straight bar with one row of 8 tiny clear cubic zirconia, bar / ring 0.64-0.67; open paperclip links, about 13 a side.",
+  "Scale: ring / neck 0.215-0.216 (band 0.17-0.22), about 1.07-1.08x on a plausible 102-110 mm neck; 6.4 Feed px per listed mm, so no size tag. Ring width share 13.0% of the Feed width (at the floor; the frame is wider than planned).",
+  "Face: no eye, nose, lips or mouth anywhere in the native frame. The chin's underside and a hair bun sit in Story -7.5 to 185 and 0-254, under the platform header; the flat plum band covers them. RULINGS §3 allows a lips-to-chest crop, so the house rule holds either way; the brief's stricter 'no chin' gate is what the band answers.",
+  "No other jewellery, no water, no text in the picture."
+ ],
+ "review": {
+  "status": "Round 1 scored by both critics on the 21:40:44 renders: A 7.675 ship-after-fixes, B 7.675 ship-after-fixes (mean 7.675). Fixer applied the one fix both critics asked for (Feed card line); the Feed changed, the Story did not. Round 2: both critics re-score the new Feed before review.md (b03 loop change 2).",
+  "scores": {
+   "A": {
+    "stop": 7,
+    "message": 8,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 8,
+    "copy": 7.5,
+    "fit": 8,
+    "desire": 7.5,
+    "cues": 7.5,
+    "weighted": 7.675,
+    "verdict": "ship-after-fixes"
+   },
+   "B": {
+    "stop": 7,
+    "message": 8,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 8,
+    "copy": 7.5,
+    "fit": 8,
+    "desire": 8,
+    "cues": 7,
+    "weighted": 7.675,
+    "verdict": "ship-after-fixes"
+   }
+  },
+  "mean": 7.675,
+  "beatsLoser": {
+   "A": true,
+   "B": true
+  },
+  "beatsWinner": {
+   "A": true,
+   "B": true
+  },
+  "scoredFiles": {
+   "feed": "batches/b04/b04-1_feed.jpg (render of 2026-11-19 21:40:44 UTC, scored by both critics in round 1); superseded by the fixer render of 2026-11-19 22:58:02 UTC, not yet scored",
+   "story": "batches/b04/b04-1_story.jpg (render of 2026-11-19 21:40:44 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
+  }
+ }
+}

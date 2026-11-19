@@ -30,14 +30,14 @@
   ]
  },
  "layout": {
-  "feed": "body.dark. Headline \"BRAIDED HOOPS. / ZERO STONES.\" Velista 92 .02em (finisher: from .01em, the kit and PLAYBOOK 4.0 minimum), centred on the wet hair, glyphs x 172-908, y 88-268; beat Cormorant italic 48 gold-light at 296-345. Card top 940 to 1236 on the calm nape, set in ink with logo_ink and an oxblood lozenge, no scrim (the briefed oxblood scrim turned the apricot edges into a muddy band; ink on the nape reads at 4.7:1 at the wordmark to 5.5:1). Offer \"CODES ...\" box x 177-903. No size tag (about 5.6 px/mm).",
+  "feed": "body.dark. Headline \"BRAIDED HOOPS. / ZERO STONES.\" Velista 92 .02em (finisher: from .01em, the kit and PLAYBOOK 4.0 minimum), centred on the wet hair, glyphs x 172-908, y 88-268; beat Cormorant italic 56 gold-light (0.61x the 92 px headline; b03 loop change 1, was 48), centred at top 296 (ink x 339-741, y 290-358). Card top 940 to 1236 on the calm nape, set in ink with logo_ink and an oxblood lozenge, no scrim (the briefed oxblood scrim turned the apricot edges into a muddy band; ink on the nape reads at 4.7:1 at the wordmark to 5.5:1). Offer \"CODES ...\" box x 177-903. No size tag (about 5.6 px/mm).",
   "story": "body.dark story. logo_white 270-326, Velista 76 headline 350-494, name and price on one baseline 518-574, offer 594-656 (box x 177-903), all on the dark hair; the ears' bright skin starts at x 164 and 926 at y 656. Gaps 24 / 24 / 20 (were 32 / 14 / 16). Nothing over the hoops (877-1080), the droplets or the zari edge.",
   "checks": {
    "feed": {
     "failed": [],
     "overflow": [],
     "fallback": [],
-    "textShare": 0.151,
+    "textShare": 0.155,
     "outside": [],
     "minFont": 26
    },
@@ -61,8 +61,8 @@
  "deployment": "Run the Story as the stronger arm: only the Story shows the oxblood blouse and its zari edge (the occasion cue).",
  "review": {
   "scoredFiles": {
-   "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)",
-   "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)"
+   "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 20:32:55 UTC, after the beat fix; re-scored by both critics)",
+   "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:24:08 UTC; re-scored by both critics)"
   },
   "weightedA": 7.15,
   "weightedB": 7.55,
@@ -72,6 +72,22 @@
    "Story stack re-spaced: headline 350, name and price 518, offer 594 (A and B agreed it was tight; headline kept at 76 px)",
    "Offer label CODE to CODES on Feed and Story (B, offer accuracy: two codes, RULINGS 2)",
    "light and truth notes corrected in this file and the ledger (B; A reports the same facts)"
-  ]
+  ],
+  "scoredFilesBeforeRescore": {
+   "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)",
+   "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)"
+  },
+  "rescore": {
+   "A": {
+    "weighted": 7.45,
+    "verdict": "ship"
+   },
+   "B": {
+    "weighted": 7.525,
+    "verdict": "ship"
+   },
+   "mean": 7.488,
+   "note": "Re-score by both critics on the final files (b03 loop change 2). The weightedA/B above (7.15 / 7.55) were scored on the 18:15:10 renders. Neither critic asked for a change to the ad."
+  }
  }
 }

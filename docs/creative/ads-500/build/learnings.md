@@ -20,6 +20,14 @@ Each batch names one **fix target** (its lowest-scoring dimension) and makes exa
 9. Fidelity: name the piece in a few countable words and add one "must stay X, never Y" clause for the part that morphs. Slot 1 is
    the listing packshot (the authority), slot 2 a detail of the same piece only. Never two products in a frame unless it is a set ad.
 10. Scale is built: mm plus a referent (a jasmine bud about 2 cm, a fingertip), a true contact shadow, honest macro depth of field.
+11. **Promoted after b04.** The magnified product-only hero.
+    - A product-only frame shows the piece centred as the largest and brightest shape, at about 45–75% of the Feed width.
+    - It sits on a ground darker than the piece, or on one saturated colour field.
+    - The sliding Feed crop places it, after the extent gate.
+    - When it shows at 19 Feed px or more per listed mm, a plain "Shown magnified · about N mm" line says so.
+
+    It beat the winner anchor with both critics in two batches: b03-1 and b03-2 on their b04 re-scores, and b04-0 and b04-3.
+    The evidence is in `### b04` below. Live data overrides it (PLAYBOOK §5.3.8).
 
 ## Batch notes
 
@@ -280,3 +288,140 @@ slot goes first.
 
 At zero credits before b04, the lead may also lay out the b03-4 float as a card-only A1 at Feed P 100, as both critics
 recommend (see the review). That is a rescue of an existing picture, not a new move.
+
+### b04
+
+Shipped 4 ads, the last batch the credits allow (full record: `batches/b04/review.md`).
+
+| Ad | Product | Archetype | Mean |
+|---|---|---|---|
+| b04-3 | Verdant Circlet | A4 monument with selective colour | 7.91 |
+| b04-0 | Monochrome | the b03-4 float as a zero-credit card-only A1 | 7.78 |
+| b04-1 | Toggle | A2 worn neck crop, the new move | 7.73 |
+| b04-4 | Serpentine Whisper Chain — Silver | A4/A6 on teal velvet | 7.58 |
+
+- **Batch mean 7.75** (A 7.70, B 7.79). It equals b03's final mean (7.75 after its re-scores; 7.70 when b03 was first
+  reviewed).
+- **Yield:** three of the four slots that were shot shipped. b04-2 (Prism powder rhyme) was dropped after its regeneration.
+- **Credits:** 7 pictures for 14 credits. The balance is **0.46**, so generation stops (RULINGS §1.3). b04-5, b04-6 and b04-7
+  were never shot.
+- **Three ads beat the winner anchor with both critics** (b04-0, b04-1, b04-3), the first in four batches.
+- **Scoring.** Every score is on the shipping file. The fixer's three changed JPGs went back to both critics before the review.
+- **The re-scores b03 owed are done,** and none of the five ads is held:
+
+  | Ad | Re-scored mean |
+  |---|---|
+  | b03-1 | 7.99 |
+  | b03-2 | 7.96 |
+  | b03-3 | 7.34 |
+  | b02-1 | 7.49 |
+  | b01-1 | 7.53 |
+
+**Rule 11 promoted: the magnified product-only hero** (the rule's text is in the list above).
+- **The evidence.** It beat the winner anchor with both critics in two batches:
+  - b03: b03-1 (the plum monument) and b03-2 (the Cushion macro), on their b04 re-scores;
+  - b04: b04-0 (the float) and b04-3 (the Circlet monument).
+
+  All four show a piece magnified to 45–75% of the width, centred, placed by the sliding crop, with a plain "Shown magnified"
+  line.
+- **The limits.**
+  - The wins came on the b04 blind sheets. Where a critic named the winner it beat, it was the rotation winner vkf18.
+  - No ad has beaten F2 or the apricot hoops with both critics.
+  - The same grammar at 18% of the width (b04-4) won with B only.
+  - b03-3 (life size, callouts, mid-sage) won with neither.
+  - Read the rule as necessary, not sufficient. Let live purchases overrule it.
+
+**Not promoted.**
+- **"Gold-tone mass on a saturated dark ground" stays retired.**
+  - b03-1 now beats the winner with both critics on its re-score, so that is one batch with both.
+  - b01-4's win was with B only.
+  - No b04 ad repeated the device.
+- **The worn neck crop, the float and selective colour** each won with both critics in one batch only, so they stay notes.
+
+**What worked (notes, not rules)**
+- **The worn neck-and-collarbone crop (b04-1, the new move) shipped and beat the winner with both critics.** It is the first
+  worn frame since b02, with B desire 8.
+  - Scale was locked by link counts and ring widths against body landmarks: ring ÷ neck went from 0.248 to 0.215.
+  - The card sits on the chest over a radial scrim in the neck's sampled deep skin.
+  - It is a candidate rule if it beats the winner with both critics again.
+- **The b03-4 float as a card-only A1 at P 100 (b04-0) was the first honest surprise to ship,** with stop 8.5 from both critics.
+  - The size tag acts as the float's caption.
+  - The ink card with `logo_ink` held brand at 7.5 on a lit terracotta floor where bone read 2.6–2.9:1.
+  - It is a candidate rule.
+- **The selective-colour monument (b04-3) gave the batch's best ad and best stop (B 9),** though the device itself did not read.
+  - The score came from green stones on charcoal.
+  - The beat colour was sampled from the stones' lit facets (#08C694, 5.8:1), which ties the type to the piece.
+- **Skin and an occasion beat lifted desire** from 6.94 to 7.38: b04-1 skin (B 8), and b04-3's "for the wedding function." (B 8).
+  The fix target was met.
+- **One picture at a time paid off.** Each regeneration carried a measured fix, and both regenerations aimed at a single fault
+  passed (b04-1 scale, b04-4 chain path). Construction held on 7 of 7 pictures, 14 of 14 over b03 and b04.
+- **The slab sentence fixed plinth geometry on the first try,** twice. "a wide low slab … front face a flat band parallel to the
+  frame's bottom edge, running past both side edges, back edge hidden behind the piece, no corners or side faces".
+- **Re-scoring every live ad on one sheet,** and returning the fixer's changes to both critics before the review, closed the
+  scored-file gap for the first time in four batches.
+
+**What failed, and why**
+- **Picture yield fell to 3 ads from 7 pictures (43%), against b03's 4 from 7.** Every drop was a placement or scene fault,
+  never a morph:
+  - b04-2 died twice: the powder rose to the back of the plinth, then the plinth rendered as a cube seen corner-on.
+  - b04-1 and b04-4 each needed their regeneration, for scale and for the chain's path.
+  - Prism is now 0 for 3 slots over four batches.
+- **The surprises the model was asked to draw did not read, so fit fell from 7.69 to 7.38** (B 6.5 on b04-4).
+  - The drained world reads as a naturally black-and-white set: the white petals carry no "drained" cue.
+  - The warm spot rendered as a flat top light. This is the third batch in which a described spot or pool failed: b01-1 a
+    smear, b03-5 a soft pool, b04-4 none.
+- **Purchase cues fell from 8.25 to 7.88.**
+  - The b04-1 Story has no offer, because the box would hit both strands. B's tested line at top 640 fits.
+  - The 26 px offer line still fails at 200 px.
+- **Copy fell to 7.44.**
+  - b04-0's primary text is ungrammatical ("one black and one white enamel stripe a hoop").
+  - "One bold ear is enough" over a pair reads as "wear just one".
+- **The face gate:** the chin's underside stayed in the native 9:16 frame on both worn tries. Front-on crop words are ignored.
+  A flat plum band covers it, and B wanted the band solid to 190 px.
+- **A worn prompt worded mostly around chest and bare skin was refused by the safety filter.** It cost no credit, but it took
+  the slot's regeneration, and the lead had to resubmit.
+- **Share asks:** b04-4's pendant came out at 18.2% because "one fifth of the width" was taken literally. A rates the frame
+  catalogue-like.
+- **Anchors drifted from the brief.** The brief's losers (sa08, the W1 waterproof Feed) were not on the critics' blind sheets;
+  lose_p2 was.
+
+**Production hygiene** (finisher fixes, not creative rules)
+- **scoredFile format.** Every ship row's `scoredFile` is `<feed jpg> <stat -c %y>`, with `scoredStory` beside it. The ledger
+  test passes on all 11 ship rows.
+- **Ship verdicts.** A critic's "ship after fixes" whose fixes only that critic asked for does not hold an ad: the §7 ship rule
+  decides, and the fix is logged as not applied.
+- **Lint lines.** Lint lines in `copy.json` should say "clean against the RULINGS §1.1 word list" rather than list the banned
+  words (A's b03-2 fix). It applies batch-wide if adopted.
+- **Card names.** The on-image card name never prints a bare metal word. The Serpentine card prints "Serpentine Whisper
+  Chain" without the colour suffix, and the card line says "silver tone PVD".
+- **Worn Stories.** A worn Story's top is made face-free either by the camera (a little above, looking down) or by a flat band
+  in the ground's colour, solid well past the chin's lowest row.
+
+**Totals across b01–b04** (ledger, final scores, mean of both critics)
+
+| Batch | Ads shipped | Live ads | Batch mean | Beat the winner with both critics |
+|---|---|---|---|---|
+| b01 | 1 of 5 (b01-4 held) | b01-1 7.53 | 7.53 | 0 |
+| b02 | 2 of 5 | b02-1 7.49 · b02-5 7.53 | 7.51 | 0 |
+| b03 | 4 of 5 | b03-1 7.99 · b03-2 7.96 · b03-5 7.73 · b03-3 7.34 | 7.75 | 2 (on the b04 re-scores) |
+| b04 | 4 of 5 (b04-0 at zero credits) | b04-3 7.91 · b04-0 7.78 · b04-1 7.73 · b04-4 7.58 | 7.75 | 3 |
+| **All** | **11 live of 20 ids** | | **7.69** (A 7.65, B 7.72) | **5** |
+
+- **The other 9 ids:** 1 held (b01-4), 1 rejected (b02-2), 7 dropped.
+- **Best live ad:** b03-1 at 7.99, then b03-2 at 7.96 and b04-3 at 7.91.
+- **The trend:**
+  - Yield went 1, 2, 4, 4.
+  - The batch mean rose from 7.53 to 7.75 and then held.
+  - Desire stayed flat at about 6.9–7.0 until b04 raised it to 7.38.
+
+**If the owner adds credits.**
+- **Fix target: archetype fit, tied with desire at 7.38** (B's lowest is fit, A's is desire). Put the surprise where the
+  layout or a known render controls it, not in described light. Options:
+  - the keyword in the piece's colour (A's b04-3 fix);
+  - the A7 split headline;
+  - the A14 in-word swap;
+  - the float.
+- **Put an offer in every Story.**
+- **Shoot next:**
+  - b04-5 (Toggle paperclips), already unlocked by b04-1's clasp;
+  - Prism, with the slab sentence.

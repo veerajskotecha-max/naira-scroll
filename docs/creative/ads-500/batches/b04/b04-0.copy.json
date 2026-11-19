@@ -74,33 +74,60 @@
  "copyChanges": [
   "None to the b03-4 brief's words. Primary text 160 characters, the offer ends at character 125; Meta headline 35 (40 max), description 22. No claim and no water anywhere: Monochrome Enamel Hoops carries no Waterproof, Tarnish Free or Hypoallergenic tag (RULINGS section 1.1). Lint: no diamond, real or solid gold, freshwater, bare gold or silver, emerald or ruby, PVD, steel, 18k, 'pair', compare-at price or free shipping.",
   "Two-code offer box reads CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF (two codes, so CODES, RULINGS section 2).",
-  "The Story headline runs on one line ('BLACK. WHITE. GOLD TONE.') instead of the brief's two, for the space reason in passes; the words are unchanged."
+  "The Story headline runs on one line ('BLACK. WHITE. GOLD TONE.') instead of the brief's two, for the space reason in passes; the words are unchanged.",
+  "Not applied (one critic only, logged for the lead): A's Meta primary text 'Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.' (157 characters, the offer ends at 122; A flags the live 'one black and one white enamel stripe a hoop' as ungrammatical). B asked for no copy change. No layout change was asked by either critic; the JPGs are unchanged."
  ],
  "truthNotes": [
   "Verifier (b03 verify.md) and my own zooms: per hoop exactly one black and one white enamel stripe between three polished gold-tone rails, an open C, the post at the top, a plain ridged gold-tone inside, zero stones; the pair identical in the pack ref's three-quarter pose. Hoop H/W 1.34 against the pack ref's 1.37 at the same pose.",
   "Float: each shadow lies directly below its hoop with a clear gap of floor (0.41x the hoop height), no wire or stand. Overhead L6 gives soft parallelogram footprints, the physically right shadow of an upright hoop.",
-  "Scale: 19.9 Feed px/mm, about 1.25x life size on a phone, declared by the size tag on both placements. Pair width 60.7% of the Feed width."
+  "Scale: 19.9 Feed px/mm, about 1.25x life size on a phone, declared by the size tag on both placements. Pair width 60.7% of the Feed width.",
+  "Pre-launch check (critic B, open): re-read Monochrome Enamel Hoops stock before launch. It read 24 at the b04 pre-flight, 4 over the 20 floor (RULINGS §2); do not launch below 20. The SKU carries no claim and no water, and none is printed (correct).",
+  "Critic B truth note (not a fail): the gold tone picks up the terracotta bounce (median hue 67°, C* 39-40, against the detail ref's 73° and 37): warm, not brassy. Construction matches both refs: one black and one white stripe, three rails, an open C, a ridged inside. Rule note (B): this is b03-4 try 1, which never shipped; keep b03-4 marked dropped in the ledger (it is) so the picture is never used twice."
  ],
  "abTest": "First live read of a float (the crazy slot is 0 for 5 over three batches), and the first ink-on-light card in ads-500 (the floor under the card is light terracotta). Read it against the b03 product-only ads as a picture test; the offer is the standard two-code box, so it is not an offer cell.",
  "deployment": "Feed and Story both carry the card and the size tag; the headline is on the Story only. Not scored yet.",
  "review": {
-  "status": "pending: a new layout of an existing picture, so it goes to both critics before it ships (b03 loop change 3). Not scored yet.",
+  "status": "Round 1 scored by both critics on the 20:40:50 renders: A 7.825 ship-after-fixes (Meta text only), B 7.725 ship (mean 7.775). No fix was asked for by both critics; the fixer added B's pre-launch stock gate to truthNotes. The JPGs are the scored files.",
   "scores": {
-   "A": null,
-   "B": null
+   "A": {
+    "stop": 8.5,
+    "message": 7.5,
+    "truth": 8.5,
+    "layout": 8,
+    "brand": 7.5,
+    "copy": 7,
+    "fit": 8,
+    "desire": 7,
+    "cues": 8,
+    "weighted": 7.825,
+    "verdict": "ship-after-fixes"
+   },
+   "B": {
+    "stop": 8.5,
+    "message": 7.5,
+    "truth": 8,
+    "layout": 8,
+    "brand": 7.5,
+    "copy": 7,
+    "fit": 7.5,
+    "desire": 7,
+    "cues": 8,
+    "weighted": 7.725,
+    "verdict": "ship"
+   }
   },
-  "mean": null,
+  "mean": 7.775,
   "beatsLoser": {
-   "A": null,
-   "B": null
+   "A": true,
+   "B": true
   },
   "beatsWinner": {
-   "A": null,
-   "B": null
+   "A": true,
+   "B": true
   },
   "scoredFiles": {
-   "feed": "batches/b04/b04-0_feed.jpg (render of 2026-11-19 20:40:50 UTC, not yet scored)",
-   "story": "batches/b04/b04-0_story.jpg (render of 2026-11-19 20:40:50 UTC, not yet scored)"
+   "feed": "batches/b04/b04-0_feed.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file",
+   "story": "batches/b04/b04-0_story.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
   }
  }
 }

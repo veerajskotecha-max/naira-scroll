@@ -1,0 +1,136 @@
+{
+ "id": "b04-3",
+ "handle": "verdant-circlet-studs",
+ "product": "Verdant Circlet Studs",
+ "price": 899,
+ "archetype": "A4 Monument Macro with the selective-colour device (board 85: a black-and-white world, the piece the only colour, the keyword in the piece's colour; PLAYBOOK A2's selective variant made product-only), b04's honest surprise. The card-only A1 fallback was not needed: the placement gate passes at P 56.0-59.3.",
+ "light": "L1 asked (hard warm key from the left plus a large soft fill); rendered as a broad soft key from the upper left and front, with crisp lit facets in the green stones, round white highlights on the pearls and bright star edges; the hard rake is weak, so the contact shadows are soft (verifier)",
+ "camera": "C5 100 mm macro about 15 degrees above, front-on; the pack ref's pose (the pair upright as mirror images)",
+ "picture": "pics/b04-3.png (try 1, job 9ae8c3aa-328d-4766-b307-c9e8dd9facfc, pass-with-notes, failure none); nothing scaled, moved or edited. Selective colour: zero coloured pixels outside the stud boxes (max C* 4.2).",
+ "crop": {
+  "P": 58,
+  "T": 339.3,
+  "note": "Verifier and skeptic agree on P 58 (valid P 56.0-59.3). Studs' top Feed 399.7 (31.7 px under the size tag), feet 814.5, petals end 899.6, zari 849.0-928.4 (the brief's start P 52 would put the zari under the card), card over src 1819-2263 of plain silk. Studs x 173.7-921.8; green stones x 232-462 and 625-858.5, inside 216-864."
+ },
+ "onImage": {
+  "headline": "ONE BOLD EAR / IS ENOUGH.",
+  "beat": "for the wedding function.",
+  "cardLine": "emerald-green cubic zirconia · 18k gold tone",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "sizeTag": "SHOWN MAGNIFIED / ABOUT 16.8 MM TALL",
+  "callouts": []
+ },
+ "meta": {
+  "primaryText": "One bold ear is enough: Verdant Circlet Studs, ₹899, emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.",
+  "headline": "Verdant Circlet Studs · ₹899 · 10% off 2",
+  "description": "Emerald-green cubic zirconia",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/verdant-circlet-studs?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-3_a4_circlet-selective-colour"
+ },
+ "story": {
+  "text": [
+   "NAIRA wordmark (logo_white)",
+   "ONE BOLD EAR IS ENOUGH.",
+   "VERDANT CIRCLET STUDS  ₹899",
+   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+   "SHOWN MAGNIFIED · ABOUT 16.8 MM TALL"
+  ],
+  "dropped": "The beat (brief rule: the studs' top is at Story 731.5, above the 783 limit, so drop the beat first). The tag cannot go under the studs: the petals run to Story 1231."
+ },
+ "layout": {
+  "type": {
+   "h1Face": "Velista caps .02em",
+   "h1Px": 90,
+   "beatPx": 54,
+   "beatRatio": 0.6,
+   "beatColour": "#08C694, sampled from the left stone's lit facets (90th-percentile band, hue 164); 5.8:1 on the charcoal",
+   "storyH1Px": 72,
+   "storyBeat": "none (dropped per the brief)",
+   "note": "The brief set Velista 84 with a 52 px beat (0.62x). 84 is under the A4 range (96-120); 96 with a 0.6x beat would cross the .18 text share and leave 21 px between ENOUGH. and the tag. 92/56 rendered .173 but left 40 px between the beat and the tag; 90/54 renders .167 with 58 px."
+  },
+  "feed": "body.dark, ground #313131 (the sampled charcoal). .pic object-position 50% 58%. H1 Velista 90 bone, left 72, top 96: ink 101-165 (x 75-698) and 189-253 (x 74-552). Beat Cormorant italic 500 54 px in #08C694, left 72, top 286: ink 291-345 (x 72-548), 54 px over the studs' top. Size tag 30 px bone, right 72, top 272: box 611-1008 x 272-368, 31.7 px over the studs' top, 58 px right of the beat. Card top 958 (brief 940; 30 px of silk between the zari's lower edge at 928 and the wordmark): logo_white 958-1014 on the slab's lit edge roll, name 1034-1065, price 1079-1135, line 1149-1180 (x 281-799), offer box 1194-1256 (x 177-903) on the plain dark front face. No scrim (a tinted scrim breaks the device; a neutral one was not needed: the wordmark is 7.5:1 on the edge roll). The offer's separator takes the beat's green, so the only colours in the frame are the studs and their green. No type over x 0-1080, y 399.7-928.4.",
+  "story": "body.dark story, the native 9:16 frame (Story y = src y x 0.703125 - 7.5). Studs' top at Story 731.5, petals to 1231, slab front face fills the lower third. Centred stack on the calm charcoal backdrop: logo_white 270-325; H1 one line, Velista 72, ink 364-415 (x 83-994); name and price on one baseline (24 px gap), name 485-504, price 464-519; offer 550-611 (the only boxed element); size tag one plain line, Jost 500 26 caps, ink 655-674 (x 220-857), 57 px over the studs. The brief's two-line H1 (346-486) left 14-20 px between rows; one line at 72 (the b04-0 pattern) gives 39-49 px.",
+  "contrast": "Median against the rendered ground under each text box with the type hidden (worst 2% in brackets). Feed: H1 11.8 / 11.6 (11.1), beat #08C694 5.8 (5.6), size tag 11.3 (10.8), wordmark 7.5 (5.0), name 16.4 (14.9), price 17.1 (16.2), line 17.1 (16.3), offer 17.3 (16.7). Story: wordmark 11.8 (11.4), H1 11.8 (11.3), name 11.6 (11.3), price 11.4 (11.1), offer 11.4 (11.0), tag 11.1 (10.6).",
+  "thumbnail": "At 216 px (tmp/b04-3_thumbs_216.png) the two green stones and gold circlets land first, centred, and are the only colour; the headline reads as two clean lines and names the ear, so the piece reads as earrings in half a second; the green beat ties the type to the stones; the card resolves to wordmark, ₹899 and the offer box. Checked beside win_e2_ruby_anaar, win_twenty_f2_tennis_ruby, b03-1 and lose_w1_waterproof_wedding (tmp/b04-3L/vs_anchors_216.png).",
+  "passes": [
+   "Pass 1: the brief's layout at the verifier's P 58 (H1 84, beat 52 in #15DCA9, card 940). Clean render, text share .161. The wordmark sat 12 px under the zari's lower edge, the headline read small for an A4, and the beat's mint-teal read turquoise beside the deeper stones at 216 px.",
+   "Pass 2: three variants (tmp/b04-3L/vA-vC): H1 92 / beat 56 in #15DCA9, the same in #08C694, and H1 88 / beat 54. #08C694 (the stones' 90th-percentile facet band, 5.8:1) read as the stones' emerald green; card moved to 958 for 30 px of silk under the zari.",
+   "Pass 3: H1 90 / beat 54 (0.60x) for 58 px between the beat and the tag at .167; offer separator in the beat green on both formats; Story offer and tag moved down 4 px each to even the rows (39-49 px) and leave 57 px over the studs."
+  ],
+  "checks": {
+   "feed": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.167,
+    "outside": [],
+    "minFont": 26
+   },
+   "story": {
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.073,
+    "outside": [],
+    "minFont": 26
+   }
+  }
+ },
+ "copyChanges": [
+  "Primary text: 'and a shell pearl' became 'and shell pearls', because the picture (and the listing photos, products.md flag) shows two pearls per stud. 149 characters; the offer ('BUY2: 10% off 2 pieces.') ends at character 123. Meta headline 40 (product, price, offer), description 29.",
+  "Lint against RULINGS: no diamond, real or solid gold, freshwater, bare 'gold' or 'silver' as the metal (only '18k gold tone'), 'emerald' only as 'emerald-green' (never a noun), 'pearl' only as 'shell pearls', no compare-at price (listing ₹1,289 not printed), no free shipping, no waterproof, tarnish-free or hypoallergenic claim and no water imagery (allowed for this SKU, not used). BUY2 10% on 2+ and BUY3 20% on 3+ match RULINGS §2; two codes, so 'Codes'. Stock 32 (20+). The UTM landing URL is the only URL; it carries no signature.",
+  "Layout departures from the brief, all logged above: P 58 not 52 (verifier and skeptic); H1 90 and beat 54 (0.60x) instead of 84 and 52; beat green #08C694 instead of the verifier's #15DCA9 (both sampled from the stones' lit facets); card top 958 instead of 940; offer separator in the beat green; Story beat dropped (brief rule) and the Story H1 on one line at 72 instead of two.",
+  "Fixer after critics round 1 (critic B, compliance): Meta description 'Emerald-green · 18k gold tone' became 'Emerald-green cubic zirconia' (28 characters, under the 30 limit), the RULINGS §1.1 wording, so the colour word never stands alone where it could read as a stone name. Meta only; no image change, the JPGs are unchanged.",
+  "Not applied (one critic only, logged for the lead): A's selective-colour type (Feed H1 'One <span>bold</span> ear / is enough.' with BOLD in #08C694, the beat in bone, and BOLD in #08C694 on the Story H1; A's test render tmp/criticA/t43_feed.jpg); B's optional A/B headline 'THE ONLY COLOUR / IN THE ROOM.' (Velista 90 bone, left 72, top 96), with the current headline kept as the control. Both critics found that the selective-colour device does not read from the picture alone (the white petals read as a naturally black-and-white set), but they asked for different remedies, and B kept the current headline as the control, so neither remedy is a shared fix. The lead's call: route A's colour fix to B, or B's A/B as a separate ad, in round 2."
+ ],
+ "truthNotes": [
+  "Construction matches the pack ref (verifier and skeptic): per stud the green cushion stone tilted at the circlet's upper edge, 5 claw-set clear cubic zirconia, exactly 2 four-point stars and 2 pearls (the big one a round bead), the centre open; true mirror images; 18k gold tone, hue 71, not brassy.",
+  "Scale: 24.7 Feed px per listed mm (stud 415 Feed px for 16.8 mm), about 1.5-1.6x life on a phone, so 'Shown magnified · about 16.8 mm tall' prints on both formats. Pair 69.3% of the Feed width (1.195x the 58% shareLine, inside the 1.2x bar). Circlet / stone 1.52 and pearl / stone 0.45 follow the pack ref (1.51, 0.42).",
+  "Posts render steel-grey and act as legs (the selective-colour device drained them, C* 2.5); at Feed size they read as posts. The petals read as generic white petals, not marigold, so the world can read as naturally monochrome; the green beat and 'only the studs are in colour' carry the device.",
+  "No face, skin, hands, water, other jewellery or text in the picture."
+ ],
+ "review": {
+  "status": "Round 1 scored by both critics on the 22:11:08 renders: A 7.75 ship-after-fixes, B 8.075 ship (mean 7.913). No image fix was asked for by both critics; the fixer changed the Meta description only (B, compliance). The JPGs are the scored files.",
+  "scores": {
+   "A": {
+    "stop": 8.5,
+    "message": 7,
+    "truth": 8,
+    "layout": 8,
+    "brand": 8,
+    "copy": 7,
+    "fit": 7,
+    "desire": 7.5,
+    "cues": 8,
+    "weighted": 7.75,
+    "verdict": "ship-after-fixes"
+   },
+   "B": {
+    "stop": 9,
+    "message": 7,
+    "truth": 8,
+    "layout": 8.5,
+    "brand": 8,
+    "copy": 7.5,
+    "fit": 7,
+    "desire": 8,
+    "cues": 8.5,
+    "weighted": 8.075,
+    "verdict": "ship"
+   }
+  },
+  "mean": 7.912,
+  "beatsLoser": {
+   "A": true,
+   "B": true
+  },
+  "beatsWinner": {
+   "A": true,
+   "B": true
+  },
+  "scoredFiles": {
+   "feed": "batches/b04/b04-3_feed.jpg (render of 2026-11-19 22:11:08 UTC, scored by both critics in round 1); unchanged, this is the shipping file",
+   "story": "batches/b04/b04-3_story.jpg (render of 2026-11-19 22:11:08 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
+  }
+ }
+}
