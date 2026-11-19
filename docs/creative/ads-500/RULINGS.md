@@ -19,6 +19,9 @@ live reads of 19 Nov 15:25 UTC.
 3. **Stop when the credits run out.** Higgsfield balance at 15:25 UTC on 19 Nov: **88.46 credits** (it was 200, then 144.46; another
    user or session on the account is also spending). At 2 credits a picture that is about 44 pictures, so about 8 batches of 5.
    Read the balance before every batch; stop when it is under 10.
+   **Update 19 Nov, about 16:00 UTC:** the owner added credits; the balance read 202.46 (about 100 pictures). The owner's instruction:
+   make the best ads in quantity, one batch after another, each better than the last, with a loop check after every batch that
+   finds changes or improvements for the next one, or says none.
 
 ## 2. Reads of 19 Nov 15:25 UTC (re-read before every batch)
 
