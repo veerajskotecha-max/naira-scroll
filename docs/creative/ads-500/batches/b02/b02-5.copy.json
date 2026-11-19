@@ -10,14 +10,14 @@
  "onImage": {
   "headline": null,
   "beat": null,
-  "cardLine": "emerald-green cubic zirconia · adjustable US 5 to 9",
+  "cardLine": "adjustable US 5 to 9 · emerald-green cubic zirconia",
   "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
   "sizeTag": "SHOWN MAGNIFIED / ABOUT 16.5 MM INSIDE",
   "callouts": []
  },
  "meta": {
   "primaryText": "US 5 to 9, one ring: Verdant Eternity Band, ₹1,049, emerald-green cubic zirconia, open back adjusts. BUY2: 10% off 2 pieces. Silver tone, and waterproof.",
-  "headline": "Verdant Eternity · ₹1,049 · 10% off 2",
+  "headline": "Verdant Eternity Band ₹1,049 · 10% off 2",
   "description": "Adjustable US 5 to 9",
   "cta": "Shop Now",
   "url": "https://www.nairaflore.com/products/verdant-eternity-band?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b02&utm_content={{ad.id}}&utm_term=b02-5_a1_verdant-us5-9"
@@ -26,7 +26,7 @@
   "text": [
    "NAIRA wordmark (logo_ink)",
    "VERDANT ETERNITY BAND  ₹1,049",
-   "emerald-green cubic zirconia · adjustable US 5 to 9",
+   "adjustable US 5 to 9 · emerald-green cubic zirconia",
    "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
    "SHOWN MAGNIFIED / ABOUT 16.5 MM INSIDE"
   ]
@@ -40,18 +40,19 @@
   },
   "type": { "h1Px": null, "beatPx": null, "beatRatio": null, "note": "A1 has no headline, so the 0.6 beat rule does not apply." },
   "scale": "Front ovals measure about 110-120 x 85-96 px for 5 x 4 mm: about 23-24 px/mm on the Feed and Story, over the 19 px/mm trigger, so the size tag is on both. (The ring's height implies about 35 px/mm: the model drew the stones small for the band; oval / inner opening 0.19, as in the upright reference.)",
-  "feed": "Light ground (body, not .dark), ink type. Size tag \"SHOWN MAGNIFIED / ABOUT 16.5 MM INSIDE\", kit .sizetag 30 px, padding 8/16, centred, 820-912 (x 321-759), in --ink-soft so it reads as the ring's caption under the brand; gaps 23 px to the lowest prong and 28 px to the wordmark. The sides of the ring leave at most about 340 px, too narrow for the 438 px tag. Card top 940 to 1252 on plain saffron floor: logo_ink, name, ₹1,049, the line, the offer box (x 177-903) with a lozenge in the stones' own green (#196B3E, sampled). No scrim.",
-  "story": "Native 9:16 frame (Story y = display y - 7.5; the ring at 656-1370). The whole card moves above the ring and ends by 626: logo_ink 270-326; name and price on one baseline at 338 (glyphs 332-400); line at 410 (406-444); offer 458-520; size tag in the Feed's two-line form at the brief's Story 26 px, 540-626 (x 346-734), ink-soft. A one-line tag ran 720-820 px wide and read as a second offer bar under the first, so the two-line form was kept.",
-  "contrast": "Measured against the picture under each text box (median, 2nd percentile). Feed: tag ink-soft 7.3 (4.7, where the box edge meets the shadow), card 10.7-11.0. Story (darker saffron at the top of the frame): wordmark 5.8, name/price 5.9, line 6.0, offer 6.1, tag ink-soft 4.2 (3.9; 26 px Jost 500 counts as large text). Bone would read 1.4-2.8:1 on this ground, so all type is ink.",
+  "feed": "Light ground (body, not .dark), ink type. Size tag \"SHOWN MAGNIFIED / ABOUT 16.5 MM INSIDE\", kit .sizetag 30 px, padding 8/16, centred, 854-946 (x 321-759), in --ink-soft so it reads as the ring's caption under the brand; gaps 57 px to the lowest prong (797) and 46 px to the wordmark, glyphs on clean saffron past the contact shadow's tail (gone by about y 866). The sides of the ring leave at most about 340 px, too narrow for the 438 px tag. Card on plain saffron floor, wordmark top 992 to offer bottom 1252: logo_ink 992-1048; name and ₹1,049 on one baseline (row 1068-1124, as on the Story twin, to free one row for air around the tag); the line 1138-1176; the offer box 1190-1252 (x 177-903) with a lozenge in the stones' own green (#196B3E, sampled). No scrim. (Finisher pass after the first critique; before it the tag sat at 820-912 with gaps of 23 and 28 px and the card started at 940 with name and price stacked.)",
+  "story": "Native 9:16 frame (Story y = display y - 7.5; the ring at 656-1370). The whole card moves above the ring and ends by 614: logo_ink 270-326; name and price on one baseline at 338 (glyphs 332-400); line at 410 (406-444); offer 456-518; size tag in the Feed's two-line form at the brief's Story 26 px, padding 8/16 as on the Feed, 532-614 (x 348-732), ink-soft, 42 px clear of the ring's top arc. A one-line tag ran 720-820 px wide and read as a second offer bar under the first, so the two-line form was kept. (Finisher pass: the stack closed up by 12 px; before it the offer sat at 458-520 and the tag at 540-626, 30 px over the ring.)",
+  "contrast": "Measured against the picture under each text box (median, 2nd percentile). Feed: tag ink-soft 7.5 (7.1; it no longer meets the shadow, was 7.3 (4.7)), card 10.7-11.0. Story (darker saffron at the top of the frame): wordmark 5.8, name/price 5.9, line 6.0, offer 6.1, tag ink-soft 4.2 (3.9; 26 px Jost 500 counts as large text). Bone would read 1.4-2.8:1 on this ground, so all type is ink.",
   "checks": {
-   "feed": { "failed": [], "overflow": [], "fallback": [], "textShare": 0.078, "outside": [], "minFont": 26 },
-   "story": { "failed": [], "overflow": [], "fallback": [], "textShare": 0.057, "outside": [], "minFont": 26 }
+   "feed": { "failed": [], "overflow": [], "fallback": [], "textShare": 0.079, "outside": [], "minFont": 26 },
+   "story": { "failed": [], "overflow": [], "fallback": [], "textShare": 0.056, "outside": [], "minFont": 26 }
   }
  },
  "copyChanges": [
   "Archetype A5 to A1: the numeral panel, label and footnote are dropped; the card line now carries \"adjustable US 5 to 9\" (products.md: open back adjustable US 5-9; allowed words emerald-green cubic zirconia, silver tone, adjustable).",
   "utm_term changed from b02-5_a5_verdant-us5-9 to b02-5_a1_verdant-us5-9 to match the archetype.",
-  "Primary text, Meta headline and description kept from the brief: 153 characters, the offer ends at character 124; the claim (waterproof) sits last."
+  "Primary text, Meta headline and description kept from the brief: 153 characters, the offer ends at character 124; the claim (waterproof) sits last.",
+  "Finisher pass after the first critique (19 Nov, about 19:12 UTC): card line reordered to \"adjustable US 5 to 9 · emerald-green cubic zirconia\" on Feed and Story (critic A: fit leads; same words). Meta headline \"Verdant Eternity · ₹1,049 · 10% off 2\" (37) became \"Verdant Eternity Band ₹1,049 · 10% off 2\" (40, at the cap; critic B: the full name says it is a band). Size tag wording kept as \"ABOUT 16.5 MM INSIDE\" (critic B's optional \"ACROSS INSIDE\" declined). No stone millimetres anywhere in the copy (skeptic)."
  ],
  "truthNotes": [
   "Construction faithful to the upright reference: about 7 emerald-green ovals in 4 claws, alternating either side of one scalloped clear pavé S-wave; open back with two looped tips and a gap; cool silver tone; true contact shadow.",
@@ -62,10 +63,11 @@
  "abTest": "First Verdant Eternity ad in ads-500 and the first A1 on a saturated light ground (green on saffron). Not a single-variable test.",
  "deployment": "Feed and Story both carry the card and the size tag. Not scored yet.",
  "review": {
-  "status": "not scored: both critics score the final JPGs below (loop change 2 and 6)",
+  "status": "first critique on the 18:51:54 renders: A ship-after-fixes (weighted 6.95), B ship-after-fixes (7.65), skeptic not refuted. Finisher fixes applied (rescue.md, \"Fixes after the first critique\"); the files below are the final renders after those fixes.",
   "scoredFiles": {
-   "feed": "batches/b02/b02-5_feed.jpg (render of 2026-11-19 18:51:54 UTC)",
-   "story": "batches/b02/b02-5_story.jpg (render of 2026-11-19 18:51:54 UTC)"
-  }
+   "feed": "batches/b02/b02-5_feed.jpg (render of 2026-11-19 19:12:07 UTC)",
+   "story": "batches/b02/b02-5_story.jpg (render of 2026-11-19 19:12:07 UTC)"
+  },
+  "firstCritiqueFiles": "batches/b02/b02-5_feed.jpg and b02-5_story.jpg, renders of 2026-11-19 18:51:54 UTC (overwritten)"
  }
 }
