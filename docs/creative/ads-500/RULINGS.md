@@ -22,6 +22,10 @@ live reads of 19 Nov 15:25 UTC.
    **Update 19 Nov, about 16:00 UTC:** the owner added credits; the balance read 202.46 (about 100 pictures). The owner's instruction:
    make the best ads in quantity, one batch after another, each better than the last, with a loop check after every batch that
    finds changes or improvements for the next one, or says none.
+   **Update 19 Nov, 20:30 UTC (the last credits):** the balance read 14.46 after b03. The owner's instruction after the top-up was
+   "use all credits and make good ads", so the 10-credit floor is lowered to the cost of one picture: b04 makes pictures one at a
+   time, each chosen after the last one is verified, until the balance is under 2 (at most 7). PLAYBOOK rule 7 (3 lights and 3
+   cameras per batch) is suspended for b04.
 
 ## 2. Reads of 19 Nov 15:25 UTC (re-read before every batch)
 
