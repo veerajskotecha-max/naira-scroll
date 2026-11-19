@@ -43,7 +43,10 @@ body.dark { --fg: var(--bone); --accent: var(--gold-light); }
 .card .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; }
 .offer { display: inline-block; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase;
          border: 2px solid currentColor; padding: 14px 24px; line-height: 1.15; }
-.offer small { display: block; font-size: 20px; letter-spacing: .16em; font-weight: 400; margin-top: 6px; opacity: .9; }
+/* One 26 px line, no second line (b01 loop change 7): "Code BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off". */
+.offer .sep { display: inline-block; width: 9px; height: 9px; background: var(--gold-light); transform: rotate(45deg);
+              vertical-align: middle; margin: -4px 20px 0 14px; }
+body:not(.dark) .offer .sep { background: var(--coral-deep); }
 .wm-top { position: absolute; top: 84px; left: 50%; transform: translateX(-50%); height: 56px; }
 .scrim { position: absolute; left: 0; right: 0; bottom: 0; pointer-events: none; }
 

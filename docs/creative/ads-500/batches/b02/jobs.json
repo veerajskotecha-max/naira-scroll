@@ -1,0 +1,121 @@
+[
+ {
+  "id": "b02-1",
+  "job_id": "12795a65-ab0a-49c6-9143-06f98bb1117c",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_174744_12795a65-ab0a-49c6-9143-06f98bb1117c.png",
+  "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-1.png",
+  "size": [
+   1536,
+   2752
+  ],
+  "try1": {
+   "job_id": "545045e9-d29d-44a6-a373-8b54991aa63f",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_173525_545045e9-d29d-44a6-a373-8b54991aa63f.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-1_try1.png"
+  },
+  "regenerated": true,
+  "served_model": "nano_banana_2",
+  "requested_model": "nano_banana_pro",
+  "submitted_at": "2026-11-19T17:47Z (verifier, one generate_image_batch call; balance 40.46 before, 32.46 after)",
+  "credits": 2,
+  "verdict": "pass-with-notes (try2 kept)"
+ },
+ {
+  "id": "b02-2",
+  "job_id": "6e938236-e5d6-483f-8682-d3071eab6499",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_180302_6e938236-e5d6-483f-8682-d3071eab6499.png",
+  "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-2.png",
+  "size": [
+   1536,
+   2752
+  ],
+  "first_submission": {
+   "note": "submission_failed 429 rate_limit_reached; no job created"
+  },
+  "regenerated": true,
+  "served_model": "nano_banana_2",
+  "requested_model": "nano_banana_pro",
+  "submitted_at": "2026-11-19T18:03Z (skeptic, one generate_image_batch call of 2 jobs; balance 32.46 before, 28.46 after)",
+  "credits": 2,
+  "verdict": "dropped (skeptic rescue try2: shadows at 68.9-71.6%, pair 49% width; fits only a Feed crop shifted to object-position 50% 80%)",
+  "try1": {
+   "job_id": "a336378a-f6fd-46cb-bab3-ae16006ee3b9",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_174745_a336378a-f6fd-46cb-bab3-ae16006ee3b9.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-2_try1.png",
+   "note": "first generation (verifier call, brief prompt verbatim); dropped on placement and width"
+  },
+  "refs_used": [
+   "7c95b6c6-b5a1-4886-82e7-69c1c6a3940f"
+  ],
+  "prompt_file_note": "prompt recorded in verify.md ## Skeptic"
+ },
+ {
+  "id": "b02-3",
+  "job_id": "814ee4e7-390c-4a84-8f50-42f4cee88aa3",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_174746_814ee4e7-390c-4a84-8f50-42f4cee88aa3.png",
+  "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-3.png",
+  "size": [
+   1536,
+   2752
+  ],
+  "try1": {
+   "job_id": "4003757f-8f25-495f-b4d4-5213f674794c",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_173525_4003757f-8f25-495f-b4d4-5213f674794c.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-3_try1.png"
+  },
+  "regenerated": true,
+  "served_model": "nano_banana_2",
+  "requested_model": "nano_banana_pro",
+  "submitted_at": "2026-11-19T17:47Z (verifier, one generate_image_batch call; balance 40.46 before, 32.46 after)",
+  "credits": 2,
+  "verdict": "dropped (both tries fail)"
+ },
+ {
+  "id": "b02-4",
+  "job_id": "79345141-8730-4e7d-8c62-a96f71a59ea4",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_180302_79345141-8730-4e7d-8c62-a96f71a59ea4.png",
+  "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-4.png",
+  "size": [
+   1536,
+   2752
+  ],
+  "verdict": "dropped (try1 refuted on scale about 1.2-1.4x; try2 scale fixed but arm and hand span 17.4-74.1%)",
+  "try1": {
+   "job_id": "9da063c2-5bac-4bac-9a4a-9c5db8417b1b",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_173525_9da063c2-5bac-4bac-9a4a-9c5db8417b1b.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-4_try1.png",
+   "note": "verifier pass-with-notes; refuted by the skeptic on scale (pitch/wrist 0.175-0.179)"
+  },
+  "regenerated": true,
+  "served_model": "nano_banana_2",
+  "requested_model": "nano_banana_pro",
+  "submitted_at": "2026-11-19T18:03Z (skeptic, one generate_image_batch call of 2 jobs; balance 32.46 before, 28.46 after)",
+  "credits": 2,
+  "refs_used": [
+   "f9e23a88-b9d0-47ec-ae01-461a8585a1a9",
+   "8f1ff732-cbc4-47d0-aa07-6d190c0e059e"
+  ],
+  "prompt_file_note": "prompt recorded in verify.md ## Skeptic"
+ },
+ {
+  "id": "b02-5",
+  "job_id": "85a92bc6-8041-420c-b016-f1f0f2ed23c4",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_174744_85a92bc6-8041-420c-b016-f1f0f2ed23c4.png",
+  "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-5.png",
+  "size": [
+   1536,
+   2752
+  ],
+  "try1": {
+   "job_id": "a51af63b-9874-4e3d-a9ac-7b8bfa292e56",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_173525_a51af63b-9874-4e3d-a9ac-7b8bfa292e56.png",
+   "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b02/pics/b02-5_try1.png"
+  },
+  "regenerated": true,
+  "served_model": "nano_banana_2",
+  "requested_model": "nano_banana_pro",
+  "submitted_at": "2026-11-19T17:47Z (verifier, one generate_image_batch call; balance 40.46 before, 32.46 after)",
+  "credits": 2,
+  "verdict": "dropped (both tries fail)"
+ }
+]
