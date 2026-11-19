@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../kit/kit.css">
+<!-- b04-0 Monochrome Enamel Hoops · Story twin: the native 9:16 frame (Story y = src y x 0.703125 - 7.5), with the A13 headline
+     "BLACK. WHITE. GOLD TONE." on the Story only (b03 loop change 3). Hoops at Story 711-1125 (post tips at 711), shadows at
+     1276-1411 (soft edge), so the shadows sit below the 1250 text limit and all type ends by 687, 24 px over the post tips, on
+     the calm dark wall (rgb 167,70,46; bone 5.0-5.4:1). · Story 1080x1920
+     Stack (centred): logo_white 270-326; headline one line, Velista 72 .02em, 362-431 (x 85-995); name and price on one baseline
+     (24 px gap), row 464-532; offer 550-612 (the only boxed element); size tag one plain line 648-686.
+     Pass 1 set the headline on two lines at 68: the stack then ran wordmark-into-headline with 20 px gaps and ended 28 px over
+     the posts. One line at 72 (the b03-1 Story pattern) gives every row air and keeps the tag as the hoops' caption.
+     "GOLD TONE." is in the accent gold-light, so the headline names each colour of the piece in its colour: 3.6 / 3.8:1 on the
+     wall, over 3:1 for 72 px display type. Bone (median / worst 2%): wordmark 5.16 / 5.01, "BLACK. WHITE." 5.15 / 5.01, name
+     5.19 / 5.03, price 5.44 / 5.26, offer 5.13-5.31 / 5.01, tag 5.16 / 4.99. -->
+<style>
+ body { background: #A7462E; }
+ .wm-top { top: 270px; }
+ .hl { position: absolute; left: 0; right: 0; top: 362px; text-align: center; font-size: 72px; letter-spacing: .02em; white-space: nowrap; }
+ .hl em { font-style: normal; color: var(--gold-light); }
+ .np { position: absolute; left: 0; right: 0; top: 470px; height: 56px; display: flex; justify-content: center; align-items: baseline;
+       gap: 24px; color: var(--fg); }
+ .np .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; }
+ .np .price { font-family: var(--serif); font-weight: 500; font-size: 56px; line-height: 1; }
+ .of { position: absolute; left: 0; right: 0; top: 550px; text-align: center; color: var(--fg); }
+ /* Size tag as one plain centred line with no box (b03 hygiene: one boxed element per Story), line box 648-686. */
+ .tg { position: absolute; left: 0; right: 0; top: 648px; text-align: center; }
+ .tg .sizetag { position: static; display: inline-block; font-size: 26px; padding: 0; border: none; line-height: 38px; white-space: nowrap; }
+</style></head>
+<body class="dark story">
+ <img class="pic" src="../b03/pics/b03-4_try1.png">
+ <img class="wm-top" src="../../kit/logo_white.png">
+ <p class="h1 hl">Black. White. <em>Gold tone.</em></p>
+ <div class="np"><span class="name">Monochrome Enamel Hoops</span><span class="price">₹999</span></div>
+ <div class="of"><div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
+ <div class="tg"><div class="sizetag">Shown magnified · about 20 mm tall</div></div>
+</body></html>

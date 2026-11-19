@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../kit/kit.css">
+<!-- b04-0 Monochrome Enamel Hoops · A1 Product Card, card only, on the A13 float picture (b03-4 try 1, job 394dd5a7-2134-4249-
+     8675-3519d5c9ab97; zero-credit rescue, b03 loop change 3) · L6 · C2 · Feed 1080x1350. Nothing in the picture is scaled,
+     moved or edited; only type and one flat scrim sit on top.
+     Crop: P 100, T 585 (Feed y = src y x 0.703125 - 585). Hoops x 214-508 and 572-870, y 134-548 (post tips at 134); shadows
+     y 711-827 at the core, 699-834 at the soft edge, x 172-889. 19.9 Feed px/mm (565 src px for the listed 20 mm), so the size
+     tag is on. No type over x 172-889, y 134-834.
+     Ground: the floor under the shadows is the frame's brightest terracotta (rgb 225,115,81): bone only 2.6-2.9:1, ink 5.5-6.0:1.
+     So this Feed is the playbook's light-ground card (ink type, logo_ink), not bone; a bone card would need a dark scrim
+     running into the shadows and would flatten the float. The Story text sits on the dark wall instead and stays bone.
+     Size tag: one plain 26 px line (Jost 500 caps .12em, no box, so the offer stays the only boxed element), line box 851-889,
+     x 231-849, 17 px under the shadows' soft edge (834) and 51 px over the wordmark, so it reads as the picture's caption.
+     Card (F2 lockup, top 940): logo_ink 940-996, name 1016-1054, price 1068-1124, line 1138-1176, offer box 1190-1252.
+     Scrim: the floor's own lit terracotta rgb(226,116,81), 0 at 960 rising to .6 at the foot. It only softens the photo's
+     vignette (the floor falls from 225 to 184 red toward the foot), which took the lower card from 3.6-4.3:1 to 4.7+:1.
+     Ink contrast (median / worst 2%): tag 5.81 / 5.50, wordmark 5.37 / 5.18, name 5.04 / 4.68, price 4.77 / 4.68, line 4.80 /
+     4.71, offer 4.83-4.95 / 4.75. -->
+<style>
+ body { background: #D96D4F; }
+ .pic { object-position: 50% 100%; }
+ .scrim { top: 960px; background: linear-gradient(to bottom, rgba(226,116,81,0) 0, rgba(226,116,81,.22) 90px, rgba(226,116,81,.42) 180px,
+          rgba(226,116,81,.55) 250px, rgba(226,116,81,.6) 100%); }
+ .card .wm { margin-bottom: 6px; }
+ /* The kit's light-ground lozenge is coral-deep, which vanishes on terracotta; ink keeps the separator visible. */
+ body:not(.dark) .offer .sep { background: var(--ink); }
+ .tg { position: absolute; left: 0; right: 0; top: 851px; text-align: center; }
+ .tg .sizetag { position: static; display: inline-block; font-size: 26px; padding: 0; border: none; line-height: 38px; white-space: nowrap; }
+</style></head>
+<body>
+ <img class="pic" src="../b03/pics/b03-4_try1.png">
+ <div class="scrim"></div>
+ <div class="tg"><div class="sizetag">Shown magnified · about 20 mm tall</div></div>
+ <div class="card" style="top:940px">
+  <img class="wm" src="../../kit/logo_ink.png">
+  <div class="name">Monochrome Enamel Hoops</div>
+  <div class="price">₹999</div>
+  <div class="line">black and white enamel · gold tone</div>
+  <div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div>
+ </div>
+</body></html>

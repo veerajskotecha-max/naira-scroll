@@ -1,0 +1,15 @@
+[
+ {
+  "id": "b04-1",
+  "job_id": "bc1892af-bf58-48d4-a3e9-3168bb185d1b",
+  "try": 1,
+  "file": "/home/user/naira-scroll/docs/creative/ads-500/batches/b04/pics/b04-1.png",
+  "size": "1536x2752",
+  "requested_model": "nano_banana_pro",
+  "served_model": "nano_banana_2",
+  "submitted_at": "2026-11-19T21:03Z",
+  "credits": 2,
+  "verdict": "dropped (scale: ring/neck 0.248 vs 0.24 drop line; chin underside in Story 0-168). Clasp held construction (bar/ring 0.59-0.61, ref 0.58), so not a morph; one regeneration with the verify.md prompt",
+  "balance_after": 12.46
+ }
+]
