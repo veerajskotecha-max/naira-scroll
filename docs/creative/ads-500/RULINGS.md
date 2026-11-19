@@ -26,6 +26,11 @@ live reads of 19 Nov 15:25 UTC.
    "use all credits and make good ads", so the 10-credit floor is lowered to the cost of one picture: b04 makes pictures one at a
    time, each chosen after the last one is verified, until the balance is under 2 (at most 7). PLAYBOOK rule 7 (3 lights and 3
    cameras per batch) is suspended for b04.
+   **Update 19 Nov, 23:30 UTC (after the credits):** the balance read 0.46 after b04, so no more pictures are made. The b04
+   loop's zero-credit changes run instead. A headline variant (b04 loop change 4) uses its control's picture, card and offer
+   with one new headline. It is a second creative inside the same ad for Meta's own split, named `<id>h`. It is never counted
+   as a new ad, so "one picture per ad" still holds. A rescue picks up a run picture that never shipped, as b04-0 did, and
+   counts as that picture's one ad.
 
 ## 2. Reads of 19 Nov 15:25 UTC (re-read before every batch)
 
