@@ -142,7 +142,8 @@
   "beatsWinner": true,
   "compliance": false,
   "truthOk": false,
-  "under6": []
+  "under6": [],
+  "complianceNote": "All six critic runs failed compliance only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2). The owner ruling of 20 Nov 2026 requires that trust line, so under the live rule compliance passes."
  },
  "runnerUps": [
   {
@@ -235,7 +236,8 @@
     "truthOk": false,
     "under6": [
      "stop"
-    ]
+    ],
+    "complianceNote": "All six critic runs failed compliance only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2). The owner ruling of 20 Nov 2026 requires that trust line, so under the live rule compliance passes."
    }
   },
   {
@@ -332,7 +334,8 @@
      "layout",
      "fit",
      "crazy"
-    ]
+    ],
+    "complianceNote": "Critics failed it for 'FREE INSURED SHIPPING' (now required by the owner ruling of 20 Nov 2026, so not a fault) and, in four runs, for the unlisted 'PARAAT about 45 cm' with a 'same scale' bar that is not to scale (a real fault)."
    }
   }
  ],
