@@ -44,7 +44,13 @@ live reads of 19 Nov 15:25 UTC.
 | BUY4 | 30% off | 4 or more items |
 
 The offer box may print the verified value, for example "BUY 2 · 10% OFF • BUY 3 · 20% OFF" with "CODES BUY2 · BUY3", or
-"CODE NAIRA10 · 10% OFF". No free-shipping discount exists, so never print free shipping. Never print compare-at ("was") prices.
+"CODE NAIRA10 · 10% OFF". Never print compare-at ("was") prices.
+
+**Superseded on 20 Nov 2026 (owner ruling, `concept-50/RULINGS.md` §6):** this file used to say "no free-shipping discount exists,
+so never print free shipping". The owner has since confirmed that free insured shipping and cash on delivery are true on every
+order and asked for both on every ad. The trust line "FREE INSURED SHIPPING · CASH ON DELIVERY" is therefore **required** on
+every Crazy 100 ad and is never a compliance fault; OBJECTION and OFFER ads may use it in the hook and primary text. Never
+promise a delivery time, and never claim returns or exchanges.
 
 **Stock and price (every variant shown must have 20+):**
 
