@@ -1,36 +1,12 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k02-4 V1 · Brushed Gold Huggies (prints as BRUSHED SATIN HOOPS) · camp k02 SHAADI KA VIDEO., card 4 "THE SOFT FOCUS."
-     REW / PAIN / TRUST · Feed 1080x1350 · the plan's headline, beat and layout.
-     Picture: pics/k02-4A.png (1520x2688, gpt_image_2_6, job ca1b51d1-d453-441d-b896-15de946a9d72), verified PASS WITH NOTES
-     (verify/k02-4.md). Used as it is: nothing scaled, moved, retouched or composited; only the CSS window picks the crop.
-     The pair is pixel-identical to the bare picture in this render (max channel difference 0 over the eroded pair mask, checked
-     against a render with every overlay hidden).
-     Crop: k = 1080/1520 = .710526, Hd 1909.89, P 28, T 156.77. Pair (ink of the mask) x 425-851, y 779-1005; 16.0 Feed px per listed mm,
-     under 19, so no magnified line: the size reads "14 × 9.8 mm, about life size" on the sticker.
-     SOFT FOCUS (camp k02 card 4): an inline SVG copy of the same picture in exact register, feGaussianBlur 18 + 12 % lift, screen at
-     40 %, masked by masks/k02-4A_mist.png (GrabCut cut-out of the pair, dilated 4 px with a feathered edge, alpha 0 on the pair), so the
-     silk, cassette, label and hard shadows dream and the earrings stay pin-sharp. Tracking band: feTurbulence noise, 3 px RGB split,
-     bone soft-light, background only.
-     Type (ink, Chromium): OSD REW x 72-199 y 94-119; bug logo_white 56 px top 84 right 72 (88 %); title Velista 92 gold-light, bone
-     outline, "THE SOFT" blur 2.5 px + bone bloom, "FOCUS." sharp, x 68-862 y 173-250 (glow included); beat Cormorant italic 44 bone
-     x 75-728 y 274-365 (412 px over the pair); tracking band y 392-462; ruled spec sticker (-3 deg) x 585-1006 y 441-662 on the black top
-     face; handwritten contents on the real blank label x 73-519 y 690-726 (53 px over the pair); date stamp x 74-275 y 973-993;
-     lower third cocoa 94 % from y 1040 (35 px under the pair): name 1068-1087, line 1100-1126, price ₹699 Cormorant 64 x 886-1005
-     y 1066-1129, offer box 1144-1205, trust line 1228-1247.
-     Contrast median (worst 2 %) against the rendered ground with the type hidden: OSD 13.9 (12.4), title 11.2 (8.8), beat 13.8 (11.2),
-     contents 14.0 (13.1), sticker ink on #F3EBDD 15.2, stamp 12.6 (6.2) against its halo ring, name 12.5 (11.9), line 12.5 (12.0),
-     price 8.6 (8.3), offer 12.5 (12.1), trust 12.5 (12.2).
-     Render gates: failed, overflow, fallback and outside empty; minFont 26; textShare 0.231 (render.cjs, 20 Nov 2026). -->
+<!-- HEADER -->
 <style>
  body { background: #1E0E10; }
- /* The picture: 1520x2688 at k 0.710526 = 1080 x 1909.89. Feed window P 28: T = 559.89 x .28 = 156.77. */
- .pic { object-position: 50% 28%; }
- /* SOFT FOCUS: the same picture as an SVG image in exact register (0, -T, 1080 x 1909.89), blurred 18 px, lifted 12 %,
-    screen at 40 %, masked off the pair (masks/k02-4A_mist.png: hole = the pair dilated 4 px, feathered outward). */
+ /* The picture: 1520x2688 at k 0.710526 = 1080 x 1909.89. Feed window P 29: T = 559.89 x .29 = 162.37. */
+ .pic { object-position: 50% 29%; }
  svg.mist { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; mix-blend-mode: screen; opacity: .40; pointer-events: none; }
  svg.fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; pointer-events: none; }
  .band { mix-blend-mode: soft-light; }
- /* OSD rail */
  .osd { position: absolute; left: 72px; top: 90px; display: flex; align-items: center; gap: 14px; color: var(--bone);
         font-family: var(--sans); font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 34px;
         text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
@@ -38,35 +14,31 @@
  .stamp { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); font-weight: 400; font-size: 26px;
           letter-spacing: .14em; line-height: 30px; text-shadow: 2px 2px 0 rgba(26,22,20,.6), 0 0 10px rgba(26,22,20,.55); white-space: nowrap; }
  .bug { position: absolute; right: 72px; top: 84px; height: 56px; opacity: .88; }
- /* Title super */
- .super { position: absolute; left: 72px; margin: 0; text-align: left; font-family: var(--display); text-transform: uppercase;
+ /* Title super: THE SOFT is out of focus (blur 4.5 + bone bloom, so the joke survives a 200 px thumbnail); FOCUS. is pin-sharp. */
+ .super { position: absolute; left: 72px; margin: 0; font-family: var(--display); text-transform: uppercase;
           font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
           font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
           -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
- .super .soft { display: inline-block; filter: blur(2.5px);
-                text-shadow: 0 0 14px rgba(244,240,232,.4), 0 0 28px rgba(244,240,232,.25), 0 6px 18px rgba(59,38,32,.7); }
+ .super .soft { display: inline-block; filter: blur(4.5px);
+                text-shadow: 0 0 22px rgba(244,240,232,.5), 0 0 44px rgba(244,240,232,.3), 0 6px 18px rgba(59,38,32,.7); }
  .super .sharp { display: inline-block; }
- .beat { position: absolute; left: 72px; text-align: left; color: var(--bone); font-size: 44px; line-height: 48px;
+ .beat { position: absolute; left: 72px; color: var(--bone); font-size: 44px; line-height: 48px;
          text-shadow: 0 2px 10px rgba(26,22,20,.55); white-space: nowrap; }
- /* The tape's own label (on the blank cream strip in the picture) */
+ /* The tape's own label, handwritten on the blank cream strip of the picture */
  .hand { position: absolute; font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ink); white-space: nowrap; }
- .contents { left: 72px; top: 694px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
- /* The ruled spec sticker on the cassette's top face */
- .sticker { position: absolute; left: 594px; top: 452px; width: 404px; padding: 12px 22px 10px 34px; background: #F3EBDD;
-            transform: rotate(-3deg); transform-origin: 50% 50%;
-            box-shadow: 0 10px 22px rgba(26,22,20,.55), 0 1px 0 rgba(255,255,255,.4) inset;
-            background-image: linear-gradient(90deg, transparent 22px, rgba(200,102,74,.55) 22px, rgba(200,102,74,.55) 24px, transparent 24px),
-                              repeating-linear-gradient(180deg, transparent 0 33px, rgba(59,38,32,.22) 33px 34px); background-position: 0 0, 0 10px; }
- .sticker .hand { position: static; display: block; font-size: 30px; line-height: 34px; }
+ .contents { left: 72px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
+ .spec { left: 72px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 0; }
  /* Lower third: the 90s name super */
  .lower { position: absolute; left: 0; right: 0; top: 1040px; bottom: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
  .lt { position: absolute; color: var(--bone); white-space: nowrap; }
  .lt.name { left: 72px; top: 1062px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
  .lt.line { left: 72px; top: 1096px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
- .lt.price { right: 72px; top: 1060px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light); }
+ .lt.price { right: 72px; top: 1060px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light);
+             font-variant-numeric: lining-nums; }
+ .lt.price .r { font-weight: 400; font-size: .84em; margin-right: .04em; }
  .lt.offerw { left: 72px; top: 1144px; }
  .lt .offer { color: var(--bone); }
- .lt.trust { left: 72px; top: 1222px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 32px; text-transform: uppercase; }
+ .lt.trust { left: 72px; top: 1222px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: 4.02px; line-height: 32px; text-transform: uppercase; }
 </style></head>
 <body class="dark">
  <img class="pic" src="pics/k02-4A.png">
@@ -74,9 +46,9 @@
   <defs>
    <filter id="sf" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="18"/>
     <feComponentTransfer><feFuncR type="linear" slope="1.12"/><feFuncG type="linear" slope="1.12"/><feFuncB type="linear" slope="1.12"/></feComponentTransfer></filter>
-   <mask id="mm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><image href="masks/k02-4A_mist.png" x="0" y="-156.77" width="1080" height="1909.895" preserveAspectRatio="none"/></mask>
+   <mask id="mm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><image href="masks/k02-4A_mist.png" x="0" y="-162.369" width="1080" height="1909.895" preserveAspectRatio="none"/></mask>
   </defs>
-  <g mask="url(#mm)"><image href="pics/k02-4A.png" x="0" y="-156.77" width="1080" height="1909.895" preserveAspectRatio="none" filter="url(#sf)"/></g>
+  <g mask="url(#mm)"><image href="pics/k02-4A.png" x="0" y="-162.369" width="1080" height="1909.895" preserveAspectRatio="none" filter="url(#sf)"/></g>
  </svg>
  <!-- tracking band: the tape is rewinding (background only; the pair is far below it) -->
  <svg class="fx" viewBox="0 0 1080 1350">
@@ -96,20 +68,14 @@
  <div class="osd" data-m="osd"><svg width="40" height="26" viewBox="0 0 40 26"><path d="M20 0 L0 13 L20 26 Z M40 0 L20 13 L40 26 Z" fill="#F4F0E8"/></svg>REW</div>
  <img class="bug" src="../../../ads-500/kit/logo_white.png">
  <p class="super" data-m="title" style="top:172px;font-size:92px"><span class="soft">The soft</span> <span class="sharp">focus.</span></p>
- <p class="beat" data-m="beat" style="top:268px">The tape kept the shine. The plating didn’t.<br>This one is tarnish free.</p>
- <div class="hand contents" data-m="contents">Shaadi · Haldi to Reception · Dec ’96</div>
- <div class="sticker" data-m="sticker">
-  <span class="hand">14 × 9.8 mm, about life size</span>
-  <span class="hand">brushed satin, PVD 18k gold tone</span>
-  <span class="hand">on surgical stainless steel</span>
-  <span class="hand">waterproof · tarnish free</span>
-  <span class="hand">hypoallergenic</span>
- </div>
- <div class="stamp" data-m="stamp" style="top:968px">12 · 12 · 1996</div>
+ <p class="beat" data-m="beat" style="top:268px">The tape kept the shine. The bangles didn’t.<br>This one is tarnish free.</p>
+ <div class="hand contents" data-m="contents" style="top:696px">Shaadi · Haldi to Reception · Dec ’96</div>
+ <div class="hand spec" data-m="spec" style="top:771px">14 × 9.8 mm, about life size<br>PVD 18k gold tone<br>waterproof · tarnish free<br>hypoallergenic</div>
+ <div class="stamp" data-m="stamp" style="top:962px">12 · 12 · 1996</div>
  <div class="lower"></div>
  <div class="lt name" data-m="name">Brushed Satin Hoops</div>
- <div class="lt line" data-m="line">18k gold tone · brushed satin · in stock</div>
- <div class="lt price" data-m="price">₹699</div>
+ <div class="lt line" data-m="line">Surgical stainless steel · in stock</div>
+ <div class="lt price" data-m="price"><span class="r">₹</span>699</div>
  <div class="lt offerw"><div class="offer" data-m="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
  <div class="lt trust" data-m="trust">Free insured shipping · Cash on delivery</div>
 </body></html>
