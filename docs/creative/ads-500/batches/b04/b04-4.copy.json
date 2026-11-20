@@ -133,7 +133,31 @@
   "beatsWinner": {
    "A": false,
    "B": true
-  }
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
  },
- "archetypeBriefed": "A6 Single Spotlight (product-only hero; the surprise, one lit point in a dark room, described by its result, never as a beam)"
+ "archetypeBriefed": "A6 Single Spotlight (product-only hero; the surprise, one lit point in a dark room, described by its result, never as a beam)",
+ "final": {
+  "round": "b04 round 1 (22:36:10 renders); files unchanged",
+  "A": 7.5,
+  "B": 7.65,
+  "mean": 7.58,
+  "scoredFile": "batches/b04/b04-4_feed.jpg 2026-11-19 22:36:10.445896193 +0000",
+  "scoredStory": "batches/b04/b04-4_story.jpg 2026-11-19 22:36:10.813896214 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [],
+   "lose_sa08_walls": [
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (A 7.5, B 7.65, mean 7.575; truth 8 with both; lowest dimension B fit 6.5 because the spot never rendered; beats the loser with both, the winner with B only. A's top-block re-layout not applied (A only). Pre-launch: re-read stock, 23 at 20:50 UTC, do not launch below 20. Bail about 1.35x long, logged) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 5, B 5): beats apricot with neither critic and F2 with neither critic; beats p2 with neither critic and sa08 with B only. Stock 23 at 20 Nov 2026, 00:27 UTC. RE-TEST FLAG for the lead: it no longer beats a loser anchor with both critics (A ties p2 and sa08, B ties p2), which PLAYBOOK §7 asks of a ship. The b04 sheet had it beating p2 with both. A asks the lead and B to decide whether it stays live; the records keeper leaves the verdict as ship. Stock 23 is 3 over the floor of 20: re-read before launch.",
+  "date": "19 Nov 2026, 23:35 UTC",
+  "flag": "Re-test: A ties both losers and B ties p2, so it no longer beats a loser with both critics. Left as ship for the lead to decide (A's request). Stock 23 at 20 Nov 00:27 UTC."
+ }
 }

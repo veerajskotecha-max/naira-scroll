@@ -16,7 +16,7 @@
   "callouts": []
  },
  "meta": {
-  "primaryText": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, one black and one white enamel stripe a hoop. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
+  "primaryText": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
   "headline": "Monochrome Hoops · ₹999 · 10% off 2",
   "description": "Black and white enamel",
   "cta": "Shop Now",
@@ -75,7 +75,8 @@
   "None to the b03-4 brief's words. Primary text 160 characters, the offer ends at character 125; Meta headline 35 (40 max), description 22. No claim and no water anywhere: Monochrome Enamel Hoops carries no Waterproof, Tarnish Free or Hypoallergenic tag (RULINGS section 1.1). Lint: no diamond, real or solid gold, freshwater, bare gold or silver, emerald or ruby, PVD, steel, 18k, 'pair', compare-at price or free shipping.",
   "Two-code offer box reads CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF (two codes, so CODES, RULINGS section 2).",
   "The Story headline runs on one line ('BLACK. WHITE. GOLD TONE.') instead of the brief's two, for the space reason in passes; the words are unchanged.",
-  "Not applied (one critic only, logged for the lead): A's Meta primary text 'Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.' (157 characters, the offer ends at 122; A flags the live 'one black and one white enamel stripe a hoop' as ungrammatical). B asked for no copy change. No layout change was asked by either critic; the JPGs are unchanged."
+  "Not applied (one critic only, logged for the lead): A's Meta primary text 'Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.' (157 characters, the offer ends at 122; A flags the live 'one black and one white enamel stripe a hoop' as ungrammatical). B asked for no copy change. No layout change was asked by either critic; the JPGs are unchanged.",
+  "19 Nov 23:35 UTC zero-credit pass (b04 loop change 4): Meta primary text replaced with critic A's grammatical version (157 characters, offer ends at 122); old and new in final. JPGs unchanged."
  ],
  "truthNotes": [
   "Verifier (b03 verify.md) and my own zooms: per hoop exactly one black and one white enamel stripe between three polished gold-tone rails, an open C, the post at the top, a plain ridged gold-tone inside, zero stones; the pair identical in the pack ref's three-quarter pose. Hoop H/W 1.34 against the pack ref's 1.37 at the same pose.",
@@ -128,6 +129,38 @@
   "scoredFiles": {
    "feed": "batches/b04/b04-0_feed.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file",
    "story": "batches/b04/b04-0_story.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+ },
+ "final": {
+  "round": "b04 round 1 (20:40:50 renders); Meta primary text changed in this pass, JPGs unchanged",
+  "A": 7.825,
+  "B": 7.725,
+  "mean": 7.78,
+  "scoredFile": "batches/b04/b04-0_feed.jpg 2026-11-19 20:40:50.501484850 +0000",
+  "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (A 7.825, B 7.725, mean 7.775; truth 8.5 / 8, lowest dimension 7; beats the loser and the winner with both critics; stop 8.5 with both, the first float to ship. A's Meta primary text rewrite not applied (A only). Pre-launch: re-read stock, 24 at pre-flight, do not launch below 20. The picture is b03-4 try 1: keep b03-4 marked dropped so it is never used twice) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 5): beats apricot with neither critic and F2 with neither critic; beats p2 with A only and sa08 with both critics. Stock 24 at 20 Nov 2026, 00:27 UTC. Meta primary text replaced with A's grammatical version (b04 loop change 4); the JPGs are unchanged, so the scored files still ship. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
+  "date": "19 Nov 2026, 23:35 UTC",
+  "primaryTextChange": {
+   "old": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, one black and one white enamel stripe a hoop. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
+   "new": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
+   "why": "b04 loop change 4: critic A's grammatical version from b04/review.md ('a black and a white enamel stripe on each' for 'one black and one white enamel stripe a hoop'); B asked for no copy change.",
+   "counts": "157 characters, the offer ends at character 122; no claim words (Monochrome carries none), no bare metal word, no compare-at price or shipping line."
   }
  }
 }

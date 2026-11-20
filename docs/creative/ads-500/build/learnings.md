@@ -20,14 +20,28 @@ Each batch names one **fix target** (its lowest-scoring dimension) and makes exa
 9. Fidelity: name the piece in a few countable words and add one "must stay X, never Y" clause for the part that morphs. Slot 1 is
    the listing packshot (the authority), slot 2 a detail of the same piece only. Never two products in a frame unless it is a set ad.
 10. Scale is built: mm plus a referent (a jasmine bud about 2 cm, a fingertip), a true contact shadow, honest macro depth of field.
-11. **Promoted after b04.** The magnified product-only hero.
+11. **Note (provisional)**. The magnified product-only hero. Promoted after b04; returned to a note by the b04 zero-credit
+    re-test (19 Nov 2026, 23:35 UTC).
     - A product-only frame shows the piece centred as the largest and brightest shape, at about 45–75% of the Feed width.
     - It sits on a ground darker than the piece, or on one saturated colour field.
     - The sliding Feed crop places it, after the extent gate.
     - When it shows at 19 Feed px or more per listed mm, a plain "Shown magnified · about N mm" line says so.
+    - Scope: lone-product frames (A1, A4, A6) only; an A3 rhyme follows b03 loop change 5: a light warm ground when the prop owns the colour, and the prop may be larger than the piece.
 
-    It beat the winner anchor with both critics in two batches: b03-1 and b03-2 on their b04 re-scores, and b04-0 and b04-3.
-    The evidence is in `### b04` below. Live data overrides it (PLAYBOOK §5.3.8).
+    Its b04 wins (b03-1 and b03-2 on their re-scores, b04-0 and b04-3) were over the rotation winner vkf18 on sheets that
+    carried two winners. On the single-winner re-test (sheet 1 apricot + p2, sheet 2 F2 + sa08) no ad from any batch beat
+    apricot or F2 with both critics, or with either one (0 of 15). It becomes a rule again only when ads from two different
+    batches beat apricot or F2 with both critics on single-winner sheets. Evidence: `### b04 zero-credit pass` below. Live data
+    overrides it (PLAYBOOK §5.3.8).
+12. **Process rule (b04 loop change 1).** Each blind sheet carries exactly one winner anchor and one loser anchor, rotated
+    across sheets and batches. The ledger's `beatsWinnerBy` and `beatsLoserBy` are maps keyed by anchor file name, and
+    `beatsWinner` / `beatsLoser` are true only when both critics beat the same anchor.
+13. **Process rule (b04 loop change 3).** Every Story prints an offer (a verified value in the offer box), except a control
+    that is named as one (b01-1's no-text Story).
+14. **Process rule (b04 loop change 8).** Every slot in a brief names its device from object (float, rhyme prop), body
+    (worn), shadow (described by its result) or type (the keyword in the piece's colour, the A7 split headline, the A14
+    in-word swap). Never a light shape: no spot, pool, beam, rake or flash is ever the device. Light stays a rendering note,
+    and `verify.md` logs "device rendered: yes/no" for each picture.
 
 ## Batch notes
 
@@ -317,7 +331,8 @@ Shipped 4 ads, the last batch the credits allow (full record: `batches/b04/revie
   | b02-1 | 7.49 |
   | b01-1 | 7.53 |
 
-**Rule 11 promoted: the magnified product-only hero** (the rule's text is in the list above).
+**Rule 11 promoted: the magnified product-only hero** (the rule's text is in the list above). The zero-credit re-test below
+returned it to a note (provisional).
 - **The evidence.** It beat the winner anchor with both critics in two batches:
   - b03: b03-1 (the plum monument) and b03-2 (the Cushion macro), on their b04 re-scores;
   - b04: b04-0 (the float) and b04-3 (the Circlet monument).
@@ -425,3 +440,59 @@ Shipped 4 ads, the last batch the credits allow (full record: `batches/b04/revie
 - **Shoot next:**
   - b04-5 (Toggle paperclips), already unlocked by b04-1's clasp;
   - Prism, with the slab sentence.
+
+### b04 zero-credit pass (19 Nov 2026, 23:35 UTC)
+
+No picture was generated (Higgsfield balance 0.46). The pass ran b04 loop changes 1, 2, 3, 4 and 7a on existing pictures. Full
+record: `batches/b04/zero-credit.md`.
+
+**Change 1, the single-winner re-test.** Both critics read the 11 live Feeds, the three headline arms and the Prism rescue at
+200 px on two sheets: sheet 1 `win_static_hoops_apricot` + `lose_p2_proof_parody`, sheet 2 `win_twenty_f2_tennis_ruby` +
+`lose_sa08_walls`.
+- **0 of 11 live ads beat apricot or F2, with either critic.** Our best tiles (b02-1, b03-1) read 7.0 against the winners'
+  7.5 with A, and tie them at 7 with B; ties go to the anchor.
+- Losers: 9 of 11 beat p2 with both critics (b04-0 ties p2 with B; b04-4 ties it with both). 10 of 11 beat sa08 with both
+  (b04-4 ties it with A).
+- The b04 "three ads beat the winner with both critics" was a two-winner sheet measure: every named win was over vkf18. The
+  ledger keeps it as `beatsWinnerByB04Sheet`; `beatsWinnerBy` is now the map from this re-test.
+- **Rule 11 is a note again (provisional)**, with its scope sentence (A1, A4, A6 only; A3 follows b03 loop change 5).
+- **Live flag: b04-4** no longer beats a loser with both critics. Its verdict stays ship for the lead to decide.
+- **The blind was compromised for both critics:** their prompts named the anchor letters and the pair sides. Keep the sheet
+  key out of the critic prompts.
+
+**Change 3, an offer in every Story.** b04-1's Story now prints "Code BUY2 · 10% off 2 pieces" on the plum fill, 72/76 px
+clear of the strands. Cues rose with both critics (A 7.5 → 8, B 7 → 8) and both preferred the new Story blind. The ad's mean
+moved from 7.73 to 7.84. Every live Story except b01-1's (the named control) now prints an offer.
+
+**Change 4, headline arms.** None of the three ships:
+
+| Arm | Control | A | B | Mean | Control mean | Gate that failed |
+|---|---|---|---|---|---|---|
+| b04-1h "CLOSES WITH A TURN, / NOT A CATCH." | b04-1 | 7.75 | 7.825 | 7.79 | 7.84 | mean under the control's (layout 7: the 7-word H1 drops to Velista 64) |
+| b04-3h "THE ONLY COLOUR / IN THE ROOM." | b04-3 | 7.9 | 8.275 | 8.09 | 7.91 | A copy 7.5 on record (A: 8 once the neutral opener is in; it now is, not re-scored) |
+| b04-4h "ONE STONE. / ONE SMOOTH LINE." | b04-4 | 7.6 | 7.775 | 7.69 | 7.58 | beats the loser with B only (A's thumb ties both losers, as with its control) |
+
+- **What worked (note):** a listing two-beat line that the picture proves raised message and copy over its control with both
+  critics (b04-3h message 7 → 8 and fit 7 → 8, so the selective-colour device now reads through the keyword in the stones'
+  green; b04-4h copy 7.5 → 8).
+- **What failed:** a longer two-beat line that forces the H1 down to the archetype floor loses at thumb size (b04-1h, layout 7,
+  H1 64 against 76). Keep two-beat H1s to 2–5 words in the space the picture leaves.
+- b04-0's Meta primary text is now A's grammatical version ("a black and a white enamel stripe on each", 157 characters,
+  offer ends at 122).
+
+**Change 7a, the Prism rescue (b04-8, from b02-4 try 2).** Rejected. Round 2 (with the Feed headline the critics asked for):
+A 7.225, B 6.975, mean 7.10; B's stop 5.5 is under the floor of 6, and with B the arm lands before the bracelet. A pastel
+piece at 16.8% of the width on a dark arm reads as a white glint at 200 px: the three colours, its whole point, are lost.
+Prism goes to loop change 7b (one paid try with the slab sentence) when credits are added, then 7c.
+
+**Change 2, records.** Every ship row's `copy.json` has a `final` block equal to the ledger, older review blocks are marked
+superseded, and `build/meta_upload.csv` holds the 11 ship rows with the current Meta text and means.
+
+**Stock (read-only Shopify read, 20 Nov 2026, 00:27 UTC).** Every live SKU and Prism is at 20 or more: Toggle 77, Woven 89,
+Brushed 58, Verdant Eternity 58, Cushion 45, Prism 39, Verdant Circlet 32, Halo Curve 29, Pearl Double Halo 25, Monochrome 24,
+Serpentine Silver 23. BUY2, BUY3, BUY4 and NAIRA10 are active at the RULINGS §2 values. Monochrome and Serpentine Silver are
+within 4 units of the floor.
+
+**For the next run.** Live ads stay at 11, with no variant and no rescue added. The strong tier (beating apricot or F2 with
+both critics) is still empty after four batches and this re-test, so the next new move should aim at that gap: loop change 5
+(the light warm-ground A3 rhyme, the grammar of three of the five live winners) stays rank 1 when credits arrive.

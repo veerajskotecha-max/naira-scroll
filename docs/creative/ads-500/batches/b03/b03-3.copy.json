@@ -145,6 +145,33 @@
   "scoredFiles": {
    "feed": "batches/b03/b03-3_feed.jpg (render of 2026-11-19 20:12:01 UTC, after fixes)",
    "story": "batches/b03/b03-3_story.jpg (render of 2026-11-19 19:57:16 UTC, unchanged)"
-  }
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+ },
+ "final": {
+  "round": "b04 re-score, round 1 (files unchanged)",
+  "A": 7.4,
+  "B": 7.275,
+  "mean": 7.34,
+  "scoredFile": "batches/b03/b03-3_feed.jpg 2026-11-19 20:12:01.305382062 +0000",
+  "scoredStory": "batches/b03/b03-3_story.jpg 2026-11-19 19:57:16.089329442 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (re-scored in b04, files unchanged: A 7.4, B 7.275; truth 8.5 / 8; lowest dimension B desire 6, at the floor; beats the loser with both, the winner with neither. First to cut if budget is short) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 29 at 20 Nov 2026, 00:27 UTC.",
+  "date": "19 Nov 2026, 23:35 UTC"
  }
 }

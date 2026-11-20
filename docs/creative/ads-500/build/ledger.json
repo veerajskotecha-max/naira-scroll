@@ -7,12 +7,29 @@
   "light": "L1",
   "camera": "C3",
   "concept": "Ring alone on an oxblood velvet pedestal under one hard spot; 'LOOKS LIKE / A PROPOSAL.' + 'priced like a present.'; F2 card ₹999; no-text Story twin (control)",
-  "verdict": "ship (re-scored in b04 after the b03 loop change 1 offer fix 'CODES BUY2': A 7.5, B 7.55; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither. The Story stays the named no-text control)",
+  "verdict": "ship (re-scored in b04 after the b03 loop change 1 offer fix 'CODES BUY2': A 7.5, B 7.55; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither. The Story stays the named no-text control) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6.5, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 45 at 20 Nov 2026, 00:27 UTC.",
   "weightedA": 7.5,
   "weightedB": 7.55,
   "beatsLoser": true,
   "beatsWinner": false,
-  "beatsWinnerBy": [],
+  "beatsWinnerByB04Sheet": [],
+  "beatsWinnerB04Sheet": false,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
   "feed": "batches/b01/b01-1_feed.jpg",
   "story": "batches/b01/b01-1_story.jpg",
   "copy": "batches/b01/b01-1.copy.json",
@@ -31,7 +48,35 @@
    }
   },
   "scoredFile": "batches/b01/b01-1_feed.jpg 2026-11-19 20:32:42.265455828 +0000",
-  "scoredStory": "batches/b01/b01-1_story.jpg 2026-11-19 16:46:07.860647737 +0000"
+  "scoredStory": "batches/b01/b01-1_story.jpg 2026-11-19 16:46:07.860647737 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.5,
+    "tiles": "S1 D, S2 M",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "'Looks like a proposal' is a strong line, but the ring is small in a very dark frame."
+   },
+   "B": {
+    "thumb": 7.0,
+    "tiles": "S1 D, S2 M",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The proposal line lands, but the ring is small on its pedestal. Ties both winners at 7, so the anchors win."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "45 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b01-2",
@@ -123,13 +168,30 @@
   "light": "L5 asked, rendered L7-like soft key",
   "camera": "C2",
   "concept": "Braided pair worn at the nape of a wet-haired head seen straight from behind, before a wedding function; water beads as proof, oxblood zari blouse edge; 'BRAIDED HOOPS. / ZERO STONES.' + 'and yes, waterproof.'; F2 card in ink on skin, ₹1,049; Story with headline, name, price and offer",
-  "verdict": "ship (re-scored in b04 after the b03 loop change 1 beat fix, 56 px = 0.61x: A 7.45, B 7.525; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither)",
+  "verdict": "ship (re-scored in b04 after the b03 loop change 1 beat fix, 56 px = 0.61x: A 7.45, B 7.525; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 89 at 20 Nov 2026, 00:27 UTC.",
   "weightedA": 7.45,
   "weightedB": 7.525,
   "beatsLoser": true,
   "beatsWinner": false,
-  "beatsWinnerBy": [],
-  "anchors": {
+  "beatsWinnerByB04Sheet": [],
+  "beatsWinnerB04Sheet": false,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": {
    "winner": "win_e2_ruby_anaar",
    "loser": "lose_c01_almost_edible_feed"
   },
@@ -152,7 +214,35 @@
     "scoredFile": "batches/b02/b02-1_feed.jpg and b02-1_story.jpg, renders of 2026-11-19 18:15:10 UTC (before the finisher fixes)"
    }
   },
-  "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000"
+  "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 7.0,
+    "tiles": "S1 A, S2 L",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Joint best of our ads at thumb size; the bare nape on apricot is a clean stop, but the hoops are smallish. Half a point under both winners."
+   },
+   "B": {
+    "thumb": 7.0,
+    "tiles": "S1 A, S2 L",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Big hoops on a warm nape; ties both winners."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "89 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b02-2",
@@ -227,12 +317,29 @@
   "light": "L7",
   "camera": "C5 (100 mm macro about 20° above the floor; the ring rendered turned about 50°, not the 20° asked)",
   "concept": "Ring standing on a saffron seamless, open back with two looped tips as the proof, nearly the upright reference's pose; size tag 'SHOWN MAGNIFIED / ABOUT 16.5 MM INSIDE'; F2 card ₹1,049 with 'adjustable US 5 to 9 · emerald-green cubic zirconia'; zero-credit rescue of try 1 with the slid Feed crop P 100 (T 585)",
-  "verdict": "ship (rescue, round 2 after the finisher fixes: truth 9 with both critics, lowest dimension 6 (A desire), mean 7.53; beats the W1 loser with both, not the anaar or W1 woven winner (round 1 beat the apricot and prism-cluster winners with both); skeptic not refuted; the picture follows the listing photo's pose almost exactly, lead's call; ring top arc at Feed y 79, 5 px above the 84 gate)",
+  "verdict": "ship (rescue, round 2 after the finisher fixes: truth 9 with both critics, lowest dimension 6 (A desire), mean 7.53; beats the W1 loser with both, not the anaar or W1 woven winner (round 1 beat the apricot and prism-cluster winners with both); skeptic not refuted; the picture follows the listing photo's pose almost exactly, lead's call; ring top arc at Feed y 79, 5 px above the 84 gate) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 58 at 20 Nov 2026, 00:27 UTC.",
   "weightedA": 7.3,
   "weightedB": 7.75,
   "beatsLoser": true,
   "beatsWinner": false,
-  "beatsWinnerBy": [],
+  "beatsWinnerByB04Sheet": [],
+  "beatsWinnerB04Sheet": false,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on b02-5's own rescue sheet in b02 (not re-read on the b04 sheets). They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
   "feed": "batches/b02/b02-5_feed.jpg",
   "story": "batches/b02/b02-5_story.jpg",
   "copy": "batches/b02/b02-5.copy.json",
@@ -242,7 +349,35 @@
   "try2_job_id": "85a92bc6-8041-420c-b016-f1f0f2ed23c4",
   "rescue": true,
   "scoredNote": "batches/b02/b02-5_feed.jpg and b02-5_story.jpg, renders of 2026-11-19 19:12:07 UTC (after the finisher fixes; round 1 scored the 18:51:54 renders, now overwritten)",
-  "scoredStory": "batches/b02/b02-5_story.jpg 2026-11-19 19:12:07.665168445 +0000"
+  "scoredStory": "batches/b02/b02-5_story.jpg 2026-11-19 19:12:07.665168445 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 N, S2 B",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The colour stops; there is no headline."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 N, S2 B",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Colourful, but no headline."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "58 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b03-1",
@@ -252,16 +387,33 @@
   "light": "L1 asked, rendered L1-like soft warm key from the left (brush lines read; satin floor adds a reflection glow under the card)",
   "camera": "C2",
   "concept": "The ₹699 pair upright on a deep plum glaze at almost floor level, the only gold in the frame, about 2.1x with the size tag; 'BRUSHED, / NOT POLISHED.' + 'the ₹699 earrings.'; F2 card 'hinged huggie earrings · 18k gold tone PVD', CODES BUY2/BUY3; Story with headline, name, price, offer and a plain size-tag line",
-  "verdict": "ship (re-scored in b04 after the finisher fixes: round 1 A 8.075 / B 7.725 on the 20:09:21 renders; fixes 'huggie hoop earrings' card line, Story tag 'Shown magnified · earrings about 14 mm tall', A's primary text and B's description; round 2 A 8.125 / B 7.85 on the 22:58:03 renders. Truth 8.5 with both; lowest dimension B desire 6.5; beats the loser and the winner with both critics. Pre-launch, low risk: confirm the ₹699 listing ships both earrings; if it sells one piece, the beat becomes 'the ₹699 huggie.')",
+  "verdict": "ship (re-scored in b04 after the finisher fixes: round 1 A 8.075 / B 7.725 on the 20:09:21 renders; fixes 'huggie hoop earrings' card line, Story tag 'Shown magnified · earrings about 14 mm tall', A's primary text and B's description; round 2 A 8.125 / B 7.85 on the 22:58:03 renders. Truth 8.5 with both; lowest dimension B desire 6.5; beats the loser and the winner with both critics. Pre-launch, low risk: confirm the ₹699 listing ships both earrings; if it sells one piece, the beat becomes 'the ₹699 huggie.') Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 58 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
   "weightedA": 8.125,
   "weightedB": 7.85,
   "beatsLoser": true,
-  "beatsWinner": true,
-  "beatsWinnerBy": [
+  "beatsWinner": false,
+  "beatsWinnerByB04Sheet": [
    "A",
    "B"
   ],
-  "anchors": {
+  "beatsWinnerB04Sheet": true,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": {
    "feed": {
     "winner": "win_static_hoops_apricot",
     "loser": "lose_p2_proof_parody"
@@ -295,7 +447,35 @@
     "scoredFile": "batches/b03/b03-1_feed.jpg and b03-1_story.jpg scored at the 19:47:04 UTC renders; final renders 2026-11-19 20:09:21 UTC after the fixes"
    }
   },
-  "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-19 22:58:03.669974254 +0000"
+  "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-19 22:58:03.669974254 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 7.0,
+    "tiles": "S1 O, S2 A",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The big product and the 699 hook read. Half a point under both winners."
+   },
+   "B": {
+    "thumb": 7.0,
+    "tiles": "S1 O, S2 A",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The biggest product on either sheet, with the price in the hook. Ties both winners."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "58 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b03-2",
@@ -305,16 +485,33 @@
   "light": "L7 (as asked and rendered)",
   "camera": "C5",
   "concept": "Cushion Halo macro on a cocoa block, tone on tone, about 2.4x with 'SHOWN MAGNIFIED · HALO ABOUT 12 MM'; no headline; F2 card '8 mm cubic zirconia · silver tone · adjustable', CODE NAIRA10 · 10% OFF; Story card stack with the tag as one centred plain line",
-  "verdict": "ship (re-scored in b04, files unchanged: A 7.95, B 7.975; truth 8.5 with both, lowest dimension desire 7; beats the loser and the winner with both critics. NAIRA10 stays the only card variable: read it live as an offer test)",
+  "verdict": "ship (re-scored in b04, files unchanged: A 7.95, B 7.975; truth 8.5 with both, lowest dimension desire 7; beats the loser and the winner with both critics. NAIRA10 stays the only card variable: read it live as an offer test) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 45 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
   "weightedA": 7.95,
   "weightedB": 7.975,
   "beatsLoser": true,
-  "beatsWinner": true,
-  "beatsWinnerBy": [
+  "beatsWinner": false,
+  "beatsWinnerByB04Sheet": [
    "A",
    "B"
   ],
-  "anchors": {
+  "beatsWinnerB04Sheet": true,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": {
    "feed": {
     "winner": "win_static_hoops_apricot",
     "loser": "lose_p2_proof_parody"
@@ -349,7 +546,35 @@
     "scoredFile": "batches/b03/b03-2_feed.jpg (19:46:53 UTC, final, unchanged) and b03-2_story.jpg (scored at 19:46:54 UTC; final render 20:09:36 UTC after the tag fix)"
    }
   },
-  "scoredStory": "batches/b03/b03-2_story.jpg 2026-11-19 20:09:36.361373446 +0000"
+  "scoredStory": "batches/b03/b03-2_story.jpg 2026-11-19 20:09:36.361373446 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 K, S2 P",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The sparkle reads; there is no headline."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 K, S2 P",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Big halo macro with no hook."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "45 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b03-3",
@@ -359,13 +584,30 @@
   "light": "L2 asked, rendered L7-like soft key (both tries)",
   "camera": "C5",
   "concept": "Halo Curve in its cube pose on deep (rendered mid-tone) sage, about life size; 'TWO STONES. / ONE OPEN BAND.' with three callouts (TIGER EYE banded, silky sheen; CHAMPAGNE CRYSTAL faceted, pale champagne; OPEN BAND adjusts US 5 to 9 · about 4 g); F2 card 'surgical stainless steel · 18k gold tone PVD', CODES BUY2/BUY3",
-  "verdict": "ship (re-scored in b04, files unchanged: A 7.4, B 7.275; truth 8.5 / 8; lowest dimension B desire 6, at the floor; beats the loser with both, the winner with neither. First to cut if budget is short)",
+  "verdict": "ship (re-scored in b04, files unchanged: A 7.4, B 7.275; truth 8.5 / 8; lowest dimension B desire 6, at the floor; beats the loser with both, the winner with neither. First to cut if budget is short) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 29 at 20 Nov 2026, 00:27 UTC.",
   "weightedA": 7.4,
   "weightedB": 7.275,
   "beatsLoser": true,
   "beatsWinner": false,
-  "beatsWinnerBy": [],
-  "anchors": {
+  "beatsWinnerByB04Sheet": [],
+  "beatsWinnerB04Sheet": false,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": {
    "feed": {
     "winner": "win_static_hoops_apricot",
     "loser": "lose_p2_proof_parody"
@@ -398,7 +640,35 @@
     "scoredFile": "batches/b03/b03-3_feed.jpg (scored at 19:57:15 UTC; final render 20:12:01 UTC after the fixes) and b03-3_story.jpg (19:57:16 UTC, final, unchanged)"
    }
   },
-  "scoredStory": "batches/b03/b03-3_story.jpg 2026-11-19 19:57:16.089329442 +0000"
+  "scoredStory": "batches/b03/b03-3_story.jpg 2026-11-19 19:57:16.089329442 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 F, S2 I",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Clear, but it reads like a diagram."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 F, S2 I",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The callouts cannot be read at 200 px."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "29 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b03-4",
@@ -430,13 +700,30 @@
   "light": "L1 pool asked, rendered as a pool with a soft-graded edge (a vignette, not a crisp pool)",
   "camera": "C3",
   "concept": "The pair on an ink riser under one high spot, 75% near-black, about life size; staircase 'TWO BANDS. / ONE LIGHT.' + 'for the sangeet, after dark.'; F2 card 'silver tone · cubic zirconia', CODES BUY2/BUY3; Meta headline 'Double Halo Studs · ₹1,199 · 10% off 2'",
-  "verdict": "ship (after B's Meta headline fix; the JPGs are unchanged). Best desire of the batch (7.5 both). Truth at the 8 floor: blush pearl (a* about 6-7 vs ref 2-4), 8 regular bridges vs about 5 irregular, micro-glitter pavé, white specular discs in the upper-left pavé; no copy names the pearl's colour",
+  "verdict": "ship (after B's Meta headline fix; the JPGs are unchanged). Best desire of the batch (7.5 both). Truth at the 8 floor: blush pearl (a* about 6-7 vs ref 2-4), 8 regular bridges vs about 5 irregular, micro-glitter pavé, white specular discs in the upper-left pavé; no copy names the pearl's colour Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 25 at 20 Nov 2026, 00:27 UTC.",
   "weightedA": 7.63,
   "weightedB": 7.83,
   "beatsLoser": true,
   "beatsWinner": false,
-  "beatsWinnerBy": [],
-  "anchors": {
+  "beatsWinnerByB04Sheet": [],
+  "beatsWinnerB04Sheet": false,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b03 sheet (winner apricot, loser p2; not re-read on the b04 sheets). They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": {
    "feed": {
     "winner": "win_static_hoops_apricot",
     "loser": "lose_p2_proof_parody"
@@ -457,7 +744,35 @@
   "job_id": "db922542-6d17-4a32-ba14-7f6966e4a6d6",
   "picture_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3AEDqJMErZwqraYM5k7B7luVWcH/hf_20261119_191040_db922542-6d17-4a32-ba14-7f6966e4a6d6.png",
   "scoredNote": "batches/b03/b03-5_feed.jpg and b03-5_story.jpg, renders of 2026-11-19 19:52:24 UTC (final, unchanged)",
-  "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-19 19:52:24.485312108 +0000"
+  "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-19 19:52:24.485312108 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 M, S2 O",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The pearls glow in a dark frame."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 M, S2 O",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Tidy and quiet."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "25 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b04-0",
@@ -467,16 +782,32 @@
   "light": "L6 (as asked and rendered: overhead soft light casting each shadow straight down, front-left kicker lines on the rails)",
   "camera": "C2 (100 mm, about 12° above the floor, the pack ref's three-quarter pose)",
   "concept": "The pair floating over a terracotta field, each hoop over its own detached shadow (board 96); 'Shown magnified · about 20 mm tall' as one plain line under the shadows; ink F2 card with logo_ink on the lit floor, ₹999, 'black and white enamel · gold tone', CODES BUY2/BUY3; Feed P 100; bone Story with 'BLACK. WHITE. GOLD TONE.', name, price, offer and tag; no claim, no water",
-  "verdict": "ship (A 7.825, B 7.725, mean 7.775; truth 8.5 / 8, lowest dimension 7; beats the loser and the winner with both critics; stop 8.5 with both, the first float to ship. A's Meta primary text rewrite not applied (A only). Pre-launch: re-read stock, 24 at pre-flight, do not launch below 20. The picture is b03-4 try 1: keep b03-4 marked dropped so it is never used twice)",
+  "verdict": "ship (A 7.825, B 7.725, mean 7.775; truth 8.5 / 8, lowest dimension 7; beats the loser and the winner with both critics; stop 8.5 with both, the first float to ship. A's Meta primary text rewrite not applied (A only). Pre-launch: re-read stock, 24 at pre-flight, do not launch below 20. The picture is b03-4 try 1: keep b03-4 marked dropped so it is never used twice) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 5): beats apricot with neither critic and F2 with neither critic; beats p2 with A only and sa08 with both critics. Stock 24 at 20 Nov 2026, 00:27 UTC. Meta primary text replaced with A's grammatical version (b04 loop change 4); the JPGs are unchanged, so the scored files still ship. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
   "weightedA": 7.825,
   "weightedB": 7.725,
   "beatsLoser": true,
-  "beatsWinner": true,
-  "beatsWinnerBy": [
+  "beatsWinner": false,
+  "beatsWinnerByB04Sheet": [
    "A",
    "B"
   ],
-  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "beatsWinnerB04Sheet": true,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
   "feed": "batches/b04/b04-0_feed.jpg",
   "story": "batches/b04/b04-0_story.jpg",
   "copy": "batches/b04/b04-0.copy.json",
@@ -484,7 +815,35 @@
   "picture": "batches/b03/pics/b03-4_try1.png",
   "credits": 0,
   "scoredFile": "batches/b04/b04-0_feed.jpg 2026-11-19 20:40:50.501484850 +0000",
-  "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000"
+  "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 G, S2 E",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Strong colour pop; the float reads as a product shot at thumb size."
+   },
+   "B": {
+    "thumb": 5.0,
+    "tiles": "S1 G, S2 E",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": false,
+    "beatsSa08Loser": true,
+    "note": "No headline and small type only. Ties p2 at 5, so the anchor wins."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "24 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
  },
  {
   "id": "b04-1",
@@ -494,16 +853,33 @@
   "light": "L7 soft warm key + hard kicker asked; rendered an L7-like soft warm key from the upper left, the kicker as crisp specular lines on the ring and bar and small points on the stones",
   "camera": "C4 (85 mm, front-on at collarbone height, the clasp ref's pose)",
   "concept": "The Toggle worn with the clasp turned to the front on deep warm skin with pores, plum ground at the neck sides, a plum raw-silk neckline with a zari edge; 'TURN THE CLASP / TO THE FRONT.' + 'so the clasp becomes the jewel.'; F2 card ₹999 with '4 mm paperclip links · 18k gold tone PVD' and a plum-filled CODES BUY2/BUY3 box; Feed P 68; Story with a flat plum top band over the chin underside, headline, name and price, no offer",
-  "verdict": "ship (round 2 on the 22:58:02 Feed after the card-line fix both critics asked for: A 7.725, B 7.725; truth 8.5 with both, lowest dimension 7 (stop, B cues); beats the loser and the winner with both critics. The first worn frame to ship since b02 and the first Toggle ad. The Story has no offer: B's optional Story offer line and A's shorter beat were not applied (one critic each))",
-  "weightedA": 7.725,
-  "weightedB": 7.725,
+  "verdict": "ship (round 2 on the 22:58:02 Feed after the card-line fix, then the zero-credit whole-ad re-score with the new 23:38:54 Story, which now prints the offer 'CODE BUY2 · 10% OFF 2 PIECES' on the plum fill (b04 loop change 3, B's tested line, 72/76 px clear of the strands): A 7.8 (cues 7.5 -> 8), B 7.875 (cues 7 -> 8), mean 7.84; both critics prefer the new Story in a blind pair. Truth 8.5 with both, lowest dimension 7 (stop). The first worn frame to ship since b02 and the first Toggle ad. One-critic fixes stay not applied (A's shorter beat, B's description and solid band). Its headline arm b04-1h is held. Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 77 at 20 Nov 2026, 00:27 UTC.)",
+  "weightedA": 7.8,
+  "weightedB": 7.875,
   "beatsLoser": true,
-  "beatsWinner": true,
-  "beatsWinnerBy": [
+  "beatsWinner": false,
+  "beatsWinnerByB04Sheet": [
    "A",
    "B"
   ],
-  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "beatsWinnerB04Sheet": true,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
   "feed": "batches/b04/b04-1_feed.jpg",
   "story": "batches/b04/b04-1_story.jpg",
   "copy": "batches/b04/b04-1.copy.json",
@@ -536,7 +912,137 @@
   "picture": "batches/b04/pics/b04-1.png",
   "credits": 4,
   "scoredFile": "batches/b04/b04-1_feed.jpg 2026-11-19 22:58:02.433974181 +0000",
-  "scoredStory": "batches/b04/b04-1_story.jpg 2026-11-19 21:40:44.453698486 +0000"
+  "scoredStory": "batches/b04/b04-1_story.jpg 2026-11-19 23:38:54.558119942 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 J, S2 K",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The toggle ring reads; the chain is thin at thumb size."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 J, S2 K",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Its H1 is heavier than the 1h arm's. The blind Story pair prefers the new Story with the offer."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "77 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable",
+  "rescoreZeroCredit": {
+   "before": {
+    "weightedA": 7.725,
+    "weightedB": 7.725,
+    "scoredStory": "batches/b04/b04-1_story.jpg 2026-11-19 21:40:44.453698486 +0000",
+    "verdict": "ship (round 2 on the 22:58:02 Feed after the card-line fix both critics asked for: A 7.725, B 7.725; truth 8.5 with both, lowest dimension 7 (stop, B cues); beats the loser and the winner with both critics. The first worn frame to ship since b02 and the first Toggle ad. The Story has no offer: B's optional Story offer line and A's shorter beat were not applied (one critic each))"
+   },
+   "change": "b04 loop change 3: Story offer box 'Code BUY2 · 10% off 2 pieces' at top 640 on the plum fill (x 268-812, y 640-702, 72/76 px clear of the strands); the Feed is unchanged.",
+   "cues": {
+    "A": "7.5 -> 8",
+    "B": "7 -> 8"
+   }
+  }
+ },
+ {
+  "id": "b04-1h",
+  "variantOf": "b04-1",
+  "batch": "b04",
+  "handle": "toggle-link-chain",
+  "archetype": "A2 Worn Editorial (headline variant of b04-1, b04 loop change 4)",
+  "light": "L7 soft warm key + hard kicker asked; rendered an L7-like soft warm key from the upper left, the kicker as crisp specular lines on the ring and bar and small points on the stones",
+  "camera": "C4 (85 mm, front-on at collarbone height, the clasp ref's pose)",
+  "concept": "b04-1's picture, crop P 68, card, offer and Story offer with one new H1, the listing's own two-beat line 'CLOSES WITH A TURN, / NOT A CATCH.' at Velista 64 (the strand corridor caps it); after the round 1 fix the Feed beat is 'turned to the front, / it becomes the jewel.' in two lines at 49 px (Story has no beat)",
+  "verdict": "held (variant: copy is 8 with both after the round 1 beat fix, but the mean 7.79 (A 7.75, B 7.825) is under the control b04-1's ledger mean 7.84 (A 7.8, B 7.875 with the new Story offer); layout 7 against the control's 7.5, because the 7-word H1 sits at the Velista 64 floor, 29/35 px from the strands, with 'RN,' at 4.5:1 (worst 3.1) over the lit neck rim. Both critics reject and neither prefers it to the control. Truth 8.5 with both, compliance passes, lowest dimension 7, beats p2 and sa08 with both, neither winner. Next run: A's 'A TURN, / NOT A CATCH.' at Velista 76 with the new beat, re-scored blind)",
+  "weightedA": 7.75,
+  "weightedB": 7.825,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "beatsRule": "true only when both critics beat the same anchor; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 E, S2 J",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Level with its control at thumb size (round 1 file, 23:46:13)."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 E, S2 J",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Its H1 is thin and small at thumb size; the blind pair prefers the control by a hair."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "feed": "batches/b04/b04-1h_feed.jpg",
+  "story": "batches/b04/b04-1h_story.jpg",
+  "copy": "batches/b04/b04-1h.copy.json",
+  "picture": "batches/b04/pics/b04-1.png",
+  "credits": 0,
+  "variantGate": {
+   "copy": {
+    "A": 8,
+    "B": 8
+   },
+   "mean": 7.79,
+   "controlMean": 7.84,
+   "copyGate": "pass",
+   "meanGate": "fail",
+   "round": "round 2 on the 00:16:12 Feed (fixed beat); Story 23:46:13 unchanged"
+  },
+  "scoredFile": "batches/b04/b04-1h_feed.jpg 2026-11-20 00:16:12.246252957 +0000",
+  "scoredStory": "batches/b04/b04-1h_story.jpg 2026-11-19 23:46:13.694146046 +0000",
+  "stock": "77 at 20 Nov 2026, 00:27 UTC (read-only Shopify read)",
+  "anchorReadsRound2": {
+   "A": "on both single-winner sheets the arm and control tie at 6.0 (control ahead on legibility); beats p2 and sa08, neither winner (not blind: A knew the files)",
+   "B": "beats p2 and sa08, does not beat apricot or F2, the same as the control"
+  },
+  "beatsLoserByRound1Blind": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  }
  },
  {
   "id": "b04-2",
@@ -569,16 +1075,33 @@
   "light": "L1 hard warm key + soft fill asked; rendered a broad soft key from the upper left and front (weak rake, soft contact shadows)",
   "camera": "C5 (100 mm macro about 15° above, the pack ref's mirrored pose)",
   "concept": "The pair upright on a wide charcoal slab of drained silk with a zari border and loose white petals, the studs the only colour (zero coloured pixels outside them); 'ONE BOLD EAR / IS ENOUGH.' + 'for the wedding function.' in the stones' sampled green; boxed size tag 'Shown magnified / about 16.8 mm tall'; F2 card ₹899 'emerald-green cubic zirconia · 18k gold tone', CODES BUY2/BUY3; Feed P 58",
-  "verdict": "ship (A 7.75, B 8.075, mean 7.91, the best b04 ad; truth 8 with both, lowest dimension 7; beats the loser and the winner with both critics; B stop 9. Both critics say the selective colour does not read from the picture alone (the white petals read as a naturally monochrome set); their remedies differ (A: BOLD in the stone green; B: an A/B headline 'THE ONLY COLOUR / IN THE ROOM.'), so neither is applied: the lead's call. Posts drawn steel-grey)",
+  "verdict": "ship (A 7.75, B 8.075, mean 7.91, the best b04 ad; truth 8 with both, lowest dimension 7; beats the loser and the winner with both critics; B stop 9. Both critics say the selective colour does not read from the picture alone (the white petals read as a naturally monochrome set); their remedies differ (A: BOLD in the stone green; B: an A/B headline 'THE ONLY COLOUR / IN THE ROOM.'), so neither is applied: the lead's call. Posts drawn steel-grey) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 32 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
   "weightedA": 7.75,
   "weightedB": 8.075,
   "beatsLoser": true,
-  "beatsWinner": true,
-  "beatsWinnerBy": [
+  "beatsWinner": false,
+  "beatsWinnerByB04Sheet": [
    "A",
    "B"
   ],
-  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "beatsWinnerB04Sheet": true,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchorsBefore": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
   "feed": "batches/b04/b04-3_feed.jpg",
   "story": "batches/b04/b04-3_story.jpg",
   "copy": "batches/b04/b04-3.copy.json",
@@ -586,7 +1109,115 @@
   "picture": "batches/b04/pics/b04-3.png",
   "credits": 2,
   "scoredFile": "batches/b04/b04-3_feed.jpg 2026-11-19 22:11:08.205806895 +0000",
-  "scoredStory": "batches/b04/b04-3_story.jpg 2026-11-19 22:11:08.549806915 +0000"
+  "scoredStory": "batches/b04/b04-3_story.jpg 2026-11-19 22:11:08.549806915 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.0,
+    "tiles": "S1 L, S2 F",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Green on charcoal pops. Half a point under its own variant."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 L, S2 F",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": ""
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "32 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
+ },
+ {
+  "id": "b04-3h",
+  "variantOf": "b04-3",
+  "batch": "b04",
+  "handle": "verdant-circlet-studs",
+  "archetype": "A4 Monument Macro with the selective-colour device (headline variant of b04-3, b04 loop change 4)",
+  "light": "L1 hard warm key + soft fill asked; rendered a broad soft key from the upper left and front (weak rake, soft contact shadows)",
+  "camera": "C5 (100 mm macro about 15° above, the pack ref's mirrored pose)",
+  "concept": "b04-3's picture, crop P 58, beat words, size tag, card and offer with one new H1 'THE ONLY COLOUR / IN THE ROOM.' (B's line), COLOUR in the stones' #08C694 (A's keyword-in-colour fix), the beat in bone; Velista 86 on the Feed, 72 on the Story",
+  "verdict": "held (variant: A's copy is 7.5 on the scored round, under the arm gate of 8. A wrote that copy becomes 8 (weighted 7.95) once both arms share a neutral primary-text opener; the fixer has since put that opener in the Meta text of both b04-3 and b04-3h, with no JPG change, but A has not re-scored, so the gate is not met on record. Every other test passes: B copy 8; fit 8 with both (gate 7.5, so the device now reads); mean 8.09 (A 7.9, B 8.275) against the control's 7.91; truth 8 with both; lowest dimension 7.5; beats p2 and sa08 with both, neither winner; both critics prefer it to the control in the blind pair. One A confirmation of copy on the new primary text releases it)",
+  "weightedA": 7.9,
+  "weightedB": 8.275,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "beatsRule": "true only when both critics beat the same anchor; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 6.5,
+    "tiles": "S1 Q, S2 H",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "Half a point over its control: COLOUR in the stone green gives a second colour hit."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 Q, S2 H",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The green COLOUR pops; the blind pair prefers the variant."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "feed": "batches/b04/b04-3h_feed.jpg",
+  "story": "batches/b04/b04-3h_story.jpg",
+  "copy": "batches/b04/b04-3h.copy.json",
+  "picture": "batches/b04/pics/b04-3.png",
+  "credits": 0,
+  "variantGate": {
+   "copy": {
+    "A": 7.5,
+    "B": 8
+   },
+   "fit": {
+    "A": 8,
+    "B": 8
+   },
+   "mean": 8.09,
+   "controlMean": 7.91,
+   "copyGate": "fail (A 7.5; A's own conditional 8 after the opener fix, which is now applied, not re-scored)",
+   "fitGate": "pass",
+   "meanGate": "pass",
+   "round": "round 1 (no JPG changed; Meta primary text changed after)"
+  },
+  "scoredFile": "batches/b04/b04-3h_feed.jpg 2026-11-19 23:41:27.458129031 +0000",
+  "scoredStory": "batches/b04/b04-3h_story.jpg 2026-11-19 23:41:27.774129050 +0000",
+  "stock": "32 at 20 Nov 2026, 00:27 UTC (read-only Shopify read)"
  },
  {
   "id": "b04-4",
@@ -596,15 +1227,28 @@
   "light": "L1 small warm spot + soft fill asked; rendered a broad soft top light on the block top, a near-black velvet face and a frontal fill, no warm spot (both tries)",
   "camera": "C5 (100 mm macro, level with the block edge on try 2, the plinth ref's pose)",
   "concept": "The pendant hanging over the edge of a deep teal velvet block, the snake chain running out of both sides almost level, the stone the brightest point; staggered 'ONE CLEAR / POINT OF FOCUS.' + 'for the reception, after dark.'; boxed size tag 'Shown magnified / stone about 10 mm'; F2 card ₹899 '10 mm cubic zirconia · silver tone PVD', CODES BUY2/BUY3; Feed P 33.5",
-  "verdict": "ship (A 7.5, B 7.65, mean 7.575; truth 8 with both; lowest dimension B fit 6.5 because the spot never rendered; beats the loser with both, the winner with B only. A's top-block re-layout not applied (A only). Pre-launch: re-read stock, 23 at 20:50 UTC, do not launch below 20. Bail about 1.35x long, logged)",
+  "verdict": "ship (A 7.5, B 7.65, mean 7.575; truth 8 with both; lowest dimension B fit 6.5 because the spot never rendered; beats the loser with both, the winner with B only. A's top-block re-layout not applied (A only). Pre-launch: re-read stock, 23 at 20:50 UTC, do not launch below 20. Bail about 1.35x long, logged) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 5, B 5): beats apricot with neither critic and F2 with neither critic; beats p2 with neither critic and sa08 with B only. Stock 23 at 20 Nov 2026, 00:27 UTC. RE-TEST FLAG for the lead: it no longer beats a loser anchor with both critics (A ties p2 and sa08, B ties p2), which PLAYBOOK §7 asks of a ship. The b04 sheet had it beating p2 with both. A asks the lead and B to decide whether it stays live; the records keeper leaves the verdict as ship. Stock 23 is 3 over the floor of 20: re-read before launch.",
   "weightedA": 7.5,
   "weightedB": 7.65,
-  "beatsLoser": true,
+  "beatsLoser": false,
   "beatsWinner": false,
-  "beatsWinnerBy": [
+  "beatsWinnerByB04Sheet": [
    "B"
   ],
-  "anchors": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
+  "beatsWinnerB04Sheet": false,
+  "beatsLoserB04Sheet": true,
+  "b04SheetNote": "beatsWinnerByB04Sheet, beatsWinnerB04Sheet and beatsLoserB04Sheet keep the earlier reads: read on the b04 blind 200 px Feed sheets, which carried two winners (win_static_hoops_apricot and win_vkf18_prism_cluster) and one loser (lose_p2_proof_parody), and counted a win over either winner. They are not comparable with the single-winner re-test below (b04 loop change 1).",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [],
+   "lose_sa08_walls": [
+    "B"
+   ]
+  },
+  "anchorsBefore": "b04 blind 200 px Feed sheets (both critics): winners win_static_hoops_apricot and win_vkf18_prism_cluster (the batch-4 rotation winner), loser lose_p2_proof_parody",
   "feed": "batches/b04/b04-4_feed.jpg",
   "story": "batches/b04/b04-4_story.jpg",
   "copy": "batches/b04/b04-4.copy.json",
@@ -613,6 +1257,191 @@
   "picture": "batches/b04/pics/b04-4.png",
   "credits": 4,
   "scoredFile": "batches/b04/b04-4_feed.jpg 2026-11-19 22:36:10.445896193 +0000",
-  "scoredStory": "batches/b04/b04-4_story.jpg 2026-11-19 22:36:10.813896214 +0000"
+  "scoredStory": "batches/b04/b04-4_story.jpg 2026-11-19 22:36:10.813896214 +0000",
+  "beatsRule": "beatsWinner / beatsLoser are true only when both critics beat the same anchor on the zero-credit re-test; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 5.0,
+    "tiles": "S1 P, S2 Q",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": false,
+    "beatsSa08Loser": false,
+    "note": "Ties both losers (ties go to the anchor): a quiet dark catalogue macro with the pendant small in frame. A flags it for the lead and B."
+   },
+   "B": {
+    "thumb": 5.0,
+    "tiles": "S1 P, S2 Q",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": false,
+    "beatsSa08Loser": true,
+    "note": "The staggered abstract headline reads awkwardly. Ties p2."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "stock": "23 at 20 Nov 2026, 00:27 UTC (read-only Shopify read); 20 or more, so launchable"
+ },
+ {
+  "id": "b04-4h",
+  "variantOf": "b04-4",
+  "batch": "b04",
+  "handle": "serpentine-whisper-chain-silver",
+  "archetype": "A4/A6 for the live read (headline variant of b04-4, b04 loop change 4)",
+  "light": "L1 small warm spot + soft fill asked; rendered a broad soft top light on the block top, a near-black velvet face and a frontal fill, no warm spot (both tries)",
+  "camera": "C5 (100 mm macro, level with the block edge on try 2, the plinth ref's pose)",
+  "concept": "b04-4's picture, crop P 33.5, beat, size tag, card and offer with one new H1 'ONE STONE. / ONE SMOOTH LINE.' (the listing's line cut before its bare metal word), the control's face, size, colour and stagger",
+  "verdict": "held (variant: A's blind 200 px read ties it with both loser anchors (5.0 against p2 5.0 and sa08 5.0; ties go to the anchor), so it does not beat the loser with both critics (PLAYBOOK §7). The arm gates pass: copy 8 with both; mean 7.69 (A 7.6, B 7.775) against the control's 7.575; truth 8 with both; lowest dimension 7; both critics prefer it to the control in the blind pair. The control b04-4 has the same tie with A, so A's thumb-read fix (H1 at Velista 76-80, one plain size line) would have to go on both arms and be re-tested blind)",
+  "weightedA": 7.6,
+  "weightedB": 7.775,
+  "beatsLoser": false,
+  "beatsWinner": false,
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "B"
+   ]
+  },
+  "beatsRule": "true only when both critics beat the same anchor; the maps list who beat each anchor file.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 5.0,
+    "tiles": "S1 B, S2 C",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": false,
+    "beatsSa08Loser": false,
+    "note": "Ties both losers (ties go to the anchor), the same as its control."
+   },
+   "B": {
+    "thumb": 6.0,
+    "tiles": "S1 B, S2 C",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": true,
+    "beatsSa08Loser": true,
+    "note": "The blind pair prefers the variant."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "feed": "batches/b04/b04-4h_feed.jpg",
+  "story": "batches/b04/b04-4h_story.jpg",
+  "copy": "batches/b04/b04-4h.copy.json",
+  "picture": "batches/b04/pics/b04-4.png",
+  "credits": 0,
+  "variantGate": {
+   "copy": {
+    "A": 8,
+    "B": 8
+   },
+   "mean": 7.69,
+   "controlMean": 7.58,
+   "copyGate": "pass",
+   "meanGate": "pass",
+   "loserGate": "fail (A ties both losers)",
+   "round": "round 1 (nothing changed)"
+  },
+  "scoredFile": "batches/b04/b04-4h_feed.jpg 2026-11-19 23:41:28.070129068 +0000",
+  "scoredStory": "batches/b04/b04-4h_story.jpg 2026-11-19 23:41:28.406129088 +0000",
+  "stock": "23 at 20 Nov 2026, 00:27 UTC (read-only Shopify read)"
+ },
+ {
+  "id": "b04-8",
+  "rescueOf": "b02-4 try 2",
+  "batch": "b04",
+  "handle": "prism-riviere-bracelet",
+  "archetype": "A2 grammar: headline plus card, no beat (zero-credit rescue of b02-4 try 2; briefed as a card-only A1; F2 card)",
+  "archetypeWas": "A1 Product Card with a Feed headline (card-only until the round 1 fix); relabelled because A1 has no headline (both critics, round 2; the mislabel cap)",
+  "light": "As rendered in b02-4 try 2: one large soft white light from overhead, plus a faint aqua and pink rim glow along the forearm (the L3 gel rim, rendered as a glow, not a stroke)",
+  "camera": "C1 overhead, straight down, about 20 cm across; the forearm enters top right and runs diagonally to the hand at the lower left",
+  "concept": "Deep-brown forearm on ink velvet with mehendi on the hand, nine pastel cushion stones (Y A P) across the wrist in silver tone; Feed P 30 with 'ALL THE COLOUR. / NONE OF THE NOISE.' (Velista 72, flush left x 96, added in the round 1 fix) and the F2 card with the two-code offer; Story with the headline, name, price and 'Code BUY2 · 10% off 2 pieces'",
+  "verdict": "reject (zero-credit rescue of b02-4 try 2, round 2 on the 00:16:12 Feed with the headline: A 7.225 ship-after-fixes, B 6.975 reject, mean 7.10. B's stop 5.5 is under the floor of 6 (PLAYBOOK §7), and b04 loop change 7a fails: B reads the headline, then the arm, then the bracelet at 200 px (A: the bracelet before the arm, narrowly). Round 1 blind it was 4.0 with both, the lowest tile, under both losers; round 2 beats sa08 with both but ties p2 with B. Truth 8 with both (central 1.19x; 1.09x / 1.19x / 1.28x at a 5.5 / 6.0 / 6.5 cm wrist); compliance passes ('Waterproof, too.' is allowed for Prism). Prism goes to loop change 7b (one paid b04-2 try) when credits are added; if that fails, Prism leaves the static list (7c). b02-4 stays dropped. Stock 39 at 20 Nov 2026, 00:27 UTC)",
+  "weightedA": 7.225,
+  "weightedB": 6.975,
+  "beatsLoser": true,
+  "beatsWinner": false,
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "beatsLoserByRound1Blind": {
+   "lose_p2_proof_parody": [],
+   "lose_sa08_walls": []
+  },
+  "beatsRule": "the maps are the round 2 reads on the 00:16:12 Feed (A not blind; B: beats sa08, ties p2); beatsLoserByRound1Blind is the blind read of the 23:56:05 Feed.",
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "anchorReads": {
+   "A": {
+    "thumb": 4.0,
+    "tiles": "S1 C, S2 D",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": false,
+    "beatsSa08Loser": false,
+    "note": "Lowest tile on both sheets (round 1 file, 23:56:05): a wrist on black with a thin glint line; the pastels do not read."
+   },
+   "B": {
+    "thumb": 4.0,
+    "tiles": "S1 C, S2 D",
+    "beatsApricot": false,
+    "beatsF2": false,
+    "beatsP2Loser": false,
+    "beatsSa08Loser": false,
+    "note": "The arm lands first; the bracelet reads as a white line and its three colours are lost at 200 px. Ties sa08 at 4, and the anchor wins."
+   },
+   "anchorThumbs": {
+    "A": "winners 7.5 each, losers p2 and sa08 5.0 each",
+    "B": "winners 7 each, p2 5, sa08 4"
+   },
+   "blindness": "Both critics say the blind was compromised: the critic prompts named the anchor letters and the pair sides before they looked. Each critic scored every tile on what it shows and kept each ad at the same score on both sheets."
+  },
+  "anchorReadsRound2": {
+   "A": "5.5 at thumb, over p2 and sa08 (5.0), far under F2 and apricot (7.5); not blind",
+   "B": "beats sa08, ties p2 (the anchor wins), loses to apricot and F2"
+  },
+  "landsFirst": {
+   "A": "headline, then the bracelet glint, then the card; the bracelet before the arm, narrowly",
+   "B": "type, then arm, then bracelet (loop 7a fails)"
+  },
+  "feed": "batches/b04/b04-8_feed.jpg",
+  "story": "batches/b04/b04-8_story.jpg",
+  "copy": "batches/b04/b04-8.copy.json",
+  "picture": "batches/b02/pics/b02-4.png",
+  "credits": 0,
+  "job_id": "79345141-8730-4e7d-8c62-a96f71a59ea4",
+  "crop": {
+   "P": 30,
+   "T": 175.5
+  },
+  "widthShare": 0.168,
+  "scale": "central 1.19x; 1.09x / 1.19x / 1.28x at a 5.5 / 6.0 / 6.5 cm wrist; the count check gives 1.1-1.2x (both critics asked for the range in the ledger)",
+  "scoredFile": "batches/b04/b04-8_feed.jpg 2026-11-20 00:16:12.590252978 +0000",
+  "scoredStory": "batches/b04/b04-8_story.jpg 2026-11-19 23:56:37.766183143 +0000",
+  "stock": "39 at 20 Nov 2026, 00:27 UTC (read-only Shopify read)"
  }
 ]

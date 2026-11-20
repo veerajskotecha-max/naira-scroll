@@ -130,6 +130,33 @@
   "scoredFiles": {
    "feed": "batches/b03/b03-5_feed.jpg (render of 2026-11-19 19:52:24 UTC, unchanged)",
    "story": "batches/b03/b03-5_story.jpg (render of 2026-11-19 19:52:24 UTC, unchanged)"
-  }
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+ },
+ "final": {
+  "round": "b03 round 1 (19:52:24 renders; only the Meta headline changed after)",
+  "A": 7.63,
+  "B": 7.83,
+  "mean": 7.73,
+  "scoredFile": "batches/b03/b03-5_feed.jpg 2026-11-19 19:52:24.125312087 +0000",
+  "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-19 19:52:24.485312108 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (after B's Meta headline fix; the JPGs are unchanged). Best desire of the batch (7.5 both). Truth at the 8 floor: blush pearl (a* about 6-7 vs ref 2-4), 8 regular bridges vs about 5 irregular, micro-glitter pavé, white specular discs in the upper-left pavé; no copy names the pearl's colour Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 25 at 20 Nov 2026, 00:27 UTC.",
+  "date": "19 Nov 2026, 23:35 UTC"
  }
 }

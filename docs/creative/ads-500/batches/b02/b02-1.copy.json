@@ -88,6 +88,33 @@
    },
    "mean": 7.488,
    "note": "Re-score by both critics on the final files (b03 loop change 2). The weightedA/B above (7.15 / 7.55) were scored on the 18:15:10 renders. Neither critic asked for a change to the ad."
-  }
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+ },
+ "final": {
+  "round": "b04 re-score, round 1 (Feed 20:32:55 with the 56 px beat); files unchanged since",
+  "A": 7.45,
+  "B": 7.525,
+  "mean": 7.49,
+  "scoredFile": "batches/b02/b02-1_feed.jpg 2026-11-19 20:32:55.233456599 +0000",
+  "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (re-scored in b04 after the b03 loop change 1 beat fix, 56 px = 0.61x: A 7.45, B 7.525; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 89 at 20 Nov 2026, 00:27 UTC.",
+  "date": "19 Nov 2026, 23:35 UTC"
  }
 }

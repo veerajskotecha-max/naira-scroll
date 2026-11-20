@@ -21,12 +21,19 @@
   "callouts": []
  },
  "meta": {
-  "primaryText": "One bold ear is enough: Verdant Circlet Studs, ₹899, emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.",
+  "primaryText": "Verdant Circlet Studs, ₹899: emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.",
   "headline": "Verdant Circlet Studs · ₹899 · 10% off 2",
   "description": "Emerald-green cubic zirconia",
   "cta": "Shop Now",
   "url": "https://www.nairaflore.com/products/verdant-circlet-studs?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-3_a4_circlet-selective-colour"
  },
+ "metaHistory": [
+  {
+   "field": "primaryText",
+   "was": "One bold ear is enough: Verdant Circlet Studs, ₹899, emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.",
+   "superseded": "20 Nov 2026, fixer after critics round 1 on b04-3h (both critics)"
+  }
+ ],
  "story": {
   "text": [
    "NAIRA wordmark (logo_white)",
@@ -81,7 +88,8 @@
   "Lint against RULINGS: no diamond, real or solid gold, freshwater, bare 'gold' or 'silver' as the metal (only '18k gold tone'), 'emerald' only as 'emerald-green' (never a noun), 'pearl' only as 'shell pearls', no compare-at price (listing ₹1,289 not printed), no free shipping, no waterproof, tarnish-free or hypoallergenic claim and no water imagery (allowed for this SKU, not used). BUY2 10% on 2+ and BUY3 20% on 3+ match RULINGS §2; two codes, so 'Codes'. Stock 32 (20+). The UTM landing URL is the only URL; it carries no signature.",
   "Layout departures from the brief, all logged above: P 58 not 52 (verifier and skeptic); H1 90 and beat 54 (0.60x) instead of 84 and 52; beat green #08C694 instead of the verifier's #15DCA9 (both sampled from the stones' lit facets); card top 958 instead of 940; offer separator in the beat green; Story beat dropped (brief rule) and the Story H1 on one line at 72 instead of two.",
   "Fixer after critics round 1 (critic B, compliance): Meta description 'Emerald-green · 18k gold tone' became 'Emerald-green cubic zirconia' (28 characters, under the 30 limit), the RULINGS §1.1 wording, so the colour word never stands alone where it could read as a stone name. Meta only; no image change, the JPGs are unchanged.",
-  "Not applied (one critic only, logged for the lead): A's selective-colour type (Feed H1 'One <span>bold</span> ear / is enough.' with BOLD in #08C694, the beat in bone, and BOLD in #08C694 on the Story H1; A's test render tmp/criticA/t43_feed.jpg); B's optional A/B headline 'THE ONLY COLOUR / IN THE ROOM.' (Velista 90 bone, left 72, top 96), with the current headline kept as the control. Both critics found that the selective-colour device does not read from the picture alone (the white petals read as a naturally black-and-white set), but they asked for different remedies, and B kept the current headline as the control, so neither remedy is a shared fix. The lead's call: route A's colour fix to B, or B's A/B as a separate ad, in round 2."
+  "Not applied (one critic only, logged for the lead): A's selective-colour type (Feed H1 'One <span>bold</span> ear / is enough.' with BOLD in #08C694, the beat in bone, and BOLD in #08C694 on the Story H1; A's test render tmp/criticA/t43_feed.jpg); B's optional A/B headline 'THE ONLY COLOUR / IN THE ROOM.' (Velista 90 bone, left 72, top 96), with the current headline kept as the control. Both critics found that the selective-colour device does not read from the picture alone (the white petals read as a naturally black-and-white set), but they asked for different remedies, and B kept the current headline as the control, so neither remedy is a shared fix. The lead's call: route A's colour fix to B, or B's A/B as a separate ad, in round 2.",
+  "Fixer after critics round 1 on b04-3h (20 Nov; both critics asked for it): the Meta primary text shared by b04-3 and b04-3h opened \"One bold ear is enough:\", the misread over a pair that both critics flagged and the line the b04-3h headline exists to drop. Both arms now open neutrally with the critics' own wording, identical in both so the live split still isolates the on-image headline: \"Verdant Circlet Studs, ₹899: emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.\" 125 characters (was 149); the offer ends at character 99 (was 123). Lint: no banned word; \"emerald-green cubic zirconia\" and \"shell pearls\" as before; no claim; ₹899 and BUY2 10% on 2+ as RULINGS §2. Meta headline, description, CTA and URL unchanged. Meta text only: no image changed."
  ],
  "truthNotes": [
   "Construction matches the pack ref (verifier and skeptic): per stud the green cushion stone tilted at the circlet's upper edge, 5 claw-set clear cubic zirconia, exactly 2 four-point stars and 2 pearls (the big one a round bead), the centre open; true mirror images; 18k gold tone, hue 71, not brassy.",
@@ -131,6 +139,38 @@
   "scoredFiles": {
    "feed": "batches/b04/b04-3_feed.jpg (render of 2026-11-19 22:11:08 UTC, scored by both critics in round 1); unchanged, this is the shipping file",
    "story": "batches/b04/b04-3_story.jpg (render of 2026-11-19 22:11:08 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+ },
+ "final": {
+  "round": "b04 round 1 (22:11:08 renders); Meta primary text changed by the fixer in this pass, JPGs unchanged",
+  "A": 7.75,
+  "B": 8.075,
+  "mean": 7.91,
+  "scoredFile": "batches/b04/b04-3_feed.jpg 2026-11-19 22:11:08.205806895 +0000",
+  "scoredStory": "batches/b04/b04-3_story.jpg 2026-11-19 22:11:08.549806915 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (A 7.75, B 8.075, mean 7.91, the best b04 ad; truth 8 with both, lowest dimension 7; beats the loser and the winner with both critics; B stop 9. Both critics say the selective colour does not read from the picture alone (the white petals read as a naturally monochrome set); their remedies differ (A: BOLD in the stone green; B: an A/B headline 'THE ONLY COLOUR / IN THE ROOM.'), so neither is applied: the lead's call. Posts drawn steel-grey) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 32 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
+  "date": "19 Nov 2026, 23:35 UTC",
+  "primaryTextChange": {
+   "old": "One bold ear is enough: Verdant Circlet Studs, ₹899, emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.",
+   "new": "Verdant Circlet Studs, ₹899: emerald-green cubic zirconia and shell pearls. BUY2: 10% off 2 pieces. For the wedding function.",
+   "why": "Both critics on b04-3h: one neutral opener in both arms so the split isolates the on-image headline; applied by the fixer to both copy.json files. Not re-scored on b04-3 (Meta only)."
   }
  }
 }

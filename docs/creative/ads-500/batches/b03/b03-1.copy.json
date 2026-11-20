@@ -180,6 +180,33 @@
     "feed": "batches/b03/b03-1_feed.jpg (render of 2026-11-19 20:09:21 UTC; superseded by the fixer render of 22:58:03 UTC, not yet scored)",
     "story": "batches/b03/b03-1_story.jpg (render of 2026-11-19 20:09:21 UTC; superseded by the fixer render of 22:58:03 UTC, not yet scored)"
    }
-  }
+  },
+  "superseded": true,
+  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+ },
+ "final": {
+  "round": "b04 round 2 (on the 22:58:03 Feed and Story after the re-score fixes)",
+  "A": 8.125,
+  "B": 7.85,
+  "mean": 7.99,
+  "scoredFile": "batches/b03/b03-1_feed.jpg 2026-11-19 22:58:03.305974233 +0000",
+  "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-19 22:58:03.669974254 +0000",
+  "beatsWinnerBy": {
+   "win_static_hoops_apricot": [],
+   "win_twenty_f2_tennis_ruby": []
+  },
+  "beatsLoserBy": {
+   "lose_p2_proof_parody": [
+    "A",
+    "B"
+   ],
+   "lose_sa08_walls": [
+    "A",
+    "B"
+   ]
+  },
+  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+  "verdict": "ship (re-scored in b04 after the finisher fixes: round 1 A 8.075 / B 7.725 on the 20:09:21 renders; fixes 'huggie hoop earrings' card line, Story tag 'Shown magnified · earrings about 14 mm tall', A's primary text and B's description; round 2 A 8.125 / B 7.85 on the 22:58:03 renders. Truth 8.5 with both; lowest dimension B desire 6.5; beats the loser and the winner with both critics. Pre-launch, low risk: confirm the ₹699 listing ships both earrings; if it sells one piece, the beat becomes 'the ₹699 huggie.') Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 58 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
+  "date": "19 Nov 2026, 23:35 UTC"
  }
 }

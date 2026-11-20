@@ -6,8 +6,10 @@
      lines 368-441 (x 237-843, 8.9:1) and 442-515 (x 273-807, 7.6:1); name and price on one baseline, row 544-612 (name x
      301-645 at 7.5:1, price x 669-779 at 6.7:1). Inside each box's x span the chain's highest point is below Story 760, so every
      box clears it by 150 px or more. The brief's Velista 64 stack (346-546) was cramped, with 20 px gaps; 76 gives 42 and 33.
-     The offer is dropped (brief fallback): at 564-626 its 726 px box touches both strands, and 24 px under the ring it would
-     end at 1393, past 1250. No offer means no box in this Story. The beat is Feed-only.
+     The beat is Feed-only. The kit's two-code box (726 px) does not fit between the strands, so the brief dropped the offer.
+     b04 loop change 3 (19 Nov, zero credits): critic B's tested one-code line "Code BUY2 · 10% off 2 pieces" (matches the Meta
+     headline's "10% off 2"), kit .offer look (Jost 500 26 caps .14em, 2 px hairline, padding 14/24) on the Feed offer's own
+     plum fill (56,27,32 at .62), top 640, centred: the only boxed element. Measured on the render: see .of below.
      Top: a flat graphic in the sampled plum ground (56,27,32), solid over 0-130 and fading out by 262, over the chin's underside
      (Story -7.5 to 185) and most of the hair bun (x 872-984, to 254), under the platform header. Nothing in the picture is
      edited; delete the .top div to run the native frame as generated (or run the ad Feed-only). -->
@@ -21,6 +23,8 @@
        gap: 24px; color: var(--fg); }
  .np .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; }
  .np .price { font-family: var(--serif); font-weight: 500; font-size: 56px; line-height: 1; }
+ .of { position: absolute; left: 0; right: 0; top: 640px; text-align: center; color: var(--fg); }
+ .offer { background: rgba(56,27,32,.62); white-space: nowrap; }
 </style></head>
 <body class="dark story">
  <img class="pic" src="pics/b04-1.png">
@@ -28,4 +32,5 @@
  <img class="wm-top" src="../../kit/logo_white.png">
  <p class="h1 hl">Turn the clasp<br>to the front.</p>
  <div class="np"><span class="name">Toggle Link Chain</span><span class="price">₹999</span></div>
+ <div class="of"><div class="offer">Code BUY2 · 10% off 2 pieces</div></div>
 </body></html>

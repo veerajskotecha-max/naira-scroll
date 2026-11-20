@@ -3,6 +3,10 @@
 Each picture is checked against `brief.md` (the slot's acceptance list), `RULINGS.md` §4 (the sliding-window gate),
 `build/study/products.md` and the reference photos in `build/refs/<handle>__*.jpg`. Zoomed crops are in `tmp/`.
 
+> **Note (20 Nov 2026):** `tmp/` was a git-ignored working folder. It was deleted after the zero-credit pass, so the zooms,
+> mocks and sheets this file names under `tmp/` no longer exist. The findings stand as written; the shipped JPGs and HTML
+> pages are the record. The same applies to `tmp/` paths cited in the b04 `copy.json` files.
+
 **Coordinates.** The source is 1536 × 2752, displayed at 1080 × 1935.
 - Feed y = src_y × 0.703125 − T, with T = 5.85 × P. Story y = src_y × 0.703125 − 7.5. x = src_x × 0.703125.
 
@@ -1289,3 +1293,159 @@ Zooms in `tmp/`:
 **Learnings**
 - On a near-black face, the contact shadow renders at ΔL\* 3–5. It is measurable, though nearly invisible. Profile the rows under the piece against the same rows elsewhere before calling a shadow absent, and count its core in the extent.
 - Count the out-of-focus edge stubs in the strict 380 gate. When a strict window exists, as here (P 33.33–33.84), lay out inside it rather than leaning on the side-edge clause.
+
+---
+
+## b04-8 (zero-credit rescue of b02-4 try 2)
+
+Verifier and layout, 19 Nov 2026, about 23:55 UTC. b04 loop change 7a. Picture `../b02/pics/b02-4.png` (b02-4 try 2, job
+`79345141-8730-4e7d-8c62-a96f71a59ea4`, 1536 × 2752 RGB): Prism Rivière Bracelet on a deep-brown forearm on ink velvet, C1
+overhead. It was dropped in b02 on placement (the arm runs diagonally, the fingers sat under the fixed Feed card), before the
+RULINGS §4 sliding crop existed. Checked here as a card-only A1. **No generation call; 0 credits.** Measurements are on the
+source with PIL. Zooms and mocks are in the scratchpad; the gate and 216 px sheets are in `tmp/b04-8_*`.
+
+### Construction: PASS (not a morph)
+
+Against `build/refs/prism-riviere-bracelet__pack.jpg` and `__detail.jpg`:
+- **Stone count per visible run:** across the top of the wrist, Y A P Y A P Y A P. That is **9 visible** (7 full, 2 foreshortened at the wrist's edges). Three pastels, no two neighbours the same, no fourth colour.
+- **Cut and setting:** square cushion stones, four claws where they show (lower yellow and aqua), each in its own single row of fine clear pavé, linked edge to edge.
+- **Clasp:** under the wrist, out of view. Nothing in frame contradicts the fold-over clasp.
+- **Silver tone:** metal and pavé median L\* 90.6, a\* 1, b\* −1. Neutral, no gold cast.
+- **Stone hues against the detail ref:**
+
+  | Stone | Hue | Ref hue |
+  |---|---|---|
+  | Aqua | 221° | 208° |
+  | Yellow | 87° | 84° |
+  | Pink | 345° | 8° |
+
+  The pink is cooler than the ref, but at L\* 76 and C\* 15 it reads soft pink, not lilac.
+- **Logged, not fails** (visible only at 3× zoom):
+  - The colour order is a strict three-colour cycle, which the real piece does not run (products.md flag).
+  - At the two foreshortened ends, the link sides show pavé texture. On the ref the link sides are plain polished metal.
+
+### Scale: PASS at the central estimate, by a hair
+
+- **Pitch: 62.5 src px.** Measured from the aqua stone centroids (863, 1035) to (959, 1196), three pitches. The b02 skeptic had 62–63.
+- **Wrist: 384–392 src px.** Measured square to the forearm's axis, which runs at 32–34° on both edges (Y > 20, so the darker lower edge counts).
+- **Pitch ÷ wrist: 0.159–0.163, central 0.160.** The true pitch is 8.1 mm (pitch ÷ stone 1.62 on the detail ref × 5 mm):
+
+  | Wrist | Pitch | Scale |
+  |---|---|---|
+  | 5.5 cm | 8.8 mm | 1.09× |
+  | 6.0 cm | 9.6 mm | **1.19×** |
+  | 6.5 cm | 10.4 mm | 1.28× |
+
+- **Count check:** 9 stones show across the wrist, where an 18 cm loop of about 21 stones shows about 10–11 at true size. That is about 1.1–1.2×.
+- **Correction to the record:** b02 logged 0.149–0.152 and "central 1.1×". That figure took the wrist as the vertical extent × cos 28°. Both forearm edges measure 32–34°, so the wrist was about 6% too wide. The loop's "about 1.0–1.2×" should read **about 1.1–1.3×, central 1.19×**: inside the 1.2× drop line, but only just.
+- **Size tag: off.** The bracelet shows at 7.7 src px/mm, which is 5.4 Feed px/mm, far under the 19 px/mm trigger.
+
+### Face, negatives
+
+- **Face rule: PASS.** Only a forearm and hand are in frame: no eyes, no face.
+- **Mehendi:** on the back of the hand and fingers only, ending before the wrist bone.
+- **Clean:** no other jewellery, no nail art (one plain nail at the fingertip), no water, no glints or flare.
+- **Light rendered:** soft overhead white plus a faint aqua and pink rim glow fading into the skin. The rim reads as a glow, not a stroke.
+
+### Extent and placement (RULINGS §4, card-only gate 84–930): PASS
+
+- **Bracelet:** src x 797–1050, y 984–1396.
+- **With its contact shadow** (on the velvet under the bottom link, Y 1–3 against 3–7): src x 795–1052, **y 982–1408**. Display (× 0.703125): y 690.5–990.0.
+- **Gate window:** T 60.0–585, so **P 10.3–100** all pass.
+- **Chosen: P 30, T 175.5.** The bracelet sits at **Feed x 559–740, y 515.0–814.5**: centre 665 against the frame's 675, and 125 px over the wordmark.
+- **Width share: 16.8%** (16.5% without the shadow). That is over the PLAYBOOK §4 floor of 12% (target 15%), but under b03's worn-detail target of 18%.
+- **The forearm** is a referent that runs off two edges at every P. It enters at Feed 162 at x 1080. The fingertips reach Feed 1258 at x 0, under the card.
+
+### 200 px gate: PASS, with a note. The bracelet lands first.
+
+`tmp/b04-8_gate200.png` holds the raw Feed at P 10, 30, 55 and 100 at 200 px, and the P 30 saliency map.
+
+- **Brightest, highest-contrast shape: the bracelet,** at every P tested (10, 25, 30, 40, 55, 70, 85, 100).
+  - The pavé reads about Y 213 on skin of Y 92, a 4.5:1 contrast.
+  - The arm reads Y 92 on velvet of Y 8, a 3.0:1 contrast.
+- **Saliency:** a centre-surround map (intensity and two opponent channels) at 200 px peaks inside the bracelet's box at every P. At P 30 the peak is at Feed (670, 664).
+  - The box holds 28–30% of the top 2% of saliency on 3.9% of the area.
+  - Its mean saliency is 3.5–4.1× the mean of the rest of the frame.
+- **The arm** is the largest shape (24% of the Feed area) and the second read. The bracelet sits on it the way b04-1's ring sits on the chest.
+- **Not b02's failure, which was the reverse.** There the hair was the highest-contrast mass, and the gold hoops matched the apricot ground.
+- **Note (risk):** the bracelet is small, about 36 px wide at 216 px, and the width share is under 18%. Both critics must say the bracelet lands first on a blind single-winner sheet (b04 loop change 1) before it ships.
+
+### Verdict
+
+**pass-with-notes → laid out as b04-8** (A1 card-only rescue of b02-4 try 2, 0 credits). b02-4 stays "dropped" in the ledger so the picture is never used twice; b04-8 is its one ad (RULINGS §1.3, 23:30).
+
+### Layout
+
+**Feed** (`b04-8_feed.html`), `body.dark`:
+- Crop: `.pic { object-position: 50% 30% }`.
+- F2 card, top 940:
+
+  | Element | Feed y | Feed x |
+  |---|---|---|
+  | logo_white | 940–996 | 415–665 |
+  | "Prism Rivière Bracelet" | 1016–1054 | 330–750 |
+  | ₹2,399 | 1068–1124 | 471–609 |
+  | "aqua, pink and pale yellow · silver tone" | 1138–1176 | 315–765 |
+  | two-code offer box | 1190–1252 | 177–903 |
+
+- The card sits over the hand on its left, as b04-1's card sits over skin.
+- Scrim in the velvet's own ink rgb(2, 6, 17): 0 at 870, .4 at 950, .62 from 1040 to the foot. It stays 55 px clear of the bracelet.
+- No headline, no size tag.
+
+**Story** (`b04-8_story.html`), native frame (Story y = src y × 0.703125 − 7.5):
+- **The arm's top edge** crosses the text band on a diagonal: Story 330 at x 1080, 492 at x 900, 600 at x 750, 730 at x 540, then 800–896 over the hand.
+- **So the stack is set flush left at x 96,** in the clear upper-left triangle. A centred stack would put the offer's right end (x 811–903) into the arm at any height under about 460.
+
+  | Element | Story y | Story x |
+  |---|---|---|
+  | logo_white | 270–326 | 96–347 |
+  | Velista 60 "ALL THE COLOUR." | 356–413 | 96–591 |
+  | Velista 60 "NONE OF THE NOISE." | 415–472 | 96–679 |
+  | Name and price, one baseline | 500–556 | name 96–515, price 539–678 |
+  | "Code BUY2 · 10% off 2 pieces" box | 578–640 | 96–639 |
+
+- **Headline:** the listing's "colour without anything loud", as b04 loop change 4's two-beat contrast.
+- **Offer:** the one-code line is from b04 loop change 3, because the 726 px two-code box does not fit.
+- **No beat:** there is no clear space for one.
+- **Clearances at each line's right end:**
+  - H1 line 2: about 175 px;
+  - name and price row: about 90 px;
+  - offer box: 34 px to the arm and 43 px to the bracelet's top stone.
+
+**Renders:**
+
+| Page | failed | overflow | fallback | outside | textShare | minFont |
+|---|---|---|---|---|---|---|
+| Feed | [] | [] | [] | [] | 0.050 | 26 |
+| Story | [] | [] | [] | [] | 0.058 | 26 |
+
+**Contrast** (bone against the ground with type hidden, scrim kept; median, worst 2%):
+
+| Page | Element | Median | Worst 2% |
+|---|---|---|---|
+| Feed | Wordmark | 17.8 | 11.3 (over the dimmed wrist) |
+| Feed | Name | 17.8 | 13.9 |
+| Feed | Price, line, offer | 17.8 | 17.6 or more |
+| Story | Every line | 17.6–17.7 | 17.1 or more |
+
+**Looked at:**
+- **Full size:** the bracelet holds the centre; the card reads; the dimmed hand sits under the card's left.
+- **216 px:** `tmp/b04-8_feed_216_vs_anchors.png` sets the Feed beside F2, `lose_vks5_prism_close`, b04-0 and b04-1. `tmp/b04-8_story_216_vs_anchors.png` sets the Story beside b04-0, b04-1 and W1.
+  - Feed: the bracelet is the bright focal point and the arm is the stage.
+  - Story: the stack and the headline are legible, and the bracelet reads below and right of them.
+
+**Copy** (`b04-8.copy.json`):
+- **Primary text:** the b04-2 brief's Prism text, unchanged. 171 characters; the offer ends at character 121. Waterproof appears only as the closing proof beat.
+- **Meta headline:** "Prism Bracelet · ₹2,399 · 10% off 2" (35).
+- **Description:** "Aqua, pink and pale yellow".
+- **URL:** `utm_term=b04-8_a1_prism`, UTM tags only.
+- **Lint:** clean.
+
+**Open:**
+- Re-read Prism stock before launch: 39 at the b04 pre-flight. Do not launch below 20.
+- Not scored. Both critics should score it on a single-winner sheet and name what lands first.
+
+### Learnings
+
+- Measure a worn wrist square to the limb's axis, taking the angle from both edges. A vertical extent × cos of a guessed angle overstated this wrist by about 6% and understated the scale (1.1× logged, 1.19× measured).
+- A worn piece on deep skin over a near-black ground can win the 200 px gate at 16–17% width, because it is the only high-luminance shape. The same piece on light skin, or on a light ground, would not.
