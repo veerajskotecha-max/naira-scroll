@@ -1,12 +1,5 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k03-4 V2 · Tubogas Dome Ring · the same picture, crop, device and footer as V1 with another PAIN hook: NOT OUT. (the umpire's decision: the ring never leaves play)
-     over the pain of the ring taken off to wash and lost, ended by the tagged claim (waterproof) · Feed 1080x1350.
-     Picture: pics/k03-4A.png (job a3239171-54fe-44a8-87e8-8562ab828235), used as it is. P 4 (T 23.4). Ring at Feed x 549-636, y 673.6-718.6; fist top 575.6.
-     Type ink: rail 88-121 (x 72-772, TAKEN OFF 0 in saffron); call Velista 120 one line, the same size as V1, ink 147-233 (x 73-594; 62 px clear of the fairy light at x 656);
-     beat 46, three lines, ink 294-436 (x 73-600), 250 px from the ring; device as V1 (stub and leader y 697.3, labels 715-776, bar 796-806, label 819-851);
-     footer ink 923-1144 on the band 856-1226. Scale 5.2 px per mm, no magnified line.
-     Contrast median (worst 2%): rail 18.0 (8.2), call 18.1 (8.4), beat 12.6 (11.6), labels 17.7-18.0 (11.6), footer 12.8 (9.8).
-     Render: failed, overflow, fallback, outside empty; minFont 22 (trust line footnote only); textShare .212. -->
+<!-- k03-4 V2 feed -->
 <style>
  body { background: #120405; }
  .rail { position: absolute; left: 72px; height: 34px; display: flex; align-items: center; white-space: nowrap;
@@ -21,21 +14,22 @@
  .call { position: absolute; left: 72px; color: var(--bone); white-space: nowrap; }
  .call .win { color: var(--saffron); }
  .beat { position: absolute; left: 72px; font-size: 46px; color: var(--gold-light); white-space: nowrap; line-height: 1.04; }
- .lab { position: absolute; left: 72px; white-space: nowrap; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 26px;
-        letter-spacing: .14em; text-transform: uppercase; line-height: 30px; }
- .lab i { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 32px; letter-spacing: 0; text-transform: none;
-          color: var(--gold-light); margin-left: 10px; }
- .band { position: absolute; left: 0; right: 0; }
+ .band, .floor { position: absolute; left: 0; right: 0; }
  .ftr { position: absolute; left: 72px; right: 72px; color: var(--bone); }
  .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
  .ftr .r1 b { font-weight: 600; margin-right: 8px; }
  .ftr .r2 { display: flex; align-items: center; gap: 30px; margin-top: 20px; }
- .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; font-variant-numeric: lining-nums; }
  .ftr .offer { flex: 1; text-align: center; border-color: var(--gold-light); white-space: nowrap; }
  .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 20px;
             border-top: 1.5px solid rgba(228,200,137,.5); }
  .ftr .r3 img { height: 56px; display: block; }
  .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: rgba(244,240,232,.86); white-space: nowrap; }
+
+ .tag { position: absolute; left: 72px; display: flex; align-items: center; gap: 14px; white-space: nowrap; color: var(--bone);
+        font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; line-height: 26px; }
+ .tag .tile { display: inline-block; padding: 6px 8px 5px 12px; border: 2px solid currentColor; line-height: 26px; }
+ .tag .tile.win { background: var(--saffron); border-color: var(--saffron); color: var(--ink); }
  .pic { object-position: 50% 4%; }
 </style></head>
 <body class="dark">
@@ -47,22 +41,22 @@
  <p class="h1 call" style="top:140px;font-size:120px" data-m="call">Not <span class="win">out.</span></p>
  <p class="beat" style="top:290px" data-m="beat">the ring you take off to wash<br>is the one that goes missing.<br>this one’s waterproof. leave it on.</p>
  <svg class="overlay" viewBox="0 0 1080 1350" style="height:1350px">
-   <g fill="none" stroke-linecap="round">
-    <path d="M88 697.3 H544" stroke="rgba(18,4,5,.55)" stroke-width="4" stroke-dasharray="0.1 7"/>
-    <path d="M88 697.3 H544" stroke="#E4C889" stroke-width="2" stroke-dasharray="0.1 7"/>
-    <circle cx="552" cy="697.3" r="5" stroke="rgba(18,4,5,.6)" stroke-width="4"/>
-    <circle cx="552" cy="697.3" r="5" stroke="#F4F0E8" stroke-width="2"/>
+   <g fill="none" stroke-linecap="butt">
+    <path d="M324 697 H547" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <path d="M324 697 H547" stroke="#F4F0E8" stroke-width="2"/>
+    <circle cx="552" cy="697" r="5" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <circle cx="552" cy="697" r="5" stroke="#F4F0E8" stroke-width="2"/>
+    <path d="M234 879 H545" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <path d="M234 879 H545" stroke="#F4F0E8" stroke-width="2"/>
+    <circle cx="550" cy="879" r="5" stroke="rgba(18,4,5,.6)" stroke-width="4"/>
+    <circle cx="550" cy="879" r="5" stroke="#F4F0E8" stroke-width="2"/>
    </g>
-   <rect x="72" y="692.3" width="3.5" height="10" fill="#F4F0E8"/>
-   <rect x="72.75" y="796.75" width="268.5" height="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/>
-   <g fill="#F4F0E8"><rect x="72" y="796" width="30" height="10"/><rect x="132" y="796" width="30" height="10"/><rect x="192" y="796" width="30" height="10"/><rect x="252" y="796" width="30" height="10"/><rect x="312" y="796" width="30" height="10"/></g>
  </svg>
- <div class="lab" style="top:714px" data-m="lab2">Ring<i>5.8 mm band</i></div>
- <div class="lab" style="top:748px" data-m="lab3">US 6, 7 or 8</div>
- <div class="lab" style="top:818px" data-m="lab1">Paraat<i>about 45 cm</i></div>
- <div class="band" style="top:856px;height:370px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,0.93) 54px,rgba(59,38,32,0.93) 314px,rgba(59,38,32,0) 370px)"></div>
- <div class="ftr" style="top:918px" data-m="card">
-  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · fine polished ridges · no stones</div>
+ <div class="tag" style="top:676.5px" data-m="tag1">Ring<span class="tile win">Not out</span></div>
+ <div class="tag" style="top:858.5px" data-m="tag2">Milk<span class="tile">Out</span></div>
+ <div class="band" style="top:890px;height:366px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,0.93) 48px,rgba(59,38,32,0.93) 310px,rgba(59,38,32,0) 366px)"></div>
+ <div class="ftr" style="top:944px" data-m="card">
+  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · 5.8 mm band · US 6, 7 or 8</div>
   <div class="r2"><span class="price">₹999</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
   <div class="r3"><img src="../../../ads-500/kit/logo_white.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
  </div>

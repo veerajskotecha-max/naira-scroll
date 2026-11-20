@@ -1,16 +1,5 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k03-4 V1 · Tubogas Dome Ring · camp k03 BEST OF THREE., card 4 (PAIN / TRUST), the bible's planned call, beat and layout · Feed 1080x1350.
-     Picture: pics/k03-4A.png (job a3239171-54fe-44a8-87e8-8562ab828235, 1536x2752), used as it is: nothing scaled, moved or edited; only the CSS window picks the crop.
-     P 4 (T 23.4). Ring (verifier box src x 781-904, y 992-1055) at Feed x 549-636, y 673.6-718.6; fist top Feed 575.6; milk crown from Feed 1228.6.
-     Scale 5.2 Feed px per mm, under 19: no 'Shown magnified' line; the size line RING 5.8 MM BAND / US 6, 7 OR 8 sits in the device.
-     Type ink (Chromium): rail 88-121 (x 72-811, live dot, saffron chalk tallies, HIM's hairline ring, STONES LOST 0 in saffron); call Velista 120 ink 147-351 (x 73-577);
-     beat Cormorant italic 46 ink 402-496 (x 73-504), 227 px from the ring. DEVICE, the two-row scale bar at one scale (0.6 px per mm, the verifier's left-of-palm fix):
-     the ring's 3.5 x 10 px stub at x 72, y 692.3-702.3, with a 2 px dotted leader (dark underlay) to a 10 px open circle on the ring's left end of metal (552, 697.3);
-     labels 715-747 and 753-776 (x 74-308); the paraat bar 270 px (45 cm) at y 796-806, x 72-342 (35 px from the palm); label 819-851 (x 74-336, 46 px from the hand).
-     Footer (structured F2: name + listing line, Cormorant 72 price, gold-light offer box to x 1008, hairline rule, 56 px wordmark, trust line) ink 923-1144 (x 72-1007)
-     on the cocoa #3B2620 band (.93) y 856-1226; nearest type to the ring 204 px.
-     Contrast median (worst 2%) against the rendered ground with the type hidden: rail 17.9 (8.1), call 18.1 (12.8), beat 12.6 (11.8), labels 17.7-18.0 (11.6), footer 12.8 (9.8).
-     Render: failed, overflow, fallback, outside empty; minFont 22 (the trust line footnote only; all other text 26 or more); textShare .231. -->
+<!-- k03-4 V1 feed -->
 <style>
  body { background: #120405; }
  .rail { position: absolute; left: 72px; height: 34px; display: flex; align-items: center; white-space: nowrap;
@@ -25,21 +14,24 @@
  .call { position: absolute; left: 72px; color: var(--bone); white-space: nowrap; }
  .call .win { color: var(--saffron); }
  .beat { position: absolute; left: 72px; font-size: 46px; color: var(--gold-light); white-space: nowrap; line-height: 1.04; }
- .lab { position: absolute; left: 72px; white-space: nowrap; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 26px;
-        letter-spacing: .14em; text-transform: uppercase; line-height: 30px; }
- .lab i { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 32px; letter-spacing: 0; text-transform: none;
-          color: var(--gold-light); margin-left: 10px; }
- .band { position: absolute; left: 0; right: 0; }
+ .band, .floor { position: absolute; left: 0; right: 0; }
  .ftr { position: absolute; left: 72px; right: 72px; color: var(--bone); }
  .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
  .ftr .r1 b { font-weight: 600; margin-right: 8px; }
  .ftr .r2 { display: flex; align-items: center; gap: 30px; margin-top: 20px; }
- .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; font-variant-numeric: lining-nums; }
  .ftr .offer { flex: 1; text-align: center; border-color: var(--gold-light); white-space: nowrap; }
  .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 20px;
             border-top: 1.5px solid rgba(228,200,137,.5); }
  .ftr .r3 img { height: 56px; display: block; }
  .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: rgba(244,240,232,.86); white-space: nowrap; }
+
+ .lab { position: absolute; left: 72px; white-space: nowrap; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 26px;
+        letter-spacing: .14em; text-transform: uppercase; line-height: 26px; }
+ .lab i { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px; letter-spacing: 0; text-transform: none;
+          color: var(--gold-light); margin-left: 8px; }
+ .aside { position: absolute; left: 72px; white-space: nowrap; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px;
+          line-height: 32px; color: var(--gold-light); margin: 0; }
  .pic { object-position: 50% 4%; }
 </style></head>
 <body class="dark">
@@ -51,22 +43,23 @@
  <p class="h1 call" style="top:140px;font-size:120px" data-m="call">Nothing<br><span class="win">to lose.</span></p>
  <p class="beat" style="top:398px" data-m="beat">no stones, no clasp, no gap.<br>only the milk falls off.</p>
  <svg class="overlay" viewBox="0 0 1080 1350" style="height:1350px">
-   <g fill="none" stroke-linecap="round">
-    <path d="M88 697.3 H544" stroke="rgba(18,4,5,.55)" stroke-width="4" stroke-dasharray="0.1 7"/>
-    <path d="M88 697.3 H544" stroke="#E4C889" stroke-width="2" stroke-dasharray="0.1 7"/>
-    <circle cx="552" cy="697.3" r="5" stroke="rgba(18,4,5,.6)" stroke-width="4"/>
-    <circle cx="552" cy="697.3" r="5" stroke="#F4F0E8" stroke-width="2"/>
+   <g fill="none" stroke-linecap="butt">
+    <path d="M309 697 H547" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <path d="M309 697 H547" stroke="#F4F0E8" stroke-width="2"/>
+    <circle cx="552" cy="697" r="5" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <circle cx="552" cy="697" r="5" stroke="#F4F0E8" stroke-width="2"/>
+    <path d="M72.5 726 V760" stroke="#F4F0E8" stroke-width="1"/>
    </g>
-   <rect x="72" y="692.3" width="3.5" height="10" fill="#F4F0E8"/>
-   <rect x="72.75" y="796.75" width="268.5" height="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/>
-   <g fill="#F4F0E8"><rect x="72" y="796" width="30" height="10"/><rect x="132" y="796" width="30" height="10"/><rect x="192" y="796" width="30" height="10"/><rect x="252" y="796" width="30" height="10"/><rect x="312" y="796" width="30" height="10"/></g>
+   <rect x="72" y="730" width="3.5" height="10" fill="#F4F0E8"/>
+   <rect x="72.75" y="746.75" width="268.5" height="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/>
+   <g fill="#F4F0E8"><rect x="72" y="746" width="30" height="10"/><rect x="132" y="746" width="30" height="10"/><rect x="192" y="746" width="30" height="10"/><rect x="252" y="746" width="30" height="10"/><rect x="312" y="746" width="30" height="10"/></g>
  </svg>
- <div class="lab" style="top:714px" data-m="lab2">Ring<i>5.8 mm band</i></div>
- <div class="lab" style="top:748px" data-m="lab3">US 6, 7 or 8</div>
- <div class="lab" style="top:818px" data-m="lab1">Paraat<i>about 45 cm</i></div>
- <div class="band" style="top:856px;height:370px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,0.93) 54px,rgba(59,38,32,0.93) 314px,rgba(59,38,32,0) 370px)"></div>
+ <div class="lab" style="top:684px" data-m="lab1">Ring · 5.8 mm</div>
+ <div class="lab" style="top:770px;line-height:30px" data-m="lab2">Paraat<i>about 45 cm</i></div>
+ <p class="aside" style="top:802px" data-m="aside">same scale. now find it.</p>
+ <div class="band" style="top:856px;height:396px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,0.93) 54px,rgba(59,38,32,0.93) 340px,rgba(59,38,32,0) 396px)"></div>
  <div class="ftr" style="top:918px" data-m="card">
-  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · fine polished ridges · no stones</div>
+  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · 5.8 mm band · US 6, 7 or 8</div>
   <div class="r2"><span class="price">₹999</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
   <div class="r3"><img src="../../../ads-500/kit/logo_white.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
  </div>

@@ -45,3 +45,5 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
     worn listing photo as reference 3) is worth using for any piece that keeps drifting large, when the listing has one.
 12. **Woven scale reference.** Woven Gold Hoops also carry a third reference: the listing's worn photo 05 cropped to the ear and
     hoop (no face), `refs/woven-gold-hoops/05_ear_crop.jpg`, media id ea0201cf-5eb2-4d42-a9b3-7b6bd230a42c (card "scaleRef").
+13. **Ribbon Bead Bracelet scale reference:** listing worn photo 02 cropped to the wrist (no face),
+    `refs/ribbon-bead-bracelet/02_wrist_crop.jpg`, media id 6bdbd714-033f-46f3-ac6d-c9b417fefbb8 (card "scaleRef").

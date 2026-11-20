@@ -1,0 +1,110 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!--
+draft
+-->
+<style>
+
+ body { background: #140D0C; }
+ .pic { object-position: 50% 34%; }
+ svg.fx { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; }
+ .scrim { position: absolute; left: 0; top: 0; right: 0; bottom: 0; pointer-events: none; }
+ .rail { position: absolute; margin: 0; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .2em;
+         text-transform: uppercase; color: rgba(244,240,232,.86); white-space: nowrap; }
+ .rail i { font-style: normal; color: var(--terracotta); filter: brightness(1.5); }
+ .q { position: absolute; margin: 0; font-family: var(--serif); font-weight: 600; line-height: 1; color: var(--terracotta); }
+ .h1 { position: absolute; color: var(--bone); white-space: nowrap; }
+ .beat { position: absolute; color: var(--gold-light); white-space: nowrap; }
+ /* THE KAL PAD: a tear-off date block, bone paper, oxblood glued top, torn stubs; every page says KAL */
+ .pad { position: absolute; transform-origin: 0 0; filter: drop-shadow(9px 11px 0 rgba(0,0,0,.62)); }
+ .pad .t { position: absolute; left: 0; right: 0; text-align: center; margin: 0; white-space: nowrap; }
+ .pad .mon { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .26em; color: var(--terracotta); line-height: 1; padding-left: .26em; }
+ .pad .kal { font-family: var(--display); text-transform: uppercase; color: var(--oxblood); line-height: 1; letter-spacing: .02em;
+             font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0; }
+ .pad .roz { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px; color: var(--ink); line-height: 1; }
+ /* THE KHATA PAGE: the last page of Didi's ledger, torn along the chain's path, oxblood cloth binding at the frame edge */
+ .pg { position: absolute; color: var(--ink); text-align: right; }
+ .pg .wm { display: block; height: 34px; width: auto; margin-left: auto; }
+ .pg .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .1em; text-transform: uppercase; line-height: 1; white-space: nowrap; }
+ .pg .price { font-family: var(--serif); font-weight: 500; font-size: 62px; line-height: .9; white-space: nowrap; font-feature-settings: "lnum" 1; }
+ .pg .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; line-height: 28px; white-space: nowrap; color: var(--ink-soft); }
+ .ob { position: relative; display: inline-block; border: 2px solid var(--ink); padding: 22px 18px 12px; text-align: center;
+       font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .1em; text-transform: uppercase; line-height: 32px; white-space: nowrap; }
+ .ob .lg { position: absolute; left: 50%; top: -17px; transform: translateX(-50%); background: #EFE9DE; padding: 0 10px 0 13px; letter-spacing: .26em; line-height: 32px; }
+ .ob .sep { display: block; position: relative; height: 18px; }
+ .ob .sep:before { content: ""; position: absolute; left: 10px; right: 10px; top: 8.5px; height: 1px; background: rgba(26,22,20,.35); }
+ .ob .sep:after { content: ""; position: absolute; left: 50%; top: 4px; width: 9px; height: 9px; margin-left: -4.5px; background: var(--terracotta); transform: rotate(45deg); box-shadow: 0 0 0 5px #EFE9DE; }
+ /* SIZE TAG: Jost caps in a 2 px bone frame, pinned to the barrel by a hairline */
+ .size { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; line-height: 34px;
+         color: var(--bone); border: 2px solid rgba(244,240,232,.9); padding: 10px 16px 8px; white-space: nowrap; }
+
+ .s-top { background: linear-gradient(180deg, rgba(16,9,9,.84) 0, rgba(16,9,9,.74) 200px, rgba(16,9,9,.42) 360px, rgba(16,9,9,0) 470px); }
+ .s-l { background: radial-gradient(ellipse 520px 760px at 0% 62%, rgba(14,8,8,.55) 0%, rgba(14,8,8,0) 100%); }
+
+</style></head>
+<body class="dark">
+<img class="pic" src="pics/k06-2A.png">
+<div class="scrim s-top"></div><div class="scrim s-l"></div>
+<p class="rail" style="left:72px;top:84px">Necklace <i>·</i> last seen in an auto</p>
+<p class="q" style="left:62px;top:96px;font-size:250px">“</p>
+<p class="h1" style="left:150px;top:134px;font-size:110px;line-height:.98">Kal wapas<br>kar dungi.</p>
+<p class="beat" style="right:72px;top:368px;font-size:36px;line-height:1.14;text-align:right">— Bhabhi, 8 Nov, in an auto to a sangeet.<br>The potli came back on the 9th. Empty.</p>
+<div class="pad" style="left:84px;top:612px;width:170px;height:236px;transform:rotate(-3deg)">
+ <svg class="fx" width="182" height="248" viewBox="0 0 182 248" style="left:0;top:0">
+  <defs><filter id="pn3" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="3"/>
+   <feColorMatrix values="0 0 0 0 .42  0 0 0 0 .33  0 0 0 0 .24  0 0 0 .22 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs>
+  <rect x="6" y="7" width="170" height="236" fill="#BDB3A2"/>
+  <rect x="3" y="3.5" width="170" height="236" fill="#D8CFC0"/>
+  <rect x="0" y="0" width="170" height="236" fill="#F4F0E8"/>
+  <rect x="0" y="0" width="170" height="236" fill="#000" filter="url(#pn3)"/>
+  <path d="M0.0 24.0 L0.0 33.4 L4.0 33.4 L8.1 34.6 L12.1 33.8 L16.2 33.1 L20.2 31.7 L24.3 37.9 L28.3 34.9 L32.4 32.4 L36.4 33.9 L40.5 34.0 L44.5 31.1 L48.6 35.5 L52.6 34.1 L56.7 30.4 L60.7 35.3 L64.8 32.3 L68.8 32.0 L72.9 32.4 L76.9 33.4 L81.0 31.2 L85.0 32.1 L89.0 33.0 L93.1 33.8 L97.1 34.8 L101.2 33.3 L105.2 34.0 L109.3 35.7 L113.3 31.3 L117.4 35.3 L121.4 32.6 L125.5 31.8 L129.5 29.8 L133.6 32.8 L137.6 33.8 L141.7 34.4 L145.7 32.2 L149.8 30.4 L153.8 32.1 L157.9 30.8 L161.9 33.4 L166.0 34.9 L170.0 33.0 L170.0 24.0 Z" fill="#E6DFD2"/>
+  <path d="M0.0 18.0 L0.0 24.8 L5.0 25.4 L10.0 27.1 L15.0 23.9 L20.0 24.9 L25.0 28.2 L30.0 27.5 L35.0 26.6 L40.0 26.6 L45.0 26.1 L50.0 27.4 L55.0 27.1 L60.0 24.3 L65.0 27.6 L70.0 27.0 L75.0 26.9 L80.0 25.5 L85.0 25.8 L90.0 29.2 L95.0 24.4 L100.0 28.0 L105.0 26.6 L110.0 26.0 L115.0 25.3 L120.0 26.4 L125.0 26.8 L130.0 27.6 L135.0 26.8 L140.0 27.6 L145.0 27.8 L150.0 26.9 L155.0 27.5 L160.0 24.2 L165.0 27.6 L170.0 26.0 L170.0 18.0 Z" fill="#FBF8F3" stroke="rgba(26,22,20,.18)" stroke-width="1"/>
+  <rect x="0" y="0" width="170" height="19" fill="#6E1F23"/>
+  <rect x="0" y="16" width="170" height="3" fill="#4E1418"/>
+  <circle cx="85.0" cy="9.5" r="4.6" fill="#140D0C" stroke="#9A4A4E" stroke-width="1.2"/>
+</svg>
+ <p class="t mon" style="top:40px">Nov</p>
+ <p class="t kal" style="top:84px;font-size:84px">Kal</p>
+ <p class="t roz" style="top:186px">har roz</p>
+</div>
+<svg class="fx" width="1080" height="1920" viewBox="0 0 1080 1920" style="filter: drop-shadow(-7px 10px 0 rgba(0,0,0,.5))">
+  <defs>
+   <clipPath id="kp11"><path d="M1100.0 878.2 L1093.9 875.9 L1087.9 878.2 L1081.8 879.9 L1075.7 877.7 L1069.7 880.6 L1063.6 880.7 L1057.5 876.8 L1051.4 876.3 L1045.4 878.1 L1039.4 882.4 L1033.2 878.9 L1027.2 880.9 L1021.1 881.8 L1015.0 879.8 L1009.0 879.5 L1002.9 879.7 L996.8 880.0 L990.7 877.3 L984.7 878.2 L978.6 881.0 L972.6 882.3 L966.5 878.9 L960.4 878.6 L954.3 878.1 L948.3 883.2 L942.2 878.6 L936.1 878.3 L930.1 883.1 L924.0 879.6 L918.0 883.2 L911.8 878.8 L905.8 883.3 L899.8 885.4 L893.6 880.0 L887.6 881.3 L881.5 883.3 L875.5 883.7 L869.4 883.9 L863.3 883.5 L857.2 879.7 L851.2 883.3 L845.1 883.8 L839.0 880.6 L833.0 884.6 L826.9 884.1 L820.8 881.3 L814.8 884.9 L808.7 885.1 L802.6 884.4 L796.6 883.8 L790.4 880.9 L784.4 883.0 L778.4 885.1 L772.2 881.5 L766.2 885.0 L760.1 882.5 L754.1 885.5 L748.0 884.0 L745.7 890.1 L748.9 897.3 L746.0 903.3 L742.1 909.1 L741.8 915.6 L743.4 922.4 L742.1 928.7 L741.6 935.2 L740.3 941.5 L737.4 947.5 L730.8 952.9 L736.9 960.7 L732.5 966.1 L728.0 971.6 L732.4 979.0 L730.9 985.2 L726.3 990.6 L723.2 996.4 L726.5 1003.6 L723.6 1009.4 L720.9 1015.2 L721.6 1021.9 L717.3 1027.4 L714.2 1033.1 L716.9 1040.3 L712.6 1045.6 L714.1 1052.9 L710.3 1058.3 L705.2 1063.3 L708.0 1071.1 L703.2 1076.2 L702.4 1082.7 L699.1 1088.3 L698.7 1094.9 L696.0 1100.9 L694.3 1107.3 L689.8 1112.4 L689.0 1119.2 L685.4 1124.8 L681.1 1130.1 L678.5 1136.1 L677.9 1142.9 L674.0 1148.4 L669.0 1153.3 L671.3 1160.7 L664.8 1165.7 L668.5 1173.0 L666.9 1179.1 L659.3 1183.9 L661.0 1190.8 L660.9 1197.2 L656.1 1202.6 L658.7 1209.6 L655.7 1215.4 L655.7 1221.9 L650.2 1227.1 L652.8 1234.2 L651.5 1240.1 L649.3 1246.1 L647.5 1252.1 L649.8 1258.5 L646.5 1264.3 L649.7 1270.8 L647.2 1276.7 L646.5 1282.8 L645.1 1288.9 L642.2 1294.7 L642.7 1301.0 L643.3 1307.2 L641.4 1313.2 L643.8 1319.5 L640.6 1325.4 L644.9 1332.0 L638.4 1337.5 L637.9 1343.6 L639.8 1350.0 L641.6 1356.2 L641.0 1362.5 L637.0 1368.8 L639.7 1375.0 L642.6 1381.2 L638.6 1387.5 L641.7 1393.8 L640.0 1400.0 L1100.0 1400.0 Z"/></clipPath>
+   <filter id="kn11" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="11"/>
+    <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .25  0 0 0 .2 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+   <linearGradient id="kf11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#2A1A12" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <g clip-path="url(#kp11)">
+   <rect x="560" y="844" width="560" height="576" fill="#EFE9DE"/>
+   <rect x="560" y="844" width="560" height="576" fill="#000" filter="url(#kn11)"/>
+   <g stroke="#9EC3D6" stroke-opacity=".55" stroke-width="1.5"><line x1="600" x2="1036" y1="914" y2="914"/><line x1="600" x2="1036" y1="956" y2="956"/><line x1="600" x2="1036" y1="998" y2="998"/><line x1="600" x2="1036" y1="1040" y2="1040"/><line x1="600" x2="1036" y1="1082" y2="1082"/><line x1="600" x2="1036" y1="1124" y2="1124"/><line x1="600" x2="1036" y1="1166" y2="1166"/><line x1="600" x2="1036" y1="1208" y2="1208"/><line x1="600" x2="1036" y1="1250" y2="1250"/><line x1="600" x2="1036" y1="1292" y2="1292"/><line x1="600" x2="1036" y1="1334" y2="1334"/><line x1="600" x2="1036" y1="1376" y2="1376"/></g>
+   <line x1="1016" x2="1016" y1="854" y2="1400" stroke="#B5502F" stroke-width="2"/>
+   <line x1="1024" x2="1024" y1="854" y2="1400" stroke="#B5502F" stroke-width="2"/>
+   <rect x="1036" y="844" width="80" height="576" fill="#6E1F23"/>
+   <rect x="1036" y="844" width="5" height="576" fill="#4A1216"/>
+   <line x1="1059" x2="1059" y1="854" y2="1400" stroke="#F4F0E8" stroke-width="2.4" stroke-dasharray="10 8"/>
+   <rect x="560" y="844" width="560" height="576" fill="url(#kf11)"/>
+  </g>
+</svg>
+<svg class="fx" width="1080" height="1920" viewBox="0 0 1080 1920" style="mix-blend-mode: multiply">
+  <defs><filter id="std" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="2" seed="5" result="w"/>
+    <feDisplacementMap in="SourceGraphic" in2="w" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+    <feTurbulence type="fractalNoise" baseFrequency=".55" numOctaves="2" seed="8" result="n"/>
+    <feColorMatrix in="n" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 1.75" result="m"/>
+    <feComposite in="d" in2="m" operator="in"/></filter></defs>
+  <g transform="rotate(-8 918 1062)" filter="url(#std)" fill="none" stroke="#B5502F" opacity=".92">
+   <circle cx="918" cy="1062" r="74" stroke-width="4.5"/>
+   <circle cx="918" cy="1062" r="65" stroke-width="1.6"/>
+   <circle cx="918" cy="1062" r="53" stroke-width="1.2" stroke-dasharray="1.5 5.2" stroke-linecap="round"/>
+   <line x1="874" x2="962" y1="1064" y2="1064" stroke-width="1.4"/>
+  </g>
+</svg>
+<div class="pg" style="right:76px;top:906px">
+ <img class="wm" src="../../../ads-500/kit/logo_ink.png">
+ <div class="name" style="margin-top:22px">Charm Box Chain</div>
+ <div class="price" style="margin-top:14px">₹1,199</div>
+ <div style="margin-top:30px"><div class="ob"><span class="lg">Codes</span>BUY2 · 10% off<span class="sep"></span>BUY3 · 20% off</div></div>
+ <div class="trust" style="margin-top:16px">Free insured shipping<br>Cash on delivery</div>
+</div>
+<div class="size" style="left:72px;top:1094px">Barrel about 10 mm<br>Box chain 2.5 mm<br>50 cm long</div>
+</body></html>

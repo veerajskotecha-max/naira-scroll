@@ -1,12 +1,5 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k03-4 V1 Story twin · Tubogas Dome Ring · the whole 9:16 frame (Story y = src y x 0.703125 - 7.5) · Story 1080x1920.
-     Picture: pics/k03-4A.png (job a3239171-54fe-44a8-87e8-8562ab828235), used as it is; nothing scaled, moved or edited.
-     Ring at Story x 549-636, y 689.5-734.5; fist top 591.5; the milk crown and paraat show below the band from Story 1245.
-     Type ink: rail 274-307 (x 72-811); call Velista 120 ink 329-533 (x 73-577); beat 46 ink 572-666 (x 73-504; 37 px from the knuckles, 96 px from the ring);
-     device as the Feed: stub and dotted leader at y 713.2 to the open circle on the ring's left end (552, 713.2), labels 731-763 and 769-792, paraat bar 812-822 (x 72-342),
-     label 835-867 (45 px from the hand); footer ink 1017-1238 on the cocoa band 952-1266; offer printed. Scale 5.2 px per mm, no magnified line.
-     Contrast median (worst 2%): rail 17.8 (7.9), call 18.1 (13.0), beat 12.6 (11.5), labels 17.7-18.0 (11.6), footer 12.8 (9.8).
-     Render: failed, overflow, fallback, outside empty; minFont 22 (trust line footnote only); textShare .157. -->
+<!-- k03-4 V1 story -->
 <style>
  body { background: #120405; }
  .rail { position: absolute; left: 72px; height: 34px; display: flex; align-items: center; white-space: nowrap;
@@ -21,24 +14,28 @@
  .call { position: absolute; left: 72px; color: var(--bone); white-space: nowrap; }
  .call .win { color: var(--saffron); }
  .beat { position: absolute; left: 72px; font-size: 46px; color: var(--gold-light); white-space: nowrap; line-height: 1.04; }
- .lab { position: absolute; left: 72px; white-space: nowrap; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 26px;
-        letter-spacing: .14em; text-transform: uppercase; line-height: 30px; }
- .lab i { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 32px; letter-spacing: 0; text-transform: none;
-          color: var(--gold-light); margin-left: 10px; }
- .band { position: absolute; left: 0; right: 0; }
+ .band, .floor { position: absolute; left: 0; right: 0; }
  .ftr { position: absolute; left: 72px; right: 72px; color: var(--bone); }
  .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
  .ftr .r1 b { font-weight: 600; margin-right: 8px; }
  .ftr .r2 { display: flex; align-items: center; gap: 30px; margin-top: 20px; }
- .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; font-variant-numeric: lining-nums; }
  .ftr .offer { flex: 1; text-align: center; border-color: var(--gold-light); white-space: nowrap; }
  .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 20px;
             border-top: 1.5px solid rgba(228,200,137,.5); }
  .ftr .r3 img { height: 56px; display: block; }
  .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: rgba(244,240,232,.86); white-space: nowrap; }
+
+ .lab { position: absolute; left: 72px; white-space: nowrap; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 26px;
+        letter-spacing: .14em; text-transform: uppercase; line-height: 26px; }
+ .lab i { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px; letter-spacing: 0; text-transform: none;
+          color: var(--gold-light); margin-left: 8px; }
+ .aside { position: absolute; left: 72px; white-space: nowrap; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px;
+          line-height: 32px; color: var(--gold-light); margin: 0; }
 </style></head>
 <body class="dark story">
  <img class="pic" src="pics/k03-4A.png" alt="">
+ <div class="floor" style="top:1690px;height:230px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,.62) 60px,rgba(59,38,32,.95) 110px,rgba(59,38,32,.95) 230px)"></div>
  <div class="rail" style="top:274px" data-m="rail"><span class="dot"></span>Decision<span class="s">·</span>Her
    <svg width="40" height="34" viewBox="0 0 40 34" style="margin-left:12px"><defs><filter id="chalk" x="-50%" y="-20%" width="200%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter></defs>
      <g stroke="#E8A33A" stroke-width="3" stroke-linecap="round" filter="url(#chalk)"><path d="M8 3 L7 31"/><path d="M19 2 L18.5 31"/><path d="M30 3 L29 32"/></g></svg>
@@ -46,22 +43,23 @@
  <p class="h1 call" style="top:322px;font-size:120px" data-m="call">Nothing<br><span class="win">to lose.</span></p>
  <p class="beat" style="top:568px" data-m="beat">no stones, no clasp, no gap.<br>only the milk falls off.</p>
  <svg class="overlay" viewBox="0 0 1080 1920" style="height:1920px">
-   <g fill="none" stroke-linecap="round">
-    <path d="M88 713.2 H544" stroke="rgba(18,4,5,.55)" stroke-width="4" stroke-dasharray="0.1 7"/>
-    <path d="M88 713.2 H544" stroke="#E4C889" stroke-width="2" stroke-dasharray="0.1 7"/>
-    <circle cx="552" cy="713.2" r="5" stroke="rgba(18,4,5,.6)" stroke-width="4"/>
-    <circle cx="552" cy="713.2" r="5" stroke="#F4F0E8" stroke-width="2"/>
+   <g fill="none" stroke-linecap="butt">
+    <path d="M309 713 H547" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <path d="M309 713 H547" stroke="#F4F0E8" stroke-width="2"/>
+    <circle cx="552" cy="713" r="5" stroke="rgba(18,4,5,.42)" stroke-width="4"/>
+    <circle cx="552" cy="713" r="5" stroke="#F4F0E8" stroke-width="2"/>
+    <path d="M72.5 742 V776" stroke="#F4F0E8" stroke-width="1"/>
    </g>
-   <rect x="72" y="708.2" width="3.5" height="10" fill="#F4F0E8"/>
-   <rect x="72.75" y="812.75" width="268.5" height="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/>
-   <g fill="#F4F0E8"><rect x="72" y="812" width="30" height="10"/><rect x="132" y="812" width="30" height="10"/><rect x="192" y="812" width="30" height="10"/><rect x="252" y="812" width="30" height="10"/><rect x="312" y="812" width="30" height="10"/></g>
+   <rect x="72" y="746" width="3.5" height="10" fill="#F4F0E8"/>
+   <rect x="72.75" y="762.75" width="268.5" height="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/>
+   <g fill="#F4F0E8"><rect x="72" y="762" width="30" height="10"/><rect x="132" y="762" width="30" height="10"/><rect x="192" y="762" width="30" height="10"/><rect x="252" y="762" width="30" height="10"/><rect x="312" y="762" width="30" height="10"/></g>
  </svg>
- <div class="lab" style="top:730px" data-m="lab2">Ring<i>5.8 mm band</i></div>
- <div class="lab" style="top:764px" data-m="lab3">US 6, 7 or 8</div>
- <div class="lab" style="top:834px" data-m="lab1">Paraat<i>about 45 cm</i></div>
+ <div class="lab" style="top:700px" data-m="lab1">Ring · 5.8 mm</div>
+ <div class="lab" style="top:786px;line-height:30px" data-m="lab2">Paraat<i>about 45 cm</i></div>
+ <p class="aside" style="top:818px" data-m="aside">same scale. now find it.</p>
  <div class="band" style="top:952px;height:314px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,0.93) 52px,rgba(59,38,32,0.93) 286px,rgba(59,38,32,0) 314px)"></div>
  <div class="ftr" style="top:1012px" data-m="card">
-  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · fine polished ridges · no stones</div>
+  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · 5.8 mm band · US 6, 7 or 8</div>
   <div class="r2"><span class="price">₹999</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
   <div class="r3"><img src="../../../ads-500/kit/logo_white.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
  </div>
