@@ -28,6 +28,7 @@ Take A is therefore each card's planned `prompt` from crazy100.json. The only ch
 All five product-card locks are in their prompts word for word, punctuation aside, each with its "must stay X, never Y" clause. There are three deliberate differences:
 - card 4: "chunky huggie hoops" became "chunky hoops that hug the lobe", and "silver-looking" became "reading as silver tone" (lint);
 - card 5: the lock's "18k gold tone or rhodium silver tone" is narrowed to "18k gold tone", the variant shown (Gold, the card's variant line).
+- card 5: the lock's "(tubogas)" is left out of the shipped prompt, as in the plan's own prompt. It is the name of a famous designer line, and the product card's copy notes say to avoid designer or brand names for the snake-coil style. It was restored in the first submission, and that job failed (see below).
 
 Reference media ids are the product cards' `mediaIds`, reference 1 first.
 
@@ -123,6 +124,8 @@ Reference media ids are the product cards' `mediaIds`, reference 1 first.
 
 ### k04-5A · Triple Coil Wrap Bangle  (lint: clean)
 
+Edit 2 below was reverted at resubmission (see "Resubmission edits"): "(tubogas)" is out of the shipped prompt.
+
 1. Standard reference sentence (task rule). Ref 2 (03.jpg) is a worn photo with her lips and nose in frame, so only the piece, its sit on the wrist and its scale are taken from it (no-face hard rule).
    - was: `Reference 1 is the authority on this exact piece; reference 2 confirms the 2 turns and the 2 caps on a wrist.`
    - now: `Reference 1 is the authority on this exact piece: copy its construction exactly and ignore its background and light. Reference 2 is a detail of the same piece. It confirms the 2 turns and the 2 caps on a wrist. Use reference 2 only for the piece, how it sits on the wrist and its true size there; take nothing else from it: not the person, her face, lips, clothes or background.`
@@ -176,3 +179,51 @@ Every prompt was checked for:
 - the required parts: 9:16, the exact reference sentence, the lock and must-stay clause, mm, a contact shadow, the small hard specular kicker, calm areas, the exact no-text clause, no face, no eyes, no eyebrows, and one product.
 
 All 6 prompts are clean. "Gold" appears only as "18k gold tone", and "silver" only as "rhodium silver tone" or "silver tone".
+
+## Resubmission edits (trigger words removed, one per failed job)
+
+All 5 jobs accepted in round 1 failed with the same generic error ("Something went wrong. Please try again, or change your input files or prompt."). All 5 were refunded (transactions 17:52:11-17:52:44Z). No nsfw or ip flag was returned. Each was resubmitted once, as the role allows, with its likeliest trigger removed. `prompts.json` holds the prompts as they were finally generated.
+
+| Slot | Removed | Why this word |
+|---|---|---|
+| k04-1A | "at chest height" became "in front of her" | b04: a worn prompt worded around the chest was refused by the safety filter |
+| k04-2B | "intimate" (in "an intimate close crop") | the one body-and-skin intensifier in a nape prompt |
+| k04-3A | "on a bed" (in "a close still life on a bed at night") | a sleeping woman on a bed; the oxblood bedsheet stays in the scene |
+| k04-4A | "pay" (in "a small plain pay envelope") | money context, next to the "no money, no notes" negatives |
+| k04-5A | "(tubogas)" | the name of a famous designer line (a possible ip trigger, and the copy notes ban brand names for the style); this also reverts conformance edit 5.2 |
+
+All five failed together, so the cause was probably on the backend rather than in the words. The removals cost nothing in the idea or the lock, apart from the lock note above.
+
+## Generation record
+
+- **Balance:** 326.46 before and 302.46 after.
+  - This batch spent 12 credits net: 6 pictures at 2 credits (transactions 17:54:15-17:54:16Z).
+  - The 5 failed jobs were charged at 17:51:38Z and refunded.
+  - The other 12 credits in the drop (17:50:07-17:50:45Z) were spent by another session.
+- **Model:** every job was requested as `nano_banana_pro` and served as `nano_banana_2`, at 1536 x 2752.
+- **Rounds:**
+  1. One call with all 6 items: all 6 refused with `submission_failed` (429), so none was submitted.
+  2. A resubmission of all 6: 5 accepted, k04-2A refused again (429).
+  3. After one jobs_wait round, k04-2A alone: refused again (429). The 5 accepted jobs then failed with the generic error, all within about a minute.
+  4. k04-2A unchanged plus the 5 failed jobs with their trigger words removed: all 6 accepted and completed.
+
+  No item had an unknown outcome.
+- **Files:** `pics/k04-1A.png`, `k04-2A`, `k04-2B`, `k04-3A`, `k04-4A` and `k04-5A`. `jobs.json` holds no URLs, and the first-failure job ids are kept in each row's `submitted_at` note.
+
+## Shooter's first look (not the verification pass)
+
+- **k04-1A.** The pair lies in her palm, one hoop flat showing the chevron plait and one standing, with the disc and latch. The braid reads as a many-wire open plait, never a tube. No eye or face is visible, and the hands are bare. Notes for the verifier:
+  - The hoops sit left of centre, at about 30-55% across and about half-way down, not right of centre. Check the layout against the ladder column.
+  - The "faint haldi stain on the right index fingertip" came out as strong yellow on several fingertips at the left.
+  - Check the hoop's scale against her thumb joint (25 mm).
+- **k04-2A.** The daughter's hands hold the sailor ring upright, with its gate collar and nub, beside the straight one-row stone bar. It is not threaded through. Neither a donut ring nor a lobster clasp, the clasp sits at about 43% down, and no face shows. Count the stones on the bar and check the bar against the ring (0.6-0.7x).
+- **k04-2B.** The clasp is closed in the reference-2 pose: the bar across the upper left of the ring, the stones to the camera, and the ribbed gate collar and nub at the right. The fingertips are on the chain and off the jewel, and there is no face. Fine natural hairs on the nape are in sharp focus. The clasp sits at about 58% down, lower than the asked 33-50%, so check the Story card zone.
+- **k04-3A.** The S-wave of clear pavé cups the green ovals on alternating sides, and the back reads open. The thread loop is on her ring finger. Check this one: the ring seems to sit at the tip of her middle finger as if worn, against "the ring never on any finger". It is no hard-rule fault, but it weakens "the thread was never needed".
+- **k04-4A.** The satin held: matte brushed, one barrel face and one C, standing on the torn envelope. His hand pushes from the bottom and her fingertips press from the upper right, and neither touches the pair. The envelope is blank. Check the scale (14 mm) against her fingertips.
+- **k04-5A.**
+  - Cool 7 am steel, the tap running, and three tiffin containers (one held, two on the board), with a mustard sleeve.
+  - The wrap shows two ribbed turns with two pavé caps crossing at the front. Count the turns and the 2 x 4 stones at full size.
+  - The bangle sits on the wrist reaching for the container, with no droplets visible on the ribs.
+  - The piece sits just right of centre (about 49-62% across) and about 49-58% down, a little lower than the middle band asked. Check the card zone.
+
+No generated text, logos, faces or extra jewellery were seen at contact-sheet size in any of the six. The full verification is the verifier's.
