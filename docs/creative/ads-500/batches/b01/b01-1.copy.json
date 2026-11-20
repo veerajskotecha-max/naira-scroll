@@ -11,7 +11,7 @@
   "beat": "priced like a present.",
   "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
   "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": null,
+  "sizeTag": "Feed only: HALO ABOUT 12 MM ACROSS (one plain centred line, kit .sizetag look without the box, Jost 500 caps 26 px .12em bone). Story: none (the named no-text control).",
   "callouts": []
  },
  "meta": {
@@ -79,5 +79,65 @@
   "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
   "verdict": "ship (re-scored in b04 after the b03 loop change 1 offer fix 'CODES BUY2': A 7.5, B 7.55; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither. The Story stays the named no-text control) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6.5, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 45 at 20 Nov 2026, 00:27 UTC.",
   "date": "19 Nov 2026, 23:35 UTC"
- }
+ },
+ "layout": {
+  "scale": "Measured on the Feed JPG (20 Nov 2026, z2): the halo's widest row (y 518-530) runs x 441-641 = 201 px for the listed 12 mm = 16.7 Feed px/mm; the stone's girdle is about 137 px for 8 mm = 17.1 px/mm. Under the 19 px/mm trigger (about life size on a phone), so the line states the size plainly with no 'magnified'.",
+  "feed": "Unchanged: headline Velista 76 gold-light at left 72 / 232, top 96 / 174; beat Cormorant italic 48 bone at left 232, top 262 (ink x 232-574, y 266-313); scrim 866-1066; card top 920 (wordmark, name, price, line, offer box 1170-1232). New (z2): size line 'HALO ABOUT 12 MM ACROSS' centred on the ring's axis, line box x 325-756, y 392-430 (ink x 326-750, y 401-420), in the plain oxblood above the ring's head; its box bottom is 25 px over the ring's top (prong and glint at y 455) and its ink is 88 px under the beat's ink. Ring x 372-715, y 455-845. No type over the ring. The two places the audit named do not hold one line: between the ring's foot (845) and the wordmark (920) is the lit velvet top with the ring's shadow (L 13-110, 75 px tall), and beside the ring leaves under 300 px a side (one 26 px line needs 431 px; two lines would take the text share over 14%).",
+  "contrast": "Size line, bone on the picture under its line box (median, worst 2%): 15.5 (15.0); ground median rgb 40,19,21. Beat 16.9 (15.5) for reference.",
+  "story": "Native 9:16 frame, no text, no logo: the named no-text control. Re-rendered in z2; byte-identical to the 19 Nov 16:46 render.",
+  "checks": {
+   "feed": {
+    "out": "b01-1_feed.jpg",
+    "size": "1080x1350",
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0.139,
+    "outside": [],
+    "minFont": 26
+   },
+   "story": {
+    "out": "b01-1_story.jpg",
+    "size": "1080x1920",
+    "failed": [],
+    "overflow": [],
+    "fallback": [],
+    "textShare": 0,
+    "outside": [],
+    "minFont": null
+   }
+  },
+  "textShare": "Feed 0.127 -> 0.139 (A6 limit 0.14). Story 0.",
+  "minFont": "Feed 26. Story has no text (null)."
+ },
+ "copyChanges": [
+  {
+   "date": "20 Nov 2026",
+   "round": "z2",
+   "change": "Feed only: added one plain Jost size line 'HALO ABOUT 12 MM ACROSS' (kit .sizetag look without the box, Jost 500 caps 26 px, .12em, bone), centred on the ring's axis at line box y 392-430 above the ring's head. Measured 16.7 Feed px/mm on the halo (201 px for 12 mm; stone 17.1 px/mm), under 19, so no 'magnified'. Placed above the ring because the two named spots do not hold one line (lit velvet and shadow between the ring and the wordmark; under 300 px beside the ring). Story untouched (no-text control), re-rendered only. No meta change.",
+   "why": "Audit (z2, critic B, truth under the ship bar of 8): \"magnified with no size tag; the side view hides the cushion halo\".",
+   "render": {
+    "feed": {
+     "out": "b01-1_feed.jpg",
+     "size": "1080x1350",
+     "failed": [],
+     "overflow": [],
+     "fallback": [],
+     "textShare": 0.139,
+     "outside": [],
+     "minFont": 26
+    },
+    "story": {
+     "out": "b01-1_story.jpg",
+     "size": "1080x1920",
+     "failed": [],
+     "overflow": [],
+     "fallback": [],
+     "textShare": 0,
+     "outside": [],
+     "minFont": null
+    }
+   }
+  }
+ ]
 }

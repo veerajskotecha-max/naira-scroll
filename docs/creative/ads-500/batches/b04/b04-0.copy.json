@@ -1,166 +1,218 @@
 {
- "id": "b04-0",
- "handle": "monochrome-enamel-hoops",
- "product": "Monochrome Enamel Hoops",
- "price": 999,
- "archetype": "A1 Product Card (card only, no headline on the Feed) on the A13 float picture; the zero-credit rescue of b03-4 (b03 loop change 3), with the A13 headline on the Story only",
- "light": "L6 (as asked and as rendered: one large soft light directly overhead casting each hoop's shadow straight down as a soft rounded parallelogram, plus a small front-left kicker drawing a bright line on each gold-tone rail)",
- "camera": "C2 (100 mm lens, low hero camera about 12 degrees above the floor, the pair upright and turned three-quarters to the camera as in the pack ref)",
- "picture": "../b03/pics/b03-4_try1.png (b03-4 try 1, job 394dd5a7-2134-4249-8675-3519d5c9ab97); no credit spent; nothing scaled, moved or edited",
- "onImage": {
-  "headline": "Story only: BLACK. WHITE. GOLD TONE. (one line, Velista 72; GOLD TONE. in gold-light). Feed: none (A1).",
-  "beat": null,
-  "cardLine": "black and white enamel · gold tone",
-  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": "SHOWN MAGNIFIED · ABOUT 20 MM TALL as one plain 26 px line with no box, on Feed and Story (products.md lists the hoops at about 20 mm tall, so the tag is unchanged from the loop's wording).",
-  "callouts": []
- },
- "meta": {
-  "primaryText": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
-  "headline": "Monochrome Hoops · ₹999 · 10% off 2",
-  "description": "Black and white enamel",
-  "cta": "Shop Now",
-  "url": "https://www.nairaflore.com/products/monochrome-enamel-hoops?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-0_a1_monochrome-float"
- },
- "story": {
-  "text": [
-   "NAIRA wordmark (logo_white)",
-   "BLACK. WHITE. GOLD TONE. (GOLD TONE. in gold-light)",
-   "MONOCHROME ENAMEL HOOPS  ₹999",
-   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-   "SHOWN MAGNIFIED · ABOUT 20 MM TALL (one centred plain bone line, no box)"
-  ]
- },
- "layout": {
-  "crop": {
-   "P": 100,
-   "T": 585,
-   "subjectExtentFeed": "hoops x 214-508 and 572-870, y 134-548 (post tips at 134); shadows y 711-827 at the core, 699-834 at the soft edge (luminance 4 under the row's clean floor), x 172-889; full extent 134-834 inside the card-only gate 84-930 (RULINGS section 4). Re-measured from pics/b03-4_try1.png; matches verify.md (134-827)."
+  "id": "b04-0",
+  "handle": "monochrome-enamel-hoops",
+  "product": "Monochrome Enamel Hoops",
+  "price": 999,
+  "archetype": "A13 Suspended (float), card-only Feed (the hoops float above detached shadows); logged A1 before z2",
+  "light": "L6 (as asked and as rendered: one large soft light directly overhead casting each hoop's shadow straight down as a soft rounded parallelogram, plus a small front-left kicker drawing a bright line on each gold-tone rail)",
+  "camera": "C2 (100 mm lens, low hero camera about 12 degrees above the floor, the pair upright and turned three-quarters to the camera as in the pack ref)",
+  "picture": "../b03/pics/b03-4_try1.png (b03-4 try 1, job 394dd5a7-2134-4249-8675-3519d5c9ab97); no credit spent; nothing scaled, moved or edited",
+  "onImage": {
+    "headline": "Story only: BLACK. WHITE. GOLD TONE. (one line, Velista 72; GOLD TONE. in gold-light). Feed: none (A1).",
+    "beat": null,
+    "cardLine": "black. white. gold tone.",
+    "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "sizeTag": "SHOWN MAGNIFIED · ABOUT 20 MM TALL as one plain 26 px line with no box, on Feed and Story (products.md lists the hoops at about 20 mm tall, so the tag is unchanged from the loop's wording).",
+    "callouts": []
   },
-  "type": {
-   "h1Px": 72,
-   "beatPx": null,
-   "beatRatio": null,
-   "note": "Feed is A1 with no headline. The Story headline has no beat, so the 0.6 beat rule does not apply. The brief's two-line setting (68 px) was tried in pass 1 and replaced by one line at 72 (see passes)."
+  "meta": {
+    "primaryText": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
+    "headline": "Monochrome Hoops · ₹999 · 10% off 2",
+    "description": "Black and white enamel",
+    "cta": "Shop Now",
+    "url": "https://www.nairaflore.com/products/monochrome-enamel-hoops?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-0_a1_monochrome-float"
   },
-  "scale": "Hoop height 565 src px for the listed 20 mm = 28.3 src px/mm = 19.9 Feed px/mm (about 1.25x on a phone), over the 19 px/mm trigger, so the size tag is on Feed and Story. Products.md: about 20 mm tall and 7 mm wide, so 'about 20 mm tall' is the listed size.",
-  "feed": "Light-ground card: the floor under the shadows is the brightest terracotta in the frame (rgb 225,115,81), where bone reads only 2.6-2.9:1 and ink 5.5-6.0:1, so ink type and logo_ink (PLAYBOOK 4.0, light grounds), with the offer lozenge set to ink because the kit's coral-deep lozenge vanishes on terracotta. Size tag: one plain 26 px line (Jost 500 caps .12em, no box, so the offer stays the only boxed element), centred, line box 851-889 (x 231-849), 17 px under the shadows' soft edge and 51 px over the wordmark, so it captions the picture. Card centred on x 540 at top 940: logo_ink 940-996; name 1016-1054; price 1068-1124; line 1138-1176 (x 338-742); offer box 1190-1252 (x 177-903). Scrim in the floor's own lit terracotta rgb(226,116,81), 0 at 960 to .6 at the foot, which only softens the photo's vignette. No type over x 172-889, y 134-834.",
-  "story": "Native 9:16 frame (Story y = src y x 0.703125 - 7.5); hoops at 711-1125, shadows at 1276-1411 (below the 1250 text limit), so all type ends by 687, 24 px over the post tips, on the calm dark wall (rgb 167,70,46). Bone type (body.dark). Centred stack: logo_white 270-326; headline one line Velista 72 .02em, 362-431 (x 85-995), 'GOLD TONE.' in gold-light so each colour word sits near its own colour; name and price on one baseline with a 24 px gap, row 464-532 (name x 212-735, price x 759-868); offer 550-612 (x 177-903), the only boxed element; size tag one plain centred line 648-686 (x 231-849).",
-  "contrast": "Measured against the rendered ground under each text box, with type hidden and the scrim kept (median, worst 2%). Feed, ink: tag 5.81 (5.50), wordmark 5.37 (5.18), name 5.04 (4.68), price 4.77 (4.68), line 4.80 (4.71), offer 4.83-4.95 (4.75). Before the scrim (pass 1) the price, line and offer read 4.29, 4.04 and 3.79-3.95. Story, bone: wordmark 5.16 (5.01), 'BLACK. WHITE.' 5.15 (5.01), name 5.19 (5.03), price 5.44 (5.26), offer 5.13-5.31 (5.01), tag 5.16 (4.99); gold-light 'GOLD TONE.' 3.78 (3.60), over 3:1 for 72 px display type.",
-  "passes": [
-   "Pass 1: the loop's layout as written. Feed: plain ink tag at 860-898, ink card at 940, no scrim; clean render, but the price, line and offer fell to 3.8-4.3:1 on the floor's darker foot, and the kit's coral-deep lozenge was almost invisible. Story: wordmark 270, headline on two lines at Velista 68 (346-479), name and price 497-553, offer 569-631, tag 645-683; the wordmark ran into the headline with 20 px gaps and the five rows ended 28 px over the posts, cramped at full size.",
-   "Pass 2: Feed tag up to 851-889 (closer to the shadows than to the wordmark, so it reads as the picture's caption) and a lift scrim in the floor's own lit terracotta from 960, which took the lower card to 4.7+:1 without touching the shadows. Story headline on one line at Velista 72 (the b03-1 Story pattern) with 'GOLD TONE.' in gold-light; rows re-spaced (362, 470, 550, 640). Checked at full size and at 216 px beside win_static_hoops_apricot, lose_p2_proof_parody, win_twenty_f2_tennis_ruby and b03-1/b03-2 (Feed), and win_w1_woven_red_story, lose_vks5_prism_close and b03-1/b03-2 (Story): the hoops land first on both, the float reads, the card is legible.",
-   "Pass 3: the Feed lozenge set to ink with a selector that outranks the kit's light-ground rule (it had disappeared in pass 2); the Story tag moved from 640 to 648 so it sits as the hoops' caption rather than under the offer box, its line box ending at 686, 25 px over the posts. Re-rendered and re-measured."
+  "story": {
+    "text": [
+      "NAIRA wordmark (logo_white)",
+      "BLACK. WHITE. GOLD TONE. (GOLD TONE. in gold-light)",
+      "MONOCHROME ENAMEL HOOPS  ₹999",
+      "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+      "SHOWN MAGNIFIED · ABOUT 20 MM TALL (one centred plain bone line, no box)"
+    ]
+  },
+  "layout": {
+    "crop": {
+      "P": 100,
+      "T": 585,
+      "subjectExtentFeed": "hoops x 214-508 and 572-870, y 134-548 (post tips at 134); shadows y 711-827 at the core, 699-834 at the soft edge (luminance 4 under the row's clean floor), x 172-889; full extent 134-834 inside the card-only gate 84-930 (RULINGS section 4). Re-measured from pics/b03-4_try1.png; matches verify.md (134-827)."
+    },
+    "type": {
+      "h1Px": 72,
+      "beatPx": null,
+      "beatRatio": null,
+      "note": "Feed is A1 with no headline. The Story headline has no beat, so the 0.6 beat rule does not apply. The brief's two-line setting (68 px) was tried in pass 1 and replaced by one line at 72 (see passes)."
+    },
+    "scale": "Hoop height 565 src px for the listed 20 mm = 28.3 src px/mm = 19.9 Feed px/mm (about 1.25x on a phone), over the 19 px/mm trigger, so the size tag is on Feed and Story. Products.md: about 20 mm tall and 7 mm wide, so 'about 20 mm tall' is the listed size.",
+    "feed": "Light-ground card: the floor under the shadows is the brightest terracotta in the frame (rgb 225,115,81), where bone reads only 2.6-2.9:1 and ink 5.5-6.0:1, so ink type and logo_ink (PLAYBOOK 4.0, light grounds), with the offer lozenge set to ink because the kit's coral-deep lozenge vanishes on terracotta. Size tag: one plain 26 px line (Jost 500 caps .12em, no box, so the offer stays the only boxed element), centred, line box 851-889 (x 231-849), 17 px under the shadows' soft edge and 51 px over the wordmark, so it captions the picture. Card centred on x 540 at top 940: logo_ink 940-996; name 1016-1054; price 1068-1124; line 1138-1176 (x 338-742); offer box 1190-1252 (x 177-903). Scrim in the floor's own lit terracotta rgb(226,116,81), 0 at 960 to .6 at the foot, which only softens the photo's vignette. No type over x 172-889, y 134-834.",
+    "story": "Native 9:16 frame (Story y = src y x 0.703125 - 7.5); hoops at 711-1125, shadows at 1276-1411 (below the 1250 text limit), so all type ends by 687, 24 px over the post tips, on the calm dark wall (rgb 167,70,46). Bone type (body.dark). Centred stack: logo_white 270-326; headline one line Velista 72 .02em, 362-431 (x 85-995), 'GOLD TONE.' in gold-light so each colour word sits near its own colour; name and price on one baseline with a 24 px gap, row 464-532 (name x 212-735, price x 759-868); offer 550-612 (x 177-903), the only boxed element; size tag one plain centred line 648-686 (x 231-849).",
+    "contrast": "Measured against the rendered ground under each text box, with type hidden and the scrim kept (median, worst 2%). Feed, ink: tag 5.81 (5.50), wordmark 5.37 (5.18), name 5.04 (4.68), price 4.77 (4.68), line 4.80 (4.71), offer 4.83-4.95 (4.75). Before the scrim (pass 1) the price, line and offer read 4.29, 4.04 and 3.79-3.95. Story, bone: wordmark 5.16 (5.01), 'BLACK. WHITE.' 5.15 (5.01), name 5.19 (5.03), price 5.44 (5.26), offer 5.13-5.31 (5.01), tag 5.16 (4.99); gold-light 'GOLD TONE.' 3.78 (3.60), over 3:1 for 72 px display type.",
+    "passes": [
+      "Pass 1: the loop's layout as written. Feed: plain ink tag at 860-898, ink card at 940, no scrim; clean render, but the price, line and offer fell to 3.8-4.3:1 on the floor's darker foot, and the kit's coral-deep lozenge was almost invisible. Story: wordmark 270, headline on two lines at Velista 68 (346-479), name and price 497-553, offer 569-631, tag 645-683; the wordmark ran into the headline with 20 px gaps and the five rows ended 28 px over the posts, cramped at full size.",
+      "Pass 2: Feed tag up to 851-889 (closer to the shadows than to the wordmark, so it reads as the picture's caption) and a lift scrim in the floor's own lit terracotta from 960, which took the lower card to 4.7+:1 without touching the shadows. Story headline on one line at Velista 72 (the b03-1 Story pattern) with 'GOLD TONE.' in gold-light; rows re-spaced (362, 470, 550, 640). Checked at full size and at 216 px beside win_static_hoops_apricot, lose_p2_proof_parody, win_twenty_f2_tennis_ruby and b03-1/b03-2 (Feed), and win_w1_woven_red_story, lose_vks5_prism_close and b03-1/b03-2 (Story): the hoops land first on both, the float reads, the card is legible.",
+      "Pass 3: the Feed lozenge set to ink with a selector that outranks the kit's light-ground rule (it had disappeared in pass 2); the Story tag moved from 640 to 648 so it sits as the hoops' caption rather than under the offer box, its line box ending at 686, 25 px over the posts. Re-rendered and re-measured."
+    ],
+    "checks": {
+      "feed": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.071,
+        "outside": [],
+        "minFont": 26
+      },
+      "story": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.071,
+        "outside": [],
+        "minFont": 26
+      }
+    }
+  },
+  "copyChanges": [
+    "None to the b03-4 brief's words. Primary text 160 characters, the offer ends at character 125; Meta headline 35 (40 max), description 22. No claim and no water anywhere: Monochrome Enamel Hoops carries no Waterproof, Tarnish Free or Hypoallergenic tag (RULINGS section 1.1). Lint: no diamond, real or solid gold, freshwater, bare gold or silver, emerald or ruby, PVD, steel, 18k, 'pair', compare-at price or free shipping.",
+    "Two-code offer box reads CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF (two codes, so CODES, RULINGS section 2).",
+    "The Story headline runs on one line ('BLACK. WHITE. GOLD TONE.') instead of the brief's two, for the space reason in passes; the words are unchanged.",
+    "Not applied (one critic only, logged for the lead): A's Meta primary text 'Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.' (157 characters, the offer ends at 122; A flags the live 'one black and one white enamel stripe a hoop' as ungrammatical). B asked for no copy change. No layout change was asked by either critic; the JPGs are unchanged.",
+    "19 Nov 23:35 UTC zero-credit pass (b04 loop change 4): Meta primary text replaced with critic A's grammatical version (157 characters, offer ends at 122); old and new in final. JPGs unchanged.",
+    {
+      "date": "20 Nov 2026",
+      "round": "z2",
+      "changed": "Nothing: NOT APPLIED. The z2 change (add the Story's 'BLACK. WHITE. GOLD TONE.' to the Feed as a Velista 72-96 headline, making the Feed headline-plus-card, and relabel the archetype 'A13 Suspended (float), headline plus card') needs RULINGS §4's headline-plus-card gate: the subject's full extent (hoops and their shadows) inside Feed y 380-930 (550 px) for some P. No P passes, so the HTML, JPGs, .pic P (100) and the archetype label are unchanged and the Feed stays card-only A1 (gate 84-930, which it passes).",
+      "why": "Fresh blind audit (three of four runs): \"the Feed has no hook: the strong BLACK. WHITE. GOLD TONE. line is only on the Story\", and the picture executes A13 levitation, not A1.",
+      "gate": {
+        "measured": "Re-measured on pics ../b03/pics/b03-4_try1.png at the Feed scale (0.703125) and on the shipped Feed JPG: at P 100 (T 585) the post tips start at Feed 134, the hoops end at 548, the shadows run 710-830 (colour departure over 45 from the row's floor; 711-827 core and 699-834 soft edge in the earlier record). Full extent 134-834 = 700 px (693 core-to-core, b03 verify.md), against the 550 px the gate allows.",
+        "Prange": "Extent top at or below 380 needs T at most 339, so P at most 57.9; extent bottom at or above 930 needs T at least 489, so P at least 83.6 (82.4 on the shadow core). The two ranges do not meet: no P from 0 to 100 passes. P 100 is already the highest the hoops can sit.",
+        "other bands": "At P 100 the only terracotta outside the subject is Feed 84-134 above the post tips (50 px, too short for a 72 px Velista line, whose ink would touch the posts), the float gap between the hoops and their shadows (548-710, which is inside the subject's extent and would split the float), and 834-940 above the card (already holding the size tag; a 72 px line plus the tag would push the 312 px card past the 1266 safe edge)."
+      },
+      "render": {
+        "note": "Proof renders of the unchanged pages to the scratchpad only (z2/b04f/chk_b04-0_*.jpg), never into the repo, so the scored JPGs and their timestamps stay; both are byte-identical to the shipped files (feed md5 6f440f972fb825d3b84014f5acde988d, story md5 b952e653a08d78650141d5ea48826e26).",
+        "feed": {
+          "size": "1080x1350",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.071,
+          "outside": [],
+          "minFont": 26
+        },
+        "story": {
+          "size": "1080x1920",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.071,
+          "outside": [],
+          "minFont": 26
+        }
+      },
+      "forTheLead": "Ways to get the hook onto the Feed, each a lead's call and none taken here: (1) waive the 380-930 gate for this float and set the headline in the float gap or over the floor; (2) a headline Feed needs a new picture with the group about 0.78x its present height (no credits are left); (3) leave the Feed as the card-only A1 and keep the headline on the Story, as now."
+    },
+    {
+      "date": "20 Nov 2026",
+      "round": "z2 (lead decision)",
+      "changed": "Feed card line 'black and white enamel · gold tone' became 'black. white. gold tone.' (Jost 400 26 px, one line, same place). The Story is unchanged: its Velista headline already says BLACK. WHITE. GOLD TONE. Archetype relabelled A13 (record only).",
+      "why": "Fresh audit: three of four runs said the Feed has no hook because 'BLACK. WHITE. GOLD TONE.' is only on the Story; critic A run 1 suggested exactly this card line. The headline route failed RULINGS §4's headline-plus-card gate (extent 700 px against 550, see the z2 entry above), so the hook goes in the card line and the Feed stays card-only, which passes the 84-930 gate at P 100. Three runs also said the picture executes A13 levitation, not A1 (the 'mislabelled archetype' cap).",
+      "render": {
+        "feed": {
+          "size": "1080x1350",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.067,
+          "outside": [],
+          "minFont": 26
+        }
+      },
+      "lint": "gold tone only (no bare gold), no claim, no water, no PVD/steel/18k; enamel stays in the Meta text."
+    }
   ],
-  "checks": {
-   "feed": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.071,
-    "outside": [],
-    "minFont": 26
-   },
-   "story": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.071,
-    "outside": [],
-    "minFont": 26
-   }
-  }
- },
- "copyChanges": [
-  "None to the b03-4 brief's words. Primary text 160 characters, the offer ends at character 125; Meta headline 35 (40 max), description 22. No claim and no water anywhere: Monochrome Enamel Hoops carries no Waterproof, Tarnish Free or Hypoallergenic tag (RULINGS section 1.1). Lint: no diamond, real or solid gold, freshwater, bare gold or silver, emerald or ruby, PVD, steel, 18k, 'pair', compare-at price or free shipping.",
-  "Two-code offer box reads CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF (two codes, so CODES, RULINGS section 2).",
-  "The Story headline runs on one line ('BLACK. WHITE. GOLD TONE.') instead of the brief's two, for the space reason in passes; the words are unchanged.",
-  "Not applied (one critic only, logged for the lead): A's Meta primary text 'Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.' (157 characters, the offer ends at 122; A flags the live 'one black and one white enamel stripe a hoop' as ungrammatical). B asked for no copy change. No layout change was asked by either critic; the JPGs are unchanged.",
-  "19 Nov 23:35 UTC zero-credit pass (b04 loop change 4): Meta primary text replaced with critic A's grammatical version (157 characters, offer ends at 122); old and new in final. JPGs unchanged."
- ],
- "truthNotes": [
-  "Verifier (b03 verify.md) and my own zooms: per hoop exactly one black and one white enamel stripe between three polished gold-tone rails, an open C, the post at the top, a plain ridged gold-tone inside, zero stones; the pair identical in the pack ref's three-quarter pose. Hoop H/W 1.34 against the pack ref's 1.37 at the same pose.",
-  "Float: each shadow lies directly below its hoop with a clear gap of floor (0.41x the hoop height), no wire or stand. Overhead L6 gives soft parallelogram footprints, the physically right shadow of an upright hoop.",
-  "Scale: 19.9 Feed px/mm, about 1.25x life size on a phone, declared by the size tag on both placements. Pair width 60.7% of the Feed width.",
-  "Pre-launch check (critic B, open): re-read Monochrome Enamel Hoops stock before launch. It read 24 at the b04 pre-flight, 4 over the 20 floor (RULINGS §2); do not launch below 20. The SKU carries no claim and no water, and none is printed (correct).",
-  "Critic B truth note (not a fail): the gold tone picks up the terracotta bounce (median hue 67°, C* 39-40, against the detail ref's 73° and 37): warm, not brassy. Construction matches both refs: one black and one white stripe, three rails, an open C, a ridged inside. Rule note (B): this is b03-4 try 1, which never shipped; keep b03-4 marked dropped in the ledger (it is) so the picture is never used twice."
- ],
- "abTest": "First live read of a float (the crazy slot is 0 for 5 over three batches), and the first ink-on-light card in ads-500 (the floor under the card is light terracotta). Read it against the b03 product-only ads as a picture test; the offer is the standard two-code box, so it is not an offer cell.",
- "deployment": "Feed and Story both carry the card and the size tag; the headline is on the Story only. Not scored yet.",
- "review": {
-  "status": "Round 1 scored by both critics on the 20:40:50 renders: A 7.825 ship-after-fixes (Meta text only), B 7.725 ship (mean 7.775). No fix was asked for by both critics; the fixer added B's pre-launch stock gate to truthNotes. The JPGs are the scored files.",
-  "scores": {
-   "A": {
-    "stop": 8.5,
-    "message": 7.5,
-    "truth": 8.5,
-    "layout": 8,
-    "brand": 7.5,
-    "copy": 7,
-    "fit": 8,
-    "desire": 7,
-    "cues": 8,
-    "weighted": 7.825,
-    "verdict": "ship-after-fixes"
-   },
-   "B": {
-    "stop": 8.5,
-    "message": 7.5,
-    "truth": 8,
-    "layout": 8,
-    "brand": 7.5,
-    "copy": 7,
-    "fit": 7.5,
-    "desire": 7,
-    "cues": 8,
-    "weighted": 7.725,
-    "verdict": "ship"
-   }
+  "truthNotes": [
+    "Verifier (b03 verify.md) and my own zooms: per hoop exactly one black and one white enamel stripe between three polished gold-tone rails, an open C, the post at the top, a plain ridged gold-tone inside, zero stones; the pair identical in the pack ref's three-quarter pose. Hoop H/W 1.34 against the pack ref's 1.37 at the same pose.",
+    "Float: each shadow lies directly below its hoop with a clear gap of floor (0.41x the hoop height), no wire or stand. Overhead L6 gives soft parallelogram footprints, the physically right shadow of an upright hoop.",
+    "Scale: 19.9 Feed px/mm, about 1.25x life size on a phone, declared by the size tag on both placements. Pair width 60.7% of the Feed width.",
+    "Pre-launch check (critic B, open): re-read Monochrome Enamel Hoops stock before launch. It read 24 at the b04 pre-flight, 4 over the 20 floor (RULINGS §2); do not launch below 20. The SKU carries no claim and no water, and none is printed (correct).",
+    "Critic B truth note (not a fail): the gold tone picks up the terracotta bounce (median hue 67°, C* 39-40, against the detail ref's 73° and 37): warm, not brassy. Construction matches both refs: one black and one white stripe, three rails, an open C, a ridged inside. Rule note (B): this is b03-4 try 1, which never shipped; keep b03-4 marked dropped in the ledger (it is) so the picture is never used twice."
+  ],
+  "abTest": "First live read of a float (the crazy slot is 0 for 5 over three batches), and the first ink-on-light card in ads-500 (the floor under the card is light terracotta). Read it against the b03 product-only ads as a picture test; the offer is the standard two-code box, so it is not an offer cell.",
+  "deployment": "Feed and Story both carry the card and the size tag; the headline is on the Story only. Not scored yet.",
+  "review": {
+    "status": "Round 1 scored by both critics on the 20:40:50 renders: A 7.825 ship-after-fixes (Meta text only), B 7.725 ship (mean 7.775). No fix was asked for by both critics; the fixer added B's pre-launch stock gate to truthNotes. The JPGs are the scored files.",
+    "scores": {
+      "A": {
+        "stop": 8.5,
+        "message": 7.5,
+        "truth": 8.5,
+        "layout": 8,
+        "brand": 7.5,
+        "copy": 7,
+        "fit": 8,
+        "desire": 7,
+        "cues": 8,
+        "weighted": 7.825,
+        "verdict": "ship-after-fixes"
+      },
+      "B": {
+        "stop": 8.5,
+        "message": 7.5,
+        "truth": 8,
+        "layout": 8,
+        "brand": 7.5,
+        "copy": 7,
+        "fit": 7.5,
+        "desire": 7,
+        "cues": 8,
+        "weighted": 7.725,
+        "verdict": "ship"
+      }
+    },
+    "mean": 7.775,
+    "beatsLoser": {
+      "A": true,
+      "B": true
+    },
+    "beatsWinner": {
+      "A": true,
+      "B": true
+    },
+    "scoredFiles": {
+      "feed": "batches/b04/b04-0_feed.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file",
+      "story": "batches/b04/b04-0_story.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
+    },
+    "superseded": true,
+    "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
   },
-  "mean": 7.775,
-  "beatsLoser": {
-   "A": true,
-   "B": true
+  "final": {
+    "round": "b04 round 1 (20:40:50 renders); Meta primary text changed in this pass, JPGs unchanged",
+    "A": 7.825,
+    "B": 7.725,
+    "mean": 7.78,
+    "scoredFile": "batches/b04/b04-0_feed.jpg 2026-11-19 20:40:50.501484850 +0000",
+    "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000",
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+    "verdict": "ship (A 7.825, B 7.725, mean 7.775; truth 8.5 / 8, lowest dimension 7; beats the loser and the winner with both critics; stop 8.5 with both, the first float to ship. A's Meta primary text rewrite not applied (A only). Pre-launch: re-read stock, 24 at pre-flight, do not launch below 20. The picture is b03-4 try 1: keep b03-4 marked dropped so it is never used twice) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 5): beats apricot with neither critic and F2 with neither critic; beats p2 with A only and sa08 with both critics. Stock 24 at 20 Nov 2026, 00:27 UTC. Meta primary text replaced with A's grammatical version (b04 loop change 4); the JPGs are unchanged, so the scored files still ship. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
+    "date": "19 Nov 2026, 23:35 UTC",
+    "primaryTextChange": {
+      "old": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, one black and one white enamel stripe a hoop. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
+      "new": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
+      "why": "b04 loop change 4: critic A's grammatical version from b04/review.md ('a black and a white enamel stripe on each' for 'one black and one white enamel stripe a hoop'); B asked for no copy change.",
+      "counts": "157 characters, the offer ends at character 122; no claim words (Monochrome carries none), no bare metal word, no compare-at price or shipping line."
+    }
   },
-  "beatsWinner": {
-   "A": true,
-   "B": true
-  },
-  "scoredFiles": {
-   "feed": "batches/b04/b04-0_feed.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file",
-   "story": "batches/b04/b04-0_story.jpg (render of 2026-11-19 20:40:50 UTC, scored by both critics in round 1); unchanged, this is the shipping file"
-  },
-  "superseded": true,
-  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
- },
- "final": {
-  "round": "b04 round 1 (20:40:50 renders); Meta primary text changed in this pass, JPGs unchanged",
-  "A": 7.825,
-  "B": 7.725,
-  "mean": 7.78,
-  "scoredFile": "batches/b04/b04-0_feed.jpg 2026-11-19 20:40:50.501484850 +0000",
-  "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000",
-  "beatsWinnerBy": {
-   "win_static_hoops_apricot": [],
-   "win_twenty_f2_tennis_ruby": []
-  },
-  "beatsLoserBy": {
-   "lose_p2_proof_parody": [
-    "A"
-   ],
-   "lose_sa08_walls": [
-    "A",
-    "B"
-   ]
-  },
-  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
-  "verdict": "ship (A 7.825, B 7.725, mean 7.775; truth 8.5 / 8, lowest dimension 7; beats the loser and the winner with both critics; stop 8.5 with both, the first float to ship. A's Meta primary text rewrite not applied (A only). Pre-launch: re-read stock, 24 at pre-flight, do not launch below 20. The picture is b03-4 try 1: keep b03-4 marked dropped so it is never used twice) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 5): beats apricot with neither critic and F2 with neither critic; beats p2 with A only and sa08 with both critics. Stock 24 at 20 Nov 2026, 00:27 UTC. Meta primary text replaced with A's grammatical version (b04 loop change 4); the JPGs are unchanged, so the scored files still ship. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
-  "date": "19 Nov 2026, 23:35 UTC",
-  "primaryTextChange": {
-   "old": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, one black and one white enamel stripe a hoop. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
-   "new": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
-   "why": "b04 loop change 4: critic A's grammatical version from b04/review.md ('a black and a white enamel stripe on each' for 'one black and one white enamel stripe a hoop'); B asked for no copy change.",
-   "counts": "157 characters, the offer ends at character 122; no claim words (Monochrome carries none), no bare metal word, no compare-at price or shipping line."
-  }
- }
+  "archetypeBeforeZ2": "A1 Product Card (card only, no headline on the Feed) on the A13 float picture; the zero-credit rescue of b03-4 (b03 loop change 3), with the A13 headline on the Story only"
 }

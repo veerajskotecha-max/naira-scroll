@@ -3,18 +3,26 @@
 <!-- b03-5 · Story 1080x1920, the native 9:16 frame (Story y = display y - 7.5). Studs at 762-1085, shadows to 1181.
      Stack, all on near-black (L 12-16) except the offer, which sits on the pool's top rim (bone still 7:1): wordmark 270-325,
      staircase 367-490 (centred on the pair as in the Feed), beat 514-557, name and price 590-644, offer box 666-727.
-     35 px of plain ground above the studs; nothing below 727. -->
+     35 px of plain ground above the studs; nothing below 727.
+     Fix round z2 (20 Nov 2026): the card line "about 17.5 mm across · silver tone · cubic zirconia" is added under the name and
+     price row (the Story had no line), and the stack is re-spaced to hold it and still clear the studs by 24 px: headline
+     352 / 425 (was 362 / 435), beat 500 (510), name and price 564 (584), line 628-666 (ink x 251-827, y 635-656, on the
+     pool's first glow, bone 12.8:1, worst 7.1), offer 676-738 (666-727; on the pool rim, bone 6.6:1, worst 5.9). Ink gaps:
+     wordmark 30, headline lines 21, beat 23, name and price 21, line 9 under the price's old-style descender (the Feed card
+     has 12), offer 19, studs 24.6 (762.5). Sizes, words and x positions otherwise unchanged. -->
 <style>
  body { background: #0D0F15; }
  .wm-top { top: 270px; }
  .hl { position: absolute; font-size: 72px; letter-spacing: .12em; color: var(--gold-light); white-space: nowrap; }
- .hl.l1 { left: 237px; top: 362px; }
- .hl.l2 { left: 420px; top: 435px; }
- .bt { position: absolute; left: 420px; top: 510px; font-size: 44px; color: var(--bone); white-space: nowrap; }
- .np { position: absolute; left: 0; right: 0; top: 584px; display: flex; justify-content: center; align-items: baseline; gap: 24px; }
+ .hl.l1 { left: 237px; top: 352px; }
+ .hl.l2 { left: 420px; top: 425px; }
+ .bt { position: absolute; left: 420px; top: 500px; font-size: 44px; color: var(--bone); white-space: nowrap; }
+ .np { position: absolute; left: 0; right: 0; top: 564px; display: flex; justify-content: center; align-items: baseline; gap: 24px; }
  .np .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; }
  .np .price { font-family: var(--serif); font-weight: 500; font-size: 56px; line-height: 1; }
- .of { position: absolute; left: 0; right: 0; top: 666px; text-align: center; }
+ .ln { position: absolute; left: 0; right: 0; top: 628px; text-align: center; font-family: var(--sans); font-weight: 400; font-size: 26px;
+       letter-spacing: .02em; line-height: 38px; color: var(--fg); }
+ .of { position: absolute; left: 0; right: 0; top: 676px; text-align: center; }
 </style></head>
 <body class="dark story">
  <img class="pic" src="pics/b03-5.png" alt="">
@@ -23,5 +31,6 @@
  <p class="h1 hl l2">One light.</p>
  <p class="beat bt">for the sangeet, after dark.</p>
  <div class="np"><span class="name">Pearl Double Halo Studs</span><span class="price">₹1,199</span></div>
+ <div class="ln">about 17.5 mm across · silver tone · cubic zirconia</div>
  <div class="of"><div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
 </body></html>

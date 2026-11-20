@@ -10,7 +10,7 @@
  "onImage": {
   "headline": null,
   "beat": null,
-  "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
+  "cardLine": "proposal-style halo · 8 mm cubic zirconia · adjustable",
   "offer": "CODE NAIRA10 · 10% OFF",
   "sizeTag": "Feed: SHOWN MAGNIFIED / HALO ABOUT 12 MM (hairline box, right 72, unchanged). Story: SHOWN MAGNIFIED · HALO ABOUT 12 MM as one centred plain line, no box.",
   "callouts": []
@@ -26,7 +26,7 @@
   "text": [
    "NAIRA wordmark (logo_white)",
    "CUSHION HALO RING  ₹999",
-   "8 mm cubic zirconia · silver tone · adjustable",
+   "proposal-style halo · 8 mm cubic zirconia · adjustable",
    "CODE NAIRA10 · 10% OFF",
    "SHOWN MAGNIFIED · HALO ABOUT 12 MM (one centred plain bone line, no box)"
   ]
@@ -44,38 +44,73 @@
    "note": "A1 has no headline, so the 0.6 beat rule does not apply."
   },
   "scale": "Halo 671 src px for about 12 mm = 39.3 Feed px/mm (about 2.5x on a phone), over the 19 px/mm trigger, so the size tag is on Feed and Story.",
-  "feed": "body.dark, bone type, no scrim. Size tag (kit .sizetag 30 px, Jost 500 caps .12em, 2 px hairline, centred text) at right 72: x 626-1008, y 244-340, its bottom 24 px over the ring's top (364), on calm cocoa backdrop. Card centred on x 540 at top 950 (brief 940; moved 10 px down for air under the block's soft edge at about 905-925, still below the 930 limit): logo_white 950-1006; name 1026-1064; price 1078-1134; line 1148-1186 (x 281-799); offer box 1200-1262 (x 316-764). No type over x 124-946, y 364-914.",
-  "story": "Native 9:16 frame (Story y = src y x 0.703125 - 7.5); the ring at 719-1202, so all type ends by 695. Centred card: logo_white 270-326; name and price on one baseline with a 24 px gap (brief section 3), row 346-402 (name x 296-651, price x 675-784); line 422-460; offer 476-538 (x 316-764). Size tag (finisher, after both critics): one centred plain line with no box, 'SHOWN MAGNIFIED · HALO ABOUT 12 MM', Jost 500 26 .12em bone, line box 650-688 (x 225-855), 31 px over the ring's top (719), so the stack has one axis and the offer stays the only boxed element. Pass 1 used the brief's drop-the-line fallback (logo 270, name 350, price 404, offer 478-540, tag centred 560-656); the offer box and the tag then stacked centred and read as two buttons at 216 px. Joining name and price and moving the tag to the ring's upper right (its Feed position) fixed that and kept the line, so 'cubic zirconia' is on the Story too.",
-  "contrast": "Bone measured against the picture under each text box (median, worst 2%). Feed: tag 4.7 (4.4), wordmark 6.8 (6.2), name 6.7 (6.1), price 6.9 (6.2), line 6.8 (6.1), offer 6.9 (6.1). Story: wordmark 5.4 (5.1), name and price 5.3 (5.0), line 5.2 (4.8), offer 5.1 (4.7), tag 4.7 (4.4). The tag stays full bone at weight 500 (a dimmer bone would drop it near 4:1). Finisher re-measure: the centred Story tag line 4.8 (4.5).",
+  "feed": "body.dark, bone type, no scrim. Size tag (kit .sizetag 30 px, Jost 500 caps .12em, 2 px hairline, centred text) at right 72: x 626-1008, y 244-340, its bottom 24 px over the ring's top (364), on calm cocoa backdrop. Card centred on x 540 at top 950 (brief 940; moved 10 px down for air under the block's soft edge at about 905-925, still below the 930 limit): logo_white 950-1006; name 1026-1064; price 1078-1134; line 1148-1186 (x 233-847 since z2; was x 281-799); offer box 1200-1262 (x 316-764). No type over x 124-946, y 364-914. Fix round z2 (20 Nov 2026): the card line reads 'proposal-style halo · 8 mm cubic zirconia · adjustable', one line at the kit .line size (Jost 400 26 px), line box x 233-847, y 1148-1186 (ink x 235-844, y 1156-1181), on the plain block face; nothing else moved (pixel diff against the 19 Nov render: only x 233-847, y 1152-1183 changed).",
+  "story": "Native 9:16 frame (Story y = src y x 0.703125 - 7.5); the ring at 719-1202, so all type ends by 695. Centred card: logo_white 270-326; name and price on one baseline with a 24 px gap (brief section 3), row 346-402 (name x 296-651, price x 675-784); line 422-460; offer 476-538 (x 316-764). Size tag (finisher, after both critics): one centred plain line with no box, 'SHOWN MAGNIFIED · HALO ABOUT 12 MM', Jost 500 26 .12em bone, line box 650-688 (x 225-855), 31 px over the ring's top (719), so the stack has one axis and the offer stays the only boxed element. Pass 1 used the brief's drop-the-line fallback (logo 270, name 350, price 404, offer 478-540, tag centred 560-656); the offer box and the tag then stacked centred and read as two buttons at 216 px. Joining name and price and moving the tag to the ring's upper right (its Feed position) fixed that and kept the line, so 'cubic zirconia' is on the Story too. Fix round z2 (20 Nov 2026): the line reads 'proposal-style halo · 8 mm cubic zirconia · adjustable', one line at 26 px, line box x 233-847, y 422-460 (ink x 235-844, y 430-455), on the cocoa wall; nothing else moved (pixel diff: only x 232-846, y 424-456 changed).",
+  "contrast": "Bone measured against the picture under each text box (median, worst 2%). Feed: tag 4.7 (4.4), wordmark 6.8 (6.2), name 6.7 (6.1), price 6.9 (6.2), line 6.8 (6.1), offer 6.9 (6.1). Story: wordmark 5.4 (5.1), name and price 5.3 (5.0), line 5.2 (4.8), offer 5.1 (4.7), tag 4.7 (4.4). The tag stays full bone at weight 500 (a dimmer bone would drop it near 4:1). Finisher re-measure: the centred Story tag line 4.8 (4.5). Fix round z2 re-measure of the new card line (bone against the text-free picture under its line box, median, worst 2%): Feed 6.85 (6.18) on rgb 110,74,57; Story 5.19 (4.87) on rgb 129,92,73.",
   "passes": [
    "Pass 1: brief layout as written (Feed card 940, tag right 72 at 244-340; Story fallback with the tag centred under the offer). Feed fine; the wordmark sat about 20 px under the block's soft edge. Story: two centred boxes stacked, cluttered at 216 px.",
    "Pass 2: Feed card to 950. Story restructured (name and price on one baseline, line kept, tag at the ring's upper right).",
    "Pass 3: Story line and offer 4 px lower so the gap under the price's old-style 999 matches the rest of the stack. Checked at full size and at 216 px beside win_static_hoops_apricot and lose_p2_proof_parody.",
-   "Pass 4 (finisher, after both critics): Story size tag centred on the stack's axis (both critics; B's optional fix, A's fix) and set as one plain line with no box (A; the same unboxing both critics asked for on b03-1), at 650-688. Feed unchanged."
+   "Pass 4 (finisher, after both critics): Story size tag centred on the stack's axis (both critics; B's optional fix, A's fix) and set as one plain line with no box (A; the same unboxing both critics asked for on b03-1), at 650-688. Feed unchanged.",
+   "Pass 5 (fix round z2, 20 Nov 2026): card line changed to 'proposal-style halo · 8 mm cubic zirconia · adjustable' on Feed and Story. It fits one line at 26 px (614 px wide, inside the 936 px safe width), so no shrink was needed. Checked at full size and at 200 px wide."
   ],
   "checks": {
    "feed": {
+    "out": "b03-2_feed.jpg",
+    "size": "1080x1350",
     "failed": [],
     "overflow": [],
     "fallback": [],
-    "textShare": 0.067,
+    "textShare": 0.071,
     "outside": [],
     "minFont": 26
    },
    "story": {
+    "out": "b03-2_story.jpg",
+    "size": "1080x1920",
     "failed": [],
     "overflow": [],
     "fallback": [],
-    "textShare": 0.046,
+    "textShare": 0.049,
     "outside": [],
     "minFont": 26
    }
-  }
+  },
+  "textShare": "Feed 0.067 -> 0.071, Story 0.046 -> 0.049 (A1 limit 0.15).",
+  "minFont": "26 on both pages."
  },
  "copyChanges": [
   "None to the brief's words. Primary text 158 characters, the offer ends at character 124; the claim (waterproof, tarnish-free) sits last, as proof, and Cushion Halo Ring carries those tags (RULINGS section 1.1). Meta headline 34, description 24. Lint: no diamond, real or solid gold, freshwater, bare gold or silver, compare-at price or free shipping.",
   "Offer box reads CODE NAIRA10 · 10% OFF (one code, so CODE, as RULINGS section 2 words it).",
-  "Finisher after both critics: no word changes. Not applied (A only, logged): the card line 'proposal-style · 8 mm cubic zirconia · adjustable'. B scored the ad 'ship' as it stands; the card line stays '8 mm cubic zirconia · silver tone · adjustable'."
+  "Finisher after both critics: no word changes. Not applied (A only, logged): the card line 'proposal-style · 8 mm cubic zirconia · adjustable'. B scored the ad 'ship' as it stands; the card line stays '8 mm cubic zirconia · silver tone · adjustable'.",
+  {
+   "date": "20 Nov 2026",
+   "round": "z2",
+   "change": "Feed and Story: the card line '8 mm cubic zirconia · silver tone · adjustable' became 'proposal-style halo · 8 mm cubic zirconia · adjustable' (all listing words: proposal-style, halo, 8 mm cubic zirconia, adjustable). One line at the kit .line size, 26 px, x 233-847 on both pages; Feed y 1148-1186, Story y 422-460. 'silver tone' leaves the image (still in the Meta primary text and the listing). No other text moved. Meta unchanged (its primary text already opens 'Proposal-style halo, ₹999').",
+   "why": "Audit (z2, all four runs): \"the proposal-style hook lives only in the Meta text; the image has no idea to stop on\".",
+   "render": {
+    "feed": {
+     "out": "b03-2_feed.jpg",
+     "size": "1080x1350",
+     "failed": [],
+     "overflow": [],
+     "fallback": [],
+     "textShare": 0.071,
+     "outside": [],
+     "minFont": 26
+    },
+    "story": {
+     "out": "b03-2_story.jpg",
+     "size": "1080x1920",
+     "failed": [],
+     "overflow": [],
+     "fallback": [],
+     "textShare": 0.049,
+     "outside": [],
+     "minFont": 26
+    }
+   }
+  }
  ],
  "truthNotes": [
   "Verifier: pass-with-notes. One round brilliant centre stone in exactly 4 ball claws, a single-row cushion halo, pavé down each shoulder, cool bright silver tone, the band's back hidden. Centre/halo 0.74, shoulder span/halo 1.74.",

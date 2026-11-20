@@ -14,6 +14,16 @@
  .hl.l1 { left: 72px; top: 96px; }
  .hl.l2 { left: 232px; top: 174px; }
  .bt { position: absolute; left: 232px; top: 262px; font-size: 48px; color: var(--bone); white-space: nowrap; }
+ /* Fix round z2 (20 Nov 2026): one plain size line, the kit .sizetag look without the box (Jost 500 caps 26 px, .12em, bone).
+    Measured on the Feed JPG: halo x 441-641 at y 518-530 = 201 px for the listed 12 mm = 16.7 Feed px/mm (stone girdle about
+    137 px for 8 mm = 17.1), under the 19 px/mm trigger, so the line states the size plainly and does not say "magnified".
+    Centred on the ring's axis (x 541) in the plain oxblood above the ring's head (ground L 25, p98 30): line box 392-430, its
+    bottom 25 px over the ring's top (prong and glint at 455), its ink (401-420) 88 px under the beat's ink (313); bone 15.5:1
+    (worst 15.0) on ground rgb 40,19,21; Feed text share 0.139 (A6 limit 0.14). Between the ring and the
+    wordmark is the lit velvet top with the ring's shadow (L 13-110), and beside the ring leaves under 300 px a side, so one
+    line fits only here. */
+ .sz { position: absolute; left: 0; right: 0; top: 392px; text-align: center; }
+ .sz .sizetag { position: static; display: inline-block; font-size: 26px; padding: 0; border: none; line-height: 38px; white-space: nowrap; }
 </style></head>
 <body class="dark">
  <img class="pic" src="pics/b01-1.png" alt="">
@@ -21,6 +31,7 @@
  <p class="h1 hl l1">Looks like</p>
  <p class="h1 hl l2">a proposal.</p>
  <p class="beat bt">priced like a present.</p>
+ <div class="sz"><div class="sizetag">Halo about 12 mm across</div></div>
  <div class="card" style="top:920px">
   <img class="wm" src="../../kit/logo_white.png" alt="Naira">
   <div class="name">Cushion Halo Ring</div>

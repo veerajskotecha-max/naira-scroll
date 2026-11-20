@@ -9,31 +9,46 @@
      clear of the tag) and in the card line ("hinged huggie earrings · 18k gold tone PVD"), which also drops the third "brushed".
      "earring pair" and "huggie pair" both pushed text share to .182-.183, over the A4 limit of .18; this beat renders .178.
      Fixer after the re-score (critic B truth fix): the card line "hinged huggie earrings" became "huggie hoop earrings"; the live
-     listing says "These huggie hoops" and "Fitting: Huggie" and never says hinged. Same slot, Jost 400 26 bone. -->
+     listing says "These huggie hoops" and "Fitting: Huggie" and never says hinged. Same slot, Jost 400 26 bone.
+     Fix round z2 (20 Nov 2026), audit: the boxed tag sat on the beat row, up in the headline zone, away from the piece it
+     measures. The box is gone; "Shown magnified · earrings about 14 mm tall" (the Story's wording) runs as one plain bone line,
+     Jost 500 caps .12em, centred on x 540 (glyphs x 155-926, y 961-979), under the contact shadows (they fade out by about 940)
+     and over the wordmark (1011). 26 px as on the Story: at the kit's 30 px the line takes text share to .186-.191, over the A4
+     limit of .18; at 26 px, top on the 8 px grid, it renders .178. Scale re-measured on the Feed JPG: both huggies rise from
+     Feed 428 to their base at about 905-912, 477-484 px for 14 mm, so 34.1-34.6 px/mm (over 19; "magnified" is true). The card
+     closes up to fit (name and price on one baseline, as on the Story twin; wordmark 1011, offer box ends 1264). The floor scrim
+     reaches .34 by 960 instead of .30 at 1020, so the right huggie's reflection streak (x 839-903) keeps every pixel under the
+     line at 4.5:1 or more (median 8.1, worst 4.54). Headline and beat unchanged. -->
 <style>
  body { background: #42212F; }
  .pic { object-position: 50% 56%; }
- /* Floor scrim, sampled plum (92,56,66): 0 at 930 (never over the contact shadows), quick to .34 under the wordmark and name,
-    .55 at the frame foot. */
- .scrim { top: 930px; background: linear-gradient(to bottom, rgba(92,56,66,0) 0, rgba(92,56,66,.30) 90px, rgba(92,56,66,.42) 200px,
-          rgba(92,56,66,.55) 420px); }
+ /* Floor scrim, sampled plum (92,56,66): 0 at 930 (never over the contact shadows), .34 by 960 under the z2 tag line (was .30 at
+    1020), .38 at 1020, .42 at 1130, .55 at the frame foot. */
+ .scrim { top: 930px; background: linear-gradient(to bottom, rgba(92,56,66,0) 0, rgba(92,56,66,.34) 30px, rgba(92,56,66,.38) 90px,
+          rgba(92,56,66,.42) 200px, rgba(92,56,66,.55) 420px); }
  .h1 { position: absolute; left: 72px; top: 96px; font-size: 100px; letter-spacing: .02em; white-space: nowrap; }
  .beat { position: absolute; left: 72px; top: 304px; font-size: 64px; }
- .sizetag { right: 72px; top: 304px; }
- /* Card at 958 (brief 940): 28 px of floor between the contact shadows (930) and the wordmark; the offer box ends at 1256. */
+ /* Fix round z2 (20 Nov 2026): the boxed tag in the beat row is gone. The Story's wording runs as ONE plain line, no box, in the
+    kit size-tag type (Jost 500 caps .12em, bone) at the Story's 26 px (30 px breaks the A4 text-share limit), centred on x 540,
+    directly under the pair's contact shadows (they fade out by about Feed 940) and above the wordmark. Line box 952-990, on the
+    8 px grid; padding-left .12em balances the trailing tracking so the glyphs centre on 540. */
+ .sizetag { left: 0; right: 0; top: 952px; font-size: 26px; padding: 0 0 0 .12em; border: none; line-height: 38px; text-align: center;
+            white-space: nowrap; }
+ /* Card compacted to make room (z2): name and price share one baseline, as on the Story twin; wordmark 1011-1067, name and
+    price row 1087-1143, line 1153-1191, offer box 1202-1264 (inside the 1266 safe line). */
  .card .wm { margin-bottom: 6px; }
  .card .name, .card .line { line-height: 1.2; }
+ .card .np { display: flex; justify-content: center; align-items: baseline; gap: 24px; }
 </style></head>
 <body class="dark">
  <img class="pic" src="pics/b03-1.png">
  <div class="scrim"></div>
  <p class="h1">Brushed,<br>not polished.</p>
  <p class="beat">the ₹699 earrings.</p>
- <div class="sizetag">Shown magnified<br>about 14 mm tall</div>
- <div class="card" style="top:958px">
+ <div class="sizetag">Shown magnified · earrings about 14 mm tall</div>
+ <div class="card" style="top:1011px">
   <img class="wm" src="../../kit/logo_white.png">
-  <div class="name">Brushed Gold Huggies</div>
-  <div class="price">₹699</div>
+  <div class="np"><span class="name">Brushed Gold Huggies</span><span class="price">₹699</span></div>
   <div class="line">huggie hoop earrings · 18k gold tone PVD</div>
   <div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div>
  </div>

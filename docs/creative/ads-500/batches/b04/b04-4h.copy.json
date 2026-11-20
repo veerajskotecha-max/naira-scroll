@@ -1,6 +1,6 @@
 {
  "id": "b04-4h",
- "variantOf": "b04-4",
+ "replaces": "b04-4",
  "handle": "serpentine-whisper-chain-silver",
  "product": "Serpentine Whisper Chain — Silver",
  "price": 899,
@@ -18,11 +18,11 @@
   "beat": "for the reception, after dark.",
   "cardLine": "10 mm cubic zirconia · silver tone PVD",
   "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": "SHOWN MAGNIFIED / STONE ABOUT 10 MM",
+  "sizeTag": "SHOWN MAGNIFIED · STONE ABOUT 10 MM: one plain centred line, Jost 500 26 caps .12em bone, no box, under the pendant on both formats (z2, 20 Nov 2026). Until z2 the Feed carried a boxed two-line tag 'SHOWN MAGNIFIED / STONE ABOUT 10 MM' in the headline row.",
   "callouts": []
  },
  "meta": {
-  "primaryText": "One clear point of focus: Serpentine Whisper Chain in silver tone, ₹899, one 10 mm cubic zirconia. BUY2: 10% off 2 pieces. Waterproof and tarnish-free, too.",
+  "primaryText": "One stone, one smooth line: Serpentine Whisper Chain in silver tone, ₹899, one 10 mm cubic zirconia. BUY2: 10% off 2 pieces. Waterproof and tarnish-free, too.",
   "headline": "Serpentine Necklace · ₹899 · 10% off 2",
   "description": "One stone · silver tone",
   "cta": "Shop Now",
@@ -47,22 +47,24 @@
    "beatColour": "bone",
    "storyH1Px": 60,
    "storyBeat": "none (dropped per the brief)",
-   "note": "The control's sizes held: Velista 64 .12em gold-light staggered (A6 range 64-80), beat 44 bone. The longer lines took the text share from .135 to .140; line 1's top moved 115 to 113 so its line box sits on the renderer's 8 px grid (.137)."
+   "note": "The control's sizes held: Velista 64 .12em gold-light staggered (A6 range 64-80), beat 44 bone. The longer lines took the text share from .135 to .140; line 1's top moved 115 to 113 so its line box sits on the renderer's 8 px grid (.137). z2: text share .139 (A6 .14) with the boxed tag out of the headline row and one plain tag line under the pendant."
   },
-  "feed": "body.dark, ground #143135 (the sampled backdrop teal). .pic object-position 50% 33.5%. Size tag (unchanged) 30 px bone, right 72, box 607-1008 x 88-184. H1 Velista 64 .12em gold-light: \"One stone.\" left 72, top 113, ink 116-162 (x 74-480), 127 px left of the tag box, its baseline 2 px over the tag's second baseline (the control shared it); \"One smooth line.\" left 236, top 208, ink 211-257 (x 238-901), 28 px under the tag box. Beat (unchanged) Cormorant italic 500 44 bone, left 236, ink 289-332 (x 231-670), flush with line 2. Card (unchanged) top 953: logo_white 953-1008, name 1034-1053, price 1080-1135, line 1150-1168, offer box 1189-1251 (x 177-903), all on the plain face. No scrim. No type in Feed y 380-930.",
+  "feed": "body.dark, ground #143135 (the sampled backdrop teal). .pic object-position 50% 33.5% (unchanged in z2). H1 Velista 64 .12em gold-light, unchanged: \"One stone.\" left 72, top 113, ink 116-162 (x 74-480); \"One smooth line.\" left 236, top 208, ink 211-257 (x 238-901). Beat (unchanged) Cormorant italic 500 44 bone, left 236, ink 289-332 (x 234-670), flush with line 2. z2: the boxed two-line size tag (right 72, box 607-1008 x 88-184) that crowded \"One stone.\" is removed, so the headline row holds only the staircase and the beat. Size tag: one plain centred line, Jost 500 26 caps .12em bone, no box (as on the Story), line box 905-943, ink 913-933 (x 217-858), under the pendant, 23 px under the stone's lowest claw (890), on the near-black velvet (luminance about .006, row std .005; the stone's contact shadow there is .004-.005, barely darker), off the piece. One line is 641 px wide and the velvet beside the pendant is only 368-371 px (x 72-443 and 640-1008), so it goes under the pendant, not beside it. Card (words and row gap unchanged) moved down 953 to 965 so the tag reads as the stone's caption, 32 px over the wordmark: logo_white 965-1021, name ink 1046-1065, price ink 1092-1147, line ink 1159-1180, offer box 1201-1263 (x 177-903, inside the 1266 safe edge), all on the plain face. No scrim. The tag is the only type inside Feed y 380-930 (its ink 913-933, under the stone); nothing touches the chain, bail or stone.",
   "story": "body.dark story, the native 9:16 frame (Story y = src y x 0.703125 - 7.5). Centred stack on the calm teal backdrop: logo_white 270-325; H1 staggered Velista 60 .12em gold-light, \"One stone.\" left 175, ink 352-395 (x 177-558), \"One smooth line.\" left 279 (control 336), ink 416-459 (x 281-903), so the staircase still spans the offer box's own edges (177-903); name and price on one baseline (24 px gap), price ink 487-542; offer box 566-627 (the only boxed element), 81 px over the chain under it. Gaps 27 / 21 / 28 / 24. Size tag (unchanged) one plain centred line, Jost 500 26 caps, ink 1180-1199 (x 217-858) on the dark face, 98 px under the stone.",
-  "contrast": "Median against the rendered ground under each ink with the type hidden (worst 2% in brackets). Feed: H1 7.8 / 8.5 (7.4), beat 11.8 (11.0), size tag 14.1 (12.6); the card is the control's, unchanged: wordmark 16.1 (12.3), name 16.0, price 16.2, line 16.6, offer 16.9. Story: H1 7.9 / 8.5 (7.4), name 11.8 (11.0), price 13.0 (12.5), offer 11.8 (9.4), tag 16.4 (13.0).",
-  "thumbnail": "At 216 px (tmp/b04-4h_feed_216.png, beside the control in tmp/variants_216_feed.png) the one bright stone on the dark velvet lands first; the gold staircase reads second as two short counted beats, \"One stone. One smooth line.\", that name what the picture shows (the stone, the snake chain); the tag box third; the card resolves to wordmark, name, ₹899 and the offer box. The Story (tmp/variants_216_story.png) keeps the control's order.",
+  "contrast": "Median against the rendered ground under each ink with the type hidden (worst 2% in brackets), re-measured on the z2 Feed render. Feed: H1 7.80 (7.38) / 8.49 (7.41), beat 11.80 (10.99), size tag 16.55 (12.57), wordmark 15.88 (12.40), name 16.25 (13.37), price 16.16 (13.07), line 16.75 (13.59), offer text 16.33-17.30 (13.77), offer box rule 16.96 (13.86). Story unchanged (the re-render is byte-identical): H1 7.9 / 8.5 (7.4), name 11.8 (11.0), price 13.0 (12.5), offer 11.8 (9.4), tag 16.4 (13.0).",
+  "thumbnail": "At 216 px (tmp/b04-4h_feed_216.png, beside the control in tmp/variants_216_feed.png) the one bright stone on the dark velvet lands first; the gold staircase reads second as two short counted beats, \"One stone. One smooth line.\", that name what the picture shows (the stone, the snake chain); the tag box third; the card resolves to wordmark, name, ₹899 and the offer box. The Story (tmp/variants_216_story.png) keeps the control's order. z2 at 200 px (scratchpad z2/b04f/thumb_b04-4h_feed.png): the one bright stone lands first; the gold staircase now reads on its own with no box beside \"One stone.\"; the tag reads as the stone's caption just under it, then the card.",
   "passes": [
    "Pass 1: the new H1 in the control's exact slots: clean, text share .140 (the limit), the Story staircase ending at x 960, past the offer box's right edge.",
-   "Pass 2: Feed line 1 top 115 to 113 (line box on the 8 px grid): .137. Story line 2 left 336 to 279 so the staircase spans 177-903, the offer box's edges, as in the control."
+   "Pass 2: Feed line 1 top 115 to 113 (line box on the 8 px grid): .137. Story line 2 left 336 to 279 so the staircase spans 177-903, the offer box's edges, as in the control.",
+   "z2 pass 1: tag line box 903 (ink 912-931) with the card left at 953: clean, text share .139, but the tag sat 22 px under the stone and 22 px over the wordmark, so at full size it read as the card's first row rather than the stone's caption.",
+   "z2 pass 2 (chosen): tag line box 905 (ink 913-933), card top 965 with its gap unchanged (offer box 1201-1263): 23 px under the stone, 32 px over the wordmark; text share .139; tag 16.55 (12.57). Feed picture band y 345-900 is pixel-identical to the round-1 render (max difference 0)."
   ],
   "checks": {
    "feed": {
     "failed": [],
     "overflow": [],
     "fallback": [],
-    "textShare": 0.137,
+    "textShare": 0.139,
     "outside": [],
     "minFont": 26
    },
@@ -74,7 +76,8 @@
     "outside": [],
     "minFont": 26
    }
-  }
+  },
+  "scale": "z2, measured on the Feed JPG: the stone is 197 px across at its widest rows (x 442-638) and 195 px tall (693-888) for the listed 10 mm = 19.5-19.7 Feed px per mm, at or over the 19 px/mm trigger, so 'SHOWN MAGNIFIED' is allowed (about 1.2x life on a phone)."
  },
  "copyChanges": [
   "Primary text as briefed: 156 characters; the offer ('BUY2: 10% off 2 pieces.') ends at character 122. Meta headline 38 (type, price, offer), description 23.",
@@ -83,7 +86,40 @@
   "Fixer after critics round 1 (critic B, truth of record): the archetype is logged as A4/A6 for the live read, because the A6 spotlight did not render (both critics); the briefed archetype is kept in archetypeBriefed. Records only; the JPGs are unchanged.",
   "Not applied (one critic only, logged for the lead): A's Feed top-block re-layout (the boxed two-line size tag replaced by one plain unboxed line 'Shown magnified · stone about 10 mm' at left 236, top 344; H1 lines to top 100 and 192, beat to 268; A's test render tmp/criticA/t44_feed.jpg, textShare .136). B wrote 'Layout needs nothing'.",
   "Headline variant b04-4h (b04 loop change 4, zero credits): only the on-image H1 changed, to \"ONE STONE. / ONE SMOOTH LINE.\" (the listing's line, cut before the bare metal word \"silver\"); beat, tag, card and offer unchanged. Meta fields are the control's except utm_term (b04-4h_…). Open for the lead: the Meta primary text still opens \"One clear point of focus:\", the control's headline; it is left as the control's because a variant shares its ad's text. Lint: no banned word, no bare metal word on the image, no digits, ₹, middle dots or dashes in Velista.",
-  "Critics round 1 (20 Nov): no fix asked for by both critics, so no file was changed apart from this record (review, preLaunch)."
+  "Critics round 1 (20 Nov): no fix asked for by both critics, so no file was changed apart from this record (review, preLaunch).",
+  {
+   "date": "20 Nov 2026",
+   "round": "z2",
+   "changed": "Feed: the boxed two-line size tag (right 72, box 607-1008 x 88-184) is removed from the headline row; 'SHOWN MAGNIFIED · STONE ABOUT 10 MM' is set as ONE plain centred line (Jost 500 26 caps .12em, bone, no box, the Story's treatment) under the pendant: line box 905-943, ink 913-933, 23 px under the stone. The card's words and gap are unchanged; it moves down 953 to 965 so the tag reads as the stone's caption (offer box ends 1263). Measured 19.5-19.7 Feed px per listed mm (stone 197 px across, 195 px tall, for 10 mm), over 19, so 'SHOWN MAGNIFIED' stays. Tag contrast 16.55 median, 12.57 worst 2%. Meta primaryText changed (old and new below). variantOf removed and replaces: 'b04-4' added (this is now the ad for this picture). Story, picture, crop (P 33.5), H1, beat, Meta headline, description, CTA and URL unchanged; the Story re-render is byte-identical (md5 ae3b7fedec8f540d1cc72babc4b1aa32). The variant block and the round-1 review are kept as history: the round-1 scored Feed (23:41:28 render) is no longer the shipping file, so the Feed needs a fresh score.",
+   "why": "Fresh blind audit (all four runs): \"the boxed size tag crowds the first line of the staggered headline\" and \"the Meta text still opens 'One clear point of focus', which does not echo the on-image line\".",
+   "primaryText": {
+    "old": "One clear point of focus: Serpentine Whisper Chain in silver tone, ₹899, one 10 mm cubic zirconia. BUY2: 10% off 2 pieces. Waterproof and tarnish-free, too.",
+    "new": "One stone, one smooth line: Serpentine Whisper Chain in silver tone, ₹899, one 10 mm cubic zirconia. BUY2: 10% off 2 pieces. Waterproof and tarnish-free, too.",
+    "counts": "158 characters (120-180); the offer 'BUY2: 10% off 2 pieces.' runs from character 102 to 124 (by 125). Lint: 'silver tone' only, never bare silver; 'cubic zirconia' for the stone; no diamond, sterling, real or solid gold; no compare-at price or shipping line; 'Waterproof and tarnish-free' allowed for this SKU (RULINGS §1.1) and kept as the closing proof line; BUY2 10% on 2+ as RULINGS §2."
+   },
+   "render": [
+    {
+     "out": "b04-4h_feed.jpg",
+     "size": "1080x1350",
+     "failed": [],
+     "overflow": [],
+     "fallback": [],
+     "textShare": 0.139,
+     "outside": [],
+     "minFont": 26
+    },
+    {
+     "out": "b04-4h_story.jpg",
+     "size": "1080x1920",
+     "failed": [],
+     "overflow": [],
+     "fallback": [],
+     "textShare": 0.075,
+     "outside": [],
+     "minFont": 26
+    }
+   ]
+  }
  ],
  "truthNotes": [
   "Construction (verifier and skeptic): one clear cushion cubic zirconia, exactly four claws, no halo or extra stones; a smooth round snake chain of chevron plates, not cable, box or links; bright, cool silver tone (highlight a* 0.2-1.3, b* -0.6-1.4); folded tube bail on a jump ring, as in the detail ref.",
@@ -91,7 +127,8 @@
   "Pendant 18.2% of the width, under the brief's 22-38% band but over the 15% stop-power floor; the necklace spans the frame edge to edge.",
   "No face, eyes, skin, hands, water, other jewellery or text in the picture.",
   "Pre-launch check (critic B, open): re-read Serpentine Whisper Chain — Silver stock before launch. It read 23 at 20:50 UTC, 3 over the 20 floor (RULINGS §2); do not launch below 20.",
-  "Critic B truth notes, both within the lock: the bail tube is about 1.35x the detail ref's length (bail / stone 0.62 against about 0.46); stone / chain 5.0-5.3 (true 5.0), one cushion stone, four claws, a snake chain, cool silver tone. The size tag is honest at 19.6 Feed px per mm, about 1.2x life."
+  "Critic B truth notes, both within the lock: the bail tube is about 1.35x the detail ref's length (bail / stone 0.62 against about 0.46); stone / chain 5.0-5.3 (true 5.0), one cushion stone, four claws, a snake chain, cool silver tone. The size tag is honest at 19.6 Feed px per mm, about 1.2x life.",
+  "z2 (20 Nov 2026): one audit run saw a small jump ring between the bail and the basket that the listing photos do not clearly show; the lead judged it minor and unresolved."
  ],
  "archetypeBriefed": "A6 Single Spotlight (product-only hero; the surprise, one lit point in a dark room, described by its result, never as a beam)",
  "variant": {
@@ -134,7 +171,7 @@
   },
   "mean": 7.6875,
   "scoredFiles": {
-   "feed": "batches/b04/b04-4h_feed.jpg, render of 2026-11-19 23:41:28 UTC (unchanged; the shipping file)",
+   "feed": "batches/b04/b04-4h_feed.jpg, render of 2026-11-19 23:41:28 UTC (superseded in z2, 20 Nov 2026: the Feed was re-rendered with the size tag moved under the pendant and the card moved down, and the Meta primary text changed, so this scored file is no longer the shipping file and the ad needs a fresh score; verifier note)",
    "story": "batches/b04/b04-4h_story.jpg, render of 2026-11-19 23:41:28 UTC (unchanged; the shipping file)"
   },
   "fixesApplied": [],

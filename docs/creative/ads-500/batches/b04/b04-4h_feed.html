@@ -10,11 +10,20 @@
      Ink (Chromium): "One stone." 116-162 (x 74-480), 127 px left of the tag box; "One smooth line." 211-257 (x 238-901), 28 px under
      the tag box, as in the control. Line 1's top moved 115 to 113 so its line box sits on the renderer's 8 px grid (text share
      .140 to .137); its baseline is 2 px over the tag's second baseline, which the control shared.
-     Unchanged: beat Cormorant italic 500 44 bone, left 236, ink 289-332, flush with line 2; size tag right 72, box 607-1008 x 88-184;
-     card top 953, all on the plain velvet face.
+     Unchanged: beat Cormorant italic 500 44 bone, left 236, ink 289-332, flush with line 2; size tag right 72, box 607-1008 x 88-184
+     and card top 953, all on the plain velvet face (both changed in z2, below).
      Contrast, median (worst 2%) against the rendered ground with the type hidden: H1 7.8 / 8.5 (7.4), beat 11.8 (11.0),
      tag 14.1 (12.6); the card is the control's (16.0-16.9).
-     Render: failed, overflow, fallback, outside empty; minFont 26; textShare .137 (A6 limit .14). -->
+     Render (before z2): failed, overflow, fallback, outside empty; minFont 26; textShare .137 (A6 limit .14).
+     z2 (20 Nov 2026, fresh blind audit): the boxed two-line size tag (right 72, box 607-1008 x 88-184) that crowded "One stone."
+     is gone from the headline row; the H1 and beat stay where they were. "SHOWN MAGNIFIED · STONE ABOUT 10 MM" is ONE plain centred
+     line under the pendant, Jost 500 26 caps .12em, bone, no box, as on the Story: line box 905-943, ink 913-933 (x 217-858),
+     23 px under the stone's lowest claw (890), on the calm near-black velvet (luminance about .006; the stone's contact shadow
+     under it is .004-.005, barely darker), off the piece. One line is 641 px wide, wider than the 368-371 px of velvet beside
+     the pendant, so it goes under it. The card moves down 953 to 965 (gap unchanged) so the tag reads as the stone's caption,
+     32 px over the wordmark: logo 965-1021, offer box 1201-1263 (inside 1266). Scale 19.6 Feed px per listed mm (stone 197 px
+     across at x 442-638, 195 px tall at 693-888, for 10 mm), over the 19 px/mm trigger. Tag contrast 16.55 median (12.57
+     worst 2%). Render: failed, overflow, fallback, outside empty; minFont 26; textShare .139 (A6 .14). Nothing else changed. -->
 <style>
  body { background: #143135; }
  .pic { object-position: 50% 33.5%; }
@@ -22,7 +31,9 @@
  .hl.l1 { left: 72px; top: 113px; }
  .hl.l2 { left: 236px; top: 208px; }
  .bt { position: absolute; left: 236px; top: 285px; font-size: 44px; color: var(--bone); white-space: nowrap; }
- .sizetag { right: 72px; top: 88px; white-space: nowrap; }
+ /* z2: the size tag is one plain centred line under the pendant, as on the Story (no box, out of the headline row). */
+ .tg { position: absolute; left: 0; right: 0; top: 905px; text-align: center; }
+ .tg .sizetag { position: static; display: inline-block; font-size: 26px; padding: 0; border: none; line-height: 38px; white-space: nowrap; }
  .card .name, .card .line { line-height: 1.2; }
 </style></head>
 <body class="dark">
@@ -30,8 +41,8 @@
  <p class="h1 hl l1">One stone.</p>
  <p class="h1 hl l2">One smooth line.</p>
  <p class="beat bt">for the reception, after dark.</p>
- <div class="sizetag">Shown magnified<br>stone about 10 mm</div>
- <div class="card" style="top:953px">
+ <div class="tg"><div class="sizetag">Shown magnified · stone about 10 mm</div></div>
+ <div class="card" style="top:965px">
   <img class="wm" src="../../kit/logo_white.png" alt="Naira">
   <div class="name">Serpentine Whisper Chain</div>
   <div class="price">₹899</div>
