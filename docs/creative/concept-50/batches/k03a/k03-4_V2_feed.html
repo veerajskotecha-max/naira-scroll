@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!-- k03-4 V2 feed -->
+<style>
+ body { background: #120405; }
+ .rail { position: absolute; left: 72px; height: 34px; display: flex; align-items: center; white-space: nowrap;
+         font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .16em; text-transform: uppercase; color: var(--bone); }
+ .rail .dot { position: relative; width: 10px; height: 10px; border-radius: 50%; background: var(--terracotta); margin-right: 18px; flex: none; }
+ .rail .dot::after { content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 1.5px solid var(--terracotta); opacity: 0;
+                     animation: live 1s ease-out infinite 1s; }
+ @keyframes live { 0% { transform: scale(.5); opacity: .9; } 100% { transform: scale(1.6); opacity: 0; } }
+ .rail .s { margin: 0 .5em 0 .34em; color: var(--gold-light); }
+ .rail .win { color: var(--saffron); }
+ .rail svg { flex: none; display: block; }
+ .call { position: absolute; left: 72px; color: var(--bone); white-space: nowrap; }
+ .call .win { color: var(--saffron); }
+ .beat { position: absolute; left: 72px; font-size: 46px; color: var(--gold-light); white-space: nowrap; line-height: 1.04; }
+ .lab { position: absolute; left: 72px; white-space: nowrap; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 26px;
+        letter-spacing: .14em; text-transform: uppercase; line-height: 30px; }
+ .lab i { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 32px; letter-spacing: 0; text-transform: none;
+          color: var(--gold-light); margin-left: 10px; }
+ .band { position: absolute; left: 0; right: 0; }
+ .ftr { position: absolute; left: 72px; right: 72px; color: var(--bone); }
+ .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
+ .ftr .r1 b { font-weight: 600; margin-right: 8px; }
+ .ftr .r2 { display: flex; align-items: center; gap: 30px; margin-top: 20px; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; }
+ .ftr .offer { flex: 1; text-align: center; border-color: var(--gold-light); white-space: nowrap; }
+ .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 20px;
+            border-top: 1.5px solid rgba(228,200,137,.5); }
+ .ftr .r3 img { height: 56px; display: block; }
+ .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: rgba(244,240,232,.86); white-space: nowrap; }
+ .pic { object-position: 50% 4%; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/k03-4A.png" alt="">
+ <div class="rail" style="top:88px" data-m="rail"><span class="dot"></span>Decision<span class="s">·</span>Her
+   <svg width="40" height="34" viewBox="0 0 40 34" style="margin-left:12px"><defs><filter id="chalk" x="-50%" y="-20%" width="200%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter></defs>
+     <g stroke="#E8A33A" stroke-width="3" stroke-linecap="round" filter="url(#chalk)"><path d="M8 3 L7 31"/><path d="M19 2 L18.5 31"/><path d="M30 3 L29 32"/></g></svg>
+   <span class="s">·</span>Him<svg width="30" height="34" viewBox="0 0 30 34" style="margin-left:10px"><circle cx="13" cy="17" r="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/></svg><span class="s">·</span><span class="win">Taken off 0</span></div>
+ <p class="h1 call" style="top:140px;font-size:120px" data-m="call">Not <span class="win">out.</span></p>
+ <p class="beat" style="top:290px" data-m="beat">the ring you take off to wash<br>is the one that goes missing.<br>this one’s waterproof. leave it on.</p>
+ <svg class="overlay" viewBox="0 0 1080 1350" style="height:1350px">
+   <g fill="none" stroke-linecap="round">
+    <path d="M88 697.3 H544" stroke="rgba(18,4,5,.55)" stroke-width="4" stroke-dasharray="0.1 7"/>
+    <path d="M88 697.3 H544" stroke="#E4C889" stroke-width="2" stroke-dasharray="0.1 7"/>
+    <circle cx="552" cy="697.3" r="5" stroke="rgba(18,4,5,.6)" stroke-width="4"/>
+    <circle cx="552" cy="697.3" r="5" stroke="#F4F0E8" stroke-width="2"/>
+   </g>
+   <rect x="72" y="692.3" width="3.5" height="10" fill="#F4F0E8"/>
+   <rect x="72.75" y="796.75" width="268.5" height="8.5" fill="none" stroke="#F4F0E8" stroke-width="1.5"/>
+   <g fill="#F4F0E8"><rect x="72" y="796" width="30" height="10"/><rect x="132" y="796" width="30" height="10"/><rect x="192" y="796" width="30" height="10"/><rect x="252" y="796" width="30" height="10"/><rect x="312" y="796" width="30" height="10"/></g>
+ </svg>
+ <div class="lab" style="top:714px" data-m="lab2">Ring<i>5.8 mm band</i></div>
+ <div class="lab" style="top:748px" data-m="lab3">US 6, 7 or 8</div>
+ <div class="lab" style="top:818px" data-m="lab1">Paraat<i>about 45 cm</i></div>
+ <div class="band" style="top:856px;height:370px;background:linear-gradient(to bottom,rgba(59,38,32,0) 0,rgba(59,38,32,0.93) 54px,rgba(59,38,32,0.93) 314px,rgba(59,38,32,0) 370px)"></div>
+ <div class="ftr" style="top:918px" data-m="card">
+  <div class="r1"><b>Tubogas Dome Ring.</b> 18k gold tone · fine polished ridges · no stones</div>
+  <div class="r2"><span class="price">₹999</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
+  <div class="r3"><img src="../../../ads-500/kit/logo_white.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
+ </div>
+</body></html>
