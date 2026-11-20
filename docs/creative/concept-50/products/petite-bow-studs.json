@@ -31,5 +31,10 @@
     {"file": "05.jpg", "shows": "The Naira Petite blush gift box under sheer organza. No product."},
     {"file": "06.jpg", "shows": "Size guide: the packshot with a 14 mm bar, 'Bow 14 mm wide', give or take 1 mm. Rhodium silver tone. Scale evidence; text overlay, so not a generation reference. The description's embedded size-guide image is a duplicate (mean pixel difference about 1/255) and was not kept."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, 6 images); edition-one/build/BRIEF.md, skus.json, frames.json, media_ids.json; edition-one/PLAN_V3.md; size-cards/cards.json and README.md. No entry in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, 6 images); edition-one/build/BRIEF.md, skus.json, frames.json, media_ids.json; edition-one/PLAN_V3.md; size-cards/cards.json and README.md. No entry in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/petite-bow-studs/06_scale_crop.jpg",
+    "mediaId": "4162d8fd-412c-49c0-8bf1-bd96ec3bf123",
+    "use": "Add as reference 3: \"Reference 3 shows this exact pair beside the listing's own 14 mm size-guide bar at true size (each bow 14 mm wide, give or take 1 mm, and about 10 mm tall: about a fingernail wide, about two thirds of a Rs 1 coin; worn, it sits on the lobe, no wider than the lobe and under half the ear's breadth, never a statement bow spreading onto the cheek): match that scale exactly; copy only the scale, never the bar, its label or a face.\""
+  }
 }
