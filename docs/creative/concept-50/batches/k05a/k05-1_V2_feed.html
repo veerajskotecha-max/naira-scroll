@@ -1,61 +1,73 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k05-1 V2 · Halo Curve Ring · PARCHHAI. card 1 "Tum aur main" · OUTCOME / EDUCATION · the camp bible's planned line · Feed 1080x1350.
-     (top comment is filled in after the render; see below) -->
+<!-- k05-1 V2_feed draft -->
 <style>
- body { background: #D0B397; }
+ body { background: #CDB197; }
  .pic { object-position: 50% 18%; }
- /* THE DOUBLE LINE: object line in the light, type-shadow under it in the same sun */
- .obj { position: absolute; left: 72px; top: 128px; font-size: 132px; white-space: nowrap; }
- .kT { letter-spacing: -.035em; }
- .ts { position: absolute; left: 76px; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic; font-weight: 500;
-       font-size: 82px; line-height: 82px; letter-spacing: .005em; transform-origin: 0 0; transform: skewX(16deg) scaleY(1.22); }
- .ts-a { color: #1C110D; mix-blend-mode: multiply;
-         -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 50%, transparent 72%); mask-image: linear-gradient(to bottom, #000 0, #000 50%, transparent 72%); }
- .ts-b { color: #1C110D; mix-blend-mode: multiply; filter: blur(1.5px);
-         -webkit-mask-image: linear-gradient(to bottom, transparent 0, transparent 46%, #000 66%); mask-image: linear-gradient(to bottom, transparent 0, transparent 46%, #000 66%); }
- .ts-a .w, .ts-b .w { color: transparent; }
- .ts-u { color: transparent; mix-blend-mode: multiply; filter: blur(8px); }
- .ts-u .w { color: #2A1A15; -webkit-text-stroke: 11px #2A1A15; }
- .ts-l { color: transparent; mix-blend-mode: screen; }
- .ts-l .w { color: rgba(244,240,232,.95); text-shadow: 0 0 8px rgba(240,214,170,.75), 0 0 2px rgba(244,240,232,.6); }
- .lab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 38px; letter-spacing: .14em;
-        text-transform: uppercase; white-space: nowrap; color: var(--ink); }
- .sz { letter-spacing: .12em; }
+
+ /* 1 · OBJECT LINE (in the light): Velista caps, ink */
+ .obj { position: absolute; left: 72px; line-height: .98; letter-spacing: .02em; white-space: nowrap; margin: 0; }
+ .obj .kTW { letter-spacing: -.045em; }
+ /* 2 · TYPE-SHADOW (the meaning): Cormorant italic, cocoa, multiplied into the plaster, leaning and stretched like the plate's shadow.
+    Copy a is the sharp contact, b and c the softening penumbra, pen a soft fringe outside the umbra that widens with distance. */
+ .ts { position: absolute; transform-origin: 0 0; }
+ .sh { mix-blend-mode: multiply; }
+ .lt { mix-blend-mode: screen; }
+ .ts p { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic;
+         font-weight: 500; letter-spacing: .01em; color: #3B2620; }
+ .ts p .w { color: transparent; }
+ .ts .pen { -webkit-text-stroke: 4px #3B2620; filter: blur(4px); opacity: .34; }
+ .ts .pool { color: transparent; }
+ .ts .pool .w { color: #3B2620; -webkit-text-stroke: 8px #3B2620; filter: blur(6px); }
+ /* 3 · THE LIGHT IN THE TYPE: bone, screened, a warm 7 px glow, the same lean */
+ .ts .lit { color: transparent; }
+ .ts .lit .w { color: rgba(244,240,232,.93); text-shadow: 0 0 7px rgba(242,214,168,.8), 0 0 2px rgba(244,240,232,.6); }
+ /* 4 · THE SUN and 5 · THE SIZE LINE: Jost 500 26 caps */
+ .lab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .14em;
+        text-transform: uppercase; white-space: nowrap; color: var(--ink); margin: 0; }
+ .lab.sz { letter-spacing: .12em; }
+ /* the F2 footer on the ledge face, one grid x 72-1008 */
  .ftr { position: absolute; left: 72px; right: 72px; color: var(--ink); }
  .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
- .ftr .r1 b { font-weight: 600; margin-right: 6px; }
- .ftr .r2 { display: flex; align-items: center; gap: 28px; margin-top: 16px; }
- .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1; flex: none; }
- .ftr .offer { flex: 1; text-align: center; white-space: nowrap; padding: 12px 20px; }
- .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 14px;
-            border-top: 1.5px solid rgba(26,22,20,.32); }
- .ftr .r3 img { height: 46px; display: block; }
- .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
+ .ftr .r1 b { font-weight: 600; margin-right: 8px; }
+ .ftr .r2 { display: flex; align-items: center; gap: 30px; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; line-height: 1; flex: none; letter-spacing: -.01em; }
+ .ftr .price .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
+ .ftr .offer { flex: 1; text-align: center; white-space: nowrap; padding: 12px 16px; border-width: 1.5px; }
+ .ftr .r3 { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(26,22,20,.45); }
+ .ftr .r3 img { display: block; }
+ .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
 </style></head>
 <body>
  <img class="pic" src="pics/k05-1A.png" alt="">
- <p class="h1 obj">One of<br>Each.</p>
- <p class="ts ts-a" style="top:349px">still a <span class="w">jodi</span>.</p>
- <p class="ts ts-b" style="top:349px">still a <span class="w">jodi</span>.</p>
- <p class="ts ts-u" style="top:349px">still a <span class="w">jodi</span>.</p>
- <p class="ts ts-l" style="top:349px">still a <span class="w">jodi</span>.</p>
+ <p class="h1 obj" style="top:128px;font-size:128px">One of<br>Each.</p>
+ <div class="ts sh" style="left:76px;top:356.7px;width:900px;height:127px;transform: skewX(17deg) scaleY(1.38);">
+  <p class="pen" style="font-size:98px;line-height:98px;-webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 8px, #000 78px); mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 8px, #000 78px);">still a <span class="w">jodi</span>.</p>
+  <p class="pool" style="font-size:98px;line-height:98px;">still a <span class="w">jodi</span>.</p>
+  <p class="a" style="font-size:98px;line-height:98px;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 53px, transparent 70px); mask-image: linear-gradient(to bottom, #000 0, #000 53px, transparent 70px);">still a <span class="w">jodi</span>.</p>
+  <p class="b" style="font-size:98px;line-height:98px;filter:blur(.9px);-webkit-mask-image: linear-gradient(to bottom, transparent 50px, #000 68px, #000 80px, transparent 95px); mask-image: linear-gradient(to bottom, transparent 50px, #000 68px, #000 80px, transparent 95px);">still a <span class="w">jodi</span>.</p>
+  <p class="c" style="font-size:98px;line-height:98px;filter:blur(1.7px);-webkit-mask-image: linear-gradient(to bottom, transparent 78px, #000 93px); mask-image: linear-gradient(to bottom, transparent 78px, #000 93px);">still a <span class="w">jodi</span>.</p>
+ </div>
+ <div class="ts lt" style="left:76px;top:356.7px;width:900px;height:127px;transform: skewX(17deg) scaleY(1.38);"><p class="lit" style="font-size:98px;line-height:98px;">still a <span class="w">jodi</span>.</p></div>
  <svg class="overlay" viewBox="0 0 1080 1350">
-  <!-- the sun: on the frame edge where a 16 degree line from the tiger eye bezel's specular leaves the frame -->
-  <circle cx="7" cy="573" r="7" fill="#1A1614"/>
-  <line x1="14" y1="575" x2="295.2" y2="655.6" stroke="#1A1614" stroke-opacity=".5" stroke-width="1.5"/>
-  <circle cx="300" cy="657" r="5" fill="none" stroke="#1A1614" stroke-width="1.5"/>
-  <!-- dimension bracket under the ring's true outline, and a dashed one for the shadow -->
-  <g stroke="#1A1614" stroke-width="1.5" fill="none">
-   <line x1="149" y1="967" x2="593" y2="967"/><line x1="149" y1="961" x2="149" y2="973"/><line x1="593" y1="961" x2="593" y2="973"/>
-   <line x1="639" y1="967" x2="1008" y2="967" stroke-dasharray="6 6"/><line x1="639" y1="961" x2="639" y2="973"/>
+  <g fill="none" stroke="#1A1614">
+  <line x1="16.2" y1="573.4" x2="294.7" y2="653.3" stroke-width="1.5" stroke-opacity=".6"/>
+  <circle cx="300.3" cy="654.9" r="5" stroke-width="1.5"/>
+  <line x1="17" y1="571.1" x2="98" y2="571.1" stroke-width="1" stroke-opacity=".55" stroke-dasharray="3 4"/>
+  <path d="M 84 571.1 A 76 76 0 0 1 81.1 592.0" stroke-width="1" stroke-opacity=".7"/>
+  <g stroke-width="1.5">
+   <line x1="149" y1="968" x2="593" y2="968"/><line x1="143" y1="974" x2="155" y2="962"/><line x1="587" y1="974" x2="599" y2="962"/>
+   <line x1="149" y1="958" x2="149" y2="978" stroke-width="1"/><line x1="593" y1="958" x2="593" y2="978" stroke-width="1"/>
+   <line x1="625" y1="968" x2="960" y2="968" stroke-dasharray="5 6"/><line x1="619" y1="974" x2="631" y2="962"/><line x1="954" y1="974" x2="966" y2="962"/>
   </g>
+  </g>
+  <circle cx="8" cy="571.1" r="7" fill="#1A1614"/>
  </svg>
- <div class="lab" style="left:72px;top:537px">3:58 PM · 21 Dec</div>
- <div class="lab sz" style="left:227px;top:972px">Ring 17 mm inside</div>
- <div class="lab sz" style="right:72px;top:972px">Shadow not included</div>
- <div class="ftr" style="top:1050px">
+ <p class="lab" style="left:72px;top:524px">3:58 PM · 21 Dec · Sun 16°</p>
+ <p class="lab sz" style="left:224px;top:975px">Ring 17 mm inside</p>
+ <p class="lab sz" style="left:607px;top:975px">Shadow not included</p>
+ <div class="ftr" style="top:1052px">
   <div class="r1"><b>Halo Curve Ring.</b> Tiger eye and pale champagne crystal · fits US 5 to 9</div>
-  <div class="r2"><span class="price">₹899</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
-  <div class="r3"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
+  <div class="r2" style="margin-top:14px"><span class="price" style="font-size:74px"><span class="r">₹</span>899</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
+  <div class="r3" style="margin-top:16px;padding-top:14px"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira" style="height:44px"><span class="trust">Free insured shipping · Cash on delivery</span></div>
  </div>
 </body></html>

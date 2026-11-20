@@ -1,90 +1,73 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k05-1 V1 · draft -->
+<!-- k05-1 V1_feed draft -->
 <style>
  body { background: #CDB197; }
  .pic { object-position: 50% 18%; }
 
- /* 1 · OBJECT LINE, in the light: Velista caps, ink, x 72 */
- .obj { position: absolute; left: 72px; top: 128px; font-size: 128px; line-height: .98; letter-spacing: .02em; white-space: nowrap; }
+ /* 1 · OBJECT LINE (in the light): Velista caps, ink */
+ .obj { position: absolute; left: 72px; line-height: .98; letter-spacing: .02em; white-space: nowrap; margin: 0; }
  .obj .kTW { letter-spacing: -.045em; }
-
- /* 2 · TYPE-SHADOW, hung from the object line's baseline, leaning with the plate (16 deg), stretched like a low-sun shadow */
- .ts { position: absolute; left: 76px; top: 338.3px; width: 620px; height: 120px; transform-origin: 0 0; transform: skewX(17deg) scaleY(1.5); }
- .ts.sh { mix-blend-mode: multiply; }
- .ts.lt { mix-blend-mode: screen; }
+ /* 2 · TYPE-SHADOW (the meaning): Cormorant italic, cocoa, multiplied into the plaster, leaning and stretched like the plate's shadow.
+    Copy a is the sharp contact, b and c the softening penumbra, pen a soft fringe outside the umbra that widens with distance. */
+ .ts { position: absolute; transform-origin: 0 0; }
+ .sh { mix-blend-mode: multiply; }
+ .lt { mix-blend-mode: screen; }
  .ts p { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic;
-         font-weight: 500; font-size: 92px; line-height: 92px; letter-spacing: .01em; color: #3B2620; }
+         font-weight: 500; letter-spacing: .01em; color: #3B2620; }
  .ts p .w { color: transparent; }
- /* sharp at the contact, softening with distance: three copies cross-faded down the letter height */
- .ts .a { -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 45px, transparent 54px); mask-image: linear-gradient(to bottom, #000 0, #000 45px, transparent 54px); }
- .ts .b { filter: blur(.9px); -webkit-mask-image: linear-gradient(to bottom, transparent 43px, #000 53px, #000 60px, transparent 68px); mask-image: linear-gradient(to bottom, transparent 43px, #000 53px, #000 60px, transparent 68px); }
- .ts .c { filter: blur(1.7px); -webkit-mask-image: linear-gradient(to bottom, transparent 59px, #000 67px); mask-image: linear-gradient(to bottom, transparent 59px, #000 67px); }
- /* penumbra: a soft fringe outside the crisp umbra, widening with distance from the contact */
- .ts .pen { -webkit-text-stroke: 4px #3B2620; filter: blur(4px); opacity: .34;
-            -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 0, #000 70%); mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 0, #000 70%); }
- /* the pool: the shadow that the lit word sits inside (the crystal's caustic glows inside the joined hands' shadow) */
+ .ts .pen { -webkit-text-stroke: 4px #3B2620; filter: blur(4px); opacity: .34; }
  .ts .pool { color: transparent; }
  .ts .pool .w { color: #3B2620; -webkit-text-stroke: 8px #3B2620; filter: blur(6px); }
- /* 3 · THE LIGHT IN THE TYPE: 'aur' alone is lit */
+ /* 3 · THE LIGHT IN THE TYPE: bone, screened, a warm 7 px glow, the same lean */
  .ts .lit { color: transparent; }
  .ts .lit .w { color: rgba(244,240,232,.93); text-shadow: 0 0 7px rgba(242,214,168,.8), 0 0 2px rgba(244,240,232,.6); }
- /* 4 · THE SUN label, 5 · SIZE LINE labels */
- .lab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .14em;
-        text-transform: uppercase; white-space: nowrap; color: var(--ink); }
+ /* 4 · THE SUN and 5 · THE SIZE LINE: Jost 500 26 caps */
+ .lab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .14em;
+        text-transform: uppercase; white-space: nowrap; color: var(--ink); margin: 0; }
  .lab.sz { letter-spacing: .12em; }
-
- /* F2 footer on the ledge face, one grid at x 72 to 1008 */
+ /* the F2 footer on the ledge face, one grid x 72-1008 */
  .ftr { position: absolute; left: 72px; right: 72px; color: var(--ink); }
  .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
  .ftr .r1 b { font-weight: 600; margin-right: 8px; }
- .ftr .r2 { display: flex; align-items: center; gap: 30px; margin-top: 14px; }
- .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 74px; line-height: 1; flex: none; letter-spacing: -.01em; }
+ .ftr .r2 { display: flex; align-items: center; gap: 30px; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; line-height: 1; flex: none; letter-spacing: -.01em; }
  .ftr .price .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
- .ftr .offer { flex: 1; text-align: center; white-space: nowrap; padding: 12px 18px; border-width: 1.5px; }
- .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 14px;
-            border-top: 1px solid rgba(26,22,20,.45); }
- .ftr .r3 img { height: 44px; display: block; }
+ .ftr .offer { flex: 1; text-align: center; white-space: nowrap; padding: 12px 16px; border-width: 1.5px; }
+ .ftr .r3 { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(26,22,20,.45); }
+ .ftr .r3 img { display: block; }
  .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
 </style></head>
 <body>
  <img class="pic" src="pics/k05-1A.png" alt="">
-
- <p class="h1 obj"><span class="kTW">T</span>wo<br>Stones.</p>
-
- <div class="ts sh">
-  <p class="pen">tum <span class="w">aur</span> main.</p>
-  <p class="pool">tum <span class="w">aur</span> main.</p>
-  <p class="a">tum <span class="w">aur</span> main.</p>
-  <p class="b">tum <span class="w">aur</span> main.</p>
-  <p class="c">tum <span class="w">aur</span> main.</p>
+ <p class="h1 obj" style="top:128px;font-size:128px"><span class="kTW">T</span>wo<br>Stones.</p>
+ <div class="ts sh" style="left:76px;top:338.4px;width:900px;height:120px;transform: skewX(17deg) scaleY(1.5);">
+  <p class="pen" style="font-size:92px;line-height:92px;-webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 20px, #000 60px); mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 20px, #000 60px);">tum <span class="w">aur</span> main.</p>
+  <p class="pool" style="font-size:92px;line-height:92px;">tum <span class="w">aur</span> main.</p>
+  <p class="a" style="font-size:92px;line-height:92px;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 46px, transparent 56px); mask-image: linear-gradient(to bottom, #000 0, #000 46px, transparent 56px);">tum <span class="w">aur</span> main.</p>
+  <p class="b" style="font-size:92px;line-height:92px;filter:blur(.9px);-webkit-mask-image: linear-gradient(to bottom, transparent 44px, #000 54px, #000 61px, transparent 69px); mask-image: linear-gradient(to bottom, transparent 44px, #000 54px, #000 61px, transparent 69px);">tum <span class="w">aur</span> main.</p>
+  <p class="c" style="font-size:92px;line-height:92px;filter:blur(1.7px);-webkit-mask-image: linear-gradient(to bottom, transparent 60px, #000 68px); mask-image: linear-gradient(to bottom, transparent 60px, #000 68px);">tum <span class="w">aur</span> main.</p>
  </div>
- <div class="ts lt"><p class="lit">tum <span class="w">aur</span> main.</p></div>
-
+ <div class="ts lt" style="left:76px;top:338.4px;width:900px;height:120px;transform: skewX(17deg) scaleY(1.5);"><p class="lit" style="font-size:92px;line-height:92px;">tum <span class="w">aur</span> main.</p></div>
  <svg class="overlay" viewBox="0 0 1080 1350">
   <g fill="none" stroke="#1A1614">
-   <!-- the sun on the frame edge, its 16 degree ray to the tiger eye bezel's specular -->
-   <line x1="15" y1="573" x2="295.5" y2="653.5" stroke-width="1.5" stroke-opacity=".55"/>
-   <circle cx="300.3" cy="654.9" r="5" stroke-width="1.5"/>
-   <line x1="15" y1="571" x2="78" y2="571" stroke-width="1" stroke-opacity=".5" stroke-dasharray="3 4"/>
-   <path d="M 70 571 A 62 62 0 0 1 68.6 588.1" stroke-width="1" stroke-opacity=".6"/>
-   <!-- dimension lines, architect's oblique ticks: the ring (solid), the shadow (dashed) -->
-   <g stroke-width="1.5">
-    <line x1="149" y1="968" x2="593" y2="968"/>
-    <line x1="143" y1="974" x2="155" y2="962"/><line x1="587" y1="974" x2="599" y2="962"/>
-    <line x1="149" y1="958" x2="149" y2="978" stroke-width="1"/><line x1="593" y1="958" x2="593" y2="978" stroke-width="1"/>
-    <line x1="625" y1="968" x2="960" y2="968" stroke-dasharray="5 6"/>
-    <line x1="619" y1="974" x2="631" y2="962"/><line x1="954" y1="974" x2="966" y2="962"/>
-   </g>
+  <line x1="16.2" y1="573.4" x2="294.7" y2="653.3" stroke-width="1.5" stroke-opacity=".6"/>
+  <circle cx="300.3" cy="654.9" r="5" stroke-width="1.5"/>
+  <line x1="17" y1="571.1" x2="98" y2="571.1" stroke-width="1" stroke-opacity=".55" stroke-dasharray="3 4"/>
+  <path d="M 84 571.1 A 76 76 0 0 1 81.1 592.0" stroke-width="1" stroke-opacity=".7"/>
+  <g stroke-width="1.5">
+   <line x1="149" y1="968" x2="593" y2="968"/><line x1="143" y1="974" x2="155" y2="962"/><line x1="587" y1="974" x2="599" y2="962"/>
+   <line x1="149" y1="958" x2="149" y2="978" stroke-width="1"/><line x1="593" y1="958" x2="593" y2="978" stroke-width="1"/>
+   <line x1="625" y1="968" x2="960" y2="968" stroke-dasharray="5 6"/><line x1="619" y1="974" x2="631" y2="962"/><line x1="954" y1="974" x2="966" y2="962"/>
   </g>
-  <circle cx="8" cy="571" r="7" fill="#1A1614"/>
+  </g>
+  <circle cx="8" cy="571.1" r="7" fill="#1A1614"/>
  </svg>
- <div class="lab" style="left:72px;top:527px">3:58 PM · 21 Dec · Sun 16°</div>
- <div class="lab sz" style="left:224px;top:976px">Ring 17 mm inside</div>
- <div class="lab sz" style="left:607px;top:976px">Shadow not included</div>
-
+ <p class="lab" style="left:72px;top:524px">3:58 PM · 21 Dec · Sun 16°</p>
+ <p class="lab sz" style="left:224px;top:975px">Ring 17 mm inside</p>
+ <p class="lab sz" style="left:607px;top:975px">Shadow not included</p>
  <div class="ftr" style="top:1052px">
   <div class="r1"><b>Halo Curve Ring.</b> Tiger eye and pale champagne crystal · fits US 5 to 9</div>
-  <div class="r2"><span class="price"><span class="r">₹</span>899</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
-  <div class="r3"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
+  <div class="r2" style="margin-top:14px"><span class="price" style="font-size:74px"><span class="r">₹</span>899</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
+  <div class="r3" style="margin-top:16px;padding-top:14px"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira" style="height:44px"><span class="trust">Free insured shipping · Cash on delivery</span></div>
  </div>
 </body></html>

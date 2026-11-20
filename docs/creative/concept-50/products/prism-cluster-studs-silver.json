@@ -32,5 +32,10 @@
     {"file": "07.jpg", "shows": "Packaging: blush Naira gift box on a wet reflective surface. No product."},
     {"file": "08.jpg", "shows": "Size guide: the 03 packshot with a 20 mm bar; text 'Arc 20 mm long, centre stone 6 mm'. Scale evidence; has a text overlay, so it is not a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: title, description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant at 1299 with stock 26, 8 media). No section for this handle in ads-500/build/study/products.md, no concept-50/plan.json lock, and no ads-500 refs for it. Cross-checked against performance/build/products_g4.json (old lock: 8 pearls, price 1499) and size-cards/cards.json (20 mm arc, 6 mm centre stone)."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: title, description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant at 1299 with stock 26, 8 media). No section for this handle in ads-500/build/study/products.md, no concept-50/plan.json lock, and no ads-500 refs for it. Cross-checked against performance/build/products_g4.json (old lock: 8 pearls, price 1499) and size-cards/cards.json (20 mm arc, 6 mm centre stone).",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/prism-cluster-studs-silver/04_scale_crop.jpg",
+    "mediaId": "30ff9523-0c67-4094-9086-53e22831e693",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn on the earlobe at true size (arc about 20mm long, centre stone about 6mm; the stud spans about the width of the lobe, far smaller than the ear, about the diameter of a Rs 1 coin): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

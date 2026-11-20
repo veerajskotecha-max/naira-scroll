@@ -33,5 +33,10 @@
     {"file": "06.jpg", "shows": "Packaging: blush NAIRA gift box slid open on an empty black velvet bed. No product."},
     {"file": "07.jpg", "shows": "Size guide (supplier photo on a Naira card): '21 cm · pearls 9-11 mm', markers ~9 mm on the smallest strand pearl, ~12 mm on the toggle, ~11 mm on the drop. Confirms 8 strand pearls, 7 spacer beads and 1 drop. Text overlay, so not a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20): description, tags (18k Gold Tone Plated, Bracelet, Demi Fine, Hypoallergenic, Naira Petite, Pearl, Tarnish Free), 1 variant, 7 images. Earlier research: none for this handle in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs; keep-it-on/README.md lists it as barred from the waterproof campaign. Camp context from colour-camps/README.md (LILAC) and sugarplay-red-room/README.md (Red Room)."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20): description, tags (18k Gold Tone Plated, Bracelet, Demi Fine, Hypoallergenic, Naira Petite, Pearl, Tarnish Free), 1 variant, 7 images. Earlier research: none for this handle in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs; keep-it-on/README.md lists it as barred from the waterproof campaign. Camp context from colour-camps/README.md (LILAC) and sugarplay-red-room/README.md (Red Room).",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/baroque-shell-bracelet/05.jpg",
+    "mediaId": "c5e988bc-f7b1-493b-a178-31e42031ba00",
+    "use": "Add as reference 3: \"Reference 3 shows this exact bracelet worn on a wrist at true size (21 cm strand of flat shell pearls, listed 9-11 mm: 4-5 pearls cover the top of the wrist and the drop pearl spans about a third of the wrist's width): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

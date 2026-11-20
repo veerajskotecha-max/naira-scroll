@@ -33,5 +33,10 @@
     {"file": "07.jpg", "variant": "none", "shows": "Packaging: blush NAIRA box on sheer organza. No product."},
     {"file": "08.jpg", "variant": "Gold", "shows": "Size guide: supplier photo of the gold piece with bars for 6 cm inside, 4 mm wire and 8 mm cap; headline 'TRIPLE COIL WRAP BANGLE'; text '6 cm across inside'. Scale evidence; has a text overlay, so it is not a generation reference. It also shows 2 turns."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags, variants, 8 media); ads-500/build/study/products.md section 7; ads-500/build/refs.json; ads-500/build/refs/triple-coil-wrap-bangle__*.jpg (compared pixel by pixel). concept-50/plan.json has no lock for this handle."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags, variants, 8 media); ads-500/build/study/products.md section 7; ads-500/build/refs.json; ads-500/build/refs/triple-coil-wrap-bangle__*.jpg (compared pixel by pixel). concept-50/plan.json has no lock for this handle.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/triple-coil-wrap-bangle/03_scale_crop.jpg",
+    "mediaId": "0ea4b852-3acc-4e56-ad84-04a45ae0619e",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn on the wrist at true size (6 cm inside, 4mm wire, 8mm tall across the 2 turns and 12mm where the ends overlap; it sits snug just above the wrist bone, the 2-wire band about as tall as a pencil is thick): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

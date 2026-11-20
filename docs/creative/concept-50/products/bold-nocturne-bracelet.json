@@ -29,5 +29,10 @@
     {"file": "04.jpg", "shows": "Packaging: blush Naira Petite gift box under a sheer organza veil. No product."},
     {"file": "05.jpg", "shows": "Size guide (supplier photo on a Naira card): matching chain, this bracelet and the drops; bracelet marked 11.7 mm / 20.6 g, chain plain link about 10 mm, the chain's pave link labelled 'Brass'; text '20 + 3 cm'. Shows the real count of 6 plain links each side of the pave link. Text overlay and other pieces, so not a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20). No earlier research for this handle in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20). No earlier research for this handle in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/bold-nocturne-bracelet/02_scale_crop.jpg",
+    "mediaId": "3c993ffc-5522-446f-a085-47fd2274a5e1",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn loose on the wrist at true size (20 cm plus a 3 cm extender; the pave link 11.7mm wide and about 20mm long spans about a third of the wrist's width, about as long as a Rs 2 coin is wide): match that scale exactly; copy only the scale, never a face.\""
+  }
 }
