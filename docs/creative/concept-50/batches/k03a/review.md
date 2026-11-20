@@ -109,7 +109,7 @@ Note on the truth and perf runs: "Remove FREE INSURED SHIPPING (blocker)" is ove
 
 1. Name the pain on the canvas: customers and critics both asked for V3's loupe with V2's line. Swap the beat for 'the ring you take off to wash is the one that goes missing.' or 'lost a stone mid-sangeet?', keeping NOTHING TO LOSE. as the answer (Meera 1 and 2 say this exact combination is the one they would buy tonight).
 2. Show the proof in the Feed: compact or lower the F2 card so the milk splash and paraat read under it (critics say the Feed hides it).
-3. Story line break: set the beat as 'no stones, / no clasp, / no gap. / only the milk falls off.' as in the Feed, not 'no gap. only / the milk falls off.'
+3. Story line break: break by phrase inside the narrow Story measure (x ≤ 331 beside the fist), 'no stones, / no clasp, / no gap. / only the milk / falls off.', not 'no gap. only / the milk falls off.'
 4. Truth to 8: put a plain 1:1 detail crop (×1.0 to ×1.2) in the O instead of ×1.5 so the ridge pitch reads as fine as the piece, or reshoot with the verifier's optional polish (back of the hand to camera, ring on the ring finger, field of view about 12 cm).
 
 ## Held before design
