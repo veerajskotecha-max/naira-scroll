@@ -1,63 +1,75 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k05-3 V1 (draft) -->
+<!-- k05-3 V1 (draft 2) -->
 <style>
  body { background: #EED5AB; }
  .pic { object-position: 50% 36%; }
- :root { --sun: 14.036deg; --shade: #31271C; }
- .obj { position: absolute; left: 72px; top: 108px; font-size: 70px; white-space: nowrap; }
- /* THE DOUBLE LINE: type-shadow, a stack of three short lines that falls the way the plate's shadow arm falls */
- .ts { position: absolute; left: 77px; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic; font-weight: 500;
-       font-size: 58px; line-height: 60px; color: var(--shade); mix-blend-mode: multiply; transform-origin: 0 0;
-       transform: skewX(12deg) scaleY(1.16); }
- .ts.l2 { filter: blur(.7px); }
- .ts.l3 { filter: blur(1.4px); }
- /* the light slivers between the shadow's bangles, at the plate's slope */
- .ts.lit { -webkit-mask-image: repeating-linear-gradient(192.7deg, #000 0 11px, transparent 11px 14.5px);
-           mask-image: repeating-linear-gradient(192.7deg, #000 0 11px, transparent 11px 14.5px); }
+ :root { --sun: 14.036deg; --shade: #31271C; --wall: #EED5AB; }
+ .obj { position: absolute; left: 70px; top: 96px; font-size: 80px; white-space: nowrap; }
+ svg.ts { position: absolute; inset: 0; width: 1080px; height: 1350px; mix-blend-mode: multiply; pointer-events: none; overflow: visible; }
+ svg.ts text { font-family: "Cormorant Garamond", serif; font-style: italic; font-weight: 500; font-size: 64px; fill: var(--shade); }
  .ray { position: absolute; font-family: var(--sans); font-size: 26px; line-height: 30px; white-space: nowrap; color: var(--ink);
         transform-origin: 0 100%; transform: rotate(var(--sun)); }
  .ray.cap { font-weight: 500; letter-spacing: .14em; text-transform: uppercase; }
  .ray.low { font-weight: 400; letter-spacing: .01em; transform-origin: 0 0; }
  .sz { position: absolute; left: 72px; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px;
        letter-spacing: .12em; text-transform: uppercase; color: var(--ink); white-space: nowrap; }
- .card2 { position: absolute; left: 72px; width: 330px; color: var(--ink); }
- .card2 .wm { height: 44px; display: block; }
- .card2 .name { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .16em; text-transform: uppercase; margin-top: 14px; }
- .card2 .price { font-family: var(--serif); font-weight: 500; font-size: 60px; line-height: 1; margin-top: 8px; }
- .card2 .codes { position: relative; margin-top: 16px; border: 1.5px solid var(--ink); padding: 14px 18px 10px; display: inline-block; }
- .card2 .codes .lg { position: absolute; top: -15px; left: 14px; background: #EED5AB; padding: 0 8px; font-family: var(--sans); font-weight: 500;
-       font-size: 22px; line-height: 28px; letter-spacing: .16em; text-transform: uppercase; }
- .card2 .codes .row { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
- .card2 .codes .sep { display: inline-block; width: 9px; height: 9px; background: var(--coral-deep); transform: rotate(45deg); vertical-align: middle; margin: -4px 14px 0 2px; }
- .card2 .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; line-height: 28px; letter-spacing: .14em; text-transform: uppercase; margin-top: 14px; }
+ .card2 { position: absolute; left: 72px; width: 336px; color: var(--ink); }
+ .card2 .wm { height: 42px; display: block; }
+ .card2 .name { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .16em; text-transform: uppercase; margin-top: 16px; }
+ .card2 .price { font-family: var(--serif); font-weight: 500; font-size: 60px; line-height: 56px; margin-top: 10px; }
+ .card2 .codes { position: relative; margin-top: 22px; border: 1.5px solid var(--ink); padding: 18px 20px 12px; width: 100%; }
+ .card2 .codes .lg { position: absolute; top: -16px; left: 14px; background: var(--wall); padding: 0 10px; font-family: var(--sans); font-weight: 500;
+       font-size: 26px; line-height: 30px; letter-spacing: .16em; text-transform: uppercase; }
+ .card2 .codes .row { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
+ .card2 .codes .div { position: relative; height: 14px; }
+ .card2 .codes .div:before { content: ""; position: absolute; left: 0; right: 0; top: 7px; border-top: 1px solid rgba(26,22,20,.35); }
+ .card2 .codes .div i { position: absolute; left: 50%; top: 2px; width: 9px; height: 9px; margin-left: -5px; background: var(--coral-deep); transform: rotate(45deg); }
+ .card2 .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; line-height: 28px; letter-spacing: .1em; text-transform: uppercase; margin-top: 14px; white-space: nowrap; }
 </style></head>
 <body>
  <img class="pic" src="pics/k05-3R.png" alt="">
  <p class="h1 obj">Two<br>Turns.</p>
- <p class="ts" style="top:262px">a whole</p>
- <p class="ts l2 lit" style="top:332px">stack,</p>
- <p class="ts l3" style="top:402px">for didi;</p>
+ <!-- type-shadow: cocoa multiply, skewed with the plate, three short lines like the shadow forearm; light slivers cut the way the plate's do -->
+ <svg class="ts" viewBox="0 0 1080 1350">
+  <defs>
+   <filter id="b1" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation=".5"/></filter>
+   <filter id="b2" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="1.1"/></filter>
+   <filter id="sl" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="1.6"/></filter>
+   <mask id="slivers" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350">
+    <rect width="1080" height="1350" fill="#fff"/>
+    <g stroke="#000" stroke-width="5" stroke-linecap="round" filter="url(#sl)">
+     <line x1="70" y1="338" x2="330" y2="403"/>
+     <line x1="70" y1="356" x2="330" y2="421"/>
+     <line x1="70" y1="408" x2="330" y2="473"/>
+    </g>
+   </mask>
+  </defs>
+  <g mask="url(#slivers)">
+   <text transform="translate(80 300) skewX(10) scale(1 1.16)">a whole</text>
+   <text transform="translate(80 372) skewX(10) scale(1 1.16)" filter="url(#b1)">stack,</text>
+   <text transform="translate(80 444) skewX(10) scale(1 1.16)" filter="url(#b2)">for didi;</text>
+  </g>
+ </svg>
  <svg class="overlay" viewBox="0 0 1080 1350">
   <g stroke="#1A1614" stroke-width="1.5" fill="none">
    <circle cx="7" cy="561.25" r="7" fill="#1A1614" stroke="none"/>
-   <line x1="14" y1="563" x2="401.2" y2="659.8" stroke-opacity=".55"/>
+   <line x1="14" y1="563" x2="401.2" y2="659.8" stroke-opacity=".6"/>
    <circle cx="406" cy="661" r="5"/>
-   <line x1="0" y1="605.5" x2="393.2" y2="703.8" stroke-opacity=".55"/>
-   <circle cx="398" cy="705" r="5"/>
-   <!-- size: dimension line spanning the coil's outline, labelled outside on the wall -->
-   <line x1="312" y1="868" x2="729" y2="868" stroke-opacity=".7"/>
+   <line x1="0" y1="624.75" x2="404.2" y2="725.8" stroke-opacity=".6"/>
+   <circle cx="409" cy="727" r="5"/>
+   <line x1="306" y1="868" x2="729" y2="868" stroke-opacity=".7"/>
    <line x1="391" y1="861" x2="391" y2="875"/><line x1="729" y1="861" x2="729" y2="875"/>
   </g>
  </svg>
  <div class="ray cap" style="left:72px;top:541px">4:29 PM · 21 Dec</div>
- <div class="ray cap" style="left:72px;top:588px">One wire</div>
- <div class="ray low" style="left:72px;top:632px">ribbed snake coil, no clasp</div>
- <div class="sz" style="top:740px">6 cm inside ·<br>the rest of<br>the stack<br>not included</div>
- <div class="card2" style="top:900px">
+ <div class="ray cap" style="left:72px;top:606px">One wire</div>
+ <div class="ray low" style="left:72px;top:650px">ribbed snake coil, no clasp</div>
+ <div class="sz" style="top:772px">6 cm inside ·<br>the other bangles<br>not included</div>
+ <div class="card2" style="top:906px">
   <img class="wm" src="../../../ads-500/kit/logo_ink.png" alt="Naira">
   <div class="name">Triple Coil<br>Wrap Bangle</div>
   <div class="price">₹1,149</div>
-  <div class="codes"><span class="lg">Codes</span><div class="row">BUY2 · 10% off</div><div class="row"><span class="sep"></span>BUY3 · 20% off</div></div>
-  <div class="trust">Free insured shipping ·<br>cash on delivery</div>
+  <div class="codes"><span class="lg">Codes</span><div class="row">BUY2 · 10% off</div><div class="div"><i></i></div><div class="row">BUY3 · 20% off</div></div>
+  <div class="trust">Free insured shipping ·<br>Cash on delivery</div>
  </div>
 </body></html>
