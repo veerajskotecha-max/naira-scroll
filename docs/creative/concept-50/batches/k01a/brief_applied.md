@@ -158,3 +158,9 @@ The plates render at 2k (about 1536 x 2752), not the 4K (2160 x 3840) that the c
 
 ### k01-5B  (lint: clean)
 - take B written from take A (see brief_applied.md)
+
+## Generation record
+
+- **Balance:** 342.46 before and 326.46 after. The transaction log shows 6 spends of 2 credits for this batch (17:39:15 x4 and 17:39:59 x2). The other 4 credits of the drop (17:38:02 x2) were spent by another session.
+- **Rate limit:** on the first call, k01-1A and k01-4A were refused with `submission_failed` (429), so they were never submitted. I resubmitted them once after one jobs_wait round.
+- **Outcome:** all 6 jobs completed, with no failed or nsfw jobs. Every job was requested as `nano_banana_pro` and served as `nano_banana_2`, at 1536 x 2752. Details are in `jobs.json`.
