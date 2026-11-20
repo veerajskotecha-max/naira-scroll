@@ -1,0 +1,24 @@
+{
+  "handle": "halo-curve-ring",
+  "title": "Halo Curve Ring",
+  "price": 899,
+  "stock": 27,
+  "category": "Ring (open bypass two-stone / toi-et-moi, adjustable statement ring)",
+  "metal": "18k gold tone (PVD 18K gold coating over surgical stainless steel), bright high-polish finish, warm-neutral yellow; never orange or brassy",
+  "lock": "An open bypass ring in 18k gold tone: 1 smooth round 1.5mm wire, about 17mm inside, whose 2 ends pass side by side. Each end holds 1 cushion stone in 1 slim plain bezel, set diagonally, corners nearly touching: 1 opaque banded golden-brown tiger eye about 11.8mm with a softly faceted top, and 1 transparent faceted pale champagne crystal of about the same face. 0 pave, 0 prongs, high polish. The tiger eye must stay opaque banded golden-brown and unmatched beside the clear crystal, never transparent, glassy or a twin of the crystal.",
+  "morph": "The tiger eye: image models turn it transparent or glassy, or into a second champagne crystal, so the two stones become a matching pair. Second risks: the word 'Halo' in the title adds a pave halo round a stone (there is none); the open bypass band gets closed, thickened or flattened; the ring is stood up tall instead of the wide cube pose (b03-3 try 1 failed on extent). Note: the concept-50 plan.json lock says 'never a faceted tiger eye', but listing photos 01, 02 and 05 all show soft facet lines on its opaque top, so the lock says 'softly faceted', never transparent.",
+  "sizeMm": "Listed: inner diameter about 17mm at rest, open, adjusts to fit US 5 to 9; wire about 1.5mm; weight 4g; tiger eye about 11.8mm (the size guide's 1.18cm is its height, long side). Crystal size not listed. Estimated from worn photo 01, where the finger is about 265 px across and the stone faces 134 px (tiger eye) and 132 px (crystal): each face about 9 to 10mm across, the two stones about equal, and together, set diagonally, they span about the width of one finger.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/halo-curve-ring/02.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/halo-curve-ring/01.jpg"
+  ],
+  "mediaIds": [
+    "ac8bad23-c21e-447f-801c-3ec328d118f6",
+    "d99052b5-4023-4077-8006-2e78f1f875d1"
+  ],
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic (all three are tags; the description also says 'Waterproof and tarnish free' and 'PVD 18K gold coating, anti-tarnish'). Adjustable (tag): open band fits US 5 to 9.",
+  "preOrder": false,
+  "copyNotes": "Use: 'tiger eye' (the listing's spelling), 'pale champagne crystal', 'faceted', 'two stones' or 'toi-et-moi', '18k gold tone', 'PVD', 'open band, adjustable, fits US 5 to 9', 'waterproof', 'tarnish free', 'hypoallergenic', 'surgical stainless steel', price Rs 899. Avoid: 'solid gold' (the listing's 'solid gold tone band' is risky), bare 'gold'; 'halo' as a description (there is no halo; only inside the product name); calling the crystal cubic zirconia, CZ, diamond, quartz, citrine or topaz; 'real' tiger eye ('natural' is the listing's word, use sparingly); 'pave'; 'huggie'; 'one size fits all'; the stale Rs 1,299 price from earlier ads.",
+  "story": "Two stones that do not match, and that is the point: an opaque warm tiger eye beside a clear champagne crystal, earth and light, shade and sun, on one open curve. A bold single statement ring for a bare hand at Rs 899, adjustable so it is a safe gift. It rhymes with pairs: 'tum aur main' (two stones, two people), day and night, cutting chai in its glass (brown tea, clear glass), gur/jaggery, the tiger. Earlier best archetypes: two-stones-two-people, DAY/NIGHT, MACRO tiger-eye sheen, cutting chai.",
+  "variants": "One variant only: Default Title, 18k gold tone, stock 27. Every ring photo shows it. Listing media: 01 close-up worn on one finger, dark background (stones diagonal across the finger; scale and stone detail); 02 on a plaster cube, three-quarter high view (clearest whole construction: open loop of the band reaching left, both bezels, both stones); 03 worn on the hand resting on a cream shirt by a window (lifestyle scale); 04 blush Naira gift box, no ring; 05 size guide card (top view; 1.7cm inner, 0.15cm wire, 1.18cm tiger eye; text overlays, never a ref). The listing's 3rd media slot is not an image (video or 3D) and was not downloaded. Show 02 as the construction authority and 01 for scale; both are pixel-identical to the ads-500 refs halo-curve-ring__cube.jpg and __close.jpg, so their media ids are reused."
+}

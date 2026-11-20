@@ -1,0 +1,25 @@
+{
+  "handle": "verdant-cushion-studs",
+  "title": "Verdant Cushion Studs",
+  "price": 1099,
+  "stock": 30,
+  "preOrder": true,
+  "category": "Earrings / studs (sold as one pair)",
+  "metal": "rhodium silver tone (PVD rhodium coating, high polish)",
+  "lock": "A pair of 2 identical studs, 13 mm across. Each: 1 cushion-cut green cubic zirconia (8 mm) in a smooth polished full bezel rim, ringed by 1 single row of about 20 small round clear cubic zirconia, each held by prongs whose ball tips point outward to make a spiky sunburst edge. Straight post back. Rhodium silver tone, high polish. The halo must stay a single ring of separate round clear stones with a spiky outward-pointing prong edge, never a smooth round pave halo or a double halo.",
+  "morph": "The halo edge: an image model will smooth the spiky sunburst prong outline into a plain round or square pave halo (or add a second row), and swap the smooth bezel around the green stone for 4 claw prongs. Also likely: recolouring the metal to gold (listing photo 06 already shows a gold tone stud) and turning the cushion into a rectangular emerald cut.",
+  "sizeMm": "Stud 13 mm across, centre stone 8 mm (listing size guide, give or take 1 mm). Worn: sits on the earlobe and covers most of it, about a fingertip wide.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/verdant-cushion-studs/03.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/verdant-cushion-studs/04.jpg"
+  ],
+  "mediaIds": [
+    "2e74b8da-0880-4031-8e98-480217f1108e",
+    "1febd798-3286-4d1f-8806-fc4a26863378"
+  ],
+  "claims": "NONE",
+  "variants": "One variant (Default Title), stock 30, rhodium silver tone; show rhodium silver tone only. Photos: 01 macro of 1 stud (rhodium); 02 worn, side profile (rhodium); 03 packshot, both studs on cream plaster block, post visible (rhodium) = ref 1; 04 worn close on lobe (rhodium) = ref 2; 05 worn, head and shoulders (rhodium); 06 'on-model at true size' shows an 18k gold tone stud with an added star sparkle, which does not match the product (never use as a reference, never show gold); 07 Naira blush gift box; 08 size guide (13 mm across, 8 mm stone). The description's size-guide image was a duplicate of 08 and was not kept.",
+  "copyNotes": "Use: green cubic zirconia, cushion cut, green stone, halo of clear stones, sunburst, rhodium silver tone, stud, one pair, pre-order. Never: emerald, emerald-green cubic zirconia, diamond, sterling silver, gold, huggie, hoop, waterproof, tarnish-free, anti-tarnish, hypoallergenic. The description says 'PVD rhodium coating, anti-tarnish', but there is no Tarnish Free tag, so make no tarnish claim; 'PVD rhodium coating' may appear only as a plain fact. The listing's own styling tip: wear with ivory or white so the green reads clearly.",
+  "story": "A cocktail-ring look shrunk to a stud: one deep green cushion stone in a bright sunburst of clear stones. It rhymes with the heirloom green-and-white cluster earring from a grandmother's jewellery box, the 'royal' cluster look, at Rs 1,099. The green pops against warm skin and ivory or white clothes, and the spiky halo catches light from every side.",
+  "sources": "Live Shopify listing (read-only query, 2026-11-20). There was no earlier section for this handle in ads-500 products.md or concept-50 plan.json locks, and there were no ads-500 refs for it."
+}

@@ -1,0 +1,36 @@
+{
+  "handle": "prism-cluster-studs-silver",
+  "title": "Prism Cluster Studs",
+  "price": 1299,
+  "stock": 26,
+  "preOrder": true,
+  "category": "Earrings (curved cluster stud, sold as 1 pair, mirror-image left and right)",
+  "metal": "rhodium silver tone (listing: PVD rhodium coating), bright mirror polish, round bead-tipped claw prongs on every stone and pearl",
+  "lock": "2 mirror-image studs, each a 20 mm smiling arc: 5 claw-set cubic zirconia in order purple princess (on point), pink baguette, upright yellow emerald cut (centre, largest, 6 mm), purple princess, pink baguette; 6 tiny white pearls in the gaps; 1 post. Rhodium silver tone, high polish. Must stay 5 mixed cuts in that order with 6 pearls, never a matching row, rainbow or extra pearls.",
+  "morph": "The stone sequence and the pearls. Image models even out the mixed cuts into a row of same-size squares or baguettes, move the yellow off centre or make the colours symmetric, add a 4th colour (blue, green: a rainbow), add pearls or grow them to stone size, and straighten the arc into a bar. The listing's own macro (photo 01) already drifted to 8 pearls and wider spacing, and an earlier lock (performance/build/products_g4.json) copied that 8. Scale also drifts: worn photo 02 renders the arc about 1.5x.",
+  "sizeMm": "Arc about 20 mm long, centre yellow emerald cut about 6 mm (size guide, photo 08, which is also embedded in the description; give or take 1 mm). Estimated from photo 08: about 9 mm tall at the raised ends; the pearls are about 1.5-2 mm, one slightly larger (about 2.5 mm) beside the base of the yellow stone. Worn, it lies along the earlobe and spans about the lobe's width (photo 04, close to true scale). About the diameter of a Rs 1 coin (20 mm).",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/prism-cluster-studs-silver/03.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/prism-cluster-studs-silver/04.jpg"
+  ],
+  "mediaIds": [
+    "47443201-a8bb-41ed-92ce-5184a8dc6757",
+    "60f7ac77-dfff-4ad7-96a5-6940e81fe346"
+  ],
+  "mediaIdSource": "Fresh Higgsfield imports on 2026-11-20 from the listing's Shopify CDN images (03.jpg = E15838C1_1, 04.jpg = E15838C1_4). ads-500 products.md has no section for this handle. The older ids in performance/build/products_g4.json (8f486887..., ef0a5cce...) point to edition-one refs and went with the 8-pearl lock, so they were not reused.",
+  "claims": "NONE",
+  "variants": "1 variant: Default Title, rhodium silver tone, stock 26. Every product photo shows this tone; there is no 18k gold tone option on this listing. Show the pair, the left stud purple-pink-yellow-purple-pink and the right stud mirrored (pink-purple-yellow-pink-purple).",
+  "story": "A small row of colour: lilac, pink and lemon in clean geometric cuts, softened by six pinhead pearls. It looks like a tiny paint palette, and it's delicate on the ear and bright from a distance. The listing's own styling photos rhyme it with a watercolour pan set and swatches (lilac, pink, yellow, white) and with sugared almonds in a brass bowl (the shaadi-favour dragee). The founder's styling tip is to let it be the only colour in an otherwise neutral outfit. The worn photos pair it with a mustard satin slip and bare shoulders. Earlier notes: the sugared-almond rhyme is in use; gummy sweets and saunf have already run with the Prism family.",
+  "copyNotes": "Use: rhodium silver tone, PVD rhodium coating (as a material fact only), cubic zirconia, purple princess cut, pink baguette, yellow emerald cut, six tiny white pearls, curved cluster, 20 mm arc, centre stone 6 mm, one pair, stud, Edition One, pre-order, Rs 1,299. Avoid: 'silver' without 'tone', sterling or 925; 'gold'; 'emerald' on its own or 'emerald-green' (it is a yellow emerald CUT); amethyst, citrine, pink sapphire, gemstone, diamond, precious; real, freshwater or natural pearls; waterproof, tarnish free, anti-tarnish, sweat-proof, hypoallergenic (the listing has none of those tags; the description's 'anti-tarnish' line is not a claim we can make in ads); huggie, ear climber or crawler, bar stud; 'rainbow' or any blue or green; eight pearls; any size other than 20 mm; the old price 1499.",
+  "photos": [
+    {"file": "01.jpg", "shows": "Macro of one stud on a cream plaster block, 3/4 view. Rhodium silver tone. Shows 8 pearls and wider stone spacing, which contradicts the description (six) and every other photo. Do not use as a reference or for counting."},
+    {"file": "02.jpg", "shows": "Worn, side profile: one stud lying along the earlobe, wavy dark hair, mustard satin slip, cream backdrop. Construction reads correctly (5 stones in order, 6 pearls). Renders the arc about 1.5x (about half the ear's height); not a scale reference. Best worn construction shot."},
+    {"file": "03.jpg", "shows": "Packshot: the pair straight on, on a cream plaster block, warm beige backdrop. Rhodium silver tone. Left stud purple-pink-yellow-purple-pink, right stud mirrored, 6 pearls each, a post visible behind each centre. Reference 1."},
+    {"file": "04.jpg", "shows": "Worn, front: both ears, lips to collarbone, mustard satin slip. Studs small and close to true 20 mm scale (about a third of the mouth's width, foreshortened). Reference 2 (scale)."},
+    {"file": "05.jpg", "shows": "Styled: the pair on watercolour paper with lilac, pink, yellow swatch dots, a 4-pan paint tin and a brush. 6 pearls each, mirrored pair, posts visible. Rhodium silver tone. Rhyme image."},
+    {"file": "06.jpg", "shows": "Styled: the pair among lilac, pink, yellow and white sugared almonds and a brass bowl. Rhodium silver tone. Rhyme image."},
+    {"file": "07.jpg", "shows": "Packaging: blush Naira gift box on a wet reflective surface. No product."},
+    {"file": "08.jpg", "shows": "Size guide: the 03 packshot with a 20 mm bar; text 'Arc 20 mm long, centre stone 6 mm'. Scale evidence; has a text overlay, so it is not a generation reference."}
+  ],
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: title, description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant at 1299 with stock 26, 8 media). No section for this handle in ads-500/build/study/products.md, no concept-50/plan.json lock, and no ads-500 refs for it. Cross-checked against performance/build/products_g4.json (old lock: 8 pearls, price 1499) and size-cards/cards.json (20 mm arc, 6 mm centre stone)."
+}

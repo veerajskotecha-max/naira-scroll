@@ -1,0 +1,34 @@
+{
+  "handle": "toggle-link-chain",
+  "title": "Toggle Link Chain",
+  "price": 999,
+  "stock": 77,
+  "category": "Necklace",
+  "metal": "18k gold tone (PVD 18k gold tone coating on surgical stainless steel), polished, one tone only",
+  "lock": "A 50 cm chain, 4 mm wide, of elongated paperclip links (about 4 x 11 mm) in polished 18k gold tone. 1 thick round spring-gate sailor ring about 22 mm across (about 14 mm opening, small push-pin nub, ribbed gate collar) and 1 short straight bar about 15 mm long set with 1 row of about 9 tiny clear stones, on a jump ring. No pendant, no other stones. Must stay a sailor ring with a straight bar 0.6-0.7x the ring, never a plain donut ring, a lobster clasp, or a curved or multi-row pave bar.",
+  "morph": "The clasp. The spring-gate sailor ring gets smoothed into a plain donut (listing photo 03, itself AI-generated, already shows this) or swapped for a lobster clasp; the bar grows as long as the ring, curves, or turns into a 2-3-row pave crescent (also in photo 03).",
+  "sizeMm": "Listed: chain 500 mm long x 4 mm wide, 12 g; toggle ring about 22 mm across, bar about 15 mm. Estimated from the studio worn photo (01): links about 4 x 11 mm, ring opening about 14 mm, ring tube about 4 mm. Referent: the ring is a little larger than a Rs 1 coin (20 mm); on the body the 50 cm length falls just below the collarbone (size guide: between princess 45 cm and matinee 60 cm), with the ring at the base of the throat.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/toggle-link-chain/02.jpg",
+    "/home/user/naira-scroll/docs/creative/ads-500/build/refs/toggle-link-chain__clasp.jpg"
+  ],
+  "mediaIds": [
+    "d3c384eb-487e-44e3-806d-e845a3ed32d1",
+    "59d6c393-8659-4dd3-bc2e-2aa573412eb7"
+  ],
+  "refNotes": "Reused the ads-500 ids from products.md after checking they match the current listing. Ref 1 (cube packshot) is pixel-identical to listing image 02 (toggle-link-chain-1.jpg). Ref 2 (clasp close-up on skin) is a crop of listing image 01 (toggle-link-chain-0), and RULINGS names it the clasp standard. It shows the sailor gate, push-pin nub and the 1-row stone bar against skin for scale.",
+  "claims": "Tarnish Free, Hypoallergenic (both tagged). Waterproof is tagged as well, but the care text says 'Keep it dry', so the concept-50 plan rules out any waterproof claim and any water imagery for this piece.",
+  "preOrder": false,
+  "variants": "1 variant: Default Title, stock 77, 18k gold tone. Show it (every photo is this variant).",
+  "copyNotes": "Use: 18k gold tone, PVD, surgical stainless steel, paperclip links, toggle clasp, sailor ring, cubic zirconia (only for the bar's stones), 50 cm, 4 mm, 'closes with a turn rather than a catch', 'turn the toggle to the front'. Avoid: 'gold' alone and the listing's 'gold toggle clasp' as written (say 'gold-tone toggle clasp'), solid gold, waterproof or water imagery, anti-tarnish, 'zero stones' or 'no stones', diamond, pendant, lobster, cable or curb chain, huggie. Note: the listing text never mentions the stones on the bar, which every real photo shows.",
+  "story": "A chain that closes with a turn, not a catch, and the clasp is the jewel. Turned to the front, the chunky sailor ring and its small stone-set bar become the pendant on plain paperclip links (founder keep: 'Paperclip, promoted.'). Rhymes with a sailor's shackle, a key ring, a door-knocker ring, a duffle-coat toggle: two parts that lock into one. Wear it over a knit in winter or alone on a warm evening. It is the stock anchor at Rs 999 (77 units) and the named BUY3 anchor.",
+  "photos": [
+    {"file": "01.jpg", "src": "toggle-link-chain-0", "what": "Studio worn shot, front on, camisole. The clasp sits at the front: a thick sailor ring with its gate, push-pin nub and ribbed collar visible, and a straight bar with 1 row of about 9 clear stones on a jump ring. 18k gold tone. This is the best real view of the clasp."},
+    {"file": "02.jpg", "src": "toggle-link-chain-1", "what": "Packshot draped over a plaster cube on a cream ground. The whole chain and ring show clearly; the bar is seen end-on. 18k gold tone. Same image as the ads-500 cube ref."},
+    {"file": "03.jpg", "src": "hf_20261021 PNG (alt: worn, the ring clasp at the front)", "what": "AI-generated worn shot with a linen shirt. The links are right, but the ring has drifted into a plain smooth donut (no gate or nub) and the bar into a curved multi-row pave crescent. Do not use it as a reference."},
+    {"file": "04.jpg", "src": "toggle-link-chain-2", "what": "Laid on green velvet, three-quarter view. The chain runs in full, with the ring and a straight 1-row stone bar on a jump ring. The gate is not visible at this angle. 18k gold tone."},
+    {"file": "05.jpg", "src": "naira-packaging-b3", "what": "Packaging only: the blush Naira Petite box on blush silk. The piece is not shown."},
+    {"file": "06.jpg", "src": "toggle-link-chain-size-guide", "what": "Size guide: 50 cm against the 36/40/45/60 cm lengths, 4 mm wide."}
+  ],
+  "finish": "Polished, high-shine 18k gold tone"
+}

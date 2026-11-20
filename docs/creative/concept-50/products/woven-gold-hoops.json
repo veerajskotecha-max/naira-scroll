@@ -1,0 +1,35 @@
+{
+  "handle": "woven-gold-hoops",
+  "title": "Woven Gold Hoops",
+  "price": 1049,
+  "stock": 88,
+  "preOrder": false,
+  "category": "Earrings (chunky braided hoop, sold as 1 pair)",
+  "metal": "18k gold tone (PVD 18K gold coating over surgical stainless steel), mirror-polished wires and disc",
+  "lock": "2 round hoops, 25 mm across, each a 5-6 mm open plait: polished round wires laid in pairs, braided in chevrons over a see-through core of finer wires. 1 flat 8 mm disc at the top on the latch side, 1 thin hinged latch wire, 0 stones, no bottom loop. 18k gold tone, mirror polish. Must stay a many-wire open braid, never a smooth tube, simple twist or oval.",
+  "morph": "The braid. Image models smooth it into a plain tube or a simple 2-strand twisted rope, close up the see-through gaps, or drop the flat disc. Scale also drifts to 1.4-1.5x and the hoop goes oval (listing photo 04 itself reads oval and about 1.3x), and an earlier take invented a loop at the bottom.",
+  "sizeMm": "Approximately 25 mm across, give or take 1 mm (listing description and size-guide photo 07). Estimated from photo 07: braid about 5-6 mm thick, flat disc about 8 mm. Worn, it hangs from the lobe at about half the ear's height (photo 05; the earlier reel measured 22-26 mm worn), a little smaller than a Rs 10 coin (27 mm).",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/woven-gold-hoops/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/woven-gold-hoops/03.jpg"
+  ],
+  "mediaIds": [
+    "74ed9a2b-4781-4ab8-b032-fd1b45e847ca",
+    "b77ec5ba-42ce-4a11-99a0-b8aca88138df"
+  ],
+  "mediaIdSource": "Reused from ads-500 products.md (pack, detail). 01.jpg and 03.jpg are the same photos as ads-500/build/refs/woven-gold-hoops__pack.jpg and __detail.jpg (same size, mean pixel difference under 1/255).",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic",
+  "variants": "1 variant: Default Title, 18k gold tone, stock 88. Every product photo shows this tone; there is no rhodium silver tone option. Show the pair.",
+  "story": "Texture does the talking: a mid-size 25 mm hoop that reads rich from across a room because every polished wire catches its own highlight, and intricate up close because you can see through the open plait. No stones, just weight and ridge-and-shadow. It rhymes with a plain white shirt or kurta, a low bun or loose hair, and a bare neckline (the listing's own styling tip), and with day-to-night wear since it is waterproof.",
+  "copyNotes": "Use: 18k gold tone, PVD 18k gold tone, braided, woven texture, chunky, ridge and shadow, 25 mm, surgical stainless steel, waterproof, tarnish free, hypoallergenic. Avoid: 'gold' or '18k gold' without 'tone', 'solid gold'; 'Woven Gold' without 'tone' in body copy (title is fine); 'anti-tarnish' (say tarnish free); huggie; twist/twisted rope; rope chain; any stone word (CZ, crystal, diamond); oval; any size other than 25 mm; weave puns (wheat ears, paranda, choti were dropped by the founder).",
+  "photos": [
+    {"file": "01.jpg", "shows": "Packshot: the pair on a white plaster block, cream backdrop. One hoop stands showing the hinge knuckle, latch wire and flat disc; the other lies on its side showing the chevron braid profile. 18k gold tone. Reference 1."},
+    {"file": "02.jpg", "shows": "Campaign still: the pair on a glossy wet burgundy dome with water drops, NAIRA wordmark top left and flower mark bottom right. 18k gold tone. Has text overlay; not a reference."},
+    {"file": "03.jpg", "shows": "Detail: one hoop standing against the block, front face with disc and hinge, the open braid and its inner core of finer wires clearly visible; the second hoop lies on the block behind. 18k gold tone. Reference 2."},
+    {"file": "04.jpg", "shows": "Worn close-up on the ear against dark hair and a cream collar. The hoop reads oval and about 1.3x true size (about half the ear's height, narrow). Do not use for scale."},
+    {"file": "05.jpg", "shows": "Worn street shot: low bun, white shirt, pale building facade, fingers at the jaw. Hoop reads round and close to true size. Best worn scale photo if a worn reference is needed."},
+    {"file": "06.jpg", "shows": "Packaging: blush Naira Petite gift box with rose petals. No product."},
+    {"file": "07.jpg", "shows": "Size guide: one hoop with a 25 mm bar and a 10 mm ruler, text 'Hoop 25 mm across'. Scale evidence; text overlay, so not a generation reference."}
+  ],
+  "sources": "Live Shopify listing (read-only query, 2026-11-20); ads-500/build/study/products.md section 2; concept-50/plan.json locks."
+}

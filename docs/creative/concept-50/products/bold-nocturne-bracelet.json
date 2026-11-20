@@ -1,0 +1,33 @@
+{
+  "handle": "bold-nocturne-bracelet",
+  "title": "Bold Nocturne Bracelet",
+  "price": 1599,
+  "stock": 19,
+  "preOrder": false,
+  "category": "Bracelet (chunky paperclip link chain with one pave link, sold as 1)",
+  "metal": "18k gold tone (PVD 18K gold coating over surgical stainless steel), mirror-polished links; 1 link set with clear cubic zirconia. The supplier size guide labels the pave link on the matching chain 'Brass'.",
+  "lock": "1 chunky paperclip bracelet: about 12 polished elongated rounded-rectangle links (about 6 each side, about 10 mm wide, thick flat-edged bars) and 1 slightly larger centre link, 11.7 mm wide, fully micro-pave set with tiny clear cubic zirconia. Lobster clasp on 1 jump ring; 3 cm extender of about 10 small curb links ending in 1 flat elongated tag. 18k gold tone, mirror polish. Must stay exactly 1 pave link among plain polished links, never more stone-set links or an all-plain chain.",
+  "morph": "The single pave link. Image models stone-set more links (or the whole chain), drop the pave and leave a plain chain, or swap it for one big crystal or bezel stone. Second risk: the links get thinned into a dainty paperclip chain or rounded into a cable or curb chain; they must stay thick, flat-edged elongated rectangles about 2x as long as wide. Listing photo 01 itself shows the links bunched and overlapping, so the count reads higher than the real 6 per side.",
+  "sizeMm": "Approximately 20 cm long plus a 3 cm extender, about 20.6 g (listing description and size-guide photo 05). Pave link 11.7 mm wide (size guide); plain links about 10 mm wide (the matching chain's marker in photo 05). Estimated from photo 05: pave link about 19-20 mm long, plain links about 17-20 mm long. Worn (photo 02), it sits loose around the wrist and the pave link spans about a third of the wrist's width, about as long as a Rs 2 coin is wide (23 mm).",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/bold-nocturne-bracelet/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/bold-nocturne-bracelet/02.jpg"
+  ],
+  "mediaIds": [
+    "92bae303-ca38-4b9f-b595-f94c292202e2",
+    "a7807ef5-18a6-4435-946e-32b5949de8e3"
+  ],
+  "mediaIdSource": "No earlier media ids existed for this handle (no section in ads-500 products.md, no plan.json lock, no ads-500 refs). Imported 2026-11-20 into Higgsfield from the two Shopify CDN listing URLs (01 packshot, 02 worn).",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic",
+  "variants": "1 variant: Default Title, 18k gold tone, stock 19. Every product photo shows this tone; there is no rhodium silver tone option. Show the one bracelet, pave link turned to the top of the wrist.",
+  "story": "Weight, worn plainly: a chunky polished paperclip chain with one pave link, so a single point of light sits on top of the wrist (the listing's own tip: turn the pave link up and wear it alone). It reads bold from across a room and has real heft at 20.6 g. It rhymes with a bare wrist and a slip dress or tank (as in the worn photo), a night out, and the Bold Nocturne Drops, which repeat the same pave oval link.",
+  "copyNotes": "Use: 18k gold tone, PVD 18k gold tone, chunky paperclip / elongated link chain, polished, one pave link, clear cubic zirconia, a single point of light, 20 cm + 3 cm extender, 20.6 g, lobster clasp, surgical stainless steel, waterproof, tarnish free, hypoallergenic. Avoid: 'gold' or '18k gold' without 'tone', 'solid gold'; 'anti-tarnish' (say tarnish free); diamond, crystal or 'stones' in the plural for links (only one link is set); 'fully pave' or 'iced' for the bracelet; 'all stainless steel' or '100% steel' (the pave link is labelled brass in the supplier guide); dainty, delicate, fine chain; cable, curb or Cuban for the main links; any length other than 20 cm + 3 cm. Do not cross-sell the Bold Nocturne Chain unless the plan includes it.",
+  "photos": [
+    {"file": "01.jpg", "shows": "Packshot (AI-made listing image, hf_ file): the bracelet laid in a circle on cream with soft window shadow. Pave link front centre, polished paperclip links bunched around it, lobster clasp and jump ring top left, curb extender with a flat elongated tag top right. 18k gold tone. Clearest whole construction. Reference 1."},
+    {"file": "02.jpg", "shows": "Worn (supplier photo): model in an ochre slip, arm across the chest, hand on the opposite shoulder; bracelet loose on the wrist with the pave link on top and the extender hanging below. 18k gold tone. Shows true scale on the wrist. Reference 2."},
+    {"file": "03.jpg", "shows": "Detail (AI-made listing image, hf_ file): 4-5 polished plain links on the diagonal with the lobster clasp, jump ring and flat tag at bottom left; no pave link in frame. 18k gold tone. Good for link thickness and polish."},
+    {"file": "04.jpg", "shows": "Packaging: blush Naira Petite gift box under a sheer organza veil. No product."},
+    {"file": "05.jpg", "shows": "Size guide (supplier photo on a Naira card): matching chain, this bracelet and the drops; bracelet marked 11.7 mm / 20.6 g, chain plain link about 10 mm, the chain's pave link labelled 'Brass'; text '20 + 3 cm'. Shows the real count of 6 plain links each side of the pave link. Text overlay and other pieces, so not a generation reference."}
+  ],
+  "sources": "Live Shopify listing (read-only query, 2026-11-20). No earlier research for this handle in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs."
+}
