@@ -1,0 +1,306 @@
+{
+ "rows": {
+  "T9": {
+   "ad": "k03-4",
+   "variant": "V3",
+   "expertMean": 6.91,
+   "dims": {
+    "stop": 7.0,
+    "message": 6.17,
+    "truth": 7.17,
+    "layout": 7.0,
+    "brand": 7.5,
+    "copy": 6.67,
+    "fit": 7.17,
+    "desire": 6.67,
+    "cues": 7.67,
+    "crazy": 6.5
+   },
+   "perCritic": {
+    "perf": 6.625,
+    "craft": 6.98,
+    "truth": 7.125
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [],
+   "thumbs": {
+    "perf1": 6.5,
+    "perf2": 6,
+    "craft1": 7.5,
+    "craft2": 7,
+    "truth1": 7,
+    "truth2": 7
+   },
+   "thumbMean": 6.83,
+   "beatsLoser": false,
+   "beatsWinner": true,
+   "customerMean": 6.708,
+   "wouldBuy": 5.833,
+   "buyYesShare": 0.83,
+   "gate": false,
+   "score": 6.572,
+   "worst": {
+    "perf": [
+     "Re-render the ring with the real fine ridge pitch (about 1.3 mm, about 60 ridges round). The x1.5 inset magnifies coarse, spring-like ribs at about twice the real pitch, so the hero close-up is the least truthful part of the ad. That keeps truth under the ship rule's 8.",
+     "Make the image name her pain, such as a stone lost mid-function or the ring taken off and lost. Right now 'nothing to lose' plus a list of what the ring lacks only implies PAIN, and 'only the milk falls off' depends on a paraat the Feed crop hides."
+    ],
+    "craft": [
+     "The proof is off-frame in the feed. 'only the milk falls off' points at a faint streak on the palm, while the paraat splash (the image that would get the ad talked about, visible in the Story) is buried under the card. Compact or lower the card, or move the window, so the splash shows. On a reshoot, also seat the ring at the base of the finger, not in the midi position.",
+     "Put her pain on the canvas. 'no stones, no clasp, no gap.' reads as a reassurance (OBJECTION), not a PAIN. Swap it for the Meta line 'Lost a stone mid-sangeet?' so 'NOTHING TO LOSE.' answers a problem she recognises. Also fix the Story line break 'no gap. only / the milk falls off.'"
+    ],
+    "truth": [
+     "Remove 'FREE INSURED SHIPPING' (blocker). Creatively, the Feed crop buries the milk paraat under the card, so 'only the milk falls off' has no visible proof in Feed. Frame the Feed lower or move the card so the splash shows.",
+     "Delete 'FREE INSURED SHIPPING' from the card (RULINGS §2), since it is the only compliance blocker. After that, the truth fix is the ridges: the inset magnifies a ring with about 40 chunky ridges where the real piece has about 60 fine ones at 1.3 mm, so the 2x view looks coarser than the piece."
+    ]
+   },
+   "customerLines": [
+    "Meera1: The ring tucked inside the O of NOTHING made me stop, and that little close-up is the only place I can actually see the ridges, so I'd tap, pick US 7 and use BUY3 to sort out a couple of wedding gifts as well.",
+    "Meera2: That ring sitting inside the O of NOTHING is clever, I can actually see the ridges up close, and ₹999 with cash on delivery is right in my range, so I'd tap and order one to wear to the December functions myself for once.",
+    "Ananya1: Okay, putting the ring inside the O of NOTHING is a genuinely nice type move, and that close-up finally shows me the ridges, so I'd tap through even though the velvet-curtain, fairy-light shaadi mood is not my thing.",
+    "Ananya2: The ring set into the O of NOTHING is properly nice type work and finally shows me the ribbing up close, so I'd tap through despite the velvet curtain and fairy lights sangeet overload.",
+    "Rohan1: The zoomed-in ring inside the O of NOTHING made me stop, it looks like some Italian brand ring and it's only ₹999, but US 6, 7 or 8? I'd have to secretly borrow didi's ring to check her size before I buy anything.",
+    "Rohan2: That zoom of the ring inside the O got me: the ridges look like proper heavy gold for ₹999 with cash on delivery, so I'd put it in the bag and WhatsApp didi for her ring size before I pay."
+   ]
+  },
+  "C4": {
+   "ad": "k03-4",
+   "variant": "V1",
+   "expertMean": 5.833,
+   "dims": {
+    "stop": 4.83,
+    "message": 5.17,
+    "truth": 6.17,
+    "layout": 5.67,
+    "brand": 7.5,
+    "copy": 6.0,
+    "fit": 5.33,
+    "desire": 6.17,
+    "cues": 6.5,
+    "crazy": 5.67
+   },
+   "perCritic": {
+    "perf": 5.46,
+    "craft": 6.115,
+    "truth": 5.925
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "stop",
+    "message",
+    "layout",
+    "fit",
+    "crazy"
+   ],
+   "thumbs": {
+    "perf1": 4.5,
+    "perf2": 4,
+    "craft1": 5.5,
+    "craft2": 5,
+    "truth1": 5,
+    "truth2": 4
+   },
+   "thumbMean": 4.67,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 5.333,
+   "wouldBuy": 4.0,
+   "buyYesShare": 0.0,
+   "gate": false,
+   "score": 5.05,
+   "worst": {
+    "perf": [
+     "Replace the 'RING 5.8 MM / PARAAT about 45 cm / same scale. now find it.' scale bar with a magnified ring inset. The ring is only about 8% of the width, the henna fist and headline are the hero, and the scale bar is a second idea that needs decoding. Its 'now find it' even suggests the ring is easy to lose, which works against the PAIN message.",
+     "Cut the false 'same scale' paraat bar and the scoreboard kicker, and use the space to show the ring big (a close-up inset). As it stands the idea is the hero and the ring is an 8%-wide gold speck."
+    ],
+    "craft": [
+     "Remove the RING 5.8 MM / PARAAT 45 cm scale-bar block. 'Same scale. now find it.' says the ring is tiny and easy to lose, which contradicts 'NOTHING TO LOSE.', and it refers to a paraat that the feed crop hides under the card. It also pushes the ad past four text elements and turns it into an infographic.",
+     "Delete the PARAAT scale bar and 'about 45 cm / same scale. now find it.'. It is a second idea nobody can decode and it carries an unsupported number. Give the space to the ring, for example T9's ring-cam loupe, because at about 8% of the width the piece loses to the fairy lights."
+    ],
+    "truth": [
+     "Remove 'FREE INSURED SHIPPING' (blocker). Then cut the scale bar with its 'PARAAT about 45 cm / same scale. now find it.' block. It takes decoding, crowds the left column and pulls away from the PAIN line, and with the scoreboard it gives the ad three ideas.",
+     "Replace the paraat scale bar with a ring-cam crop of the same picture (about 1.5x, as in T9) beside the ring. The ring is now about 74 px, 6.8-7.2% of the width, under the §7 'worn key detail under 8%' cap, so it is a speck at 200 px. The bar's 'same scale. now find it' also says the ring is easy to lose, which works against 'NOTHING TO LOSE', and it carries the unlisted 45 cm."
+    ]
+   },
+   "customerLines": [
+    "Meera1: Losing a stone at a sangeet has happened to me, so 'nothing to lose' works, but what is this 'paraat about 45 cm, same scale' ruler supposed to mean, and the ring is so small that I'd save it and probably forget it.",
+    "Meera2: The mehndi hand coming out of the milk paraat took me straight back to my cousin's angoothi game, but the ring is tiny, and that ruler and '45 cm paraat, same scale' thing lost me completely, so I'd scroll past.",
+    "Ananya1: I liked 'only the milk falls off', then lost the thread at a 45 cm paraat scale bar next to a 5.8 mm ring; that's one infographic too many on a poster that's already crowded.",
+    "Ananya2: 'Nothing to lose' is a good line, but between the HER/HIM tally and that paraat scale bar I'm decoding a diagram instead of wanting a ring, and the ring is a speck on a mehndi fist punching out of a milk splash.",
+    "Rohan1: Looks like a proper shaadi poster, but 'paraat about 45 cm, same scale, now find it' lost me, what am I even measuring, and losing a stone at the sangeet is a girl problem I don't relate to.",
+    "Rohan2: Mehndi haath and shaadi lights stopped me, but 'paraat about 45 cm, same scale, now find it' next to a ruler made me go bhai what am I measuring, and it still doesn't tell me if US 7 fits her."
+   ]
+  },
+  "W6": {
+   "ad": "k03-4",
+   "variant": "V2",
+   "expertMean": 6.538,
+   "dims": {
+    "stop": 5.33,
+    "message": 6.33,
+    "truth": 7.0,
+    "layout": 6.5,
+    "brand": 7.5,
+    "copy": 7.5,
+    "fit": 7.0,
+    "desire": 6.17,
+    "cues": 6.5,
+    "crazy": 6.83
+   },
+   "perCritic": {
+    "perf": 6.195,
+    "craft": 6.795,
+    "truth": 6.625
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "stop"
+   ],
+   "thumbs": {
+    "perf1": 5,
+    "perf2": 5,
+    "craft1": 6.5,
+    "craft2": 6,
+    "truth1": 6,
+    "truth2": 5
+   },
+   "thumbMean": 5.58,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 6.125,
+   "wouldBuy": 5.167,
+   "buyYesShare": 0.33,
+   "gate": false,
+   "score": 5.936,
+   "worst": {
+    "perf": [
+     "Make the ring big enough to be the hero: a magnified inset or a tighter crop. The DRS-style 'RING NOT OUT' tag points at a ring only about 8% of the width (about 16 px at 200 px), so the best pain line in the batch sells a piece nobody can see.",
+     "Make the ring big enough to see, with a tighter crop or a ring close-up inset. The best pain line in the set sells a ring that is an 8%-wide gold speck on a fist at feed size and cannot be identified at 200 px."
+    ],
+    "craft": [
+     "The hero ring is about 8% of the frame width, a roughly 16 px glint at 200 px, so 'RING NOT OUT' points at something the thumb cannot see. Add T9's ring-cam O inset or crop tighter on the fist so the ring, not the curtain, owns the frame. Also bring the milk splash into the feed so 'MILK OUT' has visible proof.",
+     "Make the ring visible. Drop the 'MILK OUT' tag and put a ring-cam loupe in the O of OUT, as T9 does with NOTHING. At about 8% of the Feed width, the ring loses to the fairy lights and cannot sell at thumb size."
+    ],
+    "truth": [
+     "Remove 'FREE INSURED SHIPPING' (blocker). Creatively, the ring is about 86 px (8% of the width) and becomes a gold speck at 200 px, so the 'RING NOT OUT' callout points at something the thumb cannot see. Add a magnified inset like T9's or crop tighter.",
+     "Make the ring readable. Put a crop of the same picture at about 1.5x behind the 'RING · NOT OUT' chip, so the piece clears the §7 8%-of-width cap (now about 7%) and can be named at 200 px. Right now the chip points at a gold speck."
+    ]
+   },
+   "customerLines": [
+    "Meera1: 'NOT OUT' had me confused for a second, but 'the ring you take off to wash is the one that goes missing' is literally me with two kids, and 'leave it on' is the first reason in years to buy something for myself, I just wish I could see the ring bigger than a fingernail.",
+    "Meera2: 'The ring you take off to wash is the one that goes missing' is literally my kitchen sink, and ₹999 is fine, but the ring is small on that fist, so I'd tap to see it bigger before I believe waterproof, and if it looks right it goes in the cart.",
+    "Ananya1: NOT OUT is a cute cricket pun and 'the ring you take off to wash is the one that goes missing' is painfully true, but the RING NOT OUT / MILK OUT tags make it feel like a meme template, and the ring is too small to want at this size.",
+    "Ananya2: 'The ring you take off to wash is the one that goes missing' is painfully true and 'Not out' made me smirk, but the ring is tiny in the frame and there are too many labels fighting for attention.",
+    "Rohan1: NOT OUT with the milk, the cricket joke worked on me, and maa really does take her ring off to wash utensils, but the ring is tiny on that fist and I still can't guess anyone's size.",
+    "Rohan2: 'Not out' is a solid cricket joke, and 'leave it on while you wash' is literally maa's problem, but maa wears real gold and I have no clue what US 6, 7 or 8 means for her finger, so I'll just scroll."
+   ]
+  }
+ },
+ "pick": {
+  "k03-4": {
+   "chosen": "V3",
+   "code": "T9",
+   "gate": false,
+   "score": 6.572,
+   "expertMean": 6.91,
+   "customerMean": 6.708,
+   "wouldBuy": 5.833,
+   "thumbMean": 6.83,
+   "others": {
+    "V1": {
+     "score": 5.05,
+     "gate": false
+    },
+    "V2": {
+     "score": 5.936,
+     "gate": false
+    }
+   }
+  }
+ },
+ "batch": {
+  "expertMean": 6.91,
+  "customerMean": 6.708,
+  "basketRate": 0.0,
+  "shipped": 0,
+  "anchors": {
+   "apricot": {
+    "perf1": 6,
+    "craft1": 6,
+    "truth1": 6
+   },
+   "p2": {
+    "perf1": 7,
+    "craft1": 7,
+    "truth1": 7
+   },
+   "F2": {
+    "perf2": 8,
+    "craft2": 8,
+    "truth2": 8
+   },
+   "sa08": {
+    "perf2": 7,
+    "craft2": 5,
+    "truth2": 6
+   }
+  }
+ },
+ "baskets": [
+  {
+   "persona": "Meera",
+   "run": 1,
+   "basket": [
+    "Tubogas Dome Ring"
+   ],
+   "size": 1,
+   "favourite": "T9"
+  },
+  {
+   "persona": "Meera",
+   "run": 2,
+   "basket": [
+    "Tubogas Dome Ring"
+   ],
+   "size": 1,
+   "favourite": "T9"
+  },
+  {
+   "persona": "Ananya",
+   "run": 1,
+   "basket": [
+    "Tubogas Dome Ring"
+   ],
+   "size": 1,
+   "favourite": "T9"
+  },
+  {
+   "persona": "Ananya",
+   "run": 2,
+   "basket": [
+    "Tubogas Dome Ring"
+   ],
+   "size": 1,
+   "favourite": "T9"
+  },
+  {
+   "persona": "Rohan",
+   "run": 1,
+   "basket": [],
+   "size": 0,
+   "favourite": "T9"
+  },
+  {
+   "persona": "Rohan",
+   "run": 2,
+   "basket": [
+    "Tubogas Dome Ring"
+   ],
+   "size": 1,
+   "favourite": "T9"
+  }
+ ],
+ "problems": []
+}

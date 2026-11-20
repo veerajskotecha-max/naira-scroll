@@ -32,12 +32,13 @@ pending
 
  svg.top { position: absolute; left: 0; top: 0; width: 1080px; pointer-events: none; overflow: visible; }
  /* Feed lower third: three rows spread through y 1100-1266 */
- .band { position: absolute; left: 0; right: 0; top: 1084px; bottom: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
+ .band { position: absolute; left: 0; right: 0; top: 1080px; bottom: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
  .rowf { position: absolute; left: 0; right: 0; display: flex; justify-content: center; }
- .rowf.np { top: 1100px; height: 56px; align-items: baseline; gap: 26px; }
- .rowf.of { top: 1176px; }
+ .rowf.np { top: 1092px; height: 56px; align-items: baseline; gap: 26px; }
+ .rowf.of { top: 1160px; }
  .rowf.of .offer { padding: 10px 22px; }
- .rowf.tr { top: 1240px; line-height: 1; }
+ .rowf.tr { top: 1234px; line-height: 1; }
+ .rowf.tr .trust { line-height: 1; }
  /* Story card: right-aligned rows inside the die-cut band */
  .sc { position: absolute; right: 72px; text-align: right; white-space: nowrap; }
  .sc.name { line-height: 1; }
@@ -46,7 +47,8 @@ pending
        font-family: var(--sans); font-weight: 500; font-size: 26px; text-transform: uppercase; border: 2px solid currentColor; color: var(--bone); }
  .o2 .k { text-align: right; }
  .o2 .sep { margin: -4px 2px 0 0; }
- .sc.trust { line-height: 1.12; }
+ .sc .trust { line-height: 1.12; }
+ .aside i.two { line-height: 1.06; }
  /* size callout: Jost caps over a Cormorant italic line */
  .aside { position: absolute; color: var(--bone); }
  .aside b { display: block; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 1; white-space: nowrap; }

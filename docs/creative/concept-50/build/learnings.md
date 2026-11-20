@@ -58,3 +58,19 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
 16. **Credits (20 Nov, 20:05 UTC: 110 left).** From the b-batches on: no hedge takes (the scale references replace them),
     redos on `gpt_image_2_6` medium (1 credit) unless the product card's "shootModel" says otherwise. Spend credits on
     the 50 b-batch ads and the held rescues first; Kling clips only with what is left at the end.
+
+## First rating (k03a, k03-4 Tubogas Dome Ring, 20 Nov 20:10 UTC): expert 6.91, customer 6.71, basket 0, gate failed
+
+17. **The piece must be the hero even at true size.** Every rater's worst issue: the ring was about 8% of the frame width
+    (about 16 px at 200 px), so the best pain line sold a piece nobody could see. When the piece is under about 15% of the
+    Feed width, every variation carries a large magnified inset of the SAME picture (a pixel-exact 2-3x crop of the piece, at
+    least 30% of the Feed width, in a clean circle, lens or die-cut frame tied to the camp's device), labelled "shown
+    magnified · about N mm", while the true-size piece stays in the scene as the scale proof. The inset is the thumb-stopper;
+    the headline names what the inset proves.
+18. **Check the inset against the references before using it.** At x1.5 the inset exposed ridges at about twice the real pitch,
+    and the truth critic held the ad at 7.2. Crop the inset, set it beside the same crop of reference 1, and use a
+    magnification at which the construction reads true; if the picture's detail is wrong at any magnification, the ad cannot
+    rely on a close-up, so say so in the notes.
+19. **Hook to picture.** "NOT OUT." with the "RING NOT OUT / MILK OUT" tags was the strongest hook, but it lost because the
+    picture could not carry it at 200 px. Keep the type system to one device plus the footer; the kicker line, a two-line
+    headline, one subline, one device, the card.
