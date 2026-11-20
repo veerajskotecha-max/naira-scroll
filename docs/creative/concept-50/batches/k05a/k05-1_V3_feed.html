@@ -7,14 +7,18 @@
         text-transform: uppercase; white-space: nowrap; color: var(--ink); }
  .sz { letter-spacing: .12em; }
  /* the object line, small, in the light */
- .obj { position: absolute; left: 72px; font-size: 64px; white-space: nowrap; letter-spacing: .03em; }
+ .obj { position: absolute; left: 72px; font-size: 68px; white-space: nowrap; letter-spacing: .03em; }
  .kT { letter-spacing: -.01em; }
  /* the long shadow: one line per element, sheared about the object line's cap line so the stack leans like the plate's figures */
  .ln { position: absolute; left: 72px; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic; font-weight: 500;
-       font-size: 156px; line-height: 156px; letter-spacing: -.005em; transform-origin: 0 127.5px; }
- .sh { color: #1C110D; mix-blend-mode: multiply; }
+       font-size: 150px; line-height: 150px; letter-spacing: -.005em; transform-origin: 0 122.5px; }
+ .ln .g { color: transparent; text-shadow: none; -webkit-text-stroke: 0; }
+ .l1.sh { filter: blur(1.6px); } .l2.sh { filter: blur(.5px); }
+ .sh { color: #4A2416; mix-blend-mode: multiply; }
+ .pen { color: #4A2416; mix-blend-mode: multiply; filter: blur(7px); opacity: .42; }
+ .pen.l1 { filter: blur(10px); }
  .um { color: transparent; mix-blend-mode: multiply; filter: blur(11px); }
- .um span { color: #2A1A15; -webkit-text-stroke: 16px #2A1A15; }
+ .um { color: transparent; } .um span { color: #2A1A15; -webkit-text-stroke: 16px #2A1A15; }
  .lt { color: rgba(244,240,232,.96); mix-blend-mode: screen; text-shadow: 0 0 12px rgba(240,214,170,.8), 0 0 3px rgba(244,240,232,.7); }
  .ftr { position: absolute; left: 72px; right: 72px; color: var(--ink); }
  .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
@@ -31,11 +35,14 @@
  <img class="pic" src="pics/k05-1A.png" alt="">
  <svg class="overlay" viewBox="0 0 1080 1350"><circle cx="7" cy="102" r="7" fill="#1A1614"/></svg>
  <div class="lab" style="left:72px;top:84px">3:58 PM · 21 Dec</div>
- <!-- baselines: tum 262, aur 380, main. 498; shear base = object line cap top 512 -->
- <p class="ln sh" style="top:134.5px;transform:translateX(71.7px) skewX(-16deg) scaleY(1.12);filter:blur(1.8px)">tum</p>
- <p class="ln um" style="top:252.5px;transform:translateX(37.8px) skewX(-16deg) scaleY(1.12)"><span>aur</span></p>
- <p class="ln lt" style="top:252.5px;transform:translateX(37.8px) skewX(-16deg) scaleY(1.12)">aur</p>
- <p class="ln sh" style="top:370.5px;transform:translateX(4px) skewX(-16deg) scaleY(1.12);filter:blur(.5px)">main.</p>
+ <!-- the long shadow: F 150; the far line stretched more (scaleY 1.7) than the near one (1.45); block shear 11 deg, the plate's lean,
+      about the object line's cap top (512): dx = tan 11 x (512 - baseline) -->
+ <p class="ln pen l1" style="top:203.5px;transform:translateX(36px) scaleY(1.7)">tum <span class="g">aur</span></p>
+ <p class="ln sh l1" style="top:203.5px;transform:translateX(36px) scaleY(1.7)">tum <span class="g">aur</span></p>
+ <p class="ln um l1" style="top:203.5px;transform:translateX(36px) scaleY(1.7)">tum <span>aur</span></p>
+ <p class="ln lt l1" style="top:203.5px;transform:translateX(36px) scaleY(1.7)"><span class="g">tum </span>aur</p>
+ <p class="ln pen l2" style="top:375.5px;transform:translateX(2.7px) scaleY(1.45)">main.</p>
+ <p class="ln sh l2" style="top:375.5px;transform:translateX(2.7px) scaleY(1.45)">main.</p>
  <p class="h1 obj" style="top:508px"><span class="kT">T</span>wo stones.</p>
  <svg class="overlay" viewBox="0 0 1080 1350">
   <g stroke="#1A1614" stroke-width="1.5" fill="none">
