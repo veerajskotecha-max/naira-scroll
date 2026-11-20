@@ -4,7 +4,11 @@ ratings.json: {"experts": [{"critic": "perf|craft|truth", "run": 1|2, "result": 
                "customers": [{"persona": "Meera", "run": 1|2, "result": {...customer schema...}}]}"""
 import sys, json
 R = json.load(open(sys.argv[1])); K = json.load(open(sys.argv[2]))
-W = dict(stop=.15, message=.10, truth=.15, layout=.10, brand=.05, copy=.10, fit=.05, desire=.15, cues=.15)
+import os
+if os.environ.get('C50_RUBRIC', 'crazy') == 'crazy':
+    W = dict(stop=.15, message=.08, truth=.15, layout=.08, brand=.05, copy=.08, fit=.03, desire=.13, cues=.10, crazy=.15)
+else:
+    W = dict(stop=.15, message=.10, truth=.15, layout=.10, brand=.05, copy=.10, fit=.05, desire=.15, cues=.15)
 D = list(W); var = K['variants']; problems = []
 ex = {c: {} for c in var}; th = {c: {} for c in var}; cu = {c: [] for c in var}; baskets = []
 anchors = {}

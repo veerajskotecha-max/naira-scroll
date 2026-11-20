@@ -9,10 +9,25 @@ from PIL import Image, ImageDraw, ImageFont
 bdir, vpath, out, keyp, seed = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], int(sys.argv[5])
 C = '/home/user/naira-scroll/docs/creative'
 V = json.load(open(vpath))
-plan = json.load(open(C + '/concept-50/plan.json'))
-ads = {a['id']: a for c in plan['camps'] for a in c['ads']}
-camps = {a['id']: c for c in plan['camps'] for a in c['ads']}
-locks = plan.get('locks', {})
+PLANF = os.environ.get('C50_PLAN', C + '/concept-50/crazy10.json')
+plan = json.load(open(PLANF))
+locks = json.load(open(C + '/concept-50/plan.json')).get('locks', {})
+PROD = {'toggle-link-chain': ('Toggle Link Chain', 999), 'woven-gold-hoops': ('Woven Gold Hoops', 1049), 'brushed-gold-huggies': ('Brushed Gold Huggies', 699),
+        'verdant-eternity-band': ('Verdant Eternity Band', 1049), 'cushion-halo-ring': ('Cushion Halo Ring', 999), 'prism-riviere-bracelet': ('Prism Rivière Bracelet', 2399),
+        'verdant-circlet-studs': ('Verdant Circlet Studs', 899), 'halo-curve-ring': ('Halo Curve Ring', 899), 'pearl-double-halo-studs': ('Pearl Double Halo Studs', 1199),
+        'monochrome-enamel-hoops': ('Monochrome Enamel Hoops', 999), 'serpentine-whisper-chain-silver': ('Serpentine Whisper Chain — Silver', 899),
+        'ribbon-bead-bracelet': ('Ribbon Bead Bracelet', 699), 'serpentine-whisper-chain': ('Serpentine Whisper Chain', 1299), 'bold-nocturne-drops': ('Bold Nocturne Drops', 1299)}
+ads, camps = {}, {}
+for c in plan['camps']:
+    for a in c['ads']:
+        aid = a.get('id') or f"{c['id']}-{a.get('card')}"
+        h = a.get('handle') or a.get('product')
+        a = dict(a, id=aid, handle=h, product=PROD.get(h, (a.get('product'), 0))[0], price=a.get('price') or PROD.get(h, ('', 0))[1])
+        if not a.get('refs') or not isinstance(a.get('refs'), dict):
+            import glob as _g
+            fs = sorted(_g.glob(f"{C}/ads-500/build/refs/{h}__*.jpg"))[:2]
+            a['refs'] = {'slot1': fs[0] if fs else '', 'slot2': fs[1] if len(fs) > 1 else ''}
+        ads[aid] = a; camps[aid] = dict(c, insight=c.get('insight') or c.get('idea', ''))
 prod_lines = open(C + '/ads-500/build/study/products.md', encoding='utf-8').read().split('\n')
 starts = [(i, l) for i, l in enumerate(prod_lines) if l.startswith('== ')]
 sec = {}
@@ -36,7 +51,7 @@ for code, idx in zip(vcodes, order):
     shutil.copyfile(v['feed'], d + '/feed.jpg'); shutil.copyfile(v['story'], d + '/story.jpg')
     lk = locks.get(a['handle'], '')
     lk = lk if isinstance(lk, str) else json.dumps(lk, ensure_ascii=False)
-    refs = [f"{C}/{a['refs'][s].split('docs/creative/')[-1]}" for s in ('slot1', 'slot2') if a.get('refs', {}).get(s)]
+    refs = [(r if r.startswith('/') else f"{C}/{r.split('docs/creative/')[-1]}") for r in (a['refs'].get('slot1'), a['refs'].get('slot2')) if r]
     m = v.get('meta', {})
     info = [f'# Ad {code}', '', f"- Camp idea: {camp.get('name')}. {camp.get('insight', '')}",
             f"- Product: {a['product']}, ₹{a['price']:,} (live price, stock 20+ read on the day).",
