@@ -36,6 +36,8 @@
  .pic { object-position: 50% 42%; }
  .wrist { background: linear-gradient(to right, rgba(14,6,5,.55) 0, rgba(14,6,5,.42) 200px, rgba(14,6,5,0) 300px);
            -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 60px, #000 560px, transparent 640px); mask-image: linear-gradient(to bottom, transparent 0, #000 60px, #000 560px, transparent 640px); }
+ .wrist2 { background: linear-gradient(to right, rgba(14,6,5,0) 150px, rgba(14,6,5,.5) 240px, rgba(14,6,5,.5) 300px, rgba(14,6,5,0) 335px);
+            -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 25px, #000 95px, transparent 125px); mask-image: linear-gradient(to bottom, transparent 0, #000 25px, #000 95px, transparent 125px); }
  .hl { right: 72px; top: 96px; text-align: right; }
  .hl span { font-size: 104px; }
  .lad { left: 72px; top: 316px; display: flex; flex-direction: column; gap: 34px; }
@@ -43,6 +45,7 @@
 <body class="dark">
 <img class="pic" src="pics/k04-3A.png">
 <div class="scr wrist" style="top:330px;height:640px;width:330px"></div>
+<div class="scr wrist2" style="top:560px;height:130px;width:340px"></div>
 <svg class="ovl" width="1080" height="1350" viewBox="0 0 1080 1350" aria-hidden="true">
 <defs><clipPath id="gc"><circle cx="515.0" cy="484.0" r="147.19"/></clipPath><radialGradient id="gh" cx="515.0" cy="484.0" r="223.2" gradientUnits="userSpaceOnUse"><stop offset="0.767" stop-color="#0E0605" stop-opacity=".55"/><stop offset="1" stop-color="#0E0605" stop-opacity="0"/></radialGradient><radialGradient id="gi" cx="515.0" cy="484.0" r="147.2" gradientUnits="userSpaceOnUse"><stop offset=".78" stop-color="#0E0605" stop-opacity="0"/><stop offset="1" stop-color="#0E0605" stop-opacity=".42"/></radialGradient></defs>
 <circle cx="515.0" cy="484.0" r="223.2" fill="url(#gh)"/>
@@ -54,6 +57,10 @@
 <circle cx="515.0" cy="484.0" r="169.69" fill="none" stroke="#E4C889" stroke-opacity=".55" stroke-width="1"/>
 <circle cx="515.0" cy="484.0" r="177.19" fill="none" stroke="#E4C889" stroke-width="1.6"/>
 <path d="M 385.1 436.7 A 138.2 138.2 0 0 1 445.9 364.3" fill="none" stroke="#FBF8F3" stroke-opacity=".30" stroke-width="3" stroke-linecap="round"/>
+<rect x="476.0" y="306.8" width="78.0" height="30" rx="2" fill="#160A08"/><text x="515.0" y="330.8" text-anchor="middle" font-family="Jost" font-weight="500" font-size="26" letter-spacing="1.5" fill="#E4C889">2.5×</text>
+<circle cx="375.2" cy="741.8" r="94.0" fill="none" stroke="#E4C889" stroke-opacity="0.55" stroke-width="1.2" stroke-dasharray="3 5"/>
+<path d="M 341.7 447.2 L 283.3 722.3" stroke="#E4C889" stroke-opacity="0.55" stroke-width="1.2" fill="none"/>
+<path d="M 640.4 609.2 L 441.7 808.2" stroke="#E4C889" stroke-opacity="0.55" stroke-width="1.2" fill="none"/>
 <path d="M 772 455 H 692.8" stroke="#E4C889" stroke-width="1.5" fill="none"/><circle cx="689.8" cy="455" r="3.5" fill="#E4C889"/><path d="M 772 495 H 664.8" stroke="#E4C889" stroke-width="1.5" fill="none"/><circle cx="661.8" cy="495" r="3.5" fill="#E4C889"/>
 <path d="M 72.75 318 V 985" stroke="#E4C889" stroke-opacity=".45" stroke-width="1.5" fill="none"/>
 </svg>
@@ -62,8 +69,8 @@
 <p class="bt" id="beat" style="right:72px;top:348px;font-size:40px;line-height:44px;text-align:right">Skip the thread trick.</p>
 <p class="lbl" id="l9" style="left:784px;top:440px">US 9 <b>·</b> 18.9 mm</p>
 <p class="lbl" id="l5" style="left:784px;top:480px">US 5 <b>·</b> 15.7 mm</p>
-<p class="note" id="note" style="right:72px;top:524px;text-align:right">It opens at the back.<br>Lens shows it 2.5×.</p>
-<div class="lad" id="lad"><div class="e" style="opacity:0.72"><span class="yr">1999</span><span class="qt">Pata nahi.</span></div><div class="e" style="opacity:0.78"><span class="yr">2004</span><span class="qt">Kya karogi jaanke?</span></div><div class="e" style="opacity:0.83"><span class="yr">2010</span><span class="qt">Chhodo na.</span></div><div class="e" style="opacity:0.89"><span class="yr">2016</span><span class="qt">Pehle wali theek hai.</span></div><div class="e" style="opacity:0.94"><span class="yr">2021</span><span class="qt">Pata nahi, beta.</span></div><div class="e" style="opacity:1.00"><span class="yr">2025</span><span class="qt">(a thread, while<br>she napped)</span></div></div>
+<p class="note" id="note" style="right:72px;top:524px;text-align:right">It opens at the back;<br>about 16.5 mm at rest.</p>
+<div class="lad" id="lad"><div class="e" style="opacity:0.72"><span class="yr">1999</span><span class="qt">Pata nahi.</span></div><div class="e" style="opacity:0.78"><span class="yr">2004</span><span class="qt">Kya karogi jaanke?</span></div><div class="e" style="opacity:0.83"><span class="yr">2010</span><span class="qt">Pehle wali theek hai.</span></div><div class="e" style="opacity:0.89"><span class="yr">2016</span><span class="qt">Chhodo na.</span></div><div class="e" style="opacity:0.94"><span class="yr">2021</span><span class="qt">Pata nahi, beta.</span></div><div class="e" style="opacity:1.00"><span class="yr">2025</span><span class="qt">(a thread, while<br>she napped)</span></div></div>
 <div class="brk" id="brk" style="left:72px;top:984px"><span class="chip">2026</span><span class="turn">No need to ask.</span></div>
 <div class="f2" id="f2" style="top:1062px">
  <div class="rule"></div>

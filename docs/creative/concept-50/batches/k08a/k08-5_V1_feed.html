@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css"><link rel="stylesheet" href="masks/k08-5R_chain.css">
+<!-- k08-5 V1 · Feed (draft) -->
+<style>
+ @font-face{font-family:'Rozha One';src:url('fonts/RozhaOne-devanagari.woff2') format('woff2');unicode-range:U+0900-097F,U+200C-200D,U+25CC}
+ @font-face{font-family:'Tiro Devanagari Hindi';src:url('fonts/TiroDevanagariHindi-devanagari.woff2') format('woff2');unicode-range:U+0900-097F,U+200C-200D,U+25CC}
+ body { background:#1E1310; }
+ .pic { object-position:50% 70%; }
+ /* THE WORD layer: full canvas, masked so no foil ever lands on the chain (mask = the chain's own silhouette, same geometry as .pic)
+    and so the word carries no top bar of its own (the headline band of Rozha is cut; the bracelet is the bar). */
+ .wl { position:absolute; left:0; top:0; width:1080px; height:1350px; pointer-events:none;
+       mask-image:var(--chain-out), linear-gradient(to bottom,#000 0,#000 var(--hb0),transparent var(--hb0),transparent var(--hb1),#000 var(--hb1),#000 100%);
+       mask-size:1080px 1912.5px, 1080px 1350px; mask-position:0 -393.75px, 0 0; mask-repeat:no-repeat; mask-composite:intersect; }
+ .foil { position:absolute; margin:0; font-family:'Rozha One','Cormorant Garamond'; font-weight:400; line-height:1; white-space:nowrap; color:transparent;
+         background-image:url(masks/k08-5R_shade.jpg),
+           url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .12 0 0 0 .9 -.3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.10'/%3E%3C/svg%3E"),
+           linear-gradient(100deg,#F3DEA4 0%,#C9A257 22%,#EED598 42%,#B38B3E 63%,#E8CD8C 82%,#BE9849 100%);
+         background-blend-mode:multiply, normal, normal;
+         -webkit-background-clip:text; background-clip:text;
+         filter:drop-shadow(1px -1px 0 rgba(255,246,220,.5)) drop-shadow(-1px 1.5px 0 rgba(18,8,4,.55)); }
+ .rail { position:absolute; left:0; right:0; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.18em;
+         text-transform:uppercase; color:rgba(244,240,232,.86); line-height:30px; margin:0; white-space:nowrap; }
+ .rail .dv { font-family:'Tiro Devanagari Hindi','Cormorant Garamond'; font-size:32px; letter-spacing:0; text-transform:none; color:var(--gold-light); }
+ .hl { position:absolute; left:0; right:0; text-align:center; font-size:96px; white-space:nowrap; color:var(--bone); }
+ .hl .ans { color:var(--gold-light); }
+ .hl .aside { font-family:var(--serif); font-style:italic; font-weight:500; font-size:36px; letter-spacing:0; text-transform:none; color:rgba(244,240,232,.86); }
+ .gloss { position:absolute; left:0; right:0; text-align:center; margin:0; color:rgba(244,240,232,.9); white-space:nowrap; }
+ .gloss .hw { font-family:'Tiro Devanagari Hindi','Cormorant Garamond'; font-size:40px; color:var(--gold-light); }
+ .gloss .ph { font-family:var(--sans); font-size:26px; letter-spacing:.06em; margin:0 .5em 0 .4em; }
+ .gloss .s { font-family:var(--serif); font-style:italic; font-weight:500; font-size:34px; }
+ .np { position:absolute; left:0; right:0; display:flex; justify-content:center; align-items:baseline; gap:26px; color:var(--bone); }
+ .np .name { font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.18em; text-transform:uppercase; white-space:nowrap; }
+ .np .price { font-family:var(--serif); font-weight:500; font-size:60px; line-height:1; font-variant-numeric:lining-nums; }
+ .ob { position:absolute; left:150px; right:150px; border:2px solid var(--gold-light); text-align:center; color:var(--bone); padding:14px 0 12px; }
+ .ob .a { font-family:var(--sans); font-weight:500; font-size:36px; letter-spacing:.1em; line-height:42px; white-space:nowrap; }
+ .ob .b { font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.14em; line-height:32px; white-space:nowrap; color:rgba(244,240,232,.86); }
+ .ob .sep, .tr .sep { display:inline-block; width:9px; height:9px; background:var(--gold-light); transform:rotate(45deg); vertical-align:middle; margin:-5px 18px 0 14px; }
+ .tr { position:absolute; left:0; right:0; display:flex; justify-content:center; align-items:center; gap:22px; font-family:var(--sans); font-weight:500;
+       font-size:26px; letter-spacing:.12em; text-transform:uppercase; line-height:30px; color:rgba(244,240,232,.86); white-space:nowrap; }
+ .tr img { height:28px; width:auto; display:block; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/k08-5R.png">
+ <p class="rail" style="top:186px">Bracelet · as the top line of <span class="dv">तीनों</span></p>
+ <p class="h1 hl" style="top:232px">Teenon chahiye?<br><span class="ans">Teenon lo.</span> <span class="aside">hum kam laga denge</span></p>
+ <div class="wl" style="--hb0:582px;--hb1:599px">
+  <p class="foil" style="font-size:480px;left:127px;top:476px;background-size:1080px 1912.5px,180px 180px,100% 100%;background-position:-127px -869.75px,0 0,0 0">तीनों</p>
+ </div>
+ <p class="gloss" style="top:878px"><span class="hw">तीनों</span><span class="ph">tee·non, adj.</span><span class="s">1. all three, as in teenon chahiye?</span></p>
+ <p class="gloss" style="top:922px"><span class="s">2. what one gold-tone line holds together: one pave link, 20 + 3 cm.</span></p>
+ <div class="np" style="top:984px"><span class="name">Bold Nocturne Bracelet</span><span class="price">₹1,599</span></div>
+ <div class="ob" style="top:1060px"><div class="a">BUY 3 · 20% OFF · CODE BUY3</div><div class="b">BUY 2 · 10% OFF</div></div>
+ <div class="tr" style="top:1196px"><img src="../../../ads-500/kit/logo_white.png"><span>Free insured shipping · Cash on delivery</span></div>
+</body></html>

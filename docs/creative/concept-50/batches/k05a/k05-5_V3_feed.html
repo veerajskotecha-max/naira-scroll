@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!-- draft -->
+<style>
+ body { background: #E9946B; }
+ .pic { object-position: 50% 30%; }
+ :root { --shade: #3B2620; }
+ .obj { position: absolute; left: 72px; top: 84px; font-size: 150px; line-height: .98; white-space: nowrap; }
+ svg.seal { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; overflow: visible; pointer-events: none; }
+ svg.seal text.ring { font-family: "Cormorant Garamond", serif; font-style: italic; font-weight: 500; fill: var(--shade); }
+ .sh { mix-blend-mode: multiply; }
+ .med { position: absolute; transform: translate(-50%, -50%); text-align: center; color: var(--ink); }
+ .med img { display: block; height: 30px; margin: 0 auto; }
+ .med .pr { font-family: var(--serif); font-weight: 500; font-size: 70px; line-height: 60px; margin-top: 8px; letter-spacing: -.01em; white-space: nowrap; }
+ .med .pr .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
+ .lab { position: absolute; margin: 0; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 30px; letter-spacing: .12em;
+        text-transform: uppercase; white-space: nowrap; color: var(--ink); }
+ .ftr { position: absolute; left: 72px; right: 72px; color: var(--ink); }
+ .ftr .cols { display: flex; align-items: center; justify-content: space-between; }
+ .ftr .nm { font-family: var(--sans); font-weight: 600; font-size: 26px; line-height: 32px; white-space: nowrap; }
+ .ftr .fx { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 32px; white-space: nowrap; }
+ .box { width: 590px; border: 1.5px solid var(--ink); padding: 13px 16px 12px; text-align: center; }
+ .box .b3 { font-family: var(--sans); font-weight: 500; font-size: 30px; line-height: 36px; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
+ .box .b2 { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; margin-top: 2px; }
+ .ftr .r3 { display: flex; justify-content: flex-end; border-top: 1px solid rgba(26,22,20,.45); margin-top: 16px; padding-top: 12px; }
+ .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; line-height: 26px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
+</style></head>
+<body>
+ <img class="pic" src="pics/k05-5A.png" alt="">
+ <p class="h1 obj">Two<br>Hoops.</p>
+ <svg class="seal" viewBox="0 0 1080 1350">
+  <defs>
+   <path id="ringT" d="M 700.0 314.1 A 132 132 0 1 1 948.0 314.1"/>
+   <path id="ringB" d="M 678.5 353.0 A 168 168 0 0 0 969.5 353.0"/>
+   <linearGradient id="gl" x1="660" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".35" stop-color="#fff"/><stop offset=".75" stop-color="#000"/></linearGradient>
+   <linearGradient id="gr" x1="660" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".35" stop-color="#000"/><stop offset=".75" stop-color="#fff"/></linearGradient>
+   <mask id="ml" maskUnits="userSpaceOnUse" x="600" y="60" width="440" height="430"><rect x="600" y="60" width="440" height="430" fill="url(#gl)"/></mask>
+   <mask id="mr" maskUnits="userSpaceOnUse" x="600" y="60" width="440" height="430"><rect x="600" y="60" width="440" height="430" fill="url(#gr)"/></mask>
+   <filter id="pen" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.4"/></filter>
+   <filter id="far" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.1"/></filter>
+  </defs>
+  <g class="sh">
+   <text class="ring" font-size="56" letter-spacing=".6" text-anchor="middle" opacity=".14" stroke="#3B2620" stroke-width="3" filter="url(#pen)"><textPath href="#ringT" startOffset="50%">and the whole sangeet,</textPath></text>
+   <text class="ring" font-size="56" letter-spacing=".6" text-anchor="middle" opacity=".14" stroke="#3B2620" stroke-width="3" filter="url(#pen)"><textPath href="#ringB" startOffset="50%">for the cousin.</textPath></text>
+   <g opacity=".14" stroke="#3B2620" stroke-width="3" filter="url(#pen)"><circle cx="701.8" cy="328.6" r="3.2" fill="#3B2620"/><circle cx="946.2" cy="328.6" r="3.2" fill="#3B2620"/></g>
+   <text class="ring" font-size="56" letter-spacing=".6" text-anchor="middle" mask="url(#ml)"><textPath href="#ringT" startOffset="50%">and the whole sangeet,</textPath></text>
+   <text class="ring" font-size="56" letter-spacing=".6" text-anchor="middle" mask="url(#ml)"><textPath href="#ringB" startOffset="50%">for the cousin.</textPath></text>
+   <g mask="url(#ml)"><circle cx="701.8" cy="328.6" r="3.2" fill="#3B2620"/><circle cx="946.2" cy="328.6" r="3.2" fill="#3B2620"/></g>
+   <text class="ring" font-size="56" letter-spacing=".6" text-anchor="middle" mask="url(#mr)" filter="url(#far)"><textPath href="#ringT" startOffset="50%">and the whole sangeet,</textPath></text>
+   <text class="ring" font-size="56" letter-spacing=".6" text-anchor="middle" mask="url(#mr)" filter="url(#far)"><textPath href="#ringB" startOffset="50%">for the cousin.</textPath></text>
+   <g mask="url(#mr)" filter="url(#far)"><circle cx="701.8" cy="328.6" r="3.2" fill="#3B2620"/><circle cx="946.2" cy="328.6" r="3.2" fill="#3B2620"/></g>
+  </g>
+ </svg>
+ <div class="med" style="left:824px;top:271px"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira"><div class="pr"><span class="r">₹</span>1,049</div></div>
+ <svg class="overlay" viewBox="0 0 1080 1350">
+  <g fill="none" stroke="#1A1614">
+   <g stroke-width="1.5"><line x1="56" y1="515" x2="56" y2="882"/><line x1="49" y1="515" x2="63" y2="515"/><line x1="49" y1="882" x2="63" y2="882"/></g>
+   <g stroke-width="1" stroke-dasharray="3 5" stroke-opacity=".75"><line x1="67" y1="515" x2="168" y2="515"/><line x1="67" y1="882" x2="232" y2="882"/><line x1="56" y1="889" x2="56" y2="1000"/></g>
+  </g>
+ </svg>
+ <p class="lab" style="left:72px;top:1008px">Hoops 25 mm across ·<br>Dancers not included</p>
+ <div class="ftr" style="top:1100px">
+  <div class="cols">
+   <div class="l"><div class="nm">Woven Gold Hoops.</div><div class="fx">18k gold tone, waterproof</div></div>
+   <div class="box"><div class="b3">Buy 3 · 20% off · Code BUY3</div><div class="b2">Buy 2 · 10% off</div></div>
+  </div>
+  <div class="r3"><span class="trust">Free insured shipping · Cash on delivery</span></div>
+ </div>
+</body></html>
