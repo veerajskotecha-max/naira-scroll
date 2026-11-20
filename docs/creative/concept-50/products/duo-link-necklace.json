@@ -57,5 +57,10 @@
     "edition-two-listings/build/products.json (N14), kit/listing.json, url_map.json, export_map.json, ref_ids.json",
     "finished-ads/e2 (E2_duo_a1 'Both, obviously.', Rs 1,799, 45 cm)",
     "performance/COLOUR50.md (Duo Link Bracelet: 'Gur ya cheeni? Dono.')"
-  ]
+  ],
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/duo-link-necklace/02_scale_crop.jpg",
+    "mediaId": "161af9d8-61b1-494b-a42b-59e31434baec",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn at the base of the neck, resting on the collarbones like a collar, at true size (41 cm chain plus a 5 cm extender; each oval link about 20 x 7 mm, about as long as a Rs 1 coin is wide and about as wide as a pencil, with about 8-9 links across the front of the neck): match that scale exactly; copy only the scale, never a face.\""
+  }
 }
