@@ -1,0 +1,96 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!--
+k06-4 V2 Story (draft)
+-->
+<style>
+ body { background: #0E0B0A; }
+ svg.fx { position: absolute; pointer-events: none; overflow: visible; }
+ .scrim { position: absolute; pointer-events: none; }
+ /* the split: two copies of every crossing line, clipped at the photo's brass strip */
+ .side { position: absolute; inset: 0; pointer-events: none; }
+ .side.L { --hc: #F4F0E8; --bc: #E4C889; --kc: rgba(244,240,232,.88); clip-path: inset(0 538px 0 0); }
+ .side.R { --hc: #1A1614; --bc: #1A1614; --kc: rgba(26,22,20,.86); clip-path: inset(0 0 0 542px); }
+ .side p { position: absolute; margin: 0; white-space: nowrap; }
+ .kick { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .14em; text-transform: uppercase; color: var(--kc); }
+ .side .h1 { color: var(--hc); letter-spacing: .015em; }
+ .side .beat { color: var(--bc); }
+ .q { position: absolute; margin: 0; font-family: var(--serif); font-weight: 600; line-height: 1; color: #D06A44; }
+ .strip { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
+ .strip .t { position: absolute; margin: 0; white-space: nowrap; color: var(--ink); }
+ .hd { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .1em; text-transform: uppercase; color: rgba(26,22,20,.74); line-height: 34px; }
+ .en { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px; line-height: 34px; }
+ .wq { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 46px; line-height: 40px; color: #9A4024; letter-spacing: .02em; }
+ .tr { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; line-height: 34px; color: rgba(26,22,20,.80); }
+ .tr i { font-style: normal; color: #9A4024; }
+ .pg { position: absolute; text-align: right; color: var(--ink); }
+ .pg .wm { display: block; width: auto; margin-left: auto; }
+ .pg .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; line-height: 31px; white-space: nowrap; }
+ .pg .price { font-family: var(--serif); font-weight: 500; line-height: 1; white-space: nowrap; font-feature-settings: "lnum" 1; }
+ .ob { position: relative; display: inline-block; border: 2px solid var(--ink); padding: 20px 18px 10px; text-align: center;
+       font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .08em; text-transform: uppercase; line-height: 32px; white-space: nowrap; color: var(--ink); }
+ .ob .lg { position: absolute; left: 50%; top: -17px; transform: translateX(-50%); background: #EFE9DE; padding: 0 10px 0 13px; letter-spacing: .26em; line-height: 32px; }
+ .ob .sep { display: block; position: relative; height: 18px; }
+ .ob .sep:before { content: ""; position: absolute; left: 10px; right: 10px; top: 8.5px; height: 1px; background: rgba(26,22,20,.35); }
+ .ob .sep:after { content: ""; position: absolute; left: 50%; top: 4px; width: 9px; height: 9px; margin-left: -4.5px; background: var(--terracotta);
+                  transform: rotate(45deg); box-shadow: 0 0 0 5px #EFE9DE; }
+ .ob.one { padding: 6px 16px 5px; line-height: 30px; }
+ .ob.one .sep { display: inline-block; width: 9px; height: 9px; margin: 0 16px 3px; background: var(--terracotta); transform: rotate(45deg); vertical-align: middle; }
+ .ob.one .sep:before, .ob.one .sep:after { display: none; }
+ .stamp { mix-blend-mode: multiply; opacity: .92; }
+ .cut { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+ .sname { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; line-height: 31px; }
+ .sprice { font-family: var(--serif); font-weight: 500; font-size: 66px; line-height: 1; font-feature-settings: "lnum" 1; }
+ .aside { position: absolute; margin: 0; font-family: var(--serif); font-style: italic; font-weight: 500; color: var(--ink); white-space: nowrap; }
+ .pic, .cut { object-position: 50% 46%; }</style></head>
+<body class="dark story">
+<img class="pic" src="pics/k06-4A.png">
+<div class="scrim" style="left:557px;top:250px;width:523px;height:640px;background:linear-gradient(180deg, rgba(244,240,232,.40) 0%, rgba(244,240,232,.30) 55%, rgba(244,240,232,0) 100%)"></div>
+<p class="q" style="left:72px;top:290px;font-size:250px">&#8220;</p>
+<div class="side L"><p class="kick" style="left:172px;top:282px">Shown magnified · 20 mm tall · 7 mm wide</p><p class="h1" style="left:172px;top:332px;font-size:104px;line-height:.96">Bas office<br>ke liye.</p><p class="beat" style="left:172px;top:548px;font-size:32px;line-height:38px">— Bhabhi, Monday the 3rd. 20 mm, a post back. Still at her desk.</p><p class="kick" style="left:172px;top:612px;letter-spacing:.18em">Free insured shipping · cash on delivery</p></div>
+<div class="side R"><p class="kick" style="left:172px;top:282px">Shown magnified · 20 mm tall · 7 mm wide</p><p class="h1" style="left:172px;top:332px;font-size:104px;line-height:.96">Bas office<br>ke liye.</p><p class="beat" style="left:172px;top:548px;font-size:32px;line-height:38px">— Bhabhi, Monday the 3rd. 20 mm, a post back. Still at her desk.</p><p class="kick" style="left:172px;top:612px;letter-spacing:.18em">Free insured shipping · cash on delivery</p></div>
+<svg class="fx" width="1080" height="1920" style="left:0;top:0"><line x1="542" x2="542" y1="0" y2="1172" stroke="#E4C889" stroke-width="2.4" stroke-linecap="butt" opacity=".95"/></svg>
+<div class="strip" style="transform:rotate(-1.5deg);transform-origin:540px 1250px"><svg class="fx" width="1080" height="1920" viewBox="0 0 1080 1920" style="left:0;top:0;overflow:visible">
+ <defs>
+  <clipPath id="kp4"><path d="M-40.0 1169.4 -31.4 1168.0 -21.5 1170.6 -12.9 1169.4 -6.7 1171.6 1.8 1173.1 5.8 1170.7 9.8 1169.6 15.1 1169.6 20.0 1172.0 24.3 1167.1 33.9 1171.1 43.9 1168.8 50.2 1169.2 60.1 1170.1 69.6 1170.5 76.9 1167.9 86.1 1169.3 91.6 1167.1 100.4 1167.0 108.5 1170.7 113.4 1169.3 121.1 1165.7 130.2 1166.3 135.9 1164.3 140.1 1164.6 147.8 1162.9 155.5 1166.1 160.0 1162.7 167.4 1164.2 175.5 1162.6 185.0 1163.6 193.2 1165.9 202.6 1165.3 208.0 1165.5 213.4 1167.4 220.2 1166.8 229.1 1168.9 238.0 1167.9 247.9 1171.6 256.0 1172.8 261.4 1169.9 266.9 1169.9 273.9 1170.7 278.7 1168.9 286.4 1170.7 290.2 1169.7 296.7 1169.2 305.6 1169.6 312.9 1168.1 323.0 1167.4 331.7 1168.5 340.8 1168.5 346.9 1168.8 351.6 1165.5 360.2 1165.3 367.7 1165.4 373.4 1167.4 378.6 1166.2 387.6 1167.3 391.9 1166.4 398.1 1162.1 404.6 1162.9 414.7 1162.7 420.6 1165.8 426.2 1163.2 430.5 1161.8 437.4 1165.4 444.4 1162.5 448.6 1163.5 452.4 1165.7 458.1 1165.1 463.8 1163.8 470.7 1164.5 476.7 1166.9 482.9 1167.8 487.8 1167.0 497.1 1162.6 506.4 1161.9 511.4 1163.3 516.1 1166.0 522.9 1162.4 533.0 1163.7 537.7 1163.6 547.3 1163.9 556.0 1166.2 566.1 1162.2 575.8 1163.7 581.6 1161.9 586.7 1165.0 591.4 1164.0 596.0 1161.7 602.8 1161.2 610.8 1163.5 616.7 1161.4 620.7 1164.5 626.2 1163.6 632.5 1163.8 638.6 1165.0 646.2 1165.7 653.8 1165.4 660.9 1162.2 668.8 1166.4 677.3 1165.8 687.0 1164.3 697.0 1164.0 702.7 1166.9 710.1 1165.8 719.2 1165.9 727.9 1163.4 736.5 1161.8 745.5 1162.0 751.4 1163.6 757.9 1162.0 765.3 1163.2 774.3 1166.8 782.7 1169.9 789.1 1164.7 795.3 1169.7 802.9 1168.4 807.0 1163.8 816.0 1165.7 825.2 1165.9 832.1 1167.8 836.0 1170.9 845.8 1168.0 850.4 1169.6 855.6 1169.0 865.3 1166.9 874.6 1169.1 879.0 1166.8 886.8 1171.9 895.2 1170.2 901.0 1168.4 908.3 1169.7 912.2 1166.9 918.4 1166.1 925.1 1170.1 929.9 1165.7 938.3 1168.6 946.5 1168.7 953.7 1166.9 960.8 1165.6 967.4 1165.8 976.0 1165.0 985.6 1165.1 994.2 1161.6 1004.3 1164.0 1011.9 1165.5 1019.2 1165.7 1025.3 1162.3 1034.8 1161.7 1043.6 1164.4 1050.6 1165.9 1058.1 1162.1 1066.8 1165.6 1071.7 1165.6 1077.0 1162.7 1084.1 1168.4 1092.3 1164.5 1100.7 1166.3 1105.5 1163.9 1109.9 1163.9 1116.6 1162.0 1120.0 1163.5 L1120.0 1355.5 1116.6 1353.0 1111.4 1354.2 1104.1 1356.7 1094.2 1357.5 1088.2 1352.3 1079.5 1357.1 1072.0 1356.8 1066.8 1354.5 1060.4 1352.5 1052.2 1352.8 1044.9 1354.3 1039.3 1353.7 1031.5 1356.6 1023.6 1354.5 1016.8 1357.8 1009.5 1357.3 1001.1 1356.1 991.2 1354.9 983.2 1354.6 974.0 1351.9 966.9 1356.8 960.3 1353.3 951.8 1352.0 946.4 1354.1 941.3 1354.3 937.0 1355.7 931.6 1351.4 926.3 1355.7 917.3 1353.2 910.2 1351.5 901.4 1356.7 896.2 1354.4 888.2 1355.2 882.5 1352.4 876.8 1355.4 868.7 1356.0 864.0 1352.9 857.6 1353.2 849.2 1356.6 843.3 1356.1 837.1 1357.4 828.8 1356.3 824.9 1356.0 817.4 1355.0 809.7 1354.6 803.2 1352.9 793.2 1353.9 788.7 1356.5 778.6 1353.6 773.0 1356.2 767.1 1351.2 761.8 1355.6 755.1 1356.3 745.8 1357.3 737.0 1355.3 727.7 1357.9 721.8 1356.4 712.4 1358.1 703.1 1357.8 695.3 1356.0 686.5 1353.7 681.4 1358.6 672.5 1358.0 667.9 1354.7 658.7 1356.5 649.3 1352.9 642.8 1356.8 637.3 1357.2 633.4 1355.0 629.0 1358.2 622.1 1354.1 616.9 1356.0 611.4 1354.9 606.8 1353.8 598.8 1353.4 594.9 1354.4 587.2 1353.3 582.3 1350.6 572.9 1352.5 567.7 1348.7 557.6 1349.3 549.0 1349.7 540.9 1350.7 532.5 1350.5 525.4 1351.2 517.6 1351.5 508.2 1349.7 500.1 1352.9 495.7 1355.7 486.5 1354.3 482.3 1355.3 474.8 1356.4 470.0 1355.6 459.9 1356.7 453.1 1356.0 443.1 1354.6 436.7 1355.0 431.8 1358.3 421.9 1357.2 417.7 1354.3 411.0 1355.3 405.4 1353.3 400.4 1352.6 394.4 1352.4 384.3 1354.9 377.6 1353.0 373.1 1352.0 364.3 1352.6 354.6 1350.6 346.5 1351.9 337.2 1356.6 329.4 1353.0 324.1 1356.5 318.8 1354.5 312.2 1357.3 306.4 1354.9 299.2 1354.8 289.8 1355.3 283.0 1354.6 274.3 1354.2 269.9 1358.8 265.7 1355.1 256.3 1357.4 250.5 1353.9 241.7 1356.7 236.9 1357.1 231.2 1358.1 226.2 1355.1 216.8 1358.1 210.2 1353.8 204.7 1355.7 196.3 1352.4 186.3 1354.1 180.1 1350.3 171.2 1353.4 167.1 1351.7 157.0 1352.4 147.4 1354.6 140.1 1353.5 133.3 1357.6 125.3 1354.8 115.6 1353.2 109.7 1352.9 101.0 1357.9 93.6 1356.3 87.4 1352.5 82.4 1354.1 72.7 1351.9 66.5 1353.3 60.9 1351.5 56.6 1353.2 52.4 1356.2 43.1 1355.5 35.8 1353.3 28.6 1353.8 20.9 1353.6 16.5 1352.0 11.7 1350.8 2.7 1348.5 -4.8 1348.7 -12.8 1348.5 -19.8 1349.9 -26.3 1350.6 -34.4 1352.8 -40.0 1349.9 Z"/></clipPath>
+  <filter id="kn4" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="15"/>
+   <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .25  0 0 0 .19 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+  <linearGradient id="kg4" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#2A1A12" stop-opacity="0"/>
+   <stop offset=".46" stop-color="#2A1A12" stop-opacity="0"/><stop offset=".5" stop-color="#2A1A12" stop-opacity=".10"/>
+   <stop offset=".54" stop-color="#2A1A12" stop-opacity="0"/><stop offset="1" stop-color="#2A1A12" stop-opacity="0"/></linearGradient>
+  <linearGradient id="kv4" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2A1A12" stop-opacity=".08"/><stop offset=".25" stop-color="#2A1A12" stop-opacity="0"/>
+   <stop offset="1" stop-color="#2A1A12" stop-opacity=".14"/></linearGradient>
+ </defs>
+ <path d="M-40.0 1169.4 -31.4 1168.0 -21.5 1170.6 -12.9 1169.4 -6.7 1171.6 1.8 1173.1 5.8 1170.7 9.8 1169.6 15.1 1169.6 20.0 1172.0 24.3 1167.1 33.9 1171.1 43.9 1168.8 50.2 1169.2 60.1 1170.1 69.6 1170.5 76.9 1167.9 86.1 1169.3 91.6 1167.1 100.4 1167.0 108.5 1170.7 113.4 1169.3 121.1 1165.7 130.2 1166.3 135.9 1164.3 140.1 1164.6 147.8 1162.9 155.5 1166.1 160.0 1162.7 167.4 1164.2 175.5 1162.6 185.0 1163.6 193.2 1165.9 202.6 1165.3 208.0 1165.5 213.4 1167.4 220.2 1166.8 229.1 1168.9 238.0 1167.9 247.9 1171.6 256.0 1172.8 261.4 1169.9 266.9 1169.9 273.9 1170.7 278.7 1168.9 286.4 1170.7 290.2 1169.7 296.7 1169.2 305.6 1169.6 312.9 1168.1 323.0 1167.4 331.7 1168.5 340.8 1168.5 346.9 1168.8 351.6 1165.5 360.2 1165.3 367.7 1165.4 373.4 1167.4 378.6 1166.2 387.6 1167.3 391.9 1166.4 398.1 1162.1 404.6 1162.9 414.7 1162.7 420.6 1165.8 426.2 1163.2 430.5 1161.8 437.4 1165.4 444.4 1162.5 448.6 1163.5 452.4 1165.7 458.1 1165.1 463.8 1163.8 470.7 1164.5 476.7 1166.9 482.9 1167.8 487.8 1167.0 497.1 1162.6 506.4 1161.9 511.4 1163.3 516.1 1166.0 522.9 1162.4 533.0 1163.7 537.7 1163.6 547.3 1163.9 556.0 1166.2 566.1 1162.2 575.8 1163.7 581.6 1161.9 586.7 1165.0 591.4 1164.0 596.0 1161.7 602.8 1161.2 610.8 1163.5 616.7 1161.4 620.7 1164.5 626.2 1163.6 632.5 1163.8 638.6 1165.0 646.2 1165.7 653.8 1165.4 660.9 1162.2 668.8 1166.4 677.3 1165.8 687.0 1164.3 697.0 1164.0 702.7 1166.9 710.1 1165.8 719.2 1165.9 727.9 1163.4 736.5 1161.8 745.5 1162.0 751.4 1163.6 757.9 1162.0 765.3 1163.2 774.3 1166.8 782.7 1169.9 789.1 1164.7 795.3 1169.7 802.9 1168.4 807.0 1163.8 816.0 1165.7 825.2 1165.9 832.1 1167.8 836.0 1170.9 845.8 1168.0 850.4 1169.6 855.6 1169.0 865.3 1166.9 874.6 1169.1 879.0 1166.8 886.8 1171.9 895.2 1170.2 901.0 1168.4 908.3 1169.7 912.2 1166.9 918.4 1166.1 925.1 1170.1 929.9 1165.7 938.3 1168.6 946.5 1168.7 953.7 1166.9 960.8 1165.6 967.4 1165.8 976.0 1165.0 985.6 1165.1 994.2 1161.6 1004.3 1164.0 1011.9 1165.5 1019.2 1165.7 1025.3 1162.3 1034.8 1161.7 1043.6 1164.4 1050.6 1165.9 1058.1 1162.1 1066.8 1165.6 1071.7 1165.6 1077.0 1162.7 1084.1 1168.4 1092.3 1164.5 1100.7 1166.3 1105.5 1163.9 1109.9 1163.9 1116.6 1162.0 1120.0 1163.5 L1120.0 1355.5 1116.6 1353.0 1111.4 1354.2 1104.1 1356.7 1094.2 1357.5 1088.2 1352.3 1079.5 1357.1 1072.0 1356.8 1066.8 1354.5 1060.4 1352.5 1052.2 1352.8 1044.9 1354.3 1039.3 1353.7 1031.5 1356.6 1023.6 1354.5 1016.8 1357.8 1009.5 1357.3 1001.1 1356.1 991.2 1354.9 983.2 1354.6 974.0 1351.9 966.9 1356.8 960.3 1353.3 951.8 1352.0 946.4 1354.1 941.3 1354.3 937.0 1355.7 931.6 1351.4 926.3 1355.7 917.3 1353.2 910.2 1351.5 901.4 1356.7 896.2 1354.4 888.2 1355.2 882.5 1352.4 876.8 1355.4 868.7 1356.0 864.0 1352.9 857.6 1353.2 849.2 1356.6 843.3 1356.1 837.1 1357.4 828.8 1356.3 824.9 1356.0 817.4 1355.0 809.7 1354.6 803.2 1352.9 793.2 1353.9 788.7 1356.5 778.6 1353.6 773.0 1356.2 767.1 1351.2 761.8 1355.6 755.1 1356.3 745.8 1357.3 737.0 1355.3 727.7 1357.9 721.8 1356.4 712.4 1358.1 703.1 1357.8 695.3 1356.0 686.5 1353.7 681.4 1358.6 672.5 1358.0 667.9 1354.7 658.7 1356.5 649.3 1352.9 642.8 1356.8 637.3 1357.2 633.4 1355.0 629.0 1358.2 622.1 1354.1 616.9 1356.0 611.4 1354.9 606.8 1353.8 598.8 1353.4 594.9 1354.4 587.2 1353.3 582.3 1350.6 572.9 1352.5 567.7 1348.7 557.6 1349.3 549.0 1349.7 540.9 1350.7 532.5 1350.5 525.4 1351.2 517.6 1351.5 508.2 1349.7 500.1 1352.9 495.7 1355.7 486.5 1354.3 482.3 1355.3 474.8 1356.4 470.0 1355.6 459.9 1356.7 453.1 1356.0 443.1 1354.6 436.7 1355.0 431.8 1358.3 421.9 1357.2 417.7 1354.3 411.0 1355.3 405.4 1353.3 400.4 1352.6 394.4 1352.4 384.3 1354.9 377.6 1353.0 373.1 1352.0 364.3 1352.6 354.6 1350.6 346.5 1351.9 337.2 1356.6 329.4 1353.0 324.1 1356.5 318.8 1354.5 312.2 1357.3 306.4 1354.9 299.2 1354.8 289.8 1355.3 283.0 1354.6 274.3 1354.2 269.9 1358.8 265.7 1355.1 256.3 1357.4 250.5 1353.9 241.7 1356.7 236.9 1357.1 231.2 1358.1 226.2 1355.1 216.8 1358.1 210.2 1353.8 204.7 1355.7 196.3 1352.4 186.3 1354.1 180.1 1350.3 171.2 1353.4 167.1 1351.7 157.0 1352.4 147.4 1354.6 140.1 1353.5 133.3 1357.6 125.3 1354.8 115.6 1353.2 109.7 1352.9 101.0 1357.9 93.6 1356.3 87.4 1352.5 82.4 1354.1 72.7 1351.9 66.5 1353.3 60.9 1351.5 56.6 1353.2 52.4 1356.2 43.1 1355.5 35.8 1353.3 28.6 1353.8 20.9 1353.6 16.5 1352.0 11.7 1350.8 2.7 1348.5 -4.8 1348.7 -12.8 1348.5 -19.8 1349.9 -26.3 1350.6 -34.4 1352.8 -40.0 1349.9 Z" fill="#000" opacity=".62" transform="translate(7 9)"/>
+ <g clip-path="url(#kp4)">
+  <rect x="-60" y="1148" width="1200" height="224" fill="#EFE9DE"/>
+  <rect x="-60" y="1148" width="1200" height="224" fill="#000" filter="url(#kn4)"/>
+  <g stroke="#9EC3D6" stroke-opacity=".5" stroke-width="1.5"><line x1="-40" x2="1120" y1="1214" y2="1214"/><line x1="-40" x2="1120" y1="1256" y2="1256"/><line x1="-40" x2="1120" y1="1298" y2="1298"/><line x1="-40" x2="1120" y1="1340" y2="1340"/></g>
+  
+  <rect x="-60" y="1148" width="1200" height="224" fill="url(#kv4)"/>
+ </g>
+</svg>
+<img src="../../../ads-500/kit/logo_ink.png" style="position:absolute;left:72px;top:1186px;height:28px">
+<p class="t sname" style="left:226px;top:1181px">Monochrome Enamel Hoops</p>
+<div class="ob one" style="position:absolute;left:72px;top:1214px">BUY2 · 10% off<span class="sep"></span>BUY3 · 20% off</div>
+<p class="t sprice" style="right:72px;top:1180px">₹999</p>
+<svg class="fx stamp" width="208" height="208" viewBox="620 1108 208 208" style="left:620px;top:1108px">
+ <defs>
+  <filter id="sd4" x="-10%" y="-10%" width="120%" height="120%">
+   <feTurbulence type="fractalNoise" baseFrequency=".05" numOctaves="2" seed="9" result="w"/>
+   <feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+   <feTurbulence type="fractalNoise" baseFrequency=".6" numOctaves="2" seed="12" result="n"/>
+   <feColorMatrix in="n" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 1.62" result="m"/>
+   <feComposite in="d" in2="m" operator="in"/></filter>
+  <path id="st4" d="M660.0 1212.0 A64 64 0 1 1 788.0 1212.0 A64 64 0 1 1 660.0 1212.0"/>
+ </defs>
+ <g transform="rotate(-8 724 1212)" filter="url(#sd4)" fill="#93391F" stroke="#93391F">
+  <circle cx="724" cy="1212" r="86" fill="none" stroke-width="4.5"/>
+  <circle cx="724" cy="1212" r="80" fill="none" stroke-width="1.4"/>
+  <circle cx="724" cy="1212" r="57" fill="none" stroke-width="1.6"/>
+  <text stroke="none" font-family="Jost" font-weight="500" font-size="26" letter-spacing="1.1"><textPath href="#st4" startOffset="0" textLength="396.1" lengthAdjust="spacing">NAIRA PETITE · DIDI KA KHATA · </textPath></text>
+  <line x1="679" x2="769" y1="1188" y2="1188" stroke-width="1.4"/>
+  <line x1="679" x2="769" y1="1231" y2="1231" stroke-width="1.4"/>
+  <text x="724" y="1223" stroke="none" text-anchor="middle" font-family="Velista" font-size="28" letter-spacing="1.5" style="font-feature-settings:'liga' 0,'calt' 0">PENDING</text>
+ </g>
+</svg></div>
+</body></html>

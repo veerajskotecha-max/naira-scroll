@@ -1,0 +1,81 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!--
+draft
+-->
+<style>
+
+ body { background: #120C0A; }
+ .layer { position: absolute; pointer-events: none; }
+ /* THE LOG: seven-segment inverter readout (SVG) + Jost line */
+ .log { position: absolute; display: flex; align-items: flex-end; gap: 18px; white-space: nowrap; }
+ .log .ln { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 1; letter-spacing: .16em; text-transform: uppercase;
+            color: rgba(244,240,232,.74); padding-bottom: 1px; }
+ .log .ln b { font-weight: 500; color: rgba(244,240,232,.95); }
+ .log .ln i { font-style: normal; color: #E8A33A; }
+ /* LIT TYPE: Velista bone, lit by the pair through a radial mask (100% within 300 px of the pair, 55% at 900 px) */
+ .h1 { position: absolute; color: var(--bone); white-space: nowrap; line-height: .96; letter-spacing: .02em; text-shadow: 0 0 26px rgba(240,214,190,.22); }
+ .h1 .q { display: inline-block; position: relative; line-height: 1; clip-path: inset(0 0 29.6% 0); }
+ .beat { position: absolute; white-space: nowrap; line-height: 1.1; font-size: 44px;
+         background: linear-gradient(90deg, #B9A0E0 0%, #D9A6DA 30%, #F0AACB 55%, #F2C3A0 78%, #EEDF7E 100%);
+         -webkit-background-clip: text; background-clip: text; color: transparent; padding: 0 4px 6px 0; }
+ /* SIZE TAPE */
+ .tapelab { position: absolute; transform-origin: 50% 50%; }
+ .tapelab .tx { position: relative; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .1em; text-transform: uppercase;
+                color: #1A1614; line-height: 31px; white-space: nowrap; text-align: center; }
+ /* F2 CARD */
+ .foot { position: absolute; left: 0; right: 0; }
+ .wmk { position: absolute; height: 56px; width: auto; }
+ .nm { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; color: var(--bone); line-height: 1; white-space: nowrap; }
+ .pr { position: absolute; font-family: var(--serif); font-weight: 500; color: var(--bone); line-height: 1; white-space: nowrap; font-feature-settings: "lnum" 1; }
+ .ofr { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; color: var(--bone);
+        border: 2px solid rgba(244,240,232,.92); padding: 13px 24px 12px; line-height: 1.15; white-space: nowrap; }
+ .ofr .sep { display: inline-block; width: 10px; height: 10px; background: #E8A33A; transform: rotate(45deg); vertical-align: middle; margin: -4px 18px 0 16px; }
+ .trust { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase;
+          color: rgba(244,240,232,.86); line-height: 1; white-space: nowrap; }
+ .hair { position: absolute; height: 1px; background: rgba(244,240,232,.28); }
+ /* SWITCHBOARD (the spec device): ivory plate, piano rockers, saffron neon, masking-tape labels */
+ .plate { position: absolute; border-radius: 9px; background: radial-gradient(120% 140% at 18% 0%, #E6DFD0 0%, #D2C9B6 48%, #A99F8B 100%);
+          box-shadow: 0 0 0 1px #3B3430, 0 14px 30px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.7), inset 0 -2px 3px rgba(80,66,50,.18); }
+ .plate .unit { position: absolute; }
+ .plate .lab { position: absolute; transform-origin: 50% 50%; }
+ .plate .lab .tx { position: relative; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .1em; text-transform: uppercase;
+                   color: #1A1614; line-height: 36px; white-space: nowrap; padding: 0 14px; }
+ .plate .rk { position: absolute; }
+ .plate .nn { position: absolute; }
+ .plate .sw { position: absolute; }
+
+ .pic { object-position: 50% 22%; }
+ .scrim { top: 0; height: 1350px; background: linear-gradient(180deg, rgba(18,12,10,.35) 0px, rgba(18,12,10,0) 130px, rgba(18,12,10,0) 1018px,
+          rgba(26,22,20,.66) 1060px, rgba(26,22,20,.92) 1110px, rgba(26,22,20,.95) 1350px); }
+
+ .label { position: absolute; transform-origin: 50% 50%; box-shadow: 0 22px 48px rgba(0,0,0,.62), 0 3px 8px rgba(0,0,0,.4); }
+ .label .lk { position: absolute; left: 0; right: 0; text-align: center; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .32em;
+              text-transform: uppercase; color: rgba(244,240,232,.9); line-height: 1; white-space: nowrap; padding-left: .32em; }
+ .label .lk i { font-style: normal; color: #E8A33A; letter-spacing: 0; padding: 0 .5em; }
+ .label .h1 { position: absolute; left: 0; right: 0; text-align: center; color: var(--bone); line-height: .96; }
+ .label .h1 .qw { display: inline-block; position: relative; line-height: 1; }
+ .label .h1 .q { display: inline-block; line-height: 1; clip-path: inset(0 0 29.6% 0); }
+ .label .emb { position: absolute; }
+ .label .rule { position: absolute; height: 0; border-top: 1.5px solid rgba(244,240,232,.55); }
+ .label .rule::after { content: ""; position: absolute; left: 50%; top: -6px; width: 10px; height: 10px; margin-left: -5px; background: #E8A33A; transform: rotate(45deg); }
+ .label .lk.lc { color: #F0B04A; letter-spacing: .14em; padding-left: .14em; }
+ .label .lk.lc i { color: #F0B04A; padding: 0 .55em 0 0; }
+ .stk { position: absolute; border-radius: 50%; background: radial-gradient(circle at 38% 30%, #FBF8F1 0%, #EFE8D9 60%, #D9CFBC 100%);
+        box-shadow: 0 10px 22px rgba(0,0,0,.55), inset 0 0 0 7px rgba(255,255,255,.0), inset 0 0 0 8px rgba(26,22,20,.55), inset 0 0 0 9px rgba(26,22,20,0);
+        display: flex; flex-direction: column; align-items: center; justify-content: center; }
+ .stk .sk1 { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; padding-left: .2em; text-transform: uppercase; color: #6E1F23; line-height: 1; }
+ .stk .sk2 { font-family: var(--serif); font-weight: 600; color: #1A1614; line-height: 1; margin-top: 4px; font-feature-settings: "lnum" 1; white-space: nowrap; }
+ .label .lp { position: absolute; font-family: var(--serif); font-weight: 500; color: var(--bone); line-height: 1; white-space: nowrap; font-feature-settings: "lnum" 1; }
+
+</style></head>
+<body class="dark">
+<img class="pic" src="pics/k07-2R.png">
+<div class="scrim"></div>
+<div class="log" style="left:72px;top:84px;opacity:1.0"><svg width="93" height="36" viewBox="-0.7 0 92.6 36" style="overflow:visible;display:block"><defs><filter id="f3sg" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(4.3 0) skewX(-7)"><path d="M41.70 2.50 L44.20 0.00 L50.40 0.00 L52.90 2.50 L50.40 5.00 L44.20 5.00ZM41.70 33.50 L44.20 31.00 L50.40 31.00 L52.90 33.50 L50.40 36.00 L44.20 36.00ZM40.30 19.40 L42.80 21.90 L42.80 29.60 L40.30 32.10 L37.80 29.60 L37.80 21.90ZM80.30 19.40 L82.80 21.90 L82.80 29.60 L80.30 32.10 L77.80 29.60 L77.80 21.90ZM66.30 3.90 L68.80 6.40 L68.80 14.10 L66.30 16.60 L63.80 14.10 L63.80 6.40Z" fill="#E8A33A" opacity="0.09"/><g filter="url(#f3sg)" fill="#E8A33A" opacity="0.92"><path d="M3.90 2.50 L6.40 0.00 L12.60 0.00 L15.10 2.50 L12.60 5.00 L6.40 5.00ZM16.50 3.90 L19.00 6.40 L19.00 14.10 L16.50 16.60 L14.00 14.10 L14.00 6.40ZM16.50 19.40 L19.00 21.90 L19.00 29.60 L16.50 32.10 L14.00 29.60 L14.00 21.90ZM3.90 33.50 L6.40 31.00 L12.60 31.00 L15.10 33.50 L12.60 36.00 L6.40 36.00ZM2.50 19.40 L5.00 21.90 L5.00 29.60 L2.50 32.10 L0.00 29.60 L0.00 21.90ZM2.50 3.90 L5.00 6.40 L5.00 14.10 L2.50 16.60 L0.00 14.10 L0.00 6.40ZM3.90 18.00 L6.40 15.50 L12.60 15.50 L15.10 18.00 L12.60 20.50 L6.40 20.50ZM54.30 3.90 L56.80 6.40 L56.80 14.10 L54.30 16.60 L51.80 14.10 L51.80 6.40ZM54.30 19.40 L56.80 21.90 L56.80 29.60 L54.30 32.10 L51.80 29.60 L51.80 21.90ZM40.30 3.90 L42.80 6.40 L42.80 14.10 L40.30 16.60 L37.80 14.10 L37.80 6.40ZM41.70 18.00 L44.20 15.50 L50.40 15.50 L52.90 18.00 L50.40 20.50 L44.20 20.50ZM67.70 2.50 L70.20 0.00 L76.40 0.00 L78.90 2.50 L76.40 5.00 L70.20 5.00ZM80.30 3.90 L82.80 6.40 L82.80 14.10 L80.30 16.60 L77.80 14.10 L77.80 6.40ZM67.70 33.50 L70.20 31.00 L76.40 31.00 L78.90 33.50 L76.40 36.00 L70.20 36.00ZM66.30 19.40 L68.80 21.90 L68.80 29.60 L66.30 32.10 L63.80 29.60 L63.80 21.90ZM67.70 18.00 L70.20 15.50 L76.40 15.50 L78.90 18.00 L76.40 20.50 L70.20 20.50Z"/><rect x="28.00" y="8.30" width="5" height="5"/><rect x="28.00" y="23.42" width="5" height="5"/></g></g></svg><span class="ln"><b>PM</b> <i>·</i> BIJLI GAYI <i>·</i> ROSHNI: <b>MAACHIS</b></span></div>
+<div class="label" style="left:72px;top:140px;width:936px;height:364px;transform:rotate(1.2deg)"><svg width="936" height="364" viewBox="0 0 936 364" style="position:absolute;left:0;top:0;overflow:visible"><defs><radialGradient id="f3Lg" cx=".5" cy=".42" r=".75"><stop offset="0" stop-color="#7A2620"/><stop offset="1" stop-color="#561713"/></radialGradient><filter id="f3Ln" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" seed="4"/><feColorMatrix values="0 0 0 0 .1  0 0 0 0 .05  0 0 0 0 .03  0 0 0 .16 0"/><feComposite in2="SourceGraphic" operator="in"/></filter><filter id="f3Lf" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".012 .03" numOctaves="2" seed="9"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .75  0 0 0 .07 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs><rect x="0" y="0" width="936" height="364" fill="url(#f3Lg)"/><rect x="0" y="0" width="936" height="364" fill="#000" filter="url(#f3Ln)"/><rect x="0" y="0" width="936" height="364" fill="#fff" filter="url(#f3Lf)"/><rect x="12" y="12" width="912" height="340" fill="none" stroke="#F4F0E8" stroke-opacity=".88" stroke-width="3"/><rect x="21" y="21" width="894" height="322" fill="none" stroke="#E8A33A" stroke-opacity=".9" stroke-width="1.2"/><rect x="15" y="15" width="12" height="12" fill="#E8A33A" transform="rotate(45 21 21)"/><rect x="909" y="15" width="12" height="12" fill="#E8A33A" transform="rotate(45 915 21)"/><rect x="15" y="337" width="12" height="12" fill="#E8A33A" transform="rotate(45 21 343)"/><rect x="909" y="337" width="12" height="12" fill="#E8A33A" transform="rotate(45 915 343)"/></svg><div class="lk lc" style="top:46px">Exact contents<i>:</i>1 pair · 10 stones · 12 pearls</div><p class="h1" style="top:84px;font-size:116px">Maachis<br>kahan hai<span class="qw"><span class="q">?</span><span class="emb" style="left:calc(.191em - 48.0px);top:calc(.745em - 48.0px);width:96px;height:96px"><svg width="96.0" height="96.0" viewBox="0 0 96.0 96.0" style="position:absolute;left:0;top:0;overflow:visible"><defs><radialGradient id="f3eglow"><stop offset="0" stop-color="#E8A33A" stop-opacity=".75"/><stop offset=".35" stop-color="#E8A33A" stop-opacity=".32"/><stop offset=".7" stop-color="#B5502F" stop-opacity=".10"/><stop offset="1" stop-color="#B5502F" stop-opacity="0"/></radialGradient><radialGradient id="f3ecore" cx=".42" cy=".46" r=".62"><stop offset="0" stop-color="#FFE3A6"/><stop offset=".28" stop-color="#E8A33A"/><stop offset=".62" stop-color="#B5502F"/><stop offset="1" stop-color="#3A1C14"/></radialGradient><radialGradient id="f3echar" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#5A4038"/><stop offset=".6" stop-color="#2A1C18"/><stop offset="1" stop-color="#140D0B"/></radialGradient></defs><circle cx="48.0" cy="48.0" r="48.0" fill="url(#f3eglow)"/><ellipse cx="48.0" cy="48.0" rx="16.8" ry="14.1" fill="url(#f3echar)" transform="rotate(-18 48.0 48.0)"/><ellipse cx="49.2" cy="48.6" rx="10.8" ry="8.1" fill="url(#f3ecore)" transform="rotate(-18 48.0 48.0)"/><path d="M37.2 46.5 q5.4 -4.8 10.8 -1.2" stroke="#FFD48A" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".8"/></svg></span></span></p><div class="lk" style="top:308px">Prism Cluster Studs</div></div>
+<div class="stk" style="left:866px;top:408px;width:156px;height:156px;transform:rotate(-8deg)"><div class="sk1">Price</div><div class="sk2" style="font-size:42px">₹1,299</div></div>
+<div class="tapelab" style="left:616px;top:753px;width:409px;height:82px;transform:rotate(12deg);"><svg width="409" height="82" viewBox="0 0 409 82" style="position:absolute;left:0;top:0;overflow:visible"><defs><linearGradient id="f3tpl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6DBC0"/><stop offset=".55" stop-color="#DCCFAF"/><stop offset="1" stop-color="#C9B994"/></linearGradient><filter id="f3tpn" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9 .08" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .10 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs><path d="M1.3 0.0 L3.0 5.1 L2.0 10.2 L3.3 15.4 L3.4 20.5 L0.4 25.6 L0.1 30.8 L4.6 35.9 L1.4 41.0 L1.3 46.1 L5.5 51.2 L2.6 56.4 L4.6 61.5 L2.6 66.6 L3.5 71.8 L0.8 76.9 L3.5 82.0 L404.6 82.0 L406.8 76.9 L403.9 71.8 L405.1 66.6 L404.2 61.5 L405.0 56.4 L406.4 51.2 L404.2 46.1 L408.8 41.0 L407.3 35.9 L405.7 30.8 L404.8 25.6 L408.6 20.5 L405.3 15.4 L404.9 10.2 L406.1 5.1 L404.2 0.0Z" fill="rgba(0,0,0,.45)" transform="translate(2 4)" style="filter:blur(3px)"/><path d="M1.3 0.0 L3.0 5.1 L2.0 10.2 L3.3 15.4 L3.4 20.5 L0.4 25.6 L0.1 30.8 L4.6 35.9 L1.4 41.0 L1.3 46.1 L5.5 51.2 L2.6 56.4 L4.6 61.5 L2.6 66.6 L3.5 71.8 L0.8 76.9 L3.5 82.0 L404.6 82.0 L406.8 76.9 L403.9 71.8 L405.1 66.6 L404.2 61.5 L405.0 56.4 L406.4 51.2 L404.2 46.1 L408.8 41.0 L407.3 35.9 L405.7 30.8 L404.8 25.6 L408.6 20.5 L405.3 15.4 L404.9 10.2 L406.1 5.1 L404.2 0.0Z" fill="url(#f3tpl)"/><path d="M1.3 0.0 L3.0 5.1 L2.0 10.2 L3.3 15.4 L3.4 20.5 L0.4 25.6 L0.1 30.8 L4.6 35.9 L1.4 41.0 L1.3 46.1 L5.5 51.2 L2.6 56.4 L4.6 61.5 L2.6 66.6 L3.5 71.8 L0.8 76.9 L3.5 82.0 L404.6 82.0 L406.8 76.9 L403.9 71.8 L405.1 66.6 L404.2 61.5 L405.0 56.4 L406.4 51.2 L404.2 46.1 L408.8 41.0 L407.3 35.9 L405.7 30.8 L404.8 25.6 L408.6 20.5 L405.3 15.4 L404.9 10.2 L406.1 5.1 L404.2 0.0Z" fill="#000" filter="url(#f3tpn)"/></svg><div class="tx" style="padding-top:10px">20 MM ARC<br>IN A 52 MM MATCHBOX</div></div>
+<div class="ofr" style="left:72px;top:1112px">Codes BUY2 · 10% off<span class="sep"></span>BUY3 · 20% off</div>
+<img class="wmk" src="../../../ads-500/kit/logo_white.png" style="right:72px;top:1116px;height:50px">
+<div class="trust" style="left:72px;top:1204px">Free insured shipping · Cash on delivery</div>
+</body></html>

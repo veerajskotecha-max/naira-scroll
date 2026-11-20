@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!--
+k06-4 V2 Feed (draft)
+-->
+<style>
+ body { background: #0E0B0A; }
+ svg.fx { position: absolute; pointer-events: none; overflow: visible; }
+ .scrim { position: absolute; pointer-events: none; }
+ /* the split: two copies of every crossing line, clipped at the photo's brass strip */
+ .side { position: absolute; inset: 0; pointer-events: none; }
+ .side.L { --hc: #F4F0E8; --bc: #E4C889; --kc: rgba(244,240,232,.88); clip-path: inset(0 538px 0 0); }
+ .side.R { --hc: #1A1614; --bc: #1A1614; --kc: rgba(26,22,20,.86); clip-path: inset(0 0 0 542px); }
+ .side p { position: absolute; margin: 0; white-space: nowrap; }
+ .kick { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .14em; text-transform: uppercase; color: var(--kc); }
+ .side .h1 { color: var(--hc); letter-spacing: .015em; }
+ .side .beat { color: var(--bc); }
+ .q { position: absolute; margin: 0; font-family: var(--serif); font-weight: 600; line-height: 1; color: #D06A44; }
+ .strip { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
+ .strip .t { position: absolute; margin: 0; white-space: nowrap; color: var(--ink); }
+ .hd { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .1em; text-transform: uppercase; color: rgba(26,22,20,.74); line-height: 34px; }
+ .en { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30px; line-height: 34px; }
+ .wq { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 46px; line-height: 40px; color: #9A4024; letter-spacing: .02em; }
+ .tr { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; line-height: 34px; color: rgba(26,22,20,.80); }
+ .tr i { font-style: normal; color: #9A4024; }
+ .pg { position: absolute; text-align: right; color: var(--ink); }
+ .pg .wm { display: block; width: auto; margin-left: auto; }
+ .pg .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; line-height: 31px; white-space: nowrap; }
+ .pg .price { font-family: var(--serif); font-weight: 500; line-height: 1; white-space: nowrap; font-feature-settings: "lnum" 1; }
+ .ob { position: relative; display: inline-block; border: 2px solid var(--ink); padding: 20px 18px 10px; text-align: center;
+       font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .08em; text-transform: uppercase; line-height: 32px; white-space: nowrap; color: var(--ink); }
+ .ob .lg { position: absolute; left: 50%; top: -17px; transform: translateX(-50%); background: #EFE9DE; padding: 0 10px 0 13px; letter-spacing: .26em; line-height: 32px; }
+ .ob .sep { display: block; position: relative; height: 18px; }
+ .ob .sep:before { content: ""; position: absolute; left: 10px; right: 10px; top: 8.5px; height: 1px; background: rgba(26,22,20,.35); }
+ .ob .sep:after { content: ""; position: absolute; left: 50%; top: 4px; width: 9px; height: 9px; margin-left: -4.5px; background: var(--terracotta);
+                  transform: rotate(45deg); box-shadow: 0 0 0 5px #EFE9DE; }
+ .ob.one { padding: 6px 16px 5px; line-height: 30px; }
+ .ob.one .sep { display: inline-block; width: 9px; height: 9px; margin: 0 16px 3px; background: var(--terracotta); transform: rotate(45deg); vertical-align: middle; }
+ .ob.one .sep:before, .ob.one .sep:after { display: none; }
+ .stamp { mix-blend-mode: multiply; opacity: .92; }
+ .cut { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+ .sname { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; line-height: 31px; }
+ .sprice { font-family: var(--serif); font-weight: 500; font-size: 66px; line-height: 1; font-feature-settings: "lnum" 1; }
+ .aside { position: absolute; margin: 0; font-family: var(--serif); font-style: italic; font-weight: 500; color: var(--ink); white-space: nowrap; }
+ .pic, .cut { object-position: 50% 46%; }</style></head>
+<body class="dark">
+<img class="pic" src="pics/k06-4A.png">
+<div class="scrim" style="left:557px;top:0px;width:523px;height:432px;background:linear-gradient(180deg, rgba(244,240,232,.40) 0%, rgba(244,240,232,.30) 55%, rgba(244,240,232,0) 100%)"></div>
+<p class="q" style="left:72px;top:96px;font-size:250px">&#8220;</p>
+<div class="side L"><p class="kick" style="left:172px;top:86px">Shown magnified · 20 mm tall · 7 mm wide</p><p class="h1" style="left:172px;top:136px;font-size:104px;line-height:.96">Bas office<br>ke liye.</p><p class="beat" style="left:172px;top:352px;font-size:32px;line-height:38px">— Bhabhi, Monday the 3rd. 20 mm, a post back. Still at her desk.</p></div>
+<div class="side R"><p class="kick" style="left:172px;top:86px">Shown magnified · 20 mm tall · 7 mm wide</p><p class="h1" style="left:172px;top:136px;font-size:104px;line-height:.96">Bas office<br>ke liye.</p><p class="beat" style="left:172px;top:352px;font-size:32px;line-height:38px">— Bhabhi, Monday the 3rd. 20 mm, a post back. Still at her desk.</p></div>
+<svg class="fx" width="1080" height="1920" style="left:0;top:0"><line x1="542" x2="542" y1="0" y2="944" stroke="#E4C889" stroke-width="2.4" stroke-linecap="butt" opacity=".95"/></svg>
+<div class="strip" style="transform:rotate(-1.5deg);transform-origin:540px 1120px"><svg class="fx" width="1080" height="1920" viewBox="0 0 1080 1920" style="left:0;top:0;overflow:visible">
+ <defs>
+  <clipPath id="kp3"><path d="M-40.0 940.5 -30.8 943.2 -24.7 942.1 -18.9 941.4 -14.1 941.3 -5.3 939.2 -1.1 941.0 8.0 943.8 15.6 940.9 21.4 941.3 29.1 940.8 35.6 942.2 43.1 942.9 48.7 939.1 58.3 940.6 67.0 942.5 71.5 943.8 78.0 939.3 83.5 939.4 87.8 937.8 95.0 938.2 104.8 939.2 114.3 942.2 122.0 938.6 130.4 939.4 139.1 940.2 145.3 942.7 153.0 939.9 157.2 939.1 167.2 940.4 175.8 940.4 186.0 940.7 196.0 939.7 206.1 936.9 213.7 936.7 222.3 940.4 230.8 940.0 238.0 938.9 244.8 938.8 249.6 941.4 255.3 942.2 262.0 941.6 271.9 940.0 280.5 937.5 285.8 940.8 293.9 941.4 302.7 941.3 308.4 939.6 318.4 939.9 327.1 942.2 336.6 938.3 342.4 939.8 346.5 936.5 355.8 940.7 365.5 940.8 372.1 937.6 378.8 938.0 388.7 940.9 392.8 941.1 400.9 942.1 406.8 939.4 411.8 937.2 420.1 937.9 428.2 940.3 433.6 937.4 442.8 936.1 452.1 936.9 460.4 940.5 469.3 937.4 473.5 938.5 479.6 938.7 489.3 939.2 498.3 939.1 505.2 940.8 511.2 941.1 516.6 941.9 523.3 939.2 527.9 942.4 536.8 943.3 545.0 942.8 549.3 940.4 553.4 939.7 561.8 943.3 566.0 944.0 573.3 941.9 580.8 940.3 586.6 941.6 594.8 945.9 604.0 945.3 611.2 941.2 617.0 943.3 620.9 942.8 627.2 943.9 636.2 941.1 640.1 945.0 649.9 945.7 654.5 943.9 662.6 942.7 670.4 939.2 677.2 943.6 682.2 939.8 688.7 939.0 697.3 941.9 707.4 942.5 716.8 944.3 722.2 945.1 726.8 942.0 734.8 941.6 743.4 939.1 749.9 941.9 754.4 944.6 762.9 940.6 767.1 944.9 772.9 945.9 781.9 944.7 787.8 942.1 796.7 944.6 805.1 940.0 813.2 942.3 822.6 939.2 830.1 941.9 834.0 942.2 843.7 940.0 849.8 940.4 858.6 942.3 863.1 942.5 869.7 944.6 879.5 945.6 885.6 945.8 894.3 942.9 898.3 945.8 905.4 942.9 914.3 941.3 919.7 940.3 925.6 943.0 935.8 943.6 941.9 940.5 947.7 942.5 957.3 941.6 963.1 941.7 969.1 939.0 978.0 941.2 983.8 941.4 989.6 940.3 996.1 940.2 1002.8 938.5 1008.3 942.4 1012.2 941.1 1016.2 939.8 1020.1 942.9 1030.1 943.9 1039.8 942.1 1045.2 942.4 1053.4 939.0 1058.4 941.3 1064.8 943.2 1070.4 942.2 1074.7 942.4 1081.3 943.9 1089.6 943.9 1094.1 945.5 1098.8 944.9 1102.8 943.6 1112.7 943.8 1120.0 943.1 L1120.0 1301.3 1114.9 1302.0 1106.3 1299.6 1096.7 1297.7 1090.7 1301.0 1083.1 1299.4 1079.3 1299.7 1072.6 1303.0 1063.6 1301.0 1058.1 1303.0 1053.8 1299.0 1049.7 1303.3 1041.0 1300.0 1030.9 1303.3 1025.9 1301.4 1017.8 1298.2 1013.3 1299.9 1006.4 1302.6 998.0 1300.7 991.2 1302.1 984.9 1299.8 977.4 1299.2 971.2 1300.9 964.5 1302.0 956.7 1304.9 948.6 1300.8 944.2 1305.5 938.9 1305.6 932.2 1305.2 925.7 1303.0 918.9 1300.7 909.8 1302.4 902.0 1305.5 892.5 1304.5 885.9 1304.0 876.4 1306.2 866.5 1307.2 861.1 1305.4 851.2 1305.1 844.7 1305.2 837.7 1308.5 830.1 1307.7 822.9 1308.2 813.1 1305.2 807.6 1305.7 801.6 1306.5 792.6 1309.1 785.8 1304.6 781.3 1304.1 775.0 1304.3 769.0 1304.8 764.6 1303.7 757.3 1305.6 748.8 1309.1 744.0 1309.6 733.9 1305.6 725.2 1309.5 720.8 1307.1 714.7 1306.7 709.8 1310.9 701.0 1307.2 696.6 1309.2 689.5 1306.3 683.9 1307.3 678.9 1307.4 671.8 1308.6 662.2 1310.5 655.4 1307.9 646.1 1310.6 641.7 1309.1 637.6 1307.1 630.9 1308.9 627.0 1309.6 617.1 1308.5 608.2 1308.4 603.8 1305.0 595.3 1307.4 586.1 1307.0 581.7 1304.0 575.5 1304.2 571.4 1306.9 561.6 1305.8 556.3 1305.8 547.7 1306.7 541.9 1309.3 537.5 1304.5 532.1 1303.6 527.0 1304.4 518.0 1302.2 509.8 1301.2 501.7 1301.0 492.2 1302.5 482.7 1300.7 473.9 1304.7 464.0 1305.7 455.8 1304.4 446.3 1299.5 440.5 1302.2 431.3 1298.5 426.4 1303.5 420.2 1299.9 414.0 1302.5 403.8 1302.5 397.5 1299.9 390.9 1303.2 382.3 1300.4 377.3 1302.5 370.3 1302.2 363.2 1299.3 354.7 1302.7 349.2 1304.3 342.0 1304.7 334.9 1306.9 325.6 1304.0 319.7 1307.6 311.1 1304.5 302.7 1308.0 293.6 1309.9 289.3 1307.5 284.0 1309.0 278.7 1309.5 272.9 1308.1 263.6 1310.0 254.3 1306.2 244.8 1310.7 238.7 1309.0 234.4 1310.0 229.5 1309.3 221.6 1310.8 217.5 1310.2 207.6 1307.6 199.2 1308.0 194.6 1307.0 188.7 1305.1 183.4 1304.4 178.4 1303.8 173.2 1308.3 163.8 1305.8 157.9 1307.3 149.7 1304.4 139.7 1306.2 131.6 1308.0 126.2 1309.3 119.7 1306.5 111.8 1307.3 103.8 1304.3 94.4 1307.5 90.1 1305.0 82.2 1309.4 73.6 1306.9 66.9 1304.7 60.5 1307.9 54.1 1308.4 48.4 1310.3 43.4 1309.1 37.5 1306.0 29.3 1309.1 21.3 1306.0 12.8 1305.9 3.5 1304.0 -0.7 1306.2 -5.6 1306.3 -10.4 1305.8 -18.4 1306.7 -26.9 1304.4 -35.1 1305.2 -40.0 1302.3 Z"/></clipPath>
+  <filter id="kn3" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="14"/>
+   <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .25  0 0 0 .19 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+  <linearGradient id="kg3" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#2A1A12" stop-opacity="0"/>
+   <stop offset=".46" stop-color="#2A1A12" stop-opacity="0"/><stop offset=".5" stop-color="#2A1A12" stop-opacity=".10"/>
+   <stop offset=".54" stop-color="#2A1A12" stop-opacity="0"/><stop offset="1" stop-color="#2A1A12" stop-opacity="0"/></linearGradient>
+  <linearGradient id="kv3" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2A1A12" stop-opacity=".08"/><stop offset=".25" stop-color="#2A1A12" stop-opacity="0"/>
+   <stop offset="1" stop-color="#2A1A12" stop-opacity=".14"/></linearGradient>
+ </defs>
+ <path d="M-40.0 940.5 -30.8 943.2 -24.7 942.1 -18.9 941.4 -14.1 941.3 -5.3 939.2 -1.1 941.0 8.0 943.8 15.6 940.9 21.4 941.3 29.1 940.8 35.6 942.2 43.1 942.9 48.7 939.1 58.3 940.6 67.0 942.5 71.5 943.8 78.0 939.3 83.5 939.4 87.8 937.8 95.0 938.2 104.8 939.2 114.3 942.2 122.0 938.6 130.4 939.4 139.1 940.2 145.3 942.7 153.0 939.9 157.2 939.1 167.2 940.4 175.8 940.4 186.0 940.7 196.0 939.7 206.1 936.9 213.7 936.7 222.3 940.4 230.8 940.0 238.0 938.9 244.8 938.8 249.6 941.4 255.3 942.2 262.0 941.6 271.9 940.0 280.5 937.5 285.8 940.8 293.9 941.4 302.7 941.3 308.4 939.6 318.4 939.9 327.1 942.2 336.6 938.3 342.4 939.8 346.5 936.5 355.8 940.7 365.5 940.8 372.1 937.6 378.8 938.0 388.7 940.9 392.8 941.1 400.9 942.1 406.8 939.4 411.8 937.2 420.1 937.9 428.2 940.3 433.6 937.4 442.8 936.1 452.1 936.9 460.4 940.5 469.3 937.4 473.5 938.5 479.6 938.7 489.3 939.2 498.3 939.1 505.2 940.8 511.2 941.1 516.6 941.9 523.3 939.2 527.9 942.4 536.8 943.3 545.0 942.8 549.3 940.4 553.4 939.7 561.8 943.3 566.0 944.0 573.3 941.9 580.8 940.3 586.6 941.6 594.8 945.9 604.0 945.3 611.2 941.2 617.0 943.3 620.9 942.8 627.2 943.9 636.2 941.1 640.1 945.0 649.9 945.7 654.5 943.9 662.6 942.7 670.4 939.2 677.2 943.6 682.2 939.8 688.7 939.0 697.3 941.9 707.4 942.5 716.8 944.3 722.2 945.1 726.8 942.0 734.8 941.6 743.4 939.1 749.9 941.9 754.4 944.6 762.9 940.6 767.1 944.9 772.9 945.9 781.9 944.7 787.8 942.1 796.7 944.6 805.1 940.0 813.2 942.3 822.6 939.2 830.1 941.9 834.0 942.2 843.7 940.0 849.8 940.4 858.6 942.3 863.1 942.5 869.7 944.6 879.5 945.6 885.6 945.8 894.3 942.9 898.3 945.8 905.4 942.9 914.3 941.3 919.7 940.3 925.6 943.0 935.8 943.6 941.9 940.5 947.7 942.5 957.3 941.6 963.1 941.7 969.1 939.0 978.0 941.2 983.8 941.4 989.6 940.3 996.1 940.2 1002.8 938.5 1008.3 942.4 1012.2 941.1 1016.2 939.8 1020.1 942.9 1030.1 943.9 1039.8 942.1 1045.2 942.4 1053.4 939.0 1058.4 941.3 1064.8 943.2 1070.4 942.2 1074.7 942.4 1081.3 943.9 1089.6 943.9 1094.1 945.5 1098.8 944.9 1102.8 943.6 1112.7 943.8 1120.0 943.1 L1120.0 1301.3 1114.9 1302.0 1106.3 1299.6 1096.7 1297.7 1090.7 1301.0 1083.1 1299.4 1079.3 1299.7 1072.6 1303.0 1063.6 1301.0 1058.1 1303.0 1053.8 1299.0 1049.7 1303.3 1041.0 1300.0 1030.9 1303.3 1025.9 1301.4 1017.8 1298.2 1013.3 1299.9 1006.4 1302.6 998.0 1300.7 991.2 1302.1 984.9 1299.8 977.4 1299.2 971.2 1300.9 964.5 1302.0 956.7 1304.9 948.6 1300.8 944.2 1305.5 938.9 1305.6 932.2 1305.2 925.7 1303.0 918.9 1300.7 909.8 1302.4 902.0 1305.5 892.5 1304.5 885.9 1304.0 876.4 1306.2 866.5 1307.2 861.1 1305.4 851.2 1305.1 844.7 1305.2 837.7 1308.5 830.1 1307.7 822.9 1308.2 813.1 1305.2 807.6 1305.7 801.6 1306.5 792.6 1309.1 785.8 1304.6 781.3 1304.1 775.0 1304.3 769.0 1304.8 764.6 1303.7 757.3 1305.6 748.8 1309.1 744.0 1309.6 733.9 1305.6 725.2 1309.5 720.8 1307.1 714.7 1306.7 709.8 1310.9 701.0 1307.2 696.6 1309.2 689.5 1306.3 683.9 1307.3 678.9 1307.4 671.8 1308.6 662.2 1310.5 655.4 1307.9 646.1 1310.6 641.7 1309.1 637.6 1307.1 630.9 1308.9 627.0 1309.6 617.1 1308.5 608.2 1308.4 603.8 1305.0 595.3 1307.4 586.1 1307.0 581.7 1304.0 575.5 1304.2 571.4 1306.9 561.6 1305.8 556.3 1305.8 547.7 1306.7 541.9 1309.3 537.5 1304.5 532.1 1303.6 527.0 1304.4 518.0 1302.2 509.8 1301.2 501.7 1301.0 492.2 1302.5 482.7 1300.7 473.9 1304.7 464.0 1305.7 455.8 1304.4 446.3 1299.5 440.5 1302.2 431.3 1298.5 426.4 1303.5 420.2 1299.9 414.0 1302.5 403.8 1302.5 397.5 1299.9 390.9 1303.2 382.3 1300.4 377.3 1302.5 370.3 1302.2 363.2 1299.3 354.7 1302.7 349.2 1304.3 342.0 1304.7 334.9 1306.9 325.6 1304.0 319.7 1307.6 311.1 1304.5 302.7 1308.0 293.6 1309.9 289.3 1307.5 284.0 1309.0 278.7 1309.5 272.9 1308.1 263.6 1310.0 254.3 1306.2 244.8 1310.7 238.7 1309.0 234.4 1310.0 229.5 1309.3 221.6 1310.8 217.5 1310.2 207.6 1307.6 199.2 1308.0 194.6 1307.0 188.7 1305.1 183.4 1304.4 178.4 1303.8 173.2 1308.3 163.8 1305.8 157.9 1307.3 149.7 1304.4 139.7 1306.2 131.6 1308.0 126.2 1309.3 119.7 1306.5 111.8 1307.3 103.8 1304.3 94.4 1307.5 90.1 1305.0 82.2 1309.4 73.6 1306.9 66.9 1304.7 60.5 1307.9 54.1 1308.4 48.4 1310.3 43.4 1309.1 37.5 1306.0 29.3 1309.1 21.3 1306.0 12.8 1305.9 3.5 1304.0 -0.7 1306.2 -5.6 1306.3 -10.4 1305.8 -18.4 1306.7 -26.9 1304.4 -35.1 1305.2 -40.0 1302.3 Z" fill="#000" opacity=".62" transform="translate(7 9)"/>
+ <g clip-path="url(#kp3)">
+  <rect x="-60" y="920" width="1200" height="404" fill="#EFE9DE"/>
+  <rect x="-60" y="920" width="1200" height="404" fill="#000" filter="url(#kn3)"/>
+  <g stroke="#9EC3D6" stroke-opacity=".5" stroke-width="1.5"><line x1="-40" x2="1120" y1="1000" y2="1000"/><line x1="-40" x2="1120" y1="1042" y2="1042"/><line x1="-40" x2="1120" y1="1084" y2="1084"/><line x1="-40" x2="1120" y1="1126" y2="1126"/><line x1="-40" x2="1120" y1="1168" y2="1168"/><line x1="-40" x2="1120" y1="1210" y2="1210"/><line x1="-40" x2="1120" y1="1252" y2="1252"/><line x1="-40" x2="1120" y1="1294" y2="1294"/></g>
+  <line x1="148" x2="148" y1="920" y2="1324" stroke="#B5502F" stroke-width="2"/><line x1="155" x2="155" y1="920" y2="1324" stroke="#B5502F" stroke-width="2"/><rect x="634" y="920" width="140" height="404" fill="url(#kg3)"/>
+  <rect x="-60" y="920" width="1200" height="404" fill="url(#kv3)"/>
+ </g>
+</svg>
+<p class="t hd" style="left:172px;top:963px">Kisne</p>
+<p class="t hd" style="left:296px;top:963px">Kiske saath</p>
+<p class="t hd" style="left:566px;top:963px">Wapas?</p>
+<p class="t en" style="left:172px;top:1006px">Mami</p>
+<p class="t en" style="left:296px;top:1006px">black Kanjeevaram</p>
+<p class="t wq" style="left:570px;top:1001px">?</p>
+<p class="t en" style="left:172px;top:1048px">Chhoti</p>
+<p class="t en" style="left:296px;top:1048px">white chikankari kurta</p>
+<p class="t wq" style="left:570px;top:1043px">??</p>
+<p class="t en" style="left:172px;top:1090px">Bhabhi</p>
+<p class="t en" style="left:296px;top:1090px">Monday office shirt</p>
+<p class="t wq" style="left:570px;top:1085px">???</p>
+<p class="t tr" style="left:172px;top:1174px">Free insured shipping <i>·</i></p>
+<p class="t tr" style="left:172px;top:1216px">cash on delivery</p>
+<svg class="fx" width="1080" height="1920" style="left:0;top:0"><path d="M686.0 976.0 Q713.0 944.0 708.0 912.0" fill="none" stroke="#9A4024" stroke-width="2.6" stroke-linecap="round"/><path d="M715.9 922.3 L708.0 912.0 L703.6 924.2" fill="none" stroke="#9A4024" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="pg" style="right:72px;top:957px"><img class="wm" src="../../../ads-500/kit/logo_ink.png" style="height:32px"><div class="name" style="margin-top:12px">Monochrome<br>Enamel Hoops</div><div class="price" style="font-size:60px;margin-top:6px">₹999</div><div style="margin-top:20px"><div class="ob"><span class="lg">Codes</span>BUY2 · 10% off<span class="sep"></span>BUY3 · 20% off</div></div></div>
+<svg class="fx stamp" width="232" height="232" viewBox="560 1080 232 232" style="left:560px;top:1080px">
+ <defs>
+  <filter id="sd3" x="-10%" y="-10%" width="120%" height="120%">
+   <feTurbulence type="fractalNoise" baseFrequency=".05" numOctaves="2" seed="8" result="w"/>
+   <feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+   <feTurbulence type="fractalNoise" baseFrequency=".6" numOctaves="2" seed="11" result="n"/>
+   <feColorMatrix in="n" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 1.62" result="m"/>
+   <feComposite in="d" in2="m" operator="in"/></filter>
+  <path id="st3" d="M600.0 1196.0 A76 76 0 1 1 752.0 1196.0 A76 76 0 1 1 600.0 1196.0"/>
+ </defs>
+ <g transform="rotate(-8 676 1196)" filter="url(#sd3)" fill="#93391F" stroke="#93391F">
+  <circle cx="676" cy="1196" r="98" fill="none" stroke-width="4.5"/>
+  <circle cx="676" cy="1196" r="92" fill="none" stroke-width="1.4"/>
+  <circle cx="676" cy="1196" r="69" fill="none" stroke-width="1.6"/>
+  <text stroke="none" font-family="Jost" font-weight="500" font-size="26" letter-spacing="1.1"><textPath href="#st3" startOffset="0" textLength="471.5" lengthAdjust="spacing">NAIRA PETITE · DIDI KA KHATA · </textPath></text>
+  <line x1="619" x2="733" y1="1172" y2="1172" stroke-width="1.4"/>
+  <line x1="619" x2="733" y1="1215" y2="1215" stroke-width="1.4"/>
+  <text x="676" y="1207" stroke="none" text-anchor="middle" font-family="Velista" font-size="30" letter-spacing="1.5" style="font-feature-settings:'liga' 0,'calt' 0">PENDING</text>
+ </g>
+</svg></div>
+</body></html>

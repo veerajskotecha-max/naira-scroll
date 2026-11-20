@@ -1,0 +1,685 @@
+{
+ "id": "k02-2",
+ "batch": "k02a",
+ "camp": "k02",
+ "campName": "SHAADI KA VIDEO.",
+ "card": 2,
+ "title": "The Heart Frame",
+ "angle": "OUTCOME",
+ "layer": "TRUST",
+ "handle": "aqua-heart-drops-silver",
+ "product": "Aqua Heart Drops",
+ "price": 1299,
+ "variantShown": "rhodium silver tone (the only variant)",
+ "picture": {
+  "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-2A.png",
+  "job_id": "6e6dd925-fcdc-4cdc-be1f-ff289c88af55",
+  "requestedModel": "nano_banana_pro",
+  "servedModel": "nano_banana_2",
+  "size": "1536x2752",
+  "mediaRefs": [
+   "9d3ae831-f5ef-4cf7-8743-fdbd3b878a83",
+   "08f2e732-04be-4c28-b23b-a0ee1aa10c11"
+  ]
+ },
+ "cropP": 60,
+ "chosenVariant": "V1",
+ "chosenCode": "L9",
+ "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_feed.jpg",
+ "feedHtml": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_feed.html",
+ "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_story.jpg",
+ "storyHtml": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_story.html",
+ "onImage": {
+  "elements": "OSD, wordmark, 2 rim labels, headline, beat, size callout, lower-third card (name and price, offer box, trust line); critics counted 11 text items and asked for fewer",
+  "osd": "● REC / 2026 · YOUR TAPE (terracotta REC dot, bone Jost, hard VCR shadow)",
+  "bug": "NAIRA (logo_white wordmark, top right, the studio bug)",
+  "heartFrame": "HTML heart vignette: plum #4A2540 multiply at 86% outside a feathered heart, 1.5 px gold-light hairline; its point lands under the aqua heart (Feed 706 px wide; Story round the ear and drop)",
+  "rim": [
+   "FIVE BRILLIANTS (left lobe)",
+   "ONE ICY AQUA HEART (right lobe)"
+  ],
+  "headline": {
+   "feed": "THE HEART FRAME. (Velista 80 px, gold-light)",
+   "story": "THE HEART / FRAME. (Velista 96 px, right-aligned)"
+  },
+  "beat": {
+   "feed": "In 1996 only the bride got one. This season, it’s yours.",
+   "story": "In 1996 only / the bride got one. / This season, it’s yours."
+  },
+  "sizeLine": {
+   "feed": "29 MM DROP / about the top joint of a thumb (hairline leader from the stone)",
+   "story": "29 MM DROP / about the top joint / of a thumb",
+   "rule": "11.1 Feed px per mm, under 19, so no Shown magnified line; the real size is printed on Feed and Story"
+  },
+  "card": {
+   "feed": [
+    "AQUA HEART DROPS",
+    "₹1,299",
+    "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "FREE INSURED SHIPPING · CASH ON DELIVERY"
+   ],
+   "story": [
+    "AQUA HEART DROPS",
+    "₹1,299",
+    "CODES BUY2 · 10% OFF / ◆ BUY3 · 20% OFF",
+    "FREE INSURED SHIPPING / CASH ON DELIVERY (two lines; die-cut card = heart outline offset 48 px)"
+   ]
+  },
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF (Feed and Story)",
+  "trustLine": "FREE INSURED SHIPPING · CASH ON DELIVERY (Feed one line; Story stacked on two lines)",
+  "htmlVisibleText": {
+   "feed": "FIVE BRILLIANTS ONE ICY AQUA HEART REC 2026 · YOUR TAPE The heart frame. In 1996 only the bride got one. This season, it’s yours. 29 MM DROP about the top joint of a thumb Aqua Heart Drops ₹1,299 Codes BUY2 · 10% off BUY3 · 20% off Free insured shipping · Cash on delivery",
+   "story": "FIVE BRILLIANTS ONE ICY AQUA HEART REC 2026 · YOUR TAPE The heart / frame. In 1996 only / the bride got one. / This season, it’s yours. 29 MM DROP about the top joint / of a thumb Aqua Heart Drops ₹1,299 Codes BUY2 · 10% off BUY3 · 20% off Free insured shipping / Cash on delivery"
+  }
+ },
+ "meta": {
+  "primaryText": "In 1996 only the bride got the heart frame. This season it’s yours: Aqua Heart Drops, ₹1,299. Any three, 20% off with BUY3. Cubic zirconia brilliants, icy aqua heart, 29 mm drop.",
+  "headline": "Aqua Heart Drops · ₹1,299 · BUY3 20% off",
+  "description": "Your own heart frame",
+  "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k02a&utm_content={{ad.id}}&utm_term=k02-2_V1",
+  "cta": "Shop Now"
+ },
+ "metaAsRated": {
+  "primaryText": "In 1996 only the bride got the heart frame. This season it’s yours: Aqua Heart Drops, ₹1,299. Any three, 20% off with BUY3. Icy aqua heart, 29 mm drop.",
+  "headline": "Aqua Heart Drops · ₹1,299 · BUY3 20% off",
+  "description": "Your own heart frame",
+  "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k02a&utm_content={{ad.id}}&utm_term=k02-2_V1"
+ },
+ "copyFixes": [
+  {
+   "field": "meta.primaryText",
+   "was": "In 1996 only the bride got the heart frame. This season it’s yours: Aqua Heart Drops, ₹1,299. Any three, 20% off with BUY3. Icy aqua heart, 29 mm drop.",
+   "now": "In 1996 only the bride got the heart frame. This season it’s yours: Aqua Heart Drops, ₹1,299. Any three, 20% off with BUY3. Cubic zirconia brilliants, icy aqua heart, 29 mm drop.",
+   "why": "Four of six critic runs (perf1, craft1, truth1, truth2) flagged that the ad says 'FIVE BRILLIANTS' and never 'cubic zirconia' (on the image, in the Story or in the Meta text), and 'brilliants' alone can read as diamonds. The product card lists cubic zirconia as the wording for the clear round stones. The fix names the five brilliants as cubic zirconia in the primary text's spec tail (it makes no claim about the heart's material). Offer, price, size, headline, description and URL are unchanged; BUY3 still ends at the same character."
+  }
+ ],
+ "metaChecks": {
+  "primaryTextChars": 178,
+  "offerEndsAtChar": 122,
+  "offerBefore125": true,
+  "urlOwnProductPage": true,
+  "trustInPrimaryText": "not used: card 2 is an OUTCOME ad (the trust line is printed on Feed and Story)",
+  "problems": [],
+  "asRated": {
+   "primaryTextChars": 151,
+   "offerEndsAtChar": 122,
+   "problems": []
+  }
+ },
+ "scores": {
+  "code": "L9",
+  "score": 6.223,
+  "gate": false,
+  "expertMean": 5.947,
+  "perCritic": {
+   "perf": 5.735,
+   "craft": 6.185,
+   "truth": 5.92
+  },
+  "dims": {
+   "stop": 6.5,
+   "message": 6.0,
+   "truth": 3.0,
+   "layout": 6.5,
+   "brand": 8.0,
+   "copy": 5.5,
+   "fit": 7.5,
+   "desire": 6.33,
+   "cues": 7.33,
+   "crazy": 6.0
+  },
+  "dimsByCritic": {
+   "perf": {
+    "stop": 6.0,
+    "message": 6.0,
+    "truth": 2.5,
+    "layout": 7.0,
+    "brand": 8.0,
+    "copy": 5.0,
+    "fit": 8.0,
+    "desire": 6.0,
+    "cues": 7.0,
+    "crazy": 6.0
+   },
+   "craft": {
+    "stop": 6.5,
+    "message": 6.0,
+    "truth": 4.5,
+    "layout": 6.0,
+    "brand": 8.0,
+    "copy": 6.5,
+    "fit": 7.0,
+    "desire": 6.5,
+    "cues": 7.0,
+    "crazy": 6.0
+   },
+   "truth": {
+    "stop": 7.0,
+    "message": 6.0,
+    "truth": 2.0,
+    "layout": 6.5,
+    "brand": 8.0,
+    "copy": 5.0,
+    "fit": 7.5,
+    "desire": 6.5,
+    "cues": 8.0,
+    "crazy": 6.0
+   }
+  },
+  "crazy": 6.0,
+  "customerMean": 7.417,
+  "wouldBuy": 7.0,
+  "buyYesShare": 1.0,
+  "customers": [
+   {
+    "persona": "Meera1",
+    "stop": 8,
+    "want": 8,
+    "trust": 7,
+    "wouldBuy": 7,
+    "buyYes": true,
+    "mean": 7.5
+   },
+   {
+    "persona": "Meera2",
+    "stop": 8,
+    "want": 8,
+    "trust": 7,
+    "wouldBuy": 7,
+    "buyYes": true,
+    "mean": 7.5
+   },
+   {
+    "persona": "Ananya1",
+    "stop": 8,
+    "want": 7,
+    "trust": 6,
+    "wouldBuy": 6,
+    "buyYes": true,
+    "mean": 6.75
+   },
+   {
+    "persona": "Ananya2",
+    "stop": 8,
+    "want": 7,
+    "trust": 7,
+    "wouldBuy": 7,
+    "buyYes": true,
+    "mean": 7.25
+   },
+   {
+    "persona": "Rohan1",
+    "stop": 8,
+    "want": 8,
+    "trust": 7,
+    "wouldBuy": 8,
+    "buyYes": true,
+    "mean": 7.75
+   },
+   {
+    "persona": "Rohan2",
+    "stop": 8,
+    "want": 8,
+    "trust": 8,
+    "wouldBuy": 7,
+    "buyYes": true,
+    "mean": 7.75
+   }
+  ],
+  "thumb200": {
+   "perf1": 5,
+   "perf2": 6,
+   "craft1": 5.5,
+   "craft2": 6,
+   "truth1": 6,
+   "truth2": 6
+  },
+  "thumb200Mean": 5.75,
+  "beatsLoser": false,
+  "beatsWinner": false,
+  "compliance": false,
+  "truthOk": false,
+  "under6": [
+   "truth",
+   "copy"
+  ],
+  "complianceNote": "All six critic runs marked compliance FAIL. Every run cited the printed 'FREE INSURED SHIPPING' (old RULINGS §2), which the OWNER RULING (20 Nov 2026) now requires, so that part is not a fault. Five runs (perf1, perf2, craft1, craft2, truth1) also failed or flagged the worn scale: the drop reads about 1.35-1.5x against the ear under a printed '29 MM DROP'. That is a real truth note, so compliance still fails under the live rule. Four runs (perf1, craft1, truth1, truth2) flagged 'FIVE BRILLIANTS' with no 'cubic zirconia' anywhere as a diamond-implication risk (fixed in the Meta copy; the on-image fix is a polish item)."
+ },
+ "worstIssues": {
+  "perf": [
+   "Regenerate the worn frame at true size, a 29 mm drop at about half the ear's height, and crop closer so the earring is the brightest, largest thing inside the heart spotlight. The heart frame should spotlight the piece, not the ear.",
+   "Rebuild the photo at true size inside the same heart vignette. The idea is the best of the three, but the frame oversells the piece by about 40-50% while printing '29 mm'. Next, swap the concept-noun headline for one that names the outcome, for example 'Your own heart frame.'"
+  ],
+  "craft": [
+   "Too many words fight the frame. Cut the two arc labels and push the vignette much harder, with a deeper and cleaner surround and star-filter glints on the rim, so the heart frame reads at 200 px and the earring is the brightest thing in it. As it is, the maroon wash muddies the skin and the heart barely separates from the ground.",
+   "Give the Feed the Story's composition. Draw a whole heart fully inside the frame (the Feed cuts off the left lobe), drop the two arched captions, and limit the maroon wash to a soft mask outside the heart so the skin stays clean. The heart shape is the whole idea and has to read at a glance."
+  ],
+  "truth": [
+   "Same oversized worn picture, about 1.45x against the ear, so a true-size regeneration is needed. Second, with more than four text elements (two arc labels, the REC label, the size line, the headline and the sub-line), the one-message cap applies. Cut the arc labels to one, add 'cubic zirconia', and remove free shipping.",
+   "It is the same 1.3-1.5x oversized worn picture under a '29 MM DROP · top joint of a thumb' size line. Regenerate the ear shot at true size. In the Story, also move the heart vignette so it doesn't cut the ear in half and darken its top."
+  ]
+ },
+ "customerLines": [
+  "Meera1: Haha, mummy's wedding video had exactly this heart frame, and 'in 1996 only the bride got one, this season it's yours' got me; at ₹1,299 with COD and the BUY2/BUY3 codes, I can get one for myself along with my niece's gift.",
+  "Meera2: Arre, the heart frame from mummy's wedding cassette! 'In 1996 only the bride got one, this season it's yours' got me, and in one look I can see the five stones, the icy aqua heart, the thumb-joint size, ₹1,299 and COD, though on the ear it does look a bit longer than 29 mm.",
+  "Ananya1: Okay, 'In 1996 only the bride got one' made me snort, the heart vignette is kitsch done deliberately with a thin gold line, and the curved 'five brilliants / one icy aqua heart' labels feel properly designed, so I'm saving this one and probably tapping through for the sangeet.",
+  "Ananya2: 'In 1996 only the bride got one' made me actually laugh, it's my parents' wedding tape done with taste instead of kitsch, so I'm forwarding it to my sister and probably buying these for the December sangeets.",
+  "Rohan1: Heart frame wala idea is literally mummy-papa's shaadi video, I actually laughed, and an icy aqua heart earring for ₹1,299 with cash on delivery is a safe gift for my girlfriend with no size tension.",
+  "Rohan2: A heart earring inside a heart frame, 'five brilliants, one icy aqua heart', 29 mm, ₹1,299, cash on delivery: I get it in one second, it looks way more expensive than it costs, and earrings mean no size tension, so that's my girlfriend's gift sorted and I'm tapping Shop Now."
+ ],
+ "runnerUps": [
+  {
+   "variant": "V3",
+   "code": "W5",
+   "headline": "THE HEART FRAME. (1996 / 2026 ledger)",
+   "cropP": 60,
+   "meta": {
+    "primaryText": "1996: the bride’s. 2026: yours. Aqua Heart Drops, ₹1,299, the heart frame to wear. Collect any three, 20% off with BUY3. 29 mm drop, icy aqua heart.",
+    "headline": "Aqua Heart Drops · ₹1,299 · BUY3 20% off",
+    "description": "1996 the bride’s. 2026 yours.",
+    "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k02a&utm_content={{ad.id}}&utm_term=k02-2_V3"
+   },
+   "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_V3_feed.jpg",
+   "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_V3_story.jpg",
+   "scores": {
+    "code": "W5",
+    "score": 5.718,
+    "gate": false,
+    "expertMean": 5.835,
+    "perCritic": {
+     "perf": 5.42,
+     "craft": 6.305,
+     "truth": 5.78
+    },
+    "dims": {
+     "stop": 6.67,
+     "message": 6.17,
+     "truth": 3.0,
+     "layout": 7.0,
+     "brand": 7.33,
+     "copy": 5.67,
+     "fit": 7.0,
+     "desire": 5.33,
+     "cues": 7.33,
+     "crazy": 5.83
+    },
+    "dimsByCritic": {
+     "perf": {
+      "stop": 6.0,
+      "message": 5.5,
+      "truth": 2.5,
+      "layout": 7.0,
+      "brand": 7.5,
+      "copy": 5.0,
+      "fit": 6.5,
+      "desire": 5.0,
+      "cues": 7.0,
+      "crazy": 5.5
+     },
+     "craft": {
+      "stop": 7.0,
+      "message": 7.0,
+      "truth": 4.5,
+      "layout": 7.0,
+      "brand": 7.5,
+      "copy": 7.0,
+      "fit": 7.0,
+      "desire": 5.5,
+      "cues": 7.0,
+      "crazy": 6.0
+     },
+     "truth": {
+      "stop": 7.0,
+      "message": 6.0,
+      "truth": 2.0,
+      "layout": 7.0,
+      "brand": 7.0,
+      "copy": 5.0,
+      "fit": 7.5,
+      "desire": 5.5,
+      "cues": 8.0,
+      "crazy": 6.0
+     }
+    },
+    "crazy": 5.83,
+    "customerMean": 6.417,
+    "wouldBuy": 5.333,
+    "buyYesShare": 0.17,
+    "customers": [
+     {
+      "persona": "Meera1",
+      "stop": 8,
+      "want": 7,
+      "trust": 8,
+      "wouldBuy": 7,
+      "buyYes": true,
+      "mean": 7.5
+     },
+     {
+      "persona": "Meera2",
+      "stop": 8,
+      "want": 7,
+      "trust": 8,
+      "wouldBuy": 6,
+      "buyYes": false,
+      "mean": 7.25
+     },
+     {
+      "persona": "Ananya1",
+      "stop": 7,
+      "want": 5,
+      "trust": 5,
+      "wouldBuy": 4,
+      "buyYes": false,
+      "mean": 5.25
+     },
+     {
+      "persona": "Ananya2",
+      "stop": 7,
+      "want": 6,
+      "trust": 7,
+      "wouldBuy": 5,
+      "buyYes": false,
+      "mean": 6.25
+     },
+     {
+      "persona": "Rohan1",
+      "stop": 7,
+      "want": 6,
+      "trust": 6,
+      "wouldBuy": 5,
+      "buyYes": false,
+      "mean": 6.0
+     },
+     {
+      "persona": "Rohan2",
+      "stop": 7,
+      "want": 6,
+      "trust": 7,
+      "wouldBuy": 5,
+      "buyYes": false,
+      "mean": 6.25
+     }
+    ],
+    "thumb200": {
+     "perf1": 5.5,
+     "perf2": 5,
+     "craft1": 6,
+     "craft2": 6,
+     "truth1": 6.5,
+     "truth2": 7
+    },
+    "thumb200Mean": 6.0,
+    "beatsLoser": false,
+    "beatsWinner": false,
+    "compliance": false,
+    "truthOk": false,
+    "under6": [
+     "truth",
+     "copy",
+     "desire",
+     "crazy"
+    ],
+    "complianceNote": "All six runs: 'FREE INSURED SHIPPING' (overruled by the owner ruling, not a fault); five runs also fail or flag the same about 1.4x worn scale (a real truth note); three runs (perf1, craft1, truth2) add that the Story's rim drops 'cubic zirconia' (the Feed prints it)."
+   },
+   "worstIssues": {
+    "perf": [
+     "Put the woman and the occasion back and get the piece to true size. Regenerate a true-size worn frame and run the heart window over a fuller lobe-and-jaw shot with velvet and function light, rather than an ear fragment on flat plum, so the piece is wanted and not just framed.",
+     "Regenerate the worn frame at true size. Then put the footage back behind the heart (a darkened photo vignette as in L9) instead of the flat purple ground. The cut-out-on-template look plus the giant 1996/2026 numerals push the piece to third place."
+    ],
+    "craft": [
+     "The heart window sits in a flat plum field with no occasion, and the earring is small inside it. It reads as a Valentine's template, not a 1996 shaadi tape. Crop tighter so the earring fills about 25% of the width inside the heart, at true scale. Make the surround the blurred function itself (fairy-light bokeh, velvet, a VHS soft edge), not flat colour.",
+     "Put the woman back in the frame. The heart window on flat plum leaves only a slice of ear, so the ad becomes a greeting card. Show jaw, neck, velvet blouse and function light inside the heart, or float the heart over the function scene, so the clever 1996/2026 split also sells wanting the piece."
+    ],
+    "truth": [
+     "The earring is about 1.45x true size against the ear inside the heart window, so a true-size regeneration is needed. Beyond scale, the flat mottled-purple ground turns it into a greeting-card template, cuts out the scene and lowers desire, and the Story's bottom 35% is empty purple. Also remove free shipping.",
+     "Same oversized picture: the drop is about 1.4x true size against the lobe and concha that are still visible, under the 29 mm size line. Regenerate at true scale. The cut-out also strips the body and occasion, so a true-size worn frame inside the heart with some hair and neckline kept would lift desire too."
+    ]
+   },
+   "customerLines": [
+    "Meera1: '1996 the bride's, 2026 yours', I'd forward this to the family group straight away, and I like that it says cubic zirconia and the real price plainly, though the flat purple makes it feel more like a greeting card than a real wedding evening.",
+    "Meera2: '1996 the bride's, 2026 yours' is cute and very clear, and I like that it plainly says cubic zirconia, but the flat purple background makes it feel more like a greeting card than a real earring at a real function.",
+    "Ananya1: '1996 the bride's, 2026 yours' is the best joke of the three and I'd forward it to the cousins group, but an ear cut into a heart on flat plum stops being a wink and starts looking like an actual wedding-invite template.",
+    "Ananya2: The big 1996 / 2026 split is smart and I like that it says cubic zirconia out loud, but the heart cutout on flat purple tips into wedding-card or Valentine-sale territory and the earring loses its moment.",
+    "Rohan1: Same earring, but the flat purple background with a heart cut-out and 1996/2026 numbers looks like a greeting-card template, so the piece feels smaller and cheaper and I'd probably scroll past.",
+    "Rohan2: The 1996 bride vs 2026 joke is cute and maa would laugh at it, but the flat purple poster looks like a wedding-card template, the earring feels small inside that heart, and next to the photo versions it looks cheaper, so I'd scroll past."
+   ]
+  },
+  {
+   "variant": "V2",
+   "code": "F4",
+   "headline": "THE CAMERA FINDS YOU.",
+   "cropP": 45,
+   "meta": {
+    "primaryText": "The camera finds you. Aqua Heart Drops, ₹1,299: collect any three pieces, 20% off with BUY3. Thirty years after the bride’s tape, the close-up is yours.",
+    "headline": "Aqua Heart Drops · ₹1,299 · BUY3 20% off",
+    "description": "The close-up is yours",
+    "url": "https://www.nairaflore.com/products/aqua-heart-drops-silver?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k02a&utm_content={{ad.id}}&utm_term=k02-2_V2"
+   },
+   "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_V2_feed.jpg",
+   "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_V2_story.jpg",
+   "scores": {
+    "code": "F4",
+    "score": 5.588,
+    "gate": false,
+    "expertMean": 5.677,
+    "perCritic": {
+     "perf": 5.34,
+     "craft": 6.045,
+     "truth": 5.645
+    },
+    "dims": {
+     "stop": 5.83,
+     "message": 5.67,
+     "truth": 3.0,
+     "layout": 7.0,
+     "brand": 8.0,
+     "copy": 6.17,
+     "fit": 5.67,
+     "desire": 6.67,
+     "cues": 7.33,
+     "crazy": 4.5
+    },
+    "dimsByCritic": {
+     "perf": {
+      "stop": 5.5,
+      "message": 5.5,
+      "truth": 2.5,
+      "layout": 7.0,
+      "brand": 8.0,
+      "copy": 6.0,
+      "fit": 6.0,
+      "desire": 6.0,
+      "cues": 7.0,
+      "crazy": 4.0
+     },
+     "craft": {
+      "stop": 6.0,
+      "message": 6.0,
+      "truth": 4.5,
+      "layout": 7.0,
+      "brand": 8.0,
+      "copy": 6.5,
+      "fit": 5.0,
+      "desire": 7.0,
+      "cues": 7.0,
+      "crazy": 5.0
+     },
+     "truth": {
+      "stop": 6.0,
+      "message": 5.5,
+      "truth": 2.0,
+      "layout": 7.0,
+      "brand": 8.0,
+      "copy": 6.0,
+      "fit": 6.0,
+      "desire": 7.0,
+      "cues": 8.0,
+      "crazy": 4.5
+     }
+    },
+    "crazy": 4.5,
+    "customerMean": 6.708,
+    "wouldBuy": 5.833,
+    "buyYesShare": 0.17,
+    "customers": [
+     {
+      "persona": "Meera1",
+      "stop": 7,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": false,
+      "mean": 6.75
+     },
+     {
+      "persona": "Meera2",
+      "stop": 7,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": false,
+      "mean": 6.75
+     },
+     {
+      "persona": "Ananya1",
+      "stop": 7,
+      "want": 6,
+      "trust": 6,
+      "wouldBuy": 5,
+      "buyYes": false,
+      "mean": 6.0
+     },
+     {
+      "persona": "Ananya2",
+      "stop": 7,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 5,
+      "buyYes": false,
+      "mean": 6.5
+     },
+     {
+      "persona": "Rohan1",
+      "stop": 7,
+      "want": 8,
+      "trust": 7,
+      "wouldBuy": 7,
+      "buyYes": true,
+      "mean": 7.25
+     },
+     {
+      "persona": "Rohan2",
+      "stop": 8,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": false,
+      "mean": 7.0
+     }
+    ],
+    "thumb200": {
+     "perf1": 4.5,
+     "perf2": 5,
+     "craft1": 5,
+     "craft2": 5,
+     "truth1": 5.5,
+     "truth2": 5
+    },
+    "thumb200Mean": 5.0,
+    "beatsLoser": false,
+    "beatsWinner": false,
+    "compliance": false,
+    "truthOk": false,
+    "under6": [
+     "stop",
+     "message",
+     "truth",
+     "fit",
+     "crazy"
+    ],
+    "complianceNote": "All six runs: 'FREE INSURED SHIPPING' (overruled by the owner ruling, not a fault); five runs also fail the about 1.4x worn scale against the printed '29 MM DROP' (a real truth note), and truth2 notes the picture contradicts that line."
+   },
+   "worstIssues": {
+    "perf": [
+     "The piece is drawn about 1.4x life size on the ear, and the ear, not the piece, is the hero. Regenerate the worn frame at true size (drop about half the ear's height) and crop in tight on the lobe so the earring fills 25% or more of the width.",
+     "Regenerate the worn picture at true size, with the arc on the lobe and the heart just under it, so the '29 mm drop' callout is honest. As it stands the ad sells a drop of about 4.5 cm and ships a 2.9 cm one. That is RTO and return bait on a COD-heavy funnel. Delete 'FREE' from the shipping line in the same pass."
+    ],
+    "craft": [
+     "The 1996 heart frame is a hairline that disappears at feed size, so the shaadi-video joke never lands and the ad reads as a generic ear close-up with a poetic line. Make the frame an actual VHS-style heart vignette or star-filter effect, and pull the piece back to true scale against the ear.",
+     "Show the tape. The hairline heart vanishes at feed size, and REC alone is not the 1996 wedding video. Use the soft-edged heart mask, a VCR date stamp and one star-filter twinkle on the aqua heart, so the joke ('this is literally mummy's video') reads in half a second. Regenerate the picture at true scale."
+    ],
+    "truth": [
+     "The worn scale is about 1.4-1.5x. The drop measures about 0.73 of the ear's length (323 px against 443 px), and the arc hangs well below the lobe instead of sitting on it. The '29 MM DROP · about the top joint of a thumb' line therefore contradicts the picture. The fix is to regenerate at true size, with the arc on the lobe and the heart just below, and crop tighter so the heart stays above 8% of the width. Also drop 'FREE INSURED SHIPPING'.",
+     "The worn piece is about 1.3-1.5x true size against the ear. The drop is about 0.7 of the ear length and the heart is about 10-12 mm against 7.5 mm, while the card claims 29 mm and 'the top joint of a thumb'. Regenerate at true scale: arc on the lobe, heart just below it, drop about half the ear. Also cut the free-shipping line."
+    ]
+   },
+   "customerLines": [
+    "Meera1: Grey strands in the hair, a velvet top and fairy lights behind her, that's me at my cousin's sangeet, and the aqua heart is lovely, but 'the camera finds you' took me a second to get and on that ear it hangs longer than a thumb joint, so tonight I'd save it rather than buy it.",
+    "Meera2: The braid with the grey strands and the fairy lights feel like a real wedding night, and ₹1,299 with COD is right there, but 'the camera finds you' took me a second and the heart outline is so faint I nearly missed the joke, so I'd save it, not buy it.",
+    "Ananya1: The focus brackets snapping onto 'YOU.' are a smart little designer move and this is the least cringe of the three, but the wedding-tape heart line is so faint I only got the joke on a second look, and that earring looks much longer on her ear than a 29 mm 'top joint of a thumb'.",
+    "Ananya2: The moody wedding-night light and the little viewfinder brackets around 'YOU' are a lovely detail, but 'the camera finds you' reads like a perfume tagline and the drop looks longer on that ear than a thumb joint, so I'd save this one, not buy from it.",
+    "Rohan1: The earring looks properly expensive on a real ear against that velvet and party lights, and ₹1,299 with COD fits my budget, but 'the camera finds you, thirty years on' is clearly talking to my mom's age, not to a guy buying a gift, and I barely noticed the heart outline.",
+    "Rohan2: The big gold 'FINDS YOU' and that sparkle on a real ear with grey hair stopped me, and I thought of maa, and ₹1,299 with COD is fine, but the headline is about the camera and not the earring, and the drop looks longer on her ear than 'top joint of a thumb', so I'd save it and not buy yet."
+   ]
+  }
+ ],
+ "verdict": "held: gate failed on compliance, truth, two dims under 6 and the 200 px anchor test. Truth: dim 3.0 and the truth critic's own 2.0 are far under 8. All six critic runs read the worn drop at about 1.35-1.5x against the ear (drop about 0.69 of the ear's height, heart about 10-11 mm against 7.5 mm) under the printed '29 MM DROP · about the top joint of a thumb'. The verifier measured the same 0.69 but against the listing's own worn photos (0.57 on true-scale photo 02, 0.78 on photo 05), about 1.2x, inside its 30% line and not a regeneration (verify/k02-2.md); the jury reads it as oversized, so the picture, not the type, holds the ad. Compliance: every run marked FAIL for the printed 'FREE INSURED SHIPPING' (old RULINGS §2), which the OWNER RULING (20 Nov 2026) requires on every ad, so that part is not a reason; five of six runs also failed or flagged the scale, so compliance still fails under the live rule. Under 6: truth 3.0 and copy 5.5 (concept-noun headline, crowded micro-type, 'FIVE BRILLIANTS' with no 'cubic zirconia'). 200 px: thumbs perf1 5 / craft1 5.5 vs anchor p2 7 / 8, and perf2 6 / craft2 6 vs sa08 6 / 5 (perf only ties), so it beats neither loser anchor.",
+ "verify": {
+  "picture": "k02-2A passes with notes (verify/k02-2.md): open C (not closed) with exactly 5 claw-set round brilliants (small, big, big, big, small) in tall ball-tipped claws, the baguette fan on the inner wall at the lower tip, 1 small loop, and 1 pale aqua heart in 3 claws hanging point down with an open side gallery; one bright rhodium silver tone; arc/heart 2.2 against the card's 2.1; heart 7.9 mm at the measured scale. 11.1 Feed px per mm (no magnified line). Drop/ear 0.69 against 0.57 (listing photo 02, true scale) and 0.78 (photo 05): about 1.2x, inside the 30% line, so the 29 mm line stays on both formats. No eye, brow, nose or lips (the left strip is cheek and jaw); no text, logo, extra jewellery or water; natural ear and neck. Notes: the heart's left half reads paler where skin shows through it (not retouched), more grey strands than the prompt's dozen, the piece sits lower than briefed (Story re-flowed).",
+  "design": "Design QA (scratchpad k02a_qa/k02-2, sheet_200.png) reviewed all six JPGs at full size, 2-4x crops and 200 px: the plate is the real piece (piece_vs_ref01.png), whole in every crop (Feed x 277-378, y 524-846; Story y 868-1189); no type within 30 px of the piece; contrast 6.2:1 or better; no Velista fallback; no typos, banned words or claims; offers and trust line on all six; every Story prints the offer; links to the product page. QA ranked V3 first, V1 second ('solid, but loses the heart's right lobe in the hair'), V2 third (a headline swap of V1). The pick rule chose V1 on score (no variant passed the gate).",
+  "headlineProof": "THE HEART FRAME.: the plate gives one point-down aqua heart hanging free under the C; the HTML heart vignette (the 1996 videographer's heart wipe) closes round her ear with its point landing just under the stone, so a real heart sits inside the heart frame on Feed and Story, and 'In 1996 only the bride got one' explains it. All six customers got the joke in one read.",
+  "finalFilesIdenticalToV1": true
+ },
+ "polishFixes": [
+  "Truth to 8 (one credit): regenerate the worn plate with the verifier's optional clause, 'the drop is small against the ear: from post to heart tip it is about half the ear's height', the arc seated on the lobe and the heart just below it, and keep every other clause of the k02-2A prompt (all six critic runs; perf1 also asks for a closer crop so the earring is the brightest, largest thing in the heart). The HTML heart frame and both layouts carry over; re-run measure for the new P.",
+  "Name the stone on the image (zero credit): set the right rim label as V3's Feed did, 'ONE ICY AQUA HEART · CUBIC ZIRCONIA', or the left as 'FIVE CZ BRILLIANTS', on Feed and Story (perf1, craft1, truth1, truth2). The Meta copy already carries it (copy fix above).",
+  "Copy to 6+ (zero credit): cut the two rim labels to one and keep the Feed to four text blocks (craft1, craft2, truth1, truth2); perf2 asks for an outcome headline such as 'YOUR OWN HEART FRAME.' in place of the concept noun, and the beat already lands the outcome ('In 1996 only the bride got one. This season, it's yours.', quoted by all six customers).",
+  "200 px (zero credit): push the vignette harder outside the heart and keep the skin inside it clean (craft1: the plum wash muddies the skin; craft2: keep the mask outside the heart only), so the heart frame reads at thumb size; 200 px thumbs 5-6 against loser anchors at 7-8.",
+  "Story trust line (zero credit): it prints 'FREE INSURED SHIPPING' / 'CASH ON DELIVERY' stacked on two lines with the '·' replaced by the line break; set it as one line, 'FREE INSURED SHIPPING · CASH ON DELIVERY', as on the owner's live ads and on the Feed."
+ ],
+ "finalChecks": {
+  "chosenHtml": {
+   "k02-2_feed.html": [],
+   "k02-2_story.html": [
+    {
+     "where": "k02-2_story.html",
+     "rule": "note: trust line stacked on two lines (words exact, the · is the line break)"
+    }
+   ]
+  },
+  "allHtml": {
+   "k02-2_V1_feed.html": [],
+   "k02-2_V1_story.html": [
+    {
+     "where": "k02-2_V1_story.html",
+     "rule": "note: trust line stacked on two lines (words exact, the · is the line break)"
+    }
+   ],
+   "k02-2_V2_feed.html": [],
+   "k02-2_V2_story.html": [
+    {
+     "where": "k02-2_V2_story.html",
+     "rule": "note: trust line stacked on two lines (words exact, the · is the line break)"
+    }
+   ],
+   "k02-2_V3_feed.html": [],
+   "k02-2_V3_story.html": [
+    {
+     "where": "k02-2_V3_story.html",
+     "rule": "note: trust line stacked on two lines (words exact, the · is the line break)"
+    }
+   ],
+   "k02-2_feed.html": [],
+   "k02-2_story.html": [
+    {
+     "where": "k02-2_story.html",
+     "rule": "note: trust line stacked on two lines (words exact, the · is the line break)"
+    }
+   ]
+  },
+  "meta": [],
+  "metaAsRated": [],
+  "summary": "Chosen Feed and Story HTML and the Meta copy: no banned words (no diamond, no bare gold or silver, no freshwater, emerald, ruby or huggie), no claim (the card allows NONE, and none is printed or written), no pre-order line (every piece is in stock today), no compare-at, struck price or price sum, no returns, exchanges or delivery time; offers BUY2 10% and BUY3 20% correct on Feed and Story, and the Meta text says any three, 20% off with BUY3 (BUY3 ends at character 122, before 125; primary text 178 characters); the trust line FREE INSURED SHIPPING · CASH ON DELIVERY is on the Feed in one line and on the Story stacked on two lines (words exact; the '·' is the line break: a polish note); the Story prints the offer; size line '29 MM DROP · about the top joint of a thumb' on both (11.1 Feed px per mm, under 19, so no Shown magnified line); one price, ₹1,299; link to the product's own page; no result or signed URL in any file; the plate shows no water (the card has no waterproof claim) and one product; the picture proves the headline (a real heart inside the heart frame). Copy fix made: the Meta primary text now names cubic zirconia (critics flagged 'FIVE BRILLIANTS' alone as a diamond-implication risk); the on-image rim still says 'FIVE BRILLIANTS' without CZ and is listed as a polish fix."
+ }
+}

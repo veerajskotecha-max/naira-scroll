@@ -9,9 +9,10 @@
  .chart { position: absolute; margin: 0; }
  .chart .row { display: flex; align-items: baseline; white-space: nowrap; }
  .chart .acu { flex: none; width: 62px; font-family: var(--sans); font-weight: 300; font-size: 26px; letter-spacing: 0; color: var(--gold-light); }
- .chart .h1 { color: var(--bone); line-height: .98; text-shadow: 0 0 22px rgba(8,8,24,.45); }
+ .chart .h1 { color: var(--bone); line-height: .98; text-shadow: 0 0 3px rgba(8,8,24,.5), 0 0 16px rgba(8,8,24,.72), 0 0 36px rgba(8,8,24,.5); }
+ .chart .acu, .rail, .aside, .setup { text-shadow: 0 0 3px rgba(8,8,24,.55), 0 0 14px rgba(8,8,24,.72), 0 0 30px rgba(8,8,24,.45); }
  .aside { position: absolute; margin: 0; font-size: 34px; line-height: 38px; color: var(--gold-light); white-space: nowrap; }
- .fig { position: absolute; margin: 0; color: var(--bone); text-shadow: 0 0 16px rgba(8,8,24,.6); }
+ .fig { position: absolute; margin: 0; color: var(--bone); text-shadow: 0 0 3px rgba(8,8,24,.55), 0 0 14px rgba(8,8,24,.72), 0 0 30px rgba(8,8,24,.45); }
  .fig .n { display: block; font-family: var(--sans); font-weight: 300; font-size: 26px; letter-spacing: .24em; color: var(--gold-light); line-height: 34px; }
  .fig .l { display: block; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; line-height: 34px; white-space: nowrap; }
  .fig .q { display: block; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 34px; color: var(--gold-light); line-height: 38px; margin-top: 2px; white-space: nowrap; }
@@ -36,11 +37,12 @@
  .f2 .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; color: rgba(244,240,232,.86); }
  .vtop { background: linear-gradient(to bottom, rgba(10,11,30,0) 160px, rgba(10,11,30,.34) 270px, rgba(10,11,30,.26) 520px, rgba(10,11,30,0) 640px); }
  .vtag { background: radial-gradient(ellipse 200px 150px at 900px 460px, rgba(10,8,14,.42) 0, rgba(10,8,14,.22) 60%, rgba(10,8,14,0) 100%); }
+ .vloc { background: radial-gradient(ellipse 400px 300px at 290px 520px, rgba(8,9,26,.46) 0, rgba(8,9,26,.3) 55%, rgba(8,9,26,0) 100%); }
  .foot { background: linear-gradient(to bottom, rgba(26,14,30,0) 1046px, rgba(26,14,30,.82) 1086px, rgba(26,14,30,.92) 1130px, rgba(26,14,30,.92) 1262px, rgba(26,14,30,.55) 1330px, rgba(26,14,30,0) 1420px); }
 </style></head>
 <body class="story dark">
 <img class="pic" src="pics/k01-3A.png">
-<div class="scr vtop"></div><div class="scr vtag"></div><div class="scr foot"></div>
+<div class="scr vtop"></div><div class="scr vloc"></div><div class="scr vtag"></div><div class="scr foot"></div>
 <svg class="lens" viewBox="0 0 1080 1920" width="1080" height="1920" aria-hidden="true">
 <defs>
 <clipPath id="V2sc"><path d="M537.0 588.0 L921.0 588.0 L925.4 588.3 L929.7 589.4 L933.7 591.1 L937.5 593.3 L940.8 596.2 L943.7 599.5 L945.9 603.3 L947.6 607.3 L948.7 611.6 L949.0 616.0 L948.9 616.3 L948.8 636.3 L948.5 653.9 L948.1 670.2 L947.6 685.5 L946.9 700.1 L946.2 714.1 L945.3 727.5 L944.3 740.5 L943.2 753.1 L942.0 765.3 L940.7 777.2 L939.2 788.8 L937.7 800.1 L936.0 811.1 L934.2 821.8 L932.3 832.2 L930.3 842.4 L928.2 852.3 L926.0 862.0 L923.6 871.4 L921.2 880.6 L918.6 889.6 L915.9 898.3 L913.1 906.8 L910.2 915.0 L907.2 923.1 L904.1 930.8 L900.9 938.4 L897.5 945.7 L894.1 952.8 L890.5 959.7 L886.8 966.3 L883.1 972.7 L879.2 978.8 L875.2 984.7 L871.1 990.4 L866.9 995.9 L862.5 1001.1 L858.1 1006.1 L853.5 1010.8 L848.8 1015.3 L844.0 1019.6 L839.1 1023.6 L834.1 1027.4 L828.9 1031.0 L823.6 1034.3 L818.1 1037.3 L812.5 1040.1 L806.8 1042.7 L800.8 1045.0 L794.7 1047.1 L788.4 1049.0 L781.8 1050.6 L774.9 1051.9 L767.7 1053.0 L760.1 1053.9 L751.7 1054.5 L742.3 1054.9 L729.0 1055.0 L715.7 1054.9 L706.3 1054.5 L697.9 1053.9 L690.3 1053.0 L683.1 1051.9 L676.2 1050.6 L669.6 1049.0 L663.3 1047.1 L657.2 1045.0 L651.2 1042.7 L645.5 1040.1 L639.9 1037.3 L634.4 1034.3 L629.1 1031.0 L623.9 1027.4 L618.9 1023.6 L614.0 1019.6 L609.2 1015.3 L604.5 1010.8 L599.9 1006.1 L595.5 1001.1 L591.1 995.9 L586.9 990.4 L582.8 984.7 L578.8 978.8 L574.9 972.7 L571.2 966.3 L567.5 959.7 L563.9 952.8 L560.5 945.7 L557.1 938.4 L553.9 930.8 L550.8 923.1 L547.8 915.0 L544.9 906.8 L542.1 898.3 L539.4 889.6 L536.8 880.6 L534.4 871.4 L532.0 862.0 L529.8 852.3 L527.7 842.4 L525.7 832.2 L523.8 821.8 L522.0 811.1 L520.3 800.1 L518.8 788.8 L517.3 777.2 L516.0 765.3 L514.8 753.1 L513.7 740.5 L512.7 727.5 L511.8 714.1 L511.1 700.1 L510.4 685.5 L509.9 670.2 L509.5 653.9 L509.2 636.3 L509.1 616.3 L509.0 616.0 L509.3 611.6 L510.4 607.3 L512.1 603.3 L514.3 599.5 L517.2 596.2 L520.5 593.3 L524.3 591.1 L528.3 589.4 L532.6 588.3 L537.0 588.0 Z"/></clipPath>
@@ -67,14 +69,14 @@
 <path d="M588.1 708.5 L601.1 739.5" stroke="#F4F0E8" stroke-width="1.2" stroke-linecap="round"/>
 <path d="M651.6 1001.5 L655.6 985.5" stroke="#F4F0E8" stroke-width="1.2" stroke-linecap="round"/>
 </svg>
-<svg class="ovl ink" viewBox="0 0 1080 1920" width="1080" height="1920" aria-hidden="true"><path d="M501.0 727.0 L549.5 727.0 L549.5 776.4" fill="none" stroke="#E4C889" stroke-width="1.5"/><circle cx="549.5" cy="781.4" r="5" fill="none" stroke="#E4C889" stroke-width="1.5"/><path d="M904 538 V578" stroke="#E4C889" stroke-width="1.5"/><circle cx="904" cy="578" r="3.5" fill="#E4C889"/></svg>
+<svg class="ovl ink" viewBox="0 0 1080 1920" width="1080" height="1920" aria-hidden="true"><path d="M464.0 727.0 L549.5 727.0 L549.5 776.4" fill="none" stroke="#E4C889" stroke-width="1.5"/><circle cx="549.5" cy="781.4" r="5" fill="none" stroke="#E4C889" stroke-width="1.5"/><path d="M904 538 V578" stroke="#E4C889" stroke-width="1.5"/><circle cx="904" cy="578" r="3.5" fill="#E4C889"/></svg>
 <p class="rail" id="rail" style="left:72px;top:276px">Rooftop mehendi · 11:30 PM · Inspection 3 of 10</p>
 <div class="chart" id="chart" data-t style="left:72px;top:316px">
  <div class="row"><span class="acu" id="m1">6/60</span><span class="h1" id="r1" style="font-size:122px">Nazar</span></div>
  <div class="row"><span class="acu" id="m2">6/36</span><span class="h1" id="r2" style="font-size:90px">na lage.</span></div>
 </div>
-<p class="beat aside" id="beat" style="left:134px;top:534px;font-size:32px;line-height:36px">Her verdict, once she found<br>the two little stars.</p>
-<div class="fig" id="fig3" data-t style="right:585px;top:676px;text-align:right"><span class="n">FIG. 3</span><span class="l">Two little stars</span><span class="q">‘arre, taare bhi!’</span></div>
+<p class="beat aside" id="beat" style="left:72px;top:538px;font-size:32px;line-height:36px">Her verdict, once she<br>found the two little stars.</p>
+<div class="fig" id="fig3" data-t style="right:622px;top:676px;text-align:right"><span class="n">FIG. 3</span><span class="l">Two little stars</span><span class="q">‘arre, taare bhi!’</span></div>
 <div class="tag" id="tag" data-t style="left:771px;top:380px">In her lens<br>about <em>2×</em><br>actual<br>16.8 mm tall</div>
 <div class="f2" id="f2" data-t style="top:1074px">
  <div class="rule"></div>

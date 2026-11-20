@@ -320,5 +320,172 @@
    "passed": null
   },
   "scores": null
+ },
+ {
+  "id": "k02-1",
+  "batch": "k02a",
+  "camp": "k02",
+  "card": 1,
+  "handle": "quatrefoil-eclat-studs",
+  "product": "Quatrefoil Éclat Studs",
+  "verdict": "held before design: take A shows an eye with lashes and a brow tail and redesigns the stud (pavé lattice fills the 8 open windows, the pears turn to glitter clusters, an oval centre with no 4-pointed plate) at about 1.6x; redo R passes the hard rules but fails the re-verify gate: stud centre 60.3% down (gate 50%), about 1.35x against the ear, the outline pavé two stones wide and a copper cast (verify/k02-1.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-1A.png",
+     "job_id": "de9749fd-341b-4c95-a9c3-4592debc6088",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-1R.png",
+     "job_id": "19d93f63-3f23-4d65-8f03-931da5b96acb",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k02-2",
+  "batch": "k02a",
+  "camp": "k02",
+  "card": 2,
+  "handle": "aqua-heart-drops-silver",
+  "product": "Aqua Heart Drops",
+  "verdict": "held: gate failed on compliance, truth, two dims under 6 and the 200 px anchor test. Truth: dim 3.0 and the truth critic's own 2.0 are far under 8. All six critic runs read the worn drop at about 1.35-1.5x against the ear (drop about 0.69 of the ear's height, heart about 10-11 mm against 7.5 mm) under the printed '29 MM DROP · about the top joint of a thumb'. The verifier measured the same 0.69 but against the listing's own worn photos (0.57 on true-scale photo 02, 0.78 on photo 05), about 1.2x, inside its 30% line and not a regeneration (verify/k02-2.md); the jury reads it as oversized, so the picture, not the type, holds the ad. Compliance: every run marked FAIL for the printed 'FREE INSURED SHIPPING' (old RULINGS §2), which the OWNER RULING (20 Nov 2026) requires on every ad, so that part is not a reason; five of six runs also failed or flagged the scale, so compliance still fails under the live rule. Under 6: truth 3.0 and copy 5.5 (concept-noun headline, crowded micro-type, 'FIVE BRILLIANTS' with no 'cubic zirconia'). 200 px: thumbs perf1 5 / craft1 5.5 vs anchor p2 7 / 8, and perf2 6 / craft2 6 vs sa08 6 / 5 (perf only ties), so it beats neither loser anchor.",
+  "chosen": "V1 (L9)",
+  "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_feed.jpg",
+  "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2_story.jpg",
+  "copy": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/k02-2.copy.json",
+  "picture": {
+   "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-2A.png",
+   "job_id": "6e6dd925-fcdc-4cdc-be1f-ff289c88af55"
+  },
+  "scores": {
+   "score": 6.223,
+   "gate": false,
+   "expertMean": 5.947,
+   "perCritic": {
+    "perf": 5.735,
+    "craft": 6.185,
+    "truth": 5.92
+   },
+   "crazy": 6.0,
+   "customerMean": 7.417,
+   "wouldBuy": 7.0,
+   "buyYesShare": 1.0,
+   "thumb200Mean": 5.75,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "dims": {
+    "stop": 6.5,
+    "message": 6.0,
+    "truth": 3.0,
+    "layout": 6.5,
+    "brand": 8.0,
+    "copy": 5.5,
+    "fit": 7.5,
+    "desire": 6.33,
+    "cues": 7.33,
+    "crazy": 6.0
+   }
+  }
+ },
+ {
+  "id": "k02-3",
+  "batch": "k02a",
+  "camp": "k02",
+  "card": 3,
+  "handle": "lilac-papillon-ring",
+  "product": "Lilac Papillon Ring",
+  "verdict": "held before design: take A redesigns the lilac micro pavé into a glitter crust (about 10x the stone count), is letterboxed and turned 45°; take B passed verify with notes but the skeptic found the clear-stone outline a crusted band 2-2.5x the rail with the windows shrunk to slots; redo R fixed colour, letterbox, tilt and scale but repeats A's glitter-crust pavé (5-8x the count) and the crusted, 2-wide outline (verify/k02-3.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-3A.png",
+     "job_id": "11f2588a-79ad-410a-98f4-aad864386534",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-3B.png",
+     "job_id": "75399e0a-0977-45b9-ba92-b22eff4b77ca",
+     "take": "B"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-3R.png",
+     "job_id": "217aafc6-f8b1-44c4-9c58-ff79f5089c98",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k02-4",
+  "batch": "k02a",
+  "camp": "k02",
+  "card": 4,
+  "handle": "brushed-gold-huggies",
+  "product": "Brushed Gold Huggies",
+  "verdict": "held before design: take A draws each earring taller than the cassette is thick (about 1.9x), lets the Story card cover the pair and puts a copper reflection band on the brushed barrel; redo R is still about 1.5x (0.93 of the cassette's front edge, gate 0.75), sits below 50% of the frame, keeps the copper band and moulds word-spaced dot clusters into the cassette rim (verify/k02-4.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-4A.png",
+     "job_id": "414ef32b-037d-4f92-9b98-355553237d0c",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-4R.png",
+     "job_id": "0913b0d5-80fb-4573-ba25-00a1ca9e7e4e",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k02-5",
+  "batch": "k02a",
+  "camp": "k02",
+  "card": 5,
+  "handle": "verdant-cushion-studs",
+  "product": "Verdant Cushion Studs",
+  "verdict": "held before design: take A passed verify with notes but the skeptic found the halo drawn as frosted micro-pavé petals, not round brilliants; redo R fixed the halo but draws the stud about 1.44x against the ear (0.380 of helix-to-stud against 0.263 on ref 04) with 16 big halo stones instead of about 20 small ones (verify/k02-5.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-5A.png",
+     "job_id": "117af592-a566-437b-b5dc-9294292e294d",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k02a/pics/k02-5R.png",
+     "job_id": "cee402d4-b915-4b13-87b2-40274dc51855",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
  }
 ]
