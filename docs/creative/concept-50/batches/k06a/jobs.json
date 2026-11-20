@@ -1,0 +1,112 @@
+[
+ {
+  "slot": "k06-1A",
+  "ad": "k06-1",
+  "take": "A",
+  "handle": "torsade-huggies",
+  "job_id": "e0ca13ae-57b5-4e3b-a96d-912e15a6fe96",
+  "file": "pics/k06-1A.png",
+  "size": "1520x2688",
+  "requested_model": "gpt_image_2_6",
+  "served_model": "gpt_image_2_6",
+  "quality": "high",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "credits": 2.75,
+  "medias": [
+   "2614ff5f-f0e4-4e5f-b8d4-2075b8756e6c",
+   "0972515d-1bb5-4606-8870-b5f3098bca81"
+  ],
+  "submitted_at": "2026-11-20T18:25Z, round 3; refused with a 429 in rounds 1 (18:22Z) and 2 (18:23Z), never submitted then",
+  "prompt": "Vertical 9:16 night evidence photograph: a close tabletop shot looking down at about 50 degrees, as if someone fired an on-camera flash at the scene of a small family crime. Reference 1 is the authority on this exact piece: copy its construction exactly and ignore its background and light. Reference 2 is a detail of the same piece. It shows one hoop worn at true size, about a third of the ear's height; use reference 2 only for the piece and its true size, and take nothing else from it: not the person, her face, hair, skin or clothes. Preserve the earring exactly: one hinged round hoop of the pair, 20 x 18 mm, of 1 chunky 4-5 mm tube twisted like rope: about 4 rounded ridges across the band, spiralling one way all round; 1 thin plain wire post spans the top quarter into the other end; smooth inner face; 0 stones. Mirror-polished 18k gold tone, warm-neutral yellow; the wire post in the same 18k gold tone; never orange, copper or brassy under the lamp. Must stay a fat twisted rope tube, never a thin, braided or chain hoop, never a smooth plain hoop. Do not redesign, restyle, resize or add anything. Only one hoop of the pair is in the frame. SCALE: the hoop is 20 mm tall, the size of a one-rupee coin, the tube as thick as a pencil; the frame is about 7 cm across at the hoop, so the hoop fills about 28% of the frame width. The referent touching it is the dropped hair tie: an ordinary black fabric hair tie, a slack loop about 45 mm across of 4 mm cord, so the hoop is a little less than half the tie's width and the rope tube is about as thick as the tie's cord; never a hoop as big as the hair tie. WORLD: an old walnut dressing table, fine grain and a few scratches, dusted with a thin, translucent film of spilled white talcum powder through which the dark grain still shows; never a white pile, never a pale field; under the flash the talc stays a thin grey-white veil, never blown to pure white. The hoop lies flat in the powder, a little left of centre, with a dark contact shadow, needle-sharp, every rope ridge readable, the brightest thing in the frame. Beside it, to its right, the print its twin left when it was lifted a minute ago: a clean ring of bare dark wood in the powder, exactly the size and round shape of the hoop beside it, with powder inside and outside the ring and crisp edges, empty. The print is a void, never a mound: flat bare wood, darker than the dusted wood around it, never a raised rim or ridge of powder, never a ghost or shadow of a hoop. Just below the print and the hoop lies one plain black fabric hair tie, dropped, the edge of its loop just touching the hoop's lower edge, with its own true contact shadow. At the far edge, out of focus, a soft pale pink round powder puff. No hands, no people. LIGHT, two sources: (1) soft: dim warm tungsten from a bedside lamp out of frame left, lifting the shadows with amber; (2) hard: one small direct on-camera flash just above the lens, the main light and the small hard specular kicker, throwing a crisp black drop shadow down-right of every object and one small sharp white specular on each polished curve; flash held down so the metal never clips and every rope ridge stays readable. Beyond the flash the room falls to near-black. COMPOSITION: the hoop and the print are centred in the frame side by side, the hair tie just below them; the top third is calm near-black falloff for a headline; the bottom third is calm dusted walnut sinking into shadow, for a strip of type. GRADE: a real 35 mm night flash snapshot: velvety blacks with a faint oxblood cast, fine grain, slight vignette, true colour on the piece; candid, never glossy CGI. Full-bleed 9:16 photograph edge to edge; no borders, bands or panels. No text, no letters, no numbers, no logos, no watermark, no labels or printing on anything. No face, eyes, eyebrows or lips. Exactly one product, this one hoop; no other jewellery anywhere, no rings, bangles or watches on any hand. No second hoop, nothing inside the bare print.",
+  "status": "completed"
+ },
+ {
+  "slot": "k06-2A",
+  "ad": "k06-2",
+  "take": "A",
+  "handle": "charm-box-chain",
+  "job_id": "0f1143dd-9f4d-48cf-a525-347b9fc97788",
+  "file": "pics/k06-2A.png",
+  "size": "1520x2688",
+  "requested_model": "gpt_image_2_6",
+  "served_model": "gpt_image_2_6",
+  "quality": "high",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "credits": 2.75,
+  "medias": [
+   "f258e0db-2470-4395-a770-faca3ddabf55",
+   "5df3fb80-477c-42ae-9bce-8aedb889bfab"
+  ],
+  "submitted_at": "2026-11-20T18:24Z, round 2; refused with a 429 in round 1 (18:22Z), never submitted then",
+  "prompt": "Vertical 9:16 night snapshot in the back of a moving Indian auto-rickshaw, shot the party-photographer way: an on-camera flash with a slow shutter, so the piece is frozen needle-sharp while the street lights behind it streak. Reference 1 is the authority on this exact piece: copy its construction exactly and ignore its background and light. Reference 2 is a detail of the same piece. It shows the necklace worn at true size, the barrel on the upper breastbone; use reference 2 only for the piece and its true size, and take nothing else from it: not the person, her face, lips, hair, skin or camisole. Preserve the necklace exactly: a 50 cm box chain, 2.5 mm, polished 18k gold tone, threaded through 1 open-bore barrel charm about 10 mm tall and as long: 2 plain end rims and 2 raised polished ribs divide 3 pave bands, each 2 rows of tiny clear stones. No bail, no other charm. Must stay 3 bands split by 2 ribs, chain straight through the bore, never a solid pave band or a bail; square box links, never cable, curb, rope or snake. No star glints. Every box link, both rims and both ribs are the same 18k gold tone, warm-neutral yellow, never orange, copper or brassy; the pave stones clear and colourless. SCALE: the barrel is 10 mm, the size of a chickpea, 4-5 times the chain's width; the frame is about 5.5 cm across at the charm, so the barrel fills about 18% of the frame width. Referents touching the piece: the potli's knotted drawstring cord, about 3 mm thick, a little thicker than the chain, crosses the chain where it leaves the gathered neck, and the barrel is about the size of the drawstring's knot; the two strands lie over the seat's rounded front edge with a true contact shadow where they touch the vinyl. Never a barrel bigger than the knot. WORLD: on the worn black vinyl seat lies a small plain plum satin potli pouch, no embroidery, no beads, no tassels, no logo, its drawstring pulled shut and knotted; we are close on its gathered neck in the upper left. Out of the gathered neck has escaped one single U-shaped loop of the box chain: two strands run out of the neck, over the rounded front edge of the seat, and hang into the dark below, and the barrel charm has slid to the very bottom of the loop, hanging free, centred in the frame, its three pave bands and two ribs facing the lens, turned a little so the open bore at one end shows as in reference 1, the chain running straight through it, frozen needle-sharp, the brightest thing in the frame, with a crisp black flash shadow on the vinyl edge behind it. Behind and above, out of focus and smeared by the slow shutter: long horizontal streaks of orange sodium street light and a soft blur of the auto's yellow canvas hood; the streaks stay in the background and never cross the chain or the barrel. No hands, no people. LIGHT, two sources: (1) soft: dim warm tungsten from orange sodium street lamps passing outside out of frame left, lifting the shadows with amber; (2) hard: one small direct on-camera flash just above the lens, the main light and the small hard specular kicker, throwing a crisp black drop shadow down-right of every object and one small sharp white specular on each polished curve; flash held down so the metal never clips and every rib and pave row stays readable. Beyond the flash the room falls to near-black. COMPOSITION: the barrel centred in the frame at the bottom of its loop; the top third is dark potli satin and faint streaks, calm for a headline; the bottom third is the dark footwell below the seat, calm for a strip of type; the left quarter of the frame at mid-height, below the potli and clear of the chain, stays calm dark vinyl for a small paper card of type. GRADE: a real 35 mm night flash snapshot: velvety blacks with a faint oxblood cast, fine grain, slight vignette, true colour on the piece; candid, never glossy CGI. Full-bleed 9:16 photograph edge to edge; no borders, bands or panels. No text, no letters, no numbers, no logos, no watermark, no labels or printing on anything. No face, eyes, eyebrows or lips. Exactly one product, this one necklace; no other jewellery anywhere, no rings, bangles or watches on any hand. The chain is one single crisp loop, never doubled or ghosted by the slow shutter.",
+  "status": "completed"
+ },
+ {
+  "slot": "k06-3A",
+  "ad": "k06-3",
+  "take": "A",
+  "handle": "verdant-eternity-band",
+  "job_id": "ca065314-a3c1-4abd-beb7-6a255f4d5be1",
+  "file": "pics/k06-3A.png",
+  "size": "1520x2688",
+  "requested_model": "gpt_image_2_6",
+  "served_model": "gpt_image_2_6",
+  "quality": "high",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "credits": 2.75,
+  "medias": [
+   "2c3d1209-2571-4e63-95af-807e4650a83a",
+   "702645c3-7920-48ac-afaa-5ce4d51e868a"
+  ],
+  "submitted_at": "2026-11-20T18:24Z, round 2; refused with a 429 in round 1 (18:22Z), never submitted then",
+  "prompt": "Vertical 9:16 night snapshot at a sangeet, an on-camera flash catching a hand mid-pose. Reference 1 is the authority on this exact piece: copy its construction exactly and ignore its background and light. Reference 2 is a detail of the same piece. It shows how the ovals alternate either side of the wave; ignore its plaster block too. Preserve the ring exactly: an open-back adjustable band in bright rhodium silver tone, about 16.5 mm inside: about 11 oval green cubic zirconia, 5 x 4 mm, each in 4 claws. Across the front about 6 ovals alternate either side of 1 slim scalloped S-wave of tiny clear pave; toward the back the ovals sit in plain claws on scalloped bare metal, and the gap ends in 2 open looped tips. Must stay 1 single S-wave cupping each oval on one side only, never a straight row of ovals, never a full pave halo around each oval, never a closed full band. The clear pave is ONE slim line about two tiny stones wide that snakes from oval to oval: the ovals sit in a gentle zigzag, one nearer the knuckle edge of the band, the next nearer the fingertip edge, and the wave cups the half of each oval's outline that faces the middle of the band, then crosses between it and the next, so every oval has pave on one side only and bare claws on the other; never a broad sugared band, never a frame, loop or halo round any oval. Toward the back each green oval sits in 4 short claws, never a row of tall spikes. All metal, every claw and both looped tips are the same bright cool rhodium silver tone; the warm lights never tint them champagne or gold tone. SCALE: each oval is 5 mm, a third of a fingernail; about 5 ovals span the top of the finger; the frame is about 8 cm across at the ring, so the ring's front fills about 28% of the frame width. The finger it sits on is the referent touching it: the band is no wider than that finger, and her fanned fingers together fill almost the whole frame width; a true contact shadow where the band meets the skin. Never a chunky or oversized ring on a small hand. WORLD: the back of a young Indian woman's right hand rises from the bottom of the frame in the classic mehendi-display pose, fingers gently fanned, nails short and bare. Fresh deep orange-brown mehendi of abstract paisleys and fine vines covers the back of the hand, finer and sparser on the fingers, with bare skin just around the ring; no letters, names or initials hidden in it. Bare wrist, no bangles. She wears the ring on her middle finger, the front S-wave and green ovals squarely facing the lens, needle-sharp: green and white on warm henna, the brightest colour in the frame. Far behind, a few dim marigold fairy-light discs. LIGHT, two sources: (1) soft: dim warm tungsten from a string of fairy lights out of frame left, lifting the shadows with amber; (2) hard: one small direct on-camera flash just above the lens, the main light and the small hard specular kicker, throwing a crisp black drop shadow down-right of every object and one small sharp white specular on each polished curve; flash held down so the metal never clips and every claw and pave stone stays readable. Beyond the flash the room falls to near-black. COMPOSITION: the ring centred in the frame; the fingertips stop below the top third, which stays calm dark falloff for a headline; the bottom third is calm wrist and dark for a strip of type. GRADE: a real 35 mm night flash snapshot: velvety blacks with a faint oxblood cast, fine grain, slight vignette, true colour on the piece; candid, never glossy CGI. Full-bleed 9:16 photograph edge to edge; no borders, bands or panels. No text, no letters, no numbers, no logos, no watermark, no labels or printing on anything. No face, eyes, eyebrows or lips. Exactly one product, this one ring; no other jewellery anywhere, no rings, bangles or watches on any hand.",
+  "status": "completed"
+ },
+ {
+  "slot": "k06-4A",
+  "ad": "k06-4",
+  "take": "A",
+  "handle": "monochrome-enamel-hoops",
+  "job_id": "515c028e-8b6a-40f5-9f5a-3fdf4b9d3529",
+  "file": "pics/k06-4A.png",
+  "size": "1520x2688",
+  "requested_model": "gpt_image_2_6",
+  "served_model": "gpt_image_2_6",
+  "quality": "high",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "credits": 2.75,
+  "medias": [
+   "970635a3-fe88-4ac1-bdf9-a62c7554a87e",
+   "2ee2cf91-322a-4c28-819c-94b7b7c9989d"
+  ],
+  "submitted_at": "2026-11-20T18:24Z, round 2; refused with a 429 in round 1 (18:22Z), never submitted then",
+  "prompt": "Vertical 9:16 night snapshot looking down at about 55 degrees at an old Bombay Art Deco hallway floor, lit by an on-camera flash. Reference 1 is the authority on this exact piece: copy its construction exactly and ignore its background and light. Reference 2 is a detail of the same piece. It confirms one hoop's stripes and its plain ribbed inside. Preserve the earrings exactly: 1 pair of chunky open-C post hoops, 20 mm tall, 7 mm wide, mirror-polished 18k gold tone. Each front: 2 glossy enamel stripes side by side, 1 black, 1 white, near-equal width, between 3 gold-tone rails (2 rounded edges, 1 fine centre). Inside plain polished gold tone, softly ribbed, no enamel. 1 thin post at the top end, 0 stones. Must stay exactly 1 black and 1 white stripe on an open C, never more or alternating bands, never a closed ring; the white stays pure white, never cream. Every rail, the inside and both posts are the same 18k gold tone, warm-neutral yellow, never orange, copper or brassy. SCALE: each hoop is 20 mm tall, a one-rupee coin, and 7 mm wide, a pencil's thickness; the frame is about 6.5 cm across at the hoops, so each hoop is about 30% of the frame width. The brass strip they touch is the referent: it is 3 mm wide, so each hoop's 7 mm band is a little more than twice the strip's width and each hoop is about seven strip-widths tall. WORLD: the floor fills the whole frame, no wall and no horizon. The left half is honed matte black stone and the right half honed matte white stone; exactly where they meet, one straight 3 mm brass divider strip runs vertically through the centre of the frame from the top edge to the bottom edge. The two hoops stand upright either side of the brass strip, the foot of each hoop just touching the strip's edge: the left hoop on the black stone, the right hoop on the white stone, both three-quarter to camera as in reference 1, both fronts facing the lens, needle-sharp, each with a dark contact shadow and a crisp flash shadow. No hands, no people, no other objects. LIGHT, two sources: (1) soft: dim warm tungsten from a hallway bulb out of frame left, lifting the shadows with amber; (2) hard: one small direct on-camera flash just above the lens, the main light and the small hard specular kicker, throwing a crisp black drop shadow down-right of every object and one small sharp white specular on each polished curve; flash held down so the metal never clips and every enamel edge and gold-tone rail stays readable. Beyond the flash the room falls to near-black. COMPOSITION: the pair centred, straddling the brass strip; above them the two halves of floor are calm and empty for a headline; the bottom third is calm empty stone for a strip of type. Dry honed stone, never mirror-polished: no reflections, no water. GRADE: a real 35 mm night flash snapshot: velvety blacks with a faint oxblood cast, fine grain, slight vignette, true colour on the piece; candid, never glossy CGI. Full-bleed 9:16 photograph edge to edge; no borders, bands or panels. No text, no letters, no numbers, no logos, no watermark, no labels or printing on anything. No face, eyes, eyebrows or lips. Exactly one product, this one pair; no other jewellery anywhere, no rings, bangles or watches on any hand. No checkerboard, no tiles, only two halves and one brass strip. Each hoop front shows exactly one black and one white stripe, never echoing the floor with more bands.",
+  "status": "completed"
+ },
+ {
+  "slot": "k06-5A",
+  "ad": "k06-5",
+  "take": "A",
+  "handle": "ribbon-bead-bracelet",
+  "job_id": "71fff764-c71c-4e9a-8309-83ad6ff3db8d",
+  "file": "pics/k06-5A.png",
+  "size": "1520x2688",
+  "requested_model": "gpt_image_2_6",
+  "served_model": "gpt_image_2_6",
+  "quality": "high",
+  "resolution": "2k",
+  "aspect_ratio": "9:16",
+  "credits": 2.75,
+  "medias": [
+   "a7f215c0-f762-4ccf-b0df-de6dd30ddea8",
+   "1b1b0b07-cf3c-449d-b6e2-db785e15c8e8"
+  ],
+  "submitted_at": "2026-11-20T18:24Z, round 2; refused with a 429 in round 1 (18:22Z), never submitted then",
+  "prompt": "Vertical 9:16 night snapshot at a dining table, an on-camera flash catching a settled account. Reference 1 is the authority on this exact piece: copy its construction exactly and ignore its background and light. Reference 2 is a detail of the same piece. It is the authority on the bow: two hearts points-in under the polished bar, 4 claws at the outer lobes. Preserve the bracelet exactly: hair-fine 1.2 mm cable chain, all 18k gold tone, 6 tiny 2 mm round beads, 3 each side, a lobster clasp and short extender. Centre: exactly 2 separate 5 mm heart-cut clear cubic zirconia, points meeting under 1 polished bar, held by 4 fine claws at the outer lobes, reading as a tiny bow 10 x 5.5 mm. Must stay 2 distinct hearts at little-fingernail scale, never one merged stone, never a fabric or metal ribbon bow, never larger. Every link, bead, claw, the bar and the clasp are the same 18k gold tone, warm-neutral yellow, never orange, copper or brassy; the hearts clear and colourless. SCALE: the bow is 10 mm wide, a little fingernail, about a fifth of the wrist's width; the frame is about 5.5 cm across, so the wrist runs edge to edge and the bow fills about 18% of the frame width. The wrist it rests on is the referent touching it: the bow is a little smaller than the round knob of her wrist bone beside it, with a true soft contact shadow under the bow, the beads and the chain where they rest on the skin. Never a bow as big as the knob of the wrist. WORLD: on a dark teak dining table lies a closed bahi-khata, a long Indian account book bound in plain deep red cloth with no markings, symbols, emblems or lettering, its plain white cotton tie-string wound twice round it and knotted, one loose end trailing. A younger woman's left wrist lies across the closed book, back of the wrist up, only the heel of her relaxed hand at the left edge, the rest of the hand out of frame: at this close field no fingers or nails show. The bracelet sits on top of her wrist, the bow centred and facing the lens, needle-sharp, three beads either side, the clasp tucked out of sight under the wrist. The red cloth fills the frame around the wrist; the teak shows only at the top edge. LIGHT, two sources: (1) soft: dim warm tungsten from a dining-room pendant lamp out of frame left, lifting the shadows with amber; (2) hard: one small direct on-camera flash just above the lens, the main light and the small hard specular kicker, throwing a crisp black drop shadow down-right of every object and one small sharp white specular on each polished curve; flash held down so the metal never clips and both hearts and the bar stay readable. Beyond the flash the room falls to near-black. COMPOSITION: the bow centred in the frame; the top third is calm red cloth falling into dark for a headline; the bottom third is calm red cloth and the white tie-string for a strip of type. GRADE: a real 35 mm night flash snapshot: velvety blacks with a faint oxblood cast, fine grain, slight vignette, true colour on the piece; candid, never glossy CGI. Full-bleed 9:16 photograph edge to edge; no borders, bands or panels. No text, no letters, no numbers, no logos, no watermark, no labels or printing on anything. No face, eyes, eyebrows or lips. Exactly one product, this one bracelet; no other jewellery anywhere, no rings, bangles or watches on any hand. One hand only.",
+  "status": "completed"
+ }
+]
