@@ -1,0 +1,1358 @@
+{
+ "rows": {
+  "b01-1": {
+   "A": 8.1875,
+   "B": 8.1625,
+   "mean": 8.175,
+   "dimsA": {
+    "stop": 7.75,
+    "message": 8.75,
+    "truth": 8.0,
+    "layout": 8.5,
+    "brand": 8.75,
+    "copy": 8.5,
+    "fit": 7.5,
+    "desire": 7.75,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 7.75,
+    "message": 9.0,
+    "truth": 7.75,
+    "layout": 8.25,
+    "brand": 8.5,
+    "copy": 8.5,
+    "fit": 8.0,
+    "desire": 7.75,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": false,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 8,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 7.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Proposal' is used only as a style word, as the listing allows. Silver tone and cubic zirconia, no banned words. BUY2/BUY3 values match RULINGS. Stock 45, ₹999. Product only, no face. The Story carries no text, as A6 asks.",
+      "worstIssue": "The ring fills only about a third of the width (under A6's 35%) on a familiar velvet-pillow set-up. At 200 px it reads as a polished catalogue still, and the stop rests on the headline.",
+      "zeroCreditFix": "Pull the headline block down about 100 px so it sits just above the ring's light bloom. That closes the dead band and makes the proposal line and the ring read as one unit at thumbnail size.",
+      "run": 0
+     },
+     {
+      "stop": 8,
+      "message": 9,
+      "truth": 8,
+      "layout": 8.5,
+      "brand": 9,
+      "copy": 8.5,
+      "fit": 7.5,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Cushion Halo may carry claims; 'looks like a proposal', 8 mm cubic zirconia, silver tone and adjustable are all allowed. BUY2/BUY3 verified, stock 45, price Rs 999. The Story has no text, which A6 allows, so it needs no wordmark. No face.",
+      "worstIssue": "The ring fills only about 31% of the width (A6 asks for at least 35%), and side-on the cushion halo is hard to read, so at 200 px it can pass for a generic solitaire. It also borrows A2's headline instead of an A6 mechanism line.",
+      "zeroCreditFix": "Make the italic second beat 'priced like a present: ₹999.' so the price lands at headline scale at 200 px and closes the proposal-versus-price device.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8,
+      "message": 9,
+      "truth": 7.5,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 8.5,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Proposal' is used as a likeness, and 'proposal-style' is allowed. No diamond. 'Silver tone' and 'adjustable' are allowed (Adjustable tag). The offer values are verified. The Story has no text, as A6 allows. Stock 45.",
+      "worstIssue": "The ring is magnified about 3x in profile with no 'shown magnified' tag. The side view hides the cushion-shaped halo that names the product, and there is a small star glint on one prong.",
+      "zeroCreditFix": "Add 'SHOWN MAGNIFIED · HALO ABOUT 12 MM' as a Jost line between the ring and the wordmark.",
+      "run": 2
+     },
+     {
+      "stop": 7.5,
+      "message": 9,
+      "truth": 8,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 7.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Looks like a proposal' fits the listing's allowed 'proposal-style'. The card says '8 mm cubic zirconia · silver tone · adjustable' (Adjustable tag). Ring proportions check out: the 8 mm stone against about 16.7 mm inside. No claims are used. BUY2 and BUY3 are verified. Stock 45.",
+      "worstIssue": "The Story twin has no text at all (A6 allows this), so every Story placement shows no wordmark, name, price or offer. The Feed also has a small star glint on the top claw, and the ring sits at about 32% of the width against A6's 35%.",
+      "zeroCreditFix": "Put the card (wordmark, Cushion Halo Ring ₹999, the BUY2/BUY3 box) in the Story's empty upper band at y 270-700.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b02-1": {
+   "A": 6.475,
+   "B": 7.0625,
+   "mean": 6.7687,
+   "dimsA": {
+    "stop": 8.0,
+    "message": 7.25,
+    "truth": 0.0,
+    "layout": 7.25,
+    "brand": 7.5,
+    "copy": 7.75,
+    "fit": 7.0,
+    "desire": 7.5,
+    "cues": 8.0
+   },
+   "dimsB": {
+    "stop": 7.75,
+    "message": 7.25,
+    "truth": 3.0,
+    "layout": 7.75,
+    "brand": 8.0,
+    "copy": 8.0,
+    "fit": 7.0,
+    "desire": 7.5,
+    "cues": 8.5
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "A truth 0.00",
+    "B truth 3.00"
+   ],
+   "beatsLoser": true,
+   "beatsWinner": false,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 8,
+      "message": 7,
+      "truth": 0,
+      "layout": 8,
+      "brand": 8,
+      "copy": 8,
+      "fit": 7,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass on words and rulings. Woven carries the claim tags, so 'waterproof' as a second beat and the water droplets are allowed. 'Zero stones' is true to the listing. 18k gold tone PVD. Stock 89, ₹1,049. Back of the head, no face. The scale failure is handled under truth (cap 0), not here.",
+      "worstIssue": "The hoops read about 1.3 to 1.5x true size: hoop height is about 0.6 of the ear, where a 25 mm hoop would be about 0.45. They are also oval, and each grew a small loop at the bottom that the listing piece does not have. The worn over-1.2x cap applies: rebuild.",
+      "zeroCreditFix": "none (the picture needs a rebuild at true size, with round hoops and no bottom loop; no words or layout change fixes scale)",
+      "run": 0
+     },
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 0,
+      "layout": 6.5,
+      "brand": 7,
+      "copy": 7.5,
+      "fit": 7,
+      "desire": 7.5,
+      "cues": 7.5,
+      "compliancePass": false,
+      "complianceNotes": "Fail on the §7 true-size line ('worn frames generated directly at true size'). Each hoop hangs about 195 px tall against an ear of about 315 px and a neck of about 610 px, roughly 33-37 mm tall against the listed 25 mm round (about 1.4-1.5x), and it is drawn as a vertical oval. Words are otherwise compliant: Woven may carry claims and water imagery, 'zero stones' matches the listing's 'no stones', and it says 18k gold tone PVD. BUY2/BUY3 verified, stock 89, price Rs 1,049, back view with no face.",
+      "worstIssue": "The worn hoops read about 1.4-1.5x true size and oval, against a lock that says 'never oval or larger'. That is an automatic truth 0 and a rebuild, and it undercuts an otherwise strong braid-plus-droplets story.",
+      "zeroCreditFix": "none. The oversized, oval hoops need a regenerated picture; no word or layout change fixes scale.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 5,
+      "layout": 8,
+      "brand": 8,
+      "copy": 8.5,
+      "fit": 8,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Woven is allowed claims and water imagery, and 'and yes, waterproof' is a second beat. 'Zero stones' is true for Woven (the listing says no stones). '18k gold tone PVD' is correct. No face (back of the head). The offer values are verified. Stock 89.",
+      "worstIssue": "Each hoop has an invented small loop hanging at the bottom. The real hoop's hinge, latch and disc are all at the top, so this is a countable construction detail off, although the width (about 25 mm against the ear) is true.",
+      "zeroCreditFix": "Replace 'hoop earrings' in the spec line with 'about 25 mm across' so the true size is stated (the loop itself needs a new picture).",
+      "run": 2
+     },
+     {
+      "stop": 7.5,
+      "message": 7,
+      "truth": 1,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 7.5,
+      "fit": 6,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": false,
+      "complianceNotes": "FAIL on the true-size gate item. The worn hoops measure about 0.6 of the ear's height (about 195 px against an ear of about 322 px) and about 0.2 of the ear-to-ear head width. A 25 mm hoop should be about 0.42 of the ear, so the hoops read about 1.4-1.5x true size, and the braid reads about 8 mm thick against a listed 5 mm. The rubric cap for a worn piece over 1.2x is 0, rebuild; 1 is entered as the scale floor. The words themselves pass: waterproof and water imagery are allowed for Woven, the view is from behind (no face), BUY2 and BUY3 are verified, and stock is 89.",
+      "worstIssue": "The worn hoops render about 1.4-1.5x their listed 25 mm against the ear and head. Each hoop also gains an invented small loop at the bottom that the reference does not have.",
+      "zeroCreditFix": "none: no change to words or layout can fix a worn piece shown oversized; the frame must be regenerated at true size.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b02-5": {
+   "A": 7.85,
+   "B": 7.875,
+   "mean": 7.8625,
+   "dimsA": {
+    "stop": 8.0,
+    "message": 7.25,
+    "truth": 9.0,
+    "layout": 8.0,
+    "brand": 7.75,
+    "copy": 7.25,
+    "fit": 6.75,
+    "desire": 7.0,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 8.0,
+    "message": 7.75,
+    "truth": 9.0,
+    "layout": 8.25,
+    "brand": 7.75,
+    "copy": 7.25,
+    "fit": 6.5,
+    "desire": 6.75,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": true,
+   "runs": {
+    "A": [
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 9,
+      "layout": 8.5,
+      "brand": 8,
+      "copy": 7.5,
+      "fit": 7,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Emerald-green cubic zirconia' uses the colour as an adjective only. 'Adjustable US 5 to 9' and 'waterproof' are allowed for this SKU. Stock 58, ₹1,049. BUY2/BUY3 verified. Product only.",
+      "worstIssue": "The saturated saffron ground breaks A1's dark-ground palette and competes with the green stones. With no headline, the ad carries no claim beyond the spec line.",
+      "zeroCreditFix": "Lead the card line with the benefit the Meta text opens on: 'one ring, US 5 to 9 · emerald-green cubic zirconia'.",
+      "run": 0
+     },
+     {
+      "stop": 8,
+      "message": 7,
+      "truth": 9,
+      "layout": 7.5,
+      "brand": 7.5,
+      "copy": 7,
+      "fit": 6.5,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Verdant Eternity may carry claims ('waterproof' in the Meta text). Says 'emerald-green cubic zirconia', silver tone and adjustable US 5 to 9, all listing words. BUY2/BUY3 verified, stock 58, price Rs 1,049.",
+      "worstIssue": "The saturated saffron ground competes with the green stones and breaks A1's dark-ground rule, where the stone should be the only saturated colour. With no line beyond the card, the Feed is a bright packshot with no hook, and the ring's top almost touches the frame edge.",
+      "zeroCreditFix": "Put the Meta hook on the image by making the card line 'one ring, US 5 to 9 · emerald-green cubic zirconia'.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8,
+      "copy": 7,
+      "fit": 6,
+      "desire": 6.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Emerald-green cubic zirconia' is used as an adjective, 'adjustable US 5 to 9' is a listing fact with the Adjustable tag, and the 16.5 mm inside size is from the listing. The waterproof claim is allowed on this SKU and appears only in the Meta text. The offer values are verified. Stock 58.",
+      "worstIssue": "This is a cold catalogue still life: a silver-tone ring on a bright saffron ground with black type, which A1 forbids (clear and silver-tone pieces only on dark grounds, bone type). There is no moment to make it wanted.",
+      "zeroCreditFix": "Carry the Meta hook onto the image as one line, 'ONE RING. / US 5 TO 9.', above the size tag, so the Feed sells the adjustable mechanism instead of only naming the ring.",
+      "run": 2
+     },
+     {
+      "stop": 8,
+      "message": 8,
+      "truth": 9,
+      "layout": 8.5,
+      "brand": 7.5,
+      "copy": 7.5,
+      "fit": 7,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The S-wave of clear pavé, the alternating oval green stones and the looped open back all match the upright reference. The size tag 'about 16.5 mm inside' is listed. 'Emerald-green cubic zirconia' is used correctly as an adjective. Waterproof is allowed (Meta text only). Stock 58.",
+      "worstIssue": "A1 calls for a dark ground with the stone colour as the only saturated element, and for silver-tone pieces only on dark grounds. Here a loud saffron ground competes with the green and washes the silver tone. Without a headline, the frame gives no reason for the colour.",
+      "zeroCreditFix": "Put the Meta hook 'ONE RING, US 5 TO 9.' in the empty upper-left corner so the bright frame states the adjustable-fit benefit at a glance.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b03-1": {
+   "A": 8.2,
+   "B": 8.3625,
+   "mean": 8.2812,
+   "dimsA": {
+    "stop": 8.0,
+    "message": 8.5,
+    "truth": 8.75,
+    "layout": 7.75,
+    "brand": 8.5,
+    "copy": 8.5,
+    "fit": 7.75,
+    "desire": 7.0,
+    "cues": 9.0
+   },
+   "dimsB": {
+    "stop": 8.25,
+    "message": 8.75,
+    "truth": 8.75,
+    "layout": 8.0,
+    "brand": 8.5,
+    "copy": 8.75,
+    "fit": 8.0,
+    "desire": 7.25,
+    "cues": 9.0
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": true,
+   "runs": {
+    "A": [
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 7.5,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 7.5,
+      "desire": 7,
+      "cues": 9,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Brushed, not polished' is listing wording. 18k gold tone PVD; 'gold' appears only in the product name. Claims are allowed for this SKU. Stock 58, ₹699. Size tag present.",
+      "worstIssue": "Upright, untilted and uncropped on a plain plum ground, the pair reads at 200 px as two chunky gold rings or cuffs. The size tag sits up in the headline zone, away from the piece it measures.",
+      "zeroCreditFix": "Move the size tag to one line directly under the pair, above the wordmark, worded 'shown magnified · huggie earrings about 14 mm tall' (as the Story does).",
+      "run": 0
+     },
+     {
+      "stop": 8.5,
+      "message": 8.5,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 8,
+      "desire": 7,
+      "cues": 9,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Brushed may carry claims. 'Brushed, not polished' is the listing's own finish line, and 'about 14 mm' is the current listing size, not the stale 12 mm. 18k gold tone PVD. BUY2/BUY3 verified (BUY3 20% in the Meta text), stock 58, price Rs 699.",
+      "worstIssue": "It is product-only on flat plum: craft and finish are perfectly proved, but there is no wearer, moment or occasion, so desire stays clean but cool. The size tag also crowds the italic line's row.",
+      "zeroCreditFix": "Change the gold italic beat from 'the ₹699 earrings.' to 'the ₹699 everyday pair.' so the price lands with a wearing moment.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8.5,
+      "message": 9,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 9,
+      "fit": 8.5,
+      "desire": 7.5,
+      "cues": 9,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Brushed, not polished' is the listing's own finish line. 'About 14 mm' and '18k gold tone PVD' are listing facts. The claims appear only as a Meta proof beat on an allowed SKU. The BUY3 20% and BUY2 10% values are verified. Stock 58.",
+      "worstIssue": "A product-only still life on plum sells the satin finish but not the wearing: there is no skin and no moment. The boxed size tag also sits only about 30 px above the right huggie.",
+      "zeroCreditFix": "Change the second beat to 'the ₹699 everyday pair.' to add the wear moment, and drop the size tag to a single line under the huggies, as on the Story.",
+      "run": 2
+     },
+     {
+      "stop": 8,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 7.5,
+      "desire": 7,
+      "cues": 9,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Brushed, not polished' comes from the listing finish line ('soft brushed satin, not mirror polished'). The size tag 'about 14 mm tall' matches the listing. 18k gold tone PVD is listed. Waterproof and tarnish-free are allowed (Meta text only). BUY2 and BUY3 values are verified. Stock 58.",
+      "worstIssue": "The A4 monument mechanism is only half done. The pair stands upright and fully inside the frame (no 10-35 degree tilt, no edge crop), so it reads as a big packshot rather than a monument crop. The product-only scene keeps desire cool.",
+      "zeroCreditFix": "Move the Feed size tag off the second-beat row to sit beside the right huggie. 'BRUSHED, NOT POLISHED.' and 'the ₹699 earrings.' then read as one clean block in the calm corner.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b03-2": {
+   "A": 7.8125,
+   "B": 8.0375,
+   "mean": 7.925,
+   "dimsA": {
+    "stop": 7.75,
+    "message": 7.25,
+    "truth": 8.5,
+    "layout": 8.0,
+    "brand": 8.0,
+    "copy": 7.0,
+    "fit": 7.75,
+    "desire": 7.25,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 7.75,
+    "message": 7.75,
+    "truth": 9.0,
+    "layout": 8.5,
+    "brand": 8.5,
+    "copy": 7.25,
+    "fit": 7.75,
+    "desire": 7.25,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": true,
+   "runs": {
+    "A": [
+     {
+      "stop": 7,
+      "message": 7,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8,
+      "copy": 7,
+      "fit": 7.5,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. NAIRA10 at 10% off any order is verified. Silver tone, cubic zirconia, adjustable (the listing has the tag). 'Proposal-style' in the Meta text is allowed. Stock 45, ₹999. A magnified macro with a size tag.",
+      "worstIssue": "With no headline and a mid-brown ground, it reads as the listing macro reshot: pleasant and catalogue-like, with no idea to stop on.",
+      "zeroCreditFix": "Lead the card line with the proven hook: 'proposal-style halo · 8 mm cubic zirconia · adjustable'.",
+      "run": 0
+     },
+     {
+      "stop": 8.5,
+      "message": 7.5,
+      "truth": 8,
+      "layout": 8,
+      "brand": 8,
+      "copy": 7,
+      "fit": 8,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Cushion Halo may carry claims; 'proposal-style', 'adjustable', silver tone and cubic zirconia are all allowed. Code NAIRA10 at 10% off any order is verified. Stock 45, price Rs 999. No face.",
+      "worstIssue": "The Feed is a beautiful but mute packshot. The one hook ('proposal-style') lives only in the Meta text, so the image gives no reason to want it beyond sparkle. The shoulders also read close to a double pave row.",
+      "zeroCreditFix": "Change the card's one line to 'proposal-style halo · 8 mm cubic zirconia · adjustable' so the hook appears on the image.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 9,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 7,
+      "fit": 7.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Proposal-style', 'silver tone', 'adjustable' and '8 mm cubic zirconia' are allowed. The 12 mm halo is a listing size. No diamond. NAIRA10 is printed as 10% off any order (verified). The waterproof claim is allowed and appears only in the Meta text. Stock 45.",
+      "worstIssue": "The Feed has no idea on the image: the 'Proposal-style halo' hook lives only in the Meta text. The ground is a mid cocoa rather than the dark ground A1 asks for with a clear piece.",
+      "zeroCreditFix": "Open the card's spec line with the allowed hook: 'proposal-style halo · 8 mm cubic zirconia · adjustable'.",
+      "run": 2
+     },
+     {
+      "stop": 7.5,
+      "message": 8,
+      "truth": 9,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 7.5,
+      "fit": 8,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Construction matches the macro reference: a single-row cushion halo, 4 claws and pavé shoulders. The size tag 'halo about 12 mm' is a listing figure. 'Adjustable' is allowed (Adjustable tag), and the waterproof and tarnish-free claims are allowed for Cushion Halo (Meta text only). NAIRA10 at 10% off is verified. Stock 45.",
+      "worstIssue": "A cold, product-only macro with a spec-only card. The 'proposal-style' hook that sells this ring appears only in the Meta text, so the image relies on sparkle alone for desire.",
+      "zeroCreditFix": "Rewrite the card line as 'proposal-style halo · 8 mm cubic zirconia · silver tone' so the image carries the hook.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b03-3": {
+   "A": 7.3,
+   "B": 7.475,
+   "mean": 7.3875,
+   "dimsA": {
+    "stop": 6.75,
+    "message": 6.0,
+    "truth": 7.0,
+    "layout": 7.75,
+    "brand": 7.75,
+    "copy": 8.25,
+    "fit": 8.75,
+    "desire": 6.25,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 7.0,
+    "message": 6.0,
+    "truth": 7.5,
+    "layout": 8.25,
+    "brand": 8.5,
+    "copy": 8.25,
+    "fit": 8.25,
+    "desire": 6.5,
+    "cues": 8.25
+   },
+   "compliance": true,
+   "truthOk": false,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 7,
+      "message": 6,
+      "truth": 7,
+      "layout": 8.5,
+      "brand": 8,
+      "copy": 8.5,
+      "fit": 9,
+      "desire": 6.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Tiger eye, champagne crystal, US 5 to 9, about 4 g, surgical stainless steel and 18k gold tone PVD are all listing words. 'Halo' appears only in the product name. Callout leaders end on metal, not on stones. Stock 29, ₹899.",
+      "worstIssue": "A magnified product shot (about 1.3 to 1.6x on a phone) carries no size tag, which keeps truth under the ship bar of 8. The five text elements (headline, three callouts, card) also cap the message at 6.",
+      "zeroCreditFix": "Rewrite the OPEN BAND callout's second line as 'shown magnified · about 17 mm inside · US 5 to 9'.",
+      "run": 0
+     },
+     {
+      "stop": 6.5,
+      "message": 6,
+      "truth": 7,
+      "layout": 7,
+      "brand": 7.5,
+      "copy": 8,
+      "fit": 8.5,
+      "desire": 6,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Halo Curve may carry claims ('waterproof' in the primary text). 'Halo' is used only in the product name; says champagne crystal, not cubic zirconia. Tiger eye, 18k gold tone PVD, surgical stainless steel, US 5 to 9 and 4 g are all listing facts. BUY2/BUY3 verified, stock 29, price Rs 899.",
+      "worstIssue": "The ring is magnified with no size tag (only 'US 5 to 9' hints at scale), which keeps truth under the ship line. The headline, three callouts and full card also exceed four text elements and read as a spec sheet on a mid-sage ground with little contrast or desire.",
+      "zeroCreditFix": "Rewrite the OPEN BAND callout's second line as 'shown magnified · about 17 mm inside, US 5 to 9' (moving 'about 4 g' to the Meta text), so the size tag rides in an existing element without adding a text element.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 7,
+      "message": 6,
+      "truth": 7.5,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 8.5,
+      "desire": 6.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Tiger eye and champagne crystal are named as listed, and the crystal is never called CZ. 'Halo' appears only in the product name. 'Surgical stainless steel', '18k gold tone PVD', 'US 5 to 9' and '4 g' are listing facts. The claim is allowed on this SKU and appears only in the Meta text. The offer values are verified. Stock 29.",
+      "worstIssue": "The ring is magnified about 5x with no millimetre size or 'shown magnified' tag. US 5 to 9 and 4 g do not tell the eye how big the stones are. Five text elements also trigger the one-message cap.",
+      "zeroCreditFix": "Rewrite the tiger-eye callout as 'TIGER EYE, ABOUT 11.8 MM' (the A8 listing wording), so the macro carries a true size without adding an element.",
+      "run": 2
+     },
+     {
+      "stop": 7,
+      "message": 6,
+      "truth": 7.5,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 8,
+      "desire": 6.5,
+      "cues": 8,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Claims are allowed for Halo Curve, and 'waterproof' appears only in the Meta text. The image uses listing words only: tiger eye, champagne crystal, US 5 to 9, about 4 g, surgical stainless steel, 18k gold tone PVD. 'Halo' appears only in the product name. No banned words, no compare-at price, no free shipping. Stock 29.",
+      "worstIssue": "The ring is magnified about 3x as a product-only macro with no 'shown magnified' or mm tag, so the size is unclear (truth stays under the ship bar). The headline, three callouts and card also make five text elements, which caps one message at 6.",
+      "zeroCreditFix": "Change the tiger-eye callout's second line to 'about 11.8 mm · shown magnified' (a listing figure). The macro then has a size tag without adding a sixth text element.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b03-5": {
+   "A": 8.0875,
+   "B": 8.1125,
+   "mean": 8.1,
+   "dimsA": {
+    "stop": 8.25,
+    "message": 8.25,
+    "truth": 7.25,
+    "layout": 8.5,
+    "brand": 8.5,
+    "copy": 8.25,
+    "fit": 8.75,
+    "desire": 7.5,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 8.0,
+    "message": 8.5,
+    "truth": 7.75,
+    "layout": 8.5,
+    "brand": 8.75,
+    "copy": 8.25,
+    "fit": 8.5,
+    "desire": 7.25,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": false,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 8,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 9,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. It correctly carries no waterproof or tarnish claim and no water imagery. 'Pearl' appears only in the product name, with 'silver tone · cubic zirconia' per the RULINGS §3 pearl ruling. Stock 25, ₹1,199.",
+      "worstIssue": "The sangeet exists only in the words. The picture is a product-on-riser still, so desire stops at clean and premium.",
+      "zeroCreditFix": "Add the true size to the card line, 'about 17.5 mm across · silver tone · cubic zirconia', so the statement scale becomes a proof beat.",
+      "run": 0
+     },
+     {
+      "stop": 8.5,
+      "message": 8,
+      "truth": 6,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 8.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Pearl Double Halo may not carry claims, and none are used. 'Pearl' appears only in the product name; says silver tone and cubic zirconia, with no PVD, steel or freshwater. BUY2/BUY3 verified, stock 25, price Rs 1,199. No face.",
+      "worstIssue": "There is no size tag or size reference on a heavily magnified pair (17.5 mm studs drawn about 290 px wide each), so size is unclear even though the construction matches: inner round pave band, open gap with bridges, outer softened-square band.",
+      "zeroCreditFix": "Add the house size tag 'SHOWN MAGNIFIED · ABOUT 17.5 MM ACROSS' in the calm dark area right of the italic line (Feed) and under the riser (Story).",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8,
+      "message": 8.5,
+      "truth": 7,
+      "layout": 8.5,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 8.5,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Pearl Double Halo gets no claims, and none are made. 'Pearl' appears only in the product name, with 'silver tone · cubic zirconia' and 'bright silver tone' (the listing's words). The BUY2/BUY3 values are verified. No water imagery and no face. Stock 25.",
+      "worstIssue": "The studs are shown at roughly 4x life size with no size tag, and 17.5 mm appears nowhere in the image or the Meta text. The construction is right (inner round band, open bridged gap, outer softened square), but the true size cannot be told.",
+      "zeroCreditFix": "Add a Jost line 'SHOWN MAGNIFIED · ABOUT 17.5 MM ACROSS' under the studs, just above the wordmark.",
+      "run": 2
+     },
+     {
+      "stop": 8,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 8.5,
+      "brand": 9,
+      "copy": 8.5,
+      "fit": 8.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. No claims and no water, as Pearl Double Halo requires. 'Pearl' appears only in the product name, with 'silver tone · cubic zirconia' on the card and 'bright silver tone' in the Meta text, as listed. There is no PVD, steel or freshwater. The inner round band, the open gap with bridges, the outer softened-square band and the centre pearl of about 10 mm all match the references. Stock 25.",
+      "worstIssue": "The frame gives no size cue: no tag and no referent on a product-only close-up. The studs happen to sit near true size on a phone, but a viewer cannot tell. Desire also rests on the spotlight alone, with no skin or moment.",
+      "zeroCreditFix": "Extend the card line to 'silver tone · cubic zirconia · about 17.5 mm across' (a listing figure).",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b04-0": {
+   "A": 7.75,
+   "B": 7.65,
+   "mean": 7.7,
+   "dimsA": {
+    "stop": 8.0,
+    "message": 7.5,
+    "truth": 8.75,
+    "layout": 8.25,
+    "brand": 7.5,
+    "copy": 6.75,
+    "fit": 6.5,
+    "desire": 6.75,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 8.0,
+    "message": 7.5,
+    "truth": 8.0,
+    "layout": 8.25,
+    "brand": 8.0,
+    "copy": 6.75,
+    "fit": 6.25,
+    "desire": 6.75,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": true,
+   "runs": {
+    "A": [
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 9,
+      "layout": 8.5,
+      "brand": 8,
+      "copy": 7,
+      "fit": 7,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. It correctly carries no waterproof or tarnish claim. Gold tone and enamel only; no PVD or steel wording. Exactly one black and one white stripe, as listed. Stock 24, ₹999. Size tag present.",
+      "worstIssue": "The Feed has no hook: the strong 'Black. White. Gold tone.' line appears only on the Story. The terracotta ground, not A1's dark ground, competes with the gold.",
+      "zeroCreditFix": "Use 'black. white. gold tone.' as the card's one line in place of 'black and white enamel · gold tone'.",
+      "run": 0
+     },
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 8.5,
+      "layout": 8,
+      "brand": 7,
+      "copy": 6.5,
+      "fit": 6,
+      "desire": 6.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Monochrome Enamel Hoops may not carry claims, and none are used anywhere; no water imagery. Says gold tone, not 'gold'. BUY2/BUY3 verified. Stock 24, price Rs 999. No face.",
+      "worstIssue": "The Feed says nothing beyond the card. The ad's best words ('BLACK. WHITE. GOLD TONE.') appear only on the Story, and the picture is really A13 levitation on a saturated terracotta ground, not the dark-ground A1 card it is labelled as.",
+      "zeroCreditFix": "Set 'BLACK. WHITE. / GOLD TONE.' top-centre on the Feed (the calm terracotta above the hoops) and file the ad as A13 levitation, which is what the picture executes.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 8.5,
+      "layout": 8.5,
+      "brand": 8,
+      "copy": 6.5,
+      "fit": 6.5,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Monochrome Enamel gets no claims, and none are made. 'Gold tone' and 'black and white enamel' are listing words. No PVD or steel words. The offer values are verified. Stock 24.",
+      "worstIssue": "The Feed carries no idea beyond the card (name, price, spec line). The strong 'BLACK. WHITE. GOLD TONE.' line is only on the Story. The terracotta ground with black type also breaks A1's dark-ground, bone-type palette, and the levitation belongs to A13.",
+      "zeroCreditFix": "Put the Story's 'BLACK. WHITE. GOLD TONE.' headline on the Feed in the calm top band and relabel the ad A13, the levitation it actually executes.",
+      "run": 2
+     },
+     {
+      "stop": 8,
+      "message": 7.5,
+      "truth": 7.5,
+      "layout": 8,
+      "brand": 8,
+      "copy": 7,
+      "fit": 6,
+      "desire": 6.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. No waterproof, tarnish-free or water imagery, as Monochrome requires. The words 'black and white enamel' and 'gold tone' are as listed, with no PVD, steel or stones. The C-hoop with exactly one black and one white stripe between gold rails, the plain ridged inside and the post all match. The size tag 'about 20 mm tall' is listed. Stock 24.",
+      "worstIssue": "The ad is logged as an A1 product card but executes A13 levitation, so it is mislabelled (cap 6). The detached shadows are rectangular slabs that do not match the C-hoop silhouettes, which makes the float read as composited.",
+      "zeroCreditFix": "Add the Story's headline 'BLACK. WHITE. GOLD TONE.' to the Feed's empty band between the shadows and the size tag, and log the ad as A13.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b04-1": {
+   "A": 8.1,
+   "B": 8.3,
+   "mean": 8.2,
+   "dimsA": {
+    "stop": 7.5,
+    "message": 8.5,
+    "truth": 8.75,
+    "layout": 7.5,
+    "brand": 8.25,
+    "copy": 7.75,
+    "fit": 8.0,
+    "desire": 8.25,
+    "cues": 8.25
+   },
+   "dimsB": {
+    "stop": 7.75,
+    "message": 8.75,
+    "truth": 9.0,
+    "layout": 7.75,
+    "brand": 8.5,
+    "copy": 8.5,
+    "fit": 8.5,
+    "desire": 8.0,
+    "cues": 8.25
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [],
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 8,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The clasp matches the ruling's reference: a spring-gate ring with a push-pin nub and a CZ bar about 0.6x the ring. 18k gold tone PVD, paperclip links. Neck-to-chest crop, jaw only, no lips or eyes. Stock 77, ₹999. Flag: the Meta text's 'toggle ring of about 22 mm' is a measured, unlisted size that the playbook bars as a callout. It is not invented, so it is not a fail.",
+      "worstIssue": "The clasp, the whole point of the headline, is only about 9% of the width at the bottom of the chain, so at 200 px the proof of 'turn the clasp to the front' is small.",
+      "zeroCreditFix": "Add A2's hairline locator from the clasp to a short Jost label, 'toggle clasp · worn at the front'.",
+      "run": 0
+     },
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 7,
+      "brand": 8,
+      "copy": 7.5,
+      "fit": 8,
+      "desire": 8.5,
+      "cues": 8,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 18k gold tone PVD is listing-approved, and the Toggle may carry claims. The clasp matches the RULINGS clasp gate (spring-gate ring with push pin; pave bar about 0.65x the ring). Story crop stops at the chin: no lips, no eyes. BUY2/BUY3 verified, stock 77, price Rs 999. Note: the primary text quotes 'a toggle ring of about 22 mm', a measured figure that is not in the listing and that the A8 rules keep out of copy. It is not invented, but it is risky.",
+      "worstIssue": "The bottom third is crowded. The card stack starts only about 45 px under the clasp on busy chest skin, and the offer box corners cross the blouse's gold piping, so the eye loses the clasp-then-card order.",
+      "zeroCreditFix": "Drop the card's spec line ('4 mm paperclip links · 18k gold tone PVD'; it is already in the Meta text) so the card moves down and the offer box sits fully on the plum fabric, clear of the clasp and the piping.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 8.5,
+      "desire": 8,
+      "cues": 8,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The clasp matches the toggle-clasp ruling: round spring-gate ring with a push-pin nub, a bar about 0.65x the ring with one row of CZ, paperclip links. '18k gold tone PVD' and '4 mm' are listing words, and 'about 22 mm' is on the products.md sheet. The Story crop stops at the chin (no lips or eyes). The offer values are verified. Stock 77.",
+      "worstIssue": "The headline is about the clasp, but the clasp is only about 12% of the frame width. At 200 px the 'front clasp' reads as a small gold dot under a long chain.",
+      "zeroCreditFix": "Add A2's optional hairline locator from the toggle ring to a Jost 26 label 'TOGGLE RING · ABOUT 22 MM' in the calm skin area to its right.",
+      "run": 2
+     },
+     {
+      "stop": 8,
+      "message": 9,
+      "truth": 9,
+      "layout": 7.5,
+      "brand": 8.5,
+      "copy": 8.5,
+      "fit": 8.5,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The clasp passes the Toggle gate: a round spring-gate ring with a push-pin nub, about 130 px, and a single-row cubic zirconia bar at about 0.7x the ring. The 4 mm paperclip links measure true size against a neck about 110 mm wide. The crop is chin-down only, within the face ruling. '22 mm ring' and '4 mm' are on the listing sizes line. No claims. BUY2 and BUY3 are verified. Stock 77.",
+      "worstIssue": "The Feed card is crowded under the piece. The wordmark sits only about 50 px below the toggle ring, and the subline and offer box straddle the blouse neckline seam, which muddies the read from product to card.",
+      "zeroCreditFix": "Drop the '4 mm paperclip links · 18k gold tone PVD' line from the Feed card (it is already in the Meta text) and set the card about 40 px lower, so the wordmark clears the ring by about 90 px and the box sits fully on the blouse.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b04-3": {
+   "A": 7.6375,
+   "B": 7.625,
+   "mean": 7.6312,
+   "dimsA": {
+    "stop": 8.25,
+    "message": 6.0,
+    "truth": 8.75,
+    "layout": 8.0,
+    "brand": 8.25,
+    "copy": 5.25,
+    "fit": 6.25,
+    "desire": 7.75,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 8.5,
+    "message": 6.25,
+    "truth": 8.0,
+    "layout": 7.75,
+    "brand": 8.25,
+    "copy": 5.75,
+    "fit": 6.5,
+    "desire": 7.75,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [
+    "A copy 5.25",
+    "B copy 5.75"
+   ],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 8.5,
+      "message": 6.5,
+      "truth": 8.5,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 5.5,
+      "fit": 6.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Emerald-green cubic zirconia' as an adjective and 'shell pearls' (the listing allows white shell pearl). 18k gold tone. The selective-colour grade does not change geometry. Stock 32, ₹899. Size tag present.",
+      "worstIssue": "'One bold ear is enough' needs decoding and contradicts the pair shown. It is a styling claim, not a craft truth, so the picture cannot prove it.",
+      "zeroCreditFix": "Swap the headline for 'THE ONLY COLOUR / IN THE ROOM.', which the selective-colour picture proves at a glance.",
+      "run": 0
+     },
+     {
+      "stop": 8,
+      "message": 5.5,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8,
+      "copy": 5,
+      "fit": 6,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Same compliant words, offer values, stock 32 and price Rs 899 as G4. No claims, no face.",
+      "worstIssue": "'ONE BOLD EAR IS ENOUGH.' fights the picture: a pair sold as a pair is shown, yet the line reads as wearing one stud, so the claim and the picture pull apart and the meaning needs decoding.",
+      "zeroCreditFix": "Use 'THE ONLY COLOUR / IN THE ROOM.' with COLOUR in the stone green, a line the grey-world picture actually proves.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8.5,
+      "message": 6,
+      "truth": 8,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 5.5,
+      "fit": 6.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. 'Emerald-green cubic zirconia' is used as an adjective, 'shell pearls' matches the listing, and '18k gold tone' is correct. Claims are allowed, but none are used. The 16.8 mm size tag is from the listing. The offer values are verified. Stock 32.",
+      "worstIssue": "'ONE BOLD EAR IS ENOUGH.' is an opinion that needs decoding rather than a listing truth, and the picture contradicts it: it shows a pair on cloth, with no ear.",
+      "zeroCreditFix": "Replace the headline with a craft truth the picture proves, such as 'GREEN STONE. / OPEN CIRCLET.', or with G4's 'THE ONLY COLOUR IN THE ROOM.'",
+      "run": 2
+     },
+     {
+      "stop": 8.5,
+      "message": 6.5,
+      "truth": 8,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 6,
+      "fit": 6.5,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The picture, construction and size tag are the same as G4, and the listing words are correct (emerald-green cubic zirconia, shell pearls, 18k gold tone). No claims. Stock 32.",
+      "worstIssue": "'ONE BOLD EAR IS ENOUGH.' is not proven by the picture: it shows a pair on cloth with no ear, and it reads as 'wear only one' for a product sold as a pair. It carries no listing truth and does not explain the selective-colour grade.",
+      "zeroCreditFix": "Swap the headline for 'THE ONLY COLOUR IN THE ROOM.' (which the grade proves) or the listing anatomy line 'ONE STUD, THREE PARTS.'",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b04-3h": {
+   "A": 8.2125,
+   "B": 8.05,
+   "mean": 8.1313,
+   "dimsA": {
+    "stop": 8.5,
+    "message": 8.5,
+    "truth": 8.75,
+    "layout": 8.0,
+    "brand": 8.25,
+    "copy": 8.0,
+    "fit": 6.5,
+    "desire": 7.75,
+    "cues": 8.5
+   },
+   "dimsB": {
+    "stop": 8.5,
+    "message": 8.5,
+    "truth": 8.0,
+    "layout": 7.75,
+    "brand": 8.25,
+    "copy": 7.75,
+    "fit": 6.5,
+    "desire": 7.75,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": true,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": true,
+   "runs": {
+    "A": [
+     {
+      "stop": 8.5,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 6.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Same product facts as H4: emerald-green cubic zirconia as an adjective, shell pearls, 18k gold tone. Stock 32, ₹899. Size tag present.",
+      "worstIssue": "It is labelled A4 Monument Macro but runs on A2's selective-colour mechanism: no tilt or edge crop, and no craft line. The boxed size tag also crowds the subline row, so the top third reads as three blocks before the studs.",
+      "zeroCreditFix": "Move the size tag to one line directly under the studs, above the wordmark, as the Story already does.",
+      "run": 0
+     },
+     {
+      "stop": 8.5,
+      "message": 8.5,
+      "truth": 9,
+      "layout": 8,
+      "brand": 8,
+      "copy": 8,
+      "fit": 6.5,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Says 'emerald-green cubic zirconia' and 'shell pearls', both listing-approved; no 'emerald' as a noun. BUY2/BUY3 values verified. Stock 32, price Rs 899. No claims used, no face.",
+      "worstIssue": "The archetype is followed only loosely. A4 asks for a tilted, edge-cropped monument and a craft truth in listing words; this is a straight frontal pair with a mood line, closer to A2's selective-colour device on a product shot. The size-tag box is also jammed beside the italic line.",
+      "zeroCreditFix": "Swap the italic second beat 'for the wedding function.' for a listing truth such as 'emerald-green cubic zirconia, shell pearls.' (the occasion stays in the Meta text), and move the size tag beside the right stud to clear the headline block.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 8.5,
+      "message": 8.5,
+      "truth": 8,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 7.5,
+      "fit": 6.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Same words as H4: 'emerald-green cubic zirconia' as an adjective, 'shell pearls', '18k gold tone'. Size tag 16.8 mm. The offer values are verified. Stock 32.",
+      "worstIssue": "The boxed size tag sits in the headline block beside the subline, about 30 px above the right stone, so the top reads as two competing blocks. It is also labelled A4 without being a monument crop (two whole, untilted studs). The posts render as grey vertical rods because of the grade.",
+      "zeroCreditFix": "Move the size tag out of the headline zone to a single Jost line under the studs, above the wordmark, as on the Story.",
+      "run": 2
+     },
+     {
+      "stop": 8.5,
+      "message": 8.5,
+      "truth": 8,
+      "layout": 8,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 6.5,
+      "desire": 8,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The stud anatomy matches the references: the tilted 10 mm cushion stone at the upper edge, an open circlet, two four-point stars, two pearls (large and small) and five clear stones, mirrored on the pair. The size tag 'about 16.8 mm tall' is listed. The words 'emerald-green cubic zirconia', 'shell pearls' and '18k gold tone' are all as listed. No claims. Stock 32.",
+      "worstIssue": "The ad is logged as an A4 monument macro but runs the A2 selective-colour mechanism on an upright, uncropped prop still life (petals, zari silk), so it is mislabelled. Also, the posts drop vertically from face-on studs, which a real stud cannot do.",
+      "zeroCreditFix": "Log it as the selective-colour variant rather than A4, which its headline already explains. Also move the size tag off the second-beat row so 'for the wedding function.' stands alone.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b04-4": {
+   "A": 7.3625,
+   "B": 7.6,
+   "mean": 7.4812,
+   "dimsA": {
+    "stop": 7.25,
+    "message": 7.0,
+    "truth": 7.75,
+    "layout": 7.5,
+    "brand": 8.25,
+    "copy": 6.0,
+    "fit": 6.5,
+    "desire": 7.25,
+    "cues": 8.25
+   },
+   "dimsB": {
+    "stop": 7.5,
+    "message": 7.5,
+    "truth": 9.0,
+    "layout": 7.0,
+    "brand": 8.0,
+    "copy": 5.75,
+    "fit": 6.75,
+    "desire": 7.25,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": false,
+   "under6": [
+    "B copy 5.75"
+   ],
+   "beatsLoser": true,
+   "beatsWinner": false,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 7.5,
+      "message": 8,
+      "truth": 8.5,
+      "layout": 7.5,
+      "brand": 8.5,
+      "copy": 7,
+      "fit": 7.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Silver tone PVD (the listing says PVD rhodium), one 10 mm cubic zirconia, a snake chain. Claims are allowed for this SKU. No 'diamond' or 'solitaire diamond'. Stock 23, ₹899. Size tag present.",
+      "worstIssue": "'One clear point of focus' is an abstract design phrase rather than a craft or mechanism line. The boxed size tag also collides with its first line, so the staggered A6 headline loses its shape.",
+      "zeroCreditFix": "Use 'ONE STONE. / ONE SMOOTH LINE.' (one 10 mm stone, smooth snake chain), which the picture proves.",
+      "run": 0
+     },
+     {
+      "stop": 7,
+      "message": 6,
+      "truth": 7,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 5,
+      "fit": 5.5,
+      "desire": 7,
+      "cues": 8,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Same allowed claim, words, offer values (BUY2/BUY3), stock 23 and price Rs 899 as the listing and RULINGS. No free shipping, no compare-at price, no face.",
+      "worstIssue": "'ONE CLEAR POINT OF FOCUS.' is a concept-noun headline in art-direction language: it states no listing truth or benefit, so a stranger cannot say what it claims (copy capped at 5).",
+      "zeroCreditFix": "Replace the headline with a craft truth, for example 'ONE 10 MM STONE. / ONE SMOOTH LINE.', and keep 'for the reception, after dark.' as the second beat.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 7.5,
+      "message": 7.5,
+      "truth": 9,
+      "layout": 6.5,
+      "brand": 8,
+      "copy": 6.5,
+      "fit": 7,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Serpentine Silver is allowed claims, and 'Waterproof and tarnish-free' is used only as the closing proof beat in the Meta text. 'Silver tone PVD' and '10 mm cubic zirconia' are listing facts. No diamond or sterling. The offer values are verified. Stock 23.",
+      "worstIssue": "The boxed size tag sits in the path of the staggered headline, between 'ONE CLEAR' and 'POINT OF FOCUS.', so the reading order breaks. The headline itself is an abstract noun phrase.",
+      "zeroCreditFix": "Move the size tag to one Jost line under the pendant, as on the Story, so the headline reads uninterrupted.",
+      "run": 2
+     },
+     {
+      "stop": 7.5,
+      "message": 7.5,
+      "truth": 9,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 5,
+      "fit": 6.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The picture, card and Meta text are the same as K5: listing-true construction and the size tag 'stone about 10 mm'. Silver tone PVD is used, and the claims are allowed for Serpentine Silver. Stock 23.",
+      "worstIssue": "'ONE CLEAR POINT OF FOCUS.' is an abstract concept headline that states no listing truth (cap 5). The stranger test lands only because the picture shows a single stone.",
+      "zeroCreditFix": "Replace the headline with 'ONE STONE. ONE SMOOTH LINE.' (or 'ONE 10 MM STONE.') and keep the reception second beat.",
+      "run": 3
+     }
+    ]
+   }
+  },
+  "b04-4h": {
+   "A": 7.6125,
+   "B": 7.875,
+   "mean": 7.7438,
+   "dimsA": {
+    "stop": 7.25,
+    "message": 8.0,
+    "truth": 7.75,
+    "layout": 7.5,
+    "brand": 8.25,
+    "copy": 7.25,
+    "fit": 7.0,
+    "desire": 7.25,
+    "cues": 8.25
+   },
+   "dimsB": {
+    "stop": 7.5,
+    "message": 8.25,
+    "truth": 9.0,
+    "layout": 7.0,
+    "brand": 8.0,
+    "copy": 7.75,
+    "fit": 6.75,
+    "desire": 7.25,
+    "cues": 8.5
+   },
+   "compliance": true,
+   "truthOk": false,
+   "under6": [],
+   "beatsLoser": true,
+   "beatsWinner": true,
+   "passes": false,
+   "runs": {
+    "A": [
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 8.5,
+      "layout": 7.5,
+      "brand": 8.5,
+      "copy": 8,
+      "fit": 8,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Silver tone PVD, one 10 mm cubic zirconia, a snake chain. Claims are allowed. Stock 23, ₹899. Size tag present. The Meta primary text still opens with the control's 'One clear point of focus', which does not match the on-image headline.",
+      "worstIssue": "The boxed size tag shares the first headline line, which crowds the staggered A6 headline in the top band, and the pendant sits as a small sparkle in a product-only velvet still.",
+      "zeroCreditFix": "Move the size tag to one line under the pendant (as on the Story), leaving the headline and subline alone in the top third.",
+      "run": 0
+     },
+     {
+      "stop": 7,
+      "message": 7.5,
+      "truth": 7,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 6.5,
+      "fit": 6,
+      "desire": 7,
+      "cues": 8,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Serpentine Silver may carry claims, so 'waterproof and tarnish-free' in the primary text is allowed. Says silver tone and cubic zirconia, not banned metal words. BUY2/BUY3 values match RULINGS. Stock 23 is 20 or more, price Rs 899 is correct, no free shipping, no compare-at price, no face.",
+      "worstIssue": "The picture is a softly lit velvet catalogue shot with no hard spot, bloom or long shadow, so the A6 spotlight mechanism and the stop power fall short. The pendant also gains an extra jump ring between bail and basket that the listing photos do not show.",
+      "zeroCreditFix": "Open the Meta primary text with the on-image line ('One stone, one smooth line: Serpentine Whisper Chain...') instead of the brief-like 'One clear point of focus:', so the image and the ad text say one thing.",
+      "run": 1
+     }
+    ],
+    "B": [
+     {
+      "stop": 7.5,
+      "message": 8.5,
+      "truth": 9,
+      "layout": 6.5,
+      "brand": 8,
+      "copy": 7.5,
+      "fit": 7,
+      "desire": 7,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. Same as B8: the claim appears only as a Meta proof beat on an allowed SKU, with 'silver tone PVD' and '10 mm cubic zirconia'. The offer values are verified. Stock 23.",
+      "worstIssue": "The boxed size tag at top right breaks the staggered 'ONE STONE. / ONE SMOOTH LINE.' headline, and the Meta text still opens 'One clear point of focus', which does not echo the on-image line.",
+      "zeroCreditFix": "Move the size tag to a single line under the pendant, and open the primary text with 'One stone, one smooth line:'.",
+      "run": 2
+     },
+     {
+      "stop": 7.5,
+      "message": 8,
+      "truth": 9,
+      "layout": 7.5,
+      "brand": 8,
+      "copy": 8,
+      "fit": 6.5,
+      "desire": 7.5,
+      "cues": 8.5,
+      "compliancePass": true,
+      "complianceNotes": "Pass. The 2 mm snake chain, the 10 mm cushion clear cubic zirconia in a four-prong basket, and the bail with a small connector all match both references. The size tag 'stone about 10 mm' is listed. Silver tone PVD is used, and waterproof and tarnish-free are allowed (Meta text only). Stock 23.",
+      "worstIssue": "This is not an A6 single spotlight. It shows a teal velvet bolster in soft light, with no round riser, no hard top spot and no long shadow. The size-tag box also crowds the first line of the staggered headline.",
+      "zeroCreditFix": "Move the Feed size tag beside the pendant (as in the Story), out of the headline row. Also change the Meta opener 'One clear point of focus' to match the on-image 'One stone, one smooth line'.",
+      "run": 3
+     }
+    ]
+   }
+  }
+ },
+ "problems": [],
+ "method": [
+  "I scored each ad against the §7 anchors on their own terms: 5 means a pleasant catalogue look or two competing ideas, and 9 means the benchmark description. Competent, on-system work landed at 7 to 8.5, and product-only frames topped out around 7.5 on desire because they have no skin and no moment. I applied the automatic caps mechanically, counting the F2 card as one text element. For true size I measured each piece against body or object anchors at full resolution and estimated on-phone size from its share of the 1080 px width.",
+  "I scored each ad on its own against the absolute anchors in §7: 5 means a beige catalogue shot or two competing ideas, 9 means benchmark level, with one shape landing at 200 px, the picture proving the headline and every count matching. I applied each automatic cap literally (more than four text elements, a concept-noun headline, a magnified product with no size tag or size reference, and a worn piece over 1.2x). I checked construction by cropping each feed against its reference photos, and checked worn scale by measuring the piece against body referents such as the ear, neck and clasp.",
+  "I scored each ad on its own against the §7 absolute descriptors, treating the \"scores 5\" column as 5 and the \"scores 9\" column as 9, and applied the automatic caps exactly as written. I counted the F2 card as one text element. A magnified piece with no size tag or known-size referent was held to 7-7.5 on truth even when its construction matched. I checked construction and scale against both reference photos using zoomed crops and pixel grids (clasp ring-to-bar ratio, link width, hoop width against ear and neck) and judged the 200 px read from PIL thumbnails.",
+  "I scored each ad against the rubric's written 5 and 9 anchors, not against the other ads. A 9 needs every condition of the 9 anchor; 7 to 8 means solid but missing one condition; 6 or less means a cap or a visible failure. Automatic caps were applied as written: more than four text elements caps message at 6, a mislabelled archetype caps fit at 6, a concept headline caps copy at 5, and a worn piece over 1.2x true size scores the floor of 1 (the rubric says 0) and fails the true-size gate. Scale was checked from size tags or by measuring the piece against body referents (ear, neck, head width) in pixels."
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "blindSheets": {
+  "s1": {
+   "critic": "A",
+   "anchors": [
+    "win_static_hoops_apricot",
+    "lose_p2_proof_parody"
+   ],
+   "tiles": {
+    "L6": "b02-1",
+    "R3": "b01-1",
+    "E3": "b04-1h",
+    "X5": "b03-3",
+    "R4": "b03-5",
+    "F5": "b04-3h",
+    "C4": "b04-4h",
+    "W7": "b03-1",
+    "T8": "b04-3",
+    "E5": "b04-0",
+    "N7": "win_static_hoops_apricot",
+    "M6": "b03-2",
+    "T2": "b04-1",
+    "T5": "b02-5",
+    "L2": "b04-4",
+    "F6": "lose_p2_proof_parody"
+   }
+  },
+  "s2": {
+   "critic": "A",
+   "anchors": [
+    "win_twenty_f2_tennis_ruby",
+    "lose_sa08_walls"
+   ],
+   "tiles": {
+    "C6": "b03-3",
+    "C7": "b02-5",
+    "X4": "b03-5",
+    "X6": "b04-0",
+    "P3": "b04-3",
+    "C3": "b04-1h",
+    "W9": "b04-4",
+    "A3": "lose_sa08_walls",
+    "W7": "b02-1",
+    "E6": "b01-1",
+    "V9": "b04-3h",
+    "R7": "b03-2",
+    "V3": "win_twenty_f2_tennis_ruby",
+    "P7": "b03-1",
+    "L8": "b04-1",
+    "C4": "b04-4h"
+   }
+  },
+  "s3": {
+   "critic": "B",
+   "anchors": [
+    "win_static_hoops_apricot",
+    "lose_p2_proof_parody"
+   ],
+   "tiles": {
+    "P4": "b04-4",
+    "J2": "b03-1",
+    "C3": "b04-3",
+    "K7": "b03-5",
+    "M6": "b04-3h",
+    "P2": "b04-1h",
+    "T7": "lose_p2_proof_parody",
+    "N2": "b01-1",
+    "H2": "b02-5",
+    "F9": "b04-4h",
+    "P5": "b04-1",
+    "J9": "b03-2",
+    "T6": "b03-3",
+    "C9": "b02-1",
+    "P9": "win_static_hoops_apricot",
+    "X6": "b04-0"
+   }
+  },
+  "s4": {
+   "critic": "B",
+   "anchors": [
+    "win_twenty_f2_tennis_ruby",
+    "lose_sa08_walls"
+   ],
+   "tiles": {
+    "E4": "b02-5",
+    "V8": "b04-3h",
+    "M7": "b03-5",
+    "K4": "win_twenty_f2_tennis_ruby",
+    "H2": "b04-1",
+    "H9": "b04-0",
+    "X5": "b04-1h",
+    "F4": "b02-1",
+    "J8": "lose_sa08_walls",
+    "X3": "b04-4h",
+    "C7": "b03-1",
+    "P4": "b04-4",
+    "E9": "b04-3",
+    "T4": "b03-2",
+    "M2": "b03-3",
+    "C6": "b01-1"
+   }
+  }
+ },
+ "blindPair": {
+  "X": "b04-3h",
+  "Y": "b04-3"
+ },
+ "auditCodes": {
+  "M4": "b01-1",
+  "H7": "b02-1",
+  "F4": "b02-5",
+  "Z9": "b03-1",
+  "S4": "b03-3",
+  "B9": "b03-5",
+  "R7": "b04-0",
+  "W9": "b04-1",
+  "H4": "b04-3",
+  "G4": "b04-3h",
+  "B8": "b04-4",
+  "K5": "b04-4h",
+  "Q6": "b03-2"
+ }
+}

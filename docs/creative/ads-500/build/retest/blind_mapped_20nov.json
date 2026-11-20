@@ -1,0 +1,1422 @@
+{
+ "rows": {
+  "b02-1": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "B"
+    ],
+    "F2": []
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": false,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "loses",
+     "F2": "loses",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "loses",
+     "p2": "loses",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     5,
+     5
+    ],
+    "B": [
+     3,
+     4.5
+    ]
+   },
+   "thumbMean": 4.38,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 5,
+      "rank": 13,
+      "lands": "back of neck and hair",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The body takes the frame and the hoops sit small at the edges; the headline does more selling than the image.",
+      "code": "L6"
+     },
+     "s2": {
+      "score": 5,
+      "rank": 11,
+      "lands": "back of the woman's head and hair",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The hoops sit small at the edges; the head and nape stop the thumb, not the earrings.",
+      "code": "W7"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 3,
+      "rank": 15,
+      "lands": "back of head and hair bun",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The eye goes to the back of the head and the neck, and the hoops are small at the edges of the frame.",
+      "code": "C9"
+     },
+     "s4": {
+      "score": 4.5,
+      "rank": 15,
+      "lands": "back of head and nape",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The hair and nape dominate and the hoops are small at the edges; the headline does the selling.",
+      "code": "F4"
+     }
+    }
+   }
+  },
+  "b01-1": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     6.5,
+     7
+    ],
+    "B": [
+     6,
+     7
+    ]
+   },
+   "thumbMean": 6.62,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 6.5,
+      "rank": 7,
+      "lands": "silver ring on velvet pedestal",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Strong proposal hook and rich mood, but the ring is small in the frame and the dark maroon swallows some of it.",
+      "code": "R3"
+     },
+     "s2": {
+      "score": 7,
+      "rank": 4,
+      "lands": "halo ring on maroon velvet box",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The proposal-versus-present hook adds desire and value, but the ring is a little small in the frame.",
+      "code": "E6"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 6,
+      "rank": 6,
+      "lands": "ring on maroon velvet box",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The proposal-ring hook is smart and the ring reads clearly. The ring is smaller in frame than in J9, so the sparkle lands less.",
+      "code": "N2"
+     },
+     "s4": {
+      "score": 7,
+      "rank": 5,
+      "lands": "headline, then halo ring on red velvet",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Strong 'proposal / present' hook, but the ring is smaller and darker than in T4.",
+      "code": "C6"
+     }
+    }
+   }
+  },
+  "b04-1h": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "B"
+    ],
+    "F2": []
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A"
+    ],
+    "sa08": [
+     "B"
+    ]
+   },
+   "beatsWinner": false,
+   "beatsLoser": false,
+   "rel": {
+    "A": {
+     "apricot": "loses",
+     "F2": "loses",
+     "p2": "beats",
+     "sa08": "loses"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "loses",
+     "p2": "loses",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     5,
+     4
+    ],
+    "B": [
+     3.5,
+     4.5
+    ]
+   },
+   "thumbMean": 4.25,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 5,
+      "rank": 14,
+      "lands": "bare neck and collarbone",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Skin dominates, and the thin chain and toggle are hard to make out against the shadow.",
+      "code": "E3"
+     },
+     "s2": {
+      "score": 4,
+      "rank": 15,
+      "lands": "bare neck and collarbone",
+      "productReads": true,
+      "priceReads": true,
+      "note": "A thin paperclip chain gets lost on skin; the body and text land before the jewellery.",
+      "code": "C3"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 3.5,
+      "rank": 14,
+      "lands": "bare neckline and skin",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same issue as P5: the toggle chain is too fine to land against the body crop.",
+      "code": "P2"
+     },
+     "s4": {
+      "score": 4.5,
+      "rank": 14,
+      "lands": "bare neck and chest",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same visual as H2, and the 'closes with a turn' line is harder to parse.",
+      "code": "X5"
+     }
+    }
+   }
+  },
+  "b03-3": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": []
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "ties",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "ties",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     6,
+     5.5
+    ],
+    "B": [
+     5,
+     5.5
+    ]
+   },
+   "thumbMean": 5.5,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 6,
+      "rank": 9,
+      "lands": "tiger-eye stone on open ring",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Nice sage palette and an unusual piece, but the callout labels are too small at feed size and the ring is mid-scale.",
+      "code": "X5"
+     },
+     "s2": {
+      "score": 5.5,
+      "rank": 9,
+      "lands": "tiger eye stone and callout lines",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Clear and informative, but the annotation lines feel like a spec sheet and the sage background is muted.",
+      "code": "C6"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 5,
+      "rank": 9,
+      "lands": "callout labels and two-stone ring",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The ring is small against the sage green and the annotation text competes with it. It reads more like an infographic than something she would desire.",
+      "code": "T6"
+     },
+     "s4": {
+      "score": 5.5,
+      "rank": 10,
+      "lands": "callout lines and small open ring",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The ring is small, and the spec callouts make the tile look like a diagram rather than something to want.",
+      "code": "M2"
+     }
+    }
+   }
+  },
+  "b03-5": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     7,
+     7
+    ],
+    "B": [
+     6.5,
+     6.5
+    ]
+   },
+   "thumbMean": 6.75,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 7,
+      "rank": 6,
+      "lands": "pearl halo studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Clean, sparkly and premium on black, with good product scale, but quieter than the colour-led tiles.",
+      "code": "R4"
+     },
+     "s2": {
+      "score": 7,
+      "rank": 5,
+      "lands": "spotlit pearl halo studs on black",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Elegant and clear with good contrast, but a black luxe set-up is common in the feed and less of a pattern-break.",
+      "code": "X4"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 6.5,
+      "rank": 5,
+      "lands": "glowing pearl halo studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The pearl studs glow nicely and look premium. They sit a bit small on the dark pedestal and the ₹1,199 price is small.",
+      "code": "K7"
+     },
+     "s4": {
+      "score": 6.5,
+      "rank": 7,
+      "lands": "spotlit pearl halo studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Elegant and clear, but the dark, low-contrast mood is quieter in a feed.",
+      "code": "M7"
+     }
+    }
+   }
+  },
+  "b04-3h": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     8,
+     6.5
+    ],
+    "B": [
+     5.5,
+     7
+    ]
+   },
+   "thumbMean": 6.75,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 8,
+      "rank": 2,
+      "lands": "emerald green stud stones",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Saturated green on near-black jumps out of the feed, and the green 'colour' word in the headline matches the stones.",
+      "code": "F5"
+     },
+     "s2": {
+      "score": 6.5,
+      "rank": 7,
+      "lands": "emerald circlet studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The green accent word ties the headline to the stones; the props and glittery base add some clutter.",
+      "code": "V9"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 5.5,
+      "rank": 7,
+      "lands": "emerald-green studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The green stones pop against the black and the green 'COLOUR' word ties into them. The petals and grey props add clutter around small studs.",
+      "code": "M6"
+     },
+     "s4": {
+      "score": 7,
+      "rank": 6,
+      "lands": "emerald-green statement studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Green pops on charcoal and the studs are big; the headline competes a little.",
+      "code": "V8"
+     }
+    }
+   }
+  },
+  "b04-4h": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "loses",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     6,
+     5
+    ],
+    "B": [
+     4.5,
+     6
+    ]
+   },
+   "thumbMean": 5.38,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 6,
+      "rank": 10,
+      "lands": "clear square pendant on teal",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Elegant and clear, but the pendant is small and a cool teal frame is low-energy in a busy feed.",
+      "code": "C4"
+     },
+     "s2": {
+      "score": 5,
+      "rank": 13,
+      "lands": "teal velvet and headline",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Almost the same tile as W9: a small stone, lots of empty set, and little reason to stop.",
+      "code": "C4"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 4.5,
+      "rank": 11,
+      "lands": "small solitaire pendant on velvet",
+      "productReads": true,
+      "priceReads": true,
+      "note": "This is almost the same as P4 with a different headline. It is clean and honest but too small to hold attention.",
+      "code": "F9"
+     },
+     "s4": {
+      "score": 6,
+      "rank": 9,
+      "lands": "white solitaire pendant on teal velvet",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Clean, but the pendant is small in the frame and the chain almost disappears.",
+      "code": "X3"
+     }
+    }
+   }
+  },
+  "b03-1": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     8.5,
+     6.5
+    ],
+    "B": [
+     7,
+     8
+    ]
+   },
+   "thumbMean": 7.5,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 8.5,
+      "rank": 1,
+      "lands": "big brushed gold huggies",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The product fills the frame, the brushed texture looks expensive on plum, and the price is built into the headline, so this is the clearest stop.",
+      "code": "W7"
+     },
+     "s2": {
+      "score": 6.5,
+      "rank": 6,
+      "lands": "big brushed gold huggies",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The product is large and the price is in the headline, but matte gold on plum is low-sparkle and a bit flat.",
+      "code": "P7"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 7,
+      "rank": 4,
+      "lands": "large brushed-gold huggies",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The product is big and the price sits in the headline, so you know at once that it is ₹699 earrings. The plum background feels muted next to the stronger tiles.",
+      "code": "J2"
+     },
+     "s4": {
+      "score": 8,
+      "rank": 2,
+      "lands": "large brushed gold huggies",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The product is large and textured, and the ₹699 price sits inside the headline, so it reads at a glance.",
+      "code": "C7"
+     }
+    }
+   }
+  },
+  "b04-3": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     7.5,
+     6
+    ],
+    "B": [
+     5.5,
+     6.5
+    ]
+   },
+   "thumbMean": 6.38,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 7.5,
+      "rank": 4,
+      "lands": "emerald green stud stones",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same strong shot as F5, but the headline is less tied to the visual, so it is a touch weaker.",
+      "code": "T8"
+     },
+     "s2": {
+      "score": 6,
+      "rank": 8,
+      "lands": "emerald studs among props",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same shot as V9 with a weaker headline; the leaves and base pull attention from the studs.",
+      "code": "P3"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 5.5,
+      "rank": 8,
+      "lands": "emerald-green studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "This is almost the same image as M6. 'One bold ear' over a matching pair is a slightly confusing product message.",
+      "code": "C3"
+     },
+     "s4": {
+      "score": 6.5,
+      "rank": 8,
+      "lands": "emerald-green statement studs",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same visual as V8; the 'one bold ear' line clashes with showing a pair.",
+      "code": "E9"
+     }
+    }
+   }
+  },
+  "b04-0": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     6.5,
+     7.5
+    ],
+    "B": [
+     7.5,
+     7.5
+    ]
+   },
+   "thumbMean": 7.25,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 6.5,
+      "rank": 8,
+      "lands": "black-white enamel hoops on terracotta",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Distinctive, graphic product on a warm ground, but there is no headline hook and the bottom half is empty.",
+      "code": "E5"
+     },
+     "s2": {
+      "score": 7.5,
+      "rank": 3,
+      "lands": "black-and-white enamel hoops on terracotta",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Graphic, trend-led product shown big on a warm, punchy colour; reads as fashion rather than catalogue.",
+      "code": "X6"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 7.5,
+      "rank": 3,
+      "lands": "black-and-white enamel hoops",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The bold graphic hoops on a hot orange background pop. The product is unmistakable, but the background is a little loud for demi-fine.",
+      "code": "X6"
+     },
+     "s4": {
+      "score": 7.5,
+      "rank": 4,
+      "lands": "black-white enamel hoops",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Bold, graphic hoops on burnt orange are very scroll-stopping; price line is small.",
+      "code": "H9"
+     }
+    }
+   }
+  },
+  "b03-2": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     7.5,
+     8.5
+    ],
+    "B": [
+     8.5,
+     8.5
+    ]
+   },
+   "thumbMean": 8.25,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 7.5,
+      "rank": 3,
+      "lands": "oversized halo ring sparkle",
+      "productReads": true,
+      "priceReads": true,
+      "note": "A macro of a big solitaire reads as aspirational straight away, though the taupe ground is a little flat.",
+      "code": "M6"
+     },
+     "s2": {
+      "score": 8.5,
+      "rank": 1,
+      "lands": "huge sparkling cushion halo ring",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The ring fills the frame and the sparkle does all the work, so it looks instantly wanted even on a quiet brown background.",
+      "code": "R7"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 8.5,
+      "rank": 1,
+      "lands": "huge sparkling halo ring stone",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The ring fills the frame and sparkles even at thumbnail size, so it reads straight away as a cocktail ring at ₹999. It is the clearest product-first tile on the sheet.",
+      "code": "J9"
+     },
+     "s4": {
+      "score": 8.5,
+      "rank": 1,
+      "lands": "big sparkling cushion halo ring",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Ring fills the frame on a warm plain ground, so you can tell what it is instantly; ₹999 and the code read cleanly.",
+      "code": "T4"
+     }
+    }
+   }
+  },
+  "b04-1": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "B"
+    ],
+    "F2": []
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A"
+    ],
+    "sa08": [
+     "B"
+    ]
+   },
+   "beatsWinner": false,
+   "beatsLoser": false,
+   "rel": {
+    "A": {
+     "apricot": "loses",
+     "F2": "loses",
+     "p2": "beats",
+     "sa08": "loses"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "loses",
+     "p2": "loses",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     4.5,
+     4
+    ],
+    "B": [
+     3.5,
+     5
+    ]
+   },
+   "thumbMean": 4.25,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 4.5,
+      "rank": 15,
+      "lands": "bare neck and collarbone",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same problem as E3; the clasp story needs a closer crop to land at thumbnail size.",
+      "code": "T2"
+     },
+     "s2": {
+      "score": 4,
+      "rank": 16,
+      "lands": "bare neck and collarbone",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same execution as C3; the clasp story does not come through at feed size.",
+      "code": "L8"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 3.5,
+      "rank": 13,
+      "lands": "bare neckline and skin",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Skin and body dominate the frame and the thin chain is hard to pick out at thumbnail size.",
+      "code": "P5"
+     },
+     "s4": {
+      "score": 5,
+      "rank": 13,
+      "lands": "bare neck and chest",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The thin gold chain gets lost against skin, though the clasp copy helps explain it.",
+      "code": "H2"
+     }
+    }
+   }
+  },
+  "b02-5": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "A",
+     "B"
+    ],
+    "F2": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": true,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "beats",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     7,
+     8
+    ],
+    "B": [
+     8,
+     7.5
+    ]
+   },
+   "thumbMean": 7.62,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 7,
+      "rank": 5,
+      "lands": "mustard-yellow background, then emerald band",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The bright yellow ground stops the scroll and the band is large, but the colour slightly upstages the ring.",
+      "code": "T5"
+     },
+     "s2": {
+      "score": 8,
+      "rank": 2,
+      "lands": "emerald eternity band on saturated yellow",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The loudest background on the sheet, with a large, crisp green-on-gold ring that is hard to scroll past.",
+      "code": "C7"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 8,
+      "rank": 2,
+      "lands": "green-stone ring on saffron",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Emerald green on saffron is a strong colour clash that stops the thumb. The band is big and easy to identify, and the size callout is honest.",
+      "code": "H2"
+     },
+     "s4": {
+      "score": 7.5,
+      "rank": 3,
+      "lands": "green-white eternity band on orange",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Saturated orange stops the thumb and the emerald band is the clear hero; size note and ₹1,049 are small but legible.",
+      "code": "E4"
+     }
+    }
+   }
+  },
+  "b04-4": {
+   "beatsWinnerBy": {
+    "apricot": [
+     "B"
+    ],
+    "F2": []
+   },
+   "beatsLoserBy": {
+    "p2": [
+     "A",
+     "B"
+    ],
+    "sa08": [
+     "A",
+     "B"
+    ]
+   },
+   "beatsWinner": false,
+   "beatsLoser": true,
+   "rel": {
+    "A": {
+     "apricot": "ties",
+     "F2": "loses",
+     "p2": "beats",
+     "sa08": "beats"
+    },
+    "B": {
+     "apricot": "beats",
+     "F2": "ties",
+     "p2": "beats",
+     "sa08": "beats"
+    }
+   },
+   "thumbs": {
+    "A": [
+     5.5,
+     5
+    ],
+    "B": [
+     4.5,
+     5.5
+    ]
+   },
+   "thumbMean": 5.12,
+   "sheets": {
+    "A": {
+     "s1": {
+      "score": 5.5,
+      "rank": 11,
+      "lands": "clear square pendant on teal",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Near duplicate of C4, with a slightly weaker headline.",
+      "code": "L2"
+     },
+     "s2": {
+      "score": 5,
+      "rank": 12,
+      "lands": "teal velvet and headline",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The pendant is small in a large, dark field; moody and calm, but weak stop power.",
+      "code": "W9"
+     }
+    },
+    "B": {
+     "s3": {
+      "score": 4.5,
+      "rank": 10,
+      "lands": "small solitaire pendant on velvet",
+      "productReads": true,
+      "priceReads": true,
+      "note": "The pendant is a small object on a large dark field. It reads correctly but is too quiet to stop a scroll.",
+      "code": "P4"
+     },
+     "s4": {
+      "score": 5.5,
+      "rank": 11,
+      "lands": "white solitaire pendant on teal velvet",
+      "productReads": true,
+      "priceReads": true,
+      "note": "Same visual as X3 with a weaker, generic headline.",
+      "code": "P4"
+     }
+    }
+   }
+  }
+ },
+ "anchors": {
+  "win_static_hoops_apricot": {
+   "A": {
+    "score": 5.5,
+    "rank": 12,
+    "lands": "halved apricot prop",
+    "productReads": true,
+    "priceReads": false,
+    "note": "Editorial and pretty, but the fruit draws the eye before the hoops and the price is too small to read.",
+    "code": "N7"
+   },
+   "B": {
+    "score": 2.5,
+    "rank": 16,
+    "lands": "halved apricot props",
+    "productReads": true,
+    "priceReads": false,
+    "note": "The apricot props compete with the hoops. There is no headline and the price is unreadable at feed size, so it is not buyable at a glance.",
+    "code": "P9"
+   }
+  },
+  "lose_p2_proof_parody": {
+   "A": {
+    "score": 4,
+    "rank": 16,
+    "lands": "candy bowl and nutrition label",
+    "productReads": false,
+    "priceReads": false,
+    "note": "The novelty stops the thumb on sweets and a fake label, and the bracelet gets lost among the gummies.",
+    "code": "F6"
+   },
+   "B": {
+    "score": 4,
+    "rank": 12,
+    "lands": "gummy bowl and nutrition label",
+    "productReads": true,
+    "priceReads": false,
+    "note": "The novelty stops the thumb, but on candy and a nutrition label. The bracelet is secondary and the price is lost in the tiny label text.",
+    "code": "T7"
+   }
+  },
+  "win_twenty_f2_tennis_ruby": {
+   "A": {
+    "score": 5.5,
+    "rank": 10,
+    "lands": "model's neck and skin, then the red necklace",
+    "productReads": true,
+    "priceReads": true,
+    "note": "The ruby line pops on skin, but the body dominates and the necklace is thin at this size.",
+    "code": "V3"
+   },
+   "B": {
+    "score": 5.5,
+    "rank": 12,
+    "lands": "model's chin, neck and skin",
+    "productReads": true,
+    "priceReads": true,
+    "note": "The red tennis necklace reads, but the body takes most of the frame; ₹2,099 is the highest price here.",
+    "code": "K4"
+   }
+  },
+  "lose_sa08_walls": {
+   "A": {
+    "score": 4.5,
+    "rank": 14,
+    "lands": "big headline and four-panel grid",
+    "productReads": true,
+    "priceReads": false,
+    "note": "A busy catalogue collage; four small products and tiny prices fight each other and the text leads.",
+    "code": "A3"
+   },
+   "B": {
+    "score": 4,
+    "rank": 16,
+    "lands": "headline and busy four-product grid",
+    "productReads": false,
+    "priceReads": true,
+    "note": "It looks like a catalogue page: no single hero piece, and too much text for a feed.",
+    "code": "J8"
+   }
+  }
+ },
+ "pair": {
+  "b04-3h": {
+   "A": {
+    "stop": 8,
+    "message": 8,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 8,
+    "copy": 7,
+    "fit": 6.5,
+    "desire": 7.5,
+    "cues": 7.5,
+    "weighted": 7.7,
+    "compliancePass": true,
+    "complianceNotes": "Passes the §7 gate and RULINGS. Banned words: none. 'emerald-green cubic zirconia', 'shell pearls' and '18k gold tone' are all allowed listing words, and there is no lone 'emerald', 'gold' or 'pearl'. Stock: 32, which clears the 20 minimum. Price ₹899 matches. Offers: BUY2 10% and BUY3 20% match the live codes, with no free shipping and no compare-at price. 16.8 mm is the listing figure, so no number is invented. The ad is product-only, with no face and no worn scale issue. Primary text is 125 characters, which is inside 120-180, and the offer ends by character 99.",
+    "notes": "Stop power: on a dark monochrome ground, the two cushion stones are the most saturated thing in the frame. The green 'COLOUR' echoes them, so the selective-colour device reads in the type as well as the picture. At 200 px the green squares and the green word land at once. It stops short of 9 because the pair sits upright, centred and uncropped, which reads as a pedestal shot rather than a monument crop. One message: a stranger would say 'this is the piece everyone notices', and the picture proves the headline literally. Product truth: each stud matches the pack and detail refs: 5 clear CZ, 2 gold stars, 2 shell pearls (large and small), mirror-image pair, circlet left open, and the green stone at the upper edge, never centred. The size tag is present. The light is soft rather than raking. Layout: clean order (headline, piece, card). The size-tag box sits only about 35 px above the right stone. The spec line is about 26 px, right at the minimum. In the Story, all text sits between y 270 and 700, but five stacked blocks are tight and the bottom 40% is dead fabric. Copy: 6 words with one device, and the occasion is correctly the second beat. It is a colour/standout benefit rather than the A4 craft truth in listing words. The Meta text is clean but minimal (125 characters, no COD line). Archetype fit: the A4 elements present are the macro, the size tag, the H1 in the calm corner and the Cormorant beat. Missing are the crop, the 10-35 degree tilt and the hard raking light. The selective-colour device is what carries it. Desire: zari brocade and petals in wedding season give it a luxe feel. There is no skin, and the grey petals verge on cold. Purchase cues: ₹899 is legible at 200 px and larger than the product name. The offer states its value, and the ad lands on the product page. The product name is unreadable at 200 px, but the green stones identify the product.",
+    "label": "X"
+   },
+   "B": {
+    "stop": 8,
+    "message": 8,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 8,
+    "copy": 6.5,
+    "fit": 6,
+    "desire": 7.5,
+    "cues": 8,
+    "weighted": 7.7,
+    "compliancePass": true,
+    "complianceNotes": "PASS. No banned word on the image or in the Meta text. 'Emerald-green cubic zirconia', '18k gold tone' and 'shell pearls' are all allowed listing words; 'emerald' never appears alone, and neither 'pearl' without 'shell' nor 'freshwater' appears. Stock is 32, so 20 or more. ₹899 and the BUY2 10% / BUY3 20% offers match the RULINGS read of 19 Nov 15:25 UTC. I could not re-check them live today (20 Nov), so check them before launch. No compare-at price, no free shipping, no water imagery, no worn frame, no face. 'About 16.8 mm tall' is the listing height, so no number is invented. Honesty nits that do not fail the gate: (1) 'BUY2: 10% off 2 pieces' and '10% off 2' can be read as if the two earrings of one pair count as 2 pieces. BUY2 needs 2 items, and a pair of studs is 1 item, so 'any 2 pieces' or '2 items' would be safer. (2) The image prints BUY3 · 20% off but the Meta text does not mention it. Both offers are verified, so this is a consistency issue only.",
+    "notes": "Product truth: I checked the picture against the pack and detail refs and the 19 Nov lock. Each stud has a cushion emerald-green CZ at the upper edge of the circlet, slightly tilted, and the centre stays open (the post shows through). Each has 5 claw-set clear CZs, two four-point gold stars, one larger shell pearl on the inner side and one small pearl at the bottom. The pair are mirror images, and the order of parts matches the refs stone by stone. The only drift is small: the green stone sits closer to centre-top than in the detail ref, but it never centres in the ring. The 'SHOWN MAGNIFIED · ABOUT 16.8 MM TALL' tag answers the scale question for a macro, so it reads clearly as a small stud and not a hoop. One literal point: the gold also carries colour, so the scene is monochrome except the stones and the gold tone. Stop: at 200 px the two green stones are the most saturated thing in the frame. The single green word COLOUR (a jade, about #19A47E, close to the stone's highlight) echoes them and gives the headline a split-colour surprise. One message: the picture proves the headline. A grey world with green the only colour tells a stranger 'these green studs are the standout at a wedding function' in one sentence. Copy: 6 words built on the selective-colour device, and the occasion sits as the second beat in ivory italic. But it is a figurative styling line, not the A4 craft truth in listing words. There is also a small logic wobble: Indian wedding rooms are full of colour. Meta primary text is 125 characters and the offer ends at character 99, which is fine. Layout: headline, then piece, then card read in order. The size tag box ends about 33 px above the stone and does not touch it. Text share is about 18%. The Story keeps all text between y 270 and 700. The wordmark sits tight on top of the headline in the Story. Archetype: this is a centred pair on a plinth, not a monument crop. The piece is not tilted 10-35 degrees and no edge crops it, so A4's mechanism is only partly there. Size tag and magnification are present, and the headline at least works the selective-colour device. Desire: charcoal silk, a silver zari edge and white petals give a moody wedding mood. There is no skin, and the light is cool. Cues: ₹899 and the offer box are legible at 200 px, and the price is set larger than the name. Weighted total is about 7.7, and every dimension is 6 or more, so it meets the ship thresholds.",
+    "label": "X"
+   }
+  },
+  "b04-3": {
+   "A": {
+    "stop": 7.5,
+    "message": 6,
+    "truth": 8.5,
+    "layout": 7.5,
+    "brand": 8,
+    "copy": 5.5,
+    "fit": 6,
+    "desire": 7,
+    "cues": 7.5,
+    "weighted": 7.175,
+    "compliancePass": true,
+    "complianceNotes": "Same picture, card, offer and Meta text as X, and the same pass. No banned words. Stock 32. ₹899, BUY2 10% and BUY3 20% are verified. 16.8 mm is the listing figure. No face. 'One bold ear' is not a compliance problem, though it carries a product-reading risk (see notes).",
+    "notes": "Same picture, so product truth, cues and brand match X. A pixel diff confirms the only change in the Feed is the headline and second-beat zone (y 101-346). Stop power: the headline is all cream, so the green hit at the top goes to the thin italic occasion line. At 200 px that line is a weak, low-contrast teal and adds little stop. One message: 'ONE BOLD EAR IS ENOUGH.' sits over a picture of a pair. Read literally, it says wear one earring, the picture does not prove it, and 'ear' for 'earring' needs decoding. Colouring the occasion line makes 'wedding function' compete with the headline as a second idea. Copy: the meaning needs decoding (the rubric's 5-level anchor). It is no listing truth, and the colour treatment promotes the occasion out of its second-beat role. Archetype fit: the type no longer ties to the selective-colour device. In the Story the occasion line is dropped, so the headline carries no green at all, and the Story becomes generic 'dark macro plus line'. Desire: the picture is unchanged. The line is a restraint pitch ('enough') rather than a desire pitch, which is less aspirational for a wedding-season buyer. Layout is equal to X; the one-line Story headline (x 85-995) is a fair width. Copy at 5.5 puts it below the ship rule's floor of 6.",
+    "label": "Y"
+   },
+   "B": {
+    "stop": 7.5,
+    "message": 6,
+    "truth": 8,
+    "layout": 7,
+    "brand": 8,
+    "copy": 5,
+    "fit": 5.5,
+    "desire": 7,
+    "cues": 7.5,
+    "weighted": 6.975,
+    "compliancePass": true,
+    "complianceNotes": "PASS. Picture, card, offer and Meta text are identical to X, so the same checks hold. No banned words. 'Emerald-green cubic zirconia', '18k gold tone' and 'shell pearls' are allowed. Stock is 32. ₹899 and BUY2/BUY3 match the 19 Nov read; re-check them live before launch. No water, no face, and 16.8 mm comes from the listing. Same nits as X: 'BUY2: 10% off 2 pieces' / '10% off 2' can be misread as the two earrings of one pair, and BUY3 is on the image but not in the Meta text. Here the headline makes that misreading more likely. 'ONE BOLD EAR' plus '10% off 2 pieces' invites the reading 'single earrings, buy both ears and get 10% off'.",
+    "notes": "Same picture, so the fidelity checks are the same as X: 5 clear CZs, two four-point stars, two shell pearls, the green stone at the upper edge, the centre open, a mirrored pair, all matching the refs and the 19 Nov lock, with the 16.8 mm size tag present. The difference is the headline. 'ONE BOLD EAR IS ENOUGH.' sits over a picture of two studs, so the picture does not prove the headline and the line needs decoding. It could mean one statement earring per look with no necklace, or wearing a single stud, or that the studs are sold singly. That muddles what you get, which is a pair, so product truth drops half a point and purchase cues half a point. Copy hits the rubric's 'meaning needs decoding' level (5). The line is not listing-verifiable, has no craft truth, and does not tie to the selective-colour device. The green has moved to the italic 'for the wedding function.', which spends the scene's one accent colour on the occasion (the second beat) instead of the claim. A thin Cormorant italic in jade on charcoal is also noticeably lower in contrast than ivory (about 4:1 against about 13:1) and fades at 200 px. In the Story the headline becomes one wide line (x 85 to 995) with no second beat and no green word, so the Story loses the colour echo entirely. Stop power still rests on the stones, which are the most saturated thing in the frame, but the type adds no surprise. Archetype fit is weaker than X: no monument crop or tilt, no craft truth, and the headline does not use the selective-colour mechanism. Desire comes from the same moody silk, zari and petal scene. The 'enough' framing reads as restraint rather than want. Weighted total is about 7.0. Copy (5) and archetype fit (5.5) are below 6, and message sits at 6, so it fails the ship rule.",
+    "label": "Y"
+   }
+  },
+  "_prefer": {
+   "A": {
+    "prefer": "b04-3h",
+    "why": "I would run X. Its headline and colour treatment both do the picture's job: a monochrome scene where only the stones carry colour, headlined 'THE ONLY COLOUR IN THE ROOM' with 'COLOUR' set in the stone's green. The picture proves the line, the split-colour headline adds stop power at 200 px, and the device survives into the Story. Y's 'ONE BOLD EAR IS ENOUGH' sits over a visible pair, reads as 'wear one', and needs decoding. Its green goes to the occasion line, which weakens the hook and lifts the second beat above the headline, and in the Story that green vanishes. Y's copy (5.5) fails the ship rule's floor of 6. X clears every floor, with product truth at 8.5."
+   },
+   "B": {
+    "prefer": "b04-3h",
+    "why": "X, clearly. The picture, card and offer are identical, so the headline decides it. In X the headline is something the picture visibly proves: a monochrome scene where the green stones are the only colour, echoed by the one jade word COLOUR. Anyone gets it at 200 px in one sentence, and the occasion stays a quiet ivory second beat. In Y, 'One bold ear is enough' sits over a picture of two studs. It needs decoding and makes it unclear whether you buy a pair or a single. Paired with '10% off 2 pieces' it can mislead on the offer. It also spends the scene's only accent colour on the occasion line, at lower contrast. X meets the ship thresholds (all 6 or more, product truth 8.5). Y fails them (copy 5, archetype fit 5.5). Before running X, I would change '10% off 2 pieces' to 'any 2 pieces' or '2 items', and re-read price and stock live."
+   }
+  }
+ },
+ "problems": [],
+ "method": {
+  "s1": "I looked at the sheet once at native thumbnail size and asked of each tile: what hits the eye first, is it the jewellery, and does the piece look wanted. Tiles where a large, well-lit product is the hero scored highest. Tiles that lead with a body, a prop or a block of text scored lower, even when they had stop power.",
+  "s2": "I looked at the sheet once at its native size and asked of each tile whether the jewellery itself is big, sparkly or colour-contrasted enough to stop the thumb before the body, props or text. Tiles where the product fills the frame on a bold background ranked highest; tiles led by skin, empty set or collage clutter ranked lowest.",
+  "s3": "I scored each tile at the sheet's native size on two things: whether the jewellery itself is what the eye lands on and looks wanted, and whether the piece and its price can be read at a glance. Tiles where a body, prop or text block lands first were marked down. Ties are given only to near-duplicate layouts (M6/C3, P4/F9, P5/P2).",
+  "s4": "I looked at the sheet once at its native thumbnail size. I scored each tile on whether one jewellery piece is the first thing the eye lands on, with enough size and contrast to stop the scroll, and whether the price reads without effort. I marked down tiles where skin, props, callouts or text blocks came first."
+ }
+}
