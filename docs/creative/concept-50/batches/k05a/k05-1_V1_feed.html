@@ -9,7 +9,7 @@
  .obj .kTW { letter-spacing: -.045em; }
 
  /* 2 · TYPE-SHADOW, hung from the object line's baseline, leaning with the plate (16 deg), stretched like a low-sun shadow */
- .ts { position: absolute; left: 76px; top: 323.3px; width: 620px; height: 120px; transform-origin: 0 0; transform: skewX(17deg) scaleY(1.5); }
+ .ts { position: absolute; left: 76px; top: 338.3px; width: 620px; height: 120px; transform-origin: 0 0; transform: skewX(17deg) scaleY(1.5); }
  .ts.sh { mix-blend-mode: multiply; }
  .ts.lt { mix-blend-mode: screen; }
  .ts p { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic;
@@ -19,6 +19,9 @@
  .ts .a { -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 45px, transparent 54px); mask-image: linear-gradient(to bottom, #000 0, #000 45px, transparent 54px); }
  .ts .b { filter: blur(.9px); -webkit-mask-image: linear-gradient(to bottom, transparent 43px, #000 53px, #000 60px, transparent 68px); mask-image: linear-gradient(to bottom, transparent 43px, #000 53px, #000 60px, transparent 68px); }
  .ts .c { filter: blur(1.7px); -webkit-mask-image: linear-gradient(to bottom, transparent 59px, #000 67px); mask-image: linear-gradient(to bottom, transparent 59px, #000 67px); }
+ /* penumbra: a soft fringe outside the crisp umbra, widening with distance from the contact */
+ .ts .pen { -webkit-text-stroke: 4px #3B2620; filter: blur(4px); opacity: .34;
+            -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 0, #000 70%); mask-image: linear-gradient(to bottom, rgba(0,0,0,.35) 0, #000 70%); }
  /* the pool: the shadow that the lit word sits inside (the crystal's caustic glows inside the joined hands' shadow) */
  .ts .pool { color: transparent; }
  .ts .pool .w { color: #3B2620; -webkit-text-stroke: 8px #3B2620; filter: blur(6px); }
@@ -49,6 +52,7 @@
  <p class="h1 obj"><span class="kTW">T</span>wo<br>Stones.</p>
 
  <div class="ts sh">
+  <p class="pen">tum <span class="w">aur</span> main.</p>
   <p class="pool">tum <span class="w">aur</span> main.</p>
   <p class="a">tum <span class="w">aur</span> main.</p>
   <p class="b">tum <span class="w">aur</span> main.</p>
