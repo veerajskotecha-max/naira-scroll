@@ -1,27 +1,8 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k02-4 V1 · Brushed Gold Huggies (prints as BRUSHED SATIN HOOPS) · camp k02 card 4 "THE SOFT FOCUS." REW / PAIN / TRUST
-     Story 1080x1920.
-     Picture: pics/k02-4A.png (1520x2688, gpt_image_2_6, job ca1b51d1-d453-441d-b896-15de946a9d72), verified PASS WITH NOTES
-     (verify/k02-4.md). Used as it is: nothing scaled, moved, retouched or composited; only the CSS window picks the crop.
-     The pair is pixel-identical to the bare picture in this render (max channel difference 0 over the eroded pair mask, checked
-     against a render with every overlay hidden).
-     Crop: Hd 1909.9 < 1920, so cover scales by 1920/2688 = .714286 (1085.71 x 1920, x offset -2.86). Pair x 424-853, y 941-1168
-     (16.2 px per mm). The planned lower third (1010-1250) would cover the pair, so the name super sits above it on the window and top
-     face (the verifier's re-plan) and the pair stands alone on the label.
-     SOFT FOCUS (camp k02 card 4): an inline SVG copy of the same picture in exact register, feGaussianBlur 18 + 12 % lift, screen at
-     40 %, masked by masks/k02-4A_mist.png (GrabCut cut-out of the pair, dilated 4 px with a feathered edge, alpha 0 on the pair), so the
-     silk, cassette, label and hard shadows dream and the earrings stay pin-sharp. Tracking band: feTurbulence noise, 3 px RGB split,
-     bone soft-light, background only. Band here at y 1262-1332 (below the text zone).
-     Type (ink): OSD x 72-199 y 280-305; bug top 270; title 92 x 68-862 y 355-432; beat 44 x 75-728 y 446-537; name super cocoa 94 %
-     y 570-802 (gold-light hairlines): name 598-617, line 630-656, price 596-659 (x 886-1005), offer box 674-735, trust 758-777;
-     handwritten contents on the label x 73-519 y 848-884 (55 px over the pair); spec x 71-357 y 936-1085 (65 px left of the pair);
-     date stamp x 74-274 y 1193-1213. All text inside y 270-1250; the offer prints.
-     Contrast median (worst 2 %): OSD 16.1 (15.3), title 10.8 (9.0), beat 13.8 (11.0), name 12.1 (10.9), line 12.1 (10.8), price 8.7 (8.7),
-     offer 12.3 (11.8), trust 12.3 (11.4), contents 13.9 (13.0), spec 14.0 (13.4), stamp 12.5 (5.4) against its halo ring.
-     Render gates: failed, overflow, fallback and outside empty; minFont 26; textShare 0.153 (render.cjs, 20 Nov 2026). -->
+<!-- HEADER -->
 <style>
  body { background: #1E0E10; }
- /* Story: H 2688 x (1920/2688) = 1920; cover scale 0.714286, picture 1085.71 x 1920, x offset -2.857. */
+ /* Story: Hd 1909.9 < 1920, so cover scales by 1920/2688 = .714286: picture 1085.71 x 1920, x offset -2.857. */
  .pic { object-position: 50% 50%; }
  svg.mist { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; mix-blend-mode: screen; opacity: .40; pointer-events: none; }
  svg.fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
@@ -33,27 +14,30 @@
  .stamp { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); font-weight: 400; font-size: 26px;
           letter-spacing: .14em; line-height: 30px; text-shadow: 2px 2px 0 rgba(26,22,20,.6), 0 0 10px rgba(26,22,20,.55); white-space: nowrap; }
  .bug { position: absolute; right: 72px; top: 270px; height: 56px; opacity: .88; }
- .super { position: absolute; left: 72px; margin: 0; text-align: left; font-family: var(--display); text-transform: uppercase;
+ .super { position: absolute; left: 72px; margin: 0; font-family: var(--display); text-transform: uppercase;
           font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
           font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
           -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
- .super .soft { display: inline-block; filter: blur(2.5px);
-                text-shadow: 0 0 14px rgba(244,240,232,.4), 0 0 28px rgba(244,240,232,.25), 0 6px 18px rgba(59,38,32,.7); }
+ .super .soft { display: inline-block; filter: blur(4.5px);
+                text-shadow: 0 0 22px rgba(244,240,232,.5), 0 0 44px rgba(244,240,232,.3), 0 6px 18px rgba(59,38,32,.7); }
  .super .sharp { display: inline-block; }
- .beat { position: absolute; left: 72px; text-align: left; color: var(--bone); font-size: 44px; line-height: 48px;
+ .beat { position: absolute; left: 72px; color: var(--bone); font-size: 44px; line-height: 48px;
          text-shadow: 0 2px 10px rgba(26,22,20,.55); white-space: nowrap; }
  .hand { position: absolute; font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ink); white-space: nowrap; }
- .contents { left: 72px; top: 852px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
- .spec { left: 72px; top: 936px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
- .lower { position: absolute; left: 0; right: 0; top: 570px; height: 232px; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light);
-          border-bottom: 2px solid var(--gold-light); }
+ .contents { left: 72px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
+ .spec { left: 72px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 0; }
+ /* The name super: slim, 86 % cocoa so the reel window ghosts through, gold-light hairlines */
+ .lower { position: absolute; left: 0; right: 0; top: 578px; height: 208px; background: rgba(59,38,32,.86);
+          border-top: 2px solid var(--gold-light); border-bottom: 2px solid var(--gold-light); }
  .lt { position: absolute; color: var(--bone); white-space: nowrap; }
- .lt.name { left: 72px; top: 592px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
- .lt.line { left: 72px; top: 626px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
- .lt.price { right: 72px; top: 590px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light); }
- .lt.offerw { left: 72px; top: 674px; }
+ .lt.name { left: 72px; top: 594px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
+ .lt.line { left: 72px; top: 628px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
+ .lt.price { right: 72px; top: 592px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light);
+             font-variant-numeric: lining-nums; }
+ .lt.price .r { font-weight: 400; font-size: .84em; margin-right: .04em; }
+ .lt.offerw { left: 72px; top: 668px; }
  .lt .offer { color: var(--bone); }
- .lt.trust { left: 72px; top: 752px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 32px; text-transform: uppercase; }
+ .lt.trust { left: 72px; top: 740px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: 4.02px; line-height: 32px; text-transform: uppercase; }
 </style></head>
 <body class="dark story">
  <img class="pic" src="pics/k02-4A.png">
@@ -65,31 +49,32 @@
   </defs>
   <g mask="url(#mm)"><image href="pics/k02-4A.png" x="-2.857" y="0" width="1085.714" height="1920" preserveAspectRatio="none" filter="url(#sf)"/></g>
  </svg>
+ <!-- tracking band: the tape is rewinding; it runs through the dark top silk, above the OSD, on background only -->
  <svg class="fx" viewBox="0 0 1080 1920">
   <defs>
    <filter id="tn" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9 0.06" numOctaves="2" seed="7"/>
     <feColorMatrix values="0 0 0 0 .957  0 0 0 0 .941  0 0 0 0 .91  0 0 0 1.6 -.45"/></filter>
    <linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff"/><stop offset=".75" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-   <mask id="bm"><rect x="0" y="1262" width="1080" height="70" fill="url(#bf)"/></mask>
+   <mask id="bm"><rect x="0" y="190" width="1080" height="70" fill="url(#bf)"/></mask>
   </defs>
   <g mask="url(#bm)">
-   <rect class="band" x="0" y="1262" width="1080" height="70" filter="url(#tn)" opacity=".7"/>
-   <rect x="0" y="1288" width="1080" height="2" fill="#F4F0E8" opacity=".35"/>
-   <rect x="3" y="1291" width="1080" height="1.5" fill="#ff3b3b" opacity=".35"/>
-   <rect x="-3" y="1293" width="1080" height="1.5" fill="#3bd5ff" opacity=".3"/>
+   <rect class="band" x="0" y="190" width="1080" height="70" filter="url(#tn)" opacity=".7"/>
+   <rect x="0" y="216" width="1080" height="2" fill="#F4F0E8" opacity=".35"/>
+   <rect x="3" y="219" width="1080" height="1.5" fill="#ff3b3b" opacity=".35"/>
+   <rect x="-3" y="221" width="1080" height="1.5" fill="#3bd5ff" opacity=".3"/>
   </g>
  </svg>
  <div class="osd" data-m="osd"><svg width="40" height="26" viewBox="0 0 40 26"><path d="M20 0 L0 13 L20 26 Z M40 0 L20 13 L40 26 Z" fill="#F4F0E8"/></svg>REW</div>
  <img class="bug" src="../../../ads-500/kit/logo_white.png">
- <p class="super" data-m="title" style="top:354px;font-size:92px"><span class="soft">The soft</span> <span class="sharp">focus.</span></p>
- <p class="beat" data-m="beat" style="top:440px">The tape kept the shine. The plating didn’t.<br>This one is tarnish free.</p>
+ <p class="super" data-m="title" style="top:340px;font-size:92px"><span class="soft">The soft</span> <span class="sharp">focus.</span></p>
+ <p class="beat" data-m="beat" style="top:440px">The tape kept the shine. The bangles didn’t.<br>This one is tarnish free.</p>
  <div class="lower"></div>
  <div class="lt name" data-m="name">Brushed Satin Hoops</div>
- <div class="lt line" data-m="line">18k gold tone · brushed satin · in stock</div>
- <div class="lt price" data-m="price">₹699</div>
+ <div class="lt line" data-m="line">Surgical stainless steel · in stock</div>
+ <div class="lt price" data-m="price"><span class="r">₹</span>699</div>
  <div class="lt offerw"><div class="offer" data-m="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
  <div class="lt trust" data-m="trust">Free insured shipping · Cash on delivery</div>
- <div class="hand contents" data-m="contents">Shaadi · Haldi to Reception · Dec ’96</div>
- <div class="hand spec" data-m="spec">14 × 9.8 mm, about life size<br>PVD 18k gold tone<br>waterproof · tarnish free<br>hypoallergenic</div>
+ <div class="hand contents" data-m="contents" style="top:862px">Shaadi · Haldi to Reception · Dec ’96</div>
+ <div class="hand spec" data-m="spec" style="top:940px">14 × 9.8 mm, about life size<br>PVD 18k gold tone<br>waterproof · tarnish free<br>hypoallergenic</div>
  <div class="stamp" data-m="stamp" style="top:1188px">12 · 12 · 1996</div>
 </body></html>
