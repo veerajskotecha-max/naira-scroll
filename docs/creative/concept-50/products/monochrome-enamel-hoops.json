@@ -29,5 +29,10 @@
     {"file": "04.jpg", "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/monochrome-enamel-hoops-3.jpg?v=1794521879", "shows": "Worn close-up: the ear and lobe, with the hoop hanging at about a third of the ear's height (about 20-21 mm estimated). The stripes face forward, white toward the face and black behind, with a gold rail at each edge and one between. Marigold strap. True scale, so it is the best worn scale photo. 18k gold tone."},
     {"file": "05.jpg", "url": "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/monochrome-enamel-hoops-size-guide.jpg?v=1794521879", "shows": "Size guide: photo 01 with a 20 mm height bar, and the text '20 mm tall · 7 mm wide · give or take 1 mm' plus the NAIRA PETITE wordmark. Scale evidence only; it has a text overlay, so it is not a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20): title, description, tags (18k Gold Tone Plated, Demi Fine, Earrings, Enamel, Hoops, Naira Petite), 1 variant, 5 images. Also ads-500/build/study/products.md section 13, ads-500/build/refs.json, ads-500/batches/b03/verify.md (b03-4), ads-500/build/learnings.md, ads-500/build/retest/REPORT.md (b04-0), and concept-50/plan.json locks plus PLAN.md (c03-2, c06-2, c10-1). concept-camps/build/refs has no photos for this handle."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20): title, description, tags (18k Gold Tone Plated, Demi Fine, Earrings, Enamel, Hoops, Naira Petite), 1 variant, 5 images. Also ads-500/build/study/products.md section 13, ads-500/build/refs.json, ads-500/batches/b03/verify.md (b03-4), ads-500/build/learnings.md, ads-500/build/retest/REPORT.md (b04-0), and concept-50/plan.json locks plus PLAN.md (c03-2, c06-2, c10-1). concept-camps/build/refs has no photos for this handle.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/monochrome-enamel-hoops/04_scale_crop.jpg",
+    "mediaId": "6267ed49-81f1-475a-aaa5-12b145105ffe",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn on the earlobe at true size (20 mm tall and 7 mm wide: the hoop hangs from the lobe at about a third of the ear's height, as tall as a Rs 1 coin is wide, the band about as thick as a pencil): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

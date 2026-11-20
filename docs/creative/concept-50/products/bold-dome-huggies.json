@@ -33,5 +33,10 @@
     {"file": "05.jpg", "shows": "Scale: the pair lying flat and overlapping on blush plaster, a green cardamom pod resting on the back hoop. The hoop is about 1.25 pod lengths, consistent with 16 mm. Knobs, seams and the taper all visible. 18k gold tone. Reference 2 (new media id da442fe7-6098-4da9-afb8-a2108bfaeebb)."},
     {"file": "06.jpg", "shows": "Size guide: the packshot with a 16 mm bar and a 10 mm ruler, 'Hoop 16 mm across, measurements are approximate, give or take 1 mm'. Scale evidence; text overlay, so not a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only queries, 2026-11-20: description, tags, 1 variant, sku, compare-at, 6 images, no video); performance/build/products_g4.json (earlier lock and media ids); performance/build/review_a_r1.json (ad reviews: scale reads 20-25% large, apricot taste risk, fryum and pencil rhymes); performance/handoff/manifest.json (ad 68 ghungroo copy); ads-500/build/study/brand.md (ghungroo colour rhyme); edition-one/build/refs/dome and skus.json (stale 14 mm, Rs 1,649). Not present: an ads-500 products.md section, a concept-50 plan.json lock, ads-500 refs for this handle."
+  "sources": "Live Shopify listing (read-only queries, 2026-11-20: description, tags, 1 variant, sku, compare-at, 6 images, no video); performance/build/products_g4.json (earlier lock and media ids); performance/build/review_a_r1.json (ad reviews: scale reads 20-25% large, apricot taste risk, fryum and pencil rhymes); performance/handoff/manifest.json (ad 68 ghungroo copy); ads-500/build/study/brand.md (ghungroo colour rhyme); edition-one/build/refs/dome and skus.json (stale 14 mm, Rs 1,649). Not present: an ads-500 products.md section, a concept-50 plan.json lock, ads-500 refs for this handle.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/bold-dome-huggies/05.jpg",
+    "mediaId": "57f8f6f2-4918-4e45-9a99-0cadad37f4ef",
+    "use": "Add as reference 3: \"Reference 3 shows this exact pair beside a green cardamom pod at true size (each hoop 16 mm across, about 1.25 times the pod's length and a little smaller than a Rs 1 coin; worn, it spans about a quarter of the ear's height and hugs the lobe): match that scale exactly; copy only the scale, never the pod or a face.\""
+  }
 }

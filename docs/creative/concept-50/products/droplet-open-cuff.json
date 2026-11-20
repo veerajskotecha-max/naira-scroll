@@ -64,5 +64,10 @@
       "shows": "Size guide: supplier photo of the gold cuff beside the gold Droplet Open Ring, bars at 12.3 mm (cuff teardrop) and 6.6 mm (ring teardrop); text 'Teardrop 12.3 mm, 30 g, give or take 1 mm'. Scale evidence only; it has a text overlay and a second product, so it is not a generation reference."
     }
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags 18k Gold Tone Plated / Bracelet / Cuff / Demi Fine / Edition Two / Hypoallergenic / Naira Petite / Rhodium Silver Tone Plated / Tarnish Free / Waterproof, 2 variants, 8 media). Earlier work for context: performance/COLOUR50.md, REDO43.md and build/colour50.json (shot 38, 'Just one drop.', at Rs 1,599); finished-ads/e2 (E2_droplet_a1 'Happy tears only.', rain plate rejected, at Rs 1,899); ring-sizes/descriptions.json (the matching Droplet Open Ring). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this cuff."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags 18k Gold Tone Plated / Bracelet / Cuff / Demi Fine / Edition Two / Hypoallergenic / Naira Petite / Rhodium Silver Tone Plated / Tarnish Free / Waterproof, 2 variants, 8 media). Earlier work for context: performance/COLOUR50.md, REDO43.md and build/colour50.json (shot 38, 'Just one drop.', at Rs 1,599); finished-ads/e2 (E2_droplet_a1 'Happy tears only.', rain plate rejected, at Rs 1,899); ring-sizes/descriptions.json (the matching Droplet Open Ring). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this cuff.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/droplet-open-cuff/03.jpg",
+    "mediaId": "7653ec83-5430-4cfe-81b0-ea8c9d2c3928",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn on the wrist at true size (6 cm inside, 3 mm wire, 9 mm ball and 12.3 mm teardrop: both ends sit on top of the wrist about 2 cm apart, each about a fingernail wide, the wire much thinner than a pencil, the cuff no wider than the wrist): match that scale exactly; copy only the scale, never a face.\""
+  }
 }
