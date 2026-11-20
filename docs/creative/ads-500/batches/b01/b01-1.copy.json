@@ -1,143 +1,194 @@
 {
- "id": "b01-1",
- "handle": "cushion-halo-ring",
- "product": "Cushion Halo Ring",
- "price": 999,
- "archetype": "A6 Single Spotlight",
- "light": "L1",
- "camera": "C3",
- "onImage": {
-  "headline": "LOOKS LIKE / A PROPOSAL.",
-  "beat": "priced like a present.",
-  "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
-  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": "Feed only: HALO ABOUT 12 MM ACROSS (one plain centred line, kit .sizetag look without the box, Jost 500 caps 26 px .12em bone). Story: none (the named no-text control).",
-  "callouts": []
- },
- "meta": {
-  "primaryText": "Looks like a proposal, priced like a present: Cushion Halo Ring, ₹999, 8 mm cubic zirconia. BUY2: 10% off 2 pieces. Silver tone, adjustable, with an open back.",
-  "headline": "Cushion Halo Ring · ₹999 · 10% off 2",
-  "description": "Silver tone · cubic zirconia",
-  "cta": "Shop Now",
-  "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b01&utm_content={{ad.id}}&utm_term=b01-1_a6_proposal-spotlight"
- },
- "story": {
-  "text": null,
-  "note": "A6 no-text twin (no wordmark, no name, no price) kept by critic B and the brief; logged as a test against a name-and-price Story lockup."
- },
- "finisher": {
-  "date": "2026-11-19",
-  "changes": [
-   "offer box one 26 px line (was 26 + 20 px small line)",
-   "card top 910 -> 920",
-   "Meta headline 42 -> 36 characters, offer value kept inside 40",
-   "Meta description 41 -> 28 characters",
-   "offer label Code → Codes (b03 loop change 1); Feed re-rendered 2026-11-19 20:32:42 UTC"
-  ]
- },
- "review": {
-  "scoredFiles": {
-   "feed": "batches/b01/b01-1_feed.jpg (render of 2026-11-19 20:32:42 UTC, after the offer fix; re-scored by both critics)",
-   "story": "batches/b01/b01-1_story.jpg (render of 2026-11-19 16:46:07 UTC, the no-text A6 twin; re-scored by both critics)"
+  "id": "b01-1",
+  "handle": "cushion-halo-ring",
+  "product": "Cushion Halo Ring",
+  "price": 999,
+  "archetype": "A6 Single Spotlight",
+  "light": "L1",
+  "camera": "C3",
+  "onImage": {
+    "headline": "LOOKS LIKE / A PROPOSAL.",
+    "beat": "priced like a present.",
+    "cardLine": "8 mm cubic zirconia · silver tone · adjustable",
+    "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "sizeTag": "Feed only: HALO ABOUT 12 MM ACROSS (one plain centred line, kit .sizetag look without the box, Jost 500 caps 26 px .12em bone). Story: none (the named no-text control).",
+    "callouts": []
   },
-  "rescore": {
-   "A": {
-    "weighted": 7.5,
-    "verdict": "ship"
-   },
-   "B": {
-    "weighted": 7.55,
-    "verdict": "ship"
-   },
-   "mean": 7.525,
-   "note": "Re-score by both critics on the final files (b03 loop change 2). The Story stays the named no-text control arm."
+  "meta": {
+    "primaryText": "Looks like a proposal, priced like a present: Cushion Halo Ring, ₹999, 8 mm cubic zirconia. BUY2: 10% off 2 pieces. Silver tone, adjustable, with an open back.",
+    "headline": "Cushion Halo Ring · ₹999 · 10% off 2",
+    "description": "Silver tone · cubic zirconia",
+    "cta": "Shop Now",
+    "url": "https://www.nairaflore.com/products/cushion-halo-ring?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b01&utm_content={{ad.id}}&utm_term=b01-1_a6_proposal-spotlight"
   },
-  "superseded": true,
-  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
- },
- "final": {
-  "round": "b04 re-score, round 1 (Feed 20:32:42 after the b03 offer fix; Story is the no-text control); files unchanged since",
-  "A": 7.5,
-  "B": 7.55,
-  "mean": 7.53,
-  "scoredFile": "batches/b01/b01-1_feed.jpg 2026-11-19 20:32:42.265455828 +0000",
-  "scoredStory": "batches/b01/b01-1_story.jpg 2026-11-19 16:46:07.860647737 +0000",
-  "beatsWinnerBy": {
-   "win_static_hoops_apricot": [],
-   "win_twenty_f2_tennis_ruby": []
+  "story": {
+    "text": null,
+    "note": "A6 no-text twin (no wordmark, no name, no price) kept by critic B and the brief; logged as a test against a name-and-price Story lockup."
   },
-  "beatsLoserBy": {
-   "lose_p2_proof_parody": [
-    "A",
-    "B"
-   ],
-   "lose_sa08_walls": [
-    "A",
-    "B"
-   ]
+  "finisher": {
+    "date": "2026-11-19",
+    "changes": [
+      "offer box one 26 px line (was 26 + 20 px small line)",
+      "card top 910 -> 920",
+      "Meta headline 42 -> 36 characters, offer value kept inside 40",
+      "Meta description 41 -> 28 characters",
+      "offer label Code → Codes (b03 loop change 1); Feed re-rendered 2026-11-19 20:32:42 UTC"
+    ]
   },
-  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
-  "verdict": "ship (re-scored in b04 after the b03 loop change 1 offer fix 'CODES BUY2': A 7.5, B 7.55; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither. The Story stays the named no-text control) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6.5, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 45 at 20 Nov 2026, 00:27 UTC.",
-  "date": "19 Nov 2026, 23:35 UTC"
- },
- "layout": {
-  "scale": "Measured on the Feed JPG (20 Nov 2026, z2): the halo's widest row (y 518-530) runs x 441-641 = 201 px for the listed 12 mm = 16.7 Feed px/mm; the stone's girdle is about 137 px for 8 mm = 17.1 px/mm. Under the 19 px/mm trigger (about life size on a phone), so the line states the size plainly with no 'magnified'.",
-  "feed": "Unchanged: headline Velista 76 gold-light at left 72 / 232, top 96 / 174; beat Cormorant italic 48 bone at left 232, top 262 (ink x 232-574, y 266-313); scrim 866-1066; card top 920 (wordmark, name, price, line, offer box 1170-1232). New (z2): size line 'HALO ABOUT 12 MM ACROSS' centred on the ring's axis, line box x 325-756, y 392-430 (ink x 326-750, y 401-420), in the plain oxblood above the ring's head; its box bottom is 25 px over the ring's top (prong and glint at y 455) and its ink is 88 px under the beat's ink. Ring x 372-715, y 455-845. No type over the ring. The two places the audit named do not hold one line: between the ring's foot (845) and the wordmark (920) is the lit velvet top with the ring's shadow (L 13-110, 75 px tall), and beside the ring leaves under 300 px a side (one 26 px line needs 431 px; two lines would take the text share over 14%).",
-  "contrast": "Size line, bone on the picture under its line box (median, worst 2%): 15.5 (15.0); ground median rgb 40,19,21. Beat 16.9 (15.5) for reference.",
-  "story": "Native 9:16 frame, no text, no logo: the named no-text control. Re-rendered in z2; byte-identical to the 19 Nov 16:46 render.",
-  "checks": {
-   "feed": {
-    "out": "b01-1_feed.jpg",
-    "size": "1080x1350",
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.139,
-    "outside": [],
-    "minFont": 26
-   },
-   "story": {
-    "out": "b01-1_story.jpg",
-    "size": "1080x1920",
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0,
-    "outside": [],
-    "minFont": null
-   }
-  },
-  "textShare": "Feed 0.127 -> 0.139 (A6 limit 0.14). Story 0.",
-  "minFont": "Feed 26. Story has no text (null)."
- },
- "copyChanges": [
-  {
-   "date": "20 Nov 2026",
-   "round": "z2",
-   "change": "Feed only: added one plain Jost size line 'HALO ABOUT 12 MM ACROSS' (kit .sizetag look without the box, Jost 500 caps 26 px, .12em, bone), centred on the ring's axis at line box y 392-430 above the ring's head. Measured 16.7 Feed px/mm on the halo (201 px for 12 mm; stone 17.1 px/mm), under 19, so no 'magnified'. Placed above the ring because the two named spots do not hold one line (lit velvet and shadow between the ring and the wordmark; under 300 px beside the ring). Story untouched (no-text control), re-rendered only. No meta change.",
-   "why": "Audit (z2, critic B, truth under the ship bar of 8): \"magnified with no size tag; the side view hides the cushion halo\".",
-   "render": {
-    "feed": {
-     "out": "b01-1_feed.jpg",
-     "size": "1080x1350",
-     "failed": [],
-     "overflow": [],
-     "fallback": [],
-     "textShare": 0.139,
-     "outside": [],
-     "minFont": 26
+  "review": {
+    "scoredFiles": {
+      "feed": "batches/b01/b01-1_feed.jpg (render of 2026-11-19 20:32:42 UTC, after the offer fix; re-scored by both critics)",
+      "story": "batches/b01/b01-1_story.jpg (render of 2026-11-19 16:46:07 UTC, the no-text A6 twin; re-scored by both critics)"
     },
-    "story": {
-     "out": "b01-1_story.jpg",
-     "size": "1080x1920",
-     "failed": [],
-     "overflow": [],
-     "fallback": [],
-     "textShare": 0,
-     "outside": [],
-     "minFont": null
+    "rescore": {
+      "A": {
+        "weighted": 7.5,
+        "verdict": "ship"
+      },
+      "B": {
+        "weighted": 7.55,
+        "verdict": "ship"
+      },
+      "mean": 7.525,
+      "note": "Re-score by both critics on the final files (b03 loop change 2). The Story stays the named no-text control arm."
+    },
+    "superseded": true,
+    "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+  },
+  "final": {
+    "round": "final audit, 20 Nov 2026",
+    "verdict": "ship (final audit, 20 Nov: z2 added the plain line \"HALO ABOUT 12 MM ACROSS\", 16.7 Feed px/mm; fresh audit A 8.25 / B 7.99, mean 8.12; truth 8.50 / 8.00; blind 200 px beats both losers with both critics)",
+    "audit": {
+      "round": 2,
+      "A": 8.25,
+      "B": 7.987,
+      "mean": 8.119
+    },
+    "cleanBlind": {
+      "round": 2,
+      "thumbMean": 5.38,
+      "thumbs": {
+        "A": [
+          5.5,
+          5
+        ],
+        "B": [
+          5.5,
+          5.5
+        ]
+      }
+    },
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [
+        "A",
+        "B"
+      ],
+      "win_twenty_f2_tennis_ruby": [
+        "B"
+      ]
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "scoredFile": "batches/b01/b01-1_feed.jpg 2026-11-20 01:24:57.494890435 +0000",
+    "scoredStory": "batches/b01/b01-1_story.jpg 2026-11-20 01:24:57.842890455 +0000",
+    "batchCritics": {
+      "A": 7.5,
+      "B": 7.55
+    },
+    "record": "build/retest/REPORT.md; raw scores and keys in build/retest/"
+  },
+  "layout": {
+    "scale": "Measured on the Feed JPG (20 Nov 2026, z2): the halo's widest row (y 518-530) runs x 441-641 = 201 px for the listed 12 mm = 16.7 Feed px/mm; the stone's girdle is about 137 px for 8 mm = 17.1 px/mm. Under the 19 px/mm trigger (about life size on a phone), so the line states the size plainly with no 'magnified'.",
+    "feed": "Unchanged: headline Velista 76 gold-light at left 72 / 232, top 96 / 174; beat Cormorant italic 48 bone at left 232, top 262 (ink x 232-574, y 266-313); scrim 866-1066; card top 920 (wordmark, name, price, line, offer box 1170-1232). New (z2): size line 'HALO ABOUT 12 MM ACROSS' centred on the ring's axis, line box x 325-756, y 392-430 (ink x 326-750, y 401-420), in the plain oxblood above the ring's head; its box bottom is 25 px over the ring's top (prong and glint at y 455) and its ink is 88 px under the beat's ink. Ring x 372-715, y 455-845. No type over the ring. The two places the audit named do not hold one line: between the ring's foot (845) and the wordmark (920) is the lit velvet top with the ring's shadow (L 13-110, 75 px tall), and beside the ring leaves under 300 px a side (one 26 px line needs 431 px; two lines would take the text share over 14%).",
+    "contrast": "Size line, bone on the picture under its line box (median, worst 2%): 15.5 (15.0); ground median rgb 40,19,21. Beat 16.9 (15.5) for reference.",
+    "story": "Native 9:16 frame, no text, no logo: the named no-text control. Re-rendered in z2; byte-identical to the 19 Nov 16:46 render.",
+    "checks": {
+      "feed": {
+        "out": "b01-1_feed.jpg",
+        "size": "1080x1350",
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.139,
+        "outside": [],
+        "minFont": 26
+      },
+      "story": {
+        "out": "b01-1_story.jpg",
+        "size": "1080x1920",
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0,
+        "outside": [],
+        "minFont": null
+      }
+    },
+    "textShare": "Feed 0.127 -> 0.139 (A6 limit 0.14). Story 0.",
+    "minFont": "Feed 26. Story has no text (null)."
+  },
+  "copyChanges": [
+    {
+      "date": "20 Nov 2026",
+      "round": "z2",
+      "change": "Feed only: added one plain Jost size line 'HALO ABOUT 12 MM ACROSS' (kit .sizetag look without the box, Jost 500 caps 26 px, .12em, bone), centred on the ring's axis at line box y 392-430 above the ring's head. Measured 16.7 Feed px/mm on the halo (201 px for 12 mm; stone 17.1 px/mm), under 19, so no 'magnified'. Placed above the ring because the two named spots do not hold one line (lit velvet and shadow between the ring and the wordmark; under 300 px beside the ring). Story untouched (no-text control), re-rendered only. No meta change.",
+      "why": "Audit (z2, critic B, truth under the ship bar of 8): \"magnified with no size tag; the side view hides the cushion halo\".",
+      "render": {
+        "feed": {
+          "out": "b01-1_feed.jpg",
+          "size": "1080x1350",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.139,
+          "outside": [],
+          "minFont": 26
+        },
+        "story": {
+          "out": "b01-1_story.jpg",
+          "size": "1080x1920",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0,
+          "outside": [],
+          "minFont": null
+        }
+      }
     }
-   }
+  ],
+  "finalBatch": {
+    "round": "b04 re-score, round 1 (Feed 20:32:42 after the b03 offer fix; Story is the no-text control); files unchanged since",
+    "A": 7.5,
+    "B": 7.55,
+    "mean": 7.53,
+    "scoredFile": "batches/b01/b01-1_feed.jpg 2026-11-19 20:32:42.265455828 +0000",
+    "scoredStory": "batches/b01/b01-1_story.jpg 2026-11-19 16:46:07.860647737 +0000",
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+    "verdict": "ship (re-scored in b04 after the b03 loop change 1 offer fix 'CODES BUY2': A 7.5, B 7.55; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither. The Story stays the named no-text control) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6.5, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 45 at 20 Nov 2026, 00:27 UTC.",
+    "date": "19 Nov 2026, 23:35 UTC",
+    "superseded": "by the final audit, 20 Nov 2026"
   }
- ]
 }

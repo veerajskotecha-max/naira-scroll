@@ -1,5 +1,9 @@
 # b04 zero-credit pass (19 Nov 2026, 23:35 UTC)
 
+> **Superseded on 20 Nov 2026** for the anchor results and every ship decision: the blind below was compromised (the critics'
+> prompts named the anchors). The clean blind re-test, the fresh audit and fix round z2 are in `build/retest/REPORT.md`, and
+> the ledger's verdicts follow that report.
+
 The Higgsfield balance is 0.46, so no picture was generated. The pass ran b04 loop changes 1, 2, 3, 4 and 7a on existing
 pictures, and wrote change 8 into the rules. The records keeper changed no ad page or JPG. Sheets: `sheet_zero.jpg` (the four
 new Feeds) and `sheet_zero_story.jpg` (their Stories plus b04-1's new Story).

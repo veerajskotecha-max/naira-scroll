@@ -1,197 +1,249 @@
 {
- "id": "b03-5",
- "handle": "pearl-double-halo-studs",
- "product": "Pearl Double Halo Studs",
- "price": 1199,
- "archetype": "A6 Single Spotlight (Pearl Double Halo's first ad; no claim, no water)",
- "light": "L1 asked; rendered as an L1 pool: one spot from high behind lands as a pool on the riser top and the floor, the studs' shadows fall forward with light through each open gap, a soft front fill keeps the pearls round. The pool edge is soft-graded rather than crisp. No beam, haze, rays or star glints. The frame is 75-79% near-black.",
- "camera": "C3 eye level, a little above the pieces, normal lens, front-on",
- "picture": "pics/b03-5.png (try 1, job db922542-6d17-4a32-ba14-7f6966e4a6d6, pass-with-notes); nothing scaled, moved or edited",
- "onImage": {
-  "headline": "TWO BANDS. / ONE LIGHT.",
-  "beat": "for the sangeet, after dark.",
-  "cardLine": "about 17.5 mm across · silver tone · cubic zirconia",
-  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": null,
-  "callouts": []
- },
- "meta": {
-  "primaryText": "Two pavé bands, one light: Pearl Double Halo Studs, ₹1,199, bright silver tone with cubic zirconia. BUY2: 10% off 2 pieces. Made for the sangeet, after dark.",
-  "headline": "Double Halo Studs · ₹1,199 · 10% off 2",
-  "description": "Silver tone · cubic zirconia",
-  "cta": "Shop Now",
-  "url": "https://www.nairaflore.com/products/pearl-double-halo-studs?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b03&utm_content={{ad.id}}&utm_term=b03-5_a6_pearl-two-bands"
- },
- "story": {
-  "text": [
-   "NAIRA wordmark (logo_white)",
-   "TWO BANDS. / ONE LIGHT.",
-   "for the sangeet, after dark.",
-   "PEARL DOUBLE HALO STUDS  ₹1,199",
-   "about 17.5 mm across · silver tone · cubic zirconia",
-   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF"
-  ]
- },
- "layout": {
-  "crop": {
-   "P": 56,
-   "T": 327.6,
-   "subjectExtentFeed": "studs x 238-848, y 442-765, forward shadows to 861 (419 px; 580 allowed); riser lit rim to about 905, riser front face about 905-1080, floor pool glow 1140-1260",
-   "widthShare": {
-    "pair": 0.564,
-    "asked": "52-66%"
-   },
-   "scale": "16.4 Feed px/mm, about life size on a phone, so no size tag (trigger above 19). Re-measured in z2 (20 Nov 2026) on the Feed JPG: each stud's widest row is 284-293 px (left x 238/239-522/524, right x 561/562-846/854) for the listed 17.5 mm = 16.3-16.7 px/mm, so 16.4 holds; the card line states the size plainly, no 'magnified'."
+  "id": "b03-5",
+  "handle": "pearl-double-halo-studs",
+  "product": "Pearl Double Halo Studs",
+  "price": 1199,
+  "archetype": "A6 Single Spotlight (Pearl Double Halo's first ad; no claim, no water)",
+  "light": "L1 asked; rendered as an L1 pool: one spot from high behind lands as a pool on the riser top and the floor, the studs' shadows fall forward with light through each open gap, a soft front fill keeps the pearls round. The pool edge is soft-graded rather than crisp. No beam, haze, rays or star glints. The frame is 75-79% near-black.",
+  "camera": "C3 eye level, a little above the pieces, normal lens, front-on",
+  "picture": "pics/b03-5.png (try 1, job db922542-6d17-4a32-ba14-7f6966e4a6d6, pass-with-notes); nothing scaled, moved or edited",
+  "onImage": {
+    "headline": "TWO BANDS. / ONE LIGHT.",
+    "beat": "for the sangeet, after dark.",
+    "cardLine": "about 17.5 mm across · silver tone · cubic zirconia",
+    "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "sizeTag": null,
+    "callouts": []
   },
-  "type": {
-   "h1Face": "Velista caps .12em gold-light, staggered",
-   "h1Px": 76,
-   "beatPx": 48,
-   "beatRatio": 0.63,
-   "storyH1Px": 72,
-   "storyBeatPx": 44,
-   "storyBeatRatio": 0.61
+  "meta": {
+    "primaryText": "Two pavé bands, one light: Pearl Double Halo Studs, ₹1,199, bright silver tone with cubic zirconia. BUY2: 10% off 2 pieces. Made for the sangeet, after dark.",
+    "headline": "Double Halo Studs · ₹1,199 · 10% off 2",
+    "description": "Silver tone · cubic zirconia",
+    "cta": "Shop Now",
+    "url": "https://www.nairaflore.com/products/pearl-double-halo-studs?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b03&utm_content={{ad.id}}&utm_term=b03-5_a6_pearl-two-bands"
   },
-  "feed": "body.dark on near-black rgb(13,15,21). Headline staircase centred on the pair: line 1 Velista 76 .12em gold-light at left 237, top 110 (ink x 239-749, y 115-168), its left edge on the left stud's outer edge (x 239); line 2 at left 396, top 188 (ink x 399-847, y 193-246), its right edge on the right stud's outer edge (x 847). Beat Cormorant italic 500 48 bone at left 396, top 276 (ink x 391-839, y 280-327), flush with line 2. 115 px of black above the headline caps and 114 px between the beat and the studs' top (442). Card top 940 on the dark riser face (L 1-15) and floor: logo_white 940-995, name 1021-1039 (x 309-766), price 1067-1121, line 1135-1154 (x 389-689; since z2 ink x 251-827, y 1134-1155), offer box 1176-1237 (x 177-902). 79 px of riser between the forward shadows (861) and the wordmark. No scrim: the card zone is L 1-15 with the floor glow at most p95 48. Nothing over x 238-848, y 442-861. Fix round z2 (20 Nov 2026): the card line reads 'about 17.5 mm across · silver tone · cubic zirconia', one line at the kit .line size (Jost 400 26 px), line box x 251-829, y 1127-1165, on the dark riser face; nothing else moved (pixel diff against the 19 Nov render: only x 249-830, y 1128-1159 changed).",
-  "story": "Native 9:16 frame (Story y = display y - 7.5; studs 762-1085, shadows to 1181). logo_white 270-325; the same centred staircase at Velista 72: line 1 left 237, top 362 (ink x 239-722, y 367-416), line 2 left 420, top 435 (ink x 423-847, y 440-490); beat 44 bone left 420, top 510 (ink x 415-826, y 514-557); name and price on one baseline, centred, top 584 (ink 590-644, x 230-848); offer box 666-727 (x 177-902). 35 px of plain ground between the offer and the studs' top (762.5). Nothing below 727. The beat is kept (it fits). Fix round z2 (20 Nov 2026): the Story had no card line; 'about 17.5 mm across · silver tone · cubic zirconia' is added under the name and price row, one line at 26 px (Jost 400, .02em, bone), line box 628-666 (ink x 251-827, y 635-656). To hold it and still clear the studs by 24 px the stack was re-spaced (sizes, words and x positions unchanged): headline line 1 top 352 (ink 356-407), line 2 top 425 (ink 429-480), beat top 500 (ink 504-548), name and price top 564 (ink 570-625), line 628-666, offer box 676-738 (ink 696-715). Ink gaps: wordmark to headline 30, headline lines 21, beat 23, beat to name and price 21, price's old-style descender to the line 9 (the Feed card has 12), line to offer 19, offer to the studs 24.6 (762.5). Nothing below 738. Below the studs (shadows to 1181, lit rim 1216-1232) is busy, so the line stays in the stack.",
-  "contrast": "WCAG ratio against the picture ground under each text box (median; worst = against the 98th-percentile pixel). Feed: headline 11.9 (11.7), beat 16.2 (9.3, the pool's first glow under its tail), wordmark 18.1, name 18.2, price 17.3, line 17.0, offer 13.0 (11.4). Story: wordmark 17.2, headline 11.9-12.0, beat 17.0, name and price 16.7 (10.4), offer 7.0 (5.9, on the pool's top rim). Fix round z2 re-measure (against the text-free picture under each line box, median, worst 2%): Feed line 17.1 (13.3). Story: wordmark 17.2, headline 12.0 (11.8), beat 17.1 (16.8), name and price 17.0 (15.1), new line 12.8 (7.1, on the pool's first glow, rgb 37,41,53), offer 6.6 (5.9, on the pool rim, 10 px lower than before).",
-  "checks": {
-   "feed": {
-    "out": "b03-5_feed.jpg",
-    "size": "1080x1350",
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.139,
-    "outside": [],
-    "minFont": 26
-   },
-   "story": {
-    "out": "b03-5_story.jpg",
-    "size": "1080x1920",
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.089,
-    "outside": [],
-    "minFont": 26
-   }
+  "story": {
+    "text": [
+      "NAIRA wordmark (logo_white)",
+      "TWO BANDS. / ONE LIGHT.",
+      "for the sangeet, after dark.",
+      "PEARL DOUBLE HALO STUDS  ₹1,199",
+      "about 17.5 mm across · silver tone · cubic zirconia",
+      "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF"
+    ]
   },
-  "textShare": "Feed 0.130 -> 0.139 (A6 limit 0.14). Story 0.073 -> 0.089.",
-  "minFont": "26 on both pages."
- },
- "copyChanges": [
-  "None to the words. The on-image copy, primary text (157 characters; the offer ends at character 123), Meta headline (38) and description (28) carry no banned word: no claim, no water, no 'diamond', no 'freshwater', no PVD/rhodium/steel/18k/shell, never 'silver' alone, and 'pearl' only inside the product name (RULINGS 3). ₹1,199 and the BUY2/BUY3 values match RULINGS 2.",
-  "Feed headline staircase moved from the brief's left 72 / 236 to left 237 / 396 (stagger 159 instead of 164), so the headline block spans exactly the pair's width (x 239-847) and the ad reads on one centre axis: headline, pair, card. The brief's left-anchored stagger left 390 px of empty black on the right over a centred pair. Sizes, tracking, colours and the beat ratio are unchanged.",
-  "Story staircase centred the same way (left 237 / 420 instead of 150 / 300) under the centred wordmark, and the stack re-spaced: headline 362/435 (brief 346/419) for 42 px of air under the wordmark, beat 510 (506), name and price 584 (571), offer 666-727 (645-707). It still ends 35 px above the studs (24 required).",
-  "Finisher, critic B's compliance fix: the Meta headline 'Pearl Double Halo · ₹1,199 · 10% off 2' cut the product type and used 'pearl' in a truncated name. It is now 'Double Halo Studs · ₹1,199 · 10% off 2' (38 characters): it names the type, keeps the value inside 40, and keeps 'pearl' out of any non-name phrase (RULINGS §3).",
-  "No layout change (B: none needed). Not applied (A only, logged): the headline 'TWO BANDS / OF SPARKLE.', A's primary text, and the card line 'bright silver tone · cubic zirconia'.",
-  {
-   "date": "20 Nov 2026",
-   "round": "z2",
-   "change": "Feed: the card line 'silver tone · cubic zirconia' became 'about 17.5 mm across · silver tone · cubic zirconia' (listing figure), one line at 26 px, x 251-829, y 1127-1165; nothing else moved. Story: the same line added under the name and price row (the Story had no card line), line box 628-666, with the stack re-spaced to keep 24 px over the studs (headline 352 / 425, beat 500, name and price 564, offer 676-738). Scale verified on the Feed JPG: each stud 284-293 px for 17.5 mm = 16.3-16.7 px/mm (record 16.4), under 19, so no 'magnified'. No claim and no water word. Meta unchanged.",
-   "why": "Audit (z2, truth under 8): \"no size tag or size reference\".",
-   "render": {
-    "feed": {
-     "out": "b03-5_feed.jpg",
-     "size": "1080x1350",
-     "failed": [],
-     "overflow": [],
-     "fallback": [],
-     "textShare": 0.139,
-     "outside": [],
-     "minFont": 26
+  "layout": {
+    "crop": {
+      "P": 56,
+      "T": 327.6,
+      "subjectExtentFeed": "studs x 238-848, y 442-765, forward shadows to 861 (419 px; 580 allowed); riser lit rim to about 905, riser front face about 905-1080, floor pool glow 1140-1260",
+      "widthShare": {
+        "pair": 0.564,
+        "asked": "52-66%"
+      },
+      "scale": "16.4 Feed px/mm, about life size on a phone, so no size tag (trigger above 19). Re-measured in z2 (20 Nov 2026) on the Feed JPG: each stud's widest row is 284-293 px (left x 238/239-522/524, right x 561/562-846/854) for the listed 17.5 mm = 16.3-16.7 px/mm, so 16.4 holds; the card line states the size plainly, no 'magnified'."
     },
-    "story": {
-     "out": "b03-5_story.jpg",
-     "size": "1080x1920",
-     "failed": [],
-     "overflow": [],
-     "fallback": [],
-     "textShare": 0.089,
-     "outside": [],
-     "minFont": 26
+    "type": {
+      "h1Face": "Velista caps .12em gold-light, staggered",
+      "h1Px": 76,
+      "beatPx": 48,
+      "beatRatio": 0.63,
+      "storyH1Px": 72,
+      "storyBeatPx": 44,
+      "storyBeatRatio": 0.61
+    },
+    "feed": "body.dark on near-black rgb(13,15,21). Headline staircase centred on the pair: line 1 Velista 76 .12em gold-light at left 237, top 110 (ink x 239-749, y 115-168), its left edge on the left stud's outer edge (x 239); line 2 at left 396, top 188 (ink x 399-847, y 193-246), its right edge on the right stud's outer edge (x 847). Beat Cormorant italic 500 48 bone at left 396, top 276 (ink x 391-839, y 280-327), flush with line 2. 115 px of black above the headline caps and 114 px between the beat and the studs' top (442). Card top 940 on the dark riser face (L 1-15) and floor: logo_white 940-995, name 1021-1039 (x 309-766), price 1067-1121, line 1135-1154 (x 389-689; since z2 ink x 251-827, y 1134-1155), offer box 1176-1237 (x 177-902). 79 px of riser between the forward shadows (861) and the wordmark. No scrim: the card zone is L 1-15 with the floor glow at most p95 48. Nothing over x 238-848, y 442-861. Fix round z2 (20 Nov 2026): the card line reads 'about 17.5 mm across · silver tone · cubic zirconia', one line at the kit .line size (Jost 400 26 px), line box x 251-829, y 1127-1165, on the dark riser face; nothing else moved (pixel diff against the 19 Nov render: only x 249-830, y 1128-1159 changed).",
+    "story": "Native 9:16 frame (Story y = display y - 7.5; studs 762-1085, shadows to 1181). logo_white 270-325; the same centred staircase at Velista 72: line 1 left 237, top 362 (ink x 239-722, y 367-416), line 2 left 420, top 435 (ink x 423-847, y 440-490); beat 44 bone left 420, top 510 (ink x 415-826, y 514-557); name and price on one baseline, centred, top 584 (ink 590-644, x 230-848); offer box 666-727 (x 177-902). 35 px of plain ground between the offer and the studs' top (762.5). Nothing below 727. The beat is kept (it fits). Fix round z2 (20 Nov 2026): the Story had no card line; 'about 17.5 mm across · silver tone · cubic zirconia' is added under the name and price row, one line at 26 px (Jost 400, .02em, bone), line box 628-666 (ink x 251-827, y 635-656). To hold it and still clear the studs by 24 px the stack was re-spaced (sizes, words and x positions unchanged): headline line 1 top 352 (ink 356-407), line 2 top 425 (ink 429-480), beat top 500 (ink 504-548), name and price top 564 (ink 570-625), line 628-666, offer box 676-738 (ink 696-715). Ink gaps: wordmark to headline 30, headline lines 21, beat 23, beat to name and price 21, price's old-style descender to the line 9 (the Feed card has 12), line to offer 19, offer to the studs 24.6 (762.5). Nothing below 738. Below the studs (shadows to 1181, lit rim 1216-1232) is busy, so the line stays in the stack.",
+    "contrast": "WCAG ratio against the picture ground under each text box (median; worst = against the 98th-percentile pixel). Feed: headline 11.9 (11.7), beat 16.2 (9.3, the pool's first glow under its tail), wordmark 18.1, name 18.2, price 17.3, line 17.0, offer 13.0 (11.4). Story: wordmark 17.2, headline 11.9-12.0, beat 17.0, name and price 16.7 (10.4), offer 7.0 (5.9, on the pool's top rim). Fix round z2 re-measure (against the text-free picture under each line box, median, worst 2%): Feed line 17.1 (13.3). Story: wordmark 17.2, headline 12.0 (11.8), beat 17.1 (16.8), name and price 17.0 (15.1), new line 12.8 (7.1, on the pool's first glow, rgb 37,41,53), offer 6.6 (5.9, on the pool rim, 10 px lower than before).",
+    "checks": {
+      "feed": {
+        "out": "b03-5_feed.jpg",
+        "size": "1080x1350",
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.139,
+        "outside": [],
+        "minFont": 26
+      },
+      "story": {
+        "out": "b03-5_story.jpg",
+        "size": "1080x1920",
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.089,
+        "outside": [],
+        "minFont": 26
+      }
+    },
+    "textShare": "Feed 0.130 -> 0.139 (A6 limit 0.14). Story 0.073 -> 0.089.",
+    "minFont": "26 on both pages."
+  },
+  "copyChanges": [
+    "None to the words. The on-image copy, primary text (157 characters; the offer ends at character 123), Meta headline (38) and description (28) carry no banned word: no claim, no water, no 'diamond', no 'freshwater', no PVD/rhodium/steel/18k/shell, never 'silver' alone, and 'pearl' only inside the product name (RULINGS 3). ₹1,199 and the BUY2/BUY3 values match RULINGS 2.",
+    "Feed headline staircase moved from the brief's left 72 / 236 to left 237 / 396 (stagger 159 instead of 164), so the headline block spans exactly the pair's width (x 239-847) and the ad reads on one centre axis: headline, pair, card. The brief's left-anchored stagger left 390 px of empty black on the right over a centred pair. Sizes, tracking, colours and the beat ratio are unchanged.",
+    "Story staircase centred the same way (left 237 / 420 instead of 150 / 300) under the centred wordmark, and the stack re-spaced: headline 362/435 (brief 346/419) for 42 px of air under the wordmark, beat 510 (506), name and price 584 (571), offer 666-727 (645-707). It still ends 35 px above the studs (24 required).",
+    "Finisher, critic B's compliance fix: the Meta headline 'Pearl Double Halo · ₹1,199 · 10% off 2' cut the product type and used 'pearl' in a truncated name. It is now 'Double Halo Studs · ₹1,199 · 10% off 2' (38 characters): it names the type, keeps the value inside 40, and keeps 'pearl' out of any non-name phrase (RULINGS §3).",
+    "No layout change (B: none needed). Not applied (A only, logged): the headline 'TWO BANDS / OF SPARKLE.', A's primary text, and the card line 'bright silver tone · cubic zirconia'.",
+    {
+      "date": "20 Nov 2026",
+      "round": "z2",
+      "change": "Feed: the card line 'silver tone · cubic zirconia' became 'about 17.5 mm across · silver tone · cubic zirconia' (listing figure), one line at 26 px, x 251-829, y 1127-1165; nothing else moved. Story: the same line added under the name and price row (the Story had no card line), line box 628-666, with the stack re-spaced to keep 24 px over the studs (headline 352 / 425, beat 500, name and price 564, offer 676-738). Scale verified on the Feed JPG: each stud 284-293 px for 17.5 mm = 16.3-16.7 px/mm (record 16.4), under 19, so no 'magnified'. No claim and no water word. Meta unchanged.",
+      "why": "Audit (z2, truth under 8): \"no size tag or size reference\".",
+      "render": {
+        "feed": {
+          "out": "b03-5_feed.jpg",
+          "size": "1080x1350",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.139,
+          "outside": [],
+          "minFont": 26
+        },
+        "story": {
+          "out": "b03-5_story.jpg",
+          "size": "1080x1920",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.089,
+          "outside": [],
+          "minFont": 26
+        }
+      }
     }
-   }
+  ],
+  "truthNotes": [
+    "Construction per stud: one round pearl at the centre, an inner round pavé band, a narrow open gap, an outer softened-square pavé band, bright silver tone; an identical pair facing the camera. The verifier logged 4 bridges across the gap; critic B and the finisher count 8 evenly spaced bridges per stud at 1:1, where the ref has about 5 irregular ones.",
+    "Ratios: pearl / outer band 0.59 (0.45-0.60), inner band outer edge / outer band 0.76 (0.70-0.82).",
+    "The pearl reads faintly blush (Lab a* 7.2 against the refs' 1.9-4.0), so no copy describes its colour; the pavé reads as fine micro-pavé at 1:1.",
+    "Scale 16.4 Feed px/mm, about life size: no size tag.",
+    "Both critics: the pearl reads blush or rosé (A: about rgb 190,175,177 against the ref's cream 220,207,201; B: Lab a* about 6-7 against the ref's 2-4). No copy may name the pearl's colour, and none does.",
+    "Critic A: each stud shows one to three flat white specular discs in the upper-left pavé (Feed about (275,490) and (590,508)) that at full size look a little like empty settings.",
+    "Critic B: the pavé reads as micro-glitter where the ref has one row of distinct round stones. Truth sits at the 8 floor because the countable construction (two bands, open bridged gap, softened-square outer band, identical pair, life size at 16.4 px/mm) is exact.",
+    "Next Pearl prompt (both critics): 'a white pearl with a faint warm cream lustre, never pink', a neutral white key on the piece, 'about five tiny bridges, unevenly spaced', 'each band one row of distinct round stones about 1 mm, never frosted or glitter'. Never write 'pink' or 'pink-white'."
+  ],
+  "review": {
+    "status": "ship (after the Meta fix). Scored by both critics on the 19:52 renders: A 7.63 ship-after-fixes, B 7.83 ship-after-fixes. The JPGs are unchanged; only the Meta headline changed.",
+    "scores": {
+      "A": {
+        "stop": 7.5,
+        "message": 7,
+        "truth": 8,
+        "layout": 8,
+        "brand": 8.5,
+        "copy": 7,
+        "fit": 7,
+        "desire": 7.5,
+        "cues": 8,
+        "weighted": 7.63
+      },
+      "B": {
+        "stop": 8,
+        "message": 7.5,
+        "truth": 8,
+        "layout": 8,
+        "brand": 8,
+        "copy": 7.5,
+        "fit": 8,
+        "desire": 7.5,
+        "cues": 8,
+        "weighted": 7.83
+      }
+    },
+    "mean": 7.73,
+    "beatsLoser": {
+      "A": true,
+      "B": true
+    },
+    "beatsWinner": {
+      "A": false,
+      "B": false
+    },
+    "scoredFiles": {
+      "feed": "batches/b03/b03-5_feed.jpg (render of 2026-11-19 19:52:24 UTC, unchanged)",
+      "story": "batches/b03/b03-5_story.jpg (render of 2026-11-19 19:52:24 UTC, unchanged)"
+    },
+    "superseded": true,
+    "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+  },
+  "final": {
+    "round": "final audit, 20 Nov 2026",
+    "verdict": "held (final audit, 20 Nov: truth with critic B 7.50, under the 8 floor: the pearl renders blush-mauve against the listing's warm white, and the pave reads frosted; critic B also had truth 7.75 on round 1. A picture fault: no zero-credit fix. Fresh audit A 8.35 / B 7.94, mean 8.14)",
+    "audit": {
+      "round": 2,
+      "A": 8.35,
+      "B": 7.938,
+      "mean": 8.144
+    },
+    "cleanBlind": {
+      "round": 2,
+      "thumbMean": 6.0,
+      "thumbs": {
+        "A": [
+          6,
+          6
+        ],
+        "B": [
+          6,
+          6
+        ]
+      }
+    },
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [
+        "A",
+        "B"
+      ],
+      "win_twenty_f2_tennis_ruby": [
+        "A",
+        "B"
+      ]
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "scoredFile": "batches/b03/b03-5_feed.jpg 2026-11-20 01:24:29.698888782 +0000",
+    "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-20 01:24:30.038888803 +0000",
+    "batchCritics": {
+      "A": 7.63,
+      "B": 7.83
+    },
+    "record": "build/retest/REPORT.md; raw scores and keys in build/retest/"
+  },
+  "finalBatch": {
+    "round": "b03 round 1 (19:52:24 renders; only the Meta headline changed after)",
+    "A": 7.63,
+    "B": 7.83,
+    "mean": 7.73,
+    "scoredFile": "batches/b03/b03-5_feed.jpg 2026-11-19 19:52:24.125312087 +0000",
+    "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-19 19:52:24.485312108 +0000",
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+    "verdict": "ship (after B's Meta headline fix; the JPGs are unchanged). Best desire of the batch (7.5 both). Truth at the 8 floor: blush pearl (a* about 6-7 vs ref 2-4), 8 regular bridges vs about 5 irregular, micro-glitter pavé, white specular discs in the upper-left pavé; no copy names the pearl's colour Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 25 at 20 Nov 2026, 00:27 UTC.",
+    "date": "19 Nov 2026, 23:35 UTC",
+    "superseded": "by the final audit, 20 Nov 2026"
   }
- ],
- "truthNotes": [
-  "Construction per stud: one round pearl at the centre, an inner round pavé band, a narrow open gap, an outer softened-square pavé band, bright silver tone; an identical pair facing the camera. The verifier logged 4 bridges across the gap; critic B and the finisher count 8 evenly spaced bridges per stud at 1:1, where the ref has about 5 irregular ones.",
-  "Ratios: pearl / outer band 0.59 (0.45-0.60), inner band outer edge / outer band 0.76 (0.70-0.82).",
-  "The pearl reads faintly blush (Lab a* 7.2 against the refs' 1.9-4.0), so no copy describes its colour; the pavé reads as fine micro-pavé at 1:1.",
-  "Scale 16.4 Feed px/mm, about life size: no size tag.",
-  "Both critics: the pearl reads blush or rosé (A: about rgb 190,175,177 against the ref's cream 220,207,201; B: Lab a* about 6-7 against the ref's 2-4). No copy may name the pearl's colour, and none does.",
-  "Critic A: each stud shows one to three flat white specular discs in the upper-left pavé (Feed about (275,490) and (590,508)) that at full size look a little like empty settings.",
-  "Critic B: the pavé reads as micro-glitter where the ref has one row of distinct round stones. Truth sits at the 8 floor because the countable construction (two bands, open bridged gap, softened-square outer band, identical pair, life size at 16.4 px/mm) is exact.",
-  "Next Pearl prompt (both critics): 'a white pearl with a faint warm cream lustre, never pink', a neutral white key on the piece, 'about five tiny bridges, unevenly spaced', 'each band one row of distinct round stones about 1 mm, never frosted or glitter'. Never write 'pink' or 'pink-white'."
- ],
- "review": {
-  "status": "ship (after the Meta fix). Scored by both critics on the 19:52 renders: A 7.63 ship-after-fixes, B 7.83 ship-after-fixes. The JPGs are unchanged; only the Meta headline changed.",
-  "scores": {
-   "A": {
-    "stop": 7.5,
-    "message": 7,
-    "truth": 8,
-    "layout": 8,
-    "brand": 8.5,
-    "copy": 7,
-    "fit": 7,
-    "desire": 7.5,
-    "cues": 8,
-    "weighted": 7.63
-   },
-   "B": {
-    "stop": 8,
-    "message": 7.5,
-    "truth": 8,
-    "layout": 8,
-    "brand": 8,
-    "copy": 7.5,
-    "fit": 8,
-    "desire": 7.5,
-    "cues": 8,
-    "weighted": 7.83
-   }
-  },
-  "mean": 7.73,
-  "beatsLoser": {
-   "A": true,
-   "B": true
-  },
-  "beatsWinner": {
-   "A": false,
-   "B": false
-  },
-  "scoredFiles": {
-   "feed": "batches/b03/b03-5_feed.jpg (render of 2026-11-19 19:52:24 UTC, unchanged)",
-   "story": "batches/b03/b03-5_story.jpg (render of 2026-11-19 19:52:24 UTC, unchanged)"
-  },
-  "superseded": true,
-  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
- },
- "final": {
-  "round": "b03 round 1 (19:52:24 renders; only the Meta headline changed after)",
-  "A": 7.63,
-  "B": 7.83,
-  "mean": 7.73,
-  "scoredFile": "batches/b03/b03-5_feed.jpg 2026-11-19 19:52:24.125312087 +0000",
-  "scoredStory": "batches/b03/b03-5_story.jpg 2026-11-19 19:52:24.485312108 +0000",
-  "beatsWinnerBy": {
-   "win_static_hoops_apricot": [],
-   "win_twenty_f2_tennis_ruby": []
-  },
-  "beatsLoserBy": {
-   "lose_p2_proof_parody": [
-    "A",
-    "B"
-   ],
-   "lose_sa08_walls": [
-    "A",
-    "B"
-   ]
-  },
-  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
-  "verdict": "ship (after B's Meta headline fix; the JPGs are unchanged). Best desire of the batch (7.5 both). Truth at the 8 floor: blush pearl (a* about 6-7 vs ref 2-4), 8 regular bridges vs about 5 irregular, micro-glitter pavé, white specular discs in the upper-left pavé; no copy names the pearl's colour Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 6, B 6): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 25 at 20 Nov 2026, 00:27 UTC.",
-  "date": "19 Nov 2026, 23:35 UTC"
- }
 }

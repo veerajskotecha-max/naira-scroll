@@ -185,6 +185,58 @@
     "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
   },
   "final": {
+    "round": "final audit, 20 Nov 2026",
+    "verdict": "ship (final audit, 20 Nov: z2 card line \"black. white. gold tone.\", relabelled A13; fresh audit A 7.84 / B 7.65, mean 7.74; truth 8.75 / 8.25; blind 200 px beats both winners and both losers with both critics)",
+    "audit": {
+      "round": 2,
+      "A": 7.838,
+      "B": 7.65,
+      "mean": 7.744
+    },
+    "cleanBlind": {
+      "round": 2,
+      "thumbMean": 7.0,
+      "thumbs": {
+        "A": [
+          6.5,
+          7.5
+        ],
+        "B": [
+          7.5,
+          6.5
+        ]
+      }
+    },
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [
+        "A",
+        "B"
+      ],
+      "win_twenty_f2_tennis_ruby": [
+        "A",
+        "B"
+      ]
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "scoredFile": "batches/b04/b04-0_feed.jpg 2026-11-20 01:40:22.450945417 +0000",
+    "scoredStory": "batches/b04/b04-0_story.jpg 2026-11-19 20:40:50.805484869 +0000",
+    "batchCritics": {
+      "A": 7.825,
+      "B": 7.725
+    },
+    "record": "build/retest/REPORT.md; raw scores and keys in build/retest/"
+  },
+  "archetypeBeforeZ2": "A1 Product Card (card only, no headline on the Feed) on the A13 float picture; the zero-credit rescue of b03-4 (b03 loop change 3), with the A13 headline on the Story only",
+  "finalBatch": {
     "round": "b04 round 1 (20:40:50 renders); Meta primary text changed in this pass, JPGs unchanged",
     "A": 7.825,
     "B": 7.725,
@@ -212,7 +264,7 @@
       "new": "Black, white, gold tone: Monochrome Enamel Hoops, ₹999, a black and a white enamel stripe on each. BUY2: 10% off 2 pieces. For the white shirt, or all black.",
       "why": "b04 loop change 4: critic A's grammatical version from b04/review.md ('a black and a white enamel stripe on each' for 'one black and one white enamel stripe a hoop'); B asked for no copy change.",
       "counts": "157 characters, the offer ends at character 122; no claim words (Monochrome carries none), no bare metal word, no compare-at price or shipping line."
-    }
-  },
-  "archetypeBeforeZ2": "A1 Product Card (card only, no headline on the Feed) on the A13 float picture; the zero-credit rescue of b03-4 (b03 loop change 3), with the A13 headline on the Story only"
+    },
+    "superseded": "by the final audit, 20 Nov 2026"
+  }
 }

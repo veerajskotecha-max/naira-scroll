@@ -1,203 +1,243 @@
 {
- "id": "b04-1h",
- "variantOf": "b04-1",
- "handle": "toggle-link-chain",
- "product": "Toggle Link Chain",
- "price": 999,
- "archetype": "A2 Worn Editorial, neck-and-collarbone crop (b04's new move, b03 loop change 4); the A1 card-only fallback was not needed (the placement gate passes for A2)",
- "light": "L7 soft warm key plus a hard kicker, as asked; rendered as an L7-like soft warm key from the upper left, with the kicker showing as crisp specular lines on the ring's top and right and on the bar edge and small sharp points on the stones, no rays",
- "camera": "C4 85 mm worn, front-on at collarbone height (the clasp ref's pose: bar across the ring's upper left, gate and nub at the right)",
- "picture": "pics/b04-1.png (try 2, job e4a41cbf-0816-46e5-bdb4-aa09830f1160, pass-with-notes); nothing scaled, moved or edited. Try 1 is kept as pics/b04-1_try1.png.",
- "crop": {
-  "P": 68,
-  "T": 397.8,
-  "note": "The skeptic's correction of the verifier's P 66, re-measured here: the ring's contact shadow fades out at src 1885-1890 (a row profile under the ring returns to the side skin's luminance by 1890), which is Feed 928-931 at P 68 but 940-943 at P 66, under the card's wordmark. Valid range P 67.6-89.5. At P 68: clasp (jump-ring top to shadow tail) Feed 747-931, x 470-633; the chain's highest point inside the H1/beat x span at Feed 446; zari centre Feed 1258-1272; Feed top src 566, so the chin (to src 275) and the hair bun (to src 380) are out."
- },
- "onImage": {
-  "headline": "CLOSES WITH A TURN, / NOT A CATCH.",
-  "beat": "turned to the front, / it becomes the jewel.",
-  "cardLine": "4 mm paperclip links · 18k gold tone PVD",
-  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "storyOffer": "CODE BUY2 · 10% OFF 2 PIECES",
-  "sizeTag": null,
-  "callouts": [],
-  "beatWas": "so the clasp becomes the jewel. (the control's beat, until the round 1 fix of 20 Nov)"
- },
- "meta": {
-  "primaryText": "Turn the clasp to the front: Toggle Link Chain, ₹999, paperclip links, a toggle ring of about 22 mm. BUY2: 10% off 2 pieces. 18k gold tone PVD, made for silk.",
-  "headline": "Toggle Link Chain · ₹999 · 10% off 2",
-  "description": "Turn the clasp to the front",
-  "cta": "Shop Now",
-  "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-1h_a2_toggle-front"
- },
- "story": {
-  "text": [
-   "NAIRA wordmark (logo_white)",
-   "CLOSES WITH A TURN, / NOT A CATCH.",
-   "TOGGLE LINK CHAIN  ₹999",
-   "CODE BUY2 · 10% OFF 2 PIECES (offer box on the plum fill)"
-  ],
-  "dropped": "The beat is Feed-only. The kit's two-code offer box (726 px) does not fit between the strands (at Story 564-626 it touches both), so the brief dropped the offer; b04 loop change 3 (19 Nov) prints critic B's one-code line instead (onImage.storyOffer)."
- },
- "layout": {
-  "type": {
-   "h1Face": "Velista caps .02em, hanging trailing comma and full stop (.hang margin-right -.178em, their 11.4 px advance)",
-   "h1Px": 64,
-   "beatPx": 49,
-   "beatRatio": 0.766,
-   "storyH1Px": 64,
-   "storyBeat": "none (Feed-only, as the control)",
-   "note": "\"CLOSES WITH A TURN,\" is 676 px at 64 (606 for \"TURN THE CLASP\" at 76), so the strand corridor sets the size. The left strand's top link leaves the neck at Feed x 194-206, y 99-110, then runs out to x 150-165 by y 150-240; the right strand is at x 892-905 for y 100-120 and 915 or more below. Velista 64 is the A2 floor (PLAYBOOK type table 64-84; A2 layout 64-80), so the line is 64 in both formats; 66 would leave about 19 px to the left link. The beat stays 49 (0.766x, inside 0.6-1.0x and at least 0.6x per the loop order). The hanging punctuation centres the letters, not the comma, on x 540 and moves line 1 6 px right, which balances the two clearances.",
-   "beatLines": 2,
-   "beatNote": "Round 1 fix: \"turned to the front, / it becomes the jewel.\" On one line at 49 it measures x 192-885 and touches both strands; at 44 it would leave the A2 beat range (48-56). So two centred lines at the control's 49 (0.766x), top 258: ink 262-311 and 312-361, x 364-712."
+  "id": "b04-1h",
+  "variantOf": "b04-1",
+  "handle": "toggle-link-chain",
+  "product": "Toggle Link Chain",
+  "price": 999,
+  "archetype": "A2 Worn Editorial, neck-and-collarbone crop (b04's new move, b03 loop change 4); the A1 card-only fallback was not needed (the placement gate passes for A2)",
+  "light": "L7 soft warm key plus a hard kicker, as asked; rendered as an L7-like soft warm key from the upper left, with the kicker showing as crisp specular lines on the ring's top and right and on the bar edge and small sharp points on the stones, no rays",
+  "camera": "C4 85 mm worn, front-on at collarbone height (the clasp ref's pose: bar across the ring's upper left, gate and nub at the right)",
+  "picture": "pics/b04-1.png (try 2, job e4a41cbf-0816-46e5-bdb4-aa09830f1160, pass-with-notes); nothing scaled, moved or edited. Try 1 is kept as pics/b04-1_try1.png.",
+  "crop": {
+    "P": 68,
+    "T": 397.8,
+    "note": "The skeptic's correction of the verifier's P 66, re-measured here: the ring's contact shadow fades out at src 1885-1890 (a row profile under the ring returns to the side skin's luminance by 1890), which is Feed 928-931 at P 68 but 940-943 at P 66, under the card's wordmark. Valid range P 67.6-89.5. At P 68: clasp (jump-ring top to shadow tail) Feed 747-931, x 470-633; the chain's highest point inside the H1/beat x span at Feed 446; zari centre Feed 1258-1272; Feed top src 566, so the chin (to src 275) and the hair bun (to src 380) are out."
   },
-  "feed": "As the control (see b04-1.copy.json), except the H1: Velista 64 bone, centred, top 124, line boxes 124-186 and 187-249; ink (measured against the picture-only render) 127-176 (x 210-879) and 190-236 (x 337-750). Ink gaps: 14 px between the lines' caps, 26 from line 2 to the beat's ink at 262 (the control's 34 scaled by 64/76 is 29; 26 keeps line 1 clear of the left link's tip). Ink to the chain: left 29 px (the C's top at 219,130 to the link tip at 206,104; the C's bowl at x 210 is 41 px from the strand), right 35 px (the N at 869,128 to the strand at 899,110); the control had 36 and 54. Nothing over the clasp (x 470-633, y 747-931) or its shadow. Beat (round 1 fix, Feed only): \"turned to the front, / it becomes the jewel.\" in two centred lines, Cormorant italic 500 49 gold-light, top 258, ink 262-311 and 312-361 (x 364-712), about 150 px inside each strand and at least 85 px over the chain (its highest point inside the old, wider H1/beat span is Feed 446). Card at 944 and the offer box 1180-1242 unchanged.",
-  "story": "As b04-1_story.html after loop change 3 (with the offer), except the H1: Velista 64 .02em, the same hanging punctuation, top 378, line boxes 378-440 and 441-503; ink 381-430 (x 210-879) and 444-490 (x 337-750). The neck is x 214-875 at Story 380-430, so line 1 spans it edge to edge; the C's bowl and the comma reach the neck's shadowed edge and rim, onto the plum ground (12:1 or more there). Ink gaps: wordmark to H1 56, H1 to the name row 66, name row to the offer 29 (control: 47, 56, 29). The strands are behind the neck above Story 485: ink to chain 68 px (left link tip at 202,491) and 62 px (right, 892,490). Offer box x 268-812, y 640-702, 72 and 76 px clear of the strands, as the control.",
-  "contrast": "Bone against the bare picture, sampled under the glyph ink (dilated 2 px), median (worst 2%). Feed line 1: 8.8 (6.8) at x 200-400, 7.0-7.3 (5.3-5.5) to x 760, 6.1 (4.3) at 760-820, 4.5 (3.1) on \"RN,\" over the lit neck rim at 820-890 (the control's \"P\" in the same place: 5.1 (3.4)); line 2 7.1-7.5 (5.8-5.9). Story line 1: 13.6 (11.5), 7.8-9.4 (5.3-7.4), 6.7 (4.5), 4.1 (3.0) on \"RN,\" (control 4.7 (2.9)); line 2 7.1-10.4 (5.4-6.1). Box medians as the control's method: Feed 7.3 and 7.2, Story 8.9 and 7.6. Beat, card and offer unchanged from the control (Story offer 11.0 (10.3)). Round 1 beat (gold-light on the bare picture, median (worst 2%)): line 1 5.1 (4.2), the same as the old one-line beat; line 2 4.7 (3.5).",
-  "thumbnail": "At 216 px (tmp/b04-1_b04-1h_thumbs216.png, beside the control) the ring and the gold-tone V still land first on both formats; the headline reads as two clean lines, smaller than the control's (64 against 76), with the beat and card in the same places. Single thumbnails: tmp/b04-1h_feed_216.png, tmp/b04-1h_story_216.png.",
-  "passes": [
-   "Pass 1: Feed H1 64 at the control's top 96 would cross the left link's tip; at top 116 (line 2 bottom-aligned with the control's) the C came within 22 px of the link tip at 206,104 (tmp/b04-1h_feed_t1.jpg). Tops 120-126 gave 25-29 px (tmp/b04-1h_feed_t120-126.jpg).",
-   "Pass 2: hanging comma and full stop (letters centred on 540), top 122 and 124 (tmp/b04-1h_feed_h122.jpg, h124.jpg); 124 kept: 29 px left, 35 px right, beat gap 26.",
-   "Pass 3: a soft skin-tone shade (sampled 116,64,40) behind \"TURN,\" lifted that segment to 5.6 (4.1) but, kept off the strand, could not cover the N, and it changes the picture area the order keeps as the control; dropped (tmp/b04-1h_feed_s1.jpg, story_s1.jpg).",
-   "Pass 4: Story H1 64 at tops 376, 378 and 383 (tmp/b04-1h_story_t376/t378/t383.jpg); 378 keeps the control's rhythm (wordmark gap smaller than the gap to the name row) at 56 and 66."
-  ],
-  "checks": {
-   "feed": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.133,
-    "outside": [],
-    "minFont": 26
-   },
-   "story": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.057,
-    "outside": [],
-    "minFont": 26
-   }
+  "onImage": {
+    "headline": "CLOSES WITH A TURN, / NOT A CATCH.",
+    "beat": "turned to the front, / it becomes the jewel.",
+    "cardLine": "4 mm paperclip links · 18k gold tone PVD",
+    "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "storyOffer": "CODE BUY2 · 10% OFF 2 PIECES",
+    "sizeTag": null,
+    "callouts": [],
+    "beatWas": "so the clasp becomes the jewel. (the control's beat, until the round 1 fix of 20 Nov)"
   },
-  "variant": "Headline variant of b04-1 (b04 loop change 4; RULINGS §1.3, 23:30 UTC): a second creative inside the b04-1 ad for Meta's own split, never counted as a new ad. Only the headline block differs from the control (the H1, and since the round 1 fix the Feed beat): picture, crop P 68, beat, card radial, card, card line, offer, size tag (none), the Story's .top band, name row and offer are the control's (b04-1_feed.html, and b04-1_story.html after loop change 3). A pixel diff against the control renders changes only rows 96-238 of the Feed and 368-502 of the Story, the H1 zone."
- },
- "copyChanges": [
-  "Headline variant (b04 loop change 4, 19 Nov, zero credits): on-image H1 \"TURN THE CLASP / TO THE FRONT.\" became \"CLOSES WITH A TURN, / NOT A CATCH.\" on both formats; it is the listing's \"closes with a turn rather than a catch\" (b04 brief §0), a two-beat contrast like W1's \"Woven, not cast\" and b03-1's \"BRUSHED, NOT POLISHED.\".",
-  "Meta text unchanged from the control (primary text, headline, description, CTA), so the live split isolates the on-image headline; only meta.url's utm_term gains \"h\" after the id (b04-1h_a2_toggle-front).",
-  "Lint against RULINGS: the new H1 has no banned word, no claim, no digit, ₹, middle dot or dash inside Velista. Everything else is the control's, already linted (see b04-1.copy.json copyChanges, which this creative inherits: the card line fix and loop change 3's Story offer).",
-  "Rendered 19 Nov 23:46:13 UTC with node ../../kit/render.cjs from batches/b04: Feed and Story failed, overflow, fallback and outside empty; textShare .127 (A2 limit .22) and .057; minFont 26. Not yet scored: loop change 4 asks both critics to score it beside its control on a single-winner sheet; it ships only with copy 8 or more with both and a mean at least the control's.",
-  "Fixer after critics round 1 (20 Nov; the one fix both critics asked for): the Feed beat \"so the clasp becomes the jewel.\" follows the control's \"Turn the clasp to the front\" but not this H1, so it became critic B's \"turned to the front, / it becomes the jewel.\" (the listing's \"toggle turned to the front so the clasp becomes part of it\"). Its \"turned\" answers the H1's \"turn\", which is critic A's reason (a beat that follows from its H1); A's example \"worn at the front, the clasp becomes the jewel.\" does not take up the turn and is 47 characters against 42. Two centred lines at 49 (one line touches both strands). Feed only, as B asked; the Story has no beat and is unchanged (the 23:46:13 render). Re-rendered 20 Nov 00:16:12 UTC: failed, overflow, fallback and outside empty, textShare .133 (A2 .22), minFont 26. Lint: no banned word, no claim, nothing in Velista changed; the beat does not paraphrase \"not a catch\" as \"no clasp\"."
- ],
- "truthNotes": [
-  "Clasp matches the clasp ref (verifier and skeptic): thick round spring-gate sailor ring with gate wire, collar seam, push-pin nub and bail; one straight bar with one row of 8 tiny clear cubic zirconia, bar / ring 0.64-0.67; open paperclip links, about 13 a side.",
-  "Scale: ring / neck 0.215-0.216 (band 0.17-0.22), about 1.07-1.08x on a plausible 102-110 mm neck; 6.4 Feed px per listed mm, so no size tag. Ring width share 13.0% of the Feed width (at the floor; the frame is wider than planned).",
-  "Face: no eye, nose, lips or mouth anywhere in the native frame. The chin's underside and a hair bun sit in Story -7.5 to 185 and 0-254, under the platform header; the flat plum band covers them. RULINGS §3 allows a lips-to-chest crop, so the house rule holds either way; the brief's stricter 'no chin' gate is what the band answers.",
-  "No other jewellery, no water, no text in the picture.",
-  "Critic B, round 1: the picture shows the spring-gate sailor ring with its push-pin nub, so \"not a catch\" passes only as the listing's own line. Never paraphrase it as \"no clasp\" or \"no catch at all\", on the image or in Meta text. Checked: neither appears in this creative."
- ],
- "review": {
-  "status": "Round 1 (both critics, on the 23:46:13 renders): reject from both. A 7.65, B 7.775, mean 7.7125; beatsControl false with both; copy 7.5 with both, under the arm gate of 8. The one fix both critics asked for (the beat) is applied to the Feed; the H1 is unchanged, so the arm still sits under the copy-8 gate until re-scored. It does not ship unless both critics re-score it blind beside b04-1 on a single-winner sheet and it then clears loop change 4's gate (copy 8 or more with both, mean at least the control's; B reads the control at 7.875 with the new Story offer).",
-  "scores": {
-   "A": {
-    "stop": 7,
-    "message": 7.5,
-    "truth": 8.5,
-    "layout": 7,
-    "brand": 8,
-    "copy": 7.5,
-    "fit": 8,
-    "desire": 7.5,
-    "cues": 8,
-    "weighted": 7.65,
-    "verdict": "reject",
-    "beatsControl": false
-   },
-   "B": {
-    "stop": 7,
-    "message": 8,
-    "truth": 8.5,
-    "layout": 7,
-    "brand": 8,
-    "copy": 7.5,
-    "fit": 8,
-    "desire": 8,
-    "cues": 8,
-    "weighted": 7.775,
-    "verdict": "reject",
-    "beatsControl": false
-   }
+  "meta": {
+    "primaryText": "Turn the clasp to the front: Toggle Link Chain, ₹999, paperclip links, a toggle ring of about 22 mm. BUY2: 10% off 2 pieces. 18k gold tone PVD, made for silk.",
+    "headline": "Toggle Link Chain · ₹999 · 10% off 2",
+    "description": "Turn the clasp to the front",
+    "cta": "Shop Now",
+    "url": "https://www.nairaflore.com/products/toggle-link-chain?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b04&utm_content={{ad.id}}&utm_term=b04-1h_a2_toggle-front"
   },
-  "mean": 7.7125,
-  "scoredFiles": {
-   "feed": "batches/b04/b04-1h_feed.jpg, render of 2026-11-19 23:46:13 UTC (superseded by the round 1 fix render of 2026-11-20 00:16:12 UTC, not yet scored)",
-   "story": "batches/b04/b04-1h_story.jpg, render of 2026-11-19 23:46:13 UTC (unchanged)"
+  "story": {
+    "text": [
+      "NAIRA wordmark (logo_white)",
+      "CLOSES WITH A TURN, / NOT A CATCH.",
+      "TOGGLE LINK CHAIN  ₹999",
+      "CODE BUY2 · 10% OFF 2 PIECES (offer box on the plum fill)"
+    ],
+    "dropped": "The beat is Feed-only. The kit's two-code offer box (726 px) does not fit between the strands (at Story 564-626 it touches both), so the brief dropped the offer; b04 loop change 3 (19 Nov) prints critic B's one-code line instead (onImage.storyOffer)."
   },
-  "fixesApplied": [
-   "Both critics: the Feed beat now follows from the H1 (\"turned to the front, / it becomes the jewel.\", B's wording; A's reason).",
-   "Critic B, truth: the \"not a catch\" guard is logged in truthNotes; nothing to change in the copy."
+  "layout": {
+    "type": {
+      "h1Face": "Velista caps .02em, hanging trailing comma and full stop (.hang margin-right -.178em, their 11.4 px advance)",
+      "h1Px": 64,
+      "beatPx": 49,
+      "beatRatio": 0.766,
+      "storyH1Px": 64,
+      "storyBeat": "none (Feed-only, as the control)",
+      "note": "\"CLOSES WITH A TURN,\" is 676 px at 64 (606 for \"TURN THE CLASP\" at 76), so the strand corridor sets the size. The left strand's top link leaves the neck at Feed x 194-206, y 99-110, then runs out to x 150-165 by y 150-240; the right strand is at x 892-905 for y 100-120 and 915 or more below. Velista 64 is the A2 floor (PLAYBOOK type table 64-84; A2 layout 64-80), so the line is 64 in both formats; 66 would leave about 19 px to the left link. The beat stays 49 (0.766x, inside 0.6-1.0x and at least 0.6x per the loop order). The hanging punctuation centres the letters, not the comma, on x 540 and moves line 1 6 px right, which balances the two clearances.",
+      "beatLines": 2,
+      "beatNote": "Round 1 fix: \"turned to the front, / it becomes the jewel.\" On one line at 49 it measures x 192-885 and touches both strands; at 44 it would leave the A2 beat range (48-56). So two centred lines at the control's 49 (0.766x), top 258: ink 262-311 and 312-361, x 364-712."
+    },
+    "feed": "As the control (see b04-1.copy.json), except the H1: Velista 64 bone, centred, top 124, line boxes 124-186 and 187-249; ink (measured against the picture-only render) 127-176 (x 210-879) and 190-236 (x 337-750). Ink gaps: 14 px between the lines' caps, 26 from line 2 to the beat's ink at 262 (the control's 34 scaled by 64/76 is 29; 26 keeps line 1 clear of the left link's tip). Ink to the chain: left 29 px (the C's top at 219,130 to the link tip at 206,104; the C's bowl at x 210 is 41 px from the strand), right 35 px (the N at 869,128 to the strand at 899,110); the control had 36 and 54. Nothing over the clasp (x 470-633, y 747-931) or its shadow. Beat (round 1 fix, Feed only): \"turned to the front, / it becomes the jewel.\" in two centred lines, Cormorant italic 500 49 gold-light, top 258, ink 262-311 and 312-361 (x 364-712), about 150 px inside each strand and at least 85 px over the chain (its highest point inside the old, wider H1/beat span is Feed 446). Card at 944 and the offer box 1180-1242 unchanged.",
+    "story": "As b04-1_story.html after loop change 3 (with the offer), except the H1: Velista 64 .02em, the same hanging punctuation, top 378, line boxes 378-440 and 441-503; ink 381-430 (x 210-879) and 444-490 (x 337-750). The neck is x 214-875 at Story 380-430, so line 1 spans it edge to edge; the C's bowl and the comma reach the neck's shadowed edge and rim, onto the plum ground (12:1 or more there). Ink gaps: wordmark to H1 56, H1 to the name row 66, name row to the offer 29 (control: 47, 56, 29). The strands are behind the neck above Story 485: ink to chain 68 px (left link tip at 202,491) and 62 px (right, 892,490). Offer box x 268-812, y 640-702, 72 and 76 px clear of the strands, as the control.",
+    "contrast": "Bone against the bare picture, sampled under the glyph ink (dilated 2 px), median (worst 2%). Feed line 1: 8.8 (6.8) at x 200-400, 7.0-7.3 (5.3-5.5) to x 760, 6.1 (4.3) at 760-820, 4.5 (3.1) on \"RN,\" over the lit neck rim at 820-890 (the control's \"P\" in the same place: 5.1 (3.4)); line 2 7.1-7.5 (5.8-5.9). Story line 1: 13.6 (11.5), 7.8-9.4 (5.3-7.4), 6.7 (4.5), 4.1 (3.0) on \"RN,\" (control 4.7 (2.9)); line 2 7.1-10.4 (5.4-6.1). Box medians as the control's method: Feed 7.3 and 7.2, Story 8.9 and 7.6. Beat, card and offer unchanged from the control (Story offer 11.0 (10.3)). Round 1 beat (gold-light on the bare picture, median (worst 2%)): line 1 5.1 (4.2), the same as the old one-line beat; line 2 4.7 (3.5).",
+    "thumbnail": "At 216 px (tmp/b04-1_b04-1h_thumbs216.png, beside the control) the ring and the gold-tone V still land first on both formats; the headline reads as two clean lines, smaller than the control's (64 against 76), with the beat and card in the same places. Single thumbnails: tmp/b04-1h_feed_216.png, tmp/b04-1h_story_216.png.",
+    "passes": [
+      "Pass 1: Feed H1 64 at the control's top 96 would cross the left link's tip; at top 116 (line 2 bottom-aligned with the control's) the C came within 22 px of the link tip at 206,104 (tmp/b04-1h_feed_t1.jpg). Tops 120-126 gave 25-29 px (tmp/b04-1h_feed_t120-126.jpg).",
+      "Pass 2: hanging comma and full stop (letters centred on 540), top 122 and 124 (tmp/b04-1h_feed_h122.jpg, h124.jpg); 124 kept: 29 px left, 35 px right, beat gap 26.",
+      "Pass 3: a soft skin-tone shade (sampled 116,64,40) behind \"TURN,\" lifted that segment to 5.6 (4.1) but, kept off the strand, could not cover the N, and it changes the picture area the order keeps as the control; dropped (tmp/b04-1h_feed_s1.jpg, story_s1.jpg).",
+      "Pass 4: Story H1 64 at tops 376, 378 and 383 (tmp/b04-1h_story_t376/t378/t383.jpg); 378 keeps the control's rhythm (wordmark gap smaller than the gap to the name row) at 56 and 66."
+    ],
+    "checks": {
+      "feed": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.133,
+        "outside": [],
+        "minFont": 26
+      },
+      "story": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.057,
+        "outside": [],
+        "minFont": 26
+      }
+    },
+    "variant": "Headline variant of b04-1 (b04 loop change 4; RULINGS §1.3, 23:30 UTC): a second creative inside the b04-1 ad for Meta's own split, never counted as a new ad. Only the headline block differs from the control (the H1, and since the round 1 fix the Feed beat): picture, crop P 68, beat, card radial, card, card line, offer, size tag (none), the Story's .top band, name row and offer are the control's (b04-1_feed.html, and b04-1_story.html after loop change 3). A pixel diff against the control renders changes only rows 96-238 of the Feed and 368-502 of the Story, the H1 zone."
+  },
+  "copyChanges": [
+    "Headline variant (b04 loop change 4, 19 Nov, zero credits): on-image H1 \"TURN THE CLASP / TO THE FRONT.\" became \"CLOSES WITH A TURN, / NOT A CATCH.\" on both formats; it is the listing's \"closes with a turn rather than a catch\" (b04 brief §0), a two-beat contrast like W1's \"Woven, not cast\" and b03-1's \"BRUSHED, NOT POLISHED.\".",
+    "Meta text unchanged from the control (primary text, headline, description, CTA), so the live split isolates the on-image headline; only meta.url's utm_term gains \"h\" after the id (b04-1h_a2_toggle-front).",
+    "Lint against RULINGS: the new H1 has no banned word, no claim, no digit, ₹, middle dot or dash inside Velista. Everything else is the control's, already linted (see b04-1.copy.json copyChanges, which this creative inherits: the card line fix and loop change 3's Story offer).",
+    "Rendered 19 Nov 23:46:13 UTC with node ../../kit/render.cjs from batches/b04: Feed and Story failed, overflow, fallback and outside empty; textShare .127 (A2 limit .22) and .057; minFont 26. Not yet scored: loop change 4 asks both critics to score it beside its control on a single-winner sheet; it ships only with copy 8 or more with both and a mean at least the control's.",
+    "Fixer after critics round 1 (20 Nov; the one fix both critics asked for): the Feed beat \"so the clasp becomes the jewel.\" follows the control's \"Turn the clasp to the front\" but not this H1, so it became critic B's \"turned to the front, / it becomes the jewel.\" (the listing's \"toggle turned to the front so the clasp becomes part of it\"). Its \"turned\" answers the H1's \"turn\", which is critic A's reason (a beat that follows from its H1); A's example \"worn at the front, the clasp becomes the jewel.\" does not take up the turn and is 47 characters against 42. Two centred lines at 49 (one line touches both strands). Feed only, as B asked; the Story has no beat and is unchanged (the 23:46:13 render). Re-rendered 20 Nov 00:16:12 UTC: failed, overflow, fallback and outside empty, textShare .133 (A2 .22), minFont 26. Lint: no banned word, no claim, nothing in Velista changed; the beat does not paraphrase \"not a catch\" as \"no clasp\"."
   ],
-  "notApplied": [
-   "Critic A only: do not run this arm, or replace the H1 with \"A TURN, / NOT A CATCH.\" at Velista 76 to restore the control's strand clearance and H1-to-beat hierarchy. B notes the 7 words and the size 64 but asks for no H1 change. For the lead.",
-   "Critic B only (process, not a file fix): judge the arm against the control as it is now (B 7.875 with the new Story offer), not the ledger's 7.725."
+  "truthNotes": [
+    "Clasp matches the clasp ref (verifier and skeptic): thick round spring-gate sailor ring with gate wire, collar seam, push-pin nub and bail; one straight bar with one row of 8 tiny clear cubic zirconia, bar / ring 0.64-0.67; open paperclip links, about 13 a side.",
+    "Scale: ring / neck 0.215-0.216 (band 0.17-0.22), about 1.07-1.08x on a plausible 102-110 mm neck; 6.4 Feed px per listed mm, so no size tag. Ring width share 13.0% of the Feed width (at the floor; the frame is wider than planned).",
+    "Face: no eye, nose, lips or mouth anywhere in the native frame. The chin's underside and a hair bun sit in Story -7.5 to 185 and 0-254, under the platform header; the flat plum band covers them. RULINGS §3 allows a lips-to-chest crop, so the house rule holds either way; the brief's stricter 'no chin' gate is what the band answers.",
+    "No other jewellery, no water, no text in the picture.",
+    "Critic B, round 1: the picture shows the spring-gate sailor ring with its push-pin nub, so \"not a catch\" passes only as the listing's own line. Never paraphrase it as \"no clasp\" or \"no catch at all\", on the image or in Meta text. Checked: neither appears in this creative."
   ],
-  "round2": {
-   "scoredFiles": {
-    "feed": "batches/b04/b04-1h_feed.jpg 2026-11-20 00:16:12.246252957 +0000",
-    "story": "batches/b04/b04-1h_story.jpg 2026-11-19 23:46:13.694146046 +0000"
-   },
-   "A": {
-    "stop": 7,
-    "message": 8,
-    "truth": 8.5,
-    "layout": 7,
-    "brand": 8,
-    "copy": 8,
-    "fit": 8,
-    "desire": 7.5,
-    "cues": 8,
-    "weighted": 7.75,
-    "verdict": "reject",
-    "beatsControl": false
-   },
-   "B": {
-    "stop": 7,
-    "message": 8,
-    "truth": 8.5,
-    "layout": 7,
-    "brand": 8,
-    "copy": 8,
-    "fit": 8,
-    "desire": 8,
-    "cues": 8,
-    "weighted": 7.825,
-    "verdict": "reject",
-    "beatsControl": false
-   },
-   "mean": 7.7875,
-   "status": "arm not shipped: copy now 8 with both, but the mean 7.79 is under the control's 7.84 (layout 7 against 7.5). Truth guard stays: never paraphrase 'not a catch' as 'no clasp'."
+  "review": {
+    "status": "Round 1 (both critics, on the 23:46:13 renders): reject from both. A 7.65, B 7.775, mean 7.7125; beatsControl false with both; copy 7.5 with both, under the arm gate of 8. The one fix both critics asked for (the beat) is applied to the Feed; the H1 is unchanged, so the arm still sits under the copy-8 gate until re-scored. It does not ship unless both critics re-score it blind beside b04-1 on a single-winner sheet and it then clears loop change 4's gate (copy 8 or more with both, mean at least the control's; B reads the control at 7.875 with the new Story offer).",
+    "scores": {
+      "A": {
+        "stop": 7,
+        "message": 7.5,
+        "truth": 8.5,
+        "layout": 7,
+        "brand": 8,
+        "copy": 7.5,
+        "fit": 8,
+        "desire": 7.5,
+        "cues": 8,
+        "weighted": 7.65,
+        "verdict": "reject",
+        "beatsControl": false
+      },
+      "B": {
+        "stop": 7,
+        "message": 8,
+        "truth": 8.5,
+        "layout": 7,
+        "brand": 8,
+        "copy": 7.5,
+        "fit": 8,
+        "desire": 8,
+        "cues": 8,
+        "weighted": 7.775,
+        "verdict": "reject",
+        "beatsControl": false
+      }
+    },
+    "mean": 7.7125,
+    "scoredFiles": {
+      "feed": "batches/b04/b04-1h_feed.jpg, render of 2026-11-19 23:46:13 UTC (superseded by the round 1 fix render of 2026-11-20 00:16:12 UTC, not yet scored)",
+      "story": "batches/b04/b04-1h_story.jpg, render of 2026-11-19 23:46:13 UTC (unchanged)"
+    },
+    "fixesApplied": [
+      "Both critics: the Feed beat now follows from the H1 (\"turned to the front, / it becomes the jewel.\", B's wording; A's reason).",
+      "Critic B, truth: the \"not a catch\" guard is logged in truthNotes; nothing to change in the copy."
+    ],
+    "notApplied": [
+      "Critic A only: do not run this arm, or replace the H1 with \"A TURN, / NOT A CATCH.\" at Velista 76 to restore the control's strand clearance and H1-to-beat hierarchy. B notes the 7 words and the size 64 but asks for no H1 change. For the lead.",
+      "Critic B only (process, not a file fix): judge the arm against the control as it is now (B 7.875 with the new Story offer), not the ledger's 7.725."
+    ],
+    "round2": {
+      "scoredFiles": {
+        "feed": "batches/b04/b04-1h_feed.jpg 2026-11-20 00:16:12.246252957 +0000",
+        "story": "batches/b04/b04-1h_story.jpg 2026-11-19 23:46:13.694146046 +0000"
+      },
+      "A": {
+        "stop": 7,
+        "message": 8,
+        "truth": 8.5,
+        "layout": 7,
+        "brand": 8,
+        "copy": 8,
+        "fit": 8,
+        "desire": 7.5,
+        "cues": 8,
+        "weighted": 7.75,
+        "verdict": "reject",
+        "beatsControl": false
+      },
+      "B": {
+        "stop": 7,
+        "message": 8,
+        "truth": 8.5,
+        "layout": 7,
+        "brand": 8,
+        "copy": 8,
+        "fit": 8,
+        "desire": 8,
+        "cues": 8,
+        "weighted": 7.825,
+        "verdict": "reject",
+        "beatsControl": false
+      },
+      "mean": 7.7875,
+      "status": "arm not shipped: copy now 8 with both, but the mean 7.79 is under the control's 7.84 (layout 7 against 7.5). Truth guard stays: never paraphrase 'not a catch' as 'no clasp'."
+    }
+  },
+  "ledgerVerdict": {
+    "verdict": "held (variant: copy is 8 with both after the round 1 beat fix, but the mean 7.79 (A 7.75, B 7.825) is under the control b04-1's ledger mean 7.84 (A 7.8, B 7.875 with the new Story offer); layout 7 against the control's 7.5, because the 7-word H1 sits at the Velista 64 floor, 29/35 px from the strands, with 'RN,' at 4.5:1 (worst 3.1) over the lit neck rim. Both critics reject and neither prefers it to the control. Truth 8.5 with both, compliance passes, lowest dimension 7, beats p2 and sa08 with both, neither winner. Next run: A's 'A TURN, / NOT A CATCH.' at Velista 76 with the new beat, re-scored blind)",
+    "A": 7.75,
+    "B": 7.825,
+    "mean": 7.79,
+    "scoredFile": "batches/b04/b04-1h_feed.jpg 2026-11-20 00:16:12.246252957 +0000",
+    "scoredStory": "batches/b04/b04-1h_story.jpg 2026-11-19 23:46:13.694146046 +0000",
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "date": "19 Nov 2026, 23:35 UTC"
+  },
+  "final": {
+    "round": "final audit, 20 Nov 2026",
+    "verdict": "held (final audit, 20 Nov: on the clean blind 200 px re-test it beats no loser anchor with both critics, like its control b04-1; its control is held for the same reason)",
+    "audit": null,
+    "cleanBlind": {
+      "round": 1,
+      "thumbMean": 4.25,
+      "thumbs": {
+        "A": [
+          5,
+          4
+        ],
+        "B": [
+          3.5,
+          4.5
+        ]
+      }
+    },
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [
+        "B"
+      ],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A"
+      ],
+      "lose_sa08_walls": [
+        "B"
+      ]
+    },
+    "scoredFile": "batches/b04/b04-1h_feed.jpg 2026-11-20 00:16:12.246252957 +0000",
+    "scoredStory": "batches/b04/b04-1h_story.jpg 2026-11-19 23:46:13.694146046 +0000",
+    "batchCritics": {
+      "A": 7.75,
+      "B": 7.825
+    },
+    "record": "build/retest/REPORT.md; raw scores and keys in build/retest/"
   }
- },
- "ledgerVerdict": {
-  "verdict": "held (variant: copy is 8 with both after the round 1 beat fix, but the mean 7.79 (A 7.75, B 7.825) is under the control b04-1's ledger mean 7.84 (A 7.8, B 7.875 with the new Story offer); layout 7 against the control's 7.5, because the 7-word H1 sits at the Velista 64 floor, 29/35 px from the strands, with 'RN,' at 4.5:1 (worst 3.1) over the lit neck rim. Both critics reject and neither prefers it to the control. Truth 8.5 with both, compliance passes, lowest dimension 7, beats p2 and sa08 with both, neither winner. Next run: A's 'A TURN, / NOT A CATCH.' at Velista 76 with the new beat, re-scored blind)",
-  "A": 7.75,
-  "B": 7.825,
-  "mean": 7.79,
-  "scoredFile": "batches/b04/b04-1h_feed.jpg 2026-11-20 00:16:12.246252957 +0000",
-  "scoredStory": "batches/b04/b04-1h_story.jpg 2026-11-19 23:46:13.694146046 +0000",
-  "beatsWinnerBy": {
-   "win_static_hoops_apricot": [],
-   "win_twenty_f2_tennis_ruby": []
-  },
-  "beatsLoserBy": {
-   "lose_p2_proof_parody": [
-    "A",
-    "B"
-   ],
-   "lose_sa08_walls": [
-    "A",
-    "B"
-   ]
-  },
-  "date": "19 Nov 2026, 23:35 UTC"
- }
 }

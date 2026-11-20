@@ -92,3 +92,14 @@ Huggies (crystal 10, emerald 6, amethyst 12, ruby 0), Droplet Open Ring (9 / 11)
   CTA, landing URL with UTMs). Nothing is uploaded to Meta.
 - Type: Velista caps, Cormorant Garamond italic, Jost (kit v2). `kit/render.cjs` reports font fallback, text share, text outside
   the safe area and the smallest font. Any fallback or text outside the safe area is a fail.
+
+## 5. Final audit (20 Nov 2026)
+
+- **What ships is what passes PLAYBOOK §7 on the shipped files with fresh, coded critics** (`build/retest/REPORT.md`): compliance
+  passes, truth 8 or more and no dimension under 6 on the mean of two runs per critic, and both critics beat the same loser
+  anchor on a coded 200 px sheet. The batch critics' scores stay on record as `weightedA` / `weightedB`.
+- **A headline variant whose control fails replaces it** as that picture's one ad (b04-3h replaces b04-3; b04-4h replaced
+  b04-4 and is itself held). A variant never adds an ad.
+- **"Shown magnified" only at 19 or more Feed px per listed mm.** Below that, the listed size is printed plainly.
+- **b04-1 is held by the 200 px rule, not by a fault.** At full size it scored 8.20. Running it as a test of the worn frame is
+  the owner's call.

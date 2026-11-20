@@ -20,8 +20,9 @@ Each batch names one **fix target** (its lowest-scoring dimension) and makes exa
 9. Fidelity: name the piece in a few countable words and add one "must stay X, never Y" clause for the part that morphs. Slot 1 is
    the listing packshot (the authority), slot 2 a detail of the same piece only. Never two products in a frame unless it is a set ad.
 10. Scale is built: mm plus a referent (a jasmine bud about 2 cm, a fingertip), a true contact shadow, honest macro depth of field.
-11. **Note (provisional)**. The magnified product-only hero. Promoted after b04; returned to a note by the b04 zero-credit
-    re-test (19 Nov 2026, 23:35 UTC).
+11. **Rule (restored 20 Nov 2026 by the clean blind re-test; live data overrides it).** The magnified product-only hero.
+    Promoted after b04, returned to a note by the compromised 23:35 re-test, restored by the clean one (see the 20 Nov
+    paragraph at the end of this rule).
     - A product-only frame shows the piece centred as the largest and brightest shape, at about 45–75% of the Feed width.
     - It sits on a ground darker than the piece, or on one saturated colour field.
     - The sliding Feed crop places it, after the extent gate.
@@ -33,6 +34,12 @@ Each batch names one **fix target** (its lowest-scoring dimension) and makes exa
     apricot or F2 with both critics, or with either one (0 of 15). It becomes a rule again only when ads from two different
     batches beat apricot or F2 with both critics on single-winner sheets. Evidence: `### b04 zero-credit pass` below. Live data
     overrides it (PLAYBOOK §5.3.8).
+
+    **20 Nov 2026, clean blind re-test** (`build/retest/REPORT.md`): that 0 of 15 came from a compromised blind (the prompts named
+    the anchors). With coded sheets and fresh critics, product-only magnified frames from b02 (b02-5), b03 (b03-1, b03-2) and
+    b04 (b04-0, b04-3h) beat both apricot and F2 with both critics, in both rounds, so the rule's own condition is met. The same
+    critics scored the two winners near the bottom of every sheet, although both sold in real spend: read the rule as "this is
+    the frame that wins the 200 px read", not as a forecast of sales.
 12. **Process rule (b04 loop change 1).** Each blind sheet carries exactly one winner anchor and one loser anchor, rotated
     across sheets and batches. The ledger's `beatsWinnerBy` and `beatsLoserBy` are maps keyed by anchor file name, and
     `beatsWinner` / `beatsLoser` are true only when both critics beat the same anchor.
@@ -42,6 +49,16 @@ Each batch names one **fix target** (its lowest-scoring dimension) and makes exa
     (worn), shadow (described by its result) or type (the keyword in the piece's colour, the A7 split headline, the A14
     in-word swap). Never a light shape: no spot, pool, beam, rake or flash is ever the device. Light stays a rendering note,
     and `verify.md` logs "device rendered: yes/no" for each picture.
+15. **Process rule (final audit, 20 Nov 2026).** Blind reads and score audits use fresh critics who see only coded files: the
+    sheet key, the ledger, reviews and earlier scores never reach them. Each critic runs twice and the two runs are averaged
+    per dimension. A critic's prompt carries the house rules the rubric depends on (for example the 19 px/mm size rule).
+16. **Every product-only frame states its size (final audit).** At 19 or more Feed px per listed mm: "Shown magnified · about
+    N mm". Below that: the listed size plainly ("about 17.5 mm across"), in the card line or one plain line. The fresh critics
+    docked truth on b01-1, b03-3 and b03-5 for no size cue even though they sat at life size on a phone.
+17. **The headline is proved by the picture (final audit).** Never a styling instruction that contradicts the pack ("ONE BOLD
+    EAR IS ENOUGH." over a pair: copy 5.25 / 5.75) and never an art-direction phrase ("ONE CLEAR POINT OF FOCUS.": copy 5.75).
+    A card-only frame can carry its hook in the card line ("one ring, US 5 to 9", "proposal-style halo", "black. white. gold
+    tone.").
 
 ## Batch notes
 
@@ -496,3 +513,33 @@ within 4 units of the floor.
 **For the next run.** Live ads stay at 11, with no variant and no rescue added. The strong tier (beating apricot or F2 with
 both critics) is still empty after four batches and this re-test, so the next new move should aim at that gap: loop change 5
 (the light warm-ground A3 rhyme, the grammar of three of the five live winners) stays rank 1 when credits arrive.
+
+
+### Final audit: clean blind re-test, fresh audit and fix round z2 (20 Nov 2026)
+
+Full record: `build/retest/REPORT.md` (tables, method, raw scores, keys). No credits were used.
+
+**Live: 7 ads**, all passing §7 on their shipped files with fresh coded critics: b04-3h 8.19 (it replaces b04-3), b03-1 8.16,
+b01-1 8.12, b03-2 7.88, b02-5 7.78, b04-0 7.74, b03-3 7.51. Mean 7.91.
+
+**Held or replaced:** b02-1 (worn hoops about 1.4–1.5× true size with an invented bottom loop, all four runs), b04-1 and b04-1h
+(the worn Toggle chain is lost on skin at 200 px: no loser beaten by both critics), b03-5 (the pearl renders blush-mauve),
+b04-4 and b04-4h (abstract headline; then an added jump ring and a card name without "Silver" at the silver price), b04-3
+(replaced by b04-3h).
+
+**What this taught**
+- **The compromised blind said the opposite of the clean one.** Never let a critic see a sheet key (rule 15).
+- **The 200 px critic read is a craft check, not a sales forecast.** Fresh critics put apricot and F2 near the bottom of every
+  sheet, yet both sold. Rank ads against the winners only with live spend.
+- **Worn frames with a thin piece lose the thumbnail.** b04-1 scored 8.20 at full size and last at 200 px; F2 itself scored
+  low blind. Rule 1's 12–15% key-detail share is a floor for worn frames, not a target.
+- **Truth faults the batch passed:** two pictures that shipped on 19 Nov fail a fresh truth read (b02-1 scale and loop, b03-5
+  pearl colour), and one has an extra jump ring (b04-4/4h). The verifier should compare each picture with the reference at the
+  same crop and name every connector, loop and colour, not only the counts.
+- **Cheap fixes moved scores.** Size lines and card-line hooks raised truth and copy without a new picture (b03-3 7.39 → 7.51
+  and truth 7.0 / 7.5 → 8.5 / 8.5; b01-1 truth B 7.75 → 8.0).
+
+**For the next run (when credits are added).** Keep the magnified product-only hero (rule 11) as the base grammar. Spend the
+first credits on what the audit could not fix: a true-size Woven worn frame without the loop (b02-1's slot), a Pearl Double Halo
+frame with a warm-white pearl, a Serpentine pendant with the bail on the basket, and a Toggle frame where the clasp is at least
+15% of the width. Then loop changes 5–8 of `batches/b04/loop.md`.

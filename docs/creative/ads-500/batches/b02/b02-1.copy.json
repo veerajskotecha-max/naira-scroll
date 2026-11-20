@@ -1,120 +1,167 @@
 {
- "id": "b02-1",
- "handle": "woven-gold-hoops",
- "product": "Woven Gold Hoops",
- "price": 1049,
- "archetype": "A2 Worn Editorial (the new move: b01-4's copy, card and offer over a worn nape)",
- "light": "L5 asked, rendered L7-like soft key (the backlit rim and bloom did not render; soft frontal light)",
- "camera": "C2",
- "onImage": {
-  "headline": "BRAIDED HOOPS. / ZERO STONES.",
-  "beat": "and yes, waterproof.",
-  "cardLine": "hoop earrings · 18k gold tone PVD",
-  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": null,
-  "callouts": []
- },
- "meta": {
-  "primaryText": "Braided hoops, zero stones: Woven Gold Hoops, ₹1,049, about 25 mm across, in 18k gold tone PVD. BUY2: 10% off 2 pieces. And yes, waterproof and tarnish-free.",
-  "headline": "Woven Gold Hoops · ₹1,049 · 10% off 2",
-  "description": "18k gold tone PVD · waterproof",
-  "cta": "Shop Now",
-  "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b02&utm_content={{ad.id}}&utm_term=b02-1_a2_woven-worn-nape"
- },
- "story": {
-  "text": [
-   "NAIRA wordmark (logo_white)",
-   "BRAIDED HOOPS. / ZERO STONES.",
-   "WOVEN GOLD HOOPS  ₹1,049",
-   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF"
-  ]
- },
- "layout": {
-  "feed": "body.dark. Headline \"BRAIDED HOOPS. / ZERO STONES.\" Velista 92 .02em (finisher: from .01em, the kit and PLAYBOOK 4.0 minimum), centred on the wet hair, glyphs x 172-908, y 88-268; beat Cormorant italic 56 gold-light (0.61x the 92 px headline; b03 loop change 1, was 48), centred at top 296 (ink x 339-741, y 290-358). Card top 940 to 1236 on the calm nape, set in ink with logo_ink and an oxblood lozenge, no scrim (the briefed oxblood scrim turned the apricot edges into a muddy band; ink on the nape reads at 4.7:1 at the wordmark to 5.5:1). Offer \"CODES ...\" box x 177-903. No size tag (about 5.6 px/mm).",
-  "story": "body.dark story. logo_white 270-326, Velista 76 headline 350-494, name and price on one baseline 518-574, offer 594-656 (box x 177-903), all on the dark hair; the ears' bright skin starts at x 164 and 926 at y 656. Gaps 24 / 24 / 20 (were 32 / 14 / 16). Nothing over the hoops (877-1080), the droplets or the zari edge.",
-  "checks": {
-   "feed": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.155,
-    "outside": [],
-    "minFont": 26
-   },
-   "story": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.069,
-    "outside": [],
-    "minFont": 26
-   }
-  }
- },
- "truthNotes": [
-  "Scale about 1.1-1.2x true (central about 1.15x by hoop / ear 0.48-0.49); braid, thin latch post and flat disc match the pack and detail refs; hoop / braid about 4.1-4.3 (detail ref 4.1).",
-  "The one water bead under each hoop reads as a tiny gold eyelet or jump-ring loop at 1x Feed size; the real hoop has none. Needs a new picture to remove (prompt: no droplet on the jewellery itself).",
-  "No size tag: the hoops show at about 5.6 px/mm, below life size. Each hoop is about 13% of the frame width, at the far left and right edges.",
-  "The zari edge (the only wedding-season cue) shows in the Feed only as two oxblood slivers in the bottom corners; it is fully visible in the Story."
- ],
- "abTest": "Not a picture-only test against b01-4: besides the picture, the headline moved from left 72 to centred (the hair does not cover x 72-112), the card changed from bone on plum to ink on skin, and the finisher set the headline to .02em and the offer to CODES. b01-4 is held under loop change 8 (critic A truth 6 on re-score), so b02-1 is read against W1 \"Woven, not cast\", not as a body-vs-monument test.",
- "deployment": "Run the Story as the stronger arm: only the Story shows the oxblood blouse and its zari edge (the occasion cue).",
- "review": {
-  "scoredFiles": {
-   "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 20:32:55 UTC, after the beat fix; re-scored by both critics)",
-   "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:24:08 UTC; re-scored by both critics)"
+  "id": "b02-1",
+  "handle": "woven-gold-hoops",
+  "product": "Woven Gold Hoops",
+  "price": 1049,
+  "archetype": "A2 Worn Editorial (the new move: b01-4's copy, card and offer over a worn nape)",
+  "light": "L5 asked, rendered L7-like soft key (the backlit rim and bloom did not render; soft frontal light)",
+  "camera": "C2",
+  "onImage": {
+    "headline": "BRAIDED HOOPS. / ZERO STONES.",
+    "beat": "and yes, waterproof.",
+    "cardLine": "hoop earrings · 18k gold tone PVD",
+    "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "sizeTag": null,
+    "callouts": []
   },
-  "weightedA": 7.15,
-  "weightedB": 7.55,
-  "mean": 7.35,
-  "finisherFixes": [
-   "Feed headline letter-spacing .01em to .02em (A and B)",
-   "Story stack re-spaced: headline 350, name and price 518, offer 594 (A and B agreed it was tight; headline kept at 76 px)",
-   "Offer label CODE to CODES on Feed and Story (B, offer accuracy: two codes, RULINGS 2)",
-   "light and truth notes corrected in this file and the ledger (B; A reports the same facts)"
+  "meta": {
+    "primaryText": "Braided hoops, zero stones: Woven Gold Hoops, ₹1,049, about 25 mm across, in 18k gold tone PVD. BUY2: 10% off 2 pieces. And yes, waterproof and tarnish-free.",
+    "headline": "Woven Gold Hoops · ₹1,049 · 10% off 2",
+    "description": "18k gold tone PVD · waterproof",
+    "cta": "Shop Now",
+    "url": "https://www.nairaflore.com/products/woven-gold-hoops?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b02&utm_content={{ad.id}}&utm_term=b02-1_a2_woven-worn-nape"
+  },
+  "story": {
+    "text": [
+      "NAIRA wordmark (logo_white)",
+      "BRAIDED HOOPS. / ZERO STONES.",
+      "WOVEN GOLD HOOPS  ₹1,049",
+      "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF"
+    ]
+  },
+  "layout": {
+    "feed": "body.dark. Headline \"BRAIDED HOOPS. / ZERO STONES.\" Velista 92 .02em (finisher: from .01em, the kit and PLAYBOOK 4.0 minimum), centred on the wet hair, glyphs x 172-908, y 88-268; beat Cormorant italic 56 gold-light (0.61x the 92 px headline; b03 loop change 1, was 48), centred at top 296 (ink x 339-741, y 290-358). Card top 940 to 1236 on the calm nape, set in ink with logo_ink and an oxblood lozenge, no scrim (the briefed oxblood scrim turned the apricot edges into a muddy band; ink on the nape reads at 4.7:1 at the wordmark to 5.5:1). Offer \"CODES ...\" box x 177-903. No size tag (about 5.6 px/mm).",
+    "story": "body.dark story. logo_white 270-326, Velista 76 headline 350-494, name and price on one baseline 518-574, offer 594-656 (box x 177-903), all on the dark hair; the ears' bright skin starts at x 164 and 926 at y 656. Gaps 24 / 24 / 20 (were 32 / 14 / 16). Nothing over the hoops (877-1080), the droplets or the zari edge.",
+    "checks": {
+      "feed": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.155,
+        "outside": [],
+        "minFont": 26
+      },
+      "story": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.069,
+        "outside": [],
+        "minFont": 26
+      }
+    }
+  },
+  "truthNotes": [
+    "Scale about 1.1-1.2x true (central about 1.15x by hoop / ear 0.48-0.49); braid, thin latch post and flat disc match the pack and detail refs; hoop / braid about 4.1-4.3 (detail ref 4.1).",
+    "The one water bead under each hoop reads as a tiny gold eyelet or jump-ring loop at 1x Feed size; the real hoop has none. Needs a new picture to remove (prompt: no droplet on the jewellery itself).",
+    "No size tag: the hoops show at about 5.6 px/mm, below life size. Each hoop is about 13% of the frame width, at the far left and right edges.",
+    "The zari edge (the only wedding-season cue) shows in the Feed only as two oxblood slivers in the bottom corners; it is fully visible in the Story."
   ],
-  "scoredFilesBeforeRescore": {
-   "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)",
-   "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)"
+  "abTest": "Not a picture-only test against b01-4: besides the picture, the headline moved from left 72 to centred (the hair does not cover x 72-112), the card changed from bone on plum to ink on skin, and the finisher set the headline to .02em and the offer to CODES. b01-4 is held under loop change 8 (critic A truth 6 on re-score), so b02-1 is read against W1 \"Woven, not cast\", not as a body-vs-monument test.",
+  "deployment": "Run the Story as the stronger arm: only the Story shows the oxblood blouse and its zari edge (the occasion cue).",
+  "review": {
+    "scoredFiles": {
+      "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 20:32:55 UTC, after the beat fix; re-scored by both critics)",
+      "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:24:08 UTC; re-scored by both critics)"
+    },
+    "weightedA": 7.15,
+    "weightedB": 7.55,
+    "mean": 7.35,
+    "finisherFixes": [
+      "Feed headline letter-spacing .01em to .02em (A and B)",
+      "Story stack re-spaced: headline 350, name and price 518, offer 594 (A and B agreed it was tight; headline kept at 76 px)",
+      "Offer label CODE to CODES on Feed and Story (B, offer accuracy: two codes, RULINGS 2)",
+      "light and truth notes corrected in this file and the ledger (B; A reports the same facts)"
+    ],
+    "scoredFilesBeforeRescore": {
+      "feed": "batches/b02/b02-1_feed.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)",
+      "story": "batches/b02/b02-1_story.jpg (render of 2026-11-19 18:15:10 UTC, before the finisher fixes)"
+    },
+    "rescore": {
+      "A": {
+        "weighted": 7.45,
+        "verdict": "ship"
+      },
+      "B": {
+        "weighted": 7.525,
+        "verdict": "ship"
+      },
+      "mean": 7.488,
+      "note": "Re-score by both critics on the final files (b03 loop change 2). The weightedA/B above (7.15 / 7.55) were scored on the 18:15:10 renders. Neither critic asked for a change to the ad."
+    },
+    "superseded": true,
+    "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
   },
-  "rescore": {
-   "A": {
-    "weighted": 7.45,
-    "verdict": "ship"
-   },
-   "B": {
-    "weighted": 7.525,
-    "verdict": "ship"
-   },
-   "mean": 7.488,
-   "note": "Re-score by both critics on the final files (b03 loop change 2). The weightedA/B above (7.15 / 7.55) were scored on the 18:15:10 renders. Neither critic asked for a change to the ad."
+  "final": {
+    "round": "final audit, 20 Nov 2026",
+    "verdict": "held (final audit, 20 Nov: fresh audit round 1 truth A 0.00 / B 3.00 with compliance failed in two runs: all four runs measured the worn hoops at about 1.4-1.5x their listed 25 mm and saw a small loop at the bottom of each hoop that the real piece does not have. The 19 Nov verify measured hoop ÷ ear 0.56; the fresh critics read the ear as the truer gauge. A picture fault: no zero-credit fix. Fresh audit A 6.47 / B 7.06, mean 6.77)",
+    "audit": {
+      "round": 1,
+      "A": 6.475,
+      "B": 7.062,
+      "mean": 6.769
+    },
+    "cleanBlind": {
+      "round": 1,
+      "thumbMean": 4.38,
+      "thumbs": {
+        "A": [
+          5,
+          5
+        ],
+        "B": [
+          3,
+          4.5
+        ]
+      }
+    },
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [
+        "B"
+      ],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "scoredFile": "batches/b02/b02-1_feed.jpg 2026-11-19 20:32:55.233456599 +0000",
+    "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000",
+    "batchCritics": {
+      "A": 7.45,
+      "B": 7.525
+    },
+    "record": "build/retest/REPORT.md; raw scores and keys in build/retest/"
   },
-  "superseded": true,
-  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
- },
- "final": {
-  "round": "b04 re-score, round 1 (Feed 20:32:55 with the 56 px beat); files unchanged since",
-  "A": 7.45,
-  "B": 7.525,
-  "mean": 7.49,
-  "scoredFile": "batches/b02/b02-1_feed.jpg 2026-11-19 20:32:55.233456599 +0000",
-  "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000",
-  "beatsWinnerBy": {
-   "win_static_hoops_apricot": [],
-   "win_twenty_f2_tennis_ruby": []
-  },
-  "beatsLoserBy": {
-   "lose_p2_proof_parody": [
-    "A",
-    "B"
-   ],
-   "lose_sa08_walls": [
-    "A",
-    "B"
-   ]
-  },
-  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
-  "verdict": "ship (re-scored in b04 after the b03 loop change 1 beat fix, 56 px = 0.61x: A 7.45, B 7.525; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 89 at 20 Nov 2026, 00:27 UTC.",
-  "date": "19 Nov 2026, 23:35 UTC"
- }
+  "finalBatch": {
+    "round": "b04 re-score, round 1 (Feed 20:32:55 with the 56 px beat); files unchanged since",
+    "A": 7.45,
+    "B": 7.525,
+    "mean": 7.49,
+    "scoredFile": "batches/b02/b02-1_feed.jpg 2026-11-19 20:32:55.233456599 +0000",
+    "scoredStory": "batches/b02/b02-1_story.jpg 2026-11-19 18:24:08.916997324 +0000",
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+    "verdict": "ship (re-scored in b04 after the b03 loop change 1 beat fix, 56 px = 0.61x: A 7.45, B 7.525; truth 8 with both, lowest dimension 7; beats the loser with both, the winner with neither) Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 89 at 20 Nov 2026, 00:27 UTC.",
+    "date": "19 Nov 2026, 23:35 UTC",
+    "superseded": "by the final audit, 20 Nov 2026"
+  }
 }

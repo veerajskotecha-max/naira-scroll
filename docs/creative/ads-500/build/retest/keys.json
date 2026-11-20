@@ -119,5 +119,98 @@
   "B8": "b04-4",
   "K5": "b04-4h",
   "Q6": "b03-2"
+ },
+ "round2Blind": {
+  "t1": {
+   "critic": "A",
+   "anchors": [
+    "win_static_hoops_apricot",
+    "lose_p2_proof_parody"
+   ],
+   "tiles": {
+    "C4": "b02-5",
+    "H7": "b01-1",
+    "C2": "b04-0",
+    "W8": "b03-3",
+    "M5": "b03-2",
+    "U7": "b03-1",
+    "U4": "win_static_hoops_apricot",
+    "M2": "b04-4h",
+    "N2": "b04-3h",
+    "K2": "b03-5",
+    "K7": "lose_p2_proof_parody"
+   }
+  },
+  "t2": {
+   "critic": "A",
+   "anchors": [
+    "win_twenty_f2_tennis_ruby",
+    "lose_sa08_walls"
+   ],
+   "tiles": {
+    "P5": "b03-2",
+    "P6": "lose_sa08_walls",
+    "M7": "b04-3h",
+    "J2": "b03-1",
+    "Y5": "b04-4h",
+    "H2": "b03-3",
+    "F7": "b02-5",
+    "C6": "b01-1",
+    "K8": "win_twenty_f2_tennis_ruby",
+    "Y9": "b03-5",
+    "D7": "b04-0"
+   }
+  },
+  "t3": {
+   "critic": "B",
+   "anchors": [
+    "win_static_hoops_apricot",
+    "lose_p2_proof_parody"
+   ],
+   "tiles": {
+    "D5": "b02-5",
+    "R4": "b03-3",
+    "W6": "win_static_hoops_apricot",
+    "T4": "lose_p2_proof_parody",
+    "K3": "b04-0",
+    "V4": "b03-5",
+    "E9": "b03-1",
+    "A7": "b04-4h",
+    "R9": "b04-3h",
+    "T9": "b01-1",
+    "J2": "b03-2"
+   }
+  },
+  "t4": {
+   "critic": "B",
+   "anchors": [
+    "win_twenty_f2_tennis_ruby",
+    "lose_sa08_walls"
+   ],
+   "tiles": {
+    "W3": "b03-5",
+    "V9": "b01-1",
+    "W9": "b03-3",
+    "H2": "win_twenty_f2_tennis_ruby",
+    "J9": "b03-1",
+    "L7": "b03-2",
+    "H7": "b04-0",
+    "K2": "lose_sa08_walls",
+    "U3": "b04-3h",
+    "X9": "b04-4h",
+    "C2": "b02-5"
+   }
+  }
+ },
+ "round2AuditCodes": {
+  "H2": "b01-1",
+  "Z2": "b02-5",
+  "G7": "b03-1",
+  "G4": "b03-2",
+  "G9": "b03-3",
+  "S4": "b03-5",
+  "V9": "b04-0",
+  "K7": "b04-3h",
+  "Q2": "b04-4h"
  }
 }

@@ -1,241 +1,293 @@
 {
- "id": "b03-1",
- "handle": "brushed-gold-huggies",
- "product": "Brushed Gold Huggies",
- "price": 699,
- "archetype": "A4 Monument Macro (b03's one new move: gold-tone mass on a saturated plum ground, b01-4's candidate note replicated on a second product)",
- "light": "L1 asked; rendered as an L1-like warm key from the left with one broad sheen, short contact shadows to the right and a soft front fill (softer than a true rake, but the brush lines read). The satin floor adds a diffuse reflection glow under the card.",
- "camera": "C2 low hero (about 8 degrees) on a 100 mm macro, front-on",
- "picture": "pics/b03-1.png (try 1, job b856168b-fe23-42eb-9881-e1082d6c94d1, pass-with-notes); nothing scaled, moved or edited",
- "onImage": {
-  "headline": "BRUSHED, / NOT POLISHED.",
-  "beat": "the ₹699 earrings.",
-  "cardLine": "huggie hoop earrings · 18k gold tone PVD",
-  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-  "sizeTag": "SHOWN MAGNIFIED · EARRINGS ABOUT 14 MM TALL as one plain line, no box, on Feed and Story (Feed since fix round z2, 20 Nov 2026: under the pair's contact shadows, above the wordmark).",
-  "callouts": []
- },
- "meta": {
-  "primaryText": "Brushed, not polished: ₹699 huggie earrings, about 14 mm, in soft satin 18k gold tone PVD. BUY3: 20% off any 3 pieces. Waterproof and tarnish-free, too.",
-  "headline": "Brushed Gold Huggies · ₹699 · 20% off 3",
-  "description": "Huggie earrings · gold tone",
-  "cta": "Shop Now",
-  "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b03&utm_content={{ad.id}}&utm_term=b03-1_a4_brushed-not-polished"
- },
- "story": {
-  "text": [
-   "NAIRA wordmark (logo_white)",
-   "BRUSHED, NOT POLISHED.",
-   "BRUSHED GOLD HUGGIES  ₹699",
-   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
-   "SHOWN MAGNIFIED · EARRINGS ABOUT 14 MM TALL (plain bone line, no box)"
-  ]
- },
- "layout": {
-  "crop": {
-   "P": 56,
-   "T": 327.6,
-   "subjectExtentFeed": "pair x 160-965, y 428-930 with contact shadows (502 px; 506 allowed); opening x 750-940, y 450-900",
-   "widthShare": {
-    "leftHuggie": 0.314,
-    "rightHuggie": 0.394,
-    "pair": 0.745,
-    "asked": "25-30% each, 58-70% pair",
-    "note": "1.06x the band max; accepted by the verifier because the extent fits"
-   },
-   "scale": "34.2 Feed px/mm (about 2.1x on a phone), so the size tag is required. Fix round z2 re-measure on the 20 Nov Feed JPG: both huggies rise from Feed y 428 (plum to gold at x 330 and x 700) to their base at about 905-912 (the darkest contact row, 912, on both), 477-484 px for the listed 14 mm, so 34.1-34.6 Feed px/mm, over the 19 px/mm line: \"shown magnified\" is true."
+  "id": "b03-1",
+  "handle": "brushed-gold-huggies",
+  "product": "Brushed Gold Huggies",
+  "price": 699,
+  "archetype": "A4 Monument Macro (b03's one new move: gold-tone mass on a saturated plum ground, b01-4's candidate note replicated on a second product)",
+  "light": "L1 asked; rendered as an L1-like warm key from the left with one broad sheen, short contact shadows to the right and a soft front fill (softer than a true rake, but the brush lines read). The satin floor adds a diffuse reflection glow under the card.",
+  "camera": "C2 low hero (about 8 degrees) on a 100 mm macro, front-on",
+  "picture": "pics/b03-1.png (try 1, job b856168b-fe23-42eb-9881-e1082d6c94d1, pass-with-notes); nothing scaled, moved or edited",
+  "onImage": {
+    "headline": "BRUSHED, / NOT POLISHED.",
+    "beat": "the ₹699 earrings.",
+    "cardLine": "huggie hoop earrings · 18k gold tone PVD",
+    "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "sizeTag": "SHOWN MAGNIFIED · EARRINGS ABOUT 14 MM TALL as one plain line, no box, on Feed and Story (Feed since fix round z2, 20 Nov 2026: under the pair's contact shadows, above the wordmark).",
+    "callouts": []
   },
-  "type": {
-   "h1Face": "Velista caps .02em",
-   "h1Px": 100,
-   "beatPx": 64,
-   "beatRatio": 0.64,
-   "storyH1Px": 76,
-   "storyBeat": "none (the beat is Feed-only per the brief)"
+  "meta": {
+    "primaryText": "Brushed, not polished: ₹699 huggie earrings, about 14 mm, in soft satin 18k gold tone PVD. BUY3: 20% off any 3 pieces. Waterproof and tarnish-free, too.",
+    "headline": "Brushed Gold Huggies · ₹699 · 20% off 3",
+    "description": "Huggie earrings · gold tone",
+    "cta": "Shop Now",
+    "url": "https://www.nairaflore.com/products/brushed-gold-huggies?utm_source=meta&utm_medium=paid&utm_campaign=ads500_b03&utm_content={{ad.id}}&utm_term=b03-1_a4_brushed-not-polished"
   },
-  "feed": "body.dark on the plum wall. Headline Velista 100 bone, left 72, top 96 (line boxes 97-193 and 195-291, x 72-781). Beat \"the ₹699 earrings.\" Cormorant italic 500 64 gold-light, left 72, top 304 (box 298-375, x 72-485, 144 px clear of the tag). Size tag 30 px bone hairline, right 72, top 304 (box x 629-1008, y 304-400), 28 px clear of the pair top at 428. Card top 958 (brief 940, moved down 18 px so 28 px of floor separates the contact shadows at 930 from the wordmark): logo_white 958-1014, name 1030-1068, price 1073-1141, line \"huggie hoop earrings · 18k gold tone PVD\" 1145-1183 (x 295-785; fixer, critic B truth fix), offer box 1194-1256 (x 177-903). Scrim in the floor's own plum rgb(92,56,66): 0 at 930 (never over the contact shadows), .30 at 1020, .42 at 1130, .55 at 1350; it mutes the two reflection streaks under the card. Nothing over x 160-965, y 428-930. Fix round z2 (20 Nov 2026): the boxed tag at right 72, top 304 is gone, so the beat row carries only the beat. The tag is now one plain line, \"Shown magnified · earrings about 14 mm tall\" (the Story's wording), Jost 500 caps .12em bone at the Story's 26 px, line box 952-990 (x 153-930), glyphs x 155-926, y 961-979, centred on x 540 (glyph centre 540.5): about 20 px under the contact shadows (they fade out by about 940) and 32 px over the wordmark. The card closes up to make room: logo_white 1011-1067; name and ₹699 on one baseline, as on the Story twin (row 1087-1143); line 1153-1191; offer box 1202-1264 (text 1213-1251, inside the 1266 safe line). Floor scrim, same plum rgb(92,56,66): 0 at 930, .34 at 960 (was .30 at 1020), .38 at 1020, .42 at 1130, .55 at 1350; the pair box x 160-965, y 428-930 is untouched (max pixel difference 12, JPEG noise). At the kit's 30 px the line rendered text share .186-.191, over the A4 limit of .18, so it takes the Story's 26 px with its top on the 8 px grid.",
-  "story": "Native 9:16 frame (Story y = display y - 7.5; pair at 748-1250). logo_white 270-326; headline on ONE line, Velista 76, centred, line box 368-441 (x 82-998); name and price on one baseline, 462-530; offer box 554-616 (x 177-903); size tag one plain line with no box (finisher, both critics), \"Shown magnified · earrings about 14 mm tall\" (fixer after the re-score, both critics), Jost 500 26 .12em bone, line box 644-682 (x 152-928). 66 px of plain wall between the tag and the pair; nothing below 682. The verifier's two-line stack at 72 ended 724 with 16-20 px gaps; one line at 76 gives even 24-34 px gaps and a larger cap height.",
-  "contrast": "Measured against the rendered ground under each text box (median; worst = against the 98th-percentile bright pixel). Feed: headline 12.0-12.4, beat gold-light 8.7, size tag 12.8, wordmark 7.8, name 7.6 (6.4), price 8.0, line 8.1, offer 8.3 (7.0). Story: every element 12.0-12.5. Finisher re-measure after the fixes: beat 'the ₹699 earrings.' gold-light 8.7 (8.6); card line 8.1 (6.9); Story tag 12.6 (12.3). Fixer after the re-score: card line 'huggie hoop earrings' 8.1 (6.9); Story tag 'earrings about 14 mm tall' 12.6 (12.3). Fix round z2 re-measure (bone against the text-free render of the same page, median / worst at the 98th-percentile bright ground pixel): Feed size line 8.1 (5.0; every pixel under its line box 4.54 or more, the lowest over the right huggie's reflection streak at x 839-903; 4.24 before the scrim reached .34 by 960), name 8.0 (6.9), price 7.7 (7.2), line 8.1 (6.9), offer 8.4 (7.3), beat 8.7 (8.5), headline 12.3 (11.7). Story unchanged.",
-  "checks": {
-   "feed": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.178,
-    "outside": [],
-    "minFont": 26
-   },
-   "story": {
-    "failed": [],
-    "overflow": [],
-    "fallback": [],
-    "textShare": 0.083,
-    "outside": [],
-    "minFont": 26
-   }
-  }
- },
- "copyChanges": [
-  "None to the words: the brief's on-image copy, primary text (157 characters, the offer ends at character 123), Meta headline (39) and description (29) carry no banned word, and the ₹699 price, BUY2/BUY3 values and claims (allowed for this SKU, RULINGS 1.1, and used only as last-line proof) match RULINGS 2.",
-  "Story headline set on one line at Velista 76 instead of two lines at 80/72, so the stack ends at 695 with even spacing (verify.md showed the two-line stack ending at 724-738 with 16-20 px gaps).",
-  "Feed card moved from top 940 to 958 to clear the contact shadows by 28 px; it still ends inside the 1266 safe line (1256).",
-  "Finisher after both critics (19 Nov). Both critics found the product type unreadable at 200 px (the barrels read as cuffs or napkin rings). A asked for the card line 'hinged huggie earrings · 18k gold tone PVD'; B asked for the type in the 64 px beat ('the ₹699 huggie pair.'). Both applied, with the beat reading 'the ₹699 earrings.': A noted that 'huggie' alone does not name an earring to an Indian viewer (Huggies is a nappy brand), and 'huggie pair' / 'earring pair' pushed the Feed text share to .182-.183, over the A4 limit of .18. This beat renders .178. The card line also drops the third 'brushed'.",
-  "Finisher after both critics: the Story size tag loses its hairline box (both critics: two stacked boxes read as two buttons). Plain bone line, Jost 500 26 .12em, line box 644-682.",
-  "Not applied (one critic only, logged for the lead): A's primary text ('Brushed, not polished: ₹699 huggie earrings, about 14 mm, in soft satin 18k gold tone PVD. BUY3: 20% off any 3 pieces. Waterproof and tarnish-free, too.') and A's Meta description ('Huggie earrings · gold tone'). The Meta copy is unchanged.",
-  "Fixer after the re-score (19 Nov, b03 loop change 2), critic B truth fix: Feed card line 'hinged huggie earrings · 18k gold tone PVD' became 'huggie hoop earrings · 18k gold tone PVD'. The live listing says 'These huggie hoops…' and 'Fitting: Huggie' and never says hinged (products.md allowed words: brushed satin, 18k gold tone, huggie, PVD). Same slot, Jost 400 26 bone, line x 295-785, 1145-1183; contrast 8.1 (6.9). Feed re-rendered 2026-11-19 22:58:03 UTC: failed, overflow, fallback and outside empty; textShare .178 (A4 limit .18); minFont 26.",
-  "Fixer after the re-score, both critics (the wordings differed): the Story names the type. A asked for the size tag to read 'Shown magnified · earrings about 14 mm tall'; B asked for a new card line 'huggie hoop earrings · 18k gold tone PVD' under the name row, moving the offer to 594 and the tag to 676. Both give the same reason (the Story never says earrings; 'Huggies' alone reads as the nappy brand and the barrels as cuffs at 200 px), and A's one-line change meets it while keeping the stack and the 66 px of wall above the pair (B's leaves 34 px and adds a fourth row). Tag line box 644-682, x 152-928, Jost 500 26 .12em bone, contrast 12.6 (12.3). Story re-rendered 2026-11-19 22:58:03 UTC: failed, overflow, fallback and outside empty; textShare .083; minFont 26.",
-  "Fixer after the re-score, both critics: Meta primary text became A's b03 text, which B now asks for too: 'Brushed, not polished: ₹699 huggie earrings, about 14 mm, in soft satin 18k gold tone PVD. BUY3: 20% off any 3 pieces. Waterproof and tarnish-free, too.' (152 characters; the offer ends at character 118; 'soft satin' is the listing's 'Soft brushed satin gold'). It drops the third 'brushed' and names the type. Meta description became 'Huggie earrings · gold tone' (27 characters): A asked 'Huggie earrings · 18k gold tone' (31) and B 'Huggie earrings · gold tone' (27); B's fits the 30-character description limit (learnings) and both name the type and give the metal as 'gold tone'. Meta headline unchanged. This supersedes the 'Not applied' Meta note above.",
-  "Not applied (one critic only, logged for the lead): none from this re-score. B's ledger records (weightedB 7.725, scoredFile) are the lead's.",
-  {
-   "date": "20 Nov 2026",
-   "round": "z2",
-   "change": "Feed only. The boxed two-line size tag (\"SHOWN MAGNIFIED / ABOUT 14 MM TALL\", right 72, top 304, beside the beat) is removed. The Story's wording \"SHOWN MAGNIFIED · EARRINGS ABOUT 14 MM TALL\" is set as ONE plain line, no box, kit size-tag type (Jost 500 caps .12em, bone) at the Story's 26 px, centred on x 540 (glyphs x 155-926, y 961-979), directly under the pair's contact shadows (they fade out by about Feed 940) and above the wordmark. To make room the card closes up: name and price on one baseline, as on the Story twin, wordmark 1011, offer box ending 1264. The floor scrim (the floor's own plum) reaches .34 by 960 instead of .30 at 1020, so the line holds 4.5:1 over the right huggie's reflection streak. Headline, beat, card words, Story and Meta copy unchanged; the Story renders pixel-identical.",
-   "why": "Fresh blind audit (two critics, each run twice), three of four runs: \"the boxed size tag sits on the second-beat row, up in the headline zone, away from the piece it measures\".",
-   "measured": "Scale on the Feed JPG: huggie top 428 to base about 905-912 = 477-484 px for 14 mm, 34.1-34.6 px/mm (record 34.2), so \"magnified\" is true. Contrast: size line median 8.1, worst 5.0, every pixel under its box 4.54 or more. Text share .178 (A4 limit .18); at 30 px the line gave .186-.191, so 26 px. Three text elements (headline with beat, size line, card), within the four allowed.",
-   "render": {
-    "feed": {
-     "out": "b03-1_feed.jpg",
-     "size": "1080x1350",
-     "failed": [],
-     "overflow": [],
-     "fallback": [],
-     "textShare": 0.178,
-     "outside": [],
-     "minFont": 26
+  "story": {
+    "text": [
+      "NAIRA wordmark (logo_white)",
+      "BRUSHED, NOT POLISHED.",
+      "BRUSHED GOLD HUGGIES  ₹699",
+      "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+      "SHOWN MAGNIFIED · EARRINGS ABOUT 14 MM TALL (plain bone line, no box)"
+    ]
+  },
+  "layout": {
+    "crop": {
+      "P": 56,
+      "T": 327.6,
+      "subjectExtentFeed": "pair x 160-965, y 428-930 with contact shadows (502 px; 506 allowed); opening x 750-940, y 450-900",
+      "widthShare": {
+        "leftHuggie": 0.314,
+        "rightHuggie": 0.394,
+        "pair": 0.745,
+        "asked": "25-30% each, 58-70% pair",
+        "note": "1.06x the band max; accepted by the verifier because the extent fits"
+      },
+      "scale": "34.2 Feed px/mm (about 2.1x on a phone), so the size tag is required. Fix round z2 re-measure on the 20 Nov Feed JPG: both huggies rise from Feed y 428 (plum to gold at x 330 and x 700) to their base at about 905-912 (the darkest contact row, 912, on both), 477-484 px for the listed 14 mm, so 34.1-34.6 Feed px/mm, over the 19 px/mm line: \"shown magnified\" is true."
     },
-    "story": {
-     "out": "b03-1_story.jpg",
-     "size": "1080x1920",
-     "failed": [],
-     "overflow": [],
-     "fallback": [],
-     "textShare": 0.083,
-     "outside": [],
-     "minFont": 26
+    "type": {
+      "h1Face": "Velista caps .02em",
+      "h1Px": 100,
+      "beatPx": 64,
+      "beatRatio": 0.64,
+      "storyH1Px": 76,
+      "storyBeat": "none (the beat is Feed-only per the brief)"
+    },
+    "feed": "body.dark on the plum wall. Headline Velista 100 bone, left 72, top 96 (line boxes 97-193 and 195-291, x 72-781). Beat \"the ₹699 earrings.\" Cormorant italic 500 64 gold-light, left 72, top 304 (box 298-375, x 72-485, 144 px clear of the tag). Size tag 30 px bone hairline, right 72, top 304 (box x 629-1008, y 304-400), 28 px clear of the pair top at 428. Card top 958 (brief 940, moved down 18 px so 28 px of floor separates the contact shadows at 930 from the wordmark): logo_white 958-1014, name 1030-1068, price 1073-1141, line \"huggie hoop earrings · 18k gold tone PVD\" 1145-1183 (x 295-785; fixer, critic B truth fix), offer box 1194-1256 (x 177-903). Scrim in the floor's own plum rgb(92,56,66): 0 at 930 (never over the contact shadows), .30 at 1020, .42 at 1130, .55 at 1350; it mutes the two reflection streaks under the card. Nothing over x 160-965, y 428-930. Fix round z2 (20 Nov 2026): the boxed tag at right 72, top 304 is gone, so the beat row carries only the beat. The tag is now one plain line, \"Shown magnified · earrings about 14 mm tall\" (the Story's wording), Jost 500 caps .12em bone at the Story's 26 px, line box 952-990 (x 153-930), glyphs x 155-926, y 961-979, centred on x 540 (glyph centre 540.5): about 20 px under the contact shadows (they fade out by about 940) and 32 px over the wordmark. The card closes up to make room: logo_white 1011-1067; name and ₹699 on one baseline, as on the Story twin (row 1087-1143); line 1153-1191; offer box 1202-1264 (text 1213-1251, inside the 1266 safe line). Floor scrim, same plum rgb(92,56,66): 0 at 930, .34 at 960 (was .30 at 1020), .38 at 1020, .42 at 1130, .55 at 1350; the pair box x 160-965, y 428-930 is untouched (max pixel difference 12, JPEG noise). At the kit's 30 px the line rendered text share .186-.191, over the A4 limit of .18, so it takes the Story's 26 px with its top on the 8 px grid.",
+    "story": "Native 9:16 frame (Story y = display y - 7.5; pair at 748-1250). logo_white 270-326; headline on ONE line, Velista 76, centred, line box 368-441 (x 82-998); name and price on one baseline, 462-530; offer box 554-616 (x 177-903); size tag one plain line with no box (finisher, both critics), \"Shown magnified · earrings about 14 mm tall\" (fixer after the re-score, both critics), Jost 500 26 .12em bone, line box 644-682 (x 152-928). 66 px of plain wall between the tag and the pair; nothing below 682. The verifier's two-line stack at 72 ended 724 with 16-20 px gaps; one line at 76 gives even 24-34 px gaps and a larger cap height.",
+    "contrast": "Measured against the rendered ground under each text box (median; worst = against the 98th-percentile bright pixel). Feed: headline 12.0-12.4, beat gold-light 8.7, size tag 12.8, wordmark 7.8, name 7.6 (6.4), price 8.0, line 8.1, offer 8.3 (7.0). Story: every element 12.0-12.5. Finisher re-measure after the fixes: beat 'the ₹699 earrings.' gold-light 8.7 (8.6); card line 8.1 (6.9); Story tag 12.6 (12.3). Fixer after the re-score: card line 'huggie hoop earrings' 8.1 (6.9); Story tag 'earrings about 14 mm tall' 12.6 (12.3). Fix round z2 re-measure (bone against the text-free render of the same page, median / worst at the 98th-percentile bright ground pixel): Feed size line 8.1 (5.0; every pixel under its line box 4.54 or more, the lowest over the right huggie's reflection streak at x 839-903; 4.24 before the scrim reached .34 by 960), name 8.0 (6.9), price 7.7 (7.2), line 8.1 (6.9), offer 8.4 (7.3), beat 8.7 (8.5), headline 12.3 (11.7). Story unchanged.",
+    "checks": {
+      "feed": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.178,
+        "outside": [],
+        "minFont": 26
+      },
+      "story": {
+        "failed": [],
+        "overflow": [],
+        "fallback": [],
+        "textShare": 0.083,
+        "outside": [],
+        "minFont": 26
+      }
     }
-   }
+  },
+  "copyChanges": [
+    "None to the words: the brief's on-image copy, primary text (157 characters, the offer ends at character 123), Meta headline (39) and description (29) carry no banned word, and the ₹699 price, BUY2/BUY3 values and claims (allowed for this SKU, RULINGS 1.1, and used only as last-line proof) match RULINGS 2.",
+    "Story headline set on one line at Velista 76 instead of two lines at 80/72, so the stack ends at 695 with even spacing (verify.md showed the two-line stack ending at 724-738 with 16-20 px gaps).",
+    "Feed card moved from top 940 to 958 to clear the contact shadows by 28 px; it still ends inside the 1266 safe line (1256).",
+    "Finisher after both critics (19 Nov). Both critics found the product type unreadable at 200 px (the barrels read as cuffs or napkin rings). A asked for the card line 'hinged huggie earrings · 18k gold tone PVD'; B asked for the type in the 64 px beat ('the ₹699 huggie pair.'). Both applied, with the beat reading 'the ₹699 earrings.': A noted that 'huggie' alone does not name an earring to an Indian viewer (Huggies is a nappy brand), and 'huggie pair' / 'earring pair' pushed the Feed text share to .182-.183, over the A4 limit of .18. This beat renders .178. The card line also drops the third 'brushed'.",
+    "Finisher after both critics: the Story size tag loses its hairline box (both critics: two stacked boxes read as two buttons). Plain bone line, Jost 500 26 .12em, line box 644-682.",
+    "Not applied (one critic only, logged for the lead): A's primary text ('Brushed, not polished: ₹699 huggie earrings, about 14 mm, in soft satin 18k gold tone PVD. BUY3: 20% off any 3 pieces. Waterproof and tarnish-free, too.') and A's Meta description ('Huggie earrings · gold tone'). The Meta copy is unchanged.",
+    "Fixer after the re-score (19 Nov, b03 loop change 2), critic B truth fix: Feed card line 'hinged huggie earrings · 18k gold tone PVD' became 'huggie hoop earrings · 18k gold tone PVD'. The live listing says 'These huggie hoops…' and 'Fitting: Huggie' and never says hinged (products.md allowed words: brushed satin, 18k gold tone, huggie, PVD). Same slot, Jost 400 26 bone, line x 295-785, 1145-1183; contrast 8.1 (6.9). Feed re-rendered 2026-11-19 22:58:03 UTC: failed, overflow, fallback and outside empty; textShare .178 (A4 limit .18); minFont 26.",
+    "Fixer after the re-score, both critics (the wordings differed): the Story names the type. A asked for the size tag to read 'Shown magnified · earrings about 14 mm tall'; B asked for a new card line 'huggie hoop earrings · 18k gold tone PVD' under the name row, moving the offer to 594 and the tag to 676. Both give the same reason (the Story never says earrings; 'Huggies' alone reads as the nappy brand and the barrels as cuffs at 200 px), and A's one-line change meets it while keeping the stack and the 66 px of wall above the pair (B's leaves 34 px and adds a fourth row). Tag line box 644-682, x 152-928, Jost 500 26 .12em bone, contrast 12.6 (12.3). Story re-rendered 2026-11-19 22:58:03 UTC: failed, overflow, fallback and outside empty; textShare .083; minFont 26.",
+    "Fixer after the re-score, both critics: Meta primary text became A's b03 text, which B now asks for too: 'Brushed, not polished: ₹699 huggie earrings, about 14 mm, in soft satin 18k gold tone PVD. BUY3: 20% off any 3 pieces. Waterproof and tarnish-free, too.' (152 characters; the offer ends at character 118; 'soft satin' is the listing's 'Soft brushed satin gold'). It drops the third 'brushed' and names the type. Meta description became 'Huggie earrings · gold tone' (27 characters): A asked 'Huggie earrings · 18k gold tone' (31) and B 'Huggie earrings · gold tone' (27); B's fits the 30-character description limit (learnings) and both name the type and give the metal as 'gold tone'. Meta headline unchanged. This supersedes the 'Not applied' Meta note above.",
+    "Not applied (one critic only, logged for the lead): none from this re-score. B's ledger records (weightedB 7.725, scoredFile) are the lead's.",
+    {
+      "date": "20 Nov 2026",
+      "round": "z2",
+      "change": "Feed only. The boxed two-line size tag (\"SHOWN MAGNIFIED / ABOUT 14 MM TALL\", right 72, top 304, beside the beat) is removed. The Story's wording \"SHOWN MAGNIFIED · EARRINGS ABOUT 14 MM TALL\" is set as ONE plain line, no box, kit size-tag type (Jost 500 caps .12em, bone) at the Story's 26 px, centred on x 540 (glyphs x 155-926, y 961-979), directly under the pair's contact shadows (they fade out by about Feed 940) and above the wordmark. To make room the card closes up: name and price on one baseline, as on the Story twin, wordmark 1011, offer box ending 1264. The floor scrim (the floor's own plum) reaches .34 by 960 instead of .30 at 1020, so the line holds 4.5:1 over the right huggie's reflection streak. Headline, beat, card words, Story and Meta copy unchanged; the Story renders pixel-identical.",
+      "why": "Fresh blind audit (two critics, each run twice), three of four runs: \"the boxed size tag sits on the second-beat row, up in the headline zone, away from the piece it measures\".",
+      "measured": "Scale on the Feed JPG: huggie top 428 to base about 905-912 = 477-484 px for 14 mm, 34.1-34.6 px/mm (record 34.2), so \"magnified\" is true. Contrast: size line median 8.1, worst 5.0, every pixel under its box 4.54 or more. Text share .178 (A4 limit .18); at 30 px the line gave .186-.191, so 26 px. Three text elements (headline with beat, size line, card), within the four allowed.",
+      "render": {
+        "feed": {
+          "out": "b03-1_feed.jpg",
+          "size": "1080x1350",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.178,
+          "outside": [],
+          "minFont": 26
+        },
+        "story": {
+          "out": "b03-1_story.jpg",
+          "size": "1080x1920",
+          "failed": [],
+          "overflow": [],
+          "fallback": [],
+          "textShare": 0.083,
+          "outside": [],
+          "minFont": 26
+        }
+      }
+    }
+  ],
+  "truthNotes": [
+    "Finish: brushed satin with fine parallel lines and one broad sheen, never high-polish; zero stones; identical pair. The three-quarter huggie shows its inner clicker seam and hinge pin (plausible hinge hardware; the outside stays seamless).",
+    "Ratio: height / face width 1.41 (pack 1.37, allowed 1.25-1.5).",
+    "Colour: warm-neutral gold (hue 68-76, Lab b 16-21) on plum (dE76 42-66); the pair is the only gold.",
+    "Scale: 34.2 Feed px/mm, declared by the size tag on both Feed and Story.",
+    "Critic B: the Story's native frame is also about 2.1x life size (34.2 px/mm on both formats), so the 'Shown magnified · about 14 mm tall' tag is mandatory on Feed and Story; without it the picture fails truth.",
+    "Pre-launch check (B, open): the beat says 'earrings' at ₹699, so confirm the ₹699 listing sells the pair, not one piece. If it sells one piece, the beat becomes 'the ₹699 huggie.'"
+  ],
+  "review": {
+    "status": "ship (after fixes). First scored on the 19:47 renders (A 7.98, B 7.65). Re-scored by both critics on the 20:09:21 finals (b03 loop change 2): A 8.075 ship-after-fixes, B 7.725 ship-after-fixes (mean 7.9). The fixer then applied the re-score's fixes (Feed card line, Story tag, Meta text), so both new JPGs go back to both critics before review (loop change 2).",
+    "scores": {
+      "A": {
+        "stop": 8.5,
+        "message": 8,
+        "truth": 8.5,
+        "layout": 7.5,
+        "brand": 8,
+        "copy": 7.5,
+        "fit": 8,
+        "desire": 7.5,
+        "cues": 8,
+        "weighted": 7.98
+      },
+      "B": {
+        "stop": 8,
+        "message": 7.5,
+        "truth": 8,
+        "layout": 7.5,
+        "brand": 8,
+        "copy": 8,
+        "fit": 7.5,
+        "desire": 6.5,
+        "cues": 8,
+        "weighted": 7.65
+      }
+    },
+    "mean": 7.82,
+    "beatsLoser": {
+      "A": true,
+      "B": true
+    },
+    "beatsWinner": {
+      "A": true,
+      "B": false
+    },
+    "scoredFiles": {
+      "feed": "batches/b03/b03-1_feed.jpg (render of 2026-11-19 20:09:21 UTC, after fixes)",
+      "story": "batches/b03/b03-1_story.jpg (render of 2026-11-19 20:09:21 UTC, after fixes)"
+    },
+    "rescore": {
+      "A": {
+        "weighted": 8.075,
+        "verdict": "ship-after-fixes",
+        "scores": {
+          "stop": 8.5,
+          "message": 8,
+          "truth": 8.5,
+          "layout": 7.5,
+          "brand": 8,
+          "copy": 8,
+          "fit": 7.5,
+          "desire": 7.5,
+          "cues": 8.5
+        }
+      },
+      "B": {
+        "weighted": 7.725,
+        "verdict": "ship-after-fixes",
+        "scores": {
+          "stop": 8,
+          "message": 8,
+          "truth": 8,
+          "layout": 7.5,
+          "brand": 8,
+          "copy": 7.5,
+          "fit": 7.5,
+          "desire": 6.5,
+          "cues": 8.5
+        }
+      },
+      "mean": 7.9,
+      "beatsLoser": {
+        "A": true,
+        "B": true
+      },
+      "beatsWinner": {
+        "A": true,
+        "B": true
+      },
+      "scoredFiles": {
+        "feed": "batches/b03/b03-1_feed.jpg (render of 2026-11-19 20:09:21 UTC; superseded by the fixer render of 22:58:03 UTC, not yet scored)",
+        "story": "batches/b03/b03-1_story.jpg (render of 2026-11-19 20:09:21 UTC; superseded by the fixer render of 22:58:03 UTC, not yet scored)"
+      }
+    },
+    "superseded": true,
+    "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
+  },
+  "final": {
+    "round": "final audit, 20 Nov 2026",
+    "verdict": "ship (final audit, 20 Nov: z2 moved the size tag to one line under the pair; fresh audit A 8.21 / B 8.11, mean 8.16; truth 8.50 / 8.50; blind 200 px beats both winners and both losers with both critics)",
+    "audit": {
+      "round": 2,
+      "A": 8.213,
+      "B": 8.113,
+      "mean": 8.162
+    },
+    "cleanBlind": {
+      "round": 2,
+      "thumbMean": 8.12,
+      "thumbs": {
+        "A": [
+          8,
+          8
+        ],
+        "B": [
+          8.5,
+          8
+        ]
+      }
+    },
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [
+        "A",
+        "B"
+      ],
+      "win_twenty_f2_tennis_ruby": [
+        "A",
+        "B"
+      ]
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "scoredFile": "batches/b03/b03-1_feed.jpg 2026-11-20 01:22:44.106882506 +0000",
+    "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-20 01:22:44.446882526 +0000",
+    "batchCritics": {
+      "A": 8.125,
+      "B": 7.85
+    },
+    "record": "build/retest/REPORT.md; raw scores and keys in build/retest/"
+  },
+  "finalBatch": {
+    "round": "b04 round 2 (on the 22:58:03 Feed and Story after the re-score fixes)",
+    "A": 8.125,
+    "B": 7.85,
+    "mean": 7.99,
+    "scoredFile": "batches/b03/b03-1_feed.jpg 2026-11-19 22:58:03.305974233 +0000",
+    "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-19 22:58:03.669974254 +0000",
+    "beatsWinnerBy": {
+      "win_static_hoops_apricot": [],
+      "win_twenty_f2_tennis_ruby": []
+    },
+    "beatsLoserBy": {
+      "lose_p2_proof_parody": [
+        "A",
+        "B"
+      ],
+      "lose_sa08_walls": [
+        "A",
+        "B"
+      ]
+    },
+    "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
+    "verdict": "ship (re-scored in b04 after the finisher fixes: round 1 A 8.075 / B 7.725 on the 20:09:21 renders; fixes 'huggie hoop earrings' card line, Story tag 'Shown magnified · earrings about 14 mm tall', A's primary text and B's description; round 2 A 8.125 / B 7.85 on the 22:58:03 renders. Truth 8.5 with both; lowest dimension B desire 6.5; beats the loser and the winner with both critics. Pre-launch, low risk: confirm the ₹699 listing ships both earrings; if it sells one piece, the beat becomes 'the ₹699 huggie.') Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 58 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
+    "date": "19 Nov 2026, 23:35 UTC",
+    "superseded": "by the final audit, 20 Nov 2026"
   }
- ],
- "truthNotes": [
-  "Finish: brushed satin with fine parallel lines and one broad sheen, never high-polish; zero stones; identical pair. The three-quarter huggie shows its inner clicker seam and hinge pin (plausible hinge hardware; the outside stays seamless).",
-  "Ratio: height / face width 1.41 (pack 1.37, allowed 1.25-1.5).",
-  "Colour: warm-neutral gold (hue 68-76, Lab b 16-21) on plum (dE76 42-66); the pair is the only gold.",
-  "Scale: 34.2 Feed px/mm, declared by the size tag on both Feed and Story.",
-  "Critic B: the Story's native frame is also about 2.1x life size (34.2 px/mm on both formats), so the 'Shown magnified · about 14 mm tall' tag is mandatory on Feed and Story; without it the picture fails truth.",
-  "Pre-launch check (B, open): the beat says 'earrings' at ₹699, so confirm the ₹699 listing sells the pair, not one piece. If it sells one piece, the beat becomes 'the ₹699 huggie.'"
- ],
- "review": {
-  "status": "ship (after fixes). First scored on the 19:47 renders (A 7.98, B 7.65). Re-scored by both critics on the 20:09:21 finals (b03 loop change 2): A 8.075 ship-after-fixes, B 7.725 ship-after-fixes (mean 7.9). The fixer then applied the re-score's fixes (Feed card line, Story tag, Meta text), so both new JPGs go back to both critics before review (loop change 2).",
-  "scores": {
-   "A": {
-    "stop": 8.5,
-    "message": 8,
-    "truth": 8.5,
-    "layout": 7.5,
-    "brand": 8,
-    "copy": 7.5,
-    "fit": 8,
-    "desire": 7.5,
-    "cues": 8,
-    "weighted": 7.98
-   },
-   "B": {
-    "stop": 8,
-    "message": 7.5,
-    "truth": 8,
-    "layout": 7.5,
-    "brand": 8,
-    "copy": 8,
-    "fit": 7.5,
-    "desire": 6.5,
-    "cues": 8,
-    "weighted": 7.65
-   }
-  },
-  "mean": 7.82,
-  "beatsLoser": {
-   "A": true,
-   "B": true
-  },
-  "beatsWinner": {
-   "A": true,
-   "B": false
-  },
-  "scoredFiles": {
-   "feed": "batches/b03/b03-1_feed.jpg (render of 2026-11-19 20:09:21 UTC, after fixes)",
-   "story": "batches/b03/b03-1_story.jpg (render of 2026-11-19 20:09:21 UTC, after fixes)"
-  },
-  "rescore": {
-   "A": {
-    "weighted": 8.075,
-    "verdict": "ship-after-fixes",
-    "scores": {
-     "stop": 8.5,
-     "message": 8,
-     "truth": 8.5,
-     "layout": 7.5,
-     "brand": 8,
-     "copy": 8,
-     "fit": 7.5,
-     "desire": 7.5,
-     "cues": 8.5
-    }
-   },
-   "B": {
-    "weighted": 7.725,
-    "verdict": "ship-after-fixes",
-    "scores": {
-     "stop": 8,
-     "message": 8,
-     "truth": 8,
-     "layout": 7.5,
-     "brand": 8,
-     "copy": 7.5,
-     "fit": 7.5,
-     "desire": 6.5,
-     "cues": 8.5
-    }
-   },
-   "mean": 7.9,
-   "beatsLoser": {
-    "A": true,
-    "B": true
-   },
-   "beatsWinner": {
-    "A": true,
-    "B": true
-   },
-   "scoredFiles": {
-    "feed": "batches/b03/b03-1_feed.jpg (render of 2026-11-19 20:09:21 UTC; superseded by the fixer render of 22:58:03 UTC, not yet scored)",
-    "story": "batches/b03/b03-1_story.jpg (render of 2026-11-19 20:09:21 UTC; superseded by the fixer render of 22:58:03 UTC, not yet scored)"
-   }
-  },
-  "superseded": true,
-  "supersededBy": "final (b04 zero-credit pass, 19 Nov 2026, 23:35 UTC)"
- },
- "final": {
-  "round": "b04 round 2 (on the 22:58:03 Feed and Story after the re-score fixes)",
-  "A": 8.125,
-  "B": 7.85,
-  "mean": 7.99,
-  "scoredFile": "batches/b03/b03-1_feed.jpg 2026-11-19 22:58:03.305974233 +0000",
-  "scoredStory": "batches/b03/b03-1_story.jpg 2026-11-19 22:58:03.669974254 +0000",
-  "beatsWinnerBy": {
-   "win_static_hoops_apricot": [],
-   "win_twenty_f2_tennis_ruby": []
-  },
-  "beatsLoserBy": {
-   "lose_p2_proof_parody": [
-    "A",
-    "B"
-   ],
-   "lose_sa08_walls": [
-    "A",
-    "B"
-   ]
-  },
-  "anchors": "zero-credit re-test 19 Nov 2026, 23:35 UTC: sheet 1 apricot + p2, sheet 2 F2 + sa08, one winner per sheet",
-  "verdict": "ship (re-scored in b04 after the finisher fixes: round 1 A 8.075 / B 7.725 on the 20:09:21 renders; fixes 'huggie hoop earrings' card line, Story tag 'Shown magnified · earrings about 14 mm tall', A's primary text and B's description; round 2 A 8.125 / B 7.85 on the 22:58:03 renders. Truth 8.5 with both; lowest dimension B desire 6.5; beats the loser and the winner with both critics. Pre-launch, low risk: confirm the ₹699 listing ships both earrings; if it sells one piece, the beat becomes 'the ₹699 huggie.') Re-test 19 Nov 2026, 23:35 UTC (one winner per sheet, blind 200 px; thumb A 7, B 7): beats apricot with neither critic and F2 with neither critic; beats p2 with both critics and sa08 with both critics. Stock 58 at 20 Nov 2026, 00:27 UTC. The earlier 'beats the winner with both critics' was over vkf18 on the two-winner b04 sheet.",
-  "date": "19 Nov 2026, 23:35 UTC"
- }
 }
