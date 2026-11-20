@@ -125,3 +125,41 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
     (k03a: 5 of 6 baskets held the one ring, and Meera planned BUY3 gifts but had nothing else to add). Record the rate as
     "not measurable (n ads)" when fewer than three are rated, and spend the next credit on a third passing plate. From
     k03b, every offer box asks for the basket: "THIS + ANY TWO · BUY3 · 20% OFF" after three chalk circles.
+
+## k01a loop (20 Nov 2026): 0 of 5 shipped; 1 of 9 pictures passed; expert 6.73, crazy 6.83, customer 6.38, basket 0.0
+
+30. **Never ask the model to put a lens, loupe or glass in front of a small piece; draw it.** Asked to hold a reading lens
+    over the piece, the model missed every time it tried:
+    - 18 mm above the toggle (k01-4A);
+    - about 550 Feed px above the ring, with a second ring painted inside the glass, which is two products (k01-2A);
+    - over an eye instead of the stud (k01-3A);
+    - glare that turned a gold-tone link silver (k01-5B).
+
+    Shoot the prop held beside the piece, with a CLEAN SPACE clause and "no magnifier and no magnified view anywhere in
+    the picture". Then draw the rim in SVG over the piece and fill it with exactly 2x of the same picture about its
+    centre. k01r passed three cards this way.
+31. **Size a drawn magnifier from the part it magnifies.** Two rules:
+    - The inner glass must be at least 2.3 times the part's longest side at true size, or the 2x part cannot fit (k01-3R:
+      a half-moon could not hold a 2x stud, and the rim would have cut both stars).
+    - Never let the piece cross the rim half in and half out. Where the drop crossed the rim of k01-4's 2x lens, perf1
+      read the T-bar as 2.5-3x the ring, and truth stayed at 7.17, although the verifier measured it true.
+
+    Magnify one whole part with glass all round it, and keep the rest of the piece visible at true size outside.
+32. **Describe a prop by its geometry, not its name.** "Half-moon reading glasses" came back round, rounded or cat-eye on
+    7 of 9 nano plates. "Two flat-topped D-shaped lenses with the straight edge on top, thin dark tortoiseshell rims, a thin
+    bridge" held on every k01r gpt plate. The same goes for any shape the model has a default for (frames, clasps, cuts).
+33. **On neck crops, keep the ears and the chin outside the frame in words.** A neck crop "from just below the chin"
+    still showed the chin's underside (k01-5A). The redo brought the chin back and added a gold drop earring at the top
+    edge, which is a second product (k01r k01-5R). Write "the top edge cuts straight across the middle of her neck, well
+    below the jaw, and her ears are outside the frame: no chin, jaw… or earring anywhere in frame". Use a listing's
+    face-free scale crop as the worn reference, never a worn photo that shows lips or a chin.
+34. **Count or trace only what the plate shows.** V1's line-up traced "all eight" pearls from a wrist plate that shows
+    five. A count device (numerals, a line-up, swatches, a register) prints only what verify counted on that plate. If it
+    shows more, it must name its source ("traced from listing photo 01"), or the line falls back to a version without the
+    count.
+35. **Give the buyer the last word, loud.** The k01-4 variation with the talk-back ("EK BHI MATCH NAHI KARTA." /
+    "Isiliye toh liya.") had the higher would-buy (5.67 against 5.33) and buy-yes share (0.67 against 0.5), and customers
+    quoted it as the reply they always wanted to give. It lost only because it was set as the smallest row under 14
+    elements. Customers quote lines in their family's voice ("Bhaari hai, achha hai" in all six runs), and minimal buyers
+    reject spec-sheet yardsticks ("weight isn't why I'd buy pearls"). Pair aunty's doubt with the buyer's one-line Hinglish
+    answer, set larger than the line above it and directly under the headline, and keep facts in the labels.

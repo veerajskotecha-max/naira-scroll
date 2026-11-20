@@ -55,7 +55,7 @@ Every headline gets a comeback (the new move). The edits come from four sources:
   rescues.
 
 **References,** in this order. Three of the five cards change reference 2 to the face-free scale crop, because
-k01-5R's chin and earring came in at the top edge of a neck crop.
+k01r's k01-5R brought a chin and an earring in at the top edge of a neck crop.
 
 | Card | Reference 1 | Reference 2 | Reference 3 |
 |---|---|---|---|
@@ -223,7 +223,7 @@ a link at true size, so the whole link fits with a margin.
 **6.2** · `prompt` · replace
 - old: `Vertical 9:16 editorial wedding-night portrait crop at 4K (2160 x 3840), 85 mm lens, front-on: a young Indian woman's neck and collarbones at the pheras, cropped from just below the chin to mid-chest, so no chin, lips or face appear; an ivory satin camisole with thin straps.`
 - new: `Vertical 9:16 editorial wedding-night photograph at high resolution, 85 mm lens, front-on, a full-bleed photograph edge to edge with no borders, bands or panels: a young Indian woman's neck and collarbones at the pheras. The top edge of the picture cuts straight across the middle of her neck, well below the jaw, and her ears are outside the frame: no chin, jaw, lips, nose, eye, eyebrow or earring anywhere in frame. An ivory satin camisole with thin straps and a plain neckline with no trim.`
-- why: k01-5A/5R (neck crops): the chin came back at the top edge and 5R added an earring there (hard rule); learnings 5 (letterbox); plates render at 2k.
+- why: Neck crops: k01-5A showed the chin's underside at the top edge, and k01r's k01-5R brought the chin back and added an earring there (hard rule); learnings 5 (letterbox); plates render at 2k.
 
 **6.3** · `prompt` · replace
 - old: `Reference 1 is the authority on this exact piece: copy the necklace's construction exactly and ignore its plaster, background and light; reference 2 shows it worn at true scale.`
@@ -247,7 +247,7 @@ a link at true size, so the whole link fits with a margin.
 
 **6.5** · `prompt` · replace
 - old: `SCALE: the chain sits at the base of the neck on the collarbones like a collar, about eight or nine links across the front, each link about as long as a 20 mm coin; field of view about 20 cm wide; soft contact shadows on the skin.`
-- new: `SCALE, set by her body exactly as in reference 2: the chain sits at the base of the neck and rests on the collarbones like a collar; 8 or 9 links (eight or nine) span the front from one side of her neck to the other, never five or six bigger ones; each link about as long as a Rs 1 coin is wide and about as wide as a pencil; her neck at its narrowest fills about 60% of the frame's width and the chain's front arc about three quarters of it; field of view about 18 cm wide; soft true contact shadows where every link and knot touches the skin. Necklaces in this camp came out 1.3 to 1.8 times too big when sized by fractions of the frame (k01-5A, k01r k01-5A): size it by counts against her body.`
+- new: `SCALE, set by her body exactly as in reference 2: the chain sits at the base of the neck and rests on the collarbones like a collar; 8 or 9 links (eight or nine) span the front from one side of her neck to the other, never five or six bigger ones; each link about as long as a Rs 1 coin is wide and about as wide as a pencil; her neck at its narrowest fills about 60% of the frame's width and the chain's front arc about three quarters of it; field of view about 18 cm wide; soft true contact shadows where every link and knot touches the skin. Necklaces in this camp came out 1.3 to 1.8 times too big when sized by fractions of the frame: size it by counts against her body.`
 - why: Learnings 2, 10 and 24; k01-5A drew the neck at 57% of the width and the clasp 1.45-1.8x.
 
 **6.6** · `prompt` · replace
@@ -292,7 +292,7 @@ a link at true size, so the whole link fits with a margin.
 - why: 158 characters, BUY3 ends at 116. OBJECTION card, so the owner's trust line goes in the primary text.
 
 **6.15** · `risk` · set
-- set to: `The knot connectors collapsing into a plain paperclip chain, and the fire glow, petals or warm haze turning the rhodium links gold tone (both logged morphs); a silver-tone knot or jump ring (k01-5B's two-tone fault); the chin or an earring creeping in at the top edge (k01-5R); a petal touching the chain and reading as a part. No take B (learnings 16); one redo on gpt_image_2_6 medium with the verifier's clauses written in; never a composite.`
+- set to: `The knot connectors collapsing into a plain paperclip chain, and the fire glow, petals or warm haze turning the rhodium links gold tone (both logged morphs); a silver-tone knot or jump ring (k01-5B's two-tone fault); the chin or an earring creeping in at the top edge (k01r k01-5R); a petal touching the chain and reading as a part. No take B (learnings 16); one redo on gpt_image_2_6 medium with the verifier's clauses written in; never a composite.`
 - why: Learnings 16 drops b-batch hedge takes; the k01a and k01r faults on neck crops.
 
 ## 3. Card 7 · Baguette Halo Drops · ₹1,199, pre-order · OUTCOME / TRUST · "SHE COUNTED TWENTY. TWICE."
@@ -332,7 +332,7 @@ about 540 px wide. Plan the lens zone for it.
 
 **7.6** · `prompt` · replace
 - old: `SCALE: the disc sits on the lobe and covers most of it, the pearl hangs just below the lobe; field of view about 11 cm wide, so the disc is about 13% of the frame's width; a soft contact shadow under the disc.`
-- new: `SCALE, set by her ear exactly as in reference 3: the disc sits on the lobe and covers most of the lobe, about a thumbnail wide; the round pearl hangs just below the lobe; the whole earring, from the top of the disc to the bottom of the pearl, is a little less than half the ear's height from the top of the helix to the bottom of the lobe; the ear fills a little under a third of the frame's height; field of view about 12 cm wide; a soft contact shadow under the disc. Earrings in this camp came out 1.35 to 1.6 times too big when sized by fractions of the frame (k01-1A, k01-1R, k01-3A): never larger than the lobe.`
+- new: `SCALE, set by her ear exactly as in reference 3: the disc sits on the lobe and covers most of the lobe, about a thumbnail wide; the round pearl hangs just below the lobe; the whole earring, from the top of the disc to the bottom of the pearl, is a little less than half the ear's height from the top of the helix to the bottom of the lobe; the ear fills a little under a third of the frame's height; field of view about 12 cm wide; a soft contact shadow under the disc. Earrings in this camp came out 1.35 to 1.6 times too big when sized by fractions of the frame: never larger than the lobe.`
 - why: Learnings 2 and 24; k01a scale drift on worn ears.
 
 **7.7** · `prompt` · replace
@@ -477,7 +477,7 @@ functions, one ticked.
 **9.2** · `prompt` · replace
 - old: `Vertical 9:16 editorial wedding-morning photograph at 4K (2160 x 3840), 85 mm lens, front-on: a young Indian woman's neck and collarbones at her haldi, cropped from just below the chin to the top of the chest, so no chin, lips or face appear; a marigold-yellow cotton kurta with a deep V neck.`
 - new: `Vertical 9:16 editorial wedding-morning photograph at high resolution, a full-bleed photograph edge to edge with no borders, bands or panels, 85 mm lens, front-on: a young Indian woman's neck and collarbones at her haldi. The top edge of the picture cuts straight across the middle of her neck, well below the jaw, and her ears are outside the frame: no chin, jaw, lips, nose, eye, eyebrow or earring anywhere in frame. A marigold-yellow cotton kurta with a deep V neck.`
-- why: Same neck-crop fix as 6.2 (k01-5A/5R).
+- why: Same neck-crop fix as 6.2 (k01-5A; k01r k01-5R).
 
 **9.3** · `prompt` · replace
 - old: `Reference 1 is the authority on this exact piece: copy the necklace's construction exactly and ignore its background and light; reference 2 shows it worn at true scale.`
@@ -578,7 +578,7 @@ basket of four for BUY4. The ring is worn and seated, as on k04r, the only take 
 
 **10.5** · `prompt` · replace
 - old: `SCALE: about five ovals span the top of the finger; field of view about 20 cm wide, so the ring is about 10% of the frame's width; a crisp contact shadow on the velvet beside the finger. HAND: the young woman's left hand lies flat and relaxed in the centre of the frame; warm wheatish skin, five fingers, correct anatomy, short bare nails, no other ring, bangle or watch.`
-- new: `HAND: the young woman's left hand enters from the bottom edge and lies flat and relaxed, palm down, fingers pointing up toward the top edge; warm wheatish skin, five fingers, correct anatomy, short bare nails, no other ring, bangle or watch. The ring is WORN on her ring finger: slid all the way down and seated snugly at the base of that finger just beyond the knuckle, the front wave of clear pave and the green ovals facing up toward the camera, its open back hidden on the palm side; never loose, never held, never on any other finger. SCALE, the most important instruction: her fingers are big in the frame and the ring is small and fine on them. Field of view about 20 cm wide: each of her fingers is about one twelfth of the frame's width and her hand from wrist to fingertips is about half the frame's height; the band is exactly as wide as the finger it sits on, never wider and never hanging loose; it is about 6 mm deep along the finger, much shorter than the finger's lowest segment; about 5 green ovals span the top of the finger, each about a third as wide as her fingernail. Held or pinched, this ring came out two to four times too big (k03-1, k04a); worn and seated it came out true (k04r): never a chunky, bangle-sized or giant ring. A true contact shadow where the band meets her skin and where her hand rests on the velvet.`
+- new: `HAND: the young woman's left hand enters from the bottom edge and lies flat and relaxed, palm down, fingers pointing up toward the top edge; warm wheatish skin, five fingers, correct anatomy, short bare nails, no other ring, bangle or watch. The ring is WORN on her ring finger: slid all the way down and seated snugly at the base of that finger just beyond the knuckle, the front wave of clear pave and the green ovals facing up toward the camera, its open back hidden on the palm side; never loose, never held, never on any other finger. SCALE, the most important instruction: her fingers are big in the frame and the ring is small and fine on them. Field of view about 20 cm wide: each of her fingers is about one twelfth of the frame's width and her hand from wrist to fingertips is about half the frame's height; the band is exactly as wide as the finger it sits on, never wider and never hanging loose; it is about 6 mm deep along the finger, much shorter than the finger's lowest segment; about 5 green ovals span the top of the finger, each about a third as wide as her fingernail. Held or pinched, this ring came out two to four times too big; worn and seated on the finger it came out true: never a chunky, bangle-sized or giant ring. A true contact shadow where the band meets her skin and where her hand rests on the velvet.`
 - why: k04r k04-3 passed at 1.1-1.25x with the ring worn and seated; k03r k03-1A failed at 2.3x pinched (learnings 24, 25).
 
 **10.6** · `prompt` · replace

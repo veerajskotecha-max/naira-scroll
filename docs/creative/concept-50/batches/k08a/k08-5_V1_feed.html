@@ -7,7 +7,7 @@
  .pic { object-position:50% 70%; }
  /* THE WORD layer: full canvas, masked so no foil ever lands on the chain (mask = the chain's own silhouette, same geometry as .pic)
     and so the word carries no top bar of its own (the headline band of Rozha is cut; the bracelet is the bar). */
- .wl { position:absolute; left:0; top:0; width:1080px; height:1350px; pointer-events:none;
+ .wl { position:absolute; left:0; top:0; width:1080px; height:1350px; pointer-events:none; overflow:hidden;
        mask-image:var(--chain-out), linear-gradient(to bottom,#000 0,#000 var(--hb0),transparent var(--hb0),transparent var(--hb1),#000 var(--hb1),#000 100%);
        mask-size:1080px 1912.5px, 1080px 1350px; mask-position:0 -393.75px, 0 0; mask-repeat:no-repeat; mask-composite:intersect; }
  .foil { position:absolute; margin:0; font-family:'Rozha One','Cormorant Garamond'; font-weight:400; line-height:1; white-space:nowrap; color:transparent;
@@ -42,9 +42,25 @@
  <img class="pic" src="pics/k08-5R.png">
  <p class="rail" style="top:186px">Bracelet · as the top line of <span class="dv">तीनों</span></p>
  <p class="h1 hl" style="top:232px">Teenon chahiye?<br><span class="ans">Teenon lo.</span> <span class="aside">hum kam laga denge</span></p>
- <div class="wl" style="--hb0:582px;--hb1:599px">
-  <p class="foil" style="font-size:480px;left:127px;top:476px;background-size:1080px 1912.5px,180px 180px,100% 100%;background-position:-127px -869.75px,0 0,0 0">तीनों</p>
- </div>
+ <svg class="wl" viewBox="0 0 1080 1350" style="--hb0:584px;--hb1:598px">
+  <defs>
+   <linearGradient id="gf" gradientUnits="userSpaceOnUse" x1="120" y1="470" x2="960" y2="870">
+    <stop offset="0" stop-color="#9C7429"/><stop offset=".14" stop-color="#E7C77C"/><stop offset=".22" stop-color="#FFF0C4"/><stop offset=".33" stop-color="#C99B47"/>
+    <stop offset=".5" stop-color="#8E6824"/><stop offset=".64" stop-color="#D8B163"/><stop offset=".74" stop-color="#FBE6AE"/><stop offset=".86" stop-color="#B88C3C"/><stop offset="1" stop-color="#7E5A1D"/>
+   </linearGradient>
+   <filter id="foil" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.8" result="b"/>
+    <feSpecularLighting in="b" surfaceScale="2.4" specularConstant=".85" specularExponent="16" lighting-color="#FFF2D0" result="s"><feDistantLight azimuth="-48" elevation="40"/></feSpecularLighting>
+    <feComposite in="s" in2="SourceAlpha" operator="in" result="s2"/>
+    <feComposite in="SourceGraphic" in2="s2" operator="arithmetic" k1="0" k2="1" k3=".55" k4="0" result="lit"/>
+    <feOffset in="SourceAlpha" dx="-1.5" dy="2" result="o"/><feFlood flood-color="#140904" flood-opacity=".55"/><feComposite in2="o" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="lit"/></feMerge>
+   </filter>
+   <mask id="wm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><text x="127" y="855" font-family="Rozha One" font-size="480" fill="#fff">तीनों</text></mask>
+  </defs>
+  <text class="dv" x="127" y="855" font-family="Rozha One" font-size="480" fill="url(#gf)" filter="url(#foil)">तीनों</text>
+  <image href="masks/k08-5R_shade.jpg" x="0" y="-393.75" width="1080" height="1912.5" preserveAspectRatio="none" mask="url(#wm)" style="mix-blend-mode:multiply"/>
+ </svg>
  <p class="gloss" style="top:878px"><span class="hw">तीनों</span><span class="ph">tee·non, adj.</span><span class="s">1. all three, as in teenon chahiye?</span></p>
  <p class="gloss" style="top:922px"><span class="s">2. what one gold-tone line holds together: one pave link, 20 + 3 cm.</span></p>
  <div class="np" style="top:984px"><span class="name">Bold Nocturne Bracelet</span><span class="price">₹1,599</span></div>
