@@ -43,3 +43,5 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
     (`products/toggle-link-chain.json` "scaleRef", media id 94bfe9cf-8809-4bc6-959d-4b31d8f80139): "Reference 3 shows this
     exact necklace worn on a woman at true size: match its scale against the neck and collarbone exactly". The same move (a
     worn listing photo as reference 3) is worth using for any piece that keeps drifting large, when the listing has one.
+12. **Woven scale reference.** Woven Gold Hoops also carry a third reference: the listing's worn photo 05 cropped to the ear and
+    hoop (no face), `refs/woven-gold-hoops/05_ear_crop.jpg`, media id ea0201cf-5eb2-4d42-a9b3-7b6bd230a42c (card "scaleRef").
