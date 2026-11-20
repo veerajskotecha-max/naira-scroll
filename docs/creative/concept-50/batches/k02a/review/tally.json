@@ -1,0 +1,316 @@
+{
+ "rows": {
+  "L9": {
+   "ad": "k02-2",
+   "variant": "V1",
+   "expertMean": 5.947,
+   "dims": {
+    "stop": 6.5,
+    "message": 6.0,
+    "truth": 3.0,
+    "layout": 6.5,
+    "brand": 8.0,
+    "copy": 5.5,
+    "fit": 7.5,
+    "desire": 6.33,
+    "cues": 7.33,
+    "crazy": 6.0
+   },
+   "perCritic": {
+    "perf": 5.735,
+    "craft": 6.185,
+    "truth": 5.92
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "truth",
+    "copy"
+   ],
+   "thumbs": {
+    "perf1": 5,
+    "perf2": 6,
+    "craft1": 5.5,
+    "craft2": 6,
+    "truth1": 6,
+    "truth2": 6
+   },
+   "thumbMean": 5.75,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 7.417,
+   "wouldBuy": 7.0,
+   "buyYesShare": 1.0,
+   "gate": false,
+   "score": 6.223,
+   "worst": {
+    "perf": [
+     "Regenerate the worn frame at true size, a 29 mm drop at about half the ear's height, and crop closer so the earring is the brightest, largest thing inside the heart spotlight. The heart frame should spotlight the piece, not the ear.",
+     "Rebuild the photo at true size inside the same heart vignette. The idea is the best of the three, but the frame oversells the piece by about 40-50% while printing '29 mm'. Next, swap the concept-noun headline for one that names the outcome, for example 'Your own heart frame.'"
+    ],
+    "craft": [
+     "Too many words fight the frame. Cut the two arc labels and push the vignette much harder, with a deeper and cleaner surround and star-filter glints on the rim, so the heart frame reads at 200 px and the earring is the brightest thing in it. As it is, the maroon wash muddies the skin and the heart barely separates from the ground.",
+     "Give the Feed the Story's composition. Draw a whole heart fully inside the frame (the Feed cuts off the left lobe), drop the two arched captions, and limit the maroon wash to a soft mask outside the heart so the skin stays clean. The heart shape is the whole idea and has to read at a glance."
+    ],
+    "truth": [
+     "Same oversized worn picture, about 1.45x against the ear, so a true-size regeneration is needed. Second, with more than four text elements (two arc labels, the REC label, the size line, the headline and the sub-line), the one-message cap applies. Cut the arc labels to one, add 'cubic zirconia', and remove free shipping.",
+     "It is the same 1.3-1.5x oversized worn picture under a '29 MM DROP · top joint of a thumb' size line. Regenerate the ear shot at true size. In the Story, also move the heart vignette so it doesn't cut the ear in half and darken its top."
+    ]
+   },
+   "customerLines": [
+    "Meera1: Haha, mummy's wedding video had exactly this heart frame, and 'in 1996 only the bride got one, this season it's yours' got me; at ₹1,299 with COD and the BUY2/BUY3 codes, I can get one for myself along with my niece's gift.",
+    "Meera2: Arre, the heart frame from mummy's wedding cassette! 'In 1996 only the bride got one, this season it's yours' got me, and in one look I can see the five stones, the icy aqua heart, the thumb-joint size, ₹1,299 and COD, though on the ear it does look a bit longer than 29 mm.",
+    "Ananya1: Okay, 'In 1996 only the bride got one' made me snort, the heart vignette is kitsch done deliberately with a thin gold line, and the curved 'five brilliants / one icy aqua heart' labels feel properly designed, so I'm saving this one and probably tapping through for the sangeet.",
+    "Ananya2: 'In 1996 only the bride got one' made me actually laugh, it's my parents' wedding tape done with taste instead of kitsch, so I'm forwarding it to my sister and probably buying these for the December sangeets.",
+    "Rohan1: Heart frame wala idea is literally mummy-papa's shaadi video, I actually laughed, and an icy aqua heart earring for ₹1,299 with cash on delivery is a safe gift for my girlfriend with no size tension.",
+    "Rohan2: A heart earring inside a heart frame, 'five brilliants, one icy aqua heart', 29 mm, ₹1,299, cash on delivery: I get it in one second, it looks way more expensive than it costs, and earrings mean no size tension, so that's my girlfriend's gift sorted and I'm tapping Shop Now."
+   ]
+  },
+  "W5": {
+   "ad": "k02-2",
+   "variant": "V3",
+   "expertMean": 5.835,
+   "dims": {
+    "stop": 6.67,
+    "message": 6.17,
+    "truth": 3.0,
+    "layout": 7.0,
+    "brand": 7.33,
+    "copy": 5.67,
+    "fit": 7.0,
+    "desire": 5.33,
+    "cues": 7.33,
+    "crazy": 5.83
+   },
+   "perCritic": {
+    "perf": 5.42,
+    "craft": 6.305,
+    "truth": 5.78
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "truth",
+    "copy",
+    "desire",
+    "crazy"
+   ],
+   "thumbs": {
+    "perf1": 5.5,
+    "perf2": 5,
+    "craft1": 6,
+    "craft2": 6,
+    "truth1": 6.5,
+    "truth2": 7
+   },
+   "thumbMean": 6.0,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 6.417,
+   "wouldBuy": 5.333,
+   "buyYesShare": 0.17,
+   "gate": false,
+   "score": 5.718,
+   "worst": {
+    "perf": [
+     "Put the woman and the occasion back and get the piece to true size. Regenerate a true-size worn frame and run the heart window over a fuller lobe-and-jaw shot with velvet and function light, rather than an ear fragment on flat plum, so the piece is wanted and not just framed.",
+     "Regenerate the worn frame at true size. Then put the footage back behind the heart (a darkened photo vignette as in L9) instead of the flat purple ground. The cut-out-on-template look plus the giant 1996/2026 numerals push the piece to third place."
+    ],
+    "craft": [
+     "The heart window sits in a flat plum field with no occasion, and the earring is small inside it. It reads as a Valentine's template, not a 1996 shaadi tape. Crop tighter so the earring fills about 25% of the width inside the heart, at true scale. Make the surround the blurred function itself (fairy-light bokeh, velvet, a VHS soft edge), not flat colour.",
+     "Put the woman back in the frame. The heart window on flat plum leaves only a slice of ear, so the ad becomes a greeting card. Show jaw, neck, velvet blouse and function light inside the heart, or float the heart over the function scene, so the clever 1996/2026 split also sells wanting the piece."
+    ],
+    "truth": [
+     "The earring is about 1.45x true size against the ear inside the heart window, so a true-size regeneration is needed. Beyond scale, the flat mottled-purple ground turns it into a greeting-card template, cuts out the scene and lowers desire, and the Story's bottom 35% is empty purple. Also remove free shipping.",
+     "Same oversized picture: the drop is about 1.4x true size against the lobe and concha that are still visible, under the 29 mm size line. Regenerate at true scale. The cut-out also strips the body and occasion, so a true-size worn frame inside the heart with some hair and neckline kept would lift desire too."
+    ]
+   },
+   "customerLines": [
+    "Meera1: '1996 the bride's, 2026 yours', I'd forward this to the family group straight away, and I like that it says cubic zirconia and the real price plainly, though the flat purple makes it feel more like a greeting card than a real wedding evening.",
+    "Meera2: '1996 the bride's, 2026 yours' is cute and very clear, and I like that it plainly says cubic zirconia, but the flat purple background makes it feel more like a greeting card than a real earring at a real function.",
+    "Ananya1: '1996 the bride's, 2026 yours' is the best joke of the three and I'd forward it to the cousins group, but an ear cut into a heart on flat plum stops being a wink and starts looking like an actual wedding-invite template.",
+    "Ananya2: The big 1996 / 2026 split is smart and I like that it says cubic zirconia out loud, but the heart cutout on flat purple tips into wedding-card or Valentine-sale territory and the earring loses its moment.",
+    "Rohan1: Same earring, but the flat purple background with a heart cut-out and 1996/2026 numbers looks like a greeting-card template, so the piece feels smaller and cheaper and I'd probably scroll past.",
+    "Rohan2: The 1996 bride vs 2026 joke is cute and maa would laugh at it, but the flat purple poster looks like a wedding-card template, the earring feels small inside that heart, and next to the photo versions it looks cheaper, so I'd scroll past."
+   ]
+  },
+  "F4": {
+   "ad": "k02-2",
+   "variant": "V2",
+   "expertMean": 5.677,
+   "dims": {
+    "stop": 5.83,
+    "message": 5.67,
+    "truth": 3.0,
+    "layout": 7.0,
+    "brand": 8.0,
+    "copy": 6.17,
+    "fit": 5.67,
+    "desire": 6.67,
+    "cues": 7.33,
+    "crazy": 4.5
+   },
+   "perCritic": {
+    "perf": 5.34,
+    "craft": 6.045,
+    "truth": 5.645
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "stop",
+    "message",
+    "truth",
+    "fit",
+    "crazy"
+   ],
+   "thumbs": {
+    "perf1": 4.5,
+    "perf2": 5,
+    "craft1": 5,
+    "craft2": 5,
+    "truth1": 5.5,
+    "truth2": 5
+   },
+   "thumbMean": 5.0,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 6.708,
+   "wouldBuy": 5.833,
+   "buyYesShare": 0.17,
+   "gate": false,
+   "score": 5.588,
+   "worst": {
+    "perf": [
+     "The piece is drawn about 1.4x life size on the ear, and the ear, not the piece, is the hero. Regenerate the worn frame at true size (drop about half the ear's height) and crop in tight on the lobe so the earring fills 25% or more of the width.",
+     "Regenerate the worn picture at true size, with the arc on the lobe and the heart just under it, so the '29 mm drop' callout is honest. As it stands the ad sells a drop of about 4.5 cm and ships a 2.9 cm one. That is RTO and return bait on a COD-heavy funnel. Delete 'FREE' from the shipping line in the same pass."
+    ],
+    "craft": [
+     "The 1996 heart frame is a hairline that disappears at feed size, so the shaadi-video joke never lands and the ad reads as a generic ear close-up with a poetic line. Make the frame an actual VHS-style heart vignette or star-filter effect, and pull the piece back to true scale against the ear.",
+     "Show the tape. The hairline heart vanishes at feed size, and REC alone is not the 1996 wedding video. Use the soft-edged heart mask, a VCR date stamp and one star-filter twinkle on the aqua heart, so the joke ('this is literally mummy's video') reads in half a second. Regenerate the picture at true scale."
+    ],
+    "truth": [
+     "The worn scale is about 1.4-1.5x. The drop measures about 0.73 of the ear's length (323 px against 443 px), and the arc hangs well below the lobe instead of sitting on it. The '29 MM DROP · about the top joint of a thumb' line therefore contradicts the picture. The fix is to regenerate at true size, with the arc on the lobe and the heart just below, and crop tighter so the heart stays above 8% of the width. Also drop 'FREE INSURED SHIPPING'.",
+     "The worn piece is about 1.3-1.5x true size against the ear. The drop is about 0.7 of the ear length and the heart is about 10-12 mm against 7.5 mm, while the card claims 29 mm and 'the top joint of a thumb'. Regenerate at true scale: arc on the lobe, heart just below it, drop about half the ear. Also cut the free-shipping line."
+    ]
+   },
+   "customerLines": [
+    "Meera1: Grey strands in the hair, a velvet top and fairy lights behind her, that's me at my cousin's sangeet, and the aqua heart is lovely, but 'the camera finds you' took me a second to get and on that ear it hangs longer than a thumb joint, so tonight I'd save it rather than buy it.",
+    "Meera2: The braid with the grey strands and the fairy lights feel like a real wedding night, and ₹1,299 with COD is right there, but 'the camera finds you' took me a second and the heart outline is so faint I nearly missed the joke, so I'd save it, not buy it.",
+    "Ananya1: The focus brackets snapping onto 'YOU.' are a smart little designer move and this is the least cringe of the three, but the wedding-tape heart line is so faint I only got the joke on a second look, and that earring looks much longer on her ear than a 29 mm 'top joint of a thumb'.",
+    "Ananya2: The moody wedding-night light and the little viewfinder brackets around 'YOU' are a lovely detail, but 'the camera finds you' reads like a perfume tagline and the drop looks longer on that ear than a thumb joint, so I'd save this one, not buy from it.",
+    "Rohan1: The earring looks properly expensive on a real ear against that velvet and party lights, and ₹1,299 with COD fits my budget, but 'the camera finds you, thirty years on' is clearly talking to my mom's age, not to a guy buying a gift, and I barely noticed the heart outline.",
+    "Rohan2: The big gold 'FINDS YOU' and that sparkle on a real ear with grey hair stopped me, and I thought of maa, and ₹1,299 with COD is fine, but the headline is about the camera and not the earring, and the drop looks longer on her ear than 'top joint of a thumb', so I'd save it and not buy yet."
+   ]
+  }
+ },
+ "pick": {
+  "k02-2": {
+   "chosen": "V1",
+   "code": "L9",
+   "gate": false,
+   "score": 6.223,
+   "expertMean": 5.947,
+   "customerMean": 7.417,
+   "wouldBuy": 7.0,
+   "thumbMean": 5.75,
+   "others": {
+    "V3": {
+     "score": 5.718,
+     "gate": false
+    },
+    "V2": {
+     "score": 5.588,
+     "gate": false
+    }
+   }
+  }
+ },
+ "batch": {
+  "expertMean": 5.947,
+  "customerMean": 7.417,
+  "basketRate": 0.0,
+  "shipped": 0,
+  "anchors": {
+   "apricot": {
+    "perf1": 6,
+    "craft1": 7,
+    "truth1": 4.5
+   },
+   "p2": {
+    "perf1": 7,
+    "craft1": 8,
+    "truth1": 7
+   },
+   "F2": {
+    "perf2": 8,
+    "craft2": 7,
+    "truth2": 7
+   },
+   "sa08": {
+    "perf2": 6,
+    "craft2": 5,
+    "truth2": 5
+   }
+  }
+ },
+ "baskets": [
+  {
+   "persona": "Meera",
+   "run": 1,
+   "basket": [
+    "Aqua Heart Drops",
+    "Aqua Heart Drops"
+   ],
+   "size": 2,
+   "favourite": "L9"
+  },
+  {
+   "persona": "Meera",
+   "run": 2,
+   "basket": [
+    "Aqua Heart Drops",
+    "Aqua Heart Drops"
+   ],
+   "size": 2,
+   "favourite": "L9"
+  },
+  {
+   "persona": "Ananya",
+   "run": 1,
+   "basket": [
+    "Aqua Heart Drops"
+   ],
+   "size": 1,
+   "favourite": "L9"
+  },
+  {
+   "persona": "Ananya",
+   "run": 2,
+   "basket": [
+    "Aqua Heart Drops"
+   ],
+   "size": 1,
+   "favourite": "L9"
+  },
+  {
+   "persona": "Rohan",
+   "run": 1,
+   "basket": [
+    "Aqua Heart Drops"
+   ],
+   "size": 1,
+   "favourite": "L9"
+  },
+  {
+   "persona": "Rohan",
+   "run": 2,
+   "basket": [
+    "Aqua Heart Drops"
+   ],
+   "size": 1,
+   "favourite": "L9"
+  }
+ ],
+ "problems": []
+}

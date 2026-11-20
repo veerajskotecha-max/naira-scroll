@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!-- k05-4 V3 (draft) -->
+<style>
+ body { background: #D5A683; }
+ .pic { object-position: 50% 36%; }
+ .obj { position: absolute; left: 72px; line-height: 1; letter-spacing: .02em; white-space: nowrap; margin: 0; color: var(--ink); }
+ .ts { position: absolute; transform-origin: 0 0; }
+ .sh { mix-blend-mode: multiply; }
+ .lt { mix-blend-mode: screen; }
+ .ts p { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic;
+         font-weight: 500; letter-spacing: .005em; color: #22150F; }
+ .ts .i { display: inline-block; }
+ .ts .sh-i { clip-path: polygon(-40px var(--cut), 80px var(--cut), 80px 200px, -40px 200px); }
+ /* sharp contact copy (top), softening penumbra copy (lower), a faint fringe that widens with distance */
+ .ts .a { opacity: .95; -webkit-mask-image: linear-gradient(to top, #000 0, #000 70px, transparent 100px); mask-image: linear-gradient(to top, #000 0, #000 70px, transparent 100px); }
+ .ts .b { filter: blur(.9px); -webkit-mask-image: linear-gradient(to top, transparent 70px, #000 100px, #000 128px, transparent 150px); mask-image: linear-gradient(to top, transparent 70px, #000 100px, #000 128px, transparent 150px); }
+ .ts .c { filter: blur(1.7px); -webkit-mask-image: linear-gradient(to top, transparent 128px, #000 150px); mask-image: linear-gradient(to top, transparent 128px, #000 150px); }
+ .ts.rise p { top: auto; bottom: 0; }
+ .ts .pen { -webkit-text-stroke: 4px #22150F; filter: blur(5px); opacity: .14; }
+ .ts .lit { color: transparent; }
+ .ts .lit .i { color: rgba(244,240,232,.95); clip-path: polygon(-40px -40px, 80px -40px, 80px var(--cut), -40px var(--cut));
+               text-shadow: 0 0 6px rgba(255,226,170,.9), 0 0 14px rgba(255,214,150,.55); }
+ .lab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 34px; letter-spacing: .14em;
+        text-transform: uppercase; white-space: nowrap; color: var(--ink); margin: 0; }
+ .lab.sz { letter-spacing: .12em; }
+ .co { position: absolute; font-family: var(--sans); font-size: 26px; line-height: 34px; color: var(--ink); margin: 0; white-space: nowrap; }
+ .co b { display: block; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
+ .co span { display: block; font-weight: 400; letter-spacing: .01em; }
+ .ftr { position: absolute; left: 72px; right: 72px; color: var(--ink); }
+ .ftr .r1 { font-family: var(--sans); font-weight: 400; font-size: 26px; line-height: 34px; white-space: nowrap; letter-spacing: .01em; }
+ .ftr .r1 b { font-weight: 600; margin-right: 10px; }
+ .ftr .r2 { display: flex; align-items: center; gap: 30px; }
+ .ftr .price { font-family: var(--serif); font-weight: 500; line-height: 1; flex: none; letter-spacing: -.01em; font-variant-numeric: lining-nums; }
+ .ftr .price .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
+ .ftr .offer { flex: 1; text-align: center; white-space: nowrap; padding: 12px 16px; border-width: 1.5px; }
+ .ftr .r3 { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(26,22,20,.45); }
+ .ftr .r3 img { display: block; }
+ .ftr .trust { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; }
+</style></head>
+<body>
+ <img class="pic" src="pics/k05-4A.png" alt="">
+ <div class="ts sh rise" data-m="ts" style="left:78px;top:218px;width:900px;height:192px;transform-origin:0 100%;transform: skewX(-14deg) scaleY(1.5);--cut:34px">
+  <p class="pen" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+  <p class="a" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+  <p class="b" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+  <p class="c" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+ </div>
+ <div class="ts lt rise" data-m="lit" style="left:78px;top:218px;width:900px;height:192px;transform-origin:0 100%;transform: skewX(-14deg) scaleY(1.5);--cut:34px">
+  <p class="lit" style="font-size:104px;line-height:96px;">the nagaman<span class="i">i</span>,<br>for you;</p>
+ </div>
+ <p class="h1 obj" data-m="obj" style="top:416px;font-size:92px;word-spacing:-.14em">One stone.</p>
+</body></html>
