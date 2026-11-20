@@ -50,3 +50,8 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
 14. **Brushed Gold Huggies scale reference:** listing photo 04 (the pair beside a cardamom pod, 14 x 9.8 mm each),
     media id 5601af98-29ec-4a35-bb32-a1cf1c4f1e0c (card "scaleRef"). A listing photo with a known-size prop (cardamom, coin,
     size guide) is the best third reference: it carries scale without a face.
+15. **Toggle takes use high quality.** At gpt_image_2_6 medium the Toggle clasp failed in k07-1, k08-1, k10-2 (and k04-2 at
+    any quality, scale): two collars, two nubs, a long bar, 1.5x scale. The bake-off take at quality **high** matched the clasp
+    reference exactly. Every Toggle Link Chain take A is therefore `gpt_image_2_6` quality **high** 2k (2.75 credits) with all
+    three references (packshot, clasp close-up, worn scale photo), the clasp seen flat-on and large enough to read, and the
+    exact clasp sentence from lesson 8. The redo stays seedream_v5_pro with the same three references.
