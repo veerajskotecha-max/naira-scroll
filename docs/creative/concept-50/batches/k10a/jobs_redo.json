@@ -74,7 +74,8 @@
   "medias": [
    "ac8bad23-c21e-447f-801c-3ec328d118f6",
    "d99052b5-4023-4077-8006-2e78f1f875d1"
-  ]
+  ],
+  "verdict": "fail (see verify/k10-1.md, Redo): loop over-corrected (inner 2.11x / outer 2.30x the tiger eye vs asked 1.45x and listing 1.44x/1.69x; ref 02 1.15-1.30x inner), so 17 mm inside and the 11.8 mm tiger eye cannot share one honest scale bar (21.9 vs 32.1 Feed px/mm); Feed has no room for the F2 (palace and rock fill 57-82% of the plate); painted shadows point toward the tiger eye; pale buff day sky. Ref 01 (worn, finger/tiger eye 1.92) would support the loop if the owner rules it the truth."
  },
  {
   "slot": "k10-5R",
