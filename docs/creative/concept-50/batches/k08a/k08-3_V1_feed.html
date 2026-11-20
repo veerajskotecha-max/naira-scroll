@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!-- k08-3 V1 (draft) -->
+<style>
+ @font-face{font-family:'Rozha One';src:url('fonts/RozhaOne-devanagari.woff2') format('woff2');unicode-range:U+0900-097F,U+200C-200D,U+25CC}
+ @font-face{font-family:'Tiro Devanagari Hindi';src:url('fonts/TiroDevanagariHindi-devanagari.woff2') format('woff2');unicode-range:U+0900-097F,U+200C-200D,U+25CC}
+ body { background:#5A2438; }
+ .pic { object-position:50% 40%; }
+ .rail { position:absolute; left:0; right:0; top:298px; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px;
+         letter-spacing:.16em; text-transform:uppercase; color:rgba(244,240,232,.82); line-height:30px; margin:0; }
+ .hl { position:absolute; left:0; right:0; top:340px; text-align:center; font-size:80px; color:var(--bone); white-space:nowrap; }
+ .foil { position:absolute; margin:0; font-family:'Rozha One','Cormorant Garamond'; font-weight:400; line-height:1; white-space:nowrap; color:transparent;
+         background-image:linear-gradient(100deg,#FFFDF7 0%,#D8D3CA 20%,#F6F2EA 38%,#B9B3A9 58%,#EFEBE3 78%,#C9C4BB 100%);
+         -webkit-background-clip:text; background-clip:text;
+         filter:drop-shadow(-1px -1px 0 rgba(255,246,220,.5)) drop-shadow(1px 1.5px 0 rgba(20,8,14,.55)); }
+ .w1 { font-size:255px; left:152.5px; top:687px; }   /* ँ centre = left + .714em = 334.6 (left stud centre) */
+ .w2 { font-size:255px; left:565.4px; top:687px; }   /* = 747.5 (right stud centre) */
+ .ledger { position:absolute; top:900px; font-family:'Tiro Devanagari Hindi'; font-size:42px; line-height:1.2; color:rgba(244,240,232,.9);
+           width:400px; text-align:center; margin:0; }
+ .l1 { left:134.6px; } .l2 { left:547.5px; }
+ .aside { position:absolute; left:0; right:0; top:906px; text-align:center; font-size:34px; line-height:1.14; color:var(--gold-light); }
+ .foot { position:absolute; left:0; right:0; top:1032px; display:flex; flex-direction:column; align-items:center; gap:20px; color:var(--bone); opacity:1; font-size:26px; }
+ .foot .r1 { font-family:var(--sans); font-size:26px; letter-spacing:.04em; line-height:30px; }
+ .foot .r1 b { font-weight:500; letter-spacing:.18em; text-transform:uppercase; margin-right:.5em; }
+ .foot .r2 { display:flex; align-items:center; gap:28px; }
+ .foot .price { font-family:var(--serif); font-weight:500; font-size:60px; line-height:1; font-variant-numeric:lining-nums; }
+ .foot .offer { font-size:26px; letter-spacing:.1em; padding:12px 20px; }
+ .foot .r3 { display:flex; align-items:center; gap:22px; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.12em;
+             text-transform:uppercase; line-height:30px; color:rgba(244,240,232,.85); }
+ .foot .r3 img { height:28px; width:auto; display:block; }
+ svg.ov { position:absolute; inset:0; width:1080px; height:1350px; pointer-events:none; }
+</style></head>
+<body class="dark">
+ <img class="pic" src="pics/k08-3A.png">
+ <svg class="ov" viewBox="0 0 1080 1350">
+  <line x1="150" x2="930" y1="1010" y2="1010" stroke="#F4F0E8" stroke-opacity=".45" stroke-width="1"/>
+ </svg>
+ <p class="rail" data-m="rail">Earrings · pinned to the sangeet card</p>
+ <p class="h1 hl" data-m="hl">Paanch function,<br>paanch dress code.</p>
+ <p class="foil w1" data-m="w1">पाच</p>
+ <p class="foil w2" data-m="w2">पाच</p>
+ <p class="beat aside" data-m="aside">The dress codes just landed on the family group.<br>This pair already wears three: lilac, pink and lemon.</p>
+ <div class="foot">
+  <div class="r1" data-m="r1"><b>Prism Cluster Studs</b>rhodium silver tone · 20 mm arc</div>
+  <div class="r2"><span class="price" data-m="price">₹1,299</span><span class="offer" data-m="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
+  <div class="r3" data-m="r3"><img src="../../../ads-500/kit/logo_white.png"><span>Free insured shipping · Cash on delivery</span></div>
+ </div>
+</body></html>
