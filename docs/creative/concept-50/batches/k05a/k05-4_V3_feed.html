@@ -12,9 +12,9 @@
  .ts .i { display: inline-block; }
  .ts .sh-i { clip-path: polygon(-40px var(--cut), 80px var(--cut), 80px 200px, -40px 200px); }
  /* sharp contact copy (top), softening penumbra copy (lower), a faint fringe that widens with distance */
- .ts .a { opacity: .95; -webkit-mask-image: linear-gradient(to top, #000 0, #000 70px, transparent 100px); mask-image: linear-gradient(to top, #000 0, #000 70px, transparent 100px); }
- .ts .b { filter: blur(.9px); -webkit-mask-image: linear-gradient(to top, transparent 70px, #000 100px, #000 128px, transparent 150px); mask-image: linear-gradient(to top, transparent 70px, #000 100px, #000 128px, transparent 150px); }
- .ts .c { filter: blur(1.7px); -webkit-mask-image: linear-gradient(to top, transparent 128px, #000 150px); mask-image: linear-gradient(to top, transparent 128px, #000 150px); }
+ .ts .a { opacity: .95; -webkit-mask-image: linear-gradient(to top, #000 0, #000 50px, transparent 74px); mask-image: linear-gradient(to top, #000 0, #000 50px, transparent 74px); }
+ .ts .b { filter: blur(.9px); -webkit-mask-image: linear-gradient(to top, transparent 50px, #000 74px, #000 96px, transparent 118px); mask-image: linear-gradient(to top, transparent 50px, #000 74px, #000 96px, transparent 118px); }
+ .ts .c { filter: blur(1.6px); -webkit-mask-image: linear-gradient(to top, transparent 96px, #000 118px); mask-image: linear-gradient(to top, transparent 96px, #000 118px); }
  .ts.rise p { top: auto; bottom: 0; }
  .ts .pen { -webkit-text-stroke: 4px #22150F; filter: blur(5px); opacity: .14; }
  .ts .lit { color: transparent; }
@@ -39,14 +39,54 @@
 </style></head>
 <body>
  <img class="pic" src="pics/k05-4A.png" alt="">
- <div class="ts sh rise" data-m="ts" style="left:78px;top:218px;width:900px;height:192px;transform-origin:0 100%;transform: skewX(-14deg) scaleY(1.5);--cut:34px">
-  <p class="pen" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
-  <p class="a" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
-  <p class="b" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
-  <p class="c" style="font-size:104px;line-height:96px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+ <div class="ts sh rise" data-m="ts" style="left:90px;top:247px;width:900px;height:160px;transform-origin:0 100%;transform: skewX(-9deg) scaleY(1.96);--cut:30px">
+  <p class="pen" style="font-size:84px;line-height:80px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+  <p class="a" style="font-size:84px;line-height:80px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+  <p class="b" style="font-size:84px;line-height:80px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
+  <p class="c" style="font-size:84px;line-height:80px;">the nagaman<span class="i sh-i">i</span>,<br>for you;</p>
  </div>
- <div class="ts lt rise" data-m="lit" style="left:78px;top:218px;width:900px;height:192px;transform-origin:0 100%;transform: skewX(-14deg) scaleY(1.5);--cut:34px">
-  <p class="lit" style="font-size:104px;line-height:96px;">the nagaman<span class="i">i</span>,<br>for you;</p>
+ <div class="ts lt rise" data-m="lit" style="left:90px;top:247px;width:900px;height:160px;transform-origin:0 100%;transform: skewX(-9deg) scaleY(1.96);--cut:30px">
+  <p class="lit" style="font-size:84px;line-height:80px;">the nagaman<span class="i">i</span>,<br>for you;</p>
  </div>
  <p class="h1 obj" data-m="obj" style="top:416px;font-size:92px;word-spacing:-.14em">One stone.</p>
+ <svg class="overlay" viewBox="0 0 1080 1350" data-m="svg">
+  <defs>
+   <radialGradient id="pool"><stop offset="0" stop-color="#2A1B16" stop-opacity=".62"/><stop offset=".55" stop-color="#2A1B16" stop-opacity=".28"/><stop offset="1" stop-color="#2A1B16" stop-opacity="0"/></radialGradient>
+   <radialGradient id="glow"><stop offset="0" stop-color="#FFF6E6" stop-opacity="1"/><stop offset=".35" stop-color="#FFE2B0" stop-opacity=".55"/><stop offset="1" stop-color="#FFD9A0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <!-- THE SUN: dot on the frame edge where the 8 degree line back from the chain's left glint leaves the frame; ray, level and altitude arc -->
+  <g fill="none" stroke="#1A1614">
+   <line x1="14" y1="551.3" x2="140.1" y2="569.3" stroke-width="1.5" stroke-opacity=".62"/>
+   <circle cx="145" cy="570" r="5" stroke-width="1.5"/>
+   <line x1="16" y1="550.3" x2="104" y2="550.3" stroke-width="1" stroke-opacity=".55" stroke-dasharray="3 4"/>
+   <path d="M 92 550.3 A 85 85 0 0 1 91.15 562.3" stroke-width="1" stroke-opacity=".7"/>
+  </g>
+  <circle cx="7" cy="550.3" r="7" fill="#1A1614"/>
+  <!-- size line at the root: extension lines from the stone's edges, dimension line with architect's ticks -->
+  <g fill="none" stroke="#1A1614" stroke-width="1.5">
+   <line x1="240.5" y1="902" x2="240.5" y2="956" stroke-width="1" stroke-dasharray="3 3"/>
+   <line x1="404.5" y1="902" x2="404.5" y2="956" stroke-width="1" stroke-dasharray="3 3"/>
+   <line x1="232" y1="948" x2="413" y2="948"/>
+   <line x1="234.5" y1="954" x2="246.5" y2="942"/><line x1="398.5" y1="954" x2="410.5" y2="942"/>
+  </g>
+ </svg>
+ <svg class="overlay" viewBox="0 0 1080 1350" style="mix-blend-mode:multiply" data-m="star">
+  <circle cx="476.5" cy="253" r="28" fill="url(#pool)"/>
+ </svg>
+ <svg class="overlay" viewBox="0 0 1080 1350" style="mix-blend-mode:screen" data-m="star">
+  <g transform="translate(476.5 253)">
+   <circle r="19" fill="url(#glow)"/>
+   <path d="M0 -33 L1.3 -1.3 L33 0 L1.3 1.3 L0 33 L-1.3 1.3 L-33 0 L-1.3 -1.3 Z" fill="#FFF3DF" opacity=".92"/>
+   <path d="M-13 -13 L.8 -.8 L13 -13 L.8 .8 L13 13 L-.8 .8 L-13 13 L-.8 -.8 Z" fill="#FFF3DF" opacity=".55"/>
+   <circle r="3.4" fill="#FFFBF4"/>
+  </g>
+ </svg>
+
+ <p class="lab" data-m="sun" style="left:72px;top:664px">4:41 PM<br>21 Dec<br>Sun 8°</p>
+ <p class="lab sz" data-m="size" style="left:220px;top:958px"><span class="szA">Stone 10 mm</span> · Cobra not included</p>
+ <div class="ftr" data-m="ftr" style="top:1040px">
+  <div class="r1"><b>Serpentine Whisper Chain.</b> 40 cm + 5 cm · 18k gold tone · waterproof</div>
+  <div class="r2" style="margin-top:14px"><span class="price" style="font-size:74px"><span class="r">₹</span>1,299</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
+  <div class="r3" style="margin-top:16px;padding-top:14px"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira" style="height:44px"><span class="trust">Free insured shipping · Cash on delivery</span></div>
+ </div>
 </body></html>

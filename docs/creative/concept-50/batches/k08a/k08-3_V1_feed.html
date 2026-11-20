@@ -9,20 +9,21 @@
  .rail { position:absolute; left:0; right:0; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px;
          letter-spacing:.16em; text-transform:uppercase; color:rgba(244,240,232,.84); line-height:30px; margin:0; white-space:nowrap; }
  .rail .dv { font-family:'Tiro Devanagari Hindi','Cormorant Garamond'; font-size:32px; letter-spacing:0; text-transform:none; color:var(--bone); }
+ .ledger { position:absolute; width:400px; text-align:center; font-family:"Tiro Devanagari Hindi","Cormorant Garamond"; font-size:40px; line-height:48px; color:rgba(244,240,232,.9); margin:0; white-space:nowrap; }
  .hl { position:absolute; left:0; right:0; text-align:center; color:var(--bone); white-space:nowrap; }
  /* THE WORD, in the sangeet's ink: bone-to-silver foil for the rhodium piece, 1 px emboss to the key light (upper left). */
  .foil { position:absolute; margin:0; font-family:'Rozha One','Cormorant Garamond'; font-weight:400; line-height:1; white-space:nowrap; color:transparent;
-         background-image:linear-gradient(100deg,#FFFDF7 0%,#D8D3CA 20%,#F6F2EA 38%,#BDB7AD 58%,#EFEBE3 78%,#CBC6BD 100%);
+         background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .32 0 0 0 0 .27 0 0 0 0 .28 0 0 0 .9 -.3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E"),linear-gradient(100deg,#FFFDF7 0%,#D8D3CA 20%,#F6F2EA 38%,#BDB7AD 58%,#EFEBE3 78%,#CBC6BD 100%);
          -webkit-background-clip:text; background-clip:text;
          filter:drop-shadow(-1px -1px 0 rgba(255,246,220,.55)) drop-shadow(1px 1.5px 0 rgba(20,8,14,.6)); }
  .aside { position:absolute; left:0; right:0; text-align:center; font-size:34px; line-height:1.14; color:var(--gold-light); white-space:nowrap; }
  .foot { position:absolute; left:0; right:0; display:flex; flex-direction:column; align-items:center; gap:22px; color:var(--bone); }
  .foot .r1 { font-family:var(--sans); font-size:26px; letter-spacing:.04em; line-height:30px; white-space:nowrap; }
  .foot .r1 b { font-weight:500; letter-spacing:.18em; text-transform:uppercase; margin-right:.55em; }
- .foot .r2 { display:flex; align-items:center; gap:28px; }
+ .foot .r2 { display:flex; align-items:center; gap:24px; }
  .price { font-family:var(--serif); font-weight:500; line-height:1; font-variant-numeric:lining-nums; color:var(--bone); }
- .foot .price { font-size:60px; }
- .offer { font-size:26px; letter-spacing:.1em; padding:12px 20px; white-space:nowrap; color:var(--bone); }
+ .foot .price { font-size:56px; }
+ .offer { font-size:26px; letter-spacing:.08em; padding:12px 20px; white-space:nowrap; color:var(--bone); }
  .foot .r3 { display:flex; align-items:center; gap:22px; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.12em;
              text-transform:uppercase; line-height:30px; color:rgba(244,240,232,.86); white-space:nowrap; }
  .foot .r3 img { height:28px; width:auto; display:block; }
@@ -31,7 +32,7 @@
  .np .price { font-size:58px; }
  .of { position:absolute; left:0; right:0; text-align:center; }
  .seal { position:absolute; left:50%; transform:translateX(-50%); height:26px; }
- .tabl { position:absolute; width:150px; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.04em;
+ .tabl { position:absolute; width:150px; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.02em;
          text-transform:uppercase; color:#1A1614; line-height:30px; margin:0; white-space:nowrap; }
  .hl { top:340px; font-size:80px; }
 </style></head>
@@ -43,15 +44,17 @@
   <path transform="translate(520.7 154) scale(1.0)" d="M2 18 C6 19 10 22 14 28 C20 15 28 6 38 1 C39.4 0.4 40 1.6 39 2.6 C30 10 22 20 16.5 32.5 C15.6 34.6 13.4 34.6 12.4 32.6 C9.4 27 6 23.4 1.2 20.4 C0 19.6 0.6 17.8 2 18 Z"/>
   <path transform="translate(682.7 154) scale(1.0)" d="M2 18 C6 19 10 22 14 28 C20 15 28 6 38 1 C39.4 0.4 40 1.6 39 2.6 C30 10 22 20 16.5 32.5 C15.6 34.6 13.4 34.6 12.4 32.6 C9.4 27 6 23.4 1.2 20.4 C0 19.6 0.6 17.8 2 18 Z"/>
   </g>
-  <line x1="150" x2="930" y1="1022" y2="1022" stroke="#F4F0E8" stroke-opacity=".45" stroke-width="1"/>
+  <line x1="150" x2="930" y1="1050" y2="1050" stroke="#F4F0E8" stroke-opacity=".45" stroke-width="1"/>
  </svg>
  <p class="rail" data-m="rail" style="top:298px">Earrings · the moons of <span class="dv">पाँच</span></p>
  <p class="h1 hl" data-m="hl">Paanch function,<br>paanch dress code.</p>
  <p class="foil" data-m="w1" style="font-size:255px;left:152.5px;top:681px">पाच</p>
  <p class="foil" data-m="w2" style="font-size:255px;left:565.4px;top:681px">पाच</p>
+ <p class="ledger" data-m="lg1" style="left:134.6px;top:896px">फ़ंक्शन</p>
+ <p class="ledger" data-m="lg2" style="left:547.5px;top:896px">ड्रेस कोड</p>
 
- <p class="beat aside" data-m="aside" style="top:920px">The dress codes just landed on the family group.<br>This pair already wears three: lilac, pink and lemon.</p>
- <div class="foot" style="top:1044px">
+ <p class="beat aside" data-m="aside" style="top:962px">The dress codes just landed on the family group.<br>This pair already wears three: lilac, pink and lemon.</p>
+ <div class="foot" style="top:1068px">
   <div class="r1" data-m="r1"><b>Prism Cluster Studs</b>rhodium silver tone · 20 mm arc</div>
   <div class="r2"><span class="price" data-m="price">₹1,299</span><span data-m="offer"><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></span></div>
   <div class="r3" data-m="r3"><img src="../../../ads-500/kit/logo_white.png"><span>Free insured shipping · Cash on delivery</span></div>

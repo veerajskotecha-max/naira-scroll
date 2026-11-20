@@ -12,17 +12,17 @@
  .hl { position:absolute; left:0; right:0; text-align:center; color:var(--bone); white-space:nowrap; }
  /* THE WORD, in the sangeet's ink: bone-to-silver foil for the rhodium piece, 1 px emboss to the key light (upper left). */
  .foil { position:absolute; margin:0; font-family:'Rozha One','Cormorant Garamond'; font-weight:400; line-height:1; white-space:nowrap; color:transparent;
-         background-image:linear-gradient(100deg,#FFFDF7 0%,#D8D3CA 20%,#F6F2EA 38%,#BDB7AD 58%,#EFEBE3 78%,#CBC6BD 100%);
+         background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .32 0 0 0 0 .27 0 0 0 0 .28 0 0 0 .9 -.3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E"),linear-gradient(100deg,#FFFDF7 0%,#D8D3CA 20%,#F6F2EA 38%,#BDB7AD 58%,#EFEBE3 78%,#CBC6BD 100%);
          -webkit-background-clip:text; background-clip:text;
          filter:drop-shadow(-1px -1px 0 rgba(255,246,220,.55)) drop-shadow(1px 1.5px 0 rgba(20,8,14,.6)); }
  .aside { position:absolute; left:0; right:0; text-align:center; font-size:34px; line-height:1.14; color:var(--gold-light); white-space:nowrap; }
  .foot { position:absolute; left:0; right:0; display:flex; flex-direction:column; align-items:center; gap:22px; color:var(--bone); }
  .foot .r1 { font-family:var(--sans); font-size:26px; letter-spacing:.04em; line-height:30px; white-space:nowrap; }
  .foot .r1 b { font-weight:500; letter-spacing:.18em; text-transform:uppercase; margin-right:.55em; }
- .foot .r2 { display:flex; align-items:center; gap:28px; }
+ .foot .r2 { display:flex; align-items:center; gap:24px; }
  .price { font-family:var(--serif); font-weight:500; line-height:1; font-variant-numeric:lining-nums; color:var(--bone); }
- .foot .price { font-size:60px; }
- .offer { font-size:26px; letter-spacing:.1em; padding:12px 20px; white-space:nowrap; color:var(--bone); }
+ .foot .price { font-size:56px; }
+ .offer { font-size:26px; letter-spacing:.08em; padding:12px 20px; white-space:nowrap; color:var(--bone); }
  .foot .r3 { display:flex; align-items:center; gap:22px; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.12em;
              text-transform:uppercase; line-height:30px; color:rgba(244,240,232,.86); white-space:nowrap; }
  .foot .r3 img { height:28px; width:auto; display:block; }
@@ -31,7 +31,7 @@
  .np .price { font-size:58px; }
  .of { position:absolute; left:0; right:0; text-align:center; }
  .seal { position:absolute; left:50%; transform:translateX(-50%); height:26px; }
- .tabl { position:absolute; width:150px; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.04em;
+ .tabl { position:absolute; width:150px; text-align:center; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.02em;
          text-transform:uppercase; color:#1A1614; line-height:30px; margin:0; white-space:nowrap; }
  .hl { top:300px; font-size:190px; letter-spacing:.03em; }
 </style></head>
