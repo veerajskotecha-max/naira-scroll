@@ -27,3 +27,15 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
    part: "every link, ring and jump ring in the same 18k gold tone".
 7. **Rate limits.** With four batches and a test running, Higgsfield refused submissions with 429s; one redo gave up and was
    never shot. Retry 429s patiently (30-60 s apart, up to 10 times). A refused submission costs nothing.
+
+## Director's notes from wave 2 verification (20 Nov 2026, evening)
+
+8. **Toggle Link Chain clasp (9 ads).** Both models keep redesigning the sailor ring into a marine clasp with two nubs on two
+   ribbed collars and grow the bar to 0.87x the ring. Write it as: "ONE thick round sailor ring with ONE ribbed spring-gate
+   collar and ONE small push-pin nub at about 2 o'clock; never two collars or two nubs; ONE short straight bar, about 0.6 of the
+   ring's outer diameter, set with one row of about 9 tiny clear stones, hanging from one jump ring". Prefer a frame where the
+   clasp is seen flat-on, as in reference 2.
+9. **Counts drift by one.** A stud grew a seventh pearl; check every count in the lock and write the count in digits and in
+   words ("six pearls, 6, never seven").
+10. **Scale under the new models** is better but still drifts on necklaces at the neck (1.3-1.8x) and small bows on wrists
+    (1.4x): give two body referents, not one, and the field of view in cm.

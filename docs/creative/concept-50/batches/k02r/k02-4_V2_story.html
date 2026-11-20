@@ -12,29 +12,29 @@
         text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
  .osd svg { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
  .stamp { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); font-weight: 400; font-size: 26px;
-          letter-spacing: .14em; line-height: 30px; text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
+          letter-spacing: .14em; line-height: 30px; text-shadow: 2px 2px 0 rgba(26,22,20,.6), 0 0 10px rgba(26,22,20,.55); white-space: nowrap; }
  .bug { position: absolute; right: 72px; top: 270px; height: 56px; opacity: .88; }
- .super { position: absolute; left: 0; right: 0; margin: 0; text-align: center; font-family: var(--display); text-transform: uppercase;
+ .super { position: absolute; left: 72px; margin: 0; text-align: left; font-family: var(--display); text-transform: uppercase;
           font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
           font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
           -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
  .super .soft { display: inline-block; filter: blur(2.5px);
                 text-shadow: 0 0 14px rgba(244,240,232,.4), 0 0 28px rgba(244,240,232,.25), 0 6px 18px rgba(59,38,32,.7); }
  .super .sharp { display: inline-block; }
- .beat { position: absolute; left: 0; right: 0; text-align: center; color: var(--bone); font-size: 44px; line-height: 48px;
+ .beat { position: absolute; left: 72px; text-align: left; color: var(--bone); font-size: 44px; line-height: 48px;
          text-shadow: 0 2px 10px rgba(26,22,20,.55); white-space: nowrap; }
  .hand { position: absolute; font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ink); white-space: nowrap; }
- .contents { left: 96px; top: 852px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
- .spec { left: 60px; top: 936px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
- .lower { position: absolute; left: 0; right: 0; top: 566px; height: 232px; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light);
+ .contents { left: 72px; top: 852px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
+ .spec { left: 72px; top: 936px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
+ .lower { position: absolute; left: 0; right: 0; top: 570px; height: 232px; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light);
           border-bottom: 2px solid var(--gold-light); }
  .lt { position: absolute; color: var(--bone); white-space: nowrap; }
- .lt.name { left: 72px; top: 588px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
- .lt.line { left: 72px; top: 622px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
- .lt.price { right: 72px; top: 586px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light); }
- .lt.offerw { left: 72px; top: 670px; }
+ .lt.name { left: 72px; top: 592px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
+ .lt.line { left: 72px; top: 626px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
+ .lt.price { right: 72px; top: 590px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light); }
+ .lt.offerw { left: 72px; top: 674px; }
  .lt .offer { color: var(--bone); }
- .lt.trust { left: 72px; top: 748px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 32px; text-transform: uppercase; }
+ .lt.trust { left: 72px; top: 752px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 32px; text-transform: uppercase; }
 </style></head>
 <body class="dark story">
  <img class="pic" src="pics/k02-4A.png">
@@ -62,8 +62,8 @@
  </svg>
  <div class="osd" data-m="osd"><svg width="40" height="26" viewBox="0 0 40 26"><path d="M20 0 L0 13 L20 26 Z M40 0 L20 13 L40 26 Z" fill="#F4F0E8"/></svg>REW</div>
  <img class="bug" src="../../../ads-500/kit/logo_white.png">
- <p class="super" data-m="title" style="top:344px;font-size:92px"><span class="sharp">Nothing to hide.</span></p>
- <p class="beat" data-m="beat" style="top:436px">In ’96, soft focus hid the plating.<br>This season every phone shoots pin-sharp.</p>
+ <p class="super" data-m="title" style="top:354px;font-size:92px"><span class="sharp">Nothing to hide.</span></p>
+ <p class="beat" data-m="beat" style="top:440px">In ’96, soft focus hid the plating.<br>This season every phone shoots pin-sharp.</p>
  <div class="lower"></div>
  <div class="lt name" data-m="name">Brushed Satin Hoops</div>
  <div class="lt line" data-m="line">18k gold tone · brushed satin · in stock</div>
