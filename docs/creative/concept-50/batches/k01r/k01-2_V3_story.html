@@ -45,31 +45,38 @@
  .chart.ctr .acu { position: absolute; left: 72px; width: auto; }
  .hint { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-light); white-space: nowrap; line-height: 1; }
 
- .sf { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; color: var(--bone); }
+ .sc { position: absolute; left: 112px; right: 112px; color: var(--bone); }
+ .sc .r1 { display: flex; align-items: center; justify-content: space-between; }
+ .sc .price { font-family: var(--serif); font-weight: 500; font-size: 58px; line-height: .9; white-space: nowrap; font-feature-settings: "lnum" 1; }
+ .sc .offer { white-space: nowrap; padding: 10px 18px 9px; border-width: 1.5px; }
+ .sc .r2 { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; }
+ .sc .wm { height: 38px; width: auto; display: block; }
+ .sc .st { display: flex; flex-direction: column; align-items: flex-end; }
+ .sc .nm { font-family: var(--sans); font-weight: 600; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; white-space: nowrap; line-height: 1; margin-bottom: 6px; }
+ .sc .trust { font-family: var(--sans); font-weight: 500; font-size: 22px; letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; color: rgba(244,240,232,.9); line-height: 1; }
 
 </style></head>
 <body class="dark story">
 <img class="pic" src="pics/k01-2A.png">
 <svg class="glass" viewBox="0 0 1080 1920" width="1080" height="1920" aria-hidden="true">
  <defs>
-  <mask id="sgm"><rect width="1080" height="1920" fill="#fff"/><path d="M62 584 A478 34 0 0 1 1018 584 L912 1760 A372 27.2 0 0 1 168 1760 Z" fill="#000"/></mask>
-  <linearGradient id="sgg" x1="0" y1="1128" x2="0" y2="1760" gradientUnits="userSpaceOnUse">
-   <stop offset="0" stop-color="#7C4421"/><stop offset=".45" stop-color="#673718"/><stop offset="1" stop-color="#4A2611"/></linearGradient>
-  <linearGradient id="sgw" x1="62" y1="0" x2="1018" y2="0" gradientUnits="userSpaceOnUse">
+  <mask id="sgm"><rect width="1080" height="1920" fill="#fff"/><path d="M40 580 A500 24 0 0 1 1040 580 L936 1760 A396 19.2 0 0 1 144 1760 Z" fill="#000"/></mask>
+  <linearGradient id="sgg" x1="0" y1="1124" x2="0" y2="1760" gradientUnits="userSpaceOnUse">
+   <stop offset="0" stop-color="#93582E"/><stop offset=".07" stop-color="#7A4320"/><stop offset=".5" stop-color="#673718"/><stop offset="1" stop-color="#4A2611"/></linearGradient>
+  <linearGradient id="sgw" x1="40" y1="0" x2="1040" y2="0" gradientUnits="userSpaceOnUse">
    <stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset=".06" stop-color="#fff" stop-opacity=".02"/><stop offset=".94" stop-color="#fff" stop-opacity=".02"/><stop offset="1" stop-color="#fff" stop-opacity=".08"/></linearGradient>
   <filter id="sgb" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="6"/></filter>
  </defs>
  <rect width="1080" height="1920" fill="rgba(26,10,20,.84)" mask="url(#sgm)"/>
- <path d="M111.0 1128 A429.0 22 0 0 0 969.0 1128 L912 1760 A372 27.2 0 0 1 168 1760 Z" fill="url(#sgg)" fill-opacity=".97"/>
- <g><path d="M121.8 1138.9 L177.3 1766.1" stroke="#F4F0E8" stroke-opacity="0.12" stroke-width="1.2"/><path d="M153.5 1143.5 L204.8 1771.8" stroke="#F4F0E8" stroke-opacity="0.14" stroke-width="1.2"/><path d="M204.6 1147.7 L249.2 1777.0" stroke="#F4F0E8" stroke-opacity="0.16" stroke-width="1.2"/><path d="M272.5 1151.2 L308.1 1781.3" stroke="#F4F0E8" stroke-opacity="0.18" stroke-width="1.2"/><path d="M353.9 1153.8 L378.6 1784.5" stroke="#F4F0E8" stroke-opacity="0.19" stroke-width="1.2"/><path d="M444.5 1155.4 L457.2 1786.5" stroke="#F4F0E8" stroke-opacity="0.20" stroke-width="1.2"/><path d="M540.0 1156.0 L540.0 1787.2" stroke="#F4F0E8" stroke-opacity="0.20" stroke-width="1.2"/><path d="M635.5 1155.4 L622.8 1786.5" stroke="#F4F0E8" stroke-opacity="0.20" stroke-width="1.2"/><path d="M726.1 1153.8 L701.4 1784.5" stroke="#F4F0E8" stroke-opacity="0.19" stroke-width="1.2"/><path d="M807.5 1151.2 L771.9 1781.3" stroke="#F4F0E8" stroke-opacity="0.18" stroke-width="1.2"/><path d="M875.4 1147.7 L830.8 1777.0" stroke="#F4F0E8" stroke-opacity="0.16" stroke-width="1.2"/><path d="M926.5 1143.5 L875.2 1771.8" stroke="#F4F0E8" stroke-opacity="0.14" stroke-width="1.2"/><path d="M958.2 1138.9 L902.7 1766.1" stroke="#F4F0E8" stroke-opacity="0.12" stroke-width="1.2"/></g>
- <ellipse cx="540" cy="1128" rx="429.0" ry="22" fill="none" stroke="#E4C889" stroke-opacity=".55" stroke-width="1.5"/>
- <ellipse cx="540" cy="1128" rx="421.0" ry="17" fill="none" stroke="#F4F0E8" stroke-opacity=".14" stroke-width="6" filter="url(#sgb)"/>
- <path d="M62 584 A478 34 0 0 1 1018 584 L912 1760 A372 27.2 0 0 1 168 1760 Z" fill="url(#sgw)"/>
- <path d="M62 584 L168 1760 M1018 584 L912 1760" stroke="#E4C889" stroke-width="2" fill="none"/>
- <ellipse cx="540" cy="584" rx="478" ry="34" fill="none" stroke="#E4C889" stroke-width="2"/>
- <ellipse cx="540" cy="593" rx="468" ry="28" fill="none" stroke="#E4C889" stroke-opacity=".35" stroke-width="1"/>
- <path d="M168 1760 A372 27.2 0 0 0 912 1760" stroke="#E4C889" stroke-width="2" fill="none"/>
- <path d="M174 1800 A366 27.2 0 0 0 906 1800" stroke="#E4C889" stroke-opacity=".6" stroke-width="1.5" fill="none"/>
+ <path d="M87.9 1124 A452.1 20 0 0 0 992.1 1124 L936 1760 A396 19.2 0 0 1 144 1760 Z" fill="url(#sgg)" fill-opacity=".97"/>
+ <g><path d="M99.3 1134.5 L153.9 1764.3" stroke="#F4F0E8" stroke-opacity="0.12" stroke-width="1.2"/><path d="M132.7 1138.7 L183.2 1768.3" stroke="#F4F0E8" stroke-opacity="0.14" stroke-width="1.2"/><path d="M186.6 1142.5 L230.4 1772.0" stroke="#F4F0E8" stroke-opacity="0.16" stroke-width="1.2"/><path d="M258.1 1145.6 L293.1 1775.0" stroke="#F4F0E8" stroke-opacity="0.18" stroke-width="1.2"/><path d="M343.9 1148.0 L368.2 1777.3" stroke="#F4F0E8" stroke-opacity="0.19" stroke-width="1.2"/><path d="M439.4 1149.5 L451.9 1778.7" stroke="#F4F0E8" stroke-opacity="0.20" stroke-width="1.2"/><path d="M540.0 1150.0 L540.0 1779.2" stroke="#F4F0E8" stroke-opacity="0.20" stroke-width="1.2"/><path d="M640.6 1149.5 L628.1 1778.7" stroke="#F4F0E8" stroke-opacity="0.20" stroke-width="1.2"/><path d="M736.1 1148.0 L711.8 1777.3" stroke="#F4F0E8" stroke-opacity="0.19" stroke-width="1.2"/><path d="M821.9 1145.6 L786.9 1775.0" stroke="#F4F0E8" stroke-opacity="0.18" stroke-width="1.2"/><path d="M893.4 1142.5 L849.6 1772.0" stroke="#F4F0E8" stroke-opacity="0.16" stroke-width="1.2"/><path d="M947.3 1138.7 L896.8 1768.3" stroke="#F4F0E8" stroke-opacity="0.14" stroke-width="1.2"/><path d="M980.7 1134.5 L926.1 1764.3" stroke="#F4F0E8" stroke-opacity="0.12" stroke-width="1.2"/></g>
+ <ellipse cx="540" cy="1124" rx="452.1" ry="20" fill="none" stroke="#E4C889" stroke-opacity=".55" stroke-width="1.5"/>
+ <ellipse cx="540" cy="1124" rx="444.1" ry="15" fill="none" stroke="#F4F0E8" stroke-opacity=".14" stroke-width="6" filter="url(#sgb)"/>
+ <path d="M40 580 A500 24 0 0 1 1040 580 L936 1760 A396 19.2 0 0 1 144 1760 Z" fill="url(#sgw)"/>
+ <path d="M40 580 L144 1760 M1040 580 L936 1760" stroke="#E4C889" stroke-width="2" fill="none"/>
+ <ellipse cx="540" cy="580" rx="500" ry="24" fill="none" stroke="#E4C889" stroke-width="2"/>
+ <path d="M144 1760 A396 19.2 0 0 0 936 1760" stroke="#E4C889" stroke-width="2" fill="none"/>
+ <path d="M150 1800 A390 19.2 0 0 0 930 1800" stroke="#E4C889" stroke-opacity=".6" stroke-width="1.5" fill="none"/>
 </svg>
 <svg class="lens" viewBox="0 0 1080 1920" width="1080" height="1920" aria-hidden="true">
  <defs>
@@ -100,13 +107,13 @@
  <text class="ins" font-size="26" letter-spacing="2.4"><textPath href="#sV3bp" startOffset="50%" text-anchor="middle">TIGER EYE ACTUAL 11.8 MM</textPath></text>
 </svg>
 <p class="rail" style="left:0;right:0;text-align:center;top:274px">Chai counter · 1:05 AM · Inspection 2 of 10</p>
-<div class="chart ctr" style="top:316px">
- <div class="row"><span class="acu" style="bottom:14px">6/60</span><span class="h1" style="font-size:90px">Yeh brown wala</span></div>
- <div class="row"><span class="acu" style="bottom:10px">6/36</span><span class="h1" style="font-size:68px">kaunsa hai?</span></div>
+<div class="chart ctr" style="top:312px">
+ <div class="row"><span class="acu" style="bottom:14px">6/60</span><span class="h1" style="font-size:86px">Yeh brown wala</span></div>
+ <div class="row"><span class="acu" style="bottom:10px">6/36</span><span class="h1" style="font-size:66px">kaunsa hai?</span></div>
 </div>
-<div class="bar" style="left:0px;top:494px;left:50%;transform:translateX(-50%)"><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="#894B20" stroke="#E4C889" stroke-width="1.5"/></svg><span>Chai</span><svg class="cl" width="10" height="34" viewBox="0 0 10 34"><g fill="#E4C889"><circle cx="5" cy="11" r="2.6"/><circle cx="5" cy="23" r="2.6"/></g></svg><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="rgba(244,240,232,.05)" stroke="#E4C889" stroke-width="1.5"/></svg><span>Glass</span><svg class="cl dbl" width="30" height="34" viewBox="0 0 30 34"><g fill="#E4C889"><circle cx="7" cy="11" r="2.8"/><circle cx="7" cy="23" r="2.8"/><circle cx="21" cy="11" r="2.8"/><circle cx="21" cy="23" r="2.8"/></g></svg><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="#884E0A" stroke="#E4C889" stroke-width="1.5"/></svg><span>Tiger eye</span><svg class="cl" width="10" height="34" viewBox="0 0 10 34"><g fill="#E4C889"><circle cx="5" cy="11" r="2.6"/><circle cx="5" cy="23" r="2.6"/></g></svg><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="rgba(244,240,232,.05)" stroke="#E4C889" stroke-width="1.5"/></svg><span>Crystal</span></div>
-<div class="cc" style="top:1146px">
- <div class="np"><span class="price" style="font-size:60px">₹899</span><div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
- <div class="trust" style="margin-top:18px"><span style="font-size:26px;font-weight:600;letter-spacing:.2em">Halo Curve Ring</span> · Free insured shipping · Cash on delivery</div>
+<div class="bar" style="left:0px;top:482px;left:50%;transform:translateX(-50%)"><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="#894B20" stroke="#E4C889" stroke-width="1.5"/></svg><span>Chai</span><svg class="cl" width="10" height="34" viewBox="0 0 10 34"><g fill="#E4C889"><circle cx="5" cy="11" r="2.6"/><circle cx="5" cy="23" r="2.6"/></g></svg><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="rgba(244,240,232,.05)" stroke="#E4C889" stroke-width="1.5"/></svg><span>Glass</span><svg class="cl dbl" width="30" height="34" viewBox="0 0 30 34"><g fill="#E4C889"><circle cx="7" cy="11" r="2.8"/><circle cx="7" cy="23" r="2.8"/><circle cx="21" cy="11" r="2.8"/><circle cx="21" cy="23" r="2.8"/></g></svg><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="#884E0A" stroke="#E4C889" stroke-width="1.5"/></svg><span>Tiger eye</span><svg class="cl" width="10" height="34" viewBox="0 0 10 34"><g fill="#E4C889"><circle cx="5" cy="11" r="2.6"/><circle cx="5" cy="23" r="2.6"/></g></svg><svg class="chip" width="24" height="24" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="7" fill="rgba(244,240,232,.05)" stroke="#E4C889" stroke-width="1.5"/></svg><span>Crystal</span></div>
+<div class="sc" style="top:1134px">
+ <div class="r1"><span class="price">₹899</span><div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
+ <div class="r2"><img class="wm" src="../../../ads-500/kit/logo_white.png"><div class="st"><div class="nm">Halo Curve Ring</div><div class="trust">Free insured shipping · Cash on delivery</div></div></div>
 </div>
 </body></html>

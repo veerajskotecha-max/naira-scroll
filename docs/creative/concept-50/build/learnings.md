@@ -55,3 +55,6 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
     reference exactly. Every Toggle Link Chain take A is therefore `gpt_image_2_6` quality **high** 2k (2.75 credits) with all
     three references (packshot, clasp close-up, worn scale photo), the clasp seen flat-on and large enough to read, and the
     exact clasp sentence from lesson 8. The redo stays seedream_v5_pro with the same three references.
+16. **Credits (20 Nov, 20:05 UTC: 110 left).** From the b-batches on: no hedge takes (the scale references replace them),
+    redos on `gpt_image_2_6` medium (1 credit) unless the product card's "shootModel" says otherwise. Spend credits on
+    the 50 b-batch ads and the held rescues first; Kling clips only with what is left at the end.
