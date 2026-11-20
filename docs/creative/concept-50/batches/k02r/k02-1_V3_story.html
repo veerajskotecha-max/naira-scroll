@@ -6,72 +6,53 @@ draft
  body { background: #140D0B; }
  svg.fx { position: absolute; left: 0; top: 0; width: 1080px; pointer-events: none; overflow: visible; }
  svg.scr { mix-blend-mode: screen; }
+ .vf { fill: none; stroke: var(--bone); stroke-width: 2; stroke-opacity: .92; }
+ .af { fill: none; stroke: var(--bone); stroke-width: 2; filter: drop-shadow(1.5px 1.5px 0 rgba(26,22,20,.6)); }
+ /* the OSD: blocky VCR type, bone with a hard ink shadow */
  .osd { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
- .osd .rec { display: flex; align-items: center; gap: 14px; font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 1; }
- .osd .rec svg { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
- .osd .tape { margin-top: 12px; font-weight: 400; font-size: 26px; letter-spacing: .14em; line-height: 1; }
+ .osd .rec { display: flex; align-items: center; gap: 12px; font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 30px; height: 30px; }
+ .osd .dot { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
+ .osd .tape { margin-top: 14px; font-weight: 400; font-size: 26px; letter-spacing: .14em; line-height: 26px; }
  .bug { position: absolute; right: 72px; height: 56px; opacity: .88; }
- .super { position: absolute; margin: 0; font-family: var(--display); text-transform: uppercase; font-weight: 400; line-height: .96;
+ /* the title super: Velista caps, gold-light fill, a 1.5 px bone outline (3 px stroke painted under the fill), cocoa drop */
+ .super { position: absolute; margin: 0; font-family: var(--display); text-transform: uppercase; font-weight: 400;
           letter-spacing: .04em; color: var(--gold-light); white-space: nowrap; font-variant-ligatures: none;
-          font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
+          font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0; font-kerning: normal;
           -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
- .super .fs { display: inline-block; width: .42em; height: .42em; vertical-align: baseline; margin-left: .03em; overflow: visible;
-              filter: drop-shadow(0 6px 10px rgba(59,38,32,.7)); }
- .sub { position: absolute; margin: 0; font-family: var(--serif); font-style: italic; font-weight: 500; color: var(--bone);
-        line-height: 1.1; white-space: nowrap; text-shadow: 0 2px 12px rgba(20,13,11,.55); }
+ .super .ln { display: block; }
+ .super .fs { display: inline-block; vertical-align: baseline; overflow: visible; filter: drop-shadow(0 6px 10px rgba(59,38,32,.7)); }
+ .beat { position: absolute; margin: 0; font-family: var(--serif); font-style: italic; font-weight: 500; color: var(--bone);
+         line-height: 1.12; white-space: nowrap; text-shadow: 0 2px 10px rgba(20,13,11,.6); }
+ .beat em { font-style: italic; color: var(--gold-light); }
+ .scrim { position: absolute; pointer-events: none; }
+ /* the lower third: a 90s name super, cocoa at 94% under a 2 px gold-light rule */
  .l3 { position: absolute; left: 0; right: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
- .l3 .in { position: absolute; left: 72px; right: 72px; }
- .l3 .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; color: var(--bone);
-             white-space: nowrap; line-height: 1; }
- .l3 .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; color: var(--bone); white-space: nowrap; line-height: 1.15; }
- .l3 .price { position: absolute; right: 0; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 1; color: var(--gold-light);
-              white-space: nowrap; font-variant-numeric: lining-nums; }
- .l3 .offer { color: var(--bone); white-space: nowrap; padding: 13px 22px; line-height: 1; }
- .l3 .trust { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; color: var(--bone);
-              white-space: nowrap; line-height: 1; }
+ .ft { position: absolute; left: 72px; right: 72px; color: var(--bone); }
+ .ft > * { position: absolute; white-space: nowrap; }
+ .ft .name { left: 0; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; line-height: 26px; }
+ .ft .line { left: 0; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 26px; }
+ .ft .price { right: 0; font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 72px; color: var(--gold-light);
+              font-variant-numeric: lining-nums; letter-spacing: .005em; }
+ .ft .offer { left: 0; right: 0; text-align: center; color: var(--bone); padding: 15px 0; line-height: 26px; border-width: 2px; }
+ .ft .trust { left: 0; right: 0; text-align: center; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em;
+              text-transform: uppercase; line-height: 26px; }
+ .ft .trust .dia, .ft .offer .sep { display: inline-block; width: 9px; height: 9px; background: var(--gold-light); transform: rotate(45deg);
+              vertical-align: middle; margin: -4px 20px 0 14px; }
 
- .fr { position: absolute; left: 72px; right: 72px; }
- .fr > * { position: absolute; left: 0; }
- .fr .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; color: var(--bone);
-             white-space: nowrap; line-height: 26px; }
- .fr .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; color: var(--bone); white-space: nowrap; line-height: 30px; }
- .fr .offer { color: var(--bone); white-space: nowrap; padding: 13px 22px; line-height: 26px; }
- .fr .price { left: auto; right: 0; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light);
-              white-space: nowrap; font-variant-numeric: lining-nums; }
- .fr .trust { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; color: var(--bone);
-              white-space: nowrap; line-height: 26px; }
-
- body { background: #0E0A09; }
- .bar { position: absolute; left: 0; right: 0; background: #0E0A09; }
- .t { left: 72px; font-size: 132px; line-height: .9; letter-spacing: .03em; text-shadow: none; }
- .sub { text-shadow: none; }
- .cc { position: absolute; left: 0; right: 0; text-align: center; font-size: 40px; }
+ .pic { object-position: 50% 50%; }
+ .edge { fill: none; stroke: var(--gold-light); stroke-width: 2; }
+ .t { left: 72px; font-size: 96px; line-height: 88px; text-shadow: none; }
+ .b { left: 72px; font-size: 44px; text-shadow: none; }
  .rule { position: absolute; left: 72px; right: 72px; height: 2px; background: var(--gold-light); }
- .ft { position: absolute; left: 72px; right: 72px; border-top: 2px solid var(--gold-light); }
- .ft .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; color: var(--bone);
-             white-space: nowrap; line-height: 1; }
- .ft .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; color: var(--bone); white-space: nowrap; line-height: 1.15; }
- .ft .price { position: absolute; right: 0; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 1; color: var(--gold-light);
-              white-space: nowrap; font-variant-numeric: lining-nums; }
- .ft .offer { color: var(--bone); white-space: nowrap; padding: 13px 22px; line-height: 1; }
- .ft .trust { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; color: var(--bone);
-              white-space: nowrap; line-height: 1; }
-
- .t { top: 376px; font-size: 136px; }
- .cc { top: 704px; text-align: right; left: auto; right: 364px; }
- .l3 { position: absolute; left: 0; right: 0; top: 1010px; height: 240px; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
- .l3 .ft { border-top: none; }
- .cutline { position: absolute; left: 0; right: 0; height: 2px; background: var(--gold-light); }
 </style></head>
 <body class="dark story">
 <img class="pic" src="pics/k02-1A.png">
-<div class="bar" style="top:0;height:668px"></div><div class="cutline" style="top:666px"></div>
-<svg class="fx" viewBox="0 0 1080 1920" height="1920"><path d="M40 730 V690 H80 M1040 730 V690 H1000 M40 1254 V1294 H80 M1040 1254 V1294 H1000" fill="none" stroke="#F4F0E8" stroke-width="2" stroke-opacity=".92"/></svg>
-<div class="osd" style="top:277px"><div class="rec"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
-<img class="bug" style="top:274px" src="../../../ads-500/kit/logo_white.png">
-<p class="super t">The star<br>filter<svg class="fs" viewBox="-20 -20 40 40" aria-hidden="true"><g transform="rotate(22)"><path d="M0.00 -19.00 Q2.20 -2.20 19.00 0.00 Q2.20 2.20 0.00 19.00 Q-2.20 2.20 -19.00 0.00 Q-2.20 -2.20 0.00 -19.00Z" fill="#E4C889" stroke="#F4F0E8" stroke-width="1.6" paint-order="stroke"/></g></svg></p>
-<svg class="fx scr tw" viewBox="0 0 1080 1920" height="1920"><defs><radialGradient id="bloom"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/><stop offset=".3" stop-color="#FFF1CF" stop-opacity=".5"/><stop offset="1" stop-color="#E4C889" stop-opacity="0"/></radialGradient><linearGradient id="rayH" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#FFF3D6" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFF3D6" stop-opacity="0"/></linearGradient><linearGradient id="rayV" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#FFF3D6" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFF3D6" stop-opacity="0"/></linearGradient><filter id="glow" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="4.5"/></filter><filter id="soft" x="-2" y="-2" width="5" height="5"><feGaussianBlur stdDeviation="1.6"/></filter></defs><g transform="translate(560.0 381.0) rotate(22)" opacity="1.00"><circle r="30.0" fill="url(#bloom)"/><path d="M-45.0 0 L0 -9.0 L45.0 0 L0 9.0 Z" fill="url(#rayH)" filter="url(#glow)"/><path d="M0 -45.0 L9.0 0 L0 45.0 L-9.0 0 Z" fill="url(#rayV)" filter="url(#glow)"/><path d="M-50.0 0 L0 -3.8 L50.0 0 L0 3.8 Z" fill="url(#rayH)"/><path d="M0 -50.0 L3.8 0 L0 50.0 L-3.8 0 Z" fill="url(#rayV)"/><circle r="5.5" fill="#FFFFFF" filter="url(#soft)"/></g><g transform="translate(77.0 380.0) rotate(22)" opacity="1.00"><circle r="18.0" fill="url(#bloom)"/><path d="M-27.0 0 L0 -5.8 L27.0 0 L0 5.8 Z" fill="url(#rayH)" filter="url(#glow)"/><path d="M0 -27.0 L5.8 0 L0 27.0 L-5.8 0 Z" fill="url(#rayV)" filter="url(#glow)"/><path d="M-30.0 0 L0 -2.4 L30.0 0 L0 2.4 Z" fill="url(#rayH)"/><path d="M0 -30.0 L2.4 0 L0 30.0 L-2.4 0 Z" fill="url(#rayV)"/><circle r="3.3" fill="#FFFFFF" filter="url(#soft)"/></g><g transform="translate(396.0 502.0) rotate(22)" opacity="1.00"><circle r="12.6" fill="url(#bloom)"/><path d="M-18.9 0 L0 -5.8 L18.9 0 L0 5.8 Z" fill="url(#rayH)" filter="url(#glow)"/><path d="M0 -18.9 L5.8 0 L0 18.9 L-5.8 0 Z" fill="url(#rayV)" filter="url(#glow)"/><path d="M-21.0 0 L0 -2.4 L21.0 0 L0 2.4 Z" fill="url(#rayH)"/><path d="M0 -21.0 L2.4 0 L0 21.0 L-2.4 0 Z" fill="url(#rayV)"/><circle r="3.0" fill="#FFFFFF" filter="url(#soft)"/></g></svg>
-<p class="sub cc">In 1996 he added the stars.<br>This season, bring your own.</p>
-<div class="l3"></div>
-<div class="fr" style="top:1010px"><div class="name" style="top:28px">Quatrefoil Éclat Studs</div><div class="line" style="top:66px">Four pear-cut stones, pavé outline · 18k gold tone · 15 mm tip to tip</div><div class="offer" style="top:110px">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div><div class="price" style="top:106px">₹1,099</div><div class="trust" style="top:182px">Free insured shipping · Cash on delivery</div></div>
+<svg class="fx" viewBox="0 0 1080 1920" height="1920" aria-hidden="true"><defs><clipPath id="above"><rect width="1080" height="990"/></clipPath><mask id="win"><rect width="1080" height="1920" fill="#fff"/><path d="M0.00 -720.00 Q216.00 -216.00 720.00 0.00 Q216.00 216.00 0.00 720.00 Q-216.00 216.00 -720.00 0.00 Q-216.00 -216.00 0.00 -720.00Z" transform="translate(910.4 812.5) rotate(22)" fill="#000" clip-path="url(#above)"/></mask></defs><rect width="1080" height="1920" fill="#1A1614" mask="url(#win)"/><g clip-path="url(#above)"><path d="M0.00 -720.00 Q216.00 -216.00 720.00 0.00 Q216.00 216.00 0.00 720.00 Q-216.00 216.00 -720.00 0.00 Q-216.00 -216.00 0.00 -720.00Z" transform="translate(910.4 812.5) rotate(22)" class="edge"/></g></svg>
+<svg class="fx" viewBox="0 0 1080 1318" height="1318" aria-hidden="true"><path class="vf" d="M40 290 V250 H80 M1040 290 V250 H1000 M40 1230 V1270 H80 M1040 1230 V1270 H1000"/></svg>
+<div class="osd" style="top:277px"><div class="rec"><svg class="dot" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
+<img class="bug" style="top:270px" src="../../../ads-500/kit/logo_white.png">
+<p class="super t" style="top:380px"><span class="ln">The star</span><span class="ln">Filter<svg class="fs" viewBox="-20 -20 40 40" style="width:38px;height:38px" aria-hidden="true"><g transform="rotate(22)"><path d="M0.00 -19.00 Q1.90 -1.90 19.00 0.00 Q1.90 1.90 0.00 19.00 Q-1.90 1.90 -19.00 0.00 Q-1.90 -1.90 0.00 -19.00Z" fill="#E4C889" stroke="#F4F0E8" stroke-width="3.16" paint-order="stroke" stroke-linejoin="round"/></g></svg></span></p>
+<p class="beat b" style="top:580px">In 1996 he added the stars.<br>This season, <em>bring your own.</em></p>
+<div class="rule" style="top:1010px"></div>
+<div class="ft" style="top:1010px"><div class="name" style="top:28px">Quatrefoil Éclat Studs</div><div class="line" style="top:70px">Four pear-cut stones · pavé outline · 15 mm tip to tip</div><div class="price" style="top:36px">₹1,099</div><div class="offer" style="top:110px">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div><div class="trust" style="top:190px">Free insured shipping <span class="dia"></span> Cash on delivery</div></div>
 </body></html>
