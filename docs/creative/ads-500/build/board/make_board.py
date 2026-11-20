@@ -3,7 +3,8 @@
 Usage: python3 -I make_board.py <out_dir>
   <out_dir>/index.html   the board page (published as an Artifact; images beside it in img/)
   <out_dir>/img/         web copies of every shipped Feed (540 px wide) and Story (405 px wide) JPG
-  ../meta_upload.csv     one row per shipped ad, the fields Meta asks for (nothing is uploaded); a headline variant's
+  ../meta_upload.csv     one row per shipped ad, the fields Meta asks for (nothing is uploaded), with the batch critics'
+                         mean (score_mean) and the fresh audit mean (audit_mean); a headline variant's
                          row names its ad in variant_of (upload it as a second creative in that ad, not as a new ad)
 Only ledger rows whose verdict starts with "ship" go on the board. Pictures are never edited; the web copies are
 plain downscales of the finished ad JPGs.
@@ -41,6 +42,7 @@ def web_copy(src, dst, width):
 
 
 ANCHOR_NAMES = {'win_static_hoops_apricot': 'apricot hoops', 'win_twenty_f2_tennis_ruby': 'F2 tennis',
+                'lose_p2_proof_parody': 'p2', 'lose_sa08_walls': 'sa08',
                 'win_vkf18_prism_cluster': 'vkf18 Prism'}
 ads, held = [], []
 for r in ledger:
@@ -59,6 +61,7 @@ for r in ledger:
     elif isinstance(wb, list):
         wb = ', '.join(wb)
     mean = round((a + b) / 2, 2) if isinstance(a, (int, float)) and isinstance(b, (int, float)) else None
+    au, cb = r.get('audit') or {}, r.get('cleanBlind') or {}
     feed_src, story_src = os.path.join(ROOT, r['feed']), os.path.join(ROOT, r['story'])
     web_copy(feed_src, os.path.join(OUT, 'img', r['id'] + '_feed.jpg'), 540)
     web_copy(story_src, os.path.join(OUT, 'img', r['id'] + '_story.jpg'), 405)
@@ -72,6 +75,9 @@ for r in ledger:
         'headline': head or '', 'beat': on.get('beat') or '', 'cardLine': on.get('cardLine') or '',
         'offer': on.get('offer') or '', 'sizeTag': short(on.get('sizeTag') or '', 70),
         'A': a, 'B': b, 'mean': mean, 'beatsLoser': bool(r.get('beatsLoser')),
+        'auditA': au.get('A'), 'auditB': au.get('B'),
+        'auditMean': round(au['mean'], 2) if isinstance(au.get('mean'), (int, float)) else None,
+        'thumb': cb.get('thumbMean'),
         'beatsWinner': bool(r.get('beatsWinner')), 'beatsWinnerBy': wb or '',
         'variantOf': r.get('variantOf') or '',
         'verdict': short(v, 160),
@@ -84,24 +90,26 @@ for r in ledger:
 # Meta upload sheet (repo copy)
 csv_path = os.path.join(ROOT, 'build', 'meta_upload.csv')
 cols = ['ad_name', 'feed_image_1080x1350', 'story_image_1080x1920', 'primary_text', 'headline', 'description',
-        'call_to_action', 'website_url', 'product', 'price', 'score_mean', 'variant_of']
+        'call_to_action', 'website_url', 'product', 'price', 'score_mean', 'audit_mean', 'variant_of']
 with open(csv_path, 'w', newline='', encoding='utf-8') as f:
     w = csv.writer(f)
     w.writerow(cols)
     for x in ads:
         w.writerow(['NAIRA_ads500_' + x['id'] + '_' + x['handle'], 'docs/creative/ads-500/' + x['feedFile'],
                     'docs/creative/ads-500/' + x['storyFile'], x['primaryText'], x['metaHeadline'], x['description'],
-                    x['cta'], x['url'], x['product'], x['price'], x['mean'], x['variantOf']])
+                    x['cta'], x['url'], x['product'], x['price'], x['mean'], x['auditMean'], x['variantOf']])
 
 pictures = len(glob.glob(os.path.join(ROOT, 'batches', 'b0*', 'pics', 'b0*.png')))
 batches = sorted({x['batch'] for x in ads} | {h['batch'] for h in held})
 main = [x for x in ads if not x['variantOf']]        # a headline variant is a second creative of its ad (RULINGS §1.3)
 means = [x['mean'] for x in main if x['mean'] is not None]
-best = max(main, key=lambda x: x['mean'] or 0) if main else None
+audits = [x['auditMean'] for x in main if x['auditMean'] is not None]
+best = max(main, key=lambda x: (x['auditMean'] if x['auditMean'] is not None else x['mean']) or 0) if main else None
 stats = {'ads': len(main), 'variants': len(ads) - len(main), 'pictures': pictures, 'credits': pictures * 2,
          'batches': len(batches),
          'mean': round(sum(means) / len(means), 2) if means else None,
-         'best': best and {'id': best['id'], 'product': best['product'], 'mean': best['mean']},
+         'auditMean': round(sum(audits) / len(audits), 2) if audits else None,
+         'best': best and {'id': best['id'], 'product': best['product'], 'mean': best['mean'], 'auditMean': best['auditMean']},
          'batchList': batches}
 
 velista = base64.b64encode(open(os.path.join(ROOT, 'kit', 'fonts', 'Velista.ttf'), 'rb').read()).decode()
@@ -110,4 +118,5 @@ data = json.dumps({'ads': ads, 'held': held, 'stats': stats}, ensure_ascii=False
 page = tpl.replace('__VELISTA__', velista).replace('__DATA__', data)
 open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(page)
 print(json.dumps({'ads': len(main), 'variants': len(ads) - len(main), 'held': len(held), 'pictures': pictures, 'csv': os.path.relpath(csv_path, ROOT),
+                  'mean': stats['mean'], 'auditMean': stats['auditMean'], 'best': stats['best'],
                   'page_kb': round(os.path.getsize(os.path.join(OUT, 'index.html')) / 1024)}))

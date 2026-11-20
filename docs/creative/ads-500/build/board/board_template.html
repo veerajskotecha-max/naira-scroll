@@ -119,7 +119,7 @@ textarea.fallback { width: 100%; min-height: 120px; font: 12px/1.4 ui-monospace,
           </select>
         </label>
       </div>
-      <p style="margin:6px 0 18px;color:var(--muted);max-width:72ch">Each ad was scored blind by two critics on the 1–10 rubric (A: creative director; B: product truth and compliance), weighted as in the playbook. Switch any card between its Feed (1080 × 1350) and Story (1080 × 1920) version.</p>
+      <p style="margin:6px 0 18px;color:var(--muted);max-width:72ch">Three scores of 10 per ad. <b>Fresh audit</b>: two new critics (A: creative director; B: product truth and compliance), each run twice, scored every ad alone under a neutral code on the playbook's weighted rubric. <b>Batch critics</b>: the scores each ad shipped with. <b>Blind 200 px</b>: four fresh critics scored coded thumbnails beside our tested winning and losing ads without knowing which was which. Switch any card between its Feed (1080 × 1350) and Story (1080 × 1920) version.</p>
       <div class="grid" id="grid"></div>
     </section>
 
@@ -149,9 +149,9 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '
 const fmt = n => (typeof n === 'number' ? n.toFixed(2) : '–');
 const S = DATA.stats;
 
-$('#lede').textContent = `Every ad here was made from its own new Higgsfield picture of an in-stock piece (20 or more units), checked against the real product for construction and true size, laid out in the Naira kit, and passed by both critics. ${S.ads} ads are ready from ${S.pictures} pictures${S.variants ? `, plus ${S.variants} headline ${S.variants === 1 ? 'variant' : 'variants'} to split-test against ${S.variants === 1 ? 'its ad' : 'their ads'}` : ''}.`;
+$('#lede').textContent = `Every ad here was made from its own new Higgsfield picture of an in-stock piece (20 or more units), checked against the real product for construction and true size, laid out in the Naira kit, passed by both batch critics, then re-checked by a fresh blind audit. ${S.ads} ads are ready from ${S.pictures} pictures${S.variants ? `, plus ${S.variants} headline ${S.variants === 1 ? 'variant' : 'variants'} to split-test against ${S.variants === 1 ? 'its ad' : 'their ads'}` : ''}.`;
 $('#stats').innerHTML = [
-  [S.ads, 'Ads ready'], ...(S.variants ? [[S.variants, 'Headline variants']] : []), [S.pictures, 'Pictures made'], [fmt(S.mean), 'Mean score of 10'], [S.batches, 'Batches'],
+  [S.ads, 'Ads ready'], ...(S.variants ? [[S.variants, 'Headline variants']] : []), [S.pictures, 'Pictures made'], ...(S.auditMean != null ? [[fmt(S.auditMean), 'Fresh audit mean']] : []), [fmt(S.mean), 'Batch critics mean'], [S.batches, 'Batches'],
 ].map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('');
 
 let state = { batch: 'all', sort: 'batch' };
@@ -171,7 +171,7 @@ $('#sort').addEventListener('change', e => { state.sort = e.target.value; save()
 
 const bar = v => `<span class="track"><i style="width:${typeof v === 'number' ? Math.max(0, Math.min(100, v * 10)) : 0}%"></i></span>`;
 function card(a) {
-  const winBy = a.beatsWinnerBy ? `<p class="winby">Against our winning ads: ${esc(a.beatsWinnerBy)}</p>` : '';
+  const winBy = a.beatsWinnerBy ? `<p class="winby">Blind 200 px against our winning ads: ${esc(a.beatsWinnerBy)}</p>` : '';
   const on = [a.headline, a.beat].filter(Boolean).map(esc).join('<br>');
   return `<article class="ad" data-id="${esc(a.id)}">
     <div class="shot">
@@ -185,13 +185,14 @@ function card(a) {
     <h3>${esc(a.product)}</h3>
     <div class="sub"><span class="price">${esc(a.price)}</span><span class="offer">${esc(a.offer)}</span></div>
     <div class="scores">
-      <span class="lab">Critic A</span>${bar(a.A)}<span>${fmt(a.A)}</span>
-      <span class="lab">Critic B</span>${bar(a.B)}<span>${fmt(a.B)}</span>
-      <span class="lab mean"><b>Mean</b></span><span class="mean">${bar(a.mean)}</span><span><b>${fmt(a.mean)}</b></span>
+      ${a.auditMean != null ? `<span class="lab mean"><b>Fresh audit</b></span><span class="mean">${bar(a.auditMean)}</span><span><b>${fmt(a.auditMean)}</b></span>` : ''}
+      <span class="lab">Batch critics</span>${bar(a.mean)}<span>${fmt(a.mean)}</span>
+      ${a.thumb != null ? `<span class="lab">Blind 200 px</span>${bar(a.thumb)}<span>${fmt(a.thumb)}</span>` : ''}
     </div>
+    <p class="winby">${a.auditMean != null ? `Fresh audit A ${fmt(a.auditA)} · B ${fmt(a.auditB)}. ` : ''}Batch critics A ${fmt(a.A)} · B ${fmt(a.B)}.</p>
     <div class="tags">
       ${a.beatsLoser ? '<span class="tag">Beats the loser anchor</span>' : ''}
-      ${a.beatsWinner ? '<span class="tag win">Beats a winning ad with both critics</span>' : ''}
+      ${a.beatsWinner ? '<span class="tag win">Beats a winning ad, blind</span>' : ''}
       ${a.variantOf ? `<span class="tag">Headline test of ${esc(a.variantOf)}</span>` : ''}
       ${a.sizeTag ? '<span class="tag">Size tag shown</span>' : ''}
     </div>
@@ -208,7 +209,7 @@ function card(a) {
 }
 function renderGrid() {
   let list = DATA.ads.filter(a => state.batch === 'all' || a.batch === state.batch);
-  if (state.sort === 'score') list = [...list].sort((x, y) => (y.mean || 0) - (x.mean || 0));
+  if (state.sort === 'score') list = [...list].sort((x, y) => ((y.auditMean ?? y.mean) || 0) - ((x.auditMean ?? x.mean) || 0));
   $('#grid').innerHTML = list.length ? list.map(card).join('') : '<p class="sub">No ready ads in this batch.</p>';
 }
 $('#grid').addEventListener('click', async e => {
@@ -233,9 +234,9 @@ $('#grid').addEventListener('click', async e => {
 
 const COLS = [['Ad name', a => `NAIRA_ads500_${a.id}_${a.handle}`], ['Feed image', a => a.feedFile], ['Story image', a => a.storyFile],
   ['Primary text', a => a.primaryText], ['Headline', a => a.metaHeadline], ['Description', a => a.description],
-  ['Call to action', a => a.cta], ['Website URL', a => a.url], ['Mean score', a => fmt(a.mean)]];
+  ['Call to action', a => a.cta], ['Website URL', a => a.url], ['Variant of', a => a.variantOf], ['Fresh audit mean', a => fmt(a.auditMean)]];
 $('#sheet').innerHTML = `<thead><tr>${COLS.map(c => `<th scope="col">${c[0]}</th>`).join('')}</tr></thead><tbody>${DATA.ads.map(a =>
-  `<tr>${COLS.map(([k, f]) => k.includes('image') || k === 'Website URL' ? `<td><code>${esc(f(a))}</code></td>` : `<td class="${k === 'Mean score' ? 'num' : ''}">${esc(f(a))}</td>`).join('')}</tr>`).join('')}</tbody>`;
+  `<tr>${COLS.map(([k, f]) => k.includes('image') || k === 'Website URL' ? `<td><code>${esc(f(a))}</code></td>` : `<td class="${k === 'Fresh audit mean' ? 'num' : ''}">${esc(f(a))}</td>`).join('')}</tr>`).join('')}</tbody>`;
 const tsv = () => [COLS.map(c => c[0]), ...DATA.ads.map(a => COLS.map(([, f]) => String(f(a)).replace(/[\t\n]/g, ' ')))].map(r => r.join('\t')).join('\n');
 $('#copysheet').addEventListener('click', async () => {
   try { await navigator.clipboard.writeText(tsv()); $('#sheetstatus').textContent = `Copied ${DATA.ads.length} rows. Paste into a spreadsheet.`; }
