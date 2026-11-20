@@ -1,0 +1,35 @@
+{
+  "handle": "petite-bow-studs",
+  "title": "Petite Bow Studs",
+  "price": 999,
+  "stock": 16,
+  "sku": "E17967C",
+  "preOrder": true,
+  "category": "Earrings (openwork lace bow studs with a heart-cut centre stone, post back, sold as 1 pair)",
+  "metal": "rhodium silver tone, bright high polish with milgrain-beaded edges. Every listing photo shows a cool white rhodium silver tone; the listing copy and the macro's alt text say '18K gold' / 'gold tone ribbon' (PVD 18K gold coating). Owner question open since Edition One (BRIEF.md, PLAN_V3.md, size-cards README): shoot rhodium silver tone, never gold.",
+  "lock": "2 mirror-image bow studs on posts, each 14 mm wide x about 10 mm tall: 1 clear heart-cut cubic zirconia (about 3.5 mm), point down, in 3 claws at the knot; 2 open teardrop loops and 2 uneven tails (one short, one long), each a single row of tiny clear stones (about 40 per stud), every outer edge trimmed with open milgrain-beaded scallops. Bright rhodium silver tone, high polish. The loops must stay open scalloped lace with see-through centres, never a smooth solid satin-ribbon bow.",
+  "morph": "The lace. An image model will smooth the open milgrain scallops into a plain glossy ribbon bow (Tiffany/Chanel-style), fill the see-through loop centres with solid pave, or make the 2 tails long symmetrical streamers. Next: the heart at the knot becomes a round stone or a metal knot; the metal turns gold (the listing copy and alt text say gold, and 'bow' + 'gift' prompts pull warm); scale grows into a statement bow wider than the earlobe.",
+  "sizeMm": "Bow 14 mm wide, give or take 1 mm (listing size guide, photo 06; same figure as the Edition One shoot and the 28 Oct size card). Height about 10 mm, estimated from the frontal worn photos 03 and 04 (height about 0.7 of width). Heart stone about 3.5 mm and the tiny stones well under 1 mm, estimated from the packshot ratio. Referents: about the size of a fingernail; worn, it sits on the lobe and is about as wide as the lobe itself (photo 04).",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/petite-bow-studs/02.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/petite-bow-studs/04.jpg"
+  ],
+  "mediaIds": [
+    "f2c4def7-b30c-46ee-9562-67421a411f96",
+    "c89bb84c-b420-4fb2-9d8c-9cd705301f58"
+  ],
+  "mediaIdSource": "Newly imported 2026-11-20 from the listing's Shopify CDN URLs (E17967C_1 = 02.jpg packshot, E17967C_3 = 04.jpg worn close). ads-500 products.md has no section for this handle. Edition One imported the same packshot and the macro (edition-one/build/media_ids.json: bow_1 = E17967C_1, bow_5 = E17967C_5 = 01.jpg); use bow_5 only for a construction-only macro slot, since the frame-filling macro pushes scale up.",
+  "claims": "NONE",
+  "variants": "1 variant: Default Title, stock 16, rhodium silver tone in every photo (no gold option exists, despite the copy). Show the pair, or 1 stud worn. Price is now Rs 999 (Edition One used Rs 1,399; stale).",
+  "story": "A bow and a heart in one tiny piece: the knot is a heart-cut stone, the ribbon is lace. It is the coquette bow trend made petite and wearable, at under Rs 1,000. What it rhymes with: the bow on a gift (it arrives as one, 'already wrapped'); the satin ribbons tied in two school plaits; the piped scallop border on a birthday cake and the paper doily under a box of mithai; a lace blouse trim or a cutwork saree border; a ballet pointe-shoe ribbon; a hair bow worn with it (the listing's own styling tip: a ribbon in your hair or a soft knit). The listing pitches it for every day and for a birthday.",
+  "copyNotes": "Use: bow, petite bow, lace, scalloped, openwork, heart-cut stone, a heart at the knot, clear cubic zirconia, rhodium silver tone, stud, one pair, 14 mm, under Rs 1,000, gift, birthday, pre-order. Avoid: 'gold', 'gold tone', '18K', 'PVD 18K gold coating', 'ribbon of gold' (the copy's metal does not match the piece), 'silver' alone or 'sterling silver', 'diamond', 'huggie', 'satin ribbon' for the metal, 'centre knot' without the heart, Rs 1,399 or any other price, any size other than 14 mm wide, and every claim: waterproof, tarnish free, anti-tarnish, sweat-proof, hypoallergenic (the copy says anti-tarnish and 'stands up to sweat', but there is no Waterproof, Tarnish Free or Hypoallergenic tag).",
+  "photos": [
+    {"file": "01.jpg", "shows": "Macro of 1 stud angled on cream plaster: the heart-cut stone in 3 claws, single rows of tiny stones on the loops and tails, milgrain-beaded open scallops on every outer edge. Rhodium silver tone. Best construction detail (alt text wrongly says gold); reads huge, so not used for scale."},
+    {"file": "02.jpg", "shows": "Packshot: the pair on a cream plaster cube, straight on. The studs mirror each other (each has one short and one long tail, long tails on the inner side); a post shows behind the right stud. Rhodium silver tone. Reference 1."},
+    {"file": "03.jpg", "shows": "Worn: chin, neck and shoulders of a model in a marigold satin camisole, 1 stud on the lobe. Rhodium silver tone. Scale reads right, but the piece is small in frame."},
+    {"file": "04.jpg", "shows": "Worn close: 1 stud on the lobe, three-quarter face, marigold strap. The lace edge, heart and tails are legible and the bow is about as wide as the lobe. Rhodium silver tone. Reference 2."},
+    {"file": "05.jpg", "shows": "The Naira Petite blush gift box under sheer organza. No product."},
+    {"file": "06.jpg", "shows": "Size guide: the packshot with a 14 mm bar, 'Bow 14 mm wide', give or take 1 mm. Rhodium silver tone. Scale evidence; text overlay, so not a generation reference. The description's embedded size-guide image is a duplicate (mean pixel difference about 1/255) and was not kept."}
+  ],
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, 6 images); edition-one/build/BRIEF.md, skus.json, frames.json, media_ids.json; edition-one/PLAN_V3.md; size-cards/cards.json and README.md. No entry in ads-500 products.md, concept-50 plan.json locks, ads-500 refs or concept-camps refs."
+}

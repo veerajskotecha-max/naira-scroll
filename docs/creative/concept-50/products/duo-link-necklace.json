@@ -1,0 +1,61 @@
+{
+  "handle": "duo-link-necklace",
+  "title": "Duo Link Necklace",
+  "price": 1099,
+  "compareAtPrice": 1579,
+  "stock": 17,
+  "sku": "YF8079-NEC",
+  "preOrder": false,
+  "category": "Necklace",
+  "metal": "Two-tone in one piece: 18k gold tone (PVD 18k gold coating) and rhodium silver tone (PVD rhodium coating), both on surgical stainless steel, polished to a high shine. The oval links alternate between the two tones. Every knot connector, the lobster clasp, the extender and its teardrop tip are 18k gold tone, so the piece reads as mostly warm with cool silver-tone beats.",
+  "lock": "A 41 cm collar chain of 17 elongated oval links, about 20 x 7 mm, round wire: 9 in 18k gold tone (1-2 rope-twisted, 1 at each end) and 8 in rhodium silver tone, alternating. Between every 2 links, 1 knot connector in 18k gold tone (16 total): a loop each side, 2 stacked rings mid. 18k gold tone lobster clasp, 5 cm extender, teardrop tip. Must stay separate oval links each joined by an 18k gold tone knot connector, never links hooked straight into one another like a plain paperclip chain.",
+  "morph": "The knot connectors. A model will most likely drop the loop + 2 stacked rings + loop between links and hook the oval links straight into each other, which makes a generic paperclip chain. It may also shrink the connectors to thin jump rings or turn them into round beads or a bar. Second risk is the two-tone pattern. Models drift to one metal, or warm light turns the rhodium silver tone links pale gold. They also break the alternation into random runs; hero photo 01 already has 2 silver-tone links side by side and 2 gold-tone links together at the extender end. Models also recolour the connectors or the clasp silver tone. Third risk: models multiply the rope-twisted links or drop them, or thicken the links into a chunky curb or cable chain. The chain has no pendant and no stones, so do not let one be added.",
+  "sizeMm": "Listed: chain 410 mm plus a 50 mm extender (size guide card: '41 + 5 cm · 7 mm links', give or take 1 mm). Oval links are about 20 mm long x 7 mm wide, and the piece weighs about 21.4 g. Estimated from photos 01 and 03: the wire is about 1.5-2 mm thick and round. Each knot connector runs about 8-10 mm end to end, and its 2 stacked rings are about 5 mm across. 17 links and 16 connectors make up the 41 cm. Referent: each link is about as long as a Rs 1 coin is wide (20 mm) and about as wide as a pencil (7 mm). On the body (worn photo 02), the chain sits at the base of the neck and rests on the collarbones like a collar, with about 8-9 links across the front. The worn photo is consistent with 20 mm links, but that is an estimate. The old Edition Two copy said 'about 45 cm' (and the E2 ad said '45 cm'). That is out of date: the live listing and the size guide say 41 + 5 cm.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/duo-link-necklace/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/duo-link-necklace/02.jpg"
+  ],
+  "mediaIds": [
+    "15c3d44e-a47a-4528-99b9-4d1fd03c5166",
+    "321f9752-f452-499a-9a1a-e4d09cebb385"
+  ],
+  "mediaIdSource": "Earlier research had nothing for this handle. ads-500/build/study/products.md has no section, concept-50/plan.json has no lock, and neither ads-500/build/refs nor concept-camps/build/refs has duo-link-necklace files. So both refs were imported fresh to Higgsfield from their Shopify CDN URLs on 2026-11-20. Ref 1 = listing image 01 (duo-link-necklace-hero.jpg), the full packshot on ivory plaster. It is the sharpest view of all 17 links, the 16 knot connectors, the clasp, the extender and the teardrop tip. Ref 2 = listing image 02 (22d589df... = Edition Two shot N14_W2), the worn close-up that shows scale at the collarbone. Optional third ref for connector close-ups: listing image 03 (e23e8a07... = N14_M macro), which was not imported. A further option is the supplier truth image: edition-two-listings/build/ref_ids.json key N14_link_necklace = d99d4749-f07e-4057-bfe9-b0b7f7c86ded, a crop of the owner's sample photo IMG_5644 (from Notion). It was not viewed in this session, so check it before relying on it.",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic (all 3 tagged). The care text backs the first 2: 'Waterproof and tarnish free, so daily wear and water are fine.' The details say 'PVD 18K gold and PVD rhodium coating, anti-tarnish', and that PVD 'stands up to sweat and keeps its colour much longer'. Hypoallergenic is in the tags only, so keep it to 'hypoallergenic surgical stainless steel'. Never say 'never tarnishes', 'lifetime colour', or 'nickel-free'.",
+  "variants": "1 variant: Default Title, stock 17, two-tone (18k gold tone + rhodium silver tone in one piece). Show it; every photo shows this variant. Companion piece: Duo Link Bracelet (same YF8079 chain), ACTIVE, Rs 999, stock 16. The necklace's styling tip names it.",
+  "story": "The no-choosing necklace: 'Gold and silver, in one line' (the listing's own opening). It answers the daily 'gold or silver today?' question and ties together a mixed ring stack. Its 16 small knots in 18k gold tone each bind a gold-tone link to a silver-tone one. That is a gathbandhan (the wedding knot that ties two garments together) repeated 16 times, or a wrist of rakhi knots worn at the throat. It rhymes with Ganga-Jamuni metalwork, silver inlaid in brass (already used in the E2 ad 'Both, obviously.'). It also rhymes with a jugalbandi, two instruments trading lines; dhoop-chhaon, sun and shade; and gur and cheeni (COLOUR50's bracelet line 'Gur ya cheeni? Dono.'). Further rhymes: a two-tone watch bracelet, a railway rake of coupled bogies, a ship's anchor chain, a day-and-night or sun-and-moon pairing. At 21.4 g and 7 mm wide it has real weight. It is a statement collar on its own, with no pendant needed, and it works over a knit or with a bare neckline. Commercial hooks: Rs 1,099 against a struck-through Rs 1,579 (about 30% off), only 17 in stock, and an easy set with the Rs 999 Duo Link Bracelet (Rs 2,098 for both).",
+  "copyNotes": "Use: 18k gold tone, rhodium silver tone, two-tone, PVD, surgical stainless steel, oval links, knot connectors / 'small stacked gold-tone rings', lobster clasp with extender, 41 cm + 5 cm, 20 mm links, 7 mm wide, 21.4 g, waterproof, tarnish free, hypoallergenic, 'Gold and silver, in one line', 'wear it with your gold and silver rings together', Duo Link Bracelet. Avoid: 'gold' or 'silver' alone as a material (say gold tone, silver tone), solid gold, sterling, 925, white gold, platinum, 'mixed metals' implying two base metals (it is one steel with 2 coatings). Do not call it a paperclip, curb, cable, rope or figaro chain. Also avoid pendant, charm, stones, cubic zirconia, diamond, huggie and choker; at 41 cm it is a collar length, so say 'sits at the collarbone'. Out-of-date facts to drop: 'about 45 cm' and Rs 1,799 (Edition Two launch copy and the E2 ad). Price: live Rs 1,099, compare-at Rs 1,579. Stock is 17, so scarcity is true but small; do not invent a 'last few' count. Never name or imitate designer brands, even though the knot-link look recalls famous house designs.",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "src": "duo-link-necklace-hero.jpg (alt: on ivory plaster, the full piece)",
+      "what": "Packshot. The whole necklace is laid in an oval on an ivory plaster slab over a blush-peach ground, with the clasp and extender at the top. It shows 17 links (9 in 18k gold tone, 2 of them rope-twisted; 8 in rhodium silver tone), 16 knot connectors in 18k gold tone, the lobster clasp, about 8 extender links and a teardrop tip. One deviation from the supplier photo: going round from the clasp, links 12 and 13 are both silver tone and links 16 and 17 are both gold tone, so the alternation breaks twice. It is probably a studio render; no repo record shows how it was made, and the Edition Two hero it replaced was a Higgsfield render. Reference 1."
+    },
+    {
+      "file": "02.jpg",
+      "src": "22d589df-... (Edition Two N14_W2; alt: worn, close detail)",
+      "what": "Worn close-up: chin to bust, a model in a mustard satin camisole against a beige wall. The chain sits at the base of the neck on the collarbones, with about 8-9 alternating links and their knot connectors across the front. Both tones read clearly. Approved Higgsfield render from the supplier ref. Reference 2 (scale)."
+    },
+    {
+      "file": "03.jpg",
+      "src": "e23e8a07-... (Edition Two N14_M; alt: macro detail)",
+      "what": "Macro on a plaster block, shallow focus. An 18k gold tone oval link, then a knot connector (a thick loop, 2 grooved stacked rings, a thick loop), then a rhodium silver tone oval link. This is the best view of the connector anatomy. Approved Higgsfield render. Optional third reference."
+    },
+    {
+      "file": "04.jpg",
+      "src": "naira-packaging-b14",
+      "what": "Packaging only: the blush NAIRA box under ivory organza. The piece is not shown."
+    },
+    {
+      "file": "05.jpg",
+      "src": "duo-link-necklace-size-guide.jpg",
+      "what": "Size guide card: '41 + 5 cm · 7 mm links'. The inset is the supplier's white-background photo with an '≈7mm/0.28in' width marker. It shows 17 links strictly alternating, 18k gold tone at both ends (9 gold tone, 8 silver tone), 1 clearly rope-twisted gold-tone link (upper left) and 16 knot connectors. It is the truth source for the sequence, but it is low-res and carries text, so do not use it as an image ref."
+    }
+  ],
+  "finish": "High-shine mirror polish on the links, connectors and clasp. 1-2 gold-tone links have a fine diagonal rope-twist texture. Silver-tone links should read cool grey-white, never warm.",
+  "sources": [
+    "Shopify Admin read 2026-11-20 (products handle:duo-link-necklace; variants with compareAtPrice; duo-link-bracelet price/stock)",
+    "edition-two-listings/build/products.json (N14), kit/listing.json, url_map.json, export_map.json, ref_ids.json",
+    "finished-ads/e2 (E2_duo_a1 'Both, obviously.', Rs 1,799, 45 cm)",
+    "performance/COLOUR50.md (Duo Link Bracelet: 'Gur ya cheeni? Dono.')"
+  ]
+}

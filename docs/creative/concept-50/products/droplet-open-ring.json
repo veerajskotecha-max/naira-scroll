@@ -1,0 +1,70 @@
+{
+  "handle": "droplet-open-ring",
+  "title": "Droplet Open Ring",
+  "price": 899,
+  "stock": 20,
+  "preOrder": false,
+  "category": "Ring (adjustable open ring with 2 different ends, 1 round ball and 1 teardrop, no stones, no setting; sold as 1 piece)",
+  "metal": "Two variants: 18k gold tone (PVD 18K gold coating) or rhodium silver tone (PVD rhodium coating), both over surgical stainless steel, anti-tarnish (listing). Finish: mirror polish all over, no texture, no stones, no engraving. Photos by metal: 01 and 02 are 18k gold tone, 03, 04 and 05 are rhodium silver tone, 07 (size guide) is the gold supplier photo. This card shoots rhodium silver tone.",
+  "lock": "1 adjustable open ring of slim round polished wire, no stones. 2 different ends sit side by side on top of the finger, almost touching: 1 round ball on a short flared neck, and 1 long smooth teardrop, 6.6 mm wide, its fat rounded end beside the ball. Rhodium silver tone, mirror polish. Must stay 1 ball beside 1 teardrop, never 2 matching ends or a closed band.",
+  "morph": "The teardrop end. Image models like symmetry, so they redraw it as a second ball (from the front the teardrop's fat end really does read as a ball: listing photo 05 nearly looks like 2 balls), or swing it round to face the ball point-first, curl its tip into a hook (the E2 silver hero did this), or blow it up to twice the ball. Second risk: the 2 ends pulled apart across a wide gap (they almost touch), or the gap closed into a plain band. Third: scale. The colour-50 ad 44 ('Raindrop, made silver.', 9.3) was flagged 'reads large' in REDO43. Also watch for an invented bezel, stone or pearl on the ball.",
+  "sizeMm": "Listed (description and size guide 07): teardrop about 6.6 mm at its widest; weight about 4.6 g; open, adjusts to fit US 5 to 9 (by the standard US chart that is about 15.7 to 18.9 mm inside); size guide says 'give or take 1 mm'. The ball size is not listed, so never print a ball mm. Estimated (not listed): from 01 and 02 the ball is about as wide as the teardrop's fat end; the teardrop is about twice as long as it is wide (about 12 mm with its taper); the wire is about 2 mm (photos plus the 4.6 g weight); the gap between ball and drop is under 1 mm. Body referent: both ends together sit across the top of 1 finger, about as wide as the finger; each end is about the size of a green pea, a little over half a fingernail wide. Worn photo 04 reads close to true (perhaps slightly generous); 05 reads true.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/droplet-open-ring/03.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/droplet-open-ring/04.jpg"
+  ],
+  "mediaIds": [
+    "5f58e952-cc20-4832-b9e0-1759428cf057",
+    "f4bce2e8-63a8-44c4-9fcc-a248115391b2"
+  ],
+  "mediaIdSource": "Ref 1 (03, rhodium silver packshot droplet-open-ring_3_silver.jpg) reuses the ads-500 'silver' id from products.md and ads-500/build/refs.json: ads-500/build/refs/droplet-open-ring__silver.jpg matches the current listing photo 03 pixel for pixel (mean grey difference 0.1 of 255). Ref 2 (04, silver worn hand droplet-open-ring-worn-hand.jpg) had no id, so it was imported from its Shopify CDN URL on 2026-11-20. The other ads-500 ids also still match the current photos and are ready for a gold shoot: 01 gold packshot e00ca9c9-0b94-4f1d-8517-f80200faa7cc (matches __gold.jpg, diff 0.1) and 02 gold macro 03daa3de-a7ee-499c-9242-bcce44938703 (matches __gold-macro.jpg, diff 0.1). Older supplier ids in products.md (N08 gold 131e754c-4023-4042-af77-e9c008ba67a2, N07 silver 56401eb3-cb57-4faf-b83d-c97d513af529) are supplier photos, not the listing; do not use them as authority. Worn 05 has no id.",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic",
+  "variants": "Gold (18k gold tone, YF3791-R-G) stock 9; Silver (rhodium silver tone, YF3791-R-S) stock 11; both Rs 899, compare-at Rs 1,499. Total exactly 20, so 1 sale drops it below the 20 line (products.md G4). Show Silver: it has more stock and it is the only metal with worn listing photos (04 hand, 05 hand to face), so it is the only one with a same-metal scale reference. Silver-tone rule from the ads-500 learnings: put it on a dark or flat saturated ground, never pale on pale. Gold works as the second idea with refs 01 + 02 (ids above, swap 'rhodium silver tone' for '18k gold tone' in the lock), and both metals together suit the 'Flip your wrist' gold-or-silver idea (each tone from its own photo).",
+  "story": "A ball and a drop, almost touching (the listing's own first line). It is one bead of liquid metal caught at 2 moments: the drop that has landed and gone round, and the drop still falling, a breath apart. That near-touch is the whole drama: a full stop beside a comma, the 2 fingers in Michelangelo's Creation of Adam, 2 raindrops on a window about to merge. Rhymes, from safest to craziest: water beading on a lotus leaf (colour-50 ad 44 'Raindrop, made silver.' scored 9.3, kept off only for reading large); a glass serum dropper with 1 silver bead hanging off its tip ('the only drop in your routine that never runs out'); a mercury bead, chrome, liquid metal; ink falling off a fountain-pen nib next to the full stop it already made; a tap mid-drip; a Newton's cradle ball; a drop of attar off a glass dauber or of rose water from a gulabpash; a single moti and a ghee drop off a spoon; the Hindi 'boond' (drop) and 'boond boond se sagar banta hai' (drop by drop, an ocean); boondi, the sweet whose name means little drops; a semicolon turned on its side; the musical eighth note (a ball on a stem). Sibling: it pairs with the Droplet Open Cuff in the same metal (the listing says so), so ring and cuff make a set or a BUY2. Fit is a selling point: 1 ring opens to fit US 5 to 9, so no sizing guesswork and an easy gift (earlier ads-500 board ideas: 'One ring, five sizes', 'Measured, not rounded', 'Flip your wrist'). Waterproof and tarnish free: a never-take-it-off ring. Listing styling: bare hands, ivory linen, hand raised to the face.",
+  "copyNotes": "Use: open ring, adjustable (tagged and listed), fits US 5 to 9, a round ball and a long teardrop, almost touching, side by side on top of the finger, sculptural, mirror polish, 18k gold tone, rhodium silver tone, PVD 18K gold or PVD rhodium (listed), surgical stainless steel, anti-tarnish, waterproof, tarnish free, hypoallergenic, teardrop about 6.6 mm, about 4.6 g, pairs with the Droplet Open Cuff, Rs 899 (compare-at Rs 1,499), NAIRA10, BUY2, BUY3, COD, free insured shipping. If a product-only frame shows it at 19 Feed px per mm or more, add the plain line 'Shown magnified · teardrop about 6.6 mm'. Avoid: 'gold' or 'silver' without 'tone'; 'solid gold', 'sterling', '925'; 'pearl', 'stone', 'diamond', 'crystal', 'cubic zirconia', 'bezel' (it has none; the ball is polished metal); 'toi et moi' or 'you and me' as the product name; any ball size in mm (not listed); the old E2 sizes 'ball about 7 mm, teardrop about 9 mm'; 'huggie', 'band' or 'cuff' for this ring; 'one size fits all' (say fits US 5 to 9); 'featherlight'; any designer or brand name for the teardrop style, 'dupe' or 'inspired by'; 'pre-order' (it ships now); rain and monsoon as the season (off-season; the E2 rain plate was rejected for gel-looking puddles); old prices Rs 1,399 (E2 listing) or any price other than Rs 899; reviews, ratings or customer counts (none verified).",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "variant": "Gold",
+      "source": "droplet-open-ring_1_main.jpg",
+      "shows": "Packshot on ivory plaster, three-quarter view from above, opening at the front. The whole construction: slim round wire C; at front-left the wire flares into a short neck carrying a round ball; at back-right the wire turns at a soft corner and swells down into a long teardrop whose fat rounded end sits beside the ball, under 1 mm apart. Ball and teardrop end about equal width. Clearest construction view; id e00ca9c9 (ads-500)."
+    },
+    {
+      "file": "02.jpg",
+      "variant": "Gold",
+      "source": "droplet-open-ring_4_macro.jpg",
+      "shows": "Macro, low angle on plaster: ball on its flared neck at left, teardrop standing up at right, the 2 almost touching; mirror polish with soft reflections. Best detail of both ends; no scale. id 03daa3de (ads-500)."
+    },
+    {
+      "file": "03.jpg",
+      "variant": "Silver",
+      "source": "droplet-open-ring_3_silver.jpg",
+      "shows": "Silver packshot, the same set-up and angle as 01 (a tone twin). Clean bright rhodium silver tone, ball and teardrop clear. Reference 1; id 5f58e952 (ads-500, verified match)."
+    },
+    {
+      "file": "04.jpg",
+      "variant": "Silver",
+      "source": "droplet-open-ring-worn-hand.jpg",
+      "shows": "Worn on the middle finger, back of the hand, ivory linen sleeve and curtain. Ball and teardrop side by side on top just below the knuckle, the teardrop's taper running down the finger's side; the ring sits across the finger width. Scale close to true (each end about 3/4 of a fingernail wide, a touch generous). Reference 2; id f4bce2e8 (imported 2026-11-20)."
+    },
+    {
+      "file": "05.jpg",
+      "variant": "Silver",
+      "source": "droplet-open-ring-worn-face.jpg",
+      "shows": "Worn, hand raised to the face, fingertips at the lips, dark hair, warm skin. Ring on the middle finger; seen from this side the teardrop's fat end reads like a second ball, which is exactly the morph to guard against. True scale; good WORN pose reference (hand to face). No id."
+    },
+    {
+      "file": "06.jpg",
+      "variant": "none",
+      "source": "naira-packaging-b6.jpg",
+      "shows": "Packaging: blush NAIRA box standing in a shallow film of water on a white surface. No product."
+    },
+    {
+      "file": "07.jpg",
+      "variant": "Gold",
+      "source": "droplet-open-ring-size-guide.jpg",
+      "shows": "Size guide: supplier photo of the gold Droplet Open Cuff beside the gold ring, bars at about 12.3 mm (cuff teardrop) and about 6.6 mm (ring teardrop); text 'Teardrop 6.6 mm · open, fits US 5 to 9; give or take 1 mm'. Scale evidence only; it has text and a second product, so it is not a generation reference."
+    }
+  ],
+  "sources": "Live Shopify listing (read-only queries, 2026-11-20): description, tags 18k Gold Tone Plated / Adjustable / Demi Fine / Edition Two / Hypoallergenic / Naira Petite / Rhodium Silver Tone Plated / Ring / Tarnish Free / Waterproof, status ACTIVE, 2 variants (YF3791-R-G Gold 9, YF3791-R-S Silver 11, Rs 899, compare-at Rs 1,499), 7 media. Earlier research: ads-500/build/study/products.md section 17 (lock, morph notes, ids), ads-500/build/refs.json and refs/droplet-open-ring__*.jpg (verified identical to listing 01, 02, 03), ads-500/build/learnings.md (silver on dark or saturated grounds, magnified-hero rule, 'Shown magnified' line), ads-500/build/study/board-groups.md (One ring five sizes, Measured not rounded, Flip your wrist, BUY4 box), performance/COLOUR50.md and REDO43.md (ad 44 'Raindrop, made silver.' 9.3, reads large), finished-ads/e2 notes (rain plate rejected, off-season), concept-50/products/droplet-open-cuff.json (the sibling). concept-50/plan.json has no lock for this handle; concept-camps/build/refs has nothing for it."
+}

@@ -1,0 +1,68 @@
+{
+  "handle": "droplet-open-cuff",
+  "title": "Droplet Open Cuff",
+  "price": 1199,
+  "stock": 14,
+  "preOrder": false,
+  "category": "Bracelet (slim open cuff with 2 different ends, 1 round ball and 1 teardrop, no stones, no clasp; sold as 1 piece)",
+  "metal": "Two variants: 18k gold tone (PVD 18K gold coating) or rhodium silver tone (PVD rhodium coating), both over surgical stainless steel (listing). Finish: mirror polish all over, no texture, no stones, no engraving.",
+  "lock": "1 slim open cuff of round polished wire, 3 mm thick, 6 cm inside, no stones, no clasp. 2 different ends: 1 round ball (9 mm) on a short flared neck; 1 long taper swelling into 1 smooth teardrop, 12.3 mm at its fat rounded tip, which faces the ball across a 2 cm gap. 18k gold tone or rhodium silver tone, mirror polish. Must stay 1 ball and 1 teardrop, never 2 matching ends, pearls, stones or a closed bangle.",
+  "morph": "The 2 mismatched ends. Image models like symmetry, so they make both ends the same (2 balls, 2 teardrops or 2 pearls), shrink the teardrop into a second ball, turn the teardrop round so its point faces the gap instead of its fat round tip, add a stone or a bezel cup to the ball, or close the gap into a full bangle. Secondary drift: the slim 3 mm wire thickened into a heavy flat band, the long gentle taper into the teardrop cut short, and scale. In the earlier colour-50 ad (performance r38) the kept render drew the teardrop a little slimmer than the listing, and the rejected render (r38a) drew the cuff about twice its size.",
+  "sizeMm": "Listed (description): inside width about 6 cm (60 mm), wire about 3 mm, ball about 9 mm, teardrop about 12.3 mm at its widest, weight about 30 g. Size guide 08 repeats 'Teardrop 12.3 mm, 30 g, give or take 1 mm'. Estimated from packshot 01 and worn 03 and 05 (not listed): the gap between the ball and the teardrop tip is about 2 cm off the wrist; the teardrop taper is about 3 times as long as it is wide; in every photo the ball reads close to the teardrop's width, so keep the 2 ends about equal in bulk and never draw the ball as a small bead. Body referent: worn with the opening on the back of the wrist, both ends on top; the ball is about the width of a fingernail (a chickpea), the wire much thinner than a pencil, the cuff no wider than the wrist.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/droplet-open-cuff/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/droplet-open-cuff/03.jpg"
+  ],
+  "mediaIds": [
+    "c6b97b2e-de35-4e95-a58d-98ae4674ef41",
+    "51516bf8-4543-4348-b122-b8ba721d35af"
+  ],
+  "mediaIdSource": "ads-500/build/study/products.md has no section for this handle, concept-50/plan.json has no lock for it, and ads-500/build/refs and concept-camps/build/refs hold only the Droplet Open Ring (droplet-open-ring__*), not the cuff. So both refs were imported to Higgsfield from their Shopify CDN URLs on 2026-11-20: 01 = droplet-open-cuff_1_main (gold packshot), 03 = droplet-open-cuff-worn-relaxed (gold worn). Ref 2 is the gold worn photo, not the gold macro 02, because it shows both ends, the gap and the true scale on a wrist in the same metal as ref 1. If a silver shoot is needed, import 04 (silver packshot) and 05 (silver worn close); they have no ids yet.",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic",
+  "variants": "Gold (18k gold tone) stock 8, Silver (rhodium silver tone) stock 6, both Rs 1,199. Show Gold: it has more stock and the cleanest set (01 packshot, 02 macro, 03 worn). Silver is well covered too (04 packshot, 05 worn close, 06 worn turned), so a gold-and-silver pair works as a second idea, each tone from its own photo.",
+  "story": "Two endings: one round, one falling. It is a single drop of liquid metal caught at 2 moments, the bead that sits and the drop that is about to fall, almost touching across the gap but never meeting. That gives casting and copy a built-in drama (the near-touch, a full stop and a comma, a drop and the splash it is about to make). It rhymes with anything that drips or beads: one drop of attar off a glass dauber (the colour-50 ad 'Just one drop.' scored 9.0), water beading on a lotus leaf (the Droplet Open Ring ad 'Raindrop, made silver.' scored 9.3), honey off a dipper, ghee off a spoon, a mercury bead, a tap about to drip, a Newton's cradle ball, a tadpole, a comma and a full stop on a page, a bindi beside a tear of kajal. It pairs with the Droplet Open Ring in the same metal (the listing says so), so ring and cuff can be sold as a set. Waterproof and tarnish free, so it is an every-day, never-take-it-off piece; the listing styles it on bare skin with ivory linen.",
+  "copyNotes": "Use: open cuff, slim polished cuff, a round ball on one end and a teardrop on the other, two endings (one round, one falling), the gap, 18k gold tone, rhodium silver tone, PVD 18K gold or PVD rhodium (listed), surgical stainless steel, waterproof, tarnish free, hypoallergenic, 6 cm inside, 3 mm wire, about 30 g, pairs with the Droplet Open Ring, Rs 1,199. Avoid: 'gold' or 'silver' without 'tone'; 'solid gold', 'sterling', '925'; 'pearl', 'stone', 'diamond', 'crystal' or 'cubic zirconia' (it has none; the ball is polished metal); 'adjustable' or 'one size fits all' (the listing says only 'open cuff'); 'bangle', 'kada' or 'huggie' as the product name; 'lightweight' or 'featherlight' (it weighs about 30 g); any designer or brand name for the teardrop style, 'dupe' or 'inspired by'; 'pre-order' (it ships now); rain and monsoon cues (off-season, and the E2 rain plate was rejected); the old prices Rs 1,899 (E2 ads) and Rs 1,599 (colour-50 ads), now Rs 1,199.",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "variant": "Gold",
+      "shows": "Packshot on ivory plaster, warm blush backdrop, front three-quarter view from above, opening at the front. Whole cuff: slim round wire, round ball on the left with a short flared neck, long taper into a fat teardrop on the right, its rounded tip facing the ball across a gap of about 2 ball widths. Clearest view of the construction. Reference 1."
+    },
+    {
+      "file": "02.jpg",
+      "variant": "Gold",
+      "shows": "Macro, low angle on plaster: the ball end in focus at the front, the teardrop end behind it where the wire dips in a swan-neck curve into the drop. Best detail of both ends and the mirror polish; the back of the cuff is soft and there is no scale."
+    },
+    {
+      "file": "03.jpg",
+      "variant": "Gold",
+      "shows": "Worn on the right wrist, arm relaxed at the side, ivory linen suit. Opening on the back of the wrist, ball and teardrop both on top, gap about 2 cm. True scale on a wrist; the piece is small in frame. Reference 2."
+    },
+    {
+      "file": "04.jpg",
+      "variant": "Silver",
+      "shows": "Silver packshot, same set-up and angle as 01. Clean rhodium silver tone, ball and teardrop clear. Best silver construction view (no media id yet)."
+    },
+    {
+      "file": "05.jpg",
+      "variant": "Silver",
+      "shows": "Worn close on the wrist with an ivory linen sleeve: ball and teardrop on top of the wrist, gap about 2 cm, wire thin against the skin. Best silver scale photo (no media id yet)."
+    },
+    {
+      "file": "06.jpg",
+      "variant": "Silver",
+      "shows": "Worn, wrist turned, ivory sleeve, beige backdrop: side view showing the wire's gentle wave into the teardrop and both ends on top. Styling reference."
+    },
+    {
+      "file": "07.jpg",
+      "variant": "none",
+      "shows": "Packaging: blush NAIRA box with a blush satin ribbon on white. No product."
+    },
+    {
+      "file": "08.jpg",
+      "variant": "Gold",
+      "shows": "Size guide: supplier photo of the gold cuff beside the gold Droplet Open Ring, bars at 12.3 mm (cuff teardrop) and 6.6 mm (ring teardrop); text 'Teardrop 12.3 mm, 30 g, give or take 1 mm'. Scale evidence only; it has a text overlay and a second product, so it is not a generation reference."
+    }
+  ],
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags 18k Gold Tone Plated / Bracelet / Cuff / Demi Fine / Edition Two / Hypoallergenic / Naira Petite / Rhodium Silver Tone Plated / Tarnish Free / Waterproof, 2 variants, 8 media). Earlier work for context: performance/COLOUR50.md, REDO43.md and build/colour50.json (shot 38, 'Just one drop.', at Rs 1,599); finished-ads/e2 (E2_droplet_a1 'Happy tears only.', rain plate rejected, at Rs 1,899); ring-sizes/descriptions.json (the matching Droplet Open Ring). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this cuff."
+}

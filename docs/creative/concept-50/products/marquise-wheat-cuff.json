@@ -1,0 +1,74 @@
+{
+  "handle": "marquise-wheat-cuff",
+  "title": "Marquise Coil Cuff",
+  "price": 1549,
+  "stock": 10,
+  "preOrder": false,
+  "category": "Bracelet (open coil cuff: 1 row of clear marquise stones wound 2 turns round the wrist, a polished ball at each end, sold as 1 piece). Tags: Bracelet, Cuff, Cubic Zirconia, Demi Fine, Edition Two.",
+  "metal": "18k gold tone only (tag '18k Gold Tone Plated'; description 'PVD 18K gold coating, anti-tarnish' over 'Surgical stainless steel'). Finish: high polish on the claw cups, the lozenge cup backs and the 2 ball ends; clear, white-sparkle marquise cubic zirconia with no colour cast. There is no rhodium silver tone version.",
+  "lock": "1 open coil cuff wound 2 full turns, the turns touching, 14 mm across together. Each turn: 1 row of about 40 clear 7 mm marquise stones standing upright across the band, side by side, each in its own 4-claw cup; the inner face shows the polished lozenge cup backs. 1 polished ball, about 4 mm, at each of the 2 ends. 18k gold tone, high polish. Must stay stones all the way round both turns ending in 2 balls, never a C-cuff with a plain back band, slanted wheat-ear rows, stones laid lengthwise along the band or a closed bangle with no ends.",
+  "morph": "The coil and the way the stones sit. The handle and the old Edition Two copy say 'wheat', and the October colour plate 45 (performance/plates/colour/45-marquise-wheat-cuff.jpg) already shows the drift: a C-cuff with a plain polished back band, stones only on the front, in 2 rows slanting like a wheat ear. That is NOT the live piece. Other likely redesigns: closing the coil into a 2-row tennis bangle with no ends (top view 03 hides both balls, so never use it alone as a ref); splitting it into 2 separate stacked bracelets; laying the marquise stones lengthwise (east-west) along the band like a tennis chain; adding a third turn (the old meta.json size line said 'three turns', stale); swelling the balls to bead size or dropping them; smoothing the lozenge cup backs into a solid band; tinting the stones champagne or turning the 4 claws into bezels. Secondary drift: scale. Models inflate marquise jewellery; each stone is only 7 mm, the 2 turns together 14 mm.",
+  "sizeMm": "Listed: 14 mm across the 2 turns and each marquise about 7 mm (description 'Width' and 'Stones' lines, size-guide photo 09, 'give or take 1 mm'). The 7 mm is the stone's length, which stands upright across the band, so each turn is about 7 mm wide. Not listed, estimated from packshot 01, macro 04 and worn 05: each stone about 3.5 mm wide; stones spaced about 4.5 mm apart; about 40 stones per turn, about 80 in all; ball ends about 4 mm across (about half a stone's length); cup depth about 4 mm; inside about 5.5-6 cm across. Worn, the 2 ball ends sit on top of the wrist about 3 cm apart, pointing opposite ways, 1 on each turn. Body referent: the 2 turns together are about as wide as the little finger; each stone is about two thirds the length of an index fingernail; each ball is about the size of a peppercorn.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/marquise-wheat-cuff/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/marquise-wheat-cuff/05.jpg"
+  ],
+  "mediaIds": [
+    "f7b672eb-d977-49c7-b474-f6342b0a96dd",
+    "2fdadeb2-2245-4b03-bc5d-15cf843ff385"
+  ],
+  "mediaIdSource": "products.md has no section for this handle, concept-50/plan.json has no lock for it, and ads-500/build/refs and concept-camps/build/refs have no files for it. Both refs were imported to Higgsfield from their Shopify CDN URLs on 2026-11-20: 01 = marquise-wheat-cuff_1_main.jpg (packshot: both turns, both ball ends, the stones in their claw cups at the front and the lozenge cup backs at the back); 05 = marquise-wheat-cuff_5_worn.jpg (worn, hand flat on ivory silk: both ball ends and the overlap of the 2 turns on top of the wrist, true scale). Ref 2 is 05 rather than worn 02 because 05 shows both balls and how the coil crosses; 02 shows only 1 ball. For extreme close-ups, macro 04 is the best third ref (not imported).",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic (all 3 are tags; the care text also says 'Waterproof and tarnish free, so daily wear and water are fine'). The description states 'PVD 18K gold coating, anti-tarnish' and 'Surgical stainless steel', and that PVD 'stands up to sweat and keeps its colour much longer' than regular plating; paraphrase those as material facts only. Hypoallergenic rests on the tag alone, so keep it to 'hypoallergenic surgical stainless steel'. Never 'never tarnishes', 'lifetime', 'nickel-free'. Not pre-order (no 'pre-order' tag).",
+  "variants": "1 variant (Default Title), 18k gold tone, stock 10, Rs 1,549, not pre-order. Every listing photo shows the same gold piece; show it. Stock 10 is low: a 'last few' or 'only 10 made' line is true today but must be rechecked on launch day; never claim it is limited by design.",
+  "story": "The listing writes its own hook: 'One row of light, wound twice.' The piece has two faces. From the front it is 2 rows of clear marquise light; from inside and across the back it is a run of polished 18k gold tone lozenges, the backs of the cups, like the belly scales of a gilded snake or a row of gold almond leaves. So it can be shot both ways: 'the back is as good as the front', a hand turning over, a wrist on a mirror. It rhymes with anything that winds twice: a mogra gajra wrapped twice round the wrist, a coiled spring or telephone cord, a jalebi (two turns of syrup-bright gold), a coiled snake (the serpent bracelet tradition), a spiral staircase from above, a ribbon wound round a finger. The marquise shape rhymes with almonds (badam), green elaichi pods, basmati grains, tulsi leaves, melon seeds (magaz: the October colour ad 'Sown in two rows.' scored 9.1, but its render showed the wrong old construction; the prop is reusable, the plate is not), and the cut's name: navette, French for 'little boat', and the jeweller's legend that it was cut to the shape of the Marquise de Pompadour's smile (say 'said to'). It is a one-and-done statement piece at Rs 1,549: the listing styles it as the only bracelet, bare neckline, hair pulled back, ivory linen and silk. It suits wedding-season evenings (sangeet, cocktail, reception) and the core buyer in the 20 Nov Meta read, women 35-44, more than a stacking trend shot.",
+  "copyNotes": "Use: coil cuff, open coil cuff, wound twice, wraps the wrist twice, 2 turns, 1 row of light wound twice, 2 rows of light, clear marquise cut cubic zirconia, approximately 7 mm each, set upright side by side, each in its own claw cup, 14 mm across the 2 turns, a small polished ball at each end, 18k gold tone, PVD 18K gold coating, surgical stainless steel, the gold tone backs of the cups, let it be the only bracelet, Marquise Coil Cuff, Rs 1,549. Optional chip 'waterproof · tarnish-free' (tag-backed). Avoid: 'wheat', 'wheat ear', 'Marquise Wheat Cuff' (old title in edition-two-listings), 'herringbone', 'slanting' or 'leaning' rows (old copy 'Two rows of light, leaning into each other' describes the old design); 'two bracelets', 'stack', 'set'; 'tennis bracelet', 'bangle', 'kada' as the product name; 'three turns'; 'adjustable', 'one size fits all', 'memory wire', 'flexible' (not listed); 'gold' or 'silver' alone, 'solid gold', 'real'; 'diamond', 'crystal', 'Swarovski' (the listing says cubic zirconia); a silver or rhodium version (none exists); 'huggie'; any designer name, 'dupe' or 'inspired by'; old prices Rs 1,499 (October colour ad) and Rs 2,199 (Edition Two build); 'never tarnishes', 'lifetime', 'nickel-free'; 'pre-order'.",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "variant": "18k gold tone",
+      "shows": "Packshot (marquise-wheat-cuff_1_main.jpg): the coil lies on ivory plaster, low front three-quarter view, warm side light. Front: 2 touching rows of upright clear marquise stones in 4-claw cups; 1 ball end on the lower turn at front left, 1 on the upper turn at front right. Back: the inner face, a row of polished lozenge cup backs joined by tiny bars. Clearest whole construction. Reference 1."
+    },
+    {
+      "file": "02.jpg",
+      "variant": "18k gold tone",
+      "shows": "Worn (_2_worn): left wrist across an ivory linen sleeve and dress, the 2 turns running diagonally over the back of the wrist, 1 ball end visible. Crisp; true scale against the hand. Good alternate for ref 2, but only 1 ball shows."
+    },
+    {
+      "file": "03.jpg",
+      "variant": "18k gold tone",
+      "shows": "Top view (_3_alt) on ivory plaster with dappled shadow: 2 rows of stones at the front, 2 rows of lozenge cup backs at the back. Both ball ends are hidden, so it reads as a closed 2-row bangle; never use it alone as a reference."
+    },
+    {
+      "file": "04.jpg",
+      "variant": "18k gold tone",
+      "shows": "Macro (_4_macro): the upright marquise stones in their 4-claw cups, 1 polished ball end, the lozenge cup backs out of focus behind. Best stone, claw and ball detail; no scale. Best third ref for close-ups."
+    },
+    {
+      "file": "05.jpg",
+      "variant": "18k gold tone",
+      "shows": "Worn (_5_worn): the right hand lies flat on ivory silk; both ball ends show on top of the wrist about 3 cm apart, 1 on each turn, pointing opposite ways, with the 2 turns side by side between them. True scale and the coil logic. Reference 2."
+    },
+    {
+      "file": "06.jpg",
+      "variant": "18k gold tone",
+      "shows": "Worn (worn-sleeve): wrist against an ivory sleeve and dress, the 2 turns diagonal across the back of the wrist, 1 ball end. Similar to 02, a touch softer."
+    },
+    {
+      "file": "07.jpg",
+      "variant": "18k gold tone",
+      "shows": "Worn (worn-waist): the hand rests at the waist of an ivory linen dress, the other hand's fingertips at the right edge; 2 turns and 1 ball end. Styling and casting reference; piece smaller in frame."
+    },
+    {
+      "file": "08.jpg",
+      "variant": "none",
+      "shows": "Packaging: blush NAIRA box on travertine in hard sun. No product."
+    },
+    {
+      "file": "09.jpg",
+      "variant": "18k gold tone",
+      "shows": "Size guide graphic over the packshot: '14 mm across the two turns · marquise 7 mm', 'give or take 1 mm'. Scale evidence only; text overlay, not a generation reference."
+    }
+  ],
+  "staleResearch": "Do not reuse: performance/plates/colour/45-marquise-wheat-cuff.jpg and ads/colour/45-* (wrong construction: C-cuff, plain back band, slanted front-only rows; old price Rs 1,499); edition-two-listings/build/meta.json N05 size line 'Three turns, about 14mm tall; wire about 4mm' and macro line 'Rectangular pavé end cap on the ribbed gold coil' (wrong piece); edition-two-listings/build/products.json N05 title 'Marquise Wheat Cuff', Rs 2,199 and the 'angled like the two sides of a wheat ear... slim plain band' body. Still true there: 'stone rows about 14mm wide; each marquise about 7mm' (meta.json N05 'size').",
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: title, description, tags 18k Gold Tone Plated / Bracelet / Cubic Zirconia / Cuff / Demi Fine / Edition Two / Hypoallergenic / Naira Petite / Tarnish Free / Waterproof, 1 variant, 9 media); performance/build/colour50.json, performance/COLOUR50.md and handoff/manifest.json (October colour ad 45, 'Sown in two rows.', score 9.1, Rs 1,499, stock 20 on 23 Oct); edition-two-listings/build/products.json and meta.json (N05, supplier PI YF3508); size-cards/README.md (14 mm / 7 mm card); concept-50/research/meta_roas_20nov.md (core buyer women 35-44). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this handle."
+}

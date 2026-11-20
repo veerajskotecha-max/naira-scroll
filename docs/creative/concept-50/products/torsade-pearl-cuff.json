@@ -1,0 +1,68 @@
+{
+  "handle": "torsade-pearl-cuff",
+  "title": "Torsade Pearl Cuff",
+  "price": 1099,
+  "stock": 23,
+  "preOrder": true,
+  "category": "Bracelet (open cuff: 1 twisted cable with a 2-row pavé collar and 1 round white pearl at each end, sold as 1 piece)",
+  "metal": "18k gold tone only (listing: 'PVD 18K gold coating'). The listing does not name the base metal. Finish: high polish on the spiral ridges, collar rims and rib; lustrous white pearls; small clear round pavé stones.",
+  "lock": "1 open cuff of solid twisted cable, about 5 mm thick, tight spiral ridges, 17 cm end to end. Each of 2 ends: 1 collar as wide as the pearl, 2 rows of small round clear pavé split by 1 thin polished rib, then 1 large round white pearl (about 11 mm). The 2 pearls face each other across a gap about 1 pearl wide. 18k gold tone, high polish. Must stay 2 two-row pavé collars, each ending in 1 pearl that faces the other across the opening, never plain gold caps, a single pavé band, extra pearls or a closed bangle.",
+  "morph": "The ends. The collar is fine detail (polished rim, pavé row, thin rib, pavé row, polished lip around the pearl seat), so models flatten it into a plain gold cap, a single pavé band or a cup bezel, swell the pearl or set it on top of the cuff instead of end-on, add a third pearl, or close the gap into a full bangle. Secondary drift: the twisted cable smoothed into a plain wire, or broken into a chain or a braid of loose wires; the cable drawn too heavy (an earlier worn render read about 7 mm against the true 5 mm).",
+  "sizeMm": "17 cm (170 mm) end to end along the cuff, open back, give or take 1 mm (description and size-guide photo 08). Estimated from packshot 01 and worn 03 (not listed): cable about 5 mm thick; each pearl about 10-12 mm, about 2x the cable; each collar about as wide as the pearl and about 6-7 mm long; about 20 pavé stones per row (counted about 11 on the visible half in macro 05); inside about 5.5-6 cm across; the gap between the pearls about 1 pearl wide off the wrist, a little wider when worn (06). Body referent: it sits at the narrowest part of the wrist with the opening on top, each pearl about as wide as a fingernail, the cable thinner than a pencil.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/torsade-pearl-cuff/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/torsade-pearl-cuff/03.jpg"
+  ],
+  "mediaIds": [
+    "7169c922-70ee-41f8-8689-d32377b5013d",
+    "73ea4bfc-2641-4f7b-b6ca-2b38c339583f"
+  ],
+  "mediaIdSource": "products.md has no section for this handle, concept-50/plan.json has no lock for it and ads-500/build/refs has no torsade files, so both refs were imported to Higgsfield from their Shopify CDN URLs on 2026-11-20 (01 = BSS00066_1 packshot, 03 = BSS00066_3 worn close). Earlier ids from performance/build/products_g3.json, kept as alternates: b9deec5e-39e5-41c5-93c4-996a52d8da3e (the same BSS00066_1 packshot file, same ?v stamp) and 4a952de2-d03b-4e26-9580-3e0162e3b6a2 (BSS00066_5 macro of one end; use it as a third ref only for close-ups of the collar). Ref 2 is the worn photo, not the macro, because it shows both ends, the gap and the true scale on a wrist.",
+  "claims": "NONE",
+  "variants": "1 variant (Default Title), 18k gold tone, stock 23, Rs 1,099, pre-order. Every listing photo shows the same gold piece; show it.",
+  "story": "A cuff in the fine-jewellery cable tradition: a twisted gold rope with jewelled end caps, and it is called torsade, French for twist. The best part is the gap. 2 white pearls face each other across the opening, almost touching but never meeting. That gives copy and casting a built-in story (the near-touch, two of a kind, a pair of earrings worn on the wrist). It rhymes with the Indian open kada, whose two ends face each other with carved heads or buds, here turned into pearls, and with anything twisted: rope, a churro, a twisted candle, braided hair. The listing styles it with a mustard satin slip and suggests wearing it alone on a bare wrist or beside a slim watch. Earlier ads that worked used white rhymes (makhana in a brass katori, a halved coconut), a mirror and 'Classic, with a twist' beside a satin headband.",
+  "copyNotes": "Use: cuff, open cuff, twisted cable, torsade, 2 pearls that face each other, round white pearls, two-row pavé collars, 18k gold tone, PVD 18k gold coating (a listed fact), slips on sideways at the narrowest part of the wrist, 17 cm end to end, wear it alone or beside a slim watch, pre-order, Rs 1,099. Avoid: 'gold' or 'solid gold' without 'tone'; 'real', 'natural', 'cultured', 'freshwater', 'akoya' or 'South Sea' pearls; 'shell pearl' (earlier ads used it, but the live listing now says only 'round white pearl'); 'diamond', 'crystal' or 'cubic zirconia' (the listing says only pavé); 'waterproof', 'tarnish free', 'anti-tarnish', 'sweatproof', 'keeps its colour' or 'hypoallergenic' (no claim tags; the description's 'anti-tarnish' and sweat lines are not tagged, so do not claim them); 'adjustable', 'one size fits all'; 'stainless steel', 'sterling' or any base metal; 'bangle', 'kada' or 'huggie' as the product name (a kada can be a rhyme, but the product is a cuff); 'chain', 'rope chain' or 'braid'; any designer name, 'dupe' or 'inspired by'; 'ships now' or 'in stock' (it is pre-order); the old price Rs 1,399 on earlier performance ads (now Rs 1,099).",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "variant": "Gold",
+      "shows": "Packshot: the cuff stands on its edge, leaning on an ivory plaster block, warm cream backdrop, front three-quarter view, opening at the top. Whole ring, tight spiral ridges, both 2-row pavé collars and both pearls facing each other. Clearest view of the full construction. Reference 1."
+    },
+    {
+      "file": "02.jpg",
+      "variant": "Gold",
+      "shows": "Worn on the left forearm across the body, mustard satin slip, aged-print border with scratches. Opening on top of the wrist, both pearls and collars visible. The border and scuffs make it a poor reference."
+    },
+    {
+      "file": "03.jpg",
+      "variant": "Gold",
+      "shows": "Worn close: wrist raised, the other hand holding the forearm, mustard satin slip. Both collars show the 2 pavé rows and rib, the 2 pearls face each other across a gap about 1 pearl wide, cable ridges sharp. True scale on the wrist. Reference 2."
+    },
+    {
+      "file": "04.jpg",
+      "variant": "Gold",
+      "shows": "Worn, turned to the side: hand on the opposite shoulder, lips in frame, mustard satin slip. Both ends visible but smaller; styling and casting reference."
+    },
+    {
+      "file": "05.jpg",
+      "variant": "Gold",
+      "shows": "Macro of one end on the plaster block: pearl seated in a polished lip, then pavé row, thin polished rib, pavé row, polished rim, then the twisted cable. About 11 stones visible per row on the near half. Best collar detail; no scale. Same file as the earlier g3 macro ref (4a952de2-d03b-4e26-9580-3e0162e3b6a2)."
+    },
+    {
+      "file": "06.jpg",
+      "variant": "Gold",
+      "shows": "Worn, top-down: the wrist resting on an ivory linen cushion, soft daylight. Opening on top of the wrist, the pearls a little more than 1 pearl apart, both collars visible. Good scale and the clean 'quiet' mood; the piece is small in frame."
+    },
+    {
+      "file": "07.jpg",
+      "variant": "none",
+      "shows": "Packaging: blush NAIRA box on a wet white surface. No product."
+    },
+    {
+      "file": "08.jpg",
+      "variant": "none",
+      "shows": "Size guide graphic: an open ring seen from above, '17 cm end to end, along the cuff', 'open back', 'Slip it on sideways at the narrowest part of your wrist', 'give or take 1 mm'. Scale evidence only; text overlay, not a generation reference."
+    }
+  ],
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Bracelet / Edition One / KAVNAR / pre-order, 1 variant, 8 media); performance/build/products_g3.json and shots_g3.json, crazy3.json and copy.json (the earlier lock, ids, renders and ad lines, from a 22 Oct read at Rs 1,399 and stock 30). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this handle."
+}

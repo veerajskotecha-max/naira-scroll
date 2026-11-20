@@ -1,0 +1,34 @@
+{
+  "handle": "baroque-bloom-cuff",
+  "title": "Baroque Bloom Cuff",
+  "price": 1399,
+  "stock": 10,
+  "category": "Bracelet (open cuff)",
+  "metal": "18k gold tone (PVD 18K gold coating over surgical stainless steel), mirror polish",
+  "lock": "Open round cuff: 1 continuous 1.5mm wire, opening at the front. 2 mismatched terminals face each other across the gap: 1 small domed pebble cap holding 1 clear emerald-cut cubic zirconia, set upright in 1 rectangular bezel; 1 larger flat irregular white mother-of-pearl slab (about 1.5x the cap's height) with wavy iridescent grain in a thin polished rim. 0 chains, 0 clasps, 0 flowers. Mirror-polished 18k gold tone. Must stay 1 shell slab facing 1 clear crystal cap, never 2 matching ends, a round pearl or a green stone.",
+  "morph": "The 2 mismatched terminals. Image models mirror them into a matching pair (2 pearls or 2 stones), swell the flat mother-of-pearl slab into a round or drop pearl, tint the emerald-cut CZ green because of the word 'emerald', or sprout petals because of the word 'Bloom'. Second risk: thickening the 1.5mm wire into a chunky bangle or closing the gap.",
+  "sizeMm": "Listed: open cuff 60 x 55 mm inside, 1.5 mm wire; CZ cap 17 mm; mother-of-pearl slab 18 x 7 mm in a 2.5 mm bezel. Photos disagree with the slab width: the slab reads about 1.5x the cap's height and about 0.6x as wide as tall (roughly 11-15 mm wide), so 7 mm looks wrong; quote only the 60 x 55 mm cuff in copy. Worn (photo 02): a slim bangle sitting loose on a slender wrist, both terminals on top of the wrist, slab about a quarter of the wrist's width, cap about the size of a fingertip pad.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/baroque-bloom-cuff/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/baroque-bloom-cuff/02.jpg"
+  ],
+  "mediaIds": [
+    "683ba9b0-c864-4855-a047-b4dd44038427",
+    "7ea730ec-c36a-4e71-b1d1-d9dc63d73554"
+  ],
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic (all 3 tagged; the description also says waterproof and tarnish free and PVD anti-tarnish)",
+  "preOrder": false,
+  "variants": "1 variant: Default Title, 18k gold tone, 10 in stock. All 4 product photos show this one variant; show it.",
+  "story": "The listing's own line is the idea: two different endings on one open circle. It is a toi-et-moi (you and me) piece turned into a cuff: soft, sea-made shell facing a hard, bright faceted crystal, a glow facing a sparkle, with a gap between them that never closes, like the almost-touching fingers in Michelangelo's Creation of Adam. It rhymes with Napoleon's 1796 toi-et-moi ring for Josephine (2 different stones meeting), with the word baroque itself (from Portuguese barroco, an irregular pearl, which gave the whole art period its name), with the classic pearls-and-diamonds evening pairing, and with the organic open cuffs of 1970s Elsa Peretti. Lovable details: the shell's swirled grain is different on every piece, the CZ throws a rainbow flash (photo 04), and it slips on sideways with no clasp. Single-statement evening piece, sleeves pushed back.",
+  "copyNotes": "Use: 'mother of pearl', 'polished shell', 'clear emerald-cut cubic zirconia' (or 'emerald-cut crystal'), '18k gold tone', 'PVD', 'open cuff', 'slides on sideways', 'toi et moi', 'baroque' as a shape word. Avoid: 'pearl' or 'baroque pearl' on its own, 'freshwater/real/natural pearl' (it is shell, the Pearl tag notwithstanding), 'emerald' as a colour or gemstone, 'green stone', 'diamond', 'solid gold' or 'gold' alone, 'adjustable' (not claimed), 'clasp', 'bangle with hinge', 'huggie', any flower or petal visual or claim (despite 'Bloom' there is no floral element), quoting the 7 mm slab width.",
+  "photos": {
+    "01.jpg": "Packshot on a white plaster cube, cream background, three-quarter top view. Whole construction: 1.5mm round wire circle, CZ cap left, larger mother-of-pearl slab right, gap between. 18k gold tone, mirror polish. Best construction reference.",
+    "02.jpg": "Worn: model with medium-brown skin, mustard satin slip, hand at ear; cuff on forearm/wrist with both terminals on top. Shows scale (slim, loose, slab about a quarter of wrist width). 18k gold tone.",
+    "03.jpg": "Macro close-up on the plaster cube: slab's wavy iridescent grain and thin rim, wire joining the slab's side, domed polished cap with upright emerald-cut CZ in a rectangular bezel. 18k gold tone.",
+    "04.jpg": "Low-res 640px square on dark green velvet box, moody light; CZ throws a rainbow flash; hard shadows. Same 18k gold tone variant. Supplier-style shot.",
+    "05.jpg": "Packaging only: blush Naira gift box in blush tissue inside a cream mailer. No product.",
+    "06.jpg": "Size guide graphic: open cuff 6 x 5.5 cm inside, open back, slip on sideways at the narrowest part of the wrist."
+  },
+  "construction": "1 open cuff of 1 continuous 1.5mm round wire. 2 terminals: (a) 1 domed pebble-shaped polished cap (listed 1.7cm) with 1 clear emerald-cut CZ in 1 sunken rectangular bezel, stone long axis upright; (b) 1 flat irregular freeform white mother-of-pearl slab with wavy, swirled iridescent surface in 1 thin raised rim (listed 0.25cm bezel), wire joining its side. 0 links, 0 coils, 0 hearts, 0 real pearls, 0 clasp (open, slip-on). Finish: high mirror polish, PVD 18K gold coating over surgical stainless steel.",
+  "sources": "Live Shopify listing (read-only query, 2026-11-20). No earlier products.md section, plan.json lock or ads-500 refs existed for this handle."
+}

@@ -1,0 +1,41 @@
+{
+  "handle": "ribbon-bead-bracelet",
+  "title": "Ribbon Bead Bracelet",
+  "price": 699,
+  "compareAtPrice": 999,
+  "stock": 21,
+  "sku": "YF8156",
+  "category": "Bracelet",
+  "metal": "18k gold tone (PVD 18k gold tone coating on surgical stainless steel), polished, one tone only. There is no rhodium silver tone version.",
+  "finish": "Polished, high-shine 18k gold tone metal; clear, brilliant-faceted heart-cut cubic zirconia.",
+  "lock": "Hair-fine 1.2mm cable chain, all 18k gold tone, adjustable 16-19cm, lobster clasp and short extender, with 6 tiny 2mm round beads, 3 each side. Centre: exactly 2 separate 5mm heart-cut clear cubic zirconia, points meeting under 1 polished bar, held by 4 fine claws at the outer lobes, reading as a tiny bow 10 x 5.5mm. Must stay 2 distinct hearts at little-fingernail scale, never one merged stone, a ribbon bow, or larger.",
+  "morph": "The crystal bow. Image models draw it 1.3-1.5x too large (listing worn photos 05 and 08 and the earlier ad S4_19 already do), merge the 2 hearts into 1 stone, turn the hearts points-outward, drop the small polished bar over the join, or replace the whole thing with a fabric ribbon or a solid metal bow. Second drift: the lobster clasp turns into a spring ring and the 6 beads multiply to 12-16 (listing photos 06 and 07, both AI-generated, show both).",
+  "sizeMm": "Listed: adjustable 160-190 mm; 1.2 mm cable chain; 2 mm beads; 2 hearts about 5 mm each; bow about 10 mm wide x 5.5 mm tall (the size guide prints 1 cm x 0.55 cm); weight 2 g. Bead count of 6 (3 each side) is counted from photos 01 and 04, not listed. Referents: the bow is about half a Rs 1 coin (20 mm) across, about the width of a little-finger nail, and about 2/3 the length of the green cardamom pod in photo 04. On the wrist it is a small glint, about 1/5 of the wrist's width.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/ads-500/build/refs/ribbon-bead-bracelet__pack.jpg",
+    "/home/user/naira-scroll/docs/creative/ads-500/build/refs/ribbon-bead-bracelet__macro.jpg"
+  ],
+  "mediaIds": [
+    "a7f215c0-f762-4ccf-b0df-de6dd30ddea8",
+    "1b1b0b07-cf3c-449d-b6e2-db785e15c8e8"
+  ],
+  "refNotes": "Reused the ads-500 ids from products.md after checking they match the current listing. Ref 1 (pack) is pixel-identical to listing image 01 (ribbon-bead-bracelet-0; mean difference 0.19/255 at 256 px): the whole piece on a plaster cube, with the bow, 6 beads, the lobster clasp and the extender. Ref 2 (macro) is pixel-identical to listing image 03 (mean difference 0.23/255): the clearest view of the bow, showing 2 hearts points-in, the polished bar over the join and 4 claws at the outer lobes. It is AI-generated but agrees with the supplier diagram (11). For scale, the macro has no referent. Lean on photo 04 (cardamom flat lay, construction and scale both right) or the 'little-fingernail' line in the prompt. Avoid 06 and 07 as references (spring-ring clasp, too many beads).",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic (all three tagged; the care text also says 'Waterproof and tarnish free, so daily wear and water are fine').",
+  "preOrder": false,
+  "variants": "1 variant: Default Title, SKU YF8156, stock 21, 18k gold tone. Show it (every photo is this variant). Never render a rhodium silver tone version.",
+  "copyNotes": "Use: 'Two hearts, read as a bow' (the listing's own opening), 'TWO HEARTS. / ONE BOW.' (founder-keep headline, colour/66), crystal bow, heart-cut cubic zirconia, 18k gold tone, PVD, surgical stainless steel, satellite chain, adjustable 16-19 cm, 2 g, 'light enough to forget you are wearing it', Rs 699 (compare-at Rs 999), waterproof, tarnish free, hypoallergenic, 'pair it with a fine chain bracelet'. Avoid: 'gold' alone, and the listing's 'gold satellite beads' and 'fine gold claws' as written (say 18k gold tone beads and claws); solid gold, diamond, Swarovski, silver, pearl or pearls (the beads are metal), 'beaded bracelet' or 'charm bracelet' (it is a chain), bangle, cuff, pendant, huggie; 'anti-tarnish' (say tarnish free, the tag); 'ribbon' as a description of the piece (it is only the name: there is no fabric). Offer line only with a verified code: 'EAR AND WRIST.' pairs it with Brushed Gold Huggies, also Rs 699.",
+  "story": "A gift that arrives already wrapped: the bow sits on the wrist, made of 2 crystal hearts turned point to point under a tiny polished knot. It is 2 g and Rs 699, the easy yes for any gift budget under Rs 1,000. Two hearts read as two people: you and her, sisters, the best friend, the bride and her girls. Rhymes with the bow on a gift box (the blush Naira box), a satin hair ribbon, the bow on a ballet flat, a butterfly's 2 wings, a bow tie, a shoelace knot, a ribboned mithai box, 'tying the knot' in wedding season, and a thread tied on a wrist for luck. It sits on the coquette bow wave (bows on everything) without being a costume. Timing in late November: wedding season (bridesmaid sets), Secret Santa under Rs 700, Christmas, New Year, then Galentine's and Valentine's. Founder keeps: colour/15 and colour/66 (navy satin bow, 'TWO HEARTS. / ONE BOW.'). Earlier flop: crazy42 lost the piece inside a bouquet, so keep the bracelet the hero of the frame. Stock 21, a slow seller to clear.",
+  "photos": [
+    {"file": "01.jpg", "src": "ribbon-bead-bracelet-0", "what": "Packshot on a plaster cube on a cream ground, three-quarter view. Whole construction: hair-fine cable chain, 6 beads (3 each side), the 2-heart bow with its centre bar, a lobster clasp and a short extender at the back. 18k gold tone. Same image as the ads-500 pack ref."},
+    {"file": "02.jpg", "src": "ribbon-bead-bracelet-1", "what": "Studio worn shot: model in a mustard satin cami, hand at the shoulder, bow on the outer wrist. Bar and 2 hearts visible; 3 beads visible. The bow reads a little large, about 1.3x (estimated). 18k gold tone."},
+    {"file": "03.jpg", "src": "hf_20261021_080605 PNG (alt: macro detail, the crystal bow)", "what": "AI-generated macro on plaster. Clearest bow: 2 heart-cut stones points-in, 1 polished bar over the join, 4 claws at the outer lobes, a gold-tone cup under each stone, round cable links and 2 beads. Faithful. Same image as the ads-500 macro ref."},
+    {"file": "04.jpg", "src": "hf_20261021_080605 PNG (alt: laid flat beside a cardamom pod for scale)", "what": "AI-generated flat lay with a green cardamom pod. Construction right: 6 beads (3 each side), lobster clasp, extender of about 8 larger oval links. Best scale witness: the bow is about 2/3 the pod's length. 18k gold tone."},
+    {"file": "05.jpg", "src": "hf_20261021_081640 PNG (alt: worn on the wrist)", "what": "AI-generated worn shot, the hand flat on ivory linen. Construction right (2 hearts, bar, beads), but the bow reads about 1.3x against the fingernails (estimated about 13 mm)."},
+    {"file": "06.jpg", "src": "hf_20260809_164607 PNG (alt: on a pale plaster plinth)", "what": "AI-generated packshot on a blush ground. Drift: spring-ring clasp, about 14 beads, no extender. Do not use it as a reference."},
+    {"file": "07.jpg", "src": "hf_20260809_171450 PNG (alt: across a handwritten letter)", "what": "AI-generated still life on deckled letter paper with a rose petal. Drift: spring-ring clasp with an oval tag, about 12 beads, a pasted star glint on a stone. Good mood (love letter), wrong hardware. Do not use it as a reference."},
+    {"file": "08.jpg", "src": "ribbon-bead-bracelet-worn-linen", "what": "Worn shot, deep-skin hand on cream linen, cream cuff, window light. Construction right, but the bow is drawn about 1.4x (estimated against the hand's width). Use it for mood only."},
+    {"file": "09.jpg", "src": "ribbon-bead-bracelet-gift", "what": "The bow across a small blush paper-wrapped gift on a cream ground; partial chain with 1-2 beads. Construction right. Shows the gift rhyme directly."},
+    {"file": "10.jpg", "src": "naira-packaging-b13", "what": "Packaging only: the blush Naira Petite box floating on a blush gradient. The piece is not shown."},
+    {"file": "11.jpg", "src": "ribbon-bead-bracelet-size-guide", "what": "Size guide on the supplier photo: bow 1 cm x 0.55 cm, 16-19 cm. Shows the lobster clasp and an extender ending in a small oval logo tag; this sample has about 8 beads at closer spacing."}
+  ]
+}

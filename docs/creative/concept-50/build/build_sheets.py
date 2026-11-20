@@ -68,6 +68,7 @@ for code, idx in zip(vcodes, order):
     info = [f'# Ad {code}', '', f"- Camp idea: {camp.get('name')}. {camp.get('insight', '')}",
             f"- Product: {a['product']}, ₹{int(a['price']):,} (live price, in stock on the day).",
             f"- Reference photos of the real piece (the authority on construction, colour and size): {', '.join(refs)}",
+            f"- Motivation angle: {a.get('angle', '?')} (PAIN = names her problem; OUTCOME = sells the result; OBJECTION = answers a doubt with true proof; OFFER = the direct deal). Funnel layer: {a.get('layer', '?')}.",
             f"- Construction facts the picture must match: {lk}",
             f"- Meta primary text: \"{m.get('primaryText', '')}\"", f"- Meta headline: \"{m.get('headline', '')}\"",
             f"- Meta description: \"{m.get('description', '')}\"", '- CTA: Shop Now; landing page: the product page.',

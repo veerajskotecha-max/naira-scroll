@@ -1,0 +1,59 @@
+{
+  "handle": "molten-panel-bracelet",
+  "title": "Molten Panel Bangle",
+  "price": 999,
+  "stock": 29,
+  "preOrder": true,
+  "category": "Bracelet (closed rigid round bangle, 10 mm wide, covered in small domed oval plates in 5 staggered rows; sold as 1 piece). The handle still says 'bracelet' and the product type is Bracelet, but since 25 Oct the title and copy say bangle.",
+  "metal": "18k gold tone only (description: 'PVD 18K gold coating'; the base metal is not stated). Warm yellow, mirror-polished domed plates, each with its own highlight. There is no silver variant.",
+  "lock": "1 closed rigid round bangle, 10 mm wide; it holds its shape and does not flex. The whole band is small domed oval plates, each about 4 x 2 mm, long side running along the band, set edge to edge in 5 staggered rows like brickwork (rows 2 and 4 offset by half a plate), with tiny gaps between. 0 stones. 18k gold tone, mirror polish. Must stay a slim 10 mm rigid ring of 5 brick-set rows of separate oval plates, never a wide cuff, a flexible watch strap, a mesh or fish scales.",
+  "morph": "The band width and the plate pattern. On 25 Oct, Higgsfield drew this piece 1.5 to 2 times too wide in 5 of 8 takes, and once as a chunky cuff (aditya-jewellery README, J10_Hc, J10_Hd, J10_W1b, J10_W2b, J10_Mb). Until 25 Oct the piece was shot and sold as a flexible 17 cm watch strap with a box clasp, and models drift back to that: a strap with a clasp, rectangular jubilee-style watch links, a mesh, or flat sequin-like fish scales. They also cut the 5 rows down to 3 or 4.",
+  "sizeMm": "Width about 10 mm, give or take 1 mm. Source: description ('Width: Approximately 10mm') and size-guide card 05, where the 10 mm bar spans the 5 rows. Plates about 4 x 2 mm, ESTIMATED against that bar. Inner diameter is NOT listed (the aditya-jewellery README still lists it as open). ESTIMATE from hero 01, where the outer height is about 6 band widths: about 60 mm outside and 55 to 58 mm inside, a standard women's bangle. Body referent: about the width of an index-finger nail. Worn photo 02: the band reads about 11 mm, about a fifth of the wrist's width, and sits loose at the wrist bone.",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/molten-panel-bracelet/01.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/molten-panel-bracelet/02.jpg"
+  ],
+  "mediaIds": [
+    "72962237-d853-43ef-b918-30bcc6919371",
+    "ebab2107-c8b4-4ecb-9102-93734d4bcff0"
+  ],
+  "mediaIdSource": "Both imported to Higgsfield from their Shopify CDN URLs on 2026-11-20 (01 = BSS00028_1.jpg, 02 = BSS00028_2.jpg, ?v=1792962414). ads-500/build/study/products.md and concept-50/plan.json 'locks' have no entry for this handle. Do NOT reuse the performance g3 ids (113231e9-b298-4567-bd8b-b37899022644, d49bace8-52ad-43ae-9a75-34dabcf7eb75, in performance/build/products_g3.json and shots_g3.json). They were taken on 22 Oct from the old photos, which show the flexible 17 cm strap with a box clasp; those photos were replaced in place on 25 Oct. The g3 lock (17 cm, 15 mm wide, flexible, box clasp) is also out of date. Reference 2 is the worn photo, not macro 03. The width is the main drift, and only the wrist shows scale. The macro alone produced a chunky cuff before (J10_Mb).",
+  "claims": "NONE",
+  "variants": "1 variant ('Default Title'), 18k gold tone, stock 29, Rs 999, pre-order. Show the gold; there is nothing else.",
+  "story": "A watch strap without the watch: the listing's own line. It is a rigid gold kada that looks like an articulated link strap. Light hits every small domed plate on its own, so the band flickers like poured, 'molten' gold, or like a row of rice grains set in brickwork. It rhymes with 1970s-80s Italian brick-link and panther-link gold bracelets, the vintage gold watch borrowed from a parent's drawer, and the Indian habit of one solid gold bangle worn every day. Styling on the listing: a mustard satin slip with the hand at the collarbone. Copy tip: alone on the wrist bone, or beside a fine chain bracelet. Under Rs 1,000, so it reads as a quiet heirloom look at an accessible price.",
+  "copyNotes": "Use: Molten Panel Bangle, rigid bangle, holds its round shape, does not flex, about 10 mm wide, small polished oval plates, staggered rows like brickwork, 'a watch strap without the watch', full of light, 18k gold tone, PVD 18K gold coating (a material fact from the listing), pre-order, Rs 999, comes in a Naira Petite box. Avoid: 'bracelet' as the type in body copy; 'flexible', 'drapes', 'articulated', '17 cm', 'box clasp', 'clasp', 'hinged', 'opens', 'adjustable' (none are on the listing; whether it opens is not known); 'cuff'; 'chain' or 'mesh'; 'gold' or 'silver' without 'tone'; 'solid gold'; 'stainless steel' (the base metal is not listed). No claims: there is no Waterproof, Tarnish Free or Hypoallergenic tag, so do not say waterproof, sweatproof, tarnish free, anti-tarnish, hypoallergenic or 'never fades', although the description's plating line says 'anti-tarnish' and 'stands up to sweat'. Also avoid: 'diamond', 'crystal' or 'stones' (it has 0 stones); designer names for link styles (Rolex, President, Jubilee, Panthère, Cartier); the supplier tag KAVNAR. A row count in copy is the owner's call: the 25 Oct copy left it out because the supplier photos disagree (4 vs 5).",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "variant": "Gold",
+      "shows": "Hero packshot. The bangle stands on its rim on a cream plaster cube against a warm beige backdrop, three-quarter view. It is a closed round ring with plates all the way round. 5 staggered rows can be counted on the left arc (3 plates across, then 2 offset). There is a short smooth polished stretch at the top, at 12 o'clock: possibly the hidden closure, but nothing on the listing says it opens. Clearest view of the whole construction. Reference 1."
+    },
+    {
+      "file": "02.jpg",
+      "variant": "Gold",
+      "shows": "Worn on the left wrist, hand on the collarbone and shoulder, mustard satin slip, face cropped at the lips. The band reads about 11 mm on the wrist, about a fifth of its width, and sits loose at the wrist bone. 5 staggered rows across the band. Reference 2 (scale)."
+    },
+    {
+      "file": "03.jpg",
+      "variant": "Gold",
+      "shows": "Macro on the plaster cube. 5 clear rows of domed oval plates, about 1.8:1, mirror-polished, with half-plate offsets. The back of the band, out of focus, shows light through small gaps between plates. Best detail for the plate shape and row count, but it has no scale and makes the band look massive."
+    },
+    {
+      "file": "04.jpg",
+      "variant": "none",
+      "shows": "Packaging: blush NAIRA box on a wet white surface, with its reflection. No product."
+    },
+    {
+      "file": "05.jpg",
+      "variant": "Gold",
+      "shows": "Size-guide card, 1600 x 1600, from size-cards on 28 Oct: macro 03 with a vertical bar labelled '10 mm' across the 5 rows. Text: 'Bangle 10 mm wide · give or take 1 mm'. Scale evidence only; it has a text overlay, so do not use it as a generation reference."
+    },
+    {
+      "file": "06.jpg",
+      "variant": "Gold",
+      "shows": "The same card as 05 (identical file, same md5), downloaded from the image embedded in the description (molten-panel-bracelet-size-guide.jpg). This file was replaced in place on 28 Oct; the old 17 cm strap card is gone."
+    }
+  ],
+  "fidelityNote": "All 3 product photos (01-03) are house frames generated on Higgsfield on 25 Oct (aditya-jewellery J10_Hb, J10_W2c, J10_Mc) from KAVNAR's quotation photo of BSS00028 (aditya-jewellery/refs/J10_kav.jpg). There is no real photograph of the piece on the listing. The supplier photo shows a slightly oval band with flatter, almond-tipped plates in about 4 to 5 rows. The listing frames show a round band with rounder, domed ovals in 5 rows. Lock to the listing frames, because they are what customers see. The draft 'Watch Link Bangle' (watch-link-bracelet, ADT18) uses the same 3 photos.",
+  "sources": "Live Shopify listing (read-only query, 2026-11-20): title, description, tags [Bracelet, Edition One, KAVNAR, pre-order], 1 variant, 5 media plus the size card embedded in the description. aditya-jewellery/README.md ('25 Oct: the Watch Link piece is a rigid bangle'), aditya-jewellery/shopify/molten-panel-before/before.json and after.json, aditya-jewellery/refs/J10_kav.jpg, size-cards/README.md and cards.json, performance/build/products_g3.json (out of date). No section in ads-500/build/study/products.md, no lock in concept-50/plan.json, and no ads-500/build/refs/molten-panel-bracelet__*.jpg or concept-camps refs."
+}
