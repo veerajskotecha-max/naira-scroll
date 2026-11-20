@@ -23,8 +23,9 @@
  @font-face { font-family: 'Jost Lockup'; font-weight: 300 700; src: url('../../../ads-500/kit/fonts/Jost-normal-300_700.woff2') format('woff2');
               ascent-override: 74%; descent-override: 2%; line-gap-override: 0%; }
 
- .tag { position: absolute; left: 0; right: 0; text-align: center; }
- .ftr .rule { height: 1px; background: rgba(228,200,137,.5); margin-bottom: 18px; }
+ .tag, .hl, .bt, .sub, .nm { position: absolute; left: 0; width: 1068px; right: auto; text-align: center; }
+ .ftr .rule { height: 1px; background: rgba(228,200,137,.5); margin-bottom: 16px; }
+ .ftr .r2 { margin-top: 16px; }
  .srow { position: absolute; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 28px; color: var(--bone); }
  .srow .price { font-family: var(--serif); font-weight: 500; font-size: 60px; line-height: 44px; font-variant-numeric: lining-nums; }
  .srow .offer { border-color: var(--gold-light); padding: 12px 18px; }
@@ -37,17 +38,17 @@
  <filter id="tGold" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 0.894  0 0 0 0 0.784  0 0 0 0 0.537  0 0 0 1 0"/></filter>
 </defs></svg>
  <img class="pic" src="pics/k09-2B.png" alt="">
- <img class="fascia" data-m="fascia" src="../../../ads-500/kit/logo_white.png" alt="Naira" style="left:414.6px;top:84px;height:56px">
+ <img class="fascia" data-m="fascia" src="../../../ads-500/kit/logo_white.png" alt="Naira" style="left:408.6px;top:84px;height:56px">
  <div class="trust tag" data-m="trust" style="top:156px;line-height:26px">Free insured shipping · Cash on delivery</div>
- <svg class="board" data-m="tk" aria-label="rate board" style="position:absolute;left:279.5px;top:200px;overflow:visible" width="521.0" height="73.0" viewBox="0 0 521.0 73.0">
+ <svg class="board" data-m="tk" aria-label="rate board" style="position:absolute;left:273.5px;top:200px;overflow:visible" width="521.0" height="73.0" viewBox="0 0 521.0 73.0">
 <defs>
  <linearGradient id="tkal" x1="0" y1="0" x2="1" y2="0.18"><stop offset="0" stop-color="#DAD5CC"/><stop offset=".34" stop-color="#8E8982"/><stop offset=".62" stop-color="#EFEAE2"/><stop offset="1" stop-color="#9A958D"/></linearGradient>
  <filter id="tkbr" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.006 1.1" numOctaves="2" seed="7"/><feColorMatrix type="matrix" values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
  <filter id="tksh" x="-20%" y="-40%" width="140%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#080403" flood-opacity=".8"/></filter>
- <radialGradient id="tkls" cx=".46" cy=".42" r=".62"><stop offset="0" stop-color="#FFE6B2"/><stop offset=".42" stop-color="#E8A33A"/><stop offset="1" stop-color="#C8664A"/></radialGradient>
+ <radialGradient id="tkls" cx=".46" cy=".42" r=".62"><stop offset="0" stop-color="#FFEBC0"/><stop offset=".5" stop-color="#F0AC42"/><stop offset="1" stop-color="#C8664A"/></radialGradient>
  <radialGradient id="tklg" cx=".46" cy=".42" r=".62"><stop offset="0" stop-color="#FFF6E0"/><stop offset=".45" stop-color="#E4C889"/><stop offset="1" stop-color="#B08A4E"/></radialGradient>
  <radialGradient id="tksc" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#F6F2EA"/><stop offset=".6" stop-color="#A9A39A"/><stop offset="1" stop-color="#5E5952"/></radialGradient>
- <filter id="tkgl" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="3.0" result="b"/><feComponentTransfer in="b" result="b2"><feFuncA type="linear" slope=".6"/></feComponentTransfer><feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="tkgl" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="3.0" result="b"/><feComponentTransfer in="b" result="b2"><feFuncA type="linear" slope=".75"/></feComponentTransfer><feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <g filter="url(#tksh)"><rect x="0" y="0" width="521.0" height="73.0" rx="3" fill="url(#tkal)"/></g>
 <rect x="0" y="0" width="521.0" height="73.0" rx="3" fill="#999" filter="url(#tkbr)" style="mix-blend-mode:soft-light"/>
@@ -66,7 +67,7 @@
 <rect x="262.5" y="17.0" width="1" height="39" fill="#E4C889" fill-opacity=".45"/><rect x="263.5" y="17.0" width="1" height="39" fill="#000" fill-opacity=".7"/>
 <g filter="url(#tkgl)" fill="url(#tkls)"><circle cx="273.00" cy="21.50" r="2.0"/><circle cx="293.00" cy="21.50" r="2.0"/><circle cx="273.00" cy="26.50" r="2.0"/><circle cx="288.00" cy="26.50" r="2.0"/><circle cx="273.00" cy="31.50" r="2.0"/><circle cx="283.00" cy="31.50" r="2.0"/><circle cx="273.00" cy="36.50" r="2.0"/><circle cx="278.00" cy="36.50" r="2.0"/><circle cx="273.00" cy="41.50" r="2.0"/><circle cx="283.00" cy="41.50" r="2.0"/><circle cx="273.00" cy="46.50" r="2.0"/><circle cx="288.00" cy="46.50" r="2.0"/><circle cx="273.00" cy="51.50" r="2.0"/><circle cx="293.00" cy="51.50" r="2.0"/><circle cx="308.00" cy="21.50" r="2.0"/><circle cx="313.00" cy="21.50" r="2.0"/><circle cx="318.00" cy="21.50" r="2.0"/><circle cx="303.00" cy="26.50" r="2.0"/><circle cx="323.00" cy="26.50" r="2.0"/><circle cx="303.00" cy="31.50" r="2.0"/><circle cx="323.00" cy="31.50" r="2.0"/><circle cx="303.00" cy="36.50" r="2.0"/><circle cx="308.00" cy="36.50" r="2.0"/><circle cx="313.00" cy="36.50" r="2.0"/><circle cx="318.00" cy="36.50" r="2.0"/><circle cx="323.00" cy="36.50" r="2.0"/><circle cx="303.00" cy="41.50" r="2.0"/><circle cx="323.00" cy="41.50" r="2.0"/><circle cx="303.00" cy="46.50" r="2.0"/><circle cx="323.00" cy="46.50" r="2.0"/><circle cx="303.00" cy="51.50" r="2.0"/><circle cx="323.00" cy="51.50" r="2.0"/><circle cx="333.00" cy="21.50" r="2.0"/><circle cx="333.00" cy="26.50" r="2.0"/><circle cx="333.00" cy="31.50" r="2.0"/><circle cx="333.00" cy="36.50" r="2.0"/><circle cx="333.00" cy="41.50" r="2.0"/><circle cx="333.00" cy="46.50" r="2.0"/><circle cx="333.00" cy="51.50" r="2.0"/><circle cx="338.00" cy="51.50" r="2.0"/><circle cx="343.00" cy="51.50" r="2.0"/><circle cx="348.00" cy="51.50" r="2.0"/><circle cx="353.00" cy="51.50" r="2.0"/><circle cx="378.00" cy="21.50" r="2.0"/><circle cx="383.00" cy="21.50" r="2.0"/><circle cx="388.00" cy="21.50" r="2.0"/><circle cx="393.00" cy="21.50" r="2.0"/><circle cx="398.00" cy="21.50" r="2.0"/><circle cx="393.00" cy="26.50" r="2.0"/><circle cx="378.00" cy="31.50" r="2.0"/><circle cx="383.00" cy="31.50" r="2.0"/><circle cx="388.00" cy="31.50" r="2.0"/><circle cx="393.00" cy="31.50" r="2.0"/><circle cx="398.00" cy="31.50" r="2.0"/><circle cx="393.00" cy="36.50" r="2.0"/><circle cx="378.00" cy="41.50" r="2.0"/><circle cx="383.00" cy="41.50" r="2.0"/><circle cx="388.00" cy="41.50" r="2.0"/><circle cx="388.00" cy="46.50" r="2.0"/><circle cx="393.00" cy="46.50" r="2.0"/><circle cx="393.00" cy="51.50" r="2.0"/><circle cx="398.00" cy="51.50" r="2.0"/><circle cx="413.00" cy="21.50" r="2.0"/><circle cx="418.00" cy="21.50" r="2.0"/><circle cx="423.00" cy="21.50" r="2.0"/><circle cx="408.00" cy="26.50" r="2.0"/><circle cx="428.00" cy="26.50" r="2.0"/><circle cx="408.00" cy="31.50" r="2.0"/><circle cx="428.00" cy="31.50" r="2.0"/><circle cx="413.00" cy="36.50" r="2.0"/><circle cx="418.00" cy="36.50" r="2.0"/><circle cx="423.00" cy="36.50" r="2.0"/><circle cx="428.00" cy="36.50" r="2.0"/><circle cx="428.00" cy="41.50" r="2.0"/><circle cx="423.00" cy="46.50" r="2.0"/><circle cx="413.00" cy="51.50" r="2.0"/><circle cx="418.00" cy="51.50" r="2.0"/><circle cx="443.00" cy="21.50" r="2.0"/><circle cx="448.00" cy="21.50" r="2.0"/><circle cx="453.00" cy="21.50" r="2.0"/><circle cx="438.00" cy="26.50" r="2.0"/><circle cx="458.00" cy="26.50" r="2.0"/><circle cx="438.00" cy="31.50" r="2.0"/><circle cx="458.00" cy="31.50" r="2.0"/><circle cx="443.00" cy="36.50" r="2.0"/><circle cx="448.00" cy="36.50" r="2.0"/><circle cx="453.00" cy="36.50" r="2.0"/><circle cx="458.00" cy="36.50" r="2.0"/><circle cx="458.00" cy="41.50" r="2.0"/><circle cx="453.00" cy="46.50" r="2.0"/><circle cx="443.00" cy="51.50" r="2.0"/><circle cx="448.00" cy="51.50" r="2.0"/><circle cx="473.00" cy="21.50" r="2.0"/><circle cx="478.00" cy="21.50" r="2.0"/><circle cx="483.00" cy="21.50" r="2.0"/><circle cx="468.00" cy="26.50" r="2.0"/><circle cx="488.00" cy="26.50" r="2.0"/><circle cx="468.00" cy="31.50" r="2.0"/><circle cx="488.00" cy="31.50" r="2.0"/><circle cx="473.00" cy="36.50" r="2.0"/><circle cx="478.00" cy="36.50" r="2.0"/><circle cx="483.00" cy="36.50" r="2.0"/><circle cx="488.00" cy="36.50" r="2.0"/><circle cx="488.00" cy="41.50" r="2.0"/><circle cx="483.00" cy="46.50" r="2.0"/><circle cx="473.00" cy="51.50" r="2.0"/><circle cx="478.00" cy="51.50" r="2.0"/></g>
 </svg>
- <p class="h1 hl" data-m="h1" style="top:300px;font-size:88px;line-height:84px">Ek se bhale<br><span class="g">teen.</span></p>
+ <p class="h1 hl" data-m="h1" style="top:304px;font-size:84px;line-height:82px">Ek se bhale<br><span class="g">teen.</span></p>
  <p class="beat bt" data-m="beat" style="top:474px;font-size:42px;line-height:48px">the saying says two.<br>the rate says three.</p>
  <svg class="overlay" viewBox="0 0 1080 1350" style="height:1350px">
   <g font-family="Jost Lockup" font-weight="500" fill="#F4F0E8">
@@ -75,7 +76,8 @@
    <text data-m="off" x="743.3" y="1023.8" font-size="111.0" letter-spacing="-1.0">OFF</text>
   </g></svg>
  <div class="sub" data-m="sub" style="top:1044px">Any three pieces<span class="d"></span>Code BUY3</div>
- <div class="ftr" data-m="card" style="top:1102px">
+ <div class="ftr" data-m="card" style="top:1094px">
+  <div class="rule"></div>
   <div class="r1"><b>Toggle Link Chain.</b> Toggle ring about 22 mm · chain 50 cm, 4 mm</div>
   <div class="r2"><span class="price">₹999</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
  </div>
