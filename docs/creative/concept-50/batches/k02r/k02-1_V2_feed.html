@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!--
+draft
+-->
+<style>
+ body { background: #140D0B; }
+ svg.fx { position: absolute; left: 0; top: 0; width: 1080px; pointer-events: none; overflow: visible; }
+ svg.scr { mix-blend-mode: screen; }
+ .osd { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
+ .osd .rec { display: flex; align-items: center; gap: 14px; font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 1; }
+ .osd .rec svg { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
+ .osd .tape { margin-top: 12px; font-weight: 400; font-size: 26px; letter-spacing: .14em; line-height: 1; }
+ .bug { position: absolute; right: 72px; height: 56px; opacity: .88; }
+ .super { position: absolute; margin: 0; font-family: var(--display); text-transform: uppercase; font-weight: 400; line-height: .96;
+          letter-spacing: .04em; color: var(--gold-light); white-space: nowrap; font-variant-ligatures: none;
+          font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
+          -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
+ .super .fs { display: inline-block; width: .42em; height: .42em; vertical-align: baseline; margin-left: .03em; overflow: visible;
+              filter: drop-shadow(0 6px 10px rgba(59,38,32,.7)); }
+ .sub { position: absolute; margin: 0; font-family: var(--serif); font-style: italic; font-weight: 500; color: var(--bone);
+        line-height: 1.1; white-space: nowrap; text-shadow: 0 2px 12px rgba(20,13,11,.55); }
+ .l3 { position: absolute; left: 0; right: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
+ .l3 .in { position: absolute; left: 72px; right: 72px; }
+ .l3 .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; color: var(--bone);
+             white-space: nowrap; line-height: 1; }
+ .l3 .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; color: var(--bone); white-space: nowrap; line-height: 1.15; }
+ .l3 .price { position: absolute; right: 0; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 1; color: var(--gold-light);
+              white-space: nowrap; font-variant-numeric: lining-nums; }
+ .l3 .offer { color: var(--bone); white-space: nowrap; padding: 13px 22px; line-height: 1; }
+ .l3 .trust { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; color: var(--bone);
+              white-space: nowrap; line-height: 1; }
+
+ .pic { object-position: 50% 36%; }
+ .t { right: 364px; top: 452px; font-size: 100px; text-align: right; }
+ .b { right: 364px; top: 662px; font-size: 42px; text-align: right; }
+ .l3 { top: 1010px; height: 256px; }
+</style></head>
+<body class="dark">
+<img class="pic" src="pics/k02-1A.png">
+<svg class="fx scr" viewBox="0 0 1080 1350" height="1350"><defs><radialGradient id="bloom"><stop offset="0" stop-color="#FFF6E2" stop-opacity=".75"/><stop offset=".45" stop-color="#E4C889" stop-opacity=".28"/><stop offset="1" stop-color="#E4C889" stop-opacity="0"/></radialGradient><filter id="glow" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="6"/></filter></defs><g transform="translate(25.6 338.4) rotate(22)" opacity="1.00"><circle r="17.6" fill="url(#bloom)"/><path d="M0.00 -42.00 C2.10 -2.10 2.10 -2.10 42.00 0.00 C2.10 2.10 2.10 2.10 0.00 42.00 C-2.10 2.10 -2.10 2.10 -42.00 0.00 C-2.10 -2.10 -2.10 -2.10 0.00 -42.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -40.32 C1.18 -1.18 1.18 -1.18 40.32 0.00 C1.18 1.18 1.18 1.18 0.00 40.32 C-1.18 1.18 -1.18 1.18 -40.32 0.00 C-1.18 -1.18 -1.18 -1.18 0.00 -40.32Z" fill="#FFFBF2"/><circle r="2.9" fill="#FFFFFF"/></g><g transform="translate(171.9 580.0) rotate(22)" opacity="1.00"><circle r="20.2" fill="url(#bloom)"/><path d="M0.00 -48.00 C2.40 -2.40 2.40 -2.40 48.00 0.00 C2.40 2.40 2.40 2.40 0.00 48.00 C-2.40 2.40 -2.40 2.40 -48.00 0.00 C-2.40 -2.40 -2.40 -2.40 0.00 -48.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -46.08 C1.34 -1.34 1.34 -1.34 46.08 0.00 C1.34 1.34 1.34 1.34 0.00 46.08 C-1.34 1.34 -1.34 1.34 -46.08 0.00 C-1.34 -1.34 -1.34 -1.34 0.00 -46.08Z" fill="#FFFBF2"/><circle r="3.4" fill="#FFFFFF"/></g><g transform="translate(59.0 631.9) rotate(22)" opacity="1.00"><circle r="9.7" fill="url(#bloom)"/><path d="M0.00 -23.00 C1.15 -1.15 1.15 -1.15 23.00 0.00 C1.15 1.15 1.15 1.15 0.00 23.00 C-1.15 1.15 -1.15 1.15 -23.00 0.00 C-1.15 -1.15 -1.15 -1.15 0.00 -23.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -22.08 C0.64 -0.64 0.64 -0.64 22.08 0.00 C0.64 0.64 0.64 0.64 0.00 22.08 C-0.64 0.64 -0.64 0.64 -22.08 0.00 C-0.64 -0.64 -0.64 -0.64 0.00 -22.08Z" fill="#FFFBF2"/><circle r="1.6" fill="#FFFFFF"/></g><g transform="translate(14.9 710.8) rotate(22)" opacity="1.00"><circle r="8.4" fill="url(#bloom)"/><path d="M0.00 -20.00 C1.00 -1.00 1.00 -1.00 20.00 0.00 C1.00 1.00 1.00 1.00 0.00 20.00 C-1.00 1.00 -1.00 1.00 -20.00 0.00 C-1.00 -1.00 -1.00 -1.00 0.00 -20.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -19.20 C0.56 -0.56 0.56 -0.56 19.20 0.00 C0.56 0.56 0.56 0.56 0.00 19.20 C-0.56 0.56 -0.56 0.56 -19.20 0.00 C-0.56 -0.56 -0.56 -0.56 0.00 -19.20Z" fill="#FFFBF2"/><circle r="1.6" fill="#FFFFFF"/></g><g transform="translate(194.0 819.5) rotate(22)" opacity="1.00"><circle r="16.0" fill="url(#bloom)"/><path d="M0.00 -38.00 C1.90 -1.90 1.90 -1.90 38.00 0.00 C1.90 1.90 1.90 1.90 0.00 38.00 C-1.90 1.90 -1.90 1.90 -38.00 0.00 C-1.90 -1.90 -1.90 -1.90 0.00 -38.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -36.48 C1.06 -1.06 1.06 -1.06 36.48 0.00 C1.06 1.06 1.06 1.06 0.00 36.48 C-1.06 1.06 -1.06 1.06 -36.48 0.00 C-1.06 -1.06 -1.06 -1.06 0.00 -36.48Z" fill="#FFFBF2"/><circle r="2.7" fill="#FFFFFF"/></g><g transform="translate(42.6 867.8) rotate(22)" opacity="1.00"><circle r="12.2" fill="url(#bloom)"/><path d="M0.00 -29.00 C1.45 -1.45 1.45 -1.45 29.00 0.00 C1.45 1.45 1.45 1.45 0.00 29.00 C-1.45 1.45 -1.45 1.45 -29.00 0.00 C-1.45 -1.45 -1.45 -1.45 0.00 -29.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -27.84 C0.81 -0.81 0.81 -0.81 27.84 0.00 C0.81 0.81 0.81 0.81 0.00 27.84 C-0.81 0.81 -0.81 0.81 -27.84 0.00 C-0.81 -0.81 -0.81 -0.81 0.00 -27.84Z" fill="#FFFBF2"/><circle r="2.0" fill="#FFFFFF"/></g><g transform="translate(51.9 985.0) rotate(22)" opacity="1.00"><circle r="8.4" fill="url(#bloom)"/><path d="M0.00 -20.00 C1.00 -1.00 1.00 -1.00 20.00 0.00 C1.00 1.00 1.00 1.00 0.00 20.00 C-1.00 1.00 -1.00 1.00 -20.00 0.00 C-1.00 -1.00 -1.00 -1.00 0.00 -20.00Z" fill="#E4C889" filter="url(#glow)" opacity=".9"/><path d="M0.00 -19.20 C0.56 -0.56 0.56 -0.56 19.20 0.00 C0.56 0.56 0.56 0.56 0.00 19.20 C-0.56 0.56 -0.56 0.56 -19.20 0.00 C-0.56 -0.56 -0.56 -0.56 0.00 -19.20Z" fill="#FFFBF2"/><circle r="1.6" fill="#FFFFFF"/></g></svg>
+<svg class="fx" viewBox="0 0 1080 1350" height="1350"><path d="M40 88 V48 H80 M1040 88 V48 H1000 M40 1262 V1302 H80 M1040 1262 V1302 H1000" fill="none" stroke="#F4F0E8" stroke-width="2" stroke-opacity=".92"/></svg>
+<div class="osd" style="top:84px"><div class="rec"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
+<img class="bug" style="top:84px" src="../../../ads-500/kit/logo_white.png">
+<p class="super t">No filter<br>needed<svg class="fs" viewBox="-20 -20 40 40" aria-hidden="true"><g transform="rotate(22)"><path d="M0.00 -19.00 Q2.20 -2.20 19.00 0.00 Q2.20 2.20 0.00 19.00 Q-2.20 2.20 -19.00 0.00 Q-2.20 -2.20 0.00 -19.00Z" fill="#E4C889" stroke="#F4F0E8" stroke-width="1.6" paint-order="stroke"/></g></svg></p>
+<p class="sub b">Four pear-cut stones find<br>every fairy light on their own.</p>
+<div class="l3"><div class="in" style="top:26px"><div class="name" style="padding-top:20px">Quatrefoil Éclat Studs</div><div class="price" style="top:0">₹1,099</div><div class="line" style="margin-top:14px">Four pear-cut stones in a pavé outline · 18k gold tone · 15 mm</div><div class="offer" style="margin-top:16px">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div><div class="trust" style="margin-top:16px">Free insured shipping · Cash on delivery</div></div></div>
+</body></html>

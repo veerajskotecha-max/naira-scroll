@@ -39,3 +39,7 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
    words ("six pearls, 6, never seven").
 10. **Scale under the new models** is better but still drifts on necklaces at the neck (1.3-1.8x) and small bows on wrists
     (1.4x): give two body referents, not one, and the field of view in cm.
+11. **Toggle scale reference.** Every Toggle Link Chain take now carries a third reference, the listing's studio worn photo
+    (`products/toggle-link-chain.json` "scaleRef", media id 94bfe9cf-8809-4bc6-959d-4b31d8f80139): "Reference 3 shows this
+    exact necklace worn on a woman at true size: match its scale against the neck and collarbone exactly". The same move (a
+    worn listing photo as reference 3) is worth using for any piece that keeps drifting large, when the listing has one.
