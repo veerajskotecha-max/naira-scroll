@@ -32,5 +32,10 @@
     {"file": "05.jpg", "shows": "Packaging: the blush Naira Petite gift box on a wet white surface. The product is not visible."},
     {"file": "06.jpg", "shows": "Size guide: photo 03 with a 35 mm bar, a 10 mm ruler and the text '35 mm across, oval stones 5 mm. Measurements are approximate, give or take 1 mm.' Use as scale evidence only; the text overlay makes it unsuitable as a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only queries on 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, SKU, compare-at price, 6 images); performance/build/colour_refs.json, colour50.json and colour_dropped.json (October colour run, ad 33); edition-one/build/skus.json. That file's description of this SKU ('round brilliants shared-prong set... eternity huggie') is the older piece and is wrong for the live listing, so do not use it."
+  "sources": "Live Shopify listing (read-only queries on 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, SKU, compare-at price, 6 images); performance/build/colour_refs.json, colour50.json and colour_dropped.json (October colour run, ad 33); edition-one/build/skus.json. That file's description of this SKU ('round brilliants shared-prong set... eternity huggie') is the older piece and is wrong for the live listing, so do not use it.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/riviere-huggies-silver/02_scale_crop.jpg",
+    "mediaId": "0df53632-fd5e-4281-a049-eade13e1c970",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn on the earlobe at true size (35 mm across with 5 mm oval stones: the hoop hangs about 3.5 cm from the piercing, a little over half the ear's height, about 1.3 times a Rs 10 coin, a statement hoop and not a huggie): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

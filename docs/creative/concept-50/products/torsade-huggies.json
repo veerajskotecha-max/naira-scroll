@@ -30,5 +30,10 @@
     {"file": "04.jpg", "shows": "Packaging: the blush NAIRA gift box with a pink satin ribbon on white. No product visible."},
     {"file": "05.jpg", "shows": "Size guide: the pair standing on a plaster block, the left hoop face-on (full circle, the wire post across the top quarter, ridges all round) and the right side-on, with 20 mm and 18 mm bars, a 10 mm ruler and 'Measurements are approximate, give or take 1 mm'. The clearest construction view, but its text overlay rules it out as a generation reference. Use it to check verifications."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, 5 images); edition-one/build/skus.json and media_ids.json (old SKU E156970, Rs 1,799, earlier media ids); performance/build/colour50.json, colour_dropped.json and handoff/manifest.json (shot 27, a scale lesson and old prices); shop-all research pool (old price Rs 1,199)."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant, 5 images); edition-one/build/skus.json and media_ids.json (old SKU E156970, Rs 1,799, earlier media ids); performance/build/colour50.json, colour_dropped.json and handoff/manifest.json (shot 27, a scale lesson and old prices); shop-all research pool (old price Rs 1,199).",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/torsade-huggies/03_scale_crop.jpg",
+    "mediaId": "3c041964-645a-4556-be11-5d61f9818d58",
+    "use": "Add as reference 3: \"Reference 3 shows this exact huggie worn in the earlobe at true size (20 x 18 mm, about a Rs 1 coin, a 4-5 mm twisted tube; it hangs from the piercing to just below the lobe, well under half the ear's height): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

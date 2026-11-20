@@ -34,5 +34,10 @@
     {"file": "05.jpg", "src": "naira-packaging-b15 (alt: blush gift box against a bone wall)", "variant": "none", "what": "Packaging only: the blush Naira Petite drawer box with a grey NAIRA wordmark and a black insert, standing on edge, drawer half open. The piece is not shown. Use it for GIFT frames."},
     {"file": "06.jpg", "src": "serpentine-whisper-chain-size-guide (alt 'Size guide — Serpentine Whisper Chain'); 1600 px, resized", "variant": "none", "what": "Size guide: 40 cm solid line at the base of the neck, 45 cm with the extender dotted a little lower, against 36 cm choker, 50 cm mid-chest and 60 cm matinee. It says '40 + 5 cm · base of the neck' and 'give or take 1 cm'. The diagram is drawn in a gold-brown line."}
   ],
-  "finish": "Warm, buttery, high-polish 18k gold tone (yellow, never orange, brassy or rose). The snake chain's fine chevron scale ridges carry one continuous line of light. The tube end caps, bail and prongs are smooth mirror surfaces. The stone is a clear, fully faceted cushion with a crushed-ice pattern, crisp white sparkle and faint fire."
+  "finish": "Warm, buttery, high-polish 18k gold tone (yellow, never orange, brassy or rose). The snake chain's fine chevron scale ridges carry one continuous line of light. The tube end caps, bail and prongs are smooth mirror surfaces. The stone is a clear, fully faceted cushion with a crushed-ice pattern, crisp white sparkle and faint fire.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/serpentine-whisper-chain/03_scale_crop.jpg",
+    "mediaId": "e34976a9-00f2-43d5-986d-d5de6ac93a11",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece beside a green cardamom pod at true size (a 10 mm cushion stone on a 2 mm snake chain: the stone is about two thirds the pod's length, about a little fingernail or half a Rs 1 coin, and the chain is as thick as a strand of spaghetti): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

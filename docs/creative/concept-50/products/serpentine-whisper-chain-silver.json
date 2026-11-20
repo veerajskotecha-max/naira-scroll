@@ -31,5 +31,10 @@
     {"file": "04.jpg", "src": "naira-packaging-b13", "what": "Packaging only: the blush Naira Petite box floating on a blush gradient. The piece is not shown."},
     {"file": "05.jpg", "src": "serpentine-whisper-chain-silver-size-guide", "what": "Size guide: 40 cm at the base of the neck, 45 cm with the extender, against 36/50/60 cm. The diagram is drawn in a gold-brown line; that is the guide's style, not the metal."}
   ],
-  "finish": "Bright, cool, high-polish rhodium silver tone; the snake chain's fine diagonal ridges catch a continuous line of light; the bail is a smooth mirror surface; the stone is a clear, fully faceted cushion with crisp sparkle."
+  "finish": "Bright, cool, high-polish rhodium silver tone; the snake chain's fine diagonal ridges catch a continuous line of light; the bail is a smooth mirror surface; the stone is a clear, fully faceted cushion with crisp sparkle.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/serpentine-whisper-chain-silver/02_scale_crop.jpg",
+    "mediaId": "8503d83e-d985-46e2-af55-2357038a6665",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn at the base of the neck at true size (40 cm, 2 mm snake chain sitting at the base of the neck, as thick as a strand of spaghetti; the 10 mm cushion stone rests in the notch between the collarbones, about a little fingernail or half a Rs 1 coin, 5 times the chain's thickness): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

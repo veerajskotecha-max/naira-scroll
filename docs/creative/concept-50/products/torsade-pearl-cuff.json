@@ -64,5 +64,10 @@
       "shows": "Size guide graphic: an open ring seen from above, '17 cm end to end, along the cuff', 'open back', 'Slip it on sideways at the narrowest part of your wrist', 'give or take 1 mm'. Scale evidence only; text overlay, not a generation reference."
     }
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Bracelet / Edition One / KAVNAR / pre-order, 1 variant, 8 media); performance/build/products_g3.json and shots_g3.json, crazy3.json and copy.json (the earlier lock, ids, renders and ad lines, from a 22 Oct read at Rs 1,399 and stock 30). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this handle."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags Bracelet / Edition One / KAVNAR / pre-order, 1 variant, 8 media); performance/build/products_g3.json and shots_g3.json, crazy3.json and copy.json (the earlier lock, ids, renders and ad lines, from a 22 Oct read at Rs 1,399 and stock 30). products.md, concept-50/plan.json locks, ads-500/build/refs and concept-camps/build/refs have nothing for this handle.",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/torsade-pearl-cuff/06.jpg",
+    "mediaId": "13ba04a5-3328-4fdf-be5d-1a43f4f76fad",
+    "use": "Add as reference 3: \"Reference 3 shows this exact piece worn on a bare wrist with the whole hand in frame at true size (17 cm end to end, a 5 mm twisted cable and two pearls of about 11 mm; it sits at the narrowest part of the wrist with the opening on top, each pearl about a fingernail wide, the cable thinner than a pencil and far thinner than a finger): match that scale exactly; copy only the scale, never a face.\""
+  }
 }

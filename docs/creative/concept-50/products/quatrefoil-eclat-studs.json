@@ -29,5 +29,10 @@
     {"file": "04.jpg", "shows": "Packaging: blush Naira gift box on travertine in hard sun. No product."},
     {"file": "05.jpg", "shows": "Size guide: the 01 packshot with a 15 mm bar and a 10 mm ruler; text 'Stud 15 mm, tip to tip', give or take 1 mm. Scale evidence. It has a text overlay, so do not use it as a generation reference."}
   ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20): title, description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant at 1099 with stock 23, and 5 media. ads-500/build/study/products.md has no section for this handle, concept-50/plan.json has no lock for it, and there are no ads-500 refs for it. Cross-checked against performance/build/products_g4.json (old lock: four-pointed star, 4 pears, round centre, 15 mm, but price 1299 and stock 30), performance/CRAZY.md (C15, C45), performance/COLOUR50.md (#25), ads-500/build/study/ours.md (crazy15 lost in the prop) and finished-ads/review_r6, r8 and r10 (quatrefoil1: the 'pavé and pear-cut stones.' correction and the 8.5 cap for having no jaali)."
+  "sources": "Live Shopify listing (read-only query, 2026-11-20): title, description, tags Earrings / Edition One / KAVNAR / pre-order, 1 variant at 1099 with stock 23, and 5 media. ads-500/build/study/products.md has no section for this handle, concept-50/plan.json has no lock for it, and there are no ads-500 refs for it. Cross-checked against performance/build/products_g4.json (old lock: four-pointed star, 4 pears, round centre, 15 mm, but price 1299 and stock 30), performance/CRAZY.md (C15, C45), performance/COLOUR50.md (#25), ads-500/build/study/ours.md (crazy15 lost in the prop) and finished-ads/review_r6, r8 and r10 (quatrefoil1: the 'pavé and pear-cut stones.' correction and the 8.5 cap for having no jaali).",
+  "scaleRef": {
+    "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/quatrefoil-eclat-studs/02_scale_crop.jpg",
+    "mediaId": "83df284e-55e0-44ad-bbfb-c7abe5157f0f",
+    "use": "Add as reference 3: \"Reference 3 shows this exact stud worn tip-down on the earlobe at true size (15 mm tip to tip, about a shirt button or three quarters of a Rs 1 coin: it covers most of the lobe without spreading past it, small against the whole ear): match that scale exactly; copy only the scale, never a face.\""
+  }
 }
