@@ -9,9 +9,16 @@ from PIL import Image, ImageDraw, ImageFont
 bdir, vpath, out, keyp, seed = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], int(sys.argv[5])
 C = '/home/user/naira-scroll/docs/creative'
 V = json.load(open(vpath))
-PLANF = os.environ.get('C50_PLAN', C + '/concept-50/crazy10.json')
+PLANF = os.environ.get('C50_PLAN', C + '/concept-50/crazy100.json')
 plan = json.load(open(PLANF))
 locks = json.load(open(C + '/concept-50/plan.json')).get('locks', {})
+import glob as _gl
+CARDS = {}
+for _f in _gl.glob(C + '/concept-50/products/*.json'):
+    try:
+        _c = json.load(open(_f)); CARDS[_c['handle']] = _c
+    except Exception:
+        pass
 PROD = {'toggle-link-chain': ('Toggle Link Chain', 999), 'woven-gold-hoops': ('Woven Gold Hoops', 1049), 'brushed-gold-huggies': ('Brushed Gold Huggies', 699),
         'verdant-eternity-band': ('Verdant Eternity Band', 1049), 'cushion-halo-ring': ('Cushion Halo Ring', 999), 'prism-riviere-bracelet': ('Prism Rivière Bracelet', 2399),
         'verdant-circlet-studs': ('Verdant Circlet Studs', 899), 'halo-curve-ring': ('Halo Curve Ring', 899), 'pearl-double-halo-studs': ('Pearl Double Halo Studs', 1199),
@@ -22,7 +29,10 @@ for c in plan['camps']:
     for a in c['ads']:
         aid = a.get('id') or f"{c['id']}-{a.get('card')}"
         h = a.get('handle') or a.get('product')
-        a = dict(a, id=aid, handle=h, product=PROD.get(h, (a.get('product'), 0))[0], price=a.get('price') or PROD.get(h, ('', 0))[1])
+        cd = CARDS.get(h, {})
+        a = dict(a, id=aid, handle=h, product=cd.get('title') or PROD.get(h, (a.get('product'), 0))[0], price=a.get('price') or cd.get('price') or PROD.get(h, ('', 0))[1])
+        if cd.get('refs'):
+            a['refs'] = {'slot1': cd['refs'][0], 'slot2': cd['refs'][1] if len(cd['refs']) > 1 else ''}
         if not a.get('refs') or not isinstance(a.get('refs'), dict):
             import glob as _g
             fs = sorted(_g.glob(f"{C}/ads-500/build/refs/{h}__*.jpg"))[:2]
@@ -49,12 +59,14 @@ for code, idx in zip(vcodes, order):
     v = V[idx]; a = ads[v['ad']]; camp = camps[v['ad']]
     d = f'{out}/packs/{code}'; os.makedirs(d)
     shutil.copyfile(v['feed'], d + '/feed.jpg'); shutil.copyfile(v['story'], d + '/story.jpg')
-    lk = locks.get(a['handle'], '')
+    lk = CARDS.get(a['handle'], {}).get('lock') or locks.get(a['handle'], '')
+    if CARDS.get(a['handle'], {}).get('sizeMm'):
+        lk += ' Listed size: ' + str(CARDS[a['handle']]['sizeMm']) + '. Claims allowed: ' + str(CARDS[a['handle']].get('claims'))
     lk = lk if isinstance(lk, str) else json.dumps(lk, ensure_ascii=False)
     refs = [(r if r.startswith('/') else f"{C}/{r.split('docs/creative/')[-1]}") for r in (a['refs'].get('slot1'), a['refs'].get('slot2')) if r]
     m = v.get('meta', {})
     info = [f'# Ad {code}', '', f"- Camp idea: {camp.get('name')}. {camp.get('insight', '')}",
-            f"- Product: {a['product']}, ₹{a['price']:,} (live price, stock 20+ read on the day).",
+            f"- Product: {a['product']}, ₹{int(a['price']):,} (live price, in stock on the day).",
             f"- Reference photos of the real piece (the authority on construction, colour and size): {', '.join(refs)}",
             f"- Construction facts the picture must match: {lk}",
             f"- Meta primary text: \"{m.get('primaryText', '')}\"", f"- Meta headline: \"{m.get('headline', '')}\"",
