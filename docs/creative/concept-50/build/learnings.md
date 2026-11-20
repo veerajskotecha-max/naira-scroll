@@ -74,3 +74,16 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
 19. **Hook to picture.** "NOT OUT." with the "RING NOT OUT / MILK OUT" tags was the strongest hook, but it lost because the
     picture could not carry it at 200 px. Keep the type system to one device plus the footer; the kicker line, a two-line
     headline, one subline, one device, the card.
+
+## Second rating (k01a, k01-4 Baroque Shell Bracelet: expert 6.73, customer 6.38, gate failed)
+
+20. **At most 6 text elements per Feed.** About 14 elements (two kicker lines, headline, eye-chart numbers, stamp, quote,
+    FIG. callout with its own quote, lens callout, an outline strip with two labels, a five-line card) capped "message" at 6
+    with every critic. The six: (1) one kicker line, (2) the two-line headline, (3) one subline, (4) ONE device with at most
+    one label, (5) the card (name, price, offer box), (6) the footer trust line. Everything else goes, however clever.
+21. **The payoff line sits under the headline,** never at the bottom: "EK BHI MATCH NAHI KARTA." reads as a complaint until
+    "Isiliye toh liya." answers it, so the answer must be read second, not last.
+22. **The prop must prove the headline.** "BHAARI HAI. ACHHA HAI." (weight) over a sight-test picture lost on fit; a weight
+    hook needs a weighing picture (the piece pooled in an open palm or on a balance). Pick the hook the picture proves.
+23. **Show the whole piece.** A bracelet whose 8 mismatched pearls are the selling point must show all 8; a lens or frame may
+    magnify one or two, never hide the rest.

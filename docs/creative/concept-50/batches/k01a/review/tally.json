@@ -1,0 +1,312 @@
+{
+ "rows": {
+  "C6": {
+   "ad": "k01-4",
+   "variant": "V3",
+   "expertMean": 6.49,
+   "dims": {
+    "stop": 5.33,
+    "message": 5.33,
+    "truth": 7.33,
+    "layout": 6.33,
+    "brand": 7.83,
+    "copy": 6.83,
+    "fit": 7.33,
+    "desire": 5.5,
+    "cues": 7.33,
+    "crazy": 7.0
+   },
+   "perCritic": {
+    "perf": 5.96,
+    "craft": 6.725,
+    "truth": 6.785
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "stop",
+    "message",
+    "desire"
+   ],
+   "thumbs": {
+    "perf1": 3.5,
+    "perf2": 4,
+    "craft1": 6,
+    "craft2": 5,
+    "truth1": 5,
+    "truth2": 5
+   },
+   "thumbMean": 4.75,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 5.167,
+   "wouldBuy": 4.0,
+   "buyYesShare": 0.0,
+   "gate": false,
+   "score": 5.395,
+   "worst": {
+    "perf": [
+     "The piece is not the hero. It shrinks into a half-circle window and is mostly hidden behind the tortoiseshell frame and an oversized T-bar. Re-crop or restage so the whole strand of eight mismatched pearls sits at true size, with the lens over one or two pearls only. Move the 'Isiliye toh liya' payoff right under the headline so the line doesn't read as aunty's complaint. Fill the empty plum bottom 40% of the Story.",
+     "The piece is too small and too pale-framed. It sits in a half-circle window on a cream poster, covered by eye-chart numbers, a kicker, a stamp and a sub-line. The answer 'Isiliye toh liya' is buried in small italic at the bottom, so the headline reads as a complaint. Move the answer directly under the headline, cut the 6/60 numbers and the stamp, and give the photo about 60% of the frame so the pearls are the biggest, brightest thing."
+    ],
+    "craft": [
+     "The flip 'Isiliye toh liya.' is set as the smallest line (6/6), so at scroll speed the ad reads only as aunty's complaint, 'not one of them matches'. That raises the objection instead of answering it. Give the punchline headline weight (for example gold italic at half the size of EK, directly under NAHI KARTA). Also fill the Story's empty plum bottom third.",
+     "The bracelet is a small semicircle under a wall of type on a pale cream ground, and the Story leaves its bottom third as an empty plum block. Let the lens photo fill at least 55% of the feed and run it full-bleed in the Story. Keep the eye-chart headline, but as one tight block over the picture, not a separate poster above it."
+    ],
+    "truth": [
+     "The only photo is a small cropped dome under a pale top half crowded with text, and its lens shows the gold clasp, not the mismatched pearls the headline is about. Give the picture the top of the frame, put two unlike pearls under the lens, and cut the eye-chart numbers and stamp. On the Story, the bottom 35% (y 1250-1920) is a flat, empty plum block.",
+     "The picture is shrunk into a half-circle under the cream eye chart. The bracelet fills only about a third of the frame and the diya-and-saree scene is lost, and the Story wastes 670 px of empty plum below the card. Give the photo the lower half at full width, and in the Story use the empty block for the picture."
+    ]
+   },
+   "customerLines": [
+    "Meera1: Cute eye-test idea, but the bracelet is squeezed into that small half-circle, the Story has a big empty purple block at the bottom, and the whole thing looks like an eye-clinic poster, so I'd scroll past.",
+    "Meera2: Cute eye-chart idea, but on that cream page it reads like a magazine, the bracelet is squeezed into a little half-bowl behind the chashma, and half the Story is plain purple, so I scrolled past before I really saw the pearls.",
+    "Sunita1: Eye-chart wala idea cute hai, main bhi chashma laga ke hi dekhti hoon, but bracelet itna chhota hai ki pearls theek se dikhte hi nahi, and on the story the bottom half is just empty purple, looks unfinished, so I'd scroll on.",
+    "Sunita2: Chashma wala idea cute hai, but on this cream eye-chart design the bracelet is half hidden behind the glasses, and it looks more like an optician's poster than jewellery.",
+    "Ananya1: Setting the headline as a Snellen eye chart is a smart designer joke and I'd send it to my team, but the bracelet is a sliver behind a pair of reading glasses in an arch crop, and the bottom half of the Story is just an empty plum block.",
+    "Ananya2: Setting the headline as an eye chart that shrinks from EK down to 6/6 is a really smart type joke and I'd screenshot it for the team, but the bracelet is a sliver inside a plum semicircle and the Story is half empty purple, so I admire it and keep scrolling."
+   ]
+  },
+  "K6": {
+   "ad": "k01-4",
+   "variant": "V2",
+   "expertMean": 6.725,
+   "dims": {
+    "stop": 6.5,
+    "message": 5.67,
+    "truth": 7.17,
+    "layout": 6.0,
+    "brand": 7.67,
+    "copy": 7.17,
+    "fit": 5.33,
+    "desire": 6.67,
+    "cues": 7.33,
+    "crazy": 6.83
+   },
+   "perCritic": {
+    "perf": 6.345,
+    "craft": 7.065,
+    "truth": 6.765
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "message",
+    "fit"
+   ],
+   "thumbs": {
+    "perf1": 5,
+    "perf2": 5,
+    "craft1": 6.5,
+    "craft2": 6.5,
+    "truth1": 6,
+    "truth2": 6.5
+   },
+   "thumbMean": 5.92,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 6.375,
+   "wouldBuy": 5.333,
+   "buyYesShare": 0.5,
+   "gate": false,
+   "score": 6.146,
+   "worst": {
+    "perf": [
+     "The headline says weight but the picture shows a sight test: nobody is weighing anything, so 'Bhaari hai' has no visual proof and lens plus scale are two competing ideas. Shoot the bracelet pooled in the aunty's open palm, mid-heft, with the full strand of eight pearls visible. Drop the lens callout.",
+     "The prop and the claim pull apart. The headline and the drawn balance sell weight ('Bhaari hai, achha hai', 27.6 g), but the photograph shows a reading-glasses inspection, which proves looks, not heft. The caption also says 'weighed in her palm' while showing a balance. Make the picture prove the headline: the bracelet draped over the aunty's open palm. Or put this line on a weight-led frame and keep this lens frame for the 'no two alike' line."
+    ],
+    "craft": [
+     "The headline sells weight but the picture proves looking, so the claim and the image pull apart. Move the 27.6 g scale up as the proof beat right under 'Bhaari hai. Achha hai.' and cut the lens callout and eye-chart numbers, so one idea (heft equals quality) owns the frame.",
+     "The picture proves the wrong claim. The headline sells weight ('Bhaari hai. Achha hai.' plus 27.6 g), but the photo is the lens inspection, built for the look-up-close claim. The copy says 'weighed in her palm' while the graphic shows a balance scale. Shoot the bracelet pooled in the aunty's cupped palm, or on the tarazu pan, and drop the lens callout."
+    ],
+    "truth": [
+     "The headline sells weight, but the photo shows a lens inspection, and the 'weighed in her palm' proof is never shown: a balance drawing (with roundish, almost uniform pearl icons) sits on top of a lens photo, so the two devices compete. Show the bracelet in the aunty's palm or on a jeweller's balance, or pair this headline with a picture that proves it.",
+     "The headline is about weight ('Bhaari hai. Achha hai.') but the picture shows a test through the lens, so nothing in the picture proves 27.6 g. Either show the bracelet resting heavy in the aunty's palm, or pair this picture with the lens headline."
+    ]
+   },
+   "customerLines": [
+    "Meera1: 'Bhaari hai, achha hai' made me laugh because that is my mother-in-law's only test, and 27.6 g tells me it isn't flimsy plastic. But the weighing-scale drawing is too much, I still can't see the full bracelet behind the glasses, and weight isn't why I'd buy pearls.",
+    "Meera2: 'Bhaari hai, achha hai' is exactly what my mami says at every function, and 27.6 g tells me it's not some hollow plastic thing, so at ₹1,899 with cash on delivery I'd take one for my bhabhi and maybe, for once, one for myself.",
+    "Sunita1: Bhaari hai, achha hai, that is exactly what we say, and 27.6 gram weighed out like at the sunar's means it's not some hollow halka cheez, so with tarnish free and cash on delivery I'll order one for the bahu and see for myself.",
+    "Sunita2: 'Bhaari hai, achha hai' is exactly what we say at every function. 27.6 gram, tarnish free and cash on delivery, so I will risk one for my bahu, but please show the full bracelet once, not just through aunty's chashma.",
+    "Ananya1: 'Bhaari hai, achha hai' is pure aunty logic and made me laugh, but weight is her yardstick, not mine, and the little brass-scale clip art pushes it from witty to busy.",
+    "Ananya2: 'Bhaari hai, achha hai' is pure aunty logic and the little brass scale adding up to 27.6 g is cute, but 'heavy' isn't why I'd buy a pearl bracelet, and the weights maths turns a pretty moment into a spec sheet."
+   ]
+  },
+  "D6": {
+   "ad": "k01-4",
+   "variant": "V1",
+   "expertMean": 6.715,
+   "dims": {
+    "stop": 6.33,
+    "message": 5.67,
+    "truth": 7.33,
+    "layout": 5.33,
+    "brand": 7.5,
+    "copy": 7.0,
+    "fit": 6.67,
+    "desire": 6.67,
+    "cues": 7.33,
+    "crazy": 7.0
+   },
+   "perCritic": {
+    "perf": 6.405,
+    "craft": 6.835,
+    "truth": 6.905
+   },
+   "compliance": false,
+   "truthOk": false,
+   "under6": [
+    "message",
+    "layout"
+   ],
+   "thumbs": {
+    "perf1": 4,
+    "perf2": 5,
+    "craft1": 5,
+    "craft2": 6,
+    "truth1": 5.5,
+    "truth2": 6
+   },
+   "thumbMean": 5.25,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "customerMean": 6.458,
+   "wouldBuy": 5.667,
+   "buyYesShare": 0.67,
+   "gate": false,
+   "score": 6.107,
+   "worst": {
+    "perf": [
+     "The glasses, not the pearls, are the hero. The photo cannot prove 'no two alike' because only about 4 of the 8 pearls are visible, so a line-drawn outline row has to do it. Restage so the full strand of eight shows with the lens over one pearl. Cut the FIG. 1 callout and the 'clasp bhi sundar' quote to get under 6 text elements.",
+     "Text overload: about 14 text elements. There is a two-line kicker, headline, eye-chart numbers, stamp, quote, a FIG. 1 callout with a second quote, the lens callout, the outline strip with two labels, and a five-line card. Together they bury the pearls and cap 'one message' at 6. Cut FIG. 1 with 'clasp bhi sundar', the 6/60 numbers and the second kicker line. Keep: headline, then 'Isiliye toh liya', then the eight-outline 'all eight' proof, then the card."
+    ],
+    "craft": [
+     "There are far too many annotations (kicker, eye-chart numbers, stamp, FIG. 1 callout, 'clasp bhi sundar', lens callout, outline row, specs row, card), and they bury the bracelet and the joke. Cut FIG. 1, 'clasp bhi sundar' and the lens callout, so headline, flip, 'find the odd one out, all eight' and the card carry it.",
+     "There is too much text: kicker, headline, quote, the Fig. 1 callout, 'clasp bhi sundar', the lens callout, the pearl row and a three-line card all compete with the lens. Cut the Fig. 1 callout, its italic line and 'Inspection 4 of 10'. That leaves headline, then 'Isiliye toh liya', then the eight-pearl 'find the odd one out / all eight' row, then the card. The picture of an aunty's glasses passing the piece then becomes the one message."
+    ],
+    "truth": [
+     "Too much text spread over the whole photo (about 14 elements: kicker, headline, quote, stamp, Fig. 1 callout, 'clasp bhi sundar', lens callout, outline row and two labels, spec line, price, offer, shipping line), with the card and outline row sitting over the hand and forearm. Cut the Fig. 1 callout, 'clasp bhi sundar', the eye-chart numbers and the stamp, so it reads headline, twist, 'find the odd one out · all eight', then card.",
+     "Too many devices compete. There are eye-chart labels, a Fig. 1 clasp callout with 'clasp bhi sundar', a lens callout, the 'Isiliye toh liya' quote and the odd-one-out row. Cut to the headline, the reply and the 'Find the odd one out / all eight' row, so the doubt and its answer read in one pass."
+    ]
+   },
+   "customerLines": [
+    "Meera1: Haha, this is my mausi at every reception, and 'Isiliye toh liya' is the reply I always wanted to give her. The eight different pearl shapes make it feel special, and ₹1,899 with COD is easy. The specs hide half the bracelet though, so I'd tap to see the whole thing before I order one as a gift.",
+    "Meera2: 'Isiliye toh liya' made me smile, and the candle-light wedding mood plus the eight different pearl outlines tell me what I'm getting for ₹1,899 with COD, but there's a lot of writing and I still want one clean look at the full bracelet without the glasses in the way.",
+    "Sunita1: Ye bilkul shaadi ki raat jaisa lagta hai, diye, gulabi saree, aunty ka haath, I laughed because that aunty is me, but there is so much writing and the lens shows the clasp more than the pearls, so I'd want to see the whole bracelet before I trust it.",
+    "Sunita2: The wedding-night mood and 'clasp bhi sundar' I like, but when I first read 'ek bhi match nahi karta' I thought the pearls were defective, and there is too much small text for me to read while scrolling.",
+    "Ananya1: 'Ek bhi match nahi karta? Isiliye toh liya' sounds exactly like me at a friend's sangeet, and 'find the odd one out... all eight' sells the lumpy pearls as the point, though I'd cut half the callouts and the 'clasp bhi sundar' before I'd call it designed.",
+    "Ananya2: 'Find the odd one out. All eight.' got me, because that's exactly why I'd want baroque pearls, and the candlelit baithak with aunty's hand on the specs feels like a real wedding. I'd tap through to see the whole bracelet, but half this type (Fig. 1, 'clasp bhi sundar', the stamp) could go so the piece gets some room."
+   ]
+  }
+ },
+ "pick": {
+  "k01-4": {
+   "chosen": "V2",
+   "code": "K6",
+   "gate": false,
+   "score": 6.146,
+   "expertMean": 6.725,
+   "customerMean": 6.375,
+   "wouldBuy": 5.333,
+   "thumbMean": 5.92,
+   "others": {
+    "V3": {
+     "score": 5.395,
+     "gate": false
+    },
+    "V1": {
+     "score": 6.107,
+     "gate": false
+    }
+   }
+  }
+ },
+ "batch": {
+  "expertMean": 6.725,
+  "customerMean": 6.375,
+  "basketRate": 0.0,
+  "shipped": 0,
+  "anchors": {
+   "apricot": {
+    "perf1": 7,
+    "craft1": 5.5,
+    "truth1": 7
+   },
+   "p2": {
+    "perf1": 6,
+    "craft1": 7,
+    "truth1": 7.5
+   },
+   "F2": {
+    "perf2": 6,
+    "craft2": 8,
+    "truth2": 7
+   },
+   "sa08": {
+    "perf2": 7,
+    "craft2": 7,
+    "truth2": 5.5
+   }
+  }
+ },
+ "baskets": [
+  {
+   "persona": "Meera",
+   "run": 1,
+   "basket": [
+    "Baroque Shell Bracelet"
+   ],
+   "size": 1,
+   "favourite": "D6"
+  },
+  {
+   "persona": "Meera",
+   "run": 2,
+   "basket": [
+    "Baroque Shell Bracelet",
+    "Baroque Shell Bracelet"
+   ],
+   "size": 2,
+   "favourite": "K6"
+  },
+  {
+   "persona": "Sunita",
+   "run": 1,
+   "basket": [
+    "Baroque Shell Bracelet"
+   ],
+   "size": 1,
+   "favourite": "K6"
+  },
+  {
+   "persona": "Sunita",
+   "run": 2,
+   "basket": [
+    "Baroque Shell Bracelet",
+    "Baroque Shell Bracelet"
+   ],
+   "size": 2,
+   "favourite": "K6"
+  },
+  {
+   "persona": "Ananya",
+   "run": 1,
+   "basket": [
+    "Baroque Shell Bracelet"
+   ],
+   "size": 1,
+   "favourite": "D6"
+  },
+  {
+   "persona": "Ananya",
+   "run": 2,
+   "basket": [
+    "Baroque Shell Bracelet"
+   ],
+   "size": 1,
+   "favourite": "D6"
+  }
+ ],
+ "problems": []
+}
