@@ -1,35 +1,12 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
-<!-- k02-4 V3 · Brushed Gold Huggies (prints as BRUSHED SATIN HOOPS) · camp k02 card 4 · REW / PAIN / TRUST · Feed 1080x1350
-     Boldest layout, same idea and hook: the title split across the two worlds. "SOFT" is a giant 1996 title super (Velista 290,
-     gold-light, blur 5 px, bone bloom) floating in the soft-focus video; "FOCUS." is printed crisp in ink on the cassette's real blank
-     label, beside the only other crisp thing in the frame, the pair. The pain line is handwritten on the same label.
-     Picture: pics/k02-4A.png (1520x2688, gpt_image_2_6, job ca1b51d1-d453-441d-b896-15de946a9d72), verified PASS WITH NOTES
-     (verify/k02-4.md). Used as it is: nothing scaled, moved, retouched or composited; only the CSS window picks the crop.
-     The pair is pixel-identical to the bare picture in this render (max channel difference 0 over the eroded pair mask, checked
-     against a render with every overlay hidden).
-     Crop: k .710526, Hd 1909.89, P 26 (T 145.57; P 26 keeps SOFT clear of the bug and the white hub, which starts at y 394, and the
-     card 32 px under the pair). Pair x 425-851, y 790-1016; 16.0 Feed px per mm (no magnified line; size in the card line).
-     SOFT FOCUS (camp k02 card 4): an inline SVG copy of the same picture in exact register, feGaussianBlur 18 + 12 % lift, screen at
-     40 %, masked by masks/k02-4A_mist.png (GrabCut cut-out of the pair, dilated 4 px with a feathered edge, alpha 0 on the pair), so the
-     silk, cassette, label and hard shadows dream and the earrings stay pin-sharp. Tracking band: feTurbulence noise, 3 px RGB split,
-     bone soft-light, background only.
-     Type (ink): OSD x 72-199 y 94-119; bug top 84; SOFT x 71-780 y 160-390 (glow included; caps about 172-378, 16 px over the hub);
-     band y 404-474; handwritten line on the label x 74-673 y 693-745 (43 px over the pair); FOCUS. Velista 90 ink x 74-378 y 829-893
-     (47 px left of the pair); stamp x 74-275 y 991-1011; lower third from 1048: name 1076-1095, line 1108-1134, price 1074-1137,
-     offer 1150-1211, trust 1234-1253.
-     Contrast median (worst 2 %): OSD 12.7 (12.2), SOFT 10.1 (8.1), label line 13.8 (12.6), FOCUS. 13.9 (13.2), stamp 11.6 (5.3) with
-     halo, name 12.5 (11.9), line 12.4 (11.9), price 8.7 (8.3), offer 12.5 (12.0), trust 12.5 (12.2).
-     Render gates: failed, overflow, fallback and outside empty; minFont 26; textShare 0.274 (render.cjs, 20 Nov 2026). -->
+<!-- HEADER -->
 <style>
  body { background: #1E0E10; }
- /* The picture: 1520x2688 at k 0.710526 = 1080 x 1909.89. Feed window P 28: T = 559.89 x .28 = 156.77. */
- .pic { object-position: 50% 26%; }
- /* SOFT FOCUS: the same picture as an SVG image in exact register (0, -T, 1080 x 1909.89), blurred 18 px, lifted 12 %,
-    screen at 40 %, masked off the pair (masks/k02-4A_mist.png: hole = the pair dilated 4 px, feathered outward). */
+ /* The picture: 1520x2688 at k 0.710526 = 1080 x 1909.89. Feed window P 29: T = 559.89 x .29 = 162.37. */
+ .pic { object-position: 50% 29%; }
  svg.mist { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; mix-blend-mode: screen; opacity: .40; pointer-events: none; }
  svg.fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; pointer-events: none; }
  .band { mix-blend-mode: soft-light; }
- /* OSD rail */
  .osd { position: absolute; left: 72px; top: 90px; display: flex; align-items: center; gap: 14px; color: var(--bone);
         font-family: var(--sans); font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 34px;
         text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
@@ -37,17 +14,8 @@
  .stamp { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); font-weight: 400; font-size: 26px;
           letter-spacing: .14em; line-height: 30px; text-shadow: 2px 2px 0 rgba(26,22,20,.6), 0 0 10px rgba(26,22,20,.55); white-space: nowrap; }
  .bug { position: absolute; right: 72px; top: 84px; height: 56px; opacity: .88; }
- /* Title super */
- .super { position: absolute; left: 0; right: 0; margin: 0; text-align: center; font-family: var(--display); text-transform: uppercase;
-          font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
-          font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
-          -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
- .super .soft { display: inline-block; filter: blur(2.5px);
-                text-shadow: 0 0 14px rgba(244,240,232,.4), 0 0 28px rgba(244,240,232,.25), 0 6px 18px rgba(59,38,32,.7); }
- .super .sharp { display: inline-block; }
- .beat { position: absolute; left: 0; right: 0; text-align: center; color: var(--bone); font-size: 44px; line-height: 48px;
-         text-shadow: 0 2px 10px rgba(26,22,20,.55); white-space: nowrap; }
- /* The tape's own label (on the blank cream strip in the picture) */
+ /* The headline split across the two worlds: SOFT, a giant 1996 title super lost in the soft-focus video;
+    FOCUS., printed crisp in ink on the tape's real label, beside the only other crisp thing in the frame. */
  .giant { position: absolute; left: 72px; margin: 0; font-family: var(--display); text-transform: uppercase; font-weight: 400; line-height: 1;
           letter-spacing: .02em; color: var(--gold-light); white-space: nowrap; font-variant-ligatures: none;
           font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0; filter: blur(5px);
@@ -56,23 +24,17 @@
           letter-spacing: .04em; color: var(--ink); white-space: nowrap; font-variant-ligatures: none;
           font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0; }
  .hand { position: absolute; font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ink); white-space: nowrap; }
- .contents { left: 128px; top: 694px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
- /* The ruled spec sticker on the cassette's top face */
- .sticker { position: absolute; left: 594px; top: 440px; width: 404px; padding: 16px 22px 14px 34px; background: #F3EBDD;
-            transform: rotate(-3deg); transform-origin: 50% 50%;
-            box-shadow: 0 10px 22px rgba(26,22,20,.55), 0 1px 0 rgba(255,255,255,.4) inset;
-            background-image: linear-gradient(90deg, transparent 22px, rgba(200,102,74,.55) 22px, rgba(200,102,74,.55) 24px, transparent 24px),
-                              repeating-linear-gradient(180deg, transparent 0 35px, rgba(59,38,32,.22) 35px 36px); background-position: 0 0, 0 14px; }
- .sticker .hand { position: static; display: block; font-size: 30px; line-height: 36px; }
- /* Lower third: the 90s name super */
- .lower { position: absolute; left: 0; right: 0; top: 1048px; bottom: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
+ .contents { left: 72px; font-size: 34px; line-height: 40px; transform: rotate(-0.5deg); transform-origin: 0 0; }
+ .lower { position: absolute; left: 0; right: 0; top: 1040px; bottom: 0; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light); }
  .lt { position: absolute; color: var(--bone); white-space: nowrap; }
- .lt.name { left: 72px; top: 1070px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
- .lt.line { left: 72px; top: 1104px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
- .lt.price { right: 72px; top: 1068px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light); }
- .lt.offerw { left: 72px; top: 1150px; }
+ .lt.name { left: 72px; top: 1062px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
+ .lt.line { left: 72px; top: 1096px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
+ .lt.price { right: 72px; top: 1060px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light);
+             font-variant-numeric: lining-nums; }
+ .lt.price .r { font-weight: 400; font-size: .84em; margin-right: .04em; }
+ .lt.offerw { left: 72px; top: 1144px; }
  .lt .offer { color: var(--bone); }
- .lt.trust { left: 72px; top: 1228px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 32px; text-transform: uppercase; }
+ .lt.trust { left: 72px; top: 1222px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: 4.02px; line-height: 32px; text-transform: uppercase; }
 </style></head>
 <body class="dark">
  <img class="pic" src="pics/k02-4A.png">
@@ -80,9 +42,9 @@
   <defs>
    <filter id="sf" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="18"/>
     <feComponentTransfer><feFuncR type="linear" slope="1.12"/><feFuncG type="linear" slope="1.12"/><feFuncB type="linear" slope="1.12"/></feComponentTransfer></filter>
-   <mask id="mm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><image href="masks/k02-4A_mist.png" x="0" y="-145.573" width="1080" height="1909.895" preserveAspectRatio="none"/></mask>
+   <mask id="mm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><image href="masks/k02-4A_mist.png" x="0" y="-162.369" width="1080" height="1909.895" preserveAspectRatio="none"/></mask>
   </defs>
-  <g mask="url(#mm)"><image href="pics/k02-4A.png" x="0" y="-145.573" width="1080" height="1909.895" preserveAspectRatio="none" filter="url(#sf)"/></g>
+  <g mask="url(#mm)"><image href="pics/k02-4A.png" x="0" y="-162.369" width="1080" height="1909.895" preserveAspectRatio="none" filter="url(#sf)"/></g>
  </svg>
  <!-- tracking band: the tape is rewinding (background only; the pair is far below it) -->
  <svg class="fx" viewBox="0 0 1080 1350">
@@ -90,25 +52,25 @@
    <filter id="tn" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9 0.06" numOctaves="2" seed="7"/>
     <feColorMatrix values="0 0 0 0 .957  0 0 0 0 .941  0 0 0 0 .91  0 0 0 1.6 -.45"/></filter>
    <linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff"/><stop offset=".75" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-   <mask id="bm"><rect x="0" y="404" width="1080" height="70" fill="url(#bf)"/></mask>
+   <mask id="bm"><rect x="0" y="400" width="1080" height="70" fill="url(#bf)"/></mask>
   </defs>
   <g mask="url(#bm)">
-   <rect class="band" x="0" y="404" width="1080" height="70" filter="url(#tn)" opacity=".7"/>
-   <rect x="0" y="430" width="1080" height="2" fill="#F4F0E8" opacity=".35"/>
-   <rect x="3" y="433" width="1080" height="1.5" fill="#ff3b3b" opacity=".35"/>
-   <rect x="-3" y="435" width="1080" height="1.5" fill="#3bd5ff" opacity=".3"/>
+   <rect class="band" x="0" y="400" width="1080" height="70" filter="url(#tn)" opacity=".7"/>
+   <rect x="0" y="426" width="1080" height="2" fill="#F4F0E8" opacity=".35"/>
+   <rect x="3" y="429" width="1080" height="1.5" fill="#ff3b3b" opacity=".35"/>
+   <rect x="-3" y="431" width="1080" height="1.5" fill="#3bd5ff" opacity=".3"/>
   </g>
  </svg>
  <div class="osd" data-m="osd"><svg width="40" height="26" viewBox="0 0 40 26"><path d="M20 0 L0 13 L20 26 Z M40 0 L20 13 L40 26 Z" fill="#F4F0E8"/></svg>REW</div>
  <img class="bug" src="../../../ads-500/kit/logo_white.png">
- <p class="giant" data-m="soft" style="top:151px;font-size:290px">Soft</p>
- <div class="hand contents" data-m="contents" style="left:72px;top:704px;font-size:40px">The tape kept the shine. The plating didn’t.</div>
- <p class="print" data-m="focus" style="top:823px;font-size:90px">Focus.</p>
- <div class="stamp" data-m="stamp" style="top:986px">12 · 12 · 1996</div>
+ <p class="giant" data-m="soft" style="top:151px;font-size:270px">Soft</p>
+ <p class="print" data-m="focus" style="top:712px;font-size:90px">Focus.</p>
+ <div class="hand contents" data-m="contents" style="top:796px">The tape kept the shine.<br>The bangles didn’t.</div>
+ <div class="stamp" data-m="stamp" style="top:962px">12 · 12 · 1996</div>
  <div class="lower"></div>
  <div class="lt name" data-m="name">Brushed Satin Hoops</div>
  <div class="lt line" data-m="line">Tarnish free · waterproof · 14 × 9.8 mm, about life size</div>
- <div class="lt price" data-m="price">₹699</div>
+ <div class="lt price" data-m="price"><span class="r">₹</span>699</div>
  <div class="lt offerw"><div class="offer" data-m="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
  <div class="lt trust" data-m="trust">Free insured shipping · Cash on delivery</div>
 </body></html>

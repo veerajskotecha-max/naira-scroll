@@ -47,3 +47,6 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
     hoop (no face), `refs/woven-gold-hoops/05_ear_crop.jpg`, media id ea0201cf-5eb2-4d42-a9b3-7b6bd230a42c (card "scaleRef").
 13. **Ribbon Bead Bracelet scale reference:** listing worn photo 02 cropped to the wrist (no face),
     `refs/ribbon-bead-bracelet/02_wrist_crop.jpg`, media id 6bdbd714-033f-46f3-ac6d-c9b417fefbb8 (card "scaleRef").
+14. **Brushed Gold Huggies scale reference:** listing photo 04 (the pair beside a cardamom pod, 14 x 9.8 mm each),
+    media id 5601af98-29ec-4a35-bb32-a1cf1c4f1e0c (card "scaleRef"). A listing photo with a known-size prop (cardamom, coin,
+    size guide) is the best third reference: it carries scale without a face.

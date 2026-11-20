@@ -5,10 +5,11 @@
  /* Story: Hd 1909.9 < 1920, so cover scales by 1920/2688 = .714286: picture 1085.71 x 1920, x offset -2.857. */
  .pic { object-position: 50% 50%; }
  svg.fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
- .osd { position: absolute; left: 72px; top: 276px; color: var(--bone); font-family: var(--sans); text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
- .osd .rec { display: flex; align-items: center; gap: 14px; font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 1; }
- .osd .rec svg { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
- .osd .tape { margin-top: 12px; font-weight: 400; font-size: 26px; letter-spacing: .14em; line-height: 1; }
+ /* REC rail on one line (REC tense): terracotta dot, REC, then the tape stamp, sharing one baseline */
+ .osd { position: absolute; left: 72px; top: 276px; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 30px;
+        letter-spacing: .14em; line-height: 34px; text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
+ .osd svg { display: inline-block; vertical-align: -1px; margin-right: 14px; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
+ .osd .tape { margin-left: 24px; font-weight: 400; font-size: 26px; letter-spacing: .14em; }
  .bug { position: absolute; right: 72px; top: 270px; height: 56px; opacity: .88; }
  .super { position: absolute; left: 72px; margin: 0; font-family: var(--display); text-transform: uppercase;
           font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
@@ -19,25 +20,26 @@
  .hand { position: absolute; font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ink); white-space: nowrap; }
  .contents { left: 72px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
  .spec { left: 72px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 0; }
- .lower { position: absolute; left: 0; right: 0; top: 584px; height: 208px; background: rgba(59,38,32,.86);
+ .lower { position: absolute; left: 0; right: 0; top: 578px; height: 208px; background: rgba(59,38,32,.86);
           border-top: 2px solid var(--gold-light); border-bottom: 2px solid var(--gold-light); }
  .lt { position: absolute; color: var(--bone); white-space: nowrap; }
- .lt.name { left: 72px; top: 600px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
- .lt.line { left: 72px; top: 634px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
- .lt.price { right: 72px; top: 598px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light);
+ .lt.name { left: 72px; top: 594px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
+ .lt.line { left: 72px; top: 628px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
+ .lt.price { right: 72px; top: 592px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light);
              font-variant-numeric: lining-nums; }
  .lt.price .r { font-weight: 400; font-size: .84em; margin-right: .04em; }
- .lt.offerw { left: 72px; top: 674px; }
+ .lt.offerw { left: 72px; top: 668px; }
  .lt .offer { color: var(--bone); }
- .lt.trust { left: 72px; top: 746px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: 4.02px; line-height: 32px; text-transform: uppercase; }
+ .lt.trust { left: 72px; top: 740px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: 4.02px; line-height: 32px; text-transform: uppercase; }
 </style></head>
 <body class="dark story">
  <img class="pic" src="pics/k02-4A.png">
+<!-- viewfinder: the camcorder's four corner brackets (REC tense; a clean new tape, so no mist and no tracking noise) -->
  <svg class="fx" viewBox="0 0 1080 1920"><path d="M40 290 V250 H80 M1040 290 V250 H1000 M40 1230 V1270 H80 M1040 1230 V1270 H1000" fill="none" stroke="#F4F0E8" stroke-width="2" stroke-opacity=".92"/></svg>
- <div class="osd" data-m="osd"><div class="rec"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
+ <div class="osd" data-m="osd"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg>REC<span class="tape">2026 · YOUR TAPE</span></div>
  <img class="bug" src="../../../ads-500/kit/logo_white.png">
- <p class="super" data-m="title" style="top:350px;font-size:92px">Nothing to hide.</p>
- <p class="beat" data-m="beat" style="top:444px">In ’96, soft focus hid the cheap plating.<br>This season every phone shoots pin-sharp.</p>
+ <p class="super" data-m="title" style="top:340px;font-size:92px">Nothing to hide.</p>
+ <p class="beat" data-m="beat" style="top:440px">In ’96, soft focus hid the cheap plating.<br>This season every phone shoots pin-sharp.</p>
  <div class="lower"></div>
  <div class="lt name" data-m="name">Brushed Satin Hoops</div>
  <div class="lt line" data-m="line">Surgical stainless steel · in stock</div>

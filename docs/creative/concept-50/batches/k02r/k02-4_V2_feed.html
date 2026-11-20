@@ -6,10 +6,11 @@
  .pic { object-position: 50% 29%; }
  svg.fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; pointer-events: none; }
  /* REC rail (the camp's REC tense, as on k02-1): terracotta dot, REC, then the tape stamp */
- .osd { position: absolute; left: 72px; top: 90px; color: var(--bone); font-family: var(--sans); text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
- .osd .rec { display: flex; align-items: center; gap: 14px; font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 1; }
- .osd .rec svg { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
- .osd .tape { margin-top: 12px; font-weight: 400; font-size: 26px; letter-spacing: .14em; line-height: 1; }
+ /* REC rail on one line (REC tense): terracotta dot, REC, then the tape stamp, sharing one baseline */
+ .osd { position: absolute; left: 72px; top: 90px; color: var(--bone); font-family: var(--sans); font-weight: 500; font-size: 30px;
+        letter-spacing: .14em; line-height: 34px; text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
+ .osd svg { display: inline-block; vertical-align: -1px; margin-right: 14px; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
+ .osd .tape { margin-left: 24px; font-weight: 400; font-size: 26px; letter-spacing: .14em; }
  .bug { position: absolute; right: 72px; top: 84px; height: 56px; opacity: .88; }
  .super { position: absolute; left: 72px; margin: 0; font-family: var(--display); text-transform: uppercase;
           font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
@@ -33,12 +34,10 @@
 </style></head>
 <body class="dark">
  <img class="pic" src="pics/k02-4A.png">
- <!-- viewfinder: the camcorder's four corner brackets (REC tense; a clean new tape, so no mist and no tracking noise) -->
- <svg class="fx" viewBox="0 0 1080 1350"><path d="M40 88 V48 H80 M1040 88 V48 H1000 M40 1262 V1302 H80 M1040 1262 V1302 H1000" fill="none" stroke="#F4F0E8" stroke-width="2" stroke-opacity=".92"/></svg>
- <div class="osd" data-m="osd"><div class="rec"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
+ <div class="osd" data-m="osd"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg>REC<span class="tape">2026 · YOUR TAPE</span></div>
  <img class="bug" src="../../../ads-500/kit/logo_white.png">
- <p class="super" data-m="title" style="top:180px;font-size:92px">Nothing to hide.</p>
- <p class="beat" data-m="beat" style="top:274px">In ’96, soft focus hid the cheap plating.<br>This season every phone shoots pin-sharp.</p>
+ <p class="super" data-m="title" style="top:172px;font-size:92px">Nothing to hide.</p>
+ <p class="beat" data-m="beat" style="top:268px">In ’96, soft focus hid the cheap plating.<br>This season every phone shoots pin-sharp.</p>
  <div class="hand contents" data-m="contents" style="top:696px">Sangeet · Haldi · Reception · 2026</div>
  <div class="hand spec" data-m="spec" style="top:771px">14 × 9.8 mm, about life size<br>PVD 18k gold tone<br>waterproof · tarnish free<br>hypoallergenic</div>
  <div class="lower"></div>
@@ -47,4 +46,6 @@
  <div class="lt price" data-m="price"><span class="r">₹</span>699</div>
  <div class="lt offerw"><div class="offer" data-m="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
  <div class="lt trust" data-m="trust">Free insured shipping · Cash on delivery</div>
+ <!-- viewfinder: the camcorder's four corner brackets (REC tense; a clean new tape, so no mist and no tracking noise) -->
+ <svg class="fx" viewBox="0 0 1080 1350"><path d="M40 88 V48 H80 M1040 88 V48 H1000 M40 1262 V1302 H80 M1040 1262 V1302 H1000" fill="none" stroke="#F4F0E8" stroke-width="2" stroke-opacity=".92"/></svg>
 </body></html>

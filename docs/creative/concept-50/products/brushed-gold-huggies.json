@@ -1,36 +1,59 @@
 {
-  "handle": "brushed-gold-huggies",
-  "title": "Brushed Gold Huggies",
-  "price": 699,
-  "compareAtPrice": 999,
-  "stock": 58,
-  "sku": "E14776S",
-  "preOrder": false,
-  "category": "Earrings (chunky wide-band huggie hoops, sold as 1 pair)",
-  "metal": "18k gold tone (PVD 18K gold coating over surgical stainless steel), soft brushed satin finish, pale warm yellow; not mirror polished",
-  "lock": "1 pair of chunky huggie hoops, each a short C of 1 wide, softly domed band: barrel-shaped front face 14 mm tall x 9.8 mm wide, band about 6 mm deep, rounded pillowy edges, smooth inner face, 0 stones, 0 visible hinge, post or ridge. Soft brushed satin 18k gold tone with fine straight parallel brush lines. Must stay matte brushed satin, never mirror-polished or silver-looking.",
-  "morph": "The finish. Image models polish the brushed satin into a mirror shine, or add ridges, hammering or stones; the pale satin also reads silver next to a saturated yellow ground (QUIET failed twice) and grey-green on blue. Second risk is scale: the wide band gets thinned into an ordinary slim hoop or blown up into a large hoop (avoid performance/plates/colour/16, which reads large).",
-  "sizeMm": "Approximately 14 mm tall x 9.8 mm wide, give or take 1 mm, band about 6 mm deep (listing description and size-guide photo 05). The 13 Nov size check measured the ad reel at 13.1-14.5 mm tall, 10.4-11.5 mm wide: matches. Referents: about the height of a green cardamom pod (photo 04); worn, it hugs the lower lobe at roughly a fifth of the ear's height (photo 02).",
-  "refs": [
-    "/home/user/naira-scroll/docs/creative/concept-50/refs/brushed-gold-huggies/01.jpg",
-    "/home/user/naira-scroll/docs/creative/concept-50/refs/brushed-gold-huggies/04.jpg"
-  ],
-  "mediaIds": [
-    "7c95b6c6-b5a1-4886-82e7-69c1c6a3940f",
-    "b5b784e1-1be4-4956-94a3-b46c69c5478b"
-  ],
-  "mediaIdSource": "Ref 1 reused from ads-500 products.md (pack): 01.jpg is the same photo as ads-500/build/refs/brushed-gold-huggies__pack.jpg (mean pixel difference under 1/255). Ref 2 newly imported from the listing's scale photo (04.jpg, cardamom pod), chosen over the earlier macro (4c630657-80e8-47f5-ad65-1f0938c70900, = 03.jpg) because it shows the brushed grain AND a scale referent; the frame-filling macro pushes scale up. The macro id stays valid if a finish-only slot is wanted. Tell the model to drop the cardamom pod.",
-  "claims": "Waterproof, Tarnish Free, Hypoallergenic",
-  "variants": "1 variant: Default Title, 18k gold tone, stock 58. Every product photo shows this tone; there is no rhodium silver tone option. Show the pair.",
-  "story": "Quiet luxury at the lowest price point (Rs 699): a chunky, sculptural band whose brushed satin scatters light instead of flashing, so it looks expensive and soft rather than shiny. Bold shape, light weight, zero fuss. It rhymes with workwear and everyday dressing (a work shirt on Monday, a kurta on the weekend, per the listing), a slim hoop stacked above (the listing's styling tip), bare skin and silk, day-to-night, and water since it is waterproof.",
-  "copyNotes": "Use: brushed satin, soft satin finish, 18k gold tone, PVD 18k gold tone, chunky, wide band, sculptural, scatters light, 14 mm, surgical stainless steel, waterproof, tarnish free, hypoallergenic. Avoid: 'huggie'/'huggies' in body copy (an Indian nappy brand; the product title is the only exception), 'gold' or '18k gold' without 'tone', 'solid gold', 'mirror', 'shiny', 'polished', '12 mm' (stale) or any size other than 14 x 9.8 mm, 'anti-tarnish' (say tarnish free), any stone word (CZ, crystal, diamond), 'silver'.",
-  "photos": [
-    {"file": "01.jpg", "shows": "Packshot: the pair on a white plaster cube, cream backdrop. Left piece shows its barrel-shaped brushed front face; right piece is turned to show the concave C opening and band depth. 18k gold tone. Reference 1 (= ads-500 pack)."},
-    {"file": "02.jpg", "shows": "Worn: model in a marigold silk camisole, fist under chin, one huggie on the lower lobe seen side-on as a thick crescent. 18k gold tone. Scale reads right (small, close to the lobe). Piece is tiny in frame, so not a construction reference."},
-    {"file": "03.jpg", "shows": "Macro of one piece on ivory plaster: the domed band with fine parallel brush lines and the smoother inner face visible through the opening. 18k gold tone. Best finish evidence (= ads-500 macro); reads huge, so not used for scale."},
-    {"file": "04.jpg", "shows": "Scale shot: the pair standing side by side on pale plaster beside a green cardamom pod of about the same height, raking light. Brushed grain and concave top edge clear. 18k gold tone. Reference 2."},
-    {"file": "05.jpg", "shows": "Size guide: the packshot with 14 mm and 9.8 mm bars and a 10 mm ruler, 'Measurements are approximate, give or take 1 mm'. Scale evidence; text overlay, so not a generation reference."},
-    {"file": "06.jpg", "shows": "Poster frame of the listing video: a woman holding 2 blush NAIRA gift boxes in front of her face. No product visible."}
-  ],
-  "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags, 1 variant, 5 images + 1 video); ads-500/build/study/products.md section 3; ads-500/build/refs.json; concept-50/plan.json locks; size-check-13nov/README.md."
+ "handle": "brushed-gold-huggies",
+ "title": "Brushed Gold Huggies",
+ "price": 699,
+ "compareAtPrice": 999,
+ "stock": 58,
+ "sku": "E14776S",
+ "preOrder": false,
+ "category": "Earrings (chunky wide-band huggie hoops, sold as 1 pair)",
+ "metal": "18k gold tone (PVD 18K gold coating over surgical stainless steel), soft brushed satin finish, pale warm yellow; not mirror polished",
+ "lock": "1 pair of chunky huggie hoops, each a short C of 1 wide, softly domed band: barrel-shaped front face 14 mm tall x 9.8 mm wide, band about 6 mm deep, rounded pillowy edges, smooth inner face, 0 stones, 0 visible hinge, post or ridge. Soft brushed satin 18k gold tone with fine straight parallel brush lines. Must stay matte brushed satin, never mirror-polished or silver-looking.",
+ "morph": "The finish. Image models polish the brushed satin into a mirror shine, or add ridges, hammering or stones; the pale satin also reads silver next to a saturated yellow ground (QUIET failed twice) and grey-green on blue. Second risk is scale: the wide band gets thinned into an ordinary slim hoop or blown up into a large hoop (avoid performance/plates/colour/16, which reads large).",
+ "sizeMm": "Approximately 14 mm tall x 9.8 mm wide, give or take 1 mm, band about 6 mm deep (listing description and size-guide photo 05). The 13 Nov size check measured the ad reel at 13.1-14.5 mm tall, 10.4-11.5 mm wide: matches. Referents: about the height of a green cardamom pod (photo 04); worn, it hugs the lower lobe at roughly a fifth of the ear's height (photo 02).",
+ "refs": [
+  "/home/user/naira-scroll/docs/creative/concept-50/refs/brushed-gold-huggies/01.jpg",
+  "/home/user/naira-scroll/docs/creative/concept-50/refs/brushed-gold-huggies/04.jpg"
+ ],
+ "mediaIds": [
+  "7c95b6c6-b5a1-4886-82e7-69c1c6a3940f",
+  "b5b784e1-1be4-4956-94a3-b46c69c5478b"
+ ],
+ "mediaIdSource": "Ref 1 reused from ads-500 products.md (pack): 01.jpg is the same photo as ads-500/build/refs/brushed-gold-huggies__pack.jpg (mean pixel difference under 1/255). Ref 2 newly imported from the listing's scale photo (04.jpg, cardamom pod), chosen over the earlier macro (4c630657-80e8-47f5-ad65-1f0938c70900, = 03.jpg) because it shows the brushed grain AND a scale referent; the frame-filling macro pushes scale up. The macro id stays valid if a finish-only slot is wanted. Tell the model to drop the cardamom pod.",
+ "claims": "Waterproof, Tarnish Free, Hypoallergenic",
+ "variants": "1 variant: Default Title, 18k gold tone, stock 58. Every product photo shows this tone; there is no rhodium silver tone option. Show the pair.",
+ "story": "Quiet luxury at the lowest price point (Rs 699): a chunky, sculptural band whose brushed satin scatters light instead of flashing, so it looks expensive and soft rather than shiny. Bold shape, light weight, zero fuss. It rhymes with workwear and everyday dressing (a work shirt on Monday, a kurta on the weekend, per the listing), a slim hoop stacked above (the listing's styling tip), bare skin and silk, day-to-night, and water since it is waterproof.",
+ "copyNotes": "Use: brushed satin, soft satin finish, 18k gold tone, PVD 18k gold tone, chunky, wide band, sculptural, scatters light, 14 mm, surgical stainless steel, waterproof, tarnish free, hypoallergenic. Avoid: 'huggie'/'huggies' in body copy (an Indian nappy brand; the product title is the only exception), 'gold' or '18k gold' without 'tone', 'solid gold', 'mirror', 'shiny', 'polished', '12 mm' (stale) or any size other than 14 x 9.8 mm, 'anti-tarnish' (say tarnish free), any stone word (CZ, crystal, diamond), 'silver'.",
+ "photos": [
+  {
+   "file": "01.jpg",
+   "shows": "Packshot: the pair on a white plaster cube, cream backdrop. Left piece shows its barrel-shaped brushed front face; right piece is turned to show the concave C opening and band depth. 18k gold tone. Reference 1 (= ads-500 pack)."
+  },
+  {
+   "file": "02.jpg",
+   "shows": "Worn: model in a marigold silk camisole, fist under chin, one huggie on the lower lobe seen side-on as a thick crescent. 18k gold tone. Scale reads right (small, close to the lobe). Piece is tiny in frame, so not a construction reference."
+  },
+  {
+   "file": "03.jpg",
+   "shows": "Macro of one piece on ivory plaster: the domed band with fine parallel brush lines and the smoother inner face visible through the opening. 18k gold tone. Best finish evidence (= ads-500 macro); reads huge, so not used for scale."
+  },
+  {
+   "file": "04.jpg",
+   "shows": "Scale shot: the pair standing side by side on pale plaster beside a green cardamom pod of about the same height, raking light. Brushed grain and concave top edge clear. 18k gold tone. Reference 2."
+  },
+  {
+   "file": "05.jpg",
+   "shows": "Size guide: the packshot with 14 mm and 9.8 mm bars and a 10 mm ruler, 'Measurements are approximate, give or take 1 mm'. Scale evidence; text overlay, so not a generation reference."
+  },
+  {
+   "file": "06.jpg",
+   "shows": "Poster frame of the listing video: a woman holding 2 blush NAIRA gift boxes in front of her face. No product visible."
+  }
+ ],
+ "sources": "Live Shopify listing (read-only query, 2026-11-20: description, tags, 1 variant, 5 images + 1 video); ads-500/build/study/products.md section 3; ads-500/build/refs.json; concept-50/plan.json locks; size-check-13nov/README.md.",
+ "scaleRef": {
+  "file": "/home/user/naira-scroll/docs/creative/concept-50/refs/brushed-gold-huggies/04.jpg",
+  "mediaId": "5601af98-29ec-4a35-bb32-a1cf1c4f1e0c",
+  "use": "Add as reference 3: \"Reference 3 shows this exact pair beside a green cardamom pod at true size (each huggie 14 x 9.8 mm, about the height of the pod): match that scale against fingers, fingernails or props exactly.\""
+ }
 }
