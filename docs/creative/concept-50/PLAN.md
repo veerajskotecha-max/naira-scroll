@@ -1,3 +1,5 @@
+> Superseded on 20 Nov 2026 by CRAZY100.md: the owner rejected this red-teamed plan as too safe and moved the run to the slow-stock list.
+
 # Concept 50: production plan (10 camps x 5 ads, aiming at ROAS 5)
 
 Naira Petite (nairaflore.com) · plan written 20 Nov 2026 · nothing generated yet · machine-readable twin: `plan.json`
