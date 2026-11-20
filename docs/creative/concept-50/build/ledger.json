@@ -1,0 +1,168 @@
+[
+ {
+  "id": "k03-4",
+  "batch": "k03a",
+  "camp": "k03",
+  "card": 4,
+  "handle": "tubogas-dome-ring",
+  "product": "Tubogas Dome Ring",
+  "verdict": "held: gate failed on truth and on the 200 px anchor test, not on compliance. Truth: dim 7.17 and the truth critic's own 7.5 are under 8 (perf and truth critics read the x1.5 ring-cam loupe as coarser, spring-like ribs than the real fine ~1.3 mm ridges; the verifier counted 17-19 ridges on the face, matching worn ref 2, so this is a perceptual note on the magnified view). 200 px: thumbs perf1 6.5 / craft1 7.5 vs anchor p2 7 / 7, and perf2 6 / craft2 7 vs sa08 7 / 5, so it beats neither loser anchor (perf must beat it too). Every critic marked compliance FAIL only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2); the OWNER RULING (20 Nov 2026) requires that trust line on every ad, so compliance passes under the live rule and is not a reason.",
+  "chosen": "V3 (T9)",
+  "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_feed.jpg",
+  "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_story.jpg",
+  "copy": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4.copy.json",
+  "picture": {
+   "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-4A.png",
+   "job_id": "a3239171-54fe-44a8-87e8-8562ab828235"
+  },
+  "scores": {
+   "score": 6.572,
+   "gate": false,
+   "expertMean": 6.91,
+   "perCritic": {
+    "perf": 6.625,
+    "craft": 6.98,
+    "truth": 7.125
+   },
+   "crazy": 6.5,
+   "customerMean": 6.708,
+   "wouldBuy": 5.833,
+   "thumb200Mean": 6.83,
+   "beatsLoser": false,
+   "beatsWinner": true,
+   "dims": {
+    "stop": 7.0,
+    "message": 6.17,
+    "truth": 7.17,
+    "layout": 7.0,
+    "brand": 7.5,
+    "copy": 6.67,
+    "fit": 7.17,
+    "desire": 6.67,
+    "cues": 7.67,
+    "crazy": 6.5
+   }
+  }
+ },
+ {
+  "id": "k03-1",
+  "batch": "k03a",
+  "camp": "k03",
+  "card": 1,
+  "handle": "verdant-eternity-band",
+  "product": "Verdant Eternity Band",
+  "verdict": "held before design: takes A (ring about 2x), B (about 4.5x) and redo R (about 2.2x, plus pave and claw drift) all fail scale on a fit card (verify/k03-1.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-1A.png",
+     "job_id": "043ae663-a82c-4ebb-a9cb-f9f7dd63cd10",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-1B.png",
+     "job_id": "111025b8-235b-4003-8271-60e0a61a4ece",
+     "take": "B"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-1R.png",
+     "job_id": "0df24f30-13c8-4561-aa67-4503cb5cc743",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k03-2",
+  "batch": "k03a",
+  "camp": "k03",
+  "card": 2,
+  "handle": "woven-gold-hoops",
+  "product": "Woven Gold Hoops",
+  "verdict": "held before design: take A and redo R fail construction (the flat 8 mm disc never reads, the open core closes) plus an orange tone and about 1.4x scale (verify/k03-2.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-2A.png",
+     "job_id": "256d0134-e441-4f6a-8881-b7ea6119e721",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-2R.png",
+     "job_id": "24114983-c73b-40bc-a47d-25224d00de20",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k03-3",
+  "batch": "k03a",
+  "camp": "k03",
+  "card": 3,
+  "handle": "droplet-open-ring",
+  "product": "Droplet Open Ring",
+  "verdict": "held before design: take A is letterboxed with the ring at about 4% of the width; redo R splits the two ends across two fingers, inverts the teardrop and draws it 1.5-1.6x (verify/k03-3.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-3A.png",
+     "job_id": "1e96852f-4ba3-4275-8c84-3e967aaaa0dd",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-3R.png",
+     "job_id": "bc38b775-1ac6-4c8b-897f-f2a49f881a89",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k03-5",
+  "batch": "k03a",
+  "camp": "k03",
+  "card": 5,
+  "handle": "mint-pear-drop-earrings",
+  "product": "Mint Pear Drop Earrings",
+  "verdict": "held before design: take A is the named column morph with 2 clear pears not 3 and about 2x; redo R holds construction but is about 3x on a true-size trophy card (verify/k03-5.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-5A.png",
+     "job_id": "f99d322a-a573-4f8d-92c0-95d84f63960b",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-5R.png",
+     "job_id": "f8a665c9-00aa-4882-935a-aacfac90161b",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ }
+]

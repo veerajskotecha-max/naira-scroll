@@ -1,0 +1,353 @@
+{
+ "id": "k03-4",
+ "batch": "k03a",
+ "camp": "k03",
+ "campName": "BEST OF THREE.",
+ "card": 4,
+ "title": "Round three, decided: the fist",
+ "angle": "PAIN",
+ "layer": "TRUST",
+ "handle": "tubogas-dome-ring",
+ "product": "Tubogas Dome Ring",
+ "price": 999,
+ "variantShown": "18k gold tone (8 units: US 6 x3, US 7 x3, US 8 x2; US 5 sold out)",
+ "picture": {
+  "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/pics/k03-4A.png",
+  "job_id": "a3239171-54fe-44a8-87e8-8562ab828235",
+  "requestedModel": "nano_banana_pro",
+  "servedModel": "nano_banana_2",
+  "size": "1536x2752",
+  "mediaRefs": [
+   "e901ebb7-c840-4fee-a63e-6bba1b897983",
+   "9305d414-dd58-43ce-8647-5c0de93c1344"
+  ]
+ },
+ "cropP": 6,
+ "chosenVariant": "V3",
+ "chosenCode": "T9",
+ "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_feed.jpg",
+ "feedHtml": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_feed.html",
+ "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_story.jpg",
+ "storyHtml": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_story.html",
+ "onImage": {
+  "elements": 4,
+  "strip": "DECISION · HER ||| · HIM ○ · RING CAM ×1.5 (live dot; three saffron chalk tallies after HER, an empty ring for HIM; RING CAM ×1.5 in saffron)",
+  "call": "NOTHING / TO LOSE. (Velista; TO LOSE. in saffron; the O of NOTHING is a ×1.5 loupe on the ring, an unedited second view of the same plate)",
+  "beat": {
+   "feed": "no stones, / no clasp, / no gap. / only the milk falls off.",
+   "story": "no stones, / no clasp, / no gap. only / the milk falls off."
+  },
+  "card": [
+   "Tubogas Dome Ring. 18k gold tone · 5.8 mm band · US 6, 7 or 8",
+   "₹999",
+   "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+   "NAIRA (logo_white wordmark)",
+   "FREE INSURED SHIPPING · CASH ON DELIVERY"
+  ],
+  "htmlVisibleText": {
+   "feed": "Decision · Her · Him · Ring cam ×1.5 N thing to lose. no stones, / no clasp, / no gap. / only the milk falls off. Tubogas Dome Ring. 18k gold tone · 5.8 mm band · US 6, 7 or 8 ₹999 Codes BUY2 · 10% off BUY3 · 20% off Free insured shipping · Cash on delivery",
+   "story": "Decision · Her · Him · Ring cam ×1.5 N thing to lose. no stones, / no clasp, / no gap. only / the milk falls off. Tubogas Dome Ring. 18k gold tone · 5.8 mm band · US 6, 7 or 8 ₹999 Codes BUY2 · 10% off BUY3 · 20% off Free insured shipping · Cash on delivery"
+  },
+  "sizeLine": "18k gold tone · 5.8 mm band · US 6, 7 or 8 (no Shown magnified line: 5.2 Feed px per mm, loupe 7.8, both under 19; RING CAM x1.5 owns the inset)",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "trustLine": "FREE INSURED SHIPPING · CASH ON DELIVERY"
+ },
+ "meta": {
+  "primaryText": "Look closer: no stones to lose. The Tubogas Dome Ring (₹999) is all polished ridges. Any three, 20% off with BUY3. No clasp, no gap. 5.8 mm band, US 6, 7 or 8.",
+  "headline": "Tubogas Dome Ring · ₹999 · BUY3 20% off",
+  "description": "Naira Petite. Whoever finds it, keeps it.",
+  "url": "https://www.nairaflore.com/products/tubogas-dome-ring?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k03a&utm_content={{ad.id}}&utm_term=k03-4_V3",
+  "cta": "Shop Now"
+ },
+ "metaChecks": {
+  "primaryTextChars": 159,
+  "offerEndsAtChar": 113,
+  "offerBefore125": true,
+  "problems": []
+ },
+ "scores": {
+  "code": "T9",
+  "score": 6.572,
+  "gate": false,
+  "expertMean": 6.91,
+  "perCritic": {
+   "perf": 6.625,
+   "craft": 6.98,
+   "truth": 7.125
+  },
+  "dims": {
+   "stop": 7.0,
+   "message": 6.17,
+   "truth": 7.17,
+   "layout": 7.0,
+   "brand": 7.5,
+   "copy": 6.67,
+   "fit": 7.17,
+   "desire": 6.67,
+   "cues": 7.67,
+   "crazy": 6.5
+  },
+  "dimsByCritic": {
+   "perf": {
+    "stop": 7.0,
+    "message": 6.0,
+    "truth": 7.0,
+    "layout": 7.0,
+    "brand": 7.0,
+    "copy": 6.0,
+    "fit": 7.0,
+    "desire": 6.5,
+    "cues": 7.0,
+    "crazy": 6.0
+   },
+   "craft": {
+    "stop": 7.0,
+    "message": 6.0,
+    "truth": 7.0,
+    "layout": 7.0,
+    "brand": 8.0,
+    "copy": 7.0,
+    "fit": 6.5,
+    "desire": 7.0,
+    "cues": 8.0,
+    "crazy": 6.5
+   },
+   "truth": {
+    "stop": 7.0,
+    "message": 6.5,
+    "truth": 7.5,
+    "layout": 7.0,
+    "brand": 7.5,
+    "copy": 7.0,
+    "fit": 8.0,
+    "desire": 6.5,
+    "cues": 8.0,
+    "crazy": 7.0
+   }
+  },
+  "crazy": 6.5,
+  "customerMean": 6.708,
+  "wouldBuy": 5.833,
+  "buyYesShare": 0.83,
+  "thumb200": {
+   "perf1": 6.5,
+   "perf2": 6,
+   "craft1": 7.5,
+   "craft2": 7,
+   "truth1": 7,
+   "truth2": 7
+  },
+  "thumb200Mean": 6.83,
+  "beatsLoser": false,
+  "beatsWinner": true,
+  "compliance": false,
+  "truthOk": false,
+  "under6": []
+ },
+ "runnerUps": [
+  {
+   "variant": "V2",
+   "headline": "NOT OUT.",
+   "meta": {
+    "primaryText": "The ring you take off to wash is the one that goes missing. Not out: this one is waterproof. Any three, 20% off with BUY3. Tubogas Dome Ring, ₹999. 5.8 mm, US 6, 7 or 8.",
+    "headline": "Tubogas Dome Ring · ₹999 · BUY3 20% off",
+    "description": "Naira Petite. Whoever finds it, keeps it.",
+    "url": "https://www.nairaflore.com/products/tubogas-dome-ring?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k03a&utm_content={{ad.id}}&utm_term=k03-4_V2"
+   },
+   "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_V2_feed.jpg",
+   "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_V2_story.jpg",
+   "scores": {
+    "code": "W6",
+    "score": 5.936,
+    "gate": false,
+    "expertMean": 6.538,
+    "perCritic": {
+     "perf": 6.195,
+     "craft": 6.795,
+     "truth": 6.625
+    },
+    "dims": {
+     "stop": 5.33,
+     "message": 6.33,
+     "truth": 7.0,
+     "layout": 6.5,
+     "brand": 7.5,
+     "copy": 7.5,
+     "fit": 7.0,
+     "desire": 6.17,
+     "cues": 6.5,
+     "crazy": 6.83
+    },
+    "dimsByCritic": {
+     "perf": {
+      "stop": 5.0,
+      "message": 6.5,
+      "truth": 6.5,
+      "layout": 6.0,
+      "brand": 7.0,
+      "copy": 7.0,
+      "fit": 6.5,
+      "desire": 5.5,
+      "cues": 6.0,
+      "crazy": 7.0
+     },
+     "craft": {
+      "stop": 6.5,
+      "message": 6.5,
+      "truth": 7.0,
+      "layout": 6.5,
+      "brand": 8.0,
+      "copy": 7.5,
+      "fit": 7.0,
+      "desire": 6.5,
+      "cues": 7.0,
+      "crazy": 6.5
+     },
+     "truth": {
+      "stop": 4.5,
+      "message": 6.0,
+      "truth": 7.5,
+      "layout": 7.0,
+      "brand": 7.5,
+      "copy": 8.0,
+      "fit": 7.5,
+      "desire": 6.5,
+      "cues": 6.5,
+      "crazy": 7.0
+     }
+    },
+    "crazy": 6.83,
+    "customerMean": 6.125,
+    "wouldBuy": 5.167,
+    "buyYesShare": 0.33,
+    "thumb200": {
+     "perf1": 5,
+     "perf2": 5,
+     "craft1": 6.5,
+     "craft2": 6,
+     "truth1": 6,
+     "truth2": 5
+    },
+    "thumb200Mean": 5.58,
+    "beatsLoser": false,
+    "beatsWinner": false,
+    "compliance": false,
+    "truthOk": false,
+    "under6": [
+     "stop"
+    ]
+   }
+  },
+  {
+   "variant": "V1",
+   "headline": "NOTHING TO LOSE.",
+   "meta": {
+    "primaryText": "Lost a stone mid-sangeet and spent the baraat looking for it? This ring has none to lose. Any three, 20% off with BUY3. Tubogas Dome Ring, ₹999. 5.8 mm, US 6, 7 or 8, waterproof.",
+    "headline": "Tubogas Dome Ring · ₹999 · BUY3 20% off",
+    "description": "Naira Petite. Whoever finds it, keeps it.",
+    "url": "https://www.nairaflore.com/products/tubogas-dome-ring?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k03a&utm_content={{ad.id}}&utm_term=k03-4_V1"
+   },
+   "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_V1_feed.jpg",
+   "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k03a/k03-4_V1_story.jpg",
+   "scores": {
+    "code": "C4",
+    "score": 5.05,
+    "gate": false,
+    "expertMean": 5.833,
+    "perCritic": {
+     "perf": 5.46,
+     "craft": 6.115,
+     "truth": 5.925
+    },
+    "dims": {
+     "stop": 4.83,
+     "message": 5.17,
+     "truth": 6.17,
+     "layout": 5.67,
+     "brand": 7.5,
+     "copy": 6.0,
+     "fit": 5.33,
+     "desire": 6.17,
+     "cues": 6.5,
+     "crazy": 5.67
+    },
+    "dimsByCritic": {
+     "perf": {
+      "stop": 4.5,
+      "message": 5.5,
+      "truth": 5.5,
+      "layout": 5.0,
+      "brand": 7.0,
+      "copy": 6.0,
+      "fit": 5.0,
+      "desire": 5.5,
+      "cues": 6.0,
+      "crazy": 5.5
+     },
+     "craft": {
+      "stop": 6.0,
+      "message": 5.0,
+      "truth": 6.5,
+      "layout": 5.5,
+      "brand": 8.0,
+      "copy": 6.0,
+      "fit": 5.0,
+      "desire": 6.5,
+      "cues": 7.0,
+      "crazy": 5.5
+     },
+     "truth": {
+      "stop": 4.0,
+      "message": 5.0,
+      "truth": 6.5,
+      "layout": 6.5,
+      "brand": 7.5,
+      "copy": 6.0,
+      "fit": 6.0,
+      "desire": 6.5,
+      "cues": 6.5,
+      "crazy": 6.0
+     }
+    },
+    "crazy": 5.67,
+    "customerMean": 5.333,
+    "wouldBuy": 4.0,
+    "buyYesShare": 0.0,
+    "thumb200": {
+     "perf1": 4.5,
+     "perf2": 4,
+     "craft1": 5.5,
+     "craft2": 5,
+     "truth1": 5,
+     "truth2": 4
+    },
+    "thumb200Mean": 4.67,
+    "beatsLoser": false,
+    "beatsWinner": false,
+    "compliance": false,
+    "truthOk": false,
+    "under6": [
+     "stop",
+     "message",
+     "layout",
+     "fit",
+     "crazy"
+    ]
+   }
+  }
+ ],
+ "verdict": "held: gate failed on truth and on the 200 px anchor test, not on compliance. Truth: dim 7.17 and the truth critic's own 7.5 are under 8 (perf and truth critics read the x1.5 ring-cam loupe as coarser, spring-like ribs than the real fine ~1.3 mm ridges; the verifier counted 17-19 ridges on the face, matching worn ref 2, so this is a perceptual note on the magnified view). 200 px: thumbs perf1 6.5 / craft1 7.5 vs anchor p2 7 / 7, and perf2 6 / craft2 7 vs sa08 7 / 5, so it beats neither loser anchor (perf must beat it too). Every critic marked compliance FAIL only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2); the OWNER RULING (20 Nov 2026) requires that trust line on every ad, so compliance passes under the live rule and is not a reason.",
+ "verify": {
+  "picture": "k03-4A passes with notes (verify/k03-4.md): closed seamless domed tubogas, about 17-19 separate parallel ridges across the band on the face (ref 2 shows about 18), 0 stones, 0 clasp, no seam, measurement line correctly absent; colour hue 30.5 deg between ref 1 (40) and ref 2 (24), a warm yellow 18k gold tone; band-to-finger 0.38-0.43 against 0.36-0.43 on true-size ref 2, so not a mis-scale; 5.2 Feed px per mm; no face, text, logo or extra jewellery (kalava allowed); hand has 5 digits. Notes: palm-side fist with the ring on the middle finger (copy never names the finger), field of view about 23 cm so the ring is small, which the loupe O answers; milk runs off the palm while the ring stays clean (proves 'only the milk falls off').",
+  "design": "Design QA ranked V3 8/10, V1 7, V2 6.5. The shipped JPGs re-render pixel-identical from the copied HTML (render.cjs: no failed requests, no font fallback, no overflow, nothing outside the safe area, min font 22 px for the trust line only). Price set in lining figures (QA must-fix applied). Loupe is an unedited second view of the same plate at x1.5 (7.8 px per mm), owned by 'RING CAM x1.5' with 5.8 mm on the card. Contrast 9.5:1 or better (median).",
+  "headlineProof": "NOTHING TO LOSE.: the loupe in the O shows a ring with no stones, clasp or gap, and the milk visibly runs off the palm past a clean ring; the Feed still shows the splash and paraat rim below the card, the Story shows the whole paraat."
+ },
+ "finalChecks": {
+  "chosenHtml": {
+   "k03-4_feed.html": [],
+   "k03-4_story.html": []
+  },
+  "meta": [],
+  "summary": "Chosen copy, Feed and Story HTML: no banned words, no bare gold or silver, no compare-at, struck price or price sum, no returns or delivery-time promise; offers BUY2 10% and BUY3 20% correct; trust line FREE INSURED SHIPPING · CASH ON DELIVERY on Feed and Story; Story prints the offer; size line 5.8 mm band, US 6, 7 or 8 (no US 5); no Shown magnified line needed (under 19 px per mm, RING CAM x1.5 owns the inset); primary text 159 characters with BUY3 ending at character 113 (before 125); no claim beyond the listing tags (the chosen copy makes none; milk imagery is allowed by the waterproof tag); the copy never names the finger (the plate puts the ring on the middle finger); the picture proves the headline. No copy fix needed."
+ }
+}
