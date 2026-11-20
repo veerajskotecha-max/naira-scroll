@@ -164,5 +164,161 @@
    "passed": null
   },
   "scores": null
+ },
+ {
+  "id": "k01-1",
+  "batch": "k01a",
+  "camp": "k01",
+  "card": 1,
+  "handle": "woven-gold-hoops",
+  "product": "Woven Gold Hoops",
+  "verdict": "held before design: take A redesigns the braid into a flat three-strand ribbon, invents a second disc and breaks the latch, shows eyelashes and a brow tail, and draws the hoop about 1.35x; redo R fixed the disc, latch, polish and face but repeats the bundled-strand braid morph at about 1.45x, and the Story puts hoop and lens in the card zone (verify/k01-1.md; no third credit until nano_banana_pro is actually served)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-1A.png",
+     "job_id": "eb529f30-4d14-4e10-8fd4-7cb53174d144",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-1R.png",
+     "job_id": "bd56fd4e-2e2a-4a9e-906e-dae171da85fa",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k01-2",
+  "batch": "k01a",
+  "camp": "k01",
+  "card": 2,
+  "handle": "halo-curve-ring",
+  "product": "Halo Curve Ring",
+  "verdict": "held before design: take A paints a second, smaller phantom ring inside the lens (two products), the glasses hover about 550 Feed px above the ring, the frames are round full-rim and the ring sits in the card zone; the redo was refused (429 rate limit, then the retry was blocked), so no job and no credits (verify/k01-2.md; prompt ready in scratchpad k01-2R/prompt.txt)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-2A.png",
+     "job_id": "3cf6145b-e789-4a06-945c-68cedf5e44cb",
+     "take": "A"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k01-3",
+  "batch": "k01a",
+  "camp": "k01",
+  "card": 3,
+  "handle": "verdant-circlet-studs",
+  "product": "Verdant Circlet Studs",
+  "verdict": "held before design: take A redesigns both four-point stars, shows a closed eyelid with lashes and the brow, holds the lens over her eye and draws the stud about 1.6x; redo R holds the construction but shows an open eye corner and an eyebrow tail at the left edge (hard rule), with full-rim frames and the stud in the Story card zone (verify/k01-3.md)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-3A.png",
+     "job_id": "9b878670-d395-4ecf-9f0b-21240d891585",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-3R.png",
+     "job_id": "543f6749-0287-4f0f-91ad-7fa693a61c93",
+     "take": "R"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
+ },
+ {
+  "id": "k01-4",
+  "batch": "k01a",
+  "camp": "k01",
+  "card": 4,
+  "handle": "baroque-shell-bracelet",
+  "product": "Baroque Shell Bracelet",
+  "verdict": "held: gate failed on truth, on two dims under 6 and on the 200 px anchor test, not on compliance. Truth: dim 7.17 and the truth critic's own 7.5 are under 8 (perf1 held truth at 5, reading the T-bar in the 2x lens as 2.5-3x the ring's width and the drop crossing the rim at almost the same scale; the verifier measured T-bar/ring 1.57-1.6 against 1.65 in ref 01, so this is a perceptual note on the magnified view). Under 6: message 5.67 and fit 5.33: the headline sells weight ('BHAARI HAI. ACHHA HAI.', 27.6 g) while the photograph shows a lens inspection, so only the drawn balance, not the picture, proves the line (all six critics). 200 px: thumbs perf1 5 / craft1 6.5 vs anchor p2 6 / 7, and perf2 5 / craft2 6.5 vs sa08 7 / 7, so it beats neither loser anchor. Every critic marked compliance FAIL only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2); the OWNER RULING (20 Nov 2026) requires that trust line on every ad, so compliance passes under the live rule and is not a reason.",
+  "chosen": "V2 (K6)",
+  "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_feed.jpg",
+  "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_story.jpg",
+  "copy": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4.copy.json",
+  "picture": {
+   "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-4R.png",
+   "job_id": "c2e718a3-6a38-490e-9d36-2aac6a8903d9"
+  },
+  "scores": {
+   "score": 6.146,
+   "gate": false,
+   "expertMean": 6.725,
+   "perCritic": {
+    "perf": 6.345,
+    "craft": 7.065,
+    "truth": 6.765
+   },
+   "crazy": 6.83,
+   "customerMean": 6.375,
+   "wouldBuy": 5.333,
+   "thumb200Mean": 5.92,
+   "beatsLoser": false,
+   "beatsWinner": false,
+   "dims": {
+    "stop": 6.5,
+    "message": 5.67,
+    "truth": 7.17,
+    "layout": 6.0,
+    "brand": 7.67,
+    "copy": 7.17,
+    "fit": 5.33,
+    "desire": 6.67,
+    "cues": 7.33,
+    "crazy": 6.83
+   }
+  }
+ },
+ {
+  "id": "k01-5",
+  "batch": "k01a",
+  "camp": "k01",
+  "card": 5,
+  "handle": "toggle-link-chain",
+  "product": "Toggle Link Chain",
+  "verdict": "held before design: take A has the exact clasp but draws the necklace about 1.45-1.8x on her neck and fingers; take B fixes the scale but renders the bar's jump ring and last link silver tone, puts glare on the glass, uses round full-rim frames and lets the Story card cover the clasp; the redo was refused (429 rate limit, then the retry was blocked), so no job (verify/k01-5.md; prompt ready in scratchpad k01-5R/prompt.txt)",
+  "chosen": null,
+  "feed": null,
+  "story": null,
+  "copy": null,
+  "picture": {
+   "takes": [
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-5A.png",
+     "job_id": "98f3b4ef-d912-4827-8e74-ab4f0dcf0f99",
+     "take": "A"
+    },
+    {
+     "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-5B.png",
+     "job_id": "b72638bb-c207-40be-b570-0bb94889bff8",
+     "take": "B"
+    }
+   ],
+   "passed": null
+  },
+  "scores": null
  }
 ]

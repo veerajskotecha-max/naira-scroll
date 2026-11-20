@@ -1,0 +1,857 @@
+{
+ "id": "k01-4",
+ "batch": "k01a",
+ "camp": "k01",
+ "campName": "AUNTY NE CHASHMA LAGAYA.",
+ "card": 4,
+ "title": "The line-up",
+ "angle": "OBJECTION",
+ "layer": "TRUST",
+ "handle": "baroque-shell-bracelet",
+ "product": "Baroque Shell Bracelet",
+ "price": 1899,
+ "variantShown": "Default Title, 18k gold tone (the only variant). Toggle turned to the top of the wrist, drop pearl free.",
+ "picture": {
+  "file": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/pics/k01-4R.png",
+  "job_id": "c2e718a3-6a38-490e-9d36-2aac6a8903d9",
+  "take": "R (redo; take A 20d94b40-b0a3-4899-8f30-7741407eb180 failed verify)",
+  "requestedModel": "nano_banana_pro",
+  "servedModel": "nano_banana_2",
+  "size": "1536x2752",
+  "mediaRefs": [
+   "678574a1-7e53-4406-bef2-816a062b6679",
+   "3f353b27-4c6c-4da6-896f-b0319938c3fd"
+  ]
+ },
+ "cropP": 50,
+ "chosenVariant": "V2",
+ "chosenCode": "K6",
+ "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_feed.jpg",
+ "feedHtml": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_feed.html",
+ "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_story.jpg",
+ "storyHtml": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_story.html",
+ "onImage": {
+  "log": {
+   "feed": "RECEPTION BAITHAK · 9:15 PM / INSPECTION 4 OF 10",
+   "story": "RECEPTION BAITHAK · 9:15 PM · INSPECTION 4 OF 10"
+  },
+  "seal": "AUNTY APPROVED (roundel with the half-moon glasses glyph, the camp series mark)",
+  "headline": "BHAARI HAI. / ACHHA HAI. (Velista eye-chart rows, acuity marks 6/60 and 6/36)",
+  "lens": "her left lens filled in HTML with the same unedited plate at exactly 2.0x about the lens centroid, clipped to the traced rim",
+  "sizeTag": "IN HER LENS / ABOUT 2× / BRACELET / ABOUT 21 CM",
+  "device": {
+   "balance": "hairline jeweller's balance: left pan the eight pearls traced from listing photo 07, right pan five weights",
+   "slip": "20 G + 5 G + 2 G / + 0.5 G + 0.1 G",
+   "caption": "WEIGHED IN HER PALM.",
+   "answer": "27.6 g."
+  },
+  "card": {
+   "feed": [
+    "BAROQUE SHELL BRACELET",
+    "6/6 27.6 G · 21 CM · TARNISH FREE · HYPOALLERGENIC",
+    "₹1,899",
+    "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "NAIRA (logo_white wordmark)",
+    "FREE INSURED SHIPPING · CASH ON DELIVERY"
+   ],
+   "story": [
+    "BAROQUE SHELL BRACELET · 27.6 G",
+    "₹1,899",
+    "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+    "NAIRA (logo_white wordmark)",
+    "FREE INSURED SHIPPING · CASH ON DELIVERY"
+   ]
+  },
+  "htmlVisibleText": {
+   "feed": "Reception baithak · 9:15 PM / Inspection 4 of 10 6/60 Bhaari hai. 6/36 Achha hai. In her lens / about 2× / bracelet / about 21 cm 20 g + 5 g + 2 g / + 0.5 g + 0.1 g Weighed in her palm. 27.6 g. Baroque Shell Bracelet 6/6 27.6 g · 21 cm · tarnish free · hypoallergenic ₹1,899 Codes BUY2 · 10% off BUY3 · 20% off Free insured shipping · Cash on delivery AUNTY APPROVED",
+   "story": "Reception baithak · 9:15 PM · Inspection 4 of 10 6/60 Bhaari hai. 6/36 Achha hai. 20 g + 5 g + 2 g / + 0.5 g + 0.1 g Weighed in her palm. 27.6 g. In her lens / about 2× / bracelet / about 21 cm Baroque Shell Bracelet · 27.6 g ₹1,899 Codes BUY2 · 10% off BUY3 · 20% off Free insured shipping · Cash on delivery AUNTY APPROVED"
+  },
+  "sizeLine": "IN HER LENS ABOUT 2× · BRACELET ABOUT 21 CM (the type owns the magnification and states the real size; 6.8 Feed px per mm outside the lens, 13.7 inside, both under 19, so no 'Shown magnified' line)",
+  "offer": "CODES BUY2 · 10% OFF ◆ BUY3 · 20% OFF",
+  "trustLine": "FREE INSURED SHIPPING · CASH ON DELIVERY",
+  "claimsPrinted": {
+   "feed": [
+    "TARNISH FREE",
+    "HYPOALLERGENIC",
+    "27.6 G",
+    "21 CM"
+   ],
+   "story": [
+    "27.6 G"
+   ]
+  }
+ },
+ "meta": {
+  "primaryText": "Bhaari hai, achha hai: 27.6 g on aunty's tarazu. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. Free insured shipping, cash on delivery.",
+  "headline": "Baroque Shell Bracelet · 27.6 g · ₹1,899",
+  "description": "On aunty's tarazu: 27.6 g",
+  "cta": "Shop Now",
+  "url": "https://www.nairaflore.com/products/baroque-shell-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k01a&utm_content={{ad.id}}&utm_term=k01-4_V2"
+ },
+ "metaAsRated": {
+  "primaryText": "Bhaari hai, achha hai. Aunty weighed it in her palm: 27.6 g. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. Free insured shipping, cash on delivery.",
+  "headline": "Baroque Shell Bracelet · 27.6 g · ₹1,899",
+  "description": "Weighed in her palm: 27.6 g",
+  "url": "https://www.nairaflore.com/products/baroque-shell-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k01a&utm_content={{ad.id}}&utm_term=k01-4_V2"
+ },
+ "copyFixes": [
+  {
+   "field": "meta.primaryText and meta.description",
+   "was": {
+    "primaryText": "Bhaari hai, achha hai. Aunty weighed it in her palm: 27.6 g. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. Free insured shipping, cash on delivery.",
+    "description": "Weighed in her palm: 27.6 g"
+   },
+   "now": {
+    "primaryText": "Bhaari hai, achha hai: 27.6 g on aunty's tarazu. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. Free insured shipping, cash on delivery.",
+    "description": "On aunty's tarazu: 27.6 g"
+   },
+   "why": "'Aunty weighed it in her palm: 27.6 g' describes a test the ad never shows: the photograph is a lens inspection and the drawing is a jeweller's balance, and a palm cannot read 0.1 g (perf1, perf2, craft2, truth1, truth2). The fix names the balance the ad draws (tarazu) and keeps the listed 27.6 g. The offer, trust line, price and URL are unchanged."
+  }
+ ],
+ "metaChecks": {
+  "primaryTextChars": 151,
+  "offerEndsAtChar": 109,
+  "offerBefore125": true,
+  "urlOwnProductPage": true,
+  "trustInPrimaryText": "allowed: card 4 is an OBJECTION ad",
+  "problems": []
+ },
+ "scores": {
+  "code": "K6",
+  "score": 6.146,
+  "gate": false,
+  "expertMean": 6.725,
+  "perCritic": {
+   "perf": 6.345,
+   "craft": 7.065,
+   "truth": 6.765
+  },
+  "dims": {
+   "stop": 6.5,
+   "message": 5.67,
+   "truth": 7.17,
+   "layout": 6.0,
+   "brand": 7.67,
+   "copy": 7.17,
+   "fit": 5.33,
+   "desire": 6.67,
+   "cues": 7.33,
+   "crazy": 6.83
+  },
+  "dimsByCritic": {
+   "perf": {
+    "stop": 6.0,
+    "message": 5.5,
+    "truth": 6.5,
+    "layout": 5.5,
+    "brand": 7.0,
+    "copy": 7.0,
+    "fit": 5.0,
+    "desire": 6.0,
+    "cues": 7.0,
+    "crazy": 7.0
+   },
+   "craft": {
+    "stop": 7.0,
+    "message": 6.0,
+    "truth": 7.5,
+    "layout": 6.0,
+    "brand": 8.0,
+    "copy": 8.0,
+    "fit": 6.0,
+    "desire": 7.0,
+    "cues": 7.5,
+    "crazy": 7.0
+   },
+   "truth": {
+    "stop": 6.5,
+    "message": 5.5,
+    "truth": 7.5,
+    "layout": 6.5,
+    "brand": 8.0,
+    "copy": 6.5,
+    "fit": 5.0,
+    "desire": 7.0,
+    "cues": 7.5,
+    "crazy": 6.5
+   }
+  },
+  "dimsByRun": {
+   "perf1": {
+    "stop": 6,
+    "message": 6,
+    "truth": 5,
+    "layout": 6,
+    "brand": 7,
+    "copy": 7,
+    "fit": 5,
+    "desire": 6,
+    "cues": 7,
+    "crazy": 7
+   },
+   "perf2": {
+    "stop": 6,
+    "message": 5,
+    "truth": 8,
+    "layout": 5,
+    "brand": 7,
+    "copy": 7,
+    "fit": 5,
+    "desire": 6,
+    "cues": 7,
+    "crazy": 7
+   },
+   "craft1": {
+    "stop": 7,
+    "message": 6,
+    "truth": 8,
+    "layout": 6,
+    "brand": 8,
+    "copy": 8,
+    "fit": 6,
+    "desire": 7,
+    "cues": 7,
+    "crazy": 7
+   },
+   "craft2": {
+    "stop": 7,
+    "message": 6,
+    "truth": 7,
+    "layout": 6,
+    "brand": 8,
+    "copy": 8,
+    "fit": 6,
+    "desire": 7,
+    "cues": 8,
+    "crazy": 7
+   },
+   "truth1": {
+    "stop": 6,
+    "message": 6,
+    "truth": 7,
+    "layout": 6,
+    "brand": 8,
+    "copy": 7,
+    "fit": 5,
+    "desire": 7,
+    "cues": 8,
+    "crazy": 6
+   },
+   "truth2": {
+    "stop": 7,
+    "message": 5,
+    "truth": 8,
+    "layout": 7,
+    "brand": 8,
+    "copy": 6,
+    "fit": 5,
+    "desire": 7,
+    "cues": 7,
+    "crazy": 7
+   }
+  },
+  "crazy": 6.83,
+  "customerMean": 6.375,
+  "wouldBuy": 5.333,
+  "buyYesShare": 0.5,
+  "customers": [
+   {
+    "persona": "Meera1",
+    "stop": 8,
+    "want": 6,
+    "trust": 7,
+    "wouldBuy": 5,
+    "buyYes": false
+   },
+   {
+    "persona": "Meera2",
+    "stop": 8,
+    "want": 7,
+    "trust": 7,
+    "wouldBuy": 7,
+    "buyYes": true
+   },
+   {
+    "persona": "Sunita1",
+    "stop": 8,
+    "want": 6,
+    "trust": 7,
+    "wouldBuy": 6,
+    "buyYes": true
+   },
+   {
+    "persona": "Sunita2",
+    "stop": 8,
+    "want": 7,
+    "trust": 7,
+    "wouldBuy": 6,
+    "buyYes": true
+   },
+   {
+    "persona": "Ananya1",
+    "stop": 6,
+    "want": 5,
+    "trust": 6,
+    "wouldBuy": 4,
+    "buyYes": false
+   },
+   {
+    "persona": "Ananya2",
+    "stop": 6,
+    "want": 5,
+    "trust": 7,
+    "wouldBuy": 4,
+    "buyYes": false
+   }
+  ],
+  "thumb200": {
+   "perf1": 5,
+   "perf2": 5,
+   "craft1": 6.5,
+   "craft2": 6.5,
+   "truth1": 6,
+   "truth2": 6.5
+  },
+  "thumb200Mean": 5.92,
+  "beatsLoser": false,
+  "beatsWinner": false,
+  "compliance": false,
+  "truthOk": false,
+  "under6": [
+   "message",
+   "fit"
+  ],
+  "complianceNote": "All six critic runs failed compliance only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2); the OWNER RULING (20 Nov 2026) requires that trust line, so under the live rule compliance passes. Side notes, not fails: two perf runs asked for stock of 20+ (the bracelet has 18; the live rule is in stock at the card price, and no scarcity count is printed); craft2 saw the heaped pearls in the balance's left pan as round, uniform beads (an icon, but the lock forbids round or matched pearls); three runs called 'weighed in her palm' a playful stretch (no palm reads 0.1 g, and the picture never shows a palm or a weighing); the Meta copy fix below removes it."
+ },
+ "worstIssues": {
+  "perf": [
+   "The headline says weight but the picture shows a sight test: nobody is weighing anything, so 'Bhaari hai' has no visual proof and lens plus scale are two competing ideas. Shoot the bracelet pooled in the aunty's open palm, mid-heft, with the full strand of eight pearls visible. Drop the lens callout.",
+   "The prop and the claim pull apart. The headline and the drawn balance sell weight ('Bhaari hai, achha hai', 27.6 g), but the photograph shows a reading-glasses inspection, which proves looks, not heft. The caption also says 'weighed in her palm' while showing a balance. Make the picture prove the headline: the bracelet draped over the aunty's open palm. Or put this line on a weight-led frame and keep this lens frame for the 'no two alike' line."
+  ],
+  "craft": [
+   "The headline sells weight but the picture proves looking, so the claim and the image pull apart. Move the 27.6 g scale up as the proof beat right under 'Bhaari hai. Achha hai.' and cut the lens callout and eye-chart numbers, so one idea (heft equals quality) owns the frame.",
+   "The picture proves the wrong claim. The headline sells weight ('Bhaari hai. Achha hai.' plus 27.6 g), but the photo is the lens inspection, built for the look-up-close claim. The copy says 'weighed in her palm' while the graphic shows a balance scale. Shoot the bracelet pooled in the aunty's cupped palm, or on the tarazu pan, and drop the lens callout."
+  ],
+  "truth": [
+   "The headline sells weight, but the photo shows a lens inspection, and the 'weighed in her palm' proof is never shown: a balance drawing (with roundish, almost uniform pearl icons) sits on top of a lens photo, so the two devices compete. Show the bracelet in the aunty's palm or on a jeweller's balance, or pair this headline with a picture that proves it.",
+   "The headline is about weight ('Bhaari hai. Achha hai.') but the picture shows a test through the lens, so nothing in the picture proves 27.6 g. Either show the bracelet resting heavy in the aunty's palm, or pair this picture with the lens headline."
+  ]
+ },
+ "customerLines": [
+  "Meera1: 'Bhaari hai, achha hai' made me laugh because that is my mother-in-law's only test, and 27.6 g tells me it isn't flimsy plastic. But the weighing-scale drawing is too much, I still can't see the full bracelet behind the glasses, and weight isn't why I'd buy pearls.",
+  "Meera2: 'Bhaari hai, achha hai' is exactly what my mami says at every function, and 27.6 g tells me it's not some hollow plastic thing, so at ₹1,899 with cash on delivery I'd take one for my bhabhi and maybe, for once, one for myself.",
+  "Sunita1: Bhaari hai, achha hai, that is exactly what we say, and 27.6 gram weighed out like at the sunar's means it's not some hollow halka cheez, so with tarnish free and cash on delivery I'll order one for the bahu and see for myself.",
+  "Sunita2: 'Bhaari hai, achha hai' is exactly what we say at every function. 27.6 gram, tarnish free and cash on delivery, so I will risk one for my bahu, but please show the full bracelet once, not just through aunty's chashma.",
+  "Ananya1: 'Bhaari hai, achha hai' is pure aunty logic and made me laugh, but weight is her yardstick, not mine, and the little brass-scale clip art pushes it from witty to busy.",
+  "Ananya2: 'Bhaari hai, achha hai' is pure aunty logic and the little brass scale adding up to 27.6 g is cute, but 'heavy' isn't why I'd buy a pearl bracelet, and the weights maths turns a pretty moment into a spec sheet."
+ ],
+ "runnerUps": [
+  {
+   "variant": "V1",
+   "headline": "EK BHI MATCH / NAHI KARTA. (police line-up of the eight traced pearls)",
+   "cropP": 44,
+   "meta": {
+    "primaryText": "Ek bhi match nahi karta? Isiliye toh liya. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. Eight shell pearls, no two alike. Free insured shipping, COD.",
+    "headline": "No two shell pearls alike · ₹1,899 · BUY3",
+    "description": "Eight shell pearls, no two alike",
+    "url": "https://www.nairaflore.com/products/baroque-shell-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k01a&utm_content={{ad.id}}&utm_term=k01-4_V1",
+    "cta": "Shop Now"
+   },
+   "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_V1_feed.jpg",
+   "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_V1_story.jpg",
+   "scores": {
+    "code": "D6",
+    "score": 6.107,
+    "gate": false,
+    "expertMean": 6.715,
+    "perCritic": {
+     "perf": 6.405,
+     "craft": 6.835,
+     "truth": 6.905
+    },
+    "dims": {
+     "stop": 6.33,
+     "message": 5.67,
+     "truth": 7.33,
+     "layout": 5.33,
+     "brand": 7.5,
+     "copy": 7.0,
+     "fit": 6.67,
+     "desire": 6.67,
+     "cues": 7.33,
+     "crazy": 7.0
+    },
+    "dimsByCritic": {
+     "perf": {
+      "stop": 6.0,
+      "message": 6.0,
+      "truth": 6.5,
+      "layout": 5.0,
+      "brand": 7.0,
+      "copy": 7.0,
+      "fit": 7.0,
+      "desire": 6.0,
+      "cues": 7.0,
+      "crazy": 7.0
+     },
+     "craft": {
+      "stop": 6.5,
+      "message": 5.5,
+      "truth": 7.5,
+      "layout": 5.5,
+      "brand": 7.5,
+      "copy": 7.0,
+      "fit": 7.0,
+      "desire": 7.0,
+      "cues": 7.5,
+      "crazy": 7.0
+     },
+     "truth": {
+      "stop": 6.5,
+      "message": 5.5,
+      "truth": 8.0,
+      "layout": 5.5,
+      "brand": 8.0,
+      "copy": 7.0,
+      "fit": 6.0,
+      "desire": 7.0,
+      "cues": 7.5,
+      "crazy": 7.0
+     }
+    },
+    "dimsByRun": {
+     "perf1": {
+      "stop": 6,
+      "message": 6,
+      "truth": 5,
+      "layout": 5,
+      "brand": 7,
+      "copy": 7,
+      "fit": 7,
+      "desire": 6,
+      "cues": 7,
+      "crazy": 7
+     },
+     "perf2": {
+      "stop": 6,
+      "message": 6,
+      "truth": 8,
+      "layout": 5,
+      "brand": 7,
+      "copy": 7,
+      "fit": 7,
+      "desire": 6,
+      "cues": 7,
+      "crazy": 7
+     },
+     "craft1": {
+      "stop": 6,
+      "message": 5,
+      "truth": 8,
+      "layout": 5,
+      "brand": 7,
+      "copy": 7,
+      "fit": 7,
+      "desire": 7,
+      "cues": 7,
+      "crazy": 7
+     },
+     "craft2": {
+      "stop": 7,
+      "message": 6,
+      "truth": 7,
+      "layout": 6,
+      "brand": 8,
+      "copy": 7,
+      "fit": 7,
+      "desire": 7,
+      "cues": 8,
+      "crazy": 7
+     },
+     "truth1": {
+      "stop": 6,
+      "message": 6,
+      "truth": 8,
+      "layout": 5,
+      "brand": 8,
+      "copy": 7,
+      "fit": 6,
+      "desire": 7,
+      "cues": 8,
+      "crazy": 7
+     },
+     "truth2": {
+      "stop": 7,
+      "message": 5,
+      "truth": 8,
+      "layout": 6,
+      "brand": 8,
+      "copy": 7,
+      "fit": 6,
+      "desire": 7,
+      "cues": 7,
+      "crazy": 7
+     }
+    },
+    "crazy": 7.0,
+    "customerMean": 6.458,
+    "wouldBuy": 5.667,
+    "buyYesShare": 0.67,
+    "customers": [
+     {
+      "persona": "Meera1",
+      "stop": 7,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": true
+     },
+     {
+      "persona": "Meera2",
+      "stop": 7,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": true
+     },
+     {
+      "persona": "Sunita1",
+      "stop": 7,
+      "want": 6,
+      "trust": 6,
+      "wouldBuy": 5,
+      "buyYes": false
+     },
+     {
+      "persona": "Sunita2",
+      "stop": 7,
+      "want": 6,
+      "trust": 6,
+      "wouldBuy": 5,
+      "buyYes": false
+     },
+     {
+      "persona": "Ananya1",
+      "stop": 7,
+      "want": 6,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": true
+     },
+     {
+      "persona": "Ananya2",
+      "stop": 7,
+      "want": 7,
+      "trust": 7,
+      "wouldBuy": 6,
+      "buyYes": true
+     }
+    ],
+    "thumb200": {
+     "perf1": 4,
+     "perf2": 5,
+     "craft1": 5,
+     "craft2": 6,
+     "truth1": 5.5,
+     "truth2": 6
+    },
+    "thumb200Mean": 5.25,
+    "beatsLoser": false,
+    "beatsWinner": false,
+    "compliance": false,
+    "truthOk": false,
+    "under6": [
+     "message",
+     "layout"
+    ],
+    "complianceNote": "All six critic runs failed compliance only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2), now required by the OWNER RULING (20 Nov 2026). truth2 noted the Meta headline 'No two pearls alike' and description 'Eight pearls, no two alike' drop 'shell' (product card: never 'pearl' alone); fixed in this record."
+   },
+   "metaAsRated": {
+    "primaryText": "Ek bhi match nahi karta? Isiliye toh liya. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. Eight shell pearls, no two alike. Free insured shipping, COD.",
+    "headline": "No two pearls alike · ₹1,899 · BUY3",
+    "description": "Eight pearls, no two alike",
+    "url": "https://www.nairaflore.com/products/baroque-shell-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k01a&utm_content={{ad.id}}&utm_term=k01-4_V1"
+   },
+   "copyFix": {
+    "was": {
+     "headline": "No two pearls alike · ₹1,899 · BUY3",
+     "description": "Eight pearls, no two alike"
+    },
+    "now": {
+     "headline": "No two shell pearls alike · ₹1,899 · BUY3",
+     "description": "Eight shell pearls, no two alike"
+    },
+    "why": "Product card copyNotes: never 'pearl' alone outside the product name; say shell pearl (truth2 flagged it)."
+   }
+  },
+  {
+   "variant": "V3",
+   "headline": "EK / BHI MATCH / NAHI KARTA. (die-cut eye chart, half-moon window)",
+   "cropP": 26,
+   "meta": {
+    "primaryText": "Aunty's eye test: ek bhi match nahi karta. Baroque Shell Bracelet, ₹1,899. Any three, 20% off with BUY3. About 2× in her lens, true size outside. Cash on delivery.",
+    "headline": "Aunty's eye test · ₹1,899 · BUY3",
+    "description": "Free insured shipping · COD",
+    "url": "https://www.nairaflore.com/products/baroque-shell-bracelet?utm_source=meta&utm_medium=paid&utm_campaign=crazy100_k01a&utm_content={{ad.id}}&utm_term=k01-4_V3",
+    "cta": "Shop Now"
+   },
+   "feed": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_V3_feed.jpg",
+   "story": "/home/user/naira-scroll/docs/creative/concept-50/batches/k01a/k01-4_V3_story.jpg",
+   "scores": {
+    "code": "C6",
+    "score": 5.395,
+    "gate": false,
+    "expertMean": 6.49,
+    "perCritic": {
+     "perf": 5.96,
+     "craft": 6.725,
+     "truth": 6.785
+    },
+    "dims": {
+     "stop": 5.33,
+     "message": 5.33,
+     "truth": 7.33,
+     "layout": 6.33,
+     "brand": 7.83,
+     "copy": 6.83,
+     "fit": 7.33,
+     "desire": 5.5,
+     "cues": 7.33,
+     "crazy": 7.0
+    },
+    "dimsByCritic": {
+     "perf": {
+      "stop": 5.0,
+      "message": 5.0,
+      "truth": 6.5,
+      "layout": 6.5,
+      "brand": 7.5,
+      "copy": 6.0,
+      "fit": 7.0,
+      "desire": 5.0,
+      "cues": 7.0,
+      "crazy": 6.0
+     },
+     "craft": {
+      "stop": 5.5,
+      "message": 5.5,
+      "truth": 7.5,
+      "layout": 6.5,
+      "brand": 8.0,
+      "copy": 7.5,
+      "fit": 7.5,
+      "desire": 5.5,
+      "cues": 7.5,
+      "crazy": 7.5
+     },
+     "truth": {
+      "stop": 5.5,
+      "message": 5.5,
+      "truth": 8.0,
+      "layout": 6.0,
+      "brand": 8.0,
+      "copy": 7.0,
+      "fit": 7.5,
+      "desire": 6.0,
+      "cues": 7.5,
+      "crazy": 7.5
+     }
+    },
+    "dimsByRun": {
+     "perf1": {
+      "stop": 5,
+      "message": 5,
+      "truth": 5,
+      "layout": 6,
+      "brand": 7,
+      "copy": 6,
+      "fit": 7,
+      "desire": 5,
+      "cues": 7,
+      "crazy": 6
+     },
+     "perf2": {
+      "stop": 5,
+      "message": 5,
+      "truth": 8,
+      "layout": 7,
+      "brand": 8,
+      "copy": 6,
+      "fit": 7,
+      "desire": 5,
+      "cues": 7,
+      "crazy": 6
+     },
+     "craft1": {
+      "stop": 6,
+      "message": 6,
+      "truth": 8,
+      "layout": 7,
+      "brand": 8,
+      "copy": 8,
+      "fit": 8,
+      "desire": 6,
+      "cues": 7,
+      "crazy": 8
+     },
+     "craft2": {
+      "stop": 5,
+      "message": 5,
+      "truth": 7,
+      "layout": 6,
+      "brand": 8,
+      "copy": 7,
+      "fit": 7,
+      "desire": 5,
+      "cues": 8,
+      "crazy": 7
+     },
+     "truth1": {
+      "stop": 5,
+      "message": 5,
+      "truth": 8,
+      "layout": 6,
+      "brand": 8,
+      "copy": 7,
+      "fit": 7,
+      "desire": 6,
+      "cues": 8,
+      "crazy": 7
+     },
+     "truth2": {
+      "stop": 6,
+      "message": 6,
+      "truth": 8,
+      "layout": 6,
+      "brand": 8,
+      "copy": 7,
+      "fit": 8,
+      "desire": 6,
+      "cues": 7,
+      "crazy": 8
+     }
+    },
+    "crazy": 7.0,
+    "customerMean": 5.167,
+    "wouldBuy": 4.0,
+    "buyYesShare": 0.0,
+    "customers": [
+     {
+      "persona": "Meera1",
+      "stop": 5,
+      "want": 5,
+      "trust": 6,
+      "wouldBuy": 4,
+      "buyYes": false
+     },
+     {
+      "persona": "Meera2",
+      "stop": 4,
+      "want": 5,
+      "trust": 6,
+      "wouldBuy": 4,
+      "buyYes": false
+     },
+     {
+      "persona": "Sunita1",
+      "stop": 6,
+      "want": 5,
+      "trust": 6,
+      "wouldBuy": 4,
+      "buyYes": false
+     },
+     {
+      "persona": "Sunita2",
+      "stop": 5,
+      "want": 5,
+      "trust": 6,
+      "wouldBuy": 4,
+      "buyYes": false
+     },
+     {
+      "persona": "Ananya1",
+      "stop": 7,
+      "want": 5,
+      "trust": 6,
+      "wouldBuy": 4,
+      "buyYes": false
+     },
+     {
+      "persona": "Ananya2",
+      "stop": 7,
+      "want": 5,
+      "trust": 6,
+      "wouldBuy": 4,
+      "buyYes": false
+     }
+    ],
+    "thumb200": {
+     "perf1": 3.5,
+     "perf2": 4,
+     "craft1": 6,
+     "craft2": 5,
+     "truth1": 5,
+     "truth2": 5
+    },
+    "thumb200Mean": 4.75,
+    "beatsLoser": false,
+    "beatsWinner": false,
+    "compliance": false,
+    "truthOk": false,
+    "under6": [
+     "stop",
+     "message",
+     "desire"
+    ],
+    "complianceNote": "All six critic runs failed compliance only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2), now required by the OWNER RULING (20 Nov 2026)."
+   }
+  }
+ ],
+ "verdict": "held: gate failed on truth, on two dims under 6 and on the 200 px anchor test, not on compliance. Truth: dim 7.17 and the truth critic's own 7.5 are under 8 (perf1 held truth at 5, reading the T-bar in the 2x lens as 2.5-3x the ring's width and the drop crossing the rim at almost the same scale; the verifier measured T-bar/ring 1.57-1.6 against 1.65 in ref 01, so this is a perceptual note on the magnified view). Under 6: message 5.67 and fit 5.33: the headline sells weight ('BHAARI HAI. ACHHA HAI.', 27.6 g) while the photograph shows a lens inspection, so only the drawn balance, not the picture, proves the line (all six critics). 200 px: thumbs perf1 5 / craft1 6.5 vs anchor p2 6 / 7, and perf2 5 / craft2 6.5 vs sa08 7 / 7, so it beats neither loser anchor. Every critic marked compliance FAIL only for the printed 'FREE INSURED SHIPPING' (old RULINGS §2); the OWNER RULING (20 Nov 2026) requires that trust line on every ad, so compliance passes under the live rule and is not a reason.",
+ "verify": {
+  "picture": "k01-4R passes with notes (verify/k01-4.md; take A failed because the lens sat about 18 mm above the piece): toggle with a straight plain T-bar through a round ring (T-bar/ring 1.57-1.6 against 1.65 in ref 01), the drop on its jump ring under the ring with its foot bead, small and large end beads, 5 flat mismatched strand pearls + 1 drop visible (the rest under the wrist, never more than 8 + 1), nothing regularised; metal hue 69° against the listing's 72°; pearl highlights neutral white; glass clear and untinted (black L 2.6 inside against 2.9 outside), the bracelet appears once; true size on the wrist (field about 15.8 cm); bracelet at 39.9-52.9% of the height; no face, text, extra jewellery or water; both hands plausible. Notes: served model nano_banana_2 (pro requested); the frames are round full-rim, not the camp's half-moons; one far-right pearl is pink in shadow but sits under the lens fill; the ochre sleeve reaches into the headline band.",
+  "design": "Design QA (scratchpad k01a_qa/k01-4) passed fonts (Velista, no fallback), offer and trust line on all six JPGs, contrast (worst 5.6:1 at the 95th percentile), primary-text offer position, copy rules and claims (TARNISH FREE, HYPOALLERGENIC, 27.6 G, 21 CM). It accepted the lens as the camp's HTML device, not a composite or edit: an exact 2.0x of the same unedited plate about the lens centroid, clipped to the traced rim, plate pixels untouched. QA ran on the 19:17 build, when V2 was a re-skin of V1 with a boxed size tag colliding with the card in the Story; V2 was rebuilt at 20:01 with its own device (the balance and weight slip) and an unboxed tag, and the shipped Story has no collision. The final Feed and Story re-render pixel-identical from the copied HTML (render.cjs: no failed request, overflow, font fallback or text outside the safe area; min font 22 px for the trust line and seal ring only; text share 0.242 Feed, 0.155 Story).",
+  "headlineProof": "Partial. 'BHAARI HAI. ACHHA HAI.' is proved by type, not by the photograph: the drawn balance and the weight slip (20 + 5 + 2 + 0.5 + 0.1 = 27.6 g, the listed weight) carry it, while the photograph proves look and construction under her lens (toggle, ring, drop, mismatched shell pearls). All six critics flagged the split (message 5.67, fit 5.33). The on-image caption 'WEIGHED IN HER PALM.' sits beside a balance and no picture shows a palm weighing; it needs a re-render to change."
+ },
+ "polishFixes": [
+  "Make the picture and the line agree. Zero credit: put V1's line on this plate, 'EK BHI MATCH NAHI KARTA.' with 'Isiliye toh liya.' directly under it, since the lens really shows the toggle and mismatched shell pearls; keep V2's clean two-row layout, and keep 27.6 G on the 6/6 line. Customers split 3-3 between D6 and K6 as favourite, and D6 had the higher would-buy (5.67 against 5.33). One credit: keep 'BHAARI HAI.' and shoot the bracelet pooled in the aunty's open palm (asked for by perf1, perf2, craft2, truth1 and truth2).",
+  "If the weight line stays on this plate: change the caption 'WEIGHED IN HER PALM.' to 'ON HER TARAZU.' to match the drawn balance and the fixed Meta copy, and redraw the left pan's heap as the eight flat, irregular outlines from photo 07 (craft2 read them as round, uniform beads).",
+  "200 px: the bracelet reads as 'a few white blobs' at thumb size (craft1); give the piece more of the Feed (a tighter crop or a larger lens fill).",
+  "Truth to 8: perf1 read the T-bar in the 2x lens as oversized; the verifier measured it true (1.57-1.6 against 1.65), so the lens edge, where scale jumps, is what reads wrong. Feather nothing, but keep the rim's highlight arc and inner shadow strong so the 2x boundary reads as glass.",
+  "If half-moon frames are non-negotiable across the carousel, reshoot this card when nano_banana_pro is actually served (verify note)."
+ ],
+ "finalChecks": {
+  "chosenHtml": {
+   "k01-4_feed.html": [],
+   "k01-4_story.html": [
+    {
+     "where": "k01-4_story.html",
+     "rule": "note: no claim printed"
+    }
+   ]
+  },
+  "allHtml": {
+   "k01-4_V1_feed.html": [],
+   "k01-4_V1_story.html": [],
+   "k01-4_V2_feed.html": [],
+   "k01-4_V2_story.html": [
+    {
+     "where": "k01-4_V2_story.html",
+     "rule": "note: no claim printed"
+    }
+   ],
+   "k01-4_V3_feed.html": [],
+   "k01-4_V3_story.html": [],
+   "k01-4_feed.html": [],
+   "k01-4_story.html": [
+    {
+     "where": "k01-4_story.html",
+     "rule": "note: no claim printed"
+    }
+   ]
+  },
+  "meta": [],
+  "metaAsRated": [],
+  "summary": "PROBLEMS: see chosenHtml and meta"
+ }
+}

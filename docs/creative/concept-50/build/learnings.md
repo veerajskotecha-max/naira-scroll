@@ -87,3 +87,41 @@ Every shooter, designer and loop writer reads this file. Loop writers append a d
     hook needs a weighing picture (the piece pooled in an open palm or on a balance). Pick the hook the picture proves.
 23. **Show the whole piece.** A bracelet whose 8 mismatched pearls are the selling point must show all 8; a lens or frame may
     magnify one or two, never hide the rest.
+
+## k03a loop (20 Nov 2026, 20:30 UTC): 0 of 5 shipped; 1 of 10 pictures passed; expert 6.91, crazy 6.5, customer 6.71, basket 0.0
+
+24. **Set scale by the crop, not by numbers.** The model draws the piece at a fixed legible size (about 1/12 of the frame)
+    and builds the hand around it. In k03a, field-of-view cm, percent-of-frame and thumb-ratio clauses did not move it:
+    four hand plates came out 2-3x (k03-1A, k03-1R, k03-5A, k03-5R), and four were framed 23-34 cm against the 11-12 cm
+    asked (k03-1A, k03-1R, k03-3A, k03-4A). k04r saw the same habit on gpt_image_2_6. Choose a crop whose anatomy makes that size true:
+    - for a 10-18 mm piece, the fingertips fill the frame width;
+    - for 14 mm earrings, the palm spans three quarters of a 12 cm frame.
+    Never write "hand large in the frame" or "piece large and clearly legible": both were obeyed by growing the piece
+    (k03-5R about 3x; k03-3R split the ring). Keep a big prop's size, such as "paraat about 45 cm", out of macro prompts.
+25. **Copy reference 1's own pose and camera angle for any complex setting.** Poses the reference does not show broke
+    construction:
+    - a pinch or a dangle produced the named column morph (k03-5A);
+    - putting one end on each finger split a two-ended ring (k03-3R);
+    - a straight-down view turned the Woven hoop's disc edge-on, twice.
+    The reference's own pose held the hardest locks (k03-5R's 3 + 1 sweep, k03-1B's S-wave). Set the pose first, then
+    set the scale with the crop.
+26. **Name what fills every calm zone; never describe it as "quarters" or "the central 4:5 window".** On k03-3A, "the top
+    quarter is calm oxblood, the bottom quarter calm" was drawn as flat colour panels: a 1:1 photograph letterboxed to
+    9:16. "Velvet folds to the top edge, milk to the bottom edge" fixed it on the redo (k03-3R). Strip "the subject
+    centred inside the central 4:5 window" from every bible prompt before shooting.
+27. **Liquid never sits on the piece.** A milk drip hanging from a stone read as an added pearl (k03-5A), and a bead on
+    metal reads as hardware. Show liquid running off the metal clear of every stone, or detached in the air on a breaking
+    thread, and gate it at verification.
+28. **Lint the bible and brief the raters before a batch.** The k03 bible, though truth-checked, carried:
+    - a price sum (card 8's bill);
+    - composite hedges and composite Kling lines;
+    - an unlisted prop size printed as fact ("PARAAT ABOUT 45 CM");
+    - BUY3 after character 125 in four texts;
+    - the trust line switched off.
+    Every critic then failed compliance on the owner-required "FREE INSURED SHIPPING". Before each batch, lint every device
+    and line for sums, composites, prop numbers and the BUY3 position, and paste the owner rulings (RULINGS §6) into every
+    critic's prompt.
+29. **A basket of three needs three ads in front of the panel.** With one ad rated, the basket rate is 0 by construction
+    (k03a: 5 of 6 baskets held the one ring, and Meera planned BUY3 gifts but had nothing else to add). Record the rate as
+    "not measurable (n ads)" when fewer than three are rated, and spend the next credit on a third passing plate. From
+    k03b, every offer box asks for the basket: "THIS + ANY TWO · BUY3 · 20% OFF" after three chalk circles.

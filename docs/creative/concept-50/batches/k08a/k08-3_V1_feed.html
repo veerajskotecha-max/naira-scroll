@@ -17,8 +17,8 @@
  .ledger { position:absolute; top:900px; font-family:'Tiro Devanagari Hindi'; font-size:42px; line-height:1.2; color:rgba(244,240,232,.9);
            width:400px; text-align:center; margin:0; }
  .l1 { left:134.6px; } .l2 { left:547.5px; }
- .aside { position:absolute; left:0; right:0; top:906px; text-align:center; font-size:34px; line-height:1.14; color:var(--gold-light); }
- .foot { position:absolute; left:0; right:0; top:1032px; display:flex; flex-direction:column; align-items:center; gap:20px; color:var(--bone); opacity:1; font-size:26px; }
+ .aside { position:absolute; left:0; right:0; top:920px; text-align:center; font-size:34px; line-height:1.14; color:var(--gold-light); }
+ .foot { position:absolute; left:0; right:0; top:1044px; display:flex; flex-direction:column; align-items:center; gap:22px; color:var(--bone); opacity:1; font-size:26px; }
  .foot .r1 { font-family:var(--sans); font-size:26px; letter-spacing:.04em; line-height:30px; }
  .foot .r1 b { font-weight:500; letter-spacing:.18em; text-transform:uppercase; margin-right:.5em; }
  .foot .r2 { display:flex; align-items:center; gap:28px; }
@@ -27,14 +27,25 @@
  .foot .r3 { display:flex; align-items:center; gap:22px; font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.12em;
              text-transform:uppercase; line-height:30px; color:rgba(244,240,232,.85); }
  .foot .r3 img { height:28px; width:auto; display:block; }
+ .rail .dv { font-family:'Tiro Devanagari Hindi','Cormorant Garamond'; font-size:32px; letter-spacing:0; text-transform:none; color:var(--bone); }
  svg.ov { position:absolute; inset:0; width:1080px; height:1350px; pointer-events:none; }
 </style></head>
 <body class="dark">
  <img class="pic" src="pics/k08-3A.png">
  <svg class="ov" viewBox="0 0 1080 1350">
-  <line x1="150" x2="930" y1="1010" y2="1010" stroke="#F4F0E8" stroke-opacity=".45" stroke-width="1"/>
+  <line x1="150" x2="930" y1="1022" y2="1022" stroke="#F4F0E8" stroke-opacity=".45" stroke-width="1"/>
+  <defs><mask id="gap"><rect width="1080" height="1350" fill="#fff"/><rect x="0" y="286" width="1080" height="210" fill="#000"/></mask></defs>
+  <g fill="none" stroke="#E4C889" stroke-width="1.25" stroke-opacity=".9" mask="url(#gap)">
+   <path d="M216.8 200 L310.5 620.1"/>
+   <path d="M540.7 200 L434.8 610.9"/>
+   <path d="M702.7 200 L470.4 575.4"/>
+  </g>
+  <g fill="#5A2438" fill-opacity=".001" stroke="#E4C889" stroke-width="1.5">
+   <circle cx="310.5" cy="620.1" r="5"/><circle cx="434.8" cy="610.9" r="5"/><circle cx="470.4" cy="575.4" r="5"/>
+   <circle cx="216.8" cy="200" r="3.5" fill="#E4C889" fill-opacity="1"/><circle cx="540.7" cy="200" r="3.5" fill="#E4C889" fill-opacity="1"/><circle cx="702.7" cy="200" r="3.5" fill="#E4C889" fill-opacity="1"/>
+  </g>
  </svg>
- <p class="rail" data-m="rail">Earrings · pinned to the sangeet card</p>
+ <p class="rail" data-m="rail">Earrings · the moons of <span class="dv">पाँच</span></p>
  <p class="h1 hl" data-m="hl">Paanch function,<br>paanch dress code.</p>
  <p class="foil w1" data-m="w1">पाच</p>
  <p class="foil w2" data-m="w2">पाच</p>
