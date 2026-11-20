@@ -175,3 +175,38 @@ Every prompt was checked for the banned words: diamond, real gold, solid gold, b
 - **Shipping line.** The camp's `changes` keeps a delivery-line slot switched off and says "no free shipping". The owner ruling of 20 Nov 2026 overrides that: every k03 ad carries "FREE INSURED SHIPPING · CASH ON DELIVERY". OBJECTION ads (cards 1, 6) and OFFER ads (cards 5, 8, 10) may also use it in the hook and primary text. No ad promises a delivery time.
 - **Compositing.** The camp's BUILD and motion plans call for compositing the verified listing cut-out "wherever the model drifts", and for tracking it rigidly in Kling. The hard rules forbid compositing, moving or editing a product photo, so a plate that drifts gets a redo, not a composite.
 - **Variants and claims.** Tubogas is shot in 18k gold tone, whose stock is US 6, 7 and 8 only. Droplet is shot in rhodium silver tone, the Silver variant.
+
+## Generation record
+
+- **Balance:** 326.46 before and 312.46 after.
+- **This batch's cost:** 6 pictures at 2 credits each, 12 credits in all. The transaction log shows 5 spends at 17:50:07-08 UTC (first call) and 1 at 17:50:45 (the resubmit).
+  - The other 2 credits of the drop are not this batch's.
+  - The 5 spends at 17:51:38 and their 5 refunds at 17:52 also belong to another session.
+- **Model:** every job was requested as `nano_banana_pro` and served as `nano_banana_2`, at 1536 x 2752.
+- **Rate limit:** in the first `generate_image_batch` call, item 2 (k03-2A) was refused with `submission_failed` (429), so it was never submitted. The other 5 jobs were polled once, then k03-2A was resubmitted in round 1 and accepted.
+- **Outcome:** no item had an unknown outcome, and no job failed or was flagged nsfw.
+- **Records:** `jobs.json` holds no URLs.
+  - `pics/k03-3A.png` carries the generator's own XMP metadata, with standard namespace strings and an IPTC "trained algorithmic media" source tag.
+  - It is not a result URL, and the file is left exactly as downloaded.
+
+## Shooter's first look (not the verification pass)
+
+- **k03-1A: the S-wave held.** It is posed much like reference 1: ovals alternate either side of one pavé S-wave, the open back shows bare scalloped metal and 2 looped tips, and the band is not closed.
+  - The ring is pinched between thumb and index fingertips, about 30-35% down the frame, small and true-looking against the fingertips.
+  - The milk coronet wraps the wrist like a white cuff. Check that it does not read as a second piece of jewellery at 200 px.
+- **k03-1B: the S-wave and open back held, best of the two for construction legibility.** The ring stands on the fingertips of a flat palm, as on the cube.
+  - **Scale fails as generated:** the ring spans most of the palm's width, about 2x or more against the fingertips.
+  - It is usable only if the type owns the magnification and states the real size, under the giant-or-tiny hard rule. Otherwise 1A is the plate.
+- **k03-2A: the open braid, disc and latch read on both hoops, and both are round.** The hoops lie on the palm and lower fingers rather than on the two middle fingers, with milk pooling in the palm. The rim arc is at the top right, and the frame is full-bleed.
+- **k03-3A: the ring is right: one round ball beside one teardrop on her index finger.** The fingertips do not touch, and his milk drop hangs.
+  - **Frame fault:** the top of the plate (about 0-22%) is a flat oxblood panel with a hard horizontal edge and a near-black band under it. The bottom (about 78-100%) is flat ivory below the paraat.
+  - This is the k02-3A letterbox failure again, despite the full-bleed clause. The top panel can carry the headline, but the hard seam must be checked against the 4:5 Feed crop.
+- **k03-4A: the tubogas looks right.** The band is slim, the ridges run across it, the dome is puffed and there are no stones.
+  - It sits on the middle finger, not the ring finger.
+  - The band looks close to half the finger's length between the knuckles. Check its width against the "a third of the finger's width" referent.
+  - The fist is raised from a milk crown in the paraat, backlit, with milk running down the wrist.
+- **k03-5A: arrangement fault (the card's named morph).** The pair hangs down from the pinch instead of being held up like a trophy.
+  - The clear pears run in a straight vertical line with the mint pear centred below. The lock says "never hanging centred below a straight 4-stone line".
+  - A milk drop falls from the mint pear's tip.
+  - The mint colour reads pale yellow-green, which is correct.
+  - This plate likely needs the redo; the hedge is to copy reference 1's pose: earrings standing up, side by side, posts up.
