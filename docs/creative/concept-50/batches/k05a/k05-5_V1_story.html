@@ -3,47 +3,49 @@
 <style>
  body { background: #E9946B; }
  :root { --shade: #3B2620; }
- .obj { position: absolute; left: 72px; top: 276px; font-size: 98px; white-space: nowrap; }
+ .obj { position: absolute; left: 72px; top: 276px; font-size: 104px; white-space: nowrap; }
  .ts { position: absolute; transform-origin: 0 0; mix-blend-mode: multiply; pointer-events: none; }
  .ts p { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic; font-weight: 500;
          letter-spacing: .005em; color: var(--shade); }
  .ts .pen { -webkit-text-stroke: 3px var(--shade); filter: blur(2.4px); opacity: .14; }
- .lab { position: absolute; margin: 0; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 28px; letter-spacing: .14em;
+ .lab { position: absolute; margin: 0; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 30px; letter-spacing: .14em;
         text-transform: uppercase; white-space: nowrap; color: var(--ink); }
  .lab.sz { letter-spacing: .12em; }
- .lab.vert { transform-origin: 0 0; transform: rotate(-90deg); }
- .row { position: absolute; left: 72px; right: 72px; display: flex; align-items: flex-end; justify-content: space-between; color: var(--ink); }
- .row .l img { display: block; height: 32px; }
- .row .l .pr { font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 56px; margin-top: 12px; letter-spacing: -.01em; }
- .row .l .pr .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
- .box { width: 600px; border: 1.5px solid var(--ink); padding: 12px 16px 11px; text-align: center; }
- .box .b3 { font-family: var(--sans); font-weight: 500; font-size: 30px; line-height: 36px; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
+ .vert { transform-origin: 0 0; transform: rotate(-90deg); }
+ .vert.dn { transform: rotate(90deg); }
+ .lc { position: absolute; left: 72px; color: var(--ink); }
+ .lc img { display: block; height: 32px; }
+ .lc .nm { font-family: var(--sans); font-weight: 600; font-size: 26px; line-height: 32px; white-space: nowrap; margin-top: 12px; }
+ .lc .pr { font-family: var(--serif); font-weight: 500; font-size: 60px; line-height: 54px; margin-top: 6px; letter-spacing: -.01em; }
+ .lc .pr .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
+ .rc { position: absolute; right: 72px; width: 520px; color: var(--ink); }
+ .rc .lg { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 34px; line-height: 40px; white-space: nowrap; text-align: center; }
+ .box { margin-top: 8px; border: 1.5px solid var(--ink); padding: 11px 12px 10px; text-align: center; }
+ .box .b3 { font-family: var(--sans); font-weight: 500; font-size: 28px; line-height: 34px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
  .box .b2 { font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; margin-top: 2px; }
- .trust { position: absolute; margin: 0; font-family: var(--sans); font-weight: 500; font-size: 22px; line-height: 26px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; color: var(--ink); }
+ .trust { position: absolute; margin: 0; font-family: var(--sans); font-weight: 500; font-size: 22px; line-height: 28px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; color: var(--ink); }
 </style></head>
 <body class="story">
  <img class="pic" src="pics/k05-5A.png" alt="">
  <p class="h1 obj">Two Hoops.</p>
- <div class="ts" style="left:74px;top:370px;width:960px;height:80px;transform:skewX(18deg) scaleY(1.2);">
-  <p class="pen" style="font-size:52px;line-height:58px;">and the whole sangeet, for the cousin.</p>
-  <p style="font-size:52px;line-height:58px;-webkit-mask-image:linear-gradient(to bottom,#000 0,#000 26px,transparent 35px);mask-image:linear-gradient(to bottom,#000 0,#000 26px,transparent 35px);">and the whole sangeet, for the cousin.</p>
-  <p style="font-size:52px;line-height:58px;filter:blur(.5px);-webkit-mask-image:linear-gradient(to bottom,transparent 26px,#000 35px,#000 42px,transparent 49px);mask-image:linear-gradient(to bottom,transparent 26px,#000 35px,#000 42px,transparent 49px);">and the whole sangeet, for the cousin.</p>
-  <p style="font-size:52px;line-height:58px;filter:blur(1px);-webkit-mask-image:linear-gradient(to bottom,transparent 42px,#000 49px);mask-image:linear-gradient(to bottom,transparent 42px,#000 49px);">and the whole sangeet, for the cousin.</p>
+ <div class="ts" style="left:74px;top:374px;width:960px;height:80px;transform:skewX(18deg) scaleY(1.2);">
+  <p class="pen" style="font-size:54px;line-height:60px;">and the whole sangeet, for the cousin.</p>
+  <p style="font-size:54px;line-height:60px;-webkit-mask-image:linear-gradient(to bottom,#000 0,#000 27px,transparent 36px);mask-image:linear-gradient(to bottom,#000 0,#000 27px,transparent 36px);">and the whole sangeet, for the cousin.</p>
+  <p style="font-size:54px;line-height:60px;filter:blur(.5px);-webkit-mask-image:linear-gradient(to bottom,transparent 27px,#000 36px,#000 43px,transparent 50px);mask-image:linear-gradient(to bottom,transparent 27px,#000 36px,#000 43px,transparent 50px);">and the whole sangeet, for the cousin.</p>
+  <p style="font-size:54px;line-height:60px;filter:blur(1px);-webkit-mask-image:linear-gradient(to bottom,transparent 43px,#000 50px);mask-image:linear-gradient(to bottom,transparent 43px,#000 50px);">and the whole sangeet, for the cousin.</p>
  </div>
- <div class="row" style="top:456px">
-  <div class="l"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira"><div class="pr"><span class="r">₹</span>1,049</div></div>
-  <div class="box"><div class="b3">Buy 3 · 20% off · Code BUY3</div><div class="b2">Buy 2 · 10% off</div></div>
- </div>
- <p class="trust" style="left:72px;top:544px">Free insured shipping · Cash on delivery</p>
- <p class="lab vert" style="left:22px;top:582px">4:52 PM · 21 Dec</p>
+ <div class="lc" style="top:470px"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira"><div class="nm">Woven Gold Hoops.</div><div class="pr"><span class="r">₹</span>1,049</div></div>
+ <div class="rc" style="top:464px"><div class="lg">Three people. Three things you never said.</div><div class="box"><div class="b3">Buy 3 · 20% off · Code BUY3</div><div class="b2">Buy 2 · 10% off</div></div></div>
+ <p class="lab vert" style="left:22px;top:580px">4:52 PM · 21 Dec</p>
+ <p class="trust vert dn" style="left:1058px;top:652px">Free insured shipping · Cash on delivery</p>
  <svg class="overlay" viewBox="0 0 1080 1920">
   <g fill="none" stroke="#1A1614">
    <line x1="14" y1="599.9" x2="207.3" y2="648.1" stroke-width="1.5" stroke-opacity=".6"/>
    <circle cx="212.1" cy="649.3" r="5" stroke-width="1.5"/>
    <g stroke-width="1.5"><line x1="56" y1="687" x2="56" y2="1056"/><line x1="49" y1="687" x2="63" y2="687"/><line x1="49" y1="1056" x2="63" y2="1056"/></g>
-   <g stroke-width="1" stroke-dasharray="3 5" stroke-opacity=".75"><line x1="67" y1="687" x2="166" y2="687"/><line x1="67" y1="1056" x2="232" y2="1056"/><line x1="56" y1="1063" x2="56" y2="1160"/></g>
+   <g stroke-width="1" stroke-dasharray="3 5" stroke-opacity=".75"><line x1="67" y1="687" x2="166" y2="687"/><line x1="67" y1="1056" x2="232" y2="1056"/><line x1="56" y1="1063" x2="56" y2="1166"/></g>
   </g>
   <circle cx="7" cy="598.2" r="7" fill="#1A1614"/>
  </svg>
- <p class="lab sz" style="left:72px;top:1166px">Woven Gold Hoops ·<br>25 mm across ·<br>Dancers not included</p>
+ <p class="lab sz" style="left:72px;top:1176px">Hoops 25 mm across ·<br>Dancers not included</p>
 </body></html>
