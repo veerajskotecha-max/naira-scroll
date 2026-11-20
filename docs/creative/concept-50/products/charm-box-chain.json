@@ -1,0 +1,63 @@
+{
+  "handle": "charm-box-chain",
+  "title": "Charm Box Chain",
+  "price": 1199,
+  "stock": 18,
+  "category": "Necklace",
+  "metal": "18k gold tone (PVD 18k gold tone coating on surgical stainless steel), polished, one tone only",
+  "lock": "A 50 cm box chain, 2.5 mm, polished 18k gold tone, threaded through 1 open-bore barrel charm about 10 mm tall and as long: 2 plain end rims and 2 raised polished ribs divide 3 pavé bands, each 2 rows of tiny clear stones. No bail, no other charm. Must stay 3 bands split by 2 ribs, chain through the bore, never a solid pavé band or a bail-hung pendant.",
+  "morph": "The barrel charm. Models merge the 3 pavé bands into 1 continuous pavé band and drop the 2 polished ribs (listing photo 04 already shows this single-band version). They also hang the barrel from a bail or jump ring instead of running the chain through its bore, flatten it into a disc or roundel, or add a second bead (an older frame drew a companion bead as a letter 'G'). Second risk: the rounded-square box links smooth into a cable, curb, rope or snake chain. The colour campaign also hit four-point star or cross glints on the barrel, so forbid starbursts.",
+  "sizeMm": "Listed: chain 500 mm (size guide: give or take 10 mm), box chain about 2.5 mm, charm about 10 mm tall, 12.3 g. Estimated from packshot 03: the barrel is about as long along the chain as it is tall (about 10 x 10 mm), with a bore of about 4-5 mm. In the photos the chain looks closer to one fifth of the barrel's height than the listed 2.5 mm, so keep the barrel at about 4-5x the chain's width. Referent: the charm is about the size of a chickpea, or a fingernail's width. On the body (worn photo 02) the 50 cm length falls below the collarbone and the charm sits on the upper breastbone. On the size guide that is between princess (45 cm) and matinee (60 cm).",
+  "refs": [
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/charm-box-chain/03.jpg",
+    "/home/user/naira-scroll/docs/creative/concept-50/refs/charm-box-chain/02.jpg"
+  ],
+  "mediaIds": [
+    "f258e0db-2470-4395-a770-faca3ddabf55",
+    "5df3fb80-477c-42ae-9bce-8aedb889bfab"
+  ],
+  "refNotes": "products.md has no section for this handle and plan.json has no lock for it, so both images were imported fresh from their Shopify CDN URLs. Ref 1 is listing image 03 (charm-box-chain-0, 1649 px): the packshot over a plaster cube, the clearest real view of the whole chain and of the 3 bands and 2 ribs. Ref 2 is listing image 02 (charm-box-chain-1): a studio worn shot that shows scale and placement on the body. It is only 896 x 1200, so the bands are soft but consistent with ref 1. Not used: 04 (single-band charm, contradicts 03), 01 and 05 (AI-generated hf_ PNGs), 06 (packaging) and 07 (size guide). The colour campaign's earlier ids (colour_refs.json: hero a1d2a9e5 = charm-box-chain-0, detail 639979f2 = the AI barrel macro) were not reused, because their detail ref is AI-made.",
+  "claims": "Waterproof, Tarnish Free, Hypoallergenic (all 3 tagged). The care text backs them up: 'Waterproof and tarnish free, so daily wear and water are fine.' The body copy is softer ('resist tarnish', 'anti-tarnish'), so keep the wording to 'tarnish free' or 'tarnish resistant'. Never say 'never tarnishes'.",
+  "preOrder": false,
+  "variants": "1 variant: Default Title, stock 18, 18k gold tone. Show it (every photo shows this variant).",
+  "copyNotes": "Use: 18k gold tone, PVD, surgical stainless steel, box chain, square links that hold their shape and resist twisting, barrel charm, pavé, clear cubic zirconia, 50 cm, 2.5 mm, 10 mm, 12.3 g, waterproof, tarnish free, hypoallergenic, 'one small charm on a very neat chain', layering ('under a longer chain'). Avoid: 'gold' or 'silver' alone, solid gold, diamond, 'rectangular' charm (an old copy error), pendant, bail, locket, initial or letter, spinner (no spin is claimed), curb, cable, rope, snake, huggie, emerald, more than 1 charm. Price: use the live Rs 1,199 only. The colour campaign used Rs 1,399 and the fidelity library lists 2149, and both are out of date. Stock is 18, so scarcity is true but small; do not invent a 'last few' count.",
+  "story": "One small, glittering barrel that rides on a neat, square-linked chain: a quiet piece that still catches light at the base of the throat, and the easy first layer under a longer pendant. Its 3 pavé bands between gold ribs read like a stack of 3 tiny eternity bands, or a ring worn on a chain. It also rhymes with a cotton reel or spool of thread, a dholak's banded barrel, a bead on an abacus, and motichoor packed with points of light (the colour campaign ran 'Man mein laddoo phoota.', since dropped pending a reshoot, and 'Fresh as mogra.', with mogra buds as the barrel). Lower stock (18) and a mid price (Rs 1,199): a gifting-size everyday piece.",
+  "photos": [
+    {
+      "file": "01.jpg",
+      "src": "hf_20261021_081237 PNG (alt: macro detail, the pavé barrel charm)",
+      "what": "AI-generated macro on a plaster block. It copies 03 faithfully (3 pavé bands, 2 ribs, open bore, box chain) but adds four-point star glints. 18k gold tone. Not a reference."
+    },
+    {
+      "file": "02.jpg",
+      "src": "charm-box-chain-1",
+      "what": "Real studio worn shot on a mustard satin camisole, front on, at low resolution (896 x 1200). The chain falls below the collarbone and the barrel sits on the upper breastbone, slightly left of centre, threaded sideways on the chain. The bands are soft but match 03. 18k gold tone. Best scale reference."
+    },
+    {
+      "file": "03.jpg",
+      "src": "charm-box-chain-0",
+      "what": "Real packshot draped over a plaster cube on a cream ground. The whole chain shows, plus the barrel: 3 pavé bands of about 2 rows each, 2 raised polished ribs, plain rims, and a wide open bore the chain runs straight through. No bail. 18k gold tone. Best construction reference."
+    },
+    {
+      "file": "04.jpg",
+      "src": "charm-box-chain-2",
+      "what": "Real-looking close-up on a plaster block. The barrel shows ONE continuous pavé band of about 5 rows between 2 plain rims, with no dividing ribs. This contradicts 03 and the worn shot, so do not use it as a reference."
+    },
+    {
+      "file": "05.jpg",
+      "src": "hf_20261021_081640 PNG (alt: laid flat beside a cardamom pod for scale)",
+      "what": "AI-generated flat lay with a green cardamom pod. It has the 3-band barrel, but its scale is not evidence. Not a reference."
+    },
+    {
+      "file": "06.jpg",
+      "src": "naira-packaging-b15",
+      "what": "Packaging only: the blush Naira Petite drawer box against a bone wall. The piece is not shown."
+    },
+    {
+      "file": "07.jpg",
+      "src": "charm-box-chain-size-guide",
+      "what": "Size guide: 50 cm against the 36/40/45/60 cm lengths, charm 10 mm, chain length give or take 1 cm."
+    }
+  ],
+  "finish": "Polished, high-shine 18k gold tone with clear pavé; the chain has rounded-square box links. The clasp does not show in any photo, so keep it out of frame rather than invent one."
+}
