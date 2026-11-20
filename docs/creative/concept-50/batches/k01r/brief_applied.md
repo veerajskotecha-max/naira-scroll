@@ -139,3 +139,17 @@ Media ids come from each product card's `mediaIds`, reference 1 first:
 | Halo Curve | `refs/halo-curve-ring/02.jpg` | `01.jpg` |
 | Verdant Circlet | `refs/verdant-circlet-studs/01.jpg` | `03.jpg` |
 | Toggle | `refs/toggle-link-chain/02.jpg` | `ads-500/build/refs/toggle-link-chain__clasp.jpg` |
+
+## Generation (20 Nov 2026)
+
+- **Submission:** one `generate_image_batch` call with four take A items: `gpt_image_2_6`, quality high, 2k, 9:16, `use_unlim: false`, two `image_references` each. All four were accepted on the first submission, with no 429 and no resubmits.
+- **Results:** all four completed, served by `gpt_image_2_6`, at 1520x2688. They are saved in `pics/` and recorded in `jobs.json`, which holds no URLs.
+- **Balance:**
+  - 225.21 credits before and 206.71 after.
+  - This batch's four jobs cost 4 x 2.75 = 11 credits.
+  - The other 7.5 of the drop came from batches running at the same time on the shared account.
+- **First look:** this is a contact-sheet glance, not a verification.
+  - **Faces:** none visible.
+  - **Glasses:** in all four, the glasses sit beside the piece, as the new device asks.
+  - **For the verifier on k01-1A:** the braid reads close to a twisted rope at thumbnail size, so check it at 2x against reference 2. The field looks wider than 11 cm.
+  - **For the verifier on k01-3A:** the folded glasses sit close to the stud, so check the clean area for the SVG lens.

@@ -28,3 +28,15 @@ Test 2, the two other hard locks:
 Decision: from batch wave 2 on, take A is `gpt_image_2_6` (high, 2k, 2.75 credits) and take B or the redo is `seedream_v5_pro`
 (2k, 2.5 credits). Pictures are 1520x2688 or 1536x2720, so the crop rule is now computed from each picture's real size.
 Total spent on the bake-off: about 25 credits.
+
+## Quality-tier test (same prompts, GPT Image 2.6 at 2k)
+
+| File | Quality | Credits | Result |
+|---|---|---|---|
+| `pics/woven_gpt26_medium.png` | medium | 1 | open plait, one disc, latch: matches high |
+| `pics/woven_gpt26_low.png` | low | 0.5 | **two discs** (fail) |
+| `pics/toggle_gpt26_medium.png` | medium | 1 | sailor ring, gate nub, straight stone bar: matches high |
+| `pics/ring_gpt26_medium.png` | medium | 1 | S-wave pave and claw-set ovals: as good as high or better |
+
+Decision: take A moves to `gpt_image_2_6` quality **medium** (1 credit). Take B and redos of a GPT take use
+`seedream_v5_pro` 2k (2.5 credits). Batches get two hedge takes again.
