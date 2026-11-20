@@ -9,21 +9,22 @@
  .obj .kTW { letter-spacing: -.045em; }
 
  /* 2 · TYPE-SHADOW, hung from the object line's baseline, leaning with the plate (16 deg), stretched like a low-sun shadow */
- .ts { position: absolute; left: 72px; top: 356px; width: 600px; height: 120px; transform-origin: 0 0; transform: skewX(16deg) scaleY(1.45); }
+ .ts { position: absolute; left: 76px; top: 323.3px; width: 620px; height: 120px; transform-origin: 0 0; transform: skewX(17deg) scaleY(1.5); }
  .ts.sh { mix-blend-mode: multiply; }
  .ts.lt { mix-blend-mode: screen; }
- .ts p { position: absolute; left: 0; top: -19.7px; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic;
+ .ts p { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; font-family: var(--serif); font-style: italic;
          font-weight: 500; font-size: 92px; line-height: 92px; letter-spacing: .01em; color: #3B2620; }
  .ts p .w { color: transparent; }
- .ts .a { -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 40px, transparent 52px); mask-image: linear-gradient(to bottom, #000 0, #000 40px, transparent 52px); }
- .ts .b { filter: blur(2.4px); -webkit-mask-image: linear-gradient(to bottom, transparent 0, transparent 36px, #000 50px); mask-image: linear-gradient(to bottom, transparent 0, transparent 36px, #000 50px); }
+ /* sharp at the contact, softening with distance: three copies cross-faded down the letter height */
+ .ts .a { -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 45px, transparent 54px); mask-image: linear-gradient(to bottom, #000 0, #000 45px, transparent 54px); }
+ .ts .b { filter: blur(.9px); -webkit-mask-image: linear-gradient(to bottom, transparent 43px, #000 53px, #000 60px, transparent 68px); mask-image: linear-gradient(to bottom, transparent 43px, #000 53px, #000 60px, transparent 68px); }
+ .ts .c { filter: blur(1.7px); -webkit-mask-image: linear-gradient(to bottom, transparent 59px, #000 67px); mask-image: linear-gradient(to bottom, transparent 59px, #000 67px); }
  /* the pool: the shadow that the lit word sits inside (the crystal's caustic glows inside the joined hands' shadow) */
  .ts .pool { color: transparent; }
- .ts .pool .w { color: #3B2620; -webkit-text-stroke: 9px #3B2620; filter: blur(7px); }
+ .ts .pool .w { color: #3B2620; -webkit-text-stroke: 8px #3B2620; filter: blur(6px); }
  /* 3 · THE LIGHT IN THE TYPE: 'aur' alone is lit */
  .ts .lit { color: transparent; }
- .ts .lit .w { color: rgba(244,240,232,.92); text-shadow: 0 0 8px rgba(242,214,168,.85), 0 0 2px rgba(244,240,232,.7); }
-
+ .ts .lit .w { color: rgba(244,240,232,.93); text-shadow: 0 0 7px rgba(242,214,168,.8), 0 0 2px rgba(244,240,232,.6); }
  /* 4 · THE SUN label, 5 · SIZE LINE labels */
  .lab { position: absolute; font-family: var(--sans); font-weight: 500; font-size: 26px; line-height: 32px; letter-spacing: .14em;
         text-transform: uppercase; white-space: nowrap; color: var(--ink); }
@@ -35,6 +36,7 @@
  .ftr .r1 b { font-weight: 600; margin-right: 8px; }
  .ftr .r2 { display: flex; align-items: center; gap: 30px; margin-top: 14px; }
  .ftr .price { font-family: var(--serif); font-weight: 500; font-size: 74px; line-height: 1; flex: none; letter-spacing: -.01em; }
+ .ftr .price .r { font-size: .74em; font-weight: 400; margin-right: .04em; }
  .ftr .offer { flex: 1; text-align: center; white-space: nowrap; padding: 12px 18px; border-width: 1.5px; }
  .ftr .r3 { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 14px;
             border-top: 1px solid rgba(26,22,20,.45); }
@@ -50,6 +52,7 @@
   <p class="pool">tum <span class="w">aur</span> main.</p>
   <p class="a">tum <span class="w">aur</span> main.</p>
   <p class="b">tum <span class="w">aur</span> main.</p>
+  <p class="c">tum <span class="w">aur</span> main.</p>
  </div>
  <div class="ts lt"><p class="lit">tum <span class="w">aur</span> main.</p></div>
 
@@ -71,13 +74,13 @@
   </g>
   <circle cx="8" cy="571" r="7" fill="#1A1614"/>
  </svg>
- <div class="lab" style="left:72px;top:527px">3:58 PM · 21 Dec</div>
+ <div class="lab" style="left:72px;top:527px">3:58 PM · 21 Dec · Sun 16°</div>
  <div class="lab sz" style="left:224px;top:976px">Ring 17 mm inside</div>
  <div class="lab sz" style="left:607px;top:976px">Shadow not included</div>
 
  <div class="ftr" style="top:1052px">
   <div class="r1"><b>Halo Curve Ring.</b> Tiger eye and pale champagne crystal · fits US 5 to 9</div>
-  <div class="r2"><span class="price">₹899</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
+  <div class="r2"><span class="price"><span class="r">₹</span>899</span><span class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</span></div>
   <div class="r3"><img src="../../../ads-500/kit/logo_ink.png" alt="Naira"><span class="trust">Free insured shipping · Cash on delivery</span></div>
  </div>
 </body></html>
