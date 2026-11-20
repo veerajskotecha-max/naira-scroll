@@ -216,3 +216,26 @@ Every prompt was checked by script (`python3 -I`) for:
 - the required parts: 9:16, the exact reference sentence, the lock with its must-stay clause, mm, a contact shadow, a soft light and the small hard specular kicker, calm areas, the exact no-text clause, no face, no eyes, no eyebrows, and one product.
 
 All 5 prompts are clean. "Gold" appears only as "18k gold tone" or "gold tone".
+
+## Generation record
+
+- **Balance:** 264.71 before and 235.21 after.
+  - This batch spent 13.75 credits: 5 pictures at 2.75 credits (GPT Image 2.6 transactions 18:22:18-18:22:19Z for four, 18:23:25Z for k05-5A).
+  - The rest of the drop (15.75) was spent by other sessions on the shared account (GPT Image 2.6 at 18:24:07-08Z and later).
+- **Model:** every job was requested and served as `gpt_image_2_6` (quality high, 2k, 9:16, `use_unlim` false), at 1520 x 2688. No take B, so no `seedream_v5_pro` job.
+- **Rounds:**
+  1. One call with all 5 items (18:22Z): k05-1A to k05-4A accepted; k05-5A refused with `submission_failed` (429 rate_limit_reached), so it was never submitted.
+  2. After about 50 s of jobs_wait polling on the four submitted jobs (all completed), k05-5A was resubmitted unchanged and accepted (18:23Z). It completed on the second poll.
+
+  No job failed and no item had an unknown outcome, so nothing was resubmitted with words removed. `prompts.json` holds the prompts exactly as generated.
+- **Files:** `pics/k05-1A.png`, `k05-2A`, `k05-3A`, `k05-4A` and `k05-5A`, downloaded with curl. `jobs.json` holds no URLs.
+
+## Shooter's first look (not the verification pass)
+
+At contact-sheet size every one of the five ideas reads: two people holding hands, the butterfly flying off, one coil and a dozen shadow bangles, a cobra with one point of light, a ring of eight sangeet dancers. No generated text, logos, faces or extra jewellery were seen. Notes for the verifier:
+
+- **k05-1A.** Open bypass band, opaque banded tiger eye with soft facets (no checkerboard), faceted pale champagne crystal; the band rests on the ledge with both stones up. The two figures' heads are plain rounds, touching; the champagne caustic glows at their joined hands, and the crystal's light also lights one head. The shadow figures stand apart from the ring rather than growing out of its outline. **Check scale:** the ring spans about 40% of the frame width against the quarter asked, so it may read 1.3-1.6x if the field is 10 cm (there is no body referent; the size line carries the true 17 mm). The ring sits at about 38-50% down.
+- **k05-2A.** Two layers held: lilac pavé butterfly over a separate clear-stone outline with flag-shaped upper lobes and open windows showing skin. The lilac reads lavender at this size; check its hue against ref 01. The shadow butterfly flies up and right with a doubled edge. Check the shadow middle finger is bare, the hand's lower edge (about 55% down, a little into the card band), and the ring at about 1.4 finger widths.
+- **k05-3A.** Two full ribbed turns with the 3-wire stack only between the two offset caps, as on ref 01; the shadow wrist wears a stack of about a dozen bangles; the real arm wears only the coil. **Stone-count fault to check:** each cap shows 6 stones (2 columns of 3) against the lock's 8 (2 columns of 4). The wire may also read thicker than 4 mm against the forearm. The left 40% is calm wall.
+- **k05-4A.** Snake chain over the parapet top, plain bail fixed straight onto the 4-prong basket (no jump ring), cushion stone to camera; the chain's shadow rises into a cobra with its hood spread and one white point of light at the crown. A terracotta wall stands above the parapet, so the headline zone is plaster. Check the stone against 10 mm (five chain widths) and the snake chain's ridges.
+- **k05-5A.** Open many-wire plait with a see-through core, exactly one flat disc per hoop beside the latch, hinge knuckle on the other end, both hung from a ball-headed brass nail; the shadow is a clear circle of eight dancers with flared skirts, heads plain. The metal reads bright yellow, not amber, at this size. **Check scale:** the pair spans about 38% of the frame width against the quarter asked, and the nail head looks larger than 5 mm, so the hoops may read about 1.3-1.5x (the known Woven drift). The pair sits at about 33-55% down.
