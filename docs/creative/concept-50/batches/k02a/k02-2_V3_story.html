@@ -40,6 +40,14 @@ draft
  .o2 .sep { margin: -4px 2px 0 0; }
  .l3s .trust { letter-spacing: .12em; margin-top: 4px; }
  .edge { letter-spacing: .12em; }
+
+ /* the tape-label ledger: the beat set as two dated entries (Jost 300 numerals, Cormorant italic labels) */
+ .ledger { position: absolute; right: 72px; top: 548px; display: grid; grid-template-columns: auto; justify-items: end; color: var(--bone); }
+ .ledger .yr { font-family: var(--sans); font-weight: 300; font-size: 88px; line-height: .9; letter-spacing: .02em; font-variant-numeric: lining-nums; }
+ .ledger .yr.now { color: var(--gold-light); display: flex; align-items: center; gap: 16px; }
+ .ledger .yr.now svg { display: block; }
+ .ledger .lb { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 36px; line-height: 1.1; margin: 8px 0 0; }
+ .ledger .rule { width: 230px; height: 0; border-top: 1.5px solid rgba(228,200,137,.7); margin: 26px 0 24px; }
 </style></head>
 <body class="dark story">
 <img class="pic" src="pics/k02-2A.png">
@@ -47,6 +55,6 @@ draft
 <div class="osd" style="top:277px"><div class="rec"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
 <img class="bug" style="top:270px" src="../../../ads-500/kit/logo_white.png">
 <p class="super t1">The heart<br>frame.</p>
-<p class="sub b1">In 1996 only the bride<br>got one. This season,<br>it’s yours.</p>
+<div class="ledger"><div class="yr">1996</div><div class="lb">the bride’s</div><div class="rule"></div><div class="yr now"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg>2026</div><div class="lb">yours.</div></div>
 <div class="l3s"><div class="name">Aqua Heart Drops</div><div class="price">₹1,299</div><div class="offer o2"><span class="k">Codes</span><span>BUY2 · 10% off</span><span class="k"><span class="sep"></span></span><span>BUY3 · 20% off</span></div><div class="trust">Free insured shipping · Cash on delivery</div></div>
 </body></html>

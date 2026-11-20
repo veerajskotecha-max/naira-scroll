@@ -1,0 +1,76 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../ads-500/kit/kit.css">
+<!-- k02-4 V2 story (draft) -->
+<style>
+ body { background: #1E0E10; }
+ /* Story: H 2688 x (1920/2688) = 1920; cover scale 0.714286, picture 1085.71 x 1920, x offset -2.857. */
+ .pic { object-position: 50% 50%; }
+ svg.mist { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; mix-blend-mode: screen; opacity: .40; pointer-events: none; }
+ svg.fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
+ .band { mix-blend-mode: soft-light; }
+ .osd { position: absolute; left: 72px; top: 276px; display: flex; align-items: center; gap: 14px; color: var(--bone);
+        font-family: var(--sans); font-weight: 500; font-size: 30px; letter-spacing: .14em; line-height: 34px;
+        text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
+ .osd svg { display: block; filter: drop-shadow(2px 2px 0 rgba(26,22,20,.6)); }
+ .stamp { position: absolute; left: 72px; color: var(--bone); font-family: var(--sans); font-weight: 400; font-size: 26px;
+          letter-spacing: .14em; line-height: 30px; text-shadow: 2px 2px 0 rgba(26,22,20,.6); white-space: nowrap; }
+ .bug { position: absolute; right: 72px; top: 270px; height: 56px; opacity: .88; }
+ .super { position: absolute; left: 0; right: 0; margin: 0; text-align: center; font-family: var(--display); text-transform: uppercase;
+          font-weight: 400; line-height: 1; letter-spacing: .04em; color: var(--gold-light); white-space: nowrap;
+          font-variant-ligatures: none; font-feature-settings: "liga" 0, "dlig" 0, "calt" 0, "swsh" 0, "salt" 0;
+          -webkit-text-stroke: 3px var(--bone); paint-order: stroke fill; text-shadow: 0 6px 18px rgba(59,38,32,.7); }
+ .super .soft { display: inline-block; filter: blur(2.5px);
+                text-shadow: 0 0 14px rgba(244,240,232,.4), 0 0 28px rgba(244,240,232,.25), 0 6px 18px rgba(59,38,32,.7); }
+ .super .sharp { display: inline-block; }
+ .beat { position: absolute; left: 0; right: 0; text-align: center; color: var(--bone); font-size: 44px; line-height: 48px;
+         text-shadow: 0 2px 10px rgba(26,22,20,.55); white-space: nowrap; }
+ .hand { position: absolute; font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ink); white-space: nowrap; }
+ .contents { left: 96px; top: 852px; font-size: 34px; line-height: 40px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
+ .spec { left: 60px; top: 936px; font-size: 30px; line-height: 38px; transform: rotate(-1.5deg); transform-origin: 0 50%; }
+ .lower { position: absolute; left: 0; right: 0; top: 566px; height: 232px; background: rgba(59,38,32,.94); border-top: 2px solid var(--gold-light);
+          border-bottom: 2px solid var(--gold-light); }
+ .lt { position: absolute; color: var(--bone); white-space: nowrap; }
+ .lt.name { left: 72px; top: 588px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; line-height: 32px; text-transform: uppercase; }
+ .lt.line { left: 72px; top: 622px; font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; line-height: 32px; }
+ .lt.price { right: 72px; top: 586px; font-family: var(--serif); font-weight: 500; font-size: 64px; line-height: 64px; color: var(--gold-light); }
+ .lt.offerw { left: 72px; top: 670px; }
+ .lt .offer { color: var(--bone); }
+ .lt.trust { left: 72px; top: 748px; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 32px; text-transform: uppercase; }
+</style></head>
+<body class="dark story">
+ <img class="pic" src="pics/k02-4A.png">
+ <svg class="mist" viewBox="0 0 1080 1920">
+  <defs>
+   <filter id="sf" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="18"/>
+    <feComponentTransfer><feFuncR type="linear" slope="1.12"/><feFuncG type="linear" slope="1.12"/><feFuncB type="linear" slope="1.12"/></feComponentTransfer></filter>
+   <mask id="mm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1920"><image href="masks/k02-4A_mist.png" x="-2.857" y="0" width="1085.714" height="1920" preserveAspectRatio="none"/></mask>
+  </defs>
+  <g mask="url(#mm)"><image href="pics/k02-4A.png" x="-2.857" y="0" width="1085.714" height="1920" preserveAspectRatio="none" filter="url(#sf)"/></g>
+ </svg>
+ <svg class="fx" viewBox="0 0 1080 1920">
+  <defs>
+   <filter id="tn" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9 0.06" numOctaves="2" seed="7"/>
+    <feColorMatrix values="0 0 0 0 .957  0 0 0 0 .941  0 0 0 0 .91  0 0 0 1.6 -.45"/></filter>
+   <linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff"/><stop offset=".75" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+   <mask id="bm"><rect x="0" y="1262" width="1080" height="70" fill="url(#bf)"/></mask>
+  </defs>
+  <g mask="url(#bm)">
+   <rect class="band" x="0" y="1262" width="1080" height="70" filter="url(#tn)" opacity=".7"/>
+   <rect x="0" y="1288" width="1080" height="2" fill="#F4F0E8" opacity=".35"/>
+   <rect x="3" y="1291" width="1080" height="1.5" fill="#ff3b3b" opacity=".35"/>
+   <rect x="-3" y="1293" width="1080" height="1.5" fill="#3bd5ff" opacity=".3"/>
+  </g>
+ </svg>
+ <div class="osd" data-m="osd"><svg width="40" height="26" viewBox="0 0 40 26"><path d="M20 0 L0 13 L20 26 Z M40 0 L20 13 L40 26 Z" fill="#F4F0E8"/></svg>REW</div>
+ <img class="bug" src="../../../ads-500/kit/logo_white.png">
+ <p class="super" data-m="title" style="top:344px;font-size:92px"><span class="sharp">Nothing to hide.</span></p>
+ <p class="beat" data-m="beat" style="top:436px">In ’96, soft focus hid the plating.<br>This season every phone shoots pin-sharp.</p>
+ <div class="lower"></div>
+ <div class="lt name" data-m="name">Brushed Satin Hoops</div>
+ <div class="lt line" data-m="line">18k gold tone · brushed satin · in stock</div>
+ <div class="lt price" data-m="price">₹699</div>
+ <div class="lt offerw"><div class="offer" data-m="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div></div>
+ <div class="lt trust" data-m="trust">Free insured shipping · Cash on delivery</div>
+ <div class="hand contents" data-m="contents">Shaadi · Haldi to Reception · Dec ’96</div>
+ <div class="hand spec" data-m="spec">14 × 9.8 mm, about life size<br>PVD 18k gold tone<br>waterproof · tarnish free<br>hypoallergenic</div>
+ <div class="stamp" data-m="stamp" style="top:1188px">12 · 12 · 1996</div>
+</body></html>

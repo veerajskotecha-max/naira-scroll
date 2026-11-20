@@ -32,11 +32,19 @@ draft
 
  .t1 { left: 0; right: 0; text-align: center; top: 194px; font-size: 100px; letter-spacing: .04em; padding-left: .04em; }
  .b1 { left: 0; right: 0; text-align: center; top: 958px; font-size: 42px; }
- .l3 { left: 0; right: 0; top: 1046px; bottom: 0; padding-top: 30px; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+ .l3 { left: 0; right: 0; top: 1030px; bottom: 0; padding-top: 34px; display: flex; flex-direction: column; align-items: center; gap: 14px; }
  .aside { position: absolute; left: 604px; top: 769px; color: var(--bone); }
  .aside b { display: block; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; line-height: 1; white-space: nowrap; }
  .aside i { display: block; margin-top: 10px; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 34px; line-height: 1; white-space: nowrap; }
  .edge { letter-spacing: .12em; }
+
+ /* the tape-label ledger: the beat set as two dated entries (Jost 300 numerals, Cormorant italic labels) */
+ .ledger { position: absolute; right: 72px; top: 396px; display: grid; grid-template-columns: auto; justify-items: end; color: var(--bone); }
+ .ledger .yr { font-family: var(--sans); font-weight: 300; font-size: 96px; line-height: .9; letter-spacing: .02em; font-variant-numeric: lining-nums; }
+ .ledger .yr.now { color: var(--gold-light); display: flex; align-items: center; gap: 16px; }
+ .ledger .yr.now svg { display: block; }
+ .ledger .lb { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 36px; line-height: 1.1; margin: 8px 0 0; }
+ .ledger .rule { width: 230px; height: 0; border-top: 1.5px solid rgba(228,200,137,.7); margin: 26px 0 24px; }
 </style></head>
 <body class="dark">
 <img class="pic" src="pics/k02-2A.png">
@@ -44,7 +52,7 @@ draft
 <div class="osd" style="top:91px"><div class="rec"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg><span>REC</span></div><div class="tape">2026 · YOUR TAPE</div></div>
 <img class="bug" style="top:84px" src="../../../ads-500/kit/logo_white.png">
 <p class="super t1">The heart frame.</p>
-<p class="sub b1">In 1996 only the bride got one. This season, it’s yours.</p>
+<div class="ledger"><div class="yr">1996</div><div class="lb">the bride’s</div><div class="rule"></div><div class="yr now"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="11" fill="#B5502F"/></svg>2026</div><div class="lb">yours.</div></div>
 <div class="aside"><b>29 MM DROP</b><i>about the top joint of a thumb</i></div>
 <div class="l3"><div class="np"><span class="name">Aqua Heart Drops</span><span class="price">₹1,299</span></div><div class="offer">Codes BUY2 · 10% off <span class="sep"></span> BUY3 · 20% off</div><div class="trust">Free insured shipping · Cash on delivery</div></div>
 </body></html>
