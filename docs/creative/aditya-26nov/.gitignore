@@ -1,0 +1,3 @@
+build/out/
+build/__pycache__/
+build/verify/*.png

@@ -1,0 +1,127 @@
+{
+ "_note": "Callouts in raw pixels of the approved packshot (out/<chosen K_H>.png, 1792x2240): [\"h\", x0, x1, y, label, side] or [\"v\", y0, y1, x, label, side]; crop [x, y, width] of the landscape panel. Sizes measured against the 80 mm velvet card in the supplier photos.",
+ "K01": {
+  "crop": [
+   520,
+   930,
+   860
+  ],
+  "callouts": [
+   [
+    "v",
+    982,
+    1420,
+    1040,
+    "17 mm",
+    "right"
+   ],
+   [
+    "h",
+    738,
+    1012,
+    1445,
+    "11 mm",
+    "below"
+   ]
+  ]
+ },
+ "K02": {
+  "crop": [
+   520,
+   690,
+   740
+  ],
+  "callouts": [
+   [
+    "v",
+    746,
+    1119,
+    832,
+    "13 mm",
+    "right"
+   ],
+   [
+    "h",
+    622,
+    808,
+    1140,
+    "7 mm",
+    "below"
+   ]
+  ]
+ },
+ "K03": {
+  "crop": [
+   560,
+   790,
+   680
+  ],
+  "callouts": [
+   [
+    "v",
+    852,
+    1095,
+    845,
+    "8 mm",
+    "right"
+   ],
+   [
+    "h",
+    656,
+    825,
+    1112,
+    "6 mm",
+    "below"
+   ]
+  ]
+ },
+ "K04": {
+  "crop": [
+   380,
+   630,
+   1200
+  ],
+  "callouts": [
+   [
+    "h",
+    465,
+    850,
+    1105,
+    "12 mm",
+    "below"
+   ],
+   [
+    "v",
+    700,
+    1085,
+    1340,
+    "12 mm",
+    "right"
+   ]
+  ]
+ },
+ "K05": {
+  "crop": [
+   400,
+   690,
+   880
+  ],
+  "callouts": [
+   [
+    "v",
+    820,
+    1287,
+    598,
+    "17.5 mm",
+    "left"
+   ],
+   [
+    "h",
+    969,
+    1178,
+    800,
+    "7.5 mm"
+   ]
+  ]
+ }
+}
