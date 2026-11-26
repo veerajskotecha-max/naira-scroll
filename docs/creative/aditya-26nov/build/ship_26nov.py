@@ -1,11 +1,12 @@
 # One Shopify mutation (one approval) creating the seven Aditya pieces of 26 Nov 2026 as DRAFTS: copy, price at 3.5x the
-# supplier price written on each photo (cost per item = that price), SKU, 5 units at Forest Colony Parijat Nagar, the
-# category and feed metafields, the gallery (packshot, worn, worn close, macro, palm; the ring has no palm photo) and the
+# supplier price written on each photo (cost per item = that price), SKU, 10 units at Forest Colony Parijat Nagar, the
+# category and feed metafields, the gallery (packshot, worn, worn close, macro: the owner's four photos, no palm) and the
 # size card last, which the description also shows. autoPublish is set on the six sales channels around the creates and
 # set back afterwards (as ../../stock-2nov/build/ship_new.py), so each piece is on every channel when the owner sets it Active.
 # Tags and the description format follow ../../aditya-jewellery/build/shopify_payload.py (the 27 Oct Aditya listings: plain
 # care line, no PVD / waterproof / tarnish claims, no compare-at price).
-# Usage: python3 -I ship_26nov.py [K01 K02 ...] -> ../shopify/ship_26nov.json (variables) and ../shopify/ship_26nov.graphql
+# Usage: python3 -I ship_26nov.py [-o NAME] [K01 K02 ...] -> ../shopify/NAME.json (variables) and ../shopify/NAME.graphql
+# (NAME defaults to ship_26nov, the first seven; the second batch, K08 to K13, is ship_26nov_b2).
 import html, json, os, re
 H = os.path.dirname(os.path.abspath(__file__)); S = os.path.join(H, "../shopify")
 L = json.load(open(f"{S}/listing.json")); EMAP = json.load(open(f"{H}/export_map.json")); URL = json.load(open(f"{H}/url_map.json"))
@@ -51,7 +52,9 @@ def product(p):
                           + ([{"namespace": "shopify", "key": "ring-size", "type": "list.metaobject_reference", "value": json.dumps(RING_SIZES)}] if typ == "Ring" else [])}
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) > 1: L = [p for p in L if p["key"] in sys.argv[1:]]
+    args = sys.argv[1:]; NAME = "ship_26nov"
+    if args[:1] == ["-o"]: NAME, args = args[1], args[2:]
+    if args: L = [p for p in L if p["key"] in args]
     ids = [p["key"].lower() for p in L]
     var = {"on": {"autoPublish": True}, "off": {"autoPublish": False}}
     for p in L: var[p["key"].lower()] = product(p)
@@ -62,6 +65,6 @@ if __name__ == "__main__":
            + "".join(f"  on{n}: publicationUpdate(id: \"gid://shopify/Publication/{pub}\", input: $on) {sel}\n" for n, pub in enumerate(PUBS))
            + "".join(f"  {i}: productSet(input: ${i}, synchronous: true) {ps}\n" for i in ids)
            + "".join(f"  off{n}: publicationUpdate(id: \"gid://shopify/Publication/{pub}\", input: $off) {sel}\n" for n, pub in enumerate(PUBS)) + "}\n")
-    json.dump(var, open(f"{S}/ship_26nov.json", "w"), ensure_ascii=False, separators=(",", ":"))
-    open(f"{S}/ship_26nov.graphql", "w").write(doc)
+    json.dump(var, open(f"{S}/{NAME}.json", "w"), ensure_ascii=False, separators=(",", ":"))
+    open(f"{S}/{NAME}.graphql", "w").write(doc)
     for p in L: v = var[p["key"].lower()]; print(p["sku"], v["handle"], v["variants"][0]["price"], "cost", v["variants"][0]["inventoryItem"]["cost"], len(v["files"]), "files", v["tags"])

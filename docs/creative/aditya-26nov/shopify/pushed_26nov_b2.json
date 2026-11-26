@@ -1,0 +1,105 @@
+{
+ "created": "2026-11-26T09:40Z",
+ "mutation": "shopify/ship_26nov_b2.graphql + ship_26nov_b2.json",
+ "status": "DRAFT",
+ "autoPublish_after": {
+  "164676042914": false,
+  "164676108450": false,
+  "167637745826": false,
+  "175106293922": false,
+  "180607254690": false,
+  "180607746210": false
+ },
+ "products": {
+  "K08": {
+   "product_id": "gid://shopify/Product/10422036856994",
+   "variant_id": "gid://shopify/ProductVariant/50977069432994",
+   "handle": "marquise-duet-open-ring",
+   "title": "Marquise Duet Open Ring",
+   "sku": "ADT37",
+   "price": 543,
+   "cost": 155,
+   "units": 10,
+   "channels": 6,
+   "media": [
+    {
+     "kind": "size card",
+     "media_image_id": "gid://shopify/MediaImage/47072686145698",
+     "filename": "marquise-duet-open-ring-size-guide.jpg"
+    }
+   ],
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422036856994"
+  },
+  "K09": {
+   "product_id": "gid://shopify/Product/10422036922530",
+   "variant_id": "gid://shopify/ProductVariant/50977069564066",
+   "handle": "mixed-cut-quartet-ring",
+   "title": "Mixed Cut Quartet Ring",
+   "sku": "ADT38",
+   "price": 1015,
+   "cost": 290,
+   "units": 10,
+   "channels": 6,
+   "media": [
+    {
+     "kind": "size card",
+     "media_image_id": "gid://shopify/MediaImage/47072686309538",
+     "filename": "mixed-cut-quartet-ring-size-guide.jpg"
+    }
+   ],
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422036922530"
+  },
+  "K10": {
+   "product_id": "gid://shopify/Product/10422037020834",
+   "variant_id": "gid://shopify/ProductVariant/50977069629602",
+   "handle": "cushion-solitaire-studs",
+   "title": "Cushion Solitaire Studs",
+   "sku": "ADT39",
+   "price": 910,
+   "cost": 260,
+   "units": 10,
+   "channels": 6,
+   "media": [],
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422037020834"
+  },
+  "K11": {
+   "product_id": "gid://shopify/Product/10422037053602",
+   "variant_id": "gid://shopify/ProductVariant/50977069695138",
+   "handle": "pave-teardrop-dome-earrings",
+   "title": "Pavé Teardrop Dome Earrings",
+   "sku": "ADT40",
+   "price": 1120,
+   "cost": 320,
+   "units": 10,
+   "channels": 6,
+   "media": [],
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422037053602"
+  },
+  "K12": {
+   "product_id": "gid://shopify/Product/10422037119138",
+   "variant_id": "gid://shopify/ProductVariant/50977069826210",
+   "handle": "pear-tusk-earrings",
+   "title": "Pear Tusk Earrings",
+   "sku": "ADT41",
+   "price": 1015,
+   "cost": 290,
+   "units": 10,
+   "channels": 6,
+   "media": [],
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422037119138"
+  },
+  "K13": {
+   "product_id": "gid://shopify/Product/10422037184674",
+   "variant_id": "gid://shopify/ProductVariant/50977069924514",
+   "handle": "seven-stone-station-necklace",
+   "title": "Seven Stone Station Necklace",
+   "sku": "ADT42",
+   "price": 1050,
+   "cost": 300,
+   "units": 10,
+   "channels": 6,
+   "media": [],
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422037184674"
+  }
+ }
+}

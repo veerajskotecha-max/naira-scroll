@@ -1,0 +1,20 @@
+mutation Aditya26Nov($on: PublicationUpdateInput!, $off: PublicationUpdateInput!, $k08: ProductSetInput!, $k09: ProductSetInput!, $k10: ProductSetInput!, $k11: ProductSetInput!, $k12: ProductSetInput!, $k13: ProductSetInput!) {
+  on0: publicationUpdate(id: "gid://shopify/Publication/164676042914", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on1: publicationUpdate(id: "gid://shopify/Publication/164676108450", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on2: publicationUpdate(id: "gid://shopify/Publication/167637745826", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on3: publicationUpdate(id: "gid://shopify/Publication/175106293922", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on4: publicationUpdate(id: "gid://shopify/Publication/180607254690", input: $on) { publication { id autoPublish } userErrors { field message } }
+  on5: publicationUpdate(id: "gid://shopify/Publication/180607746210", input: $on) { publication { id autoPublish } userErrors { field message } }
+  k08: productSet(input: $k08, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  k09: productSet(input: $k09, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  k10: productSet(input: $k10, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  k11: productSet(input: $k11, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  k12: productSet(input: $k12, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  k13: productSet(input: $k13, synchronous: true) { product { id handle status totalInventory mediaCount { count } variants(first: 1) { nodes { id sku price inventoryQuantity inventoryItem { unitCost { amount } } } } } userErrors { field message code } }
+  off0: publicationUpdate(id: "gid://shopify/Publication/164676042914", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off1: publicationUpdate(id: "gid://shopify/Publication/164676108450", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off2: publicationUpdate(id: "gid://shopify/Publication/167637745826", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off3: publicationUpdate(id: "gid://shopify/Publication/175106293922", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off4: publicationUpdate(id: "gid://shopify/Publication/180607254690", input: $off) { publication { id autoPublish } userErrors { field message } }
+  off5: publicationUpdate(id: "gid://shopify/Publication/180607746210", input: $off) { publication { id autoPublish } userErrors { field message } }
+}
