@@ -36,20 +36,27 @@ piece as IMG_8016), so there are seven pieces.
 
 ## Photos
 
-The flow is `../stock-2nov` (2 Nov): packshot on the cream plaster cube (H), worn (W1), worn close (W2), macro (M), in the open
-palm (P; not for the ring), then the size card last. The prompt builder is `build/build.py` (a copy of `../stock-2nov/build/build.py`
-with GPT Image 2.6 at quality medium, faithful in the 20 Nov bake-off, instead of Nano Banana Pro). Specs are `build/skus.json`.
-IMAGE 1 is a crop of the supplier photo (`refs/K0n_full.jpg`), IMAGE 2 a close crop (`refs/K0n_det.jpg`) or, for worn, macro
-and palm frames, the approved packshot.
+**The owner's rules (26 Nov):** four photos per listing, like the other Aditya listings: the packshot on the cream plaster
+cube (H), worn (W1), worn close (W2) and one zoomed macro (M), then the size chart last. No palm photo. Nothing placed or
+resized by hand in a photo (no composites, pinches or cut-and-paste): a frame whose size is wrong is regenerated. A 10/10
+finish that does not look AI.
 
-- **Approved packshots:** K01 to K04 (checked against the supplier photos: the oval east to west in four corner claws with its
-  jump ring and tapered bail on a rope chain; the marquise with both tips bare; the pear point up in three claws; the duet
-  mirrored, baguettes outside, pear raised; the duet's pear reads a little rounder than the supplier's) and K05.
+The prompt builder is `build/build.py` (a copy of `../stock-2nov/build/build.py`, GPT Image 2.6 at quality medium, faithful in the
+20 Nov bake-off). Its scale, light and finish blocks follow the Naira image skill (`imagegenerationnaira`, `references/tested-prompts.md`):
+one product per picture; two lights, one large soft and one small hard specular so the metal reads as metal; CRITICAL SCALE in mm
+with a body-part equivalent; a contact shadow; honest shallow depth of field; fine film grain, real texture and believable
+imperfection; no plastic skin, no CGI gloss, no drawn sparkle stars; warm-neutral gold, never brassy; cream grounds, never sand
+or beige. IMAGE 1 is a crop of the supplier photo (`refs/K0n_full.jpg`), IMAGE 2 a close crop (`refs/K0n_det.jpg`) or, for worn
+and macro frames, the approved packshot; IMAGE 3 is the house plate (the cube, or the model), so every listing looks like the
+others. Specs are `build/skus.json`.
+
+- **Approved packshots:** K01, K03, K04 and K05, each checked against the supplier photo (K05 by an independent checker,
+  `build/verify/K05_H.md`). K02's packshot has a small drawn sparkle star on one stone tip (an AI tell) and is to be reshot.
 - **Higgsfield stopped generating** after five pictures on 26 Nov: "You've reached the daily generation limit for your grace
   period. Try again after the limit resets or update your plan to continue generating." The balance is 73.96 credits, and
-  GPT Image 2.6 now costs 1.75 credits a picture (1 on 20 Nov). The remaining frames (K01 to K05: W1, W2, M, P; K06: H, W1, W2,
-  M; K07: H, W1, W2, M, P) are built and waiting (`build/idx_*.json`); the workflow that shoots, checks and redoes them is
-  `workflows` run `wf_e6ba4e2a-eaa` and can be resumed.
+  GPT Image 2.6 costs 1.75 credits a picture in the grace period (1 on 20 Nov). Still to shoot: 48 frames (K02 H again;
+  K01 to K05 W1, W2, M; K06 to K13 H, W1, W2, M), about 84 credits at 1.75, more than the balance, and about ten days at five a
+  day. Renewing the Higgsfield plan lifts the cap.
 
 ## Shopify
 
@@ -66,7 +73,7 @@ here until the owner confirms these seven are PVD.
 
 ## Open items
 
-1. Photos still to shoot when Higgsfield allows (see above), then a productSet per product by id with the full gallery, passing
+1. Photos still to shoot when Higgsfield allows (see above), then a productSet per product by handle with the full gallery, passing
    each size card as `{"id": <MediaImage id>}` so its filename (which the description links) is not renamed.
 2. K07 has no size card yet (its card is drawn on its packshot). Its description has no size-guide image until then.
 3. The pendant's chain length is not measured (the chain runs behind the card). A tape measure on one piece settles it.

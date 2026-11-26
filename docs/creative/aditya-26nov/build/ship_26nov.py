@@ -12,6 +12,9 @@ L = json.load(open(f"{S}/listing.json")); EMAP = json.load(open(f"{H}/export_map
 LOCATION = "gid://shopify/Location/76267389090"; CDN = "https://cdn.shopify.com/s/files/1/0680/9606/5698/files/"
 PUBS = ["164676042914", "164676108450", "167637745826", "175106293922", "180607254690", "180607746210"]
 CARE = "Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch."
+# The store's ring-size category entries (shopify--ring-size metaobjects 5, 6, 7, 8), as on the live Lumière Oval Solitaire Ring,
+# so the adjustable rings show in the storefront's size filter. There is no US 9 entry in the store.
+RING_SIZES = ["gid://shopify/Metaobject/246807953570", "gid://shopify/Metaobject/246807986338", "gid://shopify/Metaobject/246807920802", "gid://shopify/Metaobject/643878125730"]
 CAT = {"Necklace": ("aa-6-8", "Necklaces", "196"), "Earrings": ("aa-6-6", "Earrings", "194"), "Ring": ("aa-6-9", "Rings", "200")}
 e = html.escape
 def first_sentence(s): return re.split(r"(?<=[.!?])\s", s.strip())[0]
@@ -38,7 +41,8 @@ def product(p):
                            {"namespace": "mm-google-shopping", "key": "gender", "type": "single_line_text_field", "value": "Female"},
                            {"namespace": "mm-google-shopping", "key": "age_group", "type": "single_line_text_field", "value": "Adult"},
                            {"namespace": "mm-google-shopping", "key": "condition", "type": "single_line_text_field", "value": "New"},
-                           {"namespace": "mc-facebook", "key": "google_product_category", "type": "single_line_text_field", "value": fb}]}
+                           {"namespace": "mc-facebook", "key": "google_product_category", "type": "single_line_text_field", "value": fb}]
+                          + ([{"namespace": "shopify", "key": "ring-size", "type": "list.metaobject_reference", "value": json.dumps(RING_SIZES)}] if typ == "Ring" else [])}
 if __name__ == "__main__":
     ids = [p["key"].lower() for p in L]
     var = {"on": {"autoPublish": True}, "off": {"autoPublish": False}}
