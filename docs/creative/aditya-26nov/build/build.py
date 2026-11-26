@@ -1,6 +1,9 @@
-# Aditya's four supplier photos of 26 Nov 2026: a copy of ../../stock-2nov/build/build.py (the 2 Nov flow). IMAGE 1 is the supplier's
+# Aditya's supplier photos of 26 Nov 2026 (14 photos, 13 pieces): a copy of ../../stock-2nov/build/build.py (the 2 Nov flow). IMAGE 1 is the supplier's
 # photo of the piece on its velvet card, the only authority on what it is. Shot with gpt_image_2_6 at quality medium (faithful in the
-# 20 Nov bake-off, ../../concept-50/batches/bakeoff/README.md) instead of nano_banana_pro. Adds two shots: P, the piece resting in the model's open palm
+# 20 Nov bake-off, ../../concept-50/batches/bakeoff/README.md) instead of nano_banana_pro. 26 Nov, the owner: four photos per listing
+# (packshot H, worn W1, worn close W2, macro M) plus the size chart, no palm photo, no manual placing or retouching of the piece, and a
+# 10/10 finish that does not look AI: the realism and scale blocks follow the Naira image skill (one product, two lights, CRITICAL
+# SCALE in mm with a body-part equivalent, contact shadow, honest optics, film grain and believable imperfection). Adds two shots: P, the piece resting in the model's open palm
 # (a size proof the owner asked for), and MN, the set's necklace macro. A spec's "detname" names what its IMAGE 2 shows when that is
 # not a closer view of the same piece (the set: IMAGE 1 the earrings, IMAGE 2 the necklace).
 # Usage: build.py SKU:SHOT,SKU:SHOT,... start_index -> prints requests JSON (and writes idx_<start>.json).
@@ -19,8 +22,11 @@ MODEL = ("THE PLATE: A young Indian woman, late twenties, warm mid-brown skin wi
          "Warm cream seamless with a gentle gradient falloff, never sand, tan, beige or golden. Soft large key from camera-left, one soft shadow.")
 LIP = "CROP: The frame is cut straight across just ABOVE THE UPPER LIP. NO eyes, NO eyebrows, NO forehead anywhere in this picture."
 END = ("No lettering, no watermark, no logo, no tag, no size sticker anywhere in frame. No border, no frame, no paper edge, no vignette: "
-       "the image fills the whole frame edge to edge. A clean modern digital photograph: no creases, no fold lines, no aged-paper texture, "
-       "no scratches, no film grain.")
+       "the image fills the whole frame edge to edge. FINISH (the Naira image skill, references/tested-prompts.md): a real photograph taken "
+       "with a real camera, never a render: fine natural film grain, believable imperfection, real surface texture (plaster grain, skin pores, "
+       "fine downy hair), matte surroundings, no plastic skin, no heavy retouching, no CGI gloss, no over-sharpening, no glow or bloom, no "
+       "sparkle stars or lens flares drawn on the stones, no creases, no fold lines, no aged-paper texture. Warm-neutral gold, never brassy or "
+       "orange, never over-saturated. Backgrounds warm cream, absolutely never sand, tan, beige or golden.")
 NOUN = {"earring": "pair of earrings", "earcuff": "ear cuff", "bangle": "rigid bangle", "cuff": "open cuff bracelet", "set": "set (the necklace and its pair of earrings)"}
 METAL = {"gold": "warm 18k gold tone, never brassy, orange or greenish", "silver": "bright rhodium silver tone, never grey or dull, never gold",
          "two-tone": "polished gold tone and bright silver tone exactly where IMAGE 1 shows them",
@@ -52,7 +58,7 @@ def prompt(k, shot):
         p = (f"SHOT: Straight-on e-commerce packshot, 4:5. {what}, on a cream plaster cube. "
              f"Camera close, a little above the cube's top face, looking down at about thirty degrees. Macro-sharp on the metal.\n\n"
              f"THE PRODUCT: {rn} IMAGE {n} is here ONLY for the plinth, the camera distance, the background and the light: copy its cube and its framing exactly and ignore everything else about it.\n\n"
-             f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {s['scale']} The piece keeps its true small size against the cube, never enlarged.\n\n"
+             f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nCRITICAL SCALE: {s['scale']} The piece keeps its true small size against the cube, never enlarged; a small object dominates by isolation and light, not by filling the frame. A dark believable contact shadow directly beneath where it touches the plaster.\n\n"
              f"GROUND: The cream plaster cube fills the lower half of the frame, large and close; flat faces, softly rounded corners, fine plaster grain. "
              f"Warm cream seamless behind with a gentle gradient falloff, never sand, tan, beige or golden. {LIGHT}\n\n"
              f"ABSENCE LIST: No hand, no fingers, no model, no fabric, no props, no flowers, no box. "
@@ -62,7 +68,7 @@ def prompt(k, shot):
         p = (f"SHOT: Extreme macro, 4:5, of {s['nmacro' if shot == 'MN' else 'macro']}, resting on the top face of a cream plaster cube. Camera very close; the piece fills about two thirds of the frame; "
              f"razor-sharp on the stones and the metal edges, the rest falling softly out of focus.\n\n"
              f"THE PRODUCT: {rn} IMAGE {n} is the authority for the plaster, the background and the light only.\n\n"
-             f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {s['scale']}\n\nLIGHT: {LIGHT}\n\n"
+             f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nCRITICAL SCALE: {s['scale']} Honest macro optics: depth of field only a few millimetres deep, so the nearest edge of the piece is needle-sharp and everything even slightly further away falls immediately and softly out of focus; a believable contact shadow where it touches the plaster; real plaster grain visible.\n\nLIGHT: {LIGHT}\n\n"
              f"ABSENCE LIST: No hand, no ear, no model, no fabric, no props. No second piece of jewellery."
              f"{' Only ONE earring is in this picture: its partner from the pair is NOT in frame, no second post, no second stone.' if kind in ('earring', 'set') and shot == 'M' else ''}{' Only the necklace is in this picture, no earrings.' if shot == 'MN' else ''}"
              f" Metal: {m}. {END}")
@@ -119,7 +125,7 @@ def prompt(k, shot):
         ids, rn, n = refs(s, plate, hero, worn=True)
         p = (f"{sh}\n\n{crop}\n\nTHE PRODUCT: {rn} IMAGE {n} is the authority on the model, skin, garment, hair, ground and light: match it exactly, "
              f"but she wears ONLY the piece from IMAGE 1, {where}; any other jewellery in IMAGE {n} is removed.\n\n{MODEL}\n\n"
-             f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nSCALE TEST: {(s.get('pscale', '') + ' ' + s['scale']) if shot == 'P' else (s.get('wscale') or s['scale'])} The jewellery keeps its true small size against the body; it is read by bringing the camera closer, never by making the piece bigger.\n\n"
+             f"CONSTRUCTION LOCK: {s['lock']} {s['neg']}\n\nCRITICAL SCALE: {(s.get('pscale', '') + ' ' + s['scale']) if shot == 'P' else (s.get('wscale') or s['scale'])} The jewellery keeps its true small size against the body and the frame must prove it; it is read by bringing the camera closer, never by making the piece bigger. Shallow depth of field: the piece in crisp focus, the skin falling gently soft; natural unretouched skin with visible pores.\n\n"
              f"ABSENCE LIST: No eyes, no eyebrows, no forehead. No second piece of jewellery, no watch, no other rings, no other earrings, no necklace unless it is the product. "
              f"No nail polish colour. No props, no flowers. Metal: {m}. {END}")
     if s.get("stoneless"):                 # a plain metal piece: drop the house lines about stones, so none are invented
