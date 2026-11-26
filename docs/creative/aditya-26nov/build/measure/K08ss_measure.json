@@ -1,0 +1,216 @@
+{
+ "piece": "K08",
+ "photo": "refs/K08_src.jpg",
+ "scale_px_per_mm": 14.5,
+ "scale_range": [
+  14.0,
+  15.2
+ ],
+ "scale_basis": "2.5 x 5 mm marquise girdle ~36-37 px (setting outer 38-41 px); cross-checked by ring inner width 281 px and fingertip ridge period ~7.3 px",
+ "obvious_finger_scale_px_per_mm": 15.63,
+ "candidates": {
+  "2x4": {
+   "px_per_mm": 18.5,
+   "finger_mm": 15.2,
+   "ridge_mm": 0.39
+  },
+  "2.5x5": {
+   "px_per_mm": 14.8,
+   "finger_mm": 19.0,
+   "ridge_mm": 0.49
+  },
+  "3x6": {
+   "px_per_mm": 12.33,
+   "finger_mm": 22.8,
+   "ridge_mm": 0.59
+  },
+  "4x8": {
+   "px_per_mm": 9.25,
+   "finger_mm": 30.4,
+   "ridge_mm": 0.79
+  }
+ },
+ "segments": {
+  "s1_setting_width": {
+   "from": [
+    816.7,
+    745.2
+   ],
+   "to": [
+    852.1,
+    765.8
+   ],
+   "px": 41.0,
+   "mm_at_14.5": 2.83,
+   "mm_at_finger_scale": 2.62
+  },
+  "s1_stone_width_visible": {
+   "from": [
+    818.1,
+    747.7
+   ],
+   "to": [
+    850.1,
+    766.3
+   ],
+   "px": 37.0,
+   "mm_at_14.5": 2.55,
+   "mm_at_finger_scale": 2.37
+  },
+  "s2_setting_width": {
+   "from": [
+    769.5,
+    851.4
+   ],
+   "to": [
+    800.4,
+    873.5
+   ],
+   "px": 38.0,
+   "mm_at_14.5": 2.62,
+   "mm_at_finger_scale": 2.43
+  },
+  "s1_unit_bandclaw_to_spike_tip": {
+   "from": [
+    857.9,
+    717.1
+   ],
+   "to": [
+    812.4,
+    795.3
+   ],
+   "px": 90.5,
+   "mm_at_14.5": 6.24,
+   "mm_at_finger_scale": 5.79
+  },
+  "s2_unit_spike_tip_to_bandclaw": {
+   "from": [
+    805.7,
+    825.7
+   ],
+   "to": [
+    760.3,
+    897.7
+   ],
+   "px": 85.1,
+   "mm_at_14.5": 5.87,
+   "mm_at_finger_scale": 5.45
+  },
+  "gap_between_spike_tips": {
+   "from": [
+    812.4,
+    795.3
+   ],
+   "to": [
+    805.7,
+    825.7
+   ],
+   "px": 31.1,
+   "mm_at_14.5": 2.14,
+   "mm_at_finger_scale": 1.99
+  },
+  "stone_centres": {
+   "from": [
+    835.4,
+    753.8
+   ],
+   "to": [
+    785.3,
+    862.7
+   ],
+   "px": 119.9,
+   "mm_at_14.5": 8.27,
+   "mm_at_finger_scale": 7.67
+  },
+  "front_span_bandclaw_to_bandclaw": {
+   "from": [
+    857.9,
+    717.1
+   ],
+   "to": [
+    760.3,
+    897.7
+   ],
+   "px": 205.3,
+   "mm_at_14.5": 14.16,
+   "mm_at_finger_scale": 13.14
+  },
+  "finger_width_at_ring_inner": {
+   "from": [
+    866.0,
+    674.6
+   ],
+   "to": [
+    745.0,
+    928.5
+   ],
+   "px": 281.3,
+   "mm_at_14.5": 19.4,
+   "mm_at_finger_scale": 18.0
+  },
+  "band_outer_visible_extent": {
+   "from": [
+    871.0,
+    662.0
+   ],
+   "to": [
+    742.0,
+    940.0
+   ],
+   "px": 306.5,
+   "mm_at_14.5": 21.14,
+   "mm_at_finger_scale": 19.61
+  },
+  "band_width_top": {
+   "from": [
+    859.2,
+    688.2
+   ],
+   "to": [
+    876.1,
+    692.9
+   ],
+   "px": 17.5,
+   "mm_at_14.5": 1.21,
+   "mm_at_finger_scale": 1.12
+  },
+  "band_width_bottom": {
+   "from": [
+    740.9,
+    920.3
+   ],
+   "to": [
+    752.6,
+    928.1
+   ],
+   "px": 14.1,
+   "mm_at_14.5": 0.97,
+   "mm_at_finger_scale": 0.9
+  }
+ },
+ "ridge_period_px": {
+  "(320,650)": 7.52,
+  "(380,700)": 7.32,
+  "(330,610)": 7.1,
+  "(360,880)": 6.98,
+  "(580,520)": 7.45,
+  "(600,560)": 6.75,
+  "(640,1220)": 6.24
+ },
+ "rotated_frames": {
+  "stone1": {
+   "centre": [
+    837,
+    757
+   ],
+   "rotate_ccw_deg": 30.2
+  },
+  "stone2": {
+   "centre": [
+    783,
+    866
+   ],
+   "rotate_ccw_deg": 35.6
+  }
+ }
+}

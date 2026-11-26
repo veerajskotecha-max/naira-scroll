@@ -7,11 +7,11 @@ piece as IMG_8016), so there are seven pieces.
 
 | Key | Supplier code | Product | SKU | Type | Cost (supplier) | Price (3.5×) | Units | Measured |
 |---|---|---|---|---|---|---|---|---|
-| K01 | #8 | Lumière Oval Solitaire Pendant | ADT30 | Necklace | ₹275 | ₹963 | 10 | stone 11 × 9 mm set east to west; pendant 17 mm with the bail; rope chain 2 mm |
+| K01 | #8 | Lumière Oval Solitaire Pendant | ADT30 | Necklace | ₹275 | ₹963 | 10 | stone 11 × 9 mm set east to west; pendant 17 mm with the bail; rope chain about 1 mm |
 | K02 | #106-107 | Marquise Solitaire Studs | ADT31 | Earrings | ₹200 | ₹700 | 10 | 13 × 7 mm |
 | K03 | #108-109 | Petite Pear Solitaire Studs | ADT32 | Earrings | ₹170 | ₹595 | 10 | 8 × 6 mm (7.6 × 5.7 measured) |
 | K04 | #57-60-63-58 | Pear Baguette Duet Studs | ADT33 | Earrings | ₹270 | ₹945 | 10 | 12 × 12 mm; pear 10 × 6.5 mm; baguette 9 × 4.5 mm |
-| K05 | #169-170 | Heart Solitaire Drop Studs | ADT34 | Earrings | ₹220 | ₹770 | 10 | 17.5 mm long; heart 7.5 mm; round stone 6 mm |
+| K05 | #169-170 | Heart Solitaire Drop Studs | ADT34 | Earrings | ₹220 | ₹770 | 10 | 17.5 mm long; heart 7.5 mm; round stone 5.5 mm |
 | K06 | (none; "Adjustable") | Petite Pear Solitaire Ring | ADT35 | Ring | ₹190 | ₹665 | 10 | pear 9 × 6 mm; band 1.5 mm; adjustable, US 5 to 9 |
 | K07 | #121-124-125 | Lumière Oval Solitaire Studs | ADT36 | Earrings | ₹200 | ₹700 | 10 | 9 × 7 mm upright |
 
@@ -66,6 +66,31 @@ for the ring), the house description (intro, STYLING TIP, Details, size guide, p
 description, the Google and Facebook category metafields, tracked inventory with 10 units each (the owner: "All we got 10 each") at Forest Colony Parijat Nagar and
 inventory policy DENY, price and cost per item, and the gallery so far. autoPublish was set on for the six sales channels around
 the creates and set back off (all six were off before), so each piece is on every channel when the owner sets it Active.
+
+**Created 26 Nov, about 08:05 UTC** (`shopify/pushed_26nov.json`), all DRAFT, no user errors; the six channels read
+autoPublish false again after the run.
+
+| Key | SKU | Product | Price | Units | Media | Admin |
+|---|---|---|---|---|---|---|
+| K01 | ADT30 | Lumière Oval Solitaire Pendant | ₹963 | 10 | 2 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733195938) |
+| K02 | ADT31 | Marquise Solitaire Studs | ₹700 | 10 | 0 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733261474) |
+| K03 | ADT32 | Petite Pear Solitaire Studs | ₹595 | 10 | 2 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733294242) |
+| K04 | ADT33 | Pear Baguette Duet Studs | ₹945 | 10 | 2 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733359778) |
+| K05 | ADT34 | Heart Solitaire Drop Studs | ₹770 | 10 | 2 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733392546) |
+| K06 | ADT35 | Petite Pear Solitaire Ring | ₹665 | 10 | 1 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733458082) |
+| K07 | ADT36 | Lumière Oval Solitaire Studs | ₹700 | 10 | 0 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10421733490850) |
+
+- Checked afterwards: every media READY and in order; each description's size-guide image answers 200; every gallery image
+  and card downloaded back from the Shopify CDN matches its local file (mean difference 0.05 to 0.35 of 255, no other export
+  closer; `shopify/cdn_check_26nov.txt`, `build/cdn_compare.py`).
+- Before the run, two independent audits (copy and facts; payload and Shopify mechanics) found no mechanical blockers and three
+  copy fixes, all made: the pendant's rope chain is about 1 mm, not 2 mm (re-measured across 15 points, median 12 px at 12.1 px
+  per mm); the heart studs' tip no longer uses the word huggies, and their tagline says gold tone; their stone reads 5.5 mm. Styling
+  tips name only live pieces, so no tip points at a draft.
+- The marquise studs (K02) went up with copy only: their packshot has a small drawn sparkle star on one stone tip, an AI tell,
+  so it and the card drawn on it wait for the reshoot. The oval studs (K07) have no packshot yet. The ring (K06) has only its
+  size card. None of these should be set Active before its photos are in.
+- The ring carries the store's ring-size field (5, 6, 7, 8, as on the live Lumière Oval Solitaire Ring; the store has no 9 entry).
 
 Copy follows the 27 Oct Aditya listings: no PVD, anti-tarnish, waterproof or hypoallergenic lines. Most older Aditya listings
 carry the owner's two PVD lines ("Plating: PVD 18K gold coating, anti-tarnish" and the PVD-vs-plating line); they are left off

@@ -1,0 +1,152 @@
+{
+ "created": "2026-11-26 (about 08:05 UTC), one mutation (build/ship_26nov.py), all DRAFT; autoPublish set on for the six channels around the creates and back off after (all six read false after)",
+ "products": [
+  {
+   "key": "K01",
+   "code": "#8",
+   "title": "Lumière Oval Solitaire Pendant",
+   "handle": "lumiere-oval-solitaire-pendant",
+   "id": "gid://shopify/Product/10421733195938",
+   "sku": "ADT30",
+   "price": "963.00",
+   "cost": 275,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47067070005410",
+     "alt": "Lumière Oval Solitaire Pendant — on a cream plaster block, the full piece"
+    },
+    {
+     "id": "gid://shopify/MediaImage/47067070038178",
+     "alt": "Size guide — Lumière Oval Solitaire Pendant"
+    }
+   ],
+   "size_card_media_id": "gid://shopify/MediaImage/47067070038178",
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733195938"
+  },
+  {
+   "key": "K02",
+   "code": "#106-107",
+   "title": "Marquise Solitaire Studs",
+   "handle": "marquise-solitaire-studs",
+   "id": "gid://shopify/Product/10421733261474",
+   "sku": "ADT31",
+   "price": "700.00",
+   "cost": 200,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [],
+   "size_card_media_id": null,
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733261474"
+  },
+  {
+   "key": "K03",
+   "code": "#108-109",
+   "title": "Petite Pear Solitaire Studs",
+   "handle": "petite-pear-solitaire-studs",
+   "id": "gid://shopify/Product/10421733294242",
+   "sku": "ADT32",
+   "price": "595.00",
+   "cost": 170,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47067070103714",
+     "alt": "Petite Pear Solitaire Studs — the pair on a cream plaster block"
+    },
+    {
+     "id": "gid://shopify/MediaImage/47067070136482",
+     "alt": "Size guide — Petite Pear Solitaire Studs"
+    }
+   ],
+   "size_card_media_id": "gid://shopify/MediaImage/47067070136482",
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733294242"
+  },
+  {
+   "key": "K04",
+   "code": "#57-60-63-58",
+   "title": "Pear Baguette Duet Studs",
+   "handle": "pear-baguette-duet-studs",
+   "id": "gid://shopify/Product/10421733359778",
+   "sku": "ADT33",
+   "price": "945.00",
+   "cost": 270,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47067070202018",
+     "alt": "Pear Baguette Duet Studs — the pair on a cream plaster block"
+    },
+    {
+     "id": "gid://shopify/MediaImage/47067070234786",
+     "alt": "Size guide — Pear Baguette Duet Studs"
+    }
+   ],
+   "size_card_media_id": "gid://shopify/MediaImage/47067070234786",
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733359778"
+  },
+  {
+   "key": "K05",
+   "code": "#169-170",
+   "title": "Heart Solitaire Drop Studs",
+   "handle": "heart-solitaire-drop-studs",
+   "id": "gid://shopify/Product/10421733392546",
+   "sku": "ADT34",
+   "price": "770.00",
+   "cost": 220,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47067070267554",
+     "alt": "Heart Solitaire Drop Studs — the pair on a cream plaster block"
+    },
+    {
+     "id": "gid://shopify/MediaImage/47067070300322",
+     "alt": "Size guide — Heart Solitaire Drop Studs"
+    }
+   ],
+   "size_card_media_id": "gid://shopify/MediaImage/47067070300322",
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733392546"
+  },
+  {
+   "key": "K06",
+   "code": "(no code; Adjustable)",
+   "title": "Petite Pear Solitaire Ring",
+   "handle": "petite-pear-solitaire-ring",
+   "id": "gid://shopify/Product/10421733458082",
+   "sku": "ADT35",
+   "price": "665.00",
+   "cost": 190,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47067070365858",
+     "alt": "Size guide — Petite Pear Solitaire Ring"
+    }
+   ],
+   "size_card_media_id": "gid://shopify/MediaImage/47067070365858",
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733458082"
+  },
+  {
+   "key": "K07",
+   "code": "#121-124-125",
+   "title": "Lumière Oval Solitaire Studs",
+   "handle": "lumiere-oval-solitaire-studs",
+   "id": "gid://shopify/Product/10421733490850",
+   "sku": "ADT36",
+   "price": "700.00",
+   "cost": 200,
+   "units": 10,
+   "status": "DRAFT",
+   "media": [],
+   "size_card_media_id": null,
+   "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10421733490850"
+  }
+ ],
+ "cdn_check": "shopify/cdn_check_26nov.txt: 14 OK, 0 failures"
+}

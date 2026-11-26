@@ -1,0 +1,54 @@
+{
+ "marquise": {
+  "n": 4886,
+  "cx": 902.4,
+  "cy": 970.8,
+  "angle_deg": 22.5,
+  "major_extent": 125.3,
+  "minor_extent": 64.1,
+  "ellipse_major": 119.7,
+  "ellipse_minor": 61.0,
+  "rect_major": 103.6,
+  "rect_minor": 52.8,
+  "area": 4886
+ },
+ "baguette": {
+  "n": 3903,
+  "cx": 870.4,
+  "cy": 1039.5,
+  "angle_deg": 47.8,
+  "major_extent": 95.3,
+  "minor_extent": 59.9,
+  "ellipse_major": 102.0,
+  "ellipse_minor": 56.7,
+  "rect_major": 88.4,
+  "rect_minor": 49.1,
+  "area": 3903
+ },
+ "round": {
+  "n": 6710,
+  "cx": 824.9,
+  "cy": 1097.3,
+  "angle_deg": -25.5,
+  "major_extent": 99.6,
+  "minor_extent": 95.0,
+  "ellipse_major": 97.1,
+  "ellipse_minor": 93.2,
+  "rect_major": 84.1,
+  "rect_minor": 80.7,
+  "area": 6710
+ },
+ "oval": {
+  "n": 6154,
+  "cx": 748.6,
+  "cy": 1175.2,
+  "angle_deg": 44.2,
+  "major_extent": 122.5,
+  "minor_extent": 82.2,
+  "ellipse_major": 128.7,
+  "ellipse_minor": 76.7,
+  "rect_major": 111.5,
+  "rect_minor": 66.4,
+  "area": 6154
+ }
+}
