@@ -38,7 +38,7 @@ body.dark { --fg: var(--bone); --accent: var(--gold-light); }
         text-align: center; }
 .card .wm { height: 56px; width: auto; display: block; margin-bottom: 6px; }
 .card .name { font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .2em; text-transform: uppercase; }
-.card .price { font-family: var(--serif); font-weight: 500; font-size: 56px; line-height: 1; }
+.card .price { font-family: var(--serif); font-weight: 500; font-size: 56px; line-height: 1; font-variant-numeric: lining-nums; }
 .card .price s { font-size: .55em; opacity: .6; margin-left: .35em; }
 .card .line { font-family: var(--sans); font-weight: 400; font-size: 26px; letter-spacing: .02em; }
 .offer { display: inline-block; font-family: var(--sans); font-weight: 500; font-size: 26px; letter-spacing: .14em; text-transform: uppercase;

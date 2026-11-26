@@ -22,7 +22,7 @@
  .rail .dv { font-family:'Tiro Devanagari Hindi','Cormorant Garamond'; font-size:32px; letter-spacing:0; text-transform:none; color:var(--gold-light); }
  .hl { position:absolute; left:0; right:0; text-align:center; font-size:96px; white-space:nowrap; color:var(--bone); }
  .hl .ans { color:var(--gold-light); }
- .hl .aside { font-family:var(--serif); font-style:italic; font-weight:500; font-size:36px; letter-spacing:0; text-transform:none; color:rgba(244,240,232,.86); }
+ .hl .aside { font-family:var(--serif); font-style:italic; font-weight:500; font-size:34px; margin-left:-.2em; letter-spacing:0; text-transform:none; color:rgba(244,240,232,.86); }
  .gloss { position:absolute; left:0; right:0; text-align:center; margin:0; color:rgba(244,240,232,.9); white-space:nowrap; }
  .gloss .hw { font-family:'Tiro Devanagari Hindi','Cormorant Garamond'; font-size:40px; color:var(--gold-light); }
  .gloss .ph { font-family:var(--sans); font-size:26px; letter-spacing:.06em; margin:0 .5em 0 .4em; }
@@ -34,6 +34,9 @@
  .ob .a { font-family:var(--sans); font-weight:500; font-size:36px; letter-spacing:.1em; line-height:42px; white-space:nowrap; }
  .ob .b { font-family:var(--sans); font-weight:500; font-size:26px; letter-spacing:.14em; line-height:32px; white-space:nowrap; color:rgba(244,240,232,.86); }
  .ob .sep, .tr .sep { display:inline-block; width:9px; height:9px; background:var(--gold-light); transform:rotate(45deg); vertical-align:middle; margin:-5px 18px 0 14px; }
+ .gloss .s b { font-weight:600; font-style:normal; font-family:var(--serif); font-variant-numeric:lining-nums; }
+ .line { position:absolute; left:0; right:0; margin:0; text-align:center; font-family:var(--sans); font-size:26px; letter-spacing:.03em; line-height:30px; color:rgba(244,240,232,.9); white-space:nowrap; }
+ svg.ov { position:absolute; left:0; top:0; width:1080px; height:1350px; pointer-events:none; }
  .tr { position:absolute; left:0; right:0; display:flex; justify-content:center; align-items:center; gap:22px; font-family:var(--sans); font-weight:500;
        font-size:26px; letter-spacing:.12em; text-transform:uppercase; line-height:30px; color:rgba(244,240,232,.86); white-space:nowrap; }
  .tr img { height:28px; width:auto; display:block; }
@@ -41,12 +44,12 @@
 <body class="dark">
  <img class="pic" src="pics/k08-5R.png">
  <p class="rail" style="top:186px">Bracelet · as the top line of <span class="dv">तीनों</span></p>
- <p class="h1 hl" style="top:232px">Teenon chahiye?<br><span class="ans">Teenon lo.</span> <span class="aside">hum kam laga denge</span></p>
- <svg class="wl" viewBox="0 0 1080 1350" style="--hb0:584px;--hb1:598px">
+ <p class="h1 hl" style="top:232px">Teenon chahiye?<br><span class="ans">Teenon lo.</span> <span class="aside">(hum kam laga denge.)</span></p>
+ <svg class="wl" viewBox="0 0 1080 1350" style="--hb0:570px;--hb1:585px">
   <defs>
    <linearGradient id="gf" gradientUnits="userSpaceOnUse" x1="140" y1="520" x2="940" y2="860">
-    <stop offset="0" stop-color="#7A4E1A"/><stop offset=".12" stop-color="#C8964A"/><stop offset=".2" stop-color="#F2D594"/><stop offset=".25" stop-color="#FFF1CF"/><stop offset=".32" stop-color="#E2B866"/>
-    <stop offset=".46" stop-color="#9C6A26"/><stop offset=".58" stop-color="#C99645"/><stop offset=".68" stop-color="#F4D898"/><stop offset=".73" stop-color="#FFF0CC"/><stop offset=".8" stop-color="#D9AC5C"/><stop offset=".92" stop-color="#9A6826"/><stop offset="1" stop-color="#6E4516"/>
+    <stop offset="0" stop-color="#6E4012"/><stop offset=".12" stop-color="#C08A3A"/><stop offset=".2" stop-color="#EDC67C"/><stop offset=".25" stop-color="#FDE6B0"/><stop offset=".32" stop-color="#DDAA55"/>
+    <stop offset=".46" stop-color="#93601F"/><stop offset=".58" stop-color="#C48C3C"/><stop offset=".68" stop-color="#F0CC84"/><stop offset=".73" stop-color="#FDE5AE"/><stop offset=".8" stop-color="#D3A04E"/><stop offset=".92" stop-color="#925F1F"/><stop offset="1" stop-color="#673C10"/>
    </linearGradient>
    <linearGradient id="gv" gradientUnits="userSpaceOnUse" x1="0" y1="560" x2="0" y2="860"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#2A1606" stop-opacity=".22"/></linearGradient>
    <filter id="foil" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
@@ -57,15 +60,16 @@
     <feOffset in="SourceAlpha" dx="-1.5" dy="2" result="o"/><feFlood flood-color="#140904" flood-opacity=".55"/><feComposite in2="o" operator="in" result="sh"/>
     <feMerge><feMergeNode in="sh"/><feMergeNode in="lit"/></feMerge>
    </filter>
-   <mask id="wm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><text x="127" y="855" font-family="Rozha One" font-size="480" fill="#fff">तीनों</text></mask>
+   <mask id="wm" maskUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1350"><text y="841" font-family="Rozha One" font-size="480" fill="#fff"><tspan x="127">ती</tspan><tspan x="541.2">नों</tspan></text></mask>
   </defs>
-  <text class="dv" x="127" y="855" font-family="Rozha One" font-size="480" fill="url(#gf)" filter="url(#foil)">तीनों</text>
-  <text x="127" y="855" font-family="Rozha One" font-size="480" fill="url(#gv)">तीनों</text>
+  <text class="dv" y="841" font-family="Rozha One" font-size="480" fill="url(#gf)" filter="url(#foil)"><tspan x="127">ती</tspan><tspan x="541.2">नों</tspan></text>
+  <text y="841" font-family="Rozha One" font-size="480" fill="url(#gv)"><tspan x="127">ती</tspan><tspan x="541.2">नों</tspan></text>
   <image href="masks/k08-5R_shade.jpg" x="0" y="-393.75" width="1080" height="1912.5" preserveAspectRatio="none" mask="url(#wm)" style="mix-blend-mode:multiply"/>
  </svg>
- <p class="gloss" style="top:878px"><span class="hw">तीनों</span><span class="ph">tee·non, adj.</span><span class="s">1. all three, as in teenon chahiye?</span></p>
- <p class="gloss" style="top:922px"><span class="s">2. what one gold-tone line holds together: one pave link, 20 + 3 cm.</span></p>
- <div class="np" style="top:984px"><span class="name">Bold Nocturne Bracelet</span><span class="price">₹1,599</span></div>
- <div class="ob" style="top:1060px"><div class="a">BUY 3 · 20% OFF · CODE BUY3</div><div class="b">BUY 2 · 10% OFF</div></div>
- <div class="tr" style="top:1196px"><img src="../../../ads-500/kit/logo_white.png"><span>Free insured shipping · Cash on delivery</span></div>
+ <p class="gloss" style="top:872px"><span class="hw">तीनों</span><span class="ph">tee·non, adj.</span><span class="s"><b>1.</b> all three &nbsp;<b>2.</b> the line that holds them</span></p>
+ <svg class="ov" viewBox="0 0 1080 1350"><line x1="200" x2="880" y1="944.5" y2="944.5" stroke="#E4C889" stroke-opacity=".55" stroke-width="1"/></svg>
+ <div class="np" style="top:964px"><span class="name">Bold Nocturne Bracelet</span><span class="price">₹1,599</span></div>
+ <p class="line" style="top:1036px">One 11.7 mm pave link · 20 + 3 cm · 18k gold tone · waterproof</p>
+ <div class="ob" style="top:1084px"><div class="a">BUY 3 · 20% OFF · CODE BUY3</div><div class="b">BUY 2 · 10% OFF</div></div>
+ <div class="tr" style="top:1210px"><img src="../../../ads-500/kit/logo_white.png"><span>Free insured shipping · Cash on delivery</span></div>
 </body></html>
