@@ -7,13 +7,13 @@ piece as IMG_8016), so there are seven pieces.
 
 | Key | Supplier code | Product | SKU | Type | Cost (supplier) | Price (3.5×) | Units | Measured |
 |---|---|---|---|---|---|---|---|---|
-| K01 | #8 | Lumière Oval Solitaire Pendant | ADT30 | Necklace | ₹275 | ₹963 | 5 | stone 11 × 9 mm set east to west; pendant 17 mm with the bail; rope chain 2 mm |
-| K02 | #106-107 | Marquise Solitaire Studs | ADT31 | Earrings | ₹200 | ₹700 | 5 | 13 × 7 mm |
-| K03 | #108-109 | Petite Pear Solitaire Studs | ADT32 | Earrings | ₹170 | ₹595 | 5 | 8 × 6 mm (7.6 × 5.7 measured) |
-| K04 | #57-60-63-58 | Pear Baguette Duet Studs | ADT33 | Earrings | ₹270 | ₹945 | 5 | 12 × 12 mm; pear 10 × 6.5 mm; baguette 9 × 4.5 mm |
-| K05 | #169-170 | Heart Solitaire Drop Studs | ADT34 | Earrings | ₹220 | ₹770 | 5 | 17.5 mm long; heart 7.5 mm; round stone 6 mm |
-| K06 | (none; "Adjustable") | Petite Pear Solitaire Ring | ADT35 | Ring | ₹190 | ₹665 | 5 | pear 9 × 6 mm; band 1.5 mm; adjustable, US 5 to 9 |
-| K07 | #121-124-125 | Lumière Oval Solitaire Studs | ADT36 | Earrings | ₹200 | ₹700 | 5 | 9 × 7 mm upright |
+| K01 | #8 | Lumière Oval Solitaire Pendant | ADT30 | Necklace | ₹275 | ₹963 | 10 | stone 11 × 9 mm set east to west; pendant 17 mm with the bail; rope chain 2 mm |
+| K02 | #106-107 | Marquise Solitaire Studs | ADT31 | Earrings | ₹200 | ₹700 | 10 | 13 × 7 mm |
+| K03 | #108-109 | Petite Pear Solitaire Studs | ADT32 | Earrings | ₹170 | ₹595 | 10 | 8 × 6 mm (7.6 × 5.7 measured) |
+| K04 | #57-60-63-58 | Pear Baguette Duet Studs | ADT33 | Earrings | ₹270 | ₹945 | 10 | 12 × 12 mm; pear 10 × 6.5 mm; baguette 9 × 4.5 mm |
+| K05 | #169-170 | Heart Solitaire Drop Studs | ADT34 | Earrings | ₹220 | ₹770 | 10 | 17.5 mm long; heart 7.5 mm; round stone 6 mm |
+| K06 | (none; "Adjustable") | Petite Pear Solitaire Ring | ADT35 | Ring | ₹190 | ₹665 | 10 | pear 9 × 6 mm; band 1.5 mm; adjustable, US 5 to 9 |
+| K07 | #121-124-125 | Lumière Oval Solitaire Studs | ADT36 | Earrings | ₹200 | ₹700 | 10 | 9 × 7 mm upright |
 
 - **Price** is 3.5 × the price written on each photo, rounded half up (₹275 × 3.5 = ₹962.50 → ₹963). **Cost per item** is the
   supplier price. No compare-at price is set (the 27 Oct Aditya listings went up without one; most live Aditya pieces have since
@@ -56,7 +56,7 @@ and palm frames, the approved packshot.
 Created as DRAFTS in one mutation (`build/ship_26nov.py` → `shopify/ship_26nov.graphql` and `.json`): vendor Naira Petite,
 product type, taxonomy category, tags (type, Demi Fine, Naira Petite, Aditya, 18k Gold Tone Plated, Cubic Zirconia, and Adjustable
 for the ring), the house description (intro, STYLING TIP, Details, size guide, plain Care line, box line), SEO title and
-description, the Google and Facebook category metafields, tracked inventory with 5 units at Forest Colony Parijat Nagar and
+description, the Google and Facebook category metafields, tracked inventory with 10 units each (the owner: "All we got 10 each") at Forest Colony Parijat Nagar and
 inventory policy DENY, price and cost per item, and the gallery so far. autoPublish was set on for the six sales channels around
 the creates and set back off (all six were off before), so each piece is on every channel when the owner sets it Active.
 

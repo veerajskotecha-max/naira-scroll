@@ -48,7 +48,7 @@
    "line": "Pendant 17 mm long · oval 11 × 9 mm"
   },
   "price": 963,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  },
  {
@@ -99,7 +99,7 @@
    "line": "13 mm long · 7 mm wide"
   },
   "price": 700,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  },
  {
@@ -150,7 +150,7 @@
    "line": "8 mm long · 6 mm wide"
   },
   "price": 595,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  },
  {
@@ -203,7 +203,7 @@
    "line": "12 mm across · pear 10 mm"
   },
   "price": 945,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  },
  {
@@ -254,7 +254,7 @@
    "line": "17.5 mm long · heart 7.5 mm"
   },
   "price": 770,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  },
  {
@@ -306,7 +306,7 @@
    ]
   },
   "price": 665,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  },
  {
@@ -357,7 +357,7 @@
    "line": "9 mm tall · 7 mm wide"
   },
   "price": 700,
-  "units": 5,
+  "units": 10,
   "care": "plain"
  }
 ]
