@@ -1,0 +1,334 @@
+[
+ {
+  "k": "K08",
+  "verdict": "blocker",
+  "findings": [
+   {
+    "severity": "blocker",
+    "claim": "The claim \"adjusts to fit US 5 to 9\" (in the body, the Size line and the size-guide image) does not follow from the measurements. It also contradicts the copy's own \"small gap\" and the product's ring-size metafield.",
+    "evidence": "The supplier photo says only \"Adjustable\". There is no size range on it. The stones are in line, point to point, so the gap sets a hard minimum. I measured the gap between the two gold tips along the gap line at 105 deg through (810,810): the upper tip's gold ends at about (814,796) and the lower tip's starts at about (806,825). That is 29-31 px, or 1.8-1.9 mm at the house scale of 16.0 px/mm (spec: 30-31 px; A: 30 px). The finger at the band is 274-293 px across in my three cross-sections at 108.9 deg through (640,745), (700,765) and (960,850), which agrees with A's 286 px. As worn, the ring goes round about 52.5 mm of finger, which is about US 6 (spec). Closing the 1.9 mm gap only takes it to about 50.6 mm round, about US 5.5, so US 5 (49.3 mm) is out of reach. At US 9 (59.4 mm round) the gap would open to about 8.8 mm, nearly 5x the \"small gap\" the body describes, and the 13 mm front would no longer hold. Measurer B (finger scale) puts the closed minimum even higher, at about US 7. Spec flag 2 and B's doubts both say not to copy the house \"US 5 to 9\" line without the owner checking. The product's shopify.ring-size metafield lists 5, 6, 7 and 8, with no 9, so the draft already disagrees with itself. Twin Cluster Open Ring (ACTIVE) shows the house does narrow the range when the build limits it (\"US 6 to 8\").",
+    "suggested_text": "Body: \"...The two stones point at each other across a small gap, about 13mm across in all. The band is open between them, so it can be eased a little wider; the gap opens as it does.\"\nDetails: \"Size: Adjustable, open at the front. Sits at about US 6 to 7 with the stones close, and eases to about US 8\"\nAlso remake the size-guide image (it now reads \"15.7–18.9 mm\" and \"fits US 5 to 9\") and keep the metafield at 6/7/8 (drop 5). The owner should try one piece on a mandrel before this goes live."
+   },
+   {
+    "severity": "fix",
+    "claim": "\"About 5mm by 2.5mm\" is a guess at a stock stone size, not the measured size. At the house finger scale the stones measure about 4.5 x 2.3-2.5 mm.",
+    "evidence": "Upper stone, along its axis at 117 deg through (836,754): the claw-covered points sit at about t=-34 and t=+32, so 66 px end to end (A: 67 px, (851,724)-(821,783); B: 68.5 px). The lower stone measures 66-71 px. Allowing for the finger's curve, 71-75 px gives 4.4-4.7 mm at 16.0 px/mm. Width across at 27 deg: the clear body runs from t=-20 to t=+12 (32-33 px) and the rim from -21.5 to +18.5 (40 px). The lower stone, at 31 deg through (782,864), measures 32 px for the body and 38 px with the rim. That gives 2.0-2.1 mm for the body and 2.4-2.5 mm with the rim. The spec's final_sizes says \"4.6 mm long. The listing uses the stock size, 5 x 2.5 mm\", and flag 1 says 4 x 2 mm cannot be ruled out. 5 mm is above A's corrected range (4.4-4.6) and above the spec's 16.5-19 mm finger range (4.2-4.9). The same 5 mm figure appears in the body, the Stones line, the SEO description and the size-guide image (\"two 5 × 2.5 mm marquise\").",
+    "suggested_text": "\"...one marquise cut clear cubic zirconia, about 4.5mm by 2.5mm, lying across the finger.\" / \"Stones: Two marquise cut clear cubic zirconia, approximately 4.5mm by 2.5mm each\". Make the same change in the SEO description and on the size-guide card."
+   },
+   {
+    "severity": "note",
+    "claim": "The draft's only media is the size-guide image. There are no product photos yet.",
+    "evidence": "mediaCount = 1, and its alt text is \"Size guide — Marquise Duet Open Ring\". The planned K08_H, K08_W1, K08_W2 and K08_M images (from the spec's listing_entry.images) are not attached. Set live as it is, the size card would be the main image. The size guide also draws a closed circle, but this ring is open at the front."
+   },
+   {
+    "severity": "note",
+    "claim": "Stone material and plating are assumed, not stated by the supplier.",
+    "evidence": "The photo text is only \"₹155\", \"Adjustable\" and \"#13\". \"Cubic zirconia\" in the copy is an inference: at this price it could be glass crystal. The tags \"18k Gold Tone Plated\" and \"Demi Fine\" are house-wide, but spec flag 5 says the plating is unknown. The copy itself makes no plating, PVD, waterproof or tarnish claims. The owner should confirm CZ, or accept it as house practice."
+   },
+   {
+    "severity": "note",
+    "claim": "The product named in the styling tip is fine (it exists and is ACTIVE), but it differs in durability and has a stale SEO title of its own.",
+    "evidence": "Marquise Layering Set (gid://shopify/Product/9294915469474) is ACTIVE, has 8 in stock and is published at nairaflore.com/products/marquise-layering-set. It is a pair of marquise necklaces, so pairing it with this ring makes sense. It is PVD surgical steel sold as \"Waterproof and tarnish free\", while this ring's care line says \"Keep it dry\". The tip makes no claim, but a matched pairing may suggest the two have the same durability. Separately, that product's SEO title reads \"Teardrop Reverie Necklace — Necklace | Naira Petite\". That is a problem on the other listing, not on K08."
+   },
+   {
+    "severity": "note",
+    "claim": "Open questions for the owner: the sharp tips, and the unit count.",
+    "evidence": "Each free-end claw is drawn out into a sharp gold point. It runs about 0.5-1 mm past the stone, and the two points face each other about 1.8 mm apart (upper tip gold ends at about (815,796); see B: 26.5 px claw at (826,772)-(812,795)). Worth a comfort or snag check on the real piece. The 10 units are assumed from the batch rule (spec flag 9)."
+   }
+  ],
+  "summary": "I count 2 stones and 4 claws on K08 (#13). Each stone is a clear marquise in a thin gold-tone rim, with a bead claw where it meets the band and a sharp V-claw at its free point. The band is about 1 mm, plain and open at the front, and the stones sit in line, point to point, across a gap of about 1.9 mm. That matches the copy's description of the build: 2 stones, a rim and a claw at each point, a 1 mm band (my profile: 15-18 px at (859-876, 690-695)), open at the front, lying across the finger, and about 13 mm across (205 px chord = 12.8 mm).\n\nThe house rules pass. Price is 543 (155 x 3.5 = 542.5, rounded up), cost per item is 155.0, there are 10 units, the status is DRAFT and there is no compare-at price. No banned words appear, and there are no waterproof, tarnish-free, hypoallergenic or PVD claims. \\\"Gold rim\\\" and \\\"gold tone\\\" are the accepted house usage. The tip names the Marquise Layering Set, which is ACTIVE and published.\n\nBlocker: \\\"fits US 5 to 9\\\". The in-line tips and the roughly 1.9 mm gap mean the ring closes only to about US 5.5 at the house scale (about US 7 on measurer B's finger scale). US 9 would need a gap of about 9 mm, which contradicts \\\"small gap\\\". The product's own ring-size metafield also says 5-8.\n\nFix: \\\"about 5mm by 2.5mm\\\" is a guess at a stock size. On the house scale the stones measure about 4.5 x 2.3-2.5 mm. This needs changing in the body, the Stones line, the SEO description and the size-guide card.\n\nNotes: the only media is the size guide, and the product photos are not attached yet. CZ and the plating are inferred rather than stated by the supplier. The Layering Set in the tip is waterproof steel, while this ring says \\\"keep it dry\\\". The sharp tips and the unit count need the owner's confirmation.\n\nWorking files are under /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K08/ (ring_x4.png, scripts/prof.py, dl/sizeguide.jpg)."
+ },
+ {
+  "k": "K09",
+  "verdict": "fix",
+  "findings": [
+   {
+    "severity": "fix",
+    "claim": "The body copy and the SEO description give the round and the oval as exact sizes (\"a 6mm round and an 8mm by 6mm oval\"). Only the marquise and the baguette get \"about\".",
+    "evidence": "There is no card in this photo, so every size rests on the finger scale. I measured the ring finger at about 283 px between the finger-gap valleys: 272 px at t=-100, (840,911) to (676,1128), and 294 px at t=+100, (1005,1024) to (829,1258). At 18 mm that gives 15.7 px/mm, plus or minus 3 to 8%. The round reads 93-96 px (left edge x 777, right edge x 873; top y 1050, bottom y 1145), which is 5.9-6.1 mm. The oval reads about 128 px long, (693,1143) to (798,1217), which is 8.2 mm. Its width cannot be measured because it is foreshortened (78-90 px). The 6 mm is inferred from the standard 8x6 size. The Details list already says \"approximately\" for all four stones, so the body and the SEO text are the only places the sizes read as exact.",
+    "suggested_text": "Body: \"...a marquise of about 8mm by 4mm, a slim baguette of about 6mm by 3mm, a round of about 6mm and an oval of about 8mm by 6mm, each laid lengthways in its own fine gold claws.\" Make the same change in the SEO description, or use the shorter SEO text in the next finding."
+   },
+   {
+    "severity": "fix",
+    "claim": "The SEO description is 278 characters, the longest in the batch. Search results will cut it off in the middle of the stone list, so the product name and the brand never show.",
+    "evidence": "The live seo.description (also the global.description_tag metafield) is 278 characters. Search results show about 155, so the snippet stops at \"...a slim baguette of about 6mm by 3mm, a\". For comparison, the ACTIVE Lumière Oval Solitaire Ring's SEO description is 157 characters, and the other Aditya drafts are about 200-240.",
+    "suggested_text": "Four clear cubic zirconia in one row: marquise, baguette, round and oval, each in fine gold claws. Mixed Cut Quartet Ring by Naira Petite. (138 characters)"
+   },
+   {
+    "severity": "note",
+    "claim": "\"Fits US 5 to 9\" (in the body, the Details list and the size-guide image) is not shown by the photo, and the store's own ring-size field says 5 to 8.",
+    "evidence": "The photo text says only \"Rs290 each / Adjustable\". The band is hidden behind the finger in every crop. The product's shopify.ring-size metafield points to metaobjects labelled 5, 6, 7 and 8, with no 9. The ACTIVE Lumière Oval Solitaire Ring has the same mismatch, so this is the house line and not a K09 error. The head is a rigid row about 21 mm across: 330 px on my stone mask from b=-182 to +148 across the 37-degree finger axis. That is already wider than the 18 mm finger it is photographed on, so on a US 5 finger (15.7 mm) the end stones will overhang even more. The owner should confirm the real adjustment range with Aditya and make the copy and the ring-size field agree."
+   },
+   {
+    "severity": "note",
+    "claim": "\"Each laid lengthways\" and \"each stone set lengthways along the finger\" are true for three stones. The marquise is visibly slanted.",
+    "evidence": "The marquise runs tip to tip from about (844,958), under its V cap, to (967,990): about 15-19 degrees from horizontal. The baguette's long edges run at 29-37 degrees, (851,998)-(918,1045) and (830,1026)-(896,1084), and the oval at about 35 degrees, (693,1143)-(798,1217). The finger axis is about 37 degrees. So the marquise is turned about 18-22 degrees from the other three. It is still nearer lengthways than crosswise, so the copy is not false. The owner should confirm whether stock is made with this slant (design) or whether this sample is bent. The generated photos will show the slant, because the spec keeps it."
+   },
+   {
+    "severity": "note",
+    "claim": "The baguette is listed at the standard 6x3 mm. The photo measures a little smaller.",
+    "evidence": "My corner reads give long edges of about 81 and 91 px, (851,998)-(918,1045) and (830,1026)-(896,1084), and short edges of about 38-46 px. At 15.7 px/mm that is about 5.5 x 2.7 mm. Measurer A had 5.8 x 2.8, measurer B 5.7 x 2.8, and the spec 5.4-5.7 x 2.9. Relative to the 6 mm round (93-96 px), the baguette is about 0.9 of its length. \"About 6mm by 3mm\" is inside the size card's \"give or take 1 mm\", but it is about 8-10% generous. Keeping it is acceptable; \"about 5.5mm by 3mm\" would be closer."
+   },
+   {
+    "severity": "note",
+    "claim": "The draft has no product photos yet. Its only media is the size-guide card.",
+    "evidence": "media(first:20) returns one IMAGE, alt \"Size guide — Mixed Cut Quartet Ring\". The other batch-2 drafts are at the same stage, so this is the pipeline's next step, not an error. If the product is set live now, the size card would be the main image. The band is not visible anywhere in the supplier photo, so its width and whether it is open at the back must be confirmed before the packshot and macro images show one. The copy correctly says nothing about the band."
+   }
+  ],
+  "summary": "K09 / supplier #14, draft gid://shopify/Product/10422036922530, \"Mixed Cut Quartet Ring\": no blockers, two copy fixes, four notes for the owner.\n\nChecked against the photo:\n- **Stones:** the listed ring is the lower one: four clear faceted stones in one row across the ring finger, in this order: marquise, baguette, round, oval. No pearl, pavé, halo or molten rims; those belong to the excluded upper ring. The copy never mentions the pearl ring.\n- **Claws:** four corner claws on the baguette, four claws in an X on the round, four claws plus a thin rim on the oval. The marquise has a thin rim, a V cap over one point and at least two or three claws.\n- **Scale:**\n  - Finger: my own valley profiles put the ring finger at about 283 px (272 to 294 px either side of the ring), which is 15.7 px/mm at 18 mm.\n  - Round: 93-96 px, so 6 mm.\n  - Marquise: about 125 px by 62 px, so 8 x 4 mm.\n  - Oval: about 128 px long, so 8 mm.\n  - Row across the finger: 330 px on my mask, about 21 mm.\n  - Depth along the finger: stones 125 px, about 8 mm; about 8.5 mm with the settings.\n  - All of these match measure A, measure B and spec.final_sizes. The baguette is the only generous figure: about 5.5 x 2.7 mm measured, listed as 6 x 3 mm.\n- **Banned words and claims:** none of diamond, real/solid gold, freshwater, emerald, ruby, huggie, waterproof, tarnish, hypoallergenic or PVD appears. Every \"gold\" is colour use (\"fine gold claws\", \"Polished gold tone\").\n- **Numbers and status:** price 1015 (290 x 3.5 = 1015), cost 290.0, 10 units, status DRAFT, compare-at null, SKU ADT38 used only by this product. The SEO title follows the house pattern.\n- **Styling tip:** it names the Lumière Oval Solitaire Ring, which is ACTIVE, adjustable and has an \"about 8mm by 6mm\" oval, so \"echo its oval\" is true.\n- **Size guide:** the image (fetched) says \"Adjustable · fits US 5 to 9 · row 21 mm across\" and matches the copy.\n\nFixes:\n1. Add \"about\" to the round and oval sizes in the body and the SEO description.\n2. Shorten the 278-character SEO description so search results do not cut it off.\n\nNotes for the owner:\n1. \"Fits US 5 to 9\" is the house line; the photo says only \"Adjustable\", and the ring-size metafield is 5 to 8. The rigid 21 mm head may not suit small sizes.\n2. The marquise is turned about 20 degrees from the other three stones; confirm whether that is the design.\n3. The baguette is listed at 6 x 3 but measures about 5.5 x 2.7.\n4. There are no product photos yet, and the band is hidden in the supplier photo, so confirm it before packshots are made.\n\nWorking files (read-only audit; nothing was written to Shopify or the repo):\n- /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K09/low_x3.png\n- /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K09/hand_x15.png\n- /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K09/bag_marq_x5.png\n- /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K09/mask.png\n- /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K09/dl/sg.jpg (the live size-guide image)"
+ },
+ {
+  "k": "K10",
+  "findings": [
+   {
+    "severity": "fix",
+    "claim": "The styling tip calls the studs and the Cushion Solitaire Ring 'a matched pair of cushions', but the two stones differ in shape, setting and orientation.",
+    "evidence": "The ring exists and is ACTIVE (gid://shopify/Product/10353628577954, checked read-only). Its own copy says the stone is about 14mm by 9mm (ratio about 1.56), 'set low in a thin polished gold rim and laid lengthways along the finger', and plated with PVD 18K gold. K10 is a different stone. My re-measure gives 121-122 x 150-153 px on the left stud, a ratio of 1.24-1.25. It is held by four corner claws, not a rim, and stands upright. The studs' plating is unknown, so even the gold tone is not proven to match. 'Matched' suggests a designed set, which the photo does not support. 'Pair' is also odd for a ring plus two earrings.",
+    "suggested_text": "STYLING TIP: Wear them with the Cushion Solitaire Ring for cushion cut stones at the ear and on the hand."
+   },
+   {
+    "severity": "fix",
+    "claim": "'Slim gold claws' (in the body, the Setting line and the SEO description) does not describe what the photo shows. Each corner shows a small round ball tip; no slim prong is visible.",
+    "evidence": "A gold mask on K10_src.jpg finds exactly 4 claw blobs per stud. Left stud: (623,601) 14x16 px, (706,600) 19x14, (622,734) 15x14, (708,731) 16x21. Right stud: (917,605), (1008,596), (926,728), (1014,723). Each is about 13-20 px, or about 1 mm at 13.86 px/mm, and reads as a round bead in the 4x crops. Claw shafts cannot be seen. The extra gold blobs are not claws: (662,605) at 8x11 px is a warm reflection inside a facet (checked in the 8x crop), and (978,586) at 37x3 and (914,637) at 5x18 are the thin basket rim on the right stud. The count of four claws, one per corner, is correct. Only the word 'slim' is loose. Sibling drafts (Marquise and Lumière Oval Solitaire Studs) and the ACTIVE Twin Heart Studs also use 'slim gold claws', so this is optional house-style tightening.",
+    "suggested_text": "Body: '...standing upright in four small ball-tipped gold claws, one at each softly rounded corner.' Details: 'Setting: Four ball-tipped gold claws, one at each corner'. SEO description: use the same wording as the body."
+   },
+   {
+    "severity": "fix",
+    "claim": "The Size line 'Approximately 11mm by 9mm' does not say which side is which. The size card and the measurement are explicit about height and width.",
+    "evidence": "spec.listing_entry.sizeguide.line is '11 mm tall · 9 mm wide'. Measured: the left stud is 8.8 mm wide x 11.0 mm tall and stands upright (claws level to 1 px). The Stone line says 'worn upright', but the Size line itself is ambiguous. This is a minor change for consistency with the size card.",
+    "suggested_text": "Size: Approximately 11mm tall by 9mm wide"
+   },
+   {
+    "severity": "note",
+    "claim": "The 11 x 9 mm size follows correctly from the 80 mm house card measure, but the batch-wide card calibration is still open. If the card is about 73 mm, this piece is 10 x 8 mm.",
+    "evidence": "My own re-measure on K10_src.jpg (1600x1600), dark run of the card: width 1105-1114 px over rows y 600-744 (for example x 247-1354 at y 664), median about 1109 px, so 13.86 px/mm. Height 1098-1112 px at columns x 560-980, so the card is square and not foreshortened. Left stud: x about 604-725, y 592-744, 119-122 x 150-153 px at thresholds 75/100/125, so 8.8 x 11.0 mm. Right stud (not de-rotated): 118-124 x 148-150 px, so about 8.8 x 10.8 mm. The two studs agree within 2-3 px, the same as measurers A and B and the reconcile step. Under the house rule (80 mm card) the copy's 'about 11mm by 9mm' is correct. Measurer B's argument is that the ratio of 1.24-1.25 is exactly an 8x10, and that the K04 baguette, K05 round and K07 ovals all become whole-mm standard sizes on a card of about 73 mm. That argument is real and not refuted. One ruler on the card settles it. If it reads about 73 mm, change the body, the Size line, the SEO description and the size card to 10mm by 8mm, and re-check K01-K07."
+   },
+   {
+    "severity": "note",
+    "claim": "'Closure: Post' cannot be checked against the photo.",
+    "evidence": "Both studs are pushed through the velvet card, so neither the posts nor the backs are visible. Measurer A, measurer B and spec flag 2 all mark it as assumed. 'Worn upright' is the orientation shown on the card. A centred post would let the wearer turn the stud, so this describes how it is meant to be worn, not a fixed feature. Confirm with the supplier that it is a straight post with a push back."
+   },
+   {
+    "severity": "note",
+    "claim": "The draft has no images and no size-guide block yet. Both need adding before it goes live.",
+    "evidence": "product.media returned 0 nodes. The descriptionHtml has no size-guide <img>, while the ACTIVE siblings carry one (for example Twin Heart Studs and Clover Drop Earrings, each with <img ... size-guide.jpg>). Spec flag 9 says the '11 mm tall · 9 mm wide' card is still to be drawn. The other in-progress drafts (Marquise and Lumière Oval Solitaire Studs) are in the same state, so this is expected at this stage. Still, do not set the piece live until the images and the size guide are attached."
+   },
+   {
+    "severity": "note",
+    "claim": "Metal and plating are not shown on the photo. The copy correctly leaves out PVD and anti-tarnish lines, but the tag '18k Gold Tone Plated' is unverified for this piece.",
+    "evidence": "The only writing on the photo is '₹260' and '#150'. There is no 'stainless steel' or other print. The copy only says 'Finish: Polished gold tone', which is compliant. The tag '18k Gold Tone Plated' is the house tag on every Aditya piece (ring, pendant, all earrings), so it is consistent. The linked ring's copy carries PVD 18K lines. If the owner confirms these studs are PVD too, the two PVD lines can be added, which would also strengthen the ring pairing."
+   },
+   {
+    "severity": "note",
+    "claim": "The SEO description is 202 characters, so search results will cut it off.",
+    "evidence": "len(seo.description) = 202. Google usually shows about 155-160 characters, so 'Cushion Solitaire Studs by Naira Petite.' will be cut. The ACTIVE siblings use the same long template, for example Prism Pear Drop Hoops, so this is house practice, not an error. SEO title is 49 characters, which is fine."
+   }
+  ],
+  "summary": "I found nothing false and no house rule broken, so there is no blocker. Three small wording fixes are worth making before K10 goes live.\n\nWhat checks out:\n- **Price and stock:** price is ₹910, exactly 3.5 x the ₹260 written on the photo. Cost per item is 260, 10 units are tracked (deny when sold out), status is DRAFT and there is no compare-at price.\n- **SKU:** ADT39 belongs only to this product.\n- **Banned words:** a scan for diamond, real, solid, freshwater, emerald, ruby, huggie, waterproof, tarnish, hypoallergenic, PVD and silver found none. 'Gold' appears only as 'slim gold claws' (twice) and 'Polished gold tone', which house usage allows.\n- **Construction:** 2 identical studs with 1 clear elongated cushion stone each, rounded corners, gently bowed sides, ratio 1.24-1.25, standing upright. A gold-mask blob count gives 4 ball-tipped claws per stud, one at each corner. The other gold blobs are a facet reflection at (662,605) and rim streaks on the right stud. The blue fleck at (668,680) is fire, not a coloured stone. There is no halo, pave or drop.\n- **Sizes:** my re-measure puts the card at about 1109 px (13.86 px/mm). The left stud is about 122 x 152 px, which is 8.8 x 11.0 mm; the right stud is about 122 x 149 px. So 'about 11mm by 9mm' follows from the 80 mm house card.\n- **Styling tip:** the Cushion Solitaire Ring it names is ACTIVE.\n\nFixes:\n1. **Styling tip:** 'a matched pair of cushions' overstates the match. The ring is a 14x9 mm stone in a rim, laid lengthways. The studs are 11x9 mm in four claws, upright, and their plating is unknown. Suggested: 'Wear them with the Cushion Solitaire Ring for cushion cut stones at the ear and on the hand.'\n2. **Claws:** 'slim gold claws' would be more accurate as 'small ball-tipped gold claws'. Only round tips of about 1 mm show. This is optional, because sibling drafts use the same house wording.\n3. **Size line:** say which side is which: 'Approximately 11mm tall by 9mm wide', matching the size card.\n\nNotes for the owner:\n- **Card size:** one ruler check on the card would settle the batch-wide question. If the card is about 73 mm, this piece is 10 x 8 mm.\n- **Closure:** 'Closure: Post' is assumed, because the backs are hidden behind the card.\n- **Images:** the draft has no media and no size-guide image yet. Both must be added before it goes live.\n- **Plating:** the photo does not show the metal or plating, so the '18k Gold Tone Plated' tag is unverified for this piece. Add PVD lines only if the supplier confirms PVD.\n- **SEO description:** it is 202 characters and will be cut off in search results. This is the same as the other listings.\n\nMy working crops are in /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K10/ (L_x4.png, R_x4.png, L_top_x8.png).",
+  "verdict": "fix"
+ },
+ {
+  "k": "K11",
+  "verdict": "fix",
+  "findings": [
+   {
+    "severity": "fix",
+    "claim": "The SEO description leaves out the main selling point. It describes only the outline (tapered dome, 20 x 10.5 mm, curls back) and never says pavé, stones or cubic zirconia. Someone searching for pavé or CZ earrings gets no match from it.",
+    "evidence": "Live seo.description: \"Each earring is a tapered dome in gold tone, about 20mm long and 10.5mm wide, narrow and rounded at the top and broad at the bottom, where it curls softly back. Pavé Teardrop Dome Earrings by Naira Petite.\" (205 chars). The photo shows the whole front face is pavé: about 70 round clear stones per earring.",
+    "suggested_text": "Pavé earrings in gold tone: each a tapered dome about 20mm long and 10.5mm wide, set edge to edge with about 70 small round clear cubic zirconia held by tiny gold beads. Pavé Teardrop Dome Earrings by Naira Petite."
+   },
+   {
+    "severity": "fix",
+    "claim": "\"Its whole front is set edge to edge\" claims slightly more stone cover than the photo shows. A forked (Y-shaped) lane of bare gold runs down the upper centre of both earrings. It is easy to see in the supplier photo and in K11_det, and the generated images are locked to show it, so the copy should not suggest every part of the front is stones.",
+    "evidence": "On the left earring, bare gold shows between the stone columns at about x 595-640, y 575-700. On the right earring it shows at about x 930-960, y 590-630. See the bands y 577-697 in the gridded x4 crop /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K11/L_rows_x4.png. Both measurers also recorded it (measure.a and measure.b, \"Y-shaped gap/lane\"). The stones do reach both side edges, so \"edge to edge\" across the width is true.",
+    "suggested_text": "Its front is set edge to edge with about 70 small round clear cubic zirconia, each about 1.5mm and held by tiny gold beads, with a slim forked lane of gold beads down the upper centre."
+   },
+   {
+    "severity": "fix",
+    "claim": "The Size line does not say which figure is the length or that it is the front view. The measurement notes say to quote it as a front view, not a drop length, because the bottom curls back out of sight.",
+    "evidence": "My own check at 14.09 px/mm (card 1124-1130 px wide over y 520-790, 1121-1132 px tall) gives:\n- Left earring: y 513-789 = 277 px = 19.7 mm long; widest 151 px (x 539-689 at y 701) = 10.7 mm, including the thin inner gold rim.\n- Right earring: y 511-789 = 279 px = 19.8 mm long; widest 148 px (x 873-1020) = 10.5 mm.\nBoth measurers agree within 0.3%. measure.a.doubts: \"Quote the size as 'about 20 x 10.5 mm (front view)', not as a drop length.\" The figures themselves (20 / 10.5) are right.",
+    "suggested_text": "Size: Approximately 20mm long by 10.5mm wide (front view)"
+   },
+   {
+    "severity": "note",
+    "claim": "\"Closure: Post\" is inferred, not seen. The back of the earring is not visible. A post is the most likely fitting: both earrings sit in the middle of the upright velvet card, away from any edge or slit, so they are not clipped on. But the photo cannot tell a push-back stud from a J-hoop post or a hinged clicker. Confirm with Aditya before setting the piece Active. The same answer settles whether \"narrow end at the top\" is how it is worn.",
+    "evidence": "Both earrings lie face up. No post, hinge or back shows anywhere. spec.flags #1 marks this \"confirm before setting Active\". measure.a and measure.b both rate the back fitting low confidence. The slits in the card are only at the top corners (around x 200-420 and 1100-1330, y 240-390), far from the earrings (x 539-1021, y 511-789).",
+    "suggested_text": "If it turns out to be hinged: \"Closure: Hinged hoop back\". If it is a stud with a push-back: \"Closure: Post with push back\". Otherwise keep \"Closure: Post\" once it is confirmed."
+   },
+   {
+    "severity": "note",
+    "claim": "The stones may be glass, not cubic zirconia. Nothing in the photo tells CZ from glass rhinestone, and at Rs 320 for about 140 pavé stones a pair, glass is plausible. The copy says cubic zirconia in four places: the description, the Details line, the tag and the SEO suggestion above. That is the house default for this supplier and needs Aditya's word.",
+    "evidence": "In the x8 zoom (audit_K11/stones_x8.png) the stones are round brilliant-style with grey centre facets, with nothing that shows the material. spec.flags #3 and measure.b (\"CZ or glass, the photo cannot tell which\") agree."
+   },
+   {
+    "severity": "note",
+    "claim": "The stones measure closer to 1.6 mm than 1.5 mm. \"About 1.5mm\" follows the house .5 rounding and is within about 6%, so it is acceptable. \"About 1.6mm\" would be more exact if the owner prefers.",
+    "evidence": "My x8 crop measures a stone facing the camera (left earring) at x about 587.5-611 and y about 698.5-722: 23-23.5 px, or 1.63-1.67 mm at 14.09 px/mm. Measurers A, B and the reconciler had 1.56, 1.67 and 1.63 mm. Allowing 1-3% for the earring sitting in front of the card gives about 1.6 mm."
+   },
+   {
+    "severity": "note",
+    "claim": "\"About 70 on each earring\" is supported, though only roughly.",
+    "evidence": "My own whiteness-peak detector found 56 stones (left) and 52 (right). That is a lower bound: it misses the squashed bottom rows (y 760-790) and the edge stones. Counting the left earring by hand, band by band (24 px rows: 3, 4, 5, 4, 5, 5, 6, 6, 6, 6, 6, plus about 10 in the squashed bottom rows), gives about 66. The measurers estimated 65-70 and 68-72. All are consistent with \"about 70\"."
+   },
+   {
+    "severity": "note",
+    "claim": "The styling tip is valid, but there is a storefront set-grouping risk. The Teardrop Lariat is ACTIVE, gold tone, and ends in a pavé-set clear CZ teardrop of about 8 mm at each end, so the tip is accurate. However, the new title shares \"Teardrop\" with the V-Bar Teardrop Necklace (ACTIVE: a single pear-cut CZ in a claw setting, not pavé). It also shares the words \"Pavé\" and \"Dome\" with the silver Pavé Dome Ring. If pairings.ts matches on single words, the earrings could be grouped with pieces that do not match. That file was not checked.",
+    "evidence": "Shopify read (products title:*Teardrop*): Teardrop Lariat gid 9294917697698, status ACTIVE, descriptionHtml \"finished at each end with a pave set clear cubic zirconia teardrop of about 8mm\". V-Bar Teardrop Necklace, status ACTIVE, \"pear cut clear cubic zirconia ... in a claw setting\". spec.name_check: \"I could not read pairings.ts\"."
+   },
+   {
+    "severity": "note",
+    "claim": "\"Close to the ear\" in the description and the \"18k Gold Tone Plated\" tag are both unverified. How far the dome stands off the lobe and where the post sits cannot be seen. The 18k plating is the house tag on every gold Aditya listing, but this supplier card carries no label.",
+    "evidence": "measure.b.doubts: \"how far the earring stands off the ear are not visible\". spec.flags #2. Querying tag:Aditya shows \"18k Gold Tone Plated\" on all 19 gold Aditya products (ADT01-ADT20), so it is house convention, not a claim made only for this piece. Neither is a banned term.",
+    "suggested_text": "If you want to avoid any fit claim: \"All the sparkle of a statement earring in a petite shape.\""
+   }
+  ],
+  "summary": "I found no blockers in the K11 (#148) draft: price, stock settings and banned-word checks all pass, and the core description matches the supplier photo. Three wording fixes are suggested, and the closure should be confirmed with Aditya before the piece goes Active.\n\nChecked against the house rules (Shopify product gid 10422037053602):\n- Status is DRAFT and SKU is ADT40.\n- Price is 1120.00 (320 x 3.5 = 1120 exactly), cost per item is 320.0, stock is 10 and there is no compare-at price.\n- None of the banned terms appear anywhere: diamond, real/solid gold, silver, freshwater, emerald/ruby, huggie, waterproof, tarnish, hypoallergenic, PVD. \"Gold\" only appears as \"gold tone\" or \"gold beads\".\n- The styling tip names the Teardrop Lariat, which is ACTIVE and gold tone with pavé clear CZ teardrops of about 8 mm, so the tip is accurate.\n\nPhoto check:\n- Shape, construction and orientation match: a tapered, domed, pavé shell, narrow and rounded at the top, broad at the bottom, with the bottom rows squashed (y 760-790) where it curls back. Stones are bead-set, all one size, with no claws and no centre stone.\n- Size, my re-measurement at 14.09 px/mm (card 1124-1130 px across y 520-790):\n  - left earring 277 px long (19.7 mm), 151 px wide (10.7 mm, including the inner gold rim);\n  - right earring 279 px long (19.8 mm), 148 px wide (10.5 mm).\n  This supports \"about 20 x 10.5 mm\".\n- Stones: 23-23.5 px across, about 1.6 mm, so \"about 1.5mm\" is house rounding.\n- Stone count: my detector found 56 and 52, a lower bound because it misses the squashed bottom rows. A hand count by rows gives about 66, so \"about 70\" holds.\n\nSuggested fixes:\n1. Rewrite the SEO description so it mentions pavé and the stones; at present it describes only the outline.\n2. Soften \"whole front is set edge to edge\" to mention the visible forked gold lane down the upper centre.\n3. Change the Size line to \"20mm long by 10.5mm wide (front view)\".\n\nNotes for the owner:\n- \"Closure: Post\" is inferred, not seen; confirm the fitting before going Active.\n- The photo cannot tell cubic zirconia from glass.\n- The stones measure about 1.6 mm, against \"about 1.5mm\" in the copy.\n- The words \"Teardrop\", \"Pavé\" and \"Dome\" in the title might group the earrings with unrelated pieces on the storefront (V-Bar Teardrop Necklace, silver Pavé Dome Ring); pairings.ts was not checked.\n- \"Close to the ear\" and the 18k tag are unverified; the 18k tag is on every gold Aditya listing.\n\nWorking crops are in /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K11/: stones_x8.png, bottom_x4.png, L_rows_x4.png, blobs.png and R_wall_x6.png. Nothing was written to Shopify or the repo."
+ },
+ {
+  "k": "K12",
+  "verdict": "fix",
+  "findings": [
+   {
+    "severity": "fix",
+    "claim": "The styling tip says the Petite Pear Solitaire Necklace gives \"a matched pear\". That overstates the link: the two pieces are not a set and the stones do not match.",
+    "evidence": "The necklace (gid://shopify/Product/10377183101090, ACTIVE, so it is allowed in a tip) has a pear of \"about 6 x 8mm\" that \"hangs point up\". It lists its metal as gold tone only. K12's pears are about 9 x 7 mm and are set on a slant with the point down and in. On the left stone, the point claw at about (760,1107) is the lowest. The right stone's point claw is at about (892,1127). The metal is stainless steel per the card. \"Matched\" suggests a matching set, and these are different sizes in different orientations.",
+    "suggested_text": "STYLING TIP: Wear them with your hair tucked back so the curve shows, and add the Petite Pear Solitaire Necklace to echo the pear at the neck."
+   },
+   {
+    "severity": "fix",
+    "claim": "The details line is labelled \"Metal: Stainless steel\". Live listings with the same fact use the label \"Material: Stainless steel\", so this should match.",
+    "evidence": "Rivière Classique Bracelet and Molten Wave Ear Cuff (both tagged Aditya) use \"Material: Stainless steel\". The claim itself is supported by the card: \"STAINLESS STEEL\" is printed at about y570 on the card in K12_src.jpg. Only the label is inconsistent.",
+    "suggested_text": "Material: Stainless steel"
+   },
+   {
+    "severity": "note",
+    "claim": "\"Closure: Post\" is inferred. No post or back is visible in the photo.",
+    "evidence": "Both pre-punched card holes are empty, at about (600,700) and (1015,710). The earrings are held through the card at a different point. My 5x zoom (audit_K12/posts_x5.png) shows a matching dark notch with a sliver of gold on the inner edge of each tusk at about (612-620,875-895) and (993-1000,878-898). That is about 105 px (about 6.7 mm) below the tusk tips at y780/783. This fits a post on the back of the tusk, and the point lies on the card front, so it is not a threader. The back type is unknown. Please confirm with Aditya that it is a post with a butterfly back. The worn photos (W1/W2) must not show a fitting that contradicts this."
+   },
+   {
+    "severity": "note",
+    "claim": "The size figures (22 x 15 mm, pear 9 x 7 mm) depend on a 6% perspective correction to the thumbnail scale. The honest range is about 20.5-23.5 mm long. The copy says \"approximately\", and that covers the range.",
+    "evidence": "My spot checks: (1) The thumbnail at x=380 has lateral folds at about y207-210 and y442-446, so about 234 px wide (the notes say 233). That gives 16.6 px/mm at 14 mm, and 15.7 px/mm after the correction. (2) A gold mask (R>120, R-B>60, G-B>30) puts the left earring at rows y782-1123 and columns x541-774, so 341 x 233 px. Adding about 2-3 px of edge per side gives about 345 x 240 px, matching both measurers. At 15.7 px/mm that is 22.0 x 15.3 mm, as in the copy. At the uncorrected 16.6 px/mm it is 20.8 x 14.4 mm. Measurer A's reading of a 50 x 40 mm card also points to about 20.5 x 14 mm, while a 15-16 mm male thumbnail would give 23-24 mm. The house rule's 18 mm finger does not apply here, because the visible digit is a thumb about 330-345 px wide. A ruler on the piece or the card would settle it. No change is needed unless the owner prefers the conservative 21 x 14 mm."
+   },
+   {
+    "severity": "note",
+    "claim": "I confirmed the stone count, the claws, the orientation and the mirrored pair. Measurer B misread the stone; the copy follows measurer A, correctly.",
+    "evidence": "There are 2 earrings, 2 clear pear stones (one each) and 6 claws (three per stone). There are no other stones, no pave, no chain and no jump ring. Claw geometry on the left stone: ball claws at about (657,1027) and (742,981), and a larger claw at about (760,1107). The distances are 130 and 127 px from the large claw to the balls, and 97 px between the balls. So the large claw is the apex, which is the point, as \"two round and one over the point\" says. Right stone: balls at about (895,997) and (982,1035), large claw at about (892,1127), with distances of 130, 129 and 95 px. The same holds. The round end bulges up and outward beyond the line between the two ball claws. The arm joins at the round end, at about (670-678,995-1007). Measured along the axis, the far edge of the round end is about 148 px from the point claw, so the stone alone is 141-146 px, or about 9 mm. On the card the tusks are on the outside: the left tusk is at x541-590 and the right at x1031-1075. The pears are in the middle and point down toward each other, so the pair is a true mirror. The tip is a fine, slightly rounded point, 4 px wide at y783. The U-curl and rising arm fit \"curls under and rises again\"."
+   },
+   {
+    "severity": "note",
+    "claim": "The draft has no photos and no size-guide image yet. Both must be added before it goes live.",
+    "evidence": "In product(id) the media nodes are empty, and the description has no size-guide <img>. Sibling drafts such as Petite Pear Solitaire Studs and Pear Baguette Duet Studs already carry a \"Size guide —\" image and a plaster-block photo. The planned set is K12_H, K12_W1, K12_W2, K12_M and a size card reading \"22 mm long · pear 9 × 7 mm\". The worn shots cannot be checked against the photo, because the photo does not show how the earring sits on the ear."
+   },
+   {
+    "severity": "note",
+    "claim": "The tag \"18k Gold Tone Plated\" suggests 18k plating, and the card does not show that.",
+    "evidence": "This is the standard house tag on every gold-tone Aditya product, for example Clover Drop Earrings and Twin Heart Studs. The supplier card shows only \"STAINLESS STEEL\". It is not a banned term, and the copy itself makes no plating, PVD or anti-tarnish claim. It is listed here only so the owner knows it is not backed by this photo."
+   }
+  ],
+  "summary": "K12 \"Pear Tusk Earrings\" (gid://shopify/Product/10422037119138) has no blockers. The listing data is correct: status DRAFT, price 1015.00 (= 290 x 3.5), cost 290.0, 10 units tracked, no compare-at price, and SKU ADT41 is used only by this product. No banned words or claims appear in the title, handle, description, details, SEO or tags. Every \"gold\" is either \"gold tone\" or the accepted \"gold claws\".\n\nThe photo bears out the description: 2 mirrored earrings, 1 clear pear per earring and 3 claws each. Each stone has two ball claws at the round end and a larger claw over the point, so measurer A was right and measurer B was wrong. The copy follows A. Each earring is a tapered tusk with a fine point, a U-curl and a rising arm, and the J is open.\n\nThe sizes (22 x 15 mm, pear 9 x 7 mm) match the notes' final_sizes, and my own pixel checks reproduce them: thumbnail about 234 px, left earring 341-345 x 233-240 px, scale 15.7 px/mm. The styling tip names an ACTIVE product.\n\nTwo small wording fixes:\n- Change \"for a matched pear\" to \"to echo the pear at the neck\". The necklace pear is 6 x 8 mm and point up.\n- Relabel \"Metal: Stainless steel\" as \"Material: Stainless steel\", as the other listings do.\n\nOpen questions for the owner:\n- The post closure is inferred from notches beside each tusk at about (616,885) and (997,888), not seen.\n- The 22 mm length relies on a 6% perspective correction. The uncorrected figure is about 21 mm; the full range is 20.5-23.5 mm.\n- Stainless steel comes only from a generic stock card.\n- The draft has no photos or size-guide image yet.\n- The house tag \"18k Gold Tone Plated\" is not supported by the card.\n\nWorking crops are in /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/audit_K12/ (stoneL_x4.png, stoneR_x4.png, thumb_ticks.png, posts_x5.png)."
+ },
+ {
+  "k": "K13",
+  "findings": [
+   {
+    "severity": "fix",
+    "claim": "The phrase \"about 1cm apart\" (in the body and in the Details Size line) is only true centre to centre. A shopper reading it as the gap between stones will expect about twice the space there is.",
+    "evidence": "Station centres (my re-check matches the notes): B1 (559.5,762.0), C1 (616.9,892.5), B2 (696.6,1009.5), C2 (837.3,1046.6), B3 (971.8,995.8), C3 (1050.1,876.9), B4 (1095.4,741.0). The six gaps are 142.6, 141.6, 145.5, 143.8, 142.4 and 143.3 px, which is 10.1-10.4 mm at 14.03 px/mm. I re-measured the card at 1120-1126 px wide on rows y=500-1300. The edge-to-edge gap is far smaller. B1 rim (r about 36.5 px) to C1 stone edge (r about 30.5 px) is 142.6 - 67 = 75.6 px = 5.4 mm, and both measurers found 5.1-5.6 mm. In the photo the visible gap is about one bezel width, not 1cm.",
+    "suggested_text": "Body: \"...spacing them about 1cm apart, centre to centre...\". Details: \"Size: Jewelled front approximately 6.5cm long, the stones about 1cm apart centre to centre\""
+   },
+   {
+    "severity": "fix",
+    "claim": "The body (and the SEO description) says the stones are \"set along a fine gold tone cable chain\" and that \"Small round rings link each stone to the next\". The connectors are not cable chain, and the oval link in each one is left out.",
+    "evidence": "My 4x crop of the B2-C2 gap (src x 690-850, y 960-1060) and the notes for all six gaps show the same connector: a round ring about 2 mm (27-31 px, e.g. x 737-766 / y 985-1013), then one small oval link, then a second round ring about 2 mm (x 779-805 / y 1002-1031). The roughly 1 mm cable chain (face-on links 15-18 px across at x 498-516, y 437-449) only starts at the top loops of the end bezels B1 and B4 and runs up to the card slits. As written, the first sentence says the stones sit on the cable chain and the second says rings join them, so the two sentences contradict each other.",
+    "suggested_text": "Body: \"Seven round stones, bezel and claw in turn. Seven round clear cubic zirconia, each about 4mm, alternate between smooth polished bezels about 5mm across and slim three-claw settings, with a claw-set stone at the centre. Two small round rings and an oval link join each stone to the next, spacing them about 1cm apart, centre to centre, along a jewelled front about 6.5cm long that hangs from a fine gold tone cable chain.\"  SEO description (also shortens 229 chars to about 150): \"Seven round clear cubic zirconia of about 4mm in alternating polished bezels and three-claw settings, on a fine gold tone cable chain. By Naira Petite.\""
+   },
+   {
+    "severity": "fix",
+    "claim": "The phrases \"across a front of about 6.5cm\" and \"Jewelled front approximately 6.5cm\" are measured along the line of stones, not across. \"Across\" reads as the width the piece covers, which is much smaller.",
+    "evidence": "The 6.5cm is 859.0 px of centre-to-centre gaps plus two half-bezels of about 36.5 px each, 932 px = 66.4 mm, following the stones. Laid on the card, the jewelled section spans only x 523-1132 = 609 px = 4.3 cm wide (and 2.7 cm deep). Worn round the neck, its straight-line width will also be under 6.5cm.",
+    "suggested_text": "\"...along a jewelled front about 6.5cm long...\" / \"Size: Jewelled front approximately 6.5cm long\""
+   },
+   {
+    "severity": "note",
+    "claim": "The necklace length, clasp and extender are unknown, and the Details have no Length or Closure line. The live necklaces carry one (Round Solitaire Pendant: \"Length: Approximately 45cm\"), and README open item 7 says to add a Length line before K13 goes live.",
+    "evidence": "Both strands pass through the card's corner slits at about (494,382) and (1159,386), run behind the card, and leave the frame at y=1600 at x about 525 and x about 905-950. No clasp or extender is visible anywhere. Only about 11.4 cm of chain (slit to slit) is measurable.",
+    "suggested_text": "After a tape measure on one piece: add \"<li>Length: Approximately __cm, with a __cm extender</li>\" and \"<li>Closure: __ clasp</li>\" to the Details. Re-check that \"open neckline\" in the tip still suits the measured length."
+   },
+   {
+    "severity": "note",
+    "claim": "The draft has 0 media and no size-guide image. README says none of the batch-2 six should be set Active before its photos are in.",
+    "evidence": "product.media(first:10) returned []. The description has no size-guide <img>, which other drafts such as Mixed Cut Quartet Ring already have. listing_entry.sizeguide plans \"Front 6.5 cm · stones 4 mm\". If the spacing wording is changed, the size card's callouts should match it.",
+    "suggested_text": ""
+   },
+   {
+    "severity": "note",
+    "claim": "Stone size: the copy says about 4mm, and the photo measures 4.3 mm at the house 80 mm card scale. That is defensible but deserves one caliper check, because the house snapped up to the standard size on other pieces in this batch (K03 7.6x5.7 to 8x6, K08 4.6x2.3 to 5x2.5) and snapped down here.",
+    "evidence": "My half-max chords: C1 x 587-647 (61 px), C2 x 807.5-867.9 at y=1047 (60.4 px), C3 x 1020-1079 (60 px), so 4.28-4.35 mm at 14.03 px/mm. Bezel outers are B1 x 523-596 (74 px) and B4 x 1059-1133 (75 px), 5.1-5.3 mm, which supports \"about 5mm\". The window-to-cup ratio of about 0.80 suits a 4mm stone in a 5mm cup. If the card is really about 73 mm (README open question), the stones are 3.9 mm. So \"about 4mm\" is the cautious choice. If a caliper reads 4.5, change the body, the Stones line, the SEO and the size card.",
+    "suggested_text": ""
+   },
+   {
+    "severity": "note",
+    "claim": "Units are set to 10 for #24 without the owner confirming. The owner said \"All we got 10 each\" only for the first seven pieces.",
+    "evidence": "variants.inventoryQuantity = 10. README open item 9.",
+    "suggested_text": ""
+   }
+  ],
+  "verdict": "fix",
+  "summary": "I found nothing false and no house rule broken, but three wording fixes are needed before K13 goes live, and the owner has open questions.\n\nChecked against the supplier photo:\n- **Stones and settings:** 7 round clear stones, in the order bezel, claw, bezel, claw (the centre and lowest stone), bezel, claw, bezel. That is 4 smooth plain bezels and 3 three-claw settings, 9 claws in all (C1 claws at 12/4/8 o'clock, C2 at 10/2/6, C3 at 12/8/4).\n- **Connectors:** 6 identical ones, each a round ring, an oval link and a second round ring.\n- **Chain and metal:** a fine cable chain about 1 mm, yellow gold tone throughout. No clasp is visible.\n- **Supplier details:** #24 is written at bottom left and ₹300 at top right.\n\nSpot-checked measurements:\n- **Card:** 1120-1126 px wide on rows y=500-1300, so 14.03 px/mm.\n- **Claw stones:** 60-61 px, about 4.3 mm.\n- **Bezels:** 74-75 px, about 5.2 mm.\n- **Spacing:** 141.6-145.5 px centre to centre, 10.1-10.4 mm.\n- **Jewelled front:** 932 px along the stones, about 6.6 cm.\n\nEvery size in the copy follows from spec.final_sizes. The disagreement between the two measurers was settled on the card scale, as the brief prefers.\n\nDraft data, all correct:\n- Price 1050.00 (300 x 3.5), cost per item 300.0, 10 units, status DRAFT, no compare-at price.\n- SKU ADT42 is unique.\n- No banned words: only \"gold tone\" is used. Tag \"18k Gold Tone Plated\" is on every Aditya product, live ones included (Midnight Rivière Bracelet, Sorbet Rivière Bracelet). There are no waterproof, tarnish, hypoallergenic or PVD claims, and the Care and box lines match the house template.\n- The styling tip names no product, so it meets the active-only rule.\n\nFixes:\n- **Spacing:** \"about 1cm apart\" is centre to centre. The visible metal-to-stone gap is about 5.4 mm.\n- **Connectors:** \"set along a fine gold tone cable chain\" with \"small round rings\" is wrong. The stations are joined by ring, oval link, ring connectors, and the cable chain starts only at the end bezels.\n- **Front length:** \"across a front of about 6.5cm\" is measured along the stones. Laid on the card it is about 4.3 cm wide.\n\nBefore Active, for the owner:\n- Add the Length and Closure lines (README open item 7). The length needs a tape measure on one piece.\n- Add the photos and size guide: the draft has 0 media.\n- Confirm the stone size, 4 or 4.5 mm, with one caliper reading.\n- Confirm 10 units."
+ },
+ {
+  "k": "shopify",
+  "verdict": "pass",
+  "findings": [
+   {
+    "severity": "note",
+    "claim": "Live data matches the payload for all six products: title, handle, status, vendor, productType, category, tags, descriptionHtml, SEO, SKU, price, cost, inventory, policy, compare-at and metafields.",
+    "evidence": "I read all six with nodes(ids) and diffed them in a script against ship_26nov_b2.json k08..k13. Every field matched, and descriptionHtml matched byte for byte, including the \\n after <ul> and after each </li>. Status is DRAFT on all six. Variant ids match pushed_26nov_b2.json. Each product has one Default Title variant with inventoryPolicy DENY and compareAtPrice null. Inventory is tracked, with available 10 and on_hand 10 at Location/76267389090 (Forest Colony Parijat Nagar), the only inventory level. unitCost is 155/290/260/320/290/300 INR and price is 543/1015/910/1120/1015/1050. The metafields match: mm-google-shopping google_product_category plus gender/age_group/condition, and mc-facebook google_product_category 200/200/194/194/194/196. Only the two rings carry shopify.ring-size, pointing to metaobjects 5, 6, 7 and 8. Taxonomy is aa-6-9 Rings, aa-6-6 Earrings and aa-6-8 Necklaces. The only extra metafields are the global.title_tag/description_tag that Shopify writes from the SEO fields."
+   },
+   {
+    "severity": "note",
+    "claim": "House price and cost rules hold for every photo.",
+    "evidence": "Prices written on the supplier photos: K08_src ₹155, K09_src '₹290 each' (lower ring only, pearl ring excluded), K10 ₹260, K11 ₹320, K12 ₹290, K13 ₹300. At 3.5x, rounded half up, these give 542.5→543, 1015, 910, 1120, 1015 and 1050, the same as live. Cost per item is the supplier price for all six. There is no compare-at price and every product has 10 units."
+   },
+   {
+    "severity": "note",
+    "claim": "Media and the size-guide images are correct.",
+    "evidence": "K08 and K09 each have exactly one MediaImage (47072686145698 and 47072686309538). Both are READY, 1600x1600, and carry alt 'Size guide — <title>'. The CDN filename was not renamed. K10 to K13 have mediaCount 0. Both description <img> URLs (…/files/marquise-duet-open-ring-size-guide.jpg and …/mixed-cut-quartet-ring-size-guide.jpg) answered HTTP 200 image/jpeg to curl. The downloaded files match the local cards/ files with a mean difference of 0.32 and 0.30 out of 255. The Files library has no duplicate copies of these names and no files for the four non-ring handles."
+   },
+   {
+    "severity": "note",
+    "claim": "Channels are right and nothing is live.",
+    "evidence": "All six publications (164676042914 Online Store, 164676108450 POS, 167637745826 Facebook & Instagram, 175106293922 Google & YouTube, 180607254690 Naira Headless, 180607746210 Lovable) read autoPublish false. They are the only publications in the store. Each product has resourcePublicationsCount(onlyPublished:false)=6 and onlyPublished:true=0. resourcePublicationsV2(onlyPublished:false) lists exactly those six with isPublished false and publishDate null. publishedAt and onlineStoreUrl are null on all six. Note that the older resourcePublications(onlyPublished:false) returns an empty list for these drafts, so check with V2 or the count."
+   },
+   {
+    "severity": "note",
+    "claim": "There are no duplicate products for these handles or SKUs.",
+    "evidence": "productVariants with sku:ADT37..ADT42, plus prefix searches ADT3* and ADT4*, return one variant each, all on the six expected products. ADT30 to ADT36 are the batch-1 drafts and there is nothing above ADT42. Product searches by handle (exact and handle:<stem>*), by SKU and by title wildcard (*Duet*, *Quartet*, *Cushion*, *Teardrop*, *Tusk*, *Station*, *Seven*) find only the six drafts plus unrelated existing pieces such as cushion-solitaire-ring and teardrop-lariat. No -1 or -2 handles exist."
+   },
+   {
+    "severity": "note",
+    "claim": "The copy passes the banned-word and claim scan.",
+    "evidence": "I scanned title, description, SEO and tags for: diamond, real/solid gold, silver, freshwater, emerald, ruby, huggie, waterproof, tarnish, hypoallergenic, PVD, sterling and 925. None appear. Every 'gold' is either 'gold tone' or a colour word for a part: 'gold claws' (K09, K10, K12), 'gold rim' (K08) and 'tiny gold beads' (K11). The beads follow the same house pattern as claws and rim. K12's 'Metal: Stainless steel' comes only from the printed supplier card, as the README says. Every size is worded as about or approximately. My spot checks on the photos agree with the measurement notes: K10 is about 122x152 px on a 1109 px card, so 8.8x11 mm. K13 has 4 bezels and 3 claw settings, centre claw-set, about 143 px pitch, so about 1 cm, and about 930 px along the curve, so about 6.5 cm. K12 is about 340x235 px at 15.7 px/mm, so about 22x15 mm."
+   },
+   {
+    "severity": "note",
+    "claim": "All five pieces named in styling tips are ACTIVE, but three are sold out right now.",
+    "evidence": "The tips name Marquise Layering Set (ACTIVE, 8 in stock, productType Necklace), Lumière Oval Solitaire Ring (ACTIVE, ADT23 inventoryQuantity -1, availableForSale false), Cushion Solitaire Ring (ACTIVE, ADT21 qty 0, availableForSale false), Teardrop Lariat (ACTIVE, YF8396 qty 0, availableForSale false) and Petite Pear Solitaire Necklace (ACTIVE, 5 in stock). The house rule (name only ACTIVE products) is met. However, the K09, K10 and K11 tips point to pieces a shopper cannot buy today, and the Lumière ring is oversold at -1. This is worth deciding before these drafts go Active.",
+    "suggested_text": "Before setting K09, K10 or K11 Active, either restock the named piece or change the tip, for example K11: 'Wear them on their own, hair tucked back, so the pavé catches the light.'"
+   },
+   {
+    "severity": "note",
+    "claim": "The creation time in the records is about 12 minutes off Shopify's.",
+    "evidence": "pushed_26nov_b2.json has \"created\": \"2026-11-26T09:40Z\" and the README says 'about 09:40 UTC'. Shopify reports createdAt 09:52:48 to 09:52:52Z and updatedAt 09:52:55 to 09:53:00Z. The media ?v=1795686771 also decodes to 09:52:51 UTC. This is a records-only nit. No earlier or duplicate products exist.",
+    "suggested_text": "Second batch, created 26 Nov, about 09:53 UTC"
+   },
+   {
+    "severity": "note",
+    "claim": "Some unconfirmed facts remain in the copy; all are already open items in the README.",
+    "evidence": "K08 and K09 say 'fits US 5 to 9', but the store's ring-size field has only 5 to 8, and measure_b2 K08 flag 2 says the tip-to-tip front may only close to about US 5-5.5 (README open item 6). K10, K11 and K12 assume 'Closure: Post'. K11 flag 1 says it could be a hinged fitting (open item 8). K13 has no Length or clasp line (open item 7). The K09 SEO description is 278 characters (K12 249, K13 229), longer than search engines show. This matches the builder's 320-character cap and batch 1, which went up to 234. None of this blocks keeping them as drafts."
+   }
+  ],
+  "summary": "I found no blockers and nothing that needs fixing. All six drafts match ship_26nov_b2.json exactly (k08 to k13): title, handle, DRAFT status, vendor, productType, taxonomy category, tags, descriptionHtml byte for byte, SEO, SKU ADT37 to ADT42, price, unitCost, inventory (tracked, 10 at Location/76267389090), DENY policy, no compare-at, and all metafields, including ring-size 5 to 8 on the two rings. Prices are 3.5 x the price written on each supplier photo, rounded half up (155→543, 290→1015, 260→910, 320→1120, 290→1015, 300→1050), and cost equals that supplier price. The two rings each have one READY size-guide image. Both description image URLs return HTTP 200 to curl and match the local cards (mean difference about 0.3 of 255). The other four have no media. All six publications read autoPublish false. Each product sits on those six channels (count 6; V2 shows isPublished false) and none is published (published count 0, publishedAt null). Searches by handle, SKU and title find no duplicates. The copy contains no banned words or claims, and every named styling-tip product is ACTIVE. Notes for the owner: three of those tip products (Lumière Oval Solitaire Ring, Cushion Solitaire Ring, Teardrop Lariat) are sold out today. The recorded creation time of 09:40 UTC should read about 09:53 UTC. Ring range, closures and the necklace length remain open items, as the README says. I wrote nothing to Shopify and edited no repo files; my scratch files (the live-data copy, CDN downloads and photo crops) are in /tmp/claude-0/-home-user-naira-scroll/81f6e48f-a340-5398-99b2-f7e22fb69d37/scratchpad/."
+ }
+]

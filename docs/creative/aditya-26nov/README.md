@@ -19,7 +19,7 @@ only the lower one (marquise, baguette, round and oval) is listed, not the pearl
 | K05 | #169-170 | Heart Solitaire Drop Studs | ADT34 | Earrings | ₹220 | ₹770 | 10 | 17.5 mm long; heart 7.5 mm; round stone 5.5 mm |
 | K06 | (none; "Adjustable") | Petite Pear Solitaire Ring | ADT35 | Ring | ₹190 | ₹665 | 10 | pear 9 × 6 mm; band 1.5 mm; adjustable, US 5 to 9 |
 | K07 | #121-124-125 | Lumière Oval Solitaire Studs | ADT36 | Earrings | ₹200 | ₹700 | 10 | 9 × 7 mm upright |
-| K08 | #13 ("Adjustable") | Marquise Duet Open Ring | ADT37 | Ring | ₹155 | ₹543 | 10 | two marquise about 5 × 2.5 mm (4.6 × 2.3 measured), point to point, about 13 mm across; band 1 mm, open at the front; adjustable, US 5 to 9 |
+| K08 | #13 ("Adjustable") | Marquise Duet Open Ring | ADT37 | Ring | ₹155 | ₹543 | 10 | two marquise about 4.5 × 2.5 mm (4.4 to 4.7 × 2.3 to 2.5 measured), point to point, about 13 mm across; band 1 mm, open at the front; adjustable, about US 6 to 8 |
 | K09 | #14 (lower ring; "₹290 each, Adjustable") | Mixed Cut Quartet Ring | ADT38 | Ring | ₹290 | ₹1015 | 10 | row about 21 × 8.5 mm: marquise 8 × 4, baguette 6 × 3, round 6, oval 8 × 6 mm; adjustable, US 5 to 9 |
 | K10 | #150 | Cushion Solitaire Studs | ADT39 | Earrings | ₹260 | ₹910 | 10 | elongated cushion 11 × 9 mm upright (11.0 × 8.8 measured) |
 | K11 | #148 | Pavé Teardrop Dome Earrings | ADT40 | Earrings | ₹320 | ₹1120 | 10 | 20 × 10.5 mm; about 70 stones of about 1.5 mm each |
@@ -129,7 +129,22 @@ filenames were checked free just before.
 | K12 | ADT41 | Pear Tusk Earrings | ₹1015 | 10 | 0 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10422037119138) |
 | K13 | ADT42 | Seven Stone Station Necklace | ₹1050 | 10 | 0 | [open](https://admin.shopify.com/store/nc5eti-gp/products/10422037184674) |
 
-- The two rings' size cards (adjustable, US 5 to 9) are READY and downloaded back from the Shopify CDN identical to the local
+- **Audit and fixes.** After the create, an independent read-only audit checked each draft against its supplier photo (one
+  skeptic per piece) and the Shopify data against the payload (`shopify/audit_26nov_b2.json`). The data was exact. It found one
+  real error and some loose wording, all fixed the same morning (`shopify/fix_26nov_b2.graphql` and `.json`; the live copy was
+  read back and matches `ship_26nov_b2.json` exactly):
+  - The marquise ring (K08) had the house "fits US 5 to 9". Its stones meet point to point at the front with a gap of about
+    2 mm, and as photographed it sits at about US 6, so it cannot close to US 5 and would need a gap of about 9 mm to reach
+    US 9. It now says "fits about US 6 to 8"; its ring-size field is 6, 7, 8; its stones read about 4.5 × 2.5 mm (measured
+    4.4 to 4.7 mm long), not the stock 5 × 2.5. Its card was redrawn and replaced in place (same file, new version); the
+    description links the card's `?v=` version because the plain CDN address of a replaced file stays cached for up to a year.
+  - Wording: the quartet ring's round and oval sizes now say about, and its slanted marquise is described; the cushion studs'
+    claws are ball-tipped, their size reads tall by wide, and their tip no longer calls the ring a matched pair; the pavé
+    earrings mention the forked lane of gold beads and give the size as a front view; the pear earrings' line reads Material
+    (as on the live listings) and their tip says echo, not matched; the necklace's stones are about 1 cm apart centre to centre,
+    along (not across) a 6.5 cm front, joined by two small rings and an oval link each. Search descriptions were shortened
+    to about 150 characters where they ran long (`seo` in `listing.json`).
+- The two rings' size cards (K08 adjustable about US 6 to 8, K09 US 5 to 9) are READY and downloaded back from the Shopify CDN identical to the local
   files (`shopify/cdn_check_26nov_b2.txt`); their MediaImage ids are in `pushed_26nov_b2.json`. The four others have their
   card drawn on their packshot, so they have no media yet and no size-guide image in the description. None of the six
   should be set Active before its photos are in.
@@ -150,8 +165,8 @@ here until the owner confirms these seven are PVD.
 3. The pendant's chain length is not measured (the chain runs behind the card). A tape measure on one piece settles it.
 4. PVD lines and compare-at prices, if the owner wants them as on the older Aditya listings.
 5. A ruler across one velvet card (80 mm or about 73 mm; see Sizes).
-6. The rings, on a piece in hand: that the marquise ring (K08) closes to US 5 and opens to US 9 (its stones meet point to
-   point at the front, so the range is narrower than a back-opening ring); and the quartet ring's band (K09), which is hidden
+6. The rings, on a piece in hand: the marquise ring's (K08) range on a mandrel (listed as about US 6 to 8 from the photo; its
+   stones meet point to point at the front, so it adjusts less than a back-opening ring); and the quartet ring's band (K09), which is hidden
    in the photo (width, open at the back), and whether its marquise is always set at a slight slant, as photographed.
 7. The necklace's (K13) length, clasp and extender: the chain runs behind the card. Add a Length line before it goes live.
 8. Closures for K10 to K12 (posts are hidden in the photos; "Closure: Post" is assumed), and how K12 sits on the ear.

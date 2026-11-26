@@ -1,0 +1,10 @@
+mutation Aditya26NovB2Fix($p08: ProductUpdateInput!, $p09: ProductUpdateInput!, $p10: ProductUpdateInput!, $p11: ProductUpdateInput!, $p12: ProductUpdateInput!, $p13: ProductUpdateInput!, $ring: [MetafieldsSetInput!]!, $card: [FileUpdateInput!]!) {
+  u08: productUpdate(product: $p08) { product { id handle status seo { description } } userErrors { field message } }
+  u09: productUpdate(product: $p09) { product { id handle status seo { description } } userErrors { field message } }
+  u10: productUpdate(product: $p10) { product { id handle status seo { description } } userErrors { field message } }
+  u11: productUpdate(product: $p11) { product { id handle status seo { description } } userErrors { field message } }
+  u12: productUpdate(product: $p12) { product { id handle status seo { description } } userErrors { field message } }
+  u13: productUpdate(product: $p13) { product { id handle status seo { description } } userErrors { field message } }
+  ring: metafieldsSet(metafields: $ring) { metafields { key value } userErrors { field message code } }
+  card: fileUpdate(files: $card) { files { id fileStatus alt ... on MediaImage { image { url } } } userErrors { field message code } }
+}

@@ -15,7 +15,8 @@ PUBS = ["164676042914", "164676108450", "167637745826", "175106293922", "1806072
 CARE = "Keep it dry and away from perfume and harsh chemicals. Wipe with a soft dry cloth and store it flat in its pouch."
 # The store's ring-size category entries (shopify--ring-size metaobjects 5, 6, 7, 8), as on the live Lumière Oval Solitaire Ring,
 # so the adjustable rings show in the storefront's size filter. There is no US 9 entry in the store.
-RING_SIZES = ["gid://shopify/Metaobject/246807953570", "gid://shopify/Metaobject/246807986338", "gid://shopify/Metaobject/246807920802", "gid://shopify/Metaobject/643878125730"]
+RING_MO = {"5": "gid://shopify/Metaobject/246807953570", "6": "gid://shopify/Metaobject/246807986338", "7": "gid://shopify/Metaobject/246807920802", "8": "gid://shopify/Metaobject/643878125730"}
+RING_SIZES = list(RING_MO.values())   # default; a listing may narrow it with "ring_sizes" (the marquise duet ring fits about US 6 to 8)
 CAT = {"Necklace": ("aa-6-8", "Necklaces", "196"), "Earrings": ("aa-6-6", "Earrings", "194"), "Ring": ("aa-6-9", "Rings", "200")}
 e = html.escape
 def first_sentence(s): return re.split(r"(?<=[.!?])\s", s.strip())[0]
@@ -25,15 +26,17 @@ HOLD_MEDIA = {"K02"}
 ONLY = None   # set by the command line: the keys to create in this run (default: every listing)
 def product(p):
     t, typ = p["title"], p["type"]; cat, gleaf, fb = CAT[typ]; card = f"{p['handle']}-size-guide.jpg"
+    # a card replaced after the create keeps its filename but the plain CDN URL stays cached for a year: link its ?v= version
+    src = f"{CDN}{card}" + (f"?v={p['card_v']}" if p.get("card_v") else "")
     if p["key"] in HOLD_MEDIA: URL_ = {}
     else: URL_ = URL
     body = (f"<p>{e(p['tagline'])} {e(p['body'])}</p><p><strong>STYLING TIP:</strong> {e(p['tip'])}</p><p><strong>Details</strong></p><ul>\n"
             + "".join(f"<li>{e(x)}</li>\n" for x in p["details"]) + "</ul>"
-            + f"<p><img src=\"{CDN}{card}\" alt=\"Size guide — {e(t)}\" width=\"420\"></p>"
+            + f"<p><img src=\"{src}\" alt=\"Size guide — {e(t)}\" width=\"420\"></p>"
             + f"<p><strong>Care</strong></p><p>{e(CARE)}</p><p>You will receive your piece in a Naira Petite box.</p>")
     files = [{"originalSource": URL_[EMAP[slot]], "alt": f"{t} — {alt}", "contentType": "IMAGE"} for slot, alt in p["images"] if slot in EMAP and EMAP[slot] in URL_]
     has_card = card in URL_                                       # a piece whose card is not drawn yet ships without it
-    if not has_card: body = body.replace(f"<p><img src=\"{CDN}{card}\" alt=\"Size guide — {e(t)}\" width=\"420\"></p>", "")
+    if not has_card: body = body.replace(f"<p><img src=\"{src}\" alt=\"Size guide — {e(t)}\" width=\"420\"></p>", "")
     else: files.append({"originalSource": URL_[card], "filename": card, "alt": f"Size guide — {t}", "contentType": "IMAGE"})
     variant = {"optionValues": [{"optionName": "Title", "name": "Default Title"}], "sku": p["sku"], "price": f"{p['price']:.2f}",
                "inventoryPolicy": "DENY", "inventoryItem": {"tracked": True, "cost": f"{p['cost']:.2f}"},
@@ -42,14 +45,14 @@ def product(p):
     tags = sorted({typ, "Demi Fine", "Naira Petite", "Aditya", "18k Gold Tone Plated", *p["extra_tags"]})
     return {"title": t, "handle": p["handle"], "status": "DRAFT", "vendor": "Naira Petite", "productType": typ,
             "category": f"gid://shopify/TaxonomyCategory/{cat}", "tags": tags, "descriptionHtml": body,
-            "seo": {"title": f"{t} — {typ} | Naira Petite", "description": f"{first_sentence(p['body'])} {t} by Naira Petite."[:320]},
+            "seo": {"title": f"{t} — {typ} | Naira Petite", "description": p.get("seo") or f"{first_sentence(p['body'])} {t} by Naira Petite."[:320]},
             "productOptions": [{"name": "Title", "values": [{"name": "Default Title"}]}], "variants": [variant], "files": files,
             "metafields": [{"namespace": "mm-google-shopping", "key": "google_product_category", "type": "single_line_text_field", "value": f"Apparel & Accessories > Jewelry > {gleaf}"},
                            {"namespace": "mm-google-shopping", "key": "gender", "type": "single_line_text_field", "value": "Female"},
                            {"namespace": "mm-google-shopping", "key": "age_group", "type": "single_line_text_field", "value": "Adult"},
                            {"namespace": "mm-google-shopping", "key": "condition", "type": "single_line_text_field", "value": "New"},
                            {"namespace": "mc-facebook", "key": "google_product_category", "type": "single_line_text_field", "value": fb}]
-                          + ([{"namespace": "shopify", "key": "ring-size", "type": "list.metaobject_reference", "value": json.dumps(RING_SIZES)}] if typ == "Ring" else [])}
+                          + ([{"namespace": "shopify", "key": "ring-size", "type": "list.metaobject_reference", "value": json.dumps([RING_MO[x] for x in p["ring_sizes"]] if p.get("ring_sizes") else RING_SIZES)}] if typ == "Ring" else [])}
 if __name__ == "__main__":
     import sys
     args = sys.argv[1:]; NAME = "ship_26nov"

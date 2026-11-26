@@ -25,7 +25,8 @@
     {
      "kind": "size card",
      "media_image_id": "gid://shopify/MediaImage/47072686145698",
-     "filename": "marquise-duet-open-ring-size-guide.jpg"
+     "filename": "marquise-duet-open-ring-size-guide.jpg",
+     "card_version": "1795687958"
     }
    ],
    "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422036856994"
@@ -101,5 +102,10 @@
    "media": [],
    "admin": "https://admin.shopify.com/store/nc5eti-gp/products/10422037184674"
   }
+ },
+ "fixed": {
+  "at": "2026-11-26T10:20Z",
+  "mutation": "shopify/fix_26nov_b2.graphql + fix_26nov_b2.json, then the K08 description re-linked to the card's ?v=1795687958",
+  "what": "copy fixes from the independent audit (shopify/audit_26nov_b2.json) on all six; K08 fit US 6 to 8 (ring-size field 6, 7, 8), stones 4.5 x 2.5 mm, card redrawn and replaced in place"
  }
 }

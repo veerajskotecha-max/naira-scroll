@@ -345,11 +345,11 @@
   "cost": 155,
   "sku": "ADT37",
   "tagline": "Two small marquise, meeting in the middle.",
-  "body": "A slim polished band about 1mm wide is open at the front, and each end finishes in one marquise cut clear cubic zirconia, about 5mm by 2.5mm, lying across the finger. The two stones meet point to point over a small gap, about 13mm across in all, and the open band adjusts to fit US 5 to 9.",
+  "body": "A slim polished band about 1mm wide is open at the front, and each end finishes in one marquise cut clear cubic zirconia, about 4.5mm by 2.5mm, lying across the finger. The two stones meet point to point over a small gap, about 13mm across in all. The band eases a little wider or closer at the gap, to fit about US 6 to 8.",
   "tip": "Wear it on its own on the index finger, or with the Marquise Layering Set.",
   "details": [
-   "Size: Adjustable, fits US 5 to 9",
-   "Stones: Two marquise cut clear cubic zirconia, approximately 5mm by 2.5mm each",
+   "Size: Adjustable at the front, fits about US 6 to 8",
+   "Stones: Two marquise cut clear cubic zirconia, approximately 4.5mm by 2.5mm each",
    "Setting: A thin gold rim and a claw at each point",
    "Band: Plain polished, approximately 1mm, open at the front between the stones",
    "Finish: Polished gold tone"
@@ -378,15 +378,21 @@
   ],
   "sizeguide": {
    "kind": "ring",
-   "line": "Adjustable · fits US 5 to 9 · two 5 × 2.5 mm marquise",
+   "line": "Adjustable · fits about US 6 to 8 · two 4.5 × 2.5 mm marquise",
    "fit": [
-    "5",
-    "9"
+    "6",
+    "8"
    ]
   },
   "price": 543,
   "units": 10,
-  "care": "plain"
+  "care": "plain",
+  "ring_sizes": [
+   "6",
+   "7",
+   "8"
+  ],
+  "card_v": "1795687958"
  },
  {
   "key": "K09",
@@ -397,13 +403,13 @@
   "cost": 290,
   "sku": "ADT38",
   "tagline": "Four cuts, one row.",
-  "body": "Four clear cubic zirconia, each a different cut, sit side by side across the finger: a marquise of about 8mm by 4mm, a slim baguette of about 6mm by 3mm, a 6mm round and an 8mm by 6mm oval, each laid lengthways in its own fine gold claws. Together they make a row about 21mm across, wide enough to cover the finger. The ring is adjustable, to fit US 5 to 9.",
+  "body": "Four clear cubic zirconia, each a different cut, sit side by side across the finger: a marquise of about 8mm by 4mm, a slim baguette of about 6mm by 3mm, a round of about 6mm and an oval of about 8mm by 6mm, each in its own fine gold claws, the marquise at a slight slant. Together they make a row about 21mm across, wide enough to cover the finger. The ring is adjustable, to fit US 5 to 9.",
   "tip": "Wear it on its own as the statement, or beside the Lumière Oval Solitaire Ring to echo its oval.",
   "details": [
    "Size: Adjustable, fits US 5 to 9",
    "Top: A row approximately 21mm across and 8.5mm along the finger",
    "Stones: Four clear cubic zirconia: a marquise approximately 8mm by 4mm, a baguette approximately 6mm by 3mm, a round approximately 6mm and an oval approximately 8mm by 6mm",
-   "Setting: Fine gold claws, each stone set lengthways along the finger",
+   "Setting: Fine gold claws; the stones run lengthways along the finger, the marquise at a slight slant",
    "Finish: Polished gold tone"
   ],
   "images": [
@@ -438,7 +444,8 @@
   },
   "price": 1015,
   "units": 10,
-  "care": "plain"
+  "care": "plain",
+  "seo": "Four clear cubic zirconia in one row: marquise, baguette, round and oval, each in fine gold claws. Adjustable. Mixed Cut Quartet Ring by Naira Petite."
  },
  {
   "key": "K10",
@@ -449,12 +456,12 @@
   "cost": 260,
   "sku": "ADT39",
   "tagline": "One long cushion, soft at the corners.",
-  "body": "Each stud is a single elongated cushion cut clear cubic zirconia, about 11mm by 9mm, standing upright in four slim gold claws, one at each softly rounded corner. A clean solitaire with a little more presence than an everyday stud.",
-  "tip": "Wear them with the Cushion Solitaire Ring for a matched pair of cushions.",
+  "body": "Each stud is a single elongated cushion cut clear cubic zirconia, about 11mm by 9mm, standing upright in four small ball-tipped gold claws, one at each softly rounded corner. A clean solitaire with a little more presence than an everyday stud.",
+  "tip": "Wear them with the Cushion Solitaire Ring for cushion cut stones at the ear and on the hand.",
   "details": [
-   "Size: Approximately 11mm by 9mm",
+   "Size: Approximately 11mm tall by 9mm wide",
    "Stone: Elongated cushion cut clear cubic zirconia, worn upright",
-   "Setting: Four slim gold claws, one at each corner",
+   "Setting: Four ball-tipped gold claws, one at each corner",
    "Closure: Post",
    "Finish: Polished gold tone"
   ],
@@ -485,7 +492,8 @@
   },
   "price": 910,
   "units": 10,
-  "care": "plain"
+  "care": "plain",
+  "seo": "Elongated cushion cut clear cubic zirconia studs, about 11mm by 9mm, upright in four ball-tipped gold claws. Cushion Solitaire Studs by Naira Petite."
  },
  {
   "key": "K11",
@@ -496,10 +504,10 @@
   "cost": 320,
   "sku": "ADT40",
   "tagline": "A teardrop of pavé, tip to curl.",
-  "body": "Each earring is a tapered dome in gold tone, about 20mm long and 10.5mm wide, narrow and rounded at the top and broad at the bottom, where it curls softly back. Its whole front is set edge to edge with about 70 small round clear cubic zirconia, each about 1.5mm and held by tiny gold beads. All the sparkle of a statement earring, close to the ear.",
+  "body": "Each earring is a tapered dome in gold tone, about 20mm long and 10.5mm wide, narrow and rounded at the top and broad at the bottom, where it curls softly back. Its front is set edge to edge with about 70 small round clear cubic zirconia, each about 1.5mm and held by tiny gold beads, with a slim forked lane of gold beads down the upper centre. All the sparkle of a statement earring in a compact shape.",
   "tip": "Wear them with the Teardrop Lariat for pavé teardrops at the ear and at the neck.",
   "details": [
-   "Size: Approximately 20mm by 10.5mm",
+   "Size: Approximately 20mm long by 10.5mm wide (front view)",
    "Stones: Round clear cubic zirconia, approximately 1.5mm, about 70 on each earring",
    "Setting: Pavé, each stone held by tiny gold beads",
    "Shape: Tapered dome, narrow at the top, curling back at the bottom",
@@ -533,7 +541,8 @@
   },
   "price": 1120,
   "units": 10,
-  "care": "plain"
+  "care": "plain",
+  "seo": "Pavé earrings in gold tone: each a tapered dome about 20mm long, set with about 70 small round clear cubic zirconia. Pavé Teardrop Dome Earrings by Naira Petite."
  },
  {
   "key": "K12",
@@ -545,7 +554,7 @@
   "sku": "ADT41",
   "tagline": "A tapered tusk that curls round to a pear.",
   "body": "Each earring is one smooth, tapered tusk of polished gold tone that sweeps down from a fine point, curls under and rises again to hold a single pear cut clear cubic zirconia, about 9mm by 7mm, in three gold claws. About 22mm long and 15mm across, the two earrings are mirror images of each other.",
-  "tip": "Wear them with your hair tucked back so the curve shows, and add the Petite Pear Solitaire Necklace for a matched pear.",
+  "tip": "Wear them with your hair tucked back so the curve shows, and add the Petite Pear Solitaire Necklace to echo the pear at the neck.",
   "details": [
    "Size: Approximately 22mm by 15mm",
    "Stone: Pear cut clear cubic zirconia, approximately 9mm by 7mm",
@@ -553,7 +562,7 @@
    "Shape: A tapered tusk that curls round to the stone",
    "Pair: Mirror images, the tusks on the outside",
    "Closure: Post",
-   "Metal: Stainless steel",
+   "Material: Stainless steel",
    "Finish: Polished gold tone"
   ],
   "images": [
@@ -583,7 +592,8 @@
   },
   "price": 1015,
   "units": 10,
-  "care": "plain"
+  "care": "plain",
+  "seo": "Gold tone earrings: a tapered tusk that curls round to hold a pear cut clear cubic zirconia, about 22mm long. Pear Tusk Earrings by Naira Petite."
  },
  {
   "key": "K13",
@@ -594,10 +604,10 @@
   "cost": 300,
   "sku": "ADT42",
   "tagline": "Seven round stones, bezel and claw in turn.",
-  "body": "Seven round clear cubic zirconia, each about 4mm, are set along a fine gold tone cable chain, alternating between smooth polished bezels about 5mm across and slim three-claw settings. Small round rings link each stone to the next, about 1cm apart, across a front of about 6.5cm, with a claw-set stone at the centre.",
+  "body": "Seven round clear cubic zirconia, each about 4mm, alternate between smooth polished bezels about 5mm across and slim three-claw settings, with a claw-set stone at the centre. Two small round rings and an oval link join each stone to the next, spacing them about 1cm apart, centre to centre, along a jewelled front about 6.5cm long that hangs from a fine gold tone cable chain.",
   "tip": "Wear it on its own at an open neckline; seven stones across the front need little else.",
   "details": [
-   "Size: Jewelled front approximately 6.5cm, the stones about 1cm apart",
+   "Size: Jewelled front approximately 6.5cm long, the stones about 1cm apart centre to centre",
    "Stones: Seven round clear cubic zirconia, approximately 4mm each",
    "Setting: Four polished bezels, approximately 5mm across, alternating with three settings of three fine claws",
    "Chain: Fine cable chain, approximately 1mm",
@@ -630,6 +640,7 @@
   },
   "price": 1050,
   "units": 10,
-  "care": "plain"
+  "care": "plain",
+  "seo": "Seven round clear cubic zirconia of about 4mm in alternating polished bezels and three-claw settings, on a fine gold tone cable chain. By Naira Petite."
  }
 ]
